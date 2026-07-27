@@ -1,0 +1,169 @@
+/* ============================================================
+   Coffeedant — global stylesheet (replaces Kadence theme layer)
+   Supplies theme CSS variables, fonts, and WordPress core block
+   CSS that the migrated page HTML relies on. Per-block styling
+   ships inline inside each page's own <style> tags.
+   ============================================================ */
+
+:root{
+  /* font stacks (theme previously provided these) */
+  --global-body-font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --global-heading-font-family: Poppins, var(--global-body-font-family);
+  --ff-body: var(--global-body-font-family);
+  --ff-display: var(--global-heading-font-family);
+
+  /* Kadence global palette — approximated to the Coffeedant coffee palette */
+  --global-palette1:#8a5a30;   /* copper accent */
+  --global-palette2:#6f4e37;   /* coffee */
+  --global-palette3:#2b2621;   /* heading ink */
+  --global-palette4:#4a433c;
+  --global-palette5:#726a60;
+  --global-palette6:#d9d2c7;
+  --global-palette7:#efe9df;
+  --global-palette8:#faf7f2;   /* porcelain surface */
+  --global-palette9:#ffffff;
+
+  /* spacing scale referenced by some blocks (only --sp-1 was undefined) */
+  --sp-1:.25rem; --sp-2:.5rem; --sp-3:.75rem; --sp-4:1rem;
+  --sp-5:1.5rem; --sp-6:2rem; --sp-8:3rem;
+
+  --content-width: 860px;
+  --wide-width: 1120px;
+}
+
+*,*::before,*::after{ box-sizing:border-box; }
+
+html{ -webkit-text-size-adjust:100%; }
+body{
+  margin:0;
+  font-family:var(--global-body-font-family);
+  font-size:18px;
+  line-height:1.7;
+  color:#2b2621;
+  background:#ffffff;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:var(--global-heading-font-family);
+  line-height:1.25;
+  color:#1f1b17;
+  margin:1.6em 0 .6em;
+  font-weight:700;
+}
+h1{ font-size:2.15rem; margin-top:0; }
+h2{ font-size:1.6rem; }
+h3{ font-size:1.28rem; }
+a{ color:#8a5a30; text-decoration:underline; text-underline-offset:2px; }
+a:hover{ color:#6f4e37; }
+img{ max-width:100%; height:auto; }
+p{ margin:0 0 1.1em; }
+
+/* ---- layout ---- */
+.site{ display:flex; flex-direction:column; min-height:100vh; }
+.site-main{ flex:1 0 auto; }
+.container{ width:100%; max-width:var(--content-width); margin-inline:auto; padding:0 20px; }
+.article{ padding:34px 0 60px; }
+/* let self-contained review components breathe a little wider than prose */
+.article :where(.cd-merged-box,.cd-compare-tabs,.cd-specs-tabs,.cd-hardware-tabs,.cd-deep,.cd-verdict-emphasis){ }
+
+/* ============================================================
+   WordPress core block CSS (subset actually used by the content)
+   ============================================================ */
+.wp-block-heading{ }
+.wp-block-image{ margin:0 0 1.2em; }
+.wp-block-image img{ height:auto; }
+.wp-block-image figcaption{ font-size:.85rem; color:#726a60; text-align:center; margin-top:.4em; }
+figure{ margin:0 0 1.2em; }
+
+.aligncenter{ margin-left:auto; margin-right:auto; }
+.has-text-align-center{ text-align:center; }
+.has-text-align-right{ text-align:right; }
+.has-text-align-left{ text-align:left; }
+
+.wp-block-columns{ display:flex; flex-wrap:wrap; gap:1.5rem; margin-bottom:1.2em; }
+.wp-block-column{ flex:1 1 0; min-width:220px; }
+@media (max-width:781px){ .wp-block-columns:not(.is-not-stacked-on-mobile){ flex-direction:column; } }
+
+.wp-block-group{ margin-bottom:1.2em; }
+
+.wp-block-list{ margin:0 0 1.1em; padding-left:1.4em; }
+.wp-block-list li{ margin:.35em 0; }
+
+.wp-block-separator{ border:0; border-top:1px solid #d9d2c7; max-width:100%; margin:2em auto; opacity:1; }
+.wp-block-separator.is-style-wide{ max-width:100%; }
+.wp-block-separator:not(.is-style-wide):not(.is-style-dots){ width:110px; }
+.wp-block-separator.has-alpha-channel-opacity{ opacity:1; }
+
+.wp-block-quote{ border-left:4px solid #8a5a30; margin:1.5em 0; padding:.4em 0 .4em 1.2em; font-style:italic; color:#4a433c; }
+.wp-block-quote cite{ display:block; font-style:normal; font-size:.85rem; color:#726a60; margin-top:.5em; }
+
+.wp-block-table{ margin:0 0 1.4em; overflow-x:auto; }
+.wp-block-table table{ width:100%; border-collapse:collapse; }
+.wp-block-table.has-fixed-layout table{ table-layout:fixed; }
+.wp-block-table td,.wp-block-table th{ border:1px solid #d9d2c7; padding:.55em .7em; }
+.wp-block-table thead th{ background:#efe9df; }
+
+.wp-block-buttons{ display:flex; flex-wrap:wrap; gap:.7rem; margin:0 0 1.2em; }
+.wp-block-button__link{
+  display:inline-block; background:#8a5a30; color:#fff; text-decoration:none;
+  padding:.7em 1.4em; border-radius:6px; font-weight:600;
+}
+.wp-block-button__link:hover{ background:#6f4e37; color:#fff; }
+.wp-block-button.is-style-outline .wp-block-button__link{ background:transparent; color:#8a5a30; border:2px solid #8a5a30; }
+
+.wp-block-cover{
+  position:relative; display:flex; align-items:center; justify-content:center;
+  min-height:320px; padding:1em; overflow:hidden; background-size:cover; background-position:center;
+  color:#fff; margin-bottom:1.2em;
+}
+.wp-block-cover img.wp-block-cover__image-background{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0; }
+.wp-block-cover .has-background-dim::before,.wp-block-cover.has-background-dim::before{ content:""; position:absolute; inset:0; background:#000; opacity:.5; z-index:1; }
+.wp-block-cover__inner-container{ position:relative; z-index:2; width:100%; }
+
+.wp-block-details{ margin:0 0 1.2em; }
+.wp-block-details summary{ cursor:pointer; font-weight:600; }
+
+.wp-block-preformatted{ background:#f4f1ec; padding:1em; border-radius:6px; overflow:auto; font-size:.9rem; }
+
+.wp-block-genesis-blocks-gb-spacer{ display:block; }
+
+/* font-size utilities */
+.has-xxlarge-font-size{ font-size:2.4rem; line-height:1.15; }
+.has-xlarge-font-size{ font-size:2rem; }
+.has-large-font-size,.has-larger-font-size{ font-size:1.5rem; }
+.has-medium-font-size{ font-size:1.15rem; }
+.has-small-font-size{ font-size:.85rem; }
+
+/* palette utility fallbacks */
+.has-theme-palette-1-background-color{ background-color:var(--global-palette1); }
+.has-theme-palette-2-background-color{ background-color:var(--global-palette2); }
+
+/* ============================================================
+   Site chrome: header, nav, footer
+   ============================================================ */
+.site-header{ border-bottom:1px solid #e7e0d5; background:#fff; position:sticky; top:0; z-index:1000; }
+.site-header .container{ display:flex; align-items:center; gap:1.5rem; height:66px; max-width:var(--wide-width); }
+.brand{ display:flex; align-items:center; gap:.55rem; font-family:var(--global-heading-font-family); font-weight:700; font-size:1.25rem; color:#1f1b17; text-decoration:none; }
+.brand img{ height:34px; width:auto; }
+.main-nav{ margin-left:auto; }
+.main-nav ul{ list-style:none; display:flex; gap:1.3rem; margin:0; padding:0; }
+.main-nav a{ color:#3a332c; text-decoration:none; font-weight:500; font-size:.95rem; }
+.main-nav a:hover{ color:#8a5a30; }
+.nav-toggle{ display:none; margin-left:auto; background:none; border:0; font-size:1.6rem; cursor:pointer; }
+@media (max-width:820px){
+  .nav-toggle{ display:block; }
+  .main-nav{ display:none; position:absolute; top:66px; left:0; right:0; background:#fff; border-bottom:1px solid #e7e0d5; }
+  .main-nav.open{ display:block; }
+  .main-nav ul{ flex-direction:column; padding:1rem 20px; gap:.9rem; }
+}
+
+.site-footer{ background:#2b2621; color:#d9d2c7; margin-top:40px; padding:36px 0; font-size:.9rem; }
+.site-footer .container{ max-width:var(--wide-width); display:flex; flex-wrap:wrap; gap:1.5rem; justify-content:space-between; }
+.site-footer a{ color:#e7d9c8; }
+.site-footer nav a{ display:inline-block; margin-right:1rem; }
+
+/* ---- generated category card grids ---- */
+.cd-card-grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:1rem; margin:1.5em 0; }
+.cd-card{ display:block; border:1px solid #e2dacb; border-radius:10px; padding:1.1rem 1.2rem; text-decoration:none; background:#faf7f2; transition:.15s; }
+.cd-card:hover{ border-color:#8a5a30; box-shadow:0 4px 16px rgba(0,0,0,.06); transform:translateY(-2px); }
+.cd-card-t{ font-family:var(--global-heading-font-family); font-weight:600; color:#1f1b17; }
