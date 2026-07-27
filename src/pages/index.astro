@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro';
+import data from '../data/home.json';
+const home = data.home;
+---
+<Base title={home?.title || 'Coffeedant — Espresso Machine Reviews'} description={home?.description} canonical={'https://alekspasseo.github.io/coffeedant/'}>
+  <div class="container article">
+    <article set:html={home?.html || '<h1>Coffeedant</h1>'}></article>
+  </div>
+</Base>
