@@ -1,0 +1,30 @@
+---
+const base = import.meta.env.BASE_URL; // '/coffeedant/'
+const nav = [
+  { href: base + 'espresso-machine/', label: 'Espresso Machines' },
+  { href: base + 'grinder/', label: 'Grinders' },
+  { href: base + 'coffee-machine/', label: 'Coffee Machines' },
+  { href: base + 'blog/', label: 'Blog' },
+  { href: base + 'about/', label: 'About' },
+  { href: base + 'contact/', label: 'Contact' },
+];
+---
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href={base}>
+      <img src={base + 'wp-content/uploads/2025/09/coffeedantlogo.png'} alt="Coffeedant" width="34" height="34" onerror="this.style.display='none'" />
+      <span>Coffeedant</span>
+    </a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button>
+    <nav class="main-nav" id="site-nav">
+      <ul>
+        {nav.map((n) => (<li><a href={n.href}>{n.label}</a></li>))}
+      </ul>
+    </nav>
+  </div>
+  <script>
+    const t = document.querySelector('.nav-toggle');
+    const n = document.getElementById('site-nav');
+    t && t.addEventListener('click', () => { const o = n.classList.toggle('open'); t.setAttribute('aria-expanded', String(o)); });
+  </script>
+</header>
