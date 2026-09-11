@@ -1,0 +1,95 @@
+---
+import HomeLayout from '../layouts/HomeLayout.astro';
+import type { Brand } from '../data/catalog';
+import { machinePagesForBrand } from '../data/catalog';
+
+const { brand, pages } = Astro.props as { brand: Brand; pages: any[] };
+const base = import.meta.env.BASE_URL;
+const machines = machinePagesForBrand(brand, pages);
+const controlLabel = brand.position < 30 ? 'Convenience first' : brand.position > 75 ? 'Control first' : 'Balanced workflow';
+---
+<HomeLayout
+  title={`${brand.name} Espresso Machines: Compare the Lineup | Coffeedant`}
+  description={`${brand.name} espresso machines compared by workflow, price level, strengths, and trade-offs. Browse ${machines.length} Coffeedant reviews.`}
+  canonicalPath={brand.path}
+>
+  <main id="main-content">
+    <section class="hub-hero hub-hero-brand">
+      <div class="shell hub-hero-grid">
+        <div>
+          <a class="back-link" href={`${base}brands/`}>← All brands</a>
+          <p class="eyebrow">{brand.country} · {brand.system}</p>
+          <h1>{brand.name}, mapped.</h1>
+          <p class="hero-copy">{brand.summary}</p>
+        </div>
+        <div class="hero-facts" aria-label={`${brand.name} overview`}>
+          <div><strong>{machines.length}</strong><span>machine reviews</span></div>
+          <div><strong>{brand.range}</strong><span>price position</span></div>
+          <div><strong>{controlLabel}</strong><span>workflow</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-compact" aria-labelledby="fit-title">
+      <div class="shell">
+        <div class="section-heading">
+          <span class="section-number">01 / Brand fit</span>
+          <h2 id="fit-title">Where {brand.name} sits.</h2>
+          <p>Brand position is useful only when it helps you choose a daily routine.</p>
+        </div>
+
+        <div class="brand-fit-grid">
+          <div class="spectrum-card">
+            <div class="spectrum-labels"><span>Push-button ease</span><span>Hands-on control</span></div>
+            <div class="spectrum-line" aria-label={`${brand.name}: ${controlLabel}`}>
+              <span class="spectrum-marker" style={`left: ${brand.position}%`}><b>{brand.name}</b></span>
+            </div>
+            <p><strong>Best for:</strong> {brand.bestFor}</p>
+          </div>
+          <div class="fit-card fit-card-good">
+            <span class="fit-label">Why it belongs on a shortlist</span>
+            <ul>{brand.strengths.map((strength) => <li>{strength}</li>)}</ul>
+          </div>
+          <div class="fit-card fit-card-skip">
+            <span class="fit-label">The trade-off</span>
+            <p>{brand.tradeoff}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section guides" aria-labelledby="models-title">
+      <div class="shell">
+        <div class="section-heading">
+          <span class="section-number">02 / Reviews</span>
+          <h2 id="models-title">The {brand.name} lineup.</h2>
+          <p>Every available Coffeedant review, without making you dig through an archive.</p>
+        </div>
+        {machines.length > 0 ? (
+          <div class="model-index">
+            {machines.map((machine, index) => (
+              <a href={`${base}${machine.path.replace(/^\//, '')}`}>
+                <span>{String(index + 1).padStart(2, '0')}</span>
+                <strong>{machine.title}</strong>
+                <b aria-hidden="true">→</b>
+              </a>
+            ))}
+          </div>
+        ) : (
+          <div class="empty-panel">
+            <strong>Reviews are being organized.</strong>
+            <p>Use the main machine guide to compare this brand with the rest of the catalog.</p>
+          </div>
+        )}
+      </div>
+    </section>
+
+    <section class="section section-compact">
+      <div class="shell next-step">
+        <div><p class="eyebrow">Still comparing?</p><h2>Put the brand second.</h2></div>
+        <p>Start with your routine, then use the brand as a filter. The main guide organizes machines by control, convenience, grinder setup, space, and budget.</p>
+        <a class="block-link" href={`${base}espresso-machine/`}>Open the machine guide →</a>
+      </div>
+    </section>
+  </main>
+</HomeLayout>

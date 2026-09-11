@@ -1,0 +1,18 @@
+---
+import BuyingGuideLanding from '../../components/BuyingGuideLanding.astro';
+const picks = [
+  { brand: 'Breville', name: 'Bambino Plus', note: 'Fast, compact first machine', path: '/espresso-machine/breville-bambino/', image: 'images/products/breville-bambino-plus.png' },
+  { brand: "De'Longhi", name: 'Magnifica Evo', note: 'Easy one-touch milk drinks', path: '/espresso-machine/delonghi-magnifica-evo/', image: 'images/products/delonghi-magnifica-evo.png' },
+  { brand: 'Gaggia', name: 'Classic EVO Pro', note: 'A platform you can grow into', path: '/espresso-machine/gaggia-classic-evo-pro/', image: 'images/products/gaggia-classic-evo-pro.jpg' },
+  { brand: 'Profitec', name: 'GO', note: 'Precise compact control', path: '/espresso-machine/profitec-go/', image: 'images/products/profitec-go.jpg' },
+];
+---
+<BuyingGuideLanding
+  title="Best Espresso Machines (2026): Choose by Routine"
+  eyebrow="The main buying guide"
+  heading="The best machine is a fit, not a winner."
+  intro="Choose the workflow first: push-button convenience, guided all-in-one control, or a machine and grinder you can upgrade separately."
+  canonicalPath="/espresso-machine/"
+  mode="all"
+  picks={picks}
+/>

@@ -1,0 +1,18 @@
+---
+import BuyingGuideLanding from '../../../components/BuyingGuideLanding.astro';
+const picks = [
+  { brand: 'Breville', name: 'Bambino Plus', note: 'Best compact first setup', path: '/espresso-machine/breville-bambino/', image: 'images/products/breville-bambino-plus.png' },
+  { brand: 'Gaggia', name: 'Classic EVO Pro', note: 'Best upgrade platform', path: '/espresso-machine/gaggia-classic-evo-pro/', image: 'images/products/gaggia-classic-evo-pro.jpg' },
+  { brand: 'Profitec', name: 'GO', note: 'Best precise single boiler', path: '/espresso-machine/profitec-go/', image: 'images/products/profitec-go.jpg' },
+  { brand: 'Lelit', name: 'Elizabeth', note: 'Best compact dual boiler', path: '/espresso-machine/lelit-elizabeth/', image: 'images/products/lelit-elizabeth.jpg' },
+];
+---
+<BuyingGuideLanding
+  title="Best Espresso Machines Without a Grinder"
+  eyebrow="Modular setup buying guide"
+  heading="Separate the grinder. Keep your options open."
+  intro="A separate grinder takes more counter space, but it gives you better adjustment, easier upgrades, and a setup that can grow one piece at a time."
+  canonicalPath="/espresso-machine/without-grinder/"
+  mode="without"
+  picks={picks}
+/>

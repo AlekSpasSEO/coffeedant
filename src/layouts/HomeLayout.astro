@@ -1,13 +1,16 @@
 ---
 import '../styles/home.css';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
 
 const {
   title = 'Coffeedant | Find the Right Espresso Machine',
   description = 'Independent espresso machine reviews, practical comparisons, and a faster way to find the right machine for your budget and routine.',
+  canonicalPath = '/',
 } = Astro.props;
 
 const base = import.meta.env.BASE_URL;
-const canonical = 'https://coffeedant.com/';
+const canonical = new URL(canonicalPath.replace(/^\//, ''), 'https://coffeedant.com/').toString();
 ---
 
 <!doctype html>
@@ -29,6 +32,8 @@ const canonical = 'https://coffeedant.com/';
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
+    <SiteHeader />
     <slot />
+    <SiteFooter />
   </body>
 </html>

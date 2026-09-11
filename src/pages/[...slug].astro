@@ -1,19 +1,44 @@
 ---
 import Base from '../layouts/Base.astro';
+import BrandLanding from '../components/BrandLanding.astro';
 import a from '../data/pages-a.json';
 import b from '../data/pages-b.json';
+import { brands, brandByPath } from '../data/catalog';
 const all = [...a, ...b];
 export function getStaticPaths(){
-  const A = a; const B = b;
-  return [...A, ...B].map((p) => ({
+  const reserved = new Set([
+    '/espresso-machine/',
+    '/espresso-machine/built-in-grinder/',
+    '/espresso-machine/without-grinder/',
+    '/espresso-machine/superautomatic/',
+    '/espresso-machine/beginners/',
+    '/espresso-machine/small/',
+    '/espresso-machine/cheap-budget-under-500/',
+    '/espresso-machine/prosumer-under-1000/',
+    '/espresso-machine/single-boiler/',
+    '/brands/',
+  ]);
+  const brandPaths = new Set(brands.map((brand) => brand.path));
+  const contentPaths = [...a, ...b]
+    .filter((p) => !reserved.has(p.path) && !brandPaths.has(p.path))
+    .map((p) => ({
     params: { slug: p.path.replace(/^\/+|\/+$/g, '') },
     props: { page: p },
   }));
+  const brandRoutes = brands.map((brand) => ({
+    params: { slug: brand.path.replace(/^\/+|\/+$/g, '') },
+    props: { brand },
+  }));
+  return [...contentPaths, ...brandRoutes];
 }
-const { page } = Astro.props;
+const { page, brand } = Astro.props;
 ---
-<Base title={page.title} description={page.description} canonical={page.canonical}>
-  <div class="container article">
-    <article set:html={page.html}></article>
-  </div>
-</Base>
+{brand ? (
+  <BrandLanding brand={brand} pages={all} />
+) : (
+  <Base title={page.title} description={page.description} canonical={page.canonical}>
+    <div class="container article">
+      <article set:html={page.html}></article>
+    </div>
+  </Base>
+)}

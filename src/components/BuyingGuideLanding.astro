@@ -1,0 +1,89 @@
+---
+import HomeLayout from '../layouts/HomeLayout.astro';
+import { decisionGuides } from '../data/catalog';
+
+type Pick = { brand: string; name: string; note: string; path: string; image?: string };
+const { title, eyebrow, heading, intro, canonicalPath, mode, picks } = Astro.props as {
+  title: string; eyebrow: string; heading: string; intro: string; canonicalPath: string;
+  mode: 'all' | 'with' | 'without'; picks: Pick[]; comparisonRows?: string[][];
+};
+const base = import.meta.env.BASE_URL;
+const comparisons = Astro.props.comparisonRows ?? (mode === 'with' ? [
+  ['Counter space', 'One machine'], ['Learning curve', 'Lower'], ['Upgrade freedom', 'Limited'], ['Best fit', 'Fast, tidy routines'],
+] : mode === 'without' ? [
+  ['Counter space', 'Machine + grinder'], ['Learning curve', 'Higher'], ['Upgrade freedom', 'Strong'], ['Best fit', 'Taste and control'],
+] : [
+  ['Want one-touch drinks?', 'Start with superautomatic'], ['Want guided control?', 'Start with a built-in grinder'], ['Want the best upgrade path?', 'Choose a separate grinder'], ['Short on counter space?', 'Open the compact guide'],
+]);
+---
+<HomeLayout title={`${title} | Coffeedant`} description={intro} canonicalPath={canonicalPath}>
+  <main id="main-content">
+    <section class="hub-hero">
+      <div class="shell hub-hero-grid">
+        <div>
+          <p class="eyebrow">{eyebrow}</p>
+          <h1>{heading}</h1>
+          <p class="hero-copy">{intro}</p>
+        </div>
+        <div class="route-card">
+          <span>Fast decision</span>
+          {comparisons.map(([question, answer], index) => (
+            <div><b>{String(index + 1).padStart(2, '0')}</b><p>{question}<strong>{answer}</strong></p></div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-compact" aria-labelledby="routes-title">
+      <div class="shell">
+        <div class="section-heading">
+          <span class="section-number">01 / Choose a route</span>
+          <h2 id="routes-title">Start with the setup.</h2>
+          <p>The grinder decision changes cost, space, learning, and how easily you can improve later.</p>
+        </div>
+        <div class="decision-grid">
+          {decisionGuides.slice(0, 3).map((guide) => (
+            <a class:list={['decision-card', `decision-card-${guide.tone}`, { active: guide.path === canonicalPath }]} href={`${base}${guide.path.replace(/^\//, '')}`}>
+              <span>{guide.label}</span><h3>{guide.title}</h3><p>{guide.note}</p><b>Open guide →</b>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="section guides" aria-labelledby="picks-title">
+      <div class="shell">
+        <div class="section-heading">
+          <span class="section-number">02 / Starting shortlist</span>
+          <h2 id="picks-title">Strong places to start.</h2>
+          <p>Shortlisted for distinct routines, not stacked into one meaningless ranking.</p>
+        </div>
+        <div class="guide-picks">
+          {picks.map((pick, index) => (
+            <a href={`${base}${pick.path.replace(/^\//, '')}`}>
+              <span class="pick-index">{String(index + 1).padStart(2, '0')}</span>
+              {pick.image && <div class="pick-image"><img src={`${base}${pick.image}`} alt={pick.name} loading="lazy" /></div>}
+              <p>{pick.brand}</p><h3>{pick.name}</h3><small>{pick.note}</small><b>Read review →</b>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-compact" aria-labelledby="more-routes-title">
+      <div class="shell">
+        <div class="section-heading">
+          <span class="section-number">03 / Narrow it down</span>
+          <h2 id="more-routes-title">Shop by constraint.</h2>
+          <p>Budget, space, and effort are better filters than feature count.</p>
+        </div>
+        <div class="constraint-links">
+          {decisionGuides.slice(3).map((guide) => (
+            <a href={`${base}${guide.path.replace(/^\//, '')}`}><span>{guide.label}</span><strong>{guide.title}</strong><b>→</b></a>
+          ))}
+          <a href={`${base}brands/`}><span>Manufacturer</span><strong>Compare all brands</strong><b>→</b></a>
+        </div>
+      </div>
+    </section>
+  </main>
+</HomeLayout>

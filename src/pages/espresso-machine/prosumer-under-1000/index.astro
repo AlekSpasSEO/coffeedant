@@ -1,0 +1,10 @@
+---
+import BuyingGuideLanding from '../../../components/BuyingGuideLanding.astro';
+const picks = [
+  { brand: 'Gaggia', name: 'Classic EVO Pro', note: 'Best mod-friendly base', path: '/espresso-machine/gaggia-classic-evo-pro/', image: 'images/products/gaggia-classic-evo-pro.jpg' },
+  { brand: 'Rancilio', name: 'Silvia', note: 'Proven single-boiler durability', path: '/espresso-machine/rancilio-silvia/' },
+  { brand: 'Lelit', name: 'Anna', note: 'Compact PID option', path: '/espresso-machine/lelit-anna/' },
+  { brand: 'Ascaso', name: 'Steel Uno', note: 'Fast thermoblock control', path: '/espresso-machine/ascaso-steel-uno/' },
+];
+---
+<BuyingGuideLanding title="Best Prosumer Espresso Machines Under $1,000" eyebrow="Step-up buying guide" heading="Buy the platform, not the badge." intro="At this budget, temperature control, repairability, and the grinder pairing matter more than polished trim." canonicalPath="/espresso-machine/prosumer-under-1000/" mode="without" picks={picks} comparisonRows={[["Best hardware","Simple and proven"],["Biggest variable","Your grinder"],["Milk workflow","Expect a wait"],["Upgrade logic","Improve one part at a time"]]} />

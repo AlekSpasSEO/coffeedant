@@ -1,0 +1,77 @@
+---
+const base = import.meta.env.BASE_URL;
+---
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="brand" href={base} aria-label="Coffeedant home">
+      <img src={`${base}brand/coffeedant-logo.png`} alt="" width="48" height="48" />
+      <span>Coffeedant</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-controls="primary-nav" aria-expanded="false">☰</button>
+
+    <nav class="main-nav" id="primary-nav" aria-label="Primary navigation">
+      <ul>
+        <li class="nav-group">
+          <button class="nav-group-toggle" type="button" aria-expanded="false">Machines <span aria-hidden="true">↓</span></button>
+          <div class="nav-panel">
+            <a href={`${base}espresso-machine/`}><strong>Best espresso machines</strong><span>Start with the complete guide</span></a>
+            <a href={`${base}espresso-machine/built-in-grinder/`}><strong>With a grinder</strong><span>All-in-one setups</span></a>
+            <a href={`${base}espresso-machine/without-grinder/`}><strong>Without a grinder</strong><span>Modular setups</span></a>
+            <a href={`${base}espresso-machine/superautomatic/`}><strong>Superautomatic</strong><span>Push-button routines</span></a>
+          </div>
+        </li>
+        <li class="nav-group">
+          <button class="nav-group-toggle" type="button" aria-expanded="false">Brands <span aria-hidden="true">↓</span></button>
+          <div class="nav-panel nav-panel-brands">
+            <a href={`${base}brands/`}><strong>All brands</strong><span>Compare 18 manufacturers</span></a>
+            <a href={`${base}breville/`}><strong>Breville</strong><span>Guided home espresso</span></a>
+            <a href={`${base}de-longhi/`}><strong>De'Longhi</strong><span>Manual to automatic</span></a>
+            <a href={`${base}gaggia/`}><strong>Gaggia</strong><span>Classic to bean-to-cup</span></a>
+            <a href={`${base}lelit/`}><strong>Lelit</strong><span>Feature-rich control</span></a>
+            <a href={`${base}profitec/`}><strong>Profitec</strong><span>Focused prosumer lineup</span></a>
+          </div>
+        </li>
+        <li><a href={`${base}grinder/`}>Grinders</a></li>
+        <li><a href={`${base}blog/`}>Learn</a></li>
+      </ul>
+    </nav>
+
+    <a class="header-cta" href={`${base}#finder`}>Find my machine</a>
+  </div>
+</header>
+
+<script>
+  const menuButton = document.querySelector<HTMLButtonElement>('.nav-toggle');
+  const menu = document.querySelector<HTMLElement>('.main-nav');
+  const groupButtons = Array.from(document.querySelectorAll<HTMLButtonElement>('.nav-group-toggle'));
+
+  const closeGroups = (except?: HTMLButtonElement) => {
+    groupButtons.forEach((button) => {
+      if (button !== except) {
+        button.setAttribute('aria-expanded', 'false');
+        button.closest('.nav-group')?.classList.remove('is-open');
+      }
+    });
+  };
+
+  menuButton?.addEventListener('click', () => {
+    const isOpen = menu?.classList.toggle('open') ?? false;
+    menuButton.setAttribute('aria-expanded', String(isOpen));
+    menuButton.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+    if (!isOpen) closeGroups();
+  });
+
+  groupButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const willOpen = button.getAttribute('aria-expanded') !== 'true';
+      closeGroups(button);
+      button.setAttribute('aria-expanded', String(willOpen));
+      button.closest('.nav-group')?.classList.toggle('is-open', willOpen);
+    });
+  });
+
+  document.addEventListener('click', (event) => {
+    if (!(event.target as Element).closest('.nav-group')) closeGroups();
+  });
+</script>

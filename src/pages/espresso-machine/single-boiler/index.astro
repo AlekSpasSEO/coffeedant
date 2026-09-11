@@ -1,0 +1,10 @@
+---
+import BuyingGuideLanding from '../../../components/BuyingGuideLanding.astro';
+const picks = [
+  { brand: 'Profitec', name: 'GO', note: 'Fast PID precision', path: '/espresso-machine/profitec-go/', image: 'images/products/profitec-go.jpg' },
+  { brand: 'Gaggia', name: 'Classic EVO Pro', note: 'Best upgrade platform', path: '/espresso-machine/gaggia-classic-evo-pro/', image: 'images/products/gaggia-classic-evo-pro.jpg' },
+  { brand: 'Rancilio', name: 'Silvia', note: 'Durable traditional choice', path: '/espresso-machine/rancilio-silvia/' },
+  { brand: 'ECM', name: 'Classika PID', note: 'Premium espresso-first build', path: '/espresso-machine/ecm-classika-pid-flow-control/' },
+];
+---
+<BuyingGuideLanding title="Best Single-Boiler Espresso Machines" eyebrow="Machine-type buying guide" heading="One boiler. One clear compromise." intro="Single boilers can make excellent espresso for less money and less counter space, but milk drinks require a deliberate pause." canonicalPath="/espresso-machine/single-boiler/" mode="without" picks={picks} comparisonRows={[["Espresso quality","Strong potential"],["Steam power","Capable"],["Brew to steam","Wait required"],["Best fit","Espresso-first routines"]]} />

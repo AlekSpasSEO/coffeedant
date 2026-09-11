@@ -1,0 +1,25 @@
+---
+const base = import.meta.env.BASE_URL;
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="shell footer-grid">
+    <div>
+      <div class="footer-brand">
+        <img src={`${base}brand/coffeedant-logo.png`} alt="" width="58" height="58" loading="lazy" />
+        <span>Coffeedant</span>
+      </div>
+      <p>Practical coffee gear reviews for better decisions and better mornings.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <a href={`${base}espresso-machine/`}>Machine guide</a>
+      <a href={`${base}brands/`}>Brands</a>
+      <a href={`${base}about/`}>About</a>
+      <a href={`${base}contact/`}>Contact</a>
+      <a href={`${base}privacy-policy/`}>Privacy</a>
+      <a href={`${base}tos/`}>Terms</a>
+    </nav>
+    <p class="disclosure"><strong>Affiliate disclosure</strong>Coffeedant may earn a commission from qualifying purchases. It does not change what you pay or how products are evaluated.</p>
+  </div>
+  <div class="shell footer-bottom"><p>© {year} Coffeedant.</p></div>
+</footer>

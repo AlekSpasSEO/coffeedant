@@ -1,0 +1,10 @@
+---
+import BuyingGuideLanding from '../../../components/BuyingGuideLanding.astro';
+const picks = [
+  { brand: "De'Longhi", name: 'Magnifica Evo', note: 'Straightforward milk drinks', path: '/espresso-machine/delonghi-magnifica-evo/', image: 'images/products/delonghi-magnifica-evo.png' },
+  { brand: 'Philips', name: '5400 LatteGo', note: 'Easy cleanup for shared kitchens', path: '/espresso-machine/philips-5400-lattego/', image: 'images/products/philips-5400-lattego.png' },
+  { brand: 'Jura', name: 'E8', note: 'Premium daily automation', path: '/espresso-machine/jura-e8/' },
+  { brand: 'Gaggia', name: 'Accademia', note: 'A broad one-touch drink menu', path: '/espresso-machine/gaggia-accademia-ri9781-01/' },
+];
+---
+<BuyingGuideLanding title="Best Superautomatic Espresso Machines" eyebrow="Push-button buying guide" heading="Beans in. Coffee out." intro="Superautomatic machines trade manual control for speed, repeatability, and a routine the whole household can use." canonicalPath="/espresso-machine/superautomatic/" mode="with" picks={picks} comparisonRows={[["Daily effort","Very low"],["Drink consistency","High"],["Manual control","Limited"],["Best fit","Busy households"]]} />

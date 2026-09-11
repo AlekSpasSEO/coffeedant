@@ -1,0 +1,10 @@
+---
+import BuyingGuideLanding from '../../../components/BuyingGuideLanding.astro';
+const picks = [
+  { brand: 'Breville', name: 'Bambino Plus', note: 'Smallest easy workflow', path: '/espresso-machine/breville-bambino/', image: 'images/products/breville-bambino-plus.png' },
+  { brand: 'Profitec', name: 'GO', note: 'Compact precision', path: '/espresso-machine/profitec-go/', image: 'images/products/profitec-go.jpg' },
+  { brand: 'Lelit', name: 'Anna', note: 'Traditional compact boiler', path: '/espresso-machine/lelit-anna/' },
+  { brand: 'Ascaso', name: 'Steel Uno', note: 'Fast modern footprint', path: '/espresso-machine/ascaso-steel-uno/' },
+];
+---
+<BuyingGuideLanding title="Best Small Espresso Machines" eyebrow="Compact-machine buying guide" heading="Small counter. Serious coffee." intro="Compact should describe the footprint, not an excuse for a frustrating workflow or weak espresso." canonicalPath="/espresso-machine/small/" mode="without" picks={picks} comparisonRows={[["Measure first","Width and depth"],["Check clearance","Tank and cup access"],["Plan the grinder","It needs space too"],["Best shortcut","Fast heat-up"]]} />

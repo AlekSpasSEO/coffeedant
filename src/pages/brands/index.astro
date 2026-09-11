@@ -1,0 +1,69 @@
+---
+import HomeLayout from '../../layouts/HomeLayout.astro';
+import a from '../../data/pages-a.json';
+import b from '../../data/pages-b.json';
+import { brands, machinePagesForBrand } from '../../data/catalog';
+
+const base = import.meta.env.BASE_URL;
+const pages = [...a, ...b];
+const mappedBrands = brands.map((brand) => ({ ...brand, count: machinePagesForBrand(brand, pages).length }));
+---
+<HomeLayout
+  title="Espresso Machine Brands: Compare 18 Manufacturers | Coffeedant"
+  description="Compare espresso machine brands by workflow, price position, strengths, and trade-offs, then browse every Coffeedant review by manufacturer."
+  canonicalPath="/brands/"
+>
+  <main id="main-content">
+    <section class="hub-hero">
+      <div class="shell hub-hero-grid">
+        <div>
+          <p class="eyebrow">18 manufacturers · one useful map</p>
+          <h1>Brands without the fan club.</h1>
+          <p class="hero-copy">Start with the workflow you want. Then find the manufacturers that build around it.</p>
+        </div>
+        <div class="hub-stamp"><strong>{mappedBrands.reduce((sum, brand) => sum + brand.count, 0)}</strong><span>machine reviews organized</span></div>
+      </div>
+    </section>
+
+    <section class="section section-compact" aria-labelledby="brand-map-title">
+      <div class="shell">
+        <div class="section-heading">
+          <span class="section-number">01 / Brand map</span>
+          <h2 id="brand-map-title">Convenience to control.</h2>
+          <p>This is a workflow map, not a quality ranking. The right end asks more of you and gives more back.</p>
+        </div>
+        <div class="brand-map-head"><span>Push-button ease</span><span>Hands-on control</span></div>
+        <div class="brand-map">
+          {mappedBrands.slice().sort((x, y) => x.position - y.position).map((brand) => (
+            <a href={`${base}${brand.path.replace(/^\//, '')}`} class="brand-map-row">
+              <strong>{brand.name}</strong>
+              <span class="brand-map-track"><i style={`width: ${brand.position}%`}></i><b style={`left: ${brand.position}%`}></b></span>
+              <span>{brand.count} reviews</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="section guides" aria-labelledby="brand-directory-title">
+      <div class="shell">
+        <div class="section-heading">
+          <span class="section-number">02 / Directory</span>
+          <h2 id="brand-directory-title">Choose a manufacturer.</h2>
+          <p>Each page explains the fit, the compromise, and every machine we have reviewed.</p>
+        </div>
+        <div class="brand-directory">
+          {mappedBrands.map((brand, index) => (
+            <a href={`${base}${brand.path.replace(/^\//, '')}`}>
+              <span class="brand-directory-number">{String(index + 1).padStart(2, '0')}</span>
+              <div><strong>{brand.name}</strong><small>{brand.country} · {brand.system}</small></div>
+              <p>{brand.bestFor}</p>
+              <b>{brand.count}</b>
+              <i aria-hidden="true">→</i>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  </main>
+</HomeLayout>
