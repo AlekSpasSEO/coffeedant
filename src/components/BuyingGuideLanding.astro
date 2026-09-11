@@ -1,6 +1,6 @@
 ---
 import HomeLayout from '../layouts/HomeLayout.astro';
-import { decisionGuides } from '../data/catalog';
+import { decisionGuides, machineFacts } from '../data/catalog';
 
 type Pick = { brand: string; name: string; note: string; path: string; image?: string };
 const { title, eyebrow, heading, intro, canonicalPath, mode, picks } = Astro.props as {
@@ -8,6 +8,10 @@ const { title, eyebrow, heading, intro, canonicalPath, mode, picks } = Astro.pro
   mode: 'all' | 'with' | 'without'; picks: Pick[]; comparisonRows?: string[][];
 };
 const base = import.meta.env.BASE_URL;
+const enrichedPicks = picks.map((pick) => ({
+  ...pick,
+  facts: machineFacts[pick.path] ?? { setup: 'Espresso machine', compromise: 'Read the review for the full trade-offs', signals: ['mixed'] },
+}));
 const comparisons = Astro.props.comparisonRows ?? (mode === 'with' ? [
   ['Counter space', 'One machine'], ['Learning curve', 'Lower'], ['Upgrade freedom', 'Limited'], ['Best fit', 'Fast, tidy routines'],
 ] : mode === 'without' ? [
@@ -15,6 +19,19 @@ const comparisons = Astro.props.comparisonRows ?? (mode === 'with' ? [
 ] : [
   ['Want one-touch drinks?', 'Start with superautomatic'], ['Want guided control?', 'Start with a built-in grinder'], ['Want the best upgrade path?', 'Choose a separate grinder'], ['Short on counter space?', 'Open the compact guide'],
 ]);
+const principles = mode === 'with' ? [
+  ['Grinder range', 'A grinder is useful only if its adjustment range can dial in the coffee you actually buy.'],
+  ['Cleaning path', 'Milk tubes, carafes, chutes, and brew groups determine whether convenience survives the first month.'],
+  ['System ceiling', 'The machine and grinder age together, so compare the whole system rather than one strong specification.'],
+] : mode === 'without' ? [
+  ['Protect the grinder budget', 'The grinder changes extraction more directly than a decorative machine upgrade.'],
+  ['Match boiler to drinks', 'Espresso-first and milk-heavy routines need different heat and steam capacity.'],
+  ['Buy an upgrade path', 'Separate parts let you improve the weakest link without replacing the entire setup.'],
+] : [
+  ['Count daily actions', 'Warm-up, dosing, steaming, and cleaning tell you more than the feature list.'],
+  ['Choose the grinder system', 'Built-in, separate, or fully automatic is the decision that shapes everything else.'],
+  ['Name the compromise', 'Every machine is trading speed, control, space, price, or serviceability.'],
+];
 ---
 <HomeLayout title={`${title} | Coffeedant`} description={intro} canonicalPath={canonicalPath}>
   <main id="main-content">
@@ -34,10 +51,80 @@ const comparisons = Astro.props.comparisonRows ?? (mode === 'with' ? [
       </div>
     </section>
 
+    <section class="section section-compact machine-guide" aria-labelledby="machine-guide-title">
+      <div class="shell">
+        <div class="section-heading">
+          <span class="section-number">01 / Interactive guide</span>
+          <h2 id="machine-guide-title">Build your shortlist.</h2>
+          <p>Three useful choices. One starting point from this guide.</p>
+        </div>
+        <div class="machine-guide-grid">
+          <form class="machine-guide-form">
+            <fieldset>
+              <legend>What do you drink most?</legend>
+              <label><input type="radio" name="drink" value="espresso" checked /><span>Espresso</span></label>
+              <label><input type="radio" name="drink" value="mixed" /><span>A mix</span></label>
+              <label><input type="radio" name="drink" value="milk" /><span>Milk drinks</span></label>
+            </fieldset>
+            <fieldset>
+              <legend>What should mornings feel like?</legend>
+              <label><input type="radio" name="pace" value="fast" checked /><span>Fast</span></label>
+              <label><input type="radio" name="pace" value="ritual" /><span>Hands-on</span></label>
+              <label><input type="radio" name="pace" value="shared" /><span>Easy to share</span></label>
+            </fieldset>
+            <fieldset>
+              <legend>What matters most?</legend>
+              <label><input type="radio" name="priority" value="value" checked /><span>Value</span></label>
+              <label><input type="radio" name="priority" value="compact" /><span>Small size</span></label>
+              <label><input type="radio" name="priority" value="upgrade" /><span>Room to grow</span></label>
+            </fieldset>
+            <button type="submit">Show my starting point →</button>
+          </form>
+          <div class="machine-guide-result" aria-live="polite">
+            <span>Your current match</span>
+            <p class="guide-result-brand">{enrichedPicks[0]?.brand}</p>
+            <h3 class="guide-result-title">{enrichedPicks[0]?.name}</h3>
+            <p class="guide-result-note">{enrichedPicks[0]?.note}</p>
+            <div class="guide-result-meta"><span>{enrichedPicks[0]?.facts.setup}</span><span>{enrichedPicks[0]?.facts.compromise}</span></div>
+            <a class="guide-result-link" href={`${base}${enrichedPicks[0]?.path.replace(/^\//, '')}`}>Read the review →</a>
+          </div>
+          <div class="selector-data" hidden>
+            {enrichedPicks.map((pick) => <span data-brand={pick.brand} data-name={pick.name} data-note={pick.note} data-setup={pick.facts.setup} data-compromise={pick.facts.compromise} data-signals={pick.facts.signals.join(' ')} data-href={`${base}${pick.path.replace(/^\//, '')}`}></span>)}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-compact comparison-section" aria-labelledby="comparison-title">
+      <div class="shell">
+        <div class="section-heading">
+          <span class="section-number">02 / Quick comparison</span>
+          <h2 id="comparison-title">See the trade-offs.</h2>
+          <p>A useful shortlist is made of different answers, not four versions of the same machine.</p>
+        </div>
+        <div class="table-scroll">
+          <table class="comparison-table" aria-label={`${heading} starting shortlist comparison`}>
+            <thead><tr><th>Machine</th><th>Setup</th><th>Best fit</th><th>Main compromise</th><th></th></tr></thead>
+            <tbody>
+              {enrichedPicks.map((pick) => (
+                <tr>
+                  <th scope="row" data-label="Machine"><span>{pick.brand}</span>{pick.name}</th>
+                  <td data-label="Setup">{pick.facts.setup}</td>
+                  <td data-label="Best fit">{pick.note}</td>
+                  <td data-label="Main compromise">{pick.facts.compromise}</td>
+                  <td data-label="Review"><a href={`${base}${pick.path.replace(/^\//, '')}`}>Review →</a></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
     <section class="section section-compact" aria-labelledby="routes-title">
       <div class="shell">
         <div class="section-heading">
-          <span class="section-number">01 / Choose a route</span>
+          <span class="section-number">03 / Choose a route</span>
           <h2 id="routes-title">Start with the setup.</h2>
           <p>The grinder decision changes cost, space, learning, and how easily you can improve later.</p>
         </div>
@@ -54,12 +141,12 @@ const comparisons = Astro.props.comparisonRows ?? (mode === 'with' ? [
     <section class="section guides" aria-labelledby="picks-title">
       <div class="shell">
         <div class="section-heading">
-          <span class="section-number">02 / Starting shortlist</span>
+          <span class="section-number">04 / Starting shortlist</span>
           <h2 id="picks-title">Strong places to start.</h2>
           <p>Shortlisted for distinct routines, not stacked into one meaningless ranking.</p>
         </div>
         <div class="guide-picks">
-          {picks.map((pick, index) => (
+          {enrichedPicks.map((pick, index) => (
             <a href={`${base}${pick.path.replace(/^\//, '')}`}>
               <span class="pick-index">{String(index + 1).padStart(2, '0')}</span>
               {pick.image && <div class="pick-image"><img src={`${base}${pick.image}`} alt={pick.name} loading="lazy" /></div>}
@@ -73,7 +160,7 @@ const comparisons = Astro.props.comparisonRows ?? (mode === 'with' ? [
     <section class="section section-compact" aria-labelledby="more-routes-title">
       <div class="shell">
         <div class="section-heading">
-          <span class="section-number">03 / Narrow it down</span>
+          <span class="section-number">05 / Narrow it down</span>
           <h2 id="more-routes-title">Shop by constraint.</h2>
           <p>Budget, space, and effort are better filters than feature count.</p>
         </div>
@@ -85,5 +172,49 @@ const comparisons = Astro.props.comparisonRows ?? (mode === 'with' ? [
         </div>
       </div>
     </section>
+
+    <section class="section section-compact principles-section" aria-labelledby="principles-title">
+      <div class="shell">
+        <div class="section-heading">
+          <span class="section-number">06 / Buying logic</span>
+          <h2 id="principles-title">What changes the decision.</h2>
+          <p>Use these rules to eliminate the wrong machines before comparing details.</p>
+        </div>
+        <div class="principle-grid">
+          {principles.map(([title, text], index) => (
+            <article><span>{String(index + 1).padStart(2, '0')}</span><h3>{title}</h3><p>{text}</p></article>
+          ))}
+        </div>
+      </div>
+    </section>
   </main>
+
+  <script>
+    document.querySelectorAll<HTMLElement>('.machine-guide').forEach((guide) => {
+      const form = guide.querySelector<HTMLFormElement>('.machine-guide-form');
+      const candidates = Array.from(guide.querySelectorAll<HTMLElement>('.selector-data [data-signals]'));
+      const brand = guide.querySelector<HTMLElement>('.guide-result-brand');
+      const title = guide.querySelector<HTMLElement>('.guide-result-title');
+      const note = guide.querySelector<HTMLElement>('.guide-result-note');
+      const meta = guide.querySelector<HTMLElement>('.guide-result-meta');
+      const link = guide.querySelector<HTMLAnchorElement>('.guide-result-link');
+
+      form?.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const selected = Array.from(form.querySelectorAll<HTMLInputElement>('input:checked')).map((input) => input.value);
+        const ranked = candidates.map((candidate, index) => {
+          const signals = candidate.dataset.signals?.split(' ') ?? [];
+          return { candidate, index, score: selected.filter((value) => signals.includes(value)).length };
+        }).sort((a, b) => b.score - a.score || a.index - b.index);
+        const match = ranked[0]?.candidate;
+        if (!match) return;
+        if (brand) brand.textContent = match.dataset.brand ?? '';
+        if (title) title.textContent = match.dataset.name ?? '';
+        if (note) note.textContent = match.dataset.note ?? '';
+        if (meta) meta.innerHTML = `<span>${match.dataset.setup ?? ''}</span><span>${match.dataset.compromise ?? ''}</span>`;
+        if (link) link.href = match.dataset.href ?? '#';
+        guide.querySelector('.machine-guide-result')?.classList.add('is-updated');
+      });
+    });
+  </script>
 </HomeLayout>

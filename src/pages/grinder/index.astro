@@ -1,0 +1,69 @@
+---
+import HomeLayout from '../../layouts/HomeLayout.astro';
+const base = import.meta.env.BASE_URL;
+const grinders = [
+  { name: '1Zpresso K-Ultra', type: 'Manual', format: 'Hand grinder', best: 'Travel and quiet precision', compromise: 'Physical effort for every dose', path: '/grinder/1zpresso-k-ultra/', tags: 'manual espresso broad' },
+  { name: 'Baratza Encore ESP', type: 'Electric', format: 'Hopper grinder', best: 'An approachable first espresso grinder', compromise: 'Less suited to frequent bean switching', path: '/grinder/baratza-encore-esp/', tags: 'electric espresso value broad' },
+  { name: 'Timemore Sculptor', type: 'Electric', format: 'Single-dose grinder', best: 'Low-retention workflow and adjustment', compromise: 'More setup and a higher spend', path: '/grinder/timemore-sculptor/', tags: 'electric espresso single-dose upgrade' },
+];
+---
+<HomeLayout title="Coffee Grinders: Choose the Right Grinder | Coffeedant" description="Compare Coffeedant coffee grinder reviews by workflow, format, and trade-offs, then learn how burr geometry changes daily use." canonicalPath="/grinder/">
+  <main id="main-content">
+    <section class="hub-hero">
+      <div class="shell hub-hero-grid">
+        <div><p class="eyebrow">Grinder hub</p><h1>The machine gets the credit. The grinder does the work.</h1><p class="hero-copy">Choose by dose workflow, adjustment, retention, and how often you change coffee. Ignore the feature count.</p></div>
+        <div class="hub-stamp"><strong>03</strong><span>grinders reviewed so far</span></div>
+      </div>
+    </section>
+
+    <section class="section section-compact grinder-finder" aria-labelledby="grinder-finder-title">
+      <div class="shell">
+        <div class="section-heading"><span class="section-number">01 / Grinder finder</span><h2 id="grinder-finder-title">Narrow the workflow.</h2><p>There are only three reviews today, so the tool shows exactly where each one fits.</p></div>
+        <form class="catalog-filter-controls grinder-controls">
+          <fieldset><legend>Power</legend><label><input type="radio" name="grinder-power" value="all" checked /><span>All</span></label><label><input type="radio" name="grinder-power" value="manual" /><span>Manual</span></label><label><input type="radio" name="grinder-power" value="electric" /><span>Electric</span></label></fieldset>
+          <fieldset><legend>Priority</legend><label><input type="radio" name="grinder-focus" value="all" checked /><span>All</span></label><label><input type="radio" name="grinder-focus" value="value" /><span>Value</span></label><label><input type="radio" name="grinder-focus" value="single-dose" /><span>Single dose</span></label><label><input type="radio" name="grinder-focus" value="broad" /><span>Broad use</span></label></fieldset>
+        </form>
+        <div class="editorial-card-grid grinder-card-grid">
+          {grinders.map((grinder, index) => (
+            <a href={`${base}${grinder.path.replace(/^\//, '')}`} data-tags={grinder.tags}>
+              <span>{String(index + 1).padStart(2, '0')} · {grinder.type}</span><h3>{grinder.name}</h3><p>{grinder.best}</p><small>{grinder.compromise}</small><b>Read review →</b>
+            </a>
+          ))}
+        </div>
+        <p class="filter-empty" hidden>No current review fits both choices. Reset one filter to see the nearest options.</p>
+      </div>
+    </section>
+
+    <section class="section section-compact comparison-section" aria-labelledby="grinder-table-title">
+      <div class="shell">
+        <div class="section-heading"><span class="section-number">02 / Comparison</span><h2 id="grinder-table-title">Three different jobs.</h2><p>None is universally best. Each removes a different kind of friction.</p></div>
+        <div class="table-scroll"><table class="comparison-table" aria-label="Coffee grinder review comparison"><thead><tr><th>Grinder</th><th>Format</th><th>Best for</th><th>Main compromise</th><th></th></tr></thead><tbody>
+          {grinders.map((grinder) => <tr><th scope="row" data-label="Grinder">{grinder.name}</th><td data-label="Format">{grinder.format}</td><td data-label="Best for">{grinder.best}</td><td data-label="Main compromise">{grinder.compromise}</td><td data-label="Review"><a href={`${base}${grinder.path.replace(/^\//, '')}`}>Review →</a></td></tr>)}
+        </tbody></table></div>
+      </div>
+    </section>
+
+    <section class="section guides" aria-labelledby="burr-guide-title">
+      <div class="shell feature-story">
+        <div><span class="section-number">03 / One useful explainer</span><h2 id="burr-guide-title">Conical vs. flat burrs.</h2><p>Burr shape can change taste, retention, noise, speed, and price. It should not become a shortcut for declaring one grinder better.</p></div>
+        <div class="burr-visual" aria-label="Conical and flat burr decision summary"><article><span>Conical</span><strong>Body · forgiving adjustment · broad use</strong></article><article><span>Flat</span><strong>Clarity · alignment sensitivity · wider variation</strong></article></div>
+        <a class="block-link" href={`${base}blog/conical-vs-flat-burr-grinders/`}>Read the burr guide →</a>
+      </div>
+    </section>
+
+    <section class="section section-compact"><div class="shell"><div class="section-heading"><span class="section-number">04 / Buying logic</span><h2>Four checks before price.</h2><p>The correct grinder is the one whose daily behavior fits your coffee habits.</p></div><div class="principle-grid four-up"><article><span>01</span><h3>Adjustment</h3><p>Espresso needs small, repeatable changes. Filter coffee can work with wider steps.</p></article><article><span>02</span><h3>Dose workflow</h3><p>Choose between a loaded hopper and weighing each dose as you go.</p></article><article><span>03</span><h3>Retention</h3><p>Old grounds matter most when you change beans or grind size frequently.</p></article><article><span>04</span><h3>Noise and effort</h3><p>A grinder used every morning must fit the household, not just the tasting notes.</p></article></div></div></section>
+  </main>
+  <script>
+    const grinderForm = document.querySelector<HTMLFormElement>('.grinder-controls');
+    const grinderCards = Array.from(document.querySelectorAll<HTMLElement>('.grinder-card-grid > a'));
+    const grinderEmpty = document.querySelector<HTMLElement>('.grinder-finder .filter-empty');
+    const applyGrinderFilters = () => {
+      const power = grinderForm?.querySelector<HTMLInputElement>('input[name="grinder-power"]:checked')?.value ?? 'all';
+      const focus = grinderForm?.querySelector<HTMLInputElement>('input[name="grinder-focus"]:checked')?.value ?? 'all';
+      let visible = 0;
+      grinderCards.forEach((card) => { const tags = card.dataset.tags?.split(' ') ?? []; card.hidden = !((power === 'all' || tags.includes(power)) && (focus === 'all' || tags.includes(focus))); if (!card.hidden) visible += 1; });
+      if (grinderEmpty) grinderEmpty.hidden = visible !== 0;
+    };
+    grinderForm?.addEventListener('change', applyGrinderFilters);
+  </script>
+</HomeLayout>

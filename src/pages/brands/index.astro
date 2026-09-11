@@ -6,7 +6,12 @@ import { brands, machinePagesForBrand } from '../../data/catalog';
 
 const base = import.meta.env.BASE_URL;
 const pages = [...a, ...b];
-const mappedBrands = brands.map((brand) => ({ ...brand, count: machinePagesForBrand(brand, pages).length }));
+const mappedBrands = brands.map((brand) => ({
+  ...brand,
+  count: machinePagesForBrand(brand, pages).length,
+  workflow: brand.position < 35 ? 'easy' : brand.position > 70 ? 'control' : 'balanced',
+  tiers: [brand.range.startsWith('$–') ? 'entry' : '', brand.range.includes('$$') ? 'mid' : '', brand.range.includes('$$$') ? 'premium' : ''].filter(Boolean).join(' '),
+}));
 ---
 <HomeLayout
   title="Espresso Machine Brands: Compare 18 Manufacturers | Coffeedant"
@@ -25,10 +30,44 @@ const mappedBrands = brands.map((brand) => ({ ...brand, count: machinePagesForBr
       </div>
     </section>
 
+    <section class="section section-compact brand-finder" aria-labelledby="brand-finder-title">
+      <div class="shell">
+        <div class="section-heading">
+          <span class="section-number">01 / Find your lane</span>
+          <h2 id="brand-finder-title">Filter by ownership style.</h2>
+          <p>Use brands as a second filter after you know how involved you want to be.</p>
+        </div>
+        <form class="brand-filter-controls">
+          <fieldset>
+            <legend>Workflow</legend>
+            <label><input type="radio" name="brand-workflow" value="all" checked /><span>All</span></label>
+            <label><input type="radio" name="brand-workflow" value="easy" /><span>Easy</span></label>
+            <label><input type="radio" name="brand-workflow" value="balanced" /><span>Balanced</span></label>
+            <label><input type="radio" name="brand-workflow" value="control" /><span>Control</span></label>
+          </fieldset>
+          <fieldset>
+            <legend>Price position</legend>
+            <label><input type="radio" name="brand-tier" value="all" checked /><span>All</span></label>
+            <label><input type="radio" name="brand-tier" value="entry" /><span>Entry</span></label>
+            <label><input type="radio" name="brand-tier" value="mid" /><span>Mid</span></label>
+            <label><input type="radio" name="brand-tier" value="premium" /><span>Premium</span></label>
+          </fieldset>
+        </form>
+        <div class="brand-filter-result"><strong id="brand-filter-count">{mappedBrands.length} brands</strong><span>matching this ownership style</span></div>
+        <div class="brand-filter-list">
+          {mappedBrands.map((brand) => (
+            <a href={`${base}${brand.path.replace(/^\//, '')}`} data-workflow={brand.workflow} data-tiers={brand.tiers}>
+              <strong>{brand.name}</strong><span>{brand.bestFor}</span><b>→</b>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+
     <section class="section section-compact" aria-labelledby="brand-map-title">
       <div class="shell">
         <div class="section-heading">
-          <span class="section-number">01 / Brand map</span>
+          <span class="section-number">02 / Brand map</span>
           <h2 id="brand-map-title">Convenience to control.</h2>
           <p>This is a workflow map, not a quality ranking. The right end asks more of you and gives more back.</p>
         </div>
@@ -45,16 +84,55 @@ const mappedBrands = brands.map((brand) => ({ ...brand, count: machinePagesForBr
       </div>
     </section>
 
+    <section class="section section-compact" aria-labelledby="brand-logic-title">
+      <div class="shell">
+        <div class="section-heading">
+          <span class="section-number">03 / Three brand families</span>
+          <h2 id="brand-logic-title">What are you paying for?</h2>
+          <p>Most manufacturers make one of these promises. Some successfully bridge two.</p>
+        </div>
+        <div class="principle-grid brand-family-grid">
+          <article><span>Easy</span><h3>Fewer daily decisions</h3><p>Grinding, dosing, brewing, and milk are coordinated for speed and repeatability.</p><small>Jura · Philips · Bosch</small></article>
+          <article><span>Balanced</span><h3>Guidance with control</h3><p>The machine removes awkward steps but still lets the user shape extraction and milk.</p><small>Breville · De'Longhi · Gaggia</small></article>
+          <article><span>Control</span><h3>Hardware that gets out of the way</h3><p>The grinder and user lead. The machine supplies stable heat, pressure, and steam.</p><small>ECM · Profitec · Lelit</small></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-compact comparison-section" aria-labelledby="brand-table-title">
+      <div class="shell">
+        <div class="section-heading">
+          <span class="section-number">04 / Comparison table</span>
+          <h2 id="brand-table-title">All brands at a glance.</h2>
+          <p>Use this to build a small consideration set, then open the detailed brand pages.</p>
+        </div>
+        <div class="table-scroll">
+          <table class="comparison-table brand-comparison-table" aria-label="Espresso machine brand comparison">
+            <thead><tr><th>Brand</th><th>Primary system</th><th>Price</th><th>Best for</th><th>Reviews</th></tr></thead>
+            <tbody>{mappedBrands.map((brand) => (
+              <tr>
+                <th scope="row" data-label="Brand"><a href={`${base}${brand.path.replace(/^\//, '')}`}>{brand.name} →</a></th>
+                <td data-label="Primary system">{brand.system}</td>
+                <td data-label="Price">{brand.range}</td>
+                <td data-label="Best for">{brand.bestFor}</td>
+                <td data-label="Reviews">{brand.count}</td>
+              </tr>
+            ))}</tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
     <section class="section guides" aria-labelledby="brand-directory-title">
       <div class="shell">
         <div class="section-heading">
-          <span class="section-number">02 / Directory</span>
+          <span class="section-number">05 / Directory</span>
           <h2 id="brand-directory-title">Choose a manufacturer.</h2>
           <p>Each page explains the fit, the compromise, and every machine we have reviewed.</p>
         </div>
         <div class="brand-directory">
           {mappedBrands.map((brand, index) => (
-            <a href={`${base}${brand.path.replace(/^\//, '')}`}>
+            <a href={`${base}${brand.path.replace(/^\//, '')}`} data-workflow={brand.workflow} data-tiers={brand.tiers}>
               <span class="brand-directory-number">{String(index + 1).padStart(2, '0')}</span>
               <div><strong>{brand.name}</strong><small>{brand.country} · {brand.system}</small></div>
               <p>{brand.bestFor}</p>
@@ -66,4 +144,25 @@ const mappedBrands = brands.map((brand) => ({ ...brand, count: machinePagesForBr
       </div>
     </section>
   </main>
+
+  <script>
+    const brandFilter = document.querySelector<HTMLFormElement>('.brand-filter-controls');
+    const brandCards = Array.from(document.querySelectorAll<HTMLElement>('.brand-directory > a, .brand-filter-list > a'));
+    const brandCount = document.querySelector('#brand-filter-count');
+
+    const applyBrandFilter = () => {
+      const workflow = brandFilter?.querySelector<HTMLInputElement>('input[name="brand-workflow"]:checked')?.value ?? 'all';
+      const tier = brandFilter?.querySelector<HTMLInputElement>('input[name="brand-tier"]:checked')?.value ?? 'all';
+      let visible = 0;
+      brandCards.forEach((card) => {
+        const workflowMatch = workflow === 'all' || card.dataset.workflow === workflow;
+        const tierMatch = tier === 'all' || card.dataset.tiers?.split(' ').includes(tier);
+        card.hidden = !(workflowMatch && tierMatch);
+        if (!card.hidden && card.closest('.brand-filter-list')) visible += 1;
+      });
+      if (brandCount) brandCount.textContent = `${visible} ${visible === 1 ? 'brand' : 'brands'}`;
+    };
+
+    brandFilter?.addEventListener('change', applyBrandFilter);
+  </script>
 </HomeLayout>

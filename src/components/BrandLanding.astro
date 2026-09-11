@@ -1,12 +1,17 @@
 ---
 import HomeLayout from '../layouts/HomeLayout.astro';
 import type { Brand } from '../data/catalog';
-import { machinePagesForBrand } from '../data/catalog';
+import { brandDetails, brands, machinePagesForBrand } from '../data/catalog';
 
 const { brand, pages } = Astro.props as { brand: Brand; pages: any[] };
 const base = import.meta.env.BASE_URL;
 const machines = machinePagesForBrand(brand, pages);
 const controlLabel = brand.position < 30 ? 'Convenience first' : brand.position > 75 ? 'Control first' : 'Balanced workflow';
+const details = brandDetails[brand.slug];
+const comparableBrands = [brand, ...brands
+  .filter((item) => item.slug !== brand.slug)
+  .sort((a, b) => Math.abs(a.position - brand.position) - Math.abs(b.position - brand.position))
+  .slice(0, 2)];
 ---
 <HomeLayout
   title={`${brand.name} Espresso Machines: Compare the Lineup | Coffeedant`}
@@ -58,10 +63,51 @@ const controlLabel = brand.position < 30 ? 'Convenience first' : brand.position 
       </div>
     </section>
 
+    <section class="section section-compact brand-story" aria-labelledby="brand-story-title">
+      <div class="shell">
+        <div class="section-heading">
+          <span class="section-number">02 / Brand approach</span>
+          <h2 id="brand-story-title">What {brand.name} actually builds for.</h2>
+          <p>The useful brand story is the one that changes ownership, not the one printed in a brochure.</p>
+        </div>
+        <div class="brand-story-grid">
+          <article><span>Design approach</span><p>{details?.approach ?? brand.summary}</p></article>
+          <article><span>Ownership reality</span><p>{details?.ownership ?? `The daily fit comes down to ${brand.bestFor.toLowerCase()}.`}</p></article>
+          <article><span>How to read the range</span><p>{details?.rangeLogic ?? `Start with ${brand.system.toLowerCase()}, then compare the models by routine.`}</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-compact comparison-section" aria-labelledby="brand-compare-title">
+      <div class="shell">
+        <div class="section-heading">
+          <span class="section-number">03 / Nearest alternatives</span>
+          <h2 id="brand-compare-title">Compare the lane.</h2>
+          <p>These brands sit closest on the convenience-to-control map. Similar position does not mean identical ownership.</p>
+        </div>
+        <div class="table-scroll">
+          <table class="comparison-table" aria-label={`${brand.name} and nearby brand alternatives`}>
+            <thead><tr><th>Brand</th><th>System</th><th>Price position</th><th>Best for</th><th></th></tr></thead>
+            <tbody>
+              {comparableBrands.map((item) => (
+                <tr class:list={{ 'current-row': item.slug === brand.slug }}>
+                  <th scope="row" data-label="Brand">{item.name}</th>
+                  <td data-label="System">{item.system}</td>
+                  <td data-label="Price position">{item.range}</td>
+                  <td data-label="Best for">{item.bestFor}</td>
+                  <td data-label="Brand page"><a href={`${base}${item.path.replace(/^\//, '')}`}>{item.slug === brand.slug ? 'Current' : 'Compare →'}</a></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
     <section class="section guides" aria-labelledby="models-title">
       <div class="shell">
         <div class="section-heading">
-          <span class="section-number">02 / Reviews</span>
+          <span class="section-number">04 / Reviews</span>
           <h2 id="models-title">The {brand.name} lineup.</h2>
           <p>Every available Coffeedant review, without making you dig through an archive.</p>
         </div>
@@ -81,6 +127,21 @@ const controlLabel = brand.position < 30 ? 'Convenience first' : brand.position 
             <p>Use the main machine guide to compare this brand with the rest of the catalog.</p>
           </div>
         )}
+      </div>
+    </section>
+
+    <section class="section section-compact" aria-labelledby="brand-check-title">
+      <div class="shell">
+        <div class="section-heading">
+          <span class="section-number">05 / Before you choose</span>
+          <h2 id="brand-check-title">Three checks.</h2>
+          <p>A logo should never make these decisions for you.</p>
+        </div>
+        <div class="principle-grid">
+          <article><span>01</span><h3>Choose the machine family</h3><p>{details?.rangeLogic ?? brand.system}</p></article>
+          <article><span>02</span><h3>Price the full setup</h3><p>Include the grinder, milk accessories, water treatment, cleaning supplies, and realistic service costs.</p></article>
+          <article><span>03</span><h3>Accept the compromise</h3><p>{brand.tradeoff}</p></article>
+        </div>
       </div>
     </section>
 

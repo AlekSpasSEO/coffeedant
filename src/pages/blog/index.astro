@@ -1,0 +1,51 @@
+---
+import HomeLayout from '../../layouts/HomeLayout.astro';
+const base = import.meta.env.BASE_URL;
+const posts = [
+  { category: 'grinding', label: 'Grinding', title: 'Conical vs Flat Burr Grinders', summary: 'Taste, retention, adjustment, and workflow without the usual burr mythology.', path: '/blog/conical-vs-flat-burr-grinders/', order: '01' },
+  { category: 'dial-in', label: 'Dial-in', title: "The Home Barista's Guide to Espresso Dosing", summary: 'Set a repeatable dose before chasing grind size and yield.', path: '/blog/espresso-dosing/', order: '02' },
+  { category: 'puck-prep', label: 'Puck prep', title: 'How to Tamp Espresso', summary: 'Build a level, repeatable puck without obsessing over an arbitrary pressure number.', path: '/blog/espresso-tamp-guide/', order: '03' },
+  { category: 'dial-in', label: 'Technique', title: 'Espresso Technique for Every Machine Type', summary: 'Adapt the workflow to manual, semi-automatic, and automatic hardware.', path: '/blog/espresso-techniques/', order: '04' },
+  { category: 'dial-in', label: 'Dial-in', title: 'The 1:2 Espresso Ratio Explained', summary: 'Use ratio as a starting coordinate, then adjust for the coffee in front of you.', path: '/blog/golden-ratio-espresso/', order: '05' },
+  { category: 'puck-prep', label: 'Puck prep', title: 'Even Ground Distribution', summary: 'Reduce weak spots before tamping so water meets a more consistent coffee bed.', path: '/blog/ground-distribution/', order: '06' },
+  { category: 'culture', label: 'Coffee culture', title: 'Nordic-Style Coffee', summary: 'How light roasting changed the way specialty coffee talks about origin and flavor.', path: '/blog/nordic-style-coffee/', order: '07' },
+];
+---
+<HomeLayout title="Coffee Guides and Espresso Technique | Coffeedant" description="Browse practical Coffeedant guides on espresso dosing, tamping, distribution, grinders, ratios, technique, and coffee culture." canonicalPath="/blog/">
+  <main id="main-content">
+    <section class="hub-hero blog-hero"><div class="shell hub-hero-grid"><div><p class="eyebrow">Learn · test · adjust</p><h1>Better coffee, fewer rituals invented by the internet.</h1><p class="hero-copy">Short, practical guides organized around the variables you can actually control.</p></div><div class="hub-stamp"><strong>{String(posts.length).padStart(2, '0')}</strong><span>field guides in the library</span></div></div></section>
+
+    <section class="section section-compact blog-library" aria-labelledby="blog-library-title">
+      <div class="shell">
+        <div class="section-heading"><span class="section-number">01 / Guide library</span><h2 id="blog-library-title">Choose what you are fixing.</h2><p>Filter by the part of the workflow you are trying to understand.</p></div>
+        <form class="blog-filter" aria-label="Filter coffee guides">
+          <label><input type="radio" name="blog-category" value="all" checked /><span>All guides</span></label>
+          <label><input type="radio" name="blog-category" value="dial-in" /><span>Dial-in</span></label>
+          <label><input type="radio" name="blog-category" value="puck-prep" /><span>Puck prep</span></label>
+          <label><input type="radio" name="blog-category" value="grinding" /><span>Grinding</span></label>
+          <label><input type="radio" name="blog-category" value="culture" /><span>Coffee culture</span></label>
+        </form>
+        <div class="blog-grid">
+          {posts.map((post) => <a href={`${base}${post.path.replace(/^\//, '')}`} data-category={post.category}><span>{post.order} / {post.label}</span><h3>{post.title}</h3><p>{post.summary}</p><b>Read guide →</b></a>)}
+        </div>
+        <p class="filter-empty" hidden>No guide in that category yet.</p>
+      </div>
+    </section>
+
+    <section class="section guides" aria-labelledby="learning-path-title"><div class="shell"><div class="section-heading"><span class="section-number">02 / Learning path</span><h2 id="learning-path-title">Fix espresso in order.</h2><p>Changing five variables at once produces stories, not useful feedback.</p></div><div class="learning-path"><a href={`${base}blog/espresso-dosing/`}><span>01</span><strong>Set the dose</strong><small>Use a repeatable amount of coffee.</small></a><a href={`${base}blog/ground-distribution/`}><span>02</span><strong>Distribute</strong><small>Remove obvious weak areas.</small></a><a href={`${base}blog/espresso-tamp-guide/`}><span>03</span><strong>Tamp level</strong><small>Create a consistent coffee bed.</small></a><a href={`${base}blog/golden-ratio-espresso/`}><span>04</span><strong>Measure yield</strong><small>Use ratio and time as coordinates.</small></a><a href={`${base}blog/espresso-techniques/`}><span>05</span><strong>Change one thing</strong><small>Taste, adjust, and repeat.</small></a></div></div></section>
+
+    <section class="section section-compact"><div class="shell next-step"><div><p class="eyebrow">Need the equipment first?</p><h2>Match the routine.</h2></div><p>The machine guide starts with effort, drink style, budget, and counter space before it recommends hardware.</p><a class="block-link" href={`${base}espresso-machine/`}>Open the espresso-machine guide →</a></div></section>
+  </main>
+  <script>
+    const blogFilter = document.querySelector<HTMLFormElement>('.blog-filter');
+    const blogCards = Array.from(document.querySelectorAll<HTMLElement>('.blog-grid > a'));
+    const blogEmpty = document.querySelector<HTMLElement>('.blog-library .filter-empty');
+    const applyBlogFilter = () => {
+      const selected = blogFilter?.querySelector<HTMLInputElement>('input[name="blog-category"]:checked')?.value ?? 'all';
+      let visible = 0;
+      blogCards.forEach((card) => { card.hidden = selected !== 'all' && card.dataset.category !== selected; if (!card.hidden) visible += 1; });
+      if (blogEmpty) blogEmpty.hidden = visible !== 0;
+    };
+    blogFilter?.addEventListener('change', applyBlogFilter);
+  </script>
+</HomeLayout>
