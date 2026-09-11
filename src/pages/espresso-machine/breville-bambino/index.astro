@@ -1,0 +1,15 @@
+---
+import HomeLayout from '../../../layouts/HomeLayout.astro';
+import MachineReview from '../../../components/reviews/MachineReview.astro';
+import { bambinoReview } from '../../../data/reviews';
+import '../../../styles/review.css';
+---
+
+<HomeLayout
+  title="Breville Bambino Plus Review: Fast, Capable, Not for Everyone | Coffeedant"
+  description={bambinoReview.description}
+  canonicalPath={bambinoReview.slug}
+>
+  <MachineReview review={bambinoReview} />
+</HomeLayout>
+

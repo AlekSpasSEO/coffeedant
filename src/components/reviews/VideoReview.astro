@@ -1,0 +1,46 @@
+---
+import type { MachineReviewData } from '../../data/reviews';
+
+const { video } = Astro.props as { video: MachineReviewData['video'] };
+---
+
+<div class="review-video" data-video={video.id}>
+  <button class="review-video-poster" type="button" aria-label={`Play ${video.title}`}>
+    <img
+      src={`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`}
+      alt=""
+      width="480"
+      height="360"
+      loading="lazy"
+      decoding="async"
+    />
+    <span class="review-play" aria-hidden="true">▶</span>
+    <span class="review-video-label">Play video review</span>
+  </button>
+  <div class="review-video-copy">
+    <p class="review-overline">Independent long-term view</p>
+    <h3>{video.title}</h3>
+    <p>{video.note}</p>
+    <a href={`https://www.youtube.com/watch?v=${video.id}`} target="_blank" rel="noopener">
+      Watch on YouTube · {video.creator}
+    </a>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-video]').forEach((root) => {
+    const button = root.querySelector<HTMLButtonElement>('.review-video-poster');
+    button?.addEventListener('click', () => {
+      const id = root.dataset.video;
+      if (!id || root.querySelector('iframe')) return;
+      const frame = document.createElement('iframe');
+      frame.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1`;
+      frame.title = button.getAttribute('aria-label')?.replace(/^Play /, '') || 'Video review';
+      frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+      frame.allowFullscreen = true;
+      frame.referrerPolicy = 'strict-origin-when-cross-origin';
+      button.replaceWith(frame);
+    }, { once: true });
+  });
+</script>
+
