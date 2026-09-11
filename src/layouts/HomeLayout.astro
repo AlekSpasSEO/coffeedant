@@ -1,0 +1,34 @@
+---
+import '../styles/home.css';
+
+const {
+  title = 'Coffeedant | Find the Right Espresso Machine',
+  description = 'Independent espresso machine reviews, practical comparisons, and a faster way to find the right machine for your budget and routine.',
+} = Astro.props;
+
+const base = import.meta.env.BASE_URL;
+const canonical = 'https://coffeedant.com/';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f3da00" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/png" href={`${base}brand/coffeedant-logo.png`} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Coffeedant" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <slot />
+  </body>
+</html>

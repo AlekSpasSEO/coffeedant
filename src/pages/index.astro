@@ -1,10 +1,277 @@
 ---
-import Base from '../layouts/Base.astro';
-import data from '../data/home.json';
-const home = data.home;
+import HomeLayout from '../layouts/HomeLayout.astro';
+
+const base = import.meta.env.BASE_URL;
+const year = new Date().getFullYear();
+
+const products = [
+  {
+    brand: 'Breville', name: 'Bambino Plus', price: 449, rating: 4.2,
+    type: 'hands-on', typeLabel: 'Compact semi-auto', tag: 'Best first machine',
+    summary: 'Three-second heat-up, stable temperature control, and a forgiving workflow for small kitchens.',
+    image: 'images/products/breville-bambino-plus.png', path: 'espresso-machine/breville-bambino/',
+  },
+  {
+    brand: "De'Longhi", name: 'Magnifica Evo', price: 549, rating: 4.2,
+    type: 'automatic', typeLabel: 'Bean-to-cup', tag: 'Best easy milk drinks',
+    summary: 'A one-touch LatteCrema machine for households that want consistent cappuccinos without the learning curve.',
+    image: 'images/products/delonghi-magnifica-evo.png', path: 'espresso-machine/delonghi-magnifica-evo/',
+  },
+  {
+    brand: 'Gaggia', name: 'Classic EVO Pro', price: 549, rating: 4.5,
+    type: 'hands-on', typeLabel: 'Single boiler', tag: 'Best upgrade path',
+    summary: 'A durable 58 mm platform for home baristas who want to learn, tune, and improve over time.',
+    image: 'images/products/gaggia-classic-evo-pro.jpg', path: 'espresso-machine/gaggia-classic-evo-pro/',
+  },
+  {
+    brand: 'Philips', name: '5400 LatteGo', price: 1099, rating: 4.5,
+    type: 'automatic', typeLabel: 'Bean-to-cup', tag: 'Best shared kitchen',
+    summary: 'Twelve one-touch drinks, four profiles, and a tube-free milk carafe that cleans quickly.',
+    image: 'images/products/philips-5400-lattego.png', path: 'espresso-machine/philips-5400-lattego/',
+  },
+  {
+    brand: 'Profitec', name: 'GO', price: 1199, rating: 4.3,
+    type: 'hands-on', typeLabel: 'PID single boiler', tag: 'Best precise compact',
+    summary: 'Fast heat-up, degree-level PID control, and a built-in timer in a compact, focused machine.',
+    image: 'images/products/profitec-go.jpg', path: 'espresso-machine/profitec-go/',
+  },
+  {
+    brand: 'Lelit', name: 'Elizabeth', price: 1439.96, rating: 4.4,
+    type: 'hands-on', typeLabel: 'Dual boiler', tag: 'Best milk workflow',
+    summary: 'Independent temperature control, programmable pre-infusion, and serious steam power for busy mornings.',
+    image: 'images/products/lelit-elizabeth.jpg', path: 'espresso-machine/lelit-elizabeth/',
+  },
+];
+
+const formatPrice = (price) => new Intl.NumberFormat('en-US', {
+  style: 'currency', currency: 'USD', maximumFractionDigits: 0,
+}).format(price);
 ---
-<Base title={home?.title || 'Coffeedant — Espresso Machine Reviews'} description={home?.description} canonical={'https://alekspasseo.github.io/coffeedant/'}>
-  <div class="container article">
-    <article set:html={home?.html || '<h1>Coffeedant</h1>'}></article>
-  </div>
-</Base>
+
+<HomeLayout>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href={base} aria-label="Coffeedant home">
+        <img src={`${base}brand/coffeedant-logo.png`} alt="" width="48" height="48" />
+        <span>Coffeedant</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-controls="primary-nav" aria-expanded="false">☰</button>
+
+      <nav class="main-nav" id="primary-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href={`${base}espresso-machine/`}>Machines</a></li>
+          <li><a href={`${base}grinder/`}>Grinders</a></li>
+          <li><a href={`${base}coffee-machine/`}>Coffee makers</a></li>
+          <li><a href={`${base}blog/`}>Learn</a></li>
+        </ul>
+      </nav>
+
+      <a class="header-cta" href="#finder">Find my machine</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero">
+      <div class="shell hero-grid">
+        <div>
+          <p class="eyebrow">Independent coffee gear guidance</p>
+          <h1>Find your espresso machine. Fast.</h1>
+          <p class="hero-copy">Tell us how you drink coffee and what you want to spend. We’ll cut through 90 machines and point you toward a practical shortlist.</p>
+          <ul class="proof-row" aria-label="What Coffeedant offers">
+            <li>Buyer-first reviews</li>
+            <li>Real trade-offs</li>
+            <li>No jargon wall</li>
+          </ul>
+        </div>
+
+        <form class="finder" id="finder">
+          <p class="finder-step">Start here</p>
+          <h2>What fits your morning?</h2>
+          <div class="finder-fields">
+            <div class="field">
+              <label for="budget">Your budget</label>
+              <select id="budget" name="budget">
+                <option value="all">Any budget</option>
+                <option value="under500">Under $500</option>
+                <option value="500-1000">$500–$1,000</option>
+                <option value="1000-1500">$1,000–$1,500</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="machine-type">Your style</label>
+              <select id="machine-type" name="machine-type">
+                <option value="all">Show me both</option>
+                <option value="automatic">Push-button easy</option>
+                <option value="hands-on">Hands-on control</option>
+              </select>
+            </div>
+          </div>
+          <button class="finder-button" type="submit">Show my shortlist →</button>
+          <p class="finder-note">No email required. Results update instantly.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section" id="shortlist" aria-labelledby="shortlist-title">
+      <div class="shell">
+        <div class="section-heading">
+          <span class="section-number">01 / Shortlist</span>
+          <h2 id="shortlist-title">Good matches, minus the noise.</h2>
+          <p>These are starting points from the current Coffeedant catalog. Read the full review before buying.</p>
+        </div>
+
+        <div class="result-bar">
+          <span id="result-count">6 matches</span>
+          <span id="result-status" aria-live="polite">Showing all styles and budgets</span>
+        </div>
+        <p class="catalog-note">Reference prices come from the current Coffeedant catalog. Live Amazon price and availability updates will replace them in the automation phase.</p>
+
+        <div class="product-grid" id="product-grid">
+          {products.map((product) => (
+            <article class="product-card" data-price={product.price} data-type={product.type}>
+              <div class="product-media">
+                <span class="product-tag">{product.tag}</span>
+                <img src={`${base}${product.image}`} alt={product.name} width="400" height="400" loading="lazy" />
+              </div>
+              <div class="product-body">
+                <p class="product-brand">{product.brand} · {product.typeLabel}</p>
+                <h3>{product.name}</h3>
+                <p class="product-summary">{product.summary}</p>
+                <div class="product-meta">
+                  <span class="rating">★ {product.rating} / 5</span>
+                  <span>Ref. {formatPrice(product.price)}</span>
+                </div>
+                <a class="product-link" href={`${base}${product.path}`}>Read the review</a>
+              </div>
+            </article>
+          ))}
+        </div>
+
+        <p class="empty-state" id="empty-state" hidden>No exact match in this first shortlist. Browse the full machine guide for more options.</p>
+        <a class="browse-link" href={`${base}espresso-machine/`}>Browse all espresso machine reviews →</a>
+      </div>
+    </section>
+
+    <section class="section guides" aria-labelledby="guides-title">
+      <div class="shell">
+        <div class="section-heading">
+          <span class="section-number">02 / Field guides</span>
+          <h2 id="guides-title">Choose with context.</h2>
+          <p>Clear comparisons for the decisions that actually change what ends up in your cup.</p>
+        </div>
+
+        <div class="guide-grid">
+          <a class="guide-card" href={`${base}espresso-machine/`}>
+            <span class="guide-kicker">Start here · Buying guide</span>
+            <h3>Espresso machines, decoded</h3>
+            <p>Automatic, semi-automatic, single boiler, dual boiler. See what each choice means in daily use.</p>
+          </a>
+          <a class="guide-card" href={`${base}espresso-machine/built-in-grinder/`}>
+            <span class="guide-kicker">Roundup · All-in-one</span>
+            <h3>Best machines with a grinder</h3>
+            <p>When the all-in-one route makes sense, and where it forces a compromise.</p>
+          </a>
+          <a class="guide-card" href={`${base}blog/conical-vs-flat-burr-grinders/`}>
+            <span class="guide-kicker">Explainer · Grinders</span>
+            <h3>Conical vs. flat burrs</h3>
+            <p>A practical look at taste, workflow, retention, and value.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="method-title">
+      <div class="shell method-grid">
+        <div>
+          <p class="eyebrow">How we judge gear</p>
+          <h2 id="method-title">Useful beats impressive.</h2>
+          <p>A great machine is one that fits your drinks, patience, counter, and budget. Specs matter only when they improve the routine.</p>
+        </div>
+        <ol class="method-list">
+          <li><div><strong>Start with the routine</strong><span>Drink preference, volume, experience, and available time.</span></div></li>
+          <li><div><strong>Translate the hardware</strong><span>Heat-up, temperature control, grinder quality, steam, and cleanup.</span></div></li>
+          <li><div><strong>Name the trade-offs</strong><span>Every recommendation includes who should skip it and why.</span></div></li>
+          <li><div><strong>Keep the data current</strong><span>Prices and availability will sync through the Amazon data service in the automation phase.</span></div></li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src={`${base}brand/coffeedant-logo.png`} alt="" width="58" height="58" loading="lazy" />
+          <span>Coffeedant</span>
+        </div>
+        <p>Practical coffee gear reviews for better decisions and better mornings.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href={`${base}about/`}>About</a>
+        <a href={`${base}contact/`}>Contact</a>
+        <a href={`${base}privacy-policy/`}>Privacy</a>
+        <a href={`${base}tos/`}>Terms</a>
+      </nav>
+      <p class="disclosure"><strong>Affiliate disclosure</strong>Coffeedant may earn a commission from qualifying purchases. It does not change what you pay or how products are evaluated.</p>
+    </div>
+    <div class="shell" style="margin-top: 42px;">
+      <p>© {year} Coffeedant.</p>
+    </div>
+  </footer>
+
+  <script>
+    const menuButton = document.querySelector('.nav-toggle');
+    const menu = document.querySelector('.main-nav');
+    menuButton?.addEventListener('click', () => {
+      const isOpen = menu?.classList.toggle('open') ?? false;
+      menuButton.setAttribute('aria-expanded', String(isOpen));
+      menuButton.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+    });
+
+    const form = document.querySelector<HTMLFormElement>('#finder');
+    const budget = document.querySelector<HTMLSelectElement>('#budget');
+    const machineType = document.querySelector<HTMLSelectElement>('#machine-type');
+    const cards = Array.from(document.querySelectorAll<HTMLElement>('.product-card'));
+    const resultCount = document.querySelector('#result-count');
+    const resultStatus = document.querySelector('#result-status');
+    const emptyState = document.querySelector<HTMLElement>('#empty-state');
+
+    const inBudget = (price: number, range: string) => {
+      if (range === 'under500') return price < 500;
+      if (range === '500-1000') return price >= 500 && price < 1000;
+      if (range === '1000-1500') return price >= 1000 && price <= 1500;
+      return true;
+    };
+
+    const filterProducts = () => {
+      const selectedBudget = budget?.value ?? 'all';
+      const selectedType = machineType?.value ?? 'all';
+      let visible = 0;
+
+      cards.forEach((card) => {
+        const price = Number(card.dataset.price);
+        const type = card.dataset.type;
+        const matches = inBudget(price, selectedBudget) && (selectedType === 'all' || type === selectedType);
+        card.hidden = !matches;
+        if (matches) visible += 1;
+      });
+
+      if (resultCount) resultCount.textContent = `${visible} ${visible === 1 ? 'match' : 'matches'}`;
+      if (resultStatus) {
+        const typeText = selectedType === 'all' ? 'all styles' : machineType?.selectedOptions[0]?.text.toLowerCase();
+        const budgetText = selectedBudget === 'all' ? 'all budgets' : budget?.selectedOptions[0]?.text.toLowerCase();
+        resultStatus.textContent = `Showing ${typeText} · ${budgetText}`;
+      }
+      if (emptyState) emptyState.hidden = visible !== 0;
+    };
+
+    budget?.addEventListener('change', filterProducts);
+    machineType?.addEventListener('change', filterProducts);
+    form?.addEventListener('submit', (event) => {
+      event.preventDefault();
+      filterProducts();
+      document.querySelector('#shortlist')?.scrollIntoView({ behavior: 'smooth' });
+    });
+  </script>
+</HomeLayout>
