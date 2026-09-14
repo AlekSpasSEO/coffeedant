@@ -34,9 +34,10 @@ export type MachineReviewData = {
   updated: string;
   author: {
     name: string;
-    href: string;
-    image: string;
     role: string;
+    image: string;
+    imageAlt: string;
+    note: string;
   };
   price: {
     msrp: string;
@@ -118,9 +119,11 @@ export const bambinoReview: MachineReviewData = {
   updated: '2026-09-11',
   author: {
     name: 'Aleksandar Spasevski',
-    href: '/about/',
-    image: 'https://coffeedant.com/wp-content/uploads/2025/12/coffeedant-author-alek-spas.jpg',
-    role: 'Editor at Coffeedant and a barista-trained tester.',
+    role: 'Editor at Coffeedant',
+    image: 'images/author-aleksandar-spasevski.jpg',
+    imageAlt: 'Aleksandar Spasevski, editor at Coffeedant',
+    note:
+      'I test espresso machines for workflow, build, temperature behavior, and long-term ownership. Coffeedant reviews prioritize repeatable routines and service realities over spec-sheet hype.',
   },
   price: {
     msrp: '$499.95',

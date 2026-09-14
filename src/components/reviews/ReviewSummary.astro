@@ -23,21 +23,21 @@ const formatDate = (date: string) => new Intl.DateTimeFormat('en-US', {
       fetchpriority="high"
       decoding="async"
     />
-    <aside class="review-author-card" aria-label="About the author">
-      <div class="review-author-profile">
+    <aside class="review-author-card" aria-label="Review author and publication dates">
+      <div class="review-author-head">
         <img
-          src={review.author.image}
-          width="44"
-          height="44"
-          alt={review.author.name}
-          loading="lazy"
+          src={`${base}${review.author.image}`}
+          width="48"
+          height="48"
+          alt={review.author.imageAlt}
+          loading="eager"
           decoding="async"
         />
-        <p>
-          <span>Written by</span>
-          <a href={`${base}${review.author.href.replace(/^\//, '')}`}>{review.author.name}</a>
+        <div>
+          <span>Review by</span>
+          <strong>{review.author.name}</strong>
           <small>{review.author.role}</small>
-        </p>
+        </div>
       </div>
       <dl class="review-author-dates">
         <div>
@@ -49,10 +49,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat('en-US', {
           <dd><time datetime={review.updated}>{formatDate(review.updated)}</time></dd>
         </div>
       </dl>
-      <p class="review-author-note">
-        <strong>Affiliate note</strong>
-        Coffeedant may earn a commission from retailer links, at no extra cost to you.
-      </p>
+      <p><strong>Author's note</strong>{review.author.note}</p>
     </aside>
     <div class="review-fact-strip" aria-label="Key specifications">
       {review.facts.slice(0, 3).map((fact) => (
@@ -121,3 +118,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat('en-US', {
     </div>
   </div>
 </section>
+
+<p class="affiliate-note">
+  <strong>Affiliate disclosure:</strong> Coffeedant may earn a commission from retailer links, at no extra cost to you.
+</p>
