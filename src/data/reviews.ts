@@ -32,6 +32,12 @@ export type MachineReviewData = {
   rating: number;
   published: string;
   updated: string;
+  author: {
+    name: string;
+    href: string;
+    image: string;
+    role: string;
+  };
   price: {
     msrp: string;
     typical: string;
@@ -110,6 +116,12 @@ export const bambinoReview: MachineReviewData = {
   rating: 4.2,
   published: '2026-04-07',
   updated: '2026-09-11',
+  author: {
+    name: 'Aleksandar Spasevski',
+    href: '/about/',
+    image: 'https://coffeedant.com/wp-content/uploads/2025/12/coffeedant-author-alek-spas.jpg',
+    role: 'Editor at Coffeedant and a barista-trained tester.',
+  },
   price: {
     msrp: '$499.95',
     typical: 'Often $399-$499',

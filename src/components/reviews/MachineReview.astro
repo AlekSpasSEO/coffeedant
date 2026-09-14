@@ -44,7 +44,11 @@ const schema = {
       review: {
         '@type': 'Review',
         '@id': `${canonical}#review`,
-        author: { '@type': 'Organization', name: 'Coffeedant' },
+        author: {
+          '@type': 'Person',
+          name: review.author.name,
+          url: new URL(review.author.href.replace(/^\//, ''), 'https://coffeedant.com/').toString(),
+        },
         datePublished: review.published,
         dateModified: review.updated,
         name: review.title,
@@ -350,4 +354,3 @@ const schema = {
 </main>
 
 <script type="application/ld+json" set:html={JSON.stringify(schema)}></script>
-

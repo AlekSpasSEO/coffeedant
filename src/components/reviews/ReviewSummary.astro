@@ -4,6 +4,12 @@ import type { MachineReviewData } from '../../data/reviews';
 const { review } = Astro.props as { review: MachineReviewData };
 const base = import.meta.env.BASE_URL;
 const ratingPercent = `${review.rating / 5 * 100}%`;
+const formatDate = (date: string) => new Intl.DateTimeFormat('en-US', {
+  month: 'long',
+  day: 'numeric',
+  year: 'numeric',
+  timeZone: 'UTC',
+}).format(new Date(`${date}T00:00:00Z`));
 ---
 
 <section class="review-summary" aria-labelledby="review-title">
@@ -17,6 +23,37 @@ const ratingPercent = `${review.rating / 5 * 100}%`;
       fetchpriority="high"
       decoding="async"
     />
+    <aside class="review-author-card" aria-label="About the author">
+      <div class="review-author-profile">
+        <img
+          src={review.author.image}
+          width="44"
+          height="44"
+          alt={review.author.name}
+          loading="lazy"
+          decoding="async"
+        />
+        <p>
+          <span>Written by</span>
+          <a href={`${base}${review.author.href.replace(/^\//, '')}`}>{review.author.name}</a>
+          <small>{review.author.role}</small>
+        </p>
+      </div>
+      <dl class="review-author-dates">
+        <div>
+          <dt>Published</dt>
+          <dd><time datetime={review.published}>{formatDate(review.published)}</time></dd>
+        </div>
+        <div>
+          <dt>Last updated</dt>
+          <dd><time datetime={review.updated}>{formatDate(review.updated)}</time></dd>
+        </div>
+      </dl>
+      <p class="review-author-note">
+        <strong>Affiliate note</strong>
+        Coffeedant may earn a commission from retailer links, at no extra cost to you.
+      </p>
+    </aside>
     <div class="review-fact-strip" aria-label="Key specifications">
       {review.facts.slice(0, 3).map((fact) => (
         <span><strong>{fact.value}</strong>{fact.label}</span>
@@ -84,8 +121,3 @@ const ratingPercent = `${review.rating / 5 * 100}%`;
     </div>
   </div>
 </section>
-
-<p class="affiliate-note">
-  <strong>Affiliate disclosure:</strong> Coffeedant may earn a commission from retailer links, at no extra cost to you.
-</p>
-
