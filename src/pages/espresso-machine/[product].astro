@@ -1,0 +1,29 @@
+---
+import HomeLayout from '../../layouts/HomeLayout.astro';
+import MachineReview from '../../components/reviews/MachineReview.astro';
+import type { MachineReviewData } from '../../data/reviews';
+import { batchReviews } from '../../data/review-registry';
+import '../../styles/review.css';
+
+export function getStaticPaths() {
+  return batchReviews.map((review) => ({
+    params: { product: review.slug.split('/').filter(Boolean).at(-1) },
+    props: { review },
+  }));
+}
+
+const { review } = Astro.props as { review: MachineReviewData };
+---
+
+<HomeLayout
+  title={`${review.title} | Coffeedant`}
+  description={review.description}
+  canonicalPath={review.slug}
+  image={review.image}
+  imageAlt={review.imageAlt}
+  ogType="article"
+  published={review.published}
+  updated={review.updated}
+>
+  <MachineReview review={review} />
+</HomeLayout>

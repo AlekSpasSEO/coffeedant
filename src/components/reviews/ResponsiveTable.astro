@@ -2,8 +2,13 @@
 import type { ReviewTable } from '../../data/reviews';
 
 const { table } = Astro.props as { table: ReviewTable };
-const base = import.meta.env.BASE_URL;
-const rowLink = (href?: string) => href?.startsWith('/') ? `${base}${href.replace(/^\//, '')}` : href;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const basePath = base.replace(/\/$/, '');
+const rowLink = (href?: string) => href?.startsWith('/')
+  ? href === basePath || href.startsWith(`${basePath}/`)
+    ? href
+    : `${base}${href.replace(/^\//, '')}`
+  : href;
 ---
 
 <div class="review-table-wrap" role="region" aria-label={table.caption} tabindex="0">

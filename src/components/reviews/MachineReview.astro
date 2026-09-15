@@ -14,7 +14,8 @@ const formatDate = (date: string) => new Intl.DateTimeFormat('en-US', {
 }).format(new Date(`${date}T00:00:00Z`));
 const shortLabels: Record<string, string> = {
   orientation: 'Overview', setup: 'Setup', espresso: 'Espresso', milk: 'Milk', workflow: 'Daily use',
-  compare: 'Compare', owners: 'Owner feedback', ownership: 'Ownership', faq: 'FAQ',
+  compare: 'Compare', comparisons: 'Compare', recommendations: 'Alternatives',
+  owners: 'Owner feedback', ownership: 'Ownership', faq: 'FAQ',
   grinder: 'Grinder', cost: 'Total cost', design: 'Design', value: 'Value', related: 'More guides',
 };
 const jumpLinks = [
@@ -33,13 +34,14 @@ const schema = {
     {
       '@type': 'Product', '@id': `${canonical}#product`,
       name: `${review.brand} ${review.model}`, sku: review.sku, identifier: review.productId,
-      category: 'Semi-automatic espresso machine', image: assetUrl(review.image),
-      description: review.description, brand: { '@type': 'Brand', name: review.brand },
+      category: review.category, image: assetUrl(review.image),
+      description: review.description, url: canonical,
+      brand: { '@type': 'Brand', name: review.brand },
     },
     {
       '@type': 'Article', '@id': `${canonical}#article`, headline: review.title,
       description: review.description, articleSection: 'Espresso machine reviews',
-      genre: 'Research-led product review', author, datePublished: review.published,
+      genre: 'Research-led product review', inLanguage: 'en-US', author, datePublished: review.published,
       dateModified: review.updated, image: assetUrl(review.image), mainEntityOfPage: canonical,
       about: { '@id': `${canonical}#product` },
       publisher: { '@type': 'Organization', name: 'Coffeedant', url: 'https://coffeedant.com/' },
@@ -47,6 +49,7 @@ const schema = {
     },
     {
       '@type': 'VideoObject', name: review.video.title, description: review.video.note,
+      inLanguage: 'en-US',
       thumbnailUrl: `https://i.ytimg.com/vi/${review.video.id}/hqdefault.jpg`, uploadDate: review.video.published,
       embedUrl: `https://www.youtube-nocookie.com/embed/${review.video.id}`,
       contentUrl: `https://www.youtube.com/watch?v=${review.video.id}`,
@@ -62,7 +65,7 @@ const schema = {
 };
 ---
 
-<main id="main-content" class="review-page" data-product-id={review.productId}>
+<main id="main-content" class="review-page" data-product-id={review.productId} tabindex="-1">
   <div class="review-shell">
     <nav class="review-breadcrumbs" aria-label="Breadcrumb">
       <a href={base}>Home</a><span aria-hidden="true">/</span>
@@ -80,7 +83,7 @@ const schema = {
       <span>In this review</span><div>{jumpLinks.map((link) => <a href={`#${link.id}`}>{link.label}</a>)}</div>
     </nav>
     <article class="review-article" aria-label={`${review.brand} ${review.model} full review`}>
-      <ReviewRatings evaluation={review.evaluation} />
+      <ReviewRatings evaluation={review.evaluation} productName={`${review.brand} ${review.model}`} />
       {review.article.sections.map((section, index) => (
         <section class="review-section" id={section.id} aria-labelledby={`${section.id}-title`}>
           <header class="review-section-heading">
@@ -135,7 +138,7 @@ const schema = {
     <footer class="review-meta-footer">
       <span>Published <time datetime={review.published}>{formatDate(review.published)}</time></span>
       <span>Updated <time datetime={review.updated}>{formatDate(review.updated)}</time></span>
-      <a href={`${base}breville/`}>More Breville reviews</a>
+      <a href={`${base}${review.brandPath.replace(/^\//, '')}`}>{review.brandLinkLabel ?? `More ${review.brand} reviews`}</a>
     </footer>
   </div>
 </main>

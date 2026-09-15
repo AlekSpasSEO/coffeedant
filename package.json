@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "validate:reviews": "npm run build && node scripts/validate-review-batch.mjs"
   },
   "dependencies": {
     "astro": "^4.16.18"

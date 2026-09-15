@@ -124,7 +124,10 @@
 .review-rating-intro > :is(p, .review-rating-basis) { max-width: 780px; margin-inline: auto; }
 .review-rating-basis { margin-block: 22px 0; padding: 16px 19px; border-left: 4px solid var(--yellow); background: #f4f1e6; font-size: .86rem; line-height: 1.6; }
 .review-score-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; margin: 28px 0 34px; border: 2px solid var(--ink); background: var(--line); }
-.review-score-grid > .sr-only { position: absolute; }
+.review-page .sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
 .review-score-card { display: block; min-width: 0; padding: 20px; background: var(--white); }
 .review-score-card-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 15px; }
 .review-score-card-heading > span > a { color: var(--ink) !important; font-size: .75rem; font-weight: 950; letter-spacing: .02em; text-decoration: none !important; text-transform: uppercase; }

@@ -37,6 +37,7 @@ export type ReviewEvaluation = {
 };
 export type MachineReviewData = {
   slug: string; productId: string; brand: string; model: string; sku: string;
+  category: string; brandPath: string; brandLinkLabel?: string;
   title: string; description: string; verdictLabel: string; verdict: string; assessment: string;
   image: string; imageAlt: string; published: string; updated: string;
   author: { name: string; role: string; image: string; imageAlt: string; note: string };
@@ -70,6 +71,8 @@ export const bambinoReview: MachineReviewData = {
   brand: bambinoPlusIdentity.brand,
   model: 'Bambino Plus',
   sku: bambinoPlusIdentity.model_number,
+  category: 'Semi-automatic espresso machine',
+  brandPath: '/breville/',
   title: 'Breville Bambino Plus review',
   description: 'Is automatic milk worth the extra $200? A research-led Bambino Plus review covering the first week, grinder budget, espresso, maintenance and the alternatives.',
   verdictLabel: 'For everyday milk drinks',

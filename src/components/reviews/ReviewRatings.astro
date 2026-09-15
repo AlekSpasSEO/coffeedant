@@ -3,7 +3,7 @@ import type { ReviewEvaluation, ReviewTable } from '../../data/reviews';
 import { getReviewOverallScore } from '../../data/reviews';
 import ResponsiveTable from './ResponsiveTable.astro';
 
-const { evaluation } = Astro.props as { evaluation: ReviewEvaluation };
+const { evaluation, productName } = Astro.props as { evaluation: ReviewEvaluation; productName: string };
 const overall = getReviewOverallScore(evaluation);
 const heading = evaluation.basis.kind === 'hands-on'
   ? 'What our testing showed'
@@ -35,7 +35,7 @@ const summaryTable: ReviewTable = {
   </header>
   <div class="review-section-body">
     <div class="review-rating-intro">
-      <p class="review-lead">A single overall score is useful only when you can see what produced it. The Bambino Plus earns <strong>{overall === null ? 'not scored' : `${overall.toFixed(1)}/5`}</strong>, with espresso, milk, workflow, build, features, and value scored separately below.</p>
+      <p class="review-lead">A single overall score is useful only when you can see what produced it. {productName} earns <strong>{overall === null ? 'not scored' : `${overall.toFixed(1)}/5`}</strong>, with espresso, milk, workflow, build, features, and value scored separately below.</p>
       <p class="review-rating-basis"><strong>{evaluation.basis.label}.</strong> {evaluation.basis.disclosure}</p>
     </div>
 
