@@ -187,7 +187,7 @@ export const bambinoArticle: ResearchArticle = {
     {
       id: 'espresso',
       eyebrow: 'Making espresso',
-      title: 'The grinder and your recipe still decide a great deal',
+      title: 'Espresso quality still depends on the grinder and your recipe',
       html: `
         <p>Breville specifies low-pressure pre-infusion followed by nine-bar extraction. Pre-infusion wets the coffee before the main extraction, while the advertised 15-bar pump figure describes the pump rather than the intended brewing pressure. These are manufacturer specifications, not measured Coffeedant results. <a href="#source-breville-plus">[1]</a></p>
         <p>Those features do not decide whether your coffee tastes balanced. Water still has to pass through a bed that you prepared. An uneven bed gives it easier routes through some areas, while a grind that is unsuitable can make the whole shot run too quickly or struggle to flow.</p>

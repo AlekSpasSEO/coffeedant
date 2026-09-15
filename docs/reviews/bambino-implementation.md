@@ -8,7 +8,7 @@ Updated September 15, 2026 using the [Coffeedant Writing Universe](https://docs.
 - `src/data/products/bambino-plus.ts` preserves the registry identity, normalized attribute IDs, evidence references and dated manufacturer price separately from editorial content.
 - `src/data/bambino-article.ts` contains the full narrative, source records and judgments. `src/data/reviews.ts` assembles the compact decision summary.
 - The review components support the narrative without constraining prose to short cards. Author details remain below the image. Tables retain semantics and keyboard scrolling.
-- Research-led Article and Product metadata replace unsupported ratings and stale Offer markup. Existing section anchors remain usable.
+- Product and Article metadata remain evidence-safe and omit stale Offer and ReviewRating markup. The visible Coffeedant score is an editorial assessment with its research basis disclosed on the page, not a claimed hands-on result.
 
 ## Connection state
 
@@ -18,6 +18,9 @@ Future refreshes must preserve identifiers, retain source observations, recheck 
 
 ## Editorial and interface refinement
 
+- The mandatory rating layer is restored near the top: an overall 4.2/5 score is derived from six equally weighted category scores, and the full Espresso, Milk, Workflow, Build, Features and Value breakdown remains visible. Each score links to a structured category deep dive.
+- The former test-results layout is retained as an evidence-backed performance snapshot. Research-led pages say what the evidence supports; only a documented hands-on or hybrid review may say what Coffeedant testing showed.
+- Espresso recipes are visibly labeled editorial starting protocols rather than measured BES500 results. Milk, workflow, build, features and value now receive the same table-plus-diagnostics treatment instead of leaving structured analysis to espresso alone.
 - The alternative matrix now has two reading depths. The quick table keeps the original decision-focused view; a native `Details` control reveals dimensions, heating, coffee setup, milk workflow and audience fit without requiring JavaScript.
 - Named alternatives link to existing canonical Coffeedant reviews. The BES450 uses its on-page head-to-head section because there is no standalone review to link yet. No URL was invented.
 - The related-guides section now ends with four workflow-based recommendation cards. They work without commerce data and carry a stable `data-commerce-ready` hook for later eligible price and availability enrichment.
@@ -29,4 +32,4 @@ Future refreshes must preserve identifiers, retain source observations, recheck 
 
 The companion research files retain the official documentation, five independent publishers, three owner pools, media rights and limitations. The published review attributes external observations and makes no Coffeedant physical-testing claim.
 
-Validation: all 195 Astro pages built after this refinement. Static output contains one native detailed-comparison control, four recommendation cards, seven credited editorial figures, no duplicate IDs, and existing output routes for every new internal destination. The earlier browser checks at 1440, 768, 390 and 320 pixels remain the baseline; deployed viewport QA should be repeated after pushing because the comparison and recommendation layouts are new.
+Validation: all 195 Astro pages built after this refinement. Static output contains all six required rating categories, six matching performance modules, one native detailed-comparison control, four recommendation cards, seven credited editorial figures, no duplicate IDs, and existing output routes for every new internal destination. The earlier browser checks at 1440, 768, 390 and 320 pixels remain the baseline; deployed viewport QA should be repeated after pushing because the rating, comparison and recommendation layouts are new.

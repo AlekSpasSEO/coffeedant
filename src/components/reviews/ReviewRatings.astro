@@ -1,0 +1,62 @@
+---
+import type { ReviewEvaluation, ReviewTable } from '../../data/reviews';
+import { getReviewOverallScore } from '../../data/reviews';
+import ResponsiveTable from './ResponsiveTable.astro';
+
+const { evaluation } = Astro.props as { evaluation: ReviewEvaluation };
+const overall = getReviewOverallScore(evaluation);
+const heading = evaluation.basis.kind === 'hands-on'
+  ? 'What our testing showed'
+  : evaluation.basis.kind === 'hybrid'
+    ? 'What testing and market evidence support'
+    : 'What the evidence supports';
+const summaryTable: ReviewTable = {
+  caption: 'Coffeedant performance assessment across every required review category',
+  columns: [
+    { key: 'area', label: 'Area' },
+    { key: 'finding', label: 'Evidence-backed finding' },
+    { key: 'meaning', label: 'What it means' },
+    { key: 'status', label: 'Evidence status' },
+  ],
+  rows: evaluation.dimensions.map((dimension) => ({
+    area: dimension.label,
+    finding: dimension.reason,
+    meaning: dimension.buyerMeaning,
+    status: dimension.evidenceStatus,
+    href: `#${dimension.deepDiveId}`,
+  })),
+};
+---
+
+<section class="review-section review-ratings" id="ratings" aria-labelledby="ratings-title">
+  <header class="review-section-heading">
+    <p class="review-overline"><span class="review-section-number">01</span>Evidence first</p>
+    <h2 id="ratings-title">{heading}</h2>
+  </header>
+  <div class="review-section-body">
+    <div class="review-rating-intro">
+      <p class="review-lead">A single overall score is useful only when you can see what produced it. The Bambino Plus earns <strong>{overall === null ? 'not scored' : `${overall.toFixed(1)}/5`}</strong>, with espresso, milk, workflow, build, features, and value scored separately below.</p>
+      <p class="review-rating-basis"><strong>{evaluation.basis.label}.</strong> {evaluation.basis.disclosure}</p>
+    </div>
+
+    <div class="review-score-grid" role="table" aria-label="Coffeedant category rating table">
+      <div class="sr-only" role="row">
+        <span role="columnheader">Category</span><span role="columnheader">Score</span><span role="columnheader">Reason</span>
+      </div>
+      {evaluation.dimensions.map((dimension) => (
+        <div class="review-score-card" role="row">
+          <div class="review-score-card-heading" role="presentation">
+            <span role="rowheader"><a href={`#${dimension.deepDiveId}`}>{dimension.label}</a></span>
+            <strong role="cell">{dimension.score === null ? 'N/A' : dimension.score.toFixed(1)}{dimension.score !== null && <small>/10</small>}</strong>
+          </div>
+          {dimension.score !== null && <div class="review-score-track" aria-hidden="true"><span style={`width:${dimension.score * 10}%`}></span></div>}
+          <p role="cell">{dimension.reason}</p>
+        </div>
+      ))}
+    </div>
+
+    <h3>Performance snapshot</h3>
+    <ResponsiveTable table={summaryTable} />
+    <p class="review-note"><strong>How to read this:</strong> the category score is Coffeedant’s editorial judgment. The evidence-status column tells you what kind of support sits underneath it. Each category links to its full analysis farther down the review.</p>
+  </div>
+</section>

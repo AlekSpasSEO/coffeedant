@@ -73,7 +73,7 @@ Both currently display `30.3 x 18.8 x 36.2 cm` under WDH. This aligns numericall
 * 15-bar pump rating is not the stated brewing pressure. Use Breville's stated 9-bar extraction, not a Coffeedant measurement.
 * Exact dimensions remain unresolved. Do not normalize source disagreement by averaging or reversing axes without proof.
 * No verified current ASIN, Amazon price, star count, inventory, warranty duration, service fee or failure rate.
-* No scored Coffeedant test, first-hand taste notes, ownership duration, or original measurement exists.
+* No scored Coffeedant hands-on test, first-hand taste notes, ownership duration, or original measurement exists. Visible category scores are disclosed editorial judgments based on the evidence packet; they are not measurements.
 * An 18 g dose is within manual's 16–19 g double-basket range. A proposed 36 g yield may be framed as a suggested dial-in starting point; it is not the 60 ml volumetric factory preset or a guaranteed optimum.
 
 ## Video and media
@@ -93,6 +93,10 @@ Public dated price may say `Breville US: $499.95, checked September 15, 2026; ch
 ## Methodology statement
 
 Research-led review based on current US manufacturer documentation, original independent reviews and demonstrations, and separately identified owner communities. Coffeedant has not physically tested this unit. Manufacturer specifications, external observations and editorial buying advice remain distinguishable. Reviewer results do not become Coffeedant measurements.
+
+## Editorial rating record
+
+Overall score: 4.2/5, derived from six equally weighted category scores on a 10-point scale: Espresso 8.6, Milk 8.5, Workflow 9.5, Build 6.8, Features 7.8 and Value 9.2. The visible page must show the category reasons and evidence status beside the numbers. The score may be refreshed when the price, product generation, evidence status or evaluation method changes. Do not add ReviewRating or AggregateRating structured data until the scoring policy and schema QA are separately approved.
 
 ## Required research appendices
 

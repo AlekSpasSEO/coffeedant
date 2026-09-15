@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL;
 const rowLink = (href?: string) => href?.startsWith('/') ? `${base}${href.replace(/^\//, '')}` : href;
 ---
 
-<div class="review-table-wrap">
+<div class="review-table-wrap" role="region" aria-label={table.caption} tabindex="0">
   <table class="review-table">
     <caption class="sr-only">{table.caption}</caption>
     <thead>
