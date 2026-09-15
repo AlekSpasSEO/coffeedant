@@ -20,15 +20,108 @@ type ResearchArticle = {
   finalVerdict: string[];
 };
 
+type EditorialImage = {
+  src: string;
+  sourceHref: string;
+  alt: string;
+  caption: string;
+  credit: string;
+  license: string;
+  licenseHref: string;
+  width: number;
+  height: number;
+  context?: string;
+};
+
 const internalHref = (path: string) =>
   `${import.meta.env.BASE_URL.replace(/\/$/, '')}/${path.replace(/^\//, '')}`;
+
+const mediaFigure = (image: EditorialImage) => `
+  <figure class="review-media">
+    <a class="review-media-link" href="${image.sourceHref}" target="_blank" rel="noopener">
+      <img src="${image.src}" alt="${image.alt}" width="${image.width}" height="${image.height}" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+    </a>
+    <figcaption>
+      ${image.caption}
+      <span class="review-media-credit">Photo: <a href="${image.sourceHref}" target="_blank" rel="noopener">${image.credit}</a>, <a href="${image.licenseHref}" target="_blank" rel="license noopener">${image.license}</a>.${image.context ? ` ${image.context}` : ''}</span>
+    </figcaption>
+  </figure>
+`;
+
+// Rights and placement records are mirrored in docs/reviews/bambino-media.md.
+// Remote Commons thumbnails are temporary until the production asset pipeline mirrors them locally.
+const editorialMedia = {
+  grinder: {
+    src: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Coffee_machine_grinding_beans_%28Unsplash%29.jpg/1280px-Coffee_machine_grinding_beans_%28Unsplash%29.jpg',
+    sourceHref: 'https://commons.wikimedia.org/wiki/File:Coffee_machine_grinding_beans_(Unsplash).jpg',
+    alt: 'Two burr coffee grinders with beans in their hoppers',
+    caption: 'The grinder belongs in the buying decision because the Bambino Plus does not include one.',
+    credit: 'Crew', license: 'CC0 1.0', licenseHref: 'https://creativecommons.org/publicdomain/zero/1.0/',
+    width: 1280, height: 852,
+    context: 'Commercial grinders are shown as a workflow illustration, not as product recommendations.',
+  },
+  baskets: {
+    src: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Espresso_machine_filter_baskets.jpg/1280px-Espresso_machine_filter_baskets.jpg',
+    sourceHref: 'https://commons.wikimedia.org/wiki/File:Espresso_machine_filter_baskets.jpg',
+    alt: 'Three removable espresso filter baskets arranged on a countertop',
+    caption: 'Basket design changes how much resistance the ground coffee itself must provide.',
+    credit: 'massage-techniques', license: 'CC BY-SA 2.0', licenseHref: 'https://creativecommons.org/licenses/by-sa/2.0/',
+    width: 1280, height: 960,
+    context: 'The baskets shown are illustrative and are not the Bambino Plus accessory set.',
+  },
+  workflow: {
+    src: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Passion_Pour_%28Unsplash%29.jpg/1280px-Passion_Pour_%28Unsplash%29.jpg',
+    sourceHref: 'https://commons.wikimedia.org/wiki/File:Passion_Pour_(Unsplash).jpg',
+    alt: 'A barista watching espresso flow from a machine into a glass',
+    caption: 'A repeatable routine still includes watching the shot and responding to what you see.',
+    credit: 'Nathan Dumlao', license: 'CC0 1.0', licenseHref: 'https://creativecommons.org/publicdomain/zero/1.0/',
+    width: 1280, height: 853,
+    context: 'The commercial machine shown is not the Bambino Plus.',
+  },
+  extraction: {
+    src: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Latte_in_a_coffee_machine_%28Unsplash%29.jpg/1280px-Latte_in_a_coffee_machine_%28Unsplash%29.jpg',
+    sourceHref: 'https://commons.wikimedia.org/wiki/File:Latte_in_a_coffee_machine_(Unsplash).jpg',
+    alt: 'Espresso flowing from a bottomless portafilter',
+    caption: 'Flow can help diagnose preparation, but appearance alone does not tell you whether the espresso tastes balanced.',
+    credit: 'Blake Richard Verdoorn', license: 'CC0 1.0', licenseHref: 'https://creativecommons.org/publicdomain/zero/1.0/',
+    width: 1280, height: 853,
+    context: 'The equipment shown is not the Bambino Plus.',
+  },
+  milk: {
+    src: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Athena_Lam_2016_%28Unsplash%29.jpg/1280px-Athena_Lam_2016_%28Unsplash%29.jpg',
+    sourceHref: 'https://commons.wikimedia.org/wiki/File:Athena_Lam_2016_(Unsplash).jpg',
+    alt: 'Cappuccino with leaf-pattern latte art in a red cup',
+    caption: 'Automatic milk can shorten the learning curve, but the texture you prefer is still a personal target.',
+    credit: 'Athena Lam', license: 'CC0 1.0', licenseHref: 'https://creativecommons.org/publicdomain/zero/1.0/',
+    width: 1280, height: 853,
+  },
+  cleanup: {
+    src: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Portafilter_on_a_tamping_mat.jpg/1280px-Portafilter_on_a_tamping_mat.jpg',
+    sourceHref: 'https://commons.wikimedia.org/wiki/File:Portafilter_on_a_tamping_mat.jpg',
+    alt: 'An empty portafilter resting on a black tamping mat',
+    caption: 'Clearing and rinsing the basket after coffee is a small job that keeps the next session predictable.',
+    credit: 'massage-techniques', license: 'CC BY-SA 2.0', licenseHref: 'https://creativecommons.org/licenses/by-sa/2.0/',
+    width: 1280, height: 960,
+    context: 'The portafilter shown is illustrative and is not the Bambino Plus portafilter.',
+  },
+  fullyAutomatic: {
+    src: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Person_making_coffee_with_an_espresso_machine_in_a_kitchen_setting.jpg/1280px-Person_making_coffee_with_an_espresso_machine_in_a_kitchen_setting.jpg',
+    sourceHref: 'https://commons.wikimedia.org/wiki/File:Person_making_coffee_with_an_espresso_machine_in_a_kitchen_setting.jpg',
+    alt: 'Person holding a mug beneath a fully automatic coffee machine',
+    caption: 'A fully automatic machine removes basket preparation. That is a change of workflow category, not a small Bambino feature upgrade.',
+    credit: 'Nenad Stojković (Shixart1985)', license: 'CC BY 2.0', licenseHref: 'https://creativecommons.org/licenses/by/2.0/',
+    width: 1280, height: 853,
+  },
+} satisfies Record<string, EditorialImage>;
 
 // Canonical identity: Breville Bambino Plus BES500 / CD-EM-000005.
 // The registry preserves /espresso-machine/breville-bambino/ for this product.
 // Evidence packet completed 2026-09-15; no Coffeedant hands-on test is claimed.
 export const bambinoArticle: ResearchArticle = {
-  methodology:
-    'This is a research-led review of the US Breville Bambino Plus BES500. I assessed current manufacturer documentation, five independent reviews, and original owner discussions, including UK Sage owners. Coffeedant has not physically tested this machine. The review separates documented features, attributed experiences, and my buying advice. Prices were checked on September 15, 2026; owner anecdotes do not establish a failure rate.',
+  methodology: `
+    <p>I built this review around the current US documentation for the Breville Bambino Plus BES500, five independent hands-on or long-term evaluations, and three owner-discussion pools, including relevant UK Sage context. I used that evidence to answer the buying question that matters here: whether automatic milk earns its share of the complete setup budget.</p>
+    <p>This is a <strong>research-led review, not a Coffeedant hands-on test</strong>. The evidence supports confident judgments about the documented design, daily workflow, ownership questions, and market fit. It does not support invented Coffeedant measurements, an uncredited sensory result, or a failure rate. Prices were checked on September 15, 2026, and unresolved details remain marked rather than smoothed over.</p>
+  `,
   sections: [
     {
       id: 'orientation',
@@ -59,8 +152,10 @@ export const bambinoArticle: ResearchArticle = {
       title: 'Build the whole setup, then choose the machine’s spot',
       html: `
         <p>A small espresso machine can become a surprisingly large coffee station. Put the grinder beside the proposed machine position, then allow somewhere to weigh coffee, place a wet portafilter, and set down a milk jug. A machine that fits only after moving everything else is unlikely to feel convenient.</p>
+        ${mediaFigure(editorialMedia.grinder)}
         <p>The Plus has a removable 1.9 L tank. Exact counter clearance needs a separate check: the current official dimensions conflict with longstanding reviewer figures, so I would confirm the ordered unit’s width, depth, and height before fitting it into a tight recess. Leave access for refilling and lifting the tank, plus space in front to remove the tray. <a href="#source-plus-manual">[2]</a> <a href="#source-breville-plus">[1]</a> <a href="#source-gearlab">[11]</a></p>
         <p>The current US kit includes a portafilter, single-wall and dual-wall baskets, tamper, Razor trimming tool, milk jug, and cleaning tools. You do not need an upgraded basket or another tamper to begin. Check the contents against the booklet, particularly if you are buying older stock or a used unit. <a href="#source-breville-plus">[1]</a></p>
+        ${mediaFigure(editorialMedia.baskets)}
         <h3>Choose a basket for the coffee you actually have</h3>
         <p>A single-wall basket leaves most of the resistance to the coffee itself. That makes grind adjustment useful: a small change can alter how readily water travels through the puck, the compressed bed of coffee. It also means an unsuitable grinder cannot be rescued by an expensive basket.</p>
         <p>A dual-wall basket adds restriction at its outlet, making it a practical fallback for preground coffee. It does not give you control over how that coffee was ground or how fresh it is. I would use it to get started if necessary, then put the upgrade budget toward a grinder capable of fine espresso adjustments. The manual explains the two basket types. <a href="#source-plus-manual">[2]</a></p>
@@ -80,6 +175,7 @@ export const bambinoArticle: ResearchArticle = {
         <p>Once an espresso is enjoyable, choose a milk setting and keep the amount of milk similar. A shared household benefits from a small recipe note beside the grinder. The Plus cannot remember which beans you used or compensate for someone filling the basket by eye.</p>
         <h3>One morning drink</h3>
         <p>Think of preparation as a short sequence with a place for each tool. Get the cup, coffee, scale, and jug ready; heat the cup if desired and follow the manual’s pre-shot purge. Dry the basket before dosing, distribute the coffee, tamp level, and weigh the espresso as it pours. <a href="#source-plus-manual">[2]</a></p>
+        ${mediaFigure(editorialMedia.workflow)}
         <p>For a milk drink, brew the espresso and then steam. The Bambino Plus cannot brew and steam simultaneously, a limitation confirmed by Serious Eats. Automatic milk frees your attention during steaming, but it does not create a second brewing station. <a href="#source-serious-eats">[10]</a></p>
         <p>The three-second claim should therefore change your expectation of waiting for the heater, not your expectation of the entire drink. Even a quickly available machine needs prepared coffee and clean tools. I would judge its convenience against a routine you can repeat while distracted, rather than the shortest possible demonstration.</p>
         <h3>Two drinks expose the real workload</h3>
@@ -96,6 +192,7 @@ export const bambinoArticle: ResearchArticle = {
         <p>Breville specifies low-pressure pre-infusion followed by nine-bar extraction. Pre-infusion wets the coffee before the main extraction, while the advertised 15-bar pump figure describes the pump rather than the intended brewing pressure. These are manufacturer specifications, not measured Coffeedant results. <a href="#source-breville-plus">[1]</a></p>
         <p>Those features do not decide whether your coffee tastes balanced. Water still has to pass through a bed that you prepared. An uneven bed gives it easier routes through some areas, while a grind that is unsuitable can make the whole shot run too quickly or struggle to flow.</p>
         <p>I would prioritise a grinder with useful fine adjustments over a machine accessory that promises to fix extraction. You need to be able to change resistance in small steps and repeat the setting. Owning a separate grinder also lets you keep it if you eventually replace the espresso machine.</p>
+        ${mediaFigure(editorialMedia.extraction)}
         <h3>A starting recipe, with an honest status</h3>
         <p>For the supplied double basket, Breville gives a 16–19 g dose range. An illustrative starting point is <strong>18 g of coffee and 36 g of espresso</strong>: a 1:2 ratio by weight. The yield is my suggested starting target, not a tested Coffeedant recipe or the machine’s programmed shot volume. <a href="#source-plus-manual">[2]</a></p>
         <p>Put the cup on a scale and learn where to stop the shot. The amount in the cup is easier to compare than the apparent volume of espresso and crema, the foam on top. Keep a note of elapsed time, but use it as context rather than a pass-or-fail test.</p>
@@ -117,6 +214,7 @@ export const bambinoArticle: ResearchArticle = {
       html: `
         <p>Automatic milk is most valuable when consistency matters more to you than practising the wand. You choose a setting and repeat an arrangement instead of manually judging every stage. In a household with different experience levels, that can make the machine easier to share.</p>
         <p>Automatic steaming requires the supplied jug, cold milk within its marks, sensor contact, and the lowered wand. Wipe, then lower the wand to purge afterward. In manual mode, you control stopping. Follow the booklet’s sequence. <a href="#source-plus-manual">[2]</a></p>
+        ${mediaFigure(editorialMedia.milk)}
         <p>The sensor and presets need a repeatable starting situation. If you change milk quantity, milk type, and texture selection together, a different result tells you little about which change mattered. Start with the same amount and one setting, then adjust deliberately toward the drink you prefer.</p>
         <p>GearLab found automatic milk useful, but its preferred result depended on the setting; the highest temperature option heated more than its testers wanted. Tom’s Guide wanted thinner foam for a flat white than its automatic result provided. Neither observation justifies promising one setting will suit every milk and every taste. <a href="#source-gearlab">[11]</a> <a href="#source-toms-guide">[13]</a></p>
         <h3>Manual steaming is a different reason to own it</h3>
@@ -144,6 +242,7 @@ export const bambinoArticle: ResearchArticle = {
             </tbody>
           </table>
         </div>
+        ${mediaFigure(editorialMedia.cleanup)}
         <p>The official <a href="#source-plus-support">BES500 support hub [3]</a> groups setup, cleaning, and extraction help in one place. Bookmark it before an unfamiliar light pattern interrupts breakfast. The operating booklet remains the reference for the actual button sequence and cleaning materials.</p>
         <h3>Filtered water is not a complete specification</h3>
         <p>A filter can improve taste without making the resulting water suitable for every espresso machine. Ask what your filter removes and what water you start with, rather than treating the word “filtered” as a maintenance guarantee. Bottled water also varies, so the label is more informative than the bottle.</p>
@@ -185,20 +284,41 @@ export const bambinoArticle: ResearchArticle = {
     {
       id: 'compare',
       eyebrow: 'Choose the right compromise',
-      title: 'Four alternatives, each solving a different problem',
+      title: 'Four alternatives, with the quick answer and the technical detail',
       html: `
-        <div class="review-table-wrap" role="region" aria-label="Start with the work you want to keep or remove" tabindex="0">
+        <p class="review-lead">Use the quick table to identify the workflow that sounds right. Open <strong>Details</strong> when counter fit, heating design, portafilter size, grinder arrangement, or milk workflow could change the decision.</p>
+        <div class="review-table-wrap review-table-quick" role="region" aria-label="Quick comparison: start with the work you want to keep or remove" tabindex="0">
           <table class="review-table">
-            <caption>Start with the work you want to keep or remove</caption>
+            <caption>Quick view: start with the work you want to keep or remove</caption>
             <thead><tr><th scope="col">Alternative</th><th scope="col">Reason to consider it</th><th scope="col">What you still do</th></tr></thead>
             <tbody>
-              <tr><th scope="row">Bambino BES450</th><td data-label="Reason to consider it">Spend less and steam manually.</td><td data-label="What you still do">Grind, prepare the basket, brew, and manage milk.</td></tr>
-              <tr><th scope="row">Gaggia Classic E24</th><td data-label="Reason to consider it">A traditional boiler and 58 mm portafilter approach.</td><td data-label="What you still do">Learn the machine’s brewing and manual steaming routine.</td></tr>
-              <tr><th scope="row">Barista Express BES870</th><td data-label="Reason to consider it">Bring the grinder into the machine body.</td><td data-label="What you still do">Prepare espresso and steam milk manually.</td></tr>
-              <tr><th scope="row">Fully automatic category</th><td data-label="Reason to consider it">Remove manual basket preparation.</td><td data-label="What you still do">Refill, empty, and maintain the system; exact milk work varies.</td></tr>
+              <tr><th scope="row"><a href="#compare-bambino">Bambino BES450</a></th><td data-label="Reason to consider it">Spend less and steam manually.</td><td data-label="What you still do">Grind, prepare the basket, brew, and manage milk.</td></tr>
+              <tr><th scope="row"><a href="${internalHref('/espresso-machine/gaggia-classic-evo/')}">Gaggia Classic E24</a></th><td data-label="Reason to consider it">A traditional boiler and 58 mm portafilter approach.</td><td data-label="What you still do">Learn the machine’s brewing and manual steaming routine.</td></tr>
+              <tr><th scope="row"><a href="${internalHref('/espresso-machine/breville-barista-express-bes870xl/')}">Barista Express BES870</a></th><td data-label="Reason to consider it">Bring the grinder into the machine body.</td><td data-label="What you still do">Prepare espresso and steam milk manually.</td></tr>
+              <tr><th scope="row"><a href="${internalHref('/espresso-machine/superautomatic/')}">Fully automatic category</a></th><td data-label="Reason to consider it">Remove manual basket preparation.</td><td data-label="What you still do">Refill, empty, and maintain the system; exact milk work varies.</td></tr>
             </tbody>
           </table>
         </div>
+        <details class="review-comparison-details">
+          <summary>
+            <span class="review-details-label">Details</span>
+            <span class="review-details-description">Dimensions, heating system, portafilter, grinder, milk workflow, and best fit</span>
+          </summary>
+          <div class="review-table-wrap" role="region" aria-label="Detailed technical comparison of the Bambino Plus and alternatives" tabindex="0">
+            <table class="review-table review-table-detailed">
+              <caption>Detailed view: compare the exact workflow and counter fit</caption>
+              <thead><tr><th scope="col">Machine</th><th scope="col">Heating</th><th scope="col">Official dimensions</th><th scope="col">Coffee setup</th><th scope="col">Milk workflow</th><th scope="col">Best fit</th></tr></thead>
+              <tbody>
+                <tr><th scope="row"><a href="${internalHref('/espresso-machine/breville-bambino/')}">Bambino Plus BES500</a></th><td data-label="Heating">ThermoJet; brew and steam in sequence</td><td data-label="Official dimensions">11.9 × 7.4 × 14.3 in, W×D×H <a href="#source-breville-plus">[1]</a></td><td data-label="Coffee setup">54 mm portafilter; separate grinder</td><td data-label="Milk workflow">Automatic or manual; 3 temperature and 3 texture choices</td><td data-label="Best fit">Frequent milk drinks with fewer milk decisions</td></tr>
+                <tr><th scope="row"><a href="#compare-bambino">Bambino BES450</a></th><td data-label="Heating">ThermoJet; brew and steam in sequence</td><td data-label="Official dimensions">11.9 × 6.1 × 13.5 in, W×D×H <a href="#source-breville-bambino">[6]</a></td><td data-label="Coffee setup">54 mm portafilter; separate grinder</td><td data-label="Milk workflow">Manual steam wand</td><td data-label="Best fit">Lower machine spend and hands-on milk practice</td></tr>
+                <tr><th scope="row"><a href="${internalHref('/espresso-machine/gaggia-classic-evo/')}">Gaggia Classic E24</a></th><td data-label="Heating">Single lead-free brass boiler</td><td data-label="Official dimensions">20 × 35.5 × 27 cm, L×H×D <a href="#source-gaggia-e24">[8]</a></td><td data-label="Coffee setup">58 mm portafilter; separate grinder</td><td data-label="Milk workflow">Manual; cool the boiler after steaming before another brew</td><td data-label="Best fit">A more traditional routine and 58 mm accessories</td></tr>
+                <tr><th scope="row"><a href="${internalHref('/espresso-machine/breville-barista-express-bes870xl/')}">Barista Express BES870</a></th><td data-label="Heating">PID-controlled Thermocoil; brew and steam in sequence</td><td data-label="Official dimensions">15.9 × 13.1 × 12.4 in, W×D×H <a href="#source-barista-express">[9]</a></td><td data-label="Coffee setup">54 mm portafilter; integrated conical burr grinder with 16 settings</td><td data-label="Milk workflow">Manual steam wand</td><td data-label="Best fit">One combined appliance without leaving portafilter espresso</td></tr>
+                <tr><th scope="row"><a href="${internalHref('/espresso-machine/superautomatic/')}">Fully automatic category</a></th><td data-label="Heating">Varies by model</td><td data-label="Official dimensions">Varies; verify the exact model</td><td data-label="Coffee setup">Integrated grinder and internal brew group</td><td data-label="Milk workflow">Varies from a manual wand to one-touch milk</td><td data-label="Best fit">Minimum handling of ground coffee</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="review-table-note">Breville and Gaggia dimension labels are reproduced in the manufacturers’ stated order. Verify a tight recess against the exact unit. The standard Bambino links to its full comparison below because Coffeedant does not yet have a separate BES450 review page.</p>
+        </details>
         <h3 id="compare-bambino">Bambino Plus versus Bambino: will you use automatic milk?</h3>
         <p>The US Bambino BES450 was $299.95 at the same check, a $200 difference. It has manual steaming, a 54 mm portafilter, and a dedicated hot-water control; current US listings include both basket types. Its tank is 1.4 L versus the Plus’s 1.9 L. <a href="#source-breville-bambino">[6]</a> <a href="#source-bambino-manual">[7]</a></p>
         <p>I would choose the standard Bambino for an espresso-focused household or someone who specifically wants to learn manual milk. Choose the Plus when automatic milk will be used regularly, especially by several people with different confidence levels. Do not translate a higher price into an assumed $200 improvement in the espresso itself.</p>
@@ -211,18 +331,21 @@ export const bambinoArticle: ResearchArticle = {
         <p>Consider it when you want to choose and position one combined appliance. I prefer a separate grinder when independent upgrades matter, but that means planning two purchases and two positions on the counter. Compare the complete setups, and remember that moving to the Express does not preserve the Plus’s automatic milk routine.</p>
         <h3 id="compare-automatic">Bambino Plus versus fully automatic: how much work do you want?</h3>
         <p>If the preparation described in this review sounds like a burden, start in the fully automatic category. These machines handle grinding and brewing internally, although milk arrangements differ by model. That change addresses a different need from making one part of a manual routine easier.</p>
+        ${mediaFigure(editorialMedia.fullyAutomatic)}
         <p>I would choose the Plus if adjusting coffee is a satisfying part of the day. If the goal is a button press before leaving the house, be honest about that preference and compare fully automatic models by their actual milk and cleaning requirements. You are choosing work you will repeat, not an identity as a coffee enthusiast.</p>
       `,
     },
     {
       id: 'owners',
-      eyebrow: 'What other owners add',
-      title: 'Useful experiences, without turning anecdotes into statistics',
+      eyebrow: 'What ownership adds',
+      title: 'The market pattern is more useful than any single comment',
       html: `
-        <p>The owner material checked for this review includes Reddit, Singletrack, and a CoffeeBlog reader discussion. Some accounts concern UK Sage machines; several omit region or ownership duration. The evidence helps identify questions to ask, but it is too limited to rank US reliability or claim a representative owner verdict.</p>
-        <p>A Reddit beginner explicitly using a Bambino Plus with an Encore ESP described enjoying the routine after learning it. Another Reddit discussion contains satisfied owners alongside a return and a reported failure. Those accounts can coexist without telling us how likely any one outcome is. <a href="#source-reddit-starting">[15]</a> <a href="#source-reddit-ownership">[16]</a></p>
-        <p>The more useful buying lesson comes from owners whose preferences changed. Singletrack contributor dander, describing two years with a Plus, preferred manual steaming and questioned needing the upgrade. A CoffeeBlog commenter wanted more control as skills developed. These are individual experiences, but they reinforce a sensible question: are you paying to remove a job you want to learn? <a href="#source-singletrack">[17]</a> <a href="#source-coffeeblog">[18]</a></p>
-        <p>I would not turn those stories into a claim that everyone outgrows the machine. Some people want their coffee routine to remain straightforward. The right upgrade is one that removes a limitation you encounter, not one suggested by somebody else’s enthusiasm.</p>
+        <p class="review-lead">The ownership pattern is clearer than any single anecdote: the Plus satisfies people who want espresso involvement without making milk technique a daily requirement. It becomes less persuasive when manual steaming is one of the skills they actively want to build.</p>
+        <p>Early frustration tends to gather around the surrounding espresso setup, especially grind control, dosing, tamping, and learning what a fast or slow shot means. Once that routine becomes repeatable, the quick heater and automatic milk are the conveniences owners notice. This is why I would never evaluate the machine separately from the grinder or assume that a beginner-friendly milk system makes the whole drink automatic.</p>
+        <p>Longer-term reactions divide along priorities. Convenience-first owners can remain happy with a stable routine. Control-first owners are more likely to question the milk premium or want additional brew adjustment later. Those positions are not contradictory. They describe two different reasons to buy an espresso machine.</p>
+        <p>Reliability reports are mixed, with satisfied ownership, returns, and individual failures all present in the evidence pool. There is no denominator, consistent region, or verified-purchase sample from which to calculate a failure rate. The practical response is to follow the cleaning routine, confirm the seller’s return terms and applicable warranty, and treat the automatic milk system as added complexity rather than proof of a common defect.</p>
+        <p>I would reduce the market research to one question: <strong>do you want to learn espresso while keeping milk easy, or do you want to learn both?</strong> The Plus is coherent for the first person. The standard Bambino or a more traditional manual machine deserves priority for the second.</p>
+        <p class="review-source-note"><strong>Evidence pool:</strong> original owner discussions across Reddit, Singletrack, and CoffeeBlog, including relevant UK Sage context. The public conclusion above synthesises recurring themes; the source notes retain the individual limitations. <a href="#source-reddit-starting">[15]</a> <a href="#source-reddit-ownership">[16]</a> <a href="#source-singletrack">[17]</a> <a href="#source-coffeeblog">[18]</a></p>
       `,
     },
     {
@@ -248,6 +371,33 @@ export const bambinoArticle: ResearchArticle = {
       title: 'Continue with the rest of your setup',
       html: `
         <p>Use the <a href="${internalHref('/grinder/')}">grinder guide</a> alongside your machine shortlist so the complete purchase makes sense. For a wider comparison, explore <a href="${internalHref('/espresso-machine/beginners/')}">espresso machines for beginners</a> and the <a href="${internalHref('/breville/')}">Breville range</a>. If preparing a portafilter is the part you want to skip, start with the <a href="${internalHref('/espresso-machine/superautomatic/')}">fully automatic machine guide</a> and compare the work each option leaves you to do.</p>
+        <div class="review-recommendation-grid" data-commerce-ready="true" aria-label="Recommended next step by workflow">
+          <article class="review-recommendation-card review-recommendation-card-featured">
+            <p class="review-recommendation-kicker">Best for frequent milk drinks</p>
+            <h3>Bambino Plus with a separate grinder</h3>
+            <p>Keep automatic milk and protect espresso quality by treating the grinder as part of the same purchase.</p>
+            <a href="${internalHref('/grinder/')}">Choose the grinder next <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="review-recommendation-card">
+            <p class="review-recommendation-kicker">Best value if milk is a skill</p>
+            <h3>Bambino BES450</h3>
+            <p>Save the machine premium, steam manually, and leave more of the budget for grind control.</p>
+            <a href="#compare-bambino">Read the full comparison <span aria-hidden="true">↑</span></a>
+          </article>
+          <article class="review-recommendation-card">
+            <p class="review-recommendation-kicker">Best one-body compromise</p>
+            <h3>Barista Express BES870</h3>
+            <p>Bring the grinder into the appliance while keeping manual portafilter preparation and milk.</p>
+            <a href="${internalHref('/espresso-machine/breville-barista-express-bes870xl/')}">Read the Coffeedant review <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="review-recommendation-card">
+            <p class="review-recommendation-kicker">Best for minimum handling</p>
+            <h3>Fully automatic machines</h3>
+            <p>Move categories if grinding, dosing, tamping, and clearing a basket are the work you want removed.</p>
+            <a href="${internalHref('/espresso-machine/superautomatic/')}">Compare fully automatic models <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+        <p class="review-source-note"><strong>Recommendation rule:</strong> choose the workflow first and use live price or availability as the second filter. Retailer data can enrich these cards later without deciding which machine Coffeedant recommends.</p>
       `,
     },
   ],

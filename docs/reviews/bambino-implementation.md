@@ -14,10 +14,19 @@ Updated September 15, 2026 using the [Coffeedant Writing Universe](https://docs.
 
 The product module is a checked-in snapshot. The new registry's enrichment tables were not populated when read; this change does not enable spreadsheet synchronization or Amazon API ingestion. No secrets or Amazon-returned advertising content are added. The existing catalog affiliate destination and image are retained. The Breville price is a dated observation and is not an exact color/ASIN offer.
 
-Future refreshes must preserve identifiers, retain source observations, recheck regional offers and update editorial conclusions deliberately. Unknown dimensions, cup clearance, warranty duration, exact ASIN and parts stock remain explicit research gaps.
+Future refreshes must preserve identifiers, retain source observations, recheck regional offers and update editorial conclusions deliberately. Manufacturer-displayed dimensions are shown in their stated axis order, while exact fit, cup clearance, warranty duration, exact ASIN and parts stock remain explicit research gaps.
+
+## Editorial and interface refinement
+
+- The alternative matrix now has two reading depths. The quick table keeps the original decision-focused view; a native `Details` control reveals dimensions, heating, coffee setup, milk workflow and audience fit without requiring JavaScript.
+- Named alternatives link to existing canonical Coffeedant reviews. The BES450 uses its on-page head-to-head section because there is no standalone review to link yet. No URL was invented.
+- The related-guides section now ends with four workflow-based recommendation cards. They work without commerce data and carry a stable `data-commerce-ready` hook for later eligible price and availability enrichment.
+- Owner material is synthesized into a market pattern instead of narrated person by person. Source-specific limitations remain in the source ledger.
+- Seven rights-checked editorial photographs are placed beside the point they explain. Every caption includes credit, license and non-Bambino context where needed; `docs/reviews/bambino-media.md` is the rights ledger.
+- The Writing Universe was updated in place with the same comparison, recommendation, community-synthesis, visual-density, rights, and QA rules.
 
 ## Evidence and validation
 
-The three companion research files retain the official documentation, five independent publishers, three owner pools and limitations. The published review attributes external observations and makes no Coffeedant physical-testing claim.
+The companion research files retain the official documentation, five independent publishers, three owner pools, media rights and limitations. The published review attributes external observations and makes no Coffeedant physical-testing claim.
 
-Validation: all 195 Astro pages built. Browser checks at 1440, 768, 390 and 320 pixels confirmed no page overflow, overlapping section headings, duplicate IDs, broken section anchors or missing summary images. Verified one H1, permanent product identity, dated pricing, author below image, correct schema and click-to-load video. GitHub deployment status must be checked after pushing.
+Validation: all 195 Astro pages built after this refinement. Static output contains one native detailed-comparison control, four recommendation cards, seven credited editorial figures, no duplicate IDs, and existing output routes for every new internal destination. The earlier browser checks at 1440, 768, 390 and 320 pixels remain the baseline; deployed viewport QA should be repeated after pushing because the comparison and recommendation layouts are new.

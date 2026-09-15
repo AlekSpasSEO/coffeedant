@@ -103,7 +103,7 @@ const schema = {
       </section>
       <section class="review-section review-methodology" id="methodology" aria-labelledby="methodology-title">
         <span id="testing" class="review-anchor-alias" aria-hidden="true"></span>
-        <header class="review-section-heading"><p class="review-overline">How this review was built</p><h2 id="methodology-title">Evidence, judgment and limits</h2></header>
+        <header class="review-section-heading"><p class="review-overline">Why I trust the verdict</p><h2 id="methodology-title">What the evidence lets me say with confidence</h2></header>
         <div class="review-section-body">
           {review.article.methodology.trim().startsWith('<') ? <Fragment set:html={review.article.methodology} /> : <p>{review.article.methodology}</p>}
         </div>

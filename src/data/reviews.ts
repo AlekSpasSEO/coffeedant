@@ -1,6 +1,9 @@
 import { bambinoArticle } from './bambino-article';
 import { bambinoPlusIdentity, bambinoPlusFacts, bambinoPlusPrice } from './products/bambino-plus';
 
+const internalHref = (path: string) =>
+  `${import.meta.env.BASE_URL.replace(/\/$/, '')}/${path.replace(/^\//, '')}`;
+
 export type ReviewLink = { label: string; href: string; note?: string; affiliate?: boolean; primary?: boolean };
 export type ReviewTable = { caption: string; columns: Array<{ key: string; label: string }>; rows: Array<Record<string, string>> };
 export type MachineReviewData = {
@@ -84,8 +87,8 @@ export const bambinoReview: MachineReviewData = {
   ],
   alternatives: [
     { name: 'Standard Bambino', reason: 'Save the premium and learn manual milk.', href: '#compare-bambino' },
-    { name: 'Gaggia Classic E24', reason: 'Consider the traditional 58 mm boiler route.', href: '#compare-manual' },
-    { name: 'Bean-to-cup machine', reason: 'Choose automation for the whole drink.', href: '#compare-automatic' },
+    { name: 'Gaggia Classic E24', reason: 'Consider the traditional 58 mm boiler route.', href: internalHref('/espresso-machine/gaggia-classic-evo/') },
+    { name: 'Bean-to-cup machine', reason: 'Choose automation for the whole drink.', href: internalHref('/espresso-machine/superautomatic/') },
   ],
   article: bambinoArticle,
   video: {

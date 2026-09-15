@@ -2,7 +2,7 @@
 
 Checked 2026-09-15. Target: US Breville Bambino Plus BES500, 120 V / 60 Hz / 1560 W. Generation not stated; color-specific SKU and Amazon ASIN not validated. Research-led review, not Coffeedant hands-on testing.
 
-Status: research gate complete for a research-led review with disclosed gaps. Official set checked; five qualified independent publishers and three original owner-comment pools gathered in companion appendices. Third owner pool is thin and not a verified US sample. Exact dimensions, warranty duration, ASIN, and parts stock remain unresolved and must not be asserted.
+Status: research gate complete for a research-led review with disclosed gaps. Official set checked; five qualified independent publishers and three original owner-comment pools gathered in companion appendices. Third owner pool is thin and not a verified US sample. Manufacturer-displayed dimensions are recorded in their published axis order, but exact physical fit remains unresolved because the Bambino figures conflict with longstanding listings. Warranty duration, ASIN, and parts stock also remain unresolved.
 
 ## Decision and identity
 
@@ -82,7 +82,9 @@ Existing selected video: https://www.youtube.com/watch?v=2aIJAY3SJuU
 
 Search verifies title `Sage (Breville) Bambino Plus Review After Nearly 4 Years`, publication 2023-11-30. Page direct retrieval failed; no full playback/transcript claimed. Coffee Kev attribution aligns with Coffee Kev comparison page and existing site attribution; confirm link metadata through source appendix. Adds a long-term use/demonstration perspective. Label external reviewer and UK Sage context where appropriate. Embed/link only, no downloaded media.
 
-Existing repository product asset: `public/images/products/breville-bambino-plus.png`; author's asset `public/images/author-aleksandar-spasevski.jpg`. The existing site assets are retained. This packet downloads no product/reviewer images and grants no rights to third-party photographs. No new media candidates collected.
+Existing repository product asset: `public/images/products/breville-bambino-plus.png`; author's asset `public/images/author-aleksandar-spasevski.jpg`. The existing site assets are retained.
+
+Seven editorial photographs were selected from Wikimedia Commons after checking the image, creator, source page, and reuse terms. They illustrate the grinder, filter baskets, shot observation, extraction, milk outcome, routine cleanup, and fully automatic category without pretending to show a Coffeedant test. Visible captions retain credit, license, and any non-Bambino context. See `docs/reviews/bambino-media.md` for the full rights ledger and production-mirroring requirement.
 
 ## Commercial separation
 
@@ -112,11 +114,15 @@ URL: https://www.gaggia.com/manual-machines/new-classic-e24/
 
 Current official global page includes US/Canada documentation link and explicitly lists 120 V / 60 Hz / 1350 W alongside other regional power versions. Lead-free brass boiler and group, 58 mm stainless steel portafilter, manual professional steam wand, three-way solenoid, three rocker controls. No pre-infusion listed. Product page describes switching into steam mode; no automatic milk temperature/texture controls. No current US price verified or needed. Do not confuse E24 brass boiler with older Classic Evo Pro models at preserved internal URLs. Confidence high for these core features. 200-word source budget. Basic comparison can say the Classic E24 is a more traditional manual-control path with a 58 mm portafilter and manual steam; do not claim quantified repairability or guaranteed longer life.
 
+The same page lists product dimensions as `20 x 35.5 x 27 cm (l x h x d)`. Reproduce that order in technical comparison tables rather than silently translating it to another axis convention.
+
 ### O11. Breville Barista Express BES870 official US
 
 URL: https://www.breville.com/en-us/product/bes870
 
 Integrated conical burr grinder with 16 settings and dose control; 54 mm stainless steel portafilter; manual milk texturing, not Plus-style hands-free milk. It is a grinder-integrated semi-automatic route, not a bean-to-cup automatic. Compare household footprint and upgrade flexibility as editorial decisions; no current price required. Confidence high. 200-word source budget.
+
+The current US page lists `15.9 x 13.1 x 12.4 in` under `Dimensions (WxDxH)`. Keep the manufacturer's stated order in metadata tables.
 
 ### O12. Gaggia Classic E24 current US/Canada manual
 
