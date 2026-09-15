@@ -1,95 +1,55 @@
 ---
 import type { MachineReviewData } from '../../data/reviews';
-import ResponsiveTable from './ResponsiveTable.astro';
 import ReviewSummary from './ReviewSummary.astro';
-import VideoReview from './VideoReview.astro';
 
 const { review } = Astro.props as { review: MachineReviewData };
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const assetUrl = (path: string) => new URL(`${base}${path.replace(/^\//, '')}`, Astro.site ?? Astro.url).toString();
 const canonical = new URL(review.slug.replace(/^\//, ''), 'https://coffeedant.com/').toString();
-const officialOffer = review.links.find((link) => !link.affiliate) ?? review.links[0];
 const primaryOffer = review.links.find((link) => link.primary) ?? review.links[0];
 const formatDate = (date: string) => new Intl.DateTimeFormat('en-US', {
-  month: 'long',
-  day: 'numeric',
-  year: 'numeric',
-  timeZone: 'UTC',
+  month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC',
 }).format(new Date(`${date}T00:00:00Z`));
-
+const shortLabels: Record<string, string> = {
+  orientation: 'Overview', setup: 'Setup', espresso: 'Espresso', milk: 'Milk', workflow: 'Daily use',
+  compare: 'Compare', owners: 'Owner feedback', ownership: 'Ownership', faq: 'FAQ',
+  grinder: 'Grinder', cost: 'Total cost', design: 'Design', value: 'Value', related: 'More guides',
+};
 const jumpLinks = [
-  ['testing', 'Testing'],
-  ['espresso', 'Espresso'],
-  ['milk', 'Milk'],
-  ['workflow', 'Daily use'],
-  ['video', 'Video'],
-  ['compare', 'Compare'],
-  ['owners', 'Owners'],
-  ['ownership', 'Ownership'],
-  ['faq', 'FAQ'],
+  ...review.article.sections.map((section) => ({ id: section.id, label: shortLabels[section.id] ?? section.title })),
+  { id: 'video', label: 'Video' }, { id: 'methodology', label: 'Methodology' },
+  { id: 'sources', label: 'Sources' }, { id: 'verdict', label: 'Verdict' },
 ];
-
+const author = {
+  '@type': 'Person', name: review.author.name, jobTitle: review.author.role,
+  image: assetUrl(review.author.image), url: 'https://coffeedant.com/about/',
+};
 const schema = {
   '@context': 'https://schema.org',
   '@graph': [
     {
-      '@type': 'Product',
-      '@id': `${canonical}#product`,
-      name: `${review.brand} ${review.model}`,
-      sku: review.sku,
-      category: 'Semi-automatic espresso machine',
-      image: `https://coffeedant.com/${review.image}`,
-      description: review.description,
-      brand: { '@type': 'Brand', name: review.brand },
-      offers: {
-        '@type': 'Offer',
-        priceCurrency: review.price.currency,
-        price: review.price.numeric,
-        url: officialOffer.href,
-        itemCondition: 'https://schema.org/NewCondition',
-      },
-      review: {
-        '@type': 'Review',
-        '@id': `${canonical}#review`,
-        author: {
-          '@type': 'Person',
-          name: review.author.name,
-          jobTitle: review.author.role,
-          image: `https://coffeedant.com/${review.author.image}`,
-          url: 'https://coffeedant.com/about/',
-        },
-        datePublished: review.published,
-        dateModified: review.updated,
-        name: review.title,
-        reviewBody: review.verdict,
-        reviewRating: {
-          '@type': 'Rating',
-          ratingValue: review.rating,
-          bestRating: 5,
-          worstRating: 1,
-        },
-      },
+      '@type': 'Product', '@id': `${canonical}#product`,
+      name: `${review.brand} ${review.model}`, sku: review.sku, identifier: review.productId,
+      category: 'Semi-automatic espresso machine', image: assetUrl(review.image),
+      description: review.description, brand: { '@type': 'Brand', name: review.brand },
     },
     {
-      '@type': 'VideoObject',
-      name: review.video.title,
-      description: review.video.note,
-      thumbnailUrl: `https://i.ytimg.com/vi/${review.video.id}/hqdefault.jpg`,
-      uploadDate: review.video.published,
+      '@type': 'Article', '@id': `${canonical}#article`, headline: review.title,
+      description: review.description, articleSection: 'Espresso machine reviews',
+      genre: 'Research-led product review', author, datePublished: review.published,
+      dateModified: review.updated, image: assetUrl(review.image), mainEntityOfPage: canonical,
+      about: { '@id': `${canonical}#product` },
+      publisher: { '@type': 'Organization', name: 'Coffeedant', url: 'https://coffeedant.com/' },
+      citation: review.article.sources.map((source) => source.href),
+    },
+    {
+      '@type': 'VideoObject', name: review.video.title, description: review.video.note,
+      thumbnailUrl: `https://i.ytimg.com/vi/${review.video.id}/hqdefault.jpg`, uploadDate: review.video.published,
       embedUrl: `https://www.youtube-nocookie.com/embed/${review.video.id}`,
       contentUrl: `https://www.youtube.com/watch?v=${review.video.id}`,
     },
     {
-      '@type': 'FAQPage',
-      '@id': `${canonical}#faq`,
-      mainEntity: review.faqs.map((faq) => ({
-        '@type': 'Question',
-        name: faq.question,
-        acceptedAnswer: { '@type': 'Answer', text: faq.answer },
-      })),
-    },
-    {
-      '@type': 'BreadcrumbList',
-      itemListElement: [
+      '@type': 'BreadcrumbList', itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://coffeedant.com/' },
         { '@type': 'ListItem', position: 2, name: 'Espresso machines', item: 'https://coffeedant.com/espresso-machine/' },
         { '@type': 'ListItem', position: 3, name: `${review.brand} ${review.model}`, item: canonical },
@@ -99,266 +59,92 @@ const schema = {
 };
 ---
 
-<main id="main-content" class="review-page">
+<main id="main-content" class="review-page" data-product-id={review.productId}>
   <div class="review-shell">
     <nav class="review-breadcrumbs" aria-label="Breadcrumb">
       <a href={base}>Home</a><span aria-hidden="true">/</span>
       <a href={`${base}espresso-machine/`}>Espresso machines</a><span aria-hidden="true">/</span>
       <span aria-current="page">{review.model}</span>
     </nav>
-
     <ReviewSummary review={review} />
-
     <section class="quick-answer-panel" aria-labelledby="quick-answer-title">
-      <div class="quick-answer-heading">
-        <p class="review-overline">The short answer</p>
-        <h2 id="quick-answer-title">Six questions answered before you scroll</h2>
-      </div>
+      <header class="quick-answer-heading"><p class="review-overline">At a glance</p><h2 id="quick-answer-title">Before you choose</h2></header>
       <dl class="quick-answer-grid">
-        {review.quickAnswers.map((item) => (
-          <div>
-            <dt>{item.question}</dt>
-            <dd>{item.answer}</dd>
-          </div>
-        ))}
+        {review.quickAnswers.map((item) => <div><dt>{item.question}</dt><dd>{item.answer}</dd></div>)}
       </dl>
     </section>
-
     <nav class="review-jumpbar" aria-label="Review sections">
-      <span>Jump to</span>
-      <div>
-        {jumpLinks.map(([id, label]) => <a href={`#${id}`}>{label}</a>)}
-      </div>
+      <span>In this review</span><div>{jumpLinks.map((link) => <a href={`#${link.id}`}>{link.label}</a>)}</div>
     </nav>
-
-    <article class="review-article">
-      <section class="review-section" id="testing">
-        <header class="review-section-heading">
-          <span>01</span>
-          <div>
-            <p class="review-overline">Evidence first</p>
-            <h2>What the testing shows</h2>
-          </div>
-        </header>
+    <article class="review-article" aria-label={`${review.brand} ${review.model} full review`}>
+      {review.article.sections.map((section, index) => (
+        <section class="review-section" id={section.id} aria-labelledby={`${section.id}-title`}>
+          <header class="review-section-heading">
+            <p class="review-overline"><span class="review-section-number">{String(index + 1).padStart(2, '0')}</span>{section.eyebrow}</p>
+            <h2 id={`${section.id}-title`}>{section.title}</h2>
+          </header>
+          <div class="review-section-body" set:html={section.html} />
+        </section>
+      ))}
+      <section class="review-section" id="video" aria-labelledby="video-title">
+        <header class="review-section-heading"><p class="review-overline">See the machine in use</p><h2 id="video-title">An independent video perspective</h2></header>
         <div class="review-section-body">
-          <p class="review-lead">{review.testing.intro}</p>
-          <div class="review-score-grid" aria-label="Review scores">
-            {review.scores.map((score) => (
-              <div class="review-score-card">
-                <div><span>{score.label}</span><strong>{score.value}</strong></div>
-                <div class="review-score-track" aria-hidden="true"><span style={`width:${score.value * 10}%`}></span></div>
-                <p>{score.reason}</p>
-              </div>
-            ))}
-          </div>
-          <ResponsiveTable table={review.testing.table} />
-          <p class="review-note"><strong>The variable to control:</strong> {review.testing.note}</p>
-        </div>
-      </section>
-
-      <section class="review-section" id="espresso">
-        <header class="review-section-heading">
-          <span>02</span>
-          <div>
-            <p class="review-overline">In the cup</p>
-            <h2>Espresso quality</h2>
-          </div>
-        </header>
-        <div class="review-section-body">
-          {review.espresso.intro.map((paragraph) => <p>{paragraph}</p>)}
-          <ResponsiveTable table={review.espresso.table} />
-          <div class="diagnosis-grid" aria-label="Shot diagnosis">
-            {review.espresso.diagnosis.map((item) => (
-              <div><strong>{item.signal}</strong><span>{item.fix}</span></div>
-            ))}
+          <div class="review-video" data-review-video={review.video.id}>
+            <button class="review-video-poster" type="button" aria-label={`Play ${review.video.title}`}>
+              <img src={`https://i.ytimg.com/vi/${review.video.id}/hqdefault.jpg`} alt="" width="480" height="360" loading="lazy" decoding="async" />
+              <span class="review-play" aria-hidden="true">▶</span><span class="review-video-label">Play video</span>
+            </button>
+            <div class="review-video-copy">
+              <p class="review-overline">{review.video.creator}</p><h3>{review.video.title}</h3><p>{review.video.note}</p>
+              <a href={`https://www.youtube.com/watch?v=${review.video.id}`} target="_blank" rel="noopener">Watch on YouTube <span aria-hidden="true">↗</span></a>
+            </div>
           </div>
         </div>
       </section>
-
-      <section class="review-section" id="milk">
-        <header class="review-section-heading">
-          <span>03</span>
-          <div>
-            <p class="review-overline">The real model decision</p>
-            <h2>Milk system</h2>
-          </div>
-        </header>
+      <section class="review-section review-methodology" id="methodology" aria-labelledby="methodology-title">
+        <span id="testing" class="review-anchor-alias" aria-hidden="true"></span>
+        <header class="review-section-heading"><p class="review-overline">How this review was built</p><h2 id="methodology-title">Evidence, judgment and limits</h2></header>
         <div class="review-section-body">
-          {review.milk.intro.map((paragraph) => <p>{paragraph}</p>)}
-          <ResponsiveTable table={review.milk.table} />
-          <ul class="review-tip-list">
-            {review.milk.tips.map((tip) => <li>{tip}</li>)}
-          </ul>
+          {review.article.methodology.trim().startsWith('<') ? <Fragment set:html={review.article.methodology} /> : <p>{review.article.methodology}</p>}
         </div>
       </section>
-
-      <section class="review-section" id="workflow">
-        <header class="review-section-heading">
-          <span>04</span>
-          <div>
-            <p class="review-overline">Repeatable, not complicated</p>
-            <h2>The five-step daily workflow</h2>
-          </div>
-        </header>
+      <section class="review-section" id="sources" aria-labelledby="sources-title">
+        <span id="resources" class="review-anchor-alias" aria-hidden="true"></span>
+        <header class="review-section-heading"><p class="review-overline">Check the evidence</p><h2 id="sources-title">Sources and further reading</h2></header>
         <div class="review-section-body">
-          <p>{review.workflow.intro}</p>
-          <ol class="workflow-list">
-            {review.workflow.steps.map((step) => (
-              <li><div><strong>{step.title}</strong><p>{step.body}</p></div></li>
-            ))}
+          <ol class="review-source-list">
+            {review.article.sources.map((source) => <li id={source.id}><a href={source.href} target="_blank" rel="noopener">{source.label} <span aria-hidden="true">↗</span></a><p>{source.note}</p></li>)}
           </ol>
         </div>
       </section>
-
-      <section class="review-section review-section-video" id="video">
-        <header class="review-section-heading">
-          <span>05</span>
-          <div>
-            <p class="review-overline">Watch before buying</p>
-            <h2>A long-term video review</h2>
-          </div>
-        </header>
-        <div class="review-section-body">
-          <VideoReview video={review.video} />
-        </div>
-      </section>
-
-      <section class="review-section" id="compare">
-        <header class="review-section-heading">
-          <span>06</span>
-          <div>
-            <p class="review-overline">The closest alternatives</p>
-            <h2>Comparison table</h2>
-          </div>
-        </header>
-        <div class="review-section-body review-section-body-wide">
-          <p class="review-lead">{review.comparison.note}</p>
-          <ResponsiveTable table={review.comparison} />
-        </div>
-      </section>
-
-      <section class="review-section" id="owners">
-        <header class="review-section-heading">
-          <span>07</span>
-          <div>
-            <p class="review-overline">Beyond the test bench</p>
-            <h2>What owners say</h2>
-          </div>
-        </header>
-        <div class="review-section-body">
-          <p class="review-lead">The recurring theme is not that the Bambino replaces a prosumer machine. It is that speed and convenience often matter more in real kitchens than buyers expect.</p>
-          <div class="owner-comment-grid">
-            {review.ownerComments.map((item) => (
-              <figure>
-                {item.quote && <blockquote>{item.quote}</blockquote>}
-                <p>{item.comment}</p>
-                <figcaption>
-                  <a href={item.href} target="_blank" rel="ugc noopener">{item.attribution}</a>
-                </figcaption>
-              </figure>
-            ))}
-          </div>
-          <p class="review-source-note">Owner comments are anecdotal. They help explain daily use, but they are not failure-rate data.</p>
-        </div>
-      </section>
-
-      <section class="review-section" id="ownership">
-        <header class="review-section-heading">
-          <span>08</span>
-          <div>
-            <p class="review-overline">The part most reviews skip</p>
-            <h2>Ownership, care and upgrades</h2>
-          </div>
-        </header>
-        <div class="review-section-body">
-          <p class="review-lead">{review.ownership.intro}</p>
-          <h3>Cleaning schedule</h3>
-          <ResponsiveTable table={review.ownership.cleaning} />
-
-          <div class="ownership-grid">
-            <div>
-              <h3>Known issues, interpreted</h3>
-              <ul>{review.ownership.issues.map((issue) => <li>{issue}</li>)}</ul>
-            </div>
-            <div>
-              <h3>Upgrade in this order</h3>
-              <ol>{review.ownership.upgrades.map((item) => <li><strong>{item.title}</strong><span>{item.body}</span></li>)}</ol>
-            </div>
-          </div>
-
-          <div class="used-checklist">
-            <div>
-              <p class="review-overline">Buying used or refurbished?</p>
-              <h3>Five checks before paying</h3>
-            </div>
-            <ol>{review.ownership.usedChecklist.map((item) => <li>{item}</li>)}</ol>
-          </div>
-        </div>
-      </section>
-
-      <section class="review-section" id="resources">
-        <header class="review-section-heading">
-          <span>09</span>
-          <div>
-            <p class="review-overline">Useful external links</p>
-            <h2>Manuals, support and source material</h2>
-          </div>
-        </header>
-        <div class="review-section-body">
-          <div class="resource-list">
-            {review.resources.map((resource) => (
-              <a href={resource.href} target="_blank" rel="noopener">
-                <span><strong>{resource.label}</strong><small>{resource.note}</small></span>
-                <b aria-hidden="true">↗</b>
-              </a>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section class="review-section" id="faq">
-        <header class="review-section-heading">
-          <span>10</span>
-          <div>
-            <p class="review-overline">Clear answers</p>
-            <h2>Frequently asked questions</h2>
-          </div>
-        </header>
-        <div class="review-section-body review-section-body-wide">
-          <div class="review-faq-grid">
-            {review.faqs.map((faq) => (
-              <div><h3>{faq.question}</h3><p>{faq.answer}</p></div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section class="final-verdict" aria-labelledby="final-verdict-title">
-        <div>
-          <p class="review-overline">Final verdict</p>
-          <h2 id="final-verdict-title">The Bambino Plus earns its place by saving time, not by pretending espresso is automatic.</h2>
-          {review.finalVerdict.map((paragraph) => <p>{paragraph}</p>)}
-        </div>
-        <aside>
-          <span>Coffeedant score</span>
-          <strong>{review.rating}<small>/5</small></strong>
-          <a href={primaryOffer.href} target="_blank" rel="nofollow sponsored noopener">Check current price</a>
-          <small>{primaryOffer.note}</small>
-        </aside>
+      <section class="final-verdict" id="verdict" aria-labelledby="final-verdict-title">
+        <p class="review-overline">The buying decision</p><h2 id="final-verdict-title">{review.article.finalTitle}</h2>
+        {review.article.finalVerdict.map((paragraph) => <p>{paragraph}</p>)}
+        {primaryOffer && <a class="review-buy-button review-buy-button-dark" href={primaryOffer.href} target="_blank" rel={primaryOffer.affiliate ? 'nofollow sponsored noopener' : 'noopener'}>{primaryOffer.label} <span aria-hidden="true">↗</span></a>}
       </section>
     </article>
-
     <footer class="review-meta-footer">
       <span>Published <time datetime={review.published}>{formatDate(review.published)}</time></span>
       <span>Updated <time datetime={review.updated}>{formatDate(review.updated)}</time></span>
       <a href={`${base}breville/`}>More Breville reviews</a>
     </footer>
   </div>
-
-  <div class="mobile-buy-bar">
-    <div><span>{review.model}</span><strong>{review.price.msrp} MSRP</strong></div>
-    <a href={primaryOffer.href} target="_blank" rel="nofollow sponsored noopener">Check price</a>
-  </div>
 </main>
-
-<script type="application/ld+json" set:html={JSON.stringify(schema)}></script>
+<script is:inline type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />
+<script>
+  document.querySelectorAll<HTMLElement>('[data-review-video]').forEach((root) => {
+    const button = root.querySelector<HTMLButtonElement>('.review-video-poster');
+    button?.addEventListener('click', () => {
+      const id = root.dataset.reviewVideo;
+      if (!id || root.querySelector('iframe')) return;
+      const frame = document.createElement('iframe');
+      frame.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1`;
+      frame.title = button.getAttribute('aria-label')?.replace(/^Play /, '') || 'Independent video review';
+      frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+      frame.allowFullscreen = true;
+      frame.referrerPolicy = 'strict-origin-when-cross-origin';
+      button.replaceWith(frame);
+      frame.focus();
+    }, { once: true });
+  });
+</script>

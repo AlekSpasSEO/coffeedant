@@ -2,123 +2,66 @@
 import type { MachineReviewData } from '../../data/reviews';
 
 const { review } = Astro.props as { review: MachineReviewData };
-const base = import.meta.env.BASE_URL;
-const ratingPercent = `${review.rating / 5 * 100}%`;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const assetUrl = (path: string) => `${base}${path.replace(/^\//, '')}`;
 const formatDate = (date: string) => new Intl.DateTimeFormat('en-US', {
-  month: 'long',
-  day: 'numeric',
-  year: 'numeric',
-  timeZone: 'UTC',
+  month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC',
 }).format(new Date(`${date}T00:00:00Z`));
 ---
 
 <section class="review-summary" aria-labelledby="review-title">
+  <header class="review-summary-heading">
+    <p class="review-overline">{review.brand} · research-led review</p>
+    <h1 id="review-title">{review.title}</h1>
+  </header>
   <div class="review-summary-media">
     <span class="review-award">{review.verdictLabel}</span>
-    <img
-      src={`${base}${review.image}`}
-      width="300"
-      height="300"
-      alt={review.imageAlt}
-      fetchpriority="high"
-      decoding="async"
-    />
-    <aside class="review-author-card" aria-label="Review author and publication dates">
+    <img class="review-product-image" src={assetUrl(review.image)} width="500" height="500" alt={review.imageAlt} fetchpriority="high" decoding="async" />
+    <aside class="review-author-card" aria-label="Author and publication details">
       <div class="review-author-head">
-        <img
-          src={`${base}${review.author.image}`}
-          width="48"
-          height="48"
-          alt={review.author.imageAlt}
-          loading="eager"
-          decoding="async"
-        />
-        <div>
-          <span>Review by</span>
-          <strong>{review.author.name}</strong>
-          <small>{review.author.role}</small>
-        </div>
+        <img src={assetUrl(review.author.image)} width="48" height="48" alt={review.author.imageAlt} decoding="async" />
+        <div><span>Written by</span><strong>{review.author.name}</strong><small>{review.author.role}</small></div>
       </div>
       <dl class="review-author-dates">
-        <div>
-          <dt>Published</dt>
-          <dd><time datetime={review.published}>{formatDate(review.published)}</time></dd>
-        </div>
-        <div>
-          <dt>Last updated</dt>
-          <dd><time datetime={review.updated}>{formatDate(review.updated)}</time></dd>
-        </div>
+        <div><dt>Published</dt><dd><time datetime={review.published}>{formatDate(review.published)}</time></dd></div>
+        <div><dt>Updated</dt><dd><time datetime={review.updated}>{formatDate(review.updated)}</time></dd></div>
       </dl>
-      <p><strong>Author's note</strong>{review.author.note}</p>
+      <p><strong>A note from the author</strong>{review.author.note}</p>
     </aside>
-    <div class="review-fact-strip" aria-label="Key specifications">
-      {review.facts.slice(0, 3).map((fact) => (
-        <span><strong>{fact.value}</strong>{fact.label}</span>
-      ))}
-    </div>
   </div>
 
   <div class="review-summary-main">
-    <p class="review-overline">{review.brand} · tested review</p>
-    <h1 id="review-title">{review.title}</h1>
     <p class="review-deck">{review.verdict}</p>
-
+    <div class="review-assessment">
+      <strong>My assessment</strong><p>{review.assessment}</p>
+      <a href="#methodology">How I reached this conclusion <span aria-hidden="true">↗</span></a>
+    </div>
     <div class="review-commercial-row">
-      <div class="review-rating" aria-label={`${review.rating} out of 5`}>
-        <strong>{review.rating}</strong>
-        <span>
-          <span class="review-stars" aria-hidden="true">
-            <span>★★★★★</span>
-            <span class="review-stars-fill" style={`width:${ratingPercent}`}>★★★★★</span>
-          </span>
-          Coffeedant score
-        </span>
-      </div>
-      <div class="review-price">
-        <span>Official MSRP</span>
-        <strong>{review.price.msrp}</strong>
-        <small>{review.price.typical}</small>
+      <div class="review-price"><span>{review.price.label}</span><strong>{review.price.msrp}</strong><small>{review.price.typical}</small></div>
+      <div class="review-buy-actions">
+        {review.links.map((link) => (
+          <a class:list={['review-buy-button', { 'review-buy-button-primary': link.primary }]} href={link.href} target="_blank" rel={link.affiliate ? 'nofollow sponsored noopener' : 'noopener'}>
+            <span>{link.label} <span aria-hidden="true">↗</span></span>{link.note && <small>{link.note}</small>}
+          </a>
+        ))}
       </div>
     </div>
-
-    <div class="review-buy-actions">
-      {review.links.map((link) => (
-        <a
-          class:list={['review-buy-button', { 'review-buy-button-primary': link.primary }]}
-          href={link.href}
-          target="_blank"
-          rel={link.affiliate ? 'nofollow sponsored noopener' : 'noopener'}
-        >
-          <span>{link.label}</span>
-          <small>{link.note}</small>
-        </a>
-      ))}
-    </div>
-    <p class="review-price-check">Price checked {review.price.checked}. Retail prices change.</p>
+    <p class="review-price-check">Checked {review.price.checked}. Confirm the current price, model and included accessories with the retailer.</p>
+    {review.alternatives.length > 0 && (
+      <nav class="review-alternatives" aria-label="Alternative machines">
+        <h2>Also consider</h2>
+        {review.alternatives.map((item) => <a href={item.href}><strong>{item.name} <span aria-hidden="true">↗</span></strong><span>{item.reason}</span></a>)}
+      </nav>
+    )}
   </div>
-
+  <dl class="review-fact-strip" aria-label="Key specifications">
+    {review.facts.map((fact) => <div><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}
+  </dl>
   <div class="review-summary-bottom">
-    <div class="review-fit review-fit-good">
-      <h2>Buy it if</h2>
-      <ul>{review.bestFor.map((item) => <li>{item}</li>)}</ul>
-    </div>
-    <div class="review-fit review-fit-bad">
-      <h2>Skip it if</h2>
-      <ul>{review.avoidIf.map((item) => <li>{item}</li>)}</ul>
-    </div>
-    <div class="review-pros-cons">
-      <div>
-        <h2>Pros</h2>
-        <ul>{review.pros.slice(0, 4).map((item) => <li>{item}</li>)}</ul>
-      </div>
-      <div>
-        <h2>Cons</h2>
-        <ul>{review.cons.slice(0, 4).map((item) => <li>{item}</li>)}</ul>
-      </div>
-    </div>
+    <div class="review-fit review-fit-good"><h2>Buy it if</h2><ul>{review.bestFor.map((item) => <li>{item}</li>)}</ul></div>
+    <div class="review-fit review-fit-bad"><h2>Skip it if</h2><ul>{review.avoidIf.map((item) => <li>{item}</li>)}</ul></div>
+    <div class="review-fit review-pros"><h2>What works</h2><ul>{review.pros.slice(0, 4).map((item) => <li>{item}</li>)}</ul></div>
+    <div class="review-fit review-cons"><h2>The trade-offs</h2><ul>{review.cons.slice(0, 4).map((item) => <li>{item}</li>)}</ul></div>
   </div>
 </section>
-
-<p class="affiliate-note">
-  <strong>Affiliate disclosure:</strong> Coffeedant may earn a commission from retailer links, at no extra cost to you.
-</p>
+<p class="affiliate-note"><strong>Affiliate disclosure:</strong> Coffeedant may earn a commission from retailer links, at no extra cost to you. The assessment is based on the evidence and sources explained below.</p>
