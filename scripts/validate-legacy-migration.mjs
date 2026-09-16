@@ -6,9 +6,19 @@ import { parse } from 'parse5';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.join(root, 'dist');
 const migrationBatches = JSON.parse(fs.readFileSync(path.join(root, 'src/data/review-migration-batches.json'), 'utf8'));
+const migratedPaths = migrationBatches.batches.flat();
 const migratedLegacyPaths = migrationBatches.batches.slice(2).flat();
 const errors = [];
 const reports = [];
+
+const sitemap = fs.readFileSync(path.join(root, 'public/sitemap.xml'), 'utf8');
+const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
+const sitemapUrlSet = new Set(sitemapUrls);
+if (sitemapUrlSet.size !== sitemapUrls.length) errors.push('sitemap: duplicate URLs found');
+for (const route of migratedPaths) {
+  const url = `https://alekspasseo.github.io/coffeedant${route}`;
+  if (!sitemapUrlSet.has(url)) errors.push(`${route}: missing from sitemap`);
+}
 
 const attribute = (node, name) => node.attrs?.find((item) => item.name === name)?.value ?? '';
 const textContent = (node) => (
