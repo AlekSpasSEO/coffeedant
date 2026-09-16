@@ -155,7 +155,6 @@ export const bambinoArticle: ResearchArticle = {
         ${mediaFigure(editorialMedia.grinder)}
         <p>The Plus has a removable 1.9 L tank. Exact counter clearance needs a separate check: the current official dimensions conflict with longstanding reviewer figures, so I would confirm the ordered unit’s width, depth, and height before fitting it into a tight recess. Leave access for refilling and lifting the tank, plus space in front to remove the tray. <a href="#source-plus-manual">[2]</a> <a href="#source-breville-plus">[1]</a> <a href="#source-gearlab">[11]</a></p>
         <p>The current US kit includes a portafilter, single-wall and dual-wall baskets, tamper, Razor trimming tool, milk jug, and cleaning tools. You do not need an upgraded basket or another tamper to begin. Check the contents against the booklet, particularly if you are buying older stock or a used unit. <a href="#source-breville-plus">[1]</a></p>
-        ${mediaFigure(editorialMedia.baskets)}
         <h3>Choose a basket for the coffee you actually have</h3>
         <p>A single-wall basket leaves most of the resistance to the coffee itself. That makes grind adjustment useful: a small change can alter how readily water travels through the puck, the compressed bed of coffee. It also means an unsuitable grinder cannot be rescued by an expensive basket.</p>
         <p>A dual-wall basket adds restriction at its outlet, making it a practical fallback for preground coffee. It does not give you control over how that coffee was ground or how fresh it is. I would use it to get started if necessary, then put the upgrade budget toward a grinder capable of fine espresso adjustments. The manual explains the two basket types. <a href="#source-plus-manual">[2]</a></p>
@@ -175,7 +174,6 @@ export const bambinoArticle: ResearchArticle = {
         <p>Once an espresso is enjoyable, choose a milk setting and keep the amount of milk similar. A shared household benefits from a small recipe note beside the grinder. The Plus cannot remember which beans you used or compensate for someone filling the basket by eye.</p>
         <h3>One morning drink</h3>
         <p>Think of preparation as a short sequence with a place for each tool. Get the cup, coffee, scale, and jug ready; heat the cup if desired and follow the manual’s pre-shot purge. Dry the basket before dosing, distribute the coffee, tamp level, and weigh the espresso as it pours. <a href="#source-plus-manual">[2]</a></p>
-        ${mediaFigure(editorialMedia.workflow)}
         <p>For a milk drink, brew the espresso and then steam. The Bambino Plus cannot brew and steam simultaneously, a limitation confirmed by Serious Eats. Automatic milk frees your attention during steaming, but it does not create a second brewing station. <a href="#source-serious-eats">[10]</a></p>
         <p>The three-second claim should therefore change your expectation of waiting for the heater, not your expectation of the entire drink. Even a quickly available machine needs prepared coffee and clean tools. I would judge its convenience against a routine you can repeat while distracted, rather than the shortest possible demonstration.</p>
         <h3>Two drinks expose the real workload</h3>
@@ -192,7 +190,6 @@ export const bambinoArticle: ResearchArticle = {
         <p>Breville specifies low-pressure pre-infusion followed by nine-bar extraction. Pre-infusion wets the coffee before the main extraction, while the advertised 15-bar pump figure describes the pump rather than the intended brewing pressure. These are manufacturer specifications, not measured Coffeedant results. <a href="#source-breville-plus">[1]</a></p>
         <p>Those features do not decide whether your coffee tastes balanced. Water still has to pass through a bed that you prepared. An uneven bed gives it easier routes through some areas, while a grind that is unsuitable can make the whole shot run too quickly or struggle to flow.</p>
         <p>I would prioritise a grinder with useful fine adjustments over a machine accessory that promises to fix extraction. You need to be able to change resistance in small steps and repeat the setting. Owning a separate grinder also lets you keep it if you eventually replace the espresso machine.</p>
-        ${mediaFigure(editorialMedia.extraction)}
         <h3>A starting recipe, with an honest status</h3>
         <p>For the supplied double basket, Breville gives a 16–19 g dose range. An illustrative starting point is <strong>18 g of coffee and 36 g of espresso</strong>: a 1:2 ratio by weight. The yield is my suggested starting target, not a tested Coffeedant recipe or the machine’s programmed shot volume. <a href="#source-plus-manual">[2]</a></p>
         <p>Put the cup on a scale and learn where to stop the shot. The amount in the cup is easier to compare than the apparent volume of espresso and crema, the foam on top. Keep a note of elapsed time, but use it as context rather than a pass-or-fail test.</p>
@@ -242,7 +239,6 @@ export const bambinoArticle: ResearchArticle = {
             </tbody>
           </table>
         </div>
-        ${mediaFigure(editorialMedia.cleanup)}
         <p>The official <a href="#source-plus-support">BES500 support hub [3]</a> groups setup, cleaning, and extraction help in one place. Bookmark it before an unfamiliar light pattern interrupts breakfast. The operating booklet remains the reference for the actual button sequence and cleaning materials.</p>
         <h3>Filtered water is not a complete specification</h3>
         <p>A filter can improve taste without making the resulting water suitable for every espresso machine. Ask what your filter removes and what water you start with, rather than treating the word “filtered” as a maintenance guarantee. Bottled water also varies, so the label is more informative than the bottle.</p>
@@ -331,7 +327,6 @@ export const bambinoArticle: ResearchArticle = {
         <p>Consider it when you want to choose and position one combined appliance. I prefer a separate grinder when independent upgrades matter, but that means planning two purchases and two positions on the counter. Compare the complete setups, and remember that moving to the Express does not preserve the Plus’s automatic milk routine.</p>
         <h3 id="compare-automatic">Bambino Plus versus fully automatic: how much work do you want?</h3>
         <p>If the preparation described in this review sounds like a burden, start in the fully automatic category. These machines handle grinding and brewing internally, although milk arrangements differ by model. That change addresses a different need from making one part of a manual routine easier.</p>
-        ${mediaFigure(editorialMedia.fullyAutomatic)}
         <p>I would choose the Plus if adjusting coffee is a satisfying part of the day. If the goal is a button press before leaving the house, be honest about that preference and compare fully automatic models by their actual milk and cleaning requirements. You are choosing work you will repeat, not an identity as a coffee enthusiast.</p>
       `,
     },

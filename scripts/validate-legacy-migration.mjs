@@ -22,6 +22,17 @@ const descendants = (node, nodes = []) => {
   return nodes;
 };
 const hasClass = (node, className) => attribute(node, 'class').split(/\s+/).includes(className);
+const hasClassMatching = (node, pattern) => attribute(node, 'class').split(/\s+/).some((name) => pattern.test(name));
+const isFaqDropdown = (node) => {
+  if (node.tagName !== 'details') return false;
+  const summary = node.childNodes?.find((child) => child.tagName === 'summary');
+  let context = `${attribute(node, 'class')} ${attribute(node, 'id')} ${textContent(summary)}`;
+  for (let parent = node.parentNode; parent; parent = parent.parentNode) {
+    context += ` ${attribute(parent, 'class')} ${attribute(parent, 'id')}`;
+    if (parent.tagName === 'article' || parent.tagName === 'main') break;
+  }
+  return /faq|frequently.asked/i.test(context);
+};
 
 for (const route of migratedLegacyPaths) {
   const output = path.join(dist, route.replace(/^\//, ''), 'index.html');
@@ -32,32 +43,41 @@ for (const route of migratedLegacyPaths) {
 
   const html = fs.readFileSync(output, 'utf8');
   const nodes = descendants(parse(html));
-  const article = nodes.find((node) => node.tagName === 'article' && hasClass(node, 'legacy-migrated-article'));
-  if (!article) {
-    errors.push(`${route}: migrated article marker is missing`);
+  const legacyArticle = nodes.find((node) => node.tagName === 'article' && hasClass(node, 'legacy-migrated-article'));
+  const main = nodes.find((node) => node.tagName === 'main');
+  const mainNodes = main ? new Set(descendants(main, [])) : new Set();
+  const articles = legacyArticle
+    ? [legacyArticle]
+    : nodes.filter((node) => node.tagName === 'article' && mainNodes.has(node));
+  const scopes = articles.length ? articles : (main ? [main] : []);
+  if (!scopes.length) {
+    errors.push(`${route}: page content container is missing`);
     continue;
   }
 
-  const articleNodes = descendants(article, []);
-  const images = articleNodes.filter((node) => node.tagName === 'img').length;
-  const faqDropdowns = articleNodes.filter((node) => {
-    if (node.tagName !== 'details') return false;
-    const summary = node.childNodes?.find((child) => child.tagName === 'summary');
-    return /faq/i.test(`${attribute(node, 'class')} ${attribute(node, 'id')} ${textContent(summary)}`);
-  }).length;
-  const redditOutboundLinks = articleNodes.filter((node) => (
+  const scopeNodes = scopes.flatMap((scope) => descendants(scope, []));
+  const imageCounts = articles.map((article) => descendants(article, []).filter((node) => node.tagName === 'img').length);
+  const images = imageCounts.length ? Math.max(...imageCounts) : 0;
+  const faqDropdowns = scopeNodes.filter(isFaqDropdown).length;
+  const redditElements = scopeNodes.filter((node) => (
+    hasClassMatching(node, /(?:reddit|community-(?:evidence|embed))/i)
+      || (node.tagName === 'blockquote' && /reddit/i.test(attribute(node, 'data-embed')))
+  ));
+  const redditOutboundLinks = redditElements.flatMap((node) => descendants(node, [])).filter((node) => (
     node.tagName === 'a' && /reddit(?:media)?\.com/i.test(attribute(node, 'href'))
   )).length;
-  const redditEmbeds = articleNodes.filter((node) => (
+  const redditEmbeds = scopeNodes.filter((node) => (
     (node.tagName === 'iframe' || node.tagName === 'script') && /reddit/i.test(attribute(node, 'src'))
   )).length;
 
-  if (images > 3) errors.push(`${route}: expected at most 3 article images, found ${images}`);
+  imageCounts.forEach((count, index) => {
+    if (count > 3) errors.push(`${route}: article ${index + 1} has ${count} images; expected at most 3`);
+  });
   if (faqDropdowns) errors.push(`${route}: found ${faqDropdowns} FAQ dropdown control(s)`);
   if (redditOutboundLinks) errors.push(`${route}: found ${redditOutboundLinks} outbound Reddit link(s)`);
   if (redditEmbeds) errors.push(`${route}: found ${redditEmbeds} external Reddit embed(s)`);
 
-  reports.push({ route, images, faqDropdowns, redditOutboundLinks, redditEmbeds });
+  reports.push({ route, images, faqDropdowns, redditOutboundLinks, redditEmbeds, mode: legacyArticle ? 'legacy' : 'generated' });
 }
 
 if (errors.length) {
@@ -65,7 +85,7 @@ if (errors.length) {
   process.exit(1);
 }
 
-console.log(`Validated ${reports.length} migrated legacy pages.`);
+console.log(`Validated ${reports.length} migrated Coffeedant pages.`);
 for (const report of reports) {
-  console.log(`${report.route} images=${report.images} faq-dropdowns=${report.faqDropdowns} reddit-outbound=${report.redditOutboundLinks}`);
+  console.log(`${report.route} mode=${report.mode} max-article-images=${report.images} faq-dropdowns=${report.faqDropdowns} reddit-outbound=${report.redditOutboundLinks}`);
 }

@@ -77,7 +77,23 @@ const expandFaqDetails = (root: HtmlNode) => {
     const itemType = getAttribute(detail, 'itemtype');
     const label = textContent(summary).replace(/\s+/g, ' ').trim();
     const isQuestion = classes.includes('faq-item') || /\/Question$/i.test(itemType);
+    let ancestor = detail.parentNode;
+    let hasFaqAncestor = false;
+    while (ancestor && ancestor !== root) {
+      const ancestorContext = [
+        getAttribute(ancestor, 'class'),
+        getAttribute(ancestor, 'id'),
+        getAttribute(ancestor, 'aria-label'),
+        getAttribute(ancestor, 'itemtype'),
+      ].join(' ');
+      if (/faq|frequently.asked|\/FAQPage$/i.test(ancestorContext)) {
+        hasFaqAncestor = true;
+        break;
+      }
+      ancestor = ancestor.parentNode;
+    }
     const isFaq = isQuestion
+      || hasFaqAncestor
       || classes.some((className) => /faq/i.test(className))
       || /faq/i.test(id)
       || /\bfaqs?\b/i.test(label);
