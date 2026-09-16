@@ -5,6 +5,8 @@ import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.join(root, 'dist');
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'src/data/review-batch-manifest.json'), 'utf8'));
+const migrationBatches = JSON.parse(fs.readFileSync(path.join(root, 'src/data/review-migration-batches.json'), 'utf8'));
+const migratedReviewSlugs = new Set(migrationBatches.batches.flat());
 const outputDirectory = path.join(root, 'docs/reviews');
 
 const decodeHtml = (value = '') => value
@@ -45,6 +47,7 @@ const attribute = (value, name) => decodeHtml(value.match(new RegExp(`\\s${name}
 fs.mkdirSync(outputDirectory, { recursive: true });
 
 for (const item of manifest) {
+  const usesMigrationTemplate = migratedReviewSlugs.has(item.slug);
   const slugName = item.slug.split('/').filter(Boolean).at(-1);
   const htmlPath = path.join(dist, item.slug.replace(/^\//, ''), 'index.html');
   if (!fs.existsSync(htmlPath)) throw new Error(`Build output is missing for ${item.slug}`);
@@ -53,7 +56,7 @@ for (const item of manifest) {
   const main = html.match(/<main\b[\s\S]*?<\/main>/i)?.[0] ?? '';
   const articleCopy = cleanEditorialText(main
     .replace(/<figure\b[^>]*class="review-media review-inline-media"[^>]*>[\s\S]*?<\/figure>/gi, ' ')
-    .replace(/<aside\b[^>]*class="review-community-embed"[^>]*>[\s\S]*?<\/aside>/gi, ' '));
+    .replace(/<aside\b[^>]*class="review-community-(?:embed|evidence)"[^>]*>[\s\S]*?<\/aside>/gi, ' '));
   const words = wordCount(articleCopy);
   const title = cleanText(main.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)?.[1] ?? slugName);
   const mediaMatches = [...main.matchAll(/<figure\b([^>]*)class="review-media review-inline-media"([^>]*)>([\s\S]*?)<\/figure>/gi)];
@@ -104,7 +107,7 @@ Generated from the rendered review on September 16, 2026. This is the publicatio
 ## Density and source mix
 
 - Editorial word count, excluding captions and embeds: ${words}
-- Minimum images at one image per 500 words: ${requiredImages}
+${usesMigrationTemplate ? '- Publication image cap: 3 total images' : `- Minimum images at one image per 500 words: ${requiredImages}`}
 - Images published: ${rows.length + 1} (${rows.length} inline images plus one local product hero)
 - User-generated or community inline images: ${userGenerated} of ${rows.length}
 - Every externally hosted image links to its original community, owner-review, or product-listing page.

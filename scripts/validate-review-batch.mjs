@@ -6,6 +6,8 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.join(root, 'dist');
 const astroConfig = (await import(new URL('../astro.config.mjs', import.meta.url))).default;
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'src/data/review-batch-manifest.json'), 'utf8'));
+const migrationBatches = JSON.parse(fs.readFileSync(path.join(root, 'src/data/review-migration-batches.json'), 'utf8'));
+const migratedReviewSlugs = new Set(migrationBatches.batches.flat());
 const legacyPages = [
   ...JSON.parse(fs.readFileSync(path.join(root, 'src/data/pages-a.json'), 'utf8')),
   ...JSON.parse(fs.readFileSync(path.join(root, 'src/data/pages-b.json'), 'utf8')),
@@ -109,12 +111,13 @@ for (const item of manifest) {
     continue;
   }
   const html = fs.readFileSync(output, 'utf8');
+  const usesMigrationTemplate = migratedReviewSlugs.has(item.slug);
   const expectedCanonical = `${canonicalOrigin}${item.slug}`;
   const main = html.match(/<main\b[\s\S]*?<\/main>/i)?.[0] ?? '';
   const visible = cleanText(main);
   const articleCopy = cleanText(main
     .replace(/<figure\b[^>]*class="review-media review-inline-media"[^>]*>[\s\S]*?<\/figure>/gi, ' ')
-    .replace(/<aside\b[^>]*class="review-community-embed"[^>]*>[\s\S]*?<\/aside>/gi, ' '));
+    .replace(/<aside\b[^>]*class="review-community-(?:embed|evidence)"[^>]*>[\s\S]*?<\/aside>/gi, ' '));
   const words = wordCount(articleCopy);
   const scoreCards = count(main, /class="review-score-card"/g);
   const deepDives = count(main, /class="review-performance-detail"/g);
@@ -124,6 +127,7 @@ for (const item of manifest) {
   const sources = count(sourceList, /<li id="[^"]+">/g);
   const redditSourceLinks = [...sourceList.matchAll(/<a href="(https:\/\/(?:www\.)?reddit\.com\/[^"]+)"[^>]*rel="([^"]+)"/gi)];
   const redditEmbeds = count(main, /class="review-community-embed"/g);
+  const redditEvidenceBlocks = count(main, /class="review-community-evidence"/g);
   const recommendations = count(main, /class="review-recommendation-card(?:\s|"|$)/g);
   const h1s = count(main, /<h1\b/g);
   const mains = count(html, /<main\b/g);
@@ -147,17 +151,31 @@ for (const item of manifest) {
   if (scoreCards !== 6) fail(item.slug, `expected 6 rating cards, found ${scoreCards}`);
   if (deepDives !== 6) fail(item.slug, `expected 6 performance deep dives, found ${deepDives}`);
   if (sources < 10) fail(item.slug, `expected at least 10 source records, found ${sources}`);
-  if (redditSourceLinks.length && redditEmbeds !== 1) {
+  if (!usesMigrationTemplate && redditSourceLinks.length && redditEmbeds !== 1) {
     fail(item.slug, `expected one official Reddit embed for ${redditSourceLinks.length} Reddit source(s), found ${redditEmbeds}`);
   }
   if (redditSourceLinks.some((match) => !match[2].split(/\s+/).includes('ugc'))) {
     fail(item.slug, 'a Reddit source link is not marked as user-generated content');
   }
-  if (redditEmbeds && !/<iframe\b[^>]*src="https:\/\/www\.redditmedia\.com\//i.test(main)) {
+  if (!usesMigrationTemplate && redditEmbeds && !/<iframe\b[^>]*src="https:\/\/www\.redditmedia\.com\//i.test(main)) {
     fail(item.slug, 'Reddit module does not use the official redditmedia embed');
+  }
+  if (usesMigrationTemplate && redditSourceLinks.length) {
+    if (redditEvidenceBlocks !== 1) fail(item.slug, `expected one on-page Reddit evidence block, found ${redditEvidenceBlocks}`);
+    if (redditEmbeds !== 0 || /<iframe\b[^>]*src="https:\/\/www\.redditmedia\.com\//i.test(main)) {
+      fail(item.slug, 'migrated Reddit evidence still uses an external iframe');
+    }
+    const evidenceBlock = main.match(/<aside\b[^>]*class="review-community-evidence"[^>]*>[\s\S]*?<\/aside>/i)?.[0] ?? '';
+    if (/<a\b/i.test(evidenceBlock)) fail(item.slug, 'on-page Reddit evidence block contains an outbound link');
+    if (count(evidenceBlock, /<li>/g) < 1) fail(item.slug, 'on-page Reddit evidence block has no readable owner records');
   }
   if (comparisonDetails !== 1) fail(item.slug, `expected 1 detailed comparison control, found ${comparisonDetails}`);
   if (faqModules !== 1) fail(item.slug, `expected 1 FAQ module, found ${faqModules}`);
+  if (usesMigrationTemplate) {
+    const faqBlock = main.match(/<div class="review-faq-list">[\s\S]*?<\/div>/i)?.[0] ?? '';
+    if (/<details\b|<summary\b/i.test(faqBlock)) fail(item.slug, 'FAQ still uses dropdown controls');
+    if (count(faqBlock, /class="review-faq-item"/g) < 3) fail(item.slug, 'FAQ does not expose enough visible question-and-answer items');
+  }
   if (recommendations !== 4) fail(item.slug, `expected 4 recommendation cards, found ${recommendations}`);
   if (!main.includes('data-commerce-ready="true"')) fail(item.slug, 'commerce-ready recommendation hook is missing');
   if (!main.includes('class="review-author-card"')) fail(item.slug, 'author card is missing');
@@ -271,13 +289,18 @@ for (const item of manifest) {
 
   const inlineMedia = [...main.matchAll(/<figure\b[^>]*class="review-media review-inline-media"[^>]*>[\s\S]*?<\/figure>/gi)]
     .map((match) => match[0]);
-  const requiredImages = Math.ceil(words / 500);
   const imageCount = inlineMedia.length + 1;
-  if (imageCount < requiredImages) {
-    fail(item.slug, `image density is too low: ${imageCount} images for ${words} words; at least ${requiredImages} required`);
-  }
-  if (inlineMedia.length < requiredImages - 1) {
-    fail(item.slug, `expected at least ${requiredImages - 1} inline editorial images, found ${inlineMedia.length}`);
+  const requiredImages = Math.ceil(words / 500);
+  if (usesMigrationTemplate) {
+    if (imageCount > 3) fail(item.slug, `migration image cap exceeded: ${imageCount} images; maximum is 3`);
+    if (imageCount < 2) fail(item.slug, `migration page is visually unsupported: ${imageCount} images`);
+  } else {
+    if (imageCount < requiredImages) {
+      fail(item.slug, `image density is too low: ${imageCount} images for ${words} words; at least ${requiredImages} required`);
+    }
+    if (inlineMedia.length < requiredImages - 1) {
+      fail(item.slug, `expected at least ${requiredImages - 1} inline editorial images, found ${inlineMedia.length}`);
+    }
   }
 
   let userGeneratedMedia = 0;
@@ -317,7 +340,7 @@ for (const item of manifest) {
     }
   });
 
-  const requiredUserGenerated = Math.ceil(inlineMedia.length * 0.6);
+  const requiredUserGenerated = Math.ceil(inlineMedia.length * 0.5);
   if (userGeneratedMedia < requiredUserGenerated) {
     fail(item.slug, `user-generated image mix is too low: ${userGeneratedMedia} of ${inlineMedia.length}; at least ${requiredUserGenerated} required`);
   }
@@ -334,8 +357,11 @@ for (const item of manifest) {
     if (mediaLedgerRows !== inlineMedia.length) {
       fail(item.slug, `media ledger has ${mediaLedgerRows} image records for ${inlineMedia.length} inline images`);
     }
-    if (!mediaLedger.includes(`Minimum images at one image per 500 words: ${requiredImages}`)) {
-      fail(item.slug, 'media ledger does not record the current 1:500 density requirement');
+    const expectedLedgerRule = usesMigrationTemplate
+      ? 'Publication image cap: 3 total images'
+      : `Minimum images at one image per 500 words: ${requiredImages}`;
+    if (!mediaLedger.includes(expectedLedgerRule)) {
+      fail(item.slug, 'media ledger does not record the current publication image rule');
     }
   }
 

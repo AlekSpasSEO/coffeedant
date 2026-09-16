@@ -1,22 +1,36 @@
 ---
 import type { MachineReviewData } from '../../data/reviews';
 import { reviewInlineMedia } from '../../data/review-inline-media';
+import migrationBatches from '../../data/review-migration-batches.json';
 import ReviewSummary from './ReviewSummary.astro';
 import ReviewRatings from './ReviewRatings.astro';
 import ReviewPerformanceDetail from './ReviewPerformanceDetail.astro';
 
 const { review } = Astro.props as { review: MachineReviewData };
-const inlineMedia = reviewInlineMedia[review.slug] ?? [];
+const migratedReviewSlugs = new Set(migrationBatches.batches.flat());
+const usesMigrationTemplate = migratedReviewSlugs.has(review.slug);
+const allInlineMedia = reviewInlineMedia[review.slug] ?? [];
+const inlineMedia = usesMigrationTemplate
+  ? allInlineMedia.slice(0, 2).map((media, index) => ({ ...media, afterSection: index === 0 ? 1 : 5 }))
+  : allInlineMedia;
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const assetUrl = (path: string) => new URL(`${base}${path.replace(/^\//, '')}`, Astro.site ?? Astro.url).toString();
 const canonical = new URL(review.slug.replace(/^\//, ''), 'https://coffeedant.com/').toString();
 const primaryOffer = review.links.find((link) => link.primary) ?? review.links[0];
-const redditSource = review.article.sources.find((source) => /^https:\/\/(?:www\.)?reddit\.com\//i.test(source.href));
+const redditSources = review.article.sources.filter((source) => /^https:\/\/(?:www\.)?reddit\.com\//i.test(source.href));
+const redditSource = redditSources[0];
 const redditEmbedUrl = redditSource
   ? `${redditSource.href.replace(/^https:\/\/(?:www\.)?reddit\.com/i, 'https://www.redditmedia.com').replace(/\/$/, '')}/?ref_source=embed&ref=share&embed=true&showmedia=true`
   : null;
 const redditEmbedSectionId = ['owners', 'ownership', 'recommendations', 'value']
   .find((id) => review.article.sections.some((section) => section.id === id));
+const renderSectionHtml = (section: MachineReviewData['article']['sections'][number]) => {
+  if (!usesMigrationTemplate || section.id !== 'faq') return section.html;
+  return section.html
+    .replace(/<details>/gi, '<article class="review-faq-item">')
+    .replace(/<summary>([\s\S]*?)<\/summary>/gi, '<h3>$1</h3>')
+    .replace(/<\/details>/gi, '</article>');
+};
 const isCommunityHref = (href: string) => /(?:reddit\.com|home-barista\.com|freeflarum\.com|coffeeforums\.com|forums\.whirlpool\.net\.au|facebook\.com\/groups)/i.test(href);
 const formatDate = (date: string) => new Intl.DateTimeFormat('en-US', {
   month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC',
@@ -100,7 +114,7 @@ const schema = {
             <h2 id={`${section.id}-title`}>{section.title}</h2>
           </header>
           <div class="review-section-body">
-            <Fragment set:html={section.html} />
+            <Fragment set:html={renderSectionHtml(section)} />
             {review.evaluation.dimensions
               .filter((dimension) => dimension.deepDiveId === section.id)
               .map((dimension) => <ReviewPerformanceDetail dimension={dimension} />)}
@@ -142,7 +156,22 @@ const schema = {
                   </figcaption>
                 </figure>
               ))}
-            {section.id === redditEmbedSectionId && redditEmbedUrl && redditSource && (
+            {usesMigrationTemplate && section.id === redditEmbedSectionId && redditSources.length > 0 && (
+              <aside class="review-community-evidence" aria-labelledby={`${section.id}-reddit-title`}>
+                <p class="review-overline">What real owners report</p>
+                <h3 id={`${section.id}-reddit-title`}>The useful patterns from Reddit, kept on this page</h3>
+                <ul>
+                  {redditSources.slice(0, 3).map((source) => (
+                    <li>
+                      <strong>{source.label.replace(/^r\/([^:]+):?/i, 'r/$1')}</strong>
+                      <p>{source.note}</p>
+                    </li>
+                  ))}
+                </ul>
+                <p class="review-community-evidence-note">These are self-selected owner reports, not a representative sample or Coffeedant testing. The complete source records remain in the evidence list below.</p>
+              </aside>
+            )}
+            {!usesMigrationTemplate && section.id === redditEmbedSectionId && redditEmbedUrl && redditSource && (
               <aside class="review-community-embed" aria-labelledby={`${section.id}-reddit-title`}>
                 <p class="review-overline">From the owner community</p>
                 <h3 id={`${section.id}-reddit-title`}>A relevant Reddit discussion</h3>
