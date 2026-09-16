@@ -123,6 +123,30 @@ figure{ margin:0 0 1.2em; }
 .wp-block-details{ margin:0 0 1.2em; }
 .wp-block-details summary{ cursor:pointer; font-weight:600; }
 
+.legacy-faq-block,
+.legacy-migrated-article .faq-accordion{
+  margin:1.75rem 0;
+  padding:1.25rem;
+  border:1px solid #ded5c8;
+  border-radius:14px;
+  background:#faf7f2;
+}
+.legacy-faq-item{
+  padding:1rem 0;
+  border-bottom:1px solid #ded5c8;
+}
+.legacy-faq-item:last-child{ border-bottom:0; }
+.legacy-faq-question{ margin:.15rem 0 .55rem; }
+.legacy-faq-item .faq-answer,
+.legacy-faq-item .faq-body{ padding:0; }
+.legacy-community-evidence{
+  margin:1.5rem 0;
+  padding:1rem 1.15rem;
+  border-left:4px solid #8a5a30;
+  background:#faf7f2;
+}
+.legacy-reddit-reference{ color:inherit; font-weight:600; }
+
 .wp-block-preformatted{ background:#f4f1ec; padding:1em; border-radius:6px; overflow:auto; font-size:.9rem; }
 
 .wp-block-genesis-blocks-gb-spacer{ display:block; }

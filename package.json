@@ -8,9 +8,11 @@
     "build": "astro build",
     "preview": "astro preview",
     "generate:review-media-ledgers": "node scripts/generate-review-media-ledgers.mjs",
+    "validate:migration": "npm run build && node scripts/validate-legacy-migration.mjs",
     "validate:reviews": "npm run build && npm run generate:review-media-ledgers && node scripts/validate-review-batch.mjs"
   },
   "dependencies": {
-    "astro": "^4.16.18"
+    "astro": "^4.16.18",
+    "parse5": "^7.3.0"
   }
 }
