@@ -6,11 +6,18 @@ import ReviewRatings from './ReviewRatings.astro';
 import ReviewPerformanceDetail from './ReviewPerformanceDetail.astro';
 
 const { review } = Astro.props as { review: MachineReviewData };
-const inlineMedia = reviewInlineMedia[review.slug];
+const inlineMedia = reviewInlineMedia[review.slug] ?? [];
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const assetUrl = (path: string) => new URL(`${base}${path.replace(/^\//, '')}`, Astro.site ?? Astro.url).toString();
 const canonical = new URL(review.slug.replace(/^\//, ''), 'https://coffeedant.com/').toString();
 const primaryOffer = review.links.find((link) => link.primary) ?? review.links[0];
+const redditSource = review.article.sources.find((source) => /^https:\/\/(?:www\.)?reddit\.com\//i.test(source.href));
+const redditEmbedUrl = redditSource
+  ? `${redditSource.href.replace(/^https:\/\/(?:www\.)?reddit\.com/i, 'https://www.redditmedia.com').replace(/\/$/, '')}/?ref_source=embed&ref=share&embed=true&showmedia=true`
+  : null;
+const redditEmbedSectionId = ['owners', 'ownership', 'recommendations', 'value']
+  .find((id) => review.article.sections.some((section) => section.id === id));
+const isCommunityHref = (href: string) => /(?:reddit\.com|home-barista\.com|freeflarum\.com|coffeeforums\.com|forums\.whirlpool\.net\.au|facebook\.com\/groups)/i.test(href);
 const formatDate = (date: string) => new Intl.DateTimeFormat('en-US', {
   month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC',
 }).format(new Date(`${date}T00:00:00Z`));
@@ -97,23 +104,57 @@ const schema = {
             {review.evaluation.dimensions
               .filter((dimension) => dimension.deepDiveId === section.id)
               .map((dimension) => <ReviewPerformanceDetail dimension={dimension} />)}
-            {index === 1 && inlineMedia && (
-              <figure class="review-media review-inline-media">
-                <a class="review-media-link" href={inlineMedia.sourceHref} target="_blank" rel="noopener">
-                  <img
-                    src={/^https?:\/\//.test(inlineMedia.src) ? inlineMedia.src : assetUrl(inlineMedia.src)}
-                    alt={inlineMedia.alt}
-                    width="1400"
-                    height="933"
-                    loading="lazy"
-                    decoding="async"
-                  />
-                </a>
-                <figcaption>
-                  {inlineMedia.caption}
-                  <span class="review-media-credit">Image: <a href={inlineMedia.sourceHref} target="_blank" rel="noopener">{inlineMedia.credit}</a>.</span>
-                </figcaption>
-              </figure>
+            {inlineMedia
+              .filter((media) => media.afterSection === index)
+              .map((media) => (
+                <figure
+                  class="review-media review-inline-media"
+                  data-source-type={media.sourceType}
+                  data-user-generated={String(media.userGenerated)}
+                  data-usage-record={media.usageHref}
+                >
+                  <a class="review-media-link" href={media.sourceHref} target="_blank" rel={media.userGenerated ? 'ugc noopener' : 'noopener'}>
+                    <img
+                      src={/^https?:\/\//.test(media.src) ? media.src : assetUrl(media.src)}
+                      alt={media.alt}
+                      width={media.width}
+                      height={media.height}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </a>
+                  <figcaption>
+                    <span class="review-media-source-badge">{
+                      media.sourceType === 'reddit'
+                        ? 'Reddit photo'
+                        : media.sourceType === 'community'
+                          ? 'Community photo'
+                          : media.userGenerated
+                            ? 'Owner photo'
+                            : 'Product listing'
+                    }</span>
+                    {media.caption}
+                    <span class="review-media-credit">
+                      Image: <a href={media.sourceHref} target="_blank" rel={media.userGenerated ? 'ugc noopener' : 'noopener'}>{media.credit}</a>.
+                      {' '}Usage record: <a href={media.usageHref} target="_blank" rel="noopener">{media.usageLabel}</a>.
+                      {media.disclosure && <> {media.disclosure}</>}
+                    </span>
+                  </figcaption>
+                </figure>
+              ))}
+            {section.id === redditEmbedSectionId && redditEmbedUrl && redditSource && (
+              <aside class="review-community-embed" aria-labelledby={`${section.id}-reddit-title`}>
+                <p class="review-overline">From the owner community</p>
+                <h3 id={`${section.id}-reddit-title`}>A relevant Reddit discussion</h3>
+                <iframe
+                  src={redditEmbedUrl}
+                  title={redditSource.label}
+                  width="640"
+                  height="520"
+                  loading="lazy"
+                ></iframe>
+                <p class="review-community-embed-note">Official Reddit embed. Individual posts are anecdotal and do not establish defect rates or typical lifespan.</p>
+              </aside>
             )}
           </div>
         </section>
@@ -145,7 +186,7 @@ const schema = {
         <header class="review-section-heading"><p class="review-overline">Check the evidence</p><h2 id="sources-title">Sources and further reading</h2></header>
         <div class="review-section-body">
           <ol class="review-source-list">
-            {review.article.sources.map((source) => <li id={source.id}><a href={source.href} target="_blank" rel="noopener">{source.label} <span aria-hidden="true">↗</span></a><p>{source.note}</p></li>)}
+            {review.article.sources.map((source) => <li id={source.id}><a href={source.href} target="_blank" rel={isCommunityHref(source.href) ? 'ugc noopener' : 'noopener'}>{source.label} <span aria-hidden="true">↗</span></a><p>{source.note}</p></li>)}
           </ol>
         </div>
       </section>

@@ -112,13 +112,18 @@ for (const item of manifest) {
   const expectedCanonical = `${canonicalOrigin}${item.slug}`;
   const main = html.match(/<main\b[\s\S]*?<\/main>/i)?.[0] ?? '';
   const visible = cleanText(main);
-  const words = wordCount(visible);
+  const articleCopy = cleanText(main
+    .replace(/<figure\b[^>]*class="review-media review-inline-media"[^>]*>[\s\S]*?<\/figure>/gi, ' ')
+    .replace(/<aside\b[^>]*class="review-community-embed"[^>]*>[\s\S]*?<\/aside>/gi, ' '));
+  const words = wordCount(articleCopy);
   const scoreCards = count(main, /class="review-score-card"/g);
   const deepDives = count(main, /class="review-performance-detail"/g);
   const comparisonDetails = count(main, /class="review-comparison-details(?:\s|"|$)/g);
   const faqModules = count(main, /class="review-faq-list(?:\s|"|$)/g);
   const sourceList = main.match(/<ol class="review-source-list">([\s\S]*?)<\/ol>/i)?.[1] ?? '';
   const sources = count(sourceList, /<li id="[^"]+">/g);
+  const redditSourceLinks = [...sourceList.matchAll(/<a href="(https:\/\/(?:www\.)?reddit\.com\/[^"]+)"[^>]*rel="([^"]+)"/gi)];
+  const redditEmbeds = count(main, /class="review-community-embed"/g);
   const recommendations = count(main, /class="review-recommendation-card(?:\s|"|$)/g);
   const h1s = count(main, /<h1\b/g);
   const mains = count(html, /<main\b/g);
@@ -142,6 +147,15 @@ for (const item of manifest) {
   if (scoreCards !== 6) fail(item.slug, `expected 6 rating cards, found ${scoreCards}`);
   if (deepDives !== 6) fail(item.slug, `expected 6 performance deep dives, found ${deepDives}`);
   if (sources < 10) fail(item.slug, `expected at least 10 source records, found ${sources}`);
+  if (redditSourceLinks.length && redditEmbeds !== 1) {
+    fail(item.slug, `expected one official Reddit embed for ${redditSourceLinks.length} Reddit source(s), found ${redditEmbeds}`);
+  }
+  if (redditSourceLinks.some((match) => !match[2].split(/\s+/).includes('ugc'))) {
+    fail(item.slug, 'a Reddit source link is not marked as user-generated content');
+  }
+  if (redditEmbeds && !/<iframe\b[^>]*src="https:\/\/www\.redditmedia\.com\//i.test(main)) {
+    fail(item.slug, 'Reddit module does not use the official redditmedia embed');
+  }
   if (comparisonDetails !== 1) fail(item.slug, `expected 1 detailed comparison control, found ${comparisonDetails}`);
   if (faqModules !== 1) fail(item.slug, `expected 1 FAQ module, found ${faqModules}`);
   if (recommendations !== 4) fail(item.slug, `expected 4 recommendation cards, found ${recommendations}`);
@@ -255,19 +269,74 @@ for (const item of manifest) {
   if (/\b(?:surfaces|moat)\b/i.test(visible)) fail(item.slug, 'house-style banned wording remains');
   for (const expression of banned) if (expression.test(visible)) fail(item.slug, `unsupported hands-on language matched ${expression}`);
 
-  const inlineMediaFigures = count(main, /class="review-media review-inline-media"/g);
-  const inlineMediaTag = main.match(/<img\b[^>]*src="([^"]+)"[^>]*alt="([^"]+)"[^>]*>/gi)
-    ?.find((tag) => /loading="lazy"/.test(tag) && /decoding="async"/.test(tag) && tag.includes('1400')) ?? '';
-  const inlineMediaSrc = inlineMediaTag.match(/\ssrc="([^"]+)"/i)?.[1];
-  const inlineMediaAlt = inlineMediaTag.match(/\salt="([^"]*)"/i)?.[1];
-  if (inlineMediaFigures !== 1) fail(item.slug, `expected 1 inline editorial image, found ${inlineMediaFigures}`);
-  if (!inlineMediaSrc || !inlineMediaAlt?.trim()) fail(item.slug, 'inline editorial image or alternative text is missing');
-  if (!main.includes('class="review-media-credit"')) fail(item.slug, 'inline image credit is missing');
-  if (inlineMediaSrc?.startsWith('/coffeedant/')) {
-    const inlineImageFile = path.join(dist, inlineMediaSrc.replace(/^\/coffeedant\//, ''));
-    if (!fs.existsSync(inlineImageFile)) fail(item.slug, `inline editorial image does not exist: ${inlineMediaSrc}`);
-  } else if (inlineMediaSrc && !inlineMediaSrc.startsWith('https://')) {
-    fail(item.slug, `inline editorial image has an unsupported URL: ${inlineMediaSrc}`);
+  const inlineMedia = [...main.matchAll(/<figure\b[^>]*class="review-media review-inline-media"[^>]*>[\s\S]*?<\/figure>/gi)]
+    .map((match) => match[0]);
+  const requiredImages = Math.ceil(words / 500);
+  const imageCount = inlineMedia.length + 1;
+  if (imageCount < requiredImages) {
+    fail(item.slug, `image density is too low: ${imageCount} images for ${words} words; at least ${requiredImages} required`);
+  }
+  if (inlineMedia.length < requiredImages - 1) {
+    fail(item.slug, `expected at least ${requiredImages - 1} inline editorial images, found ${inlineMedia.length}`);
+  }
+
+  let userGeneratedMedia = 0;
+  const sourceTypes = new Set();
+  inlineMedia.forEach((figure, mediaIndex) => {
+    const imageTag = figure.match(/<img\b[^>]*>/i)?.[0] ?? '';
+    const src = imageTag.match(/\ssrc="([^"]+)"/i)?.[1];
+    const alt = imageTag.match(/\salt="([^"]*)"/i)?.[1];
+    const width = Number(imageTag.match(/\swidth="(\d+)"/i)?.[1] ?? 0);
+    const height = Number(imageTag.match(/\sheight="(\d+)"/i)?.[1] ?? 0);
+    const sourceType = figure.match(/\sdata-source-type="([^"]+)"/i)?.[1];
+    const isUserGenerated = figure.match(/\sdata-user-generated="([^"]+)"/i)?.[1] === 'true';
+    const usageRecord = figure.match(/\sdata-usage-record="([^"]+)"/i)?.[1];
+
+    if (!src || !alt?.trim()) fail(item.slug, `inline image ${mediaIndex + 1} or its alternative text is missing`);
+    if (!width || !height) fail(item.slug, `inline image ${mediaIndex + 1} is missing intrinsic dimensions`);
+    if (!/loading="lazy"/i.test(imageTag) || !/decoding="async"/i.test(imageTag)) {
+      fail(item.slug, `inline image ${mediaIndex + 1} is missing lazy-loading metadata`);
+    }
+    if (!sourceType || !['community', 'reddit', 'product-listing', 'manufacturer'].includes(sourceType)) {
+      fail(item.slug, `inline image ${mediaIndex + 1} has no approved source type`);
+    } else {
+      sourceTypes.add(sourceType);
+    }
+    if (!usageRecord?.startsWith('https://')) fail(item.slug, `inline image ${mediaIndex + 1} has no usage record`);
+    if (!/class="review-media-credit"/i.test(figure)) fail(item.slug, `inline image ${mediaIndex + 1} has no visible credit`);
+    if (!/class="review-media-source-badge"/i.test(figure)) fail(item.slug, `inline image ${mediaIndex + 1} has no source badge`);
+    if (isUserGenerated) {
+      userGeneratedMedia += 1;
+      if (!/rel="ugc noopener"/i.test(figure)) fail(item.slug, `inline image ${mediaIndex + 1} is user-generated but its source link is not marked ugc`);
+    }
+    if (src?.startsWith('/coffeedant/')) {
+      const inlineImageFile = path.join(dist, src.replace(/^\/coffeedant\//, ''));
+      if (!fs.existsSync(inlineImageFile)) fail(item.slug, `inline editorial image does not exist: ${src}`);
+    } else if (src && !src.startsWith('https://')) {
+      fail(item.slug, `inline editorial image has an unsupported URL: ${src}`);
+    }
+  });
+
+  const requiredUserGenerated = Math.ceil(inlineMedia.length * 0.6);
+  if (userGeneratedMedia < requiredUserGenerated) {
+    fail(item.slug, `user-generated image mix is too low: ${userGeneratedMedia} of ${inlineMedia.length}; at least ${requiredUserGenerated} required`);
+  }
+  if (!sourceTypes.has('community') || !sourceTypes.has('product-listing')) {
+    fail(item.slug, 'inline images must combine community and product-listing sources');
+  }
+
+  const mediaLedgerPath = path.join(root, 'docs/reviews', `${slugName}-media.md`);
+  if (!fs.existsSync(mediaLedgerPath)) {
+    fail(item.slug, 'media ledger is missing');
+  } else {
+    const mediaLedger = fs.readFileSync(mediaLedgerPath, 'utf8');
+    const mediaLedgerRows = count(mediaLedger, /^\| \d+ \|/gm);
+    if (mediaLedgerRows !== inlineMedia.length) {
+      fail(item.slug, `media ledger has ${mediaLedgerRows} image records for ${inlineMedia.length} inline images`);
+    }
+    if (!mediaLedger.includes(`Minimum images at one image per 500 words: ${requiredImages}`)) {
+      fail(item.slug, 'media ledger does not record the current 1:500 density requirement');
+    }
   }
 
   const productImageTag = main.match(/<img\b[^>]*class="[^"]*\breview-product-image\b[^"]*"[^>]*>/i)?.[0];
@@ -283,7 +352,16 @@ for (const item of manifest) {
   }
   if (!productImageAlt?.trim()) fail(item.slug, 'product image alternative text is missing');
 
-  reports.push({ slug: item.slug, words, sources, scoreCards, deepDives, recommendations });
+  reports.push({
+    slug: item.slug,
+    words,
+    sources,
+    scoreCards,
+    deepDives,
+    recommendations,
+    images: imageCount,
+    userGeneratedMedia,
+  });
 }
 
 for (const [videoId, pages] of videoPages) {
@@ -291,7 +369,7 @@ for (const [videoId, pages] of videoPages) {
 }
 
 for (const report of reports) {
-  console.log(`${report.slug} ${report.words} words, ${report.sources} sources, ${report.scoreCards} ratings, ${report.deepDives} deep dives, ${report.recommendations} recommendations`);
+  console.log(`${report.slug} ${report.words} words, ${report.images} images, ${report.userGeneratedMedia} community/owner images, ${report.sources} sources, ${report.scoreCards} ratings, ${report.deepDives} deep dives, ${report.recommendations} recommendations`);
 }
 
 if (errors.length) {

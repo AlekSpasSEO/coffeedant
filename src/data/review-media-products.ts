@@ -1,0 +1,187 @@
+import type { ReviewMediaSeed } from './review-media-types';
+
+type MediaRow = [srcOrHash: string, credit: string, detail: string];
+
+const bestBuyOwnerSet = (product: string, sourceHref: string, rows: MediaRow[]): ReviewMediaSeed[] => rows.map(([hash, reviewer, detail]) => ({
+  src: `https://pisces.bbystatic.com/image2/BestBuy_US/ugc/photos/thumbnail/${hash}.jpg`,
+  alt: `${product} ${detail}`,
+  caption: `This owner photo shows ${detail}. It is useful for judging the real setup rather than a studio render.`,
+  credit: `Best Buy reviewer ${reviewer}`,
+  sourceHref,
+  sourceType: 'product-listing',
+  usageLabel: 'Customer photo embedded from the original retailer review listing',
+  usageHref: sourceHref,
+  width: 1200,
+  height: 1200,
+  userGenerated: true,
+  disclosure: 'Owner-submitted image; not a Coffeedant test photograph.',
+}));
+
+const productListingSet = (product: string, sourceHref: string, credit: string, rows: MediaRow[]): ReviewMediaSeed[] => rows.map(([src, , detail]) => ({
+  src,
+  alt: `${product} ${detail}`,
+  caption: `The product listing view shows ${detail}, which helps clarify the nearby workflow or ownership point.`,
+  credit,
+  sourceHref,
+  sourceType: 'product-listing',
+  usageLabel: 'Official or current-program product-listing media',
+  usageHref: sourceHref,
+  width: 1400,
+  height: 1050,
+  userGenerated: false,
+  disclosure: 'Product-listing image; not a Coffeedant test photograph.',
+}));
+
+const bestBuy = {
+  baristaExpress: 'https://www.bestbuy.com/product/breville-the-barista-express-espresso-machine-with-15-bars-of-pressure-milk-frother-and-integrated-grinder-stainless-steel/J72668V6ZR/sku/6291169/reviews',
+  vertuoPlus: 'https://www.bestbuy.com/product/nespresso-vertuoplus-deluxe-coffee-espresso-single-serve-machine-with-chrome-detailing-piano-black/J7G8Z3WC9G/sku/5857408/reviews',
+  baristaPro: 'https://www.bestbuy.com/product/breville-the-barista-pro-with-a-thermojet-heating-system-3-second-heat-up-time-and-precise-espresso-extraction-brushed-stainless-steel/J7266L53F4/sku/6412354/reviews',
+  dedica: 'https://www.bestbuy.com/product/delonghi-dedica-espresso-machine-white/J7G8ZGSFV2/sku/6307923/reviews',
+  expressImpress: 'https://www.bestbuy.com/product/breville-the-barista-express-impress-espresso-machine-brushed-stainless-steel/J7266L5TCR/sku/6513689/reviews',
+  baristaTouch: 'https://www.bestbuy.com/product/breville-the-barista-touch-espresso-machine-with-9-bars-of-pressure-milk-frother-and-integrated-grinder-stainless-steel/J72668FC6X/sku/12833308/reviews',
+  magnificaEvo: 'https://www.bestbuy.com/product/delonghi-magnifica-evo-espresso-machine-with-automatic-milk-frother-for-hot-and-iced-lattes-coffee-and-more-silver/J7G8Z8SQLZ/sku/6513285/reviews',
+  oracleTouch: 'https://www.bestbuy.com/product/breville-oracle-touch-espresso-machine-with-15-bars-of-pressure-milk-frother-and-intergrated-grinder-brushed-stainless-steel/J7266G97KL/sku/6323688/reviews',
+  elettaExplore: 'https://www.bestbuy.com/product/delonghi-eletta-explore-fully-automatic-espresso-machine-with-cold-brew-silver/J7G8Z844YT/sku/6604126/reviews',
+};
+
+export const productMedia: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/breville-barista-express-bes870xl/': bestBuyOwnerSet('Breville Barista Express', bestBuy.baristaExpress, [
+    ['5a67d94d274f43d362be4c2b28d47eff', 'SurafelG', 'installed on a kitchen counter with working clearance around it'],
+    ['31f6b776ecd03435a5015a271d601e52', 'SurafelG', 'from the front with the hopper, gauge and group visible'],
+    ['9fb26f6cd8ddb5dd575a8688eac34233', 'JENIFFERM', 'in a lived-in coffee station beside cups and accessories'],
+    ['f9e1a111ee583fa1ece0740f64d30a62', 'FIGGZVIP', 'straight on with the grinder dial, pressure gauge and drip tray visible'],
+    ['58b6b4184225cbf38b951d2d8beab12a', 'JesusV', 'with the portafilter, milk jug and preparation tools kept beside it'],
+    ['39208fc39a964dd3bf35a195a1855fcd', 'JesusV', 'brewing beside a cup and a compact tool setup'],
+  ]),
+  '/espresso-machine/nespresso-vertuo-plus/': bestBuyOwnerSet('Nespresso VertuoPlus Deluxe', bestBuy.vertuoPlus, [
+    ['058249a0cee68860663b5b3784d8345e', 'SLMassachusetts', 'viewed from above with the movable tank and capsule head visible'],
+    ['360f0a486a4772e499ca53410c8bb683', 'SLMassachusetts', 'positioned on a capsule drawer in a compact station'],
+    ['6c021a30d03b32c0fb90d66dff3fdfbe', 'Ziggy', 'with its water tank alongside the narrow brewing body'],
+    ['a8e945aebfba2998f0221c00446a1a19', 'AnthonyV', 'on a pod-storage base with cup clearance visible'],
+    ['59bcfbfc99dd25ebf2dd04e5e23519ce', 'DrRP', 'on a kitchen counter beside an organized capsule rack'],
+    ['42b246e3a29849b913743bb53b034262', 'BooBoo', 'beside a finished milk drink'],
+  ]),
+  '/espresso-machine/breville-barista-pro-bes878/': bestBuyOwnerSet('Breville Barista Pro', bestBuy.baristaPro, [
+    ['41d430adc6b3b507636bc699fd8d55ea', 'Steve', 'installed beneath cabinets on a wide kitchen counter'],
+    ['ed15afc2b6b00d562893c5e6b795dc14', 'Wallace', 'from the front with the grinder, display and group visible'],
+    ['54b4a9b29a14c85d948dc9c143de92c2', 'BiancaT', 'at a busy home coffee station with a drink beside it'],
+    ['10d4f12ca4ffc2287e71c439e7a3dd90', 'Anna', 'displaying its clean-steam-wand countdown'],
+    ['01b6108fbef84fe5ad495a990b43d9d0', 'Anna', 'showing the steam-wand cleaning instruction screen'],
+    ['8bd3684a57f4c95ec04df1bf4911e748', 'Coffeeislife', 'from the right with the portafilter and integrated grinder visible'],
+  ]),
+  '/espresso-machine/delonghi-dedica/': bestBuyOwnerSet("De'Longhi Dedica EC685", bestBuy.dedica, [
+    ['a2486dba75b2f4ad4572247e0dc0d950', 'DanielD503', 'beside a separate grinder in a compact owner setup'],
+    ['d8d8d23e2e42404510e51a7b9e3ba0de', 'DanielD503', 'brewing into a cup with the separate grinder close by'],
+    ['33e38580b7202ee23f0994691a66db1c', 'LisaW', 'from the front with its narrow body and cup platform visible'],
+    ['f4dc658f0fab865888e182e85d730679', 'LisaW', 'from the side with the rear water tank visible'],
+    ['4f8dae54c70f85adc419b8dad70da45a', 'TommyC', 'in a red finish on a small kitchen counter'],
+    ['5ce7ad94438023f031c951709920e8fb', 'Great', 'close up with the portafilter locked into the group'],
+  ]),
+  '/espresso-machine/breville-barista-express-impress-bes876/': bestBuyOwnerSet('Breville Barista Express Impress', bestBuy.expressImpress, [
+    ['0538c087fab614cc6256baf12ac48870', 'GreatestManthatEverLived', 'in a full owner station with beans, cups and drink ingredients'],
+    ['52af680961b85c50e66bcc50b8e8d279', 'DrHKP', 'installed beneath cabinets with clearance above the hopper'],
+    ['c6f965c33ebfd6f7f526571acfa73c93', 'PhyllisD', 'from the front with the assisted-tamp lever and pressure gauge visible'],
+    ['ede1f556680d01717169b000e04972a7', 'bryttani', 'with the assisted-dose area, grinder and drip tray visible'],
+    ['667cd50468a38a38326ff9d34b0d4dcc', 'srauhala', 'at a dedicated coffee cabinet that makes its footprint clear'],
+    ['4d3e56d27ff1f1b80f3ecc7d4efac665', 'RandallG', 'on a home counter with cups stored directly above it'],
+  ]),
+  '/espresso-machine/breville-barista-touch-bes880bss/': bestBuyOwnerSet('Breville Barista Touch', bestBuy.baristaTouch, [
+    ['a8ff831a982d7cdba4126f77d8bcaa62', 'Brazzinha', 'from the front with the touchscreen, grinder and group visible'],
+    ['eef1c23894211fb37eaa639904bdc8e4', 'Taylorbanasiak', 'in a shared coffee station beside a capsule machine'],
+    ['d79de40377dffd5eb1be7f94e6a71c35', 'Taylorbanasiak', 'close up with the drink interface and portafilter in place'],
+    ['0d3edd5a6a52e5863bd16aa22e7c121d', 'Taylorbanasiak', 'beside a finished latte with a visible microfoam pattern'],
+    ['4800924c0b7009469f5fa0f13399eb0c', 'Taylorbanasiak', 'from above with the hopper and working depth visible'],
+    ['a2d33a7c6b0abd6345b41edf93559369', 'McLovin730', 'on a home counter with the grinder, jug and cup area visible'],
+  ]),
+  '/espresso-machine/delonghi-magnifica-evo/': bestBuyOwnerSet("De'Longhi Magnifica Evo", bestBuy.magnificaEvo, [
+    ['f6f52bd136c61eb999021833996ebc36', 'Maro', 'from the side with the LatteCrema carafe installed'],
+    ['5389de3f7c0d625cfd40115fe4783d2e', 'Maro', 'dispensing into a tall cup at a home coffee station'],
+    ['bf7547246485a1c0a4d083dfc75a8424', 'Maro', 'with the front controls, milk carafe and cup platform visible'],
+    ['12c7c556e8713395a272700c05af9f31', 'Maro', 'at a slight angle showing the machine depth and side tank access'],
+    ['3728ffae504da1118cd7a5b2d68e80f8', 'Maro', 'from above with its one-touch drink controls visible'],
+    ['652d6cec837ae30d295ab4c7ddb09e2d', 'Maro', 'in its everyday counter position with the milk system attached'],
+  ]),
+  '/espresso-machine/breville-oracle-touch-bes990/': bestBuyOwnerSet('Breville Oracle Touch', bestBuy.oracleTouch, [
+    ['0ca64b3ccc8327142da6cade6eca90fc', 'Allabouttech', 'installed below a tiled backsplash with accessories beside it'],
+    ['aab3fd226dcf49d360bdfa4cdbc46487', 'Allabouttech', 'extracting through the portafilter in an owner workflow'],
+    ['8c6bb60f314b193eeea2b60eb5e524ac', 'Allabouttech', 'with the touchscreen and automatic-tamping area visible'],
+    ['8669d5f4fa657a11d169e1071f19ad04', 'Allabouttech', 'beside a finished latte with integrated microfoam'],
+    ['9a523916fc9152b607bf9c950b889d1e', 'Allabouttech', 'from above with the grinder and bean hopper visible'],
+    ['f9f79944517900aacd8cb5829d2dcae7', 'Allabouttech', 'showing the touchscreen drink-selection menu'],
+  ]),
+  '/espresso-machine/delonghi-eletta-explore-ecam450/': bestBuyOwnerSet("De'Longhi Eletta Explore", bestBuy.elettaExplore, [
+    ['00a071afd70ffe4cfa1b044739495cd4', 'CaffeinatedAZ', 'from the front with the hot and cold drink interface visible'],
+    ['fdba0ce5e1f26d238afab96166c401ec', 'CaffeinatedAZ', 'showing another everyday drink-menu screen'],
+    ['67950986f59be9cca18bbf13b89a0a3d', 'ILY1', 'on a home counter with the dispensing area and drip tray visible'],
+    ['eefaf3ac5e837fc35f2c78e15c6024bc', 'Benjamin', 'close up with the hot, cold, to-go and favorites controls'],
+    ['3f7708984d0d1f4ac1b055e0639f780f', 'AdamW', 'from the front with the hot-milk carafe installed'],
+    ['1ce90bcb55367cc8c659c5f8214d167e', 'Benjamin', 'with its removable brew group being handled for cleaning'],
+  ]),
+
+  '/espresso-machine/delonghi-la-specialista-arte/': productListingSet("De'Longhi La Specialista Arte", 'https://www.delonghi.com/en-us/p/la-specialista-arte-la-specialista-arte-espresso-machine--stainless-steel/EC9155MB.html', "De'Longhi product listing", [
+    ['https://dam.delonghi.com/902x902/assets/310655', '', 'the complete machine, grinder and manual milk wand from the front'],
+    ['https://dam.delonghi.com/902x902/assets/213156', '', 'the integrated grinder, portafilter cradle and brew controls'],
+    ['https://dam.delonghi.com/902x902/assets/213160', '', 'the included portafilter, dosing guide, tamper and milk jug'],
+    ['https://dam.delonghi.com/902x902/assets/217570', '', 'the compact body and working depth from an angled view'],
+  ]),
+  '/espresso-machine/rancilio-silvia/': productListingSet('Rancilio Silvia', 'https://www.ranciliogroupna.com/equipment/rancilio-silvia/', 'Rancilio Group North America product listing', [
+    ['https://www.ranciliogroupna.com/wp-content/uploads/2021/05/GNA3817-Edit-5-scaled.jpg', '', 'the machine installed in a home kitchen'],
+    ['https://www.ranciliogroupna.com/wp-content/uploads/2021/05/GNA3817-2-1024x1024.jpg', '', 'the controls, group and steam wand at counter level'],
+    ['https://www.ranciliogroupna.com/wp-content/uploads/2021/05/2N6A1239-2-1024x683.jpg', '', 'a working espresso station built around the Silvia'],
+    ['https://www.ranciliogroupna.com/wp-content/uploads/2021/05/GNA1200-1024x683.jpg', '', 'the cup area and manual steam workflow in use'],
+  ]),
+  '/espresso-machine/breville-dual-boiler-bes920xl/': productListingSet('Breville Dual Boiler BES920', 'https://www.breville.com/en-us/product/bes920', 'Breville product listing', [
+    ['https://breville-production-aem-assets.s3.us-west-2.amazonaws.com/BES920/2+-+BES920BSS_ANZ_Angles_Low_Left.png', '', 'the group, hot-water outlet and steam wand from a low angle'],
+    ['https://breville-production-aem-assets.s3.us-west-2.amazonaws.com/BES920/5+-+BES920BSS_ANZ_Angles_Side_Right.png', '', 'the cabinet depth from the right side'],
+    ['https://breville-production-aem-assets.s3.us-west-2.amazonaws.com/BES920/7+-+BES920BSS_ANZ_Angles_Back_Tank+Open.png', '', 'the rear water tank open for filling'],
+    ['https://breville-production-aem-assets.s3.us-west-2.amazonaws.com/BES920/BES920US_DNA2.jpg', '', 'the control panel, pressure gauge and brew group in use'],
+  ]),
+  '/espresso-machine/la-marzocco-linea-mini/': productListingSet('La Marzocco Linea Mini', 'https://home.lamarzoccousa.com/product/linea-mini/', 'La Marzocco Home product listing', [
+    ['https://home.lamarzoccousa.com/wp-content/uploads/2024/02/Mini-Gray.png', '', 'the full current machine from the front'],
+    ['https://home.lamarzoccousa.com/wp-content/uploads/2026/04/Linea-Mini-Brushed-front-1024x681.png', '', 'the group, paddle, steam wand and cup tray in a brushed finish'],
+    ['https://home.lamarzoccousa.com/wp-content/uploads/2026/04/Linea-Mini-Brushed-sx-1024x681.png', '', 'the machine depth and steam side from an angled view'],
+    ['https://home.lamarzoccousa.com/wp-content/uploads/2026/04/Linea-Mini-crema-3-4-front-1024x683.png', '', 'the working area and body proportions from three quarters'],
+  ]),
+  '/espresso-machine/lelit-bianca-pl162t/': productListingSet('Lelit Bianca PL162T', 'https://www.lelit.com/product/bianca-pl162t/', 'LELIT product listing', [
+    ['https://www.lelit.com/wp-content/uploads/2024/02/PL162T_frontale-2-1024x1024.webp', '', 'the full front panel, L58E group and manual flow paddle'],
+    ['https://www.lelit.com/wp-content/uploads/2024/02/PL162T_trequarti-2.png-1024x1024.webp', '', 'the movable tank side and polished body from three quarters'],
+    ['https://www.lelit.com/wp-content/uploads/2024/02/PL162T_focus-1080x1080.png-1024x1024.webp', '', 'the pressure gauges, group and flow-control paddle close up'],
+    ['https://www.lelit.com/wp-content/uploads/2024/02/PL162T_focus2-800x800.png-768x768.webp', '', 'the steam controls and LCC interface close up'],
+  ]),
+  '/espresso-machine/rocket-appartamento-tca/': productListingSet('Rocket Appartamento TCA', 'https://rocket-espresso.com/products/domestic-models/appartamento-tca', 'Rocket Espresso product listing', [
+    ['https://cdn.sanity.io/images/zhlpxy7s/production/1d117e49210df7f16402d40ca4a24d93d1a0f6e4-1500x1259.webp?q=65&auto=format', '', 'the full machine and heat-exchanger control layout'],
+    ['https://cdn.sanity.io/images/zhlpxy7s/production/69c249b0b35345c9241d0bb9612222cce49a76fc-1500x1000.webp?q=65&auto=format', '', 'the cup tray and body depth from above'],
+    ['https://cdn.sanity.io/images/zhlpxy7s/production/e5c1164c38daf9b3a6dc37bc245f8853d395ad46-1500x1000.webp?q=65&auto=format', '', 'the E61 group, gauges and manual controls close up'],
+    ['https://cdn.sanity.io/images/zhlpxy7s/production/0430ec496cf77a5477ceac4f101b757f26de33c0-1500x1000.webp?q=65&auto=format', '', 'the machine in a complete home espresso station'],
+  ]),
+  '/espresso-machine/philips-3200-lattego/': productListingSet('Philips 3200 LatteGo EP3241/54', 'https://www.amazon.com/dp/B07VFY4MXM', 'Philips product listing on Amazon', [
+    ['https://m.media-amazon.com/images/I/51+al6Du86L._AC_SL1080_.jpg', '', 'the full machine with the LatteGo carafe installed'],
+    ['https://m.media-amazon.com/images/I/519lLdoIyhL._AC_SL1080_.jpg', '', 'the one-touch drink panel and dispensing area'],
+    ['https://m.media-amazon.com/images/I/61Oqy4Sv36L._AC_SL1080_.jpg', '', 'the two-piece LatteGo milk system and its handling'],
+    ['https://m.media-amazon.com/images/I/61DffysQB-L._AC_SL1080_.jpg', '', 'the removable brew group and internal service access'],
+  ]),
+  '/espresso-machine/9barista-mk2/': productListingSet('9Barista Mk.2', 'https://9barista.com/en-us/products/9barista-espresso-machine-mk2', '9Barista product listing', [
+    ['https://9barista.com/cdn/shop/files/9Barista_2025_Pic0001_WEBRES_aefe9a05-193b-48bc-a7be-0687c5fa5497_1024x1024.jpg', '', 'the assembled stovetop brewer from the front'],
+    ['https://9barista.com/cdn/shop/files/9Barista_2025_Pic0003_WEBRES_1024x1024.jpg', '', 'the compact metal body and portafilter handle'],
+    ['https://9barista.com/cdn/shop/files/9Barista_2025_Pic0010_WEBRES_1024x1024.jpg', '', 'the brewer being handled after use'],
+    ['https://9barista.com/cdn/shop/files/9Barista_2025_Pic0029_WEBRES_24a0e327-2aaf-44a9-a09c-3704ecdc1e2b_1024x1024.jpg', '', 'the main parts separated for cooling and cleaning'],
+  ]),
+  '/espresso-machine/gaggia-brera-ri9305/': productListingSet('Gaggia Brera', 'https://www.gaggia.com/automatic-machines/brera/', 'Gaggia product listing', [
+    ['https://www.gaggia.com/app/uploads/2023/07/brera_po_1560x790-2.jpg', '', 'the front panel and dispensing spouts in use'],
+    ['https://www.gaggia.com/app/uploads/2023/07/brera_plus_2.jpg', '', 'the compact body with the side service door visible'],
+    ['https://www.gaggia.com/app/uploads/2023/10/Brerarange_1-1.jpg', '', 'the available finishes and full machine proportions'],
+    ['https://www.gaggia.com/app/uploads/2023/07/vapore_ok.jpg', '', 'the manual steam wand working with a milk pitcher'],
+  ]),
+  '/espresso-machine/la-marzocco-linea-micra/': productListingSet('La Marzocco Linea Micra', 'https://home.lamarzoccousa.com/product/linea-micra/', 'La Marzocco Home product listing', [
+    ['https://home.lamarzoccousa.com/wp-content/uploads/2023/11/Micra-Black-Front-1024x1024.png', '', 'the compact body, paddle, steam wand and cup tray from the front'],
+    ['https://home.lamarzoccousa.com/wp-content/uploads/2023/11/Micra-Black-Back-Angled-1024x1024.png', '', 'the rear and side depth from an angled view'],
+    ['https://home.lamarzoccousa.com/wp-content/uploads/2022/11/Micra-Silver-Satin-3-4-front-1024x681.png', '', 'the working area and body proportions from three quarters'],
+    ['https://home.lamarzoccousa.com/wp-content/uploads/2022/11/Micra-White-Front-1-1024x1024.png', '', 'the group, steam controls and cup clearance in a light finish'],
+  ]),
+  '/espresso-machine/lelit-elizabeth/': productListingSet('Lelit Elizabeth', 'https://www.lelit.com/en-us/product/elizabeth-pesel01', 'LELIT product listing', [
+    ['https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/Lelit/PESEL01/PESEL01_Carousel1.png', '', 'the full dual-boiler machine and compact front panel'],
+    ['https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/Lelit/PESEL01/PESEL01_Carousel2.png', '', 'the LCC display, brew buttons and steam controls close up'],
+    ['https://assets.breville.com/cdn-cgi/image/format=auto/Lelit/PESEL01/PESEL01_DNA1.jpg', '', 'the group, portafilter and brew area during use'],
+    ['https://assets.breville.com/cdn-cgi/image/format=auto/Lelit/PESEL01/PESEL01_DNA2.jpg', '', 'the steam wand and milk workflow beside the group'],
+  ]),
+};
