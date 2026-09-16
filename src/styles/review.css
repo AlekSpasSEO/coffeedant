@@ -173,6 +173,8 @@
 .review-media-link:hover img { opacity: .94; }
 .review-media figcaption { max-width: 780px; margin-inline: auto; }
 .review-media-credit { display: block; margin-top: 4px; font-size: .68rem; }
+.review-inline-media img { width: 100%; max-height: 720px; object-fit: contain; background: #f2efe6; }
+.review-inline-media figcaption { padding-inline: 4px; color: var(--muted); }
 
 /* The first comparison is fast; native details exposes the technical layer without JavaScript. */
 .review-section-body > .review-comparison-details { width: 100%; max-width: none; margin: 30px 0 34px; padding: 0; border: 1px solid var(--ink); background: var(--white); }

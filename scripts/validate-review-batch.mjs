@@ -255,6 +255,21 @@ for (const item of manifest) {
   if (/\b(?:surfaces|moat)\b/i.test(visible)) fail(item.slug, 'house-style banned wording remains');
   for (const expression of banned) if (expression.test(visible)) fail(item.slug, `unsupported hands-on language matched ${expression}`);
 
+  const inlineMediaFigures = count(main, /class="review-media review-inline-media"/g);
+  const inlineMediaTag = main.match(/<img\b[^>]*src="([^"]+)"[^>]*alt="([^"]+)"[^>]*>/gi)
+    ?.find((tag) => /loading="lazy"/.test(tag) && /decoding="async"/.test(tag) && tag.includes('1400')) ?? '';
+  const inlineMediaSrc = inlineMediaTag.match(/\ssrc="([^"]+)"/i)?.[1];
+  const inlineMediaAlt = inlineMediaTag.match(/\salt="([^"]*)"/i)?.[1];
+  if (inlineMediaFigures !== 1) fail(item.slug, `expected 1 inline editorial image, found ${inlineMediaFigures}`);
+  if (!inlineMediaSrc || !inlineMediaAlt?.trim()) fail(item.slug, 'inline editorial image or alternative text is missing');
+  if (!main.includes('class="review-media-credit"')) fail(item.slug, 'inline image credit is missing');
+  if (inlineMediaSrc?.startsWith('/coffeedant/')) {
+    const inlineImageFile = path.join(dist, inlineMediaSrc.replace(/^\/coffeedant\//, ''));
+    if (!fs.existsSync(inlineImageFile)) fail(item.slug, `inline editorial image does not exist: ${inlineMediaSrc}`);
+  } else if (inlineMediaSrc && !inlineMediaSrc.startsWith('https://')) {
+    fail(item.slug, `inline editorial image has an unsupported URL: ${inlineMediaSrc}`);
+  }
+
   const productImageTag = main.match(/<img\b[^>]*class="[^"]*\breview-product-image\b[^"]*"[^>]*>/i)?.[0];
   const productImage = productImageTag?.match(/\ssrc="([^"]+)"/i)?.[1];
   const productImageAlt = productImageTag?.match(/\salt="([^"]*)"/i)?.[1];

@@ -1,10 +1,12 @@
 ---
 import type { MachineReviewData } from '../../data/reviews';
+import { reviewInlineMedia } from '../../data/review-inline-media';
 import ReviewSummary from './ReviewSummary.astro';
 import ReviewRatings from './ReviewRatings.astro';
 import ReviewPerformanceDetail from './ReviewPerformanceDetail.astro';
 
 const { review } = Astro.props as { review: MachineReviewData };
+const inlineMedia = reviewInlineMedia[review.slug];
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const assetUrl = (path: string) => new URL(`${base}${path.replace(/^\//, '')}`, Astro.site ?? Astro.url).toString();
 const canonical = new URL(review.slug.replace(/^\//, ''), 'https://coffeedant.com/').toString();
@@ -95,6 +97,24 @@ const schema = {
             {review.evaluation.dimensions
               .filter((dimension) => dimension.deepDiveId === section.id)
               .map((dimension) => <ReviewPerformanceDetail dimension={dimension} />)}
+            {index === 1 && inlineMedia && (
+              <figure class="review-media review-inline-media">
+                <a class="review-media-link" href={inlineMedia.sourceHref} target="_blank" rel="noopener">
+                  <img
+                    src={/^https?:\/\//.test(inlineMedia.src) ? inlineMedia.src : assetUrl(inlineMedia.src)}
+                    alt={inlineMedia.alt}
+                    width="1400"
+                    height="933"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </a>
+                <figcaption>
+                  {inlineMedia.caption}
+                  <span class="review-media-credit">Image: <a href={inlineMedia.sourceHref} target="_blank" rel="noopener">{inlineMedia.credit}</a>.</span>
+                </figcaption>
+              </figure>
+            )}
           </div>
         </section>
       ))}
