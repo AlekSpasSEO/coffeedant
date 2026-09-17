@@ -33,6 +33,206 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/bezzera-strega/': officialProductMedia(
+    'Bezzera product page',
+    'https://www.bezzera.it/en/machines/strega',
+    [
+      {
+        src: 'https://www.bezzera.it/uploads/prod_images/Strega/STREGA%20NEW%20GRID.jpg',
+        alt: 'Bezzera Strega spring-lever espresso machine viewed from the front-left',
+        caption: 'The angled view shows the tall spring lever, exposed group, pressure gauges, service valves, drip tray and working clearance that define the Strega station.',
+        width: 1600,
+        height: 1200,
+      },
+      {
+        src: 'https://www.bezzera.it/uploads/prod_images/Strega/STREGA%20RETRO.jpg',
+        alt: 'Rear of the Bezzera Strega spring-lever espresso machine',
+        caption: 'The rear view helps judge cabinet depth and the substantial enclosure around the boiler, pump or direct-water hardware, depending on variant.',
+        width: 1600,
+        height: 1200,
+      },
+    ],
+  ),
+  '/espresso-machine/bezzera-unica-pid/': officialProductMedia(
+    'Bezzera product page',
+    'https://www.bezzera.it/en/machines/unica',
+    [
+      {
+        src: 'https://www.bezzera.it/uploads/prod_images/Unica/UNICA%20NEW%20GRID.jpg',
+        alt: 'Bezzera Unica PID espresso machine viewed from the front-left',
+        caption: 'The working view shows the manual thermosyphon group, PID display, pressure gauge, shared steam and hot-water wand, and narrow stainless body.',
+        width: 1600,
+        height: 1200,
+      },
+      {
+        src: 'https://www.bezzera.it/uploads/prod_images/Unica/unica.jpg',
+        alt: 'Bezzera Unica PID single-boiler espresso machine on a white background',
+        caption: 'The full product view makes the compact 250 mm width and deeper traditional group layout easier to evaluate for an under-cabinet counter.',
+        width: 1600,
+        height: 1200,
+      },
+    ],
+  ),
+  '/espresso-machine/bosch-300-series-verocafe-tiu20307/': officialProductMedia(
+    'Bosch US product page',
+    'https://www.bosch-home.com/us/en/product/espresso-machines/countertop-fully-automatic-coffee-machines/300seriesverocafe/TIU20307',
+    [
+      {
+        src: 'https://media3.bsh-group.com/Product_Shots/21861538_BSH-EN_BO_FAEM_812_TIE20301_General_SecImg-08_3200x1800px_def.webp',
+        alt: 'Bosch 300 Series VeroCafe preparing a milk drink with the in-cup Milk Express system',
+        caption: 'Official family media shows the defining Milk Express routine: milk is handled at the cup rather than stored in a large dedicated carafe.',
+        width: 3200,
+        height: 1800,
+      },
+      {
+        src: 'https://media3.bsh-group.com/Product_Shots/21861516_BSH-EN_BO_FAEM_812_TIE20301_General_SecImg-03_3200x1800px_def.webp',
+        alt: 'Bosch 300 Series VeroCafe front controls and coffee outlet in a kitchen setting',
+        caption: 'The front working view shows the direct drink controls, height-adjustable outlet and compact one-cup service area.',
+        width: 3200,
+        height: 1800,
+      },
+    ],
+  ),
+  '/espresso-machine/bosch-500-series-verocafe-tpu40109/': officialProductMedia(
+    'Bosch US product page',
+    'https://www.bosch-home.com/us/en/product/espresso-machines/countertop-fully-automatic-coffee-machines/500seriesverocafe/TPU40109',
+    [
+      {
+        src: 'https://media3.bsh-group.com/Product_Shots/25825723_BSH-EN_BO_FAEM_812_TPU40109_General_SecImg-10_plain_3200x1800px_def.webp',
+        alt: 'Bosch 500 Series VeroCafe making two milk drinks side by side',
+        caption: 'Official media illustrates the 500 Series two-cup milk proposition and the cup clearance buyers should check with their normal glassware.',
+        width: 3200,
+        height: 1800,
+      },
+      {
+        src: 'https://media3.bsh-group.com/Product_Shots/25825725_BSH-EN_BO_FAEM_812_TPU40109_General_SecImg-11_plain_3200x1800px_def.webp',
+        alt: 'Bosch 500 Series VeroCafe flexible milk hose connected to a separate container',
+        caption: 'The flexible hose can draw from a separate milk container, trading a proprietary carafe for careful routing and immediate rinsing.',
+        width: 3200,
+        height: 1800,
+      },
+    ],
+  ),
+  '/espresso-machine/bosch-800-series/': officialProductMedia(
+    'Bosch US 800 Series product page',
+    'https://www.bosch-home.com/us/en/product/espresso-machines/countertop-fully-automatic-coffee-machines/800seriesverocafe/TPU60309',
+    [
+      {
+        src: 'https://media3.bsh-group.com/Product_Shots/24461373_BSH-EN_BO_FAEM_812_TPU60501_General_SecImg-05_plain_3200x1800px_def.webp',
+        alt: 'Bosch 800 Series VeroCafe color display showing a coffee selection',
+        caption: 'Official 800 Series family media shows the five-inch color interface used to organize drinks and saved preferences; pictured regional hardware can vary from TPU60309.',
+        width: 3200,
+        height: 1800,
+      },
+      {
+        src: 'https://media3.bsh-group.com/Product_Shots/24461305_BSH-EN_BO_FAEM_812_TPU60501_General_SecImg-02_plain_3200x1800px_def.webp',
+        alt: 'Bosch 800 Series VeroCafe serving coffee in a modern kitchen',
+        caption: 'The family lifestyle view gives useful scale for cup access and front operation; exact finish and regional model shown may differ from US TPU60309.',
+        width: 3200,
+        height: 1800,
+      },
+    ],
+  ),
+  '/espresso-machine/breville-barista-touch-impress-bes881/': officialProductMedia(
+    'Breville US product page',
+    'https://www.breville.com/en-us/product/bes881',
+    [
+      {
+        src: 'https://breville-production-aem-assets.s3.us-west-2.amazonaws.com/BES881/BES881_CAROUSEL6_USCM_NEW.png',
+        alt: 'Breville Barista Touch Impress touchscreen guiding espresso preparation',
+        caption: 'The touchscreen sequences grinding, assisted tamping, extraction and milk while the owner still moves the 54 mm portafilter through the station.',
+        width: 1300,
+        height: 1300,
+      },
+      {
+        src: 'https://breville-production-aem-assets.s3.us-west-2.amazonaws.com/BES881/BES881_CAROUSEL9_USCM.jpg',
+        alt: 'Breville Barista Touch Impress automatic milk pitcher and steam wand',
+        caption: 'Auto MilQ works with a pitcher and temperature sensor, so consistent fill, placement, wiping and purging remain part of the automated routine.',
+        width: 1300,
+        height: 1300,
+      },
+    ],
+  ),
+  '/espresso-machine/breville-dynamic-duo-bep920/': officialProductMedia(
+    'Breville US product page',
+    'https://www.breville.com/en-us/product/bep920',
+    [
+      {
+        src: 'https://breville-production-aem-assets.s3.us-west-2.amazonaws.com/BEP920/BCG820_BSS_USCM_Product_Front_View_1300x1300.png',
+        alt: 'Breville Smart Grinder Pro BCG820 included in the Dynamic Duo bundle',
+        caption: 'The BCG820 is a separate grinder with 60 stepped settings and timed Dosing iQ; it can be replaced independently if the owner later needs more espresso adjustment.',
+        width: 1300,
+        height: 1300,
+      },
+      {
+        src: 'https://breville-production-aem-assets.s3.us-west-2.amazonaws.com/BEP920/BEP920_CAROUSEL3_USC.png',
+        alt: 'Breville Dynamic Duo BES920 espresso machine and BCG820 grinder together',
+        caption: 'The bundle occupies a true two-appliance footprint, trading integrated compactness for a machine and grinder that can follow separate upgrade paths.',
+        width: 1300,
+        height: 1300,
+      },
+    ],
+  ),
+  '/coffee-machine/breville-luxe-brewer-thermal-bdc465/': officialProductMedia(
+    'Breville US product page',
+    'https://www.breville.com/en-us/product/bdc465',
+    [
+      {
+        src: 'https://breville-production-aem-assets.s3.us-west-2.amazonaws.com/BDC465/BDC465_CAROUSEL2.png',
+        alt: 'Breville Luxe Brewer Thermal removable water tank being lifted from the brewer',
+        caption: 'The removable 60-ounce tank is a practical advantage under cabinets because filling and washing do not require pouring into the installed brewer.',
+        width: 1300,
+        height: 1300,
+      },
+      {
+        src: 'https://breville-production-aem-assets.s3.us-west-2.amazonaws.com/BDC465/BDC465_CAROUSEL6.png',
+        alt: 'Breville Luxe Brewer Thermal controls beside its insulated carafe',
+        caption: 'The control panel brings Gold, custom, cold-brew and scheduled routines together while the insulated carafe holds coffee without a warming plate.',
+        width: 1300,
+        height: 1300,
+      },
+    ],
+  ),
+  '/espresso-machine/breville-oracle-bes980x/': officialProductMedia(
+    'Breville US product page',
+    'https://www.breville.com/en-us/product/bes980',
+    [
+      {
+        src: 'https://breville-production-aem-assets.s3.us-west-2.amazonaws.com/BES980/BES980US-carousel2.jpg',
+        alt: 'Breville Oracle BES980 automated grind dose and tamp station',
+        caption: 'The original Oracle prepares a visible 58 mm portafilter automatically, then asks the owner to transfer it to the group and clear it after brewing.',
+        width: 1300,
+        height: 1300,
+      },
+      {
+        src: 'https://breville-production-aem-assets.s3.us-west-2.amazonaws.com/BES980/BES980_DNA1_NEW.png',
+        alt: 'Breville Oracle BES980 automatic milk wand texturing milk in a pitcher',
+        caption: 'A dedicated steam boiler supports automatic milk during extraction, a central difference from the newer ThermoJet Oracle Jet workflow.',
+        width: 1300,
+        height: 1300,
+      },
+    ],
+  ),
+  '/espresso-machine/breville-oracle-jet-bes985/': officialProductMedia(
+    'Breville US product page',
+    'https://www.breville.com/en-us/product/bes985',
+    [
+      {
+        src: 'https://breville-production-aem-assets.s3.us-west-2.amazonaws.com/BES985/BES985_CAROUSEL2_USCM.png',
+        alt: 'Breville Oracle Jet touchscreen showing guided espresso preparation',
+        caption: 'Barista Guidance connects the automated 58 mm preparation sequence to extraction feedback and a recommended grind adjustment.',
+        width: 1300,
+        height: 1300,
+      },
+      {
+        src: 'https://breville-production-aem-assets.s3.us-west-2.amazonaws.com/BES985/BES985_CAROUSEL6_USCM.png',
+        alt: 'Breville Oracle Jet Auto MilQ steam wand and milk pitcher',
+        caption: 'Auto MilQ repeats selected temperature and texture with supported dairy and alternative-milk modes while cleaning remains a physical task.',
+        width: 1300,
+        height: 1300,
+      },
+    ],
+  ),
   '/grinder/1zpresso-k-ultra/': officialProductMedia(
     '1Zpresso product page',
     'https://1zpresso.coffee/k-ultra/',
