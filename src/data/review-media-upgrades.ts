@@ -233,6 +233,246 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/cafelat-robot-barista/': officialProductMedia(
+    'Cafelat UK product page',
+    'https://www.cafelat.co.uk/products/cafelat-robot-barista',
+    [
+      {
+        src: 'https://www.cafelat.co.uk/cdn/shop/products/BaristaBlack.jpg?v=1628670910&width=1200',
+        alt: 'Black Cafelat Robot Barista with both lever arms raised beside its pressure gauge',
+        caption: 'The raised-arm view makes the working height, two-handed pressure routine, gauge position, open cup area and small mechanical body easy to judge.',
+        width: 1200,
+        height: 1200,
+      },
+      {
+        src: 'https://www.cafelat.co.uk/cdn/shop/files/BaristaOrange.jpg?v=1688989847&width=1200',
+        alt: 'Orange Cafelat Robot Barista manual lever espresso maker viewed from the front',
+        caption: 'The front view shows how the bottomless portafilter, piston, gauge and two arms form the complete brewer while grinder, kettle and milk equipment remain separate.',
+        width: 1200,
+        height: 1200,
+      },
+    ],
+  ),
+  '/espresso-machine/crem-one-hx-pid-wt-wc/': [
+    ...retailerProductMedia(
+      'Whole Latte Love product page',
+      'https://www.wholelattelove.com/products/crem-one-hx-espresso-machine',
+      [
+        {
+          src: 'https://www.wholelattelove.com/cdn/shop/products/CremOneHX-Alt.jpg?v=1615476140&width=1946',
+          alt: 'CREM ONE HX PID espresso machine viewed from the front-left',
+          caption: 'The exact 1B HX view shows the E61 group, PID display, dual gauge, half-turn valves and narrow stainless chassis reviewed on this page.',
+          width: 1946,
+          height: 1946,
+        },
+      ],
+    ),
+    ...officialProductMedia(
+      'CREM ONE product page',
+      'https://www.crem.coffee/products/one/',
+      [
+        {
+          src: 'https://www.crem.coffee/getmedia/58d1bd5c-4b40-46c7-8488-4e22dfb9b021/ONE_LargeBanner.png',
+          alt: 'CREM ONE espresso machine family shown in a manufacturer banner',
+          caption: 'Official family media gives useful scale for the group, cup tray and working controls. The pictured ONE configuration may differ, so 2B or Profiler hardware is not assigned to the reviewed 1B.',
+          width: 1920,
+          height: 1080,
+        },
+      ],
+    ),
+  ],
+  '/espresso-machine/dalla-corte-mina/': officialProductMedia(
+    'Dalla Corte Mina Barista product page',
+    'https://www.dallacorte.com/professional-espresso-machines/mina-barista.html',
+    [
+      {
+        src: 'https://www.dallacorte.com/img/prodotti/mina-barista/slider/white_1.jpg',
+        alt: 'White Dalla Corte Mina Barista espresso machine viewed from the front',
+        caption: 'The current Mina Barista evolution retains the compact square format and side flow lever. Exact group, software and options on an original Mina still require generation-specific verification.',
+        width: 1600,
+        height: 1200,
+      },
+      {
+        src: 'https://www.dallacorte.com/img/prodotti/mina-barista/slider/white_2.jpg',
+        alt: 'White Dalla Corte Mina Barista espresso machine viewed from an angle',
+        caption: 'The angled view shows the short commercial body, manual steam wand, hot-water outlet, flow-control lever and clearance needed around a permanently plumbed station.',
+        width: 1600,
+        height: 1200,
+      },
+    ],
+  ),
+  '/espresso-machine/delonghi-dinamica-aroma-bar-ecam359-37-tb/': [
+    ...retailerProductMedia(
+      'Ribamundo product listing',
+      'https://web.ribamundotecnologia.es/DELONGHI-8004399333567-en',
+      [
+        {
+          src: 'https://web.ribamundotecnologia.es/image/cache/catalog/products/04565988aba0590c1fa3239a9e9b0e1a1e0f1532_1-1000x1000w.jpg',
+          alt: "De'Longhi Dinamica Aroma Bar ECAM359.37.TB front view with manual frother",
+          caption: 'The exact retailer image shows the screen, direct drink controls, dual coffee outlet and adjustable manual frother that distinguish ECAM359.37.TB from LatteCrema variants.',
+          width: 1000,
+          height: 1000,
+        },
+      ],
+    ),
+    ...officialProductMedia(
+      "De'Longhi ECAM359.37.TB product page",
+      'https://www.delonghi.com/en/p/dinamica-ecam359.37.tb-dinamica-aroma-bar-automatic-coffee-maker/ECAM359.37.TB.html?pid=0132220038',
+      [
+        {
+          src: 'https://dam.delonghi.com/902x902/assets/128766',
+          alt: "De'Longhi ECAM359.37.TB automatic coffee machine on a white background",
+          caption: 'The official exact-model image gives a clean view of the narrow front-access body. Milk remains a manual wand task on this suffix.',
+          width: 902,
+          height: 902,
+        },
+      ],
+    ),
+  ],
+  '/espresso-machine/delonghi-dinamica-plus-ecam370/': [
+    ...retailerProductMedia(
+      'Jomla ECAM370.95.T product listing',
+      'https://jomla.ae/product/dinamica-plus-coffee-machine-ecam370-95-t-delonghi/',
+      [
+        {
+          src: 'https://jomla.ae/_next/image/?q=85&url=https%3A%2F%2Fwp.jomla.ae%2Fwp-content%2Fuploads%2F2021%2F10%2FN43302121A_2.jpg&w=640',
+          alt: "De'Longhi Dinamica Plus ECAM370.95.T with LatteCrema milk carafe attached",
+          caption: 'The product view shows the older ECAM370 touch interface and attached LatteCrema carafe that define its one-touch milk workflow.',
+          width: 640,
+          height: 640,
+        },
+      ],
+    ),
+    ...officialProductMedia(
+      "De'Longhi ECAM370.95.T product page",
+      'https://www.delonghi.com/en/p/dinamica-plus-ecam370.95.t-dinamica-plus-automatic-coffee-maker/ECAM370.95.T.html',
+      [
+        {
+          src: 'https://dam.delonghi.com/902x902/assets/118864',
+          alt: "De'Longhi Dinamica Plus ECAM370.95.T automatic coffee machine on a white background",
+          caption: 'The official product view gives scale for the touch interface, cup access, carafe position and narrow Dinamica body.',
+          width: 902,
+          height: 902,
+        },
+      ],
+    ),
+  ],
+  '/espresso-machine/delonghi-dinamica-plus-ecam38085sb/': officialProductMedia(
+    "De'Longhi ECAM380.85.SB product page",
+    'https://www.delonghi.com/en/p/dinamica-plus-dinamica-plus-automatic-coffee-maker-ecam380.85.sb/ECAM380.85.SB.html?pid=0132215485',
+    [
+      {
+        src: 'https://dam.delonghi.com/902x902/assets/287564',
+        alt: "De'Longhi Dinamica Plus ECAM380.85.SB with LatteCrema Hot carafe",
+        caption: 'Official media shows the LatteCrema Hot carafe attached beside the dual coffee outlet, which is the central convenience and cleaning commitment of the machine.',
+        width: 902,
+        height: 902,
+      },
+      {
+        src: 'https://dam.delonghi.com/902x902/assets/267440',
+        alt: "Front view of the De'Longhi Dinamica Plus ECAM380.85.SB touchscreen coffee machine",
+        caption: 'The front view shows the 3.5-inch full-touch interface and compact drink area used to navigate the documented 24 recipes.',
+        width: 902,
+        height: 902,
+      },
+    ],
+  ),
+  '/espresso-machine/delonghi-ecp3420/': [
+    ...retailerProductMedia(
+      'Amazon US ECP3420 product listing',
+      'https://www.amazon.com/dp/B00YCP71VK',
+      [
+        {
+          src: 'https://m.media-amazon.com/images/I/81PIdrvNi9L._AC_SL1500_.jpg',
+          alt: "De'Longhi ECP3420 entry-level espresso machine with pressurized portafilter",
+          caption: 'The full product view shows the compact group, manual frother, rear-tank body and small work area that frame the ECP3420 routine.',
+          width: 1500,
+          height: 1500,
+        },
+      ],
+    ),
+    ...officialProductMedia(
+      "De'Longhi ECP3420 support page",
+      'https://www.delonghi.com/en-us/s/ECP3420',
+      [
+        {
+          src: 'https://dam.delonghi.com/902x902/assets/223708',
+          alt: "Front view of the De'Longhi ECP3420 espresso and cappuccino machine",
+          caption: 'Official exact-model media shows the simple selector, dual drip-tray arrangement and manual Advanced Cappuccino frother without implying PID or automatic control.',
+          width: 902,
+          height: 902,
+        },
+      ],
+    ),
+  ],
+  '/espresso-machine/delonghi-la-specialista-prestigio/': officialProductMedia(
+    "De'Longhi EC9355.M product page",
+    'https://www.delonghi.com/en/p/la-specialista-prestigio-ec9355.m-la-specialista-prestigio-manual-espresso-maker/EC9355.M.html?pid=0132126017',
+    [
+      {
+        src: 'https://dam.delonghi.com/902x902/assets/214729',
+        alt: "De'Longhi La Specialista Prestigio EC9355.M dosing and tamping station",
+        caption: 'The official detail view shows how the portafilter sits under the integrated grinder and Smart Tamping lever before the owner transfers it to the group.',
+        width: 902,
+        height: 902,
+      },
+      {
+        src: 'https://dam.delonghi.com/902x902/assets/203978',
+        alt: "De'Longhi La Specialista Prestigio EC9355.M manual MyLatte Art steam wand",
+        caption: 'The milk-side view makes clear that Prestigio assists coffee preparation but leaves pitcher position, air, circulation and stopping to the user.',
+        width: 902,
+        height: 902,
+      },
+    ],
+  ),
+  '/espresso-machine/delonghi-magnifica-esam3000/': [
+    ...retailerProductMedia(
+      'Les Numériques ESAM3000.B review',
+      'https://www.lesnumeriques.com/cafetiere-automatique/delonghi-magnifica-esam-3000-b-p24051/test.html',
+      [
+        {
+          src: 'https://cdn.lesnumeriques.com/optim/produits/588/24051/delonghi-esam-3000-b_6895bc25b9042baf__400_400.jpg',
+          alt: "Black De'Longhi Magnifica ESAM3000.B automatic coffee machine viewed from the front",
+          caption: 'The exact-machine review image shows the physical buttons, two rotary dials, dual outlet and manual frother that make the old ESAM workflow unusually direct.',
+          width: 400,
+          height: 400,
+        },
+      ],
+    ),
+    ...officialProductMedia(
+      "De'Longhi ESAM3000.B product page",
+      'https://www.delonghi.com/en/p/magnifica-esam3000.b-magnifica-bean-to-cup-coffee-machines/ESAM3000.B.html?pid=0132212125',
+      [
+        {
+          src: 'https://dam.delonghi.com/902x902/assets/118829',
+          alt: "De'Longhi Magnifica ESAM3000.B legacy bean-to-cup machine on a white background",
+          caption: 'The official image gives a second view of the front-access tank, waste drawer and compact legacy body. Condition must still be judged on the individual used unit.',
+          width: 902,
+          height: 902,
+        },
+      ],
+    ),
+  ],
+  '/espresso-machine/delonghi-magnifica-evo-next/': officialProductMedia(
+    "De'Longhi ECAM310.80.SB product page",
+    'https://www.delonghi.com/en/p/magnifica-evo-next-magnifica-evo-next-automatic-coffee-maker-ecam310.80.sb/ECAM310.80.SB.html?pid=0132250041',
+    [
+      {
+        src: 'https://dam.delonghi.com/902x902/assets/294624',
+        alt: "De'Longhi Magnifica Evo Next ECAM310.80.SB with LatteCrema Hot carafe",
+        caption: 'Official media shows the exact ECAM310.80.SB milk configuration, compact TFT control area and attached LatteCrema Hot carafe.',
+        width: 902,
+        height: 902,
+      },
+      {
+        src: 'https://dam.delonghi.com/902x902/assets/294655',
+        alt: "Front view of the De'Longhi Magnifica Evo Next ECAM310.80.SB",
+        caption: 'The front view shows the eight soft-touch controls and 2.4-inch TFT used for the documented 13-drink menu; other ECAM310 suffixes can differ.',
+        width: 902,
+        height: 902,
+      },
+    ],
+  ),
   '/grinder/1zpresso-k-ultra/': officialProductMedia(
     '1Zpresso product page',
     'https://1zpresso.coffee/k-ultra/',
