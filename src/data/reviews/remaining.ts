@@ -292,6 +292,7 @@ export const nineBaristaMk2Review = buildResearchReview({
           { question: 'What changes between Standard and Pro?', answer: 'The base brewer is the same. Pro adds a naked portafilter, IMS precision basket, stainless basket cap and aluminium handles; Standard uses a conventional portafilter, standard basket, silicone cap and wooden handles.' },
           { question: 'Why is Milk marked N/A?', answer: 'There is no milk system to test, so a numerical milk score would be fictional. N/A is excluded from the average, while the verdict and buying guidance still account for the cost and work of a separate milk device.' },
           { question: 'What is the biggest unknown?', answer: 'There is no population-level durability or failure-rate data for Mk.2. Parts access and a five-year eligible-purchase warranty are positive, but they do not prove a particular lifespan.' },
+          { question: 'Will it work on my stove?', answer: 'Choose the stove option that matches your hob and confirm the current compatibility guidance before ordering. Do not assume that a kit intended for gas or electric contact heat will behave the same way on induction.' },
         ]),
       },
     ],

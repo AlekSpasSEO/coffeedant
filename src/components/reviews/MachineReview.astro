@@ -1,34 +1,34 @@
 ---
 import type { MachineReviewData } from '../../data/reviews';
 import { reviewInlineMedia } from '../../data/review-inline-media';
-import migrationBatches from '../../data/review-migration-batches.json';
+import { getReviewRouteDefinition } from '../../data/review-routes';
 import ReviewSummary from './ReviewSummary.astro';
 import ReviewRatings from './ReviewRatings.astro';
 import ReviewPerformanceDetail from './ReviewPerformanceDetail.astro';
 
 const { review } = Astro.props as { review: MachineReviewData };
-const migratedReviewSlugs = new Set(migrationBatches.batches.flat());
-const usesMigrationTemplate = migratedReviewSlugs.has(review.slug);
+const reviewRoute = getReviewRouteDefinition(review.slug);
+if (!reviewRoute) throw new Error(`${review.slug} is not a canonical modern review route.`);
+const productNoun = reviewRoute.family === 'grinder' ? 'grinder' : 'machine';
 const allInlineMedia = reviewInlineMedia[review.slug] ?? [];
-const inlineMedia = usesMigrationTemplate
-  ? allInlineMedia.slice(0, 2).map((media, index) => ({ ...media, afterSection: index === 0 ? 1 : 5 }))
-  : allInlineMedia;
+const inlineMedia = allInlineMedia
+  .slice(0, 2)
+  .map((media, index) => ({ ...media, afterSection: index === 0 ? 1 : 5 }));
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
-const assetUrl = (path: string) => new URL(`${base}${path.replace(/^\//, '')}`, Astro.site ?? Astro.url).toString();
+const assetUrl = (path: string) => /^https:\/\//i.test(path)
+  ? path
+  : new URL(`${base}${path.replace(/^\//, '')}`, Astro.site ?? Astro.url).toString();
 const canonical = new URL(review.slug.replace(/^\//, ''), 'https://coffeedant.com/').toString();
 const primaryOffer = review.links.find((link) => link.primary) ?? review.links[0];
 const redditSources = review.article.sources.filter((source) => /^https:\/\/(?:www\.)?reddit\.com\//i.test(source.href));
-const redditSource = redditSources[0];
-const redditEmbedUrl = redditSource
-  ? `${redditSource.href.replace(/^https:\/\/(?:www\.)?reddit\.com/i, 'https://www.redditmedia.com').replace(/\/$/, '')}/?ref_source=embed&ref=share&embed=true&showmedia=true`
-  : null;
-const redditEmbedSectionId = ['owners', 'ownership', 'recommendations', 'value']
-  .find((id) => review.article.sections.some((section) => section.id === id));
+const redditEvidenceSectionId = review.article.sections.find((section) => (
+  /(?:owner|community|recommendation|value)/i.test(section.id)
+))?.id ?? review.article.sections.at(-1)?.id;
 const renderSectionHtml = (section: MachineReviewData['article']['sections'][number]) => {
-  if (!usesMigrationTemplate || section.id !== 'faq') return section.html;
+  if (!/class="review-faq-list(?:\s|"|$)/i.test(section.html)) return section.html;
   return section.html
-    .replace(/<details>/gi, '<article class="review-faq-item">')
-    .replace(/<summary>([\s\S]*?)<\/summary>/gi, '<h3>$1</h3>')
+    .replace(/<details\b[^>]*>/gi, '<article class="review-faq-item">')
+    .replace(/<summary\b[^>]*>([\s\S]*?)<\/summary>/gi, '<h3>$1</h3>')
     .replace(/<\/details>/gi, '</article>');
 };
 const isCommunityHref = (href: string) => /(?:reddit\.com|home-barista\.com|freeflarum\.com|coffeeforums\.com|forums\.whirlpool\.net\.au|facebook\.com\/groups)/i.test(href);
@@ -63,7 +63,7 @@ const schema = {
     },
     {
       '@type': 'Article', '@id': `${canonical}#article`, headline: review.title,
-      description: review.description, articleSection: 'Espresso machine reviews',
+      description: review.description, articleSection: reviewRoute.articleSection,
       genre: 'Research-led product review', inLanguage: 'en-US', author, datePublished: review.published,
       dateModified: review.updated, image: assetUrl(review.image), mainEntityOfPage: canonical,
       about: { '@id': `${canonical}#product` },
@@ -80,7 +80,7 @@ const schema = {
     {
       '@type': 'BreadcrumbList', itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://coffeedant.com/' },
-        { '@type': 'ListItem', position: 2, name: 'Espresso machines', item: 'https://coffeedant.com/espresso-machine/' },
+        { '@type': 'ListItem', position: 2, name: reviewRoute.breadcrumbLabel, item: `https://coffeedant.com${reviewRoute.basePath}` },
         { '@type': 'ListItem', position: 3, name: `${review.brand} ${review.model}`, item: canonical },
       ],
     },
@@ -92,7 +92,7 @@ const schema = {
   <div class="review-shell">
     <nav class="review-breadcrumbs" aria-label="Breadcrumb">
       <a href={base}>Home</a><span aria-hidden="true">/</span>
-      <a href={`${base}espresso-machine/`}>Espresso machines</a><span aria-hidden="true">/</span>
+      <a href={`${base}${reviewRoute.basePath.replace(/^\//, '')}`}>{reviewRoute.breadcrumbLabel}</a><span aria-hidden="true">/</span>
       <span aria-current="page">{review.model}</span>
     </nav>
     <ReviewSummary review={review} />
@@ -143,9 +143,11 @@ const schema = {
                         ? 'Reddit photo'
                         : media.sourceType === 'community'
                           ? 'Community photo'
-                          : media.userGenerated
-                            ? 'Owner photo'
-                            : 'Product listing'
+                          : media.sourceType === 'manufacturer'
+                            ? 'Manufacturer photo'
+                            : media.userGenerated
+                              ? 'Owner photo'
+                              : 'Product listing'
                     }</span>
                     {media.caption}
                     <span class="review-media-credit">
@@ -156,7 +158,7 @@ const schema = {
                   </figcaption>
                 </figure>
               ))}
-            {usesMigrationTemplate && section.id === redditEmbedSectionId && redditSources.length > 0 && (
+            {section.id === redditEvidenceSectionId && redditSources.length > 0 && (
               <aside class="review-community-evidence" aria-labelledby={`${section.id}-reddit-title`}>
                 <p class="review-overline">What real owners report</p>
                 <h3 id={`${section.id}-reddit-title`}>The useful patterns from Reddit, kept on this page</h3>
@@ -171,25 +173,11 @@ const schema = {
                 <p class="review-community-evidence-note">These are self-selected owner reports, not a representative sample or Coffeedant testing. The complete source records remain in the evidence list below.</p>
               </aside>
             )}
-            {!usesMigrationTemplate && section.id === redditEmbedSectionId && redditEmbedUrl && redditSource && (
-              <aside class="review-community-embed" aria-labelledby={`${section.id}-reddit-title`}>
-                <p class="review-overline">From the owner community</p>
-                <h3 id={`${section.id}-reddit-title`}>A relevant Reddit discussion</h3>
-                <iframe
-                  src={redditEmbedUrl}
-                  title={redditSource.label}
-                  width="640"
-                  height="520"
-                  loading="lazy"
-                ></iframe>
-                <p class="review-community-embed-note">Official Reddit embed. Individual posts are anecdotal and do not establish defect rates or typical lifespan.</p>
-              </aside>
-            )}
           </div>
         </section>
       ))}
       <section class="review-section" id="video" aria-labelledby="video-title">
-        <header class="review-section-heading"><p class="review-overline">See the machine in use</p><h2 id="video-title">An independent video perspective</h2></header>
+        <header class="review-section-heading"><p class="review-overline">See the {productNoun} in use</p><h2 id="video-title">An independent video perspective</h2></header>
         <div class="review-section-body">
           <div class="review-video" data-review-video={review.video.id}>
             <button class="review-video-poster" type="button" aria-label={`Play ${review.video.title}`}>

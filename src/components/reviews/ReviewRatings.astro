@@ -10,6 +10,13 @@ const heading = evaluation.basis.kind === 'hands-on'
   : evaluation.basis.kind === 'hybrid'
     ? 'What testing and market evidence support'
     : 'What the evidence supports';
+const dimensionLabels = new Intl.ListFormat('en-US', { style: 'long', type: 'conjunction' }).format(
+  evaluation.dimensions.map((dimension) => (
+    dimension.label.length
+      ? `${dimension.label[0].toLocaleLowerCase('en-US')}${dimension.label.slice(1)}`
+      : dimension.label
+  )),
+);
 const summaryTable: ReviewTable = {
   caption: 'Coffeedant performance assessment across every required review category',
   columns: [
@@ -35,7 +42,7 @@ const summaryTable: ReviewTable = {
   </header>
   <div class="review-section-body">
     <div class="review-rating-intro">
-      <p class="review-lead">A single overall score is useful only when you can see what produced it. {productName} earns <strong>{overall === null ? 'not scored' : `${overall.toFixed(1)}/5`}</strong>, with espresso, milk, workflow, build, features, and value scored separately below.</p>
+      <p class="review-lead">A single overall score is useful only when you can see what produced it. {productName} earns <strong>{overall === null ? 'not scored' : `${overall.toFixed(1)}/5`}</strong>, with {dimensionLabels} scored separately below.</p>
       <p class="review-rating-basis"><strong>{evaluation.basis.label}.</strong> {evaluation.basis.disclosure}</p>
     </div>
 

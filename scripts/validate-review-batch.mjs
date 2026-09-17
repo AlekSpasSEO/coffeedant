@@ -6,24 +6,41 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.join(root, 'dist');
 const astroConfig = (await import(new URL('../astro.config.mjs', import.meta.url))).default;
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'src/data/review-batch-manifest.json'), 'utf8'));
-const migrationBatches = JSON.parse(fs.readFileSync(path.join(root, 'src/data/review-migration-batches.json'), 'utf8'));
-const migratedReviewSlugs = new Set(migrationBatches.batches.flat());
 const legacyPages = [
   ...JSON.parse(fs.readFileSync(path.join(root, 'src/data/pages-a.json'), 'utf8')),
   ...JSON.parse(fs.readFileSync(path.join(root, 'src/data/pages-b.json'), 'utf8')),
 ];
 const sitemap = fs.readFileSync(path.join(root, 'public/sitemap.xml'), 'utf8');
 const robots = fs.readFileSync(path.join(root, 'public/robots.txt'), 'utf8');
-const expectedBatchSize = 20;
-const batchDate = '2026-09-15';
+const minimumReviewCount = 20;
 // GitHub Pages is the staged publication host; canonicals already point at the eventual production origin.
 const canonicalOrigin = 'https://coffeedant.com';
 const pagesOrigin = 'https://alekspasseo.github.io/coffeedant';
-const reviewSlugPattern = /^\/espresso-machine\/[a-z0-9]+(?:-[a-z0-9]+)*\/$/;
-const reservedProductSlugs = new Set([
-  'beginners', 'breville-bambino', 'built-in-grinder', 'cheap-budget-under-500',
-  'prosumer-under-1000', 'single-boiler', 'small', 'superautomatic', 'without-grinder',
-]);
+const reviewSlugPattern = /^\/(espresso-machine|grinder|coffee-machine)\/[a-z0-9]+(?:-[a-z0-9]+)*\/$/;
+const reviewRoutes = {
+  'espresso-machine': {
+    basePath: '/espresso-machine/', breadcrumbLabel: 'Espresso machines',
+    articleSection: 'Espresso machine reviews', productIdPrefix: 'EM',
+  },
+  grinder: {
+    basePath: '/grinder/', breadcrumbLabel: 'Coffee grinders',
+    articleSection: 'Coffee grinder reviews', productIdPrefix: 'GR',
+  },
+  'coffee-machine': {
+    basePath: '/coffee-machine/', breadcrumbLabel: 'Coffee machines',
+    articleSection: 'Coffee machine reviews', productIdPrefix: 'CM',
+  },
+};
+const reservedProductSlugs = {
+  'espresso-machine': new Set([
+    'beginners', 'breville-bambino', 'built-in-grinder', 'cheap-budget-under-500',
+    'prosumer-under-1000', 'single-boiler', 'small', 'superautomatic', 'without-grinder',
+  ]),
+};
+const getReviewRoute = (slug) => {
+  const family = slug.match(reviewSlugPattern)?.[1];
+  return family ? { family, ...reviewRoutes[family] } : null;
+};
 const errors = [];
 const reports = [];
 const videoPages = new Map();
@@ -66,14 +83,22 @@ if (!robots.includes(`Sitemap: ${pagesOrigin}/sitemap.xml`)) {
   errors.push('robots: sitemap URL does not match the GitHub Pages publication path');
 }
 
-if (manifest.length !== expectedBatchSize) errors.push(`manifest: expected ${expectedBatchSize} reviews, found ${manifest.length}`);
+if (manifest.length < minimumReviewCount) errors.push(`manifest: expected at least ${minimumReviewCount} reviews, found ${manifest.length}`);
 if (new Set(manifest.map((item) => item.slug)).size !== manifest.length) errors.push('manifest: duplicate slugs');
 if (new Set(manifest.map((item) => item.productId)).size !== manifest.length) errors.push('manifest: duplicate product IDs');
 for (const item of manifest) {
-  if (!reviewSlugPattern.test(item.slug)) fail(item.slug, 'manifest slug is not a canonical product route');
+  const reviewRoute = getReviewRoute(item.slug);
+  if (!reviewRoute) {
+    fail(item.slug, 'manifest slug is not a canonical modern review route');
+    continue;
+  }
   const routeSegment = item.slug.split('/').filter(Boolean).at(-1);
-  if (routeSegment && reservedProductSlugs.has(routeSegment)) fail(item.slug, 'manifest route collides with an explicit page');
-  if (!/^CD-EM-\d{6}$/.test(item.productId)) fail(item.slug, `malformed product ID ${item.productId}`);
+  if (routeSegment && reservedProductSlugs[reviewRoute.family]?.has(routeSegment)) {
+    fail(item.slug, 'manifest route collides with an explicit page');
+  }
+  if (!new RegExp(`^CD-${reviewRoute.productIdPrefix}-\\d{6}$`).test(item.productId)) {
+    fail(item.slug, `malformed product ID ${item.productId}`);
+  }
   const legacyMatches = legacyPages.filter((page) => page.path === item.slug).length;
   if (legacyMatches !== 1) fail(item.slug, `expected one matching legacy route, found ${legacyMatches}`);
 }
@@ -86,11 +111,11 @@ if (new Set(sitemapEntries.map((entry) => entry.loc)).size !== sitemapEntries.le
 }
 
 for (const item of manifest) {
+  const reviewRoute = getReviewRoute(item.slug);
+  if (!reviewRoute) continue;
   const sitemapMatches = sitemapEntries.filter((entry) => entry.loc === `${pagesOrigin}${item.slug}`);
   if (sitemapMatches.length !== 1) {
     fail(item.slug, `expected one sitemap entry, found ${sitemapMatches.length}`);
-  } else if (sitemapMatches[0].lastmod !== batchDate) {
-    fail(item.slug, `sitemap lastmod must be ${batchDate}`);
   }
   const slugName = item.slug.split('/').filter(Boolean).at(-1);
   const ledgerPath = path.join(root, 'docs/reviews', `${slugName}-research.md`);
@@ -111,7 +136,6 @@ for (const item of manifest) {
     continue;
   }
   const html = fs.readFileSync(output, 'utf8');
-  const usesMigrationTemplate = migratedReviewSlugs.has(item.slug);
   const expectedCanonical = `${canonicalOrigin}${item.slug}`;
   const main = html.match(/<main\b[\s\S]*?<\/main>/i)?.[0] ?? '';
   const visible = cleanText(main);
@@ -123,6 +147,7 @@ for (const item of manifest) {
   const deepDives = count(main, /class="review-performance-detail"/g);
   const comparisonDetails = count(main, /class="review-comparison-details(?:\s|"|$)/g);
   const faqModules = count(main, /class="review-faq-list(?:\s|"|$)/g);
+  const quickAnswerPanel = main.match(/<section class="quick-answer-panel"[\s\S]*?<\/section>/i)?.[0] ?? '';
   const sourceList = main.match(/<ol class="review-source-list">([\s\S]*?)<\/ol>/i)?.[1] ?? '';
   const sources = count(sourceList, /<li id="[^"]+">/g);
   const redditSourceLinks = [...sourceList.matchAll(/<a href="(https:\/\/(?:www\.)?reddit\.com\/[^"]+)"[^>]*rel="([^"]+)"/gi)];
@@ -146,36 +171,29 @@ for (const item of manifest) {
   if (mains !== 1 || !main.includes('id="main-content"') || !main.includes('tabindex="-1"')) {
     fail(item.slug, `expected one skip-link focusable main landmark, found ${mains}`);
   }
-  if (words < 3500) fail(item.slug, `only ${words} visible words; target minimum is 3500`);
+  if (words < 4700) fail(item.slug, `only ${words} visible words; target minimum is 4700`);
   if (words > 5500) fail(item.slug, `${words} visible words; target maximum is 5500`);
   if (scoreCards !== 6) fail(item.slug, `expected 6 rating cards, found ${scoreCards}`);
   if (deepDives !== 6) fail(item.slug, `expected 6 performance deep dives, found ${deepDives}`);
+  if (count(quickAnswerPanel, /<dt>/g) !== 6) fail(item.slug, 'expected exactly 6 quick answers');
   if (sources < 10) fail(item.slug, `expected at least 10 source records, found ${sources}`);
-  if (!usesMigrationTemplate && redditSourceLinks.length && redditEmbeds !== 1) {
-    fail(item.slug, `expected one official Reddit embed for ${redditSourceLinks.length} Reddit source(s), found ${redditEmbeds}`);
-  }
   if (redditSourceLinks.some((match) => !match[2].split(/\s+/).includes('ugc'))) {
     fail(item.slug, 'a Reddit source link is not marked as user-generated content');
   }
-  if (!usesMigrationTemplate && redditEmbeds && !/<iframe\b[^>]*src="https:\/\/www\.redditmedia\.com\//i.test(main)) {
-    fail(item.slug, 'Reddit module does not use the official redditmedia embed');
+  if (redditEmbeds !== 0 || /<iframe\b[^>]*src="https:\/\/www\.redditmedia\.com\//i.test(main)) {
+    fail(item.slug, 'Reddit evidence uses an external embed');
   }
-  if (usesMigrationTemplate && redditSourceLinks.length) {
+  if (redditSourceLinks.length) {
     if (redditEvidenceBlocks !== 1) fail(item.slug, `expected one on-page Reddit evidence block, found ${redditEvidenceBlocks}`);
-    if (redditEmbeds !== 0 || /<iframe\b[^>]*src="https:\/\/www\.redditmedia\.com\//i.test(main)) {
-      fail(item.slug, 'migrated Reddit evidence still uses an external iframe');
-    }
     const evidenceBlock = main.match(/<aside\b[^>]*class="review-community-evidence"[^>]*>[\s\S]*?<\/aside>/i)?.[0] ?? '';
     if (/<a\b/i.test(evidenceBlock)) fail(item.slug, 'on-page Reddit evidence block contains an outbound link');
     if (count(evidenceBlock, /<li>/g) < 1) fail(item.slug, 'on-page Reddit evidence block has no readable owner records');
   }
   if (comparisonDetails !== 1) fail(item.slug, `expected 1 detailed comparison control, found ${comparisonDetails}`);
   if (faqModules !== 1) fail(item.slug, `expected 1 FAQ module, found ${faqModules}`);
-  if (usesMigrationTemplate) {
-    const faqBlock = main.match(/<div class="review-faq-list">[\s\S]*?<\/div>/i)?.[0] ?? '';
-    if (/<details\b|<summary\b/i.test(faqBlock)) fail(item.slug, 'FAQ still uses dropdown controls');
-    if (count(faqBlock, /class="review-faq-item"/g) < 3) fail(item.slug, 'FAQ does not expose enough visible question-and-answer items');
-  }
+  const faqBlock = main.match(/<div class="review-faq-list">[\s\S]*?<\/div>/i)?.[0] ?? '';
+  if (/<details\b|<summary\b/i.test(faqBlock)) fail(item.slug, 'FAQ still uses dropdown controls');
+  if (count(faqBlock, /class="review-faq-item"/g) < 6) fail(item.slug, 'FAQ does not expose at least six visible question-and-answer items');
   if (recommendations !== 4) fail(item.slug, `expected 4 recommendation cards, found ${recommendations}`);
   if (!main.includes('data-commerce-ready="true"')) fail(item.slug, 'commerce-ready recommendation hook is missing');
   if (!main.includes('class="review-author-card"')) fail(item.slug, 'author card is missing');
@@ -185,6 +203,7 @@ for (const item of manifest) {
   const videoId = main.match(/data-review-video="([^"]+)"/)?.[1];
   const videoDate = html.match(/"@type":"VideoObject"[\s\S]*?"uploadDate":"([^"]+)"/)?.[1];
   const articlePublishedDate = html.match(/<meta property="article:published_time" content="([^"]+)">/)?.[1];
+  const articleModifiedDate = html.match(/<meta property="article:modified_time" content="([^"]+)">/)?.[1];
   if (!videoDate || !/^\d{4}-\d{2}-\d{2}$/.test(videoDate)) {
     fail(item.slug, 'VideoObject upload date must be a complete ISO date');
   }
@@ -198,6 +217,11 @@ for (const item of manifest) {
   }
   if (!articlePublishedDate || !/^\d{4}-\d{2}-\d{2}$/.test(articlePublishedDate)) {
     fail(item.slug, 'article publication date must be a complete ISO date');
+  }
+  if (!articleModifiedDate || !/^\d{4}-\d{2}-\d{2}$/.test(articleModifiedDate)) {
+    fail(item.slug, 'article modified date must be a complete ISO date');
+  } else if (sitemapMatches.length === 1 && sitemapMatches[0].lastmod !== articleModifiedDate) {
+    fail(item.slug, `sitemap lastmod ${sitemapMatches[0].lastmod} does not match article modified date ${articleModifiedDate}`);
   }
 
   const structuredNodes = [];
@@ -226,7 +250,8 @@ for (const item of manifest) {
     || articleSchema['@id'] !== `${expectedCanonical}#article`
     || articleSchema.mainEntityOfPage !== expectedCanonical
     || articleSchema.datePublished !== articlePublishedDate
-    || articleSchema.dateModified !== batchDate
+    || articleSchema.dateModified !== articleModifiedDate
+    || articleSchema.articleSection !== reviewRoute.articleSection
     || articleSchema.about?.['@id'] !== `${expectedCanonical}#product`
     || articleSchema.inLanguage !== 'en-US') {
     fail(item.slug, 'Article schema identity, date or Product relationship is wrong');
@@ -242,8 +267,10 @@ for (const item of manifest) {
   const breadcrumbItems = breadcrumbSchema?.itemListElement;
   if (!Array.isArray(breadcrumbItems)
     || breadcrumbItems.length !== 3
+    || breadcrumbItems[1]?.name !== reviewRoute.breadcrumbLabel
+    || breadcrumbItems[1]?.item !== `${canonicalOrigin}${reviewRoute.basePath}`
     || breadcrumbItems.at(-1)?.item !== expectedCanonical) {
-    fail(item.slug, 'Breadcrumb schema is missing or does not end at the canonical review URL');
+    fail(item.slug, 'Breadcrumb schema does not match the review route family');
   }
 
   const canonicals = [...html.matchAll(/<link rel="canonical" href="([^"]+)">/g)].map((match) => match[1]);
@@ -254,9 +281,10 @@ for (const item of manifest) {
   if (!html.includes(`<meta property="og:url" content="${expectedCanonical}">`)) fail(item.slug, 'Open Graph URL is wrong');
   const ogImage = html.match(/<meta property="og:image" content="([^"]+)">/)?.[1];
   if (!ogImage) fail(item.slug, 'Open Graph image is missing');
-  else if (!ogImage.startsWith(`${pagesOrigin}/`)) fail(item.slug, `Open Graph image is outside the GitHub Pages base: ${ogImage}`);
+  else if (!ogImage.startsWith(`${pagesOrigin}/`) && !/^https:\/\//i.test(ogImage)) {
+    fail(item.slug, `Open Graph image has an unsupported URL: ${ogImage}`);
+  }
   if (!/<meta property="og:image:alt" content="[^"]+">/.test(html)) fail(item.slug, 'Open Graph image alternative text is missing');
-  if (!html.includes(`<meta property="article:modified_time" content="${batchDate}">`)) fail(item.slug, 'article modified time is wrong');
   if (!/<meta name="twitter:title" content="[^"]+">/.test(html)) fail(item.slug, 'Twitter title is missing');
   if (!/<meta name="twitter:description" content="[^"]+">/.test(html)) fail(item.slug, 'Twitter description is missing');
   if (!html.includes('<meta name="twitter:card" content="summary_large_image">')) fail(item.slug, 'Twitter large-image card is missing');
@@ -290,18 +318,8 @@ for (const item of manifest) {
   const inlineMedia = [...main.matchAll(/<figure\b[^>]*class="review-media review-inline-media"[^>]*>[\s\S]*?<\/figure>/gi)]
     .map((match) => match[0]);
   const imageCount = inlineMedia.length + 1;
-  const requiredImages = Math.ceil(words / 500);
-  if (usesMigrationTemplate) {
-    if (imageCount > 3) fail(item.slug, `migration image cap exceeded: ${imageCount} images; maximum is 3`);
-    if (imageCount < 2) fail(item.slug, `migration page is visually unsupported: ${imageCount} images`);
-  } else {
-    if (imageCount < requiredImages) {
-      fail(item.slug, `image density is too low: ${imageCount} images for ${words} words; at least ${requiredImages} required`);
-    }
-    if (inlineMedia.length < requiredImages - 1) {
-      fail(item.slug, `expected at least ${requiredImages - 1} inline editorial images, found ${inlineMedia.length}`);
-    }
-  }
+  if (imageCount > 3) fail(item.slug, `review image cap exceeded: ${imageCount} images; maximum is 3`);
+  if (imageCount < 2) fail(item.slug, `review is visually unsupported: ${imageCount} images`);
 
   let userGeneratedMedia = 0;
   const sourceTypes = new Set();
@@ -340,12 +358,9 @@ for (const item of manifest) {
     }
   });
 
-  const requiredUserGenerated = Math.ceil(inlineMedia.length * 0.5);
-  if (userGeneratedMedia < requiredUserGenerated) {
-    fail(item.slug, `user-generated image mix is too low: ${userGeneratedMedia} of ${inlineMedia.length}; at least ${requiredUserGenerated} required`);
-  }
-  if (!sourceTypes.has('community') || !sourceTypes.has('product-listing')) {
-    fail(item.slug, 'inline images must combine community and product-listing sources');
+  const hasOfficialMedia = sourceTypes.has('product-listing') || sourceTypes.has('manufacturer');
+  if (!hasOfficialMedia) {
+    fail(item.slug, 'inline images must include at least one official product source');
   }
 
   const mediaLedgerPath = path.join(root, 'docs/reviews', `${slugName}-media.md`);
@@ -357,9 +372,7 @@ for (const item of manifest) {
     if (mediaLedgerRows !== inlineMedia.length) {
       fail(item.slug, `media ledger has ${mediaLedgerRows} image records for ${inlineMedia.length} inline images`);
     }
-    const expectedLedgerRule = usesMigrationTemplate
-      ? 'Publication image cap: 3 total images'
-      : `Minimum images at one image per 500 words: ${requiredImages}`;
+    const expectedLedgerRule = 'Publication image cap: 3 total images';
     if (!mediaLedger.includes(expectedLedgerRule)) {
       fail(item.slug, 'media ledger does not record the current publication image rule');
     }
@@ -370,11 +383,11 @@ for (const item of manifest) {
   const productImageAlt = productImageTag?.match(/\salt="([^"]*)"/i)?.[1];
   if (!productImage || !productImageTag) {
     fail(item.slug, 'product image is missing');
-  } else if (!productImage.startsWith('/coffeedant/')) {
-    fail(item.slug, `product image is outside the GitHub Pages base: ${productImage}`);
-  } else {
+  } else if (productImage.startsWith('/coffeedant/')) {
     const imageFile = path.join(dist, productImage.replace(/^\/coffeedant\//, ''));
     if (!fs.existsSync(imageFile)) fail(item.slug, `product image does not exist: ${productImage}`);
+  } else if (!/^https:\/\//i.test(productImage)) {
+    fail(item.slug, `product image has an unsupported URL: ${productImage}`);
   }
   if (!productImageAlt?.trim()) fail(item.slug, 'product image alternative text is missing');
 

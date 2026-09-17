@@ -5,6 +5,7 @@ import type {
   ReviewTable,
 } from './reviews';
 import { reviewDimensionIds } from './reviews';
+import { isCanonicalReviewSlug } from './review-routes';
 
 type EvidenceRow = {
   signal: string;
@@ -14,6 +15,7 @@ type EvidenceRow = {
 
 export type ResearchDimensionInput = {
   id: ReviewDimensionId;
+  label?: string;
   score: number | null;
   reason: string;
   buyerMeaning: string;
@@ -58,7 +60,7 @@ const classCount = (html: string, className: string) => (
 ).length;
 
 const dimensionTable = (input: ResearchDimensionInput): ReviewTable => ({
-  caption: `${dimensionLabels[input.id]} evidence and its practical consequence`,
+  caption: `${input.label ?? dimensionLabels[input.id]} evidence and its practical consequence`,
   columns: [
     { key: 'signal', label: 'Signal' },
     { key: 'evidence', label: 'What the evidence says' },
@@ -69,7 +71,7 @@ const dimensionTable = (input: ResearchDimensionInput): ReviewTable => ({
 
 const makeDimension = (input: ResearchDimensionInput): ReviewDimension => ({
   id: input.id,
-  label: dimensionLabels[input.id],
+  label: input.label ?? dimensionLabels[input.id],
   score: input.score,
   weight: 1,
   reason: input.reason,
@@ -90,7 +92,7 @@ export const buildResearchReview = (input: ResearchReviewInput): MachineReviewDa
   const { authorNote, basisDisclosure, dimensions, ...review } = input;
   const invalidAlternativePaths = review.alternatives
     .map((alternative) => alternative.href)
-    .filter((href) => !/^\/espresso-machine\/[a-z0-9]+(?:-[a-z0-9]+)*\/$/.test(href));
+    .filter((href) => !isCanonicalReviewSlug(href));
   if (invalidAlternativePaths.length) {
     throw new Error(`${review.slug} has non-canonical alternative paths: ${invalidAlternativePaths.join(', ')}.`);
   }
@@ -213,11 +215,23 @@ export type ComparisonInput = {
   bestFor: string;
 };
 
+export type ComparisonLabels = {
+  item?: string;
+  heating?: string;
+  coffeeSetup?: string;
+  milkWorkflow?: string;
+};
+
 export const comparisonTablesHtml = (
   subject: string,
   comparisons: ComparisonInput[],
   note: string,
+  labels: ComparisonLabels = {},
 ) => {
+  const itemLabel = labels.item ?? 'Machine';
+  const heatingLabel = labels.heating ?? 'Heating';
+  const coffeeSetupLabel = labels.coffeeSetup ?? 'Coffee setup';
+  const milkWorkflowLabel = labels.milkWorkflow ?? 'Milk workflow';
   const quickRows = comparisons.map((item) => {
     const name = item.href
       ? `<a href="${internalHref(item.href)}">${escapeHtml(item.name)}</a>`
@@ -228,13 +242,13 @@ export const comparisonTablesHtml = (
     const name = item.href
       ? `<a href="${internalHref(item.href)}">${escapeHtml(item.name)}</a>`
       : escapeHtml(item.name);
-    return `<tr><th scope="row">${name}</th><td data-label="Dimensions">${escapeHtml(item.dimensions)}</td><td data-label="Heating">${escapeHtml(item.heating)}</td><td data-label="Coffee setup">${escapeHtml(item.coffeeSetup)}</td><td data-label="Milk workflow">${escapeHtml(item.milkWorkflow)}</td><td data-label="Best fit">${escapeHtml(item.bestFor)}</td></tr>`;
+    return `<tr><th scope="row">${name}</th><td data-label="Dimensions">${escapeHtml(item.dimensions)}</td><td data-label="${escapeHtml(heatingLabel)}">${escapeHtml(item.heating)}</td><td data-label="${escapeHtml(coffeeSetupLabel)}">${escapeHtml(item.coffeeSetup)}</td><td data-label="${escapeHtml(milkWorkflowLabel)}">${escapeHtml(item.milkWorkflow)}</td><td data-label="Best fit">${escapeHtml(item.bestFor)}</td></tr>`;
   }).join('');
   return `
     <div class="review-table-wrap" role="region" aria-label="${escapeHtml(subject)} quick comparison" tabindex="0">
       <table class="review-table">
         <caption>${escapeHtml(subject)} and its closest alternatives</caption>
-        <thead><tr><th scope="col">Machine</th><th scope="col">Price position</th><th scope="col">The quick decision</th></tr></thead>
+        <thead><tr><th scope="col">${escapeHtml(itemLabel)}</th><th scope="col">Price position</th><th scope="col">The quick decision</th></tr></thead>
         <tbody>${quickRows}</tbody>
       </table>
     </div>
@@ -243,7 +257,7 @@ export const comparisonTablesHtml = (
       <div class="review-table-wrap" role="region" aria-label="${escapeHtml(subject)} detailed comparison" tabindex="0">
         <table class="review-table review-table-detailed">
           <caption>Detailed ownership comparison</caption>
-          <thead><tr><th scope="col">Machine</th><th scope="col">Dimensions</th><th scope="col">Heating</th><th scope="col">Coffee setup</th><th scope="col">Milk workflow</th><th scope="col">Best fit</th></tr></thead>
+          <thead><tr><th scope="col">${escapeHtml(itemLabel)}</th><th scope="col">Dimensions</th><th scope="col">${escapeHtml(heatingLabel)}</th><th scope="col">${escapeHtml(coffeeSetupLabel)}</th><th scope="col">${escapeHtml(milkWorkflowLabel)}</th><th scope="col">Best fit</th></tr></thead>
           <tbody>${detailRows}</tbody>
         </table>
       </div>

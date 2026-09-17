@@ -5,7 +5,9 @@ import { getReviewOverallScore } from '../../data/reviews';
 const { review } = Astro.props as { review: MachineReviewData };
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const basePath = base.replace(/\/$/, '');
-const assetUrl = (path: string) => `${base}${path.replace(/^\//, '')}`;
+const assetUrl = (path: string) => /^https:\/\//i.test(path)
+  ? path
+  : `${base}${path.replace(/^\//, '')}`;
 const pageUrl = (path: string) => path.startsWith('/') && !path.startsWith('//')
   ? path === basePath || path.startsWith(`${basePath}/`)
     ? path
@@ -63,7 +65,7 @@ const overallRating = getReviewOverallScore(review.evaluation);
     </div>
     <p class="review-price-check">Checked {review.price.checked}. Confirm the current price, model and included accessories with the retailer.</p>
     {review.alternatives.length > 0 && (
-      <nav class="review-alternatives" aria-label="Alternative machines">
+      <nav class="review-alternatives" aria-label="Alternative products">
         <h2>Also consider</h2>
         {review.alternatives.map((item) => <a href={pageUrl(item.href)}><strong>{item.name} <span aria-hidden="true">↗</span></strong><span>{item.reason}</span></a>)}
       </nav>

@@ -4,7 +4,7 @@ import BrandLanding from '../components/BrandLanding.astro';
 import a from '../data/pages-a.json';
 import b from '../data/pages-b.json';
 import { brands } from '../data/catalog';
-import { batchReviewSlugs } from '../data/review-registry';
+import { modernReviewSlugs } from '../data/review-registry';
 import { isMigratedLegacyPath, migrateLegacyHtml } from '../lib/legacy-content-migration';
 const all = [...a, ...b];
 export function getStaticPaths(){
@@ -25,7 +25,7 @@ export function getStaticPaths(){
   ]);
   const brandPaths = new Set(brands.map((brand) => brand.path));
   const contentPaths = [...a, ...b]
-    .filter((p) => !reserved.has(p.path) && !brandPaths.has(p.path) && !batchReviewSlugs.has(p.path))
+    .filter((p) => !reserved.has(p.path) && !brandPaths.has(p.path) && !modernReviewSlugs.has(p.path))
     .map((p) => ({
     params: { slug: p.path.replace(/^\/+|\/+$/g, '') },
     props: { page: p },

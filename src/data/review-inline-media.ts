@@ -1,5 +1,6 @@
 import { communityMediaByTheme } from './review-media-community';
 import { productMedia } from './review-media-products';
+import { reviewMediaUpgrades } from './review-media-upgrades';
 import type { ReviewInlineMedia, ReviewMediaSeed } from './review-media-types';
 
 export type { ReviewInlineMedia, ReviewMediaSourceType } from './review-media-types';
@@ -30,5 +31,18 @@ const buildReviewMedia = (seeds: ReviewMediaSeed[], reviewIndex: number): Review
 };
 
 export const reviewInlineMedia: Record<string, ReviewInlineMedia[]> = Object.fromEntries(
-  Object.entries(productMedia).map(([slug, seeds], reviewIndex) => [slug, buildReviewMedia(seeds, reviewIndex)]),
+  [
+    ...Object.entries(productMedia).map(([slug, seeds], reviewIndex) => (
+      [slug, buildReviewMedia(seeds, reviewIndex)] as const
+    )),
+    ...Object.entries(reviewMediaUpgrades).map(([slug, seeds]) => (
+      [
+        slug,
+        seeds.slice(0, 2).map((media, index) => ({
+          ...media,
+          afterSection: index === 0 ? 1 : 5,
+        })),
+      ] as const
+    )),
+  ],
 );

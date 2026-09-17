@@ -5,16 +5,27 @@ import { brevilleCoreReviews } from './reviews/breville-core';
 import { delonghiReviews } from './reviews/delonghi';
 import { prosumerReviews } from './reviews/prosumers';
 import { remainingReviews } from './reviews/remaining';
+import { upgradeGrinderReviews } from './reviews/upgrade-grinders';
+import { ascasoUpgradeReviews } from './reviews/upgrade-ascaso';
+import { bezzeraUpgradeAReviews } from './reviews/upgrade-bezzera-a';
+import { upgradeBezzeraBReviews } from './reviews/upgrade-bezzera-b';
+import { upgradeBezzeraCReviews } from './reviews/upgrade-bezzera-c';
+import {
+  getReviewRouteDefinition,
+  hasValidReviewProductId,
+  type ReviewRouteFamily,
+} from './review-routes';
 
-const expectedBatchSize = 20;
-const reviewSlugPattern = /^\/espresso-machine\/[a-z0-9]+(?:-[a-z0-9]+)*\/$/;
-const reservedProductSlugs = new Set([
-  'beginners', 'breville-bambino', 'built-in-grinder', 'cheap-budget-under-500',
-  'prosumer-under-1000', 'single-boiler', 'small', 'superautomatic', 'without-grinder',
-]);
+const minimumReviewCount = 20;
+const reservedProductSlugs: Partial<Record<ReviewRouteFamily, Set<string>>> = {
+  'espresso-machine': new Set([
+    'beginners', 'breville-bambino', 'built-in-grinder', 'cheap-budget-under-500',
+    'prosumer-under-1000', 'single-boiler', 'small', 'superautomatic', 'without-grinder',
+  ]),
+};
 
-if (manifest.length !== expectedBatchSize) {
-  throw new Error(`Review manifest must contain exactly ${expectedBatchSize} pages; received ${manifest.length}.`);
+if (manifest.length < minimumReviewCount) {
+  throw new Error(`Review manifest must preserve at least ${minimumReviewCount} pages; received ${manifest.length}.`);
 }
 if (new Set(manifest.map((item) => item.slug)).size !== manifest.length) {
   throw new Error('Review manifest contains duplicate slugs.');
@@ -23,14 +34,15 @@ if (new Set(manifest.map((item) => item.productId)).size !== manifest.length) {
   throw new Error('Review manifest contains duplicate product IDs.');
 }
 for (const item of manifest) {
-  if (!reviewSlugPattern.test(item.slug)) {
-    throw new Error(`${item.slug} is not a canonical /espresso-machine/<product>/ review route.`);
+  const route = getReviewRouteDefinition(item.slug);
+  if (!route) {
+    throw new Error(`${item.slug} is not a canonical modern review route.`);
   }
   const routeSegment = item.slug.split('/').filter(Boolean).at(-1);
-  if (routeSegment && reservedProductSlugs.has(routeSegment)) {
-    throw new Error(`${item.slug} collides with an explicit espresso-machine route.`);
+  if (routeSegment && reservedProductSlugs[route.family]?.has(routeSegment)) {
+    throw new Error(`${item.slug} collides with an explicit ${route.family} route.`);
   }
-  if (!/^CD-EM-\d{6}$/.test(item.productId)) {
+  if (!hasValidReviewProductId(item.slug, item.productId)) {
     throw new Error(`${item.slug} has a malformed product ID: ${item.productId}.`);
   }
 }
@@ -41,23 +53,33 @@ const candidates: MachineReviewData[] = [
   ...delonghiReviews,
   ...prosumerReviews,
   ...remainingReviews,
+  ...upgradeGrinderReviews,
+  ...ascasoUpgradeReviews,
+  ...bezzeraUpgradeAReviews,
+  ...upgradeBezzeraBReviews,
+  ...upgradeBezzeraCReviews,
 ];
 const bySlug = new Map(candidates.map((review) => [review.slug, review]));
 
-if (candidates.length !== expectedBatchSize || bySlug.size !== candidates.length) {
-  throw new Error(`Review registry must contain ${expectedBatchSize} unique pages; received ${candidates.length}.`);
+if (candidates.length !== manifest.length || bySlug.size !== candidates.length) {
+  throw new Error(`Review registry must contain one unique candidate for each manifest page; received ${candidates.length} candidates for ${manifest.length} entries.`);
 }
 
-export const batchReviews: MachineReviewData[] = manifest.map((item) => {
+export const modernReviews: MachineReviewData[] = manifest.map((item) => {
   const review = bySlug.get(item.slug);
   if (!review) throw new Error(`Review registry is missing ${item.slug}.`);
   if (review.productId !== item.productId) {
     throw new Error(`${item.slug} uses ${review.productId}; expected ${item.productId}.`);
   }
-  if (review.updated !== '2026-09-15') {
-    throw new Error(`${item.slug} must carry the batch update date 2026-09-15.`);
-  }
   return review;
 });
 
-export const batchReviewSlugs = new Set(batchReviews.map((review) => review.slug));
+export const modernReviewSlugs = new Set(modernReviews.map((review) => review.slug));
+
+export const getModernReviewsByRouteFamily = (family: ReviewRouteFamily) => (
+  modernReviews.filter((review) => getReviewRouteDefinition(review.slug)?.family === family)
+);
+
+// Backward-compatible aliases for integrations that still use the original batch naming.
+export const batchReviews = modernReviews;
+export const batchReviewSlugs = modernReviewSlugs;
