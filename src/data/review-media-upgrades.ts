@@ -303,15 +303,15 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
   ),
   '/espresso-machine/delonghi-dinamica-aroma-bar-ecam359-37-tb/': [
     ...retailerProductMedia(
-      'Ribamundo product listing',
-      'https://web.ribamundotecnologia.es/DELONGHI-8004399333567-en',
+      'Galaxus ECAM359.37.TB product listing',
+      'https://www.galaxus.at/en/s2/product/delonghi-dinamica-aroma-bar-automatic-coffee-makers-16224962',
       [
         {
-          src: 'https://web.ribamundotecnologia.es/image/cache/catalog/products/04565988aba0590c1fa3239a9e9b0e1a1e0f1532_1-1000x1000w.jpg',
+          src: 'https://static01.galaxus.com/productimages/2/5/3/6/6/6/6/1/6/3/9/1/1/5/6/4/7/6/7/0af8fe63-a753-4a43-a0af-45eaee2d2a11_cropped.jpg_720.jpeg',
           alt: "De'Longhi Dinamica Aroma Bar ECAM359.37.TB front view with manual frother",
           caption: 'The exact retailer image shows the screen, direct drink controls, dual coffee outlet and adjustable manual frother that distinguish ECAM359.37.TB from LatteCrema variants.',
-          width: 1000,
-          height: 1000,
+          width: 720,
+          height: 720,
         },
       ],
     ),
@@ -427,15 +427,15 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
   ),
   '/espresso-machine/delonghi-magnifica-esam3000/': [
     ...retailerProductMedia(
-      'Les Numériques ESAM3000.B review',
-      'https://www.lesnumeriques.com/cafetiere-automatique/delonghi-magnifica-esam-3000-b-p24051/test.html',
+      'eMAG ESAM3000.B product listing',
+      'https://www.emag.ro/espressor-automat-de-longhi-magnifica-esam-3000-b-sistem-manual-de-spumare-rasnita-cu-13-setari-1450w-15-bar-1-8-l-negru-esam3000b/pd/EWFKDBBBM/',
       [
         {
-          src: 'https://cdn.lesnumeriques.com/optim/produits/588/24051/delonghi-esam-3000-b_6895bc25b9042baf__400_400.jpg',
+          src: 'https://s13emagst.akamaized.net/products/47/46263/images/res_8d4afb8acd63ef89fc308eec8ce60f46.jpg?hash=C13014935E9F0783A8CF134CA636F68F&height=720&width=720',
           alt: "Black De'Longhi Magnifica ESAM3000.B automatic coffee machine viewed from the front",
           caption: 'The exact-machine review image shows the physical buttons, two rotary dials, dual outlet and manual frother that make the old ESAM workflow unusually direct.',
-          width: 400,
-          height: 400,
+          width: 720,
+          height: 720,
         },
       ],
     ),
