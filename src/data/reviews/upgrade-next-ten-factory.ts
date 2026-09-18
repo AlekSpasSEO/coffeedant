@@ -37,6 +37,7 @@ export type UpgradeReviewProfile = {
   image: string;
   imageAlt: string;
   published: string;
+  updated?: string;
   price: MachineReviewData['price'];
   links: MachineReviewData['links'];
   facts: MachineReviewData['facts'];
@@ -191,7 +192,7 @@ export const buildUpgradeReview = (profile: UpgradeReviewProfile): MachineReview
     image: profile.image,
     imageAlt: profile.imageAlt,
     published: profile.published,
-    updated: UPDATED,
+    updated: profile.updated ?? UPDATED,
     authorNote: `I treated the ${profile.model} as an ownership decision, not a collection of marketing claims. I checked current official material, operating or support documentation, dated price context, independent video evidence, and owner discussions. Coffeedant has not physically tested this machine.`,
     basisDisclosure: 'This is a research-led assessment built from current manufacturer material, manuals and support records, independent reviews and demonstrations, owner discussions, and dated price context. Coffeedant has not physically tested this machine. Scores describe the documented ownership proposition, not measurements made in a Coffeedant lab.',
     price: profile.price,

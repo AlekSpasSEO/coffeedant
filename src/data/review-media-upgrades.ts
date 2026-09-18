@@ -473,6 +473,206 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/delonghi-magnifica-plus/': officialProductMedia(
+    "De'Longhi ECAM320.70.SB product page",
+    'https://www.delonghi.com/en-au/p/magnifica-plus-magnifica-plus-automatic-coffee-machine-ecam320.70.sb/ECAM320.70.SB.html?pid=0132250036',
+    [
+      {
+        src: 'https://dam.delonghi.com/902x902/assets/287244',
+        alt: "De'Longhi Magnifica Plus ECAM320.70.SB touchscreen with personalized drink menu",
+        caption: 'The 3.5-inch full-touch display organizes 18 hot recipes and four profiles, the features that most clearly separate this model from simpler Magnifica machines.',
+        width: 902,
+        height: 902,
+      },
+      {
+        src: 'https://dam.delonghi.com/902x902/assets/276466',
+        alt: "De'Longhi Magnifica Plus LatteCrema Hot milk carafe attached to the machine",
+        caption: 'The removable LatteCrema Hot carafe automates milk delivery, but its lid, tube, selector and outlet remain part of the cleaning routine.',
+        width: 902,
+        height: 902,
+      },
+    ],
+  ),
+  '/espresso-machine/delonghi-magnifica-start/': officialProductMedia(
+    "De'Longhi Philippines ECAM220.22.GB product page",
+    'https://delonghi.ph/products/delonghi-automatic-coffee-machine-magnifica-start-ecam220-22-gb',
+    [
+      {
+        src: 'https://delonghi.ph/cdn/shop/files/1_487e0740-9fcd-40f9-b181-b4262b63d5b0.png?v=1741248694&width=1946',
+        alt: "De'Longhi Magnifica Start ECAM220.22.GB soft-touch coffee controls",
+        caption: 'The direct panel keeps espresso, coffee, Americano and steam close at hand without a screen or user-profile system.',
+        width: 1200,
+        height: 1200,
+      },
+      {
+        src: 'https://delonghi.ph/cdn/shop/files/2_83fdaa0b-1db7-465c-8626-08ad87c8ee5c.png?v=1741248694&width=1946',
+        alt: "De'Longhi Magnifica Start ECAM220.22.GB manual milk frother and coffee outlet",
+        caption: 'ECAM220.22.GB uses a manual frother rather than the automatic carafe fitted to other Magnifica Start suffixes, so milk remains a separate hands-on step.',
+        width: 1200,
+        height: 1200,
+      },
+    ],
+  ),
+  '/espresso-machine/delonghi-primadonna-soul-ecam610/': officialProductMedia(
+    "De'Longhi ECAM610.75.MB product page",
+    'https://www.delonghi.com/en-gb/p/primadonna-soul-primadonna-soul-fully-automatic-coffee-machine-ecam610.75.mb/ECAM610.75.MB.html?pid=0132217062',
+    [
+      {
+        src: 'https://dam.delonghi.com/902x902/assets/287335',
+        alt: "De'Longhi PrimaDonna Soul ECAM610.75.MB 4.3-inch touchscreen drink interface",
+        caption: 'The large onboard display carries normal operation, recipes and five profiles, so the machine does not depend on a phone for daily drinks.',
+        width: 902,
+        height: 902,
+      },
+      {
+        src: 'https://dam.delonghi.com/902x902/assets/202446',
+        alt: "De'Longhi PrimaDonna Soul automatic coffee and LatteCrema milk workflow",
+        caption: 'Official media shows the integrated milk-and-coffee proposition behind the premium price; Bean Adapt guides settings but does not remove the need to taste and adjust.',
+        width: 902,
+        height: 901,
+      },
+    ],
+  ),
+  '/espresso-machine/ecm-casa-v/': retailerProductMedia(
+    'Atlas Power Coffee ECM Casa V listing',
+    'https://www.atlaspowercoffee.co.nz/shop/brew-gear/espresso-machines/ecm-casa-v/',
+    [
+      {
+        src: 'https://www.atlaspowercoffee.co.nz/wp-content/uploads/2021/03/casav1-Copy.jpeg',
+        alt: 'ECM Casa V compact espresso machine viewed from the side with portafilter installed',
+        caption: 'The side view shows how the ring group and portafilter extend beyond the narrow 210 mm body, a clearance detail the width specification alone does not capture.',
+        width: 1500,
+        height: 1757,
+      },
+      {
+        src: 'https://www.atlaspowercoffee.co.nz/wp-content/uploads/2021/03/casav2-Copy.jpeg',
+        alt: 'ECM Casa V steam wand, pump-pressure gauge and front controls',
+        caption: 'Casa V provides a manual wand and front pump-pressure gauge, while temperature remains thermostat-controlled with no PID display.',
+        width: 1500,
+        height: 1618,
+      },
+    ],
+  ),
+  '/espresso-machine/ecm-classika-pid-flow-control/': officialProductMedia(
+    'ECM Classika PID product page',
+    'https://www.ecm.de/en/products/classika-pid/',
+    [
+      {
+        src: 'https://www.ecm.de/wp-content/uploads/2025/05/ECM_Classika_seitlich-768x504-1.jpg',
+        alt: 'ECM Classika PID single-boiler E61 espresso machine viewed from the side',
+        caption: 'The side view shows the deep E61 layout, steam wand, lever and portafilter clearance inside a 250 mm-wide body.',
+        width: 768,
+        height: 504,
+      },
+      {
+        src: 'https://www.ecm.de/wp-content/uploads/2025/05/ECM-Classika_PID-Galerie-04.jpg',
+        alt: 'ECM Classika PID display, pressure gauge and E61 brew controls in use',
+        caption: 'PID temperature and shot timing are standard; ECM flow-control hardware remains an optional accessory or retailer bundle rather than a universal inclusion.',
+        width: 1400,
+        height: 700,
+      },
+    ],
+  ),
+  '/espresso-machine/ecm-mechanika-slim-pid/': officialProductMedia(
+    'ECM Mechanika Slim PID product page',
+    'https://www.ecm.de/en/products/mechanika-slim-pid/',
+    [
+      {
+        src: 'https://www.ecm.de/wp-content/uploads/2025/05/ECM_Mechanika_VI_Slim-PID-seitlich-768x504-1.jpg',
+        alt: 'Current ECM Mechanika Slim PID heat-exchanger machine viewed from the side',
+        caption: 'The side view makes the 445 mm depth, protruding E61 group, steam valve and portafilter working room easier to plan.',
+        width: 768,
+        height: 504,
+      },
+      {
+        src: 'https://www.ecm.de/wp-content/uploads/2025/05/ECM_Mechanika_VI_Slim-PID-Seite-768x504-1.jpg',
+        alt: 'Current ECM Mechanika Slim PID narrow polished body and cup rail',
+        caption: 'At 250 mm wide, the current machine packages a 1.9 L heat exchanger, dual gauges and digital controls into a notably narrow premium chassis.',
+        width: 768,
+        height: 504,
+      },
+    ],
+  ),
+  '/espresso-machine/ecm-mechanika-v-slim/': retailerProductMedia(
+    'Whole Latte Love refurbished Mechanika V Slim listing',
+    'https://www.wholelattelove.com/products/refurbished-ecm-mechanika-v-slim-espresso-machine',
+    [
+      {
+        src: 'https://www.wholelattelove.com/cdn/shop/products/mechanica_slim-seitl-01_mit_tassen_187d25f3-63b2-432a-a300-1f7ba0cc49d1.jpg?v=1614803442&width=1200',
+        alt: 'Legacy ECM Mechanika V Slim viewed from the side with cups on the top rail',
+        caption: 'The legacy V Slim shares the narrow E61 form but has no PID display, shot counter or current-generation preset controls.',
+        width: 1134,
+        height: 1200,
+      },
+      {
+        src: 'https://www.wholelattelove.com/cdn/shop/products/img_0113_1_4fc67b81-1a9d-453a-b57a-752d126f9c4e.jpg?v=1614803442&width=1200',
+        alt: 'Legacy ECM Mechanika V Slim E61 group, dual gauges and manual valves',
+        caption: 'Dual gauges and manual valves support the classic heat-exchanger routine, while used condition and service history remain more important than polished appearance.',
+        width: 1200,
+        height: 800,
+      },
+    ],
+  ),
+  '/espresso-machine/ecm-puristika/': officialProductMedia(
+    'ECM Puristika product page',
+    'https://www.ecm.de/en/products/puristika/',
+    [
+      {
+        src: 'https://www.ecm.de/wp-content/uploads/2024/12/ECM_Puristika_seitlich-links-768x504-1.jpg',
+        alt: 'ECM Puristika espresso-only machine and separate glass water tank viewed from the left',
+        caption: 'The movable 2 L glass reservoir needs its own safe counter position, so the complete station is wider than the 195 mm machine body.',
+        width: 768,
+        height: 504,
+      },
+      {
+        src: 'https://www.ecm.de/wp-content/uploads/2024/12/ECM_Puristika_Wasserauffangschale_offen-768x504-1.jpg',
+        alt: 'ECM Puristika with its compact drip tray opened',
+        caption: 'The compact tray reinforces the one-shot espresso focus and needs regular emptying as group flushing and backflushing add water.',
+        width: 768,
+        height: 504,
+      },
+    ],
+  ),
+  '/espresso-machine/ecm-synchronika/': officialProductMedia(
+    'ECM Synchronika II product page',
+    'https://www.ecm.de/en/products/synchronika-ii/',
+    [
+      {
+        src: 'https://www.ecm.de/wp-content/uploads/2025/04/ECM_Synchronika_II-seitlich-768x504-1.jpg',
+        alt: 'ECM Synchronika II dual-boiler espresso machine viewed from the side',
+        caption: 'The side view shows the substantial 490 mm depth, E61-style group, joystick valves and portafilter clearance that must fit the complete station.',
+        width: 768,
+        height: 504,
+      },
+      {
+        src: 'https://www.ecm.de/wp-content/uploads/2025/04/ECM_Synchronika_II-Innenleben-seitlich-768x504-1.jpg',
+        alt: 'Internal side view of the ECM Synchronika II boilers, rotary pump and frame',
+        caption: 'Official internal imagery shows the separate stainless brew and steam boilers, rotary pump and tightly organized service hardware behind the 30 kg chassis.',
+        width: 768,
+        height: 504,
+      },
+    ],
+  ),
+  '/espresso-machine/ecm-technika-v-profi-pid/': retailerProductMedia(
+    'Coffee Machine Warehouse Technika V Pro PID listing',
+    'https://www.coffeemachinewarehouse.co.za/shop/brands/ecm/ecm-technika-v-pro-pid-1-group-stainless-steel/',
+    [
+      {
+        src: 'https://www.coffeemachinewarehouse.co.za/wp-content/uploads/2022/02/Technika-Seite_03.png',
+        alt: 'ECM Technika V Profi PID heat-exchanger machine viewed from the side',
+        caption: 'The side view shows the full E61 depth, manual service valves, portafilter working area and large premium chassis.',
+        width: 4375,
+        height: 3087,
+      },
+      {
+        src: 'https://www.coffeemachinewarehouse.co.za/wp-content/uploads/2022/02/Technika-top.png',
+        alt: 'Top and rear view of the ECM Technika V Profi PID espresso machine',
+        caption: 'The upper view helps plan reservoir access when the machine is not plumbed in; the Profi configuration can also use a properly installed direct-water supply.',
+        width: 4775,
+        height: 3102,
+      },
+    ],
+  ),
   '/grinder/1zpresso-k-ultra/': officialProductMedia(
     '1Zpresso product page',
     'https://1zpresso.coffee/k-ultra/',
