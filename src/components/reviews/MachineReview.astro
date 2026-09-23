@@ -78,7 +78,7 @@ const schema = {
     {
       '@type': 'VideoObject', name: review.video.title, description: review.video.note,
       inLanguage: 'en-US',
-      thumbnailUrl: `https://i.ytimg.com/vi/${review.video.id}/hqdefault.jpg`, uploadDate: review.video.published,
+      thumbnailUrl: `https://img.youtube.com/vi/${review.video.id}/hqdefault.jpg`, uploadDate: review.video.published,
       embedUrl: `https://www.youtube-nocookie.com/embed/${review.video.id}`,
       contentUrl: `https://www.youtube.com/watch?v=${review.video.id}`,
     },
@@ -186,7 +186,7 @@ const schema = {
         <div class="review-section-body">
           <div class="review-video" data-review-video={review.video.id}>
             <button class="review-video-poster" type="button" aria-label={`Play ${review.video.title}`}>
-              <img src={`https://i.ytimg.com/vi/${review.video.id}/hqdefault.jpg`} alt="" width="480" height="360" loading="lazy" decoding="async" />
+              <img src={`https://img.youtube.com/vi/${review.video.id}/hqdefault.jpg`} alt="" width="480" height="360" loading="lazy" decoding="async" />
               <span class="review-play" aria-hidden="true">▶</span><span class="review-video-label">Play video</span>
             </button>
             <div class="review-video-copy">
