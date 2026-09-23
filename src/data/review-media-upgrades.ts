@@ -33,6 +33,28 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/coffee-machine/k-duo-plus/': [
+    ...retailerProductMedia(
+      'Walmart K-Duo Plus product page',
+      'https://www.walmart.com/ip/Keurig-K-Duo-Plus-Single-Serve-Carafe-Coffee-Maker/629084823',
+      [{
+        src: 'https://i5.walmartimages.com/asr/6898a910-fe19-4671-8724-dede84ddd375.cef13c0c0ee359a8851e4d1dedb36eb0.jpeg',
+        alt: 'Keurig K-Duo Plus product image showing reservoir placement and brewer dimensions',
+        caption: 'The product-listing diagram helps explain the movable tank and narrow body; measure the full footprint in the chosen position.',
+        width: 2200, height: 2200,
+      }],
+    ),
+    ...retailerProductMedia(
+      'Best Buy K-Duo Plus model 5000204978 product gallery',
+      'https://www.bestbuy.com/product/keurig-k-duo-plus-12-cup-coffee-maker-and-single-serve-k-cup-brewer-black/JX72HWGGTZ',
+      [{
+        src: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6355/6355732cv11d.jpg',
+        alt: 'Keurig K-Duo Plus thermal-carafe brewer in a product-gallery view',
+        caption: 'Retailer product media shows the Plus form factor and carafe rather than a Coffeedant test setup; the listing was sold out when checked.',
+        width: 3000, height: 5067,
+      }],
+    ),
+  ],
   '/espresso-machine/gaggia-velasca-ri8260-3/': officialProductMedia(
     'Gaggia North America Velasca product page',
     'https://www.gaggia-na.com/products/gaggia-velasca',
