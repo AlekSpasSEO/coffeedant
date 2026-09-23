@@ -7,7 +7,7 @@ const { video } = Astro.props as { video: MachineReviewData['video'] };
 <div class="review-video" data-video={video.id}>
   <button class="review-video-poster" type="button" aria-label={`Play ${video.title}`}>
     <img
-      src={`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`}
+      src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
       alt=""
       width="480"
       height="360"
@@ -43,4 +43,3 @@ const { video } = Astro.props as { video: MachineReviewData['video'] };
     }, { once: true });
   });
 </script>
-
