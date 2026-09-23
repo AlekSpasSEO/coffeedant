@@ -109,4 +109,12 @@ const profile: UpgradeReviewProfile = {
   video: { id: 'snkES99AKdc', title: 'KRUPS Arabica Digital After 3 Years of Daily Use Review', creator: 'DavidInFrance Reviews', published: '2025-12-08', note: 'Independent exact-EA817040 owner account with disclosed Amazon affiliate link; individual experience and historical price, not Coffeedant testing or a current offer.' },
 };
 
-export const upgradeKrupsArabicaDigitalReviews: MachineReviewData[] = [buildUpgradeReview(profile)];
+const review = buildUpgradeReview(profile);
+export const upgradeKrupsArabicaDigitalReviews: MachineReviewData[] = [{
+  ...review,
+  alternatives: [
+    { name: 'Krups Arabica Manual EA811040/EA811840', reason: 'Choose the simpler Arabica controls if saved digital favourites would go unused.', href: '/espresso-machine/krups-arabica-manual-ea811040-ea811840/' },
+    { name: 'De’Longhi Magnifica Evo', reason: 'Compare an owner-removable brew group, while checking the exact UK milk configuration.', href: '/espresso-machine/delonghi-magnifica-evo/' },
+    { name: 'Gaggia Anima', reason: 'Compare owner brew-group access and a separate pannarello milk routine.', href: '/espresso-machine/gaggia-anima/' },
+  ],
+}];
