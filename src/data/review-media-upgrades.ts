@@ -1014,16 +1014,16 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
     ],
   ),
   '/espresso-machine/flair-neo-flex/': [
-    ...officialProductMedia(
-      'Flair NEO Flex product page',
-      'https://flairespresso.com/products/neo-flex-refurbished',
+    ...retailerProductMedia(
+      'Shift Coffee NEO Flex product page',
+      'https://shift.cafe/products/flair-neo-flex-black-v2-espresso-maker',
       [
         {
-          src: 'https://flairespresso.com/wp-content/uploads/2023/04/neo_flex_2024_product_shot_woo.jpg',
-          alt: 'Black 2024 Flair NEO Flex with pressure gauge and thin brew cylinder',
-          caption: 'The full view identifies the current gauge, thin cylinder and polycarbonate frame that separate this revision from the original NEO Flex.',
-          width: 1200,
-          height: 1200,
+          src: 'https://shift.cafe/cdn/shop/files/neo_flex_2024_product_shot_carrying_case_woo.png?v=1765503815&width=416',
+          alt: 'Black 2024 Flair NEO Flex beside its fitted carrying case',
+          caption: 'The full view identifies the current gauge, thin cylinder, polycarbonate frame and fitted storage option for this revision.',
+          width: 416,
+          height: 416,
         },
       ],
     ),
