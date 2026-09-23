@@ -33,6 +33,24 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/krups-evidence-eco-design-ea897b40/': officialProductMedia(
+    'Krups UK EA897B40 product gallery',
+    'https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/EVIDENCE-ECO-DESIGN---Black/p/8010001175',
+    [
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3w0MTg5MDl8aW1hZ2UvanBlZ3xhVzFoWjJWekwyaGhOeTlvWldRdk1qWTRPRGMxTVRjME1EVXlNVFF8M2E4N2YzMGU5MzI0OGMxMDE3NjAxM2FjYWUxMDhkYjc4OTg2MTY1NWJmNDIzNmIwOGZmYWVjZTRlZWFkNTcxOA',
+        alt: 'Krups manufacturer lifestyle photograph of the Evidence Eco-Design EA897B40',
+        caption: 'The official EA897B40 gallery illustrates the machine in use; this is manufacturer media and not Coffeedant testing.',
+        width: 700, height: 700,
+      },
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3w1NDI3NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU9TOW9OMlV2TWprMU5ETXpNamN3TURZM05UQXwzODMzOTI4MDcwNzVmMmNkNjlhMTY5M2Y0NmMwMGVhOWI0ZDJiMjAxMDFlNjRhZDEyZmQ4YWE3OWZlZWI5MjVm',
+        alt: 'Second official Krups EA897B40 product lifestyle photograph',
+        caption: 'Manufacturer gallery image of the UK article; environmental percentages and milk performance are assessed from documentation and attributed independent evaluation.',
+        width: 700, height: 700,
+      },
+    ],
+  ),
   '/espresso-machine/krups-arabica-manual-ea811040-ea811840/': officialProductMedia(
     'Krups UK black EA811040 product gallery',
     'https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/Arabica-Manual-EA811040-Espresso-Bean-to-Cup-Coffee-Machine-Black/p/8010000003',
