@@ -981,4 +981,104 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/gaggia-anima/': officialProductMedia(
+    'Gaggia North America Anima product page',
+    'https://www.gaggia-na.com/products/gaggia-anima',
+    [
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/products/5922_original_anima_control_display_868_0e2b7542-f628-4d39-8554-8a6a09752285_grande.jpg?v=1571330962',
+        alt: 'Gaggia Anima physical controls and blue status display',
+        caption: 'The control close-up shows the direct espresso, lungo, aroma, steam, hot-water and menu workflow without a recipe touchscreen.',
+        width: 600,
+        height: 600,
+      },
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/products/SquareLifestyle-1200x1200-Gaggia-Anima-r2_grande.jpg?v=1571330975',
+        alt: 'Gaggia Anima on a kitchen counter beside two coffee cups',
+        caption: 'The kitchen view puts the narrow body, tall cup outlet, pannarello wand and required front working space into context.',
+        width: 600,
+        height: 600,
+      },
+    ],
+  ),
+  '/espresso-machine/gaggia-anima-deluxe/': retailerProductMedia(
+    'Whole Latte Love refurbished Anima Deluxe product page',
+    'https://www.wholelattelove.com/products/refurbished-gaggia-anima-deluxe-super-automatic-espresso-machine',
+    [
+      {
+        src: 'https://www.wholelattelove.com/cdn/shop/products/6037_original_img_9284.jpg?v=1536331814&width=1200',
+        alt: 'Gaggia Anima Deluxe from the front-left with Cappuccinatore attached',
+        caption: 'The angled view identifies the silver front, tall spouts and tube-fed Cappuccinatore that separate Deluxe from the pannarello and carafe versions.',
+        width: 1200,
+        height: 1200,
+      },
+      {
+        src: 'https://www.wholelattelove.com/cdn/shop/products/6038_original_img_9246.jpg?v=1536331814&width=1200',
+        alt: 'Gaggia Anima Deluxe automatic milk frother dispensing into a cup',
+        caption: 'The working view shows the separate milk tube and cup placement that make cleaning and container routing part of the daily workflow.',
+        width: 1200,
+        height: 1200,
+      },
+    ],
+  ),
+  '/espresso-machine/gaggia-anima-prestige/': officialProductMedia(
+    'Gaggia North America Anima Prestige product page',
+    'https://www.gaggia-na.com/products/gaggia-anima-prestige',
+    [
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/products/5941_original_anima_prestige_frothing_milk_877_e469703c-2695-4b48-a105-ed273f8da6b4_grande.jpg?v=1571331690',
+        alt: 'Gaggia Anima Prestige dispensing frothed milk from its integrated carafe',
+        caption: 'The milk-drink view shows the defining removable carafe, adjustable outlet and cup clearance in the one-touch sequence.',
+        width: 600,
+        height: 600,
+      },
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/products/5937_original_anima_prestige_brew_group_img_0124_5f4a30a0-1ac5-46e7-91c5-26fb8bf3204d_grande.jpg?v=1571331690',
+        alt: 'Removable brew group beside the Gaggia Anima Prestige service door',
+        caption: 'The service view makes owner access to the automatic brew group visible, a benefit that still requires routine rinsing and correct reinsertion.',
+        width: 600,
+        height: 600,
+      },
+    ],
+  ),
+  '/espresso-machine/gaggia-babila-ri9700/': retailerProductMedia(
+    'Whole Latte Love refurbished Babila product page',
+    'https://www.wholelattelove.com/products/refurbished-gaggia-babila-one-touch-coffee-and-espresso-machine',
+    [
+      {
+        src: 'https://www.wholelattelove.com/cdn/shop/products/babila_-_front.jpg?v=1680615843&width=1200',
+        alt: 'Stainless Gaggia Babila RI9700 with milk carafe installed',
+        caption: 'The full front view identifies the color display, integrated carafe, adjustable coffee outlet and stainless cabinet of the legacy RI9700 platform.',
+        width: 1200,
+        height: 1200,
+      },
+      {
+        src: 'https://www.wholelattelove.com/cdn/shop/products/babila_-_control_panel_1.jpg?v=1536332152&width=1200',
+        alt: 'Gaggia Babila color display and physical beverage controls',
+        caption: 'The control-panel view shows the menu-led interface and physical drink keys that distinguish Babila from the newer Accademia touchscreen.',
+        width: 1200,
+        height: 1200,
+      },
+    ],
+  ),
+  '/espresso-machine/gaggia-cadorna-barista-plus-ri9603-47/': officialProductMedia(
+    'Gaggia North America Cadorna Barista Plus product page',
+    'https://www.gaggia-na.com/products/gaggia-cadorna-barista-plus',
+    [
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/products/StainlessPannarello_IMG_0214_01_grande.jpg?v=1592517142',
+        alt: 'Two-hole stainless steam wand on the Gaggia Cadorna Barista Plus',
+        caption: 'The wand detail shows the insulated grip and two-hole tip that give Cadorna Barista Plus its manual milk-texturing role.',
+        width: 600,
+        height: 600,
+      },
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/products/IntuitiveInterface_IMG_0206_01_grande.jpg?v=1592517142',
+        alt: 'Full-color interface on the Gaggia Cadorna Barista Plus',
+        caption: 'The interface view shows the color menu and profile-led drink selection that organize coffee before the separate manual milk step.',
+        width: 600,
+        height: 600,
+      },
+    ],
+  ),
 };
