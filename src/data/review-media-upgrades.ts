@@ -33,6 +33,24 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/krups-arabica-manual-ea811040-ea811840/': officialProductMedia(
+    'Krups UK black EA811040 product gallery',
+    'https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/Arabica-Manual-EA811040-Espresso-Bean-to-Cup-Coffee-Machine-Black/p/8010000003',
+    [
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wxOTE5NzJ8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZzJZUzlvTXpBdk1qWTRPRGN4TWpBeU5UY3dOVFF8YTBjMzE1ZDlkYTVlOGY2YTUxN2NjNTA1OTdhOWMzZTU3ODhjMDQ0YjIwMzZjNzBhZjU0ZWQ2ZGY0OWQzYmZiMg',
+        alt: 'Manufacturer view of black Krups EA811040 Arabica Manual housing and front controls',
+        caption: 'Official black EA811040 product image helps locate its physical coffee buttons and rotary dial; this is not a Coffeedant test photograph.',
+        width: 566, height: 700,
+      },
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wyNjQ3Mjd8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZ3dZaTlvTTJVdk1qWTRPRGN4TWpBMk5UQXlOekF8ZmE1ODNlMTE4ODg4MTIyMjkzOTc5MWEwOTViNGQ5MzU3ODNmMjUwMTk4MjU3NDc4ZThkZjU3MDg0MTg0YjEwYw',
+        alt: 'Krups manufacturer gallery image showing the black EA811040 control and steam layout',
+        caption: 'The UK manufacturer gallery illustrates the manual milk and button-led coffee workflow; recipes and results have not been measured by Coffeedant.',
+        width: 700, height: 700,
+      },
+    ],
+  ),
   '/espresso-machine/krups-arabica-digital-ea817040/': officialProductMedia(
     'Krups UK EA817040 product gallery',
     'https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/Arabica-Digital-Bean-to-Cup-Coffee-Machine---Black/p/8010000001',
