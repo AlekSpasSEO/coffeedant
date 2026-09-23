@@ -1,62 +1,262 @@
 [
-  { "slug": "/espresso-machine/breville-barista-express-bes870xl/", "productId": "CD-EM-000062" },
-  { "slug": "/espresso-machine/nespresso-vertuo-plus/", "productId": "CD-EM-000057" },
-  { "slug": "/espresso-machine/breville-barista-pro-bes878/", "productId": "CD-EM-000048" },
-  { "slug": "/espresso-machine/delonghi-dedica/", "productId": "CD-EM-000012" },
-  { "slug": "/espresso-machine/breville-barista-express-impress-bes876/", "productId": "CD-EM-000053" },
-  { "slug": "/espresso-machine/rancilio-silvia/", "productId": "CD-EM-000011" },
-  { "slug": "/espresso-machine/breville-dual-boiler-bes920xl/", "productId": "CD-EM-000070" },
-  { "slug": "/espresso-machine/breville-barista-touch-bes880bss/", "productId": "CD-EM-000122" },
-  { "slug": "/espresso-machine/la-marzocco-linea-mini/", "productId": "CD-EM-000060" },
-  { "slug": "/espresso-machine/delonghi-la-specialista-arte/", "productId": "CD-EM-000063" },
-  { "slug": "/espresso-machine/lelit-bianca-pl162t/", "productId": "CD-EM-000026" },
-  { "slug": "/espresso-machine/delonghi-magnifica-evo/", "productId": "CD-EM-000002" },
-  { "slug": "/espresso-machine/rocket-appartamento-tca/", "productId": "CD-EM-000086" },
-  { "slug": "/espresso-machine/breville-oracle-touch-bes990/", "productId": "CD-EM-000019" },
-  { "slug": "/espresso-machine/philips-3200-lattego/", "productId": "CD-EM-000105" },
-  { "slug": "/espresso-machine/9barista-mk2/", "productId": "CD-EM-000108" },
-  { "slug": "/espresso-machine/gaggia-brera-ri9305/", "productId": "CD-EM-000130" },
-  { "slug": "/espresso-machine/la-marzocco-linea-micra/", "productId": "CD-EM-000004" },
-  { "slug": "/espresso-machine/lelit-elizabeth/", "productId": "CD-EM-000001" },
-  { "slug": "/espresso-machine/delonghi-eletta-explore-ecam450/", "productId": "CD-EM-000039" },
-  { "slug": "/grinder/1zpresso-k-ultra/", "productId": "CD-GR-000001" },
-  { "slug": "/grinder/baratza-encore-esp/", "productId": "CD-GR-000002" },
-  { "slug": "/espresso-machine/ascaso-steel-duo-pid/", "productId": "CD-EM-000050" },
-  { "slug": "/espresso-machine/ascaso-steel-uno/", "productId": "CD-EM-000071" },
-  { "slug": "/espresso-machine/bezzera-bz09/", "productId": "CD-EM-000022" },
-  { "slug": "/espresso-machine/bezzera-bz10/", "productId": "CD-EM-000051" },
-  { "slug": "/espresso-machine/bezzera-bz13-pid/", "productId": "CD-EM-000069" },
-  { "slug": "/espresso-machine/bezzera-duo-mn/", "productId": "CD-EM-000052" },
-  { "slug": "/espresso-machine/bezzera-hobby/", "productId": "CD-EM-000076" },
-  { "slug": "/espresso-machine/bezzera-mitica-top-pid/", "productId": "CD-EM-000037" },
-  { "slug": "/espresso-machine/bezzera-strega/", "productId": "CD-EM-000131" },
-  { "slug": "/espresso-machine/bezzera-unica-pid/", "productId": "CD-EM-000132" },
-  { "slug": "/espresso-machine/bosch-300-series-verocafe-tiu20307/", "productId": "CD-EM-000133" },
-  { "slug": "/espresso-machine/bosch-500-series-verocafe-tpu40109/", "productId": "CD-EM-000134" },
-  { "slug": "/espresso-machine/bosch-800-series/", "productId": "CD-EM-000135" },
-  { "slug": "/espresso-machine/breville-barista-touch-impress-bes881/", "productId": "CD-EM-000136" },
-  { "slug": "/espresso-machine/breville-dynamic-duo-bep920/", "productId": "CD-EM-000137" },
-  { "slug": "/coffee-machine/breville-luxe-brewer-thermal-bdc465/", "productId": "CD-CM-000001" },
-  { "slug": "/espresso-machine/breville-oracle-bes980x/", "productId": "CD-EM-000138" },
-  { "slug": "/espresso-machine/breville-oracle-jet-bes985/", "productId": "CD-EM-000139" },
-  { "slug": "/espresso-machine/cafelat-robot-barista/", "productId": "CD-EM-000140" },
-  { "slug": "/espresso-machine/crem-one-hx-pid-wt-wc/", "productId": "CD-EM-000141" },
-  { "slug": "/espresso-machine/dalla-corte-mina/", "productId": "CD-EM-000142" },
-  { "slug": "/espresso-machine/delonghi-dinamica-aroma-bar-ecam359-37-tb/", "productId": "CD-EM-000143" },
-  { "slug": "/espresso-machine/delonghi-dinamica-plus-ecam370/", "productId": "CD-EM-000144" },
-  { "slug": "/espresso-machine/delonghi-dinamica-plus-ecam38085sb/", "productId": "CD-EM-000145" },
-  { "slug": "/espresso-machine/delonghi-ecp3420/", "productId": "CD-EM-000146" },
-  { "slug": "/espresso-machine/delonghi-la-specialista-prestigio/", "productId": "CD-EM-000147" },
-  { "slug": "/espresso-machine/delonghi-magnifica-esam3000/", "productId": "CD-EM-000148" },
-  { "slug": "/espresso-machine/delonghi-magnifica-evo-next/", "productId": "CD-EM-000149" },
-  { "slug": "/espresso-machine/delonghi-magnifica-plus/", "productId": "CD-EM-000150" },
-  { "slug": "/espresso-machine/delonghi-magnifica-start/", "productId": "CD-EM-000151" },
-  { "slug": "/espresso-machine/delonghi-primadonna-soul-ecam610/", "productId": "CD-EM-000152" },
-  { "slug": "/espresso-machine/ecm-casa-v/", "productId": "CD-EM-000153" },
-  { "slug": "/espresso-machine/ecm-classika-pid-flow-control/", "productId": "CD-EM-000154" },
-  { "slug": "/espresso-machine/ecm-mechanika-slim-pid/", "productId": "CD-EM-000155" },
-  { "slug": "/espresso-machine/ecm-mechanika-v-slim/", "productId": "CD-EM-000156" },
-  { "slug": "/espresso-machine/ecm-puristika/", "productId": "CD-EM-000157" },
-  { "slug": "/espresso-machine/ecm-synchronika/", "productId": "CD-EM-000158" },
-  { "slug": "/espresso-machine/ecm-technika-v-profi-pid/", "productId": "CD-EM-000159" }
+  {
+    "slug": "/espresso-machine/breville-barista-express-bes870xl/",
+    "productId": "CD-EM-000062"
+  },
+  {
+    "slug": "/espresso-machine/nespresso-vertuo-plus/",
+    "productId": "CD-EM-000057"
+  },
+  {
+    "slug": "/espresso-machine/breville-barista-pro-bes878/",
+    "productId": "CD-EM-000048"
+  },
+  {
+    "slug": "/espresso-machine/delonghi-dedica/",
+    "productId": "CD-EM-000012"
+  },
+  {
+    "slug": "/espresso-machine/breville-barista-express-impress-bes876/",
+    "productId": "CD-EM-000053"
+  },
+  {
+    "slug": "/espresso-machine/rancilio-silvia/",
+    "productId": "CD-EM-000011"
+  },
+  {
+    "slug": "/espresso-machine/breville-dual-boiler-bes920xl/",
+    "productId": "CD-EM-000070"
+  },
+  {
+    "slug": "/espresso-machine/breville-barista-touch-bes880bss/",
+    "productId": "CD-EM-000122"
+  },
+  {
+    "slug": "/espresso-machine/la-marzocco-linea-mini/",
+    "productId": "CD-EM-000060"
+  },
+  {
+    "slug": "/espresso-machine/delonghi-la-specialista-arte/",
+    "productId": "CD-EM-000063"
+  },
+  {
+    "slug": "/espresso-machine/lelit-bianca-pl162t/",
+    "productId": "CD-EM-000026"
+  },
+  {
+    "slug": "/espresso-machine/delonghi-magnifica-evo/",
+    "productId": "CD-EM-000002"
+  },
+  {
+    "slug": "/espresso-machine/rocket-appartamento-tca/",
+    "productId": "CD-EM-000086"
+  },
+  {
+    "slug": "/espresso-machine/breville-oracle-touch-bes990/",
+    "productId": "CD-EM-000019"
+  },
+  {
+    "slug": "/espresso-machine/philips-3200-lattego/",
+    "productId": "CD-EM-000105"
+  },
+  {
+    "slug": "/espresso-machine/9barista-mk2/",
+    "productId": "CD-EM-000108"
+  },
+  {
+    "slug": "/espresso-machine/gaggia-brera-ri9305/",
+    "productId": "CD-EM-000130"
+  },
+  {
+    "slug": "/espresso-machine/la-marzocco-linea-micra/",
+    "productId": "CD-EM-000004"
+  },
+  {
+    "slug": "/espresso-machine/lelit-elizabeth/",
+    "productId": "CD-EM-000001"
+  },
+  {
+    "slug": "/espresso-machine/delonghi-eletta-explore-ecam450/",
+    "productId": "CD-EM-000039"
+  },
+  {
+    "slug": "/grinder/1zpresso-k-ultra/",
+    "productId": "CD-GR-000001"
+  },
+  {
+    "slug": "/grinder/baratza-encore-esp/",
+    "productId": "CD-GR-000002"
+  },
+  {
+    "slug": "/espresso-machine/ascaso-steel-duo-pid/",
+    "productId": "CD-EM-000050"
+  },
+  {
+    "slug": "/espresso-machine/ascaso-steel-uno/",
+    "productId": "CD-EM-000071"
+  },
+  {
+    "slug": "/espresso-machine/bezzera-bz09/",
+    "productId": "CD-EM-000022"
+  },
+  {
+    "slug": "/espresso-machine/bezzera-bz10/",
+    "productId": "CD-EM-000051"
+  },
+  {
+    "slug": "/espresso-machine/bezzera-bz13-pid/",
+    "productId": "CD-EM-000069"
+  },
+  {
+    "slug": "/espresso-machine/bezzera-duo-mn/",
+    "productId": "CD-EM-000052"
+  },
+  {
+    "slug": "/espresso-machine/bezzera-hobby/",
+    "productId": "CD-EM-000076"
+  },
+  {
+    "slug": "/espresso-machine/bezzera-mitica-top-pid/",
+    "productId": "CD-EM-000037"
+  },
+  {
+    "slug": "/espresso-machine/bezzera-strega/",
+    "productId": "CD-EM-000131"
+  },
+  {
+    "slug": "/espresso-machine/bezzera-unica-pid/",
+    "productId": "CD-EM-000132"
+  },
+  {
+    "slug": "/espresso-machine/bosch-300-series-verocafe-tiu20307/",
+    "productId": "CD-EM-000133"
+  },
+  {
+    "slug": "/espresso-machine/bosch-500-series-verocafe-tpu40109/",
+    "productId": "CD-EM-000134"
+  },
+  {
+    "slug": "/espresso-machine/bosch-800-series/",
+    "productId": "CD-EM-000135"
+  },
+  {
+    "slug": "/espresso-machine/breville-barista-touch-impress-bes881/",
+    "productId": "CD-EM-000136"
+  },
+  {
+    "slug": "/espresso-machine/breville-dynamic-duo-bep920/",
+    "productId": "CD-EM-000137"
+  },
+  {
+    "slug": "/coffee-machine/breville-luxe-brewer-thermal-bdc465/",
+    "productId": "CD-CM-000001"
+  },
+  {
+    "slug": "/espresso-machine/breville-oracle-bes980x/",
+    "productId": "CD-EM-000138"
+  },
+  {
+    "slug": "/espresso-machine/breville-oracle-jet-bes985/",
+    "productId": "CD-EM-000139"
+  },
+  {
+    "slug": "/espresso-machine/cafelat-robot-barista/",
+    "productId": "CD-EM-000140"
+  },
+  {
+    "slug": "/espresso-machine/crem-one-hx-pid-wt-wc/",
+    "productId": "CD-EM-000141"
+  },
+  {
+    "slug": "/espresso-machine/dalla-corte-mina/",
+    "productId": "CD-EM-000142"
+  },
+  {
+    "slug": "/espresso-machine/delonghi-dinamica-aroma-bar-ecam359-37-tb/",
+    "productId": "CD-EM-000143"
+  },
+  {
+    "slug": "/espresso-machine/delonghi-dinamica-plus-ecam370/",
+    "productId": "CD-EM-000144"
+  },
+  {
+    "slug": "/espresso-machine/delonghi-dinamica-plus-ecam38085sb/",
+    "productId": "CD-EM-000145"
+  },
+  {
+    "slug": "/espresso-machine/delonghi-ecp3420/",
+    "productId": "CD-EM-000146"
+  },
+  {
+    "slug": "/espresso-machine/delonghi-la-specialista-prestigio/",
+    "productId": "CD-EM-000147"
+  },
+  {
+    "slug": "/espresso-machine/delonghi-magnifica-esam3000/",
+    "productId": "CD-EM-000148"
+  },
+  {
+    "slug": "/espresso-machine/delonghi-magnifica-evo-next/",
+    "productId": "CD-EM-000149"
+  },
+  {
+    "slug": "/espresso-machine/delonghi-magnifica-plus/",
+    "productId": "CD-EM-000150"
+  },
+  {
+    "slug": "/espresso-machine/delonghi-magnifica-start/",
+    "productId": "CD-EM-000151"
+  },
+  {
+    "slug": "/espresso-machine/delonghi-primadonna-soul-ecam610/",
+    "productId": "CD-EM-000152"
+  },
+  {
+    "slug": "/espresso-machine/ecm-casa-v/",
+    "productId": "CD-EM-000153"
+  },
+  {
+    "slug": "/espresso-machine/ecm-classika-pid-flow-control/",
+    "productId": "CD-EM-000154"
+  },
+  {
+    "slug": "/espresso-machine/ecm-mechanika-slim-pid/",
+    "productId": "CD-EM-000155"
+  },
+  {
+    "slug": "/espresso-machine/ecm-mechanika-v-slim/",
+    "productId": "CD-EM-000156"
+  },
+  {
+    "slug": "/espresso-machine/ecm-puristika/",
+    "productId": "CD-EM-000157"
+  },
+  {
+    "slug": "/espresso-machine/ecm-synchronika/",
+    "productId": "CD-EM-000158"
+  },
+  {
+    "slug": "/espresso-machine/ecm-technika-v-profi-pid/",
+    "productId": "CD-EM-000159"
+  },
+  {
+    "slug": "/espresso-machine/flair-58/",
+    "productId": "CD-EM-000160"
+  },
+  {
+    "slug": "/espresso-machine/flair-classic/",
+    "productId": "CD-EM-000161"
+  },
+  {
+    "slug": "/espresso-machine/flair-neo-flex/",
+    "productId": "CD-EM-000162"
+  },
+  {
+    "slug": "/espresso-machine/flair-pro-2/",
+    "productId": "CD-EM-000163"
+  },
+  {
+    "slug": "/espresso-machine/gaggia-accademia-ri9781-01/",
+    "productId": "CD-EM-000164"
+  }
 ]

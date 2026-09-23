@@ -873,4 +873,112 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/flair-58/': officialProductMedia(
+    'Flair 58 Plus 2 product page',
+    'https://flairespresso.com/products/flair-58-plus-2',
+    [
+      {
+        src: 'https://flairespresso.com/cdn/shop/files/Flair_58_JointHook_Lifestyle_3_shopify.jpg?crop=center&height=1200&v=1782931719&width=1200',
+        alt: 'Flair 58 Plus 2 lever joint and locking hook',
+        caption: 'The close view identifies the valve-plunger hook, articulated lever joint and working hardware behind the faster fixed-group workflow.',
+        width: 1200,
+        height: 1200,
+      },
+      {
+        src: 'https://flairespresso.com/cdn/shop/files/flair_58_plus_2_lifestyle_9_web.jpg?crop=center&height=1200&v=1776955785&width=1200',
+        alt: 'Flair 58 Plus 2 brewing espresso with the heated group and 58mm portafilter',
+        caption: 'The working view shows the 58mm portafilter, pressure-led lever movement, shot mirror and cup clearance in a complete countertop setup.',
+        width: 1200,
+        height: 1200,
+      },
+    ],
+  ),
+  '/espresso-machine/flair-classic/': officialProductMedia(
+    'Flair Classic product page',
+    'https://flairespresso.com/products/the-flair-classic',
+    [
+      {
+        src: 'https://flairespresso.com/cdn/shop/files/flair_classic_gauge_optimized.jpg?crop=center&height=1200&v=1778256909&width=1200',
+        alt: 'Pressure gauge on the current Flair Classic during extraction',
+        caption: 'The gauge view makes the owner-created pressure feedback visible while keeping the detachable 40mm brew head in context.',
+        width: 1200,
+        height: 1200,
+      },
+      {
+        src: 'https://flairespresso.com/cdn/shop/files/flair_classic_fcpf_woo_brew_optimized.jpg?crop=center&height=1120&v=1784821468&width=1120',
+        alt: 'Flair Classic brewing through the red Flow-Control portafilter',
+        caption: 'The red Flow-Control portafilter is the more forgiving current path before a buyer moves to the bottomless basket and a more precise grinder.',
+        width: 1120,
+        height: 1120,
+      },
+    ],
+  ),
+  '/espresso-machine/flair-neo-flex/': [
+    ...officialProductMedia(
+      'Flair NEO Flex product page',
+      'https://flairespresso.com/products/neo-flex-refurbished',
+      [
+        {
+          src: 'https://flairespresso.com/wp-content/uploads/2023/04/neo_flex_2024_product_shot_woo.jpg',
+          alt: 'Black 2024 Flair NEO Flex with pressure gauge and thin brew cylinder',
+          caption: 'The full view identifies the current gauge, thin cylinder and polycarbonate frame that separate this revision from the original NEO Flex.',
+          width: 1200,
+          height: 1200,
+        },
+      ],
+    ),
+    ...retailerProductMedia(
+      'Cafeteca NEO Flex product page',
+      'https://cafeteca.ro/en/products/flair-espresso-neo-flex',
+      [
+        {
+          src: 'https://cafeteca.ro/cdn/shop/files/flex_new_cylinder_v2_woo.jpg?crop=center&height=1200&v=1764687333&width=1200',
+          alt: 'Flair NEO Flex lever being pressed during espresso extraction',
+          caption: 'The working view shows hand position, frame loading, head clearance and the compact footprint during a manual pull.',
+          width: 1200,
+          height: 1200,
+        },
+      ],
+    ),
+  ],
+  '/espresso-machine/flair-pro-2/': retailerProductMedia(
+    'iDrinkCoffee and 4Barista PRO 2 product pages',
+    'https://idrinkcoffee.com/products/flair-pro-2-manual-espresso-maker-black',
+    [
+      {
+        src: 'https://cdn.shopify.com/s/files/1/1201/3604/products/PRO_2_black_hero_grey_mottled_copped_square_woo.jpg?v=1618337126',
+        alt: 'Black Flair PRO 2 complete manual espresso maker',
+        caption: 'The full-machine view supports a used-buyer inventory of the frame, lever, gauge, detachable head, portafilter base and tray.',
+        width: 1200,
+        height: 1200,
+      },
+      {
+        src: 'https://www.4barista.cz/image/catalog/flair-espresso/flair-pro2-white-22.jpg',
+        alt: 'White Flair PRO 2 showing its detachable head, gauge and portafilter base',
+        caption: 'The alternate-finish view makes the legacy PRO 2 head, gauge guard and copper-colored portafilter base easier to identify.',
+        width: 1200,
+        height: 1200,
+      },
+    ],
+  ),
+  '/espresso-machine/gaggia-accademia-ri9781-01/': officialProductMedia(
+    'Gaggia Accademia product page',
+    'https://accademia.gaggia.com/italian-masterful-design/',
+    [
+      {
+        src: 'https://accademia.gaggia.com/app/uploads/2022/10/Vetro.png',
+        alt: 'Gaggia Accademia Glass with black mirror glass facade',
+        caption: 'The full model view identifies the black mirror glass front that separates RI9781/01 from the stainless Accademia variant.',
+        width: 1024,
+        height: 1024,
+      },
+      {
+        src: 'https://accademia.gaggia.com/app/uploads/2022/09/milk-carafe-240x240-1.jpg',
+        alt: 'Integrated milk carafe for the Gaggia Accademia',
+        caption: 'The carafe detail supports the one-touch milk workflow that sits alongside the separate professional steam wand.',
+        width: 240,
+        height: 240,
+      },
+    ],
+  ),
 };
