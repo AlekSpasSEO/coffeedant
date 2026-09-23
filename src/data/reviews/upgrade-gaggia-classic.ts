@@ -10,6 +10,7 @@ type ClassicConfig = {
   exactIdentity: string; architecture: string; brew: string; milk: string;
   controls: string; capacity: string; dimensions: string;
   strength: string; limit: string;
+  portafilter?: string; pidAnswer?: string;
   videoId: string; videoTitle: string; videoCreator: string; videoDate: string;
   independent: string; owner: string; rating: [number, number, number, number, number, number];
 };
@@ -29,7 +30,11 @@ const makeProfile = (p: ClassicConfig): UpgradeReviewProfile => ({
   brand: 'Gaggia',
   model: p.model,
   sku: p.sku,
-  category: p.model.includes('GT') ? 'Dual-boiler prosumer espresso machine' : 'Single-boiler semi-automatic espresso machine',
+  category: p.model.includes('GT')
+    ? 'Dual-boiler prosumer espresso machine'
+    : p.model.includes('Espresso Evolution')
+      ? 'PID-controlled manual espresso machine'
+      : 'Single-boiler semi-automatic espresso machine',
   brandPath: '/gaggia/',
   title: p.title,
   description: p.description,
@@ -53,20 +58,20 @@ const makeProfile = (p: ClassicConfig): UpgradeReviewProfile => ({
     { label: 'Controls', value: p.controls },
     { label: 'Capacity', value: p.capacity },
     { label: 'Dimensions', value: p.dimensions },
-    { label: 'Coffee setup', value: '58 mm portafilter; capable espresso grinder and scale required' },
+    { label: 'Coffee setup', value: p.portafilter ?? '58 mm portafilter; capable espresso grinder and scale required' },
     { label: 'Service boundary', value: 'Routine cleaning is owner work; boiler, pressure, mains-voltage and internal-water repairs need qualified diagnosis' },
   ],
   quickAnswers: [
     { question: `What exact ${p.model} is reviewed?`, answer: p.exactIdentity },
     { question: 'Does it include a grinder?', answer: 'No. Budget for an espresso-capable grinder, scale and suitable water.' },
-    { question: 'What portafilter does it use?', answer: 'A 58 mm professional-style portafilter, with included baskets depending on region and revision.' },
+    { question: 'What portafilter does it use?', answer: p.portafilter ?? 'A 58 mm professional-style portafilter, with included baskets depending on region and revision.' },
     { question: 'Can it brew and steam together?', answer: p.model.includes('GT') ? 'Yes. Separate brew and steam boilers allow overlapping work.' : 'No. The single dual-use boiler changes temperature between brewing and steaming.' },
-    { question: 'Is a PID included?', answer: p.model.includes('GT') ? 'Yes. Brew and steam boilers have separate adjustable PID control.' : 'No. Stock temperature control uses thermostats rather than a user-set PID.' },
+    { question: 'Is a PID included?', answer: p.pidAnswer ?? (p.model.includes('GT') ? 'Yes. Brew and steam boilers have separate adjustable PID control.' : 'No. Stock temperature control uses thermostats rather than a user-set PID.') },
     { question: 'Who should buy it?', answer: `A buyer who values ${p.strength.toLowerCase()} and accepts ${p.limit.toLowerCase()}` },
   ],
   bestFor: [p.strength, 'A buyer who already budgets for a capable grinder', 'Hands-on espresso preparation and immediate wand cleaning'],
   avoidIf: [p.limit, 'You want bean-to-cup automation', 'You will not verify the exact generation before buying'],
-  pros: [p.strength, '58 mm accessory ecosystem', p.controls, 'Documented service and parts context'],
+  pros: [p.strength, p.portafilter ?? '58 mm accessory ecosystem', p.controls, 'Documented service and parts context'],
   cons: [p.limit, 'Separate grinder is required', 'Puck preparation remains manual', 'Generation names are easy to blur in listings'],
   architecture: p.architecture.toLowerCase(),
   identityBoundary: p.exactIdentity,
@@ -104,7 +109,7 @@ const makeProfile = (p: ClassicConfig): UpgradeReviewProfile => ({
     { label: 'Barista Hustle water recipe background', href: 'https://www.baristahustle.com/blog/diy-water-recipes-redux/', note: 'Independent water-composition background; the exact Gaggia manual controls machine safety.' },
   ],
   comparisons: [
-    { name: p.model, quickDecision: `Choose for ${p.strength.toLowerCase()}.`, priceClass: p.price, dimensions: p.dimensions, heating: p.architecture, coffeeSetup: '58 mm portafilter plus separate grinder', milkWorkflow: p.milk, bestFor: p.strength },
+    { name: p.model, quickDecision: `Choose for ${p.strength.toLowerCase()}.`, priceClass: p.price, dimensions: p.dimensions, heating: p.architecture, coffeeSetup: p.portafilter ?? '58 mm portafilter plus separate grinder', milkWorkflow: p.milk, bestFor: p.strength },
     { name: 'Gaggia Classic Pro E24', href: '/espresso-machine/gaggia-classic-evo/', quickDecision: 'Choose the current brass-boiler single-boiler route when cost and simplicity matter.', priceClass: '$549 current US reference', dimensions: '8 by 9.5 by 14.2 in official listing order', heating: 'Lead-free brass single dual-use boiler', coffeeSetup: '58 mm portafilter; separate grinder', milkWorkflow: 'Sequential manual steam', bestFor: 'Traditional compact learning platform' },
     { name: 'Gaggia Classic GT', href: '/espresso-machine/gaggia-classic-gt/', quickDecision: 'Choose dual boilers, two PIDs, pressure feedback and pre-infusion when faster control earns the cost.', priceClass: '$1,699 current US reference', dimensions: '10.2 by 16.5 by 16.7 in', heating: 'Brass brew boiler plus stainless steam boiler', coffeeSetup: '58 mm portafilter; separate grinder', milkWorkflow: 'Simultaneous commercial-style wand', bestFor: 'Higher-throughput prosumer workflow' },
   ],
@@ -131,6 +136,19 @@ const makeProfile = (p: ClassicConfig): UpgradeReviewProfile => ({
 });
 
 const products: ClassicConfig[] = [
+  {
+    key: 'gaggia-espresso-evolution-eg2115', slug: '/espresso-machine/gaggia-espresso-evolution-eg2115/', productId: 'CD-EM-000175', model: 'Espresso Evolution EG2115/01', sku: 'EG2115/01 Stone Black, 230V European and UK package',
+    title: 'Gaggia Espresso Evolution EG2115 review: PID control at a verified £199',
+    description: 'A research-led Gaggia Espresso Evolution EG2115/01 review covering its factory PID, double-wall filter holder, Crema XL system, pannarello, £199 UK listing and limits.',
+    image: 'https://www.gaggia.com/app/uploads/2023/10/Espresso-Evolution-Stone-Black-3_4_sx-0001-1.png', imageAlt: 'Stone Black Gaggia Espresso Evolution EG2115 manual espresso machine',
+    official: 'https://www.gaggia.com/manual-machines/espresso-evolution/', manual: 'https://www.gaggia.com/product-search/eg2115-01-espresso-evolution/', priceUrl: 'https://www.gaggiadirect.com/caffitaly-capsule-machines.html', priceLabel: 'Gaggia Direct UK listing', price: '£199.00', priceNumeric: '199.00', priceContext: 'Out-of-stock EG2115/01 listing with five-year parts warranty; availability and bundle can change',
+    exactIdentity: 'Stone Black 230V EG2115/01 with factory PID, pre-infusion, 1.2 L side tank and Crema XL system; it is not a Gaggia Classic or 58 mm platform.',
+    architecture: 'Officially documented stainless-steel boiler, PID, 15-bar pump and pre-infusion', brew: 'ABS and stainless-steel holder with double-wall two-cup and single-cup or ESE-pod filters', milk: 'Classic plastic pannarello; espresso and steaming happen in sequence', controls: 'Backlit buttons and memo volume; no pressure gauge or temperature menu is documented', capacity: '1.2 L side tank; ground coffee and ESE pod support', dimensions: '19.9 W by 25.5 D by 30.3 H cm; 3.7 kg',
+    strength: 'Compact PID-assisted entry-level espresso with simple dosing and a side tank', limit: 'Plastic brew hardware, low cup clearance and a non-58 mm accessory path',
+    portafilter: 'Gaggia ABS and stainless-steel holder with supplied double-wall filters; not 58 mm',
+    pidAnswer: 'Yes. Gaggia documents a factory PID, but no user-adjustable temperature menu or coffee-bed measurement is claimed.',
+    videoId: '5S3_93Qlg1c', videoTitle: 'Gaggia Espresso Evolution Review', videoCreator: 'Whole Latte Love', videoDate: '2024-03-25', independent: 'https://coffeeblog.co.uk/gaggia-espresso-style-deluxe-evolution-review/', owner: 'https://www.reddit.com/r/espresso/comments/190sxry/gaggia_espresso_styledeluxeevolution_2023_first/', rating: [7.1, 6.7, 8.2, 6.2, 7.9, 8.2],
+  },
   {
     key: 'gaggia-classic-evo', slug: '/espresso-machine/gaggia-classic-evo/', productId: 'CD-EM-000172', model: 'Classic Pro E24', sku: 'Current North American Classic Pro E24, 110-120V',
     title: 'Gaggia Classic E24 review: brass-boiler tradition at $549',

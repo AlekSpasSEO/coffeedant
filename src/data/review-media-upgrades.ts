@@ -1181,4 +1181,104 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/gaggia-espresso-evolution-eg2115/': officialProductMedia(
+    'Gaggia Espresso Evolution product page',
+    'https://www.gaggia.com/manual-machines/espresso-evolution/',
+    [
+      {
+        src: 'https://www.gaggia.com/app/uploads/2023/10/Espresso-EVOLUTION-Lava-Red_-Det-_black-BG-0001-2-1.jpg',
+        alt: 'Gaggia Espresso Evolution controls, filter holder and pannarello in Lava Red',
+        caption: 'Official detail media shows the compact backlit controls, tall double-wall filter holder and pannarello layout; color differs from the reviewed Stone Black EG2115/01.',
+        width: 720,
+        height: 960,
+      },
+      {
+        src: 'https://www.gaggia.com/app/uploads/2023/10/Espresso-Evolution-Stone-Black-dett-cup-Bg-black_0003-1-1.jpg',
+        alt: 'Stone Black Gaggia Espresso Evolution brewing into a low espresso cup',
+        caption: 'The official cup view makes the low 76 mm listed working clearance and drip-tray geometry easier to judge before adding a scale.',
+        width: 960,
+        height: 710,
+      },
+    ],
+  ),
+  '/espresso-machine/gaggia-magenta-prestige-ri8702/': officialProductMedia(
+    'Gaggia North America Magenta Prestige product page',
+    'https://www.gaggia-na.com/products/gaggia-magenta-prestige',
+    [
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/products/IntegratedMilkCarafe_01_grande.jpg?v=1620930832',
+        alt: 'Integrated removable milk carafe on the Gaggia Magenta Prestige',
+        caption: 'The carafe detail shows the detachable one-touch milk path that creates the machine’s convenience and its most important cleaning obligation.',
+        width: 600,
+        height: 400,
+      },
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/files/Milk_2_grande.jpg?v=1767903066',
+        alt: 'Gaggia Magenta Prestige dispensing a milk drink from its front outlet',
+        caption: 'Official working media shows the cup, dual outlet and front milk routine; texture still depends on recipe, milk formulation, assembly and cleanliness.',
+        width: 600,
+        height: 417,
+      },
+    ],
+  ),
+  '/espresso-machine/gaggia-naviglio-deluxe-hd8749/': officialProductMedia(
+    'Gaggia Naviglio Deluxe product page',
+    'https://www.gaggia.com/automatic-machines/naviglio-deluxe/',
+    [
+      {
+        src: 'https://www.gaggia.com/app/uploads/2023/07/naviglio-deluxe-desktop-1.jpg',
+        alt: 'Gaggia Naviglio Deluxe in a kitchen with the automatic Cappuccinatore installed',
+        caption: 'The official kitchen view gives useful scale for the 44 cm depth and the external tube-fed milk path beside the front-access machine.',
+        width: 1560,
+        height: 790,
+      },
+      {
+        src: 'https://www.gaggia.com/app/uploads/2023/10/NaviglioDeluxe_1.jpg',
+        alt: 'Gaggia Naviglio Deluxe dispensing milk through its Cappuccinatore',
+        caption: 'The working view separates the Deluxe Cappuccinatore from the base Naviglio pannarello and the Naviglio Milk Capp-in-Cup system.',
+        width: 2000,
+        height: 1335,
+      },
+    ],
+  ),
+  '/espresso-machine/gaggia-naviglio-milk-hd8749-01/': officialProductMedia(
+    'Gaggia Naviglio product page',
+    'https://www.gaggia.com/automatic-machines/naviglio/',
+    [
+      {
+        src: 'https://www.gaggia.com/app/uploads/2023/07/naviglio-desktop-1140x578-1.jpg',
+        alt: 'Black Gaggia Naviglio with its classic pannarello in a kitchen',
+        caption: 'Official media confirms that HD8749/01 belongs to the base black Naviglio workflow with manual pannarello, despite the historical Coffeedant route name.',
+        width: 1140,
+        height: 578,
+      },
+      {
+        src: 'https://www.gaggia.com/app/uploads/2023/07/po_naviglio4_1560x790-1140x578-1.jpg',
+        alt: 'Gaggia Naviglio front controls, coffee outlet and manual steam wand',
+        caption: 'The front working view shows the physical controls, adjustable outlet and separate wand that require moving the cup for milk preparation.',
+        width: 1140,
+        height: 578,
+      },
+    ],
+  ),
+  '/espresso-machine/gaggia-velasca-prestige-ri8263/': officialProductMedia(
+    'Gaggia North America Velasca Prestige product page',
+    'https://www.gaggia-na.com/products/gaggia-velasca-prestige',
+    [
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/products/Optiaroma_IMG_9622_1e751361-2630-4f96-a7c0-2ad493d9ec80_grande.jpg?v=1571323436',
+        alt: 'Optiaroma strength control and display on the Gaggia Velasca Prestige',
+        caption: 'The control detail shows the older physical-button interface used for five aroma levels, drink programming and maintenance prompts.',
+        width: 600,
+        height: 400,
+      },
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/products/velascaprestige_295x295_1_3c8faf28-21b6-4db0-9688-b8328c5bf325_grande.jpg?v=1571323436',
+        alt: 'Gaggia Velasca Prestige with automatic milk carafe attached',
+        caption: 'The official product view shows the detachable carafe and low adjustable spout range that buyers should compare with their normal cups.',
+        width: 590,
+        height: 590,
+      },
+    ],
+  ),
 };
