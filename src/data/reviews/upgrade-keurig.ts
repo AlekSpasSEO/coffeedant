@@ -153,6 +153,10 @@ const trimSecondParagraph = (html: string) => {
 const review = buildUpgradeReview(profile);
 export const upgradeKeurigReviews: MachineReviewData[] = [{
   ...review,
+  alternatives: [
+    { name: 'Breville Luxe Brewer Thermal', reason: 'Choose dedicated ground-coffee brewing when pods are unnecessary.', href: '/coffee-machine/breville-luxe-brewer-thermal-bdc465/' },
+    { name: 'Nespresso Vertuo Plus', reason: 'Choose a capsule-only station if a ground-coffee carafe would go unused.', href: '/espresso-machine/nespresso-vertuo-plus/' },
+  ],
   article: {
     ...review.article,
     sections: review.article.sections.map((section) => ({
