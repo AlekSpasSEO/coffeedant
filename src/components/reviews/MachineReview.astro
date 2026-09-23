@@ -43,7 +43,12 @@ const shortLabels: Record<string, string> = {
 };
 const jumpLinks = [
   { id: 'ratings', label: 'Ratings' },
-  ...review.article.sections.map((section) => ({ id: section.id, label: shortLabels[section.id] ?? section.title })),
+  ...review.article.sections.map((section) => ({
+    id: section.id,
+    label: ['espresso', 'milk'].includes(section.id)
+      ? review.evaluation.dimensions.find((dimension) => dimension.deepDiveId === section.id)?.label ?? shortLabels[section.id]
+      : shortLabels[section.id] ?? section.title,
+  })),
   { id: 'video', label: 'Video' }, { id: 'methodology', label: 'Methodology' },
   { id: 'sources', label: 'Sources' }, { id: 'verdict', label: 'Verdict' },
 ];

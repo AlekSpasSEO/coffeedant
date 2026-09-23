@@ -4,7 +4,7 @@ Generated from the rendered review updated 2026-09-23. This is the publication a
 
 ## Density and source mix
 
-- Editorial word count, excluding captions and embeds: 5460
+- Editorial word count, excluding captions and embeds: 5444
 - Publication image cap: 3 total images
 - Images published: 3 (2 inline images plus one product hero)
 - User-generated or community inline images: 0 of 2
