@@ -9,7 +9,7 @@ const dim = (
 
 const flair58: UpgradeReviewProfile = {
   key: 'flair-58', slug: '/espresso-machine/flair-58/', productId: 'CD-EM-000160',
-  brand: 'Flair', model: 'Flair 58 Plus 2', sku: 'Flair 58 Plus 2', category: 'Manual lever espresso machine', brandPath: '/flair/',
+  brand: 'Flair', model: 'Flair 58 Plus 2', sku: 'Flair 58 Plus 2', category: 'Manual lever espresso machine', brandPath: '/espresso-machine/',
   title: 'Flair 58 review: the Plus 2 makes manual espresso easier to repeat',
   description: 'A research-led Flair 58 Plus 2 review covering its 58mm system, heated brew head, pressure profiling, current price, workflow, grinder needs and limitations.',
   verdictLabel: 'For hands-on espresso with a faster lever workflow',
@@ -92,7 +92,7 @@ const flair58: UpgradeReviewProfile = {
     { kicker: 'Lower-cost current lever', title: 'Flair Classic', text: 'Keep the all-manual ritual and pressure gauge at a much lower machine price.', href: '/espresso-machine/flair-classic/', linkLabel: 'Read the Flair Classic review', featured: true },
     { kicker: 'Budget current route', title: 'Flair NEO Flex', text: 'Use a flow-control basket and lighter polymer frame when entry cost matters most.', href: '/espresso-machine/flair-neo-flex/', linkLabel: 'Read the NEO Flex review' },
     { kicker: 'Legacy larger head', title: 'Flair PRO 2', text: 'Evaluate a used PRO 2 only with clear condition, parts and price evidence.', href: '/espresso-machine/flair-pro-2/', linkLabel: 'Read the PRO 2 review' },
-    { kicker: 'Integrated pump machine', title: 'Gaggia Classic', text: 'Choose a boiler and steam wand when a self-contained espresso-and-milk station matters more than lever profiling.', href: '/espresso-machine/gaggia-classic/', linkLabel: 'Read the Gaggia Classic review' },
+    { kicker: 'Integrated pump machine', title: 'Gaggia Classic Evo', text: 'Choose a boiler and steam wand when a self-contained espresso-and-milk station matters more than lever profiling.', href: '/espresso-machine/gaggia-classic-evo/', linkLabel: 'Read the Gaggia Classic Evo review' },
   ],
   faqs: [
     { question: 'Is Flair 58 Plus 2 the same as Flair 58 Plus?', answer: 'No. The Plus 2 is a later configuration with an integrated controller, smaller power hardware, revised cable management and a current accessory package.' },
@@ -111,7 +111,7 @@ const flair58: UpgradeReviewProfile = {
 
 const flairClassic: UpgradeReviewProfile = {
   key: 'flair-classic', slug: '/espresso-machine/flair-classic/', productId: 'CD-EM-000161',
-  brand: 'Flair', model: 'Flair Classic', sku: 'Flair Classic 2026 configuration', category: 'Manual lever espresso machine', brandPath: '/flair/',
+  brand: 'Flair', model: 'Flair Classic', sku: 'Flair Classic 2026 configuration', category: 'Manual lever espresso machine', brandPath: '/espresso-machine/',
   title: 'Flair Classic review: a $159 lever with two ways to learn',
   description: 'A research-led Flair Classic review covering the current two-portafilter package, pressure gauge, 40mm brew head, manual preheat, workflow, price and grinder choices.',
   verdictLabel: 'For affordable, deliberate manual espresso',
@@ -193,7 +193,7 @@ const flairClassic: UpgradeReviewProfile = {
     { kicker: 'Lowest current route', title: 'Flair NEO Flex', text: 'Choose a lighter polymer frame and refurbished official price when the lowest entry cost leads.', href: '/espresso-machine/flair-neo-flex/', linkLabel: 'Read the NEO Flex review', featured: true },
     { kicker: 'Faster manual workflow', title: 'Flair 58 Plus 2', text: 'Move up for an actively heated fixed head and standard 58mm portafilter.', href: '/espresso-machine/flair-58/', linkLabel: 'Read the Flair 58 review' },
     { kicker: 'Legacy larger basket', title: 'Flair PRO 2', text: 'Consider a used PRO 2 only after pricing condition and current parts support.', href: '/espresso-machine/flair-pro-2/', linkLabel: 'Read the PRO 2 review' },
-    { kicker: 'Boiler and steam', title: 'Gaggia Classic', text: 'Choose a pump machine when integrated hot water and milk steaming justify more equipment.', href: '/espresso-machine/gaggia-classic/', linkLabel: 'Read the Gaggia Classic review' },
+    { kicker: 'Boiler and steam', title: 'Gaggia Classic Evo', text: 'Choose a pump machine when integrated hot water and milk steaming justify more equipment.', href: '/espresso-machine/gaggia-classic-evo/', linkLabel: 'Read the Gaggia Classic Evo review' },
   ],
   faqs: [
     { question: 'Does the current Flair Classic include a pressure gauge?', answer: 'Yes. The September 2026 US listing includes the gauge and stem.' },
@@ -212,7 +212,7 @@ const flairClassic: UpgradeReviewProfile = {
 
 const neoFlex: UpgradeReviewProfile = {
   key: 'flair-neo-flex', slug: '/espresso-machine/flair-neo-flex/', productId: 'CD-EM-000162',
-  brand: 'Flair', model: 'NEO Flex, 2024 thin-cylinder generation', sku: 'NEO Flex 2024', category: 'Entry manual lever espresso machine', brandPath: '/flair/',
+  brand: 'Flair', model: 'NEO Flex, 2024 thin-cylinder generation', sku: 'NEO Flex 2024', category: 'Entry manual lever espresso machine', brandPath: '/espresso-machine/',
   title: 'Flair NEO Flex review: the 2024 version is cheap, capable and clearly bounded',
   description: 'A research-led Flair NEO Flex review covering the 2024 thin-cylinder generation, gauge, two portafilters, refurbished price, polymer frame, owner context and current availability.',
   verdictLabel: 'For the lowest-cost current Flair route',
@@ -294,7 +294,7 @@ const neoFlex: UpgradeReviewProfile = {
     { kicker: 'Metal-frame step up', title: 'Flair Classic', text: 'Spend more for an all-metal frame and current normal-retail package while keeping two portafilter paths.', href: '/espresso-machine/flair-classic/', linkLabel: 'Read the Flair Classic review', featured: true },
     { kicker: 'Premium workflow', title: 'Flair 58 Plus 2', text: 'Move to an actively heated fixed group and 58mm ecosystem when repeat use justifies the cost.', href: '/espresso-machine/flair-58/', linkLabel: 'Read the Flair 58 review' },
     { kicker: 'Legacy larger head', title: 'Flair PRO 2', text: 'Compare only as a used or remaining-stock machine with exact condition and parts evidence.', href: '/espresso-machine/flair-pro-2/', linkLabel: 'Read the PRO 2 review' },
-    { kicker: 'Powered alternative', title: 'Gaggia Classic', text: 'Choose a boiler and steam wand when an integrated milk-capable appliance matters more than travel weight.', href: '/espresso-machine/gaggia-classic/', linkLabel: 'Read the Gaggia Classic review' },
+    { kicker: 'Powered alternative', title: 'Gaggia Classic Evo', text: 'Choose a boiler and steam wand when an integrated milk-capable appliance matters more than travel weight.', href: '/espresso-machine/gaggia-classic-evo/', linkLabel: 'Read the Gaggia Classic Evo review' },
   ],
   faqs: [
     { question: 'Is the $89 NEO Flex new?', answer: 'No. It is the official refurbished blemished listing checked September 23, 2026.' },
@@ -313,7 +313,7 @@ const neoFlex: UpgradeReviewProfile = {
 
 const flairPro2: UpgradeReviewProfile = {
   key: 'flair-pro-2', slug: '/espresso-machine/flair-pro-2/', productId: 'CD-EM-000163',
-  brand: 'Flair', model: 'Flair PRO 2', sku: 'PRO 2 legacy model', category: 'Discontinued manual lever espresso machine', brandPath: '/flair/',
+  brand: 'Flair', model: 'Flair PRO 2', sku: 'PRO 2 legacy model', category: 'Discontinued manual lever espresso machine', brandPath: '/espresso-machine/',
   title: 'Flair PRO 2 review: a capable legacy lever, not a current new-machine bargain',
   description: 'A research-led Flair PRO 2 review covering its legacy brew head, gauge, dose range, manual preheat, discontinued status, remaining parts, current dealer price context and used buying risks.',
   verdictLabel: 'For a carefully priced used or remaining-stock purchase',
@@ -395,7 +395,7 @@ const flairPro2: UpgradeReviewProfile = {
     { kicker: 'Current budget model', title: 'Flair Classic', text: 'Buy a new current package when warranty clarity matters more than the PRO 2 dose range.', href: '/espresso-machine/flair-classic/', linkLabel: 'Read the Flair Classic review', featured: true },
     { kicker: 'Current premium lever', title: 'Flair 58 Plus 2', text: 'Choose active group heat and a fixed 58mm workflow for frequent use.', href: '/espresso-machine/flair-58/', linkLabel: 'Read the Flair 58 review' },
     { kicker: 'Lowest-cost option', title: 'Flair NEO Flex', text: 'Consider the current refurbished Flex when entry price and weight dominate.', href: '/espresso-machine/flair-neo-flex/', linkLabel: 'Read the NEO Flex review' },
-    { kicker: 'Integrated steam', title: 'Gaggia Classic', text: 'Move to a boiler machine if milk work and fewer separate devices matter more than portability.', href: '/espresso-machine/gaggia-classic/', linkLabel: 'Read the Gaggia Classic review' },
+    { kicker: 'Integrated steam', title: 'Gaggia Classic Evo', text: 'Move to a boiler machine if milk work and fewer separate devices matter more than portability.', href: '/espresso-machine/gaggia-classic-evo/', linkLabel: 'Read the Gaggia Classic Evo review' },
   ],
   faqs: [
     { question: 'Has Flair discontinued the PRO 2?', answer: 'Flair’s current collection did not include a complete PRO 2 when checked. Legacy head parts remained listed, and the current PRO-tier machine is different.' },
@@ -489,13 +489,13 @@ const gaggiaAccademia: UpgradeReviewProfile = {
   comparisons: [
     { name: 'Gaggia Accademia Glass RI9781/01', quickDecision: 'Choose for 19 drinks, four profiles and both carafe and steam wand.', priceClass: '£1,699 UK sale reference', dimensions: '28.2 by 38.5 by 42.8 cm; 13.8 kg', heating: 'Automatic multi-circuit appliance', coffeeSetup: 'Ceramic grinder and automatic brew group', milkWorkflow: 'Automatic carafe plus manual wand', bestFor: 'Premium varied-drink household' },
     { name: 'Gaggia Cadorna Prestige', href: '/espresso-machine/gaggia-cadorna-prestige/', quickDecision: 'Choose a more conventional carafe-led Gaggia when the manual wand is unnecessary.', priceClass: 'Lower premium superautomatic class', dimensions: 'Narrow deep appliance format', heating: 'Automatic bean-to-cup system', coffeeSetup: 'Integrated grinder and brew group', milkWorkflow: 'Automatic carafe', bestFor: 'One-touch milk with profiles' },
-    { name: 'Gaggia Classic', href: '/espresso-machine/gaggia-classic/', quickDecision: 'Choose hands-on portafilter espresso and manual steam at far lower appliance complexity.', priceClass: 'Entry prosumer pump class', dimensions: 'Compact boiler machine', heating: 'Single boiler', coffeeSetup: 'Separate grinder and portafilter', milkWorkflow: 'Manual steam wand', bestFor: 'Hands-on espresso learning' },
+    { name: 'Gaggia Classic Evo', href: '/espresso-machine/gaggia-classic-evo/', quickDecision: 'Choose hands-on portafilter espresso and manual steam at far lower appliance complexity.', priceClass: 'Entry prosumer pump class', dimensions: 'Compact boiler machine', heating: 'Single boiler', coffeeSetup: 'Separate grinder and portafilter', milkWorkflow: 'Manual steam wand', bestFor: 'Hands-on espresso learning' },
   ],
   comparisonNote: 'Match the full code, finish and voltage. RI9781/01 is the European Glass record; US and stainless versions can differ in electrical rating, warranty and price.',
   recommendations: [
     { kicker: 'Simpler automatic milk', title: 'Gaggia Cadorna Prestige', text: 'Choose a carafe-led Gaggia when four profiles matter but a second manual wand does not.', href: '/espresso-machine/gaggia-cadorna-prestige/', linkLabel: 'Read the Cadorna Prestige review', featured: true },
-    { kicker: 'Manual Gaggia route', title: 'Gaggia Classic', text: 'Move to a portafilter and steam wand when direct craft matters more than one-touch variety.', href: '/espresso-machine/gaggia-classic/', linkLabel: 'Read the Gaggia Classic review' },
-    { kicker: 'Compact bean-to-cup', title: 'Gaggia Magenta Prestige', text: 'Consider a smaller menu and footprint when premium materials and dual milk are unnecessary.', href: '/espresso-machine/gaggia-magenta-prestige/', linkLabel: 'Read the Magenta Prestige review' },
+    { kicker: 'Manual Gaggia route', title: 'Gaggia Classic Evo', text: 'Move to a portafilter and steam wand when direct craft matters more than one-touch variety.', href: '/espresso-machine/gaggia-classic-evo/', linkLabel: 'Read the Gaggia Classic Evo review' },
+    { kicker: 'Compact bean-to-cup', title: 'Gaggia Magenta Prestige', text: 'Consider a smaller menu and footprint when premium materials and dual milk are unnecessary.', href: '/espresso-machine/gaggia-magenta-prestige-ri8702/', linkLabel: 'Read the Magenta Prestige review' },
     { kicker: 'Lever alternative', title: 'Flair 58 Plus 2', text: 'Choose direct pressure profiling and supply grinder and milk equipment separately.', href: '/espresso-machine/flair-58/', linkLabel: 'Read the Flair 58 review' },
   ],
   faqs: [
