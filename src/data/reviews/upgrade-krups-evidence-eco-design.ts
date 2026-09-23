@@ -76,7 +76,7 @@ const profile: UpgradeReviewProfile = {
     { label: 'Krups UK repairability information', href: 'https://www.krups.co.uk/reparability-page?ref=EA897B40', note: 'Manufacturer repair-program detail for EA897B40; program is not a measured lifespan.' },
     { label: 'Video owner discussion and questions', href: video, note: '29 public comments visible September 23, 2026; self-selected, mixed-region and unverified claims. Summarized on page.' },
     { label: 'NorthXSouth delivery and tracking information', href: 'https://www.northxsouth.co.uk/pages/delivery-and-tracking', note: 'Product delivery tab describes Northern Ireland service; check postcode terms before purchase.' },
-    { label: 'Trusted Reviews testing policy', href: 'https://www.trustedreviews.com/info/how-we-test-3438328', note: 'Background on independent review method; specific findings attributed to David Ludlow’s article.' },
+    { label: 'Trusted Reviews ethics and commercial policy', href: 'https://www.trustedreviews.com/info/trusted-reviews-ethics-policy-3521647', note: 'Publisher disclosure and ethics context; specific findings attributed to David Ludlow’s article.' },
   ],
   comparisons: [
     { name: 'Krups Evidence Eco-Design EA897B40', quickDecision: 'Two simultaneous milk drinks if manual milk-tube rinsing is acceptable.', priceClass: '£399 listed Sep 23, 2026, NI delivery area', dimensions: 'Check site cabinet clearance; 15.8 cm under spout', heating: 'Manufacturer thermoblock', coffeeSetup: 'Five-step grinder, eight presets and two favourites', milkWorkflow: 'Automatic hose, manually rinsed', bestFor: 'Shared milk and black drinks' },
