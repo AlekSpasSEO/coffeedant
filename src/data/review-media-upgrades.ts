@@ -33,6 +33,24 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/krups-arabica-digital-ea817040/': officialProductMedia(
+    'Krups UK EA817040 product gallery',
+    'https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/Arabica-Digital-Bean-to-Cup-Coffee-Machine---Black/p/8010000001',
+    [
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3w2NzIwMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnek1DOW9Nak12TWprMU5ETXlPVEF4TkRJM05UQXw1N2Q5NTIwYzJkY2NlM2Q5NjZmYzJhNTAwY2U2MjNjMGMyMWQ2ZWU5ZDI4MWM4NWZkNTI2NTAwNWEwYmFjNWI4',
+        alt: 'Krups EA817040 in a manufacturer lifestyle image with its LCD and cups',
+        caption: 'Krups marketing image illustrates the compact black machine and controls. Drinks pictured are not a Coffeedant tasting result; milk still requires a manual step.',
+        width: 700, height: 700,
+      },
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3w0MzUxNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE1TOW9abVl2TWprM01UWXlPVFl6TURJMk1qSXxlYmNhNDY5ZWIxNmE0M2E0ZDUzOTdhN2YyYzZkMzQ3OWJmNjJiZGUzNjFmZjdkZGE2ZWYyYjg1MmUwODdjZWY0',
+        alt: 'Close-up of the manual steam nozzle on the black Krups Arabica Digital',
+        caption: 'The manufacturer gallery shows the traditional steam nozzle. It is not a one-touch milk carafe and requires purging and cleaning after use.',
+        width: 700, height: 700,
+      },
+    ],
+  ),
   '/coffee-machine/k-duo-plus/': [
     ...retailerProductMedia(
       'Walmart K-Duo Plus product page',
