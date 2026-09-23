@@ -1081,4 +1081,104 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/gaggia-cadorna-milk/': officialProductMedia(
+    'Gaggia North America Cadorna Milk product page',
+    'https://www.gaggia-na.com/products/gaggia-cadorna-milk',
+    [
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/products/CappInCup_IMG_0270_01_9c8b0838-cc37-4aea-8478-31b0b7a7825e_800x.jpg?v=1592494291',
+        alt: 'Capp-in-Cup milk system on the Gaggia Cadorna Milk',
+        caption: 'The working view shows the external milk hose feeding automatic froth into the cup, the defining convenience and cleaning path of Cadorna Milk.',
+        width: 800,
+        height: 800,
+      },
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/products/IntuitiveInterface_IMG_0206_01_58b5e23c-fef1-4fda-a5bc-d00a44b84c71_800x.jpg?v=1592494291',
+        alt: 'Color drink interface on the Gaggia Cadorna Milk',
+        caption: 'The color menu organizes ten beverages and four profiles, while tactile keys keep navigation separate from the display.',
+        width: 800,
+        height: 800,
+      },
+    ],
+  ),
+  '/espresso-machine/gaggia-cadorna-prestige/': officialProductMedia(
+    'Gaggia North America Cadorna Prestige product page',
+    'https://www.gaggia-na.com/products/gaggia-cadorna-prestige',
+    [
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/files/Milk_800x.jpg?v=1767907175',
+        alt: 'Integrated milk carafe on the Gaggia Cadorna Prestige',
+        caption: 'The carafe detail shows the removable automatic milk system responsible for seven one-touch milk specialties and the related refrigerator and cleaning routine.',
+        width: 800,
+        height: 800,
+      },
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/files/Intuitive_800x.jpg?v=1767907175',
+        alt: 'Color beverage interface on the Gaggia Cadorna Prestige',
+        caption: 'The updated menu view shows direct access to the expanded fifteen-drink set, including the current Over-Ice revision.',
+        width: 800,
+        height: 800,
+      },
+    ],
+  ),
+  '/espresso-machine/gaggia-classic-evo/': officialProductMedia(
+    'Gaggia North America Classic Pro E24 product page',
+    'https://www.gaggia-na.com/products/gaggia-classic-pro',
+    [
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/products/Wand_IMG_9796_04_800x.jpg?v=1688998405',
+        alt: 'Two-hole commercial-style steam wand on the Gaggia Classic family',
+        caption: 'The wand detail shows the manual two-hole steam path used by the current E24, with texture, pitcher position and immediate cleaning left to the operator.',
+        width: 800,
+        height: 800,
+      },
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/products/Switches_03_IMG_9856_800x.jpg?v=1688998405',
+        alt: 'Mechanical rocker switches on the Gaggia Classic Pro E24',
+        caption: 'The three rocker switches expose the intentionally simple brew, steam and hot-water workflow without a PID display or shot timer.',
+        width: 800,
+        height: 800,
+      },
+    ],
+  ),
+  '/espresso-machine/gaggia-classic-evo-pro/': officialProductMedia(
+    'Gaggia Classic family product media',
+    'https://www.gaggia-na.com/products/gaggia-classic-pro',
+    [
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/products/Frame_IMG_0196_06_800x.jpg?v=1688998405',
+        alt: 'Stainless frame and cup area of the Gaggia Classic family',
+        caption: 'The exterior detail is shared family media. It helps identify the chassis but does not prove whether a used unit contains the 2023 coated boiler, an uncoated transition boiler or the later E24 brass boiler.',
+        width: 800,
+        height: 800,
+      },
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/products/Wand_IMG_9796_04_800x.jpg?v=1688998405',
+        alt: 'Manual steam wand on the Gaggia Classic family',
+        caption: 'The current family image illustrates the manual milk workflow. Exact boiler and internal revision still have to be verified from the machine and seller records.',
+        width: 800,
+        height: 800,
+      },
+    ],
+  ),
+  '/espresso-machine/gaggia-classic-gt/': officialProductMedia(
+    'Gaggia North America Classic GT product page',
+    'https://www.gaggia-na.com/products/gaggia-classic-gt',
+    [
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/files/GTonblackDesign2_800x.jpg?v=1741724661',
+        alt: 'Classic GT toggle switches, color display and brew pressure gauge',
+        caption: 'The control close-up shows the pressure gauge, five toggles, color TFT and capacitive controls that separate GT from the simpler Classic single-boiler platform.',
+        width: 800,
+        height: 800,
+      },
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/files/GTonblackSteamwand2_800x.jpg?v=1741724661',
+        alt: 'Articulated steam wand and dedicated hot-water outlet on the Gaggia Classic GT',
+        caption: 'The right-side work area shows the separate steam wand and hot-water outlet enabled by the dual-boiler, dual-circuit architecture.',
+        width: 800,
+        height: 800,
+      },
+    ],
+  ),
 };

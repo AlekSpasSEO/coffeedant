@@ -15,6 +15,7 @@ import { upgradeThirdTenReviews } from './reviews/upgrade-third-ten';
 import { upgradeFourthTenReviews } from './reviews/upgrade-fourth-ten';
 import { upgradeFlairGaggiaReviews } from './reviews/upgrade-flair-gaggia';
 import { upgradeGaggiaAReviews } from './reviews/upgrade-gaggia-a';
+import { upgradeGaggiaClassicReviews } from './reviews/upgrade-gaggia-classic';
 import {
   getReviewRouteDefinition,
   hasValidReviewProductId,
@@ -68,6 +69,7 @@ const candidates: MachineReviewData[] = [
   ...upgradeFourthTenReviews,
   ...upgradeFlairGaggiaReviews,
   ...upgradeGaggiaAReviews,
+  ...upgradeGaggiaClassicReviews,
 ];
 const bySlug = new Map(candidates.map((review) => [review.slug, review]));
 
