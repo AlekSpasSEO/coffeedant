@@ -218,7 +218,7 @@ const neoFlex: UpgradeReviewProfile = {
   verdictLabel: 'For the lowest-cost current Flair route',
   verdict: 'Choose the 2024-generation NEO Flex when a very low refurbished price, light frame and two portafilter paths matter more than premium materials or rapid repeat shots. Skip it when you want current new-machine stock, a metal frame, standard 58mm accessories, milk steam, or uncertainty around generation-specific piston parts.',
   assessment: 'A remarkably accessible pressure-capable lever whose exact generation, refurbished status and owner-reported piston context need unusually clear disclosure.',
-  image: 'https://flairespresso.com/wp-content/uploads/2023/04/neo_flex_2024_product_shot_woo.jpg', imageAlt: 'Black 2024-generation Flair NEO Flex manual espresso maker with pressure gauge',
+  image: 'https://img.kavosdraugas.lt/8b070242-0aa4-49f7-9153-f8a2f21bb9ea/1000x1000/flairneoflexupd6png.jpg', imageAlt: 'Black 2024-generation Flair NEO Flex manual espresso maker with pressure gauge',
   published: '2026-07-27', updated: '2026-09-23',
   price: { label: 'Flair US refurbished price', msrp: '$89.00 refurbished; $119 crossed-out reference', typical: 'Blemished refurbished unit; stock, case option, tax and regional support vary', currency: 'USD', numeric: '89.00', checked: 'September 23, 2026' },
   links: [
