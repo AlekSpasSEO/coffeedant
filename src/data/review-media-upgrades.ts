@@ -33,6 +33,106 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/gaggia-velasca-ri8260-3/': officialProductMedia(
+    'Gaggia North America Velasca product page',
+    'https://www.gaggia-na.com/products/gaggia-velasca',
+    [
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/products/Pannarello_IMG_0130_01_b6b805fb-4682-4b9f-b6c3-60831f4ee2e3_800x.jpg?v=1571332460',
+        alt: 'Gaggia Velasca pannarello steam and hot-water attachment',
+        caption: 'The pannarello confirms that milk is a separate manual step on the current North American Velasca, not the automatic carafe workflow of Velasca Prestige.',
+        width: 800,
+        height: 533,
+      },
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/products/FrontLoadingDrawers_IMG_0088_01_467d21af-f9ec-47d4-97b6-aff3510e25cc_800x.jpg?v=1571332570',
+        alt: 'Gaggia Velasca front-removable water tank and service drawers',
+        caption: 'Front access to water, grounds and the brew group reduces under-cabinet disruption, though the bean hopper still needs space above.',
+        width: 800,
+        height: 533,
+      },
+    ],
+  ),
+  '/espresso-machine/jura-e6/': officialProductMedia(
+    'JURA E6 product page',
+    'https://us.jura.com/en/homeproducts/machines/e6-dark-inox-nac-15621',
+    [
+      {
+        src: 'https://us.jura.com/_next/image?url=https%3A%2F%2Fapi.jura.com%2Fmedia%2Fglobal%2Fimages%2Fhome-products%2Fhero%2Fimg%2FE6_ec_darkinox_hero.jpg%3Fcb%3D788857&w=3840&q=75',
+        alt: 'JURA E6 Dark Inox automatic coffee machine serving coffee',
+        caption: 'Official family media shows the E6 scale and front service area; specifications and article identity are anchored to current NAC 15621 documentation.',
+        width: 2560,
+        height: 1097,
+      },
+      {
+        src: 'https://us.jura.com/_next/image?url=https%3A%2F%2Fapi.jura.com%2Fmedia%2Fglobal%2Fimages%2Fhome-products%2Fe-linie-2022%2Fe6%2Fe6-dark-inox-ec-15439%2Fimage-gallery%2Fe6_ec_darkinox_image2.jpg%3Fcb%3D280650&w=1920&q=75',
+        alt: 'JURA E6 Dark Inox in a home coffee setting',
+        caption: 'The lifestyle view helps judge cup access and counter depth. The media path retains an EC code, so no NAC specification is inferred from the photograph.',
+        width: 1620,
+        height: 1080,
+      },
+    ],
+  ),
+  '/espresso-machine/jura-e8/': officialProductMedia(
+    'JURA E8 fifth-generation product page',
+    'https://us.jura.com/en/homeproducts/machines/e8-midnight-silver-nad-15722',
+    [
+      {
+        src: 'https://us.jura.com/_next/image?url=https%3A%2F%2Fapi.jura.com%2Fmedia%2Fglobal%2Fimages%2Fcorporate%2Fcompany-and-press%2Fjura-and-roger-federer%2Fcampaign-25%2FRF-Kamp25_Thumbnail_YouTube_E8_Playbutton_1280x720px.jpg%3Fcb%3D468964&w=1920&q=75',
+        alt: 'JURA E8 fifth-generation campaign image in a home setting',
+        caption: 'Official campaign media provides scale for the fifth-generation E8; it is illustrative rather than evidence of Coffeedant testing.',
+        width: 1280,
+        height: 720,
+      },
+      {
+        src: 'https://us.jura.com/_next/image?url=https%3A%2F%2Fapi.jura.com%2Fmedia%2Fglobal%2Fimages%2Fhome-products%2Fe-line-2025%2Fe8-ed-midnight-silver%2Fimage-gallery%2FWebsite_Youtube_Thumbnail_E8_ED_1280x720px.jpg%3Fcb%3D366537&w=1920&q=75',
+        alt: 'JURA E8 fifth-generation display and coffee outlet',
+        caption: 'The official family workflow image shows the current control and dispensing layout. NAD identity and specifications come from article 15722 documentation.',
+        width: 1280,
+        height: 720,
+      },
+    ],
+  ),
+  '/espresso-machine/jura-giga-6/': officialProductMedia(
+    'JURA GIGA 6 official product page',
+    'https://uk.jura.com/en/homeproducts/automatic-coffee-machines/giga-6-aluminium-ea-15394',
+    [
+      {
+        src: 'https://uk.jura.com/_next/image?q=75&url=https%3A%2F%2Fapi.jura.com%2Fmedia%2Fglobal%2Fimages%2Fhome-products%2Fgiga-line%2Fgiga-6%2FGIGA-6-US%2Ffeatures%2Fgiga6_alu_us_feature_1.jpg%3Fcb%3D149399&w=1920',
+        alt: 'JURA GIGA 6 dual automatic coffee workflow',
+        caption: 'Official US-family feature media illustrates the dual-system workflow. The review keeps US NAA refurb and UK EA specifications separate.',
+        width: 1620,
+        height: 1080,
+      },
+      {
+        src: 'https://uk.jura.com/_next/image?q=75&url=https%3A%2F%2Fapi.jura.com%2Fmedia%2Fglobal%2Fimages%2Fhome-products%2Fgiga-line%2Fgiga-6%2FGIGA-6-US%2Ffeatures%2Fgiga6_alu_us_feature_2.jpg%3Fcb%3D200797&w=1920',
+        alt: 'JURA GIGA 6 touchscreen and dual grinder controls',
+        caption: 'The feature view supports evaluation of the 4.3-inch interface and two-bean proposition, not a claim of hands-on Coffeedant use.',
+        width: 1620,
+        height: 1080,
+      },
+    ],
+  ),
+  '/espresso-machine/jura-z10/': officialProductMedia(
+    'JURA Z10 second-generation product page',
+    'https://us.jura.com/en/homeproducts/machines/z10-aluminium-black-nab-15702',
+    [
+      {
+        src: 'https://us.jura.com/_next/image?url=https%3A%2F%2Fapi.jura.com%2Fmedia%2Fglobal%2Fimages%2Fcorporate%2Fcompany-and-press%2Fjura-and-roger-federer%2Fcampaign-25%2FRF-Kamp25_Thumbnail_YouTube_Z10_Playbutton_1280x720px.jpg%3Fcb%3D525629&w=1920&q=75',
+        alt: 'Second-generation JURA Z10 official campaign image',
+        caption: 'Official campaign media gives lifestyle scale for the current Z10. It is not presented as Coffeedant testing or drink-quality proof.',
+        width: 1280,
+        height: 720,
+      },
+      {
+        src: 'https://us.jura.com/_next/image?url=https%3A%2F%2Fapi.jura.com%2Fmedia%2Fglobal%2Fimages%2Fhome-products%2Fz-line-2025%2FZ10-EB-SB%2FZ10-EB-SB-Aluminium-Black%2FZ10_eb_sb_ab_yt_play.jpg%3Fcb%3D455409&w=640&q=75',
+        alt: 'JURA Z10 Aluminium Black official workflow image',
+        caption: 'The official workflow image supports assessment of the current touchscreen and drink platform; exact claims remain tied to NAB article 15702 sources.',
+        width: 640,
+        height: 360,
+      },
+    ],
+  ),
   '/espresso-machine/bezzera-strega/': officialProductMedia(
     'Bezzera product page',
     'https://www.bezzera.it/en/machines/strega',
