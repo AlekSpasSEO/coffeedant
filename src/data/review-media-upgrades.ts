@@ -33,6 +33,24 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/krups-evidence-one-ea895n40/': officialProductMedia(
+    'Krups UK EA895N40 official gallery',
+    'https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/EVIDENCE-One-Bean-to-Cup-Coffee-Machine---Black/p/8010001019',
+    [
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wxNTI4MjZ8aW1hZ2UvanBlZ3xhVzFoWjJWekwyaGxPUzlvT1Rrdk1qWTRPRGN6TVRJNE5qY3pOVGd8NGQxYjBmM2Y5MzMzYjAzNzE1YmIxMjM3OWZjZDlmZGU5MzQ2NjMwODY2YTliNWIxODdjNzExMGNmNzdjYjUwMQ',
+        alt: 'Krups UK gallery angled view of the EA895N40 grey machine, dual spout and coloured touch panel',
+        caption: 'Official EA895N40 gallery shows the outlet and panel. No Coffeedant tasting or dimension measurement is represented.',
+        width: 645, height: 700,
+      },
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3w2NDQ1MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd015OW9OV0l2TWprMU5ETXpNRFF4TXpRMk9EWXxjYmQ2NjgxYWRhZGNhYjcwYTVkNjZjZWE2NWZmYjcyYmJjZGIxZjUxOTNiMmE3NGE2MzQ0YzQ5YWI1NjAwZGY5',
+        alt: 'Krups UK Evidence One EA895N40 promotional photograph with two milk drinks and milk tube',
+        caption: 'Manufacturer illustration of two milk drinks and the external hose; results pictured are promotional, not independently measured.',
+        width: 700, height: 700,
+      },
+    ],
+  ),
   '/espresso-machine/krups-evidence-milk-ea891d27/': retailerProductMedia(
     'Amazon UK EA891D27 product listing',
     'https://www.amazon.co.uk/Krups-EA891D27-Evidence-Automatic-Espresso/dp/B083PJNPFQ',
