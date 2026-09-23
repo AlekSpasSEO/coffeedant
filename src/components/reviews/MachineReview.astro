@@ -21,6 +21,7 @@ const assetUrl = (path: string) => /^https:\/\//i.test(path)
 const canonical = new URL(review.slug.replace(/^\//, ''), 'https://coffeedant.com/').toString();
 const primaryOffer = review.links.find((link) => link.primary) ?? review.links[0];
 const redditSources = review.article.sources.filter((source) => /^https:\/\/(?:www\.)?reddit\.com\//i.test(source.href));
+const hasCustomCommunityPanel = review.article.sections.some((section) => /class="review-community-evidence"/i.test(section.html));
 const redditEvidenceSectionId = review.article.sections.find((section) => (
   /(?:owner|community|recommendation|value)/i.test(section.id)
 ))?.id ?? review.article.sections.at(-1)?.id;
@@ -163,7 +164,7 @@ const schema = {
                   </figcaption>
                 </figure>
               ))}
-            {section.id === redditEvidenceSectionId && redditSources.length > 0 && (
+            {section.id === redditEvidenceSectionId && redditSources.length > 0 && !hasCustomCommunityPanel && (
               <aside class="review-community-evidence" aria-labelledby={`${section.id}-reddit-title`}>
                 <p class="review-overline">What real owners report</p>
                 <h3 id={`${section.id}-reddit-title`}>The useful patterns from Reddit, kept on this page</h3>

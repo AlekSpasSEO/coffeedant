@@ -33,6 +33,24 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/krups-intuition-essential-ea870840/': retailerProductMedia(
+    'Currys Business exact EA870840 product gallery',
+    'https://business.currys.co.uk/catalogue/domestic-appliances/small-kitchen-appliances/coffee-machines/krups-intuition-essential-ea870840-bean-to-cup-coffee-machine-black/N604144W',
+    [
+      {
+        src: 'https://brain-images-ssl.cdn.dixons.com/3/4/10235943/l_10235943_012.jpg',
+        alt: 'Currys Business EA870840 photo showing illuminated refill and care alerts, side water tank and manual steam wand',
+        caption: 'Exact-model retailer image illustrates maintenance indicator positions; actual alert behaviour was not Coffeedant tested.',
+        width: 600, height: 532,
+      },
+      {
+        src: 'https://brain-images-ssl.cdn.dixons.com/3/4/10235943/l_10235943_013.jpg',
+        alt: 'Currys Business EA870840 touch control panel with ristretto, espresso, long coffee, water and steam icons',
+        caption: 'Retailer control-panel photograph shows selection icons; interface response and coffee output were not independently measured.',
+        width: 600, height: 532,
+      },
+    ],
+  ),
   '/espresso-machine/krups-evidence-one-ea895n40/': officialProductMedia(
     'Krups UK EA895N40 official gallery',
     'https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/EVIDENCE-One-Bean-to-Cup-Coffee-Machine---Black/p/8010001019',
