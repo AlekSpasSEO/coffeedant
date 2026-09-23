@@ -69,6 +69,9 @@ export type UpgradeReviewProfile = {
   finalTitle: string;
   finalVerdict: string[];
   video: MachineReviewData['video'];
+  // Use for a distinct review category whose evidence language differs from espresso.
+  dimensionDiagnostics?: Partial<Record<ReviewDimensionId, Array<{ signal: string; guidance: string }>>>;
+  sectionOverrides?: Partial<Record<string, string>>;
 };
 
 const UPDATED = '2026-09-17';
@@ -111,8 +114,12 @@ const evidenceRows = (profile: UpgradeReviewProfile, id: ReviewDimensionId) => {
     features: ['Useful control', 'Missing control', 'Buyer relevance'],
     value: ['Checked price', 'Total station', 'Long-term fit'],
   };
+  const labels = profile.category === 'Pod and drip coffee maker'
+    ? (id === 'espresso' ? ['Pod extraction', 'Cup size and strength', 'Taste boundary']
+      : id === 'milk' ? ['Carafe construction', 'Serving routine', 'Thermal consequence'] : rowLabels[id])
+    : rowLabels[id];
   return copy.signals.map((signal, index) => ({
-    signal: rowLabels[id][index],
+    signal: labels[index],
     evidence: signal,
     decision: index === 0
       ? copy.claim
@@ -164,7 +171,7 @@ const makeDimension = (profile: UpgradeReviewProfile, id: ReviewDimensionId): Re
       `The ${profile.model} score is an editorial judgment from documented design, independent demonstrations, owner context, and the dated market position. It is not a bench result from Coffeedant.`,
     ],
     evidence: evidenceRows(profile, id),
-    diagnosis: diagnosis[id],
+    diagnosis: profile.dimensionDiagnostics?.[id] ?? diagnosis[id],
     note: `Unknowns stay unknown. Variations in coffee, water, milk, setup, firmware, regional package, wear, and technique can change the experience described by these sources.`,
   };
 };
@@ -176,7 +183,7 @@ export const buildUpgradeReview = (profile: UpgradeReviewProfile): MachineReview
   const ownerRefs = ref(profile, [7, 8]);
   const priceRefs = ref(profile, [2]);
 
-  return buildResearchReview({
+  const review = buildResearchReview({
     slug: profile.slug,
     productId: profile.productId,
     brand: profile.brand,
@@ -296,4 +303,15 @@ export const buildUpgradeReview = (profile: UpgradeReviewProfile): MachineReview
     },
     video: profile.video,
   });
+  if (!profile.sectionOverrides) return review;
+  return {
+    ...review,
+    article: {
+      ...review.article,
+      sections: review.article.sections.map((section) => ({
+        ...section,
+        html: profile.sectionOverrides?.[section.id] ?? section.html,
+      })),
+    },
+  };
 };
