@@ -33,6 +33,24 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/krups-intuition-experience-ea877d40/': officialProductMedia(
+    'Krups UK EA877D40 official gallery',
+    'https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/Intuition%C2%A0Experience%2B---Stainless-Steel/p/8010001252',
+    [
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wyMzcxOTh8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZ3lZeTlvTVdVdk1qWTRPRGMxTURJNU1qRTNOVGd8OGJlZjAyMjdlMzEzZmU5NDJjZWMxMjVkZjFmZmFlZTcxNjA1MmQ3YTY2ZWQwYjVjNWVhYjFmNmE3OGY3MmQxYg',
+        alt: 'Krups UK lifestyle photograph of Intuition Experience+ EA877D40 beside a prepared coffee',
+        caption: 'Manufacturer product-gallery photograph shows placement and cup presentation; coffee outcome is promotional, not Coffeedant testing.',
+        width: 700, height: 394,
+      },
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wxMjAyNjB8aW1hZ2UvcG5nfGFXMWhaMlZ6TDJnME1DOW9NbU12TWprM01UWXlPVFF6TXpZMU5ESXxhMzhmM2M5MGJkY2YwN2IyN2Q3MmFiZGYyMjhkZjk1ZjhmNzQ0NGFmNzM5NmVjZTZmYmJjMjlmMWY5ZjE1ZjY4',
+        alt: 'Krups UK EA877D40 promotional image showing milk tube and two cups with a chilled drink',
+        caption: 'Official illustration of the external milk setup and cold-menu presentation; this does not establish nitrogen hardware or measured drink temperature.',
+        width: 700, height: 700,
+      },
+    ],
+  ),
   '/espresso-machine/krups-intuition-essential-ea870840/': retailerProductMedia(
     'Currys Business exact EA870840 product gallery',
     'https://business.currys.co.uk/catalogue/domestic-appliances/small-kitchen-appliances/coffee-machines/krups-intuition-essential-ea870840-bean-to-cup-coffee-machine-black/N604144W',

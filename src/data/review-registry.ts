@@ -24,6 +24,7 @@ import { upgradeKrupsEvidenceEcoDesignReviews } from './reviews/upgrade-krups-ev
 import { upgradeKrupsEvidenceMilkReviews } from './reviews/upgrade-krups-evidence-milk';
 import { upgradeKrupsEvidenceOneReviews } from './reviews/upgrade-krups-evidence-one';
 import { upgradeKrupsIntuitionEssentialReviews } from './reviews/upgrade-krups-intuition-essential';
+import { upgradeKrupsIntuitionExperienceReviews } from './reviews/upgrade-krups-intuition-experience';
 import {
   getReviewRouteDefinition,
   hasValidReviewProductId,
@@ -86,6 +87,7 @@ const candidates: MachineReviewData[] = [
   ...upgradeKrupsEvidenceMilkReviews,
   ...upgradeKrupsEvidenceOneReviews,
   ...upgradeKrupsIntuitionEssentialReviews,
+  ...upgradeKrupsIntuitionExperienceReviews,
 ];
 const bySlug = new Map(candidates.map((review) => [review.slug, review]));
 
