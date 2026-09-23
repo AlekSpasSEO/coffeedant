@@ -7,6 +7,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "plan:upgrades": "node scripts/next-content-upgrade-batch.mjs",
     "audit:article-parity": "node scripts/audit-canonical-article-parity.mjs",
     "generate:review-media-ledgers": "node scripts/generate-review-media-ledgers.mjs",
     "validate:migration": "npm run build && node scripts/validate-legacy-migration.mjs",

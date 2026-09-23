@@ -2,13 +2,15 @@ name: Deploy Astro site to Pages
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
   pages: write
   id-token: write
 concurrency:
-  group: pages
+  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
 jobs:
   build:
@@ -22,11 +24,23 @@ jobs:
         run: npm ci || npm install
       - name: Build
         run: npm run build
+      - name: Validate modern reviews
+        run: node scripts/validate-review-batch.mjs
+      - name: Validate legacy migration
+        run: node scripts/validate-legacy-migration.mjs
+      - name: Record canonical article parity
+        run: npm run audit:article-parity
+      - name: Print upgrade queue
+        run: npm run plan:upgrades -- --size=5
+      - name: Check patch formatting
+        run: git diff --check
       - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
         with:
           path: ./dist
   deploy:
     needs: build
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
