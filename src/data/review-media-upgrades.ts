@@ -33,6 +33,24 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/krups-evidence-milk-ea891d27/': retailerProductMedia(
+    'Amazon UK EA891D27 product listing',
+    'https://www.amazon.co.uk/Krups-EA891D27-Evidence-Automatic-Espresso/dp/B083PJNPFQ',
+    [
+      {
+        src: 'https://m.media-amazon.com/images/I/61BDTBa1mpL._AC_SL1500_.jpg',
+        alt: 'Retailer product image of EA891D27 front, OLED panel, milk vessel and width and height callouts',
+        caption: 'The EA891D27 retailer listing illustrates the milk vessel and touch panel. Printed dimensions are retailer artwork, not independently measured.',
+        width: 1272, height: 1500,
+      },
+      {
+        src: 'https://m.media-amazon.com/images/I/61WDVPmmXKL._AC_SL1500_.jpg',
+        alt: 'Retailer close-up of Krups Evidence Milk touch panel and drink-selection icons',
+        caption: 'A close-up from the exact-model retailer listing shows the menu and OLED controls. The image is not a Coffeedant test photograph.',
+        width: 1500, height: 1500,
+      },
+    ],
+  ),
   '/espresso-machine/krups-evidence-eco-design-ea897b40/': officialProductMedia(
     'Krups UK EA897B40 product gallery',
     'https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/EVIDENCE-ECO-DESIGN---Black/p/8010001175',

@@ -1,0 +1,25 @@
+# Krups Evidence Milk EA891D27 research ledger
+
+- Route: `/espresso-machine/krups-evidence-milk-ea891d27/`
+- Permanent ID: `CD-EM-000188`; checked September 24, 2026.
+- Research-led. Coffeedant has not brewed on, timed, measured, dismantled or long-term tested this unit.
+
+## Exact identity and official manufacturer evidence
+
+The [Krups UK EA891D27 support page](https://www.krups.co.uk/instructions-for-use/Products-/Beverages/Full-automatic/KRUPS-Evidence-Milk-Bean-to-Cup-Coffee-Machine--Silver-EA891D27/csp/8010000319) explicitly names the UK silver model. It advertises 15 one-touch hot-drink choices, paired milk preparation, OLED touch display, Dark and Extra Shot options and Krups Quattro Force. Its FAQ contains a generic mobile-app category shared across manufacturer products; that is **not** evidence of Bluetooth or an app on EA891D27. A [2019 family instruction PDF](https://dam.groupeseb.com/m/9242d4332a46dacd/original/8020005297-IFU.pdf?timestamp=20251008195825) explains EA89-family setup and cleaning, but edition-specific controls must be confirmed from the delivered manual. The [Krups Ireland Evidence EA891 family product page](https://www.krups.ie/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/EVIDENCE-EA891---BEAN-TO-CUP-MACHINE/p/8010000319) was indexed with seven black, five milk and three tea-temperature choices, 2.3 L tank, 260 g beans, three grind/temperature positions, ten-puck bin and 15.8 cm outlet. Its live page returned 502 during the fresh check, so these family specifications are labeled as such rather than used for unqualified UK claims. Check the UK rating plate and delivered revision. Never map Evidence Connected or Evidence One EA895 functions to EA891D27.
+
+The UK [accessories list](https://www.krups.co.uk/accessories-store/Products-/Beverages/Full-automatic/KRUPS-Evidence-Milk-Bean-to-Cup-Coffee-Machine--Silver-EA891D27/csp/8010000319) and [compatible milk jug](https://www.krups.co.uk/accessory/Milk-jug-for-the-Espresso-Evidence-MS-8030000372/a/8030000372) give a parts and cleaning path, not a guarantee of unit life or present stock. Automatic circuit rinses do not cancel manual cleaning of milk-contact parts. This page neither specifies an unverified machine depth nor asserts that a closed brewing assembly is user-removable.
+
+## Independent work and video limitation
+
+[Her Favourite Food & Travel](https://www.herfavfood.com/blog/krups-evidence-bean-to-cup-coffee-machine-review), dated May 12, 2019, describes firsthand use of an Evidence **Connected** variant for two months, including app and Bluetooth use. It is an independent family evaluation, not an exact EA891D27 test. Neither its tasting praise nor app support is transferred. [Rob Locke's 7:13 video](https://www.youtube.com/watch?v=t7CcnEZ2SGI), uploaded September 20, 2022, films an **Evidence One EA895** and discloses an affiliate link. It is a unique independent visual reference for adjacent-family workflow, not proof of EA891D27 functions, taste or milk-temperature results. Search did not reveal a reputable independently verified exact-EA891D27 hands-on evaluation or independent exact-model film. The review states this gap rather than pretending adjacent models were tested. The embedded video retains its actual title, creator, date and model identity.
+
+## Dated price and community/owner evidence
+
+On September 24, 2026 the [Amazon UK exact article/ASIN B083PJNPFQ](https://www.amazon.co.uk/Krups-EA891D27-Evidence-Automatic-Espresso/dp/B083PJNPFQ) showed **no featured offer** and 31 self-selected customer ratings. No exact-model UK stock/checkout price was confirmed. An old Coffeedant assertion of £893 with five units is stale and removed; no availability, discount or typical current price is inferred. A price for EA891810, EA895 or an import is not an EA891D27 UK checkout price.
+
+One author in the [EA891D27 Elektroda discussion](https://www.elektroda.com/rtvforum/topic4086695.html) on November 13, 2024 said a machine purchased August 8 had made fewer than 15 cups and suddenly produced lukewarm milk without foam despite milk-connector cleaning and trying different milks. A November 14 reply suggested cleaning/descaling and then warranty service. There is no technician diagnosis, follow-up, representative sample or denominator. The old page's “thousands of reports,” “most users fail in 2–3 months,” catastrophic defect and purported return-rate claims are unsupported and removed. The discussion is summarized in a fully readable on-page panel with **no external links within that panel**; the original source is in the research ledger and page source list.
+
+## Unknowns
+
+No Coffeedant brew-temperature, milk-temperature, strength, grinder-performance, noise, dimensions, extraction-pressure, repeated-cycle timing or reliability cohort was available. Amazon's listing images are not independent testing. The retailer gallery also included an image with a smartphone beside the machine; it was excluded because it could be confused with a Connected edition. Price and availability should be refreshed before purchase. Retain the exact edition and warranty boundary.
