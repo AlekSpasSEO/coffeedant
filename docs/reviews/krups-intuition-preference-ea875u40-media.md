@@ -1,10 +1,19 @@
-# Krups Intuition Preference+ EA875U40 media usage ledger
+# Krups Intuition Preference+ EA875U40 review: 15 drinks media ledger
 
-Checked September 24, 2026. Publication image cap: 3 total images. One hero and two inline assets come from the [exact Krups UK EA875U40 gallery](https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/INTUITION-PREFERENCE%2B-Bean-to-Cup-Coffee-Machine---Dark-Grey/p/8010001185). All three originals loaded and were visually inspected. They remain hotlinked to the manufacturer, not downloaded, relicensed or represented as Coffeedant photographs. Public display is not an express redistribution license; recheck rights and remote availability as needed.
+Generated from the rendered review updated 2026-09-24. This is the publication audit record for the inline editorial media. The implementation remains the canonical machine-readable record.
 
-| # | Placement | Original asset | Size inspected | Credit and disclosure |
-| ---: | --- | --- | --- | --- |
-| 1 | Setup inline | [Angled machine, milk vessel and two drinks](https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wxMzMxNDF8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZzNaQzlvTkdJdk1qWTRPRGMxTURFNU16ZzNNVGd8ZjU5ZjlmMGMzMmU3ZTIyNmQwNTgxMDAxNDg2NGI1MzQ3NmIyYjhmNTAxN2I0ZjM5NTU1MjQyNjQ1YTg4MmMxOA) | 700 × 560 | Krups UK official gallery. Milk and drink presentation is promotional, not a Coffeedant result. |
-| 2 | Build inline | [Fifteen-drink promotional menu](https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wzMzE2NzZ8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZ3hNeTlvTmpZdk1qWTRPRGMxTVRFd09EQTVPVEF8ZWQ2NTdlYjlkYzA2ZGJjM2U5MzQ5YzhlMTJjNjIzNzg3M2QzYjBjYWM5ZjdjMzk0ZjUzYjVlMThmYzczNDQ1MQ) | 700 × 700 | Krups UK official artwork. It does not verify taste, temperature or serving time. |
+## Density and source mix
 
-Hero: [Front EA875U40 with two milk drinks](https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wxMjUzMzF8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZzNaaTlvWldZdk1qWTRPRGMwT1RreU5URTNOREl8YWQ2OGMyNzBjZGNhMDYyYTJhYTA4YTIzZDcxMGExODdkNjM3NDg0MTI2ZDRmY2IyYzQ3NTViZjA1YTM2MDI5OQ), 700 × 622, exact Krups UK gallery. Inline URLs, alt text, dimensions, source type, credit, usage link and disclosure are wired in `src/data/review-media-upgrades.ts`. The independent video stays hosted by PROrankingi; no owner or video still is copied.
+- Editorial word count, excluding captions and embeds: 5498
+- Publication image cap: 3 total images
+- Images published: 3 (2 inline images plus one product hero)
+- User-generated or community inline images: 0 of 2
+- Every externally hosted image links to its original community, owner-review, or product-listing page.
+- Customer and community media is not represented as Coffeedant testing. Externally embedded media must retain its visible credit and source record, and must not be copied into the local asset store without a separate reuse review.
+
+## Image records
+
+| # | Placement | Source type | UGC | Original | Usage record | Creator or reviewer | Dimensions | Alt text | Editorial purpose and disclosure |
+| ---: | --- | --- | :---: | --- | --- | --- | ---: | --- | --- |
+| 1 | setup | manufacturer | No | [Original source](https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/INTUITION-PREFERENCE%2B-Bean-to-Cup-Coffee-Machine---Dark-Grey/p/8010001185) | [Official manufacturer product-page media](https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/INTUITION-PREFERENCE%2B-Bean-to-Cup-Coffee-Machine---Dark-Grey/p/8010001185) | Krups UK EA875U40 official gallery | 700 × 560 | Krups UK EA875U40 angled view with external milk vessel and two layered milk drinks | Official gallery image shows the milk tube, vessel and paired outlets; pictured foam and drink layers are promotional, not Coffeedant test results. Disclosure: Official manufacturer media; not a Coffeedant test photograph. |
+| 2 | build | manufacturer | No | [Original source](https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/INTUITION-PREFERENCE%2B-Bean-to-Cup-Coffee-Machine---Dark-Grey/p/8010001185) | [Official manufacturer product-page media](https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/INTUITION-PREFERENCE%2B-Bean-to-Cup-Coffee-Machine---Dark-Grey/p/8010001185) | Krups UK EA875U40 official gallery | 700 × 700 | Krups UK EA875U40 promotional menu image with black, milk and tea drinks | Manufacturer artwork illustrates the 15-drink range; it does not establish independent taste, temperature or serving-time measurements. Disclosure: Official manufacturer media; not a Coffeedant test photograph. |

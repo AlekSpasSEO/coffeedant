@@ -1,17 +1,19 @@
-# Krups Arabica Manual media usage ledger
+# Krups Arabica Manual EA811040 / EA811840 review: simple bean-to-cup controls media ledger
 
-Checked September 23, 2026. These three editorial images use external hotlinks to Krups UK's [black EA811040 manufacturer gallery](https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/Arabica-Manual-EA811040-Espresso-Bean-to-Cup-Coffee-Machine-Black/p/8010000003). Credit: Krups UK. Source type: manufacturer. Usage is embedded at source rather than a downloaded or relicensed copy; permission for redistribution is not inferred. All three depict the black article, not purported photographs of silver EA811840 or Coffeedant testing. If the source stops serving an image, remove or replace the hotlink after another rights check.
+Generated from the rendered review updated 2026-09-23. This is the publication audit record for the inline editorial media. The implementation remains the canonical machine-readable record.
 
+## Density and source mix
+
+- Editorial word count, excluding captions and embeds: 5406
 - Publication image cap: 3 total images
-- Published: one hero and two credited inline images; zero customer/community photos.
+- Images published: 3 (2 inline images plus one product hero)
+- User-generated or community inline images: 0 of 2
+- Every externally hosted image links to its original community, owner-review, or product-listing page.
+- Customer and community media is not represented as Coffeedant testing. Externally embedded media must retain its visible credit and source record, and must not be copied into the local asset store without a separate reuse review.
 
-| # | Placement | Source type | Original | Usage record | Creator | Dimensions | Alt | Purpose and disclosure |
-| ---: | --- | --- | --- | --- | --- | ---: | --- | --- |
-| 1 | setup | manufacturer | [Krups UK EA811040 product gallery](https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/Arabica-Manual-EA811040-Espresso-Bean-to-Cup-Coffee-Machine-Black/p/8010000003) | [Original product-page media](https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/Arabica-Manual-EA811040-Espresso-Bean-to-Cup-Coffee-Machine-Black/p/8010000003) | Krups UK | 566 × 700 | Manufacturer view of black Krups EA811040 Arabica Manual housing and front controls | Physical control scheme; manufacturer image, not Coffeedant testing. |
-| 2 | build | manufacturer | [Krups UK EA811040 product gallery](https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/Arabica-Manual-EA811040-Espresso-Bean-to-Cup-Coffee-Machine-Black/p/8010000003) | [Original product-page media](https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/Arabica-Manual-EA811040-Espresso-Bean-to-Cup-Coffee-Machine-Black/p/8010000003) | Krups UK | 700 × 700 | Krups manufacturer gallery image showing the black EA811040 control and steam layout | Manual milk and button workflow; manufacturer image, not a Coffeedant experiment. |
+## Image records
 
-1. Hero: original Krups gallery file with context beginning `bWFzdGVyfGltYWdlc3wxNzc4NzJ8`. Verified loaded at 484 × 700. Alt text identifies black EA811040, buttons and manual nozzle. Credit appears in media metadata.
-2. Inline controls: gallery file beginning `bWFzdGVyfGltYWdlc3wxOTE5NzJ8`. Verified loaded at 566 × 700. Caption explains the physical control scheme without asserting measured quality; credited inline.
-3. Inline workflow: gallery file beginning `bWFzdGVyfGltYWdlc3wyNjQ3Mjd8`. Verified loaded at 700 × 700. Caption describes separately operated milk/coffee workflow; credited inline.
-
-The [mrbowlfish EA8118-series video](https://www.youtube.com/watch?v=jeaKakwUuQ8) is linked/embedded as an external video without copying stills or footage. Publication date is November 28, 2019; manufacturer-provided test unit and affiliate links are disclosed; no exact UK SKU equivalence is asserted. The [Currys silver UK video](https://www.youtube.com/watch?v=4YxFA7Rbxk4) is corroborating commercial visual context, not a substitute for firsthand independent evaluation. Source links for owner evidence live in the annotated research sources, not inside the on-page community summary.
+| # | Placement | Source type | UGC | Original | Usage record | Creator or reviewer | Dimensions | Alt text | Editorial purpose and disclosure |
+| ---: | --- | --- | :---: | --- | --- | --- | ---: | --- | --- |
+| 1 | setup | manufacturer | No | [Original source](https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/Arabica-Manual-EA811040-Espresso-Bean-to-Cup-Coffee-Machine-Black/p/8010000003) | [Official manufacturer product-page media](https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/Arabica-Manual-EA811040-Espresso-Bean-to-Cup-Coffee-Machine-Black/p/8010000003) | Krups UK black EA811040 product gallery | 566 × 700 | Manufacturer view of black Krups EA811040 Arabica Manual housing and front controls | Official black EA811040 product image helps locate its physical coffee buttons and rotary dial; this is not a Coffeedant test photograph. Disclosure: Official manufacturer media; not a Coffeedant test photograph. |
+| 2 | build | manufacturer | No | [Original source](https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/Arabica-Manual-EA811040-Espresso-Bean-to-Cup-Coffee-Machine-Black/p/8010000003) | [Official manufacturer product-page media](https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/Arabica-Manual-EA811040-Espresso-Bean-to-Cup-Coffee-Machine-Black/p/8010000003) | Krups UK black EA811040 product gallery | 700 × 700 | Krups manufacturer gallery image showing the black EA811040 control and steam layout | The UK manufacturer gallery illustrates the manual milk and button-led coffee workflow; recipes and results have not been measured by Coffeedant. Disclosure: Official manufacturer media; not a Coffeedant test photograph. |

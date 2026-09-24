@@ -37,6 +37,7 @@ import { upgradeLelitAnnaReviews } from './reviews/upgrade-lelit-anna';
 import { upgradeLelitGlendaReviews } from './reviews/upgrade-lelit-glenda';
 import { upgradeLelitGraceReviews } from './reviews/upgrade-lelit-grace';
 import { upgradeLelitMaraXReviews } from './reviews/upgrade-lelit-mara-x';
+import { upgradeLelitVictoriaReviews } from './reviews/upgrade-lelit-victoria';
 import {
   getReviewRouteDefinition,
   hasValidReviewProductId,
@@ -112,6 +113,7 @@ const candidates: MachineReviewData[] = [
   ...upgradeLelitGlendaReviews,
   ...upgradeLelitGraceReviews,
   ...upgradeLelitMaraXReviews,
+  ...upgradeLelitVictoriaReviews,
 ];
 const bySlug = new Map(candidates.map((review) => [review.slug, review]));
 
