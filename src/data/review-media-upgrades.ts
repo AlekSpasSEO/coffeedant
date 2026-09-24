@@ -33,6 +33,36 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/nuova-simonelli-musica/': [
+    {
+      src: 'https://nuovasimonelli.com/wp-content/uploads/sites/2/2025/05/Gruppo-di-maschere-342.png',
+      alt: 'Nuova Simonelli official three-quarter view of the Musica standard black-lining espresso machine',
+      caption: 'The current official product view identifies the standard black-lining cabinet, 58 mm group, hot-water wand, steam wand, volumetric console and boiler gauge. It does not establish brew-water temperature at the coffee puck.',
+      width: 1268,
+      height: 800,
+      credit: 'Nuova Simonelli current Musica product page',
+      sourceHref: 'https://nuovasimonelli.com/machine/musica/',
+      sourceType: 'manufacturer',
+      usageLabel: 'Official manufacturer product-page media',
+      usageHref: 'https://nuovasimonelli.com/machine/musica/',
+      userGenerated: false,
+      disclosure: 'Official manufacturer media; not a Coffeedant test photograph.',
+    },
+    {
+      src: 'https://cdn.shopify.com/s/files/1/0564/3288/5835/files/musica-water-tank-1_9511a181-6f17-4fb2-b62e-2a6412af8390.jpg?v=1710606771',
+      alt: 'Espresso Outlet exact-model view of the Nuova Simonelli Musica top reservoir hatch and removable water tank',
+      caption: 'The reviewed reservoir view makes the top-fill access and removable tank visible. Official records still conflict between 2.3 and 3.0 liters, so the photograph is not used to infer capacity.',
+      width: 4240,
+      height: 2832,
+      credit: 'Espresso Outlet Nuova Simonelli Musica hands-on review',
+      sourceHref: 'https://espressooutlet.com/blogs/news/nuova-simonelli-musica-in-depth-review',
+      sourceType: 'product-listing',
+      usageLabel: 'Retailer exact-model review media',
+      usageHref: 'https://espressooutlet.com/blogs/news/nuova-simonelli-musica-in-depth-review',
+      userGenerated: false,
+      disclosure: 'Independent reviewer media; Coffeedant did not test or photograph this machine.',
+    },
+  ],
   '/espresso-machine/nivona-caferomatica-8xx/': retailerProductMedia(
     'Aromatico current NICR 825 listing and Nivona official regional store',
     'https://www.aromatico.de/en/p/nivona-nicr-825-caferomatica',

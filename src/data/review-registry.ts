@@ -48,6 +48,7 @@ import { upgradeMieleCM6360Reviews } from './reviews/upgrade-miele-cm6360';
 import { upgradeMieleCM7750Reviews } from './reviews/upgrade-miele-cm7750';
 import { upgradeNivonaCafeRomatica6xxReviews } from './reviews/upgrade-nivona-caferomatica-6xx';
 import { upgradeNivonaCafeRomatica8xxReviews } from './reviews/upgrade-nivona-caferomatica-8xx';
+import { upgradeNuovaSimonelliMusicaReviews } from './reviews/upgrade-nuova-simonelli-musica';
 import {
   getReviewRouteDefinition,
   hasValidReviewProductId,
@@ -134,6 +135,7 @@ const candidates: MachineReviewData[] = [
   ...upgradeMieleCM7750Reviews,
   ...upgradeNivonaCafeRomatica6xxReviews,
   ...upgradeNivonaCafeRomatica8xxReviews,
+  ...upgradeNuovaSimonelliMusicaReviews,
 ];
 const bySlug = new Map(candidates.map((review) => [review.slug, review]));
 
