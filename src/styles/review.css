@@ -265,13 +265,13 @@
   .review-page { padding-top: 18px; }
   .review-shell { width: calc(100vw - 28px); max-width: 1180px; min-width: 0; }
   .review-summary { width: 100%; max-width: 100%; grid-template-columns: minmax(0, 1fr); min-width: 0; overflow: hidden; box-shadow: 4px 4px 0 var(--ink); }
-  .review-summary-heading { grid-column: 1; grid-row: 1; width: 100%; min-width: 0; padding: 26px 22px 6px; }
-  .review-summary-media { grid-column: 1; grid-row: 2; display: block; width: 100%; min-width: 0; padding: 20px 22px; border-top: 1px solid var(--line); border-right: 0; border-bottom: 2px solid var(--ink); }
-  .review-award { width: fit-content; max-width: 100%; margin-bottom: 16px; overflow-wrap: anywhere; }
+  .review-summary-heading { grid-column: 1; grid-row: 1; width: calc(100vw - 32px); max-width: calc(100vw - 32px); min-width: 0; padding: 26px 22px 6px; }
+  .review-summary-media { grid-column: 1; grid-row: 2; display: block; width: calc(100vw - 32px); max-width: calc(100vw - 32px); min-width: 0; padding: 20px 22px; border-top: 1px solid var(--line); border-right: 0; border-bottom: 2px solid var(--ink); }
+  .review-award { width: fit-content; max-width: calc(100vw - 76px); margin-bottom: 16px; overflow-wrap: anywhere; }
   .review-product-image { width: 220px; margin-bottom: 19px; }
-  .review-author-card { max-width: 100%; min-width: 0; margin: 0 auto; padding: 13px; overflow-wrap: anywhere; }
-  .review-summary-main { grid-column: 1; grid-row: 3; width: 100%; min-width: 0; padding: 26px 22px; }
-  .review-summary h1 { max-width: 100%; font-size: clamp(2.4rem, 7vw, 3.5rem); overflow-wrap: anywhere; }
+  .review-author-card { max-width: calc(100vw - 76px); min-width: 0; margin: 0 auto; padding: 13px; overflow-wrap: anywhere; }
+  .review-summary-main { grid-column: 1; grid-row: 3; width: calc(100vw - 32px); max-width: calc(100vw - 32px); min-width: 0; padding: 26px 22px; }
+  .review-summary h1 { max-width: calc(100vw - 76px); font-size: clamp(2.4rem, 7vw, 3.5rem); overflow-wrap: anywhere; }
   .review-deck { font-size: 1rem; }
   .review-alternatives { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .review-alternatives a { grid-template-columns: 1fr; gap: 5px; }
