@@ -35,6 +35,7 @@ import { upgradeLaPavoniMiniCelliniReviews } from './reviews/upgrade-la-pavoni-m
 import { upgradeLaPavoniNewDomusBarReviews } from './reviews/upgrade-la-pavoni-new-domus-bar';
 import { upgradeLelitAnnaReviews } from './reviews/upgrade-lelit-anna';
 import { upgradeLelitGlendaReviews } from './reviews/upgrade-lelit-glenda';
+import { upgradeLelitGraceReviews } from './reviews/upgrade-lelit-grace';
 import {
   getReviewRouteDefinition,
   hasValidReviewProductId,
@@ -108,6 +109,7 @@ const candidates: MachineReviewData[] = [
   ...upgradeLaPavoniNewDomusBarReviews,
   ...upgradeLelitAnnaReviews,
   ...upgradeLelitGlendaReviews,
+  ...upgradeLelitGraceReviews,
 ];
 const bySlug = new Map(candidates.map((review) => [review.slug, review]));
 
