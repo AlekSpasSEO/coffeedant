@@ -245,6 +245,26 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/melitta-cafina-xt7/': officialProductMedia(
+    'Melitta Professional current Cafina XT7 product page',
+    'https://www.melitta-professional.com/us/en/coffeemachines/fuer-den-praktischen-comfort/Melitta-Cafina-XT7',
+    [
+      {
+        src: 'https://s7g10.scene7.com/is/image/melitta/feature_xt7_topfoam%3A16-9?ts=1763989804042&fmt=png-alpha&dpr=off',
+        alt: 'Melitta Professional official Cafina XT7 TopFoam feature image',
+        caption: 'The official TopFoam image illustrates the international integrated milk proposition. Melitta’s current US page says North America receives a two-step-only XT7, so this is not a US default.',
+        width: 1920,
+        height: 1080,
+      },
+      {
+        src: 'https://s7g10.scene7.com/is/image/melitta/feature_xt7_acs%3A16-9?ts=1763989804013&fmt=png-alpha&dpr=off',
+        alt: 'Melitta Professional official Cafina XT7 Automatic Coffeequality System feature image',
+        caption: 'The official ACS image represents automatic correction within the configured brewing process. It does not establish sensory quality or consistency for a particular site, recipe or maintenance history.',
+        width: 1920,
+        height: 1080,
+      },
+    ],
+  ),
   '/espresso-machine/la-pavoni-europiccola/': officialProductMedia(
     'La Pavoni LPLELQ01EU official gallery',
     'https://www.lapavoni.com/en/products/domestic-machines/europiccola-lusso',
