@@ -33,6 +33,24 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/krups-intuition-preference-ea875u40/': officialProductMedia(
+    'Krups UK EA875U40 official gallery',
+    'https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/INTUITION-PREFERENCE%2B-Bean-to-Cup-Coffee-Machine---Dark-Grey/p/8010001185',
+    [
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wxMzMxNDF8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZzNaQzlvTkdJdk1qWTRPRGMxTURFNU16ZzNNVGd8ZjU5ZjlmMGMzMmU3ZTIyNmQwNTgxMDAxNDg2NGI1MzQ3NmIyYjhmNTAxN2I0ZjM5NTU1MjQyNjQ1YTg4MmMxOA',
+        alt: 'Krups UK EA875U40 angled view with external milk vessel and two layered milk drinks',
+        caption: 'Official gallery image shows the milk tube, vessel and paired outlets; pictured foam and drink layers are promotional, not Coffeedant test results.',
+        width: 700, height: 560,
+      },
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wzMzE2NzZ8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZ3hNeTlvTmpZdk1qWTRPRGMxTVRFd09EQTVPVEF8ZWQ2NTdlYjlkYzA2ZGJjM2U5MzQ5YzhlMTJjNjIzNzg3M2QzYjBjYWM5ZjdjMzk0ZjUzYjVlMThmYzczNDQ1MQ',
+        alt: 'Krups UK EA875U40 promotional menu image with black, milk and tea drinks',
+        caption: 'Manufacturer artwork illustrates the 15-drink range; it does not establish independent taste, temperature or serving-time measurements.',
+        width: 700, height: 700,
+      },
+    ],
+  ),
   '/espresso-machine/krups-intuition-experience-ea877d40/': officialProductMedia(
     'Krups UK EA877D40 official gallery',
     'https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/Intuition%C2%A0Experience%2B---Stainless-Steel/p/8010001252',
