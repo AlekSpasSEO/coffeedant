@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/nivona-caferomatica-6xx/': officialProductMedia(
+    'Nivona current NICR 6-series product page',
+    'https://nivona.com/nl/product/6series',
+    [
+      {
+        src: 'https://nivona.com/assets/6_series_hero1-xl_c7vjD.webp',
+        alt: 'Nivona official kitchen view of the current titanium NICR 695 with a cappuccino beside its central outlet',
+        caption: 'The official kitchen view gives scale for the compact 6-series body and shows that coffee and milk share the central outlet. It is manufacturer media, not a Coffeedant test photograph.',
+        width: 3000,
+        height: 2000,
+      },
+      {
+        src: 'https://nivona.com/assets/6_series_spec1-BiDNeBmF.webp',
+        alt: 'Nivona official detail view of the current NICR 695 control panel and combined coffee and milk dispenser',
+        caption: 'The official detail view identifies the rotary interface, 2.4-inch display and integrated frother. It does not prove drink temperature, texture or durability.',
+        width: 1400,
+        height: 2100,
+      },
+    ],
+  ),
   '/espresso-machine/la-pavoni-mini-cellini/': officialProductMedia(
     'La Pavoni LPSMCS01EU official gallery',
     'https://www.lapavoni.com/en/products/domestic-machines/mini-cellini',
