@@ -33,6 +33,36 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/philips-5400-lattego/': [
+    {
+      src: 'https://images.philips.com/is/image/philipsconsumer/vrs_94e3ff8bfd0fdd8755644c1aea2d960ba5b46814?$jpglarge$=&wid=1200',
+      alt: 'Official Philips 5400 close view of the color TFT, profile icons and drink-selection controls',
+      caption: 'The official control view makes the color TFT, four profile positions and drink-selection layout visible. It does not establish menu speed, accessibility or durability in Coffeedant testing.',
+      width: 1200,
+      height: 675,
+      credit: 'Philips US EP5447/94 archived product page',
+      sourceHref: 'https://acc.usa.philips.com/c-p/EP5447_94/philips-5400-series-fully-automatic-espresso-machines',
+      sourceType: 'manufacturer',
+      usageLabel: 'Official manufacturer product-page media',
+      usageHref: 'https://acc.usa.philips.com/c-p/EP5447_94/philips-5400-series-fully-automatic-espresso-machines',
+      userGenerated: false,
+      disclosure: 'Official manufacturer media; not a Coffeedant test photograph.',
+    },
+    {
+      src: 'https://espresso-experts.com/cdn/shop/products/EP5447_94.Angle1000x_800x_5a67d997-e5fc-405a-8214-65ede546dbe9.jpg?v=1717953531&width=1200',
+      alt: 'Espresso Machine Experts exact-model product view of the Philips 5400 EP5447/94 and LatteGo container',
+      caption: 'The exact-model retailer view identifies the front-mounted LatteGo container, central outlet and compact body. It is refurbished-offer listing media, not evidence of the condition of every unit.',
+      width: 1200,
+      height: 960,
+      credit: 'Espresso Machine Experts refurbished EP5447/94 listing',
+      sourceHref: 'https://espresso-experts.com/products/refurbished-philips-saeco-5400-superautomatic-espresso-machine-lattego-silver-ep5447-94',
+      sourceType: 'product-listing',
+      usageLabel: 'Current retailer product-page media',
+      usageHref: 'https://espresso-experts.com/products/refurbished-philips-saeco-5400-superautomatic-espresso-machine-lattego-silver-ep5447-94',
+      userGenerated: false,
+      disclosure: 'Retailer product-listing media; not a Coffeedant test photograph.',
+    },
+  ],
   '/espresso-machine/philips-4300-lattego/': [
     {
       src: 'https://images.philips.com/is/image/philipsconsumer/vrs_b891a136ced970087a5685e095c4a4096192233f?$jpglarge$=&wid=1200',
