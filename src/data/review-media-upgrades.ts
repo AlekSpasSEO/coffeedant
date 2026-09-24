@@ -33,6 +33,24 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/la-pavoni-cellini-classic/': officialProductMedia(
+    'La Pavoni LPSCCS01EU official gallery',
+    'https://www.lapavoni.com/en/products/domestic-machines/cellini-classic',
+    [
+      {
+        src: 'https://assets.4flow.cloud/WEB_LPSCCS01EU_1.jpg.jpg?pEFs=cVY2M1MyN1ZOMFFadEQ5ZlVOMzhVd0s2MHpRSTlsNzcybkRabkpTeExQNmhuUU9LK3lydkVFZklMM0NJSkd4NmhBb1QxSGs3NlpZMEN3R1JJT3VGQ0V5RXFIRmxwRkg0ZDNwRlU5SndMUlNTdHFHR2hJODY2RkprQ3NlWUpjKzJlQkw3bXhKM210U0E1UjB4ejlDclZKN1pjVWdveDYycTdTQW5WV2YrK1ZrPQ',
+        alt: 'La Pavoni official front view of the Cellini Classic showing the E61 group, boiler gauge and two rotary valves',
+        caption: 'The exact-model front view confirms the single boiler manometer and manual E61 layout. It does not establish brew pressure, temperature or shot quality.',
+        width: 1300, height: 1300,
+      },
+      {
+        src: 'https://assets.4flow.cloud/WEB_LPSCCS01EU_2.jpg.jpg?pEFs=cVY2M1MyN1ZOMFFadEQ5ZlVOMzhVNnZPOVZIUG5uOG5NK1ErdG1CUUk5ZWcwTjBEY2VpYmNld0dBeCtLWmIvUTVyWTExSHhIQnpyYWZGVXpzU093bjIwdjBPNklJYnk4TVJlVXRUWGRlTmhTYVorMUZNcWErS1RyTHpWYXBzMHR0NDU1dGg0TERqVkNkOTVIVU43NkFtdXF0RnFhdWhJem5rSUpMdHpSK1BjPQ',
+        alt: 'La Pavoni official rear three-quarter view of the stainless steel Cellini Classic and its steam wand',
+        caption: 'The official rear view shows the full 430 mm cabinet depth and top-access layout that buyers must accommodate under cabinets.',
+        width: 1300, height: 1300,
+      },
+    ],
+  ),
   '/espresso-machine/krups-virtuoso-xp442c40/': officialProductMedia(
     'Krups UK XP442C40 official gallery',
     'https://www.krups.co.uk/ESPRESSO-MACHINES/TRADITIONAL-ESPRESSO-MACHINES/Krups-Virtuoso-XP442C40-Pump-Espresso-Coffee-Machine--Stainless-Steel/p/8010001076',

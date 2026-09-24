@@ -29,6 +29,7 @@ import { upgradeKrupsIntuitionPreferenceReviews } from './reviews/upgrade-krups-
 import { upgradeKrupsOpioReviews } from './reviews/upgrade-krups-opio';
 import { upgradeKrupsSensationReviews } from './reviews/upgrade-krups-sensation';
 import { upgradeKrupsVirtuosoReviews } from './reviews/upgrade-krups-virtuoso';
+import { upgradeLaPavoniCelliniClassicReviews } from './reviews/upgrade-la-pavoni-cellini-classic';
 import {
   getReviewRouteDefinition,
   hasValidReviewProductId,
@@ -96,6 +97,7 @@ const candidates: MachineReviewData[] = [
   ...upgradeKrupsOpioReviews,
   ...upgradeKrupsSensationReviews,
   ...upgradeKrupsVirtuosoReviews,
+  ...upgradeLaPavoniCelliniClassicReviews,
 ];
 const bySlug = new Map(candidates.map((review) => [review.slug, review]));
 
