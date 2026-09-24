@@ -33,6 +33,34 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/profitec-pro-800/': [
+    ...retailerProductMedia(
+      'The Kitchen Barista current Profitec Pro 800 listing',
+      'https://thekitchenbarista.com/products/profitec-pro-800-lever-espresso-machine-2022-version-stainless-steel',
+      [
+        {
+          src: 'https://thekitchenbarista.com/cdn/shop/files/Profitec-EspressoMachine-Pro800-3-TheKitchenBarista.jpg?v=1686067592&width=1445',
+          alt: 'The Kitchen Barista front view of the current Profitec Pro 800 spring lever, walnut controls and boiler gauge',
+          caption: 'The current retailer view shows the tall spring lever, walnut controls and traditional front panel. It does not establish pressure, temperature, steam speed or reliability in Coffeedant testing.',
+          width: 1201,
+          height: 1201,
+        },
+      ],
+    ),
+    ...retailerProductMedia(
+      'Home Coffee Solutions current Profitec Pro 800 listing',
+      'https://www.homecoffeesolutions.com/products/profitec-pro-800-semi-automatic-espresso-machine',
+      [
+        {
+          src: 'https://www.homecoffeesolutions.com/cdn/shop/files/Profitec800FrontSide_cb4ce4da-ef3d-4190-a62c-616303d51dbf.jpg?v=1750140204',
+          alt: 'Home Coffee Solutions front-side view of the current Profitec Pro 800 walnut-handle spring-lever machine',
+          caption: 'The exact-model side view records the current chassis and lever geometry. It is reference media, not proof of cabinet fit, delivered condition or included installation hardware.',
+          width: 1201,
+          height: 1200,
+        },
+      ],
+    ),
+  ],
   '/espresso-machine/profitec-pro-700/': retailerProductMedia(
     'Whole Latte Love retired Profitec Pro 700 listing',
     'https://www.wholelattelove.com/products/profitec-pro-700-dual-boiler-espresso-machine',
