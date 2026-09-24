@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/profitec-pro-700/': retailerProductMedia(
+    'Whole Latte Love retired Profitec Pro 700 listing',
+    'https://www.wholelattelove.com/products/profitec-pro-700-dual-boiler-espresso-machine',
+    [
+      {
+        src: 'https://www.wholelattelove.com/cdn/shop/products/Pro700-V2-frontal_on_132.jpg?v=1654187951&width=1100',
+        alt: 'Whole Latte Love front view of the final-generation Profitec Pro 700 with black gauges, front PID and E61 group',
+        caption: 'The retired-listing front view identifies the final-generation controls. It does not establish temperature, pressure, steam speed, condition or reliability in Coffeedant testing.',
+        width: 1100,
+        height: 1120,
+      },
+      {
+        src: 'https://www.wholelattelove.com/cdn/shop/products/Pro700-V2-Blindsieb.jpg?v=1654187951&width=1100',
+        alt: 'Whole Latte Love tray-area view of the Profitec Pro 700 water-supply selector and accessory storage',
+        caption: 'The tray-area product image records the water-supply selector and accessory storage on the retired model. It is reference media, not proof of installation quality or the included parts on any used unit.',
+        width: 1100,
+        height: 993,
+      },
+    ],
+  ),
   '/espresso-machine/profitec-pro-600/': retailerProductMedia(
     'Whole Latte Love retired Profitec Pro 600 Quick Steam Plus listing',
     'https://www.wholelattelove.com/products/profitec-pro-600-dual-boiler-espresso-machine-quick-steam',
