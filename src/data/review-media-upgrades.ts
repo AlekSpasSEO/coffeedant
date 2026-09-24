@@ -305,6 +305,26 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/miele-cm7750-coffeeselect/': officialProductMedia(
+    'Miele USA exact CM 7750 CoffeeSelect product gallery',
+    'https://www.mieleusa.com/product/11106260/countertop-coffee-machine-cm-7750-coffeeselect-obsidian-black',
+    [
+      {
+        src: 'https://media.miele.com/dam/dc77dc6b-0d44-4135-9893-b3ba01261ee3/20000189079_HighresDigitalRGB.png?impolicy=gallery&imwidth=1024',
+        alt: 'Miele official three-quarter view of the CM 7750 CoffeeSelect dispensing two espressos beneath its CM Touch display',
+        caption: 'The exact-model working view shows paired dispensing, the touch display, cup platform and top-access bean system. It is manufacturer media, not a Coffeedant extraction or taste test.',
+        width: 1080,
+        height: 1140,
+      },
+      {
+        src: 'https://media.miele.com/dam/5e254127-a0c8-428a-8e5a-b3ba0126479a/20000189059_HighresDigitalRGB.png?impolicy=gallery&imwidth=1024',
+        alt: 'Miele official side view of the black CM 7750 CoffeeSelect showing its deep cabinet, water-side panel and power cord',
+        caption: 'The official side view makes the 445 mm cabinet depth, top access and service-side proportions visible. It does not establish counter clearance in a specific kitchen.',
+        width: 1080,
+        height: 865,
+      },
+    ],
+  ),
   '/espresso-machine/la-pavoni-europiccola/': officialProductMedia(
     'La Pavoni LPLELQ01EU official gallery',
     'https://www.lapavoni.com/en/products/domestic-machines/europiccola-lusso',
