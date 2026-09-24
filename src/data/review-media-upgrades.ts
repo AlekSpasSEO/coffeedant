@@ -133,6 +133,24 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       disclosure: 'Retailer product-listing media; not a Coffeedant test photograph.',
     },
   ],
+  '/espresso-machine/lelit-mara-x/': officialProductMedia(
+    'Lelit US current MaraX PESMX02 gallery',
+    'https://www.lelit.com/en-us/product/marax-pesmx02',
+    [
+      {
+        src: 'https://assets.breville.com/cdn-cgi/image/width%3D1300%2Cformat%3Dauto/Lelit/PESMX02/PESMX02_Carousel2.png',
+        alt: 'Lelit official side image of the current stainless MaraX showing the projecting L58E group, lever, cup rail and deep cabinet',
+        caption: 'The exact official side view makes the 52 cm cabinet depth, projecting group and full lever path visible. It does not establish heat-up, temperature or counter clearance in a specific kitchen.',
+        width: 1300, height: 1300,
+      },
+      {
+        src: 'https://assets.breville.com/cdn-cgi/image/width%3D1300%2Cformat%3Dauto/Lelit/PESMX02/PESMX02_Carousel3.png',
+        alt: 'Lelit official three-quarter image of a black MaraX with maple controls, dual pressure gauge and cool-touch wands',
+        caption: 'The current official black and maple finish shows the dual manometer, spring-closure taps and separate steam and hot-water wands. Finish availability and delivered package remain regional.',
+        width: 1300, height: 1300,
+      },
+    ],
+  ),
   '/espresso-machine/la-pavoni-europiccola/': officialProductMedia(
     'La Pavoni LPLELQ01EU official gallery',
     'https://www.lapavoni.com/en/products/domestic-machines/europiccola-lusso',
