@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/quick-mill-pippa-4100/': officialProductMedia(
+    'Quick Mill official Pippa product page',
+    'https://www.quick-mill.com/products/pippa/',
+    [
+      {
+        src: 'https://www.quick-mill.com/wp-content/uploads/2025/05/17-600x600.png',
+        alt: 'Quick Mill official alternate view of the current Pippa compact single-boiler espresso machine',
+        caption: 'The official current-model view records the stainless chassis, ring group, pressure gauge, switches, wood controls, side tank and wand. It does not establish measured heat-up, temperature, pressure, steam or reliability.',
+        width: 600,
+        height: 600,
+      },
+      {
+        src: 'https://www.quick-mill.com/wp-content/uploads/2025/05/20-600x600.png',
+        alt: 'Quick Mill official detail view of the current Pippa group, pressure gauge and manual controls',
+        caption: 'The official detail records the stock group, gauge and control layout. It is reference media, not evidence of PID, programmable pre-infusion, measured pressure or automatic dosing.',
+        width: 600,
+        height: 600,
+      },
+    ],
+  ),
   '/espresso-machine/quick-mill-orione-3000/': officialProductMedia(
     'Quick Mill official Orione product page',
     'https://www.quick-mill.com/products/orione/',
