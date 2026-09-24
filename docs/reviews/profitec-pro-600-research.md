@@ -41,7 +41,7 @@ No owner thread supplies the denominator or controlled protocol needed for a fai
 
 - Hero: Whole Latte Love Quick Steam Plus exact-model product image.
 - Inline 1: Whole Latte Love front view showing joystick valves, gauges, PID and E61 group.
-- Inline 2: Clive Coffee dimension graphic for its discontinued North American Quick Steam listing.
+- Inline 2: Whole Latte Love exact-model side view of the final Quick Steam Plus chassis and joystick controls.
 - Total editorial images: three. All are credited retailer product-listing media and none is described as Coffeedant testing.
 
 ## Source set
