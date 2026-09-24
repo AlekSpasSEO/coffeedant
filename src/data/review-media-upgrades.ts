@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/quick-mill-carola-evo/': officialProductMedia(
+    'Quick Mill official Carola product page',
+    'https://www.quick-mill.com/products/carola/',
+    [
+      {
+        src: 'https://www.quick-mill.com/wp-content/uploads/2025/07/86-2.png',
+        alt: 'Quick Mill official alternate view of the current Carola PID single-boiler espresso machine',
+        caption: 'The official current-model view records the narrow stainless chassis, E61 group, manual lever, pressure gauge and front display. It does not establish warm-up, temperature, pressure, flow, noise or reliability in Coffeedant testing.',
+        width: 1200,
+        height: 1012,
+      },
+      {
+        src: 'https://www.quick-mill.com/wp-content/uploads/2025/07/88-1.png',
+        alt: 'Quick Mill official detail view of the current Carola E61 group and espresso-only front controls',
+        caption: 'The official detail records the current Carola control and group layout. It is reference media, not evidence of a steam system, factory flow-control kit or measured performance.',
+        width: 1200,
+        height: 1012,
+      },
+    ],
+  ),
   '/espresso-machine/quick-mill-andreja-premium-evo/': retailerProductMedia(
     'Espresso Outlet Quick Mill Andreja Premium Evo listing',
     'https://espressooutlet.com/products/quick-mill-andreja-premium-evo-espresso-machine',
