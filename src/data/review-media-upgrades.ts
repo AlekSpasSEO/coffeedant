@@ -87,6 +87,24 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/lelit-glenda-pl41plust/': retailerProductMedia(
+    'Mutbex exact Lelit Glenda PL41PLUST listing',
+    'https://www.mutbex.com/lelit-glenda-pl41-plust-pid-ayarli-espresso-kahve-makinesi',
+    [
+      {
+        src: 'https://www.mutbex.com/lelit-glenda-pl41-plust-pid-ayarli-espresso-kahve-makinesi-espresso-ve-cappuccino-makineleri-lelit-32617-16-B.jpg',
+        alt: 'Mutbex exact-model front image of the Lelit Glenda PL41PLUST showing the PID display, switches, 58 mm group and wand',
+        caption: 'The exact front view confirms the separate pump and mode switches, small PID display, 58 mm group and articulated wand. It is archived retailer media, not a Coffeedant test photograph.',
+        width: 800, height: 800,
+      },
+      {
+        src: 'https://www.mutbex.com/lelit-glenda-pl41-plust-pid-ayarli-espresso-kahve-makinesi-espresso-ve-cappuccino-makineleri-lelit-32619-16-B.jpg',
+        alt: 'Mutbex exact-model close view of the Lelit Glenda PL41PLUST filterholder locked into its 58 mm group',
+        caption: 'The exact close view makes the commercial-size group and filterholder connection visible. It does not establish extraction pressure, temperature or condition of a used machine.',
+        width: 800, height: 800,
+      },
+    ],
+  ),
   '/espresso-machine/la-pavoni-europiccola/': officialProductMedia(
     'La Pavoni LPLELQ01EU official gallery',
     'https://www.lapavoni.com/en/products/domestic-machines/europiccola-lusso',
