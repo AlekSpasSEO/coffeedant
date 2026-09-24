@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/nivona-caferomatica-8xx/': retailerProductMedia(
+    'Aromatico current NICR 825 listing and Nivona official regional store',
+    'https://www.aromatico.de/en/p/nivona-nicr-825-caferomatica',
+    [
+      {
+        src: 'https://cdn.shopify.com/s/files/1/0616/9031/4825/files/103308-103308-nivona-caferomatica-825.jpg?v=1737468267',
+        alt: 'Aromatico exact-model product view of the stainless and chrome Nivona NICR 825 dispensing a latte macchiato',
+        caption: 'The current specialist product view identifies the NICR 825 front, rotary interface, central milk outlet and active cup-warming deck. It is retailer media, not a Coffeedant test photograph.',
+        width: 800,
+        height: 800,
+      },
+      {
+        src: 'https://cdn.shopify.com/s/files/1/0616/9031/4825/files/103308-103308-nivona-825-caferomatica-kaffeevollautomat-mood.jpg?v=1737468272',
+        alt: 'Aromatico exact-model view of the Nivona NICR 825 serving two latte macchiatos together',
+        caption: 'The two-cup retailer image makes the DuoPlus buying case visible. It does not establish foam texture, temperature or speed in another kitchen.',
+        width: 800,
+        height: 800,
+      },
+    ],
+  ),
   '/espresso-machine/nivona-caferomatica-6xx/': officialProductMedia(
     'Nivona current NICR 6-series product page',
     'https://nivona.com/nl/product/6series',
