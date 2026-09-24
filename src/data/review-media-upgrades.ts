@@ -33,6 +33,24 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/la-pavoni-europiccola/': officialProductMedia(
+    'La Pavoni LPLELQ01EU official gallery',
+    'https://www.lapavoni.com/en/products/domestic-machines/europiccola-lusso',
+    [
+      {
+        src: 'https://assets.4flow.cloud/WEB_LPLELQ01EU_1.jpg.jpg?pEFs=cVY2M1MyN1ZOMFFadEQ5ZlVOMzhVNlZXZFI4NllDNTliTFRUWXB3WWF4MGx6ZDNSeEpvVUhUVDlUKzdSOVpvQjJuSFBPM00rMUlTQWVrWkg4Y0QrY21JREkwWCsxWHJSdXU0ekdnNnNmL2NiTW5Kc3dpU1p0NEVOdTF1WldsR0E1MUNkbmlSc3N5L3l5TjVTUGNFSmo4QjNtWmt6QTV1dXFIdTdxcVAzbTdRPQ',
+        alt: 'La Pavoni official front view of the chrome Europiccola Lusso with raised lever, sight glass and steam wand',
+        caption: 'The exact-model front view makes the compact base, exposed boiler, sight glass and lack of a pressure gauge clear. It does not establish shot quality or safe touch temperature.',
+        width: 1300, height: 1300,
+      },
+      {
+        src: 'https://assets.4flow.cloud/WEB_LPLELQ01EU_2.jpg.jpg?pEFs=cVY2M1MyN1ZOMFFadEQ5ZlVOMzhVL0ptWm5nemZFdTcxY3RFaGVOMGxiczNzOHdwQ2hLMm1HdGFzdDVlcGhUQjlWNkZ6aC9QUWRKKzc0SXFGU3hyV3RaTFJRVVk5S2JaYzBxMVBMeERQcENiaVhuNTF5ci9xbFpNVlcySWllQlhYVWFhdWFXeEUrQ2VKc2RuQTlkR3BmcUpZNUpjMFdYZ3dSL3l5S0RUZ2VzPQ',
+        alt: 'La Pavoni official side view of the Europiccola Lusso showing the lever arc, boiler cap and three-hole steam wand',
+        caption: 'The official side view explains the full lever clearance and exposed pressurised-boiler layout. It is manufacturer media, not a Coffeedant test photograph.',
+        width: 1300, height: 1284,
+      },
+    ],
+  ),
   '/espresso-machine/la-pavoni-cellini-classic/': officialProductMedia(
     'La Pavoni LPSCCS01EU official gallery',
     'https://www.lapavoni.com/en/products/domestic-machines/cellini-classic',
