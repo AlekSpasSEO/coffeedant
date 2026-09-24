@@ -33,6 +33,24 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/la-pavoni-mini-cellini/': officialProductMedia(
+    'La Pavoni LPSMCS01EU official gallery',
+    'https://www.lapavoni.com/en/products/domestic-machines/mini-cellini',
+    [
+      {
+        src: 'https://assets.4flow.cloud/WEB_LPSMCS01EU_01.jpg.jpg?pEFs=cVY2M1MyN1ZOMFFadEQ5ZlVOMzhVOGpvT2I2eUJJYXYva3BZYmJWLy9RcEhYeUpLTDNYdVdRREZWcG01UXZDTGdZTzBlZXJBcGxPd093aEo2RTZwTlRZZkhsN3RiVDBIK01EK0lkekJmV0paT01rMTZwTTdYWkpYS1NaS1RmNVo4NHRnekhtZHNCZXBHQWphNHhRR1dmLy94ZGdHTzJkeHo1cy9KOFl0YWR3PQ',
+        alt: 'La Pavoni official front view of the stainless Mini Cellini with E61 group, steam wand and boiler manometer',
+        caption: 'The exact-model front view confirms the E61 lever, separate steam and hot-water controls, and one boiler manometer. It does not establish brew pressure or temperature.',
+        width: 1300, height: 1300,
+      },
+      {
+        src: 'https://assets.4flow.cloud/WEB_LPSMCS01EU_02.jpg.jpg?pEFs=cVY2M1MyN1ZOMFFadEQ5ZlVOMzhVeDJZMDNOUjYwYkZ4WDZMS2hZS0lIWE8xR2dqZUV0azBhM0lBcWh0TWpCb0lCVy82dHdvWTgrZnZEcksrSnJoaGJNeUJFRndiOXVkc0lqcksyQldNQUR1eTM5ZTJ1TWdBK3pWMHlJb2dWZjgzTzRCK2NtR0praVZSOTNBQmxsVW15dkdPQ1dKVnN5M216cGxHVWx6NnRVPQ',
+        alt: 'La Pavoni official rear three-quarter view of the stainless Mini Cellini cabinet and top cup rail',
+        caption: 'The official rear view makes the 420 mm cabinet depth and top-access layout visible. It is manufacturer media, not a Coffeedant test photograph.',
+        width: 1300, height: 1300,
+      },
+    ],
+  ),
   '/espresso-machine/la-pavoni-europiccola/': officialProductMedia(
     'La Pavoni LPLELQ01EU official gallery',
     'https://www.lapavoni.com/en/products/domestic-machines/europiccola-lusso',
