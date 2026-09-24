@@ -285,6 +285,26 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/miele-cm6360-milkperfection/': officialProductMedia(
+    'Miele USA exact CM 6360 Lotus white product gallery',
+    'https://www.mieleusa.com/product/11648190/countertop-coffee-machine-cm-6360-milkperfection-lotus-white-cm',
+    [
+      {
+        src: 'https://media.miele.com/dam/af20cfab-5cab-4790-9bff-b3ba01265e60/20000189050_HighresDigitalRGB.png?impolicy=gallery&imwidth=1024',
+        alt: 'Miele official side view of the Lotus white CM 6360 showing the water tank and compact cabinet depth',
+        caption: 'The exact-model side view makes tank position, power cord, spout clearance and the full 427 mm cabinet depth visible. It is official product media, not a Coffeedant test photograph.',
+        width: 1080,
+        height: 783,
+      },
+      {
+        src: 'https://media.miele.com/dam/5ba56083-85d1-4bef-a2e9-b3ba01268b28/20000189030_HighresDigitalRGB.png?impolicy=gallery&imwidth=1024',
+        alt: 'Miele official close view of the CM 6360 DirectSensor display and drink controls',
+        caption: 'The official control close-up identifies the text display, direct drink buttons and navigation keys. It illustrates layout, not response time, menu ease or Coffeedant testing.',
+        width: 1080,
+        height: 810,
+      },
+    ],
+  ),
   '/espresso-machine/la-pavoni-europiccola/': officialProductMedia(
     'La Pavoni LPLELQ01EU official gallery',
     'https://www.lapavoni.com/en/products/domestic-machines/europiccola-lusso',
