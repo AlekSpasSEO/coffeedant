@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/quick-mill-andreja-premium-evo/': retailerProductMedia(
+    'Espresso Outlet Quick Mill Andreja Premium Evo listing',
+    'https://espressooutlet.com/products/quick-mill-andreja-premium-evo-espresso-machine',
+    [
+      {
+        src: 'https://espressooutlet.com/cdn/shop/files/andreja-front.webp?v=1709840773&width=720',
+        alt: 'Espresso Outlet front product view of the Quick Mill Andreja Premium Evo 0980P-A E61 group and dual gauges',
+        caption: 'The exact-model retailer view identifies the E61 group, lever, dual gauges, reservoir chassis and manual heat-exchanger controls. It does not establish temperature, pressure, warm-up, steam speed or reliability in Coffeedant testing.',
+        width: 681,
+        height: 681,
+      },
+      {
+        src: 'https://espressooutlet.com/cdn/shop/files/0980P-A-3.jpg?v=1709840772&width=720',
+        alt: 'Espresso Outlet detail view of the Quick Mill Andreja Premium Evo E61 group, brew lever and pressure gauges',
+        caption: 'The retailer detail records the stock E61 group, brew lever and front gauges on product ID 0980P-A. It is reference media, not proof that PID, flow control or direct plumbing is included.',
+        width: 681,
+        height: 681,
+      },
+    ],
+  ),
   '/espresso-machine/quick-mill-alexia-evo-flow/': retailerProductMedia(
     'Espresso Outlet Quick Mill Alexia Evo listing',
     'https://espressooutlet.com/products/quick-mill-alexia-evo-espresso-machine',
