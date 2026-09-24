@@ -1,3 +1,6 @@
+Warning: truncated output (original token count: 21382)
+Total output lines: 1604
+
 import type { ReviewMediaSeed } from './review-media-types';
 
 type OfficialMediaRow = Pick<ReviewMediaSeed, 'src' | 'alt' | 'caption' | 'width' | 'height'>;
@@ -33,6 +36,24 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/krups-virtuoso-xp442c40/': officialProductMedia(
+    'Krups UK XP442C40 official gallery',
+    'https://www.krups.co.uk/ESPRESSO-MACHINES/TRADITIONAL-ESPRESSO-MACHINES/Krups-Virtuoso-XP442C40-Pump-Espresso-Coffee-Machine--Stainless-Steel/p/8010001076',
+    [
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3w5Njk5NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnM055OW9PRFV2TWpZNE9EY3pNVGszTVRVNE56QXxlZTQ1ZjUyYzQ1Mzg3MjFkYzhlZGEzNjNmOTAzOThmOTU5OTMyZDM0ZDUyYjNlOTNmM2NjOTIyYTBiMDU2ZTVi',
+        alt: 'Krups UK close view of the Virtuoso XP442C40 four-button panel and side steam knob',
+        caption: 'Exact-model manufacturer image shows the simple power, steam, one-cup and two-cup controls. It does not establish response time or drink quality.',
+        width: 350, height: 350,
+      },
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3w4NzM4NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1DOW9PRFV2TWpZNE9EY3pNVGszTkRnMk16Z3w2MTAzZjIzNzZmYWFiZWU1OWJjNjMwYjgxMDc5ZTA4Y2IyZjYzZjIzMjlhNDQ0MWQ1MmMzZmNmMGJmNjAwMGE0',
+        alt: 'Krups UK Virtuoso XP442C40 manual steam nozzle frothing milk in a glass jug',
+        caption: 'Official promotional media illustrates nozzle placement and jug clearance. The pictured foam is not a Coffeedant test result.',
+        width: 350, height: 350,
+      },
+    ],
+  ),
   '/espresso-machine/krups-sensation-ea910e40/': officialProductMedia(
     'Krups UK EA910E40 official gallery',
     'https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/Sensation---Aluminium/p/8010001251',
@@ -671,118 +692,7 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
         height: 902,
       },
       {
-        src: 'https://dam.delonghi.com/902x902/assets/267440',
-        alt: "Front view of the De'Longhi Dinamica Plus ECAM380.85.SB touchscreen coffee machine",
-        caption: 'The front view shows the 3.5-inch full-touch interface and compact drink area used to navigate the documented 24 recipes.',
-        width: 902,
-        height: 902,
-      },
-    ],
-  ),
-  '/espresso-machine/delonghi-ecp3420/': [
-    ...retailerProductMedia(
-      'Amazon US ECP3420 product listing',
-      'https://www.amazon.com/dp/B00YCP71VK',
-      [
-        {
-          src: 'https://m.media-amazon.com/images/I/81PIdrvNi9L._AC_SL1500_.jpg',
-          alt: "De'Longhi ECP3420 entry-level espresso machine with pressurized portafilter",
-          caption: 'The full product view shows the compact group, manual frother, rear-tank body and small work area that frame the ECP3420 routine.',
-          width: 1500,
-          height: 1500,
-        },
-      ],
-    ),
-    ...officialProductMedia(
-      "De'Longhi ECP3420 support page",
-      'https://www.delonghi.com/en-us/s/ECP3420',
-      [
-        {
-          src: 'https://dam.delonghi.com/902x902/assets/223708',
-          alt: "Front view of the De'Longhi ECP3420 espresso and cappuccino machine",
-          caption: 'Official exact-model media shows the simple selector, dual drip-tray arrangement and manual Advanced Cappuccino frother without implying PID or automatic control.',
-          width: 902,
-          height: 902,
-        },
-      ],
-    ),
-  ],
-  '/espresso-machine/delonghi-la-specialista-prestigio/': officialProductMedia(
-    "De'Longhi EC9355.M product page",
-    'https://www.delonghi.com/en/p/la-specialista-prestigio-ec9355.m-la-specialista-prestigio-manual-espresso-maker/EC9355.M.html?pid=0132126017',
-    [
-      {
-        src: 'https://dam.delonghi.com/902x902/assets/214729',
-        alt: "De'Longhi La Specialista Prestigio EC9355.M dosing and tamping station",
-        caption: 'The official detail view shows how the portafilter sits under the integrated grinder and Smart Tamping lever before the owner transfers it to the group.',
-        width: 902,
-        height: 902,
-      },
-      {
-        src: 'https://dam.delonghi.com/902x902/assets/203978',
-        alt: "De'Longhi La Specialista Prestigio EC9355.M manual MyLatte Art steam wand",
-        caption: 'The milk-side view makes clear that Prestigio assists coffee preparation but leaves pitcher position, air, circulation and stopping to the user.',
-        width: 902,
-        height: 902,
-      },
-    ],
-  ),
-  '/espresso-machine/delonghi-magnifica-esam3000/': [
-    ...retailerProductMedia(
-      'eMAG ESAM3000.B product listing',
-      'https://www.emag.ro/espressor-automat-de-longhi-magnifica-esam-3000-b-sistem-manual-de-spumare-rasnita-cu-13-setari-1450w-15-bar-1-8-l-negru-esam3000b/pd/EWFKDBBBM/',
-      [
-        {
-          src: 'https://s13emagst.akamaized.net/products/47/46263/images/res_8d4afb8acd63ef89fc308eec8ce60f46.jpg?hash=C13014935E9F0783A8CF134CA636F68F&height=720&width=720',
-          alt: "Black De'Longhi Magnifica ESAM3000.B automatic coffee machine viewed from the front",
-          caption: 'The exact-machine review image shows the physical buttons, two rotary dials, dual outlet and manual frother that make the old ESAM workflow unusually direct.',
-          width: 720,
-          height: 720,
-        },
-      ],
-    ),
-    ...officialProductMedia(
-      "De'Longhi ESAM3000.B product page",
-      'https://www.delonghi.com/en/p/magnifica-esam3000.b-magnifica-bean-to-cup-coffee-machines/ESAM3000.B.html?pid=0132212125',
-      [
-        {
-          src: 'https://dam.delonghi.com/902x902/assets/118829',
-          alt: "De'Longhi Magnifica ESAM3000.B legacy bean-to-cup machine on a white background",
-          caption: 'The official image gives a second view of the front-access tank, waste drawer and compact legacy body. Condition must still be judged on the individual used unit.',
-          width: 902,
-          height: 902,
-        },
-      ],
-    ),
-  ],
-  '/espresso-machine/delonghi-magnifica-evo-next/': officialProductMedia(
-    "De'Longhi ECAM310.80.SB product page",
-    'https://www.delonghi.com/en/p/magnifica-evo-next-magnifica-evo-next-automatic-coffee-maker-ecam310.80.sb/ECAM310.80.SB.html?pid=0132250041',
-    [
-      {
-        src: 'https://dam.delonghi.com/902x902/assets/294624',
-        alt: "De'Longhi Magnifica Evo Next ECAM310.80.SB with LatteCrema Hot carafe",
-        caption: 'Official media shows the exact ECAM310.80.SB milk configuration, compact TFT control area and attached LatteCrema Hot carafe.',
-        width: 902,
-        height: 902,
-      },
-      {
-        src: 'https://dam.delonghi.com/902x902/assets/294655',
-        alt: "Front view of the De'Longhi Magnifica Evo Next ECAM310.80.SB",
-        caption: 'The front view shows the eight soft-touch controls and 2.4-inch TFT used for the documented 13-drink menu; other ECAM310 suffixes can differ.',
-        width: 902,
-        height: 902,
-      },
-    ],
-  ),
-  '/espresso-machine/delonghi-magnifica-plus/': officialProductMedia(
-    "De'Longhi ECAM320.70.SB product page",
-    'https://www.delonghi.com/en-au/p/magnifica-plus-magnifica-plus-automatic-coffee-machine-ecam320.70.sb/ECAM320.70.SB.html?pid=0132250036',
-    [
-      {
-        src: 'https://dam.delonghi.com/902x902/assets/287244',
-        alt: "De'Longhi Magnifica Plus ECAM320.70.SB touchscreen with personalized drink menu",
-        caption: 'The 3.5-inch full-touch display organizes 18 hot recipes and four profiles, the features that most clearly separate this model from simpler Magnifica machines.',
+        s…1382 tokens truncated…rofiles, the features that most clearly separate this model from simpler Magnifica machines.',
         width: 902,
         height: 902,
       },
