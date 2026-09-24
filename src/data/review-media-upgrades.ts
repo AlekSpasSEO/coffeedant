@@ -205,6 +205,26 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/melitta-cafina-ct8/': officialProductMedia(
+    'Melitta Professional current Cafina CT8 product page',
+    'https://www.melitta-professional.com/us/en/coffeemachines/fuer-die-grosse-getraenkevielfalt/melitta-cafina-ct8',
+    [
+      {
+        src: 'https://s7g10.scene7.com/is/image/melitta/feature_ct8_high-performance-mahlwerk%3A16-9?dpr=off&fmt=png-alpha&ts=1763989805053',
+        alt: 'Melitta Professional official Cafina CT8 high-performance grinder feature image',
+        caption: 'The official grinder feature image illustrates the commercial bean path. The CT8 can be ordered with one or two grinders, so the signed configuration controls the delivered hardware.',
+        width: 1600,
+        height: 900,
+      },
+      {
+        src: 'https://s7g10.scene7.com/is/image/melitta/feature_ct8_cip%3A16-9?dpr=off&fmt=png-alpha&ts=1763989805111',
+        alt: 'Melitta Professional official Cafina CT8 Clean in Place feature image',
+        caption: 'The official CIP image identifies in-place coffee and milk path cleaning. Operators still handle approved chemicals, waste, containers, milk contact areas and prompts.',
+        width: 1600,
+        height: 900,
+      },
+    ],
+  ),
   '/espresso-machine/la-pavoni-europiccola/': officialProductMedia(
     'La Pavoni LPLELQ01EU official gallery',
     'https://www.lapavoni.com/en/products/domestic-machines/europiccola-lusso',
