@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/profitec-go/': retailerProductMedia(
+    'Whole Latte Love current original-generation Profitec GO listing',
+    'https://www.wholelattelove.com/products/profitec-go-espresso-machine',
+    [
+      {
+        src: 'https://www.wholelattelove.com/cdn/shop/files/Profitec_GO_black_Front_Zoom.jpg?v=1745245603&width=1100',
+        alt: 'Whole Latte Love exact-model front view of the black original-generation Profitec GO',
+        caption: 'The current US listing view identifies the original GO control layout, pressure gauge, ring group, steam wand and tray. It is retailer media, not proof of delivered stock version or Coffeedant testing.',
+        width: 1100,
+        height: 1100,
+      },
+      {
+        src: 'https://www.wholelattelove.com/cdn/shop/files/Profitec_GO_Black_button_detail.jpg?v=1745245603&width=1100',
+        alt: 'Whole Latte Love close view of the original Profitec GO brew and steam buttons and PID display',
+        caption: 'The exact-model detail makes the original GO buttons and PID display visible. GO 2.0 uses different controls, and this product image does not establish response, durability or thermal performance.',
+        width: 1100,
+        height: 1100,
+      },
+    ],
+  ),
   '/espresso-machine/philips-5400-lattego/': [
     {
       src: 'https://images.philips.com/is/image/philipsconsumer/vrs_94e3ff8bfd0fdd8755644c1aea2d960ba5b46814?$jpglarge$=&wid=1200',
