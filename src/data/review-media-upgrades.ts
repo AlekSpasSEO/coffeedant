@@ -34,29 +34,23 @@ const retailerProductMedia = (
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
   '/espresso-machine/profitec-pro-800/': [
-    ...retailerProductMedia(
-      'The Kitchen Barista current Profitec Pro 800 listing',
-      'https://thekitchenbarista.com/products/profitec-pro-800-lever-espresso-machine-2022-version-stainless-steel',
+    ...officialProductMedia(
+      'Profitec official Pro 800 product page',
+      'https://www.profitec-espresso.com/en/products/pro800',
       [
         {
-          src: 'https://thekitchenbarista.com/cdn/shop/files/Profitec-EspressoMachine-Pro800-3-TheKitchenBarista.jpg?v=1686067592&width=1445',
-          alt: 'The Kitchen Barista front view of the current Profitec Pro 800 spring lever, walnut controls and boiler gauge',
-          caption: 'The current retailer view shows the tall spring lever, walnut controls and traditional front panel. It does not establish pressure, temperature, steam speed or reliability in Coffeedant testing.',
-          width: 1201,
-          height: 1201,
+          src: 'https://www.profitec-espresso.com/media/pages/produkte/pro800/f2aa3fc08f-1644418744/pro_800_1.webp',
+          alt: 'Profitec official detail view of the current Pro 800 spring lever, walnut handle and pine-green boiler gauge',
+          caption: 'The official exact-model view records the tall spring lever, walnut handle and current pine-green boiler gauge. It does not establish pressure, temperature, steam speed or reliability in Coffeedant testing.',
+          width: 1408,
+          height: 909,
         },
-      ],
-    ),
-    ...retailerProductMedia(
-      'Home Coffee Solutions current Profitec Pro 800 listing',
-      'https://www.homecoffeesolutions.com/products/profitec-pro-800-semi-automatic-espresso-machine',
-      [
         {
-          src: 'https://www.homecoffeesolutions.com/cdn/shop/files/Profitec800FrontSide_cb4ce4da-ef3d-4190-a62c-616303d51dbf.jpg?v=1750140204',
-          alt: 'Home Coffee Solutions front-side view of the current Profitec Pro 800 walnut-handle spring-lever machine',
-          caption: 'The exact-model side view records the current chassis and lever geometry. It is reference media, not proof of cabinet fit, delivered condition or included installation hardware.',
-          width: 1201,
-          height: 1200,
+          src: 'https://www.profitec-espresso.com/media/pages/produkte/pro800/1840afe99d-1644418675/pro_800_2.webp',
+          alt: 'Profitec official side view of the current Pro 800 walnut-handle spring-lever machine',
+          caption: 'The official exact-model side view records the stainless chassis and lever geometry. It is reference media, not proof of cabinet fit, delivered condition or installed plumbing.',
+          width: 1920,
+          height: 1240,
         },
       ],
     ),
