@@ -33,6 +33,36 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/philips-4300-lattego/': [
+    {
+      src: 'https://images.philips.com/is/image/philipsconsumer/vrs_b891a136ced970087a5685e095c4a4096192233f?$jpglarge$=&wid=1200',
+      alt: 'Official Philips 4300 close view of the TFT display and surrounding drink and profile controls',
+      caption: 'The official control view makes the color TFT, profile key and drink-selection layout visible. It does not establish menu speed, accessibility or durability in Coffeedant testing.',
+      width: 1200,
+      height: 681,
+      credit: 'Philips US EP4347/94 archived product page',
+      sourceHref: 'https://acc.usa.philips.com/c-p/EP4347_94/philips-4300-series-fully-automatic-espresso-machines',
+      sourceType: 'manufacturer',
+      usageLabel: 'Official manufacturer product-page media',
+      usageHref: 'https://acc.usa.philips.com/c-p/EP4347_94/philips-4300-series-fully-automatic-espresso-machines',
+      userGenerated: false,
+      disclosure: 'Official manufacturer media; not a Coffeedant test photograph.',
+    },
+    {
+      src: 'https://www.seattlecoffeegear.com/cdn/shop/files/PHILIPS4300LATTEGOSUPERAUTOMATICESPRESSOMACHINEnew-2_1da3f7fa-132c-4cc2-b5a2-14dabfd1574c.jpg?v=1713731435&width=1200',
+      alt: 'Seattle Coffee Gear exact-model product view of the Philips 4300 EP4347/94 and two-piece LatteGo container',
+      caption: 'The exact-model retailer view identifies the front-mounted LatteGo container and compact body. It is listing media for a refurbished offer, not evidence of the condition of every unit.',
+      width: 1200,
+      height: 1200,
+      credit: 'Seattle Coffee Gear certified-refurbished EP4347/94 listing',
+      sourceHref: 'https://www.seattlecoffeegear.com/products/philips-4300-lattego-superautomatic-espresso-machine-certified-refurbished',
+      sourceType: 'product-listing',
+      usageLabel: 'Current retailer product-page media',
+      usageHref: 'https://www.seattlecoffeegear.com/products/philips-4300-lattego-superautomatic-espresso-machine-certified-refurbished',
+      userGenerated: false,
+      disclosure: 'Retailer product-listing media; not a Coffeedant test photograph.',
+    },
+  ],
   '/espresso-machine/philips-2200-lattego/': officialProductMedia(
     'Philips US EP2230/14 product page',
     'https://www.usa.philips.com/c-p/EP2230_14/series-2200-fully-automatic-espresso-machines',
