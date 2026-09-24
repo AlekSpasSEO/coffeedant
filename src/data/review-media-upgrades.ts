@@ -33,6 +33,24 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/krups-sensation-ea910e40/': officialProductMedia(
+    'Krups UK EA910E40 official gallery',
+    'https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/Sensation---Aluminium/p/8010001251',
+    [
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wxNDYzNzB8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZzVNaTlvTjJNdk1qZzRNVGswTlRjNU5qWXhNVEF8Yjc3MmJkYjAxNjEwNTE4NDU5MzY3MTQxNGY0ODNkZjhjZjEyYzQ2MTZjMzI5ZWQyNjQ4MjYyZTQzMWQ4MmJhYQ',
+        alt: 'Krups UK front image of the Sensation EA910E40 showing its drink icons, dual outlet and manual steam nozzle',
+        caption: 'Exact-model manufacturer image shows the direct control panel and component layout; it is not a Coffeedant test photograph.',
+        width: 700, height: 700,
+      },
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wzNTAwODJ8aW1hZ2UvanBlZ3xhVzFoWjJWekwyaGtOeTlvT0RBdk1qWTRPRGMxTVRFNE16UTJOVFF8MDA0MTFmY2U4YmE0MjNlMGIzZTFmYjUxZGNhN2YwYWQ2OTMzOWQzMTMyZGY2YzVkMWFiM2ZlNDEyZTcyM2NiZg',
+        alt: 'Krups UK close view of a hand selecting settings on the Sensation EA910E40 angled control panel',
+        caption: 'Official gallery image illustrates the control layout and indicator lights. It does not establish response time, accessibility or coffee quality.',
+        width: 700, height: 700,
+      },
+    ],
+  ),
   '/espresso-machine/krups-opio-xp320840/': officialProductMedia(
     'Krups UK XP320840 official gallery',
     'https://www.krups.co.uk/ESPRESSO-MACHINES/TRADITIONAL-ESPRESSO-MACHINES/Krups-Opio-Steam-%26-Pump-XP320840-Traditional-Pump-Espresso-Coffee-Machine--1-5L--Black--Cappuccino/p/8010000482',
