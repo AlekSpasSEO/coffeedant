@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/profitec-pro-600/': retailerProductMedia(
+    'Whole Latte Love and Clive Coffee retired Profitec Pro 600 listings',
+    'https://www.wholelattelove.com/products/profitec-pro-600-dual-boiler-espresso-machine-quick-steam',
+    [
+      {
+        src: 'https://www.wholelattelove.com/cdn/shop/files/PTPRO600QSPLUS_1133_702c9ad0-7302-41d8-b128-3d1ad797a7bd.jpg?v=1764083918&width=1200',
+        alt: 'Whole Latte Love front view of the Profitec Pro 600 Quick Steam Plus joystick valves, gauges, PID and E61 group',
+        caption: 'The retired-listing view identifies the final Quick Steam Plus front controls. It does not establish temperature, pressure, steam speed, condition or reliability in Coffeedant testing.',
+        width: 1200,
+        height: 1200,
+      },
+      {
+        src: 'https://clivecoffee.com/cdn/shop/files/Profitec-Pro-600-Dual-Boiler-Espresso-Machine-dimensions.jpg?v=1741405003&width=1200',
+        alt: 'Clive Coffee dimension graphic for the discontinued North American Profitec Pro 600 Quick Steam',
+        caption: 'Clive’s discontinued-listing graphic records the North American chassis dimensions. It is reference media, not proof of the condition or included options on any remaining or used unit.',
+        width: 1200,
+        height: 1200,
+      },
+    ],
+  ),
   '/espresso-machine/profitec-pro-500-pid/': retailerProductMedia(
     'Whole Latte Love current Profitec Pro 500 PID listing',
     'https://www.wholelattelove.com/products/profitec-pro-500-pid-espresso-machine',
