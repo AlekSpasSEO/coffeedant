@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/quick-mill-orione-3000/': officialProductMedia(
+    'Quick Mill official Orione product page',
+    'https://www.quick-mill.com/products/orione/',
+    [
+      {
+        src: 'https://www.quick-mill.com/wp-content/uploads/2025/08/2-2.png',
+        alt: 'Quick Mill official side view of the current Orione stainless thermoblock espresso machine',
+        caption: 'The official current-model view records the compact stainless chassis, group, portafilter, gauge, switches, side tank and wand. It does not establish measured heat-up, temperature, pressure, flow, steam or reliability.',
+        width: 1200,
+        height: 1012,
+      },
+      {
+        src: 'https://www.quick-mill.com/wp-content/uploads/2025/08/5-2.png',
+        alt: 'Quick Mill official detail view of the current Orione group, pressure gauge and manual controls',
+        caption: 'The official detail records the stock group, gauge and control layout. It is reference media, not evidence of PID, programmable pre-infusion, an adjustable OPV or measured performance.',
+        width: 1200,
+        height: 1012,
+      },
+    ],
+  ),
   '/espresso-machine/quick-mill-carola-evo/': officialProductMedia(
     'Quick Mill official Carola product page',
     'https://www.quick-mill.com/products/carola/',
