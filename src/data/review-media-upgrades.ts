@@ -225,6 +225,26 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/melitta-cafina-xt6-bes870/': officialProductMedia(
+    'Melitta Professional current Cafina XT6 product page',
+    'https://www.melitta-professional.com/us/en/coffeemachines/fuer-den-praktischen-comfort/Melitta-Cafina-XT6',
+    [
+      {
+        src: 'https://s7g10.scene7.com/is/image/melitta/feature_xt6_acs%3A16-9?dpr=off&fmt=png-alpha&ts=1763989771682',
+        alt: 'Melitta Professional official Cafina XT6 Automatic Coffeequality System feature image',
+        caption: 'The official ACS image illustrates automatic correction within the configured brewing process. It does not establish sensory quality or consistency under a specific site’s beans, recipes and maintenance.',
+        width: 1600,
+        height: 900,
+      },
+      {
+        src: 'https://s7g10.scene7.com/is/image/melitta/feature_xt6_professional-milk%3A16-9?dpr=off&fmt=png-alpha&ts=1763989771709',
+        alt: 'Melitta Professional official Cafina XT6 Professional Milk feature image',
+        caption: 'The official Professional Milk image represents configured hot and cold milk work. Cooler, milk paths, recipes and sanitation determine the delivered operation.',
+        width: 1600,
+        height: 900,
+      },
+    ],
+  ),
   '/espresso-machine/la-pavoni-europiccola/': officialProductMedia(
     'La Pavoni LPLELQ01EU official gallery',
     'https://www.lapavoni.com/en/products/domestic-machines/europiccola-lusso',
