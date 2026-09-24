@@ -69,6 +69,24 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/lelit-anna/': officialProductMedia(
+    'Lelit Anna current official gallery',
+    'https://www.lelit.com/en-us/product/anna-pesan06',
+    [
+      {
+        src: 'https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/Lelit/PL41TEM/carousel_1.png',
+        alt: 'Lelit official three-quarter image of the current Anna with PID display, pressure gauge, LELIT57 group and steam wand',
+        caption: 'The official three-quarter view confirms the current control layout and compact LELIT57 group. It is US-family manufacturer media and does not establish EU voltage, package or warranty.',
+        width: 1300, height: 1300,
+      },
+      {
+        src: 'https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/Lelit/PL41TEM/carousel_2.png',
+        alt: 'Lelit official side image of the current Anna showing its water-level window, cabinet depth and filterholder clearance',
+        caption: 'The official side view makes the 380 mm cabinet depth and tank-level window visible. It is US-family manufacturer media, not a Coffeedant test photograph.',
+        width: 1300, height: 1300,
+      },
+    ],
+  ),
   '/espresso-machine/la-pavoni-europiccola/': officialProductMedia(
     'La Pavoni LPLELQ01EU official gallery',
     'https://www.lapavoni.com/en/products/domestic-machines/europiccola-lusso',
