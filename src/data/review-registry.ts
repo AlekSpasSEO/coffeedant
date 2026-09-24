@@ -43,6 +43,7 @@ import { upgradeMelittaBaristaTSSmartReviews } from './reviews/upgrade-melitta-b
 import { upgradeMelittaCafinaCT8Reviews } from './reviews/upgrade-melitta-cafina-ct8';
 import { upgradeMelittaCafinaXT6Reviews } from './reviews/upgrade-melitta-cafina-xt6-bes870';
 import { upgradeMelittaCafinaXT7Reviews } from './reviews/upgrade-melitta-cafina-xt7';
+import { upgradeMelittaPassioneReviews } from './reviews/upgrade-melitta-passione';
 import {
   getReviewRouteDefinition,
   hasValidReviewProductId,
@@ -124,6 +125,7 @@ const candidates: MachineReviewData[] = [
   ...upgradeMelittaCafinaCT8Reviews,
   ...upgradeMelittaCafinaXT6Reviews,
   ...upgradeMelittaCafinaXT7Reviews,
+  ...upgradeMelittaPassioneReviews,
 ];
 const bySlug = new Map(candidates.map((review) => [review.slug, review]));
 

@@ -265,6 +265,26 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/melitta-passione/': officialProductMedia(
+    'Melitta international current Passione OT gallery',
+    'https://www.melitta-international.com/bean-to-cup-machines/our-categories/all-bean-to-cup-machines/Passione-OT',
+    [
+      {
+        src: 'https://s7g10.scene7.com/is/image/melitta/PassioneOT_FT3_OneTouch_?dpr=off&qlt=85&ts=1788882143364',
+        alt: 'Melitta official Passione OT one-touch control panel and drink-selection view',
+        caption: 'The official close view shows the physical direct-drink buttons and TFT-guided menu. It illustrates control layout, not response time, cup quality or Coffeedant testing.',
+        width: 300,
+        height: 225,
+      },
+      {
+        src: 'https://s7g10.scene7.com/is/image/melitta/Passione_MMB2_HandhabungReninigu?dpr=off&qlt=85&ts=1788882143970',
+        alt: 'Melitta official Passione OT cleaning and removable-component view',
+        caption: 'The official care image supports the removable-brewer and physical-cleaning workflow. Guided programs and steam rinsing do not eliminate manual milk-part and brew-group care.',
+        width: 700,
+        height: 450,
+      },
+    ],
+  ),
   '/espresso-machine/la-pavoni-europiccola/': officialProductMedia(
     'La Pavoni LPLELQ01EU official gallery',
     'https://www.lapavoni.com/en/products/domestic-machines/europiccola-lusso',
