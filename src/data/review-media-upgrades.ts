@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/profitec-pro-400/': retailerProductMedia(
+    'Whole Latte Love current Profitec Pro 400 listing',
+    'https://www.wholelattelove.com/products/profitec-pro-400-espresso-machine',
+    [
+      {
+        src: 'https://www.wholelattelove.com/cdn/shop/products/PTPRO400_0024.jpg?v=1696948354&width=1200',
+        alt: 'Whole Latte Love front view of the Profitec Pro 400 group, gauge, valves and wands',
+        caption: 'The exact-model front view identifies the analog Pro 400 interface, E61 lever, dual gauge and separate steam and hot-water wands. It does not establish temperature, pressure or steam performance in Coffeedant testing.',
+        width: 1200,
+        height: 1200,
+      },
+      {
+        src: 'https://www.wholelattelove.com/cdn/shop/products/PTPRO400_0087-G.jpg?v=1656014507&width=1200',
+        alt: 'Whole Latte Love internal product view of the Profitec Pro 400 stainless boiler and plumbing',
+        caption: 'The retailer detail shows the exact-model boiler, fittings, tubing and wiring arrangement. It is useful construction context, not a Coffeedant teardown or evidence of failure incidence.',
+        width: 1200,
+        height: 1000,
+      },
+    ],
+  ),
   '/espresso-machine/profitec-go/': retailerProductMedia(
     'Whole Latte Love current original-generation Profitec GO listing',
     'https://www.wholelattelove.com/products/profitec-go-espresso-machine',
