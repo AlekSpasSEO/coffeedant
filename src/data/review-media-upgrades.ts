@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/philips-2200-lattego/': officialProductMedia(
+    'Philips US EP2230/14 product page',
+    'https://www.usa.philips.com/c-p/EP2230_14/series-2200-fully-automatic-espresso-machines',
+    [
+      {
+        src: 'https://images.philips.com/is/image/philipsconsumer/vrs_f67e9a56_3197_435c_9359fa9a89a0b381?$png$=&wid=1200',
+        alt: 'Official close view of LatteGo dispensing milk foam into a cappuccino',
+        caption: 'The official working view shows milk traveling from the two-piece LatteGo container directly into the cup without a separate hose. It does not establish foam temperature, texture or speed in Coffeedant testing.',
+        width: 1200,
+        height: 1000,
+      },
+      {
+        src: 'https://images.philips.com/is/image/philipsconsumer/vrs_c3f66e92_de9f_44a6_8dbbdfa404b96128?$png$=&wid=1200',
+        alt: 'Official Philips 2200-series touch-control panel close view',
+        caption: 'The official family control image makes the direct drink keys and My Coffee Choice bars visible. Panel labels vary by milk trim, so exact EP2230/14 functions are taken from its product page and manual rather than inferred from the photograph.',
+        width: 1200,
+        height: 675,
+      },
+    ],
+  ),
   '/espresso-machine/nuova-simonelli-oscar-ii/': officialProductMedia(
     'Nuova Simonelli current Oscar product page',
     'https://nuovasimonelli.com/machine/oscar/',

@@ -50,6 +50,7 @@ import { upgradeNivonaCafeRomatica6xxReviews } from './reviews/upgrade-nivona-ca
 import { upgradeNivonaCafeRomatica8xxReviews } from './reviews/upgrade-nivona-caferomatica-8xx';
 import { upgradeNuovaSimonelliMusicaReviews } from './reviews/upgrade-nuova-simonelli-musica';
 import { upgradeNuovaSimonelliOscarIIReviews } from './reviews/upgrade-nuova-simonelli-oscar-ii';
+import { upgradePhilips2200LatteGoReviews } from './reviews/upgrade-philips-2200-lattego';
 import {
   getReviewRouteDefinition,
   hasValidReviewProductId,
@@ -138,6 +139,7 @@ const candidates: MachineReviewData[] = [
   ...upgradeNivonaCafeRomatica8xxReviews,
   ...upgradeNuovaSimonelliMusicaReviews,
   ...upgradeNuovaSimonelliOscarIIReviews,
+  ...upgradePhilips2200LatteGoReviews,
 ];
 const bySlug = new Map(candidates.map((review) => [review.slug, review]));
 
