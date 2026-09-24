@@ -55,6 +55,7 @@ import { upgradePhilips4300LatteGoReviews } from './reviews/upgrade-philips-4300
 import { upgradePhilips5400LatteGoReviews } from './reviews/upgrade-philips-5400-lattego';
 import { upgradeProfitecGoReviews } from './reviews/upgrade-profitec-go';
 import { upgradeProfitecPro400Reviews } from './reviews/upgrade-profitec-pro-400';
+import { upgradeProfitecPro500PIDReviews } from './reviews/upgrade-profitec-pro-500-pid';
 import {
   getReviewRouteDefinition,
   hasValidReviewProductId,
@@ -148,6 +149,7 @@ const candidates: MachineReviewData[] = [
   ...upgradePhilips5400LatteGoReviews,
   ...upgradeProfitecGoReviews,
   ...upgradeProfitecPro400Reviews,
+  ...upgradeProfitecPro500PIDReviews,
 ];
 const bySlug = new Map(candidates.map((review) => [review.slug, review]));
 

@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/profitec-pro-500-pid/': retailerProductMedia(
+    'Whole Latte Love current Profitec Pro 500 PID listing',
+    'https://www.wholelattelove.com/products/profitec-pro-500-pid-espresso-machine',
+    [
+      {
+        src: 'https://www.wholelattelove.com/cdn/shop/products/PTPRO500PID_0112.jpg?width=1200',
+        alt: 'Whole Latte Love close view of the current Profitec Pro 500 PID front display and automatic shot timer',
+        caption: 'The current exact-model detail makes the externally mounted PID and automatic shot timer visible. The display controls steam-boiler temperature, not an independent brew boiler or measured puck temperature.',
+        width: 1200,
+        height: 1200,
+      },
+      {
+        src: 'https://www.wholelattelove.com/cdn/shop/products/PTPRO500PID_0136.jpg?width=1200',
+        alt: 'Whole Latte Love front view of the current Profitec Pro 500 PID group, valves, gauges and modular portafilter',
+        caption: 'The current retailer view identifies the E61 lever, dual black gauges, quarter-turn valves and modular portafilter. It does not establish temperature, pressure, steam speed or reliability in Coffeedant testing.',
+        width: 1200,
+        height: 1200,
+      },
+    ],
+  ),
   '/espresso-machine/profitec-pro-400/': retailerProductMedia(
     'Whole Latte Love current Profitec Pro 400 listing',
     'https://www.wholelattelove.com/products/profitec-pro-400-espresso-machine',
