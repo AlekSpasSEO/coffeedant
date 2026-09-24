@@ -33,6 +33,24 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/krups-virtuoso-xp442c40/': officialProductMedia(
+    'Krups UK XP442C40 official gallery',
+    'https://www.krups.co.uk/ESPRESSO-MACHINES/TRADITIONAL-ESPRESSO-MACHINES/Krups-Virtuoso-XP442C40-Pump-Espresso-Coffee-Machine--Stainless-Steel/p/8010001076',
+    [
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3w5Njk5NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnM055OW9PRFV2TWpZNE9EY3pNVGszTVRVNE56QXxlZTQ1ZjUyYzQ1Mzg3MjFkYzhlZGEzNjNmOTAzOThmOTU5OTMyZDM0ZDUyYjNlOTNmM2NjOTIyYTBiMDU2ZTVi',
+        alt: 'Krups UK close view of the Virtuoso XP442C40 four-button panel and side steam knob',
+        caption: 'Exact-model manufacturer image shows the simple power, steam, one-cup and two-cup controls. It does not establish response time or drink quality.',
+        width: 350, height: 350,
+      },
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3w4NzM4NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1DOW9PRFV2TWpZNE9EY3pNVGszTkRnMk16Z3w2MTAzZjIzNzZmYWFiZWU1OWJjNjMwYjgxMDc5ZTA4Y2IyZjYzZjIzMjlhNDQ0MWQ1MmMzZmNmMGJmNjAwMGE0',
+        alt: 'Krups UK Virtuoso XP442C40 manual steam nozzle frothing milk in a glass jug',
+        caption: 'Official promotional media illustrates nozzle placement and jug clearance. The pictured foam is not a Coffeedant test result.',
+        width: 350, height: 350,
+      },
+    ],
+  ),
   '/espresso-machine/krups-sensation-ea910e40/': officialProductMedia(
     'Krups UK EA910E40 official gallery',
     'https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/Sensation---Aluminium/p/8010001251',
