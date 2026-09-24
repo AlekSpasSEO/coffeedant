@@ -187,6 +187,24 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/melitta-barista-ts-smart/': officialProductMedia(
+    'Melitta international current Barista TS Smart gallery',
+    'https://www.melitta-international.com/bean-to-cup-machines/our-categories/all-bean-to-cup-machines/Melitta-Barista-TS-Smart',
+    [
+      {
+        src: 'https://s7g10.scene7.com/is/image/melitta/BaristaTS-Smart_convenie?qlt=85&wid=1600&ts=1787749171800&dpr=off',
+        alt: 'Melitta official close view of the Barista TS Smart Touch and Slide panel while a strength or quantity control is adjusted',
+        caption: 'The exact-family official working view shows the compact TFT, direct drink icons and touch slider. It illustrates the interface, not response time, usability for every owner or Coffeedant testing.',
+        width: 1600, height: 450,
+      },
+      {
+        src: 'https://s7g10.scene7.com/is/image/melitta/BaristaTS-Smart_easy-cle?qlt=85&wid=1600&ts=1787749171998&dpr=off',
+        alt: 'Melitta official close view of a removable Barista TS Smart outlet and milk-system component being handled for cleaning',
+        caption: 'The official care image makes physical access to the removable outlet components visible. Easy Steam Cleaning supports this work but does not eliminate detached-part sanitation.',
+        width: 1600, height: 450,
+      },
+    ],
+  ),
   '/espresso-machine/la-pavoni-europiccola/': officialProductMedia(
     'La Pavoni LPLELQ01EU official gallery',
     'https://www.lapavoni.com/en/products/domestic-machines/europiccola-lusso',
