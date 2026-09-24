@@ -51,6 +51,24 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/la-pavoni-new-domus-bar/': officialProductMedia(
+    'La Pavoni LPCDMB02EU official gallery',
+    'https://www.lapavoni.com/en/products/domestic-machines/new-domus-bar',
+    [
+      {
+        src: 'https://assets.4flow.cloud/WEB_LPCDMB02EU_1.jpg.jpg?pEFs=cVY2M1MyN1ZOMFFadEQ5ZlVOMzhVMThBTmo4S3lNT2RPZFpyY2QzQi9EWm53d2lpcWdhOThBTFA2a0JLYXIyQUxyZXBWY0RpVko4cmYvcEtiNkZkVEcvNE9ydGwwSFZPUEFWeUd0T1Y2TlAvLy9xMkpZWCt5eFluUjEwWXpRN0RLLzA3WHAwWEdmVjFkUzZRaWM3NDNCQlNPbDdreGhydmVsWlA3SUFCZ2s0PQ',
+        alt: 'La Pavoni official front view of the New Domus Bar showing the integrated grinder, three switches, pump gauge and brew group',
+        caption: 'The exact-model front view confirms the manual grinder outlet, simple control switches and pump manometer. It does not establish pressure at the puck or grind consistency.',
+        width: 1300, height: 1300,
+      },
+      {
+        src: 'https://assets.4flow.cloud/WEB_LPCDMB02EU_2.jpg.jpg?pEFs=cVY2M1MyN1ZOMFFadEQ5ZlVOMzhVOTR3TkREQ1BVRnZRekdCSVRKWTZ1eWpNbHkyMUkzK0ZzTWFBdHFLdkxEY3RrL2VJd0I5aEtoa0pwOUdiMFkwZGg2VjNHS1dHMk8rWWQzcE9Sbmx1NnR6MzdwdVFLQ3hXSEVkcDJwMUtZTTZTVTJqOWdsMzBXQ3lMbDdrVzk5WUZYekljRW42UVROZmlTZGNwSkwxK2F3PQ',
+        alt: 'La Pavoni official side view of the New Domus Bar stainless cabinet, cup warmer and shared steam and hot-water wand',
+        caption: 'The official side view shows the compact 250 mm cabinet depth and top-loading layout. It is manufacturer media, not a Coffeedant test photograph.',
+        width: 1300, height: 1300,
+      },
+    ],
+  ),
   '/espresso-machine/la-pavoni-europiccola/': officialProductMedia(
     'La Pavoni LPLELQ01EU official gallery',
     'https://www.lapavoni.com/en/products/domestic-machines/europiccola-lusso',
