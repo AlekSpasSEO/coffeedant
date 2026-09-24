@@ -45,6 +45,7 @@ import { upgradeMelittaCafinaXT6Reviews } from './reviews/upgrade-melitta-cafina
 import { upgradeMelittaCafinaXT7Reviews } from './reviews/upgrade-melitta-cafina-xt7';
 import { upgradeMelittaPassioneReviews } from './reviews/upgrade-melitta-passione';
 import { upgradeMieleCM6360Reviews } from './reviews/upgrade-miele-cm6360';
+import { upgradeMieleCM7750Reviews } from './reviews/upgrade-miele-cm7750';
 import {
   getReviewRouteDefinition,
   hasValidReviewProductId,
@@ -128,6 +129,7 @@ const candidates: MachineReviewData[] = [
   ...upgradeMelittaCafinaXT7Reviews,
   ...upgradeMelittaPassioneReviews,
   ...upgradeMieleCM6360Reviews,
+  ...upgradeMieleCM7750Reviews,
 ];
 const bySlug = new Map(candidates.map((review) => [review.slug, review]));
 
