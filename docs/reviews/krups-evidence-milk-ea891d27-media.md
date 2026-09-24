@@ -1,12 +1,19 @@
-# Krups Evidence Milk EA891D27 media usage ledger
+# Krups Evidence Milk EA891D27 review: paired milk, careful ownership media ledger
 
-Checked September 24, 2026. Publication image cap: 3 total images. One hero and two credited inline records. Images remain remotely hosted on the [exact UK EA891D27 Amazon listing](https://www.amazon.co.uk/Krups-EA891D27-Evidence-Automatic-Espresso/dp/B083PJNPFQ); they are not downloaded into the project, relicensed or described as Coffeedant photos. Attribution and a source/usage record are supplied. Product-listing display does not establish a reusable license; review and replace if rights or remote delivery change. Manufacturer owns its original imagery where applicable, but exact original image rights could not be independently verified.
+Generated from the rendered review updated 2026-09-24. This is the publication audit record for the inline editorial media. The implementation remains the canonical machine-readable record.
 
-| # | Placement | Original asset | Size inspected | Credit and disclosure |
-| ---: | --- | --- | --- | --- |
-| 1 | Setup inline | [Front and vessel with size callouts](https://m.media-amazon.com/images/I/61BDTBa1mpL._AC_SL1500_.jpg) | 1272 × 1500 | Amazon UK EA891D27 listing; image text about dimensions is unmeasured retailer art. |
-| 2 | Build inline | [OLED and touch controls](https://m.media-amazon.com/images/I/61WDVPmmXKL._AC_SL1500_.jpg) | 1500 × 1500 | Amazon UK EA891D27 listing; no original hands-on claim. |
+## Density and source mix
 
-Hero: [Product and two cups](https://m.media-amazon.com/images/I/61RLxyAf6-L._AC_SL1500_.jpg), 1375 × 1500, Amazon UK EA891D27 retailer listing; illustrative gallery image, not Coffeedant testing.
+- Editorial word count, excluding captions and embeds: 5482
+- Publication image cap: 3 total images
+- Images published: 3 (2 inline images plus one product hero)
+- User-generated or community inline images: 0 of 2
+- Every externally hosted image links to its original community, owner-review, or product-listing page.
+- Customer and community media is not represented as Coffeedant testing. Externally embedded media must retain its visible credit and source record, and must not be copied into the local asset store without a separate reuse review.
 
-Each inline record in `src/data/review-media-upgrades.ts` includes original/usage URL, source type, credited source, descriptive alt, caption, dimensions and disclosure. Do not use another retailer gallery frame picturing a smartphone: that image could suggest unsupported Bluetooth on EA891D27. [Rob Locke's EA895 film](https://www.youtube.com/watch?v=t7CcnEZ2SGI), September 20, 2022, is an original hosted video of an **adjacent Evidence One model**, shown only with its true identity and credit. No video stills or community images are copied.
+## Image records
+
+| # | Placement | Source type | UGC | Original | Usage record | Creator or reviewer | Dimensions | Alt text | Editorial purpose and disclosure |
+| ---: | --- | --- | :---: | --- | --- | --- | ---: | --- | --- |
+| 1 | setup | product-listing | No | [Original source](https://www.amazon.co.uk/Krups-EA891D27-Evidence-Automatic-Espresso/dp/B083PJNPFQ) | [Current retailer product-page media](https://www.amazon.co.uk/Krups-EA891D27-Evidence-Automatic-Espresso/dp/B083PJNPFQ) | Amazon UK EA891D27 product listing | 1272 × 1500 | Retailer product image of EA891D27 front, OLED panel, milk vessel and width and height callouts | The EA891D27 retailer listing illustrates the milk vessel and touch panel. Printed dimensions are retailer artwork, not independently measured. Disclosure: Retailer product-listing media; not a Coffeedant test photograph. |
+| 2 | build | product-listing | No | [Original source](https://www.amazon.co.uk/Krups-EA891D27-Evidence-Automatic-Espresso/dp/B083PJNPFQ) | [Current retailer product-page media](https://www.amazon.co.uk/Krups-EA891D27-Evidence-Automatic-Espresso/dp/B083PJNPFQ) | Amazon UK EA891D27 product listing | 1500 × 1500 | Retailer close-up of Krups Evidence Milk touch panel and drink-selection icons | A close-up from the exact-model retailer listing shows the menu and OLED controls. The image is not a Coffeedant test photograph. Disclosure: Retailer product-listing media; not a Coffeedant test photograph. |

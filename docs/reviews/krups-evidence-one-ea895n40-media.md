@@ -1,12 +1,19 @@
-# Krups Evidence One EA895N40 media usage ledger
+# Krups Evidence One EA895N40 review: 17 choices, milk and care media ledger
 
-Checked September 24, 2026. Publication image cap: 3 total images. The hero and two credited inline gallery images are remotely hosted by [Krups UK on its exact EA895N40 page](https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/EVIDENCE-One-Bean-to-Cup-Coffee-Machine---Black/p/8010001019). They were visually inspected, are hotlinked rather than downloaded or relicensed, and are expressly manufacturer product imagery rather than Coffeedant test photos. Source display does not itself establish general redistribution rights; recheck permission or replace the URLs if remote delivery changes.
+Generated from the rendered review updated 2026-09-24. This is the publication audit record for the inline editorial media. The implementation remains the canonical machine-readable record.
 
-| # | Placement | Original asset | Size inspected | Credit and disclosure |
-| ---: | --- | --- | --- | --- |
-| 1 | Setup inline | [Angled product view](https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wxNTI4MjZ8aW1hZ2UvanBlZ3xhVzFoWjJWekwyaGxPUzlvT1Rrdk1qWTRPRGN6TVRJNE5qY3pOVGd8NGQxYjBmM2Y5MzMzYjAzNzE1YmIxMjM3OWZjZDlmZGU5MzQ2NjMwODY2YTliNWIxODdjNzExMGNmNzdjYjUwMQ) | 645 × 700 | Krups UK exact EA895N40 manufacturer gallery. No independently measured setup claim. |
-| 2 | Build inline | [Machine with two milk drinks and hose](https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3w2NDQ1MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd015OW9OV0l2TWprMU5ETXpNRFF4TXpRMk9EWXxjYmQ2NjgxYWRhZGNhYjcwYTVkNjZjZWE2NWZmYjcyYmJjZGIxZjUxOTNiMmE3NGE2MzQ0YzQ5YWI1NjAwZGY5) | 700 × 700 | Krups UK manufacturer lifestyle image; illustrative, not a Coffeedant milk preparation. |
+## Density and source mix
 
-Hero: [Machine front with two milk drinks](https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wxMjk4ODl8aW1hZ2UvanBlZ3xhVzFoWjJWekwyaGlZUzlvWkRJdk1qWTRPRGN5T0RjM05qY3dOekF8MjM3MWM5YTA2ZDZjNWEzNjFlYmU3ODlmNGQxMjI1YTA4MDAwMWZjOTVmMDVmZjcyMzIyYTE0NjY3NzJjNTBjZQ), 700 × 700, exact-product Krups UK gallery. Manufacturer promotional photography only.
+- Editorial word count, excluding captions and embeds: 5482
+- Publication image cap: 3 total images
+- Images published: 3 (2 inline images plus one product hero)
+- User-generated or community inline images: 0 of 2
+- Every externally hosted image links to its original community, owner-review, or product-listing page.
+- Customer and community media is not represented as Coffeedant testing. Externally embedded media must retain its visible credit and source record, and must not be copied into the local asset store without a separate reuse review.
 
-The two inline records in `src/data/review-media-upgrades.ts` contain original and usage URLs, source type, credited source, alt text, captions, dimensions and rights disclosure. [Appliance Repairman's EA895N40/70A maintenance film](https://www.youtube.com/watch?v=_qZpuhXIeUA) remains on its creator's YouTube channel and is embedded with creator/date/model boundaries. The independently hosted thumbnail is served from YouTube; no video frames are copied into the repository. No owner photographs are reproduced.
+## Image records
+
+| # | Placement | Source type | UGC | Original | Usage record | Creator or reviewer | Dimensions | Alt text | Editorial purpose and disclosure |
+| ---: | --- | --- | :---: | --- | --- | --- | ---: | --- | --- |
+| 1 | setup | manufacturer | No | [Original source](https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/EVIDENCE-One-Bean-to-Cup-Coffee-Machine---Black/p/8010001019) | [Official manufacturer product-page media](https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/EVIDENCE-One-Bean-to-Cup-Coffee-Machine---Black/p/8010001019) | Krups UK EA895N40 official gallery | 645 × 700 | Krups UK gallery angled view of the EA895N40 grey machine, dual spout and coloured touch panel | Official EA895N40 gallery shows the outlet and panel. No Coffeedant tasting or dimension measurement is represented. Disclosure: Official manufacturer media; not a Coffeedant test photograph. |
+| 2 | build | manufacturer | No | [Original source](https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/EVIDENCE-One-Bean-to-Cup-Coffee-Machine---Black/p/8010001019) | [Official manufacturer product-page media](https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/EVIDENCE-One-Bean-to-Cup-Coffee-Machine---Black/p/8010001019) | Krups UK EA895N40 official gallery | 700 × 700 | Krups UK Evidence One EA895N40 promotional photograph with two milk drinks and milk tube | Manufacturer illustration of two milk drinks and the external hose; results pictured are promotional, not independently measured. Disclosure: Official manufacturer media; not a Coffeedant test photograph. |

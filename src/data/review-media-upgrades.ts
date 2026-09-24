@@ -151,6 +151,24 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/lelit-victoria-pl91t/': officialProductMedia(
+    'Lelit US current Victoria PESVI01 gallery',
+    'https://www.lelit.com/en-us/product/victoria-pesvi01?sku=PESVI01BSS1BXX1',
+    [
+      {
+        src: 'https://assets.breville.com/cdn-cgi/image/width%3D1300%2Cformat%3Dauto/Lelit/PESVI01/PESVI01_Carousel1.png',
+        alt: 'Lelit official three-quarter image of the current Victoria with LELIT58 filterholder, LCC display, backlit manometer and steam wand',
+        caption: 'The exact official working view confirms the current control layout, commercial-size group and shared steam and hot-water wand. It does not establish heat-up, temperature or pressure at the coffee puck.',
+        width: 1300, height: 1300,
+      },
+      {
+        src: 'https://assets.breville.com/cdn-cgi/image/width%3D1300%2Cformat%3Dauto/Lelit/PESVI01/PESVI01_Carousel2.png',
+        alt: 'Lelit official side image of the current Victoria showing its narrow stainless body, cup warmer, top tank access and multidirectional wand',
+        caption: 'The exact official side view makes top tank access, cabinet proportions and wand movement visible. It is manufacturer media, not a Coffeedant test photograph.',
+        width: 1300, height: 1300,
+      },
+    ],
+  ),
   '/espresso-machine/la-pavoni-europiccola/': officialProductMedia(
     'La Pavoni LPLELQ01EU official gallery',
     'https://www.lapavoni.com/en/products/domestic-machines/europiccola-lusso',
