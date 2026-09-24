@@ -169,6 +169,24 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/londinium-r24/': officialProductMedia(
+    'Londinium current R24 official gallery',
+    'https://www.londiniumespresso.com/products/londinium-r24/',
+    [
+      {
+        src: 'https://cdn.swell.store/londinium/66d663007595ec0012bbcfff/6bed143f5a3666abd8af9bfea0a06963/londinium-r24-main-002.jpg?w=1200&h=630&q=100&fit=fill',
+        alt: 'Londinium official close view of espresso extracting from the current R24 spring group into a white cup',
+        caption: 'The exact-model working view shows the spring group, wenge bottomless portafilter and cup clearance during extraction. The pictured crema is promotional manufacturer media, not a Coffeedant taste or extraction test.',
+        width: 1920, height: 1920,
+      },
+      {
+        src: 'https://cdn.swell.store/londinium/66d66300927b9d0012db46bc/cdf9cbf3476603b6cf81f7090bb9e4c8/londinium-r24-main-004.jpg?w=1200&h=630&q=100&fit=fill',
+        alt: 'Londinium official close view of the current R24 steam wand beside a finished milk drink',
+        caption: 'The exact-model view makes the steam-wand reach, insulated grip and drink clearance visible. The finished latte art is a manufacturer illustration, not Coffeedant milk testing.',
+        width: 1920, height: 1920,
+      },
+    ],
+  ),
   '/espresso-machine/la-pavoni-europiccola/': officialProductMedia(
     'La Pavoni LPLELQ01EU official gallery',
     'https://www.lapavoni.com/en/products/domestic-machines/europiccola-lusso',
