@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/nuova-simonelli-oscar-ii/': officialProductMedia(
+    'Nuova Simonelli current Oscar product page',
+    'https://nuovasimonelli.com/machine/oscar/',
+    [
+      {
+        src: 'https://nuovasimonelli.com/wp-content/uploads/sites/2/2025/05/MMFC3722-copia%402x.webp',
+        alt: 'Nuova Simonelli official close view of the Oscar II group, timed coffee buttons and articulated steam wand',
+        caption: 'The current official control view makes the two timed coffee buttons, status lights, 58 mm group and wand placement visible. It does not turn timed dosing into volumetric or weight-based control.',
+        width: 960,
+        height: 900,
+      },
+      {
+        src: 'https://nuovasimonelli.com/wp-content/uploads/sites/2/2025/05/MMFC3706-copia%402x.webp',
+        alt: 'Nuova Simonelli official view of the Oscar II four-hole steam wand texturing milk in a pitcher',
+        caption: 'The official steam image shows the articulated wand and pitcher clearance. It is product-page media, not evidence of milk temperature, texture or steaming speed in Coffeedant testing.',
+        width: 960,
+        height: 900,
+      },
+    ],
+  ),
   '/espresso-machine/nuova-simonelli-musica/': [
     {
       src: 'https://nuovasimonelli.com/wp-content/uploads/sites/2/2025/05/Gruppo-di-maschere-342.png',
