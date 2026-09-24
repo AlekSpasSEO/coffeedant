@@ -33,6 +33,24 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/krups-opio-xp320840/': officialProductMedia(
+    'Krups UK XP320840 official gallery',
+    'https://www.krups.co.uk/ESPRESSO-MACHINES/TRADITIONAL-ESPRESSO-MACHINES/Krups-Opio-Steam-%26-Pump-XP320840-Traditional-Pump-Espresso-Coffee-Machine--1-5L--Black--Cappuccino/p/8010000482',
+    [
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wyNDc5MzN8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZ3lNUzlvT1RNdk1qa3dOalF6T1RnME1EVTJOakl8ZjIyYTlhZjg3MTc0OGIxYWViNDRmYTlkZWIxYjM0NzQ3NjE4NDU3Njc1ZjdjZDc3MTJlOWY1MTEwZjdjNGU0NA',
+        alt: 'Krups UK lifestyle image of the Opio XP320840 with two black coffees and a milk drink',
+        caption: 'Official gallery image illustrates a two-cup presentation and milk drink; pictured results are promotional, not Coffeedant testing.',
+        width: 571, height: 700,
+      },
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wxODU1MDJ8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZ3pPQzlvT1Rjdk1qa3dOalF6T1RnMU5qazFNREl8YmYyZjZlODQ5ZjBlZjNjN2VkODJlYTEwMjc5NzA4MWJhZTcxMzU1ZTZkYjVkYTE1YTkyZGVlYjhiY2VkNTg5YQ',
+        alt: 'Krups UK angled image of the Opio XP320840 showing the rear water tank, portafilter and steam wand',
+        caption: 'Manufacturer image shows component placement and access. It does not establish measured dimensions, recovery speed or durability.',
+        width: 640, height: 700,
+      },
+    ],
+  ),
   '/espresso-machine/krups-intuition-preference-ea875u40/': officialProductMedia(
     'Krups UK EA875U40 official gallery',
     'https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/INTUITION-PREFERENCE%2B-Bean-to-Cup-Coffee-Machine---Dark-Grey/p/8010001185',
