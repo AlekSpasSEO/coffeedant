@@ -193,6 +193,26 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/grinder/timemore-sculptor/': officialProductMedia(
+    'Timemore Sculptor series product page',
+    'https://www.timemore.com/products/timemore-electric-coffee-grinder-sculptor-series',
+    [
+      {
+        src: 'https://www.timemore.com/cdn/shop/files/Sculptor_078_078s_01_1200x.jpg?v=1730795412',
+        alt: 'Timemore official close view of the Sculptor 078S grounds chute and magnetic catch cup',
+        caption: 'The official close view shows the short grounds path, chute, knocker ring and magnetic catch-cup position. It documents the workflow design, not measured retention or exchange.',
+        width: 1066,
+        height: 1066,
+      },
+      {
+        src: 'https://www.timemore.com/cdn/shop/files/Sculptor_078_078s_04_1200x.jpg?v=1730797786',
+        alt: 'Timemore official detail image of the Sculptor 078-series variable RPM control',
+        caption: 'The official control detail records the 800 to 1,400 RPM scale shown for the 078-series body. A speed setting is a recipe variable, not a guaranteed flavor or particle-distribution result.',
+        width: 790,
+        height: 790,
+      },
+    ],
+  ),
   '/espresso-machine/rancilio-silvia-pro-x/': retailerProductMedia(
     'Seattle Coffee Gear current Silvia Pro X listing',
     'https://www.seattlecoffeegear.com/products/rancilio-silvia-pro-x-espresso-machine',
