@@ -1,10 +1,5 @@
 ---
-import BuyingGuideLanding from '../../../components/BuyingGuideLanding.astro';
-const picks = [
-  { brand: 'Breville', name: 'Bambino Plus', note: 'Fast compact value', path: '/espresso-machine/breville-bambino/', image: 'images/products/breville-bambino-plus.png' },
-  { brand: "De'Longhi", name: 'Dedica', note: 'Best narrow footprint', path: '/espresso-machine/delonghi-dedica/' },
-  { brand: 'Flair', name: 'Pro 2', note: 'Manual control without electronics', path: '/espresso-machine/flair-pro-2/' },
-  { brand: 'Gaggia', name: 'Espresso Evolution', note: 'Simple traditional entry point', path: '/espresso-machine/gaggia-espresso-evolution-eg2115/' },
-];
+import BeginnerGuide from '../../../components/guides/BeginnerGuide.astro';
+import { budgetUnder500Guide } from '../../../data/budget-under-500-guide';
 ---
-<BuyingGuideLanding title="Best Budget Espresso Machines Under $500" eyebrow="Budget buying guide" heading="Protect the grinder budget." intro="Under $500, the smartest machine is often the one that leaves enough money for fresh coffee and a capable grinder." canonicalPath="/espresso-machine/cheap-budget-under-500/" mode="all" picks={picks} comparisonRows={[["Machine budget","Keep it disciplined"],["Grinder budget","Do not starve it"],["Skip first","Feature clutter"],["Prioritize","Heat and consistency"]]} />
+<BeginnerGuide guide={budgetUnder500Guide} />
