@@ -113,6 +113,26 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/saeco-xelsis/': retailerProductMedia(
+    'Seattle Coffee Gear certified-refurbished SM7685 listing',
+    'https://www.seattlecoffeegear.com/products/saeco-xelsis-sm7685-superautomatic-espresso-machine-stainless-steel-certified-refurbished',
+    [
+      {
+        src: 'https://www.seattlecoffeegear.com/cdn/shop/files/SAECOXELSISSUPERAUTOMATICESPRESSOMACHINEnew-4_8dcbf061-575d-4e6a-a79d-40c819cab4cd.jpg?v=1713731223&width=1200',
+        alt: 'Seattle Coffee Gear front product view of the stainless Saeco Xelsis SM7685',
+        caption: 'The exact-model listing view records the touchscreen, paired outlet, front-access tray and stainless fascia. It identifies the legacy North American machine but does not establish the condition or performance of another refurbished unit.',
+        width: 1363,
+        height: 1363,
+      },
+      {
+        src: 'https://www.seattlecoffeegear.com/cdn/shop/files/SAECOXELSISSUPERAUTOMATICESPRESSOMACHINEnew-5_36af73e4-fd33-4ed3-bc32-8f32371fd5a9.jpg?v=1713731223&width=1200',
+        alt: 'Seattle Coffee Gear alternate product view of the stainless Saeco Xelsis SM7685',
+        caption: 'The alternate retailer view helps a buyer judge depth, hopper access, milk connection and the work area. A studio image cannot show prior use, internal scale, completeness or remaining service life.',
+        width: 1363,
+        height: 1363,
+      },
+    ],
+  ),
   '/espresso-machine/rancilio-silvia-pro-x/': retailerProductMedia(
     'Seattle Coffee Gear current Silvia Pro X listing',
     'https://www.seattlecoffeegear.com/products/rancilio-silvia-pro-x-espresso-machine',
