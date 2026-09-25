@@ -74,6 +74,7 @@ import { upgradeRocketMozzafiatoCronometroRReviews } from './reviews/upgrade-roc
 import { upgradeRocketRNineOneReviews } from './reviews/upgrade-rocket-r-nine-one';
 import { upgradeRokEspressoGCReviews } from './reviews/upgrade-rok-espresso-gc';
 import { upgradeSaecoXelsisReviews } from './reviews/upgrade-saeco-xelsis';
+import { upgradeSiemensEQ700IntegralReviews } from './reviews/upgrade-siemens-eq700-integral';
 import {
   getReviewRouteDefinition,
   hasValidReviewProductId,
@@ -186,6 +187,7 @@ const candidates: MachineReviewData[] = [
   ...upgradeRocketRNineOneReviews,
   ...upgradeRokEspressoGCReviews,
   ...upgradeSaecoXelsisReviews,
+  ...upgradeSiemensEQ700IntegralReviews,
 ];
 const bySlug = new Map(candidates.map((review) => [review.slug, review]));
 
