@@ -23,7 +23,7 @@ The official UK product page identifies TI9573X9GB and the official service reco
 
 ## Product facts accepted
 
-The exact official record supports 392 × 299 × 470 mm dimensions, a 2.3 L water tank, two bean containers, a 250 g fresh-bean capacity field, switchable cup heater, integrated milk system with hose, Home Connect, iAroma, aromaDouble Shot, autoMilk Clean, ceramDrive and oneTouch DoubleCup for two milk specialities. The one-touch milk menu includes latte macchiato, cappuccino, caffe latte, espresso macchiato, flat white and café cortado.
+The exact official record supports 392 × 299 × 470 mm dimensions, a 2.3 L water tank, two bean containers, a 250 g fresh-bean capacity field, switchable cup heater, integrated milk system with hose, Home Connect, iAroma, aromaDouble Shot, autoMilk Clean, ceramDrive and oneTouch DoubleCup for two milk specialities. The exact-model specification sheet also confirms that each bean container has its own grinder and that the machine supports up to ten individual profiles. The one-touch milk menu includes latte macchiato, cappuccino, caffe latte, espresso macchiato, flat white and café cortado.
 
 The Amazon exact-model listing supplies secondary catalog values of 1,500 W and roughly 12.5 kg. The review tells buyers to prefer the actual rating plate and official documents when retailer copy differs.
 
@@ -41,19 +41,19 @@ The Amazon exact-model listing supplies secondary catalog values of 1,500 W and 
 10. [eBay UK Siemens automatic-machine listings](https://www.ebay.co.uk/b/bn_7027726949): Exact TI9573X9GB pre-owned listing displayed at £361.42 plus £14.30 postage on September 25, 2026.
 11. [Reddit EQ.9 s700 regional purchase discussion](https://www.reddit.com/r/superautomatic/comments/1dswsg2/alternative_for_siemens_eq9_plus_connect_s700_for/): Self-selected context about two-bean needs, imports and North American availability.
 12. [Home Assistant Siemens EQ.9 integration issue](https://github.com/home-assistant/core/issues/156372): One model-specific 2025 report about bean-selector entities becoming unavailable after preparing a drink.
+13. [Siemens UK TI9573X9GB specification sheet](https://media3.bsh-group.com/Documents/specsheet/en-GB/TI9573X9GB.pdf): Exact-model official PDF confirming the dualBean System with a separate grinder for each bean container, baristaMode and up to ten individual profiles.
 
 ## Media ledger decisions
 
 - Hero: Siemens UK exact-model product-page image `13189632_TI9573X9RW_def.webp`, rendered at 748 × 1089. The page is for TI9573X9GB but the filename names the TI9573X9RW regional sibling. It is disclosed as official shared-generation identification media rather than suffix proof.
-- Inline one: Amazon UK exact TI9573X9GB listing image `61SoFQSh1dL._AC_SL1280_.jpg`, 849 × 1280, showing the machine with both top bean containers and two black coffees.
-- Inline two: Amazon UK exact TI9573X9GB listing image `61FVgcldsuL._AC_SL1280_.jpg`, 1280 × 1122, showing paired milk-drink dispensing.
+- Inline one: Siemens official shared-generation image `MCMI03236279_EQ9s700_coffee_machine_CTM_TI9573X9RW.jpg`, 700 × 394, showing the EQ.9 s700 in a finished-drink setting. The filename identifies the TI9573X9RW sibling, so the image is used for common generation design and workflow only.
+- Inline two: Siemens official shared-generation care image `MCMI03236284_MCIM02458597_Siemens_Shop_CC_ACC_Coffee_TI9573X9RW.jpg`, 400 × 300, showing the EQ.9 body beside coffee-machine care supplies. It illustrates maintenance context, not the contents supplied with TI9573X9GB.
 - The page uses one hero and two inline images. None is represented as a Coffeedant test photograph.
 
 ## Conflict and limitation record
 
-- The current official overview says there are two bean containers but does not clearly enumerate grinder motors. The review does not repeat an unqualified dual-grinder claim and tells used buyers to inspect the exact machine and manual.
 - The official capacity field says 250 g but does not state clearly whether this is per container or a combined capacity. The review preserves the official field without calculating a total.
-- Amazon lists six users and fourteen drinks, while older generic copy has claimed up to ten profiles. The review does not assign a precise profile count because exact current official evidence was not located.
+- Amazon lists six users and fourteen drinks, but the exact official specification sheet states up to ten individual profiles. The review uses the manufacturer figure and does not infer a drink count from retailer copy.
 - The official hero asset and the selected independent video name TI9573X9RW. Both are limited to shared-generation design and workflow context.
 - Siemens displays 4.6/5 from 25 reviews and Amazon displays 3.8/5 from 19 ratings. Neither self-selected sample establishes reliability or expected lifespan.
 - Owner and integration reports mix regions, ages, water conditions, maintenance, software and third-party systems. They cannot establish representative incidence.
@@ -61,7 +61,7 @@ The Amazon exact-model listing supplies secondary catalog values of 1,500 W and 
 
 ## Unknown evidence
 
-Unknown evidence includes factory-production status, dealer inventory, exact profile limit, whether each bean container has its own grinder motor, retained-ground crossover, present Home Connect functions, firmware by unit, app support duration, grinder wear, scale history, brew-unit condition, seal condition, repair prices, component inventory, turnaround time and representative fault rates. These unknowns remain in the buying decision.
+Unknown evidence includes factory-production status, dealer inventory, retained-ground crossover, present Home Connect functions, firmware by unit, app support duration, grinder wear, scale history, brew-unit condition, seal condition, repair prices, component inventory, turnaround time and representative fault rates. These unknowns remain in the buying decision.
 
 ## Editorial decisions
 
