@@ -1,0 +1,240 @@
+---
+import HomeLayout from '../../layouts/HomeLayout.astro';
+import '../../styles/review.css';
+import { beginnerGuide as guide } from '../../data/beginner-guide';
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const assetUrl = (path: string) => /^https?:\/\//i.test(path) ? path : `${base}${path.replace(/^\//, '')}`;
+const pageUrl = (path: string) => `${base}${path.replace(/^\//, '')}`;
+const canonical = new URL(guide.canonicalPath.replace(/^\//, ''), 'https://coffeedant.com/').toString();
+const formatDate = (date: string, short = false) => new Intl.DateTimeFormat('en-US', {
+  month: short ? 'short' : 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC',
+}).format(new Date(`${date}T00:00:00Z`));
+const isCommunity = (href: string) => /reddit\.com/i.test(href);
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Article', '@id': `${canonical}#article`, headline: guide.title,
+      description: guide.description, genre: 'Research-led buying guide', articleSection: 'Espresso machine buying guides',
+      inLanguage: 'en-US', datePublished: guide.published, dateModified: guide.updated,
+      mainEntityOfPage: canonical, image: guide.media.map((item) => assetUrl(item.src)),
+      author: { '@type': 'Person', name: guide.author.name, jobTitle: guide.author.role, image: assetUrl(guide.author.image), url: 'https://coffeedant.com/about/' },
+      publisher: { '@type': 'Organization', name: 'Coffeedant', url: 'https://coffeedant.com/' },
+      citation: guide.sources.map((source) => source[1]),
+    },
+    {
+      '@type': 'VideoObject', name: guide.video.title, description: guide.video.note,
+      thumbnailUrl: `https://img.youtube.com/vi/${guide.video.id}/hqdefault.jpg`, uploadDate: guide.video.published,
+      duration: guide.video.duration, embedUrl: `https://www.youtube-nocookie.com/embed/${guide.video.id}`,
+      contentUrl: `https://www.youtube.com/watch?v=${guide.video.id}`,
+    },
+    {
+      '@type': 'FAQPage', mainEntity: guide.faqs.map(([question, answer]) => ({
+        '@type': 'Question', name: question, acceptedAnswer: { '@type': 'Answer', text: answer },
+      })),
+    },
+    {
+      '@type': 'BreadcrumbList', itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://coffeedant.com/' },
+        { '@type': 'ListItem', position: 2, name: 'Espresso machines', item: 'https://coffeedant.com/espresso-machine/' },
+        { '@type': 'ListItem', position: 3, name: 'Machines for beginners', item: canonical },
+      ],
+    },
+  ],
+};
+const jumpLinks = [
+  ['decision', 'Choose a workflow'], ['criteria', 'Criteria'], ['compare', 'Compare'], ['grinder', 'Grinder'],
+  ['milk', 'Milk'], ['ownership', 'Ownership'], ['picks', 'Picks'], ['first-week', 'First week'],
+  ['community', 'Owners'], ['faq', 'FAQ'], ['video', 'Video'], ['methodology', 'Methodology'], ['sources', 'Sources'], ['verdict', 'Verdict'],
+];
+const mediaAfter: Record<string, number> = { grinder: 0, community: 1 };
+---
+
+<HomeLayout
+  title={`${guide.title} | Coffeedant`}
+  description={guide.description}
+  canonicalPath={guide.canonicalPath}
+  image={guide.media[0].src}
+  imageAlt={guide.media[0].alt}
+  ogType="article"
+  published={guide.published}
+  updated={guide.updated}
+>
+  <main id="main-content" class="review-page guide-page" tabindex="-1">
+    <div class="review-shell">
+      <nav class="review-breadcrumbs" aria-label="Breadcrumb">
+        <a href={base}>Home</a><span aria-hidden="true">/</span>
+        <a href={`${base}espresso-machine/`}>Espresso machines</a><span aria-hidden="true">/</span>
+        <span aria-current="page">Machines for beginners</span>
+      </nav>
+
+      <section class="hub-hero guide-hero" aria-labelledby="guide-title">
+        <div class="guide-hero-copy">
+          <p class="review-overline">First-machine buying guide · research-led</p>
+          <h1 id="guide-title">Best espresso machines for beginners</h1>
+          <p class="guide-deck">Choose the workflow before the machine. These four exact models remove different jobs: milk technique, separate-grinder shopping, manual puck preparation, or almost all of the visible process.</p>
+          <div class="guide-fast-answer">
+            <strong>Fast answer</strong>
+            <p><a href={pageUrl('/espresso-machine/breville-bambino/')}>Bambino Plus</a> is the broadest starting point for milk drinks with a separate grinder. <a href={pageUrl('/espresso-machine/gaggia-classic-evo/')}>Classic E24</a> is for craft-first learning, <a href={pageUrl('/espresso-machine/breville-barista-express-bes870xl/')}>Barista Express</a> is the one-box manual station, and <a href={pageUrl('/espresso-machine/delonghi-magnifica-evo/')}>Magnifica Evo</a> is the no-portafilter choice.</p>
+          </div>
+        </div>
+        <aside class="review-author-card" aria-label="Author and publication details">
+          <div class="review-author-head">
+            <img src={assetUrl(guide.author.image)} width="48" height="48" alt={`${guide.author.name}, ${guide.author.role.toLowerCase()}`} decoding="async" />
+            <div><span>Written by</span><strong>{guide.author.name}</strong><small>{guide.author.role}</small></div>
+          </div>
+          <dl class="review-author-dates">
+            <div><dt>Published</dt><dd><time datetime={guide.published}>{formatDate(guide.published, true)}</time></dd></div>
+            <div><dt>Updated</dt><dd><time datetime={guide.updated}>{formatDate(guide.updated, true)}</time></dd></div>
+          </dl>
+          <p><strong>A note from the author</strong>{guide.author.note}</p>
+        </aside>
+      </section>
+
+      <nav class="review-jumpbar" aria-label="Guide sections">
+        <span>In this guide</span><div>{jumpLinks.map(([id, label]) => <a href={`#${id}`}>{label}</a>)}</div>
+      </nav>
+
+      <article class="review-article guide-article" aria-label="Beginner espresso machine buying guide">
+        <section class="section review-section machine-guide" id="decision" aria-labelledby="decision-title">
+          <header class="review-section-heading"><p class="review-overline"><span class="review-section-number">01</span>Start with the routine</p><h2 id="decision-title">Build the shortlist from the jobs you want to keep</h2></header>
+          <div class="review-section-body machine-guide-grid">
+            <form class="machine-guide-form">
+              <fieldset><legend>What do you drink most?</legend><label><input type="radio" name="drink" value="milk" checked /><span>Milk drinks</span></label><label><input type="radio" name="drink" value="espresso" /><span>Espresso</span></label><label><input type="radio" name="drink" value="mixed" /><span>A mix</span></label></fieldset>
+              <fieldset><legend>How involved should mornings feel?</legend><label><input type="radio" name="effort" value="guided" checked /><span>Guided manual</span></label><label><input type="radio" name="effort" value="craft" /><span>Hands-on craft</span></label><label><input type="radio" name="effort" value="automatic" /><span>Push button</span></label></fieldset>
+              <fieldset><legend>What matters most?</legend><label><input type="radio" name="priority" value="modular" checked /><span>Upgrade freedom</span></label><label><input type="radio" name="priority" value="integrated" /><span>One station</span></label><label><input type="radio" name="priority" value="shared" /><span>Easy to share</span></label></fieldset>
+              <button type="submit">Show my starting point →</button>
+            </form>
+            <div class="machine-guide-result" aria-live="polite"><span>Your current match</span><p class="guide-result-brand">Breville</p><h3 class="guide-result-title">Bambino Plus</h3><p class="guide-result-note">Automatic milk, manual coffee, separate grinder.</p><div class="guide-result-meta"><span>Best fit: regular milk drinks</span><span>Main limit: grinder sold separately</span></div><a class="guide-result-link" href={pageUrl('/espresso-machine/breville-bambino/')}>Read the review →</a></div>
+            <div class="selector-data" hidden>
+              <span data-signals="milk guided modular" data-brand="Breville" data-name="Bambino Plus" data-note="Automatic milk, manual coffee, separate grinder." data-setup="Best fit: regular milk drinks" data-compromise="Main limit: grinder sold separately" data-href={pageUrl('/espresso-machine/breville-bambino/')}></span>
+              <span data-signals="espresso craft modular" data-brand="Gaggia" data-name="Classic Pro E24" data-note="Traditional 58 mm single-boiler learning." data-setup="Best fit: craft-first espresso" data-compromise="Main limit: manual temperature routine" data-href={pageUrl('/espresso-machine/gaggia-classic-evo/')}></span>
+              <span data-signals="mixed guided integrated" data-brand="Breville" data-name="Barista Express" data-note="One-box grinder and manual espresso station." data-setup="Best fit: one familiar station" data-compromise="Main limit: fixed integrated grinder" data-href={pageUrl('/espresso-machine/breville-barista-express-bes870xl/')}></span>
+              <span data-signals="milk automatic shared" data-brand="De’Longhi" data-name="Magnifica Evo" data-note="Fresh-bean drinks without a portafilter." data-setup="Best fit: shared push-button use" data-compromise="Main limit: less manual control" data-href={pageUrl('/espresso-machine/delonghi-magnifica-evo/')}></span>
+            </div>
+          </div>
+          <div class="review-section-body guide-framework-copy"><Fragment set:html={guide.sections.find((section) => section.id === 'decision')!.html} /></div>
+        </section>
+
+        <section class="section review-section" id="compare" aria-labelledby="compare-title">
+          <header class="review-section-heading"><p class="review-overline"><span class="review-section-number">02</span>Quick comparison</p><h2 id="compare-title">Four different beginner workflows</h2></header>
+          <div class="review-section-body">
+            <div class="review-table-wrap" role="region" aria-label="Quick beginner espresso machine comparison" tabindex="0">
+              <table class="comparison-table review-table"><caption>Quick comparison, exact US or North American models</caption><thead><tr><th>Machine</th><th>Complete setup</th><th>Milk</th><th>Best fit</th><th></th></tr></thead><tbody>{guide.picks.map((pick) => <tr><th scope="row" data-label="Machine">{pick.name}<small>{pick.model}</small></th><td data-label="Complete setup">{pick.price}<br />{pick.setup}</td><td data-label="Milk">{pick.milk}</td><td data-label="Best fit">{pick.bestFit}</td><td data-label="Review"><a href={pageUrl(pick.href)}>Review →</a></td></tr>)}</tbody></table>
+            </div>
+            <details class="review-comparison-details"><summary>Open the detailed comparison</summary><div class="review-table-wrap" role="region" aria-label="Detailed beginner espresso machine comparison" tabindex="0"><table class="review-table review-table-detailed"><caption>Detailed workflow and ownership comparison</caption><thead><tr><th>Machine</th><th>Grinder</th><th>Maintenance</th><th>Avoid if</th><th>Decision</th></tr></thead><tbody>{guide.picks.map((pick) => <tr><th scope="row" data-label="Machine"><a href={pageUrl(pick.href)}>{pick.name}</a></th><td data-label="Grinder">{pick.grinder}</td><td data-label="Maintenance">{pick.maintenance}</td><td data-label="Avoid if">{pick.avoidIf}</td><td data-label="Decision">{pick.verdict}</td></tr>)}</tbody></table></div></details>
+            <p class="review-table-note">Prices were checked September 25, 2026. Tax, color, stock, seller, bundles and promotions can change. Compare the complete station, not the machine-only number.</p>
+          </div>
+        </section>
+
+        {guide.sections.filter((section) => !['decision', 'picks', 'verdict'].includes(section.id)).map((section, index) => (
+          <section class:list={['section', 'review-section', { 'principles-section': section.id === 'criteria' }]} id={section.id} aria-labelledby={`${section.id}-title`}>
+            <header class="review-section-heading"><p class="review-overline"><span class="review-section-number">{String(index + 3).padStart(2, '0')}</span>{section.eyebrow}</p><h2 id={`${section.id}-title`}>{section.title}</h2></header>
+            <div class="review-section-body">
+              <Fragment set:html={section.html} />
+              {section.id === 'criteria' && <div class="principle-grid"><article><span>01</span><h3>Drink queue</h3><p>Count the actual drinks and whether milk follows every shot.</p></article><article><span>02</span><h3>Task ownership</h3><p>Name who dials in, steams, cleans and responds to prompts.</p></article><article><span>03</span><h3>Complete budget</h3><p>Include grinder, scale, water and care from the first day.</p></article><article><span>04</span><h3>Upgrade path</h3><p>Decide whether components should improve independently.</p></article></div>}
+              {mediaAfter[section.id] !== undefined && (() => { const media = guide.media[mediaAfter[section.id]]; return <figure class="review-media review-inline-media" data-source-type="manufacturer" data-user-generated="false" data-usage-record={media.source}><a class="review-media-link" href={media.source} target="_blank" rel="noopener"><img src={assetUrl(media.src)} alt={media.alt} width={media.width} height={media.height} loading="lazy" decoding="async" /></a><figcaption><span class="review-media-source-badge">Manufacturer photo</span>{media.caption}<span class="review-media-credit"> Image: <a href={media.source} target="_blank" rel="noopener">{media.credit}</a>. Official manufacturer media; not a Coffeedant test photograph.</span></figcaption></figure>; })()}
+            </div>
+          </section>
+        ))}
+
+        <section class="section review-section" id="picks" aria-labelledby="picks-title">
+          <header class="review-section-heading"><p class="review-overline"><span class="review-section-number">09</span>{guide.sections.find((section) => section.id === 'picks')!.eyebrow}</p><h2 id="picks-title">{guide.sections.find((section) => section.id === 'picks')!.title}</h2></header>
+          <div class="review-section-body"><Fragment set:html={guide.sections.find((section) => section.id === 'picks')!.html} /><div class="guide-picks">{guide.picks.map((pick) => <a href={pageUrl(pick.href)}><span>{pick.brand} · {pick.model}</span><h3>{pick.name}</h3><p><strong>{pick.bestFit}</strong></p><p>{pick.avoidIf}</p><b>Read the full review →</b></a>)}</div></div>
+        </section>
+
+        <section class="section review-section" id="faq" aria-labelledby="faq-title">
+          <header class="review-section-heading"><p class="review-overline"><span class="review-section-number">10</span>Visible answers</p><h2 id="faq-title">Beginner espresso machine FAQ</h2></header>
+          <div class="review-section-body"><div class="review-faq-list">{guide.faqs.map(([question, answer]) => <article class="review-faq-item"><h3>{question}</h3><p>{answer}</p></article>)}</div></div>
+        </section>
+
+        <section class="section review-section" id="video" aria-labelledby="video-title">
+          <header class="review-section-heading"><p class="review-overline">See the fundamentals</p><h2 id="video-title">An independent beginner technique overview</h2></header>
+          <div class="review-section-body"><div class="review-video" data-review-video={guide.video.id}><button class="review-video-poster" type="button" aria-label={`Play ${guide.video.title}`}><img src={`https://img.youtube.com/vi/${guide.video.id}/hqdefault.jpg`} alt="" width="480" height="360" loading="lazy" decoding="async" /><span class="review-play" aria-hidden="true">▶</span><span class="review-video-label">Play video</span></button><div class="review-video-copy"><p class="review-overline">{guide.video.creator}</p><h3>{guide.video.title}</h3><p>{guide.video.note}</p><a href={`https://www.youtube.com/watch?v=${guide.video.id}`} target="_blank" rel="noopener">Watch on YouTube <span aria-hidden="true">↗</span></a></div></div></div>
+        </section>
+
+        <section class="section review-section review-methodology" id="methodology" aria-labelledby="methodology-title">
+          <header class="review-section-heading"><p class="review-overline">How the guide was built</p><h2 id="methodology-title">Exact models first, observed workflow second, anecdotes kept in proportion</h2></header>
+          <div class="review-section-body"><p>I checked current official product pages, exact manuals or support routes, dated prices and regional model codes for all four recommendations on September 25, 2026. I then compared independent hands-on evaluations and owner discussions, using each for the question it can answer. Manufacturer documents control identity and specified operation. Independent reviews add observed workflow. Owner accounts identify questions but do not establish failure rates.</p><p>This is a research-led buying guide, not a Coffeedant side-by-side test. I did not invent measurements, transfer specifications between generations, treat a retailer review pool as representative, or rank the machines with an arbitrary score. The shortlist is intentionally small because it represents four different divisions of labor. Prices are dated observations, and buyers should confirm the exact model, seller, voltage, bundle, warranty and return terms.</p></div>
+        </section>
+
+        <section class="section review-section" id="sources" aria-labelledby="sources-title">
+          <header class="review-section-heading"><p class="review-overline">Check the evidence</p><h2 id="sources-title">Sources and further reading</h2></header>
+          <div class="review-section-body"><ol class="review-source-list">{guide.sources.map(([label, href, note], index) => <li id={`beginner-source-${index + 1}`}><a href={href} target="_blank" rel={isCommunity(href) ? 'ugc noopener' : 'noopener'}>{label} <span aria-hidden="true">↗</span></a><p>{note}</p></li>)}</ol></div>
+        </section>
+
+        <section class="section final-verdict" id="verdict" aria-labelledby="verdict-title">
+          <p class="review-overline">The buying decision</p><h2 id="verdict-title">{guide.sections.find((section) => section.id === 'verdict')!.title}</h2><Fragment set:html={guide.sections.find((section) => section.id === 'verdict')!.html} />
+        </section>
+      </article>
+
+      <footer class="review-meta-footer"><span>Published <time datetime={guide.published}>{formatDate(guide.published)}</time></span><span>Updated <time datetime={guide.updated}>{formatDate(guide.updated)}</time></span><a href={`${base}espresso-machine/`}>Compare all espresso machine routes</a></footer>
+    </div>
+  </main>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />
+  <script>
+    document.querySelectorAll<HTMLElement>('.machine-guide').forEach((root) => {
+      const form = root.querySelector<HTMLFormElement>('.machine-guide-form');
+      const candidates = Array.from(root.querySelectorAll<HTMLElement>('.selector-data [data-signals]'));
+      form?.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const selected = Array.from(form.querySelectorAll<HTMLInputElement>('input:checked')).map((input) => input.value);
+        const match = candidates.map((candidate, index) => ({ candidate, index, score: selected.filter((value) => candidate.dataset.signals?.split(' ').includes(value)).length })).sort((a, b) => b.score - a.score || a.index - b.index)[0]?.candidate;
+        if (!match) return;
+        const put = (selector: string, value = '') => { const node = root.querySelector<HTMLElement>(selector); if (node) node.textContent = value; };
+        put('.guide-result-brand', match.dataset.brand); put('.guide-result-title', match.dataset.name); put('.guide-result-note', match.dataset.note);
+        const meta = root.querySelector<HTMLElement>('.guide-result-meta'); if (meta) meta.innerHTML = `<span>${match.dataset.setup ?? ''}</span><span>${match.dataset.compromise ?? ''}</span>`;
+        const link = root.querySelector<HTMLAnchorElement>('.guide-result-link'); if (link) link.href = match.dataset.href ?? '#';
+      });
+    });
+    document.querySelectorAll<HTMLElement>('[data-review-video]').forEach((root) => {
+      root.querySelector<HTMLButtonElement>('.review-video-poster')?.addEventListener('click', (event) => {
+        const button = event.currentTarget as HTMLButtonElement; const id = root.dataset.reviewVideo; if (!id) return;
+        const frame = document.createElement('iframe'); frame.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1`; frame.title = button.getAttribute('aria-label')?.replace(/^Play /, '') || 'Independent video'; frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'; frame.allowFullscreen = true; button.replaceWith(frame); frame.focus();
+      }, { once: true });
+    });
+  </script>
+</HomeLayout>
+
+<style>
+  .guide-page { background: var(--paper); }
+  .guide-hero { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(280px, .55fr); gap: 28px; margin-bottom: 18px; padding: clamp(26px, 5vw, 58px); border: 2px solid var(--ink); background: var(--white); box-shadow: 7px 7px 0 var(--ink); }
+  .guide-hero h1 { max-width: 850px; margin: 8px 0 18px; font-size: clamp(2.5rem, 6vw, 5.5rem); line-height: .92; letter-spacing: -.06em; }
+  .guide-deck { max-width: 760px; font-size: clamp(1rem, 1.8vw, 1.25rem); }
+  .guide-fast-answer { margin-top: 24px; padding: 18px; border-left: 6px solid var(--yellow); background: #f4f1e8; }
+  .guide-fast-answer strong { display: block; margin-bottom: 6px; text-transform: uppercase; }
+  .guide-fast-answer a { font-weight: 800; }
+  .guide-hero .review-author-card { margin-top: 0; align-self: end; }
+  .guide-article .section { padding-inline: 0; }
+  .guide-framework-copy { margin-top: 28px; }
+  .machine-guide-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(280px, .9fr); gap: 22px; }
+  .machine-guide-form { display: grid; gap: 14px; }
+  .machine-guide-form fieldset { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 0; padding: 14px; border: 1px solid var(--line); }
+  .machine-guide-form legend { padding-inline: 6px; font-weight: 850; }
+  .machine-guide-form label { display: flex; gap: 7px; align-items: center; padding: 10px; border: 1px solid var(--line); background: var(--white); font-size: .82rem; font-weight: 750; }
+  .machine-guide-form button { padding: 14px 18px; border: 2px solid var(--ink); color: var(--white); background: var(--ink); font: inherit; font-weight: 850; cursor: pointer; }
+  .machine-guide-result { padding: 24px; border: 2px solid var(--ink); background: var(--yellow); }
+  .machine-guide-result > span, .guide-result-brand { font-size: .67rem; font-weight: 850; letter-spacing: .06em; text-transform: uppercase; }
+  .machine-guide-result h3 { margin: 6px 0 10px; font-size: 2rem; line-height: 1; }
+  .guide-result-meta { display: grid; gap: 6px; margin: 18px 0; font-size: .82rem; }
+  .guide-result-link { font-weight: 850; }
+  .comparison-table small { display: block; margin-top: 4px; font-weight: 500; }
+  .principle-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 24px; }
+  .principle-grid article { padding: 18px; border: 1px solid var(--line); background: var(--white); }
+  .principle-grid span { font-weight: 900; color: var(--green); }
+  .guide-picks { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin: 28px 0; }
+  .guide-picks > a { padding: 22px; border: 1px solid var(--line); color: inherit; background: var(--white); text-decoration: none; }
+  .guide-picks > a:first-child { border: 2px solid var(--ink); background: var(--yellow); }
+  .guide-picks span { font-size: .68rem; font-weight: 850; text-transform: uppercase; }
+  .guide-picks h3 { margin: 8px 0; font-size: 1.35rem; }
+  .guide-picks p { font-size: .86rem; }
+  .guide-picks b { display: block; margin-top: 14px; color: var(--green); }
+  @media (max-width: 760px) {
+    .guide-hero, .machine-guide-grid { grid-template-columns: 1fr; }
+    .guide-hero { padding: 24px 18px; box-shadow: 4px 4px 0 var(--ink); }
+    .guide-hero h1 { overflow-wrap: anywhere; }
+    .machine-guide-form fieldset { grid-template-columns: 1fr; }
+    .principle-grid, .guide-picks { grid-template-columns: 1fr; }
+  }
+</style>
