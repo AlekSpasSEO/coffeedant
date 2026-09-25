@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/rocket-giotto-cronometro-r/': retailerProductMedia(
+    'Whole Latte Love retired Giotto Cronometro R listing',
+    'https://www.wholelattelove.com/products/rocket-espresso-giotto-cronometro-r',
+    [
+      {
+        src: 'https://www.wholelattelove.com/cdn/shop/files/preview_images/model_3d_REGIOCRONOR.jpg?v=1732916332&width=1946',
+        alt: 'Whole Latte Love exact-model render of the Rocket Giotto Cronometro R',
+        caption: 'The retired exact-model listing render records the flared Giotto panels, E61 group, dual gauges, manual valves and wide cup tray. It is product identification media, not evidence of condition or measured performance.',
+        width: 1024,
+        height: 1024,
+      },
+      {
+        src: 'https://www.wholelattelove.com/cdn/shop/products/IMG_1205_copy.jpg?v=1764083294&width=1946',
+        alt: 'Whole Latte Love product angle showing the Rocket Giotto Cronometro R work area',
+        caption: 'The historical exact-model angle helps a used buyer identify the lever, hidden timer area, gauges, hot-water tap and steam wand. A listing photograph cannot establish the condition of another unit.',
+        width: 1946,
+        height: 1945,
+      },
+    ],
+  ),
   '/espresso-machine/rancilio-silvia-pro-x/': retailerProductMedia(
     'Seattle Coffee Gear current Silvia Pro X listing',
     'https://www.seattlecoffeegear.com/products/rancilio-silvia-pro-x-espresso-machine',
