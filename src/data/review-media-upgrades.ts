@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/quick-mill-qm67-evo/': retailerProductMedia(
+    'Espresso Outlet current Quick Mill QM67 Evo listing',
+    'https://espressooutlet.com/products/quick-mill-qm67-evo-espresso-machine',
+    [
+      {
+        src: 'https://espressooutlet.com/cdn/shop/files/QM67_front-sized.webp?v=1709835656&width=1080',
+        alt: 'Front view of the Quick Mill QM67 Evo showing the E61 group, dual manometer, PID and manual controls',
+        caption: 'The exact current product view records the E61 group, dual gauge, PID display, boiler switches, brew lever and wand layout. It does not establish measured heat-up, temperature, pressure, flow, steam or reliability.',
+        width: 1080,
+        height: 1080,
+      },
+      {
+        src: 'https://espressooutlet.com/cdn/shop/files/0992P-A-EVO-9.webp?v=1709835656&width=1080',
+        alt: 'Quick Mill QM67 Evo top and side detail showing the hinged reservoir access and stainless body',
+        caption: 'The exact-model detail documents the hinged top access, stainless chassis and counter clearance needed around the machine. It is product-listing media, not evidence of measured durability or performance.',
+        width: 1080,
+        height: 1080,
+      },
+    ],
+  ),
   '/espresso-machine/quick-mill-pippa-4100/': officialProductMedia(
     'Quick Mill official Pippa product page',
     'https://www.quick-mill.com/products/pippa/',
