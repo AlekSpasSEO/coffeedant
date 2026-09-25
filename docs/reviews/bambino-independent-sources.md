@@ -1,6 +1,6 @@
 # Bambino Plus independent firsthand research
 
-Checked 2026-09-15. Target is Bambino **Plus**, model family BES500/SES500, for a US-facing research-led Coffeedant review. Five distinct publishers below document their own use. Do not present their measurements as Coffeedant testing, combine review scores, or treat their old retail prices as current offers. Model-family match is clear; sample voltage/SKU is not disclosed in every article. Manufacturer US documentation takes priority for US specifications and instructions.
+Checked 2026-09-25. Target is Bambino **Plus**, model family BES500/SES500, for a US-facing research-led Coffeedant review. Five distinct publishers below document their own use. Do not present their measurements as Coffeedant testing, combine review scores, or treat their old retail prices as current offers. Model-family match is clear; sample voltage/SKU is not disclosed in every article. Manufacturer US documentation takes priority for US specifications and instructions.
 
 ## 1. Serious Eats: US technical hands-on
 

@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/breville-bambino/': officialProductMedia(
+    'Breville US Bambino Plus BES500 product page',
+    'https://www.breville.com/en-us/product/bes500',
+    [
+      {
+        src: 'https://assets.breville.com/BES500/BES500USCM_CAROUSEL1.png',
+        alt: 'Breville official right-profile view of the Bambino Plus BES500',
+        caption: 'The official exact-model profile records the narrow body, rear tank, 54 mm portafilter, steam wand and compact drip tray. It documents product layout, not measured clearance, temperature, milk texture or durability.',
+        width: 1300,
+        height: 1300,
+      },
+      {
+        src: 'https://assets.breville.com/BES500/BES500USCM_CAROUSEL2.png',
+        alt: 'Breville official low-angle view of the Bambino Plus BES500 work area',
+        caption: 'The official exact-model angle makes the controls, group, tray and automatic-milk sensor easier to identify. It does not establish a Coffeedant test result or guarantee that every color package has identical accessories.',
+        width: 1300,
+        height: 1300,
+      },
+    ],
+  ),
   '/espresso-machine/rocket-giotto-cronometro-r/': retailerProductMedia(
     'Whole Latte Love retired Giotto Cronometro R listing',
     'https://www.wholelattelove.com/products/rocket-espresso-giotto-cronometro-r',

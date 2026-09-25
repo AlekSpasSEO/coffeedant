@@ -81,7 +81,7 @@ export const bambinoReview: MachineReviewData = {
   image: 'images/products/breville-bambino-plus.png',
   imageAlt: 'Breville Bambino Plus espresso machine',
   published: '2026-04-07',
-  updated: '2026-09-15',
+  updated: '2026-09-25',
   author: {
     name: 'Aleksandar Spasevski', role: 'Editor at Coffeedant',
     image: 'images/author-aleksandar-spasevski.jpg',
@@ -91,7 +91,7 @@ export const bambinoReview: MachineReviewData = {
   price: {
     label: 'Breville US price', msrp: `$${bambinoPlusPrice.amount.toFixed(2)}`,
     numeric: bambinoPlusPrice.amount.toFixed(2), currency: bambinoPlusPrice.currency,
-    typical: 'Machine only; grinder sold separately', checked: 'September 15, 2026',
+    typical: 'Machine only; grinder sold separately', checked: 'September 25, 2026',
   },
   links: [
     { label: 'Check Amazon price', href: 'https://amzn.to/4oTFUpH', note: 'Affiliate link · price at retailer', affiliate: true, primary: true },

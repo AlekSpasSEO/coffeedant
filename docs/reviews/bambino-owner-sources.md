@@ -1,6 +1,6 @@
 # Bambino Plus owner-source audit
 
-Checked 2026-09-15. Research input for BES500 / US review. These are original self-reported owner comments, not verified-purchase records or controlled tests. Three distinct publishing/community pools recovered: Reddit, Singletrack forum, CoffeeBlog comments. Two are UK-oriented and the third pool has only one relevant comment. This is **not three verified US BES500 owner pools**. Do not claim representative consensus, failure rates, model-revision confirmation, or a measured thermal defect.
+Checked 2026-09-25. Research input for BES500 / US review. These are original self-reported owner comments, not verified-purchase records or controlled tests. Three distinct publishing/community pools recovered: Reddit, Singletrack forum, CoffeeBlog comments. Two are UK-oriented and the third pool has only one relevant comment. This is **not three verified US BES500 owner pools**. Do not claim representative consensus, failure rates, model-revision confirmation, or a measured thermal defect.
 
 ## Pool 1: Reddit r/espresso
 
