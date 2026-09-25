@@ -71,6 +71,7 @@ import { upgradeQuickMillVetrano2BEvoReviews } from './reviews/upgrade-quick-mil
 import { upgradeRancilioSilviaProXReviews } from './reviews/upgrade-rancilio-silvia-pro-x';
 import { upgradeRocketGiottoCronometroRReviews } from './reviews/upgrade-rocket-giotto-cronometro-r';
 import { upgradeRocketMozzafiatoCronometroRReviews } from './reviews/upgrade-rocket-mozzafiato-cronometro-r';
+import { upgradeRocketRNineOneReviews } from './reviews/upgrade-rocket-r-nine-one';
 import {
   getReviewRouteDefinition,
   hasValidReviewProductId,
@@ -180,6 +181,7 @@ const candidates: MachineReviewData[] = [
   ...upgradeRancilioSilviaProXReviews,
   ...upgradeRocketGiottoCronometroRReviews,
   ...upgradeRocketMozzafiatoCronometroRReviews,
+  ...upgradeRocketRNineOneReviews,
 ];
 const bySlug = new Map(candidates.map((review) => [review.slug, review]));
 
