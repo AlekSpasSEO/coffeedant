@@ -73,6 +73,26 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/rocket-r-nine-one/': retailerProductMedia(
+    'Seattle Coffee Gear current R Nine One listing',
+    'https://www.seattlecoffeegear.com/products/rocket-r-nine-one-espresso-machine',
+    [
+      {
+        src: 'https://www.seattlecoffeegear.com/cdn/shop/files/ROCKETESPRESSORNINEONEESPRESSOMACHINEnew-1.jpg?v=1711076494&width=800',
+        alt: 'Seattle Coffee Gear front angle of the current Rocket R Nine One',
+        caption: 'The current exact-model listing view records the saturated group, paddle, touch display, gauges, steam lever and wide work area. It is product-identification media, not evidence of measured performance.',
+        width: 800,
+        height: 800,
+      },
+      {
+        src: 'https://www.seattlecoffeegear.com/cdn/shop/files/ROCKETESPRESSORNINEONEESPRESSOMACHINEnew-2.jpg?v=1711076498&width=800',
+        alt: 'Seattle Coffee Gear angled product view of the current Rocket R Nine One',
+        caption: 'The alternate listing angle makes the machine depth, cup tray and control layout easier to judge. Confirm real counter clearance because a studio photograph does not show hoses, portafilter reach or service access.',
+        width: 800,
+        height: 800,
+      },
+    ],
+  ),
   '/espresso-machine/rancilio-silvia-pro-x/': retailerProductMedia(
     'Seattle Coffee Gear current Silvia Pro X listing',
     'https://www.seattlecoffeegear.com/products/rancilio-silvia-pro-x-espresso-machine',
