@@ -53,6 +53,26 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/rocket-mozzafiato-cronometro-r/': retailerProductMedia(
+    'Whole Latte Love retired Mozzafiato Cronometro R listing',
+    'https://www.wholelattelove.com/products/rocket-espresso-mozzafiato-cronometro-r',
+    [
+      {
+        src: 'https://www.wholelattelove.com/cdn/shop/products/IMG_1309_da914f61-aef4-4f27-ad13-930243bbc750.jpg?v=1586376766&width=1946',
+        alt: 'Whole Latte Love front product view of the Rocket Mozzafiato Cronometro R',
+        caption: 'The retired exact-model listing view records the straight Mozzafiato panels, E61 group, dual gauges, manual valves and cup tray. It is product identification media, not evidence of condition or measured performance.',
+        width: 1946,
+        height: 1946,
+      },
+      {
+        src: 'https://www.wholelattelove.com/cdn/shop/products/mozzafiatoevor-newpanels2018-back_9c10f838-fd25-437c-916e-0079f6023092.jpg?v=1586376785&width=1946',
+        alt: 'Whole Latte Love rear product view of the Rocket Mozzafiato Cronometro R',
+        caption: 'The historical rear view helps a used buyer identify the exact straight-sided case and rear fittings. A listing photograph cannot establish the condition, completeness or plumbing safety of another unit.',
+        width: 1946,
+        height: 1946,
+      },
+    ],
+  ),
   '/espresso-machine/rancilio-silvia-pro-x/': retailerProductMedia(
     'Seattle Coffee Gear current Silvia Pro X listing',
     'https://www.seattlecoffeegear.com/products/rancilio-silvia-pro-x-espresso-machine',
