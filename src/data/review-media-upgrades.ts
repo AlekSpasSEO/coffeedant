@@ -93,6 +93,26 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/rok-espresso-gc/': officialProductMedia(
+    'ROK USA current EspressoGC Black PLUS listing',
+    'https://us.rok.coffee/products/espressogc-black',
+    [
+      {
+        src: 'https://us.rok.coffee/cdn/shop/files/1-2_8f1a77fe-6827-4926-aedb-ad224ff8054b.jpg?v=1766392497&width=1200',
+        alt: 'ROK USA lifestyle view of the current EspressoGC Black PLUS dual-arm lever',
+        caption: 'The current exact-package view shows the compact frame, twin arms, GC chamber and portafilter in use. It is product-identification media, not evidence of measured pressure, temperature or extraction quality.',
+        width: 1200,
+        height: 676,
+      },
+      {
+        src: 'https://us.rok.coffee/cdn/shop/files/2_4ca80eb9-de5c-4bf3-b259-da6aab483135.jpg?v=1766392497&width=1200',
+        alt: 'ROK USA lifestyle view showing the EspressoGC Black PLUS manual workflow',
+        caption: 'The official workflow image helps a buyer judge hand position, arm travel and counter space. It does not establish lever force, accessibility, repeatability or safety for every user.',
+        width: 1200,
+        height: 676,
+      },
+    ],
+  ),
   '/espresso-machine/rancilio-silvia-pro-x/': retailerProductMedia(
     'Seattle Coffee Gear current Silvia Pro X listing',
     'https://www.seattlecoffeegear.com/products/rancilio-silvia-pro-x-espresso-machine',
