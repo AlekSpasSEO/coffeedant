@@ -173,6 +173,26 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/slayer-single-group/': officialProductMedia(
+    'Slayer Espresso Single Group product page',
+    'https://slayerespresso.com/product/single-group/',
+    [
+      {
+        src: 'https://slayerespresso.com/wp-content/uploads/2021/05/sg-2g-desc-warmer.jpg',
+        alt: 'Slayer official detail photograph of the Espresso Single Group brew area and wood actuator',
+        caption: 'The factory detail view shows the three-position wood actuator, group area and shot mirror that define daily use. It documents design and control placement, not measured extraction quality or the exact finish supplied by every dealer.',
+        width: 960,
+        height: 576,
+      },
+      {
+        src: 'https://slayerespresso.com/wp-content/uploads/2021/08/blueprint-models_sg.png',
+        alt: 'Slayer official dimension drawing for the Espresso Single Group machine',
+        caption: 'The factory drawing records the compact-height but deep installation envelope. Slayer states that published measurements exclude overhanging portafilters, actuators and cup rails, so a real counter plan needs additional working and service clearance.',
+        width: 601,
+        height: 402,
+      },
+    ],
+  ),
   '/espresso-machine/rancilio-silvia-pro-x/': retailerProductMedia(
     'Seattle Coffee Gear current Silvia Pro X listing',
     'https://www.seattlecoffeegear.com/products/rancilio-silvia-pro-x-espresso-machine',
