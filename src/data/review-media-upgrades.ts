@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/rancilio-silvia-pro-x/': retailerProductMedia(
+    'Seattle Coffee Gear current Silvia Pro X listing',
+    'https://www.seattlecoffeegear.com/products/rancilio-silvia-pro-x-espresso-machine',
+    [
+      {
+        src: 'https://www.seattlecoffeegear.com/cdn/shop/files/RANCILIOSILVIAPROXESPRESSOMACHINEnew-1.jpg?v=1711387172',
+        alt: 'Seattle Coffee Gear alternate product view of the Rancilio Silvia Pro X',
+        caption: 'The current exact-model listing view records the narrow stainless chassis, 58 mm group, pressure gauge, rocker controls and wand layout. It does not establish measured temperature, pressure, sound or service life.',
+        width: 1200,
+        height: 1200,
+      },
+      {
+        src: 'https://www.seattlecoffeegear.com/cdn/shop/files/RANCILIOSILVIAPROXESPRESSOMACHINEnew-2.jpg?v=1711387172',
+        alt: 'Seattle Coffee Gear product angle showing the Rancilio Silvia Pro X work area',
+        caption: 'The current retailer angle helps buyers judge group, drip-tray, hot-water and steam-wand access. It is product identification media, not a Coffeedant performance test.',
+        width: 1200,
+        height: 1200,
+      },
+    ],
+  ),
   '/espresso-machine/quick-mill-vetrano-2b-evo/': retailerProductMedia(
     'Chris Coffee current Vetrano 2B Evo listing',
     'https://www.chriscoffee.com/products/quick-mill-vetrano-2b',

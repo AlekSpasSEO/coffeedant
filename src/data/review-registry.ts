@@ -68,6 +68,7 @@ import { upgradeQuickMillQM67EvoReviews } from './reviews/upgrade-quick-mill-qm6
 import { upgradeQuickMillRubinoReviews } from './reviews/upgrade-quick-mill-rubino';
 import { upgradeQuickMillSilvanoEvoReviews } from './reviews/upgrade-quick-mill-silvano-evo';
 import { upgradeQuickMillVetrano2BEvoReviews } from './reviews/upgrade-quick-mill-vetrano-2b-evo';
+import { upgradeRancilioSilviaProXReviews } from './reviews/upgrade-rancilio-silvia-pro-x';
 import {
   getReviewRouteDefinition,
   hasValidReviewProductId,
@@ -174,6 +175,7 @@ const candidates: MachineReviewData[] = [
   ...upgradeQuickMillRubinoReviews,
   ...upgradeQuickMillSilvanoEvoReviews,
   ...upgradeQuickMillVetrano2BEvoReviews,
+  ...upgradeRancilioSilviaProXReviews,
 ];
 const bySlug = new Map(candidates.map((review) => [review.slug, review]));
 
