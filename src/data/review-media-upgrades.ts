@@ -213,6 +213,26 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/vbm-domobar-single-boiler-digital/': officialProductMedia(
+    'VBM Domobar Digital product page',
+    'https://vbmespresso.com/en/professional-coffee-machines/home/domobar/',
+    [
+      {
+        src: 'https://vbmespresso.com/wp-content/uploads/2024/05/VBM_Domobar_Basic_Dett_01.jpg',
+        alt: 'VBM official detail photograph of the current Domobar Digital brew group and work area',
+        caption: 'The factory detail view records the manual group, tray and control arrangement. It documents design, not measured extraction or steam performance.',
+        width: 1224,
+        height: 2448,
+      },
+      {
+        src: 'https://vbmespresso.com/wp-content/uploads/2024/05/VBM_Domobar_Basic_Dett_03.jpg',
+        alt: 'VBM official side detail of the current Domobar Digital body, controls and steam wand',
+        caption: 'The official detail helps readers judge the narrow chassis, manual controls and wand position. It does not establish measured durability, heat or clearance.',
+        width: 1224,
+        height: 2448,
+      },
+    ],
+  ),
   '/espresso-machine/rancilio-silvia-pro-x/': retailerProductMedia(
     'Seattle Coffee Gear current Silvia Pro X listing',
     'https://www.seattlecoffeegear.com/products/rancilio-silvia-pro-x-espresso-machine',

@@ -78,6 +78,7 @@ import { upgradeSiemensEQ700IntegralReviews } from './reviews/upgrade-siemens-eq
 import { upgradeSiemensEQ9PlusS700Reviews } from './reviews/upgrade-siemens-eq9-plus-s700';
 import { upgradeSlayerSingleGroupReviews } from './reviews/upgrade-slayer-single-group';
 import { upgradeTimemoreSculptorReviews } from './reviews/upgrade-timemore-sculptor';
+import { upgradeVbmDomobarSingleBoilerDigitalReviews } from './reviews/upgrade-vbm-domobar-single-boiler-digital';
 import {
   getReviewRouteDefinition,
   hasValidReviewProductId,
@@ -194,6 +195,7 @@ const candidates: MachineReviewData[] = [
   ...upgradeSiemensEQ9PlusS700Reviews,
   ...upgradeSlayerSingleGroupReviews,
   ...upgradeTimemoreSculptorReviews,
+  ...upgradeVbmDomobarSingleBoilerDigitalReviews,
 ];
 const bySlug = new Map(candidates.map((review) => [review.slug, review]));
 
