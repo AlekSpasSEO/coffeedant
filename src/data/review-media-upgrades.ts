@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/quick-mill-vetrano-2b-evo/': retailerProductMedia(
+    'Chris Coffee current Vetrano 2B Evo listing',
+    'https://www.chriscoffee.com/products/quick-mill-vetrano-2b',
+    [
+      {
+        src: 'https://www.chriscoffee.com/cdn/shop/products/vetrano-back.jpg?v=1659444327',
+        alt: 'Chris Coffee rear product view of the Quick Mill Vetrano 2B Evo',
+        caption: 'The current exact-model listing view records the rear chassis, inlet area and case depth that matter to a permanent installation. It does not prove plumbing quality, pump sound or service life.',
+        width: 1500,
+        height: 1500,
+      },
+      {
+        src: 'https://www.chriscoffee.com/cdn/shop/products/0995P-A-EVOLED_003.jpg?v=1659444327',
+        alt: 'Chris Coffee detail view of the Vetrano 2B Evo E61 group and front controls',
+        caption: 'The current retailer detail documents the E61 lever, PID, dual manometer, boiler switches and manual valve layout. It is product identification media, not a Coffeedant performance test.',
+        width: 1200,
+        height: 1200,
+      },
+    ],
+  ),
   '/espresso-machine/quick-mill-silvano-evo/': officialProductMedia(
     'Quick Mill official Silvano product page',
     'https://www.quick-mill.com/products/silvano/',
