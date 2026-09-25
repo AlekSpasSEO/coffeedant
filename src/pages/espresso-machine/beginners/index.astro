@@ -1,10 +1,5 @@
 ---
-import BuyingGuideLanding from '../../../components/BuyingGuideLanding.astro';
-const picks = [
-  { brand: 'Breville', name: 'Bambino Plus', note: 'Fast and forgiving', path: '/espresso-machine/breville-bambino/', image: 'images/products/breville-bambino-plus.png' },
-  { brand: "De'Longhi", name: 'Dedica', note: 'Small and approachable', path: '/espresso-machine/delonghi-dedica/' },
-  { brand: 'Gaggia', name: 'Classic EVO Pro', note: 'Best for learning the craft', path: '/espresso-machine/gaggia-classic-evo-pro/', image: 'images/products/gaggia-classic-evo-pro.jpg' },
-  { brand: 'Philips', name: '2200 LatteGo', note: 'Best zero-learning option', path: '/espresso-machine/philips-2200-lattego/' },
-];
+import BeginnerGuide from '../../../components/guides/BeginnerGuide.astro';
 ---
-<BuyingGuideLanding title="Best Espresso Machines for Beginners" eyebrow="First-machine buying guide" heading="Start simple. Leave room to grow." intro="A good first machine removes avoidable friction without locking you into features you will outgrow." canonicalPath="/espresso-machine/beginners/" mode="all" picks={picks} comparisonRows={[["Want to learn?","Choose semi-automatic"],["Want speed?","Choose thermoblock"],["Want one-touch?","Choose superautomatic"],["First priority","A grinder that fits"]]} />
+
+<BeginnerGuide />
