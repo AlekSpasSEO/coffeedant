@@ -153,6 +153,26 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/siemens-eq9-plus-s700/': retailerProductMedia(
+    'Amazon UK TI9573X9GB exact-model listing',
+    'https://www.amazon.co.uk/Siemens-TI9573X9GB-connect-Coffee-Machine/dp/B0B7B1XBZS',
+    [
+      {
+        src: 'https://m.media-amazon.com/images/I/61SoFQSh1dL._AC_SL1280_.jpg',
+        alt: 'Amazon UK exact-model image of the Siemens EQ.9 Plus Connect s700 with two bean containers and two black coffees',
+        caption: 'The exact TI9573X9GB listing view records the two top bean containers, paired coffee outlets and front control layout. It is product-identification media, not evidence of measured extraction, cup quality or used-unit condition.',
+        width: 849,
+        height: 1280,
+      },
+      {
+        src: 'https://m.media-amazon.com/images/I/61FVgcldsuL._AC_SL1280_.jpg',
+        alt: 'Amazon UK exact-model image of the Siemens EQ.9 Plus Connect s700 dispensing two milk drinks',
+        caption: 'The exact-model listing image illustrates paired milk-drink dispensing through oneTouch DoubleCup. It does not establish milk temperature, texture, speed, recipe ratio or the cleanliness of a used machine.',
+        width: 1280,
+        height: 1122,
+      },
+    ],
+  ),
   '/espresso-machine/rancilio-silvia-pro-x/': retailerProductMedia(
     'Seattle Coffee Gear current Silvia Pro X listing',
     'https://www.seattlecoffeegear.com/products/rancilio-silvia-pro-x-espresso-machine',
