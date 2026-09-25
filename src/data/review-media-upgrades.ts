@@ -233,6 +233,26 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/vbm-domobar-super-hx/': officialProductMedia(
+    'VBM Domobar Super product page',
+    'https://vbmespresso.com/en/professional-coffee-machines/home/domobar-super/',
+    [
+      {
+        src: 'https://vbmespresso.com/wp-content/uploads/2024/03/VBM_Domobar_Super_Grey_Dark_Dett_03-2-1.jpg',
+        alt: 'VBM official detail view of the current Domobar Super group, pressure gauge and work area',
+        caption: 'The factory detail records the group, double-scale gauge, tray and manual work area. It documents layout, not measured pressure, temperature or extraction.',
+        width: 1224,
+        height: 2448,
+      },
+      {
+        src: 'https://vbmespresso.com/wp-content/uploads/2024/03/VBM_Domobar_Super_Grey_Dark_Dett_01-1-1.jpg',
+        alt: 'VBM official front detail of the current Domobar Super family body, group and manual valves',
+        caption: 'The official square detail helps readers judge the front layout and finish. It does not establish durability, clearance or version-specific electronics.',
+        width: 1224,
+        height: 1224,
+      },
+    ],
+  ),
   '/espresso-machine/rancilio-silvia-pro-x/': retailerProductMedia(
     'Seattle Coffee Gear current Silvia Pro X listing',
     'https://www.seattlecoffeegear.com/products/rancilio-silvia-pro-x-espresso-machine',
