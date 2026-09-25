@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/quick-mill-rubino/': officialProductMedia(
+    'Quick Mill official Rubino product page',
+    'https://www.quickmill.it/prodotti/rubino-macchina-da-caffe-quick-mill/',
+    [
+      {
+        src: 'https://www.quickmill.it/wp-content/uploads/2025/07/12-4.png',
+        alt: 'Quick Mill official alternate view of the current analog Rubino heat-exchanger espresso machine',
+        caption: 'The official current-model view records the narrow stainless chassis, E61-style group, boiler gauge, manual lever and wand layout. It does not establish measured warm-up, temperature, pressure, steam or reliability.',
+        width: 1200,
+        height: 1012,
+      },
+      {
+        src: 'https://www.quickmill.it/wp-content/uploads/2025/07/15-5.png',
+        alt: 'Quick Mill official detail view of the current Rubino group, analog gauge and manual controls',
+        caption: 'The official detail identifies the analog Rubino control layout. It is evidence that this generation lacks the newer Rubino Plus OLED display, not proof of measured performance.',
+        width: 1200,
+        height: 1012,
+      },
+    ],
+  ),
   '/espresso-machine/quick-mill-qm67-evo/': retailerProductMedia(
     'Espresso Outlet current Quick Mill QM67 Evo listing',
     'https://espressooutlet.com/products/quick-mill-qm67-evo-espresso-machine',
