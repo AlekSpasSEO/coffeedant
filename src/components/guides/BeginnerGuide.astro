@@ -1,7 +1,10 @@
 ---
 import HomeLayout from '../../layouts/HomeLayout.astro';
 import '../../styles/review.css';
-import { beginnerGuide as guide } from '../../data/beginner-guide';
+import { beginnerGuide } from '../../data/beginner-guide';
+
+const guide = Astro.props.guide ?? beginnerGuide;
+const isBuiltIn = guide.canonicalPath === '/espresso-machine/built-in-grinder/';
 
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const assetUrl = (path: string) => /^https?:\/\//i.test(path) ? path : `${base}${path.replace(/^\//, '')}`;
@@ -38,7 +41,7 @@ const schema = {
       '@type': 'BreadcrumbList', itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://coffeedant.com/' },
         { '@type': 'ListItem', position: 2, name: 'Espresso machines', item: 'https://coffeedant.com/espresso-machine/' },
-        { '@type': 'ListItem', position: 3, name: 'Machines for beginners', item: canonical },
+        { '@type': 'ListItem', position: 3, name: isBuiltIn ? 'Machines with grinders' : 'Machines for beginners', item: canonical },
       ],
     },
   ],
@@ -49,6 +52,45 @@ const jumpLinks = [
   ['community', 'Owners'], ['faq', 'FAQ'], ['video', 'Video'], ['methodology', 'Methodology'], ['sources', 'Sources'], ['verdict', 'Verdict'],
 ];
 const mediaAfter: Record<string, number> = { grinder: 0, community: 1 };
+const labels = isBuiltIn ? {
+  breadcrumb: 'Machines with grinders', heroOverline: 'Built-in grinder buying guide Â· research-led',
+  h1: 'Best espresso machines with a grinder',
+  deck: 'A grinder inside the machine can mean manual espresso, assisted puck preparation or one-touch coffee. Choose the work you want the machine to remove before comparing menus or burr counts.',
+  article: 'Espresso machines with a grinder buying guide', decisionTitle: 'Choose how much of the coffee should happen inside the machine',
+  compareTitle: 'Four integrated systems, three different levels of involvement', quickCaption: 'Quick comparison, exact current US or North American models',
+  faqTitle: 'Espresso machines with a grinder FAQ', videoOverline: 'See the automatic category',
+  videoTitle: 'An independent bean-to-cup comparison', methodologyTitle: 'Exact models first, workflow categories kept separate',
+  sourcePrefix: 'built-in-grinder', footerLabel: 'Compare all espresso machine routes',
+} : {
+  breadcrumb: 'Machines for beginners', heroOverline: 'First-machine buying guide Â· research-led',
+  h1: 'Best espresso machines for beginners',
+  deck: 'Choose the workflow before the machine. These four exact models remove different jobs: milk technique, separate-grinder shopping, manual puck preparation, or almost all of the visible process.',
+  article: 'Beginner espresso machine buying guide', decisionTitle: 'Build the shortlist from the jobs you want to keep',
+  compareTitle: 'Four different beginner workflows', quickCaption: 'Quick comparison, exact US or North American models',
+  faqTitle: 'Beginner espresso machine FAQ', videoOverline: 'See the fundamentals',
+  videoTitle: 'An independent beginner technique overview', methodologyTitle: 'Exact models first, observed workflow second, anecdotes kept in proportion',
+  sourcePrefix: 'beginner', footerLabel: 'Compare all espresso machine routes',
+};
+const selectorGroups = isBuiltIn ? [
+  { name: 'control', legend: 'How much control do you want?', options: [['manual', 'Manual espresso'], ['assisted', 'Guided preparation'], ['automatic', 'One-touch drinks']] },
+  { name: 'milk', legend: 'Who should texture the milk?', options: [['wand', 'I will steam'], ['carafe', 'The machine'], ['either', 'Either is fine']] },
+  { name: 'priority', legend: 'What matters most?', options: [['speed', 'Fast routine'], ['shared', 'Easy to share'], ['premium', 'Premium menu']] },
+] : [
+  { name: 'drink', legend: 'What do you drink most?', options: [['milk', 'Milk drinks'], ['espresso', 'Espresso'], ['mixed', 'A mix']] },
+  { name: 'effort', legend: 'How involved should mornings feel?', options: [['guided', 'Guided manual'], ['craft', 'Hands-on craft'], ['automatic', 'Push button']] },
+  { name: 'priority', legend: 'What matters most?', options: [['modular', 'Upgrade freedom'], ['integrated', 'One station'], ['shared', 'Easy to share']] },
+];
+const selectorCandidates = isBuiltIn ? [
+  { signals: 'manual wand speed', brand: 'Breville', name: 'Barista Pro', note: 'Fast manual espresso with an integrated 30-step grinder.', setup: 'Best fit: one skilled user', compromise: 'Main limit: manual puck and milk work', href: '/espresso-machine/breville-barista-pro-bes878/' },
+  { signals: 'assisted wand shared', brand: 'Breville', name: 'Barista Express Impress', note: 'Dose feedback and assisted tamping without automatic milk.', setup: 'Best fit: shared manual station', compromise: 'Main limit: slower thermocoil routine', href: '/espresso-machine/breville-barista-express-impress-bes876/' },
+  { signals: 'automatic carafe shared speed', brand: 'Deâ€™Longhi', name: 'Magnifica Evo', note: 'Fresh-bean coffee and milk without a portafilter.', setup: 'Best fit: simple one-touch drinks', compromise: 'Main limit: less direct espresso control', href: '/espresso-machine/delonghi-magnifica-evo/' },
+  { signals: 'automatic carafe premium either', brand: 'JURA', name: 'E8', note: 'A premium 27-specialty automatic with a closed brew system.', setup: 'Best fit: premium shared menu', compromise: 'Main limit: $2,599 reference and stock', href: '/espresso-machine/jura-e8/' },
+] : [
+  { signals: 'milk guided modular', brand: 'Breville', name: 'Bambino Plus', note: 'Automatic milk, manual coffee, separate grinder.', setup: 'Best fit: regular milk drinks', compromise: 'Main limit: grinder sold separately', href: '/espresso-machine/breville-bambino/' },
+  { signals: 'espresso craft modular', brand: 'Gaggia', name: 'Classic Pro E24', note: 'Traditional 58 mm single-boiler learning.', setup: 'Best fit: craft-first espresso', compromise: 'Main limit: manual temperature routine', href: '/espresso-machine/gaggia-classic-evo/' },
+  { signals: 'mixed guided integrated', brand: 'Breville', name: 'Barista Express', note: 'One-box grinder and manual espresso station.', setup: 'Best fit: one familiar station', compromise: 'Main limit: fixed integrated grinder', href: '/espresso-machine/breville-barista-express-bes870xl/' },
+  { signals: 'milk automatic shared', brand: 'Deâ€™Longhi', name: 'Magnifica Evo', note: 'Fresh-bean drinks without a portafilter.', setup: 'Best fit: shared push-button use', compromise: 'Main limit: less manual control', href: '/espresso-machine/delonghi-magnifica-evo/' },
+];
 ---
 
 <HomeLayout
@@ -66,17 +108,17 @@ const mediaAfter: Record<string, number> = { grinder: 0, community: 1 };
       <nav class="review-breadcrumbs" aria-label="Breadcrumb">
         <a href={base}>Home</a><span aria-hidden="true">/</span>
         <a href={`${base}espresso-machine/`}>Espresso machines</a><span aria-hidden="true">/</span>
-        <span aria-current="page">Machines for beginners</span>
+        <span aria-current="page">{labels.breadcrumb}</span>
       </nav>
 
       <section class="hub-hero guide-hero" aria-labelledby="guide-title">
         <div class="guide-hero-copy">
-          <p class="review-overline">First-machine buying guide Â· research-led</p>
-          <h1 id="guide-title">Best espresso machines for beginners</h1>
-          <p class="guide-deck">Choose the workflow before the machine. These four exact models remove different jobs: milk technique, separate-grinder shopping, manual puck preparation, or almost all of the visible process.</p>
+          <p class="review-overline">{labels.heroOverline}</p>
+          <h1 id="guide-title">{labels.h1}</h1>
+          <p class="guide-deck">{labels.deck}</p>
           <div class="guide-fast-answer">
             <strong>Fast answer</strong>
-            <p><a href={pageUrl('/espresso-machine/breville-bambino/')}>Bambino Plus</a> is the broadest starting point for milk drinks with a separate grinder. <a href={pageUrl('/espresso-machine/gaggia-classic-evo/')}>Classic E24</a> is for craft-first learning, <a href={pageUrl('/espresso-machine/breville-barista-express-bes870xl/')}>Barista Express</a> is the one-box manual station, and <a href={pageUrl('/espresso-machine/delonghi-magnifica-evo/')}>Magnifica Evo</a> is the no-portafilter choice.</p>
+            {isBuiltIn ? <p><a href={pageUrl('/espresso-machine/breville-barista-pro-bes878/')}>Barista Pro</a> is the speed-first manual choice. <a href={pageUrl('/espresso-machine/breville-barista-express-impress-bes876/')}>Barista Express Impress</a> assists dosing and tamping, <a href={pageUrl('/espresso-machine/delonghi-magnifica-evo/')}>Magnifica Evo</a> is the value one-touch choice, and <a href={pageUrl('/espresso-machine/jura-e8/')}>JURA E8</a> is the premium automatic benchmark.</p> : <p><a href={pageUrl('/espresso-machine/breville-bambino/')}>Bambino Plus</a> is the broadest starting point for milk drinks with a separate grinder. <a href={pageUrl('/espresso-machine/gaggia-classic-evo/')}>Classic E24</a> is for craft-first learning, <a href={pageUrl('/espresso-machine/breville-barista-express-bes870xl/')}>Barista Express</a> is the one-box manual station, and <a href={pageUrl('/espresso-machine/delonghi-magnifica-evo/')}>Magnifica Evo</a> is the no-portafilter choice.</p>}
           </div>
         </div>
         <aside class="review-author-card" aria-label="Author and publication details">
@@ -96,145 +138,22 @@ const mediaAfter: Record<string, number> = { grinder: 0, community: 1 };
         <span>In this guide</span><div>{jumpLinks.map(([id, label]) => <a href={`#${id}`}>{label}</a>)}</div>
       </nav>
 
-      <article class="review-article guide-article" aria-label="Beginner espresso machine buying guide">
+      <article class="review-article guide-article" aria-label={labels.article}>
         <section class="section review-section machine-guide" id="decision" aria-labelledby="decision-title">
-          <header class="review-section-heading"><p class="review-overline"><span class="review-section-number">01</span>Start with the routine</p><h2 id="decision-title">Build the shortlist from the jobs you want to keep</h2></header>
+          <header class="review-section-heading"><p class="review-overline"><span class="review-section-number">01</span>Start with the routine</p><h2 id="decision-title">{labels.decisionTitle}</h2></header>
           <div class="review-section-body machine-guide-grid">
             <form class="machine-guide-form">
-              <fieldset><legend>What do you drink most?</legend><label><input type="radio" name="drink" value="milk" checked /><span>Milk drinks</span></label><label><input type="radio" name="drink" value="espresso" /><span>Espresso</span></label><label><input type="radio" name="drink" value="mixed" /><span>A mix</span></label></fieldset>
-              <fieldset><legend>How involved should mornings feel?</legend><label><input type="radio" name="effort" value="guided" checked /><span>Guided manual</span></label><label><input type="radio" name="effort" value="craft" /><span>Hands-on craft</span></label><label><input type="radio" name="effort" value="automatic" /><span>Push button</span></label></fieldset>
-              <fieldset><legend>What matters most?</legend><label><input type="radio" name="priority" value="modular" checked /><span>Upgrade freedom</span></label><label><input type="radio" name="priority" value="integrated" /><span>One station</span></label><label><input type="radio" name="priority" value="shared" /><span>Easy to share</span></label></fieldset>
+              {selectorGroups.map((group) => <fieldset><legend>{group.legend}</legend>{group.options.map(([value, label], index) => <label><input type="radio" name={group.name} value={value} checked={index === 0} /><span>{label}</span></label>)}</fieldset>)}
               <button type="submit">Show my starting point â†’</button>
             </form>
-            <div class="machine-guide-result" aria-live="polite"><span>Your current match</span><p class="guide-result-brand">Breville</p><h3 class="guide-result-title">Bambino Plus</h3><p class="guide-result-note">Automatic milk, manual coffee, separate grinder.</p><div class="guide-result-meta"><span>Best fit: regular milk drinks</span><span>Main limit: grinder sold separately</span></div><a class="guide-result-link" href={pageUrl('/espresso-machine/breville-bambino/')}>Read the review â†’</a></div>
-            <div class="selector-data" hidden>
-              <span data-signals="milk guided modular" data-brand="Breville" data-name="Bambino Plus" data-note="Automatic milk, manual coffee, separate grinder." data-setup="Best fit: regular milk drinks" data-compromise="Main limit: grinder sold separately" data-href={pageUrl('/espresso-machine/breville-bambino/')}></span>
-              <span data-signals="espresso craft modular" data-brand="Gaggia" data-name="Classic Pro E24" data-note="Traditional 58 mm single-boiler learning." data-setup="Best fit: craft-first espresso" data-compromise="Main limit: manual temperature routine" data-href={pageUrl('/espresso-machine/gaggia-classic-evo/')}></span>
-              <span data-signals="mixed guided integrated" data-brand="Breville" data-name="Barista Express" data-note="One-box grinder and manual espresso station." data-setup="Best fit: one familiar station" data-compromise="Main limit: fixed integrated grinder" data-href={pageUrl('/espresso-machine/breville-barista-express-bes870xl/')}></span>
-              <span data-signals="milk automatic shared" data-brand="Deâ€™Longhi" data-name="Magnifica Evo" data-note="Fresh-bean drinks without a portafilter." data-setup="Best fit: shared push-button use" data-compromise="Main limit: less manual control" data-href={pageUrl('/espresso-machine/delonghi-magnifica-evo/')}></span>
-            </div>
+            <div class="machine-guide-result" aria-live="polite"><span>Your current match</span><p class="guide-result-brand">{selectorCandidates[0].brand}</p><h3 class="guide-result-title">{selectorCandidates[0].name}</h3><p class="guide-result-note">{selectorCandidates[0].note}</p><div class="guide-result-meta"><span>{selectorCandidates[0].setup}</span><span>{selectorCandidates[0].compromise}</span></div><a class="guide-result-link" href={pageUrl(selectorCandidates[0].href)}>Read the review â†’</a></div>
+            <div class="selector-data" hidden>{selectorCandidates.map((candidate) => <span data-signals={candidate.signals} data-brand={candidate.brand} data-name={candidate.name} data-note={candidate.note} data-setup={candidate.setup} data-compromise={candidate.compromise} data-href={pageUrl(candidate.href)}></span>)}</div>
           </div>
           <div class="review-section-body guide-framework-copy"><Fragment set:html={guide.sections.find((section) => section.id === 'decision')!.html} /></div>
         </section>
 
         <section class="section review-section" id="compare" aria-labelledby="compare-title">
-          <header class="review-section-heading"><p class="review-overline"><span class="review-section-number">02</span>Quick comparison</p><h2 id="compare-title">Four different beginner workflows</h2></header>
+          <header class="review-section-heading"><p class="review-overline"><span class="review-section-number">02</span>Quick comparison</p><h2 id="compare-title">{labels.compareTitle}</h2></header>
           <div class="review-section-body">
             <div class="review-table-wrap" role="region" aria-label="Quick beginner espresso machine comparison" tabindex="0">
-              <table class="comparison-table review-table"><caption>Quick comparison, exact US or North American models</caption><thead><tr><th>Machine</th><th>Complete setup</th><th>Milk</th><th>Best fit</th><th></th></tr></thead><tbody>{guide.picks.map((pick) => <tr><th scope="row" data-label="Machine">{pick.name}<small>{pick.model}</small></th><td data-label="Complete setup">{pick.price}<br />{pick.setup}</td><td data-label="Milk">{pick.milk}</td><td data-label="Best fit">{pick.bestFit}</td><td data-label="Review"><a href={pageUrl(pick.href)}>Review â†’</a></td></tr>)}</tbody></table>
-            </div>
-            <details class="review-comparison-details"><summary>Open the detailed comparison</summary><div class="review-table-wrap" role="region" aria-label="Detailed beginner espresso machine comparison" tabindex="0"><table class="review-table review-table-detailed"><caption>Detailed workflow and ownership comparison</caption><thead><tr><th>Machine</th><th>Grinder</th><th>Maintenance</th><th>Avoid if</th><th>Decision</th></tr></thead><tbody>{guide.picks.map((pick) => <tr><th scope="row" data-label="Machine"><a href={pageUrl(pick.href)}>{pick.name}</a></th><td data-label="Grinder">{pick.grinder}</td><td data-label="Maintenance">{pick.maintenance}</td><td data-label="Avoid if">{pick.avoidIf}</td><td data-label="Decision">{pick.verdict}</td></tr>)}</tbody></table></div></details>
-            <p class="review-table-note">Prices were checked September 25, 2026. Tax, color, stock, seller, bundles and promotions can change. Compare the complete station, not the machine-only number.</p>
-          </div>
-        </section>
-
-        {guide.sections.filter((section) => !['decision', 'picks', 'verdict'].includes(section.id)).map((section, index) => (
-          <section class:list={['section', 'review-section', { 'principles-section': section.id === 'criteria' }]} id={section.id} aria-labelledby={`${section.id}-title`}>
-            <header class="review-section-heading"><p class="review-overline"><span class="review-section-number">{String(index + 3).padStart(2, '0')}</span>{section.eyebrow}</p><h2 id={`${section.id}-title`}>{section.title}</h2></header>
-            <div class="review-section-body">
-              <Fragment set:html={section.html} />
-              {section.id === 'criteria' && <div class="principle-grid"><article><span>01</span><h3>Drink queue</h3><p>Count the actual drinks and whether milk follows every shot.</p></article><article><span>02</span><h3>Task ownership</h3><p>Name who dials in, steams, cleans and responds to prompts.</p></article><article><span>03</span><h3>Complete budget</h3><p>Include grinder, scale, water and care from the first day.</p></article><article><span>04</span><h3>Upgrade path</h3><p>Decide whether components should improve independently.</p></article></div>}
-              {mediaAfter[section.id] !== undefined && (() => { const media = guide.media[mediaAfter[section.id]]; return <figure class="review-media review-inline-media" data-source-type="manufacturer" data-user-generated="false" data-usage-record={media.source}><a class="review-media-link" href={media.source} target="_blank" rel="noopener"><img src={assetUrl(media.src)} alt={media.alt} width={media.width} height={media.height} loading="lazy" decoding="async" /></a><figcaption><span class="review-media-source-badge">Manufacturer photo</span>{media.caption}<span class="review-media-credit"> Image: <a href={media.source} target="_blank" rel="noopener">{media.credit}</a>. Official manufacturer media; not a Coffeedant test photograph.</span></figcaption></figure>; })()}
-            </div>
-          </section>
-        ))}
-
-        <section class="section review-section" id="picks" aria-labelledby="picks-title">
-          <header class="review-section-heading"><p class="review-overline"><span class="review-section-number">09</span>{guide.sections.find((section) => section.id === 'picks')!.eyebrow}</p><h2 id="picks-title">{guide.sections.find((section) => section.id === 'picks')!.title}</h2></header>
-          <div class="review-section-body"><Fragment set:html={guide.sections.find((section) => section.id === 'picks')!.html} /><div class="guide-picks">{guide.picks.map((pick) => <a href={pageUrl(pick.href)}><span>{pick.brand} Â· {pick.model}</span><h3>{pick.name}</h3><p><strong>{pick.bestFit}</strong></p><p>{pick.avoidIf}</p><b>Read the full review â†’</b></a>)}</div></div>
-        </section>
-
-        <section class="section review-section" id="faq" aria-labelledby="faq-title">
-          <header class="review-section-heading"><p class="review-overline"><span class="review-section-number">10</span>Visible answers</p><h2 id="faq-title">Beginner espresso machine FAQ</h2></header>
-          <div class="review-section-body"><div class="review-faq-list">{guide.faqs.map(([question, answer]) => <article class="review-faq-item"><h3>{question}</h3><p>{answer}</p></article>)}</div></div>
-        </section>
-
-        <section class="section review-section" id="video" aria-labelledby="video-title">
-          <header class="review-section-heading"><p class="review-overline">See the fundamentals</p><h2 id="video-title">An independent beginner technique overview</h2></header>
-          <div class="review-section-body"><div class="review-video" data-review-video={guide.video.id}><button class="review-video-poster" type="button" aria-label={`Play ${guide.video.title}`}><img src={`https://img.youtube.com/vi/${guide.video.id}/hqdefault.jpg`} alt="" width="480" height="360" loading="lazy" decoding="async" /><span class="review-play" aria-hidden="true">â–¶</span><span class="review-video-label">Play video</span></button><div class="review-video-copy"><p class="review-overline">{guide.video.creator}</p><h3>{guide.video.title}</h3><p>{guide.video.note}</p><a href={`https://www.youtube.com/watch?v=${guide.video.id}`} target="_blank" rel="noopener">Watch on YouTube <span aria-hidden="true">â†—</span></a></div></div></div>
-        </section>
-
-        <section class="section review-section review-methodology" id="methodology" aria-labelledby="methodology-title">
-          <header class="review-section-heading"><p class="review-overline">How the guide was built</p><h2 id="methodology-title">Exact models first, observed workflow second, anecdotes kept in proportion</h2></header>
-          <div class="review-section-body"><p>I checked current official product pages, exact manuals or support routes, dated prices and regional model codes for all four recommendations on September 25, 2026. I then compared independent hands-on evaluations and owner discussions, using each for the question it can answer. Manufacturer documents control identity and specified operation. Independent reviews add observed workflow. Owner accounts identify questions but do not establish failure rates.</p><p>This is a research-led buying guide, not a Coffeedant side-by-side test. I did not invent measurements, transfer specifications between generations, treat a retailer review pool as representative, or rank the machines with an arbitrary score. The shortlist is intentionally small because it represents four different divisions of labor. Prices are dated observations, and buyers should confirm the exact model, seller, voltage, bundle, warranty and return terms.</p></div>
-        </section>
-
-        <section class="section review-section" id="sources" aria-labelledby="sources-title">
-          <header class="review-section-heading"><p class="review-overline">Check the evidence</p><h2 id="sources-title">Sources and further reading</h2></header>
-          <div class="review-section-body"><ol class="review-source-list">{guide.sources.map(([label, href, note], index) => <li id={`beginner-source-${index + 1}`}><a href={href} target="_blank" rel={isCommunity(href) ? 'ugc noopener' : 'noopener'}>{label} <span aria-hidden="true">â†—</span></a><p>{note}</p></li>)}</ol></div>
-        </section>
-
-        <section class="section final-verdict" id="verdict" aria-labelledby="verdict-title">
-          <p class="review-overline">The buying decision</p><h2 id="verdict-title">{guide.sections.find((section) => section.id === 'verdict')!.title}</h2><Fragment set:html={guide.sections.find((section) => section.id === 'verdict')!.html} />
-        </section>
-      </article>
-
-      <footer class="review-meta-footer"><span>Published <time datetime={guide.published}>{formatDate(guide.published)}</time></span><span>Updated <time datetime={guide.updated}>{formatDate(guide.updated)}</time></span><a href={`${base}espresso-machine/`}>Compare all espresso machine routes</a></footer>
-    </div>
-  </main>
-  <script is:inline type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />
-  <script>
-    document.querySelectorAll<HTMLElement>('.machine-guide').forEach((root) => {
-      const form = root.querySelector<HTMLFormElement>('.machine-guide-form');
-      const candidates = Array.from(root.querySelectorAll<HTMLElement>('.selector-data [data-signals]'));
-      form?.addEventListener('submit', (event) => {
-        event.preventDefault();
-        const selected = Array.from(form.querySelectorAll<HTMLInputElement>('input:checked')).map((input) => input.value);
-        const match = candidates.map((candidate, index) => ({ candidate, index, score: selected.filter((value) => candidate.dataset.signals?.split(' ').includes(value)).length })).sort((a, b) => b.score - a.score || a.index - b.index)[0]?.candidate;
-        if (!match) return;
-        const put = (selector: string, value = '') => { const node = root.querySelector<HTMLElement>(selector); if (node) node.textContent = value; };
-        put('.guide-result-brand', match.dataset.brand); put('.guide-result-title', match.dataset.name); put('.guide-result-note', match.dataset.note);
-        const meta = root.querySelector<HTMLElement>('.guide-result-meta'); if (meta) meta.innerHTML = `<span>${match.dataset.setup ?? ''}</span><span>${match.dataset.compromise ?? ''}</span>`;
-        const link = root.querySelector<HTMLAnchorElement>('.guide-result-link'); if (link) link.href = match.dataset.href ?? '#';
-      });
-    });
-    document.querySelectorAll<HTMLElement>('[data-review-video]').forEach((root) => {
-      root.querySelector<HTMLButtonElement>('.review-video-poster')?.addEventListener('click', (event) => {
-        const button = event.currentTarget as HTMLButtonElement; const id = root.dataset.reviewVideo; if (!id) return;
-        const frame = document.createElement('iframe'); frame.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1`; frame.title = button.getAttribute('aria-label')?.replace(/^Play /, '') || 'Independent video'; frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'; frame.allowFullscreen = true; button.replaceWith(frame); frame.focus();
-      }, { once: true });
-    });
-  </script>
-</HomeLayout>
-
-<style>
-  .guide-page { background: var(--paper); }
-  .guide-hero { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(280px, .55fr); gap: 28px; margin-bottom: 18px; padding: clamp(26px, 5vw, 58px); border: 2px solid var(--ink); background: var(--white); box-shadow: 7px 7px 0 var(--ink); }
-  .guide-hero h1 { max-width: 850px; margin: 8px 0 18px; font-size: clamp(2.5rem, 6vw, 5.5rem); line-height: .92; letter-spacing: -.06em; }
-  .guide-deck { max-width: 760px; font-size: clamp(1rem, 1.8vw, 1.25rem); }
-  .guide-fast-answer { margin-top: 24px; padding: 18px; border-left: 6px solid var(--yellow); background: #f4f1e8; }
-  .guide-fast-answer strong { display: block; margin-bottom: 6px; text-transform: uppercase; }
-  .guide-fast-answer a { font-weight: 800; }
-  .guide-hero .review-author-card { margin-top: 0; align-self: end; }
-  .guide-article .section { padding-inline: 0; }
-  .guide-framework-copy { margin-top: 28px; }
-  .machine-guide-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(280px, .9fr); gap: 22px; }
-  .machine-guide-form { display: grid; gap: 14px; }
-  .machine-guide-form fieldset { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 0; padding: 14px; border: 1px solid var(--line); }
-  .machine-guide-form legend { padding-inline: 6px; font-weight: 850; }
-  .machine-guide-form label { display: flex; gap: 7px; align-items: center; padding: 10px; border: 1px solid var(--line); background: var(--white); font-size: .82rem; font-weight: 750; }
-  .machine-guide-form button { padding: 14px 18px; border: 2px solid var(--ink); color: var(--white); background: var(--ink); font: inherit; font-weight: 850; cursor: pointer; }
-  .machine-guide-result { padding: 24px; border: 2px solid var(--ink); background: var(--yellow); }
-  .machine-guide-result > span, .guide-result-brand { font-size: .67rem; font-weight: 850; letter-spacing: .06em; text-transform: uppercase; }
-  .machine-guide-result h3 { margin: 6px 0 10px; font-size: 2rem; line-height: 1; }
-  .guide-result-meta { display: grid; gap: 6px; margin: 18px 0; font-size: .82rem; }
-  .guide-result-link { font-weight: 850; }
-  .comparison-table small { display: block; margin-top: 4px; font-weight: 500; }
-  .principle-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 24px; }
-  .principle-grid article { padding: 18px; border: 1px solid var(--line); background: var(--white); }
-  .principle-grid span { font-weight: 900; color: var(--green); }
-  .guide-picks { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin: 28px 0; }
-  .guide-picks > a { padding: 22px; border: 1px solid var(--line); color: inherit; background: var(--white); text-decoration: none; }
-  .guide-picks > a:first-child { border: 2px solid var(--ink); background: var(--yellow); }
-  .guide-picks span { font-size: .68rem; font-weight: 850; text-transform: uppercase; }
-  .guide-picks h3 { margin: 8px 0; font-size: 1.35rem; }
-  .guide-picks p { font-size: .86rem; }
-  .guide-picks b { display: block; margin-top: 14px; color: var(--green); }
-  @media (max-width: 760px) {
-    .guide-hero, .machine-guide-grid { grid-template-columns: 1fr; }
-    .guide-hero { padding: 24px 18px; box-shadow: 4px 4px 0 var(--ink); }
-    .guide-hero h1 { overflow-wrap: anywhere; }
-    .machine-guide-form fieldset { grid-template-columns: 1fr; }
-    .principle-grid, .guide-picks { grid-template-columns: 1fr; }
-  }
-</style>
+              <table class="comparison-table review-table"><caption>{labels.quickCaption}</caption><wo=âÚ$z{-®éÜj×F–7B"&–ÖÆ&VÆÆVF'“Ò'fW&F–7B×F—FÆR#à¢Ç6Æ73Ò'&Wf–WrÖ÷fW&Æ–æR#åF†R'W––ærFV6—6–öãÂ÷ãÆƒ"–CÒ'fW&F–7B×F—FÆR#ç¶wV–FRç6V7F–öç2æf–æB‚‡6V7F–öâ’Óâ6V7F–öâæ–BÓÓÒwfW&F–7Br’çF—FÆWÓÂöƒ#ãÄg&vÖVçB6WC¦‡FÖÃ×¶wV–FRç6V7F–öç2æf–æB‚‡6V7F–öâ’Óâ6V7F–öâæ–BÓÓÒwfW&F–7Br’æ‡FÖÇÒóà¢Â÷6V7F–öãà¢Âö'F–6ÆSà ¢Æfö÷FW"6Æ73Ò'&Wf–WrÖÖWFÖfö÷FW"#ãÇ7ãåV&Æ—6†VBÇF–ÖRFFWF–ÖS×¶wV–FRçV&Æ—6†VGÓç¶f÷&ÖDFFR†wV–FRçV&Æ—6†VB—ÓÂ÷F–ÖSãÂ÷7ããÇ7ãåWFFVBÇF–ÖRFFWF–ÖS×¶wV–FRçWFFVGÓç¶f÷&ÖDFFR†wV–FRçWFFVB—ÓÂ÷F–ÖSãÂ÷7ããÆ‡&Vc×¶G¶&6WÖW7&W76òÖÖ6†–æRöÓç¶Æ&VÇ2æfö÷FW$Æ&VÇÓÂöãÂöfö÷FW#à¢ÂöF—cà¢ÂöÖ–ãà¢Ç67&—B—3¦–æÆ–æRG—SÒ&Æ–6F–öâöÆB¶§6öâ"6WC¦‡FÖÃ×´¥4ôâç7G&–æv–g’‡66†VÖ’ç&WÆ6R‚óÂörÂuÅÇS62r—Òóà¢Ç67&—Cà¢Fö7VÖVçBçVW'•6VÆV7F÷$ÆÃÄ…DÔÄVÆVÖVçCâ‚ræÖ6†–æRÖwV–FRr’æf÷$V6‚‚‡&ö÷B’Óâ°¢6öç7Bf÷&ÒÒ&ö÷BçVW'•6VÆV7F÷#Ä…DÔÄf÷&ÔVÆVÖVçCâ‚ræÖ6†–æRÖwV–FRÖf÷&Òr“°¢6öç7B6æF–FFW2Ò'&’æg&öÒ‡&ö÷BçVW'•6VÆV7F÷$ÆÃÄ…DÔÄVÆVÖVçCâ‚rç6VÆV7F÷"ÖFF¶FF×6–væÇ5Òr’“°¢f÷&ÓòæFDWfVçDÆ—7FVæW"‚w7V&Ö—BrÂ†WfVçB’Óâ°¢WfVçBç&WfVçDFVfVÇB‚“°¢6öç7B6VÆV7FVBÒ'&’æg&öÒ†f÷&ÒçVW'•6VÆV7F÷$ÆÃÄ…DÔÄ–çWDVÆVÖVçCâ‚v–çWC¦6†V6¶VBr’’æÖ‚†–çWB’Óâ–çWBçfÇVR“°¢6öç7BÖF6‚Ò6æF–FFW2æÖ‚†6æF–FFRÂ–æFW‚’Óâ‡²6æF–FFRÂ–æFW‚Â66÷&S¢6VÆV7FVBæf–ÇFW"‚‡fÇVR’Óâ6æF–FFRæFF6WBç6–væÇ3òç7Æ—B‚rr’æ–æ6ÇVFW2‡fÇVR’’æÆVæwF‚Ò’’ç6÷'B‚†Â"’Óâ"ç66÷&RÒç66÷&RÇÂæ–æFW‚Ò"æ–æFW‚•³Óòæ6æF–FFS°¢–b‚ÖF6‚’&WGW&ã°¢6öç7BWBÒ‡6VÆV7F÷#¢7G&–ærÂfÇVRÒrr’Óâ²6öç7BæöFRÒ&ö÷BçVW'•6VÆV7F÷#Ä…DÔÄVÆVÖVçCâ‡6VÆV7F÷"“²–b†æöFR’æöFRçFW‡D6öçFVçBÒfÇVS²Ó°¢WB‚ræwV–FR×&W7VÇBÖ'&æBrÂÖF6‚æFF6WBæ'&æB“²WB‚ræwV–FR×&W7VÇB×F—FÆRrÂÖF6‚æFF6WBææÖR“²WB‚ræwV–FR×&W7VÇBÖæ÷FRrÂÖF6‚æFF6WBææ÷FR“°¢6öç7BÖWFÒ&ö÷BçVW'•6VÆV7F÷#Ä…DÔÄVÆVÖVçCâ‚ræwV–FR×&W7VÇBÖÖWFr“²–b†ÖWF’ÖWFæ–ææW$…DÔÂÒÇ7ãâG¶ÖF6‚æFF6WBç6WGWóòrwÓÂ÷7ããÇ7ãâG¶ÖF6‚æFF6WBæ6ö×&öÖ—6RóòrwÓÂ÷7ãæ°¢6öç7BÆ–æ²Ò&ö÷BçVW'•6VÆV7F÷#Ä…DÔÄæ6†÷$VÆVÖVçCâ‚ræwV–FR×&W7VÇBÖÆ–æ²r“²–b†Æ–æ²’Æ–æ²æ‡&VbÒÖF6‚æFF6WBæ‡&Vbóòr2s°¢Ò“°¢Ò“°¢Fö7VÖVçBçVW'•6VÆV7F÷$ÆÃÄ…DÔÄVÆVÖVçCâ‚u¶FF×&Wf–Wr×f–FVõÒr’æf÷$V6‚‚‡&ö÷B’Óâ°¢&ö÷BçVW'•6VÆV7F÷#Ä…DÔÄ'WGFöäVÆVÖVçCâ‚rç&Wf–Wr×f–FVò×÷7FW"r“òæFDWfVçDÆ—7FVæW"‚v6Æ–6²rÂ†WfVçB’Óâ°¢6öç7B'WGFöâÒWfVçBæ7W'&VçEF&vWB2…DÔÄ'WGFöäVÆVÖVçC²6öç7B–BÒ&ö÷BæFF6WBç&Wf–Wuf–FVó²–b‚–B’&WGW&ã°¢6öç7Bg&ÖRÒFö7VÖVçBæ7&VFTVÆVÖVçB‚v–g&ÖRr“²g&ÖRç7&2Ò‡GG3¢ò÷wwrç–÷WGV&RÖæö6öö¶–Ræ6öÒöVÖ&VBòG¶Væ6öFUU$”6ö×öæVçB†–B—ÓöWF÷Æ“Ó²g&ÖRçF—FÆRÒ'WGFöâævWDGG&–'WFR‚v&–ÖÆ&VÂr“òç&WÆ6R‚õåÆ’òÂrr’ÇÂt–æFWVæFVçBf–FVòs²g&ÖRæÆÆ÷rÒv66VÆW&öÖWFW#²WF÷Æ“²6Æ—&ö&B×w&—FS²Væ7'—FVBÖÖVF–²w—&÷66÷S²–7GW&RÖ–â×–7GW&S²vV"×6†&Rs²g&ÖRæÆÆ÷tgVÆÇ67&VVâÒG'VS²'WGFöâç&WÆ6Uv—F‚†g&ÖR“²g&ÖRæfö7W2‚“°¢ÒÂ²öæ6S¢G'VRÒ“°¢Ò“°¢Â÷67&—Cà£Âô†öÖTÆ–÷WCà £Ç7G–ÆSà¢æwV–FR×vR²&6¶w&÷VæC¢f"‚Ò×W"“²Ð¢æwV–FRÖ†W&ò²F—7Æ“¢w&–C²w&–B×FV×ÆFRÖ6öÇVÖç3¢Ö–æÖ‚ƒÂãCVg"’Ö–æÖ‚ƒ#ƒ‚ÂãSVg"“²v¢#‡ƒ²Ö&v–âÖ&÷GFöÓ¢‡ƒ²FF–æs¢6Æ×ƒ#g‚ÂWgrÂS‡‚“²&÷&FW#¢'‚6öÆ–Bf"‚ÒÖ–æ²“²&6¶w&÷VæC¢f"‚Ò×v†—FR“²&÷‚×6†F÷s¢w‚w‚f"‚ÒÖ–æ²“²Ð¢æwV–FRÖ†W&òƒ²Ö‚×v–GFƒ¢ƒSƒ²Ö&v–ã¢‡‚‡ƒ²föçB×6—¦S¢6Æ×ƒ"ãW&VÒÂggrÂRãW&VÒ“²Æ–æRÖ†V–v‡C¢ã“#²ÆWGFW"×76–æs¢ÒãfVÓ²Ð¢æwV–FRÖFV6²²Ö‚×v–GFƒ¢scƒ²föçB×6—¦S¢6Æ×ƒ&VÒÂã‡grÂã#W&VÒ“²Ð¢æwV–FRÖf7BÖç7vW"²Ö&v–â×F÷¢#Gƒ²FF–æs¢‡ƒ²&÷&FW"ÖÆVgC¢g‚6öÆ–Bf"‚Ò×–VÆÆ÷r“²&6¶w&÷VæC¢6cFcSƒ²Ð¢æwV–FRÖf7BÖç7vW"7G&öær²F—7Æ“¢&Æö6³²Ö&v–âÖ&÷GFöÓ¢gƒ²FW‡B×G&ç6f÷&Ó¢WW&66S²Ð¢æwV–FRÖf7BÖç7vW"²föçB×vV–v‡C¢ƒ²Ð¢æwV–FRÖ†W&òç&Wf–WrÖWF†÷"Ö6&B²Ö&v–â×F÷¢²Æ–vâ×6VÆc¢VæC²Ð¢æwV–FRÖ'F–6ÆRç6V7F–öâ²FF–ærÖ–æÆ–æS¢²Ð¢æwV–FRÖg&ÖWv÷&²Ö6÷’²Ö&v–â×F÷¢#‡ƒ²Ð¢æÖ6†–æRÖwV–FRÖw&–B²F—7Æ“¢w&–C²w&–B×FV×ÆFRÖ6öÇVÖç3¢Ö–æÖ‚ƒÂãg"’Ö–æÖ‚ƒ#ƒ‚Âã–g"“²v¢#'ƒ²Ð¢æÖ6†–æRÖwV–FRÖf÷&Ò²F—7Æ“¢w&–C²v¢Gƒ²Ð¢æÖ6†–æRÖwV–FRÖf÷&Òf–VÆG6WB²F—7Æ“¢w&–C²w&–B×FV×ÆFRÖ6öÇVÖç3¢&WVBƒ2Âg"“²v¢‡ƒ²Ö&v–ã¢²FF–æs¢Gƒ²&÷&FW#¢‚6öÆ–Bf"‚ÒÖÆ–æR“²Ð¢æÖ6†–æRÖwV–FRÖf÷&ÒÆVvVæB²FF–ærÖ–æÆ–æS¢gƒ²föçB×vV–v‡C¢ƒS²Ð¢æÖ6†–æRÖwV–FRÖf÷&ÒÆ&VÂ²F—7Æ“¢fÆWƒ²v¢wƒ²Æ–vâÖ—FV×3¢6VçFW#²FF–æs¢ƒ²&÷&FW#¢‚6öÆ–Bf"‚ÒÖÆ–æR“²&6¶w&÷VæC¢f"‚Ò×v†—FR“²föçB×6—¦S¢ãƒ'&VÓ²föçB×vV–v‡C¢sS²Ð¢æÖ6†–æRÖwV–FRÖf÷&Ò'WGFöâ²FF–æs¢G‚‡ƒ²&÷&FW#¢'‚6öÆ–Bf"‚ÒÖ–æ²“²6öÆ÷#¢f"‚Ò×v†—FR“²&6¶w&÷VæC¢f"‚ÒÖ–æ²“²föçC¢–æ†W&—C²föçB×vV–v‡C¢ƒS²7W'6÷#¢ö–çFW#²Ð¢æÖ6†–æRÖwV–FR×&W7VÇB²FF–æs¢#Gƒ²&÷&FW#¢'‚6öÆ–Bf"‚ÒÖ–æ²“²&6¶w&÷VæC¢f"‚Ò×–VÆÆ÷r“²Ð¢æÖ6†–æRÖwV–FR×&W7VÇBâ7âÂæwV–FR×&W7VÇBÖ'&æB²föçB×6—¦S¢ãcw&VÓ²föçB×vV–v‡C¢ƒS²ÆWGFW"×76–æs¢ãfVÓ²FW‡B×G&ç6f÷&Ó¢WW&66S²Ð¢æÖ6†–æRÖwV–FR×&W7VÇBƒ2²Ö&v–ã¢g‚ƒ²föçB×6—¦S¢'&VÓ²Æ–æRÖ†V–v‡C¢²Ð¢æwV–FR×&W7VÇBÖÖWF²F—7Æ“¢w&–C²v¢gƒ²Ö&v–ã¢‡‚²föçB×6—¦S¢ãƒ'&VÓ²Ð¢æwV–FR×&W7VÇBÖÆ–æ²²föçB×vV–v‡C¢ƒS²Ð¢æ6ö×&—6öâ×F&ÆR6ÖÆÂ²F—7Æ“¢&Æö6³²Ö&v–â×F÷¢Gƒ²föçB×vV–v‡C¢S²Ð¢ç&–æ6—ÆRÖw&–B²F—7Æ“¢w&–C²w&–B×FV×ÆFRÖ6öÇVÖç3¢&WVBƒBÂg"“²v¢'ƒ²Ö&v–â×F÷¢#Gƒ²Ð¢ç&–æ6—ÆRÖw&–B'F–6ÆR²FF–æs¢‡ƒ²&÷&FW#¢‚6öÆ–Bf"‚ÒÖÆ–æR“²&6¶w&÷VæC¢f"‚Ò×v†—FR“²Ð¢ç&–æ6—ÆRÖw&–B7â²föçB×vV–v‡C¢“²6öÆ÷#¢f"‚ÒÖw&VVâ“²Ð¢æwV–FR×–6·2²F—7Æ“¢w&–C²w&–B×FV×ÆFRÖ6öÇVÖç3¢&WVBƒ"Âg"“²v¢Gƒ²Ö&v–ã¢#‡‚²Ð¢æwV–FR×–6·2â²FF–æs¢#'ƒ²&÷&FW#¢‚6öÆ–Bf"‚ÒÖÆ–æR“²6öÆ÷#¢–æ†W&—C²&6¶w&÷VæC¢f"‚Ò×v†—FR“²FW‡BÖFV6÷&F–öã¢æöæS²Ð¢æwV–FR×–6·2â¦f—'7BÖ6†–ÆB²&÷&FW#¢'‚6öÆ–Bf"‚ÒÖ–æ²“²&6¶w&÷VæC¢f"‚Ò×–VÆÆ÷r“²Ð¢æwV–FR×–6·27â²föçB×6—¦S¢ãc‡&VÓ²föçB×vV–v‡C¢ƒS²FW‡B×G&ç6f÷&Ó¢WW&66S²Ð¢æwV–FR×–6·2ƒ2²Ö&v–ã¢‡‚²föçB×6—¦S¢ã3W&VÓ²Ð¢æwV–FR×–6·2²föçB×6—¦S¢ãƒg&VÓ²Ð¢æwV–FR×–6·2"²F—7Æ“¢&Æö6³²Ö&v–â×F÷¢Gƒ²6öÆ÷#¢f"‚ÒÖw&VVâ“²Ð¢ÖVF–†Ö‚×v–GFƒ¢sc‚’°¢æwV–FRÖ†W&òÂæÖ6†–æRÖwV–FRÖw&–B²w&–B×FV×ÆFRÖ6öÇVÖç3¢g#²Ð¢æwV–FRÖ†W&ò²FF–æs¢#G‚‡ƒ²&÷‚×6†F÷s¢G‚G‚f"‚ÒÖ–æ²“²Ð¢æwV–FRÖ†W&òƒ²÷fW&fÆ÷r×w&¢ç—v†W&S²Ð¢æÖ6†–æRÖwV–FRÖf÷&Òf–VÆG6WB²w&–B×FV×ÆFRÖ6öÇVÖç3¢g#²Ð¢ç&–æ6—ÆRÖw&–BÂæwV–FR×–6·2²w&–B×FV×ÆFRÖ6öÇVÖç3¢g#²Ð¢Ð£Â÷7G–ÆSà

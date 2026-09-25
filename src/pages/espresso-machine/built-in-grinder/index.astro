@@ -1,18 +1,6 @@
 ---
-import BuyingGuideLanding from '../../../components/BuyingGuideLanding.astro';
-const picks = [
-  { brand: "De'Longhi", name: 'Magnifica Evo', note: 'Best for easy milk drinks', path: '/espresso-machine/delonghi-magnifica-evo/', image: 'images/products/delonghi-magnifica-evo.png' },
-  { brand: 'Philips', name: '5400 LatteGo', note: 'Best for a shared kitchen', path: '/espresso-machine/philips-5400-lattego/', image: 'images/products/philips-5400-lattego.png' },
-  { brand: 'Breville', name: 'Barista Pro', note: 'Best guided hands-on workflow', path: '/espresso-machine/breville-barista-pro-bes878/' },
-  { brand: 'Jura', name: 'E8', note: 'Best premium automation', path: '/espresso-machine/jura-e8/' },
-];
+import BeginnerGuide from '../../../components/guides/BeginnerGuide.astro';
+import { builtInGrinderGuide } from '../../../data/built-in-grinder-guide';
 ---
-<BuyingGuideLanding
-  title="Best Espresso Machines With a Grinder"
-  eyebrow="All-in-one buying guide"
-  heading="One machine. Fewer moving parts."
-  intro="A built-in grinder saves space and shortens the morning routine. The compromise is a less flexible upgrade path."
-  canonicalPath="/espresso-machine/built-in-grinder/"
-  mode="with"
-  picks={picks}
-/>
+
+<BeginnerGuide guide={builtInGrinderGuide} />
