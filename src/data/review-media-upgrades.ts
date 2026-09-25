@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/quick-mill-silvano-evo/': officialProductMedia(
+    'Quick Mill official Silvano product page',
+    'https://www.quick-mill.com/products/silvano/',
+    [
+      {
+        src: 'https://www.quick-mill.com/wp-content/uploads/2025/06/36.png',
+        alt: 'Quick Mill official alternate view of the current Silvano hybrid espresso machine',
+        caption: 'The official current-family view records the stainless chassis, compact ring group, PID display, pressure gauge, manual switches and wand layout. It does not establish measured temperature, pressure, steam or reliability.',
+        width: 1200,
+        height: 1012,
+      },
+      {
+        src: 'https://www.quick-mill.com/wp-content/uploads/2025/06/38.png',
+        alt: 'Quick Mill official detail view of the current Silvano group and controls',
+        caption: 'The official detail documents the PID, brew-pressure gauge and manual control arrangement. It is family identification media, not proof that every regional Silvano Evo has identical boiler, tank or wand specifications.',
+        width: 1200,
+        height: 1012,
+      },
+    ],
+  ),
   '/espresso-machine/quick-mill-rubino/': officialProductMedia(
     'Quick Mill official Rubino product page',
     'https://www.quickmill.it/prodotti/rubino-macchina-da-caffe-quick-mill/',
