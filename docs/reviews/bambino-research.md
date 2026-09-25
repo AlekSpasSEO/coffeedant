@@ -1,6 +1,6 @@
 # Bambino Plus research packet
 
-Checked 2026-09-15. Target: US Breville Bambino Plus BES500, 120 V / 60 Hz / 1560 W. Generation not stated; color-specific SKU and Amazon ASIN not validated. Research-led review, not Coffeedant hands-on testing.
+Checked 2026-09-25. Target: US Breville Bambino Plus BES500, 120 V / 60 Hz / 1560 W. Generation not stated; color-specific SKU and Amazon ASIN not validated. Research-led review, not Coffeedant hands-on testing.
 
 Status: research gate complete for a research-led review with disclosed gaps. Official set checked; five qualified independent publishers and three original owner-comment pools gathered in companion appendices. Third owner pool is thin and not a verified US sample. Manufacturer-displayed dimensions are recorded in their published axis order, but exact physical fit remains unresolved because the Bambino figures conflict with longstanding listings. Warranty duration, ASIN, and parts stock also remain unresolved.
 
@@ -14,7 +14,7 @@ Catalog source: `src/data/products/bambino-plus.ts`, retrieved from the connecte
 
 ## Official source ledger
 
-All below checked 2026-09-15. These are manufacturer facts or directions, not independent proof of drink quality. Attribute public factual tables through source links.
+All official sources below rechecked 2026-09-25. These are manufacturer facts or directions, not independent proof of drink quality. Attribute public factual tables through source links.
 
 ### O1. Breville US BES500 product page
 
@@ -84,11 +84,11 @@ Search verifies title `Sage (Breville) Bambino Plus Review After Nearly 4 Years`
 
 Existing repository product asset: `public/images/products/breville-bambino-plus.png`; author's asset `public/images/author-aleksandar-spasevski.jpg`. The existing site assets are retained.
 
-Seven editorial photographs were selected from Wikimedia Commons after checking the image, creator, source page, and reuse terms. They illustrate the grinder, filter baskets, shot observation, extraction, milk outcome, routine cleanup, and fully automatic category without pretending to show a Coffeedant test. Visible captions retain credit, license, and any non-Bambino context. See `docs/reviews/bambino-media.md` for the full rights ledger and production-mirroring requirement.
+The publication now uses the existing local hero plus two official exact-model BES500 inline images from the current Breville US product page. The former seven generic Wikimedia illustrations were removed so the route stays within the three-image publication rule. See `docs/reviews/bambino-media.md` for the rights and usage ledger.
 
 ## Commercial separation
 
-Public dated price may say `Breville US: $499.95, checked September 15, 2026; check retailer for current price`. Keep Amazon destinations already present in the authoritative catalog, without inventing API access or product offers. Do not write credentials into the artifact. Price, offer eligibility and image permissions are separate from editorial evidence.
+Public dated price may say `Breville US: $499.95, checked September 25, 2026; check retailer for current price`. Keep Amazon destinations already present in the authoritative catalog, without inventing API access or product offers. Do not write credentials into the artifact. Price, offer eligibility and image permissions are separate from editorial evidence.
 
 ## Methodology statement
 
@@ -110,7 +110,7 @@ Public evidence wording: five independent reviewers were consulted. Owner discus
 
 Each official webpage/manual above has a provider summary budget of 200 words; treat each distinct underlying document as one source, not separate opens or regional URL aliases. Noncontiguous source-derived passages in the published deliverable share the budget. No verbatim quotations needed. Serious Eats has the stricter 100-word budget; other qualified independent reviews have 200 each. Keep public borrowing well below limits, and use original Coffeedant buying reasoning rather than padding source summaries. Appendix notes are research records, not proposed article text.
 
-## Comparison sources (checked 2026-09-15)
+## Comparison sources (checked 2026-09-25)
 
 ### O10. Gaggia Classic E24 official
 

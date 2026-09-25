@@ -18,7 +18,7 @@ export const bambinoPlusIdentity = {
   "resolution_status": "Resolved with scope caveat",
   "official_source_url": "https://www.breville.com/en-us/product/bes500",
   "source_status": "Reviewed official model page",
-  "checked_at": "2026-09-15",
+  "checked_at": "2026-09-25",
   "legacy_url_count": "1",
   "notes": "Legacy URL says Bambino while the record names Bambino Plus. Official model identity is BES500. Confirms Bambino Plus BES500.",
   "canonical_product_id": "CD-EM-000005",
@@ -64,7 +64,7 @@ export const bambinoPlusIdentity = {
       "relationship_status": "Active relationship",
       "editorial_action": "No identity action required",
       "evidence_url": "https://www.breville.com/en-us/product/bes500",
-      "checked_at": "2026-09-15",
+      "checked_at": "2026-09-25",
       "notes": "Legacy URL says Bambino while the record names Bambino Plus. Official model identity is BES500."
     }
   ]
@@ -203,7 +203,7 @@ export const bambinoPlusPrice = {
   "amount": 499.95,
   "currency": "USD",
   "region": "US",
-  "checked_at": "2026-09-15",
+  "checked_at": "2026-09-25",
   "source_url": "https://www.breville.com/en-us/product/bes500",
   "kind": "dated-manufacturer-price",
   "exact_sellable_variant_verified": false
