@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 38073)
-Total output lines: 2644
-
 import type { ReviewMediaSeed } from './review-media-types';
 
 type OfficialMediaRow = Pick<ReviewMediaSeed, 'src' | 'alt' | 'caption' | 'width' | 'height'>;
@@ -965,7 +962,490 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
     'https://www.melitta-professional.com/us/en/coffeemachines/fuer-den-praktischen-comfort/Melitta-Cafina-XT7',
     [
       {
-     …8073 tokens truncated….webp',
+        src: 'https://s7g10.scene7.com/is/image/melitta/feature_xt7_topfoam%3A16-9?ts=1763989804042&fmt=png-alpha&dpr=off',
+        alt: 'Melitta Professional official Cafina XT7 TopFoam feature image',
+        caption: 'The official TopFoam image illustrates the international integrated milk proposition. Melitta’s current US page says North America receives a two-step-only XT7, so this is not a US default.',
+        width: 1920,
+        height: 1080,
+      },
+      {
+        src: 'https://s7g10.scene7.com/is/image/melitta/feature_xt7_acs%3A16-9?ts=1763989804013&fmt=png-alpha&dpr=off',
+        alt: 'Melitta Professional official Cafina XT7 Automatic Coffeequality System feature image',
+        caption: 'The official ACS image represents automatic correction within the configured brewing process. It does not establish sensory quality or consistency for a particular site, recipe or maintenance history.',
+        width: 1920,
+        height: 1080,
+      },
+    ],
+  ),
+  '/espresso-machine/melitta-passione/': officialProductMedia(
+    'Melitta international current Passione OT gallery',
+    'https://www.melitta-international.com/bean-to-cup-machines/our-categories/all-bean-to-cup-machines/Passione-OT',
+    [
+      {
+        src: 'https://s7g10.scene7.com/is/image/melitta/PassioneOT_FT3_OneTouch_?dpr=off&qlt=85&ts=1788882143364',
+        alt: 'Melitta official Passione OT one-touch control panel and drink-selection view',
+        caption: 'The official close view shows the physical direct-drink buttons and TFT-guided menu. It illustrates control layout, not response time, cup quality or Coffeedant testing.',
+        width: 300,
+        height: 225,
+      },
+      {
+        src: 'https://s7g10.scene7.com/is/image/melitta/Passione_MMB2_HandhabungReninigu?dpr=off&qlt=85&ts=1788882143970',
+        alt: 'Melitta official Passione OT cleaning and removable-component view',
+        caption: 'The official care image supports the removable-brewer and physical-cleaning workflow. Guided programs and steam rinsing do not eliminate manual milk-part and brew-group care.',
+        width: 700,
+        height: 450,
+      },
+    ],
+  ),
+  '/espresso-machine/miele-cm6360-milkperfection/': officialProductMedia(
+    'Miele USA exact CM 6360 Lotus white product gallery',
+    'https://www.mieleusa.com/product/11648190/countertop-coffee-machine-cm-6360-milkperfection-lotus-white-cm',
+    [
+      {
+        src: 'https://media.miele.com/dam/af20cfab-5cab-4790-9bff-b3ba01265e60/20000189050_HighresDigitalRGB.png?impolicy=gallery&imwidth=1024',
+        alt: 'Miele official side view of the Lotus white CM 6360 showing the water tank and compact cabinet depth',
+        caption: 'The exact-model side view makes tank position, power cord, spout clearance and the full 427 mm cabinet depth visible. It is official product media, not a Coffeedant test photograph.',
+        width: 1080,
+        height: 783,
+      },
+      {
+        src: 'https://media.miele.com/dam/5ba56083-85d1-4bef-a2e9-b3ba01268b28/20000189030_HighresDigitalRGB.png?impolicy=gallery&imwidth=1024',
+        alt: 'Miele official close view of the CM 6360 DirectSensor display and drink controls',
+        caption: 'The official control close-up identifies the text display, direct drink buttons and navigation keys. It illustrates layout, not response time, menu ease or Coffeedant testing.',
+        width: 1080,
+        height: 810,
+      },
+    ],
+  ),
+  '/espresso-machine/miele-cm7750-coffeeselect/': officialProductMedia(
+    'Miele USA exact CM 7750 CoffeeSelect product gallery',
+    'https://www.mieleusa.com/product/11106260/countertop-coffee-machine-cm-7750-coffeeselect-obsidian-black',
+    [
+      {
+        src: 'https://media.miele.com/dam/dc77dc6b-0d44-4135-9893-b3ba01261ee3/20000189079_HighresDigitalRGB.png?impolicy=gallery&imwidth=1024',
+        alt: 'Miele official three-quarter view of the CM 7750 CoffeeSelect dispensing two espressos beneath its CM Touch display',
+        caption: 'The exact-model working view shows paired dispensing, the touch display, cup platform and top-access bean system. It is manufacturer media, not a Coffeedant extraction or taste test.',
+        width: 1080,
+        height: 1140,
+      },
+      {
+        src: 'https://media.miele.com/dam/5e254127-a0c8-428a-8e5a-b3ba0126479a/20000189059_HighresDigitalRGB.png?impolicy=gallery&imwidth=1024',
+        alt: 'Miele official side view of the black CM 7750 CoffeeSelect showing its deep cabinet, water-side panel and power cord',
+        caption: 'The official side view makes the 445 mm cabinet depth, top access and service-side proportions visible. It does not establish counter clearance in a specific kitchen.',
+        width: 1080,
+        height: 865,
+      },
+    ],
+  ),
+  '/espresso-machine/la-pavoni-europiccola/': officialProductMedia(
+    'La Pavoni LPLELQ01EU official gallery',
+    'https://www.lapavoni.com/en/products/domestic-machines/europiccola-lusso',
+    [
+      {
+        src: 'https://assets.4flow.cloud/WEB_LPLELQ01EU_1.jpg.jpg?pEFs=cVY2M1MyN1ZOMFFadEQ5ZlVOMzhVNlZXZFI4NllDNTliTFRUWXB3WWF4MGx6ZDNSeEpvVUhUVDlUKzdSOVpvQjJuSFBPM00rMUlTQWVrWkg4Y0QrY21JREkwWCsxWHJSdXU0ekdnNnNmL2NiTW5Kc3dpU1p0NEVOdTF1WldsR0E1MUNkbmlSc3N5L3l5TjVTUGNFSmo4QjNtWmt6QTV1dXFIdTdxcVAzbTdRPQ',
+        alt: 'La Pavoni official front view of the chrome Europiccola Lusso with raised lever, sight glass and steam wand',
+        caption: 'The exact-model front view makes the compact base, exposed boiler, sight glass and lack of a pressure gauge clear. It does not establish shot quality or safe touch temperature.',
+        width: 1300, height: 1300,
+      },
+      {
+        src: 'https://assets.4flow.cloud/WEB_LPLELQ01EU_2.jpg.jpg?pEFs=cVY2M1MyN1ZOMFFadEQ5ZlVOMzhVL0ptWm5nemZFdTcxY3RFaGVOMGxiczNzOHdwQ2hLMm1HdGFzdDVlcGhUQjlWNkZ6aC9QUWRKKzc0SXFGU3hyV3RaTFJRVVk5S2JaYzBxMVBMeERQcENiaVhuNTF5ci9xbFpNVlcySWllQlhYVWFhdWFXeEUrQ2VKc2RuQTlkR3BmcUpZNUpjMFdYZ3dSL3l5S0RUZ2VzPQ',
+        alt: 'La Pavoni official side view of the Europiccola Lusso showing the lever arc, boiler cap and three-hole steam wand',
+        caption: 'The official side view explains the full lever clearance and exposed pressurised-boiler layout. It is manufacturer media, not a Coffeedant test photograph.',
+        width: 1300, height: 1284,
+      },
+    ],
+  ),
+  '/espresso-machine/la-pavoni-cellini-classic/': officialProductMedia(
+    'La Pavoni LPSCCS01EU official gallery',
+    'https://www.lapavoni.com/en/products/domestic-machines/cellini-classic',
+    [
+      {
+        src: 'https://assets.4flow.cloud/WEB_LPSCCS01EU_1.jpg.jpg?pEFs=cVY2M1MyN1ZOMFFadEQ5ZlVOMzhVd0s2MHpRSTlsNzcybkRabkpTeExQNmhuUU9LK3lydkVFZklMM0NJSkd4NmhBb1QxSGs3NlpZMEN3R1JJT3VGQ0V5RXFIRmxwRkg0ZDNwRlU5SndMUlNTdHFHR2hJODY2RkprQ3NlWUpjKzJlQkw3bXhKM210U0E1UjB4ejlDclZKN1pjVWdveDYycTdTQW5WV2YrK1ZrPQ',
+        alt: 'La Pavoni official front view of the Cellini Classic showing the E61 group, boiler gauge and two rotary valves',
+        caption: 'The exact-model front view confirms the single boiler manometer and manual E61 layout. It does not establish brew pressure, temperature or shot quality.',
+        width: 1300, height: 1300,
+      },
+      {
+        src: 'https://assets.4flow.cloud/WEB_LPSCCS01EU_2.jpg.jpg?pEFs=cVY2M1MyN1ZOMFFadEQ5ZlVOMzhVNnZPOVZIUG5uOG5NK1ErdG1CUUk5ZWcwTjBEY2VpYmNld0dBeCtLWmIvUTVyWTExSHhIQnpyYWZGVXpzU093bjIwdjBPNklJYnk4TVJlVXRUWGRlTmhTYVorMUZNcWErS1RyTHpWYXBzMHR0NDU1dGg0TERqVkNkOTVIVU43NkFtdXF0RnFhdWhJem5rSUpMdHpSK1BjPQ',
+        alt: 'La Pavoni official rear three-quarter view of the stainless steel Cellini Classic and its steam wand',
+        caption: 'The official rear view shows the full 430 mm cabinet depth and top-access layout that buyers must accommodate under cabinets.',
+        width: 1300, height: 1300,
+      },
+    ],
+  ),
+  '/espresso-machine/krups-virtuoso-xp442c40/': officialProductMedia(
+    'Krups UK XP442C40 official gallery',
+    'https://www.krups.co.uk/ESPRESSO-MACHINES/TRADITIONAL-ESPRESSO-MACHINES/Krups-Virtuoso-XP442C40-Pump-Espresso-Coffee-Machine--Stainless-Steel/p/8010001076',
+    [
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3w5Njk5NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnM055OW9PRFV2TWpZNE9EY3pNVGszTVRVNE56QXxlZTQ1ZjUyYzQ1Mzg3MjFkYzhlZGEzNjNmOTAzOThmOTU5OTMyZDM0ZDUyYjNlOTNmM2NjOTIyYTBiMDU2ZTVi',
+        alt: 'Krups UK close view of the Virtuoso XP442C40 four-button panel and side steam knob',
+        caption: 'Exact-model manufacturer image shows the simple power, steam, one-cup and two-cup controls. It does not establish response time or drink quality.',
+        width: 350, height: 350,
+      },
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3w4NzM4NHxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU1DOW9PRFV2TWpZNE9EY3pNVGszTkRnMk16Z3w2MTAzZjIzNzZmYWFiZWU1OWJjNjMwYjgxMDc5ZTA4Y2IyZjYzZjIzMjlhNDQ0MWQ1MmMzZmNmMGJmNjAwMGE0',
+        alt: 'Krups UK Virtuoso XP442C40 manual steam nozzle frothing milk in a glass jug',
+        caption: 'Official promotional media illustrates nozzle placement and jug clearance. The pictured foam is not a Coffeedant test result.',
+        width: 350, height: 350,
+      },
+    ],
+  ),
+  '/espresso-machine/krups-sensation-ea910e40/': officialProductMedia(
+    'Krups UK EA910E40 official gallery',
+    'https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/Sensation---Aluminium/p/8010001251',
+    [
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wxNDYzNzB8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZzVNaTlvTjJNdk1qZzRNVGswTlRjNU5qWXhNVEF8Yjc3MmJkYjAxNjEwNTE4NDU5MzY3MTQxNGY0ODNkZjhjZjEyYzQ2MTZjMzI5ZWQyNjQ4MjYyZTQzMWQ4MmJhYQ',
+        alt: 'Krups UK front image of the Sensation EA910E40 showing its drink icons, dual outlet and manual steam nozzle',
+        caption: 'Exact-model manufacturer image shows the direct control panel and component layout; it is not a Coffeedant test photograph.',
+        width: 700, height: 700,
+      },
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wzNTAwODJ8aW1hZ2UvanBlZ3xhVzFoWjJWekwyaGtOeTlvT0RBdk1qWTRPRGMxTVRFNE16UTJOVFF8MDA0MTFmY2U4YmE0MjNlMGIzZTFmYjUxZGNhN2YwYWQ2OTMzOWQzMTMyZGY2YzVkMWFiM2ZlNDEyZTcyM2NiZg',
+        alt: 'Krups UK close view of a hand selecting settings on the Sensation EA910E40 angled control panel',
+        caption: 'Official gallery image illustrates the control layout and indicator lights. It does not establish response time, accessibility or coffee quality.',
+        width: 700, height: 700,
+      },
+    ],
+  ),
+  '/espresso-machine/krups-opio-xp320840/': officialProductMedia(
+    'Krups UK XP320840 official gallery',
+    'https://www.krups.co.uk/ESPRESSO-MACHINES/TRADITIONAL-ESPRESSO-MACHINES/Krups-Opio-Steam-%26-Pump-XP320840-Traditional-Pump-Espresso-Coffee-Machine--1-5L--Black--Cappuccino/p/8010000482',
+    [
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wyNDc5MzN8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZ3lNUzlvT1RNdk1qa3dOalF6T1RnME1EVTJOakl8ZjIyYTlhZjg3MTc0OGIxYWViNDRmYTlkZWIxYjM0NzQ3NjE4NDU3Njc1ZjdjZDc3MTJlOWY1MTEwZjdjNGU0NA',
+        alt: 'Krups UK lifestyle image of the Opio XP320840 with two black coffees and a milk drink',
+        caption: 'Official gallery image illustrates a two-cup presentation and milk drink; pictured results are promotional, not Coffeedant testing.',
+        width: 571, height: 700,
+      },
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wxODU1MDJ8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZ3pPQzlvT1Rjdk1qa3dOalF6T1RnMU5qazFNREl8YmYyZjZlODQ5ZjBlZjNjN2VkODJlYTEwMjc5NzA4MWJhZTcxMzU1ZTZkYjVkYTE1YTkyZGVlYjhiY2VkNTg5YQ',
+        alt: 'Krups UK angled image of the Opio XP320840 showing the rear water tank, portafilter and steam wand',
+        caption: 'Manufacturer image shows component placement and access. It does not establish measured dimensions, recovery speed or durability.',
+        width: 640, height: 700,
+      },
+    ],
+  ),
+  '/espresso-machine/krups-intuition-preference-ea875u40/': officialProductMedia(
+    'Krups UK EA875U40 official gallery',
+    'https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/INTUITION-PREFERENCE%2B-Bean-to-Cup-Coffee-Machine---Dark-Grey/p/8010001185',
+    [
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wxMzMxNDF8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZzNaQzlvTkdJdk1qWTRPRGMxTURFNU16ZzNNVGd8ZjU5ZjlmMGMzMmU3ZTIyNmQwNTgxMDAxNDg2NGI1MzQ3NmIyYjhmNTAxN2I0ZjM5NTU1MjQyNjQ1YTg4MmMxOA',
+        alt: 'Krups UK EA875U40 angled view with external milk vessel and two layered milk drinks',
+        caption: 'Official gallery image shows the milk tube, vessel and paired outlets; pictured foam and drink layers are promotional, not Coffeedant test results.',
+        width: 700, height: 560,
+      },
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wzMzE2NzZ8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZ3hNeTlvTmpZdk1qWTRPRGMxTVRFd09EQTVPVEF8ZWQ2NTdlYjlkYzA2ZGJjM2U5MzQ5YzhlMTJjNjIzNzg3M2QzYjBjYWM5ZjdjMzk0ZjUzYjVlMThmYzczNDQ1MQ',
+        alt: 'Krups UK EA875U40 promotional menu image with black, milk and tea drinks',
+        caption: 'Manufacturer artwork illustrates the 15-drink range; it does not establish independent taste, temperature or serving-time measurements.',
+        width: 700, height: 700,
+      },
+    ],
+  ),
+  '/espresso-machine/krups-intuition-experience-ea877d40/': officialProductMedia(
+    'Krups UK EA877D40 official gallery',
+    'https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/Intuition%C2%A0Experience%2B---Stainless-Steel/p/8010001252',
+    [
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wyMzcxOTh8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZ3lZeTlvTVdVdk1qWTRPRGMxTURJNU1qRTNOVGd8OGJlZjAyMjdlMzEzZmU5NDJjZWMxMjVkZjFmZmFlZTcxNjA1MmQ3YTY2ZWQwYjVjNWVhYjFmNmE3OGY3MmQxYg',
+        alt: 'Krups UK lifestyle photograph of Intuition Experience+ EA877D40 beside a prepared coffee',
+        caption: 'Manufacturer product-gallery photograph shows placement and cup presentation; coffee outcome is promotional, not Coffeedant testing.',
+        width: 700, height: 394,
+      },
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wxMjAyNjB8aW1hZ2UvcG5nfGFXMWhaMlZ6TDJnME1DOW9NbU12TWprM01UWXlPVFF6TXpZMU5ESXxhMzhmM2M5MGJkY2YwN2IyN2Q3MmFiZGYyMjhkZjk1ZjhmNzQ0NGFmNzM5NmVjZTZmYmJjMjlmMWY5ZjE1ZjY4',
+        alt: 'Krups UK EA877D40 promotional image showing milk tube and two cups with a chilled drink',
+        caption: 'Official illustration of the external milk setup and cold-menu presentation; this does not establish nitrogen hardware or measured drink temperature.',
+        width: 700, height: 700,
+      },
+    ],
+  ),
+  '/espresso-machine/krups-intuition-essential-ea870840/': retailerProductMedia(
+    'Currys Business exact EA870840 product gallery',
+    'https://business.currys.co.uk/catalogue/domestic-appliances/small-kitchen-appliances/coffee-machines/krups-intuition-essential-ea870840-bean-to-cup-coffee-machine-black/N604144W',
+    [
+      {
+        src: 'https://brain-images-ssl.cdn.dixons.com/3/4/10235943/l_10235943_012.jpg',
+        alt: 'Currys Business EA870840 photo showing illuminated refill and care alerts, side water tank and manual steam wand',
+        caption: 'Exact-model retailer image illustrates maintenance indicator positions; actual alert behaviour was not Coffeedant tested.',
+        width: 600, height: 532,
+      },
+      {
+        src: 'https://brain-images-ssl.cdn.dixons.com/3/4/10235943/l_10235943_013.jpg',
+        alt: 'Currys Business EA870840 touch control panel with ristretto, espresso, long coffee, water and steam icons',
+        caption: 'Retailer control-panel photograph shows selection icons; interface response and coffee output were not independently measured.',
+        width: 600, height: 532,
+      },
+    ],
+  ),
+  '/espresso-machine/krups-evidence-one-ea895n40/': officialProductMedia(
+    'Krups UK EA895N40 official gallery',
+    'https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/EVIDENCE-One-Bean-to-Cup-Coffee-Machine---Black/p/8010001019',
+    [
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wxNTI4MjZ8aW1hZ2UvanBlZ3xhVzFoWjJWekwyaGxPUzlvT1Rrdk1qWTRPRGN6TVRJNE5qY3pOVGd8NGQxYjBmM2Y5MzMzYjAzNzE1YmIxMjM3OWZjZDlmZGU5MzQ2NjMwODY2YTliNWIxODdjNzExMGNmNzdjYjUwMQ',
+        alt: 'Krups UK gallery angled view of the EA895N40 grey machine, dual spout and coloured touch panel',
+        caption: 'Official EA895N40 gallery shows the outlet and panel. No Coffeedant tasting or dimension measurement is represented.',
+        width: 645, height: 700,
+      },
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3w2NDQ1MXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnd015OW9OV0l2TWprMU5ETXpNRFF4TXpRMk9EWXxjYmQ2NjgxYWRhZGNhYjcwYTVkNjZjZWE2NWZmYjcyYmJjZGIxZjUxOTNiMmE3NGE2MzQ0YzQ5YWI1NjAwZGY5',
+        alt: 'Krups UK Evidence One EA895N40 promotional photograph with two milk drinks and milk tube',
+        caption: 'Manufacturer illustration of two milk drinks and the external hose; results pictured are promotional, not independently measured.',
+        width: 700, height: 700,
+      },
+    ],
+  ),
+  '/espresso-machine/krups-evidence-milk-ea891d27/': retailerProductMedia(
+    'Amazon UK EA891D27 product listing',
+    'https://www.amazon.co.uk/Krups-EA891D27-Evidence-Automatic-Espresso/dp/B083PJNPFQ',
+    [
+      {
+        src: 'https://m.media-amazon.com/images/I/61BDTBa1mpL._AC_SL1500_.jpg',
+        alt: 'Retailer product image of EA891D27 front, OLED panel, milk vessel and width and height callouts',
+        caption: 'The EA891D27 retailer listing illustrates the milk vessel and touch panel. Printed dimensions are retailer artwork, not independently measured.',
+        width: 1272, height: 1500,
+      },
+      {
+        src: 'https://m.media-amazon.com/images/I/61WDVPmmXKL._AC_SL1500_.jpg',
+        alt: 'Retailer close-up of Krups Evidence Milk touch panel and drink-selection icons',
+        caption: 'A close-up from the exact-model retailer listing shows the menu and OLED controls. The image is not a Coffeedant test photograph.',
+        width: 1500, height: 1500,
+      },
+    ],
+  ),
+  '/espresso-machine/krups-evidence-eco-design-ea897b40/': officialProductMedia(
+    'Krups UK EA897B40 product gallery',
+    'https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/EVIDENCE-ECO-DESIGN---Black/p/8010001175',
+    [
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3w0MTg5MDl8aW1hZ2UvanBlZ3xhVzFoWjJWekwyaGhOeTlvWldRdk1qWTRPRGMxTVRjME1EVXlNVFF8M2E4N2YzMGU5MzI0OGMxMDE3NjAxM2FjYWUxMDhkYjc4OTg2MTY1NWJmNDIzNmIwOGZmYWVjZTRlZWFkNTcxOA',
+        alt: 'Krups manufacturer lifestyle photograph of the Evidence Eco-Design EA897B40',
+        caption: 'The official EA897B40 gallery illustrates the machine in use; this is manufacturer media and not Coffeedant testing.',
+        width: 700, height: 700,
+      },
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3w1NDI3NnxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJneU9TOW9OMlV2TWprMU5ETXpNamN3TURZM05UQXwzODMzOTI4MDcwNzVmMmNkNjlhMTY5M2Y0NmMwMGVhOWI0ZDJiMjAxMDFlNjRhZDEyZmQ4YWE3OWZlZWI5MjVm',
+        alt: 'Second official Krups EA897B40 product lifestyle photograph',
+        caption: 'Manufacturer gallery image of the UK article; environmental percentages and milk performance are assessed from documentation and attributed independent evaluation.',
+        width: 700, height: 700,
+      },
+    ],
+  ),
+  '/espresso-machine/krups-arabica-manual-ea811040-ea811840/': officialProductMedia(
+    'Krups UK black EA811040 product gallery',
+    'https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/Arabica-Manual-EA811040-Espresso-Bean-to-Cup-Coffee-Machine-Black/p/8010000003',
+    [
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wxOTE5NzJ8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZzJZUzlvTXpBdk1qWTRPRGN4TWpBeU5UY3dOVFF8YTBjMzE1ZDlkYTVlOGY2YTUxN2NjNTA1OTdhOWMzZTU3ODhjMDQ0YjIwMzZjNzBhZjU0ZWQ2ZGY0OWQzYmZiMg',
+        alt: 'Manufacturer view of black Krups EA811040 Arabica Manual housing and front controls',
+        caption: 'Official black EA811040 product image helps locate its physical coffee buttons and rotary dial; this is not a Coffeedant test photograph.',
+        width: 566, height: 700,
+      },
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wyNjQ3Mjd8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZ3dZaTlvTTJVdk1qWTRPRGN4TWpBMk5UQXlOekF8ZmE1ODNlMTE4ODg4MTIyMjkzOTc5MWEwOTViNGQ5MzU3ODNmMjUwMTk4MjU3NDc4ZThkZjU3MDg0MTg0YjEwYw',
+        alt: 'Krups manufacturer gallery image showing the black EA811040 control and steam layout',
+        caption: 'The UK manufacturer gallery illustrates the manual milk and button-led coffee workflow; recipes and results have not been measured by Coffeedant.',
+        width: 700, height: 700,
+      },
+    ],
+  ),
+  '/espresso-machine/krups-arabica-digital-ea817040/': officialProductMedia(
+    'Krups UK EA817040 product gallery',
+    'https://www.krups.co.uk/ESPRESSO-MACHINES/BEAN-TO-CUP-MACHINES/Arabica-Digital-Bean-to-Cup-Coffee-Machine---Black/p/8010000001',
+    [
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3w2NzIwMXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnek1DOW9Nak12TWprMU5ETXlPVEF4TkRJM05UQXw1N2Q5NTIwYzJkY2NlM2Q5NjZmYzJhNTAwY2U2MjNjMGMyMWQ2ZWU5ZDI4MWM4NWZkNTI2NTAwNWEwYmFjNWI4',
+        alt: 'Krups EA817040 in a manufacturer lifestyle image with its LCD and cups',
+        caption: 'Krups marketing image illustrates the compact black machine and controls. Drinks pictured are not a Coffeedant tasting result; milk still requires a manual step.',
+        width: 700, height: 700,
+      },
+      {
+        src: 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3w0MzUxNXxpbWFnZS9qcGVnfGFXMWhaMlZ6TDJnNE1TOW9abVl2TWprM01UWXlPVFl6TURJMk1qSXxlYmNhNDY5ZWIxNmE0M2E0ZDUzOTdhN2YyYzZkMzQ3OWJmNjJiZGUzNjFmZjdkZGE2ZWYyYjg1MmUwODdjZWY0',
+        alt: 'Close-up of the manual steam nozzle on the black Krups Arabica Digital',
+        caption: 'The manufacturer gallery shows the traditional steam nozzle. It is not a one-touch milk carafe and requires purging and cleaning after use.',
+        width: 700, height: 700,
+      },
+    ],
+  ),
+  '/coffee-machine/k-duo-plus/': [
+    ...retailerProductMedia(
+      'Walmart K-Duo Plus product page',
+      'https://www.walmart.com/ip/Keurig-K-Duo-Plus-Single-Serve-Carafe-Coffee-Maker/629084823',
+      [{
+        src: 'https://i5.walmartimages.com/asr/6898a910-fe19-4671-8724-dede84ddd375.cef13c0c0ee359a8851e4d1dedb36eb0.jpeg',
+        alt: 'Keurig K-Duo Plus product image showing reservoir placement and brewer dimensions',
+        caption: 'The product-listing diagram helps explain the movable tank and narrow body; measure the full footprint in the chosen position.',
+        width: 2200, height: 2200,
+      }],
+    ),
+    ...retailerProductMedia(
+      'Best Buy K-Duo Plus model 5000204978 product gallery',
+      'https://www.bestbuy.com/product/keurig-k-duo-plus-12-cup-coffee-maker-and-single-serve-k-cup-brewer-black/JX72HWGGTZ',
+      [{
+        src: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6355/6355732cv11d.jpg',
+        alt: 'Keurig K-Duo Plus thermal-carafe brewer in a product-gallery view',
+        caption: 'Retailer product media shows the Plus form factor and carafe rather than a Coffeedant test setup; the listing was sold out when checked.',
+        width: 3000, height: 5067,
+      }],
+    ),
+  ],
+  '/espresso-machine/gaggia-velasca-ri8260-3/': officialProductMedia(
+    'Gaggia North America Velasca product page',
+    'https://www.gaggia-na.com/products/gaggia-velasca',
+    [
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/products/Pannarello_IMG_0130_01_b6b805fb-4682-4b9f-b6c3-60831f4ee2e3_800x.jpg?v=1571332460',
+        alt: 'Gaggia Velasca pannarello steam and hot-water attachment',
+        caption: 'The pannarello confirms that milk is a separate manual step on the current North American Velasca, not the automatic carafe workflow of Velasca Prestige.',
+        width: 800,
+        height: 533,
+      },
+      {
+        src: 'https://www.gaggia-na.com/cdn/shop/products/FrontLoadingDrawers_IMG_0088_01_467d21af-f9ec-47d4-97b6-aff3510e25cc_800x.jpg?v=1571332570',
+        alt: 'Gaggia Velasca front-removable water tank and service drawers',
+        caption: 'Front access to water, grounds and the brew group reduces under-cabinet disruption, though the bean hopper still needs space above.',
+        width: 800,
+        height: 533,
+      },
+    ],
+  ),
+  '/espresso-machine/jura-e6/': officialProductMedia(
+    'JURA E6 product page',
+    'https://us.jura.com/en/homeproducts/machines/e6-dark-inox-nac-15621',
+    [
+      {
+        src: 'https://us.jura.com/_next/image?url=https%3A%2F%2Fapi.jura.com%2Fmedia%2Fglobal%2Fimages%2Fhome-products%2Fhero%2Fimg%2FE6_ec_darkinox_hero.jpg%3Fcb%3D788857&w=3840&q=75',
+        alt: 'JURA E6 Dark Inox automatic coffee machine serving coffee',
+        caption: 'Official family media shows the E6 scale and front service area; specifications and article identity are anchored to current NAC 15621 documentation.',
+        width: 2560,
+        height: 1097,
+      },
+      {
+        src: 'https://us.jura.com/_next/image?url=https%3A%2F%2Fapi.jura.com%2Fmedia%2Fglobal%2Fimages%2Fhome-products%2Fe-linie-2022%2Fe6%2Fe6-dark-inox-ec-15439%2Fimage-gallery%2Fe6_ec_darkinox_image2.jpg%3Fcb%3D280650&w=1920&q=75',
+        alt: 'JURA E6 Dark Inox in a home coffee setting',
+        caption: 'The lifestyle view helps judge cup access and counter depth. The media path retains an EC code, so no NAC specification is inferred from the photograph.',
+        width: 1620,
+        height: 1080,
+      },
+    ],
+  ),
+  '/espresso-machine/jura-e8/': officialProductMedia(
+    'JURA E8 fifth-generation product page',
+    'https://us.jura.com/en/homeproducts/machines/e8-midnight-silver-nad-15722',
+    [
+      {
+        src: 'https://us.jura.com/_next/image?url=https%3A%2F%2Fapi.jura.com%2Fmedia%2Fglobal%2Fimages%2Fcorporate%2Fcompany-and-press%2Fjura-and-roger-federer%2Fcampaign-25%2FRF-Kamp25_Thumbnail_YouTube_E8_Playbutton_1280x720px.jpg%3Fcb%3D468964&w=1920&q=75',
+        alt: 'JURA E8 fifth-generation campaign image in a home setting',
+        caption: 'Official campaign media provides scale for the fifth-generation E8; it is illustrative rather than evidence of Coffeedant testing.',
+        width: 1280,
+        height: 720,
+      },
+      {
+        src: 'https://us.jura.com/_next/image?url=https%3A%2F%2Fapi.jura.com%2Fmedia%2Fglobal%2Fimages%2Fhome-products%2Fe-line-2025%2Fe8-ed-midnight-silver%2Fimage-gallery%2FWebsite_Youtube_Thumbnail_E8_ED_1280x720px.jpg%3Fcb%3D366537&w=1920&q=75',
+        alt: 'JURA E8 fifth-generation display and coffee outlet',
+        caption: 'The official family workflow image shows the current control and dispensing layout. NAD identity and specifications come from article 15722 documentation.',
+        width: 1280,
+        height: 720,
+      },
+    ],
+  ),
+  '/espresso-machine/jura-giga-6/': officialProductMedia(
+    'JURA GIGA 6 official product page',
+    'https://uk.jura.com/en/homeproducts/automatic-coffee-machines/giga-6-aluminium-ea-15394',
+    [
+      {
+        src: 'https://uk.jura.com/_next/image?q=75&url=https%3A%2F%2Fapi.jura.com%2Fmedia%2Fglobal%2Fimages%2Fhome-products%2Fgiga-line%2Fgiga-6%2FGIGA-6-US%2Ffeatures%2Fgiga6_alu_us_feature_1.jpg%3Fcb%3D149399&w=1920',
+        alt: 'JURA GIGA 6 dual automatic coffee workflow',
+        caption: 'Official US-family feature media illustrates the dual-system workflow. The review keeps US NAA refurb and UK EA specifications separate.',
+        width: 1620,
+        height: 1080,
+      },
+      {
+        src: 'https://uk.jura.com/_next/image?q=75&url=https%3A%2F%2Fapi.jura.com%2Fmedia%2Fglobal%2Fimages%2Fhome-products%2Fgiga-line%2Fgiga-6%2FGIGA-6-US%2Ffeatures%2Fgiga6_alu_us_feature_2.jpg%3Fcb%3D200797&w=1920',
+        alt: 'JURA GIGA 6 touchscreen and dual grinder controls',
+        caption: 'The feature view supports evaluation of the 4.3-inch interface and two-bean proposition, not a claim of hands-on Coffeedant use.',
+        width: 1620,
+        height: 1080,
+      },
+    ],
+  ),
+  '/espresso-machine/jura-z10/': officialProductMedia(
+    'JURA Z10 second-generation product page',
+    'https://us.jura.com/en/homeproducts/machines/z10-aluminium-black-nab-15702',
+    [
+      {
+        src: 'https://us.jura.com/_next/image?url=https%3A%2F%2Fapi.jura.com%2Fmedia%2Fglobal%2Fimages%2Fcorporate%2Fcompany-and-press%2Fjura-and-roger-federer%2Fcampaign-25%2FRF-Kamp25_Thumbnail_YouTube_Z10_Playbutton_1280x720px.jpg%3Fcb%3D525629&w=1920&q=75',
+        alt: 'Second-generation JURA Z10 official campaign image',
+        caption: 'Official campaign media gives lifestyle scale for the current Z10. It is not presented as Coffeedant testing or drink-quality proof.',
+        width: 1280,
+        height: 720,
+      },
+      {
+        src: 'https://us.jura.com/_next/image?url=https%3A%2F%2Fapi.jura.com%2Fmedia%2Fglobal%2Fimages%2Fhome-products%2Fz-line-2025%2FZ10-EB-SB%2FZ10-EB-SB-Aluminium-Black%2FZ10_eb_sb_ab_yt_play.jpg%3Fcb%3D455409&w=640&q=75',
+        alt: 'JURA Z10 Aluminium Black official workflow image',
+        caption: 'The official workflow image supports assessment of the current touchscreen and drink platform; exact claims remain tied to NAB article 15702 sources.',
+        width: 640,
+        height: 360,
+      },
+    ],
+  ),
+  '/espresso-machine/bezzera-strega/': officialProductMedia(
+    'Bezzera product page',
+    'https://www.bezzera.it/en/machines/strega',
+    [
+      {
+        src: 'https://www.bezzera.it/uploads/prod_images/Strega/STREGA%20NEW%20GRID.jpg',
+        alt: 'Bezzera Strega spring-lever espresso machine viewed from the front-left',
+        caption: 'The angled view shows the tall spring lever, exposed group, pressure gauges, service valves, drip tray and working clearance that define the Strega station.',
+        width: 1600,
+        height: 1200,
+      },
+      {
+        src: 'https://www.bezzera.it/uploads/prod_images/Strega/STREGA%20RETRO.jpg',
+        alt: 'Rear of the Bezzera Strega spring-lever espresso machine',
+        caption: 'The rear view helps judge cabinet depth and the substantial enclosure around the boiler, pump or direct-water hardware, depending on variant.',
+        width: 1600,
+        height: 1200,
+      },
+    ],
+  ),
+  '/espresso-machine/bezzera-unica-pid/': officialProductMedia(
+    'Bezzera product page',
+    'https://www.bezzera.it/en/machines/unica',
+    [
+      {
+        src: 'https://www.bezzera.it/uploads/prod_images/Unica/UNICA%20NEW%20GRID.jpg',
+        alt: 'Bezzera Unica PID espresso machine viewed from the front-left',
+        caption: 'The working view shows the manual thermosyphon group, PID display, pressure gauge, shared steam and hot-water wand, and narrow stainless body.',
+        width: 1600,
+        height: 1200,
+      },
+      {
+        src: 'https://www.bezzera.it/uploads/prod_images/Unica/unica.jpg',
+        alt: 'Bezzera Unica PID single-boiler espresso machine on a white background',
+        caption: 'The full product view makes the compact 250 mm width and deeper traditional group layout easier to evaluate for an under-cabinet counter.',
+        width: 1600,
+        height: 1200,
+      },
+    ],
+  ),
+  '/espresso-machine/bosch-300-series-verocafe-tiu20307/': officialProductMedia(
+    'Bosch US product page',
+    'https://www.bosch-home.com/us/en/product/espresso-machines/countertop-fully-automatic-coffee-machines/300seriesverocafe/TIU20307',
+    [
+      {
+        src: 'https://media3.bsh-group.com/Product_Shots/21861538_BSH-EN_BO_FAEM_812_TIE20301_General_SecImg-08_3200x1800px_def.webp',
+        alt: 'Bosch 300 Series VeroCafe preparing a milk drink with the in-cup Milk Express system',
+        caption: 'Official family media shows the defining Milk Express routine: milk is handled at the cup rather than stored in a large dedicated carafe.',
+        width: 3200,
+        height: 1800,
+      },
+      {
+        src: 'https://media3.bsh-group.com/Product_Shots/21861516_BSH-EN_BO_FAEM_812_TIE20301_General_SecImg-03_3200x1800px_def.webp',
         alt: 'Bosch 300 Series VeroCafe front controls and coffee outlet in a kitchen setting',
         caption: 'The front working view shows the direct drink controls, height-adjustable outlet and compact one-cup service area.',
         width: 3200,
