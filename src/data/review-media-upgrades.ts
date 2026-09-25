@@ -133,6 +133,26 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/siemens-eq700-integral/': officialProductMedia(
+    'Siemens Ireland TQ717GB3 product record',
+    'https://www.siemens-home.bsh-group.com/ie/en/mkt-product/TQ717GB3',
+    [
+      {
+        src: 'https://media3.bsh-group.com/Product_Shots/24740250_BSH-EN_SI_FAEM_812_TQ717R03_General_SecImg-09_plain_3200x1800px_def.webp',
+        alt: 'Siemens official lifestyle view of the EQ700 Integral milk and drink workflow',
+        caption: 'The official family image shows the integrated-container body, touch interface and finished-drink context used by the TQ717 generation. The filename identifies a regional TQ717 sibling, so it documents shared design rather than proving suffix-level software or package contents.',
+        width: 3200,
+        height: 1800,
+      },
+      {
+        src: 'https://media3.bsh-group.com/Product_Shots/26357412_BSH-EN_SI_FAEM_812_TQ717GB3_General_SecImg-05_plain_3200x1800px_def.webp',
+        alt: 'Siemens official TQ717GB3 image showing the Home Connect favourites screen',
+        caption: 'The exact-suffix official image demonstrates how Home Connect can organize favourites and status. It does not guarantee permanent app service, account eligibility, remote-start availability or identical software in every region.',
+        width: 3200,
+        height: 1800,
+      },
+    ],
+  ),
   '/espresso-machine/rancilio-silvia-pro-x/': retailerProductMedia(
     'Seattle Coffee Gear current Silvia Pro X listing',
     'https://www.seattlecoffeegear.com/products/rancilio-silvia-pro-x-espresso-machine',
