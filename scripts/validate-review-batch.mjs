@@ -13,9 +13,12 @@ const legacyPages = [
 const sitemap = fs.readFileSync(path.join(root, 'public/sitemap.xml'), 'utf8');
 const robots = fs.readFileSync(path.join(root, 'public/robots.txt'), 'utf8');
 const minimumReviewCount = 20;
-// GitHub Pages is the staged publication host; canonicals already point at the eventual production origin.
 const canonicalOrigin = 'https://coffeedant.com';
-const pagesOrigin = 'https://alekspasseo.github.io/coffeedant';
+const isCloudflarePages = process.env.CF_PAGES === '1';
+const expectedSite = isCloudflarePages ? canonicalOrigin : 'https://alekspasseo.github.io';
+const expectedBase = isCloudflarePages ? '/' : '/coffeedant';
+const buildOrigin = isCloudflarePages ? canonicalOrigin : 'https://alekspasseo.github.io/coffeedant';
+const buildBasePrefix = isCloudflarePages ? '/' : '/coffeedant/';
 const reviewSlugPattern = /^\/(espresso-machine|grinder|coffee-machine)\/[a-z0-9]+(?:-[a-z0-9]+)*\/$/;
 const reviewRoutes = {
   'espresso-machine': {
@@ -72,15 +75,20 @@ const wordCount = (value) => (
 
 const count = (value, expression) => [...value.matchAll(expression)].length;
 const fail = (slug, message) => errors.push(`${slug}: ${message}`);
+const toDistRelativePath = (url) => {
+  const cleanUrl = url?.split(/[?#]/, 1)[0];
+  if (!cleanUrl?.startsWith(buildBasePrefix) || cleanUrl.startsWith('//')) return null;
+  return cleanUrl.slice(buildBasePrefix.length);
+};
 
-if (astroConfig.site !== 'https://alekspasseo.github.io'
-  || astroConfig.base !== '/coffeedant'
+if (astroConfig.site !== expectedSite
+  || astroConfig.base !== expectedBase
   || astroConfig.trailingSlash !== 'always'
   || astroConfig.build?.format !== 'directory') {
-  errors.push('astro config: GitHub Pages origin, base path or directory routing has changed');
+  errors.push(`astro config: ${isCloudflarePages ? 'Cloudflare' : 'GitHub Pages'} origin, base path or directory routing is wrong`);
 }
-if (!robots.includes(`Sitemap: ${pagesOrigin}/sitemap.xml`)) {
-  errors.push('robots: sitemap URL does not match the GitHub Pages publication path');
+if (!robots.includes(`Sitemap: ${canonicalOrigin}/sitemap.xml`)) {
+  errors.push('robots: sitemap URL does not match the production domain');
 }
 
 if (manifest.length < minimumReviewCount) errors.push(`manifest: expected at least ${minimumReviewCount} reviews, found ${manifest.length}`);
@@ -113,7 +121,7 @@ if (new Set(sitemapEntries.map((entry) => entry.loc)).size !== sitemapEntries.le
 for (const item of manifest) {
   const reviewRoute = getReviewRoute(item.slug);
   if (!reviewRoute) continue;
-  const sitemapMatches = sitemapEntries.filter((entry) => entry.loc === `${pagesOrigin}${item.slug}`);
+  const sitemapMatches = sitemapEntries.filter((entry) => entry.loc === `${canonicalOrigin}${item.slug}`);
   if (sitemapMatches.length !== 1) {
     fail(item.slug, `expected one sitemap entry, found ${sitemapMatches.length}`);
   }
@@ -159,10 +167,12 @@ for (const item of manifest) {
   const tables = [...main.matchAll(/<table\b[\s\S]*?<\/table>/gi)].map((match) => match[0]);
   const ids = [...html.matchAll(/\sid="([^"]+)"/g)].map((match) => match[1]);
   const duplicateIds = [...new Set(ids.filter((id, index) => ids.indexOf(id) !== index))];
-  const internalLinks = [...html.matchAll(/href="(\/coffeedant\/[^"?#]*(?:[?#][^"]*)?)"/g)]
-    .map((match) => match[1]);
-  const unbasedRootUrls = [...html.matchAll(/\s(?:href|src)="(\/(?!\/|coffeedant\/)[^"]+)"/g)]
-    .map((match) => match[1]);
+  const internalLinks = [...html.matchAll(/href="(\/[^"?#]*(?:[?#][^"]*)?)"/g)]
+    .map((match) => match[1])
+    .filter((url) => toDistRelativePath(url) !== null);
+  const unbasedRootUrls = isCloudflarePages
+    ? []
+    : [...html.matchAll(/\s(?:href|src)="(\/(?!\/|coffeedant\/)[^"]+)"/g)].map((match) => match[1]);
   const localAnchors = [...main.matchAll(/href="#([^"]+)"/g)].map((match) => match[1]);
   const labelledByIds = [...main.matchAll(/\saria-labelledby="([^"]+)"/g)]
     .flatMap((match) => match[1].trim().split(/\s+/));
@@ -281,7 +291,7 @@ for (const item of manifest) {
   if (!html.includes(`<meta property="og:url" content="${expectedCanonical}">`)) fail(item.slug, 'Open Graph URL is wrong');
   const ogImage = html.match(/<meta property="og:image" content="([^"]+)">/)?.[1];
   if (!ogImage) fail(item.slug, 'Open Graph image is missing');
-  else if (!ogImage.startsWith(`${pagesOrigin}/`) && !/^https:\/\//i.test(ogImage)) {
+  else if (!ogImage.startsWith(`${buildOrigin}/`) && !/^https:\/\//i.test(ogImage)) {
     fail(item.slug, `Open Graph image has an unsupported URL: ${ogImage}`);
   }
   if (!/<meta property="og:image:alt" content="[^"]+">/.test(html)) fail(item.slug, 'Open Graph image alternative text is missing');
@@ -301,7 +311,8 @@ for (const item of manifest) {
     if (!ids.includes(labelledBy)) fail(item.slug, `aria-labelledby references missing ID: ${labelledBy}`);
   }
   for (const href of internalLinks) {
-    const relative = href.split(/[?#]/, 1)[0].replace(/^\/coffeedant\//, '');
+    const relative = toDistRelativePath(href);
+    if (relative === null) continue;
     const target = relative.endsWith('/')
       ? path.join(dist, relative, 'index.html')
       : path.join(dist, relative);
@@ -350,8 +361,9 @@ for (const item of manifest) {
       userGeneratedMedia += 1;
       if (!/rel="ugc noopener"/i.test(figure)) fail(item.slug, `inline image ${mediaIndex + 1} is user-generated but its source link is not marked ugc`);
     }
-    if (src?.startsWith('/coffeedant/')) {
-      const inlineImageFile = path.join(dist, src.replace(/^\/coffeedant\//, ''));
+    const inlineImagePath = toDistRelativePath(src);
+    if (inlineImagePath !== null) {
+      const inlineImageFile = path.join(dist, inlineImagePath);
       if (!fs.existsSync(inlineImageFile)) fail(item.slug, `inline editorial image does not exist: ${src}`);
     } else if (src && !src.startsWith('https://')) {
       fail(item.slug, `inline editorial image has an unsupported URL: ${src}`);
@@ -383,8 +395,8 @@ for (const item of manifest) {
   const productImageAlt = productImageTag?.match(/\salt="([^"]*)"/i)?.[1];
   if (!productImage || !productImageTag) {
     fail(item.slug, 'product image is missing');
-  } else if (productImage.startsWith('/coffeedant/')) {
-    const imageFile = path.join(dist, productImage.replace(/^\/coffeedant\//, ''));
+  } else if (toDistRelativePath(productImage) !== null) {
+    const imageFile = path.join(dist, toDistRelativePath(productImage));
     if (!fs.existsSync(imageFile)) fail(item.slug, `product image does not exist: ${productImage}`);
   } else if (!/^https:\/\//i.test(productImage)) {
     fail(item.slug, `product image has an unsupported URL: ${productImage}`);
