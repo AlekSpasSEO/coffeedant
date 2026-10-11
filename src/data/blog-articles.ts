@@ -246,6 +246,63 @@ const configs: BlogConfig[] = [
     ],
     methodology: 'The article uses ratio as a measured recipe coordinate rather than a quality guarantee. Manufacturer training sources define the calculation and its relationship to time, temperature and pressure. The controlled checks preserve dose and other variables so that a yield change can be tasted without pretending one ratio is correct for every coffee.',
   },
+  {
+    path: '/blog/ground-distribution/',
+    title: 'Even Ground Distribution Before Espresso Extraction',
+    description: 'A practical guide to espresso ground distribution, including WDT, tapping, clump control, basket density, tool limits and a repeatable way to test whether a step helps.',
+    category: 'Puck preparation',
+    deck: 'Distribution is the work between grinding and tamping: moving loose grounds toward a more even density before compression. The aim is not a cosmetically perfect surface. It is a puck with fewer obvious weak paths for water.',
+    summary: 'Deliver a repeatable dose, break meaningful clumps, distribute through the depth of the bed when the grinder and workflow benefit, settle the grounds without aggressive impacts, then tamp level. Keep a distribution step only when it reduces shot-to-shot variation or improves taste in a controlled comparison.',
+    notes: [
+      ['Test the grinder before adding a tool', 'Some grinders deliver a loose, even mound while others produce visible clumps or concentrate grounds in one area of the basket.', 'coffee, dose, basket and grinder setting', 'delivery pattern, clumps, shot time and taste over several preparations', 'Pull a short baseline series with the simplest careful routine before adding WDT, a leveler or a dosing cup transfer.', 'A tool can solve a real delivery problem, but adding motions without a baseline makes improvement impossible to separate from novelty.', 'Keep the fewest steps that produce repeatable flow and a balanced cup.'],
+      ['Use WDT as distribution, not decoration', 'Fine needles can break clumps and move coffee through the bed, while thick tools or hurried stirring can create furrows and new density differences.', 'dose, funnel, needle pattern and tamp', 'spillage, preparation time, shot variance and visible flow', 'Stir deliberately from the lower bed upward, cover the basket area, finish with a level surface and avoid scraping the metal.', 'The goal is an even density field, not a memorized number of circles or a dramatic surface pattern.', 'Stop changing the motion once it is simple enough to repeat and no longer improves the measured result.'],
+      ['Compare the complete routine', 'Distribution cannot be judged apart from dosing, tamping, basket fit and the way the portafilter is locked into the machine.', 'coffee, yield, temperature and operator', 'total preparation time, shot time, taste and failure rate', 'Randomize a set of shots with and without the candidate step, keep labels hidden during tasting where practical, and repeat on another day.', 'A slower shot can indicate greater puck resistance, but slower is not automatically better unless taste and consistency also improve.', 'Adopt the method at the level the evidence supports: this grinder, coffee, basket and household workflow.'],
+    ],
+    faqs: [
+      ['What is espresso distribution?', 'It is the process of arranging loose grounds more evenly in the basket before tamping, with the goal of reducing clumps and large density differences that can encourage uneven flow.'],
+      ['Do I need a WDT tool?', 'Not every grinder and workflow needs it, but fine-needle WDT can be useful when grounds arrive clumped or unevenly. Compare it against a careful baseline rather than assuming every extra step helps.'],
+      ['Is a spinning leveler the same as WDT?', 'No. A surface leveler mainly changes the top of the bed; WDT can move grounds and break clumps through more of the puck depth. Either tool can be misused, and neither replaces a level tamp.'],
+    ],
+    sources: [
+      ['Barista Hustle: Weiss Distribution Technique', 'https://www.baristahustle.com/weiss-distribution-technique/', 'Technical overview of WDT, clump reduction, deep versus surface stirring, puck resistance and workflow limits.'],
+      ['Barista Hustle distribution techniques', 'https://www.baristahustle.com/lesson/ae-3-04-distribution-techniques/', 'Training reference comparing tapping, dosing containers and WDT through the bed.'],
+      ['Barista Hustle distribution test results', 'https://www.baristahustle.com/distribution-test-results/', 'A bounded experimental framework for evaluating distribution by consistency, extraction, speed and cleanliness.'],
+      ...sharedEspressoSources,
+    ],
+    media: [
+      ['Step 1', 'Deliver', 'Place the same measured dose into the basket without losing grounds at the edge.'],
+      ['Step 2', 'Distribute', 'Break clumps and reduce obvious density differences through the coffee bed.'],
+      ['Step 3', 'Tamp level', 'Compress the prepared bed once, cleanly, without trying to redistribute it again.'],
+    ],
+    methodology: 'This guide preserves the original distribution article and adds a controlled comparison framework. Barista Hustle material supplies the WDT definition and bounded experimental context; manufacturer sources establish the surrounding dose, tamp and recipe workflow. Observed changes in resistance or flow are treated as diagnostics, not proof of better flavor without repeat tasting.',
+  },
+  {
+    path: '/blog/nordic-style-coffee/',
+    title: 'Nordic-Style Coffee: Light Roasting, Clarity and Brewing',
+    description: 'A research-led guide to Nordic-style coffee, from roast philosophy and origin transparency to the hotter, finer and carefully measured brewing routines light roasts often require.',
+    category: 'Coffee culture and brewing',
+    deck: 'Nordic-style coffee is best understood as a connected set of choices: lighter roasting intended to preserve origin character, transparent sourcing, and brewing that works hard enough to extract dense, less-developed beans without hiding them behind roast flavor.',
+    summary: 'Treat “Nordic” as a useful cultural and roasting description, not a universal color standard. Buy coffee with a clear roast date and brewing intent, rest it as the roaster recommends, start with hot water and an appropriate fine grind, then adjust one variable at a time by taste.',
+    notes: [],
+    faqs: [
+      ['Is Nordic-style coffee always very light?', 'It is generally associated with lighter roasting and strong emphasis on origin character, but “light” has no single consumer definition. Compare the roaster’s stated intent, measured information when available and the cup itself.'],
+      ['Why can a light roast taste sour or grassy?', 'The brew may be under-extracted, the coffee may need more rest, or the roast may be underdeveloped. Try a finer grind, hotter water or more contact before concluding that acidity itself is the problem.'],
+      ['Do I need a special brewer?', 'No. Pour-over, immersion and AeroPress methods can all work. A capable grinder, adequate water temperature, suitable water and a repeatable recipe matter more than owning a specifically Nordic device.'],
+    ],
+    sources: [
+      ['Tim Wendelboe: roasting style FAQ', 'https://timwendelboe.no/pages/faq', 'A Nordic roaster’s own definition of its light-roast aim, including clarity, brightness, sweetness and the boundary between developed and grassy coffee.'],
+      ['Tim Wendelboe French press guide', 'https://timwendelboe.no/pages/how-to-brew-french-press-coffee', 'A practical light-roast recipe with dose range, grind guidance and an explicit warning against assuming coarse grind prevents sediment.'],
+      ['Tim Wendelboe AeroPress guide', 'https://timwendelboe.no/pages/how-to-brew-with-an-aeropress', 'A light-roast recipe using fine filter grind, boiling water, measured dose and timed immersion.'],
+      ['SCA: what color is your coffee?', 'https://sca.coffee/sca-news/25/issue-21/what-color-is-your-coffee-37lk7', 'Research context explaining why visual labels such as light, medium and dark are inconsistent without measurement.'],
+      ['SCA: roast degree and sensory perception', 'https://sca.coffee/sca-news/25-magazine/issue-5/modulating-perception-25-magazine-issue-5-dxzar', 'Research summary on roast degree, development and perceived acidity, fruitiness, bitterness, roast flavor and body.'],
+    ],
+    media: [
+      ['Roast intent', 'Origin first', 'Develop the coffee while limiting roast flavors that obscure variety, place and processing.'],
+      ['Brew response', 'Hotter + finer', 'Dense light roasts often need more extraction energy than familiar medium-roast recipes.'],
+      ['Quality check', 'Taste, then adjust', 'Sour, grassy, bitter and astringent outcomes call for different corrections.'],
+    ],
+    methodology: 'This article keeps the historical and cultural account while trimming repetition and framing brewing numbers as examples rather than universal Nordic standards. Tim Wendelboe material provides first-party roast philosophy and recipes; SCA research provides boundaries around roast-color language and sensory claims. The guide separates a roaster’s intent, a measured brew and the drinker’s preference.',
+  },
 ];
 
 export const upgradedBlogArticles = configs.map((config) => ({
@@ -264,4 +321,5 @@ export const upgradedBlogArticles = configs.map((config) => ({
 export const upgradedBlogPaths = new Set(upgradedBlogArticles.map((article) => article.path));
 
 export const upgradedBlogBySlug = Object.fromEntries(upgradedBlogArticles.map((article) => [article.slug, article]));
+
 
