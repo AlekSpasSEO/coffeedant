@@ -1,0 +1,54 @@
+name: Refresh Coffee Finder catalog
+
+on:
+  schedule:
+    # GitHub cron has no native every-other-week expression. Run on Mondays,
+    # then continue only during even-numbered UTC weeks.
+    - cron: '23 7 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-coffee-finder
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Apply the two-week cadence
+        id: cadence
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]] || (( 10#$(date -u +%V) % 2 == 0 )); then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.cadence.outputs.run == 'true'
+      - uses: actions/setup-node@v4
+        if: steps.cadence.outputs.run == 'true'
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+        if: steps.cadence.outputs.run == 'true'
+      - name: Re-index every published espresso-machine review
+        if: steps.cadence.outputs.run == 'true'
+        run: npm run update:coffee-finder
+      - name: Verify the production build and generated catalog
+        if: steps.cadence.outputs.run == 'true'
+        run: |
+          CF_PAGES=1 npm run build
+          node -e "const fs=require('fs');const p='dist/coffee-finder.json';const d=JSON.parse(fs.readFileSync(p));if(!d.machineCount||d.items.length!==d.machineCount)throw new Error('Finder catalog is incomplete');console.log('Verified '+d.machineCount+' finder machines.');"
+      - name: Publish the refreshed catalog index
+        if: steps.cadence.outputs.run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/coffee-finder-sync.json
+          git commit -m "chore: refresh Coffee Finder catalog [skip ci]"
+          git push

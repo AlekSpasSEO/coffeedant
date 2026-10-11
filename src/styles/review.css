@@ -47,6 +47,8 @@
 .review-buy-actions { display: flex; flex: 1; flex-wrap: wrap; gap: 8px; }
 .review-buy-button { display: grid; flex: 1 1 165px; align-content: center; gap: 3px; min-height: 47px; padding: 12px 14px; border: 2px solid var(--ink); color: var(--ink); background: var(--white); font-size: .79rem; font-weight: 850; line-height: 1.4; text-align: center; text-decoration: none; }
 .review-buy-button-primary { background: var(--yellow); }
+.review-finder-button { color: var(--white); background: var(--green); }
+.review-finder-button:hover { color: var(--ink); background: var(--white); }
 .review-buy-button small { font-size: .66rem; font-weight: 600; line-height: 1.4; }
 .review-buy-button:hover { background: var(--yellow-soft); }
 .review-buy-button-dark { display: inline-flex; align-items: center; justify-content: center; gap: 18px; margin-top: 12px; padding-inline: 24px; color: var(--white); background: var(--ink); }

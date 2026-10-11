@@ -68,6 +68,10 @@ const amazonCheckedLabel = amazonLink ? getAmazonOfferCheckedLabel(amazonLink) :
             <span>{link.label} <span aria-hidden="true">↗</span></span>{link.note && <small>{link.note}</small>}
           </a>
         ))}
+        <a class="review-buy-button review-finder-button" href={`${base}espresso-machine/#coffee-finder`}>
+          <span>Compare with Coffee Finder <span aria-hidden="true">→</span></span>
+          <small>Search every reviewed machine</small>
+        </a>
       </div>
     </div>
     <p class="review-price-check">

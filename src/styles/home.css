@@ -158,9 +158,10 @@ h1 {
 .choice-field input:checked + span { border-color: var(--yellow); color: var(--ink); background: var(--yellow); }
 .choice-field input:focus-visible + span { outline: 3px solid #1d73ea; outline-offset: 3px; }
 .finder-button {
+  display: grid; place-items: center;
   width: 100%; min-height: 58px; margin-top: 18px;
   border: 2px solid var(--yellow); color: var(--ink); background: var(--yellow);
-  font-weight: 950; letter-spacing: 0.035em; text-transform: uppercase; cursor: pointer;
+  font-weight: 950; letter-spacing: 0.035em; text-decoration: none; text-transform: uppercase; cursor: pointer;
 }
 .finder-button:hover, .finder-button:focus-visible { color: var(--yellow); background: var(--ink); }
 .finder-note { margin: 14px 0 0; color: #d7d7d2; font-size: 0.76rem; }

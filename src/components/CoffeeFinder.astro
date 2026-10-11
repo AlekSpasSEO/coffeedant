@@ -1,0 +1,350 @@
+---
+type Variant = 'full' | 'banner';
+
+const {
+  variant = 'banner',
+  eyebrow = variant === 'full' ? 'Coffee Finder' : 'Try the Coffee Finder',
+  heading = variant === 'full' ? 'Build a shortlist around your real routine.' : 'A better match may be one filter away.',
+  intro = variant === 'full'
+    ? 'Every field is optional. Start with the one constraint you know, then narrow the complete Coffeedant machine catalog only when it helps.'
+    : 'Choose any details you know. We’ll search every published espresso-machine review and show useful starting points.',
+  brand,
+  excludePath,
+} = Astro.props as {
+  variant?: Variant;
+  eyebrow?: string;
+  heading?: string;
+  intro?: string;
+  brand?: string;
+  excludePath?: string;
+};
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const catalogUrl = `${base}coffee-finder.json`;
+const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
+---
+
+<section
+  id={variant === 'full' ? 'coffee-finder' : undefined}
+  class:list={['coffee-finder-tool', `coffee-finder-tool-${variant}`]}
+  data-coffee-finder
+  data-variant={variant}
+  data-catalog-url={catalogUrl}
+  data-base={base}
+  data-brand={brand}
+  data-exclude-path={excludePath}
+  aria-labelledby={variant === 'full' ? 'coffee-finder-title' : undefined}
+>
+  <div class:list={{ shell: variant === 'full' }}>
+    <header class="coffee-finder-heading">
+      <div>
+        <p class="coffee-finder-eyebrow">{eyebrow}</p>
+        <h2 id={variant === 'full' ? 'coffee-finder-title' : undefined}>{heading}</h2>
+      </div>
+      <p>{intro}</p>
+    </header>
+
+    <form class="coffee-finder-form">
+      {variant === 'full' && (
+        <label class="coffee-finder-search">
+          <span>Search brand or model</span>
+          <input type="search" name="query" placeholder="Try Breville, dual boiler, compact…" autocomplete="off" />
+        </label>
+      )}
+
+      <div class="coffee-finder-primary-filters">
+        <label>
+          <span>Budget</span>
+          <select name="budget">
+            <option value="any">Any budget</option>
+            <option value="under-500">Under $500</option>
+            <option value="500-999">$500–$999</option>
+            <option value="1000-1999">$1,000–$1,999</option>
+            <option value="2000-2999">$2,000–$2,999</option>
+            <option value="3000-4999">$3,000–$4,999</option>
+            <option value="5000-plus">$5,000+</option>
+          </select>
+        </label>
+        <label>
+          <span>Workflow</span>
+          <select name="workflow">
+            <option value="any">Any workflow</option>
+            <option value="one-touch">One-touch automatic</option>
+            <option value="guided">Guided / grinder built in</option>
+            <option value="hands-on">Hands-on electric</option>
+            <option value="manual">Manual lever / press</option>
+            <option value="capsule">Capsule / pod</option>
+            <option value="commercial">Commercial capacity</option>
+          </select>
+        </label>
+        <label>
+          <span>Main drinks</span>
+          <select name="drink">
+            <option value="any">Any drink mix</option>
+            <option value="espresso">Mostly espresso</option>
+            <option value="milk">Mostly milk drinks</option>
+            <option value="mixed">Espresso and milk</option>
+          </select>
+        </label>
+      </div>
+
+      {variant === 'full' && (
+        <details class="coffee-finder-more">
+          <summary>More filters <span>Brand, experience, grinder, space, volume, availability</span></summary>
+          <div class="coffee-finder-secondary-filters">
+            <label><span>Brand</span><select name="brand"><option value="any">Any brand</option></select></label>
+            <label><span>Experience</span><select name="experience"><option value="any">Any experience</option><option value="beginner">Beginner-friendly</option><option value="enthusiast">Enthusiast</option><option value="advanced">Advanced / professional</option></select></label>
+            <label><span>Grinder setup</span><select name="grinder"><option value="any">Any grinder setup</option><option value="built-in">Grinder built in</option><option value="separate">Separate grinder</option><option value="not-needed">No grinder needed</option></select></label>
+            <label><span>Counter space</span><select name="footprint"><option value="any">Any footprint</option><option value="compact">Compact</option><option value="standard">Standard counter</option><option value="large">Large / installed</option></select></label>
+            <label><span>Daily volume</span><select name="volume"><option value="any">Any volume</option><option value="one-two">1–2 drinks</option><option value="three-five">3–5 drinks</option><option value="six-plus">6+ drinks</option></select></label>
+            <label><span>Availability signal</span><select name="availability"><option value="any">All reviewed machines</option><option value="current">Current offer verified</option><option value="catalog">Current Coffeedant catalog</option><option value="limited">Limited / verify stock</option></select></label>
+          </div>
+        </details>
+      )}
+
+      <div class="coffee-finder-actions">
+        <button class="coffee-finder-submit" type="submit">Find my matches <span aria-hidden="true">→</span></button>
+        <button class="coffee-finder-reset" type="button" data-finder-reset>Clear filters</button>
+        {variant === 'banner' && <a href={fullFinderUrl}>Open the full finder <span aria-hidden="true">↗</span></a>}
+      </div>
+      <p class="coffee-finder-help">Pick one filter or several. Budget matching uses current or documented US-dollar prices; machines priced only in other currencies remain visible under “Any budget.”</p>
+    </form>
+
+    <div class="coffee-finder-results-wrap">
+      <div class="coffee-finder-status" aria-live="polite">
+        <strong data-finder-count>Loading the catalog…</strong>
+        <span data-finder-sync>Re-indexed every two weeks</span>
+      </div>
+      <div class="coffee-finder-results" data-finder-results aria-busy="true"></div>
+      <p class="coffee-finder-empty" data-finder-empty hidden>No exact match. Clear one filter to widen the shortlist.</p>
+      {variant === 'full' && <button class="coffee-finder-more-results" type="button" data-finder-more hidden>Show 12 more machines</button>}
+    </div>
+  </div>
+</section>
+
+<script>
+  type FinderItem = {
+    brand: string; model: string; path: string; image: string; imageAlt: string;
+    assessment: string; bestFor: string; priceLabel: string; priceUsd: number | null;
+    priceCurrency: string; rating: number | null; workflow: string; drink: string;
+    experience: string; grinder: string; footprint: string; volume: string;
+    availability: string; availabilityLabel: string; updated: string;
+  };
+  type FinderCatalog = { generatedAt: string; cadenceDays: number; machineCount: number; brands: string[]; items: FinderItem[] };
+
+  const createNode = <K extends keyof HTMLElementTagNameMap>(tag: K, className?: string) => {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    return node;
+  };
+
+  const sitePath = (base: string, path: string) => `${base}${path.replace(/^\//, '')}`;
+  const budgetMatch = (price: number | null, range: string) => {
+    if (range === 'any') return true;
+    if (price === null) return false;
+    if (range === 'under-500') return price < 500;
+    if (range === '500-999') return price >= 500 && price < 1000;
+    if (range === '1000-1999') return price >= 1000 && price < 2000;
+    if (range === '2000-2999') return price >= 2000 && price < 3000;
+    if (range === '3000-4999') return price >= 3000 && price < 5000;
+    return price >= 5000;
+  };
+
+  const makeResultCard = (item: FinderItem, base: string, compact = false) => {
+    const card = createNode('article', compact ? 'coffee-finder-result coffee-finder-result-compact' : 'coffee-finder-result');
+    const href = sitePath(base, item.path);
+    if (!compact) {
+      const media = createNode('a', 'coffee-finder-result-media');
+      media.href = href;
+      const image = createNode('img');
+      image.src = sitePath(base, item.image);
+      image.alt = item.imageAlt;
+      image.width = 320;
+      image.height = 260;
+      image.loading = 'lazy';
+      image.decoding = 'async';
+      media.append(image);
+      card.append(media);
+    }
+    const body = createNode('div', 'coffee-finder-result-body');
+    const overline = createNode('p', 'coffee-finder-result-overline');
+    overline.textContent = `${item.brand} · ${item.workflow.replace('-', ' ')}`;
+    const title = createNode('h3');
+    const titleLink = createNode('a');
+    titleLink.href = href;
+    titleLink.textContent = item.model;
+    title.append(titleLink);
+    const copy = createNode('p', 'coffee-finder-result-copy');
+    copy.textContent = compact ? item.bestFor : item.assessment;
+    const meta = createNode('div', 'coffee-finder-result-meta');
+    const price = createNode('span');
+    price.textContent = item.priceLabel;
+    const status = createNode('span');
+    status.textContent = item.availabilityLabel;
+    meta.append(price, status);
+    if (!compact && item.rating !== null) {
+      const rating = createNode('span');
+      rating.textContent = `${item.rating.toFixed(1)}/5 Coffeedant`;
+      meta.append(rating);
+    }
+    const link = createNode('a', 'coffee-finder-result-link');
+    link.href = href;
+    link.textContent = compact ? 'See why it matches →' : 'Read the review →';
+    body.append(overline, title, copy, meta, link);
+    card.append(body);
+    return card;
+  };
+
+  document.querySelectorAll<HTMLElement>('[data-coffee-finder]').forEach((root) => {
+    if (root.dataset.finderReady === 'true') return;
+    root.dataset.finderReady = 'true';
+    const form = root.querySelector<HTMLFormElement>('.coffee-finder-form');
+    const results = root.querySelector<HTMLElement>('[data-finder-results]');
+    const count = root.querySelector<HTMLElement>('[data-finder-count]');
+    const sync = root.querySelector<HTMLElement>('[data-finder-sync]');
+    const empty = root.querySelector<HTMLElement>('[data-finder-empty]');
+    const more = root.querySelector<HTMLButtonElement>('[data-finder-more]');
+    const reset = root.querySelector<HTMLButtonElement>('[data-finder-reset]');
+    const variant = root.dataset.variant ?? 'banner';
+    const base = root.dataset.base ?? '/';
+    const contextBrand = root.dataset.brand ?? '';
+    const excludePath = root.dataset.excludePath ?? '';
+    let catalog: FinderCatalog | null = null;
+    let visibleLimit = variant === 'full' ? 12 : 3;
+    let filtered: FinderItem[] = [];
+
+    const selectedValue = (name: string) => form?.querySelector<HTMLSelectElement>(`[name="${name}"]`)?.value ?? 'any';
+    const render = () => {
+      if (!catalog || !form || !results) return;
+      const query = (form.querySelector<HTMLInputElement>('[name="query"]')?.value ?? '').trim().toLowerCase();
+      const filters = {
+        budget: selectedValue('budget'), workflow: selectedValue('workflow'), drink: selectedValue('drink'),
+        brand: selectedValue('brand'), experience: selectedValue('experience'), grinder: selectedValue('grinder'),
+        footprint: selectedValue('footprint'), volume: selectedValue('volume'), availability: selectedValue('availability'),
+      };
+      filtered = catalog.items.filter((item) => {
+        if (item.path === excludePath) return false;
+        if (contextBrand && item.brand !== contextBrand) return false;
+        if (query && !`${item.brand} ${item.model} ${item.assessment} ${item.bestFor}`.toLowerCase().includes(query)) return false;
+        if (!budgetMatch(item.priceUsd, filters.budget)) return false;
+        return (filters.workflow === 'any' || item.workflow === filters.workflow)
+          && (filters.drink === 'any' || item.drink === filters.drink)
+          && (filters.brand === 'any' || item.brand === filters.brand)
+          && (filters.experience === 'any' || item.experience === filters.experience)
+          && (filters.grinder === 'any' || item.grinder === filters.grinder)
+          && (filters.footprint === 'any' || item.footprint === filters.footprint)
+          && (filters.volume === 'any' || item.volume === filters.volume)
+          && (filters.availability === 'any' || item.availability === filters.availability);
+      }).sort((a, b) => {
+        const availabilityOrder: Record<string, number> = { current: 0, catalog: 1, limited: 2 };
+        return (availabilityOrder[a.availability] ?? 3) - (availabilityOrder[b.availability] ?? 3)
+          || (b.rating ?? 0) - (a.rating ?? 0)
+          || a.brand.localeCompare(b.brand)
+          || a.model.localeCompare(b.model);
+      });
+
+      results.replaceChildren(...filtered.slice(0, visibleLimit).map((item) => makeResultCard(item, base, variant !== 'full')));
+      results.setAttribute('aria-busy', 'false');
+      if (count) count.textContent = `${filtered.length} ${filtered.length === 1 ? 'machine' : 'machines'} match`;
+      if (empty) empty.hidden = filtered.length !== 0;
+      if (more) more.hidden = filtered.length <= visibleLimit;
+    };
+
+    fetch(root.dataset.catalogUrl ?? '')
+      .then((response) => {
+        if (!response.ok) throw new Error(`Finder catalog returned ${response.status}`);
+        return response.json() as Promise<FinderCatalog>;
+      })
+      .then((data) => {
+        catalog = data;
+        const brandSelect = form?.querySelector<HTMLSelectElement>('[name="brand"]');
+        data.brands.forEach((brandName) => {
+          if (!brandSelect) return;
+          const option = document.createElement('option');
+          option.value = brandName;
+          option.textContent = brandName;
+          brandSelect.append(option);
+        });
+        if (sync) {
+          const date = new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(data.generatedAt));
+          sync.textContent = `${data.machineCount} reviewed machines · catalog synced ${date} · refreshes every ${data.cadenceDays} days`;
+        }
+        render();
+      })
+      .catch(() => {
+        if (count) count.textContent = 'The finder could not load';
+        if (sync) sync.textContent = 'Browse the full espresso-machine guide instead.';
+        if (results) results.setAttribute('aria-busy', 'false');
+      });
+
+    form?.addEventListener('change', () => { visibleLimit = variant === 'full' ? 12 : 3; render(); });
+    form?.addEventListener('input', () => { visibleLimit = variant === 'full' ? 12 : 3; render(); });
+    form?.addEventListener('submit', (event) => { event.preventDefault(); render(); results?.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); });
+    reset?.addEventListener('click', () => { form?.reset(); visibleLimit = variant === 'full' ? 12 : 3; render(); });
+    more?.addEventListener('click', () => { visibleLimit += 12; render(); });
+  });
+</script>
+
+<style>
+  .coffee-finder-tool { --finder-green: #143f32; --finder-yellow: #f3da00; color: var(--ink); }
+  .coffee-finder-tool-full { padding-block: clamp(64px, 8vw, 104px); border-bottom: 2px solid var(--ink); background: #e8eee9; }
+  .coffee-finder-tool-banner { max-width: 1040px; margin: 38px auto; padding: clamp(22px, 4vw, 36px); border: 2px solid var(--ink); background: #e8eee9; box-shadow: 6px 6px 0 var(--ink); }
+  .coffee-finder-heading { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(260px, .6fr); gap: 28px; align-items: end; margin-bottom: 28px; }
+  .coffee-finder-heading h2 { max-width: 820px; margin: 5px 0 0; font-size: clamp(2rem, 4.8vw, 4.8rem); line-height: .98; letter-spacing: -.055em; }
+  .coffee-finder-tool-banner .coffee-finder-heading h2 { font-size: clamp(1.75rem, 3.5vw, 3rem); }
+  .coffee-finder-heading > p { max-width: 520px; margin: 0; color: #3f493f; line-height: 1.6; }
+  .coffee-finder-eyebrow { margin: 0; color: var(--finder-green); font-size: .72rem; font-weight: 900; letter-spacing: .11em; text-transform: uppercase; }
+  .coffee-finder-form { padding: clamp(20px, 3vw, 30px); border: 2px solid var(--ink); background: var(--white); }
+  .coffee-finder-search { display: grid; gap: 7px; margin-bottom: 15px; }
+  .coffee-finder-search input { min-height: 52px; padding: 0 14px; border: 2px solid var(--ink); font: inherit; }
+  .coffee-finder-form label > span { display: block; margin-bottom: 7px; font-size: .7rem; font-weight: 900; letter-spacing: .055em; text-transform: uppercase; }
+  .coffee-finder-primary-filters, .coffee-finder-secondary-filters { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+  .coffee-finder-form select { width: 100%; min-height: 48px; padding: 0 34px 0 11px; border: 1px solid var(--ink); color: var(--ink); background: var(--white); font: inherit; font-size: .86rem; }
+  .coffee-finder-more { margin-top: 16px; border-top: 1px solid var(--line); }
+  .coffee-finder-more summary { padding: 15px 0; font-weight: 900; cursor: pointer; }
+  .coffee-finder-more summary span { margin-left: 8px; color: var(--muted); font-size: .72rem; font-weight: 600; }
+  .coffee-finder-secondary-filters { grid-template-columns: repeat(3, minmax(0, 1fr)); padding-top: 4px; }
+  .coffee-finder-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; margin-top: 18px; }
+  .coffee-finder-actions button, .coffee-finder-actions a { min-height: 48px; padding: 12px 18px; border: 2px solid var(--ink); font: inherit; font-size: .8rem; font-weight: 900; text-decoration: none; cursor: pointer; }
+  .coffee-finder-submit { color: var(--ink); background: var(--finder-yellow); }
+  .coffee-finder-reset { color: var(--ink); background: var(--white); }
+  .coffee-finder-actions a { display: inline-flex; align-items: center; color: var(--white); background: var(--ink); }
+  .coffee-finder-actions :is(button, a):hover { color: var(--white); background: var(--finder-green); }
+  .coffee-finder-help { margin: 13px 0 0; color: var(--muted); font-size: .7rem; line-height: 1.5; }
+  .coffee-finder-results-wrap { margin-top: 22px; }
+  .coffee-finder-status { display: flex; justify-content: space-between; gap: 14px; padding: 11px 0; border-block: 1px solid var(--ink); font-size: .72rem; line-height: 1.45; }
+  .coffee-finder-status strong { text-transform: uppercase; letter-spacing: .06em; }
+  .coffee-finder-status span { color: var(--muted); text-align: right; }
+  .coffee-finder-results { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 18px; }
+  .coffee-finder-tool-banner .coffee-finder-results { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .coffee-finder-result { min-width: 0; border: 1px solid var(--ink); background: var(--white); }
+  .coffee-finder-result-media { display: grid; height: 210px; place-items: center; padding: 18px; background: #f3f0e8; }
+  .coffee-finder-result-media img { width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; }
+  .coffee-finder-result-body { padding: 19px; }
+  .coffee-finder-result-overline { margin: 0 0 8px; color: var(--finder-green); font-size: .64rem; font-weight: 900; letter-spacing: .05em; text-transform: uppercase; }
+  .coffee-finder-result h3 { margin: 0 0 10px; font-size: 1.25rem; line-height: 1.15; }
+  .coffee-finder-result h3 a { color: inherit; text-decoration: none; }
+  .coffee-finder-result-copy { margin: 0 0 15px; color: #44443e; font-size: .8rem; line-height: 1.5; }
+  .coffee-finder-result-meta { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 15px; }
+  .coffee-finder-result-meta span { padding: 5px 7px; background: #eeece5; font-size: .63rem; font-weight: 800; line-height: 1.35; }
+  .coffee-finder-result-link { color: var(--finder-green); font-size: .76rem; font-weight: 900; }
+  .coffee-finder-result-compact .coffee-finder-result-body { padding: 16px; }
+  .coffee-finder-result-compact h3 { font-size: 1.05rem; }
+  .coffee-finder-result-compact .coffee-finder-result-copy { font-size: .72rem; }
+  .coffee-finder-result-compact .coffee-finder-result-meta span:nth-child(n+2) { display: none; }
+  .coffee-finder-empty { margin: 18px 0 0; padding: 20px; border: 1px solid var(--ink); background: var(--white); font-weight: 800; }
+  .coffee-finder-more-results { display: block; margin: 20px auto 0; padding: 13px 20px; border: 2px solid var(--ink); color: var(--white); background: var(--ink); font: inherit; font-weight: 900; cursor: pointer; }
+  @media (max-width: 850px) {
+    .coffee-finder-heading { grid-template-columns: 1fr; }
+    .coffee-finder-primary-filters, .coffee-finder-secondary-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .coffee-finder-results, .coffee-finder-tool-banner .coffee-finder-results { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 600px) {
+    .coffee-finder-tool-banner { margin-inline: 0; box-shadow: 4px 4px 0 var(--ink); }
+    .coffee-finder-primary-filters, .coffee-finder-secondary-filters, .coffee-finder-results, .coffee-finder-tool-banner .coffee-finder-results { grid-template-columns: 1fr; }
+    .coffee-finder-more summary span { display: block; margin: 5px 0 0; }
+    .coffee-finder-actions > * { width: 100%; justify-content: center; text-align: center; }
+    .coffee-finder-status { display: grid; }
+    .coffee-finder-status span { text-align: left; }
+  }
+</style>

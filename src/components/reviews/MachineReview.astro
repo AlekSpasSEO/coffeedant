@@ -3,6 +3,7 @@ import type { MachineReviewData } from '../../data/reviews';
 import { reviewInlineMedia } from '../../data/review-inline-media';
 import { getReviewRouteDefinition } from '../../data/review-routes';
 import { getReviewPurchaseLinks } from '../../lib/amazon-affiliate';
+import CoffeeFinder from '../CoffeeFinder.astro';
 import ReviewSummary from './ReviewSummary.astro';
 import ReviewRatings from './ReviewRatings.astro';
 import ReviewPerformanceDetail from './ReviewPerformanceDetail.astro';
@@ -119,73 +120,84 @@ const schema = {
     <article class="review-article" aria-label={`${review.brand} ${review.model} full review`}>
       <ReviewRatings evaluation={review.evaluation} productName={`${review.brand} ${review.model}`} />
       {review.article.sections.map((section, index) => (
-        <section class="review-section" id={section.id} aria-labelledby={`${section.id}-title`}>
-          <header class="review-section-heading">
-            <p class="review-overline"><span class="review-section-number">{String(index + 2).padStart(2, '0')}</span>{section.eyebrow}</p>
-            <h2 id={`${section.id}-title`}>{section.title}</h2>
-          </header>
-          <div class="review-section-body">
-            <Fragment set:html={renderSectionHtml(section)} />
-            {review.evaluation.dimensions
-              .filter((dimension) => dimension.deepDiveId === section.id)
-              .map((dimension) => <ReviewPerformanceDetail dimension={dimension} />)}
-            {inlineMedia
-              .filter((media) => media.afterSection === index)
-              .map((media) => (
-                <figure
-                  class="review-media review-inline-media"
-                  data-source-type={media.sourceType}
-                  data-user-generated={String(media.userGenerated)}
-                  data-usage-record={media.usageHref}
-                >
-                  <a class="review-media-link" href={media.sourceHref} target="_blank" rel={media.userGenerated ? 'ugc noopener' : 'noopener'}>
-                    <img
-                      src={/^https?:\/\//.test(media.src) ? media.src : assetUrl(media.src)}
-                      alt={media.alt}
-                      width={media.width}
-                      height={media.height}
-                      loading="lazy"
-                      decoding="async"
-                    />
-                  </a>
-                  <figcaption>
-                    <span class="review-media-source-badge">{
-                      media.sourceType === 'reddit'
-                        ? 'Reddit photo'
-                        : media.sourceType === 'community'
-                          ? 'Community photo'
-                          : media.sourceType === 'manufacturer'
-                            ? 'Manufacturer photo'
-                            : media.userGenerated
-                              ? 'Owner photo'
-                              : 'Product listing'
-                    }</span>
-                    {media.caption}
-                    <span class="review-media-credit">
-                      Image: <a href={media.sourceHref} target="_blank" rel={media.userGenerated ? 'ugc noopener' : 'noopener'}>{media.credit}</a>.
-                      {' '}Usage record: <a href={media.usageHref} target="_blank" rel="noopener">{media.usageLabel}</a>.
-                      {media.disclosure && <> {media.disclosure}</>}
-                    </span>
-                  </figcaption>
-                </figure>
-              ))}
-            {section.id === redditEvidenceSectionId && redditSources.length > 0 && !hasCustomCommunityPanel && (
-              <aside class="review-community-evidence" aria-labelledby={`${section.id}-reddit-title`}>
-                <p class="review-overline">What real owners report</p>
-                <h3 id={`${section.id}-reddit-title`}>The useful patterns from Reddit, kept on this page</h3>
-                <ul>
-                  {redditSources.slice(0, 3).map((source) => (
-                    <li>
-                      <strong>{source.label.replace(/^r\/([^:]+):?/i, 'r/$1')}</strong>
-                      <p>{source.note}</p>
-                    </li>
-                  ))}
-                </ul>
-                <p class="review-community-evidence-note">These are self-selected owner reports, not a representative sample or Coffeedant testing. The complete source records remain in the evidence list below.</p>
-              </aside>
-            )}
-          </div>
-        </section>
+        <Fragment>
+          <section class="review-section" id={section.id} aria-labelledby={`${section.id}-title`}>
+            <header class="review-section-heading">
+              <p class="review-overline"><span class="review-section-number">{String(index + 2).padStart(2, '0')}</span>{section.eyebrow}</p>
+              <h2 id={`${section.id}-title`}>{section.title}</h2>
+            </header>
+            <div class="review-section-body">
+              <Fragment set:html={renderSectionHtml(section)} />
+              {review.evaluation.dimensions
+                .filter((dimension) => dimension.deepDiveId === section.id)
+                .map((dimension) => <ReviewPerformanceDetail dimension={dimension} />)}
+              {inlineMedia
+                .filter((media) => media.afterSection === index)
+                .map((media) => (
+                  <figure
+                    class="review-media review-inline-media"
+                    data-source-type={media.sourceType}
+                    data-user-generated={String(media.userGenerated)}
+                    data-usage-record={media.usageHref}
+                  >
+                    <a class="review-media-link" href={media.sourceHref} target="_blank" rel={media.userGenerated ? 'ugc noopener' : 'noopener'}>
+                      <img
+                        src={/^https?:\/\//.test(media.src) ? media.src : assetUrl(media.src)}
+                        alt={media.alt}
+                        width={media.width}
+                        height={media.height}
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </a>
+                    <figcaption>
+                      <span class="review-media-source-badge">{
+                        media.sourceType === 'reddit'
+                          ? 'Reddit photo'
+                          : media.sourceType === 'community'
+                            ? 'Community photo'
+                            : media.sourceType === 'manufacturer'
+                              ? 'Manufacturer photo'
+                              : media.userGenerated
+                                ? 'Owner photo'
+                                : 'Product listing'
+                      }</span>
+                      {media.caption}
+                      <span class="review-media-credit">
+                        Image: <a href={media.sourceHref} target="_blank" rel={media.userGenerated ? 'ugc noopener' : 'noopener'}>{media.credit}</a>.
+                        {' '}Usage record: <a href={media.usageHref} target="_blank" rel="noopener">{media.usageLabel}</a>.
+                        {media.disclosure && <> {media.disclosure}</>}
+                      </span>
+                    </figcaption>
+                  </figure>
+                ))}
+              {section.id === redditEvidenceSectionId && redditSources.length > 0 && !hasCustomCommunityPanel && (
+                <aside class="review-community-evidence" aria-labelledby={`${section.id}-reddit-title`}>
+                  <p class="review-overline">What real owners report</p>
+                  <h3 id={`${section.id}-reddit-title`}>The useful patterns from Reddit, kept on this page</h3>
+                  <ul>
+                    {redditSources.slice(0, 3).map((source) => (
+                      <li>
+                        <strong>{source.label.replace(/^r\/([^:]+):?/i, 'r/$1')}</strong>
+                        <p>{source.note}</p>
+                      </li>
+                    ))}
+                  </ul>
+                  <p class="review-community-evidence-note">These are self-selected owner reports, not a representative sample or Coffeedant testing. The complete source records remain in the evidence list below.</p>
+                </aside>
+              )}
+            </div>
+          </section>
+          {index === 1 && (
+            <CoffeeFinder
+              variant="banner"
+              excludePath={review.slug}
+              eyebrow="Compare before you buy"
+              heading={`See what else fits beside the ${review.model}.`}
+              intro="Pick any budget, workflow, or drink preference. The finder searches the complete Coffeedant espresso-machine catalog and keeps this review out of the comparison results."
+            />
+          )}
+        </Fragment>
       ))}
       <section class="review-section" id="video" aria-labelledby="video-title">
         <header class="review-section-heading"><p class="review-overline">See the {productNoun} in use</p><h2 id="video-title">An independent video perspective</h2></header>

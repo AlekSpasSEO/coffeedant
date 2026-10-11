@@ -1,5 +1,6 @@
 ---
 import HomeLayout from '../layouts/HomeLayout.astro';
+import CoffeeFinder from './CoffeeFinder.astro';
 import type { Brand } from '../data/catalog';
 import { brandDetails, brands, machinePagesForBrand } from '../data/catalog';
 
@@ -77,6 +78,14 @@ const comparableBrands = [brand, ...brands
         </div>
       </div>
     </section>
+
+    <CoffeeFinder
+      variant="banner"
+      brand={brand.name}
+      eyebrow={`${brand.name} Coffee Finder`}
+      heading={`Find the ${brand.name} machine that fits your routine.`}
+      intro={`Start with any constraint. This compact finder searches every ${brand.name} espresso-machine review; the full finder can compare the result with every brand.`}
+    />
 
     <section class="section section-compact comparison-section" aria-labelledby="brand-compare-title">
       <div class="shell">

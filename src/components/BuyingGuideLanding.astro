@@ -1,5 +1,6 @@
 ---
 import HomeLayout from '../layouts/HomeLayout.astro';
+import CoffeeFinder from './CoffeeFinder.astro';
 import { decisionGuides, machineFacts } from '../data/catalog';
 
 type Pick = { brand: string; name: string; note: string; path: string; image?: string };
@@ -51,49 +52,12 @@ const principles = mode === 'with' ? [
       </div>
     </section>
 
-    <section class="section section-compact machine-guide" aria-labelledby="machine-guide-title">
-      <div class="shell">
-        <div class="section-heading">
-          <span class="section-number">01 / Interactive guide</span>
-          <h2 id="machine-guide-title">Build your shortlist.</h2>
-          <p>Three useful choices. One starting point from this guide.</p>
-        </div>
-        <div class="machine-guide-grid">
-          <form class="machine-guide-form">
-            <fieldset>
-              <legend>What do you drink most?</legend>
-              <label><input type="radio" name="drink" value="espresso" checked /><span>Espresso</span></label>
-              <label><input type="radio" name="drink" value="mixed" /><span>A mix</span></label>
-              <label><input type="radio" name="drink" value="milk" /><span>Milk drinks</span></label>
-            </fieldset>
-            <fieldset>
-              <legend>What should mornings feel like?</legend>
-              <label><input type="radio" name="pace" value="fast" checked /><span>Fast</span></label>
-              <label><input type="radio" name="pace" value="ritual" /><span>Hands-on</span></label>
-              <label><input type="radio" name="pace" value="shared" /><span>Easy to share</span></label>
-            </fieldset>
-            <fieldset>
-              <legend>What matters most?</legend>
-              <label><input type="radio" name="priority" value="value" checked /><span>Value</span></label>
-              <label><input type="radio" name="priority" value="compact" /><span>Small size</span></label>
-              <label><input type="radio" name="priority" value="upgrade" /><span>Room to grow</span></label>
-            </fieldset>
-            <button type="submit">Show my starting point →</button>
-          </form>
-          <div class="machine-guide-result" aria-live="polite">
-            <span>Your current match</span>
-            <p class="guide-result-brand">{enrichedPicks[0]?.brand}</p>
-            <h3 class="guide-result-title">{enrichedPicks[0]?.name}</h3>
-            <p class="guide-result-note">{enrichedPicks[0]?.note}</p>
-            <div class="guide-result-meta"><span>{enrichedPicks[0]?.facts.setup}</span><span>{enrichedPicks[0]?.facts.compromise}</span></div>
-            <a class="guide-result-link" href={`${base}${enrichedPicks[0]?.path.replace(/^\//, '')}`}>Read the review →</a>
-          </div>
-          <div class="selector-data" hidden>
-            {enrichedPicks.map((pick) => <span data-brand={pick.brand} data-name={pick.name} data-note={pick.note} data-setup={pick.facts.setup} data-compromise={pick.facts.compromise} data-signals={pick.facts.signals.join(' ')} data-href={`${base}${pick.path.replace(/^\//, '')}`}></span>)}
-          </div>
-        </div>
-      </div>
-    </section>
+    <CoffeeFinder
+      variant="full"
+      eyebrow="01 / Complete Coffee Finder"
+      heading="Search the whole espresso-machine catalog."
+      intro="Use one filter or build a detailed profile. The finder includes every current Coffeedant espresso-machine review, from sub-$500 starters to machines above $5,000."
+    />
 
     <section class="section section-compact comparison-section" aria-labelledby="comparison-title">
       <div class="shell">
@@ -189,32 +153,4 @@ const principles = mode === 'with' ? [
     </section>
   </main>
 
-  <script>
-    document.querySelectorAll<HTMLElement>('.machine-guide').forEach((guide) => {
-      const form = guide.querySelector<HTMLFormElement>('.machine-guide-form');
-      const candidates = Array.from(guide.querySelectorAll<HTMLElement>('.selector-data [data-signals]'));
-      const brand = guide.querySelector<HTMLElement>('.guide-result-brand');
-      const title = guide.querySelector<HTMLElement>('.guide-result-title');
-      const note = guide.querySelector<HTMLElement>('.guide-result-note');
-      const meta = guide.querySelector<HTMLElement>('.guide-result-meta');
-      const link = guide.querySelector<HTMLAnchorElement>('.guide-result-link');
-
-      form?.addEventListener('submit', (event) => {
-        event.preventDefault();
-        const selected = Array.from(form.querySelectorAll<HTMLInputElement>('input:checked')).map((input) => input.value);
-        const ranked = candidates.map((candidate, index) => {
-          const signals = candidate.dataset.signals?.split(' ') ?? [];
-          return { candidate, index, score: selected.filter((value) => signals.includes(value)).length };
-        }).sort((a, b) => b.score - a.score || a.index - b.index);
-        const match = ranked[0]?.candidate;
-        if (!match) return;
-        if (brand) brand.textContent = match.dataset.brand ?? '';
-        if (title) title.textContent = match.dataset.name ?? '';
-        if (note) note.textContent = match.dataset.note ?? '';
-        if (meta) meta.innerHTML = `<span>${match.dataset.setup ?? ''}</span><span>${match.dataset.compromise ?? ''}</span>`;
-        if (link) link.href = match.dataset.href ?? '#';
-        guide.querySelector('.machine-guide-result')?.classList.add('is-updated');
-      });
-    });
-  </script>
 </HomeLayout>

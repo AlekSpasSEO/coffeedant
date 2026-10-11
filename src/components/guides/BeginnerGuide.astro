@@ -1,5 +1,6 @@
 ---
 import HomeLayout from '../../layouts/HomeLayout.astro';
+import CoffeeFinder from '../CoffeeFinder.astro';
 import '../../styles/review.css';
 import { beginnerGuide } from '../../data/beginner-guide';
 
@@ -92,46 +93,6 @@ const defaultLabels = isBuiltIn ? {
   sourcePrefix: 'beginner', footerLabel: 'Compare all espresso machine routes',
 };
 const labels = guide.labels ?? defaultLabels;
-const defaultSelectorGroups = isBuiltIn ? [
-  { name: 'control', legend: 'How much control do you want?', options: [['manual', 'Manual espresso'], ['assisted', 'Guided preparation'], ['automatic', 'One-touch drinks']] },
-  { name: 'milk', legend: 'Who should texture the milk?', options: [['wand', 'I will steam'], ['carafe', 'The machine'], ['either', 'Either is fine']] },
-  { name: 'priority', legend: 'What matters most?', options: [['speed', 'Fast routine'], ['shared', 'Easy to share'], ['premium', 'Premium menu']] },
-] : isBudget ? [
-  { name: 'power', legend: 'How should pressure be created?', options: [['pump', 'Electric pump'], ['lever', 'Manual lever'], ['either', 'Either is fine']] },
-  { name: 'milk', legend: 'How often do you make milk drinks?', options: [['daily', 'Most days'], ['sometimes', 'Sometimes'], ['never', 'Rarely or never']] },
-  { name: 'priority', legend: 'What matters most?', options: [['speed', 'Fast routine'], ['lowest', 'Lowest entry cost'], ['control', 'Hands-on control']] },
-] : isProsumer ? [
-  { name: 'control', legend: 'Which control matters most?', options: [['pid', 'Factory PID'], ['ecosystem', '58 mm ecosystem'], ['pressure', 'Pressure profiling']] },
-  { name: 'milk', legend: 'How often do you steam milk?', options: [['often', 'Often'], ['sometimes', 'Sometimes'], ['never', 'Rarely or never']] },
-  { name: 'priority', legend: 'What matters most?', options: [['value', 'Lowest machine cost'], ['build', 'Traditional build'], ['feedback', 'Visible feedback']] },
-] : [
-  { name: 'drink', legend: 'What do you drink most?', options: [['milk', 'Milk drinks'], ['espresso', 'Espresso'], ['mixed', 'A mix']] },
-  { name: 'effort', legend: 'How involved should mornings feel?', options: [['guided', 'Guided manual'], ['craft', 'Hands-on craft'], ['automatic', 'Push button']] },
-  { name: 'priority', legend: 'What matters most?', options: [['modular', 'Upgrade freedom'], ['integrated', 'One station'], ['shared', 'Easy to share']] },
-];
-const selectorGroups = guide.selectorGroups ?? defaultSelectorGroups;
-const defaultSelectorCandidates = isBuiltIn ? [
-  { signals: 'manual wand speed', brand: 'Breville', name: 'Barista Pro', note: 'Fast manual espresso with an integrated 30-step grinder.', setup: 'Best fit: one skilled user', compromise: 'Main limit: manual puck and milk work', href: '/espresso-machine/breville-barista-pro-bes878/' },
-  { signals: 'assisted wand shared', brand: 'Breville', name: 'Barista Express Impress', note: 'Dose feedback and assisted tamping without automatic milk.', setup: 'Best fit: shared manual station', compromise: 'Main limit: slower thermocoil routine', href: '/espresso-machine/breville-barista-express-impress-bes876/' },
-  { signals: 'automatic carafe shared speed', brand: 'De’Longhi', name: 'Magnifica Evo', note: 'Fresh-bean coffee and milk without a portafilter.', setup: 'Best fit: simple one-touch drinks', compromise: 'Main limit: less direct espresso control', href: '/espresso-machine/delonghi-magnifica-evo/' },
-  { signals: 'automatic carafe premium either', brand: 'JURA', name: 'E8', note: 'A premium 27-specialty automatic with a closed brew system.', setup: 'Best fit: premium shared menu', compromise: 'Main limit: $2,599 reference and stock', href: '/espresso-machine/jura-e8/' },
-] : isBudget ? [
-  { signals: 'pump daily speed', brand: 'Breville', name: 'Bambino Plus', note: 'Fast electric heat and automatic or manual milk at the top of the cap.', setup: 'Best fit: frequent milk drinks', compromise: 'Main limit: grinder sold separately', href: '/espresso-machine/breville-bambino/' },
-  { signals: 'pump sometimes lowest', brand: 'De’Longhi', name: 'ECP3420', note: 'A low-cost pump machine with pressurized baskets and a manual frother.', setup: 'Best fit: modest first station', compromise: 'Main limit: small sequential heater', href: '/espresso-machine/delonghi-ecp3420/' },
-  { signals: 'lever never lowest control', brand: 'Flair', name: 'Classic', note: 'A gauge-equipped direct lever with forgiving and bottomless paths.', setup: 'Best fit: deliberate straight espresso', compromise: 'Main limit: kettle and grinder remain external', href: '/espresso-machine/flair-classic/' },
-  { signals: 'lever sometimes control either', brand: 'ROK', name: 'EspressoGC Black PLUS', note: 'A dual-arm press with standard and Smartshot baskets plus a hand frother.', setup: 'Best fit: tactile manual workflow', compromise: 'Main limit: no heater or pressure gauge', href: '/espresso-machine/rok-espresso-gc/' },
-] : isProsumer ? [
-  { signals: 'ecosystem sometimes value', brand: 'Gaggia', name: 'Classic Pro E24', note: 'The lowest-cost 58 mm brass-boiler platform in the shortlist.', setup: 'Best fit: grinder-first budget', compromise: 'Main limit: no stock PID or timer', href: '/espresso-machine/gaggia-classic-evo/' },
-  { signals: 'pid sometimes feedback value', brand: 'Lelit', name: 'Anna PL41TEM', note: 'Factory PID and pressure feedback in a compact LELIT57 machine.', setup: 'Best fit: temperature-focused value', compromise: 'Main limit: 57 mm tools and a small boiler', href: '/espresso-machine/lelit-anna/' },
-  { signals: 'ecosystem often build', brand: 'Rancilio', name: 'Silvia V6', note: 'A dense 58 mm traditional machine with stronger steam and a manual thermostat rhythm.', setup: 'Best fit: long-term traditionalist', compromise: 'Main limit: $995 with no stock PID', href: '/espresso-machine/rancilio-silvia/' },
-  { signals: 'pressure never feedback', brand: 'Flair', name: '58 Plus 2', note: 'A heated 58 mm lever with gauge-guided pressure control.', setup: 'Best fit: straight-espresso profiling', compromise: 'Main limit: no pump, boiler or milk system', href: '/espresso-machine/flair-58/' },
-] : [
-  { signals: 'milk guided modular', brand: 'Breville', name: 'Bambino Plus', note: 'Automatic milk, manual coffee, separate grinder.', setup: 'Best fit: regular milk drinks', compromise: 'Main limit: grinder sold separately', href: '/espresso-machine/breville-bambino/' },
-  { signals: 'espresso craft modular', brand: 'Gaggia', name: 'Classic Pro E24', note: 'Traditional 58 mm single-boiler learning.', setup: 'Best fit: craft-first espresso', compromise: 'Main limit: manual temperature routine', href: '/espresso-machine/gaggia-classic-evo/' },
-  { signals: 'mixed guided integrated', brand: 'Breville', name: 'Barista Express', note: 'One-box grinder and manual espresso station.', setup: 'Best fit: one familiar station', compromise: 'Main limit: fixed integrated grinder', href: '/espresso-machine/breville-barista-express-bes870xl/' },
-  { signals: 'milk automatic shared', brand: 'De’Longhi', name: 'Magnifica Evo', note: 'Fresh-bean drinks without a portafilter.', setup: 'Best fit: shared push-button use', compromise: 'Main limit: less manual control', href: '/espresso-machine/delonghi-magnifica-evo/' },
-];
-const selectorCandidates = guide.selectorCandidates ?? defaultSelectorCandidates;
 ---
 
 <HomeLayout
@@ -180,16 +141,8 @@ const selectorCandidates = guide.selectorCandidates ?? defaultSelectorCandidates
       </nav>
 
       <article class="review-article guide-article" aria-label={labels.article}>
-        <section class="section review-section machine-guide" id="decision" aria-labelledby="decision-title">
+        <section class="section review-section" id="decision" aria-labelledby="decision-title">
           <header class="review-section-heading"><p class="review-overline"><span class="review-section-number">01</span>Start with the routine</p><h2 id="decision-title">{labels.decisionTitle}</h2></header>
-          <div class="review-section-body machine-guide-grid">
-            <form class="machine-guide-form">
-              {selectorGroups.map((group) => <fieldset><legend>{group.legend}</legend>{group.options.map(([value, label], index) => <label><input type="radio" name={group.name} value={value} checked={index === 0} /><span>{label}</span></label>)}</fieldset>)}
-              <button type="submit">Show my starting point →</button>
-            </form>
-            <div class="machine-guide-result" aria-live="polite"><span>Your current match</span><p class="guide-result-brand">{selectorCandidates[0].brand}</p><h3 class="guide-result-title">{selectorCandidates[0].name}</h3><p class="guide-result-note">{selectorCandidates[0].note}</p><div class="guide-result-meta"><span>{selectorCandidates[0].setup}</span><span>{selectorCandidates[0].compromise}</span></div><a class="guide-result-link" href={pageUrl(selectorCandidates[0].href)}>Read the review →</a></div>
-            <div class="selector-data" hidden>{selectorCandidates.map((candidate) => <span data-signals={candidate.signals} data-brand={candidate.brand} data-name={candidate.name} data-note={candidate.note} data-setup={candidate.setup} data-compromise={candidate.compromise} data-href={pageUrl(candidate.href)}></span>)}</div>
-          </div>
           <div class="review-section-body guide-framework-copy"><Fragment set:html={guide.sections.find((section) => section.id === 'decision')!.html} /></div>
         </section>
 
@@ -203,6 +156,13 @@ const selectorCandidates = guide.selectorCandidates ?? defaultSelectorCandidates
             <p class="review-table-note">Prices were checked September 25, 2026. Tax, color, stock, seller, bundles and promotions can change. Compare the complete station, not the machine-only number.</p>
           </div>
         </section>
+
+        <CoffeeFinder
+          variant="banner"
+          eyebrow="Compare the complete catalog"
+          heading="Turn this guide into your own shortlist."
+          intro="Use only the filters that matter to you. The finder searches every Coffeedant espresso-machine review, including budgets above $5,000."
+        />
 
         {guide.sections.filter((section) => !['decision', 'picks', 'verdict'].includes(section.id)).map((section, index) => (
           <section class:list={['section', 'review-section', { 'principles-section': section.id === 'criteria' }]} id={section.id} aria-labelledby={`${section.id}-title`}>
@@ -250,20 +210,6 @@ const selectorCandidates = guide.selectorCandidates ?? defaultSelectorCandidates
   </main>
   <script is:inline type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />
   <script>
-    document.querySelectorAll<HTMLElement>('.machine-guide').forEach((root) => {
-      const form = root.querySelector<HTMLFormElement>('.machine-guide-form');
-      const candidates = Array.from(root.querySelectorAll<HTMLElement>('.selector-data [data-signals]'));
-      form?.addEventListener('submit', (event) => {
-        event.preventDefault();
-        const selected = Array.from(form.querySelectorAll<HTMLInputElement>('input:checked')).map((input) => input.value);
-        const match = candidates.map((candidate, index) => ({ candidate, index, score: selected.filter((value) => candidate.dataset.signals?.split(' ').includes(value)).length })).sort((a, b) => b.score - a.score || a.index - b.index)[0]?.candidate;
-        if (!match) return;
-        const put = (selector: string, value = '') => { const node = root.querySelector<HTMLElement>(selector); if (node) node.textContent = value; };
-        put('.guide-result-brand', match.dataset.brand); put('.guide-result-title', match.dataset.name); put('.guide-result-note', match.dataset.note);
-        const meta = root.querySelector<HTMLElement>('.guide-result-meta'); if (meta) meta.innerHTML = `<span>${match.dataset.setup ?? ''}</span><span>${match.dataset.compromise ?? ''}</span>`;
-        const link = root.querySelector<HTMLAnchorElement>('.guide-result-link'); if (link) link.href = match.dataset.href ?? '#';
-      });
-    });
     document.querySelectorAll<HTMLElement>('[data-review-video]').forEach((root) => {
       root.querySelector<HTMLButtonElement>('.review-video-poster')?.addEventListener('click', (event) => {
         const button = event.currentTarget as HTMLButtonElement; const id = root.dataset.reviewVideo; if (!id) return;
