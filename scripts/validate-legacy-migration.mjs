@@ -16,7 +16,7 @@ const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) =>
 const sitemapUrlSet = new Set(sitemapUrls);
 if (sitemapUrlSet.size !== sitemapUrls.length) errors.push('sitemap: duplicate URLs found');
 for (const route of migratedPaths) {
-  const url = `https://alekspasseo.github.io/coffeedant${route}`;
+  const url = `https://coffeedant.com${route}`;
   if (!sitemapUrlSet.has(url)) errors.push(`${route}: missing from sitemap`);
 }
 
