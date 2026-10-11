@@ -1,0 +1,31 @@
+# Cloudflare Pages redirects migrated from the WordPress Redirection export
+# dated 2026-10-11. Disabled rules are intentionally omitted, and same-domain
+# redirect chains are flattened to their final canonical destination.
+
+/espresso-machine/gaggia-classic-e24/ /espresso-machine/gaggia-classic-evo/ 301
+/espresso-machine/breville-oracle-bes980xl/ /espresso-machine/breville-oracle-bes980x/ 301
+/espresso-machine/gaggia-espresso/ /espresso-machine/gaggia-espresso-evolution-eg2115/ 301
+/espresso-machine/espresso-machine-gaggia-espresso-evolution-eg2115/ /espresso-machine/gaggia-espresso-evolution-eg2115/ 301
+/golden-ratio-espresso/ /blog/golden-ratio-espresso/ 301
+/nordic-style-coffee/ /blog/nordic-style-coffee/ 301
+/espresso-dosing/ /blog/espresso-dosing/ 301
+/ground-distribution/ /blog/ground-distribution/ 301
+/espresso-tamp-guide/ /blog/espresso-tamp-guide/ 301
+/espresso-techniques/ /blog/espresso-techniques/ 301
+/conical-vs-flat-burr-grinders/ /blog/conical-vs-flat-burr-grinders/ 301
+/espresso-machine/delonghi-dinamica-plus-ecam370/ /espresso-machine/delonghi-dinamica-plus-ecam38085sb/ 301
+/timemore/ /grinder/timemore-sculptor/ 301
+/timemore-sculptor/ /grinder/timemore-sculptor/ 301
+/espresso-machine/delonghi-magnifica-evo-2/ /espresso-machine/delonghi-magnifica-evo/ 301
+/espresso-machine/delonghi-magnifica-esam3000/ /espresso-machine/delonghi-magnifica-evo/ 301
+/espresso-machine/delonghi-magnifica-evo-next/ /espresso-machine/delonghi-magnifica-evo/ 301
+/espresso-machine/with-grinder/ /espresso-machine/built-in-grinder/ 301
+/espresso-machine/breville-bambino-plus/ /espresso-machine/breville-bambino/ 301
+/espresso-machine/breville-bambino-bes450/ /espresso-machine/breville-bambino/ 301
+/espresso-machine/breville-bambino-plus-bes500/ /espresso-machine/breville-bambino/ 301
+/espresso-machine/breville-barista-express/ /espresso-machine/breville-barista-express-bes870xl/ 301
+/espresso-machine/gaggia-espresso-evolution/ /espresso-machine/gaggia-espresso-evolution-eg2115/ 301
+/espresso-machine/lelit-bianca/ /espresso-machine/lelit-bianca-pl162t/ 301
+/espresso-machine/delonghi-dinamica-aroma-bar-ecam359-37-tb/ /espresso-machine/delonghi-dinamica-plus-ecam38085sb/ 301
+/espresso-machine/rocket-appartamento/ /espresso-machine/rocket-appartamento-tca/ 301
+
