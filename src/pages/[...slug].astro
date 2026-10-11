@@ -60,6 +60,13 @@ const supportingMeta: Record<string, { description: string; heading?: string }> 
     description: 'Read the Coffeedant privacy policy, including what information may be collected, how it is used and the choices available to site visitors.',
     heading: 'Privacy Policy',
   },
+  '/testing/': {
+    description: 'See how Coffeedant researches coffee equipment, separates documented specifications from observed evidence and keeps recommendations within their limits.',
+    heading: 'How Coffeedant Researches and Reviews',
+  },
+  '/tos/': {
+    description: 'Read the Coffeedant terms of service covering site use, editorial information, intellectual property, external links and limitations.',
+  },
 };
 const support = page ? supportingMeta[page.path] : undefined;
 ---
@@ -73,5 +80,6 @@ const support = page ? supportingMeta[page.path] : undefined;
     </div>
   </Base>
 )}
+
 
 
