@@ -1,0 +1,646 @@
+---
+import { brands } from '../data/catalog';
+import { modernReviews } from '../data/review-registry';
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const href = (path: string) => `${base}${path.replace(/^\//, '')}`;
+
+const machineColumns = [
+  {
+    eyebrow: 'Start here',
+    title: 'Choose a machine',
+    links: [
+      ['/espresso-machine/', 'All espresso machines', 'Browse the complete review library'],
+      ['/espresso-machine/beginners/', 'Best for beginners', 'Four clear first-machine routes'],
+      ['/espresso-machine/built-in-grinder/', 'Machines with a grinder', 'Integrated and bean-to-cup options'],
+      ['/espresso-machine/without-grinder/', 'Machines without a grinder', 'Build a modular setup'],
+    ],
+  },
+  {
+    eyebrow: 'Shop by need',
+    title: 'Match your workflow',
+    links: [
+      ['/espresso-machine/cheap-budget-under-500/', 'Under $500', 'Keep the machine budget contained'],
+      ['/espresso-machine/prosumer-under-1000/', 'Prosumer under $1,000', 'More control without four-figure hardware'],
+      ['/espresso-machine/small/', 'Small machines', 'Compact picks for tight counters'],
+      ['/espresso-machine/single-boiler/', 'Single-boiler machines', 'Focused, hands-on espresso'],
+      ['/espresso-machine/superautomatic/', 'Superautomatic machines', 'One-touch coffee and milk'],
+    ],
+  },
+  {
+    eyebrow: 'More equipment',
+    title: 'Complete the setup',
+    links: [
+      ['/coffee-machine/', 'Coffee machines', 'Brewers beyond espresso'],
+      ['/grinder/', 'Coffee grinders', 'Manual and electric grinder reviews'],
+      ['/brands/', 'Browse every brand', 'Start with the manufacturer'],
+      ['/testing/', 'How we test', 'Read the Coffeedant methodology'],
+    ],
+  },
+] as const;
+
+const menuBrands = [
+  ...brands.map(({ slug, path, name, country }) => ({ slug, path, name, country })),
+  { slug: 'keurig', path: '/keurig/', name: 'Keurig', country: 'United States' },
+].sort((a, b) => a.name.localeCompare(b.name));
+
+const brandMenus = menuBrands.map((brand) => ({
+  ...brand,
+  reviews: modernReviews
+    .filter((review) => review.brand === brand.name || review.brandPath === brand.path)
+    .sort((a, b) => a.model.localeCompare(b.model)),
+}));
+---
+
+<header class="cd-header" data-cd-header>
+  <div class="cd-header__inner">
+    <a class="cd-header__brand" href={base} aria-label="Coffeedant home">
+      <img src={`${base}brand/coffeedant-logo.png`} alt="" width="48" height="48" />
+      <span>Coffeedant</span>
+    </a>
+
+    <button
+      class="cd-header__menu-toggle"
+      type="button"
+      aria-label="Open menu"
+      aria-controls="coffeedant-primary-nav"
+      aria-expanded="false"
+      data-menu-toggle
+    >
+      <span class="cd-header__menu-icon" aria-hidden="true"></span>
+      <span class="cd-header__menu-label">Menu</span>
+    </button>
+
+    <nav class="cd-nav" id="coffeedant-primary-nav" aria-label="Primary navigation" data-primary-nav>
+      <ul class="cd-nav__list">
+        <li class="cd-nav__group" data-nav-group>
+          <button
+            class="cd-nav__toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="machines-menu"
+            data-nav-toggle
+          >
+            Machines <span aria-hidden="true">⌄</span>
+          </button>
+
+          <div class="cd-mega cd-mega--machines" id="machines-menu">
+            <div class="cd-mega__heading">
+              <div>
+                <p>Machine directory</p>
+                <h2>Find the right route, then compare the reviews.</h2>
+              </div>
+              <a href={href('/espresso-machine/')}>View all machines <span aria-hidden="true">→</span></a>
+            </div>
+
+            <div class="cd-machine-grid">
+              {machineColumns.map((column) => (
+                <section class="cd-machine-column">
+                  <p>{column.eyebrow}</p>
+                  <h3>{column.title}</h3>
+                  <div class="cd-machine-links">
+                    {column.links.map(([path, label, description]) => (
+                      <a href={href(path)}>
+                        <strong>{label}</strong>
+                        <span>{description}</span>
+                      </a>
+                    ))}
+                  </div>
+                </section>
+              ))}
+            </div>
+          </div>
+        </li>
+
+        <li class="cd-nav__group" data-nav-group>
+          <button
+            class="cd-nav__toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="brands-menu"
+            data-nav-toggle
+          >
+            Brands <span aria-hidden="true">⌄</span>
+          </button>
+
+          <div class="cd-mega cd-mega--brands" id="brands-menu" data-brand-menu>
+            <div data-brand-index>
+              <div class="cd-mega__heading">
+                <div>
+                  <p>Brand directory</p>
+                  <h2>Pick a brand to see every review we have.</h2>
+                </div>
+                <a href={href('/brands/')}>View all brands <span aria-hidden="true">→</span></a>
+              </div>
+
+              <div class="cd-brand-grid" aria-label="Choose a coffee equipment brand">
+                <a class="cd-brand-grid__directory" href={href('/brands/')}>
+                  <span>Directory</span>
+                  <strong>All brands</strong>
+                  <small>Compare the full brand map</small>
+                </a>
+                {brandMenus.map((brand) => (
+                  <button
+                    type="button"
+                    data-brand-open={brand.slug}
+                    aria-controls={`brand-menu-${brand.slug}`}
+                  >
+                    <span>{brand.country}</span>
+                    <strong>{brand.name}</strong>
+                    <small>{brand.reviews.length} {brand.reviews.length === 1 ? 'review' : 'reviews'} <b aria-hidden="true">→</b></small>
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {brandMenus.map((brand) => (
+              <section
+                class="cd-brand-screen"
+                id={`brand-menu-${brand.slug}`}
+                data-brand-screen={brand.slug}
+                aria-labelledby={`brand-title-${brand.slug}`}
+                hidden
+              >
+                <div class="cd-brand-screen__topbar">
+                  <button type="button" data-brand-back>
+                    <span aria-hidden="true">←</span> All brands
+                  </button>
+                  <span>{brand.reviews.length} {brand.reviews.length === 1 ? 'review' : 'reviews'}</span>
+                </div>
+
+                <div class="cd-brand-screen__heading">
+                  <div>
+                    <p>{brand.country}</p>
+                    <h2 id={`brand-title-${brand.slug}`} tabindex="-1">{brand.name}</h2>
+                  </div>
+                  <a href={href(brand.path)}>
+                    <span>Brand guide</span>
+                    <strong>About {brand.name}</strong>
+                    <b aria-hidden="true">→</b>
+                  </a>
+                </div>
+
+                <div class="cd-brand-reviews">
+                  {brand.reviews.map((review) => (
+                    <a href={href(review.slug)}>
+                      <span>{review.category}</span>
+                      <strong>{review.model}</strong>
+                      <small>Read review <b aria-hidden="true">→</b></small>
+                    </a>
+                  ))}
+                </div>
+              </section>
+            ))}
+          </div>
+        </li>
+
+        <li><a class="cd-nav__link" href={href('/grinder/')}>Grinders</a></li>
+        <li><a class="cd-nav__link" href={href('/blog/')}>Guides</a></li>
+        <li><a class="cd-nav__link" href={href('/about/')}>About</a></li>
+      </ul>
+    </nav>
+
+    <a class="cd-header__cta" href={`${base}#finder`}>Find my machine</a>
+  </div>
+</header>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-cd-header]').forEach((header) => {
+    const menuButton = header.querySelector<HTMLButtonElement>('[data-menu-toggle]');
+    const menu = header.querySelector<HTMLElement>('[data-primary-nav]');
+    const groups = Array.from(header.querySelectorAll<HTMLElement>('[data-nav-group]'));
+
+    const resetBrandScreen = (group: HTMLElement) => {
+      const brandMenu = group.querySelector<HTMLElement>('[data-brand-menu]');
+      const index = brandMenu?.querySelector<HTMLElement>('[data-brand-index]');
+      const screens = Array.from(brandMenu?.querySelectorAll<HTMLElement>('[data-brand-screen]') ?? []);
+      if (index) index.hidden = false;
+      screens.forEach((screen) => { screen.hidden = true; });
+    };
+
+    const closeGroup = (group: HTMLElement) => {
+      group.classList.remove('is-open');
+      group.querySelector<HTMLButtonElement>('[data-nav-toggle]')?.setAttribute('aria-expanded', 'false');
+      resetBrandScreen(group);
+    };
+
+    const closeGroups = (except?: HTMLElement) => {
+      groups.forEach((group) => {
+        if (group !== except) closeGroup(group);
+      });
+    };
+
+    menuButton?.addEventListener('click', () => {
+      const isOpen = menu?.classList.toggle('is-open') ?? false;
+      menuButton.setAttribute('aria-expanded', String(isOpen));
+      menuButton.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+      document.body.classList.toggle('cd-menu-open', isOpen && window.matchMedia('(max-width: 1040px)').matches);
+      if (!isOpen) closeGroups();
+    });
+
+    groups.forEach((group) => {
+      const toggle = group.querySelector<HTMLButtonElement>('[data-nav-toggle]');
+      toggle?.addEventListener('click', () => {
+        const willOpen = !group.classList.contains('is-open');
+        closeGroups(group);
+        group.classList.toggle('is-open', willOpen);
+        toggle.setAttribute('aria-expanded', String(willOpen));
+        if (!willOpen) resetBrandScreen(group);
+      });
+
+      const brandIndex = group.querySelector<HTMLElement>('[data-brand-index]');
+      const brandScreens = Array.from(group.querySelectorAll<HTMLElement>('[data-brand-screen]'));
+
+      group.querySelectorAll<HTMLButtonElement>('[data-brand-open]').forEach((brandButton) => {
+        brandButton.addEventListener('click', () => {
+          const slug = brandButton.dataset.brandOpen;
+          const screen = brandScreens.find((candidate) => candidate.dataset.brandScreen === slug);
+          if (!screen || !brandIndex) return;
+          brandIndex.hidden = true;
+          brandScreens.forEach((candidate) => { candidate.hidden = candidate !== screen; });
+          screen.querySelector<HTMLElement>('h2')?.focus();
+        });
+      });
+
+      group.querySelectorAll<HTMLButtonElement>('[data-brand-back]').forEach((backButton) => {
+        backButton.addEventListener('click', () => {
+          resetBrandScreen(group);
+          group.querySelector<HTMLButtonElement>('[data-brand-open]')?.focus();
+        });
+      });
+    });
+
+    document.addEventListener('click', (event) => {
+      if (!header.contains(event.target as Node)) closeGroups();
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key !== 'Escape') return;
+      closeGroups();
+      if (menu?.classList.contains('is-open') && window.matchMedia('(max-width: 1040px)').matches) {
+        menu.classList.remove('is-open');
+        menuButton?.setAttribute('aria-expanded', 'false');
+        menuButton?.setAttribute('aria-label', 'Open menu');
+        document.body.classList.remove('cd-menu-open');
+        menuButton?.focus();
+      }
+    });
+
+    window.addEventListener('resize', () => {
+      if (!window.matchMedia('(max-width: 1040px)').matches) {
+        document.body.classList.remove('cd-menu-open');
+      }
+    });
+  });
+</script>
+
+<style>
+  .cd-header {
+    --cd-yellow: #f3da00;
+    --cd-ink: #161616;
+    --cd-paper: #fffefa;
+    --cd-white: #fff;
+    --cd-muted: #625f57;
+    --cd-line: #d9d5ca;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    border-bottom: 2px solid var(--cd-ink);
+    color: var(--cd-ink);
+    background: rgba(255, 254, 250, 0.97);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    backdrop-filter: blur(12px);
+  }
+
+  .cd-header * { box-sizing: border-box; }
+  .cd-header button, .cd-header a { font: inherit; }
+  .cd-header button { color: inherit; }
+  .cd-header__inner {
+    position: relative;
+    display: flex;
+    width: min(calc(100% - 40px), 1220px);
+    min-height: 76px;
+    align-items: center;
+    gap: 28px;
+    margin-inline: auto;
+  }
+  .cd-header__brand {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: 12px;
+    color: inherit;
+    font-size: 1.25rem;
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    text-decoration: none;
+  }
+  .cd-header__brand img {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border: 2px solid var(--cd-ink);
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .cd-nav { margin-left: auto; }
+  .cd-nav__list {
+    display: flex;
+    align-items: stretch;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .cd-nav__group { display: flex; position: static; }
+  .cd-nav__toggle, .cd-nav__link {
+    display: inline-flex;
+    min-height: 74px;
+    align-items: center;
+    gap: 7px;
+    padding: 0;
+    border: 0;
+    color: inherit;
+    background: transparent;
+    font-size: 0.82rem;
+    font-weight: 850;
+    letter-spacing: 0.045em;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .cd-nav__toggle > span { transition: transform 160ms ease; }
+  .cd-nav__group.is-open .cd-nav__toggle > span { transform: rotate(180deg); }
+  .cd-nav__toggle:hover, .cd-nav__toggle:focus-visible,
+  .cd-nav__link:hover, .cd-nav__link:focus-visible {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+  }
+  .cd-header__cta {
+    display: inline-flex;
+    min-height: 44px;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 15px;
+    border: 2px solid var(--cd-ink);
+    color: inherit;
+    background: var(--cd-yellow);
+    font-size: 0.78rem;
+    font-weight: 900;
+    letter-spacing: 0.045em;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .cd-header__cta:hover, .cd-header__cta:focus-visible { background: var(--cd-white); }
+  .cd-header__menu-toggle { display: none; }
+
+  .cd-mega {
+    position: absolute;
+    top: calc(100% - 1px);
+    right: 0;
+    left: 0;
+    display: none;
+    max-height: min(76vh, 720px);
+    overflow: auto;
+    border: 2px solid var(--cd-ink);
+    background: var(--cd-paper);
+    box-shadow: 8px 8px 0 var(--cd-ink);
+  }
+  .cd-nav__group.is-open .cd-mega { display: block; }
+  .cd-mega__heading {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 20px 22px;
+    border-bottom: 2px solid var(--cd-ink);
+    background: var(--cd-yellow);
+  }
+  .cd-mega__heading p, .cd-machine-column > p, .cd-brand-screen__heading p {
+    margin: 0 0 4px;
+    font-size: 0.68rem;
+    font-weight: 900;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+  }
+  .cd-mega__heading h2 {
+    max-width: 640px;
+    margin: 0;
+    font-size: clamp(1.15rem, 2vw, 1.55rem);
+    line-height: 1.08;
+    letter-spacing: -0.035em;
+  }
+  .cd-mega__heading > a {
+    flex: 0 0 auto;
+    color: inherit;
+    font-size: 0.75rem;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .cd-mega__heading > a:hover, .cd-mega__heading > a:focus-visible { text-decoration: underline; }
+
+  .cd-machine-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .cd-machine-column { min-width: 0; padding: 22px; border-right: 2px solid var(--cd-ink); }
+  .cd-machine-column:last-child { border-right: 0; }
+  .cd-machine-column h3 { margin: 0 0 16px; font-size: 1.2rem; letter-spacing: -0.035em; }
+  .cd-machine-links { display: grid; gap: 7px; }
+  .cd-machine-links a {
+    display: grid;
+    gap: 2px;
+    padding: 11px 12px;
+    border: 1px solid var(--cd-line);
+    color: inherit;
+    text-decoration: none;
+  }
+  .cd-machine-links a:hover, .cd-machine-links a:focus-visible { border-color: var(--cd-ink); background: var(--cd-yellow); }
+  .cd-machine-links strong { font-size: 0.86rem; }
+  .cd-machine-links span { color: var(--cd-muted); font-size: 0.72rem; line-height: 1.35; }
+
+  .cd-brand-grid {
+    display: grid;
+    grid-auto-columns: minmax(145px, 1fr);
+    grid-auto-flow: column;
+    grid-template-rows: repeat(4, minmax(92px, auto));
+  }
+  .cd-brand-grid > button, .cd-brand-grid > a {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 13px 15px;
+    border: 0;
+    border-right: 1px solid var(--cd-line);
+    border-bottom: 1px solid var(--cd-line);
+    color: inherit;
+    background: var(--cd-paper);
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .cd-brand-grid > :hover, .cd-brand-grid > :focus-visible { background: var(--cd-yellow); }
+  .cd-brand-grid span { color: var(--cd-muted); font-size: 0.62rem; font-weight: 800; letter-spacing: 0.07em; text-transform: uppercase; }
+  .cd-brand-grid strong { overflow: hidden; width: 100%; font-size: 0.88rem; text-overflow: ellipsis; white-space: nowrap; }
+  .cd-brand-grid small { color: var(--cd-muted); font-size: 0.66rem; }
+  .cd-brand-grid small b { color: var(--cd-ink); }
+  .cd-brand-grid__directory { background: var(--cd-ink) !important; color: var(--cd-white) !important; }
+  .cd-brand-grid__directory span, .cd-brand-grid__directory small { color: rgba(255,255,255,0.7); }
+  .cd-brand-grid__directory:hover, .cd-brand-grid__directory:focus-visible { background: #333 !important; }
+
+  .cd-brand-screen__topbar {
+    display: flex;
+    min-height: 45px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 18px;
+    border-bottom: 1px solid var(--cd-line);
+    color: var(--cd-muted);
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .cd-brand-screen__topbar button {
+    padding: 5px 0;
+    border: 0;
+    background: transparent;
+    font-weight: 900;
+    cursor: pointer;
+  }
+  .cd-brand-screen__topbar button:hover, .cd-brand-screen__topbar button:focus-visible { text-decoration: underline; }
+  .cd-brand-screen__heading {
+    display: grid;
+    grid-template-columns: 1fr minmax(210px, 0.35fr);
+    border-bottom: 2px solid var(--cd-ink);
+    background: var(--cd-yellow);
+  }
+  .cd-brand-screen__heading > div { padding: 18px 22px; }
+  .cd-brand-screen__heading h2 { margin: 0; font-size: clamp(1.8rem, 4vw, 3.2rem); line-height: 0.95; letter-spacing: -0.06em; }
+  .cd-brand-screen__heading > a {
+    display: grid;
+    align-content: center;
+    gap: 2px;
+    padding: 16px 20px;
+    border-left: 2px solid var(--cd-ink);
+    color: inherit;
+    background: var(--cd-paper);
+    text-decoration: none;
+  }
+  .cd-brand-screen__heading > a:hover, .cd-brand-screen__heading > a:focus-visible { background: var(--cd-white); }
+  .cd-brand-screen__heading > a span { color: var(--cd-muted); font-size: 0.65rem; font-weight: 800; text-transform: uppercase; }
+  .cd-brand-screen__heading > a strong { font-size: 0.9rem; }
+  .cd-brand-screen__heading > a b { justify-self: end; }
+  .cd-brand-reviews { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .cd-brand-reviews > a {
+    display: grid;
+    min-width: 0;
+    min-height: 118px;
+    align-content: center;
+    gap: 4px;
+    padding: 16px 18px;
+    border-right: 1px solid var(--cd-line);
+    border-bottom: 1px solid var(--cd-line);
+    color: inherit;
+    text-decoration: none;
+  }
+  .cd-brand-reviews > a:nth-child(3n) { border-right: 0; }
+  .cd-brand-reviews > a:hover, .cd-brand-reviews > a:focus-visible { background: var(--cd-yellow); }
+  .cd-brand-reviews span {
+    overflow: hidden;
+    color: var(--cd-muted);
+    font-size: 0.62rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .cd-brand-reviews strong { font-size: 0.85rem; line-height: 1.25; }
+  .cd-brand-reviews small { color: var(--cd-muted); font-size: 0.68rem; }
+  .cd-brand-reviews small b { color: var(--cd-ink); }
+
+  @media (max-width: 1040px) {
+    :global(body.cd-menu-open) { overflow: hidden; }
+    .cd-header__inner { min-height: 70px; }
+    .cd-header__brand img { width: 44px; height: 44px; }
+    .cd-header__menu-toggle {
+      display: inline-flex;
+      min-width: 78px;
+      min-height: 42px;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-left: auto;
+      padding: 8px 10px;
+      border: 2px solid var(--cd-ink);
+      background: var(--cd-white);
+      font-size: 0.72rem;
+      font-weight: 900;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+    .cd-header__menu-icon, .cd-header__menu-icon::before, .cd-header__menu-icon::after {
+      display: block;
+      width: 16px;
+      height: 2px;
+      background: var(--cd-ink);
+      content: '';
+    }
+    .cd-header__menu-icon { position: relative; }
+    .cd-header__menu-icon::before { position: absolute; top: -5px; }
+    .cd-header__menu-icon::after { position: absolute; top: 5px; }
+    .cd-nav, .cd-header__cta { display: none; }
+    .cd-nav.is-open {
+      position: absolute;
+      top: 100%;
+      right: -20px;
+      left: -20px;
+      display: block;
+      max-height: calc(100vh - 70px);
+      overflow: auto;
+      border-bottom: 2px solid var(--cd-ink);
+      background: var(--cd-paper);
+    }
+    .cd-nav__list { display: block; padding: 12px 20px 24px; }
+    .cd-nav__group { display: block; }
+    .cd-nav__toggle, .cd-nav__link { width: 100%; min-height: 48px; justify-content: space-between; border-bottom: 1px solid var(--cd-line); }
+    .cd-nav__link { display: flex; }
+    .cd-mega {
+      position: static;
+      max-height: none;
+      margin: 8px 0 16px;
+      box-shadow: 4px 4px 0 var(--cd-ink);
+    }
+    .cd-machine-column { padding: 18px; }
+    .cd-brand-grid { grid-auto-flow: row; grid-template-columns: repeat(4, minmax(0, 1fr)); grid-template-rows: none; }
+  }
+
+  @media (max-width: 760px) {
+    .cd-header__inner { width: min(calc(100% - 28px), 1220px); }
+    .cd-nav.is-open { right: -14px; left: -14px; }
+    .cd-mega__heading { align-items: flex-start; padding: 17px; }
+    .cd-mega__heading > a { display: none; }
+    .cd-machine-grid { grid-template-columns: 1fr; }
+    .cd-machine-column { border-right: 0; border-bottom: 2px solid var(--cd-ink); }
+    .cd-machine-column:last-child { border-bottom: 0; }
+    .cd-brand-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .cd-brand-grid > button, .cd-brand-grid > a { min-height: 88px; }
+    .cd-brand-screen__heading { grid-template-columns: 1fr; }
+    .cd-brand-screen__heading > a { border-top: 2px solid var(--cd-ink); border-left: 0; }
+    .cd-brand-reviews { grid-template-columns: 1fr; }
+    .cd-brand-reviews > a, .cd-brand-reviews > a:nth-child(3n) { min-height: 96px; border-right: 0; }
+  }
+
+  @media (max-width: 430px) {
+    .cd-header__brand span { font-size: 1.05rem; }
+    .cd-header__menu-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+    .cd-header__menu-toggle { min-width: 44px; width: 44px; padding: 0; }
+    .cd-brand-grid span { display: none; }
+  }
+</style>
+
