@@ -13,6 +13,7 @@
     "generate:review-media-ledgers": "node scripts/generate-review-media-ledgers.mjs",
     "update:coffee-finder": "node scripts/update-coffee-finder-sync.mjs",
     "update:amazon-offers": "node scripts/update-amazon-offers.mjs",
+    "update:amazon-recommendations": "node scripts/update-amazon-recommendations.mjs",
     "validate:migration": "npm run build && node scripts/validate-legacy-migration.mjs",
     "validate:reviews": "npm run build && npm run generate:review-media-ledgers && node scripts/validate-review-batch.mjs"
   },

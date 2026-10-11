@@ -1,0 +1,168 @@
+---
+import recommendationData from '../../data/amazon-recommendations.json';
+
+type Product = (typeof recommendationData.products)[number];
+type Placement = 'machine' | 'grinder' | 'setup';
+
+const { placement } = Astro.props as { placement: Placement };
+const products = recommendationData.products as Product[];
+const byId = (id: string) => products.find((product) => product.id === id);
+const bannerProducts = placement === 'setup'
+  ? [byId('accessory'), byId('beans')].filter(Boolean) as Product[]
+  : [byId(placement)].filter(Boolean) as Product[];
+const copy = {
+  machine: {
+    kicker: 'Amazon sales-rank snapshot',
+    heading: 'A popular all-in-one alternative',
+    intro: 'Prefer a machine with the grinder built in? This current Amazon category leader is a useful counterpoint to the Elizabeth’s separate-grinder workflow.',
+  },
+  grinder: {
+    kicker: 'Complete the espresso station',
+    heading: 'A currently top-ranked burr grinder',
+    intro: 'The Elizabeth needs a separate grinder. This Amazon-ranked option is a practical starting point, though espresso-focused buyers should still compare adjustment range and retention.',
+  },
+  setup: {
+    kicker: 'Small tools, daily impact',
+    heading: 'Popular setup essentials on Amazon',
+    intro: 'A scale keeps timed shots honest; fresh whole beans give the grinder something worthwhile to dial in. These are current API-ranked picks, not Coffeedant test winners.',
+  },
+}[placement];
+const checkedLabel = new Intl.DateTimeFormat('en-US', {
+  month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC',
+}).format(new Date(recommendationData.generatedAt));
+---
+
+{bannerProducts.length > 0 && (
+  <aside class:list={['amazon-rank-banner', `amazon-rank-banner-${placement}`]} data-amazon-recommendation={placement} aria-labelledby={`amazon-rank-title-${placement}`}>
+    <header class="amazon-rank-banner-heading">
+      <div>
+        <p>{copy.kicker}</p>
+        <h2 id={`amazon-rank-title-${placement}`}>{copy.heading}</h2>
+      </div>
+      <span>Checked {checkedLabel}</span>
+    </header>
+    <p class="amazon-rank-banner-intro">{copy.intro}</p>
+    <div class:list={['amazon-rank-products', { 'amazon-rank-products-pair': bannerProducts.length > 1 }]}>
+      {bannerProducts.map((product) => (
+        <article class="amazon-rank-product">
+          <a class="amazon-rank-image" href={product.detailPageUrl} target="_blank" rel="nofollow sponsored noopener" aria-label={`View ${product.title} on Amazon`}>
+            {product.imageUrl && <img src={product.imageUrl} alt={product.title} width={product.imageWidth ?? 160} height={product.imageHeight ?? 160} loading="lazy" decoding="async" />}
+          </a>
+          <div class="amazon-rank-copy">
+            <p class="amazon-rank-category">{product.category}</p>
+            <h3>{product.title}</h3>
+            <div class="amazon-rank-signals">
+              <span class="amazon-rank-stars" title={product.ratingNote}>★★★★<i>★</i> <b>4★+</b></span>
+              {product.salesRank && product.salesRankCategory && <span>#{product.salesRank} in {product.salesRankCategory}</span>}
+            </div>
+            <div class="amazon-rank-offer">
+              <strong>{product.price ?? 'Check Amazon price'}</strong>
+              <span>{product.availability || 'Check current availability'}</span>
+            </div>
+          </div>
+          <a class="amazon-rank-button" href={product.detailPageUrl} target="_blank" rel="nofollow sponsored noopener">View on Amazon <span aria-hidden="true">↗</span></a>
+        </article>
+      ))}
+    </div>
+    <footer>
+      <span>Amazon Creators API data · exact star averages are shown on Amazon</span>
+      <span>As an Amazon Associate Coffeedant earns from qualifying purchases.</span>
+    </footer>
+  </aside>
+)}
+
+<style>
+  .amazon-rank-banner {
+    margin: 46px 0;
+    border: 1px solid #c8cbd0;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 6px 22px rgba(19, 25, 33, .09);
+    color: #131921;
+    overflow: hidden;
+  }
+  .amazon-rank-banner::before { display: block; height: 5px; background: #ff9900; content: ""; }
+  .amazon-rank-banner-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 22px 24px 8px;
+  }
+  .amazon-rank-banner-heading p,
+  .amazon-rank-category {
+    margin: 0 0 5px;
+    color: #565959;
+    font-size: .67rem;
+    font-weight: 800;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+  }
+  .amazon-rank-banner-heading h2 { margin: 0; color: #131921; font-size: clamp(1.25rem, 3vw, 1.75rem); line-height: 1.15; }
+  .amazon-rank-banner-heading > span { flex: 0 0 auto; border-radius: 999px; background: #eaeded; padding: 7px 10px; color: #565959; font-size: .66rem; font-weight: 750; }
+  .amazon-rank-banner-intro { max-width: 82ch; margin: 0; padding: 0 24px 18px; color: #565959; font-size: .82rem; line-height: 1.55; }
+  .amazon-rank-products { display: grid; border-top: 1px solid #e3e6e6; }
+  .amazon-rank-products-pair { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .amazon-rank-product {
+    display: grid;
+    grid-template-columns: 118px minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 18px;
+    min-width: 0;
+    padding: 20px 24px;
+  }
+  .amazon-rank-products-pair .amazon-rank-product { grid-template-columns: 96px minmax(0, 1fr); }
+  .amazon-rank-products-pair .amazon-rank-product + .amazon-rank-product { border-left: 1px solid #e3e6e6; }
+  .amazon-rank-products-pair .amazon-rank-button { grid-column: 2; justify-self: start; }
+  .amazon-rank-image { display: grid; place-items: center; align-self: stretch; min-height: 112px; border-radius: 4px; background: #f7f8f8; }
+  .amazon-rank-image img { display: block; width: 100%; max-width: 112px; height: 112px; object-fit: contain; mix-blend-mode: multiply; }
+  .amazon-rank-copy { min-width: 0; }
+  .amazon-rank-copy h3 { display: -webkit-box; margin: 0 0 10px; overflow: hidden; color: #0f1111; font-size: .92rem; line-height: 1.35; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
+  .amazon-rank-signals { display: flex; flex-wrap: wrap; gap: 7px 12px; color: #565959; font-size: .7rem; line-height: 1.35; }
+  .amazon-rank-stars { color: #ffa41c; letter-spacing: .02em; white-space: nowrap; }
+  .amazon-rank-stars i { color: #d5d9d9; font-style: normal; }
+  .amazon-rank-stars b { margin-left: 3px; color: #565959; font-weight: 750; letter-spacing: 0; }
+  .amazon-rank-offer { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 9px; margin-top: 10px; }
+  .amazon-rank-offer strong { font-size: 1rem; }
+  .amazon-rank-offer span { color: #007600; font-size: .7rem; }
+  .amazon-rank-button {
+    display: inline-flex;
+    justify-content: center;
+    gap: 6px;
+    border: 1px solid #ff8f00;
+    border-radius: 999px;
+    background: #ffd814;
+    padding: 10px 15px;
+    color: #0f1111;
+    font-size: .72rem;
+    font-weight: 800;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .amazon-rank-button:hover { background: #f7ca00; }
+  .amazon-rank-banner footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px 22px;
+    padding: 10px 24px;
+    background: #f3f3f3;
+    color: #6b6b6b;
+    font-size: .58rem;
+    line-height: 1.4;
+  }
+  @media (max-width: 760px) {
+    .amazon-rank-banner { margin: 34px 0; }
+    .amazon-rank-banner-heading { display: grid; padding: 19px 18px 8px; }
+    .amazon-rank-banner-heading > span { justify-self: start; }
+    .amazon-rank-banner-intro { padding: 0 18px 16px; }
+    .amazon-rank-products-pair { grid-template-columns: 1fr; }
+    .amazon-rank-product,
+    .amazon-rank-products-pair .amazon-rank-product { grid-template-columns: 84px minmax(0, 1fr); gap: 13px; padding: 17px 18px; }
+    .amazon-rank-products-pair .amazon-rank-product + .amazon-rank-product { border-top: 1px solid #e3e6e6; border-left: 0; }
+    .amazon-rank-image { min-height: 88px; }
+    .amazon-rank-image img { width: 84px; height: 84px; }
+    .amazon-rank-button,
+    .amazon-rank-products-pair .amazon-rank-button { grid-column: 1 / -1; width: 100%; }
+    .amazon-rank-banner footer { display: grid; padding: 10px 18px; }
+  }
+</style>

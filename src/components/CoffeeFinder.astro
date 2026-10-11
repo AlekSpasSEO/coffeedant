@@ -81,9 +81,9 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
           <span>Main drinks</span>
           <select name="drink">
             <option value="any">Any drink mix</option>
-            <option value="espresso">Mostly espresso</option>
-            <option value="milk">Mostly milk drinks</option>
-            <option value="mixed">Espresso and milk</option>
+            <option value="espresso">Straight espresso matters</option>
+            <option value="milk">Milk drinks matter</option>
+            <option value="mixed">I make both regularly</option>
           </select>
         </label>
       </div>
@@ -148,6 +148,13 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
     if (range === '2000-2999') return price >= 2000 && price < 3000;
     if (range === '3000-4999') return price >= 3000 && price < 5000;
     return price >= 5000;
+  };
+
+  const drinkMatch = (drink: string, preference: string) => {
+    if (preference === 'any') return true;
+    if (preference === 'milk') return drink === 'milk' || drink === 'mixed';
+    if (preference === 'espresso') return drink === 'espresso' || drink === 'mixed';
+    return drink === preference;
   };
 
   const makeResultCard = (item: FinderItem, base: string, compact = false) => {
@@ -228,7 +235,7 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
         if (query && !`${item.brand} ${item.model} ${item.assessment} ${item.bestFor}`.toLowerCase().includes(query)) return false;
         if (!budgetMatch(item.priceUsd, filters.budget)) return false;
         return (filters.workflow === 'any' || item.workflow === filters.workflow)
-          && (filters.drink === 'any' || item.drink === filters.drink)
+          && drinkMatch(item.drink, filters.drink)
           && (filters.brand === 'any' || item.brand === filters.brand)
           && (filters.experience === 'any' || item.experience === filters.experience)
           && (filters.grinder === 'any' || item.grinder === filters.grinder)

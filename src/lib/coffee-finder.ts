@@ -75,7 +75,7 @@ const inferWorkflow = (review: MachineReviewData, text: string): CoffeeFinderWor
 
 const inferDrink = (text: string, workflow: CoffeeFinderWorkflow): CoffeeFinderDrink => {
   if (/\b(?:lattego|lattecrema|cappuccino|automatic milk|milk-heavy|milk drinks most days)\b/i.test(text)) return 'milk';
-  if (workflow === 'manual' || /\b(?:espresso-only|no steam|no built-in steam|black coffee)\b/i.test(text)) return 'espresso';
+  if (workflow === 'manual' || workflow === 'capsule' || /\b(?:espresso-only|no steam|no built-in steam|black coffee)\b/i.test(text)) return 'espresso';
   return 'mixed';
 };
 
