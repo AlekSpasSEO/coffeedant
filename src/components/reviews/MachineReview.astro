@@ -2,6 +2,7 @@
 import type { MachineReviewData } from '../../data/reviews';
 import { reviewInlineMedia } from '../../data/review-inline-media';
 import { getReviewRouteDefinition } from '../../data/review-routes';
+import { getReviewPurchaseLinks } from '../../lib/amazon-affiliate';
 import ReviewSummary from './ReviewSummary.astro';
 import ReviewRatings from './ReviewRatings.astro';
 import ReviewPerformanceDetail from './ReviewPerformanceDetail.astro';
@@ -19,7 +20,11 @@ const assetUrl = (path: string) => /^https:\/\//i.test(path)
   ? path
   : new URL(`${base}${path.replace(/^\//, '')}`, Astro.site ?? Astro.url).toString();
 const canonical = new URL(review.slug.replace(/^\//, ''), 'https://coffeedant.com/').toString();
-const primaryOffer = review.links.find((link) => link.primary) ?? review.links[0];
+const purchaseLinks = getReviewPurchaseLinks(review);
+const reviewWithPurchaseLinks = { ...review, links: purchaseLinks };
+const primaryOffer = purchaseLinks.find((link) => link.primary) ?? purchaseLinks[0];
+const stickyPrice = primaryOffer?.price ?? (primaryOffer?.exactProduct ? 'Check live price' : 'Search current offers');
+const stickyAvailability = primaryOffer?.availability ?? (primaryOffer?.exactProduct ? 'Amazon product page' : 'Verify the exact model');
 const redditSources = review.article.sources.filter((source) => /^https:\/\/(?:www\.)?reddit\.com\//i.test(source.href));
 const hasCustomCommunityPanel = review.article.sections.some((section) => /class="review-community-evidence"/i.test(section.html));
 const redditEvidenceSectionId = review.article.sections.find((section) => (
@@ -101,7 +106,7 @@ const schema = {
       <a href={`${base}${reviewRoute.basePath.replace(/^\//, '')}`}>{reviewRoute.breadcrumbLabel}</a><span aria-hidden="true">/</span>
       <span aria-current="page">{review.model}</span>
     </nav>
-    <ReviewSummary review={review} />
+    <ReviewSummary review={reviewWithPurchaseLinks} />
     <section class="quick-answer-panel" aria-labelledby="quick-answer-title">
       <header class="quick-answer-heading"><p class="review-overline">At a glance</p><h2 id="quick-answer-title">Before you choose</h2></header>
       <dl class="quick-answer-grid">
@@ -226,6 +231,19 @@ const schema = {
     </footer>
   </div>
 </main>
+{primaryOffer && (
+  <aside class="review-sticky-offer" data-review-sticky-offer hidden aria-label={`Amazon offer for ${review.brand} ${review.model}`}>
+    <div class="review-sticky-offer-copy">
+      <span>{review.brand} {review.model}</span>
+      <strong>{stickyPrice}</strong>
+      <small>{stickyAvailability}</small>
+    </div>
+    <a href={primaryOffer.href} target="_blank" rel={primaryOffer.affiliate ? 'nofollow sponsored noopener' : 'noopener'}>
+      {primaryOffer.exactProduct ? 'View on Amazon' : 'Search Amazon'} <span aria-hidden="true">↗</span>
+    </a>
+    <button type="button" data-review-sticky-dismiss aria-label="Dismiss Amazon offer">×</button>
+  </aside>
+)}
 <script is:inline type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />
 <script>
   document.querySelectorAll<HTMLElement>('[data-review-video]').forEach((root) => {
@@ -242,5 +260,37 @@ const schema = {
       button.replaceWith(frame);
       frame.focus();
     }, { once: true });
+  });
+
+  document.querySelectorAll<HTMLElement>('[data-review-sticky-offer]').forEach((bar) => {
+    const page = document.querySelector<HTMLElement>('.review-page');
+    const offerRow = document.querySelector<HTMLElement>('.review-commercial-row');
+    const footer = document.querySelector<HTMLElement>('.site-footer, .cd-footer');
+    const productId = page?.dataset.productId ?? 'review';
+    const storageKey = `coffeedant-offer-dismissed:${productId}`;
+    let dismissed = false;
+    try { dismissed = sessionStorage.getItem(storageKey) === '1'; } catch {}
+
+    let scheduled = false;
+    const update = () => {
+      scheduled = false;
+      const passedOffer = offerRow ? offerRow.getBoundingClientRect().bottom < 0 : window.scrollY > 600;
+      const reachedFooter = footer ? footer.getBoundingClientRect().top < window.innerHeight * 0.8 : false;
+      bar.hidden = dismissed || !passedOffer || reachedFooter;
+    };
+    const scheduleUpdate = () => {
+      if (scheduled) return;
+      scheduled = true;
+      requestAnimationFrame(update);
+    };
+
+    bar.querySelector<HTMLButtonElement>('[data-review-sticky-dismiss]')?.addEventListener('click', () => {
+      dismissed = true;
+      bar.hidden = true;
+      try { sessionStorage.setItem(storageKey, '1'); } catch {}
+    });
+    window.addEventListener('scroll', scheduleUpdate, { passive: true });
+    window.addEventListener('resize', scheduleUpdate);
+    update();
   });
 </script>

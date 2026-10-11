@@ -4,7 +4,19 @@ import { bambinoPlusIdentity, bambinoPlusFacts, bambinoPlusPrice } from './produ
 const internalHref = (path: string) =>
   `${import.meta.env.BASE_URL.replace(/\/$/, '')}/${path.replace(/^\//, '')}`;
 
-export type ReviewLink = { label: string; href: string; note?: string; affiliate?: boolean; primary?: boolean };
+export type ReviewLink = {
+  label: string;
+  href: string;
+  note?: string;
+  affiliate?: boolean;
+  primary?: boolean;
+  retailer?: 'Amazon';
+  exactProduct?: boolean;
+  price?: string;
+  availability?: string;
+  availabilityType?: string;
+  checkedAt?: string;
+};
 export type ReviewTable = { caption: string; columns: Array<{ key: string; label: string }>; rows: Array<Record<string, string>> };
 export const reviewDimensionIds = ['espresso', 'milk', 'workflow', 'build', 'features', 'value'] as const;
 export type ReviewDimensionId = typeof reviewDimensionIds[number];

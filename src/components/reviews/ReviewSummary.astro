@@ -1,6 +1,7 @@
 ---
 import type { MachineReviewData } from '../../data/reviews';
 import { getReviewOverallScore } from '../../data/reviews';
+import { getAmazonOfferCheckedLabel } from '../../lib/amazon-affiliate';
 
 const { review } = Astro.props as { review: MachineReviewData };
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
@@ -17,6 +18,8 @@ const formatDate = (date: string) => new Intl.DateTimeFormat('en-US', {
   month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC',
 }).format(new Date(`${date}T00:00:00Z`));
 const overallRating = getReviewOverallScore(review.evaluation);
+const amazonLink = review.links.find((link) => link.retailer === 'Amazon');
+const amazonCheckedLabel = amazonLink ? getAmazonOfferCheckedLabel(amazonLink) : null;
 ---
 
 <section class="review-summary" aria-labelledby="review-title">
@@ -54,7 +57,11 @@ const overallRating = getReviewOverallScore(review.evaluation);
           <small>See all six categories ↓</small>
         </a>
       )}
-      <div class="review-price"><span>{review.price.label}</span><strong>{review.price.msrp}</strong><small>{review.price.typical}</small></div>
+      <div class="review-price">
+        <span>{amazonLink?.price ? 'Current Amazon price' : amazonLink?.exactProduct ? 'Amazon availability' : 'Current Amazon pricing'}</span>
+        <strong>{amazonLink?.price ?? (amazonLink?.exactProduct ? 'Check Amazon' : 'Search Amazon')}</strong>
+        <small>{amazonLink?.availability ?? (amazonLink?.exactProduct ? 'Live price shown by Amazon' : 'Exact listing not verified')}</small>
+      </div>
       <div class="review-buy-actions">
         {review.links.map((link) => (
           <a class:list={['review-buy-button', { 'review-buy-button-primary': link.primary }]} href={link.href} target="_blank" rel={link.affiliate ? 'nofollow sponsored noopener' : 'noopener'}>
@@ -63,7 +70,11 @@ const overallRating = getReviewOverallScore(review.evaluation);
         ))}
       </div>
     </div>
-    <p class="review-price-check">Checked {review.price.checked}. Confirm the current price, model and included accessories with the retailer.</p>
+    <p class="review-price-check">
+      {amazonCheckedLabel
+        ? <>Amazon offer checked {amazonCheckedLabel}. Price and availability can change after this check.</>
+        : <>Amazon search results are live. Confirm the exact model, seller, warranty and included accessories before buying.</>}
+    </p>
     {review.alternatives.length > 0 && (
       <nav class="review-alternatives" aria-label="Alternative products">
         <h2>Also consider</h2>
@@ -81,4 +92,4 @@ const overallRating = getReviewOverallScore(review.evaluation);
     <div class="review-fit review-cons"><h2>The trade-offs</h2><ul>{review.cons.slice(0, 4).map((item) => <li>{item}</li>)}</ul></div>
   </div>
 </section>
-<p class="affiliate-note"><strong>Affiliate disclosure:</strong> Coffeedant may earn a commission from retailer links, at no extra cost to you. The assessment is based on the evidence and sources explained below.</p>
+<p class="affiliate-note"><strong>Affiliate disclosure:</strong> As an Amazon Associate I earn from qualifying purchases. Coffeedant may also earn a commission from other retailer links, at no extra cost to you. The assessment is based on the evidence and sources explained below.</p>
