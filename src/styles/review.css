@@ -330,7 +330,7 @@
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 @media print {
-  .site-header, .site-footer, .review-jumpbar, .review-buy-actions, .review-video-poster { display: none; }
+  .site-header, .cd-header, .site-footer, .review-jumpbar, .review-buy-actions, .review-video-poster { display: none; }
   .review-shell { width: 100%; }
   .review-summary, .final-verdict { box-shadow: none; }
   .review-section { break-inside: auto; }
