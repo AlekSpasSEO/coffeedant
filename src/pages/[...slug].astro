@@ -40,14 +40,38 @@ export function getStaticPaths(){
 const { page, brand } = Astro.props;
 const migratedLegacyPage = page ? isMigratedLegacyPath(page.path) : false;
 const pageHtml = migratedLegacyPage ? migrateLegacyHtml(page.html) : page?.html;
+const supportingMeta: Record<string, { description: string; heading?: string }> = {
+  '/about/': {
+    description: 'Meet Coffeedant and learn how Aleksandar Spasevski researches espresso machines, grinders, brewing technique and practical ownership decisions.',
+    heading: 'About Coffeedant',
+  },
+  '/coffee-machine/': {
+    description: 'Research-led coffee machine reviews and comparisons covering drip brewers, pod systems and machines designed for everyday coffee routines.',
+  },
+  '/contact/': {
+    description: 'Contact Coffeedant with editorial questions, corrections, product research suggestions or feedback about the coffee equipment guides.',
+    heading: 'Contact Coffeedant',
+  },
+  '/keurig/': {
+    description: 'Explore Coffeedant research on Keurig brewers, pod compatibility, daily workflow, maintenance and alternatives for different coffee routines.',
+    heading: 'Keurig Coffee Makers',
+  },
+  '/privacy-policy/': {
+    description: 'Read the Coffeedant privacy policy, including what information may be collected, how it is used and the choices available to site visitors.',
+    heading: 'Privacy Policy',
+  },
+};
+const support = page ? supportingMeta[page.path] : undefined;
 ---
 {brand ? (
   <BrandLanding brand={brand} pages={all} />
 ) : (
-  <Base title={page.title} description={page.description} canonical={page.canonical}>
+  <Base title={page.title} description={page.description || support?.description} canonical={page.canonical}>
     <div class="container article">
+      {support?.heading && <h1>{support.heading}</h1>}
       <article class:list={{ 'legacy-migrated-article': migratedLegacyPage }} set:html={pageHtml}></article>
     </div>
   </Base>
 )}
+
 
