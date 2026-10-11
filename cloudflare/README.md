@@ -38,4 +38,3 @@ https://www.coffeedant.com/espresso-machine/beginners/?source=test
 ```
 
 The canonical URL must return `200` without another redirect.
-
