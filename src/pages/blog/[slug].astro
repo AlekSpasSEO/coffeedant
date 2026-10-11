@@ -1,0 +1,13 @@
+---
+import ResearchArticle from '../../components/articles/ResearchArticle.astro';
+import { upgradedBlogArticles } from '../../data/blog-articles';
+
+export function getStaticPaths() {
+  return upgradedBlogArticles.map((article) => ({ params: { slug: article.slug }, props: { article } }));
+}
+
+const { article } = Astro.props;
+---
+
+<ResearchArticle article={article} />
+

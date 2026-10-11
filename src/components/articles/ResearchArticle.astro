@@ -1,0 +1,159 @@
+---
+import HomeLayout from '../../layouts/HomeLayout.astro';
+import '../../styles/review.css';
+
+const { article } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const assetUrl = (path: string) => /^https?:\/\//i.test(path) ? path : `${base}${path.replace(/^\//, '')}`;
+const canonical = new URL(article.path.replace(/^\//, ''), 'https://coffeedant.com/').toString();
+const formatDate = (date: string, short = false) => new Intl.DateTimeFormat('en-US', {
+  month: short ? 'short' : 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC',
+}).format(new Date(`${date}T00:00:00Z`));
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Article', '@id': `${canonical}#article`, headline: article.title,
+      description: article.description, articleSection: article.category, inLanguage: 'en-US',
+      datePublished: article.published, dateModified: article.updated, mainEntityOfPage: canonical,
+      author: { '@type': 'Person', name: article.author.name, jobTitle: article.author.role, image: assetUrl(article.author.image), url: 'https://coffeedant.com/about/' },
+      publisher: { '@type': 'Organization', name: 'Coffeedant', url: 'https://coffeedant.com/' },
+      citation: article.sources.map((source: [string, string, string]) => source[1]),
+    },
+    {
+      '@type': 'FAQPage', mainEntity: article.faqs.map(([question, answer]: [string, string]) => ({
+        '@type': 'Question', name: question, acceptedAnswer: { '@type': 'Answer', text: answer },
+      })),
+    },
+    {
+      '@type': 'BreadcrumbList', itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://coffeedant.com/' },
+        { '@type': 'ListItem', position: 2, name: 'Coffee journal', item: 'https://coffeedant.com/blog/' },
+        { '@type': 'ListItem', position: 3, name: article.title, item: canonical },
+      ],
+    },
+  ],
+};
+---
+
+<HomeLayout
+  title={`${article.title} | Coffeedant`}
+  description={article.description}
+  canonicalPath={article.path}
+  ogType="article"
+  published={article.published}
+  updated={article.updated}
+>
+  <main id="main-content" class="review-page article-page" tabindex="-1">
+    <div class="review-shell">
+      <nav class="review-breadcrumbs" aria-label="Breadcrumb">
+        <a href={base}>Home</a><span aria-hidden="true">/</span>
+        <a href={`${base}blog/`}>Coffee journal</a><span aria-hidden="true">/</span>
+        <span aria-current="page">{article.category}</span>
+      </nav>
+
+      <header class="article-hero">
+        <div>
+          <p class="review-overline">{article.category} · research-led guide</p>
+          <h1>{article.title}</h1>
+          <p class="article-deck">{article.deck}</p>
+        </div>
+        <aside class="review-author-card" aria-label="Author and publication details">
+          <div class="review-author-head">
+            <img src={assetUrl(article.author.image)} width="48" height="48" alt={`${article.author.name}, ${article.author.role.toLowerCase()}`} decoding="async" />
+            <div><span>Written by</span><strong>{article.author.name}</strong><small>{article.author.role}</small></div>
+          </div>
+          <dl class="review-author-dates">
+            <div><dt>Published</dt><dd><time datetime={article.published}>{formatDate(article.published, true)}</time></dd></div>
+            <div><dt>Updated</dt><dd><time datetime={article.updated}>{formatDate(article.updated, true)}</time></dd></div>
+          </dl>
+          <p><strong>Editorial note</strong>This is a research-led article built from documented technique, exact equipment guidance and bounded practical checks. It is not a claim that one recipe fits every coffee or machine.</p>
+        </aside>
+      </header>
+
+      <nav class="review-jumpbar" aria-label="Article sections">
+        <span>In this article</span>
+        <div><a href="#quick-answer">Quick answer</a><a href="#guide">Full guide</a><a href="#faq">FAQ</a><a href="#methodology">Methodology</a><a href="#sources">Sources</a></div>
+      </nav>
+
+      <article class="review-article article-content">
+        <section class="quick-answer-panel" id="quick-answer" aria-labelledby="quick-answer-title">
+          <p class="review-overline">Start here</p>
+          <h2 id="quick-answer-title">The practical answer</h2>
+          <p>{article.summary}</p>
+        </section>
+
+        <section class="article-visuals" aria-label="Article framework">
+          {article.media.map(([label, value, note]: [string, string, string], index: number) => (
+            <figure class="review-media review-inline-media" data-source-type="editorial" data-user-generated="false">
+              <div class="article-visual" aria-hidden="true"><span>{String(index + 1).padStart(2, '0')}</span><small>{label}</small><strong>{value}</strong></div>
+              <figcaption>{note}</figcaption>
+            </figure>
+          ))}
+        </section>
+
+        <section class="review-section article-guide" id="guide" aria-labelledby="guide-title">
+          <header class="review-section-heading"><p class="review-overline">The full guide</p><h2 id="guide-title">Build a repeatable decision, not a ritual</h2></header>
+          <div class="review-section-body article-prose" set:html={article.bodyHtml}></div>
+        </section>
+
+        <section class="review-section" id="faq" aria-labelledby="faq-title">
+          <header class="review-section-heading"><p class="review-overline">Visible answers</p><h2 id="faq-title">Frequently asked questions</h2></header>
+          <div class="review-section-body"><div class="review-faq-list">
+            {article.faqs.map(([question, answer]: [string, string]) => <article class="review-faq-item"><h3>{question}</h3><p>{answer}</p></article>)}
+          </div></div>
+        </section>
+
+        <section class="review-section review-methodology" id="methodology" aria-labelledby="methodology-title">
+          <header class="review-section-heading"><p class="review-overline">How this guide was built</p><h2 id="methodology-title">Method, scope and limits</h2></header>
+          <div class="review-section-body"><p>{article.methodology}</p><p>The original Coffeedant article was retained where it remained useful, reorganized inside the current editorial layout, and checked against the cited primary or manufacturer material on October 11, 2026. Numbers are starting coordinates or documented examples unless the text explicitly identifies an exact model requirement. Change one variable at a time and follow the safety and maintenance instructions for the equipment you own.</p></div>
+        </section>
+
+        <section class="review-section" id="sources" aria-labelledby="sources-title">
+          <header class="review-section-heading"><p class="review-overline">Check the evidence</p><h2 id="sources-title">Sources and further reading</h2></header>
+          <div class="review-section-body"><ol class="review-source-list">
+            {article.sources.map(([label, href, note]: [string, string, string]) => <li><a href={href} target="_blank" rel="noopener">{label} <span aria-hidden="true">↗</span></a><p>{note}</p></li>)}
+          </ol></div>
+        </section>
+      </article>
+
+      <footer class="review-meta-footer"><span>Published <time datetime={article.published}>{formatDate(article.published)}</time></span><span>Updated <time datetime={article.updated}>{formatDate(article.updated)}</time></span><a href={`${base}blog/`}>Browse the coffee journal</a></footer>
+    </div>
+  </main>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />
+</HomeLayout>
+
+<style>
+  .article-page { background: var(--paper); }
+  .article-hero { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(280px, .5fr); gap: 28px; align-items: end; margin-bottom: 18px; padding: clamp(28px, 5vw, 58px); border: 2px solid var(--ink); background: var(--white); box-shadow: 7px 7px 0 var(--ink); }
+  .article-hero h1 { max-width: 920px; margin: 8px 0 18px; font-size: clamp(2.55rem, 6vw, 5.7rem); line-height: .93; letter-spacing: -.06em; }
+  .article-deck { max-width: 790px; font-size: clamp(1rem, 1.8vw, 1.25rem); line-height: 1.55; }
+  .article-hero .review-author-card { margin: 0; }
+  .article-content > .review-section { padding-inline: 0; }
+  .quick-answer-panel { margin-block: 28px; padding: clamp(24px, 4vw, 42px); border: 2px solid var(--ink); background: var(--yellow); }
+  .quick-answer-panel h2 { margin: 6px 0 12px; font-size: clamp(1.8rem, 4vw, 3rem); }
+  .quick-answer-panel p:last-child { max-width: 900px; font-size: 1.08rem; }
+  .article-visuals { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 28px 0 44px; }
+  .article-visuals figure { margin: 0; padding: 18px; border: 1px solid var(--line); background: var(--white); }
+  .article-visual { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; align-items: center; padding-bottom: 16px; border-bottom: 5px solid var(--green); }
+  .article-visual > span { grid-row: 1 / span 2; color: var(--green); font-size: 2rem; font-weight: 950; }
+  .article-visual small { font-size: .68rem; font-weight: 850; letter-spacing: .05em; text-transform: uppercase; }
+  .article-visual strong { font-size: 1.25rem; }
+  .article-visuals figcaption { padding: 14px 0 0; font-size: .8rem; line-height: 1.5; }
+  .article-prose { max-width: 840px; }
+  .article-prose :global(h2) { margin: 50px 0 16px; padding-top: 8px; font-size: clamp(1.7rem, 3.4vw, 2.65rem); line-height: 1.05; letter-spacing: -.035em; }
+  .article-prose :global(h3) { margin: 30px 0 12px; font-size: 1.25rem; }
+  .article-prose :global(p), .article-prose :global(li) { color: #2f2d28; line-height: 1.76; }
+  .article-prose :global(ul), .article-prose :global(ol) { display: grid; gap: 9px; padding-left: 24px; }
+  .article-prose :global(table) { width: 100%; margin-block: 28px; border-collapse: collapse; background: var(--white); }
+  .article-prose :global(th), .article-prose :global(td) { padding: 12px; border: 1px solid var(--line); text-align: left; vertical-align: top; }
+  .article-prose :global(.article-lab-note) { margin-block: 46px; padding: 26px; border-left: 6px solid var(--green); background: var(--white); }
+  .article-prose :global(.article-lab-note h2) { margin-top: 4px; }
+  @media (max-width: 760px) {
+    .article-hero, .article-visuals { grid-template-columns: 1fr; }
+    .article-hero { padding: 24px 18px; box-shadow: 4px 4px 0 var(--ink); }
+    .article-hero h1 { overflow-wrap: anywhere; }
+    .article-prose :global(.article-lab-note) { padding: 20px 16px; }
+  }
+</style>
+
