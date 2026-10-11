@@ -1,6 +1,6 @@
 ---
 import '../styles/home.css';
-import SiteHeader from '../components/SiteHeader.astro';
+import MegaHeader from '../components/MegaHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 
 const {
@@ -50,8 +50,9 @@ const socialImage = image
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
-    <SiteHeader />
+    <MegaHeader />
     <slot />
     <SiteFooter />
   </body>
 </html>
+
