@@ -39,7 +39,13 @@ export function getStaticPaths(){
 }
 const { page, brand } = Astro.props;
 const migratedLegacyPage = page ? isMigratedLegacyPath(page.path) : false;
-const pageHtml = migratedLegacyPage ? migrateLegacyHtml(page.html) : page?.html;
+const contactHtml = '<p>For editorial questions, corrections, coffee-equipment suggestions or privacy requests, email Aleksandar Spasevski:</p><p><a href="mailto:ace@growthradical.com">ace@growthradical.com</a></p><p>Please include the page URL when reporting a correction.</p>';
+const supportingHtml = (page?.path === '/contact/' ? contactHtml : page?.html)
+  ?.replace(/href="\/coffeedant\//g, `href="${import.meta.env.BASE_URL}`);
+const linkedSupportingHtml = ['/privacy-policy/', '/tos/'].includes(page?.path)
+  ? supportingHtml.replace(/<a>ace@growthradical\.com<\/a>/g, '<a href="mailto:ace@growthradical.com">ace@growthradical.com</a>').replace(/href="\/coffeedant\/"/g, `href="${import.meta.env.BASE_URL}"`)
+  : supportingHtml;
+const pageHtml = migratedLegacyPage ? migrateLegacyHtml(linkedSupportingHtml) : linkedSupportingHtml;
 const supportingMeta: Record<string, { description: string; heading?: string }> = {
   '/about/': {
     description: 'Meet Coffeedant and learn how Aleksandar Spasevski researches espresso machines, grinders, brewing technique and practical ownership decisions.',

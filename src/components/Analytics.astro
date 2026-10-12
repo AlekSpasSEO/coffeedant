@@ -1,0 +1,88 @@
+---
+// Recovered from the original WordPress Site Kit settings. The other G-ID in
+// that backup belongs to Site Kit telemetry, not the Coffeedant property.
+const measurementId = 'G-270R14ZHVX';
+const googleTagId = 'GT-KT5DM5FP';
+---
+<script id="coffeedant-ga4-bootstrap" is:inline define:vars={{ measurementId, googleTagId }} data-ga4-id={measurementId} data-google-tag-id={googleTagId}>
+  (() => {
+    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.
+    if (!['coffeedant.com', 'www.coffeedant.com'].includes(location.hostname)) return;
+    const storageKey = 'coffeedant.analytics-consent.v1';
+    const maxAge = 180 * 24 * 60 * 60 * 1000;
+    let choice = null;
+    let loaded = false;
+    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+    window.gtag('consent', 'default', {
+      analytics_storage: 'denied', ad_storage: 'denied',
+      ad_user_data: 'denied', ad_personalization: 'denied',
+    });
+    try {
+      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');
+      if (saved && ['granted', 'denied'].includes(saved.value)
+          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt
+          && Date.now() - saved.savedAt < maxAge) choice = saved.value;
+    } catch { /* Storage may be unavailable; ask again on the next page. */ }
+    if (browserOptOut) choice = 'denied';
+
+    const removeAnalyticsCookies = () => {
+      for (const entry of document.cookie.split(';')) {
+        const name = entry.trim().split('=')[0];
+        if (name !== '_ga' && !name.startsWith('_ga_')) continue;
+        for (const domain of ['', '; Domain=coffeedant.com', '; Domain=.coffeedant.com']) {
+          document.cookie = `${name}=; Max-Age=0; Path=/${domain}; SameSite=Lax; Secure`;
+        }
+      }
+    };
+    const applyChoice = (value) => {
+      if (browserOptOut) value = 'denied';
+      window[`ga-disable-${measurementId}`] = value !== 'granted';
+      window.gtag('consent', 'update', { analytics_storage: value });
+      if (value !== 'granted') { removeAnalyticsCookies(); return; }
+      if (loaded) return;
+      loaded = true;
+      window.gtag('js', new Date());
+      window.gtag('config', measurementId, {
+        allow_google_signals: false,
+        allow_ad_personalization_signals: false,
+      });
+      const tag = document.createElement('script');
+      tag.id = 'coffeedant-google-tag';
+      tag.async = true;
+      tag.src = `https://www.googletagmanager.com/gtag/js?id=${googleTagId}`;
+      document.head.appendChild(tag);
+    };
+    if (choice) applyChoice(choice);
+
+    const connectControls = () => {
+      const banner = document.querySelector('[data-analytics-consent]');
+      if (!banner) return;
+      banner.hidden = choice !== null;
+      if (browserOptOut) {
+        banner.querySelector('[data-analytics-choice="granted"]').disabled = true;
+        banner.querySelector('[data-analytics-optout]').hidden = false;
+      }
+      document.querySelectorAll('[data-analytics-preferences]').forEach((button) => {
+        button.hidden = false;
+        button.addEventListener('click', () => {
+          banner.hidden = false;
+          [...banner.querySelectorAll('[data-analytics-choice]')].find((control) => !control.disabled)?.focus();
+        });
+      });
+      banner.querySelectorAll('[data-analytics-choice]').forEach((button) => {
+        button.addEventListener('click', () => {
+          choice = button.getAttribute('data-analytics-choice');
+          try { localStorage.setItem(storageKey, JSON.stringify({ value: choice, savedAt: Date.now() })); }
+          catch { /* Keep the visitor's choice for this page when storage is blocked. */ }
+          applyChoice(choice);
+          banner.hidden = true;
+          document.querySelector('[data-analytics-preferences]')?.focus();
+        });
+      });
+    };
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', connectControls, { once: true });
+    else connectControls();
+  })();
+</script>

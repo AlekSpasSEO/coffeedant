@@ -18,8 +18,13 @@ const year = new Date().getFullYear();
       <a href={`${base}contact/`}>Contact</a>
       <a href={`${base}privacy-policy/`}>Privacy</a>
       <a href={`${base}tos/`}>Terms</a>
+      <button type="button" class="cookie-preferences" data-analytics-preferences hidden>Cookie preferences</button>
     </nav>
     <p class="disclosure"><strong>Affiliate disclosure</strong>As an Amazon Associate I earn from qualifying purchases. Coffeedant may also earn from other retailer links. It does not change what you pay or how products are evaluated.</p>
   </div>
   <div class="shell footer-bottom"><p>© {year} Coffeedant.</p></div>
 </footer>
+<style>
+  .cookie-preferences { border: 0; background: none; padding: 0; color: inherit; font: inherit; cursor: pointer; text-decoration: underline; }
+  .cookie-preferences[hidden] { display: none; }
+</style>

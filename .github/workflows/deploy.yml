@@ -24,6 +24,8 @@ jobs:
         run: npm ci || npm install
       - name: Build Cloudflare target
         run: CF_PAGES=1 npm run build
+      - name: Validate sitewide analytics and consent
+        run: npm run validate:analytics
       - name: Validate Cloudflare modern reviews
         run: CF_PAGES=1 node scripts/validate-review-batch.mjs
       - name: Validate Cloudflare legacy migration
