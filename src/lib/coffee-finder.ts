@@ -3,6 +3,7 @@ import finderSync from '../data/coffee-finder-sync.json';
 import { modernReviews } from '../data/review-registry';
 import { bambinoReview, getReviewOverallScore, type MachineReviewData } from '../data/reviews';
 import { getReviewRouteDefinition } from '../data/review-routes';
+import { getReviewPurchaseLinks } from './amazon-affiliate';
 
 export type CoffeeFinderWorkflow = 'one-touch' | 'guided' | 'hands-on' | 'manual' | 'capsule' | 'commercial';
 export type CoffeeFinderDrink = 'espresso' | 'milk' | 'mixed';
@@ -18,8 +19,10 @@ export type CoffeeFinderItem = {
   path: string;
   image: string;
   imageAlt: string;
-  assessment: string;
+  description: string;
   bestFor: string;
+  amazonHref: string;
+  amazonLabel: string;
   priceLabel: string;
   priceUsd: number | null;
   priceCurrency: string;
@@ -58,6 +61,17 @@ const parseMoney = (value: string | null | undefined) => {
   if (!value) return null;
   const parsed = Number(value.replace(/[^0-9.]/g, ''));
   return Number.isFinite(parsed) && parsed > 0 ? parsed : null;
+};
+
+const finderDescription = (verdict: string) => {
+  const sentences = [...new Intl.Segmenter('en', { granularity: 'sentence' }).segment(verdict.trim())]
+    .map(({ segment }) => segment.trim());
+  const first = sentences[0]?.trim() ?? verdict.trim();
+  const second = sentences[1]?.trim();
+  const excerpt = second && `${first} ${second}`.length <= 280 ? `${first} ${second}` : first;
+  if (excerpt.length <= 300) return excerpt;
+  const cutoff = excerpt.lastIndexOf(' ', 297);
+  return `${excerpt.slice(0, cutoff > 180 ? cutoff : 297).trimEnd()}…`;
 };
 
 const canonicalBrand = (brand: string) => brand.toLowerCase() === 'lelit' ? 'Lelit' : brand;
@@ -125,6 +139,7 @@ const toFinderItem = (review: MachineReviewData): CoffeeFinderItem => {
     : null;
   const reviewUsdPrice = review.price.currency === 'USD' ? parseMoney(review.price.numeric) : null;
   const availability = inferAvailability(review, offer);
+  const amazonLink = getReviewPurchaseLinks(review)[0];
 
   return {
     brand: canonicalBrand(review.brand),
@@ -132,8 +147,10 @@ const toFinderItem = (review: MachineReviewData): CoffeeFinderItem => {
     path: review.slug,
     image: review.image,
     imageAlt: review.imageAlt,
-    assessment: review.assessment,
+    description: finderDescription(review.verdict),
     bestFor: review.bestFor[0] ?? review.verdict,
+    amazonHref: amazonLink.href,
+    amazonLabel: amazonLink.exactProduct ? 'Shop on Amazon' : 'Search Amazon',
     priceLabel: offer?.price ?? review.price.msrp ?? 'Price varies',
     priceUsd: liveUsdPrice ?? reviewUsdPrice,
     priceCurrency: offer?.currency ?? review.price.currency,
@@ -157,7 +174,7 @@ export const getCoffeeFinderCatalog = () => {
   ));
 
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
     generatedAt: finderSync.lastCatalogSync,
     cadenceDays: finderSync.cadenceDays,
     offerDataGeneratedAt: amazonOffersData.generatedAt,
