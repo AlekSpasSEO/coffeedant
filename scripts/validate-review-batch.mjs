@@ -59,6 +59,10 @@ const banned = [
 ];
 
 const cleanText = (html) => html
+  // Purchase controls, shopping banners and the finder are not editorial article copy.
+  .replace(/<div\b[^>]*class="review-buy-actions"[^>]*>[\s\S]*?<\/div>/gi, ' ')
+  .replace(/<aside\b[^>]*data-amazon-recommendation="[^"]+"[^>]*>[\s\S]*?<\/aside>/gi, ' ')
+  .replace(/<section\b[^>]*data-coffee-finder(?:\s|>)[\s\S]*?<\/section>/gi, ' ')
   .replace(/<([a-z][\w:-]*)\b[^>]*class="[^"]*\bsr-only\b[^"]*"[^>]*>[\s\S]*?<\/\1>/gi, ' ')
   .replace(/<script[\s\S]*?<\/script>/gi, ' ')
   .replace(/<style[\s\S]*?<\/style>/gi, ' ')

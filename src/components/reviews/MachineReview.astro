@@ -12,7 +12,12 @@ import AmazonTopSellerBanner from './AmazonTopSellerBanner.astro';
 const { review } = Astro.props as { review: MachineReviewData };
 const reviewRoute = getReviewRouteDefinition(review.slug);
 if (!reviewRoute) throw new Error(`${review.slug} is not a canonical modern review route.`);
-const showAmazonBannerPrototype = review.slug === '/espresso-machine/lelit-elizabeth/';
+const amazonBannerContext = reviewRoute.family;
+const sections = review.article.sections;
+const performanceIndex = sections.findIndex((section) => section.id === 'espresso');
+const grinderBannerIndex = performanceIndex >= 0 ? performanceIndex : Math.min(2, sections.length - 1);
+const workflowIndex = sections.findIndex((section, index) => section.id === 'workflow' && index > grinderBannerIndex);
+const setupBannerIndex = workflowIndex >= 0 ? workflowIndex : Math.min(Math.max(grinderBannerIndex + 2, 4), sections.length - 1);
 const productNoun = reviewRoute.family === 'grinder' ? 'grinder' : 'machine';
 const allInlineMedia = reviewInlineMedia[review.slug] ?? [];
 const inlineMedia = allInlineMedia
@@ -116,7 +121,7 @@ const schema = {
         {review.quickAnswers.map((item) => <div><dt>{item.question}</dt><dd>{item.answer}</dd></div>)}
       </dl>
     </section>
-    {showAmazonBannerPrototype && <AmazonTopSellerBanner placement="machine" />}
+    <AmazonTopSellerBanner placement="machine" context={amazonBannerContext} />
     <nav class="review-jumpbar" aria-label="Review sections">
       <span>In this review</span><div>{jumpLinks.map((link) => <a href={`#${link.id}`}>{link.label}</a>)}</div>
     </nav>
@@ -200,8 +205,8 @@ const schema = {
               intro="Pick any budget, workflow, or drink preference. The finder searches the complete Coffeedant espresso-machine catalog and keeps this review out of the comparison results."
             />
           )}
-          {showAmazonBannerPrototype && section.id === 'espresso' && <AmazonTopSellerBanner placement="grinder" />}
-          {showAmazonBannerPrototype && section.id === 'workflow' && <AmazonTopSellerBanner placement="setup" />}
+          {index === grinderBannerIndex && <AmazonTopSellerBanner placement="grinder" context={amazonBannerContext} />}
+          {index === setupBannerIndex && <AmazonTopSellerBanner placement="setup" context={amazonBannerContext} />}
         </Fragment>
       ))}
       <section class="review-section" id="video" aria-labelledby="video-title">

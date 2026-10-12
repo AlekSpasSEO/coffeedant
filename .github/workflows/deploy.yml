@@ -28,12 +28,16 @@ jobs:
         run: CF_PAGES=1 node scripts/validate-review-batch.mjs
       - name: Validate Cloudflare legacy migration
         run: CF_PAGES=1 node scripts/validate-legacy-migration.mjs
+      - name: Validate Cloudflare Amazon banners
+        run: npm run validate:amazon-banners
       - name: Build GitHub Pages target
         run: npm run build
       - name: Validate modern reviews
         run: node scripts/validate-review-batch.mjs
       - name: Validate legacy migration
         run: node scripts/validate-legacy-migration.mjs
+      - name: Validate GitHub Pages Amazon banners
+        run: npm run validate:amazon-banners
       - name: Record canonical article parity
         run: npm run audit:article-parity
       - name: Print upgrade queue

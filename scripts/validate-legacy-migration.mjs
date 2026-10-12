@@ -32,6 +32,12 @@ const descendants = (node, nodes = []) => {
   return nodes;
 };
 const hasClass = (node, className) => attribute(node, 'class').split(/\s+/).includes(className);
+const isAmazonBannerImage = (node) => {
+  for (let parent = node.parentNode; parent; parent = parent.parentNode) {
+    if (parent.tagName === 'aside' && attribute(parent, 'data-amazon-recommendation')) return true;
+  }
+  return false;
+};
 const hasClassMatching = (node, pattern) => attribute(node, 'class').split(/\s+/).some((name) => pattern.test(name));
 const isFaqDropdown = (node) => {
   if (node.tagName !== 'details') return false;
@@ -66,7 +72,8 @@ for (const route of migratedLegacyPaths) {
   }
 
   const scopeNodes = scopes.flatMap((scope) => descendants(scope, []));
-  const imageCounts = articles.map((article) => descendants(article, []).filter((node) => node.tagName === 'img').length);
+  // The editorial image cap does not include the separately disclosed shopping banners.
+  const imageCounts = articles.map((article) => descendants(article, []).filter((node) => node.tagName === 'img' && !isAmazonBannerImage(node)).length);
   const images = imageCounts.length ? Math.max(...imageCounts) : 0;
   const faqDropdowns = scopeNodes.filter(isFaqDropdown).length;
   const redditElements = scopeNodes.filter((node) => (

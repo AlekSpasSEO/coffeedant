@@ -1,10 +1,11 @@
 ---
 import recommendationData from '../../data/amazon-recommendations.json';
+import type { ReviewRouteFamily } from '../../data/review-routes';
 
 type Product = (typeof recommendationData.products)[number];
 type Placement = 'machine' | 'grinder' | 'setup';
 
-const { placement } = Astro.props as { placement: Placement };
+const { placement, context = 'espresso-machine' } = Astro.props as { placement: Placement; context?: ReviewRouteFamily };
 const products = recommendationData.products as Product[];
 const byId = (id: string) => products.find((product) => product.id === id);
 const bannerProducts = placement === 'setup'
@@ -14,26 +15,33 @@ const copy = {
   machine: {
     kicker: 'Amazon sales-rank snapshot',
     heading: 'A popular all-in-one alternative',
-    intro: 'Prefer a machine with the grinder built in? This current Amazon category leader is a useful counterpoint to the Elizabeth’s separate-grinder workflow.',
+    intro: context === 'grinder'
+      ? 'Considering an all-in-one espresso setup instead of a separate grinder? Compare this popular machine’s integrated grinding and daily routine.'
+      : 'Compare a popular all-in-one espresso setup with the machine in this review. Check the drink options, grinder and daily routine before choosing.',
   },
   grinder: {
-    kicker: 'Complete the espresso station',
+    kicker: context === 'grinder' ? 'Compare grinding options' : 'Build your coffee station',
     heading: 'A currently top-ranked burr grinder',
-    intro: 'The Elizabeth needs a separate grinder. This Amazon-ranked option is a practical starting point, though espresso-focused buyers should still compare adjustment range and retention.',
+    intro: context === 'grinder'
+      ? 'See another popular burr grinder alongside this review. Compare its adjustment range, dosing and intended brew methods before deciding.'
+      : 'A popular burr grinder for whole-bean coffee. Check brew-method compatibility before adding it to your setup; traditional espresso needs fine adjustment.',
   },
   setup: {
     kicker: 'Small tools, daily impact',
     heading: 'Popular setup essentials on Amazon',
-    intro: 'A scale keeps timed shots honest; fresh whole beans give the grinder something worthwhile to dial in. These are current API-ranked picks, not Coffeedant test winners.',
+    intro: context === 'espresso-machine'
+      ? 'A scale helps check dose and yield, while whole beans let you dial in your recipe. Compare these popular coffee essentials for your setup.'
+      : 'Weighing your coffee and starting with whole beans makes recipes easier to repeat. Compare these popular essentials for your brewing routine.',
   },
 }[placement];
 const checkedLabel = new Intl.DateTimeFormat('en-US', {
   month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC',
 }).format(new Date(recommendationData.generatedAt));
+const isFresh = Date.now() - Date.parse(recommendationData.generatedAt) <= 24 * 60 * 60 * 1000;
 ---
 
 {bannerProducts.length > 0 && (
-  <aside class:list={['amazon-rank-banner', `amazon-rank-banner-${placement}`]} data-amazon-recommendation={placement} aria-labelledby={`amazon-rank-title-${placement}`}>
+  <aside class:list={['amazon-rank-banner', `amazon-rank-banner-${placement}`]} data-amazon-recommendation={placement} data-amazon-checked-at={recommendationData.generatedAt} aria-labelledby={`amazon-rank-title-${placement}`}>
     <header class="amazon-rank-banner-heading">
       <div>
         <p>{copy.kicker}</p>
@@ -53,11 +61,11 @@ const checkedLabel = new Intl.DateTimeFormat('en-US', {
             <h3>{product.title}</h3>
             <div class="amazon-rank-signals">
               <span class="amazon-rank-stars" title={product.ratingNote}>★★★★<i>★</i> <b>4★+</b></span>
-              {product.salesRank && product.salesRankCategory && <span>#{product.salesRank} in {product.salesRankCategory}</span>}
+              {isFresh && product.salesRank && product.salesRankCategory && <span data-amazon-rank>#{product.salesRank} in {product.salesRankCategory}</span>}
             </div>
             <div class="amazon-rank-offer">
-              <strong>{product.price ?? 'Check Amazon price'}</strong>
-              <span>{product.availability || 'Check current availability'}</span>
+              <strong data-amazon-price>{isFresh ? product.price ?? 'Check Amazon price' : 'Check Amazon price'}</strong>
+              <span data-amazon-stock>{isFresh ? product.availability || 'Check current availability' : 'Check current availability'}</span>
             </div>
           </div>
           <a class="amazon-rank-button" href={product.detailPageUrl} target="_blank" rel="nofollow sponsored noopener">View on Amazon <span aria-hidden="true">↗</span></a>
@@ -166,3 +174,17 @@ const checkedLabel = new Intl.DateTimeFormat('en-US', {
     .amazon-rank-banner footer { display: grid; padding: 10px 18px; }
   }
 </style>
+
+<script>
+  // A static deployment may outlive its API snapshot. Keep the links useful
+  // while directing shoppers to Amazon for stale price and stock details.
+  const updateFreshness = () => document.querySelectorAll<HTMLElement>('[data-amazon-checked-at]').forEach((banner) => {
+    const checkedAt = Date.parse(banner.dataset.amazonCheckedAt ?? '');
+    if (Number.isFinite(checkedAt) && Date.now() - checkedAt <= 24 * 60 * 60 * 1000) return;
+    banner.querySelectorAll<HTMLElement>('[data-amazon-price]').forEach((node) => { node.textContent = 'Check Amazon price'; });
+    banner.querySelectorAll<HTMLElement>('[data-amazon-stock]').forEach((node) => { node.textContent = 'Check current availability'; });
+    banner.querySelectorAll('[data-amazon-rank]').forEach((node) => node.remove());
+  });
+  updateFreshness();
+  window.setInterval(updateFreshness, 60 * 1000);
+</script>
