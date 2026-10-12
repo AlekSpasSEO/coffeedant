@@ -66,10 +66,10 @@ const parseMoney = (value: string | null | undefined) => {
 
 const finderDescription = (verdict: string) => {
   const sentences = [...new Intl.Segmenter('en', { granularity: 'sentence' }).segment(verdict.trim())]
-    .map(({ segment }) => segment.trim());
+    .map(({ segment }) => segment);
   const first = sentences[0]?.trim() ?? verdict.trim();
-  const second = sentences[1]?.trim();
-  const excerpt = second && `${first} ${second}`.length <= 280 ? `${first} ${second}` : first;
+  const combined = `${sentences[0] ?? ''}${sentences[1] ?? ''}`.trim();
+  const excerpt = sentences[1] && combined.length <= 280 ? combined : first;
   if (excerpt.length <= 300) return excerpt;
   const cutoff = excerpt.lastIndexOf(' ', 297);
   return `${excerpt.slice(0, cutoff > 180 ? cutoff : 297).trimEnd()}…`;
