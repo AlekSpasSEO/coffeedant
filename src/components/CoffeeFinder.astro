@@ -139,7 +139,9 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
     return node;
   };
 
-  const sitePath = (base: string, path: string) => `${base}${path.replace(/^\//, '')}`;
+  const sitePath = (base: string, path: string) => /^https?:\/\//i.test(path)
+    ? path
+    : `${base}${path.replace(/^\//, '')}`;
   const budgetMatch = (price: number | null, range: string) => {
     if (range === 'any') return true;
     if (price === null) return false;
