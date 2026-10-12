@@ -333,17 +333,17 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
   .coffee-finder-results { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 18px; }
   .coffee-finder-tool-banner .coffee-finder-results { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   /* Results are created in the browser, so Astro cannot add its scoped attribute to them. */
-  :global(.coffee-finder-result) { min-width: 0; border: 1px solid var(--ink); background: var(--white); }
-  :global(.coffee-finder-result-media) { display: grid; height: 210px; place-items: center; padding: 18px; background: #f3f0e8; }
-  :global(.coffee-finder-result-media img) { width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; }
-  :global(.coffee-finder-result-body) { padding: 19px; }
+  :global(.coffee-finder-result) { display: flex; min-width: 0; flex-direction: column; border: 1px solid var(--ink); background: var(--white); }
+  :global(.coffee-finder-result-media) { display: flex; height: 210px; align-items: center; justify-content: center; overflow: hidden; padding: 18px; background: #f3f0e8; }
+  :global(.coffee-finder-result-media img) { display: block; width: 100%; height: 100%; min-height: 0; object-fit: contain; mix-blend-mode: multiply; }
+  :global(.coffee-finder-result-body) { display: flex; flex: 1; flex-direction: column; padding: 19px; }
   :global(.coffee-finder-result-overline) { margin: 0 0 8px; color: var(--finder-green); font-size: .64rem; font-weight: 900; letter-spacing: .05em; text-transform: uppercase; }
   :global(.coffee-finder-result h3) { margin: 0 0 10px; font-size: 1.25rem; line-height: 1.15; }
   :global(.coffee-finder-result h3 a) { color: inherit; text-decoration: none; }
   :global(.coffee-finder-result-copy) { margin: 0 0 15px; color: #44443e; font-size: .8rem; line-height: 1.5; }
   :global(.coffee-finder-result-meta) { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 15px; }
   :global(.coffee-finder-result-meta span) { padding: 5px 7px; background: #eeece5; font-size: .63rem; font-weight: 800; line-height: 1.35; }
-  :global(.coffee-finder-result-actions) { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }
+  :global(.coffee-finder-result-actions) { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin-top: auto; }
   :global(.coffee-finder-result-actions a) { font-size: .76rem; font-weight: 900; }
   :global(.coffee-finder-result-link) { color: var(--finder-green); }
   :global(.coffee-finder-result-amazon) { color: #704800; }
