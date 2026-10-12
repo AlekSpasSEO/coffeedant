@@ -23,6 +23,7 @@ export type CoffeeFinderItem = {
   bestFor: string;
   amazonHref: string;
   amazonLabel: string;
+  amazonNote?: string;
   priceLabel: string;
   priceUsd: number | null;
   priceCurrency: string;
@@ -133,13 +134,14 @@ const inferAvailability = (review: MachineReviewData, offer?: AmazonOffer): Pick
 const toFinderItem = (review: MachineReviewData): CoffeeFinderItem => {
   const text = combinedText(review);
   const workflow = inferWorkflow(review, text);
-  const offer = amazonOffers[review.slug];
+  const amazonLink = getReviewPurchaseLinks(review)[0];
+  const offer = amazonLink.checkedAt ? amazonOffers[review.slug] : undefined;
   const liveUsdPrice = offer?.currency === 'USD' && offer.availabilityType?.startsWith('IN_STOCK')
     ? parseMoney(offer.price)
     : null;
   const reviewUsdPrice = review.price.currency === 'USD' ? parseMoney(review.price.numeric) : null;
   const availability = inferAvailability(review, offer);
-  const amazonLink = getReviewPurchaseLinks(review)[0];
+  if (offer && amazonLink.conditionLabel) availability.availabilityLabel = amazonLink.availability ?? availability.availabilityLabel;
 
   return {
     brand: canonicalBrand(review.brand),
@@ -150,8 +152,9 @@ const toFinderItem = (review: MachineReviewData): CoffeeFinderItem => {
     description: finderDescription(review.verdict),
     bestFor: review.bestFor[0] ?? review.verdict,
     amazonHref: amazonLink.href,
-    amazonLabel: amazonLink.exactProduct ? 'Shop on Amazon' : 'Search Amazon',
-    priceLabel: offer?.price ?? review.price.msrp ?? 'Price varies',
+    amazonLabel: amazonLink.conditionLabel === 'Amazon Renewed' ? 'Shop Amazon Renewed' : (amazonLink.exactProduct ? 'Shop on Amazon' : 'Search Amazon'),
+    amazonNote: amazonLink.purchaseNote,
+    priceLabel: offer?.price ? [offer.price, amazonLink.conditionLabel].filter(Boolean).join(' · ') : (review.price.msrp ?? 'Price varies'),
     priceUsd: liveUsdPrice ?? reviewUsdPrice,
     priceCurrency: offer?.currency ?? review.price.currency,
     rating: getReviewOverallScore(review.evaluation),

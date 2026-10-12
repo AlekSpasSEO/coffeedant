@@ -125,7 +125,7 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
 <script>
   type FinderItem = {
     brand: string; model: string; path: string; image: string; imageAlt: string;
-    description: string; bestFor: string; amazonHref: string; amazonLabel: string;
+    description: string; bestFor: string; amazonHref: string; amazonLabel: string; amazonNote?: string;
     priceLabel: string; priceUsd: number | null;
     priceCurrency: string; rating: number | null; workflow: string; drink: string;
     experience: string; grinder: string; footprint: string; volume: string;
@@ -206,6 +206,11 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
     amazonLink.rel = 'nofollow sponsored noopener';
     actions.append(reviewLink, amazonLink);
     body.append(overline, title, copy, meta, actions);
+    if (item.amazonNote) {
+      const purchaseNote = createNode('p', 'coffee-finder-result-purchase-note');
+      purchaseNote.textContent = item.amazonNote;
+      body.append(purchaseNote);
+    }
     card.append(body);
     return card;
   };
@@ -347,6 +352,7 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
   :global(.coffee-finder-result-actions a) { font-size: .76rem; font-weight: 900; }
   :global(.coffee-finder-result-link) { color: var(--finder-green); }
   :global(.coffee-finder-result-amazon) { color: #704800; }
+  :global(.coffee-finder-result-purchase-note) { margin: 9px 0 0; color: var(--muted); font-size: .65rem; line-height: 1.45; }
   :global(.coffee-finder-result-compact .coffee-finder-result-body) { padding: 16px; }
   :global(.coffee-finder-result-compact h3) { font-size: 1.05rem; }
   :global(.coffee-finder-result-compact .coffee-finder-result-copy) { font-size: .72rem; }

@@ -73,7 +73,7 @@ if (!tokenResponse.ok) throw new Error(`Amazon authentication failed with HTTP $
 const { access_token: accessToken } = await tokenResponse.json();
 if (!accessToken) throw new Error('Amazon authentication succeeded without returning an access token.');
 
-const getItems = async (itemIds) => {
+const getItems = async (itemIds, condition = 'New') => {
   for (let attempt = 0; attempt < 4; attempt += 1) {
     const response = await fetch('https://creatorsapi.amazon/catalog/v1/getItems', {
       method: 'POST',
@@ -87,7 +87,7 @@ const getItems = async (itemIds) => {
         itemIdType: 'ASIN',
         marketplace,
         partnerTag,
-        condition: 'New',
+        condition,
         resources: [
           'itemInfo.title',
           'offersV2.listings.price',
@@ -106,13 +106,17 @@ const getItems = async (itemIds) => {
 };
 
 const chunks = [];
-const asins = [...new Set(products.map(([, product]) => product.asin))];
-for (let index = 0; index < asins.length; index += 10) chunks.push(asins.slice(index, index + 10));
+for (const condition of ['New', 'Any']) {
+  const asins = [...new Set(products.filter(([, product]) => (
+    (product.conditionLabel === 'Amazon Renewed' ? 'Any' : 'New') === condition
+  )).map(([, product]) => product.asin))];
+  for (let index = 0; index < asins.length; index += 10) chunks.push({ itemIds: asins.slice(index, index + 10), condition });
+}
 
 const apiItems = [];
 await sleep(1200);
 for (let index = 0; index < chunks.length; index += 1) {
-  const response = await getItems(chunks[index]);
+  const response = await getItems(chunks[index].itemIds, chunks[index].condition);
   apiItems.push(...(response.itemsResult?.items ?? response.itemResults?.items ?? []));
   if (index < chunks.length - 1) await sleep(1200);
 }

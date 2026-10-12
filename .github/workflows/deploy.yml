@@ -32,6 +32,8 @@ jobs:
         run: CF_PAGES=1 node scripts/validate-legacy-migration.mjs
       - name: Validate Cloudflare Amazon banners
         run: npm run validate:amazon-banners
+      - name: Validate Amazon catalog and Finder purchase links
+        run: npm run validate:amazon-catalog
       - name: Build GitHub Pages target
         run: npm run build
       - name: Validate modern reviews
