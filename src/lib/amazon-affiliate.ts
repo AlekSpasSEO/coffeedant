@@ -12,6 +12,8 @@ type AmazonCatalogProduct = {
   asin: string;
   productName: string;
   sourceUrl: string;
+  conditionLabel?: string;
+  purchaseNote?: string;
 };
 
 type AmazonOffer = {
@@ -48,19 +50,21 @@ const buildVerifiedAmazonLink = (review: MachineReviewData): ReviewLink | null =
   const product = catalog[review.slug];
   if (!product) return null;
 
-  const offer = offers[review.slug];
-  const fresh = offer?.asin === product.asin && isFreshOffer(offer);
+  const storedOffer = offers[review.slug];
+  const offer = storedOffer?.asin === product.asin ? storedOffer : undefined;
+  const fresh = isFreshOffer(offer);
   const url = new URL(offer?.detailPageUrl ?? `https://www.amazon.com/dp/${product.asin}`);
   url.searchParams.set('tag', AMAZON_ASSOCIATE_TAG);
-  const availability = fresh ? offer.availabilityMessage : 'Check current availability on Amazon';
+  const availability = [product.conditionLabel, fresh ? offer.availabilityMessage : 'Check current availability on Amazon'].filter(Boolean).join(' · ');
   const checkedAt = fresh ? offer.checkedAt : undefined;
 
   return {
-    label: fresh && offer.price ? 'Check Amazon price' : 'Check Amazon availability',
+    label: product.conditionLabel === 'Amazon Renewed'
+      ? (fresh && offer.price ? 'Check Amazon Renewed price' : 'Check Amazon Renewed availability')
+      : (fresh && offer.price ? 'Check Amazon price' : 'Check Amazon availability'),
     href: url.toString(),
-    note: fresh
-      ? [offer.price, availability].filter(Boolean).join(' · ')
-      : 'Verified product page · live price shown by Amazon',
+    note: [fresh ? [offer.price, availability].filter(Boolean).join(' · ')
+      : 'Verified product page · live price shown by Amazon', product.purchaseNote].filter(Boolean).join(' · '),
     affiliate: true,
     primary: true,
     retailer: 'Amazon',
@@ -69,6 +73,8 @@ const buildVerifiedAmazonLink = (review: MachineReviewData): ReviewLink | null =
     availability,
     availabilityType: fresh ? offer.availabilityType : 'UNKNOWN',
     checkedAt,
+    conditionLabel: product.conditionLabel,
+    purchaseNote: product.purchaseNote,
   };
 };
 

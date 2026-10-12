@@ -16,6 +16,8 @@ export type ReviewLink = {
   availability?: string;
   availabilityType?: string;
   checkedAt?: string;
+  conditionLabel?: string;
+  purchaseNote?: string;
 };
 export type ReviewTable = { caption: string; columns: Array<{ key: string; label: string }>; rows: Array<Record<string, string>> };
 export const reviewDimensionIds = ['espresso', 'milk', 'workflow', 'build', 'features', 'value'] as const;

@@ -2,6 +2,7 @@
   "schemaVersion": 1,
   "marketplace": "www.amazon.com",
   "partnerTag": "coffeedant03-20",
+  "lastMatchAudit": "2026-10-13",
   "products": {
     "/espresso-machine/breville-bambino/": {
       "asin": "B08ZK13CJN",
@@ -44,9 +45,9 @@
       "sourceUrl": "https://www.amazon.com/dp/B078WMLXXG"
     },
     "/espresso-machine/delonghi-magnifica-evo/": {
-      "asin": "B0B38KFWNK",
+      "asin": "B0B38KRTV6",
       "productName": "De'Longhi Magnifica Evo with LatteCrema",
-      "sourceUrl": "https://amzn.to/4q9WFhq"
+      "sourceUrl": "https://www.amazon.com/dp/B0B38KRTV6"
     },
     "/espresso-machine/breville-oracle-touch-bes990/": {
       "asin": "B073TYYM91",
@@ -72,6 +73,209 @@
       "asin": "B0CC4LXF1Z",
       "productName": "1Zpresso K-Ultra",
       "sourceUrl": "https://amzn.to/4sB8GNM"
+    },
+    "/espresso-machine/ascaso-steel-duo-pid/": {
+      "asin": "B0BJH21MBP",
+      "productName": "Ascaso Steel Duo PID V3, 120V, Black",
+      "sourceUrl": "https://www.amazon.com/dp/B0BJH21MBP"
+    },
+    "/espresso-machine/bezzera-unica-pid/": {
+      "asin": "B00WMZCVZ8",
+      "productName": "Bezzera Unica PID",
+      "sourceUrl": "https://www.amazon.com/dp/B00WMZCVZ8"
+    },
+    "/espresso-machine/bosch-300-series-verocafe-tiu20307/": {
+      "asin": "B0D16N7BBV",
+      "productName": "Bosch 300 Series VeroCafe TIU20307",
+      "sourceUrl": "https://www.amazon.com/dp/B0D16N7BBV"
+    },
+    "/espresso-machine/bosch-500-series-verocafe-tpu40109/": {
+      "asin": "B0DQFCRFPJ",
+      "productName": "Bosch 500 Series VeroCafe TPU40109",
+      "sourceUrl": "https://www.amazon.com/dp/B0DQFCRFPJ"
+    },
+    "/espresso-machine/bosch-800-series/": {
+      "asin": "B0CWYJH3MQ",
+      "productName": "Bosch 800 Series VeroCafe TPU60309",
+      "sourceUrl": "https://www.amazon.com/dp/B0CWYJH3MQ"
+    },
+    "/espresso-machine/breville-barista-touch-impress-bes881/": {
+      "asin": "B0C1T4W797",
+      "productName": "Breville Barista Touch Impress BES881BSS",
+      "sourceUrl": "https://www.amazon.com/dp/B0C1T4W797"
+    },
+    "/espresso-machine/breville-dynamic-duo-bep920/": {
+      "asin": "B08ML986LF",
+      "productName": "Breville Dynamic Duo BEP920BSS bundle",
+      "sourceUrl": "https://www.amazon.com/dp/B08ML986LF"
+    },
+    "/espresso-machine/breville-oracle-bes980x/": {
+      "asin": "B00J19PT2K",
+      "productName": "Breville Oracle BES980XL",
+      "sourceUrl": "https://www.amazon.com/dp/B00J19PT2K"
+    },
+    "/espresso-machine/breville-oracle-jet-bes985/": {
+      "asin": "B0DYGDKQ85",
+      "productName": "Breville Oracle Jet BES985BSS",
+      "sourceUrl": "https://www.amazon.com/dp/B0DYGDKQ85"
+    },
+    "/espresso-machine/delonghi-dedica/": {
+      "asin": "B072WZL4ZT",
+      "productName": "De'Longhi Dedica DeLuxe EC685M",
+      "sourceUrl": "https://www.amazon.com/dp/B072WZL4ZT"
+    },
+    "/espresso-machine/delonghi-dinamica-plus-ecam38085sb/": {
+      "asin": "B0DQFNGWWF",
+      "productName": "De'Longhi Dinamica Plus ECAM38085SB",
+      "sourceUrl": "https://www.amazon.com/dp/B0DQFNGWWF"
+    },
+    "/espresso-machine/delonghi-ecp3420/": {
+      "asin": "B00YCP71VK",
+      "productName": "De'Longhi ECP3420",
+      "sourceUrl": "https://www.amazon.com/dp/B00YCP71VK"
+    },
+    "/espresso-machine/delonghi-la-specialista-arte/": {
+      "asin": "B099YT9MYG",
+      "productName": "De'Longhi La Specialista Arte EC9155MB",
+      "sourceUrl": "https://www.amazon.com/dp/B099YT9MYG"
+    },
+    "/espresso-machine/delonghi-la-specialista-prestigio/": {
+      "asin": "B0934BNSXX",
+      "productName": "De'Longhi La Specialista Prestigio EC9355M",
+      "sourceUrl": "https://www.amazon.com/dp/B0934BNSXX"
+    },
+    "/espresso-machine/delonghi-magnifica-evo-next/": {
+      "asin": "B0DT2SBX2S",
+      "productName": "De'Longhi Magnifica Evo Next ECAM31080SB",
+      "sourceUrl": "https://www.amazon.com/dp/B0DT2SBX2S"
+    },
+    "/espresso-machine/delonghi-magnifica-plus/": {
+      "asin": "B0DG4BCHK8",
+      "productName": "De'Longhi Magnifica Plus ECAM32070SB",
+      "sourceUrl": "https://www.amazon.com/dp/B0DG4BCHK8"
+    },
+    "/espresso-machine/flair-classic/": {
+      "asin": "B06X916JM8",
+      "productName": "Flair Classic, relaunched pressure-gauge and two-portafilter configuration",
+      "sourceUrl": "https://www.amazon.com/dp/B06X916JM8"
+    },
+    "/espresso-machine/gaggia-anima/": {
+      "asin": "B016RYOCHO",
+      "productName": "Gaggia Anima with manual steam wand",
+      "sourceUrl": "https://www.amazon.com/dp/B016RYOCHO"
+    },
+    "/espresso-machine/gaggia-brera-ri9305/": {
+      "asin": "B003XV3U82",
+      "productName": "Gaggia Brera, Black",
+      "sourceUrl": "https://www.amazon.com/dp/B003XV3U82"
+    },
+    "/espresso-machine/gaggia-cadorna-milk/": {
+      "asin": "B089DNV5HK",
+      "productName": "Gaggia Cadorna Milk RI9603/47 with Capp-in-Cup",
+      "sourceUrl": "https://www.amazon.com/dp/B089DNV5HK"
+    },
+    "/espresso-machine/gaggia-cadorna-prestige/": {
+      "asin": "B0DWGR1R7W",
+      "productName": "Gaggia Cadorna Prestige Over Ice, Moonlight Grey",
+      "sourceUrl": "https://www.amazon.com/dp/B0DWGR1R7W"
+    },
+    "/espresso-machine/gaggia-classic-evo/": {
+      "asin": "B07RQ3NL76",
+      "productName": "Gaggia Classic Pro E24 RI9380/46",
+      "sourceUrl": "https://www.amazon.com/dp/B07RQ3NL76"
+    },
+    "/espresso-machine/gaggia-velasca-ri8260-3/": {
+      "asin": "B071PBGDTK",
+      "productName": "Gaggia Velasca RI8260/47 with manual pannarello",
+      "sourceUrl": "https://www.amazon.com/dp/B071PBGDTK"
+    },
+    "/espresso-machine/gaggia-velasca-prestige-ri8263/": {
+      "asin": "B071LQT8SW",
+      "productName": "Gaggia Velasca Prestige RI8263/47",
+      "sourceUrl": "https://www.amazon.com/dp/B071LQT8SW"
+    },
+    "/espresso-machine/nuova-simonelli-musica/": {
+      "asin": "B005NICZ66",
+      "productName": "Nuova Simonelli Musica, black-lining pour-over version",
+      "sourceUrl": "https://www.amazon.com/dp/B005NICZ66"
+    },
+    "/espresso-machine/nuova-simonelli-oscar-ii/": {
+      "asin": "B0018YDTIM",
+      "productName": "Nuova Simonelli Oscar II, black 110V pour-over version",
+      "sourceUrl": "https://www.amazon.com/dp/B0018YDTIM"
+    },
+    "/espresso-machine/rancilio-silvia-pro-x/": {
+      "asin": "B09MV4KTXH",
+      "productName": "Rancilio Silvia Pro X, Stainless Steel",
+      "sourceUrl": "https://www.amazon.com/dp/B09MV4KTXH"
+    },
+    "/espresso-machine/rocket-appartamento-tca/": {
+      "asin": "B0D15NJWC1",
+      "productName": "Rocket Appartamento TCA, Stainless Steel / White",
+      "sourceUrl": "https://www.amazon.com/dp/B0D15NJWC1"
+    },
+    "/espresso-machine/ascaso-steel-uno/": {
+      "asin": "B096YG1YQY",
+      "productName": "Ascaso Steel Uno PID, single thermoblock, 120V, Polished",
+      "sourceUrl": "https://www.amazon.com/dp/B096YG1YQY"
+    },
+    "/espresso-machine/bezzera-bz10/": {
+      "asin": "B00NY862ZM",
+      "productName": "Bezzera BZ10",
+      "sourceUrl": "https://www.amazon.com/dp/B00NY862ZM"
+    },
+    "/espresso-machine/bezzera-strega/": {
+      "asin": "B01LX17T3U",
+      "productName": "Bezzera Strega TOP, tank or plumbed",
+      "sourceUrl": "https://www.amazon.com/dp/B01LX17T3U"
+    },
+    "/espresso-machine/ecm-classika-pid-flow-control/": {
+      "asin": "B00NG0XUP8",
+      "productName": "ECM Classika PID",
+      "sourceUrl": "https://www.amazon.com/dp/B00NG0XUP8",
+      "purchaseNote": "Standard Classika PID listing; a flow-control kit is not confirmed as included."
+    },
+    "/espresso-machine/gaggia-cadorna-barista-plus-ri9603-47/": {
+      "asin": "B089DP1KVD",
+      "productName": "Gaggia Cadorna Barista Plus RI9601/47, manual steam wand",
+      "sourceUrl": "https://www.amazon.com/dp/B089DP1KVD"
+    },
+    "/espresso-machine/krups-opio-xp320840/": {
+      "asin": "B07H3XGGNK",
+      "productName": "Krups Opio XP320840, UK edition",
+      "sourceUrl": "https://www.amazon.com/dp/B07H3XGGNK",
+      "purchaseNote": "UK 220–240 V model; confirm voltage and plug compatibility."
+    },
+    "/espresso-machine/miele-cm6360-milkperfection/": {
+      "asin": "B09BG85YDM",
+      "productName": "Miele CM 6360 MilkPerfection, US Obsidian Black 11648200",
+      "sourceUrl": "https://www.amazon.com/dp/B09BG85YDM",
+      "purchaseNote": "US CM 6360 in Obsidian Black; the review photograph shows Lotus White."
+    },
+    "/espresso-machine/miele-cm7750-coffeeselect/": {
+      "asin": "B09BG7NRJQ",
+      "productName": "Miele CM 7750 CoffeeSelect, US 11106260",
+      "sourceUrl": "https://www.amazon.com/dp/B09BG7NRJQ"
+    },
+    "/espresso-machine/jura-giga-6/": {
+      "asin": "B07QX2YPV9",
+      "productName": "Jura GIGA 6 Aluminum",
+      "sourceUrl": "https://www.amazon.com/dp/B07QX2YPV9",
+      "purchaseNote": "New Amazon listing; the review's reference price is for factory-refurbished stock."
+    },
+    "/espresso-machine/philips-5400-lattego/": {
+      "asin": "B0CJ9TP31V",
+      "productName": "Philips 5400 LatteGo EP5447/94, Amazon Renewed",
+      "sourceUrl": "https://www.amazon.com/dp/B0CJ9TP31V",
+      "conditionLabel": "Amazon Renewed",
+      "purchaseNote": "Renewed listing. Check seller, condition and the return/guarantee terms."
+    },
+    "/espresso-machine/saeco-xelsis/": {
+      "asin": "B09B2SX8NP",
+      "productName": "Saeco Xelsis SM7685/04, Amazon Renewed",
+      "sourceUrl": "https://www.amazon.com/dp/B09B2SX8NP",
+      "conditionLabel": "Amazon Renewed",
+      "purchaseNote": "Renewed SM7685/04 listing. Check the rating plate, seller and guarantee terms."
     }
   }
 }
