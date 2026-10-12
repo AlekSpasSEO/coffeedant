@@ -125,7 +125,8 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
 <script>
   type FinderItem = {
     brand: string; model: string; path: string; image: string; imageAlt: string;
-    assessment: string; bestFor: string; priceLabel: string; priceUsd: number | null;
+    description: string; bestFor: string; amazonHref: string; amazonLabel: string;
+    priceLabel: string; priceUsd: number | null;
     priceCurrency: string; rating: number | null; workflow: string; drink: string;
     experience: string; grinder: string; footprint: string; volume: string;
     availability: string; availabilityLabel: string; updated: string;
@@ -182,7 +183,7 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
     titleLink.textContent = item.model;
     title.append(titleLink);
     const copy = createNode('p', 'coffee-finder-result-copy');
-    copy.textContent = compact ? item.bestFor : item.assessment;
+    copy.textContent = item.description;
     const meta = createNode('div', 'coffee-finder-result-meta');
     const price = createNode('span');
     price.textContent = item.priceLabel;
@@ -194,10 +195,17 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
       rating.textContent = `${item.rating.toFixed(1)}/5 Coffeedant`;
       meta.append(rating);
     }
-    const link = createNode('a', 'coffee-finder-result-link');
-    link.href = href;
-    link.textContent = compact ? 'See why it matches →' : 'Read the review →';
-    body.append(overline, title, copy, meta, link);
+    const actions = createNode('div', 'coffee-finder-result-actions');
+    const reviewLink = createNode('a', 'coffee-finder-result-link');
+    reviewLink.href = href;
+    reviewLink.textContent = 'Read the review →';
+    const amazonLink = createNode('a', 'coffee-finder-result-amazon');
+    amazonLink.href = item.amazonHref;
+    amazonLink.textContent = `${item.amazonLabel} ↗`;
+    amazonLink.target = '_blank';
+    amazonLink.rel = 'nofollow sponsored noopener';
+    actions.append(reviewLink, amazonLink);
+    body.append(overline, title, copy, meta, actions);
     card.append(body);
     return card;
   };
@@ -232,7 +240,7 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
       filtered = catalog.items.filter((item) => {
         if (item.path === excludePath) return false;
         if (contextBrand && item.brand !== contextBrand) return false;
-        if (query && !`${item.brand} ${item.model} ${item.assessment} ${item.bestFor}`.toLowerCase().includes(query)) return false;
+        if (query && !`${item.brand} ${item.model} ${item.description} ${item.bestFor}`.toLowerCase().includes(query)) return false;
         if (!budgetMatch(item.priceUsd, filters.budget)) return false;
         return (filters.workflow === 'any' || item.workflow === filters.workflow)
           && drinkMatch(item.drink, filters.drink)
@@ -324,21 +332,25 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
   .coffee-finder-status span { color: var(--muted); text-align: right; }
   .coffee-finder-results { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 18px; }
   .coffee-finder-tool-banner .coffee-finder-results { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .coffee-finder-result { min-width: 0; border: 1px solid var(--ink); background: var(--white); }
-  .coffee-finder-result-media { display: grid; height: 210px; place-items: center; padding: 18px; background: #f3f0e8; }
-  .coffee-finder-result-media img { width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; }
-  .coffee-finder-result-body { padding: 19px; }
-  .coffee-finder-result-overline { margin: 0 0 8px; color: var(--finder-green); font-size: .64rem; font-weight: 900; letter-spacing: .05em; text-transform: uppercase; }
-  .coffee-finder-result h3 { margin: 0 0 10px; font-size: 1.25rem; line-height: 1.15; }
-  .coffee-finder-result h3 a { color: inherit; text-decoration: none; }
-  .coffee-finder-result-copy { margin: 0 0 15px; color: #44443e; font-size: .8rem; line-height: 1.5; }
-  .coffee-finder-result-meta { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 15px; }
-  .coffee-finder-result-meta span { padding: 5px 7px; background: #eeece5; font-size: .63rem; font-weight: 800; line-height: 1.35; }
-  .coffee-finder-result-link { color: var(--finder-green); font-size: .76rem; font-weight: 900; }
-  .coffee-finder-result-compact .coffee-finder-result-body { padding: 16px; }
-  .coffee-finder-result-compact h3 { font-size: 1.05rem; }
-  .coffee-finder-result-compact .coffee-finder-result-copy { font-size: .72rem; }
-  .coffee-finder-result-compact .coffee-finder-result-meta span:nth-child(n+2) { display: none; }
+  /* Results are created in the browser, so Astro cannot add its scoped attribute to them. */
+  :global(.coffee-finder-result) { display: flex; min-width: 0; flex-direction: column; border: 1px solid var(--ink); background: var(--white); }
+  :global(.coffee-finder-result-media) { display: flex; height: 210px; align-items: center; justify-content: center; overflow: hidden; padding: 18px; background: #f3f0e8; }
+  :global(.coffee-finder-result-media img) { display: block; width: 100%; height: 100%; min-height: 0; object-fit: contain; mix-blend-mode: multiply; }
+  :global(.coffee-finder-result-body) { display: flex; flex: 1; flex-direction: column; padding: 19px; }
+  :global(.coffee-finder-result-overline) { margin: 0 0 8px; color: var(--finder-green); font-size: .64rem; font-weight: 900; letter-spacing: .05em; text-transform: uppercase; }
+  :global(.coffee-finder-result h3) { margin: 0 0 10px; font-size: 1.25rem; line-height: 1.15; }
+  :global(.coffee-finder-result h3 a) { color: inherit; text-decoration: none; }
+  :global(.coffee-finder-result-copy) { margin: 0 0 15px; color: #44443e; font-size: .8rem; line-height: 1.5; }
+  :global(.coffee-finder-result-meta) { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 15px; }
+  :global(.coffee-finder-result-meta span) { padding: 5px 7px; background: #eeece5; font-size: .63rem; font-weight: 800; line-height: 1.35; }
+  :global(.coffee-finder-result-actions) { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin-top: auto; }
+  :global(.coffee-finder-result-actions a) { font-size: .76rem; font-weight: 900; }
+  :global(.coffee-finder-result-link) { color: var(--finder-green); }
+  :global(.coffee-finder-result-amazon) { color: #704800; }
+  :global(.coffee-finder-result-compact .coffee-finder-result-body) { padding: 16px; }
+  :global(.coffee-finder-result-compact h3) { font-size: 1.05rem; }
+  :global(.coffee-finder-result-compact .coffee-finder-result-copy) { font-size: .72rem; }
+  :global(.coffee-finder-result-compact .coffee-finder-result-meta span:nth-child(n+2)) { display: none; }
   .coffee-finder-empty { margin: 18px 0 0; padding: 20px; border: 1px solid var(--ink); background: var(--white); font-weight: 800; }
   .coffee-finder-more-results { display: block; margin: 20px auto 0; padding: 13px 20px; border: 2px solid var(--ink); color: var(--white); background: var(--ink); font: inherit; font-weight: 900; cursor: pointer; }
   @media (max-width: 850px) {
