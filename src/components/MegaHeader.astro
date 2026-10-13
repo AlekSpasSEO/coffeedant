@@ -65,6 +65,8 @@ const brandMenus = menuBrands.map((brand) => ({
       aria-label="Open menu"
       aria-controls="coffeedant-primary-nav"
       aria-expanded="false"
+      data-menu-open-label="Open menu"
+      data-menu-close-label="Close menu"
       data-menu-toggle
     >
       <span class="cd-header__menu-icon" aria-hidden="true"></span>
@@ -209,6 +211,8 @@ const brandMenus = menuBrands.map((brand) => ({
 <script>
   document.querySelectorAll<HTMLElement>('[data-cd-header]').forEach((header) => {
     const menuButton = header.querySelector<HTMLButtonElement>('[data-menu-toggle]');
+    const openMenuLabel = menuButton?.dataset.menuOpenLabel ?? 'Open menu';
+    const closeMenuLabel = menuButton?.dataset.menuCloseLabel ?? 'Close menu';
     const menu = header.querySelector<HTMLElement>('[data-primary-nav]');
     const groups = Array.from(header.querySelectorAll<HTMLElement>('[data-nav-group]'));
 
@@ -235,8 +239,8 @@ const brandMenus = menuBrands.map((brand) => ({
     menuButton?.addEventListener('click', () => {
       const isOpen = menu?.classList.toggle('is-open') ?? false;
       menuButton.setAttribute('aria-expanded', String(isOpen));
-      menuButton.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
-      document.body.classList.toggle('cd-menu-open', isOpen && window.matchMedia('(max-width: 1040px)').matches);
+      menuButton.setAttribute('aria-label', isOpen ? closeMenuLabel : openMenuLabel);
+      document.body.classList.toggle('cd-menu-open', isOpen && window.matchMedia('(max-width: 1200px)').matches);
       if (!isOpen) closeGroups();
     });
 
@@ -279,17 +283,17 @@ const brandMenus = menuBrands.map((brand) => ({
     document.addEventListener('keydown', (event) => {
       if (event.key !== 'Escape') return;
       closeGroups();
-      if (menu?.classList.contains('is-open') && window.matchMedia('(max-width: 1040px)').matches) {
+      if (menu?.classList.contains('is-open') && window.matchMedia('(max-width: 1200px)').matches) {
         menu.classList.remove('is-open');
         menuButton?.setAttribute('aria-expanded', 'false');
-        menuButton?.setAttribute('aria-label', 'Open menu');
+        menuButton?.setAttribute('aria-label', openMenuLabel);
         document.body.classList.remove('cd-menu-open');
         menuButton?.focus();
       }
     });
 
     window.addEventListener('resize', () => {
-      if (!window.matchMedia('(max-width: 1040px)').matches) {
+      if (!window.matchMedia('(max-width: 1200px)').matches) {
         document.body.classList.remove('cd-menu-open');
       }
     });
@@ -315,7 +319,7 @@ const brandMenus = menuBrands.map((brand) => ({
   }
 
   .cd-header * { box-sizing: border-box; }
-  .cd-header button, .cd-header a { font: inherit; }
+  .cd-header button, .cd-header a { font-family: inherit; }
   .cd-header button { color: inherit; }
   .cd-header__inner {
     position: relative;

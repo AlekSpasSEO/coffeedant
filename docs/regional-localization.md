@@ -92,7 +92,7 @@ source-page hash before updating the cache. Missing text cannot silently become
 English fallback. Only noindex reviews may select a subset of pages; the full
 production build still refuses incomplete translation coverage.
 
-Remaining rollout: obtain feedback on this first page; translate all remaining
+Remaining rollout: the user approved this first page; translate all remaining
 NL pages, Finder descriptions, home/supporting pages and stable localized routes;
 then complete DE and FR the same way. Preserve source evidence and verify any
 regional changes separately. Dollar prices and Fahrenheit temperatures on this
@@ -158,6 +158,24 @@ labels are included. Structured data includes FAQ answers, review bodies, articl
 sections and keyword arrays. Executable code and filter identifiers stay fixed.
 Source-snapshot hashes are immutable; schema/source changes require a new batch,
 while valid exact wording may be reused. Full production remains completeness-gated.
+
+The next saved full guide is `/journal/golden-ratio-espresso/`, with stable routes
+`/journal/espresso-verhouding-1-2/` (NL),
+`/journal/espresso-verhaeltnis-1-2/` (DE), and
+`/journal/ratio-expresso-1-2/` (FR). The complete source, including all ten
+practical checks and structured FAQ answers, is directly translated in all three
+editions; it is not a public release of an incomplete edition.
+
+For recurring editorial sentences, `compose-direct.mjs` mechanically assembles
+explicitly authored sentence chunks. Each assembled English source must exactly
+match its frozen paragraph, and every target language must supply every chunk.
+The output contains complete ordinary translation strings; it makes no model
+call, infers no new wording, and never copies English as fallback. Keep both the
+authored parts and generated full-paragraph JSON for an auditable trail:
+
+```sh
+node scripts/localization/compose-direct.mjs localization/authored/ratio-checks-batch-2.parts.json localization/authored/ratio-checks-batch-2.json
+```
 
 ## Missing configuration
 
