@@ -1,0 +1,1931 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/ascaso/",
+      "sourceHash": "43475130829bb36c7fad913c5be264f96f42cf960877fe03b5115b0023d2855b"
+    },
+    {
+      "sourcePath": "/bezzera/",
+      "sourceHash": "be181a877e5cb0bc96a1bd461611001ff4413c626a21050e4c260529f8285547"
+    },
+    {
+      "sourcePath": "/breville/",
+      "sourceHash": "03e434e2b6a820ddcae5fa63ba7c03be853c422ed27a9920795fda0d28d9c715"
+    },
+    {
+      "sourcePath": "/la-marzocco/",
+      "sourceHash": "703cc2036b6bd28c8e7cfb6bb9e8393be469ca203b26aa1ea3c7f4ebbe5dfa84"
+    },
+    {
+      "sourcePath": "/la-pavoni/",
+      "sourceHash": "15be121828d693ec7dc5e5ac2366f37597822f0b7e73e2bc38de59ff3d9840fa"
+    },
+    {
+      "sourcePath": "/nespresso/",
+      "sourceHash": "17045cf8e18cde30e0bb4156884670b72b187ae61d187a7cddfae351fe8a3115"
+    },
+    {
+      "sourcePath": "/ninja/",
+      "sourceHash": "07505b77c47369f0fcfcb174a29963ea2132660f18e68b85b0c072efcbd49db1"
+    },
+    {
+      "sourcePath": "/profitec/",
+      "sourceHash": "2c64b18347201f5aaf263f6f7684115ee02f269197b1c369f79f55e6bb48edeb"
+    },
+    {
+      "sourcePath": "/quick-mill/",
+      "sourceHash": "3e1715c266c73dd6191ac555a8702c8ca727c62e3cae80bc454828efca286e5a"
+    },
+    {
+      "sourcePath": "/rancilio/",
+      "sourceHash": "1d64c7f34b1ce76dd3095da3f9132af977a1414a4cd2fdfb4e7bb9fc090131a4"
+    },
+    {
+      "sourcePath": "/rocket-espresso/",
+      "sourceHash": "7c922626afeac1b803d698df77f66d441d3dacbc1de453653032496ff24d2f2d"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "45cff58677d128da765bb50d29e337701e02df24ba998a7c45e2e7b2bad46fdb",
+      "source": "Ascaso Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "text",
+      "context": "Ascaso Espresso Machines: Compare the Lineup | Coffeedant"
+    },
+    {
+      "id": "073e9bf8085e2bcf65ecadb2aac1b37193a4ee3ca55de53328cad338de028b1c",
+      "source": "Ascaso espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 2 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "Ascaso Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document"
+    },
+    {
+      "id": "7ccf3806659d0ccd2b578e77cb3904cad5848693a72dcbb2491a6d4362b25228",
+      "source": "Ascaso Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "metadata",
+      "context": "Ascaso Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document"
+    },
+    {
+      "id": "0f7c4ed6b0c538bbd6eb840246c8046ec3c7ced6f926c46a3922137276012703",
+      "source": "Ascaso, mapped.",
+      "kind": "text",
+      "context": "Ascaso, mapped."
+    },
+    {
+      "id": "90d741ea636ef8acb7948119c35435e424582dd49ffb1553641b71acfea29af8",
+      "source": "Modern, compact machines that prioritize speed without turning espresso into a push-button process.",
+      "kind": "text",
+      "context": "Modern, compact machines that prioritize speed without turning espresso into a push-button process."
+    },
+    {
+      "id": "34b4fc7895f1e5768c9f8bca81a76fe66e4c7da926b0b693d0dbf740a9e25e01",
+      "source": "Ascaso overview",
+      "kind": "attribute",
+      "context": "← All brands Spain · Thermoblock · hands-on Ascaso, mapped. Modern, compact machines that prioritize speed without turning espresso into a push-button process.   2machine reviews $$–$$$price position Balanced workflowworkflow"
+    },
+    {
+      "id": "4a616833dcd6193686044c864b531fb4c3c8d91cf251b2d6ce7363ce1db493a8",
+      "source": "Where Ascaso sits.",
+      "kind": "text",
+      "context": "Where Ascaso sits."
+    },
+    {
+      "id": "9ef53cb2f5cf17fb6720b13327d89a308737f24a299247749cd5bb3a3ae3e56f",
+      "source": "Ascaso: Balanced workflow",
+      "kind": "attribute",
+      "context": "Push-button easeHands-on control  Ascaso  Best for: Fast heat-up with real control"
+    },
+    {
+      "id": "605aaff4bcd159e0c723c0a6e611194b4d584b7e096c93527230783dbb88f2ea",
+      "source": "Fast warm-up",
+      "kind": "text",
+      "context": "Fast warm-up"
+    },
+    {
+      "id": "003aefc5f370f1d096c72429c97b59b25038f55e0777c8c620875e0435d5d0bb",
+      "source": "Compact footprint",
+      "kind": "text",
+      "context": "Compact footprint"
+    },
+    {
+      "id": "874bd98860c5b409e34606ce1aeddc85b9b6db5ed7d6ad12172ba0f57b0095df",
+      "source": "Modern controls",
+      "kind": "text",
+      "context": "Modern controls"
+    },
+    {
+      "id": "2428651b02f4ed7368ee8aab1016d4e15b466ad6885086031ee7086dcc483fbb",
+      "source": "Less traditional than a boiler-first machine.",
+      "kind": "text",
+      "context": "Less traditional than a boiler-first machine."
+    },
+    {
+      "id": "bd48c9e78216e8ea37a3406cda31b6207ccd4d092cd435518ebd0e67e0b1422d",
+      "source": "What Ascaso actually builds for.",
+      "kind": "text",
+      "context": "What Ascaso actually builds for."
+    },
+    {
+      "id": "0a9ed63fefc6838348c94d96e06534c137c54fb1c58434b7b24382a5a5b0aa66",
+      "source": "Ascaso uses fast-heating thermoblock technology to make a hands-on machine feel practical on a weekday. The emphasis is modern temperature control without the long warm-up of traditional prosumer hardware.",
+      "kind": "text",
+      "context": "Ascaso uses fast-heating thermoblock technology to make a hands-on machine feel practical on a weekday. The emphasis is modern temperature control without the long warm-up of traditional prosumer hardware."
+    },
+    {
+      "id": "8f88d820183479212d938f3765fc1f77983cbb32b53e485c2177a0a7095d1c3d",
+      "source": "It suits buyers who want to dial in a separate grinder but do not want the machine warming for half an hour. Water quality and routine cleaning still matter, but the daily start-up is unusually light.",
+      "kind": "text",
+      "context": "It suits buyers who want to dial in a separate grinder but do not want the machine warming for half an hour. Water quality and routine cleaning still matter, but the daily start-up is unusually light."
+    },
+    {
+      "id": "c4fa3de9e7c3195fd945063b5b67f857b627e8028a93baf452b3f37219a62c5b",
+      "source": "Steel Uno is the focused single-thermoblock route. Steel Duo adds simultaneous brew-and-steam ability for milk-heavy households.",
+      "kind": "text",
+      "context": "Steel Uno is the focused single-thermoblock route. Steel Duo adds simultaneous brew-and-steam ability for milk-heavy households."
+    },
+    {
+      "id": "05848d526b157d5f1d4369edea3d69b3a2498d108d46e65924424fd581239051",
+      "source": "Ascaso Coffee Finder",
+      "kind": "text",
+      "context": "Ascaso Coffee Finder"
+    },
+    {
+      "id": "0e759e665e97051d86cf2da7d81a14665d838528f5b4f5b871364abf165d9be8",
+      "source": "Find the Ascaso machine that fits your routine.",
+      "kind": "text",
+      "context": "Find the Ascaso machine that fits your routine."
+    },
+    {
+      "id": "e1564a2ab3292ad3b9f643186c1de85047bdd6b44bc0c6b657e144aba1a9a758",
+      "source": "Start with any constraint. This compact finder searches every Ascaso espresso-machine review; the full finder can compare the result with every brand.",
+      "kind": "text",
+      "context": "Start with any constraint. This compact finder searches every Ascaso espresso-machine review; the full finder can compare the result with every brand."
+    },
+    {
+      "id": "541acf04079c54ac9cd972fc589aacc56cb14b2bb91fd257e585a53bcb2799c3",
+      "source": "Ascaso and nearby brand alternatives",
+      "kind": "attribute",
+      "context": "BrandSystemPrice positionBest for   Ascaso Thermoblock · hands-on $$–$$$ Fast heat-up with real control Current  Lelit Boiler · hands-on $$–$$$$ Maximum capability per dollar Compare →  Bezzera Boiler · hands-on $$–$$$$ Traditional prosumer workflows Compare →"
+    },
+    {
+      "id": "4b33a494eac109dec285f57060d88274311d692dae72305a749f46bce9843470",
+      "source": "The Ascaso lineup.",
+      "kind": "text",
+      "context": "The Ascaso lineup."
+    },
+    {
+      "id": "98833f8c50e568c7b254fa061229054ba2ba1972f4e818bee54bd5a89afd56b8",
+      "source": "Ascaso Steel Duo PID",
+      "kind": "text",
+      "context": "Ascaso Steel Duo PID"
+    },
+    {
+      "id": "b8f61a1f89275d964594ecb1c4657f0df8723b50edb8b36b01c2188ec705a5ce",
+      "source": "Ascaso Steel Uno PID",
+      "kind": "text",
+      "context": "Ascaso Steel Uno PID"
+    },
+    {
+      "id": "6f45a51e2a48e41ef319deb0340deccf3ad3443496541ed0e4b7f22a6cb9cbe7",
+      "source": "Ascaso Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "f32c0fcfdb047fd9b156836ff0e7768e2760b065bbf6a9e29d204dc74dccda66",
+      "source": "Ascaso espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 2 Coffeedant reviews.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "9cd3bf483bb8a33e3cf7cfe2a13ef5b9ed7ce3d079eba63a154510eb3756a69a",
+      "source": "Ascaso, mapped.",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "718b4613ff7cbb94349130a808808805c6333f48da632c3fdb6336232ac4d1f9",
+      "source": "Bezzera Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "text",
+      "context": "Bezzera Espresso Machines: Compare the Lineup | Coffeedant"
+    },
+    {
+      "id": "f18b2b515b02a4de9c6ddf5c60ec94180ddea08d4cd49a0b11fe25c0ad6e9a1c",
+      "source": "Bezzera espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 8 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "Bezzera Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of documen"
+    },
+    {
+      "id": "700b6cde661594de703252525bf9c9212cd9b1d50c7185502cd6748371f81b68",
+      "source": "Bezzera Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "metadata",
+      "context": "Bezzera Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of documen"
+    },
+    {
+      "id": "cd691ab7cc1dea73f8a0e9d4ab001d011a21aee518e7ade07f7903fe9eb0310a",
+      "source": "Bezzera, mapped.",
+      "kind": "text",
+      "context": "Bezzera, mapped."
+    },
+    {
+      "id": "d415d1c57165cad303bf794def1ee81d46042c4490ee30ffb6536b6e77d0b57c",
+      "source": "A broad Italian lineup spanning compact single boilers, heat exchangers, dual boilers, and levers.",
+      "kind": "text",
+      "context": "A broad Italian lineup spanning compact single boilers, heat exchangers, dual boilers, and levers."
+    },
+    {
+      "id": "ce04f9ec3ec396955818670c5a67aab9dcf9c3f603234eaa960eac0f53ed04a9",
+      "source": "Bezzera overview",
+      "kind": "attribute",
+      "context": "← All brands Italy · Boiler · hands-on Bezzera, mapped. A broad Italian lineup spanning compact single boilers, heat exchangers, dual boilers, and levers.   8machine reviews $$–$$$$price position Control firstworkflow"
+    },
+    {
+      "id": "371da98f6e6f30dcf392d7975a630c9054d86c0cc0c3aa4331200c3f3109df70",
+      "source": "Where Bezzera sits.",
+      "kind": "text",
+      "context": "Where Bezzera sits."
+    },
+    {
+      "id": "1aad25d74076fea2dde118246520b2448dc4c6efd8eab037a261ea782bace5ba",
+      "source": "Bezzera: Control first",
+      "kind": "attribute",
+      "context": "Push-button easeHands-on control  Bezzera  Best for: Traditional prosumer workflows"
+    },
+    {
+      "id": "de47a8cd16d24f89815cf06ac38b164f89a410382562c17803dc6ac8f668e76a",
+      "source": "Deep lineup",
+      "kind": "text",
+      "context": "Deep lineup"
+    },
+    {
+      "id": "c40b03e6a0ce739722adfdc16bff282e9fa4b0b7a6e9353852e4e970bd254fe1",
+      "source": "Classic hardware",
+      "kind": "text",
+      "context": "Classic hardware"
+    },
+    {
+      "id": "a0f382ac58bbd27c1f2950b006eb6a44c145b892e745cf36752dfde68c16f88e",
+      "source": "Repairable platforms",
+      "kind": "text",
+      "context": "Repairable platforms"
+    },
+    {
+      "id": "2e28bac1edca6e31ff525159ba1abbd00b4d2de8282af015225fa1d73f647c65",
+      "source": "Choosing between similar models takes homework.",
+      "kind": "text",
+      "context": "Choosing between similar models takes homework."
+    },
+    {
+      "id": "c22ed0bb5f603f40363e57c4f4a6d3f970fbb495bac707f3622bc841b73ae40e",
+      "source": "What Bezzera actually builds for.",
+      "kind": "text",
+      "context": "What Bezzera actually builds for."
+    },
+    {
+      "id": "08062aaef9c01940a08cffafa07e728ea8acf2e51e8b6d90f73485bd8c4f5acf",
+      "source": "Bezzera stays close to traditional Italian espresso engineering. Its catalog spans simple single boilers, heat exchangers, dual boilers, and lever machines rather than forcing one house workflow.",
+      "kind": "text",
+      "context": "Bezzera stays close to traditional Italian espresso engineering. Its catalog spans simple single boilers, heat exchangers, dual boilers, and lever machines rather than forcing one house workflow."
+    },
+    {
+      "id": "7986148f0b6c4b87721cb6fd39f29b3d316b7e32f779e1127bdaf6d7cce4c487",
+      "source": "These are mechanical, serviceable machines for buyers comfortable pairing a grinder and learning temperature, dose, and steam timing. Model overlap is the bigger challenge than daily operation.",
+      "kind": "text",
+      "context": "These are mechanical, serviceable machines for buyers comfortable pairing a grinder and learning temperature, dose, and steam timing. Model overlap is the bigger challenge than daily operation."
+    },
+    {
+      "id": "9bb99c8a37ea84a6b62ac8f1250d3bd76bab83e6f2e25baac4b845a44efdea63",
+      "source": "Start with boiler arrangement: single boiler for espresso-first value, heat exchanger for milk-drink pace, dual boiler for independent control, or lever for a fully manual ritual.",
+      "kind": "text",
+      "context": "Start with boiler arrangement: single boiler for espresso-first value, heat exchanger for milk-drink pace, dual boiler for independent control, or lever for a fully manual ritual."
+    },
+    {
+      "id": "6d0ab690e8a9a63eb6e65f6ad4b80ff0a11de46667aa16748cc978e80960bd3e",
+      "source": "Bezzera Coffee Finder",
+      "kind": "text",
+      "context": "Bezzera Coffee Finder"
+    },
+    {
+      "id": "2e97953849c8413ba59f67795ef9c3183225cd02a32d5585ae90f4f1d805a0d7",
+      "source": "Find the Bezzera machine that fits your routine.",
+      "kind": "text",
+      "context": "Find the Bezzera machine that fits your routine."
+    },
+    {
+      "id": "d81c570a638bf86225fa5756bc961ff9e8845f33df990938a1bd0322bc8353dd",
+      "source": "Start with any constraint. This compact finder searches every Bezzera espresso-machine review; the full finder can compare the result with every brand.",
+      "kind": "text",
+      "context": "Start with any constraint. This compact finder searches every Bezzera espresso-machine review; the full finder can compare the result with every brand."
+    },
+    {
+      "id": "18a396a7de5c55c3a799d4564aa8aefbd289f6c5d3de22e57a04d2849de2415f",
+      "source": "Bezzera and nearby brand alternatives",
+      "kind": "attribute",
+      "context": "BrandSystemPrice positionBest for   Bezzera Boiler · hands-on $$–$$$$ Traditional prosumer workflows Current  Lelit Boiler · hands-on $$–$$$$ Maximum capability per dollar Compare →  Quick Mill Mixed boiler · hands-on $$–$$$$ A precise fit between entry and premium Compare →"
+    },
+    {
+      "id": "2d44ab2a517770e320edadd821a284cfe1d9468a070a0f56151ba7b944d1f4de",
+      "source": "The Bezzera lineup.",
+      "kind": "text",
+      "context": "The Bezzera lineup."
+    },
+    {
+      "id": "b0eef6d11a1deeecdde5f41530981f74aa14b57424d79a5605fcf0fa46159f9a",
+      "source": "Bezzera BZ09",
+      "kind": "text",
+      "context": "Bezzera BZ09"
+    },
+    {
+      "id": "13502ba0a0239bbb6de46020c51f3628406d2c7747f1cb9a13183510b8dceca0",
+      "source": "Bezzera BZ10",
+      "kind": "text",
+      "context": "Bezzera BZ10"
+    },
+    {
+      "id": "ca5674cfb1aa529e64cfe558f09699d2e2282aed0ada8f0868cfaf127203c538",
+      "source": "Bezzera BZ13 PID",
+      "kind": "text",
+      "context": "Bezzera BZ13 PID"
+    },
+    {
+      "id": "0ca800aa1be9d71a0ab593b62192a52f632708b68fd65fd74d9d8eee362f4ec8",
+      "source": "Bezzera Duo MN",
+      "kind": "text",
+      "context": "Bezzera Duo MN"
+    },
+    {
+      "id": "45a311994765c111293a086c0cf2d08040de958414f4215c5149c39406431f8a",
+      "source": "Bezzera Hobby",
+      "kind": "text",
+      "context": "Bezzera Hobby"
+    },
+    {
+      "id": "8200c54f97725214cc21a692d0927fe4feee2802e4a96eadb75e16e640b76c4f",
+      "source": "Bezzera Mitica Top PID",
+      "kind": "text",
+      "context": "Bezzera Mitica Top PID"
+    },
+    {
+      "id": "27cc8d42025c6ba1137598fd48602cf8a1eb6e1521b9b98c0e82c98d0555d0de",
+      "source": "Bezzera Strega",
+      "kind": "text",
+      "context": "Bezzera Strega"
+    },
+    {
+      "id": "8db3ee801ef527fc2b506bad8fdc1d5db0d74431b22507193abe0e03f90d11b7",
+      "source": "Bezzera Unica PID",
+      "kind": "text",
+      "context": "Bezzera Unica PID"
+    },
+    {
+      "id": "4ba333fbb846dd85161b773541c67550022f0988ee5ff88cab70b9c06fc88c6a",
+      "source": "Bezzera Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "502f5665b85c1b24433830240a35c20ac90a4d4fa3618882760888ad5d8880d8",
+      "source": "Bezzera espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 8 Coffeedant reviews.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "13d0c0736be9f0139e30aa6b83186d1327467f9d7d0745d42c47eb15d6ef71bc",
+      "source": "Bezzera, mapped.",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b47b456099b0e7b278ff84c6c8b80b2cbaeb2615b75e91956a31c3b0a4f1dc2a",
+      "source": "Breville Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "text",
+      "context": "Breville Espresso Machines: Compare the Lineup | Coffeedant"
+    },
+    {
+      "id": "7714c40e8d0042d78916d83d265c052fedf8a9d58f4e5ccec3fc3586dbdeedad",
+      "source": "Breville espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 11 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "Breville Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of docume"
+    },
+    {
+      "id": "f8ec8d1d2da8305c18773b39dbafb466a3fdb5e7789e0642652197d5be59aa85",
+      "source": "Breville Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "metadata",
+      "context": "Breville Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of docume"
+    },
+    {
+      "id": "ed2a738499fb124683a375d8deb015ab9a398d556db93824ca9457065c9f017d",
+      "source": "Breville, mapped.",
+      "kind": "text",
+      "context": "Breville, mapped."
+    },
+    {
+      "id": "3b6839c6bfd384283dc3731b760d3152956efda747bfc07facae5a6787fd248c",
+      "source": "A wide home lineup from compact manual machines to guided, grinder-equipped systems.",
+      "kind": "text",
+      "context": "A wide home lineup from compact manual machines to guided, grinder-equipped systems."
+    },
+    {
+      "id": "c0ae268f3b83ad5f8eb5938acaa614c8b9e8168bc43aa082179ce398d0280be1",
+      "source": "Breville overview",
+      "kind": "attribute",
+      "context": "← All brands Australia · Mixed · guided control Breville, mapped. A wide home lineup from compact manual machines to guided, grinder-equipped systems.   11machine reviews $–$$$$price position Balanced workflowworkflow"
+    },
+    {
+      "id": "47c8ce72e18e82db60b5487bc00fa9a2a0f68bf4cb95936752100beb1cfff0a9",
+      "source": "Where Breville sits.",
+      "kind": "text",
+      "context": "Where Breville sits."
+    },
+    {
+      "id": "5ca788ef7dc2538719f0ae1c2beecb734a446d09eb008a5c9f9c82b2d0855796",
+      "source": "Breville: Balanced workflow",
+      "kind": "attribute",
+      "context": "Push-button easeHands-on control  Breville  Best for: Learning without unnecessary friction"
+    },
+    {
+      "id": "508ea5f77e8b9c73e771e2f7e5c69cf418dafbbe94b59e04e13ed436c129b9f5",
+      "source": "Fast heat-up",
+      "kind": "text",
+      "context": "Fast heat-up"
+    },
+    {
+      "id": "679f07a08fb911b8f12483c383cecda6cd32c57c483e5f049340770b0505acee",
+      "source": "Clear controls",
+      "kind": "text",
+      "context": "Clear controls"
+    },
+    {
+      "id": "1e84109369dc358fa9b76ab911b1537f4040ec737176365bae78ff8c41c9f7cb",
+      "source": "Wide price range",
+      "kind": "text",
+      "context": "Wide price range"
+    },
+    {
+      "id": "da60e96402e5eb57be297e28b70178039a1989364d7c3e9d5a06a9b0be97df78",
+      "source": "Integrated systems trade modularity for convenience.",
+      "kind": "text",
+      "context": "Integrated systems trade modularity for convenience."
+    },
+    {
+      "id": "e246cbd86a04d257c64e92a24cd52c5a4fac6cb1a926460e3643c5efafad2e7e",
+      "source": "What Breville actually builds for.",
+      "kind": "text",
+      "context": "What Breville actually builds for."
+    },
+    {
+      "id": "7cf70cdfec43d388ac8cffb8a44e986a55a040454e1807fef1077ae93d6a588d",
+      "source": "Breville designs around the home user journey: quick heat-up, legible controls, guided dosing, and progressively more automation. The range bridges true manual practice and near-automatic assistance.",
+      "kind": "text",
+      "context": "Breville designs around the home user journey: quick heat-up, legible controls, guided dosing, and progressively more automation. The range bridges true manual practice and near-automatic assistance."
+    },
+    {
+      "id": "d929a977f02a9d2bf8e08921edfa5ff177d6c3c69fbea8fc983a7a5e4b4a8dcf",
+      "source": "It is easy to start, but integrated grinder models create a fixed system. Buyers who expect to upgrade the grinder separately should compare the Bambino and Dual Boiler routes first.",
+      "kind": "text",
+      "context": "It is easy to start, but integrated grinder models create a fixed system. Buyers who expect to upgrade the grinder separately should compare the Bambino and Dual Boiler routes first."
+    },
+    {
+      "id": "b837dbc144a3a253e1cc88a252a41f8ff3bf500ac4e8044f04bc030bda9425d2",
+      "source": "Bambino is compact and grinder-free. Barista models add an integrated grinder. Impress adds dosing and tamp help. Touch and Oracle models automate more of the workflow.",
+      "kind": "text",
+      "context": "Bambino is compact and grinder-free. Barista models add an integrated grinder. Impress adds dosing and tamp help. Touch and Oracle models automate more of the workflow."
+    },
+    {
+      "id": "0817eb6dccc3255962363eca172f42f5db912333835f7045b13c157cf9bbadd1",
+      "source": "Breville Coffee Finder",
+      "kind": "text",
+      "context": "Breville Coffee Finder"
+    },
+    {
+      "id": "b3fab1f785363b824bced2d7c93842fc1288e73780a13a79f3e8123bc01a5277",
+      "source": "Find the Breville machine that fits your routine.",
+      "kind": "text",
+      "context": "Find the Breville machine that fits your routine."
+    },
+    {
+      "id": "a8fc03f66bb576adb86b2ae41987c35f95e6b409d0288a99f5a2516df570d96f",
+      "source": "Start with any constraint. This compact finder searches every Breville espresso-machine review; the full finder can compare the result with every brand.",
+      "kind": "text",
+      "context": "Start with any constraint. This compact finder searches every Breville espresso-machine review; the full finder can compare the result with every brand."
+    },
+    {
+      "id": "b4d8276fa3e69e7fd6ab0b9e486d92dabe9381503b308e3248a5801f0f19e4d1",
+      "source": "Breville and nearby brand alternatives",
+      "kind": "attribute",
+      "context": "BrandSystemPrice positionBest for   Breville Mixed · guided control $–$$$$ Learning without unnecessary friction Current  Gaggia Mixed · broad lineup $–$$$ A proven first step into espresso Compare →  De'Longhi Mixed · convenience-led $–$$$ Milk drinks across every budget Compare →"
+    },
+    {
+      "id": "5bfe5317722220d936703267687a6d51b3bace697578ea25060f44af9273acba",
+      "source": "The Breville lineup.",
+      "kind": "text",
+      "context": "The Breville lineup."
+    },
+    {
+      "id": "b57c3116d370a3063c76d75e38bd055338d8fe9ea908c0607f92757cd22b5d86",
+      "source": "Bambino Plus Review & Basic Model Comparison: The tiny giant transforms first time owners into seasoned baristas",
+      "kind": "text",
+      "context": "Bambino Plus Review & Basic Model Comparison: The tiny giant transforms first time owners into seasoned baristas"
+    },
+    {
+      "id": "bc40c725db846d5445ae7a91b79fb42cd29cd2d46d266c0fbcd6b337c2d8b977",
+      "source": "Breville Barista Express",
+      "kind": "text",
+      "context": "Breville Barista Express"
+    },
+    {
+      "id": "cd00010ca31b49c99223874d75dbdc0a7ec7c1e70a3f971e2d554dc985ee55f6",
+      "source": "Breville Barista Express Impress",
+      "kind": "text",
+      "context": "Breville Barista Express Impress"
+    },
+    {
+      "id": "c18f9234a6d758e08d0e4c6d00836df37011746c134b5d3c544fda5d0bf8d5eb",
+      "source": "Breville Barista Pro",
+      "kind": "text",
+      "context": "Breville Barista Pro"
+    },
+    {
+      "id": "c338bc2679b6b1272b1ae078c69dd2171534c5623e6baa5275ecd9c4b7be7e37",
+      "source": "Breville Barista Touch",
+      "kind": "text",
+      "context": "Breville Barista Touch"
+    },
+    {
+      "id": "552b365c838ce66466167864df5372ca09497e10e6f3e858763375920a96562d",
+      "source": "Breville Barista Touch Impress BES881",
+      "kind": "text",
+      "context": "Breville Barista Touch Impress BES881"
+    },
+    {
+      "id": "c29ed4378edf6245a4a91ccea9e7d9a98a10292dfb6aa1ac0078c0d4fd186d6a",
+      "source": "Breville Dual Boiler BES920XL",
+      "kind": "text",
+      "context": "Breville Dual Boiler BES920XL"
+    },
+    {
+      "id": "e088388c0c2e22509b9124f4cac43ac0a56114f765b2a0064f9e3b4ec281d6a1",
+      "source": "Breville Dynamic Duo BEP920",
+      "kind": "text",
+      "context": "Breville Dynamic Duo BEP920"
+    },
+    {
+      "id": "70abf581752e2bab33ab7db2be010cf67e1f477b5f68fb8d33cb090c0bd5917c",
+      "source": "Breville Oracle BES980",
+      "kind": "text",
+      "context": "Breville Oracle BES980"
+    },
+    {
+      "id": "62ed731a6e96e39ab8867e92fbc27bb523bfbcbc8cf4a795837c148ece6a0395",
+      "source": "Breville Oracle Jet BES985",
+      "kind": "text",
+      "context": "Breville Oracle Jet BES985"
+    },
+    {
+      "id": "e80a41619ae878b4fa38de153865e547c5c472669c3dd32ad156cabbb8dccabf",
+      "source": "Breville Oracle Touch",
+      "kind": "text",
+      "context": "Breville Oracle Touch"
+    },
+    {
+      "id": "842f3c5e431e25d322028e4ffdefd8f35aa0e01cdffd85268f9acff7a76f0c69",
+      "source": "Breville Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b636aec149caeaf44639a461032ee1bdcbc30cdbaeac0ae65951ca28b02712b7",
+      "source": "Breville espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 11 Coffeedant reviews.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "e424547a9aa46351ceb258f45d0560b397eb474728f2e677cd5950da45681b75",
+      "source": "Breville, mapped.",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "7e9013b202b57611f1633ffd75dc5829995540198fff779a28a716de45bc593c",
+      "source": "Rancilio Silvia Pro X",
+      "kind": "text",
+      "context": "Rancilio Silvia Pro X ↗"
+    },
+    {
+      "id": "021bafea5dea92440cbbf88d1aecf221df37fb62c1ad8b1f7c535f7c731c09c9",
+      "source": "Profitec Pro 400",
+      "kind": "text",
+      "context": "Profitec Pro 400 ↗"
+    },
+    {
+      "id": "5f6a6ec1a2f8ed6b380e2bd5f629f78437125ba8c6e4c6214c1d719266770496",
+      "source": "Profitec GO",
+      "kind": "text",
+      "context": "Profitec GO ↗"
+    },
+    {
+      "id": "aa5e150418fa3223e8794ece491294bf0e9364d67b588e5585fb8dd942817ae3",
+      "source": "Profitec Pro 700",
+      "kind": "text",
+      "context": "Profitec Pro 700"
+    },
+    {
+      "id": "7af7f76d0873245ff0d5185529883359d2fa91897272b101d65cbc9b3750c903",
+      "source": "La Marzocco Linea Micra",
+      "kind": "text",
+      "context": "La Marzocco Linea Micra ↗"
+    },
+    {
+      "id": "e7e961acfb88f760265712f24e89326278f0e75cf32488e0e1f5a176d8ee5b8f",
+      "source": "Profitec Pro 500 PID",
+      "kind": "text",
+      "context": "Profitec Pro 500 PID ↗"
+    },
+    {
+      "id": "6896e81baf0432069a7a4e077a3dddf05007d65b6adbc246e77ed10fdae5ca50",
+      "source": "La Pavoni Europiccola",
+      "kind": "text",
+      "context": "La Pavoni Europiccola ↗"
+    },
+    {
+      "id": "bd5070bdf978b389fd67d5dae0eb8a00890935c9e3a197972479b76da6492006",
+      "source": "Profitec Pro 600",
+      "kind": "text",
+      "context": "Profitec Pro 600 ↗"
+    },
+    {
+      "id": "235de7070e274054713b7d9e8cfb144c3d7f53e264d5fa96902a842da613cb5b",
+      "source": "Rocket R Nine One",
+      "kind": "text",
+      "context": "Rocket R Nine One ↗"
+    },
+    {
+      "id": "1f30f69624662d6d7b45168dd92aa372aaf56e587f7dd4f3f0e2f18b25ef2c4e",
+      "source": "Rocket Appartamento TCA",
+      "kind": "text",
+      "context": "Rocket Appartamento TCA ↗"
+    },
+    {
+      "id": "66ea98a3c8500db9534381a7d30fc30995f9b79b60e0ff514cc8548d6ec95ada",
+      "source": "La Marzocco Linea Mini",
+      "kind": "text",
+      "context": "La Marzocco Linea Mini"
+    },
+    {
+      "id": "25d1ee4dfd5dc044f2fcffc7e2904d873f9c280b76a338d9df2264429a175eaf",
+      "source": "La Pavoni Cellini Classic",
+      "kind": "text",
+      "context": "La Pavoni Cellini Classic ↗"
+    },
+    {
+      "id": "858ac9501ff2336aebcc09f09e134e88760b851b9d9597aac049c5ce5aa14b46",
+      "source": "La Pavoni Mini Cellini",
+      "kind": "text",
+      "context": "La Pavoni Mini Cellini ↗"
+    },
+    {
+      "id": "b5e97d250620f9b65d7d34ec645c01f48e1cab0a906274fb382b784c054da257",
+      "source": "La Pavoni New Domus Bar",
+      "kind": "text",
+      "context": "La Pavoni New Domus Bar"
+    },
+    {
+      "id": "64b27ed862ae90fb025e375a231b0ddfe3ad3462f6eced38e12189327c3f5620",
+      "source": "Profitec Pro 800",
+      "kind": "text",
+      "context": "Profitec Pro 800 ↗"
+    },
+    {
+      "id": "00402d9721600756dd00317804d8dd2825978ade39c821e59ff04ca4d263f0f5",
+      "source": "Ninja Luxe Café Premier ES601",
+      "kind": "text",
+      "context": "Ninja Luxe Café Premier ES601"
+    },
+    {
+      "id": "d79a95c35347360b0a7e1460d963c7a937d4bba157b3b4b21f292f2833e71658",
+      "source": "Rancilio Silvia V6",
+      "kind": "text",
+      "context": "Rancilio Silvia V6Current North American Silvia, 120 V"
+    },
+    {
+      "id": "c168b9bfda161a5a0d936aeb844c19922baba3b746826303854c9b666a68be73",
+      "source": "Quick Mill QM67 Evo",
+      "kind": "text",
+      "context": "Quick Mill QM67 Evo"
+    },
+    {
+      "id": "28c8152417f9fd0b3a7dcf7b9c41635369c6854da9f503a4b3a5dee6ebac0561",
+      "source": "Quick Mill Alexia Evo",
+      "kind": "text",
+      "context": "Quick Mill Alexia Evo"
+    },
+    {
+      "id": "371788ed7e1195f2323a1c46f56521c52db4a015500175311afbe2c2015d1185",
+      "source": "Quick Mill Pippa 4100",
+      "kind": "text",
+      "context": "Quick Mill Pippa 4100"
+    },
+    {
+      "id": "d5557362b26ff27ee7fdb75954da7cbb3d370260abc4897daa892fc5bccfe99e",
+      "source": "Quick Mill Orione 3000",
+      "kind": "text",
+      "context": "Quick Mill Orione 3000"
+    },
+    {
+      "id": "3718896463c07a76654c3c98852bd7e9aa25396da978aa97ad324f341df7c493",
+      "source": "Quick Mill Vetrano 2B Evo",
+      "kind": "text",
+      "context": "Quick Mill Vetrano 2B Evo"
+    },
+    {
+      "id": "4510f3cfdc27cca987272ea404766fd13c45716e7f48a5ff14969357294a6c70",
+      "source": "Quick Mill Silvano Evo",
+      "kind": "text",
+      "context": "Quick Mill Silvano Evo"
+    },
+    {
+      "id": "c2c18af797018cb9917018d12a63ff22e710cdb1bc6a166db108a094bfca0b2b",
+      "source": "Quick Mill Rubino 0981",
+      "kind": "text",
+      "context": "Quick Mill Rubino 0981 ↗"
+    },
+    {
+      "id": "55d3dddcb4dcf2dd1f0d461689ce056408fafb5a1da8ded17e5f32afcd9675dc",
+      "source": "Quick Mill Andreja Premium Evo",
+      "kind": "text",
+      "context": "Quick Mill Andreja Premium Evo"
+    },
+    {
+      "id": "0792e87f45b8bab3509a52c048f191beaa7f7bd2f407cb3a50a200110f70fc4e",
+      "source": "Distinctive design",
+      "kind": "text",
+      "context": "Distinctive design"
+    },
+    {
+      "id": "0bb5389c7470c31d28a5e06f88d5b53557cff4c414f349a9ff0435d5db30a27a",
+      "source": "Rocket Giotto Cronometro R",
+      "kind": "text",
+      "context": "Rocket Giotto Cronometro R ↗"
+    },
+    {
+      "id": "d25a512274ed533ac568deae8a4c6fed555009659ff36da92e936e9f850a5726",
+      "source": "Rocket Mozzafiato Cronometro R",
+      "kind": "text",
+      "context": "Rocket Mozzafiato Cronometro R ↗"
+    },
+    {
+      "id": "ee48e2244ed70a4ef4a034b758f94fdd36f716b67eec14a2b30696e1d9216353",
+      "source": "La Marzocco Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "text",
+      "context": "La Marzocco Espresso Machines: Compare the Lineup | Coffeedant"
+    },
+    {
+      "id": "239f1f5ccf6f8fef3b7e2be00f53d41e62e151e721ecebc411f6e4d527a979db",
+      "source": "La Marzocco espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 2 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "La Marzocco Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of doc"
+    },
+    {
+      "id": "85cf468c43aaa16413295ad35e50a0a3a015f1ea2ae2bb755377d3cdd5386e94",
+      "source": "La Marzocco Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "metadata",
+      "context": "La Marzocco Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of doc"
+    },
+    {
+      "id": "6463ee1eea8c2a2ec4e711b509fee477cf56fc447011b6a9650d64986dcdd713",
+      "source": "La Marzocco, mapped.",
+      "kind": "text",
+      "context": "La Marzocco, mapped."
+    },
+    {
+      "id": "9a6f2c771eb44d30c31e04dcb6f855e87b035807d1a13ac75011c94d6fcbac8a",
+      "source": "Premium home machines adapted from a commercial espresso heritage, with stability and steam power first.",
+      "kind": "text",
+      "context": "Premium home machines adapted from a commercial espresso heritage, with stability and steam power first."
+    },
+    {
+      "id": "451fd2a9ef828a6ae76738a423282a29e34cd74c94fe44d43e8c332b270cff61",
+      "source": "La Marzocco overview",
+      "kind": "attribute",
+      "context": "← All brands Italy · Dual boiler · hands-on La Marzocco, mapped. Premium home machines adapted from a commercial espresso heritage, with stability and steam power first.   2machine reviews $$$$price position Control firstworkflow"
+    },
+    {
+      "id": "961ab88ae856dbba3e5c576b8357721bc62c8ef0437eb8c843b87dd9f985ba14",
+      "source": "Where La Marzocco sits.",
+      "kind": "text",
+      "context": "Where La Marzocco sits."
+    },
+    {
+      "id": "3a88e27368c667c21ceb2117c448f01015aec8d094a189e6ec51f6045968dce0",
+      "source": "La Marzocco: Control first",
+      "kind": "attribute",
+      "context": "Push-button easeHands-on control  La Marzocco  Best for: Commercial-style performance at home"
+    },
+    {
+      "id": "7ef71b3e4136bdf9f7415730eb1885d389585bb0fb4d8d7d9b0f7986109bb255",
+      "source": "Temperature stability",
+      "kind": "text",
+      "context": "Temperature stability"
+    },
+    {
+      "id": "d1597f4115cb1bcfa2ae3bccd9b2ffe7278d22f7cbb2df58334304729e05ef97",
+      "source": "Powerful steam",
+      "kind": "text",
+      "context": "Powerful steam"
+    },
+    {
+      "id": "60cde9a94fc9eb90d0e37bfa786515efc264c5a4f7f8e3530b53056d92040dac",
+      "source": "Premium build",
+      "kind": "text",
+      "context": "Premium build"
+    },
+    {
+      "id": "97390703f032881e519b95b38e53f743d5305f451b360f79da289c1d0a226852",
+      "source": "Price and footprint are difficult to justify for casual users.",
+      "kind": "text",
+      "context": "Price and footprint are difficult to justify for casual users."
+    },
+    {
+      "id": "4e548875243a956c09f116d1666ffda20fc58f8e9e3c085af7a816226bf57f11",
+      "source": "What La Marzocco actually builds for.",
+      "kind": "text",
+      "context": "What La Marzocco actually builds for."
+    },
+    {
+      "id": "83ea0141d306c2b91afa69f65036154c36a11f6b2981f48c47b5ea6fb1f50980",
+      "source": "La Marzocco brings commercial-style thermal stability and steam performance into a home format. The machines assume the buyer wants direct control and already values a serious grinder.",
+      "kind": "text",
+      "context": "La Marzocco brings commercial-style thermal stability and steam performance into a home format. The machines assume the buyer wants direct control and already values a serious grinder."
+    },
+    {
+      "id": "1ea196a0ee22d38340df41dcf1322fadf4b74ed73ff4d9347b2c67f762323c57",
+      "source": "They reward careful puck preparation and regular backflushing. Cost, counter depth, electrical demand, and service access matter more than feature count.",
+      "kind": "text",
+      "context": "They reward careful puck preparation and regular backflushing. Cost, counter depth, electrical demand, and service access matter more than feature count."
+    },
+    {
+      "id": "ac80da5b658d6842d341c87efdb92e141f052340b999cf43b3005c0bd4b5a25f",
+      "source": "Linea Micra is the more compact home-first choice. Linea Mini increases presence, capacity, and the sense of working on a small commercial platform.",
+      "kind": "text",
+      "context": "Linea Micra is the more compact home-first choice. Linea Mini increases presence, capacity, and the sense of working on a small commercial platform."
+    },
+    {
+      "id": "3a4a937fa16c1bf403a08d3e7cc23715fd3bed8ebb9bf783f9828164cc695379",
+      "source": "La Marzocco Coffee Finder",
+      "kind": "text",
+      "context": "La Marzocco Coffee Finder"
+    },
+    {
+      "id": "cd61ee48f9dddebf2b0dad00ad838bcd16c0df56e9c3b5239c764e1cbcdfc951",
+      "source": "Find the La Marzocco machine that fits your routine.",
+      "kind": "text",
+      "context": "Find the La Marzocco machine that fits your routine."
+    },
+    {
+      "id": "d2c7d9a0bcc26410b21c2633b766af958d0b47e6002028d1a386ab0252606354",
+      "source": "Start with any constraint. This compact finder searches every La Marzocco espresso-machine review; the full finder can compare the result with every brand.",
+      "kind": "text",
+      "context": "Start with any constraint. This compact finder searches every La Marzocco espresso-machine review; the full finder can compare the result with every brand."
+    },
+    {
+      "id": "a7978217f6638cce1273ba7b0e768c35f00d2cb5d5eaff208deb9968447feb2c",
+      "source": "La Marzocco and nearby brand alternatives",
+      "kind": "attribute",
+      "context": "BrandSystemPrice positionBest for   La Marzocco Dual boiler · hands-on $$$$ Commercial-style performance at home Current  La Pavoni Lever/boiler · manual $$–$$$$ Hands-on ritual and direct feedback Compare →  Rocket Espresso Boiler · hands-on $$$–$$$$ Design-led prosumer setups Compare →"
+    },
+    {
+      "id": "f4082afeafbb43f7e6ae6a1ba7ad243a1a11c649d7f3b30d6ba477d31909c03c",
+      "source": "The La Marzocco lineup.",
+      "kind": "text",
+      "context": "The La Marzocco lineup."
+    },
+    {
+      "id": "54f359e02d269075424a86d055b9569693f512bcf33d3dcea937ae1cf6d76b1e",
+      "source": "La Marzocco Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "12d0f6e16019a8e2d79218f13f11d565f99c84c523ce0cb317c200fdce8e2db6",
+      "source": "La Marzocco espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 2 Coffeedant reviews.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "c2241f01fd6284e34dceceaffcbbc5fd13016663f245b224f392a0f5778c7fcf",
+      "source": "La Marzocco, mapped.",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "8dfe133b9cb20c4454b0912f1de1b2079b8d67f5c50e653cba582502812961de",
+      "source": "La Pavoni Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "text",
+      "context": "La Pavoni Espresso Machines: Compare the Lineup | Coffeedant"
+    },
+    {
+      "id": "b4f130c7bfb6b293356c0667014146e387313879503ce57485439b3092d249b8",
+      "source": "La Pavoni espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 4 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "La Pavoni Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of docum"
+    },
+    {
+      "id": "2c69fb3596ffc2bb5704786fb0f80f7188f81cc174b26e12db2570442c787ddb",
+      "source": "La Pavoni Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "metadata",
+      "context": "La Pavoni Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of docum"
+    },
+    {
+      "id": "b8154b15ce5238b6ae4225709c72363545045e1138ab594f6d896e118b814062",
+      "source": "La Pavoni, mapped.",
+      "kind": "text",
+      "context": "La Pavoni, mapped."
+    },
+    {
+      "id": "89d762032b41f1557e305f5e67448b31e6c9fb89339b4393b3d2993b69c8c81f",
+      "source": "Heritage machines for buyers who want to control the shot physically rather than automate it.",
+      "kind": "text",
+      "context": "Heritage machines for buyers who want to control the shot physically rather than automate it."
+    },
+    {
+      "id": "aa8666639ccf428d9583664842a6f7e9ba030a1d2fffc987ee9ca915c171c66e",
+      "source": "La Pavoni overview",
+      "kind": "attribute",
+      "context": "← All brands Italy · Lever/boiler · manual La Pavoni, mapped. Heritage machines for buyers who want to control the shot physically rather than automate it.   4machine reviews $$–$$$$price position Control firstworkflow"
+    },
+    {
+      "id": "d088cc46d8020c8780bb807a203e96773d750c1f1a4a0de0e6b4f129e9cfd069",
+      "source": "Where La Pavoni sits.",
+      "kind": "text",
+      "context": "Where La Pavoni sits."
+    },
+    {
+      "id": "eb76f05d48ba701c86d4bc7ba3449fb795173e9e027835fbcdbe160f92615dfd",
+      "source": "La Pavoni: Control first",
+      "kind": "attribute",
+      "context": "Push-button easeHands-on control  La Pavoni  Best for: Hands-on ritual and direct feedback"
+    },
+    {
+      "id": "7433e49ce66c8509c4c4432f9522f3867e4f619f9a05500a3efcb213dffca1b3",
+      "source": "Direct control",
+      "kind": "text",
+      "context": "Direct control"
+    },
+    {
+      "id": "fbe07220dcaa54a8c214da00bb897d9dacd7b7f9431a224c2a3c68d48bb30244",
+      "source": "Iconic design",
+      "kind": "text",
+      "context": "Iconic design"
+    },
+    {
+      "id": "0e77a49834832d29088c2e3770f86a3bfcf302cb0efc576d414a9626fcbda08b",
+      "source": "Simple mechanics",
+      "kind": "text",
+      "context": "Simple mechanics"
+    },
+    {
+      "id": "58f15027deba0227142d8de459d5304ceca8ec675766bcf7a605d04f05390cc5",
+      "source": "A steep learning curve and little forgiveness.",
+      "kind": "text",
+      "context": "A steep learning curve and little forgiveness."
+    },
+    {
+      "id": "4b5085508c80c45811d2c39c51c05287a62933465e0b5204e2b5f91152255121",
+      "source": "What La Pavoni actually builds for.",
+      "kind": "text",
+      "context": "What La Pavoni actually builds for."
+    },
+    {
+      "id": "0d6c0c6171abe93dd94fca1657e990968495b89b5cb2471fa0ebba5d0b715f85",
+      "source": "La Pavoni is defined by direct physical involvement. Lever pressure, temperature management, and timing remain visible rather than being hidden behind automation.",
+      "kind": "text",
+      "context": "La Pavoni is defined by direct physical involvement. Lever pressure, temperature management, and timing remain visible rather than being hidden behind automation."
+    },
+    {
+      "id": "bde9d55bace5e5e7192140d8c918262875b21ce7f1b5dfea5851c5f15e17c0cb",
+      "source": "The ritual is the reason to buy, not a problem to engineer away. It suits patient users willing to learn a narrow, expressive workflow.",
+      "kind": "text",
+      "context": "The ritual is the reason to buy, not a problem to engineer away. It suits patient users willing to learn a narrow, expressive workflow."
+    },
+    {
+      "id": "d464cf369e673e615ee5ea14aee887ee26b15c26a9007c6ad7040631a483d950",
+      "source": "Europiccola represents the classic lever path. Cellini and Domus models move toward conventional pump-driven prosumer operation.",
+      "kind": "text",
+      "context": "Europiccola represents the classic lever path. Cellini and Domus models move toward conventional pump-driven prosumer operation."
+    },
+    {
+      "id": "7cd7287cbc90f348815e541b3ed585428b789212b36a6400b0b8f7429e4d891f",
+      "source": "La Pavoni Coffee Finder",
+      "kind": "text",
+      "context": "La Pavoni Coffee Finder"
+    },
+    {
+      "id": "a42baa7cbd87141f10aae94eb80fcf1d3de9cd43be6ad310235c071a35ef8683",
+      "source": "Find the La Pavoni machine that fits your routine.",
+      "kind": "text",
+      "context": "Find the La Pavoni machine that fits your routine."
+    },
+    {
+      "id": "8deedc117be63bed77c74eb93e91574f05ea3ddbf8f5f198b5aa7e117ad97b7d",
+      "source": "Start with any constraint. This compact finder searches every La Pavoni espresso-machine review; the full finder can compare the result with every brand.",
+      "kind": "text",
+      "context": "Start with any constraint. This compact finder searches every La Pavoni espresso-machine review; the full finder can compare the result with every brand."
+    },
+    {
+      "id": "7554cb12b6f2549b4a480483a65f2b104e418877babcfb0fb4d9650e72c21bb5",
+      "source": "La Pavoni and nearby brand alternatives",
+      "kind": "attribute",
+      "context": "BrandSystemPrice positionBest for   La Pavoni Lever/boiler · manual $$–$$$$ Hands-on ritual and direct feedback Current  La Marzocco Dual boiler · hands-on $$$$ Commercial-style performance at home Compare →  Rocket Espresso Boiler · hands-on $$$–$$$$ Design-led prosumer setups Compare →"
+    },
+    {
+      "id": "67101495f87bdb87a78cc97b44851eb2a152095c34e313daa723ef297a950eeb",
+      "source": "The La Pavoni lineup.",
+      "kind": "text",
+      "context": "The La Pavoni lineup."
+    },
+    {
+      "id": "545c641c30e3c703af787b2cb07a8580e40ff30121e994f329eae49ca944e2bd",
+      "source": "La Pavoni Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "2f7cddfd37363d0d4e1e7f9d0828b84128dfea4bd73b07129bc40532066dac52",
+      "source": "La Pavoni espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 4 Coffeedant reviews.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "d1c622bcc1912c5a6271cc4b2f4ebe13b77ed427dfdbcecc59b578356633ec08",
+      "source": "La Pavoni, mapped.",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "e40bc6da6ab4b1d84f295bd0c7f85b97f065a9e02f87c5186357d03e7fd7d46e",
+      "source": "Nespresso Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "text",
+      "context": "Nespresso Espresso Machines: Compare the Lineup | Coffeedant"
+    },
+    {
+      "id": "d382cdeee4ef62eea26896e48eaa306b605737c89b60c783ed30410124075cdc",
+      "source": "Nespresso espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 1 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "Nespresso Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of docum"
+    },
+    {
+      "id": "a9d0cb6a2ec5f2c1b0c378935d0b41af652bfdfcec920d12cfc4c2a19b2d5062",
+      "source": "Nespresso Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "metadata",
+      "context": "Nespresso Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of docum"
+    },
+    {
+      "id": "a96c8b33d711e45f443eaca7de1bcaad1585ebbd3ff862e1348fb02c845e157a",
+      "source": "Nespresso, mapped.",
+      "kind": "text",
+      "context": "Nespresso, mapped."
+    },
+    {
+      "id": "040da07770099cf13671246ffb8f8cb452909dae5963316bfebe41b2ef108e5c",
+      "source": "Capsule systems for buyers who prioritize speed, consistency, and minimal cleanup over adjustment.",
+      "kind": "text",
+      "context": "Capsule systems for buyers who prioritize speed, consistency, and minimal cleanup over adjustment."
+    },
+    {
+      "id": "a544075e283bd0bb394f8c542546c34b14b401ea2ed334ca9c84a5df90c683e3",
+      "source": "Nespresso overview",
+      "kind": "attribute",
+      "context": "← All brands Switzerland · Capsule · automatic Nespresso, mapped. Capsule systems for buyers who prioritize speed, consistency, and minimal cleanup over adjustment.   1machine reviews $–$$price position Convenience firstworkflow"
+    },
+    {
+      "id": "67dec4a7416e717b664650bd3cb2ccd1827f9d6b314b5f9ba7e04d163a41e39b",
+      "source": "Where Nespresso sits.",
+      "kind": "text",
+      "context": "Where Nespresso sits."
+    },
+    {
+      "id": "e800443c6b771f11a74982e93ec1abc2fcebda620d0206293491995b4322de5d",
+      "source": "Nespresso: Convenience first",
+      "kind": "attribute",
+      "context": "Push-button easeHands-on control  Nespresso  Best for: Speed and zero learning curve"
+    },
+    {
+      "id": "d72be45c57c78cb8bb0169cd94e161bbe084e5954ac6a21615dfb8d5fe008043",
+      "source": "Very fast",
+      "kind": "text",
+      "context": "Very fast"
+    },
+    {
+      "id": "27333e3997590da8a8d76b6efae885fc9171dfdb6336b2d6b1982e257db19b18",
+      "source": "Consistent",
+      "kind": "text",
+      "context": "Consistent"
+    },
+    {
+      "id": "0e232d40b9e51211cf235e4f5998cdca259cef1903722be1cc6379b94329eb67",
+      "source": "Minimal cleanup",
+      "kind": "text",
+      "context": "Minimal cleanup"
+    },
+    {
+      "id": "5d6af59e8375065dc8f6b77b679306dc5a15d05a31a7eaf2a3a84ebaafb622bf",
+      "source": "Capsule cost and limited control over fresh coffee.",
+      "kind": "text",
+      "context": "Capsule cost and limited control over fresh coffee."
+    },
+    {
+      "id": "e2e5595ee844d02e709c71ab9c26457e024f32fda3c147ce975a0e1b8f5b8311",
+      "source": "What Nespresso actually builds for.",
+      "kind": "text",
+      "context": "What Nespresso actually builds for."
+    },
+    {
+      "id": "bcb7082e6760e520bd51ba566236a258a1468d3a3fa6b07851d09ae2dc74d093",
+      "source": "Nespresso optimizes for speed, consistency, and almost no cleanup. Capsule choice replaces grinder adjustment, dosing, and most preparation decisions.",
+      "kind": "text",
+      "context": "Nespresso optimizes for speed, consistency, and almost no cleanup. Capsule choice replaces grinder adjustment, dosing, and most preparation decisions."
+    },
+    {
+      "id": "0d1ac23cedac3ac4311ffb392614d469ae64dab1f35515aeec5ce360aeeffad7",
+      "source": "Convenience is excellent, but capsule cost, waste, and limited control compound over time. Compare the full routine, not only the machine purchase price.",
+      "kind": "text",
+      "context": "Convenience is excellent, but capsule cost, waste, and limited control compound over time. Compare the full routine, not only the machine purchase price."
+    },
+    {
+      "id": "ec50ddf0b56ca1eb2d9efeb5e9431d5ac0444cae35951b509d1e484ff3500f0b",
+      "source": "Original-style systems prioritize short espresso-like drinks. Vertuo expands cup sizes through a different capsule and brewing system.",
+      "kind": "text",
+      "context": "Original-style systems prioritize short espresso-like drinks. Vertuo expands cup sizes through a different capsule and brewing system."
+    },
+    {
+      "id": "526e4f07786fca6a6393e65fc9d9f865bc701d0d374767187463f8c50a970c3f",
+      "source": "Nespresso Coffee Finder",
+      "kind": "text",
+      "context": "Nespresso Coffee Finder"
+    },
+    {
+      "id": "58f0cf8729c91cd00618c1e9078070159f91106d46fc428b4b6cc7575ab5eacb",
+      "source": "Find the Nespresso machine that fits your routine.",
+      "kind": "text",
+      "context": "Find the Nespresso machine that fits your routine."
+    },
+    {
+      "id": "7092d47d7f1aae8051d21ef20d10b2420c384385d64d44579ba40c2bb5410f4d",
+      "source": "Start with any constraint. This compact finder searches every Nespresso espresso-machine review; the full finder can compare the result with every brand.",
+      "kind": "text",
+      "context": "Start with any constraint. This compact finder searches every Nespresso espresso-machine review; the full finder can compare the result with every brand."
+    },
+    {
+      "id": "1d7731d2f137dccc103a95a8a00775ed4867d99dc914f0861987462b5e0c5d3f",
+      "source": "Nespresso and nearby brand alternatives",
+      "kind": "attribute",
+      "context": "BrandSystemPrice positionBest for   Nespresso Capsule · automatic $–$$ Speed and zero learning curve Current  Jura Bean-to-cup · automatic $$$–$$$$ Premium automation Compare →  Philips Bean-to-cup · automatic $$–$$$ Easy milk drinks and cleanup Compare →"
+    },
+    {
+      "id": "cb0fffc4b53127acfb6b2a3c76b7d9b0e70f067d5c64188449ae7cf414781731",
+      "source": "The Nespresso lineup.",
+      "kind": "text",
+      "context": "The Nespresso lineup."
+    },
+    {
+      "id": "f6c3b959c91cfdc018ad2768cf9f1b579d123973a0da27e8f6234a7ffc6e6a91",
+      "source": "Nespresso VertuoPlus",
+      "kind": "text",
+      "context": "Nespresso VertuoPlus"
+    },
+    {
+      "id": "481828accabae3d85c9cd8fcc1b3d8f214d5235e2fdba6568956806d2094e4ed",
+      "source": "Nespresso Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "5b09d8d8f13f5680c4076548d71de235745af3a0d812bb25d5d1d18ca3b52e0a",
+      "source": "Nespresso espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 1 Coffeedant reviews.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "9fc63da9da49a8c4a87ae6b202fed3480020d49e983af375e8819d12981dcf6e",
+      "source": "Nespresso, mapped.",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "0f9c532c288367d0a24279a0b3cc89b8dfa25b13ce0707cb9e50e6b6a4c5b570",
+      "source": "Ninja Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "text",
+      "context": "Ninja Espresso Machines: Compare the Lineup | Coffeedant"
+    },
+    {
+      "id": "80b599dde8eff55bec7eef3c1b644b038ef4e15cdbf4feca1fd40e362d72b3eb",
+      "source": "Ninja espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 1 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "Ninja Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document."
+    },
+    {
+      "id": "584300b84d552e245fc519a390b09bab0015295531a3da047b066f26cfdbf445",
+      "source": "Ninja Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "metadata",
+      "context": "Ninja Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document."
+    },
+    {
+      "id": "c110a34a704b48ed040f8be636975bb06649e7c8422af9311ada241432c0af9e",
+      "source": "Ninja, mapped.",
+      "kind": "text",
+      "context": "Ninja, mapped."
+    },
+    {
+      "id": "882c3c64fc72761738f5a96ca6b3fe063316d729658879bfbcc25778e558534e",
+      "source": "The reviewed Luxe Café Premier ES601 combines guided espresso, drip coffee and rapid cold drinks with an integrated grinder and milk frothing.",
+      "kind": "text",
+      "context": "The reviewed Luxe Café Premier ES601 combines guided espresso, drip coffee and rapid cold drinks with an integrated grinder and milk frothing."
+    },
+    {
+      "id": "3aecb1e1bf9a39aa2f811d6e3672683f44956118a00adb199308cc361d464444",
+      "source": "Ninja overview",
+      "kind": "attribute",
+      "context": "← All brands United States · Guided · multi-drink Ninja, mapped. The reviewed Luxe Café Premier ES601 combines guided espresso, drip coffee and rapid cold drinks with an integrated grinder and milk frothing.   1machine reviews $$price position Convenience firstworkflow"
+    },
+    {
+      "id": "c7e68b579beeb07c9197aabe58a300eb5a5f64e6e36da9184e89e85356d8af8c",
+      "source": "Where Ninja sits.",
+      "kind": "text",
+      "context": "Where Ninja sits."
+    },
+    {
+      "id": "6b44a4ac6fdc382cb3f9a3ea8a5d2d0c5d0d3f0489b23ac8296a8f4ee2c9ead5",
+      "source": "Ninja: Convenience first",
+      "kind": "attribute",
+      "context": "Push-button easeHands-on control  Ninja  Best for: Espresso, drip and cold drinks in one station"
+    },
+    {
+      "id": "e67322cf97185f9395640406d2163fd8b74588dd98988f83644bad067532e417",
+      "source": "Drink variety",
+      "kind": "text",
+      "context": "Drink variety"
+    },
+    {
+      "id": "b2b12e77568ce2ba2c720c090c8fed7f25287c46034b5231a71078aae9804d59",
+      "source": "Guided dosing",
+      "kind": "text",
+      "context": "Guided dosing"
+    },
+    {
+      "id": "9e474923482976687422f81925a9c6f8be7054e2785eb27380fe6d1468eb5028",
+      "source": "Frothing presets",
+      "kind": "text",
+      "context": "Frothing presets"
+    },
+    {
+      "id": "1595d8a3a02fdcf81848524eab49ab23778dacdac622b61eb6cc049518e2612e",
+      "source": "The grinder and brewer share one appliance and several cleaning paths.",
+      "kind": "text",
+      "context": "The grinder and brewer share one appliance and several cleaning paths."
+    },
+    {
+      "id": "ce4901556206173c6354f16c7e6e5712a8d1c000f6560cf216c366424c16d360",
+      "source": "What Ninja actually builds for.",
+      "kind": "text",
+      "context": "What Ninja actually builds for."
+    },
+    {
+      "id": "3ff2a62c6ee8cb04ee31cabee8ec23b61f52535551074dc79b2e60a6740f1dda",
+      "source": "Ninja’s reviewed Luxe Café Premier ES601 puts guided grinding, measured coffee dose, espresso, drip, rapid cold drinks and frothing in one station. It asks the owner to move the portafilter and manage the results rather than hiding every action.",
+      "kind": "text",
+      "context": "Ninja’s reviewed Luxe Café Premier ES601 puts guided grinding, measured coffee dose, espresso, drip, rapid cold drinks and frothing in one station. It asks the owner to move the portafilter and manage the results rather than hiding every action."
+    },
+    {
+      "id": "2ff0ef9b708de7e513739653cbd1202048396c274117eef32504882f02eda2d2",
+      "source": "One counter station can simplify a mixed-drink household. The integrated grinder and brewer are coupled, and coffee, milk and water need distinct cleaning routines. Check exact model, support and return terms.",
+      "kind": "text",
+      "context": "One counter station can simplify a mixed-drink household. The integrated grinder and brewer are coupled, and coffee, milk and water need distinct cleaning routines. Check exact model, support and return terms."
+    },
+    {
+      "id": "6f784b876328f2f5f427b047d19f4074393d3cdc6b6d95a922a8e3e281ffce28",
+      "source": "Coffeedant currently reviews the US Premier ES601. Essential, Mini and Pro models differ in functions and package; their specifications are not assigned to this review.",
+      "kind": "text",
+      "context": "Coffeedant currently reviews the US Premier ES601. Essential, Mini and Pro models differ in functions and package; their specifications are not assigned to this review."
+    },
+    {
+      "id": "cd0f299c463920922922e3f4e783efb7ef29b0322096467837c1f790413ba4f6",
+      "source": "Ninja Coffee Finder",
+      "kind": "text",
+      "context": "Ninja Coffee Finder"
+    },
+    {
+      "id": "9c83d923d6e93ae0937ff699110fcaac7d2935511e3f82f5e361bc2c977ff092",
+      "source": "Find the Ninja machine that fits your routine.",
+      "kind": "text",
+      "context": "Find the Ninja machine that fits your routine."
+    },
+    {
+      "id": "ade8d0738f5ef35c28161e467670da03c7ce4d35e65c9c9d5eb9d6f61c3c25a5",
+      "source": "Start with any constraint. This compact finder searches every Ninja espresso-machine review; the full finder can compare the result with every brand.",
+      "kind": "text",
+      "context": "Start with any constraint. This compact finder searches every Ninja espresso-machine review; the full finder can compare the result with every brand."
+    },
+    {
+      "id": "1d4a35e3157a65d397921f989319051034e8f211f26bd95b3e6201636e46d5a6",
+      "source": "Ninja and nearby brand alternatives",
+      "kind": "attribute",
+      "context": "BrandSystemPrice positionBest for   Ninja Guided · multi-drink $$ Espresso, drip and cold drinks in one station Current  De'Longhi Mixed · convenience-led $–$$$ Milk drinks across every budget Compare →  Krups Mixed · compact $–$$$ Small kitchens and simple drinks Compare →"
+    },
+    {
+      "id": "27cf892623edf742bb08046d8606befcf89928f739420f5353e9da4627ee3488",
+      "source": "The Ninja lineup.",
+      "kind": "text",
+      "context": "The Ninja lineup."
+    },
+    {
+      "id": "3fa181c9e9161a2873ada56a5bc11458a843c974cc3235ab1a52e007daeb3fb0",
+      "source": "Ninja Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "38810d32209a9222bbedc2b59a79fef9bebd8a2ebbc63279c4a5362d7b9f4dcf",
+      "source": "Ninja espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 1 Coffeedant reviews.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "cc09acb59b84a8c2e2fc1f2e1717e57057976513fe96463044efa89c0207c162",
+      "source": "Ninja, mapped.",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "4c2a8518e60a7fa7507958def18cda2950f019bac172f2edff8c1cef83f9435f",
+      "source": "Profitec Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "text",
+      "context": "Profitec Espresso Machines: Compare the Lineup | Coffeedant"
+    },
+    {
+      "id": "de68e247a35357385f94c1e45a7f29689cf3f3c45e2a3d02c5ecc816e25b9ea9",
+      "source": "Profitec espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 6 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "Profitec Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of docume"
+    },
+    {
+      "id": "6c098c0484689e1e96ad084190e7e802e28dee80fc1a80227ffa3e129351549c",
+      "source": "Profitec Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "metadata",
+      "context": "Profitec Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of docume"
+    },
+    {
+      "id": "e4e95cbe7f96af878d5cb61fbfd91db880eb7f29ba512bcdc6b7eb8a19b5080a",
+      "source": "Profitec, mapped.",
+      "kind": "text",
+      "context": "Profitec, mapped."
+    },
+    {
+      "id": "54438cd7f2373ee784c7add1101a9be3c9888cdbc9ba3cf36ad462b9c14a82f1",
+      "source": "A tightly tiered lineup that progresses from compact PID machines to powerful dual boilers and levers.",
+      "kind": "text",
+      "context": "A tightly tiered lineup that progresses from compact PID machines to powerful dual boilers and levers."
+    },
+    {
+      "id": "6b6e346d69c7d4fd536a85d4937a34dd53a3ca9285bc988a7656d22a9b081724",
+      "source": "Profitec overview",
+      "kind": "attribute",
+      "context": "← All brands Germany · Boiler · hands-on Profitec, mapped. A tightly tiered lineup that progresses from compact PID machines to powerful dual boilers and levers.   6machine reviews $$–$$$$price position Control firstworkflow"
+    },
+    {
+      "id": "420f9f0fa05359b6b161634ccd3b97eba6204677bfb20a0091e5530a39d766ed",
+      "source": "Where Profitec sits.",
+      "kind": "text",
+      "context": "Where Profitec sits."
+    },
+    {
+      "id": "040d881c0570663aecc266ffad17b538c795812004ebb80233a800675fc24209",
+      "source": "Profitec: Control first",
+      "kind": "attribute",
+      "context": "Push-button easeHands-on control  Profitec  Best for: Focused prosumer engineering"
+    },
+    {
+      "id": "8d0d4df5d2234ed3ca1d9a8acdad67bc9226402d27a335b94999521a74443c09",
+      "source": "Clear product ladder",
+      "kind": "text",
+      "context": "Clear product ladder"
+    },
+    {
+      "id": "c4d8a979acb3c709a291e468ac1342381c6b16821b1aaf1e534e9a58e0b2f017",
+      "source": "Solid construction",
+      "kind": "text",
+      "context": "Solid construction"
+    },
+    {
+      "id": "9d17ed2cbd8e35d34c447bd79c8d77a9c3ffb669363641111a9bef31a233ffb3",
+      "source": "Strong controls",
+      "kind": "text",
+      "context": "Strong controls"
+    },
+    {
+      "id": "8a1408727773ec096d3eebb4b46ebdd60ddaa769ebdc6dfe65071a60a62c9c85",
+      "source": "Most setups require a serious separate grinder.",
+      "kind": "text",
+      "context": "Most setups require a serious separate grinder."
+    },
+    {
+      "id": "768385353903f939eda917f6d29cf17aaf175199205c98354e56a74793a46291",
+      "source": "What Profitec actually builds for.",
+      "kind": "text",
+      "context": "What Profitec actually builds for."
+    },
+    {
+      "id": "7419c8a21165055066e2bf8dcfc35b313ab2e7242a4acf4d5f04f5fc7995bbe8",
+      "source": "Profitec organizes its range as a clear progression from a focused single boiler to heat-exchanger, dual-boiler, and lever platforms.",
+      "kind": "text",
+      "context": "Profitec organizes its range as a clear progression from a focused single boiler to heat-exchanger, dual-boiler, and lever platforms."
+    },
+    {
+      "id": "abb289a0e32c83b53f37606cec578fbadc80ae8418a22eb71734fad9278663bf",
+      "source": "Controls are purposeful and the machines expect a separate grinder. Buyers get strong hardware and an understandable upgrade ladder without much hand-holding.",
+      "kind": "text",
+      "context": "Controls are purposeful and the machines expect a separate grinder. Buyers get strong hardware and an understandable upgrade ladder without much hand-holding."
+    },
+    {
+      "id": "4f7a60f6e3390514349336ab8d9bfae0f9223620d141d01926e5f6970c3fa90c",
+      "source": "GO is the compact entry. Pro 400 and 500 handle heat-exchanger workflows. Pro 600 and 700 add dual-boiler control. Pro 800 is the lever route.",
+      "kind": "text",
+      "context": "GO is the compact entry. Pro 400 and 500 handle heat-exchanger workflows. Pro 600 and 700 add dual-boiler control. Pro 800 is the lever route."
+    },
+    {
+      "id": "aebda3c7a44c9575ddca34696657ce595a96c73fe3a094880dfddbdad230d971",
+      "source": "Profitec Coffee Finder",
+      "kind": "text",
+      "context": "Profitec Coffee Finder"
+    },
+    {
+      "id": "6c668f2d1e80f0e08b761799355d57897282dcdf4ff210621677a2a48ff3c093",
+      "source": "Find the Profitec machine that fits your routine.",
+      "kind": "text",
+      "context": "Find the Profitec machine that fits your routine."
+    },
+    {
+      "id": "c67a69cc780dd1d9dfd3454d99e08793e97905ed573357066f7fb9c023af6322",
+      "source": "Start with any constraint. This compact finder searches every Profitec espresso-machine review; the full finder can compare the result with every brand.",
+      "kind": "text",
+      "context": "Start with any constraint. This compact finder searches every Profitec espresso-machine review; the full finder can compare the result with every brand."
+    },
+    {
+      "id": "faa01299e7ab4e3ffbfa291b8442b9bbf63a1c7bd50610bca7358f72029031be",
+      "source": "Profitec and nearby brand alternatives",
+      "kind": "attribute",
+      "context": "BrandSystemPrice positionBest for   Profitec Boiler · hands-on $$–$$$$ Focused prosumer engineering Current  ECM Boiler · hands-on $$$–$$$$ Premium build and espresso control Compare →  Rancilio Boiler · hands-on $$–$$$ Durable, proven home-barista hardware Compare →"
+    },
+    {
+      "id": "a8c6b10f596df542e7ee66fd52cad3a90b29df011b81e76afc858ff517586793",
+      "source": "The Profitec lineup.",
+      "kind": "text",
+      "context": "The Profitec lineup."
+    },
+    {
+      "id": "b3791d857221c1cc677d3c2b92569917f0d261bd79bb2403e40d3fe3ff5a2a76",
+      "source": "Profitec Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "50cdecab8f272a01bbdb0e8bfe77c75a25eeb1a82190cb46dac2b822fe56650b",
+      "source": "Profitec espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 6 Coffeedant reviews.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "74b594dcffb703cba003cc63ffffad959a7a7b32ee57802b9a281d39b08fae26",
+      "source": "Profitec, mapped.",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "e4e4643497ad2d19bc4446b52653275e50c79e8a6c9fd4603fdcb34fdbbd04ba",
+      "source": "Quick Mill Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "text",
+      "context": "Quick Mill Espresso Machines: Compare the Lineup | Coffeedant"
+    },
+    {
+      "id": "6a85250f8ee1ce8af38f30239fe1ecc9f811d8b960f8242625d545b4a65e2439",
+      "source": "Quick Mill espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 9 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "Quick Mill Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of docu"
+    },
+    {
+      "id": "0f63565c90b5b240fa82b743a3ce3f4a1c5485b39d063943ac5a3fc7519640a8",
+      "source": "Quick Mill Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "metadata",
+      "context": "Quick Mill Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of docu"
+    },
+    {
+      "id": "b2c7214ccb1cb7b673a98a6febedac97e21a3a7fcd2646c1e043c8f4ca8b6c5f",
+      "source": "Quick Mill, mapped.",
+      "kind": "text",
+      "context": "Quick Mill, mapped."
+    },
+    {
+      "id": "9f8e2d565e5f4f55afc99e40981f5705eea7fd387e4d1dbe4079620501d8012b",
+      "source": "A deep Italian range with compact thermoblocks, single boilers, heat exchangers, and dual boilers.",
+      "kind": "text",
+      "context": "A deep Italian range with compact thermoblocks, single boilers, heat exchangers, and dual boilers."
+    },
+    {
+      "id": "f950a23b273d4ed8ce7f082c8973070fd880326fcfed22580cf88f88d7418b0d",
+      "source": "Quick Mill overview",
+      "kind": "attribute",
+      "context": "← All brands Italy · Mixed boiler · hands-on Quick Mill, mapped. A deep Italian range with compact thermoblocks, single boilers, heat exchangers, and dual boilers.   9machine reviews $$–$$$$price position Control firstworkflow"
+    },
+    {
+      "id": "8beb9779dfb00e6e8acd91b4f235765d60de1dec04357217e900e9a90bf24133",
+      "source": "Where Quick Mill sits.",
+      "kind": "text",
+      "context": "Where Quick Mill sits."
+    },
+    {
+      "id": "20b96d8f306b2dec833ac9b12659c39d8dc95590f4d67f1a22eaf3b5d38d14d1",
+      "source": "Quick Mill: Control first",
+      "kind": "attribute",
+      "context": "Push-button easeHands-on control  Quick Mill  Best for: A precise fit between entry and premium"
+    },
+    {
+      "id": "29aa92c2dae0269a4923c86ed67041e69b7a897b51e6e3aa538960a9e6a3fcf6",
+      "source": "Many configurations",
+      "kind": "text",
+      "context": "Many configurations"
+    },
+    {
+      "id": "24b8934ab4e0cdd560e02e309ab050c1791dd7ba480ca8c32cc8e587485cb224",
+      "source": "Compact models",
+      "kind": "text",
+      "context": "Compact models"
+    },
+    {
+      "id": "099b7cd11d528b7995771947f51310da95bf5b63540622991e4aa27e65e473e6",
+      "source": "Traditional controls",
+      "kind": "text",
+      "context": "Traditional controls"
+    },
+    {
+      "id": "66f9bd2df43fabaa63bdb785862fccbed3b1fa4283b077e9061a0717f2fc9161",
+      "source": "The large range makes direct comparisons harder.",
+      "kind": "text",
+      "context": "The large range makes direct comparisons harder."
+    },
+    {
+      "id": "6e6466c5f3f1ac44dcea9ccf7ee2fbf53add80b15c8f862fb8f0951e056b5051",
+      "source": "What Quick Mill actually builds for.",
+      "kind": "text",
+      "context": "What Quick Mill actually builds for."
+    },
+    {
+      "id": "cbbf1a536c6e0c103de50a402a24d7dc828935edface937a5a94ffa87dd604a0",
+      "source": "Quick Mill offers unusually broad hardware choice, from compact thermoblocks through single boilers, heat exchangers, and dual boilers.",
+      "kind": "text",
+      "context": "Quick Mill offers unusually broad hardware choice, from compact thermoblocks through single boilers, heat exchangers, and dual boilers."
+    },
+    {
+      "id": "b7e428c8caac3e6eb0e408d5427d07a86ef9a83cbd43870ce31a24144a12e295",
+      "source": "The advantage is finding a very specific fit. The disadvantage is comparing many similar-looking models whose boiler and pump differences matter more than styling.",
+      "kind": "text",
+      "context": "The advantage is finding a very specific fit. The disadvantage is comparing many similar-looking models whose boiler and pump differences matter more than styling."
+    },
+    {
+      "id": "72671c9cfaca0b72a774f8ffda23f88ca546f06b33f93aa2325db51b1c9b8079",
+      "source": "Start with the required workflow and boiler type, then compare footprint, pump, plumbing, and controls inside that smaller group.",
+      "kind": "text",
+      "context": "Start with the required workflow and boiler type, then compare footprint, pump, plumbing, and controls inside that smaller group."
+    },
+    {
+      "id": "5c901dc934fc6e0364d47df4770570b39ca5cff22114b7249f82ad43041a7e5b",
+      "source": "Quick Mill Coffee Finder",
+      "kind": "text",
+      "context": "Quick Mill Coffee Finder"
+    },
+    {
+      "id": "62e942d066dde706da678ef1b9696de3888784f606659c3cb73c84f044dfce84",
+      "source": "Find the Quick Mill machine that fits your routine.",
+      "kind": "text",
+      "context": "Find the Quick Mill machine that fits your routine."
+    },
+    {
+      "id": "784517b6ccf8db965c3b19c5a51161d722c74af86838ccb810a81fb486f27782",
+      "source": "Start with any constraint. This compact finder searches every Quick Mill espresso-machine review; the full finder can compare the result with every brand.",
+      "kind": "text",
+      "context": "Start with any constraint. This compact finder searches every Quick Mill espresso-machine review; the full finder can compare the result with every brand."
+    },
+    {
+      "id": "a34e80ea9f9953e9240e6a61dab00c4a2ee35c6c69144bba7b20acb67434733a",
+      "source": "Quick Mill and nearby brand alternatives",
+      "kind": "attribute",
+      "context": "BrandSystemPrice positionBest for   Quick Mill Mixed boiler · hands-on $$–$$$$ A precise fit between entry and premium Current  Bezzera Boiler · hands-on $$–$$$$ Traditional prosumer workflows Compare →  Rancilio Boiler · hands-on $$–$$$ Durable, proven home-barista hardware Compare →"
+    },
+    {
+      "id": "8b28b55a88d71d1f792570b9937ddc33e54603b239fec6d551bbd964edcd2e3c",
+      "source": "The Quick Mill lineup.",
+      "kind": "text",
+      "context": "The Quick Mill lineup."
+    },
+    {
+      "id": "43ee1a4872bc5639865fa07217e329a6a54074c7877181920777c3fc0d48850c",
+      "source": "Quick Mill Carola Evo",
+      "kind": "text",
+      "context": "Quick Mill Carola Evo"
+    },
+    {
+      "id": "06ffbf723c5092784c8dd491c5af6e752fd8b196957e728fbb78aebed04e2ecc",
+      "source": "Quick Mill Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "e48e8a235feaff7f730a7e24914fd7bd75e57924e26023141ce30663005e2bf9",
+      "source": "Quick Mill espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 9 Coffeedant reviews.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "7e811821d74d1e0ef6dd6c2944363d8b38db7901305e43db5e1beef32826770a",
+      "source": "Quick Mill, mapped.",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "fe2f30922d1fb2bdd99d56e0027db11f8c2f1f54efd3a0afb6505f13ab456ec4",
+      "source": "Rancilio Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "text",
+      "context": "Rancilio Espresso Machines: Compare the Lineup | Coffeedant"
+    },
+    {
+      "id": "62a3e405672796449e34603a56d27890120e675ad0ee12a1062c49e0a2b9d316",
+      "source": "Rancilio espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 2 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "Rancilio Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of docume"
+    },
+    {
+      "id": "ef6a10d17508cdb5bc4f53aa0aeb0f68f753c0aaec86846bc2f897946b290ed6",
+      "source": "Rancilio Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "metadata",
+      "context": "Rancilio Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of docume"
+    },
+    {
+      "id": "fbcade87e1bbd26f9e53b17589d9236d7f6370bd197c3645fd1ad41ab07fa283",
+      "source": "Rancilio, mapped.",
+      "kind": "text",
+      "context": "Rancilio, mapped."
+    },
+    {
+      "id": "0f9990fb6d44bb1285f4a324ecdffb93db4c21d0e953b3d56975f1774dff1b79",
+      "source": "A focused home lineup built around the long-running Silvia platform and its dual-boiler evolution.",
+      "kind": "text",
+      "context": "A focused home lineup built around the long-running Silvia platform and its dual-boiler evolution."
+    },
+    {
+      "id": "6aad50334665202f1dd587751c58be938e6a82cab47153d0d301249a7f5d7522",
+      "source": "Rancilio overview",
+      "kind": "attribute",
+      "context": "← All brands Italy · Boiler · hands-on Rancilio, mapped. A focused home lineup built around the long-running Silvia platform and its dual-boiler evolution.   2machine reviews $$–$$$price position Control firstworkflow"
+    },
+    {
+      "id": "bbf31234c30244e5e526f34be01dbf6ce09214c6444acff37b7e25d6a43f1dbc",
+      "source": "Where Rancilio sits.",
+      "kind": "text",
+      "context": "Where Rancilio sits."
+    },
+    {
+      "id": "a001673b1cd30e855ead0c64546e2f13f8b4b6119ba51c3e90d9af7880892f3f",
+      "source": "Rancilio: Control first",
+      "kind": "attribute",
+      "context": "Push-button easeHands-on control  Rancilio  Best for: Durable, proven home-barista hardware"
+    },
+    {
+      "id": "7297a9e81c498f02aaf842b24da43b7894c94343a679a08bc05be4b427cc8fd7",
+      "source": "Proven durability",
+      "kind": "text",
+      "context": "Proven durability"
+    },
+    {
+      "id": "0b81aa5bcf0b21c583eb214c755c40e16915f32d9def7984ce52b5120803e226",
+      "source": "Commercial DNA",
+      "kind": "text",
+      "context": "Commercial DNA"
+    },
+    {
+      "id": "a0f91e5061f873b2582c3616a43d1f7c27321225c677fcd79ce27dd749271f56",
+      "source": "The base workflow asks more from the user.",
+      "kind": "text",
+      "context": "The base workflow asks more from the user."
+    },
+    {
+      "id": "b38996329c38df15d4ae1acd3edb0e58da338798b4ab43802f6d8c7349728a5b",
+      "source": "What Rancilio actually builds for.",
+      "kind": "text",
+      "context": "What Rancilio actually builds for."
+    },
+    {
+      "id": "2fa011488bd428bb888e278b02b9fa483e3b356c1d43619fa38be1b38a17af62",
+      "source": "Rancilio brings a durable, commercial-influenced mindset to a small home lineup. The Silvia platform favors straightforward hardware over guided convenience.",
+      "kind": "text",
+      "context": "Rancilio brings a durable, commercial-influenced mindset to a small home lineup. The Silvia platform favors straightforward hardware over guided convenience."
+    },
+    {
+      "id": "c8f4dcbc0932168280a52276b852cd28fd3a4b9933ec1d60c6482ad0c3d364d5",
+      "source": "The base Silvia rewards technique and patience. Silvia Pro X adds the temperature and workflow control that many owners otherwise try to add around the original.",
+      "kind": "text",
+      "context": "The base Silvia rewards technique and patience. Silvia Pro X adds the temperature and workflow control that many owners otherwise try to add around the original."
+    },
+    {
+      "id": "46c03d48186f3355d7df15c13946547dff7248ca540ec48fe8b0b775defa19db",
+      "source": "Silvia is the traditional single-boiler benchmark. Silvia Pro X is the modern dual-boiler step for faster milk routines and tighter control.",
+      "kind": "text",
+      "context": "Silvia is the traditional single-boiler benchmark. Silvia Pro X is the modern dual-boiler step for faster milk routines and tighter control."
+    },
+    {
+      "id": "c49b2a76207d087566c93dbc692c1aaf18691401f6f5fae78d79bcbdd8b094e7",
+      "source": "Rancilio Coffee Finder",
+      "kind": "text",
+      "context": "Rancilio Coffee Finder"
+    },
+    {
+      "id": "425462634b363169f5481123b71b60dca0f06793a0616e959cc8984b165980ba",
+      "source": "Find the Rancilio machine that fits your routine.",
+      "kind": "text",
+      "context": "Find the Rancilio machine that fits your routine."
+    },
+    {
+      "id": "5965b9e6864920dbd1fa306cf6a7f9690d33be213bf1354ef867c291354f1954",
+      "source": "Start with any constraint. This compact finder searches every Rancilio espresso-machine review; the full finder can compare the result with every brand.",
+      "kind": "text",
+      "context": "Start with any constraint. This compact finder searches every Rancilio espresso-machine review; the full finder can compare the result with every brand."
+    },
+    {
+      "id": "42fd874a5650e83d90c265f1db7732d1071d6fe945602e8165f9e92bb35bdf9b",
+      "source": "Rancilio and nearby brand alternatives",
+      "kind": "attribute",
+      "context": "BrandSystemPrice positionBest for   Rancilio Boiler · hands-on $$–$$$ Durable, proven home-barista hardware Current  ECM Boiler · hands-on $$$–$$$$ Premium build and espresso control Compare →  Quick Mill Mixed boiler · hands-on $$–$$$$ A precise fit between entry and premium Compare →"
+    },
+    {
+      "id": "999f022f917ab6e08f1d835147385c6b8200520d1b71aa60e609ee30e6d3059e",
+      "source": "The Rancilio lineup.",
+      "kind": "text",
+      "context": "The Rancilio lineup."
+    },
+    {
+      "id": "78d21d7be5f13d3073b82b1e477b7a4bb4056429be9a955c3e2a6bf51d6e880d",
+      "source": "Rancilio Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "762ba3e4391f4126a50237d7487dee3e8e733dec3454c77e0204f4dd4c9f2ea4",
+      "source": "Rancilio espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 2 Coffeedant reviews.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "718e367f2acd47945c90838da2a108c3524650e1f9b8f83470757b692d7871ef",
+      "source": "Rancilio, mapped.",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "737355282589cd8196885c70e6cd682d245427eebd417454d3eac558de955aeb",
+      "source": "Rocket Espresso Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "text",
+      "context": "Rocket Espresso Espresso Machines: Compare the Lineup | Coffeedant"
+    },
+    {
+      "id": "0dce6b24fa26dfa92ab82c962a2c004900f79c193934c88ef2b9164a10aa6ded",
+      "source": "Rocket Espresso espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 4 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "Rocket Espresso Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of"
+    },
+    {
+      "id": "91522529b8ce67935b07d527c48e644c25568fafef6e8d92bc1cfb653fe6bc58",
+      "source": "Rocket Espresso Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "metadata",
+      "context": "Rocket Espresso Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of"
+    },
+    {
+      "id": "9142564622f191edcbbe9413c9dfac9aa67f0d4f9b38ebc5b32c42ff9b66bf4a",
+      "source": "Rocket Espresso, mapped.",
+      "kind": "text",
+      "context": "Rocket Espresso, mapped."
+    },
+    {
+      "id": "a9aab7a9a6c953c86dd7d54c1eaecaebd2ca86d72e9e3ecf5b5c61995a965d6a",
+      "source": "Statement machines pairing classic Italian form with heat-exchanger and dual-boiler performance.",
+      "kind": "text",
+      "context": "Statement machines pairing classic Italian form with heat-exchanger and dual-boiler performance."
+    },
+    {
+      "id": "2b26e68a036bfcf02d9e6274ccbc62047ee7bd80d8c79e2a1ef407b4dae673eb",
+      "source": "Rocket Espresso overview",
+      "kind": "attribute",
+      "context": "← All brands Italy · Boiler · hands-on Rocket Espresso, mapped. Statement machines pairing classic Italian form with heat-exchanger and dual-boiler performance.   4machine reviews $$$–$$$$price position Control firstworkflow"
+    },
+    {
+      "id": "afd5affd294fa4985409907a10f112a55882180bd2c38253e54e72b35b2c427f",
+      "source": "Where Rocket Espresso sits.",
+      "kind": "text",
+      "context": "Where Rocket Espresso sits."
+    },
+    {
+      "id": "cfc6b148b2090032255f47959c37e1f4affb5990c30bc5a531a12cf8afbcb816",
+      "source": "Rocket Espresso: Control first",
+      "kind": "attribute",
+      "context": "Push-button easeHands-on control  Rocket Espresso  Best for: Design-led prosumer setups"
+    },
+    {
+      "id": "4be3ca3f8abe27b7fa45a1cc9229cd2b447f95ca397d7518691140327f627bef",
+      "source": "Strong steam",
+      "kind": "text",
+      "context": "Strong steam"
+    },
+    {
+      "id": "b92ad5bd7207aa58d130a4696756009c08dafa7ae810962d7802e6e5a7537c7b",
+      "source": "Premium hardware",
+      "kind": "text",
+      "context": "Premium hardware"
+    },
+    {
+      "id": "d881cedd8d50cf302a30e8c81aa829513d98bc08ff4bdabc548d02e72faea1f6",
+      "source": "You pay partly for finish and presence.",
+      "kind": "text",
+      "context": "You pay partly for finish and presence."
+    },
+    {
+      "id": "7d3c69cf4fe7ceba88e27945ff4f0fc679aae7eb422cea6a5c118fa8b136bcbe",
+      "source": "What Rocket Espresso actually builds for.",
+      "kind": "text",
+      "context": "What Rocket Espresso actually builds for."
+    },
+    {
+      "id": "45db826b0f9a248162a490a79fc5794328d1496a44a729b33ddb488cf5a3ee87",
+      "source": "Rocket combines traditional prosumer architecture with highly recognizable Italian styling. Its machines are bought for steam performance, tactile use, and presence on the counter.",
+      "kind": "text",
+      "context": "Rocket combines traditional prosumer architecture with highly recognizable Italian styling. Its machines are bought for steam performance, tactile use, and presence on the counter."
+    },
+    {
+      "id": "5f15a7cbbcbeead53301019da57dce492f57b3d2016c9c8636cb9a8e88b8d7ed",
+      "source": "Warm-up time, grinder quality, water treatment, and maintenance all remain part of ownership. The finish is premium, but it does not remove the need for technique.",
+      "kind": "text",
+      "context": "Warm-up time, grinder quality, water treatment, and maintenance all remain part of ownership. The finish is premium, but it does not remove the need for technique."
+    },
+    {
+      "id": "f38780df29c60bfc7ecb5dc48774bff8ae7328922fe55ac50d95f4c7f1a513c3",
+      "source": "Appartamento is the compact heat-exchanger entry. Giotto and Mozzafiato add controls and body choices. R Nine One is the advanced pressure-profiling route.",
+      "kind": "text",
+      "context": "Appartamento is the compact heat-exchanger entry. Giotto and Mozzafiato add controls and body choices. R Nine One is the advanced pressure-profiling route."
+    },
+    {
+      "id": "c9b539f9ad371a6c81287f06ce780d264c03f5ad33667514b8552dea8900b9bc",
+      "source": "Rocket Espresso Coffee Finder",
+      "kind": "text",
+      "context": "Rocket Espresso Coffee Finder"
+    },
+    {
+      "id": "b1d0e68700c361c6b692beacd3b1e327788b5940f41b2004d120ed41329487fd",
+      "source": "Find the Rocket Espresso machine that fits your routine.",
+      "kind": "text",
+      "context": "Find the Rocket Espresso machine that fits your routine."
+    },
+    {
+      "id": "1bd7f217972b539e4f95fd83a275603827e69ec11c624baf14c6f8e677dc6c77",
+      "source": "Start with any constraint. This compact finder searches every Rocket Espresso espresso-machine review; the full finder can compare the result with every brand.",
+      "kind": "text",
+      "context": "Start with any constraint. This compact finder searches every Rocket Espresso espresso-machine review; the full finder can compare the result with every brand."
+    },
+    {
+      "id": "8d13fd9a91ed1e77eefaf7ec04c2f9d1e2e9e7c4290b2e55afcff215915ccee7",
+      "source": "Rocket Espresso and nearby brand alternatives",
+      "kind": "attribute",
+      "context": "BrandSystemPrice positionBest for   Rocket Espresso Boiler · hands-on $$$–$$$$ Design-led prosumer setups Current  La Marzocco Dual boiler · hands-on $$$$ Commercial-style performance at home Compare →  Profitec Boiler · hands-on $$–$$$$ Focused prosumer engineering Compare →"
+    },
+    {
+      "id": "2e70cc4630396dfd94aca4a48be1fa0b354f5fa0f616977ebb15851006b6e11b",
+      "source": "The Rocket Espresso lineup.",
+      "kind": "text",
+      "context": "The Rocket Espresso lineup."
+    },
+    {
+      "id": "60b9f288b3d5c488ae36de34f6f79f99adae0862f396dda0c2282c3b6bc6ce4a",
+      "source": "Rocket Espresso Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "1cde0f48dc017c4ae34f3aa96d26e451c1050fd265c9b17ae0feb6419cc1331d",
+      "source": "Rocket Espresso espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 4 Coffeedant reviews.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "3e8ebac394cdb87b582e0cfc83978e9921813e30e279bc49b704735f87f64f46",
+      "source": "Rocket Espresso, mapped.",
+      "kind": "json",
+      "context": "name"
+    }
+  ],
+  "snapshotHash": "0d96957785068495c1ac07722332fb5915e8678f8583b531fe0860975a410769"
+}

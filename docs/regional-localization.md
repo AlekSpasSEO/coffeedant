@@ -282,9 +282,39 @@ not part of the model, while exact model codes, URLs, placeholders, numbers and
 markup remain guarded by positive/negative tests. All 38 localization tests and
 analytics/consent validation pass. No full edition or DNS binding was published.
 
-Next priority: complete the remaining full articles, manufacturer pages and new
-Deals text/runtime, using current coverage and reusable direct wording. Keep
-the approved Dutch espresso-dosing route stable and preserve the US site.
+### Complete manufacturer-page batch (2026-10-14)
+
+Batch seven directly translates the remaining eleven manufacturer pages in all
+three languages: Ascaso, Bezzera, Breville, La Marzocco, La Pavoni, Nespresso,
+Ninja, Profitec, Quick Mill, Rancilio and Rocket Espresso. The frozen snapshot
+contains 313 missing DOM, accessibility, metadata and structured-data slots.
+Every source slot is covered; only 49 exact product names have explicit verbatim
+approval. The full brand stories, ownership caveats, range explanations and
+review-index headline are translated, not shortened. Source-market Breville
+names and the US Ninja Premier ES601 qualification are preserved; no regional
+model equivalence or local offer has been inferred. Existing root brand routes
+are retained consistently in NL/DE/FR.
+
+All nineteen current manufacturer pages now have complete own-page text and
+the complete translated Finder dependency. Current content-page completeness
+and renderability are NL 31, DE 30 and FR 30, excluding the 404. The current
+source remains 216 canonical pages, with 44,386 unique slots after the latest
+US offer refresh. Full editions remain incomplete and unpublished. This batch
+does not alter the reviewed Dutch dosing URL, public DNS or the US site.
+
+Forty localization tests and sitewide analytics/consent validation pass. Scoped
+noindex builds and actual HTML/JSON checks cover all thirty-three newly completed
+manufacturer pages, including complete story paragraphs, localized model-index
+headlines, retained review destinations, locale/canonical/robots, runtime locale,
+disabled unverified budget filtering and absence of unverified Amazon links.
+The complete 145-product regional catalogs still suppress unknown local prices
+and buying links. These checks are rendered-output checks, not a new claim of
+browser or physical product testing.
+
+Next priority: full articles, the remaining editorial/category pages and Deals
+text/runtime, using current coverage and reusable direct wording. Keep the
+approved Dutch espresso-dosing route stable and preserve the US site. Do not
+publish any edition until its entire current source and all routes pass.
 
 ## Missing configuration
 
