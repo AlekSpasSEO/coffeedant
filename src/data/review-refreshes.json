@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "/espresso-machine/breville-barista-express-bes870xl/",
+    "productId": "CD-EM-000062",
+    "sectionId": "ownership",
+    "html": "<p>The BES870 manual distinguishes the shared CLEAN / DESCALE light by its behavior: flashing calls for the cleaning-disc-and-tablet backflush; a steady light calls for descaling. These are separate procedures for coffee residue and mineral buildup. Identify the signal before choosing the chemical and button sequence, rather than treating any appearance of the light as a descale instruction. This clarification follows the current US instruction book, checked October 13, 2026. <a href=\"#refresh-20261013\">[source]</a></p>",
+    "source": "https://assets.breville.com/BES870/BES870_USCM_IB_X26_LR.pdf",
+    "note": "English pp. 22–23: flashing versus steady CLEAN / DESCALE signal and distinct cleaning/descaling procedures."
+  },
+  {
+    "slug": "/espresso-machine/breville-barista-pro-bes878/",
+    "productId": "CD-EM-000048",
+    "sectionId": "ownership",
+    "html": "<p>Before a BES878 descale, remove the water filter from the tank before adding descaling powder. Breville places that instruction in the DESCALING section; the cleaning-disc-and-tablet cycle is a different routine. A screen prompt is useful only when it leads to the matching preparation. Keep the filter step and final rinsing in the exact manual sequence instead of treating the on-screen timer as the whole job. The current US manual was checked October 13, 2026. <a href=\"#refresh-20261013\">[source]</a></p>",
+    "source": "https://assets.breville.com/BES878/BES878_USCM_IB_Q26_LR.pdf",
+    "note": "English p. 20: remove filter before adding descaling powder; adjacent cleaning-cycle instructions remain separate."
+  },
+  {
+    "slug": "/espresso-machine/breville-barista-express-impress-bes876/",
+    "productId": "CD-EM-000053",
+    "sectionId": "ownership",
+    "html": "<p>A large grind change or an accidental double dose can leave the Impress's remembered auto-dose time inappropriate. The BES876 manual recommends resetting that dose time in these cases: in standby, hold Manual Dose and Filter together for three seconds. This resets grind time, rather than guaranteeing an espresso recipe or fixing a restricted puck. Resume with the correct basket, verify the dose and dial in the actual coffee. Checked against the current US manual on October 13, 2026. <a href=\"#refresh-20261013\">[source]</a></p>",
+    "source": "https://assets.breville.com/BES876/BES876_USCM_IB_F26_LR.pdf",
+    "note": "English p. 23: Reset Auto Dose Time conditions, standby mode and three-second Manual Dose + Filter action."
+  },
+  {
+    "slug": "/espresso-machine/breville-dual-boiler-bes920xl/",
+    "productId": "CD-EM-000070",
+    "sectionId": "ownership",
+    "html": "<p>The BES920's water-hardness setting controls how often NEW FILTER appears. The manual asks you to test the water actually put in the tank, wait one minute, match its red-square result to Hrd1–Hrd5 and confirm the setting. Leaving setup unattended defaults to Hrd3. That reminder is therefore a programmed estimate based on the chosen water setting, rather than a sensor confirming the filter's remaining capacity. Retest and follow the manual if the water supply changes. Official instructions checked October 13, 2026. <a href=\"#refresh-20261013\">[source]</a></p>",
+    "source": "https://assets.breville.com/BES920/BES920_USCM_IB_Y23_LR.pdf",
+    "note": "English p. 10: test-strip selection, one-minute wait, Hrd1–Hrd5, five-minute default and NEW FILTER timing."
+  },
+  {
+    "slug": "/espresso-machine/breville-barista-touch-bes880bss/",
+    "productId": "CD-EM-000122",
+    "sectionId": "ownership",
+    "html": "<p>In manual milk mode, the BES880 disables automatic texturing and automatic shutoff. Touch Milk again to stop steaming yourself; returning the wand downward still triggers its automatic purge. Automatic purge is therefore a cleanup action, not evidence that manual-mode milk stopped at your selected temperature. Keep the two functions separate when sharing instructions with another user. This distinction comes from the current US manual's manual-texturing section, checked October 13, 2026. <a href=\"#refresh-20261013\">[source]</a></p>",
+    "source": "https://assets.breville.com/BES880/BES880_USCM_IB_AB26_LR.pdf",
+    "note": "English p. 16: manual milk texturing disables auto texture/shutoff but retains downward-position auto purge."
+  },
+  {
+    "slug": "/espresso-machine/delonghi-magnifica-evo/",
+    "productId": "CD-EM-000002",
+    "sectionId": "ownership",
+    "html": "<p>For infuser care, the ECAM29084SB instructions specify a five-minute soak and a tap-water rinse; detergents and dishwashers are excluded. Switch the machine off before removal. After reinstalling, press PUSH until it seats and confirm both colored release buttons return outward. Infuser care is separate from descaling. Official instructions checked October 13, 2026. <a href=\"#refresh-20261013\">[source]</a></p>",
+    "source": "https://library.delonghigroup.com/assetbank-delonghi/action/directLinkImage?assetId=282340&download=true",
+    "note": "English p. 21: five-minute infuser soak, water-only rinse, no detergent/dishwasher and seated PUSH/release-button check."
+  },
+  {
+    "slug": "/grinder/1zpresso-k-ultra/",
+    "productId": "CD-GR-000001",
+    "sectionId": "build",
+    "html": "<p>After K-Ultra cleaning, do not assume the old dial number still represents the same zero. Its model-specific manual defines zero where the handle begins to turn with resistance, not the tightest possible burr position, and says the reference can shift by two or more clicks with assembly force. Recheck that reference before comparing recipes. Do not further separate the shaft from its conical burr, the outer burr from its ring, or the body-mounted bearings; follow the illustrated assembly rather than forcing a cosmetic zero. Checked October 13, 2026. <a href=\"#refresh-20261013\">[source]</a></p>",
+    "source": "https://1zpresso.coffee/manual-kultra-en/",
+    "note": "Assembly warning and Adjustment Dial Calibration: restricted disassembly, resistance-defined zero and possible two-plus-click offset."
+  },
+  {
+    "slug": "/grinder/baratza-encore-esp/",
+    "productId": "CD-GR-000002",
+    "sectionId": "ownership",
+    "html": "<p>The Encore ESP manual allows warm soapy-water washing of its bin, hopper, lid and hopper gasket, followed by rinsing and complete drying. The burrs are the exception: keep them dry because water can cause rust. It also calls out dark, oily or flavored coffees as a reason coffee oils may need suitable grinder-cleaning tablets; use the tablet maker's instructions, not rice or an improvised cleaning ingredient. Separate removable-plastic washing from burr brushing before reassembly. Exact ESP instructions checked October 13, 2026. <a href=\"#refresh-20261013\">[source]</a></p>",
+    "source": "https://assets.breville.com/ZCG495/manual-encoreesp-v1-0-en-010923.pdf",
+    "note": "English pp. 7–10: hand-washable containers versus dry burrs; oil care and only approved grinder-cleaning tablets."
+  },
+  {
+    "slug": "/grinder/timemore-sculptor/",
+    "productId": "CD-GR-000003",
+    "sectionId": "ownership",
+    "html": "<p>On October 13, 2026, Timemore's US 078S variants displayed $799, with the black version marked for preorder and estimated October 28 shipping. A selectable variant does not establish immediate dispatch. Check the color-specific message before ordering; this is a dated shipping estimate, not guaranteed arrival or a discount. The 078 and 064S are different products. <a href=\"#refresh-20261013\">[source]</a></p>",
+    "source": "https://www.timemore.com/products/timemore-electric-coffee-grinder-sculptor-series",
+    "note": "Live official variant record and visible black 078S preorder notice; $799 exact variants and estimated Oct 28 shipping, not a delivery promise."
+  }
+]

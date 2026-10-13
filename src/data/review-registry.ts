@@ -1,4 +1,5 @@
 import type { MachineReviewData } from './reviews';
+import { applyReviewRefresh } from './review-refreshes';
 import manifest from './review-batch-manifest.json';
 import { automaticReviews } from './reviews/automatics';
 import { brevilleCoreReviews } from './reviews/breville-core';
@@ -215,7 +216,7 @@ export const modernReviews: MachineReviewData[] = manifest.map((item) => {
   if (review.productId !== item.productId) {
     throw new Error(`${item.slug} uses ${review.productId}; expected ${item.productId}.`);
   }
-  return review;
+  return applyReviewRefresh(review);
 });
 
 export const modernReviewSlugs = new Set(modernReviews.map((review) => review.slug));

@@ -1,0 +1,300 @@
+{
+  "date": "2026-10-13",
+  "timezone": "Europe/Skopje",
+  "base": "3357819",
+  "targets": {
+    "updatedReviews": 10,
+    "newBeans": 5,
+    "newListicles": 1
+  },
+  "alreadyPublished": [
+    "REFRESH-20261013-BES500",
+    "PUBLISH-20261013-BN-HOLOGRAM"
+  ],
+  "methodology": "Research-led assessment. No physical machine testing, coffee tasting, score change, fabricated discount or new Amazon offer.",
+  "guideReference": "/espresso-machine/cheap-budget-under-500/",
+  "records": [
+    {
+      "slotId": "2026-10-13-refresh-CD-EM-000062",
+      "type": "Published review refresh",
+      "product": "Breville Barista Express BES870XL",
+      "path": "/espresso-machine/breville-barista-express-bes870xl/",
+      "canonicalUrl": "https://coffeedant.com/espresso-machine/breville-barista-express-bes870xl/",
+      "status": "Draft",
+      "evidencePath": "operations/2026-10-13-expanded-totals.json",
+      "before": "Coffee oils, dry grounds and mineral scale require different procedures. Follow the current BES870 manual rather than treating one product as a universal cleaner. After use, rinse the basket, wipe the group, purge and wipe the wand, and brush the cradle. Run prompted cleaning and descaling procedures according to the manual and actual water conditions. [2]",
+      "after": "The BES870 manual distinguishes the shared CLEAN / DESCALE light by its behavior: flashing calls for the cleaning-disc-and-tablet backflush; a steady light calls for descaling. These are separate procedures for coffee residue and mineral buildup. Identify the signal before choosing the chemical and button sequence, rather than treating any appearance of the light as a descale instruction. This clarification follows the current US instruction book, checked October 13, 2026. [source]",
+      "sourceUrls": [
+        "https://assets.breville.com/BES870/BES870_USCM_IB_X26_LR.pdf"
+      ],
+      "sourceCheckedOn": "2026-10-13",
+      "market": "US",
+      "reason": "Clarify a concrete model-specific ownership decision",
+      "validation": "Production build; modern review, bean, migration, Amazon banners/catalog, SEO, analytics and internal-link/asset checks pass; responsive checks in progress"
+    },
+    {
+      "slotId": "2026-10-13-refresh-CD-EM-000048",
+      "type": "Published review refresh",
+      "product": "Breville Barista Pro BES878",
+      "path": "/espresso-machine/breville-barista-pro-bes878/",
+      "canonicalUrl": "https://coffeedant.com/espresso-machine/breville-barista-pro-bes878/",
+      "status": "Draft",
+      "evidencePath": "operations/2026-10-13-expanded-totals.json",
+      "before": "Rinse the basket, flush and wipe the group, manage the tray, wipe and purge the wand, then brush dry grounds from the cradle and funnel.",
+      "after": "Before a BES878 descale, remove the water filter from the tank before adding descaling powder. Breville places that instruction in the DESCALING section; the cleaning-disc-and-tablet cycle is a different routine. A screen prompt is useful only when it leads to the matching preparation. Keep the filter step and final rinsing in the exact manual sequence instead of treating the on-screen timer as the whole job. The current US manual was checked October 13, 2026. [source]",
+      "sourceUrls": [
+        "https://assets.breville.com/BES878/BES878_USCM_IB_Q26_LR.pdf"
+      ],
+      "sourceCheckedOn": "2026-10-13",
+      "market": "US",
+      "reason": "Clarify a concrete model-specific ownership decision",
+      "validation": "Production build; modern review, bean, migration, Amazon banners/catalog, SEO, analytics and internal-link/asset checks pass; responsive checks in progress"
+    },
+    {
+      "slotId": "2026-10-13-refresh-CD-EM-000053",
+      "type": "Published review refresh",
+      "product": "Breville Barista Express Impress BES876",
+      "path": "/espresso-machine/breville-barista-express-impress-bes876/",
+      "canonicalUrl": "https://coffeedant.com/espresso-machine/breville-barista-express-impress-bes876/",
+      "status": "Draft",
+      "evidencePath": "operations/2026-10-13-expanded-totals.json",
+      "before": "Brush the cradle, dose area and removable tamp cover. Keep fingers and water out of the tamping chute and grinder; follow the manual's dry burr and chute sequence.",
+      "after": "A large grind change or an accidental double dose can leave the Impress's remembered auto-dose time inappropriate. The BES876 manual recommends resetting that dose time in these cases: in standby, hold Manual Dose and Filter together for three seconds. This resets grind time, rather than guaranteeing an espresso recipe or fixing a restricted puck. Resume with the correct basket, verify the dose and dial in the actual coffee. Checked against the current US manual on October 13, 2026. [source]",
+      "sourceUrls": [
+        "https://assets.breville.com/BES876/BES876_USCM_IB_F26_LR.pdf"
+      ],
+      "sourceCheckedOn": "2026-10-13",
+      "market": "US",
+      "reason": "Clarify a concrete model-specific ownership decision",
+      "validation": "Production build; modern review, bean, migration, Amazon banners/catalog, SEO, analytics and internal-link/asset checks pass; responsive checks in progress"
+    },
+    {
+      "slotId": "2026-10-13-refresh-CD-EM-000070",
+      "type": "Published review refresh",
+      "product": "Breville Dual Boiler BES920XL",
+      "path": "/espresso-machine/breville-dual-boiler-bes920xl/",
+      "canonicalUrl": "https://coffeedant.com/espresso-machine/breville-dual-boiler-bes920xl/",
+      "status": "Draft",
+      "evidencePath": "operations/2026-10-13-expanded-totals.json",
+      "before": "Test actual source water, set Hrd1 through Hrd5 accordingly, and follow Breville's water and cartridge guidance. Distilled and very hard water create different risks. [2]",
+      "after": "The BES920's water-hardness setting controls how often NEW FILTER appears. The manual asks you to test the water actually put in the tank, wait one minute, match its red-square result to Hrd1–Hrd5 and confirm the setting. Leaving setup unattended defaults to Hrd3. That reminder is therefore a programmed estimate based on the chosen water setting, rather than a sensor confirming the filter's remaining capacity. Retest and follow the manual if the water supply changes. Official instructions checked October 13, 2026. [source]",
+      "sourceUrls": [
+        "https://assets.breville.com/BES920/BES920_USCM_IB_Y23_LR.pdf"
+      ],
+      "sourceCheckedOn": "2026-10-13",
+      "market": "US",
+      "reason": "Clarify a concrete model-specific ownership decision",
+      "validation": "Production build; modern review, bean, migration, Amazon banners/catalog, SEO, analytics and internal-link/asset checks pass; responsive checks in progress"
+    },
+    {
+      "slotId": "2026-10-13-refresh-CD-EM-000122",
+      "type": "Published review refresh",
+      "product": "Breville Barista Touch BES880",
+      "path": "/espresso-machine/breville-barista-touch-bes880bss/",
+      "canonicalUrl": "https://coffeedant.com/espresso-machine/breville-barista-touch-bes880bss/",
+      "status": "Draft",
+      "evidencePath": "operations/2026-10-13-expanded-totals.json",
+      "before": "After each session, clear the basket, rinse the portafilter, wipe the group area, clean and purge the wand, and remove loose grounds from the grinder cradle. Empty the tray before automatic purge water reaches the limit. These small jobs prevent dried milk and coffee oil from becoming a larger maintenance problem.",
+      "after": "In manual milk mode, the BES880 disables automatic texturing and automatic shutoff. Touch Milk again to stop steaming yourself; returning the wand downward still triggers its automatic purge. Automatic purge is therefore a cleanup action, not evidence that manual-mode milk stopped at your selected temperature. Keep the two functions separate when sharing instructions with another user. This distinction comes from the current US manual's manual-texturing section, checked October 13, 2026. [source]",
+      "sourceUrls": [
+        "https://assets.breville.com/BES880/BES880_USCM_IB_AB26_LR.pdf"
+      ],
+      "sourceCheckedOn": "2026-10-13",
+      "market": "US",
+      "reason": "Clarify a concrete model-specific ownership decision",
+      "validation": "Production build; modern review, bean, migration, Amazon banners/catalog, SEO, analytics and internal-link/asset checks pass; responsive checks in progress"
+    },
+    {
+      "slotId": "2026-10-13-refresh-CD-EM-000002",
+      "type": "Published review refresh",
+      "product": "De'Longhi Magnifica Evo ECAM29084SB",
+      "path": "/espresso-machine/delonghi-magnifica-evo/",
+      "canonicalUrl": "https://coffeedant.com/espresso-machine/delonghi-magnifica-evo/",
+      "status": "Draft",
+      "evidencePath": "operations/2026-10-13-expanded-totals.json",
+      "before": "Every day, empty the drip tray and grounds container as indicated, refresh water, and complete the LatteCrema clean step after milk. Wipe the dispensing area and do not let wet pucks sit for long absences. Weekly or on the manual schedule, rinse the removable brew group with water only and clean the accessible interior of loose grounds.",
+      "after": "For infuser care, the ECAM29084SB instructions specify a five-minute soak and a tap-water rinse; detergents and dishwashers are excluded. Switch the machine off before removal. After reinstalling, press PUSH until it seats and confirm both colored release buttons return outward. Infuser care is separate from descaling. Official instructions checked October 13, 2026. [source]",
+      "sourceUrls": [
+        "https://library.delonghigroup.com/assetbank-delonghi/action/directLinkImage?assetId=282340&download=true"
+      ],
+      "sourceCheckedOn": "2026-10-13",
+      "market": "US",
+      "reason": "Clarify a concrete model-specific ownership decision",
+      "validation": "Production build; modern review, bean, migration, Amazon banners/catalog, SEO, analytics and internal-link/asset checks pass; responsive checks in progress"
+    },
+    {
+      "slotId": "2026-10-13-refresh-CD-GR-000001",
+      "type": "Published review refresh",
+      "product": "1Zpresso K-Ultra",
+      "path": "/grinder/1zpresso-k-ultra/",
+      "canonicalUrl": "https://coffeedant.com/grinder/1zpresso-k-ultra/",
+      "status": "Draft",
+      "evidencePath": "operations/2026-10-13-expanded-totals.json",
+      "before": "Listed steel, aluminum alloy, polycarbonate, silicone and wood make a dense tool. Reviewers praise the adjustment, cup and handle, but those observations do not prove lifespan. [source] [source] [source]",
+      "after": "After K-Ultra cleaning, do not assume the old dial number still represents the same zero. Its model-specific manual defines zero where the handle begins to turn with resistance, not the tightest possible burr position, and says the reference can shift by two or more clicks with assembly force. Recheck that reference before comparing recipes. Do not further separate the shaft from its conical burr, the outer burr from its ring, or the body-mounted bearings; follow the illustrated assembly rather than forcing a cosmetic zero. Checked October 13, 2026. [source]",
+      "sourceUrls": [
+        "https://1zpresso.coffee/manual-kultra-en/"
+      ],
+      "sourceCheckedOn": "2026-10-13",
+      "market": "US",
+      "reason": "Clarify a concrete model-specific ownership decision",
+      "validation": "Production build; modern review, bean, migration, Amazon banners/catalog, SEO, analytics and internal-link/asset checks pass; responsive checks in progress"
+    },
+    {
+      "slotId": "2026-10-13-refresh-CD-GR-000002",
+      "type": "Published review refresh",
+      "product": "Baratza Encore ESP",
+      "path": "/grinder/baratza-encore-esp/",
+      "canonicalUrl": "https://coffeedant.com/grinder/baratza-encore-esp/",
+      "status": "Draft",
+      "evidencePath": "operations/2026-10-13-expanded-totals.json",
+      "before": "Unplug, empty the hopper, run remaining beans through, then remove the hopper and ring burr as directed. Brush dry debris; wash and fully dry only approved plastic parts. [source] [source]",
+      "after": "The Encore ESP manual allows warm soapy-water washing of its bin, hopper, lid and hopper gasket, followed by rinsing and complete drying. The burrs are the exception: keep them dry because water can cause rust. It also calls out dark, oily or flavored coffees as a reason coffee oils may need suitable grinder-cleaning tablets; use the tablet maker's instructions, not rice or an improvised cleaning ingredient. Separate removable-plastic washing from burr brushing before reassembly. Exact ESP instructions checked October 13, 2026. [source]",
+      "sourceUrls": [
+        "https://assets.breville.com/ZCG495/manual-encoreesp-v1-0-en-010923.pdf"
+      ],
+      "sourceCheckedOn": "2026-10-13",
+      "market": "US",
+      "reason": "Clarify a concrete model-specific ownership decision",
+      "validation": "Production build; modern review, bean, migration, Amazon banners/catalog, SEO, analytics and internal-link/asset checks pass; responsive checks in progress"
+    },
+    {
+      "slotId": "2026-10-13-refresh-CD-GR-000003",
+      "type": "Published review refresh",
+      "product": "Timemore Sculptor 078S",
+      "path": "/grinder/timemore-sculptor/",
+      "canonicalUrl": "https://coffeedant.com/grinder/timemore-sculptor/",
+      "status": "Draft",
+      "evidencePath": "operations/2026-10-13-expanded-totals.json",
+      "before": "Current owner threads repeatedly focus on a sensitive espresso dial, burr break-in, hopper popcorning, static, calibration and cleaning access. Some owners report attractive, quiet and repeatable daily use; others describe narrow sweet spots or difficult service events. Those reports identify questions and routines, not representative reliability rates.",
+      "after": "On October 13, 2026, Timemore's US 078S variants displayed $799, with the black version marked for preorder and estimated October 28 shipping. A selectable variant does not establish immediate dispatch. Check the color-specific message before ordering; this is a dated shipping estimate, not guaranteed arrival or a discount. The 078 and 064S are different products. [source]",
+      "sourceUrls": [
+        "https://www.timemore.com/products/timemore-electric-coffee-grinder-sculptor-series"
+      ],
+      "sourceCheckedOn": "2026-10-13",
+      "market": "US",
+      "reason": "Clarify a concrete model-specific ownership decision",
+      "validation": "Production build; modern review, bean, migration, Amazon banners/catalog, SEO, analytics and internal-link/asset checks pass; responsive checks in progress"
+    },
+    {
+      "slotId": "2026-10-13-bean-CD-BN-000002",
+      "type": "New bean review",
+      "product": "Counter Culture Forty-Six",
+      "path": "/coffee-beans/counter-culture-forty-six/",
+      "canonicalUrl": "https://coffeedant.com/coffee-beans/counter-culture-forty-six/",
+      "status": "Draft",
+      "evidencePath": "operations/2026-10-13-expanded-totals.json",
+      "before": "No canonical route or review before this batch",
+      "after": "New research-led review, credited official image, six visible FAQs and seven annotated sources",
+      "sourceUrls": [
+        "https://counterculturecoffee.com/products/12-oz-forty-six",
+        "https://support.stumptowncoffee.com/hc/en-us/articles/5550819144461-How-long-does-Stumptown-coffee-stay-fresh",
+        "https://support.stumptowncoffee.com/hc/en-us/articles/5568076789901-Where-should-I-store-my-coffee-In-the-freezer-On-the-counter",
+        "https://www.stumptowncoffee.com/pages/brew-guide",
+        "https://www.peets.com/pages/brew-guides",
+        "https://assets.breville.com/ZCG495/manual-encoreesp-v1-0-en-010923.pdf",
+        "https://counterculturecoffee.com/products/big-trouble"
+      ],
+      "sourceCheckedOn": "2026-10-13",
+      "market": "US",
+      "reason": "Fill a distinct current coffee-content gap",
+      "validation": "Production build; modern review, bean, migration, Amazon banners/catalog, SEO, analytics and internal-link/asset checks pass; responsive checks in progress"
+    },
+    {
+      "slotId": "2026-10-13-bean-CD-BN-000003",
+      "type": "New bean review",
+      "product": "Counter Culture Big Trouble",
+      "path": "/coffee-beans/counter-culture-big-trouble/",
+      "canonicalUrl": "https://coffeedant.com/coffee-beans/counter-culture-big-trouble/",
+      "status": "Draft",
+      "evidencePath": "operations/2026-10-13-expanded-totals.json",
+      "before": "No canonical route or review before this batch",
+      "after": "New research-led review, credited official image, six visible FAQs and seven annotated sources",
+      "sourceUrls": [
+        "https://counterculturecoffee.com/products/big-trouble",
+        "https://support.stumptowncoffee.com/hc/en-us/articles/5550819144461-How-long-does-Stumptown-coffee-stay-fresh",
+        "https://support.stumptowncoffee.com/hc/en-us/articles/5568076789901-Where-should-I-store-my-coffee-In-the-freezer-On-the-counter",
+        "https://www.stumptowncoffee.com/pages/brew-guide",
+        "https://www.peets.com/pages/brew-guides",
+        "https://assets.breville.com/ZCG495/manual-encoreesp-v1-0-en-010923.pdf",
+        "https://counterculturecoffee.com/products/12-oz-forty-six"
+      ],
+      "sourceCheckedOn": "2026-10-13",
+      "market": "US",
+      "reason": "Fill a distinct current coffee-content gap",
+      "validation": "Production build; modern review, bean, migration, Amazon banners/catalog, SEO, analytics and internal-link/asset checks pass; responsive checks in progress"
+    },
+    {
+      "slotId": "2026-10-13-bean-CD-BN-000004",
+      "type": "New bean review",
+      "product": "Stumptown French Roast",
+      "path": "/coffee-beans/stumptown-french-roast/",
+      "canonicalUrl": "https://coffeedant.com/coffee-beans/stumptown-french-roast/",
+      "status": "Draft",
+      "evidencePath": "operations/2026-10-13-expanded-totals.json",
+      "before": "No canonical route or review before this batch",
+      "after": "New research-led review, credited official image, six visible FAQs and seven annotated sources",
+      "sourceUrls": [
+        "https://www.stumptowncoffee.com/products/french-roast",
+        "https://support.stumptowncoffee.com/hc/en-us/articles/5550819144461-How-long-does-Stumptown-coffee-stay-fresh",
+        "https://support.stumptowncoffee.com/hc/en-us/articles/5568076789901-Where-should-I-store-my-coffee-In-the-freezer-On-the-counter",
+        "https://www.stumptowncoffee.com/pages/brew-guide",
+        "https://assets.breville.com/ZCG495/manual-encoreesp-v1-0-en-010923.pdf",
+        "https://counterculturecoffee.com/products/12-oz-forty-six",
+        "https://www.peets.com/products/major-dickasons"
+      ],
+      "sourceCheckedOn": "2026-10-13",
+      "market": "US",
+      "reason": "Fill a distinct current coffee-content gap",
+      "validation": "Production build; modern review, bean, migration, Amazon banners/catalog, SEO, analytics and internal-link/asset checks pass; responsive checks in progress"
+    },
+    {
+      "slotId": "2026-10-13-bean-CD-BN-000005",
+      "type": "New bean review",
+      "product": "Peet's Major Dickason's",
+      "path": "/coffee-beans/peets-major-dickasons/",
+      "canonicalUrl": "https://coffeedant.com/coffee-beans/peets-major-dickasons/",
+      "status": "Draft",
+      "evidencePath": "operations/2026-10-13-expanded-totals.json",
+      "before": "No canonical route or review before this batch",
+      "after": "New research-led review, credited official image, six visible FAQs and seven annotated sources",
+      "sourceUrls": [
+        "https://www.peets.com/products/major-dickasons",
+        "https://www.peets.com/pages/brew-guides",
+        "https://support.stumptowncoffee.com/hc/en-us/articles/5550819144461-How-long-does-Stumptown-coffee-stay-fresh",
+        "https://support.stumptowncoffee.com/hc/en-us/articles/5568076789901-Where-should-I-store-my-coffee-In-the-freezer-On-the-counter",
+        "https://assets.breville.com/ZCG495/manual-encoreesp-v1-0-en-010923.pdf",
+        "https://counterculturecoffee.com/products/12-oz-forty-six",
+        "https://www.stumptowncoffee.com/products/french-roast"
+      ],
+      "sourceCheckedOn": "2026-10-13",
+      "market": "US",
+      "reason": "Fill a distinct current coffee-content gap",
+      "validation": "Production build; modern review, bean, migration, Amazon banners/catalog, SEO, analytics and internal-link/asset checks pass; responsive checks in progress"
+    },
+    {
+      "slotId": "2026-10-13-best-listicle",
+      "type": "New best-of listicle",
+      "product": "Best Dark Roast Coffee Beans",
+      "path": "/coffee-beans/best-dark-roast-coffee-beans/",
+      "canonicalUrl": "https://coffeedant.com/coffee-beans/best-dark-roast-coffee-beans/",
+      "status": "Draft",
+      "evidencePath": "operations/2026-10-13-expanded-totals.json",
+      "before": "No canonical route or review before this batch",
+      "after": "New three-pick guide, explicit criteria, two comparisons, attributed flavor briefs, eight visible FAQs and linked full reviews",
+      "sourceUrls": [
+        "https://counterculturecoffee.com/products/12-oz-forty-six",
+        "https://www.stumptowncoffee.com/products/french-roast",
+        "https://www.peets.com/products/major-dickasons",
+        "https://counterculturecoffee.com/products/big-trouble",
+        "https://support.stumptowncoffee.com/hc/en-us/articles/5550819144461-How-long-does-Stumptown-coffee-stay-fresh",
+        "https://support.stumptowncoffee.com/hc/en-us/articles/5568076789901-Where-should-I-store-my-coffee-In-the-freezer-On-the-counter",
+        "https://assets.breville.com/ZCG495/manual-encoreesp-v1-0-en-010923.pdf"
+      ],
+      "sourceCheckedOn": "2026-10-13",
+      "market": "US",
+      "reason": "Fill a distinct current coffee-content gap",
+      "validation": "Production build; modern review, bean, migration, Amazon banners/catalog, SEO, analytics and internal-link/asset checks pass; responsive checks in progress"
+    }
+  ]
+}
