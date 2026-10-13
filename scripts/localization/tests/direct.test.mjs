@@ -5,6 +5,7 @@ import path from 'node:path';
 import { digest, policyHash, root, validateTranslation, parseHtml, jsonSlots, slots, attr, walk, textContent } from '../core.mjs';
 import { prepareRegionalDocument } from '../source.mjs';
 import { createReviewWorker } from '../review-worker.mjs';
+import { formatTechniqueYield } from '../../../src/lib/technique-ui.mjs';
 
 test('Dutch direct translation covers every frozen source slot without changing protected facts', async () => {
   const task = JSON.parse(await readFile(path.join(root, 'localization/authored/espresso-dosing.source.json'), 'utf8'));
@@ -66,6 +67,14 @@ test('mobile table and interactive count labels are translation slots, filter ke
   const extracted = slots(document);
   for (const label of ['Main compromise', 'brand', 'brands']) assert(extracted.some(({ source, kind }) => source === label && kind === 'attribute'));
   assert(!extracted.some(({ source }) => source === 'hands-on'));
+});
+
+test('interactive ratio output keeps the same arithmetic and uses translated labels/number formatting', () => {
+  assert.equal(formatTechniqueYield(18 * 1.7, '{yield} g drank', 'nl-NL'), '30,6 g drank');
+  assert.equal(formatTechniqueYield(18 * 1.7, '{yield} g Getränk', 'de-DE'), '30,6 g Getränk');
+  assert.equal(formatTechniqueYield(18 * 1.7, '{yield} g de boisson', 'fr-FR'), '30,6 g de boisson');
+  assert.equal(formatTechniqueYield(18 * 1.7), '30.6 g beverage');
+  assert(slots(parseHtml('<body><span data-yield-template="{yield} g beverage">36 g beverage</span></body>')).some(({ source }) => source === '{yield} g beverage'));
 });
 
 test('foundation batches cover their frozen sources in all three languages without altered facts or markup', async () => {

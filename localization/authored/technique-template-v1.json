@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "editions": ["nl", "de", "fr"],
+  "scope": "segments",
+  "snapshot": "technique-template-v1.source.json",
+  "snapshotHash": "3e567357d4fc4357aea1c4c6539f64d0186637c2e29c870f9604ae212e4d76b0",
+  "translations": {
+    "0": {"nl": "{yield} g drank", "de": "{yield} g Getränk", "fr": "{yield} g de boisson"}
+  }
+}

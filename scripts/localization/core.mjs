@@ -91,7 +91,7 @@ export const slots = (document) => {
     };
     if (node.nodeName === '#text') add(node.value, 'text', (value) => { node.value = value; });
     for (const entry of node.attrs ?? []) {
-      if (['alt', 'title', 'aria-label', 'placeholder', 'data-search', 'data-label', 'data-label-one', 'data-label-many', 'data-finder-load-failed', 'data-finder-load-fallback'].includes(entry.name)) add(entry.value, 'attribute', (value) => { entry.value = value; });
+      if (['alt', 'title', 'aria-label', 'placeholder', 'data-search', 'data-label', 'data-label-one', 'data-label-many', 'data-yield-template', 'data-finder-load-failed', 'data-finder-load-fallback'].includes(entry.name)) add(entry.value, 'attribute', (value) => { entry.value = value; });
       if (node.tagName === 'meta' && entry.name === 'content'
         && ['description', 'og:title', 'og:description', 'og:image:alt', 'twitter:title', 'twitter:description', 'twitter:image:alt'].includes(attr(node, 'name') ?? attr(node, 'property'))) {
         add(entry.value, 'metadata', (value) => { entry.value = value; });
