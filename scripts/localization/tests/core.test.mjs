@@ -127,6 +127,13 @@ test('Cloudflare translation uses a short-lived identity token and the same fact
   assert.equal((await requestTranslations(getEdition('de'), items, 'segments', mock, { provider: 'cloudflare', identityToken: 'short-lived-test-identity' })).result.get('a'), 'PID 9 bar');
 });
 
+test('daily free quota pauses after one request instead of repeatedly retrying or upgrading', async () => {
+  let calls = 0;
+  const mock = async () => { calls++; return { ok: false, status: 429, json: async () => ({ code: 'DAILY_QUOTA_EXHAUSTED' }) }; };
+  await assert.rejects(requestTranslations(getEdition('br'), [{ id: 'a', source: 'Review', context: '' }], 'segments', mock, { provider: 'cloudflare', identityToken: 'test-only' }), (error) => error.code === 'DAILY_QUOTA_EXHAUSTED');
+  assert.equal(calls, 1);
+});
+
 test('hostname router isolates editions and keeps internal asset prefixes out of public URLs', async () => {
   const router = createRegionalRouter({ 'br.coffeedant.com': 'br', 'ca.coffeedant.com': 'ca' }, { br: { '/old/': '/novo/' } });
   const seen = [];
