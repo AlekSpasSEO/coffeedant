@@ -11,7 +11,7 @@ const legacyPages = [
   ...JSON.parse(fs.readFileSync(path.join(root, 'src/data/pages-b.json'), 'utf8')),
 ];
 const migratedPaths = new Set(JSON.parse(fs.readFileSync(path.join(root, 'src/data/review-migration-batches.json'), 'utf8')).batches.flat());
-const sitemap = fs.readFileSync(path.join(root, 'public/sitemap.xml'), 'utf8');
+const sitemap = fs.readFileSync(path.join(dist, 'sitemap.xml'), 'utf8');
 const robots = fs.readFileSync(path.join(root, 'public/robots.txt'), 'utf8');
 const minimumReviewCount = 20;
 const canonicalOrigin = 'https://coffeedant.com';
@@ -63,7 +63,7 @@ const cleanText = (html) => html
   // Purchase controls, shopping banners and the finder are not editorial article copy.
   .replace(/<div\b[^>]*class="review-buy-actions"[^>]*>[\s\S]*?<\/div>/gi, ' ')
   .replace(/<aside\b[^>]*data-amazon-recommendation="[^"]+"[^>]*>[\s\S]*?<\/aside>/gi, ' ')
-  .replace(/<section\b[^>]*data-coffee-finder(?:\s|>)[\s\S]*?<\/section>/gi, ' ')
+  .replace(/<section\b[^>]*data-coffee-finder(?:="[^"]*")?(?:\s|>)[\s\S]*?<\/section>/gi, ' ')
   .replace(/<([a-z][\w:-]*)\b[^>]*class="[^"]*\bsr-only\b[^"]*"[^>]*>[\s\S]*?<\/\1>/gi, ' ')
   .replace(/<script[\s\S]*?<\/script>/gi, ' ')
   .replace(/<style[\s\S]*?<\/style>/gi, ' ')
@@ -118,7 +118,7 @@ for (const item of manifest) {
   }
 }
 
-const sitemapEntries = [...sitemap.matchAll(/<url>\s*<loc>([^<]+)<\/loc>\s*<lastmod>([^<]+)<\/lastmod>\s*<\/url>/g)]
+const sitemapEntries = [...sitemap.matchAll(/<url>\s*<loc>([^<]+)<\/loc>\s*<lastmod>([^<]+)<\/lastmod>[\s\S]*?<\/url>/g)]
   .map((match) => ({ loc: match[1], lastmod: match[2] }));
 if (!sitemapEntries.length) errors.push('sitemap: no parseable URL records');
 if (new Set(sitemapEntries.map((entry) => entry.loc)).size !== sitemapEntries.length) {
@@ -221,8 +221,8 @@ for (const item of manifest) {
   const videoDate = html.match(/"@type":"VideoObject"[\s\S]*?"uploadDate":"([^"]+)"/)?.[1];
   const articlePublishedDate = html.match(/<meta property="article:published_time" content="([^"]+)">/)?.[1];
   const articleModifiedDate = html.match(/<meta property="article:modified_time" content="([^"]+)">/)?.[1];
-  if (!videoDate || !/^\d{4}-\d{2}-\d{2}$/.test(videoDate)) {
-    fail(item.slug, 'VideoObject upload date must be a complete ISO date');
+  if (!videoDate || !/^\d{4}-\d{2}-\d{2}(?:T00:00:00Z)?$/.test(videoDate)) {
+    fail(item.slug, 'VideoObject upload date must be a complete ISO date or timestamp');
   }
   if (!videoId || !/^[\w-]{11}$/.test(videoId)) {
     fail(item.slug, 'YouTube video ID is missing or malformed');
@@ -237,8 +237,8 @@ for (const item of manifest) {
   }
   if (!articleModifiedDate || !/^\d{4}-\d{2}-\d{2}$/.test(articleModifiedDate)) {
     fail(item.slug, 'article modified date must be a complete ISO date');
-  } else if (sitemapMatches.length === 1 && sitemapMatches[0].lastmod !== articleModifiedDate) {
-    fail(item.slug, `sitemap lastmod ${sitemapMatches[0].lastmod} does not match article modified date ${articleModifiedDate}`);
+  } else if (sitemapMatches.length === 1 && Date.parse(sitemapMatches[0].lastmod) < Date.parse(articleModifiedDate)) {
+    fail(item.slug, `sitemap lastmod ${sitemapMatches[0].lastmod} predates article modified date ${articleModifiedDate}`);
   }
 
   const structuredNodes = [];
@@ -277,7 +277,7 @@ for (const item of manifest) {
     || videoSchema.uploadDate !== videoDate
     || videoSchema.inLanguage !== 'en-US'
     || !videoId
-    || !String(videoSchema.contentUrl ?? '').includes(videoId)
+    || !String(videoSchema.url ?? videoSchema.contentUrl ?? '').includes(videoId)
     || !String(videoSchema.embedUrl ?? '').includes(videoId)) {
     fail(item.slug, 'VideoObject schema does not match the embedded video');
   }

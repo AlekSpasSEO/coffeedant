@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/localization/build.mjs",
+    "build": "astro build && node scripts/localization/build.mjs && node scripts/build-seo.mjs",
     "build:region": "node scripts/localization/build.mjs --astro",
     "build:regions": "node scripts/localization/bundle.mjs",
     "localization:source": "node scripts/localization/source.mjs",
@@ -14,6 +14,8 @@
     "localization:refresh-offers": "node scripts/localization/refresh-offers.mjs",
     "test:localization": "node --test scripts/localization/tests/*.test.mjs",
     "preview": "astro preview",
+    "validate:seo": "node scripts/validate-seo.mjs",
+    "test:seo": "node --test scripts/tests/seo.test.mjs",
     "plan:upgrades": "node scripts/next-content-upgrade-batch.mjs",
     "audit:article-parity": "node scripts/audit-canonical-article-parity.mjs",
     "audit:supporting-pages": "node scripts/audit-supporting-pages.mjs",

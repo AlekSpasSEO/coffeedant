@@ -1,5 +1,6 @@
 ---
 import type { MachineReviewData } from '../../data/reviews';
+import { getReviewOverallScore } from '../../data/reviews';
 import { reviewInlineMedia } from '../../data/review-inline-media';
 import { getReviewRouteDefinition } from '../../data/review-routes';
 import { getReviewPurchaseLinks } from '../../lib/amazon-affiliate';
@@ -70,6 +71,17 @@ const author = {
   '@type': 'Person', name: review.author.name, jobTitle: review.author.role,
   image: assetUrl(review.author.image), url: 'https://coffeedant.com/about/',
 };
+const overallScore = getReviewOverallScore(review.evaluation);
+const editorialReview = {
+  '@type': 'Review', '@id': `${canonical}#review`,
+  name: review.title, reviewBody: review.verdict, author,
+  datePublished: review.published, dateModified: review.updated,
+  ...(overallScore === null ? {} : { reviewRating: {
+    '@type': 'Rating', ratingValue: overallScore, bestRating: 5, worstRating: 1,
+  } }),
+  positiveNotes: { '@type': 'ItemList', itemListElement: review.pros.map((name, index) => ({ '@type': 'ListItem', position: index + 1, name })) },
+  negativeNotes: { '@type': 'ItemList', itemListElement: review.cons.map((name, index) => ({ '@type': 'ListItem', position: index + 1, name })) },
+};
 const schema = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -79,6 +91,7 @@ const schema = {
       category: review.category, image: assetUrl(review.image),
       description: review.description, url: canonical,
       brand: { '@type': 'Brand', name: review.brand },
+      review: editorialReview,
     },
     {
       '@type': 'Article', '@id': `${canonical}#article`, headline: review.title,
@@ -95,7 +108,16 @@ const schema = {
       thumbnailUrl: `https://img.youtube.com/vi/${review.video.id}/hqdefault.jpg`, uploadDate: review.video.published,
       embedUrl: `https://www.youtube-nocookie.com/embed/${review.video.id}`,
       contentUrl: `https://www.youtube.com/watch?v=${review.video.id}`,
+      creator: { '@type': 'Organization', name: review.video.creator },
     },
+    ...inlineMedia.map((media, index) => ({
+      '@type': 'ImageObject', '@id': `${canonical}#editorial-image-${index + 1}`,
+      contentUrl: assetUrl(media.src), name: media.alt, caption: media.caption,
+      creditText: media.credit, width: media.width, height: media.height,
+      isPartOf: { '@id': `${canonical}#article` },
+      // Usage records document provenance; they are not necessarily licenses.
+      url: media.sourceHref,
+    })),
     {
       '@type': 'BreadcrumbList', itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://coffeedant.com/' },

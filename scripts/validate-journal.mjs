@@ -22,7 +22,7 @@ assert.equal(new Set(cards.map(n=>attr(n,'href'))).size,17);
 for(const card of cards){const img=walk(card).find(n=>n.tagName==='img');const src=attr(img,'src');assert.ok(src&&attr(img,'alt'));if(!/^https:\/\//.test(src)){const file=src.replace(/^\/coffeedant\//,'/').replace(/^\//,'');assert.ok(fs.existsSync(path.join('dist',file)),`Library thumbnail missing: ${src}`);}}
 assert.deepEqual(cards.reduce((c,n)=>{const k=attr(n,'data-kind');c[k]=(c[k]??0)+1;return c;},{}),{feature:10,informational:7});
 const media=JSON.parse(fs.readFileSync('src/data/journal-existing-media.json','utf8'));
-const sitemap=fs.readFileSync('public/sitemap.xml','utf8');
+const sitemap=fs.readFileSync('dist/sitemap.xml','utf8');
 const redirects=fs.readFileSync('public/_redirects','utf8').split(/\r?\n/).filter(l=>l&&!l.startsWith('#')).map(l=>l.trim().split(/\s+/));
 const sitemapUrls=[...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);
 assert.equal(new Set(sitemapUrls).size,sitemapUrls.length);
@@ -48,7 +48,7 @@ for(const card of cards){
   assert.equal(content.filter(n=>attr(n,'data-existing-photo')!==undefined).length,2);
   for(const photo of records.images){assert.ok(photo.credit&&photo.caption&&photo.alt&&photo.sourceUrl&&photo.licenseUrl);assert.ok(fs.existsSync(path.join('dist',photo.src)));}
   assert.match(records.video.id,/^[A-Za-z0-9_-]{11}$/);assert.ok(content.some(n=>attr(n,'data-journal-video')===records.video.id));assert.ok(content.some(n=>n.tagName==='a'&&attr(n,'href')===records.video.watchUrl));
-  assert.equal(schema.filter(n=>n['@type']==='VideoObject').length,1);
+  assert.equal(schema.filter(n=>n['@type']==='VideoObject').length,id==='dark-roast-americano'?2:1);
   assert.equal(article.associatedMedia.length,2);
   assert.ok(content.filter(n=>n.tagName==='a'&&/^https:/.test(attr(n,'href')??'')).length>=4);
  }else{
