@@ -95,7 +95,7 @@ export const bambinoReview: MachineReviewData = {
   image: 'images/products/breville-bambino-plus.png',
   imageAlt: 'Breville Bambino Plus espresso machine',
   published: '2026-04-07',
-  updated: '2026-09-25',
+  updated: '2026-10-13',
   author: {
     name: 'Aleksandar Spasevski', role: 'Editor at Coffeedant',
     image: 'images/author-aleksandar-spasevski.jpg',
