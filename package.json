@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "update:amazon-deals": "node scripts/update-amazon-deals.mjs",
+    "refresh:amazon-deals": "node scripts/update-amazon-deals.mjs --refresh",
+    "test:deals": "node --test scripts/tests/amazon-deals.test.mjs",
     "dev": "astro dev",
     "build": "astro build && node scripts/localization/build.mjs && node scripts/build-seo.mjs",
     "build:region": "node scripts/localization/build.mjs --astro",

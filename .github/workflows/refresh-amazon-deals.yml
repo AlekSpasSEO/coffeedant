@@ -1,0 +1,51 @@
+name: Refresh Friday Amazon coffee deals
+
+on:
+  schedule:
+    - cron: '17 9 * * 5'
+      timezone: Europe/Skopje
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Serialize with the existing price job so both publish a consistent selection.
+concurrency:
+  group: amazon-commerce-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Discover this week's coffee deals through Amazon Creators API
+        env:
+          AMAZON_CREATORS_CREDENTIAL_ID: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_ID }}
+          AMAZON_CREATORS_CREDENTIAL_SECRET: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_SECRET }}
+          AMAZON_CREATORS_CREDENTIAL_VERSION: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_VERSION }}
+        run: npm run update:amazon-deals
+      - name: Verify discount and expiry safeguards
+        run: npm run test:deals
+      - name: Verify production page and sitemaps
+        run: CF_PAGES=1 npm run build && npm run validate:seo
+      - name: Publish the Friday roundup to Cloudflare Pages
+        run: |
+          git add src/data/amazon-deals.json src/data/amazon-deal-selection.json
+          if git diff --cached --quiet; then
+            echo "No changes to Amazon coffee deals."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh Friday Amazon coffee deals"
+          git pull --rebase origin main
+          git push origin HEAD:main
