@@ -110,6 +110,17 @@ export const safeRoute = (value) => {
     || value.split('/').some((segment) => segment === '.' || segment === '..')) throw new Error('Unsafe localized route');
   return value;
 };
+export const normalizeGeneratedRoute = (value) => {
+  if (typeof value !== 'string' || !value.trim()) throw new Error('Empty localized route');
+  let route = value.trim();
+  if (['"', "'", '`'].includes(route[0]) && route.at(-1) === route[0]) route = route.slice(1, -1).trim();
+  try { route = decodeURIComponent(route); } catch { throw new Error('Invalid localized route encoding'); }
+  if (/[:?#\\\u0000-\u001f\u007f]/.test(route) || route.startsWith('//')) throw new Error('Unsafe localized route destination');
+  route = route.normalize('NFC').toLowerCase().replace(/[’']/g, '').replace(/[ _–—]+/g, '-');
+  if (!route.startsWith('/')) route = `/${route}`;
+  if (!route.endsWith('/')) route += '/';
+  return safeRoute(route);
+};
 export const translationFile = (id) => path.join(root, `localization/translations/${getEdition(id).id}.json`);
 export const emptyCache = (edition) => ({ schemaVersion: 1, edition, policyHash, segments: {}, routes: {} });
 export const loadCache = async (id) => {

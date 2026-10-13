@@ -1,7 +1,7 @@
 import path from 'node:path';
 import { appendFile } from 'node:fs/promises';
 import { root, config, getEdition, glossary, policyHash, loadCache, translationFile,
-  readJson, writeJson, safeRoute, validateTranslation, sourceOrigin, numericFacts } from './core.mjs';
+  readJson, writeJson, safeRoute, normalizeGeneratedRoute, validateTranslation, sourceOrigin, numericFacts } from './core.mjs';
 
 export const translationSchema = {
   type: 'object', additionalProperties: false, required: ['items'], properties: {
@@ -70,6 +70,7 @@ export const requestTranslations = async (edition, items, mode, fetchImpl = fetc
     if (result.size !== items.length || items.some(({ id }) => !result.has(id))) throw new Error('Translation response changed IDs');
     for (const item of items) {
       if (mode === 'routes') {
+        result.set(item.id, normalizeGeneratedRoute(result.get(item.id)));
         safeRoute(result.get(item.id));
         if (JSON.stringify(numericFacts(item.source)) !== JSON.stringify(numericFacts(result.get(item.id)))) throw new Error('Localized route changed a numeric/model identifier');
       } else validateTranslation(item.source, result.get(item.id));
@@ -79,7 +80,7 @@ export const requestTranslations = async (edition, items, mode, fetchImpl = fetc
   throw new Error('Translation retry budget exhausted');
 };
 
-export const translateEdition = async (id, source, budget, request = requestTranslations) => {
+export const translateEdition = async (id, source, budget, request = requestTranslations, deadline = Infinity) => {
   const edition = getEdition(id);
   if (id === 'us') throw new Error('The US edition is the source, not a translation target');
   const cache = await loadCache(id);
@@ -96,7 +97,7 @@ export const translateEdition = async (id, source, budget, request = requestTran
   }
   const routes = source.pages.filter((page) => !cache.routes[page.id]);
   const processBatch = async (batch, mode) => {
-    if (requests >= budget) return false;
+    if (requests >= budget || Date.now() + 120000 >= deadline) return false;
     requests += 1;
     try {
       const { result, usage } = await request(edition, batch, mode);
@@ -120,13 +121,19 @@ export const translateEdition = async (id, source, budget, request = requestTran
     } catch (error) { failures.push({ mode, ids: batch.map(({ id }) => id), error: error.message }); }
     return true;
   };
-  for (let offset = 0; offset < routes.length && requests < budget; offset += 20) {
+  // Translate interface copy early so small initial runs exercise real text,
+  // not only routing. Completed batches are cached and skipped next time.
+  const interfaceBatch = missing.filter(({ kind }) => kind === 'interface').slice(0, 30);
+  if (interfaceBatch.length) await processBatch(interfaceBatch, 'segments');
+  const processedInterface = new Set(interfaceBatch.map(({ id }) => id));
+  const prose = missing.filter(({ id }) => !processedInterface.has(id));
+  for (let offset = 0; offset < routes.length && requests < budget && Date.now() + 120000 < deadline; offset += 20) {
     await processBatch(routes.slice(offset, offset + 20).map((page) => ({ id: page.id, source: page.sourcePath, context: page.title })), 'routes');
   }
-  for (let offset = 0; offset < missing.length && requests < budget;) {
+  for (let offset = 0; offset < prose.length && requests < budget && Date.now() + 120000 < deadline;) {
     const batch = []; let characters = 0;
-    while (offset < missing.length && batch.length < 30) {
-      const next = missing[offset];
+    while (offset < prose.length && batch.length < 30) {
+      const next = prose[offset];
       const cost = next.source.length + next.context.length;
       if (batch.length && characters + cost > 10000) break;
       batch.push(next); characters += cost; offset += 1;
@@ -149,11 +156,12 @@ if (process.argv[1] && path.resolve(process.argv[1]) === path.join(root, 'script
   const limit = Number(process.env.LOCALIZATION_MAX_REQUESTS || 40);
   if (!Number.isInteger(limit) || limit < 1 || limit > 1000) throw new Error('LOCALIZATION_MAX_REQUESTS must be an integer between 1 and 1000');
   const report = []; let remainingBudget = limit;
+  const deadline = Date.now() + 20 * 60 * 1000;
   // Rotate the first edition daily so a bounded backfill does not starve later markets.
   const shift = Math.floor(Date.now() / 86400000) % targets.length;
   const ordered = [...targets.slice(shift), ...targets.slice(0, shift)];
   for (const id of ordered) {
-    const item = await translateEdition(id, source, Math.min(remainingBudget, Math.max(1, Math.floor(limit / targets.length))));
+    const item = await translateEdition(id, source, Math.min(remainingBudget, Math.max(1, Math.floor(limit / targets.length))), requestTranslations, deadline);
     remainingBudget -= item.requests; report.push(item);
   }
   await writeJson(path.join(root, '.localization/translation-report.json'), report);
