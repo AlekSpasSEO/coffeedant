@@ -28,7 +28,7 @@ const profile: UpgradeReviewProfile = {
   sku: 'Current North American Silvia Pro X, 110 V / 15 A; color-specific article number not confirmed',
   category: 'Compact reservoir-fed dual-boiler semi-automatic espresso machine',
   brandPath: '/rancilio/',
-  title: 'Rancilio Silvia Pro X review: current US price, soft infusion and limits',
+  title: "Rancilio Silvia Pro X review: two PIDs for a compact cappuccino station",
   description: 'Research-led Rancilio Silvia Pro X review covering the current North American 110 V model, dual boilers, soft infusion, dimensions, US price, owner evidence and realistic alternatives.',
   verdictLabel: 'A narrow dual boiler with serious steam and direct controls, but no volumetric shot stop or plumbing path',
   verdict: 'The current North American Silvia Pro X combines a 0.3 L insulated brass coffee boiler, 1 L steam boiler, two PID controllers, 58 mm commercial-style brass group, pressure gauge, automatic shot timer and adjustable zero-to-six-second soft infusion. Rancilio Group North America, Clive Coffee, Whole Latte Love and Seattle Coffee Gear all displayed US$2,195 on September 25, 2026. Its 9.8-inch width is unusually useful in a tight station, but the 16.5-inch depth, top-filled 2 L tank and 44 lb body still demand planning. Buy it for manual espresso plus repeated milk drinks, not for automatic dosing, flow profiling, direct plumbing or a simplified one-button interface.',
@@ -36,7 +36,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Seattle Coffee Gear product photograph of the current Rancilio Silvia Pro X espresso machine',
   published: '2026-07-27',
-  updated: '2026-09-25',
+  updated: '2026-10-13',
   price: { label: 'Current North American reference price', msrp: '$2,195', typical: 'Rancilio Group North America, Clive Coffee, Whole Latte Love and Seattle Coffee Gear displayed US$2,195 on September 25, 2026. Seattle Coffee Gear showed limited stock for one color while other colors were sold out. Confirm exact finish, stock, warranty, return terms and included accessories before purchase.', currency: 'USD', numeric: '2195', checked: 'September 25, 2026' },
   links: [
     { label: 'Check the current factory price and specifications', href: officialNA, note: 'US$2,195 factory reference, current model identity, boilers, group, tank, soft infusion and colors checked September 25, 2026', primary: true },
@@ -133,6 +133,8 @@ const profile: UpgradeReviewProfile = {
     'At US$2,195, buy it when steam reserve, narrow width and conventional service matter. Choose Elizabeth for more programming, Steel Duo for quicker thermoblock readiness or QM67 Evo for E61 ritual.',
   ],
   video: { id: 'PolUqU-ieSA', title: 'Rancilio Silvia Pro X Espresso Machine | Crew Review', creator: 'Seattle Coffee Gear', published: '2021-12-30', note: 'Unique exact-model independent retailer demonstration covering controls, setup and drink workflow. It is not Coffeedant testing, a current-price record or a controlled performance benchmark.' },
+
+  overview: "Silvia Pro X puts independent boiler control in a 9.8-inch-wide station without an exposed E61 lever group. Its two PIDs, pressure gauge, automatic shot timer and adjustable soft infusion give useful control for an owner who still wants to prepare and stop espresso manually. A dedicated steam boiler supports repeat milk orders, making the compact width particularly interesting in a shared kitchen. Depth, top filling and weight still need space, and the machine supplies neither automatic dosing nor direct plumbing. It is a focused answer to manual espresso plus regular cappuccinos, with the North American electrical configuration confirmed for the intended counter.",
 };
 
 profile.sectionOverrides = {

@@ -31,7 +31,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Melitta Professional official key visual of the current Cafina XT6 commercial superautomatic with stainless cabinet and touch display',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: {
     label: 'Current checked dealer price',
     msrp: 'US$19,850 sale listing',
@@ -152,6 +152,8 @@ const profile: UpgradeReviewProfile = {
     published: '2020-03-25',
     note: 'Independent retailer exact-model cleaning video. It predates the current US page and does not establish the delivered configuration, cleaning time, performance, service response or reliability.',
   },
+
+  overview: "Cafina XT6 offers a narrow commercial cabinet, but its family name does not define a complete operating station. Grinders, milk cooler and paths, instant options, electrical supply and installation work must be specified together for the intended menu. The published daily capacity and drink-specific hourly figures are useful planning references under their stated conditions, rather than promises for every café recipe. Its 300 mm width can help a constrained service area, with water, waste and cleaning access still needing space. Choose the XT6 against a signed configuration and acceptance test that reflects the staffed or supervised site where it will work.",
 };
 
 profile.sectionOverrides = {

@@ -3,6 +3,7 @@ import { buildUpgradeReview, type UpgradeReviewProfile } from './upgrade-next-te
 
 type DimensionCopy = UpgradeReviewProfile['dimensions'][ReviewDimensionId];
 type ClassicConfig = {
+  overview: string; updated?: string;
   key: string; slug: string; productId: string; model: string; sku: string;
   title: string; description: string; image: string; imageAlt: string;
   official: string; manual: string; priceUrl: string; priceLabel: string;
@@ -37,6 +38,7 @@ const makeProfile = (p: ClassicConfig): UpgradeReviewProfile => ({
       : 'Single-boiler semi-automatic espresso machine',
   brandPath: '/gaggia/',
   title: p.title,
+  overview: p.overview,
   description: p.description,
   verdictLabel: `For home baristas who want ${p.strength.toLowerCase()}`,
   verdict: `Choose the ${p.model} for ${p.strength.toLowerCase()}. Skip it when ${p.limit.toLowerCase()} conflicts with the normal drink routine.`,
@@ -44,7 +46,7 @@ const makeProfile = (p: ClassicConfig): UpgradeReviewProfile => ({
   image: p.image,
   imageAlt: p.imageAlt,
   published: '2026-07-27',
-  updated: '2026-09-23',
+  updated: p.updated ?? '2026-09-23',
   price: { label: p.priceLabel, msrp: p.price, typical: p.priceContext, currency: 'USD', numeric: p.priceNumeric, checked: 'September 23, 2026' },
   links: [
     { label: 'Check exact listing or product record', href: p.priceUrl, note: `${p.priceLabel}; verify generation, boiler, voltage, condition and warranty`, primary: true },
@@ -148,6 +150,9 @@ const products: ClassicConfig[] = [
     portafilter: 'Gaggia ABS and stainless-steel holder with supplied double-wall filters; not 58 mm',
     pidAnswer: 'Yes. Gaggia documents a factory PID, but no user-adjustable temperature menu or coffee-bed measurement is claimed.',
     videoId: '5S3_93Qlg1c', videoTitle: 'Gaggia Espresso Evolution Review', videoCreator: 'Whole Latte Love', videoDate: '2024-03-25', independent: 'https://coffeeblog.co.uk/gaggia-espresso-style-deluxe-evolution-review/', owner: 'https://www.reddit.com/r/espresso/comments/190sxry/gaggia_espresso_styledeluxeevolution_2023_first/', rating: [7.1, 6.7, 8.2, 6.2, 7.9, 8.2],
+
+    overview: "Espresso Evolution is a compact entry machine with factory PID assistance, preinfusion and memo volume, rather than a smaller version of the Gaggia Classic. Its double-wall filters and ESE support offer a forgiving starting point, and the side tank can help where rear access is awkward. The plastic pannarello keeps milk preparation manual, while the portafilter system leads away from the Classic's 58 mm accessories. PID here also does not imply a user-facing temperature menu. The reviewed 230 V EG2115/01 suits someone who wants modest electronic help and simple dosing, with its cup clearance and accessory format accepted beforehand.",
+    updated: '2026-10-13',
   },
   {
     key: 'gaggia-classic-evo', slug: '/espresso-machine/gaggia-classic-evo/', productId: 'CD-EM-000172', model: 'Classic Pro E24', sku: 'Current North American Classic Pro E24, 110-120V',
@@ -159,6 +164,9 @@ const products: ClassicConfig[] = [
     architecture: 'Single 3.5 oz lead-free brass dual-use boiler with embedded heater and thermostat control', brew: '58 mm group and portafilter, nine-bar OPV calibration and three-way solenoid without a factory PID', milk: 'Commercial-style rotating stainless wand with insulated grip and two-hole tip; brew and steam happen in sequence', controls: 'Three mechanical rocker switches and indicator lights; shot timing and temperature routine remain manual', capacity: '72 oz removable reservoir, 16 oz drip tray and 7-18 g listed basket range', dimensions: '8 W by 9.5 D by 14.2 H in; 19 lb',
     strength: 'A compact, repairable brass-boiler 58 mm platform that preserves grinder budget', limit: 'No PID, shot timer or simultaneous steam, so consistency depends on routine and grinder quality',
     videoId: 'JB124pMbv24', videoTitle: 'Gaggia Classic Pro E24 Espresso Machine Review', videoCreator: 'Whole Latte Love', videoDate: '2024-10-30', independent: 'https://www.wholelattelove.com/blogs/reviews/gaggia-classic-pro-e24-review', owner: 'https://www.reddit.com/r/gaggiaclassic/comments/1hbksfc/positive_experience_with_new_e24/', rating: [8.0, 7.6, 6.8, 8.2, 6.4, 8.4],
+
+    overview: "E24 updates the Classic's boiler material while keeping the compact manual format that defines the machine. The current North American version pairs a brass boiler with a 58 mm portafilter, nine-bar calibration, mechanical switches and a conventional steam wand. It gives a buyer a familiar accessory path and leaves room in the station budget for a grinder, but supplies no factory PID or shot timer to manage the routine. Brewing and steaming also use the same boiler in sequence. The attraction is a serviceable traditional platform whose owner wants to learn temperature timing and preparation, rather than an electronically guided first machine.",
+    updated: '2026-10-13',
   },
   {
     key: 'gaggia-classic-evo-pro', slug: '/espresso-machine/gaggia-classic-evo-pro/', productId: 'CD-EM-000173', model: 'Classic Evo Pro RI9380/46', sku: '2023 North American RI9380/46 Classic Evo Pro',
@@ -170,6 +178,9 @@ const products: ClassicConfig[] = [
     architecture: 'Single coated-aluminum dual-use boiler with thermostat control', brew: '58 mm portafilter, nine-bar calibration and three-way solenoid without a PID', milk: 'Manual wand; brewing, steaming and cooling happen in sequence', controls: 'Three rocker switches, manual shot stop and no temperature display', capacity: 'About 72 oz reservoir and 16 oz tray', dimensions: 'About 8 W by 9.5 D by 14.2 H in; verify the rating plate',
     strength: 'A low-cost 58 mm Classic platform when the exact boiler history and condition are documented', limit: 'The 2023 coated-boiler generation carries unresolved used-buying uncertainty and has been superseded by E24',
     videoId: 'LSTzXjZ4fW0', videoTitle: 'Gaggia Classic EVO Pro Review: Upgrade?', videoCreator: 'Lifestyle Lab', videoDate: '2023-09-16', independent: 'https://coffeegeek.com/reviews/firstlooks/gaggia-classic-evo-pro-espresso-machine-first-look/', owner: 'https://www.reddit.com/r/gaggiaclassic/comments/1ikhxej/gaggia_classic_evo_pro_boilergate_any_fix_this_is/', rating: [7.6, 7.1, 6.5, 6.2, 6.2, 5.8],
+
+    overview: "A 2023 Classic Evo Pro needs its boiler history established before its familiar 58 mm group becomes a selling point. The reviewed North American RI9380/46 was built with a coated aluminum boiler and has since been superseded by E24, so replacement history and the condition of the actual unit matter. Its mechanical switches, three-way solenoid and manual steam wand remain recognizable Classic strengths, with thermostat timing and sequential milk work still expected of the owner. A documented, appropriately priced example can be useful. An uncertain boiler record should outweigh enthusiasm for the Classic's accessory and modification ecosystem.",
+    updated: '2026-10-13',
   },
   {
     key: 'gaggia-classic-gt', slug: '/espresso-machine/gaggia-classic-gt/', productId: 'CD-EM-000174', model: 'Classic GT', sku: 'Classic GT North America 120V',
@@ -181,6 +192,9 @@ const products: ClassicConfig[] = [
     architecture: 'Dual PID boilers: 3.4 oz brass brew plus 30.4 oz stainless steam', brew: '58 mm portafilter, gauge, volumetric option, adjustable OPV and manual or automatic low-flow pre-infusion', milk: 'Articulated one-hole wand with four steam settings and simultaneous brewing', controls: 'Five toggles, 2.4-inch TFT, capacitive buttons, dual PID settings and programmable volume', capacity: '67.6 oz reservoir, 24 oz tray and 11-18 g baskets', dimensions: '10.2 W by 16.5 D by 16.7 H in; 39 lb',
     strength: 'Classic familiarity with dual-boiler pace, temperature control, pressure feedback and programmable pre-infusion', limit: 'The $1,699 price and larger 39 lb station compete with mature prosumer alternatives',
     videoId: 'tQLgSfOxpjc', videoTitle: 'Gaggia Classic GT Review: Just a Dual Boiler Classic?', videoCreator: 'Coffee Kev', videoDate: '2025-10-20', independent: 'https://coffeeblog.co.uk/gaggia-classic-gt-dual-boiler-review/', owner: 'https://www.home-barista.com/marketplace/gaggia-classic-gt-available-for-purchase-t100997.html', rating: [8.8, 9.0, 8.8, 8.5, 9.1, 7.7],
+
+    overview: "Classic GT removes two of the smaller Classic's main constraints: one boiler doing both jobs and thermostat timing without a temperature menu. Independent brew and steam boilers, two PIDs, pressure feedback and programmable preinfusion give this model a substantially different station role, including simultaneous milk work. It retains manual choices while adding a screen and volumetric option. The larger, heavier machine also moves into a price class with established prosumer alternatives, so familiarity with the Classic badge is not enough to settle the purchase. Compare the complete control layout and service route with the dual boilers available at the same budget.",
+    updated: '2026-10-13',
   },
 ];
 

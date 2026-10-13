@@ -17,7 +17,7 @@ const profile: UpgradeReviewProfile = {
   verdict: 'Consider the UK EA895N40 if paired milk drinks, five grinder positions and up to 12 saved favourites matter more than a removable brewing module. The exact Krups UK page supports those features and a two-year guarantee. A September 24, 2026 Northern Ireland £499 listing was sold out, so it is not a current available purchase price. Compare a stocked UK offer and its warranty before deciding.',
   assessment: 'This is a research-led judgment. An independent owner film labels its machine EA895 without showing an unambiguous UK EA895N40 rating plate; another independent repair film names EA895N40/70A. Neither is Coffeedant extraction testing or a reliability survey. Krups documents 17 options across 12 recipes, not 17 fundamentally different drinks.',
   image, imageAlt: 'Krups UK manufacturer image of Meteor Grey Evidence One EA895N40 with two milk drinks',
-  published: '2026-07-27', updated: '2026-09-24',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Exact EA895N40 UK listing, sold out', msrp: 'No current manufacturer checkout price confirmed', typical: 'NorthXSouth displayed £499 incl tax against £799 on September 24, 2026 but marked EA895N40 sold out; its delivery terms focus on Northern Ireland. Amazon UK exact ASIN B08TLTY94C had no featured offer. Neither listing verifies an available mainland UK checkout.', currency: 'GBP', numeric: '', checked: 'September 24, 2026' },
   links: [
     { label: 'Check EA895N40 retailer stock', href: retailer, note: '£499 displayed but sold out September 24, 2026; NI delivery terms', primary: true },
@@ -105,6 +105,8 @@ const profile: UpgradeReviewProfile = {
     'The EA895 family film lacks a verified UK article plate; an exact-labeled repair case is not fleet reliability evidence. The £499 exact listing was sold out and NI-oriented. Confirm stocked checkout, warranty and milk hygiene before buying, not an imaginary app feature.',
   ],
   video: { id: '_qZpuhXIeUA', title: 'How To Fix - Automatic Maintenance Fault - On Krups EA895N40 Coffee Machine (Simple Fix)', creator: 'Appliance Repairman', published: '2024-09-13', note: 'Independent 15:15 exact-EA895N40/70A repair case with parts-affiliate links; one fault, not a general reliability result. Do not attempt internal repairs without qualified service.' },
+
+  overview: "Evidence One gives paired milk preparation a more useful memory system: the UK EA895N40 can store up to twelve favorites alongside its recipe combinations. That is relevant when two people want familiar drinks ready without rebuilding settings each time. The five-position grinder and automatic brewing keep the preparation compact, while the external milk tube leaves a care task after serving. A saved-favorites list is also different from access to an owner-removable brewing module. The reviewed sold-out listing cannot settle today's value. Compare a stocked, correctly identified UK unit and its guarantee before using the machine's broader personalization as a reason to buy.",
 };
 
 profile.sectionOverrides = {

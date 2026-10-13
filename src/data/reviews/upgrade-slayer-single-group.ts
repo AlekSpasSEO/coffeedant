@@ -38,7 +38,7 @@ const profile: UpgradeReviewProfile = {
   image: hero,
   imageAlt: 'Slayer official photograph of the current Espresso Single Group machine in the standard black, silver and wood configuration',
   published: '2026-07-27',
-  updated: '2026-09-25',
+  updated: '2026-10-13',
   price: { label: 'Current US dealer listing', msrp: '$13,600', numeric: '13600', currency: 'USD', typical: 'Prima Coffee listed standard current configurations at US$13,600 and asked buyers to contact it for lead time; custom finishes, freight, installation, tax and service arrangements can change the total', checked: 'September 25, 2026' },
   links: [
     { label: 'Check current US configuration and lead time', href: prima, note: 'Dated dealer price, voltage choices, finish options and drop-ship timing', primary: true },
@@ -152,6 +152,8 @@ const profile: UpgradeReviewProfile = {
     'Choose it when the Slayer workflow itself is the point and local service is real. Choose Rocket R Nine One for saved pressure curves, Linea Mini for a more conventional premium routine, or Lelit Bianca when manual flow control matters more than brand-specific execution.',
   ],
   video: { id: 'Yx_ZrQ-M3Rc', title: 'Slayer Espresso Single Group Espresso Machine', creator: 'iDrinkCoffeeCanada', published: '2024-11-12', note: 'Independent retailer video running 10 minutes 53 seconds. It demonstrates specifications, the grouphead and actuator, a shot and milk steaming, but it does not provide Coffeedant testing, controlled measurements or long-term reliability evidence.' },
+
+  overview: "Slayer Single Group makes the needle valve and three-position actuator the brewing method, not decorative additions to an ordinary dual boiler. Slow pre-brew and manual flow control ask the owner to take an active interest in how extraction develops through the saturated group. Independent brew and steam tanks support the rest of the station, with commercial-scale weight, width and installation needs following that hardware. Water, regional power and qualified service must be planned before delivery. Its strongest audience specifically wants the Slayer process in a permanent setup; a buyer seeking straightforward dual-boiler consistency may not need the additional cost and operating commitment.",
 };
 
 profile.sectionOverrides = {

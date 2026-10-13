@@ -27,7 +27,7 @@ const profile: UpgradeReviewProfile = {
   verdict: 'Victoria PL91T combines a 58 mm LELIT58 group, 300 ml brass boiler, LCC temperature control, shot timer, extraction-pressure gauge and 2.5 L tank in a narrow stainless body. Independent testing found solid repeatability across 14 shots but also a meaningful temperature-offset error on the tested machine. Steam is capable for occasional cappuccinos, yet the roughly 90-second transition keeps this an espresso-first single boiler rather than a fast mixed-drink machine.',
   assessment: 'This is a research-led assessment, not a Coffeedant bench test. Current Lelit records control identity and specifications. Kaffeemacher, Coffee Kev and CoffeeGeek provide independent evaluations with different instruments and units. Owner discussions add bounded context. Coffeedant did not measure temperature, pressure, flow, steam, sound, energy, recovery or reliability.',
   image: hero, imageAlt: 'Lelit official front image of the current stainless Victoria PESVI01 with LELIT58 group, LCC display, manometer and steam wand',
-  published: '2026-07-27', updated: '2026-09-24',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Current US price', msrp: '$999.95', typical: 'Lelit US displayed $999.95 but was out of stock on September 24, 2026. Kanen Coffee and Sweet Maria’s displayed the exact Victoria at $999.95 with stock available. Tax, voltage, package and warranty remain regional.', currency: 'USD', numeric: '999.95', checked: 'September 24, 2026' },
   links: [
     { label: 'Check the exact current Lelit specification', href: official, note: 'Current PL91T identity, regional articles, controls, dimensions and delivered equipment', primary: true },
@@ -121,6 +121,8 @@ const profile: UpgradeReviewProfile = {
     'The limits are just as clear. Milk requires about a 90-second state change, and one rigorous independent test found a meaningful temperature offset despite good shot-to-shot repeatability. Buy Victoria when compact espresso control is the priority and occasional milk is enough. Verify the exact regional machine, software and temperature behavior instead of treating the display as proof by itself.',
   ],
   video: { id: 'aNeCGmEiLoA', title: 'Lelit Victoria OPTIMIERT - So ist die Espressomaschine doppelt so gut!', creator: 'Kaffeemacher', published: '2026-07-29', note: 'Independent exact-model video embedded with Kaffeemacher’s July 29, 2026 test of the conventional PL91T. The separate Victoria 3 remained untested there.' },
+
+  overview: "Victoria adds LCC settings, shot timing and pressure feedback to a narrow 58 mm single-boiler station. Those tools give an espresso-focused owner more information than mechanical switches alone, while the 300 ml boiler still makes milk preparation a separate stage. Temperature selection should also be understood alongside the offset discussion in the independent evidence, rather than read as a guarantee of a measured puck temperature. The current conventional PL91T is most attractive for a small number of drinks and familiar accessories. A household regularly serving several cappuccinos should compare the heat transition with a dual-boiler alternative before choosing the compact body.",
 };
 
 profile.sectionOverrides = {

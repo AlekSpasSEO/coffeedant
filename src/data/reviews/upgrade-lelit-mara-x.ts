@@ -26,7 +26,7 @@ const profile: UpgradeReviewProfile = {
   verdict: 'MaraX PL62X fits a 58 mm L58E group, 1.8 L stainless heat exchanger, double-probe control, quiet pump and two modes into a 22.5 cm-wide body. Xmode Coffee can reduce overheating by pausing heat during extraction; Xmode Steam prioritizes steam. Independent testing shows that results still depend on a short post-shot flush, roughly two minutes between extractions and deliberate recovery. It is a thoughtful compact HX, not a machine that removes thermal judgment.',
   assessment: 'This is a research-led assessment, not a Coffeedant bench test. Current manufacturer records control identity and specifications. Kaffeemacher and Coffee Chronicler provide independent but conflicting temperature evidence, and owner discussions add bounded context. Coffeedant did not measure temperature, pressure, flow, steam, sound, energy, recovery or reliability.',
   image: hero, imageAlt: 'Lelit official front image of the current stainless MaraX PESMX02 with L58E group, dual manometer, lever and cool-touch wands',
-  published: '2026-07-27', updated: '2026-09-24',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Current official US price', msrp: '$1,699.95', typical: 'Lelit US, Kanen Coffee and Seattle Coffee Gear each displayed $1,699.95 on September 24, 2026. Lelit US showed the stainless PESMX02 available to add to cart; dealer color stock and regional terms differed.', currency: 'USD', numeric: '1699.95', checked: 'September 24, 2026' },
   links: [
     { label: 'Check the exact current Lelit specification', href: official, note: 'Current PL62X identity, operating modes, dimensions, regional articles and delivered equipment', primary: true },
@@ -119,6 +119,8 @@ const profile: UpgradeReviewProfile = {
     'Independent work also defines the limit. Flush sequence, shot spacing and recovery still matter, while one long-term reviewer’s unit behaved far hotter than another tester’s machines. Buy MaraX when learning a repeatable rhythm is acceptable. Choose a compact dual boiler when independent numerical temperatures and less HX interpretation matter more than E61 feel.',
   ],
   video: { id: 'X8QFNTOY7uU', title: 'BEST BUDGET HEAT EXCHANGER?: Lelit Mara X Review', creator: 'Lance Hedrick', published: '2023-04-01', note: 'Independent review of the later Mara X generation. The video predates the current September 2026 catalog and price check, so manufacturer records govern identity, specifications and regional availability.' },
+
+  overview: "MaraX approaches the compact heat exchanger by giving brew and steam priorities separate operating modes. Its double-probe control and 22.5 cm-wide body are useful for someone wanting E61-style preparation and milk capability without a broad dual boiler. Xmode Coffee aims to manage brew behavior, while Xmode Steam gives more priority to the steam side. The documented and independently discussed routine still includes attention to recovery and shot spacing; electronics do not make every sequence equivalent. Compare the current PL62X control logic with the actual unit offered, and keep the separate flow-control MaraX3 out of that specification.",
 };
 
 profile.sectionOverrides = {

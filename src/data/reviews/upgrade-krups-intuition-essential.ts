@@ -16,7 +16,7 @@ const profile: UpgradeReviewProfile = {
   verdict: 'The EA870840 is worth considering if you want bean-to-cup black coffee plus a manual steam wand, not paired automatic milk recipes. Exact UK support confirms its article; a Currys Business listing describes the four drink functions, 3 L tank and two saved recipes. The two exact-model UK pages checked on September 24, 2026 were out of stock. Compare an actual stocked checkout and warranty before using any historic price.',
   assessment: 'This is a research-led review, not Coffeedant tasting. The independent MaxiCoffee demonstration is a French-market YY4371FD package in the Intuition Essential family, not a verified EA870840 UK unit. It illustrates panel and wand workflow without establishing UK specifications or measured taste. Exact UK retailer and manufacturer support anchor the model-specific claims.',
   image: hero, imageAlt: 'Currys Business listing photo of black Krups Intuition Essential EA870840 with manual steam wand',
-  published: '2026-07-27', updated: '2026-09-24',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Exact UK article, currently sold out in checked listings', msrp: 'No manufacturer UK RRP verified', typical: 'DirectVacuums displayed £319.99 against an unverified £599.99 RRP on September 24, 2026, but sold out; its one-year reseller guarantee differs from the two-year guarantee on Currys Business. Currys Business also showed out of stock without a current checkout price.', currency: 'GBP', numeric: '', checked: 'September 24, 2026' },
   links: [
     { label: 'Check exact EA870840 seller listing', href: seller, note: '£319.99 displayed but out of stock September 24, 2026; one-year reseller guarantee', primary: true },
@@ -104,6 +104,8 @@ const profile: UpgradeReviewProfile = {
     'Two exact-model UK sellers showed no stock on September 24, 2026. A stocked price, delivered warranty and willingness to clean the wand should settle the choice. Do not expect automatic milk or app functions.',
   ],
   video: { id: 'iQFj3ltERzI', title: 'KRUPS INTUITION ESSENTIAL | Bean-to-cup coffee machine | The MaxiCoffee Test', creator: 'MaxiCoffee', published: '2020-09-12', note: 'Independent retailer demonstration (8:45) linked to French YY4371FD; family workflow only, commercial seller context. UK EA870840 plate, measured coffee results and exact capabilities are not established.' },
+
+  overview: "Intuition Essential gives black coffee the automatic treatment and milk a manual wand. Its large 3 L tank and two saved recipes can be practical for a household that repeats the same coffees and prefers fewer refill interruptions to a long milk menu. The EA870840 should not be mistaken for the paired automatic-milk versions elsewhere in the Intuition range. Ristretto, espresso, long coffee and hot water cover its documented drink functions, with steaming performed separately. Exact UK stock was unresolved at the review's check, so a real available offer and warranty need to accompany this otherwise straightforward coffee proposition.",
 };
 
 profile.sectionOverrides = {

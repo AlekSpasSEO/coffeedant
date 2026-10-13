@@ -33,7 +33,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Clive Coffee product image of the black original-generation Profitec GO espresso machine',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: { label: 'Current US original-generation price checked', msrp: 'Current specialist price $1,199', typical: 'Clive Coffee displayed the original GO at $1,199 with Add to Cart on September 24, 2026. Whole Latte Love also displayed $1,199 with a three-year parts-and-labor warranty, but stock and color selection can vary. GO 2.0 European prices are not treated as US original-GO prices.', currency: 'USD', numeric: '1199', checked: 'September 24, 2026' },
   links: [
     { label: 'Check the current US GO offer', href: clive, note: '$1,199 with Add to Cart displayed September 24, 2026; verify generation, color, updates and warranty', primary: true },
@@ -127,6 +127,8 @@ const profile: UpgradeReviewProfile = {
     'Choose it when the exact original US unit, warranty and $1,199 package are verified and most drinks are espresso. Choose Victoria for programmed pre-infusion, Silvia for a simpler established platform, or Gaggia for a lower entry price.',
   ],
   video: { id: 'FKiJLR0jjjA', title: 'Profitec Go Review 2025 + Pro Barista Coffee Making Demo', creator: 'Coffee Kev', published: '2025-09-28', note: 'Independent hands-on video of the original Profitec GO, including espresso preparation, PID workflow and milk steaming. Coffee Kev uses affiliate links and sells coffee, so commercial interests are explicit; the video does not establish reliability or another unit’s performance.' },
+
+  overview: "The original US GO gives a compact single boiler unusually useful feedback: a front PID and shot timer, a brew-pressure gauge and externally accessible pressure adjustment. Together they suit an espresso-focused owner who wants to understand and repeat a shot without occupying the space of an E61 dual boiler. Milk preparation still follows a change of heating mode, so several cappuccinos expose the single-boiler sequence. The arrival of GO 2.0 in Europe makes generation, voltage and included accessories essential listing details. Buy the original for its documented controls and local support, rather than assuming every machine carrying GO has the newest specification.",
 };
 
 profile.sectionOverrides = {

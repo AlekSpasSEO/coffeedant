@@ -22,7 +22,7 @@ const profile: UpgradeReviewProfile = {
   verdict: 'The PL41PLUST combines a PID-adjusted 300 ml brass boiler, 58 mm group, coffee-pressure manometer, three-way valve and 2.7 L tank in a narrow stainless machine. Its manual workflow is credible for espresso and one milk drink at a time. Coffee Friend marked the exact model no longer produced, Mutbex marked it sold out, and Lelit omitted it from the current European catalog on September 24, 2026. Buy only against a verified used unit or genuine old stock with safe electrics, complete parts and local service.',
   assessment: 'This is a research-led assessment, not a Coffeedant bench test. The manufacturer-branded exact-model manual controls operating and technical claims. Current retailer archives establish availability context, one independent exact-model video adds bounded hands-on observation, and owner threads identify questions to inspect. Coffeedant did not measure temperature, pressure at the puck, flow, steam power, sound, energy, recovery or reliability.',
   image: hero, imageAlt: 'Mutbex exact-model product image of the stainless Lelit Glenda PL41PLUST with PID, 58 mm filterholder, baskets, tamper and scoop',
-  published: '2026-07-27', updated: '2026-09-24',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Exact new model unavailable', msrp: 'No verified current new-stock price', typical: 'Coffee Friend marked PL41PLUST no longer produced and out of stock on September 24, 2026. Mutbex showed a 53,067 TL archived price but also marked it sold out. A January 2022 owner post mentioned €590 locally. None is a current broadly available EU checkout price.', currency: 'EUR', numeric: '', checked: 'September 24, 2026' },
   links: [
     { label: 'Read the exact PL41PLUST manual', href: manual, note: 'Manufacturer-branded revision 03 manual for identity, controls, first fill, PID, care and technical data', primary: true },
@@ -111,6 +111,8 @@ const profile: UpgradeReviewProfile = {
     'The market has moved on. Exact new stock was unavailable, current Lelit catalogs omit the model, dimensions conflict across archived records, and parts visibility does not guarantee supply. Consider a verified used unit only after a safety and condition check. Choose Anna for a current lower-cost PID path or Victoria for a supported 58 mm Lelit with richer controls.',
   ],
   video: { id: '9T_AmkRH4Ik', title: 'Lelit Glenda PL41PLUST Home Espresso Machine Review & Test', creator: 'Tom’s Coffee Corner', published: '2023-03-27', note: 'Independent exact-model hands-on review. The video was sponsored by an unrelated VPN and includes affiliate machine links. It informs operation and owner context; current retailer and manufacturer records govern availability and identity.' },
+
+  overview: "Glenda PL41PLUST is an older route to a narrow PID-controlled machine with a conventional 58 mm accessory system. Its 300 ml brass boiler, pressure gauge and three-way valve form a coherent manual espresso setup, with milk prepared after a change to steam temperature. The challenge is obtaining a genuine, supported example: the exact model was absent from the current catalog and the checked retail listings did not establish normal new stock. It should therefore be assessed as used or verified old stock, including electrical safety, complete parts and service. The PL41PLUST identity matters because thermostat-only Glenda and 57 mm Anna material describes different machines.",
 };
 
 profile.sectionOverrides = {

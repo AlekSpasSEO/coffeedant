@@ -7,6 +7,8 @@
     "update:amazon-deals": "node scripts/update-amazon-deals.mjs",
     "refresh:amazon-deals": "node scripts/update-amazon-deals.mjs --refresh",
     "test:deals": "node --test scripts/tests/amazon-deals.test.mjs",
+    "test:review-originality": "node --test scripts/tests/review-originality.test.mjs",
+    "validate:review-originality": "node scripts/validate-review-originality.mjs",
     "dev": "astro dev",
     "build": "astro build && node scripts/localization/build.mjs && node scripts/build-seo.mjs",
     "build:region": "node scripts/localization/build.mjs --astro",

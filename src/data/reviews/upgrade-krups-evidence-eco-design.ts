@@ -11,13 +11,13 @@ const image = 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wxNTA2O
 const profile: UpgradeReviewProfile = {
   key: 'krups-evidence-eco-design-ea897b40', slug: '/espresso-machine/krups-evidence-eco-design-ea897b40/', productId: 'CD-EM-000187',
   brand: 'Krups', model: 'Evidence Eco-Design EA897B40', sku: 'UK EA897B40, slate/black, UK plug', category: 'Superautomatic espresso machine', brandPath: '/krups/',
-  title: 'Krups Evidence Eco-Design EA897B40 review: two milk drinks, real cleanup',
+  title: "Krups Evidence Eco-Design EA897B40 review: paired cappuccinos through a detachable milk hose",
   description: 'Research-led UK EA897B40 review: exact-model specifications, independent hands-on findings, milk-tube cleaning, recycled-plastic accounting, dated price and owner caveats.',
   verdictLabel: 'For shared black and milk drinks with a separate rinse routine',
   verdict: 'Consider the UK EA897B40 if one-touch paired cappuccinos, a five-step grinder and two stored favourites matter more than removable-brewer access or profiles. Budget for cleaning the detachable milk tube. Check whether a retailer delivers to your address before treating a visible Northern Ireland offer as a mainland UK quote.',
   assessment: 'The exact UK product page and an independently tested EA897B40 support convenient paired drinks. The environmental percentages describe material composition and potential recycling, not carbon savings or a proven machine lifetime.',
   image, imageAlt: 'Krups UK Evidence Eco-Design EA897B40 slate bean-to-cup machine, manufacturer front image',
-  published: '2026-07-27', updated: '2026-09-23',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Exact-model retailer listing, Northern Ireland delivery area', msrp: '£669.99 historical review price, not current MSRP', typical: 'NorthXSouth displayed £399 including tax, crossed-out £499, and add-to-cart on September 23, 2026. Its product delivery tab describes Northern Ireland service; check your postcode and shipping before interpreting this as a mainland UK purchase.', currency: 'GBP', numeric: '399', checked: 'September 23, 2026' },
   links: [
     { label: 'Check exact EA897B40 retailer offer', href: retailer, note: '£399 displayed September 23, 2026; check delivery region and checkout terms', primary: true },
@@ -105,6 +105,8 @@ const profile: UpgradeReviewProfile = {
     'The environmental story needs careful arithmetic: 62% of plastic weight is recycled, 31% of the entire machine, and up to 90% is described as recyclable. The UK SKU and £399 Northern Ireland retailer offer must be checked against delivery, warranty and ongoing cleaning supplies. Choose it for paired convenience, not a claim of effortless milk hygiene or guaranteed lifespan.',
   ],
   video: { id: 'Jkb_2zHs7-A', title: 'Latte macchiato op de Krups Evidence Eco.', creator: 'Marcel Ouwendijk', published: '2022-05-15', note: 'Independent owner-posted 1:55 milk demonstration of an Evidence Eco family machine. Regional/article plate not shown; no confirmed UK EA897B40 identity, testing protocol or Coffeedant access.' },
+
+  overview: "Evidence Eco-Design is worth considering when two people often ask for milk drinks together. The UK EA897B40 lists paired black or milk preparation, a five-position grinder and two stored favorites, giving its automatic system a practical two-person role. It draws milk through a detachable tube from a separate container, leaving rinsing and hand-cleaning after the drink. Its eight presets do not imply a profile system or a removable brewing unit. Availability also needs to match the buyer's delivery address; a Northern Ireland offer is not automatically a mainland UK purchase. Assess the actual pairing functions and seller terms together.",
 };
 
 profile.sectionOverrides = {

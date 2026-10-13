@@ -24,7 +24,7 @@ const profile: UpgradeReviewProfile = {
   sku: 'NICR 825 Type 709, stainless/chrome, European 220-240 V CafeRomatica 8-series generation',
   category: 'Superautomatic espresso machine',
   brandPath: '/brands/',
-  title: 'Nivona NICR 825 review: two milk drinks at once',
+  title: "Nivona NICR 825 review: DuoPlus for households that order two cappuccinos",
   description: 'Exact Nivona NICR 825 review with dated 969 euro pricing, dual milk drinks, three Aroma Balance profiles, ten memories and generation limits.',
   verdictLabel: 'A mature dual-milk automatic whose exact identity matters more than the 8-series name',
   verdict: 'Shortlist the exact NICR 825 when two milk drinks at once, a removable brewer, three Aroma Balance profiles and ten saved recipes solve real household problems. Its dial-led interface is older than the current NIVO 8000 platform, but the daily controls remain unusually direct. Aromatico displayed the stainless/chrome NICR 825 at 969 euros on September 24, 2026. Buy it for the documented panel workflow and DuoPlus milk hardware, not for an app claim: current regional listings conflict on Bluetooth support, so app control must be demonstrated on the exact delivered machine before it influences the decision.',
@@ -32,7 +32,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Official Nivona regional store image of the stainless and chrome CafeRomatica NICR 825 dispensing two milk drinks',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: {
     label: 'Current checked exact-model price',
     msrp: '969 euros at Aromatico Germany',
@@ -154,6 +154,8 @@ const profile: UpgradeReviewProfile = {
     published: '2021-04-25',
     note: 'Independent exact-model hands-on video linked to the Coffeeness NICR 825 review. It demonstrates drinks, controls and cleaning under that reviewer\'s conditions; it is not Coffeedant testing or long-term reliability evidence.',
   },
+
+  overview: "NICR 825 makes a specific case for two-person milk orders through DuoPlus preparation, backed by ten saved coffees and a removable brewing unit. The dial-led interface is older than the NIVO 8000 generation, but may be an advantage for someone who prefers direct panel controls to a newer screen style. Its three Aroma Balance settings provide another way to tailor the coffee within the automatic system. Bluetooth claims conflict across regional listings, so the purchase should stand on the demonstrated panel and milk functions unless connectivity is verified on the unit. The exact 825 is more informative than a generic 8-series description.",
 };
 
 profile.sectionOverrides = {

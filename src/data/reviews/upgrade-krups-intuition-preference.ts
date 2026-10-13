@@ -11,13 +11,13 @@ const image = 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wxMjUzM
 const profile: UpgradeReviewProfile = {
   key: 'krups-intuition-preference-ea875u40', slug: '/espresso-machine/krups-intuition-preference-ea875u40/', productId: 'CD-EM-000192',
   brand: 'Krups', model: 'Intuition Preference+ EA875U40', sku: 'UK EA875U40, Urban Metal, UK plug', category: 'Superautomatic espresso machine', brandPath: '/krups/',
-  title: 'Krups Intuition Preference+ EA875U40 review: 15 drinks',
+  title: "Krups Intuition Preference+ EA875U40 review: a personal recipe list for each of two users",
   description: 'Exact UK EA875U40 research review: 15 drinks, two profiles, paired milk, five-step grinder, cleaning, Polish EA875U test and dated refurbished price.',
   verdictLabel: 'Two-user convenience at a much lower refurbished price',
   verdict: 'Consider the UK EA875U40 if two people will use its colour-coded profiles, paired milk drinks and 15-recipe menu. Krups UK documents five grinder positions, three temperature levels, a 3 L tank and 250 g hopper. On September 24, 2026 an exact manufacturer-refurbished unit was in stock for £429.99 with a one-year reseller guarantee, far below a £999.99 new listing. Compare condition, warranty and milk cleaning before choosing the discount.',
   assessment: 'This is a research-led judgment, not Coffeedant tasting. Łukasz Proszek independently tested a Polish EA875U and filmed its espresso workflow, but that unit is not a confirmed UK EA875U40 rating plate. Exact UK specifications come from Krups UK. The adjacent-market test supplies bounded workflow and cup observations without transferring its measurements or long-term reliability.',
   image, imageAlt: 'Krups UK official front image of dark-grey EA875U40 preparing two layered milk drinks',
-  published: '2026-07-27', updated: '2026-09-24',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Exact UK EA875U40 manufacturer-refurbished listing', msrp: '£999.99 current new Home & Cook listing and seller reference', typical: 'DirectVacuums displayed £429.99 and in stock on September 24, 2026 for a manufacturer-refurbished EA875U40 with a one-year reseller guarantee. Home & Cook listed a new exact article at £999.99. Refurbished condition and coverage make these offers non-equivalent.', currency: 'GBP', numeric: '429.99', checked: 'September 24, 2026' },
   links: [
     { label: 'Check exact refurbished stock', href: seller, note: '£429.99 in stock September 24, 2026; manufacturer refurbished with one-year reseller cover', primary: true },
@@ -105,6 +105,8 @@ const profile: UpgradeReviewProfile = {
     'The Polish EA875U test offers bounded workflow context and one paired-cup caution without becoming UK testing. At £429.99 refurbished, condition and one-year seller cover decide value. Buyers wanting more profiles or cold-labelled recipes should compare Experience+.',
   ],
   video: { id: 'QeCOez3OOyI', title: 'KRUPS Intuition Preference+ EA875U - Parzenie Espresso', creator: 'PROrankingi', published: '2022-10-13', note: 'Independent 1:01 Polish EA875U espresso demonstration linked to Łukasz Proszek’s full hands-on review. UK EA875U40 plate, measurements and regional equivalence are not established.' },
+
+  overview: "Two color-coded profiles make Intuition Preference+ a more focused proposition for a couple than the larger Experience+ profile system. Each person can retain familiar recipes, with paired milk drinks and a fifteen-program hot menu covering the shared routine. Five grinder positions and a 3 L tank supply useful but bounded adjustment and capacity. The price gap between refurbished and new listings makes condition, included parts and guarantee especially relevant on the EA875U40. A discount is attractive only with a verified unit and realistic allowance for milk-path care; it does not remove the service commitments of an automatic brewing system.",
 };
 
 profile.sectionOverrides = {

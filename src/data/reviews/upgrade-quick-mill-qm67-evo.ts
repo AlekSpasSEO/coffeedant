@@ -24,7 +24,7 @@ const profile: UpgradeReviewProfile = {
   sku: '0992P-A-EVO, current US 110 V reservoir configuration',
   category: 'Dual-boiler E61 semi-automatic espresso machine',
   brandPath: '/quick-mill/',
-  title: 'Quick Mill QM67 Evo review: current price, dual boilers and E61 workflow',
+  title: "Quick Mill QM67 Evo review: a reservoir-fed dual boiler for a narrow counter",
   description: 'Research-led Quick Mill QM67 Evo review covering SKU 0992P-A-EVO, dual stainless boilers, PID and shot timer, E61 workflow, reservoir-only design, current US price and owner evidence.',
   verdictLabel: 'A compact traditional dual boiler for buyers who want E61 ritual, simultaneous steam and PID control without plumbing',
   verdict: 'The current US QM67 Evo combines a 0.75 L brew boiler, 1 L steam boiler, PID with shot timer, E61 group, vibration pump, dual manometer and 3 L top reservoir in a narrow 11.25-inch body. Both boilers can operate independently, and the dual-boiler layout supports brewing and steaming at the same time. The trade-offs are equally clear: it is reservoir-only, weighs 50 pounds, needs E61 warm-up discipline and uses a vibration rather than rotary pump. Espresso Outlet and Chris Coffee each displayed US$2,495 and in-stock status on September 25, 2026, with different warranty terms. Buy it for classic mechanics and compact width, not for instant readiness, direct plumbing or automated profiling.',
@@ -32,7 +32,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Quick Mill QM67 Evo stainless dual-boiler espresso machine shown from the front and right side',
   published: '2026-07-27',
-  updated: '2026-09-25',
+  updated: '2026-10-13',
   price: { label: 'Current US reference price', msrp: '$2,495', typical: 'Espresso Outlet and Chris Coffee each displayed US$2,495 and in-stock status on September 25, 2026. Espresso Outlet listed a one-year manufacturer-defect warranty while Chris Coffee advertised two years, so seller, coverage, freight, returns and service location belong in the price comparison.', currency: 'USD', numeric: '2495', checked: 'September 25, 2026' },
   links: [
     { label: 'Check current US price and availability', href: espressoOutlet, note: 'US$2,495, in-stock reference, exact SKU, specifications, package and one-year warranty checked September 25, 2026', primary: true },
@@ -125,6 +125,8 @@ const profile: UpgradeReviewProfile = {
     'Buy only after confirming exact SKU, 110 V circuit, top clearance, water, written warranty and local service. Choose Silvia Pro X for a quicker electronic routine, Profitec Pro 600 for another E61 dual-boiler path, or Vetrano 2B Evo for rotary-pump and plumbing priorities.',
   ],
   video: { id: 'rYBJxtnHJuA', title: 'Quick Mill QM67 Evo Dual Boiler Espresso Machine', creator: "Chris' Coffee Service", published: '2021-05-05', note: 'Unique specialist product demonstration covering the current-style control layout, dual-boiler operation, E61 workflow and buyer fit. It is not Coffeedant testing, a current-price source or an independent laboratory measurement.' },
+
+  overview: "QM67 Evo offers two independently switched boilers in a relatively narrow E61 station, making simultaneous brewing and milk preparation its most useful upgrade over a single boiler. PID and shot timing supply feedback through a familiar lever interface. The trade is a reservoir-only layout with a vibration pump, so a buyer planning direct water or expecting rotary-pump operation needs another model. The tall, top-filled tank and substantial weight also matter beyond the advertised width. It fits an owner who wants traditional dual-boiler espresso in the available space and will plan group warm-up and specialist service as part of the routine.",
 };
 
 profile.sectionOverrides = {

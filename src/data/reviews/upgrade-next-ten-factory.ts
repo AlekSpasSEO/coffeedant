@@ -1,4 +1,5 @@
 import type { MachineReviewData, ReviewDimensionId } from '../reviews';
+import { assertAuthoredOverview, renderAuthoredOverview } from '../../lib/review-overview.mjs';
 import {
   buildResearchReview,
   comparisonTablesHtml,
@@ -30,6 +31,8 @@ export type UpgradeReviewProfile = {
   category: string;
   brandPath: string;
   title: string;
+  // Required unless sectionOverrides.orientation supplies a complete authored opening.
+  overview?: string;
   description: string;
   verdictLabel: string;
   verdict: string;
@@ -183,6 +186,17 @@ export const buildUpgradeReview = (profile: UpgradeReviewProfile): MachineReview
   const independentRefs = ref(profile, [3, 4, 9]);
   const ownerRefs = ref(profile, [7, 8]);
   const priceRefs = ref(profile, [2]);
+  const orientationOverride = profile.sectionOverrides?.orientation;
+  if (orientationOverride) {
+    const firstParagraph = orientationOverride.match(/<p\b[^>]*>([\s\S]*?)<\/p>/i)?.[1]
+      .replace(/<a\b[\s\S]*?<\/a>/gi, '').replace(/<[^>]+>/g, ' ');
+    assertAuthoredOverview(firstParagraph, profile.slug);
+  }
+  const overviewHtml = orientationOverride ?? renderAuthoredOverview({
+    slug: profile.slug, overview: profile.overview, identityBoundary: profile.identityBoundary,
+    primaryStrength: profile.primaryStrength, primaryLimit: profile.primaryLimit,
+    citationHtml: `${officialRefs} ${independentRefs}`,
+  });
 
   const review = buildResearchReview({
     slug: profile.slug,
@@ -224,8 +238,7 @@ export const buildUpgradeReview = (profile: UpgradeReviewProfile): MachineReview
       sections: [
         {
           id: 'orientation', eyebrow: 'Start with the decision', title: `${profile.model} in one honest frame`, html: `
-            <p>The ${profile.brand} ${profile.model} is ${profile.architecture}. ${profile.identityBoundary} That identity matters because two machines can promise the same drink while asking for completely different work before and after it. The useful first question is not whether ${profile.model} can make coffee. It is whether its heating, preparation, milk, water, and cleaning sequence matches the way the household will actually use it. ${officialRefs}</p>
-            <p><strong>The strongest reason to choose it:</strong> ${profile.primaryStrength} <strong>The main reason to pause:</strong> ${profile.primaryLimit} Those two statements explain the rating more accurately than a long feature list. A high score in one dimension does not erase a compromise elsewhere, and the overall rating should be read with the six category scores rather than alone.</p>
+            ${overviewHtml}
             <div class="review-callout"><strong>Evidence boundary:</strong> this page does not claim that Coffeedant brewed on, measured, opened, or durability-tested the ${profile.model}. Product performance varies with inputs, setup, maintenance, technique, revision, and region.</div>`,
         },
         {

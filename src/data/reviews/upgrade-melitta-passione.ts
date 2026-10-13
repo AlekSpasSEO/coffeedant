@@ -24,7 +24,7 @@ const profile: UpgradeReviewProfile = {
   sku: 'Black F53/1-102, official gallery article 6767348; 220–240 V',
   category: 'Superautomatic espresso machine',
   brandPath: '/brands/',
-  title: 'Melitta Passione OT review: compact, but know the limits',
+  title: "Melitta Passione OT review: a small milk station that needs frequent refills",
   description: 'Exact Melitta Passione OT F53/1-102 review: £476 dated price, 10 recipes, 1.2 L tank, 125 g hopper, one-touch milk, two-cup boundary and owner evidence.',
   verdictLabel: 'A narrow one-touch machine for modest households, not a high-capacity shortcut',
   verdict: 'Shortlist the black Passione OT F53/1-102 when a 253 mm-wide body, direct milk drinks and a removable brewer matter more than capacity or profiles. The current official family record gives 10 recipes, five strengths, three temperatures, a five-step grinder, 1.2 L water and 125 g beans. Its two-cup function covers coffee, not two coffee-milk drinks. The exact black listing was £476 on September 24, 2026.',
@@ -32,7 +32,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Melitta official front product image of the black Passione OT F53/1-102 with TFT display and all-in-one outlet',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: {
     label: 'Current checked exact black price',
     msrp: '£599 crossed-out reference price',
@@ -155,6 +155,8 @@ const profile: UpgradeReviewProfile = {
     published: '2024-12-23',
     note: 'Independent exact-model visual walkthrough. It helps identify the interface and workflow but does not provide controlled taste, temperature, cleaning-labour or durability measurements.',
   },
+
+  overview: "Passione OT is a small automatic milk station whose compactness comes with frequent replenishment. Its 253 mm-wide body houses a 1.2 L tank and 125 g bean hopper, making it more natural for a modest household than a busy shared kitchen. Ten recipes and a removable brewer cover a useful everyday routine without user profiles or a ground-coffee bypass chute. The two-cup function is also a black-coffee convenience; it does not prepare two milk coffees together. The F53/1-102 makes sense when footprint and direct milk choices matter more than capacity, with the hose and removable parts kept in the cleaning plan.",
 };
 
 profile.sectionOverrides = {

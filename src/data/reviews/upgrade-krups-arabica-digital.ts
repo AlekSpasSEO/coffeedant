@@ -10,13 +10,13 @@ const video = 'https://www.youtube.com/watch?v=snkES99AKdc';
 const profile: UpgradeReviewProfile = {
   key: 'krups-arabica-digital-ea817040', slug: '/espresso-machine/krups-arabica-digital-ea817040/', productId: 'CD-EM-000185',
   brand: 'Krups', model: 'Arabica Digital EA817040', sku: 'EA817040, UK black 220–240 V edition', category: 'Superautomatic espresso machine', brandPath: '/krups/',
-  title: 'Krups Arabica Digital EA817040 review: compact black coffee, manual milk',
+  title: "Krups Arabica Digital EA817040 review: two saved coffees on a small LCD",
   description: 'Research-led UK EA817040 review separating the black Arabica Digital from EA817840, with exact-model documentation, milk and cleaning workflow, owner evidence and dated price caveats.',
   verdictLabel: 'For a small kitchen making mostly black coffee',
   verdict: 'Choose EA817040 if a compact automatic grinder, two saved black-coffee recipes and occasional manual milk match your routine. Skip it if you expect one-touch milk, direct brew-group access or a verified new-stock UK offer.',
   assessment: 'Krups documents a small 245 mm-wide bean-to-cup appliance with a manual steam nozzle. The strengths are compactness and repeatable saved drinks, while the closed brew mechanism, three grinder steps, milk work and uncertain current stock constrain the buying case.',
   image, imageAlt: 'Black Krups Arabica Digital EA817040 with cup and manual steam nozzle',
-  published: '2026-07-27', updated: '2026-09-23',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Historical UK owner-video price claim', msrp: 'Under £300 (December 2025 claim)', typical: 'Not a current offer. Amazon UK did not show a featured new offer and Krups gave no live machine price on September 23, 2026. Check exact-model stock and warranty before buying.', currency: 'GBP', numeric: '', checked: 'December 8, 2025; live listing rechecked September 23, 2026' },
   links: [
     { label: 'Check exact-model listing', href: retail, note: 'No verified featured new-stock price on the September 2026 check; confirm seller, voltage and warranty', primary: true },
@@ -107,6 +107,8 @@ const profile: UpgradeReviewProfile = {
     'Do not buy on a recycled historical price or a different Arabica article. Confirm a legitimate UK unit, current stock, seller-backed warranty and service before accepting the closed-brew cleaning trade-off.',
   ],
   video: { id: 'snkES99AKdc', title: 'KRUPS Arabica Digital After 3 Years of Daily Use Review', creator: 'DavidInFrance Reviews', published: '2025-12-08', note: 'Independent exact-EA817040 owner account with disclosed Amazon affiliate link; individual experience and historical price, not Coffeedant testing or a current offer.' },
+
+  overview: "Arabica Digital gives a compact automatic coffee routine a small LCD and two saved favorites, while milk remains a manual steam-nozzle job. Those two memories can be useful for a household repeating a pair of black-coffee recipes without needing a long drink menu. The metal conical grinder has only three steps, and the internal brewing system does not provide owner-removable group access. These constraints deserve more weight than the convenience of the screen. The reviewed EA817040 is the black UK article; a similar silver or carbon listing should be checked on its own identity, stock and warranty.",
 };
 
 const review = buildUpgradeReview(profile);

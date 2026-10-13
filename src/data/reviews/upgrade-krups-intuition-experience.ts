@@ -11,13 +11,13 @@ const image = 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wxMzU3M
 const profile: UpgradeReviewProfile = {
   key: 'krups-intuition-experience-ea877d40', slug: '/espresso-machine/krups-intuition-experience-ea877d40/', productId: 'CD-EM-000191',
   brand: 'Krups', model: 'Intuition Experience+ EA877D40', sku: 'UK EA877D40, 220–240 V right-angle UK plug', category: 'Superautomatic espresso machine', brandPath: '/krups/',
-  title: 'Krups Intuition Experience+ EA877D40 review: 21 drinks',
+  title: "Krups Intuition Experience+ EA877D40 review: eight profiles for a busy shared kitchen",
   description: 'Exact UK EA877D40 research review: 21 named drinks, milk and cold menu limits, 13-step grinder, eight profiles, cleaning, independent Polish test and sold-out refurbished listing.',
   verdictLabel: 'Large shared menu, with meaningful cold-drink limits',
   verdict: 'Consider the UK EA877D40 if a family uses its 21 named drinks, up to eight profiles and two-cup milk service. Krups UK lists 13 grind positions, a 3 L reservoir, 250 g beans and a 14 cm outlet limit. Its “Nitro Coffee” and “Chilled Coffee” are named programs, not independently established true cold extraction or nitrogen infusion. A September 24, 2026 £379.99 exact-model refurbished listing was sold out, so compare an actual stocked offer and its warranty.',
   assessment: 'This is a research-led judgment, not Coffeedant tasting. Łukasz Proszek independently evaluated an EA877D in Poland, with a filmed Nitro-labeled menu demonstration; that regional unit is not a confirmed UK EA877D40 plate. The manufacturer specification is used for exact UK features, while the independent evaluation informs workflow without transferring regional measurements.',
   image, imageAlt: 'Krups UK official angled image of stainless EA877D40 with two black-coffee cups',
-  published: '2026-07-27', updated: '2026-09-24',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Exact UK EA877D40 refurbished reseller listing, sold out', msrp: 'No verified manufacturer UK RRP or available new checkout', typical: 'DirectVacuums displayed £379.99 against its £1,099 comparison on September 24, 2026 for manufacturer-refurbished EA877D40, out of stock with a one-year reseller guarantee. The comparison amount is not established manufacturer MSRP, and refurbished pricing must not stand in for a new-unit quote.', currency: 'GBP', numeric: '', checked: 'September 24, 2026' },
   links: [
     { label: 'Check exact-model refurbished stock', href: seller, note: '£379.99 displayed but sold out September 24, 2026; one-year reseller cover', primary: true },
@@ -105,6 +105,8 @@ const profile: UpgradeReviewProfile = {
     'The independent Polish EA877D evaluation gives useful workflow context without becoming Coffeedant UK testing. The only dated exact UK price checked was an unavailable refurbished offer. Confirm a stocked unit, seller warranty and real cold-drink expectations before paying for this wide menu.',
   ],
   video: { id: '5xfnxeO9XwM', title: 'KRUPS Intuition Experience+ EA877D - Test robienia kawy mrożonej Nitro', creator: 'PROrankingi', published: '2022-11-22', note: 'Independent Polish 3:09 hands-on demonstration of Nitro-named recipe, linked to Łukasz Proszek’s broader Polish EA877D review. UK EA877D40 plate and nitrogen hardware not verified.' },
+
+  overview: "Intuition Experience+ is most persuasive in a large household that will use eight profiles and paired milk service. Its UK specification also lists thirteen grinder positions, a useful distinction from simpler five-step automatics, although a reseller gives a conflicting count. The twenty-one named programs need careful reading: 'Nitro Coffee' and 'Chilled Coffee' are menu labels, without independent evidence here of nitrogen infusion or true cold extraction. The 3 L tank supports the shared-station role, with outlet clearance and milk cleaning still worth checking. Buy the documented EA877D40 configuration for its personalization, rather than assuming every enticing recipe name establishes a new brewing mechanism.",
 };
 
 profile.sectionOverrides = {

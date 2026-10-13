@@ -32,7 +32,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Official Philips product image of the black and chrome EP5447/94 with LatteGo milk container',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: { label: 'Refurbished exact-model price checked', msrp: 'Newer Philips 5500 comparison price $1,299.99', typical: 'Espresso Machine Experts displayed an in-stock refurbished EP5447/94 at $769.99 on September 24, 2026. Walmart displayed a $549 restored exact-model offer out of stock, and the current official Philips 5500 successor was $1,299.99. Verify condition, seller, included pieces, warranty and checkout stock.', currency: 'USD', numeric: '769.99', checked: 'September 24, 2026' },
   links: [
     { label: 'Check the refurbished EP5447/94 offer', href: refurb, note: '$769.99 displayed in stock on September 24, 2026; verify final condition, warranty and checkout availability', primary: true },
@@ -125,6 +125,8 @@ const profile: UpgradeReviewProfile = {
     'Choose EP5447/94 when three or four people will use the profiles and a reputable refurbisher stands behind the unit. Choose the 4300 for two profiles, the 2200 for a short basic menu, or Dinamica Plus for a different milk and interface routine.',
   ],
   video: { id: 'AoLoafp0R4g', title: 'Philips Saeco EP5447/94 Fully Automatic Coffee Machine', creator: 'Espresso Canada', published: '2021-01-20', note: 'Exact-model retailer demonstration of the EP5447/94 interface, recipe selection and LatteGo workflow. Espresso Canada sells coffee equipment, so its commercial interest is explicit; the video does not prove current condition, price, durability or performance for another unit.' },
+
+  overview: "Four profiles and twelve recipes give the 5400 LatteGo a clearer shared-household role than the two-profile 4300. The tube-free milk container keeps the cleaning arrangement approachable, while saved settings reduce repeated adjustments for different users. The US EP5447/94 is discontinued, so those benefits now have to justify a particular refurbished purchase, not an abstract comparison with its original list price. Confirm the grade, complete milk assembly, warranty and return terms before paying for the broader menu. A household with several recurring preferences has a stronger reason to choose this model than a single user repeating one cappuccino.",
 };
 
 profile.sectionOverrides = {

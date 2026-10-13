@@ -24,7 +24,7 @@ const profile: UpgradeReviewProfile = {
   sku: '04005-A-EVO-A, current US 110-120 V reservoir configuration',
   category: 'Hybrid boiler and thermoblock semi-automatic espresso machine',
   brandPath: '/quick-mill/',
-  title: 'Quick Mill Silvano Evo review: US price, hybrid heat and steam limits',
+  title: "Quick Mill Silvano Evo review: brewing alongside a separate steam thermoblock",
   description: 'Research-led Quick Mill Silvano Evo review covering SKU 04005-A-EVO-A, PID brew boiler, separate steam thermoblock, current US price, owner evidence and specification differences.',
   verdictLabel: 'A compact PID machine for buyers who value simultaneous brewing and steam more than boiler-level steam power',
   verdict: 'The US Silvano Evo 04005-A-EVO-A combines a PID-controlled coffee boiler, separate steam thermoblock, two vibration pumps, 58 mm group, shot timer, brew-pressure gauge and side-loading reservoir. That hybrid layout can brew and steam at the same time without the recovery sequence of a conventional single boiler. Chris Coffee and 1st in Coffee both displayed US$1,495 and in-stock status on September 25, 2026. The main compromise is steam character: independent and owner evidence consistently describes the thermoblock as slower and less forceful than a dedicated steam boiler. Current global factory specifications also differ from US retailer and distributor records on boiler material, tank capacity and dimensions, so the delivered SKU and rating plate must govern.',
@@ -32,7 +32,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Quick Mill official front view of the current Silvano hybrid espresso machine',
   published: '2026-07-27',
-  updated: '2026-09-25',
+  updated: '2026-10-13',
   price: { label: 'Current US reference price', msrp: '$1,495', typical: 'Chris Coffee and 1st in Coffee each displayed US$1,495 and in-stock status for SKU 04005-A-EVO-A on September 25, 2026. Confirm the exact SKU, voltage, boiler, tank, included accessories, warranty and return terms before purchase.', currency: 'USD', numeric: '1495', checked: 'September 25, 2026' },
   links: [
     { label: 'Check current US price and exact SKU', href: chrisCoffee, note: 'US$1,495, in-stock status and SKU 04005-A-EVO-A checked September 25, 2026', primary: true },
@@ -125,6 +125,8 @@ const profile: UpgradeReviewProfile = {
     'At US$1,495, it fits households that make both espresso and milk drinks but cannot justify a larger dual boiler. Confirm the exact US specification because current global and regional records differ.',
   ],
   video: { id: 'Rf23Fb7I7FE', title: 'Quick Mill Silvano Review', creator: 'Joe Varacalli', published: '2021-11-15', note: 'Unique exact-model independent owner review covering controls, espresso preparation, steam workflow and buyer fit. It is not Coffeedant testing, current-price evidence or a universal performance measurement.' },
+
+  overview: "Silvano Evo separates milk heating from its PID coffee boiler with a dedicated steam thermoblock. That hybrid is the feature to understand: it permits brewing and steaming together without putting two full boilers into the station. The 58 mm group, shot timer and side-loading reservoir add conventional espresso preparation and useful access. Its steam character still differs from a dedicated steam boiler, with independent and owner evidence describing a slower, less forceful milk process. It can suit occasional simultaneous milk work more readily than a demanding queue. The US SKU must govern details where global and distributor specifications disagree.",
 };
 
 profile.sectionOverrides = {

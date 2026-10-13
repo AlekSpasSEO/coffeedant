@@ -24,7 +24,7 @@ const profile: UpgradeReviewProfile = {
   verdict: 'Grace PL81T combines a 250 ml brass single boiler, LELIT57 group, LCC temperature control, programmable pre-infusion, brew timer, pressure gauge and three-way valve in a 22.5 cm-wide stainless machine. That remains a coherent espresso-first package for one or two drinks. The exact model is absent from Lelit’s current catalog, however, while Coffee Italia and two Canadian retailers mark it out of stock or sold out. Treat it as a carefully verified used or old-stock purchase, not a normal current-model recommendation.',
   assessment: 'This is a research-led assessment, not a Coffeedant bench test. Manufacturer documents control identity and operation. Current catalog and retailer pages establish dated availability; independent review and community discussions add bounded ownership context. Coffeedant did not measure temperature, puck pressure, flow, steam, sound, energy, recovery or reliability.',
   image: hero, imageAlt: 'Coffee Italia exact-model front image of the stainless Lelit Grace PL81T with LCC display, backlit pressure gauge, 57 mm filterholder and steam wand',
-  published: '2026-07-27', updated: '2026-09-24',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Exact new model unavailable', msrp: 'No verified current new-stock checkout', typical: 'Coffee Italia displayed €692 but marked PL81T out of stock on September 24, 2026. The Kitchen Barista and Espresso Planet displayed about CAD 1,345 and marked it sold out. Those figures are dated archive context, not available checkout prices.', currency: 'EUR', numeric: '', checked: 'September 24, 2026' },
   links: [
     { label: 'Read the exact Grace and Victoria manual', href: manual, note: 'Manufacturer-branded manual for PL81T identity, controls, LCC, operation, care and technical data', primary: true },
@@ -115,6 +115,8 @@ const profile: UpgradeReviewProfile = {
     'The market position has changed. Exact listings are unavailable, the current Lelit catalog omits Grace, document revisions disagree on tank capacity, and a used unit can differ in firmware or installed parts. Consider one only after a careful condition and safety check. Anna is the current lower-cost LELIT57 path, while Victoria or Profitec GO better suit buyers who want current support and 58 mm tools.',
   ],
   video: { id: 'pogxzJMoUMs', title: 'Lelit Grace PL81T Full Review: PID Espresso Machine for under €600?', creator: 'Tom’s Coffee Corner', published: '2023-05-04', note: 'Independent exact-model review of a privately purchased Amazon Warehouse unit. The description discloses affiliate links. It informs operation, ergonomics and owner context; manufacturer documents and current retailer records govern identity and availability.' },
+
+  overview: "Grace places more electronic help around the LELIT57 single-boiler format: LCC temperature settings, programmable preinfusion, a timer and pressure feedback are its useful distinctions from a simpler small machine. They suit an espresso-focused owner who wants those controls in a narrow body, while accepting sequential milk work and the 57 mm accessory choice. Current stock and lifecycle are the more difficult part of the decision. The PL81T was absent from the current catalog and the checked sellers showed unavailable units. A credible used example can still have a clear purpose, with configuration and local service verified rather than assumed from the feature list.",
 };
 
 profile.sectionOverrides = {

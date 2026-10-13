@@ -18,7 +18,7 @@ const profile: UpgradeReviewProfile = {
   assessment: 'Its useful trick is two coffee formats in a relatively narrow station. Its compromises are fixed pod portions, limited brew control, carafe cleaning and uncertain live stock on an older model.',
   image: 'https://images.keurig.com/is/image/keurig/K-Duo-Plus-Single-Serve-Carafe-Coffee-Maker_en_general?dpr=off&fmt=jpg&hei=668&wid=668',
   imageAlt: 'Keurig K-Duo Plus pod and drip brewer with stainless thermal carafe',
-  published: '2026-07-27', updated: '2026-09-23',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Home Depot US listed price', msrp: '$229.99', typical: 'Listed price for model 5000204978, not a verified in-stock checkout offer; Best Buy marks the same model sold out', currency: 'USD', numeric: '229.99', checked: 'September 23, 2026' },
   links: [
     { label: 'Check retailer stock and price', href: retailer, note: 'US listing, tax and actual availability vary', primary: true },
@@ -142,6 +142,8 @@ const profile: UpgradeReviewProfile = {
       <p>The older model name creates a further trap. Original K-Duo and Essentials comments often refer to glass-carafe pouring, heating-plate settings or different internal layouts. This review does not transfer their anecdotes to the Plus thermal carafe. If a seller's title, photograph and model number disagree, ask for a rating-plate photo or walk away rather than trying to infer a revision from the listing prose.</p>
       <p>Check both paths during the return window using safe, ordinary water-only and coffee cycles. Record the model and purchase proof, note any unexpectedly short cup or leakage, and contact Keurig support before opening electrical or internal-water parts. A functioning week in one kitchen is reassuring but cannot establish service life; an isolated complaint cannot establish the opposite.</p>`,
   },
+
+  overview: "A pod before work and a pot for visitors are two different jobs, and the K-Duo Plus puts them in one narrow appliance. Single cups use K-Cups; the insulated carafe uses ground coffee, without a warming plate underneath it. The repositionable reservoir is particularly useful when the available counter space dictates where filling can happen. This model earns its place through flexibility of serving format, rather than fine control over extraction. Buyers expecting espresso, a glass carafe kept hot on a plate, or the newer Hot & Iced functions need a different Keurig.",
 };
 
 const trimFirstParagraph = (html: string) => html.replace(/<p>[\s\S]*?<\/p>/, '');

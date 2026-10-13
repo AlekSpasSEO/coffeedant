@@ -26,7 +26,7 @@ const profile: UpgradeReviewProfile = {
   sku: 'CM500004-00, current US 115 V configuration',
   category: 'Compact E61 heat-exchanger espresso machine',
   brandPath: '/profitec/',
-  title: 'Profitec Pro 400 review: compact HX control without a shot timer',
+  title: "Profitec Pro 400 review: three temperature presets in a narrow E61 body",
   description: 'Research-led Profitec Pro 400 review with current US price, May 2026 manual, three temperature modes, HX workflow, owner evidence and JUMP boundary.',
   verdictLabel: 'A narrow E61 heat exchanger with useful presets, strong milk capacity and a deliberately analog interface',
   verdict: 'Buy the current US Profitec Pro 400 when simultaneous brewing and steaming, a 228 mm-wide E61 body, three documented boiler-temperature modes and switchable preinfusion matter more than a shot timer or degree-by-degree display. Whole Latte Love displayed the base stainless machine at $1,599 and Clive Coffee displayed $1,699 on September 24, 2026. Confirm the exact finish, flow-control option, modular portafilter, warranty and 115 V rating before comparing offers.',
@@ -34,7 +34,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Whole Latte Love product image of the stainless Profitec Pro 400 heat-exchanger espresso machine',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: { label: 'Current US base-machine price checked', msrp: 'Current specialist price $1,599 to $1,699', typical: 'Whole Latte Love displayed the stainless Pro 400 without flow control at $1,599 on September 24, 2026, while Clive Coffee displayed $1,699. Finish, accent and flow-control selections can raise the configured price. Stock state, promotions and included service vary.', currency: 'USD', numeric: '1599', checked: 'September 24, 2026' },
   links: [
     { label: 'Check the current US Pro 400 offer', href: wholeLatteLove, note: '$1,599 base configuration displayed September 24, 2026; verify finish, flow control, accessories and stock', primary: true },
@@ -129,6 +129,8 @@ const profile: UpgradeReviewProfile = {
     'Buy it when the exact $1,599 to $1,699 configuration is verified and the household values milk capacity plus E61 ritual. Choose Mara X for a different HX control strategy, Ascaso for faster digital workflow, Rocket for another traditional design, or GO when espresso-first value matters more than simultaneous steam.',
   ],
   video: { id: 'wd4lT87Nk6g', title: 'Profitec Pro 400 | The REAL Appartamento Killer!', creator: 'LifeStyle Lab', published: '2022-09-04', note: 'Independent hands-on video of the exact Pro 400 showing the chassis, controls, temperature switch, preinfusion and daily E61 workflow. LifeStyle Lab discloses affiliate participation, and one sample cannot establish reliability or measured performance for every machine.' },
+
+  overview: "Pro 400 uses three boiler-temperature presets to make a narrow E61 heat exchanger more approachable, rather than adding a degree-by-degree brew display. Its switchable preinfusion sequence and simultaneous steam suit someone who wants traditional lever brewing in a 228 mm-wide body. The missing shot timer and the relationship between boiler preset and brew routine still need to be understood before purchase. Optional flow-control hardware and finishes also change the package, so comparing offers requires more than the Pro 400 name. It is a focused compact HX choice when preset control is enough and separate brew-boiler regulation is unnecessary.",
 };
 
 profile.sectionOverrides = {

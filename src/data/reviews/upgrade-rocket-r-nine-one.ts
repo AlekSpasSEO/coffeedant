@@ -35,7 +35,7 @@ const profile: UpgradeReviewProfile = {
   image: hero,
   imageAlt: 'Seattle Coffee Gear product photograph of the current Rocket R Nine One espresso machine',
   published: '2026-07-27',
-  updated: '2026-09-25',
+  updated: '2026-10-13',
   price: { label: 'Current US listing checked September 25, 2026', msrp: '$6,990', typical: 'Seattle Coffee Gear listed the R Nine One at US$6,990 with black and stainless options and live stock messaging on September 25, 2026. Price, finish, stock, freight handling, included installation parts and dealer warranty can change, so confirm them in writing before ordering.', currency: 'USD', numeric: '6990', checked: 'September 25, 2026' },
   links: [
     { label: 'Read the exact R Nine One manual', href: exactManual, note: 'Exact setup, pressure profiles, auto scheduling, volumetric portions, water connection, cleaning and safety guidance', primary: true },
@@ -131,6 +131,8 @@ const profile: UpgradeReviewProfile = {
     'Choose it when pressure profiling and large steam capacity will be used often. Choose Dalla Corte Mina for programmable flow control, Profitec Pro 700 for a conventional dual boiler, Bianca for lower-cost manual control or Mara X for a much smaller E61 workflow.',
   ],
   video: { id: '31GFyA-DXXg', title: 'Review: Rocket Espresso R Nine One Pressure Profiling Espresso Machine', creator: 'Whole Latte Love', published: '2019-02-14', note: 'Unique exact-model 28-minute independent retailer review demonstrating the saturated group, touchscreen, saved profiles and manual pressure workflow. It is not Coffeedant testing, current-price evidence or a controlled reliability study.' },
+
+  overview: "R Nine One turns pressure profiling into something that can be saved and repeated, rather than adjusted only by memory during a manual shot. Its saturated group, substantial independent boilers and digitally controlled pump support that enthusiast workflow in a large home station. A touchscreen and water-supply choices do not make the physical installation small: counter depth, weight, water management and qualified service remain central. The price is justified most clearly when profiling is an ongoing brewing interest. Someone seeking ordinary dual-boiler consistency and occasional milk has less reason to take on the size and complexity of this particular Rocket.",
 };
 
 profile.sectionOverrides = {

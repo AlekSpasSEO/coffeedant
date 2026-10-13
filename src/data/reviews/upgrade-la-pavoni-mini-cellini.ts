@@ -14,13 +14,13 @@ const hero = 'https://assets.4flow.cloud/WEB_LPSMCS01EU.jpg.jpg?pEFs=cVY2M1MyN1Z
 const profile: UpgradeReviewProfile = {
   key: 'la-pavoni-mini-cellini', slug: '/espresso-machine/la-pavoni-mini-cellini/', productId: 'CD-EM-000198',
   brand: 'La Pavoni', model: 'Mini Cellini', sku: 'EU LPSMCS01EU, stainless steel, Schuko plug', category: 'Semi-professional single-boiler espresso machine', brandPath: '/la-pavoni/',
-  title: 'La Pavoni Mini Cellini review: compact E61, single-boiler limits',
+  title: "La Pavoni Mini Cellini review: traditional E61 brewing one heating mode at a time",
   description: 'Exact EU LPSMCS01EU review: 0.8 L stainless single boiler, E61 group, 58 mm holder, 2.9 L tank, current price, independent evaluation and owner context.',
   verdictLabel: 'A narrow E61 machine for espresso-first buyers who accept boiler-mode switching and analog temperature control',
   verdict: 'Consider the current EU Mini Cellini LPSMCS01EU if you want a narrow stainless machine with a full chromed-brass E61 group, 58 mm holder, 0.8 L stainless single boiler, 2.9 L removable tank and manual steam. It cannot brew and steam together, and it omits a PID, shot timer and pump-pressure gauge. La Pavoni listed it at €1,247 on September 24, 2026, before a grinder, scale, water treatment and upgraded tamper.',
   assessment: 'This is research-led, not a Coffeedant bench test. Exact identity and specifications come from current LPSMCS01EU records. Livingetc reports a short evaluation of a black regional variant; other records explain workflow. Coffeedant did not measure temperature, puck pressure, warm-up, steaming speed, sound or reliability.',
   image: hero, imageAlt: 'La Pavoni official three-quarter image of the stainless Mini Cellini with E61 group, boiler gauge and steam wand',
-  published: '2026-07-27', updated: '2026-09-24',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Official EU price', msrp: '€1,247', typical: 'La Pavoni listed stainless EU LPSMCS01EU at €1,247 on September 24, 2026. Livingetc cited roughly £1,000 for the black machine evaluated in the United Kingdom, while Australian and North American listings use different plugs, voltage, distribution and warranty terms.', currency: 'EUR', numeric: '1247', checked: 'September 24, 2026' },
   links: [
     { label: 'Check the exact La Pavoni EU specification', href: official, note: 'Exact LPSMCS01EU identity, live price, architecture, materials and included accessories', primary: true },
@@ -109,6 +109,8 @@ const profile: UpgradeReviewProfile = {
     'Buy it when the E61 lever, 58 mm ecosystem and analog routine are the appeal. If you want explicit temperature control, rapid cold-start service or frequent milk drinks, compare PID single boilers and the Cellini Classic before paying the €1,247 official EU price.',
   ],
   video: { id: 'XH5sQfqhdIU', title: 'La Pavoni Cellini Mini Espresso Machine: E61 on a Budget', creator: 'Alternative Brewing', published: '2025-08-09', note: 'Retailer-produced exact-model demonstration independent of La Pavoni. It is commercially connected to sales, so current LPSMCS01EU documents govern exact EU identity and specifications.' },
+
+  overview: "Mini Cellini keeps a full-size E61-style group and 58 mm holder while moving to a narrow single-boiler body. The 0.8 L boiler must serve coffee and steam sequentially, making it a better fit for mostly espresso with occasional milk than a fast cappuccino queue. It also leaves temperature timing and shot stopping to the owner, without a PID or timer to guide those stages. The substantial tank can be convenient, but does not change the heating architecture. Choose this model for the traditional group in the available space, after comparing whether a compact PID machine would answer the same routine more directly.",
 };
 
 profile.sectionOverrides = {

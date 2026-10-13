@@ -27,7 +27,7 @@ const profile: UpgradeReviewProfile = {
   sku: 'Oscar II black reservoir/pour-over version, US 110-125 V / NEMA 5-15 configuration',
   category: 'Heat-exchanger espresso machine',
   brandPath: '/brands/',
-  title: 'Nuova Simonelli Oscar II review: compact HX steam power',
+  title: "Nuova Simonelli Oscar II review: timed shots behind a powerful steam wand",
   description: 'Exact US Oscar II black reservoir review with dated $1,995 pricing, 2 L heat exchanger, timed doses, strong manual steam and variant limits.',
   verdictLabel: 'A focused 2 L heat-exchanger machine for milk volume, with timed shots instead of modern temperature control',
   verdict: 'Shortlist the current black US Oscar II reservoir model when a compact 12-inch-wide body, 58 mm manual espresso, timed shot buttons and forceful steam solve a milk-heavy routine. WebstaurantStore displayed the exact black pour-over 110 V machine at $1,995 on September 24, 2026. The trade is old-school control: there is no user-facing brew PID, pressure gauge, hot-water outlet, shot-weight feedback or plumbed drain. It is compelling for practiced cappuccino service, less convincing for buyers who want direct brew-temperature feedback or a gentle beginner steam curve.',
@@ -35,7 +35,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Nuova Simonelli official three-quarter view of the current black Oscar II espresso machine',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: {
     label: 'Current checked exact-version price',
     msrp: '$1,995 at WebstaurantStore',
@@ -160,6 +160,8 @@ const profile: UpgradeReviewProfile = {
     published: '2016-05-02',
     note: 'Independent exact-model visual review linked from Seattle Coffee Gear\'s dated Crew Review. It demonstrates controls, extraction and steam workflow under that reviewer\'s conditions; it is not Coffeedant testing or durability evidence.',
   },
+
+  overview: "Oscar II is a compact route to a milk-heavy manual station, built around a heat exchanger and forceful steam rather than a rich feedback display. Its two programmable buttons time delivery; they are not flowmeter-based volumetric doses. The absence of a user-facing PID, pressure gauge and hot-water outlet should therefore be weighed before choosing its roughly 12-inch width. An experienced cappuccino maker may value the steam and simultaneous operation more than those missing controls. A beginner wanting clear temperature feedback or gentle steaming assistance has a different requirement. The exact black US reservoir version defines the configuration reviewed here.",
 };
 
 profile.sectionOverrides = {

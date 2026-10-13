@@ -24,7 +24,7 @@ const profile: UpgradeReviewProfile = {
   sku: '0995P-A-EVOLED, current US 110 V dual-boiler configuration',
   category: 'Plumbable rotary-pump dual-boiler E61 espresso machine',
   brandPath: '/quick-mill/',
-  title: 'Quick Mill Vetrano 2B Evo review: US price, plumbing and 15A limits',
+  title: "Quick Mill Vetrano 2B Evo review: planning a plumbed station around 15 A power",
   description: 'Research-led Quick Mill Vetrano 2B Evo review covering SKU 0995P-A-EVOLED, dual stainless boilers, rotary pump, plumbing, current US price, owner evidence and 15A versus 20A operation.',
   verdictLabel: 'A traditional E61 dual boiler for buyers who will use its rotary pump, plumbing flexibility and strong steam capacity',
   verdict: 'The current US Vetrano 2B Evo 0995P-A-EVOLED combines a 0.75 L brew boiler, 1.4 L steam boiler, E61 group, PID with shot timer, rotary pump, 3 L reservoir and direct water plus drain capability. Chris Coffee displayed US$2,995 and in-stock status on September 25, 2026, while Whole Latte Love displayed US$2,895 for its 15 A version. The machine can run on 15 or 20 A, but 15 A mode alternates boiler heating instead of powering both elements together. Its case is strongest for a permanent, water-managed station. Buyers who will leave it tank-fed still carry the 70 lb body, long E61 warm-up and plumbing-grade cost.',
@@ -32,7 +32,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Chris Coffee product photograph of the Quick Mill Vetrano 2B Evo espresso machine',
   published: '2026-07-27',
-  updated: '2026-09-25',
+  updated: '2026-10-13',
   price: { label: 'Current US reference price', msrp: '$2,895 to $2,995', typical: 'Whole Latte Love displayed US$2,895 for the 15 A version and Chris Coffee displayed US$2,995 with in-stock status for SKU 0995P-A-EVOLED on September 25, 2026. Confirm amperage setup, cord, exact accessories, warranty, plumbing kit and return terms before purchase.', currency: 'USD', numeric: '2995', checked: 'September 25, 2026' },
   links: [
     { label: 'Check current US price and exact SKU', href: chrisCoffee, note: 'US$2,995, in-stock status and SKU 0995P-A-EVOLED checked September 25, 2026', primary: true },
@@ -125,6 +125,8 @@ const profile: UpgradeReviewProfile = {
     'At US$2,895 to US$2,995, it fits buyers who will use the plumbing and steam capacity. Choose QM67 Evo or Silvia Pro X when compact flexibility and quicker daily readiness matter more.',
   ],
   video: { id: 'Is4YmLpYKYc', title: 'iDrinkCoffee.com Review - Quick Mill Vetrano 2B Evo Espresso Machine', creator: 'iDrinkCoffeeCanada', published: '2018-09-15', note: 'Unique exact-model independent retailer demonstration covering controls, paired espresso shots and paired milk drinks. It is not Coffeedant testing, current-price evidence or a universal performance measurement.' },
+
+  overview: "Vetrano 2B Evo is most persuasive as a permanent station using the rotary pump and direct-water capability, rather than simply a large tank-fed dual boiler. Separate brew and steam boilers, an E61 group and PID timing support manual mixed-drink service, with plumbing and drainage requiring a proper installation plan. Electrical mode is another practical detail: in 15 A operation, boiler heating alternates rather than powering both elements together. That does not erase simultaneous brewing and steaming, but changes how heating demand is managed. The weight, group warm-up and water-care commitments should earn their place through the installation the buyer actually intends.",
 };
 
 profile.sectionOverrides = {

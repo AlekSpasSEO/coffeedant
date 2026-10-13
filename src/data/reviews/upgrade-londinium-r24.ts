@@ -25,7 +25,7 @@ const profile: UpgradeReviewProfile = {
   assessment: 'This is a research-led assessment, not a Coffeedant bench test. Current Londinium records control identity and specifications. Brian Quan supplies an independent exact-model walkthrough, while owner threads provide bounded daily-use evidence. Coffeedant did not measure performance or reliability.',
   image: hero,
   imageAlt: 'Londinium official studio photograph of the current stainless R24 spring-lever espresso machine with raised wenge lever and bottomless portafilter',
-  published: '2026-07-27', updated: '2026-09-24',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Current direct price', msrp: '£3,333 ex VAT', typical: 'Londinium displayed £3,333 excluding VAT and showed LR-24V in stock on September 24, 2026. UK VAT is added at checkout; delivery, import duty, plug, voltage, portafilter choice and warranty route vary by destination.', currency: 'GBP', numeric: '3333.00', checked: 'September 24, 2026' },
   links: [
     { label: 'Check the current exact R24 specification', href: official, note: 'Current LR-24V identity, direct price, voltage, dimensions, included equipment and app-controlled architecture', primary: true },
@@ -116,6 +116,8 @@ const profile: UpgradeReviewProfile = {
     'Buy it for that exact combination, not for a generic “endgame” label. The 740 mm lever height, one-hour cold start, app dependence and direct specialist ecosystem are real commitments, and £3,333 is before VAT and the rest of the station. For the buyer who wants lever body and a deliberately constrained workflow, R24 remains distinctive. For quick starts, broad dealer coverage or live shot design, its alternatives are more rational.',
   ],
   video: { id: 'sTWPFPZCyOw', title: 'The Londinium R24 Lever Espresso Machine', creator: 'Brian Quan', published: '2022-07-11', note: 'Independent exact-model walkthrough after several days with the R24, including a filmed shot, app view and comparison with a Decent Londinium-style profile. It is not a long-term test.' },
+
+  overview: "R24 makes preinfusion pressure the main adjustment in a spring-lever espresso routine. Its tank-fed rotary pump and app-controlled setting support a full-size 58 mm group, with changes in preinfusion also affecting thermal behavior and beverage volume. That linked response is different from unrestricted profiling of every part of a shot. The machine asks for a substantial permanent space and deliberate cold-start planning, while convenient adjustment depends on the documented app and network setup. It suits an owner attracted to repeatable lever mechanics and willing to organize the kitchen around them, with installation, delivery and service considered alongside the machine price.",
 };
 
 profile.sectionOverrides = {

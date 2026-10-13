@@ -31,7 +31,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Melitta Professional official key visual of the current Cafina CT8 commercial superautomatic with stainless body and large touch display',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: {
     label: 'Current commercial price',
     msrp: 'No public US list price located',
@@ -152,6 +152,8 @@ const profile: UpgradeReviewProfile = {
     published: '2020-03-25',
     note: 'Independent retailer exact-model visual walkthrough. It predates the current US page and does not establish the delivered configuration, throughput, drink quality, service response or long-term reliability.',
   },
+
+  overview: "Cafina CT8 belongs in a commercial equipment specification, not a comparison of home-machine shelf prices. Grinder configuration, milk and instant modules, water, waste, electrical supply and local response-time support determine what the installed station can actually do. Melitta's high daily and hourly output figures describe specified conditions, with recipes and setup affecting the delivered capacity. The substantial cabinet and documented electrical requirement need a site plan before an order. For staffed or supervised service, the decisive questions are the drink mix, cleaning responsibilities and dealer-supported configuration. A demonstration should establish that complete workflow, rather than merely show a fast espresso.",
 };
 
 profile.sectionOverrides = {

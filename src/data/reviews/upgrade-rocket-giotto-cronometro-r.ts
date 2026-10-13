@@ -28,7 +28,7 @@ const profile: UpgradeReviewProfile = {
   sku: 'Former North American 110 to 120 V Giotto Cronometro R, Whole Latte Love historical SKU 27754; exact model retired',
   category: 'Retired rotary-pump E61 heat-exchanger semi-automatic espresso machine',
   brandPath: '/rocket-espresso/',
-  title: 'Rocket Giotto Cronometro R review: retired model, used value and limits',
+  title: "Rocket Giotto Cronometro R review: what the flared case means for a used purchase",
   description: 'Research-led Rocket Giotto Cronometro R review covering the retired North American rotary-pump model, exact manual, used-buying checks, current availability, owner evidence and alternatives.',
   verdictLabel: 'A handsome, quiet rotary-pump heat exchanger for a careful used purchase, not a current new-machine recommendation',
   verdict: 'The Giotto Cronometro R combined a 1.8 L copper heat-exchanger boiler, 58 mm E61 group, rotary pump, tank or direct water, PID, hidden timer and dual gauges in Rocket\'s flared case. Rocket\'s current range lists Giotto FAST instead, while exact North American pages call the older machine retired or discontinued. A US$3,050 page observed September 25, 2026 was a notify-when-available listing, not a confirmed offer. Treat this as a used or old-stock decision whose value depends on condition, voltage, serial, water history, plumbing parts and local service.',
@@ -36,7 +36,7 @@ const profile: UpgradeReviewProfile = {
   image: hero,
   imageAlt: 'Whole Latte Love product photograph of the retired Rocket Giotto Cronometro R espresso machine',
   published: '2026-07-27',
-  updated: '2026-09-25',
+  updated: '2026-10-13',
   price: { label: 'Dormant US listing reference, not a confirmed live offer', msrp: '$3,050', typical: 'Pro Coffee Gear displayed US$3,050 with a notify-when-available state on September 25, 2026. Whole Latte Love labels its exact listing retired, TA Appliance says discontinued, and Rocket\'s current domestic range replaces the model with Giotto FAST. Confirm actual stock, serial, voltage, condition, seller protection and written warranty before paying.', currency: 'USD', numeric: '3050', checked: 'September 25, 2026' },
   links: [
     { label: 'Read the exact Giotto and Mozzafiato Cronometro R manual', href: exactManual, note: 'Exact family operation, setup, reservoir and plumb-in modes, PID, timer, cleaning and safety guidance', primary: true },
@@ -133,6 +133,8 @@ const profile: UpgradeReviewProfile = {
     'Choose it only after inspection and a realistic repair budget. Choose Appartamento TCA for current compact Rocket support, Vetrano 2B Evo for current rotary dual boilers or Bianca for flow control.',
   ],
   video: { id: 'g8x5_ket_Pg', title: 'Rocket Giotto Cronometro R Review', creator: 'iDrinkCoffeeCanada', published: '2019-08-15', note: 'Unique exact-model independent retailer demonstration covering controls, construction and workflow. It is not Coffeedant testing, a current-stock record or a controlled performance benchmark.' },
+
+  overview: "Giotto Cronometro R's flared case surrounds a rotary-pump E61 heat exchanger with a hidden timer and tank or mains-water operation. That gives the retired model a recognizable role in a traditional milk-drink station, provided the individual machine is sound. Its appearance should not distract from water history, serial and voltage checks, plumbing parts or evidence of servicing. Current Giotto FAST specifications also belong to a successor, not this unit. The sensible purchase is a documented used or remaining-stock R at a price that allows for its condition and support, with counter clearance checked around the shaped side panels.",
 };
 
 profile.sectionOverrides = {

@@ -32,7 +32,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Official Philips product image of the matte-black US EP2230/14 with LatteGo container and cappuccino',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: { label: 'Current exact-model US listing checked', msrp: 'Best Buy historical comparable value $649', typical: 'Walmart displayed EP2230/14 at $404.96 on September 24, 2026. Best Buy showed $486.99 but unavailable, and Seattle Coffee Gear showed a sold-out B-Class refurbished unit at $349. Verify seller, condition, warranty and checkout stock.', currency: 'USD', numeric: '404.96', checked: 'September 24, 2026' },
   links: [
     { label: 'Check the exact EP2230/14 listing', href: walmart, note: '$404.96 displayed September 24, 2026; verify seller, condition and live stock', primary: true },
@@ -125,6 +125,8 @@ const profile: UpgradeReviewProfile = {
     'Choose EP2230/14 for a small, stable drink list and minimal milk-path complexity. Move to Philips 3200 or 4300 for variety, or compare Magnifica Evo when a different preset and carafe routine better matches the household.',
   ],
   video: { id: 'OLXbFTGL550', title: 'Philips EP2230/10 tutorial review', creator: 'MRM Reviews', published: '2024-01-18', note: 'Independent regional EP2230/10 LatteGo video. It demonstrates the related panel and workflow but does not prove US voltage, bundle, price, warranty, performance or reliability for EP2230/14.' },
+
+  overview: "The 2200 LatteGo concentrates on three familiar drinks and an unusually simple milk-container arrangement. Espresso, coffee and one-touch cappuccino cover its documented coffee menu, while the two-piece tube-free LatteGo assembly addresses the cleaning inconvenience of a hose-fed system. There are no user profiles to manage, making this a plausible option for a small household that wants the same drinks repeatedly. Twelve ceramic-grinder positions still give room to adjust the beans. The US EP2230/14 should be compared as that specific LatteGo model, with new, clearance and refurbished offers kept separate rather than treated as interchangeable bargain prices.",
 };
 
 profile.sectionOverrides = {

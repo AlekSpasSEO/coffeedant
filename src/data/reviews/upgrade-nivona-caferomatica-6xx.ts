@@ -24,7 +24,7 @@ const profile: UpgradeReviewProfile = {
   sku: "NICR 6'95 titanium, current EU/EEA 220-240 V generation introduced with NICR 690 in 2022",
   category: 'Superautomatic espresso machine',
   brandPath: '/brands/',
-  title: 'Nivona CafeRomatica NICR 695 review: almost one-touch milk',
+  title: "Nivona CafeRomatica NICR 695 review: the milk valve between you and one-touch cappuccino",
   description: 'Exact current EU Nivona NICR 695 review: 699 euro dated price, three Aroma Balance profiles, manual milk valve, five saved recipes and removable brewer.',
   verdictLabel: 'A capable black-coffee automatic with one deliberate milk compromise',
   verdict: 'Shortlist the exact current NICR 695 when you want Nivona\'s three Aroma Balance profiles, a removable brewer, five saved recipes and a combined coffee-and-milk outlet without paying for the 7-series milk automation. It makes the foam automatically but asks you to open and close a physical milk valve when prompted. The current German page displayed 699 euros on September 24, 2026. That is a sensible middle ground for buyers who accept the extra turn; it is the wrong machine for anyone who reads cappuccino as a literal one-touch request.',
@@ -32,7 +32,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Nivona official front render of the titanium CafeRomatica NICR 695 with central color display and combined coffee and milk outlet',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: {
     label: 'Current checked exact-model price',
     msrp: '699 euros on Nivona Germany',
@@ -154,6 +154,8 @@ const profile: UpgradeReviewProfile = {
     published: '2022-11-16',
     note: 'Exact-generation independent visual demonstration embedded in Dmitry Yurchenko\'s NICR 695 hands-on review. It shows the valve-guided milk workflow and combined outlet, not long-term reliability or Coffeedant testing.',
   },
+
+  overview: "NICR 695 occupies a useful middle ground between manual frothing and literal one-touch cappuccino. It makes foam automatically through the combined outlet, but asks the owner to open and close a physical milk valve when prompted. That extra turn is the detail to decide on before considering Aroma Balance settings, five coffee memories and the removable brewer. A person who mainly wants convenient black coffee may accept it easily; someone expecting an unattended milk drink may find it the wrong compromise. The current 695 also needs to be kept separate from the older 6xx models sharing this historical route.",
 };
 
 profile.sectionOverrides = {

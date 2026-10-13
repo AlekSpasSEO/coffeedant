@@ -18,7 +18,7 @@ const profile: UpgradeReviewProfile = {
   verdict: 'EA891D27 is a useful option for two-person households wanting automated cappuccino and latte without a separate grinder. The UK support page identifies the 15-choice menu, paired milk and OLED controls. The exact Amazon UK listing had no featured offer on September 24, 2026, so verify the seller, return terms and warranty before making a purchase decision.',
   assessment: 'Krups documents EA891D27, but no independent exact-model test was located. Evidence Connected and Evidence One reviews cover other variants. One milk complaint cannot establish a failure rate.',
   image, imageAlt: 'Retailer listing image of silver Krups Evidence Milk EA891D27 with two milk drinks and external milk vessel',
-  published: '2026-07-27', updated: '2026-09-24',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Exact EA891D27 UK offer checked', msrp: 'No current manufacturer list price verified', typical: 'Amazon UK exact ASIN B083PJNPFQ showed no featured offer on September 24, 2026. No current exact-model UK checkout price or stock was independently verified; the older £893 Coffeedant claim is not current evidence.', currency: 'GBP', numeric: '', checked: 'September 24, 2026' },
   links: [
     { label: 'Check exact EA891D27 UK listing', href: retailer, note: 'No featured offer observed September 24, 2026; inspect live seller and warranty', primary: true },
@@ -106,6 +106,8 @@ const profile: UpgradeReviewProfile = {
     'An independent owner’s Connected review and an EA895 video show why the wider Evidence interface appeals, but their observations cannot be moved onto this exact SKU. One EA891D27 owner reported a milk-foam fault, which deserves a realistic service question but not alarmist statistics. With no verified current UK checkout, the prudent next step is to confirm the exact plate, included parts, live offer and warranty.',
   ],
   video: { id: 't7CcnEZ2SGI', title: 'Review of Krups Evidence One Bean to Cup Machine EA895', creator: 'Rob Locke', published: '2022-09-20', note: 'Independent 7:13 adjacent-model EA895 filmed workflow, with an affiliate link. NOT EA891D27, so no exact-model tasting, specification or Bluetooth inference.' },
+
+  overview: "Evidence Milk EA891D27 is aimed at a two-person coffee routine where paired cappuccinos or lattes can be useful, and a separate grinder would add unwanted work. The OLED controls and Dark and Extra Shot choices provide ways to alter the hot-drink order within the fifteen-choice menu. Milk comes from a separate container through a hose, so each convenient serving still needs milk-contact parts cared for promptly. The exact UK listing checked for this review did not supply a featured purchase offer. Its value should therefore be decided against a verified seller, warranty and return policy, rather than a generic Evidence-family price.",
 };
 
 profile.sectionOverrides = {

@@ -26,7 +26,7 @@ const profile: UpgradeReviewProfile = {
   sku: 'CM500012-00, current walnut-handle spring-lever generation',
   category: 'Premium spring-lever dipper espresso machine with PID',
   brandPath: '/profitec/',
-  title: 'Profitec Pro 800 review: spring-lever ritual, current price and ownership fit',
+  title: "Profitec Pro 800 review: making room for a heavy spring lever",
   description: 'Research-led Profitec Pro 800 review covering the current walnut generation, spring-lever workflow, 3.5 L boiler, PID, plumbing, price, owner evidence and alternatives.',
   verdictLabel: 'A current spring lever for buyers who want the ritual, space and safety responsibility',
   verdict: 'Choose the current Profitec Pro 800 when spring-driven extraction is the reason for buying. Its 7.8 kg lever group, 3.5 L copper boiler, hidden PID, two water modes and drain option form a distinctive home station. Clive listed it at $3,299 on September 24, 2026. The counter must support roughly 78 lb, the lever needs about 29 in of height, warm-up needs planning, a released spring shot cannot be cancelled, and water plus seal care belong in the budget.',
@@ -34,7 +34,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Official Profitec product image of the current Pro 800 spring-lever espresso machine with walnut handles and pine-green boiler gauge',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: { label: 'Current US specialist price', msrp: '$3,299 current Clive listing', typical: 'Clive listed the current walnut-handle Pro 800 at $3,299 on September 24, 2026. Final cost can change with sales, finish, voltage, freight, tax, water-treatment hardware, pressure regulation, drain work, grinder, scale, service access and warranty region. Coffeedant did not complete checkout or infer stock beyond the checked listing.', currency: 'USD', numeric: '3299', checked: 'September 24, 2026' },
   links: [
     { label: 'Read the official Profitec Pro 800 page', href: official, note: 'Current model identity, item number, specifications, included accessories and official product image checked September 24, 2026', primary: true },
@@ -129,6 +129,8 @@ const profile: UpgradeReviewProfile = {
     'Buy it when those demands sound satisfying rather than tolerable. Compare Londinium R24 for a different premium lever interpretation, Strega for assisted filling, Synchronika for conventional dual-boiler control, and Flair 58 for compact manual espresso without built-in steam.',
   ],
   video: { id: 'DNpsiOVSWBI', title: 'Profitec Pro 800 | Do Levers Do It Better?', creator: 'The Real Sprometheus', published: '2025-12-05', note: 'Unique independent exact-model review with overview, usability and downsides. It adds visual and workflow context for the current generation, not Coffeedant testing, a controlled laboratory comparison or a model-wide reliability rate.' },
+
+  overview: "Pro 800 asks the kitchen to accommodate a spring lever as well as a heavy boiler-driven station. Its substantial group, tall operating lever and deliberate warm-up routine are central to the purchase, not incidental dimensions to check after delivery. The hidden PID manages boiler temperature, while tank or regulated direct-water use offers installation choices. Once a spring shot is released, it cannot be cancelled like a pump extraction. This machine suits someone who specifically wants that lever behavior and is prepared to plan clearance, counter support, water treatment and seal care around it. It is an ownership commitment with a distinctive brewing reward.",
 };
 
 profile.sectionOverrides = {

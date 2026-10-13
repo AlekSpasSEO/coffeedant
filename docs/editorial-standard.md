@@ -59,6 +59,11 @@ Educational articles use a sibling editorial layout with the reference typograph
 
 ## Content rules
 
+- Write an original opening overview around the exact product's buying decision, supported design details and consequential limitations. Changing names in shared prose is not an editorial rewrite. Vary the argument and sentence structure according to the machine.
+- `UpgradeReviewProfile.overview` holds the authored plain-text first paragraph. A complete `sectionOverrides.orientation` is the alternative for a custom review. The shared generator supplies layout and citations, with no generated prose fallback. Keep model/generation/regional exclusions in the separate scope paragraph.
+- The headline hook must communicate a specific finding or buyer question. Avoid batch-wide price/workflow/limits lists and automatically swapping synonyms to lower a similarity score. Retain brand and exact model for identification.
+- Run `npm run test:review-originality` and `npm run validate:review-originality` after building. Names and the word “Review” are removed before comparison. Exact hooks and hooks with at least 80% wording overlap (minimum four words), opening paragraphs with at least 85% overlap, and eight-word phrases shared by ten or more openings fail the check. Hooks at 50–79% receive editorial-review warnings. Shared navigation labels, disclosures and model-scope paragraphs are excluded.
+
 - Preserve the useful original research, but remove obsolete pricing, unsupported measurements, duplicate passages, and conflicting model claims.
 - Lead each section with the decision or practical answer, then show the evidence and limitations.
 - Do not inflate word count with repeated summaries, generic coffee advice, or paraphrased specifications.

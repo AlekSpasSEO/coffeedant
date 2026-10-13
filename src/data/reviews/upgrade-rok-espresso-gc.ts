@@ -36,7 +36,7 @@ const profile: UpgradeReviewProfile = {
   image: hero,
   imageAlt: 'Official product photograph of the current black ROK EspressoGC Black PLUS manual espresso maker',
   published: '2026-07-27',
-  updated: '2026-09-25',
+  updated: '2026-10-13',
   price: { label: 'ROK USA direct price checked September 25, 2026', msrp: '$259.00', typical: 'Current Black PLUS package with standard basket, Smartshot basket, manual milk frother, dosing funnel and small tools; tax, delivery, stock and regional package vary', currency: 'USD', numeric: '259.00', checked: 'September 25, 2026' },
   links: [
     { label: 'Check the current ROK USA package', href: officialProduct, note: 'Official identity, live price, box contents, materials, dimensions, weight and care guidance', primary: true },
@@ -131,6 +131,8 @@ const profile: UpgradeReviewProfile = {
     'Choose EspressoGC when that physical process is the attraction. Choose Flair Classic for cheaper gauge-equipped learning, Cafelat Robot for a larger premium manual platform, Flair 58 for heated 58 mm workflow or Bambino Plus for electric speed and steam.',
   ],
   video: { id: '5kWH3bLqo7M', title: 'ROK EspressoGC, GC Conversion Kit + Naked Extraction!', creator: 'Whole Latte Love', published: '2019-01-15', note: 'Unique exact-model independent retailer demonstration of the GC chamber, conversion kit and bottomless extraction. It is not Coffeedant testing, current-package evidence or a controlled pressure and temperature test.' },
+
+  overview: "EspressoGC Black PLUS gives a non-electric lever two basket paths: the standard basket rewards deliberate grinding and preparation, while Smartshot restricts flow for a more forgiving start. The glass-composite chamber and dual arms keep the mechanism simple, with no pressure gauge or heater to organize the shot for you. Hot water, thermal preparation, a scale and cleanup all stay with the owner. The included manual milk frother is an accessory rather than a steam system. This package is attractive when quiet, deliberate espresso is the goal, and less useful when several effortless drinks are the expected morning routine.",
 };
 
 profile.sectionOverrides = {

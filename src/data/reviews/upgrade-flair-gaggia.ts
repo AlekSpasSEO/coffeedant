@@ -17,7 +17,7 @@ const flair58: UpgradeReviewProfile = {
   assessment: 'The most workflow-focused Flair lever, now in the Plus 2 generation, with unusually open recipe control and a real requirement for a capable grinder.',
   image: 'https://flairespresso.com/cdn/shop/files/flair_58_plus_2_lifestyle_14_small_2b3b4e89-9ec3-4414-afef-63edabd9d5b8.jpg?v=1782932208&width=1000',
   imageAlt: 'Flair 58 Plus 2 manual lever espresso machine with walnut portafilter and pressure gauge',
-  published: '2026-07-27', updated: '2026-09-23',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Flair US direct price', msrp: '$699.00', typical: 'Base machine; grinder, kettle, scale, milk equipment, tax and regional terms vary', currency: 'USD', numeric: '699.00', checked: 'September 23, 2026' },
   links: [
     { label: 'Check Flair price', href: 'https://flairespresso.com/products/flair-58-plus-2', note: 'Official current-generation product page', primary: true },
@@ -107,6 +107,8 @@ const flair58: UpgradeReviewProfile = {
   finalTitle: 'Flair 58 Plus 2 rewards control, not convenience shopping',
   finalVerdict: ['The current Plus 2 solves two old lever frictions well: group preheating and puck-handling workflow. Its gauge, 58mm system and manual lever then leave the important pressure decisions visible rather than buried in a pump program.', 'That openness also defines the audience. Buy it with a realistic grinder, kettle, scale and milk plan, and confirm that the listing really is Plus 2. It is a focused espresso platform, not a complete café appliance in one box.'],
   video: { id: '4YimKgEtF9s', title: 'Flair 58+ 2 Review!', creator: 'Lifestyle Lab', published: '2025-03-23', note: 'Independent visual review of the Plus 2 workflow and generational refinements. Specifications and current price remain anchored to Flair.' },
+
+  overview: "The current Flair 58 Plus 2 puts a familiar 58 mm basket system on a lever whose pressure comes from you. Electrical preheating removes part of the thermal preparation associated with smaller manual brewers, while the gauge lets you follow the force applied during a shot. Coffee and hot water still come from a separate grinder and kettle, and there is no steam system. This is a focused station for someone who wants to shape espresso manually and use standard-sized accessories. The meaningful budget includes those supporting tools, rather than stopping at the price of the lever frame.",
 };
 
 const flairClassic: UpgradeReviewProfile = {
@@ -118,7 +120,7 @@ const flairClassic: UpgradeReviewProfile = {
   verdict: 'Choose the current Flair Classic when you want a metal-framed lever, a pressure gauge, and both forgiving and bottomless portafilter paths at a low machine price. Skip it when back-to-back speed, built-in heat, steam, or automatic drinks matter more than the brewing ritual.',
   assessment: 'A coherent entry lever that now bridges beginner and dialed-in workflows, with heat management and small-shot sequencing still owned by the user.',
   image: 'https://flairespresso.com/cdn/shop/files/classic_2025_drips_woo_optimized.jpg?v=1778256909&width=1200', imageAlt: 'Current Flair Classic manual espresso maker pulling a shot',
-  published: '2026-07-27', updated: '2026-09-23',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Flair US direct price', msrp: '$159.00', typical: 'Machine package only; grinder, kettle, scale and milk gear can cost more', currency: 'USD', numeric: '159.00', checked: 'September 23, 2026' },
   links: [
     { label: 'Check Flair price', href: 'https://flairespresso.com/products/the-flair-classic', note: 'Official current product page', primary: true },
@@ -208,6 +210,8 @@ const flairClassic: UpgradeReviewProfile = {
   finalTitle: 'The current Classic is a better learning kit than its price implies',
   finalVerdict: ['Flair’s current package makes the Classic easier to recommend than older one-basket versions. The flow-control portafilter offers a forgiving start, while the gauge and bottomless basket leave a clear route toward better grinding and puck preparation.', 'The trade remains honest: the owner provides heat, pressure, sequencing and cleanup. For one deliberate espresso, that can be the point. For a fast milk-drink queue, it becomes the reason to buy a different machine.'],
   video: { id: 'OoYpytfdbTM', title: 'Setting up and Using the Flair Espresso Maker', creator: 'Sweet Maria’s Coffee', published: '2017-05-23', note: 'Independent visual guide to the original detachable-head workflow. Current package claims are verified separately against Flair’s 2026 listing.' },
+
+  overview: "The current Flair Classic offers two ways to approach the same lever: a flow-control portafilter for a more forgiving start and a bottomless path for greater involvement with grind and preparation. A pressure gauge and metal frame make the small brewer a practical learning tool without an electric pump or heater. Its 40 mm system and separately prepared hot water also define the routine, especially when resetting for another drink. The attraction is learning to make one espresso deliberately at a low machine cost. A kettle, suitable grinder and willingness to handle each stage remain part of that purchase.",
 };
 
 const neoFlex: UpgradeReviewProfile = {
@@ -219,7 +223,7 @@ const neoFlex: UpgradeReviewProfile = {
   verdict: 'Choose the 2024-generation NEO Flex when a very low refurbished price, light frame and two portafilter paths matter more than premium materials or rapid repeat shots. Skip it when you want current new-machine stock, a metal frame, standard 58mm accessories, milk steam, or uncertainty around generation-specific piston parts.',
   assessment: 'A remarkably accessible pressure-capable lever whose exact generation, refurbished status and owner-reported piston context need unusually clear disclosure.',
   image: 'https://img.kavosdraugas.lt/8b070242-0aa4-49f7-9153-f8a2f21bb9ea/1000x1000/flairneoflexupd6png.jpg', imageAlt: 'Black 2024-generation Flair NEO Flex manual espresso maker with pressure gauge',
-  published: '2026-07-27', updated: '2026-09-23',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Flair US refurbished price', msrp: '$89.00 refurbished; $119 crossed-out reference', typical: 'Blemished refurbished unit; stock, case option, tax and regional support vary', currency: 'USD', numeric: '89.00', checked: 'September 23, 2026' },
   links: [
     { label: 'Check refurbished stock', href: 'https://flairespresso.com/products/neo-flex-refurbished', note: 'Official current availability and condition disclosure', primary: true },
@@ -309,6 +313,8 @@ const neoFlex: UpgradeReviewProfile = {
   finalTitle: 'NEO Flex is a sharp value only when the revision is explicit',
   finalVerdict: ['At $89 refurbished, the 2024 NEO Flex places a gauge, two portafilters and a simplified cylinder into an unusually accessible package. That makes it a credible learning tool rather than a toy.', 'The purchase still needs care: verify the revision, refurbished terms and piston condition, then follow the lever stop guidance instead of forcing the head. Buyers who dislike those checks should spend more on the metal Classic or a different platform.'],
   video: { id: 'x8_9pvibUw0', title: 'Flair Neo Flex | Can $99 Get You Actually Good Espresso?', creator: 'Lance Hedrick', published: '2024-09-13', note: 'Independent evaluation of the current-style NEO Flex workflow, construction and value. Availability and price are checked separately against Flair.' },
+
+  overview: "The 2024 NEO Flex lowers the entry cost of lever espresso with a light polycarbonate frame, a pressure gauge and both forgiving and bottomless portafilter options. Its thin-wall cylinder changes the thermal preparation from earlier versions, so generation-specific advice and piston parts should not be mixed casually. The checked opportunity was a refurbished blemished machine, making completeness and seller terms important alongside price. This brewer suits someone curious enough to perform the water, coffee and reset steps personally. Buyers expecting a metal frame, standard 58 mm accessories or a quick sequence of milk drinks are looking for a different station.",
 };
 
 const flairPro2: UpgradeReviewProfile = {
@@ -320,7 +326,7 @@ const flairPro2: UpgradeReviewProfile = {
   verdict: 'Choose a Flair PRO 2 only when the exact machine is complete, condition is clear, and its price meaningfully undercuts current alternatives. Skip it when you expect current factory new-machine stock, fast repeat shots, integrated milk, or the latest thin-cylinder and accessory package.',
   assessment: 'Still a capable larger-head portable lever, but the 2026 decision is about condition, parts and price because Flair has moved the complete-machine range forward.',
   image: 'https://cdn.shopify.com/s/files/1/1201/3604/products/PRO_2_black_hero_grey_mottled_copped_square_woo.jpg?v=1618337126', imageAlt: 'Black Flair PRO 2 manual lever espresso maker with pressure gauge and copper-colored portafilter base',
-  published: '2026-07-27', updated: '2026-09-23',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Canadian dealer remaining listing', msrp: 'CA$425.00', typical: 'Sold out; not represented as current Flair factory new-machine stock', currency: 'CAD', numeric: '425.00', checked: 'September 23, 2026' },
   links: [
     { label: 'Check remaining dealer listing', href: 'https://idrinkcoffee.com/products/flair-pro-2-manual-espresso-maker-black', note: 'Sold-out Canadian dealer price and specification context', primary: true },
@@ -410,6 +416,8 @@ const flairPro2: UpgradeReviewProfile = {
   finalTitle: 'PRO 2 remains good at espresso, but status now leads the decision',
   finalVerdict: ['The PRO 2’s gauge, larger chamber and stainless brew parts still describe a serious compact lever. Nothing about discontinued status erases that capability.', 'It does change the purchase test. Inspect the exact unit, price missing parts, confirm seals and gauge behavior, and compare against current Flair models. A bargain with uncertain hardware is not automatically better value than a simpler new Classic.'],
   video: { id: 'jmpyygZXDXQ', title: 'Flair Espresso Maker Review', creator: 'Lifestyle Lab', published: '2020-11-24', note: 'Independent PRO 2-era workflow review showing setup, thermal routine, manual extraction and cleanup. Current status and price are verified separately.' },
+
+  overview: "PRO 2 is now most usefully considered as a complete used lever system, rather than a current factory purchase. Its larger brew-head format and manual pressure control can appeal to someone who already enjoys the preparation ritual, but a missing component or poor condition can undermine an apparent saving. The checked listings for machines and replacement heads did not establish a readily available new setup. Compare the offered package with current Flair alternatives, including the cylinder and accessories, before valuing the old model. Its lack of built-in heat and milk steam also belongs in the complete-station calculation.",
 };
 
 const gaggiaAccademia: UpgradeReviewProfile = {
@@ -421,7 +429,7 @@ const gaggiaAccademia: UpgradeReviewProfile = {
   verdict: 'Choose RI9781/01 when a household will use its 19-drink menu, four profiles, automatic carafe and separate professional steam wand, and accepts premium cleaning and service complexity. Skip it when manual espresso control, a small footprint, a low price, or a clearly local 120V package matters more.',
   assessment: 'An unusually flexible superautomatic whose dual milk tools and interface stand out, but exact RI9781/01 voltage, warranty and retailer context must be checked by region.',
   image: 'https://www.gaggia.com/app/uploads/2023/09/AccademiaGlass_Int_Varianti_Colori_Gaggia_2023.png', imageAlt: 'Gaggia Accademia Glass RI9781/01 automatic espresso machine with black mirror glass front',
-  published: '2026-07-27', updated: '2026-09-23',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Gaggia Direct UK sale price', msrp: '£1,699.00 sale; £1,799.00 list', typical: 'Exact glass RI9781/01 stock, promotions, voltage and warranty vary by region', currency: 'GBP', numeric: '1699.00', checked: 'September 23, 2026' },
   links: [
     { label: 'Check Gaggia Direct listing', href: 'https://www.gaggiadirect.com/accademia1.html', note: 'Exact RI9781/01 UK retailer and distributor price context', primary: true },
@@ -511,6 +519,8 @@ const gaggiaAccademia: UpgradeReviewProfile = {
   finalTitle: 'Accademia earns its premium through range, not espresso theater',
   finalVerdict: ['RI9781/01 combines a refined interface, broad menu, four profiles and two credible milk routes in one substantial appliance. That mix is rare and genuinely useful for a household split between one-touch convenience and manual foam.', 'Buy only after matching voltage, finish, seller and service. Its premium materials do not remove rinse water, milk cleaning or proprietary repair risk, and its automatic brew path is still a different proposition from a portafilter station.'],
   video: { id: 'jMgkpqBgrKU', title: 'Testing out the Fully Automatic Gaggia Accademia Coffee Machine', creator: 'Whole Latte Love', published: '2022-12-27', note: 'Independent retailer demonstration of the current Accademia platform’s interface, drinks and milk systems. Exact RI9781/01 specifications come from Gaggia.' },
+
+  overview: "Accademia Glass offers an unusual choice within one automatic machine: use the integrated carafe for a programmed milk drink, or use the separate steam wand when you want to finish the milk yourself. Four profiles and a large touchscreen make that flexibility more relevant to a shared kitchen with several preferences. The nineteen-specialty menu is therefore only part of its appeal. Both milk paths, the screen and the premium appliance architecture bring cleaning and service commitments. The reviewed RI9781/01 documentation is European 230 V material, so a buyer in another market needs a confirmed electrical package and local support agreement.",
 };
 
 export const upgradeFlairGaggiaReviews: MachineReviewData[] = [flair58, flairClassic, neoFlex, flairPro2, gaggiaAccademia].map(buildUpgradeReview);

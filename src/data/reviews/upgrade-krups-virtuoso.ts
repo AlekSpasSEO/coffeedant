@@ -18,7 +18,7 @@ const profile: UpgradeReviewProfile = {
   verdict: 'Consider the UK XP442C40 if a trustworthy in-stock unit appears and you want a 143 mm-wide manual machine with programmable one- and two-cup volumes, ESE pod support, hot water and manual steam. The exact manual confirms 1400 W, a 1 L tank, 280 × 143 × 285 mm dimensions and a two-year domestic guarantee. Current exact UK retail stock was not established on September 24, 2026.',
   assessment: 'This is a document-led assessment, not a Coffeedant taste test. Exact hardware and procedures come from the Krups UK page and XP442 manual. Home Tester Club adds 65 self-reported ratings, while the independent Virtuoso+ video covers a later adjacent model. Neither source supplies controlled brew measurements for UK XP442C40.',
   image: hero, imageAlt: 'Krups UK official angled image of the stainless steel and black Virtuoso XP442C40 with portafilter and steam nozzle',
-  published: '2026-07-27', updated: '2026-09-24',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Exact UK XP442C40 unavailable', msrp: 'Historical £199.99 reference', typical: 'Currys Business marked the exact XP442C40 out of stock when checked on September 24, 2026. TechRadar recorded a £99.99 Amazon promotion against £199.99 on July 12, 2023. Those figures are historical context, not a current offer.', currency: 'GBP', numeric: '', checked: 'September 24, 2026' },
   links: [
     { label: 'Read the exact Krups UK specification', href: official, note: 'Exact XP442C40 identity, thermoblock, tank, electrical details, ESE support and care', primary: true },
@@ -106,6 +106,8 @@ const profile: UpgradeReviewProfile = {
     'Value is unresolved because the exact retail page was unavailable. Buy only from a trustworthy listing with all three filters and clear cover. Compare the complete station and service path with Bambino or Dedica.',
   ],
   video: { id: '7kCNPulmbS8', title: 'Krups Virtuoso+: HONEST Review and Test', creator: 'Coffealover EN', published: '2026-06-16', note: 'Independent Virtuoso+ review and demonstration. This is adjacent-family context, not an exact UK XP442C40 test; no XP442C40 measurements or conclusions are transferred.' },
+
+  overview: "Virtuoso's 143 mm width is its clearest invitation to a tight counter. The XP442C40 adds programmable one- and two-cup volumes to a manual thermoblock machine, so it can repeat a chosen beverage amount without becoming an automatic grinder-and-brewer. Ground-coffee filters, a separate ESE filter, steam and hot water give several straightforward ways to use it. The small 1 L tank and need to prepare the portafilter remain part of that compact package. Verified UK stock was not established for this review; confirm an actual unit, its included filters and the domestic guarantee before designing a station around the narrow footprint.",
 };
 
 profile.sectionOverrides = {

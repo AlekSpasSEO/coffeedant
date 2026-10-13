@@ -18,7 +18,7 @@ const profile: UpgradeReviewProfile = {
   verdict: 'Consider the UK XP320840 if you want a basic manual machine, already have a capable grinder or accept preground coffee, and can find a trustworthy seller. Krups documents an aluminium boiler, 15-bar pump rating, 1.5 L removable tank, steam nozzle and two filters. An exact UK listing showed £144.95 but out of stock on September 24, 2026, so current value remains unresolved.',
   assessment: 'This is research, not Coffeedant testing. Exact specifications and care come from Krups UK. The available editorial review has no disclosed measurement protocol, while the exact-model video is an affiliate-style overview. Owner discussion raises questions but cannot establish specifications, performance or failure rates.',
   image: hero, imageAlt: 'Krups UK official front image of the black Opio XP320840 with portafilter and manual steam wand',
-  published: '2026-07-27', updated: '2026-09-24',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Exact UK XP320840 listing, out of stock', msrp: 'No current manufacturer price established', typical: 'Brandcart displayed £144.95 and OUT OF STOCK on September 24, 2026. A July 24, 2020 TechAdvisor deal article recorded £78.49 at Amazon versus £149.99 at Argos and £179 at Freemans, but those historical prices are not current offers.', currency: 'GBP', numeric: '', checked: 'September 24, 2026' },
   links: [
     { label: 'Check the exact Krups UK specification', href: official, note: 'Exact XP320840 identity, boiler, pump, tank, filters, steam and care details', primary: true },
@@ -106,6 +106,8 @@ const profile: UpgradeReviewProfile = {
     'At an unavailable £144.95 listing, value is unresolved. Confirm live stock, seller cover, delivered filters and grinder cost. If a Bambino or Dedica station is available near the same complete price, compare workflow and support rather than choosing on the 15-bar label.',
   ],
   video: { id: 'RWkrx948uYo', title: 'Krups Opio Steam & Pump XP320840 Espresso Coffee Machine: Unleash Professional Barista', creator: 'Best Top Tech', published: '2024-07-08', note: 'Independent exact-model 1:45 affiliate-style overview. It provides visual context but no disclosed brew protocol, measurements or long-term testing.' },
+
+  overview: "Opio XP320840 is a conventional manual starting point: fill the portafilter, start and stop the shot, then use the steam nozzle if milk is needed. Its aluminium boiler and removable tank provide the hardware for that routine without electronic recipe guidance. A buyer already comfortable with a grinder or willing to use preground coffee may find the simplicity appealing. The documented 15-bar pump rating is not a measurement at the coffee, and the exact basket format remains unconfirmed in this review. Establish the filters, usable seller support and actual UK availability before treating a low advertised price as a complete espresso-station bargain.",
 };
 
 profile.sectionOverrides = {

@@ -17,7 +17,7 @@ const profile: UpgradeReviewProfile = {
   verdict: 'Consider a properly warranted EA811040 or EA811840 if simple buttons, a rotary volume dial and a compact automatic coffee routine fit better than recipes and screens. Skip a poorly documented used unit or any listing implying one-touch milk or current stock that cannot be checked.',
   assessment: 'Krups documents two UK Arabica Manual articles with automatic grinding, brewing and manual steaming. Judge a purchase by the exact seller, condition and warranty, not old advertising.',
   image, imageAlt: 'Black UK Krups Arabica Manual EA811040 front view with buttons and steam nozzle',
-  published: '2026-07-27', updated: '2026-09-23',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Current UK exact-model checkout price', msrp: 'Not verified', typical: 'The checked Currys Business EA811840 page said out of stock September 23, 2026. Krups product and support pages did not establish a machine checkout offer. Verify condition, exact SKU and warranty before comparing prices.', currency: 'GBP', numeric: '', checked: 'September 23, 2026' },
   links: [
     { label: 'Check the silver EA811840 listing', href: retailer, note: 'Out of stock when checked September 23, 2026; do not treat as a live offer', primary: true },
@@ -108,6 +108,8 @@ const profile: UpgradeReviewProfile = {
     'A purchase hinges on a real checkout offer and verifiable condition. The manufacturer’s prompt-led coffee cleaning and separate manual steam cleanup are permanent ownership tasks, and current new-stock pricing was not established at this review date.',
   ],
   video: { id: 'jeaKakwUuQ8', title: 'Krups EA8118 Arabica Picto Quattro Force fully automatic coffee machine - test', creator: 'mrbowlfish reviews', published: '2019-11-28', note: 'Independent filmed EA8118-series evaluation, not verified exact UK EA811840; creator discloses manufacturer-provided review unit and affiliate links. No Coffeedant test access.' },
+
+  overview: "Arabica Manual replaces recipe navigation with coffee buttons and a rotary volume dial. For someone who wants beans ground and brewed automatically but dislikes screens, that is the principal appeal of EA811040 and its silver EA811840 counterpart. The three grinder positions and separate steam nozzle keep both coffee adjustment and milk preparation fairly basic. Two black coffees use consecutive brewing cycles, rather than promising a simultaneous extraction system. A trustworthy warranty and exact label matter particularly on older or used stock. The optional milk accessory mentioned in family documentation should not be confused with an included one-touch carafe.",
 };
 
 profile.sectionOverrides = {

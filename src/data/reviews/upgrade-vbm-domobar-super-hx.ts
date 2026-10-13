@@ -39,7 +39,7 @@ const profile: UpgradeReviewProfile = {
   image: hero,
   imageAlt: 'VBM official front three-quarter image of the current Domobar Super family in dark grey',
   published: '2026-07-27',
-  updated: '2026-09-25',
+  updated: '2026-10-13',
   price: {
     label: 'Current US reference price',
     msrp: '$2,449',
@@ -167,6 +167,8 @@ const profile: UpgradeReviewProfile = {
     published: '2021-01-05',
     note: 'Exact-model dealer video running 12 minutes 26 seconds. It documents identity, accessories and physical layout but does not provide a controlled temperature, recovery, steam or taste test.',
   },
+
+  overview: "Domobar Super Analogica is the rotary-pump heat exchanger in a family that also includes substantially different Digital and Electronic machines. Its 2 L boiler supports brewing and steaming together, with tank or mains-water use giving the installation more flexibility than a basic reservoir HX. The analog controls do not include the display, separate brew boiler or saved pressure profiles advertised on those other versions. That distinction makes it a purposeful choice for someone who wants traditional mechanics and a water-managed station. Confirm the Analogica identity and installation package before judging its value against the more electronically ambitious Domobar Super variants.",
 };
 
 profile.sectionOverrides = {

@@ -32,7 +32,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Official Philips product image of the black and mirrored-silver EP4347/94 with LatteGo milk container',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: { label: 'Certified-refurbished exact-model price checked', msrp: 'Specialist comparison price $999.99', typical: 'Seattle Coffee Gear displayed EP4347/94 at $579 with three units remaining and a six-month warranty on September 24, 2026. Walmart Business displayed a $529 restored offer from the same seller, while Philips showed a $999 open-box record out of stock. Verify condition, included pieces, warranty and checkout stock.', currency: 'USD', numeric: '579', checked: 'September 24, 2026' },
   links: [
     { label: 'Check the certified-refurbished EP4347/94 offer', href: refurb, note: '$579, three remaining and six-month specialist warranty displayed September 24, 2026', primary: true },
@@ -125,6 +125,8 @@ const profile: UpgradeReviewProfile = {
     'Choose EP4347/94 when two people will use the profiles and a reputable refurbisher stands behind the unit. Choose the 2200 for a shorter menu, the 5400 for four profiles, or Dinamica Plus for a different milk and interface routine.',
   ],
   video: { id: 'txLdT2KbhtY', title: 'Philips 4300 LatteGo | Crew Review', creator: 'Seattle Coffee Gear', published: '2021-04-30', note: 'Independent retailer demonstration of the Philips 4300 generation’s interface, LatteGo and drink workflow. Seattle Coffee Gear also sells the model, so its commercial interest is explicit; the video does not prove current condition, price, durability or performance for another unit.' },
+
+  overview: "Two saved profiles are the strongest practical distinction of this discontinued 4300: a pair of users can keep preferred recipes available across its eight-drink menu. The two-piece LatteGo container also avoids a milk hose, although the system still needs cleaning after use. For the reviewed US EP4347/94, the purchase opportunity was refurbished rather than normal current factory stock. The useful comparison therefore includes refurbishment grade, carafe and other included parts, return rights and the seller's warranty. Choose a supported example for those two users and their regular drinks, rather than assume the older family number alone makes it good value.",
 };
 
 profile.sectionOverrides = {
