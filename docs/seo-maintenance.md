@@ -9,8 +9,11 @@ is regenerated from actual output and must be inspected in `dist/`.
 
 - `/sitemap.xml` preserves the existing full sitemap endpoint.
 - `/sitemap_index.xml` links to the two canonical, disjoint child sitemaps.
-- `/post-sitemap.xml` contains editorial articles, reviews and buying guides.
-- `/page-sitemap.xml` contains libraries, category/brand indexes and supporting pages.
+- `/post-sitemap.xml` contains only Blog and Journal articles.
+- `/page-sitemap.xml` contains every other canonical page, including product
+  reviews, buying guides, section/library indexes, category/brand indexes and
+  supporting pages. Sitemap membership follows the section, not Article schema.
+  Translated URLs retain their source section identity for this split.
 - Every sitemap contains only built, indexable canonical pages, excluding
   redirects, HTML redirect fallbacks and the 404 page. Image extensions use
   absolute URLs and escaped query strings. `robots.txt` advertises the sitemaps.

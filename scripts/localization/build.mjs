@@ -199,7 +199,7 @@ export const buildRegional = async (editionId, options = {}) => {
   await rm(output, { recursive: true, force: true });
   await mkdir(path.dirname(output), { recursive: true }); await cp(temporary, output, { recursive: true });
   await rm(temporary, { recursive: true, force: true });
-  if (!options.preview) await buildSeo(output, { origin: `https://${edition.host}`, locale: edition.locale });
+  if (!options.preview) await buildSeo(output, { origin: `https://${edition.host}`, locale: edition.locale, sourceRoutes: Object.fromEntries([...routes].map(([source, target]) => [target, source])) });
   console.log(`Built ${rendered.length} validated pages for ${edition.host}${options.preview ? ' (noindex preview)' : ''}.`);
   return output;
 };

@@ -1,9 +1,15 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { parse } from 'parse5';
-import { enhancePage, graph, faqQuestions, sitemapXml, walk, attr } from '../build-seo.mjs';
+import { enhancePage, graph, faqQuestions, sitemapXml, walk, attr, isPostSitemapPage } from '../build-seo.mjs';
 
 const page = '<!doctype html><html lang="en"><head><title>Test coffee review | Coffeedant</title></head><body><main><h1>Test coffee review</h1><p>Our evidence-led coffee review explains identity, ownership and practical buying decisions for a home espresso setup.</p><img src="/images/coffee.jpg" alt="Coffee in a white cup" width="1200" height="800"><section id="faq"><article><h3>Does it need a grinder?</h3><p>Yes, use a suitable espresso grinder.</p></article></section></main></body></html>';
+
+test('post sitemap includes only Blog/Journal articles, including translated routes by source identity', () => {
+  const entries = ['/blog/coffee-history/', '/journal/water-hidden-ingredient/', '/espresso-machine/ninja-luxe-cafe-premier-es601/', '/grinder/baratza-encore-esp-pro/', '/coffee-beans/counter-culture-hologram/', '/espresso-machine/beginners/', '/journal/', '/about/'].map(route => ({ url: `https://coffeedant.com${route}`, post: true }));
+  assert.deepEqual(entries.filter(isPostSitemapPage).map(p => new URL(p.url).pathname), ['/blog/coffee-history/', '/journal/water-hidden-ingredient/']);
+  assert.equal(isPostSitemapPage({ url: 'https://nl.coffeedant.com/dagboek/water/', sourcePath: '/journal/water-hidden-ingredient/' }), true);
+});
 test('uses visible FAQs and absolute page images without fabricating products or prices', () => {
   const result = enhancePage(page, '/journal/test/'); const doc = parse(result.html); const schemas = graph(doc);
   assert.equal(faqQuestions(doc).length, 1);
