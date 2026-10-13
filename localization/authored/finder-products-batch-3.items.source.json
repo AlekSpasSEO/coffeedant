@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "source": "dist/coffee-finder.json at dc6998e9921396c04097d25e469cf614313db8e9",
+  "snapshot": "finder-batch-3.source.json",
+  "snapshotHash": "86463520b67aef0a458e34d6066227e5ec187f1d515db56a853c5e2d1fe42401",
+  "items": [
+    {
+      "brand": "9Barista",
+      "model": "Espresso Machine Mk.2",
+      "path": "/espresso-machine/9barista-mk2/",
+      "description": "I would buy the 9Barista Mk.2 for one or two straight espressos when counter space or access to electricity is genuinely constrained. It is a precisely engineered brewer, not a small all-purpose espresso station.",
+      "bestFor": "One straight-espresso drinker who values repeatability more than pressure or temperature profiling",
+      "imageAlt": "9Barista Espresso Machine Mk.2 stovetop espresso brewer",
+      "priceUsd": 750,
+      "amazonHref": "https://www.amazon.com/dp/B0FP4QQ56D?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "brand": "Ascaso",
+      "model": "Steel Duo PID",
+      "path": "/espresso-machine/ascaso-steel-duo-pid/",
+      "description": "The current US Steel Duo PID is a persuasive choice for someone who wants a 58 mm machine, adjustable brew temperature, volumetric buttons, and espresso and steam at the same time without waiting for traditional boilers.",
+      "bestFor": "A milk-drink household that wants to extract and steam at the same time from a compact 58 mm machine",
+      "imageAlt": "Black Ascaso Steel Duo PID espresso machine with walnut controls",
+      "priceUsd": 2095,
+      "amazonHref": "https://www.amazon.com/dp/B0BJH21MBP?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "brand": "Ascaso",
+      "model": "Steel Uno PID",
+      "path": "/espresso-machine/ascaso-steel-uno/",
+      "description": "The Steel Uno PID makes sense when you want Ascaso’s 58 mm group, adjustable temperature, programmable pre-infusion, volumetric buttons, gauge, and quick on-demand heating, but milk is occasional and a 1050 W single circuit suits the kitchen better than the Duo.",
+      "bestFor": "An espresso-first household that wants 58 mm accessories, PID control, a gauge, and programmable pre-infusion",
+      "imageAlt": "Black Ascaso Steel Uno PID espresso machine with walnut controls",
+      "priceUsd": 1695,
+      "amazonHref": "https://www.amazon.com/dp/B096YG1YQY?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "brand": "Bezzera",
+      "model": "BZ09",
+      "path": "/espresso-machine/bezzera-bz09/",
+      "description": "The BZ09 is a solid narrow single boiler whose cartridge-heated BZ group gives it more identity than its sparse control panel suggests. Buy it when local Bezzera support is strong and manual temperature routine is part of the appeal.",
+      "bestFor": "Espresso-first buyer who wants a compact 58 mm traditional machine",
+      "imageAlt": "Bezzera BZ09 stainless steel espresso machine viewed from the front",
+      "priceUsd": null,
+      "amazonHref": "https://www.amazon.com/s?k=Bezzera+BZ09+BZ09+PM&tag=coffeedant03-20"
+    },
+    {
+      "brand": "Bezzera",
+      "model": "BZ10",
+      "path": "/espresso-machine/bezzera-bz10/",
+      "description": "The BZ10 turns a narrow counter slot into a capable espresso-and-steam station. Its cartridge-heated group and 1.5 L heat exchanger support a quick manual bar rhythm, but temperature remains an inferred routine rather than a displayed recipe setting.",
+      "bestFor": "Milk-drink household that needs espresso and steam at the same time",
+      "imageAlt": "Bezzera BZ10 stainless steel heat-exchanger espresso machine viewed from the front",
+      "priceUsd": 1449,
+      "amazonHref": "https://www.amazon.com/dp/B00NY862ZM?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "brand": "Bezzera",
+      "model": "BZ13 PID",
+      "path": "/espresso-machine/bezzera-bz13-pid/",
+      "description": "The BZ13 PID is a strong match for a milk-drink household that wants a narrow traditional machine, quicker group readiness than a large E61, and either manual PM control or the DE model’s volumetric buttons.",
+      "bestFor": "Milk-drink households that want HX steam and simultaneous brewing in a narrow body",
+      "imageAlt": "Bezzera BZ13 PID espresso machine in polished stainless steel",
+      "priceUsd": 1699,
+      "amazonHref": "https://www.amazon.com/s?k=Bezzera+BZ13+PID+BZ13+DE+%2F+BZ13+PM&tag=coffeedant03-20"
+    },
+    {
+      "brand": "Bezzera",
+      "model": "Duo MN",
+      "path": "/espresso-machine/bezzera-duo-mn/",
+      "description": "The Duo MN is for a buyer who wants to lift an E61 lever but does not want an old-fashioned control system.",
+      "bestFor": "An E61 buyer who wants dual-boiler separation and a genuinely useful touchscreen",
+      "imageAlt": "Bezzera Duo MN dual-boiler espresso machine with E61 group and touchscreen",
+      "priceUsd": 2799,
+      "amazonHref": "https://www.amazon.com/s?k=Bezzera+Duo+MN+DUO+MN&tag=coffeedant03-20"
+    },
+    {
+      "brand": "Bezzera",
+      "model": "Hobby 01",
+      "path": "/espresso-machine/bezzera-hobby/",
+      "description": "The Bezzera Hobby 01 makes a convincing case at the $799 US price checked September 17, 2026: commercial-size coffee hardware, a three-liter tank and unusually energetic steam in a narrow body.",
+      "bestFor": "One or two daily drinks from a narrow, substantial machine",
+      "imageAlt": "Bezzera Hobby 01 compact espresso machine in stainless steel",
+      "priceUsd": 799,
+      "amazonHref": "https://www.amazon.com/s?k=Bezzera+Hobby+01+HOBBY+01&tag=coffeedant03-20"
+    },
+    {
+      "brand": "Bezzera",
+      "model": "Mitica Top PID",
+      "path": "/espresso-machine/bezzera-mitica-top-pid/",
+      "description": "Mitica Top PID is compelling when a rotary pump, E61 lever, plumbing flexibility and simultaneous milk service are the goal.",
+      "bestFor": "Household making repeated espresso and milk drinks",
+      "imageAlt": "Bezzera Mitica Top PID polished stainless heat-exchanger espresso machine",
+      "priceUsd": null,
+      "amazonHref": "https://www.amazon.com/s?k=Bezzera+Mitica+Top+PID+MITICA+TOP+PID&tag=coffeedant03-20"
+    },
+    {
+      "brand": "Bezzera",
+      "model": "Strega",
+      "path": "/espresso-machine/bezzera-strega/",
+      "description": "Choose the Strega when the declining-pressure character and physical ritual of a spring lever are the point, while a service boiler and pump-assisted fill keep milk drinks practical.",
+      "bestFor": "Buyer specifically seeking a spring-driven declining pressure profile",
+      "imageAlt": "Bezzera Strega spring-lever espresso machine in polished stainless steel",
+      "priceUsd": 2516,
+      "amazonHref": "https://www.amazon.com/dp/B01LX17T3U?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "brand": "Bezzera",
+      "model": "Unica PID",
+      "path": "/espresso-machine/bezzera-unica-pid/",
+      "description": "Choose the Unica PID when straight espresso, a traditional lever group, compact width, and visible temperature selection matter more than rapid milk-drink service.",
+      "bestFor": "Espresso-first household making occasional milk drinks",
+      "imageAlt": "Bezzera Unica PID stainless single-boiler espresso machine",
+      "priceUsd": 1317,
+      "amazonHref": "https://www.amazon.com/dp/B00WMZCVZ8?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "brand": "Bosch",
+      "model": "300 Series VeroCafe TIU20307",
+      "path": "/espresso-machine/bosch-300-series-verocafe-tiu20307/",
+      "description": "Choose the Bosch 300 Series when easy black coffee and in-cup milk frothing matter more than a broad drink library or app control.",
+      "bestFor": "Household wanting simple bean-to-cup coffee below four-figure list price",
+      "imageAlt": "Bosch 300 Series VeroCafe TIU20307 fully automatic espresso machine",
+      "priceUsd": 853.8,
+      "amazonHref": "https://www.amazon.com/dp/B0D16N7BBV?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "brand": "Bosch",
+      "model": "500 Series VeroCafe TPU40109",
+      "path": "/espresso-machine/bosch-500-series-verocafe-tpu40109/",
+      "description": "Choose the Bosch 500 Series when the 300 feels too limited but the 800’s screen, profiles, app, and 35-drink library are unnecessary.",
+      "bestFor": "Household making several coffee and milk recipes",
+      "imageAlt": "Bosch 500 Series VeroCafe TPU40109 fully automatic espresso machine",
+      "priceUsd": 1099,
+      "amazonHref": "https://www.amazon.com/dp/B0DQFCRFPJ?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "brand": "Bosch",
+      "model": "800 Series VeroCafe TPU60309",
+      "path": "/espresso-machine/bosch-800-series/",
+      "description": "Choose the Bosch 800 Series when several people will genuinely use its 35 drinks, ten profiles, five-inch display, Home Connect controls, and integrated milk workflow.",
+      "bestFor": "Several users with different saved drinks",
+      "imageAlt": "Bosch 800 Series VeroCafe TPU60309 connected fully automatic espresso machine",
+      "priceUsd": 1599.99,
+      "amazonHref": "https://www.amazon.com/dp/B0CWYJH3MQ?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "brand": "Breville",
+      "model": "Bambino Plus",
+      "path": "/espresso-machine/breville-bambino/",
+      "description": "I would choose the Bambino Plus for a household making lattes and cappuccinos most days. Its quick-start heater and automatic milk remove two chores, but you still grind, dose and tamp.",
+      "bestFor": "A household that wants repeatable milk drinks with less milk-steaming practice",
+      "imageAlt": "Breville Bambino Plus espresso machine",
+      "priceUsd": 499.95,
+      "amazonHref": "https://www.amazon.com/dp/B08ZK13CJN?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "brand": "Breville",
+      "model": "Barista Express",
+      "path": "/espresso-machine/breville-barista-express-bes870xl/",
+      "description": "The Barista Express remains a coherent first espresso station for someone who wants the grinder and machine in one familiar package. Its pressure gauge, manual wand and current single-wall baskets leave real room to learn.",
+      "bestFor": "A first-time owner who wants one coordinated coffee station and is willing to learn manual espresso",
+      "imageAlt": "Breville Barista Express BES870XL espresso machine with integrated grinder",
+      "priceUsd": 499.95,
+      "amazonHref": "https://www.amazon.com/dp/B00CH9QWOU?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "brand": "Breville",
+      "model": "Barista Express Impress",
+      "path": "/espresso-machine/breville-barista-express-impress-bes876/",
+      "description": "The Barista Express Impress is the strongest Breville choice when inconsistent dosing, crooked tamping and loose grounds make several household users avoid espresso. Its feedback loop learns from the previous dose and the lever applies a repeatable tamp.",
+      "bestFor": "Several household users who need a repeatable dose and level tamp without loose-ground mess",
+      "imageAlt": "Breville Barista Express Impress BES876 with assisted tamp lever",
+      "priceUsd": 649.95,
+      "amazonHref": "https://www.amazon.com/dp/B0BBYNPV33?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "brand": "Breville",
+      "model": "Barista Pro",
+      "path": "/espresso-machine/breville-barista-pro-bes878/",
+      "description": "The Barista Pro is the Breville integrated model I would choose when speed, a shot timer and more usable grind adjustment matter every morning.",
+      "bestFor": "Someone who wants an integrated grinder but dislikes the Express warm-up and analog-only workflow",
+      "imageAlt": "Breville Barista Pro BES878 espresso machine with integrated grinder and LCD",
+      "priceUsd": 849.95,
+      "amazonHref": "https://www.amazon.com/dp/B08ZCNP8YR?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "brand": "Breville",
+      "model": "Barista Touch",
+      "path": "/espresso-machine/breville-barista-touch-bes880bss/",
+      "description": "The Barista Touch is a strong bridge between manual espresso and one-touch convenience. Its touchscreen, quick ThermoJet heater and automatic milk system make lattes approachable, but it still asks you to dose, distribute, tamp, move and clean a 54 mm portafilter.",
+      "bestFor": "A latte or cappuccino household that wants automatic milk and touchscreen guidance",
+      "imageAlt": "Breville Barista Touch BES880 espresso machine with touchscreen and integrated grinder",
+      "priceUsd": 929.99,
+      "amazonHref": "https://www.amazon.com/dp/B078WMLXXG?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "brand": "Breville",
+      "model": "Barista Touch Impress BES881",
+      "path": "/espresso-machine/breville-barista-touch-impress-bes881/",
+      "description": "Choose the Barista Touch Impress when several users want touchscreen guidance, assisted dosing and tamping, and automatic milk while keeping a real portafilter workflow.",
+      "bestFor": "Multi-user household wanting guided portafilter drinks",
+      "imageAlt": "Breville Barista Touch Impress BES881 assisted espresso machine in brushed stainless steel",
+      "priceUsd": 1199.95,
+      "amazonHref": "https://www.amazon.com/dp/B0C1T4W797?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "brand": "Breville",
+      "model": "Dynamic Duo BEP920",
+      "path": "/espresso-machine/breville-dynamic-duo-bep920/",
+      "description": "Choose the Dynamic Duo when the bundle price is competitive and a single purchase for a capable 58 mm dual boiler plus a usable grinder matters. The BES920 is the star: independent boilers, PID, programmable preinfusion, front filling, and simultaneous steam remain compelling.",
+      "bestFor": "Buyer wanting a complete 58 mm dual-boiler setup in one order",
+      "imageAlt": "Breville Dynamic Duo BEP920 dual boiler espresso machine and Smart Grinder Pro bundle",
+      "priceUsd": 1699.95,
+      "amazonHref": "https://www.amazon.com/dp/B08ML986LF?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "brand": "Breville",
+      "model": "Oracle BES980",
+      "path": "/espresso-machine/breville-oracle-bes980x/",
+      "description": "Choose the original Oracle BES980 when its 58 mm automated grind, dose and tamp, independent boilers, and automatic milk are worth prioritizing over a modern touchscreen or faster cold start.",
+      "bestFor": "Milk-drink household wanting simultaneous assisted preparation",
+      "imageAlt": "Breville Oracle BES980 assisted dual-boiler espresso machine with integrated grinder",
+      "priceUsd": 2148,
+      "amazonHref": "https://www.amazon.com/dp/B00J19PT2K?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "brand": "Breville",
+      "model": "Oracle Jet BES985",
+      "path": "/espresso-machine/breville-oracle-jet-bes985/",
+      "description": "Choose the Oracle Jet when you want automated 58 mm grind, dose and tamp, active Barista Guidance, rapid ThermoJet startup, Auto MilQ, a modern touchscreen, and update capability without moving to a sealed brew unit.",
+      "bestFor": "Household wanting highly guided 58 mm espresso",
+      "imageAlt": "Breville Oracle Jet BES985 premium guided espresso machine in brushed stainless steel",
+      "priceUsd": 1997,
+      "amazonHref": "https://www.amazon.com/dp/B0DYGDKQ85?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "brand": "Breville",
+      "model": "Oracle Touch",
+      "path": "/espresso-machine/breville-oracle-touch-bes990/",
+      "description": "The Oracle Touch remains a rare and appealing hybrid: it grinds, doses and tamps into a 58 mm portafilter, then runs espresso and automatic milk on a dual-boiler platform.",
+      "bestFor": "A buyer who specifically wants automatic grind, dose and tamp with a removable 58 mm portafilter",
+      "imageAlt": "Breville Oracle Touch BES990 dual-boiler espresso machine with touchscreen and grinder",
+      "priceUsd": 2301.47,
+      "amazonHref": "https://www.amazon.com/dp/B073TYYM91?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "brand": "Breville",
+      "model": "the Dual Boiler",
+      "path": "/espresso-machine/breville-dual-boiler-bes920xl/",
+      "description": "The Breville Dual Boiler offers the controls that matter to an ambitious home barista: separate brew and steam boilers, a heated group, adjustable temperature and pre-infusion, a 58 mm portafilter and simultaneous brewing and steaming.",
+      "bestFor": "An espresso enthusiast who already owns, or has budgeted for, a capable separate grinder",
+      "imageAlt": "Breville Dual Boiler BES920XL espresso machine with two boilers and pressure gauge",
+      "priceUsd": 1599.95,
+      "amazonHref": "https://www.amazon.com/dp/B00I6JGGP0?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "brand": "Cafelat",
+      "model": "Robot Barista",
+      "path": "/espresso-machine/cafelat-robot-barista/",
+      "description": "Choose the Robot Barista when you want quiet, direct pressure control in a compact mechanical tool and already accept the separate grinder and kettle. Skip it when milk drinks, effortless heat management, or push-button repeatability matter more than tactile espresso.",
+      "bestFor": "Straight-espresso drinker who enjoys controlling pressure by hand",
+      "imageAlt": "Retro green Cafelat Robot Barista manual lever espresso maker",
+      "priceUsd": null,
+      "amazonHref": "https://www.amazon.com/s?k=Cafelat+Robot+Barista+ROBOT-BARISTA&tag=coffeedant03-20"
+    },
+    {
+      "brand": "CREM",
+      "model": "ONE 1B PID Dual",
+      "path": "/espresso-machine/crem-one-hx-pid-wt-wc/",
+      "description": "Choose the CREM ONE 1B PID Dual when a narrow E61 heat exchanger, simultaneous brewing and steaming, PID interface, and tank-to-mains flexibility match the kitchen.",
+      "bestFor": "Milk-drink household wanting a narrow traditional E61 machine",
+      "imageAlt": "CREM ONE HX PID espresso machine in polished stainless steel",
+      "priceUsd": 1799,
+      "amazonHref": "https://www.amazon.com/s?k=CREM+ONE+1B+PID+Dual+ONE+HX+PID+WT%2FWC&tag=coffeedant03-20"
+    },
+    {
+      "brand": "Dalla Corte",
+      "model": "Mina",
+      "path": "/espresso-machine/dalla-corte-mina/",
+      "description": "Choose the original Dalla Corte Mina when programmable flow, a compact multiboiler chassis, powerful steam, and fixed-water installation belong in a permanent enthusiast station.",
+      "bestFor": "Advanced espresso buyer who wants direct and saved flow profiles",
+      "imageAlt": "White Dalla Corte Mina Barista espresso machine shown as the current evolution of Mina",
+      "priceUsd": 8500,
+      "amazonHref": "https://www.amazon.com/s?k=Dalla+Corte+Mina+MINA&tag=coffeedant03-20"
+    },
+    {
+      "brand": "De'Longhi",
+      "model": "Dedica DeLuxe EC685",
+      "path": "/espresso-machine/delonghi-dedica/",
+      "description": "The EC685 remains a defensible small-kitchen starter when it is substantially cheaper than newer compact machines. Its stock pressurized workflow is forgiving, its body is genuinely narrow and its settings are more useful than the three-button panel suggests.",
+      "bestFor": "A genuinely narrow counter where most espresso machines will not fit",
+      "imageAlt": "De'Longhi Dedica EC685 compact espresso machine",
+      "priceUsd": 249,
+      "amazonHref": "https://www.amazon.com/dp/B072WZL4ZT?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "brand": "De'Longhi",
+      "model": "Dinamica Aroma Bar ECAM359.37.TB",
+      "path": "/espresso-machine/delonghi-dinamica-aroma-bar-ecam359-37-tb/",
+      "description": "Choose the Dinamica Aroma Bar ECAM359.37.TB when you want one-touch bean-to-cup coffee with an adjustable manual frother and find verified European stock at a sensible price.",
+      "bestFor": "Black-coffee household wanting automatic grinding and brewing",
+      "imageAlt": "De'Longhi Dinamica Aroma Bar ECAM359.37.TB automatic coffee machine",
+      "priceUsd": null,
+      "amazonHref": "https://www.amazon.com/s?k=De%27Longhi+Dinamica+Aroma+Bar+ECAM359.37.TB+ECAM359.37.TB&tag=coffeedant03-20"
+    },
+    {
+      "brand": "Philips",
+      "model": "2200 LatteGo EP2230/14",
+      "path": "/espresso-machine/philips-2200-lattego/",
+      "description": "Choose the US EP2230/14 when espresso, coffee and one-touch cappuccino cover the household and a two-piece, tube-free milk system is more valuable than profiles or a long drink menu.",
+      "bestFor": "Households whose recurring menu is espresso, coffee and cappuccino",
+      "imageAlt": "Official Philips product image of the matte-black US EP2230/14 with LatteGo container and cappuccino",
+      "priceUsd": 404.96,
+      "amazonHref": "https://www.amazon.com/s?k=Philips+2200+LatteGo+EP2230%2F14+US+EP2230%2F14%2C+matte+black%2C+120+V+LatteGo+trim&tag=coffeedant03-20"
+    },
+    {
+      "brand": "Philips",
+      "model": "3200 Series LatteGo",
+      "path": "/espresso-machine/philips-3200-lattego/",
+      "description": "The Philips 3200 LatteGo still makes sense as a simple whole-bean convenience machine. Five direct drinks, a two-piece milk carafe and removable brew group keep the learning and daily cleanup approachable.",
+      "bestFor": "A household that wants easy whole-bean coffee and simple automatic milk with minimal menu depth",
+      "imageAlt": "Philips 3200 Series LatteGo EP3241/54 super-automatic coffee machine with milk carafe",
+      "priceUsd": 500.04,
+      "amazonHref": "https://www.amazon.com/dp/B07VFY4MXM?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "brand": "Philips",
+      "model": "4300 LatteGo EP4347/94",
+      "path": "/espresso-machine/philips-4300-lattego/",
+      "description": "Choose the US EP4347/94 only when two saved user profiles, eight fresh-bean recipes and a two-piece milk container justify buying refurbished.",
+      "bestFor": "Two-person households that will actually use separate saved recipes",
+      "imageAlt": "Official Philips product image of the black and mirrored-silver EP4347/94 with LatteGo milk container",
+      "priceUsd": 579,
+      "amazonHref": "https://www.amazon.com/s?k=Philips+4300+LatteGo+EP4347%2F94+US+EP4347%2F94%2C+black+and+mirrored-silver+LatteGo+trim%2C+120+V+retailer+record&tag=coffeedant03-20"
+    },
+    {
+      "brand": "Philips",
+      "model": "5400 LatteGo EP5447/94",
+      "path": "/espresso-machine/philips-5400-lattego/",
+      "description": "Choose the US EP5447/94 when four saved profiles, 12 fresh-bean coffee recipes and the two-piece LatteGo system matter enough to accept a discontinued, refurbished machine. Espresso Machine Experts displayed an in-stock refurbished unit at $769.99 on September 24, 2026.",
+      "bestFor": "Households that will use three or four separate saved drink profiles",
+      "imageAlt": "Official Philips product image of the black and chrome EP5447/94 with LatteGo milk container",
+      "priceUsd": 629,
+      "amazonHref": "https://www.amazon.com/dp/B0CJ9TP31V?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1"
+    }
+  ]
+}
