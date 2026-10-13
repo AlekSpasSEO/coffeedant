@@ -1,6 +1,7 @@
 import { readFile, writeFile, mkdir, mkdtemp, cp, rm } from 'node:fs/promises';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
+import {journalRedirects} from '../migrate-journal-links.mjs';
 import { root, config, getEdition, sourceOrigin, interfaceSource, readJson, loadCache, safeRoute,
   translatedText, translateDom, parseHtml, serializeHtml, walk, attr, setAttr, detach,
   appendHtml, jsonSlots, textContent, contentId, writeJson, policyHash } from './core.mjs';
@@ -169,6 +170,9 @@ export const buildRegional = async (editionId, options = {}) => {
   await writeFile(path.join(temporary, 'robots.txt'), options.preview ? 'User-agent: *\nDisallow: /\n' : `User-agent: *\nAllow: /\nSitemap: https://${edition.host}/sitemap.xml\n`);
   const redirectLines = source.pages.filter(({ sourcePath }) => sourcePath !== routes.get(sourcePath) && ![...routes.values()].includes(sourcePath))
     .map(({ sourcePath }) => `${sourcePath} ${routes.get(sourcePath)} 301`);
+  for(const [oldPath,newPath] of Object.entries(journalRedirects)){
+    const target=routes.get(newPath);if(target&&!new Set(routes.values()).has(oldPath))redirectLines.push(`${oldPath} ${target} 301`);
+  }
   await writeFile(path.join(temporary, '_redirects'), `${redirectLines.join('\n')}\n`);
   await writeJson(path.join(temporary, 'localization-manifest.json'), { edition: edition.id, host: edition.host, locale: edition.locale, policyHash,
     pages: source.pages.map((page) => ({ id: page.id, sourcePath: page.sourcePath, path: routes.get(page.sourcePath), sourceHash: page.sourceHash })) });

@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parse } from 'parse5';
+import {journalDestination} from './migrate-journal-links.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.join(root, 'dist');
@@ -26,6 +27,9 @@ const buyingGuideRoutes = new Set([
   '/espresso-machine/superautomatic/',
   '/espresso-machine/without-grinder/',
 ]);
+const journalMigration=JSON.parse(fs.readFileSync(path.join(root,'src/data/journal-route-migration.json'),'utf8'));
+const journalBlogRoutes=new Set(Object.values(journalMigration.blogs));
+const journalGuideRoutes=new Set([...buyingGuideRoutes].map(journalDestination));
 
 const skippedTextTags = new Set([
   'dialog',
@@ -318,8 +322,8 @@ const guideModules = [
 ];
 
 const classify = (route) => {
-  if (buyingGuideRoutes.has(route)) return 'buying-guide';
-  if (blogRoutePattern.test(route)) return 'blog-article';
+  if (buyingGuideRoutes.has(route)||journalGuideRoutes.has(route)) return 'buying-guide';
+  if (blogRoutePattern.test(route)||journalBlogRoutes.has(route)) return 'blog-article';
   if (productRoutePattern.test(route)) return 'product-review';
   return null;
 };

@@ -1,27 +1,34 @@
 ---
 import {stories} from '../../data/journal';
+import {journalEntries} from '../../data/journal-catalog';
+import {storyPath} from '../../lib/journal-routes';
 import JournalVisual from './JournalVisual.astro';
 import JournalPhoto from './JournalPhoto.astro';
 import JournalVideo from './JournalVideo.astro';
 import '../../styles/journal.css';
-const {embedded = false} = Astro.props;
+const {embedded = false, selectedStory} = Astro.props;
+const visibleStories = embedded ? stories : stories.filter(story=>story.id===selectedStory);
+const libraryVisible = !selectedStory;
+const thumbnailCredits = stories.flatMap(story=>story.media.images).filter(photo=>journalEntries.some(entry=>entry.image===photo.src));
+const href = (path:string) => /^https?:\/\//i.test(path)?path:`${base}${path.replace(/^\//,'')}`;
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const image = (hero:string) => `${base}journal/${hero}.webp`;
 ---
-<div class="journal" data-journal data-embedded={embedded ? 'true' : 'false'}>
- <div class="journal-library" data-library>
+<div class="journal" data-journal data-embedded={embedded ? 'true' : 'false'} data-initial-story={selectedStory}>
+ {libraryVisible && <div class="journal-library" data-library>
   <div class="journal-masthead"><span class="journal-label">Coffeedant / Journal</span><span>Volume 01 · October 2026</span>{embedded && <button type="button" data-close-journal aria-label="Close Journal">Close ×</button>}</div>
-  <section class="journal-intro"><div><p class="journal-label">For the endlessly curious.</p><h1 tabIndex="-1">There’s a world<br/>in your <em>cup.</em></h1></div><div class="journal-intro-note"><p>Follow coffee through empires, forests and the science of your morning ritual.</p><span>10 stories. Three ways to see coffee.</span></div></section>
-  <button type="button" class="journal-cover" data-story="istanbul-coffeehouses"><img src={image('history')} width="1536" height="1024" alt="Original illustrated reconstruction of an Ottoman coffeehouse overlooking Istanbul" loading={embedded ? 'lazy':'eager'} fetchpriority={embedded?'auto':'high'}/><span class="cover-shade"></span><span class="cover-copy"><span class="journal-label">The opening story / History</span><strong>The city that<br/>learned to gather.</strong><span>Istanbul, c. 1554–55. A drink becomes a place.</span><span class="cover-cta">Enter the story <b>↗</b></span></span><span class="cover-index">01 / 10</span></button>
-  <div class="journal-toolbar"><div class="journal-filters" aria-label="Filter stories">{['All stories','History','Zeitgeist','Brew Lab'].map((category,i)=><button type="button" data-filter={category} aria-pressed={i===0?'true':'false'}>{category}</button>)}</div><label class="journal-search"><span class="sr-only">Search the Journal</span><input type="search" data-journal-search placeholder="Find a story…" aria-label="Search stories"/><span aria-hidden="true">⌕</span></label></div>
-  <p class="journal-results" aria-live="polite" data-result-count>Showing all 10 stories</p>
-  <div class="journal-grid">{stories.map(story=><button type="button" class={`journal-card journal-card--${story.hero}`} data-story={story.id} data-category={story.category} data-search={`${story.title} ${story.dek} ${story.eyebrow}`}><div class="journal-card-image"><img src={image(story.hero)} alt={story.heroAlt} width="1536" height="1024" loading="lazy"/><span>{story.number}</span></div><div class="journal-card-copy"><div class="journal-card-meta"><span>{story.category}</span><span>{story.minutes} min read</span></div><h2>{story.title}</h2><p>{story.dek}</p><span class="journal-card-arrow" aria-hidden="true">↗</span></div></button>)}</div>
+  <section class="journal-intro"><div><p class="journal-label">For the endlessly curious.</p><h1 tabIndex="-1">There’s a world<br/>in your <em>cup.</em></h1></div><div class="journal-intro-note"><p>Follow coffee through empires, forests and the science of your morning ritual.</p><span>25 stories and guides. One curious world.</span></div></section>
+  <a class="journal-cover" href={href(storyPath('istanbul-coffeehouses'))} data-story="istanbul-coffeehouses"><img src={image('history')} width="1536" height="1024" alt="Original illustrated reconstruction of an Ottoman coffeehouse overlooking Istanbul" loading={embedded ? 'lazy':'eager'} fetchpriority={embedded?'auto':'high'}/><span class="cover-shade"></span><span class="cover-copy"><span class="journal-label">The opening story / History</span><strong>The city that<br/>learned to gather.</strong><span>Istanbul, c. 1554–55. A drink becomes a place.</span><span class="cover-cta">Enter the story <b>↗</b></span></span><span class="cover-index">01 / 25</span></a>
+  <div class="journal-toolbar"><div class="journal-filters" aria-label="Filter stories">{['All stories','History','Zeitgeist','Brew Lab','Guides'].map((category,i)=><button type="button" data-filter={category} aria-pressed={i===0?'true':'false'}>{category}</button>)}</div><label class="journal-search"><span class="sr-only">Search the Journal</span><input type="search" data-journal-search placeholder="Find a story…" aria-label="Search stories"/><span aria-hidden="true">⌕</span></label></div>
+  <p class="journal-results" aria-live="polite" data-result-count>Showing all 25 stories and guides</p>
+  <div class="journal-grid">{journalEntries.map(entry=><a class="journal-card" href={href(entry.path)} data-story={entry.kind==='feature'?entry.id:undefined} data-kind={entry.kind} data-category={entry.category} data-search={`${entry.title} ${entry.dek} ${entry.label}`}><div class="journal-card-image"><img src={href(entry.image)} alt={entry.imageAlt} width="1536" height="1024" loading="lazy"/><span>{entry.number}</span></div><div class="journal-card-copy"><div class="journal-card-meta"><span>{entry.label}</span><span>{entry.minutes} min read</span></div><h2>{entry.title}</h2><p>{entry.dek}</p><span class="journal-card-arrow" aria-hidden="true">↗</span></div></a>)}</div>
   <p data-empty hidden class="journal-empty">No stories match that search. Try another word or select All stories.</p>
+  <p class="journal-thumbnail-credits">Documentary thumbnail credits: {thumbnailCredits.map((photo,index)=><>{index>0?' · ':''}{photo.credit} (<a href={photo.sourceUrl} target="_blank" rel="noopener noreferrer">source</a>, <a href={photo.licenseUrl} target="_blank" rel="noopener noreferrer">{photo.license}</a>). Thumbnail crops.</>)}</p>
   <div class="journal-colophon"><span class="journal-label">The Coffeedant perspective</span><p>Research-led stories. Original visual explanations. Curiosity with receipts.</p><span>Written and compiled by the Coffeedant editorial desk · Sources checked 13 October 2026</span><p>Illustrated covers are AI-assisted reconstructions. Inside the stories, archival art and documentary photographs carry individual credits, dates and reuse licences. Related videos remain the work of their credited creators. We distinguish published evidence, practical starting protocols and editorial interpretation; no field reporting or hands-on tests are implied.</p><a href={`${base}testing/`}>Our editorial methodology →</a></div>
- </div>
+ </div>}
  <div data-readers>
- {stories.map((story,index)=><article class="journal-reader" id={story.id} data-reader={story.id} hidden aria-label={story.title}>
-  <header class="reader-bar"><button type="button" data-return>← All stories</button><span>Coffeedant <b>Journal</b></span><span>{story.number} / 10</span>{embedded && <button type="button" data-close-journal aria-label="Close Journal">×</button>}<div class="reader-progress" aria-hidden="true"><i></i></div></header>
+ {visibleStories.map((story)=><article class="journal-reader" id={story.id} data-reader={story.id} hidden={embedded} aria-label={story.title}>
+  <header class="reader-bar"><a href={href('/journal/')} data-return>← All stories</a><span>Coffeedant <b>Journal</b></span><span>{story.category} / {story.number}</span>{embedded && <button type="button" data-close-journal aria-label="Close Journal">×</button>}<div class="reader-progress" aria-hidden="true"><i></i></div></header>
   <div class="reader-hero"><img src={image(story.hero)} alt={story.heroAlt} width="1536" height="1024" loading="lazy"/><div class="reader-hero-shade"></div><div class="reader-hero-copy"><p class="journal-label">{story.eyebrow}</p><h1 tabindex="-1">{story.title}</h1><p>{story.dek}</p><div class="reader-meta">{story.category} · {story.minutes} min read · 13 October 2026</div></div></div>
   <p class="reader-caption">{story.heroCaption}</p>
   <div class="reader-layout"><aside class="reader-rail"><span class="journal-label">Inside the story</span><nav aria-label={`Chapters in ${story.title}`}>{story.sections.map((section,i)=><button type="button" data-chapter={`${story.id}-${section.id}`}><span>{String(i+1).padStart(2,'0')}</span>{section.title}</button>)}<button type="button" data-chapter={`${story.id}-sources`}><span>↗</span>Sources & method</button></nav><p>Coffeedant editorial desk<br/><time datetime="2026-10-13">Published 13 October 2026</time></p><button type="button" data-print>Print this story ↗</button></aside>
@@ -30,12 +37,12 @@ const image = (hero:string) => `${base}journal/${hero}.webp`;
     <aside class="reader-takeaway"><span class="journal-label">Carry this into your next cup</span><p>{story.takeaway}</p></aside>
     <section class="reader-faq"><h2>A few good questions.</h2>{story.faqs.map(f=><div><h3>{f.q}</h3><p>{f.a}</p></div>)}</section>
     <section id={`${story.id}-sources`} class="reader-sources"><span class="journal-label">Evidence / method</span><h2>Follow the sources.</h2><p>This research-led article draws on the sources below. Editorial interpretation is identified in the text. {story.category==='Brew Lab'?'Brewing quantities are suggested starting protocols, rather than Coffeedant laboratory measurements.':'Dates, geographic scope and research limitations are kept alongside the claims they qualify.'}</p><ol>{story.sources.map(source=><li><a href={source.url} target="_blank" rel="noopener noreferrer">{source.title} ↗</a><p>{source.note}</p></li>)}</ol><p>Sources checked 13 October 2026. Illustrated covers and original schematics: Coffeedant. Additional images and videos are individually credited above.</p></section>
-    <section class="reader-related"><span class="journal-label">Continue exploring</span>{stories.filter(s=>story.related.includes(s.id)).map(s=><button type="button" data-story={s.id}><span>{s.category}</span><strong>{s.title}</strong><b aria-hidden="true">→</b></button>)}{!story.related.includes(stories[(index+1)%stories.length].id)&&<button type="button" data-story={stories[(index+1)%stories.length].id}><span>Next in the issue</span><strong>{stories[(index+1)%stories.length].title}</strong><b aria-hidden="true">→</b></button>}</section>
+    <section class="reader-related"><span class="journal-label">Continue exploring</span>{stories.filter(s=>story.related.includes(s.id)).map(s=><a href={href(storyPath(s.id))} data-story={s.id}><span>{s.category}</span><strong>{s.title}</strong><b aria-hidden="true">→</b></a>)}{!story.related.includes(stories[(stories.findIndex(s=>s.id===story.id)+1)%stories.length].id)&&<a href={href(storyPath(stories[(stories.findIndex(s=>s.id===story.id)+1)%stories.length].id))} data-story={stories[(stories.findIndex(s=>s.id===story.id)+1)%stories.length].id}><span>Next in the issue</span><strong>{stories[(stories.findIndex(s=>s.id===story.id)+1)%stories.length].title}</strong><b aria-hidden="true">→</b></a>}</section>
    </div>
   </div>
  </article>)}
  </div>
- <noscript><style>.journal-reader[hidden]{display:block!important}.journal-grid,.journal-toolbar,.journal-cover{display:none!important}</style><p>JavaScript is unavailable. All ten stories follow below in full.</p></noscript>
+ {embedded && <noscript><p>Open the <a href={href('/journal/')}>Journal library</a> to read every story and guide on its own page.</p></noscript>}
 </div>
 <script>
  import interfaceDefaults from '../../../localization/interface.json';
@@ -48,25 +55,26 @@ const image = (hero:string) => `${base}journal/${hero}.webp`;
   journalUi[key].replace(/\{([a-z]+)\}/g, (token, name) => String(values[name] ?? token));
  document.querySelectorAll<HTMLElement>('[data-journal]').forEach(root=>{
   if(root.dataset.ready) return;root.dataset.ready='true';
-  const library=root.querySelector<HTMLElement>('[data-library]')!;
+  const library=root.querySelector<HTMLElement>('[data-library]');
   const readers=[...root.querySelectorAll<HTMLElement>('[data-reader]')];
   const dialog=root.closest<HTMLDialogElement>('dialog');
-  let active:HTMLElement|null=null;let origin:HTMLElement|null=null;let libraryScroll=0;let timer:ReturnType<typeof setInterval>|null=null;let brewStep=-1;
+  let active:HTMLElement|null=root.querySelector<HTMLElement>('[data-reader]:not([hidden])');let origin:HTMLElement|null=null;let libraryScroll=0;let timer:ReturnType<typeof setInterval>|null=null;let brewStep=-1;
   const scrollSurface=()=>dialog??window;
   const stopAnimation=()=>{if(timer)clearInterval(timer);timer=null;root.querySelectorAll('[data-brew-play]').forEach(b=>{b.setAttribute('aria-pressed','false');b.textContent=journalMessage('journalPlay');});};
   const openStory=(id:string,trigger?:HTMLElement)=>{
    const next=readers.find(r=>r.dataset.reader===id);if(!next)return;
    if(!active){libraryScroll=dialog?dialog.scrollTop:window.scrollY;origin=trigger??null;}
-   stopAnimation();stopMedia();readers.forEach(r=>r.hidden=true);library.hidden=true;next.hidden=false;active=next;scrollSurface().scrollTo({top:0,behavior:'instant' as ScrollBehavior});next.querySelector<HTMLElement>('h1')?.focus({preventScroll:true});root.dispatchEvent(new CustomEvent('journal:story',{detail:{id}}));updateProgress();
+   stopAnimation();stopMedia();readers.forEach(r=>r.hidden=true);if(library)library.hidden=true;next.hidden=false;active=next;scrollSurface().scrollTo({top:0,behavior:'instant' as ScrollBehavior});next.querySelector<HTMLElement>('h1')?.focus({preventScroll:true});root.dispatchEvent(new CustomEvent('journal:story',{detail:{id}}));updateProgress();
   };
-  const returnLibrary=()=>{stopAnimation();stopMedia();readers.forEach(r=>r.hidden=true);library.hidden=false;active=null;scrollSurface().scrollTo({top:libraryScroll,behavior:'instant' as ScrollBehavior});origin?.focus({preventScroll:true});};
+  const returnLibrary=()=>{stopAnimation();stopMedia();readers.forEach(r=>r.hidden=true);if(library)library.hidden=false;active=null;scrollSurface().scrollTo({top:libraryScroll,behavior:'instant' as ScrollBehavior});origin?.focus({preventScroll:true});};
   const resetFilm=(film:HTMLElement)=>{film.querySelector('iframe')?.remove();const poster=film.querySelector<HTMLElement>('[data-play-journal-video]');if(poster)poster.hidden=false;const close=film.querySelector<HTMLElement>('[data-stop-journal-video]');if(close)close.hidden=true;};
   const stopMedia=()=>{root.querySelectorAll<HTMLElement>('[data-journal-video]').forEach(resetFilm);root.querySelectorAll<HTMLVideoElement>('video').forEach(video=>video.pause());};
+  window.addEventListener('pagehide',()=>{stopAnimation();stopMedia();});
   function updateProgress(){if(!active)return;const top=active.getBoundingClientRect().top-(dialog?dialog.getBoundingClientRect().top:0);const height=(dialog?dialog.clientHeight:window.innerHeight);const denominator=active.offsetHeight-height;const pct=denominator>0?Math.max(0,Math.min(1,-top/denominator)):1;const bar=active.querySelector<HTMLElement>('.reader-progress i');if(bar)bar.style.width=`${pct*100}%`;}
   scrollSurface().addEventListener('scroll',updateProgress,{passive:true});window.addEventListener('resize',updateProgress);
-  root.addEventListener('click',event=>{const target=(event.target as Element).closest<HTMLElement>('button');if(!target)return;
-   if(target.dataset.story)openStory(target.dataset.story,target);
-   if(target.hasAttribute('data-return'))returnLibrary();
+  root.addEventListener('click',event=>{const target=(event.target as Element).closest<HTMLElement>('button,a');if(!target)return;
+   if(target.dataset.story&&dialog&&!event.defaultPrevented&&event instanceof MouseEvent&&!event.ctrlKey&&!event.metaKey&&!event.shiftKey&&!event.altKey){event.preventDefault();openStory(target.dataset.story,target);}
+   if(target.hasAttribute('data-return')&&dialog){event.preventDefault();returnLibrary();}
    if(target.hasAttribute('data-close-journal')){stopAnimation();dialog?.close();}
    if(target.dataset.chapter){const section=document.getElementById(target.dataset.chapter);section?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});}
    if(target.hasAttribute('data-print'))window.print();
@@ -75,12 +83,15 @@ const image = (hero:string) => `${base}journal/${hero}.webp`;
    if(target.dataset.routeEra){const visual=target.closest('[data-visual]')!;visual.querySelectorAll('[data-route-era]').forEach(b=>b.setAttribute('aria-pressed',String(b===target)));visual.querySelector('.route-note')!.textContent=journalMessage(target.dataset.routeEra==='sixteenth'?'journalRouteSixteenth':'journalRouteSeventeenth');}
    if(target.hasAttribute('data-brew-play')){const visual=target.closest('[data-visual]')!;const advance=()=>{brewStep=(brewStep+1)%4;visual.querySelectorAll<HTMLElement>('[data-brew-step]').forEach((step,i)=>{step.classList.toggle('active',i===brewStep);if(i===brewStep)visual.querySelector('[data-brew-status]')!.textContent=step.textContent;});};if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){advance();target.textContent=journalMessage('journalStep');return;}if(timer){stopAnimation();return;}advance();timer=setInterval(advance,1800);target.textContent=journalMessage('journalPause');target.setAttribute('aria-pressed','true');}
   });
-  const filter=()=>{const category=root.querySelector<HTMLElement>('[data-filter][aria-pressed="true"]')?.dataset.filter??'All stories';const term=(root.querySelector<HTMLInputElement>('[data-journal-search]')?.value??'').trim().toLowerCase();let count=0;root.querySelectorAll<HTMLElement>('.journal-card').forEach(card=>{card.hidden=!(category==='All stories'||card.dataset.category===category)||!(card.dataset.search??'').toLowerCase().includes(term);if(!card.hidden)count++;});root.querySelector('[data-result-count]')!.textContent=journalMessage(count===1?'journalShowOne':'journalShowMany',{count});root.querySelector<HTMLElement>('[data-empty]')!.hidden=count!==0;};
+  const filter=()=>{if(!library)return;const category=root.querySelector<HTMLElement>('[data-filter][aria-pressed="true"]')?.dataset.filter??'All stories';const term=(root.querySelector<HTMLInputElement>('[data-journal-search]')?.value??'').trim().toLowerCase();let count=0;root.querySelectorAll<HTMLElement>('.journal-card').forEach(card=>{card.hidden=!(category==='All stories'||card.dataset.category===category)||!(card.dataset.search??'').toLowerCase().includes(term);if(!card.hidden)count++;});root.querySelector('[data-result-count]')!.textContent=journalMessage(count===1?'journalShowOne':'journalShowMany',{count});root.querySelector<HTMLElement>('[data-empty]')!.hidden=count!==0;};
   root.querySelectorAll<HTMLButtonElement>('[data-filter]').forEach(button=>button.addEventListener('click',()=>{root.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));filter();}));root.querySelector('[data-journal-search]')?.addEventListener('input',filter);
   root.querySelectorAll<HTMLElement>('[data-visual="americano"]').forEach(visual=>{const update=()=>{const dose=Number(visual.querySelector<HTMLInputElement>('[data-dose]')!.value);const ratio=Number(visual.querySelector<HTMLInputElement>('[data-dilution]')!.value);visual.querySelector('[data-dose-output]')!.textContent=String(dose);visual.querySelector('[data-ratio-output]')!.textContent=`1 : ${ratio}`;visual.querySelector('[data-recipe]')!.textContent=journalMessage('journalRecipe',{dose,espresso:dose*2,water:dose*2*ratio});visual.querySelector('[data-total]')!.textContent=journalMessage('journalTotal',{total:dose*2*(1+ratio)});};visual.querySelectorAll('input').forEach(input=>input.addEventListener('input',update));});
   root.querySelectorAll<HTMLElement>('[data-visual="water"]').forEach(visual=>{const update=()=>{const buffer=visual.querySelector<HTMLSelectElement>('[data-water-buffer]')!.value;const hardness=visual.querySelector<HTMLSelectElement>('[data-water-hardness]')!.value;visual.querySelector('[data-water-result]')!.textContent=journalMessage('journalWater',{buffer:journalMessage(buffer==='high'?'journalMore':'journalLess'),hardness:journalMessage(hardness==='high'?'journalHigher':'journalLower')});};visual.querySelectorAll('select').forEach(select=>select.addEventListener('change',update));});
   dialog?.addEventListener('close',()=>{stopAnimation();document.body.classList.remove('journal-modal-open');returnLibrary();});
-  root.addEventListener('keydown',event=>{if(event.key==='Escape'&&active&&!dialog){returnLibrary();event.preventDefault();}});
+  updateProgress();
+  if(library){const category=new URLSearchParams(location.search).get('category');if(category){const button=[...root.querySelectorAll<HTMLButtonElement>('[data-filter]')].find(b=>b.dataset.filter===category);button?.click();}}
  });
+ const oldStory=location.pathname.replace(/\/?$/,'/').endsWith('/journal/')?location.hash.slice(1):'';
+ const legacyLink=[...document.querySelectorAll<HTMLAnchorElement>('.journal-card[data-story]')].find(link=>link.dataset.story===oldStory);if(legacyLink)location.replace(legacyLink.href);
  document.querySelectorAll<HTMLButtonElement>('[data-open-journal]').forEach(button=>button.addEventListener('click',()=>{const dialog=document.querySelector<HTMLDialogElement>('#coffeedant-journal');if(!dialog)return;dialog.showModal();document.body.classList.add('journal-modal-open');dialog.scrollTop=0;dialog.querySelector<HTMLElement>('.journal-intro h1')?.focus({preventScroll:true});}));
 </script>

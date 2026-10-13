@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parse } from 'parse5';
+import {journalDestination} from './migrate-journal-links.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.join(root, 'dist');
@@ -23,7 +24,7 @@ const routes = [...migration.batches.flat().filter((route) => (
   !(productPattern.test(route) && !buyingGuides.has(route))
   && !buyingGuides.has(route)
   && !/^\/blog\/[^/]+\/$/.test(route)
-)), '/coffee-beans/'];
+)), '/coffee-beans/'].map(journalDestination);
 
 const attr = (node, name) => node?.attrs?.find((item) => item.name === name)?.value ?? '';
 const descendants = (node, output = []) => {
@@ -78,4 +79,3 @@ for (const route of routes) {
 }
 console.log(`Result: ${failed ? 'FAIL' : 'PASS'}`);
 if (failed) process.exitCode = 1;
-

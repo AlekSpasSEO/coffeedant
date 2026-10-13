@@ -3,6 +3,7 @@ import HomeLayout from '../../layouts/HomeLayout.astro';
 import CoffeeFinder from '../CoffeeFinder.astro';
 import '../../styles/review.css';
 import { beginnerGuide } from '../../data/beginner-guide';
+import {journalPath} from '../../lib/journal-routes';
 
 const guide = Astro.props.guide ?? beginnerGuide;
 const isBuiltIn = guide.canonicalPath === '/espresso-machine/built-in-grinder/';
@@ -12,7 +13,8 @@ const isProsumer = guide.canonicalPath === '/espresso-machine/prosumer-under-100
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const assetUrl = (path: string) => /^https?:\/\//i.test(path) ? path : `${base}${path.replace(/^\//, '')}`;
 const pageUrl = (path: string) => `${base}${path.replace(/^\//, '')}`;
-const canonical = new URL(guide.canonicalPath.replace(/^\//, ''), 'https://coffeedant.com/').toString();
+const canonicalPath = journalPath(guide.canonicalPath);
+const canonical = new URL(canonicalPath.replace(/^\//, ''), 'https://coffeedant.com/').toString();
 const formatDate = (date: string, short = false) => new Intl.DateTimeFormat('en-US', {
   month: short ? 'short' : 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC',
 }).format(new Date(`${date}T00:00:00Z`));
@@ -43,7 +45,7 @@ const schema = {
     {
       '@type': 'BreadcrumbList', itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://coffeedant.com/' },
-        { '@type': 'ListItem', position: 2, name: 'Espresso machines', item: 'https://coffeedant.com/espresso-machine/' },
+        { '@type': 'ListItem', position: 2, name: 'Journal', item: 'https://coffeedant.com/journal/' },
         { '@type': 'ListItem', position: 3, name: isBuiltIn ? 'Machines with grinders' : isBudget ? 'Machines under $500' : isProsumer ? 'Prosumer machines under $1,000' : 'Machines for beginners', item: canonical },
       ],
     },
@@ -98,7 +100,7 @@ const labels = guide.labels ?? defaultLabels;
 <HomeLayout
   title={`${guide.title} | Coffeedant`}
   description={guide.description}
-  canonicalPath={guide.canonicalPath}
+  canonicalPath={canonicalPath}
   image={guide.media[0].src}
   imageAlt={guide.media[0].alt}
   ogType="article"
@@ -109,7 +111,7 @@ const labels = guide.labels ?? defaultLabels;
     <div class="review-shell">
       <nav class="review-breadcrumbs" aria-label="Breadcrumb">
         <a href={base}>Home</a><span aria-hidden="true">/</span>
-        <a href={`${base}espresso-machine/`}>Espresso machines</a><span aria-hidden="true">/</span>
+        <a href={`${base}journal/`}>Journal</a><span aria-hidden="true">/</span>
         <span aria-current="page">{labels.breadcrumb}</span>
       </nav>
 
@@ -253,6 +255,7 @@ const labels = guide.labels ?? defaultLabels;
   .guide-picks p { font-size: .86rem; }
   .guide-picks b { display: block; margin-top: 14px; color: var(--green); }
   @media (max-width: 760px) {
+    .review-jumpbar { margin-inline: 0; max-width: 100%; }
     .guide-hero, .machine-guide-grid { grid-template-columns: 1fr; }
     .guide-hero { padding: 24px 18px; box-shadow: 4px 4px 0 var(--ink); }
     .guide-hero h1 { overflow-wrap: anywhere; }
@@ -260,4 +263,3 @@ const labels = guide.labels ?? defaultLabels;
     .principle-grid, .guide-picks { grid-template-columns: 1fr; }
   }
 </style>
-

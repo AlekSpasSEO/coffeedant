@@ -6,6 +6,7 @@ import b from '../data/pages-b.json';
 import { brands } from '../data/catalog';
 import { modernReviewSlugs, modernReviews } from '../data/review-registry';
 import { upgradedBlogPaths } from '../data/blog-articles';
+import {journalRedirects} from '../lib/journal-routes';
 import { isMigratedLegacyPath, migrateLegacyHtml } from '../lib/legacy-content-migration';
 const all = [...a, ...b, ...modernReviews.map((review) => ({ path: review.slug, title: review.title }))];
 export function getStaticPaths(){
@@ -26,7 +27,7 @@ export function getStaticPaths(){
   ]);
   const brandPaths = new Set(brands.map((brand) => brand.path));
   const contentPaths = [...a, ...b]
-    .filter((p) => !reserved.has(p.path) && !brandPaths.has(p.path) && !modernReviewSlugs.has(p.path) && !upgradedBlogPaths.has(p.path))
+    .filter((p) => !reserved.has(p.path) && !brandPaths.has(p.path) && !modernReviewSlugs.has(p.path) && !upgradedBlogPaths.has(p.path) && !journalRedirects[p.path])
     .map((p) => ({
     params: { slug: p.path.replace(/^\/+|\/+$/g, '') },
     props: { page: p },
@@ -86,6 +87,3 @@ const support = page ? supportingMeta[page.path] : undefined;
     </div>
   </Base>
 )}
-
-
-

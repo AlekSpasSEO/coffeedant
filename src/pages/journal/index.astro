@@ -1,19 +1,14 @@
 ---
 import HomeLayout from '../../layouts/HomeLayout.astro';
 import JournalExperience from '../../components/journal/JournalExperience.astro';
-import {stories} from '../../data/journal';
-const base=import.meta.env.BASE_URL.replace(/\/?$/, '/');
-const schema={
- '@context':'https://schema.org',
- '@graph':[
-  {'@type':'CollectionPage','@id':'https://coffeedant.com/journal/','url':'https://coffeedant.com/journal/','name':'Coffeedant Journal — A world in your cup','description':'Ten research-led features on coffee history, emerging culture and practical brewing.','hasPart':stories.map(s=>({'@id':`https://coffeedant.com/journal/#${s.id}`}))},
-  ...stories.map(s=>({'@type':'Article','@id':`https://coffeedant.com/journal/#${s.id}`,'headline':s.title,'description':s.dek,'articleSection':s.category,'datePublished':'2026-10-13','dateModified':'2026-10-13','author':{'@type':'Organization','name':'Coffeedant editorial desk'},'publisher':{'@type':'Organization','name':'Coffeedant','url':'https://coffeedant.com/'},'isPartOf':{'@id':'https://coffeedant.com/journal/'},'image':[`https://coffeedant.com/journal/${s.hero}.webp`,...s.media.images.map(photo=>`https://coffeedant.com/${photo.src}`)],'associatedMedia':s.media.images.map(photo=>({'@type':'ImageObject','contentUrl':`https://coffeedant.com/${photo.src}`,'caption':photo.caption,'creditText':photo.credit,'license':photo.licenseUrl,'acquireLicensePage':photo.sourceUrl})), 'video':s.media.video?{'@id':`https://coffeedant.com/journal/#video-${s.media.video.id}`} : undefined,'citation':[...s.sources.map(source=>source.url),...(s.media.video?[s.media.video.watchUrl]:[])]})),
-  ...stories.filter(s=>s.media.video).map(s=>({'@type':'VideoObject','@id':`https://coffeedant.com/journal/#video-${s.media.video!.id}`,'name':s.media.video!.title,'description':s.media.video!.note,'thumbnailUrl':`https://i.ytimg.com/vi/${s.media.video!.id}/hqdefault.jpg`,'embedUrl':`https://www.youtube-nocookie.com/embed/${s.media.video!.id}`,'contentUrl':s.media.video!.watchUrl,'uploadDate':s.media.video!.published??undefined,'creator':{'@type':'Organization','name':s.media.video!.creator,'url':s.media.video!.creatorUrl}})),
-  {'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':'Coffeedant','item':'https://coffeedant.com/'},{'@type':'ListItem','position':2,'name':'Journal','item':'https://coffeedant.com/journal/'}]}
- ]
-};
+import {journalEntries} from '../../data/journal-catalog';
+const schema={'@context':'https://schema.org','@graph':[
+ {'@type':'CollectionPage','@id':'https://coffeedant.com/journal/',url:'https://coffeedant.com/journal/',name:'Coffeedant Journal — Stories, knowledge and guides',description:'Explore coffee history, culture, brewing knowledge and research-led equipment guides.',hasPart:journalEntries.map(entry=>({'@id':`https://coffeedant.com${entry.path}`}))},
+ {'@type':'ItemList',numberOfItems:journalEntries.length,itemListElement:journalEntries.map((entry,index)=>({'@type':'ListItem',position:index+1,name:entry.title,url:`https://coffeedant.com${entry.path}`}))},
+ {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Coffeedant',item:'https://coffeedant.com/'},{'@type':'ListItem',position:2,name:'Journal',item:'https://coffeedant.com/journal/'}]}
+]};
 ---
-<HomeLayout title="Coffeedant Journal | A World in Your Cup" description="Explore ten deeply researched coffee stories: Ottoman coffeehouses, civet coffee, robusta, decaf, fermentation and visual brewing guides." canonicalPath="/journal/" image="journal/history.webp" imageAlt="Original Coffeedant illustration of an Ottoman coffeehouse">
+<HomeLayout title="Coffeedant Journal | Coffee Stories, Knowledge & Guides" description="Explore 25 coffee features and guides: history, culture, brewing technique, grinders and research-led espresso machine buying advice." canonicalPath="/journal/" image="journal/history.webp" imageAlt="Original Coffeedant illustration of an Ottoman coffeehouse">
  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
  <main id="main-content"><JournalExperience /></main>
 </HomeLayout>

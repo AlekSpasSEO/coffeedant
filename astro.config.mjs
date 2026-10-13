@@ -1,4 +1,5 @@
 import { defineConfig } from 'astro/config';
+import journalLinks from './scripts/migrate-journal-links.mjs';
 
 const isCloudflarePages = process.env.CF_PAGES === '1';
 
@@ -8,5 +9,6 @@ export default defineConfig({
   site: isCloudflarePages ? 'https://coffeedant.com' : 'https://alekspasseo.github.io',
   base: isCloudflarePages ? '/' : '/coffeedant',
   trailingSlash: 'always',
+  integrations: [journalLinks()],
   build: { format: 'directory' },
 });

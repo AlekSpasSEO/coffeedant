@@ -28,7 +28,7 @@ const schema = {
     {
       '@type': 'BreadcrumbList', itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://coffeedant.com/' },
-        { '@type': 'ListItem', position: 2, name: 'Coffee journal', item: 'https://coffeedant.com/blog/' },
+        { '@type': 'ListItem', position: 2, name: 'Coffee journal', item: 'https://coffeedant.com/journal/' },
         { '@type': 'ListItem', position: 3, name: article.title, item: canonical },
       ],
     },
@@ -48,7 +48,7 @@ const schema = {
     <div class="review-shell">
       <nav class="review-breadcrumbs" aria-label="Breadcrumb">
         <a href={base}>Home</a><span aria-hidden="true">/</span>
-        <a href={`${base}blog/`}>Coffee journal</a><span aria-hidden="true">/</span>
+        <a href={`${base}journal/`}>Coffee journal</a><span aria-hidden="true">/</span>
         <span aria-current="page">{article.category}</span>
       </nav>
 
@@ -117,7 +117,7 @@ const schema = {
         </section>
       </article>
 
-      <footer class="review-meta-footer"><span>Published <time datetime={article.published}>{formatDate(article.published)}</time></span><span>Updated <time datetime={article.updated}>{formatDate(article.updated)}</time></span><a href={`${base}blog/`}>Browse the coffee journal</a></footer>
+      <footer class="review-meta-footer"><span>Published <time datetime={article.published}>{formatDate(article.published)}</time></span><span>Updated <time datetime={article.updated}>{formatDate(article.updated)}</time></span><a href={`${base}journal/`}>Browse the coffee journal</a></footer>
     </div>
   </main>
   <script is:inline type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />
@@ -150,10 +150,10 @@ const schema = {
   .article-prose :global(.article-lab-note) { margin-block: 46px; padding: 26px; border-left: 6px solid var(--green); background: var(--white); }
   .article-prose :global(.article-lab-note h2) { margin-top: 4px; }
   @media (max-width: 760px) {
+    .review-jumpbar { margin-inline: 0; max-width: 100%; }
     .article-hero, .article-visuals { grid-template-columns: 1fr; }
     .article-hero { padding: 24px 18px; box-shadow: 4px 4px 0 var(--ink); }
     .article-hero h1 { overflow-wrap: anywhere; }
     .article-prose :global(.article-lab-note) { padding: 20px 16px; }
   }
 </style>
-

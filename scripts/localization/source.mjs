@@ -1,5 +1,6 @@
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
+import {journalRedirects} from '../migrate-journal-links.mjs';
 import { root, htmlFiles, routeFromFile, contentId, parseHtml, walk, attr, detach,
   slots, jsonSlots, textContent, segmentId, digest, policyHash, interfaceSource, readJson, writeJson } from './core.mjs';
 
@@ -35,6 +36,7 @@ export const collectSource = async (directory = path.join(root, 'dist')) => {
   const pages = [];
   for (const file of await htmlFiles(directory)) {
     const sourcePath = routeFromFile(file, directory);
+    if(journalRedirects[sourcePath])continue; // Redirects are not translation/content pages.
     const document = prepareRegionalDocument(parseHtml(await readFile(file, 'utf8')));
     const pageSlots = [...slots(document), ...documentJson(document).flatMap(({ value }) => jsonSlots(value))];
     pageSlots.forEach(add);

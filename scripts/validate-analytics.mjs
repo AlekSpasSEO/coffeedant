@@ -4,6 +4,7 @@ import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
 import { parse } from 'parse5';
+import {journalRedirects} from './migrate-journal-links.mjs';
 
 const dist = fileURLToPath(new URL('../dist/', import.meta.url));
 const files = (directory) => fs.readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
@@ -13,9 +14,18 @@ const files = (directory) => fs.readdirSync(directory, { withFileTypes: true }).
 const descendants = (node) => [node, ...(node.childNodes ?? []).flatMap(descendants)];
 const attr = (node, name) => node.attrs?.find((a) => a.name === name)?.value;
 const htmlFiles = files(dist);
+let redirectCount=0;
 let bootstrap;
 for (const file of htmlFiles) {
   const nodes = descendants(parse(fs.readFileSync(file, 'utf8')));
+  const route=`/${path.relative(dist,path.dirname(file)).split(path.sep).join('/')}/`;
+  if(journalRedirects[route]){
+    const refresh=nodes.find(n=>n.tagName==='meta'&&attr(n,'http-equiv')==='refresh');
+    assert(refresh,`${file}: expected redirect fallback`);
+    assert(attr(refresh,'content').endsWith(journalRedirects[route]),`${file}: wrong redirect target`);
+    assert(nodes.some(n=>n.tagName==='meta'&&attr(n,'name')==='robots'&&attr(n,'content')==='noindex'));
+    redirectCount++;continue;
+  }
   const tags = nodes.filter((n) => n.tagName === 'script' && attr(n, 'id') === 'coffeedant-ga4-bootstrap');
   assert.equal(tags.length, 1, `${file}: must include one shared GA4 bootstrap`);
   assert.equal(attr(tags[0], 'data-ga4-id'), 'G-270R14ZHVX');
@@ -98,4 +108,4 @@ for (const hostname of ['br.coffeedant.com', 'ca.coffeedant.com', 'at.coffeedant
   assert.equal(run({ hostname }).appended.length, 0, `${hostname}: no analytics before opt-in`);
 }
 assert.equal(run({ hostname: 'unregistered.coffeedant.com', choice: 'granted' }).appended.length, 0);
-console.log(`Verified GA4 coverage on ${htmlFiles.length} pages, consent/withdrawal, GPC, storage failures and preview exclusion.`);
+console.log(`Verified GA4 coverage on ${htmlFiles.length-redirectCount} content pages and ${redirectCount} noindex redirect fallbacks, consent/withdrawal, GPC, storage failures and preview exclusion.`);

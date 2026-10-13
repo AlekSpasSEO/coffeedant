@@ -2,12 +2,13 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parse } from 'parse5';
+import {journalDestination} from './migrate-journal-links.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.join(root, 'dist');
 const migrationBatches = JSON.parse(fs.readFileSync(path.join(root, 'src/data/review-migration-batches.json'), 'utf8'));
-const migratedPaths = migrationBatches.batches.flat();
-const migratedLegacyPaths = migrationBatches.batches.slice(2).flat();
+const migratedPaths = [...new Set(migrationBatches.batches.flat().map(journalDestination))];
+const migratedLegacyPaths = [...new Set(migrationBatches.batches.slice(2).flat().map(journalDestination))];
 const errors = [];
 const reports = [];
 
