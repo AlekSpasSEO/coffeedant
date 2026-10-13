@@ -7,6 +7,8 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.join(root, 'dist');
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'src/data/review-batch-manifest.json'), 'utf8'));
 const expectedSlugs = new Set([...manifest.map((review) => review.slug), '/espresso-machine/breville-bambino/']);
+const beanManifest = JSON.parse(fs.readFileSync(path.join(root, 'src/data/bean-review-manifest.json'), 'utf8'));
+const expectedBeanSlugs = new Set(beanManifest.map((review) => review.slug));
 const attribute = (node, name) => node.attrs?.find((attr) => attr.name === name)?.value;
 const descendants = (node) => [node, ...(node.childNodes ?? []).flatMap(descendants)];
 const files = (directory) => fs.readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
@@ -28,6 +30,12 @@ for (const file of files(dist)) {
   const slug = `/${path.relative(dist, path.dirname(file)).split(path.sep).join('/')}/`;
   seen.add(slug);
   const fail = (message) => errors.push(`${slug}: ${message}`);
+  if (expectedBeanSlugs.has(slug)) {
+    if (banners.length) fail('bean review unexpectedly contains Amazon product banners');
+    const ids = nodes.map((node) => attribute(node, 'id')).filter(Boolean);
+    if (new Set(ids).size !== ids.length) fail('duplicate page IDs');
+    continue;
+  }
   if (!expectedSlugs.has(slug)) fail('unexpected product review');
   if (banners.length !== 3) fail(`expected 3 banners, found ${banners.length}`);
   if (new Set(banners.map((banner) => attribute(banner, 'data-amazon-recommendation'))).size !== 3) fail('duplicate banner placement');
@@ -55,8 +63,9 @@ for (const file of files(dist)) {
   families[family] = (families[family] ?? 0) + 1;
 }
 for (const slug of expectedSlugs) if (!seen.has(slug)) errors.push(`${slug}: review missing from build`);
+for (const slug of expectedBeanSlugs) if (!seen.has(slug)) errors.push(`${slug}: bean review missing from build`);
 if (errors.length) {
   console.error(errors.join('\n'));
   process.exit(1);
 }
-console.log(`Verified ${seen.size * 3} Amazon banners across ${seen.size} product reviews: ${JSON.stringify(families)}.`);
+console.log(`Verified ${expectedSlugs.size * 3} Amazon banners across ${expectedSlugs.size} gear reviews and ${expectedBeanSlugs.size} banner-free bean reviews: ${JSON.stringify(families)}.`);

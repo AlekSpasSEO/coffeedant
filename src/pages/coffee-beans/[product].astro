@@ -1,0 +1,12 @@
+---
+import HomeLayout from '../../layouts/HomeLayout.astro';
+import BeanReview from '../../components/reviews/BeanReview.astro';
+import { beanReviews, type BeanReviewData } from '../../data/bean-reviews';
+import '../../styles/review.css';
+import '../../styles/beans.css';
+export function getStaticPaths() { return beanReviews.map((review) => ({ params: { product: review.slug.split('/').filter(Boolean).at(-1) }, props: { review } })); }
+const { review } = Astro.props as { review: BeanReviewData };
+---
+<HomeLayout title={`${review.title} | Coffeedant`} description={review.description} canonicalPath={review.slug} image={review.image} imageAlt={review.imageAlt} ogType="article" published={review.published} updated={review.updated}>
+  <BeanReview review={review} />
+</HomeLayout>

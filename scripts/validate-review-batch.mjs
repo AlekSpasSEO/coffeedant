@@ -10,6 +10,7 @@ const legacyPages = [
   ...JSON.parse(fs.readFileSync(path.join(root, 'src/data/pages-a.json'), 'utf8')),
   ...JSON.parse(fs.readFileSync(path.join(root, 'src/data/pages-b.json'), 'utf8')),
 ];
+const migratedPaths = new Set(JSON.parse(fs.readFileSync(path.join(root, 'src/data/review-migration-batches.json'), 'utf8')).batches.flat());
 const sitemap = fs.readFileSync(path.join(root, 'public/sitemap.xml'), 'utf8');
 const robots = fs.readFileSync(path.join(root, 'public/robots.txt'), 'utf8');
 const minimumReviewCount = 20;
@@ -112,7 +113,9 @@ for (const item of manifest) {
     fail(item.slug, `malformed product ID ${item.productId}`);
   }
   const legacyMatches = legacyPages.filter((page) => page.path === item.slug).length;
-  if (legacyMatches !== 1) fail(item.slug, `expected one matching legacy route, found ${legacyMatches}`);
+  if (legacyMatches > 1 || (migratedPaths.has(item.slug) && legacyMatches !== 1)) {
+    fail(item.slug, `expected ${migratedPaths.has(item.slug) ? 'one' : 'no more than one'} matching legacy route, found ${legacyMatches}`);
+  }
 }
 
 const sitemapEntries = [...sitemap.matchAll(/<url>\s*<loc>([^<]+)<\/loc>\s*<lastmod>([^<]+)<\/lastmod>\s*<\/url>/g)]
