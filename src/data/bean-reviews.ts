@@ -1,8 +1,11 @@
+import expandedBeanReviews from './expanded-bean-reviews.json';
+
 export type BeanReviewData = {
   slug: string; productId: string; roaster: string; coffee: string; title: string; description: string;
   image: string; imageAlt: string; imageCredit: string; imageSource: string;
   published: string; updated: string; market: string; price: string; priceChecked: string;
   officialUrl: string; verdict: string; bestFor: string[]; skipIf: string[];
+  authorNote?: string; methodology?: string[]; finalTitle?: string; finalVerdict?: string;
   facts: { label: string; value: string }[];
   sections: { id: string; title: string; paragraphs: string[] }[];
   alternatives: { title: string; reason: string; href: string; internal?: boolean }[];
@@ -83,6 +86,6 @@ export const beanReviews: BeanReviewData[] = [{
     { id: 's6', title: 'Counter Culture Big Trouble', href: 'https://counterculturecoffee.com/products/big-trouble', note: 'Roaster listing for an alternative flavor direction; confirm current details at purchase.', checked: '2026-10-13' },
     { id: 's7', title: 'Counter Culture Apollo', href: 'https://counterculturecoffee.com/products/apollo', note: 'Roaster listing for an alternative flavor direction; confirm current details at purchase.', checked: '2026-10-13' },
   ],
-}];
+}, ...(expandedBeanReviews as BeanReviewData[])];
 
 export const getBeanReview = (slug: string) => beanReviews.find((review) => review.slug === slug);
