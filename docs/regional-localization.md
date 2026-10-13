@@ -52,6 +52,60 @@ No common Latin American currency or electrical standard is assumed.
   unauthenticated translation requests return 401 without invoking the model.
   No Cloudflare API token or additional translation secret is copied into GitHub.
 
+## Direct translation rollout and first Dutch review (2026-10-13)
+
+The user selected full Netherlands Dutch, Germany German and France French
+editions for direct translation by Codex. This is substantial unfinished work,
+not a declaration that the three editions have been translated or deployed.
+The current canonical source has 210 pages; counts can change as authors publish.
+
+The first complete Dutch page is the espresso-dosing guide:
+`https://nl.coffeedant.com/journal/espresso-doseren/`.
+Its full body, practical checks, FAQs (including Answer.text in JSON-LD), source
+labels, navigation, metadata, accessible labels and shared interface are directly
+authored in `localization/authored/nl-espresso-dosing.json`. The immutable
+`espresso-dosing.source.json` snapshot freezes 534 source slots. Only explicitly
+approved brand/model names and conventional labels remain verbatim. The normal
+`nl.json` cache retains direct-authoring provenance and reuses passing text.
+
+`coffeedant-nl-review` is an isolated temporary Worker, with a Cloudflare-managed
+custom domain/TLS binding for `nl.coffeedant.com`. It serves only this reviewed
+page, a root redirect, bundled CSS/JS and referenced images, robots.txt
+and an explicitly scoped preview manifest. Other pages return 404, not English
+content posing as Dutch. Navigation to untranslated pages deliberately opens
+the US source, explained by a Dutch notice. Analytics is removed, all responses
+carry noindex/nofollow, and robots.txt disallows crawling. This is a language
+review preview, not the full Dutch production edition. Germany and France
+subdomains have not been connected or published yet.
+
+Reproduce after the US build:
+
+```sh
+node scripts/localization/direct.mjs export /journal/espresso-dosing/ espresso-dosing
+node scripts/localization/direct.mjs import localization/authored/nl-espresso-dosing.json
+node scripts/localization/review.mjs nl /journal/espresso-dosing/
+```
+
+Do not overwrite a frozen snapshot for an existing translation without reviewing
+and reindexing its authored entries; snapshot/hash mismatches are rejected.
+Importing validates every slot, numeric fact, protected identifier and current
+source-page hash before updating the cache. Missing text cannot silently become
+English fallback. Only noindex reviews may select a subset of pages; the full
+production build still refuses incomplete translation coverage.
+
+Remaining rollout: obtain feedback on this first page; translate all remaining
+NL pages, Finder descriptions, home/supporting pages and stable localized routes;
+then complete DE and FR the same way. Preserve source evidence and verify any
+regional changes separately. Dollar prices and Fahrenheit temperatures on this
+review remain explicitly identified source-market data, not Dutch offers.
+Regional retailer/affiliate records and factual adaptation still need verification.
+Prepare and test each complete Pages edition before making it indexable. At NL
+production cutover, replace the temporary Workers custom-domain binding with the
+Pages project association/DNS; do not modify the US apex or www. Keep this review
+URL as the permanent translated route. Existing automatic content translation
+continues separately under its provider's quota; direct authoring is not an
+unlimited unattended background service.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

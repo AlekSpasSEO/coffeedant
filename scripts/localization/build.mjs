@@ -103,7 +103,17 @@ export const buildRegional = async (editionId, options = {}) => {
   if (edition.id === 'us') throw new Error('Use the normal build for US');
   if (!edition.published && !options.preview) throw new Error(`${edition.host} is not approved for public release; build with --preview for QA`);
   const directory = options.sourceDirectory ?? path.join(root, 'dist');
-  const source = options.source ?? await collectSource(directory);
+  let source = options.source ?? await collectSource(directory);
+  if (options.reviewPages) {
+    if (!options.preview || !Array.isArray(options.reviewPages) || !options.reviewPages.length) throw new Error('Scoped builds are allowed only for noindex editorial review');
+    const pages = source.pages.filter(({ sourcePath }) => options.reviewPages.includes(sourcePath));
+    if (pages.length !== new Set(options.reviewPages).size) throw new Error('Unknown review page');
+    const ids = new Set(pages.flatMap(({ segments }) => segments));
+    const includeFinder = pages.some(({ segments }) => source.finderSegments.some((id) => segments.includes(id)))
+      || (await Promise.all(pages.map(async ({ file }) => (await readFile(path.join(directory, file), 'utf8')).includes('data-coffee-finder')))).some(Boolean);
+    if (includeFinder) for (const id of source.finderSegments) ids.add(id);
+    source = { ...source, pages, segments: source.segments.filter(({ id, kind }) => ids.has(id) || kind === 'interface'), finderSegments: includeFinder ? source.finderSegments : [] };
+  }
   const cache = options.cache ?? await loadCache(edition.id);
   const routes = validatedRoutes(source, cache);
   const ui = localizedInterface(cache);
@@ -126,10 +136,15 @@ export const buildRegional = async (editionId, options = {}) => {
     setAttr(walk(document).find((node) => node.tagName === 'html'), 'lang', edition.locale);
     for (const node of walk(document)) {
       for (const entry of node.attrs ?? []) {
-        if (entry.name === 'href') entry.value = rewriteInternalUrl(entry.value, routes, edition);
+        if (entry.name === 'href') {
+          entry.value = rewriteInternalUrl(entry.value, routes, edition);
+          // Review-only pages must not create links to nonexistent translations.
+          if (options.reviewPages && node.tagName === 'a' && entry.value.startsWith('/') && !entry.value.startsWith('//')) entry.value = `${sourceOrigin}${entry.value}`;
+        }
         if (entry.name === 'data-exclude-path') entry.value = routes.get(entry.value) ?? entry.value;
         if (node.tagName === 'link' && attr(node, 'rel') === 'canonical' && entry.name === 'href') entry.value = `https://${edition.host}${routes.get(page.sourcePath)}`;
         if (node.tagName === 'meta' && attr(node, 'property') === 'og:url' && entry.name === 'content') entry.value = `https://${edition.host}${routes.get(page.sourcePath)}`;
+        if (node.tagName === 'meta' && attr(node, 'property') === 'og:locale' && entry.name === 'content') entry.value = edition.locale.replace('-', '_');
       }
       if (node.tagName === 'time' && attr(node, 'datetime')) {
         const date = new Date(attr(node, 'datetime'));
@@ -163,8 +178,10 @@ export const buildRegional = async (editionId, options = {}) => {
   for (const { relative, html } of rendered) {
     const file = path.join(temporary, relative); await mkdir(path.dirname(file), { recursive: true }); await writeFile(file, html);
   }
-  const finder = await readJson(path.join(directory, 'coffee-finder.json'));
-  await writeJson(path.join(temporary, 'coffee-finder.json'), regionalFinder(finder, cache, routes, edition, market, offers));
+  if (!options.reviewPages || source.finderSegments.length) {
+    const finder = await readJson(path.join(directory, 'coffee-finder.json'));
+    await writeJson(path.join(temporary, 'coffee-finder.json'), regionalFinder(finder, cache, routes, edition, market, offers));
+  }
   const urls = source.pages.filter(({ sourcePath }) => sourcePath !== '/404/').map(({ sourcePath }) => `https://${edition.host}${routes.get(sourcePath)}`);
   await writeFile(path.join(temporary, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls.map((url) => `<url><loc>${escape(url)}</loc></url>`).join('')}</urlset>`);
   await writeFile(path.join(temporary, 'robots.txt'), options.preview ? 'User-agent: *\nDisallow: /\n' : `User-agent: *\nAllow: /\nSitemap: https://${edition.host}/sitemap.xml\n`);
@@ -174,7 +191,7 @@ export const buildRegional = async (editionId, options = {}) => {
     const target=routes.get(newPath);if(target&&!new Set(routes.values()).has(oldPath))redirectLines.push(`${oldPath} ${target} 301`);
   }
   await writeFile(path.join(temporary, '_redirects'), `${redirectLines.join('\n')}\n`);
-  await writeJson(path.join(temporary, 'localization-manifest.json'), { edition: edition.id, host: edition.host, locale: edition.locale, policyHash,
+  await writeJson(path.join(temporary, 'localization-manifest.json'), { edition: edition.id, host: edition.host, locale: edition.locale, policyHash, preview: Boolean(options.preview), scope: options.reviewPages ? 'editorial-review' : 'complete-edition',
     pages: source.pages.map((page) => ({ id: page.id, sourcePath: page.sourcePath, path: routes.get(page.sourcePath), sourceHash: page.sourceHash })) });
   const output = path.join(root, 'dist-regional', edition.id);
   if (path.dirname(output) !== path.join(root, 'dist-regional')) throw new Error('Output escaped generated build directory');
