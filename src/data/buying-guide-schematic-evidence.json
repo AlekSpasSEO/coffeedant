@@ -1,0 +1,452 @@
+{
+  "/espresso-machine/breville-bambino/": {
+    "name": "Breville Bambino Plus BES500",
+    "kind": "rapid-heater",
+    "heaterLabel": "ThermoJet rapid heater",
+    "grinder": "separate",
+    "milk": "automatic",
+    "constraint": "Coffee and steam run in sequence; a separate espresso grinder is needed. Automatic or manual milk is available.",
+    "operationalConstraint": "Coffee and steam run in sequence; a separate espresso grinder is needed. Automatic or manual milk is available.",
+    "officialSourceURL": "https://www.breville.com/en-us/product/bes500",
+    "manual": "https://assets.breville.com/BES500/BES500_USCM_IB_Y25_LR.pdf",
+    "reviewPath": "/espresso-machine/breville-bambino/",
+    "image": {
+      "src": "images/products/breville-bambino-plus.png",
+      "alt": "Breville Bambino Plus BES500 product view showing the external controls and preparation area",
+      "credit": "Breville US: Bambino Plus BES500",
+      "source": "https://www.breville.com/en-us/product/bes500"
+    },
+    "checkedOn": "2026-10-13",
+    "evidenceNote": "Primary manufacturer page/manual and existing exact-model Coffeedant evidence ledger. Conceptual operation flow only; not a physical plumbing or repair diagram.",
+    "guidePaths": [
+      "/espresso-machine/beginners/",
+      "/espresso-machine/cheap-budget-under-500/",
+      "/espresso-machine/small/",
+      "/espresso-machine/without-grinder/"
+    ]
+  },
+  "/espresso-machine/gaggia-classic-evo/": {
+    "name": "Gaggia Classic Pro E24, North America",
+    "kind": "single-boiler",
+    "heaterLabel": "Thermostat-controlled brass boiler",
+    "grinder": "separate",
+    "milk": "manual-wand",
+    "constraint": "One boiler changes between brew and steam. Cool and refill as the exact E24 manual directs.",
+    "operationalConstraint": "One boiler changes between brew and steam. Cool and refill as the exact E24 manual directs.",
+    "officialSourceURL": "https://www.gaggia-na.com/products/gaggia-classic-pro",
+    "manual": "https://www.gaggia-na.com/pages/gaggia-classic-e24-manuals",
+    "reviewPath": "/espresso-machine/gaggia-classic-evo/",
+    "image": {
+      "src": "https://www.gaggia-na.com/cdn/shop/products/Silver_IMG_9834_03_1000x.progressive.jpg?v=1601493881",
+      "alt": "Gaggia Classic Pro E24, North America product view showing the external controls and preparation area",
+      "credit": "Gaggia: Classic Pro E24",
+      "source": "https://www.gaggia-na.com/products/gaggia-classic-pro"
+    },
+    "checkedOn": "2026-10-13",
+    "evidenceNote": "Primary manufacturer page/manual and existing exact-model Coffeedant evidence ledger. Conceptual operation flow only; not a physical plumbing or repair diagram.",
+    "guidePaths": [
+      "/espresso-machine/beginners/",
+      "/espresso-machine/prosumer-under-1000/",
+      "/espresso-machine/single-boiler/",
+      "/espresso-machine/without-grinder/"
+    ]
+  },
+  "/espresso-machine/breville-barista-express-bes870xl/": {
+    "name": "Breville Barista Express BES870XL",
+    "kind": "rapid-heater",
+    "heaterLabel": "PID-controlled Thermocoil",
+    "grinder": "integrated",
+    "milk": "manual-wand",
+    "constraint": "Integrated grinding does not automate puck preparation or milk. Coffee and steam remain sequential.",
+    "operationalConstraint": "Integrated grinding does not automate puck preparation or milk. Coffee and steam remain sequential.",
+    "officialSourceURL": "https://www.breville.com/en-us/product/bes870",
+    "manual": "https://assets.breville.com/BES870/BES870_USCM_IB_X26_LR.pdf",
+    "reviewPath": "/espresso-machine/breville-barista-express-bes870xl/",
+    "image": {
+      "src": "images/products/breville-barista-express-bes870xl.png",
+      "alt": "Breville Barista Express BES870XL product view showing the external controls and preparation area",
+      "credit": "Breville US Barista Express BES870 product page",
+      "source": "https://www.breville.com/en-us/product/bes870"
+    },
+    "checkedOn": "2026-10-13",
+    "evidenceNote": "Primary manufacturer page/manual and existing exact-model Coffeedant evidence ledger. Conceptual operation flow only; not a physical plumbing or repair diagram.",
+    "guidePaths": [
+      "/espresso-machine/beginners/"
+    ]
+  },
+  "/espresso-machine/delonghi-magnifica-evo/": {
+    "name": "DeLonghi Magnifica Evo ECAM29084SB",
+    "kind": "automatic",
+    "heaterLabel": "Internal coffee and milk heating system",
+    "grinder": "integrated",
+    "milk": "automatic",
+    "constraint": "Automatic grinding, brewing and LatteCrema milk reduce preparation work; removable infuser and carafe still need care.",
+    "operationalConstraint": "Automatic grinding, brewing and LatteCrema milk reduce preparation work; removable infuser and carafe still need care.",
+    "officialSourceURL": "https://www.delonghi.com/en-us/p/magnifica-evo-magnifica-evo-espresso-machine--automatic-milk-frother/ECAM29084SB.html?pid=0132250155",
+    "manual": "https://library.delonghigroup.com/assetbank-delonghi/action/directLinkImage?assetId=282340&download=true",
+    "reviewPath": "/espresso-machine/delonghi-magnifica-evo/",
+    "image": {
+      "src": "images/products/delonghi-magnifica-evo.png",
+      "alt": "DeLonghi Magnifica Evo ECAM29084SB product view showing the external controls and preparation area",
+      "credit": "De'Longhi US: Magnifica Evo with LatteCrema ECAM29084SB",
+      "source": "https://www.delonghi.com/en-us/p/magnifica-evo-magnifica-evo-espresso-machine--automatic-milk-frother/ECAM29084SB.html?pid=0132250155"
+    },
+    "checkedOn": "2026-10-13",
+    "evidenceNote": "Primary manufacturer page/manual and existing exact-model Coffeedant evidence ledger. Conceptual operation flow only; not a physical plumbing or repair diagram. The heater label deliberately avoids an unverified boiler count or thermoblock construction claim.",
+    "guidePaths": [
+      "/espresso-machine/beginners/",
+      "/espresso-machine/built-in-grinder/",
+      "/espresso-machine/superautomatic/"
+    ]
+  },
+  "/espresso-machine/breville-barista-pro-bes878/": {
+    "name": "Breville Barista Pro BES878",
+    "kind": "rapid-heater",
+    "heaterLabel": "ThermoJet rapid heater",
+    "grinder": "integrated",
+    "milk": "manual-wand",
+    "constraint": "Coffee and steam remain sequential. The user prepares the portafilter and textures milk.",
+    "operationalConstraint": "Coffee and steam remain sequential. The user prepares the portafilter and textures milk.",
+    "officialSourceURL": "https://www.breville.com/en-us/product/bes878",
+    "manual": "https://assets.breville.com/BES878/BES878_USCM_IB_Q26_LR.pdf",
+    "reviewPath": "/espresso-machine/breville-barista-pro-bes878/",
+    "image": {
+      "src": "images/products/breville-barista-pro-bes878.png",
+      "alt": "Breville Barista Pro BES878 product view showing the external controls and preparation area",
+      "credit": "Breville US Barista Pro BES878 product page",
+      "source": "https://www.breville.com/en-us/product/bes878"
+    },
+    "checkedOn": "2026-10-13",
+    "evidenceNote": "Primary manufacturer page/manual and existing exact-model Coffeedant evidence ledger. Conceptual operation flow only; not a physical plumbing or repair diagram.",
+    "guidePaths": [
+      "/espresso-machine/built-in-grinder/"
+    ]
+  },
+  "/espresso-machine/breville-barista-express-impress-bes876/": {
+    "name": "Breville Barista Express Impress BES876",
+    "kind": "rapid-heater",
+    "heaterLabel": "PID-controlled Thermocoil",
+    "grinder": "integrated",
+    "milk": "manual-wand",
+    "constraint": "Dose correction and assisted tamping do not automate extraction judgment or manual milk. Heating is sequential.",
+    "operationalConstraint": "Dose correction and assisted tamping do not automate extraction judgment or manual milk. Heating is sequential.",
+    "officialSourceURL": "https://www.breville.com/en-us/product/bes876",
+    "manual": "https://assets.breville.com/BES876/BES876_USCM_IB_F26_LR.pdf",
+    "reviewPath": "/espresso-machine/breville-barista-express-impress-bes876/",
+    "image": {
+      "src": "images/products/breville-barista-express-impress-bes876.png",
+      "alt": "Breville Barista Express Impress BES876 product view showing the external controls and preparation area",
+      "credit": "Breville US Barista Express Impress BES876 product page",
+      "source": "https://www.breville.com/en-us/product/bes876"
+    },
+    "checkedOn": "2026-10-13",
+    "evidenceNote": "Primary manufacturer page/manual and existing exact-model Coffeedant evidence ledger. Conceptual operation flow only; not a physical plumbing or repair diagram.",
+    "guidePaths": [
+      "/espresso-machine/built-in-grinder/"
+    ]
+  },
+  "/espresso-machine/jura-e8/": {
+    "name": "JURA E8 Midnight Silver NAD 15722, fifth generation",
+    "kind": "automatic",
+    "heaterLabel": "One thermoblock; automatic brew unit",
+    "grinder": "integrated",
+    "milk": "automatic",
+    "constraint": "The internal brew unit is not owner-removable; follow guided coffee cleaning and daily milk-system care. Earlier E8 menus differ.",
+    "operationalConstraint": "The internal brew unit is not owner-removable; follow guided coffee cleaning and daily milk-system care. Earlier E8 menus differ.",
+    "officialSourceURL": "https://us.jura.com/en/homeproducts/machines/e8-midnight-silver-nad-15722",
+    "manual": "https://us.jura.com/-/media/global/pdf/manuals-na/Home/E8-NAD/download_manual_e8_nad.pdf?sc_lang=en&la=en",
+    "reviewPath": "/espresso-machine/jura-e8/",
+    "image": {
+      "src": "https://us.jura.com/_next/image?url=https%3A%2F%2Fapi.jura.com%2Fmedia%2Fglobal%2Fimages%2Fhome-products%2Fe-line-2025%2Fe8-ed-midnight-silver%2Fe8_ed_midnightsilver_packshot.jpg%3Fcb%3D330306&w=1920&q=75",
+      "alt": "JURA E8 Midnight Silver NAD 15722, fifth generation product view showing the external controls and preparation area",
+      "credit": "JURA E8 Midnight Silver NAD 15722",
+      "source": "https://us.jura.com/en/homeproducts/machines/e8-midnight-silver-nad-15722"
+    },
+    "checkedOn": "2026-10-13",
+    "evidenceNote": "Primary manufacturer page/manual and existing exact-model Coffeedant evidence ledger. Conceptual operation flow only; not a physical plumbing or repair diagram.",
+    "guidePaths": [
+      "/espresso-machine/built-in-grinder/",
+      "/espresso-machine/superautomatic/"
+    ]
+  },
+  "/espresso-machine/delonghi-ecp3420/": {
+    "name": "DeLonghi ECP3420, US 120 V",
+    "kind": "single-boiler",
+    "heaterLabel": "Shared coffee and steam boiler",
+    "grinder": "separate",
+    "milk": "manual-wand",
+    "constraint": "Make coffee, switch to steam, then cool the boiler before brewing again. Pressurized baskets can accept suitable preground coffee.",
+    "operationalConstraint": "Make coffee, switch to steam, then cool the boiler before brewing again. Pressurized baskets can accept suitable preground coffee.",
+    "officialSourceURL": "https://www.delonghi.com/en-us/s/ECP3420",
+    "manual": "https://m.media-amazon.com/images/I/91YTJ-pjS1L.pdf",
+    "reviewPath": "/espresso-machine/delonghi-ecp3420/",
+    "image": {
+      "src": "https://dam.delonghi.com/902x902/assets/223708",
+      "alt": "DeLonghi ECP3420, US 120 V product view showing the external controls and preparation area",
+      "credit": "De'Longhi: ECP3420 support",
+      "source": "https://www.delonghi.com/en-us/s/ECP3420"
+    },
+    "checkedOn": "2026-10-13",
+    "evidenceNote": "Primary manufacturer page/manual and existing exact-model Coffeedant evidence ledger. Conceptual operation flow only; not a physical plumbing or repair diagram.",
+    "guidePaths": [
+      "/espresso-machine/cheap-budget-under-500/"
+    ]
+  },
+  "/espresso-machine/flair-classic/": {
+    "name": "Flair Classic, current 2026 package",
+    "kind": "manual-lever",
+    "heaterLabel": "External kettle; manually preheated head",
+    "grinder": "separate",
+    "milk": "none",
+    "constraint": "The owner supplies hot water and lever pressure, and handles the detachable head between shots. No built-in milk system.",
+    "operationalConstraint": "The owner supplies hot water and lever pressure, and handles the detachable head between shots. No built-in milk system.",
+    "officialSourceURL": "https://flairespresso.com/products/the-flair-classic",
+    "manual": "https://flairespresso.com/pages/classic-manuals",
+    "reviewPath": "/espresso-machine/flair-classic/",
+    "image": {
+      "src": "https://flairespresso.com/cdn/shop/files/classic_2025_drips_woo_optimized.jpg?v=1778256909&width=1200",
+      "alt": "Flair Classic, current 2026 package product view showing the external controls and preparation area",
+      "credit": "Flair: Flair Classic",
+      "source": "https://flairespresso.com/products/the-flair-classic"
+    },
+    "checkedOn": "2026-10-13",
+    "evidenceNote": "Primary manufacturer page/manual and existing exact-model Coffeedant evidence ledger. Conceptual operation flow only; not a physical plumbing or repair diagram.",
+    "guidePaths": [
+      "/espresso-machine/cheap-budget-under-500/"
+    ]
+  },
+  "/espresso-machine/rok-espresso-gc/": {
+    "name": "ROK EspressoGC Black PLUS, current US package",
+    "kind": "manual-lever",
+    "heaterLabel": "External kettle; no internal heater",
+    "grinder": "separate",
+    "milk": "none",
+    "constraint": "The owner supplies hot water and dual-arm pressure. The included hand frother is separate and requires externally heated milk.",
+    "operationalConstraint": "The owner supplies hot water and dual-arm pressure. The included hand frother is separate and requires externally heated milk.",
+    "officialSourceURL": "https://us.rok.coffee/products/espressogc-black",
+    "manual": "https://us.rok.coffee/products/espressogc-black",
+    "reviewPath": "/espresso-machine/rok-espresso-gc/",
+    "image": {
+      "src": "https://us.rok.coffee/cdn/shop/files/Espresso_Black_PLUS_2000x2000copy.jpg?v=1766392497&width=1200",
+      "alt": "ROK EspressoGC Black PLUS, current US package product view showing the external controls and preparation area",
+      "credit": "ROK USA: EspressoGC Black PLUS",
+      "source": "https://us.rok.coffee/products/espressogc-black"
+    },
+    "checkedOn": "2026-10-13",
+    "evidenceNote": "Primary manufacturer page/manual and existing exact-model Coffeedant evidence ledger. Conceptual operation flow only; not a physical plumbing or repair diagram.",
+    "guidePaths": [
+      "/espresso-machine/cheap-budget-under-500/"
+    ]
+  },
+  "/espresso-machine/lelit-anna/": {
+    "name": "Lelit Anna PL41TEM / US PESAN06 by region",
+    "kind": "single-boiler",
+    "heaterLabel": "PID-controlled brass boiler",
+    "grinder": "separate",
+    "milk": "manual-wand",
+    "constraint": "Brew and steam share one boiler. Use LELIT57 tools; regional voltage, plug and package must match the exact purchased article.",
+    "operationalConstraint": "Brew and steam share one boiler. Use LELIT57 tools; regional voltage, plug and package must match the exact purchased article.",
+    "officialSourceURL": "https://www.lelit.com/product/anna-pl41tem/",
+    "manual": "https://lazenskakava.s24.cdn-upgates.com/v/v6566008ac343e-n6566008ac00f5.pdf",
+    "reviewPath": "/espresso-machine/lelit-anna/",
+    "image": {
+      "src": "https://www.lelit.com/wp-content/uploads/2024/03/MAIN-e1741266073723.png",
+      "alt": "Lelit Anna PL41TEM / US PESAN06 by region product view showing the external controls and preparation area",
+      "credit": "Lelit exact Anna PL41TEM product page",
+      "source": "https://www.lelit.com/product/anna-pl41tem/"
+    },
+    "checkedOn": "2026-10-13",
+    "evidenceNote": "Primary manufacturer page/manual and existing exact-model Coffeedant evidence ledger. Conceptual operation flow only; not a physical plumbing or repair diagram.",
+    "guidePaths": [
+      "/espresso-machine/prosumer-under-1000/",
+      "/espresso-machine/small/"
+    ]
+  },
+  "/espresso-machine/rancilio-silvia/": {
+    "name": "Rancilio Silvia V6, North America",
+    "kind": "single-boiler",
+    "heaterLabel": "Thermostat-controlled brass boiler",
+    "grinder": "separate",
+    "milk": "manual-wand",
+    "constraint": "One boiler serves coffee and steam in sequence. Stock Silvia has no factory PID temperature display.",
+    "operationalConstraint": "One boiler serves coffee and steam in sequence. Stock Silvia has no factory PID temperature display.",
+    "officialSourceURL": "https://www.ranciliogroupna.com/equipment/rancilio-silvia/",
+    "manual": "https://www.ranciliogroupna.com/wp-content/uploads/2025/05/460100001_MA_Silvia_AC_2024-03.pdf",
+    "reviewPath": "/espresso-machine/rancilio-silvia/",
+    "image": {
+      "src": "images/products/rancilio-silvia-v6.png",
+      "alt": "Rancilio Silvia V6, North America product view showing the external controls and preparation area",
+      "credit": "Rancilio North America: Silvia",
+      "source": "https://www.ranciliogroupna.com/equipment/rancilio-silvia/"
+    },
+    "checkedOn": "2026-10-13",
+    "evidenceNote": "Primary manufacturer page/manual and existing exact-model Coffeedant evidence ledger. Conceptual operation flow only; not a physical plumbing or repair diagram.",
+    "guidePaths": [
+      "/espresso-machine/prosumer-under-1000/",
+      "/espresso-machine/single-boiler/"
+    ]
+  },
+  "/espresso-machine/flair-58/": {
+    "name": "Flair 58 Plus 2, current US package",
+    "kind": "manual-lever",
+    "heaterLabel": "Electric group preheat; external kettle",
+    "grinder": "separate",
+    "milk": "none",
+    "constraint": "Group heating does not replace the kettle. The owner supplies hot brew water and direct-lever pressure; no built-in steam system.",
+    "operationalConstraint": "Group heating does not replace the kettle. The owner supplies hot brew water and direct-lever pressure; no built-in steam system.",
+    "officialSourceURL": "https://flairespresso.com/products/flair-58-plus-2",
+    "manual": "https://cdn.shopify.com/s/files/1/0923/2987/5484/files/flair-58-plus-2-user-manual.pdf",
+    "reviewPath": "/espresso-machine/flair-58/",
+    "image": {
+      "src": "https://flairespresso.com/cdn/shop/files/flair_58_plus_2_lifestyle_14_small_2b3b4e89-9ec3-4414-afef-63edabd9d5b8.jpg?v=1782932208&width=1000",
+      "alt": "Flair 58 Plus 2, current US package product view showing the external controls and preparation area",
+      "credit": "Flair: Flair 58 Plus 2",
+      "source": "https://flairespresso.com/products/flair-58-plus-2"
+    },
+    "checkedOn": "2026-10-13",
+    "evidenceNote": "Primary manufacturer page/manual and existing exact-model Coffeedant evidence ledger. Conceptual operation flow only; not a physical plumbing or repair diagram.",
+    "guidePaths": [
+      "/espresso-machine/prosumer-under-1000/"
+    ]
+  },
+  "/espresso-machine/profitec-go/": {
+    "name": "Profitec GO, original US generation",
+    "kind": "single-boiler",
+    "heaterLabel": "PID-controlled brass boiler",
+    "grinder": "separate",
+    "milk": "manual-wand",
+    "constraint": "One boiler changes modes and must cool after steam. Original GO controls differ from the new GO 2.0.",
+    "operationalConstraint": "One boiler changes modes and must cool after steam. Original GO controls differ from the new GO 2.0.",
+    "officialSourceURL": "https://www.profitec-espresso.com/en/blog/it-s-go-time",
+    "manual": "https://support.clivecoffee.com/en/articles/16427117-profitec-go-user-manual",
+    "reviewPath": "/espresso-machine/profitec-go/",
+    "image": {
+      "src": "https://clivecoffee.com/cdn/shop/files/Profitec-Go-Black-Hero-Espresso-Machine-KO-by-Clive-Coffee.jpg?v=1776200683&width=1200",
+      "alt": "Profitec GO, original US generation product view showing the external controls and preparation area",
+      "credit": "Clive Coffee original-generation Profitec GO product listing",
+      "source": "https://clivecoffee.com/products/profitec-go-espresso-machine"
+    },
+    "checkedOn": "2026-10-13",
+    "evidenceNote": "Primary manufacturer page/manual and existing exact-model Coffeedant evidence ledger. Conceptual operation flow only; not a physical plumbing or repair diagram.",
+    "guidePaths": [
+      "/espresso-machine/single-boiler/",
+      "/espresso-machine/small/",
+      "/espresso-machine/without-grinder/"
+    ]
+  },
+  "/espresso-machine/ecm-classika-pid-flow-control/": {
+    "name": "ECM Classika PID",
+    "kind": "single-boiler",
+    "heaterLabel": "PID-controlled stainless-steel boiler",
+    "grinder": "separate",
+    "milk": "manual-wand",
+    "constraint": "The E61-style group and one boiler warm together; brew and steam are sequential. Flow Profile Valve is an optional configuration.",
+    "operationalConstraint": "The E61-style group and one boiler warm together; brew and steam are sequential. Flow Profile Valve is an optional configuration.",
+    "officialSourceURL": "https://www.ecm.de/en/products/classika-pid/",
+    "manual": "https://www.ecm.de/fileadmin/manual/BA-Classika_PID-2023-08-web.pdf",
+    "reviewPath": "/espresso-machine/ecm-classika-pid-flow-control/",
+    "image": {
+      "src": "https://www.ecm.de/wp-content/uploads/2025/05/ECM_Classika_frontal-768x504-1.jpg",
+      "alt": "ECM Classika PID product view showing the external controls and preparation area",
+      "credit": "ECM: Classika PID",
+      "source": "https://www.ecm.de/en/products/classika-pid/"
+    },
+    "checkedOn": "2026-10-13",
+    "evidenceNote": "Primary manufacturer page/manual and existing exact-model Coffeedant evidence ledger. Conceptual operation flow only; not a physical plumbing or repair diagram.",
+    "guidePaths": [
+      "/espresso-machine/single-boiler/"
+    ]
+  },
+  "/espresso-machine/ascaso-steel-uno/": {
+    "name": "Ascaso Steel Uno PID, US 120 V reference",
+    "kind": "rapid-heater",
+    "heaterLabel": "One PID-controlled thermoblock",
+    "grinder": "separate",
+    "milk": "manual-wand",
+    "constraint": "One block supplies brew water and steam separately. Follow the manual for post-steam cooling; Uno is not the dual-block Steel Duo.",
+    "operationalConstraint": "One block supplies brew water and steam separately. Follow the manual for post-steam cooling; Uno is not the dual-block Steel Duo.",
+    "officialSourceURL": "https://ascaso-usa.com/products/refurbished-steel-uno-pid-programmable-espresso-machine-w-volumetric-controls-single-thermoblock-120v-black",
+    "manual": "https://ep-shopify.s3.amazonaws.com/related-documents/ascaso/steel/steel-manual.pdf",
+    "reviewPath": "/espresso-machine/ascaso-steel-uno/",
+    "image": {
+      "src": "https://ascaso-usa.com/cdn/shop/files/uno-black-frt.jpg?v=1711739532",
+      "alt": "Ascaso Steel Uno PID, US 120 V reference product view showing the external controls and preparation area",
+      "credit": "Ascaso USA refurbished Steel Uno PID product page",
+      "source": "https://ascaso-usa.com/products/refurbished-steel-uno-pid-programmable-espresso-machine-w-volumetric-controls-single-thermoblock-120v-black"
+    },
+    "checkedOn": "2026-10-13",
+    "evidenceNote": "Primary manufacturer page/manual and existing exact-model Coffeedant evidence ledger. Conceptual operation flow only; not a physical plumbing or repair diagram.",
+    "guidePaths": [
+      "/espresso-machine/small/"
+    ]
+  },
+  "/espresso-machine/philips-5400-lattego/": {
+    "name": "Philips 5400 LatteGo EP5447/94, US",
+    "kind": "automatic",
+    "heaterLabel": "Internal coffee and milk heating system",
+    "grinder": "integrated",
+    "milk": "automatic",
+    "constraint": "The removable brew group and two-piece LatteGo require regular care. Philips marks EP5447/94 discontinued; check exact rating plate and seller support.",
+    "operationalConstraint": "The removable brew group and two-piece LatteGo require regular care. Philips marks EP5447/94 discontinued; check exact rating plate and seller support.",
+    "officialSourceURL": "https://acc.usa.philips.com/c-p/EP5447_94/philips-5400-series-fully-automatic-espresso-machines",
+    "manual": "https://www.usa.philips.com/c-p/EP5447_94/philips-5400-series-fully-automatic-espresso-machines/support",
+    "reviewPath": "/espresso-machine/philips-5400-lattego/",
+    "image": {
+      "src": "https://images.philips.com/is/image/philipsconsumer/vrs_9c50975d61ffefa7fea40b468b6f28d1d3e6d1dc?$pnglarge$=&wid=1250",
+      "alt": "Philips 5400 LatteGo EP5447/94, US product view showing the external controls and preparation area",
+      "credit": "Philips US EP5447/94 archived product page",
+      "source": "https://acc.usa.philips.com/c-p/EP5447_94/philips-5400-series-fully-automatic-espresso-machines"
+    },
+    "checkedOn": "2026-10-13",
+    "evidenceNote": "Primary manufacturer page/manual and existing exact-model Coffeedant evidence ledger. Conceptual operation flow only; not a physical plumbing or repair diagram. The heater label deliberately avoids an unverified boiler count or thermoblock construction claim.",
+    "guidePaths": [
+      "/espresso-machine/superautomatic/"
+    ]
+  },
+  "/espresso-machine/gaggia-accademia-ri9781-01/": {
+    "name": "Gaggia Accademia Glass RI9781/01, Europe",
+    "kind": "automatic",
+    "heaterLabel": "Quick-heat stainless-steel boiler system",
+    "grinder": "integrated",
+    "milk": "automatic",
+    "constraint": "Automatic milk uses the carafe; a separate professional steam wand provides manual texture control. European RI9781/01 voltage is not a US specification.",
+    "operationalConstraint": "Automatic milk uses the carafe; a separate professional steam wand provides manual texture control. European RI9781/01 voltage is not a US specification.",
+    "officialSourceURL": "https://www.gaggia.com/product-search/ri9781-01-accademia-glass/",
+    "manual": "https://accademia.gaggia.com/app/uploads/2022/10/GAGGIA-ACCADEMIA_TECH-INFO.pdf",
+    "reviewPath": "/espresso-machine/gaggia-accademia-ri9781-01/",
+    "image": {
+      "src": "https://www.gaggia.com/app/uploads/2023/09/AccademiaGlass_Int_Varianti_Colori_Gaggia_2023.png",
+      "alt": "Gaggia Accademia Glass RI9781/01, Europe product view showing the external controls and preparation area",
+      "credit": "Gaggia: RI9781/01 Accademia Glass support record",
+      "source": "https://www.gaggia.com/product-search/ri9781-01-accademia-glass/"
+    },
+    "checkedOn": "2026-10-13",
+    "evidenceNote": "Primary manufacturer page/manual and existing exact-model Coffeedant evidence ledger. Conceptual operation flow only; not a physical plumbing or repair diagram. Official technical sheet describes a stainless quick-heat boiler; no internal hose route or boiler-count claim is drawn.",
+    "guidePaths": [
+      "/espresso-machine/superautomatic/"
+    ]
+  },
+  "/espresso-machine/lelit-elizabeth/": {
+    "name": "Lelit Elizabeth PL92T, US PL92T-120",
+    "kind": "dual-boiler",
+    "heaterLabel": "Separate brew and steam boilers",
+    "grinder": "separate",
+    "milk": "manual-wand",
+    "constraint": "Separate boilers support simultaneous brewing and steaming. PL92T is distinct from the newer Elizabeth3 PL92T3.",
+    "operationalConstraint": "Separate boilers support simultaneous brewing and steaming. PL92T is distinct from the newer Elizabeth3 PL92T3.",
+    "officialSourceURL": "https://www.lelit.com/product/elizabeth-pl92t/",
+    "manual": "https://support.clivecoffee.com/en/articles/16426790-lelit-elizabeth-user-manual",
+    "reviewPath": "/espresso-machine/lelit-elizabeth/",
+    "image": {
+      "src": "images/products/lelit-elizabeth.jpg",
+      "alt": "Lelit Elizabeth PL92T, US PL92T-120 product view showing the external controls and preparation area",
+      "credit": "Lelit Elizabeth PL92T official product page",
+      "source": "https://www.lelit.com/product/elizabeth-pl92t/"
+    },
+    "checkedOn": "2026-10-13",
+    "evidenceNote": "Primary manufacturer page/manual and existing exact-model Coffeedant evidence ledger. Conceptual operation flow only; not a physical plumbing or repair diagram.",
+    "guidePaths": [
+      "/espresso-machine/without-grinder/"
+    ]
+  }
+}

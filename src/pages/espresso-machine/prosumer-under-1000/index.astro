@@ -1,3 +1,5 @@
 ---
-return Astro.redirect(`${import.meta.env.BASE_URL}journal/prosumer-espresso-machines-under-1000/`,301);
+import BeginnerGuide from '../../../components/guides/BeginnerGuide.astro';
+import {buyingGuideByPath} from '../../../data/buying-guides';
 ---
+<BeginnerGuide guide={buyingGuideByPath['/espresso-machine/prosumer-under-1000/']}/>

@@ -1,0 +1,14 @@
+---
+import '../../styles/guide-evidence.css';
+const {feedback,model}=Astro.props;
+const summary=feedback.summary??feedback.paraphrase;
+const source=feedback.sourceUrl??feedback.url;
+const date=feedback.sourceDate??feedback.date;
+---
+<aside class="guide-owner-note" data-owner-feedback data-source-url={source}>
+ <p class="guide-evidence-label">Owner perspective / {feedback.platform??'Reddit'}</p>
+ <h4>{model??feedback.context}</h4><p>{summary}</p>
+ {feedback.buyingQuestion&&<p class="guide-owner-question"><strong>Before buying:</strong> {feedback.buyingQuestion}</p>}
+ <p class="guide-owner-limit">{feedback.caveat??feedback.scope}</p>
+ <p class="guide-owner-source"><a href={source} target="_blank" rel="noopener noreferrer">Read the original discussion ↗</a>{date?<> · Report dated <time datetime={date}>{date}</time></>:' · Original post date unavailable'} · Checked {feedback.checkedOn??'2026-10-13'}{feedback.reporters?.length?<> · {feedback.reporters.map(name=>`u/${name}`).join(', ')}</>:null}</p>
+</aside>

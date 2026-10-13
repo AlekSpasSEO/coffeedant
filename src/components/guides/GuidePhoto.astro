@@ -1,0 +1,11 @@
+---
+import '../../styles/guide-evidence.css';
+const {photo}=Astro.props;
+const base=import.meta.env.BASE_URL.replace(/\/?$/,'/');
+const source=photo.sourceUrl??photo.source;
+const src=/^https?:\/\//i.test(photo.src)?photo.src:`${base}${photo.src.replace(/^\//,'')}`;
+---
+<figure class="guide-evidence-photo" data-guide-photo>
+ <a href={source} target="_blank" rel="noopener noreferrer"><img src={src} alt={photo.alt} width={photo.width??900} height={photo.height??900} loading="lazy" decoding="async"/></a>
+ <figcaption><p>{photo.caption}</p><span>{photo.credit} · <a href={source} target="_blank" rel="noopener noreferrer">Source</a>{photo.licenseUrl?<> · <a href={photo.licenseUrl} target="_blank" rel="noopener noreferrer">{photo.license}</a> · Resized and converted to WebP.</>:<> · Manufacturer product-identification image; copyright retained. Illustrative, not a Coffeedant test photograph.</>}</span></figcaption>
+</figure>

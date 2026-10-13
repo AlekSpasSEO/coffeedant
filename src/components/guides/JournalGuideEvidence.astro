@@ -1,0 +1,13 @@
+---
+import GuidePhoto from './GuidePhoto.astro';
+import OwnerFeedback from './OwnerFeedback.astro';
+import TechniqueSchematic from './TechniqueSchematic.astro';
+const {evidence,id}=Astro.props;
+---
+<section class="guide-enrichment" id="visual-guide" data-journal-guide-evidence>
+ <header><p class="guide-evidence-label">See / understand / try</p><h2>Make the mechanism visible.</h2><p>Use the diagram to separate the variables, the photographs to identify the equipment, and the owner report to decide what to check in your own setup.</p></header>
+ <TechniqueSchematic schematic={evidence.schematic} id={id}/>
+ <div class="guide-photo-pair">{evidence.images.map(photo=><GuidePhoto photo={photo}/>)}</div>
+ {evidence.feedback.map(feedback=><OwnerFeedback feedback={feedback}/>)}
+ <p class="guide-evidence-disclosure">Owner reports are self-selected, paraphrased accounts. They identify practical questions; they do not establish failure rates or replace model-specific instructions. Drawings explain the mechanism and are not Coffeedant laboratory measurements.</p>
+</section>

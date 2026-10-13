@@ -2,10 +2,9 @@
 import HomeLayout from '../../layouts/HomeLayout.astro';
 import JournalExperience from '../../components/journal/JournalExperience.astro';
 import ResearchArticle from '../../components/articles/ResearchArticle.astro';
-import BeginnerGuide from '../../components/guides/BeginnerGuide.astro';
 import {stories} from '../../data/journal';
 import {upgradedBlogArticles} from '../../data/blog-articles';
-import {journalBuyingGuides} from '../../data/journal-catalog';
+import migration from '../../data/journal-route-migration.json';
 import {journalPath, storyPath} from '../../lib/journal-routes';
 import {journalStorySchema} from '../../lib/journal-schema';
 
@@ -13,12 +12,13 @@ export function getStaticPaths() {
  return [
   ...stories.map(story=>({params:{slug:story.id}, props:{story}})),
   ...upgradedBlogArticles.map(article=>({params:{slug:article.slug}, props:{article:{...article,path:journalPath(article.path)}}})),
-  ...journalBuyingGuides.map(guide=>({params:{slug:journalPath(guide.canonicalPath).split('/').filter(Boolean).at(-1)}, props:{guide}})),
+  ...Object.entries(migration.guides).map(([source,destination])=>({params:{slug:source.split('/').filter(Boolean).at(-1)},props:{redirect:destination}})),
  ];
 }
-const {story, article, guide}=Astro.props;
+const {story, article, redirect}=Astro.props;
+if(redirect)return Astro.redirect(`${import.meta.env.BASE_URL}${redirect.replace(/^\//,'')}`,301);
 ---
 {story ? <HomeLayout title={`${story.title} | Coffeedant Journal`} description={story.dek} canonicalPath={storyPath(story.id)} image={`journal/${story.hero}.webp`} imageAlt={story.heroAlt} ogType="article" published="2026-10-13" updated="2026-10-13">
  <script type="application/ld+json" set:html={JSON.stringify(journalStorySchema(story)).replace(/</g,'\\u003c')} />
  <main id="main-content"><JournalExperience selectedStory={story.id}/></main>
- </HomeLayout> : article ? <ResearchArticle article={article}/> : <BeginnerGuide guide={guide}/>}
+ </HomeLayout> : article ? <ResearchArticle article={article}/> : null}

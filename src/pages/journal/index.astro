@@ -3,12 +3,12 @@ import HomeLayout from '../../layouts/HomeLayout.astro';
 import JournalExperience from '../../components/journal/JournalExperience.astro';
 import {journalEntries} from '../../data/journal-catalog';
 const schema={'@context':'https://schema.org','@graph':[
- {'@type':'CollectionPage','@id':'https://coffeedant.com/journal/',url:'https://coffeedant.com/journal/',name:'Coffeedant Journal — Stories, knowledge and guides',description:'Explore coffee history, culture, brewing knowledge and research-led equipment guides.',hasPart:journalEntries.map(entry=>({'@id':`https://coffeedant.com${entry.path}`}))},
+ {'@type':'CollectionPage','@id':'https://coffeedant.com/journal/',url:'https://coffeedant.com/journal/',name:'Coffeedant Journal — Stories, knowledge and guides',description:'Explore coffee history, culture, brewing knowledge and practical brewing guides.',hasPart:journalEntries.map(entry=>({'@id':`https://coffeedant.com${entry.path}`}))},
  {'@type':'ItemList',numberOfItems:journalEntries.length,itemListElement:journalEntries.map((entry,index)=>({'@type':'ListItem',position:index+1,name:entry.title,url:`https://coffeedant.com${entry.path}`}))},
  {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Coffeedant',item:'https://coffeedant.com/'},{'@type':'ListItem',position:2,name:'Journal',item:'https://coffeedant.com/journal/'}]}
 ]};
 ---
-<HomeLayout title="Coffeedant Journal | Coffee Stories, Knowledge & Guides" description="Explore 25 coffee features and guides: history, culture, brewing technique, grinders and research-led espresso machine buying advice." canonicalPath="/journal/" image="journal/history.webp" imageAlt="Original Coffeedant illustration of an Ottoman coffeehouse">
+<HomeLayout title="Coffeedant Journal | Coffee Stories, Knowledge & Guides" description="Explore 17 editorials and practical guides about coffee history, culture, brewing technique and grinders." canonicalPath="/journal/" image="journal/history.webp" imageAlt="Original Coffeedant illustration of an Ottoman coffeehouse">
  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
  <main id="main-content"><JournalExperience /></main>
 </HomeLayout>

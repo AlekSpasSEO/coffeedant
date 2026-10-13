@@ -16,3 +16,5 @@
 
 .journal-card,.journal-cover,.reader-related>a,.reader-bar>a{text-decoration:none;color:inherit}.reader-related>a{display:block}.journal-home-entry a{display:inline-block}.journal-filters{gap:22px}.journal-card-image img{aspect-ratio:auto}
 .journal-thumbnail-credits{font-size:10px;line-height:1.8;color:#68695e;margin:35px 0 0}.journal-thumbnail-credits a{text-underline-offset:3px}
+
+.journal-library-section{margin:42px 0 60px;scroll-margin-top:100px}.journal-section-heading{border-top:2px solid var(--j-ink);padding:25px 0 30px}.journal-section-heading h2{font:500 clamp(36px,4vw,52px)/1.15 Georgia,serif;margin:12px 0}.journal-section-heading p{font-size:14px;max-width:650px;margin:0;color:#606359}.journal-filters{gap:20px}

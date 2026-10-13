@@ -1,13 +1,7 @@
 import {stories} from './journal';
 import {upgradedBlogArticles} from './blog-articles';
-import {beginnerGuide} from './beginner-guide';
-import {builtInGrinderGuide} from './built-in-grinder-guide';
-import {budgetUnder500Guide} from './budget-under-500-guide';
-import {prosumerUnder1000Guide} from './prosumer-under-1000-guide';
-import {remainingGuideByPath} from './remaining-guides';
 import {journalPath, storyPath} from '../lib/journal-routes';
 
-export const journalBuyingGuides = [beginnerGuide, builtInGrinderGuide, budgetUnder500Guide, prosumerUnder1000Guide, ...Object.values(remainingGuideByPath)];
 const minutes = (html: string) => Math.max(5, Math.ceil(html.replace(/<[^>]*>/g, ' ').split(/\s+/).length / 210));
 const blogImages: Record<string, {src:string; alt:string}> = {
  'conical-vs-flat-burr-grinders': {src:'journal/documentary/americano-portafilter.webp', alt:'Freshly ground coffee in an espresso portafilter'},
@@ -20,7 +14,6 @@ const blogImages: Record<string, {src:string; alt:string}> = {
 };
 
 export const journalEntries = [
- ...stories.map(story=>({id:story.id, path:storyPath(story.id), title:story.title, dek:story.dek, category:story.category, label:story.category, kind:'feature', image:`journal/${story.hero}.webp`, imageAlt:story.heroAlt, minutes:story.minutes})),
- ...upgradedBlogArticles.map(article=>({id:article.slug, path:journalPath(article.path), title:article.title, dek:article.description, category:'Guides', label:article.category, kind:'informational', image:blogImages[article.slug].src, imageAlt:blogImages[article.slug].alt, minutes:minutes(article.bodyHtml)})),
- ...journalBuyingGuides.map(guide=>({id:journalPath(guide.canonicalPath).split('/').filter(Boolean).at(-1)!, path:journalPath(guide.canonicalPath), title:guide.title, dek:guide.description, category:'Guides', label:'Buying guide', kind:'buying-guide', image:guide.media[0].src, imageAlt:guide.media[0].alt, minutes:minutes(guide.sections.map(section=>section.html).join(' '))})),
+ ...stories.map(story=>({id:story.id, path:storyPath(story.id), title:story.title, dek:story.dek, category:story.category, label:story.category, kind:'feature', group:'Editorials', image:`journal/${story.hero}.webp`, imageAlt:story.heroAlt, minutes:story.minutes})),
+ ...upgradedBlogArticles.map(article=>({id:article.slug, path:journalPath(article.path), title:article.title, dek:article.description, category:'Guides', label:article.category, kind:'informational', group:'Guides', image:blogImages[article.slug].src, imageAlt:blogImages[article.slug].alt, minutes:minutes(article.bodyHtml)})),
 ].map((entry,index)=>({...entry, number:String(index+1).padStart(2,'0')}));
