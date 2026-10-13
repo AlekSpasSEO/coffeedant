@@ -100,11 +100,23 @@ test('structured API request uses official endpoint; missing, duplicate, altered
     assert.equal(body.text.format.strict, true);
     return { ok: true, json: async () => ({ status, output: [{ content: [{ type: 'output_text', text: JSON.stringify({ items: entries }) }] }] }) };
   };
-  assert.equal((await requestTranslations(getEdition('de'), items, 'segments', fetchMock([{ id: 'a', text: 'PID 9 bar' }]))).result.get('a'), 'PID 9 bar');
-  await assert.rejects(requestTranslations(getEdition('de'), items, 'segments', fetchMock([])));
-  await assert.rejects(requestTranslations(getEdition('de'), items, 'segments', fetchMock([{ id: 'b', text: 'PID 9 bar' }])));
-  await assert.rejects(requestTranslations(getEdition('de'), items, 'segments', fetchMock([{ id: 'a', text: 'PID 10 bar' }])));
-  await assert.rejects(requestTranslations(getEdition('de'), items, 'segments', fetchMock([{ id: 'a', text: 'PID 9 bar' }], 'incomplete')));
+  const options = { provider: 'openai', apiKey: 'test-only' };
+  assert.equal((await requestTranslations(getEdition('de'), items, 'segments', fetchMock([{ id: 'a', text: 'PID 9 bar' }]), options)).result.get('a'), 'PID 9 bar');
+  await assert.rejects(requestTranslations(getEdition('de'), items, 'segments', fetchMock([]), options));
+  await assert.rejects(requestTranslations(getEdition('de'), items, 'segments', fetchMock([{ id: 'b', text: 'PID 9 bar' }]), options));
+  await assert.rejects(requestTranslations(getEdition('de'), items, 'segments', fetchMock([{ id: 'a', text: 'PID 10 bar' }]), options));
+  await assert.rejects(requestTranslations(getEdition('de'), items, 'segments', fetchMock([{ id: 'a', text: 'PID 9 bar' }], 'incomplete'), options));
+});
+
+test('Cloudflare translation uses a short-lived identity token and the same factual validation', async () => {
+  const items = [{ id: 'a', source: 'PID 9 bar', context: 'specification' }];
+  const mock = async (url, options) => {
+    assert.equal(url, 'https://coffeedant-localization.alek-spas-seo.workers.dev/translate');
+    assert.equal(options.headers.authorization, 'Bearer short-lived-test-identity');
+    assert(JSON.parse(options.body).instructions.includes('German'));
+    return { ok: true, json: async () => ({ items: [{ id: 'a', text: 'PID 9 bar' }], usage: {} }) };
+  };
+  assert.equal((await requestTranslations(getEdition('de'), items, 'segments', mock, { provider: 'cloudflare', identityToken: 'short-lived-test-identity' })).result.get('a'), 'PID 9 bar');
 });
 
 test('hostname router isolates editions and keeps internal asset prefixes out of public URLs', async () => {

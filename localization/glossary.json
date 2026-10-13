@@ -1,5 +1,13 @@
 {
   "version": 1,
+  "terms": {
+    "pt": { "product review": "avaliação (not revisão)", "espresso machine": "máquina de espresso" },
+    "es": { "product review": "reseña" },
+    "de": { "product review": "Testbericht" },
+    "fr": { "product review": "test / avis" },
+    "it": { "product review": "recensione" },
+    "nl": { "product review": "review / beoordeling" }
+  },
   "preserve": ["Coffeedant", "Aleksandar Spasevski", "Amazon", "Amazon Renewed", "Breville", "Sage", "De’Longhi", "DeLonghi", "Gaggia", "Jura", "JURA", "Lelit", "Rancilio", "Ascaso", "ECM", "Profitec", "Philips", "Miele", "Bosch", "Nespresso", "Keurig", "La Pavoni", "Flair", "PID", "E61"],
   "rules": [
     "Use natural coffee terminology for the target locale, not literal word-by-word translation.",
