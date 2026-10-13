@@ -13,7 +13,7 @@ export const applyReviewRefresh = (review: MachineReviewData): MachineReviewData
     ? { ...item, html: item.html.replace(/<p>[\s\S]*?<\/p>/, refresh.html) }
     : item);
   return {
-    ...review, updated: '2026-10-13',
+    ...review, updated: review.updated > '2026-10-13' ? review.updated : '2026-10-13',
     article: { ...review.article, sections, sources: [...review.article.sources, {
       id: 'refresh-20261013', label: `October 13 ownership clarification: ${review.brand} ${review.model}`,
       href: refresh.source, note: `${refresh.note} Checked October 13, 2026; no new physical testing or measured score.`,
