@@ -4,7 +4,7 @@ import { mkdtemp, writeFile, mkdir, readFile, rm } from 'node:fs/promises';
 import path from 'node:path';
 import os from 'node:os';
 import { config, getEdition, parseHtml, slots, walk, attr, textContent, segmentId, policyHash,
-  validateTranslation, safeRoute, emptyCache, interfaceSource, jsonSlots, root } from '../core.mjs';
+  validateTranslation, safeRoute, normalizeGeneratedRoute, emptyCache, interfaceSource, jsonSlots, root } from '../core.mjs';
 import { collectSource, prepareRegionalDocument } from '../source.mjs';
 import { validatedRoutes, rewriteInternalUrl, verifiedOffer, regionalFinder, buildRegional } from '../build.mjs';
 import { createRegionalRouter } from '../router.mjs';
@@ -49,6 +49,14 @@ test('SVG labels, journal search text and noscript fallback translate while CSS 
   assert(extracted.some(({ source, kind }) => source === 'Coffee history' && kind === 'attribute'));
   assert(extracted.some(({ source }) => source === 'All stories follow below.'));
   assert(!extracted.some(({ source }) => source.includes('display:block') || source === 'story-id'));
+});
+
+test('model URL formatting is normalized without accepting external destinations, queries or traversal', () => {
+  assert.equal(normalizeGeneratedRoute('/Testbericht/Breville-BES500/'), '/testbericht/breville-bes500/');
+  assert.equal(normalizeGeneratedRoute('  Avaliação da Máquina  '), '/avaliação-da-máquina/');
+  assert.equal(normalizeGeneratedRoute('/caf%C3%A9/'), '/café/');
+  assert.equal(normalizeGeneratedRoute('`/De’Longhi/`'), '/delonghi/');
+  for (const value of ['https://evil.test/', '//evil.test/', '/../secret/', '/%2e%2e/secret/', '/a?b/', '/a#b/', '/a\\b/', '/<script>/']) assert.throws(() => normalizeGeneratedRoute(value));
 });
 
 test('internal URLs preserve fragments and external sources are not rewritten', () => {

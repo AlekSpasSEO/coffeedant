@@ -57,7 +57,9 @@ export function createTranslationBroker(fetchKeys = fetch) {
       if (!['segments', 'routes'].includes(input.mode) || !Array.isArray(input.items) || !input.items.length || input.items.length > 30
         || input.items.some((item) => typeof item.id !== 'string' || typeof item.source !== 'string' || item.source.length > 20000)) return json({ error: 'Invalid items' }, 400);
       const schema = { type: 'object', additionalProperties: false, required: ['items'], properties: {
-        items: { type: 'array', items: { type: 'object', additionalProperties: false, required: ['id', 'text'], properties: { id: { type: 'string' }, text: { type: 'string' } } } },
+        items: { type: 'array', minItems: input.items.length, maxItems: input.items.length,
+          items: { type: 'object', additionalProperties: false, required: ['id', 'text'],
+            properties: { id: { type: 'string', enum: input.items.map(({ id }) => id) }, text: { type: 'string' } } } },
       } };
       try {
         const result = await env.AI.run('@cf/meta/llama-3.3-70b-instruct-fp8-fast', {
