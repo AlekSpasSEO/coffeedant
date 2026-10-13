@@ -1,24 +1,30 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'node:path';
-import {root,readJson,loadCache,validateTranslation,segmentId,getEdition,policyHash} from '../core.mjs';
+import {root,readJson,loadCache,validateTranslation,segmentId,getEdition,policyHash,digest} from '../core.mjs';
 import {regionalFinder} from '../build.mjs';
 
-test('34 real Finder records retain unique complete copy and source facts in NL DE FR without US offers',async()=>{
- const frozen=await readJson(path.join(root,'localization/authored/finder-products-batch-3.items.source.json'));
- const snapshot=await readJson(path.join(root,'localization/authored/finder-batch-3.source.json'));
+for(const [batch,count] of [[3,34],[4,30]])test(`${count} real Finder records in batch ${batch} retain unique complete copy and source facts in NL DE FR without US offers`,async()=>{
+ const frozen=await readJson(path.join(root,`localization/authored/finder-products-batch-${batch}.items.source.json`));
+ const snapshot=await readJson(path.join(root,`localization/authored/finder-batch-${batch}.source.json`));
+ const authored=await readJson(path.join(root,`localization/authored/finder-products-batch-${batch}.json`));
+ assert.equal(snapshot.snapshotHash,digest(JSON.stringify(snapshot.segments)));
  assert.equal(frozen.snapshotHash,snapshot.snapshotHash);
- assert.equal(frozen.items.length,34);
+ assert.equal(authored.snapshotHash,snapshot.snapshotHash);
+ assert.equal(frozen.items.length,count);
+ assert.equal(Object.keys(authored.translations).length,count*3);
+ const authoredSources=new Set(Object.keys(authored.translations).map(index=>snapshot.segments[Number(index)].source));
  const sourceIds=new Set(snapshot.segments.map(s=>s.id));
  for(const id of ['nl','de','fr']){
   const cache=await loadCache(id);
   const finder=regionalFinder({items:frozen.items},cache,new Map(),getEdition(id),{},{});
   assert.equal(finder.items.length,frozen.items.length);
-  assert.equal(new Set(finder.items.map(x=>x.description)).size,34);
+  assert.equal(new Set(finder.items.map(x=>x.description)).size,count);
   for(const [i,item] of finder.items.entries()){
    const source=frozen.items[i];
    for(const key of ['description','bestFor','imageAlt']){
     assert(sourceIds.has(segmentId(source[key],'finder')));
+    assert(authoredSources.has(source[key]),`${id} missing frozen complete field ${source.model} ${key}`);
     assert.equal(validateTranslation(source[key],item[key]),item[key]);
     assert.notEqual(item[key],source[key],`${id} untranslated ${source.model} ${key}`);
    }
@@ -32,8 +38,9 @@ test('34 real Finder records retain unique complete copy and source facts in NL 
  }
 });
 
-test('Bosch and Philips own-page text is complete in all three caches, without implying catalog completeness',async()=>{
- const source=await readJson(path.join(root,'localization/authored/brand-pages-batch-3.source.json'));
+for(const batch of [3,4])test(`Manufacturer own-page snapshot ${batch} is complete in all three caches, without implying catalog completeness`,async()=>{
+ const source=await readJson(path.join(root,`localization/authored/brand-pages-batch-${batch}.source.json`));
+ assert.equal(source.snapshotHash,digest(JSON.stringify(source.segments)));
  for(const id of ['nl','de','fr']){
   const cache=await loadCache(id);
   for(const segment of source.segments){

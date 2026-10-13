@@ -192,6 +192,26 @@ in fresh batches so the homepages and manufacturer Finders can be built without
 English data fallback. The full-edition publish gates and all unpublished flags
 remain unchanged. Quote `"@finder"` in PowerShell to avoid splatting it as a variable.
 
+The fourth direct batch completes another 30 actual catalog records in NL/DE/FR:
+the remaining De'Longhi models, all seven ECM models, four Flair models and the
+first seven Gaggia models. Each record has its entire distinct description,
+best-for label and image alternative. `finder-products-batch-4.items.source.json`
+freezes the real identities; `finder-batch-4.source.json` retains the immutable
+missing-field index. Historical condition/US availability qualifications remain
+in the copy, without asserting current regional availability or offers.
+
+ECM and De'Longhi own-page text, metadata and accessible labels are also complete
+in all three languages, with stable `/ecm/` and `/de-longhi/` routes. Source brand
+and model names alone have explicit verbatim approvals. All six own-page DOM and
+structured-data passes preserve link destinations; scoped builds still correctly
+reject their incomplete shared Finder dependency. The catalog now has 64 complete
+records, with 81 products / 242 unique fields remaining per language. There are
+16 own-text-complete content pages in NL and 15 each in DE/FR, but only 11 and 10
+respectively are renderable without that remaining catalog dependency. The 404
+is excluded from these content-page totals. Full editions remain unpublished;
+28 localization tests and analytics/consent validation pass. Continue the next
+missing Finder records with a fresh snapshot rather than rewriting either batch.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

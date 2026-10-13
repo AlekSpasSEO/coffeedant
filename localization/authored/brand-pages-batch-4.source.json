@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/ecm/",
+      "sourceHash": "8889ee0d7d85b43929ff2c2d74486bb4437a8b72be35322a8aee458a9db55927"
+    },
+    {
+      "sourcePath": "/de-longhi/",
+      "sourceHash": "608fc4552190fd151410429b531e91210d8b6dc283c92b669a0f689eacd141f9"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "8d74b240ee88eaabe0058e6f704693b49f99299b5e38eae3a490f3524e013166",
+      "source": "Balanced workflow",
+      "kind": "text",
+      "context": "Balanced workflow"
+    },
+    {
+      "id": "e7b34dabf63af42fc8878955dbe09ae7c95c02f805cbdd4ec0189d253e2c8405",
+      "source": "Control first",
+      "kind": "text",
+      "context": "Control first"
+    },
+    {
+      "id": "557b7caddfdf3436020312b8139798796f7b3fd397669c0fc45868ec1e9c8022",
+      "source": "De'Longhi Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "text",
+      "context": "De'Longhi Espresso Machines: Compare the Lineup | Coffeedant"
+    },
+    {
+      "id": "0e7aa31ccdcf7091ec53c6511d63f8352fd9f882c371b0e73c2b07e0204b18a0",
+      "source": "De'Longhi espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 14 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "De'Longhi Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of docum"
+    },
+    {
+      "id": "e418c55aaf11540d56429cfe10505452f23dba2f9e63e8df1860c6c12422953c",
+      "source": "De'Longhi Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "metadata",
+      "context": "De'Longhi Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of docum"
+    },
+    {
+      "id": "465b255cf448991584e8656697d5b4ee7f0961fba586fea1503a1376673ce342",
+      "source": "De'Longhi, mapped.",
+      "kind": "text",
+      "context": "De'Longhi, mapped."
+    },
+    {
+      "id": "64e52b0eeba9283365eeca856b1e9cc78ce4224ccb66df9b94432b229fba4634",
+      "source": "One of the broadest catalogs, covering entry-level manual machines, grinder-equipped models, and full automatics.",
+      "kind": "text",
+      "context": "One of the broadest catalogs, covering entry-level manual machines, grinder-equipped models, and full automatics."
+    },
+    {
+      "id": "2c1cc3887decf3bc437b8e219f57383ad4de7a3c4751b98aa33bb3f8af03e389",
+      "source": "De'Longhi overview",
+      "kind": "attribute",
+      "context": "← All brands Italy · Mixed · convenience-led De'Longhi, mapped. One of the broadest catalogs, covering entry-level manual machines, grinder-equipped models, and full automatics.   14machine reviews $–$$$price position Balanced workflowworkflow"
+    },
+    {
+      "id": "ad0d80be6ef1bfd26bc614a8c2aaa18dddb9bd3098690b306ae521fa59361ee1",
+      "source": "Where De'Longhi sits.",
+      "kind": "text",
+      "context": "Where De'Longhi sits."
+    },
+    {
+      "id": "62b9fec866a7bd5308d4e74bd1817834c93b7692c08405569d33a8f18c87a516",
+      "source": "De'Longhi: Balanced workflow",
+      "kind": "attribute",
+      "context": "Push-button easeHands-on control  De'Longhi  Best for: Milk drinks across every budget"
+    },
+    {
+      "id": "9b9c1dcc4453ad01fb8b77e7068f06ca4b1817ce5ba7204d29add845f3d3d742",
+      "source": "Broad selection",
+      "kind": "text",
+      "context": "Broad selection"
+    },
+    {
+      "id": "ee5569320b8bac1caf3094fa6603c47271c049d092010d2b13c0d3c50e8f02c4",
+      "source": "Milk workflows",
+      "kind": "text",
+      "context": "Milk workflows"
+    },
+    {
+      "id": "2a5028c60cc38b1ec49804659e47b8d8483d5d6744581f17b8831caef5273faf",
+      "source": "Accessible pricing",
+      "kind": "text",
+      "context": "Accessible pricing"
+    },
+    {
+      "id": "cc7c7e00525e260d43496c41d43ace7a6ee98ed113086074a9204b7ff121d8c3",
+      "source": "Model names and overlapping ranges can confuse buyers.",
+      "kind": "text",
+      "context": "Model names and overlapping ranges can confuse buyers."
+    },
+    {
+      "id": "00bf65909769ff9a103d0b88acd59e050b6d2576e765279998e95a4f40ce876d",
+      "source": "What De'Longhi actually builds for.",
+      "kind": "text",
+      "context": "What De'Longhi actually builds for."
+    },
+    {
+      "id": "9f1f223aabdd809201de7bdf0c5db0c5ad9a1f00fb74d9d12a0b66929cbb7b39",
+      "source": "De'Longhi covers nearly every convenience level, from narrow manual machines to grinder-equipped La Specialista models and fully automatic Magnifica, Dinamica, Eletta, and PrimaDonna families.",
+      "kind": "text",
+      "context": "De'Longhi covers nearly every convenience level, from narrow manual machines to grinder-equipped La Specialista models and fully automatic Magnifica, Dinamica, Eletta, and PrimaDonna families."
+    },
+    {
+      "id": "ebcdbe5059fb4adbc685d2ad9b2650d48bcea581061da9e61a7bee8b7e079467",
+      "source": "The breadth is useful, but product naming hides the real decision. Separate manual, assisted, and bean-to-cup models before comparing milk systems and drink lists.",
+      "kind": "text",
+      "context": "The breadth is useful, but product naming hides the real decision. Separate manual, assisted, and bean-to-cup models before comparing milk systems and drink lists."
+    },
+    {
+      "id": "6378b7286f26e879572700e59af6460fef5b001e904e710b03b421845aa1ffcd",
+      "source": "Dedica and ECP are manual entry points. La Specialista adds a grinder and assistance. Magnifica is the accessible automatic line, while Dinamica, Eletta, and PrimaDonna add drinks and refinement.",
+      "kind": "text",
+      "context": "Dedica and ECP are manual entry points. La Specialista adds a grinder and assistance. Magnifica is the accessible automatic line, while Dinamica, Eletta, and PrimaDonna add drinks and refinement."
+    },
+    {
+      "id": "9d7051a80a0bffbae3ca3cbf430f457f2881c5f3829f3c755c820f460e563742",
+      "source": "De'Longhi Coffee Finder",
+      "kind": "text",
+      "context": "De'Longhi Coffee Finder"
+    },
+    {
+      "id": "4b8bf03fdeeba86e3e2d914c75fdcdef95d5b02a150cf298c90b25eed24f2e8c",
+      "source": "Find the De'Longhi machine that fits your routine.",
+      "kind": "text",
+      "context": "Find the De'Longhi machine that fits your routine."
+    },
+    {
+      "id": "df95c2d4947001398822763681eb12f915cd4b6b1d67f77089e4a09465f5ef42",
+      "source": "Start with any constraint. This compact finder searches every De'Longhi espresso-machine review; the full finder can compare the result with every brand.",
+      "kind": "text",
+      "context": "Start with any constraint. This compact finder searches every De'Longhi espresso-machine review; the full finder can compare the result with every brand."
+    },
+    {
+      "id": "a628ae113327a66c1da69f1f3edf93f3baa4d8e0e83bf41a20246b0b403f2899",
+      "source": "De'Longhi and nearby brand alternatives",
+      "kind": "attribute",
+      "context": "BrandSystemPrice positionBest for   De'Longhi Mixed · convenience-led $–$$$ Milk drinks across every budget Current  Ninja Guided · multi-drink $$ Espresso, drip and cold drinks in one station Compare →  Krups Mixed · compact $–$$$ Small kitchens and simple drinks Compare →"
+    },
+    {
+      "id": "84829449112f055158dcaa0ac589993135cb7e67b01cd6934f2459d775a28a30",
+      "source": "The De'Longhi lineup.",
+      "kind": "text",
+      "context": "The De'Longhi lineup."
+    },
+    {
+      "id": "cc11d911320c6ad0216fc9457d7f635b2bcbd337808d1ec50efcaabffa231145",
+      "source": "De'Longhi Dedica EC685",
+      "kind": "text",
+      "context": "De'Longhi Dedica EC685"
+    },
+    {
+      "id": "032ef83703b7b1964960c1b492d26ff9efdf39f608f0928e0062d1679c2450b4",
+      "source": "De'Longhi Dinamica Aroma Bar ECAM359.37.TB",
+      "kind": "text",
+      "context": "De'Longhi Dinamica Aroma Bar ECAM359.37.TB"
+    },
+    {
+      "id": "b9cebb51a957accb7a0cc47f42965084dc7b376a70e1bbec634a0f71906397a4",
+      "source": "De'Longhi Dinamica Plus ECAM370",
+      "kind": "text",
+      "context": "De'Longhi Dinamica Plus ECAM370"
+    },
+    {
+      "id": "d1f56690756bebd33a568e6e44134c622dba8e21f2b18304807de4da644ddbf3",
+      "source": "De'Longhi Dinamica Plus ECAM380.85.SB",
+      "kind": "text",
+      "context": "De'Longhi Dinamica Plus ECAM380.85.SB"
+    },
+    {
+      "id": "bb01bcec3481ea3f23ee5b5fedfbca84a1101f946b962c210599c1cef7833cff",
+      "source": "De'Longhi ECP3420",
+      "kind": "text",
+      "context": "De'Longhi ECP3420"
+    },
+    {
+      "id": "56c1e918f8397df2ef20f3b7a45d0a8514639f828adec342fd0bc90dbcc7dfbe",
+      "source": "De'Longhi Eletta Explore",
+      "kind": "text",
+      "context": "De'Longhi Eletta Explore"
+    },
+    {
+      "id": "527af60ff7a4e0233d5bed38b74c2f8a3847f7e35c46e98905153d9a610cebf0",
+      "source": "De'Longhi La Specialista Arte",
+      "kind": "text",
+      "context": "De'Longhi La Specialista Arte"
+    },
+    {
+      "id": "f5743dc4106000a866148212d7578d664d521caee8703060c5b5e1c5132aac8d",
+      "source": "De'Longhi La Specialista Prestigio",
+      "kind": "text",
+      "context": "De'Longhi La Specialista Prestigio"
+    },
+    {
+      "id": "939d61f895c858979dce5198b90f10af19346fdc09a2c2c25cadeddf75f5ad89",
+      "source": "De'Longhi Magnifica ESAM3000.B",
+      "kind": "text",
+      "context": "De'Longhi Magnifica ESAM3000.B"
+    },
+    {
+      "id": "da7ee9ba3f7b00fd3e301b2b424c13ea591b160d16e9fc5bbdbbf26434f5c58e",
+      "source": "De'Longhi Magnifica Evo",
+      "kind": "text",
+      "context": "De'Longhi Magnifica Evo"
+    },
+    {
+      "id": "118f9af2121d2ce25db9eee92045643e47dbfc5d7d9597513e8a9a367accd00d",
+      "source": "De'Longhi Magnifica Evo Next",
+      "kind": "text",
+      "context": "De'Longhi Magnifica Evo Next"
+    },
+    {
+      "id": "1ba327fb0d97350c7927bf9cc4792f36725a2e6460cb4057d59fcd9640ab3ab8",
+      "source": "De'Longhi Magnifica Plus",
+      "kind": "text",
+      "context": "De'Longhi Magnifica Plus"
+    },
+    {
+      "id": "2870d96750a9689707d9d31e3571d5b4a8024f5893b9503cc6ddd6a4fd9acc1f",
+      "source": "De'Longhi Magnifica Start",
+      "kind": "text",
+      "context": "De'Longhi Magnifica Start"
+    },
+    {
+      "id": "505a7eda47e20bf8e52d26bb5d528c9c1dbeec74eb8f4ce1e030f837852f0207",
+      "source": "De'Longhi PrimaDonna Soul",
+      "kind": "text",
+      "context": "De'Longhi PrimaDonna Soul"
+    },
+    {
+      "id": "25e58634a2835dd363668ddb907cd4dc30ab6f3b1a849187c083c5aaf4c543eb",
+      "source": "ECM Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "text",
+      "context": "ECM Espresso Machines: Compare the Lineup | Coffeedant"
+    },
+    {
+      "id": "6c9f28047e9018244d2b9517f174edfab00d517d6442892e8cdf8f7858687ed1",
+      "source": "ECM espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 7 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "ECM Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.co"
+    },
+    {
+      "id": "230ccbec4292fadec751ba5fe78f097fea5f2cd65945abe13dc60ec326fe44f6",
+      "source": "ECM Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "metadata",
+      "context": "ECM Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.co"
+    },
+    {
+      "id": "193a0da7f8aa3552696a48b3eea135508da928e7b3edbf8de14b59582b971b1f",
+      "source": "ECM, mapped.",
+      "kind": "text",
+      "context": "ECM, mapped."
+    },
+    {
+      "id": "6e26a838a394f95ba7da8bb36903c77bbf8fdfd8f34f00b9e9e5a95c2bbbb695",
+      "source": "Polished prosumer machines focused on tactile controls, temperature management, and long ownership.",
+      "kind": "text",
+      "context": "Polished prosumer machines focused on tactile controls, temperature management, and long ownership."
+    },
+    {
+      "id": "c255405514b272ef5b0a2e173f5dbb0045d3136adbe4f78c9595af761ce4da28",
+      "source": "ECM overview",
+      "kind": "attribute",
+      "context": "← All brands Germany · Boiler · hands-on ECM, mapped. Polished prosumer machines focused on tactile controls, temperature management, and long ownership.   7machine reviews $$$–$$$$price position Control firstworkflow"
+    },
+    {
+      "id": "0545c513e31f949b203389262eaa574b24d4f83a2a6aceb4b64bae186d56238c",
+      "source": "Where ECM sits.",
+      "kind": "text",
+      "context": "Where ECM sits."
+    },
+    {
+      "id": "9d00bd3ca38586297ab478bc0e502d0953ef26974d2bc62cfd267bb730dddb01",
+      "source": "ECM: Control first",
+      "kind": "attribute",
+      "context": "Push-button easeHands-on control  ECM  Best for: Premium build and espresso control"
+    },
+    {
+      "id": "1ce037de7ef8b2d3bbe14c4d12bf6e1061b80e1fc9c8c383f5b104f3d31408cc",
+      "source": "Premium construction",
+      "kind": "text",
+      "context": "Premium construction"
+    },
+    {
+      "id": "4e6562f514193701fe28439816238678a0f2eac87218bf0033a35b05b1ae3b0e",
+      "source": "Strong temperature control",
+      "kind": "text",
+      "context": "Strong temperature control"
+    },
+    {
+      "id": "13f45dd67cac181fdfdb02afb41616e30a9a71d9dfcedb7d25d4f5c2dba527a0",
+      "source": "Serviceable layouts",
+      "kind": "text",
+      "context": "Serviceable layouts"
+    },
+    {
+      "id": "2cd72317f7a1a9039d460a87e47f4b833c70cec84dc743cdab950a074e5bb4b0",
+      "source": "You still need a capable separate grinder.",
+      "kind": "text",
+      "context": "You still need a capable separate grinder."
+    },
+    {
+      "id": "239c7cdd0d184f9f2a041bd8d64a5ad0c3186f53418e58cbc03a7a29cffe70e1",
+      "source": "What ECM actually builds for.",
+      "kind": "text",
+      "context": "What ECM actually builds for."
+    },
+    {
+      "id": "b4ca2baf8a02dd0e30e2e7bd6bb3ec64a7aa2d6ec9b69035f823a2102f936230",
+      "source": "ECM emphasizes premium metalwork, tactile controls, and traditional prosumer layouts. Its machines prioritize espresso stability and steam hardware over guidance or automation.",
+      "kind": "text",
+      "context": "ECM emphasizes premium metalwork, tactile controls, and traditional prosumer layouts. Its machines prioritize espresso stability and steam hardware over guidance or automation."
+    },
+    {
+      "id": "6bdcd758126d4d843b511fd9b9726a112a6de438e0fe427e852986db38b18cd4",
+      "source": "A capable grinder, warm-up planning, and regular maintenance are part of the deal. In return, the platform is easier to understand, service, and keep for a long time.",
+      "kind": "text",
+      "context": "A capable grinder, warm-up planning, and regular maintenance are part of the deal. In return, the platform is easier to understand, service, and keep for a long time."
+    },
+    {
+      "id": "39114b39db54ce4d320ba2fb45619cc78b81c19d6e596f95ff9bbcefd47be53f",
+      "source": "Casa and Puristika are focused. Classika adds precise espresso control. Mechanika and Technika serve milk-drink workflows, while Synchronika is the dual-boiler flagship route.",
+      "kind": "text",
+      "context": "Casa and Puristika are focused. Classika adds precise espresso control. Mechanika and Technika serve milk-drink workflows, while Synchronika is the dual-boiler flagship route."
+    },
+    {
+      "id": "77819a616d080b64380e287bd16c1db76411eb6c93c845981447f8878ef8c458",
+      "source": "ECM Coffee Finder",
+      "kind": "text",
+      "context": "ECM Coffee Finder"
+    },
+    {
+      "id": "f4e1e412b263018b43e9883bfc404f06eb6ae528214c293284bbc86c07adedc8",
+      "source": "Find the ECM machine that fits your routine.",
+      "kind": "text",
+      "context": "Find the ECM machine that fits your routine."
+    },
+    {
+      "id": "bc9a14ad9555360617651194ab08d4cefb6c87f3ae6138962b74631d524e14c5",
+      "source": "Start with any constraint. This compact finder searches every ECM espresso-machine review; the full finder can compare the result with every brand.",
+      "kind": "text",
+      "context": "Start with any constraint. This compact finder searches every ECM espresso-machine review; the full finder can compare the result with every brand."
+    },
+    {
+      "id": "2ce19ca13a96fe3cd042d0a96df4d637e6841ded16c80973f9bd39dd40fded28",
+      "source": "ECM and nearby brand alternatives",
+      "kind": "attribute",
+      "context": "BrandSystemPrice positionBest for   ECM Boiler · hands-on $$$–$$$$ Premium build and espresso control Current  Profitec Boiler · hands-on $$–$$$$ Focused prosumer engineering Compare →  Rancilio Boiler · hands-on $$–$$$ Durable, proven home-barista hardware Compare →"
+    },
+    {
+      "id": "a619ffd82b05c6cb0909d647a83f5b859caf85cdaf07e92d015f05b7fd80ad56",
+      "source": "The ECM lineup.",
+      "kind": "text",
+      "context": "The ECM lineup."
+    },
+    {
+      "id": "2b860cdde35e8f8b968679832e9734001ae067755aef3b5b5578425dc0b4aa5c",
+      "source": "ECM Casa V",
+      "kind": "text",
+      "context": "ECM Casa V"
+    },
+    {
+      "id": "795dfc2a33674d5d147a2599ded70095ab27d6bde3010a0e901f94a9dff4d4a4",
+      "source": "ECM Classika PID",
+      "kind": "text",
+      "context": "ECM Classika PID"
+    },
+    {
+      "id": "9495107b42bd0e62be1bed688646ef7b2a6a8504ee0006927d52728624b15590",
+      "source": "ECM Mechanika Slim PID",
+      "kind": "text",
+      "context": "ECM Mechanika Slim PID"
+    },
+    {
+      "id": "7e206241ed5d078e63f4f193b0c681c84582c6eefb40fa29b649f59547f83743",
+      "source": "ECM Mechanika V Slim",
+      "kind": "text",
+      "context": "ECM Mechanika V Slim"
+    },
+    {
+      "id": "054073367aa70b723b1578e8b92dd7c83cea356f7bbc06e0aea4c8078cefdf5b",
+      "source": "ECM Puristika",
+      "kind": "text",
+      "context": "ECM Puristika"
+    },
+    {
+      "id": "8271028c8424aaef28a90dd8f3085d4c9d86aa20c22ea0277f5c9081dc59d14f",
+      "source": "ECM Synchronika II",
+      "kind": "text",
+      "context": "ECM Synchronika II"
+    },
+    {
+      "id": "5258391c80815feaf89076b394d7e202fe20d45b90326522f6fb483921d27a63",
+      "source": "ECM Technika V Profi PID",
+      "kind": "text",
+      "context": "ECM Technika V Profi PID"
+    }
+  ],
+  "snapshotHash": "eb21b993aba9c97337609b161a8fa04c963f58ea386b614ae2a02550b840f6d4"
+}
