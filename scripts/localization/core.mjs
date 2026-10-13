@@ -136,7 +136,7 @@ export const translatedText = (cache, source, kind = 'text') => {
 export const translateDom = (document, cache) => {
   for (const slot of slots(document)) slot.set(translatedText(cache, slot.source, slot.kind));
 };
-export const jsonTextFields = new Set(['name', 'description', 'headline', 'articleBody', 'alternativeHeadline', 'caption']);
+export const jsonTextFields = new Set(['name', 'description', 'headline', 'articleBody', 'alternativeHeadline', 'caption', 'text']);
 export const jsonSlots = (object) => {
   const result = [];
   const visit = (value, key, parent) => {
