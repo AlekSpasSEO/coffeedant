@@ -108,7 +108,13 @@ export const validateTranslation = (source, translated) => {
   const literalTags = (value) => [...value.matchAll(/<\/?[a-z][^>]*>/gi)].map(([tag]) => tag);
   if (JSON.stringify(literalTags(source)) !== JSON.stringify(literalTags(translated))) throw new Error('Translation introduced or changed HTML-like source text');
   if (JSON.stringify(numericFacts(source)) !== JSON.stringify(numericFacts(translated))) throw new Error('Translation changed numeric facts');
-  for (const token of [...source.matchAll(/\{[a-zA-Z]+\}|https?:\/\/[^\s]+|\b[A-Z]{1,6}\d[A-Z\d./-]*\b/g)].map(([value]) => value)) {
+  for (const match of source.matchAll(/\{[a-zA-Z]+\}|https?:\/\/[^\s]+|\b[A-Z]{1,6}\d[A-Z\d./-]*\b/g)) {
+    const value = match[0];
+    // In "E61-style", the final hyphen belongs to the English adjective,
+    // not the model. Preserve E61 itself; never normalize URLs, placeholders
+    // or separators inside actual codes such as F85/0-102 or QM67-EVO.
+    const token = /^[A-Z]{1,6}\d[A-Z\d./-]*-$/.test(value)
+      && /^style\b/.test(source.slice(match.index + value.length)) ? value.slice(0, -1) : value;
     if (!translated.includes(token)) throw new Error('Translation changed a protected identifier or placeholder');
   }
   for (const brand of glossary.preserve) {

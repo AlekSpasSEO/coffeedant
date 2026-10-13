@@ -33,7 +33,8 @@ test('shared menu uses translated open/close labels and matching CSS/runtime bre
  assert(header.includes('.cd-header button, .cd-header a { font-family: inherit; }'));
  assert(!header.includes('font: inherit;'));
  assert(!header.includes('max-width: 1040px'));
- assert.equal([...header.matchAll(/max-width: 1200px/g)].length,4);
+ assert(!header.includes('max-width: 1200px'));
+ assert.equal([...header.matchAll(/max-width: 1320px/g)].length,4);
  assert(header.includes("isOpen ? closeMenuLabel : openMenuLabel"));
  const labels=slots(parseHtml('<body><button data-menu-open-label="Open menu" data-menu-close-label="Close menu">Menu</button></body>'));
  for(const source of ['Open menu','Close menu'])assert(labels.some(s=>s.kind==='attribute'&&s.source===source));

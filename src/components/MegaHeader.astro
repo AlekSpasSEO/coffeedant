@@ -241,7 +241,7 @@ const brandMenus = menuBrands.map((brand) => ({
       const isOpen = menu?.classList.toggle('is-open') ?? false;
       menuButton.setAttribute('aria-expanded', String(isOpen));
       menuButton.setAttribute('aria-label', isOpen ? closeMenuLabel : openMenuLabel);
-      document.body.classList.toggle('cd-menu-open', isOpen && window.matchMedia('(max-width: 1200px)').matches);
+      document.body.classList.toggle('cd-menu-open', isOpen && window.matchMedia('(max-width: 1320px)').matches);
       if (!isOpen) closeGroups();
     });
 
@@ -284,7 +284,7 @@ const brandMenus = menuBrands.map((brand) => ({
     document.addEventListener('keydown', (event) => {
       if (event.key !== 'Escape') return;
       closeGroups();
-      if (menu?.classList.contains('is-open') && window.matchMedia('(max-width: 1200px)').matches) {
+      if (menu?.classList.contains('is-open') && window.matchMedia('(max-width: 1320px)').matches) {
         menu.classList.remove('is-open');
         menuButton?.setAttribute('aria-expanded', 'false');
         menuButton?.setAttribute('aria-label', openMenuLabel);
@@ -294,7 +294,7 @@ const brandMenus = menuBrands.map((brand) => ({
     });
 
     window.addEventListener('resize', () => {
-      if (!window.matchMedia('(max-width: 1200px)').matches) {
+      if (!window.matchMedia('(max-width: 1320px)').matches) {
         document.body.classList.remove('cd-menu-open');
       }
     });
@@ -570,7 +570,7 @@ const brandMenus = menuBrands.map((brand) => ({
   .cd-brand-reviews small { color: var(--cd-muted); font-size: 0.68rem; }
   .cd-brand-reviews small b { color: var(--cd-ink); }
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1320px) {
     :global(body.cd-menu-open) { overflow: hidden; }
     .cd-header__inner { min-height: 70px; }
     .cd-header__brand img { width: 44px; height: 44px; }
