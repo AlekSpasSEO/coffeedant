@@ -14,7 +14,7 @@ No common Latin American currency or electrical standard is assumed.
 
 - All 15 editions configured; 14 regional editions deliberately unpublished.
 - Shared Astro application and original US URLs preserved.
-- DOM-safe source indexing currently covers all 211 canonical built HTML pages (210 regular pages
+- DOM-safe source indexing currently covers all 216 canonical built HTML pages (215 regular pages
   plus the 404), including metadata, accessibility text, JSON-LD and finder data.
 - Source-path-derived content IDs connect stable translated route registries.
   If the US source URL itself changes, migrate that registry explicitly and add
@@ -57,7 +57,7 @@ No common Latin American currency or electrical standard is assumed.
 The user selected full Netherlands Dutch, Germany German and France French
 editions for direct translation by Codex. This is substantial unfinished work,
 not a declaration that the three editions have been translated or deployed.
-The current canonical source has 211 pages; counts can change as authors publish.
+The current canonical source has 216 pages; counts can change as authors publish.
 
 The first complete Dutch page is the espresso-dosing guide:
 `https://nl.coffeedant.com/journal/espresso-doseren/`.
@@ -127,7 +127,8 @@ The saved shell/foundation batches cover all three homepages' editorial text,
 the brands, grinder, coffee-bean and coffee-machine hubs, contact/about pages,
 404 and faithful translations of existing privacy/terms text. Policy translation
 is not a legal-compliance certification or a newly invented regional policy.
-Most article bodies and Finder data remain untranslated. Do not interpret the
+Most article bodies remain untranslated; the complete Finder is now translated
+as recorded below. Do not interpret the
 foundation batch as a completed language edition or enable any published flag.
 
 For efficient ongoing batches:
@@ -248,6 +249,42 @@ translated. Its US-only offer cards/prices and ItemList purchase URLs must be
 suppressed on regional editions until verified local commerce exists, and its
 new executable result-count labels need localization. Do not treat removing
 the sponsored anchors alone as sufficient regional offer isolation.
+
+### Complete direct Finder milestone (2026-10-14)
+
+Batch six completes the final 41 actual catalog records / 122 unique fields in
+NL/DE/FR. All 145 products now have distinct complete translated descriptions,
+best-for labels and image alternatives: 434 unique catalog fields, with zero
+current Finder translation gaps. Source model/variant identifiers are retained
+verbatim rather than inventing regional equivalence. Unknown prices and Amazon
+links remain suppressed; translating the catalog does not approve local offers.
+
+The refreshed coffee-bean hub is also complete, including the new Big Trouble,
+Forty-Six, French Roast and Major Dickason's qualifications and historical US
+prices. Concurrent US publishing increased the current source to 216 canonical
+pages / 44,388 unique slots. Old snapshots remain immutable and full article
+translation still has a substantial queue.
+
+Resolving the shared Finder dependency makes all 20 own-text-complete NL content
+pages and all 19 DE/FR pages renderable as scoped noindex previews; counts exclude
+the 404. The checked local outputs contain 21/20/20 pages including their 404s,
+with current metadata/JSON, stable routes, correct locale/canonical, matching
+scoped sitemaps and noindex robots. These are not full published editions.
+
+Browser checks cover search/reset, localized prices/ratings, absence of
+unverified Amazon links and responsive navigation. The new Deals navigation
+made German overflow at a narrow desktop width; the shared CSS/runtime menu
+breakpoint is now 1320px, with desktop/mobile fit and Escape behavior checked.
+The homepage's CSS-only English promotional badge now uses a translated
+`data-label` attribute while preserving the original US wording. A narrow
+validator correction treats the hyphen in `E61-style` as adjective punctuation,
+not part of the model, while exact model codes, URLs, placeholders, numbers and
+markup remain guarded by positive/negative tests. All 38 localization tests and
+analytics/consent validation pass. No full edition or DNS binding was published.
+
+Next priority: complete the remaining full articles, manufacturer pages and new
+Deals text/runtime, using current coverage and reusable direct wording. Keep
+the approved Dutch espresso-dosing route stable and preserve the US site.
 
 ## Missing configuration
 

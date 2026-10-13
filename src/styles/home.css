@@ -134,7 +134,7 @@ h1 {
   padding: 6px 10px; border: 2px solid var(--ink);
   color: var(--ink); background: var(--white);
   font-size: 0.7rem; font-weight: 900; letter-spacing: 0.08em;
-  text-transform: uppercase; content: "60-sec shortlist"; transform: rotate(2deg);
+  text-transform: uppercase; content: attr(data-label); transform: rotate(2deg);
 }
 .finder-step {
   margin-bottom: 10px; color: var(--yellow); font-size: 0.78rem;
