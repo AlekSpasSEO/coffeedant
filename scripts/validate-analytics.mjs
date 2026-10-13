@@ -93,4 +93,9 @@ assert.equal(run({ brokenStorage: true }).banner.hidden, false, 'Blocked storage
 for (const hostname of ['localhost', 'coffeedant.pages.dev', 'preview.coffeedant.pages.dev', 'alekspasseo.github.io']) {
   assert.equal(run({ hostname, choice: 'granted' }).appended.length, 0, `${hostname}: staging must not collect`);
 }
+for (const hostname of ['br.coffeedant.com', 'ca.coffeedant.com', 'at.coffeedant.com', 'ch.coffeedant.com']) {
+  assert.equal(run({ hostname, choice: 'granted' }).appended.length, 1, `${hostname}: configured regional hosts retain opt-in analytics`);
+  assert.equal(run({ hostname }).appended.length, 0, `${hostname}: no analytics before opt-in`);
+}
+assert.equal(run({ hostname: 'unregistered.coffeedant.com', choice: 'granted' }).appended.length, 0);
 console.log(`Verified GA4 coverage on ${htmlFiles.length} pages, consent/withdrawal, GPC, storage failures and preview exclusion.`);

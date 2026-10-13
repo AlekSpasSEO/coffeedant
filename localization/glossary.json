@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "terms": {
+    "pt": { "product review": "avaliação (not revisão)", "espresso machine": "máquina de espresso" },
+    "es": { "product review": "reseña" },
+    "de": { "product review": "Testbericht" },
+    "fr": { "product review": "test / avis" },
+    "it": { "product review": "recensione" },
+    "nl": { "product review": "review / beoordeling" }
+  },
+  "preserve": ["Coffeedant", "Aleksandar Spasevski", "Amazon", "Amazon Renewed", "Breville", "Sage", "De’Longhi", "DeLonghi", "Gaggia", "Jura", "JURA", "Lelit", "Rancilio", "Ascaso", "ECM", "Profitec", "Philips", "Miele", "Bosch", "Nespresso", "Keurig", "La Pavoni", "Flair", "PID", "E61"],
+  "rules": [
+    "Use natural coffee terminology for the target locale, not literal word-by-word translation.",
+    "Preserve model names, model codes, quoted evidence, brand names and the original editorial assessment.",
+    "Preserve all numeric facts and original currency references. Never invent exchange-rate conversions, regional prices, local testing, warranties, electrical specifications or model equivalence.",
+    "Translate legal text faithfully; do not invent jurisdiction-specific rights or compliance claims.",
+    "Use European Portuguese for pt-PT and Brazilian Portuguese for pt-BR.",
+    "Use Canadian French for fr-CA and France French for fr-FR.",
+    "Use Swiss Standard German for de-CH, including ss instead of ß where appropriate.",
+    "Use neutral Latin American Spanish for es-419. Do not assume all countries use Mexico's currency or electrical standards.",
+    "For English regional editions, adapt spelling and wording without changing documented source-market facts."
+  ]
+}

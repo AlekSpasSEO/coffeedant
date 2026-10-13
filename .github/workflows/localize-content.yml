@@ -1,0 +1,128 @@
+name: Translate and maintain regional editions
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'public/**'
+      - 'localization/editions.json'
+      - 'localization/glossary.json'
+      - 'localization/interface.json'
+      - 'localization/provider.json'
+      - 'scripts/localization/**'
+      - '.github/workflows/localize-content.yml'
+  schedule:
+    - cron: '43 3 * * *'
+  workflow_dispatch:
+    inputs:
+      edition:
+        description: 'Optional edition ID (br, ca, de, etc.); blank processes all'
+        type: choice
+        options: ['', uk, au, nz, nl, es, latam, pt, br, fr, ca, de, at, ch, it]
+      max_requests:
+        description: 'Maximum translation batches in this run (cost limit)'
+        type: number
+        default: 40
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  group: coffeedant-localization
+  cancel-in-progress: false
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run test:localization
+      - name: Build and index the latest US source
+        run: |
+          CF_PAGES=1 npm run build
+          npm run localization:source
+      - name: Check translation credential
+        id: access
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          LOCALIZATION_PROVIDER: ${{ vars.LOCALIZATION_PROVIDER }}
+        shell: bash
+        run: |
+          PROVIDER=$(node -p "process.env.LOCALIZATION_PROVIDER || require('./localization/provider.json').provider")
+          if [ "$PROVIDER" = cloudflare ] || [ -n "$OPENAI_API_KEY" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Missing OPENAI_API_KEY; translation queue is held. Amazon credentials are not translation credentials."
+          fi
+      - name: Translate changed blocks and register stable localized URLs
+        id: translations
+        if: steps.access.outputs.ready == 'true'
+        continue-on-error: true
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          LOCALIZATION_PROVIDER: ${{ vars.LOCALIZATION_PROVIDER }}
+          LOCALIZATION_MODEL: ${{ vars.LOCALIZATION_MODEL }}
+          LOCALIZATION_MAX_REQUESTS: ${{ inputs.max_requests || vars.LOCALIZATION_MAX_REQUESTS || '40' }}
+          TARGET_EDITION: ${{ inputs.edition }}
+        shell: bash
+        run: |
+          if [ -n "$TARGET_EDITION" ]; then
+            npm run localization:translate -- --edition "$TARGET_EDITION"
+          else
+            npm run localization:translate
+          fi
+      - name: Validate rollout status and identify missing configuration
+        if: always()
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          LOCALIZATION_PROVIDER: ${{ vars.LOCALIZATION_PROVIDER }}
+        run: npm run localization:status
+      - name: Preserve passing translations for the next run
+        if: always() && steps.access.outputs.ready == 'true'
+        shell: bash
+        run: |
+          git add localization/translations
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update regional translation cache"
+          # Rebase protects concurrent article/offer commits. Conflicts fail safely.
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Confirm live regional deployments before adding alternate-language links
+        id: releases
+        if: always()
+        continue-on-error: true
+        run: node scripts/localization/confirm-releases.mjs
+      - name: Publish verified regional routing metadata
+        if: always() && steps.releases.outcome == 'success'
+        run: |
+          git add localization/releases.json
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: confirm regional deployment routes"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: localization-status
+          path: |
+            .localization/status.json
+            .localization/translation-report.json
+          if-no-files-found: warn
+      - name: Report translation failures
+        if: steps.translations.outcome == 'failure' || steps.releases.outcome == 'failure'
+        run: exit 1

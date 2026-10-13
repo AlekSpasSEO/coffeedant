@@ -28,17 +28,25 @@ jobs:
           AMAZON_CREATORS_CREDENTIAL_SECRET: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_SECRET }}
           AMAZON_CREATORS_CREDENTIAL_VERSION: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_VERSION }}
         run: npm run update:amazon-offers
+      - name: Refresh configured regional offers using the existing Amazon credentials
+        env:
+          AMAZON_CREATORS_CREDENTIAL_ID: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_ID }}
+          AMAZON_CREATORS_CREDENTIAL_SECRET: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_SECRET }}
+          AMAZON_CREATORS_CREDENTIAL_VERSION: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_VERSION }}
+        run: npm run localization:refresh-offers
       - name: Verify the production build
         run: CF_PAGES=1 npm run build
       - name: Publish refreshed offer data
         run: |
-          if git diff --quiet -- src/data/amazon-offers.json; then
+          git add src/data/amazon-offers.json
+          if [ -d localization/offers ]; then git add localization/offers; fi
+          if git diff --cached --quiet; then
             echo "Amazon offer data is unchanged."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/data/amazon-offers.json
           # Cloudflare must deploy refreshed prices; do not add a CI-skip marker.
           git commit -m "chore: refresh Amazon offers"
+          git pull --rebase origin main
           git push

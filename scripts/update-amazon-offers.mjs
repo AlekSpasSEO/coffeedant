@@ -2,8 +2,12 @@ import { readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 
 const root = new URL('../', import.meta.url);
-const catalogPath = new URL('src/data/amazon-products.json', root);
-const offersPath = new URL('src/data/amazon-offers.json', root);
+const argument = (name) => {
+  const index = process.argv.indexOf(name);
+  return index < 0 ? null : process.argv[index + 1];
+};
+const catalogPath = argument('--catalog') ?? new URL('src/data/amazon-products.json', root);
+const offersPath = argument('--output') ?? new URL('src/data/amazon-offers.json', root);
 const credentialsFlag = process.argv.indexOf('--credentials');
 const credentialsPath = credentialsFlag >= 0 ? process.argv[credentialsFlag + 1] : null;
 
@@ -133,6 +137,7 @@ for (const [slug, product] of products) {
     title: item?.itemInfo?.title?.displayValue ?? product.productName,
     detailPageUrl: item?.detailPageURL ?? `https://www.amazon.com/dp/${product.asin}?tag=${encodeURIComponent(partnerTag)}`,
     price: listing?.price?.money?.displayAmount ?? null,
+    amount: listing?.price?.money?.amount ?? null,
     currency: listing?.price?.money?.currency ?? null,
     availabilityType: listing?.availability?.type ?? 'UNKNOWN',
     availabilityMessage: listing?.availability?.message ?? 'Check current availability on Amazon',

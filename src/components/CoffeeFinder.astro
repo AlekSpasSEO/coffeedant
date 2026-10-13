@@ -33,6 +33,8 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
   data-base={base}
   data-brand={brand}
   data-exclude-path={excludePath}
+  data-finder-load-failed="The finder could not load"
+  data-finder-load-fallback="Browse the full espresso-machine guide instead."
   aria-labelledby={variant === 'full' ? 'coffee-finder-title' : undefined}
 >
   <div class:list={{ shell: variant === 'full' }}>
@@ -126,12 +128,15 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
   type FinderItem = {
     brand: string; model: string; path: string; image: string; imageAlt: string;
     description: string; bestFor: string; amazonHref: string; amazonLabel: string; amazonNote?: string;
-    priceLabel: string; priceUsd: number | null;
+    priceLabel: string; priceUsd: number | null; priceAmount?: number | null;
     priceCurrency: string; rating: number | null; workflow: string; drink: string;
     experience: string; grinder: string; footprint: string; volume: string;
     availability: string; availabilityLabel: string; updated: string;
   };
-  type FinderCatalog = { generatedAt: string; cadenceDays: number; machineCount: number; brands: string[]; items: FinderItem[] };
+  type FinderCatalog = { generatedAt: string; cadenceDays: number; machineCount: number; brands: string[]; items: FinderItem[]; locale?: string; currency?: string; ui?: Record<string, string> };
+
+  const message = (template: string, values: Record<string, string | number>) =>
+    template.replace(/\{([a-z]+)\}/g, (token, key) => String(values[key] ?? token));
 
   const createNode = <K extends keyof HTMLElementTagNameMap>(tag: K, className?: string) => {
     const node = document.createElement(tag);
@@ -160,7 +165,7 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
     return drink === preference;
   };
 
-  const makeResultCard = (item: FinderItem, base: string, compact = false) => {
+  const makeResultCard = (item: FinderItem, base: string, compact = false, ui: Record<string, string> = {}, locale = 'en-US') => {
     const card = createNode('article', compact ? 'coffee-finder-result coffee-finder-result-compact' : 'coffee-finder-result');
     const href = sitePath(base, item.path);
     if (!compact) {
@@ -178,7 +183,7 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
     }
     const body = createNode('div', 'coffee-finder-result-body');
     const overline = createNode('p', 'coffee-finder-result-overline');
-    overline.textContent = `${item.brand} · ${item.workflow.replace('-', ' ')}`;
+    overline.textContent = `${item.brand} · ${ui[`workflow:${item.workflow}`] ?? item.workflow.replace('-', ' ')}`;
     const title = createNode('h3');
     const titleLink = createNode('a');
     titleLink.href = href;
@@ -194,19 +199,22 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
     meta.append(price, status);
     if (!compact && item.rating !== null) {
       const rating = createNode('span');
-      rating.textContent = `${item.rating.toFixed(1)}/5 Coffeedant`;
+      rating.textContent = `${new Intl.NumberFormat(locale, { minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(item.rating)}/5 Coffeedant`;
       meta.append(rating);
     }
     const actions = createNode('div', 'coffee-finder-result-actions');
     const reviewLink = createNode('a', 'coffee-finder-result-link');
     reviewLink.href = href;
-    reviewLink.textContent = 'Read the review →';
-    const amazonLink = createNode('a', 'coffee-finder-result-amazon');
-    amazonLink.href = item.amazonHref;
-    amazonLink.textContent = `${item.amazonLabel} ↗`;
-    amazonLink.target = '_blank';
-    amazonLink.rel = 'nofollow sponsored noopener';
-    actions.append(reviewLink, amazonLink);
+    reviewLink.textContent = ui.readReview ?? 'Read the review →';
+    actions.append(reviewLink);
+    if (item.amazonHref) {
+      const amazonLink = createNode('a', 'coffee-finder-result-amazon');
+      amazonLink.href = item.amazonHref;
+      amazonLink.textContent = `${item.amazonLabel} ↗`;
+      amazonLink.target = '_blank';
+      amazonLink.rel = 'nofollow sponsored noopener';
+      actions.append(amazonLink);
+    }
     body.append(overline, title, copy, meta, actions);
     if (item.amazonNote) {
       const purchaseNote = createNode('p', 'coffee-finder-result-purchase-note');
@@ -248,7 +256,7 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
         if (item.path === excludePath) return false;
         if (contextBrand && item.brand !== contextBrand) return false;
         if (query && !`${item.brand} ${item.model} ${item.description} ${item.bestFor}`.toLowerCase().includes(query)) return false;
-        if (!budgetMatch(item.priceUsd, filters.budget)) return false;
+        if (!budgetMatch(item.priceAmount ?? item.priceUsd, filters.budget)) return false;
         return (filters.workflow === 'any' || item.workflow === filters.workflow)
           && drinkMatch(item.drink, filters.drink)
           && (filters.brand === 'any' || item.brand === filters.brand)
@@ -265,9 +273,11 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
           || a.model.localeCompare(b.model);
       });
 
-      results.replaceChildren(...filtered.slice(0, visibleLimit).map((item) => makeResultCard(item, base, variant !== 'full')));
+      results.replaceChildren(...filtered.slice(0, visibleLimit).map((item) => makeResultCard(item, base, variant !== 'full', catalog!.ui, catalog!.locale)));
       results.setAttribute('aria-busy', 'false');
-      if (count) count.textContent = `${filtered.length} ${filtered.length === 1 ? 'machine' : 'machines'} match`;
+      if (count) count.textContent = catalog.ui?.matchCount
+        ? message(catalog.ui.matchCount, { count: filtered.length })
+        : `${filtered.length} ${filtered.length === 1 ? 'machine' : 'machines'} match`;
       if (empty) empty.hidden = filtered.length !== 0;
       if (more) more.hidden = filtered.length <= visibleLimit;
     };
@@ -288,14 +298,14 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
           brandSelect.append(option);
         });
         if (sync) {
-          const date = new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(data.generatedAt));
-          sync.textContent = `${data.machineCount} reviewed machines · catalog synced ${date} · refreshes every ${data.cadenceDays} days`;
+          const date = new Intl.DateTimeFormat(data.locale ?? 'en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(data.generatedAt));
+          sync.textContent = message(data.ui?.catalogSync ?? '{count} reviewed machines · catalog synced {date} · refreshes every {days} days', { count: data.machineCount, date, days: data.cadenceDays });
         }
         render();
       })
       .catch(() => {
-        if (count) count.textContent = 'The finder could not load';
-        if (sync) sync.textContent = 'Browse the full espresso-machine guide instead.';
+        if (count) count.textContent = root.dataset.finderLoadFailed ?? 'The finder could not load';
+        if (sync) sync.textContent = root.dataset.finderLoadFallback ?? 'Browse the full espresso-machine guide instead.';
         if (results) results.setAttribute('aria-busy', 'false');
       });
 
@@ -361,6 +371,7 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
   :global(.coffee-finder-result-compact .coffee-finder-result-meta span:nth-child(n+2)) { display: none; }
   .coffee-finder-empty { margin: 18px 0 0; padding: 20px; border: 1px solid var(--ink); background: var(--white); font-weight: 800; }
   .coffee-finder-more-results { display: block; margin: 20px auto 0; padding: 13px 20px; border: 2px solid var(--ink); color: var(--white); background: var(--ink); font: inherit; font-weight: 900; cursor: pointer; }
+  .coffee-finder-more-results[hidden] { display: none; }
   @media (max-width: 850px) {
     .coffee-finder-heading { grid-template-columns: 1fr; }
     .coffee-finder-primary-filters, .coffee-finder-secondary-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }

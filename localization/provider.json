@@ -1,0 +1,6 @@
+{
+  "provider": "cloudflare",
+  "endpoint": "https://coffeedant-localization.alek-spas-seo.workers.dev/translate",
+  "audience": "coffeedant-localization",
+  "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
+}
