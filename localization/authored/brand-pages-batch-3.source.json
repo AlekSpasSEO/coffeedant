@@ -1,0 +1,2927 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/bosch/",
+      "sourceHash": "c748c7f457490055cdaf7e9961fd2d44ff1426acd5699d456d2f7829e8828585"
+    },
+    {
+      "sourcePath": "/philips/",
+      "sourceHash": "512ebc1512f3a3cc1b0ae133e79af691369e33d4f80bb3b26a1d3236d2fe9795"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "0a0d670eda5ee53ba2129cc88b051df3eb06963d8833bc4c0e52a81cf664e275",
+      "source": "Read the review →",
+      "kind": "interface",
+      "context": "readReview"
+    },
+    {
+      "id": "ef8099f0e3bf24ec026679314fdc80bd6cb145c97b222a343fcc95e73f528e8f",
+      "source": "{count} matching machines",
+      "kind": "interface",
+      "context": "matchCount"
+    },
+    {
+      "id": "50316b77f24380bc16a8f4b635220dfc1afe6b7a21758041b2ba127429972f23",
+      "source": "{count} reviewed machines · catalog synced {date} · refreshes every {days} days",
+      "kind": "interface",
+      "context": "catalogSync"
+    },
+    {
+      "id": "32cd0b3cc289e647143e2317175af9876b40e9dfbf3b8b96cc6528ee420fe9e2",
+      "source": "The finder could not load",
+      "kind": "interface",
+      "context": "loadFailed"
+    },
+    {
+      "id": "7d9825f5c69d396d04915de3d3a9dd3778be2bb6b796cb6534b001ead8a7889c",
+      "source": "Browse the full espresso-machine guide instead.",
+      "kind": "interface",
+      "context": "loadFallback"
+    },
+    {
+      "id": "4ccee51f073849c1b4f7b919234e42f9ba4ed061b676c1fca6c1abb10ed525af",
+      "source": "Local price not verified",
+      "kind": "interface",
+      "context": "regionalPricePending"
+    },
+    {
+      "id": "16924133c8a186dc5954aa04d14a791c2330da0b4ee3ab7430bf934cc5df83f8",
+      "source": "Local availability not verified",
+      "kind": "interface",
+      "context": "regionalStockPending"
+    },
+    {
+      "id": "d7939cf4dec38f13b3ff12b0ac723773a6cbdb35dbdc916a5f0d115a085ee334",
+      "source": "Regional buying links are being verified. Check the exact model, electrical specification, seller and warranty before purchasing.",
+      "kind": "interface",
+      "context": "regionalBuyingPending"
+    },
+    {
+      "id": "1e1c9aa30448721855996d172cdde6ce2258f27603378ee200878c03a40bf0f1",
+      "source": "This edition adapts Coffeedant's US source review. Product specifications, testing evidence and historical prices refer to the reviewed source-market model unless a regional difference is explicitly verified. Local prices and buying links are shown only when verified.",
+      "kind": "interface",
+      "context": "regionalContext"
+    },
+    {
+      "id": "1621c8398ac932af7f460dc6a8a05093f99d805c922fbe8ea10b410bd69ce341",
+      "source": "Regional budget filtering becomes available when local prices have been verified. No currency conversion is used as a substitute for a local offer.",
+      "kind": "interface",
+      "context": "budgetPending"
+    },
+    {
+      "id": "71c9a2a51fdbbe72cc1db40c14482765e20f9bfa9342d32ef56fed60229bdf3c",
+      "source": "Language and region",
+      "kind": "interface",
+      "context": "languageRegion"
+    },
+    {
+      "id": "3f04c23ab048b88d5062761099c9f52a5d6c5f45f821e4e8997949e02cbc537e",
+      "source": "US source version",
+      "kind": "interface",
+      "context": "sourceVersion"
+    },
+    {
+      "id": "89339b32cca810efc6ad95e07f6c22d8787947ed44bd360935ec345daa8f5600",
+      "source": "One-touch automatic",
+      "kind": "interface",
+      "context": "workflow:one-touch"
+    },
+    {
+      "id": "aacf5cc9ff8a71b98cb179c6c4ecc84726a8ff0edb8147092c759febcdf2e1a9",
+      "source": "Guided / grinder built in",
+      "kind": "interface",
+      "context": "workflow:guided"
+    },
+    {
+      "id": "bac22e9ca6b832c1f2de73a22920f5394a896b6fc0c217d156433958e407daab",
+      "source": "Hands-on electric",
+      "kind": "interface",
+      "context": "workflow:hands-on"
+    },
+    {
+      "id": "731fb913d1a101d82fbaf62be058129d00dc7a420aeb336988a8037e0c7ffb51",
+      "source": "Manual lever / press",
+      "kind": "interface",
+      "context": "workflow:manual"
+    },
+    {
+      "id": "19cb9b260348754e96e3231ca361ae3ab8ad730f231064c0fac6039468ee19bd",
+      "source": "Capsule / pod",
+      "kind": "interface",
+      "context": "workflow:capsule"
+    },
+    {
+      "id": "1af06daf7716dc34c3901b32cebf6643576742b6a89202ce316127c3249b9042",
+      "source": "Commercial capacity",
+      "kind": "interface",
+      "context": "workflow:commercial"
+    },
+    {
+      "id": "86eb164636f1b80b967bb04be6873cac044613c65b08377c968ee43b653e16e2",
+      "source": "▶ Play the visual brew sequence",
+      "kind": "interface",
+      "context": "journalPlay"
+    },
+    {
+      "id": "66eb0707036b803a762c808d82a8068a868ef74d560c5d1f86443f1f9e2716a3",
+      "source": "Ⅱ Pause the visual brew sequence",
+      "kind": "interface",
+      "context": "journalPause"
+    },
+    {
+      "id": "1277484eba52f0a208bd8493f49c7ad985e51feeabf65d42c4eba0069b1b69f2",
+      "source": "Step through the visual sequence →",
+      "kind": "interface",
+      "context": "journalStep"
+    },
+    {
+      "id": "084800db3bf967825f74e411841e08cc05cf5ae8815b3416c666d4c8c40a53bf",
+      "source": "Showing {count} story",
+      "kind": "interface",
+      "context": "journalShowOne"
+    },
+    {
+      "id": "ad7a9ecb9e265851fa537f74d0eff50d3d642b622e7ef2efc62febfa7b7488b3",
+      "source": "Showing {count} stories",
+      "kind": "interface",
+      "context": "journalShowMany"
+    },
+    {
+      "id": "adc14888bf25ecff708cba1c2e9b3f01e5fc566f5fc65a04fba4f78f2df7fc22",
+      "source": "Sixteenth-century network: wild Ethiopian trade and expanding Yemeni cultivation. This schematic does not document one 1554 shipment.",
+      "kind": "interface",
+      "context": "journalRouteSixteenth"
+    },
+    {
+      "id": "f15f9f47f04504de77749576c1aff55d6167bf7bf3073cbaee889fe403695552",
+      "source": "Early seventeenth century: Mocha becomes the principal coffee entrepôt. Do not project that mature port system onto Istanbul’s 1554–55 openings.",
+      "kind": "interface",
+      "context": "journalRouteSeventeenth"
+    },
+    {
+      "id": "1deabe3a82508440aaec6641c32c7b8ff232e4cae6508892d43df743a3e3bf48",
+      "source": "{dose} g coffee → {espresso} g espresso + {water} g water",
+      "kind": "interface",
+      "context": "journalRecipe"
+    },
+    {
+      "id": "9121c7c23af5a653180ac16dd1377290bcef570da8d7c66379d52bf7500b881c",
+      "source": "{total} g finished drink · espresso ratio 1:2",
+      "kind": "interface",
+      "context": "journalTotal"
+    },
+    {
+      "id": "798bbe6d3c7e9ccf6e0c400b4f5dc9c9058a3be49f12dca0144a65053a6903a9",
+      "source": "{buffer} acid buffering; {hardness} calcium / magnesium context. Check the complete water analysis against your machine’s requirements.",
+      "kind": "interface",
+      "context": "journalWater"
+    },
+    {
+      "id": "550f7db8b080074efe1a40ab6ab28a2c25998dd8aa58f696277c0437a1152c54",
+      "source": "More",
+      "kind": "interface",
+      "context": "journalMore"
+    },
+    {
+      "id": "c2a9efdae9132caf3eaa2729638e2831bb51e1166917793f9a6478ceb855cb66",
+      "source": "Less",
+      "kind": "interface",
+      "context": "journalLess"
+    },
+    {
+      "id": "8ab17d4c829b0ead14f4f7b2a7752cbcc8909895445cd19ce6299fffa0f032d2",
+      "source": "higher",
+      "kind": "interface",
+      "context": "journalHigher"
+    },
+    {
+      "id": "4bfebab574cc1105a5ef55c9c1520ef42fdab0a5b7d3cbc264934a457c2bda2b",
+      "source": "lower",
+      "kind": "interface",
+      "context": "journalLower"
+    },
+    {
+      "id": "246a5309a5ca7b36f3a75687f144a8f7e0dc5f3d4eac477f801d148a920074cb",
+      "source": "Coffeedant home",
+      "kind": "attribute",
+      "context": "Coffeedant    Menu     \nMachines ⌄     Machine directory Find the right route, then compare the reviews.  View all machines →    Start here Choose a machine   All espresso machines Browse the complete review library  Best for beginners Four clear first-machine routes  Machines with a grinder Integrated and bean-to-cup options  Machines without a grinder Build a modular setup    Shop by need Match your workflow   Under $500 Keep the machine budget contained  Prosumer under $1,000 More control without four-figure hardware  Small machines Compact picks for tight counters  Single-boiler machines Focused, hands-on espresso  Superautomatic machines One-touch coffee and milk    More equipment Complete the setup   Coffee machines Brewers beyond espresso  Coffee grinders Manual and electric grinder reviews  Browse every brand Start with the manufacturer  How we test Read the Coffeedant methodology        \nBrands ⌄      Brand directory Pick a brand to see every review we have.  View all brands →    Directory All brands Compare the full brand map   Spain Ascaso 2 reviews →  Italy Bezzera 8 reviews →  Germany Bosch 3 reviews →  Australia Breville 11 reviews →  Italy De'Longhi 14 reviews →  Germany ECM 7 reviews →  Italy Gaggia 18 reviews →  Switzerland Jura 4 reviews →  United States Keurig 1 review →  Germany Krups 11 reviews →  Italy La Marzocco 2 reviews →  Italy La Pavoni 4 reviews →  Italy Lelit 7 reviews →  Switzerland Nespresso 1 review →  United States Ninja 1 review →  Netherlands Philips 5 reviews →  Germany Profitec 6 reviews →  Italy Quick Mill 9 reviews →  Italy Rancilio 2 reviews →  Italy Rocket Espresso 4 reviews →       ← All brands\n 2 reviews    Spain Ascaso   Brand guide About Ascaso →     Dual-thermoblock semi-automatic espresso machine Steel Duo PID Read review "
+    },
+    {
+      "id": "7eaadfcc2fa8e09a9038be78cd41727b17cfb540c95690d0b57b71b768d3ecac",
+      "source": "Coffeedant",
+      "kind": "text",
+      "context": "Coffeedant"
+    },
+    {
+      "id": "3d8df67a691db72158a7bf38ed48854402e93974e377c0c04813399ff92774b7",
+      "source": "Open menu",
+      "kind": "attribute",
+      "context": "Coffeedant    Menu     \nMachines ⌄     Machine directory Find the right route, then compare the reviews.  View all machines →    Start here Choose a machine   All espresso machines Browse the complete review library  Best for beginners Four clear first-machine routes  Machines with a grinder Integrated and bean-to-cup options  Machines without a grinder Build a modular setup    Shop by need Match your workflow   Under $500 Keep the machine budget contained  Prosumer under $1,000 More control without four-figure hardware  Small machines Compact picks for tight counters  Single-boiler machines Focused, hands-on espresso  Superautomatic machines One-touch coffee and milk    More equipment Complete the setup   Coffee machines Brewers beyond espresso  Coffee grinders Manual and electric grinder reviews  Browse every brand Start with the manufacturer  How we test Read the Coffeedant methodology        \nBrands ⌄      Brand directory Pick a brand to see every review we have.  View all brands →    Directory All brands Compare the full brand map   Spain Ascaso 2 reviews →  Italy Bezzera 8 reviews →  Germany Bosch 3 reviews →  Australia Breville 11 reviews →  Italy De'Longhi 14 reviews →  Germany ECM 7 reviews →  Italy Gaggia 18 reviews →  Switzerland Jura 4 reviews →  United States Keurig 1 review →  Germany Krups 11 reviews →  Italy La Marzocco 2 reviews →  Italy La Pavoni 4 reviews →  Italy Lelit 7 reviews →  Switzerland Nespresso 1 review →  United States Ninja 1 review →  Netherlands Philips 5 reviews →  Germany Profitec 6 reviews →  Italy Quick Mill 9 reviews →  Italy Rancilio 2 reviews →  Italy Rocket Espresso 4 reviews →       ← All brands\n 2 reviews    Spain Ascaso   Brand guide About Ascaso →     Dual-thermoblock semi-automatic espresso machine Steel Duo PID Read review "
+    },
+    {
+      "id": "3805c6128d4fd37c99d724f6dfcb455214c91009ba9bb9b63de80b994635dc1f",
+      "source": "Close menu",
+      "kind": "attribute",
+      "context": "Coffeedant    Menu     \nMachines ⌄     Machine directory Find the right route, then compare the reviews.  View all machines →    Start here Choose a machine   All espresso machines Browse the complete review library  Best for beginners Four clear first-machine routes  Machines with a grinder Integrated and bean-to-cup options  Machines without a grinder Build a modular setup    Shop by need Match your workflow   Under $500 Keep the machine budget contained  Prosumer under $1,000 More control without four-figure hardware  Small machines Compact picks for tight counters  Single-boiler machines Focused, hands-on espresso  Superautomatic machines One-touch coffee and milk    More equipment Complete the setup   Coffee machines Brewers beyond espresso  Coffee grinders Manual and electric grinder reviews  Browse every brand Start with the manufacturer  How we test Read the Coffeedant methodology        \nBrands ⌄      Brand directory Pick a brand to see every review we have.  View all brands →    Directory All brands Compare the full brand map   Spain Ascaso 2 reviews →  Italy Bezzera 8 reviews →  Germany Bosch 3 reviews →  Australia Breville 11 reviews →  Italy De'Longhi 14 reviews →  Germany ECM 7 reviews →  Italy Gaggia 18 reviews →  Switzerland Jura 4 reviews →  United States Keurig 1 review →  Germany Krups 11 reviews →  Italy La Marzocco 2 reviews →  Italy La Pavoni 4 reviews →  Italy Lelit 7 reviews →  Switzerland Nespresso 1 review →  United States Ninja 1 review →  Netherlands Philips 5 reviews →  Germany Profitec 6 reviews →  Italy Quick Mill 9 reviews →  Italy Rancilio 2 reviews →  Italy Rocket Espresso 4 reviews →       ← All brands\n 2 reviews    Spain Ascaso   Brand guide About Ascaso →     Dual-thermoblock semi-automatic espresso machine Steel Duo PID Read review "
+    },
+    {
+      "id": "a8e82bf9fe11c6a819271861cdbccb9ec9a9029c37c6ebf0dfbe92e673d601bd",
+      "source": "Menu",
+      "kind": "text",
+      "context": "Menu"
+    },
+    {
+      "id": "b71e5c8433a4e516c1395060a184e26248969646260e48f61d74daff82d94707",
+      "source": "Primary navigation",
+      "kind": "attribute",
+      "context": "Coffeedant    Menu     \nMachines ⌄     Machine directory Find the right route, then compare the reviews.  View all machines →    Start here Choose a machine   All espresso machines Browse the complete review library  Best for beginners Four clear first-machine routes  Machines with a grinder Integrated and bean-to-cup options  Machines without a grinder Build a modular setup    Shop by need Match your workflow   Under $500 Keep the machine budget contained  Prosumer under $1,000 More control without four-figure hardware  Small machines Compact picks for tight counters  Single-boiler machines Focused, hands-on espresso  Superautomatic machines One-touch coffee and milk    More equipment Complete the setup   Coffee machines Brewers beyond espresso  Coffee grinders Manual and electric grinder reviews  Browse every brand Start with the manufacturer  How we test Read the Coffeedant methodology        \nBrands ⌄      Brand directory Pick a brand to see every review we have.  View all brands →    Directory All brands Compare the full brand map   Spain Ascaso 2 reviews →  Italy Bezzera 8 reviews →  Germany Bosch 3 reviews →  Australia Breville 11 reviews →  Italy De'Longhi 14 reviews →  Germany ECM 7 reviews →  Italy Gaggia 18 reviews →  Switzerland Jura 4 reviews →  United States Keurig 1 review →  Germany Krups 11 reviews →  Italy La Marzocco 2 reviews →  Italy La Pavoni 4 reviews →  Italy Lelit 7 reviews →  Switzerland Nespresso 1 review →  United States Ninja 1 review →  Netherlands Philips 5 reviews →  Germany Profitec 6 reviews →  Italy Quick Mill 9 reviews →  Italy Rancilio 2 reviews →  Italy Rocket Espresso 4 reviews →       ← All brands\n 2 reviews    Spain Ascaso   Brand guide About Ascaso →     Dual-thermoblock semi-automatic espresso machine Steel Duo PID Read review "
+    },
+    {
+      "id": "ee1bc5891d795bd7c5e79fa0140c47f92f6954f23cb810106640208f507b2c27",
+      "source": "Machines",
+      "kind": "text",
+      "context": "Machines ⌄"
+    },
+    {
+      "id": "3675b3e88b449b4f0565ed79066d8e7740ec908f95b51be73e44eded843750d1",
+      "source": "Machine directory",
+      "kind": "text",
+      "context": "Machine directory"
+    },
+    {
+      "id": "c72574f7b29b004ab9d5a7fd3e5de48b8e13cf60f24144a726c9970c3314cbcb",
+      "source": "Find the right route, then compare the reviews.",
+      "kind": "text",
+      "context": "Find the right route, then compare the reviews."
+    },
+    {
+      "id": "c8a4045c25812c7bc802c6d10d04e3ef07c5f26d08465add91a4845ecd7d11cc",
+      "source": "View all machines",
+      "kind": "text",
+      "context": "View all machines →"
+    },
+    {
+      "id": "8b6c5554fa21968c7ce76761ae1e7a8b4d9cd1f4376dfa30b0bc7edddea78999",
+      "source": "Start here",
+      "kind": "text",
+      "context": "Start here"
+    },
+    {
+      "id": "acf5d723fb3f100f4b33477e2141613062924e1a68df8121651d4db2ff332cbe",
+      "source": "Choose a machine",
+      "kind": "text",
+      "context": "Choose a machine"
+    },
+    {
+      "id": "f9beb80d4f8b157d003e546f6a6a7a05b58dc96e9586e9a18809ffcbea59eaad",
+      "source": "All espresso machines",
+      "kind": "text",
+      "context": "All espresso machines"
+    },
+    {
+      "id": "a7f9f07daf89a7641c77243b130ccb3e8ea40061dafb842273f68ddeb336de83",
+      "source": "Browse the complete review library",
+      "kind": "text",
+      "context": "Browse the complete review library"
+    },
+    {
+      "id": "7d3fbf9dadd0cc9178109f5d09bb5b0375a35bd8e007e6115900604fc483fe4d",
+      "source": "Best for beginners",
+      "kind": "text",
+      "context": "Best for beginners"
+    },
+    {
+      "id": "67a36098d22d54ed444a64f23b8b7cc0bb32350fea4ec4f1038145b069bcf755",
+      "source": "Four clear first-machine routes",
+      "kind": "text",
+      "context": "Four clear first-machine routes"
+    },
+    {
+      "id": "70c471bdef3b05b5ffc24205dfc9da9c8fadfc31403922f07286d82b519e8e54",
+      "source": "Machines with a grinder",
+      "kind": "text",
+      "context": "Machines with a grinder"
+    },
+    {
+      "id": "ce4564b2d3fa4d86677768db7bfc85f472d4467927262ecac7e11051e1b724ba",
+      "source": "Integrated and bean-to-cup options",
+      "kind": "text",
+      "context": "Integrated and bean-to-cup options"
+    },
+    {
+      "id": "08ca59782d2a7fb390eccce104b6bf174f1f8dba797c99d2caba195976e58a32",
+      "source": "Machines without a grinder",
+      "kind": "text",
+      "context": "Machines without a grinder"
+    },
+    {
+      "id": "eb1c6f86dcb7ccd37ea98e1ea9a0aa0958f4b2b239ebafe79befbc7c9a7e228e",
+      "source": "Build a modular setup",
+      "kind": "text",
+      "context": "Build a modular setup"
+    },
+    {
+      "id": "cac6692de4159244e92039d9b08b80676297d01bcc241ca86189a49602d121d9",
+      "source": "Shop by need",
+      "kind": "text",
+      "context": "Shop by need"
+    },
+    {
+      "id": "4e203a747a93aee753320c5f1b31149e5ea1c931a89ee0ced4c55253ca17ec95",
+      "source": "Match your workflow",
+      "kind": "text",
+      "context": "Match your workflow"
+    },
+    {
+      "id": "85659d61da581749e2b469022ee19ced1413997f110fa85ba198c9ceb758c1f7",
+      "source": "Under $500",
+      "kind": "text",
+      "context": "Under $500"
+    },
+    {
+      "id": "4d669d235b00b303a6287a2c8b3123b4493e5985a7da77f606d42cbf8dccb08d",
+      "source": "Keep the machine budget contained",
+      "kind": "text",
+      "context": "Keep the machine budget contained"
+    },
+    {
+      "id": "759d9f1fe68c08349ab64fd63414afa41ab2798572fca3b6f3df2983e1576999",
+      "source": "Prosumer under $1,000",
+      "kind": "text",
+      "context": "Prosumer under $1,000"
+    },
+    {
+      "id": "9e7ebfb37a03f8787ac7407701bfd7c9eaeefb98a0dfafca40aab2479df2d80b",
+      "source": "More control without four-figure hardware",
+      "kind": "text",
+      "context": "More control without four-figure hardware"
+    },
+    {
+      "id": "173a81533607e225a1211c9af3bcb3e07a8df247c18d620ce415ba8039ed7ac4",
+      "source": "Small machines",
+      "kind": "text",
+      "context": "Small machines"
+    },
+    {
+      "id": "4ab11855e2904e4275245b016e83a48a75bf1ae997e853aef1d8dd35e1169e5c",
+      "source": "Compact picks for tight counters",
+      "kind": "text",
+      "context": "Compact picks for tight counters"
+    },
+    {
+      "id": "c345e1684b58f036c7ec8536096926e9aedd7ce8e2096b0c66a4972036983a8b",
+      "source": "Single-boiler machines",
+      "kind": "text",
+      "context": "Single-boiler machines"
+    },
+    {
+      "id": "6d6c4644fb50620a78416fdd2751bea5f6c03f377fcec7777be1ba038e2de8cb",
+      "source": "Focused, hands-on espresso",
+      "kind": "text",
+      "context": "Focused, hands-on espresso"
+    },
+    {
+      "id": "6e47b60ec12293fc57aa6e10650c4b402cfaf59272af7ce9cd6d75ddd0638a17",
+      "source": "Superautomatic machines",
+      "kind": "text",
+      "context": "Superautomatic machines"
+    },
+    {
+      "id": "d472ef6f839ef203724dfdb3978de361a5c0a25f9570fa8ed4905dbf0d892119",
+      "source": "One-touch coffee and milk",
+      "kind": "text",
+      "context": "One-touch coffee and milk"
+    },
+    {
+      "id": "92a2113a033fa7bbb80f53c0d6f454ba4b25bbc644f8a3491eeee05ba9608072",
+      "source": "More equipment",
+      "kind": "text",
+      "context": "More equipment"
+    },
+    {
+      "id": "4e7fc0ab8f4b9c0d2a5356eeba1527232d598e8675dd12462eeedc0bc8caa59e",
+      "source": "Complete the setup",
+      "kind": "text",
+      "context": "Complete the setup"
+    },
+    {
+      "id": "c33bb32fc3b35446485ce45cf2ed9ce28b67ae654750abb3fd0503f45a65aca0",
+      "source": "Coffee machines",
+      "kind": "text",
+      "context": "Coffee machines"
+    },
+    {
+      "id": "348fde5d1f5e93441c7db7a632dd9f72bbf61c3450015de9fcae1e56833a7c21",
+      "source": "Brewers beyond espresso",
+      "kind": "text",
+      "context": "Brewers beyond espresso"
+    },
+    {
+      "id": "3e4358474c61b8a9961800a7bb58c67014fc5482fbb73e63f42c27c5f599f768",
+      "source": "Coffee grinders",
+      "kind": "text",
+      "context": "Coffee grinders"
+    },
+    {
+      "id": "39c31b153169c5a00ee4220097673591390df644113c0c8806ee60749859aca1",
+      "source": "Manual and electric grinder reviews",
+      "kind": "text",
+      "context": "Manual and electric grinder reviews"
+    },
+    {
+      "id": "a2db02ef51f17f1eaf69875f71e170823dfe244f6d3a9d7d47ac7d10ebf2dc31",
+      "source": "Browse every brand",
+      "kind": "text",
+      "context": "Browse every brand"
+    },
+    {
+      "id": "c925b13544da625a4d0cda09c956648c13927e0eba6143f4dfd78afd49249025",
+      "source": "Start with the manufacturer",
+      "kind": "text",
+      "context": "Start with the manufacturer"
+    },
+    {
+      "id": "cd66210d9631e93c4b9f98a145bd08f33ed892d30b40d25634c16f3791b29f62",
+      "source": "How we test",
+      "kind": "text",
+      "context": "How we test"
+    },
+    {
+      "id": "698f6a72adda34be63c99508887859dde6fd17b1a7b5e80bb612a183d2e965b8",
+      "source": "Read the Coffeedant methodology",
+      "kind": "text",
+      "context": "Read the Coffeedant methodology"
+    },
+    {
+      "id": "7607929720fe31358ef8e9ff77f1447c6dc265c7dfb36d5ba509bab6d74605ea",
+      "source": "Brands",
+      "kind": "text",
+      "context": "Brands ⌄"
+    },
+    {
+      "id": "8d9259f92d3d1d73a3bb89606401cc7cf9ce68d5904265bc47cb8d49d92b02e3",
+      "source": "Brand directory",
+      "kind": "text",
+      "context": "Brand directory"
+    },
+    {
+      "id": "8d72ea8537dc73ea2603de323511755049f1188118be6a4e7d8f7e9c0eb80fc3",
+      "source": "Pick a brand to see every review we have.",
+      "kind": "text",
+      "context": "Pick a brand to see every review we have."
+    },
+    {
+      "id": "c363bd643f15f09945922a7eeaa7824efd380b0b7c2d9d79af0892fd3a6cf35d",
+      "source": "View all brands",
+      "kind": "text",
+      "context": "View all brands →"
+    },
+    {
+      "id": "50e4d5da60cf6d5612b961d9066e70dd5fd1d09c60d52ed641d250a4988606ca",
+      "source": "Choose a coffee equipment brand",
+      "kind": "attribute",
+      "context": "Brand directory Pick a brand to see every review we have.  View all brands →    Directory All brands Compare the full brand map   Spain Ascaso 2 reviews →  Italy Bezzera 8 reviews →  Germany Bosch 3 reviews →  Australia Breville 11 reviews →  Italy De'Longhi 14 reviews →  Germany ECM 7 reviews →  Italy Gaggia 18 reviews →  Switzerland Jura 4 reviews →  United States Keurig 1 review →  Germany Krups 11 reviews →  Italy La Marzocco 2 reviews →  Italy La Pavoni 4 reviews →  Italy Lelit 7 reviews →  Switzerland Nespresso 1 review →  United States Ninja 1 review →  Netherlands Philips 5 reviews →  Germany Profitec 6 reviews →  Italy Quick Mill 9 reviews →  Italy Rancilio 2 reviews →  Italy Rocket Espresso 4 reviews →"
+    },
+    {
+      "id": "f03e8f8b686e1530c6e3481b1d401fcf94e2830acc26bce037a7d4af6c20f1d6",
+      "source": "Directory",
+      "kind": "text",
+      "context": "Directory"
+    },
+    {
+      "id": "45aaf765c9629627e2a23165431c32b48ecfe19f3f5ebdf40df8c727ebd3b0b3",
+      "source": "All brands",
+      "kind": "text",
+      "context": "All brands"
+    },
+    {
+      "id": "0d9a212b82cb41f06e7d116354092f2a6fca5f54d296fd64a1b0256f3eedcb54",
+      "source": "Compare the full brand map",
+      "kind": "text",
+      "context": "Compare the full brand map"
+    },
+    {
+      "id": "71393d03d76335eb9027603e8f0f3a742b6f01c81671d912bb82a8160358def3",
+      "source": "Spain",
+      "kind": "text",
+      "context": "Spain"
+    },
+    {
+      "id": "618e4aebdc675a694d1bc26d52d8e0e40779924a42b34813391e73194854310b",
+      "source": "Ascaso",
+      "kind": "text",
+      "context": "Ascaso"
+    },
+    {
+      "id": "b8c89f23d24c1db932ea944097630964606c717425e83dbbf0cfdd095be6c2ec",
+      "source": "2 reviews",
+      "kind": "text",
+      "context": "2 reviews →"
+    },
+    {
+      "id": "5f8cefa95fc00333e1d4f8bbc6e5effd53d967a5699e6b6bd7b48867cb472234",
+      "source": "Italy",
+      "kind": "text",
+      "context": "Italy"
+    },
+    {
+      "id": "8b10224a6406c8dec337c5ca39986e230fcb3c5bbd38bde1ce38f439b1f67355",
+      "source": "Bezzera",
+      "kind": "text",
+      "context": "Bezzera"
+    },
+    {
+      "id": "43e4ec2788958cd9076d462245ba07d6d61196f2113c638951ce01febb476db6",
+      "source": "8 reviews",
+      "kind": "text",
+      "context": "8 reviews →"
+    },
+    {
+      "id": "ded9414d76ff96e0ed71ae36abe5ca3f9a37af17d267b927a92e97fe9383945f",
+      "source": "Germany",
+      "kind": "text",
+      "context": "Germany"
+    },
+    {
+      "id": "9963436cc6b6ea6e7525213297c1d469956c8347efad8e53b213a525dcdaef53",
+      "source": "Bosch",
+      "kind": "text",
+      "context": "Bosch"
+    },
+    {
+      "id": "4a54a0bb599074ae811ded71f5d6bf4da999500b9149c86c8ca5a4ec627b58cd",
+      "source": "3 reviews",
+      "kind": "text",
+      "context": "3 reviews →"
+    },
+    {
+      "id": "3f5a736b3e473dc204f06ab46c8a0d4e556f9d30cf97c940b7ef7f52a8cccc68",
+      "source": "Australia",
+      "kind": "text",
+      "context": "Australia"
+    },
+    {
+      "id": "81044db654053e56fa64bdf3ab325384a755ffa780da71ad26b484310ab69588",
+      "source": "Breville",
+      "kind": "text",
+      "context": "Breville"
+    },
+    {
+      "id": "92c05c89331745f59712a503ba052418b4f0125c415218a70712d94e73d212ea",
+      "source": "11 reviews",
+      "kind": "text",
+      "context": "11 reviews →"
+    },
+    {
+      "id": "ca48c899efb991167c6cf68f70a8338cc347126e482a1bfbc90da54a4cb73f88",
+      "source": "De'Longhi",
+      "kind": "text",
+      "context": "De'Longhi"
+    },
+    {
+      "id": "a4fa7e92ea5c02b1203942be9dad3e70ce8f4eb5985572b95334c2411376213a",
+      "source": "14 reviews",
+      "kind": "text",
+      "context": "14 reviews →"
+    },
+    {
+      "id": "df17724a4b69fb97171152d15abb67d49c20f41730ca8957f64b8a900a7dd5ad",
+      "source": "ECM",
+      "kind": "text",
+      "context": "ECM"
+    },
+    {
+      "id": "0ef2bb1a83c6b398a845d34e8fd60762c253bb380200670ad50e904c53126a28",
+      "source": "7 reviews",
+      "kind": "text",
+      "context": "7 reviews →"
+    },
+    {
+      "id": "b4faac0a2b233f7689d6823b07f768c44626e1ce27a7781c5ef61d1f02a960a3",
+      "source": "Gaggia",
+      "kind": "text",
+      "context": "Gaggia"
+    },
+    {
+      "id": "1d57b2c822d866d94ce2cbc8a1e5c0806b05563b97ad28685c864ab29687f0b5",
+      "source": "18 reviews",
+      "kind": "text",
+      "context": "18 reviews →"
+    },
+    {
+      "id": "92f033479e9d95e1dcde3e346b28d8c09d5ddf9752ff3f44475b9c68988a5ab9",
+      "source": "Switzerland",
+      "kind": "text",
+      "context": "Switzerland"
+    },
+    {
+      "id": "60cfd39302c728a5e4debad5389afa34c169af3bf6d32c94feb145d5a9ad7491",
+      "source": "Jura",
+      "kind": "text",
+      "context": "Jura"
+    },
+    {
+      "id": "1260cb8b2640dad586b4c73faca17f52afebdea8cd7e3640587914b92617ad4c",
+      "source": "4 reviews",
+      "kind": "text",
+      "context": "4 reviews →"
+    },
+    {
+      "id": "47d33662fd1d88f1e8e8a541b1ba4a1ec28576e28d4eece1e3102308b9c43f31",
+      "source": "United States",
+      "kind": "text",
+      "context": "United States"
+    },
+    {
+      "id": "527185747581e37ec4b67aeb434b5ffd4bee6f556705ee3ced5c7a928e80b856",
+      "source": "Keurig",
+      "kind": "text",
+      "context": "Keurig"
+    },
+    {
+      "id": "fb77091c7b59af3dd4f131129d9bf4f402e8071dd3632f2a13f58e9496cf739c",
+      "source": "1 review",
+      "kind": "text",
+      "context": "1 review →"
+    },
+    {
+      "id": "dc3322d843018e196d47b88a82012555b7060caa2b06e817b873344437a0fc4b",
+      "source": "Krups",
+      "kind": "text",
+      "context": "Krups"
+    },
+    {
+      "id": "a7379d2477b5b037ca2fe5f5bd5d7133c002ca8869078b96acda2f20787a411b",
+      "source": "La Marzocco",
+      "kind": "text",
+      "context": "La Marzocco"
+    },
+    {
+      "id": "0b77d7575d917228c5dec8c45d0725e9c0d614cbee7b1dc105f1d99f590001dc",
+      "source": "La Pavoni",
+      "kind": "text",
+      "context": "La Pavoni"
+    },
+    {
+      "id": "6cd78b7782b02382e147270383f2587f02f0b2fb4d0b21888d12de2801207cf5",
+      "source": "Lelit",
+      "kind": "text",
+      "context": "Lelit"
+    },
+    {
+      "id": "495a8925db0a88ca16b592efaa17aeae782cf5a2b0893238a8d0be622e52ea95",
+      "source": "Nespresso",
+      "kind": "text",
+      "context": "Nespresso"
+    },
+    {
+      "id": "1468f84c7c6ce22db63df5ca4a53a8425259d7dff7c83ee248a1581bee38422d",
+      "source": "Ninja",
+      "kind": "text",
+      "context": "Ninja"
+    },
+    {
+      "id": "b592870ee78dcd5179d5a49a4f501a120f566fdf83169972d7d2429c44821e04",
+      "source": "Netherlands",
+      "kind": "text",
+      "context": "Netherlands"
+    },
+    {
+      "id": "1a2199d18f18cea9881a076247c3f6279ee6bee333bb3da69413e2fd32e7837a",
+      "source": "Philips",
+      "kind": "text",
+      "context": "Philips"
+    },
+    {
+      "id": "0f74483ec4654424f167aae125a8eaacb357e146153708337b8abcd40bccf0fa",
+      "source": "5 reviews",
+      "kind": "text",
+      "context": "5 reviews →"
+    },
+    {
+      "id": "26290ef892b1d8d7c285efd77fc066f78a73482d2a353e2f424f7f53b0fc8ab8",
+      "source": "Profitec",
+      "kind": "text",
+      "context": "Profitec"
+    },
+    {
+      "id": "20e46657312ac49eeee8818ad528780052ca741d9f89746afa9206f08949c3f3",
+      "source": "6 reviews",
+      "kind": "text",
+      "context": "6 reviews →"
+    },
+    {
+      "id": "1700d92695f91589e41a9332b15574ab2e1275e953f830e6fb6190eec385e7fb",
+      "source": "Quick Mill",
+      "kind": "text",
+      "context": "Quick Mill"
+    },
+    {
+      "id": "d1e8e51ad34bea8c43beb12fb5e945cb05a65588a1c89095285957ae0f406dd7",
+      "source": "9 reviews",
+      "kind": "text",
+      "context": "9 reviews →"
+    },
+    {
+      "id": "33d3ba100e6abb4ca9357028afa185113efabfbd18df20110e155c81ee447707",
+      "source": "Rancilio",
+      "kind": "text",
+      "context": "Rancilio"
+    },
+    {
+      "id": "90ccbacba9387b585017445e7398c26ef6665e0c21105d3ae783c7ea5adb0635",
+      "source": "Rocket Espresso",
+      "kind": "text",
+      "context": "Rocket Espresso"
+    },
+    {
+      "id": "bb8c4cb73084dc4b91127441382c9876863a0f42dd83b5e52949ecf58d60c37c",
+      "source": "Brand guide",
+      "kind": "text",
+      "context": "Brand guide"
+    },
+    {
+      "id": "780b6ab1402ac8a16d72628bba09b4c0993987e4e822e0196840abbe30261cb7",
+      "source": "About Ascaso",
+      "kind": "text",
+      "context": "About Ascaso"
+    },
+    {
+      "id": "77b64ea9dd3593efaf4d4da16521979637b72806f0f84a54a2157d9b5b93870a",
+      "source": "Dual-thermoblock semi-automatic espresso machine",
+      "kind": "text",
+      "context": "Dual-thermoblock semi-automatic espresso machine"
+    },
+    {
+      "id": "8270d0d0401663eca68a04d35c3ad9fd3ec720c02e72c4c6b5c0c7a42b39aeb9",
+      "source": "Steel Duo PID",
+      "kind": "text",
+      "context": "Steel Duo PID"
+    },
+    {
+      "id": "da3980e1f7c96dc90561e4287f9d2c3b7764f954af50c65ad5321f54c77537ab",
+      "source": "Read review",
+      "kind": "text",
+      "context": "Read review →"
+    },
+    {
+      "id": "f8aff131db75855c04e5edff19c16c075520db1b312b519204ea5eb073478360",
+      "source": "Single-thermoblock semi-automatic espresso machine",
+      "kind": "text",
+      "context": "Single-thermoblock semi-automatic espresso machine"
+    },
+    {
+      "id": "41d057b32e6b716a90b8cd89a49b88865c012fffc2942decd027838d4403aded",
+      "source": "Steel Uno PID",
+      "kind": "text",
+      "context": "Steel Uno PID"
+    },
+    {
+      "id": "8322d9495d3e7bbaa0436e44ca4f9fe664838d647925cc676fe8e0af838bccd1",
+      "source": "About Bezzera",
+      "kind": "text",
+      "context": "About Bezzera"
+    },
+    {
+      "id": "099205fffb9d48d1c78e619a5229a7564a5ef18e1bd1ec8d78835b485c96ce19",
+      "source": "Semi-automatic espresso machine, single boiler",
+      "kind": "text",
+      "context": "Semi-automatic espresso machine, single boiler"
+    },
+    {
+      "id": "155491ff8a6836429b4e144a0352beface39dec08a916dbabd1a2c9fa570be4c",
+      "source": "BZ09",
+      "kind": "text",
+      "context": "BZ09"
+    },
+    {
+      "id": "30def2baba9a5df94c3f0d914c2293d7bcc9577d1a071c5d1c70982c732fd09c",
+      "source": "Semi-automatic espresso machine, heat exchanger",
+      "kind": "text",
+      "context": "Semi-automatic espresso machine, heat exchanger"
+    },
+    {
+      "id": "91599b293b70a90f451e503cd240f21914c4c2108981e73c03544b6158222de2",
+      "source": "BZ10",
+      "kind": "text",
+      "context": "BZ10"
+    },
+    {
+      "id": "188d4cef428ac8be403d84c0df5ced0c64fde361e8f994a4892d265f26e4fa1d",
+      "source": "Semi-automatic heat-exchanger espresso machine",
+      "kind": "text",
+      "context": "Semi-automatic heat-exchanger espresso machine"
+    },
+    {
+      "id": "e426e67888b3d1c9ad771ad6b1b5111edb4280fdf29543258cb03e9182c2173a",
+      "source": "BZ13 PID",
+      "kind": "text",
+      "context": "BZ13 PID"
+    },
+    {
+      "id": "e2e38e078732c0468cea6e1cb363f2eef64756a9edd3c6df8d0c2d8fd2ecc57c",
+      "source": "Semi-automatic dual-boiler espresso machine",
+      "kind": "text",
+      "context": "Semi-automatic dual-boiler espresso machine"
+    },
+    {
+      "id": "07c29a670c633eb2acda4701743b1be293995446a61162601cce7b96c67433c2",
+      "source": "Duo MN",
+      "kind": "text",
+      "context": "Duo MN"
+    },
+    {
+      "id": "354dd0c5eb6309098512d64e6c1d128dfc40aa554d9d5039c2b338a84716b5a8",
+      "source": "Hobby 01",
+      "kind": "text",
+      "context": "Hobby 01"
+    },
+    {
+      "id": "08d0c3ae94feba6b522c7bfcb81238935fb7417c9df8828c92766b8047c09a12",
+      "source": "Mitica Top PID",
+      "kind": "text",
+      "context": "Mitica Top PID"
+    },
+    {
+      "id": "cbb77853bbafe868b8f716f6b64371d3546ff505447d77b169443a22b914d66a",
+      "source": "Spring-lever espresso machine",
+      "kind": "text",
+      "context": "Spring-lever espresso machine"
+    },
+    {
+      "id": "e49f766e020be939fead2e0da00a7764242686c74de0f73a0956bc508c2e7cff",
+      "source": "Strega",
+      "kind": "text",
+      "context": "Strega"
+    },
+    {
+      "id": "d96a660652f3ae41f0fe02fdc16f63438d760aba19c6fbbaa9f9385507fea085",
+      "source": "Single-boiler PID espresso machine",
+      "kind": "text",
+      "context": "Single-boiler PID espresso machine"
+    },
+    {
+      "id": "02d6ccdfb093e8c0969e528ce604b62cb67ab296c8581ffbb7edd5b5d93f9c29",
+      "source": "Unica PID",
+      "kind": "text",
+      "context": "Unica PID"
+    },
+    {
+      "id": "0de74ff4907b0f3121ad8153844322a18a847c8edfff9bff9a41624e527e1c63",
+      "source": "About Bosch",
+      "kind": "text",
+      "context": "About Bosch"
+    },
+    {
+      "id": "4c6bfaf2b61fe581dbe482f231b29f27cdbbac660888b38c440a0915468cb0de",
+      "source": "Fully automatic espresso machine",
+      "kind": "text",
+      "context": "Fully automatic espresso machine"
+    },
+    {
+      "id": "6a6db70ad83f6fdc58ac43c3e7f7e657f713142152fb29f4ec70b696ca50144f",
+      "source": "300 Series VeroCafe TIU20307",
+      "kind": "text",
+      "context": "300 Series VeroCafe TIU20307"
+    },
+    {
+      "id": "327f71df97d906be92d90391587bdf9347a62ec26711cf56b081bfe40a0898af",
+      "source": "500 Series VeroCafe TPU40109",
+      "kind": "text",
+      "context": "500 Series VeroCafe TPU40109"
+    },
+    {
+      "id": "965f4c1dad25d722c28e4a77af4ce6041fdb2550e088ca21acda90aafd999999",
+      "source": "Connected fully automatic espresso machine",
+      "kind": "text",
+      "context": "Connected fully automatic espresso machine"
+    },
+    {
+      "id": "4b9fa4f356c1b371d47e0af8a3d815f0214029354152fc91b1c1d1f4299467eb",
+      "source": "800 Series VeroCafe TPU60309",
+      "kind": "text",
+      "context": "800 Series VeroCafe TPU60309"
+    },
+    {
+      "id": "4d1d60f1df889e1eae7bb8b28713edee819983101f8910018a2bb8e97a0d9325",
+      "source": "About Breville",
+      "kind": "text",
+      "context": "About Breville"
+    },
+    {
+      "id": "630009f80bf23ad0b89ff4d51dd0ef6151a9440cbf2d9e59ee71d5048acfdc49",
+      "source": "Semi-automatic espresso machine with integrated grinder",
+      "kind": "text",
+      "context": "Semi-automatic espresso machine with integrated grinder"
+    },
+    {
+      "id": "0957701f43883a6204fd188ccadf07650ad103c934b100cfbf8f36725158b4c0",
+      "source": "Barista Express",
+      "kind": "text",
+      "context": "Barista Express"
+    },
+    {
+      "id": "46f0087c0161243d08321930be68d5bda03a8bb37cc23ab27848ae43caef3d1e",
+      "source": "Assisted semi-automatic espresso machine with integrated grinder",
+      "kind": "text",
+      "context": "Assisted semi-automatic espresso machine with integrated grinder"
+    },
+    {
+      "id": "6ccefe91a25b0da8e468b1bb4a3c3df7655148bec2801a69bbad6f99579a4fc7",
+      "source": "Barista Express Impress",
+      "kind": "text",
+      "context": "Barista Express Impress"
+    },
+    {
+      "id": "e184c6e46cb10f9520b20fd6adb828217691786515c8d49fa58dae5505354b83",
+      "source": "Barista Pro",
+      "kind": "text",
+      "context": "Barista Pro"
+    },
+    {
+      "id": "edb037eb8a4e28630c3625c3840b65a04a90eabd1c6b786bd3c3750edef2c569",
+      "source": "Barista Touch",
+      "kind": "text",
+      "context": "Barista Touch"
+    },
+    {
+      "id": "3823d4402ab9b302b760817ce52fc9372f14642f13ac69101ea44b447e2e7c58",
+      "source": "Assisted semi-automatic espresso machine with grinder",
+      "kind": "text",
+      "context": "Assisted semi-automatic espresso machine with grinder"
+    },
+    {
+      "id": "bfc9f9075b4c1ea2d96a7c9bed02d92bb74ff807e9a8e36410a67e23b2990d42",
+      "source": "Barista Touch Impress BES881",
+      "kind": "text",
+      "context": "Barista Touch Impress BES881"
+    },
+    {
+      "id": "002eb002f918b58fdba2040847629fdf754eabe964e76016c771d8e7d63c1b72",
+      "source": "Dual-boiler espresso machine and grinder bundle",
+      "kind": "text",
+      "context": "Dual-boiler espresso machine and grinder bundle"
+    },
+    {
+      "id": "e2b0f7b4d864d9c3397e3ae66557766dd8e3643057196c4474f19b464fd7efb0",
+      "source": "Dynamic Duo BEP920",
+      "kind": "text",
+      "context": "Dynamic Duo BEP920"
+    },
+    {
+      "id": "9e2fc2de223e330d4c3407fac46df2d3e50010cf82a6bdfc0e18a51c9d2863b4",
+      "source": "Programmable thermal drip coffee brewer",
+      "kind": "text",
+      "context": "Programmable thermal drip coffee brewer"
+    },
+    {
+      "id": "63cad96ef9bad6734f36697de46f6f91d339fbb38126657ef02fceb12c44a8ba",
+      "source": "Luxe Brewer Thermal BDC465",
+      "kind": "text",
+      "context": "Luxe Brewer Thermal BDC465"
+    },
+    {
+      "id": "71521b4cf2058283da3fd9f97f5aa0e84e154532015f086437be17ff9721bcca",
+      "source": "Assisted dual-boiler espresso machine with grinder",
+      "kind": "text",
+      "context": "Assisted dual-boiler espresso machine with grinder"
+    },
+    {
+      "id": "c5aeb23c5648cb3a2443025b59e5bbca671b822e637f05226c6a28c8521e244d",
+      "source": "Oracle BES980",
+      "kind": "text",
+      "context": "Oracle BES980"
+    },
+    {
+      "id": "74360d71890c15f319cf022e160a8b635550972006459db9d00b2fdeb957cd28",
+      "source": "Guided assisted espresso machine with grinder",
+      "kind": "text",
+      "context": "Guided assisted espresso machine with grinder"
+    },
+    {
+      "id": "632b7793e4114514442a15bddda715bd8a7f4b8728cbaebe3648a1416f421e49",
+      "source": "Oracle Jet BES985",
+      "kind": "text",
+      "context": "Oracle Jet BES985"
+    },
+    {
+      "id": "0641d6f3d5bf7d9befbeee49d00fb7158454bfa4e5babb7f6fe0b6a1f9180933",
+      "source": "Automated portafilter espresso machine with dual boilers",
+      "kind": "text",
+      "context": "Automated portafilter espresso machine with dual boilers"
+    },
+    {
+      "id": "a321c816c3ef072fc7877d00c7dfa356e137d506baa6a5a587060c3516378c03",
+      "source": "Oracle Touch",
+      "kind": "text",
+      "context": "Oracle Touch"
+    },
+    {
+      "id": "3da342a5c5ad7eacc41c30912d5a317a9aea10c32edb703e9992a7d6b246cf6e",
+      "source": "the Dual Boiler",
+      "kind": "text",
+      "context": "the Dual Boiler"
+    },
+    {
+      "id": "3106fd4ad5ea0a508d491cf7f73e455e635836bdee6efdb7950fc36fca5ab38f",
+      "source": "About De'Longhi",
+      "kind": "text",
+      "context": "About De'Longhi"
+    },
+    {
+      "id": "361b9b1733039ac4a74273228be9838442f44d190314b6f40b8606359cacfaf5",
+      "source": "Compact semi-automatic espresso machine",
+      "kind": "text",
+      "context": "Compact semi-automatic espresso machine"
+    },
+    {
+      "id": "fea95574a0b6f8aacf34f1306aca978d693c3f9a97946104f7ccb09db002cc92",
+      "source": "Dedica DeLuxe EC685",
+      "kind": "text",
+      "context": "Dedica DeLuxe EC685"
+    },
+    {
+      "id": "f78c8679dfcc4c868f8e62638ea490802a0b4bf75eb349f38d7e2da8a96816d3",
+      "source": "Automatic bean-to-cup coffee machine",
+      "kind": "text",
+      "context": "Automatic bean-to-cup coffee machine"
+    },
+    {
+      "id": "45352a3ed1bc8527b524c4619afea412d0817bb7b1e796bca2b191e3edb145c6",
+      "source": "Dinamica Aroma Bar ECAM359.37.TB",
+      "kind": "text",
+      "context": "Dinamica Aroma Bar ECAM359.37.TB"
+    },
+    {
+      "id": "ec91417708c6ce11e6deeaf7711188f2a6c37a16d486a636b433f11d91319959",
+      "source": "Dinamica Plus ECAM370.95.T",
+      "kind": "text",
+      "context": "Dinamica Plus ECAM370.95.T"
+    },
+    {
+      "id": "63d0018c299ddde1bcf1e280294b0aa77be48d7505c74ec9580417d1d8f50491",
+      "source": "Dinamica Plus ECAM380.85.SB",
+      "kind": "text",
+      "context": "Dinamica Plus ECAM380.85.SB"
+    },
+    {
+      "id": "5664b2564adab9927a80de6e187e98d6c044a5b7dee25d7326e74a0fe5f82876",
+      "source": "Entry-level manual espresso machine",
+      "kind": "text",
+      "context": "Entry-level manual espresso machine"
+    },
+    {
+      "id": "ad8c388098de93ae29f8aa2f8537a46bddd82b21efbdc0b56cbd4fb8d34ecf4b",
+      "source": "ECP3420",
+      "kind": "text",
+      "context": "ECP3420"
+    },
+    {
+      "id": "02aa9ccb84ad48d70fc87b6c3e4336fccffc4d5e0d3dc90ef9b241441add3d05",
+      "source": "Connected fully automatic hot-and-cold espresso machine",
+      "kind": "text",
+      "context": "Connected fully automatic hot-and-cold espresso machine"
+    },
+    {
+      "id": "ed5fd6ceff335d834c190ff0ad77b42a6cb4c6d8523d555dbe0b43fad97e7ed4",
+      "source": "Eletta Explore",
+      "kind": "text",
+      "context": "Eletta Explore"
+    },
+    {
+      "id": "adb8994bde29f6c972fc0df930b76a510b04bd4b9b635d27f5519b78f61c299b",
+      "source": "Grinder-equipped assisted semi-automatic espresso machine",
+      "kind": "text",
+      "context": "Grinder-equipped assisted semi-automatic espresso machine"
+    },
+    {
+      "id": "2d42be1b94c040281df5dd5f20b41340f925b6d0827ff87edd4cc8c919c436b1",
+      "source": "La Specialista Arte",
+      "kind": "text",
+      "context": "La Specialista Arte"
+    },
+    {
+      "id": "b864c06f602c175adc8b95f7638625cb5de0bd5aeba51adfaf9039f5a416c44d",
+      "source": "Semi-automatic espresso machine with grinder",
+      "kind": "text",
+      "context": "Semi-automatic espresso machine with grinder"
+    },
+    {
+      "id": "6b08567d8c253ba0d609f4f6cac942804787c5d22f692d1077c5cc425418cbad",
+      "source": "La Specialista Prestigio EC9355.M",
+      "kind": "text",
+      "context": "La Specialista Prestigio EC9355.M"
+    },
+    {
+      "id": "020a3d20d3d26a0754327d1d854ab1ff3d3cca3f56c52289bbc21e03d9e51fac",
+      "source": "Legacy automatic bean-to-cup coffee machine",
+      "kind": "text",
+      "context": "Legacy automatic bean-to-cup coffee machine"
+    },
+    {
+      "id": "6e5e490dc5783bd61392d8023ee6304692fdb68d62fca423e1312f4f8d3ed068",
+      "source": "Magnifica ESAM3000.B",
+      "kind": "text",
+      "context": "Magnifica ESAM3000.B"
+    },
+    {
+      "id": "d43d378b03fe0f1ba32b5530ac18a3536b9e766bc157fa6214625fa42343a477",
+      "source": "Magnifica Evo Next ECAM310.80.SB",
+      "kind": "text",
+      "context": "Magnifica Evo Next ECAM310.80.SB"
+    },
+    {
+      "id": "5d45759f395026bf97b8435188434521e67f2b6de929cec58bb23dd41e5abad7",
+      "source": "Fully automatic bean-to-cup espresso machine",
+      "kind": "text",
+      "context": "Fully automatic bean-to-cup espresso machine"
+    },
+    {
+      "id": "175ac798525b3825d140e5a5cb70bc9213be79f2b0232ad1cbf80a99e06ba863",
+      "source": "Magnifica Evo with LatteCrema",
+      "kind": "text",
+      "context": "Magnifica Evo with LatteCrema"
+    },
+    {
+      "id": "3fb73a93f279cde8d898c988334b29eb8945d2c8ccc0243d76167b83fe994e71",
+      "source": "Superautomatic espresso machine",
+      "kind": "text",
+      "context": "Superautomatic espresso machine"
+    },
+    {
+      "id": "3bf3a7d66721973160d153589b622790ba0fee9ce6fa77d5cdb47511107f70be",
+      "source": "Magnifica Plus ECAM320.70.SB",
+      "kind": "text",
+      "context": "Magnifica Plus ECAM320.70.SB"
+    },
+    {
+      "id": "6226564bae3ae1999945af2fc41727f88f009b0ca0c81423259fe02cff00078f",
+      "source": "Magnifica Start ECAM220.22.GB",
+      "kind": "text",
+      "context": "Magnifica Start ECAM220.22.GB"
+    },
+    {
+      "id": "1c9c6ae5820e9d7ff0557e8786e9480181813ae6ca04c431fbbe9b954ad81312",
+      "source": "Premium superautomatic espresso machine",
+      "kind": "text",
+      "context": "Premium superautomatic espresso machine"
+    },
+    {
+      "id": "31df19b1a519e4b4fdaa65c100f964f8a145f532f63088ca3d6130160e1276fa",
+      "source": "PrimaDonna Soul ECAM610.75.MB",
+      "kind": "text",
+      "context": "PrimaDonna Soul ECAM610.75.MB"
+    },
+    {
+      "id": "baa14489319c805923d7149d32a581501443de75efd6bf0c38db864a3e5dcf19",
+      "source": "About ECM",
+      "kind": "text",
+      "context": "About ECM"
+    },
+    {
+      "id": "bfaec42a2be740abf1ba92984d1eb95b6e3fee307e40b4e9e548dd8e1f069786",
+      "source": "Single-boiler espresso machine",
+      "kind": "text",
+      "context": "Single-boiler espresso machine"
+    },
+    {
+      "id": "d25c15cfcdb3c79f06931342d47f074771fa69a4cd73a97ba0d1c655523c25ad",
+      "source": "Casa V",
+      "kind": "text",
+      "context": "Casa V"
+    },
+    {
+      "id": "874485be976f5b12654ad66f33b1e66bcdeed73dc48889ce33507b119ce80a9e",
+      "source": "E61 single-boiler espresso machine",
+      "kind": "text",
+      "context": "E61 single-boiler espresso machine"
+    },
+    {
+      "id": "8c8873c290136751afa39242f2db10fac5be77c81e8371e97e4993fce720edcd",
+      "source": "Classika PID",
+      "kind": "text",
+      "context": "Classika PID"
+    },
+    {
+      "id": "7e386bc8f051ddeb829558d81eacb89e8302223c1a352530494bc6e5230b8254",
+      "source": "Heat-exchanger espresso machine",
+      "kind": "text",
+      "context": "Heat-exchanger espresso machine"
+    },
+    {
+      "id": "ef2bde6a94d66c9b05363db2710265d585eb20bfdb46266c4b896836508126ad",
+      "source": "Mechanika Slim PID",
+      "kind": "text",
+      "context": "Mechanika Slim PID"
+    },
+    {
+      "id": "43c348ebb41411f117a97d8b0a4e5d3064d8dd4801cc525712b6c283821ffa6c",
+      "source": "Legacy heat-exchanger espresso machine",
+      "kind": "text",
+      "context": "Legacy heat-exchanger espresso machine"
+    },
+    {
+      "id": "e257d934bcff08e11f0130fc8653c2018d264de5b55c85469e2e993996752284",
+      "source": "Mechanika V Slim",
+      "kind": "text",
+      "context": "Mechanika V Slim"
+    },
+    {
+      "id": "b72b9c3fece316d926d9ccfd68ed849d57e8350509fd841c523ebb5b1dc71386",
+      "source": "Espresso-only single-boiler machine",
+      "kind": "text",
+      "context": "Espresso-only single-boiler machine"
+    },
+    {
+      "id": "4c5b1e9602438f569f1ad7201fa3b18a3a447a06fdcee3f7f7155eaef6061dab",
+      "source": "Puristika",
+      "kind": "text",
+      "context": "Puristika"
+    },
+    {
+      "id": "9122eb9551007f33cf343af84248e707278d7a911005571d6d5ff7ffab52047b",
+      "source": "Dual-boiler espresso machine",
+      "kind": "text",
+      "context": "Dual-boiler espresso machine"
+    },
+    {
+      "id": "1908a41e0d543502ccc4ada6715cd7130333e217dce1497da980e0a5a10012cd",
+      "source": "Synchronika II",
+      "kind": "text",
+      "context": "Synchronika II"
+    },
+    {
+      "id": "26698e000a2215e419b2f75201f6477481b4c023e8759ce466856b4b154140ca",
+      "source": "Legacy rotary-pump heat-exchanger espresso machine",
+      "kind": "text",
+      "context": "Legacy rotary-pump heat-exchanger espresso machine"
+    },
+    {
+      "id": "f6da7604dc80601e36dbd6d9805d6becabe63d3f366750cc883299a7f1a8891c",
+      "source": "Technika V Profi PID",
+      "kind": "text",
+      "context": "Technika V Profi PID"
+    },
+    {
+      "id": "a9fad5daf94c9768121fe190b16e4b2c6685a8a0d6e5d8ce4f7c36a3f878ea53",
+      "source": "About Gaggia",
+      "kind": "text",
+      "context": "About Gaggia"
+    },
+    {
+      "id": "eb30aa743b0fd8b025201f14ef1752e94168659f653a95003b2ad2a512491fcc",
+      "source": "Accademia Glass RI9781/01",
+      "kind": "text",
+      "context": "Accademia Glass RI9781/01"
+    },
+    {
+      "id": "6bae5db28a86db9d5026a05ecc3fc4013aa3660e8796c548b2df1b18f13f1d0b",
+      "source": "Anima",
+      "kind": "text",
+      "context": "Anima"
+    },
+    {
+      "id": "a9c2a200c381390987a5ea409db2bf1fa966474070d5ea5f90d69b6e837f88b9",
+      "source": "Anima Deluxe",
+      "kind": "text",
+      "context": "Anima Deluxe"
+    },
+    {
+      "id": "66090e45c5954452981545272905e5128f2a83a9f761b08fea28158f0bd5f273",
+      "source": "Anima Prestige",
+      "kind": "text",
+      "context": "Anima Prestige"
+    },
+    {
+      "id": "21f48e60374f8d202266c6cc1badf68bfc8b9a2c726f69516e13249e68d54470",
+      "source": "Babila RI9700/64",
+      "kind": "text",
+      "context": "Babila RI9700/64"
+    },
+    {
+      "id": "256523275088d64f418c4c48e392337d3a6b4da398d853c784e5c24ecb898193",
+      "source": "Super-automatic espresso machine",
+      "kind": "text",
+      "context": "Super-automatic espresso machine"
+    },
+    {
+      "id": "35f6b6d11fba970c3d7659c18f59d3f1f099aa06451ec9efb3089afcedfd23e0",
+      "source": "Brera RI9305",
+      "kind": "text",
+      "context": "Brera RI9305"
+    },
+    {
+      "id": "5a2ccd00b58860955d1af0d6a28b0adda6a3db8b847c2086262adb1456ca788d",
+      "source": "Cadorna Barista Plus RI9601/47",
+      "kind": "text",
+      "context": "Cadorna Barista Plus RI9601/47"
+    },
+    {
+      "id": "637680c3a652c6f2e7b22c7b12078f4b4e792412e895439e1eaa976d1ac9e599",
+      "source": "Cadorna Milk",
+      "kind": "text",
+      "context": "Cadorna Milk"
+    },
+    {
+      "id": "aae647f439a5e11ddb5749b3149eb826c388347ad840f493837f298bda8038b2",
+      "source": "Cadorna Prestige",
+      "kind": "text",
+      "context": "Cadorna Prestige"
+    },
+    {
+      "id": "7dd7e8937256e27ac1784e64aa6480a799f002eccc4ec51de0d4f6936e16c38c",
+      "source": "Single-boiler semi-automatic espresso machine",
+      "kind": "text",
+      "context": "Single-boiler semi-automatic espresso machine"
+    },
+    {
+      "id": "abbd90b7c92ab4fd65b9fbe355b25ba00dffb1f425ca36e0b5275bd9d96a6e24",
+      "source": "Classic Evo Pro RI9380/46",
+      "kind": "text",
+      "context": "Classic Evo Pro RI9380/46"
+    },
+    {
+      "id": "106c21adde18bac8c6614f1a14ab5a1d4aca363c080e16150d9b867df596f4e0",
+      "source": "Dual-boiler prosumer espresso machine",
+      "kind": "text",
+      "context": "Dual-boiler prosumer espresso machine"
+    },
+    {
+      "id": "91f48f0e43589392bc7de3748d73652cc702dfdb4e99c18b459505aa9e96db48",
+      "source": "Classic GT",
+      "kind": "text",
+      "context": "Classic GT"
+    },
+    {
+      "id": "91daf44b991eae12087ca6a2c2d22a0813e410de0528797fc6104f13a47172fb",
+      "source": "Classic Pro E24",
+      "kind": "text",
+      "context": "Classic Pro E24"
+    },
+    {
+      "id": "8658e7f2cd5a697bcf839f77afeb5b8b8f07b90e0b91625c6a8fd4a1f2b74702",
+      "source": "PID-controlled manual espresso machine",
+      "kind": "text",
+      "context": "PID-controlled manual espresso machine"
+    },
+    {
+      "id": "e3b20bbb125bbcf009d0be517cedc321ec0a790ade4a23abcf4c06162b0f2e85",
+      "source": "Espresso Evolution EG2115/01",
+      "kind": "text",
+      "context": "Espresso Evolution EG2115/01"
+    },
+    {
+      "id": "1ffafc5fff22af9e73f2ab8aa553dee622a06e16c5927a6438d1b145b7e2d27a",
+      "source": "Magenta Prestige RI8702/46",
+      "kind": "text",
+      "context": "Magenta Prestige RI8702/46"
+    },
+    {
+      "id": "005145919fd1e4bcd493ecad1b1016c9b027fc5693cf55f27a09b9315b8ea12d",
+      "source": "Naviglio Deluxe HD8749/11",
+      "kind": "text",
+      "context": "Naviglio Deluxe HD8749/11"
+    },
+    {
+      "id": "b19f9b41b10b96e3aab66dc4d62e5602be3ccd5b9f90bef265c40a0f90e60f90",
+      "source": "Naviglio HD8749/01",
+      "kind": "text",
+      "context": "Naviglio HD8749/01"
+    },
+    {
+      "id": "51ec452b4361d5a96903188625001fc9c46a27e885a8d4b2cc74c02be712fa54",
+      "source": "Velasca",
+      "kind": "text",
+      "context": "Velasca"
+    },
+    {
+      "id": "f43d688cb6734465be03e0043910fdbc0e67bbc0c190cd9ae2d0b5b9eac2748a",
+      "source": "Velasca Prestige RI8263/47",
+      "kind": "text",
+      "context": "Velasca Prestige RI8263/47"
+    },
+    {
+      "id": "0171164a9c22d8c8797dd8ade1d216731daa026cd90dd0a7724edffc1bd832e9",
+      "source": "About Jura",
+      "kind": "text",
+      "context": "About Jura"
+    },
+    {
+      "id": "7c55b290e75c82aff56142a18a63078d378c2160cdf834d9e80171a7a14e8afa",
+      "source": "E6 Dark Inox NAC",
+      "kind": "text",
+      "context": "E6 Dark Inox NAC"
+    },
+    {
+      "id": "8bdf2d5aff5af9160172420191f6fe5517834216a99288d57f3a5081678bea9e",
+      "source": "E8 Midnight Silver NAD",
+      "kind": "text",
+      "context": "E8 Midnight Silver NAD"
+    },
+    {
+      "id": "8c1e967629ba5ab603d194fcffcc316676bc0c0663bf9b5b52724b591c986621",
+      "source": "GIGA 6 Aluminum NAA",
+      "kind": "text",
+      "context": "GIGA 6 Aluminum NAA"
+    },
+    {
+      "id": "a48f79ef247735fdb19f1f6ebefe74136bdc1a25a87dbd0814fdf0b19a726bf8",
+      "source": "Z10 Aluminium Black NAB",
+      "kind": "text",
+      "context": "Z10 Aluminium Black NAB"
+    },
+    {
+      "id": "fc8f8081c90b88b78177e835f5593864f6cef897d6df9a95e637c1547bf49dba",
+      "source": "About Keurig",
+      "kind": "text",
+      "context": "About Keurig"
+    },
+    {
+      "id": "2416739b42f33a59bf20f54010b7cb820b51e9b9f4c0d86a82389eb8d9e8dac4",
+      "source": "Pod and drip coffee maker",
+      "kind": "text",
+      "context": "Pod and drip coffee maker"
+    },
+    {
+      "id": "1352981f9a95c1f55be9e5faf09bc1cfc89329846650303d809291bffff47418",
+      "source": "K-Duo Plus",
+      "kind": "text",
+      "context": "K-Duo Plus"
+    },
+    {
+      "id": "fc801c902ab7bcb20965afdf3e77f216205c70cdc1b24a5a35373cf8ffbca82d",
+      "source": "About Krups",
+      "kind": "text",
+      "context": "About Krups"
+    },
+    {
+      "id": "bde54d9b276f25233c72140ecd39e7928a4e13672453afc976548705fadfbdc9",
+      "source": "Arabica Digital EA817040",
+      "kind": "text",
+      "context": "Arabica Digital EA817040"
+    },
+    {
+      "id": "13f8c11eef6fbe0c27b4a3a1348919c978ba21d0feb8487523342d36b9a8fab9",
+      "source": "Arabica Manual EA811040 / EA811840",
+      "kind": "text",
+      "context": "Arabica Manual EA811040 / EA811840"
+    },
+    {
+      "id": "5a4af72bdd3e6e1f57a48676a0b8fc25ee399a489d7cbb7eb348c6d93c076694",
+      "source": "Evidence Eco-Design EA897B40",
+      "kind": "text",
+      "context": "Evidence Eco-Design EA897B40"
+    },
+    {
+      "id": "bc848092cb9e46e9a2d0af3acb9d70a56deeddb5eb4385160abf7361c991a119",
+      "source": "Evidence Milk EA891D27",
+      "kind": "text",
+      "context": "Evidence Milk EA891D27"
+    },
+    {
+      "id": "070a5112967c3a448cdd8d3fa87aabdb8b3333639bca1092fec0bca619468549",
+      "source": "Evidence One EA895N40",
+      "kind": "text",
+      "context": "Evidence One EA895N40"
+    },
+    {
+      "id": "bc3cba8dc7e4b2dff72f13be6d9ec1f50e83d3046db1634f48c512dcabd26c00",
+      "source": "Superautomatic espresso machine with manual steam wand",
+      "kind": "text",
+      "context": "Superautomatic espresso machine with manual steam wand"
+    },
+    {
+      "id": "a6ee08c2267edfae5444566522315394f069535aa20170fb7da4450b9ec3a26e",
+      "source": "Intuition Essential EA870840",
+      "kind": "text",
+      "context": "Intuition Essential EA870840"
+    },
+    {
+      "id": "e3720626e07697b5db0fae06771a89cbfe582773b816fa80c03f86028e2ea1b8",
+      "source": "Intuition Experience+ EA877D40",
+      "kind": "text",
+      "context": "Intuition Experience+ EA877D40"
+    },
+    {
+      "id": "b5cf4e3c84557d2747464979ce4e960b594f733586313c9e9227a4be370aed54",
+      "source": "Intuition Preference+ EA875U40",
+      "kind": "text",
+      "context": "Intuition Preference+ EA875U40"
+    },
+    {
+      "id": "d7d8812fe720625c0c331ce75751249d057b646dd5945d6fa61686e01f41cac8",
+      "source": "Manual pump espresso machine",
+      "kind": "text",
+      "context": "Manual pump espresso machine"
+    },
+    {
+      "id": "f0be138320a7b8ba8167942ae3b21b9446329fb87d064ac4425d77de2ec49c33",
+      "source": "Opio XP320840",
+      "kind": "text",
+      "context": "Opio XP320840"
+    },
+    {
+      "id": "66740f807312a663d2420726b7d50467da609ebdd637e20fccf6aa0c1142cc9f",
+      "source": "Sensation EA910E40",
+      "kind": "text",
+      "context": "Sensation EA910E40"
+    },
+    {
+      "id": "25b050a9ffa419b084c418691f7f6374200c5c535c559f7d84f65b08fd5aa831",
+      "source": "Virtuoso XP442C40",
+      "kind": "text",
+      "context": "Virtuoso XP442C40"
+    },
+    {
+      "id": "797b4b749b55a40ca1dc36de6ef3b7b3232767d8158315f99ab8452c50602978",
+      "source": "About La Marzocco",
+      "kind": "text",
+      "context": "About La Marzocco"
+    },
+    {
+      "id": "f5f10552ad6dd7f362bd8f88e54f6a1ac334c3eba979fa28d71de094bbcfa650",
+      "source": "Dual-boiler semi-automatic espresso machine",
+      "kind": "text",
+      "context": "Dual-boiler semi-automatic espresso machine"
+    },
+    {
+      "id": "9edac5d8534d5753bb86ca6aacf7f551ccd44e63bb938285aabb9a1ee79eeb27",
+      "source": "Linea Micra",
+      "kind": "text",
+      "context": "Linea Micra"
+    },
+    {
+      "id": "c65d14d2f5871c00943027ddd2a29372827a0d61e0442928a97960367614ca69",
+      "source": "Semi-automatic espresso machine, dual boiler",
+      "kind": "text",
+      "context": "Semi-automatic espresso machine, dual boiler"
+    },
+    {
+      "id": "2a0a564e3ce6e5895fa2f258c9b318ab66d5b4dd0d4833b688fa64911ed13091",
+      "source": "Linea Mini",
+      "kind": "text",
+      "context": "Linea Mini"
+    },
+    {
+      "id": "baf1704666f1b586d239d99e3051a6f39fd336409024fd9518364a4346c76536",
+      "source": "About La Pavoni",
+      "kind": "text",
+      "context": "About La Pavoni"
+    },
+    {
+      "id": "b3eaf59fe751cbd7454832ec5a3e4622a2070d7b3d1c966ac6e754f0df8b8822",
+      "source": "Semi-professional heat-exchanger espresso machine",
+      "kind": "text",
+      "context": "Semi-professional heat-exchanger espresso machine"
+    },
+    {
+      "id": "7533afd117ef01af9ab4d587f0b93a493ac2e203e5f6f818f3ece4f9af01eb0e",
+      "source": "Cellini Classic",
+      "kind": "text",
+      "context": "Cellini Classic"
+    },
+    {
+      "id": "19822c71cdb4098f549793337206d4305a4d5c9d71448079031de7a5b615e450",
+      "source": "Manual direct-lever espresso machine",
+      "kind": "text",
+      "context": "Manual direct-lever espresso machine"
+    },
+    {
+      "id": "f12151f5546f6b30b346e7aa953e53bf53e229ffddd20818bfd181dfe8ef6fba",
+      "source": "Europiccola Lusso",
+      "kind": "text",
+      "context": "Europiccola Lusso"
+    },
+    {
+      "id": "d465062948ddfc16fa688ceca374beec1925d61c624e5d909493951feca577aa",
+      "source": "Semi-professional single-boiler espresso machine",
+      "kind": "text",
+      "context": "Semi-professional single-boiler espresso machine"
+    },
+    {
+      "id": "91b0e0eb0149ed9b0df49149eb8e95cdd300ffdf283c7770f418f6e028412ae7",
+      "source": "Mini Cellini",
+      "kind": "text",
+      "context": "Mini Cellini"
+    },
+    {
+      "id": "ebde6dd9a08be53f507701a3833a6b145050c147b7004e8246405402721d7af0",
+      "source": "Manual single-boiler espresso machine with integrated grinder",
+      "kind": "text",
+      "context": "Manual single-boiler espresso machine with integrated grinder"
+    },
+    {
+      "id": "d0b0d782d09422a988a667e4f29c971cd3a5cc3790bf8f45445343d2f85702a3",
+      "source": "New Domus Bar",
+      "kind": "text",
+      "context": "New Domus Bar"
+    },
+    {
+      "id": "0976f0acb0091b885ac2be2244d39a8440ef36f895c5616a3a8027c3970409d5",
+      "source": "About Lelit",
+      "kind": "text",
+      "context": "About Lelit"
+    },
+    {
+      "id": "1feec2d40ce3de6d75858a8b194335b5feb29728dc37e356ac81f338d3ca02bc",
+      "source": "PID single-boiler manual espresso machine",
+      "kind": "text",
+      "context": "PID single-boiler manual espresso machine"
+    },
+    {
+      "id": "33cfa69dfaa9db543d0c46348d2f873dae717d38e42a4066bb67485ab7e0b89b",
+      "source": "Anna PL41TEM",
+      "kind": "text",
+      "context": "Anna PL41TEM"
+    },
+    {
+      "id": "148f9a4fff18b7164bd1d23a7b21f164b1803064041b96d1689168cb59adc179",
+      "source": "Semi-automatic espresso machine, dual boiler with flow control",
+      "kind": "text",
+      "context": "Semi-automatic espresso machine, dual boiler with flow control"
+    },
+    {
+      "id": "7a3ed413b6f42091d8062a75357bed9b963558a7abac2bb19590b4eebef83293",
+      "source": "Bianca PL162T V3",
+      "kind": "text",
+      "context": "Bianca PL162T V3"
+    },
+    {
+      "id": "245fd256736a6f94c8d89cdf67469fcf8ccbf8d90de4317d41dc5b0f9dbc5a33",
+      "source": "Elizabeth PL92T",
+      "kind": "text",
+      "context": "Elizabeth PL92T"
+    },
+    {
+      "id": "a97135512b314e2fd96b34de1ae634b777465a1e8d00d3fd4a54d1a42ecd8630",
+      "source": "Legacy PID single-boiler manual espresso machine",
+      "kind": "text",
+      "context": "Legacy PID single-boiler manual espresso machine"
+    },
+    {
+      "id": "8083e8247d7bc107f80b97a109f34bdf1ea9264f01bc547fd90b46a646c351a4",
+      "source": "Glenda PL41PLUST",
+      "kind": "text",
+      "context": "Glenda PL41PLUST"
+    },
+    {
+      "id": "4012dd5954c3f12a61a03e3bdc759000d9f2c83a86096adb3c02910cdfa86df8",
+      "source": "Legacy LCC PID single-boiler manual espresso machine",
+      "kind": "text",
+      "context": "Legacy LCC PID single-boiler manual espresso machine"
+    },
+    {
+      "id": "61692977fe1ca9ced36df74b69d1545138bf08aa64315df2c62a68a4e2d5e72f",
+      "source": "Grace PL81T",
+      "kind": "text",
+      "context": "Grace PL81T"
+    },
+    {
+      "id": "6643d50b4f038e35e0a9cdbeddd9a68d8c1cc587ab1f1c011dd368aa74fffbc6",
+      "source": "Temperature-managed heat-exchanger manual espresso machine",
+      "kind": "text",
+      "context": "Temperature-managed heat-exchanger manual espresso machine"
+    },
+    {
+      "id": "6fd1f09cd4cadf2aa9891b3576e3be95ffdc847651946236e3038c02113b2076",
+      "source": "MaraX PL62X",
+      "kind": "text",
+      "context": "MaraX PL62X"
+    },
+    {
+      "id": "4f7c816d8ef34b427c9093266262710c7e2bfb115602cedb6e3f89cf296e9c36",
+      "source": "PID-controlled single-boiler manual espresso machine",
+      "kind": "text",
+      "context": "PID-controlled single-boiler manual espresso machine"
+    },
+    {
+      "id": "55569bd016fb4402e8c3a2f7d1c13a17ed5cffd6f4ef8e63f3277da7a5107bc2",
+      "source": "Victoria PL91T",
+      "kind": "text",
+      "context": "Victoria PL91T"
+    },
+    {
+      "id": "7cedfe4316505eecd4159a0d7a59aff0621b68ae0c3021a6bb145fe87b810697",
+      "source": "About Nespresso",
+      "kind": "text",
+      "context": "About Nespresso"
+    },
+    {
+      "id": "0648d7aa173836c2f50d45d2ef61c79e027c1f3e57972b99be917d7fefe51cae",
+      "source": "Capsule coffee and espresso machine",
+      "kind": "text",
+      "context": "Capsule coffee and espresso machine"
+    },
+    {
+      "id": "c648a325aed4ae2d689ee0284a4080aaa12b9a218e2835fe7ab43fb19c0bc8c1",
+      "source": "VertuoPlus",
+      "kind": "text",
+      "context": "VertuoPlus"
+    },
+    {
+      "id": "a71b94a04a83ddafbde942c577070e7693cd8456b9dbcd709610a1325681733b",
+      "source": "About Ninja",
+      "kind": "text",
+      "context": "About Ninja"
+    },
+    {
+      "id": "1b8980e3aeba7686b73f7d25ac158e88615cf9dd024f8cf79d7c4d025eab9268",
+      "source": "Guided semi-automatic espresso, drip and rapid cold-brew system with integrated grinder and automatic frother",
+      "kind": "text",
+      "context": "Guided semi-automatic espresso, drip and rapid cold-brew system with integrated grinder and automatic frother"
+    },
+    {
+      "id": "9b9f9eb46c8813dc769e302dfb766270fedc1b8e77555bf4ab45f03cb16f8d28",
+      "source": "Luxe Café Premier ES601",
+      "kind": "text",
+      "context": "Luxe Café Premier ES601"
+    },
+    {
+      "id": "e345ddb906f610af7ac59c773f9d6bb66852f7c6b24441dee41dfdf28dd9c7bb",
+      "source": "About Philips",
+      "kind": "text",
+      "context": "About Philips"
+    },
+    {
+      "id": "68ee48fe9c1d384378895b14e2e0e345c678951cc8e45d4abd3596fe51f19ee5",
+      "source": "2200 LatteGo EP2230/14",
+      "kind": "text",
+      "context": "2200 LatteGo EP2230/14"
+    },
+    {
+      "id": "0c76e244c31f2a4b5eadc497433cf8eeea93e52991a06853948ea584ab8f3e86",
+      "source": "Super-automatic bean-to-cup espresso machine",
+      "kind": "text",
+      "context": "Super-automatic bean-to-cup espresso machine"
+    },
+    {
+      "id": "dd367ae13022717a310125f2f20d6c4b42399ddd2b798e198b21b4a1a02dbd9b",
+      "source": "3200 Series LatteGo",
+      "kind": "text",
+      "context": "3200 Series LatteGo"
+    },
+    {
+      "id": "d3c1ead51ec68edf1d996d9e0ce7ec8d696b8938e66b0d2f5b13f39e143d3600",
+      "source": "4300 LatteGo EP4347/94",
+      "kind": "text",
+      "context": "4300 LatteGo EP4347/94"
+    },
+    {
+      "id": "572a3e3add40f34c89dc58478097c9dddccf196bb07ab583c7f361a2dd93db31",
+      "source": "5400 LatteGo EP5447/94",
+      "kind": "text",
+      "context": "5400 LatteGo EP5447/94"
+    },
+    {
+      "id": "0080e17cceb8c470def2bc66c7e0adc5847a2d10622c0f5b771f2682d10e2bb4",
+      "source": "Xelsis SM7685",
+      "kind": "text",
+      "context": "Xelsis SM7685"
+    },
+    {
+      "id": "fb881db2ec21d7b7b126927a11d1e7fbe21379591cb98d165db9fb25b51f28e5",
+      "source": "About Profitec",
+      "kind": "text",
+      "context": "About Profitec"
+    },
+    {
+      "id": "69c99ddf57c88c4af0d588a7c5559a67723517995b068e5ca48011a3aec1e8c1",
+      "source": "PID single-boiler espresso machine",
+      "kind": "text",
+      "context": "PID single-boiler espresso machine"
+    },
+    {
+      "id": "9fb4d368e0b4b0d1194cdb00efa61b88f883e26fd33e40b3ecd7ca42d75645d2",
+      "source": "GO original generation",
+      "kind": "text",
+      "context": "GO original generation"
+    },
+    {
+      "id": "82e6b686cfee2bafa94ab082635c2de6c6e4b8d271ff90fcf63b1d3a77e626a5",
+      "source": "Compact E61 heat-exchanger espresso machine",
+      "kind": "text",
+      "context": "Compact E61 heat-exchanger espresso machine"
+    },
+    {
+      "id": "d17c388b6316c98de533f6fc4f4353036106e4eb3c094b2769dc7393fbfd9565",
+      "source": "Pro 400",
+      "kind": "text",
+      "context": "Pro 400"
+    },
+    {
+      "id": "f37ffcfb595c17002e0b41045391b1284deda1685040c8f1e02d60c0f34ee2a6",
+      "source": "E61 heat-exchanger espresso machine with visible PID and shot timer",
+      "kind": "text",
+      "context": "E61 heat-exchanger espresso machine with visible PID and shot timer"
+    },
+    {
+      "id": "a1e093284e175a50ff477871aa7f569d8034905e8cc70831afda89eef5c5ebf4",
+      "source": "Pro 500 PID",
+      "kind": "text",
+      "context": "Pro 500 PID"
+    },
+    {
+      "id": "e406fccf5a2cf492000a62ff42c365ede46728fcb2f9c80e88cd375be577b0af",
+      "source": "Discontinued E61 dual-boiler espresso machine with vibration pump",
+      "kind": "text",
+      "context": "Discontinued E61 dual-boiler espresso machine with vibration pump"
+    },
+    {
+      "id": "9b4cc665eec444d149abcd9eaa7b9bf126b793cee7a69adc575ec5ec1411c057",
+      "source": "Pro 600 Quick Steam Plus",
+      "kind": "text",
+      "context": "Pro 600 Quick Steam Plus"
+    },
+    {
+      "id": "f71e635447e1f0357fc24d3789d5a99d60332d74790b6a463bcf8fbb92a79171",
+      "source": "Discontinued E61 dual-boiler espresso machine with rotary pump",
+      "kind": "text",
+      "context": "Discontinued E61 dual-boiler espresso machine with rotary pump"
+    },
+    {
+      "id": "8369b9c0a7a3dda442d3d2add2997667db2044bcbe64efb740a7328e715c4a92",
+      "source": "Pro 700 final generation",
+      "kind": "text",
+      "context": "Pro 700 final generation"
+    },
+    {
+      "id": "4c600657d1e7120ee30c71bd930e3e13cdd6eed6d38bb5d3b01a05a28368ca5a",
+      "source": "Premium spring-lever dipper espresso machine with PID",
+      "kind": "text",
+      "context": "Premium spring-lever dipper espresso machine with PID"
+    },
+    {
+      "id": "207b4273c86a4fd27b836ad1e8ce4806e68062019801b3536702b26d6da997df",
+      "source": "Pro 800 current walnut generation",
+      "kind": "text",
+      "context": "Pro 800 current walnut generation"
+    },
+    {
+      "id": "e02ee1d98d2a5e53dc6f3ebbbf04634b6c071fefcfa9aea1bd41f29336482f74",
+      "source": "About Quick Mill",
+      "kind": "text",
+      "context": "About Quick Mill"
+    },
+    {
+      "id": "b0be5b67330804c08baf76e59abb9ef1d99b15e78d54728879a541e21040d675",
+      "source": "Reservoir-fed E61 single-boiler espresso machine with PID",
+      "kind": "text",
+      "context": "Reservoir-fed E61 single-boiler espresso machine with PID"
+    },
+    {
+      "id": "6597cea6775328dd9e43cd8846624a6f87491fc40b7949c252dee238985f11ff",
+      "source": "Alexia Evo 0970-A-CEVO",
+      "kind": "text",
+      "context": "Alexia Evo 0970-A-CEVO"
+    },
+    {
+      "id": "6873d47bcb796620ced7a9a7e0c2de6ad9aef0c599116c3073a88e1469426a3d",
+      "source": "Reservoir-fed E61 heat-exchanger espresso machine",
+      "kind": "text",
+      "context": "Reservoir-fed E61 heat-exchanger espresso machine"
+    },
+    {
+      "id": "5b19c2de470aab2bfe6d2029aabce157d9ac80094f7d386f2a405e7150cfa5a2",
+      "source": "Andreja Premium Evo 0980P-A",
+      "kind": "text",
+      "context": "Andreja Premium Evo 0980P-A"
+    },
+    {
+      "id": "651e55f1b958dad34c04e583889612aaa13f3d60f18067627541fc1f66040c05",
+      "source": "Espresso-only E61 single-boiler machine",
+      "kind": "text",
+      "context": "Espresso-only E61 single-boiler machine"
+    },
+    {
+      "id": "6b3fa03b15189839a7a37ee6d0e5611c64fb1a214a63ec856630990e845d22cf",
+      "source": "Carola Evo 0960-A-CEVO-A",
+      "kind": "text",
+      "context": "Carola Evo 0960-A-CEVO-A"
+    },
+    {
+      "id": "bd49cb5b2c339fead484e389bca5e92cc2241133e329ae3467a1ba40f8014090",
+      "source": "Orione 03000",
+      "kind": "text",
+      "context": "Orione 03000"
+    },
+    {
+      "id": "4d63b072095b2350be444bd0ca42fbc37f0e05f532434aaa59e4580079779496",
+      "source": "Pippa 4100",
+      "kind": "text",
+      "context": "Pippa 4100"
+    },
+    {
+      "id": "079788b935fc56a86182e3ec0bee0e9adcdbb069cd340b3ccee6f7b88a8b2214",
+      "source": "Dual-boiler E61 semi-automatic espresso machine",
+      "kind": "text",
+      "context": "Dual-boiler E61 semi-automatic espresso machine"
+    },
+    {
+      "id": "aa5e36ac7beafb08d7d87d3e0763bc91dae6379b84be4fc8129f1d0b6d1aa7ca",
+      "source": "QM67 Evo",
+      "kind": "text",
+      "context": "QM67 Evo"
+    },
+    {
+      "id": "0ac4bb12bf3d44f90121457c0b6a90c54f9811a28c7fc9f96097087860ac2cfd",
+      "source": "Heat-exchanger E61 semi-automatic espresso machine",
+      "kind": "text",
+      "context": "Heat-exchanger E61 semi-automatic espresso machine"
+    },
+    {
+      "id": "47277c2b61d2a5f3866ccba73e1b9b9265649c2cab808c8472ee6d0d975dfadf",
+      "source": "Rubino 0981",
+      "kind": "text",
+      "context": "Rubino 0981"
+    },
+    {
+      "id": "8fbe6e8c13de2a468373cec16e9c3db2ac68868b9a0242bc834c438b26527df4",
+      "source": "Hybrid boiler and thermoblock semi-automatic espresso machine",
+      "kind": "text",
+      "context": "Hybrid boiler and thermoblock semi-automatic espresso machine"
+    },
+    {
+      "id": "ad9c2932c29ca6bc372cab8183c2c1742c9a2a98ed8d59d508d0dc61cecc79fd",
+      "source": "Silvano Evo",
+      "kind": "text",
+      "context": "Silvano Evo"
+    },
+    {
+      "id": "6b9d302f7613824fa546a849ee79465a7f0a6ccea8ba5c73ae3c08f03ad306ed",
+      "source": "Plumbable rotary-pump dual-boiler E61 espresso machine",
+      "kind": "text",
+      "context": "Plumbable rotary-pump dual-boiler E61 espresso machine"
+    },
+    {
+      "id": "96e96f22e5ec197fe9ea8b551acebb523f8df72fbd88af682d597dc094c5f35d",
+      "source": "Vetrano 2B Evo",
+      "kind": "text",
+      "context": "Vetrano 2B Evo"
+    },
+    {
+      "id": "5ba7059a3a929d9105052400cfd8fa670fe567320d08bb773fa03bf5011dcec4",
+      "source": "About Rancilio",
+      "kind": "text",
+      "context": "About Rancilio"
+    },
+    {
+      "id": "5af91bd03f56d1e363c469eee62c3c7738f7f1878adbb04056477e212dcc48bb",
+      "source": "Compact reservoir-fed dual-boiler semi-automatic espresso machine",
+      "kind": "text",
+      "context": "Compact reservoir-fed dual-boiler semi-automatic espresso machine"
+    },
+    {
+      "id": "9aa4e5e7283cd443b52aeecc0bf0b29ea6fe1f1d362c6fb15f74576466e892fd",
+      "source": "Silvia Pro X",
+      "kind": "text",
+      "context": "Silvia Pro X"
+    },
+    {
+      "id": "eeaf8fc8c4f2e21d1a70a336ba5c9933e7e2f2389671d048da46c1803911c9ce",
+      "source": "Silvia V6",
+      "kind": "text",
+      "context": "Silvia V6"
+    },
+    {
+      "id": "c0ee5aa93cf31df431b52b19b169541e58ef81e662e0d61576b6bb20e398777e",
+      "source": "About Rocket Espresso",
+      "kind": "text",
+      "context": "About Rocket Espresso"
+    },
+    {
+      "id": "4c370698af15884604fbf799d14981014899b5f8bd2363e0b4bad8b3b8fe9562",
+      "source": "Appartamento TCA",
+      "kind": "text",
+      "context": "Appartamento TCA"
+    },
+    {
+      "id": "bd4e72c009d788c2b1f330da5b8ad5782ae2abea6694afca4991a6bd877ddc18",
+      "source": "Retired rotary-pump E61 heat-exchanger semi-automatic espresso machine",
+      "kind": "text",
+      "context": "Retired rotary-pump E61 heat-exchanger semi-automatic espresso machine"
+    },
+    {
+      "id": "d842f37b61bfc385bc3ce69c2893a3611efc9483289b7232ecc4ae7a3d986ecc",
+      "source": "Giotto Cronometro R",
+      "kind": "text",
+      "context": "Giotto Cronometro R"
+    },
+    {
+      "id": "9409ca1475d6904b366e8fda0ba60d28738fa42c30f7b21e975a1ccfe6e387f5",
+      "source": "Mozzafiato Cronometro R",
+      "kind": "text",
+      "context": "Mozzafiato Cronometro R"
+    },
+    {
+      "id": "f3faad7292b46a21b285cdec31b781dc066e1e8f9f95fa68d9f45d582d7c493f",
+      "source": "Premium saturated-group dual-boiler pressure-profiling espresso machine",
+      "kind": "text",
+      "context": "Premium saturated-group dual-boiler pressure-profiling espresso machine"
+    },
+    {
+      "id": "c4e153de9dca495da0791847659e253c1521bce302fd5de941facc01e7b30619",
+      "source": "R Nine One",
+      "kind": "text",
+      "context": "R Nine One"
+    },
+    {
+      "id": "12f5646524554318c989555285c73818cf7c94e1f04384112230cb1a4f37f6bd",
+      "source": "Grinders",
+      "kind": "text",
+      "context": "Grinders"
+    },
+    {
+      "id": "c0439caea1fc5b557e971f0e215c158148dc3c27980c8db86f04efead9021ee9",
+      "source": "Coffee beans",
+      "kind": "text",
+      "context": "Coffee beans"
+    },
+    {
+      "id": "f187908d620a3ac8295409a9340973064f4b4a4ee8cd17c2034ce666439036d9",
+      "source": "Journal",
+      "kind": "text",
+      "context": "Journal"
+    },
+    {
+      "id": "87a7dcdf7cb59444416ba11875436bda8c6b08b6e67d010dea6636662254e9b7",
+      "source": "Guides",
+      "kind": "text",
+      "context": "Guides"
+    },
+    {
+      "id": "bb612e2da149a06469978ca1e1d55d7c6f9b45aae9559c98f388a7e7b8269b4d",
+      "source": "About",
+      "kind": "text",
+      "context": "About"
+    },
+    {
+      "id": "2ca700d3d12b7a673fa3a6dce260a7cc42ced931a2467a6c8fc27130449bd25b",
+      "source": "Find my machine",
+      "kind": "text",
+      "context": "Find my machine"
+    },
+    {
+      "id": "c0536fb23bef6a0df148690eec0dc18d64e138fe6aa7443474a3c719f90117b8",
+      "source": "Contact",
+      "kind": "text",
+      "context": "Contact"
+    },
+    {
+      "id": "041ae5ac849d6a54864f92c825e24e980c2b4ac617a2ed6c869c6bdd9b53c65f",
+      "source": "Privacy",
+      "kind": "text",
+      "context": "Privacy"
+    },
+    {
+      "id": "4ea75a74b6755d938edb8bfa1b4efb542cbdce0b16fa47a2aa23ea4008ff7ad9",
+      "source": "Terms",
+      "kind": "text",
+      "context": "Terms"
+    },
+    {
+      "id": "3ccf33032acbc3df8a1496e4b00c704fca92d9dbc43f0691084499d891f45980",
+      "source": "Cookie preferences",
+      "kind": "text",
+      "context": "Cookie preferences"
+    },
+    {
+      "id": "a2ed373374a85dd1c235d70071567a6d4f6879bf154c7ae0aa961d7f6cdf24a3",
+      "source": "Analytics cookie preferences",
+      "kind": "attribute",
+      "context": "Coffeedant    Menu     \nMachines ⌄     Machine directory Find the right route, then compare the reviews.  View all machines →    Start here Choose a machine   All espresso machines Browse the complete review library  Best for beginners Four clear first-machine routes  Machines with a grinder Integrated and bean-to-cup options  Machines without a grinder Build a modular setup    Shop by need Match your workflow   Under $500 Keep the machine budget contained  Prosumer under $1,000 More control without four-figure hardware  Small machines Compact picks for tight counters  Single-boiler machines Focused, hands-on espresso  Superautomatic machines One-touch coffee and milk    More equipment Complete the setup   Coffee machines Brewers beyond espresso  Coffee grinders Manual and electric grinder reviews  Browse every brand Start with the manufacturer  How we test Read the Coffeedant methodology        \nBrands ⌄      Brand directory Pick a brand to see every review we have.  View all brands →    Directory All brands Compare the full brand map   Spain Ascaso 2 reviews →  Italy Bezzera 8 reviews →  Germany Bosch 3 reviews →  Australia Breville 11 reviews →  Italy De'Longhi 14 reviews →  Germany ECM 7 reviews →  Italy Gaggia 18 reviews →  Switzerland Jura 4 reviews →  United States Keurig 1 review →  Germany Krups 11 reviews →  Italy La Marzocco 2 reviews →  Italy La Pavoni 4 reviews →  Italy Lelit 7 reviews →  Switzerland Nespresso 1 review →  United States Ninja 1 review →  Netherlands Philips 5 reviews →  Germany Profitec 6 reviews →  Italy Quick Mill 9 reviews →  Italy Rancilio 2 reviews →  Italy Rocket Espresso 4 reviews →       ← All brands\n 2 reviews    Spain Ascaso   Brand guide About Ascaso →     Dual-thermoblock semi-automatic espresso machine Steel Duo PID Read review "
+    },
+    {
+      "id": "7bb5d514805eb17b10e43baefe0b635e1dcbafe406ed6c379f1079fb4d401541",
+      "source": "Help us improve Coffeedant",
+      "kind": "text",
+      "context": "Help us improve Coffeedant"
+    },
+    {
+      "id": "32ed38025b85d4d30ef4d0f9d4d5b4068a6f7d30dc3e5970a1fc817cbf72d29c",
+      "source": "May we use Google Analytics cookies to understand which pages are useful? You can change your choice using Cookie preferences in the footer.",
+      "kind": "text",
+      "context": "May we use Google Analytics cookies to understand which pages are useful? You can change your choice using Cookie preferences in the footer. Privacy policy"
+    },
+    {
+      "id": "8600c4f00cfaea86ac3dcf4fbbb5033a90beecfd88f9a1b9e1b95d34b4303b28",
+      "source": "Privacy policy",
+      "kind": "text",
+      "context": "Privacy policy"
+    },
+    {
+      "id": "cbb6bf9a21b6e3c6b21a25f0e1c53832babf2e9e0501de5e372b65d26f22c133",
+      "source": "Your browser requests no optional tracking. Analytics will stay off while that setting is enabled.",
+      "kind": "text",
+      "context": "Your browser requests no optional tracking. Analytics will stay off while that setting is enabled."
+    },
+    {
+      "id": "93060f423da16f3cb081a4c3b9ff4506710dcc54f8a4ef593fdd55ba2d819b5f",
+      "source": "Accept analytics",
+      "kind": "text",
+      "context": "Accept analytics"
+    },
+    {
+      "id": "d4488339c3794560f7910d6e52d046ec5ccdcc67259d0e6eb26f7be92af96019",
+      "source": "Reject analytics",
+      "kind": "text",
+      "context": "Reject analytics"
+    },
+    {
+      "id": "4d56ff38f9a1b17cfb134bbc770ce42fc3a06189ee2759497a73b7565a55ad4c",
+      "source": "Skip to content",
+      "kind": "text",
+      "context": "Skip to content"
+    },
+    {
+      "id": "a156c1e5e184f2751bb1172180d1766a21b154c467d158eb4f5c00230d936f2a",
+      "source": "← All brands",
+      "kind": "text",
+      "context": "← All brands"
+    },
+    {
+      "id": "ff293fbe657c3aebeb6e4169c44b82a5a3817c86a85924778f48a556f8e37233",
+      "source": "machine reviews",
+      "kind": "text",
+      "context": "machine reviews"
+    },
+    {
+      "id": "91032dfc09f75d562f1120950a086a1e3fdb9b39f46ab4a6855a815a74dbb564",
+      "source": "price position",
+      "kind": "text",
+      "context": "price position"
+    },
+    {
+      "id": "1a8564b0326b15cc2a86cbc368a1fa5dfe66ff6ce3f61e9f62b7ca45d10c2d24",
+      "source": "workflow",
+      "kind": "text",
+      "context": "workflow"
+    },
+    {
+      "id": "ccc70a21219cd232b46b20cd949e8f5f92a656902a88700d45f2a3ae50989ef8",
+      "source": "01 / Brand fit",
+      "kind": "text",
+      "context": "01 / Brand fit"
+    },
+    {
+      "id": "821bf947befd3ed1edfa21bb44eb695b82963c9e6356b09a54ad7903d63844aa",
+      "source": "Brand position is useful only when it helps you choose a daily routine.",
+      "kind": "text",
+      "context": "Brand position is useful only when it helps you choose a daily routine."
+    },
+    {
+      "id": "364d06448f79bfd5de04e942e1f08e3b8fdbcf0a66628fbff6438679e7e0618d",
+      "source": "Push-button ease",
+      "kind": "text",
+      "context": "Push-button ease"
+    },
+    {
+      "id": "61637f1652deaaabfa508232dcabeb0fa7a1be2ef5cb0b22d4b9e70c982e1d2e",
+      "source": "Hands-on control",
+      "kind": "text",
+      "context": "Hands-on control"
+    },
+    {
+      "id": "0ec8d3aa9684f0624c54746e2161782a27565eed6612e6297f86cacf606ea843",
+      "source": "Best for:",
+      "kind": "text",
+      "context": "Best for:"
+    },
+    {
+      "id": "db4e01deb2356ce449a7deaf69ecdffb87332dd36d655756b1a7e299dbf4b3c8",
+      "source": "Why it belongs on a shortlist",
+      "kind": "text",
+      "context": "Why it belongs on a shortlist"
+    },
+    {
+      "id": "3699ed2990d28a5905e8adac3cec3bb674427d7e3302bead4cad241b174aa3b6",
+      "source": "The trade-off",
+      "kind": "text",
+      "context": "The trade-off"
+    },
+    {
+      "id": "ab0c832418378199bcd0c759dbdf2537ea7ed5cb4f8bbe205c84d2b05cd0f64d",
+      "source": "02 / Brand approach",
+      "kind": "text",
+      "context": "02 / Brand approach"
+    },
+    {
+      "id": "dfd8af59b0937c4462f539ad84b9272eb3fc7ddd5306ad7d7c50f29c2601305e",
+      "source": "The useful brand story is the one that changes ownership, not the one printed in a brochure.",
+      "kind": "text",
+      "context": "The useful brand story is the one that changes ownership, not the one printed in a brochure."
+    },
+    {
+      "id": "dfaf29d2d724aa633ffce24aa0812a3c1ec41f2da0ae12e835901ac465e224f5",
+      "source": "Design approach",
+      "kind": "text",
+      "context": "Design approach"
+    },
+    {
+      "id": "074245c9afaa2018c1d0ab57f9d9b88db42ed35a99635a3ce542bf836a118b33",
+      "source": "Ownership reality",
+      "kind": "text",
+      "context": "Ownership reality"
+    },
+    {
+      "id": "f743324c0c4c063c57948e396fb6c17aed249496d26d5c75d00bb432bd35fe18",
+      "source": "How to read the range",
+      "kind": "text",
+      "context": "How to read the range"
+    },
+    {
+      "id": "ddf6e1b3204b2ea0151392af49ec7460ede50515ea42ac58cf258d1527305fae",
+      "source": "The finder could not load",
+      "kind": "attribute",
+      "context": "← All brands Spain · Thermoblock · hands-on Ascaso, mapped. Modern, compact machines that prioritize speed without turning espresso into a push-button process.   2machine reviews $$–$$$price position Balanced workflowworkflow       01 / Brand fit Where Ascaso sits. Brand position is useful only when it helps you choose a daily routine.    Push-button easeHands-on control  Ascaso  Best for: Fast heat-up with real control   Why it belongs on a shortlist Fast warm-upCompact footprintModern controls   The trade-off Less traditional than a boiler-first machine.        02 / Brand approach What Ascaso actually builds for. The useful brand story is the one that changes ownership, not the one printed in a brochure.   Design approachAscaso uses fast-heating thermoblock technology to make a hands-on machine feel practical on a weekday. The emphasis is modern temperature control without the long warm-up of traditional prosumer hardware. Ownership realityIt suits buyers who want to dial in a separate grinder but do not want the machine warming for half an hour. Water quality and routine cleaning still matter, but the daily start-up is unusually light. How to read the rangeSteel Uno is the focused single-thermoblock route. Steel Duo adds simultaneous brew-and-steam ability for milk-heavy households.        Ascaso Coffee Finder Find the Ascaso machine that fits your routine.  Start with any constraint. This compact finder searches every Ascaso espresso-machine review; the full finder can compare the result with every brand.      Budget  Any budget Under $500 $500–$999 $1,000–$1,999 $2,000–$2,999 $3,000–$4,999 $5,000+    Workflow  Any workflow One-touch automatic Guided / grinder built in Hands-on electric Manual lever / press Capsule / pod Commercial capacity    Main drinks  Any drink"
+    },
+    {
+      "id": "a24eaccdf6a3941ef8545ce1f0e188ae60609a9b4a0bd8213e58a720c14efda2",
+      "source": "Browse the full espresso-machine guide instead.",
+      "kind": "attribute",
+      "context": "← All brands Spain · Thermoblock · hands-on Ascaso, mapped. Modern, compact machines that prioritize speed without turning espresso into a push-button process.   2machine reviews $$–$$$price position Balanced workflowworkflow       01 / Brand fit Where Ascaso sits. Brand position is useful only when it helps you choose a daily routine.    Push-button easeHands-on control  Ascaso  Best for: Fast heat-up with real control   Why it belongs on a shortlist Fast warm-upCompact footprintModern controls   The trade-off Less traditional than a boiler-first machine.        02 / Brand approach What Ascaso actually builds for. The useful brand story is the one that changes ownership, not the one printed in a brochure.   Design approachAscaso uses fast-heating thermoblock technology to make a hands-on machine feel practical on a weekday. The emphasis is modern temperature control without the long warm-up of traditional prosumer hardware. Ownership realityIt suits buyers who want to dial in a separate grinder but do not want the machine warming for half an hour. Water quality and routine cleaning still matter, but the daily start-up is unusually light. How to read the rangeSteel Uno is the focused single-thermoblock route. Steel Duo adds simultaneous brew-and-steam ability for milk-heavy households.        Ascaso Coffee Finder Find the Ascaso machine that fits your routine.  Start with any constraint. This compact finder searches every Ascaso espresso-machine review; the full finder can compare the result with every brand.      Budget  Any budget Under $500 $500–$999 $1,000–$1,999 $2,000–$2,999 $3,000–$4,999 $5,000+    Workflow  Any workflow One-touch automatic Guided / grinder built in Hands-on electric Manual lever / press Capsule / pod Commercial capacity    Main drinks  Any drink"
+    },
+    {
+      "id": "d7528167c11308dcf0d1d5edfa278d0f8e7ed3876ff30c28d4dfa2cd6a7154d7",
+      "source": "Budget",
+      "kind": "text",
+      "context": "Budget"
+    },
+    {
+      "id": "e9150adb2e8e320d6b3fd0e1a431728d6951677f334c659c42ca7d00ff14ac84",
+      "source": "Any budget",
+      "kind": "text",
+      "context": "Any budget"
+    },
+    {
+      "id": "9cd47c3fe37886b98955eccb29e9f464c6140aec639be0ceacd4a52073476676",
+      "source": "Workflow",
+      "kind": "text",
+      "context": "Workflow"
+    },
+    {
+      "id": "bda92769b4c45b5337ebff51450085f9ad6d56cb3cb80e93a4f206898ce457bb",
+      "source": "Any workflow",
+      "kind": "text",
+      "context": "Any workflow"
+    },
+    {
+      "id": "32afbb273e0001a82868af1395c3c260347daf854b93d7e54bf404324f13fc01",
+      "source": "One-touch automatic",
+      "kind": "text",
+      "context": "One-touch automatic"
+    },
+    {
+      "id": "652a5f162f80c16bcd19a87b7f20cc148961f5f4fea2c5b6850d7cce15af56c0",
+      "source": "Guided / grinder built in",
+      "kind": "text",
+      "context": "Guided / grinder built in"
+    },
+    {
+      "id": "bd707231643a475ec6a8d791776aed8b5dcbfe2a6d077098741ad322274d4b99",
+      "source": "Hands-on electric",
+      "kind": "text",
+      "context": "Hands-on electric"
+    },
+    {
+      "id": "3212d7db5a69dc2f2fa56b56e32cf83cb92bb076e1bc39607b6802fb36733e43",
+      "source": "Manual lever / press",
+      "kind": "text",
+      "context": "Manual lever / press"
+    },
+    {
+      "id": "5af4c16585b9db6f6ca0652251ed18e6c1e9a5ee993a75bffa0586a00797f3d2",
+      "source": "Capsule / pod",
+      "kind": "text",
+      "context": "Capsule / pod"
+    },
+    {
+      "id": "1bc0e4b77f081a6003819189473905a834a1ed635bd73a25f0f85cb81e0e3e8c",
+      "source": "Commercial capacity",
+      "kind": "text",
+      "context": "Commercial capacity"
+    },
+    {
+      "id": "db1b9758bd8cb8ff991e4245a1ae364733f77e50398e13ed7483521435ebb919",
+      "source": "Main drinks",
+      "kind": "text",
+      "context": "Main drinks"
+    },
+    {
+      "id": "d482b4dcafa107a6cc38945b8365f92ddb01a867bd7677c9a8dbd3d5480dcf57",
+      "source": "Any drink mix",
+      "kind": "text",
+      "context": "Any drink mix"
+    },
+    {
+      "id": "688a7ca4aad86595d5282e38c3c2d7b3cbb0b45c2b1bfbdf4a9f1481ec50870d",
+      "source": "Straight espresso matters",
+      "kind": "text",
+      "context": "Straight espresso matters"
+    },
+    {
+      "id": "050007d390bd585776b882c8f5b7aa38fff96023b96a1ae762dde40d143c6418",
+      "source": "Milk drinks matter",
+      "kind": "text",
+      "context": "Milk drinks matter"
+    },
+    {
+      "id": "eae3c399eb61f4293c260ba3bdd881962df00e281d14e314a7593ed7ab616da3",
+      "source": "I make both regularly",
+      "kind": "text",
+      "context": "I make both regularly"
+    },
+    {
+      "id": "89dde4f2deedb7b8d14c5edc7891c296e3bd5053b3ff62ac9d5b1d4b8cc4210d",
+      "source": "Find my matches",
+      "kind": "text",
+      "context": "Find my matches →"
+    },
+    {
+      "id": "d5aa1c190e68bad98ee811b34994ecbcdc27b8501dc101fb0dea3a536ea295bf",
+      "source": "Clear filters",
+      "kind": "text",
+      "context": "Clear filters"
+    },
+    {
+      "id": "433e43d7e1efb7710441ff8d4e1d4829573a16e930e0b9270fca4a5d1afc9461",
+      "source": "Open the full finder",
+      "kind": "text",
+      "context": "Open the full finder ↗"
+    },
+    {
+      "id": "a3f4696b5a4d9b443b6ec5d0b7ed6474e6a1c4df4a1b148d4974f362f073c2d4",
+      "source": "Pick one filter or several. Budget matching uses current or documented US-dollar prices; machines priced only in other currencies remain visible under “Any budget.”",
+      "kind": "text",
+      "context": "Pick one filter or several. Budget matching uses current or documented US-dollar prices; machines priced only in other currencies remain visible under “Any budget.”"
+    },
+    {
+      "id": "8628b0199f17f0c8f88059dd913c6854148fc2707044559d339be5c825535639",
+      "source": "Loading the catalog…",
+      "kind": "text",
+      "context": "Loading the catalog…"
+    },
+    {
+      "id": "d0342fe03f726362bc445d2ed75add08e1079e2e79da309eba129a954b919b7d",
+      "source": "Re-indexed every two weeks",
+      "kind": "text",
+      "context": "Re-indexed every two weeks"
+    },
+    {
+      "id": "d53653fb5ddf6a508248c410910eb1c7c5e68c2ddb7612db32c69c56dceb4810",
+      "source": "No exact match. Clear one filter to widen the shortlist.",
+      "kind": "text",
+      "context": "No exact match. Clear one filter to widen the shortlist."
+    },
+    {
+      "id": "d8c5087b33ec3181ac0caa53be80769c401a78926703d5858d3b1a3d8ab15b5c",
+      "source": "03 / Nearest alternatives",
+      "kind": "text",
+      "context": "03 / Nearest alternatives"
+    },
+    {
+      "id": "cb3eced8b032090312c4178bd8a0ac75557478ecf9da29650a0178e4156a9ee4",
+      "source": "Compare the lane.",
+      "kind": "text",
+      "context": "Compare the lane."
+    },
+    {
+      "id": "de999a5776f0479ed336ef36156a060198f0a3312886606190c183bc5eeddc1e",
+      "source": "These brands sit closest on the convenience-to-control map. Similar position does not mean identical ownership.",
+      "kind": "text",
+      "context": "These brands sit closest on the convenience-to-control map. Similar position does not mean identical ownership."
+    },
+    {
+      "id": "5d4ec76fb9214c1206da921fb678a4feaadc849d151f2965fefbea9355c1f10a",
+      "source": "Brand",
+      "kind": "text",
+      "context": "Brand"
+    },
+    {
+      "id": "5807058e3e71007c5afaa45a08492abc18845ab636a0dadb896136b6d29da5d5",
+      "source": "System",
+      "kind": "text",
+      "context": "System"
+    },
+    {
+      "id": "19c2f4a32998bb95f2273a7947461e5f9e5cfc0dfeb8fd4472e1e70a45bcd0b4",
+      "source": "Price position",
+      "kind": "text",
+      "context": "Price position"
+    },
+    {
+      "id": "bee2344aa98bb71c1e8c0c54eac36866cdf9740c1c4fdc03920c1318189a9daf",
+      "source": "Best for",
+      "kind": "text",
+      "context": "Best for"
+    },
+    {
+      "id": "2cfa23fe7d86ccb377edc8a5dc8da117a3c26e2db82f1450145f515564fa65c7",
+      "source": "Brand",
+      "kind": "attribute",
+      "context": "Ascaso Thermoblock · hands-on $$–$$$ Fast heat-up with real control Current"
+    },
+    {
+      "id": "ea374a90930d02757147b3987bfbd4da03da64e377eda2a4706cc65ae550accc",
+      "source": "System",
+      "kind": "attribute",
+      "context": "Ascaso Thermoblock · hands-on $$–$$$ Fast heat-up with real control Current"
+    },
+    {
+      "id": "ec65ba93980c654012e0c0401fb066a4c08d8b37ec6c3090a442daa6398a613b",
+      "source": "Price position",
+      "kind": "attribute",
+      "context": "Ascaso Thermoblock · hands-on $$–$$$ Fast heat-up with real control Current"
+    },
+    {
+      "id": "f0de3d4dc21d05b6890159f0163330f43a88a55ce738aeca3457af308b463041",
+      "source": "Best for",
+      "kind": "attribute",
+      "context": "Ascaso Thermoblock · hands-on $$–$$$ Fast heat-up with real control Current"
+    },
+    {
+      "id": "e34348e64ae0b6016b490c2dacede3b541c20706371c276a44d6c0c7137563c8",
+      "source": "Brand page",
+      "kind": "attribute",
+      "context": "Ascaso Thermoblock · hands-on $$–$$$ Fast heat-up with real control Current"
+    },
+    {
+      "id": "b7b52948f398762e886eda65e7e2f40d7d93444233aa252dfbc64dd1b3eb0ffd",
+      "source": "Current",
+      "kind": "text",
+      "context": "Current"
+    },
+    {
+      "id": "99512ba40243484e2f8e088a14d34e8734fea7e5f25108d7f31247f3c9fd7764",
+      "source": "Compare →",
+      "kind": "text",
+      "context": "Compare →"
+    },
+    {
+      "id": "cf4d3851f5303b910058edc5477846e1abd90f70f055b069a6286858f4260054",
+      "source": "04 / Reviews",
+      "kind": "text",
+      "context": "04 / Reviews"
+    },
+    {
+      "id": "9099ecdabbb98569e3a8829c88a3292cc2b7c43824cad9e2a242737f34c200f7",
+      "source": "Every available Coffeedant review, without making you dig through an archive.",
+      "kind": "text",
+      "context": "Every available Coffeedant review, without making you dig through an archive."
+    },
+    {
+      "id": "8301337c1cf2149a795a1eaa7b1dc0993db50aca6c61b88adabc46a27c9cb15d",
+      "source": "05 / Before you choose",
+      "kind": "text",
+      "context": "05 / Before you choose"
+    },
+    {
+      "id": "c4e3bc5f7c8327d3ace84df572b55acea7ff44598a39e1cabef6624a950c2261",
+      "source": "Three checks.",
+      "kind": "text",
+      "context": "Three checks."
+    },
+    {
+      "id": "ef42f2dc3d8cc91c28e504a4785e102a4c3ae69d3bb9441abad9eeca0f71d078",
+      "source": "A logo should never make these decisions for you.",
+      "kind": "text",
+      "context": "A logo should never make these decisions for you."
+    },
+    {
+      "id": "573ab7a95a6d1f190c22bffdbd83415915362ed7cd8ec75d44846f5ef3172420",
+      "source": "Choose the machine family",
+      "kind": "text",
+      "context": "Choose the machine family"
+    },
+    {
+      "id": "f4b971acb16515ad7058d392d0af28bb24e3911d0722fcfbce75d7f4c743a1c9",
+      "source": "Price the full setup",
+      "kind": "text",
+      "context": "Price the full setup"
+    },
+    {
+      "id": "4726588025dcd51c02bc893b10729c1969ffa42691802ca2f3323dee66ddec65",
+      "source": "Include the grinder, milk accessories, water treatment, cleaning supplies, and realistic service costs.",
+      "kind": "text",
+      "context": "Include the grinder, milk accessories, water treatment, cleaning supplies, and realistic service costs."
+    },
+    {
+      "id": "6a2b04069a5f55afe77e883e5e63ac588c5859471d8ff20002a050ecd244dac1",
+      "source": "Accept the compromise",
+      "kind": "text",
+      "context": "Accept the compromise"
+    },
+    {
+      "id": "25603b8b9311ef080900a8bcc35c8403e8a859f93a26c5444bc1f07e01d6a457",
+      "source": "Still comparing?",
+      "kind": "text",
+      "context": "Still comparing?"
+    },
+    {
+      "id": "8a4df7d83d6ca884e2a22faceb5577dcebc5e7c8588d3757e9988bfd81f36e66",
+      "source": "Put the brand second.",
+      "kind": "text",
+      "context": "Put the brand second."
+    },
+    {
+      "id": "31c32c8c481310850c0d622ac58e19420a55d1b973f29d14c4b74700185d2e66",
+      "source": "Start with your routine, then use the brand as a filter. The main guide organizes machines by control, convenience, grinder setup, space, and budget.",
+      "kind": "text",
+      "context": "Start with your routine, then use the brand as a filter. The main guide organizes machines by control, convenience, grinder setup, space, and budget."
+    },
+    {
+      "id": "d64da128a6fae18c086b79b46535972a4394caa5bd6a4e4d54580a470c5bc859",
+      "source": "Open the machine guide →",
+      "kind": "text",
+      "context": "Open the machine guide →"
+    },
+    {
+      "id": "db94213409c3ed60b952a5f0e2435ef5144cce8647ad8f5293bb92d8ff9fe062",
+      "source": "Practical coffee gear reviews for better decisions and better mornings.",
+      "kind": "text",
+      "context": "Practical coffee gear reviews for better decisions and better mornings."
+    },
+    {
+      "id": "a630c40a798566abc9e51d542983caf4d028de14ee1dcea03e8126af802c6d45",
+      "source": "Footer navigation",
+      "kind": "attribute",
+      "context": "Coffeedant  Practical coffee gear reviews for better decisions and better mornings.   Machine guide Brands About Contact Privacy Terms Cookie preferences  Affiliate disclosureAs an Amazon Associate I earn from qualifying purchases. Coffeedant may also earn from other retailer links. It does not change what you pay or how products are evaluated."
+    },
+    {
+      "id": "4a23850362a2ecd8fa0dddd59dc50de6a38700f2ff6629f21aa892e83d2f5d97",
+      "source": "Machine guide",
+      "kind": "text",
+      "context": "Machine guide"
+    },
+    {
+      "id": "f644d231de7b861ba3fed5753bb019cb21f5e934d57062161e761d036ff7e989",
+      "source": "Affiliate disclosure",
+      "kind": "text",
+      "context": "Affiliate disclosure"
+    },
+    {
+      "id": "7fc22c673ef7789d736aad921a0725c834799c866e151ab25e4c1378c8b03d91",
+      "source": "As an Amazon Associate I earn from qualifying purchases. Coffeedant may also earn from other retailer links. It does not change what you pay or how products are evaluated.",
+      "kind": "text",
+      "context": "Affiliate disclosureAs an Amazon Associate I earn from qualifying purchases. Coffeedant may also earn from other retailer links. It does not change what you pay or how products are evaluated."
+    },
+    {
+      "id": "83310f90ee9b9ed85677dbcaf79bfd6a9355ab63ebbd7ea6e7ec5d7d5be00d5d",
+      "source": "© 2026 Coffeedant.",
+      "kind": "text",
+      "context": "© 2026 Coffeedant."
+    },
+    {
+      "id": "72edd3967619777aab8a509298a68e20320623dbcc795ec08d66456957251829",
+      "source": "Bosch Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "text",
+      "context": "Bosch Espresso Machines: Compare the Lineup | Coffeedant"
+    },
+    {
+      "id": "e308cb4e805846c6a97b604eed24a777c6219bea3e868003500a2c130954fabd",
+      "source": "Bosch espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 3 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "Bosch Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document."
+    },
+    {
+      "id": "090ae908e605c1ef966fc8fb191e8040b96031b12bcca956d1a346a7bc17684e",
+      "source": "Bosch Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "metadata",
+      "context": "Bosch Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document."
+    },
+    {
+      "id": "38edc12469fc4c90908d6788e5339bcba9d391335754c290801d571b30f69682",
+      "source": "Germany · Bean-to-cup · automatic",
+      "kind": "text",
+      "context": "Germany · Bean-to-cup · automatic"
+    },
+    {
+      "id": "6a1fd8234fffc3eb50f71062d0a3941f11aa96618649fca3ba3c67b6d765ad3b",
+      "source": "Bosch, mapped.",
+      "kind": "text",
+      "context": "Bosch, mapped."
+    },
+    {
+      "id": "f757e1efd9f45fbfc0990d34f2530f37c4fa1e2853e35e81c40df1a39f98b5cd",
+      "source": "Straightforward automatic machines built around simple drink selection and low-friction maintenance.",
+      "kind": "text",
+      "context": "Straightforward automatic machines built around simple drink selection and low-friction maintenance."
+    },
+    {
+      "id": "1c8f478d8d826e4189f78f779305c70d8f305d26fbfdf3282ce66a47ddce73f5",
+      "source": "Bosch overview",
+      "kind": "attribute",
+      "context": "← All brands Germany · Bean-to-cup · automatic Bosch, mapped. Straightforward automatic machines built around simple drink selection and low-friction maintenance.   3machine reviews $$–$$$price position Convenience firstworkflow"
+    },
+    {
+      "id": "efb843556d49360fdf2c06ed7d5cae8211d03c4ccac12cbff33df77ad0ab3af1",
+      "source": "Convenience first",
+      "kind": "text",
+      "context": "Convenience first"
+    },
+    {
+      "id": "a6cb89e1eb199f5e2c0aa81eebf8d899a63f9bffdaeef82b6219e760ca6aeacf",
+      "source": "Where Bosch sits.",
+      "kind": "text",
+      "context": "Where Bosch sits."
+    },
+    {
+      "id": "2209cb4a4c76fadd4e2b39b395b7a62bce3728733f267c62f04b5a1ae15a3230",
+      "source": "Bosch: Convenience first",
+      "kind": "attribute",
+      "context": "Push-button easeHands-on control  Bosch  Best for: One-touch drinks and guided care"
+    },
+    {
+      "id": "6552aff27de350b800e0a64f2f2f65e5f6b2518ba8d4b234e9d0e8fdb45ff297",
+      "source": "One-touch drinks and guided care",
+      "kind": "text",
+      "context": "Best for: One-touch drinks and guided care"
+    },
+    {
+      "id": "60eab0782ca90e9788bf4b5cbb4838091c012b6acfeb26a3be3f88086e84deb6",
+      "source": "Easy routines",
+      "kind": "text",
+      "context": "Easy routines"
+    },
+    {
+      "id": "9c394d4c3337b062457ca6fc63c5fe07015412ecc4e2d4785b7b0761a7e6b182",
+      "source": "One-touch drinks",
+      "kind": "text",
+      "context": "One-touch drinks"
+    },
+    {
+      "id": "bed09016e2c1b19a2d3f102f12e4ec7ba16f88110bc68e9a54308072c70a13ea",
+      "source": "Guided cleaning",
+      "kind": "text",
+      "context": "Guided cleaning"
+    },
+    {
+      "id": "1465c5297ac1ec99137a9e5230e8c8a02e0b1f3f144c95cc52819af990654f7a",
+      "source": "Limited manual control over extraction.",
+      "kind": "text",
+      "context": "Limited manual control over extraction."
+    },
+    {
+      "id": "1a58cdcc161b17c193b71b7eb5a18619f7952c2b43daab2f20d820be36482623",
+      "source": "What Bosch actually builds for.",
+      "kind": "text",
+      "context": "What Bosch actually builds for."
+    },
+    {
+      "id": "5ca0b76aff5015189efab436e535eb16e8378dc91c28111fd87fe85c43e9bf1f",
+      "source": "Bosch treats espresso as a guided appliance routine. The machine handles grinding, brewing, drink selection, and cleaning prompts so the user makes fewer decisions.",
+      "kind": "text",
+      "context": "Bosch treats espresso as a guided appliance routine. The machine handles grinding, brewing, drink selection, and cleaning prompts so the user makes fewer decisions."
+    },
+    {
+      "id": "f711b8eb67c60a6c78bba286e8e2e86ff742c77ef909e258ac3cbc6597bcf815",
+      "source": "The value is consistency across a household, not experimentation. Buyers should compare milk cleaning, drink menus, and service access more carefully than headline pressure figures.",
+      "kind": "text",
+      "context": "The value is consistency across a household, not experimentation. Buyers should compare milk cleaning, drink menus, and service access more carefully than headline pressure figures."
+    },
+    {
+      "id": "1e6be187f599549e54d3c73b58efbd672aefdf79f6d44d5130e8485adda3b8d0",
+      "source": "The numbered series move upward through interface quality, drink choice, milk capability, and convenience features rather than adding manual control.",
+      "kind": "text",
+      "context": "The numbered series move upward through interface quality, drink choice, milk capability, and convenience features rather than adding manual control."
+    },
+    {
+      "id": "7564169f7ae58b3f6d81ecc92851340c1c40dcb5d15b535483329c88a49e3404",
+      "source": "Bosch Coffee Finder",
+      "kind": "text",
+      "context": "Bosch Coffee Finder"
+    },
+    {
+      "id": "ed8d1b5bb17058b3713568dd6e8a4eee57a050c6349705b33da1265807db7610",
+      "source": "Find the Bosch machine that fits your routine.",
+      "kind": "text",
+      "context": "Find the Bosch machine that fits your routine."
+    },
+    {
+      "id": "d6573c6eb97b86fc108a62fbaa1e6fd8539f755803cf8b3c56bf0045d1701940",
+      "source": "Start with any constraint. This compact finder searches every Bosch espresso-machine review; the full finder can compare the result with every brand.",
+      "kind": "text",
+      "context": "Start with any constraint. This compact finder searches every Bosch espresso-machine review; the full finder can compare the result with every brand."
+    },
+    {
+      "id": "17e65c94b52bee47a2f8f1a87598b22b489d6da0d9fe9d32d87c0de8e432427d",
+      "source": "Bosch and nearby brand alternatives",
+      "kind": "attribute",
+      "context": "BrandSystemPrice positionBest for   Bosch Bean-to-cup · automatic $$–$$$ One-touch drinks and guided care Current  Philips Bean-to-cup · automatic $$–$$$ Easy milk drinks and cleanup Compare →  Krups Mixed · compact $–$$$ Small kitchens and simple drinks Compare →"
+    },
+    {
+      "id": "ec537bccf897b739ee4646460daae6ba6fcef7ff53ce9767092e70165acb9df0",
+      "source": "Bean-to-cup · automatic",
+      "kind": "text",
+      "context": "Bean-to-cup · automatic"
+    },
+    {
+      "id": "471ad7876f9e00def8c556199c4f54f8f4b09e0aaa320c547a24f743f028efd7",
+      "source": "Easy milk drinks and cleanup",
+      "kind": "text",
+      "context": "Easy milk drinks and cleanup"
+    },
+    {
+      "id": "c48c8d5ec4643ca19454e9dae937a6595ddba2b01896acfb4ce8eedb0efff230",
+      "source": "Mixed · compact",
+      "kind": "text",
+      "context": "Mixed · compact"
+    },
+    {
+      "id": "1698fbcf0e756593b928be9c814105fd2c7201f577e0365a172271eabc7dfe9d",
+      "source": "Small kitchens and simple drinks",
+      "kind": "text",
+      "context": "Small kitchens and simple drinks"
+    },
+    {
+      "id": "847567489302789937cf1278af3173f6b76f197f715161253dd782ca0d4c00d1",
+      "source": "The Bosch lineup.",
+      "kind": "text",
+      "context": "The Bosch lineup."
+    },
+    {
+      "id": "a2413a552aab1b2b8d9d1e1d832cb8b7e1ca8a5b503f2eedac84d1faf9c69d9e",
+      "source": "Bosch 300 Series VeroCafe TIU20307",
+      "kind": "text",
+      "context": "Bosch 300 Series VeroCafe TIU20307"
+    },
+    {
+      "id": "51fe13bb35f06b443f5b94234ca899c14ea831bacb70eff246ac6db69dd4a0f4",
+      "source": "Bosch 500 Series VeroCafe TPU40109",
+      "kind": "text",
+      "context": "Bosch 500 Series VeroCafe TPU40109"
+    },
+    {
+      "id": "5ee06099eeb9ab357c773e9b36f201ce9823134fb8c2195cf0e07e2d39ef7788",
+      "source": "Bosch 800 Series VeroCafe TPU60309",
+      "kind": "text",
+      "context": "Bosch 800 Series VeroCafe TPU60309"
+    },
+    {
+      "id": "5524e65f6daa5c50557928be5bd68396c59836231db5563ef51905a2cb24edfc",
+      "source": "Premium automation",
+      "kind": "text",
+      "context": "Premium automation"
+    },
+    {
+      "id": "043d35a399527adb5ac48b49e4bb04244fd6486e17d581e81f7b8ee990db9963",
+      "source": "Netherlands · Bean-to-cup · automatic",
+      "kind": "text",
+      "context": "Netherlands · Bean-to-cup · automatic"
+    },
+    {
+      "id": "c690561f60b025b0e2b421dc85ce8d2dfe89a3299e08b227498a1d5bd819e59a",
+      "source": "Philips 3200 LatteGo",
+      "kind": "text",
+      "context": "Philips 3200 LatteGo ↗"
+    },
+    {
+      "id": "1ea3e677fc4a48d9046ab622fc4c0a178d65534187cbcef0b06fb2d196487e22",
+      "source": "Philips 5400 LatteGo",
+      "kind": "text",
+      "context": "Philips 5400 LatteGo ↗"
+    },
+    {
+      "id": "936146e42b5ac50bf6e374215ecacc9c2b6ab5c1a44f07fc3d4fe6c539e4f978",
+      "source": "Philips 2200 LatteGo",
+      "kind": "text",
+      "context": "Philips 2200 LatteGo ↗"
+    },
+    {
+      "id": "ad0d2a373384e87830cb7742825c055db8f1ead7d1a50d9a94c79eb49e048d0f",
+      "source": "Philips 4300 LatteGo",
+      "kind": "text",
+      "context": "Philips 4300 LatteGo"
+    },
+    {
+      "id": "593a0cd57590bdc4494515943f404e677b4f02d44ea59598e3490caaefae77fd",
+      "source": "Philips Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "text",
+      "context": "Philips Espresso Machines: Compare the Lineup | Coffeedant"
+    },
+    {
+      "id": "309392cf36fc80542de49c36d2f26e1dc242ef96d5b433413cebf173080404a6",
+      "source": "Philips espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 4 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "Philips Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of documen"
+    },
+    {
+      "id": "5cfc7b9d6caef8d55ababb177b714f38121153b4630998cea2e414551e7243da",
+      "source": "Philips Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "metadata",
+      "context": "Philips Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of documen"
+    },
+    {
+      "id": "4a3be71f9cf48fff0372674a41c2ca9dd3a8bde7e818e6df4ba80f7b2d3faab9",
+      "source": "Philips, mapped.",
+      "kind": "text",
+      "context": "Philips, mapped."
+    },
+    {
+      "id": "ae1a184cdd808af80c538aed8af2d73e979dbdc4ab64c7670e261231a77eecc7",
+      "source": "Accessible superautomatic machines centered on one-touch drinks and the simple LatteGo milk system.",
+      "kind": "text",
+      "context": "Accessible superautomatic machines centered on one-touch drinks and the simple LatteGo milk system."
+    },
+    {
+      "id": "16883eaf178e67ba7c93ab4b81a597616e126489f54dccaee5fba7179c846974",
+      "source": "Philips overview",
+      "kind": "attribute",
+      "context": "← All brands Netherlands · Bean-to-cup · automatic Philips, mapped. Accessible superautomatic machines centered on one-touch drinks and the simple LatteGo milk system.   4machine reviews $$–$$$price position Convenience firstworkflow"
+    },
+    {
+      "id": "7eae3c623952f3c72969aac365a32f7d5ef5ee03e153e9cfada0c88ef194e164",
+      "source": "Where Philips sits.",
+      "kind": "text",
+      "context": "Where Philips sits."
+    },
+    {
+      "id": "13cf8fff9ea529c8c51258df3e47ade2da13e3e41042f6fa7d9735f5ce128466",
+      "source": "Philips: Convenience first",
+      "kind": "attribute",
+      "context": "Push-button easeHands-on control  Philips  Best for: Easy milk drinks and cleanup"
+    },
+    {
+      "id": "8e7b56c3c4e74ad39158efb6d7dcf2029bf2b1afb3f5d094e1584266d4ffac1f",
+      "source": "Simple milk system",
+      "kind": "text",
+      "context": "Simple milk system"
+    },
+    {
+      "id": "d2279032b01e8a4f3b777b58af5403b04dd031f92cc6f3095b0071c393ce23b0",
+      "source": "Easy cleaning",
+      "kind": "text",
+      "context": "Easy cleaning"
+    },
+    {
+      "id": "3a20e2a76a1e4d1ae1032df32f84d4b141923e9ed0d3765b6a98be730c2f485b",
+      "source": "Household profiles",
+      "kind": "text",
+      "context": "Household profiles"
+    },
+    {
+      "id": "2b88cb259d40946d91a417580425d76df83055a26a2c01bc5b00891b7424cc26",
+      "source": "Espresso texture and control trail hands-on machines.",
+      "kind": "text",
+      "context": "Espresso texture and control trail hands-on machines."
+    },
+    {
+      "id": "dce8b5dde4731e1fa3aaff3a9e8ccba14d6d7c71ac3f3d5a138e277a51b48211",
+      "source": "What Philips actually builds for.",
+      "kind": "text",
+      "context": "What Philips actually builds for."
+    },
+    {
+      "id": "c486d89541a0319eb9b8d2791d5a7cda68c5a9a4565f93101c17f3e7d9690302",
+      "source": "Philips makes bean-to-cup ownership approachable, with clear controls and the tube-free LatteGo milk carafe as the practical center of the range.",
+      "kind": "text",
+      "context": "Philips makes bean-to-cup ownership approachable, with clear controls and the tube-free LatteGo milk carafe as the practical center of the range."
+    },
+    {
+      "id": "aa0016f6e74fd155291c9a2371400e25c73eae810a5ad05e877cd1da666fc45f",
+      "source": "The removable brew group and simple milk parts reduce cleaning friction. Espresso adjustment is useful but cannot match a well-dialed separate grinder and manual machine.",
+      "kind": "text",
+      "context": "The removable brew group and simple milk parts reduce cleaning friction. Espresso adjustment is useful but cannot match a well-dialed separate grinder and manual machine."
+    },
+    {
+      "id": "fbd76f466cd2e960bba2011dd890fe445b358501641d7ae7ba1687834d490d0a",
+      "source": "The 2200, 3200, 4300, and 5400 ladder mainly adds drink recipes, profiles, interface depth, and household flexibility.",
+      "kind": "text",
+      "context": "The 2200, 3200, 4300, and 5400 ladder mainly adds drink recipes, profiles, interface depth, and household flexibility."
+    },
+    {
+      "id": "7299d00bd17f21fecc2913c984bcfd189130de81820074f8e49a5479d4cd732b",
+      "source": "Philips Coffee Finder",
+      "kind": "text",
+      "context": "Philips Coffee Finder"
+    },
+    {
+      "id": "74af1be79bbd47216618dd40f89838277e044515ad8116176ff96642525c1c72",
+      "source": "Find the Philips machine that fits your routine.",
+      "kind": "text",
+      "context": "Find the Philips machine that fits your routine."
+    },
+    {
+      "id": "f01c27a2e6dd19cb7594a34f8d93ae78ec12c4281a688cc72951cec3f3066134",
+      "source": "Start with any constraint. This compact finder searches every Philips espresso-machine review; the full finder can compare the result with every brand.",
+      "kind": "text",
+      "context": "Start with any constraint. This compact finder searches every Philips espresso-machine review; the full finder can compare the result with every brand."
+    },
+    {
+      "id": "f4d8cbd6a1a04a3bb4c0a87598bc182be390c8461f36a86b6374f47db592271a",
+      "source": "Philips and nearby brand alternatives",
+      "kind": "attribute",
+      "context": "BrandSystemPrice positionBest for   Philips Bean-to-cup · automatic $$–$$$ Easy milk drinks and cleanup Current  Bosch Bean-to-cup · automatic $$–$$$ One-touch drinks and guided care Compare →  Jura Bean-to-cup · automatic $$$–$$$$ Premium automation Compare →"
+    },
+    {
+      "id": "0c3c98335e16ef68ee9d68913072c78b8cf53b23a951ec12588941cf0642bded",
+      "source": "The Philips lineup.",
+      "kind": "text",
+      "context": "The Philips lineup."
+    }
+  ],
+  "snapshotHash": "aec7ca69b00f63cae15faa03de06f4e4b985fc054c7ded2d0b12c869655b068e"
+}

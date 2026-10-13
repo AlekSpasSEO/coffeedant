@@ -136,7 +136,7 @@ For efficient ongoing batches:
 node scripts/localization/direct.mjs reuse nl
 node scripts/localization/coverage.mjs
 node scripts/localization/direct.mjs batch-export nl-next UNIQUE-SOURCE-PATHS nl
-node scripts/localization/direct.mjs batch-export nl-finder-next @finder nl
+node scripts/localization/direct.mjs batch-export nl-finder-next "@finder" nl
 node scripts/localization/direct.mjs import localization/authored/AUTHORED-BATCH.json
 ```
 
@@ -176,6 +176,21 @@ authored parts and generated full-paragraph JSON for an auditable trail:
 ```sh
 node scripts/localization/compose-direct.mjs localization/authored/ratio-checks-batch-2.parts.json localization/authored/ratio-checks-batch-2.json
 ```
+
+The third direct batch translates all descriptions, best-for labels and image
+alternatives for the first 30 catalog products plus the four Philips products:
+34 complete records in NL/DE/FR. `finder-products-batch-3.items.source.json`
+retains their actual source identities for tests, including historical US-market
+references. Unknown regional offers still yield no US prices or Amazon buying
+links; these translations do not approve retailer listings or model equivalence.
+
+Bosch and Philips brand pages also have complete current own-page text in all
+three caches. Their shared Finder runtime still depends on the remaining
+catalog: own-page text completeness is not functional page readiness. Continue
+the missing Finder records (111 products / 332 unique fields at this snapshot)
+in fresh batches so the homepages and manufacturer Finders can be built without
+English data fallback. The full-edition publish gates and all unpublished flags
+remain unchanged. Quote `"@finder"` in PowerShell to avoid splatting it as a variable.
 
 ## Missing configuration
 
