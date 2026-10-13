@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/grinder/baratza-encore-esp-pro/': officialProductMedia(
+    'Baratza US Encore ESP Pro product page',
+    'https://www.baratza.com/en-us/product/encore-esp-pro-zcg595',
+    [
+      {
+        src: 'https://assets.breville.com/cdn-cgi/image/width=1304,format=auto,quality=75/ZCG595/%232+Quarter+2+ESP+Pro+SD+Hopper+DC.png',
+        alt: 'Baratza official image of the Encore ESP Pro fitted with its single-dose hopper',
+        caption: 'The factory image identifies the Pro single-dose arrangement and front interface. It does not establish dose repeatability, retention or the accessories in every regional box.',
+        width: 652,
+        height: 814,
+      },
+      {
+        src: 'https://assets.breville.com/cdn-cgi/image/width=1304,format=auto,quality=75/ZCG595/ESP+Pro+With+Hopper+Timer.jpg',
+        alt: 'Baratza official image of the Encore ESP Pro with hopper and timer display',
+        caption: 'The hopper and timer view shows the alternate daily setup. The display is a setting and time aid, not a ground-coffee scale or Coffeedant measurement.',
+        width: 652,
+        height: 815,
+      },
+    ],
+  ),
   '/espresso-machine/breville-bambino/': officialProductMedia(
     'Breville US Bambino Plus BES500 product page',
     'https://www.breville.com/en-us/product/bes500',
