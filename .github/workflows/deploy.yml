@@ -26,6 +26,8 @@ jobs:
         run: CF_PAGES=1 npm run build
       - name: Validate sitewide analytics and consent
         run: npm run validate:analytics
+      - name: Validate Cloudflare Journal
+        run: npm run validate:journal
       - name: Validate Cloudflare modern reviews
         run: CF_PAGES=1 node scripts/validate-review-batch.mjs
       - name: Validate Cloudflare legacy migration
@@ -40,6 +42,8 @@ jobs:
         run: npm run build
       - name: Validate modern reviews
         run: node scripts/validate-review-batch.mjs
+      - name: Validate GitHub Pages Journal
+        run: npm run validate:journal
       - name: Validate legacy migration
         run: node scripts/validate-legacy-migration.mjs
       - name: Validate GitHub Pages Amazon banners

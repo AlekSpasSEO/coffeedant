@@ -1,6 +1,7 @@
 ---
 import HomeLayout from '../layouts/HomeLayout.astro';
 import CoffeeFinder from '../components/CoffeeFinder.astro';
+import JournalExperience from '../components/journal/JournalExperience.astro';
 
 const base = import.meta.env.BASE_URL;
 ---
@@ -30,6 +31,12 @@ const base = import.meta.env.BASE_URL;
       </div>
     </section>
 
+    <section class="journal-home-entry" aria-labelledby="journal-home-title">
+      <div class="shell">
+        <div><span class="journal-label">New / Coffeedant Journal · Volume 01</span><h2 id="journal-home-title">There’s a world<br/>in your cup.</h2><p>From the coffeehouses of Süleyman’s Istanbul to the science of a sweeter Americano. Ten deeply researched stories for the endlessly curious.</p><button type="button" data-open-journal>Explore the Journal ↗</button><small>History · Zeitgeist · Brew Lab</small><noscript><a href={`${base}journal/`}>Read the Journal →</a></noscript></div>
+        <img src={`${base}journal/history.webp`} width="1536" height="1024" alt="Original illustrated reconstruction of an Ottoman coffeehouse" loading="lazy" />
+      </div>
+    </section>
     <CoffeeFinder variant="full" />
 
     <section class="section guides" aria-labelledby="guides-title">
@@ -81,5 +88,6 @@ const base = import.meta.env.BASE_URL;
       </div>
     </section>
   </main>
+  <dialog class="journal-dialog" id="coffeedant-journal" aria-label="Coffeedant Journal"><JournalExperience embedded /></dialog>
 
 </HomeLayout>

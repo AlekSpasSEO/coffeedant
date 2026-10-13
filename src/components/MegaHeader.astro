@@ -196,6 +196,7 @@ const brandMenus = menuBrands.map((brand) => ({
 
         <li><a class="cd-nav__link" href={href('/grinder/')}>Grinders</a></li>
         <li><a class="cd-nav__link" href={href('/coffee-beans/')}>Coffee beans</a></li>
+        <li><a class="cd-nav__link" href={href('/journal/')}>Journal</a></li>
         <li><a class="cd-nav__link" href={href('/blog/')}>Guides</a></li>
         <li><a class="cd-nav__link" href={href('/about/')}>About</a></li>
       </ul>
@@ -564,7 +565,7 @@ const brandMenus = menuBrands.map((brand) => ({
   .cd-brand-reviews small { color: var(--cd-muted); font-size: 0.68rem; }
   .cd-brand-reviews small b { color: var(--cd-ink); }
 
-  @media (max-width: 1040px) {
+  @media (max-width: 1200px) {
     :global(body.cd-menu-open) { overflow: hidden; }
     .cd-header__inner { min-height: 70px; }
     .cd-header__brand img { width: 44px; height: 44px; }
