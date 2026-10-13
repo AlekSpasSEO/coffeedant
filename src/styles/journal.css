@@ -11,3 +11,4 @@
 .journal[data-embedded="false"] .reader-bar{top:76px}.journal[data-embedded="false"] .reader-rail{top:160px}.journal[data-embedded="false"] .reader-section,.journal[data-embedded="false"] .reader-sources{scroll-margin-top:155px}
 .journal-video{display:block;width:100%;height:auto;margin-top:24px;background:#162c23}
 .journal-visual[data-visual="routes"],.journal-visual[data-visual="water"]{overflow-x:auto}@media(max-width:700px){.journal-visual[data-visual="routes"]>svg{width:680px;max-width:none}.journal-visual[data-visual="water"]>svg{width:520px;max-width:none}}
+.journal-home-entry img{height:auto}@media print{body:has(.journal-dialog[open])>#main-content,body:has(.journal) footer{display:none!important}}
