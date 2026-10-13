@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parse } from 'parse5';
-import {journalDestination} from './migrate-journal-links.mjs';
+import {journalDestination,journalRedirects} from './migrate-journal-links.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.join(root, 'dist');
@@ -89,7 +89,8 @@ for (const route of migratedLegacyPaths) {
   )).length;
 
   imageCounts.forEach((count, index) => {
-    if (count > 3) errors.push(`${route}: article ${index + 1} has ${count} images; expected at most 3`);
+    const imageCap=Object.values(journalRedirects).includes(route)&&route.startsWith('/espresso-machine/')?7:3;
+    if (count > imageCap) errors.push(`${route}: article ${index + 1} has ${count} images; expected at most ${imageCap}`);
   });
   if (faqDropdowns) errors.push(`${route}: found ${faqDropdowns} FAQ dropdown control(s)`);
   if (redditOutboundLinks) errors.push(`${route}: found ${redditOutboundLinks} outbound Reddit link(s)`);

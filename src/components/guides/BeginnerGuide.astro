@@ -1,9 +1,11 @@
 ---
 import HomeLayout from '../../layouts/HomeLayout.astro';
 import CoffeeFinder from '../CoffeeFinder.astro';
+import ProductFieldGuide from './ProductFieldGuide.astro';
+import ownerEvidence from '../../data/buying-guide-owner-evidence.json';
+import systems from '../../data/buying-guide-schematic-evidence.json';
 import '../../styles/review.css';
 import { beginnerGuide } from '../../data/beginner-guide';
-import {journalPath} from '../../lib/journal-routes';
 
 const guide = Astro.props.guide ?? beginnerGuide;
 const isBuiltIn = guide.canonicalPath === '/espresso-machine/built-in-grinder/';
@@ -13,7 +15,7 @@ const isProsumer = guide.canonicalPath === '/espresso-machine/prosumer-under-100
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const assetUrl = (path: string) => /^https?:\/\//i.test(path) ? path : `${base}${path.replace(/^\//, '')}`;
 const pageUrl = (path: string) => `${base}${path.replace(/^\//, '')}`;
-const canonicalPath = journalPath(guide.canonicalPath);
+const canonicalPath = guide.canonicalPath;
 const canonical = new URL(canonicalPath.replace(/^\//, ''), 'https://coffeedant.com/').toString();
 const formatDate = (date: string, short = false) => new Intl.DateTimeFormat('en-US', {
   month: short ? 'short' : 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC',
@@ -29,7 +31,7 @@ const schema = {
       mainEntityOfPage: canonical, image: guide.media.map((item) => assetUrl(item.src)),
       author: { '@type': 'Person', name: guide.author.name, jobTitle: guide.author.role, image: assetUrl(guide.author.image), url: 'https://coffeedant.com/about/' },
       publisher: { '@type': 'Organization', name: 'Coffeedant', url: 'https://coffeedant.com/' },
-      citation: guide.sources.map((source) => source[1]),
+      citation: [...guide.sources.map((source) => source[1]),...guide.picks.flatMap(pick=>ownerEvidence.products.find(product=>product.slug===pick.href.split('/').filter(Boolean).at(-1))?.feedback.map(record=>record.sourceUrl)??[]),...guide.picks.map(pick=>systems[pick.href as keyof typeof systems].officialSourceURL)],
     },
     {
       '@type': 'VideoObject', name: guide.video.title, description: guide.video.note,
@@ -45,14 +47,14 @@ const schema = {
     {
       '@type': 'BreadcrumbList', itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://coffeedant.com/' },
-        { '@type': 'ListItem', position: 2, name: 'Journal', item: 'https://coffeedant.com/journal/' },
+        { '@type': 'ListItem', position: 2, name: 'Espresso machines', item: 'https://coffeedant.com/espresso-machine/' },
         { '@type': 'ListItem', position: 3, name: isBuiltIn ? 'Machines with grinders' : isBudget ? 'Machines under $500' : isProsumer ? 'Prosumer machines under $1,000' : 'Machines for beginners', item: canonical },
       ],
     },
   ],
 };
 const jumpLinks = [
-  ['decision', 'Choose a workflow'], ['criteria', 'Criteria'], ['compare', 'Compare'], ['grinder', 'Grinder'],
+  ['decision', 'Choose a workflow'], ['product-lab','Product schematics'], ['criteria', 'Criteria'], ['compare', 'Compare'], ['grinder', 'Grinder'],
   ['milk', 'Milk'], ['ownership', 'Ownership'], ['picks', 'Picks'], ['first-week', 'First week'],
   ['community', 'Owners'], ['faq', 'FAQ'], ['video', 'Video'], ['methodology', 'Methodology'], ['sources', 'Sources'], ['verdict', 'Verdict'],
 ];
@@ -111,7 +113,7 @@ const labels = guide.labels ?? defaultLabels;
     <div class="review-shell">
       <nav class="review-breadcrumbs" aria-label="Breadcrumb">
         <a href={base}>Home</a><span aria-hidden="true">/</span>
-        <a href={`${base}journal/`}>Journal</a><span aria-hidden="true">/</span>
+        <a href={`${base}espresso-machine/`}>Espresso machines</a><span aria-hidden="true">/</span>
         <span aria-current="page">{labels.breadcrumb}</span>
       </nav>
 
@@ -166,7 +168,9 @@ const labels = guide.labels ?? defaultLabels;
           intro="Use only the filters that matter to you. The finder searches every Coffeedant espresso-machine review, including budgets above $5,000."
         />
 
-        {guide.sections.filter((section) => !['decision', 'picks', 'verdict'].includes(section.id)).map((section, index) => (
+        <ProductFieldGuide guide={guide}/>
+
+        {guide.sections.filter((section) => !['decision', 'picks', 'verdict','community'].includes(section.id)).map((section, index) => (
           <section class:list={['section', 'review-section', { 'principles-section': section.id === 'criteria' }]} id={section.id} aria-labelledby={`${section.id}-title`}>
             <header class="review-section-heading"><p class="review-overline"><span class="review-section-number">{String(index + 3).padStart(2, '0')}</span>{section.eyebrow}</p><h2 id={`${section.id}-title`}>{section.title}</h2></header>
             <div class="review-section-body">

@@ -1,0 +1,21 @@
+---
+import GuidePhoto from './GuidePhoto.astro';
+import OwnerFeedback from './OwnerFeedback.astro';
+import ProductSchematic from './ProductSchematic.astro';
+import systems from '../../data/buying-guide-schematic-evidence.json';
+import ownerEvidence from '../../data/buying-guide-owner-evidence.json';
+const {guide}=Astro.props;
+const base=import.meta.env.BASE_URL.replace(/\/?$/,'/');
+const products=guide.picks.map(pick=>({pick,system:systems[pick.href as keyof typeof systems],owner:ownerEvidence.products.find(product=>product.slug===pick.href.split('/').filter(Boolean).at(-1))!}));
+---
+<section class="guide-enrichment" id="product-lab" data-buying-guide-evidence>
+ <header><p class="guide-evidence-label">The shortlisted machines / See how they work</p><h2>Understand the hardware. Then read the experience.</h2><p>Each model has an identified product image, a schematic based on documented operation, and a source-specific owner account. Keep the machine's design separate from what one owner experienced.</p></header>
+ <p id="community" class="guide-evidence-disclosure">Owner accounts are paraphrased, dated when recoverable and linked to their original discussions. Model, generation and regional limits are stated below. These reports are neither verified-purchase certifications nor representative reliability statistics.</p>
+ <div class="guide-product-grid">{products.map(({pick,system,owner})=><article class="guide-product-card" data-guide-product={pick.href}>
+  <p class="guide-evidence-label">{pick.brand} / {system.kind.replaceAll('-',' ')}</p><h3>{pick.name}</h3><p>{pick.model}</p>
+  <GuidePhoto photo={{...system.image,caption:`${system.name}. Use the exact model code and region when comparing packages. This product-identification image does not establish a measured result.`}}/>
+  <ProductSchematic product={system} id={`system-${owner.slug}`}/>
+  {owner.feedback.map(feedback=><OwnerFeedback feedback={feedback} model={owner.model}/>)}
+  <p><a href={`${base}${pick.href.replace(/^\//,'')}`}>Read the full product review ↗</a> · <a href={system.officialSourceURL} target="_blank" rel="noopener noreferrer">Official product context ↗</a></p>
+ </article>)}</div>
+</section>

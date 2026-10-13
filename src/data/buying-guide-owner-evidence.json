@@ -1,0 +1,438 @@
+{
+  "checkedOn": "2026-10-13",
+  "method": "Source-specific paraphrases of publicly readable Reddit owner posts/comments. No comments quoted, no star averages, no representative consensus or failure rates. Feedback is evidence of an individual reported experience, not a manufacturer specification.",
+  "guideProducts": {
+    "/espresso-machine/beginners/": [
+      "breville-bambino",
+      "gaggia-classic-evo",
+      "breville-barista-express-bes870xl",
+      "delonghi-magnifica-evo"
+    ],
+    "/espresso-machine/cheap-budget-under-500/": [
+      "breville-bambino",
+      "delonghi-ecp3420",
+      "flair-classic",
+      "rok-espresso-gc"
+    ],
+    "/espresso-machine/prosumer-under-1000/": [
+      "gaggia-classic-evo",
+      "lelit-anna",
+      "rancilio-silvia",
+      "flair-58"
+    ],
+    "/espresso-machine/built-in-grinder/": [
+      "breville-barista-pro-bes878",
+      "breville-barista-express-impress-bes876",
+      "delonghi-magnifica-evo",
+      "jura-e8"
+    ],
+    "/espresso-machine/single-boiler/": [
+      "profitec-go",
+      "gaggia-classic-evo",
+      "rancilio-silvia",
+      "ecm-classika-pid-flow-control"
+    ],
+    "/espresso-machine/small/": [
+      "breville-bambino",
+      "profitec-go",
+      "lelit-anna",
+      "ascaso-steel-uno"
+    ],
+    "/espresso-machine/superautomatic/": [
+      "delonghi-magnifica-evo",
+      "philips-5400-lattego",
+      "jura-e8",
+      "gaggia-accademia-ri9781-01"
+    ],
+    "/espresso-machine/without-grinder/": [
+      "breville-bambino",
+      "gaggia-classic-evo",
+      "profitec-go",
+      "lelit-elizabeth"
+    ]
+  },
+  "products": [
+    {
+      "slug": "breville-bambino",
+      "model": "Breville Bambino Plus / BES500",
+      "feedback": [
+        {
+          "sourceTitle": "How good is the Bambino Plus?",
+          "sourceUrl": "https://www.reddit.com/r/espresso/comments/1bmu33b/how_good_is_the_bambino_plus/",
+          "sourceDate": "2024-03-24",
+          "checkedOn": "2026-10-13",
+          "platform": "Reddit",
+          "summary": "One Plus owner using a Niche grinder reported enjoying the results after about a year; another returned a Plus after a short trial because their preheating routine felt cumbersome.",
+          "buyingQuestion": "Is fast startup enough for your beans, basket and preheating routine?",
+          "caveat": "Mixed personal reports. The dissatisfied owner's in-cup reading is not a controlled brew-temperature measurement. Region and exact revision are unverified.",
+          "verification": "Readable original owner post or comment retrieved through web browsing; no verified-purchase claim.",
+          "reporters": [
+            "n0tapsy0p",
+            "Tony_elDesertBurro"
+          ],
+          "sourceDateBasis": "Previously verified repository source audit; current open renders relative dates."
+        }
+      ]
+    },
+    {
+      "slug": "delonghi-ecp3420",
+      "model": "De’Longhi ECP3420 / US120V",
+      "feedback": [
+        {
+          "sourceTitle": "Baby steps. First espresso setup.",
+          "sourceUrl": "https://www.reddit.com/r/espresso/comments/1mmsuqx/baby_steps_first_espresso_setup/",
+          "sourceDate": "2025-08-10",
+          "checkedOn": "2026-10-13",
+          "platform": "Reddit",
+          "summary": "A new ECP3420 owner paired it with a KINGrinder K6 and a bottomless portafilter and reported some satisfying cups after a few weeks. They also said sour shots remained their most common problem.",
+          "buyingQuestion": "Budget for the grinder and dial-in learning, rather than evaluating the machine alone.",
+          "caveat": "Early ownership, aftermarket portafilter and individual water/beans. This does not establish stock-basket performance or longevity.",
+          "verification": "Readable original owner post or comment retrieved through web browsing; no verified-purchase claim.",
+          "reporters": [
+            "NoGood_Boyo"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "flair-classic",
+      "model": "Flair Classic / generation not stated",
+      "feedback": [
+        {
+          "sourceTitle": "Does anyone have this manual espresso machine?",
+          "sourceUrl": "https://www.reddit.com/r/espresso/comments/1h6e8pl/does_anyone_have_this_or_any_other_manual/",
+          "sourceDate": "2024-12-04",
+          "checkedOn": "2026-10-13",
+          "platform": "Reddit",
+          "summary": "A self-described Classic owner liked the espresso once dialled in but found preheating annoying and the learning process slow.",
+          "buyingQuestion": "Do you enjoy managing preheat, manual pressure and cleanup for every cup?",
+          "caveat": "The thread includes many Flair models; this paraphrase uses the comment explicitly naming Classic. It cannot verify the exact 2026 Classic package.",
+          "verification": "Readable original owner post or comment retrieved through web browsing; no verified-purchase claim.",
+          "reporters": [
+            "itsdikey"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "rok-espresso-gc",
+      "model": "ROK Espresso GC / older package, naked portafilter",
+      "feedback": [
+        {
+          "sourceTitle": "ROK Espresso GC",
+          "sourceUrl": "https://www.reddit.com/r/espresso/comments/qkfi7b/rok_espresso_gc/",
+          "sourceDate": null,
+          "checkedOn": "2026-10-13",
+          "platform": "Reddit",
+          "summary": "The GC owner who opened the discussion enjoyed its espresso with a naked portafilter but wished for an accessible pressure gauge to understand the force being applied.",
+          "buyingQuestion": "Do you want a tactile lever ritual, or visible pressure feedback and a quicker routine?",
+          "caveat": "Older GC account using an aftermarket naked portafilter. No confirmation of today's Black PLUS package; the gauge comment describes that owner's historical setup.",
+          "verification": "Readable original owner post or comment retrieved through web browsing; no verified-purchase claim.",
+          "reporters": [
+            "magic_espresso"
+          ],
+          "sourceDateLabel": "Thread displayed as 5 years ago when checked; precise date not resolved."
+        }
+      ]
+    },
+    {
+      "slug": "gaggia-classic-evo",
+      "model": "Gaggia Classic Pro E24 / unmodified in report",
+      "feedback": [
+        {
+          "sourceTitle": "Positive experience with new E24",
+          "sourceUrl": "https://www.reddit.com/r/gaggiaclassic/comments/1hbksfc/positive_experience_with_new_e24/",
+          "sourceDate": "2024-12-11",
+          "checkedOn": "2026-10-13",
+          "platform": "Reddit",
+          "summary": "An owner moving from a PID-modified Classic Pro to an initially stock E24 described stronger, steadier steaming. They explicitly said they had not installed their planned Gaggiuino modification.",
+          "buyingQuestion": "Will a stronger manual steam path matter more to you than factory brew-temperature adjustment?",
+          "caveat": "One subjective comparison across different machines and routines. The owner could not measure brew-temperature stability; no population reliability conclusion.",
+          "verification": "Readable original owner post or comment retrieved through web browsing; no verified-purchase claim.",
+          "reporters": [
+            "Jake0032"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "breville-barista-express-bes870xl",
+      "model": "Breville/Sage Barista Express / mixed generations",
+      "feedback": [
+        {
+          "sourceTitle": "Barista Express owners: how long before upgrading?",
+          "sourceUrl": "https://www.reddit.com/r/espresso/comments/gb0x86/brevillesage_barista_express_owners_how_long_did/",
+          "sourceDate": null,
+          "checkedOn": "2026-10-13",
+          "platform": "Reddit",
+          "summary": "Several self-described Express owners kept brewing on the machine while choosing a separate grinder as their next upgrade. One also found milk steaming slow while praising quick heat-up and attainable shots.",
+          "buyingQuestion": "Does an integrated grinder suit your long-term bean and upgrade plans?",
+          "caveat": "Self-selected upgrade stories across older Breville/Sage units. They do not predict the lifespan or burr revision of a newly purchased BES870XL.",
+          "verification": "Readable original owner post or comment retrieved through web browsing; no verified-purchase claim.",
+          "reporters": [
+            "alsignssayno",
+            "SumOfKyle",
+            "ziggyzzrz"
+          ],
+          "sourceDateLabel": "Thread displayed as 6 years ago; precise date not resolved."
+        }
+      ]
+    },
+    {
+      "slug": "delonghi-magnifica-evo",
+      "model": "De’Longhi Magnifica Evo / Canadian LatteCrema owner, exact SKU unconfirmed",
+      "feedback": [
+        {
+          "sourceTitle": "Magnifica Evo Review: owner comment",
+          "sourceUrl": "https://www.reddit.com/r/superautomatic/comments/1en7jtd/delonghi_magnifica_evo_review/",
+          "sourceDate": null,
+          "checkedOn": "2026-10-13",
+          "platform": "Reddit",
+          "summary": "An actual owner commenting below a creator's review reported good coffee after dial-in at roughly six drinks a day. They wished milk drinks were hotter and found the first descale process straightforward.",
+          "buyingQuestion": "Try a milk drink at your preferred temperature and understand bean dial-in before buying.",
+          "caveat": "The commenter later identified a Canadian purchase, not the guide's exact US ECAM29084SB. Do not adopt the creator's dose, temperature, noise or TDS figures as owner evidence.",
+          "verification": "Readable original owner post or comment retrieved through web browsing; no verified-purchase claim.",
+          "reporters": [
+            "greyoldguy58"
+          ],
+          "sourceDateLabel": "Owner comments displayed as 2 years ago; exact comment date unresolved."
+        }
+      ]
+    },
+    {
+      "slug": "lelit-anna",
+      "model": "Lelit Anna PL41TEM / European owner",
+      "feedback": [
+        {
+          "sourceTitle": "Upgrade from Lelit Anna PL41TEM",
+          "sourceUrl": "https://www.reddit.com/r/espresso/comments/ps030q/upgrade_from_lelit_anna_pl41tem/",
+          "sourceDate": "2021-09-20",
+          "checkedOn": "2026-10-13",
+          "platform": "Reddit",
+          "summary": "After about six months and two drinks a day, a PL41TEM owner liked PID convenience but described guest milk drinks as slow and 57 mm accessories as harder to find.",
+          "buyingQuestion": "Will a single boiler and the 57 mm accessory ecosystem fit your household?",
+          "caveat": "Older European PL41TEM paired with a Eureka Specialita. No direct verification of today's US PESAN06 package or current accessory stock.",
+          "verification": "Readable original owner post or comment retrieved through web browsing; no verified-purchase claim."
+        }
+      ]
+    },
+    {
+      "slug": "rancilio-silvia",
+      "model": "Rancilio Silvia V6 / European E context",
+      "feedback": [
+        {
+          "sourceTitle": "Thoughts on the Silvia V6 E",
+          "sourceUrl": "https://www.reddit.com/r/ranciliosilvia/comments/176jjhc/thoughts_on_the_silvia_v6_e/",
+          "sourceDate": "2023-10-12",
+          "checkedOn": "2026-10-13",
+          "platform": "Reddit",
+          "summary": "V6 E owners discussed the group-screen screw leaving a mark in the puck and described optional PID upgrades as useful to their routine.",
+          "buyingQuestion": "Are you comfortable with the stock thermostat routine, and have you checked the exact regional switch and accessory arrangement?",
+          "caveat": "The discussion includes modified machines and European E electrical behavior. Puck marks are not proof of poor extraction; owner modifications are not instructions or factory features.",
+          "verification": "Readable original owner post or comment retrieved through web browsing; no verified-purchase claim."
+        }
+      ]
+    },
+    {
+      "slug": "flair-58",
+      "model": "Flair 58 Plus 2 / UK owner",
+      "feedback": [
+        {
+          "sourceTitle": "Flair 58 plus 2",
+          "sourceUrl": "https://www.reddit.com/r/FlairEspresso/comments/1w0kheh/flair_58_plus_2/",
+          "sourceDate": "2026-08-28",
+          "checkedOn": "2026-10-13",
+          "platform": "Reddit",
+          "summary": "An owner explicitly moving through Classic, Pro2 and then 58+2 liked its coffee and simple cleaning, but reported a loose connector and difficulty obtaining some Flair parts in the UK.",
+          "buyingQuestion": "Confirm local parts support, then decide whether manual pulling and separate milk equipment fit you.",
+          "caveat": "One 58+2 account, with UK support context. Do not infer defect rates or recommend the reported home repair.",
+          "verification": "Readable original owner post or comment retrieved through web browsing; no verified-purchase claim.",
+          "sourceScope": "Use only the commenter explicitly naming current 58+2; adjacent satisfied 58 owners discuss an older model."
+        }
+      ]
+    },
+    {
+      "slug": "breville-barista-pro-bes878",
+      "model": "Breville Barista Pro / Baratza-burr version",
+      "feedback": [
+        {
+          "sourceTitle": "One-year owner of Barista Pros",
+          "sourceUrl": "https://www.reddit.com/r/BrevilleCoffee/comments/1g929hu/what_ive_learned_one_year_owner_of_barista_pros/",
+          "sourceDate": null,
+          "checkedOn": "2026-10-13",
+          "platform": "Reddit",
+          "summary": "A one-year owner making regular and decaf lattes found timed grind doses variable and chose single-dosing and weighing to manage bean changes. Other owners in the thread described settling into an easier routine with a scale.",
+          "buyingQuestion": "How often do you switch beans, and are you willing to weigh output even with an integrated machine?",
+          "caveat": "One detailed modified setup. Do not transfer its numerical variation, unsupported pressure assumptions, or steam-tip modifications to every BES878.",
+          "verification": "Readable original owner post or comment retrieved through web browsing; no verified-purchase claim.",
+          "reporters": [
+            "gokou88",
+            "Profess0rLonghair"
+          ],
+          "sourceDateLabel": "Thread displayed as 2 years ago; exact date unresolved."
+        }
+      ]
+    },
+    {
+      "slug": "breville-barista-express-impress-bes876",
+      "model": "Breville Barista Express Impress / exact SKU unconfirmed",
+      "feedback": [
+        {
+          "sourceTitle": "Express Impress: worth it?",
+          "sourceUrl": "https://www.reddit.com/r/espresso/comments/1hcq145/breville_barista_express_impress_worth_it/",
+          "sourceDate": null,
+          "checkedOn": "2026-10-13",
+          "platform": "Reddit",
+          "summary": "An owner who had used a Barista Pro appreciated the Impress's dosing and tamping assistance. Another Impress owner liked the drinks but called the steamer an adequate weak point.",
+          "buyingQuestion": "Do preparation assistance and shared-household convenience outweigh the desire for a separate grinder and stronger steam?",
+          "caveat": "Mixed owner and buyer discussion. Use the owners explicitly naming Impress, not replies that incorrectly call it a superautomatic.",
+          "verification": "Readable original owner post or comment retrieved through web browsing; no verified-purchase claim.",
+          "reporters": [
+            "cheunho",
+            "IsopodNecessary9844"
+          ],
+          "sourceDateLabel": "Thread displayed as 2 years ago; the cheunho follow-up displayed as 4 months ago."
+        }
+      ]
+    },
+    {
+      "slug": "jura-e8",
+      "model": "JURA E8 / refurbished older generation, NOT article15722",
+      "feedback": [
+        {
+          "sourceTitle": "Feedback from JURA on E8 dose weights",
+          "sourceUrl": "https://www.reddit.com/r/superautomatic/comments/1clmdh1/feedback_from_jura_on_e8_dose_weights/",
+          "sourceDate": "2024-05-06",
+          "checkedOn": "2026-10-13",
+          "platform": "Reddit",
+          "summary": "An owner of a refurbished E8 was surprised that changing grind settings changed their observed dose and asked how to reconcile strength, grind and volume. The discussion eventually returned to tuning the drink by taste.",
+          "buyingQuestion": "Ask for a demonstration of recipe adjustment with your beans on the exact fifth-generation article15722.",
+          "caveat": "This is explicitly older-generation context, not a review of article15722. User dose measurements and reported customer-service advice are not verified specifications; don't reproduce numerical claims.",
+          "verification": "Readable original owner post or comment retrieved through web browsing; no verified-purchase claim."
+        }
+      ]
+    },
+    {
+      "slug": "profitec-go",
+      "model": "Profitec GO / 2023 owner",
+      "feedback": [
+        {
+          "sourceTitle": "Profitec GO owners",
+          "sourceUrl": "https://www.reddit.com/r/espresso/comments/12sesxn/profitec_go_owners/",
+          "sourceDate": "2023-04-19",
+          "checkedOn": "2026-10-13",
+          "platform": "Reddit",
+          "summary": "A first-machine owner liked the PID, timer and tank capacity but found limited space between the spouted portafilter and the drip tray.",
+          "buyingQuestion": "Check your cup-and-scale clearance before deciding that a compact machine fits the station.",
+          "caveat": "One early owner with no previous home-machine comparison. Check current dimensions and included portafilter rather than treating the comment as a measurement.",
+          "verification": "Readable original owner post or comment retrieved through web browsing; no verified-purchase claim."
+        }
+      ]
+    },
+    {
+      "slug": "ecm-classika-pid-flow-control",
+      "model": "ECM Classika PID / several owner configurations",
+      "feedback": [
+        {
+          "sourceTitle": "A little buyer's remorse: ECM Classika PID",
+          "sourceUrl": "https://www.reddit.com/r/espresso/comments/1ajrm3v/a_little_buyers_remorse_anyone_ecm_classika_pid/",
+          "sourceDate": "2024-02-05",
+          "checkedOn": "2026-10-13",
+          "platform": "Reddit",
+          "summary": "An espresso-oriented long-term owner liked the footprint and PID, while the milk-focused original poster later moved to a heat exchanger because waiting and purging between modes frustrated them.",
+          "buyingQuestion": "Is espresso your priority, or would simultaneous brew and steam matter more than the E61 appearance?",
+          "caveat": "Individual owners with different baskets, flow-control kits and priorities. Neither opinion predicts satisfaction or reliability for every Classika.",
+          "verification": "Readable original owner post or comment retrieved through web browsing; no verified-purchase claim."
+        }
+      ]
+    },
+    {
+      "slug": "ascaso-steel-uno",
+      "model": "Ascaso Steel UNO / 2022 owner, exact revision unconfirmed",
+      "feedback": [
+        {
+          "sourceTitle": "Ascaso Steel PID feature discussion",
+          "sourceUrl": "https://www.reddit.com/r/espresso/comments/x86lh2/is_there_any_machine_combining_the_same_features/",
+          "sourceDate": null,
+          "checkedOn": "2026-10-13",
+          "platform": "Reddit",
+          "summary": "A self-described UNO owner a few weeks into ownership liked the construction but cautioned that programmed volume did not eliminate variation from preparation and diverted water.",
+          "buyingQuestion": "Will you keep weighing drink yield instead of treating the volume button as a guarantee?",
+          "caveat": "Older short-term UNO account, not current revision testing. The technical explanation is a commenter's interpretation, not a Coffeedant measurement.",
+          "verification": "Readable original owner post or comment retrieved through web browsing; no verified-purchase claim.",
+          "reporters": [
+            "SimpleUsuario"
+          ],
+          "sourceDateLabel": "Thread displayed as 4 years ago; exact date unresolved."
+        }
+      ]
+    },
+    {
+      "slug": "philips-5400-lattego",
+      "model": "Philips 5400 LatteGo / exact regional SKU unconfirmed",
+      "feedback": [
+        {
+          "sourceTitle": "Upgrade from 5400 LatteGo",
+          "sourceUrl": "https://www.reddit.com/r/superautomatic/comments/1s2jejp/upgrade_from_5400_lattego/",
+          "sourceDate": "2026-03-24",
+          "checkedOn": "2026-10-13",
+          "platform": "Reddit",
+          "summary": "The original 5400 owner wanted to replace it because coffee seemed burnt, foam had worsened and the milk system sounded loud. Another 5400 owner in the same thread reported enjoying the drinks without issues.",
+          "buyingQuestion": "Taste the recipes and consider cleaning the milk carafe before interpreting one owner's foam problem as a reason to upgrade.",
+          "caveat": "Contrasting subjective reports. The original poster suspected the carafe but did not establish the cause; no representative failure or satisfaction rate.",
+          "verification": "Readable original owner post or comment retrieved through web browsing; no verified-purchase claim."
+        }
+      ]
+    },
+    {
+      "slug": "gaggia-accademia-ri9781-01",
+      "model": "Gaggia Accademia / redesigned late2022 model",
+      "feedback": [
+        {
+          "sourceTitle": "Accademia, Eletta or Terra Kaffe?",
+          "sourceUrl": "https://www.reddit.com/r/superautomatic/comments/1azpukb/gaggia_accademia_or_delonghi_eletta_terra_kaffe/",
+          "sourceDate": "2024-02-25",
+          "checkedOn": "2026-10-13",
+          "platform": "Reddit",
+          "summary": "An Accademia owner explicitly said they had owned the redesigned machine since its late-2022 launch and were still satisfied. A second new owner also liked it after returning a different machine.",
+          "buyingQuestion": "Try the milk and espresso you actually drink, and inspect the daily carafe and brew-group routine.",
+          "caveat": "Current-design ownership is explicit, but exact region and RI9781/01 SKU are not. These are personal preferences, not a controlled comparison or reliability sample.",
+          "verification": "Readable original owner post or comment retrieved through web browsing; no verified-purchase claim."
+        }
+      ]
+    },
+    {
+      "slug": "lelit-elizabeth",
+      "model": "Lelit Elizabeth / 2023 owner, version unconfirmed",
+      "feedback": [
+        {
+          "sourceTitle": "Bambino to Lelit Elizabeth",
+          "sourceUrl": "https://www.reddit.com/r/espresso/comments/17ts450/bambino_to_lelit_elizabeth_sometimes_the_machine/",
+          "sourceDate": "2023-11-12",
+          "checkedOn": "2026-10-13",
+          "platform": "Reddit",
+          "summary": "An owner upgrading to Elizabeth reported more predictable shot output and a more pleasant morning routine. Another commenter reported enjoying theirs after almost two years.",
+          "buyingQuestion": "Would dual-boiler workflow and controllable brewing solve a specific daily frustration for you?",
+          "caveat": "One comparison with a potentially problematic individual Bambino and a second brief report. Exact Elizabeth firmware and production version are not verified.",
+          "verification": "Readable original owner post or comment retrieved through web browsing; no verified-purchase claim.",
+          "reporters": [
+            "stunslinger"
+          ]
+        }
+      ]
+    }
+  ],
+  "rejectedSources": [
+    {
+      "url": "https://www.reddit.com/r/superautomatic/comments/1ogkx4e/removed/",
+      "reason": "Search retrieval exposed fifth-generation owner comments dated2025-11-19, but repeated direct page opens returned cache miss. Prefer fully readable older-generation feedback with an explicit generation boundary."
+    }
+  ],
+  "notes": [
+    "All19unique shortlist products covered; generation and exact-model boundaries are retained.",
+    "For JURA E8, do not present older refurbished-unit feedback as current article15722 evidence.",
+    "The Magnifica Evo thread's opening post is a content creator review; this file uses actual owner comments below it.",
+    "Flair Classic and ROK have newer packages; historical owner reports are explicitly labelled rather than silently applied to those packages.",
+    "Amazon pages were not needed because source-specific Reddit owner accounts are adequate for this request."
+  ]
+}

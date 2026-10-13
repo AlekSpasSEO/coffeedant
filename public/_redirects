@@ -19,7 +19,7 @@
 /espresso-machine/delonghi-magnifica-evo-2/ /espresso-machine/delonghi-magnifica-evo/ 301
 /espresso-machine/delonghi-magnifica-esam3000/ /espresso-machine/delonghi-magnifica-evo/ 301
 /espresso-machine/delonghi-magnifica-evo-next/ /espresso-machine/delonghi-magnifica-evo/ 301
-/espresso-machine/with-grinder/ /journal/espresso-machines-with-built-in-grinder/ 301
+/espresso-machine/with-grinder/ /espresso-machine/built-in-grinder/ 301
 /espresso-machine/breville-bambino-plus/ /espresso-machine/breville-bambino/ 301
 /espresso-machine/breville-bambino-bes450/ /espresso-machine/breville-bambino/ 301
 /espresso-machine/breville-bambino-plus-bes500/ /espresso-machine/breville-bambino/ 301
@@ -29,7 +29,7 @@
 /espresso-machine/delonghi-dinamica-aroma-bar-ecam359-37-tb/ /espresso-machine/delonghi-dinamica-plus-ecam38085sb/ 301
 /espresso-machine/rocket-appartamento/ /espresso-machine/rocket-appartamento-tca/ 301
 
-# Journal consolidation: permanently move blog articles and buying guides.
+# Journal blog migration; buying guides remain under /espresso-machine/.
 /blog/conical-vs-flat-burr-grinders/ /journal/conical-vs-flat-burr-grinders/ 301
 /blog/conical-vs-flat-burr-grinders /journal/conical-vs-flat-burr-grinders/ 301
 /blog/espresso-dosing/ /journal/espresso-dosing/ 301
@@ -44,22 +44,24 @@
 /blog/ground-distribution /journal/ground-distribution/ 301
 /blog/nordic-style-coffee/ /journal/nordic-style-coffee/ 301
 /blog/nordic-style-coffee /journal/nordic-style-coffee/ 301
-/espresso-machine/beginners/ /journal/espresso-machines-for-beginners/ 301
-/espresso-machine/beginners /journal/espresso-machines-for-beginners/ 301
-/espresso-machine/built-in-grinder/ /journal/espresso-machines-with-built-in-grinder/ 301
-/espresso-machine/built-in-grinder /journal/espresso-machines-with-built-in-grinder/ 301
-/espresso-machine/cheap-budget-under-500/ /journal/budget-espresso-machines-under-500/ 301
-/espresso-machine/cheap-budget-under-500 /journal/budget-espresso-machines-under-500/ 301
-/espresso-machine/prosumer-under-1000/ /journal/prosumer-espresso-machines-under-1000/ 301
-/espresso-machine/prosumer-under-1000 /journal/prosumer-espresso-machines-under-1000/ 301
-/espresso-machine/single-boiler/ /journal/single-boiler-espresso-machines/ 301
-/espresso-machine/single-boiler /journal/single-boiler-espresso-machines/ 301
-/espresso-machine/small/ /journal/compact-espresso-machines/ 301
-/espresso-machine/small /journal/compact-espresso-machines/ 301
-/espresso-machine/superautomatic/ /journal/superautomatic-espresso-machines/ 301
-/espresso-machine/superautomatic /journal/superautomatic-espresso-machines/ 301
-/espresso-machine/without-grinder/ /journal/espresso-machines-without-grinder/ 301
-/espresso-machine/without-grinder /journal/espresso-machines-without-grinder/ 301
 /blog/ /journal/ 301
 /blog /journal/ 301
 /blog/* /journal/:splat 301
+
+# Restore buying-guide canonicals and redirect their temporary Journal URLs.
+/journal/espresso-machines-for-beginners/ /espresso-machine/beginners/ 301
+/journal/espresso-machines-for-beginners /espresso-machine/beginners/ 301
+/journal/espresso-machines-with-built-in-grinder/ /espresso-machine/built-in-grinder/ 301
+/journal/espresso-machines-with-built-in-grinder /espresso-machine/built-in-grinder/ 301
+/journal/budget-espresso-machines-under-500/ /espresso-machine/cheap-budget-under-500/ 301
+/journal/budget-espresso-machines-under-500 /espresso-machine/cheap-budget-under-500/ 301
+/journal/prosumer-espresso-machines-under-1000/ /espresso-machine/prosumer-under-1000/ 301
+/journal/prosumer-espresso-machines-under-1000 /espresso-machine/prosumer-under-1000/ 301
+/journal/single-boiler-espresso-machines/ /espresso-machine/single-boiler/ 301
+/journal/single-boiler-espresso-machines /espresso-machine/single-boiler/ 301
+/journal/compact-espresso-machines/ /espresso-machine/small/ 301
+/journal/compact-espresso-machines /espresso-machine/small/ 301
+/journal/superautomatic-espresso-machines/ /espresso-machine/superautomatic/ 301
+/journal/superautomatic-espresso-machines /espresso-machine/superautomatic/ 301
+/journal/espresso-machines-without-grinder/ /espresso-machine/without-grinder/ 301
+/journal/espresso-machines-without-grinder /espresso-machine/without-grinder/ 301

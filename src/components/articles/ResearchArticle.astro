@@ -1,8 +1,12 @@
 ---
 import HomeLayout from '../../layouts/HomeLayout.astro';
 import '../../styles/review.css';
+import JournalGuideEvidence from '../guides/JournalGuideEvidence.astro';
+import enrichment from '../../data/journal-guide-enrichment.json';
 
-const { article } = Astro.props;
+const { article:sourceArticle } = Astro.props;
+const article={...sourceArticle,updated:'2026-10-13'};
+const evidence=enrichment[article.slug as keyof typeof enrichment];
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const assetUrl = (path: string) => /^https?:\/\//i.test(path) ? path : `${base}${path.replace(/^\//, '')}`;
 const canonical = new URL(article.path.replace(/^\//, ''), 'https://coffeedant.com/').toString();
@@ -18,7 +22,8 @@ const schema = {
       datePublished: article.published, dateModified: article.updated, mainEntityOfPage: canonical,
       author: { '@type': 'Person', name: article.author.name, jobTitle: article.author.role, image: assetUrl(article.author.image), url: 'https://coffeedant.com/about/' },
       publisher: { '@type': 'Organization', name: 'Coffeedant', url: 'https://coffeedant.com/' },
-      citation: article.sources.map((source: [string, string, string]) => source[1]),
+      citation: [...article.sources.map((source: [string, string, string]) => source[1]),...evidence.schematic.sourceUrls,...evidence.feedback.map(feedback=>feedback.url)],
+      image:evidence.images.map(photo=>new URL(photo.src,'https://coffeedant.com/').toString()),
     },
     {
       '@type': 'FAQPage', mainEntity: article.faqs.map(([question, answer]: [string, string]) => ({
@@ -73,7 +78,7 @@ const schema = {
 
       <nav class="review-jumpbar" aria-label="Article sections">
         <span>In this article</span>
-        <div><a href="#quick-answer">Quick answer</a><a href="#guide">Full guide</a><a href="#faq">FAQ</a><a href="#methodology">Methodology</a><a href="#sources">Sources</a></div>
+        <div><a href="#quick-answer">Quick answer</a><a href="#visual-guide">Visual guide</a><a href="#guide">Full guide</a><a href="#faq">FAQ</a><a href="#methodology">Methodology</a><a href="#sources">Sources</a></div>
       </nav>
 
       <article class="review-article article-content">
@@ -83,14 +88,7 @@ const schema = {
           <p>{article.summary}</p>
         </section>
 
-        <section class="article-visuals" aria-label="Article framework">
-          {article.media.map(([label, value, note]: [string, string, string], index: number) => (
-            <figure class="review-media review-inline-media" data-source-type="editorial" data-user-generated="false">
-              <div class="article-visual" aria-hidden="true"><span>{String(index + 1).padStart(2, '0')}</span><small>{label}</small><strong>{value}</strong></div>
-              <figcaption>{note}</figcaption>
-            </figure>
-          ))}
-        </section>
+        <JournalGuideEvidence evidence={evidence} id={article.slug}/>
 
         <section class="review-section article-guide" id="guide" aria-labelledby="guide-title">
           <header class="review-section-heading"><p class="review-overline">The full guide</p><h2 id="guide-title">Build a repeatable decision, not a ritual</h2></header>

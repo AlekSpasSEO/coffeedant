@@ -9,14 +9,16 @@
     "/blog/nordic-style-coffee/": "/journal/nordic-style-coffee/"
   },
   "guides": {
-    "/espresso-machine/beginners/": "/journal/espresso-machines-for-beginners/",
-    "/espresso-machine/built-in-grinder/": "/journal/espresso-machines-with-built-in-grinder/",
-    "/espresso-machine/cheap-budget-under-500/": "/journal/budget-espresso-machines-under-500/",
-    "/espresso-machine/prosumer-under-1000/": "/journal/prosumer-espresso-machines-under-1000/",
-    "/espresso-machine/single-boiler/": "/journal/single-boiler-espresso-machines/",
-    "/espresso-machine/small/": "/journal/compact-espresso-machines/",
-    "/espresso-machine/superautomatic/": "/journal/superautomatic-espresso-machines/",
-    "/espresso-machine/without-grinder/": "/journal/espresso-machines-without-grinder/"
+    "/journal/espresso-machines-for-beginners/": "/espresso-machine/beginners/",
+    "/journal/espresso-machines-with-built-in-grinder/": "/espresso-machine/built-in-grinder/",
+    "/journal/budget-espresso-machines-under-500/": "/espresso-machine/cheap-budget-under-500/",
+    "/journal/prosumer-espresso-machines-under-1000/": "/espresso-machine/prosumer-under-1000/",
+    "/journal/single-boiler-espresso-machines/": "/espresso-machine/single-boiler/",
+    "/journal/compact-espresso-machines/": "/espresso-machine/small/",
+    "/journal/superautomatic-espresso-machines/": "/espresso-machine/superautomatic/",
+    "/journal/espresso-machines-without-grinder/": "/espresso-machine/without-grinder/"
   },
-  "hubs": { "/blog/": "/journal/" }
+  "hubs": {
+    "/blog/": "/journal/"
+  }
 }

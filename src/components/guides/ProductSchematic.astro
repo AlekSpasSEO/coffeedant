@@ -1,0 +1,36 @@
+---
+import '../../styles/guide-evidence.css';
+const {product,id}=Astro.props;
+const manual=product.kind==='manual-lever';
+const dual=product.kind==='dual-boiler';
+const automatic=product.kind==='automatic';
+const steam=product.milk!=='none';
+const selectable=!manual&&!dual&&!automatic;
+---
+<div class="guide-schematic guide-product-schematic" data-product-schematic={product.kind}>
+ <p class="guide-evidence-label">Product schematic / Operating system</p><h4>{manual?'Heat and pressure are separate jobs':dual?'Independent brew and steam heating':automatic?'Preparation moves inside the machine':'One heat system, different operating states'}</h4>
+ {selectable&&<div class="guide-schematic-controls" role="group" aria-label={`Operating states for ${product.name}`}><button type="button" data-product-state="brew" aria-pressed="true">Brew</button><button type="button" data-product-state="steam" aria-pressed="false">Steam</button></div>}
+ <svg viewBox="0 0 620 300" role="img" aria-labelledby={`${id}-system-title`}>
+  <title id={`${id}-system-title`}>{product.name}: conceptual operating system</title>
+  {manual?<>
+   <rect class="diagram-box" x="15" y="80" width="165" height="72" rx="8"/><rect class="diagram-box" x="227" y="80" width="166" height="72" rx="8"/><rect class="diagram-box" x="440" y="80" width="165" height="72" rx="8"/>
+   <path class="diagram-arrow" d="M185 117h34m-8-6 8 6-8 6M397 117h34m-8-6 8 6-8 6"/><text x="37" y="109">Heat water</text><text x="39" y="133">in a kettle</text><text x="255" y="109">Prepare the</text><text x="250" y="133">brew chamber</text><text x="474" y="109">Apply lever</text><text x="479" y="133">pressure</text><text class="diagram-note" x="33" y="212">Separate grinder → dose and prepare the coffee bed.</text><text class="diagram-note" x="33" y="238">No steam circuit. Milk needs a separate heating/frothing method.</text>
+  </>:dual?<>
+   <rect class="diagram-box" x="20" y="110" width="135" height="60" rx="8"/><rect class="diagram-box" x="244" y="45" width="155" height="60" rx="8"/><rect class="diagram-box" x="244" y="180" width="155" height="60" rx="8"/><rect class="diagram-box" x="480" y="45" width="120" height="60" rx="8"/><rect class="diagram-box" x="480" y="180" width="120" height="60" rx="8"/>
+   <path class="diagram-arrow" d="M155 140h40V75h40M195 140v70h40M399 75h70M399 210h70"/><text x="50" y="146">Water</text><text x="265" y="81">Brew boiler</text><text x="261" y="215">Steam boiler</text><text x="499" y="80">Espresso</text><text x="505" y="215">Steam</text><text class="diagram-note" x="35" y="281">Prepare the puck separately; the heating circuits can operate in parallel.</text>
+  </>:automatic?<>
+   <rect class="diagram-box" x="20" y="35" width="135" height="62" rx="8"/><rect class="diagram-box" x="242" y="35" width="150" height="62" rx="8"/><rect class="diagram-box" x="475" y="35" width="125" height="62" rx="8"/>
+   <path class="diagram-arrow" d="M155 66h75M392 66h72"/><text x="47" y="61">Beans</text><text x="34" y="81">+ grinder</text><text x="266" y="61">Internal</text><text x="259" y="82">brew unit</text><text x="502" y="73">Coffee</text>
+   <rect class="diagram-box" x="20" y="160" width="135" height="62" rx="8"/><rect class="diagram-box" x="242" y="160" width="150" height="62" rx="8"/><rect class="diagram-box" x="475" y="160" width="125" height="62" rx="8"/><path class="diagram-arrow" d="M155 192h75M392 192h72"/><text x="45" y="184">Water</text><text x="37" y="205">+ heating</text><text x="270" y="184">Milk</text><text x="260" y="205">system</text><text x="492" y="185">Rinse</text><text x="486" y="205">and clean</text><text class="diagram-note" x="28" y="276">Two operating workflows. This does not specify heater count or plumbing.</text>
+  </>:<>
+   <rect class="diagram-box" x="20" y="82" width="130" height="65" rx="8"/><rect class="diagram-box" x="242" y="82" width="145" height="65" rx="8"/><rect class="diagram-box" x="478" y="24" width="122" height="65" rx="8"/><rect class="diagram-box" x="478" y="183" width="122" height="65" rx="8"/>
+   <path class="diagram-arrow" d="M150 115h80M387 115h43V57h37" data-product-branch="brew"/><path class="diagram-arrow" d="M387 115h43v101h37" data-product-branch="steam" hidden/>
+   <text x="50" y="108">Water</text><text x="38" y="130">+ pump</text><text x="268" y="108">Heating</text><text x="271" y="130">system</text><text x="496" y="51">Brew</text><text x="492" y="73">group</text><text x="496" y="209">Steam</text><text x="491" y="231">wand</text><text class="diagram-note" x="25" y="280">{product.grinder==='integrated'?'Integrated grinder → dose → prepare and lock the portafilter.':'Separate grinder → dose → prepare and lock the portafilter.'}</text>
+  </>}
+ </svg>
+ <p><strong>{product.heaterLabel}.</strong> {product.constraint}</p>
+ <p class="guide-schematic-source">Conceptual operation, not physical pipe routing, scale, repair instructions or a measured performance result. <a href={product.manual??product.officialSourceURL} target="_blank" rel="noopener noreferrer">Manufacturer / manual basis ↗</a></p>
+</div>
+<script>
+ document.querySelectorAll<HTMLElement>('[data-product-schematic]').forEach(root=>root.querySelectorAll<HTMLButtonElement>('[data-product-state]').forEach(button=>button.addEventListener('click',()=>{root.querySelectorAll('[data-product-state]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));root.querySelectorAll<HTMLElement>('[data-product-branch]').forEach(branch=>branch.toggleAttribute('hidden',branch.dataset.productBranch!==button.dataset.productState));})));
+</script>
