@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/ninja-luxe-cafe-premier-es601/': officialProductMedia(
+    'SharkNinja US stainless ES601 product page',
+    'https://www.sharkninja.com/ninja-luxe-cafe-premier-3-in-1-espresso-coffee-cold-brew/ES601.html?dwvar_ES601_color=d2d7dd',
+    [
+      {
+        src: 'https://assets.sharkninja.com/image/upload/c_fill,w_690,h_690,f_auto,g_auto,q_auto:good,dpr_2.0,b_rgb:FFFFFF/v1/Storefront/Products/ES601/ES601_Gallery_InUse_05',
+        alt: 'SharkNinja official in-use image of the stainless Luxe Café Premier ES601',
+        caption: 'The factory in-use view shows the portafilter and preparation area. It does not establish Coffeedant extraction, ease, dimensions or a specific regional accessory set.',
+        width: 1380,
+        height: 1380,
+      },
+      {
+        src: 'https://assets.sharkninja.com/image/upload/c_fill,w_690,h_690,f_auto,g_auto,q_auto:good,dpr_2.0,b_rgb:FFFFFF/v1/Storefront/Products/ES601/ES601_Gallery_InUse_07',
+        alt: 'SharkNinja official second in-use gallery image for the stainless ES601',
+        caption: 'A second manufacturer in-use view provides context for the station and controls. It is not a Coffeedant setup, cup-quality or footprint measurement.',
+        width: 1380,
+        height: 1380,
+      },
+    ],
+  ),
   '/grinder/baratza-encore-esp-pro/': officialProductMedia(
     'Baratza US Encore ESP Pro product page',
     'https://www.baratza.com/en-us/product/encore-esp-pro-zcg595',

@@ -27,6 +27,7 @@ export const brands: Brand[] = [
   { slug: 'la-pavoni', path: '/la-pavoni/', name: 'La Pavoni', country: 'Italy', prefix: 'la-pavoni-', position: 100, range: '$$–$$$$', system: 'Lever/boiler · manual', bestFor: 'Hands-on ritual and direct feedback', summary: 'Heritage machines for buyers who want to control the shot physically rather than automate it.', strengths: ['Direct control', 'Iconic design', 'Simple mechanics'], tradeoff: 'A steep learning curve and little forgiveness.' },
   { slug: 'lelit', path: '/lelit/', name: 'Lelit', country: 'Italy', prefix: 'lelit-', position: 76, range: '$$–$$$$', system: 'Boiler · hands-on', bestFor: 'Maximum capability per dollar', summary: 'Feature-dense Italian machines that move from compact single boilers to advanced dual-boiler control.', strengths: ['Strong specifications', 'Wide upgrade path', 'Compact options'], tradeoff: 'Interfaces can feel more functional than luxurious.' },
   { slug: 'nespresso', path: '/nespresso/', name: 'Nespresso', country: 'Switzerland', prefix: 'nespresso-', position: 0, range: '$–$$', system: 'Capsule · automatic', bestFor: 'Speed and zero learning curve', summary: 'Capsule systems for buyers who prioritize speed, consistency, and minimal cleanup over adjustment.', strengths: ['Very fast', 'Consistent', 'Minimal cleanup'], tradeoff: 'Capsule cost and limited control over fresh coffee.' },
+  { slug: 'ninja', path: '/ninja/', name: 'Ninja', country: 'United States', prefix: 'ninja-', position: 28, range: '$$', system: 'Guided · multi-drink', bestFor: 'Espresso, drip and cold drinks in one station', summary: 'The reviewed Luxe Café Premier ES601 combines guided espresso, drip coffee and rapid cold drinks with an integrated grinder and milk frothing.', strengths: ['Drink variety', 'Guided dosing', 'Frothing presets'], tradeoff: 'The grinder and brewer share one appliance and several cleaning paths.' },
   { slug: 'philips', path: '/philips/', name: 'Philips', country: 'Netherlands', prefix: 'philips-', position: 15, range: '$$–$$$', system: 'Bean-to-cup · automatic', bestFor: 'Easy milk drinks and cleanup', summary: 'Accessible superautomatic machines centered on one-touch drinks and the simple LatteGo milk system.', strengths: ['Simple milk system', 'Easy cleaning', 'Household profiles'], tradeoff: 'Espresso texture and control trail hands-on machines.' },
   { slug: 'profitec', path: '/profitec/', name: 'Profitec', country: 'Germany', prefix: 'profitec-', position: 86, range: '$$–$$$$', system: 'Boiler · hands-on', bestFor: 'Focused prosumer engineering', summary: 'A tightly tiered lineup that progresses from compact PID machines to powerful dual boilers and levers.', strengths: ['Clear product ladder', 'Solid construction', 'Strong controls'], tradeoff: 'Most setups require a serious separate grinder.' },
   { slug: 'quick-mill', path: '/quick-mill/', name: 'Quick Mill', country: 'Italy', prefix: 'quick-mill-', position: 80, range: '$$–$$$$', system: 'Mixed boiler · hands-on', bestFor: 'A precise fit between entry and premium', summary: 'A deep Italian range with compact thermoblocks, single boilers, heat exchangers, and dual boilers.', strengths: ['Many configurations', 'Compact models', 'Traditional controls'], tradeoff: 'The large range makes direct comparisons harder.' },
@@ -102,6 +103,11 @@ export const brandDetails: Record<string, { approach: string; ownership: string;
     ownership: 'Convenience is excellent, but capsule cost, waste, and limited control compound over time. Compare the full routine, not only the machine purchase price.',
     rangeLogic: 'Original-style systems prioritize short espresso-like drinks. Vertuo expands cup sizes through a different capsule and brewing system.',
   },
+  ninja: {
+    approach: 'Ninja’s reviewed Luxe Café Premier ES601 puts guided grinding, measured coffee dose, espresso, drip, rapid cold drinks and frothing in one station. It asks the owner to move the portafilter and manage the results rather than hiding every action.',
+    ownership: 'One counter station can simplify a mixed-drink household. The integrated grinder and brewer are coupled, and coffee, milk and water need distinct cleaning routines. Check exact model, support and return terms.',
+    rangeLogic: 'Coffeedant currently reviews the US Premier ES601. Essential, Mini and Pro models differ in functions and package; their specifications are not assigned to this review.',
+  },
   philips: {
     approach: 'Philips makes bean-to-cup ownership approachable, with clear controls and the tube-free LatteGo milk carafe as the practical center of the range.',
     ownership: 'The removable brew group and simple milk parts reduce cleaning friction. Espresso adjustment is useful but cannot match a well-dialed separate grinder and manual machine.',
@@ -161,11 +167,12 @@ export const decisionGuides = [
   { path: '/espresso-machine/small/', label: 'Small spaces', title: 'Compact machines', note: 'Real espresso capability for tight counters.', tone: 'paper' },
 ];
 
-export const machinePagesForBrand = (brand: Brand, pages: any[]) => pages
+export const machinePagesForBrand = (brand: Brand, pages: any[]) => [...new Map(pages
   .filter((page) => {
     const segment = page.path.split('/').filter(Boolean)[1] ?? '';
     return page.path.startsWith('/espresso-machine/') && segment.startsWith(brand.prefix);
   })
+  .map((page) => [page.path, page] as const)).values()]
   .map((page) => ({
     path: page.path,
     title: String(page.title)

@@ -69,6 +69,7 @@ export type UpgradeReviewProfile = {
   finalTitle: string;
   finalVerdict: string[];
   video: MachineReviewData['video'];
+  excludeSelfFromAlternatives?: boolean;
   // Use for a distinct review category whose evidence language differs from espresso.
   dimensionDiagnostics?: Partial<Record<ReviewDimensionId, Array<{ signal: string; guidance: string }>>>;
   sectionOverrides?: Partial<Record<string, string>>;
@@ -211,7 +212,9 @@ export const buildUpgradeReview = (profile: UpgradeReviewProfile): MachineReview
     pros: profile.pros,
     cons: profile.cons,
     dimensions: dimensionIds.map((id) => makeDimension(profile, id)),
-    alternatives: profile.comparisons.slice(0, 3).map((comparison) => ({
+    alternatives: (profile.excludeSelfFromAlternatives
+      ? profile.comparisons.filter((comparison) => comparison.href && comparison.href !== profile.slug && comparison.name.toLowerCase() !== `${profile.brand} ${profile.model}`.toLowerCase()).slice(0, 3)
+      : profile.comparisons.slice(0, 3)).map((comparison) => ({
       name: comparison.name,
       reason: comparison.quickDecision,
       href: comparison.href ?? '/espresso-machine/breville-barista-express-bes870xl/',

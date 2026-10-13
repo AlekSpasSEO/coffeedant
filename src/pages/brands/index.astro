@@ -3,9 +3,10 @@ import HomeLayout from '../../layouts/HomeLayout.astro';
 import a from '../../data/pages-a.json';
 import b from '../../data/pages-b.json';
 import { brands, machinePagesForBrand } from '../../data/catalog';
+import { modernReviews } from '../../data/review-registry';
 
 const base = import.meta.env.BASE_URL;
-const pages = [...a, ...b];
+const pages = [...a, ...b, ...modernReviews.map((review) => ({ path: review.slug, title: review.title }))];
 const mappedBrands = brands.map((brand) => ({
   ...brand,
   count: machinePagesForBrand(brand, pages).length,
@@ -14,7 +15,7 @@ const mappedBrands = brands.map((brand) => ({
 }));
 ---
 <HomeLayout
-  title="Espresso Machine Brands: Compare 18 Manufacturers | Coffeedant"
+  title={`Espresso Machine Brands: Compare ${brands.length} Manufacturers | Coffeedant`}
   description="Compare espresso machine brands by workflow, price position, strengths, and trade-offs, then browse every Coffeedant review by manufacturer."
   canonicalPath="/brands/"
 >
@@ -22,7 +23,7 @@ const mappedBrands = brands.map((brand) => ({
     <section class="hub-hero">
       <div class="shell hub-hero-grid">
         <div>
-          <p class="eyebrow">18 manufacturers · one useful map</p>
+          <p class="eyebrow">{brands.length} manufacturers · one useful map</p>
           <h1>Brands without the fan club.</h1>
           <p class="hero-copy">Start with the workflow you want. Then find the manufacturers that build around it.</p>
         </div>
