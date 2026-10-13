@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/brands/",
+      "sourceHash": "e0b587ff80554bdfec491211fc200d6bb619be088af2fe4889e86fc3181c931d"
+    },
+    {
+      "sourcePath": "/grinder/",
+      "sourceHash": "61ffce67106dadbc94b75ec0ac4f7c3d1287017ee8ac67b75c5046c7958c1d71"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "80a08799d14d9a3daa83788a641a2541e7b2eb66671a8ff6f604a64642213911",
+      "source": "brand",
+      "kind": "attribute",
+      "context": "19 brandsmatching this ownership style"
+    },
+    {
+      "id": "ff9f58e4a87ce5b6df09ded3328e48208060f48c3c3c0b51aa94c67ba86b9f07",
+      "source": "brands",
+      "kind": "attribute",
+      "context": "19 brandsmatching this ownership style"
+    },
+    {
+      "id": "5d011905671c113b51365895657b3b391ed72a45d9b6dc277eae799d2ef43bb5",
+      "source": "Review",
+      "kind": "attribute",
+      "context": "BrevilleBambino Plus Compact semi-automatic Fast, compact first machine Needs a separate grinder Review →"
+    }
+  ],
+  "snapshotHash": "cf21e9ed459ede24db4e4bfb77d4167bb97c8dccf71a6f2317c93a020ca9c79a"
+}

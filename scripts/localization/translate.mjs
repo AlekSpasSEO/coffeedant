@@ -166,7 +166,17 @@ if (process.argv[1] && path.resolve(process.argv[1]) === path.join(root, 'script
   if ((process.env.LOCALIZATION_PROVIDER || provider.provider) === 'openai' && !process.env.OPENAI_API_KEY) throw new Error('Missing OPENAI_API_KEY for optional OpenAI provider.');
   const source = await readJson(path.join(root, '.localization/source.json'));
   const flag = process.argv.indexOf('--edition');
-  const targets = flag >= 0 ? [getEdition(process.argv[flag + 1]).id] : config.editions.filter(({ id }) => id !== 'us').map(({ id }) => id);
+  // Initial editions are now authored directly in Codex. The unattended API
+  // workflow maintains actually published editions, not an unapproved backfill
+  // competing with their new-article updates. Manual dispatch stays explicit.
+  const targets = flag >= 0 ? [getEdition(process.argv[flag + 1]).id] : config.editions.filter(({ id, published }) => id !== 'us' && published).map(({ id }) => id);
+  if (!targets.length) {
+    await writeJson(path.join(root, '.localization/translation-report.json'), []);
+    const note = 'No complete regional edition is published yet. Direct Codex backfill continues separately; no translation API call was made.';
+    if (process.env.GITHUB_STEP_SUMMARY) await appendFile(process.env.GITHUB_STEP_SUMMARY, `${note}\n`);
+    console.log(note);
+    process.exit(0);
+  }
   const limit = Number(process.env.LOCALIZATION_MAX_REQUESTS || 40);
   if (!Number.isInteger(limit) || limit < 1 || limit > 1000) throw new Error('LOCALIZATION_MAX_REQUESTS must be an integer between 1 and 1000');
   const report = []; let remainingBudget = limit;

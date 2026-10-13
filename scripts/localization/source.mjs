@@ -2,15 +2,22 @@ import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import {journalRedirects} from '../migrate-journal-links.mjs';
 import { root, htmlFiles, routeFromFile, contentId, parseHtml, walk, attr, detach,
-  slots, jsonSlots, textContent, segmentId, digest, policyHash, interfaceSource, readJson, writeJson } from './core.mjs';
+  slots, jsonSlots, textContent, segmentId, digest, policyHash, interfaceSource, readJson, writeJson, setAttr } from './core.mjs';
 
 export const prepareRegionalDocument = (document) => {
+  const canonical = walk(document).find((node) => node.tagName === 'link' && attr(node, 'rel') === 'canonical');
+  const policy = /^https:\/\/(?:www\.)?coffeedant\.com\/(?:privacy-policy|tos)\/$/.test(attr(canonical ?? {}, 'href') ?? '');
   for (const node of walk(document)) {
     const classes = (attr(node, 'class') ?? '').split(/\s+/);
     if (attr(node, 'data-amazon-recommendation') !== undefined
       || classes.some((value) => ['review-price', 'review-price-check', 'review-sticky-buy', 'review-sticky-offer'].includes(value))) detach(node);
     if (node.tagName === 'a' && (/\b(?:sponsored)\b/.test(attr(node, 'rel') ?? '')
       || /^https:\/\/(?:amzn\.to|(?:www\.)?amazon\.[^/]+)\//i.test(attr(node, 'href') ?? ''))) detach(node);
+  }
+  if (policy) for (const node of walk(document)) {
+    if (!['p', 'li'].includes(node.tagName) || !node.childNodes?.some((child) => child.tagName)) continue;
+    const descendants = walk(node).slice(1).filter(({ tagName }) => tagName);
+    if (descendants.every(({ tagName }) => ['a', 'strong', 'b', 'em', 'i', 'span', 'br'].includes(tagName))) setAttr(node, 'data-localization-inline', '');
   }
   return document;
 };

@@ -19,12 +19,29 @@ export async function createDirectTask(sourcePath, name) {
   const task = { schemaVersion: 1, sourcePath, sourceHash: page.sourceHash, policyHash,
     segments, snapshotHash: digest(JSON.stringify(segments)) };
   const destination = path.join(root, `localization/authored/${name}.source.json`);
+  const existing = await readJson(destination, null);
+  if (existing && existing.snapshotHash !== task.snapshotHash) throw new Error('Snapshot name is already frozen; choose a new name instead of overwriting authored evidence');
   await writeJson(destination, task);
   return task;
 }
 
-export async function importDirectTranslation(file) {
-  const authored = await readJson(file);
+export async function importDirectTranslation(file, options = {}) {
+  const authored = options.authored ?? await readJson(file);
+  if (Array.isArray(authored.editions)) {
+    if (options.authored || new Set(authored.editions).size !== authored.editions.length || !authored.editions.length) throw new Error('Invalid grouped editions');
+    const prepared = [];
+    const source = await collectSource();
+    for (const edition of authored.editions) {
+      if (edition === 'us') throw new Error('The source edition cannot be translated');
+      getEdition(edition);
+      const single = { ...authored, editions: undefined, edition, routes: authored.routes?.[edition],
+        translations: Object.fromEntries(Object.entries(authored.translations).map(([index, values]) => [index, values[edition]])) };
+      prepared.push(await importDirectTranslation(file, { authored: single, dryRun: true, current: source }));
+    }
+    for (const item of prepared) await writeJson(translationFile(item.authored.edition), item.cache);
+    console.log(`Saved validated directly authored batch for ${authored.editions.join(', ')}; no edition marked complete or published.`);
+    return prepared;
+  }
   if (authored.schemaVersion !== 1 || !authored.translations || typeof authored.translations !== 'object' || Array.isArray(authored.translations)) throw new Error('Invalid authored translation file');
   const snapshotFile = path.resolve(path.dirname(file), authored.snapshot);
   if (path.dirname(snapshotFile) !== path.dirname(file)) throw new Error('Snapshot must be adjacent to authored translation');
@@ -47,20 +64,85 @@ export async function importDirectTranslation(file) {
     if (!segment || texts.has(segment.source)) throw new Error(`Invalid verbatim approval: ${index}`);
     texts.set(segment.source, segment.source);
   }
+  const partial = authored.scope === 'segments';
+  if (authored.scope && !partial) throw new Error('Unsupported direct-translation scope');
   const missing = task.segments.map((segment, index) => ({ segment, index })).filter(({ segment }) => !texts.has(segment.source));
-  if (missing.length) throw new Error(`Missing authored translations: ${missing.map(({ index }) => index).join(', ')}`);
-  const current = await collectSource();
+  if (missing.length && !partial) throw new Error(`Missing authored translations: ${missing.map(({ index }) => index).join(', ')}`);
+  const current = options.current ?? await collectSource();
   const page = current.pages.find((entry) => entry.sourcePath === task.sourcePath);
-  if (!page || page.sourceHash !== task.sourceHash) throw new Error('Page changed since editorial translation; review a new source snapshot');
-  for (const segment of task.segments) cache.segments[segment.id] = {
+  if (!partial && (!page || page.sourceHash !== task.sourceHash)) throw new Error('Page changed since editorial translation; review a new source snapshot');
+  if (!texts.size) throw new Error('Empty authored batch');
+  const liveIds = new Set(current.segments.map(({ id }) => id));
+  for (const segment of task.segments.filter(({ source }) => texts.has(source))) if (!liveIds.has(segment.id)) throw new Error('An authored source segment is no longer current');
+  // Matching exact source strings can share editorial wording across DOM/JSON
+  // kinds. Each destination keeps its own kind-derived ID and factual validation.
+  const imported = current.segments.filter(({ source }) => texts.has(source));
+  for (const segment of imported) cache.segments[segment.id] = {
     source: segment.source, text: texts.get(segment.source), policyHash,
     provider: 'codex-direct', authoredFile: path.relative(root, file).replaceAll('\\', '/'),
   };
-  cache.routes[page.id] = { sourcePath: page.sourcePath, path: safeRoute(authored.route) };
-  if (Object.values(cache.routes).filter((entry) => entry.path === authored.route).length !== 1) throw new Error('Localized route collision');
+  const routes = partial ? authored.routes ?? {} : { [page.sourcePath]: authored.route };
+  for (const [sourcePath, target] of Object.entries(routes)) {
+    const sourcePage = current.pages.find((entry) => entry.sourcePath === sourcePath);
+    if (!sourcePage) throw new Error(`Unknown authored route: ${sourcePath}`);
+    if (cache.routes[sourcePage.id] && cache.routes[sourcePage.id].path !== target) throw new Error('An existing localized URL must not be silently renamed');
+    cache.routes[sourcePage.id] = { sourcePath, path: safeRoute(target) };
+  }
+  const targets = Object.values(cache.routes).map(({ path }) => path);
+  if (new Set(targets).size !== targets.length) throw new Error('Localized route collision');
+  cache.policyHash = policyHash;
+  if (options.dryRun) return { authored, task, cache, page };
   await writeJson(translationFile(authored.edition), cache);
-  console.log(`Saved ${task.segments.length} directly authored segments for ${getEdition(authored.edition).host}${authored.route}`);
+  console.log(`Saved ${imported.length} current directly authored segments for ${getEdition(authored.edition).host}${partial ? ' (incremental batch; not a completed edition)' : authored.route}`);
   return { authored, task, cache, page };
+}
+
+export async function createDirectBatch(name, paths, edition) {
+  if (!/^[a-z0-9-]+$/.test(name)) throw new Error('Snapshot name must be a simple lowercase identifier');
+  const source = await collectSource();
+  const pages = paths.filter((sourcePath) => sourcePath !== '@finder').map((sourcePath) => {
+    const page = source.pages.find((entry) => entry.sourcePath === sourcePath);
+    if (!page) throw new Error(`Unknown canonical source page: ${sourcePath}`);
+    return page;
+  });
+  const cache = edition ? await loadCache(edition) : null;
+  const ids = new Set(pages.flatMap(({ segments }) => segments));
+  if (paths.includes('@finder')) for (const id of source.finderSegments) ids.add(id);
+  const segments = source.segments.filter(({ id, kind, source: text }) => {
+    if (!ids.has(id) && kind !== 'interface') return false;
+    const entry = cache?.segments[id];
+    if (!entry || entry.source !== text || entry.policyHash !== policyHash) return true;
+    try { validateTranslation(text, entry.text); return false; } catch { return true; }
+  });
+  const task = { schemaVersion: 1, sourcePages: pages.map(({ sourcePath, sourceHash }) => ({ sourcePath, sourceHash })), policyHash, segments, snapshotHash: digest(JSON.stringify(segments)) };
+  const destination = path.join(root, `localization/authored/${name}.source.json`);
+  const existing = await readJson(destination, null);
+  if (existing && existing.snapshotHash !== task.snapshotHash) throw new Error('Batch snapshot is already frozen; choose a new batch name');
+  await writeJson(destination, task);
+  return task;
+}
+
+export async function reuseDirectWording(edition) {
+  const cache = await loadCache(edition);
+  const current = await collectSource();
+  const reusable = new Map();
+  for (const entry of Object.values(cache.segments)) {
+    if (entry.policyHash !== policyHash || entry.provider !== 'codex-direct') continue;
+    try { validateTranslation(entry.source, entry.text); } catch { continue; }
+    const prior = reusable.get(entry.source);
+    if (prior && prior.text !== entry.text) reusable.set(entry.source, { ambiguous: true });
+    else if (!prior?.ambiguous) reusable.set(entry.source, entry);
+  }
+  let reused = 0;
+  for (const segment of current.segments) {
+    if (cache.segments[segment.id]?.policyHash === policyHash) continue;
+    const entry = reusable.get(segment.source);
+    if (!entry || entry.ambiguous) continue;
+    cache.segments[segment.id] = { ...entry, source: segment.source, text: validateTranslation(segment.source, entry.text) };
+    reused++;
+  }
+  await writeJson(translationFile(edition), cache);
+  console.log(`Reused ${reused} exact already-authored strings across source kinds for ${edition}; no new translations inferred.`);
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === path.join(root, 'scripts/localization/direct.mjs')) {
@@ -68,6 +150,10 @@ if (process.argv[1] && path.resolve(process.argv[1]) === path.join(root, 'script
   if (command === 'export') {
     const task = await createDirectTask(first, second);
     console.log(`Frozen ${task.segments.length} source segments; snapshot ${task.snapshotHash}`);
-  } else if (command === 'import') await importDirectTranslation(path.resolve(root, first));
-  else throw new Error('Usage: direct.mjs export <source-path> <snapshot-name> | import <authored-json>');
+  } else if (command === 'batch-export') {
+    const task = await createDirectBatch(first, second.split(','), process.argv[5]);
+    console.log(`Frozen ${task.segments.length} missing source segments; snapshot ${task.snapshotHash}`);
+  } else if (command === 'reuse') await reuseDirectWording(first);
+  else if (command === 'import') await importDirectTranslation(path.resolve(root, first));
+  else throw new Error('Usage: direct.mjs export <source-path> <snapshot-name> | batch-export <name> <comma-separated-paths> [edition] | import <authored-json>');
 }

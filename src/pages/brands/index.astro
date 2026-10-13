@@ -54,7 +54,7 @@ const mappedBrands = brands.map((brand) => ({
             <label><input type="radio" name="brand-tier" value="premium" /><span>Premium</span></label>
           </fieldset>
         </form>
-        <div class="brand-filter-result"><strong id="brand-filter-count">{mappedBrands.length} brands</strong><span>matching this ownership style</span></div>
+        <div class="brand-filter-result"><strong id="brand-filter-count" data-label-one="brand" data-label-many="brands">{mappedBrands.length} brands</strong><span>matching this ownership style</span></div>
         <div class="brand-filter-list">
           {mappedBrands.map((brand) => (
             <a href={`${base}${brand.path.replace(/^\//, '')}`} data-workflow={brand.workflow} data-tiers={brand.tiers}>
@@ -149,7 +149,7 @@ const mappedBrands = brands.map((brand) => ({
   <script>
     const brandFilter = document.querySelector<HTMLFormElement>('.brand-filter-controls');
     const brandCards = Array.from(document.querySelectorAll<HTMLElement>('.brand-directory > a, .brand-filter-list > a'));
-    const brandCount = document.querySelector('#brand-filter-count');
+    const brandCount = document.querySelector<HTMLElement>('#brand-filter-count');
 
     const applyBrandFilter = () => {
       const workflow = brandFilter?.querySelector<HTMLInputElement>('input[name="brand-workflow"]:checked')?.value ?? 'all';
@@ -161,7 +161,7 @@ const mappedBrands = brands.map((brand) => ({
         card.hidden = !(workflowMatch && tierMatch);
         if (!card.hidden && card.closest('.brand-filter-list')) visible += 1;
       });
-      if (brandCount) brandCount.textContent = `${visible} ${visible === 1 ? 'brand' : 'brands'}`;
+      if (brandCount) brandCount.textContent = `${visible} ${visible === 1 ? brandCount.dataset.labelOne ?? 'brand' : brandCount.dataset.labelMany ?? 'brands'}`;
     };
 
     brandFilter?.addEventListener('change', applyBrandFilter);

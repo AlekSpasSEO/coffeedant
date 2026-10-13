@@ -14,7 +14,7 @@ No common Latin American currency or electrical standard is assumed.
 
 - All 15 editions configured; 14 regional editions deliberately unpublished.
 - Shared Astro application and original US URLs preserved.
-- DOM-safe source indexing covers all 199 built HTML pages (198 regular pages
+- DOM-safe source indexing currently covers all 210 canonical built HTML pages (209 regular pages
   plus the 404), including metadata, accessibility text, JSON-LD and finder data.
 - Source-path-derived content IDs connect stable translated route registries.
   If the US source URL itself changes, migrate that registry explicitly and add
@@ -78,11 +78,10 @@ carry noindex/nofollow, and robots.txt disallows crawling. This is a language
 review preview, not the full Dutch production edition. Germany and France
 subdomains have not been connected or published yet.
 
-Reproduce after the US build:
+Rebuild the review from the saved approved wording after the US build:
 
 ```sh
-node scripts/localization/direct.mjs export /journal/espresso-dosing/ espresso-dosing
-node scripts/localization/direct.mjs import localization/authored/nl-espresso-dosing.json
+node scripts/localization/direct.mjs reuse nl
 node scripts/localization/review.mjs nl /journal/espresso-dosing/
 ```
 
@@ -105,6 +104,60 @@ Pages project association/DNS; do not modify the US apex or www. Keep this revie
 URL as the permanent translated route. Existing automatic content translation
 continues separately under its provider's quota; direct authoring is not an
 unlimited unattended background service.
+
+### Approved ongoing direct backfill (2026-10-13)
+
+The user approved the Dutch sample and explicitly authorized continuing the
+complete NL, DE and FR translations/deployments without per-page approvals.
+The active hourly thread continuation is
+`finish-coffeedant-dutch-german-french-rollout`, named
+“Finish Coffeedant Dutch German French rollout”. It resumes substantive direct
+translation batches in this chat and must stop repeating once all three complete
+editions are actually published and verified. Local scheduled runs require the
+computer on and the desktop app running and use the existing Codex allowance;
+they do not bypass account limits. No paid API billing was enabled. This initial
+backfill continuation is separate from the existing GitHub source-change jobs.
+Those API jobs now maintain published regional editions by default and do not
+consume translation quota on this direct initial backfill. Explicit manual
+dispatch for a selected edition remains available. New regional source changes
+are queued automatically once an edition is actually published; incomplete
+updates retain the last passing full deployment.
+
+The saved shell/foundation batches cover all three homepages' editorial text,
+the brands, grinder, coffee-bean and coffee-machine hubs, contact/about pages,
+404 and faithful translations of existing privacy/terms text. Policy translation
+is not a legal-compliance certification or a newly invented regional policy.
+Most article bodies and Finder data remain untranslated. Do not interpret the
+foundation batch as a completed language edition or enable any published flag.
+
+For efficient ongoing batches:
+
+```sh
+node scripts/localization/direct.mjs reuse nl
+node scripts/localization/coverage.mjs
+node scripts/localization/direct.mjs batch-export nl-next UNIQUE-SOURCE-PATHS nl
+node scripts/localization/direct.mjs batch-export nl-finder-next @finder nl
+node scripts/localization/direct.mjs import localization/authored/AUTHORED-BATCH.json
+```
+
+Use fresh snapshot names and comma-separated canonical paths in place of the
+example identifiers. `@finder` explicitly includes every current catalog item's
+description, best-for label and image alternative. Only author genuine
+translations; `reuse` copies exact, unambiguous already-approved wording across
+DOM/JSON/attribute kinds, not English fallback. Grouped files contain explicitly
+authored translations for each named edition and validate every edition before
+writing any cache. `scope: "segments"` permits passing partial batches without
+claiming complete-page coverage. Routes never silently rename existing registry
+entries. `coverage.mjs` validates cache facts/source/policy and reports page
+readiness, including runtime-interface and Finder dependencies, before rollout.
+
+Inline policy paragraphs are translated as complete constrained-markup units,
+not isolated words such as “not”; original tags and link destinations must match
+exactly. Mobile `data-label` text and interactive brand-count singular/plural
+labels are included. Structured data includes FAQ answers, review bodies, article
+sections and keyword arrays. Executable code and filter identifiers stay fixed.
+Source-snapshot hashes are immutable; schema/source changes require a new batch,
+while valid exact wording may be reused. Full production remains completeness-gated.
 
 ## Missing configuration
 

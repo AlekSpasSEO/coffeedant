@@ -66,6 +66,17 @@ export const slots = (document) => {
     blocked ||= excluded.has(node.tagName) || attr(node, 'translate') === 'no'
       || /(?:material-symbols|material-icons)/.test(attr(node, 'class') ?? '');
     if (blocked) return;
+    if (attr(node, 'data-localization-inline') !== undefined) {
+      const source = serialize(node).trim();
+      result.push({ id: segmentId(source, 'inline-html'), source, kind: 'inline-html', context: textContent(node),
+        set(text) {
+          validateTranslation(source, text);
+          const fragment = parseFragment(text);
+          node.childNodes = fragment.childNodes;
+          for (const child of node.childNodes) child.parentNode = node;
+        } });
+      return;
+    }
     if (node.tagName === 'noscript' && node.childNodes?.[0]?.nodeName === '#text') {
       const fragment = parseFragment(node.childNodes[0].value);
       for (const slot of slots(fragment)) result.push({ ...slot,
@@ -80,7 +91,7 @@ export const slots = (document) => {
     };
     if (node.nodeName === '#text') add(node.value, 'text', (value) => { node.value = value; });
     for (const entry of node.attrs ?? []) {
-      if (['alt', 'title', 'aria-label', 'placeholder', 'data-search', 'data-finder-load-failed', 'data-finder-load-fallback'].includes(entry.name)) add(entry.value, 'attribute', (value) => { entry.value = value; });
+      if (['alt', 'title', 'aria-label', 'placeholder', 'data-search', 'data-label', 'data-label-one', 'data-label-many', 'data-finder-load-failed', 'data-finder-load-fallback'].includes(entry.name)) add(entry.value, 'attribute', (value) => { entry.value = value; });
       if (node.tagName === 'meta' && entry.name === 'content'
         && ['description', 'og:title', 'og:description', 'og:image:alt', 'twitter:title', 'twitter:description', 'twitter:image:alt'].includes(attr(node, 'name') ?? attr(node, 'property'))) {
         add(entry.value, 'metadata', (value) => { entry.value = value; });
@@ -136,13 +147,19 @@ export const translatedText = (cache, source, kind = 'text') => {
 export const translateDom = (document, cache) => {
   for (const slot of slots(document)) slot.set(translatedText(cache, slot.source, slot.kind));
 };
-export const jsonTextFields = new Set(['name', 'description', 'headline', 'articleBody', 'alternativeHeadline', 'caption', 'text']);
+export const jsonTextFields = new Set(['name', 'description', 'headline', 'articleBody', 'alternativeHeadline', 'caption', 'text', 'reviewBody', 'articleSection', 'keywords', 'disambiguatingDescription']);
 export const jsonSlots = (object) => {
   const result = [];
   const visit = (value, key, parent) => {
     if (typeof value === 'string' && jsonTextFields.has(key) && readable(value)) {
       result.push({ id: segmentId(value, 'json'), source: value.trim(), kind: 'json', context: key,
         set(text) { parent[key] = text; } });
+    } else if (Array.isArray(value) && jsonTextFields.has(key)) {
+      for (const [index, entry] of value.entries()) {
+        if (typeof entry === 'string' && readable(entry)) result.push({ id: segmentId(entry, 'json'), source: entry.trim(), kind: 'json', context: key,
+          set(text) { value[index] = text; } });
+        else if (entry && typeof entry === 'object') visit(entry, index, value);
+      }
     } else if (value && typeof value === 'object') {
       for (const [childKey, child] of Object.entries(value)) visit(child, childKey, value);
     }

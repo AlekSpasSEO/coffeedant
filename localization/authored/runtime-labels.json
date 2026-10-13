@@ -1,0 +1,12 @@
+{
+  "schemaVersion":1,
+  "editions":["nl","de","fr"],
+  "scope":"segments",
+  "snapshot":"runtime-labels.source.json",
+  "snapshotHash":"cf21e9ed459ede24db4e4bfb77d4167bb97c8dccf71a6f2317c93a020ca9c79a",
+  "translations":{
+    "0":{"nl":"merk","de":"Marke","fr":"marque"},
+    "1":{"nl":"merken","de":"Marken","fr":"marques"},
+    "2":{"nl":"Review","de":"Testbericht","fr":"Test"}
+  }
+}

@@ -1,0 +1,2849 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/",
+      "sourceHash": "a9e445dbe76ac8f5214c3da175c4af0593afc4fe428804e845921a1777355230"
+    },
+    {
+      "sourcePath": "/404/",
+      "sourceHash": "6d140c48726718332a91ce340e145126a6f41031f23529e8c7b0de6dc2ef0a9b"
+    },
+    {
+      "sourcePath": "/about/",
+      "sourceHash": "07b193cb4ee0642332ab7f5dad54b5440b933de77fea5eabed1a8cb174a64666"
+    },
+    {
+      "sourcePath": "/contact/",
+      "sourceHash": "da90820f0c7ce54116ef3dbcf0fd106e46eab74846b3d38e2ea06c2d94022ba3"
+    },
+    {
+      "sourcePath": "/coffee-machine/",
+      "sourceHash": "78a3c3c64a47757d0d94ad54c3a12cf7b710e45cfff56e28fcb827e9eca4d712"
+    },
+    {
+      "sourcePath": "/keurig/",
+      "sourceHash": "009c35d9d3d751fc0320df315863c61954b2dc7a687aa6dc5446106f818b7bf6"
+    },
+    {
+      "sourcePath": "/brands/",
+      "sourceHash": "47d44122cdedc382349435e0c9c80a6550b743803b11f8679bab5a5162622bad"
+    },
+    {
+      "sourcePath": "/grinder/",
+      "sourceHash": "184d361475d5f2b9cafffdcfcdbfdddfe3f26e4cb5de577097b3ca2bc5fea386"
+    },
+    {
+      "sourcePath": "/coffee-beans/",
+      "sourceHash": "47b2bbed447568d5ff5cf05912dd35e1a3ecaa79e46cafff54b7dc16e79ee717"
+    },
+    {
+      "sourcePath": "/privacy-policy/",
+      "sourceHash": "a56ea3e73e43e74fcb52ece610dacae5f8f1040a7039efd62b9ccbc3707b37a6"
+    },
+    {
+      "sourcePath": "/tos/",
+      "sourceHash": "e6da46d70dfaca3261db43bd36fe1be41a9fe8684bbdf5c7fb803a100eeee306"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "a4b8a754cbe02b144ca63d0929209f497cf4663025cfb40f63a6d3c45a570ec3",
+      "source": "Page not found | Coffeedant",
+      "kind": "text",
+      "context": "Page not found | Coffeedant"
+    },
+    {
+      "id": "664766d366b3ce859af1ea2aa3ee474bf8bc933232a4a5acf2019fa7bf2b7b11",
+      "source": "Page not found | Coffeedant",
+      "kind": "metadata",
+      "context": "Page not found | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.cookie.split(';')) {\n        "
+    },
+    {
+      "id": "5565c7d00d1ddf5127691d18a1d4375b1c84b8a96b5eb6d12f650c600e4685a4",
+      "source": "Page not found",
+      "kind": "text",
+      "context": "Page not found"
+    },
+    {
+      "id": "47e148cb6ff2ee668dd81057291c8ab4a8be3702acba1cf7ba05df29390569fe",
+      "source": "We couldn't find that page. Browse the",
+      "kind": "text",
+      "context": "We couldn't find that page. Browse the espresso machine reviews or head back home."
+    },
+    {
+      "id": "01a5601a1063d439b1f004de2497b5069b9415f166ddb1c8e277a0134e079f91",
+      "source": "espresso machine reviews",
+      "kind": "text",
+      "context": "espresso machine reviews"
+    },
+    {
+      "id": "d037692cdc51646d703943885701b9f36ab8b156ea46b41b6575211b6d702595",
+      "source": "or head back",
+      "kind": "text",
+      "context": "We couldn't find that page. Browse the espresso machine reviews or head back home."
+    },
+    {
+      "id": "155fc19ffd249ab4b948e0c0b1a100cb7c146eb53edd9c4563524c9ff761a943",
+      "source": "home",
+      "kind": "text",
+      "context": "home"
+    },
+    {
+      "id": "6a6ed1d23b33f516d772478d542f2a6ea0ab837ac8fb92b90ed47daca67c687f",
+      "source": "Honest espresso machine reviews and buying guides.",
+      "kind": "text",
+      "context": "CoffeedantHonest espresso machine reviews and buying guides."
+    },
+    {
+      "id": "eab7ffc6f1dfff651cf0c00203ba643500c0e11621a050b5b137040b2a8fcc79",
+      "source": "© 2026 Coffeedant. As an Amazon Associate I earn from qualifying purchases. Coffeedant may also earn from other retailer links.",
+      "kind": "text",
+      "context": "© 2026 Coffeedant. As an Amazon Associate I earn from qualifying purchases. Coffeedant may also earn from other retailer links."
+    },
+    {
+      "id": "7dd9749348bb53fb5084583692200108b2a110e26c7d7adeab72285e11db5b8c",
+      "source": "About Coffeedant",
+      "kind": "text",
+      "context": "About Coffeedant"
+    },
+    {
+      "id": "c90567738c51ce1da3500204bc242c3ac28dd6c947cb22d7e06f969f7af1c343",
+      "source": "Meet Coffeedant and learn how Aleksandar Spasevski researches espresso machines, grinders, brewing technique and practical ownership decisions.",
+      "kind": "metadata",
+      "context": "About Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.cookie.split(';')) {\n        const name "
+    },
+    {
+      "id": "0d1c3b5253bcbc4b6f28edf22c94e810f354549f6177cf9ac7109e475763cab4",
+      "source": "About Coffeedant",
+      "kind": "metadata",
+      "context": "About Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.cookie.split(';')) {\n        const name "
+    },
+    {
+      "id": "801b0e68e275f49cb9486ed5796ee7a4b9307cb447f3b8b58ccaa6da82439369",
+      "source": "Your Trusted Coffee Outfitter",
+      "kind": "text",
+      "context": "Your Trusted Coffee Outfitter"
+    },
+    {
+      "id": "7c073643be323f7722b76693e0b1c70b6f0b77e34e554ae4753c53ad71e4d4f0",
+      "source": "I'm Aleksandar Spasevski. I hunt the world's best beans and test every espresso machine worth your money.",
+      "kind": "text",
+      "context": "I'm Aleksandar Spasevski. I hunt the world's best beans and test every espresso machine worth your money."
+    },
+    {
+      "id": "29df67809b83638d7936fa3e4a86d2ce243940f0faa287f9dcad8c1571e1314b",
+      "source": "At 35, I've pulled thousands of shots, cupped hundreds of origins, and torn apart dozens of machines to understand what makes exceptional coffee at home.",
+      "kind": "text",
+      "context": "At 35, I've pulled thousands of shots, cupped hundreds of origins, and torn apart dozens of machines to understand what makes exceptional coffee at home."
+    },
+    {
+      "id": "d603980fbdf6ba663d6f69e118d6858a434b713ed2f96f167841b17f230cf767",
+      "source": "What You Get Here",
+      "kind": "text",
+      "context": "What You Get Here"
+    },
+    {
+      "id": "a5a016a4e105059848629e2f2da05f74a3ccb47462d5becadd5d1c3b7c71be53",
+      "source": "Bean Reviews That Matter",
+      "kind": "text",
+      "context": "Bean Reviews That Matter"
+    },
+    {
+      "id": "96b5774db4349b8051370d4e24d1092a04ca6b05457d55a65887f16a9e2d54ce",
+      "source": "Origin details, roast profiles, extraction notes. Real taste tests, not marketing copy. I source directly from roasters who care about transparency and quality.",
+      "kind": "text",
+      "context": "Bean Reviews That MatterOrigin details, roast profiles, extraction notes. Real taste tests, not marketing copy. I source directly from roasters who care about transparency and quality."
+    },
+    {
+      "id": "8943f885842c11fc7333463b27d73f1c372c33ba6ab2a976047725458523ebe6",
+      "source": "Machine Testing Without BS",
+      "kind": "text",
+      "context": "Machine Testing Without BS"
+    },
+    {
+      "id": "380a6c2eb464b64043e64d25b2b4d7dffdac7f6de45cf6c2f931ba3ac3c12818",
+      "source": "Every grinder, espresso machine, and brewer gets the full treatment. Measured extraction times, temperature stability tests, maintenance requirements. You'll know exactly what 20-bar pressure means for your morning crema.",
+      "kind": "text",
+      "context": "Machine Testing Without BSEvery grinder, espresso machine, and brewer gets the full treatment. Measured extraction times, temperature stability tests, maintenance requirements. You'll know exactly what 20-bar pressure means for your morning crema."
+    },
+    {
+      "id": "5756217ead43f091f1feaef0272183a8b8d534af2c44a3ab488e9ff65d8c5116",
+      "source": "Guidance That Works",
+      "kind": "text",
+      "context": "Guidance That Works"
+    },
+    {
+      "id": "0e2ece75c22f8555176e6eb7cff107ab29a9a57b6655a99e3b756a0bdc74b1ca",
+      "source": "Grind settings for your beans. Dose weights that deliver. Temperature curves that extract properly. Skip the trial and error.",
+      "kind": "text",
+      "context": "Guidance That WorksGrind settings for your beans. Dose weights that deliver. Temperature curves that extract properly. Skip the trial and error."
+    },
+    {
+      "id": "4bc016455a0d2f48df1c1d1f27c692e28699ee93dfa1fe96c861759f5587ae5f",
+      "source": "Why Trust Coffeedant",
+      "kind": "text",
+      "context": "Why Trust Coffeedant"
+    },
+    {
+      "id": "b54a89a3642fc618ce8abb9665dbbd9838d3eda4c17c8f2cfa3de79de23ba118",
+      "source": "I buy the gear. I drink the coffee. No sponsored content disguised as reviews.",
+      "kind": "text",
+      "context": "I buy the gear. I drink the coffee. No sponsored content disguised as reviews."
+    },
+    {
+      "id": "edd106d7898b04136b81a271dd8605432a614ac06972b089b19bf456268b3fd5",
+      "source": "Every recommendation comes from actual use—months of daily brewing, not unboxing videos. When a machine breaks at month three or beans arrive stale, you'll hear about it.",
+      "kind": "text",
+      "context": "Every recommendation comes from actual use—months of daily brewing, not unboxing videos. When a machine breaks at month three or beans arrive stale, you'll hear about it."
+    },
+    {
+      "id": "78e2cc3e4f79c8c65e763c608c15241cd0e009fee15ada17e79d8af234f6a7e9",
+      "source": "For Every Coffee Drinker",
+      "kind": "text",
+      "context": "For Every Coffee Drinker"
+    },
+    {
+      "id": "1cbffa9a9a81f2ab8091b3d03cf4670f5c727b2e672338c7061f629df07cd53a",
+      "source": "New to Espresso",
+      "kind": "text",
+      "context": "New to Espresso"
+    },
+    {
+      "id": "be3632fc0de6e3f23ba235119e8321054e75d33c9e250219552ead717f30d60f",
+      "source": "Start with proven entry machines. Learn the fundamentals without the $3,000 investment.",
+      "kind": "text",
+      "context": "New to EspressoStart with proven entry machines. Learn the fundamentals without the $3,000 investment."
+    },
+    {
+      "id": "9e884f2da656560a2d0d55c5d3388100cbc6caf9f346a397ed70dc6872332a4a",
+      "source": "Daily Brewers",
+      "kind": "text",
+      "context": "Daily Brewers"
+    },
+    {
+      "id": "81e8c8138114e00f2d3024d56ac3d94fc128b9e32cfb53a48dee1c55556116c1",
+      "source": "Consistent, reliable setups that deliver. Subscription-worthy beans that ship fresh.",
+      "kind": "text",
+      "context": "Daily BrewersConsistent, reliable setups that deliver. Subscription-worthy beans that ship fresh."
+    },
+    {
+      "id": "22415dbf05f1a0d49c7521e736063da1311420c8d5d220a18a2317d6824e814d",
+      "source": "Coffee Obsessed",
+      "kind": "text",
+      "context": "Coffee Obsessed"
+    },
+    {
+      "id": "b42b2159e4a50aea8e62e6869d3ef4980a0d20b61a38e9117d7afbd5f49fc1b0",
+      "source": "Premium single origins, precision grinders, temperature-profiling machines. The tools that turn good coffee into exceptional coffee.",
+      "kind": "text",
+      "context": "Coffee ObsessedPremium single origins, precision grinders, temperature-profiling machines. The tools that turn good coffee into exceptional coffee."
+    },
+    {
+      "id": "156fcb9e081f8241644469e11462d85ccea7509b88e2baf2cd17b560a39f2013",
+      "source": "The Coffeedant Promise",
+      "kind": "text",
+      "context": "The Coffeedant Promise"
+    },
+    {
+      "id": "d048b479dbbc51452358378740a34f9af9263197e4de6022323bdbf67c05aced",
+      "source": "Fresh beans, delivered on schedule. Honest reviews backed by data. Equipment recommendations based on actual long-term use.",
+      "kind": "text",
+      "context": "Fresh beans, delivered on schedule. Honest reviews backed by data. Equipment recommendations based on actual long-term use."
+    },
+    {
+      "id": "7ccf8725838bf716d23c6a20265db1801ba25b81414fb9a5d7a810c7b100b3d7",
+      "source": "No fluff. Just better coffee at home.",
+      "kind": "text",
+      "context": "No fluff. Just better coffee at home."
+    },
+    {
+      "id": "27ef5e01c8dce3f3d21958637ca3946a35c4feb6babbea78f97fafe7c2f926a9",
+      "source": "Spain · Thermoblock · hands-on",
+      "kind": "text",
+      "context": "Spain · Thermoblock · hands-on"
+    },
+    {
+      "id": "364d06448f79bfd5de04e942e1f08e3b8fdbcf0a66628fbff6438679e7e0618d",
+      "source": "Push-button ease",
+      "kind": "text",
+      "context": "Push-button ease"
+    },
+    {
+      "id": "61637f1652deaaabfa508232dcabeb0fa7a1be2ef5cb0b22d4b9e70c982e1d2e",
+      "source": "Hands-on control",
+      "kind": "text",
+      "context": "Hands-on control"
+    },
+    {
+      "id": "c645bcefc188312e045e7f05dd1dde52682fdd040d37d9c185848d6f3f7a8f08",
+      "source": "Fast heat-up with real control",
+      "kind": "text",
+      "context": "Best for: Fast heat-up with real control"
+    },
+    {
+      "id": "ddf6e1b3204b2ea0151392af49ec7460ede50515ea42ac58cf258d1527305fae",
+      "source": "The finder could not load",
+      "kind": "attribute",
+      "context": "← All brands Spain · Thermoblock · hands-on Ascaso, mapped. Modern, compact machines that prioritize speed without turning espresso into a push-button process.   2machine reviews $$–$$$price position Balanced workflowworkflow       01 / Brand fit Where Ascaso sits. Brand position is useful only when it helps you choose a daily routine.    Push-button easeHands-on control  Ascaso  Best for: Fast heat-up with real control   Why it belongs on a shortlist Fast warm-upCompact footprintModern controls   The trade-off Less traditional than a boiler-first machine.        02 / Brand approach What Ascaso actually builds for. The useful brand story is the one that changes ownership, not the one printed in a brochure.   Design approachAscaso uses fast-heating thermoblock technology to make a hands-on machine feel practical on a weekday. The emphasis is modern temperature control without the long warm-up of traditional prosumer hardware. Ownership realityIt suits buyers who want to dial in a separate grinder but do not want the machine warming for half an hour. Water quality and routine cleaning still matter, but the daily start-up is unusually light. How to read the rangeSteel Uno is the focused single-thermoblock route. Steel Duo adds simultaneous brew-and-steam ability for milk-heavy households.        Ascaso Coffee Finder Find the Ascaso machine that fits your routine.  Start with any constraint. This compact finder searches every Ascaso espresso-machine review; the full finder can compare the result with every brand.      Budget  Any budget Under $500 $500–$999 $1,000–$1,999 $2,000–$2,999 $3,000–$4,999 $5,000+    Workflow  Any workflow One-touch automatic Guided / grinder built in Hands-on electric Manual lever / press Capsule / pod Commercial capacity    Main drinks  Any drink"
+    },
+    {
+      "id": "a24eaccdf6a3941ef8545ce1f0e188ae60609a9b4a0bd8213e58a720c14efda2",
+      "source": "Browse the full espresso-machine guide instead.",
+      "kind": "attribute",
+      "context": "← All brands Spain · Thermoblock · hands-on Ascaso, mapped. Modern, compact machines that prioritize speed without turning espresso into a push-button process.   2machine reviews $$–$$$price position Balanced workflowworkflow       01 / Brand fit Where Ascaso sits. Brand position is useful only when it helps you choose a daily routine.    Push-button easeHands-on control  Ascaso  Best for: Fast heat-up with real control   Why it belongs on a shortlist Fast warm-upCompact footprintModern controls   The trade-off Less traditional than a boiler-first machine.        02 / Brand approach What Ascaso actually builds for. The useful brand story is the one that changes ownership, not the one printed in a brochure.   Design approachAscaso uses fast-heating thermoblock technology to make a hands-on machine feel practical on a weekday. The emphasis is modern temperature control without the long warm-up of traditional prosumer hardware. Ownership realityIt suits buyers who want to dial in a separate grinder but do not want the machine warming for half an hour. Water quality and routine cleaning still matter, but the daily start-up is unusually light. How to read the rangeSteel Uno is the focused single-thermoblock route. Steel Duo adds simultaneous brew-and-steam ability for milk-heavy households.        Ascaso Coffee Finder Find the Ascaso machine that fits your routine.  Start with any constraint. This compact finder searches every Ascaso espresso-machine review; the full finder can compare the result with every brand.      Budget  Any budget Under $500 $500–$999 $1,000–$1,999 $2,000–$2,999 $3,000–$4,999 $5,000+    Workflow  Any workflow One-touch automatic Guided / grinder built in Hands-on electric Manual lever / press Capsule / pod Commercial capacity    Main drinks  Any drink"
+    },
+    {
+      "id": "d7528167c11308dcf0d1d5edfa278d0f8e7ed3876ff30c28d4dfa2cd6a7154d7",
+      "source": "Budget",
+      "kind": "text",
+      "context": "Budget"
+    },
+    {
+      "id": "e9150adb2e8e320d6b3fd0e1a431728d6951677f334c659c42ca7d00ff14ac84",
+      "source": "Any budget",
+      "kind": "text",
+      "context": "Any budget"
+    },
+    {
+      "id": "9cd47c3fe37886b98955eccb29e9f464c6140aec639be0ceacd4a52073476676",
+      "source": "Workflow",
+      "kind": "text",
+      "context": "Workflow"
+    },
+    {
+      "id": "bda92769b4c45b5337ebff51450085f9ad6d56cb3cb80e93a4f206898ce457bb",
+      "source": "Any workflow",
+      "kind": "text",
+      "context": "Any workflow"
+    },
+    {
+      "id": "32afbb273e0001a82868af1395c3c260347daf854b93d7e54bf404324f13fc01",
+      "source": "One-touch automatic",
+      "kind": "text",
+      "context": "One-touch automatic"
+    },
+    {
+      "id": "652a5f162f80c16bcd19a87b7f20cc148961f5f4fea2c5b6850d7cce15af56c0",
+      "source": "Guided / grinder built in",
+      "kind": "text",
+      "context": "Guided / grinder built in"
+    },
+    {
+      "id": "bd707231643a475ec6a8d791776aed8b5dcbfe2a6d077098741ad322274d4b99",
+      "source": "Hands-on electric",
+      "kind": "text",
+      "context": "Hands-on electric"
+    },
+    {
+      "id": "3212d7db5a69dc2f2fa56b56e32cf83cb92bb076e1bc39607b6802fb36733e43",
+      "source": "Manual lever / press",
+      "kind": "text",
+      "context": "Manual lever / press"
+    },
+    {
+      "id": "5af4c16585b9db6f6ca0652251ed18e6c1e9a5ee993a75bffa0586a00797f3d2",
+      "source": "Capsule / pod",
+      "kind": "text",
+      "context": "Capsule / pod"
+    },
+    {
+      "id": "1bc0e4b77f081a6003819189473905a834a1ed635bd73a25f0f85cb81e0e3e8c",
+      "source": "Commercial capacity",
+      "kind": "text",
+      "context": "Commercial capacity"
+    },
+    {
+      "id": "db1b9758bd8cb8ff991e4245a1ae364733f77e50398e13ed7483521435ebb919",
+      "source": "Main drinks",
+      "kind": "text",
+      "context": "Main drinks"
+    },
+    {
+      "id": "d482b4dcafa107a6cc38945b8365f92ddb01a867bd7677c9a8dbd3d5480dcf57",
+      "source": "Any drink mix",
+      "kind": "text",
+      "context": "Any drink mix"
+    },
+    {
+      "id": "688a7ca4aad86595d5282e38c3c2d7b3cbb0b45c2b1bfbdf4a9f1481ec50870d",
+      "source": "Straight espresso matters",
+      "kind": "text",
+      "context": "Straight espresso matters"
+    },
+    {
+      "id": "050007d390bd585776b882c8f5b7aa38fff96023b96a1ae762dde40d143c6418",
+      "source": "Milk drinks matter",
+      "kind": "text",
+      "context": "Milk drinks matter"
+    },
+    {
+      "id": "eae3c399eb61f4293c260ba3bdd881962df00e281d14e314a7593ed7ab616da3",
+      "source": "I make both regularly",
+      "kind": "text",
+      "context": "I make both regularly"
+    },
+    {
+      "id": "89dde4f2deedb7b8d14c5edc7891c296e3bd5053b3ff62ac9d5b1d4b8cc4210d",
+      "source": "Find my matches",
+      "kind": "text",
+      "context": "Find my matches →"
+    },
+    {
+      "id": "d5aa1c190e68bad98ee811b34994ecbcdc27b8501dc101fb0dea3a536ea295bf",
+      "source": "Clear filters",
+      "kind": "text",
+      "context": "Clear filters"
+    },
+    {
+      "id": "a3f4696b5a4d9b443b6ec5d0b7ed6474e6a1c4df4a1b148d4974f362f073c2d4",
+      "source": "Pick one filter or several. Budget matching uses current or documented US-dollar prices; machines priced only in other currencies remain visible under “Any budget.”",
+      "kind": "text",
+      "context": "Pick one filter or several. Budget matching uses current or documented US-dollar prices; machines priced only in other currencies remain visible under “Any budget.”"
+    },
+    {
+      "id": "8628b0199f17f0c8f88059dd913c6854148fc2707044559d339be5c825535639",
+      "source": "Loading the catalog…",
+      "kind": "text",
+      "context": "Loading the catalog…"
+    },
+    {
+      "id": "d0342fe03f726362bc445d2ed75add08e1079e2e79da309eba129a954b919b7d",
+      "source": "Re-indexed every two weeks",
+      "kind": "text",
+      "context": "Re-indexed every two weeks"
+    },
+    {
+      "id": "d53653fb5ddf6a508248c410910eb1c7c5e68c2ddb7612db32c69c56dceb4810",
+      "source": "No exact match. Clear one filter to widen the shortlist.",
+      "kind": "text",
+      "context": "No exact match. Clear one filter to widen the shortlist."
+    },
+    {
+      "id": "5d4ec76fb9214c1206da921fb678a4feaadc849d151f2965fefbea9355c1f10a",
+      "source": "Brand",
+      "kind": "text",
+      "context": "Brand"
+    },
+    {
+      "id": "19c2f4a32998bb95f2273a7947461e5f9e5cfc0dfeb8fd4472e1e70a45bcd0b4",
+      "source": "Price position",
+      "kind": "text",
+      "context": "Price position"
+    },
+    {
+      "id": "bee2344aa98bb71c1e8c0c54eac36866cdf9740c1c4fdc03920c1318189a9daf",
+      "source": "Best for",
+      "kind": "text",
+      "context": "Best for"
+    },
+    {
+      "id": "2205cb941d88a967313f3976929fdffff60453d2b53d073b922f97bbb254eb19",
+      "source": "Thermoblock · hands-on",
+      "kind": "text",
+      "context": "Thermoblock · hands-on"
+    },
+    {
+      "id": "9a7aa484980e93080a5a72a629ff35854c85ecfaedd8efbdcaed118eb2408fa6",
+      "source": "Boiler · hands-on",
+      "kind": "text",
+      "context": "Boiler · hands-on"
+    },
+    {
+      "id": "790c1efd3a63d09514dfb1fd7f346377ed50ab7404dcaf864d70e28bfd17b0b5",
+      "source": "Maximum capability per dollar",
+      "kind": "text",
+      "context": "Maximum capability per dollar"
+    },
+    {
+      "id": "57cd6b990a42b4ee8838257745e2b3cb348ab1730575dbdcd508f07ffa412413",
+      "source": "Traditional prosumer workflows",
+      "kind": "text",
+      "context": "Traditional prosumer workflows"
+    },
+    {
+      "id": "779ca6844196ffdc3f8f3da0199f5f7b7db03cadc1d8cf48e4659f570f7c7d11",
+      "source": "Italy · Boiler · hands-on",
+      "kind": "text",
+      "context": "Italy · Boiler · hands-on"
+    },
+    {
+      "id": "0d48e4411b44d386c8e59bb4b4ac466101b36d77287e6ca1c037f693f27d014e",
+      "source": "Mixed boiler · hands-on",
+      "kind": "text",
+      "context": "Mixed boiler · hands-on"
+    },
+    {
+      "id": "5d308c616edf98d7b8e24ae63469418b56312a3f3506bded16f8bb01fae0c6e0",
+      "source": "A precise fit between entry and premium",
+      "kind": "text",
+      "context": "A precise fit between entry and premium"
+    },
+    {
+      "id": "38edc12469fc4c90908d6788e5339bcba9d391335754c290801d571b30f69682",
+      "source": "Germany · Bean-to-cup · automatic",
+      "kind": "text",
+      "context": "Germany · Bean-to-cup · automatic"
+    },
+    {
+      "id": "6552aff27de350b800e0a64f2f2f65e5f6b2518ba8d4b234e9d0e8fdb45ff297",
+      "source": "One-touch drinks and guided care",
+      "kind": "text",
+      "context": "Best for: One-touch drinks and guided care"
+    },
+    {
+      "id": "ec537bccf897b739ee4646460daae6ba6fcef7ff53ce9767092e70165acb9df0",
+      "source": "Bean-to-cup · automatic",
+      "kind": "text",
+      "context": "Bean-to-cup · automatic"
+    },
+    {
+      "id": "471ad7876f9e00def8c556199c4f54f8f4b09e0aaa320c547a24f743f028efd7",
+      "source": "Easy milk drinks and cleanup",
+      "kind": "text",
+      "context": "Easy milk drinks and cleanup"
+    },
+    {
+      "id": "c48c8d5ec4643ca19454e9dae937a6595ddba2b01896acfb4ce8eedb0efff230",
+      "source": "Mixed · compact",
+      "kind": "text",
+      "context": "Mixed · compact"
+    },
+    {
+      "id": "1698fbcf0e756593b928be9c814105fd2c7201f577e0365a172271eabc7dfe9d",
+      "source": "Small kitchens and simple drinks",
+      "kind": "text",
+      "context": "Small kitchens and simple drinks"
+    },
+    {
+      "id": "38758911d5c577d2b97cbbb290c22afa0aafc1cafcd142a5e75f36eddbb3ce02",
+      "source": "Espresso Machine Brands: Compare 19 Manufacturers | Coffeedant",
+      "kind": "text",
+      "context": "Espresso Machine Brands: Compare 19 Manufacturers | Coffeedant"
+    },
+    {
+      "id": "80d1290ea2fa091e39c8e9061244df53fe1f4d29bf414ac46dc681e4ad747310",
+      "source": "Compare espresso machine brands by workflow, price position, strengths, and trade-offs, then browse every Coffeedant review by manufacturer.",
+      "kind": "metadata",
+      "context": "Espresso Machine Brands: Compare 19 Manufacturers | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of doc"
+    },
+    {
+      "id": "a5cf78f3bfe9d63548a943620af49f493255734c0a179a2e16d750db68585192",
+      "source": "Espresso Machine Brands: Compare 19 Manufacturers | Coffeedant",
+      "kind": "metadata",
+      "context": "Espresso Machine Brands: Compare 19 Manufacturers | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of doc"
+    },
+    {
+      "id": "50fa0bad1abcace6d066ad53ff7cbef11635e133f127967235ce82dd56f18ba5",
+      "source": "19 manufacturers · one useful map",
+      "kind": "text",
+      "context": "19 manufacturers · one useful map"
+    },
+    {
+      "id": "9e7b2a039b49be87edc6a069852719074030c124812f9c38d7dc5de4814a5c71",
+      "source": "Brands without the fan club.",
+      "kind": "text",
+      "context": "Brands without the fan club."
+    },
+    {
+      "id": "db971e7c2617b6bc12495e74797a8bbff6acc3d3cea396ba5b276012ad71621c",
+      "source": "Start with the workflow you want. Then find the manufacturers that build around it.",
+      "kind": "text",
+      "context": "Start with the workflow you want. Then find the manufacturers that build around it."
+    },
+    {
+      "id": "8bf76f3069af5a053a9b5f693a956c96f027594e65206f2bdacb0561930b6793",
+      "source": "machine reviews organized",
+      "kind": "text",
+      "context": "machine reviews organized"
+    },
+    {
+      "id": "175ca0ff2a75be621e7741f69ca221c7cc56f0c186f829d988e2c1af7cb5f7f4",
+      "source": "01 / Find your lane",
+      "kind": "text",
+      "context": "01 / Find your lane"
+    },
+    {
+      "id": "6f002bc4d4a58245a3327a170b225c5ed3b5f23e35f2205bf6b69567485facbc",
+      "source": "Filter by ownership style.",
+      "kind": "text",
+      "context": "Filter by ownership style."
+    },
+    {
+      "id": "602cfc028c8ad6c8ab52fade3e509ae810f5013b79a8dd888607becfe11f7996",
+      "source": "Use brands as a second filter after you know how involved you want to be.",
+      "kind": "text",
+      "context": "Use brands as a second filter after you know how involved you want to be."
+    },
+    {
+      "id": "cc49c2d2b2386a97d2ba0dd82f76b253bf4cfd5eefc64be0eff763d5646618a0",
+      "source": "All",
+      "kind": "text",
+      "context": "All"
+    },
+    {
+      "id": "1f49d7c59b9add65fe4228ea41ad069fb086f57bdabd4aa6ee3f2b9725c979df",
+      "source": "Easy",
+      "kind": "text",
+      "context": "Easy"
+    },
+    {
+      "id": "865d2aa4ee7084132e9460bffebcb64acbeb672616bac4c1bfd12d088962a5e4",
+      "source": "Balanced",
+      "kind": "text",
+      "context": "Balanced"
+    },
+    {
+      "id": "d8131017f06a680afb721a56b2b222ff1bef89dd1abf76712c27270193daedd4",
+      "source": "Control",
+      "kind": "text",
+      "context": "Control"
+    },
+    {
+      "id": "f93cc96faed9f85ab2e913a794e2ee28d1d4e766f504c4c6ffc10b4f50675dcd",
+      "source": "Entry",
+      "kind": "text",
+      "context": "Entry"
+    },
+    {
+      "id": "f13acb358dd90a56082511897debb38bffcc0535a3a3c3bcabb88c5e42396025",
+      "source": "Mid",
+      "kind": "text",
+      "context": "Mid"
+    },
+    {
+      "id": "f299cd778d8422d5c25f0f0fed7c0f739cc56fd0b03e11a85751ec0e26679b71",
+      "source": "Premium",
+      "kind": "text",
+      "context": "Premium"
+    },
+    {
+      "id": "63b2a534d3d6136cad516a24dec2a680e8aef4db72cde23367f8699ef55ca72c",
+      "source": "19 brands",
+      "kind": "text",
+      "context": "19 brands"
+    },
+    {
+      "id": "40a8a99b4d39bba86b08ad90915ff1d754aff296d8b442f3dec2c7b66426e3e3",
+      "source": "matching this ownership style",
+      "kind": "text",
+      "context": "matching this ownership style"
+    },
+    {
+      "id": "3c46c1255ddf9287828568391ef3e40c696c5cf895fa14a1bba1acdb901b3e70",
+      "source": "Learning without unnecessary friction",
+      "kind": "text",
+      "context": "Learning without unnecessary friction"
+    },
+    {
+      "id": "ed26cd2f6d3c5542827849897507515df650db0b7776f74d5ac6453f4867b57f",
+      "source": "Milk drinks across every budget",
+      "kind": "text",
+      "context": "Milk drinks across every budget"
+    },
+    {
+      "id": "ca57a3faf79d364dec1a4bb69260e68b838b5698bd0f7ef549bba0b9a93c493d",
+      "source": "Premium build and espresso control",
+      "kind": "text",
+      "context": "Premium build and espresso control"
+    },
+    {
+      "id": "1a39ac9bd13338205633914e2786f9b3b1775ef88505f97ae0648df8220c615b",
+      "source": "A proven first step into espresso",
+      "kind": "text",
+      "context": "A proven first step into espresso"
+    },
+    {
+      "id": "5524e65f6daa5c50557928be5bd68396c59836231db5563ef51905a2cb24edfc",
+      "source": "Premium automation",
+      "kind": "text",
+      "context": "Premium automation"
+    },
+    {
+      "id": "e41c78fffe8fc5f16c564504da2dab627c75d3e680dd33e5b95d543d5cd72ce0",
+      "source": "Commercial-style performance at home",
+      "kind": "text",
+      "context": "Commercial-style performance at home"
+    },
+    {
+      "id": "de1a0bd117f309acd2ae46214ddedfa133b558a62de27343deaf9a4eb8fab44f",
+      "source": "Hands-on ritual and direct feedback",
+      "kind": "text",
+      "context": "Hands-on ritual and direct feedback"
+    },
+    {
+      "id": "3811f2101ee4092a345095889531dac486e7b7124cbe768a7d2257fccc59c69e",
+      "source": "Speed and zero learning curve",
+      "kind": "text",
+      "context": "Speed and zero learning curve"
+    },
+    {
+      "id": "98f9042ba54764efe4fcf23a0c8588dccb774ece62cc2d9c180dbdb178faeb8b",
+      "source": "Espresso, drip and cold drinks in one station",
+      "kind": "text",
+      "context": "Espresso, drip and cold drinks in one station"
+    },
+    {
+      "id": "9f06bef5c8ed596cc4fbcff88a606050b9c5add41fe52556712540d2e6804abd",
+      "source": "Focused prosumer engineering",
+      "kind": "text",
+      "context": "Focused prosumer engineering"
+    },
+    {
+      "id": "20e6e0e8b3d547a002c7bd48ac22a08eff7ff7840fb855d01e57ad80adbfc49b",
+      "source": "Durable, proven home-barista hardware",
+      "kind": "text",
+      "context": "Durable, proven home-barista hardware"
+    },
+    {
+      "id": "9f4943f86a0c8e0cfc1c6f62e7d3cb77a699ffc38a90e006bcc06668a62259b6",
+      "source": "Design-led prosumer setups",
+      "kind": "text",
+      "context": "Design-led prosumer setups"
+    },
+    {
+      "id": "d56810f8755c4e9febcac126d5f22751778c80b1b52633d0918d71d9b04f601a",
+      "source": "02 / Brand map",
+      "kind": "text",
+      "context": "02 / Brand map"
+    },
+    {
+      "id": "4dfbe9c946baf8d58e018152de5fda89cb3d69b43543a80500cc83438bfe1950",
+      "source": "Convenience to control.",
+      "kind": "text",
+      "context": "Convenience to control."
+    },
+    {
+      "id": "d92ac589408fc928c53916da7024ccf3cdc4fa040a540b95e57ad9d939a62d69",
+      "source": "This is a workflow map, not a quality ranking. The right end asks more of you and gives more back.",
+      "kind": "text",
+      "context": "This is a workflow map, not a quality ranking. The right end asks more of you and gives more back."
+    },
+    {
+      "id": "786973c8996f2f5cfa17381be85a0951c47dcf9cecc072d1706077742dd825ee",
+      "source": "1 reviews",
+      "kind": "text",
+      "context": "1 reviews"
+    },
+    {
+      "id": "85ea8dd6d2ef9b1e2595fd74a04f863288f28792e670efee30a7d81dd536b52f",
+      "source": "03 / Three brand families",
+      "kind": "text",
+      "context": "03 / Three brand families"
+    },
+    {
+      "id": "cc24f984c2be16e4cad61cf2292c58910171c2c4cf6f4c57f593ca59f61bfc72",
+      "source": "What are you paying for?",
+      "kind": "text",
+      "context": "What are you paying for?"
+    },
+    {
+      "id": "5a65d71f12aa1c9223a1b166181887d7a71312fd81aa2b4eb2a47b4e3915ee06",
+      "source": "Most manufacturers make one of these promises. Some successfully bridge two.",
+      "kind": "text",
+      "context": "Most manufacturers make one of these promises. Some successfully bridge two."
+    },
+    {
+      "id": "c449fed146a8cedc45dc67a1e202405ae0a260095643286e7574a500b080d6ad",
+      "source": "Fewer daily decisions",
+      "kind": "text",
+      "context": "Fewer daily decisions"
+    },
+    {
+      "id": "68214bbb6c44ed723add1ccfc2ab2d228a4e420ad1614eb473be46eadd5b0ac9",
+      "source": "Grinding, dosing, brewing, and milk are coordinated for speed and repeatability.",
+      "kind": "text",
+      "context": "Grinding, dosing, brewing, and milk are coordinated for speed and repeatability."
+    },
+    {
+      "id": "77106d8d2979dad9044b5e079d0164e80af6d41bad22d71e36485785657818b3",
+      "source": "Jura · Philips · Bosch",
+      "kind": "text",
+      "context": "Jura · Philips · Bosch"
+    },
+    {
+      "id": "ac3e1a7a89555819852860735b86efc57e7e61eb2a9b61ccdd5e78c6dc4fb9bb",
+      "source": "Guidance with control",
+      "kind": "text",
+      "context": "Guidance with control"
+    },
+    {
+      "id": "a63c1d3aece0c87ced016c9126c8b17cbaa8cf0f9e3217a48f18cdec9656239b",
+      "source": "The machine removes awkward steps but still lets the user shape extraction and milk.",
+      "kind": "text",
+      "context": "The machine removes awkward steps but still lets the user shape extraction and milk."
+    },
+    {
+      "id": "666f1c78f66bc3412b3c861c3a9da31448381a7697321dd3f606ea0e1648c4d0",
+      "source": "Breville · De'Longhi · Gaggia",
+      "kind": "text",
+      "context": "Breville · De'Longhi · Gaggia"
+    },
+    {
+      "id": "e83bcf6c39d72b992d7df734d0e3a61fcdcf74ba4d5a4fa16a937c72b44d8fb2",
+      "source": "Hardware that gets out of the way",
+      "kind": "text",
+      "context": "Hardware that gets out of the way"
+    },
+    {
+      "id": "b56309e782769adceacacfeccbee5a2ea430f8d7c1fa375498ac3ac509fce18d",
+      "source": "The grinder and user lead. The machine supplies stable heat, pressure, and steam.",
+      "kind": "text",
+      "context": "The grinder and user lead. The machine supplies stable heat, pressure, and steam."
+    },
+    {
+      "id": "5828620c1e24ec4d8c981291bbe3fcffd5d5dfac09fd969458e15d11abe0bc4d",
+      "source": "ECM · Profitec · Lelit",
+      "kind": "text",
+      "context": "ECM · Profitec · Lelit"
+    },
+    {
+      "id": "ab796ef55c41fa3a93aec00aaed4bc497270e90c711d55aa700af439185e458a",
+      "source": "04 / Comparison table",
+      "kind": "text",
+      "context": "04 / Comparison table"
+    },
+    {
+      "id": "132322ce175aff7bc6dc24081216e7e103679424901d58f9f7b5423f2d0ce4bc",
+      "source": "All brands at a glance.",
+      "kind": "text",
+      "context": "All brands at a glance."
+    },
+    {
+      "id": "4a73834eb1a1394b482a747966c5fb83dd33db1a6381abfc775c4b6ada259f3c",
+      "source": "Use this to build a small consideration set, then open the detailed brand pages.",
+      "kind": "text",
+      "context": "Use this to build a small consideration set, then open the detailed brand pages."
+    },
+    {
+      "id": "e4bc655648efebebc52928e672de2aeae9f66ccc66ccc7da984fe85dfa375383",
+      "source": "Espresso machine brand comparison",
+      "kind": "attribute",
+      "context": "BrandPrimary systemPriceBest forReviews  Ascaso → Thermoblock · hands-on $$–$$$ Fast heat-up with real control 2  Bezzera → Boiler · hands-on $$–$$$$ Traditional prosumer workflows 8  Bosch → Bean-to-cup · automatic $$–$$$ One-touch drinks and guided care 3  Breville → Mixed · guided control $–$$$$ Learning without unnecessary friction 11  De'Longhi → Mixed · convenience-led $–$$$ Milk drinks across every budget 14  ECM → Boiler · hands-on $$$–$$$$ Premium build and espresso control 7  Gaggia → Mixed · broad lineup $–$$$ A proven first step into espresso 18  Jura → Bean-to-cup · automatic $$$–$$$$ Premium automation 4  Krups → Mixed · compact $–$$$ Small kitchens and simple drinks 11  La Marzocco → Dual boiler · hands-on $$$$ Commercial-style performance at home 2  La Pavoni → Lever/boiler · manual $$–$$$$ Hands-on ritual and direct feedback 4  Lelit → Boiler · hands-on $$–$$$$ Maximum capability per dollar 7  Nespresso → Capsule · automatic $–$$ Speed and zero learning curve 1  Ninja → Guided · multi-drink $$ Espresso, drip and cold drinks in one station 1  Philips → Bean-to-cup · automatic $$–$$$ Easy milk drinks and cleanup 4  Profitec → Boiler · hands-on $$–$$$$ Focused prosumer engineering 6  Quick Mill → Mixed boiler · hands-on $$–$$$$ A precise fit between entry and premium 9  Rancilio → Boiler · hands-on $$–$$$ Durable, proven home-barista hardware 2  Rocket Espresso → Boiler · hands-on $$$–$$$$ Design-led prosumer setups 4"
+    },
+    {
+      "id": "504bb09b7d77fd60abe6f0817263e5461f000165eed71daf45f5a519e728808d",
+      "source": "Primary system",
+      "kind": "text",
+      "context": "Primary system"
+    },
+    {
+      "id": "738a73f3d496e7c88dbc84b2d1878d831336ece33c4d0008928ff99c49b6d95f",
+      "source": "Price",
+      "kind": "text",
+      "context": "Price"
+    },
+    {
+      "id": "c3a6fa782cbc889fa7877f87eedb0bfbf881ca707976b642b451ffe0a20827b3",
+      "source": "Reviews",
+      "kind": "text",
+      "context": "Reviews"
+    },
+    {
+      "id": "17b8e88134bdc522b982df2ed71f14e5f22aee6b9b44057799d2a4ba006f94ff",
+      "source": "Ascaso →",
+      "kind": "text",
+      "context": "Ascaso →"
+    },
+    {
+      "id": "2295d6e9823e715a0986a52121de676877acc7e0c43ad88e229841fabc9e7908",
+      "source": "Bezzera →",
+      "kind": "text",
+      "context": "Bezzera →"
+    },
+    {
+      "id": "ac27f293b063d6fa5d7a73570bd765d623b0e79ae9120bd806bd87ba07c1e32e",
+      "source": "Bosch →",
+      "kind": "text",
+      "context": "Bosch →"
+    },
+    {
+      "id": "c7fe8c32d7fb7c1c844f9cdc1fcca88172ca2ef55b436e35d7dc87488a8c0bd2",
+      "source": "Breville →",
+      "kind": "text",
+      "context": "Breville →"
+    },
+    {
+      "id": "ead0649ab351e66936d3af4a9d70e878d79c3734da94461b5a884ea8cb6680e9",
+      "source": "Mixed · guided control",
+      "kind": "text",
+      "context": "Mixed · guided control"
+    },
+    {
+      "id": "9ec09453a62dcb382385258e36d781d9bacc9f6bebd85af0c66c05b98e80da91",
+      "source": "De'Longhi →",
+      "kind": "text",
+      "context": "De'Longhi →"
+    },
+    {
+      "id": "74be0754689733f8c1e69dcde2e87f52cb95274f7ba8867f9469ca97bdbb71d2",
+      "source": "Mixed · convenience-led",
+      "kind": "text",
+      "context": "Mixed · convenience-led"
+    },
+    {
+      "id": "b427f51d9c504bf3d85edf8a9c41dcd238b4ae77ae2a10108fab93a20e97a202",
+      "source": "ECM →",
+      "kind": "text",
+      "context": "ECM →"
+    },
+    {
+      "id": "f2f3bf2f4aad7ce1bffeec92a122a5a390d8344383bd25f184731d20f325b306",
+      "source": "Gaggia →",
+      "kind": "text",
+      "context": "Gaggia →"
+    },
+    {
+      "id": "f0b62ba9e6e1a204ecc25a1d52d6c14e611b9a659b21a4c8dafd09129440f2d1",
+      "source": "Mixed · broad lineup",
+      "kind": "text",
+      "context": "Mixed · broad lineup"
+    },
+    {
+      "id": "abd725612f71aa7c363f119f24d95deb43bec09a33e3833bcc36bb1bf18ed773",
+      "source": "Jura →",
+      "kind": "text",
+      "context": "Jura →"
+    },
+    {
+      "id": "12cf24e6b72aa3fa199df6cb2c9f68068b5b229274d3253eae7cfcd6c9bdc651",
+      "source": "Krups →",
+      "kind": "text",
+      "context": "Krups →"
+    },
+    {
+      "id": "b47febb527886bc3e5093799d42ccb35dc3f64fd2e1fdb8015e3fed25a8e0d58",
+      "source": "La Marzocco →",
+      "kind": "text",
+      "context": "La Marzocco →"
+    },
+    {
+      "id": "d1cdf2be9747fca948cdeae0015b2d62c848ec3a9c8b149eaea0a0d76dce30bf",
+      "source": "Dual boiler · hands-on",
+      "kind": "text",
+      "context": "Dual boiler · hands-on"
+    },
+    {
+      "id": "a753d276f1e2ad7e7efd4c13d6ccfa7b991517034869e59a6378ab5e6d4a3c5d",
+      "source": "La Pavoni →",
+      "kind": "text",
+      "context": "La Pavoni →"
+    },
+    {
+      "id": "ba351b82f519f1da9f6a503500badd6798c66835211c59816df75a3e4a8fcb10",
+      "source": "Lever/boiler · manual",
+      "kind": "text",
+      "context": "Lever/boiler · manual"
+    },
+    {
+      "id": "1afe83818bb74a0916b7e2779270f697cf74e61d30c7b731d6e1048fe2ee5a72",
+      "source": "Lelit →",
+      "kind": "text",
+      "context": "Lelit →"
+    },
+    {
+      "id": "6da47a35ef80e7efbda1cb29f96573a254bf82c474f6db6a8a92fd78bd93ea99",
+      "source": "Nespresso →",
+      "kind": "text",
+      "context": "Nespresso →"
+    },
+    {
+      "id": "be81115664c62b9af7c5b955e66e689c217e5b030482f295e65e36d7b5a05a0e",
+      "source": "Capsule · automatic",
+      "kind": "text",
+      "context": "Capsule · automatic"
+    },
+    {
+      "id": "008baef27767b69f46de10d90384aac39605768399d5c6edf48ea3174c8dedfe",
+      "source": "Ninja →",
+      "kind": "text",
+      "context": "Ninja →"
+    },
+    {
+      "id": "4f0c105b8671a803d229378b10b70c46ad428f0da33940fced0e0d2cddd1423f",
+      "source": "Guided · multi-drink",
+      "kind": "text",
+      "context": "Guided · multi-drink"
+    },
+    {
+      "id": "c3e8dae614f8822bd1aaf48f56cfb1ccf7e42a6e00e540c399317722aa4f8d36",
+      "source": "Philips →",
+      "kind": "text",
+      "context": "Philips →"
+    },
+    {
+      "id": "ecf5596a54bde5f74d7a212122dc89a3938ed7467b3de3ff70a7d820ce296437",
+      "source": "Profitec →",
+      "kind": "text",
+      "context": "Profitec →"
+    },
+    {
+      "id": "75ed38b9e516f9a32adf4fcf00ec92939c3ea1c5c0988454bc56f3f7b9de74b7",
+      "source": "Quick Mill →",
+      "kind": "text",
+      "context": "Quick Mill →"
+    },
+    {
+      "id": "695e9bdcef0ba3d2bca37271821c56db0fb5633aee2dded46e8d12fdbd94019a",
+      "source": "Rancilio →",
+      "kind": "text",
+      "context": "Rancilio →"
+    },
+    {
+      "id": "866846184c5d9a52320e8a7aad05b31c06b237a21bbfc39671940eaeb4ba57f8",
+      "source": "Rocket Espresso →",
+      "kind": "text",
+      "context": "Rocket Espresso →"
+    },
+    {
+      "id": "72bcfda3ec40a45f3d27b64593a524ebf31f5579a38e5193fad366f200ef5f58",
+      "source": "05 / Directory",
+      "kind": "text",
+      "context": "05 / Directory"
+    },
+    {
+      "id": "40b6258e5c819ccb82114cb8df49af2e4625469825a4d725ca345169f0973516",
+      "source": "Choose a manufacturer.",
+      "kind": "text",
+      "context": "Choose a manufacturer."
+    },
+    {
+      "id": "937cbe0478cd5dd3e00f5121b6e505f2a11b9e4025444a5e6cf87c0e5d317419",
+      "source": "Each page explains the fit, the compromise, and every machine we have reviewed.",
+      "kind": "text",
+      "context": "Each page explains the fit, the compromise, and every machine we have reviewed."
+    },
+    {
+      "id": "7805de99406203109b5e40a593060241eeabbfd6f3b5692b8d79776147597bfe",
+      "source": "Australia · Mixed · guided control",
+      "kind": "text",
+      "context": "Australia · Mixed · guided control"
+    },
+    {
+      "id": "7d2efbfa38ba3b2ff0db33c15e6958ff3d19f8934c7c2d699a3ebea711a295af",
+      "source": "Italy · Mixed · convenience-led",
+      "kind": "text",
+      "context": "Italy · Mixed · convenience-led"
+    },
+    {
+      "id": "d7bf3e86b0863d25078a7f476650e1d33fc77a61310a8c58922319a22076ff0a",
+      "source": "Germany · Boiler · hands-on",
+      "kind": "text",
+      "context": "Germany · Boiler · hands-on"
+    },
+    {
+      "id": "74e2b40fa654e6bac28a659175cb2561e70a6d9508c8ca12f84c003a27d21eda",
+      "source": "Italy · Mixed · broad lineup",
+      "kind": "text",
+      "context": "Italy · Mixed · broad lineup"
+    },
+    {
+      "id": "0470e35800a4599f7e86f76584af951f8218c27fd751b8ddc08db6414c8cb9c5",
+      "source": "Switzerland · Bean-to-cup · automatic",
+      "kind": "text",
+      "context": "Switzerland · Bean-to-cup · automatic"
+    },
+    {
+      "id": "e60f1ddf46cc1edb1bd5fdc268db6f499c625be7ba2e7e98091965b4ae8d5d74",
+      "source": "Germany · Mixed · compact",
+      "kind": "text",
+      "context": "Germany · Mixed · compact"
+    },
+    {
+      "id": "fa13870f858bc1d165414f421ccd137e575e87dec422ec5e64d3209270a40072",
+      "source": "Italy · Dual boiler · hands-on",
+      "kind": "text",
+      "context": "Italy · Dual boiler · hands-on"
+    },
+    {
+      "id": "1487868c2d0840640b3696d584305347c5ef6fbb2e15276c540dadfa90412fc1",
+      "source": "Italy · Lever/boiler · manual",
+      "kind": "text",
+      "context": "Italy · Lever/boiler · manual"
+    },
+    {
+      "id": "b998217959f5f123c9de034e2aa672c7259ff74ed4c4b6b70bf9ed6af3de1e68",
+      "source": "Switzerland · Capsule · automatic",
+      "kind": "text",
+      "context": "Switzerland · Capsule · automatic"
+    },
+    {
+      "id": "fc741aef34834e6da796a0b1fd7f0aeeddd63b78befcbe193829e87920793c3a",
+      "source": "United States · Guided · multi-drink",
+      "kind": "text",
+      "context": "United States · Guided · multi-drink"
+    },
+    {
+      "id": "043d35a399527adb5ac48b49e4bb04244fd6486e17d581e81f7b8ee990db9963",
+      "source": "Netherlands · Bean-to-cup · automatic",
+      "kind": "text",
+      "context": "Netherlands · Bean-to-cup · automatic"
+    },
+    {
+      "id": "35fa4af04c29dd2b3e93f60afe4bb1412e9d4ec164b8fcf328b24a638627cc88",
+      "source": "Italy · Mixed boiler · hands-on",
+      "kind": "text",
+      "context": "Italy · Mixed boiler · hands-on"
+    },
+    {
+      "id": "bcd6fb7155efc0f42c90c2fe196791c035a19099eb7ad72f9d2baa0a86527016",
+      "source": "Counter Culture Hologram whole-bean coffee in its purple and white 12-ounce bag",
+      "kind": "attribute",
+      "context": "Image: Counter Culture Coffee. Counter Culture Coffee product-listing image; shown for identification, not a Coffeedant tasting photograph."
+    },
+    {
+      "id": "751cbcdcdeae5162c47bd07603277a1e6c2631de105a15c30bda51fe7c6b362e",
+      "source": "Hologram makes sense for a buyer who wants a medium-roast daily coffee with a fruit-and-chocolate brief, buys whole beans fresh, and accepts that a year-round blend changes its components. The roaster’s tasting words are a useful target, not a guarantee of what any one bag or brewer will taste like.",
+      "kind": "text",
+      "context": "Hologram makes sense for a buyer who wants a medium-roast daily coffee with a fruit-and-chocolate brief, buys whole beans fresh, and accepts that a year-round blend changes its components. The roaster’s tasting words are a useful target, not a guarantee of what any one bag or brewer will taste like."
+    },
+    {
+      "id": "36ee85adf75c0db8a4e1ee31b28bcc96854ffacd5763eb98f317143d4a0f0a4c",
+      "source": "Coffee Bean Reviews: Choose by Roast, Origin and Freshness | Coffeedant",
+      "kind": "text",
+      "context": "Coffee Bean Reviews: Choose by Roast, Origin and Freshness | Coffeedant"
+    },
+    {
+      "id": "e9ac23526e3e3d7f628d18a7e4f0d426188b293c918c075a68e7b342325ca69b",
+      "source": "Research-led coffee bean reviews with attributed flavor notes, changing blend details, brew fit, roast-date guidance and dated US value.",
+      "kind": "metadata",
+      "context": "Coffee Bean Reviews: Choose by Roast, Origin and Freshness | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const ent"
+    },
+    {
+      "id": "2d040e1987a9a47c30f9ecf88708d2fb3be91f9b0b2642e9873c48e32216993b",
+      "source": "Coffee Bean Reviews: Choose by Roast, Origin and Freshness | Coffeedant",
+      "kind": "metadata",
+      "context": "Coffee Bean Reviews: Choose by Roast, Origin and Freshness | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const ent"
+    },
+    {
+      "id": "93b15c343c44880350dbb450d48a9f35e1f624252a73db4a49bf9554196d03d8",
+      "source": "Coffee bean reviews",
+      "kind": "text",
+      "context": "Coffee bean reviews"
+    },
+    {
+      "id": "14d1c5a8624c2c264c783ba5923885648e74b553ead40482c04382bbe3b8186b",
+      "source": "Know what is in the bag.",
+      "kind": "text",
+      "context": "Know what is in the bag."
+    },
+    {
+      "id": "2ea25dd0760c5f1d60c93ebfff7f6cc35bba01a298741838a5c1167e4586cc8b",
+      "source": "Start with the roaster’s current description, then check the roast date, changing origins, brew fit and how quickly you will use it. We attribute flavor notes and leave a coffee unrated when we have not tasted it.",
+      "kind": "text",
+      "context": "Start with the roaster’s current description, then check the roast date, changing origins, brew fit and how quickly you will use it. We attribute flavor notes and leave a coffee unrated when we have not tasted it."
+    },
+    {
+      "id": "f198758a6700e0eb631f8df2443c94debb82c559de670eacf4ed47a264a95854",
+      "source": "Current research-led reviews",
+      "kind": "text",
+      "context": "Current research-led reviews"
+    },
+    {
+      "id": "40491559b9d141cec2dd1b37a8a8fea5579e9128477229a94abcf446c51fb831",
+      "source": "Choose a coffee for your routine",
+      "kind": "text",
+      "context": "Choose a coffee for your routine"
+    },
+    {
+      "id": "032413606091af8d8d169a171f2527ea210a301c962d5d52354c89ba3aa6d9f7",
+      "source": "Counter Culture Coffee · United States",
+      "kind": "text",
+      "context": "Counter Culture Coffee · United States"
+    },
+    {
+      "id": "a550e6cdd05e5856c791645fd9ae01149d2197fce0bc52abd74350710b33ce42",
+      "source": "Hologram",
+      "kind": "text",
+      "context": "Hologram"
+    },
+    {
+      "id": "82fd68a134e597d3187ff4eae8bcff2b58df9a8c69ecc9cd99a4c0a834e46b71",
+      "source": "· $20 for 12 oz at October 13, 2026",
+      "kind": "text",
+      "context": "Updated 2026-10-13 · $20 for 12 oz at October 13, 2026"
+    },
+    {
+      "id": "ea7b3685419868a281afdf66938374e85631f8c90671b502d0f8b70044133f5b",
+      "source": "Three checks before a larger bag",
+      "kind": "text",
+      "context": "Three checks before a larger bag"
+    },
+    {
+      "id": "95097e65d73fd6cf0d13d623310ee1577156d34c38623214184fc668ee300b69",
+      "source": "Exact coffee",
+      "kind": "text",
+      "context": "Exact coffee"
+    },
+    {
+      "id": "e66f8d3ad365f022fb65a244239af45fda7ef8986f9e530fa11c8e2c1334a383",
+      "source": "A year-round name can contain changing lots. Check the roaster’s current component record and the bag’s roast date.",
+      "kind": "text",
+      "context": "A year-round name can contain changing lots. Check the roaster’s current component record and the bag’s roast date."
+    },
+    {
+      "id": "c878ba3a3823fdbf694628926a681755b24975548ea5aece40aa22fab99db21a",
+      "source": "Your brew",
+      "kind": "text",
+      "context": "Your brew"
+    },
+    {
+      "id": "3efd99953ae66c0a18c4bb6ca89f20feed762061973de41826bbbd433b3098d6",
+      "source": "Filter ratios do not transfer directly to espresso. Choose a coffee and grinder you can dial in on your actual equipment.",
+      "kind": "text",
+      "context": "Filter ratios do not transfer directly to espresso. Choose a coffee and grinder you can dial in on your actual equipment."
+    },
+    {
+      "id": "d560c9fad348c512d1e562bd18924b8aa51949f1e6e0ff3e8a0579d9c369e060",
+      "source": "Freshness budget",
+      "kind": "text",
+      "context": "Freshness budget"
+    },
+    {
+      "id": "19546dc88248c43174c9e0fd1cf24f29c6833c8cc1ef7afc47507dd752fd1ac5",
+      "source": "A low per-ounce price matters only if you finish the bag while you still enjoy its flavor.",
+      "kind": "text",
+      "context": "A low per-ounce price matters only if you finish the bag while you still enjoy its flavor."
+    },
+    {
+      "id": "2ac6d9e0bd67b04863e28687f33806336524c4decce94f19fd409b54f1f128df",
+      "source": "Need a grinder?",
+      "kind": "text",
+      "context": "Need a grinder? Compare current grinder reviews."
+    },
+    {
+      "id": "1667028f20649191d9793dbbedbed3fafc581d0b9ca7bbff6b991dea43e1e9fe",
+      "source": "Compare current grinder reviews",
+      "kind": "text",
+      "context": "Compare current grinder reviews"
+    },
+    {
+      "id": "9df64d69c825197cf4acf2b2e413eacf2782d2bce651486e0ed699fc7977331b",
+      "source": "Value",
+      "kind": "text",
+      "context": "Value"
+    },
+    {
+      "id": "e5683a9c924e9f19f5c2caa93de4a4245be15e4208b3868666334cc23ee354db",
+      "source": "Baratza Encore ESP",
+      "kind": "text",
+      "context": "Baratza Encore ESP"
+    },
+    {
+      "id": "817ec2d0d416149d138ea64e585d8b25fbe04c2ec6262f534221a60f833ccccb",
+      "source": "1Zpresso K-Ultra",
+      "kind": "text",
+      "context": "1Zpresso K-Ultra"
+    },
+    {
+      "id": "254f44b0e48f9b9adf9a6852c6cc97a0e16388bf816ce6dbb026053c4daba3b1",
+      "source": "Coffee Machine | Coffeedant",
+      "kind": "text",
+      "context": "Coffee Machine | Coffeedant"
+    },
+    {
+      "id": "51dda4d4525df8e5e4066fef6d7952e34574cb332a33bc37a2a9273f292ba00d",
+      "source": "Research-led coffee machine reviews and comparisons covering drip brewers, pod systems and machines designed for everyday coffee routines.",
+      "kind": "metadata",
+      "context": "Coffee Machine | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.cookie.split(';')) {\n        "
+    },
+    {
+      "id": "2738a357ac39eefed75167846eee2c82720552d91ea7299109737b46321de8b1",
+      "source": "Coffee Machine | Coffeedant",
+      "kind": "metadata",
+      "context": "Coffee Machine | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.cookie.split(';')) {\n        "
+    },
+    {
+      "id": "34140944f6cf9f66c87cf3d62ada1bdf136489a4b951dc6608fcecf7a1cbe807",
+      "source": "Coffee Machine",
+      "kind": "text",
+      "context": "Coffee Machine"
+    },
+    {
+      "id": "982b5fdd8d8b6f0e990c1363a4c94d44bf29d3c3c5cd64cf5aa67cc944139884",
+      "source": "Keurig K-Duo & K-Duo Plus (2025): Complete Buyer's Guide, Setup, Descaling, Fixes & Best Deals",
+      "kind": "text",
+      "context": "Keurig K-Duo & K-Duo Plus (2025): Complete Buyer's Guide, Setup, Descaling, Fixes & Best Deals"
+    },
+    {
+      "id": "f18af968beccd85d7f2b32563a63ae5a51be4c87e59b8a87bce89bc5e3a30c64",
+      "source": "The Breville Luxe Brewer Thermal (BDC465) is revolutionizing drip coffee",
+      "kind": "text",
+      "context": "The Breville Luxe Brewer Thermal (BDC465) is revolutionizing drip coffee"
+    },
+    {
+      "id": "c43156a3fcc6049093db659bf1d537daaeba142e6f220b903c2aa1f4fdec5bbe",
+      "source": "Contact | Coffeedant",
+      "kind": "text",
+      "context": "Contact | Coffeedant"
+    },
+    {
+      "id": "65d10568f21c96f9e5a2d7bfd791b204cdbfae8f43e9004e773e235d68c15e66",
+      "source": "Contact Coffeedant with editorial questions, corrections, product research suggestions or feedback about the coffee equipment guides.",
+      "kind": "metadata",
+      "context": "Contact | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.cookie.split(';')) {\n        const n"
+    },
+    {
+      "id": "4adaa03a209c921d405c6ba8bfaf90f519473f405a1e8422e27336eab67f1213",
+      "source": "Contact | Coffeedant",
+      "kind": "metadata",
+      "context": "Contact | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.cookie.split(';')) {\n        const n"
+    },
+    {
+      "id": "83c1e5fe1a06569311ebb88dd9cd099ab35253d7bc85c83b65f33589c75fdcc9",
+      "source": "Contact Coffeedant",
+      "kind": "text",
+      "context": "Contact Coffeedant"
+    },
+    {
+      "id": "6dfca3a705f605dc4f65c6f4d3658e3b15f028f9bd98ef16f86bbb870e244981",
+      "source": "For editorial questions, corrections, coffee-equipment suggestions or privacy requests, email Aleksandar Spasevski:",
+      "kind": "text",
+      "context": "For editorial questions, corrections, coffee-equipment suggestions or privacy requests, email Aleksandar Spasevski:"
+    },
+    {
+      "id": "2098d81a2e3019758b1feffde21c9dd6f7256fe22badbe2c2af6e41824cbe5c0",
+      "source": "Please include the page URL when reporting a correction.",
+      "kind": "text",
+      "context": "Please include the page URL when reporting a correction."
+    },
+    {
+      "id": "02a70862a8fc0e67b1527ac4a4fdfdfbcb4a14e51df37ab84538fd4f2f04dee0",
+      "source": "Power",
+      "kind": "text",
+      "context": "Power"
+    },
+    {
+      "id": "1fdca26a08008884e29bb3a92e366c545e71ae75b929b10b8f38c1eb06832b7b",
+      "source": "Format",
+      "kind": "text",
+      "context": "Format"
+    },
+    {
+      "id": "e3791f99ad5dbd783dd555fe80ba385008db1b0c84a8f8f8250ab47c4eecaeb1",
+      "source": "Grinder",
+      "kind": "text",
+      "context": "Grinder"
+    },
+    {
+      "id": "8c41a870b7e425ad5eac0c2ec29cfc8920fc03fa8fa2f51e14da9e4b63bc745f",
+      "source": "Main compromise",
+      "kind": "text",
+      "context": "Main compromise"
+    },
+    {
+      "id": "7e42e36a39154a86ea4652440b87543aa047da6dadabb7ce5baf238e4dba0723",
+      "source": "Manual",
+      "kind": "text",
+      "context": "Manual"
+    },
+    {
+      "id": "3aef51ca47827136f4b24adbac03c445f989d437509ee201aebcc1ab50dfbbb7",
+      "source": "Separate grinder",
+      "kind": "text",
+      "context": "Separate grinder"
+    },
+    {
+      "id": "4e4c8802b36cb0d676c17b6d997c98e2ca7a3d56944f025ca365619bb4721451",
+      "source": "Adjustment",
+      "kind": "text",
+      "context": "Adjustment"
+    },
+    {
+      "id": "6e44e7e4a9c359ba0f920cdf420600ddb7724129f61c7fecc76d9dca183cff88",
+      "source": "Search brand or model",
+      "kind": "text",
+      "context": "Search brand or model"
+    },
+    {
+      "id": "de1d36bcaf0672a02117103b1487526e05a64ffb8b7d9bd983da500d5581f4b1",
+      "source": "Try Breville, dual boiler, compact…",
+      "kind": "attribute",
+      "context": "Search brand or model"
+    },
+    {
+      "id": "703b90545ce076ed32eb98aca8211f71d3d09e0c6b54a6848d10aac36b22d0bf",
+      "source": "More filters",
+      "kind": "text",
+      "context": "More filters Brand, experience, grinder, space, volume, availability"
+    },
+    {
+      "id": "d5a70b6ddd6993d5d5e0b1c82d771b2dc38b91382af8de6881dc139d98282461",
+      "source": "Brand, experience, grinder, space, volume, availability",
+      "kind": "text",
+      "context": "Brand, experience, grinder, space, volume, availability"
+    },
+    {
+      "id": "ed4148e07358cbc3c74a39038bfa134c79201a0e0f0fd1634bcf26e0f039cf94",
+      "source": "Any brand",
+      "kind": "text",
+      "context": "Any brand"
+    },
+    {
+      "id": "1fbb06fd14954b37299613b38bfae72f1f57cace3ca7eab0b027264fe4e84a4b",
+      "source": "Experience",
+      "kind": "text",
+      "context": "Experience"
+    },
+    {
+      "id": "a6bad2e7a2e8374f7d047963ad2da3f52925640e643d48aab98c4fdcaeef80d2",
+      "source": "Any experience",
+      "kind": "text",
+      "context": "Any experience"
+    },
+    {
+      "id": "4b64822edfd127eed2b0181565400bbbfceebde023d44ca05e690d177f709188",
+      "source": "Beginner-friendly",
+      "kind": "text",
+      "context": "Beginner-friendly"
+    },
+    {
+      "id": "b22732042e7be84721712cef4d3ed2cef4e85927757ecf9a059b569cb8568691",
+      "source": "Enthusiast",
+      "kind": "text",
+      "context": "Enthusiast"
+    },
+    {
+      "id": "de5832a3a32cf538c7449772c7563950c2d1103dbed8d4b8ce0ad8d023f37d2d",
+      "source": "Advanced / professional",
+      "kind": "text",
+      "context": "Advanced / professional"
+    },
+    {
+      "id": "489b356e977eff15e58b5a88f4d097ba00ca2366105e61508c33f4a6b95e1a29",
+      "source": "Grinder setup",
+      "kind": "text",
+      "context": "Grinder setup"
+    },
+    {
+      "id": "168e39a67ded689ac23c58e4f02cfda9e4f89a00623e5401ab312a172e2e886e",
+      "source": "Any grinder setup",
+      "kind": "text",
+      "context": "Any grinder setup"
+    },
+    {
+      "id": "87dcee0a8e3ca631a91a560446ab4cbe7c336cd8c93082a6efe005a90070503a",
+      "source": "Grinder built in",
+      "kind": "text",
+      "context": "Grinder built in"
+    },
+    {
+      "id": "95f855df32c7d4d2197ffe758f43518fd89d4570e6f0d8d2286f7130e900ac90",
+      "source": "No grinder needed",
+      "kind": "text",
+      "context": "No grinder needed"
+    },
+    {
+      "id": "a39cfd2e9d71aa29e757625e543dd4fdddc72a455db32a1f954030712e92cf1a",
+      "source": "Counter space",
+      "kind": "text",
+      "context": "Counter space"
+    },
+    {
+      "id": "796fd37ff9e8c4d081cc18510daeb43397cfe8e9f71a54a440320bc1034b2132",
+      "source": "Any footprint",
+      "kind": "text",
+      "context": "Any footprint"
+    },
+    {
+      "id": "7192063e94cead9bfda64f83f0fc90ba2b8c47ba6d93a6aed7212c11e3fbab56",
+      "source": "Compact",
+      "kind": "text",
+      "context": "Compact"
+    },
+    {
+      "id": "bad6416d306181b6a8a0eb172d82fb6d0be88fbd321591629df9b3905e3c5d9e",
+      "source": "Standard counter",
+      "kind": "text",
+      "context": "Standard counter"
+    },
+    {
+      "id": "3658f2588fff02628dc648948b3c6e5343c00cfbc238764b979de50837ed3c97",
+      "source": "Large / installed",
+      "kind": "text",
+      "context": "Large / installed"
+    },
+    {
+      "id": "bb1ae36dddfaacae50762aac18246918418499be3f878a1e8eb010adcdfaa93d",
+      "source": "Daily volume",
+      "kind": "text",
+      "context": "Daily volume"
+    },
+    {
+      "id": "bc0143d91ac665a61d0f372c1b90a281931fc53222470fb933bc31ab3a7e64ac",
+      "source": "Any volume",
+      "kind": "text",
+      "context": "Any volume"
+    },
+    {
+      "id": "f2cd37badb48811a4e3c45b7ea88a41c6517c1c8808737078cfe7ed67f6463bc",
+      "source": "1–2 drinks",
+      "kind": "text",
+      "context": "1–2 drinks"
+    },
+    {
+      "id": "c9aa3da4bebddc0875c6f1ae4236d40771fa1c81828d9064741450ff6728e50c",
+      "source": "3–5 drinks",
+      "kind": "text",
+      "context": "3–5 drinks"
+    },
+    {
+      "id": "8f73e29da4567e046cba4ff7d950358b9c05675afe431b2e7c02cff2e9cfd638",
+      "source": "6+ drinks",
+      "kind": "text",
+      "context": "6+ drinks"
+    },
+    {
+      "id": "5cc95aaf4e2137d7186788c0e962d839ea8e36ff8074e37785234de4ae679488",
+      "source": "Availability signal",
+      "kind": "text",
+      "context": "Availability signal"
+    },
+    {
+      "id": "163e605bcafb43ae09dde2dc0ea85a38a617c34d4c7fdc54f5bc3228c3a6da36",
+      "source": "All reviewed machines",
+      "kind": "text",
+      "context": "All reviewed machines"
+    },
+    {
+      "id": "4c9b0fb58b4871f475bc495029fe9291fe63f3edf62ffae928c1287df607d860",
+      "source": "Current offer verified",
+      "kind": "text",
+      "context": "Current offer verified"
+    },
+    {
+      "id": "a7c6da7821ec10d2db3c4fefe0f3164c6bd5fd2004736f9521e67afb5934ba44",
+      "source": "Current Coffeedant catalog",
+      "kind": "text",
+      "context": "Current Coffeedant catalog"
+    },
+    {
+      "id": "7df5ef64a9a3c01443607c419bf658b790228b517ffe2a14eeea3dc665f160fb",
+      "source": "Limited / verify stock",
+      "kind": "text",
+      "context": "Limited / verify stock"
+    },
+    {
+      "id": "49e7ec03833cb69756a9223bea2f7724fc0bda238c7b33e3c34669e947052bb4",
+      "source": "Show 12 more machines",
+      "kind": "text",
+      "context": "Show 12 more machines"
+    },
+    {
+      "id": "87c187ff907eb5d806d1467bdb98ee4329957ee12982289ca12b9cd223fd2911",
+      "source": "Review →",
+      "kind": "text",
+      "context": "Review →"
+    },
+    {
+      "id": "78ff78d14cce639b9309326bcb0c72bbedcf4d27bfe95f8413de6a69da648ea4",
+      "source": "Read review →",
+      "kind": "text",
+      "context": "Read review →"
+    },
+    {
+      "id": "d7452bcf01619c4d8cf5c2553a5d16bd27afe0d6249c597e44611323bcd8f58f",
+      "source": "Timemore Sculptor",
+      "kind": "text",
+      "context": "Timemore Sculptor ↗"
+    },
+    {
+      "id": "9ab2231a576bfa7370b4f44bc0df456e9d938090e27f5b44bb09678efee82131",
+      "source": "Baratza Encore ESP Pro",
+      "kind": "text",
+      "context": "Baratza Encore ESP Pro"
+    },
+    {
+      "id": "eb8ba1b78eb1c2a5216bd955ceafac1251d537e98b71045348ae655c5ebead3f",
+      "source": "Electric",
+      "kind": "text",
+      "context": "Electric"
+    },
+    {
+      "id": "69858588a7458f615e356d75822b2439d74faf5926dc9fe0ccd788cbc8625f78",
+      "source": "Coffee Grinders: Choose the Right Grinder | Coffeedant",
+      "kind": "text",
+      "context": "Coffee Grinders: Choose the Right Grinder | Coffeedant"
+    },
+    {
+      "id": "8948b9e611ea338701ef237e6df472e031dcbcfe62f6d86bead816119039b0bf",
+      "source": "Compare Coffeedant coffee grinder reviews by workflow, format, and trade-offs, then learn how burr geometry changes daily use.",
+      "kind": "metadata",
+      "context": "Coffee Grinders: Choose the Right Grinder | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.co"
+    },
+    {
+      "id": "26e930c69a94b82cb5decc3e94ee8fffcfeb22a314709807af308b54a1c2d75c",
+      "source": "Coffee Grinders: Choose the Right Grinder | Coffeedant",
+      "kind": "metadata",
+      "context": "Coffee Grinders: Choose the Right Grinder | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.co"
+    },
+    {
+      "id": "e7ebb4cc64fc1ddaf0ff3b87e1282f26658b2860994e83b8c7ea4c7bbaff4d8e",
+      "source": "Grinder hub",
+      "kind": "text",
+      "context": "Grinder hub"
+    },
+    {
+      "id": "f3e889065afcc3e00302a5a85025856a70d2b3378584a4fe4f86a01e3263b50a",
+      "source": "The machine gets the credit. The grinder does the work.",
+      "kind": "text",
+      "context": "The machine gets the credit. The grinder does the work."
+    },
+    {
+      "id": "12729e512d4748b716a764d9bf0e4ace49a8d91fd9f7c43bbff7fde64a078eea",
+      "source": "Choose by dose workflow, adjustment, retention, and how often you change coffee. Ignore the feature count.",
+      "kind": "text",
+      "context": "Choose by dose workflow, adjustment, retention, and how often you change coffee. Ignore the feature count."
+    },
+    {
+      "id": "78745d2a7539c547542e846a8601d53ba7edd81a42dcebbb324f4c7e189edbc0",
+      "source": "grinders reviewed so far",
+      "kind": "text",
+      "context": "grinders reviewed so far"
+    },
+    {
+      "id": "7d1a3aa443d701b4230fa1333d9b0197bdb6dd2c16760e8a0f2521c99d75a256",
+      "source": "01 / Grinder finder",
+      "kind": "text",
+      "context": "01 / Grinder finder"
+    },
+    {
+      "id": "9166ab284c86348ca7757326e8dd1f5a92ec3c2926490007a52a1fb2af9ddcbd",
+      "source": "Narrow the workflow.",
+      "kind": "text",
+      "context": "Narrow the workflow."
+    },
+    {
+      "id": "bf6b4730a95e54bcc3d3ad9b46048c91a317c17e5e7452f31d45f8d6c197fb59",
+      "source": "Four reviews cover distinct daily routines. Filter by power and priority to see where each fits.",
+      "kind": "text",
+      "context": "Four reviews cover distinct daily routines. Filter by power and priority to see where each fits."
+    },
+    {
+      "id": "d42b0036b2fe0227d74d25cbaa30b04edec1806c509f7632d5d04f516f61d1ea",
+      "source": "Priority",
+      "kind": "text",
+      "context": "Priority"
+    },
+    {
+      "id": "9076603bad9386ff459a291cd40fac5a17b0438acbcb56762f911263109b1a3f",
+      "source": "Single dose",
+      "kind": "text",
+      "context": "Single dose"
+    },
+    {
+      "id": "3f8c9016a4bc3126399149919547016b39335101d87ed01385dc4b3acfb9dabc",
+      "source": "Broad use",
+      "kind": "text",
+      "context": "Broad use"
+    },
+    {
+      "id": "f52ead5c4148de03d09c14470e1619fd52b21edabbe1f61d8b214840214fb823",
+      "source": "01 · Manual",
+      "kind": "text",
+      "context": "01 · Manual"
+    },
+    {
+      "id": "ca2c1f3c3ecc6616eb21d95a8bd1c5a9654f5665ba69b1642fd7131f9dd39687",
+      "source": "Travel and quiet precision",
+      "kind": "text",
+      "context": "Travel and quiet precision"
+    },
+    {
+      "id": "3031a26b3151cf602ee5fa8079c2d1f6df55040d5bacac81ff95c293d93078ad",
+      "source": "Physical effort for every dose",
+      "kind": "text",
+      "context": "Physical effort for every dose"
+    },
+    {
+      "id": "8c127d4d58e0fbad01de5474a178599f5f83142b70d856d7fa095554864b233a",
+      "source": "02 · Electric",
+      "kind": "text",
+      "context": "02 · Electric"
+    },
+    {
+      "id": "5e56abc5c96787b0fdb00dbb93a76dc4cd4058a8ecb1f733f18da98673cc65f9",
+      "source": "An approachable first espresso grinder",
+      "kind": "text",
+      "context": "An approachable first espresso grinder"
+    },
+    {
+      "id": "fd804180afbc296a3b67068c7d4087fd113ff135991edee4b41bc949af9af96f",
+      "source": "Less suited to frequent bean switching",
+      "kind": "text",
+      "context": "Less suited to frequent bean switching"
+    },
+    {
+      "id": "858eaead67d4886c32899b46c3ddbd09306592abc3fa70cee59a77749de03555",
+      "source": "03 · Electric",
+      "kind": "text",
+      "context": "03 · Electric"
+    },
+    {
+      "id": "c86056c563bdf34c033c7d283ab1cba4fe9d2adfe7e7486b5fc4345701b68095",
+      "source": "Stepless espresso and filter adjustment",
+      "kind": "text",
+      "context": "Stepless espresso and filter adjustment"
+    },
+    {
+      "id": "0bb795e4e3cf52f56f16807ef9ea1a7cfd7eefb801c365d4257076ca0752d64e",
+      "source": "Auto-stop and grounds spray need a workflow check",
+      "kind": "text",
+      "context": "Auto-stop and grounds spray need a workflow check"
+    },
+    {
+      "id": "07a3c00deb5166a5d1de9abd1e9f8da9c010812d835cec92457e4dee3c1b605e",
+      "source": "04 · Electric",
+      "kind": "text",
+      "context": "04 · Electric"
+    },
+    {
+      "id": "196be857b352a2fc105e6711f4d916aacee5d8fba2e0538f1b3d96b6a39d1ab7",
+      "source": "Low-retention workflow and adjustment",
+      "kind": "text",
+      "context": "Low-retention workflow and adjustment"
+    },
+    {
+      "id": "5679418bcf8bbda307b4f7a88a54d612bea613681727fb5b9a1874e44505f550",
+      "source": "More setup and a higher spend",
+      "kind": "text",
+      "context": "More setup and a higher spend"
+    },
+    {
+      "id": "f73223a00a181ea457a0b98a92e9e06e29e3f19ca92c91a3216c98f7f4db1bca",
+      "source": "No current review fits both choices. Reset one filter to see the nearest options.",
+      "kind": "text",
+      "context": "No current review fits both choices. Reset one filter to see the nearest options."
+    },
+    {
+      "id": "74e129917d4974d001fa306f1d4be45d57f145abc13891ebdc754079ccfde922",
+      "source": "02 / Comparison",
+      "kind": "text",
+      "context": "02 / Comparison"
+    },
+    {
+      "id": "4c22565017198643284317bfdb347dffee9c0f6cc169d2c46e14c3de5a3636e4",
+      "source": "Four different jobs.",
+      "kind": "text",
+      "context": "Four different jobs."
+    },
+    {
+      "id": "22ad882203ad041cf4389d112cb07df97da1babe951a52fd9f12a17b79cd0a64",
+      "source": "None is universally best. Each removes a different kind of friction.",
+      "kind": "text",
+      "context": "None is universally best. Each removes a different kind of friction."
+    },
+    {
+      "id": "4f1853dd9b815ec2bba6466cee1889bfd2851ff2dca3f8d9c7ad8224502404a7",
+      "source": "Coffee grinder review comparison",
+      "kind": "attribute",
+      "context": "GrinderFormatBest forMain compromise 1Zpresso K-UltraHand grinderTravel and quiet precisionPhysical effort for every doseReview →Baratza Encore ESPHopper grinderAn approachable first espresso grinderLess suited to frequent bean switchingReview →Baratza Encore ESP ProHopper or single doseStepless espresso and filter adjustmentAuto-stop and grounds spray need a workflow checkReview →Timemore SculptorSingle-dose grinderLow-retention workflow and adjustmentMore setup and a higher spendReview →"
+    },
+    {
+      "id": "013f041594ae73396eaaaafe0202a6f43aead941dd178d5a887a4b838d47514d",
+      "source": "Hand grinder",
+      "kind": "text",
+      "context": "Hand grinder"
+    },
+    {
+      "id": "9cfbbc097c3304b62add9969c83a96068470a733554998e2889a1900fefe97ad",
+      "source": "Hopper grinder",
+      "kind": "text",
+      "context": "Hopper grinder"
+    },
+    {
+      "id": "d84bb9ce555f3dabb992bbfa40d2e9ba6674bc0e97e460f6686965721ae5c992",
+      "source": "Hopper or single dose",
+      "kind": "text",
+      "context": "Hopper or single dose"
+    },
+    {
+      "id": "2a02495a98ee8bb9bd18656a8c916ebffb0b97753de5a79167433441169ed339",
+      "source": "Single-dose grinder",
+      "kind": "text",
+      "context": "Single-dose grinder"
+    },
+    {
+      "id": "f4e6d69a1d7efb5074a7dce036ae3310860e5a2959de76593e104c5f502a6493",
+      "source": "03 / One useful explainer",
+      "kind": "text",
+      "context": "03 / One useful explainer"
+    },
+    {
+      "id": "0fd478e3afb5ad7fdc7a84af617deb555f612b9fe8cb70a2f5ffef8be574fc96",
+      "source": "Conical vs. flat burrs.",
+      "kind": "text",
+      "context": "Conical vs. flat burrs."
+    },
+    {
+      "id": "6b44c8eb014c7562506801e24fe9ac2cfdd0639aea067c3dde425d90814697d1",
+      "source": "Burr shape can change taste, retention, noise, speed, and price. It should not become a shortcut for declaring one grinder better.",
+      "kind": "text",
+      "context": "Burr shape can change taste, retention, noise, speed, and price. It should not become a shortcut for declaring one grinder better."
+    },
+    {
+      "id": "e98d44576596c6e4e5289701eab048323f57ed447ce81f7a7258f494a69cc08e",
+      "source": "Conical and flat burr decision summary",
+      "kind": "attribute",
+      "context": "03 / One useful explainerConical vs. flat burrs.Burr shape can change taste, retention, noise, speed, and price. It should not become a shortcut for declaring one grinder better. ConicalBody · forgiving adjustment · broad useFlatClarity · alignment sensitivity · wider variation Read the burr guide →"
+    },
+    {
+      "id": "369132258a6a096cbe2c55cee45eaddc844025b39d8bc82859514e555d42fde4",
+      "source": "Conical",
+      "kind": "text",
+      "context": "Conical"
+    },
+    {
+      "id": "5abe7c8d02feda109c9aae23ba7faf1ff94f463dc86351a32c6fd7bc69f54b25",
+      "source": "Body · forgiving adjustment · broad use",
+      "kind": "text",
+      "context": "Body · forgiving adjustment · broad use"
+    },
+    {
+      "id": "26a2a4245bc90c4f4ee0503ca49f72913e0579b434e88c7316de34cd4d081953",
+      "source": "Flat",
+      "kind": "text",
+      "context": "Flat"
+    },
+    {
+      "id": "753c159284c4a1570bc7e022633fd600ca4752d22cecb24df75dd993d7659203",
+      "source": "Clarity · alignment sensitivity · wider variation",
+      "kind": "text",
+      "context": "Clarity · alignment sensitivity · wider variation"
+    },
+    {
+      "id": "5b52b5aff5cb172753283e199f028be140a56055c3175a3d3530ba80eb2eb504",
+      "source": "Read the burr guide →",
+      "kind": "text",
+      "context": "Read the burr guide →"
+    },
+    {
+      "id": "75acf8e5c69b6552f542cc5a1ceaf7d261d261eb80c0847cfe29c3500bdd8129",
+      "source": "04 / Buying logic",
+      "kind": "text",
+      "context": "04 / Buying logic"
+    },
+    {
+      "id": "231cafb78abc6880d97b124487c7527ba85d259ed0399b54fb5340a99dc13d51",
+      "source": "Four checks before price.",
+      "kind": "text",
+      "context": "Four checks before price."
+    },
+    {
+      "id": "c5075f3c62492c8facdef9c4ca3bf98f718fc0df6741d16e39f0aa042ce58ad5",
+      "source": "The correct grinder is the one whose daily behavior fits your coffee habits.",
+      "kind": "text",
+      "context": "The correct grinder is the one whose daily behavior fits your coffee habits."
+    },
+    {
+      "id": "bf68f4217ddb7148bf820e1fbd09b03b9b3420096bbe0ea8ebf50b4b54b63224",
+      "source": "Espresso needs small, repeatable changes. Filter coffee can work with wider steps.",
+      "kind": "text",
+      "context": "Espresso needs small, repeatable changes. Filter coffee can work with wider steps."
+    },
+    {
+      "id": "2543858065dccc24bf4f230b51747bfd70946c06b2b7ae74afc413fa6413b553",
+      "source": "Dose workflow",
+      "kind": "text",
+      "context": "Dose workflow"
+    },
+    {
+      "id": "fe54042b65670ce35fc6f059e190d6463d0938669568faeeccdaa5b3de27d444",
+      "source": "Choose between a loaded hopper and weighing each dose as you go.",
+      "kind": "text",
+      "context": "Choose between a loaded hopper and weighing each dose as you go."
+    },
+    {
+      "id": "c03fea2eaae412082a2eacb66b9ef22fa8c2ee3b70ca2fd91c99e2bc3ded6f4e",
+      "source": "Retention",
+      "kind": "text",
+      "context": "Retention"
+    },
+    {
+      "id": "0baec3e482692987a393e38d688690c5ff2a03a799aa6b8c70552a610fedf960",
+      "source": "Old grounds matter most when you change beans or grind size frequently.",
+      "kind": "text",
+      "context": "Old grounds matter most when you change beans or grind size frequently."
+    },
+    {
+      "id": "f0ef030c513bd6a2edc4a106c919324cec891c2faed3bcc55ecf56af7cdaf63c",
+      "source": "Noise and effort",
+      "kind": "text",
+      "context": "Noise and effort"
+    },
+    {
+      "id": "01a698149b65eb2ef4394aded70655a13ad161abd703d44f11d750d8720ca346",
+      "source": "A grinder used every morning must fit the household, not just the tasting notes.",
+      "kind": "text",
+      "context": "A grinder used every morning must fit the household, not just the tasting notes."
+    },
+    {
+      "id": "3c29564b6032366ffd85e5b2e93b8f07ccb6e0ec09e33c0f7a69075e852eafe3",
+      "source": "Coffeedant | Find the Right Espresso Machine",
+      "kind": "text",
+      "context": "Coffeedant | Find the Right Espresso Machine"
+    },
+    {
+      "id": "3c049b3a40de0c31b49ca117d412ee68cdb1573cf4d062bcb01d6e43493fc836",
+      "source": "Independent espresso machine reviews, practical comparisons, and a faster way to find the right machine for your budget and routine.",
+      "kind": "metadata",
+      "context": "Coffeedant | Find the Right Espresso Machine(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.cookie.split"
+    },
+    {
+      "id": "410a0a0da0109c4a2d178dccf98e224392020a7f493cb79186290bce2b93c088",
+      "source": "Coffeedant | Find the Right Espresso Machine",
+      "kind": "metadata",
+      "context": "Coffeedant | Find the Right Espresso Machine(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.cookie.split"
+    },
+    {
+      "id": "d5f8afdbd8911fd0c78da227e51d4fcd4969eb08a1c89a4ccafa193c681cca92",
+      "source": "Independent coffee gear guidance",
+      "kind": "text",
+      "context": "Independent coffee gear guidance"
+    },
+    {
+      "id": "85c5dc569de42610e8aac62e38d349e96846c0747afbf1ececd7f0241fe28496",
+      "source": "Find your espresso machine. Fast.",
+      "kind": "text",
+      "context": "Find your espresso machine. Fast."
+    },
+    {
+      "id": "2edfc65d3e18acd622f8129b07904aaa7d3cddab56e5b6c26e690c501c65d6da",
+      "source": "Tell us only what you know. The Coffee Finder searches every published espresso-machine review and builds a practical shortlist around your budget, drinks, workflow, space, and experience.",
+      "kind": "text",
+      "context": "Tell us only what you know. The Coffee Finder searches every published espresso-machine review and builds a practical shortlist around your budget, drinks, workflow, space, and experience."
+    },
+    {
+      "id": "655f8f7409c39899a3601a33be905d1198af45bac50a592fe31f58c331e92735",
+      "source": "What Coffeedant offers",
+      "kind": "attribute",
+      "context": "Independent coffee gear guidance Find your espresso machine. Fast. Tell us only what you know. The Coffee Finder searches every published espresso-machine review and builds a practical shortlist around your budget, drinks, workflow, space, and experience.  Buyer-first reviews Real trade-offs No jargon wall"
+    },
+    {
+      "id": "444b0d94e3aba41ca12038973d82ecd7d71243adee58156b5f8b8faf996549fb",
+      "source": "Buyer-first reviews",
+      "kind": "text",
+      "context": "Buyer-first reviews"
+    },
+    {
+      "id": "74390333a91f08c00c26799743767b8f02714feea6c554e2dd4d707ffbbc5dc0",
+      "source": "Real trade-offs",
+      "kind": "text",
+      "context": "Real trade-offs"
+    },
+    {
+      "id": "d20197b2e58e05a9e0164852680defb8526fb4e11fa03c0c45450b2cabf80e03",
+      "source": "No jargon wall",
+      "kind": "text",
+      "context": "No jargon wall"
+    },
+    {
+      "id": "901fbf5c36290f8b1e28b52f65885f617a8171fdf1106d3287778abe48a8585d",
+      "source": "Coffee Finder introduction",
+      "kind": "attribute",
+      "context": "Independent coffee gear guidance Find your espresso machine. Fast. Tell us only what you know. The Coffee Finder searches every published espresso-machine review and builds a practical shortlist around your budget, drinks, workflow, space, and experience.  Buyer-first reviews Real trade-offs No jargon wall    Start with one constraint Every filter is optional. Choose a budget, workflow, or drink style—or search the complete catalog immediately. High-end ranges now extend beyond $5,000. Open the Coffee Finder → No email required. Results update instantly."
+    },
+    {
+      "id": "d1c51ed9841a97b7dd8db9871f0d0503445c805a925b23d033318e8ddf4cd6dc",
+      "source": "Start with one constraint",
+      "kind": "text",
+      "context": "Start with one constraint"
+    },
+    {
+      "id": "efe58699d85b94a13f4f96858b97cc40cd3fe876b54e0d8d7b5b3c5c9e24c28a",
+      "source": "Every filter is optional.",
+      "kind": "text",
+      "context": "Every filter is optional."
+    },
+    {
+      "id": "a012980d4d15b828ed2a8382a7407b73473df55d888df7a8aaa6cf1f426271e0",
+      "source": "Choose a budget, workflow, or drink style—or search the complete catalog immediately. High-end ranges now extend beyond $5,000.",
+      "kind": "text",
+      "context": "Choose a budget, workflow, or drink style—or search the complete catalog immediately. High-end ranges now extend beyond $5,000."
+    },
+    {
+      "id": "a4a8185348b9c27e44aaf02d41d39f9efbea124c6adbe7393e40498ad368c2bf",
+      "source": "Open the Coffee Finder →",
+      "kind": "text",
+      "context": "Open the Coffee Finder →"
+    },
+    {
+      "id": "e1fc9f29c0ec47f89376c1059abf651b4ebc92d0edf4af9fdc4875eddd76bd99",
+      "source": "No email required. Results update instantly.",
+      "kind": "text",
+      "context": "No email required. Results update instantly."
+    },
+    {
+      "id": "7a5e61d583d777e23b8777433464dcb5585fe7dcf1b8cd722ebdaf65d1d7e5ae",
+      "source": "New / Coffeedant Journal · Volume 01",
+      "kind": "text",
+      "context": "New / Coffeedant Journal · Volume 01"
+    },
+    {
+      "id": "68272071855dabb9c54be33037830b5e31e4d84aa8c5c7d2578fa16ae0e183f8",
+      "source": "There’s a world",
+      "kind": "text",
+      "context": "There’s a worldin your cup."
+    },
+    {
+      "id": "5621dbc5d8e6267fdebb3ec516710ad3dc03482940d1da5c4c433a34f3f8257b",
+      "source": "in your cup.",
+      "kind": "text",
+      "context": "There’s a worldin your cup."
+    },
+    {
+      "id": "b581ba36fa6b1bf33d93b8bfbdede869870e691e892ffeffccdb18eebf50d394",
+      "source": "From the coffeehouses of Süleyman’s Istanbul to the science of a sweeter Americano. Deeply researched stories, practical brewing knowledge and buying guides for the endlessly curious.",
+      "kind": "text",
+      "context": "From the coffeehouses of Süleyman’s Istanbul to the science of a sweeter Americano. Deeply researched stories, practical brewing knowledge and buying guides for the endlessly curious."
+    },
+    {
+      "id": "c489c72ac28b48a6d4f0d03a8034376ef7af5dd7effd6fac9c860fe8bcd44055",
+      "source": "Explore the Journal ↗",
+      "kind": "text",
+      "context": "Explore the Journal ↗"
+    },
+    {
+      "id": "b469380f024cc3a094c035ac3c315f4b23882e568bcb1ac0260724a1d63fd5c4",
+      "source": "History · Zeitgeist · Brew Lab · Guides",
+      "kind": "text",
+      "context": "History · Zeitgeist · Brew Lab · Guides"
+    },
+    {
+      "id": "630b3d363d7deef5e733d2bee10fbe0178061d7facbd42c404a02c99586f21cd",
+      "source": "Read the Journal →",
+      "kind": "text",
+      "context": "Read the Journal →"
+    },
+    {
+      "id": "0bec5feaaba86ae7e7bf60c0b9ae0eb8e061fbfb04a4309aa7e32c2b3ee351ff",
+      "source": "Original illustrated reconstruction of an Ottoman coffeehouse",
+      "kind": "attribute",
+      "context": "New / Coffeedant Journal · Volume 01There’s a worldin your cup.From the coffeehouses of Süleyman’s Istanbul to the science of a sweeter Americano. Deeply researched stories, practical brewing knowledge and buying guides for the endlessly curious.Explore the Journal ↗History · Zeitgeist · Brew Lab · Guides<a href=\"/journal/\">Read the Journal →</a>"
+    },
+    {
+      "id": "4d8f3607a384d54793744ebdb9d8b5c29f0723a02bf27bf151121747ccbca48e",
+      "source": "Coffee Finder",
+      "kind": "text",
+      "context": "Coffee Finder"
+    },
+    {
+      "id": "483a08bb7c01963efd26624ab2b7818f7e65de975a208965463c8618eaf4325b",
+      "source": "Build a shortlist around your real routine.",
+      "kind": "text",
+      "context": "Build a shortlist around your real routine."
+    },
+    {
+      "id": "18c5a79dcb74cc928645023f3b20997e965956e6b2d80f9efd6ae89aef61c9a3",
+      "source": "Every field is optional. Start with the one constraint you know, then narrow the complete Coffeedant machine catalog only when it helps.",
+      "kind": "text",
+      "context": "Every field is optional. Start with the one constraint you know, then narrow the complete Coffeedant machine catalog only when it helps."
+    },
+    {
+      "id": "269b90892ce8073bbf8de1bee7dd11c69761670779509a3fe6766507f736ed79",
+      "source": "02 / Field guides",
+      "kind": "text",
+      "context": "02 / Field guides"
+    },
+    {
+      "id": "0c6d425c440cf5bf7de1f57cc66ff0bb4471f7873a49d66464aab74a87421679",
+      "source": "Choose with context.",
+      "kind": "text",
+      "context": "Choose with context."
+    },
+    {
+      "id": "18fef2dfc5437c0a8cfe35701d4e1418b30e94cca08734520a842c8eca8e9fe3",
+      "source": "Clear comparisons for the decisions that actually change what ends up in your cup.",
+      "kind": "text",
+      "context": "Clear comparisons for the decisions that actually change what ends up in your cup."
+    },
+    {
+      "id": "428e205a72937b98b11305776d482a5181488579c045adac1efcc9aeeeb34d39",
+      "source": "Start here · Buying guide",
+      "kind": "text",
+      "context": "Start here · Buying guide"
+    },
+    {
+      "id": "61f08a3192e7648abaf244a894c11a26e0acc554a88ccf244120449943b234b9",
+      "source": "Espresso machines, decoded",
+      "kind": "text",
+      "context": "Espresso machines, decoded"
+    },
+    {
+      "id": "df564ac8d9707dbb6f0da675e5675482a9dd43902100a3e75b519730643a1eb6",
+      "source": "Automatic, semi-automatic, single boiler, dual boiler. See what each choice means in daily use.",
+      "kind": "text",
+      "context": "Automatic, semi-automatic, single boiler, dual boiler. See what each choice means in daily use."
+    },
+    {
+      "id": "8d07c1ffb20aad567e5f64c2063673f81c7606f1c9d19feee951c3f66ef8819c",
+      "source": "Roundup · All-in-one",
+      "kind": "text",
+      "context": "Roundup · All-in-one"
+    },
+    {
+      "id": "351cfb060a8b9cb69239351b613a8cdc893154688920e533e9f4392001d89070",
+      "source": "Best machines with a grinder",
+      "kind": "text",
+      "context": "Best machines with a grinder"
+    },
+    {
+      "id": "940096e464a13aa86b93467f7f15d71089f80e13f2119e78c61a6b0e80419d8d",
+      "source": "When the all-in-one route makes sense, and where it forces a compromise.",
+      "kind": "text",
+      "context": "When the all-in-one route makes sense, and where it forces a compromise."
+    },
+    {
+      "id": "5f3b7f19f80d64786d97197fe8d57f49bc061d11190b3af51e9b51975c8986c5",
+      "source": "Explainer · Grinders",
+      "kind": "text",
+      "context": "Explainer · Grinders"
+    },
+    {
+      "id": "838e1a14bdeadcc3039c5ee059f303c76ecf27081817bbe32c828750b48d86bc",
+      "source": "Conical vs. flat burrs",
+      "kind": "text",
+      "context": "Conical vs. flat burrs"
+    },
+    {
+      "id": "250d2d331786ab74daab016528c1feb61da7ba34c1b0d7090a8d570ce3122d31",
+      "source": "A practical look at taste, workflow, retention, and value.",
+      "kind": "text",
+      "context": "A practical look at taste, workflow, retention, and value."
+    },
+    {
+      "id": "6968c95b008e3c947b13c9444c025565b8021a0f91b15f599fcab8cc067122cc",
+      "source": "Coffee beans · Reviews",
+      "kind": "text",
+      "context": "Coffee beans · Reviews"
+    },
+    {
+      "id": "b9509e28e8f2b5350babff747e24a2793b2b936d2a538514599fc11eccab0cd0",
+      "source": "Choose the coffee, too",
+      "kind": "text",
+      "context": "Choose the coffee, too"
+    },
+    {
+      "id": "275010c50bd381cf6813b944425e968c031f59ecfa04c33ad393d8da2b0adfc0",
+      "source": "Compare roast, changing origins, freshness and brew fit with research-led bean reviews.",
+      "kind": "text",
+      "context": "Compare roast, changing origins, freshness and brew fit with research-led bean reviews."
+    },
+    {
+      "id": "b7079bb96129b056f0d884f6178a1cd1dfb6b3c2484d5190cd00f2c24cce83c3",
+      "source": "How we judge gear",
+      "kind": "text",
+      "context": "How we judge gear"
+    },
+    {
+      "id": "301ad3ba724ca1afbdb8535fb42c787a7556514dd5e660eaf711ac8cfff6d066",
+      "source": "Useful beats impressive.",
+      "kind": "text",
+      "context": "Useful beats impressive."
+    },
+    {
+      "id": "af1594cc325831d80937c693ce15ede8d20e5bd18592d4dc103ddc3edd46ece9",
+      "source": "A great machine is one that fits your drinks, patience, counter, and budget. Specs matter only when they improve the routine.",
+      "kind": "text",
+      "context": "A great machine is one that fits your drinks, patience, counter, and budget. Specs matter only when they improve the routine."
+    },
+    {
+      "id": "db44f6bb8c0189b724e457c393a3a6fc9aa4c5f8dfa2579ce75050c87bba1d2c",
+      "source": "Start with the routine",
+      "kind": "text",
+      "context": "Start with the routine"
+    },
+    {
+      "id": "643cb5823ba909dfde0544e4456471a1d17b7eaef23963d514c4a9ae8fc2d8d6",
+      "source": "Drink preference, volume, experience, and available time.",
+      "kind": "text",
+      "context": "Drink preference, volume, experience, and available time."
+    },
+    {
+      "id": "bb6a10138e742b09c7ecc3a27275eea4d54e0cd88ada24bb5274432c14a9414b",
+      "source": "Translate the hardware",
+      "kind": "text",
+      "context": "Translate the hardware"
+    },
+    {
+      "id": "6d6a6e7280b7ff4b98eaab40254b3ebc181c88f0a53caea1130d587e461750d5",
+      "source": "Heat-up, temperature control, grinder quality, steam, and cleanup.",
+      "kind": "text",
+      "context": "Heat-up, temperature control, grinder quality, steam, and cleanup."
+    },
+    {
+      "id": "fc0cb8e30d037510459684b772fcef525da889a1bdf3efe4bd5c5784586eb1b1",
+      "source": "Name the trade-offs",
+      "kind": "text",
+      "context": "Name the trade-offs"
+    },
+    {
+      "id": "117291c95d6a16993ac4e110f1ca840f260cc22ddc961b0d14ef7248d9c18c48",
+      "source": "Every recommendation includes who should skip it and why.",
+      "kind": "text",
+      "context": "Every recommendation includes who should skip it and why."
+    },
+    {
+      "id": "4bbfbf142a6b2d7045c968a8af41fdbe47a8a6b9133b6b173365f978b32d7946",
+      "source": "Keep the catalog current",
+      "kind": "text",
+      "context": "Keep the catalog current"
+    },
+    {
+      "id": "cda0f9a1f778df492a47a983e1deadbe8fdaf030ce7d740d24c8c4e60e7134e1",
+      "source": "The finder re-indexes every review every two weeks and incorporates current Amazon offer data where an exact listing is verified.",
+      "kind": "text",
+      "context": "The finder re-indexes every review every two weeks and incorporates current Amazon offer data where an exact listing is verified."
+    },
+    {
+      "id": "7991c980cd99dc0713002a79dcca36ac34af962d902b214c738d51e1639cfbaa",
+      "source": "Keurig | Coffeedant",
+      "kind": "text",
+      "context": "Keurig | Coffeedant"
+    },
+    {
+      "id": "3cbd7332949946b2a08cc6a487c39e2e33b294563c9ed8a9e009978c0a4ece82",
+      "source": "Explore Coffeedant research on Keurig brewers, pod compatibility, daily workflow, maintenance and alternatives for different coffee routines.",
+      "kind": "metadata",
+      "context": "Keurig | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.cookie.split(';')) {\n        const na"
+    },
+    {
+      "id": "4c329f7f8cace6aa044ff1e0112312178370d25cebf59a7fce3cab8d90ddf1cc",
+      "source": "Keurig | Coffeedant",
+      "kind": "metadata",
+      "context": "Keurig | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.cookie.split(';')) {\n        const na"
+    },
+    {
+      "id": "7fe2eba999a5363c6c694402830111ac186e0bb8ecb5121149dcb9b82908e5ab",
+      "source": "Keurig Coffee Makers",
+      "kind": "text",
+      "context": "Keurig Coffee Makers"
+    },
+    {
+      "id": "2e437f26797148002f8554160af5b2683173170d0faaca8fdaf66342e1317b88",
+      "source": "Privacy Policy | Coffeedant",
+      "kind": "text",
+      "context": "Privacy Policy | Coffeedant"
+    },
+    {
+      "id": "abae50b6b3ff8a5b8740b70b457e8752262a9eeee0e61ecd56691d2918015b61",
+      "source": "Read the Coffeedant privacy policy, including what information may be collected, how it is used and the choices available to site visitors.",
+      "kind": "metadata",
+      "context": "Privacy Policy | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.cookie.split(';')) {\n        "
+    },
+    {
+      "id": "aed4374960917cada25ace406740520de6871a83af974c96693b41cb2d35f363",
+      "source": "Privacy Policy | Coffeedant",
+      "kind": "metadata",
+      "context": "Privacy Policy | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.cookie.split(';')) {\n        "
+    },
+    {
+      "id": "731f9425ce19ec59a8619686c1ae1ceaea3024af7742750e56f66002614e68a5",
+      "source": "<a class=\"cd-nav__link\" href=\"/grinder/\" data-astro-cid-w65nqoo5=\"\">Grinders</a>",
+      "kind": "inline-html",
+      "context": "Grinders"
+    },
+    {
+      "id": "ac146e79a9cf7eb5d3646cf276233a16ee94a44672becf4734c585a98ee87cd5",
+      "source": "<a class=\"cd-nav__link\" href=\"/coffee-beans/\" data-astro-cid-w65nqoo5=\"\">Coffee beans</a>",
+      "kind": "inline-html",
+      "context": "Coffee beans"
+    },
+    {
+      "id": "96aae7ab8750a60f030b12caf2ce6655233c26ee07edea566766673184bc1b1b",
+      "source": "<a class=\"cd-nav__link\" href=\"/journal/\" data-astro-cid-w65nqoo5=\"\">Journal</a>",
+      "kind": "inline-html",
+      "context": "Journal"
+    },
+    {
+      "id": "f10b9efa9b7af4f97e08eb4582a02c49d935c9839c4877d3667f3614598c667b",
+      "source": "<a class=\"cd-nav__link\" href=\"/journal/?category=Guides\" data-astro-cid-w65nqoo5=\"\">Guides</a>",
+      "kind": "inline-html",
+      "context": "Guides"
+    },
+    {
+      "id": "01cce56a5ad28815d90a4e92bfb43143bde3df71c10b51da7305ad6ac9abd222",
+      "source": "<a class=\"cd-nav__link\" href=\"/about/\" data-astro-cid-w65nqoo5=\"\">About</a>",
+      "kind": "inline-html",
+      "context": "About"
+    },
+    {
+      "id": "686f4324d9da4c5b51eb4e2ab8647080dab37b75874dba1f81dbc71b55bdc79b",
+      "source": "Privacy Policy",
+      "kind": "text",
+      "context": "Privacy Policy"
+    },
+    {
+      "id": "b56e5d8de8df3d25429ca8fd672d6970ed3e1e998e3f4f23ac4a677a0c7952dc",
+      "source": "<strong>Last updated:</strong> December 2, 2025<br><strong>Who we are:</strong> <strong>Coffeedant</strong>, ul. 1615 br. 10/2-36, Skopje (Republic of North Macedonia)<br><strong>Contact (privacy &amp; all requests):</strong> <strong>Aleksandar Spasevski — <a href=\"mailto:ace@growthradical.com\">ace@growthradical.com</a></strong><br><strong>Scope:</strong> This policy covers personal data processed via <strong>coffeedant.com</strong> (no apps; no user accounts).",
+      "kind": "inline-html",
+      "context": "Last updated: December 2, 2025Who we are: Coffeedant, ul. 1615 br. 10/2-36, Skopje (Republic of North Macedonia)Contact (privacy & all requests): Aleksandar Spasevski — ace@growthradical.comScope: This policy covers personal data processed via coffeedant.com (no apps; no user accounts)."
+    },
+    {
+      "id": "4e4f4432c217f9e3bd140ff6d246100a845ba28b3d2bad4006c9bf3052ac342d",
+      "source": "1) Summary (plain English)",
+      "kind": "text",
+      "context": "1) Summary (plain English)"
+    },
+    {
+      "id": "f30e56ce8e7d9604aec62fe07ca8d67b935b8ab30adbf6bf7e75641ea2c1e8d4",
+      "source": "We run a <strong>content + affiliate</strong> site.",
+      "kind": "inline-html",
+      "context": "We run a content + affiliate site."
+    },
+    {
+      "id": "62543d0c97f934cdd6f423b63a63f3f5da24e9f03474f6ae8d2fa592b15760bd",
+      "source": "We don’t sell products, don’t run ads/retargeting, and don’t run user accounts.",
+      "kind": "text",
+      "context": "We don’t sell products, don’t run ads/retargeting, and don’t run user accounts."
+    },
+    {
+      "id": "7cdffa39661eefe355bf354bbce093b2b4319b00379e8d1158fc3521594da2bc",
+      "source": "We use <strong>Google Analytics 4 (GA4)</strong> to understand aggregated traffic.",
+      "kind": "inline-html",
+      "context": "We use Google Analytics 4 (GA4) to understand aggregated traffic."
+    },
+    {
+      "id": "532d72f674482bde71b9d03be3dd2055c8731d7d58411c9606aa72636b4b5e14",
+      "source": "If you post a <strong>comment</strong> or email us, we’ll process that information to operate the Site and reply.",
+      "kind": "inline-html",
+      "context": "If you post a comment or email us, we’ll process that information to operate the Site and reply."
+    },
+    {
+      "id": "23386b32cd0d06ef3d036391c02042c15a3942b19320569269b10948e1b3481e",
+      "source": "We <strong>do not “sell” or “share”</strong> your personal information as defined by the California CPRA.",
+      "kind": "inline-html",
+      "context": "We do not “sell” or “share” your personal information as defined by the California CPRA."
+    },
+    {
+      "id": "465405a55139aaeeac32118f9c48eab847f959c2a7a2d90b8909568d3f2b404b",
+      "source": "EU/UK users: we use GA4 with <strong>Consent Mode</strong> and <strong>IP anonymization</strong>; analytics cookies are not set until you consent.",
+      "kind": "inline-html",
+      "context": "EU/UK users: we use GA4 with Consent Mode and IP anonymization; analytics cookies are not set until you consent."
+    },
+    {
+      "id": "a982ebf3109cfbac5baa419d9780fa825f42d9c3282aceab6473fb05f041c7d5",
+      "source": "2) What we collect",
+      "kind": "text",
+      "context": "2) What we collect"
+    },
+    {
+      "id": "831f7715e184cb14d0731de4efb1e4970d1f80c25c1d61e97affd40592fc311e",
+      "source": "<strong>Automatically via GA4 (analytics):</strong>",
+      "kind": "inline-html",
+      "context": "Automatically via GA4 (analytics):"
+    },
+    {
+      "id": "5ee8c7fcbd1ee60b69aff55673b917b4ede19db4e95bf24584e321f925ac2bc4",
+      "source": "Device and event data (e.g., pageviews, approximate location by city/region, language, device/browser, referrer), with IP anonymization in EU/UK/EEA.",
+      "kind": "text",
+      "context": "Device and event data (e.g., pageviews, approximate location by city/region, language, device/browser, referrer), with IP anonymization in EU/UK/EEA."
+    },
+    {
+      "id": "4ebc3a88d0c2cbfd55b191796c8d10269a1fc2f7f9a802b3fedf8e68aaa7754e",
+      "source": "GA4 may set cookies or use similar tech unless disabled by consent or browser settings.",
+      "kind": "text",
+      "context": "GA4 may set cookies or use similar tech unless disabled by consent or browser settings."
+    },
+    {
+      "id": "ed079b0019a70ea48a3d79717c46930540d9a023bf79959a3fa9926ec8552809",
+      "source": "<strong>If you comment:</strong>",
+      "kind": "inline-html",
+      "context": "If you comment:"
+    },
+    {
+      "id": "98c543f4b8bc13181c2872f5ad5651bc5f93317bf3269a27a822c97ac3224f24",
+      "source": "Display name, email (not publicly shown), IP (for anti-spam/abuse), your comment content, and timestamps.",
+      "kind": "text",
+      "context": "Display name, email (not publicly shown), IP (for anti-spam/abuse), your comment content, and timestamps."
+    },
+    {
+      "id": "ad1b4ffbc3753ea5e43298406504ab224d33a7148302a0b6ae37549c2c70d18e",
+      "source": "<strong>If you email us:</strong>",
+      "kind": "inline-html",
+      "context": "If you email us:"
+    },
+    {
+      "id": "4ad72c7c992696b5eb7b31092dca111b7c444d8f0874291c3b632b2bb06c8e5b",
+      "source": "Email address, message content, and any info you choose to share.",
+      "kind": "text",
+      "context": "Email address, message content, and any info you choose to share."
+    },
+    {
+      "id": "a3d4f9388a9f44622d7cda0843f1ad4e20c2c7c906fc8677af8854b138979708",
+      "source": "<strong>We do not collect:</strong> payment data, government IDs, or sensitive categories.",
+      "kind": "inline-html",
+      "context": "We do not collect: payment data, government IDs, or sensitive categories."
+    },
+    {
+      "id": "d48e6d27f77be13817e694ce9c890efe7a4866eabcfe97137b1031944dd2d701",
+      "source": "3) Why we collect it (purposes & legal bases)",
+      "kind": "text",
+      "context": "3) Why we collect it (purposes & legal bases)"
+    },
+    {
+      "id": "eccd774c666270ad3ab844a2cab97855432d84dbda39065b8038e0273f493d94",
+      "source": "Operate & secure the Site",
+      "kind": "text",
+      "context": "Operate & secure the Site"
+    },
+    {
+      "id": "0a9e370f15c4d43c991ae1d9063a32a0d1af075e8dc8ba3f1d6f022dea2523f0",
+      "source": "(fraud/spam prevention, uptime, troubleshooting).",
+      "kind": "text",
+      "context": "Operate & secure the Site (fraud/spam prevention, uptime, troubleshooting).\n\nLegal bases (EU/UK): legitimate interests."
+    },
+    {
+      "id": "c1514b818f84bdcb129a67f67463a3d3fe4205c35abbb3bf921c4aad38e32238",
+      "source": "<em>Legal bases (EU/UK):</em> legitimate interests.",
+      "kind": "inline-html",
+      "context": "Legal bases (EU/UK): legitimate interests."
+    },
+    {
+      "id": "4db2e86f46d0fb2e94ea4f234fa80f35ab52ad13c8291700849e31897f5d49ec",
+      "source": "Analytics & performance",
+      "kind": "text",
+      "context": "Analytics & performance"
+    },
+    {
+      "id": "9a3b38518284e0da31a48711baf80ce8dd41f4eda26726c6f551d60c34cd15f0",
+      "source": "(understand what content users read to improve the Site).",
+      "kind": "text",
+      "context": "Analytics & performance (understand what content users read to improve the Site).\n\nLegal bases (EU/UK): consent for analytics cookies; legitimate interests for aggregated, cookieless signals where applicable."
+    },
+    {
+      "id": "cf0a7f014bb6d4edca714e511b69d6a71b6a20325eea30428ca4f44cb223c638",
+      "source": "<em>Legal bases (EU/UK):</em> <strong>consent</strong> for analytics cookies; legitimate interests for aggregated, cookieless signals where applicable.",
+      "kind": "inline-html",
+      "context": "Legal bases (EU/UK): consent for analytics cookies; legitimate interests for aggregated, cookieless signals where applicable."
+    },
+    {
+      "id": "ea9171231547783c92ef58069a49eec33de64b82dac202681b607b012ae548f9",
+      "source": "Community features",
+      "kind": "text",
+      "context": "Community features"
+    },
+    {
+      "id": "758cff7ed5a25a227a0503dd9e0b8c4741240608c4396f1dede87c50605b4891",
+      "source": "(publish and moderate comments).",
+      "kind": "text",
+      "context": "Community features (publish and moderate comments).\n\nLegal bases (EU/UK): legitimate interests; consent where required by local law."
+    },
+    {
+      "id": "9e7769a7d884886bcf2998d3b02a57d4983e340f810531fd490677b7c51b7e9f",
+      "source": "<em>Legal bases (EU/UK):</em> legitimate interests; consent where required by local law.",
+      "kind": "inline-html",
+      "context": "Legal bases (EU/UK): legitimate interests; consent where required by local law."
+    },
+    {
+      "id": "01bb03c0be151e5a6e9a6b179a28a74e9c29990174d8ee6a0912814e13a69694",
+      "source": "Communications",
+      "kind": "text",
+      "context": "Communications"
+    },
+    {
+      "id": "e63fdf64841870550aee96a41b288ba68239eb725f35590fe720c22771b7d6f9",
+      "source": "(respond to your emails/requests).",
+      "kind": "text",
+      "context": "Communications (respond to your emails/requests).\n\nLegal bases (EU/UK): legitimate interests or performance of a contract if applicable."
+    },
+    {
+      "id": "832e523b01f316841463c780566b2e3d1e9a2659e1780886f9cb1323456667b2",
+      "source": "<em>Legal bases (EU/UK):</em> legitimate interests or performance of a contract if applicable.",
+      "kind": "inline-html",
+      "context": "Legal bases (EU/UK): legitimate interests or performance of a contract if applicable."
+    },
+    {
+      "id": "fcb6da4830d3632c1c0eeb8b6711f28a7572464eb704fccbf3749cbaac4853d0",
+      "source": "Legal compliance",
+      "kind": "text",
+      "context": "Legal compliance"
+    },
+    {
+      "id": "6a7c79c3ae1d49ca779f1cb25a0f83c1735e4c6d0ef9883acb82b3233b5d5e9f",
+      "source": "(enforce Terms, respond to lawful requests).",
+      "kind": "text",
+      "context": "Legal compliance (enforce Terms, respond to lawful requests).\n\nLegal bases (EU/UK): legal obligation, legitimate interests."
+    },
+    {
+      "id": "6544ea572ae7426172dd669611b1743fcb5941c21570105b1e142598973c5dc6",
+      "source": "<em>Legal bases (EU/UK):</em> legal obligation, legitimate interests.",
+      "kind": "inline-html",
+      "context": "Legal bases (EU/UK): legal obligation, legitimate interests."
+    },
+    {
+      "id": "b745c1919b9a7c85ce0d5c04949b0575a1b76af5293637bee17681c20ceb4c70",
+      "source": "4) Cookies & tracking",
+      "kind": "text",
+      "context": "4) Cookies & tracking"
+    },
+    {
+      "id": "6eb0460f795b5ac22579c6ec29576e57febe1399ed882eabcfb560a3941a210e",
+      "source": "We use <strong>GA4</strong>. In regions requiring consent (EU/UK/EEA), we use <strong>Consent Mode</strong> so non-essential analytics cookies are <strong>blocked until you opt in</strong>; IP anonymization is enabled.",
+      "kind": "inline-html",
+      "context": "We use GA4. In regions requiring consent (EU/UK/EEA), we use Consent Mode so non-essential analytics cookies are blocked until you opt in; IP anonymization is enabled."
+    },
+    {
+      "id": "ce2cbefb7a9ee34990464e95c9b9de3f42658db07b1852d860ceee171df0e390",
+      "source": "You can control cookies in your browser. If you enable <strong>Global Privacy Control (GPC)</strong> or similar, we treat it as an opt-out/deny for non-essential tracking where applicable.",
+      "kind": "inline-html",
+      "context": "You can control cookies in your browser. If you enable Global Privacy Control (GPC) or similar, we treat it as an opt-out/deny for non-essential tracking where applicable."
+    },
+    {
+      "id": "a14737708766c273afa9371814b278e07d2ddfaea4ac37004e14320de74c1043",
+      "source": "We do <strong>not</strong> use ad/retargeting pixels.",
+      "kind": "inline-html",
+      "context": "We do not use ad/retargeting pixels."
+    },
+    {
+      "id": "66f94ed8ddacc8ee6320f1a53436fda11fb9ad7b8e41fee6843d45f1fa4d09ed",
+      "source": "5) Data sharing",
+      "kind": "text",
+      "context": "5) Data sharing"
+    },
+    {
+      "id": "1748995adc963b5fb6414795e52d6378ac7610c3174256d986136be3f0c2b836",
+      "source": "We may share personal data with:",
+      "kind": "text",
+      "context": "We may share personal data with:"
+    },
+    {
+      "id": "646e889b7b8b329b581a17388ceaf9c2f78084ecb76e55f66216208feaef481b",
+      "source": "<strong>Service providers</strong> (only what’s necessary to run the Site), such as our analytics provider (Google) and hosting/anti-spam services for comments.",
+      "kind": "inline-html",
+      "context": "Service providers (only what’s necessary to run the Site), such as our analytics provider (Google) and hosting/anti-spam services for comments."
+    },
+    {
+      "id": "a8c310032e8dab8bbe7f404887756d4353a6b4ad5206fd9cc56f19a293eed01f",
+      "source": "<strong>Legal &amp; safety</strong>: if required by law or to protect our rights/users.<br>We do <strong>not</strong> sell or “share” personal information for cross-context behavioral advertising.",
+      "kind": "inline-html",
+      "context": "Legal & safety: if required by law or to protect our rights/users.We do not sell or “share” personal information for cross-context behavioral advertising."
+    },
+    {
+      "id": "e980d42e9ea76eee2fafb3577aaf9aa9262bac0fcfbc1bea5a38d35ad29c3984",
+      "source": "6) International transfers",
+      "kind": "text",
+      "context": "6) International transfers"
+    },
+    {
+      "id": "ad209392e17ff6b454e9f1a8cafb3e0a10eaba00c1f2eae1167d04369d584a94",
+      "source": "We operate from <strong>North Macedonia</strong> and use providers that may process data in other countries (e.g., the United States). Where required, we rely on appropriate safeguards (e.g., <strong>Standard Contractual Clauses</strong>) and minimize the data we send (e.g., IP anonymization).",
+      "kind": "inline-html",
+      "context": "We operate from North Macedonia and use providers that may process data in other countries (e.g., the United States). Where required, we rely on appropriate safeguards (e.g., Standard Contractual Clauses) and minimize the data we send (e.g., IP anonymization)."
+    },
+    {
+      "id": "17f27d61f235f201f65cb371dde0e18059d2fe210c9aadb0a227d1b81354ad8f",
+      "source": "7) Data retention",
+      "kind": "text",
+      "context": "7) Data retention"
+    },
+    {
+      "id": "d8279521793134d8e965f6f483335a13c970165ad42fbfda1e47ae86cb30a572",
+      "source": "<strong>GA4 analytics data:</strong> retained up to <strong>14 months</strong> (or less where configured by region).",
+      "kind": "inline-html",
+      "context": "GA4 analytics data: retained up to 14 months (or less where configured by region)."
+    },
+    {
+      "id": "b724a6eb8ce438f2a849813de603d69ab1e6818000a771b6a2671e6516142cf1",
+      "source": "<strong>Comments:</strong> kept as long as the comment remains published or until you request deletion.",
+      "kind": "inline-html",
+      "context": "Comments: kept as long as the comment remains published or until you request deletion."
+    },
+    {
+      "id": "5b1e8327bdc28a3f4a880d35c1221bac60609d789dfc18f3bb9d4bb0567f0f11",
+      "source": "<strong>Emails:</strong> generally kept up to <strong>24 months</strong> after the thread ends, unless needed longer for legal reasons.<br>We delete or anonymize data when it’s no longer needed.",
+      "kind": "inline-html",
+      "context": "Emails: generally kept up to 24 months after the thread ends, unless needed longer for legal reasons.We delete or anonymize data when it’s no longer needed."
+    },
+    {
+      "id": "054f03293d5548ef74781f724f2ff622dc894d19fa121183a8ed8401c924019f",
+      "source": "8) Your rights",
+      "kind": "text",
+      "context": "8) Your rights"
+    },
+    {
+      "id": "a4d3adb8985631517b38b1dbf57e2ae7a73d9323807a33abba7ba2c20a2d4a76",
+      "source": "<strong>EEA/UK:</strong> You may have the right to request <strong>access, correction, deletion, restriction, portability, and to object</strong> to processing (including withdrawing consent for analytics).<br><strong>California (CPRA):</strong> You may <strong>know, delete, correct</strong> data and <strong>opt-out of sale/share</strong> (we do not sell/share). We do not use or disclose <strong>sensitive</strong> personal information. No discrimination for exercising rights.<br><strong>How to exercise:</strong> Email <strong><a href=\"mailto:ace@growthradical.com\">ace@growthradical.com</a></strong>. We may need to verify your identity. You can also withdraw analytics consent via your cookie settings (where available) or by using GPC.",
+      "kind": "inline-html",
+      "context": "EEA/UK: You may have the right to request access, correction, deletion, restriction, portability, and to object to processing (including withdrawing consent for analytics).California (CPRA): You may know, delete, correct data and opt-out of sale/share (we do not sell/share). We do not use or disclose sensitive personal information. No discrimination for exercising rights.How to exercise: Email ace@growthradical.com. We may need to verify your identity. You can also withdraw analytics consent via your cookie settings (where available) or by using GPC."
+    },
+    {
+      "id": "80ff8be6cf88b63c674693d6b88b179458458aeef7ff0ff73c09b6a6435bb1e9",
+      "source": "<strong>EU/UK representative:</strong> Not appointed at this time. Contact us directly at <strong><a href=\"mailto:ace@growthradical.com\">ace@growthradical.com</a></strong>.",
+      "kind": "inline-html",
+      "context": "EU/UK representative: Not appointed at this time. Contact us directly at ace@growthradical.com."
+    },
+    {
+      "id": "8b791040f06c0affb23fa3c5d5a1ab63403f3b10e688985a64f6838a1c4d1448",
+      "source": "9) Security",
+      "kind": "text",
+      "context": "9) Security"
+    },
+    {
+      "id": "03777d07a43fbe000a9b94b0264aa3a17bb44678c1390c65c899cf629bc09a58",
+      "source": "We use reasonable administrative and technical measures (HTTPS, role-limited access, provider security controls). No method of transmission or storage is 100% secure.",
+      "kind": "text",
+      "context": "We use reasonable administrative and technical measures (HTTPS, role-limited access, provider security controls). No method of transmission or storage is 100% secure."
+    },
+    {
+      "id": "11d5363d0557cacab8f77b8a6acebe9924597ca7b23b8b1d776a636190e49f90",
+      "source": "10) Children’s privacy",
+      "kind": "text",
+      "context": "10) Children’s privacy"
+    },
+    {
+      "id": "c3333d25404e1075c3b5542a89c544a9d364350c56c3c33924bf894cb0dd068c",
+      "source": "The Site is for <strong>13+</strong> and is not directed to children. Do not submit personal data for children. If we learn we’ve collected data from a child, we’ll delete it.",
+      "kind": "inline-html",
+      "context": "The Site is for 13+ and is not directed to children. Do not submit personal data for children. If we learn we’ve collected data from a child, we’ll delete it."
+    },
+    {
+      "id": "ad71763f2b2e50c170566a3c4b0c04596e82a9a90d7085d071573ca41f0b0891",
+      "source": "11) AI usage (editorial)",
+      "kind": "text",
+      "context": "11) AI usage (editorial)"
+    },
+    {
+      "id": "49fdd1f2d5f57d22bb783eef4b5e38f96e428c3356bae2888e8d9a20dd2b94f8",
+      "source": "We may use AI tools to <strong>research ideas or assist drafting</strong>, but all published content is reviewed and finalized by a human editor. We do <strong>not</strong> use AI to profile visitors or make automated decisions about individuals. We avoid sending personal data to AI tools; if you email us, we won’t feed your personal information into AI systems without first anonymizing it or obtaining permission.",
+      "kind": "inline-html",
+      "context": "We may use AI tools to research ideas or assist drafting, but all published content is reviewed and finalized by a human editor. We do not use AI to profile visitors or make automated decisions about individuals. We avoid sending personal data to AI tools; if you email us, we won’t feed your personal information into AI systems without first anonymizing it or obtaining permission."
+    },
+    {
+      "id": "7fc0e521e1ec885bd5c6edbe38099364aef9c3d50c51e8b8d0427464ebf5a152",
+      "source": "12) Changes to this Policy",
+      "kind": "text",
+      "context": "12) Changes to this Policy"
+    },
+    {
+      "id": "741281fc33b1d27fd217608cb9861dc673b9af1b159655cdb5bc90d6a6d77524",
+      "source": "If we make material changes, we’ll update the “Last updated” date and, where required, provide additional notice.",
+      "kind": "text",
+      "context": "If we make material changes, we’ll update the “Last updated” date and, where required, provide additional notice."
+    },
+    {
+      "id": "3129edeac4b7215467396712caaa043bd33f1973248d10441c0f9d4db961c72e",
+      "source": "13) Contact",
+      "kind": "text",
+      "context": "13) Contact"
+    },
+    {
+      "id": "8eb30a985e25b04639747e195b124ca8b9252d102938cfa4df40d16cb343b308",
+      "source": "For privacy requests, questions, or complaints:<br><strong>Aleksandar Spasevski — <a href=\"mailto:ace@growthradical.com\">ace@growthradical.com</a></strong>",
+      "kind": "inline-html",
+      "context": "For privacy requests, questions, or complaints:Aleksandar Spasevski — ace@growthradical.com"
+    },
+    {
+      "id": "dd48f5cec942d2e81c1c63d48a1df632d8f12ef6d996acbb08ef598af57c2079",
+      "source": "May we use Google Analytics cookies to understand which pages are useful? You can change your choice using Cookie preferences in the footer. <a href=\"/privacy-policy/\" data-astro-cid-jamsh6mc=\"\">Privacy policy</a>",
+      "kind": "inline-html",
+      "context": "May we use Google Analytics cookies to understand which pages are useful? You can change your choice using Cookie preferences in the footer. Privacy policy"
+    },
+    {
+      "id": "dd1843816a8eed02b891bec1d172fa15f15cde1d4bdbf58277f6c596e23f021b",
+      "source": "Terms of Service | Coffeedant",
+      "kind": "text",
+      "context": "Terms of Service | Coffeedant"
+    },
+    {
+      "id": "0ab87805071d6f990d2937143f5990db8e63c7e67b5cb863371ae0e4ef0d50e8",
+      "source": "Read the Coffeedant terms of service covering site use, editorial information, intellectual property, external links and limitations.",
+      "kind": "metadata",
+      "context": "Terms of Service | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.cookie.split(';')) {\n      "
+    },
+    {
+      "id": "f8c47e6fca9c281bfa9a551fbf5d5c92d4875a0d1d794c5b31153c264609c986",
+      "source": "Terms of Service | Coffeedant",
+      "kind": "metadata",
+      "context": "Terms of Service | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.cookie.split(';')) {\n      "
+    },
+    {
+      "id": "631401736ff4b06dc85a4da05ec1a27ec2b821888469538d3c9fd5736457ce87",
+      "source": "Terms of Service",
+      "kind": "text",
+      "context": "Terms of Service"
+    },
+    {
+      "id": "144f569337d98466e1cb2e8be76ee8a800c9551d0a4abdf3cf565bbf12da755a",
+      "source": "<strong>Last updated:</strong> December 2, 2025<br><strong>Owner:</strong> <strong>Coffeedant</strong>, ul. 1615 br. 10/2-36, Skopje (Republic of North Macedonia)<br><strong>Website covered:</strong> <a href=\"/\">/</a> (“<strong>Site</strong>”)<br><strong>Contact:</strong> <a href=\"mailto:ace@growthradical.com\">ace@growthradical.com</a>",
+      "kind": "inline-html",
+      "context": "Last updated: December 2, 2025Owner: Coffeedant, ul. 1615 br. 10/2-36, Skopje (Republic of North Macedonia)Website covered: / (“Site”)Contact: ace@growthradical.com"
+    },
+    {
+      "id": "9bd8b51610f768acc0b2fa1a3ffddf9ef0a7cf25c86585d11d02df61add2f13a",
+      "source": "1) Acceptance of Terms",
+      "kind": "text",
+      "context": "1) Acceptance of Terms"
+    },
+    {
+      "id": "66908c58e2987b011a2d529537fe932043b6693e02568463e257235fc7e3babc",
+      "source": "By accessing or using the Site, you agree to these Terms. If you do not agree, do not use the Site.",
+      "kind": "text",
+      "context": "By accessing or using the Site, you agree to these Terms. If you do not agree, do not use the Site."
+    },
+    {
+      "id": "849fdcb45d9204ae25c4311367013d7405836dac0296de0d06f7cfa94c0e26ec",
+      "source": "2) Who we serve",
+      "kind": "text",
+      "context": "2) Who we serve"
+    },
+    {
+      "id": "23fb4e7af319e02e58425661ee02af989e63a470020708e8d166d034b31ea1e6",
+      "source": "The Site is intended for users aged <strong>13+</strong>. We do not knowingly target children. Availability is global (US, UK, EU/EEA, Canada, AU/NZ), subject to local laws.",
+      "kind": "inline-html",
+      "context": "The Site is intended for users aged 13+. We do not knowingly target children. Availability is global (US, UK, EU/EEA, Canada, AU/NZ), subject to local laws."
+    },
+    {
+      "id": "a7fd092dcd4038c82ab9afbd6509b3c239c8329e264d25e63344cde6dc39be15",
+      "source": "3) Editorial independence & affiliate disclosure",
+      "kind": "text",
+      "context": "3) Editorial independence & affiliate disclosure"
+    },
+    {
+      "id": "3fcd3cba278c401037a79c942c27df062c55b5fc61e82f757827cc8f4b19d93a",
+      "source": "Coffeedant publishes independent coffee content (reviews, guides, blogs). We may include <strong>affiliate links</strong>. If you buy through those links, we may earn a commission at no extra cost to you.<br><strong>Amazon Disclosure:</strong> <em>As an Amazon Associate, we earn from qualifying purchases.</em> We do <strong>not</strong> publish sponsored content; any sponsorship would be clearly labeled (none at present).",
+      "kind": "inline-html",
+      "context": "Coffeedant publishes independent coffee content (reviews, guides, blogs). We may include affiliate links. If you buy through those links, we may earn a commission at no extra cost to you.Amazon Disclosure: As an Amazon Associate, we earn from qualifying purchases. We do not publish sponsored content; any sponsorship would be clearly labeled (none at present)."
+    },
+    {
+      "id": "781e3009cb942d0e99b46e57860b361c244e48a2cf0ead12caf69fb738ee8a16",
+      "source": "4) Accounts & access",
+      "kind": "text",
+      "context": "4) Accounts & access"
+    },
+    {
+      "id": "c4e6d3d3498d9981da152c3beb779a8c58589c13683ab034955744248c9ddbc2",
+      "source": "We do <strong>not</strong> offer user accounts at this time. Access is provided “as available” and may change without notice.",
+      "kind": "inline-html",
+      "context": "We do not offer user accounts at this time. Access is provided “as available” and may change without notice."
+    },
+    {
+      "id": "07c5debf4b8de3f2d9d61c156051a8b8ae2be6531d0c7b3c154e6bb4fc2731c7",
+      "source": "5) User comments (UGC)",
+      "kind": "text",
+      "context": "5) User comments (UGC)"
+    },
+    {
+      "id": "d3ab56780205cc8c06a22e83b3dd71502d1127438a5a75baaba9f0695c0eb069",
+      "source": "You may post comments where enabled. By posting a comment, you grant Coffeedant a <strong>worldwide, non-exclusive, royalty-free license</strong> to use, reproduce, and display your comments for operating and promoting the Site.<br>You are responsible for your comments and you agree <strong>not</strong> to post anything unlawful, defamatory, infringing, or spam. We may moderate, remove, or refuse any comment at our discretion.",
+      "kind": "inline-html",
+      "context": "You may post comments where enabled. By posting a comment, you grant Coffeedant a worldwide, non-exclusive, royalty-free license to use, reproduce, and display your comments for operating and promoting the Site.You are responsible for your comments and you agree not to post anything unlawful, defamatory, infringing, or spam. We may moderate, remove, or refuse any comment at our discretion."
+    },
+    {
+      "id": "3cc13b2f55e9e1396262f12ad92e288c36ecb9803a740feb610581f6028dedca",
+      "source": "<strong>Copyright/DMCA:</strong> If you believe content on the Site infringes your copyright, email our agent: <strong><a href=\"mailto:ace@growthradical.com\">ace@growthradical.com</a></strong> with (a) your contact info, (b) identification of the work and allegedly infringing material, (c) your good-faith statement and signature.",
+      "kind": "inline-html",
+      "context": "Copyright/DMCA: If you believe content on the Site infringes your copyright, email our agent: ace@growthradical.com with (a) your contact info, (b) identification of the work and allegedly infringing material, (c) your good-faith statement and signature."
+    },
+    {
+      "id": "8f13a62a4f29cc33d241cc3558578190dd356e014f61809392c6bc8480613ec4",
+      "source": "6) Intellectual property",
+      "kind": "text",
+      "context": "6) Intellectual property"
+    },
+    {
+      "id": "d353b58f1d6b242b71dc8b535ae7779a36af49712ee96a2d12884ae8d2a80b6e",
+      "source": "All content on the Site is owned by Coffeedant or its licensors and protected by IP laws. <strong>All rights reserved.</strong> You may make personal, non-commercial use of the Site. Any scraping, bulk copying, or republication requires written permission.<br>Third-party trademarks are the property of their respective owners and are used <strong>nominatively</strong> (e.g., product names) without endorsement.",
+      "kind": "inline-html",
+      "context": "All content on the Site is owned by Coffeedant or its licensors and protected by IP laws. All rights reserved. You may make personal, non-commercial use of the Site. Any scraping, bulk copying, or republication requires written permission.Third-party trademarks are the property of their respective owners and are used nominatively (e.g., product names) without endorsement."
+    },
+    {
+      "id": "b7a18daf59d1d4cc05ae9587cc2dbf20ab8fddc19cf1effdf0cd37cd9ab110ea",
+      "source": "7) Prohibited uses",
+      "kind": "text",
+      "context": "7) Prohibited uses"
+    },
+    {
+      "id": "716e216174db07ebbce6bc191361877b5e6731744ebfc91b13336f5c2c2da618",
+      "source": "You agree not to: (i) violate laws; (ii) reverse engineer or attempt to bypass security; (iii) use automated scraping/crawling beyond robots.txt allowances; (iv) spam, harass, or interfere with the Site; (v) misrepresent your identity.",
+      "kind": "text",
+      "context": "You agree not to: (i) violate laws; (ii) reverse engineer or attempt to bypass security; (iii) use automated scraping/crawling beyond robots.txt allowances; (iv) spam, harass, or interfere with the Site; (v) misrepresent your identity."
+    },
+    {
+      "id": "d535810eaa51ef77bfc062be33c049bee6d1cf002c425b1592320a80c688a52b",
+      "source": "8) Third-party links",
+      "kind": "text",
+      "context": "8) Third-party links"
+    },
+    {
+      "id": "71b9c5d14ffd0d059d5bf3e9cfc211a8717f9a1db8fc25c5d6efa6fc28579237",
+      "source": "The Site links to third-party sites (including merchants). We are not responsible for their content, policies, or practices.",
+      "kind": "text",
+      "context": "The Site links to third-party sites (including merchants). We are not responsible for their content, policies, or practices."
+    },
+    {
+      "id": "2b6629eb321d94a648291f167d6e85f82d909ec8d7069e8f1fecfaa2133ad803",
+      "source": "9) No warranties",
+      "kind": "text",
+      "context": "9) No warranties"
+    },
+    {
+      "id": "96346a72142d3b9bc7db5a2a9a52e7e97299f0f8ea82aad36f826b0bab474eee",
+      "source": "THE SITE AND CONTENT ARE PROVIDED <strong>“AS IS” AND “AS AVAILABLE.”</strong> COFFEEDANT DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. Information may be inaccurate or updated without notice; always verify before relying on it.",
+      "kind": "inline-html",
+      "context": "THE SITE AND CONTENT ARE PROVIDED “AS IS” AND “AS AVAILABLE.” COFFEEDANT DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. Information may be inaccurate or updated without notice; always verify before relying on it."
+    },
+    {
+      "id": "f8e25c59b5dc89ca0869ae710e1dc2e21317852882e00b53597d80756369f5ee",
+      "source": "10) Limitation of liability",
+      "kind": "text",
+      "context": "10) Limitation of liability"
+    },
+    {
+      "id": "c2a57891bded1f92c08a75c69a743268301580abcabfd4b29b7d1cf6df9b562d",
+      "source": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, COFFEEDANT AND ITS OWNERS WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES. OUR TOTAL LIABILITY FOR ANY CLAIM ARISING FROM OR RELATED TO THE SITE WILL NOT EXCEED <strong>USD $100</strong>.",
+      "kind": "inline-html",
+      "context": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, COFFEEDANT AND ITS OWNERS WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES. OUR TOTAL LIABILITY FOR ANY CLAIM ARISING FROM OR RELATED TO THE SITE WILL NOT EXCEED USD $100."
+    },
+    {
+      "id": "da26b2c7a8cff0ff15167ec64cc901b205240adb7fd27771af7f3616f1ce8105",
+      "source": "11) Indemnification",
+      "kind": "text",
+      "context": "11) Indemnification"
+    },
+    {
+      "id": "baecc6e383ec7b61fe19a6373be06363418ecb308ab5f897e1ad3c10c84b0593",
+      "source": "You agree to indemnify and hold Coffeedant harmless from claims arising out of your comments, your use of the Site, or your violation of these Terms.",
+      "kind": "text",
+      "context": "You agree to indemnify and hold Coffeedant harmless from claims arising out of your comments, your use of the Site, or your violation of these Terms."
+    },
+    {
+      "id": "858d5832c0b791531ce73992d3debad359db47527f39ff83b687b8d5f9f47b5c",
+      "source": "12) Governing law & venue",
+      "kind": "text",
+      "context": "12) Governing law & venue"
+    },
+    {
+      "id": "b36f0005029be5c9c5648d217c947b2e2ca360d24956976600d37fb3c4d8b4cc",
+      "source": "These Terms are governed by the laws of the <strong>Republic of North Macedonia</strong>, without regard to conflict-of-law rules. Exclusive venue lies in the courts located in <strong>Skopje</strong>, and you consent to personal jurisdiction there. Consumers in the EU/UK may have non-waivable rights under local law.",
+      "kind": "inline-html",
+      "context": "These Terms are governed by the laws of the Republic of North Macedonia, without regard to conflict-of-law rules. Exclusive venue lies in the courts located in Skopje, and you consent to personal jurisdiction there. Consumers in the EU/UK may have non-waivable rights under local law."
+    },
+    {
+      "id": "ea7e5fc68299d7e930f50df3847f82e90282542c96aabea64ed8bea82bcaa167",
+      "source": "13) Changes to Terms",
+      "kind": "text",
+      "context": "13) Changes to Terms"
+    },
+    {
+      "id": "a4b83130648d85d009edb17c073655bafa650675549ab74922efae3d765c3c11",
+      "source": "We may update these Terms by posting a new “Last updated” date. Your continued use after changes means you accept the new Terms.",
+      "kind": "text",
+      "context": "We may update these Terms by posting a new “Last updated” date. Your continued use after changes means you accept the new Terms."
+    },
+    {
+      "id": "838c7bc6d6a7935bf2b80a0164668bbee66c2770295c8bd28501f975738b98f3",
+      "source": "14) Contact",
+      "kind": "text",
+      "context": "14) Contact"
+    },
+    {
+      "id": "925700fa7d1a61bcb414434746c15541df6bbdd87070cc9b5d90b932a6d54c54",
+      "source": "Questions about these Terms: <strong><a href=\"mailto:ace@growthradical.com\">ace@growthradical.com</a></strong>",
+      "kind": "inline-html",
+      "context": "Questions about these Terms: ace@growthradical.com"
+    }
+  ],
+  "snapshotHash": "fc64c85d6fa5cb027c5599f175edb08ce21c01d84f2a0d02b1053cb57b2fd603"
+}
