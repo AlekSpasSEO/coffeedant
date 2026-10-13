@@ -1,0 +1,47 @@
+{
+  "generated": "2026-10-13",
+  "method": "Built-in image_gen; original AI-assisted editorial illustrations; no licensed documentary photos or first-hand reporting implied.",
+  "optimization": "WebP quality 87 from original 1536x1024 output. Originals remain in generated_images; site assets persist in public/journal/.",
+  "prompts": [
+    {
+      "asset": "public/journal/history.webp",
+      "prompt": "Original editorial cover illustration for Coffeedant Journal, a wide cinematic painterly reconstruction of a sixteenth-century Istanbul coffeehouse, view from a shaded wooden interior through arches toward the Bosphorus, small ceramic coffee bowls, a brass pot on low embers, merchants and scholars in restrained period clothing, warm amber chiaroscuro, deep ink shadows, fine grain, beautifully atmospheric high-end illustrated magazine aesthetic. No writing, no modern espresso equipment, no logos, no National Geographic branding. Landscape 1536x1024."
+    },
+    {
+      "asset": "public/journal/botany.webp",
+      "prompt": "Original editorial cover artwork for Coffeedant Journal: scientifically plausible Coffea branch with glossy leaves and ripe red coffee cherries in a lush misty tropical forest, extreme detail, tactile botanical illustration blended with photographic depth, dark forest green and vivid red, sidelight, high-end natural history magazine aesthetic. Wide landscape 1536x1024. No writing, no logo."
+    },
+    {
+      "asset": "public/journal/brew.webp",
+      "prompt": "Original editorial cover image for Coffeedant Journal Brew Lab: overhead coffee still life on a warm cream stone surface, dark espresso in small amber glass, black ceramic americano cup, polished portafilter, a precise heap of roasted beans and contrasting grounds, soft dramatic natural side lighting, rich charcoal and bronze with one mustard linen accent, quiet luxurious magazine composition. Landscape 1536x1024. No text, no logos, no fictional scales or markings."
+    },
+    {
+      "asset": "public/journal/coffeehouse.webp",
+      "prompt": "An evocative editorial illustration of a late seventeenth century London coffeehouse, merchants and readers at wooden tables with small porcelain coffee cups and printed news sheets, candlelight and pale light through tall leaded windows, historically plausible coats, warm brown and ink charcoal, detailed illustrated magazine style. Clearly an artistic reconstruction. No modern objects, no readable text, no logos."
+    },
+    {
+      "asset": "public/journal/colonial.webp",
+      "prompt": "A thoughtful original editorial landscape illustration of mountain coffee terraces and cultivated coffee shrubs in Java, misty volcanic mountains, paths and agricultural rows extending into the distance, deep greens and ochre natural light, contemplative natural history magazine atmosphere, no idealized colonial masters, no people, no romantic plantation mansion, no logos, no text."
+    },
+    {
+      "asset": "public/journal/civet.webp",
+      "prompt": "A scientifically plausible Asian palm civet resting freely on a branch in a tropical forest, small elongated body, pointed face, mottled gray-brown fur and long tail, surrounded by foliage and a subtle coffee branch with red cherries, ethical wildlife editorial illustration, rich dark forest and natural side light, no cage, no domestic cat anatomy, no coffee cup, no logos, no text."
+    },
+    {
+      "asset": "public/journal/decaf.webp",
+      "prompt": "An original premium editorial still life of green coffee beans transitioning into roasted coffee beans on warm cream stone, one small cup of dark coffee at the edge, a scientific editorial mood rather than an advertisement, beautifully tactile botanical textures, amber side lighting, minimal graphic composition, no writing, no logo."
+    },
+    {
+      "asset": "public/journal/fermentation.webp",
+      "prompt": "Original high-end illustrated documentary-style still life of freshly harvested red coffee cherries beside a clean stainless fermentation vessel with simple sealed lid and a glass jar of cherries, farm processing environment, deep red and forest green palette, precise tactile detail, dramatic window light, no branding, no text, no invented gauges, illustrative not evidence of a real facility."
+    },
+    {
+      "asset": "public/journal/water.webp",
+      "prompt": "Original luxury scientific editorial still life: three clear glasses with water beside one dark espresso cup on cream limestone, refracted light and shadows, tiny natural bubbles, a gentle ripple, minimalist analytical composition, forest green backdrop, beautifully tactile illustration, no writing, no labels, no logos, no scientific claims visible."
+    },
+    {
+      "asset": "public/journal/freshness.webp",
+      "prompt": "Original premium coffee editorial still life: sealed plain unbranded kraft coffee bag at rear, loose whole roasted beans in a small bowl and fine ground coffee in another small bowl foreground, contrasting textures sharply detailed, warm cream and ink charcoal palette with soft amber side lighting, quiet contemplative magazine composition, no visible writing, no logo, no fake measurement."
+    }
+  ]
+}
