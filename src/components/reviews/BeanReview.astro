@@ -1,0 +1,57 @@
+---
+import type { BeanReviewData } from '../../data/bean-reviews';
+const { review } = Astro.props as { review: BeanReviewData };
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const local = (path: string) => `${base}${path.replace(/^\//, '')}`;
+const canonical = `https://coffeedant.com${review.slug}`;
+const authorImage = local('/images/author-aleksandar-spasevski.jpg');
+const formatDate = (date: string) => new Intl.DateTimeFormat('en-US', { dateStyle: 'long', timeZone: 'UTC' }).format(new Date(`${date}T00:00:00Z`));
+const cite = (paragraph: string) => paragraph.replace(/\[(\d+)\]/g, (_match, number) => `<a class="bean-cite" href="#s${number}" aria-label="Source ${number}">[${number}]</a>`);
+const author = { '@type': 'Person', name: 'Aleksandar Spasevski', jobTitle: 'Editor, Coffeedant', url: 'https://coffeedant.com/about/', image: `https://coffeedant.com/images/author-aleksandar-spasevski.jpg` };
+const schema = { '@context': 'https://schema.org', '@graph': [
+  { '@type': 'Product', '@id': `${canonical}#product`, name: `${review.roaster} ${review.coffee}`, identifier: review.productId, category: 'Whole-bean coffee', image: review.image, description: review.description, brand: { '@type': 'Brand', name: review.roaster }, url: canonical },
+  { '@type': 'Article', '@id': `${canonical}#article`, headline: review.title, description: review.description, genre: 'Research-led coffee review', inLanguage: 'en-US', datePublished: review.published, dateModified: review.updated, author, image: review.image, mainEntityOfPage: canonical, about: { '@id': `${canonical}#product` }, citation: review.sources.map((source) => source.href), publisher: { '@type': 'Organization', name: 'Coffeedant', url: 'https://coffeedant.com/' } },
+  { '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://coffeedant.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Coffee beans', item: 'https://coffeedant.com/coffee-beans/' },
+    { '@type': 'ListItem', position: 3, name: `${review.roaster} ${review.coffee}`, item: canonical },
+  ] },
+  { '@type': 'FAQPage', mainEntity: review.faqs.map((faq) => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })) },
+] };
+---
+<main class="review-page bean-review" data-product-id={review.productId}>
+  <div class="review-shell">
+    <nav class="review-breadcrumbs" aria-label="Breadcrumb"><a href={base}>Home</a><span>/</span><a href={local('/coffee-beans/')}>Coffee beans</a><span>/</span><span>{review.roaster} {review.coffee}</span></nav>
+    <header class="bean-hero">
+      <div class="bean-hero-media">
+        <img src={review.image} alt={review.imageAlt} width="770" height="770" loading="eager" decoding="async" />
+        <p class="bean-credit"><a href={review.imageSource} target="_blank" rel="noopener">Image: {review.roaster}</a>. {review.imageCredit}</p>
+      </div>
+      <div class="bean-hero-copy">
+        <p class="review-overline">Research-led whole-bean review · {review.market}</p>
+        <h1>{review.title}</h1>
+        <p class="bean-lead">{review.verdict}</p>
+        <div class="bean-price"><strong>{review.price}</strong><span>US direct listing checked {review.priceChecked}; shipping, tax and availability can change.</span></div>
+        <a class="review-buy-button review-buy-button-primary" href={review.officialUrl} target="_blank" rel="noopener">Check current roaster details <span aria-hidden="true">↗</span></a>
+        <p class="bean-disclosure">Coffeedant has not bought, brewed or tasted this coffee. Flavor words on this page are attributed to the roaster, an independent reviewer or individual owners. No sensory score is assigned. This roaster link is not an affiliate link.</p>
+      </div>
+      <aside class="review-author-card bean-author" aria-label="Review author and dates">
+        <div class="review-author-head"><img src={authorImage} alt="Aleksandar Spasevski, editor at Coffeedant" width="46" height="46" /><div><strong>Aleksandar Spasevski</strong><small>Editor, Coffeedant</small></div></div>
+        <dl class="review-author-dates"><div><dt>Published</dt><dd><time datetime={review.published}>{formatDate(review.published)}</time></dd></div><div><dt>Updated</dt><dd><time datetime={review.updated}>{formatDate(review.updated)}</time></dd></div></dl>
+        <p><strong>Author note</strong>I compared the current roaster record, its date-sensitive blend selector, independent tasting and attributable owner context. The verdict is a buying judgment from that evidence.</p>
+      </aside>
+    </header>
+    <div class="bean-fit-grid"><section><h2>Good fit</h2><ul>{review.bestFor.map((item) => <li>{item}</li>)}</ul></section><section><h2>Think twice if</h2><ul>{review.skipIf.map((item) => <li>{item}</li>)}</ul></section></div>
+    <section class="bean-facts" aria-labelledby="bean-facts-title"><h2 id="bean-facts-title">At a glance</h2><dl>{review.facts.map((fact) => <div><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}</dl></section>
+    <nav class="bean-jump" aria-label="Article sections"><strong>In this review</strong>{review.sections.map((section) => <a href={`#${section.id}`}>{section.title}</a>)}<a href="#methodology">Methodology</a><a href="#faq">FAQ</a><a href="#sources">Sources</a></nav>
+    <article class="bean-article">
+      {review.sections.map((section, index) => <section class="review-section" id={section.id} aria-labelledby={`${section.id}-title`}><header class="review-section-heading"><p class="review-overline">{String(index + 1).padStart(2, '0')} / {review.sections.length}</p><h2 id={`${section.id}-title`}>{section.title}</h2></header><div class="review-section-body">{section.paragraphs.map((paragraph) => <p set:html={cite(paragraph)} />)}</div></section>)}
+      <section class="review-section" id="related" aria-labelledby="related-title"><header class="review-section-heading"><p class="review-overline">Choose by preference</p><h2 id="related-title">Useful alternatives and equipment</h2></header><div class="bean-alternatives">{review.alternatives.map((alternative) => <a href={alternative.internal ? local(alternative.href) : alternative.href} target={alternative.internal ? undefined : '_blank'} rel={alternative.internal ? undefined : 'noopener'}><strong>{alternative.title}</strong><span>{alternative.reason}</span><b>Explore <span aria-hidden="true">→</span></b></a>)}</div></section>
+      <section class="review-section" id="methodology" aria-labelledby="methodology-title"><header class="review-section-heading"><p class="review-overline">Evidence and limits</p><h2 id="methodology-title">How this review was made</h2></header><div class="review-section-body"><p>This is a research-led editorial assessment. The roaster controls identity, recipe history, process, current sizes, brewing advice and direct price. The Guardian and individual owners supply attributed sensory and workflow context; those reports describe their own samples and cannot establish what a future bag will taste like. Coffeedant did not conduct a tasting, measure extraction, inspect a bag or independently verify a farm lot. We leave variety and future blend composition unknown where the checked record does.</p><p>Sources were checked on October 13, 2026. Price, stock, component mix and roast date should be rechecked for the bag and seller you actually choose.</p></div></section>
+      <section class="review-section" id="faq" aria-labelledby="faq-title"><header class="review-section-heading"><p class="review-overline">Quick answers</p><h2 id="faq-title">Hologram FAQ</h2></header><div class="bean-faq">{review.faqs.map((faq) => <article><h3>{faq.question}</h3><p>{faq.answer}</p></article>)}</div></section>
+      <section class="review-section" id="sources" aria-labelledby="sources-title"><header class="review-section-heading"><p class="review-overline">Trace the claims</p><h2 id="sources-title">Sources</h2></header><ol class="review-source-list">{review.sources.map((source) => <li id={source.id}><a href={source.href} target="_blank" rel={source.community ? 'ugc noopener' : 'noopener'}>{source.title} <span aria-hidden="true">↗</span></a><p>{source.note} Checked {source.checked}.</p></li>)}</ol></section>
+      <section class="final-verdict"><p class="review-overline">The choice</p><h2>Buy the smallest bag that answers your flavor question</h2><p>Hologram offers a documented medium-roast, rotating washed-and-natural blend with a fruit, chocolate and body target. The strongest reason to try it is that combination across brew methods. The strongest reason to pause is that the ingredients and your perception of the notes can change. Start with 12 oz, check its roast date and live composition, and let your own cup decide the next purchase.</p><a class="review-buy-button review-buy-button-dark" href={review.officialUrl} target="_blank" rel="noopener">Check Hologram at the roaster <span aria-hidden="true">↗</span></a></section>
+    </article>
+  </div>
+</main>
+<script is:inline type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />

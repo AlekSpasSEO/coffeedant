@@ -32,6 +32,8 @@ jobs:
         run: CF_PAGES=1 node scripts/validate-legacy-migration.mjs
       - name: Validate Cloudflare Amazon banners
         run: npm run validate:amazon-banners
+      - name: Validate Cloudflare bean reviews
+        run: CF_PAGES=1 npm run validate:beans
       - name: Validate Amazon catalog and Finder purchase links
         run: npm run validate:amazon-catalog
       - name: Build GitHub Pages target
@@ -42,6 +44,8 @@ jobs:
         run: node scripts/validate-legacy-migration.mjs
       - name: Validate GitHub Pages Amazon banners
         run: npm run validate:amazon-banners
+      - name: Validate GitHub Pages bean reviews
+        run: npm run validate:beans
       - name: Record canonical article parity
         run: npm run audit:article-parity
       - name: Print upgrade queue

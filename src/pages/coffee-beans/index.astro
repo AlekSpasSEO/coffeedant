@@ -1,0 +1,14 @@
+---
+import HomeLayout from '../../layouts/HomeLayout.astro';
+import { beanReviews } from '../../data/bean-reviews';
+import '../../styles/review.css';
+import '../../styles/beans.css';
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+<HomeLayout title="Coffee Bean Reviews: Choose by Roast, Origin and Freshness | Coffeedant" description="Research-led coffee bean reviews with attributed flavor notes, changing blend details, brew fit, roast-date guidance and dated US value." canonicalPath="/coffee-beans/">
+  <main id="main-content" class="bean-index">
+    <section class="bean-index-hero"><div class="review-shell"><p class="review-overline">Coffee bean reviews</p><h1>Know what is in the bag.</h1><p>Start with the roaster’s current description, then check the roast date, changing origins, brew fit and how quickly you will use it. We attribute flavor notes and leave a coffee unrated when we have not tasted it.</p></div></section>
+    <section class="review-shell bean-index-list" aria-labelledby="bean-index-list-title"><p class="review-overline">Current research-led reviews</p><h2 id="bean-index-list-title">Choose a coffee for your routine</h2><div class="bean-index-grid">{beanReviews.map((review) => <article><img src={review.image} alt={review.imageAlt} width="360" height="360" loading="lazy" /><div><p>{review.roaster} · {review.market}</p><h3><a href={`${base}${review.slug.replace(/^\//, '')}`}>{review.coffee}</a></h3><p>{review.verdict}</p><small>Updated <time datetime={review.updated}>{review.updated}</time> · {review.price} at {review.priceChecked}</small></div></article>)}</div></section>
+    <section class="review-shell bean-index-guide" aria-labelledby="bean-index-guide-title"><h2 id="bean-index-guide-title">Three checks before a larger bag</h2><div><article><span>01</span><h3>Exact coffee</h3><p>A year-round name can contain changing lots. Check the roaster’s current component record and the bag’s roast date.</p></article><article><span>02</span><h3>Your brew</h3><p>Filter ratios do not transfer directly to espresso. Choose a coffee and grinder you can dial in on your actual equipment.</p></article><article><span>03</span><h3>Freshness budget</h3><p>A low per-ounce price matters only if you finish the bag while you still enjoy its flavor.</p></article></div><p>Need a grinder? <a href={`${base}grinder/`}>Compare current grinder reviews</a>.</p></section>
+  </main>
+</HomeLayout>
