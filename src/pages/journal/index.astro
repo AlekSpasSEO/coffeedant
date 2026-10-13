@@ -1,0 +1,18 @@
+---
+import HomeLayout from '../../layouts/HomeLayout.astro';
+import JournalExperience from '../../components/journal/JournalExperience.astro';
+import {stories} from '../../data/journal';
+const base=import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const schema={
+ '@context':'https://schema.org',
+ '@graph':[
+  {'@type':'CollectionPage','@id':'https://coffeedant.com/journal/','url':'https://coffeedant.com/journal/','name':'Coffeedant Journal — A world in your cup','description':'Ten research-led features on coffee history, emerging culture and practical brewing.','hasPart':stories.map(s=>({'@id':`https://coffeedant.com/journal/#${s.id}`}))},
+  ...stories.map(s=>({'@type':'Article','@id':`https://coffeedant.com/journal/#${s.id}`,'headline':s.title,'description':s.dek,'articleSection':s.category,'datePublished':'2026-10-13','dateModified':'2026-10-13','author':{'@type':'Organization','name':'Coffeedant editorial desk'},'publisher':{'@type':'Organization','name':'Coffeedant','url':'https://coffeedant.com/'},'isPartOf':{'@id':'https://coffeedant.com/journal/'},'image':`https://coffeedant.com/journal/${s.hero}.webp`,'citation':s.sources.map(source=>source.url)})),
+  {'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':'Coffeedant','item':'https://coffeedant.com/'},{'@type':'ListItem','position':2,'name':'Journal','item':'https://coffeedant.com/journal/'}]}
+ ]
+};
+---
+<HomeLayout title="Coffeedant Journal | A World in Your Cup" description="Explore ten deeply researched coffee stories: Ottoman coffeehouses, civet coffee, robusta, decaf, fermentation and visual brewing guides." canonicalPath="/journal/" image="journal/history.webp" imageAlt="Original Coffeedant illustration of an Ottoman coffeehouse">
+ <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+ <main id="main-content"><JournalExperience /></main>
+</HomeLayout>
