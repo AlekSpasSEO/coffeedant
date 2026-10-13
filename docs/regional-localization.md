@@ -73,6 +73,14 @@ are rejected. Health and unauthenticated-denial checks passed on the live broker
 The default request ceiling is 40 batches per run. This is a conservative usage
 guard, not a promise that the large initial backfill finishes in one run.
 Cloudflare's existing AI quota/billing applies; no account plan was upgraded.
+The first live runs verified authentication and saved localized routes, then
+exhausted the account's 10,000-neuron free daily allocation. Quota exhaustion is
+now a clean pause, not a repeated retry/failure: snapshots are retained and the
+next daily run resumes after the 00:00 UTC reset. A default 8,000-neuron per-run
+usage guard supplements the request ceiling; `LOCALIZATION_MAX_NEURONS` can
+configure that guard. No code changes an account plan or enables paid billing.
+For a fast whole-site backfill, separately approve a paid translation allowance
+or supply an alternative provider credential; neither is assumed authorized.
 Raise `LOCALIZATION_MAX_REQUESTS` as a repository variable or manual workflow
 input after reviewing usage. Bounded runs preserve successful batches and resume.
 

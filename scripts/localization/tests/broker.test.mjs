@@ -33,4 +33,7 @@ test('translation broker verifies RSA signatures and restricts repository, main 
   assert.equal((await worker.fetch(request(corrupt), env)).status, 401);
   assert.equal((await worker.fetch(request(''), env)).status, 401);
   assert.equal(modelCalls, 2, 'Unauthorized callers cannot invoke or spend on the model');
+  const quota = await worker.fetch(request(await token()), { AI: { run: async () => { throw new Error('you have used up your daily free allocation of 10,000 neurons'); } } });
+  assert.equal(quota.status, 429); assert.equal((await quota.json()).code, 'DAILY_QUOTA_EXHAUSTED');
+  assert(Number(quota.headers.get('Retry-After')) > 0);
 });

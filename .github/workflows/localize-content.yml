@@ -74,6 +74,7 @@ jobs:
           LOCALIZATION_PROVIDER: ${{ vars.LOCALIZATION_PROVIDER }}
           LOCALIZATION_MODEL: ${{ vars.LOCALIZATION_MODEL }}
           LOCALIZATION_MAX_REQUESTS: ${{ inputs.max_requests || vars.LOCALIZATION_MAX_REQUESTS || '40' }}
+          LOCALIZATION_MAX_NEURONS: ${{ vars.LOCALIZATION_MAX_NEURONS || '8000' }}
           TARGET_EDITION: ${{ inputs.edition }}
         shell: bash
         run: |

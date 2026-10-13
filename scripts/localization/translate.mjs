@@ -53,6 +53,13 @@ export const requestTranslations = async (edition, items, mode, fetchImpl = fetc
         text: { format: { type: 'json_schema', name: 'coffeedant_translation', strict: true, schema: translationSchema } } }),
     });
     if (!response.ok) {
+      if (cloudflare && response.status === 429) {
+        const reason = await response.json().catch(() => ({}));
+        if (reason.code === 'DAILY_QUOTA_EXHAUSTED') {
+          const paused = new Error('Daily free translation allowance exhausted; queued for the next reset');
+          paused.code = 'DAILY_QUOTA_EXHAUSTED'; throw paused;
+        }
+      }
       if ((response.status === 429 || response.status >= 500) && attempt < 2) {
         const retrySeconds = Number(response.headers.get('retry-after'));
         await new Promise((resolve) => setTimeout(resolve, Math.min(30000, Number.isFinite(retrySeconds) && retrySeconds > 0 ? retrySeconds * 1000 : 2000 * 2 ** attempt)));
@@ -85,6 +92,8 @@ export const translateEdition = async (id, source, budget, request = requestTran
   if (id === 'us') throw new Error('The US edition is the source, not a translation target');
   const cache = await loadCache(id);
   const failures = [];
+  let paused = null; let neuronsUsed = 0;
+  const neuronLimit = Number(process.env.LOCALIZATION_MAX_NEURONS || 8000);
   const missing = source.segments.filter(({ id: segment, source: text }) => {
     const existing = cache.segments[segment];
     if (!existing || existing.source !== text || existing.policyHash !== policyHash) return true;
@@ -97,10 +106,11 @@ export const translateEdition = async (id, source, budget, request = requestTran
   }
   const routes = source.pages.filter((page) => !cache.routes[page.id]);
   const processBatch = async (batch, mode) => {
-    if (requests >= budget || Date.now() + 120000 >= deadline) return false;
+    if (paused || requests >= budget || Date.now() + 120000 >= deadline) return false;
     requests += 1;
     try {
       const { result, usage } = await request(edition, batch, mode);
+      neuronsUsed += Number(usage.neurons) || 0;
       if (mode === 'routes') {
         const used = new Set(Object.values(cache.routes).map(({ path }) => path));
         for (const item of batch) {
@@ -118,7 +128,11 @@ export const translateEdition = async (id, source, budget, request = requestTran
       cache.lastModel = provider.provider === 'cloudflare' && process.env.LOCALIZATION_PROVIDER !== 'openai' ? provider.model : process.env.LOCALIZATION_MODEL || 'gpt-4.1-mini-2025-04-14';
       cache.lastUsage = usage;
       await writeJson(translationFile(id), cache);
-    } catch (error) { failures.push({ mode, ids: batch.map(({ id }) => id), error: error.message }); }
+      if (neuronsUsed >= neuronLimit) paused = 'RUN_USAGE_LIMIT';
+    } catch (error) {
+      if (error.code === 'DAILY_QUOTA_EXHAUSTED') paused = error.code;
+      else failures.push({ mode, ids: batch.map(({ id }) => id), error: error.message });
+    }
     return true;
   };
   // Translate interface copy early so small initial runs exercise real text,
@@ -127,10 +141,10 @@ export const translateEdition = async (id, source, budget, request = requestTran
   if (interfaceBatch.length) await processBatch(interfaceBatch, 'segments');
   const processedInterface = new Set(interfaceBatch.map(({ id }) => id));
   const prose = missing.filter(({ id }) => !processedInterface.has(id));
-  for (let offset = 0; offset < routes.length && requests < budget && Date.now() + 120000 < deadline; offset += 20) {
+  for (let offset = 0; offset < routes.length && !paused && requests < budget && Date.now() + 120000 < deadline; offset += 20) {
     await processBatch(routes.slice(offset, offset + 20).map((page) => ({ id: page.id, source: page.sourcePath, context: page.title })), 'routes');
   }
-  for (let offset = 0; offset < prose.length && requests < budget && Date.now() + 120000 < deadline;) {
+  for (let offset = 0; offset < prose.length && !paused && requests < budget && Date.now() + 120000 < deadline;) {
     const batch = []; let characters = 0;
     while (offset < prose.length && batch.length < 30) {
       const next = prose[offset];
@@ -145,7 +159,7 @@ export const translateEdition = async (id, source, budget, request = requestTran
   for (const key of Object.keys(cache.routes)) if (!activeIds.has(key)) delete cache.routes[key];
   await writeJson(translationFile(id), cache);
   const remaining = source.segments.filter(({ id: key }) => cache.segments[key]?.policyHash !== policyHash).length;
-  return { edition: id, host: edition.host, requests, remaining, failures, source: sourceOrigin };
+  return { edition: id, host: edition.host, requests, remaining, failures, paused, neuronsUsed, source: sourceOrigin };
 };
 
 if (process.argv[1] && path.resolve(process.argv[1]) === path.join(root, 'scripts/localization/translate.mjs')) {
@@ -160,13 +174,17 @@ if (process.argv[1] && path.resolve(process.argv[1]) === path.join(root, 'script
   // Rotate the first edition daily so a bounded backfill does not starve later markets.
   const shift = Math.floor(Date.now() / 86400000) % targets.length;
   const ordered = [...targets.slice(shift), ...targets.slice(0, shift)];
+  let runNeurons = 0;
+  const neuronLimit = Number(process.env.LOCALIZATION_MAX_NEURONS || 8000);
+  if (!Number.isFinite(neuronLimit) || neuronLimit < 1) throw new Error('LOCALIZATION_MAX_NEURONS must be a positive number');
   for (const id of ordered) {
     const item = await translateEdition(id, source, Math.min(remainingBudget, Math.max(1, Math.floor(limit / targets.length))), requestTranslations, deadline);
-    remainingBudget -= item.requests; report.push(item);
+    remainingBudget -= item.requests; runNeurons += item.neuronsUsed; report.push(item);
+    if (item.paused || runNeurons >= neuronLimit) break;
   }
   await writeJson(path.join(root, '.localization/translation-report.json'), report);
   if (process.env.GITHUB_STEP_SUMMARY) await appendFile(process.env.GITHUB_STEP_SUMMARY,
-    `## Localization queue\n${report.map(({ host, requests, remaining, failures }) => `- ${host}: ${requests} requests, ${remaining} text segments pending, ${failures.length} failed batches`).join('\n')}\n`);
+    `## Localization queue\n${report.map(({ host, requests, remaining, failures, paused, neuronsUsed }) => `- ${host}: ${requests} requests, ${remaining} text segments pending, ${failures.length} failed batches, ${neuronsUsed} neurons${paused ? `; paused: ${paused}` : ''}`).join('\n')}\nDaily free quota pauses are expected; saved work resumes after reset. No paid upgrade is performed.\n`);
   console.log(JSON.stringify(report, null, 2));
   if (report.some(({ failures }) => failures.length)) process.exitCode = 1;
 }

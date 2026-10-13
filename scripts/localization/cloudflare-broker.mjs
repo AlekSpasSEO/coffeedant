@@ -70,7 +70,16 @@ export function createTranslationBroker(fetchKeys = fetch) {
         const translated = typeof response === 'string' ? JSON.parse(response) : response;
         if (!Array.isArray(translated?.items)) throw new Error('Incomplete structured output');
         return json({ items: translated.items, usage: result.usage ?? {} });
-      } catch { return json({ error: 'Translation provider failed; retry later' }, 502); }
+      } catch (error) {
+        if (/daily free allocation|daily.*(?:quota|neuron.*limit)/i.test(String(error?.message ?? error))) {
+          const paused = json({ error: 'Daily free translation allowance exhausted; resume after reset', code: 'DAILY_QUOTA_EXHAUSTED' }, 429);
+          const now = Date.now();
+          const midnight = new Date(now); midnight.setUTCHours(24, 0, 0, 0);
+          paused.headers.set('Retry-After', String(Math.ceil((midnight.valueOf() - now) / 1000)));
+          return paused;
+        }
+        return json({ error: 'Translation provider failed; retry later' }, 502);
+      }
     },
   };
 }
