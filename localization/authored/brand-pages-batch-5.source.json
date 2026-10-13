@@ -1,0 +1,841 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/gaggia/",
+      "sourceHash": "4897de312e0b3f1ffda57d4b95e608c778dd6070ddb03a1a41b600ee816ea1a9"
+    },
+    {
+      "sourcePath": "/jura/",
+      "sourceHash": "9ddd1e9508dd18bd2b6634a17f31156ef540b7929625b7422d8ed9ca71edb57e"
+    },
+    {
+      "sourcePath": "/krups/",
+      "sourceHash": "e29b049d3562aa8148d6238af03ea9b7a45095249ff49a7200a079be181f4a15"
+    },
+    {
+      "sourcePath": "/lelit/",
+      "sourceHash": "397155eab688ea447d1bd835bf015a54aae0a99d3ee74c319552e4126d4645e0"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "f09df62d90d43bc3d2382058cc4008713c715789e46ce9dce960e381d065d724",
+      "source": "Gaggia Classic Evo Pro",
+      "kind": "text",
+      "context": "Gaggia Classic Evo Pro ↗"
+    },
+    {
+      "id": "22914c1952835a170b588122213dad2f405c5a077e408f5bdcc8b6d80196b502",
+      "source": "Gaggia Classic E24",
+      "kind": "text",
+      "context": "Gaggia Classic E24 ↗"
+    },
+    {
+      "id": "92e7f940df985dd342ca7c30c5b4031a2c9298555385197c0e0524c37b0bb11a",
+      "source": "JURA E8",
+      "kind": "text",
+      "context": "JURA E8"
+    },
+    {
+      "id": "5247deeefdf5f242f5edbba00f83629a1deb59fa9ac1e953cd81fff4b744e658",
+      "source": "Gaggia Cadorna Prestige",
+      "kind": "text",
+      "context": "Gaggia Cadorna Prestige ↗"
+    },
+    {
+      "id": "24e7e3e2f9a5922e543b814ba05198560a36b182392a142931d8fa55f0c2e634",
+      "source": "Gaggia Anima Prestige",
+      "kind": "text",
+      "context": "Gaggia Anima Prestige ↗"
+    },
+    {
+      "id": "d79c90eb19476777f0048da30d4c099bcf5217f9a38cf94531021399e8760880",
+      "source": "Gaggia Anima",
+      "kind": "text",
+      "context": "Gaggia Anima ↗"
+    },
+    {
+      "id": "fcc156abc31e08d3e963bfd89513bdc6480d05469dff2bc30e2a4638088f1ccf",
+      "source": "Gaggia Brera RI9305",
+      "kind": "text",
+      "context": "Gaggia Brera RI9305"
+    },
+    {
+      "id": "efbab7c7c348aabe693e0ec59e2277d06f444493bcf2228cfc55770ab18e45ee",
+      "source": "Gaggia Classic GT",
+      "kind": "text",
+      "context": "Gaggia Classic GT ↗"
+    },
+    {
+      "id": "aa0417721e80bc5296f494b96f97bdb0cdc7b57a9b9f2e4f3696e837535725f4",
+      "source": "JURA E6",
+      "kind": "text",
+      "context": "JURA E6 ↗"
+    },
+    {
+      "id": "5cbaa9033a94cb8ecce3957e86e80d85728344db429378e54df49bb3da3f5c9c",
+      "source": "JURA Z10",
+      "kind": "text",
+      "context": "JURA Z10"
+    },
+    {
+      "id": "943d9eb83227c01b12ec79248709db9e7dca0b8a6f72bdc74731c672fc941c28",
+      "source": "JURA GIGA 6",
+      "kind": "text",
+      "context": "JURA GIGA 6 ↗"
+    },
+    {
+      "id": "71a3f303fb9840d036f4a356c5f012c6e88dc8bd74de4631da418d16b340b2cc",
+      "source": "Krups Arabica Digital EA817040",
+      "kind": "text",
+      "context": "Krups Arabica Digital EA817040"
+    },
+    {
+      "id": "92a3c7ddab323902333b1ad7f1eca32b959956397b40dbbf951c31b7d60708f5",
+      "source": "Krups Arabica Manual EA811040 / EA811840",
+      "kind": "text",
+      "context": "Krups Arabica Manual EA811040 / EA811840"
+    },
+    {
+      "id": "a993108bab4bdf4c468d61c219d39ef7171b97b5dcd3dc7f093eb785e39c8fa1",
+      "source": "Krups Evidence Eco-Design EA897B40",
+      "kind": "text",
+      "context": "Krups Evidence Eco-Design EA897B40"
+    },
+    {
+      "id": "2ef118dfe7d0aacf2ea6faae997faefdcfbdf86a63d1a9807099ee62a7d98549",
+      "source": "Krups Evidence Milk EA891D27",
+      "kind": "text",
+      "context": "Krups Evidence Milk EA891D27"
+    },
+    {
+      "id": "074ca18ac715f75d8b9a0e0ccc7d94493aa59a4213fd6510ef295fd365544c5f",
+      "source": "Krups Evidence One EA895N40",
+      "kind": "text",
+      "context": "Krups Evidence One EA895N40"
+    },
+    {
+      "id": "2667fe7619e774073f8e2fe15933a733224652d0efff5edd7806f84e879f48d0",
+      "source": "Krups Intuition Essential EA870840",
+      "kind": "text",
+      "context": "Krups Intuition Essential EA870840 ↗"
+    },
+    {
+      "id": "9be09fc9d726ab26f33e26bb9c52590e35e34316ee8dfcfceed0f0045cd7e882",
+      "source": "Krups Intuition Experience+ EA877D40",
+      "kind": "text",
+      "context": "Krups Intuition Experience+ EA877D40 ↗"
+    },
+    {
+      "id": "e6b1a678c97e322bc33dbfc6accbb84b451c8ff07f4c606d20bd3cecb22a5093",
+      "source": "Krups Intuition Preference+ EA875U40",
+      "kind": "text",
+      "context": "Krups Intuition Preference+ EA875U40 ↗"
+    },
+    {
+      "id": "9ee8f068694a652bb046170ece0151fdd6cc031b1af3652f583740b23a55475a",
+      "source": "Krups Opio XP320840",
+      "kind": "text",
+      "context": "Krups Opio XP320840 ↗"
+    },
+    {
+      "id": "38d60178b134c25e8a469fe5c0c62762597ef1e4ac5f26c81cfaa9e8016070f7",
+      "source": "Krups Virtuoso XP442C40",
+      "kind": "text",
+      "context": "Krups Virtuoso XP442C40"
+    },
+    {
+      "id": "3b43d7b64b2891fc4a80b3e3308e5283d60b3c3ce4210f0e4f17e7152da83b7c",
+      "source": "Krups Sensation EA910E40",
+      "kind": "text",
+      "context": "Krups Sensation EA910E40 ↗"
+    },
+    {
+      "id": "b31a30654262a991f42a5a96bd58b8f43ac70e8b563edcb9cf61374d35a07a8f",
+      "source": "Lelit Elizabeth PL92T",
+      "kind": "text",
+      "context": "Lelit Elizabeth PL92T"
+    },
+    {
+      "id": "fd779a00a21142e182a3f0dc2f8973daa94a906fca5afd2c163becc036a08c40",
+      "source": "Lelit Victoria PL91T",
+      "kind": "text",
+      "context": "Lelit Victoria PL91T ↗"
+    },
+    {
+      "id": "f42aa4aa9b6f991c0b64e0dbf42f92903ad73f38edebd5eb6352b802d6078a66",
+      "source": "Lelit Anna PL41TEM",
+      "kind": "text",
+      "context": "Lelit Anna PL41TEM"
+    },
+    {
+      "id": "138fb832477f46c6befbac22b4b849ebc00ba97865728e85cc6ed5773b2cf484",
+      "source": "LELIT Bianca V3",
+      "kind": "text",
+      "context": "LELIT Bianca V3"
+    },
+    {
+      "id": "70fa23c972e9c6baffba83c18c598b7f24faec8236da2e12aa5e1e72160776be",
+      "source": "Lelit Glenda PL41PLUST",
+      "kind": "text",
+      "context": "Lelit Glenda PL41PLUST"
+    },
+    {
+      "id": "b83e3f24bc33c452c9fff4b9f8f9ebad3978d57de7a1b93204bca434503444c5",
+      "source": "Lelit Grace PL81T",
+      "kind": "text",
+      "context": "Lelit Grace PL81T"
+    },
+    {
+      "id": "0a2e7379bd74dcb62d17a7a9f45cf878d1b00ec6b08f766ebe18bddc2214db01",
+      "source": "Gaggia Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "text",
+      "context": "Gaggia Espresso Machines: Compare the Lineup | Coffeedant"
+    },
+    {
+      "id": "aeda9538174d798e7f7bce834e7af6795548d8af604ca2952cac097198a6fa20",
+      "source": "Gaggia espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 18 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "Gaggia Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document"
+    },
+    {
+      "id": "5384d1cd46d2bb3e3b9fddfa94d873573ab8c64ef2b5a55344c45e7c6fa45aee",
+      "source": "Gaggia Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "metadata",
+      "context": "Gaggia Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document"
+    },
+    {
+      "id": "74f227354886d9fd231d4faf41b7af2ebdcd3032f077a7385b20d563008dd3d5",
+      "source": "Gaggia, mapped.",
+      "kind": "text",
+      "context": "Gaggia, mapped."
+    },
+    {
+      "id": "c649b60df468495d496d81a9fc0b8f44357e9f9e211253adefe6823940047315",
+      "source": "A large catalog ranging from the mod-friendly Classic platform to convenient bean-to-cup machines.",
+      "kind": "text",
+      "context": "A large catalog ranging from the mod-friendly Classic platform to convenient bean-to-cup machines."
+    },
+    {
+      "id": "1268b16a704a1f79cabc36e37771159879c55a82f24f7832c936fff010aa7be1",
+      "source": "Gaggia overview",
+      "kind": "attribute",
+      "context": "← All brands Italy · Mixed · broad lineup Gaggia, mapped. A large catalog ranging from the mod-friendly Classic platform to convenient bean-to-cup machines.   18machine reviews $–$$$price position Balanced workflowworkflow"
+    },
+    {
+      "id": "ca6eff2648543111b0645f119560eaab64577e65aeab6905227995285dcdd4f5",
+      "source": "Where Gaggia sits.",
+      "kind": "text",
+      "context": "Where Gaggia sits."
+    },
+    {
+      "id": "fa4e2afc3ed02a54702f06dfb6cdc0d214a58fe88f04dc293727778f283c07ec",
+      "source": "Gaggia: Balanced workflow",
+      "kind": "attribute",
+      "context": "Push-button easeHands-on control  Gaggia  Best for: A proven first step into espresso"
+    },
+    {
+      "id": "6e6f867fecc18e903455553de5d64188010bf60b17208be8814a926d160f9be7",
+      "source": "Iconic manual models",
+      "kind": "text",
+      "context": "Iconic manual models"
+    },
+    {
+      "id": "1fe7df2776e020689d93451a29cb4d2f115c613109c3afce6241da21a2ccb410",
+      "source": "Large automatic range",
+      "kind": "text",
+      "context": "Large automatic range"
+    },
+    {
+      "id": "1d1cef34342afe779a41865e6a3cf634618728147c98f5619173150b901a3053",
+      "source": "Strong community",
+      "kind": "text",
+      "context": "Strong community"
+    },
+    {
+      "id": "3b68b2e2e6142f203d349b56dd32d3856b70cc0a03336be0a5d11430512e57ae",
+      "source": "Quality and workflow vary widely across the range.",
+      "kind": "text",
+      "context": "Quality and workflow vary widely across the range."
+    },
+    {
+      "id": "0f6198462b10e4b126ca251745d3a3b55ef4817246b58a30a9183662da64bdef",
+      "source": "What Gaggia actually builds for.",
+      "kind": "text",
+      "context": "What Gaggia actually builds for."
+    },
+    {
+      "id": "f74074c8436a2c4a60ca25eae9c8eb03d68c5dabd24884ad608461877bde983d",
+      "source": "Gaggia spans two distinct worlds: hands-on home espresso led by the Classic family, and a large automatic catalog built for convenience. Treat those as separate ranges.",
+      "kind": "text",
+      "context": "Gaggia spans two distinct worlds: hands-on home espresso led by the Classic family, and a large automatic catalog built for convenience. Treat those as separate ranges."
+    },
+    {
+      "id": "8d7c72925e64fbbe83bfab84149f0abf2ade7421c0b4408da3a60b9cbd626789",
+      "source": "The Classic ecosystem rewards learning and modification. The automatic range reduces effort but shifts attention toward milk-system cleaning and brew-group care.",
+      "kind": "text",
+      "context": "The Classic ecosystem rewards learning and modification. The automatic range reduces effort but shifts attention toward milk-system cleaning and brew-group care."
+    },
+    {
+      "id": "54e8b0b180cccbc1b2023eea2d9071fd1e341a4874894e6be3b45dc36883e2a6",
+      "source": "Classic and Espresso Evolution are manual. Brera, Anima, Cadorna, Magenta, Velasca, Babila, and Accademia move through increasingly capable automatic tiers.",
+      "kind": "text",
+      "context": "Classic and Espresso Evolution are manual. Brera, Anima, Cadorna, Magenta, Velasca, Babila, and Accademia move through increasingly capable automatic tiers."
+    },
+    {
+      "id": "a372a68e773c67785c58053f96bb3ccdfc266fc694be3d2d5b26997e8a547134",
+      "source": "Gaggia Coffee Finder",
+      "kind": "text",
+      "context": "Gaggia Coffee Finder"
+    },
+    {
+      "id": "dfd5373960f4a8ca3cb7bcc851a3434cbb540c1c63addafb001bde4290c0f94f",
+      "source": "Find the Gaggia machine that fits your routine.",
+      "kind": "text",
+      "context": "Find the Gaggia machine that fits your routine."
+    },
+    {
+      "id": "38b95b90f0466c4250472076a977871f54f5f177fa855de1850334a9050c1971",
+      "source": "Start with any constraint. This compact finder searches every Gaggia espresso-machine review; the full finder can compare the result with every brand.",
+      "kind": "text",
+      "context": "Start with any constraint. This compact finder searches every Gaggia espresso-machine review; the full finder can compare the result with every brand."
+    },
+    {
+      "id": "24b6f97f5b217ce429cd32a249727bfe1bf3e2109ea91aac20ca2c1b4bba77e9",
+      "source": "Gaggia and nearby brand alternatives",
+      "kind": "attribute",
+      "context": "BrandSystemPrice positionBest for   Gaggia Mixed · broad lineup $–$$$ A proven first step into espresso Current  Breville Mixed · guided control $–$$$$ Learning without unnecessary friction Compare →  De'Longhi Mixed · convenience-led $–$$$ Milk drinks across every budget Compare →"
+    },
+    {
+      "id": "4ae1fb415c63bc6cdc83cb055a6945bd9ddae271a0ee9e8a273e542b7457f045",
+      "source": "The Gaggia lineup.",
+      "kind": "text",
+      "context": "The Gaggia lineup."
+    },
+    {
+      "id": "3a5b5376464e48acb50a85a2c4bac519069f3a0a41e239a51b6c3d984aede4f9",
+      "source": "Gaggia Accademia RI9781/01",
+      "kind": "text",
+      "context": "Gaggia Accademia RI9781/01"
+    },
+    {
+      "id": "f3ee49c806264b4239a1a4baebab44db86149964de32cd43bfb3f100c1abd711",
+      "source": "Gaggia Anima Deluxe",
+      "kind": "text",
+      "context": "Gaggia Anima Deluxe"
+    },
+    {
+      "id": "c314c087eaba106e1b85d7dfb5b57123f6eea471599d084864f3aedd4540aa72",
+      "source": "Gaggia Babila RI9700",
+      "kind": "text",
+      "context": "Gaggia Babila RI9700"
+    },
+    {
+      "id": "aa7115d4bc77cae69041c3896fb283915b8d3a47b2d38028b3c8ef698dd47338",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47",
+      "kind": "text",
+      "context": "Gaggia Cadorna Barista Plus RI9601/47"
+    },
+    {
+      "id": "a6f8c596d06aa47e53b6fcc4150bd9ee8eeee1d28688c45461a25e5cbed061f1",
+      "source": "Gaggia Cadorna Milk",
+      "kind": "text",
+      "context": "Gaggia Cadorna Milk"
+    },
+    {
+      "id": "e76bd5c2b0647e4ebf05673f95880c8aba80c8ed857f3d615066444f8ceaed48",
+      "source": "Gaggia Espresso Evolution EG2115",
+      "kind": "text",
+      "context": "Gaggia Espresso Evolution EG2115"
+    },
+    {
+      "id": "27932df662bae0a3a6e020bb99bed7fabf5fba99df288f7e8803dcdde4dfa64e",
+      "source": "Gaggia Magenta Prestige RI8702",
+      "kind": "text",
+      "context": "Gaggia Magenta Prestige RI8702"
+    },
+    {
+      "id": "8f3cb297ecaa17c57b6e4e6672b72fb6983857cf97b06bb4adb2951cc331a25f",
+      "source": "Gaggia Naviglio Deluxe HD8749",
+      "kind": "text",
+      "context": "Gaggia Naviglio Deluxe HD8749"
+    },
+    {
+      "id": "64a672611e71b80d295d78f6e9cb987c6a6a4d797d6f4a11427df496046f130e",
+      "source": "Gaggia Naviglio HD8749/01",
+      "kind": "text",
+      "context": "Gaggia Naviglio HD8749/01"
+    },
+    {
+      "id": "e3aae53e8dd1946c8e3d3117a5138c8143302368fdac3af486b51d127923143a",
+      "source": "Gaggia Velasca Prestige RI8263",
+      "kind": "text",
+      "context": "Gaggia Velasca Prestige RI8263"
+    },
+    {
+      "id": "a1d3654887c5749fb9aca991c6126fb1bf6d7943eecc49d88f9d1677b9f73b22",
+      "source": "Gaggia Velasca RI8260-3",
+      "kind": "text",
+      "context": "Gaggia Velasca RI8260-3"
+    },
+    {
+      "id": "5280a6b660120d21029f70b0a1870e67f72f0ca68e976704e862dbecd71bab6f",
+      "source": "Gaggia Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "595ba11efd2c444074f3b373510201ca353ed4586204837649fefad4f1316547",
+      "source": "Gaggia espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 18 Coffeedant reviews.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "9d45df6a3569192dc8f884f633c7e9feee16c1074b39a701aa115dc155d8bfa0",
+      "source": "Gaggia, mapped.",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "0f67a3f4084d653be113c655121474b588e3c1a558d7ad335f3475655a8c56d2",
+      "source": "Jura Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "text",
+      "context": "Jura Espresso Machines: Compare the Lineup | Coffeedant"
+    },
+    {
+      "id": "44c755dd6c51ce07ebdd170c8244055537d2a4cfaf99c1275a56615ae7786c81",
+      "source": "Jura espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 4 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "Jura Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.c"
+    },
+    {
+      "id": "c4f273379dcd8c5723ed114e8ffb59a94c9d2faae69b8200b1efd403c3239c34",
+      "source": "Jura Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "metadata",
+      "context": "Jura Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.c"
+    },
+    {
+      "id": "ba8069ca536c66f61b6afd1e3c159995cc92e0a1f06c6c26d4ddeedd04dc3604",
+      "source": "Jura, mapped.",
+      "kind": "text",
+      "context": "Jura, mapped."
+    },
+    {
+      "id": "2d7050a5be3404800027e42766c46e9dbd9eb6ffd5c0bf03a0809a8692ee293c",
+      "source": "High-end one-touch machines that coordinate grinding, brewing, milk, and maintenance for repeatable routines.",
+      "kind": "text",
+      "context": "High-end one-touch machines that coordinate grinding, brewing, milk, and maintenance for repeatable routines."
+    },
+    {
+      "id": "52f8080e375d5e161cd2c9ffd497ecccc61fa381b340c67d16f729172332d8e9",
+      "source": "Jura overview",
+      "kind": "attribute",
+      "context": "← All brands Switzerland · Bean-to-cup · automatic Jura, mapped. High-end one-touch machines that coordinate grinding, brewing, milk, and maintenance for repeatable routines.   4machine reviews $$$–$$$$price position Convenience firstworkflow"
+    },
+    {
+      "id": "7a1a6feef83052a5993185f64e6c5784bca6701f561256a823f5db65fe6e1774",
+      "source": "Where Jura sits.",
+      "kind": "text",
+      "context": "Where Jura sits."
+    },
+    {
+      "id": "7ec8e78126640d7ebce91ef24869243bef627971a93007952ed0e4963a4af4ea",
+      "source": "Jura: Convenience first",
+      "kind": "attribute",
+      "context": "Push-button easeHands-on control  Jura  Best for: Premium automation"
+    },
+    {
+      "id": "b1d8c058e8c2806be9b3558b30ce53ea5a8383a235c2bccadd49d212992a0bab",
+      "source": "Polished automation",
+      "kind": "text",
+      "context": "Polished automation"
+    },
+    {
+      "id": "3d428c19ddf04301f5a985c1df47ea24c3494bbc791778ed5665c16a20afc402",
+      "source": "Guided maintenance",
+      "kind": "text",
+      "context": "Guided maintenance"
+    },
+    {
+      "id": "7a01f4373470b84a264c2f66d180ddcb2038a67182e495eab47fc1edd5bd9195",
+      "source": "Broad drink menus",
+      "kind": "text",
+      "context": "Broad drink menus"
+    },
+    {
+      "id": "12e8a76c5601965ab9e7d0b859ad1dcd6d8c536c48876647395e7993c04c318e",
+      "source": "Premium pricing with little hands-on control.",
+      "kind": "text",
+      "context": "Premium pricing with little hands-on control."
+    },
+    {
+      "id": "b489b58219ed6ef4bdd825a5f0896bc758ac1b0db972c948eb6c5c15c9b07cf1",
+      "source": "What Jura actually builds for.",
+      "kind": "text",
+      "context": "What Jura actually builds for."
+    },
+    {
+      "id": "d0039f216c8900bdd9efbdae6922070e24dc4dffa5ed62c27217a64a07873292",
+      "source": "Jura builds premium bean-to-cup systems where grinder logic, brew programs, milk handling, and maintenance prompts operate as one coordinated experience.",
+      "kind": "text",
+      "context": "Jura builds premium bean-to-cup systems where grinder logic, brew programs, milk handling, and maintenance prompts operate as one coordinated experience."
+    },
+    {
+      "id": "121f16cc9620992330a7b8b35c5b0601595b2f93d06633720a6045e7bb15fd34",
+      "source": "You pay for repeatability and low daily friction rather than access to the brewing mechanics. Cleaning products, filters, and authorized support belong in the ownership budget.",
+      "kind": "text",
+      "context": "You pay for repeatability and low daily friction rather than access to the brewing mechanics. Cleaning products, filters, and authorized support belong in the ownership budget."
+    },
+    {
+      "id": "ae290bc85d09886068f6fc7a8f25a70dd3df38bb8f3f15316c15e581a872790a",
+      "source": "E-series machines target everyday home use. J-series add presentation and drink features. Z-series broaden hot and cold capability, while GIGA models prioritize capacity and throughput.",
+      "kind": "text",
+      "context": "E-series machines target everyday home use. J-series add presentation and drink features. Z-series broaden hot and cold capability, while GIGA models prioritize capacity and throughput."
+    },
+    {
+      "id": "d4a6b7c9e8cea9611880d244ce4e35e8710d966b57aadf1954a8f4a620c82604",
+      "source": "Jura Coffee Finder",
+      "kind": "text",
+      "context": "Jura Coffee Finder"
+    },
+    {
+      "id": "cb986024f478ab74e20f14c0ee6462bd9c64f6887b73b7422c20d3674e59add8",
+      "source": "Find the Jura machine that fits your routine.",
+      "kind": "text",
+      "context": "Find the Jura machine that fits your routine."
+    },
+    {
+      "id": "2fc3fa39ae0e9747de237a40fc4467dd42e235ad73ca4598af194a97d5dffdc2",
+      "source": "Start with any constraint. This compact finder searches every Jura espresso-machine review; the full finder can compare the result with every brand.",
+      "kind": "text",
+      "context": "Start with any constraint. This compact finder searches every Jura espresso-machine review; the full finder can compare the result with every brand."
+    },
+    {
+      "id": "ba79b42549637e5415c37a437e6a18c6e1d66383d9b7b28c1bf04a91a932e993",
+      "source": "Jura and nearby brand alternatives",
+      "kind": "attribute",
+      "context": "BrandSystemPrice positionBest for   Jura Bean-to-cup · automatic $$$–$$$$ Premium automation Current  Philips Bean-to-cup · automatic $$–$$$ Easy milk drinks and cleanup Compare →  Bosch Bean-to-cup · automatic $$–$$$ One-touch drinks and guided care Compare →"
+    },
+    {
+      "id": "4f050fcab066f524913e21305bb549329ca92262386f2f4287f7957d212d3540",
+      "source": "The Jura lineup.",
+      "kind": "text",
+      "context": "The Jura lineup."
+    },
+    {
+      "id": "47d45e122f1cfccf348f2b7542d0ce0b4f1d13f9ae4057a8d1bfcc960abb3ddf",
+      "source": "Jura Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "fb66b72831fa0258b1c0bbbaba301d75c0f55c8c66b699bbb5ebbb77e03c665f",
+      "source": "Jura espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 4 Coffeedant reviews.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "465961281b67c65a4fd543a1115d4191baa018c73e4ef08352ccf3bf430675b8",
+      "source": "Jura, mapped.",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "bc8a9c537d841c5423b649ab77026f04b2c5fb7131c408eb110251a107131ccd",
+      "source": "Krups Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "text",
+      "context": "Krups Espresso Machines: Compare the Lineup | Coffeedant"
+    },
+    {
+      "id": "12ceaaad3bfc378abcd43a5e2ddb65d5b70d6a09607b39f93b16551a6fc6deaf",
+      "source": "Krups espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 11 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "Krups Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document."
+    },
+    {
+      "id": "667c09726e2701fcf04f3c746b91a7745cf721a77c5d552f6f6ee554e1d634b4",
+      "source": "Krups Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "metadata",
+      "context": "Krups Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document."
+    },
+    {
+      "id": "af7ff395ccd4794eeaacaa360f1ebed17f4bb256b772fade42926d9e50a5b935",
+      "source": "Krups, mapped.",
+      "kind": "text",
+      "context": "Krups, mapped."
+    },
+    {
+      "id": "ff309d07a6bd1fcf1192e8680bc3b675278d9a252de3bebccfec6a9c88fb577a",
+      "source": "Compact manual and automatic machines built for buyers who value a tidy counter and simple operation.",
+      "kind": "text",
+      "context": "Compact manual and automatic machines built for buyers who value a tidy counter and simple operation."
+    },
+    {
+      "id": "d0674754fc7fa5ab74448d438c6bb79f7c85cc8b9132a8980eead2913ac44690",
+      "source": "Krups overview",
+      "kind": "attribute",
+      "context": "← All brands Germany · Mixed · compact Krups, mapped. Compact manual and automatic machines built for buyers who value a tidy counter and simple operation.   11machine reviews $–$$$price position Convenience firstworkflow"
+    },
+    {
+      "id": "a898cd7b0d894d1eb891af3a0750b496dabef483c359bed17c70d91dfb0c971f",
+      "source": "Where Krups sits.",
+      "kind": "text",
+      "context": "Where Krups sits."
+    },
+    {
+      "id": "af07d3779ddd0c961736aab93a38eedcd2ef2e21f8f06ece99a1e67ccbfdb678",
+      "source": "Krups: Convenience first",
+      "kind": "attribute",
+      "context": "Push-button easeHands-on control  Krups  Best for: Small kitchens and simple drinks"
+    },
+    {
+      "id": "9607aed5226d611505284d2fdcfe5255dfb393cf75797f04de261aecf6b1d51c",
+      "source": "Compact designs",
+      "kind": "text",
+      "context": "Compact designs"
+    },
+    {
+      "id": "eb625a909a9690cfe6e7445277933b58099b5c7bad8c708615edb8a0115dfed4",
+      "source": "Approachable controls",
+      "kind": "text",
+      "context": "Approachable controls"
+    },
+    {
+      "id": "b6ba38442371395c65cc303f8307c8dda369f13d555fc693ce4b3b21a7bd8eab",
+      "source": "Automatic options",
+      "kind": "text",
+      "context": "Automatic options"
+    },
+    {
+      "id": "0d13cd445a1818af3f173a904395365d1e9c067c89a9b07c68e424f37a018782",
+      "source": "Less room to customize and repair than prosumer machines.",
+      "kind": "text",
+      "context": "Less room to customize and repair than prosumer machines."
+    },
+    {
+      "id": "3c20b26cdf756adf006c18e4a351fb070c3bebcc15e3e3167cdbf65524e86c7e",
+      "source": "What Krups actually builds for.",
+      "kind": "text",
+      "context": "What Krups actually builds for."
+    },
+    {
+      "id": "584ef021eae92ce6700e4f2ed15c6dce3d94681063e72da87aa556ca33c2655e",
+      "source": "Krups favors compact footprints and approachable controls across both manual and automatic machines. Many models are designed to disappear into a normal kitchen routine.",
+      "kind": "text",
+      "context": "Krups favors compact footprints and approachable controls across both manual and automatic machines. Many models are designed to disappear into a normal kitchen routine."
+    },
+    {
+      "id": "d7939a2537cb9259366a0e133c92ed327da3c84204be55546130d3186edfb9b2",
+      "source": "Compact integrated designs can be convenient but offer less access for repair or deep cleaning. Warranty, regional parts support, and milk-system upkeep deserve attention.",
+      "kind": "text",
+      "context": "Compact integrated designs can be convenient but offer less access for repair or deep cleaning. Warranty, regional parts support, and milk-system upkeep deserve attention."
+    },
+    {
+      "id": "f8f94c21825d23a61b61ece99d4732a16b95f53c5420f3bd0e1532875d675605",
+      "source": "Opio and Virtuoso are manual. Arabica and Sensation simplify automatic coffee. Evidence and Intuition add milk drinks, larger menus, and more interface guidance.",
+      "kind": "text",
+      "context": "Opio and Virtuoso are manual. Arabica and Sensation simplify automatic coffee. Evidence and Intuition add milk drinks, larger menus, and more interface guidance."
+    },
+    {
+      "id": "b750356ec45f2da078ee3025a9ce8223713543c5b10c837e128972149f92dadb",
+      "source": "Krups Coffee Finder",
+      "kind": "text",
+      "context": "Krups Coffee Finder"
+    },
+    {
+      "id": "a7350a647714cc9913873f9df614f951bb18bbd0d1db59b84fb52bd6c096fead",
+      "source": "Find the Krups machine that fits your routine.",
+      "kind": "text",
+      "context": "Find the Krups machine that fits your routine."
+    },
+    {
+      "id": "d300526d011eb39cf8c5ce12cf15b1638a20cfa18b4936e26624ad281c4cf56b",
+      "source": "Start with any constraint. This compact finder searches every Krups espresso-machine review; the full finder can compare the result with every brand.",
+      "kind": "text",
+      "context": "Start with any constraint. This compact finder searches every Krups espresso-machine review; the full finder can compare the result with every brand."
+    },
+    {
+      "id": "9a172562fe9d6ba2ef97433f82c66b43a3822da49a46e64ea9cfaf45450cfb19",
+      "source": "Krups and nearby brand alternatives",
+      "kind": "attribute",
+      "context": "BrandSystemPrice positionBest for   Krups Mixed · compact $–$$$ Small kitchens and simple drinks Current  Bosch Bean-to-cup · automatic $$–$$$ One-touch drinks and guided care Compare →  Ninja Guided · multi-drink $$ Espresso, drip and cold drinks in one station Compare →"
+    },
+    {
+      "id": "310e3b41daa4b4d70b947bb86edfa4d7c3f29b22264c14ae5159930200ee6ea7",
+      "source": "The Krups lineup.",
+      "kind": "text",
+      "context": "The Krups lineup."
+    },
+    {
+      "id": "6e9b6a3c813b60c21b3583fe69ddaf8ccee9f7d3b8e3de6255cba4e77982c334",
+      "source": "Krups Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "eba5d38e2a852c81de840fdc6fd35382f5642d340490daee9a28aa69eb5e48de",
+      "source": "Krups espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 11 Coffeedant reviews.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "c88c847021e542df87e9e3cbf28c5b56e1cfb917d052dd027317044475638165",
+      "source": "Krups, mapped.",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "39b05c210b10fe77cbccf9b7283ad58bdab4a409082613b1c0498f330213e1cc",
+      "source": "Lelit Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "text",
+      "context": "Lelit Espresso Machines: Compare the Lineup | Coffeedant"
+    },
+    {
+      "id": "4bb9f5d15e932491b556566786a120f6a7d3c09d48ad1cb765a6c901eb14ad6f",
+      "source": "Lelit espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 7 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "Lelit Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document."
+    },
+    {
+      "id": "20a67a4154b483059a774569d5429cabbaafc5149e5604dd52aa52d1f3f7cc77",
+      "source": "Lelit Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "metadata",
+      "context": "Lelit Espresso Machines: Compare the Lineup | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document."
+    },
+    {
+      "id": "48a31d119642df13a45e4f71c82156e79bd4b48a668c18b19fda89a905667c73",
+      "source": "Lelit, mapped.",
+      "kind": "text",
+      "context": "Lelit, mapped."
+    },
+    {
+      "id": "190bdedb0ce1d05c37373f19408a0df0d327cc35c8659d52668cb875e4b3cf7b",
+      "source": "Feature-dense Italian machines that move from compact single boilers to advanced dual-boiler control.",
+      "kind": "text",
+      "context": "Feature-dense Italian machines that move from compact single boilers to advanced dual-boiler control."
+    },
+    {
+      "id": "f65ef465aa8834a9e79988490dab99b2e097a0796b732640170b4e77ff68d89b",
+      "source": "Lelit overview",
+      "kind": "attribute",
+      "context": "← All brands Italy · Boiler · hands-on Lelit, mapped. Feature-dense Italian machines that move from compact single boilers to advanced dual-boiler control.   7machine reviews $$–$$$$price position Control firstworkflow"
+    },
+    {
+      "id": "c253d777c7a55c21bc0a358b8d08a35d56cb6c58a40b365c5a3091f069ad0374",
+      "source": "Where Lelit sits.",
+      "kind": "text",
+      "context": "Where Lelit sits."
+    },
+    {
+      "id": "de5f71647d9e5df9e20d614c37ba316f70dee23efbf9810024c007d53aedd68d",
+      "source": "Lelit: Control first",
+      "kind": "attribute",
+      "context": "Push-button easeHands-on control  Lelit  Best for: Maximum capability per dollar"
+    },
+    {
+      "id": "467bfe6ae8b892ffacf8323cec1cd3b013ddbe7679d95a0d000c8b5f7c4991e5",
+      "source": "Strong specifications",
+      "kind": "text",
+      "context": "Strong specifications"
+    },
+    {
+      "id": "6b834465f6585f55bbec5332b6c59c327b160f84061d63a9c0b1ce1a52e3007c",
+      "source": "Wide upgrade path",
+      "kind": "text",
+      "context": "Wide upgrade path"
+    },
+    {
+      "id": "bf6f5d84476bb42945221d66c25b0c1b0af309d37195da1f47bdca6e32da86e2",
+      "source": "Compact options",
+      "kind": "text",
+      "context": "Compact options"
+    },
+    {
+      "id": "818d625a44c6faf64245341539e67ea3697492baf0195f7bc7f1e66f22008134",
+      "source": "Interfaces can feel more functional than luxurious.",
+      "kind": "text",
+      "context": "Interfaces can feel more functional than luxurious."
+    },
+    {
+      "id": "6f22708932af15ec134c84887bc1102e7c4c75176f56e3d2bfe780ee392a3993",
+      "source": "What Lelit actually builds for.",
+      "kind": "text",
+      "context": "What Lelit actually builds for."
+    },
+    {
+      "id": "8b4af721282a3c1a3ae4242e24a5ec459c938485a24b277f3e404af3280769c6",
+      "source": "Lelit packs temperature control and prosumer functions into relatively compact bodies. The brand often prioritizes capability per dollar over decorative polish.",
+      "kind": "text",
+      "context": "Lelit packs temperature control and prosumer functions into relatively compact bodies. The brand often prioritizes capability per dollar over decorative polish."
+    },
+    {
+      "id": "e38ca19904ca9accb6f05a4ee79ee8b0e485dd2a859ab63562e734adfb9cfaa9",
+      "source": "The lineup works best for buyers who understand why they need PID control, boiler capacity, or flow control. A separate grinder remains central to the result.",
+      "kind": "text",
+      "context": "The lineup works best for buyers who understand why they need PID control, boiler capacity, or flow control. A separate grinder remains central to the result."
+    },
+    {
+      "id": "7810ee775925eb105a2afc5851b2043525a9c26bf81dca218ac24dce8d6e14f2",
+      "source": "Anna, Grace, Glenda, and Victoria cover compact single-boiler steps. Mara X is the heat-exchanger route. Elizabeth and Bianca serve dual-boiler buyers at different levels.",
+      "kind": "text",
+      "context": "Anna, Grace, Glenda, and Victoria cover compact single-boiler steps. Mara X is the heat-exchanger route. Elizabeth and Bianca serve dual-boiler buyers at different levels."
+    },
+    {
+      "id": "5e4d3b10623ed423d5e0cee41231fe13c23919c92c26e810b4eb6858649d68bf",
+      "source": "Lelit Coffee Finder",
+      "kind": "text",
+      "context": "Lelit Coffee Finder"
+    },
+    {
+      "id": "5861e649b40b45362c0d291b451ada60767890f6351b68c73ca5c996060e3528",
+      "source": "Find the Lelit machine that fits your routine.",
+      "kind": "text",
+      "context": "Find the Lelit machine that fits your routine."
+    },
+    {
+      "id": "800b4c230bcf90d45817e07100efc53858cf7217096d72cd9f8762d12caeef17",
+      "source": "Start with any constraint. This compact finder searches every Lelit espresso-machine review; the full finder can compare the result with every brand.",
+      "kind": "text",
+      "context": "Start with any constraint. This compact finder searches every Lelit espresso-machine review; the full finder can compare the result with every brand."
+    },
+    {
+      "id": "0200e2c6522f4bc068ec40b42b5fcd74c9a55e7ebddcc8e5f76e13746abc3c27",
+      "source": "Lelit and nearby brand alternatives",
+      "kind": "attribute",
+      "context": "BrandSystemPrice positionBest for   Lelit Boiler · hands-on $$–$$$$ Maximum capability per dollar Current  Bezzera Boiler · hands-on $$–$$$$ Traditional prosumer workflows Compare →  Quick Mill Mixed boiler · hands-on $$–$$$$ A precise fit between entry and premium Compare →"
+    },
+    {
+      "id": "0b7176a257b2516f99ed344bf74d702f4724ec0ad2c387543f204f2be557bdd6",
+      "source": "The Lelit lineup.",
+      "kind": "text",
+      "context": "The Lelit lineup."
+    },
+    {
+      "id": "afb7c6bc61f4ac7fb48b44993ae3cae102ae99876c363e593cab864c98fe2c79",
+      "source": "Lelit Mara X PL62X",
+      "kind": "text",
+      "context": "Lelit Mara X PL62X"
+    },
+    {
+      "id": "23fe42cfd99492432d0178d003c9c339fc2a6f7d8537efc1e54fb4609fea358d",
+      "source": "Lelit Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "c1db9244f8233b89197b19d610d58c224dff8a64dbbd23bed3b9f4583fd09d19",
+      "source": "Lelit espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 7 Coffeedant reviews.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "a9ae6ccb3e92fe001bd3d22e311523786d9b0d7fbb5377f305d0b76501bff484",
+      "source": "Lelit, mapped.",
+      "kind": "json",
+      "context": "name"
+    }
+  ],
+  "snapshotHash": "c9e4bb5dfa5584a904ca7c60ec08499b08a4aa7bff31a36e43846ac1deec1adc"
+}

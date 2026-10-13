@@ -4,7 +4,7 @@ import path from 'node:path';
 import {root,readJson,loadCache,validateTranslation,segmentId,getEdition,policyHash,digest} from '../core.mjs';
 import {regionalFinder} from '../build.mjs';
 
-for(const [batch,count] of [[3,34],[4,30]])test(`${count} real Finder records in batch ${batch} retain unique complete copy and source facts in NL DE FR without US offers`,async()=>{
+for(const [batch,count] of [[3,34],[4,30],[5,40]])test(`${count} real Finder records in batch ${batch} retain unique complete copy and source facts in NL DE FR without US offers`,async()=>{
  const frozen=await readJson(path.join(root,`localization/authored/finder-products-batch-${batch}.items.source.json`));
  const snapshot=await readJson(path.join(root,`localization/authored/finder-batch-${batch}.source.json`));
  const authored=await readJson(path.join(root,`localization/authored/finder-products-batch-${batch}.json`));
@@ -38,7 +38,7 @@ for(const [batch,count] of [[3,34],[4,30]])test(`${count} real Finder records in
  }
 });
 
-for(const batch of [3,4])test(`Manufacturer own-page snapshot ${batch} is complete in all three caches, without implying catalog completeness`,async()=>{
+for(const batch of [3,4,5])test(`Manufacturer own-page snapshot ${batch} is complete in all three caches, without implying catalog completeness`,async()=>{
  const source=await readJson(path.join(root,`localization/authored/brand-pages-batch-${batch}.source.json`));
  assert.equal(source.snapshotHash,digest(JSON.stringify(source.segments)));
  for(const id of ['nl','de','fr']){
@@ -49,6 +49,26 @@ for(const batch of [3,4])test(`Manufacturer own-page snapshot ${batch} is comple
    assert.equal(entry.source,segment.source);
    assert.equal(entry.policyHash,policyHash);
    assert.equal(validateTranslation(segment.source,entry.text),entry.text);
+  }
+ }
+});
+
+test('new SEO metadata and image descriptions reuse complete direct wording without changing attribution or facts',async()=>{
+ const source=await readJson(path.join(root,'localization/authored/seo-refresh-batch-5.source.json'));
+ assert.equal(source.snapshotHash,digest(JSON.stringify(source.segments)));
+ assert.equal(source.segments.length,8);
+ for(const id of ['nl','de','fr']){
+  const cache=await loadCache(id);
+  for(const segment of source.segments){
+   const entry=cache.segments[segment.id];
+   assert(entry,`${id} missing new SEO ${segment.source}`);
+   assert.equal(entry.source,segment.source);
+   assert.equal(entry.policyHash,policyHash);
+   assert.notEqual(entry.text,segment.source);
+   assert.equal(validateTranslation(segment.source,entry.text),entry.text);
+   for(const attribution of ['Breville','Coffeedant','massage-techniques','Wikimedia Commons','CC BY-SA 2.0','MarkSweep','WebP']){
+    if(segment.source.includes(attribution))assert(entry.text.includes(attribution));
+   }
   }
  }
 });

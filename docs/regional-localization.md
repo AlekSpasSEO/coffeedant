@@ -212,6 +212,33 @@ is excluded from these content-page totals. Full editions remain unpublished;
 28 localization tests and analytics/consent validation pass. Continue the next
 missing Finder records with a fresh snapshot rather than rewriting either batch.
 
+The fifth direct batch increases the catalog to 104 complete records in all
+three languages, adding 40 products: the remaining Gaggia models, all JURA and
+Krups models, both La Marzocco models, four La Pavoni models, all Lelit models
+and Londinium R24. All three fields are authored in full, including source-market
+prices, condition caveats and exact variant identifiers. There are now 41 products
+/ 122 unique Finder fields left per language; unknown local offers remain hidden.
+
+Gaggia, Jura, Krups and Lelit own-page text, accessible labels, metadata and
+structured data are complete in NL/DE/FR, with stable brand-root routes. Twelve
+DOM/JSON checks preserve source link destinations; scoped full builds still
+reject the unfinished shared Finder. Concurrent US SEO improvements increased
+the current source to 43,221 unique slots without changing the 210-page count.
+Exact direct wording was reused for 133 new NL source-kind entries and 132 each
+in DE/FR. Eight new shared metadata/image-description slots were authored against
+`seo-refresh-batch-5.source.json`, preserving image attribution and copyright
+qualifications. Thus previously completed page text remains complete after the
+SEO changes; old source snapshots were not overwritten or artificially exempted.
+
+Current content-page own-text completeness is NL 20, DE 19, FR 19; renderable
+content-page totals remain NL 11, DE 10, FR 10 until their Finder dependencies
+are complete. The 404 is excluded from these totals. All editions remain
+unpublished, and 31 localization tests plus sitewide analytics validation pass.
+Continue the final Finder records, then full article bodies and their newly
+indexed metadata/media descriptions. Batch size is not capped at one or two
+pages: combine substantive comparable work into one validated PR to reduce
+repeated source scans and CI overhead without weakening completeness checks.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
