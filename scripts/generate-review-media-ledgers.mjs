@@ -25,6 +25,9 @@ const cleanText = (value = '') => decodeHtml(value)
 // Keep this count aligned with the publication validator. Entity text is metadata,
 // not an editorial word, so it is removed rather than decoded for density checks.
 const cleanEditorialText = (html) => html
+  .replace(/<div\b[^>]*class="review-buy-actions"[^>]*>[\s\S]*?<\/div>/gi, ' ')
+  .replace(/<aside\b[^>]*data-amazon-recommendation="[^"]+"[^>]*>[\s\S]*?<\/aside>/gi, ' ')
+  .replace(/<section\b[^>]*data-coffee-finder(?:\s|>)[\s\S]*?<\/section>/gi, ' ')
   .replace(/<([a-z][\w:-]*)\b[^>]*class="[^"]*\bsr-only\b[^"]*"[^>]*>[\s\S]*?<\/\1>/gi, ' ')
   .replace(/<script[\s\S]*?<\/script>/gi, ' ')
   .replace(/<style[\s\S]*?<\/style>/gi, ' ')

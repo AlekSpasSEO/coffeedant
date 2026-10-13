@@ -4,10 +4,10 @@ import BrandLanding from '../components/BrandLanding.astro';
 import a from '../data/pages-a.json';
 import b from '../data/pages-b.json';
 import { brands } from '../data/catalog';
-import { modernReviewSlugs } from '../data/review-registry';
+import { modernReviewSlugs, modernReviews } from '../data/review-registry';
 import { upgradedBlogPaths } from '../data/blog-articles';
 import { isMigratedLegacyPath, migrateLegacyHtml } from '../lib/legacy-content-migration';
-const all = [...a, ...b];
+const all = [...a, ...b, ...modernReviews.map((review) => ({ path: review.slug, title: review.title }))];
 export function getStaticPaths(){
   const reserved = new Set([
     '/espresso-machine/',

@@ -113,7 +113,7 @@ const principles = mode === 'with' ? [
           {enrichedPicks.map((pick, index) => (
             <a href={`${base}${pick.path.replace(/^\//, '')}`}>
               <span class="pick-index">{String(index + 1).padStart(2, '0')}</span>
-              {pick.image && <div class="pick-image"><img src={`${base}${pick.image}`} alt={pick.name} loading="lazy" /></div>}
+              {pick.image && <div class="pick-image"><img src={/^https?:\/\//.test(pick.image) ? pick.image : `${base}${pick.image}`} alt={pick.name} loading="lazy" /></div>}
               <p>{pick.brand}</p><h3>{pick.name}</h3><small>{pick.note}</small><b>Read review →</b>
             </a>
           ))}

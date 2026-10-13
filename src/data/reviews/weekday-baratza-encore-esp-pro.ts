@@ -17,6 +17,7 @@ const ownerRecent = 'https://www.reddit.com/r/espresso/comments/1tc6q0o/baratza_
 const hero = 'https://assets.breville.com/cdn-cgi/image/width=1304,format=auto,quality=75/ZCG595/HERO+Quarter+2+ESP+Pro+Hopper+GB+Beans.png?pdp';
 
 const profile: UpgradeReviewProfile = {
+  excludeSelfFromAlternatives: true,
   key: 'baratza-encore-esp-pro-us-20261013',
   slug: '/grinder/baratza-encore-esp-pro/', productId: 'CD-GR-000004',
   brand: 'Baratza', model: 'Encore ESP Pro', sku: 'US 100–120 V black model ZCG595BLK1AUC1A; catalogue reference 595-120V-A',
