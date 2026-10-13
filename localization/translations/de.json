@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "edition": "de",
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": {},
+  "routes": {
+    "page:b628e5e948e1a64bf476": {
+      "sourcePath": "/404/",
+      "path": "/404/"
+    },
+    "page:8a5edab282632443219e": {
+      "sourcePath": "/",
+      "path": "/"
+    },
+    "page:4f10f17be161adfe7005": {
+      "sourcePath": "/about/",
+      "path": "/ueber-uns/"
+    },
+    "page:57a4d9da18fa4fd63073": {
+      "sourcePath": "/ascaso/",
+      "path": "/ascaso/"
+    },
+    "page:7bbaef3b800faf81c68c": {
+      "sourcePath": "/bezzera/",
+      "path": "/bezzera/"
+    },
+    "page:b8a711f1650cd2b8cd12": {
+      "sourcePath": "/blog/conical-vs-flat-burr-grinders/",
+      "path": "/blog/konische-gegen-flache-mahlsteine/"
+    },
+    "page:ea943178cdad12df53c1": {
+      "sourcePath": "/blog/espresso-dosing/",
+      "path": "/blog/espresso-dosierung/"
+    },
+    "page:039b7f2338387bff3ec2": {
+      "sourcePath": "/blog/espresso-tamp-guide/",
+      "path": "/blog/espresso-stempeln/"
+    },
+    "page:b1a40be36df430bf83c2": {
+      "sourcePath": "/blog/espresso-techniques/",
+      "path": "/blog/espresso-techniken/"
+    },
+    "page:440361372a58c5576dbc": {
+      "sourcePath": "/blog/golden-ratio-espresso/",
+      "path": "/blog/golden-ratio-espresso/"
+    },
+    "page:ac1a0ddf11b7bd5953c8": {
+      "sourcePath": "/blog/ground-distribution/",
+      "path": "/blog/ebene-mehlverteilung/"
+    },
+    "page:68a120ac7e20ad3f282a": {
+      "sourcePath": "/blog/",
+      "path": "/blog/"
+    },
+    "page:5728073f79d67b347fa4": {
+      "sourcePath": "/blog/nordic-style-coffee/",
+      "path": "/blog/nordic-style-kaffee/"
+    },
+    "page:3ff5605eccf0c037ac31": {
+      "sourcePath": "/bosch/",
+      "path": "/bosch/"
+    },
+    "page:88efda36f9cd0ea2ac94": {
+      "sourcePath": "/brands/",
+      "path": "/marken/"
+    },
+    "page:a70b760f1c9a693ba5ff": {
+      "sourcePath": "/breville/",
+      "path": "/breville/"
+    },
+    "page:f53888022cfc201e78fe": {
+      "sourcePath": "/coffee-beans/counter-culture-hologram/",
+      "path": "/kaffeebohnen/counter-culture-hologram/"
+    },
+    "page:590e578cd690932f8f3a": {
+      "sourcePath": "/coffee-beans/",
+      "path": "/kaffeebohnen/"
+    },
+    "page:faed3dfc12f25b85293c": {
+      "sourcePath": "/coffee-machine/breville-luxe-brewer-thermal-bdc465/",
+      "path": "/kaffeemaschine/breville-luxe-brewer-thermal-bdc465/"
+    },
+    "page:3ae5033c0ad2aa1686e1": {
+      "sourcePath": "/coffee-machine/",
+      "path": "/kaffeemaschine/"
+    },
+    "page:740d14533e874c953989": {
+      "sourcePath": "/coffee-machine/k-duo-plus/",
+      "path": "/kaffeemaschine/k-duo-plus/"
+    },
+    "page:cfd191cd4f982fc16aa7": {
+      "sourcePath": "/contact/",
+      "path": "/kontakt/"
+    }
+  },
+  "lastModel": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "lastUsage": {
+    "prompt_tokens": 1241,
+    "completion_tokens": 612,
+    "total_tokens": 1853,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "neurons": 158.43544006347656
+  }
+}
