@@ -91,16 +91,96 @@
     "page:cfd191cd4f982fc16aa7": {
       "sourcePath": "/contact/",
       "path": "/kontakt/"
+    },
+    "page:5bec9962a4fc88f27246": {
+      "sourcePath": "/espresso-machine/breville-barista-pro-bes878/",
+      "path": "/espresso-maschine/breville-barista-pro-bes878/"
+    },
+    "page:060ff13581e2019751f4": {
+      "sourcePath": "/espresso-machine/breville-barista-touch-bes880bss/",
+      "path": "/espresso-maschine/breville-barista-touch-bes880bss/"
+    },
+    "page:b306db34bb63e6c3554e": {
+      "sourcePath": "/espresso-machine/breville-barista-touch-impress-bes881/",
+      "path": "/espresso-maschine/breville-barista-touch-impress-bes881/"
+    },
+    "page:70c56158628df61ba0e8": {
+      "sourcePath": "/espresso-machine/breville-dual-boiler-bes920xl/",
+      "path": "/espresso-maschine/breville-dual-boiler-bes920xl/"
+    },
+    "page:867fc406e3641f083159": {
+      "sourcePath": "/espresso-machine/breville-dynamic-duo-bep920/",
+      "path": "/espresso-maschine/breville-dynamic-duo-bep920/"
+    },
+    "page:df11ae498f0fa97e6b1f": {
+      "sourcePath": "/espresso-machine/breville-oracle-bes980x/",
+      "path": "/espresso-maschine/breville-oracle-bes980x/"
+    },
+    "page:1476d8f8d8a4165b9b1a": {
+      "sourcePath": "/espresso-machine/breville-oracle-jet-bes985/",
+      "path": "/espresso-maschine/breville-oracle-jet-bes985/"
+    },
+    "page:ac8fd22aa49ce1497941": {
+      "sourcePath": "/espresso-machine/breville-oracle-touch-bes990/",
+      "path": "/espresso-maschine/breville-oracle-touch-bes990/"
+    },
+    "page:863c1542deaede240103": {
+      "sourcePath": "/espresso-machine/built-in-grinder/",
+      "path": "/espresso-maschine/eingebaute-mahlmuhle/"
+    },
+    "page:d2728ca4d4699c06db00": {
+      "sourcePath": "/espresso-machine/cafelat-robot-barista/",
+      "path": "/espresso-maschine/cafelat-robot-barista/"
+    },
+    "page:da7c3d5bf7b0233e2a67": {
+      "sourcePath": "/espresso-machine/cheap-budget-under-500/",
+      "path": "/espresso-maschine/billig-budget-unter-500/"
+    },
+    "page:f302e80f50df925e4315": {
+      "sourcePath": "/espresso-machine/crem-one-hx-pid-wt-wc/",
+      "path": "/espresso-maschine/crem-one-hx-pid-wt-wc/"
+    },
+    "page:608be967e6a5b88ad138": {
+      "sourcePath": "/espresso-machine/dalla-corte-mina/",
+      "path": "/espresso-maschine/dalla-corte-mina/"
+    },
+    "page:869c1c2ade1444e370a1": {
+      "sourcePath": "/espresso-machine/delonghi-dedica/",
+      "path": "/espresso-maschine/delonghi-dedica/"
+    },
+    "page:561d0a77349e128ac4c2": {
+      "sourcePath": "/espresso-machine/delonghi-dinamica-aroma-bar-ecam359-37-tb/",
+      "path": "/espresso-maschine/delonghi-dinamica-aroma-bar-ecam359-37-tb/"
+    },
+    "page:ee7e9104aa9ed6258ed4": {
+      "sourcePath": "/espresso-machine/delonghi-dinamica-plus-ecam370/",
+      "path": "/espresso-maschine/delonghi-dinamica-plus-ecam370/"
+    },
+    "page:8a3353c99421f9969f12": {
+      "sourcePath": "/espresso-machine/delonghi-dinamica-plus-ecam38085sb/",
+      "path": "/espresso-maschine/delonghi-dinamica-plus-ecam38085sb/"
+    },
+    "page:20d98a2860cc9ef7a88d": {
+      "sourcePath": "/espresso-machine/delonghi-ecp3420/",
+      "path": "/espresso-maschine/delonghi-ecp3420/"
+    },
+    "page:928576ae9865751fdbb9": {
+      "sourcePath": "/espresso-machine/delonghi-eletta-explore-ecam450/",
+      "path": "/espresso-maschine/delonghi-eletta-explore-ecam450/"
+    },
+    "page:3819b20b7874d053e2a6": {
+      "sourcePath": "/espresso-machine/delonghi-la-specialista-arte/",
+      "path": "/espresso-maschine/delonghi-la-specialista-arte/"
     }
   },
   "lastModel": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "lastUsage": {
-    "prompt_tokens": 1241,
-    "completion_tokens": 612,
-    "total_tokens": 1853,
+    "prompt_tokens": 1537,
+    "completion_tokens": 794,
+    "total_tokens": 2331,
     "prompt_tokens_details": {
       "cached_tokens": 0
     },
-    "neurons": 158.43544006347656
+    "neurons": 203.6036376953125
   }
 }

@@ -171,16 +171,96 @@
     "page:fd0f6a09cdf60177c485": {
       "sourcePath": "/espresso-machine/breville-barista-express-impress-bes876/",
       "path": "/espresso-machine/breville-barista-express-impress-bes876/"
+    },
+    "page:b1eebacf315c2562956c": {
+      "sourcePath": "/espresso-machine/delonghi-la-specialista-prestigio/",
+      "path": "/espresso-maschine/delonghi-la-specialista-prestigio/"
+    },
+    "page:f26ae1d730eee7cc582f": {
+      "sourcePath": "/espresso-machine/delonghi-magnifica-esam3000/",
+      "path": "/espresso-maschine/delonghi-magnifica-esam3000/"
+    },
+    "page:395d2612f803956f507e": {
+      "sourcePath": "/espresso-machine/delonghi-magnifica-evo-next/",
+      "path": "/espresso-maschine/delonghi-magnifica-evo-next/"
+    },
+    "page:96ceb62bb3073d2175eb": {
+      "sourcePath": "/espresso-machine/delonghi-magnifica-evo/",
+      "path": "/espresso-maschine/delonghi-magnifica-evo/"
+    },
+    "page:a31230b7a0b0c05c4b68": {
+      "sourcePath": "/espresso-machine/delonghi-magnifica-plus/",
+      "path": "/espresso-maschine/delonghi-magnifica-plus/"
+    },
+    "page:cc0d32c40a88b4ff0394": {
+      "sourcePath": "/espresso-machine/delonghi-magnifica-start/",
+      "path": "/espresso-maschine/delonghi-magnifica-start/"
+    },
+    "page:47f4e6b1ea0470dd2eba": {
+      "sourcePath": "/espresso-machine/delonghi-primadonna-soul-ecam610/",
+      "path": "/espresso-maschine/delonghi-primadonna-soul-ecam610/"
+    },
+    "page:b828f2004768a26a49d7": {
+      "sourcePath": "/espresso-machine/ecm-casa-v/",
+      "path": "/espresso-maschine/ecm-casa-v/"
+    },
+    "page:e67d2c2d6182bdd849eb": {
+      "sourcePath": "/espresso-machine/ecm-classika-pid-flow-control/",
+      "path": "/espresso-maschine/ecm-classika-pid-flow-control/"
+    },
+    "page:13fe4556efad8561612b": {
+      "sourcePath": "/espresso-machine/ecm-mechanika-slim-pid/",
+      "path": "/espresso-maschine/ecm-mechanika-slim-pid/"
+    },
+    "page:ddfaacff0c8c1c887812": {
+      "sourcePath": "/espresso-machine/ecm-mechanika-v-slim/",
+      "path": "/espresso-maschine/ecm-mechanika-v-slim/"
+    },
+    "page:b74ec989bb5bcee485ae": {
+      "sourcePath": "/espresso-machine/ecm-puristika/",
+      "path": "/espresso-maschine/ecm-puristika/"
+    },
+    "page:85f7a0be434750d29c27": {
+      "sourcePath": "/espresso-machine/ecm-synchronika/",
+      "path": "/espresso-maschine/ecm-synchronika/"
+    },
+    "page:8950b683f965c1430178": {
+      "sourcePath": "/espresso-machine/ecm-technika-v-profi-pid/",
+      "path": "/espresso-maschine/ecm-technika-v-profi-pid/"
+    },
+    "page:0c3086cda59db39baf61": {
+      "sourcePath": "/espresso-machine/flair-58/",
+      "path": "/espresso-maschine/flair-58/"
+    },
+    "page:9fe5cbcd8b725456a1ab": {
+      "sourcePath": "/espresso-machine/flair-classic/",
+      "path": "/espresso-maschine/flair-classic/"
+    },
+    "page:069a464ddd4d9223d660": {
+      "sourcePath": "/espresso-machine/flair-neo-flex/",
+      "path": "/espresso-maschine/flair-neo-flex/"
+    },
+    "page:55f4e295e393a63ae3ff": {
+      "sourcePath": "/espresso-machine/flair-pro-2/",
+      "path": "/espresso-maschine/flair-pro-2/"
+    },
+    "page:cfb767610f869ffdbbc9": {
+      "sourcePath": "/espresso-machine/gaggia-accademia-ri9781-01/",
+      "path": "/espresso-maschine/gaggia-accademia-ri9781-01/"
+    },
+    "page:cc351a5072dc2156f506": {
+      "sourcePath": "/espresso-machine/gaggia-anima-deluxe/",
+      "path": "/espresso-maschine/gaggia-anima-deluxe/"
     }
   },
   "lastModel": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "lastUsage": {
-    "prompt_tokens": 1470,
-    "completion_tokens": 704,
-    "total_tokens": 2174,
+    "prompt_tokens": 1484,
+    "completion_tokens": 739,
+    "total_tokens": 2223,
     "prompt_tokens_details": {
       "cached_tokens": 0
     },
-    "neurons": 183.38442993164062
+    "neurons": 190.92596435546875
   }
 }
