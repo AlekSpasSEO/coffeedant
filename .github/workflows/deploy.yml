@@ -26,6 +26,8 @@ jobs:
         run: npm run test:localization
       - name: Build Cloudflare target
         run: CF_PAGES=1 npm run build
+      - name: Validate sitemaps, metadata, schema and accessible media
+        run: npm run test:seo && npm run validate:seo
       - name: Validate sitewide analytics and consent
         run: npm run validate:analytics
       - name: Validate Cloudflare Journal
@@ -42,6 +44,8 @@ jobs:
         run: npm run validate:amazon-catalog
       - name: Build GitHub Pages target
         run: npm run build
+      - name: Validate GitHub Pages SEO parity
+        run: npm run validate:seo
       - name: Validate modern reviews
         run: node scripts/validate-review-batch.mjs
       - name: Validate GitHub Pages Journal

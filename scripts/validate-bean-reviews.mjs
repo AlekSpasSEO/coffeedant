@@ -5,7 +5,7 @@ import { parse } from 'parse5';
 const root = path.resolve(import.meta.dirname, '..');
 const dist = path.join(root, 'dist');
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'src/data/bean-review-manifest.json'), 'utf8'));
-const sitemap = fs.readFileSync(path.join(root, 'public/sitemap.xml'), 'utf8');
+const sitemap = fs.readFileSync(path.join(dist, 'sitemap.xml'), 'utf8');
 const errors = [];
 const descendants = (node, result = []) => { result.push(node); for (const child of node.childNodes ?? []) descendants(child, result); return result; };
 const attr = (node, name) => node.attrs?.find((item) => item.name === name)?.value ?? '';

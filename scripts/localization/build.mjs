@@ -2,6 +2,7 @@ import { readFile, writeFile, mkdir, mkdtemp, cp, rm } from 'node:fs/promises';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import {journalRedirects} from '../migrate-journal-links.mjs';
+import { buildSeo } from '../build-seo.mjs';
 import { root, config, getEdition, sourceOrigin, interfaceSource, readJson, loadCache, safeRoute,
   translatedText, translateDom, parseHtml, serializeHtml, walk, attr, setAttr, detach,
   appendHtml, jsonSlots, textContent, contentId, writeJson, policyHash } from './core.mjs';
@@ -198,6 +199,7 @@ export const buildRegional = async (editionId, options = {}) => {
   await rm(output, { recursive: true, force: true });
   await mkdir(path.dirname(output), { recursive: true }); await cp(temporary, output, { recursive: true });
   await rm(temporary, { recursive: true, force: true });
+  if (!options.preview) await buildSeo(output, { origin: `https://${edition.host}`, locale: edition.locale });
   console.log(`Built ${rendered.length} validated pages for ${edition.host}${options.preview ? ' (noindex preview)' : ''}.`);
   return output;
 };

@@ -12,7 +12,7 @@ const migratedLegacyPaths = [...new Set(migrationBatches.batches.slice(2).flat()
 const errors = [];
 const reports = [];
 
-const sitemap = fs.readFileSync(path.join(root, 'public/sitemap.xml'), 'utf8');
+const sitemap = fs.readFileSync(path.join(dist, 'sitemap.xml'), 'utf8');
 const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 const sitemapUrlSet = new Set(sitemapUrls);
 if (sitemapUrlSet.size !== sitemapUrls.length) errors.push('sitemap: duplicate URLs found');

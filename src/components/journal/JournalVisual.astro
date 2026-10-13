@@ -38,6 +38,17 @@ const d = diagrams[kind];
    Your browser does not support this video. The complete sequence is explained in the text below.
   </video>
   <p class="visual-note"><strong>Video transcript:</strong> Grind 18 g coffee; prepare an even bed; extract 36 g espresso; add 108 g water for a 144 g drink. Example protocol for a conventional double basket. Silent original motion schematic; no measured extraction claim.</p>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org', '@type': 'VideoObject',
+    '@id': 'https://coffeedant.com/journal/dark-roast-americano/#original-brew-video',
+    name: 'Build the cup. Keep the shot: an Americano brewing sequence',
+    description: 'Silent original Coffeedant motion schematic showing grinding, preparation, extraction and dilution. An example protocol for a conventional double basket, not footage of a measured extraction.',
+    thumbnailUrl: 'https://coffeedant.com/journal/americano-poster.webp',
+    contentUrl: 'https://coffeedant.com/journal/americano-sequence.mp4',
+    uploadDate: '2026-10-13T00:00:00Z', duration: 'PT16S', inLanguage: 'en-US',
+    creator: { '@type': 'Organization', name: 'Coffeedant', url: 'https://coffeedant.com/' },
+    transcript: 'Grind 18 g coffee; prepare an even bed; extract 36 g espresso; add 108 g water for a 144 g drink. Example protocol for a conventional double basket. Silent original motion schematic; no measured extraction claim.',
+  }).replace(/</g, '\\u003c')} />
  </> : kind === 'water' ? <>
   <div class="visual-head"><span class="journal-label">Water lab / conceptual model</span><h3>Two measurements. Different jobs.</h3></div>
   <div class="water-lab"><label>Explore alkalinity<select data-water-buffer><option value="low">Lower buffering</option><option value="high">Higher buffering</option></select></label><label>Explore hardness<select data-water-hardness><option value="low">Lower calcium / magnesium</option><option value="high">Higher calcium / magnesium</option></select></label><div class="water-result" aria-live="polite"><span data-water-result>Less acid buffering; lower calcium / magnesium context. Check the complete water analysis against your machine’s requirements.</span></div></div>
