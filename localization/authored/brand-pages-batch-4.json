@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "editions": ["nl", "de", "fr"],
+  "scope": "segments",
+  "snapshot": "brand-pages-batch-4.source.json",
+  "snapshotHash": "eb21b993aba9c97337609b161a8fa04c963f58ea386b614ae2a02550b840f6d4",
+  "preserveSource": [23,24,25,26,27,28,29,30,31,32,33,34,35,36,58,59,60,61,62,63,64],
+  "routes": {
+    "nl": {"/ecm/":"/ecm/","/de-longhi/":"/de-longhi/"},
+    "de": {"/ecm/":"/ecm/","/de-longhi/":"/de-longhi/"},
+    "fr": {"/ecm/":"/ecm/","/de-longhi/":"/de-longhi/"}
+  },
+  "translations": {
+    "0": {
+      "nl": "Evenwichtige werkwijze",
+      "de": "Ausgewogener Arbeitsablauf",
+      "fr": "Utilisation équilibrée"
+    },
+    "1": {
+      "nl": "Controle voorop",
+      "de": "Kontrolle zuerst",
+      "fr": "Le contrôle avant tout"
+    },
+    "2": {
+      "nl": "De'Longhi espressomachines: vergelijk het assortiment | Coffeedant",
+      "de": "De'Longhi Espressomaschinen: das Sortiment vergleichen | Coffeedant",
+      "fr": "Machines à expresso De'Longhi : comparez la gamme | Coffeedant"
+    },
+    "3": {
+      "nl": "De'Longhi espressomachines vergeleken op werkwijze, prijsniveau, sterke punten en afwegingen. Bekijk 14 Coffeedant-reviews.",
+      "de": "De'Longhi Espressomaschinen im Vergleich nach Arbeitsablauf, Preisniveau, Stärken und Kompromissen. Entdecke 14 Coffeedant-Testberichte.",
+      "fr": "Machines à expresso De'Longhi comparées selon l’utilisation, le niveau de prix, les points forts et les compromis. Parcourez 14 avis Coffeedant."
+    },
+    "4": {
+      "nl": "De'Longhi espressomachines: vergelijk het assortiment | Coffeedant",
+      "de": "De'Longhi Espressomaschinen: das Sortiment vergleichen | Coffeedant",
+      "fr": "Machines à expresso De'Longhi : comparez la gamme | Coffeedant"
+    },
+    "5": {
+      "nl": "De'Longhi in kaart gebracht.",
+      "de": "De'Longhi im Überblick.",
+      "fr": "De'Longhi, en clair."
+    },
+    "6": {
+      "nl": "Een van de breedste assortimenten, met handmatige instapmachines, modellen met ingebouwde molen en volautomaten.",
+      "de": "Eines der breitesten Sortimente, mit manuellen Einsteigermaschinen, Modellen mit integrierter Mühle und Vollautomaten.",
+      "fr": "L’un des catalogues les plus vastes, avec des machines manuelles d’entrée de gamme, des modèles à moulin intégré et des machines entièrement automatiques."
+    },
+    "7": {
+      "nl": "De'Longhi-overzicht",
+      "de": "De'Longhi-Überblick",
+      "fr": "Présentation de De'Longhi"
+    },
+    "8": {
+      "nl": "Waar De'Longhi staat.",
+      "de": "Wo De'Longhi steht.",
+      "fr": "Où se situe De'Longhi."
+    },
+    "9": {
+      "nl": "De'Longhi: evenwichtige werkwijze",
+      "de": "De'Longhi: ausgewogener Arbeitsablauf",
+      "fr": "De'Longhi : utilisation équilibrée"
+    },
+    "10": {
+      "nl": "Ruime keuze",
+      "de": "Breite Auswahl",
+      "fr": "Vaste choix"
+    },
+    "11": {
+      "nl": "Werkwijzen voor melkbereiding",
+      "de": "Abläufe für Milchzubereitung",
+      "fr": "Préparation des boissons lactées"
+    },
+    "12": {
+      "nl": "Toegankelijke prijzen",
+      "de": "Erschwingliche Preise",
+      "fr": "Prix accessibles"
+    },
+    "13": {
+      "nl": "Modelnamen en overlappende series kunnen kopers verwarren.",
+      "de": "Modellnamen und überlappende Baureihen können Käufer verwirren.",
+      "fr": "Les noms de modèles et les gammes qui se chevauchent peuvent dérouter les acheteurs."
+    },
+    "14": {
+      "nl": "Waar De'Longhi zijn machines werkelijk voor bouwt.",
+      "de": "Wofür De'Longhi seine Maschinen wirklich baut.",
+      "fr": "Ce pour quoi De'Longhi conçoit réellement ses machines."
+    },
+    "15": {
+      "nl": "De'Longhi biedt bijna elk niveau van gemak, van smalle handmatige machines tot La Specialista-modellen met ingebouwde molen en de volautomatische families Magnifica, Dinamica, Eletta en PrimaDonna.",
+      "de": "De'Longhi deckt nahezu jede Komfortstufe ab, von schmalen manuellen Maschinen über La Specialista-Modelle mit integrierter Mühle bis zu den vollautomatischen Familien Magnifica, Dinamica, Eletta und PrimaDonna.",
+      "fr": "De'Longhi couvre presque tous les niveaux de commodité, des machines manuelles étroites aux modèles La Specialista à moulin intégré et aux familles entièrement automatiques Magnifica, Dinamica, Eletta et PrimaDonna."
+    },
+    "16": {
+      "nl": "Die breedte is nuttig, maar de productnamen verhullen de echte keuze. Maak onderscheid tussen handmatige, ondersteunde en volautomatische modellen voordat je melksystemen en drankenlijsten vergelijkt.",
+      "de": "Die Vielfalt ist nützlich, doch die Produktnamen verdecken die eigentliche Entscheidung. Trenne manuelle, assistierte und vollautomatische Modelle, bevor du Milchsysteme und Getränkelisten vergleichst.",
+      "fr": "Cette diversité est utile, mais les noms de produits masquent le véritable choix. Distinguez les modèles manuels, assistés et automatiques du grain à la tasse avant de comparer les systèmes de lait et les listes de boissons."
+    },
+    "17": {
+      "nl": "Dedica en ECP zijn handmatige instapmodellen. La Specialista voegt een molen en ondersteuning toe. Magnifica is de toegankelijke volautomatische lijn, terwijl Dinamica, Eletta en PrimaDonna meer dranken en verfijning toevoegen.",
+      "de": "Dedica und ECP sind manuelle Einstiegsmodelle. La Specialista ergänzt eine Mühle und Unterstützung. Magnifica ist die erschwingliche Vollautomatenlinie, während Dinamica, Eletta und PrimaDonna zusätzliche Getränke und Verfeinerungen bieten.",
+      "fr": "Dedica et ECP sont les points d’entrée manuels. La Specialista ajoute un moulin et une assistance. Magnifica est la gamme automatique accessible, tandis que Dinamica, Eletta et PrimaDonna ajoutent des boissons et du raffinement."
+    },
+    "18": {
+      "nl": "De'Longhi-koffiekeuzehulp",
+      "de": "De'Longhi-Kaffeefinder",
+      "fr": "Sélecteur de café De'Longhi"
+    },
+    "19": {
+      "nl": "Vind de De'Longhi-machine die bij je routine past.",
+      "de": "Finde die De'Longhi-Maschine, die zu deinem Alltag passt.",
+      "fr": "Trouvez la machine De'Longhi adaptée à votre routine."
+    },
+    "20": {
+      "nl": "Begin met een willekeurige eis. Deze compacte keuzehulp doorzoekt elke review van een De'Longhi-espressomachine; de volledige keuzehulp kan het resultaat met alle merken vergelijken.",
+      "de": "Beginne mit einer beliebigen Anforderung. Dieser kompakte Finder durchsucht jeden De'Longhi-Espressomaschinen-Testbericht; der vollständige Finder kann das Ergebnis mit allen Marken vergleichen.",
+      "fr": "Commencez par n’importe quelle contrainte. Ce sélecteur compact parcourt tous les avis sur les machines à expresso De'Longhi ; le sélecteur complet permet de comparer le résultat à toutes les marques."
+    },
+    "21": {
+      "nl": "De'Longhi en vergelijkbare alternatieven van andere merken",
+      "de": "De'Longhi und vergleichbare Alternativen anderer Marken",
+      "fr": "De'Longhi et alternatives de marques comparables"
+    },
+    "22": {
+      "nl": "Het De'Longhi-assortiment.",
+      "de": "Das De'Longhi-Sortiment.",
+      "fr": "La gamme De'Longhi."
+    },
+    "37": {
+      "nl": "ECM espressomachines: vergelijk het assortiment | Coffeedant",
+      "de": "ECM Espressomaschinen: das Sortiment vergleichen | Coffeedant",
+      "fr": "Machines à expresso ECM : comparez la gamme | Coffeedant"
+    },
+    "38": {
+      "nl": "ECM espressomachines vergeleken op werkwijze, prijsniveau, sterke punten en afwegingen. Bekijk 7 Coffeedant-reviews.",
+      "de": "ECM Espressomaschinen im Vergleich nach Arbeitsablauf, Preisniveau, Stärken und Kompromissen. Entdecke 7 Coffeedant-Testberichte.",
+      "fr": "Machines à expresso ECM comparées selon l’utilisation, le niveau de prix, les points forts et les compromis. Parcourez 7 avis Coffeedant."
+    },
+    "39": {
+      "nl": "ECM espressomachines: vergelijk het assortiment | Coffeedant",
+      "de": "ECM Espressomaschinen: das Sortiment vergleichen | Coffeedant",
+      "fr": "Machines à expresso ECM : comparez la gamme | Coffeedant"
+    },
+    "40": {
+      "nl": "ECM in kaart gebracht.",
+      "de": "ECM im Überblick.",
+      "fr": "ECM, en clair."
+    },
+    "41": {
+      "nl": "Verzorgd afgewerkte prosumermachines met de nadruk op tastbare bediening, temperatuurbeheer en langdurig bezit.",
+      "de": "Hochwertig verarbeitete Prosumer-Maschinen mit Fokus auf haptische Bedienelemente, Temperaturmanagement und lange Nutzungsdauer.",
+      "fr": "Des machines semi-professionnelles à la finition soignée, axées sur des commandes physiques, la gestion de la température et une longue durée d’utilisation."
+    },
+    "42": {
+      "nl": "ECM-overzicht",
+      "de": "ECM-Überblick",
+      "fr": "Présentation d’ECM"
+    },
+    "43": {
+      "nl": "Waar ECM staat.",
+      "de": "Wo ECM steht.",
+      "fr": "Où se situe ECM."
+    },
+    "44": {
+      "nl": "ECM: controle voorop",
+      "de": "ECM: Kontrolle zuerst",
+      "fr": "ECM : le contrôle avant tout"
+    },
+    "45": {
+      "nl": "Premium constructie",
+      "de": "Hochwertige Konstruktion",
+      "fr": "Construction haut de gamme"
+    },
+    "46": {
+      "nl": "Sterke temperatuurregeling",
+      "de": "Leistungsfähige Temperaturregelung",
+      "fr": "Contrôle poussé de la température"
+    },
+    "47": {
+      "nl": "Onderhoudsvriendelijke opbouw",
+      "de": "Wartungsfreundlicher Aufbau",
+      "fr": "Agencement facilitant l’entretien"
+    },
+    "48": {
+      "nl": "Je hebt nog steeds een goede losse molen nodig.",
+      "de": "Du brauchst weiterhin eine leistungsfähige separate Mühle.",
+      "fr": "Vous avez toujours besoin d’un bon moulin séparé."
+    },
+    "49": {
+      "nl": "Waar ECM zijn machines werkelijk voor bouwt.",
+      "de": "Wofür ECM seine Maschinen wirklich baut.",
+      "fr": "Ce pour quoi ECM conçoit réellement ses machines."
+    },
+    "50": {
+      "nl": "ECM legt de nadruk op hoogwaardig metaalwerk, tastbare bediening en traditionele prosumeropbouw. Zijn machines geven prioriteit aan stabiele espresso en stoomhardware boven begeleiding of automatisering.",
+      "de": "ECM betont hochwertige Metallverarbeitung, haptische Bedienelemente und traditionelle Prosumer-Aufbauten. Die Maschinen stellen Espressostabilität und Dampftechnik über Anleitung oder Automatisierung.",
+      "fr": "ECM met l’accent sur un travail du métal haut de gamme, des commandes physiques et des agencements semi-professionnels traditionnels. Ses machines privilégient la stabilité de l’expresso et l’équipement vapeur plutôt que le guidage ou l’automatisation."
+    },
+    "51": {
+      "nl": "Een goede molen, het plannen van de opwarmtijd en regelmatig onderhoud horen erbij. Daar staat tegenover dat dit platform makkelijker te begrijpen, te onderhouden en lang te behouden is.",
+      "de": "Eine leistungsfähige Mühle, geplante Aufwärmzeit und regelmäßige Wartung gehören dazu. Dafür lässt sich die Plattform leichter verstehen, warten und lange behalten.",
+      "fr": "Un bon moulin, l’anticipation de la chauffe et un entretien régulier font partie du contrat. En contrepartie, cette plateforme est plus facile à comprendre, à entretenir et à conserver longtemps."
+    },
+    "52": {
+      "nl": "Casa en Puristika zijn gericht op een specifieke taak. Classika voegt nauwkeurige espressoregeling toe. Mechanika en Technika bedienen routines met melkdranken, terwijl Synchronika het vlaggenschip met twee boilers is.",
+      "de": "Casa und Puristika sind gezielt ausgerichtet. Classika ergänzt präzise Espressokontrolle. Mechanika und Technika bedienen Abläufe mit Milchgetränken, während Synchronika den Weg zum Dualboiler-Flaggschiff bietet.",
+      "fr": "Casa et Puristika sont ciblées. Classika ajoute un contrôle précis de l’expresso. Mechanika et Technika répondent aux routines de boissons lactées, tandis que Synchronika représente la voie du modèle phare à double chaudière."
+    },
+    "53": {
+      "nl": "ECM-koffiekeuzehulp",
+      "de": "ECM-Kaffeefinder",
+      "fr": "Sélecteur de café ECM"
+    },
+    "54": {
+      "nl": "Vind de ECM-machine die bij je routine past.",
+      "de": "Finde die ECM-Maschine, die zu deinem Alltag passt.",
+      "fr": "Trouvez la machine ECM adaptée à votre routine."
+    },
+    "55": {
+      "nl": "Begin met een willekeurige eis. Deze compacte keuzehulp doorzoekt elke review van een ECM-espressomachine; de volledige keuzehulp kan het resultaat met alle merken vergelijken.",
+      "de": "Beginne mit einer beliebigen Anforderung. Dieser kompakte Finder durchsucht jeden ECM-Espressomaschinen-Testbericht; der vollständige Finder kann das Ergebnis mit allen Marken vergleichen.",
+      "fr": "Commencez par n’importe quelle contrainte. Ce sélecteur compact parcourt tous les avis sur les machines à expresso ECM ; le sélecteur complet permet de comparer le résultat à toutes les marques."
+    },
+    "56": {
+      "nl": "ECM en vergelijkbare alternatieven van andere merken",
+      "de": "ECM und vergleichbare Alternativen anderer Marken",
+      "fr": "ECM et alternatives de marques comparables"
+    },
+    "57": {
+      "nl": "Het ECM-assortiment.",
+      "de": "Das ECM-Sortiment.",
+      "fr": "La gamme ECM."
+    }
+  }
+}
