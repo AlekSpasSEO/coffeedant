@@ -1,13 +1,5 @@
 ---
-import ResearchArticle from '../../components/articles/ResearchArticle.astro';
-import { upgradedBlogArticles } from '../../data/blog-articles';
-
-export function getStaticPaths() {
-  return upgradedBlogArticles.map((article) => ({ params: { slug: article.slug }, props: { article } }));
-}
-
-const { article } = Astro.props;
+import {upgradedBlogArticles} from '../../data/blog-articles';
+export function getStaticPaths(){return upgradedBlogArticles.map(article=>({params:{slug:article.slug}}));}
+return Astro.redirect(`${import.meta.env.BASE_URL}journal/${Astro.params.slug}/`,301);
 ---
-
-<ResearchArticle article={article} />
-
