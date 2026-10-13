@@ -1,0 +1,11 @@
+---
+const {photo} = Astro.props;
+const base=import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+<figure class="reader-photo" data-existing-photo>
+ <span class="journal-label">{photo.label}</span>
+ <a class="reader-photo-art" href={photo.sourceUrl} target="_blank" rel="noopener noreferrer" aria-label={`View source: ${photo.alt}`}>
+  <img src={`${base}${photo.src.replace(/^\//,'')}`} alt={photo.alt} width={photo.width} height={photo.height} loading="lazy" decoding="async" />
+ </a>
+ <figcaption><p>{photo.caption}</p><span class="reader-photo-credit">{photo.credit} · <a href={photo.sourceUrl} target="_blank" rel="noopener noreferrer">Source</a> · <a href={photo.licenseUrl} target="_blank" rel="noopener noreferrer">{photo.license}</a> · Resized and converted to WebP.</span></figcaption>
+</figure>

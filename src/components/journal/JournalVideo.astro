@@ -1,0 +1,13 @@
+---
+const {video} = Astro.props;
+---
+<aside class="reader-film" id={`video-${video.id}`} data-journal-video={video.id}>
+ <div class="reader-film-head"><span class="journal-label">Watch / related perspective</span><h3>{video.title}</h3><p>{video.note}</p>{video.contentNote&&<p class="reader-film-content-note">{video.contentNote}</p>}</div>
+ <div class="reader-film-stage">
+  <button type="button" class="reader-film-poster" data-play-journal-video aria-label={`Play ${video.title}`}>
+   <img src={`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`} width="480" height="360" loading="lazy" decoding="async" alt="" />
+   <span class="reader-film-play" aria-hidden="true">▶</span><span class="reader-film-label">Watch with {video.creator}</span>
+  </button>
+ </div>
+ <div class="reader-film-foot"><a href={`https://www.youtube.com/watch?v=${video.id}`} target="_blank" rel="noopener noreferrer">Watch on YouTube · {video.creator} ↗</a><button type="button" data-stop-journal-video hidden>Close video ×</button></div>
+</aside>
