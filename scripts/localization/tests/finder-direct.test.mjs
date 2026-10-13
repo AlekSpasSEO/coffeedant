@@ -100,7 +100,7 @@ test('homepage CSS badge uses an extracted translated attribute rather than hard
  }
 });
 
-for(const batch of [3,4,5])test(`Manufacturer own-page snapshot ${batch} is complete in all three caches, without implying catalog completeness`,async()=>{
+for(const batch of [3,4,5,7])test(`Manufacturer own-page snapshot ${batch} is complete in all three caches, without implying catalog completeness`,async()=>{
  const source=await readJson(path.join(root,`localization/authored/brand-pages-batch-${batch}.source.json`));
  assert.equal(source.snapshotHash,digest(JSON.stringify(source.segments)));
  for(const id of ['nl','de','fr']){
@@ -112,6 +112,35 @@ for(const batch of [3,4,5])test(`Manufacturer own-page snapshot ${batch} is comp
    assert.equal(entry.policyHash,policyHash);
    assert.equal(validateTranslation(segment.source,entry.text),entry.text);
   }
+ }
+});
+
+test('the final eleven manufacturer pages retain full authored copy, stable routes and exact source-market model names',async()=>{
+ const source=await readJson(path.join(root,'localization/authored/brand-pages-batch-7.source.json'));
+ const authored=await readJson(path.join(root,'localization/authored/brand-pages-batch-7.json'));
+ assert.equal(source.sourcePages.length,11);
+ assert.equal(source.segments.length,313);
+ assert.equal(authored.snapshotHash,source.snapshotHash);
+ const kept=new Set(authored.preserveSource.map(index=>source.segments[index].source));
+ assert.equal(kept.size,49);
+ for(const name of kept){
+  assert(/^(Ascaso|Bezzera|Breville|Rancilio|Profitec|La Marzocco|La Pavoni|Rocket|Ninja|Quick Mill|Nespresso) /.test(name));
+  assert(!/review|comparison|overview|lineup|mapped/i.test(name));
+ }
+ const authoredSources=new Set([...kept,...Object.keys(authored.translations).map(index=>source.segments[index].source)]);
+ assert(source.segments.every(segment=>authoredSources.has(segment.source)));
+ for(const id of ['nl','de','fr']){
+  const cache=await loadCache(id);
+  for(const {sourcePath} of source.sourcePages)assert.equal(authored.routes[id][sourcePath],sourcePath);
+  for(const segment of source.segments){
+   const entry=cache.segments[segment.id];
+   assert.equal(entry.provider,'codex-direct');
+   if(kept.has(segment.source))assert.equal(entry.text,segment.source);
+  }
+  const regionalDisclaimer=cache.segments[segmentId(source.segments[209].source,'text')].text;
+  assert(regionalDisclaimer.includes('ES601'));
+  assert(regionalDisclaimer.includes('Essential')&&regionalDisclaimer.includes('Mini')&&regionalDisclaimer.includes('Pro'));
+  assert(/Amerik|américain|US-amerikan/.test(regionalDisclaimer));
  }
 });
 
