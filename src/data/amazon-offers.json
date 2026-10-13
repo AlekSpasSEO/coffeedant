@@ -1,537 +1,590 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T00:37:31.811Z",
+  "generatedAt": "2026-10-13T14:08:23.750Z",
   "marketplace": "www.amazon.com",
   "offers": {
     "/espresso-machine/breville-bambino/": {
       "asin": "B08ZK13CJN",
       "title": "Breville BES500BTR Bambino Plus Espresso Machine, Black Truffle",
       "detailPageUrl": "https://www.amazon.com/dp/B08ZK13CJN?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
-      "price": "$399.95",
-      "currency": "USD",
-      "availabilityType": "IN_STOCK_SCARCE",
-      "availabilityMessage": "Only 19 left in stock - order soon.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "price": null,
+      "amount": null,
+      "currency": null,
+      "availabilityType": "OUT_OF_STOCK",
+      "availabilityMessage": "Currently unavailable.",
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/breville-barista-express-bes870xl/": {
       "asin": "B00CH9QWOU",
-      "title": "Breville BES870XL Barista Express Espresso Machine, Brushed Stainless Steel",
+      "title": "Breville BES870XL Barista Express Espresso Machine, Brushed Stainless Steel | Craft café-quality espresso shots, lattes and cappuccinos at home with this manual coffee maker with built-in grinder",
       "detailPageUrl": "https://www.amazon.com/dp/B00CH9QWOU?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$499.95",
+      "amount": 499.95,
       "currency": "USD",
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/nespresso-vertuo-plus/": {
       "asin": "B01N7GO468",
       "title": "Nespresso Vertuo Plus Coffee & Espresso Maker by De'Longhi, Grey",
       "detailPageUrl": "https://www.amazon.com/dp/B01N7GO468?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$184.99",
+      "amount": 184.99,
       "currency": "USD",
       "availabilityType": "AVAILABLE_DATE",
       "availabilityMessage": "",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/breville-barista-pro-bes878/": {
       "asin": "B08ZCNP8YR",
       "title": "Breville BES878BTR Barista Pro Espresso Machine, Black Truffle",
       "detailPageUrl": "https://www.amazon.com/dp/B08ZCNP8YR?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": null,
+      "amount": null,
       "currency": null,
       "availabilityType": "OUT_OF_STOCK",
       "availabilityMessage": "Currently unavailable.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/breville-barista-express-impress-bes876/": {
       "asin": "B0BBYNPV33",
       "title": "Breville BES876BSS Barista Express Impress, Brushed Stainless Steel",
       "detailPageUrl": "https://www.amazon.com/dp/B0BBYNPV33?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$649.95",
+      "amount": 649.95,
       "currency": "USD",
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/rancilio-silvia/": {
       "asin": "B084RT95LQ",
       "title": "Rancilio Silvia Espresso Machine, Stainless Steel",
       "detailPageUrl": "https://www.amazon.com/dp/B084RT95LQ?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$995.00",
+      "amount": 995,
       "currency": "USD",
       "availabilityType": "IN_STOCK_SCARCE",
-      "availabilityMessage": "Only 3 left in stock - order soon.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "availabilityMessage": "Only 8 left in stock - order soon.",
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/breville-dual-boiler-bes920xl/": {
       "asin": "B00I6JGGP0",
       "title": "Breville BES920XL Dual Boiler Espresso Machine, Brushed Stainless Steel",
       "detailPageUrl": "https://www.amazon.com/dp/B00I6JGGP0?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$1,599.95",
+      "amount": 1599.95,
       "currency": "USD",
       "availabilityType": "IN_STOCK_SCARCE",
       "availabilityMessage": "Only 11 left in stock - order soon.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/breville-barista-touch-bes880bss/": {
       "asin": "B078WMLXXG",
       "title": "Breville BES880BSS Barista Touch Espresso Machine, Brushed Stainless Steel",
       "detailPageUrl": "https://www.amazon.com/dp/B078WMLXXG?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
-      "price": "$799.95",
+      "price": "$929.99",
+      "amount": 929.99,
       "currency": "USD",
-      "availabilityType": "IN_STOCK",
-      "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "availabilityType": "IN_STOCK_SCARCE",
+      "availabilityMessage": "Only 4 left in stock - order soon.",
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/delonghi-magnifica-evo/": {
       "asin": "B0B38KRTV6",
       "title": "De'Longhi Magnifica Evo Automatic Espresso Machine, Milk Frother, Silver",
       "detailPageUrl": "https://www.amazon.com/dp/B0B38KRTV6?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$875.00",
+      "amount": 875,
       "currency": "USD",
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/breville-oracle-touch-bes990/": {
       "asin": "B073TYYM91",
       "title": "Breville BES990BSS Oracle Touch Espresso Machine, Brushed Stainless Steel",
       "detailPageUrl": "https://www.amazon.com/dp/B073TYYM91?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$2,301.47",
+      "amount": 2301.47,
       "currency": "USD",
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/philips-3200-lattego/": {
       "asin": "B07VFY4MXM",
       "title": "Philips 3200 Series Fully Automatic Espresso Machine, LatteGo Milk Frother, 5 Coffee Varieties, Intuitive Touch Display, 100% Ceramic Grinder, AquaClean Filter, My Coffee Choice, Black (EP3241/54)",
       "detailPageUrl": "https://www.amazon.com/dp/B07VFY4MXM?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$500.04",
+      "amount": 500.04,
       "currency": "USD",
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/9barista-mk2/": {
       "asin": "B0FP4QQ56D",
       "title": "Stainless Steel Stovetop Espresso Maker | Mk.2 by 9Barista",
       "detailPageUrl": "https://www.amazon.com/dp/B0FP4QQ56D?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": null,
+      "amount": null,
       "currency": null,
       "availabilityType": "OUT_OF_STOCK",
       "availabilityMessage": "Currently unavailable.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/delonghi-eletta-explore-ecam450/": {
       "asin": "B0CGL7878G",
       "title": "De'Longhi Eletta Explore Espresso Machine with Coffee Grinder, Milk Frother",
       "detailPageUrl": "https://www.amazon.com/dp/B0CGL7878G?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$1,748.96",
+      "amount": 1748.96,
       "currency": "USD",
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/grinder/1zpresso-k-ultra/": {
       "asin": "B0CC4LXF1Z",
       "title": "1Zpresso K-Ultra Manual Coffee Grinder Iron Gray with Carrying Case, Assembly Consistency Grind Stainless Steel Conical Burr, Foldable Handle, Numerical External Adjustable Setting, All-Round Grinder",
       "detailPageUrl": "https://www.amazon.com/dp/B0CC4LXF1Z?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$259.00",
+      "amount": 259,
       "currency": "USD",
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/ascaso-steel-duo-pid/": {
       "asin": "B0BJH21MBP",
       "title": "Ascaso Steel DUO Espresso Machine V3 | PID | Programmable | Volumetric Controls | Dual Thermoblock | 120V (Black)",
       "detailPageUrl": "https://www.amazon.com/dp/B0BJH21MBP?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$2,095.00",
+      "amount": 2095,
       "currency": "USD",
       "availabilityType": "IN_STOCK_SCARCE",
       "availabilityMessage": "Only 9 left in stock - order soon.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/bezzera-unica-pid/": {
       "asin": "B00WMZCVZ8",
       "title": "Bezzera Unica PID Kitchen Espresso Machine Tank Vibe Pump E61 Machine",
       "detailPageUrl": "https://www.amazon.com/dp/B00WMZCVZ8?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$1,317.00",
+      "amount": 1317,
       "currency": "USD",
       "availabilityType": "IN_STOCK_SCARCE",
       "availabilityMessage": "Only 5 left in stock - order soon.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/bosch-300-series-verocafe-tiu20307/": {
       "asin": "B0D16N7BBV",
       "title": "Bosch 300 Series Fully Auto Espresso Machine with Grinder and Steam Wand",
       "detailPageUrl": "https://www.amazon.com/dp/B0D16N7BBV?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
-      "price": "$650.56",
+      "price": "$853.80",
+      "amount": 853.8,
       "currency": "USD",
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/bosch-500-series-verocafe-tpu40109/": {
       "asin": "B0DQFCRFPJ",
       "title": "Bosch 500 Series Fully Automatic Coffee, Espresso Machine - Black",
       "detailPageUrl": "https://www.amazon.com/dp/B0DQFCRFPJ?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$1,099.00",
+      "amount": 1099,
       "currency": "USD",
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/bosch-800-series/": {
       "asin": "B0CWYJH3MQ",
       "title": "Bosch 800 Series Fully Automatic Coffee, Espresso Machine - Black",
       "detailPageUrl": "https://www.amazon.com/dp/B0CWYJH3MQ?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
-      "price": "$1,298.96",
+      "price": "$1,599.99",
+      "amount": 1599.99,
       "currency": "USD",
-      "availabilityType": "IN_STOCK",
-      "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "availabilityType": "IN_STOCK_SCARCE",
+      "availabilityMessage": "Only 2 left in stock - order soon.",
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/breville-barista-touch-impress-bes881/": {
       "asin": "B0C1T4W797",
       "title": "Breville BES881BSS Barista Touch Impress, Brushed Stainless Steel",
       "detailPageUrl": "https://www.amazon.com/dp/B0C1T4W797?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$1,199.95",
+      "amount": 1199.95,
       "currency": "USD",
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/breville-dynamic-duo-bep920/": {
       "asin": "B08ML986LF",
       "title": "Breville Dynamic Duo Espresso Machine Bundle | Dual Boiler + Smart Grinder Pro | Stainless Steel | BEP920BSS",
       "detailPageUrl": "https://www.amazon.com/dp/B08ML986LF?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
-      "price": "$1,499.95",
+      "price": "$1,699.95",
+      "amount": 1699.95,
       "currency": "USD",
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/breville-oracle-bes980x/": {
       "asin": "B00J19PT2K",
       "title": "Breville BES980XL Oracle Espresso Machine, Brushed Stainless Steel",
       "detailPageUrl": "https://www.amazon.com/dp/B00J19PT2K?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$2,148.00",
+      "amount": 2148,
       "currency": "USD",
       "availabilityType": "IN_STOCK_SCARCE",
       "availabilityMessage": "Only 3 left in stock - order soon.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/breville-oracle-jet-bes985/": {
       "asin": "B0DYGDKQ85",
       "title": "Breville BES985BSS Oracle Jet Espresso Machine, Brushed Stainless Steel",
       "detailPageUrl": "https://www.amazon.com/dp/B0DYGDKQ85?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$1,997.00",
+      "amount": 1997,
       "currency": "USD",
       "availabilityType": "IN_STOCK_SCARCE",
       "availabilityMessage": "Only 1 left in stock - order soon.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/delonghi-dedica/": {
       "asin": "B072WZL4ZT",
       "title": "De'Longhi EC685M Dedica Deluxe Automatic Espresso Machine,35 oz, 1, Metallic",
       "detailPageUrl": "https://www.amazon.com/dp/B072WZL4ZT?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$249.00",
+      "amount": 249,
       "currency": "USD",
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/delonghi-dinamica-plus-ecam38085sb/": {
       "asin": "B0DQFNGWWF",
       "title": "De'Longhi Dinamica Plus Fully Automatic Espresso Machine - Brew Personalized Coffee for up to 4 User Profiles, 24+ Recipes, Built in Grinder & Automatic Milk Steam Wand with 3 Frother Modes",
       "detailPageUrl": "https://www.amazon.com/dp/B0DQFNGWWF?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": null,
+      "amount": null,
       "currency": null,
       "availabilityType": "OUT_OF_STOCK",
       "availabilityMessage": "Currently unavailable.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/delonghi-ecp3420/": {
       "asin": "B00YCP71VK",
       "title": "De'Longhi 15-Bar Pump Espresso Machine with Milk Frother & Temperature Control - Compact Home Barista Coffee Maker for Espresso, Latte, Cappuccino & Iced Coffee, Easy to Clean Design",
       "detailPageUrl": "https://www.amazon.com/dp/B00YCP71VK?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$175.00",
+      "amount": 175,
       "currency": "USD",
       "availabilityType": "IN_STOCK_SCARCE",
       "availabilityMessage": "Only 3 left in stock - order soon.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/delonghi-la-specialista-arte/": {
       "asin": "B099YT9MYG",
       "title": "De'Longhi La Specialista Espresso Machine with Grinder, Milk Frother, 1450W, Barista Kit - Bean to Cup Coffee & Cappuccino Maker,Stainless Steel, Black",
       "detailPageUrl": "https://www.amazon.com/dp/B099YT9MYG?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$699.95",
+      "amount": 699.95,
       "currency": "USD",
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/delonghi-la-specialista-prestigio/": {
       "asin": "B0934BNSXX",
       "title": "De'Longhi EC9355M La Specialista Prestigio Espresso Machine , 1.3L, Stainless Steel,Silver",
       "detailPageUrl": "https://www.amazon.com/dp/B0934BNSXX?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$899.95",
+      "amount": 899.95,
       "currency": "USD",
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/delonghi-magnifica-evo-next/": {
       "asin": "B0DT2SBX2S",
       "title": "De'Longhi Magnifica Evo Next Automatic Espresso Machine, Frother, Silver",
       "detailPageUrl": "https://www.amazon.com/dp/B0DT2SBX2S?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$1,075.00",
+      "amount": 1075,
       "currency": "USD",
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/delonghi-magnifica-plus/": {
       "asin": "B0DG4BCHK8",
       "title": "De'Longhi Magnifica Plus Automatic Espresso Machine, Milk Frother, Silver",
       "detailPageUrl": "https://www.amazon.com/dp/B0DG4BCHK8?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": null,
+      "amount": null,
       "currency": null,
       "availabilityType": "OUT_OF_STOCK",
       "availabilityMessage": "Currently unavailable.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/flair-classic/": {
       "asin": "B06X916JM8",
       "title": "Flair UPDATED Espresso Maker - Classic: All manual lever espresso maker for the home - Pressure gauge and two portafilters included",
       "detailPageUrl": "https://www.amazon.com/dp/B06X916JM8?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$159.00",
+      "amount": 159,
       "currency": "USD",
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/gaggia-anima/": {
       "asin": "B016RYOCHO",
       "title": "Gaggia Anima Coffee and Espresso Machine, Includes Steam Wand for Manual Frothing for Lattes and Cappuccinos with Programmable Options,Black",
       "detailPageUrl": "https://www.amazon.com/dp/B016RYOCHO?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
-      "price": "$737.50",
+      "price": "$688.59",
+      "amount": 688.59,
       "currency": "USD",
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/gaggia-brera-ri9305/": {
       "asin": "B003XV3U82",
       "title": "Gaggia Brera Super-Automatic Espresso Machine, Small, Black, 40 fl oz",
       "detailPageUrl": "https://www.amazon.com/dp/B003XV3U82?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$506.15",
+      "amount": 506.15,
       "currency": "USD",
       "availabilityType": "IN_STOCK_SCARCE",
       "availabilityMessage": "Only 20 left in stock - order soon.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/gaggia-cadorna-milk/": {
       "asin": "B089DNV5HK",
       "title": "Gaggia Cadorna Milk Super-Automatic Espresso Machine, 60.8 fluid ounces, Black, Medium",
       "detailPageUrl": "https://www.amazon.com/dp/B089DNV5HK?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$799.00",
+      "amount": 799,
       "currency": "USD",
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/gaggia-cadorna-prestige/": {
       "asin": "B0DWGR1R7W",
       "title": "Gaggia Cadorna Prestige Over Ice Automatic Espresso Machine Moonlight Grey",
       "detailPageUrl": "https://www.amazon.com/dp/B0DWGR1R7W?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": null,
+      "amount": null,
       "currency": null,
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/gaggia-classic-evo/": {
       "asin": "B07RQ3NL76",
       "title": "Gaggia RI9380/46 E24 Espresso Machine, Brushed Stainless Steel",
       "detailPageUrl": "https://www.amazon.com/dp/B07RQ3NL76?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$455.09",
+      "amount": 455.09,
       "currency": "USD",
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/gaggia-velasca-ri8260-3/": {
       "asin": "B071PBGDTK",
       "title": "Gaggia Velasca Espresso Machine,54 ounces Black",
       "detailPageUrl": "https://www.amazon.com/dp/B071PBGDTK?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$655.78",
+      "amount": 655.78,
       "currency": "USD",
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/gaggia-velasca-prestige-ri8263/": {
       "asin": "B071LQT8SW",
       "title": "Gaggia Velasca Prestige Espresso Machine, Stainless Steel, 54 ounces",
       "detailPageUrl": "https://www.amazon.com/dp/B071LQT8SW?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$750.00",
+      "amount": 750,
       "currency": "USD",
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/nuova-simonelli-musica/": {
       "asin": "B005NICZ66",
       "title": "Nuova Simonelli Musica Stainless Steel Pour Over Espresso Machine w/ Black Lining",
       "detailPageUrl": "https://www.amazon.com/dp/B005NICZ66?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$2,950.00",
+      "amount": 2950,
       "currency": "USD",
       "availabilityType": "IN_STOCK_SCARCE",
       "availabilityMessage": "Only 4 left in stock - order soon.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/nuova-simonelli-oscar-ii/": {
       "asin": "B0018YDTIM",
       "title": "Nuova Simonelli Oscar II Espresso Machine",
       "detailPageUrl": "https://www.amazon.com/dp/B0018YDTIM?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$1,995.00",
+      "amount": 1995,
       "currency": "USD",
       "availabilityType": "IN_STOCK_SCARCE",
       "availabilityMessage": "Only 10 left in stock - order soon.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/rancilio-silvia-pro-x/": {
       "asin": "B09MV4KTXH",
       "title": "Rancilio Silvia Pro X Espresso Machine, 1 liters, Stainless Steel",
       "detailPageUrl": "https://www.amazon.com/dp/B09MV4KTXH?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$2,195.00",
+      "amount": 2195,
       "currency": "USD",
       "availabilityType": "IN_STOCK_SCARCE",
-      "availabilityMessage": "Only 6 left in stock - order soon.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "availabilityMessage": "Only 1 left in stock - order soon.",
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/rocket-appartamento-tca/": {
       "asin": "B0D15NJWC1",
       "title": "Rocket Espresso Appartamento TCA Espresso Machine, Stainless Steel (White)",
       "detailPageUrl": "https://www.amazon.com/dp/B0D15NJWC1?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$2,300.00",
+      "amount": 2300,
       "currency": "USD",
       "availabilityType": "IN_STOCK_SCARCE",
       "availabilityMessage": "Only 3 left in stock - order soon.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/ascaso-steel-uno/": {
       "asin": "B096YG1YQY",
       "title": "Ascaso Steel PID Programmable Espresso Machine w/Volumetric Controls, Single Thermoblock, 120V (SINGLE, POLISHED)",
       "detailPageUrl": "https://www.amazon.com/dp/B096YG1YQY?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": null,
+      "amount": null,
       "currency": null,
       "availabilityType": "OUT_OF_STOCK",
       "availabilityMessage": "Currently unavailable.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/bezzera-bz10/": {
       "asin": "B00NY862ZM",
       "title": "Bezzera BZ10 Espresso Machine",
       "detailPageUrl": "https://www.amazon.com/dp/B00NY862ZM?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": null,
+      "amount": null,
       "currency": null,
       "availabilityType": "OUT_OF_STOCK",
       "availabilityMessage": "Currently unavailable.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/bezzera-strega/": {
       "asin": "B01LX17T3U",
       "title": "Bezzera Strega Commercial Espresso Lever Machine Switchable Tank or Plumbed for Restaurant",
       "detailPageUrl": "https://www.amazon.com/dp/B01LX17T3U?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$2,516.00",
+      "amount": 2516,
       "currency": "USD",
       "availabilityType": "IN_STOCK_SCARCE",
       "availabilityMessage": "Only 15 left in stock - order soon.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/ecm-classika-pid-flow-control/": {
       "asin": "B00NG0XUP8",
       "title": "ECM Classika PID Espresso Machine",
       "detailPageUrl": "https://www.amazon.com/dp/B00NG0XUP8?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": null,
+      "amount": null,
       "currency": null,
       "availabilityType": "OUT_OF_STOCK",
       "availabilityMessage": "Currently unavailable.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/gaggia-cadorna-barista-plus-ri9603-47/": {
       "asin": "B089DP1KVD",
       "title": "Gaggia Cadorna Barista Plus Super-Automatic Espresso Machine, Black, Medium",
       "detailPageUrl": "https://www.amazon.com/dp/B089DP1KVD?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$819.00",
+      "amount": 819,
       "currency": "USD",
       "availabilityType": "IN_STOCK",
       "availabilityMessage": "In Stock",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/krups-opio-xp320840/": {
       "asin": "B07H3XGGNK",
       "title": "Krups Opio Steam & Pump XP320840 Espresso Coffee Machine, 1.5L, Black, Cappuccino",
       "detailPageUrl": "https://www.amazon.com/dp/B07H3XGGNK?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": null,
+      "amount": null,
       "currency": null,
       "availabilityType": "OUT_OF_STOCK",
       "availabilityMessage": "Currently unavailable.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/miele-cm6360-milkperfection/": {
       "asin": "B09BG85YDM",
       "title": "Miele CM 6360 MilkPerfection Fully Automatic Coffee & Espresso Machine",
       "detailPageUrl": "https://www.amazon.com/dp/B09BG85YDM?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
-      "price": "$2,599.00",
+      "price": "$2,610.00",
+      "amount": 2610,
       "currency": "USD",
       "availabilityType": "IN_STOCK_SCARCE",
-      "availabilityMessage": "Only 10 left in stock (more on the way).",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "availabilityMessage": "Only 2 left in stock - order soon.",
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/miele-cm7750-coffeeselect/": {
       "asin": "B09BG7NRJQ",
       "title": "Miele CM 7750 CoffeeSelect Fully Automatic Coffee & Espresso Machine",
       "detailPageUrl": "https://www.amazon.com/dp/B09BG7NRJQ?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$4,499.00",
+      "amount": 4499,
       "currency": "USD",
       "availabilityType": "IN_STOCK_SCARCE",
-      "availabilityMessage": "Only 6 left in stock (more on the way).",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "availabilityMessage": "Only 7 left in stock (more on the way).",
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/jura-giga-6/": {
       "asin": "B07QX2YPV9",
       "title": "Jura Giga 6 Automatic Coffee Center Aluminum",
       "detailPageUrl": "https://www.amazon.com/dp/B07QX2YPV9?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$4,218.98",
+      "amount": 4218.98,
       "currency": "USD",
       "availabilityType": "IN_STOCK_SCARCE",
       "availabilityMessage": "Only 1 left in stock - order soon.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/philips-5400-lattego/": {
       "asin": "B0CJ9TP31V",
       "title": "PHILIPS 5400 Fully Automatic Espresso Machine with LatteGo, EP5447/94 (Renewed)",
       "detailPageUrl": "https://www.amazon.com/dp/B0CJ9TP31V?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": "$629.00",
+      "amount": 629,
       "currency": "USD",
       "availabilityType": "IN_STOCK_SCARCE",
       "availabilityMessage": "Only 1 left in stock - order soon.",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     },
     "/espresso-machine/saeco-xelsis/": {
       "asin": "B09B2SX8NP",
       "title": "Saeco Xelsis Super-Automatic Espresso Machine, Stainless Steel - SM7685/04 (Renewed)",
       "detailPageUrl": "https://www.amazon.com/dp/B09B2SX8NP?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "price": null,
+      "amount": null,
       "currency": null,
       "availabilityType": "UNKNOWN",
       "availabilityMessage": "Check current availability on Amazon",
-      "checkedAt": "2026-10-13T00:37:31.811Z"
+      "checkedAt": "2026-10-13T14:08:23.750Z"
     }
   }
 }
