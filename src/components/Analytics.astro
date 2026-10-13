@@ -1,13 +1,16 @@
 ---
+import editions from '../../localization/editions.json';
 // Recovered from the original WordPress Site Kit settings. The other G-ID in
 // that backup belongs to Site Kit telemetry, not the Coffeedant property.
 const measurementId = 'G-270R14ZHVX';
 const googleTagId = 'GT-KT5DM5FP';
+const productionRegions = Object.fromEntries(editions.editions.map(({ host, id }) => [host, id]));
+productionRegions['www.coffeedant.com'] = 'us';
 ---
-<script id="coffeedant-ga4-bootstrap" is:inline define:vars={{ measurementId, googleTagId }} data-ga4-id={measurementId} data-google-tag-id={googleTagId}>
+<script id="coffeedant-ga4-bootstrap" is:inline define:vars={{ measurementId, googleTagId, productionRegions }} data-ga4-id={measurementId} data-google-tag-id={googleTagId}>
   (() => {
     // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.
-    if (!['coffeedant.com', 'www.coffeedant.com'].includes(location.hostname)) return;
+    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;
     const storageKey = 'coffeedant.analytics-consent.v1';
     const maxAge = 180 * 24 * 60 * 60 * 1000;
     let choice = null;
@@ -47,6 +50,8 @@ const googleTagId = 'GT-KT5DM5FP';
       window.gtag('config', measurementId, {
         allow_google_signals: false,
         allow_ad_personalization_signals: false,
+        content_language: document.documentElement?.lang || 'en-US',
+        content_region: productionRegions[location.hostname],
       });
       const tag = document.createElement('script');
       tag.id = 'coffeedant-google-tag';

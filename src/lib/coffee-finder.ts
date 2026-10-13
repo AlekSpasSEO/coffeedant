@@ -4,6 +4,7 @@ import { modernReviews } from '../data/review-registry';
 import { bambinoReview, getReviewOverallScore, type MachineReviewData } from '../data/reviews';
 import { getReviewRouteDefinition } from '../data/review-routes';
 import { getReviewPurchaseLinks } from './amazon-affiliate';
+import finderInterface from '../../localization/interface.json';
 
 export type CoffeeFinderWorkflow = 'one-touch' | 'guided' | 'hands-on' | 'manual' | 'capsule' | 'commercial';
 export type CoffeeFinderDrink = 'espresso' | 'milk' | 'mixed';
@@ -178,6 +179,9 @@ export const getCoffeeFinderCatalog = () => {
 
   return {
     schemaVersion: 2,
+    locale: 'en-US',
+    currency: 'USD',
+    ui: finderInterface,
     generatedAt: finderSync.lastCatalogSync,
     cadenceDays: finderSync.cadenceDays,
     offerDataGeneratedAt: amazonOffersData.generatedAt,

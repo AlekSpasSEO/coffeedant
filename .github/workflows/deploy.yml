@@ -22,6 +22,8 @@ jobs:
           node-version: 20
       - name: Install
         run: npm ci || npm install
+      - name: Test localization routing, factual safeguards and regional commerce
+        run: npm run test:localization
       - name: Build Cloudflare target
         run: CF_PAGES=1 npm run build
       - name: Validate sitewide analytics and consent

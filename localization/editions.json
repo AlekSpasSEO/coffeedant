@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "sourceEdition": "us",
+  "editions": [
+    { "id": "us", "host": "coffeedant.com", "locale": "en-US", "hreflang": "en-US", "language": "English", "region": "United States", "currency": "USD", "amazonMarketplace": "www.amazon.com", "published": true },
+    { "id": "uk", "host": "uk.coffeedant.com", "locale": "en-GB", "hreflang": "en-GB", "language": "English", "region": "United Kingdom", "currency": "GBP", "amazonMarketplace": "www.amazon.co.uk", "published": false },
+    { "id": "au", "host": "au.coffeedant.com", "locale": "en-AU", "hreflang": "en-AU", "language": "English", "region": "Australia", "currency": "AUD", "amazonMarketplace": "www.amazon.com.au", "published": false },
+    { "id": "nz", "host": "nz.coffeedant.com", "locale": "en-NZ", "hreflang": "en-NZ", "language": "English", "region": "New Zealand", "currency": "NZD", "amazonMarketplace": null, "published": false },
+    { "id": "nl", "host": "nl.coffeedant.com", "locale": "nl-NL", "hreflang": "nl-NL", "language": "Dutch", "region": "Netherlands", "currency": "EUR", "amazonMarketplace": "www.amazon.nl", "published": false },
+    { "id": "es", "host": "es.coffeedant.com", "locale": "es-ES", "hreflang": "es-ES", "language": "Spanish", "region": "Spain", "currency": "EUR", "amazonMarketplace": "www.amazon.es", "published": false },
+    { "id": "latam", "host": "latam.coffeedant.com", "locale": "es-419", "hreflang": "es", "language": "Spanish", "region": "Latin America (neutral Spanish; buying information requires a country)", "currency": null, "amazonMarketplace": null, "published": false },
+    { "id": "pt", "host": "pt.coffeedant.com", "locale": "pt-PT", "hreflang": "pt-PT", "language": "Portuguese", "region": "Portugal", "currency": "EUR", "amazonMarketplace": null, "published": false },
+    { "id": "br", "host": "br.coffeedant.com", "locale": "pt-BR", "hreflang": "pt-BR", "language": "Portuguese", "region": "Brazil", "currency": "BRL", "amazonMarketplace": "www.amazon.com.br", "published": false },
+    { "id": "fr", "host": "fr.coffeedant.com", "locale": "fr-FR", "hreflang": "fr-FR", "language": "French", "region": "France", "currency": "EUR", "amazonMarketplace": "www.amazon.fr", "published": false },
+    { "id": "ca", "host": "ca.coffeedant.com", "locale": "fr-CA", "hreflang": "fr-CA", "language": "French", "region": "Canada", "currency": "CAD", "amazonMarketplace": "www.amazon.ca", "published": false },
+    { "id": "de", "host": "de.coffeedant.com", "locale": "de-DE", "hreflang": "de-DE", "language": "German", "region": "Germany", "currency": "EUR", "amazonMarketplace": "www.amazon.de", "published": false },
+    { "id": "at", "host": "at.coffeedant.com", "locale": "de-AT", "hreflang": "de-AT", "language": "German", "region": "Austria", "currency": "EUR", "amazonMarketplace": null, "published": false },
+    { "id": "ch", "host": "ch.coffeedant.com", "locale": "de-CH", "hreflang": "de-CH", "language": "German", "region": "Switzerland", "currency": "CHF", "amazonMarketplace": null, "published": false },
+    { "id": "it", "host": "it.coffeedant.com", "locale": "it-IT", "hreflang": "it-IT", "language": "Italian", "region": "Italy", "currency": "EUR", "amazonMarketplace": "www.amazon.it", "published": false }
+  ]
+}
