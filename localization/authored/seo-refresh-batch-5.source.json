@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/",
+      "sourceHash": "15cc40c85695cb118d403aac0ed337770a88e3ae1f2497bf97ae41f5bd0c0a5b"
+    },
+    {
+      "sourcePath": "/about/",
+      "sourceHash": "72c193cb27ea9ca3de715aacb43ede3a812890e105917ea0c3b1cdc022e85039"
+    },
+    {
+      "sourcePath": "/brands/",
+      "sourceHash": "881e7a682ee0a10f72ee01a7ee270012956100ac2b97c6599506be11f8bd92de"
+    },
+    {
+      "sourcePath": "/coffee-beans/",
+      "sourceHash": "c3f501a9b8ce83eb7ba5c8ac4a76760852a1600ef9afa7c3a9b44e8f3d2d7678"
+    },
+    {
+      "sourcePath": "/coffee-machine/",
+      "sourceHash": "74c21ee580e3d9323c61fcd604805e4f03a3e4b4ce233eacb6be0d503d8c7117"
+    },
+    {
+      "sourcePath": "/contact/",
+      "sourceHash": "4d34f445371a4fab265cbc4b356ce831d8a27f1daef531c5d534e426f34a924c"
+    },
+    {
+      "sourcePath": "/grinder/",
+      "sourceHash": "ab55523453a27746414688779d4a6b68102035fc08af4b37fd2cb9f10f8c3c11"
+    },
+    {
+      "sourcePath": "/journal/espresso-dosing/",
+      "sourceHash": "5bf422c0a81f254bf03825ddf255ea66f6e9b21a52ab9180013e3b580ef15a25"
+    },
+    {
+      "sourcePath": "/journal/golden-ratio-espresso/",
+      "sourceHash": "db4563ef7a6783f7de61d8b14ad1c63e513a4c54820cde0b66ecc202f6d87164"
+    },
+    {
+      "sourcePath": "/keurig/",
+      "sourceHash": "0f658c0683cd0bfee4787357bda84d5c2ab439600d6431f8bcaef4d69b64d178"
+    },
+    {
+      "sourcePath": "/privacy-policy/",
+      "sourceHash": "10b08f78664405d92298971589df7460f9bbcfa0b43791a7ef9de6c79526720d"
+    },
+    {
+      "sourcePath": "/tos/",
+      "sourceHash": "4fc5eaa1f3c335efede167317f797d4f4721fbfa294f972049f3bf1766f111cb"
+    },
+    {
+      "sourcePath": "/bosch/",
+      "sourceHash": "575de75563dd296025e858ee920fbc56e9fafa6523da647b33c627498c48709d"
+    },
+    {
+      "sourcePath": "/philips/",
+      "sourceHash": "3028de5b206f76bcae6582a35c01a157043d49105cbe2a06eb53990c97f61236"
+    },
+    {
+      "sourcePath": "/ecm/",
+      "sourceHash": "d88ec749b9bd77d0d226029127cca79887c770cabc5bf15419e87f3c4eed7b8b"
+    },
+    {
+      "sourcePath": "/de-longhi/",
+      "sourceHash": "e28e56fe4e64fae6c62a1c5da5e1109adba34f51494419bc358ab354cf8391d0"
+    },
+    {
+      "sourcePath": "/404/",
+      "sourceHash": "05a32630efc13806468c8da6d8d9d2661a03562be57dbaebcb396c52976b8751"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "f05562cbb03a4b8175fb6c1ddcfbf4f9b02bd0cd436c4190bdc33e723554a267",
+      "source": "We couldn't find that page. Browse the espresso machine reviews or head back home",
+      "kind": "metadata",
+      "context": "Page not found | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.cookie.split(';')) {\n        "
+    },
+    {
+      "id": "a9363805a9b88f91c9b28c00a0dfb242809b470bfbeaf99e668bc491f94b2cbb",
+      "source": "Coffeedant — coffee equipment reviews and brewing guides",
+      "kind": "metadata",
+      "context": "Page not found | Coffeedant(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let loaded = false;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    try {\n      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');\n      if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) choice = saved.value;\n    } catch { /* Storage may be unavailable; ask again on the next page. */ }\n    if (browserOptOut) choice = 'denied';\n\n    const removeAnalyticsCookies = () => {\n      for (const entry of document.cookie.split(';')) {\n        "
+    },
+    {
+      "id": "2cc9fff142002ac746b169191eaa15dcb64900ae8d1cdfe6a060c5b5ea4a3ff7",
+      "source": "We couldn't find that page. Browse the espresso machine reviews or head back home",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "a7afc59e1845e2a15ede6f3fae3071006a436295f4342f9a06e68f143e08705d",
+      "source": "Coffeedant — coffee equipment reviews and brewing guides",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "99dd1b901a6fb48704109984e52b7f1d15335127aee29783b5ee9d5be2dd17d4",
+      "source": "The Bambino Plus is a separate-grinder machine. Its basket size and the coffee's volume determine a usable dose; 18 g is not a requirement for every coffee. Breville product listing · Source · Manufacturer product-identification image; copyright retained. Illustrative, not a Coffeedant test photograph.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "c5208fc0117e2f3e854d18a3ebb38427d29695752cabbcc4c9d6aec2e212ed87",
+      "source": "A portafilter and tamping mat make the preparation stages tangible. This generic portafilter photo is not a fit or basket-capacity reference for the Bambino or any specific machine. massage-techniques / Wikimedia Commons · Source · CC BY-SA 2.0 · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "2cf59b46db35f9ccaff470afcb4782d63cbed0e0a63aa4e156c78bb0bc7d2b89",
+      "source": "The dry mass placed in the basket is the first half of a brew ratio. It remains separate from the beverage mass collected in the cup. massage-techniques / Wikimedia Commons · Source · CC BY-SA 2.0 · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "dd6fec004b0aeb22de66017c196eac23e76bc48df75548faa3a51bbbe1e4fd9b",
+      "source": "A ratio is a recipe choice for a specific coffee. This generic bean photograph cannot tell you the roast's solubility or the ratio a particular drinker will prefer. MarkSweep / Wikimedia Commons · Source · Public domain · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "caption"
+    }
+  ],
+  "snapshotHash": "3fe74cd019bd954321baf493d85d304fe3ccb459de31a1779beb323f1b4efb25"
+}

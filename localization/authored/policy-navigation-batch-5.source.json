@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/privacy-policy/",
+      "sourceHash": "1aa1917e673fc2954e4fe197830341170a53d50b914503b2318de936fab4ad95"
+    },
+    {
+      "sourcePath": "/tos/",
+      "sourceHash": "62a39e19dc7986f01d7d57a6fda5e0c441d44add736f7571a10e206c276c85c0"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "455211b25b8316d6227176140d713b0084bf035e1501472597f6b46d2e08a38b",
+      "source": "<a class=\"cd-nav__link\" href=\"/deals/\" data-astro-cid-w65nqoo5=\"\">Deals</a>",
+      "kind": "inline-html",
+      "context": "Deals"
+    }
+  ],
+  "snapshotHash": "0f99e637daa382d2dba9d40cbc639b62d82f7726addd5b7129f4f50b7ac44f8a"
+}
