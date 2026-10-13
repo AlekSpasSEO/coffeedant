@@ -54,7 +54,7 @@ export const routeFromFile = (file, directory) => {
   return relative === 'index.html' ? '/' : `/${relative.replace(/\/index\.html$/, '').replace(/\.html$/, '')}/`;
 };
 export const contentId = (sourcePath) => `page:${digest(sourcePath).slice(0, 20)}`;
-const excluded = new Set(['script', 'style', 'code', 'pre', 'svg', 'noscript']);
+const excluded = new Set(['script', 'style', 'code', 'pre']);
 const readable = (text) => /\p{L}/u.test(text) && !/^https?:\/\/|^[\w.+-]+@[\w.-]+\.[a-z]+$/i.test(text.trim());
 export const segmentId = (text, kind = 'text') => digest(`${promptVersion}\n${kind}\n${text.trim()}`);
 
@@ -66,6 +66,12 @@ export const slots = (document) => {
     blocked ||= excluded.has(node.tagName) || attr(node, 'translate') === 'no'
       || /(?:material-symbols|material-icons)/.test(attr(node, 'class') ?? '');
     if (blocked) return;
+    if (node.tagName === 'noscript' && node.childNodes?.[0]?.nodeName === '#text') {
+      const fragment = parseFragment(node.childNodes[0].value);
+      for (const slot of slots(fragment)) result.push({ ...slot,
+        set(text) { slot.set(text); node.childNodes[0].value = serialize(fragment); } });
+      return;
+    }
     const add = (value, kind, setter) => {
       if (!readable(value)) return;
       result.push({ id: segmentId(value, kind), source: value.trim(), kind,
@@ -74,7 +80,7 @@ export const slots = (document) => {
     };
     if (node.nodeName === '#text') add(node.value, 'text', (value) => { node.value = value; });
     for (const entry of node.attrs ?? []) {
-      if (['alt', 'title', 'aria-label', 'placeholder', 'data-finder-load-failed', 'data-finder-load-fallback'].includes(entry.name)) add(entry.value, 'attribute', (value) => { entry.value = value; });
+      if (['alt', 'title', 'aria-label', 'placeholder', 'data-search', 'data-finder-load-failed', 'data-finder-load-fallback'].includes(entry.name)) add(entry.value, 'attribute', (value) => { entry.value = value; });
       if (node.tagName === 'meta' && entry.name === 'content'
         && ['description', 'og:title', 'og:description', 'og:image:alt', 'twitter:title', 'twitter:description', 'twitter:image:alt'].includes(attr(node, 'name') ?? attr(node, 'property'))) {
         add(entry.value, 'metadata', (value) => { entry.value = value; });

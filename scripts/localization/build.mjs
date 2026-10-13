@@ -89,7 +89,7 @@ const addSelector = (document, page, releases, edition, ui) => {
   const links = [{ edition: getEdition('us'), route: page.sourcePath }, ...variants.map((variant) => ({ edition: variant, route: safeRoute(releases.editions[variant.id].verifiedPaths[page.id]) }))];
   const html = `<nav data-language-region aria-label="${escape(ui.languageRegion)}" style="padding:12px 20px;border-bottom:1px solid #ddd;display:flex;flex-wrap:wrap;gap:12px">${links.map(({ edition: target, route }) => {
     const country = target.locale.split('-')[1];
-    const label = `${languages.of(target.locale.split('-')[0])} · ${country === '419' ? 'Latin America' : regions.of(country)}`;
+    const label = `${languages.of(target.locale.split('-')[0])} · ${regions.of(country)}`;
     return `<a href="https://${target.host}${escape(route)}" hreflang="${target.hreflang}" lang="${target.locale}">${escape(label)}</a>`;
   }).join('')}</nav>`;
   const body = walk(document).find((node) => node.tagName === 'body');
@@ -120,6 +120,8 @@ export const buildRegional = async (editionId, options = {}) => {
   for (const page of source.pages) {
     const document = prepareRegionalDocument(parseHtml(await readFile(path.join(directory, page.file), 'utf8')));
     translateDom(document, cache);
+    const head = walk(document).find((node) => node.tagName === 'head');
+    appendHtml(head, `<script id="coffeedant-localization" type="application/json">${JSON.stringify({ ui, locale: edition.locale }).replaceAll('<', '\\u003c')}</script>`);
     setAttr(walk(document).find((node) => node.tagName === 'html'), 'lang', edition.locale);
     for (const node of walk(document)) {
       for (const entry of node.attrs ?? []) {

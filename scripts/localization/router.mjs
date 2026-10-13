@@ -21,6 +21,12 @@ export function createRegionalRouter(hosts, redirects = {}) {
       }
       url.pathname = `/__editions/${edition}${url.pathname}`;
       const response = await env.ASSETS.fetch(new Request(url, request));
+      if (response.status === 404 && !url.pathname.endsWith('/404.html')) {
+        const fallbackUrl = new URL(request.url); fallbackUrl.pathname = `/__editions/${edition}/404.html`;
+        const fallback = await env.ASSETS.fetch(new Request(fallbackUrl, request));
+        const headers = new Headers(fallback.headers); headers.set('X-Robots-Tag', 'noindex');
+        return new Response(fallback.body, { status: 404, headers });
+      }
       const headers = new Headers(response.headers);
       const location = headers.get('Location');
       if (location) {

@@ -14,7 +14,7 @@ No common Latin American currency or electrical standard is assumed.
 
 - All 15 editions configured; 14 regional editions deliberately unpublished.
 - Shared Astro application and original US URLs preserved.
-- DOM-safe source indexing covers all 195 built HTML pages (194 regular pages
+- DOM-safe source indexing covers all 199 built HTML pages (198 regular pages
   plus the 404), including metadata, accessibility text, JSON-LD and finder data.
 - Source-path-derived content IDs connect stable translated route registries.
   If the US source URL itself changes, migrate that registry explicitly and add
@@ -25,6 +25,9 @@ No common Latin American currency or electrical standard is assumed.
 - Translation on source pushes, daily resumable backfill and manual dispatch.
 - Localized finder runtime strings, date/rating formatting and factual US
   commerce isolation. Missing local prices do not become converted US prices.
+- Newly published Journal, bean and grinder content preserved and included;
+  Journal filters, animated controls, recipe/water text, SVG labels and search
+  terms use the localization layer without changing story IDs or calculations.
 - Existing Amazon credentials reused by regional offer refreshing, gated by
   approved regional tags and manually verified listing identity/specification/
   delivery. Matching candidates still need verification; no foreign ASINs have

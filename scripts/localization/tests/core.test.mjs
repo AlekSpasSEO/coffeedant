@@ -42,6 +42,15 @@ test('unsafe routes and translated route collisions are rejected', () => {
   assert.throws(() => validatedRoutes(source, { routes: { 1: { sourcePath: '/a/', path: '/same/' }, 2: { sourcePath: '/b/', path: '/same/' } } }));
 });
 
+test('SVG labels, journal search text and noscript fallback translate while CSS and story keys stay fixed', () => {
+  const document = parseHtml('<html><body><svg viewBox="0 0 100 100"><text>Water flow</text><path d="M0 0 L100 100"/></svg><button data-story="story-id" data-search="Coffee history">Coffee history</button><noscript><style>.story{display:block!important}</style><p>All stories follow below.</p></noscript></body></html>');
+  const extracted = slots(document);
+  assert(extracted.some(({ source }) => source === 'Water flow'));
+  assert(extracted.some(({ source, kind }) => source === 'Coffee history' && kind === 'attribute'));
+  assert(extracted.some(({ source }) => source === 'All stories follow below.'));
+  assert(!extracted.some(({ source }) => source.includes('display:block') || source === 'story-id'));
+});
+
 test('internal URLs preserve fragments and external sources are not rewritten', () => {
   const routes = new Map([['/review/', '/testbericht/']]);
   const edition = getEdition('de');
@@ -113,6 +122,8 @@ test('hostname router isolates editions and keeps internal asset prefixes out of
   assert.equal((await router.fetch(new Request('https://br.coffeedant.com/%2F__editions/ca/'), env)).status, 404);
   assert.equal((await router.fetch(new Request('https://br.coffeedant.com/%zz'), env)).status, 400);
   assert.equal((await router.fetch(new Request('https://br.coffeedant.com/', { method: 'POST' }), env)).status, 405);
+  const missing = await router.fetch(new Request('https://br.coffeedant.com/missing/'), { ASSETS: { fetch: async (request) => request.url.endsWith('/404.html') ? new Response('Localized 404') : new Response('missing', { status: 404 }) } });
+  assert.equal(missing.status, 404); assert.equal(await missing.text(), 'Localized 404');
 });
 
 test('complete preview build translates metadata, JSON, finder, canonical URLs and links without US offers', async () => {
