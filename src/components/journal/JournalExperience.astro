@@ -10,7 +10,7 @@ const {embedded = false, selectedStory} = Astro.props;
 const visibleStories = embedded ? stories : stories.filter(story=>story.id===selectedStory);
 const libraryVisible = !selectedStory;
 const thumbnailCredits = stories.flatMap(story=>story.media.images).filter(photo=>journalEntries.some(entry=>entry.image===photo.src));
-const href = (path:string) => `${base}${path.replace(/^\//,'')}`;
+const href = (path:string) => /^https?:\/\//i.test(path)?path:`${base}${path.replace(/^\//,'')}`;
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const image = (hero:string) => `${base}journal/${hero}.webp`;
 ---

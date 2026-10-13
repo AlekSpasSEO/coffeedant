@@ -19,6 +19,7 @@ assert.equal(hub.filter(n=>attr(n,'data-reader')).length,0,'Hub is a library, no
 assert.equal(graph(hub).find(n=>n['@type']==='ItemList').numberOfItems,25);
 assert.equal(graph(hub).filter(n=>n['@type']==='Article').length,0);
 assert.equal(new Set(cards.map(n=>attr(n,'href'))).size,25);
+for(const card of cards){const img=walk(card).find(n=>n.tagName==='img');const src=attr(img,'src');assert.ok(src&&attr(img,'alt'));if(!/^https:\/\//.test(src)){const file=src.replace(/^\/coffeedant\//,'/').replace(/^\//,'');assert.ok(fs.existsSync(path.join('dist',file)),`Library thumbnail missing: ${src}`);}}
 assert.deepEqual(cards.reduce((c,n)=>{const k=attr(n,'data-kind');c[k]=(c[k]??0)+1;return c;},{}),{feature:10,informational:7,'buying-guide':8});
 const media=JSON.parse(fs.readFileSync('src/data/journal-existing-media.json','utf8'));
 const sitemap=fs.readFileSync('public/sitemap.xml','utf8');
