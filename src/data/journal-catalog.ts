@@ -11,9 +11,9 @@ export const journalBuyingGuides = [beginnerGuide, builtInGrinderGuide, budgetUn
 const minutes = (html: string) => Math.max(5, Math.ceil(html.replace(/<[^>]*>/g, ' ').split(/\s+/).length / 210));
 const blogImages: Record<string, {src:string; alt:string}> = {
  'conical-vs-flat-burr-grinders': {src:'journal/documentary/americano-portafilter.webp', alt:'Freshly ground coffee in an espresso portafilter'},
- 'espresso-dosing': {src:'journal/americano.webp', alt:'Illustrated espresso preparation scene'},
+ 'espresso-dosing': {src:'journal/brew.webp', alt:'Illustrated espresso preparation scene'},
  'espresso-tamp-guide': {src:'journal/documentary/americano-portafilter.webp', alt:'Ground coffee in a portafilter before tamping'},
- 'espresso-techniques': {src:'journal/americano.webp', alt:'Illustrated espresso preparation scene'},
+ 'espresso-techniques': {src:'journal/brew.webp', alt:'Illustrated espresso preparation scene'},
  'golden-ratio-espresso': {src:'journal/documentary/americano-cup.webp', alt:'An espresso-based coffee drink'},
  'ground-distribution': {src:'journal/documentary/americano-portafilter.webp', alt:'Ground coffee in an espresso portafilter'},
  'nordic-style-coffee': {src:'journal/freshness.webp', alt:'Illustrated coffee beans and storage scene'},
