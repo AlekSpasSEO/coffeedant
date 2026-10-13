@@ -16081,6 +16081,27 @@
       "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
       "provider": "codex-direct",
       "authoredFile": "localization/authored/brand-pages-batch-5.json"
+    },
+    "a7f2e89b208ab5549c029266098ca1837d2b5d42d4c681d331a32b3ee4b5e6d8": {
+      "source": "Deals",
+      "text": "Offres",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/shared-navigation-batch-5.json"
+    },
+    "3aa58b49a0b1ad00759ab102e03c642f80b65cf49a1e5e4eb7c3b5b167b3ec45": {
+      "source": "Coffee deals",
+      "text": "Offres café",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/shared-navigation-batch-5.json"
+    },
+    "455211b25b8316d6227176140d713b0084bf035e1501472597f6b46d2e08a38b": {
+      "source": "<a class=\"cd-nav__link\" href=\"/deals/\" data-astro-cid-w65nqoo5=\"\">Deals</a>",
+      "text": "<a class=\"cd-nav__link\" href=\"/deals/\" data-astro-cid-w65nqoo5=\"\">Offres</a>",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/policy-navigation-batch-5.json"
     }
   },
   "routes": {

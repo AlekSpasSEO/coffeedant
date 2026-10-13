@@ -72,3 +72,34 @@ test('new SEO metadata and image descriptions reuse complete direct wording with
   }
  }
 });
+
+test('new Deals navigation labels are translated without claiming the US deal catalog is regionally approved',async()=>{
+ const source=await readJson(path.join(root,'localization/authored/shared-navigation-batch-5.source.json'));
+ assert.equal(source.snapshotHash,digest(JSON.stringify(source.segments)));
+ assert.equal(source.segments.length,2);
+ for(const id of ['nl','de','fr']){
+  const cache=await loadCache(id);
+  for(const segment of source.segments){
+   const entry=cache.segments[segment.id];
+   assert(entry);
+   assert.equal(entry.source,segment.source);
+   assert.equal(entry.policyHash,policyHash);
+   assert.notEqual(entry.text,segment.source);
+   assert.equal(validateTranslation(segment.source,entry.text),entry.text);
+  }
+ }
+});
+
+test('policy navigation keeps exact Deals anchor markup and destination while translating the whole inline slot',async()=>{
+ const source=await readJson(path.join(root,'localization/authored/policy-navigation-batch-5.source.json'));
+ assert.equal(source.snapshotHash,digest(JSON.stringify(source.segments)));
+ assert.equal(source.segments.length,1);
+ assert.equal(source.segments[0].kind,'inline-html');
+ for(const id of ['nl','de','fr']){
+  const entry=(await loadCache(id)).segments[source.segments[0].id];
+  assert.equal(entry.source,source.segments[0].source);
+  assert.equal(entry.policyHash,policyHash);
+  assert.equal(validateTranslation(entry.source,entry.text),entry.text);
+  assert.notEqual(entry.text,entry.source);
+ }
+});

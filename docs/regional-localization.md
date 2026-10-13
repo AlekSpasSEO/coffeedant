@@ -14,7 +14,7 @@ No common Latin American currency or electrical standard is assumed.
 
 - All 15 editions configured; 14 regional editions deliberately unpublished.
 - Shared Astro application and original US URLs preserved.
-- DOM-safe source indexing currently covers all 210 canonical built HTML pages (209 regular pages
+- DOM-safe source indexing currently covers all 211 canonical built HTML pages (210 regular pages
   plus the 404), including metadata, accessibility text, JSON-LD and finder data.
 - Source-path-derived content IDs connect stable translated route registries.
   If the US source URL itself changes, migrate that registry explicitly and add
@@ -57,7 +57,7 @@ No common Latin American currency or electrical standard is assumed.
 The user selected full Netherlands Dutch, Germany German and France French
 editions for direct translation by Codex. This is substantial unfinished work,
 not a declaration that the three editions have been translated or deployed.
-The current canonical source has 210 pages; counts can change as authors publish.
+The current canonical source has 211 pages; counts can change as authors publish.
 
 The first complete Dutch page is the espresso-dosing guide:
 `https://nl.coffeedant.com/journal/espresso-doseren/`.
@@ -222,8 +222,8 @@ prices, condition caveats and exact variant identifiers. There are now 41 produc
 Gaggia, Jura, Krups and Lelit own-page text, accessible labels, metadata and
 structured data are complete in NL/DE/FR, with stable brand-root routes. Twelve
 DOM/JSON checks preserve source link destinations; scoped full builds still
-reject the unfinished shared Finder. Concurrent US SEO improvements increased
-the current source to 43,221 unique slots without changing the 210-page count.
+reject the unfinished shared Finder. Concurrent US SEO improvements initially increased
+the source to 43,221 unique slots without changing the then-210-page count.
 Exact direct wording was reused for 133 new NL source-kind entries and 132 each
 in DE/FR. Eight new shared metadata/image-description slots were authored against
 `seo-refresh-batch-5.source.json`, preserving image attribution and copyright
@@ -233,11 +233,21 @@ SEO changes; old source snapshots were not overwritten or artificially exempted.
 Current content-page own-text completeness is NL 20, DE 19, FR 19; renderable
 content-page totals remain NL 11, DE 10, FR 10 until their Finder dependencies
 are complete. The 404 is excluded from these totals. All editions remain
-unpublished, and 31 localization tests plus sitewide analytics validation pass.
+unpublished, and 33 localization tests plus sitewide analytics validation pass.
 Continue the final Finder records, then full article bodies and their newly
 indexed metadata/media descriptions. Batch size is not capped at one or two
 pages: combine substantive comparable work into one validated PR to reduce
 repeated source scans and CI overhead without weakening completeness checks.
+
+Before merging, the batch was rebased onto the newly published US Deals page.
+The current source is now 211 canonical pages / 43,703 unique slots. Its new
+navigation/footer labels, including the constrained inline policy-navigation
+anchor, are directly translated in all three editions; the original href and
+markup are retained. The Deals body and runtime are queued, not falsely marked
+translated. Its US-only offer cards/prices and ItemList purchase URLs must be
+suppressed on regional editions until verified local commerce exists, and its
+new executable result-count labels need localization. Do not treat removing
+the sponsored anchors alone as sufficient regional offer isolation.
 
 ## Missing configuration
 

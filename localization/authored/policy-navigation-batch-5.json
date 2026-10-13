@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "editions": ["nl", "de", "fr"],
+  "scope": "segments",
+  "snapshot": "policy-navigation-batch-5.source.json",
+  "snapshotHash": "0f99e637daa382d2dba9d40cbc639b62d82f7726addd5b7129f4f50b7ac44f8a",
+  "translations": {
+    "0": {
+      "nl":"<a class=\"cd-nav__link\" href=\"/deals/\" data-astro-cid-w65nqoo5=\"\">Aanbiedingen</a>",
+      "de":"<a class=\"cd-nav__link\" href=\"/deals/\" data-astro-cid-w65nqoo5=\"\">Angebote</a>",
+      "fr":"<a class=\"cd-nav__link\" href=\"/deals/\" data-astro-cid-w65nqoo5=\"\">Offres</a>"
+    }
+  }
+}

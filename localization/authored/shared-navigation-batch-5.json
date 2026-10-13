@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "editions": ["nl", "de", "fr"],
+  "scope": "segments",
+  "snapshot": "shared-navigation-batch-5.source.json",
+  "snapshotHash": "bc591d82fde2ca96b32d53bc7cfaeff1ac18d1c261b7a9b560650f9c5ff23355",
+  "translations": {
+    "0": {"nl":"Aanbiedingen","de":"Angebote","fr":"Offres"},
+    "1": {"nl":"Koffieaanbiedingen","de":"Kaffeeangebote","fr":"Offres café"}
+  }
+}
