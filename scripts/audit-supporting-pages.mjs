@@ -19,11 +19,11 @@ const sitemapRoutes = new Set([...sitemap.matchAll(/<loc>\s*([^<]+?)\s*<\/loc>/g
   const pathname = new URL(match[1]).pathname.replace(/^\/coffeedant/, '') || '/';
   return pathname.endsWith('/') ? pathname : `${pathname}/`;
 }));
-const routes = migration.batches.flat().filter((route) => (
+const routes = [...migration.batches.flat().filter((route) => (
   !(productPattern.test(route) && !buyingGuides.has(route))
   && !buyingGuides.has(route)
   && !/^\/blog\/[^/]+\/$/.test(route)
-));
+)), '/coffee-beans/'];
 
 const attr = (node, name) => node?.attrs?.find((item) => item.name === name)?.value ?? '';
 const descendants = (node, output = []) => {
