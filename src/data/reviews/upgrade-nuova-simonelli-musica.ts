@@ -34,7 +34,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Espresso Outlet exact-model photograph of the Nuova Simonelli Musica reservoir machine on a counter',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: {
     label: 'Current checked exact-version price',
     msrp: '$2,950 at Seattle Coffee Gear',
@@ -158,6 +158,8 @@ const profile: UpgradeReviewProfile = {
     published: '2015-07-06',
     note: 'Independent exact-model visual review linked from Seattle Coffee Gear\'s dated Crew Review. It demonstrates controls, espresso and steam workflow under that reviewer\'s conditions; it is not Coffeedant testing or durability evidence.',
   },
+
+  overview: "Musica puts programmable volumetric buttons beside traditional manual steam, giving a milk-focused owner a different routine from timing every shot by hand. Its 2 L heat exchanger permits brewing and steaming together, while the mature interface omits a user-facing brew PID and shot timer. The reviewed US reservoir model also excludes the direct-connect option and illuminated Lux trim. It is most interesting when strong steam and repeatable selected beverage volumes will be used regularly. Compare its professional-style preparation and service support with a contemporary dual boiler, rather than assuming the curved case provides the same temperature controls.",
 };
 
 profile.sectionOverrides = {

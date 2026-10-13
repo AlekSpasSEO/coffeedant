@@ -4,6 +4,7 @@ import { buildUpgradeReview, type UpgradeReviewProfile } from './upgrade-next-te
 type DimensionCopy = UpgradeReviewProfile['dimensions'][ReviewDimensionId];
 type SourceInput = UpgradeReviewProfile['sources'][number];
 type ProductConfig = {
+  overview: string; updated?: string;
   key: string;
   slug: string;
   productId: string;
@@ -57,6 +58,7 @@ const makeProfile = (p: ProductConfig): UpgradeReviewProfile => ({
   category: 'Superautomatic espresso machine',
   brandPath: p.brandPath,
   title: p.title,
+  overview: p.overview,
   description: p.description,
   verdictLabel: `For households that want ${p.strength.toLowerCase()}`,
   verdict: `Choose the ${p.model} for ${p.strength.toLowerCase()}. Skip it when ${p.limit.toLowerCase()} is a deal-breaker.`,
@@ -64,7 +66,7 @@ const makeProfile = (p: ProductConfig): UpgradeReviewProfile => ({
   image: p.image,
   imageAlt: p.imageAlt,
   published: '2026-07-27',
-  updated: '2026-09-23',
+  updated: p.updated ?? '2026-09-23',
   price: {
     label: p.priceLabel,
     msrp: p.price,
@@ -190,6 +192,9 @@ const products: ProductConfig[] = [
       { kicker: 'Broader one-touch menu', title: 'Gaggia Cadorna Prestige', text: 'Choose a current carafe machine with four profiles and a much broader saved-drink menu.', href: '/espresso-machine/gaggia-cadorna-prestige/', linkLabel: 'Read the Cadorna Prestige review' },
     ],
     video: { id: 'NhUJX7DuhFw', title: 'Gaggia Velasca Espresso Machine: Unboxing, Startup, & First Use', creator: 'Whole Latte Love', published: '2023-12-19', note: 'Independent retailer workflow evidence. The current price, exact identity boundary and specifications are verified separately.' }, rating: [7.9, 6.8, 7.9, 7.6, 7.5, 7.5],
+
+    overview: "The standard Velasca is a front-access automatic for someone who wants more grinder adjustment while keeping milk manual. Ten ceramic-grinder positions, strength and temperature settings, adjustable preinfusion and a removable brew group give it useful flexibility behind the simple monochrome interface. The pannarello remains a separate steaming step, so this is not the carafe-equipped Prestige. There is also an identity limit worth keeping visible: the current North American product page confirms the pannarello model without exposing the RI suffix used in this route. The delivered plate and seller documentation should settle that detail before purchase.",
+    updated: '2026-10-13',
   },
   {
     key: 'jura-e6', slug: '/espresso-machine/jura-e6/', productId: 'CD-EM-000181', brand: 'JURA', model: 'E6 Dark Inox NAC', sku: 'Article 15621, North America', brandPath: '/jura/',
@@ -209,10 +214,13 @@ const products: ProductConfig[] = [
       { label: 'Barista Hustle water background', href: 'https://www.baristahustle.com/blog/diy-water-recipes-redux/', note: 'Independent water context; JURA instructions remain controlling for the machine.' },
     ], comparisons: juraComparisons('JURA E6', '$1,899'), recommendations: juraRecommendations,
     video: { id: 'Slh1Yr-FR4M', title: 'JURA C9 vs E6 vs E8 comparison', creator: 'Quality Coffee Systems', published: '2026-06-03', note: 'Independent comparative workflow evidence. Exact 15621 specifications and price are verified separately.' }, rating: [8.0, 7.8, 8.6, 7.8, 7.6, 7.2],
+
+    overview: "E6 Dark Inox NAC is the current North American entry into JURA's hot-coffee and cappuccino routine. Eleven specialties and physical buttons beside a 2.8-inch screen keep the selection process comparatively focused, while the hose-fed milk system avoids a built-in storage carafe. Neither that hose nor the closed brewing platform removes the need for prescribed care. Optional connectivity should also be counted as an additional purchase rather than assumed in the package. The E6's strongest case is a household that wants these familiar hot drinks and a guided interface, without paying for cold extraction or a much larger menu.",
+    updated: '2026-10-13',
   },
   {
     key: 'jura-e8', slug: '/espresso-machine/jura-e8/', productId: 'CD-EM-000182', brand: 'JURA', model: 'E8 Midnight Silver NAD', sku: 'Article 15722, North America, fifth generation', brandPath: '/jura/',
-    title: 'JURA E8 review: fifth-generation Hot, Light and Sweet drinks at $2,599', description: 'A research-led JURA E8 NAD review covering article 15722, 27 specialties, P.A.G.2 grinder, Hot, Light and Sweet menus, current $2,599 US context and ownership.',
+    title: "JURA E8 review: what fifth-generation Light and Sweet recipes add", description: 'A research-led JURA E8 NAD review covering article 15722, 27 specialties, P.A.G.2 grinder, Hot, Light and Sweet menus, current $2,599 US context and ownership.',
     image: 'https://us.jura.com/_next/image?url=https%3A%2F%2Fapi.jura.com%2Fmedia%2Fglobal%2Fimages%2Fhome-products%2Fe-line-2025%2Fe8-ed-midnight-silver%2Fe8_ed_midnightsilver_packshot.jpg%3Fcb%3D330306&w=1920&q=75', imageAlt: 'Fifth-generation JURA E8 Midnight Silver automatic coffee machine', official: 'https://us.jura.com/en/homeproducts/machines/e8-midnight-silver-nad-15722', priceUrl: 'https://www.abt.com/Jura-E8-Automatic-Coffee-Espresso-Machine-NAD-in-Midnight-Silver-15722/p/247551.html', priceLabel: 'Abt US authorized-retailer price', price: '$2,599.00', priceNumeric: '2599.00', priceContext: 'Article 15722 was listed at $2,599 but unavailable to order on the check date; tax, restock timing and warranty can change',
     exactIdentity: 'Fifth-generation North American E8 Midnight Silver NAD, article 15722. It is not the earlier EC generation still shown in many reviews and listings.', coffeeSystem: 'Twenty-seven Hot, Light and Sweet specialties with ten strength levels, a 5-16 g brew unit and adjustable recipes', milkSystem: 'Automatic HP3 milk system for milk and milk foam through a hose, with guided cleaning after use', grinder: 'P.A.G.2 grinder with an automatic bean-to-cup workflow and bypass chute', interface: '3.5-inch color display with side buttons; optional Wi-Fi Connect V2 adds J.O.E. and Coffee Timer', capacity: '64 oz water tank, 9.9 oz bean container and about 16-serving grounds bin', dimensions: '11 W by 13.8 H by 17.6 D in; about 22 lb', maintenance: 'Use the guided cleaning and descaling programs, clean the milk system every day it is used, and follow the NAD manual for filter and hygiene steps.', strength: 'Twenty-seven Hot, Light and Sweet specialties in a polished mid-range JURA workflow', limit: 'The $2,599 price, closed brew system and optional connectivity demand more than a long menu to justify ownership',
     sources: [
@@ -228,6 +236,9 @@ const products: ProductConfig[] = [
       { label: 'Barista Hustle water background', href: 'https://www.baristahustle.com/blog/diy-water-recipes-redux/', note: 'Independent water context; JURA instructions remain controlling.' },
     ], comparisons: juraComparisons('JURA E8', '$2,599'), recommendations: juraRecommendations,
     video: { id: 'IKD3rWrV4DI', title: 'The brand new JURA E8 (SD) 2025 in review', creator: 'Primocaffe', published: '2025-09-04', note: 'Independent current-generation family workflow evidence. Regional specifications are verified against the NAD sources.' }, rating: [8.2, 8.4, 9.0, 8.0, 9.0, 6.9],
+
+    overview: "The fifth-generation E8 NAD moves beyond familiar hot recipes with Light and Sweet specialties, while retaining side-button selection around its color display. Its twenty-seven-drink menu is most relevant to people who will use those preparation styles, rather than treat the count itself as an upgrade. The automatic milk hose and closed brew system also make JURA's cleaning routine part of the purchase. Connectivity is optional on this North American generation. Compare the exact NAD machine with the E6 around drink preferences and the E8's additional preparation options; older E8 reviews cannot establish all of this generation's features.",
+    updated: '2026-10-13',
   },
   {
     key: 'jura-giga-6', slug: '/espresso-machine/jura-giga-6/', productId: 'CD-EM-000183', brand: 'JURA', model: 'GIGA 6 Aluminum NAA', sku: 'Factory-refurbished US model 15396.99; current UK EA article 15394 is a different electrical package', brandPath: '/jura/',
@@ -251,10 +262,13 @@ const products: ProductConfig[] = [
       ...juraComparisons('JURA GIGA 6', '$3,499').slice(2),
     ], recommendations: juraRecommendations,
     video: { id: 'SWJ49f90CTM', title: 'Jura Giga 6 | The Most Advanced Coffee Machine For Home', creator: 'ECS Coffee', published: '2021-11-29', note: 'Independent visible workflow evidence. Current condition, price and regional identity are verified separately.' }, rating: [8.8, 9.1, 8.8, 7.2, 9.0, 5.8],
+
+    overview: "Two electronically adjustable grinders are the GIGA 6's defining advantage for a household that actually switches or blends beans. Two fluid systems also support more ambitious coffee-and-milk sequencing than a simple single-path automatic. This is a large, discontinued platform, however, and the dated North American purchase reference was a factory-refurbished Aluminum NAA unit. Condition, included warranty and exact regional menu therefore need as much attention as the twin-grinder hardware. Conflicting US and UK recipe counts should remain separate. Choose a particular supported example for its two-bean role, rather than assuming an old flagship is automatically the best current JURA value.",
+    updated: '2026-10-13',
   },
   {
     key: 'jura-z10', slug: '/espresso-machine/jura-z10/', productId: 'CD-EM-000184', brand: 'JURA', model: 'Z10 Aluminium Black NAB', sku: 'Article 15702, North America, second generation', brandPath: '/jura/',
-    title: 'JURA Z10 review: 51 hot, light, cold and sweet drinks at $4,499', description: 'A research-led second-generation JURA Z10 NAB review covering article 15702, 51 specialties, P.R.G.2+ grinder, Cold Extraction, four profiles, $4,499 US price and care.',
+    title: "JURA Z10 review: when cold extraction earns a flagship premium", description: 'A research-led second-generation JURA Z10 NAB review covering article 15702, 51 specialties, P.R.G.2+ grinder, Cold Extraction, four profiles, $4,499 US price and care.',
     image: 'https://us.jura.com/_next/image?url=https%3A%2F%2Fapi.jura.com%2Fmedia%2Fglobal%2Fimages%2Fhome-products%2Fz-line-2025%2FZ10-EB-SB%2FZ10-EB-SB-Aluminium-Black%2FZ10_eb_sb_ab_packshot.jpg%3Fcb%3D307471&w=1920&q=75', imageAlt: 'Second-generation JURA Z10 Aluminium Black NAB automatic coffee machine', official: 'https://us.jura.com/en/homeproducts/machines/z10-aluminium-black-nab-15702', priceUrl: 'https://shopjura.com/z-10-aluminum-black-15702-nab.html', priceLabel: 'JURA US official shop price', price: '$4,499.00', priceNumeric: '4499.00', priceContext: 'Current Aluminium Black NAB article 15702 listing, out of stock on the check date; tax, restock timing and accessories can change',
     exactIdentity: 'North American Z10 Aluminium Black NAB, article 15702. First-generation Z10 reviews and videos remain useful only for limited workflow context because menus, grinder and software differ.', coffeeSystem: 'Fifty-one Hot, Light, Cold and Sweet specialties with Cold Extraction, four profiles, Coffee Timer and Caffeine Regulator', milkSystem: 'Automatic HP3 milk system with Milk Assistant and guided cleaning; an optional chocolate attachment expands sweet recipes', grinder: 'P.R.G.2+ electronically controlled grinder with automatic adjustment for the selected specialty', interface: '4.3-inch color touchscreen with four profiles, included Wi-Fi and J.O.E. support', capacity: '81 oz water tank, 9.9 oz bean container and about 20-serving grounds bin', dimensions: '12.6 W by 14.3 H by 18.5 D in; about 27 lb', maintenance: 'Use the Quality Assistant and prompted cleaning or descaling cycles, clean milk hardware every day it is used, and verify care for any optional chocolate attachment.', strength: 'The broadest current JURA home menu, including Cold Extraction, four profiles and included connectivity', limit: 'The $4,499 price and extensive closed-system feature set only make sense when the household will use the added cold, sweet and profile functions',
     sources: [
@@ -270,6 +284,9 @@ const products: ProductConfig[] = [
       { label: 'Barista Hustle water background', href: 'https://www.baristahustle.com/blog/diy-water-recipes-redux/', note: 'Independent water context; JURA instructions remain controlling.' },
     ], comparisons: juraComparisons('JURA Z10', '$4,499'), recommendations: juraRecommendations,
     video: { id: 'cHYQQwMgT54', title: 'Cold Brew From a Jura Z10 Superautomatic', creator: 'ECS Coffee', published: '2022-07-18', note: 'Independent first-generation workflow context only. Second-generation features and price are verified separately.' }, rating: [8.8, 9.1, 9.2, 8.3, 9.7, 6.4],
+
+    overview: "The current Z10 NAB has a clear reason to sit above JURA's hot-drink machines: Cold Extraction belongs alongside its Hot, Light and Sweet preparations. Four profiles, included connectivity and the electronically controlled grinder make those options more useful in a varied household than a long menu alone would be. The price asks whether cold drinks and personalization will be regular habits, not occasional demonstrations. Its milk system and closed brew platform still require the specified care. First-generation Z10 material offers some visual context, but the current North American model's grinder, software and recipe capabilities need their own evidence.",
+    updated: '2026-10-13',
   },
 ];
 

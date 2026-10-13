@@ -36,7 +36,7 @@ const profile: UpgradeReviewProfile = {
   image: hero,
   imageAlt: 'Timemore official product image of the white Sculptor 078S single-dose coffee grinder',
   published: '2026-01-15',
-  updated: '2026-09-25',
+  updated: '2026-10-13',
   price: {
     label: 'Current US manufacturer listing',
     msrp: '$799',
@@ -163,6 +163,8 @@ const profile: UpgradeReviewProfile = {
     published: '2025-05-07',
     note: 'Independent comparison running 27 minutes 17 seconds. It shows exact-model workflow and comparative observations but does not provide Coffeedant testing or population-level reliability evidence.',
   },
+
+  overview: "Sculptor 078S is the Timemore to examine when one single-dose grinder must serve espresso and occasional filter. Its 78 mm flat burrs, stepless adjustment, variable motor speed and rotary knocker organize that work around weighed doses rather than a full hopper. The independent comparison gives the brew-only 078 a different filter-cup proposition, so the S should not be chosen merely because its adjustment reaches finer. Decide how often espresso will be made and how frequently beans will change, then compare the workflow and reported cup character. Smaller 064S models and alternative burr packages remain separate configurations rather than interchangeable Sculptors.",
 };
 
 profile.dimensionDiagnostics = {

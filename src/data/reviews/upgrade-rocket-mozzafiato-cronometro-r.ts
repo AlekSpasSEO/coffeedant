@@ -26,7 +26,7 @@ const profile: UpgradeReviewProfile = {
   sku: 'Former North American 110 to 120 V Mozzafiato Cronometro R, Whole Latte Love historical SKU 27752; exact model retired',
   category: 'Retired rotary-pump E61 heat-exchanger semi-automatic espresso machine',
   brandPath: '/rocket-espresso/',
-  title: 'Rocket Mozzafiato Cronometro R review: retired model, used value and limits',
+  title: "Rocket Mozzafiato Cronometro R review: a retired rotary HX with a straight-sided case",
   description: 'Research-led Rocket Mozzafiato Cronometro R review covering the retired North American rotary-pump model, exact manual, used-buying checks, current availability, owner evidence and alternatives.',
   verdictLabel: 'A handsome, quiet rotary-pump heat exchanger for a careful used purchase, not a current new-machine recommendation',
   verdict: 'The Mozzafiato Cronometro R combined a 1.8 L copper heat-exchanger boiler, 58 mm E61 group, rotary pump, tank or direct water, PID, hidden timer and dual gauges in Rocket\'s straight-sided case. Rocket\'s current range lists Mozzafiato FAST instead, while Whole Latte Love calls the older exact listing retired. A US$3,100 Coffee Machine Depot page observed September 25, 2026 was sold out with a stock-alert form, not a confirmed offer. Treat this as a used or old-stock decision whose value depends on condition, voltage, serial, water history, plumbing parts and local service.',
@@ -34,7 +34,7 @@ const profile: UpgradeReviewProfile = {
   image: hero,
   imageAlt: 'Whole Latte Love product photograph of the retired Rocket Mozzafiato Cronometro R espresso machine',
   published: '2026-07-27',
-  updated: '2026-09-25',
+  updated: '2026-10-13',
   price: { label: 'Sold-out US listing reference, not a confirmed live offer', msrp: '$3,100', typical: 'Coffee Machine Depot displayed US$3,100 with a sold-out stock-alert state on September 25, 2026. Whole Latte Love labels its exact listing retired, and Rocket\'s current domestic range replaces the model with Mozzafiato FAST. Confirm actual stock, serial, voltage, condition, seller protection and written warranty before paying.', currency: 'USD', numeric: '3100', checked: 'September 25, 2026' },
   links: [
     { label: 'Read the exact Giotto and Mozzafiato Cronometro R manual', href: exactManual, note: 'Exact family operation, setup, reservoir and plumb-in modes, PID, timer, cleaning and safety guidance', primary: true },
@@ -129,6 +129,8 @@ const profile: UpgradeReviewProfile = {
     'Choose it only after inspection and a realistic repair budget. Choose Giotto Cronometro R only for the alternate body, Appartamento TCA for current compact Rocket support, Vetrano 2B Evo for current rotary dual boilers or Bianca for flow control.',
   ],
   video: { id: 'xVYdb-KZ-VM', title: 'Rocket Mozzafiato Cronometro R (timer) Espresso Machine', creator: 'iDrinkCoffeeCanada', published: '2019-10-08', note: 'Unique exact-model independent retailer demonstration covering controls, espresso, milk steaming and hot-water workflow. It is not Coffeedant testing, a current-stock record or a controlled performance benchmark.' },
+
+  overview: "Mozzafiato Cronometro R packages the familiar Rocket heat-exchanger routine in a straight-sided case, with rotary pumping and a choice of reservoir or direct water. Its PID controls the boiler, and the hidden timer supplies timing rather than modern touchscreen guidance. As this model is retired, the buying decision starts with the offered example: functioning controls, service records, water care, complete parts and a credible return arrangement. A sold-out page is not an available new-machine offer. Compare that evidence and the intended installation with a current alternative before paying for the cleaner-lined appearance or borrowing claims from the newer Mozzafiato FAST.",
 };
 
 profile.sectionOverrides = {

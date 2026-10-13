@@ -38,7 +38,7 @@ const profile: UpgradeReviewProfile = {
   image: hero,
   imageAlt: 'Seattle Coffee Gear product photograph of a stainless North American Saeco Xelsis SM7685 superautomatic machine',
   published: '2026-07-27',
-  updated: '2026-09-25',
+  updated: '2026-10-13',
   price: {
     label: 'Certified-refurbished listing checked September 25, 2026',
     msrp: '$1,249 displayed sale price',
@@ -137,6 +137,8 @@ const profile: UpgradeReviewProfile = {
     'Buy a complete SM7685 when paired milk drinks and deep profiles justify the extra diligence. Choose Philips 5400 for simpler milk cleanup, Dinamica Plus for a more current one-touch market, or Miele CM 6360 for premium paired drinks with current support.',
   ],
   video: { id: 'yNaPPvjBDsU', title: 'Saeco Xelsis Crew Review', creator: 'Seattle Coffee Gear', published: '2018-10-03', note: 'Unique independent retailer walkthrough of the SM76xx Xelsis generation, interface, Coffee Equalizer and milk workflow. Seattle Coffee Gear sells the product, and the video does not prove current stock, condition, durability or performance for a refurbished SM7685.' },
+
+  overview: "The North American SM7685 Xelsis still offers a distinctive personalization package: eight profiles, Coffee Equalizer adjustments and paired milk drinks around a fifteen-recipe menu. A twelve-position ceramic grinder and removable brewer give the legacy platform useful coffee and care flexibility. Its milk-cleaning functions assist the routine without replacing attention to the actual hose and parts. The purchase question is whether a complete, supported refurbished example can deliver those advantages at a sensible price. Exact suffix, electrical rating, milk assembly, return period and service matter more than the former flagship list price, especially where the checked offer was already unavailable.",
 };
 
 profile.sectionOverrides = {

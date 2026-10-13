@@ -26,7 +26,7 @@ const profile: UpgradeReviewProfile = {
   sku: '0960-A-CEVO-A North American 110 V current-display configuration',
   category: 'Espresso-only E61 single-boiler machine',
   brandPath: '/quick-mill/',
-  title: 'Quick Mill Carola Evo review: current price, espresso-only workflow and generation boundary',
+  title: "Quick Mill Carola Evo review: an E61 devoted entirely to straight espresso",
   description: 'Research-led Quick Mill Carola Evo review covering current US 0960-A-CEVO-A identity, PID E61 workflow, no-steam limitation, price, owner evidence and alternatives.',
   verdictLabel: 'A narrow PID E61 for straight espresso drinkers who truly do not need steam',
   verdict: 'Carola Evo 0960-A-CEVO-A is unusual by design: a 0.75 L PID single boiler, E61 group and shot timer with no steam wand. The current US machine adds a front display, adjustable standby, low-water code and accessible expansion valve while keeping the narrow reservoir-fed chassis. Chris Coffee listed it in stock at $1,395 on September 24, 2026; 1st in Coffee and Espresso Outlet showed the same price but no stock. It is a focused choice for straight espresso, not a conventional single boiler that can change into steam mode.',
@@ -34,7 +34,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Quick Mill official three-quarter view of the current Carola espresso-only PID single-boiler machine',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: { label: 'Current US price', msrp: '$1,395', typical: 'Chris Coffee displayed $1,395 and in-stock status on September 24, 2026. 1st in Coffee and Espresso Outlet displayed $1,395 but out-of-stock status. Warranty, fulfillment and availability differ by seller. Used value depends on generation, PID controls, voltage, water history, E61 service and modifications.', currency: 'USD', numeric: '1395', checked: 'September 24, 2026' },
   links: [
     { label: 'Check Chris Coffee price and stock', href: chrisCoffee, note: '$1,395 in-stock listing, SKU 0960-A-CEVO-A, current US display generation and two-year seller warranty checked September 24, 2026', primary: true },
@@ -129,6 +129,8 @@ const profile: UpgradeReviewProfile = {
     'Buy it when straight espresso dominates and $1,395 specialist support fits the plan. Choose GO or Victoria for faster mixed use, Classika for E61 plus steam, or Alexia when the related Quick Mill platform needs a steam mode.',
   ],
   video: { id: 'XuiGHkaCVek', title: 'Quick Mill Carola EVO Espresso Machine Review - E61 58MM Prosumer Home Espresso Machine with PID', creator: 'super_X_drifter', published: '2021-12-27', note: 'Unique independent owner video for the current-display Carola Evo generation, covering the control layout, compact E61 architecture and espresso-only workflow. It is not Coffeedant testing, a current-price source or a reliability sample.' },
+
+  overview: "Carola Evo removes the steam wand entirely and concentrates its narrow E61 body on straight espresso. The current US version adds visible PID control, shot timing and standby settings around a 0.75 L brew boiler, without asking the owner to switch that boiler into a milk mode. That deliberate omission distinguishes it from a conventional single boiler that happens to be used mostly for espresso. A buyer should decide the household's need for milk and hot-water service before admiring the compact chassis. For someone who truly wants only espresso, the focused configuration can be the appeal, with generation and display layout verified against the offered unit.",
 };
 
 profile.sectionOverrides = {

@@ -22,7 +22,7 @@ const profile: UpgradeReviewProfile = {
   verdict: 'Consider EU PL41TEM for adjustable boiler temperature, a pressure manometer, three-way valve and 2.7 L tank in a 230 mm wide machine. Its 250 ml brass boiler handles coffee, steam and hot water sequentially, while LELIT57 has fewer third-party tools than 58 mm rivals. Coffee Friend listed it at €549 on September 24, 2026.',
   assessment: 'This is research-led, not a Coffeedant bench test. Current EU PL41TEM records govern specifications; two hands-on reviewers add bounded context. Coffeedant did not measure group temperature, puck pressure, extraction yield, sound, energy, recovery or reliability.',
   image: hero, imageAlt: 'Lelit official front image of the polished stainless Anna PL41TEM with PID display, pressure gauge and multidirectional wand',
-  published: '2025-12-03', updated: '2026-09-24',
+  published: '2025-12-03', updated: '2026-10-13',
   price: { label: 'Current EU retailer price', msrp: '€549', typical: 'Coffee Friend listed Anna PL41TEM at €549 and in stock on September 24, 2026; US PESAN06 was $599.95. Price, voltage, plug, warranty, tools and stock are regional, so compare the exact article and dealer terms.', currency: 'EUR', numeric: '549', checked: 'September 24, 2026' },
   links: [
     { label: 'Check the exact Lelit EU specification', href: official, note: 'Current PL41TEM identity, architecture, regional electrical codes and delivered accessories', primary: true },
@@ -111,6 +111,8 @@ const profile: UpgradeReviewProfile = {
     'Buy it when one or two carefully prepared drinks matter more than speed and you are willing to build a LELIT57 toolkit. Choose a 58 mm rival for broader accessories, or move to the Victoria when a larger boiler, shot timer and richer control justify the higher price.',
   ],
   video: { id: 'aGgqYmeJ48U', title: 'Lelit Anna 2 / PID - Best Espresso Machine Under £500?', creator: 'Coffee Kev', published: '2024-12-28', note: 'Independent exact-model hands-on review later embedded in Coffee Blog’s June 2026 article. The author discloses affiliate links and demonstrates his own coffee, so current official PL41TEM records govern identity and specifications.' },
+
+  overview: "Anna PL41TEM offers visible boiler-temperature adjustment and a pressure gauge in a compact single-boiler machine, making PID control accessible without a large chassis. The 250 ml brass boiler still changes between brewing, steam and hot water, so milk drinks remain sequential. Its LELIT57 group is the purchasing detail to settle early: baskets, tampers and distribution tools do not follow the more common 58 mm path. For a mostly-espresso station, the small footprint and controls can outweigh that restriction. Compare the accessories you actually need before assuming the lower machine cost will translate directly into the easiest complete setup.",
 };
 
 profile.sectionOverrides = {

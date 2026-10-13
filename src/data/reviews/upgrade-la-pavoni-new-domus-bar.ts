@@ -15,13 +15,13 @@ const hero = 'https://assets.4flow.cloud/WEB_LPCDMB02EU.jpg.jpg?pEFs=cVY2M1MyN1Z
 const profile: UpgradeReviewProfile = {
   key: 'la-pavoni-new-domus-bar', slug: '/espresso-machine/la-pavoni-new-domus-bar/', productId: 'CD-EM-000199',
   brand: 'La Pavoni', model: 'New Domus Bar', sku: 'EU LPCDMB02EU, stainless steel, Schuko plug', category: 'Manual single-boiler espresso machine with integrated grinder', brandPath: '/la-pavoni/',
-  title: 'La Pavoni New Domus Bar review: compact all-in-one, analog limits',
+  title: "La Pavoni New Domus Bar review: what a hold-to-run grinder adds to the station",
   description: 'Exact EU LPCDMB02EU review: 0.25 L stainless single boiler, 58 mm holder, 38 mm conical grinder, 2.7 L tank, current price and owner context.',
   verdictLabel: 'A compact all-in-one for hands-on buyers who accept manual dosing, boiler switching and unresolved grinder documentation',
   verdict: 'Consider EU LPCDMB02EU if you want a 300 mm wide stainless station with a 58 mm brass group, pump gauge, 2.7 L tank and integrated 38 mm conical grinder. Grinding is hold-to-run, brewing is manually stopped and the 0.25 L single boiler changes between coffee and steam. La Pavoni listed it at €831 on September 24, 2026.',
   assessment: 'This is research-led, not a Coffeedant bench test. Current LPCDMB02EU records govern exact identity and specifications; demonstrations and owner discussion add context. Coffeedant did not measure temperature, puck pressure, grind distribution, steam speed, sound, recovery or reliability.',
   image: hero, imageAlt: 'La Pavoni official three-quarter image of the stainless New Domus Bar with integrated grinder, pump gauge and steam wand',
-  published: '2026-07-27', updated: '2026-09-24',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Official EU price', msrp: '€831', typical: 'La Pavoni listed EU LPCDMB02EU at €831 on September 24, 2026. Coffeeness discussed US LPCDMB02US at $1,198 in a May 2025 first look, while other listings cover older 110 V machines. Voltage, boiler, holder size, grinder description, warranty and stock can differ by market and generation.', currency: 'EUR', numeric: '831', checked: 'September 24, 2026' },
   links: [
     { label: 'Check the exact La Pavoni EU specification', href: official, note: 'Exact LPCDMB02EU identity, live price, materials, current functions and included accessories', primary: true },
@@ -110,6 +110,8 @@ const profile: UpgradeReviewProfile = {
     'Buy it when you want the hands-on process and can verify the grinder dial on the exact delivered LPCDMB02EU. Choose a guided Breville hybrid for easier repetition, or a separate machine and grinder when upgrade flexibility and clearer component choices matter more than one-box width.',
   ],
   video: { id: 'oJojANYNmgU', title: 'La Pavoni Domus Bar - Unboxing i recenzja domowego ekspresu kolbowego ze zintegrowanym młynkiem', creator: 'doekspresu', published: '2026-01-22', note: 'Exact-model Polish retailer unboxing and review. It is independent of La Pavoni but commercially connected to sales, so current LPCDMB02EU documents govern exact EU identity and specifications.' },
+
+  overview: "New Domus Bar puts a grinder beside a 58 mm brass brewing group in a 300 mm-wide stainless station. The arrangement saves a separate appliance purchase, with hold-to-run grinding and manually stopped brewing keeping the owner involved at both ends of the shot. Its small 0.25 L boiler changes between coffee and steam, so the presence of an integrated grinder should not suggest a one-touch or high-volume milk system. The pressure gauge gives feedback during preparation, while the grinder's conflicting adjustment descriptions need confirmation against the delivered model. Its appeal is a compact conventional routine assembled in one body.",
 };
 
 profile.sectionOverrides = {

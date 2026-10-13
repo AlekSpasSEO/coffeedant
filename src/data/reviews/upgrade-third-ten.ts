@@ -10,7 +10,7 @@ const dim = (
 const robot: UpgradeReviewProfile = {
   key: 'robot', slug: '/espresso-machine/cafelat-robot-barista/', productId: 'CD-EM-000140',
   brand: 'Cafelat', model: 'Robot Barista', sku: 'ROBOT-BARISTA', category: 'Manual lever espresso maker', brandPath: '/brands/',
-  title: 'Cafelat Robot Barista review: direct lever control without a boiler',
+  title: "Cafelat Robot Barista review: espresso pressure powered by your hands",
   description: 'A research-led Cafelat Robot Barista review covering its pressure gauge, 57.5 mm basket, kettle workflow, thermal routine, milk limitation, current price and alternatives.',
   verdictLabel: 'For straight-espresso minimalists',
   verdict: 'Choose the Robot Barista when you want quiet, direct pressure control in a compact mechanical tool and already accept the separate grinder and kettle. Skip it when milk drinks, effortless heat management, or push-button repeatability matter more than tactile espresso.',
@@ -106,6 +106,9 @@ const robot: UpgradeReviewProfile = {
   finalTitle: 'The Robot is minimal only for the right espresso drinker',
   finalVerdict: ['The Robot Barista strips brewing back to hot water, a prepared coffee bed, a gauge, and human force. That simplicity is meaningful: pressure is visible, the mechanism is quiet, and there is no boiler or pump to dominate the counter.', 'The full station still needs a precise grinder, kettle, scale, thermal routine, and separate milk answer. For a straight-espresso drinker who wants direct control, it earns 3.7 out of 5 overall despite the intentionally low milk score. For a latte-first or shared kitchen, the missing systems are the decision.'],
   video: { id: 'IT7poF8hxvo', title: 'How to use the Cafelat Robot Barista Espresso Maker', creator: 'Alternative Brewing', published: '2020-02-17', note: 'An independent specialist-retailer demonstration of preparation, chamber filling, lever pressure, and cleanup. It is visual context rather than Coffeedant testing, and current package details come from Cafelat.' },
+
+  overview: "Robot Barista puts extraction pressure in your hands and heating somewhere else. A kettle supplies the water, a separate grinder prepares the coffee, and the two lever arms provide the force; the Barista version's gauge makes that pressure visible. This separation is attractive for straight espresso, small counters and a preference for quiet mechanical equipment. It becomes less convenient when the normal order includes milk, or when you want the machine to manage thermal preparation for you. Budget for the whole station and consider whether controlling the shot yourself is the pleasure you are buying.",
+  updated: '2026-10-13',
 };
 
 const cremOne: UpgradeReviewProfile = {
@@ -207,6 +210,9 @@ const cremOne: UpgradeReviewProfile = {
   finalTitle: 'The 1B is compelling only after the identity and support check',
   finalVerdict: ['The CREM ONE 1B PID Dual combines the right traditional ingredients for a serious compact milk station: E61 group, 1.7-liter HX, useful PID display, manual valves, and tank or mains-water flexibility.', 'It also carries an unusually important research burden because nearby ONE models differ materially and current support is regional. With an exact 1B unit, sound warranty, skilled service, and a good grinder, it earns 4.1 out of 5. Without those confirmations, a current HX or dual boiler is the safer purchase.'],
   video: { id: 'Fkic3LfVyYk', title: 'Review: Crem ONE HX PID Espresso Machine', creator: 'Whole Latte Love', published: '2021-02-19', note: 'A specialist-retailer review of the exact ONE 1B HX PID showing its controls, E61 group, steam, and water options. It is commercial independent evidence, not Coffeedant testing.' },
+
+  overview: "This ONE 1B PID Dual is the heat-exchanger member of a family whose similar names conceal very different machines. Its E61-style group, 1.7 L copper boiler, PID display and shot timer support a traditional brew-and-steam routine in a narrow chassis. Tank or mains-water use gives the kitchen layout another option, but does not turn this model into the ONE 2B or Profiler. An informed purchase starts with the exact 1B specification and a credible local support route. The relevant comparison is another heat exchanger suited to your installation, rather than the most advanced feature advertised anywhere in the ONE range.",
+  updated: '2026-10-13',
 };
 
 const mina: UpgradeReviewProfile = {
@@ -308,6 +314,9 @@ const mina: UpgradeReviewProfile = {
   finalTitle: 'Mina earns its price through flow control, not status',
   finalVerdict: ['The original Mina remains a compelling idea because its flow lever is not a cosmetic feature. It gives a skilled owner a direct variable to explore, then uses software to make a successful multistage profile repeatable. Independent boilers and serious steam complete the platform.', 'That power arrives with fixed water, high installed cost, exact-generation questions, and a support path that must be verified before purchase. Mina earns 4.4 out of 5 for the narrow buyer who needs its control. A simpler premium dual boiler is the better machine for almost everyone else.'],
   video: { id: 'GvNAgSR_als', title: 'Dalla Corte Mina Espresso Machine Review', creator: 'Whole Latte Love', published: '2019-12-16', note: 'A specialist-retailer demonstration of the original Mina, its flow lever, app profiles, espresso, and steam. It provides visual evidence, not Coffeedant testing; current Mina Barista details are checked separately.' },
+
+  overview: "Mina is built around changing the flow through a shot, rather than collecting automatic drink presets. The original machine's programmable stages and side-lever control make it relevant to an enthusiast who wants that variable to be part of daily espresso preparation. Independent brewing and service boilers keep steam available, while fixed-water installation places it in a permanent station rather than a casually movable corner. Its compact body should therefore be considered alongside plumbing and service access. Current Mina Barista material is useful context, but the original Mina being offered needs its own confirmed group, options and software record.",
+  updated: '2026-10-13',
 };
 
 const aromaBar: UpgradeReviewProfile = {
@@ -403,6 +412,9 @@ const aromaBar: UpgradeReviewProfile = {
   finalTitle: 'Aroma Bar makes sense when manual milk is intentional',
   finalVerdict: ['ECAM359.37.TB remains a coherent coffee-first automatic: the machine grinds and brews, the owner handles milk, and the removable infuser keeps routine care visible. Its narrow body and front access are still practical.', 'The older interface and €709 observed price weaken the case beside newer Dinamica and Magnifica options. With verified stock, full support, and a genuine preference for manual milk, it earns 3.6 out of 5. If one-touch lattes are the goal, buy the milk system you want from the start.'],
   video: { id: 'gB_oCDmLsFw', title: 'Dinamica Aroma Bar: come preparare un espresso perfetto', creator: "De'Longhi", published: '2021-11-08', note: 'An exact-model manufacturer video showing the coffee workflow and interface. It is useful visual documentation, not an independent or Coffeedant performance test.' },
+
+  overview: "The Aroma Bar ECAM359.37.TB automates the coffee while leaving milk to a manual frother. That division can work well for someone who mainly drinks black coffee and wants a cappuccino occasionally, without maintaining an automatic milk carafe for every order. A front-removable tank and removable infuser make the routine more approachable than the model number suggests. Its age and European-market availability are part of the value judgment, however: the attraction depends on verified stock and support. Buyers expecting one-touch milk should compare a LatteCrema model rather than assume every Dinamica follows the same process.",
+  updated: '2026-10-13',
 };
 
 const dinamica370: UpgradeReviewProfile = {
@@ -498,6 +510,9 @@ const dinamica370: UpgradeReviewProfile = {
   finalTitle: 'ECAM370 is still good when the app and discount are real',
   finalVerdict: ['ECAM370.95.T defined the original Dinamica Plus proposition well: clear touchscreen, useful profiles, automatic LatteCrema milk, and connected recipe editing in a narrow automatic body.', 'Its weakness is timing. The connected layer is older and ECAM380 offers a newer on-machine experience. At a clear discount with verified support and app compatibility, ECAM370 earns 4.1 out of 5. At price parity, the newer generation is easier to justify.'],
   video: { id: 'SnL9Tj9hpj4', title: "De'Longhi Dinamica Plus Review", creator: "Tom's Coffee Corner", published: '2022-04-09', note: 'An independent review showing the ECAM370-era touchscreen, coffee preparation, LatteCrema, drink editing, and cleaning. It is reviewer evidence rather than Coffeedant testing.' },
+
+  overview: "The original Dinamica Plus ECAM370.95.T still has a distinct audience: people who value Coffee Link compatibility, three saved profiles and an automatic LatteCrema carafe more than a larger recipe list. Its 3.5-inch screen provides a familiar place to select and adjust drinks, while the removable infuser keeps routine care accessible. The newer ECAM380 changes the menu and connectivity proposition, so a discounted 370 should be assessed on its own features and warranty. App support must match the region and firmware of the actual unit. The older number alone does not establish either a bargain or an inferior daily routine.",
+  updated: '2026-10-13',
 };
 
 const dinamica380: UpgradeReviewProfile = {
@@ -593,6 +608,9 @@ const dinamica380: UpgradeReviewProfile = {
   finalTitle: 'ECAM380 is the clearer current Dinamica Plus choice',
   finalVerdict: ['ECAM380.85.SB puts its strongest argument on the machine itself: a large drink library, readable touch control, adjustable LatteCrema Hot milk, and saved preferences in the familiar narrow ECAM format.', 'It cannot provide the direct extraction control or modular repair path of a separate grinder and portafilter setup, and its milk convenience requires real cleaning. For a shared household that will use the menu, it earns 4.3 out of 5 and is easier to recommend than ECAM370 at similar prices.'],
   video: { id: 'qaH2Y6DCdWc', title: "De'Longhi Dinamica Plus ECAM380.85.SB Review", creator: "Tom's Coffee Corner", published: '2024-02-03', note: 'An independent exact-model demonstration of the touch menu, grinder, coffee recipes, LatteCrema Hot system, and care routine. It is reviewer evidence rather than Coffeedant testing.' },
+
+  overview: "The ECAM380.85.SB expands drink choice without making the older Dinamica Plus app the center of the experience. Its 24 recipes and LatteCrema Hot carafe suit a household that switches between coffee and milk drinks, with texture settings offering another useful adjustment. Profile details still need confirmation against the regional unit and firmware. The Over Ice option also deserves its literal meaning: coffee prepared for serving over ice, rather than a cold extraction system. This machine is most compelling when the broader menu will be used regularly, and less so when one simple espresso or manual milk routine is enough.",
+  updated: '2026-10-13',
 };
 
 const ecp3420: UpgradeReviewProfile = {
@@ -688,6 +706,9 @@ const ecp3420: UpgradeReviewProfile = {
   finalTitle: 'ECP3420 is valuable because its limits are affordable',
   finalVerdict: ['The ECP3420 provides a legitimate low-cost learning path: visible portafilter, forgiving baskets, compact body, removable tank, and manual milk. It asks more of the owner than a pod machine without forcing an expensive first purchase.', 'Its heater, feedback, build, and service pace are modest, and a serious non-pressurized workflow needs a grinder. At $169.95 observed context, it earns 3.6 out of 5. Buy it as a deliberate entry platform, not as a hidden premium machine.'],
   video: { id: 'au92VvBYLrA', title: "De'Longhi ECP3420 Review and Tutorial", creator: "Tom's Coffee Corner", published: '2022-12-30', note: 'An independent exact-model walkthrough showing the baskets, preparation, espresso, manual frother, and cleaning. It is reviewer evidence, not Coffeedant testing.' },
+
+  overview: "The ECP3420 offers a relatively forgiving route into manual espresso through pressurized baskets and support for preground coffee or ESE pods. That can lower the initial equipment commitment, especially for someone making a drink or two rather than trying to serve a household queue. The small heating system and manual steam wand still require a sequence of preparation, brewing and milk work. Its 15-bar pump label does not describe the control available at the cup. Treat this as a budget platform for learning the basic routine, with basket and grinder choices determining how far you want to take it.",
+  updated: '2026-10-13',
 };
 
 const prestigio: UpgradeReviewProfile = {
@@ -783,6 +804,9 @@ const prestigio: UpgradeReviewProfile = {
   finalTitle: 'Prestigio works when assistance is the reason to buy',
   finalVerdict: ['EC9355.M finds a useful middle ground. It contains grinding and tamping mess, gives beginners a structured recipe, preserves a visible portafilter, and leaves enough manual milk control to build skill.', 'The integrated eight-step grinder is also its ceiling, and the owner still does more work than the polished station suggests. At $899.95 observed context, Prestigio earns 4.0 out of 5 for guided hands-on use. A separate grinder and compact machine is the better long-term route for enthusiasts.'],
   video: { id: 'kZrMstqbu_M', title: "De'Longhi La Specialista Prestigio EC9355.M Hands-on", creator: 'Currys', published: '2023-05-17', note: 'An independent retailer walkthrough of the exact grinder, tamping lever, espresso controls, and manual steam routine. It is visual context, not Coffeedant testing.' },
+
+  overview: "Prestigio's tamping lever is the feature that changes the preparation routine most clearly. It helps compress the grounds without asking the owner to assemble a separate grinder-and-tamper station, while the visible portafilter and manual milk preserve a hands-on drink process. The eight grinder settings are also the limit to examine before purchase: assistance with tamping cannot supply finer adjustment between those steps. Separate coffee and steam heating supports its mixed-drink role, but every drink still involves user actions. The EC9355.M fits a buyer seeking that particular balance of assistance and involvement, with the grinder accepted as part of the appliance.",
+  updated: '2026-10-13',
 };
 
 const esam3000: UpgradeReviewProfile = {
@@ -878,6 +902,9 @@ const esam3000: UpgradeReviewProfile = {
   finalTitle: 'Buy the condition, not the Magnifica legend',
   finalVerdict: ['ESAM3000.B still offers an appealingly direct version of bean-to-cup ownership: physical dials, automatic coffee, removable infuser, and a manual wand. It can remain useful when a specific machine has been cared for.', 'Age changes the recommendation. At €329, I want credible refurbishment and warranty; a private unknown unit must cost far less. The design earns 3.4 out of 5 in today’s market, but the real score of any purchase belongs to inspection, support, and repair economics.'],
   video: { id: 'vZqYlT83JmI', title: 'Used DeLonghi Magnifica 3000 Coffee Machine Review and Specs', creator: 'Imperia Coffee', published: '2020-04-04', note: 'An independent used-machine review showing the physical controls, grinder, coffee path, frother, and condition-sensitive ownership. It is one reviewer’s unit, not Coffeedant testing or reliability data.' },
+
+  overview: "With an ESAM3000.B, the condition of the individual machine matters more than nostalgia for a familiar Magnifica. Physical dials, a removable infuser and a manual frother make the intended coffee routine easy to understand, but they do not reveal its water history or the state of its grinder and seals. A convincing used purchase needs a working demonstration, credible maintenance history and a discount large enough to justify the reduced warranty protection. This is an appealingly simple automatic when that evidence is present. If the price approaches a supported new machine, the older platform's simplicity is a weaker argument.",
+  updated: '2026-10-13',
 };
 
 const evoNext: UpgradeReviewProfile = {
@@ -973,6 +1000,9 @@ const evoNext: UpgradeReviewProfile = {
   finalTitle: 'Evo Next is strongest when thirteen drinks are enough',
   finalVerdict: ['ECAM310.80.SB adds the right midrange upgrades: readable screen, profiles, multiple strengths, sizes and temperatures, automatic milk, and a menu broad enough for most households without flagship sprawl.', 'Its espresso remains constrained by an integrated automatic platform, and the suffix must be verified carefully. At £649.99 regional context, it earns 4.2 out of 5 and is the more rational purchase than Dinamica Plus when the household will not use the extra menu.'],
   video: { id: 'YCYR5K61lus', title: "De'Longhi Magnifica Evo Next Review and Test", creator: "Tom's Coffee Corner", published: '2026-04-27', note: 'An independent current-generation review showing the TFT menu, coffee recipes, LatteCrema Hot system, profiles, and care. It is reviewer evidence, not Coffeedant testing.' },
+
+  overview: "Magnifica Evo Next gives a household a manageable set of thirteen drinks and three profiles without asking it to buy the Dinamica Plus's larger interface. On the ECAM310.80.SB, the small color screen and soft-touch buttons make the choices visible, while LatteCrema Hot handles the milk step. Sizes, strengths and temperatures can be adjusted on the machine, so a phone need not become part of the morning. The important purchase detail is the suffix: another ECAM310 can have a different menu. Assess the specific 13-drink configuration against the drinks your household actually repeats.",
+  updated: '2026-10-13',
 };
 
 export const upgradeThirdTenReviews: MachineReviewData[] = [

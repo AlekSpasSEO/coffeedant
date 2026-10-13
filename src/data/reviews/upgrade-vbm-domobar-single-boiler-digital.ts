@@ -36,7 +36,7 @@ const profile: UpgradeReviewProfile = {
   image: hero,
   imageAlt: 'VBM official three-quarter image of the current compact Domobar Digital espresso machine',
   published: '2026-07-27',
-  updated: '2026-09-25',
+  updated: '2026-10-13',
   price: {
     label: 'Current European price',
     msrp: '€1,289',
@@ -160,6 +160,8 @@ const profile: UpgradeReviewProfile = {
     published: '2021-09-22',
     note: 'Exact-model walkthrough running 1 minute 32 seconds. It documents the machine and controls but is not a controlled performance evaluation.',
   },
+
+  overview: "Domobar Digital puts electronic temperature control around VBM's traditional 1961 thermosyphonic group in a body about 22 cm wide. Its half-liter boiler serves espresso, steam and hot water separately, making this an espresso-focused compact station rather than a small machine for simultaneous milk service. The OLED and pressure gauge supply useful information, while the available evidence does not establish a controlled set of current-model performance measurements. Confirm the regional 240 V configuration and support before comparing offers. Buyers drawn to this specific group and narrow format should weigh the sequential heating routine against other compact PID options.",
 };
 
 profile.sectionOverrides = {

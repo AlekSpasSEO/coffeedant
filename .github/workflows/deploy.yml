@@ -26,6 +26,8 @@ jobs:
         run: npm run test:localization
       - name: Test Amazon deal discounts, availability and expiry
         run: npm run test:deals
+      - name: Test product-specific review openings and similarity safeguards
+        run: npm run test:review-originality
       - name: Build Cloudflare target
         run: CF_PAGES=1 npm run build
       - name: Validate sitemaps, metadata, schema and accessible media
@@ -36,6 +38,8 @@ jobs:
         run: npm run validate:journal
       - name: Validate Cloudflare modern reviews
         run: CF_PAGES=1 node scripts/validate-review-batch.mjs
+      - name: Validate Cloudflare review title and overview originality
+        run: npm run validate:review-originality
       - name: Validate Cloudflare legacy migration
         run: CF_PAGES=1 node scripts/validate-legacy-migration.mjs
       - name: Validate Cloudflare Amazon banners
@@ -50,6 +54,8 @@ jobs:
         run: npm run validate:seo
       - name: Validate modern reviews
         run: node scripts/validate-review-batch.mjs
+      - name: Validate GitHub Pages review title and overview originality
+        run: npm run validate:review-originality
       - name: Validate GitHub Pages Journal
         run: npm run validate:journal
       - name: Validate legacy migration

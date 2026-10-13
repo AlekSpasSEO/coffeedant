@@ -31,7 +31,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Melitta Professional official transparent product image of the current Cafina XT7 commercial superautomatic',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: {
     label: 'Current checked dealer price',
     msrp: '€14,080 current listing',
@@ -152,6 +152,8 @@ const profile: UpgradeReviewProfile = {
     published: '2020-03-25',
     note: 'Independent retailer exact-model visual walkthrough. It predates the current US two-step page and does not establish the delivered configuration, drink performance, cleaning labour, service response or reliability.',
   },
+
+  overview: "The first XT7 question is how milk will be prepared in the market where it is installed. Melitta's North American page specifies a two-step model using an automatic steam wand, while international material leads with integrated TopFoam. Those are different staff workflows, not minor variations in a long feature list. The narrow commercial cabinet and published paired-drink capacities then need to be assessed against the exact grinders, cooling, instant modules, water and service package. A site expecting unattended one-touch milk should not infer it from an international photograph. Specify the regional machine and validate its actual menu and peak queue before accepting a quote.",
 };
 
 profile.sectionOverrides = {

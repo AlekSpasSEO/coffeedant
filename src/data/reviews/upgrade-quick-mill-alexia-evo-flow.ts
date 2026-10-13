@@ -26,7 +26,7 @@ const profile: UpgradeReviewProfile = {
   sku: '0970-A-CEVO North American 110 V configuration; flow control is optional hardware',
   category: 'Reservoir-fed E61 single-boiler espresso machine with PID',
   brandPath: '/quick-mill/',
-  title: 'Quick Mill Alexia Evo review: sold-out status, single-boiler workflow and flow-control boundary',
+  title: "Quick Mill Alexia Evo review: verify the flow-control kit on an older single boiler",
   description: 'Research-led Quick Mill Alexia Evo review covering model 0970-A-CEVO, current sold-out status, E61 single-boiler workflow, PID, optional flow control, service evidence and alternatives.',
   verdictLabel: 'A capable espresso-first E61 that now makes most sense as a carefully inspected used buy',
   verdict: 'Alexia Evo is an espresso-first single boiler, not a heat exchanger and not a factory flow-control package. Model 0970-A-CEVO combines a 0.75 L boiler, E61 group, PID shot timer, 3 L reservoir and 58 mm accessories in a narrow stainless body. On September 24, 2026, two US specialists showed $1,550 but out of stock, and Alexia was absent from Quick Mill\'s current home lineup. Buy only after confirming actual availability, voltage, seller support and whether any group-mounted valve is included, professionally installed or an owner modification.',
@@ -34,7 +34,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Espresso Outlet three-quarter product view of the Quick Mill Alexia Evo 0970-A-CEVO E61 single-boiler espresso machine',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: { label: 'Last checked US listing', msrp: '$1,550, sold out at checked specialists', typical: 'Espresso Outlet and 1st in Coffee each displayed $1,550 and out-of-stock or sold-out status on September 24, 2026. That is a dated listing reference, not evidence that a new machine can be purchased. Used value depends on age, water history, scale, element and pump condition, E61 service, PID behavior, accessories, modification quality and transferable support.', currency: 'USD', numeric: '1550', checked: 'September 24, 2026' },
   links: [
     { label: 'Check the dated Espresso Outlet listing', href: espressoOutlet, note: '$1,550 sold-out listing, product ID, North American specifications, exact-model images, parts diagram and warranty wording checked September 24, 2026', primary: true },
@@ -129,6 +129,8 @@ const profile: UpgradeReviewProfile = {
     'Buy a remaining or used unit only after identification and inspection. Compare Classika for a current E61 route, Profitec Go or Victoria for current compact single boilers, and Silvia Pro X when milk workflow justifies dual boilers.',
   ],
   video: { id: 'FpA7vt6iqqs', title: 'Quickmill Alexia Evo Making A Shot Service Complete', creator: 'Kanen Coffee, LLC.', published: '2017-12-23', note: 'Unique independent exact-model service-completion and test-shot video. It supplies visual workflow context for one serviced machine, not Coffeedant testing, a controlled performance comparison or a reliability rate.' },
+
+  overview: "Alexia Evo is a narrow PID-controlled E61 single boiler for an espresso-led station, not a heat exchanger hidden behind a flow-control label. Its shot timer and conventional 58 mm accessories are useful, while the shared boiler still requires a change of mode for milk. The route name should not imply that a group-mounted flow valve is factory equipment; a seller-installed kit or owner modification needs its own documentation. The checked US offers were unavailable and the model was absent from the current home lineup. A purchase therefore begins with a real, supported example and confirmation of its exact equipment and voltage.",
 };
 
 profile.sectionOverrides = {

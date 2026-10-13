@@ -12,13 +12,13 @@ const hero = 'https://www.krups.co.uk/medias/?context=bWFzdGVyfGltYWdlc3wxODg0Nj
 const profile: UpgradeReviewProfile = {
   key: 'krups-sensation-ea910e40', slug: '/espresso-machine/krups-sensation-ea910e40/', productId: 'CD-EM-000194',
   brand: 'Krups', model: 'Sensation EA910E40', sku: 'UK EA910E40, silver and black, UK plug', category: 'Superautomatic espresso machine', brandPath: '/krups/',
-  title: 'Krups Sensation EA910E40 review: simple black coffee',
+  title: "Krups Sensation EA910E40 review: four black-coffee recipes within easy reach",
   description: 'Exact UK EA910E40 research review: four black coffees, hot water, manual steam, two favourites, five grind levels, independent jury test and dated stock.',
   verdictLabel: 'Clear black-coffee automation with manual milk and uncertain stock',
   verdict: 'Consider the UK EA910E40 if you want four direct black-coffee recipes, hot water, two favourites and manual steam. Krups documents five grind levels, three strengths and temperatures, a 1.7 L tank and 260 g hopper. Le Monde’s jury praised the interface, maintenance and quiet startup, but exact UK retailers checked on September 24, 2026 showed it unavailable.',
   assessment: 'This is research, not Coffeedant tasting. Exact facts come from Krups UK and the EA91 manual. Le Monde tested a French Sensation with seven jurors but did not identify a UK rating plate. The C50 video also leaves the UK suffix unconfirmed. These sources add workflow context, not UK measurements or reliability rates.',
   image: hero, imageAlt: 'Krups UK official angled image of the silver and black Sensation EA910E40 dispensing two coffees',
-  published: '2026-07-27', updated: '2026-09-24',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Exact UK EA910E40 unavailable listing', msrp: '£499.99 seller reference', typical: 'DirectVacuums displayed £369.99 for an exact EA910E40 described as brand-new condition with a one-year seller guarantee, but it was out of stock on September 24, 2026. Currys Business also marked the exact article unavailable. No current in-stock UK checkout was established.', currency: 'GBP', numeric: '', checked: 'September 24, 2026' },
   links: [
     { label: 'Read the exact Krups UK specification', href: official, note: 'Exact UK article, recipes, grinder, capacity, steam, care and electrical details', primary: true },
@@ -106,6 +106,8 @@ const profile: UpgradeReviewProfile = {
     'Exact UK availability was unresolved on September 24, 2026. Treat £369.99 as an out-of-stock reference, not a deal. A live Sensation can suit black-coffee households, while regular milk-drink users should compare Evidence Eco Design or another automatic-milk machine.',
   ],
   video: { id: 'w9Dz5JrEnpY', title: 'Krups Sensation C50: HONEST Review and Test', creator: 'Coffealover EN', published: '2026-06-16', note: 'Independent 6:05 Sensation C50 review with affiliate link. It provides adjacent-family visual and workflow context; UK EA910E40 suffix, rating plate and measurement protocol are not established.' },
+
+  overview: "Sensation EA910E40 is an automatic for people who want a small group of black-coffee choices close to hand. Four direct coffee recipes, hot water and two favorites keep selection simpler than a large profile-based drink screen. Five grinder positions and three strength and temperature choices offer a manageable adjustment range, while milk remains a manual steam task. Its paired black-coffee function is useful for two people, with cup clearance needing confirmation for the mugs they actually use. The exact UK listings checked were unavailable, so this promising basic routine still needs an obtainable unit and credible warranty to become a purchase recommendation.",
 };
 
 profile.sectionOverrides = {

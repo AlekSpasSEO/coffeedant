@@ -3,6 +3,7 @@ import { buildUpgradeReview, type UpgradeReviewProfile } from './upgrade-next-te
 
 type DimensionCopy = UpgradeReviewProfile['dimensions'][ReviewDimensionId];
 type ProductConfig = {
+  overview: string; updated?: string;
   key: string;
   slug: string;
   productId: string;
@@ -55,6 +56,7 @@ const makeProfile = (p: ProductConfig): UpgradeReviewProfile => ({
   category: 'Superautomatic espresso machine',
   brandPath: '/gaggia/',
   title: p.title,
+  overview: p.overview,
   description: p.description,
   verdictLabel: `For households that want ${p.primaryStrength.toLowerCase()}`,
   verdict: `Choose the ${p.model} for ${p.primaryStrength.toLowerCase()}. Skip it when ${p.primaryLimit.toLowerCase()} is a deal-breaker or you want direct portafilter control.`,
@@ -62,7 +64,7 @@ const makeProfile = (p: ProductConfig): UpgradeReviewProfile => ({
   image: p.image,
   imageAlt: p.imageAlt,
   published: '2026-07-27',
-  updated: '2026-09-23',
+  updated: p.updated ?? '2026-09-23',
   price: {
     label: p.priceLabel,
     msrp: p.price,
@@ -174,7 +176,7 @@ const makeProfile = (p: ProductConfig): UpgradeReviewProfile => ({
 const products: ProductConfig[] = [
   {
     key: 'gaggia-magenta-prestige-ri8702', slug: '/espresso-machine/gaggia-magenta-prestige-ri8702/', productId: 'CD-EM-000176', model: 'Magenta Prestige RI8702/46', sku: 'RI8702/46 North America 110-120V, current Over-Ice menu',
-    title: 'Gaggia Magenta Prestige RI8702 review: thirteen drinks and one-touch milk at $899',
+    title: "Gaggia Magenta Prestige RI8702 review: a wider milk menu without separate user profiles",
     description: 'A research-led Gaggia Magenta Prestige RI8702/46 review covering its thirteen-drink Over-Ice menu, integrated carafe, five-step ceramic grinder, $899 price and care.',
     image: 'https://www.gaggia-na.com/cdn/shop/products/MagentaPrestide_Header_02_1024x1024.jpg?v=1620847549', imageAlt: 'Black Gaggia Magenta Prestige RI8702/46 with integrated milk carafe',
     official: 'https://www.gaggia-na.com/products/gaggia-magenta-prestige', manual: 'https://www.gaggia.com/automatic-machines/magenta-prestige/', priceUrl: 'https://www.gaggia-na.com/products/gaggia-magenta-prestige', priceLabel: 'Gaggia North America direct price', price: '$899.00', priceNumeric: '899.00', priceContext: 'Current black or Moonlight Grey North American listing; tax, stock, bundle and warranty can change',
@@ -185,6 +187,9 @@ const products: ProductConfig[] = [
     capacity: '60.9 oz water, 8.8 oz beans, about 17 oz milk and 15-puck waste capacity in the North American specification', dimensions: 'About 8.8 W by 14 H by 17.1 D in; allow front access for tank, tray and carafe', interface: '2.4-inch full-color TFT with capacitive buttons, saved beverage customization and no named multi-user profiles',
     primaryStrength: 'Compact one-touch milk with a broad current menu', primaryLimit: 'Five grinder steps and no named profiles',
     videoId: 'OKXhAiuOdM8', videoTitle: 'Review Gaggia Magenta Prestige Super Automatic Espresso Machine', videoCreator: 'Whole Latte Love', videoDate: '2021-05-03', independent: 'https://www.coffeeness.de/en/gaggia-magenta-prestige-review/', owner: 'https://www.reddit.com/r/superautomatic/comments/18ev06d/gaggia_magenta_prestige_thoughts_and_findings/', rating: [8.2, 8.9, 9.0, 7.7, 8.8, 8.2],
+
+    overview: "Magenta Prestige brings a current North American thirteen-specialty menu and automatic milk carafe to a compact machine with a small color display. It is attractive when one-touch milk matters more than storing separate named profiles: beverage customization is available, but several users do not each get a personal account on the machine. The ceramic grinder offers five positions, giving another reason to judge the intended coffee routine realistically. Its Over-Ice program and regional menu need to be distinguished from the twelve-beverage global version. The practical appeal is broad drink access from a small station, with carafe care included in the daily work.",
+    updated: '2026-10-13',
   },
   {
     key: 'gaggia-naviglio-deluxe-hd8749', slug: '/espresso-machine/gaggia-naviglio-deluxe-hd8749/', productId: 'CD-EM-000177', model: 'Naviglio Deluxe HD8749/11', sku: 'HD8749/11 silver 230V UK and European package',
@@ -199,6 +204,9 @@ const products: ProductConfig[] = [
     capacity: '1.5 L front-removable water tank, 300 g bean hopper and 10-puck waste bin', dimensions: '25.6 W by 34 H by 44 D cm; about 9.1 kg; spouts adjust roughly 70-110 mm', interface: 'Physical buttons and LED indicators with a rotary three-level Optiaroma control and memo volume',
     primaryStrength: 'Front-access bean-to-cup coffee with automatic tube-fed milk at an entry-level UK price', primaryLimit: 'The 230V regional model, five-step grinder and hose-cleaning routine narrow its audience',
     videoId: 'xi7Lwj7NrWo', videoTitle: 'Gaggia Naviglio de Luxe automatic coffeemachine', videoCreator: 'Cady Hungary', videoDate: '2017-05-17', independent: 'https://www.techadvisor.com/article/720090/gaggia-naviglio-review.html', owner: 'https://www.reddit.com/r/superautomatic/search/?q=Naviglio%20Deluxe&restrict_sr=1', rating: [7.5, 7.8, 8.0, 7.3, 7.1, 8.1],
+
+    overview: "Naviglio Deluxe adds tube-fed frothing to an automatic coffee platform with front access and physical controls. The HD8749/11 can therefore interest someone who wants milk foam without operating a steam wand or buying a more elaborate screen-based machine. Three Optiaroma strengths and a five-position ceramic grinder keep customization limited and understandable. The removable cappuccinatore must be rinsed promptly, so automatic foam still leaves a cleaning task. This is the 230 V Deluxe with the milk tube, not the base pannarello Naviglio or the separate Capp-in-Cup model. Those distinctions matter when comparing apparently similar low-priced listings.",
+    updated: '2026-10-13',
   },
   {
     key: 'gaggia-naviglio-milk-hd8749-01', slug: '/espresso-machine/gaggia-naviglio-milk-hd8749-01/', productId: 'CD-EM-000178', model: 'Naviglio HD8749/01', sku: 'HD8749/01 black 230V European package; not Naviglio Milk',
@@ -213,6 +221,9 @@ const products: ProductConfig[] = [
     capacity: '1.5 L front-removable water tank, 300 g bean hopper and 10-puck waste bin', dimensions: '25.6 W by 34 H by 44 D cm; about 9 kg; spouts adjust roughly 70-110 mm', interface: 'Physical buttons and LEDs with rotary Optiaroma strength selection and memo volume',
     primaryStrength: 'A simple front-access bean-to-cup route with manual milk and transparent owner cleaning access', primaryLimit: 'The route name misstates the model, the unit is 230V, and manual pannarello milk is not one-touch',
     videoId: 'L352My9y4w0', videoTitle: 'Recensione del Gaggia HD8749/01 Naviglio Black', videoCreator: 'Scelta Perfetta', videoDate: '2025-03-08', independent: 'https://www.techadvisor.com/article/720090/gaggia-naviglio-review.html', owner: 'https://www.reddit.com/r/superautomatic/search/?q=Gaggia%20Naviglio&restrict_sr=1', rating: [7.4, 6.7, 7.7, 7.3, 6.8, 7.8],
+
+    overview: "The HD8749/01 reviewed here has a manual pannarello, despite the word 'milk' in its historical URL. Its automatic espresso and lungo controls, front access and removable brewer suit someone seeking straightforward beans-to-cup coffee with occasional hands-on frothing. Three strength levels and a five-position ceramic grinder provide a modest adjustment range without a recipe screen. The incorrect route label must not become a promise of one-touch cappuccino: the owner still moves the cup and prepares the milk. Confirm the black 230 V base Naviglio identity when buying, and choose a genuine automatic-milk version if that convenience is essential.",
+    updated: '2026-10-13',
   },
   {
     key: 'gaggia-velasca-prestige-ri8263', slug: '/espresso-machine/gaggia-velasca-prestige-ri8263/', productId: 'CD-EM-000179', model: 'Velasca Prestige RI8263/47', sku: 'RI8263/47 North America 120V, SUP047RG platform',
@@ -227,10 +238,13 @@ const products: ProductConfig[] = [
     capacity: '54 oz front-removable water tank, 10.5 oz bean hopper and 10-puck waste bin', dimensions: '10.3 W by 13.5 H by 17 D in; 17.6 lb; spouts adjust 2.75-4.5 in', interface: 'Monochrome display with physical direct-drink and menu buttons; no named user profiles or app',
     primaryStrength: 'A compact carafe machine with more grinder and pre-infusion adjustment than simpler Gaggia automatics', primaryLimit: 'The older interface, low 4.5-inch cup clearance and carafe cleaning are meaningful daily constraints',
     videoId: 'I_iwmeM80VM', videoTitle: 'Gaggia Velasca Prestige: Basic Operation and Programming', videoCreator: 'Whole Latte Love', videoDate: '2017-12-22', independent: 'https://www.wholelattelove.com/blogs/reviews/review-of-gaggia-velasca-velasca-prestige-bean-to-cup-coffee-machines', owner: 'https://www.reddit.com/r/superautomatic/comments/1l5y589/gaggia_magenta_prestige_or_velasca_prestige_whats/', rating: [8.0, 8.4, 8.1, 7.6, 7.8, 7.8],
+
+    overview: "Velasca Prestige combines an automatic carafe with ten grinder positions and adjustable preinfusion, making its coffee settings a stronger part of the proposition than those on simpler Gaggia automatics. The monochrome screen and physical buttons favor a familiar, compact interface rather than a modern touchscreen. Its 4.5-inch cup clearance deserves attention if the normal order goes into a tall mug, and the milk carafe brings storage and cleaning work after the convenience of cappuccino. The reviewed North American RI8263/47 should be matched to the seller's unit; a 230 V RI8263/01 is a different electrical package.",
+    updated: '2026-10-13',
   },
   {
     key: 'gaggia-anima', slug: '/espresso-machine/gaggia-anima/', productId: 'CD-EM-000165', model: 'Anima', sku: 'Anima North America 120V',
-    title: 'Gaggia Anima review: simple bean-to-cup coffee with manual milk',
+    title: "Gaggia Anima review: the black-coffee choice in the Anima family",
     description: 'A research-led Gaggia Anima review covering its five-step ceramic grinder, pannarello wand, 1.8 L tank, tall spouts, current US price, cleaning and exact family differences.',
     image: 'https://www.gaggia-na.com/cdn/shop/products/Anima_IMG_9820_01_49ff03a2-6815-498b-8918-7f26dc5391ec_1024x1024.jpg?v=1571326415', imageAlt: 'Black Gaggia Anima superautomatic espresso machine with pannarello wand',
     official: 'https://www.gaggia-na.com/products/gaggia-anima', manual: 'https://www.gaggia.com/automatic-machines/anima/', priceUrl: 'https://www.gaggia-na.com/products/gaggia-anima', priceLabel: 'Gaggia North America direct price', price: '$699.00', priceNumeric: '699.00', priceContext: 'New US 120V stock with pannarello wand; tax and availability vary',
@@ -238,6 +252,9 @@ const products: ProductConfig[] = [
     milkSystem: 'Manual auto-aerating pannarello wand for steam and hot water; no integrated milk carafe', drinkSystem: 'Espresso and espresso lungo buttons, five aroma strengths, three temperatures, programmable volume and bypass dosing', grinder: 'Flat ceramic burr grinder with five adjustment positions', capacity: '1.8 L water, about 250 g beans and up to 15 coffee pucks', dimensions: 'About 22.1 W by 34 H by 43 D cm; allow top tank and hopper access', interface: 'LED or LCD status interface with physical drink, steam, hot-water and menu buttons',
     primaryStrength: 'A narrow, straightforward black-coffee machine with a manual milk option', primaryLimit: 'Milk drinks require a separate steaming step and the five-step grinder leaves limited fine correction',
     videoId: 'mFpFLv-ak1k', videoTitle: 'Review: Gaggia Anima Super-Automatic Espresso Machine', videoCreator: 'Whole Latte Love', videoDate: '2015-11-06', independent: 'https://coffeeblog.co.uk/gaggia-anima-bean-to-cup-coffee-machine-review/', owner: 'https://www.reddit.com/r/superautomatic/search/?q=Gaggia%20Anima&restrict_sr=1', rating: [7.7, 6.8, 7.9, 7.4, 7.2, 7.3],
+
+    overview: "The standard Anima automates black coffee and gives milk a separate manual step. Espresso and lungo buttons, programmable volumes and a five-position ceramic grinder keep its coffee routine compact, while the pannarello wand can supply steam or hot water when needed. This arrangement is a natural fit for someone who mainly drinks espresso or longer coffee and only occasionally wants froth. It gives less reason to choose the machine for a daily run of cappuccinos. The narrow body remains attractive, but the grinder's limited steps and the absence of an automatic milk path should be treated as deliberate boundaries.",
+    updated: '2026-10-13',
   },
   {
     key: 'gaggia-anima-deluxe', slug: '/espresso-machine/gaggia-anima-deluxe/', productId: 'CD-EM-000166', model: 'Anima Deluxe', sku: 'RI8759/01 and regional Anima Deluxe family',
@@ -249,10 +266,13 @@ const products: ProductConfig[] = [
     milkSystem: 'Automatic Cappuccinatore draws milk from a separate container through a tube and dispenses foam into the cup; no refrigerated integrated carafe', drinkSystem: 'Espresso, espresso lungo, milk froth and hot water, with five aroma levels, three temperatures and memo volume', grinder: 'Flat ceramic burr grinder with five adjustment positions', capacity: '1.8 L water, 150-250 g bean references by market, and up to 15 pucks', dimensions: '22.1 W by 34 H by 43 D cm; 8.3 kg in official global data', interface: 'LCD plus physical buttons with dedicated coffee, milk-froth and hot-water actions',
     primaryStrength: 'Push-button tube-fed milk foam without storing a proprietary carafe', primaryLimit: 'The milk hose and Cappuccinatore demand prompt cleaning and the checked US unit was refurbished and sold out',
     videoId: 'ctOSg4F-2eQ', videoTitle: 'Review: Gaggia Anima Deluxe Espresso Machine', videoCreator: 'Whole Latte Love', videoDate: '2015-11-09', independent: 'https://www.wholelattelove.com/products/refurbished-gaggia-anima-deluxe-super-automatic-espresso-machine', owner: 'https://www.reddit.com/r/superautomatic/search/?q=Anima%20Deluxe&restrict_sr=1', rating: [7.7, 8.1, 8.0, 7.4, 7.6, 7.5],
+
+    overview: "Anima Deluxe draws milk through a tube from a separate container, offering automatic foam without an integrated storage carafe. That distinction is its main reason to exist beside the manual-milk Anima and carafe-equipped Prestige. Espresso and lungo remain straightforward button choices, with a five-position ceramic grinder supplying the beans. The hose and cappuccinatore require prompt cleaning, so the convenience should be judged over the whole drink-and-clean sequence. The regional identity also matters because European official records and North American refurbished listings describe different electrical packages. Verify the actual unit rather than transferring a specification from another Anima.",
+    updated: '2026-10-13',
   },
   {
     key: 'gaggia-anima-prestige', slug: '/espresso-machine/gaggia-anima-prestige/', productId: 'CD-EM-000167', model: 'Anima Prestige', sku: 'Anima Prestige North America 120V',
-    title: 'Gaggia Anima Prestige review: compact one-touch milk at $849',
+    title: "Gaggia Anima Prestige review: cappuccino and latte macchiato from direct buttons",
     description: 'A research-led Gaggia Anima Prestige review covering its removable milk carafe, four one-touch beverages, five-step ceramic grinder, current $849 US price, cleaning and ownership.',
     image: 'https://www.gaggia-na.com/cdn/shop/products/AnimaPrestigeOption2_IMG_9772_01_a2acf6fd-7d1b-4a17-9382-66147f5335c4_1024x1024.jpg?v=1571331690', imageAlt: 'Gaggia Anima Prestige with stainless front and integrated milk carafe',
     official: 'https://www.gaggia-na.com/products/gaggia-anima-prestige', manual: 'https://www.gaggia.com/app/uploads/2023/07/421946045941-Anima-00-USA_Prestige-Class.pdf', priceUrl: 'https://www.gaggia-na.com/products/gaggia-anima-prestige', priceLabel: 'Gaggia North America direct price', price: '$849.00', priceNumeric: '849.00', priceContext: 'New US 110-120V listing with integrated carafe; tax, finish, stock and warranty vary',
@@ -260,6 +280,9 @@ const products: ProductConfig[] = [
     milkSystem: 'Removable double-chamber automatic milk carafe with quick-clean cycle and separate hot-water spout', drinkSystem: 'Espresso, espresso lungo, cappuccino, latte macchiato and milk foam with memo volumes, five strengths and three temperatures', grinder: 'Flat ceramic burr grinder with five adjustment positions and adapting logic', capacity: 'About 60 oz water, 8.8 oz beans, 17 oz milk and 15 pucks in North American listing', dimensions: 'About 8.8 W by 13.4 H by 16.9 D in; top and front access required', interface: 'Blue LCD and direct physical beverage buttons with status and maintenance prompts',
     primaryStrength: 'A slim integrated-carafe workflow for cappuccino and latte macchiato at one touch', primaryLimit: 'Carafe convenience brings milk storage and disassembly, while there are no named user profiles',
     videoId: 'Xjt07jsfhCA', videoTitle: 'Review: Gaggia Anima Prestige Espresso Machine', videoCreator: 'Whole Latte Love', videoDate: '2015-11-11', independent: 'https://www.wholelattelove.com/products/gaggia-anima-prestige-super-automatic-espresso-machine', owner: 'https://www.reddit.com/r/superautomatic/comments/1dco6z8/gaggia_worth_it/', rating: [7.8, 8.8, 8.7, 7.6, 8.0, 7.7],
+
+    overview: "The Anima Prestige puts cappuccino and latte macchiato beside espresso and lungo as direct choices, using a removable automatic milk carafe to supply the foam. Its slim form and physical beverage buttons suit a household that wants a small, understandable automatic station rather than a large recipe screen. Memo volumes offer personalization, but there are no named user profiles to separate several people's preferences. The carafe adds storage, quick cleaning and periodic disassembly to the routine. Choose this Anima for the specific convenience of one-touch milk, with those care steps accepted as part of the drink.",
+    updated: '2026-10-13',
   },
   {
     key: 'gaggia-babila-ri9700', slug: '/espresso-machine/gaggia-babila-ri9700/', productId: 'CD-EM-000168', model: 'Babila RI9700/64', sku: 'RI9700/64 (SUP046DG)',
@@ -271,6 +294,9 @@ const products: ProductConfig[] = [
     milkSystem: 'Integrated automatic carafe plus separate stainless hot-water and steam dispenser, supporting both one-touch and manual finishing', drinkSystem: 'Eight programmable beverages, five aroma levels, three temperatures, adjustable prebrew and manual Espresso Plus flow control', grinder: 'Ceramic burr grinder with 15 adjustment positions', capacity: 'About 1.5 L water, 300 g beans and 11 pucks', dimensions: 'About 24.5 W by 36 H by 42 D cm; roughly 13.4 kg', interface: 'Color TFT with physical multi-beverage controls; no named multi-user profiles',
     primaryStrength: 'Fifteen grinder steps, flow control and both automatic and manual milk paths', primaryLimit: 'The platform is discontinued, expensive as old stock and dependent on exact-model parts and service',
     videoId: 'cLibV1dgwiE', videoTitle: 'Review: Gaggia Accademia and Babila Automatic Coffee Machines', videoCreator: 'Whole Latte Love', videoDate: '2019-08-30', independent: 'https://www.wholelattelove.com/blogs/reviews/gaggia-babila-review', owner: 'https://www.reddit.com/r/superautomatic/comments/1o01x7a/help_bought_a_second_hand_gaggia_babila_keeps/', rating: [8.8, 9.0, 8.3, 7.6, 8.8, 6.6],
+
+    overview: "Babila combines fifteen grinder positions and Espresso Plus flow adjustment with two milk options: an automatic carafe and a separate manual dispenser. That makes the RI9700/64 more flexible than a basic automatic, especially for a household that wants to alter coffee flow or finish milk differently. It is also a discontinued platform whose specification must be matched to the actual regional unit. Old-stock pricing needs to be weighed against exact-model parts, warranty and service, rather than the former flagship position. The hardware can still be appealing, but support and condition decide whether the available example is a sensible purchase.",
+    updated: '2026-10-13',
   },
   {
     key: 'gaggia-cadorna-barista-plus-ri9603-47', slug: '/espresso-machine/gaggia-cadorna-barista-plus-ri9603-47/', productId: 'CD-EM-000169', model: 'Cadorna Barista Plus RI9601/47', sku: 'RI9601/47 North America',
@@ -282,6 +308,9 @@ const products: ProductConfig[] = [
     milkSystem: 'Pivoting commercial-style stainless steam wand with two-hole tip and insulated grip; milk texture and cleanup are manual', drinkSystem: 'Six listed coffee beverages plus hot water and steam, four profiles, five strengths, three temperatures and adjustable volume', grinder: 'Flat ceramic burr grinder with ten adjustment positions', capacity: '1.5 L water, 10.58 oz beans, 18 oz tray and 10 pucks', dimensions: '10.2 W by 15 H by 17.3 D in; 20.5 lb', interface: 'Full-color TFT plus backlit buttons with four named user profiles',
     primaryStrength: 'Saved profiles and automatic coffee paired with a capable two-hole manual steam wand', primaryLimit: 'Milk is not one-touch and the wand-to-coffee sequence still asks the user to learn texture and clean immediately',
     videoId: '66liV-9I5-U', videoTitle: 'Gaggia Cadorna Barista Plus unboxing, features, review', videoCreator: 'Jess - Gadgets, Gear, Coffee', videoDate: '2020-11-24', independent: 'https://www.gadgetsgearcoffee.com/gaggia-cadorna-barista-plus-unboxing-features-review-superautomatic-espresso-latte-art-steam-wand', owner: 'https://www.reddit.com/r/superautomatic/comments/1buyys7/gaggia_cadorna_barista_plus_user_experience/', rating: [8.1, 8.9, 8.6, 7.6, 8.8, 8.0],
+
+    overview: "Cadorna Barista Plus is the Cadorna for someone who wants saved coffee preferences and a proper manual milk task. Four profiles and a ten-position ceramic grinder support automatic coffee preparation, while the two-hole stainless wand leaves texture and pouring to the owner. That division gives a shared kitchen convenience without an automatic milk container, provided someone is willing to learn steaming and clean the wand promptly. The reviewed North American model is RI9601/47. The historical URL's RI9603/47 code belongs to Cadorna Milk, so the listing and rating plate need to follow the corrected identity rather than the route text.",
+    updated: '2026-10-13',
   },
   {
     key: 'gaggia-cadorna-milk', slug: '/espresso-machine/gaggia-cadorna-milk/', productId: 'CD-EM-000170', model: 'Cadorna Milk', sku: 'Cadorna Milk North America 120V',
@@ -293,6 +322,9 @@ const products: ProductConfig[] = [
     milkSystem: 'Capp-in-Cup system draws milk through a tube and dispenses automatic froth into the cup; the separate 0.5 L container and milk path need immediate care', drinkSystem: 'Ten beverages including ristretto, espresso, lungo, coffee, americano, cappuccino, cafe au lait, latte macchiato, frothed milk and hot water', grinder: 'Flat ceramic burr grinder with ten adjustment positions', capacity: '1.5 L water, 10.58 oz beans, 0.5 L milk container, 18 oz tray and 10 pucks', dimensions: '10.2 W by 15 H by 17.3 D in; 20.5 lb', interface: 'Full-color LCD with tactile buttons and four user profiles',
     primaryStrength: 'Automatic milk drinks without storing an integrated proprietary carafe in the refrigerator', primaryLimit: 'The external milk tube adds routing and cleaning work, and only three milk specialties are one-touch',
     videoId: 'COIJ6d0Gqew', videoTitle: 'Gaggia Cadorna Review: the perfect weekend barista?', videoCreator: 'Coffee Kev', videoDate: '2021-03-08', independent: 'https://coffeeblog.co.uk/gaggia-cadorna-review/', owner: 'https://www.reddit.com/r/superautomatic/comments/1gimjzm/gaggia_cadorna_milk_takes_its_place_on_the_counter/', rating: [8.0, 8.2, 8.5, 7.6, 8.5, 7.8],
+
+    overview: "Cadorna Milk routes milk from a separate container through its Capp-in-Cup system, then dispenses the froth into the drink. It is an option for a household that wants automatic cappuccino and latte macchiato without using the Prestige's integrated carafe. Four profiles keep coffee preferences separate, and ten grinder positions offer more adjustment than the simpler five-step Gaggia automatics. The tube still has to be routed, rinsed and cleaned after milk use; moving the storage outside the machine does not remove that work. Compare the actual one-touch milk choices with the household's orders before paying for the larger Cadorna menu.",
+    updated: '2026-10-13',
   },
   {
     key: 'gaggia-cadorna-prestige', slug: '/espresso-machine/gaggia-cadorna-prestige/', productId: 'CD-EM-000171', model: 'Cadorna Prestige', sku: 'Cadorna Prestige North America Over-Ice revision',
@@ -304,6 +336,9 @@ const products: ProductConfig[] = [
     milkSystem: 'Removable integrated 0.6 L automatic milk carafe with seven one-touch specialties and refrigerator storage between uses', drinkSystem: 'Fifteen beverages including ristretto, espresso, lungo, coffee, americano, cortado, flat white, cappuccino, cafe au lait, latte macchiato, XL milk drinks and Over-Ice', grinder: 'Flat ceramic burr grinder with ten adjustment positions', capacity: '1.5 L water, 10.58 oz beans, 0.6 L milk carafe, 18 oz tray and 10 pucks', dimensions: '10.2 W by 15 H by 17.3 D in; 20.5 lb', interface: 'Full-color LCD with tactile buttons and four user profiles',
     primaryStrength: 'The broadest Cadorna drink menu with one-touch milk, a removable carafe and four saved profiles', primaryLimit: 'The carafe has more parts to clean, and Over-Ice is a programmed hot extraction rather than cold brew',
     videoId: 'cXpgP705LB4', videoTitle: 'Review: Gaggia Cadorna Prestige Super Automatic Espresso Machine', videoCreator: 'Whole Latte Love', videoDate: '2020-10-02', independent: 'https://www.coffeeness.de/en/gaggia-cadorna-prestige-review/', owner: 'https://www.reddit.com/r/superautomatic/comments/197aeam/not_a_lot_of_information_on_these_two_machines/', rating: [8.2, 8.8, 8.8, 7.7, 9.0, 7.8],
+
+    overview: "Prestige is the Cadorna built around a removable milk carafe and the broadest menu in the family. Its current North American Over-Ice revision offers fifteen beverages and four profiles, making it relevant to several people who want their coffee and milk settings saved. Refrigerator storage of the carafe is convenient between drinks, with disassembly and cleaning still part of the routine. Over-Ice should be understood as a hot extraction program for serving over ice, rather than cold brew. The purchase makes most sense when the carafe and wider milk menu will be used frequently enough to justify their care.",
+    updated: '2026-10-13',
   },
 ];
 

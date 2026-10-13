@@ -25,7 +25,7 @@ const profile: UpgradeReviewProfile = {
   sku: 'Pippa current North American 120 V listing; route model 4100; Whole Latte Love SKU 29515',
   category: 'Single-boiler semi-automatic espresso machine',
   brandPath: '/quick-mill/',
-  title: 'Quick Mill Pippa 4100 review: current price, temperature control and milk workflow',
+  title: "Quick Mill Pippa 4100 review: the pause between pulling a shot and steaming",
   description: 'Research-led Quick Mill Pippa 4100 review covering the current Pippa identity, 0.45 L brass boiler, no-PID workflow, steam, current price, regional specifications and owner evidence.',
   verdictLabel: 'A handsome, compact single boiler for manual espresso practice, not temperature certainty or rapid milk-drink batches',
   verdict: 'Pippa combines a 0.45 L insulated brass boiler, 58 mm commercial-style portafilter, side-access 1.8 L tank, pressure gauge, external expansion-valve access and a multidirectional anti-burn wand in a compact stainless body. It is approachable but not automated: the current official page lists no PID, the user controls shot timing, and one boiler handles brewing and steaming sequentially. Whole Latte Love displayed US$999, down from US$1,095, but marked its 120 V listing sold out on September 24, 2026. Buy Pippa for tactile espresso and occasional milk service; choose a PID rival when repeatable temperature selection matters more than styling and simplicity.',
@@ -33,7 +33,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Quick Mill official front three-quarter view of the current Pippa compact single-boiler espresso machine',
   published: '2026-07-29',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: { label: 'Current US reference price', msrp: '$999', typical: 'Whole Latte Love displayed US$999, reduced from US$1,095, but marked the machine sold out on September 24, 2026. A current Canadian seller showed C$899 sale pricing for a black unit. Voltage, finish, stock, tax, delivery, warranty and included accessories are regional.', currency: 'USD', numeric: '999', checked: 'September 24, 2026' },
   links: [
     { label: 'Check US price and availability', href: wholeLatteLove, note: 'US$999 sold-out 120 V reference, warranty and retailer specifications checked September 24, 2026', primary: true },
@@ -127,6 +127,8 @@ const profile: UpgradeReviewProfile = {
     'Buy only after confirming exact voltage, rating plate, gauge, stock, warranty and service. Choose GO or Victoria for temperature control, Classic for a lower-cost ecosystem, or Orione for a lighter thermoblock route.',
   ],
   video: { id: 'bIcZA8kutgw', title: 'Quick Mill Pippa Review: Best Entry-Level Italian Espresso Machine?', creator: 'iDrinkCoffeeCanada', published: '2025-01-28', note: 'Unique independent current-model video covering controls, espresso preparation, steaming, positioning and buyer fit. It is not Coffeedant testing, a current-price source or a universal performance measurement.' },
+
+  overview: "Pippa makes the handover between espresso and steam a central part of its small brass-boiler routine. Manual switches and a conventional portafilter keep preparation tangible, while the side-access tank can make refilling easier in a constrained location. There is no stock PID to select an exact brew temperature, so the owner's timing matters alongside grinder and preparation. One or two drinks can suit that pace; several cappuccinos make the heating transitions harder to ignore. Buy the Pippa for the compact, traditional station it is, after checking the North American unit's electrical specification and the seller's exact gauge and accessories.",
 };
 
 profile.sectionOverrides = {

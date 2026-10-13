@@ -38,7 +38,7 @@ const profile: UpgradeReviewProfile = {
   image: hero,
   imageAlt: 'Siemens official product image of an EQ700 Integral automatic coffee machine with integrated milk container',
   published: '2026-01-05',
-  updated: '2026-09-25',
+  updated: '2026-10-13',
   price: { label: 'Costco UK listed price', msrp: '£929.98', numeric: '929.98', currency: 'GBP', typical: 'Exact TQ717GB3 listing; stock and warehouse pricing can vary', checked: 'September 25, 2026' },
   links: [
     { label: 'Check Costco UK listing', href: costco, note: 'Exact TQ717GB3 listing; price, membership and stock can change', primary: true },
@@ -152,6 +152,8 @@ const profile: UpgradeReviewProfile = {
     'Buy it at a documented UK price when its support, warranty and exact functions are clear. Choose Dinamica Plus for a more conventional current-market route, Miele CM 6360 for premium paired drinks, or the older Xelsis only when its deeper profiles justify refurbished-unit diligence.',
   ],
   video: { id: 'ac0AQ0BOSXM', title: 'Honest review of the Siemens EQ700 Bean to Cup machine.', creator: 'Caffeine Mag', published: '2025-11-04', note: 'Independent 12-minute 32-second hands-on review covering coffee, milk, grinder, interface and connected workflow. The exact regional suffix is not treated as interchangeable with every EQ700 variant, and the video does not establish long-term failure rates.' },
+
+  overview: "EQ700 Integral centers the household routine on its large iSelect screen, integrated milk container and saved favorites. Home Connect and coffeeWorld add ways to choose drinks, while paired service and automatic milk-path steam cleaning can help people repeating mixed orders. The TQ717GB3 still needs exact-model verification: Siemens' lifecycle record and remaining retailer stock tell different parts of the story, and some family features are advertised inconsistently. Check the actual unit's cup-preheat function, included milk parts, app region and warranty before treating a generic EQ700 list as its specification. Its interface is most valuable when the household will use the variety regularly.",
 };
 
 profile.sectionOverrides = {

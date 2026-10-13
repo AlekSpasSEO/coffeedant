@@ -20,7 +20,7 @@ const profile: UpgradeReviewProfile = {
   verdict: 'Consider the current EU Cellini Classic LPSCCS01EU if you want a manually controlled E61 heat-exchanger machine with a copper 1.8 L boiler, vibration pump, 2.9 L removable tank, boiler gauge and simultaneous brew-and-steam capability. It omits a PID, pump gauge, shot timer and direct water connection. The official European price was €1,559 on September 24, 2026, before grinder, water treatment and dealer support.',
   assessment: 'This is a research-led assessment, not a Coffeedant bench test. Exact EU identity, materials, dimensions, accessories and electrical data come from La Pavoni documents generated for LPSCCS01EU. Specialist demonstrations and owner discussions explain workflow, but no controlled exact-model temperature, flow, noise or recovery dataset was found.',
   image: hero, imageAlt: 'La Pavoni official three-quarter image of the stainless steel Cellini Classic with E61 group, boiler gauge and cool-touch wands',
-  published: '2026-07-27', updated: '2026-09-24',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Official EU price', msrp: '€1,559', typical: 'La Pavoni listed EU LPSCCS01EU at €1,559 on September 24, 2026. Pasquini listed a 120 V stainless US version at $1,699 and matte black at $1,749, discounted from higher compare-at figures. Region, voltage, finish, stock and warranty differ.', currency: 'EUR', numeric: '1559', checked: 'September 24, 2026' },
   links: [
     { label: 'Check the exact La Pavoni EU specification', href: official, note: 'Exact LPSCCS01EU identity, live price, materials, architecture and included accessories', primary: true },
@@ -109,6 +109,8 @@ const profile: UpgradeReviewProfile = {
     'Buy it for conventional hardware and manual control, not feature density. Budget for the grinder, water plan and local service, verify the exact regional code, and compare its €1,559 price with temperature-managed HX rivals before deciding.',
   ],
   video: { id: '6vRAEBIJPe0', title: 'La Pavoni Cellini Coffee Machine Review', creator: 'Alternative Brewing', published: '2022-08-09', note: 'Retailer-produced practical Cellini family demonstration. It is independent of La Pavoni but commercially connected to sales, so current exact EU documents govern identity and specifications.' },
+
+  overview: "Cellini Classic brings E61-style lever brewing and simultaneous steam to a traditional heat-exchanger station. The current EU machine pairs a 1.8 L copper boiler with a removable reservoir and vibration pump, without a PID, shot timer or direct-water connection. It therefore favors someone who wants the manual rhythm and has room for the supporting grinder, rather than someone collecting digital temperature controls. The boiler gauge is useful information, but does not supply a separate pump-pressure display. Judge the Cellini around drink volume, thermal routine and local dealer support, with the exact European electrical package established before comparing offers.",
 };
 
 profile.sectionOverrides = {

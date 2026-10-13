@@ -39,7 +39,7 @@ const profile: UpgradeReviewProfile = {
   image: hero,
   imageAlt: 'Siemens official product image used on the UK TI9573X9GB page for the EQ.9 Plus Connect s700',
   published: '2026-01-05',
-  updated: '2026-09-25',
+  updated: '2026-10-13',
   price: { label: 'Exact-model pre-owned listing', msrp: '£361.42', numeric: '361.42', currency: 'GBP', typical: 'Used TI9573X9GB listing; £14.30 postage shown separately and condition varies', checked: 'September 25, 2026' },
   links: [
     { label: 'Check exact-model used listings', href: ebay, note: 'Condition, completeness, seller terms and price can change', primary: true },
@@ -154,6 +154,8 @@ const profile: UpgradeReviewProfile = {
     'Buy a clean, complete and returnable example at a condition-adjusted price. Choose EQ700 Integral for a newer Siemens interface, Miele CM 7750 for a current multi-bean flagship, or Xelsis when profiles and milk tuning matter more than two ready beans.',
   ],
   video: { id: 'VRBhT4ENhI4', title: 'A Beginners Guide - Siemens EQ.9 Plus Connect S700 Espresso Coffe Machine TI9573X9RW', creator: 'TechAbet Solutions', published: '2020-03-28', note: 'Independent 13-minute 57-second walkthrough of the TI9573X9RW regional sibling covering menus and drink preparation. It demonstrates shared s700 workflow but does not prove TI9573X9GB package details, measured performance or long-term reliability.' },
+
+  overview: "EQ.9 Plus Connect s700 gives two bean containers their own grinders, making regular-and-decaf or two-coffee households a particularly relevant audience. Paired milk drinks, baristaMode and a color display add a useful shared-station routine around that separation. The Great Britain TI9573X9GB is discontinued, however, so these features need to be demonstrated on the actual used or remaining-stock example. Both bean paths, milk parts, service history, connectivity and return rights belong in the inspection. An old family description cannot establish that every system still works. Buy the complete, supported machine for its dual-grinder role rather than a low headline price alone.",
 };
 
 profile.sectionOverrides = {

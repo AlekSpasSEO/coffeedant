@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-10-13T21:40:24.422Z",
+  "wordingMetric": "Ordered word overlap after removing brand/model references and the common word Review. Technical details, prices and dates retained.",
+  "title": {
+    "before": {
+      "reviews": 146,
+      "pairs": 10585,
+      "meanPairwiseOverlap": 0.04057771022749374,
+      "medianNearestOverlap": 0.4,
+      "reviewsWith50PercentMatch": 36,
+      "maximumOverlap": 1
+    },
+    "after": {
+      "reviews": 146,
+      "pairs": 10585,
+      "meanPairwiseOverlap": 0.03951602478211502,
+      "medianNearestOverlap": 0.3333333333333333,
+      "reviewsWith50PercentMatch": 0,
+      "maximumOverlap": 0.46153846153846156
+    }
+  },
+  "overview": {
+    "before": {
+      "reviews": 152,
+      "pairs": 11476,
+      "meanPairwiseOverlap": 0.36546335722331336,
+      "medianNearestOverlap": 0.6666666666666666,
+      "reviewsWith50PercentMatch": 117,
+      "maximumOverlap": 0.99375
+    },
+    "after": {
+      "reviews": 152,
+      "pairs": 11476,
+      "meanPairwiseOverlap": 0.13476197107550425,
+      "medianNearestOverlap": 0.21079079608569162,
+      "reviewsWith50PercentMatch": 0,
+      "maximumOverlap": 0.3582089552238806
+    }
+  },
+  "summary": {
+    "before": {
+      "reviews": 152,
+      "pairs": 11476,
+      "meanPairwiseOverlap": 0.13967399409614276,
+      "medianNearestOverlap": 0.3021061869240895,
+      "reviewsWith50PercentMatch": 11,
+      "maximumOverlap": 0.8333333333333334
+    },
+    "after": {
+      "reviews": 152,
+      "pairs": 11476,
+      "meanPairwiseOverlap": 0.13967399409614276,
+      "medianNearestOverlap": 0.3021061869240895,
+      "reviewsWith50PercentMatch": 11,
+      "maximumOverlap": 0.8333333333333334
+    }
+  },
+  "beforeBoilerplatePages": 118,
+  "afterBoilerplatePages": 0
+}

@@ -33,7 +33,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Whole Latte Love three-quarter product image of the final-generation Profitec Pro 700 with E61 group, black gauges and rotary valves',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: { label: 'Discontinued US historical price class', msrp: 'About $3,000 historical US reference', typical: 'The current Whole Latte Love page identifies Pro 700 as an old product listing rather than normal new inventory. An owner review published in 2022 described it as a $3,000 machine. Used, open-box and remaining-stock prices vary by revision, condition, included flow control, plumbing parts, warranty and seller, so no current normal street price is claimed.', currency: 'USD', numeric: '2999', checked: 'September 24, 2026' },
   links: [
     { label: 'Read the retired Whole Latte Love listing', href: wholeLatteLove, note: 'Final-generation identity, old-listing status, specifications and exact-model media checked September 24, 2026', primary: true },
@@ -127,6 +127,8 @@ const profile: UpgradeReviewProfile = {
     'Buy a documented unit when condition, price, included hardware and seller protection make sense. Start with DRIVE for the current Profitec, Bianca for integrated profiling, Synchronika for a current German alternative, or Pro 600 when a smaller reservoir machine is enough.',
   ],
   video: { id: 'xYkCawbwwxQ', title: 'The Profitec Pro 700: $3,000 GERMAN Espresso Machine! - Full Review', creator: 'xristiantj', published: '2022-06-17', note: 'Unique exact-model owner review published with a June 17, 2022 community post. It supplies ownership and visual context for the final-generation machine, not Coffeedant testing, controlled measurements or a reliability rate.' },
+
+  overview: "Pro 700's rotary pump, large steam boiler and choice of tank or direct water make it a candidate for a permanent espresso-and-milk station. The final North American generation also supplies independent boiler PID control and shot timing through a conventional E61 lever interface. Its place in the lineup has been taken by DRIVE, so a remaining or used example should be judged on revision and condition. Water history, plumbing parts and any fitted flow-control hardware can materially change the offered package. The appeal is supported, traditional dual-boiler capability at the right used value, with the actual unit's history established before purchase.",
 };
 
 profile.sectionOverrides = {

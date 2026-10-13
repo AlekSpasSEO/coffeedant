@@ -25,7 +25,7 @@ const profile: UpgradeReviewProfile = {
   sku: '0981RIS-A-XX-XX, current US 115 V reservoir configuration',
   category: 'Heat-exchanger E61 semi-automatic espresso machine',
   brandPath: '/quick-mill/',
-  title: 'Quick Mill Rubino 0981 review: current price, HX workflow and model boundary',
+  title: "Quick Mill Rubino 0981 review: check the controls before trusting the Plus label",
   description: 'Research-led Quick Mill Rubino 0981 review covering the 1.8 L heat exchanger, E61-style group, no-PID workflow, current US price, owner evidence and the separate Rubino Plus generation.',
   verdictLabel: 'A narrow traditional heat exchanger for hands-on espresso and milk drinks, not the newer PID-equipped Rubino Plus',
   verdict: 'The current Rubino 0981 combines a 1.8 L insulated heat-exchanger boiler, Quick Mill E61-style group, vibration pump with pulsor, 3 L reservoir, boiler-pressure gauge and simultaneous brewing and steaming in a body only 265 mm wide. The current factory page explicitly lists no PID. That matters because Quick Mill also sells a separate Rubino Plus with a stainless HX boiler, PID, OLED display, shot timer, pre-brew settings and dual gauge. Chris Coffee displayed US$1,999 and in-stock status for SKU 0981RIS-A-XX-XX on September 25, 2026, while calling it Rubino Plus but describing the analog copper-boiler Rubino. Buy only after confirming the rating plate and controls on the actual unit.',
@@ -33,7 +33,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Quick Mill official front three-quarter view of the current analog Rubino heat-exchanger espresso machine',
   published: '2026-07-27',
-  updated: '2026-09-25',
+  updated: '2026-10-13',
   price: { label: 'Current US reference price', msrp: '$1,999', typical: 'Chris Coffee displayed US$1,999 and in-stock status for SKU 0981RIS-A-XX-XX on September 25, 2026. Its page title says Rubino Plus, but the listed copper boiler, analog controls and single gauge match the Rubino rather than the newer PID-equipped factory Rubino Plus. Confirm exact generation, voltage, warranty and delivered configuration in writing.', currency: 'USD', numeric: '1999', checked: 'September 25, 2026' },
   links: [
     { label: 'Check current US price and exact configuration', href: chrisCoffee, note: 'US$1,999, in-stock SKU 0981RIS-A-XX-XX checked September 25, 2026; seller title and specification conflict, so confirm the exact machine', primary: true },
@@ -127,6 +127,8 @@ const profile: UpgradeReviewProfile = {
     'Buy only after the seller confirms the exact 0981 generation, controls, boiler, voltage, warranty and service. Choose Pro 400 or MaraX for managed HX operation, or QM67 Evo for dual-boiler PID control.',
   ],
   video: { id: 'TSxp32Y_MPQ', title: 'Quick Mill Rubino Home Espresso Machine (Full Review)', creator: 'Artisti Coffee Roasters.', published: '2020-06-03', note: 'Unique exact-model independent review covering unboxing, controls, espresso preparation, steam workflow and buyer fit. It is not Coffeedant testing, current-price evidence or a universal performance measurement.' },
+
+  overview: "The controls on the offered Rubino should settle the purchase before the seller's product name does. The factory-documented analog 0981 has a heat exchanger, E61-style group and no PID, while Rubino Plus adds a different boiler and electronic control package. A checked US listing used the Plus name for hardware described as the analog machine. The ordinary Rubino can still make sense for simultaneous coffee and milk service in a narrow reservoir-fed station, provided the buyer wants its mechanical temperature routine. Ask for the actual rating plate and control layout; a mistaken Plus label cannot supply the missing display or settings.",
 };
 
 profile.sectionOverrides = {

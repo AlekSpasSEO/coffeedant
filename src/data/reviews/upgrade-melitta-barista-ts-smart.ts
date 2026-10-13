@@ -21,7 +21,7 @@ const profile: UpgradeReviewProfile = {
   sku: 'UK black F85/0-102, article 6764549_UK, 220–240 V',
   category: 'Superautomatic espresso machine',
   brandPath: '/brands/',
-  title: 'Melitta Barista TS Smart review: two beans, 21 drinks',
+  title: "Melitta Barista TS Smart review: switching beans through a divided hopper",
   description: 'Exact UK black F85/0-102 review: £649.99 direct price, 21 drinks, eight profiles, Automatic Bean Select, two milk drinks, Connect app and ownership limits.',
   verdictLabel: 'The shared-household superautomatic with unusually useful bean routing',
   verdict: 'Consider the UK black F85/0-102 when two beans, eight profiles and paired milk drinks remove household friction. Article 6764549_UK was £649.99 on September 24, 2026. Buy it for routing and repetition, while accepting one five-step grinder, 467 mm depth and hands-on milk care.',
@@ -29,7 +29,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Melitta official front image of the black Barista TS Smart F85/0-102 with TFT display, dual-chamber hopper and external milk container',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: {
     label: 'Current UK black F85/0-102 direct price',
     msrp: '£999.99 reference value shown in Melitta commerce data',
@@ -187,6 +187,8 @@ const profile: UpgradeReviewProfile = {
     published: '2018-09-15',
     note: 'Independent exact-name visual walkthrough of the machine and drink workflow. It predates the current price and does not confirm the current UK article suffix or provide long-term reliability data.',
   },
+
+  overview: "Barista TS Smart uses a divided hopper to make switching beans more convenient, without becoming a two-grinder machine. Automatic bean routing, eight profiles and paired milk preparation give it a clear shared-household role: different people can reach familiar drinks without repeatedly emptying a hopper or rebuilding recipes. The single five-step grinder still imposes a common adjustment system on those beans. Its 467 mm depth also matters more on the counter than the compact-looking front, and the milk path needs hands-on care. The UK F85/0-102 is best judged around bean switching and saved routines, rather than the count of twenty-one variations alone.",
 };
 
 profile.sectionOverrides = {

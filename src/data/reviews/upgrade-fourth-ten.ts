@@ -16,7 +16,7 @@ const magnificaPlus: UpgradeReviewProfile = {
   verdict: 'Choose the Magnifica Plus when several people want personalized black and milk drinks from a clear touchscreen without paying PrimaDonna money. Skip it when manual espresso control, true cold extraction, or a user-removable milk-free workflow matters more than menu breadth.',
   assessment: 'A particularly balanced De’Longhi superautomatic with a useful menu, strong milk convenience and sensible physical proportions.',
   image: 'https://dam.delonghi.com/902x902/assets/276226', imageAlt: "De'Longhi Magnifica Plus ECAM320.70.SB automatic coffee machine with LatteCrema Hot carafe",
-  published: '2026-07-27', updated: '2026-09-18',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: "De'Longhi Australia direct price", msrp: 'A$1,199.00', typical: 'Stock, promotions, tax and regional suffixes vary', currency: 'AUD', numeric: '1199.00', checked: 'September 18, 2026' },
   links: [
     { label: "Check De'Longhi price", href: 'https://www.delonghi.com/en-au/p/magnifica-plus-magnifica-plus-automatic-coffee-machine-ecam320.70.sb/ECAM320.70.SB.html?pid=0132250036', note: 'Official ECAM320.70.SB page', primary: true },
@@ -106,18 +106,20 @@ const magnificaPlus: UpgradeReviewProfile = {
   finalTitle: 'Magnifica Plus makes its strongest case in a shared kitchen',
   finalVerdict: ['ECAM320.70.SB occupies a useful middle ground. The 18-drink menu is broad enough to matter, four profiles prevent a shared machine from becoming a daily settings dispute, and LatteCrema Hot makes milk drinks far easier than a manual wand.', 'Its grinder, automatic brew group, and hot-only architecture still define the limit. Buy it for repeatable convenience, not manual espresso exploration. At the checked Australian price, it earns a strong recommendation for a household that will use both profiles and the milk carafe.'],
   video: { id: '-r3_yLO41As', title: 'Delonghi Magnifica PLUS Superautomatic Coffee Machine Review', creator: "Tom's Coffee Corner", published: '2024-11-28', note: 'An independent exact-family walkthrough of the display, drink setup, coffee and milk workflow, and cleaning. It supplies visual context rather than Coffeedant testing.' },
+
+  overview: "Four saved profiles give the Magnifica Plus a clearer purpose than its eighteen-recipe headline alone. Several people can keep their preferred black and milk drinks on the 3.5-inch touchscreen, with the LatteCrema Hot carafe taking care of frothing. That makes it a plausible step up for a shared kitchen that has outgrown a simpler icon panel. The wider menu brings milk-system care and more settings to maintain, and it does not provide the direct extraction choices of a manual espresso station. Start with the household's drink variety before treating the Plus badge as a reason to upgrade.",
 };
 
 const magnificaStart: UpgradeReviewProfile = {
   key: 'magnifica-start', slug: '/espresso-machine/delonghi-magnifica-start/', productId: 'CD-EM-000151',
   brand: "De'Longhi", model: 'Magnifica Start ECAM220.22.GB', sku: 'ECAM220.22.GB', category: 'Superautomatic espresso machine', brandPath: '/de-longhi/',
-  title: "De'Longhi Magnifica Start review: simple coffee with a manual frother",
+  title: "De'Longhi Magnifica Start review: an automatic for people who still want to steam milk",
   description: "A research-led De'Longhi Magnifica Start ECAM220.22.GB review covering its four recipes, manual milk wand, removable infuser, grinder, cleaning, price and variants.",
   verdictLabel: 'For simple black coffee plus occasional milk',
   verdict: 'Choose ECAM220.22.GB when you want beans-to-cup espresso, coffee and Americano with physical simplicity, and you are willing to texture milk manually. Skip it when one-touch milk, personal profiles, a display, or more direct espresso control is worth paying for.',
   assessment: 'An approachable entry automatic whose exact manual-frother identity matters more than the shared Magnifica Start name.',
   image: 'https://delonghi.ph/cdn/shop/files/Magnifica_Start.png?v=1741248694&width=1946', imageAlt: "Black De'Longhi Magnifica Start ECAM220.22.GB with manual milk frother",
-  published: '2026-07-27', updated: '2026-09-18',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: "De'Longhi Philippines direct price", msrp: '₱68,800.00', typical: 'Regional prices, voltage, suffixes, bundles and promotions vary', currency: 'PHP', numeric: '68800.00', checked: 'September 18, 2026' },
   links: [
     { label: "Check De'Longhi price", href: 'https://delonghi.ph/products/delonghi-automatic-coffee-machine-magnifica-start-ecam220-22-gb', note: 'Official Philippines ECAM220.22.GB listing', primary: true },
@@ -207,6 +209,8 @@ const magnificaStart: UpgradeReviewProfile = {
   finalTitle: 'Magnifica Start works when simple really is the goal',
   finalVerdict: ['ECAM220.22.GB automates the repetitive coffee work while leaving milk in the owner’s hands. That is a coherent choice for espresso, coffee, and Americano drinkers who make only occasional cappuccinos and prefer a wipeable wand to a stored-milk carafe.', 'Its family name creates the biggest buying risk. Confirm the full code and do not pay for expectations borrowed from an automatic-milk sibling. With that boundary clear, it is an honest entry bean-to-cup machine rather than a cut-price version of every Magnifica.'],
   video: { id: 'w9A5ZaHnRgQ', title: 'DELONGHI MAGNIFICA START REVIEW', creator: 'Mr.Coffee Reviews', published: '2026-02-07', note: 'An independent walkthrough of the Magnifica Start controls, coffee routine, milk work, and care. Exact regional specifications are anchored to De’Longhi.' },
+
+  overview: "This Magnifica Start keeps the beans-to-cup coffee process separate from milk preparation. The ECAM220.22.GB offers espresso, coffee and Americano through an icon panel, while its steam frother asks you to make the milk yourself. That arrangement suits a black-coffee household that wants an occasional cappuccino without a carafe system to manage. It also sets the limit of the convenience: there are no personal profiles or full recipe display, and a milk drink is more than one button press. The simplest Start can be the right purchase when those missing functions would mostly go unused.",
 };
 
 const primaDonnaSoul: UpgradeReviewProfile = {
@@ -218,7 +222,7 @@ const primaDonnaSoul: UpgradeReviewProfile = {
   verdict: 'Choose PrimaDonna Soul when a large display, five profiles, automatic milk, app-assisted recipes, and Bean Adapt guidance will be used by a varied household. Skip it when you want true cold extraction, manual espresso control, or cannot justify flagship cost for workflow features.',
   assessment: 'A polished hot-drink flagship with unusually broad guidance, but not a substitute for a manual espresso station or a modern cold-extraction model.',
   image: 'https://dam.delonghi.com/902x902/assets/190115', imageAlt: "De'Longhi PrimaDonna Soul ECAM610.75.MB premium automatic coffee machine",
-  published: '2026-07-27', updated: '2026-09-18',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: "De'Longhi UK direct price", msrp: '£1,379.99', typical: 'Promotions, stock, finish, app region and warranty vary', currency: 'GBP', numeric: '1379.99', checked: 'September 18, 2026' },
   links: [
     { label: "Check De'Longhi price", href: 'https://www.delonghi.com/en-gb/p/primadonna-soul-primadonna-soul-fully-automatic-coffee-machine-ecam610.75.mb/ECAM610.75.MB.html?pid=0132217062', note: 'Official ECAM610.75.MB listing', primary: true },
@@ -308,6 +312,8 @@ const primaDonnaSoul: UpgradeReviewProfile = {
   finalTitle: 'PrimaDonna Soul is a workflow flagship, not a manual espresso replacement',
   finalVerdict: ['PrimaDonna Soul makes a persuasive case when five people want different drinks and nobody wants to manage a portafilter. The screen, profiles, Bean Adapt guidance, large capacities, and automatic milk system work together as one organized service experience.', 'The same money can buy formidable manual hardware, and newer machines handle true cold drinks. Choose Soul for premium hot-drink convenience and guided personalization. If those exact benefits are not used, Magnifica Plus or Dinamica Plus is the more disciplined purchase.'],
   video: { id: 'tG5BfQ2PxA4', title: 'Delonghi PrimaDonna Soul Coffee Machine - Better than Costa / Starbucks? (Bean to Cup Freshness)', creator: 'Chigz Tech Reviews', published: '2020-10-25', note: 'An independent visual review of the interface, recipes, Bean Adapt, coffee and milk workflow. Official material controls current specifications and price.' },
+
+  overview: "PrimaDonna Soul is aimed at a household where personalization has real daily use. Its five profiles, large touchscreen, automatic milk and Coffee Link functions provide several ways to keep preferred recipes accessible, while Bean Adapt supplies guidance around the beans being used. The benefit is a more organized automatic routine, rather than manual control over every part of extraction. Someone making one familiar drink may find little reason to pay for this much interface and assistance. The ECAM610.75.MB becomes a stronger proposition when different users, changing coffee and milk drinks all share the same station.",
 };
 
 const casaV: UpgradeReviewProfile = {
@@ -319,7 +325,7 @@ const casaV: UpgradeReviewProfile = {
   verdict: 'Choose a Casa V when its narrow body, 58 mm commercial-size portafilter, adjustable brew pressure, and straightforward single-boiler mechanics match a mostly-espresso routine. Skip it when PID temperature display, fast milk queues, or current-model certainty matters more than compact build quality.',
   assessment: 'A narrow, well-finished legacy single boiler that rewards technique but now competes with better-controlled current machines.',
   image: 'https://www.atlaspowercoffee.co.nz/wp-content/uploads/2021/03/Casa-v.png', imageAlt: 'ECM Casa V compact polished stainless-steel espresso machine',
-  published: '2026-07-27', updated: '2026-09-18',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Atlas Power Coffee listed price', msrp: 'NZ$1,750.00', typical: 'Legacy stock, condition, voltage, freight and warranty vary', currency: 'NZD', numeric: '1750.00', checked: 'September 18, 2026' },
   links: [
     { label: 'Check exact retailer record', href: 'https://www.atlaspowercoffee.co.nz/shop/brew-gear/espresso-machines/ecm-casa-v/', note: 'Exact Casa V listing and photographs', primary: true },
@@ -409,6 +415,8 @@ const casaV: UpgradeReviewProfile = {
   finalTitle: 'Casa V remains appealing when width is the real constraint',
   finalVerdict: ['Casa V compresses serious espresso fundamentals into an unusually narrow machine: 58 mm preparation, a visible pressure gauge, an adjustable expansion valve, and conventional serviceable parts. Its tactile simplicity still has appeal.', 'The absence of PID and current-model certainty is now decisive. Buy one only after checking the exact unit, service path, and full station cost. For most new buyers, Classika PID or Profitec GO is easier to recommend; for a disciplined espresso-first owner with 210 mm to spare, Casa V can still make sense.'],
   video: { id: 'fTIDu9DmC7U', title: 'How To Set Up & Use the ECM Casa V Espresso Machine', creator: 'Whole Latte Love', published: '2025-01-21', note: 'A specialist-retailer demonstration of exact-machine setup, espresso, steam, and care. It supplies visual context rather than Coffeedant testing.' },
+
+  overview: "Casa V places conventional 58 mm espresso preparation in a notably narrow body. A pump-pressure gauge and adjustable brew pressure give useful feedback, but the single boiler lacks a PID temperature display, leaving thermal timing to the owner. This combination is attractive for someone who mostly drinks espresso and values straightforward mechanics over a screen. Milk remains possible through the shared boiler, with the change of mode becoming more noticeable in a run of drinks. Because Casa V is a legacy purchase, condition and local service should be weighed alongside its compact size, especially when comparing a newer compact PID machine.",
 };
 
 const classika: UpgradeReviewProfile = {
@@ -420,7 +428,7 @@ const classika: UpgradeReviewProfile = {
   verdict: 'Choose Classika PID when straight espresso, E61 temperature control, a shot timer, and the option to add manual flow control matter more than fast milk service. Skip it when you need simultaneous brewing and steaming or assume every seller includes the flow-profile valve.',
   assessment: 'One of the clearest espresso-first ECM choices, with excellent control and build discipline inside the unavoidable limits of a single boiler.',
   image: 'https://www.ecm.de/wp-content/uploads/2025/05/ECM_Classika_frontal-768x504-1.jpg', imageAlt: 'ECM Classika PID single-boiler E61 espresso machine viewed from the front',
-  published: '2026-07-27', updated: '2026-09-18',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Observed US specialist price', msrp: '$1,649.00', typical: 'Flow-control package, finish, freight, tax and warranty vary', currency: 'USD', numeric: '1649.00', checked: 'September 18, 2026' },
   links: [
     { label: 'Check ECM specifications', href: 'https://www.ecm.de/en/products/classika-pid/', note: 'Official current product page', primary: true },
@@ -510,6 +518,8 @@ const classika: UpgradeReviewProfile = {
   finalTitle: 'Classika PID is best when espresso gets first claim on the budget',
   finalVerdict: ['Classika PID gives a straight-espresso drinker the controls that matter: a stable temperature target, shot timing, 58 mm preparation, E61 behavior, and a credible optional path into manual flow profiling. Its construction and current documentation complete the proposition.', 'The single boiler is not a hidden footnote. One cappuccino is reasonable; a morning milk queue is the wrong job. Confirm whether flow control is included, pair it with a grinder of equal seriousness, and Classika becomes one of ECM’s most coherent home machines.'],
   video: { id: 'bJFB2g-AcGQ', title: 'Review: ECM Classika PID Espresso Machine', creator: 'Whole Latte Love', published: '2015-03-25', note: 'A specialist-retailer review showing the Classika controls, E61 group, extraction, and steam workflow. Current official specifications and optional flow control are checked separately.' },
+
+  overview: "Classika PID gives straight-espresso drinkers a traditional E61-style group with visible temperature selection and shot timing, without requiring a dual-boiler budget or footprint. Its single boiler keeps the machine focused, although switching to steam changes the pace when milk drinks enter the order. Flow control is an optional configuration worth discussing with the seller, rather than a feature to assume from this review's route name. The useful decision is how much control you want over espresso itself. If regular back-to-back cappuccinos are the priority, a machine that can brew and steam together answers a different need.",
 };
 
 const mechanikaSlimPid: UpgradeReviewProfile = {
@@ -521,7 +531,7 @@ const mechanikaSlimPid: UpgradeReviewProfile = {
   verdict: 'Choose the current Mechanika Slim PID when you want E61 espresso, strong simultaneous steam, a 250 mm-wide body, and useful PID-era controls without paying for a rotary pump or plumbing. Skip it when direct brew-boiler temperature control, silent operation, or flow profiling matters more than heat-exchanger pace.',
   assessment: 'A thoughtfully modernized narrow heat exchanger whose three temperature presets improve ownership without turning it into a dual boiler.',
   image: 'https://www.ecm.de/wp-content/uploads/2025/05/ECM_Mechanika_VI_Slim-PID-frontal-768x504-1.jpg', imageAlt: 'Current ECM Mechanika Slim PID heat-exchanger espresso machine viewed from the front',
-  published: '2026-07-27', updated: '2026-09-18',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Clive Coffee listed price', msrp: '$2,159.00', typical: 'Freight, tax, stock, voltage, warranty and promotions vary', currency: 'USD', numeric: '2159.00', checked: 'September 18, 2026' },
   links: [
     { label: 'Check ECM specifications', href: 'https://www.ecm.de/en/products/mechanika-slim-pid/', note: 'Official current product page', primary: true },
@@ -611,6 +621,8 @@ const mechanikaSlimPid: UpgradeReviewProfile = {
   finalTitle: 'Mechanika Slim PID makes the narrow heat exchanger easier to live with',
   finalVerdict: ['The current Slim PID keeps the classic strengths intact: E61 handling, strong simultaneous steam, substantial construction, and only 250 mm of width. The timer, three temperature presets, selectable preinfusion, and care reminders address real daily tasks.', 'It remains a heat exchanger with a vibration pump. Straight-espresso buyers may prefer a PID single or dual boiler, and plumbing buyers need another ECM. For a compact milk-drink station with traditional manual control, however, the updated Mechanika is unusually well judged.'],
   video: { id: 'EYSIQqDzuB8', title: 'ECM Mechanika Slim PID Espresso Machine Review', creator: 'Whole Latte Love', published: '2024-06-26', note: 'A specialist-retailer video of the current generation, including controls, espresso, steam, and dimensions. Official ECM data resolves specification conflicts.' },
+
+  overview: "At 250 mm wide, the Mechanika Slim PID offers a way to keep E61-style brewing and substantial steam in a kitchen that cannot accommodate a broad dual boiler. The current version adds steam-boiler setpoints, a shot counter and status information to the heat-exchanger format. Those controls should be understood as help with this architecture, not an independently regulated brew boiler. A vibration pump and reservoir also distinguish its installation from ECM's rotary-pump machines. It belongs on the shortlist when simultaneous coffee and milk service matters alongside width, and a traditional heat-exchanger routine is an acceptable part of ownership.",
 };
 
 const mechanikaVSlim: UpgradeReviewProfile = {
@@ -622,7 +634,7 @@ const mechanikaVSlim: UpgradeReviewProfile = {
   verdict: 'Choose a Mechanika V Slim only when the exact unit is well maintained, meaningfully cheaper than the current Slim PID, and backed by a credible seller or technician. Skip it when digital timing, temperature presets, current warranty, or a direct brew-boiler PID is important.',
   assessment: 'Still a strong narrow milk-drink machine, but condition and price now matter more than its original premium positioning.',
   image: 'https://www.wholelattelove.com/cdn/shop/products/mechanica_slim_frontal_1_96cd0d31-9b99-4b29-8177-bdf3dac12785.jpg?v=1614803442&width=1200', imageAlt: 'Legacy ECM Mechanika V Slim polished heat-exchanger espresso machine viewed from the front',
-  published: '2026-07-27', updated: '2026-09-18',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Last observed refurbished price', msrp: '$1,319.20', typical: 'The cited unit was sold out; condition, service, freight and warranty vary', currency: 'USD', numeric: '1319.20', checked: 'September 18, 2026' },
   links: [
     { label: 'Check refurbished model record', href: 'https://www.wholelattelove.com/products/refurbished-ecm-mechanika-v-slim-espresso-machine', note: 'Exact legacy product, images, price and specifications', primary: true },
@@ -712,6 +724,8 @@ const mechanikaVSlim: UpgradeReviewProfile = {
   finalTitle: 'Mechanika V Slim is a condition-first purchase now',
   finalVerdict: ['The legacy V Slim still has the architecture that made it desirable: a narrow E61 body, a large heat-exchanger boiler, strong simultaneous steam, dual gauges, and conventional manual controls. A healthy machine can run an efficient milk-drink station.', 'Its successor is meaningfully easier to understand and support. Buy the V Slim only with exact identity, a convincing inspection or warranty, and a price that leaves room for service. The badge cannot compensate for unknown water history or a shrinking discount.'],
   video: { id: 'CeBFBSSqsPU', title: 'ECM Mechanika V Slim Espresso Machine Review', creator: 'Clive Coffee', published: '2018-10-08', note: 'A specialist-retailer review of the exact legacy V Slim, showing size, E61 controls, espresso, steam, and reservoir access. It is visual context rather than Coffeedant testing.' },
+
+  overview: "The Mechanika V Slim is a used-machine decision with a current successor close at hand. Its pressure-stat heat exchanger, E61-style group and narrow body can still form a capable milk-drink station, but the older model lacks the PID-era presets and digital timing of the Slim PID. A meaningful discount needs to come with evidence of water care, servicing and a seller who can explain the exact unit. The familiar stainless case alone cannot establish those things. Compare the price after allowing for potential service, rather than treating every older Slim as a cheaper equivalent of the current machine.",
 };
 
 const puristika: UpgradeReviewProfile = {
@@ -723,7 +737,7 @@ const puristika: UpgradeReviewProfile = {
   verdict: 'Choose Puristika when straight espresso is the entire job and you value a tiny premium body, PID, shot timing, adjustable pressure, and an external glass reservoir. Skip it when milk or hot water matters, the separate tank is awkward, or a less expensive compact PID machine would serve just as well.',
   assessment: 'A beautifully resolved specialist machine whose missing steam system is either perfect discipline or an immediate deal-breaker.',
   image: 'https://www.ecm.de/wp-content/uploads/2024/12/ECM_Puristika_frontal-768x504-1.jpg', imageAlt: 'ECM Puristika compact espresso-only machine with external glass water tank',
-  published: '2026-07-27', updated: '2026-09-18',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Observed US specialist price', msrp: '$1,549.00', typical: 'Color accents, stock, freight, tax and warranty vary', currency: 'USD', numeric: '1549.00', checked: 'September 18, 2026' },
   links: [
     { label: 'Check ECM specifications', href: 'https://www.ecm.de/en/products/puristika/', note: 'Official current product page', primary: true },
@@ -813,6 +827,8 @@ const puristika: UpgradeReviewProfile = {
   finalTitle: 'Puristika succeeds by refusing jobs its buyer does not need',
   finalVerdict: ['Puristika is unusually honest. The compact chassis contains the tools a straight-espresso drinker uses: PID, shot timing, visible and adjustable pressure, a lever group, and a practical fast-heat mode. The external tank makes the visual identity as important as the specification.', 'It is also expensive and uncompromisingly narrow in purpose. If milk or hot water appears even weekly, price the second appliance and extra routine. If every morning is about one carefully prepared espresso, few pump machines express that priority as clearly.'],
   video: { id: 'MZJvIWWPLiU', title: 'Review: ECM Puristika Espresso Machine', creator: 'Whole Latte Love', published: '2022-03-17', note: 'A specialist-retailer review showing the compact body, external glass tank, PID, pressure control, brewing, and espresso-only workflow. It is not Coffeedant testing.' },
+
+  overview: "Puristika deliberately leaves milk and hot-water service out of the machine. That frees its compact body to concentrate on a PID-controlled 0.75 L brew boiler, E61-style group, shot timing and adjustable pressure, with water supplied from an external glass reservoir. For a straight-espresso drinker, the omission can make the station feel purposeful rather than incomplete. The separate tank still needs a convenient place on the counter, and anyone serving guests who expect cappuccino must plan another milk appliance. Its premium price is best judged against the appeal of that particular espresso-only arrangement, not against a longer feature list.",
 };
 
 const synchronikaII: UpgradeReviewProfile = {
@@ -824,7 +840,7 @@ const synchronikaII: UpgradeReviewProfile = {
   verdict: 'Choose Synchronika II when you want dual-boiler temperature control, a quiet rotary pump, tank or direct water, powerful steam, E61 lever handling, and unusually fast group readiness. Skip it when compact size, volumetric automation, an included flow paddle, or a lower complete-station budget is more important.',
   assessment: 'A major update that preserves ECM’s tactile flagship character while directly addressing traditional E61 warmup.',
   image: 'https://www.ecm.de/wp-content/uploads/2025/04/ECM_Synchronika_II-frontal-768x504-1.jpg', imageAlt: 'ECM Synchronika II dual-boiler espresso machine viewed from the front',
-  published: '2026-07-27', updated: '2026-09-18',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Clive Coffee listed price', msrp: '$3,599.00', typical: 'Flow-control packages, finish, freight, tax, installation and warranty vary', currency: 'USD', numeric: '3599.00', checked: 'September 18, 2026' },
   links: [
     { label: 'Check ECM specifications', href: 'https://www.ecm.de/en/products/synchronika-ii/', note: 'Official current Synchronika II page', primary: true },
@@ -914,18 +930,20 @@ const synchronikaII: UpgradeReviewProfile = {
   finalTitle: 'Synchronika II turns E61 tradition into a practical weekday flagship',
   finalVerdict: ['Synchronika II keeps the reasons enthusiasts wanted the original machine: separate stainless boilers, rotary pumping, water-line flexibility, powerful steam, tactile valves, and a beautifully executed manual group. Core Heat removes the largest daily objection by bringing the group up far faster.', 'The result is still large, expensive, and fully manual. Confirm flow-control contents, budget for a matching grinder and water plan, and measure the counter honestly. When those requirements fit, Synchronika II is one of the most complete traditional home espresso machines available.'],
   video: { id: 'bWIJKG9nzQY', title: 'ECM Synchronika II Espresso Machine Review', creator: 'Whole Latte Love', published: '2024-09-20', note: 'A specialist-retailer exact-generation review showing Core Heat startup, OLED controls, espresso, preinfusion, steam, and water options. It is visual context rather than Coffeedant testing.' },
+
+  overview: "Synchronika II addresses a familiar objection to traditional E61 dual boilers: waiting for the group as well as the boilers to become ready. ECM's electrically assisted group heating is the notable change from the original Synchronika, alongside independently controlled brew and steam boilers, rotary pumping and tank or mains-water use. The manufacturer describes a much shorter readiness period; this review does not turn that claim into a Coffeedant measurement. The machine still demands space and a substantial complete-station budget. Its strongest audience wants classic lever handling and powerful milk service, with the newer heating arrangement making that routine easier to schedule.",
 };
 
 const technikaV: UpgradeReviewProfile = {
   key: 'technika-v', slug: '/espresso-machine/ecm-technika-v-profi-pid/', productId: 'CD-EM-000159',
   brand: 'ECM', model: 'Technika V Profi PID', sku: 'TECHNIKA-V-PROFI-PID', category: 'Legacy rotary-pump heat-exchanger espresso machine', brandPath: '/brands/',
-  title: 'ECM Technika V Profi PID review: rotary-pump HX flexibility, now legacy',
+  title: "ECM Technika V Profi PID review: how to assess the V before the dual-boiler VI",
   description: 'A research-led ECM Technika V Profi PID review covering its 2.1 L heat exchanger, E61 group, rotary pump, tank or plumbed water, PID, steam, price, used inspection and Technika VI successor.',
   verdictLabel: 'For a verified premium HX with plumbing flexibility',
   verdict: 'Choose Technika V Profi PID when a verified remaining-stock or used unit gives you quiet rotary pumping, reservoir or mains water, strong simultaneous steam, and classic E61 controls at a clear discount. Skip it when you expect the dual-boiler architecture of the current Technika VI or want direct brew-boiler temperature control.',
   assessment: 'A refined traditional heat exchanger with excellent installation flexibility, now best judged as an exact-unit purchase rather than a current default.',
   image: 'https://www.coffeemachinewarehouse.co.za/wp-content/uploads/2022/02/Technika-V-Profi-PID-Hauptbild.png', imageAlt: 'ECM Technika V Profi PID polished heat-exchanger espresso machine viewed from the front',
-  published: '2026-07-27', updated: '2026-09-18',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Whole Latte Love listed sale price', msrp: '$3,225.00', typical: 'Legacy stock, flow-control package, freight, tax, voltage and warranty vary', currency: 'USD', numeric: '3225.00', checked: 'September 18, 2026' },
   links: [
     { label: 'Check exact legacy listing', href: 'https://www.wholelattelove.com/products/ecm-technika-v-profi-pid', note: 'Exact product, price and availability context', primary: true },
@@ -1015,6 +1033,8 @@ const technikaV: UpgradeReviewProfile = {
   finalTitle: 'Technika V needs a discount and an identity check to beat current choices',
   finalVerdict: ['Technika V Profi PID remains a refined example of the traditional premium heat exchanger. The E61 group, large service boiler, rotary pump, tank-or-mains flexibility, dual gauges, PID, and timer make an efficient and satisfying manual milk station.', 'The market has moved. The current Technika VI is a dual boiler, and Synchronika II or Lelit Bianca can overlap the V’s remaining-stock price. Choose V only when the exact unit, service path, and discount are convincing. Its classic strengths are real, but they no longer excuse ambiguous generation or near-current pricing.'],
   video: { id: 'f0nDqkGzbDM', title: 'Review: ECM Technika V Profi PID Espresso Machine', creator: 'Whole Latte Love', published: '2020-09-15', note: 'A specialist-retailer exact-model review showing the E61 group, PID, rotary pump, water modes, espresso, and steam. It is commercial visual context rather than Coffeedant testing.' },
+
+  overview: "The Technika V Profi PID combines rotary pumping and mains-water flexibility with a heat exchanger, making it a different proposition from the newer dual-boiler Technika VI. A well-supported used or remaining-stock V can interest someone who wants traditional E61 handling and simultaneous steam, particularly when the price reflects its lifecycle. Its boiler PID does not provide the VI's independent brew-boiler control. Before comparing discounts, establish which Technika is actually offered, how it has been maintained and whether the intended water installation is supported. The old model can have a clear role without borrowing the successor's specification.",
 };
 
 export const upgradeFourthTenReviews: MachineReviewData[] = [

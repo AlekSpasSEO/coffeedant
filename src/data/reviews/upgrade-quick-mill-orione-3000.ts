@@ -25,7 +25,7 @@ const profile: UpgradeReviewProfile = {
   sku: '03000 European 230 V current thermoblock configuration',
   category: 'Single-thermoblock semi-automatic espresso machine',
   brandPath: '/quick-mill/',
-  title: 'Quick Mill Orione 3000 review: current price, temperature limits and milk workflow',
+  title: "Quick Mill Orione 3000 review: learning the thermoblock heating-and-flush routine",
   description: 'Research-led Quick Mill Orione 3000 review covering the current 03000 EU identity, thermoblock workflow, temperature control, steam limits, price and owner evidence.',
   verdictLabel: 'A compact, durable manual machine for patient espresso drinkers, not temperature control or frequent milk service',
   verdict: 'Orione 03000 combines a stainless body, 58 mm portafilter, side-access 1.8 L tank, pressure gauge and compact thermoblock in an unusually simple manual machine. It heats water quickly, but the stock machine has no PID and independent testing found that repeatable brewing depends on a learned heating-and-flush routine. The steam wand can make occasional milk drinks, yet a single thermoblock serves brewing and steaming sequentially. Crema displayed €759 including VAT with zero stock and unconfirmed availability on September 24, 2026. Buy it for compact simplicity and straight espresso, not for adjustable temperature, automated dosing or fast milk-drink batches.',
@@ -33,7 +33,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Quick Mill official three-quarter view of the current Orione compact stainless thermoblock espresso machine',
   published: '2026-07-28',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: { label: 'Current EU reference price', msrp: '€759', typical: 'Crema displayed €759 including VAT, zero stock and unconfirmed availability on September 24, 2026. Its outlet card showed €739 but did not establish ordinary new-stock availability. Regional voltage, plug, tax, delivery, warranty and stock must be checked before purchase.', currency: 'EUR', numeric: '759', checked: 'September 24, 2026' },
   links: [
     { label: 'Check Crema price and availability', href: crema, note: '€759 VAT-inclusive reference, zero stock, unconfirmed availability, EAN and EU specification checked September 24, 2026', primary: true },
@@ -127,6 +127,8 @@ const profile: UpgradeReviewProfile = {
     'Buy only after confirming exact 03000 identity, 230 V compatibility, stock, warranty and service. Choose Victoria for temperature control, Classic for a boiler and mod ecosystem, Pippa for a same-brand boiler step, or Dedica for lower-cost compact convenience.',
   ],
   video: { id: 'eizVTdq3E8k', title: 'Quick Mill Orione 3000 - Hat sie 2 Jahre WG-Leben überlebt?', creator: 'Kaffeemacher', published: '2023-03-18', note: 'Unique independent long-term follow-up after extended flat-share use, covering the exact Orione 3000 concept, temperature routine, steam and service context. It is not Coffeedant testing, a current-price source or a reliability-rate study.' },
+
+  overview: "Orione uses a compact thermoblock to keep a conventional 58 mm manual station relatively simple. Side tank access, lever switches and pressure feedback may appeal where a boiler-based prosumer machine would be too much equipment. The stock thermostat system supplies no PID setpoint, however, and the independent evidence makes heating and flushing technique part of repeatable espresso. Milk also uses the same thermoblock in a separate stage. This is a machine for someone willing to learn that specific thermal routine, with occasional steaming rather than a queue of cappuccinos. Confirm the current European configuration and actual stock before comparing its apparent purchase cost.",
 };
 
 profile.sectionOverrides = {

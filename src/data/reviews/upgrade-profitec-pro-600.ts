@@ -34,7 +34,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Whole Latte Love product image of the Profitec Pro 600 Quick Steam Plus with E61 group and spring-loaded joystick valves',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: { label: 'Discontinued US reference price checked', msrp: 'Historical specialist listing at $2,399', typical: 'Clive displayed $2,399 on September 24, 2026 while explicitly saying the Pro 600 was discontinued and no longer carried. Whole Latte Love also marked its Quick Steam Plus page as an old product listing. Used, open-box and remaining-stock prices depend on condition, revision, warranty and seller, so no current normal street price is claimed.', currency: 'USD', numeric: '2399', checked: 'September 24, 2026' },
   links: [
     { label: 'Read the discontinued Clive listing', href: clive, note: 'Historical $2,399 reference, Quick Steam identity and RIDE successor checked September 24, 2026', primary: true },
@@ -129,6 +129,8 @@ const profile: UpgradeReviewProfile = {
     'Buy a verified unit when condition, service history, price and seller protection make sense. Start with RIDE for a current Profitec, Bianca for built-in profiling and plumbing, Silvia Pro X for compact current support, or Synchronika for a larger rotary-pump E61 system.',
   ],
   video: { id: 'me2wfB9bY3A', title: 'Profitec Pro 600 test and measurement review', creator: 'Kaffeemacher', published: '2022-11-29', note: 'Unique independently purchased exact-model test video published with Kaffeemacher’s November 29, 2022 article. It covers an earlier Pro 600 and cannot establish the later Quick Steam Plus Fast Heat Up behavior or every machine’s reliability.' },
+
+  overview: "The final Quick Steam Pro 600 brings two independently controlled boilers to an E61 station with a vibration pump and reservoir. Its joystick steam valves, front PID and shot timing can be attractive to an owner who wants traditional preparation with quicker access to manual milk. The model is discontinued, however, and historical list prices do not establish current new stock. A viable purchase needs the exact revision, Fast Heat Up behavior, water and service history, complete parts and seller protection checked on the individual machine. Compare that evidence with the current RIDE successor before valuing the older dual-boiler hardware.",
 };
 
 profile.sectionOverrides = {

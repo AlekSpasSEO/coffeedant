@@ -26,7 +26,7 @@ const profile: UpgradeReviewProfile = {
   sku: '0980P-A North American 110 V pressurestat configuration',
   category: 'Reservoir-fed E61 heat-exchanger espresso machine',
   brandPath: '/quick-mill/',
-  title: 'Quick Mill Andreja Premium Evo review: current price, HX workflow and version boundaries',
+  title: "Quick Mill Andreja Premium Evo review: the appeal of a pressurestat-driven espresso station",
   description: 'Research-led Quick Mill Andreja Premium Evo review covering North American 0980P-A identity, E61 heat-exchanger workflow, current price, owner evidence, service and alternatives.',
   verdictLabel: 'A current traditional heat exchanger for milk-heavy routines, with no PID shortcut',
   verdict: 'Andreja Premium Evo 0980P-A is a manual E61 heat exchanger built around a 1.8 L boiler, Sirai pressurestat, 3 L reservoir and 52 W vibration pump. It can brew and steam together, but the North American machine does not document a PID, shot timer, rotary pump or factory plumbing. Chris Coffee and 1st in Coffee each listed it in stock at $1,995 on September 24, 2026. Choose it for traditional HX rhythm, strong seller support and service access, not for digital temperature control or compact-machine speed.',
@@ -34,7 +34,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Espresso Outlet three-quarter product view of the current Quick Mill Andreja Premium Evo 0980P-A E61 heat-exchanger machine',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: { label: 'Current US price', msrp: '$1,995', typical: 'Chris Coffee and 1st in Coffee each displayed $1,995 and in-stock status on September 24, 2026. Seller warranty and fulfillment terms differ. Used value depends on generation, voltage, water history, scale, pressurestat and heating condition, pump health, E61 service, accessories and modifications.', currency: 'USD', numeric: '1995', checked: 'September 24, 2026' },
   links: [
     { label: 'Check Chris Coffee price and stock', href: chrisCoffee, note: '$1,995 in-stock listing, SKU 0980P-A, North American specification, two-year seller warranty and importer support checked September 24, 2026', primary: true },
@@ -129,6 +129,8 @@ const profile: UpgradeReviewProfile = {
     'Buy it when simultaneous steam and service familiarity matter more than digital control. Compare Pro 400 and Mara X for newer HX management, Appartamento TCA for another current classic HX, and QM67 when dual-boiler separation is worth the step up.',
   ],
   video: { id: 'voHnJjJzgIY', title: 'iDrinkCoffee.com Review - Quick Mill Andreja Premium Redesigned Espresso Machine', creator: 'iDrinkCoffeeCanada', published: '2018-10-18', note: 'Unique independent specialist video for the redesigned 2018 Andreja Premium, showing feature, espresso and latte workflow context. It is not Coffeedant testing, a current-price source or a reliability sample.' },
+
+  overview: "Andreja Premium Evo keeps the heat-exchanger routine deliberately mechanical. A Sirai pressurestat, analog gauges, E61 group and vibration pump provide the documented North American configuration, with a reservoir rather than a factory mains-water option. It can brew and steam together, making it relevant to a milk-drink household comfortable managing a traditional HX. Buyers expecting PID temperature settings or an automatic timer should compare another machine before paying for the stainless case. Its strongest purchase argument is the combination of that familiar preparation rhythm and credible specialist support, with the exact 0980P-A specification and package confirmed by the seller.",
 };
 
 profile.sectionOverrides = {

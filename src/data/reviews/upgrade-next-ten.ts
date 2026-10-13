@@ -103,6 +103,9 @@ const strega: UpgradeReviewProfile = {
   finalTitle: 'Buy the Strega because you want the spring, not despite it',
   finalVerdict: ['The Strega earns its place through a genuine spring profile, substantial steam boiler, traditional construction, and a workflow that feels unlike an ordinary pump machine. Those strengths are real only for a buyer willing to learn and safely repeat the lever routine.', 'I would not choose it for a low-clearance counter, an impatient multi-user household, or a region without suitable service. With safe space, an appropriate grinder, reliable support, and genuine enthusiasm for spring extraction, it is a distinctive 4.2-out-of-5 ownership proposition.'],
   video: { id: 'MXlzUW_bfII', title: 'Bezzera Strega: Lever Espresso with a Pump Twist', creator: 'Whole Latte Love', published: '2014-10-14', note: 'A retailer-produced independent walkthrough that clearly shows the lever, group-fill concept, controls, and steam workflow. It is visual context, not Coffeedant testing, and current variant details should be checked against Bezzera documentation.' },
+
+  overview: "Strega asks you to make the lever part of the drink. The spring drives the extraction after the group is filled, so its appeal lies in the pressure progression and physical sequence rather than buttons or saved recipes. A service boiler supplies steam for milk drinks, giving this lever machine a more complete kitchen role than an espresso-only hand press. The practical questions are overhead clearance, comfort around the hot group, warm-up planning and access to specialist service. Choose it because you want to learn that particular routine; its imposing appearance does not make the process easier.",
+  updated: '2026-10-13',
 };
 
 const unica: UpgradeReviewProfile = {
@@ -198,6 +201,9 @@ const unica: UpgradeReviewProfile = {
   finalTitle: 'Choose Unica when espresso deserves most of the schedule',
   finalVerdict: ['The Unica PID gives an espresso-first owner a narrow stainless body, a traditional thermosyphon group, a large reservoir, and a meaningful temperature control range. It asks for warmup and deliberate shot work, which is part of its appeal rather than a hidden defect.', 'Its half-liter single boiler is the decisive limitation. One or two occasional milk drinks are reasonable; a repeated latte queue is a reason to buy a dual boiler or heat exchanger. With that boundary understood and local support confirmed, the Unica earns a focused 3.9 out of 5.'],
   video: { id: 'cvwFHWPRMH4', title: 'Review: Bezzera Unica Espresso Machine', creator: 'Whole Latte Love', published: '2020-08-31', note: 'A retailer-produced independent review that shows the controller, group, steaming, and physical routine. It supports orientation, not Coffeedant performance claims, and current official specifications take precedence.' },
+
+  overview: "The Unica PID makes most sense when espresso is the regular order and cappuccino is an occasional addition. Its half-liter boiler and visible temperature selection give a compact, traditional group a focused job, but that same boiler must change temperature before it can steam milk. The distinction matters more than the presence of a steam wand on the specification sheet: one drink can be an enjoyable sequence, while several milk drinks expose the waiting between steps. For a buyer drawn to the E61-style lever and narrow footprint, the decision is whether that pace fits the household.",
+  updated: '2026-10-13',
 };
 
 const bosch300: UpgradeReviewProfile = {
@@ -293,6 +299,9 @@ const bosch300: UpgradeReviewProfile = {
   finalTitle: 'Choose the Bosch 300 when simple is the feature',
   finalVerdict: ['The 300 Series makes a coherent entry into Bosch bean-to-cup ownership. Direct controls, removable brewing, and Milk Express reduce decisions without adding an app or a complicated milk carafe.', 'The modest menu and adjustment range are equally deliberate. Buyers who want two lattes, profiles, or many recipes should move up before purchase rather than outgrow it quickly. At the checked $899 position, it earns 3.6 out of 5 for a one-cup convenience buyer who accepts appliance-style service and regular cleaning.'],
   video: { id: 'a9ct1qP8XgA', title: 'Review Bosch TIU20307 300 Series Fully Automatic Espresso Machine with Milk Express', creator: 'SharpEye Reviews', published: '2025-04-27', note: 'An independent product walkthrough showing the interface and in-cup Milk Express routine. It is useful visual context, not controlled Coffeedant performance evidence.' },
+
+  overview: "Bosch's 300 Series reduces the coffee decision to a small set of front-panel buttons. Its integrated grinder and removable brew unit suit someone moving from pods to beans without taking on a portafilter, while Milk Express froths milk directly in the cup. That is a different proposition from a machine with an elaborate recipe screen or an external milk container. The modest menu is an advantage when the household wants familiar coffee with little navigation. Buyers who expect more personalization or a richer milk-drink library should compare what the 500 actually adds before paying for the 800.",
+  updated: '2026-10-13',
 };
 
 const bosch500: UpgradeReviewProfile = {
@@ -388,6 +397,9 @@ const bosch500: UpgradeReviewProfile = {
   finalTitle: 'The Bosch 500 is the range’s practical center',
   finalVerdict: ['The 500 Series adds the changes that affect a shared morning: more drinks, more adjustment, a flexible milk source, two-cup usefulness, front access, and removable brewing. It avoids paying for app and profile features that many households will ignore.', 'Its espresso ceiling and milk-hose care remain those of a consumer superautomatic. Buyers comfortable with that tradeoff get a coherent middle tier. At the checked $1,099 position, it earns 4.0 out of 5 and is the Bosch model I would compare first for mixed coffee and milk use.'],
   video: { id: 'pYUTIrF42e0', title: 'Bosch 500 Series VeroCafe TPU40109 Review: Two Lattes, Nine Drinks, Zero Morning Drama', creator: 'Best Buys Reviewed', published: '2026-07-14', note: 'An independent walkthrough published close to this update, useful for controls, two-cup layout, and milk workflow. It is not Coffeedant testing or long-term evidence.' },
+
+  overview: "The Bosch 500 Series is the useful middle option for a kitchen where black coffee and milk drinks both appear, but phone control and a large touchscreen would go mostly unused. Nine drinks, five strengths and three coffee-temperature settings offer more choice than the 300, and the external milk hose changes how drinks are assembled. Front access and a removable brew unit also belong in the buying decision because refilling and cleaning happen far more often than changing settings. Its value depends on needing those daily conveniences while accepting the limits of an automatic brewing system.",
+  updated: '2026-10-13',
 };
 
 const bosch800: UpgradeReviewProfile = {
@@ -483,6 +495,9 @@ const bosch800: UpgradeReviewProfile = {
   finalTitle: 'Pay for the Bosch 800 only when the household will use the breadth',
   finalVerdict: ['The Bosch 800 Series TPU60309 is a polished shared-kitchen machine. Its screen, ten profiles, 35-drink library, flexible milk system, removable brew unit, and connected layer solve real preference and access problems for several users.', 'The same breadth can become expensive decoration for a narrow routine. The 500 Series preserves the core bean-to-cup and milk proposition for much less. For a connected, multi-user home that will maintain it properly, the 800 earns 4.2 out of 5. For two repeated drinks, spend less.'],
   video: { id: 'I0VAqWpHiEs', title: 'Let’s Talk About the Bosch VeroCafe 800 Series', creator: 'The Wolf of Williamsburg', published: '2024-12-24', note: 'An independent owner-style perspective on the VeroCafe 800 interface, drinks, and daily experience. It is not a controlled test, and the exact TPU60309 specification is anchored to Bosch US documentation.' },
+
+  overview: "Ten profiles are the strongest reason to look at this Bosch, rather than the headline count of 35 beverages. In a household with several coffee preferences, saved settings and a five-inch touchscreen can reduce repeated adjustments; Home Connect adds another way to reach the same machine. The milk system extends that convenience to mixed drink orders. A single person making the same two coffees has a weaker reason to pay for this much interface and customization. Compare the 800 with the 500 around the people who will use it, including the cleaning the drink menu leaves behind.",
+  updated: '2026-10-13',
 };
 
 const touchImpress: UpgradeReviewProfile = {
@@ -578,6 +593,9 @@ const touchImpress: UpgradeReviewProfile = {
   finalTitle: 'Touch Impress succeeds when guidance is shared',
   finalVerdict: ['The Barista Touch Impress makes the portafilter process unusually approachable. Dose feedback, assisted tamping, touchscreen sequencing, rapid heat, and Auto MilQ address real beginner and multi-user friction without hiding the coffee inside a brew unit.', 'The price and integration are the tradeoffs. A skilled single user can build a more modular 58 mm station, while a convenience-only buyer may prefer true bean-to-cup. For a household that wants guided participation, BES881 earns 4.2 out of 5.'],
   video: { id: 'PmtRTSKQRY4', title: 'Breville Barista Touch Impress Review: Superautomatic Killer', creator: 'Tom’s Coffee Corner', published: '2023-09-12', note: 'An independent hands-on video comparing the guided portafilter routine with superautomatic convenience. It is reviewer evidence, not Coffeedant testing, and official documentation controls model facts.' },
+
+  overview: "The Touch Impress helps at the points where a beginner can lose consistency: selecting a drink, setting the dose, tamping and preparing milk. It still asks the owner to handle a 54 mm portafilter, move between stages and clean the working parts. That combination suits a shared kitchen where people want guidance without giving the whole process to a sealed brew unit. The integrated grinder makes the station easier to assemble, yet also ties future grinder upgrades to the machine purchase. Its strongest case is reducing preparation decisions for several users, rather than eliminating manual work altogether.",
+  updated: '2026-10-13',
 };
 
 const dynamicDuo: UpgradeReviewProfile = {
@@ -673,6 +691,9 @@ const dynamicDuo: UpgradeReviewProfile = {
   finalTitle: 'Let the BES920 decide the purchase and the grinder decide the price',
   finalVerdict: ['The Dynamic Duo is built around a genuinely excellent machine. The BES920’s independent boilers, temperature control, preinfusion, 58 mm workflow, front filling, and steam overlap remain persuasive for espresso and milk households.', 'The BCG820 is a competent starting grinder, not an automatic reason to choose the bundle. Compare its effective price against a separate specialist grinder. When the discount is real, BEP920 earns 4.3 out of 5. When it is not, buy the Dual Boiler alone and choose the grinder deliberately.'],
   video: { id: 'rMabm0KhcVk', title: 'Breville Dynamic Duo | Crew Review', creator: 'Seattle Coffee Gear', published: '2020-11-21', note: 'A retailer-produced independent walkthrough showing both bundle components and the working sequence. It supports visual orientation, not Coffeedant measurement or long-term reliability claims.' },
+
+  overview: "The Dynamic Duo is two purchases packaged as one, and the two parts deserve separate judgments. The BES920 supplies the more ambitious side: a 58 mm brewing system, independent boilers, PID control and programmable preinfusion, with steam available alongside brewing. The Smart Grinder Pro makes the bundle convenient to start with, but may be the component an espresso-focused owner wants to replace first. A competitive bundle offer can still make sense because the grinder remains independently replaceable. Compare the package cost with the same machine paired to a grinder that matches the coffees you intend to use.",
+  updated: '2026-10-13',
 };
 
 const luxeBrewer: UpgradeReviewProfile = {
@@ -768,6 +789,9 @@ const luxeBrewer: UpgradeReviewProfile = {
   finalTitle: 'Luxe Brewer earns its premium through filling and flexibility',
   finalVerdict: ['The Luxe Brewer Thermal combines a strong batch-coffee toolkit with one especially practical improvement: a removable 60-ounce tank. Gold mode, two basket shapes, custom bloom, temperature and flow, cold brew, auto start, and a thermal carafe cover unusually varied routines.', 'The buyer should be honest about that variety. One fixed morning batch does not require this much control. For a household that will use the removable tank and several modes, BDC465 earns 4.3 out of 5. For set-and-forget simplicity, spend less and buy better coffee and a grinder.'],
   video: { id: 'elK_P8BGMTg', title: 'Sage/Breville Luxe Brewer Review - Precision Brewer 2.0?', creator: 'Coffee Kev', published: '2025-08-10', note: 'An independent review showing setup, baskets, controls, carafe, and brewing workflow. It provides visual context, not Coffeedant measurements, and regional package differences remain relevant.' },
+
+  overview: "The Luxe Brewer Thermal is for a household that wants to change how it brews, rather than replace drip coffee with espresso. Its cone and flat-bottom baskets, custom bloom, temperature and flow settings give different coffees room to behave differently; Gold mode supplies a simpler starting point. The removable tank addresses the less glamorous problem of filling a brewer beneath kitchen cabinets, while the thermal carafe suits coffee served over a morning. Those advantages justify the extra controls only when they will be used. Someone repeating one familiar pot may get better value from a simpler brewer.",
+  updated: '2026-10-13',
 };
 
 const oracle: UpgradeReviewProfile = {
@@ -863,6 +887,9 @@ const oracle: UpgradeReviewProfile = {
   finalTitle: 'The original Oracle needs a price and support advantage in 2026',
   finalVerdict: ['BES980 remains a capable coffee architecture. Automated 58 mm preparation, PID dual boilers, simultaneous automatic milk, and visible portafilter ownership solve genuine shared-household problems.', 'Its current position is harder. The older interface, dense integration, lifecycle questions, and $2,199.95 checked price demand a compelling stock, warranty, or dual-boiler reason over Oracle Jet and Oracle Touch. With that advantage it earns 4.1 out of 5; without it, buy the newer or more modular option.'],
   video: { id: 'lIckD5PEa0A', title: 'Breville Oracle Espresso Machine Review', creator: 'Lifestyle Lab', published: '2020-07-03', note: 'An independent hands-on walkthrough of the original Oracle’s 58 mm preparation, controls, espresso, and automatic milk. It is reviewer evidence, not Coffeedant testing, and present-day price and support were checked separately.' },
+
+  overview: "The original Oracle combines automatic grinding, dosing and tamping with a 58 mm portafilter and separate brew and steam boilers. That makes it interesting for a household that wants preparation assistance while keeping simultaneous espresso and milk service. Its older controls and slower cold-start routine need to be weighed against those advantages, rather than dismissed simply because a newer Oracle has a touchscreen. The purchase also depends on exact stock, warranty and support for the BES980 offered. An attractive listing should be compared with the Jet's newer interface and heating approach before committing to the older platform.",
+  updated: '2026-10-13',
 };
 
 const oracleJet: UpgradeReviewProfile = {
@@ -958,6 +985,9 @@ const oracleJet: UpgradeReviewProfile = {
   finalTitle: 'Oracle Jet is the current Oracle sweet spot for guidance',
   finalVerdict: ['Oracle Jet joins the parts of premium assistance that matter: repeatable 58 mm preparation, actionable extraction guidance, rapid startup, a clear screen, and highly approachable milk. It preserves a visible portafilter without demanding that every user master dosing and steaming first.', 'The buyer gives up traditional dual-boiler overlap and accepts a dense integrated service proposition. That trade is rational for fast guided mornings and less rational for a skilled modular enthusiast. At the $1,999.95 base price, BES985 earns 4.4 out of 5 and is the Oracle I would compare first for most households.'],
   video: { id: '9Ej-d_w19b8', title: 'NEW Breville Oracle Jet Review!', creator: 'Lifestyle Lab', published: '2024-09-13', note: 'An independent hands-on video showing Oracle Jet preparation, Barista Guidance, touchscreen, extraction, and Auto MilQ. It is reviewer evidence, not Coffeedant testing; current pricing and model facts were checked with Breville.' },
+
+  overview: "Oracle Jet brings automated grind, dose and tamp to a quicker-starting ThermoJet platform, with touchscreen guidance aimed at the extraction decisions that still remain. Auto MilQ extends that assistance to dairy and supported alternative milks, making the machine particularly relevant to a kitchen with varied drink preferences. The owner still moves and cleans the portafilter; this is a guided espresso station rather than an unattended bean-to-cup system. Its heating sequence also differs from the separate boilers in earlier Oracles. The central choice is faster, more guided preparation versus the integrated grinder and service commitments of a single appliance.",
+  updated: '2026-10-13',
 };
 
 export const upgradeNextTenReviews: MachineReviewData[] = [

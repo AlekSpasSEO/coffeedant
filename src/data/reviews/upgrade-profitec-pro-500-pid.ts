@@ -33,7 +33,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Whole Latte Love product image of the current stainless Profitec Pro 500 PID with front display and modular portafilter',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: { label: 'Current US base configuration checked', msrp: 'Whole Latte Love exclusive at $1,999', typical: 'Whole Latte Love displayed the stainless Pro 500 PID with no accents and no flow control at $1,999 on September 24, 2026. It was a preorder expected to ship by October 9, 2026 and included three-year parts-and-labor coverage. Wood accents and retailer-installed flow control increase the configured price. Clive also displayed $1,999 but sold out and described an older hidden-PID revision.', currency: 'USD', numeric: '1999', checked: 'September 24, 2026' },
   links: [
     { label: 'Check the current US exclusive configuration', href: wholeLatteLove, note: '$1,999 base configuration and preorder state checked September 24, 2026; verify display, flow control, finish, accessories and ship date', primary: true },
@@ -127,6 +127,8 @@ const profile: UpgradeReviewProfile = {
     'Buy it when the exact $1,999 front-display configuration is confirmed and milk cadence matters more than independent brew-boiler control. Choose Pro 400 for a smaller lower-cost HX, Mara X for a different HX control strategy, Ascaso for faster digital workflow, or GO when espresso-first value outweighs simultaneous steam.',
   ],
   video: { id: 'Vt78NFZrfRM', title: 'Profitec Pro 500 PID Espresso Machine Review: Professional Espresso at Home | Anthony’s Espresso', creator: 'Anthony’s Espresso Equipment', published: '2024-03-16', note: 'Unique exact-model commercial-dealer video showing the front-display Pro 500 PID, controls and daily workflow. Commercial context is disclosed, and one sample cannot establish measured performance or reliability for every machine.' },
+
+  overview: "The current US Pro 500 PID adds a visible front display and automatic shot timing to the traditional E61 heat-exchanger routine. Those details separate the reviewed retailer-exclusive revision from older Pro 500 material, while the 2 L boiler keeps simultaneous manual steam central to its role. The PID regulates the steam boiler and influences brewing indirectly; it does not create an independent brew-temperature circuit. Confirm the display layout, voltage, optional flow control and actual availability of the offered unit. Its strongest audience wants the familiar HX station with useful timing feedback, rather than the separate thermal controls of a dual boiler.",
 };
 
 profile.sectionOverrides = {

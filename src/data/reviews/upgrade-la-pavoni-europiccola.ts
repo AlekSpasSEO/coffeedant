@@ -21,7 +21,7 @@ const profile: UpgradeReviewProfile = {
   verdict: 'Consider the current EU Europiccola Lusso LPLELQ01EU if a manual piston lever, small footprint and tactile control matter more than speed or repeatability aids. Its 0.8 L brass single boiler, pressurestat, sight glass and three-hole steam wand make a complete espresso-and-milk station, but there is no brew gauge, temperature display, PID, pump or refillable reservoir. La Pavoni listed it at €727 on September 24, 2026. A suitable grinder, accurate scale, compatible tamper and scale-safe water remain separate costs.',
   assessment: 'This is a research-led assessment, not a Coffeedant bench test. Exact identity and specifications come from La Pavoni documents for LPLELQ01EU. TechRadar reports six months of exact-model home use; James Hoffmann and specialist sources explain the platform. Coffeedant did not independently measure temperature, lever pressure, shot yield, steam speed, sound or durability.',
   image: hero, imageAlt: 'La Pavoni official three-quarter image of the chrome Europiccola Lusso with direct lever, sight glass and steam wand',
-  published: '2026-07-27', updated: '2026-09-24',
+  published: '2026-07-27', updated: '2026-10-13',
   price: { label: 'Official EU price', msrp: '€727', typical: 'La Pavoni listed the exact EU LPLELQ01EU at €727 on September 24, 2026. TechRadar recorded €699 in September 2025, and North American EPC-8 listings refer to different voltage, plug, distribution and warranty terms.', currency: 'EUR', numeric: '727', checked: 'September 24, 2026' },
   links: [
     { label: 'Check the exact La Pavoni EU specification', href: official, note: 'Exact LPLELQ01EU identity, live price, materials, dimensions and included accessories', primary: true },
@@ -110,6 +110,8 @@ const profile: UpgradeReviewProfile = {
     'Buy it for learning, physical feedback and compact metal design. Do not expect beginner-friendly repeatability, group service or casual use. Verify LPLELQ01EU, plan the grinder and water, respect the pressurised boiler, and compare its €727 price with modern levers and compact pump machines.',
   ],
   video: { id: 'lKimj0vRM5A', title: 'The La Pavoni Europiccola', creator: 'James Hoffmann', published: '2020-08-18', note: 'Independent historical and practical review. Its machine context helps explain the platform, but the August 2026 LPLELQ01EU sheet governs exact current specifications.' },
+
+  overview: "Europiccola Lusso puts the piston lever and a direct-fill boiler at the center of a complete small espresso-and-milk station. The operator supplies extraction force, watches the sight glass and manages the heat of the group, without a pump, brew gauge or temperature display to take over those decisions. That tactile arrangement can be the attraction for an espresso enthusiast, and the reason to choose another machine for a busy household. Its 0.8 L boiler is not a removable reservoir that can be casually topped up during service. Plan the grinder, appropriate accessories and careful heating routine alongside the compact frame.",
 };
 
 profile.sectionOverrides = {

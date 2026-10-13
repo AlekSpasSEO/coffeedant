@@ -31,7 +31,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Miele official front view of the black CM 7750 CoffeeSelect preparing two layered milk drinks beside its glass milk container',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: {
     label: 'Current checked exact-model price',
     msrp: '$4,499 US reference price',
@@ -151,6 +151,8 @@ const profile: UpgradeReviewProfile = {
     published: '2022-04-08',
     note: 'Exact-model retailer video demonstrating controls, bean selection, drink preparation and cleaning access. It is commercial workflow evidence, not Coffeedant testing or long-term independent reliability evidence.',
   },
+
+  overview: "CoffeeSelect is the CM 7750's reason to exist: three bean containers feed one selectable grinder, giving a household easier access to different coffees without three separate grinding systems. Ten profiles, paired milk drinks, CupSensor and unattended descaling build a more elaborate routine around that choice. Those uncommon functions need to solve a real problem to justify the flagship price and larger station. The brewer remains removable, and milk care still belongs to the owner despite the descaling automation. This exact US model is most persuasive when bean switching and saved preferences are regular habits, not when its containers will all hold the same coffee.",
 };
 
 profile.sectionOverrides = {

@@ -31,7 +31,7 @@ const profile: UpgradeReviewProfile = {
   image,
   imageAlt: 'Miele official front view of the Lotus white CM 6360 MilkPerfection with two milk drinks and glass milk container',
   published: '2026-07-27',
-  updated: '2026-09-24',
+  updated: '2026-10-13',
   price: {
     label: 'Current checked exact-model price',
     msrp: '$2,999 US reference price',
@@ -153,6 +153,8 @@ const profile: UpgradeReviewProfile = {
     published: '2022-03-28',
     note: 'Exact-model retailer demonstration of controls, drink preparation and milk workflow. It is commercial context, not Coffeedant testing or long-term independent reliability evidence.',
   },
+
+  overview: "CM 6360 gives a shared kitchen eight profiles and paired drinks while preserving access to a removable brewer. Its programmable coffee, water, milk and froth settings make the premium most relevant to several people with distinct preferences, rather than someone wanting only a basic one-touch cappuccino. The 251 mm width is convenient, but tank, waste and milk-container access still need to work in the actual location. A single bean hopper and bypass chute also distinguish it from Miele's three-container CoffeeSelect system. Judge the reviewed US CM 6360 around the personalization and milk routine it will support every day.",
 };
 
 profile.sectionOverrides = {
