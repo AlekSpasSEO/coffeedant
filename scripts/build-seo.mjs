@@ -158,6 +158,10 @@ export const enhancePage = (html, route, options = {}) => {
 
 export const sitemapXml = pages => `<?xml version="1.0" encoding="UTF-8"?>\n<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${pages.map(p => `  <url><loc>${escape(p.url)}</loc><lastmod>${escape(p.lastmod)}</lastmod>${p.images.map(i => `<image:image><image:loc>${escape(i.src)}</image:loc></image:image>`).join('')}</url>`).join('\n')}\n</urlset>\n`;
 
+// Sitemap membership follows editorial sections, not Article schema: product
+// reviews and buying guides are pages even when their schema includes Article.
+export const isPostSitemapPage = page => /^\/(?:blog|journal)\/[^/]+\/$/.test(page.sourcePath ?? new URL(page.url).pathname);
+
 export const buildSeo = async (directory = path.join(root, 'dist'), options = {}) => {
   const siteOrigin = options.origin ?? origin;
   const redirectText = await readFile(path.join(directory, '_redirects'), 'utf8').catch(() => '');
@@ -169,10 +173,11 @@ export const buildSeo = async (directory = path.join(root, 'dist'), options = {}
     const route = routeFromFile(file, directory); const html = await readFile(file, 'utf8');
     if (redirects.has(route) || /http-equiv=["']refresh["']/i.test(html)) continue;
     const result = enhancePage(html, route, { ...options, lastmod: dates.get(route) });
+    result.sourcePath = options.sourceRoutes?.[route] ?? route;
     await writeFile(file, result.html);
     if (route !== '/404/' && !/noindex/i.test(attr(walk(parse(result.html)).find(n => n.tagName === 'meta' && attr(n, 'name') === 'robots'), 'content') ?? '')) pages.push(result);
   }
-  const posts = pages.filter(p => p.post); const regular = pages.filter(p => !p.post);
+  const posts = pages.filter(isPostSitemapPage); const regular = pages.filter(p => !isPostSitemapPage(p));
   await writeFile(path.join(directory, 'post-sitemap.xml'), sitemapXml(posts));
   await writeFile(path.join(directory, 'page-sitemap.xml'), sitemapXml(regular));
   // Preserve the historical full sitemap endpoint for existing submissions.
@@ -181,10 +186,10 @@ export const buildSeo = async (directory = path.join(root, 'dist'), options = {}
   await writeFile(path.join(directory, 'sitemap_index.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${['post', 'page'].map(kind => `<sitemap><loc>${siteOrigin}/${kind}-sitemap.xml</loc><lastmod>${lastmod}</lastmod></sitemap>`).join('')}</sitemapindex>\n`);
   await writeFile(path.join(directory, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${siteOrigin}/sitemap_index.xml\nSitemap: ${siteOrigin}/sitemap.xml\nSitemap: ${siteOrigin}/post-sitemap.xml\nSitemap: ${siteOrigin}/page-sitemap.xml\n`);
   const lines = ['# Coffeedant', '', '> Research-led coffee equipment reviews, buying guides and brewing education.', '', 'Coffeedant is an editorial publisher. Product identity, regional versions, sourcing, publication dates and methodology are documented on individual pages. Research-led assessments are not claims of physical testing. Prices and availability are dated and should be verified with the seller. Images and videos belong to their credited creators; illustrations are labelled.', '', '## Site information'];
-  const sections = [ ['Site information', pages.filter(p => /\/(?:about|testing|contact|privacy-policy|tos)\/$/.test(new URL(p.url).pathname))], ['Libraries and tools', regular.filter(p => !/\/(?:about|testing|contact|privacy-policy|tos)\/$/.test(new URL(p.url).pathname))], ['Reviews and articles', posts] ];
+  const sections = [ ['Site information', pages.filter(p => /\/(?:about|testing|contact|privacy-policy|tos)\/$/.test(new URL(p.url).pathname))], ['Libraries and tools', pages.filter(p => !p.post && !/\/(?:about|testing|contact|privacy-policy|tos)\/$/.test(new URL(p.url).pathname))], ['Reviews and articles', pages.filter(p => p.post)] ];
   lines.pop();
   for (const [name, entries] of sections) { lines.push(`## ${name}`, ''); for (const p of entries) lines.push(`- [${p.title.replace(/[\[\]]/g, '')}](${p.url}): ${p.description}`); lines.push(''); }
-  lines.push('## Crawl resources', '', `- [Sitemap index](${siteOrigin}/sitemap_index.xml): Canonical pages and articles.`, `- [Post sitemap](${siteOrigin}/post-sitemap.xml): Reviews and editorial articles.`, `- [Page sitemap](${siteOrigin}/page-sitemap.xml): Libraries, categories and supporting pages.`, '');
+  lines.push('## Crawl resources', '', `- [Sitemap index](${siteOrigin}/sitemap_index.xml): Canonical pages and articles.`, `- [Post sitemap](${siteOrigin}/post-sitemap.xml): Blog and Journal articles.`, `- [Page sitemap](${siteOrigin}/page-sitemap.xml): Product reviews, buying guides, libraries, categories and supporting pages.`, '');
   await writeFile(path.join(directory, 'llms.txt'), lines.join('\n'));
   await writeFile(path.join(directory, 'llm.txt'), '# Coffeedant\n\nThe canonical LLM-readable site directory is at ' + siteOrigin + '/llms.txt\n');
   const report = { pages: pages.length, posts: posts.length, regular: regular.length, imageEntries: pages.reduce((n, p) => n + p.images.length, 0), videoObjects: pages.reduce((n, p) => n + p.videos.length, 0) };

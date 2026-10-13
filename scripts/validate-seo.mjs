@@ -2,7 +2,7 @@ import { readFile, access } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parse, parseFragment } from 'parse5';
-import { files, routeFromFile, walk, attr, text, graph, faqQuestions, visible } from './build-seo.mjs';
+import { files, routeFromFile, walk, attr, text, graph, faqQuestions, visible, isPostSitemapPage } from './build-seo.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const directory = path.join(root, 'dist');
@@ -105,6 +105,8 @@ const sitemapUrls = async name => {
   return urls;
 };
 const all = await sitemapUrls('sitemap.xml'); const posts = await sitemapUrls('post-sitemap.xml'); const pages = await sitemapUrls('page-sitemap.xml');
+for (const url of posts) if (!isPostSitemapPage({ url })) fail('post-sitemap.xml', `Only Blog and Journal articles belong here: ${url}`);
+for (const url of pages) if (isPostSitemapPage({ url })) fail('page-sitemap.xml', `Blog and Journal article belongs in the post sitemap: ${url}`);
 if (posts.some(url => pages.includes(url))) fail('sitemaps', 'post/page overlap');
 if (canonical.size !== all.length || [...canonical.keys()].some(url => !all.includes(url))) fail('sitemaps', 'indexable page coverage is incomplete');
 if (all.length !== posts.length + pages.length || [...posts, ...pages].some(url => !all.includes(url))) fail('sitemaps', 'split sitemaps do not cover the full sitemap');
