@@ -31,6 +31,20 @@ test('review summaries and article section/keyword arrays are localized structur
   assert.deepEqual(jsonSlots(value).map(({ source }) => source), ['A compact machine.', 'Buying guides', 'Espresso', 'Coffee equipment']);
 });
 
+test('structured author roles, editorial genres, product categories and attribution prose translate without changing schema identifiers', () => {
+  const value = { '@type': 'Article', genre: 'Research-led coffee review', author: { '@type': 'Person', jobTitle: 'Editor, Coffeedant' }, about: { '@type': 'Product', category: 'Whole-bean coffee', identifier: 'CD-BN-000001' }, image: { '@type': 'ImageObject', creditText: 'Image supplied by the roaster.', copyrightNotice: 'Rights remain with the creator.', license: 'https://example.test/license' }, datePublished: '2026-10-13', inLanguage: 'en-US' };
+  const extracted = jsonSlots(value);
+  assert.deepEqual(extracted.map(({ source }) => source), ['Research-led coffee review', 'Editor, Coffeedant', 'Whole-bean coffee', 'Image supplied by the roaster.', 'Rights remain with the creator.']);
+  extracted[0].set('Op bronnen gebaseerde koffiereview');
+  extracted[1].set('Redacteur, Coffeedant');
+  assert.equal(value.genre,'Op bronnen gebaseerde koffiereview');
+  assert.equal(value.author.jobTitle,'Redacteur, Coffeedant');
+  assert.equal(value.about.identifier,'CD-BN-000001');
+  assert.equal(value.image.license,'https://example.test/license');
+  assert.equal(value.datePublished,'2026-10-13');
+  assert.equal(value.inLanguage,'en-US');
+});
+
 test('review worker is noindex, limits public content to translated pages, and supports HEAD', async () => {
   const page = '<html lang="nl-NL"><h1>Espresso doseren</h1></html>';
   const manifest = { preview: true, scope: 'editorial-review' };
