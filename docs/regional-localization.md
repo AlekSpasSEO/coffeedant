@@ -347,6 +347,11 @@ source links, product IDs, localized structured roles/genres/categories/credits,
 source prices, locale/canonical/robots, dates and matching scoped sitemaps. These
 are generated-output checks, not new browser or physical product-test claims.
 
+The concurrent main-branch GA4 delivery/consent hardening is preserved through a
+normal Git merge. The current-source build, all localization tests, scoped review
+outputs and expanded analytics validation pass again after that sync, including
+cross-tab consent changes, bounded loader retry and duplicate prevention.
+
 All three full editions remain incomplete and unpublished; there is no public
 DNS cutover or partial edition release. Next priority: additional full articles,
 the remaining editorial/category pages and Deals text/runtime, using current
