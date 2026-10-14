@@ -352,12 +352,53 @@ normal Git merge. The current-source build, all localization tests, scoped revie
 outputs and expanded analytics validation pass again after that sync, including
 cross-tab consent changes, bounded loader retry and duplicate prevention.
 
+### Complete freshness and kopi luwak articles (2026-10-14)
+
+Batch nine directly translates the entire `/journal/freshness-clock/` and
+`/journal/kopi-luwak/` readers plus the new Fellow manufacturer page in NL/DE/FR.
+The full source readers contain 1,720 and 1,728 words including their controls,
+captions, diagrams, comparison tables, source notes and FAQs. All chapters and
+six FAQ answers per language are included, not abridged. A frozen 303-slot batch
+covers complete current missing text; fifteen unique verbatim approvals are
+proper names, creator credits, chemical formulae, the Zeitgeist section name and
+exact license labels. Study dates/counts and limits, animal-welfare distinctions,
+absence of Coffeedant experimentation, photographic versus illustrated evidence
+and original reference/media destinations remain intact.
+
+Freshness routes are `/journal/koffieversheid/`, `/journal/kaffeefrische/` and
+`/journal/fraicheur-du-cafe/`; kopi luwak and Fellow retain their brand/topic routes.
+The reviewed Dutch espresso-dosing URL is unchanged. The regional date formatter
+now retains complete translated Published/Updated labels inside time elements
+instead of erasing their meaning. Bare dates still use local formatting, with
+both cases covered by a generated-preview regression test.
+
+Concurrent US publishing added eight canonical pages, a twentieth manufacturer
+and a 146th Finder product. Four new shared Fellow navigation/model labels made
+all previous page coverage incomplete until translated; the gates correctly
+reported that regression. A separate immutable 44-slot source-refresh batch
+updates the navigation, brand count, five new coffee-bean hub cards/attributions,
+and all three fields for the actual US black Fellow Espresso Series 1 record.
+The current catalog has 146 distinct translated descriptions and zero Finder
+gaps. Its source model, manufacturer-qualified claims and historical US price
+are preserved; this does not approve a regional variant or local offer. All
+twenty manufacturer pages and previously finished pages are current again.
+
+The current source has 224 canonical pages / 45,674 unique slots. Ready regular
+content pages are NL 36, DE 35 and FR 35, excluding the 404; pending slots are
+42,008 / 42,119 / 42,119. Forty-seven localization tests and analytics validation
+pass. Scoped noindex builds contain 37/36/36 pages including the 404. Nine actual
+HTML/JSON checks cover the complete readers and Fellow story, all FAQ answers,
+chapter IDs, timeline steps, video labels/URLs, full publication labels, exact
+executable scripts, canonical/locale/robots, 146-product commerce suppression and
+matching scoped sitemaps. These are generated-output and runtime-integration
+checks, not a new browser session or physical product tests.
+
 All three full editions remain incomplete and unpublished; there is no public
 DNS cutover or partial edition release. Next priority: additional full articles,
 the remaining editorial/category pages and Deals text/runtime, using current
-coverage and reusable direct wording. Keep the approved Dutch espresso-dosing
-route stable and preserve the US site. Publish only after the entire current
-edition and all routes pass, then verify the live subdomain.
+coverage and reusable direct wording. Preserve the US site and approved Dutch
+review URL. Publish only after the entire current edition and all routes pass,
+then verify the live subdomain.
 
 ## Missing configuration
 

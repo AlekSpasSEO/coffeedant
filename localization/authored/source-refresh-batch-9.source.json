@@ -1,0 +1,409 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/404/",
+      "sourceHash": "700dec0296e5d3d3222440e7a75894f5b20186d37c653e8046fa400e5c4aa0c3"
+    },
+    {
+      "sourcePath": "/about/",
+      "sourceHash": "40b6a648d6972b976ade160eb20721a69caf8cadf360f8cf8771f45990d6d75b"
+    },
+    {
+      "sourcePath": "/ascaso/",
+      "sourceHash": "d1dee81616ee4ab21f101369432bce9704c06ddb1b9a7552c249aaff77edb1f5"
+    },
+    {
+      "sourcePath": "/bezzera/",
+      "sourceHash": "abbe786393c69c123f5bb4c2fe51bebde45f7faf91e71b5d0a6a092cd741d4a3"
+    },
+    {
+      "sourcePath": "/bosch/",
+      "sourceHash": "2cb20e33c50b79b6046c855df259d574fe61aba82b5b8d8b801fbba13326d5e5"
+    },
+    {
+      "sourcePath": "/brands/",
+      "sourceHash": "ec1ac625c2b331703f3751877c925e352db2e165030a4e49ce603806be6111e7"
+    },
+    {
+      "sourcePath": "/breville/",
+      "sourceHash": "7eeedc02ce599b212e2b632b2f35476b5a1e95985d59275074029c23d2e5a581"
+    },
+    {
+      "sourcePath": "/coffee-beans/",
+      "sourceHash": "8b35f13aa8cc8c81b1aaa66669a3864946ac6e85c5c177d881cbd8fe18b21939"
+    },
+    {
+      "sourcePath": "/coffee-machine/",
+      "sourceHash": "6b03f45c2c6ba04f5d53f628aaad0609f0483623986ccdedc02b1b89dcb2865a"
+    },
+    {
+      "sourcePath": "/contact/",
+      "sourceHash": "08164de4e71efe906fad52f2f211f2353f4db07cff429add26e1c1624e8e5bec"
+    },
+    {
+      "sourcePath": "/de-longhi/",
+      "sourceHash": "28e7d231253af392dc34f8424dca6f67278c89f1b5d46ed63666377be73f360f"
+    },
+    {
+      "sourcePath": "/ecm/",
+      "sourceHash": "84213fed79d2101b178e6f81a818264fca518c09f1d44284204ed9e468a44c31"
+    },
+    {
+      "sourcePath": "/gaggia/",
+      "sourceHash": "f1e73235127d108cee100226b1e005f71b25bdf12233778d3e81d4d9dfa85719"
+    },
+    {
+      "sourcePath": "/grinder/",
+      "sourceHash": "0dd1854e35983dc13f13299e8c640191a7b30eb85fe0af8d34efd1dbadc750f9"
+    },
+    {
+      "sourcePath": "/",
+      "sourceHash": "277ef9479b9ec01040d03750a39386a5ece9d15cff435f80dcc6c93d12a7ae74"
+    },
+    {
+      "sourcePath": "/journal/espresso-dosing/",
+      "sourceHash": "1252dd621e333c9842b3b8d11571e90dfb9b5c2f63d5c6b1ab0a9a221e2bbeaa"
+    },
+    {
+      "sourcePath": "/journal/golden-ratio-espresso/",
+      "sourceHash": "f1bf555c6b20ef8728b625438ac31c3911578db786e8e2f0c8cffa8787b914b7"
+    },
+    {
+      "sourcePath": "/jura/",
+      "sourceHash": "22962aa6063cee42f7714a456bdc8409365b3fd3c1f9f8ca99feccff9c76076b"
+    },
+    {
+      "sourcePath": "/keurig/",
+      "sourceHash": "1e9c3c4c1f1cb95eec31f63d2704f883be827727c5150d9a90cc72c9d2865db3"
+    },
+    {
+      "sourcePath": "/krups/",
+      "sourceHash": "34475950d572e8300476eedd68c4fdaaa037e650b9316f4cdffe089bb83a53f9"
+    },
+    {
+      "sourcePath": "/la-marzocco/",
+      "sourceHash": "ce9f4d4c6a0a0c0f0ea445eb44d788c3fc604f2d23328c033a74e130f52bb6f6"
+    },
+    {
+      "sourcePath": "/la-pavoni/",
+      "sourceHash": "388710fe50b965914d335614e2275e03e98b0885f58ca149af731be2b6e1555e"
+    },
+    {
+      "sourcePath": "/lelit/",
+      "sourceHash": "e3403b64b41aa741bd7f79581ee9206f95f6a7b3ef69936cb9f4bf5c9cc621e0"
+    },
+    {
+      "sourcePath": "/nespresso/",
+      "sourceHash": "0e4dc8006d3e5bbb5c8e7cf4fb2775821cdff9e3744ef48e788f53d1c54412ec"
+    },
+    {
+      "sourcePath": "/ninja/",
+      "sourceHash": "34c0cb55637df94df4dad5e9dba7f8067cbabccee1fc98e5b594eea475c335c1"
+    },
+    {
+      "sourcePath": "/philips/",
+      "sourceHash": "07bb1f18819cd2d203c11a71c45b22c7ed56ecd72b9282ad74fe520934c95d3a"
+    },
+    {
+      "sourcePath": "/privacy-policy/",
+      "sourceHash": "77458e6e188b6b2f3ce6cbd9a62b61a3f30fbbbe3721acb76da466e4deedf783"
+    },
+    {
+      "sourcePath": "/profitec/",
+      "sourceHash": "fcefd31e16ac265911f2c79d61f62ddda79fa4859da419f497960b5e47d6f2e4"
+    },
+    {
+      "sourcePath": "/quick-mill/",
+      "sourceHash": "83f960ce40dd7922a2a393f98305768a1cf03de77db95d9764a84ff3a498b514"
+    },
+    {
+      "sourcePath": "/rancilio/",
+      "sourceHash": "501b0512ec9e85de478d7aeee04a41243e0a37ddab3bb3aba84b3a5fd0947c26"
+    },
+    {
+      "sourcePath": "/rocket-espresso/",
+      "sourceHash": "289c0d99ad49c78b44386374013459f5ef30acc37dfd7932ec84a4fbb748b7be"
+    },
+    {
+      "sourcePath": "/tos/",
+      "sourceHash": "4841ccd7d74e3ea6703bd82a8bde7283f9c359e954c53df078f0a3747dce7813"
+    },
+    {
+      "sourcePath": "/coffee-beans/counter-culture-hologram/",
+      "sourceHash": "517b16adc93e7478d604f0faf7c1bcb92240e1885dc26594cfae15c5b4ac3287"
+    },
+    {
+      "sourcePath": "/coffee-beans/counter-culture-big-trouble/",
+      "sourceHash": "59190aec60acb76e5173a0612f4c0412294433ecd20d17667632295c3f8e3395"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "52dc452ec09373e52f9239c7cbe9f692f6754bf3966f5d45bece46c6bcc439cb",
+      "source": "The US black Espresso Series 1 pairs a 58 mm portafilter with guided recipes, adjustable pressure and temperature, fast manufacturer-stated warm-up, and assisted milk texturing. Fellow listed it at $1,499.95 on October 14, 2026.",
+      "kind": "finder",
+      "context": "Fellow Espresso Series 1: description"
+    },
+    {
+      "id": "dfb078657a57bfa87287a2ebe37fc05a9a889209961b205b31a87ed4bc291468",
+      "source": "A buyer who wants a guided first routine and later control over pressure and temperature",
+      "kind": "finder",
+      "context": "Fellow Espresso Series 1: bestFor"
+    },
+    {
+      "id": "94ed194bd21d4cc1f70c3de4cfd3c92a651b6e2e46132beadcac11ef3d154fea",
+      "source": "Fellow official product image of the black Espresso Series 1 machine",
+      "kind": "finder",
+      "context": "Fellow Espresso Series 1: imageAlt"
+    },
+    {
+      "id": "f33bab8808e37c5cfa7df3013e4fdbb41cfa718af4ac77d2bc16aa94dcb64be2",
+      "source": "Fellow",
+      "kind": "text",
+      "context": "Fellow"
+    },
+    {
+      "id": "334487b4b801daff711e24ca9066b8cc5a146fa5cb31f3b000915fd928721082",
+      "source": "About Fellow",
+      "kind": "text",
+      "context": "About Fellow"
+    },
+    {
+      "id": "1b2324ff6551660e33cb57495d1bf05e8eca993190fbe769a6e2f78fc991ec28",
+      "source": "Guided semi-automatic 58 mm espresso machine with assisted milk texturing and pressure profiling",
+      "kind": "text",
+      "context": "Guided semi-automatic 58 mm espresso machine with assisted milk texturing and pressure profiling"
+    },
+    {
+      "id": "0925d9b4bfdf1fc4590c0905d7fc717c7779567fdfe37ba20e39ac3088bc2de0",
+      "source": "Espresso Series 1",
+      "kind": "text",
+      "context": "Espresso Series 1"
+    },
+    {
+      "id": "e6de40c4453939370c8155a73570cc329564c001b122c8319701568c8cbcce0e",
+      "source": "Espresso Machine Brands: Compare 20 Manufacturers | Coffeedant",
+      "kind": "text",
+      "context": "Espresso Machine Brands: Compare 20 Manufacturers | Coffeedant"
+    },
+    {
+      "id": "29752a691deeb99d3a25c2bda023b5034c0c49eac6e81baf53004e0a3261a5a2",
+      "source": "Espresso Machine Brands: Compare 20 Manufacturers | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    const readChoice = (raw) => {\n      try {\n        const saved = JSON.parse(raw || 'null');\n        if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) return"
+    },
+    {
+      "id": "88c778d6fdf79cb0e2fb2f9a647bb780c1c35f90dac0db7638fcc20d8e701b78",
+      "source": "20 manufacturers · one useful map",
+      "kind": "text",
+      "context": "20 manufacturers · one useful map"
+    },
+    {
+      "id": "57b893e8b0dbd56c8205fa25c65f833a3b5986c2a6d0d8e08548ebc87b1ee29f",
+      "source": "20 brands",
+      "kind": "text",
+      "context": "20 brands"
+    },
+    {
+      "id": "5010db33fdf385db1f35d8e7ab4c5ff8aabd0f3242177016ca0a3157b017c1bb",
+      "source": "Learning espresso with room for custom control",
+      "kind": "text",
+      "context": "Learning espresso with room for custom control"
+    },
+    {
+      "id": "9cea24b3645ceec83a313f28378ec4d70f73a45895d753c97249112aa60de610",
+      "source": "Fellow →",
+      "kind": "text",
+      "context": "Fellow →"
+    },
+    {
+      "id": "7a7ca44f8b753c798cd60b7cdde0ddaee9e73b828abc81331d1b6b1a22175f44",
+      "source": "Guided · pressure profiles",
+      "kind": "text",
+      "context": "Guided · pressure profiles"
+    },
+    {
+      "id": "b032b16c35fc035f088089234c6c91409aaf0e5c778b282084133610ecef5747",
+      "source": "United States · Guided · pressure profiles",
+      "kind": "text",
+      "context": "United States · Guided · pressure profiles"
+    },
+    {
+      "id": "bd910eecc8fd2d33f2cc4a5d13ec6126bacb3b776dede6a4f710beb9e3d2a33b",
+      "source": "Espresso Machine Brands: Compare 20 Manufacturers | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "0a75a45c19bcc015ffe3116316418e41a741617640af9d4c9cc7ee5d0569dea0",
+      "source": "Official Counter Culture Apollo whole-bean coffee bag",
+      "kind": "attribute",
+      "context": "Image: Counter Culture Coffee. Official Counter Culture product image for identification; not a Coffeedant tasting photo."
+    },
+    {
+      "id": "e7f96343e05fd16a9782913827a3496f897a885548b9253319d6189421c11113",
+      "source": "Apollo is a clear choice when you want a citrus-and-floral coffee for black filter or iced brewing and accept that the Ethiopian components change with harvests. Counter Culture calls it medium roast, organic and washed; the flavor words are the roaster's, with one independent sample review. Coffeedant has not tasted it, and buyers seeking a low-acid chocolate espresso should start elsewhere.",
+      "kind": "text",
+      "context": "Apollo is a clear choice when you want a citrus-and-floral coffee for black filter or iced brewing and accept that the Ethiopian components change with harvests. Counter Culture calls it medium roast, organic and washed; the flavor words are the roaster's, with one independent sample review. Coffeedant has not tasted it, and buyers seeking a low-acid chocolate espresso should start elsewhere."
+    },
+    {
+      "id": "eebc20b19374e348bfb32323c63c2b9bb18e53e194b58bdd30ece22b9ec3ad28",
+      "source": "Official Counter Culture Apollo whole-bean coffee bag",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "73c4d4e5f74bcdd8ac6e6f3c7ee6f8b2c70b83c999a30b89df06c1e0c1842a96",
+      "source": "Official Stumptown Hair Bender coffee bag",
+      "kind": "attribute",
+      "context": "Stumptown Coffee Roasters · United StatesHair BenderHair Bender is a useful first bag for a household that makes espresso and drip with one coffee. Stumptown designs it as its café espresso blend yet explicitly recommends pour-over, drip and French press. Its citrus, dark chocolate and raisin words are the roaster's brief, not a Coffeedant tasting result; choose it if that mix sounds better than a strictly low-acid, roast-forward shot.Updated 2026-10-14 · $19 for 12 oz at October 14, 2026"
+    },
+    {
+      "id": "134d3fcd75d6f5485876c46cfbb8a249ea70992c7e2a4b318b6c476e198d7b93",
+      "source": "Hair Bender",
+      "kind": "text",
+      "context": "Hair Bender"
+    },
+    {
+      "id": "6b81cbf01b48b3aafda147786282fd12f39c3dc585dded34f536b869d2cf7410",
+      "source": "Hair Bender is a useful first bag for a household that makes espresso and drip with one coffee. Stumptown designs it as its café espresso blend yet explicitly recommends pour-over, drip and French press. Its citrus, dark chocolate and raisin words are the roaster's brief, not a Coffeedant tasting result; choose it if that mix sounds better than a strictly low-acid, roast-forward shot.",
+      "kind": "text",
+      "context": "Hair Bender is a useful first bag for a household that makes espresso and drip with one coffee. Stumptown designs it as its café espresso blend yet explicitly recommends pour-over, drip and French press. Its citrus, dark chocolate and raisin words are the roaster's brief, not a Coffeedant tasting result; choose it if that mix sounds better than a strictly low-acid, roast-forward shot."
+    },
+    {
+      "id": "024720906e765b3e75c5d689f83d26ab7b75bf264ebcb30e8554b47e956c81b4",
+      "source": "· $19 for 12 oz at October 14, 2026",
+      "kind": "text",
+      "context": "Updated 2026-10-14 · $19 for 12 oz at October 14, 2026"
+    },
+    {
+      "id": "8ee03c1e9c2c0b39afa0250627e94d9e7a20ebf3dd1f4cf892f55122d70ef2b7",
+      "source": "Official Stumptown Holler Mountain whole-bean bag",
+      "kind": "attribute",
+      "context": "Stumptown Coffee Roasters · United StatesHoller MountainHoller Mountain is a sensible one-bag option for a home that alternates drip and espresso and prefers a roaster-described medium roast to a darker café blend. Stumptown calls it organic and describes citrus, caramel and berry jam. Those are the roaster's notes, not flavors Coffeedant verified; the real test is a fresh small bag in both of your normal brewers.Updated 2026-10-14 · $20 for 12 oz at October 14, 2026"
+    },
+    {
+      "id": "0aca8dcaadb115806d58a9ac7b048636b3de38ef0de9d3c822faac295e04df0f",
+      "source": "Holler Mountain",
+      "kind": "text",
+      "context": "Holler Mountain"
+    },
+    {
+      "id": "5c78b45a5001454ba63f5dbbb8522e3ca13c891a5afabac79cfe0cfbb7a8d09e",
+      "source": "Holler Mountain is a sensible one-bag option for a home that alternates drip and espresso and prefers a roaster-described medium roast to a darker café blend. Stumptown calls it organic and describes citrus, caramel and berry jam. Those are the roaster's notes, not flavors Coffeedant verified; the real test is a fresh small bag in both of your normal brewers.",
+      "kind": "text",
+      "context": "Holler Mountain is a sensible one-bag option for a home that alternates drip and espresso and prefers a roaster-described medium roast to a darker café blend. Stumptown calls it organic and describes citrus, caramel and berry jam. Those are the roaster's notes, not flavors Coffeedant verified; the real test is a fresh small bag in both of your normal brewers."
+    },
+    {
+      "id": "4d214a5c5926b863a8d0b4d0cd4044b8c8660eb0e07ff8028747a0842036b5c4",
+      "source": "· $20 for 12 oz at October 14, 2026",
+      "kind": "text",
+      "context": "Updated 2026-10-14 · $20 for 12 oz at October 14, 2026"
+    },
+    {
+      "id": "7c38e15c84ee308396ef8479e5cdaf15e01b995a40715763951c7768fe33d03e",
+      "source": "Intelligentsia Black Cat Classic Espresso 12-ounce coffee bag",
+      "kind": "attribute",
+      "context": "Intelligentsia Coffee · United StatesBlack Cat Classic EspressoBlack Cat Classic is for a home barista who wants a fruit-accented straight espresso and appreciates an explicit starting recipe. Intelligentsia calls it its lightest espresso blend and suggests 18 g in to 45 g out. Its cherry, cola and orange notes are the roaster's words, not a Coffeedant tasting; a buyer seeking a chocolate-heavy latte should compare the darker Black Cat Analog first.Updated 2026-10-14 · $17.50 for 12 oz at October 14, 2026"
+    },
+    {
+      "id": "bfc847d2192464df3ad9c05ab3ee514ea7e39deb819b1a8c42834f70b43cefda",
+      "source": "Intelligentsia Coffee · United States",
+      "kind": "text",
+      "context": "Intelligentsia Coffee · United States"
+    },
+    {
+      "id": "b6d29736395e039ea036c733e00f843993d88383a084fe820d0a861104f802e6",
+      "source": "Black Cat Classic Espresso",
+      "kind": "text",
+      "context": "Black Cat Classic Espresso"
+    },
+    {
+      "id": "723fc2065f723d7c4d95fb9833f96d797ed16ea5fde90477b8e217c490e0c394",
+      "source": "Black Cat Classic is for a home barista who wants a fruit-accented straight espresso and appreciates an explicit starting recipe. Intelligentsia calls it its lightest espresso blend and suggests 18 g in to 45 g out. Its cherry, cola and orange notes are the roaster's words, not a Coffeedant tasting; a buyer seeking a chocolate-heavy latte should compare the darker Black Cat Analog first.",
+      "kind": "text",
+      "context": "Black Cat Classic is for a home barista who wants a fruit-accented straight espresso and appreciates an explicit starting recipe. Intelligentsia calls it its lightest espresso blend and suggests 18 g in to 45 g out. Its cherry, cola and orange notes are the roaster's words, not a Coffeedant tasting; a buyer seeking a chocolate-heavy latte should compare the darker Black Cat Analog first."
+    },
+    {
+      "id": "a65e1649591cab7b6ca0cbbb2c7a154d9017c264cfc2ca49034ed5c317cd6223",
+      "source": "· $17.50 for 12 oz at October 14, 2026",
+      "kind": "text",
+      "context": "Updated 2026-10-14 · $17.50 for 12 oz at October 14, 2026"
+    },
+    {
+      "id": "b853be007cdf3e203f1b3251c3e7e555c409d462c7c0e6641fc0c4eb8aa57782",
+      "source": "Official Onyx Coffee Lab Monarch coffee bag",
+      "kind": "attribute",
+      "context": "Onyx Coffee Lab · United StatesMonarchMonarch's clearest reason to buy is a larger milk drink. Onyx says this is its most developed year-round espresso blend and designs it to keep a chocolate-and-berry presence through milk. That is a roaster claim, not a Coffeedant tasting. The 10 oz bag is smaller than many competing 12 oz bags, so compare price per ounce and finish a trial before choosing bulk.Updated 2026-10-14 · $21.50 for 10 oz at October 14, 2026"
+    },
+    {
+      "id": "e61b646ec65c918e74a827807f1f843d60d26985611540483ff60ba28ad82590",
+      "source": "Onyx Coffee Lab · United States",
+      "kind": "text",
+      "context": "Onyx Coffee Lab · United States"
+    },
+    {
+      "id": "4b34fa2a6066654e2261b039be0e0905ef9c8e4a33f6be23881ef1a6797c4783",
+      "source": "Monarch",
+      "kind": "text",
+      "context": "Monarch"
+    },
+    {
+      "id": "b8dcfacb92bfdb735a60411c13999ed005ee4fe923a38ea69d374da7d3949d5c",
+      "source": "Monarch's clearest reason to buy is a larger milk drink. Onyx says this is its most developed year-round espresso blend and designs it to keep a chocolate-and-berry presence through milk. That is a roaster claim, not a Coffeedant tasting. The 10 oz bag is smaller than many competing 12 oz bags, so compare price per ounce and finish a trial before choosing bulk.",
+      "kind": "text",
+      "context": "Monarch's clearest reason to buy is a larger milk drink. Onyx says this is its most developed year-round espresso blend and designs it to keep a chocolate-and-berry presence through milk. That is a roaster claim, not a Coffeedant tasting. The 10 oz bag is smaller than many competing 12 oz bags, so compare price per ounce and finish a trial before choosing bulk."
+    },
+    {
+      "id": "92bd712a4d582bb9c30d975c5d82acb58ec35f0d862326367cac42cc63cf05ac",
+      "source": "· $21.50 for 10 oz at October 14, 2026",
+      "kind": "text",
+      "context": "Updated 2026-10-14 · $21.50 for 10 oz at October 14, 2026"
+    },
+    {
+      "id": "496a8885d6c7b4c47387c64e905da53fbdc321a4ca6f82c2b441a297a81ea990",
+      "source": "Apollo",
+      "kind": "text",
+      "context": "Apollo"
+    },
+    {
+      "id": "e6d79de59462bcb9a0a826ee94afc4a3851d4570f883adbd26419d17a5df0619",
+      "source": ". Brewing the same bag as espresso and drip?",
+      "kind": "text",
+      "context": "Choosing a darker coffee? Compare our dark-roast buying picks. Brewing the same bag as espresso and drip? Compare dual-method picks. Need a grinder? Compare current grinder reviews."
+    },
+    {
+      "id": "130fc17174c66646e1f93a239211b8adcb15a203ad139f2406c943ca1d9b5f01",
+      "source": "Compare dual-method picks",
+      "kind": "text",
+      "context": "Compare dual-method picks"
+    },
+    {
+      "id": "012212d311459ad8b239ab8eaf726cfc7ba8a1cc710e1c9c48f88352a59baaba",
+      "source": "Official Stumptown Hair Bender coffee bag",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "e8d4a98c7fef16e97a46e18310e06d02a78b1139fa6348583433fc1737828607",
+      "source": "Official Stumptown Holler Mountain whole-bean bag",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "003170674934bb77c24259f3f54b2ac80ac60d19b71c411961d56136c22ba19e",
+      "source": "Intelligentsia Black Cat Classic Espresso 12-ounce coffee bag",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "a028452dfd2ac11fe17402ef62f64a8c505fd431d91a395c97f4cfc088287eb5",
+      "source": "Official Onyx Coffee Lab Monarch coffee bag",
+      "kind": "json",
+      "context": "name"
+    }
+  ],
+  "snapshotHash": "432432e51d2e258ca8f8a039ddd5a1322d45281793ef385c0fb0cc487fddee70"
+}
