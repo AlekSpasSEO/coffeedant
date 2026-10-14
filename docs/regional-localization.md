@@ -311,10 +311,48 @@ The complete 145-product regional catalogs still suppress unknown local prices
 and buying links. These checks are rendered-output checks, not a new claim of
 browser or physical product testing.
 
-Next priority: full articles, the remaining editorial/category pages and Deals
-text/runtime, using current coverage and reusable direct wording. Keep the
-approved Dutch espresso-dosing route stable and preserve the US site. Do not
-publish any edition until its entire current source and all routes pass.
+### Full coffee-bean reviews and structured metadata (2026-10-14)
+
+Batch eight directly translates the complete Counter Culture Hologram and Big
+Trouble reviews into NL/DE/FR. The complete article bodies contain respectively
+1,556 and 1,461 source words, including methodology, evidence limitations,
+source notes, final verdicts and all twelve FAQ answers per language. No section
+is replaced by a summary. The immutable bean snapshot contains 226 missing slots;
+eight explicit verbatim approvals cover named coffees/roaster and numeric pack
+notation only. New stable review routes use `/koffiebonen/`, `/kaffeebohnen/` and
+`/cafe-en-grains/` with the unchanged coffee identifiers.
+
+The translations preserve changing-blend uncertainty, other people's attributed
+tastings, the statements that Coffeedant did not taste or test either coffee,
+and the absence of a sensory rating. Historical US prices, original pack sizes,
+dates, consumption calculations and all cited destinations remain source facts,
+not converted regional offers. Local buying/availability remains unverified.
+
+Rendering exposed previously unindexed structured author roles, genres, product
+categories and attribution prose. `jsonSlots` now includes `jobTitle`, `genre`,
+`category`, `creditText` and `copyrightNotice`, but never translates schema types,
+product identifiers, license URLs or machine-readable dates. A separate immutable
+five-slot metadata snapshot supplies the newly required wording for the complete
+pages, including roaster-photo limitations and the editorial role. The wider
+index also honestly exposes pending metadata on unfinished pages; no old snapshot
+was rewritten and no new field was exempted from completion checks.
+
+The current source has 216 canonical pages and 44,663 indexed unique slots.
+Content-page completeness and renderability are NL 33, DE 32 and FR 32, excluding
+the 404. Pending slots are 41,368 / 41,479 / 41,479 respectively; Finder gaps
+remain zero. Forty-three localization tests and analytics/consent validation pass.
+Actual scoped noindex builds contain 34/33/33 pages including the 404. Six full
+bean-review HTML/JSON checks verify the entire authored article text, all FAQs,
+source links, product IDs, localized structured roles/genres/categories/credits,
+source prices, locale/canonical/robots, dates and matching scoped sitemaps. These
+are generated-output checks, not new browser or physical product-test claims.
+
+All three full editions remain incomplete and unpublished; there is no public
+DNS cutover or partial edition release. Next priority: additional full articles,
+the remaining editorial/category pages and Deals text/runtime, using current
+coverage and reusable direct wording. Keep the approved Dutch espresso-dosing
+route stable and preserve the US site. Publish only after the entire current
+edition and all routes pass, then verify the live subdomain.
 
 ## Missing configuration
 
