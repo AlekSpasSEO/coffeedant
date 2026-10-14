@@ -3,7 +3,7 @@
   "source": "Amazon Creators API",
   "marketplace": "www.amazon.com",
   "selectedAt": "2026-10-13T20:56:24.518Z",
-  "refreshedAt": "2026-10-14T04:50:44.936Z",
+  "refreshedAt": "2026-10-14T11:49:18.840Z",
   "categories": [
     {
       "id": "coffee",
@@ -59,7 +59,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-22T06:59:59Z",
       "merchant": "PARIS RHÔNE Official Store",
-      "checkedAt": "2026-10-14T04:50:38.769Z"
+      "checkedAt": "2026-10-14T11:49:12.779Z"
     },
     {
       "asin": "B0GWRN8ZKL",
@@ -70,18 +70,18 @@
       "imageUrl": "https://m.media-amazon.com/images/I/41O40t6TXmL._SL160_.jpg",
       "imageWidth": 160,
       "imageHeight": 159,
-      "amount": 36.98,
-      "price": "$36.98",
+      "amount": 36.99,
+      "price": "$36.99",
       "currency": "USD",
       "referencePrice": "$99.99",
       "referenceLabel": "Typical price:",
-      "savingsAmount": "$63.01",
+      "savingsAmount": "$63.00",
       "savingsPercent": 63,
       "dealBadge": "Limited time deal",
-      "accessType": "ALL",
-      "endsAt": "2026-10-23T06:59:59Z",
-      "merchant": "yanwenyao",
-      "checkedAt": "2026-10-14T04:50:37.248Z"
+      "accessType": "PRIME_EXCLUSIVE",
+      "endsAt": null,
+      "merchant": "ZhiZhouLiu",
+      "checkedAt": "2026-10-14T11:49:11.308Z"
     },
     {
       "asin": "B0GWDNC11V",
@@ -103,51 +103,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "BAIYIN",
-      "checkedAt": "2026-10-14T04:50:38.769Z"
-    },
-    {
-      "asin": "B0F99242HX",
-      "category": "accessories",
-      "title": "LAOION 53.3mm Coffee Distributor and Tamper, Espresso Machine Accessories",
-      "brand": "LAOION",
-      "detailPageUrl": "https://www.amazon.com/dp/B0F99242HX?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
-      "imageUrl": "https://m.media-amazon.com/images/I/31og+EJgSIL._SL160_.jpg",
-      "imageWidth": 160,
-      "imageHeight": 160,
-      "amount": 12.99,
-      "price": "$12.99",
-      "currency": "USD",
-      "referencePrice": "$25.99",
-      "referenceLabel": "List Price:",
-      "savingsAmount": "$13.00",
-      "savingsPercent": 50,
-      "dealBadge": "Ends in ",
-      "accessType": "ALL",
-      "endsAt": "2026-10-14T05:00:00Z",
-      "merchant": "LAOION",
-      "checkedAt": "2026-10-14T04:50:41.713Z"
-    },
-    {
-      "asin": "B0F994NVN5",
-      "category": "accessories",
-      "title": "53.3mm Espresso Tamper, Coffee Espresso Accessories with Ergonomic Handle",
-      "brand": "LAOION",
-      "detailPageUrl": "https://www.amazon.com/dp/B0F994NVN5?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
-      "imageUrl": "https://m.media-amazon.com/images/I/31Bpnl54EqL._SL160_.jpg",
-      "imageWidth": 160,
-      "imageHeight": 160,
-      "amount": 12.49,
-      "price": "$12.49",
-      "currency": "USD",
-      "referencePrice": "$24.99",
-      "referenceLabel": "List Price:",
-      "savingsAmount": "$12.50",
-      "savingsPercent": 50,
-      "dealBadge": "Ends in ",
-      "accessType": "ALL",
-      "endsAt": "2026-10-14T05:00:00Z",
-      "merchant": "LAOION",
-      "checkedAt": "2026-10-14T04:50:41.713Z"
+      "checkedAt": "2026-10-14T11:49:12.780Z"
     },
     {
       "asin": "B0H7HM5ZPG",
@@ -169,7 +125,7 @@
       "accessType": "PRIME_EXCLUSIVE",
       "endsAt": null,
       "merchant": "PQ ONE",
-      "checkedAt": "2026-10-14T04:50:40.247Z"
+      "checkedAt": "2026-10-14T11:49:14.220Z"
     },
     {
       "asin": "B082314NFL",
@@ -191,7 +147,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Zulay Deals",
-      "checkedAt": "2026-10-14T04:50:37.248Z"
+      "checkedAt": "2026-10-14T11:49:11.308Z"
     },
     {
       "asin": "B0892TW82K",
@@ -213,7 +169,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:27.940Z"
+      "checkedAt": "2026-10-14T11:49:01.992Z"
     },
     {
       "asin": "B0FX3DPKFS",
@@ -235,7 +191,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-28T06:59:59Z",
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:24.952Z"
+      "checkedAt": "2026-10-14T11:48:58.950Z"
     },
     {
       "asin": "B0BM3C13B6",
@@ -257,7 +213,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-19T06:59:59Z",
       "merchant": "DOCTORS BEST PRODUCTS INC",
-      "checkedAt": "2026-10-14T04:50:26.425Z"
+      "checkedAt": "2026-10-14T11:49:00.442Z"
     },
     {
       "asin": "B0793L756T",
@@ -279,7 +235,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "GJG audio USA",
-      "checkedAt": "2026-10-14T04:50:43.435Z"
+      "checkedAt": "2026-10-14T11:49:17.363Z"
     },
     {
       "asin": "B0D8LXRHQ8",
@@ -301,7 +257,7 @@
       "accessType": "ALL",
       "endsAt": "2026-11-04T07:59:59Z",
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:26.425Z"
+      "checkedAt": "2026-10-14T11:49:00.442Z"
     },
     {
       "asin": "B0H1C4WCXX",
@@ -323,7 +279,7 @@
       "accessType": "PRIME_EXCLUSIVE",
       "endsAt": null,
       "merchant": "PQ ONE",
-      "checkedAt": "2026-10-14T04:50:26.425Z"
+      "checkedAt": "2026-10-14T11:49:00.442Z"
     },
     {
       "asin": "B07N3GRVGS",
@@ -345,7 +301,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:29.413Z"
+      "checkedAt": "2026-10-14T11:49:03.414Z"
     },
     {
       "asin": "B0DP1WXVK8",
@@ -367,7 +323,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-24T17:00:00Z",
       "merchant": "ATATIX-HCC",
-      "checkedAt": "2026-10-14T04:50:26.425Z"
+      "checkedAt": "2026-10-14T11:49:00.442Z"
     },
     {
       "asin": "B0GY74JMX3",
@@ -389,7 +345,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "AERCANA-US",
-      "checkedAt": "2026-10-14T04:50:24.952Z"
+      "checkedAt": "2026-10-14T11:48:58.950Z"
     },
     {
       "asin": "B09715G57M",
@@ -411,12 +367,12 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:26.425Z"
+      "checkedAt": "2026-10-14T11:49:00.442Z"
     },
     {
       "asin": "B0CT43D46H",
-      "category": "machines",
-      "title": "Keurig K-Express Single Serve K-Cup Pod Coffee Maker, Warm Stone",
+      "category": "accessories",
+      "title": "Keurig K-Express Single Serve K-Cup Pod Coffee Maker, Warm Stone | 3 Brew Sizes, 42oz Removable Reservoir, Strong Brew Button Feature, Travel Mug Friendly, Works with All K-Cup Pods",
       "brand": "Keurig",
       "detailPageUrl": "https://www.amazon.com/dp/B0CT43D46H?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "imageUrl": "https://m.media-amazon.com/images/I/31WKXkRhOGL._SL160_.jpg",
@@ -433,7 +389,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:27.940Z"
+      "checkedAt": "2026-10-14T11:49:01.992Z"
     },
     {
       "asin": "B0HH8ZXD9X",
@@ -455,7 +411,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "XIXUBX Official",
-      "checkedAt": "2026-10-14T04:50:24.952Z"
+      "checkedAt": "2026-10-14T11:48:58.950Z"
     },
     {
       "asin": "B0HHJ3MK3Y",
@@ -477,7 +433,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-31T06:45:00Z",
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:26.425Z"
+      "checkedAt": "2026-10-14T11:49:00.442Z"
     },
     {
       "asin": "B0BWH5N65J",
@@ -499,7 +455,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Press 18",
-      "checkedAt": "2026-10-14T04:50:34.273Z"
+      "checkedAt": "2026-10-14T11:49:08.310Z"
     },
     {
       "asin": "B0788F3R8X",
@@ -521,7 +477,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:27.940Z"
+      "checkedAt": "2026-10-14T11:49:01.992Z"
     },
     {
       "asin": "B07NQFC1G9",
@@ -543,7 +499,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:23.521Z"
+      "checkedAt": "2026-10-14T11:48:57.513Z"
     },
     {
       "asin": "B0FTRV9F1Q",
@@ -565,7 +521,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "CLYND",
-      "checkedAt": "2026-10-14T04:50:44.931Z"
+      "checkedAt": "2026-10-14T11:49:18.833Z"
     },
     {
       "asin": "B0HJW122D6",
@@ -587,7 +543,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-22T06:59:59Z",
       "merchant": "Horavie Direct",
-      "checkedAt": "2026-10-14T04:50:27.940Z"
+      "checkedAt": "2026-10-14T11:49:01.992Z"
     },
     {
       "asin": "B07CZ36WY5",
@@ -609,7 +565,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "TRENDY-TECH (We Record Serial Numbers)",
-      "checkedAt": "2026-10-14T04:50:38.769Z"
+      "checkedAt": "2026-10-14T11:49:12.780Z"
     },
     {
       "asin": "B09MRWMMLW",
@@ -631,7 +587,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Ounic",
-      "checkedAt": "2026-10-14T04:50:43.435Z"
+      "checkedAt": "2026-10-14T11:49:17.363Z"
     },
     {
       "asin": "B000BJSF6Q",
@@ -653,7 +609,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "A 2 Z STORE",
-      "checkedAt": "2026-10-14T04:50:43.435Z"
+      "checkedAt": "2026-10-14T11:49:17.363Z"
     },
     {
       "asin": "B01FDLA52I",
@@ -675,7 +631,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:21.909Z"
+      "checkedAt": "2026-10-14T11:48:55.863Z"
     },
     {
       "asin": "B08LK8HLT4",
@@ -697,12 +653,12 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Hanlomele",
-      "checkedAt": "2026-10-14T04:50:34.273Z"
+      "checkedAt": "2026-10-14T11:49:08.310Z"
     },
     {
       "asin": "B0936DPF8Y",
       "category": "coffee",
-      "title": "Starbucks Ground Coffee French Roast, 18 oz Bag",
+      "title": "Starbucks Ground Coffee French Roast, 18 oz Bag | 100% Arabica ground coffee; Dark Roast French Roast; 1 bag, 18 oz",
       "brand": "Starbucks",
       "detailPageUrl": "https://www.amazon.com/dp/B0936DPF8Y?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "imageUrl": "https://m.media-amazon.com/images/I/41xobH5D7hL._SL160_.jpg",
@@ -719,7 +675,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:32.697Z"
+      "checkedAt": "2026-10-14T11:49:06.736Z"
     },
     {
       "asin": "B0BV9HKMNT",
@@ -741,7 +697,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-27T06:59:59Z",
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:29.413Z"
+      "checkedAt": "2026-10-14T11:49:03.414Z"
     },
     {
       "asin": "B0D4617CLP",
@@ -763,7 +719,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-28T06:59:59Z",
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:35.826Z"
+      "checkedAt": "2026-10-14T11:49:09.824Z"
     },
     {
       "asin": "B0G1NG6NQL",
@@ -785,7 +741,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:37.247Z"
+      "checkedAt": "2026-10-14T11:49:11.308Z"
     },
     {
       "asin": "B0CXYYWL6G",
@@ -807,7 +763,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:21.909Z"
+      "checkedAt": "2026-10-14T11:48:55.863Z"
     },
     {
       "asin": "B0FLXK9HY1",
@@ -829,7 +785,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Waibo",
-      "checkedAt": "2026-10-14T04:50:30.847Z"
+      "checkedAt": "2026-10-14T11:49:04.886Z"
     },
     {
       "asin": "B07BRQZ9X1",
@@ -851,7 +807,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Ignite Ideas",
-      "checkedAt": "2026-10-14T04:50:35.826Z"
+      "checkedAt": "2026-10-14T11:49:09.824Z"
     },
     {
       "asin": "B0BR7QDXPG",
@@ -873,7 +829,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-24T06:59:59Z",
       "merchant": "aoerkang",
-      "checkedAt": "2026-10-14T04:50:29.413Z"
+      "checkedAt": "2026-10-14T11:49:03.414Z"
     },
     {
       "asin": "B000KEM4TQ",
@@ -895,7 +851,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:30.848Z"
+      "checkedAt": "2026-10-14T11:49:04.886Z"
     },
     {
       "asin": "B0896NP59N",
@@ -917,12 +873,12 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:27.940Z"
+      "checkedAt": "2026-10-14T11:49:01.992Z"
     },
     {
       "asin": "B001U7B1QO",
       "category": "brewers",
-      "title": "Kalita - 2001 Kalita 102 Ceramic Dripper Coffee Dipper, white",
+      "title": "Kalita - 2001 Kalita 102 Ceramic Dripper Coffee Dipper, white | Coffee Dripper",
       "brand": "Kalita",
       "detailPageUrl": "https://www.amazon.com/dp/B001U7B1QO?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "imageUrl": "https://m.media-amazon.com/images/I/31C6WqwWBuL._SL160_.jpg",
@@ -939,7 +895,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "PREMIUM JAPAN",
-      "checkedAt": "2026-10-14T04:50:32.697Z"
+      "checkedAt": "2026-10-14T11:49:06.737Z"
     },
     {
       "asin": "B0C16VSHKZ",
@@ -961,7 +917,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Home DEC",
-      "checkedAt": "2026-10-14T04:50:34.274Z"
+      "checkedAt": "2026-10-14T11:49:08.310Z"
     },
     {
       "asin": "B00AF7WUO2",
@@ -983,7 +939,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:29.412Z"
+      "checkedAt": "2026-10-14T11:49:03.414Z"
     },
     {
       "asin": "B07B48MWZJ",
@@ -1005,7 +961,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:32.697Z"
+      "checkedAt": "2026-10-14T11:49:06.736Z"
     },
     {
       "asin": "B08QD33PZ2",
@@ -1027,7 +983,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:27.940Z"
+      "checkedAt": "2026-10-14T11:49:01.992Z"
     },
     {
       "asin": "B0DPNJVG1Z",
@@ -1049,7 +1005,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:27.940Z"
+      "checkedAt": "2026-10-14T11:49:01.992Z"
     },
     {
       "asin": "B005YR0F40",
@@ -1071,7 +1027,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amber&Stone",
-      "checkedAt": "2026-10-14T04:50:37.248Z"
+      "checkedAt": "2026-10-14T11:49:11.308Z"
     },
     {
       "asin": "B07VJJJ764",
@@ -1093,7 +1049,7 @@
       "accessType": "PRIME_EXCLUSIVE",
       "endsAt": null,
       "merchant": "FourCity Brands",
-      "checkedAt": "2026-10-14T04:50:34.274Z"
+      "checkedAt": "2026-10-14T11:49:08.310Z"
     },
     {
       "asin": "B0C63SQ8GH",
@@ -1115,7 +1071,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:38.769Z"
+      "checkedAt": "2026-10-14T11:49:12.780Z"
     },
     {
       "asin": "B0FXBY6BVL",
@@ -1137,7 +1093,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:24.952Z"
+      "checkedAt": "2026-10-14T11:48:58.950Z"
     },
     {
       "asin": "B07CNG6RM7",
@@ -1159,7 +1115,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:38.769Z"
+      "checkedAt": "2026-10-14T11:49:12.779Z"
     },
     {
       "asin": "B0BTR46TJM",
@@ -1181,12 +1137,12 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:24.953Z"
+      "checkedAt": "2026-10-14T11:48:58.950Z"
     },
     {
       "asin": "B0FDQJFRYS",
       "category": "brewers",
-      "title": "Veken 34oz French Press Coffee Maker, No Plastic Touching Cafe,1 L Cafetera",
+      "title": "Veken 34oz French Press Coffee Maker, No Plastic Touching Cafe,1 L Cafetera | Thickened Glass Stainless Steel Brewer, Cold Brew Pot for Kitchen,Travel,Camping,Tea,Gifts,Bar Accessories, Decor,Dark Pewter",
       "brand": "Veken",
       "detailPageUrl": "https://www.amazon.com/dp/B0FDQJFRYS?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "imageUrl": "https://m.media-amazon.com/images/I/41lRrM7wXhL._SL160_.jpg",
@@ -1203,7 +1159,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-26T06:55:00Z",
       "merchant": "Woot",
-      "checkedAt": "2026-10-14T04:50:30.847Z"
+      "checkedAt": "2026-10-14T11:49:04.886Z"
     },
     {
       "asin": "B01J4O0T4E",
@@ -1225,7 +1181,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Upper Echelon Products",
-      "checkedAt": "2026-10-14T04:50:30.848Z"
+      "checkedAt": "2026-10-14T11:49:04.886Z"
     },
     {
       "asin": "B01N78X92P",
@@ -1247,7 +1203,7 @@
       "accessType": "PRIME_EXCLUSIVE",
       "endsAt": null,
       "merchant": "Utopia Brands",
-      "checkedAt": "2026-10-14T04:50:32.697Z"
+      "checkedAt": "2026-10-14T11:49:06.737Z"
     },
     {
       "asin": "B09KXBBXQH",
@@ -1269,7 +1225,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "A 2 Z STORE",
-      "checkedAt": "2026-10-14T04:50:44.931Z"
+      "checkedAt": "2026-10-14T11:49:18.833Z"
     },
     {
       "asin": "B0CNKZSFZN",
@@ -1291,7 +1247,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:35.826Z"
+      "checkedAt": "2026-10-14T11:49:09.824Z"
     },
     {
       "asin": "B0CNQ4BB67",
@@ -1313,7 +1269,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:29.413Z"
+      "checkedAt": "2026-10-14T11:49:03.414Z"
     },
     {
       "asin": "B0FDQGXSVQ",
@@ -1335,7 +1291,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Aborder Products",
-      "checkedAt": "2026-10-14T04:50:30.848Z"
+      "checkedAt": "2026-10-14T11:49:04.886Z"
     },
     {
       "asin": "B0FDQT8811",
@@ -1357,7 +1313,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-26T06:55:00Z",
       "merchant": "Woot",
-      "checkedAt": "2026-10-14T04:50:32.697Z"
+      "checkedAt": "2026-10-14T11:49:06.736Z"
     },
     {
       "asin": "B0GQC7HGXP",
@@ -1379,7 +1335,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-16T06:59:59Z",
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:37.248Z"
+      "checkedAt": "2026-10-14T11:49:11.308Z"
     },
     {
       "asin": "B001VPXEBU",
@@ -1401,7 +1357,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Press 18",
-      "checkedAt": "2026-10-14T04:50:35.825Z"
+      "checkedAt": "2026-10-14T11:49:09.824Z"
     },
     {
       "asin": "B00494MU9M",
@@ -1423,7 +1379,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "New Energy Fund",
-      "checkedAt": "2026-10-14T04:50:43.435Z"
+      "checkedAt": "2026-10-14T11:49:17.363Z"
     },
     {
       "asin": "B07JBLZCYM",
@@ -1445,7 +1401,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "The Trusted Shop",
-      "checkedAt": "2026-10-14T04:50:41.713Z"
+      "checkedAt": "2026-10-14T11:49:15.664Z"
     },
     {
       "asin": "B08VJP18XN",
@@ -1467,7 +1423,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:38.769Z"
+      "checkedAt": "2026-10-14T11:49:12.779Z"
     },
     {
       "asin": "B0BTXZH33B",
@@ -1489,7 +1445,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "ShardorDirect",
-      "checkedAt": "2026-10-14T04:50:29.413Z"
+      "checkedAt": "2026-10-14T11:49:03.414Z"
     },
     {
       "asin": "B0DHCJDJBW",
@@ -1511,7 +1467,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Tastyle Flagship Store",
-      "checkedAt": "2026-10-14T04:50:27.940Z"
+      "checkedAt": "2026-10-14T11:49:01.992Z"
     },
     {
       "asin": "B0G3PDFXJS",
@@ -1533,7 +1489,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "CIRCLE JOY HK",
-      "checkedAt": "2026-10-14T04:50:38.769Z"
+      "checkedAt": "2026-10-14T11:49:12.780Z"
     },
     {
       "asin": "B0H6PMHTZS",
@@ -1555,7 +1511,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-17T06:59:59Z",
       "merchant": "Zeptx",
-      "checkedAt": "2026-10-14T04:50:30.847Z"
+      "checkedAt": "2026-10-14T11:49:04.886Z"
     },
     {
       "asin": "B0HJ1YNJN7",
@@ -1573,11 +1529,11 @@
       "referenceLabel": "Typical price:",
       "savingsAmount": "$14.00",
       "savingsPercent": 20,
-      "dealBadge": "Limited time deal",
+      "dealBadge": "Ends in ",
       "accessType": "ALL",
       "endsAt": "2026-10-15T06:55:00Z",
       "merchant": "Woot",
-      "checkedAt": "2026-10-14T04:50:38.769Z"
+      "checkedAt": "2026-10-14T11:49:12.779Z"
     },
     {
       "asin": "B00I08JAYG",
@@ -1599,7 +1555,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:23.522Z"
+      "checkedAt": "2026-10-14T11:48:57.513Z"
     },
     {
       "asin": "B0BNN7GGKR",
@@ -1621,7 +1577,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-23T06:59:59Z",
       "merchant": "JunVpic Shop",
-      "checkedAt": "2026-10-14T04:50:34.274Z"
+      "checkedAt": "2026-10-14T11:49:08.310Z"
     },
     {
       "asin": "B0C2JK9Y8V",
@@ -1643,7 +1599,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:27.940Z"
+      "checkedAt": "2026-10-14T11:49:01.992Z"
     },
     {
       "asin": "B0F12TWP55",
@@ -1665,7 +1621,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-22T06:59:59Z",
       "merchant": "XIXUBX",
-      "checkedAt": "2026-10-14T04:50:26.425Z"
+      "checkedAt": "2026-10-14T11:49:00.442Z"
     },
     {
       "asin": "B00JVSVM36",
@@ -1687,7 +1643,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:34.274Z"
+      "checkedAt": "2026-10-14T11:49:08.310Z"
     },
     {
       "asin": "B00MVWGQX0",
@@ -1709,7 +1665,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:26.425Z"
+      "checkedAt": "2026-10-14T11:49:00.442Z"
     },
     {
       "asin": "B0D8C6KL4G",
@@ -1731,7 +1687,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-24T06:59:59Z",
       "merchant": "price saver",
-      "checkedAt": "2026-10-14T04:50:41.713Z"
+      "checkedAt": "2026-10-14T11:49:15.664Z"
     },
     {
       "asin": "B0H1WN6QJS",
@@ -1753,7 +1709,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "DENENTT",
-      "checkedAt": "2026-10-14T04:50:40.247Z"
+      "checkedAt": "2026-10-14T11:49:14.220Z"
     },
     {
       "asin": "B0H41R5GBG",
@@ -1775,7 +1731,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:29.413Z"
+      "checkedAt": "2026-10-14T11:49:03.414Z"
     },
     {
       "asin": "B01G2CCWGY",
@@ -1797,7 +1753,7 @@
       "accessType": "PRIME_EXCLUSIVE",
       "endsAt": null,
       "merchant": "Utopia Brands",
-      "checkedAt": "2026-10-14T04:50:32.697Z"
+      "checkedAt": "2026-10-14T11:49:06.737Z"
     },
     {
       "asin": "B07QG7XHTV",
@@ -1819,7 +1775,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Coffee Shop US",
-      "checkedAt": "2026-10-14T04:50:23.522Z"
+      "checkedAt": "2026-10-14T11:48:57.513Z"
     },
     {
       "asin": "B0DXD8VB95",
@@ -1841,7 +1797,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "price saver",
-      "checkedAt": "2026-10-14T04:50:41.713Z"
+      "checkedAt": "2026-10-14T11:49:15.664Z"
     },
     {
       "asin": "B00JE36GLQ",
@@ -1863,12 +1819,12 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:30.848Z"
+      "checkedAt": "2026-10-14T11:49:04.886Z"
     },
     {
       "asin": "B018UQ5AMS",
-      "category": "machines",
-      "title": "Keurig K-Classic Single Serve K-Cup Pod Coffee Maker, Black",
+      "category": "accessories",
+      "title": "Keurig K-Classic Single Serve K-Cup Pod Coffee Maker, Black | 3 Brew Sizes, 48oz Removable Reservoir, Auto-Off Feature, Simple Button Controls, Works with K-Cup Pods",
       "brand": "Keurig",
       "detailPageUrl": "https://www.amazon.com/dp/B018UQ5AMS?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "imageUrl": "https://m.media-amazon.com/images/I/41ZbZptck9L._SL160_.jpg",
@@ -1885,12 +1841,12 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:29.413Z"
+      "checkedAt": "2026-10-14T11:49:03.414Z"
     },
     {
       "asin": "B07Z9PPYSH",
       "category": "pods",
-      "title": "Roast Ridge K-Cup Coffee Pods, Medium Roast Flavored Variety Pack 100 Count",
+      "title": "Roast Ridge K-Cup Coffee Pods, Medium Roast Flavored Variety Pack 100 Count | Variety Pack Includes 20 Ea Salted Caramel, Southern Pecan, Chocolate Mocha, Hazelnut, French Vanilla",
       "brand": "Roast Ridge",
       "detailPageUrl": "https://www.amazon.com/dp/B07Z9PPYSH?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "imageUrl": "https://m.media-amazon.com/images/I/41mlzbW8zoL._SL160_.jpg",
@@ -1907,7 +1863,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:23.522Z"
+      "checkedAt": "2026-10-14T11:48:57.513Z"
     },
     {
       "asin": "B086S7R4DH",
@@ -1929,7 +1885,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "FeiWei",
-      "checkedAt": "2026-10-14T04:50:35.826Z"
+      "checkedAt": "2026-10-14T11:49:09.824Z"
     },
     {
       "asin": "B09D2DPXK4",
@@ -1940,18 +1896,18 @@
       "imageUrl": "https://m.media-amazon.com/images/I/212r4pFbM9L._SL160_.jpg",
       "imageWidth": 160,
       "imageHeight": 160,
-      "amount": 15.25,
-      "price": "$15.25",
+      "amount": 15.26,
+      "price": "$15.26",
       "currency": "USD",
       "referencePrice": "$17.95",
       "referenceLabel": "List Price:",
-      "savingsAmount": "$2.70",
+      "savingsAmount": "$2.69",
       "savingsPercent": 15,
       "dealBadge": "Price drop",
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:30.847Z"
+      "checkedAt": "2026-10-14T11:49:04.885Z"
     },
     {
       "asin": "B09X3WGJ3R",
@@ -1973,7 +1929,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-26T06:59:59Z",
       "merchant": "CASABREWS",
-      "checkedAt": "2026-10-14T04:50:23.522Z"
+      "checkedAt": "2026-10-14T11:48:57.513Z"
     },
     {
       "asin": "B0C3N7B91Q",
@@ -1995,7 +1951,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:24.952Z"
+      "checkedAt": "2026-10-14T11:48:58.950Z"
     },
     {
       "asin": "B0CBK9QHLY",
@@ -2017,7 +1973,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-26T06:59:59Z",
       "merchant": "Maestri House",
-      "checkedAt": "2026-10-14T04:50:40.247Z"
+      "checkedAt": "2026-10-14T11:49:14.220Z"
     },
     {
       "asin": "B0F4X6ZRGX",
@@ -2039,7 +1995,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-23T06:59:59Z",
       "merchant": "Cocinare Coffee",
-      "checkedAt": "2026-10-14T04:50:37.248Z"
+      "checkedAt": "2026-10-14T11:49:11.308Z"
     },
     {
       "asin": "B00UQZ0E8C",
@@ -2061,7 +2017,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Lafraise",
-      "checkedAt": "2026-10-14T04:50:32.697Z"
+      "checkedAt": "2026-10-14T11:49:06.737Z"
     },
     {
       "asin": "B01N6T5QNO",
@@ -2083,7 +2039,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:29.413Z"
+      "checkedAt": "2026-10-14T11:49:03.414Z"
     },
     {
       "asin": "B0C32RTFLT",
@@ -2105,7 +2061,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Ronghewan-US",
-      "checkedAt": "2026-10-14T04:50:37.248Z"
+      "checkedAt": "2026-10-14T11:49:11.308Z"
     },
     {
       "asin": "B0F3HH834M",
@@ -2127,7 +2083,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Gevi Official",
-      "checkedAt": "2026-10-14T04:50:26.424Z"
+      "checkedAt": "2026-10-14T11:49:00.441Z"
     },
     {
       "asin": "B0CW67K6SS",
@@ -2149,7 +2105,7 @@
       "accessType": "PRIME_EXCLUSIVE",
       "endsAt": null,
       "merchant": "Maestri House",
-      "checkedAt": "2026-10-14T04:50:40.247Z"
+      "checkedAt": "2026-10-14T11:49:14.220Z"
     },
     {
       "asin": "B0FMR3Q8WT",
@@ -2171,7 +2127,7 @@
       "accessType": "PRIME_EXCLUSIVE",
       "endsAt": null,
       "merchant": "JIEYUANHZ",
-      "checkedAt": "2026-10-14T04:50:40.247Z"
+      "checkedAt": "2026-10-14T11:49:14.220Z"
     },
     {
       "asin": "B0FV7QW7TJ",
@@ -2193,7 +2149,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "FitSupply",
-      "checkedAt": "2026-10-14T04:50:43.435Z"
+      "checkedAt": "2026-10-14T11:49:17.363Z"
     },
     {
       "asin": "B00AFYQJI8",
@@ -2215,7 +2171,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:23.521Z"
+      "checkedAt": "2026-10-14T11:48:57.513Z"
     },
     {
       "asin": "B0118FH5EY",
@@ -2237,7 +2193,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:30.847Z"
+      "checkedAt": "2026-10-14T11:49:04.886Z"
     },
     {
       "asin": "B0FCF9TR6K",
@@ -2259,7 +2215,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "price saver",
-      "checkedAt": "2026-10-14T04:50:41.713Z"
+      "checkedAt": "2026-10-14T11:49:15.664Z"
     },
     {
       "asin": "B0000E5JIU",
@@ -2281,7 +2237,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Lancaster South",
-      "checkedAt": "2026-10-14T04:50:32.697Z"
+      "checkedAt": "2026-10-14T11:49:06.736Z"
     },
     {
       "asin": "B0001XRNEM",
@@ -2303,7 +2259,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:41.713Z"
+      "checkedAt": "2026-10-14T11:49:15.664Z"
     },
     {
       "asin": "B0002E2GQU",
@@ -2325,7 +2281,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:21.908Z"
+      "checkedAt": "2026-10-14T11:48:55.862Z"
     },
     {
       "asin": "B004L8RTEM",
@@ -2347,7 +2303,29 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Specialty Beverage Brands",
-      "checkedAt": "2026-10-14T04:50:43.435Z"
+      "checkedAt": "2026-10-14T11:49:17.363Z"
+    },
+    {
+      "asin": "B007CM2IAY",
+      "category": "coffee",
+      "title": "Mount Hagen Organic Freeze-Dried Instant Coffee, 3.53oz Jar (Pack of 2) | USDA Organic Medium Roast Arabica Coffee, Smooth Low Acid Flavor, Fair Trade, Dissolves in Hot or Cold Water",
+      "brand": "Mount Hagen",
+      "detailPageUrl": "https://www.amazon.com/dp/B007CM2IAY?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
+      "imageUrl": "https://m.media-amazon.com/images/I/51KbRSMWn1L._SL160_.jpg",
+      "imageWidth": 160,
+      "imageHeight": 160,
+      "amount": 23.98,
+      "price": "$23.98",
+      "currency": "USD",
+      "referencePrice": "$26.99",
+      "referenceLabel": "Typical price:",
+      "savingsAmount": "$3.01",
+      "savingsPercent": 11,
+      "dealBadge": "Price drop",
+      "accessType": "ALL",
+      "endsAt": null,
+      "merchant": "DEAL26",
+      "checkedAt": "2026-10-14T11:48:55.863Z"
     },
     {
       "asin": "B07C1YFV6D",
@@ -2369,7 +2347,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:21.909Z"
+      "checkedAt": "2026-10-14T11:48:55.863Z"
     },
     {
       "asin": "B07RJJ2SGG",
@@ -2391,7 +2369,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Lafraise",
-      "checkedAt": "2026-10-14T04:50:32.697Z"
+      "checkedAt": "2026-10-14T11:49:06.736Z"
     },
     {
       "asin": "B086ZFHF58",
@@ -2413,29 +2391,29 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:21.909Z"
+      "checkedAt": "2026-10-14T11:48:55.863Z"
     },
     {
-      "asin": "B08NWJVZVX",
-      "category": "brewers",
-      "title": "Primula Burke Deluxe Cold Brew Iced Coffee Maker, Comfort Grip Handle, Durable Glass Carafe, Removable Mesh Filter, Perfect 6 Cup Size, Dishwasher Safe, 1.6 qt, Aqua",
-      "brand": "Primula",
-      "detailPageUrl": "https://www.amazon.com/dp/B08NWJVZVX?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
-      "imageUrl": "https://m.media-amazon.com/images/I/31BWp3ZCogL._SL160_.jpg",
+      "asin": "B087K8DC6X",
+      "category": "coffee",
+      "title": "Peet's Coffee Whole Bean Coffee, Dark Roast, Major Dickason's, 18 Ounces",
+      "brand": "Peet's Coffee",
+      "detailPageUrl": "https://www.amazon.com/dp/B087K8DC6X?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
+      "imageUrl": "https://m.media-amazon.com/images/I/41z41DkfiGL._SL160_.jpg",
       "imageWidth": 160,
       "imageHeight": 160,
-      "amount": 16.31,
-      "price": "$16.31",
+      "amount": 14.99,
+      "price": "$14.99",
       "currency": "USD",
-      "referencePrice": "$18.41",
+      "referencePrice": "$16.86",
       "referenceLabel": "Typical price:",
-      "savingsAmount": "$2.10",
+      "savingsAmount": "$1.87",
       "savingsPercent": 11,
       "dealBadge": "Price drop",
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:35.826Z"
+      "checkedAt": "2026-10-14T11:48:55.863Z"
     },
     {
       "asin": "B0C2PZ8VSP",
@@ -2457,7 +2435,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "machiness",
-      "checkedAt": "2026-10-14T04:50:41.713Z"
+      "checkedAt": "2026-10-14T11:49:15.664Z"
     },
     {
       "asin": "B0CJ7S41HJ",
@@ -2479,7 +2457,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "YULIN Electric LLC",
-      "checkedAt": "2026-10-14T04:50:40.247Z"
+      "checkedAt": "2026-10-14T11:49:14.220Z"
     },
     {
       "asin": "B0DT9QXCC3",
@@ -2501,7 +2479,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "KETAR",
-      "checkedAt": "2026-10-14T04:50:34.274Z"
+      "checkedAt": "2026-10-14T11:49:08.310Z"
     },
     {
       "asin": "B0FBSP99LX",
@@ -2523,29 +2501,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:24.953Z"
-    },
-    {
-      "asin": "B0FLVF97KX",
-      "category": "coffee",
-      "title": "Folgers Classic Roast Instant Coffee, Single Serve Packets",
-      "brand": "Folgers",
-      "detailPageUrl": "https://www.amazon.com/dp/B0FLVF97KX?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
-      "imageUrl": "https://m.media-amazon.com/images/I/41-5anBRqEL._SL160_.jpg",
-      "imageWidth": 128,
-      "imageHeight": 160,
-      "amount": 9.76,
-      "price": "$9.76",
-      "currency": "USD",
-      "referencePrice": "$10.99",
-      "referenceLabel": "Typical price:",
-      "savingsAmount": "$1.23",
-      "savingsPercent": 11,
-      "dealBadge": "Price drop",
-      "accessType": "ALL",
-      "endsAt": null,
-      "merchant": "Funtopia Distributions",
-      "checkedAt": "2026-10-14T04:50:21.909Z"
+      "checkedAt": "2026-10-14T11:48:58.950Z"
     },
     {
       "asin": "B0FRFTBR54",
@@ -2567,7 +2523,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "FitSupply",
-      "checkedAt": "2026-10-14T04:50:44.931Z"
+      "checkedAt": "2026-10-14T11:49:18.833Z"
     },
     {
       "asin": "B004W5KPSQ",
@@ -2589,7 +2545,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-17T06:59:59Z",
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:34.273Z"
+      "checkedAt": "2026-10-14T11:49:08.310Z"
     },
     {
       "asin": "B0BQHLPXDK",
@@ -2611,7 +2567,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-23T06:59:59Z",
       "merchant": "JunVpic Shop",
-      "checkedAt": "2026-10-14T04:50:35.826Z"
+      "checkedAt": "2026-10-14T11:49:09.824Z"
     },
     {
       "asin": "B0BQLS5C33",
@@ -2633,7 +2589,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-17T06:45:00Z",
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:37.248Z"
+      "checkedAt": "2026-10-14T11:49:11.308Z"
     },
     {
       "asin": "B0BYSJTP1F",
@@ -2655,7 +2611,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-25T06:59:59Z",
       "merchant": "Keebar",
-      "checkedAt": "2026-10-14T04:50:37.248Z"
+      "checkedAt": "2026-10-14T11:49:11.308Z"
     },
     {
       "asin": "B0DCBYL43J",
@@ -2677,29 +2633,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-23T06:59:59Z",
       "merchant": "JunVpic Shop",
-      "checkedAt": "2026-10-14T04:50:35.825Z"
-    },
-    {
-      "asin": "B0DHXMW3C8",
-      "category": "grinders",
-      "title": "Lonkion Burr Coffee Grinder Electric - Adjustable Burr Grinder with 28 Precise Grind Settings for 12 Cups - Coffee Grinders for Home Use - Professional Coffee Bean Grinder - Stainless Steel",
-      "brand": "Lonkion",
-      "detailPageUrl": "https://www.amazon.com/dp/B0DHXMW3C8?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
-      "imageUrl": "https://m.media-amazon.com/images/I/41yRs-g8+uL._SL160_.jpg",
-      "imageWidth": 160,
-      "imageHeight": 160,
-      "amount": 26.99,
-      "price": "$26.99",
-      "currency": "USD",
-      "referencePrice": "$29.99",
-      "referenceLabel": "Typical price:",
-      "savingsAmount": "$3.00",
-      "savingsPercent": 10,
-      "dealBadge": "Ends in ",
-      "accessType": "ALL",
-      "endsAt": "2026-10-14T06:59:59Z",
-      "merchant": "Lonkion Direct",
-      "checkedAt": "2026-10-14T04:50:29.413Z"
+      "checkedAt": "2026-10-14T11:49:09.824Z"
     },
     {
       "asin": "B0DS5Q4PPB",
@@ -2721,7 +2655,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "QHH Brand",
-      "checkedAt": "2026-10-14T04:50:35.826Z"
+      "checkedAt": "2026-10-14T11:49:09.824Z"
     },
     {
       "asin": "B0FB92KFMH",
@@ -2743,12 +2677,12 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Diyife-Direct",
-      "checkedAt": "2026-10-14T04:50:40.247Z"
+      "checkedAt": "2026-10-14T11:49:14.220Z"
     },
     {
       "asin": "B0FH35Y5K4",
-      "category": "grinders",
-      "title": "AMZCHEF Burr Coffee Grinder, 48 Settings, Less Static Mess, Metallic Silver",
+      "category": "accessories",
+      "title": "AMZCHEF Burr Coffee Grinder, 48 Settings, Less Static Mess, Metallic Silver | 40mm Burr, Low Retention, 0.5s LED Timer, Stainless Steel Body, Fit 51-54/58 Espresso Portafilter, Cleaning Brush Included",
       "brand": "AMZCHEF",
       "detailPageUrl": "https://www.amazon.com/dp/B0FH35Y5K4?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "imageUrl": "https://m.media-amazon.com/images/I/41-BCXgxeAL._SL160_.jpg",
@@ -2765,7 +2699,29 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "AuraKitchen Store",
-      "checkedAt": "2026-10-14T04:50:30.847Z"
+      "checkedAt": "2026-10-14T11:49:04.885Z"
+    },
+    {
+      "asin": "B0FLVF97KX",
+      "category": "coffee",
+      "title": "Folgers Classic Roast Instant Coffee, Single Serve Packets",
+      "brand": "Folgers",
+      "detailPageUrl": "https://www.amazon.com/dp/B0FLVF97KX?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
+      "imageUrl": "https://m.media-amazon.com/images/I/41-5anBRqEL._SL160_.jpg",
+      "imageWidth": 128,
+      "imageHeight": 160,
+      "amount": 9.88,
+      "price": "$9.88",
+      "currency": "USD",
+      "referencePrice": "$10.99",
+      "referenceLabel": "Typical price:",
+      "savingsAmount": "$1.11",
+      "savingsPercent": 10,
+      "dealBadge": "Price drop",
+      "accessType": "ALL",
+      "endsAt": null,
+      "merchant": "Funtopia Distributions",
+      "checkedAt": "2026-10-14T11:48:55.863Z"
     },
     {
       "asin": "B0FVDRPRVY",
@@ -2787,7 +2743,7 @@
       "accessType": "ALL",
       "endsAt": "2026-10-23T06:59:59Z",
       "merchant": "JunVpic Shop",
-      "checkedAt": "2026-10-14T04:50:34.274Z"
+      "checkedAt": "2026-10-14T11:49:08.310Z"
     },
     {
       "asin": "B0GCFHBM84",
@@ -2809,7 +2765,7 @@
       "accessType": "PRIME_EXCLUSIVE",
       "endsAt": null,
       "merchant": "Maestri House",
-      "checkedAt": "2026-10-14T04:50:40.247Z"
+      "checkedAt": "2026-10-14T11:49:14.220Z"
     },
     {
       "asin": "B0GS3DJDDP",
@@ -2831,7 +2787,7 @@
       "accessType": "ALL",
       "endsAt": "2026-11-10T07:45:00Z",
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:24.953Z"
+      "checkedAt": "2026-10-14T11:48:58.950Z"
     },
     {
       "asin": "B0GTYM97MB",
@@ -2853,7 +2809,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "CIRCLE JOY HK",
-      "checkedAt": "2026-10-14T04:50:37.248Z"
+      "checkedAt": "2026-10-14T11:49:11.308Z"
     },
     {
       "asin": "B0GTYWMWXH",
@@ -2875,7 +2831,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "CIRCLE JOY HK",
-      "checkedAt": "2026-10-14T04:50:38.769Z"
+      "checkedAt": "2026-10-14T11:49:12.780Z"
     },
     {
       "asin": "B000IGOXLS",
@@ -2897,7 +2853,29 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "GJG audio USA",
-      "checkedAt": "2026-10-14T04:50:35.826Z"
+      "checkedAt": "2026-10-14T11:49:09.824Z"
+    },
+    {
+      "asin": "B08NWJVZVX",
+      "category": "brewers",
+      "title": "Primula Burke Deluxe Cold Brew Iced Coffee Maker, Comfort Grip Handle, Durable Glass Carafe, Removable Mesh Filter, Perfect 6 Cup Size, Dishwasher Safe, 1.6 qt, Aqua",
+      "brand": "Primula",
+      "detailPageUrl": "https://www.amazon.com/dp/B08NWJVZVX?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
+      "imageUrl": "https://m.media-amazon.com/images/I/31BWp3ZCogL._SL160_.jpg",
+      "imageWidth": 160,
+      "imageHeight": 160,
+      "amount": 16.84,
+      "price": "$16.84",
+      "currency": "USD",
+      "referencePrice": "$18.41",
+      "referenceLabel": "Typical price:",
+      "savingsAmount": "$1.57",
+      "savingsPercent": 9,
+      "dealBadge": "Price drop",
+      "accessType": "ALL",
+      "endsAt": null,
+      "merchant": "Amazon.com",
+      "checkedAt": "2026-10-14T11:49:09.824Z"
     },
     {
       "asin": "B0BRSP8YT6",
@@ -2919,7 +2897,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "CASABREWS",
-      "checkedAt": "2026-10-14T04:50:24.952Z"
+      "checkedAt": "2026-10-14T11:48:58.949Z"
     },
     {
       "asin": "B007AVZQ1U",
@@ -2941,7 +2919,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Perfect Pod.",
-      "checkedAt": "2026-10-14T04:50:43.435Z"
+      "checkedAt": "2026-10-14T11:49:17.363Z"
     },
     {
       "asin": "B00GS6J4ES",
@@ -2952,18 +2930,18 @@
       "imageUrl": "https://m.media-amazon.com/images/I/41q6iSBUXAL._SL160_.jpg",
       "imageWidth": 160,
       "imageHeight": 160,
-      "amount": 8.62,
-      "price": "$8.62",
+      "amount": 8.63,
+      "price": "$8.63",
       "currency": "USD",
       "referencePrice": "$9.24",
       "referenceLabel": "List Price:",
-      "savingsAmount": "$0.62",
+      "savingsAmount": "$0.61",
       "savingsPercent": 7,
       "dealBadge": "Price drop",
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "JF Distributions",
-      "checkedAt": "2026-10-14T04:50:32.697Z"
+      "checkedAt": "2026-10-14T11:49:06.737Z"
     },
     {
       "asin": "B07DDGR4VC",
@@ -2985,7 +2963,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:23.522Z"
+      "checkedAt": "2026-10-14T11:48:57.513Z"
     },
     {
       "asin": "B07XD2VVKP",
@@ -3007,12 +2985,12 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Aptspade",
-      "checkedAt": "2026-10-14T04:50:41.713Z"
+      "checkedAt": "2026-10-14T11:49:15.664Z"
     },
     {
       "asin": "B0BZJVFFNM",
       "category": "pods",
-      "title": "Nespresso Vertuo, Barista Flavored Pack, Medium Roast, 30-Count Coffee Pods",
+      "title": "Nespresso Vertuo, Barista Flavored Pack, Medium Roast, 30-Count Coffee Pods | Medium-Roast Coffee Capsules, Caramel, roasted hazelnut and sweet vanilla flavors",
       "brand": "Nespresso",
       "detailPageUrl": "https://www.amazon.com/dp/B0BZJVFFNM?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
       "imageUrl": "https://m.media-amazon.com/images/I/41YX1uRFB+L._SL160_.jpg",
@@ -3029,7 +3007,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:23.522Z"
+      "checkedAt": "2026-10-14T11:48:57.513Z"
     },
     {
       "asin": "B0CMZJP9V8",
@@ -3051,7 +3029,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "TIMEMORE",
-      "checkedAt": "2026-10-14T04:50:40.247Z"
+      "checkedAt": "2026-10-14T11:49:14.220Z"
     },
     {
       "asin": "B00XA1075Y",
@@ -3072,8 +3050,8 @@
       "dealBadge": "Price drop",
       "accessType": "ALL",
       "endsAt": null,
-      "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:23.522Z"
+      "merchant": "Twin Savers",
+      "checkedAt": "2026-10-14T11:48:57.513Z"
     },
     {
       "asin": "B073CSQM8J",
@@ -3095,7 +3073,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:21.909Z"
+      "checkedAt": "2026-10-14T11:48:55.863Z"
     },
     {
       "asin": "B09D8T11YS",
@@ -3117,7 +3095,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Zulay Deals",
-      "checkedAt": "2026-10-14T04:50:38.769Z"
+      "checkedAt": "2026-10-14T11:49:12.779Z"
     },
     {
       "asin": "B0B319RHGH",
@@ -3139,7 +3117,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:21.909Z"
+      "checkedAt": "2026-10-14T11:48:55.863Z"
     },
     {
       "asin": "B0CCJ9M9WS",
@@ -3161,7 +3139,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "wangyousheng",
-      "checkedAt": "2026-10-14T04:50:43.435Z"
+      "checkedAt": "2026-10-14T11:49:17.363Z"
     },
     {
       "asin": "B0CMC83TXD",
@@ -3183,7 +3161,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Ystep",
-      "checkedAt": "2026-10-14T04:50:41.713Z"
+      "checkedAt": "2026-10-14T11:49:15.664Z"
     },
     {
       "asin": "B0CSV7HFYF",
@@ -3205,7 +3183,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "FourCity Brands",
-      "checkedAt": "2026-10-14T04:50:34.274Z"
+      "checkedAt": "2026-10-14T11:49:08.310Z"
     },
     {
       "asin": "B07YF6B15Y",
@@ -3227,29 +3205,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:23.522Z"
-    },
-    {
-      "asin": "B087K8DC6X",
-      "category": "coffee",
-      "title": "Peet's Coffee Whole Bean Coffee, Dark Roast, Major Dickason's, 18 Ounces",
-      "brand": "Peet's Coffee",
-      "detailPageUrl": "https://www.amazon.com/dp/B087K8DC6X?tag=coffeedant03-20&linkCode=ogi&th=1&psc=1",
-      "imageUrl": "https://m.media-amazon.com/images/I/41z41DkfiGL._SL160_.jpg",
-      "imageWidth": 160,
-      "imageHeight": 160,
-      "amount": 15.97,
-      "price": "$15.97",
-      "currency": "USD",
-      "referencePrice": "$16.86",
-      "referenceLabel": "Typical price:",
-      "savingsAmount": "$0.89",
-      "savingsPercent": 5,
-      "dealBadge": "Price drop",
-      "accessType": "ALL",
-      "endsAt": null,
-      "merchant": "Amazon.com",
-      "checkedAt": "2026-10-14T04:50:21.909Z"
+      "checkedAt": "2026-10-14T11:48:57.513Z"
     },
     {
       "asin": "B0BX3VVJNW",
@@ -3271,7 +3227,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "wangyousheng",
-      "checkedAt": "2026-10-14T04:50:43.435Z"
+      "checkedAt": "2026-10-14T11:49:17.363Z"
     },
     {
       "asin": "B0CQY78HV6",
@@ -3293,7 +3249,7 @@
       "accessType": "PRIME_EXCLUSIVE",
       "endsAt": null,
       "merchant": "Maestri House",
-      "checkedAt": "2026-10-14T04:50:40.247Z"
+      "checkedAt": "2026-10-14T11:49:14.220Z"
     },
     {
       "asin": "B0D2CXV7KM",
@@ -3315,7 +3271,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "wangyousheng",
-      "checkedAt": "2026-10-14T04:50:43.434Z"
+      "checkedAt": "2026-10-14T11:49:17.363Z"
     },
     {
       "asin": "B0H2DYDS8G",
@@ -3337,7 +3293,7 @@
       "accessType": "ALL",
       "endsAt": null,
       "merchant": "MAI BAO SHOP",
-      "checkedAt": "2026-10-14T04:50:44.931Z"
+      "checkedAt": "2026-10-14T11:49:18.833Z"
     }
   ]
 }
