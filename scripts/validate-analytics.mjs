@@ -28,11 +28,18 @@ for (const file of htmlFiles) {
   }
   const tags = nodes.filter((n) => n.tagName === 'script' && attr(n, 'id') === 'coffeedant-ga4-bootstrap');
   assert.equal(tags.length, 1, `${file}: must include one shared GA4 bootstrap`);
+  const head = nodes.find((node) => node.tagName === 'head');
+  assert(descendants(head).includes(tags[0]), `${file}: GA4 must be in the head`);
+  const firstScript = descendants(head).find((node) => node.tagName === 'script');
+  assert.equal(firstScript, tags[0], `${file}: initialize consent before other scripts`);
   assert.equal(attr(tags[0], 'data-ga4-id'), 'G-270R14ZHVX');
   assert.equal(nodes.filter((n) => attr(n, 'data-analytics-consent') !== undefined).length, 1, `${file}: consent controls missing`);
   assert(nodes.some((n) => attr(n, 'data-analytics-preferences') !== undefined), `${file}: preferences link missing`);
   assert(nodes.some((n) => n.tagName === 'link' && attr(n, 'rel') === 'icon'), `${file}: favicon missing`);
-  bootstrap ??= tags[0].childNodes.map((n) => n.value ?? '').join('');
+  const source = tags[0].childNodes.map((n) => n.value ?? '').join('');
+  bootstrap ??= source;
+  assert.equal(source, bootstrap, `${file}: shared analytics code must be identical`);
+  assert.equal(nodes.filter((node) => node.tagName === 'script' && /googletagmanager|google-analytics/.test(attr(node, 'src') || '')).length, 0, `${file}: second Google tag bypasses consent`);
 }
 
 const storageKey = 'coffeedant.analytics-consent.v1';
@@ -40,6 +47,8 @@ const run = ({ hostname = 'coffeedant.com', choice, savedAt = Date.now(), gpc = 
   const events = [];
   const appended = [];
   const deletedCookies = [];
+  const timers = new Map();
+  const windowEvents = new Map();
   const buttons = ['granted', 'denied'].map((value) => ({
     value, handlers: {}, disabled: false,
     getAttribute: () => value,
@@ -57,23 +66,31 @@ const run = ({ hostname = 'coffeedant.com', choice, savedAt = Date.now(), gpc = 
   const document = {
     readyState: 'loading',
     head: { appendChild: (tag) => appended.push(tag) },
-    createElement: () => ({}),
+    createElement: () => ({ remove() { this.removed = true; } }),
     querySelector: (selector) => selector.includes('preferences') ? preferences : banner,
     querySelectorAll: () => [preferences],
     addEventListener: (_, handler) => events.push(handler),
     get cookie() { return '_ga=old; _ga_270R14ZHVX=old; essential=keep'; },
     set cookie(value) { deletedCookies.push(value); },
   };
-  const window = {};
-  vm.runInNewContext(bootstrap, {
+  const window = { addEventListener: (name, handler) => windowEvents.set(name, handler) };
+  const context = vm.createContext({
     window, document, location: { hostname }, navigator: { globalPrivacyControl: gpc },
     localStorage: {
       getItem(key) { if (brokenStorage) throw new Error('Storage blocked'); return storage.get(key) ?? null; },
       setItem(key, value) { if (brokenStorage) throw new Error('Storage blocked'); storage.set(key, value); },
     }, Date,
+    setTimeout(handler) { const id = timers.size + 1; timers.set(id, handler); return id; },
+    clearTimeout(id) { timers.delete(id); },
   });
+  vm.runInContext(bootstrap, context);
   events.forEach((handler) => handler());
-  return { window, banner, buttons, preferences, note, storage, appended, deletedCookies };
+  return {
+    window, banner, buttons, preferences, note, storage, appended, deletedCookies, timers,
+    repeatBootstrap: () => vm.runInContext(bootstrap, context),
+    storageEvent: (value) => windowEvents.get('storage')({ key: storageKey, newValue: value === null ? null : JSON.stringify({ value, savedAt }) }),
+    flushTimers: () => { const pending = [...timers.values()]; timers.clear(); pending.forEach((handler) => handler()); },
+  };
 };
 let result = run();
 assert.equal(result.appended.length, 0, 'No Google requests before opt-in');
@@ -87,6 +104,7 @@ assert.equal(result.appended.length, 1);
 assert.equal(result.appended[0].src, 'https://www.googletagmanager.com/gtag/js?id=GT-KT5DM5FP');
 assert.equal(result.window.dataLayer.filter((args) => args[0] === 'config').length, 1);
 assert.equal(result.window.dataLayer.find((args) => args[0] === 'config')[1], 'G-270R14ZHVX');
+assert.equal(result.window.dataLayer.find((args) => args[0] === 'config')[2].send_page_view, true);
 result.buttons[0].handlers.click();
 assert.equal(result.appended.length, 1, 'Repeated acceptance cannot duplicate the tag');
 result.buttons[1].handlers.click();
@@ -108,4 +126,34 @@ for (const hostname of ['br.coffeedant.com', 'ca.coffeedant.com', 'at.coffeedant
   assert.equal(run({ hostname }).appended.length, 0, `${hostname}: no analytics before opt-in`);
 }
 assert.equal(run({ hostname: 'unregistered.coffeedant.com', choice: 'granted' }).appended.length, 0);
-console.log(`Verified GA4 coverage on ${htmlFiles.length-redirectCount} content pages and ${redirectCount} noindex redirect fallbacks, consent/withdrawal, GPC, storage failures and preview exclusion.`);
+result = run({ choice: 'granted' });
+result.repeatBootstrap();
+assert.equal(result.appended.length, 1, 'Repeated bootstrap cannot duplicate the loader');
+assert.equal(result.window.dataLayer.filter((args) => args[0] === 'config').length, 1, 'Repeated bootstrap cannot duplicate page views');
+result.appended[0].onerror();
+assert.equal(result.appended[0].removed, true);
+result.flushTimers();
+assert.equal(result.appended.length, 2, 'Transient failure gets one retry');
+assert.equal(result.window.dataLayer.filter((args) => args[0] === 'config').length, 1, 'Retry retains the original page-view queue');
+result.appended[1].onerror();
+result.flushTimers();
+assert.equal(result.appended.length, 2, 'Retries remain bounded');
+result = run({ choice: 'granted' });
+result.appended[0].onerror();
+result.buttons[1].handlers.click();
+result.flushTimers();
+assert.equal(result.appended.length, 1, 'Withdrawal cancels pending retry');
+result = run();
+result.storageEvent('granted');
+assert.equal(result.appended.length, 1, 'Consent from another tab enables this page');
+result.storageEvent('denied');
+assert.equal(result.window['ga-disable-G-270R14ZHVX'], true, 'Withdrawal in another tab stops tracking');
+assert(result.deletedCookies.length > 0, 'Cross-tab withdrawal removes analytics cookies');
+result.storageEvent(null);
+assert.equal(result.banner.hidden, false, 'Cleared preferences ask again');
+result = run({ gpc: true });
+result.storageEvent('granted');
+assert.equal(result.appended.length, 0, 'Cross-tab acceptance cannot override GPC');
+result = run({ hostname: 'ca.coffeedant.com', choice: 'denied' });
+assert(result.deletedCookies.some((cookie) => cookie.includes('Domain=ca.coffeedant.com')), 'Withdrawal clears regional-domain cookies');
+console.log(`Verified GA4 head coverage on ${htmlFiles.length-redirectCount} content pages and ${redirectCount} noindex redirect fallbacks, consent/withdrawal, cross-tab changes, bounded loader retry, duplicate prevention, GPC, storage failures and preview exclusion.`);
