@@ -4,7 +4,7 @@ import path from 'node:path';
 import {root,readJson,loadCache,policyHash,digest,validateTranslation,getEdition} from '../core.mjs';
 import {regionalFinder} from '../build.mjs';
 
-for(const [name,count] of [['source-refresh-batch-9',44],['journal-pages-batch-9',303]])test(`${name} has full frozen-slot coverage and exact facts in NL DE FR`,async()=>{
+for(const [name,count] of [['source-refresh-batch-9',44],['journal-pages-batch-9',303],['journal-pages-batch-10',255]])test(`${name} has full frozen-slot coverage and exact facts in NL DE FR`,async()=>{
  const source=await readJson(path.join(root,`localization/authored/${name}.source.json`));
  const authored=await readJson(path.join(root,`localization/authored/${name}.json`));
  assert.equal(source.segments.length,count);
@@ -24,6 +24,29 @@ for(const [name,count] of [['source-refresh-batch-9',44],['journal-pages-batch-9
    assert.equal(entry.provider,'codex-direct');
    assert.equal(validateTranslation(segment.source,entry.text),entry.text);
   }
+ }
+});
+
+test('decaf and fermentation preserve FAQ limits, US jurisdiction, residual caffeine and the qualified Colombian estimate',async()=>{
+ const source=await readJson(path.join(root,'localization/authored/journal-pages-batch-10.source.json'));
+ const answers=[124,126,128,250,252,254].map(index=>source.segments[index]);
+ assert(answers.every(segment=>segment.kind==='json'));
+ const spelled={nl:'zeshonderdtwintigduizend',de:'sechshundertzwanzigtausend',fr:'six cent vingt mille'};
+ for(const edition of ['nl','de','fr']){
+  const cache=await loadCache(edition);
+  for(const segment of answers){
+   assert.notEqual(cache.segments[segment.id].text,segment.source);
+   assert.equal(validateTranslation(segment.source,cache.segments[segment.id].text),cache.segments[segment.id].text);
+  }
+  const law=cache.segments[source.segments[52].id].text;
+  assert(/Amerikaanse|US-Regel|américaine/.test(law));assert(law.includes('10'));
+  const volume=cache.segments[source.segments[181].id].text;
+  for(const number of ['2026','30','620,000','2024'])assert(volume.includes(number));
+  assert(volume.includes(spelled[edition]));
+  assert(/geen representatieve wereldwijde|keine repräsentative Weltmarkt|pas un recensement mondial représentatif/.test(volume));
+  assert(!cache.segments[source.segments[214].id].text.includes('meaningful'));
+  const tasting=cache.segments[source.segments[83].id].text;
+  assert(/geen blinde proeverij|keine Blindverkostung|pas réalisé de dégustation à l’aveugle/.test(tasting));
  }
 });
 
