@@ -159,11 +159,15 @@ test('complete preview build translates metadata, JSON, finder, canonical URLs a
   try {
     await mkdir(path.join(directory, 'review'));
     await writeFile(path.join(directory, 'index.html'), '<html lang="en"><head><title>Coffeedant homepage</title><meta name="description" content="Find a machine"><link rel="canonical" href="https://coffeedant.com/"></head><body><a href="/review/#ratings">Read review</a></body></html>');
-    await writeFile(path.join(directory, 'review/index.html'), '<html lang="en"><head><title>Breville review</title><link rel="canonical" href="https://coffeedant.com/review/"><script type="application/ld+json">{"@type":"Article","headline":"Breville review","inLanguage":"en-US","url":"https://coffeedant.com/review/","offers":{"price":500,"priceCurrency":"USD"}}</script></head><body><h1>Breville review</h1><p>PID 9 bar.</p><div class="review-price">$500</div><a rel="sponsored" href="https://www.amazon.com/dp/B000000001">Buy Amazon</a><section data-coffee-finder data-exclude-path="/review/"></section></body></html>');
+    await writeFile(path.join(directory, 'review/index.html'), '<html lang="en"><head><title>Breville review</title><link rel="canonical" href="https://coffeedant.com/review/"><script type="application/ld+json">{"@type":"Article","headline":"Breville review","inLanguage":"en-US","url":"https://coffeedant.com/review/","offers":{"price":500,"priceCurrency":"USD"}}</script></head><body><h1>Breville review</h1><p>PID 9 bar.</p><time datetime="2026-10-13">Published 13 October 2026</time><time datetime="2026-10-13">Updated 13 October 2026</time><time datetime="2026-10-13">October 13, 2026</time><div class="review-price">$500</div><a rel="sponsored" href="https://www.amazon.com/dp/B000000001">Buy Amazon</a><section data-coffee-finder data-exclude-path="/review/"></section></body></html>');
     await writeFile(path.join(directory, 'coffee-finder.json'), JSON.stringify(finder));
     await writeFile(path.join(directory, 'photo.jpg'), 'fixture');
     const source = await collectSource(directory);
     const cache = fixtureCache('de', source);
+    for (const segment of source.segments) {
+      if (segment.source === 'Published 13 October 2026') cache.segments[segment.id].text = 'Veröffentlicht am 13. Oktober 2026';
+      if (segment.source === 'Updated 13 October 2026') cache.segments[segment.id].text = 'Aktualisiert am 13. Oktober 2026';
+    }
     assert(source.pages.length === 2 && source.segments.length > 10);
     const localized = regionalFinder(finder, cache, validatedRoutes(source, cache), getEdition('de'), undefined, { offers: {} }, now);
     assert.equal(localized.items[0].amazonHref, ''); assert.equal(localized.items[0].priceUsd, null);
@@ -174,6 +178,9 @@ test('complete preview build translates metadata, JSON, finder, canonical URLs a
     assert(html.includes('DE Breville review')); assert(!html.includes('"priceCurrency":"USD"'));
     assert(!html.includes('https://www.amazon.com/dp/')); assert(html.includes('noindex, nofollow'));
     assert(html.includes('data-exclude-path="/testbericht/"'));
+    assert(html.includes('<time datetime="2026-10-13">Veröffentlicht am 13. Oktober 2026</time>'));
+    assert(html.includes('<time datetime="2026-10-13">Aktualisiert am 13. Oktober 2026</time>'));
+    assert(html.includes('<time datetime="2026-10-13">13. Oktober 2026</time>'));
     assert((await readFile(path.join(output, 'index.html'), 'utf8')).includes('https://de.coffeedant.com/testbericht/#ratings'));
     assert(!(await readFile(path.join(output, 'sitemap.xml'), 'utf8')).includes('coffeedant.com/review/'));
     await assert.rejects(buildRegional('de', { source, cache }), /not approved/);

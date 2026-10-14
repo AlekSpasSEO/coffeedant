@@ -131,6 +131,10 @@ export const buildRegional = async (editionId, options = {}) => {
   const rendered = [];
   for (const page of source.pages) {
     const document = prepareRegionalDocument(parseHtml(await readFile(path.join(directory, page.file), 'utf8')));
+    // Preserve the complete authored label when the source time also says
+    // Published/Updated. Formatting a bare date must not erase that meaning.
+    const labeledDates = new Set(walk(document).filter((node) => node.tagName === 'time'
+      && /^(?:Published|Updated)\s/i.test(textContent(node).trim())));
     translateDom(document, cache);
     const head = walk(document).find((node) => node.tagName === 'head');
     appendHtml(head, `<script id="coffeedant-localization" type="application/json">${JSON.stringify({ ui, locale: edition.locale }).replaceAll('<', '\\u003c')}</script>`);
@@ -147,7 +151,7 @@ export const buildRegional = async (editionId, options = {}) => {
         if (node.tagName === 'meta' && attr(node, 'property') === 'og:url' && entry.name === 'content') entry.value = `https://${edition.host}${routes.get(page.sourcePath)}`;
         if (node.tagName === 'meta' && attr(node, 'property') === 'og:locale' && entry.name === 'content') entry.value = edition.locale.replace('-', '_');
       }
-      if (node.tagName === 'time' && attr(node, 'datetime')) {
+      if (node.tagName === 'time' && attr(node, 'datetime') && !labeledDates.has(node)) {
         const date = new Date(attr(node, 'datetime'));
         if (!Number.isNaN(date.valueOf())) node.childNodes = [{ nodeName: '#text', value: new Intl.DateTimeFormat(edition.locale, { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(date), parentNode: node }];
       }

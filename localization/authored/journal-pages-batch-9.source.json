@@ -1,0 +1,1839 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/journal/freshness-clock/",
+      "sourceHash": "c9e12f00e19f22bd894522c054150b84dcfbd42d59d2667d877a52311277090f"
+    },
+    {
+      "sourcePath": "/journal/kopi-luwak/",
+      "sourceHash": "7dff75e3d76cf300a5a99e907e723c2c44983187d5dd2bd5d6bf336a94b5a376"
+    },
+    {
+      "sourcePath": "/fellow/",
+      "sourceHash": "3d69373b3da293d46442f94532c8cfde4501d9a9395aee8b70126c15f9c094a8"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "deeec3dff85e9326e99996a4c60ada161be7c1098a3b1526cf6b1ab467c40cce",
+      "source": "Practical response",
+      "kind": "text",
+      "context": "Practical response"
+    },
+    {
+      "id": "09962e163625f614cfef52daaa4b80926301bb373dd5470ab54782bdb49aa920",
+      "source": "James Hoffmann",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b0202d2e3ecfbd6a5aaaea6226a217d0df6402900dfd00099f8f0a3c5be32c40",
+      "source": "Fellow Espresso Series 1",
+      "kind": "text",
+      "context": "Fellow Espresso Series 1"
+    },
+    {
+      "id": "5f494b01ea8b9a742f9e4261b332d895ecdff6f79fa8c560648b823423537c9c",
+      "source": "Fellow Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "text",
+      "context": "Fellow Espresso Machines: Compare the Lineup | Coffeedant"
+    },
+    {
+      "id": "fc0bed7a8276e69f759429dc8ad94d2d92a581a5d434b85d7ff0b36d8dc5a77d",
+      "source": "Fellow espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 1 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    const readChoice = (raw) => {\n      try {\n        const saved = JSON.parse(raw || 'null');\n        if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) return"
+    },
+    {
+      "id": "6e9e26d57e417be6088d895649f8f9197aa0453b567091d86a97d3ba9fc40e75",
+      "source": "Fellow Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    const readChoice = (raw) => {\n      try {\n        const saved = JSON.parse(raw || 'null');\n        if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) return"
+    },
+    {
+      "id": "a9f754fd83303288ff4a1275166d2630bffafe13bc455fc69aed0334f7bdf030",
+      "source": "Fellow, mapped.",
+      "kind": "text",
+      "context": "Fellow, mapped."
+    },
+    {
+      "id": "62dfaddc871bf5a0e8c0fafb97c2c7ad74a025971b86e8faebe73e24efeb2616",
+      "source": "The reviewed Series 1 combines guided recipes, a 58 mm portafilter and adjustable profiles; it needs a separate grinder.",
+      "kind": "text",
+      "context": "The reviewed Series 1 combines guided recipes, a 58 mm portafilter and adjustable profiles; it needs a separate grinder."
+    },
+    {
+      "id": "e058a6b6f3d32c5c7c28335f053fec863ba1e158e595c82725ffa795d62ea1e4",
+      "source": "Fellow overview",
+      "kind": "attribute",
+      "context": "← All brands United States · Guided · pressure profiles Fellow, mapped. The reviewed Series 1 combines guided recipes, a 58 mm portafilter and adjustable profiles; it needs a separate grinder.   1machine reviews $$$price position Balanced workflowworkflow"
+    },
+    {
+      "id": "52a9d4dfb5c72fc8b29fea0f8d38c3739dc1b00fe7e6c6c8eea554de44beb0a3",
+      "source": "Where Fellow sits.",
+      "kind": "text",
+      "context": "Where Fellow sits."
+    },
+    {
+      "id": "92dc041e3803787be0e64b9e0050fca4386c29b6225986fd2f5d663feb90372d",
+      "source": "Fellow: Balanced workflow",
+      "kind": "attribute",
+      "context": "Push-button easeHands-on control  Fellow  Best for: Learning espresso with room for custom control"
+    },
+    {
+      "id": "5ea444d20c25bbd8ebfe45e41e6bf9b8f2b7be6a8a3905069d4fd508dd6f7e1a",
+      "source": "Guided recipes",
+      "kind": "text",
+      "context": "Guided recipes"
+    },
+    {
+      "id": "cd195684f13ca3108c83eac46dbc8f1089ee5d7d1fe662ed0b8e931499732d62",
+      "source": "Custom profiles",
+      "kind": "text",
+      "context": "Custom profiles"
+    },
+    {
+      "id": "beb9d788802cba0594936332e4a7e88c09042b6f8a17192089120ccb6ee042a7",
+      "source": "58 mm format",
+      "kind": "text",
+      "context": "58 mm format"
+    },
+    {
+      "id": "3bf2ee7f48f9e3f532af9aee912e2bb3ceb10b6e8d1ca595c7bb505a1c1f1e4c",
+      "source": "A grinder and sufficient tank clearance add to the full setup.",
+      "kind": "text",
+      "context": "A grinder and sufficient tank clearance add to the full setup."
+    },
+    {
+      "id": "6cb30d0e5b9a31527b4ae233ad3094253917da876cc2d7b20764b8022806489c",
+      "source": "What Fellow actually builds for.",
+      "kind": "text",
+      "context": "What Fellow actually builds for."
+    },
+    {
+      "id": "c116d447f2f23c019ff469e1d536ca94db39b86799812907f3dcdbf5be675723",
+      "source": "Fellow brings its guided, design-led approach to a 58 mm espresso machine with editable pressure and temperature recipes. The Series 1 aims to support a first routine and later experiments.",
+      "kind": "text",
+      "context": "Fellow brings its guided, design-led approach to a 58 mm espresso machine with editable pressure and temperature recipes. The Series 1 aims to support a first routine and later experiments."
+    },
+    {
+      "id": "4a497c9f9f9b70f8ce0f29abb0d1d64cd736936161596b20e6de878ce778dce1",
+      "source": "The machine needs a separate espresso grinder, water-hardness care and enough room to remove its tank. Software features and support are part of the long-term decision.",
+      "kind": "text",
+      "context": "The machine needs a separate espresso grinder, water-hardness care and enough room to remove its tank. Software features and support are part of the long-term decision."
+    },
+    {
+      "id": "5f5009e750238f5e443faea1cb24d2bffc66ac43aa57823ac73f0c6d407725c0",
+      "source": "Coffeedant currently reviews the US black Espresso Series 1. Other regional packages, finishes and later revisions require their own identity checks.",
+      "kind": "text",
+      "context": "Coffeedant currently reviews the US black Espresso Series 1. Other regional packages, finishes and later revisions require their own identity checks."
+    },
+    {
+      "id": "6017b2a2349c86a8daae092d847a8da656c7ac7b0148852ed4d78739812881eb",
+      "source": "Fellow Coffee Finder",
+      "kind": "text",
+      "context": "Fellow Coffee Finder"
+    },
+    {
+      "id": "db5e43723ba5d5fe890c171976da81711b328334aaf0b6f67a0cb96ba3a05962",
+      "source": "Find the Fellow machine that fits your routine.",
+      "kind": "text",
+      "context": "Find the Fellow machine that fits your routine."
+    },
+    {
+      "id": "6677a8c2e92484254bd2a0d55ba201f8bca941ae40be06aa05bd5959073f18a6",
+      "source": "Start with any constraint. This compact finder searches every Fellow espresso-machine review; the full finder can compare the result with every brand.",
+      "kind": "text",
+      "context": "Start with any constraint. This compact finder searches every Fellow espresso-machine review; the full finder can compare the result with every brand."
+    },
+    {
+      "id": "1ac6afe22143bb2efb556217027726259248ef4fd7858a661dc920a6bc28203c",
+      "source": "Fellow and nearby brand alternatives",
+      "kind": "attribute",
+      "context": "BrandSystemPrice positionBest for   Fellow Guided · pressure profiles $$$ Learning espresso with room for custom control Current  Breville Mixed · guided control $–$$$$ Learning without unnecessary friction Compare →  Gaggia Mixed · broad lineup $–$$$ A proven first step into espresso Compare →"
+    },
+    {
+      "id": "91571fa154767567e1ea5a9da6a2ee0b0ab589271fab53163ad10195536e7317",
+      "source": "The Fellow lineup.",
+      "kind": "text",
+      "context": "The Fellow lineup."
+    },
+    {
+      "id": "b28a8d2985b6b802238a19293f6915ba9bbb868c84cfb93581b30abfd72a24d0",
+      "source": "Fellow Espresso Machines: Compare the Lineup | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "4057f30d70aee70e62a669982aeb1c51431f502e92d7bd3cab80cb9e055f2219",
+      "source": "Fellow espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 1 Coffeedant reviews.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "65503b3a14509eafe6364be888d5a45d983b92107da818258c7be49b220cccf1",
+      "source": "Fellow, mapped.",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "eabe9d2dbde6a74ad9221fae0bfe3f3ce729e67a8433f3e291d331b2ed61b0eb",
+      "source": "← All stories",
+      "kind": "text",
+      "context": "← All stories"
+    },
+    {
+      "id": "8f066250bd89e86255421c5409bb59a044c619c1d7d3573348393351925d67c9",
+      "source": "Original AI-assisted artwork by Coffeedant. Illustrative reconstruction; it documents no actual facility, visit or test.",
+      "kind": "text",
+      "context": "Original AI-assisted artwork by Coffeedant. Illustrative reconstruction; it documents no actual facility, visit or test."
+    },
+    {
+      "id": "2abbff246d3744cbd176f5b3bea1441b30c79330590608f30d3bf82c434e5e87",
+      "source": "Inside the story",
+      "kind": "text",
+      "context": "Inside the story"
+    },
+    {
+      "id": "afd2decad3787ac4d13c710f3f6ef90912225f91d2a9cc910e78d3ae2ad840cf",
+      "source": "Sources & method",
+      "kind": "text",
+      "context": "↗Sources & method"
+    },
+    {
+      "id": "05bc2ce4ca4d5e16dfb0f2b43bf42e4d72bc896b71f1a501079666bb8606881b",
+      "source": "Coffeedant editorial desk",
+      "kind": "text",
+      "context": "Coffeedant editorial deskPublished 13 October 2026"
+    },
+    {
+      "id": "76c6016794f82b38e613a166659f1e11f8c4e4035699baa7d2bb487275dea703",
+      "source": "Published 13 October 2026",
+      "kind": "text",
+      "context": "Published 13 October 2026"
+    },
+    {
+      "id": "13a3d758f5322cbc75601e58243c6bdcbc254341cb0f7366d8160c61fee6e703",
+      "source": "Print this story ↗",
+      "kind": "text",
+      "context": "Print this story ↗"
+    },
+    {
+      "id": "3f56ab6142a49030a8b481144588e5000cc84e71395002086b3623a347972713",
+      "source": "Field notes / original schematic",
+      "kind": "text",
+      "context": "Field notes / original schematic"
+    },
+    {
+      "id": "41352cebce09434c26cf76925999ed1271a1759fae303737f9e7b07553f0177b",
+      "source": "Watch / related perspective",
+      "kind": "text",
+      "context": "Watch / related perspective"
+    },
+    {
+      "id": "ead0b6e0dfc57149aa4928bd8063000d7d6a32ce4e937b1a8227b931bd392553",
+      "source": "Close video ×",
+      "kind": "text",
+      "context": "Close video ×"
+    },
+    {
+      "id": "da87083869be1ad2e4af11219f697223e09d7ade48884fa7288df1fee4b94f3c",
+      "source": "Carry this into your next cup",
+      "kind": "text",
+      "context": "Carry this into your next cup"
+    },
+    {
+      "id": "ff05cafa575870c57a0e3341f041940d6ea524f069b36e80a6132bbdaceb6bdd",
+      "source": "A few good questions.",
+      "kind": "text",
+      "context": "A few good questions."
+    },
+    {
+      "id": "69cd4d6c8b2f3f2e3b70194b10c2925fce403e60a7df453c75f04a2ddeb4929a",
+      "source": "Evidence / method",
+      "kind": "text",
+      "context": "Evidence / method"
+    },
+    {
+      "id": "5af4f2cd94e873f7b86ae4bc262301b64802a4bb1c9abcea3760189f3e78ddc2",
+      "source": "Follow the sources.",
+      "kind": "text",
+      "context": "Follow the sources."
+    },
+    {
+      "id": "fa8f8ba6112a7c3696cfe9d10783673e9a90c7b5c3c0f3f28f3969ba765fd20f",
+      "source": "This research-led article draws on the sources below. Editorial interpretation is identified in the text. Dates, geographic scope and research limitations are kept alongside the claims they qualify.",
+      "kind": "text",
+      "context": "This research-led article draws on the sources below. Editorial interpretation is identified in the text. Dates, geographic scope and research limitations are kept alongside the claims they qualify."
+    },
+    {
+      "id": "93f8c7987e168563f1c8777ac2b3f3a907ed973060ec63abbe583112487405c6",
+      "source": "Sources checked 13 October 2026. Illustrated covers and original schematics: Coffeedant. Additional images and videos are individually credited above.",
+      "kind": "text",
+      "context": "Sources checked 13 October 2026. Illustrated covers and original schematics: Coffeedant. Additional images and videos are individually credited above."
+    },
+    {
+      "id": "6d04e5239cec91ad8b37a229d07a97cec22dd5bc76c968a566ab39e741205680",
+      "source": "Continue exploring",
+      "kind": "text",
+      "context": "Continue exploring"
+    },
+    {
+      "id": "134af2f24448c00030d365aa27457dddf86f94ba2f4535ff599d6f48b8a4f6d8",
+      "source": "1554–55: the coffeehouses that changed Istanbul",
+      "kind": "text",
+      "context": "1554–55: the coffeehouses that changed Istanbul"
+    },
+    {
+      "id": "41b61ee6a56c781a18fa7c07c7f514f134811acd4ab635c1699c3ac2b402f5dc",
+      "source": "Next in the issue",
+      "kind": "text",
+      "context": "Next in the issue"
+    },
+    {
+      "id": "8a2e39c0f9d60ac5d76cfa2f019960b48265e39597f7c30d1751ad9694ebec00",
+      "source": "The animal inside coffee’s most unforgettable story",
+      "kind": "text",
+      "context": "The animal inside coffee’s most unforgettable story"
+    },
+    {
+      "id": "628d6195fa5fbd1f06cf3bc83d1e3b4d091c409fef2fe8b96e9b03dc31677a4d",
+      "source": "Coffeedant editorial desk",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "64839ef1e5a44f3e33a04efd012d32f46c6a4a08a720d75cacb9236e1234cabc",
+      "source": "A dark roast. A sweeter Americano.",
+      "kind": "text",
+      "context": "A dark roast. A sweeter Americano."
+    },
+    {
+      "id": "1a05eac7bcf19de917f3b91c6c08858c8528bc980b160994155a654d95efd1ae",
+      "source": "Watch with James Hoffmann",
+      "kind": "text",
+      "context": "Watch with James Hoffmann"
+    },
+    {
+      "id": "015e9dd36d6dfa3c11ba8e3cd509c4c422d0b142cce4ad7e16aa02c39e29ffa2",
+      "source": "Watch on YouTube · James Hoffmann ↗",
+      "kind": "text",
+      "context": "Watch on YouTube · James Hoffmann ↗"
+    },
+    {
+      "id": "c46fd22e2e10582515fbefa05093ac19ed963f410bda8cf133a899592df92670",
+      "source": "This research-led article draws on the sources below. Editorial interpretation is identified in the text. Brewing quantities are suggested starting protocols, rather than Coffeedant laboratory measurements.",
+      "kind": "text",
+      "context": "This research-led article draws on the sources below. Editorial interpretation is identified in the text. Brewing quantities are suggested starting protocols, rather than Coffeedant laboratory measurements."
+    },
+    {
+      "id": "c3bd7199c7f1c235428ecc6b3663713e9d8728296fb0915106929548a7603579",
+      "source": "Brew Lab",
+      "kind": "text",
+      "context": "Brew Lab"
+    },
+    {
+      "id": "914b829ba9eb7f95a08f02c1c6387a867ede7f52ab451425a0a630217e8a9024",
+      "source": "The ingredient you cannot see.",
+      "kind": "text",
+      "context": "The ingredient you cannot see."
+    },
+    {
+      "id": "bfc9b0644411140d23f62f6af1d9d8905e6885ea7ecfde42dbf3caaa67c80b7b",
+      "source": "Your coffee has more than one clock.",
+      "kind": "text",
+      "context": "Your coffee has more than one clock."
+    },
+    {
+      "id": "b4990da34f9b8d9811b2d905b0acbf4b788ceff6273c88a7e19a8385ce8953bb",
+      "source": "Brew Lab",
+      "kind": "json",
+      "context": "articleSection"
+    },
+    {
+      "id": "a463d8632ba42fd7c90fd4efd137f9ce887885611d9d76957bf30ef39c889f7d",
+      "source": "Decaf deserves a place at the tasting table",
+      "kind": "text",
+      "context": "Decaf deserves a place at the tasting table"
+    },
+    {
+      "id": "41a852f346da70e57ab165c746132f4f8dd2313b0e4d59db82d1ebb1a18b5534",
+      "source": "Documentary / photograph",
+      "kind": "text",
+      "context": "Documentary / photograph"
+    },
+    {
+      "id": "4ef71b88bbf67592a6ffbd23c7d29a9e6c9cfe438a5ff42eae0882121c1ba253",
+      "source": "CO₂",
+      "kind": "text",
+      "context": "CO₂"
+    },
+    {
+      "id": "9e2b30a8c1172e089d9ac7eac6f91215307f8b2a94a9bab4e1d28a5576716d0f",
+      "source": "Zeitgeist",
+      "kind": "text",
+      "context": "Zeitgeist"
+    },
+    {
+      "id": "9390914ada83dd4b2e5d72732ae170b8ccbabe657ca090256af1aa06be5ff354",
+      "source": "Robusta’s second act has a water problem",
+      "kind": "text",
+      "context": "Robusta’s second act has a water problem"
+    },
+    {
+      "id": "edd58a907502115e94e0821ed4aadf8aa2e5d2b1efb289a9232dd026dc9059e2",
+      "source": "When coffee tastes like strawberry, what happened?",
+      "kind": "text",
+      "context": "When coffee tastes like strawberry, what happened?"
+    },
+    {
+      "id": "3542b5276d57e18efce547c4c35124b69c843c55033087cc95af6dff3833b735",
+      "source": "Zeitgeist",
+      "kind": "json",
+      "context": "articleSection"
+    },
+    {
+      "id": "f4a68a930771dd6feac0c006e2da3b4dbb3850bbb507a19ce4ef9fe170ca6a07",
+      "source": "CC BY-SA 4.0",
+      "kind": "text",
+      "context": "CC BY-SA 4.0"
+    },
+    {
+      "id": "090daff9b195201766c2c81016c0749e7203567f30a86f878de1966a4515d6f3",
+      "source": "Your coffee has more than one clock. | Coffeedant Journal",
+      "kind": "text",
+      "context": "Your coffee has more than one clock. | Coffeedant Journal"
+    },
+    {
+      "id": "cbb134ff32da1aeb796880882f3375faf3371e117b5a40a40715567d28f2a867",
+      "source": "Resting, degassing and staling are different processes. Learn which clock you are actually trying to manage.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    const readChoice = (raw) => {\n      try {\n        const saved = JSON.parse(raw || 'null');\n        if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) return"
+    },
+    {
+      "id": "7b35954bf878f09e38e4fda707dd0972e54a2bce532547b7d51eb2b0adef65c1",
+      "source": "Your coffee has more than one clock. | Coffeedant Journal",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    const readChoice = (raw) => {\n      try {\n        const saved = JSON.parse(raw || 'null');\n        if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) return"
+    },
+    {
+      "id": "6c8dff7f2102af8acf849c320a6083a1558ba45a4384111c14eb7f482e3806c2",
+      "source": "Illustrated sealed coffee bag beside whole beans and ground coffee",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    const readChoice = (raw) => {\n      try {\n        const saved = JSON.parse(raw || 'null');\n        if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) return"
+    },
+    {
+      "id": "b2c6fbcfe99c3cd0235d8b03777342be64b2bba9e903de9909839d8f7dca7d14",
+      "source": "Your coffee has more than one clock.",
+      "kind": "attribute",
+      "context": "← All storiesCoffeedant JournalBrew Lab / 10 Freshness / From roast to cupYour coffee has more than one clock.Resting, degassing and staling are different processes. Learn which clock you are actually trying to manage.Brew Lab · 6 min read · 13 October 2026 Original AI-assisted artwork by Coffeedant. Illustrative reconstruction; it documents no actual facility, visit or test. Inside the story01A date is a record, not a flavour guarantee02Resting is an extraction decision03Opening creates a second shelf life04Grinding moves the problem closer05Run a small experiment that answers your question06Buy for the pace at which you drink↗Sources & methodCoffeedant editorial deskPublished 13 October 2026Print this story ↗ The roast date starts a conversation; it does not finish one. A sealed bag, an open hopper and a dose of freshly ground coffee live on different timelines. Managing them well begins with separating gas release from aroma loss.CO₂gas released after roastingO₂oxygen matters in storageGrind lasta useful daily habit 01 /A date is a record, not a flavour guaranteeA roast date is useful because it gives you a known starting point. It does not tell you how the coffee was packed, how hot it became during transport or how often the bag has been opened. Two coffees of the same age can therefore have very different storage histories. The sensible question is not simply “How many days old?” but “What has happened since roasting?”ZHAW researchers distinguish gas release from the changes associated with aroma deterioration. Their time-resolved degassing research measures gas leaving roasted coffee and relates the process to packaging, extraction and crema. A bean can be losing gas while its usefulness for a particular brewing method is changing. This is one reason the youngest"
+    },
+    {
+      "id": "54154fec60f9e9839a2cfb41e93e3828da4d110cb4eb1d576074256cc2666700",
+      "source": "Brew Lab / 10",
+      "kind": "text",
+      "context": "Brew Lab / 10"
+    },
+    {
+      "id": "0c7412805c035296eeb7fd339e394d9867a1db36ee1c2c62f1df5e4817559a32",
+      "source": "Illustrated sealed coffee bag beside whole beans and ground coffee",
+      "kind": "attribute",
+      "context": "Freshness / From roast to cupYour coffee has more than one clock.Resting, degassing and staling are different processes. Learn which clock you are actually trying to manage.Brew Lab · 6 min read · 13 October 2026"
+    },
+    {
+      "id": "7f353f39a696779ea58275e302e0bfb77b75c7ea97687cf943986a3a9bd95f7f",
+      "source": "Freshness / From roast to cup",
+      "kind": "text",
+      "context": "Freshness / From roast to cup"
+    },
+    {
+      "id": "73e5c1eff7f36728b34fcef30b4234af2922abb458375fcb3c5c467e333e9be3",
+      "source": "Resting, degassing and staling are different processes. Learn which clock you are actually trying to manage.",
+      "kind": "text",
+      "context": "Resting, degassing and staling are different processes. Learn which clock you are actually trying to manage."
+    },
+    {
+      "id": "0d475f2b2929603eaa55442aa12918e4461d946911d887167e845a8efdc193b0",
+      "source": "Brew Lab · 6 min read · 13 October 2026",
+      "kind": "text",
+      "context": "Brew Lab · 6 min read · 13 October 2026"
+    },
+    {
+      "id": "7815bb80648f6c8ed44d920d3f2b7d5e8e96e75769f3771d624fb63d241a83de",
+      "source": "Chapters in Your coffee has more than one clock.",
+      "kind": "attribute",
+      "context": "Inside the story01A date is a record, not a flavour guarantee02Resting is an extraction decision03Opening creates a second shelf life04Grinding moves the problem closer05Run a small experiment that answers your question06Buy for the pace at which you drink↗Sources & methodCoffeedant editorial deskPublished 13 October 2026Print this story ↗"
+    },
+    {
+      "id": "830234dfe55f1c228c1d89e7ee7654f40068a6434d1c14ba692f4f374fae6b0f",
+      "source": "A date is a record, not a flavour guarantee",
+      "kind": "text",
+      "context": "01A date is a record, not a flavour guarantee"
+    },
+    {
+      "id": "92738e96a6918403bdc31133b96e1e4bcf491ffdca98cdd6bfbc8f4aad6fd751",
+      "source": "Resting is an extraction decision",
+      "kind": "text",
+      "context": "02Resting is an extraction decision"
+    },
+    {
+      "id": "4d0b2c24f193d7d18dfaff2a5dd206ab81ff6d9d297e3a9e772964548e46f1c1",
+      "source": "Opening creates a second shelf life",
+      "kind": "text",
+      "context": "03Opening creates a second shelf life"
+    },
+    {
+      "id": "eda6edc25445c94711178359d5f196c95f85fc9ce1e856ecf836fb7bc867988d",
+      "source": "Grinding moves the problem closer",
+      "kind": "text",
+      "context": "04Grinding moves the problem closer"
+    },
+    {
+      "id": "f181d35f9ddd7e2fd0ed36e269fce894516ccd9b6df2c869cf7e4b1d0f82f113",
+      "source": "Run a small experiment that answers your question",
+      "kind": "text",
+      "context": "05Run a small experiment that answers your question"
+    },
+    {
+      "id": "c21261f64f28906689c22e3d0c87e9bb715cfd5b5a83d3df273b5b84f52bed20",
+      "source": "Buy for the pace at which you drink",
+      "kind": "text",
+      "context": "06Buy for the pace at which you drink"
+    },
+    {
+      "id": "512a812ac2366d4de11ab0c6a744ccf569cc9efbf8005f73d2369089e486cb19",
+      "source": "The roast date starts a conversation; it does not finish one. A sealed bag, an open hopper and a dose of freshly ground coffee live on different timelines. Managing them well begins with separating gas release from aroma loss.",
+      "kind": "text",
+      "context": "The roast date starts a conversation; it does not finish one. A sealed bag, an open hopper and a dose of freshly ground coffee live on different timelines. Managing them well begins with separating gas release from aroma loss."
+    },
+    {
+      "id": "fced972388bc6c194499fc4fe21425392125d584128136e527d344b1a5bb607c",
+      "source": "gas released after roasting",
+      "kind": "text",
+      "context": "gas released after roasting"
+    },
+    {
+      "id": "d173b6c7e94bac6635273ac3e29f1e50052cea68e9993fa0ca3e6cca42e270e2",
+      "source": "O₂",
+      "kind": "text",
+      "context": "O₂"
+    },
+    {
+      "id": "fb3ce89c9584b0262ade0166410486a22301c2cd99e2fc9483fdffdb2634763e",
+      "source": "oxygen matters in storage",
+      "kind": "text",
+      "context": "oxygen matters in storage"
+    },
+    {
+      "id": "2c6bed6fe99f4d0543e67c5ad1e9cff3659fe676123b17c837811802f4fa2e01",
+      "source": "Grind last",
+      "kind": "text",
+      "context": "Grind last"
+    },
+    {
+      "id": "6dd99f366c903a5060ae1e1822796a92f504a8ffa81070744e4980e58108c86d",
+      "source": "a useful daily habit",
+      "kind": "text",
+      "context": "a useful daily habit"
+    },
+    {
+      "id": "9553638f3ce53bb3995074e4b93b84ae4186ef55b75d221f2ffbef3d8615ed0a",
+      "source": "A roast date is useful because it gives you a known starting point. It does not tell you how the coffee was packed, how hot it became during transport or how often the bag has been opened. Two coffees of the same age can therefore have very different storage histories. The sensible question is not simply “How many days old?” but “What has happened since roasting?”",
+      "kind": "text",
+      "context": "A roast date is useful because it gives you a known starting point. It does not tell you how the coffee was packed, how hot it became during transport or how often the bag has been opened. Two coffees of the same age can therefore have very different storage histories. The sensible question is not simply “How many days old?” but “What has happened since roasting?”"
+    },
+    {
+      "id": "8b0f05aea7033b800689f658c591d755e451a7ca4941066ef61a2f15d8371a6d",
+      "source": "ZHAW researchers distinguish gas release from the changes associated with aroma deterioration. Their",
+      "kind": "text",
+      "context": "ZHAW researchers distinguish gas release from the changes associated with aroma deterioration. Their time-resolved degassing research measures gas leaving roasted coffee and relates the process to packaging, extraction and crema. A bean can be losing gas while its usefulness for a particular brewing method is changing. This is one reason the youngest available coffee is not automatically the easiest espresso to dial in."
+    },
+    {
+      "id": "f1ca31e7ede17d8e394c7883bb3e6c97cf3ccfe7e01305824ac5aaf5c8c35871",
+      "source": "time-resolved degassing research",
+      "kind": "text",
+      "context": "time-resolved degassing research"
+    },
+    {
+      "id": "d5b3b80321c065f9ae803c09a7b455a9ca90fd46014d8dc3b7052b083758e51f",
+      "source": "measures gas leaving roasted coffee and relates the process to packaging, extraction and crema. A bean can be losing gas while its usefulness for a particular brewing method is changing. This is one reason the youngest available coffee is not automatically the easiest espresso to dial in.",
+      "kind": "text",
+      "context": "ZHAW researchers distinguish gas release from the changes associated with aroma deterioration. Their time-resolved degassing research measures gas leaving roasted coffee and relates the process to packaging, extraction and crema. A bean can be losing gas while its usefulness for a particular brewing method is changing. This is one reason the youngest available coffee is not automatically the easiest espresso to dial in."
+    },
+    {
+      "id": "dbe0e3f67238fefa36248b6c044b59d017ed5e6f4b1be23d70ba29c20f973998",
+      "source": "Think of three clocks: time since roast, time since opening, and time since grinding. Write down the first two on your bag if you want to compare routines. Keep the third short in normal daily use by grinding the dose close to brewing. This framework is simple enough to follow without claiming every coffee has the same expiry hour.",
+      "kind": "text",
+      "context": "Think of three clocks: time since roast, time since opening, and time since grinding. Write down the first two on your bag if you want to compare routines. Keep the third short in normal daily use by grinding the dose close to brewing. This framework is simple enough to follow without claiming every coffee has the same expiry hour."
+    },
+    {
+      "id": "0a4cb393c9cfc6ee326512390a9f2a4f249c548acf3c5382dabadfe3835f4126",
+      "source": "The starting point / photograph",
+      "kind": "text",
+      "context": "The starting point / photograph"
+    },
+    {
+      "id": "79d5d627bbd7eb43c98c1a5dd96054ae48b6e5627e635da81c8d45cb44500202",
+      "source": "View source: Newly roasted coffee falling into a cooling tray at a roastery",
+      "kind": "attribute",
+      "context": "The starting point / photograph    Roasted coffee drops onto a cooling sieve at Kaffeerösterei Münchhausen in Bremen. The roast date starts the timeline; it does not, by itself, establish the best day to brew.Jürgen Howaldt / Wikimedia Commons · Source · CC BY-SA 2.0 de · Resized and converted to WebP."
+    },
+    {
+      "id": "8a037437fddaffbe786f8666b94dfa84b9c976d146c72c74eccd3017efdc30b1",
+      "source": "Newly roasted coffee falling into a cooling tray at a roastery",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "0761bd23c75298d73b47e6345cadd618caaaefef3180df3e894b9625ea58b2a7",
+      "source": "Roasted coffee drops onto a cooling sieve at Kaffeerösterei Münchhausen in Bremen. The roast date starts the timeline; it does not, by itself, establish the best day to brew.",
+      "kind": "text",
+      "context": "Roasted coffee drops onto a cooling sieve at Kaffeerösterei Münchhausen in Bremen. The roast date starts the timeline; it does not, by itself, establish the best day to brew."
+    },
+    {
+      "id": "7ef7023aea6c42a8ae96157911426a420f0245123965f52605d3449f25f31ff1",
+      "source": "Jürgen Howaldt / Wikimedia Commons ·",
+      "kind": "text",
+      "context": "Jürgen Howaldt / Wikimedia Commons · Source · CC BY-SA 2.0 de · Resized and converted to WebP."
+    },
+    {
+      "id": "eb52b135fe24a6f05e5b6dc6d69518a821c4d31ca0995e0fc916a7da6b04f4ed",
+      "source": "CC BY-SA 2.0 de",
+      "kind": "text",
+      "context": "CC BY-SA 2.0 de"
+    },
+    {
+      "id": "43d84317d854a0b39a8dfed1d5561d85f0ad48801b83cdef9f774daf16bede20",
+      "source": "Resting means allowing time between roasting and brewing. It is often discussed as though the coffee is improving in a single predictable direction. In practice you are deciding when it behaves and tastes best for your chosen method. A roaster’s suggested rest window can be a sensible starting point because they know their coffee and roast approach. Treat it as a guide to test rather than a law.",
+      "kind": "text",
+      "context": "Resting means allowing time between roasting and brewing. It is often discussed as though the coffee is improving in a single predictable direction. In practice you are deciding when it behaves and tastes best for your chosen method. A roaster’s suggested rest window can be a sensible starting point because they know their coffee and roast approach. Treat it as a guide to test rather than a law."
+    },
+    {
+      "id": "db64601991ed74b75c33d3aaced7a3826df519d5c00a561e8967479e08058ed0",
+      "source": "The",
+      "kind": "text",
+      "context": "The SCA’s freshness explainer connects carbon dioxide release with espresso crema and filter blooming. It also describes much faster gas loss after grinding. These observations explain visible brewing behaviour; they do not make the size of a bloom a complete sensory quality score. A dramatic foam display tells you something about gas, not everything about flavour."
+    },
+    {
+      "id": "93e0c86288cc50b196d648396470f3e6822e9d518eaa294b3546af1b4b9d0883",
+      "source": "SCA’s freshness explainer",
+      "kind": "text",
+      "context": "SCA’s freshness explainer"
+    },
+    {
+      "id": "0e3200af814fe6e74a489ac1feb71634e09b0825fa3259faf6cd91f2a6e4d93c",
+      "source": "connects carbon dioxide release with espresso crema and filter blooming. It also describes much faster gas loss after grinding. These observations explain visible brewing behaviour; they do not make the size of a bloom a complete sensory quality score. A dramatic foam display tells you something about gas, not everything about flavour.",
+      "kind": "text",
+      "context": "The SCA’s freshness explainer connects carbon dioxide release with espresso crema and filter blooming. It also describes much faster gas loss after grinding. These observations explain visible brewing behaviour; they do not make the size of a bloom a complete sensory quality score. A dramatic foam display tells you something about gas, not everything about flavour."
+    },
+    {
+      "id": "ea5ffd38755f1ed0eddda2a611c310a1ab7bf420d1272cf0543f7830ce8d0792",
+      "source": "For espresso, record whether shots are difficult to repeat early in the bag and whether they become more consistent later. Keep dose and yield steady while comparing. For filter brewing, observe the bloom but judge the finished cup. A rest recommendation should ultimately help you choose when to open the bag, not make you postpone enjoyable coffee because an internet calendar says it is too young.",
+      "kind": "text",
+      "context": "For espresso, record whether shots are difficult to repeat early in the bag and whether they become more consistent later. Keep dose and yield steady while comparing. For filter brewing, observe the bloom but judge the finished cup. A rest recommendation should ultimately help you choose when to open the bag, not make you postpone enjoyable coffee because an internet calendar says it is too young."
+    },
+    {
+      "id": "77410bcefebc16c31938e6d1c09a00c63e55d420737a14ca12951a3f013e38ed",
+      "source": "One coffee. Three clocks.",
+      "kind": "text",
+      "context": "One coffee. Three clocks."
+    },
+    {
+      "id": "873d1c119dd9028076a472da7fb4a798d54866866ec6406e4c3a2b8adca476c7",
+      "source": "Roast & sealed rest",
+      "kind": "text",
+      "context": "Roast & sealed rest"
+    },
+    {
+      "id": "84d9a56f57adf87d1404b43a86205cf63f658bc33b93a07eb8d7fbd8527c1e07",
+      "source": "Gas-release clock begins",
+      "kind": "text",
+      "context": "Gas-release clock begins"
+    },
+    {
+      "id": "06e00bf9bc38631b9e9b5803b2f8f1a41eef4aa3366111c43561f9111f31c38c",
+      "source": "Open the package",
+      "kind": "text",
+      "context": "Open the package"
+    },
+    {
+      "id": "6e44b284cea165b4484a9b2491b928f310d572cc93a830cf3318d93ef2095010",
+      "source": "Exposure and closure matter",
+      "kind": "text",
+      "context": "Exposure and closure matter"
+    },
+    {
+      "id": "0730a59d4c46d3d28da56a2434ff7c5c8efba2d83de187f26f60b57a1c8d6c98",
+      "source": "Grind the dose",
+      "kind": "text",
+      "context": "Grind the dose"
+    },
+    {
+      "id": "ae766e58b3371a69a898b6263a9ac5d8f06036f6f3692994763cfdd3749348c9",
+      "source": "More exposed surface",
+      "kind": "text",
+      "context": "More exposed surface"
+    },
+    {
+      "id": "a0bd3b83664c199f5652a6c3a786585306d4668f6228f87e0f9e90ee46520412",
+      "source": "Brew & taste",
+      "kind": "text",
+      "context": "Brew & taste"
+    },
+    {
+      "id": "6021022fbdbf4b35ab7e0ea7d9eeadb2ec3294660d72e5d8b33d2ce0feafd809",
+      "source": "Judge the finished cup",
+      "kind": "text",
+      "context": "Judge the finished cup"
+    },
+    {
+      "id": "d9a6d07cde3a010838337f3dc0e74c6fa7222eaa6eb2eff4b3bcfe8aa243c1f4",
+      "source": "Conceptual sequence, not an experimentally fitted freshness curve. No universal expiry is implied.",
+      "kind": "text",
+      "context": "Conceptual sequence, not an experimentally fitted freshness curve. No universal expiry is implied."
+    },
+    {
+      "id": "9b6eae1c30aa2a334e4e8c956a50c91673fd078f5a0e59fadc14bb0c656402dd",
+      "source": "A 2022 study compared four storage approaches after opening whole-bean coffee: transfer to a canister, tape closure, clip closure and packaging with an integrated screw cap. The screw-cap format performed best under that study’s conditions, measured through chemical freshness indices. The authors explicitly said further sensory work was needed to establish an acceptance threshold.",
+      "kind": "text",
+      "context": "A 2022 study compared four storage approaches after opening whole-bean coffee: transfer to a canister, tape closure, clip closure and packaging with an integrated screw cap. The screw-cap format performed best under that study’s conditions, measured through chemical freshness indices. The authors explicitly said further sensory work was needed to establish an acceptance threshold. Read the storage study."
+    },
+    {
+      "id": "80ff4d3d35169e32d12f194d522dcff4940cc66733bd2add745d46ba1ae8badf",
+      "source": "Read the storage study",
+      "kind": "text",
+      "context": "Read the storage study"
+    },
+    {
+      "id": "6a79b8691c55dbc4fd8cd4ce9892a9be7fb1e119106ea61498b60cbd4cd2d457",
+      "source": "This is useful evidence for closure quality, but it is not a universal league table of every canister sold today. Container volume, sealing, oxygen exposure and the coffee itself can differ. The practical lesson is to close the coffee reliably, keep the original bag if it seals well, and avoid repeatedly exposing a large quantity when you only need one dose.",
+      "kind": "text",
+      "context": "This is useful evidence for closure quality, but it is not a universal league table of every canister sold today. Container volume, sealing, oxygen exposure and the coffee itself can differ. The practical lesson is to close the coffee reliably, keep the original bag if it seals well, and avoid repeatedly exposing a large quantity when you only need one dose."
+    },
+    {
+      "id": "aefebf74890c9fe5f88c4e76502b2f68ad917c304bdb2f6b58a1b118f9e6fad0",
+      "source": "An open hopper is convenient inventory, not equivalent to sealed storage. If you make only a few drinks a day, consider keeping less coffee in it and adding what you expect to use. Check your grinder’s intended workflow before single-dosing: some designs rely on hopper loading or retain enough grounds that a nominal single dose does not describe what reaches the cup.",
+      "kind": "text",
+      "context": "An open hopper is convenient inventory, not equivalent to sealed storage. If you make only a few drinks a day, consider keeping less coffee in it and adding what you expect to use. Check your grinder’s intended workflow before single-dosing: some designs rely on hopper loading or retain enough grounds that a nominal single dose does not describe what reaches the cup."
+    },
+    {
+      "id": "5c6055ea8d78b150ec42daf434aed3ad5a9bb23f9c60e0a5ddfbbb01749c18df",
+      "source": "$50 Coffee Grinder Vs Pre-ground From A $3,500 Grinder",
+      "kind": "text",
+      "context": "$50 Coffee Grinder Vs Pre-ground From A $3,500 Grinder"
+    },
+    {
+      "id": "914a96d44e4f4e4132e10ea588732c5564bfdc730836b6f3675765e17b5ec600",
+      "source": "A useful challenge to the blanket phrase ‘fresh is always best’: this comparison asks how grinder quality interacts with time since grinding. Its specific setup is context, rather than a universal storage deadline.",
+      "kind": "text",
+      "context": "A useful challenge to the blanket phrase ‘fresh is always best’: this comparison asks how grinder quality interacts with time since grinding. Its specific setup is context, rather than a universal storage deadline."
+    },
+    {
+      "id": "36d3598444caedc5e5f3ee9029d54fbedbe107509d468ef52d249e1acc079cf8",
+      "source": "Play $50 Coffee Grinder Vs Pre-ground From A $3,500 Grinder",
+      "kind": "attribute",
+      "context": "▶Watch with James Hoffmann"
+    },
+    {
+      "id": "db0befd4c3086fab1e4ecd130c8ef8645744dd8e4262c83fdb83275eba00a60f",
+      "source": "ZHAW’s",
+      "kind": "text",
+      "context": "ZHAW’s Transformation of Coffee research program studies roasting, grinding, packaging and aroma release together. Its work identifies grind size, roast conditions, coffee type and moisture as variables in aroma and gas-release dynamics. “Ground coffee” is therefore not one fixed state with a universal countdown."
+    },
+    {
+      "id": "b2522f79b540cdd7337ca5ba734e209fd16dd7537af4f2e01ad3c40f3468043e",
+      "source": "Transformation of Coffee research program",
+      "kind": "text",
+      "context": "Transformation of Coffee research program"
+    },
+    {
+      "id": "eb38118927d0446d458a77351628f55a88f7408c30a1ed17c13d1f74883a6421",
+      "source": "studies roasting, grinding, packaging and aroma release together. Its work identifies grind size, roast conditions, coffee type and moisture as variables in aroma and gas-release dynamics. “Ground coffee” is therefore not one fixed state with a universal countdown.",
+      "kind": "text",
+      "context": "ZHAW’s Transformation of Coffee research program studies roasting, grinding, packaging and aroma release together. Its work identifies grind size, roast conditions, coffee type and moisture as variables in aroma and gas-release dynamics. “Ground coffee” is therefore not one fixed state with a universal countdown."
+    },
+    {
+      "id": "12bfb62f4ae29e314e116705fbf999cb855072d25f64e525c3242125daee5d22",
+      "source": "For an ordinary home routine, weigh the beans, prepare the machine or brewer, then grind. Leaving a dose on the counter while you do several other jobs adds a storage stage you do not need. If you need preground coffee for accessibility, travel or equipment reasons, buy manageable quantities, seal them well and use a repeatable recipe. Good practical coffee does not require treating convenience as a failure.",
+      "kind": "text",
+      "context": "For an ordinary home routine, weigh the beans, prepare the machine or brewer, then grind. Leaving a dose on the counter while you do several other jobs adds a storage stage you do not need. If you need preground coffee for accessibility, travel or equipment reasons, buy manageable quantities, seal them well and use a repeatable recipe. Good practical coffee does not require treating convenience as a failure."
+    },
+    {
+      "id": "78bc9889d9116749a9a6bb28904587c04c08d42d5eefe64be54197218ff4966c",
+      "source": "Do not rely on the smell above an open bag as a permanent measure of what will remain in the drink. Aroma reaching your nose is wonderful, but it is also aroma leaving the coffee. The purpose of storage is to keep enough of the coffee’s desirable character available for the brew, not to maximize the room’s fragrance every time you open the cupboard.",
+      "kind": "text",
+      "context": "Do not rely on the smell above an open bag as a permanent measure of what will remain in the drink. Aroma reaching your nose is wonderful, but it is also aroma leaving the coffee. The purpose of storage is to keep enough of the coffee’s desirable character available for the brew, not to maximize the room’s fragrance every time you open the cupboard."
+    },
+    {
+      "id": "eec254dbdaaad123bf516fdd171065917d157b970d47c7547d056bd5b8b79be3",
+      "source": "Match the decision to the relevant clock",
+      "kind": "text",
+      "context": "Match the decision to the relevant clock"
+    },
+    {
+      "id": "ff46557557b85c6f565b6c3520276df3445f5cfd577e965c5134bb6fbd091d8b",
+      "source": "Clock",
+      "kind": "text",
+      "context": "Clock"
+    },
+    {
+      "id": "9ecabe2b9653d37cabf5aee3ebf6d2e91474df71afd01fb7775756881327ccd2",
+      "source": "Useful question",
+      "kind": "text",
+      "context": "Useful question"
+    },
+    {
+      "id": "1bfa7d0c42b8fcf08bcee46e35981f054d53e8b66f796c12c8e567bc1924ae5f",
+      "source": "Since roasting",
+      "kind": "text",
+      "context": "Since roasting"
+    },
+    {
+      "id": "cc47bb8d7bf8fb6febf417b4ecb5761223ba6e8723ca0ce03e9ca572111049e5",
+      "source": "When does this coffee brew consistently?",
+      "kind": "text",
+      "context": "When does this coffee brew consistently?"
+    },
+    {
+      "id": "780d58b44c20c9625afc44533542e7567f45407a139e72e5ee96dbe7bc12f5bf",
+      "source": "Use the roaster’s window, then compare",
+      "kind": "text",
+      "context": "Use the roaster’s window, then compare"
+    },
+    {
+      "id": "540af75705cbe6518c0f84b567e9217993fdcc90dedd01e46f830914cd8cd729",
+      "source": "Since opening",
+      "kind": "text",
+      "context": "Since opening"
+    },
+    {
+      "id": "61891af47c883a955bac4cbe213ec162168e135abf682225e12f42b441b109ff",
+      "source": "How often is the bulk exposed?",
+      "kind": "text",
+      "context": "How often is the bulk exposed?"
+    },
+    {
+      "id": "54a3a7ce189f0019845396936736806a3d7e10c1cba6aeda6646e3f4642eea21",
+      "source": "Seal reliably and match bag size to use",
+      "kind": "text",
+      "context": "Seal reliably and match bag size to use"
+    },
+    {
+      "id": "761a3c0e32f558bd0c24a09fd20e277387a54c354ca79c5c91171a0c5da80cf0",
+      "source": "Since grinding",
+      "kind": "text",
+      "context": "Since grinding"
+    },
+    {
+      "id": "a24129980a8a59845fd43bfddb3e9e5b36feb01f2ae5299146bca530ed64eb90",
+      "source": "Why is this dose waiting?",
+      "kind": "text",
+      "context": "Why is this dose waiting?"
+    },
+    {
+      "id": "d93dcf939effb2cef8d2b73d31151b40cf978bb9725e8e3174ff4b533d552f04",
+      "source": "Prepare equipment first and grind near brewing",
+      "kind": "text",
+      "context": "Prepare equipment first and grind near brewing"
+    },
+    {
+      "id": "cf3b67687dd437eaba6d73c874f20ad49c060abeb26a2536f26a23abdb4e9775",
+      "source": "Consumption pace",
+      "kind": "text",
+      "context": "Consumption pace"
+    },
+    {
+      "id": "343fde951d0d0e2cfdb76ee115e22769f041f438800f3e50dac404df6584e33c",
+      "source": "How long will the bag actually last?",
+      "kind": "text",
+      "context": "How long will the bag actually last?"
+    },
+    {
+      "id": "d61c5594103a86a3e4d2ca3d66184ca35d5720f23d5bc39252f7701cf5427444",
+      "source": "Calculate grams per week before buying",
+      "kind": "text",
+      "context": "Calculate grams per week before buying"
+    },
+    {
+      "id": "88bb9b7d789d1afff07eb763b64b9901b4c868ecf35a98afe4533045ea221b5b",
+      "source": "If you want to know when a particular espresso tastes best, use one bag and brew on several days within the roaster’s recommended period. Record the grind setting alongside dose, yield and time. Taste at similar drinking temperatures. Describe obvious differences in ordinary words: sweeter, drier, more intense, easier to repeat. The useful result is a personal opening schedule for that coffee, not a new universal rule.",
+      "kind": "text",
+      "context": "If you want to know when a particular espresso tastes best, use one bag and brew on several days within the roaster’s recommended period. Record the grind setting alongside dose, yield and time. Taste at similar drinking temperatures. Describe obvious differences in ordinary words: sweeter, drier, more intense, easier to repeat. The useful result is a personal opening schedule for that coffee, not a new universal rule."
+    },
+    {
+      "id": "b558c7526a15b9b490322833b20c155d6699458b387553064a2b426b153fee43",
+      "source": "If you want to compare storage, divide a bag into smaller portions immediately and use two realistic closures. Keep the portions in the same environment. Brew corresponding samples with the same recipe over your actual consumption period. You will not have a laboratory freshness index, but you can decide whether a change is worth the inconvenience in your kitchen.",
+      "kind": "text",
+      "context": "If you want to compare storage, divide a bag into smaller portions immediately and use two realistic closures. Keep the portions in the same environment. Brew corresponding samples with the same recipe over your actual consumption period. You will not have a laboratory freshness index, but you can decide whether a change is worth the inconvenience in your kitchen."
+    },
+    {
+      "id": "9fa69bb5069914d443155695c23303c0caa116920278e5d3fe9631c28b24cba0",
+      "source": "Do not compare a fresh bag with an old bag from a different roast and conclude that every difference is age. Roast level, green coffee and processing create their own differences. A controlled comparison is valuable precisely because it limits how many explanations remain.",
+      "kind": "text",
+      "context": "Do not compare a fresh bag with an old bag from a different roast and conclude that every difference is age. Roast level, green coffee and processing create their own differences. A controlled comparison is valuable precisely because it limits how many explanations remain."
+    },
+    {
+      "id": "079e4b3b361451145260879b6c95a8edc58c80299cccb4cd8a608916ee0d5844",
+      "source": "Before grinding / photograph",
+      "kind": "text",
+      "context": "Before grinding / photograph"
+    },
+    {
+      "id": "b7c5e4bb7e096fe087987957ae52919e9901b1d7650c53a3544a178490a3deeb",
+      "source": "View source: Close-up of whole roasted coffee beans",
+      "kind": "attribute",
+      "context": "Before grinding / photograph    Whole roasted beans retain their structure until grinding. The photograph illustrates that physical state, rather than measuring the beans’ age, gas content or aroma.MarkSweep / Wikimedia Commons · Source · Public domain · Resized and converted to WebP."
+    },
+    {
+      "id": "07076a47f1bd27f80d7522cae1280719e6ffdcaf52d0d5cbe91ef72eb7c608d4",
+      "source": "Whole roasted beans retain their structure until grinding. The photograph illustrates that physical state, rather than measuring the beans’ age, gas content or aroma.",
+      "kind": "text",
+      "context": "Whole roasted beans retain their structure until grinding. The photograph illustrates that physical state, rather than measuring the beans’ age, gas content or aroma."
+    },
+    {
+      "id": "fb1115f40ad3769232fd7dec1b19f84ddba9df7fe275879d269ebc4ebdcd7db2",
+      "source": "Estimate your weekly use before choosing a bag size. At 18 grams per drink, two drinks a day use about 252 grams per week before dial-in waste. A kilogram lasts that household roughly four weeks. That arithmetic does not declare the final week unacceptable; it makes the storage and closure question visible before you order.",
+      "kind": "text",
+      "context": "Estimate your weekly use before choosing a bag size. At 18 grams per drink, two drinks a day use about 252 grams per week before dial-in waste. A kilogram lasts that household roughly four weeks. That arithmetic does not declare the final week unacceptable; it makes the storage and closure question visible before you order."
+    },
+    {
+      "id": "d4a8fc13cd8c9d81478dd09483a69c58da75506c737e81d92e7f46939dff512e",
+      "source": "A smaller bag costs more per gram in some shops, but it may match your habits better. If you alternate among several coffees, calculate consumption across all of them rather than assuming every open bag is being used daily. Label the opening date and keep the coffee in a cool, dry place away from unnecessary heat exposure.",
+      "kind": "text",
+      "context": "A smaller bag costs more per gram in some shops, but it may match your habits better. If you alternate among several coffees, calculate consumption across all of them rather than assuming every open bag is being used daily. Label the opening date and keep the coffee in a cool, dry place away from unnecessary heat exposure."
+    },
+    {
+      "id": "31d553aa4a52c78554ea558698e6f8b36f3c035a3558c6d099a9dcf15b9d54dd",
+      "source": "The timeline below intentionally has no numerical freshness score. It shows the transitions you can manage: roast, sealed rest, opening, grinding and brewing. Roast date gives you context; a reliable seal protects your routine; grinding near brew time removes an avoidable delay. These habits let the coffee speak more clearly without pretending a single countdown applies to every bean.",
+      "kind": "text",
+      "context": "The timeline below intentionally has no numerical freshness score. It shows the transitions you can manage: roast, sealed rest, opening, grinding and brewing. Roast date gives you context; a reliable seal protects your routine; grinding near brew time removes an avoidable delay. These habits let the coffee speak more clearly without pretending a single countdown applies to every bean."
+    },
+    {
+      "id": "aef7dba26a102f6dce7e0e4f48240bb9f81726ef6e7351e25ce26e5fec12cd36",
+      "source": "Record roast and opening dates. Keep storage consistent. Grind near brewing—and judge the cup rather than a universal freshness countdown.",
+      "kind": "text",
+      "context": "Record roast and opening dates. Keep storage consistent. Grind near brewing—and judge the cup rather than a universal freshness countdown."
+    },
+    {
+      "id": "de9dc758f291f25f1e74aed3d0634f3794767ddd8d9e47155692076c570c9342",
+      "source": "Does a big bloom prove good coffee?",
+      "kind": "text",
+      "context": "Does a big bloom prove good coffee?"
+    },
+    {
+      "id": "8ecc024159843851a23faf44c22801ca445f209363d41b3c657819bfaa91822e",
+      "source": "It mainly provides evidence about gas release. Taste the finished cup to judge whether you enjoy it.",
+      "kind": "text",
+      "context": "It mainly provides evidence about gas release. Taste the finished cup to judge whether you enjoy it."
+    },
+    {
+      "id": "dc2069f7253c8eeeceea200fdf3cb2f37f605aedefc2ca5a512da4ed783a46c4",
+      "source": "Is the day after roasting always best?",
+      "kind": "text",
+      "context": "Is the day after roasting always best?"
+    },
+    {
+      "id": "ff72cace1588587bcc5b157f2095ffa5b76a092b8d6394b8c88436b1859d7a2f",
+      "source": "No. Resting needs vary with coffee, roast and brewing method. Begin with the roaster’s guidance and compare.",
+      "kind": "text",
+      "context": "No. Resting needs vary with coffee, roast and brewing method. Begin with the roaster’s guidance and compare."
+    },
+    {
+      "id": "5df225e2a20d96aafd1ace61d3d975147a6cdf224918f8a288a1384d531fa780",
+      "source": "Does the storage study prove every screw cap beats every canister?",
+      "kind": "text",
+      "context": "Does the storage study prove every screw cap beats every canister?"
+    },
+    {
+      "id": "df1df0ee60c322fdf0c61a7b67a1a271bdb7c86aba1c5828b94c444659538cca",
+      "source": "No. It tested particular formats under particular conditions using chemical indices. The result does not rank all storage products.",
+      "kind": "text",
+      "context": "No. It tested particular formats under particular conditions using chemical indices. The result does not rank all storage products."
+    },
+    {
+      "id": "b1d579c24172d5ace3c2fdbf15c237af14fc323e9e8504337c42bd2f95c4e263",
+      "source": "Smrke et al.: time-resolved degassing ↗",
+      "kind": "text",
+      "context": "Smrke et al.: time-resolved degassing ↗"
+    },
+    {
+      "id": "b068d68241f01ca2a7fe098999aa35560763343dbbb6e31e3132a318ae523d0c",
+      "source": "Peer-reviewed gas-release measurements; not a universal rest window.",
+      "kind": "text",
+      "context": "Peer-reviewed gas-release measurements; not a universal rest window."
+    },
+    {
+      "id": "17f6acd21a5b514e36b2e76b3b1f8999f83189b1d6229f300f712504578c3920",
+      "source": "SCA: what is freshly roasted coffee? ↗",
+      "kind": "text",
+      "context": "SCA: what is freshly roasted coffee? ↗"
+    },
+    {
+      "id": "b35736963845fd5a69ad2603bd1b5bbcfc9ebeb041a9dd8b48ad0f352d63847d",
+      "source": "Scientific communication on degassing, bloom and crema.",
+      "kind": "text",
+      "context": "Scientific communication on degassing, bloom and crema."
+    },
+    {
+      "id": "e2420cc7cb6d201fe3fb645e0fd146e06087b56b6871eecae65d1245d1d636a7",
+      "source": "ZHAW: opened-package storage study ↗",
+      "kind": "text",
+      "context": "ZHAW: opened-package storage study ↗"
+    },
+    {
+      "id": "424b641b3c014179381533c1a95842147696f13a89c300c19422a43c11c01e35",
+      "source": "Chemical freshness indices and explicit sensory limitations.",
+      "kind": "text",
+      "context": "Chemical freshness indices and explicit sensory limitations."
+    },
+    {
+      "id": "6d1c0d549b64505440db90efd38af7af55bdc4d54edbcddb7642402609709ab6",
+      "source": "ZHAW: Transformation of Coffee ↗",
+      "kind": "text",
+      "context": "ZHAW: Transformation of Coffee ↗"
+    },
+    {
+      "id": "c62e36f2bb55f7064afa5f4771bf25270af1010836daee208d9ead36f88af1c5",
+      "source": "Research variables in grinding, aroma release and storage.",
+      "kind": "text",
+      "context": "Research variables in grinding, aroma release and storage."
+    },
+    {
+      "id": "0b0af6c3376562170107d9e142acc56aa195cab86e52c4093e2288179c1cc738",
+      "source": "Illustrated sealed coffee bag beside whole beans and ground coffee",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "68883e25043723ebe7ee5b6fa3c1a323de8d99897722aea5eeb0e844812e9e84",
+      "source": "Newly roasted coffee falling into a cooling tray at a roastery",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "4bb00b85a2b38471b24199f7341bd79f380822518b6e64111fafa63136d8ee98",
+      "source": "Roasted coffee drops onto a cooling sieve at Kaffeerösterei Münchhausen in Bremen. The roast date starts the timeline; it does not, by itself, establish the best day to brew. Jürgen Howaldt / Wikimedia Commons · Source · CC BY-SA 2.0 de · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "3c0acf4b8afc526489ee3bfaa18da2ae4934cbbaa256a1f74b1c4b74c44c2b56",
+      "source": "Jürgen Howaldt / Wikimedia Commons · Source · CC BY-SA 2.0 de · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "35a1aef7f83bc9c0f01c3a3d45f549e6989cc8f8382998298449ef128695622c",
+      "source": "Whole roasted beans retain their structure until grinding. The photograph illustrates that physical state, rather than measuring the beans’ age, gas content or aroma. MarkSweep / Wikimedia Commons · Source · Public domain · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "f89bf562c0bf33392ad15bc71810622251745fe6a60e1c25f7b38f27e8968076",
+      "source": "MarkSweep / Wikimedia Commons · Source · Public domain · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "a83b46cffada9c62ceac7ffb726ceb187b0dc5ca73f28aa67556c37815e076dd",
+      "source": "Your coffee has more than one clock. | Coffeedant Journal",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "2e3083c9cc0e11ed9f2cc6784a73134599a03cd9c6ef416c7c2581d04c829b5c",
+      "source": "Resting, degassing and staling are different processes. Learn which clock you are actually trying to manage.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "2e47825727208c0e5faae1d2fef5fd9fe37aa3e1044b14c913a9df8f6870b9a5",
+      "source": "Your coffee has more than one clock.",
+      "kind": "json",
+      "context": "headline"
+    },
+    {
+      "id": "4ffb079794ec933c563b97b1e098f5b295f4b8fe8104ef3f70b9812aaf765594",
+      "source": "Roasted coffee drops onto a cooling sieve at Kaffeerösterei Münchhausen in Bremen. The roast date starts the timeline; it does not, by itself, establish the best day to brew.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "3f1a99cce2f38eb1aa9d3412e0c3d014f210dd5a434bb1ca3410d1d5e8e1a72d",
+      "source": "Jürgen Howaldt / Wikimedia Commons",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "43106a8eac61e5c4c7c65ae040c7479049cf9efa50b512c9f877f33b0113e3e3",
+      "source": "Whole roasted beans retain their structure until grinding. The photograph illustrates that physical state, rather than measuring the beans’ age, gas content or aroma.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "f5d793d7ca4f86bd69e961ba46ab37096462191f0fb79d9a58a00c1e94cda87b",
+      "source": "MarkSweep / Wikimedia Commons",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "959c054c7b254e9ca5d365ff58a63bf3c155ff9ed49548999e1d9eecb5726dc1",
+      "source": "$50 Coffee Grinder Vs Pre-ground From A $3,500 Grinder",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "cf2cd943e11532c07d47691f02c11df300e9d50532b428c08dfc9122e011a8d6",
+      "source": "A useful challenge to the blanket phrase ‘fresh is always best’: this comparison asks how grinder quality interacts with time since grinding. Its specific setup is context, rather than a universal storage deadline.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "575e6d1a42797fc37ade39b023ee8aeff0f81995903c206e49f5fc737d9a7e88",
+      "source": "Does a big bloom prove good coffee?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "6291625f851245ab4a1ad3d70a9a0931d8824586a6367147095606991e9f491f",
+      "source": "It mainly provides evidence about gas release. Taste the finished cup to judge whether you enjoy it.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "cbdf61507b7d9a5d564ba115393f3f5b5d134b81b847754c286e804cdb4356db",
+      "source": "Is the day after roasting always best?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "9f403b4b43e61edd1e55cfae110bda8a12670fae3e7144c1ac65351a63bfa2c1",
+      "source": "No. Resting needs vary with coffee, roast and brewing method. Begin with the roaster’s guidance and compare.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "cf40bb7546b08a0047e2329fa71910f5dd0fc5e66755d5f2498204c541aa8c3e",
+      "source": "Does the storage study prove every screw cap beats every canister?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "61b6ff03d712fff4c61a053f11667bbfd9bae84111646a0528edca420b86b1f7",
+      "source": "No. It tested particular formats under particular conditions using chemical indices. The result does not rank all storage products.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "8e5aebdb942248461148f9d0f2010946a9e2a047da0d04ce040af1fcf191026e",
+      "source": "Original illustration of an Asian palm civet freely resting on a tropical forest branch",
+      "kind": "attribute",
+      "context": "04"
+    },
+    {
+      "id": "72b03a8a5d18ff1bd1449777ef1b9132d35f15fc6487b3c97bb6bd4cb0e2844c",
+      "source": "Kopi luwak turned an unlikely production method into a global talking point. Its next chapter should begin with evidence about the beans—and the animals.",
+      "kind": "text",
+      "context": "Kopi luwak turned an unlikely production method into a global talking point. Its next chapter should begin with evidence about the beans—and the animals."
+    },
+    {
+      "id": "522ba691f93ea78f9bb65d678fa047fbc3a126b5e105ddec58efba7b3662b0aa",
+      "source": "Original illustration of an Asian palm civet freely resting on a tropical forest branch",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "e7795f88511a31218b35ab8340c8cf5bf63617c030eb8a583d7f30b55f2d8428",
+      "source": "The animal inside coffee’s most unforgettable story",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "facca1719b8f132984cd0a9bdb973d005be3a75a7f75594d6220a7af78e36be6",
+      "source": "The animal inside coffee’s most unforgettable story | Coffeedant Journal",
+      "kind": "text",
+      "context": "The animal inside coffee’s most unforgettable story | Coffeedant Journal"
+    },
+    {
+      "id": "789392ffd0c931ee6d21096047e69e170b4f7aeb83b2e086a91a9b57d11064c1",
+      "source": "Kopi luwak turned an unlikely production method into a global talking point. Its next chapter should begin with evidence about the beans—and the animals.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    const readChoice = (raw) => {\n      try {\n        const saved = JSON.parse(raw || 'null');\n        if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) return"
+    },
+    {
+      "id": "4f360bd56cf2fe23cc0119b9bc9c3522c854083595f6195989b3ee7056d0ef20",
+      "source": "The animal inside coffee’s most unforgettable story | Coffeedant Journal",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    const readChoice = (raw) => {\n      try {\n        const saved = JSON.parse(raw || 'null');\n        if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) return"
+    },
+    {
+      "id": "03e426e39b5a03c6711f7d6c6f6b7692db1afd8ac6bc5496bc908f93190b445d",
+      "source": "Original illustration of an Asian palm civet freely resting on a tropical forest branch",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    const readChoice = (raw) => {\n      try {\n        const saved = JSON.parse(raw || 'null');\n        if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) return"
+    },
+    {
+      "id": "493c7ee3ea14b62d608557e9a79071accfbca549501534c7400bf7e3e2102ff5",
+      "source": "The animal inside coffee’s most unforgettable story",
+      "kind": "attribute",
+      "context": "← All storiesCoffeedant JournalZeitgeist / 04 CULTURE / WILDLIFE / VALUEThe animal inside coffee’s most unforgettable storyKopi luwak turned an unlikely production method into a global talking point. Its next chapter should begin with evidence about the beans—and the animals.Zeitgeist · 5 min read · 13 October 2026 Original AI-assisted artwork by Coffeedant. Illustrative reconstruction; it documents no actual facility, visit or test. Inside the story01A story that almost tells itself02Two questions that a luxury label cannot answer03The animal cannot be edited out04What the 2025–2026 research adds—and does not05Rarity is a reason to look closer06The next chapter needs a chain of evidence↗Sources & methodCoffeedant editorial deskPublished 13 October 2026Print this story ↗ Few coffee stories travel as easily as this one: an animal eats the fruit, people recover the seeds, and the resulting cup becomes a luxury. The story is memorable. Whether the coffee deserves its price is a different question, and whether the animal lived well is another. Research reviewed through 13 October 2026 makes those distinctions essential.29Bali coffee-tourism plantations in the welfare study7Civets supplying paired samples in the 2026 laboratory study2Separate questions: product authenticity and animal welfare 01 /A story that almost tells itselfKopi luwak is coffee made from seeds recovered after coffee cherries pass through civets. Despite the familiar expression “cat coffee,” the animals are civets, not domestic cats. The name describes a treatment of coffee, not a separate botanical species. That distinction matters: an unusual processing story cannot explain everything about the plant, the harvest or the eventual drink. A scientific review published in December 2024 treats the product as"
+    },
+    {
+      "id": "8b727e6808bbb86b7cb8d91e9ca4975e5acb95a06410b0df072c9caa93784cad",
+      "source": "Zeitgeist / 04",
+      "kind": "text",
+      "context": "Zeitgeist / 04"
+    },
+    {
+      "id": "27c67a83946cbc1a43b79de4f7a9d1612a23cdca4149d3ed75ef3b23cc9fa88f",
+      "source": "CULTURE / WILDLIFE / VALUE",
+      "kind": "text",
+      "context": "CULTURE / WILDLIFE / VALUE"
+    },
+    {
+      "id": "eddd1f79b1c69e4922ec8522e844eb5107f2cf7ed1e52357db69de4db7d5159b",
+      "source": "Zeitgeist · 5 min read · 13 October 2026",
+      "kind": "text",
+      "context": "Zeitgeist · 5 min read · 13 October 2026"
+    },
+    {
+      "id": "d7aa8dda30ed2df8db83a709c0ccd9ed63bfdc0a7ca7c7f8228d4e01958a0e94",
+      "source": "Chapters in The animal inside coffee’s most unforgettable story",
+      "kind": "attribute",
+      "context": "Inside the story01A story that almost tells itself02Two questions that a luxury label cannot answer03The animal cannot be edited out04What the 2025–2026 research adds—and does not05Rarity is a reason to look closer06The next chapter needs a chain of evidence↗Sources & methodCoffeedant editorial deskPublished 13 October 2026Print this story ↗"
+    },
+    {
+      "id": "7311a8e69f1c1d7e92e489e3127161cab43a65a615853f98a743c32c71e291eb",
+      "source": "A story that almost tells itself",
+      "kind": "text",
+      "context": "01A story that almost tells itself"
+    },
+    {
+      "id": "276cac0bb5f550a82c574b70b6a28bcfbdca06e211f4dd6de9d16a4a03f5e39d",
+      "source": "Two questions that a luxury label cannot answer",
+      "kind": "text",
+      "context": "02Two questions that a luxury label cannot answer"
+    },
+    {
+      "id": "69edafe6cd172da83cf26eb838897b40456ba205ecef02e425a0a1b4de08a9ef",
+      "source": "The animal cannot be edited out",
+      "kind": "text",
+      "context": "03The animal cannot be edited out"
+    },
+    {
+      "id": "89e0fa8da881c4e0310752ec9a8d9e2ab98724d475cefc6b2d51a18ae2e3606f",
+      "source": "What the 2025–2026 research adds—and does not",
+      "kind": "text",
+      "context": "04What the 2025–2026 research adds—and does not"
+    },
+    {
+      "id": "3d80a1ccb3fa4e227310567e8cdfbef196d2af6b3bfe35ec8c5a787d70221b4e",
+      "source": "Rarity is a reason to look closer",
+      "kind": "text",
+      "context": "05Rarity is a reason to look closer"
+    },
+    {
+      "id": "b93d3c3be3225c352f17be6eef77998d1dcf0ce5811835b7cb9bd167fc7c0cc5",
+      "source": "The next chapter needs a chain of evidence",
+      "kind": "text",
+      "context": "06The next chapter needs a chain of evidence"
+    },
+    {
+      "id": "89cb76b9448a9ea93bdec1a25efb9c226372a8cfc212591156af38891dc8daf1",
+      "source": "Few coffee stories travel as easily as this one: an animal eats the fruit, people recover the seeds, and the resulting cup becomes a luxury. The story is memorable. Whether the coffee deserves its price is a different question, and whether the animal lived well is another. Research reviewed through 13 October 2026 makes those distinctions essential.",
+      "kind": "text",
+      "context": "Few coffee stories travel as easily as this one: an animal eats the fruit, people recover the seeds, and the resulting cup becomes a luxury. The story is memorable. Whether the coffee deserves its price is a different question, and whether the animal lived well is another. Research reviewed through 13 October 2026 makes those distinctions essential."
+    },
+    {
+      "id": "5374ba4fb4e53123d56e76d71fc3a2689e8d3ebf66d4324aa11b472ef0f3ee92",
+      "source": "Bali coffee-tourism plantations in the welfare study",
+      "kind": "text",
+      "context": "Bali coffee-tourism plantations in the welfare study"
+    },
+    {
+      "id": "a697bb2e9d94a90db4a4cf41488001383050d19c068f7f07c536135f1b94c151",
+      "source": "Civets supplying paired samples in the 2026 laboratory study",
+      "kind": "text",
+      "context": "Civets supplying paired samples in the 2026 laboratory study"
+    },
+    {
+      "id": "fdb3bb3e64e13ef910579b124e7f7deca8755d8faf288db029a7eb622f93f578",
+      "source": "Separate questions: product authenticity and animal welfare",
+      "kind": "text",
+      "context": "Separate questions: product authenticity and animal welfare"
+    },
+    {
+      "id": "717ff19754dee02a6ef9f6bef45bb4f82ac8c4329acc4c39d6e3abc0e1b28081",
+      "source": "Kopi luwak is coffee made from seeds recovered after coffee cherries pass through civets. Despite the familiar expression “cat coffee,” the animals are civets, not domestic cats. The name describes a treatment of coffee, not a separate botanical species. That distinction matters: an unusual processing story cannot explain everything about the plant, the harvest or the eventual drink. A scientific review published in December 2024 treats the product as a combination of chemistry, authentication, market behaviour and ethics.",
+      "kind": "text",
+      "context": "Kopi luwak is coffee made from seeds recovered after coffee cherries pass through civets. Despite the familiar expression “cat coffee,” the animals are civets, not domestic cats. The name describes a treatment of coffee, not a separate botanical species. That distinction matters: an unusual processing story cannot explain everything about the plant, the harvest or the eventual drink. A scientific review published in December 2024 treats the product as a combination of chemistry, authentication, market behaviour and ethics. Read the scientific review."
+    },
+    {
+      "id": "274969042b1818250173a3c07c89876422cb2991f9cbc0e268a1efc27fb7275e",
+      "source": "Read the scientific review",
+      "kind": "text",
+      "context": "Read the scientific review"
+    },
+    {
+      "id": "ca8032d56fa5ded733746a4731f554f043421628a076b1406dafdeccc4da688b",
+      "source": "The narrative has the economy of a folk tale: a surprising animal, a hidden transformation and an expensive object. Coffeedant’s reading is that this structure helps explain why people remember it. That is an editorial interpretation, not a measured claim about an entire generation’s awareness. It is also an invitation to notice what disappears from a memorable story. A buyer can repeat the origin in one sentence while knowing almost nothing about the producer, the animal’s conditions or the lot in the bag.",
+      "kind": "text",
+      "context": "The narrative has the economy of a folk tale: a surprising animal, a hidden transformation and an expensive object. Coffeedant’s reading is that this structure helps explain why people remember it. That is an editorial interpretation, not a measured claim about an entire generation’s awareness. It is also an invitation to notice what disappears from a memorable story. A buyer can repeat the origin in one sentence while knowing almost nothing about the producer, the animal’s conditions or the lot in the bag."
+    },
+    {
+      "id": "05df0ca1a5ece0ebad0f9f09dd4d06830f07c7e4fde4a8d49b3f583e73bc157d",
+      "source": "View source: Asian palm civet photographed at night in Mudumalai National Park",
+      "kind": "attribute",
+      "context": "Documentary / photograph    An Asian palm civet photographed during a night ride in Mudumalai National Park, India, in January 2014. A wildlife photograph, rather than a coffee-farm record.Davidvraju / Wikimedia Commons · Source · CC BY-SA 4.0 · Resized and converted to WebP."
+    },
+    {
+      "id": "7ecb7dbe086ddf386d78f04b7d1a3e4e91f392899759c409c3ff6f44ef6a8be1",
+      "source": "Asian palm civet photographed at night in Mudumalai National Park",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "4bb8a7368cc85c525addf62c84e4c10cc1a0cd15d04d196d5c022587b87817a3",
+      "source": "An Asian palm civet photographed during a night ride in Mudumalai National Park, India, in January 2014. A wildlife photograph, rather than a coffee-farm record.",
+      "kind": "text",
+      "context": "An Asian palm civet photographed during a night ride in Mudumalai National Park, India, in January 2014. A wildlife photograph, rather than a coffee-farm record."
+    },
+    {
+      "id": "5167aa5e62427682acd1ddc5248196474ab1f6c1e0da736b8517ee5ec84b618c",
+      "source": "Davidvraju / Wikimedia Commons ·",
+      "kind": "text",
+      "context": "Davidvraju / Wikimedia Commons · Source · CC BY-SA 4.0 · Resized and converted to WebP."
+    },
+    {
+      "id": "ba73ae8245047a98634225c4ea2dd1b8f0ef7aa8fd0aae657426a2ad4392e9bb",
+      "source": "Start with two independent questions. First, did these particular beans pass through a civet? Second, how was that civet treated? Evidence answering the first does not automatically answer the second. The 2024 review describes laboratory approaches to authenticity, including spectroscopy, electronic noses, chromatography and statistical analysis of chemical profiles. Such methods concern product identity. They are not certificates of animal welfare, nor does a successful laboratory distinction establish that a coffee will taste better than another.",
+      "kind": "text",
+      "context": "Start with two independent questions. First, did these particular beans pass through a civet? Second, how was that civet treated? Evidence answering the first does not automatically answer the second. The 2024 review describes laboratory approaches to authenticity, including spectroscopy, electronic noses, chromatography and statistical analysis of chemical profiles. Such methods concern product identity. They are not certificates of animal welfare, nor does a successful laboratory distinction establish that a coffee will taste better than another."
+    },
+    {
+      "id": "baf545713320612f5b921e5752f715f4fdf3071eeb43adaf865cc394053bae08",
+      "source": "This separation changes the conversation with a seller. Rather than asking whether the product is “real,” ask what the word means in that transaction. Does the answer identify a farm or collection area? Can a dated lot be followed through collection, processing and sale? Is a laboratory result linked to that lot, or is it an attractive document about another sample? These are questions about the strength and relevance of evidence, not accusations. A story becomes more informative when its supporting records refer to the coffee actually being sold.",
+      "kind": "text",
+      "context": "This separation changes the conversation with a seller. Rather than asking whether the product is “real,” ask what the word means in that transaction. Does the answer identify a farm or collection area? Can a dated lot be followed through collection, processing and sale? Is a laboratory result linked to that lot, or is it an attractive document about another sample? These are questions about the strength and relevance of evidence, not accusations. A story becomes more informative when its supporting records refer to the coffee actually being sold."
+    },
+    {
+      "id": "78a6e4148d4948cc3763cd463feb26c60acab449c976db03b8304f296904c8be",
+      "source": "Two chains of evidence",
+      "kind": "text",
+      "context": "Two chains of evidence"
+    },
+    {
+      "id": "dc5cbfcb15675599ff2fe4a03fa0a6520e87916dba6786892b882bc16cc636b5",
+      "source": "Coffee cherry",
+      "kind": "text",
+      "context": "Coffee cherry"
+    },
+    {
+      "id": "e23c70307bec259382152e09462a145c66d3556f217aa6d0192deb68846acd3a",
+      "source": "Traceable origin and lot",
+      "kind": "text",
+      "context": "Traceable origin and lot"
+    },
+    {
+      "id": "1b5145dec41c130a7eea79912bcfedd5dc3e2e96104330d2c226b534d8cabf56",
+      "source": "Civet processing",
+      "kind": "text",
+      "context": "Civet processing"
+    },
+    {
+      "id": "5a17d4e4ecb3457b787020d0a8fd096dd6257939fa5d6adf831f90d534c98a78",
+      "source": "Animal-management evidence",
+      "kind": "text",
+      "context": "Animal-management evidence"
+    },
+    {
+      "id": "a84a23fa258cf2b8e6cc28ccfcd947c0eaf9730e37dc5d80970fbe585cedb97d",
+      "source": "Collection & drying",
+      "kind": "text",
+      "context": "Collection & drying"
+    },
+    {
+      "id": "e4112f54d482633ec3f2f691847e0bd9dde8b5ff2c9c2c61fc6b88c3ae9ece87",
+      "source": "Records of handling",
+      "kind": "text",
+      "context": "Records of handling"
+    },
+    {
+      "id": "cdf494a0dc2bc00bce226cbd874bdfaf24820777c4a20e401662b712a7641d64",
+      "source": "Roasted coffee",
+      "kind": "text",
+      "context": "Roasted coffee"
+    },
+    {
+      "id": "9c098fde663c661768999e848145ef341caf89ce72ba0636a8537faae7ab541d",
+      "source": "Identity ≠ proof of welfare",
+      "kind": "text",
+      "context": "Identity ≠ proof of welfare"
+    },
+    {
+      "id": "681ddddb334f649c86c7ebf7da002ccbeacc386551f869e6f0ddd930051045a5",
+      "source": "Authenticating a bean cannot establish animal welfare. Both claims need their own evidence.",
+      "kind": "text",
+      "context": "Authenticating a bean cannot establish animal welfare. Both claims need their own evidence."
+    },
+    {
+      "id": "03616712a2be3acd0812b88b990adbd2f67378f96f8e26f1444c1edfecda3723",
+      "source": "A peer-reviewed investigation assessed 29 civet-coffee tourism plantations in Bali and eight wildlife markets. Researchers recorded 99 civets at plantations and 136 in markets. Diet, hygiene, water availability and mobility influenced body condition. None of the observed civets met all five freedoms used in the assessment. That is a serious finding about the sampled facilities; it is not a census of every kopi luwak producer. The sample and its limits should travel together whenever the result is quoted.",
+      "kind": "text",
+      "context": "A peer-reviewed investigation assessed 29 civet-coffee tourism plantations in Bali and eight wildlife markets. Researchers recorded 99 civets at plantations and 136 in markets. Diet, hygiene, water availability and mobility influenced body condition. None of the observed civets met all five freedoms used in the assessment. That is a serious finding about the sampled facilities; it is not a census of every kopi luwak producer. The sample and its limits should travel together whenever the result is quoted. See the welfare study."
+    },
+    {
+      "id": "763e87195c40a325c7d124089c9d290322605ec98c0dd75f6d799c8963711138",
+      "source": "See the welfare study",
+      "kind": "text",
+      "context": "See the welfare study"
+    },
+    {
+      "id": "6e2c3a2a20ca095b1ced5e1e2b4e761aeae88edce260680adea5f47a818bfa15",
+      "source": "For a reader, the implication is practical. A polished visitor experience and an animal visible beside a coffee counter cannot substitute for independently inspectable management information. A welfare discussion needs to be about the living animal, rather than the photographic appeal of its role in production. Coffeedant’s editorial recommendation is to ask whether the seller can explain care, diet, housing, sourcing and independent oversight in concrete terms. If the response stays with rarity and price, the central question has not been answered.",
+      "kind": "text",
+      "context": "For a reader, the implication is practical. A polished visitor experience and an animal visible beside a coffee counter cannot substitute for independently inspectable management information. A welfare discussion needs to be about the living animal, rather than the photographic appeal of its role in production. Coffeedant’s editorial recommendation is to ask whether the seller can explain care, diet, housing, sourcing and independent oversight in concrete terms. If the response stays with rarity and price, the central question has not been answered."
+    },
+    {
+      "id": "c8a7f8b59f46b2725b808cff3dbbbb3c103f692c77bb366deb8ef48686578865",
+      "source": "Civet Coffee: From Rare to Reckless",
+      "kind": "text",
+      "context": "Civet Coffee: From Rare to Reckless"
+    },
+    {
+      "id": "a7d51e58f1c60c11b2d71dfc5352b44cdf96d8f6618c7dc1166cc07ac2ed8c72",
+      "source": "The Civet Project’s conservation documentary follows animal-welfare concerns around civet coffee in Vietnam. Read the film alongside the article’s research, which keeps each study’s sample and limits visible.",
+      "kind": "text",
+      "context": "The Civet Project’s conservation documentary follows animal-welfare concerns around civet coffee in Vietnam. Read the film alongside the article’s research, which keeps each study’s sample and limits visible."
+    },
+    {
+      "id": "1f2a41883bccdb833423a8600e18f23d69d83fa3a7160ce9f80286d409faa388",
+      "source": "Contains footage of animals in distress.",
+      "kind": "text",
+      "context": "Contains footage of animals in distress."
+    },
+    {
+      "id": "97e7dc0e53b3a2001359c4b8b9930137b2f5ed85885dff6d495a273c2925125a",
+      "source": "Play Civet Coffee: From Rare to Reckless",
+      "kind": "attribute",
+      "context": "▶Watch with The Civet Project Foundation"
+    },
+    {
+      "id": "c03a0b2c2dd37e83175f81e2f2c6c42c4e37ff23a4755d747f63cc5138164879",
+      "source": "Watch with The Civet Project Foundation",
+      "kind": "text",
+      "context": "Watch with The Civet Project Foundation"
+    },
+    {
+      "id": "133397a310e56f0f69f2f3a3769db5712d3d307fd8e0281b81fa64642a1f9c5f",
+      "source": "Watch on YouTube · The Civet Project Foundation ↗",
+      "kind": "text",
+      "context": "Watch on YouTube · The Civet Project Foundation ↗"
+    },
+    {
+      "id": "d80b4081d65849af632b948ad799288a4a0594b399eb414bbcd9be58a3d600b3",
+      "source": "A 2025 study presents a more optimistic view of potential sustainability practices among participating legal producers. Its method includes one focus group and 12 interviews. That can illuminate how participants describe their operations and the choices they believe matter. It cannot establish the conditions of an entire industry, and it does not cancel findings from direct welfare observations. Different studies may examine different businesses and different kinds of evidence.",
+      "kind": "text",
+      "context": "A 2025 study presents a more optimistic view of potential sustainability practices among participating legal producers. Its method includes one focus group and 12 interviews. That can illuminate how participants describe their operations and the choices they believe matter. It cannot establish the conditions of an entire industry, and it does not cancel findings from direct welfare observations. Different studies may examine different businesses and different kinds of evidence. Read the 2025 qualitative study."
+    },
+    {
+      "id": "73e1c4381b254971da5d0dbe734ad05b32bb486653fa1825568dc56cc5ae98fb",
+      "source": "Read the 2025 qualitative study",
+      "kind": "text",
+      "context": "Read the 2025 qualitative study"
+    },
+    {
+      "id": "76d0022cb83da2baac7fcec1435fa8fac47e8c1ef2de7cb524e7d203780c5fc4",
+      "source": "In 2026, a laboratory study compared fresh and dried Typica civet-coffee samples from seven animals. The researchers found changes in microbial and metabolite profiles during drying. Crucially, they did not conduct sensory evaluation. A chemical difference is therefore not a demonstrated advantage in the cup. This is an instructive example of how scientific novelty can become overstated in marketing: “different” is a description; “better” requires a defined comparison and evidence suited to that claim.",
+      "kind": "text",
+      "context": "In 2026, a laboratory study compared fresh and dried Typica civet-coffee samples from seven animals. The researchers found changes in microbial and metabolite profiles during drying. Crucially, they did not conduct sensory evaluation. A chemical difference is therefore not a demonstrated advantage in the cup. This is an instructive example of how scientific novelty can become overstated in marketing: “different” is a description; “better” requires a defined comparison and evidence suited to that claim. Read the 2026 laboratory study."
+    },
+    {
+      "id": "b8c88679909b606c883ce370f59a5ef9179aef34e9f50dc91372a2253376439e",
+      "source": "Read the 2026 laboratory study",
+      "kind": "text",
+      "context": "Read the 2026 laboratory study"
+    },
+    {
+      "id": "e09a7df525c2cb63d740c720996f077dee5983b3d72809fb3642ce8ab0f39d9b",
+      "source": "Different claims require different evidence. This is a reader’s evaluation framework, not a certification scheme.",
+      "kind": "text",
+      "context": "Different claims require different evidence. This is a reader’s evaluation framework, not a certification scheme."
+    },
+    {
+      "id": "e2d6ffa7ca0a97e9642802fd33be38daf56bd83ce49e627f9fb66d6780e72803",
+      "source": "Claim on the label",
+      "kind": "text",
+      "context": "Claim on the label"
+    },
+    {
+      "id": "ddb42083907950ee5770a6dc3eac410774bfef02122747885614823ef900385e",
+      "source": "Evidence worth requesting",
+      "kind": "text",
+      "context": "Evidence worth requesting"
+    },
+    {
+      "id": "315f74cc7c08185e33c768216a1ae040daa3a21a9d6bceafd1b4fd3a1f778840",
+      "source": "What it cannot establish alone",
+      "kind": "text",
+      "context": "What it cannot establish alone"
+    },
+    {
+      "id": "abefa6f79b3e348fa5f4f494282e4de20b48fcd6ba4f6a4791e943441aceba05",
+      "source": "Civet processed",
+      "kind": "text",
+      "context": "Civet processed"
+    },
+    {
+      "id": "7fd8c3b6a6ab2192b3c576a32da22b396a6f30d71ed5087a86eaba6bcb362e07",
+      "source": "Lot-linked sourcing records and relevant authentication",
+      "kind": "text",
+      "context": "Lot-linked sourcing records and relevant authentication"
+    },
+    {
+      "id": "ae20f42078ee71b4634b50633aa691ca8704854bf5986ef0bee64c3f66ef9128",
+      "source": "Humane animal management or superior taste",
+      "kind": "text",
+      "context": "Humane animal management or superior taste"
+    },
+    {
+      "id": "4b7088f2959d46872c530d1054db3f7a2e3a1a44303403cc467b374a1ba2a3b6",
+      "source": "Wild collected",
+      "kind": "text",
+      "context": "Wild collected"
+    },
+    {
+      "id": "6f51e382021f522098ff53383147a62faf8ea187439983e5d9ac2f1e05acdf92",
+      "source": "Named collection area, dated chain of custody and independent verification",
+      "kind": "text",
+      "context": "Named collection area, dated chain of custody and independent verification"
+    },
+    {
+      "id": "ca3b647a447c479802312122e8be53c2f8e68e474423664e9bfa5ce5806bb098",
+      "source": "Every welfare or environmental claim",
+      "kind": "text",
+      "context": "Every welfare or environmental claim"
+    },
+    {
+      "id": "1eb08f4d25cbddbb099d8d6a47b8ae86b8875c1fbc8292c2c2871104d5fbfff0",
+      "source": "Humane production",
+      "kind": "text",
+      "context": "Humane production"
+    },
+    {
+      "id": "0dc6089ad106f94febe7b4f6914e93e3bfc478673066cf4dfcdccb14b10ed199",
+      "source": "Specific care standards and independent observation",
+      "kind": "text",
+      "context": "Specific care standards and independent observation"
+    },
+    {
+      "id": "d928845ecc9707423ea748e98d0bf5bc7c7ce81bae040899a2a675d402834887",
+      "source": "Whether this exact bag is chemically authentic",
+      "kind": "text",
+      "context": "Whether this exact bag is chemically authentic"
+    },
+    {
+      "id": "8f0a2e49ecac053add3ff2d408ba39b396ae6fa2621ffd442ffe15a7a5214c30",
+      "source": "Exceptional quality",
+      "kind": "text",
+      "context": "Exceptional quality"
+    },
+    {
+      "id": "bf28e451efc79c9425ac411a7842c9eba61acb3e4d0473e8c71a8f7ceb96b2a6",
+      "source": "A transparent sensory comparison with identifiable coffees",
+      "kind": "text",
+      "context": "A transparent sensory comparison with identifiable coffees"
+    },
+    {
+      "id": "4efa888ef65191afeefdf726e12a61802889baf7895ebc127dcfa4b9f463b2e3",
+      "source": "Animal welfare or scarcity",
+      "kind": "text",
+      "context": "Animal welfare or scarcity"
+    },
+    {
+      "id": "1354028a6348e94154adb9a2e569e88bd93b34d4bd5f6a9e54ef902f12cab8da",
+      "source": "Rare / premium",
+      "kind": "text",
+      "context": "Rare / premium"
+    },
+    {
+      "id": "e23617f1783a62c15b8fe68d381d430282670485ba2a12547fc87880f0c1e4ff",
+      "source": "Documented availability and a clear price explanation",
+      "kind": "text",
+      "context": "Documented availability and a clear price explanation"
+    },
+    {
+      "id": "af22603503c2828f882d059e32f7f09b422af558437bbf18d5ec4e161e84ba7b",
+      "source": "A reason that everyone should prefer the cup",
+      "kind": "text",
+      "context": "A reason that everyone should prefer the cup"
+    },
+    {
+      "id": "54a9933769ddf9d3b23a41bd00cc37e0c754227067bd0e520c6451ddaa55bfb5",
+      "source": "An unusual route to a bean can justify curiosity without settling its sensory value. When reading a premium label, separate the claims into identity, production method, welfare, scarcity and taste. They ask for different evidence. A laboratory authentication result might support identity. A lot record might support provenance. Independent observation might support an account of animal management. A blind comparison could inform a personal judgement of taste. None is interchangeable with the others, and a high price does not do the work of all four.",
+      "kind": "text",
+      "context": "An unusual route to a bean can justify curiosity without settling its sensory value. When reading a premium label, separate the claims into identity, production method, welfare, scarcity and taste. They ask for different evidence. A laboratory authentication result might support identity. A lot record might support provenance. Independent observation might support an account of animal management. A blind comparison could inform a personal judgement of taste. None is interchangeable with the others, and a high price does not do the work of all four."
+    },
+    {
+      "id": "e09def3c23cc1a6cb8761273915131dda5433eacc0946055459c7a3cbea508ee",
+      "source": "A useful thought experiment is to hide the production story while comparing coffees. If the story were revealed only afterwards, what would you want to know about your first impression? This is a suggested tasting exercise, not a report of a Coffeedant experiment. Its point is to make room for both sensory pleasure and informed choice. A drink can be fascinating because of its story. The reader still deserves to understand how much of the attraction comes from the cup and how much comes from the narrative around it.",
+      "kind": "text",
+      "context": "A useful thought experiment is to hide the production story while comparing coffees. If the story were revealed only afterwards, what would you want to know about your first impression? This is a suggested tasting exercise, not a report of a Coffeedant experiment. Its point is to make room for both sensory pleasure and informed choice. A drink can be fascinating because of its story. The reader still deserves to understand how much of the attraction comes from the cup and how much comes from the narrative around it."
+    },
+    {
+      "id": "d5a73d5dd00e5f451904de965db35cd2f505e7edb24e0c8bc3040c4960aaa8c5",
+      "source": "View source: Arabica coffee seeds visible in civet scat in Karnataka, India",
+      "kind": "attribute",
+      "context": "Documentary / photograph    Arabica coffee seeds in civet scat, photographed in a coffee-growing region of Karnataka, India, in December 2005. The image documents the physical origin of the product; it does not certify a commercial lot.Anand Osuri / Wikimedia Commons · Source · CC BY-SA 4.0 · Resized and converted to WebP."
+    },
+    {
+      "id": "05e0bcb4567f43d7f0d2775c5a7cd1b7bfc0ad496915437f60ce4de7de4ac88e",
+      "source": "Arabica coffee seeds visible in civet scat in Karnataka, India",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "993458120365970c2a72275d12730f48c9590fa8ecfb6a651f56334c4c4e1c10",
+      "source": "Arabica coffee seeds in civet scat, photographed in a coffee-growing region of Karnataka, India, in December 2005. The image documents the physical origin of the product; it does not certify a commercial lot.",
+      "kind": "text",
+      "context": "Arabica coffee seeds in civet scat, photographed in a coffee-growing region of Karnataka, India, in December 2005. The image documents the physical origin of the product; it does not certify a commercial lot."
+    },
+    {
+      "id": "3eec8a2cdd047eb79f6b21e9fda471a0ca92d212fec05c96aed84d51d965e712",
+      "source": "Anand Osuri / Wikimedia Commons ·",
+      "kind": "text",
+      "context": "Anand Osuri / Wikimedia Commons · Source · CC BY-SA 4.0 · Resized and converted to WebP."
+    },
+    {
+      "id": "b2a945b7de5d2b762540e6332b624abfa75bca2d6f1c617661c57517d852f436",
+      "source": "For consumers, the strongest next step is not another superlative. It is a clearer chain from sourcing to the finished lot. Ask for the production location, collection method, dates, animal-management explanation and any independent assessment. Ask what the retailer has actually verified. The answers may be incomplete; incompleteness should remain visible rather than being filled with assumptions. A claim of wild collection is a claim to investigate, not an automatic shortcut to certainty.",
+      "kind": "text",
+      "context": "For consumers, the strongest next step is not another superlative. It is a clearer chain from sourcing to the finished lot. Ask for the production location, collection method, dates, animal-management explanation and any independent assessment. Ask what the retailer has actually verified. The answers may be incomplete; incompleteness should remain visible rather than being filled with assumptions. A claim of wild collection is a claim to investigate, not an automatic shortcut to certainty."
+    },
+    {
+      "id": "98f3057ad78f7c55ea5e5b1afb13022878add9c0efe05e85df25774fc58f5e1f",
+      "source": "This is why kopi luwak belongs in an editorial conversation about modern coffee. It exposes the power of origin stories and the limits of novelty as a quality signal. The responsible question is not whether the tale is entertaining—it plainly has an arresting structure—but whether the information behind it is as compelling as the tale itself. For Coffeedant, a luxury worth understanding should disclose its evidence with the same care it gives its packaging. Curiosity becomes knowledge when the animal and the actual lot stay in the frame.",
+      "kind": "text",
+      "context": "This is why kopi luwak belongs in an editorial conversation about modern coffee. It exposes the power of origin stories and the limits of novelty as a quality signal. The responsible question is not whether the tale is entertaining—it plainly has an arresting structure—but whether the information behind it is as compelling as the tale itself. For Coffeedant, a luxury worth understanding should disclose its evidence with the same care it gives its packaging. Curiosity becomes knowledge when the animal and the actual lot stay in the frame."
+    },
+    {
+      "id": "5f070f57ed6223f84a72329c8123a0befc3930d0f6b376a4900848e3a20c4c1f",
+      "source": "Treat novelty as the beginning of an investigation. Ask for lot-linked authenticity and independently inspectable welfare evidence; neither the story nor the price answers both.",
+      "kind": "text",
+      "context": "Treat novelty as the beginning of an investigation. Ask for lot-linked authenticity and independently inspectable welfare evidence; neither the story nor the price answers both."
+    },
+    {
+      "id": "6e5936243a3a0cfcf78cc8187a385875d69a93afb1cd9fba4bd3907e11429e4b",
+      "source": "Is kopi luwak made by cats?",
+      "kind": "text",
+      "context": "Is kopi luwak made by cats?"
+    },
+    {
+      "id": "84d55802af413045d54a99d5a654a2073c2c643dfcb45df8e0e69c303cef63a1",
+      "source": "It involves civets, not domestic cats. “Cat coffee” is a memorable but misleading shorthand.",
+      "kind": "text",
+      "context": "It involves civets, not domestic cats. “Cat coffee” is a memorable but misleading shorthand."
+    },
+    {
+      "id": "de479cda75b8f1fa9f5240235f12d8ecf91118833e9ee636b0fd760ed897d9b2",
+      "source": "Does civet processing prove that the coffee tastes better?",
+      "kind": "text",
+      "context": "Does civet processing prove that the coffee tastes better?"
+    },
+    {
+      "id": "911452d185e688563a7373d747c4eca179b6dd0741a6f933ca8aa53b341a9e28",
+      "source": "No. A processing difference is not a universal sensory ranking. The 2026 drying study discussed here did not include tasting.",
+      "kind": "text",
+      "context": "No. A processing difference is not a universal sensory ranking. The 2026 drying study discussed here did not include tasting."
+    },
+    {
+      "id": "6dbee565c7e681653eda1b84e39825c99ca5939622bfffbc10306a355cbfe2ad",
+      "source": "Can a chemical test prove humane production?",
+      "kind": "text",
+      "context": "Can a chemical test prove humane production?"
+    },
+    {
+      "id": "62e8c5b4135b6e6c0d0add5181df7e6927f3817b6c8f3d2da1142110467696fb",
+      "source": "No. Product authentication and animal welfare require different kinds of evidence.",
+      "kind": "text",
+      "context": "No. Product authentication and animal welfare require different kinds of evidence."
+    },
+    {
+      "id": "84ace45753d28c9fe756aa286984ae02d5224c6d5c4e0abf85123d98a8cf45cf",
+      "source": "Welfare and Management of Civets in Civet Coffee Tourism Plantations ↗",
+      "kind": "text",
+      "context": "Welfare and Management of Civets in Civet Coffee Tourism Plantations ↗"
+    },
+    {
+      "id": "253b0559a2f12e8f7263ae973103d51a100bd2dff39c4e6052b95daa3ba14b60",
+      "source": "Peer-reviewed observation of sampled Bali facilities; results must not be generalized to every producer.",
+      "kind": "text",
+      "context": "Peer-reviewed observation of sampled Bali facilities; results must not be generalized to every producer."
+    },
+    {
+      "id": "7bf8247d032d426a3e12338e6a1302f1934ad3e40c5ea168a04c98b3aaf61f69",
+      "source": "Advancements in civet coffee production and analytical techniques ↗",
+      "kind": "text",
+      "context": "Advancements in civet coffee production and analytical techniques ↗"
+    },
+    {
+      "id": "3a2a7697d322b5efe20725d66f723d2bcba842c878b79900b2f2376d8acbaa56",
+      "source": "December 2024 review of authentication, chemistry and ethical concerns.",
+      "kind": "text",
+      "context": "December 2024 review of authentication, chemistry and ethical concerns."
+    },
+    {
+      "id": "149ebc2673fe99ef68ddb93aa9aebe650e711e92d89b61d21b36ba80a9257939",
+      "source": "Sustainable operations and the controversy of civet coffee ↗",
+      "kind": "text",
+      "context": "Sustainable operations and the controversy of civet coffee ↗"
+    },
+    {
+      "id": "9ddbb27e6c7e30e091253ee410842a2a772e30f34598eef749beaf1ebc20e5b7",
+      "source": "2025 qualitative study: one focus group and 12 interviews; not a sector census.",
+      "kind": "text",
+      "context": "2025 qualitative study: one focus group and 12 interviews; not a sector census."
+    },
+    {
+      "id": "b57a81e46c54f772bf8bd4181e77a4226bf4458fc0d3046479dff25d7c38a514",
+      "source": "Comparative Microbiota and Metabolite Profiles of Undried and Dried Typica Luwak Coffee Beans ↗",
+      "kind": "text",
+      "context": "Comparative Microbiota and Metabolite Profiles of Undried and Dried Typica Luwak Coffee Beans ↗"
+    },
+    {
+      "id": "aa16b3d03f49a33c601ffcef47eb2bbe9c696adc4c9685e947ab639f3e233f8e",
+      "source": "2026 paired laboratory study from seven civets; no sensory evaluation.",
+      "kind": "text",
+      "context": "2026 paired laboratory study from seven civets; no sensory evaluation."
+    },
+    {
+      "id": "d59195a5df252586bee8237533075c51dc7ab2993504317333be620be971a6c7",
+      "source": "Asian palm civet photographed at night in Mudumalai National Park",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "56dcbd1e662d3a5548b5d7b155aaff227a7220f28d229ea258de7285a4059137",
+      "source": "An Asian palm civet photographed during a night ride in Mudumalai National Park, India, in January 2014. A wildlife photograph, rather than a coffee-farm record. Davidvraju / Wikimedia Commons · Source · CC BY-SA 4.0 · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "be5c3dfbd79b8cbaf34513fb3020b393617b9d1f18ae89fffb0e754779e666e0",
+      "source": "Davidvraju / Wikimedia Commons · Source · CC BY-SA 4.0 · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "8e9eb86ff5a79ab3a37b194a81cb44c91ffd1a3711717b13eab1e83f7b12ca34",
+      "source": "Arabica coffee seeds visible in civet scat in Karnataka, India",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "8e62b26c0dd2200d4f7d16b267f267d26fa3c092af0d5ee393a0f20479f6c68e",
+      "source": "Arabica coffee seeds in civet scat, photographed in a coffee-growing region of Karnataka, India, in December 2005. The image documents the physical origin of the product; it does not certify a commercial lot. Anand Osuri / Wikimedia Commons · Source · CC BY-SA 4.0 · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "a16ee161b90f6838182f18122bf70d21db07f3c31bd2ee6297b7cf5691065dc9",
+      "source": "Anand Osuri / Wikimedia Commons · Source · CC BY-SA 4.0 · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "dd95339e96ead3310db122aa008b9aa6f0949254a34ddc4907e0ef3100de15e4",
+      "source": "The animal inside coffee’s most unforgettable story | Coffeedant Journal",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "2b6bdde878a2aa3cb2d9b8195343b4ab34613eee64737d65a34f38ed3b2899a0",
+      "source": "Kopi luwak turned an unlikely production method into a global talking point. Its next chapter should begin with evidence about the beans—and the animals.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "bc21ba7124ce538fe04c9d9b9859f95269a3afbd46d1e8b6af3682a936414170",
+      "source": "An Asian palm civet photographed during a night ride in Mudumalai National Park, India, in January 2014. A wildlife photograph, rather than a coffee-farm record.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "aa636e2627e9aad551122ae2c6a9f5ba48f4230a4b0f3ac5456257355b2f0a5c",
+      "source": "Davidvraju / Wikimedia Commons",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "82ee9e6ed92a04ff8c93ab38f55ca129158073863b55b96880827d9205ff7091",
+      "source": "Arabica coffee seeds in civet scat, photographed in a coffee-growing region of Karnataka, India, in December 2005. The image documents the physical origin of the product; it does not certify a commercial lot.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "362e25fc59475c6e0425f7e395279d998d3daf7d785593989736f35353607845",
+      "source": "Anand Osuri / Wikimedia Commons",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "766270b85e22a8bbf253ddfa8ebac3bc0d655f670065407d28e5cce4470bb624",
+      "source": "Civet Coffee: From Rare to Reckless",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "ef4e0fc10ec364f9783623a52fedddef8c32d23e4332ac3d6cb58b9d715ef6bb",
+      "source": "The Civet Project’s conservation documentary follows animal-welfare concerns around civet coffee in Vietnam. Read the film alongside the article’s research, which keeps each study’s sample and limits visible.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "8c33c9334518e53f5dfff59e04afeaf1e056b33563b7150d6706246ccc3fd3bd",
+      "source": "The Civet Project Foundation",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "7dbd3a6ac4ec0e5c2cea340ac23a04f64ef2b6aeaa2800b869932c166d685135",
+      "source": "Is kopi luwak made by cats?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "49a7cc92276cf9bc25fb64f06393993098904ae0ce40a3e374903bbd7858c6ac",
+      "source": "It involves civets, not domestic cats. “Cat coffee” is a memorable but misleading shorthand.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "e7ff2024cbc995648f978845b50f61a0b7715b8750d14e5784b63aff6da83b29",
+      "source": "Does civet processing prove that the coffee tastes better?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "2b14d78e6eaf703eb5e35b21534b9e4cfde2292d6a1d0c24047cb396da012ecd",
+      "source": "No. A processing difference is not a universal sensory ranking. The 2026 drying study discussed here did not include tasting.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "c1e2ab86c0bd523af967ce5ce8ecccdaee6af61ecfabc58daaf8ce072ac90e6d",
+      "source": "Can a chemical test prove humane production?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "14dfe085eeda2f69ef12235774e01d9bbbec5dd5786e60f1cdde9f628b0c8b85",
+      "source": "No. Product authentication and animal welfare require different kinds of evidence.",
+      "kind": "json",
+      "context": "text"
+    }
+  ],
+  "snapshotHash": "163d62a4cda348413cfa6f5fd9589c7badbf047d7643b3d35c5c6f53bff76dc2"
+}
