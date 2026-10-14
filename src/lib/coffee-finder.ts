@@ -78,6 +78,13 @@ const finderDescription = (verdict: string) => {
 
 const canonicalBrand = (brand: string) => brand.toLowerCase() === 'lelit' ? 'Lelit' : brand;
 
+// These manual Gaggia reviews compare themselves with automatic machines.
+// Classify the reviewed hardware, not the alternatives named in their copy.
+const finderIdentityOverrides: Partial<Record<string, Pick<CoffeeFinderItem, 'workflow' | 'grinder' | 'experience'>>> = {
+  '/espresso-machine/gaggia-classic-evo/': { workflow: 'hands-on', grinder: 'separate', experience: 'beginner' },
+  '/espresso-machine/gaggia-classic-gt/': { workflow: 'hands-on', grinder: 'separate', experience: 'enthusiast' },
+};
+
 const inferWorkflow = (review: MachineReviewData, text: string): CoffeeFinderWorkflow => {
   const identity = `${review.brand} ${review.model} ${review.category}`;
   if (/\b(?:commercial espresso|commercial coffee|two-group|three-group|cafina|slayer.*single group|dalla corte mina)\b/i.test(identity)) return 'commercial';
@@ -134,7 +141,8 @@ const inferAvailability = (review: MachineReviewData, offer?: AmazonOffer): Pick
 
 const toFinderItem = (review: MachineReviewData): CoffeeFinderItem => {
   const text = combinedText(review);
-  const workflow = inferWorkflow(review, text);
+  const identityOverride = finderIdentityOverrides[review.slug];
+  const workflow = identityOverride?.workflow ?? inferWorkflow(review, text);
   const amazonLink = getReviewPurchaseLinks(review)[0];
   const offer = amazonLink.checkedAt ? amazonOffers[review.slug] : undefined;
   const liveUsdPrice = offer?.currency === 'USD' && offer.availabilityType?.startsWith('IN_STOCK')
@@ -161,8 +169,8 @@ const toFinderItem = (review: MachineReviewData): CoffeeFinderItem => {
     rating: getReviewOverallScore(review.evaluation),
     workflow,
     drink: inferDrink(text, workflow),
-    experience: inferExperience(text, workflow),
-    grinder: inferGrinder(text, workflow),
+    experience: identityOverride?.experience ?? inferExperience(text, workflow),
+    grinder: identityOverride?.grinder ?? inferGrinder(text, workflow),
     footprint: inferFootprint(text, workflow),
     volume: inferVolume(text, workflow),
     ...availability,
