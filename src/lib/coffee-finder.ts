@@ -80,9 +80,11 @@ const canonicalBrand = (brand: string) => brand.toLowerCase() === 'lelit' ? 'Lel
 
 // These manual Gaggia reviews compare themselves with automatic machines.
 // Classify the reviewed hardware, not the alternatives named in their copy.
-const finderIdentityOverrides: Partial<Record<string, Pick<CoffeeFinderItem, 'workflow' | 'grinder' | 'experience'>>> = {
+const finderIdentityOverrides: Record<string, Partial<Pick<CoffeeFinderItem, 'workflow' | 'grinder' | 'experience' | 'footprint'>>> = {
   '/espresso-machine/gaggia-classic-evo/': { workflow: 'hands-on', grinder: 'separate', experience: 'beginner' },
   '/espresso-machine/gaggia-classic-gt/': { workflow: 'hands-on', grinder: 'separate', experience: 'enthusiast' },
+  // Guided recipes do not imply an integrated grinder or a compact station.
+  '/espresso-machine/fellow-espresso-series-1/': { workflow: 'hands-on', grinder: 'separate', experience: 'enthusiast', footprint: 'standard' },
 };
 
 const inferWorkflow = (review: MachineReviewData, text: string): CoffeeFinderWorkflow => {
@@ -171,7 +173,7 @@ const toFinderItem = (review: MachineReviewData): CoffeeFinderItem => {
     drink: inferDrink(text, workflow),
     experience: identityOverride?.experience ?? inferExperience(text, workflow),
     grinder: identityOverride?.grinder ?? inferGrinder(text, workflow),
-    footprint: inferFootprint(text, workflow),
+    footprint: identityOverride?.footprint ?? inferFootprint(text, workflow),
     volume: inferVolume(text, workflow),
     ...availability,
     updated: review.updated,
