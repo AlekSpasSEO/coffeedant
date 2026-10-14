@@ -480,6 +480,67 @@ noindex builds contain 41/40/40 pages including the 404. All full editions remai
 incomplete and unpublished; no DNS changes, paid API calls or billing changes
 are made by this batch.
 
+### Complete Americano reader and Journal library (2026-10-14)
+
+Batch twelve directly translates the complete `/journal/dark-roast-americano/`
+reader and `/journal/` library into NL/DE/FR. The readable source contains 1,754
+article words and 682 library words, excluding embedded structured-data scripts.
+All six article chapters, diagrams, troubleshooting table, captions, sources,
+three visible/structured FAQ answers and original animation transcript are
+included. The library includes all seventeen cards, image alternatives, reading
+times, search text, filter labels, credits, colophon and CollectionPage/ItemList
+metadata. Translating a library card does not complete its destination's body.
+
+The immutable main snapshot contains 238 missing slots / 205 distinct authored
+source strings. Eight verbatim approvals cover exact named credits/section labels
+and conventional units/measurement notation, not article body text. A separate
+three-slot snapshot aligns the German/French dosing-card title and introduction;
+the approved Dutch wording is reused unchanged. This alignment does not declare
+the German/French dosing guide complete. All earlier snapshots stay immutable.
+
+Stable new Americano routes are `/journal/americano-donkere-branding/`,
+`/journal/americano-dunkle-roestung/` and
+`/journal/americano-torrefaction-foncee/`. The library stays at `/journal/` in
+each edition. The approved Dutch `/journal/espresso-doseren/` URL is unchanged.
+Links to unfinished articles remain explicitly on the US source; no partial
+English article is presented under a regional route.
+
+Suggested recipe masses, machine/basket limitations, timing convention,
+temperature suggestions and the distinction between extraction and dilution
+are retained. Photography and the silent animation remain illustrative, not
+Coffeedant measured-extraction evidence. The library retains the original
+source-check date and AI-assisted-cover/attribution/methodology qualifications.
+
+Rendering exposed a previously unindexed VideoObject `transcript` field.
+`jsonSlots` now includes that prose field without translating schema identifiers,
+video URLs, duration or upload dates. Its existing complete visible wording is
+reused into the new structured slot; 76 exact already-authored source-kind entries
+per edition are reused without inference or fallback. Regression tests verify
+structured transcripts and exact media fields. The US content is unchanged.
+
+Fifty-seven localization tests and current analytics/consent validation pass.
+Six actual scoped HTML/JSON checks cover the entire readable article and library,
+all FAQs, both video records and their creators/destinations/transcript, all
+seventeen cards and localized search attributes, exact filter identifiers,
+structured library entries, chapter/timeline controls, publication labels,
+executable scripts, locale/canonical/noindex, safe links and scoped sitemaps.
+All 45 calculator settings per edition retain the same arithmetic and translated
+recipe/result templates. These are generated-output/runtime-integration checks,
+not a new browser session or physical product tests.
+
+The current source contains 224 canonical pages / 45,678 unique slots. Ready
+regular content pages are NL 42, DE 41 and FR 41, excluding the 404; pending
+slots are 41,156 / 41,262 / 41,262. Scoped noindex builds contain 43/42/42 pages
+including the 404. All 146 distinct Finder descriptions remain translated with
+zero gaps, and unknown local prices/Amazon links remain suppressed. Full
+editions are still incomplete and unpublished. No DNS cutover, paid translation
+API, billing change or subagent is used.
+
+The concurrent main-branch US Amazon-offer refresh is preserved through a normal
+Git merge. The full source build, all 57 localization tests, analytics validation
+and the six scoped checks pass again on the combined source; saved coverage
+reflects that latest source rather than the earlier offer snapshot.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

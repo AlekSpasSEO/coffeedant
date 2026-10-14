@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/journal/",
+      "sourceHash": "42eec95b71c513383dcb1f49817129c30041bf0ad7abb290a15e4bce632d9e50"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "e996aa71940282b3d65212a2b57aa98b992994d780ab75fa7cffd141f3dfac4e",
+      "source": "The Home Barista's Guide to Espresso Dosing",
+      "kind": "text",
+      "context": "The Home Barista's Guide to Espresso Dosing"
+    },
+    {
+      "id": "aa692bdee420082963212a8d123bc988cd180d7d63dabd3c13afea7c8111f3dd",
+      "source": "The Home Barista's Guide to Espresso Dosing",
+      "kind": "json",
+      "context": "headline"
+    },
+    {
+      "id": "5f5bd14a55d9118ba901ea9313b9ad66419b6c6707e65532bb3296be19c83a61",
+      "source": "How to choose, measure and hold a repeatable espresso dose before changing grind, yield or time, with practical basket and roast adjustments.",
+      "kind": "text",
+      "context": "How to choose, measure and hold a repeatable espresso dose before changing grind, yield or time, with practical basket and roast adjustments."
+    }
+  ],
+  "snapshotHash": "238c9b38c1eae5e9e9c0e86d3dabd12efc9be5dac1d07b33c03919c1113d52e7"
+}
