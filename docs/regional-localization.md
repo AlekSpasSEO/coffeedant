@@ -528,13 +528,18 @@ All 45 calculator settings per edition retain the same arithmetic and translated
 recipe/result templates. These are generated-output/runtime-integration checks,
 not a new browser session or physical product tests.
 
-The current source contains 224 canonical pages / 45,679 unique slots. Ready
+The current source contains 224 canonical pages / 45,678 unique slots. Ready
 regular content pages are NL 42, DE 41 and FR 41, excluding the 404; pending
-slots are 41,157 / 41,263 / 41,263. Scoped noindex builds contain 43/42/42 pages
+slots are 41,156 / 41,262 / 41,262. Scoped noindex builds contain 43/42/42 pages
 including the 404. All 146 distinct Finder descriptions remain translated with
 zero gaps, and unknown local prices/Amazon links remain suppressed. Full
 editions are still incomplete and unpublished. No DNS cutover, paid translation
 API, billing change or subagent is used.
+
+The concurrent main-branch US Amazon-offer refresh is preserved through a normal
+Git merge. The full source build, all 57 localization tests, analytics validation
+and the six scoped checks pass again on the combined source; saved coverage
+reflects that latest source rather than the earlier offer snapshot.
 
 ## Missing configuration
 
