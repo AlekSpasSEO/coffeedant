@@ -29,6 +29,7 @@ const socialImage = image
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <Analytics />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#f3da00" />
     <title>{title}</title>
@@ -49,7 +50,6 @@ const socialImage = image
     <meta name="twitter:description" content={description} />
     {socialImage && <meta name="twitter:image" content={socialImage} />}
     {socialImage && <meta name="twitter:image:alt" content={imageAlt ?? title} />}
-    <Analytics />
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
