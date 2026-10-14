@@ -1,0 +1,1571 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/journal/robusta-reconsidered/",
+      "sourceHash": "6ff43c1f0260d936517662f2394963439e2206e1e04430fa20771a16fc8d8021"
+    },
+    {
+      "sourcePath": "/journal/water-hidden-ingredient/",
+      "sourceHash": "f1ab964ae1bd31d5b0549256a6f1175d3957b6ec57100c53a3c9d6b46eefdb34"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "64c39b6e61dc64271e2bd5be2cb063fa1db4b66412f1b165d294dfb70a4da705",
+      "source": "Signal",
+      "kind": "text",
+      "context": "Signal"
+    },
+    {
+      "id": "cdf97aa01d626aec986b5fb4b900a4fcbc527ce60ba27b3752332e18965b9976",
+      "source": "Water",
+      "kind": "text",
+      "context": "Water"
+    },
+    {
+      "id": "07d4d58c864c9d8602e97b0308976746caf0ee909a1b09e5654ceb1cbc561650",
+      "source": "Heat",
+      "kind": "text",
+      "context": "Heat"
+    },
+    {
+      "id": "f1b905901f699a25160f6ee5ffeeb39c884b5a93d7cc46222e846c0b8363e1b1",
+      "source": "Brew Lab · 5 min read · 13 October 2026",
+      "kind": "text",
+      "context": "Brew Lab · 5 min read · 13 October 2026"
+    },
+    {
+      "id": "33c134e3e8361d81224a55445a20cf5140f3d13b0f5918b353f7e8d945230473",
+      "source": "Illustrative coffee cherries and leaves introducing an article about Coffea canephora.",
+      "kind": "attribute",
+      "context": "05"
+    },
+    {
+      "id": "3b4283cf3bf21873943ea323f012483fe40e1a17b60f0e7f98cfcca587707e1e",
+      "source": "A neglected species is gaining attention, breeding investment and export volume. The exciting story becomes more useful when we stop calling it climate-proof.",
+      "kind": "text",
+      "context": "A neglected species is gaining attention, breeding investment and export volume. The exciting story becomes more useful when we stop calling it climate-proof."
+    },
+    {
+      "id": "7d2e6ba27c347d780007b789708eeae0a5a7189a31b5065aa1fdd285e46f0119",
+      "source": "Illustrated glasses of water with refracted light beside espresso",
+      "kind": "attribute",
+      "context": "09"
+    },
+    {
+      "id": "adde61eae1ede4e2459e92de93d7aa2808c6bbbb5b8e7f231e6aa1a3046cc066",
+      "source": "Hardness, alkalinity and the reason a bottle labelled “pure” is not a complete brewing specification.",
+      "kind": "text",
+      "context": "Hardness, alkalinity and the reason a bottle labelled “pure” is not a complete brewing specification."
+    },
+    {
+      "id": "4ef933e19f541a3d4456179c4103b7ab306e36f7e5109f7cfb5d88caf569cf25",
+      "source": "Illustrative coffee cherries and leaves introducing an article about Coffea canephora.",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "78a41967c98e510f621b3b3651b13342437f93767fbd1a35930accd4c87a6234",
+      "source": "Illustrated glasses of water with refracted light beside espresso",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "c247fc87c6d0ae2e50b67abfb38af1e19c886be959a64d203ea1f8421d601e21",
+      "source": "Robusta’s second act has a water problem | Coffeedant Journal",
+      "kind": "text",
+      "context": "Robusta’s second act has a water problem | Coffeedant Journal"
+    },
+    {
+      "id": "d1d7b62fdd2b18f7519c271bb4e99f90e759d67d287754ae791150c59b3c0942",
+      "source": "A neglected species is gaining attention, breeding investment and export volume. The exciting story becomes more useful when we stop calling it climate-proof.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    const readChoice = (raw) => {\n      try {\n        const saved = JSON.parse(raw || 'null');\n        if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) return"
+    },
+    {
+      "id": "09abe336b3f6bc2930f5bf144b040558e38fb5a43bb7ac6f7eb96b0fc61dfce4",
+      "source": "Robusta’s second act has a water problem | Coffeedant Journal",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    const readChoice = (raw) => {\n      try {\n        const saved = JSON.parse(raw || 'null');\n        if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) return"
+    },
+    {
+      "id": "9cb79fafd75373e2fffe9f17abd69fe925c5a5bd8e462b0b939b7de68c208032",
+      "source": "Illustrative coffee cherries and leaves introducing an article about Coffea canephora.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    const readChoice = (raw) => {\n      try {\n        const saved = JSON.parse(raw || 'null');\n        if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) return"
+    },
+    {
+      "id": "88c71903f1f1b6d09953789ef6530c82813e5e41688e2e743721302ef6824a1c",
+      "source": "Zeitgeist / 05",
+      "kind": "text",
+      "context": "Zeitgeist / 05"
+    },
+    {
+      "id": "8328222f2cfe106c9063552d2780228e0c396e1024f8b3508d3f5cefca46fc6f",
+      "source": "BOTANY / CLIMATE / THE CHANGING CUP",
+      "kind": "text",
+      "context": "BOTANY / CLIMATE / THE CHANGING CUP"
+    },
+    {
+      "id": "bc3e1d4dc3c0c4522cba95653b672a0794f571642e77a4aca2b06edd53c60955",
+      "source": "Chapters in Robusta’s second act has a water problem",
+      "kind": "attribute",
+      "context": "Inside the story01Meet the plant before judging the cup02The numbers show movement, not the whole story03A thousand candidates are a beginning04The 2026 challenge to an easy climate story05Give quality a more precise vocabulary06The next signals worth watching↗Sources & methodCoffeedant editorial deskPublished 13 October 2026Print this story ↗"
+    },
+    {
+      "id": "682394d30a7efdaf7fe60d844dc2e78cd03f5007c527887e09e550029637109c",
+      "source": "Meet the plant before judging the cup",
+      "kind": "text",
+      "context": "01Meet the plant before judging the cup"
+    },
+    {
+      "id": "b4adbbbcc66dcaec105dc737f107891a61aaaf2f0bd88f0ac97ebc49cb9fa869",
+      "source": "The numbers show movement, not the whole story",
+      "kind": "text",
+      "context": "02The numbers show movement, not the whole story"
+    },
+    {
+      "id": "4be85ebe30e0a246feb1d72280ffb3fd486bb2a0e4d542dac1504bd595cce887",
+      "source": "A thousand candidates are a beginning",
+      "kind": "text",
+      "context": "03A thousand candidates are a beginning"
+    },
+    {
+      "id": "d7fafbe369865505bcbb02add5441e7641a7fa0eef4dc69711e525f213a69a1c",
+      "source": "The 2026 challenge to an easy climate story",
+      "kind": "text",
+      "context": "04The 2026 challenge to an easy climate story"
+    },
+    {
+      "id": "877e2cadb8dcb7c14f176e84c81220ac6b9b2024bd21191346ef3dc44d3322d1",
+      "source": "Give quality a more precise vocabulary",
+      "kind": "text",
+      "context": "05Give quality a more precise vocabulary"
+    },
+    {
+      "id": "a733b96fbe071b3a32c144a4a7bdc5c073030bf5114f21c7e40c161520117c93",
+      "source": "The next signals worth watching",
+      "kind": "text",
+      "context": "06The next signals worth watching"
+    },
+    {
+      "id": "b55af7012046754829f082ceac5cddfda5151afa97e162a7327d41e43285fdb0",
+      "source": "The coffee conversation is making more room for Coffea canephora, commonly called robusta. That shift deserves curiosity. It also deserves precision: new breeding candidates are not finished varieties, rising exports are not a specialty-market census, and warmth tolerance is not a guarantee against drought. A major August 2026 scientific review brings water back into the picture.",
+      "kind": "text",
+      "context": "The coffee conversation is making more room for Coffea canephora, commonly called robusta. That shift deserves curiosity. It also deserves precision: new breeding candidates are not finished varieties, rising exports are not a specialty-market census, and warmth tolerance is not a guarantee against drought. A major August 2026 scientific review brings water back into the picture."
+    },
+    {
+      "id": "575c8ae78c48047c45c49b69e7a31c02a390fc1bae787386c3307fdbf4a7ef54",
+      "source": "Clones in WCR’s 2026 founding breeding population—not released varieties",
+      "kind": "text",
+      "context": "Clones in WCR’s 2026 founding breeding population—not released varieties"
+    },
+    {
+      "id": "d8778d5daf44b364ef4db3e42b31887a368fc9d7b5bf7caf0b819fdf3bb33951",
+      "source": "27 Aug 2026",
+      "kind": "text",
+      "context": "27 Aug 2026"
+    },
+    {
+      "id": "485d7842d03c4ba207c758bd379fbf5cd620e3b5350ef070ecb9631d725bc045",
+      "source": "Publication date of the new climate-sustainability review",
+      "kind": "text",
+      "context": "Publication date of the new climate-sustainability review"
+    },
+    {
+      "id": "05212c840f3936e6f7b186a8bcceb2e12963355257eeed1c42256cc53c31b6f9",
+      "source": "61.05m",
+      "kind": "text",
+      "context": "61.05m"
+    },
+    {
+      "id": "4c012ac6b4c1fe6919943ce07f64123fc1b7ecd3b103ba5807d71ba6fe27fe43",
+      "source": "60kg bags of robusta exported in the 12 months to August 2026",
+      "kind": "text",
+      "context": "60kg bags of robusta exported in the 12 months to August 2026"
+    },
+    {
+      "id": "6160cfd1ca8d81d45a42775d249f4072b32dbcdd76517dcfdc2b5e260d9f90e0",
+      "source": "World Coffee Research describes Coffea canephora as originating in central and western sub-Saharan Africa. Its wild populations occur mainly in humid evergreen forest understory, across elevations of approximately 50 to 1,500 metres. This is a better starting point than treating robusta as a flavour stereotype. It is a plant with a geography and a range of growing environments. A species name gives a reader useful information, but it is not a complete description of an individual lot.",
+      "kind": "text",
+      "context": "World Coffee Research describes Coffea canephora as originating in central and western sub-Saharan Africa. Its wild populations occur mainly in humid evergreen forest understory, across elevations of approximately 50 to 1,500 metres. This is a better starting point than treating robusta as a flavour stereotype. It is a plant with a geography and a range of growing environments. A species name gives a reader useful information, but it is not a complete description of an individual lot. Explore the WCR botanical catalog."
+    },
+    {
+      "id": "cf2500b2bb34722f97d245017d23c8f7b97ea30f4d6f832ce6df26be13678dd6",
+      "source": "Explore the WCR botanical catalog",
+      "kind": "text",
+      "context": "Explore the WCR botanical catalog"
+    },
+    {
+      "id": "39f4c29a57fb5501b15df455a6f9a7a80fb7477082594a6677bac4bf282cc709",
+      "source": "When approaching an unfamiliar coffee, ask which details are being offered and which are being left to your imagination. A named producer, harvest, processing method and roast provide a more informative introduction than a single word on a bag. Coffeedant’s recommendation is to make the question smaller: not “Do I like robusta?” but “What can I learn from this identifiable coffee?” That formulation makes room for preference without turning one encounter into a verdict on a whole species.",
+      "kind": "text",
+      "context": "When approaching an unfamiliar coffee, ask which details are being offered and which are being left to your imagination. A named producer, harvest, processing method and roast provide a more informative introduction than a single word on a bag. Coffeedant’s recommendation is to make the question smaller: not “Do I like robusta?” but “What can I learn from this identifiable coffee?” That formulation makes room for preference without turning one encounter into a verdict on a whole species."
+    },
+    {
+      "id": "8418f4c84c0aea9833994c6c34ef1ed9911b2f9d2e9f7d28a5de3e9c47419289",
+      "source": "View source: Clusters of unripe green Coffea canephora berries on a coffee plant",
+      "kind": "attribute",
+      "context": "Documentary / photograph    Unripe Coffea canephora berries photographed in July 2009. Robusta is a coffee species with its own cultivation and processing choices.Siddharth Patil / Wikimedia Commons · Source · CC0 1.0 · Resized and converted to WebP."
+    },
+    {
+      "id": "e7951d7cf3d297b63740b1114c79bb99af3e1d6407568f12e436299f44517bab",
+      "source": "Clusters of unripe green Coffea canephora berries on a coffee plant",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "8f4d76655807a7b075d0506a668aeb0bd6aa7689e5fb01d75761bde982856121",
+      "source": "Unripe Coffea canephora berries photographed in July 2009. Robusta is a coffee species with its own cultivation and processing choices.",
+      "kind": "text",
+      "context": "Unripe Coffea canephora berries photographed in July 2009. Robusta is a coffee species with its own cultivation and processing choices."
+    },
+    {
+      "id": "5cecc58274af00f1daf159b2bbea0eaeb770e9a287007adc119c69f440dc4ca2",
+      "source": "Siddharth Patil / Wikimedia Commons ·",
+      "kind": "text",
+      "context": "Siddharth Patil / Wikimedia Commons · Source · CC0 1.0 · Resized and converted to WebP."
+    },
+    {
+      "id": "c12ef62115d2174d7348af09000b69c02da2a2e5416a1cf54d05c8a2ae0cc37c",
+      "source": "In November 2024, World Coffee Research placed robusta’s share of global production at about 40%, compared with 25% in the early 1990s. Those are dated figures, not a live October 2026 estimate. They nevertheless describe a substantial change in the production mix over time. The organization’s research agenda includes quality for different markets, from commercial through specialty. The story is broader than a sudden fashionable rediscovery.",
+      "kind": "text",
+      "context": "In November 2024, World Coffee Research placed robusta’s share of global production at about 40%, compared with 25% in the early 1990s. Those are dated figures, not a live October 2026 estimate. They nevertheless describe a substantial change in the production mix over time. The organization’s research agenda includes quality for different markets, from commercial through specialty. The story is broader than a sudden fashionable rediscovery. Read The roots of Robusta."
+    },
+    {
+      "id": "1c4ad16662bf7488e7b9d20754fb09aa54d3ac5cbec1fa647ad78369e6e57c32",
+      "source": "Read The roots of Robusta",
+      "kind": "text",
+      "context": "Read The roots of Robusta"
+    },
+    {
+      "id": "207aec049c4ca2d1c45836f5e6887533c3d09ec78adce5a9f355ae1e0960daa7",
+      "source": "The ICO’s current summary adds a recent trade signal. In the twelve months ending August 2026, robusta exports reached 61.05 million 60-kilogram bags, against 54.48 million in the comparison period. Arabica exports were 81.39 million, against 85.97 million. These numbers measure export volume, not fine-robusta demand or consumer approval. Calling them proof that specialty robusta has conquered the market would answer a question the data did not ask.",
+      "kind": "text",
+      "context": "The ICO’s current summary adds a recent trade signal. In the twelve months ending August 2026, robusta exports reached 61.05 million 60-kilogram bags, against 54.48 million in the comparison period. Arabica exports were 81.39 million, against 85.97 million. These numbers measure export volume, not fine-robusta demand or consumer approval. Calling them proof that specialty robusta has conquered the market would answer a question the data did not ask. Read the ICO market summary."
+    },
+    {
+      "id": "dd871e0eacc6daa99b729e2073622b8ee6014dc1948db2c23f1d3d0cfe6fe50d",
+      "source": "Read the ICO market summary",
+      "kind": "text",
+      "context": "Read the ICO market summary"
+    },
+    {
+      "id": "5e20023698f6edef3d30b8e90de73925686bf1451331a5b6c036e9bb5f2b00a4",
+      "source": "That distinction is the foundation of a useful trend report. One can observe more trade and more research attention while leaving the size of a specific premium segment unresolved. The uncertainty does not weaken the story; it tells the reader where the next meaningful evidence should come from.",
+      "kind": "text",
+      "context": "That distinction is the foundation of a useful trend report. One can observe more trade and more research attention while leaving the size of a specific premium segment unresolved. The uncertainty does not weaken the story; it tells the reader where the next meaningful evidence should come from."
+    },
+    {
+      "id": "847e8781fd307988bc8d5463f44c26056ec50db52f44e8aad06596f761351243",
+      "source": "Resilience is a system, not a species name",
+      "kind": "text",
+      "context": "Resilience is a system, not a species name"
+    },
+    {
+      "id": "5d587587f4ef5e76263b7ed89511c12aead8df7e5b5232cfebe470a17a4bfca2",
+      "source": "Temperature and exposure",
+      "kind": "text",
+      "context": "Temperature and exposure"
+    },
+    {
+      "id": "4c4c59fb5838d269436171fc85410cd678187b64aaed268ebfdd7f4988327d0d",
+      "source": "Rainfall, soil water, irrigation",
+      "kind": "text",
+      "context": "Rainfall, soil water, irrigation"
+    },
+    {
+      "id": "c94957ebbd94805627f3b65957fde1a280a389f9ab46c1ef7ab2bbcded7843a9",
+      "source": "Farm",
+      "kind": "text",
+      "context": "Farm"
+    },
+    {
+      "id": "59a87355b2273b751db8ea982ffae0cb27a29114aa0854c385d197b288a65590",
+      "source": "Shade, soils and management",
+      "kind": "text",
+      "context": "Shade, soils and management"
+    },
+    {
+      "id": "b23ab3d92c8114651fa74087b43aca5c4961587b43c81a7d5d654bf3f090adf7",
+      "source": "Plant",
+      "kind": "text",
+      "context": "Plant"
+    },
+    {
+      "id": "8ac2e9f504ed85575aa52d6ee38d6546c4e51a263cb612276c574a4ccbc60bca",
+      "source": "Genetics and local adaptation",
+      "kind": "text",
+      "context": "Genetics and local adaptation"
+    },
+    {
+      "id": "acb1d364f5279e21aa924cf3fe326ab53e4bad191b096775f7b0ad15bd5d4776",
+      "source": "Conceptual layers; no climate projections or measured yields are encoded in this drawing.",
+      "kind": "text",
+      "context": "Conceptual layers; no climate projections or measured yields are encoded in this drawing."
+    },
+    {
+      "id": "79431fcaa9b4e45854a968a65698b46d85c1f7c22424d40fa9b91f27336a1add",
+      "source": "World Coffee Research’s July 2025 update reported progress with controlled crosses and clonal propagation after breeding work began in 2024. A September 2026 update describes 1,000 clones selected as a founding population and being multiplied for national partners. The precise word is candidates: this is a breeding population, not an announcement of 1,000 proven new commercial varieties.",
+      "kind": "text",
+      "context": "World Coffee Research’s July 2025 update reported progress with controlled crosses and clonal propagation after breeding work began in 2024. A September 2026 update describes 1,000 clones selected as a founding population and being multiplied for national partners. The precise word is candidates: this is a breeding population, not an announcement of 1,000 proven new commercial varieties. Read the July 2025 update; read the 2026 clone update."
+    },
+    {
+      "id": "d17243d9955285ff6ace2a8b10a310814c99c4fb80a9d78e88be3892c681c685",
+      "source": "Read the July 2025 update",
+      "kind": "text",
+      "context": "Read the July 2025 update"
+    },
+    {
+      "id": "92348280c15b9e3466e2b8ad783c2299ab131c294e9745c27a95f7281248b0d3",
+      "source": "read the 2026 clone update",
+      "kind": "text",
+      "context": "read the 2026 clone update"
+    },
+    {
+      "id": "06230ee329eea8eb79728b35b001558f579ab393654ef2ed7a0ae697332b619b",
+      "source": "For an editorial reader, the interesting change is the seriousness of the question being asked. Which combinations of traits should future planting material pursue, and how should farmers’ needs shape the work? A promising candidate can be worth studying without being ready to recommend everywhere. When a brand cites a breeding project, ask whether it is describing a research objective, an experimental result or a variety already evaluated for the stated conditions.",
+      "kind": "text",
+      "context": "For an editorial reader, the interesting change is the seriousness of the question being asked. Which combinations of traits should future planting material pursue, and how should farmers’ needs shape the work? A promising candidate can be worth studying without being ready to recommend everywhere. When a brand cites a breeding project, ask whether it is describing a research objective, an experimental result or a variety already evaluated for the stated conditions."
+    },
+    {
+      "id": "556aa75db426063f9854ee516eb57d92095ee21db6877ea651fe1678de5de326",
+      "source": "These stages should stay distinct in visual explanations too. A seedling image beside the phrase “future of coffee” is evocative, but a clear caption should tell us what stage we are seeing. Coffeedant’s interpretation is that sustained breeding attention is a stronger signal than a fashionable claim of instant transformation.",
+      "kind": "text",
+      "context": "These stages should stay distinct in visual explanations too. A seedling image beside the phrase “future of coffee” is evocative, but a clear caption should tell us what stage we are seeing. Coffeedant’s interpretation is that sustained breeding attention is a stronger signal than a fashionable claim of instant transformation."
+    },
+    {
+      "id": "d6058c2edc287c3c935eb18c2d98e8f03f594a2ef4cfa2a2214a12cadeb3cc5a",
+      "source": "A review published on 27 August 2026 in Sustainable Development challenges broad claims of climate resilience for farmed robusta. It emphasizes soil and terrestrial water availability, irrigation, shade and farming inputs. The authors argue that some climate analyses overlook water relationships and the extent to which cultivation depends on irrigation. This is a substantive critique to attribute to its authors, not a reason to declare every farm or climate model equivalent.",
+      "kind": "text",
+      "context": "A review published on 27 August 2026 in Sustainable Development challenges broad claims of climate resilience for farmed robusta. It emphasizes soil and terrestrial water availability, irrigation, shade and farming inputs. The authors argue that some climate analyses overlook water relationships and the extent to which cultivation depends on irrigation. This is a substantive critique to attribute to its authors, not a reason to declare every farm or climate model equivalent. Read The Sustainability of Robusta Coffee Under Global Change."
+    },
+    {
+      "id": "d7aa5c39d2a4a85edf4d9b2aae46126d6a0ee223d6fabb5d0b28718a55108d29",
+      "source": "Read The Sustainability of Robusta Coffee Under Global Change",
+      "kind": "text",
+      "context": "Read The Sustainability of Robusta Coffee Under Global Change"
+    },
+    {
+      "id": "a4ee695219b6e0b29154027ec2884c432e8deef594e388178a9fab5eef867ed5",
+      "source": "The distinction it brings into focus is simple: enduring warm conditions and delivering dependable harvests when water is limited are different propositions. Coffeedant would therefore avoid “climate-proof” altogether. Such a label compresses a landscape into a promise. The reader needs to know what stress is being discussed, under which management conditions, and what evidence supports the claim.",
+      "kind": "text",
+      "context": "The distinction it brings into focus is simple: enduring warm conditions and delivering dependable harvests when water is limited are different propositions. Coffeedant would therefore avoid “climate-proof” altogether. Such a label compresses a landscape into a promise. The reader needs to know what stress is being discussed, under which management conditions, and what evidence supports the claim."
+    },
+    {
+      "id": "9a553ad8bdf8cbd792ce16fbfcb4fd8971560e7c947ab590379f15c27f39fc6e",
+      "source": "A more informative illustration places rainfall, soil water, irrigation and shade beside temperature. The point is not to invent a universal formula for farmers. It is to prevent a single thermometer from representing every condition a crop faces. The most credible climate story leaves room for local questions rather than making a global guarantee from a species name.",
+      "kind": "text",
+      "context": "A more informative illustration places rainfall, soil water, irrigation and shade beside temperature. The point is not to invent a universal formula for farmers. It is to prevent a single thermometer from representing every condition a crop faces. The most credible climate story leaves room for local questions rather than making a global guarantee from a species name."
+    },
+    {
+      "id": "48087385a49ba103c26f9ba6e492ec7ee4ad437879061ad68846030e7e088b8e",
+      "source": "Read a robusta headline by identifying what its evidence actually measures.",
+      "kind": "text",
+      "context": "Read a robusta headline by identifying what its evidence actually measures."
+    },
+    {
+      "id": "b0fa755fabb0c16930c52137a5bc84c6205b7839bcf9972417157a62df8a35c5",
+      "source": "What it can support",
+      "kind": "text",
+      "context": "What it can support"
+    },
+    {
+      "id": "7bb9d4b06e21a75b86b8bc4582c1f0ebd0519fb655e88a6f3e176fc133cf3f73",
+      "source": "Question it leaves open",
+      "kind": "text",
+      "context": "Question it leaves open"
+    },
+    {
+      "id": "44b515683fbe36f8f9476ff382e8f3280c0d2b265512197a147e6e8ebcba3db9",
+      "source": "Higher export volume",
+      "kind": "text",
+      "context": "Higher export volume"
+    },
+    {
+      "id": "d0b27ea9c33e1ec4580f9951cf54e1d9106f35aa45b89489edeead8cef5f7ee1",
+      "source": "A change in measured coffee trade",
+      "kind": "text",
+      "context": "A change in measured coffee trade"
+    },
+    {
+      "id": "8de358c885f9abd4c3fc0da900f8ca7f1d5bfa0f3f2928a577c23bec6fdcea46",
+      "source": "How much belongs to premium or specialty lots?",
+      "kind": "text",
+      "context": "How much belongs to premium or specialty lots?"
+    },
+    {
+      "id": "4eb41557d16bfc5e859f47657aa9769b47f4915d92e336c874b5a1180864582f",
+      "source": "New breeding candidates",
+      "kind": "text",
+      "context": "New breeding candidates"
+    },
+    {
+      "id": "5fde0c8d5974789df1a83ce6b4814698f7327ffe88e575d87006db84db1e14c4",
+      "source": "A research pipeline and selection work",
+      "kind": "text",
+      "context": "A research pipeline and selection work"
+    },
+    {
+      "id": "b32b8ab66f8ca4d341eefb86f88b60d00dd10ea84d99f7785379231beed1a481",
+      "source": "Which candidates perform well in which conditions?",
+      "kind": "text",
+      "context": "Which candidates perform well in which conditions?"
+    },
+    {
+      "id": "141fd290ddb90886dcaedd451dd4f47b81674f0759bb656a50ab4f81e42a6b82",
+      "source": "Warm growing conditions",
+      "kind": "text",
+      "context": "Warm growing conditions"
+    },
+    {
+      "id": "e67879cacba19c035c12b322de269ff0349f25852983d833289755bd95896ac6",
+      "source": "An observation about a defined environment",
+      "kind": "text",
+      "context": "An observation about a defined environment"
+    },
+    {
+      "id": "112cf6ede6005ed5c7ed2b9081b68701655e71d1552ff7b1a64d53c1229387c9",
+      "source": "What water and management inputs were required?",
+      "kind": "text",
+      "context": "What water and management inputs were required?"
+    },
+    {
+      "id": "3f518b0281d3ca7e976300ca8f04f35c59eaaa2e83c3f0a4038c9bcb91debc9f",
+      "source": "A favourable tasting",
+      "kind": "text",
+      "context": "A favourable tasting"
+    },
+    {
+      "id": "f4f6d610d091e8478189f9a8d9ae956192ea11ce0642a18df240c7eb6497350b",
+      "source": "A judgement of an identified preparation",
+      "kind": "text",
+      "context": "A judgement of an identified preparation"
+    },
+    {
+      "id": "6bacf0b85fe8246e54f0f3123a7a252e79b440ea3879f2992b800d98e39e300c",
+      "source": "How comparable were species, roast and processing?",
+      "kind": "text",
+      "context": "How comparable were species, roast and processing?"
+    },
+    {
+      "id": "49d5a9ac9b5f0ec83a9a27e093ad8304afcb1986edb4552903aef32111189d07",
+      "source": "A species label",
+      "kind": "text",
+      "context": "A species label"
+    },
+    {
+      "id": "51b6d2c06c6f00b7e27c5609269c2771ef26ec5e0b089ac2acf3ac02848846ea",
+      "source": "Botanical identity information",
+      "kind": "text",
+      "context": "Botanical identity information"
+    },
+    {
+      "id": "43712afe0224d84c8ae08d7518d3e6d236deb06089672bd7fd50b1a601907abe",
+      "source": "Who produced this particular lot, and how?",
+      "kind": "text",
+      "context": "Who produced this particular lot, and how?"
+    },
+    {
+      "id": "8a04d44a456476e533982d3a3f535b633a14a806f18be412e4a426fecedfd670",
+      "source": "Species, processing and roast should be separate entries in a coffee description. If a label blends them into one identity, it becomes difficult to know what a comparison means. A heavily roasted blended coffee and a differently handled single lot are not a tidy species experiment. This is a principle for interpreting comparisons, not a claim that one treatment is intrinsically superior. Useful editorial tasting begins by naming the question and the variables that remain different.",
+      "kind": "text",
+      "context": "Species, processing and roast should be separate entries in a coffee description. If a label blends them into one identity, it becomes difficult to know what a comparison means. A heavily roasted blended coffee and a differently handled single lot are not a tidy species experiment. This is a principle for interpreting comparisons, not a claim that one treatment is intrinsically superior. Useful editorial tasting begins by naming the question and the variables that remain different."
+    },
+    {
+      "id": "9327ad2ef727f08243fa70559e67f5686d2fce9ea7aed2a58a80dcc4b629dd2a",
+      "source": "At home, an approachable exercise is to compare two identifiable coffees while recording the recipes and your own preferences. Keep expectations visible. Write down what you thought the name would mean, then describe what you actually noticed without forcing the notes to match the label. This is a suggested reader activity; Coffeedant has not conducted a tasting for this article.",
+      "kind": "text",
+      "context": "At home, an approachable exercise is to compare two identifiable coffees while recording the recipes and your own preferences. Keep expectations visible. Write down what you thought the name would mean, then describe what you actually noticed without forcing the notes to match the label. This is a suggested reader activity; Coffeedant has not conducted a tasting for this article."
+    },
+    {
+      "id": "4b3f8f7f5d261555e2539a6a78edeaf814cfb10cae4e82bc1e782aa5006bfe3b",
+      "source": "The resulting judgement can be modest and still valuable: “I preferred this lot in this preparation” is more informative than “this species is good” or “this species is bad.” It also gives a retailer something practical to respond to when recommending the next coffee.",
+      "kind": "text",
+      "context": "The resulting judgement can be modest and still valuable: “I preferred this lot in this preparation” is more informative than “this species is good” or “this species is bad.” It also gives a retailer something practical to respond to when recommending the next coffee."
+    },
+    {
+      "id": "521a92893cfb47bbe5a6185260d4394de9c4d809bbc7531651c1fe3ee78b7d9b",
+      "source": "View source: Harvested and dried robusta coffee shown side by side",
+      "kind": "attribute",
+      "context": "Documentary / photograph    Robusta coffee shown after harvesting on the right and after drying on the left, as documented by the photographer. The photograph illustrates processing stages, rather than a graded fine-robusta lot.DXLINH / Wikimedia Commons · Source · CC BY-SA 3.0 · Resized and converted to WebP."
+    },
+    {
+      "id": "e36f97064a9c384e0d27ab8be69bad1b6e95e75e3fc6346b359f0bd882eb21e2",
+      "source": "Harvested and dried robusta coffee shown side by side",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "060ae5aa9e186df500f523014b93b75ef76f7facac2c1b045a2f28ea47a19da1",
+      "source": "Robusta coffee shown after harvesting on the right and after drying on the left, as documented by the photographer. The photograph illustrates processing stages, rather than a graded fine-robusta lot.",
+      "kind": "text",
+      "context": "Robusta coffee shown after harvesting on the right and after drying on the left, as documented by the photographer. The photograph illustrates processing stages, rather than a graded fine-robusta lot."
+    },
+    {
+      "id": "ff4e58d8d61a614932154baff4cfbe359463a8ebfce47b167f5de842eace68f9",
+      "source": "DXLINH / Wikimedia Commons ·",
+      "kind": "text",
+      "context": "DXLINH / Wikimedia Commons · Source · CC BY-SA 3.0 · Resized and converted to WebP."
+    },
+    {
+      "id": "4446e7258909dc42364b0c229008b6b25d9ecd95618dd7fc52097b347aa2d270",
+      "source": "Video 1: Importance and Establishment of Clonal Coffee Nurseries",
+      "kind": "text",
+      "context": "Video 1: Importance and Establishment of Clonal Coffee Nurseries"
+    },
+    {
+      "id": "e070fea1bbf7dcb81e08a1e38ddbd500c1f07f3a895c9591be80347f8023d5d8",
+      "source": "Field training produced by World Coffee Research for the Uganda Coffee Development Authority clonal robusta nursery manual. Gives the reader a practical view of the nursery work behind robusta improvement.",
+      "kind": "text",
+      "context": "Field training produced by World Coffee Research for the Uganda Coffee Development Authority clonal robusta nursery manual. Gives the reader a practical view of the nursery work behind robusta improvement."
+    },
+    {
+      "id": "ed0becf18fb8128dbcf575b85be895744b93cab233d2820182f48c53376f378a",
+      "source": "Play Video 1: Importance and Establishment of Clonal Coffee Nurseries",
+      "kind": "attribute",
+      "context": "▶Watch with World Coffee Research"
+    },
+    {
+      "id": "677a039047c66f8abea5455198c5373e060756d5a7ebf7dd9c701b16ea183b2a",
+      "source": "Watch with World Coffee Research",
+      "kind": "text",
+      "context": "Watch with World Coffee Research"
+    },
+    {
+      "id": "3f50f98a36a28fe241e1aef91b972639d465d513490099f440e7f6e5e52deda3",
+      "source": "Watch on YouTube · World Coffee Research ↗",
+      "kind": "text",
+      "context": "Watch on YouTube · World Coffee Research ↗"
+    },
+    {
+      "id": "e2a750d52893a04e00a15efa6f3b9b27abc1bb1349913ae5685e661291244de9",
+      "source": "For the next chapter, watch for named varieties evaluated in named environments, rather than broad announcements that coffee has been saved. Watch for a transparent distinction between export growth and premium-market development. In descriptions of individual lots, watch for producer, harvest and handling information that survives beyond an attractive origin paragraph. These are editorial criteria for reading new claims; they are not a forecast of which origin or business will succeed.",
+      "kind": "text",
+      "context": "For the next chapter, watch for named varieties evaluated in named environments, rather than broad announcements that coffee has been saved. Watch for a transparent distinction between export growth and premium-market development. In descriptions of individual lots, watch for producer, harvest and handling information that survives beyond an attractive origin paragraph. These are editorial criteria for reading new claims; they are not a forecast of which origin or business will succeed."
+    },
+    {
+      "id": "4f51af3b0069f2240da7c18e65c762c5763e4a0bd9746e9ad94258f8b2a5ec2f",
+      "source": "The same curiosity should extend to resources. If a climate claim depends on irrigation or another management practice, that dependence belongs in the story. Omitting it makes the system appear simpler than the evidence suggests. A sophisticated coffee culture can celebrate a plant’s possibilities while asking what makes those possibilities practical.",
+      "kind": "text",
+      "context": "The same curiosity should extend to resources. If a climate claim depends on irrigation or another management practice, that dependence belongs in the story. Omitting it makes the system appear simpler than the evidence suggests. A sophisticated coffee culture can celebrate a plant’s possibilities while asking what makes those possibilities practical."
+    },
+    {
+      "id": "a15d59c8e5e9d8a0a832bd81e7bb5a6256adf2492d4d6cb60552a1f188b59a5b",
+      "source": "Robusta’s second act is compelling precisely because it is unfinished. There is a substantial crop, a changing trade picture, new breeding work and an active scientific debate about resilience. The reader does not need a heroic species to stay interested. A clearer account of the plant, the people evaluating it and the conditions they must contend with offers something better: a trend that can be followed intelligently as the evidence develops.",
+      "kind": "text",
+      "context": "Robusta’s second act is compelling precisely because it is unfinished. There is a substantial crop, a changing trade picture, new breeding work and an active scientific debate about resilience. The reader does not need a heroic species to stay interested. A clearer account of the plant, the people evaluating it and the conditions they must contend with offers something better: a trend that can be followed intelligently as the evidence develops."
+    },
+    {
+      "id": "dd90d12f9482b656405a8af1e335c0dad73c020fb57b3afe3e448c98a61f4955",
+      "source": "Judge identifiable canephora lots with curiosity, and read resilience claims through water, location and management. An expanding trade and a breeding pipeline are signals to investigate, not guarantees.",
+      "kind": "text",
+      "context": "Judge identifiable canephora lots with curiosity, and read resilience claims through water, location and management. An expanding trade and a breeding pipeline are signals to investigate, not guarantees."
+    },
+    {
+      "id": "925f04c53d765691ddc1b091ed8a6709a1fa333f3216631c58776ced825f281d",
+      "source": "Is robusta climate-proof?",
+      "kind": "text",
+      "context": "Is robusta climate-proof?"
+    },
+    {
+      "id": "76d54c629034b80a9ffd52294f5f1dbf95edd31d576cf114a3289ce82f587b52",
+      "source": "No such guarantee follows from the species name. The August 2026 review challenges broad resilience assumptions and stresses water and farming conditions.",
+      "kind": "text",
+      "context": "No such guarantee follows from the species name. The August 2026 review challenges broad resilience assumptions and stresses water and farming conditions."
+    },
+    {
+      "id": "7a8bd61434e19649818a1dac70a6e425374a6be6a53998682bc2fd96f2206495",
+      "source": "Does export growth prove a specialty robusta boom?",
+      "kind": "text",
+      "context": "Does export growth prove a specialty robusta boom?"
+    },
+    {
+      "id": "903bb0e7f39257a18f3de524f3f3c7649b6ea4e1c3977a794477ed42864c1327",
+      "source": "No. Export totals combine market segments and do not isolate premium demand.",
+      "kind": "text",
+      "context": "No. Export totals combine market segments and do not isolate premium demand."
+    },
+    {
+      "id": "5df0a6903351087f745e9a74b5ba86d68d3793611f3210b494e81c80614df34c",
+      "source": "Are WCR’s 1,000 clones ready-made commercial varieties?",
+      "kind": "text",
+      "context": "Are WCR’s 1,000 clones ready-made commercial varieties?"
+    },
+    {
+      "id": "9481de7cf9b8a557f06bbd53f23a58a76d52493a4505b7e1798d2a3d45b2bc54",
+      "source": "No. They are a founding breeding population undergoing multiplication and further evaluation.",
+      "kind": "text",
+      "context": "No. They are a founding breeding population undergoing multiplication and further evaluation."
+    },
+    {
+      "id": "3d7447a062d4caf297b6a272bbcb92aef258ef2bfef0211553c4a7d3651b8a8f",
+      "source": "World Coffee Research Robusta catalog ↗",
+      "kind": "text",
+      "context": "World Coffee Research Robusta catalog ↗"
+    },
+    {
+      "id": "df51c07336c1d82c5c4924fbfc8d70bbc9cd0befe273fdcaae77b3fc98131e1e",
+      "source": "Botanical origin and wild habitat information.",
+      "kind": "text",
+      "context": "Botanical origin and wild habitat information."
+    },
+    {
+      "id": "31d4f52be814aaa63416211f191b1ff878dd09f715d48e587fabd63fd92cea63",
+      "source": "The roots of Robusta ↗",
+      "kind": "text",
+      "context": "The roots of Robusta ↗"
+    },
+    {
+      "id": "9cd8bb8cfa80d27dac5e4fa3fb187e2f4d33f74cf73fb4a0bc49ecc3b649ef77",
+      "source": "November 2024 historical production share; figures dated to publication.",
+      "kind": "text",
+      "context": "November 2024 historical production share; figures dated to publication."
+    },
+    {
+      "id": "e13d71c544949c0d77959686816bcf5fe767db8eeb2597908563059f795cd3ae",
+      "source": "Robusta breeding: a year later ↗",
+      "kind": "text",
+      "context": "Robusta breeding: a year later ↗"
+    },
+    {
+      "id": "ee06031b8a5a02ba65b5754de7e3269260ab77ce96c083fd5981bc51105a9e53",
+      "source": "July 2025 breeding progress.",
+      "kind": "text",
+      "context": "July 2025 breeding progress."
+    },
+    {
+      "id": "87a60f3de4058e087bb0d3e679227693c4e29472eceb603753adcc8809eee4c8",
+      "source": "Robusta breeding update: 1,000 clones advancing ↗",
+      "kind": "text",
+      "context": "Robusta breeding update: 1,000 clones advancing ↗"
+    },
+    {
+      "id": "cfd9b271ce88b0ee7e5cae6f568f475499912a218c771208bed446080f256e55",
+      "source": "September 2026 research candidates; not released cultivars.",
+      "kind": "text",
+      "context": "September 2026 research candidates; not released cultivars."
+    },
+    {
+      "id": "545b9d32a42efe5abdd8b04716ac716c921a3c05c2b1e23f6280ff6e1008ed2f",
+      "source": "The Sustainability of Robusta Coffee Under Global Change ↗",
+      "kind": "text",
+      "context": "The Sustainability of Robusta Coffee Under Global Change ↗"
+    },
+    {
+      "id": "7293f8422a278936337bb7dfd29f116ef8a55ae17e433d40055b939151b1357e",
+      "source": "Peer-reviewed review published 27 August 2026; broad resilience claims critically examined.",
+      "kind": "text",
+      "context": "Peer-reviewed review published 27 August 2026; broad resilience claims critically examined."
+    },
+    {
+      "id": "2e4dca29cfea986c7358d2e388ebdb28b124b818d04a1e458b4062d3f0efb162",
+      "source": "International Coffee Organization market summary ↗",
+      "kind": "text",
+      "context": "International Coffee Organization market summary ↗"
+    },
+    {
+      "id": "c23fa526d82f2753425f16219776cd3861aa7e03e5ff138eaf655e025197c76e",
+      "source": "Twelve-month export comparison to August 2026; not specialty-segment data.",
+      "kind": "text",
+      "context": "Twelve-month export comparison to August 2026; not specialty-segment data."
+    },
+    {
+      "id": "995f41bd64757a4c7745ed26896d1de62aefbfef77ae8b00382a2b983b68e7c2",
+      "source": "Clusters of unripe green Coffea canephora berries on a coffee plant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "3d93eeffed848099cfa87e9bbb310157b392ff02394c423e0bdf12e000a1c031",
+      "source": "Unripe Coffea canephora berries photographed in July 2009. Robusta is a coffee species with its own cultivation and processing choices. Siddharth Patil / Wikimedia Commons · Source · CC0 1.0 · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "a023eb155cc67b1084b202619ebf2ea0dccd4ebf8545607a800c735f19a31654",
+      "source": "Siddharth Patil / Wikimedia Commons · Source · CC0 1.0 · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "d5d724d4bd8e40c96013c0499bb47e38abda0827357f4d23febe3c819a914bf9",
+      "source": "Harvested and dried robusta coffee shown side by side",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "54fc442d982941338edef9b09ce1d9366402394971adace21c409251cad1a3da",
+      "source": "Robusta coffee shown after harvesting on the right and after drying on the left, as documented by the photographer. The photograph illustrates processing stages, rather than a graded fine-robusta lot. DXLINH / Wikimedia Commons · Source · CC BY-SA 3.0 · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "463ba2a717fd6b9f0bd36c8fd8028d73d2167b4679e1b176903943f2e84675b5",
+      "source": "DXLINH / Wikimedia Commons · Source · CC BY-SA 3.0 · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "c87396da8c9286212ac99c0dd5ad14ffcba551db068b159fa889243c618900f7",
+      "source": "Robusta’s second act has a water problem | Coffeedant Journal",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "dd53a2d3d5f29a08c1ab2977152a98f89478fd748a2dd78dc35ea8b30960b2a2",
+      "source": "A neglected species is gaining attention, breeding investment and export volume. The exciting story becomes more useful when we stop calling it climate-proof.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "7ae7faf870bd8c58e9678cd45fedd2b02e357700e3467e71d02d276d8d07e6d8",
+      "source": "Unripe Coffea canephora berries photographed in July 2009. Robusta is a coffee species with its own cultivation and processing choices.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "27f9b8043b6fe777a8ada74518e1bbcaad2c98cd0d2dd1826d163757df75a92f",
+      "source": "Siddharth Patil / Wikimedia Commons",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "bddd556bec852b2f7baa5e77000d0d6cb65ec2f2af963da96b7e499bcdfac3b5",
+      "source": "Robusta coffee shown after harvesting on the right and after drying on the left, as documented by the photographer. The photograph illustrates processing stages, rather than a graded fine-robusta lot.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "5530bfe8c51fc927158f6f5035ef55f498ff42d69111ed58dcf32ea2f8d9cddc",
+      "source": "DXLINH / Wikimedia Commons",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "4698d08917b75473ed29b871c38f101e0b80b056ea6a2b56b02c2ae5edadd040",
+      "source": "Video 1: Importance and Establishment of Clonal Coffee Nurseries",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "bd07b04f52d4874cb0289e187ad744b2092b7c9b847db1c914c640eeef09282f",
+      "source": "Field training produced by World Coffee Research for the Uganda Coffee Development Authority clonal robusta nursery manual. Gives the reader a practical view of the nursery work behind robusta improvement.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "ef381689a5edfed940654c3354262f37c41cd5726dd2858d07a7ca68721c7e21",
+      "source": "World Coffee Research",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "a2eca460be848084546369ecb268d3b90e594334cfe25863321b132b24e80c48",
+      "source": "Is robusta climate-proof?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "bdd18b026137bb510601fd8202a6ae92e0037b9d984cbb1cfee996a99ab1abe6",
+      "source": "No such guarantee follows from the species name. The August 2026 review challenges broad resilience assumptions and stresses water and farming conditions.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "12389ed29d1a7542da3883b9dcaef4d4c9e8f98111a633d52540baffc8fb364b",
+      "source": "Does export growth prove a specialty robusta boom?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "9e7df9d61ec26c8d61aa330ddc6562497f5177d77f3326be8a251ffe377bd3aa",
+      "source": "No. Export totals combine market segments and do not isolate premium demand.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "6503d526758314a6372423a4f537e072b4a18f5d2c09cba7967fdc89df04fb4d",
+      "source": "Are WCR’s 1,000 clones ready-made commercial varieties?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "611a2b17aeec0770c458f2faab9d5fb9abe748be8d31b7643bba74734de122e6",
+      "source": "No. They are a founding breeding population undergoing multiplication and further evaluation.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "2bb55879a2a21e0605cfc683cbd1eb0d34f1c576abff48ee4b90394b4336a062",
+      "source": "The ingredient you cannot see. | Coffeedant Journal",
+      "kind": "text",
+      "context": "The ingredient you cannot see. | Coffeedant Journal"
+    },
+    {
+      "id": "4a22acc8ff7894a7c925500d24dd46bb08e33cf5f84c81b8883f0b7ad112a3ff",
+      "source": "Hardness, alkalinity and the reason a bottle labelled “pure” is not a complete brewing specification.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    const readChoice = (raw) => {\n      try {\n        const saved = JSON.parse(raw || 'null');\n        if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) return"
+    },
+    {
+      "id": "43154ded27e041103afca01c81cabb6d97f9e8b0d8c6ee858eabf220624acb0f",
+      "source": "The ingredient you cannot see. | Coffeedant Journal",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    const readChoice = (raw) => {\n      try {\n        const saved = JSON.parse(raw || 'null');\n        if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) return"
+    },
+    {
+      "id": "ae41a400826e184be0a8bc33c40cbc1ce823ace8c974c55f2ea5eaed91ea4b2d",
+      "source": "Illustrated glasses of water with refracted light beside espresso",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    const readChoice = (raw) => {\n      try {\n        const saved = JSON.parse(raw || 'null');\n        if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) return"
+    },
+    {
+      "id": "5de12a5ddac0aa76eb9a377b20a52bd94e08a507e925952b3c5eaeb425df5a83",
+      "source": "Brew Lab / 09",
+      "kind": "text",
+      "context": "Brew Lab / 09"
+    },
+    {
+      "id": "bd0461baf4036341b36473d9bc3667e653d8a07813e3d559dadb359b327afdbb",
+      "source": "Water / Chemistry without the mystique",
+      "kind": "text",
+      "context": "Water / Chemistry without the mystique"
+    },
+    {
+      "id": "8597d4c50523cebf14a2a172f601d2efd4caf1878dca46b4dfb26814fe29d7cb",
+      "source": "Chapters in The ingredient you cannot see.",
+      "kind": "attribute",
+      "context": "Inside the story01Water arrives with a history02Hardness counts one kind of dissolved material03Alkalinity is the cup’s quiet editor04Why one meter cannot answer every question05The boiler has a vote06A useful water routine in four moves↗Sources & methodCoffeedant editorial deskPublished 13 October 2026Print this story ↗"
+    },
+    {
+      "id": "ce38fb4b91085cdc824111c18409396efc4c2d91a25f839efa03920ec76858d2",
+      "source": "Water arrives with a history",
+      "kind": "text",
+      "context": "01Water arrives with a history"
+    },
+    {
+      "id": "ec7565c974f6390190e53fc565110ce077b9824861d2cf5b21e0f283542eaa0f",
+      "source": "Hardness counts one kind of dissolved material",
+      "kind": "text",
+      "context": "02Hardness counts one kind of dissolved material"
+    },
+    {
+      "id": "ea3d4fd9aa7bb8eb722461e32f69ac02e8d83fc70d60e23c90dfc2e03d379a7d",
+      "source": "Alkalinity is the cup’s quiet editor",
+      "kind": "text",
+      "context": "03Alkalinity is the cup’s quiet editor"
+    },
+    {
+      "id": "53b5f4e374154632142fda8d6cfadf326c44fb1f2c169d92cb26699899cf28cc",
+      "source": "Why one meter cannot answer every question",
+      "kind": "text",
+      "context": "04Why one meter cannot answer every question"
+    },
+    {
+      "id": "5c562c99b9743672e577a809fc75d37a6e0802f31614b7241296853970283d18",
+      "source": "The boiler has a vote",
+      "kind": "text",
+      "context": "05The boiler has a vote"
+    },
+    {
+      "id": "d4db6376c8ccd1ddff71cd2fd2ed7c3bcadb71cdaed6bc404a3295f2b545d1e9",
+      "source": "A useful water routine in four moves",
+      "kind": "text",
+      "context": "06A useful water routine in four moves"
+    },
+    {
+      "id": "d6e5ef92d804269fd84c2fdee3d0fbf132831e448e3d80b9838682de509f06fb",
+      "source": "Before replacing a grinder to fix a muted cup, look at the water. Its minerals influence flavour, but they also determine what builds up inside a hot machine. Good brewing water has to satisfy both the drink and the equipment.",
+      "kind": "text",
+      "context": "Before replacing a grinder to fix a muted cup, look at the water. Its minerals influence flavour, but they also determine what builds up inside a hot machine. Good brewing water has to satisfy both the drink and the equipment."
+    },
+    {
+      "id": "207ac1041912ae5e6a82cad70d4e19eb476338c8567a61f27585cef954a7f5f9",
+      "source": "GH",
+      "kind": "text",
+      "context": "GH"
+    },
+    {
+      "id": "f364b765455fc70b52b949c331202e25af17445f051b9a6334c7bf9095ce1004",
+      "source": "total hardness",
+      "kind": "text",
+      "context": "total hardness"
+    },
+    {
+      "id": "2cbe209e50404674dd911e7bf6a254a1a110f6a6e45c134de27b0c6117afe34d",
+      "source": "Alkalinity",
+      "kind": "text",
+      "context": "Alkalinity"
+    },
+    {
+      "id": "f84476e1761d45abaeafddca76d37edb207c27b2df87d72e236e613bc262396f",
+      "source": "acid-buffering capacity",
+      "kind": "text",
+      "context": "acid-buffering capacity"
+    },
+    {
+      "id": "cb3dae99cc08b31f50233c9ac67928787133e1d3a45b00ae5f57d61fce96e68c",
+      "source": "TDS ≠ GH",
+      "kind": "text",
+      "context": "TDS ≠ GH"
+    },
+    {
+      "id": "dae09a55104b33fe045d1b66f138e5e3d136ef1cb93c36b0c203aa0ad8f0c01b",
+      "source": "different measurements",
+      "kind": "text",
+      "context": "different measurements"
+    },
+    {
+      "id": "9bc705c9243c534a363e07b61902b7145f2c1cedb8f2dcaface534f999b59c72",
+      "source": "A glass of clear water can carry a surprisingly complicated record of its journey. What looks identical at the sink may have passed through different rock, treatment equipment and distribution pipes. That is the first reason a recipe copied from another city can behave differently in your kitchen. The coffee dose may match precisely while a large part of the recipe remains unspecified.",
+      "kind": "text",
+      "context": "A glass of clear water can carry a surprisingly complicated record of its journey. What looks identical at the sink may have passed through different rock, treatment equipment and distribution pipes. That is the first reason a recipe copied from another city can behave differently in your kitchen. The coffee dose may match precisely while a large part of the recipe remains unspecified."
+    },
+    {
+      "id": "215186c4fc225d5ec8735310cf2839cc495d33fbb131317bd3be22d14b67bde9",
+      "source": "SCAE water-chart report",
+      "kind": "text",
+      "context": "SCAE water-chart report"
+    },
+    {
+      "id": "b680150f4f0a4a8d6f1377db8efbe244b97d2482f03b59ea5713d479ef89ecdd",
+      "source": "organizes brewing-water discussion around total hardness, alkalinity and pH. These are separate measurements, not three names for the same thing. A useful home-water record states each parameter with its unit and test method. A single “mineral content” label conceals information you need for both flavour experiments and machine maintenance.",
+      "kind": "text",
+      "context": "The SCAE water-chart report organizes brewing-water discussion around total hardness, alkalinity and pH. These are separate measurements, not three names for the same thing. A useful home-water record states each parameter with its unit and test method. A single “mineral content” label conceals information you need for both flavour experiments and machine maintenance."
+    },
+    {
+      "id": "945804e3a60dd4f9221ceb00aea72709de41b3fa94f920476a8dee015f3616f2",
+      "source": "The aim is not to turn every morning into a laboratory exercise. It is to identify the water you already use, learn whether it fits your machine’s requirements, and establish a consistent supply. A modest routine based on a supplier report and appropriate test kits is more useful than buying an expensive bottle because its label looks reassuring.",
+      "kind": "text",
+      "context": "The aim is not to turn every morning into a laboratory exercise. It is to identify the water you already use, learn whether it fits your machine’s requirements, and establish a consistent supply. A modest routine based on a supplier report and appropriate test kits is more useful than buying an expensive bottle because its label looks reassuring."
+    },
+    {
+      "id": "97151df1e729dcd0685981302c71c963a65d2beee57484f21c4ab335f77afe13",
+      "source": "Everyday chemistry / photograph",
+      "kind": "text",
+      "context": "Everyday chemistry / photograph"
+    },
+    {
+      "id": "cb1c403146e648d9d186b6362aee5f9ec0771334372311d306dcd8dbb676dd24",
+      "source": "View source: Water flowing from a kitchen tap into a glass",
+      "kind": "attribute",
+      "context": "Everyday chemistry / photograph    Tap water looks clear, while its dissolved composition remains invisible. This photograph records an everyday water supply, not a hardness or alkalinity measurement.Shixart1985 / Wikimedia Commons · Source · CC BY 2.0 · Resized and converted to WebP."
+    },
+    {
+      "id": "0220157d1fcf513fe8a0df21802bf8740b39292e1cc2e76436ac3aed36aa94a1",
+      "source": "Water flowing from a kitchen tap into a glass",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "a4292bfed626f0be103237499faa76559ebde9cad6a05786c0aaae32fe5218e6",
+      "source": "Tap water looks clear, while its dissolved composition remains invisible. This photograph records an everyday water supply, not a hardness or alkalinity measurement.",
+      "kind": "text",
+      "context": "Tap water looks clear, while its dissolved composition remains invisible. This photograph records an everyday water supply, not a hardness or alkalinity measurement."
+    },
+    {
+      "id": "5c0d85aa1a877e582f7c064fa4cee815e7332bc57dd86efb122008faa491b23f",
+      "source": "Shixart1985 / Wikimedia Commons ·",
+      "kind": "text",
+      "context": "Shixart1985 / Wikimedia Commons · Source · CC BY 2.0 · Resized and converted to WebP."
+    },
+    {
+      "id": "488fd56dd3defbdcca2763970d259fc8778abccb5a565c72dfe76b78cb39a583",
+      "source": "CC BY 2.0",
+      "kind": "text",
+      "context": "CC BY 2.0"
+    },
+    {
+      "id": "3a099f8fd3e31edf8c0dfa61034b0b669f28da92c4e252e2b36b1e7dfe45049c",
+      "source": "Total hardness principally reflects dissolved calcium and magnesium. Test results are often expressed as milligrams per litre equivalent to calcium carbonate, written mg/L as CaCO₃. That convention allows different ion mixtures to be compared on a common scale; it does not mean every mineral exists as a suspended grain of chalk.",
+      "kind": "text",
+      "context": "Total hardness principally reflects dissolved calcium and magnesium. Test results are often expressed as milligrams per litre equivalent to calcium carbonate, written mg/L as CaCO₃. That convention allows different ion mixtures to be compared on a common scale; it does not mean every mineral exists as a suspended grain of chalk."
+    },
+    {
+      "id": "a1c1577748504d2ff897fc0b7fc0a2c3e67bd8e4771f5a3071dd75fbd02fcd4e",
+      "source": "La Marzocco’s published specifications provide one concrete manufacturer example: total hardness of 70–100 ppm and alkalinity of 40–80 ppm.",
+      "kind": "text",
+      "context": "La Marzocco’s published specifications provide one concrete manufacturer example: total hardness of 70–100 ppm and alkalinity of 40–80 ppm. Check the original specification and your own model’s current instructions. These figures belong to that manufacturer’s guidance; they are not universal permission to use the same water in every espresso machine."
+    },
+    {
+      "id": "a03df9a939423104c914074392c80f69809ce44e1b2176d44c12cc79511724ba",
+      "source": "Check the original specification",
+      "kind": "text",
+      "context": "Check the original specification"
+    },
+    {
+      "id": "f309c16e4705a5c8c1585833356c1a0b00964597e9776cc7ea0f86a13b3d7c6c",
+      "source": "and your own model’s current instructions. These figures belong to that manufacturer’s guidance; they are not universal permission to use the same water in every espresso machine.",
+      "kind": "text",
+      "context": "La Marzocco’s published specifications provide one concrete manufacturer example: total hardness of 70–100 ppm and alkalinity of 40–80 ppm. Check the original specification and your own model’s current instructions. These figures belong to that manufacturer’s guidance; they are not universal permission to use the same water in every espresso machine."
+    },
+    {
+      "id": "adc80b9a9096d58d58f62745c97d3263876a20ca0825fffdb8b64c854c4edd8a",
+      "source": "If you have a hardness test kit, measure the water after the filter you actually use. A reading of untreated tap water will not describe the reservoir once treatment changes its composition. Test again when you replace a cartridge or change the supply. Label results clearly so a household filter and a machine filter do not become confused.",
+      "kind": "text",
+      "context": "If you have a hardness test kit, measure the water after the filter you actually use. A reading of untreated tap water will not describe the reservoir once treatment changes its composition. Test again when you replace a cartridge or change the supply. Label results clearly so a household filter and a machine filter do not become confused."
+    },
+    {
+      "id": "99de546a2ca13cc0039ca7cfd796dcbc7bda05c9982aead172aae0c57a731e8d",
+      "source": "Water lab / conceptual model",
+      "kind": "text",
+      "context": "Water lab / conceptual model"
+    },
+    {
+      "id": "885de651ad8e03b5b4d686b2e908d4866a29eb889457e408444e677d6201fcbc",
+      "source": "Two measurements. Different jobs.",
+      "kind": "text",
+      "context": "Two measurements. Different jobs."
+    },
+    {
+      "id": "1b292726419a6420cb14ec9e407cd75b034f9f70a5e5b91bd7cb506f3a8a6480",
+      "source": "Explore alkalinity",
+      "kind": "text",
+      "context": "Explore alkalinityLower bufferingHigher buffering"
+    },
+    {
+      "id": "98540b27aa641699254dc545b9cce81d47751ee175f53b3b20527b630ff324f3",
+      "source": "Lower buffering",
+      "kind": "text",
+      "context": "Lower buffering"
+    },
+    {
+      "id": "7ca1fb0af2275d5de085a758579510fcd61d3896b9cb2a8dced32c06a88b1f17",
+      "source": "Higher buffering",
+      "kind": "text",
+      "context": "Higher buffering"
+    },
+    {
+      "id": "fc6b3ea321a00d6be2011e596dfe45fe62e68b7928f4684d3b92175e362f3959",
+      "source": "Explore hardness",
+      "kind": "text",
+      "context": "Explore hardnessLower calcium / magnesiumHigher calcium / magnesium"
+    },
+    {
+      "id": "2c6a8be7a2838702c1d53fe415b68334331fc63e1df8f09960a682e8cc324d3a",
+      "source": "Lower calcium / magnesium",
+      "kind": "text",
+      "context": "Lower calcium / magnesium"
+    },
+    {
+      "id": "7513feca8c50071c9506d43f0828213d5cd287f9222ee4e9601c30d45c809fa2",
+      "source": "Higher calcium / magnesium",
+      "kind": "text",
+      "context": "Higher calcium / magnesium"
+    },
+    {
+      "id": "6b79df74afa763fa55d4d1a5877b78c514861d8395e8b1aa3a8b2e9ea22c80fc",
+      "source": "Less acid buffering; lower calcium / magnesium context. Check the complete water analysis against your machine’s requirements.",
+      "kind": "text",
+      "context": "Less acid buffering; lower calcium / magnesium context. Check the complete water analysis against your machine’s requirements."
+    },
+    {
+      "id": "f1c1d96ec743de402939d1066660f0a9ef3b57fcc7bf87002ca7d96804d68465",
+      "source": "Hardness and alkalinity are independent measurements, and both feed into a full water assessment.",
+      "kind": "attribute",
+      "context": "Water lab / conceptual modelTwo measurements. Different jobs. Explore alkalinityLower bufferingHigher bufferingExplore hardnessLower calcium / magnesiumHigher calcium / magnesiumLess acid buffering; lower calcium / magnesium context. Check the complete water analysis against your machine’s requirements. HARDNESSCalcium + magnesiumALKALINITYAcid-buffering capacityTaste assessment + manufacturer compatibility Qualitative explanation only. This is not a calibrated taste predictor, mineral recipe or equipment-safe zone."
+    },
+    {
+      "id": "57ec44e62a354b6de48d757819f5de21fe756acaba4f1f83722164336d3ea4b1",
+      "source": "HARDNESS",
+      "kind": "text",
+      "context": "HARDNESS"
+    },
+    {
+      "id": "2c823057827ff4548f84bdb0d83b6e8e6f639ae01e20335e7f9b1585d82e8513",
+      "source": "Calcium + magnesium",
+      "kind": "text",
+      "context": "Calcium + magnesium"
+    },
+    {
+      "id": "2e3284c48eb333378482c0211642b9a4c9d616fd81c8eae65508303aaa843960",
+      "source": "ALKALINITY",
+      "kind": "text",
+      "context": "ALKALINITY"
+    },
+    {
+      "id": "9686755f74a0e39323ec9cc2b40095e2e44e9754f4d571b7c58e41874dceb786",
+      "source": "Acid-buffering capacity",
+      "kind": "text",
+      "context": "Acid-buffering capacity"
+    },
+    {
+      "id": "087b207bdd8dc9251bbb6842ba8dd9b9d53d0dd216010feb9c4a3ee8f8ec5ba7",
+      "source": "Taste assessment + manufacturer compatibility",
+      "kind": "text",
+      "context": "Taste assessment + manufacturer compatibility"
+    },
+    {
+      "id": "5507068e32c701ae3880695a25740ec0d7ce738642393882a7de730dcc2c4a16",
+      "source": "Qualitative explanation only. This is not a calibrated taste predictor, mineral recipe or equipment-safe zone.",
+      "kind": "text",
+      "context": "Qualitative explanation only. This is not a calibrated taste predictor, mineral recipe or equipment-safe zone."
+    },
+    {
+      "id": "a0565931cab00b07b601e1af622577e43e0539bbc7cd5cac946eff2716d30dd3",
+      "source": "Alkalinity describes a water’s capacity to resist acidification. In a coffee context, it helps explain why two waters near the same pH can handle coffee acids differently. Researcher Marco Wellinger’s",
+      "kind": "text",
+      "context": "Alkalinity describes a water’s capacity to resist acidification. In a coffee context, it helps explain why two waters near the same pH can handle coffee acids differently. Researcher Marco Wellinger’s SCA water-and-acidity explainer emphasizes this distinction and the importance of beverage ratio. Coffee does not experience an identical amount of buffering water in concentrated espresso and a much larger filter brew."
+    },
+    {
+      "id": "c53fdfd56e1167b903b0b22efc16f9c493656ffa255a9c77517ece01ae252f65",
+      "source": "SCA water-and-acidity explainer",
+      "kind": "text",
+      "context": "SCA water-and-acidity explainer"
+    },
+    {
+      "id": "60c15cd5e2f831976a5901c5a4a32010ebe12b5e787aaca8a7f1bb76ab0d70ea",
+      "source": "emphasizes this distinction and the importance of beverage ratio. Coffee does not experience an identical amount of buffering water in concentrated espresso and a much larger filter brew.",
+      "kind": "text",
+      "context": "Alkalinity describes a water’s capacity to resist acidification. In a coffee context, it helps explain why two waters near the same pH can handle coffee acids differently. Researcher Marco Wellinger’s SCA water-and-acidity explainer emphasizes this distinction and the importance of beverage ratio. Coffee does not experience an identical amount of buffering water in concentrated espresso and a much larger filter brew."
+    },
+    {
+      "id": "5a516aa2cacaf18d9dd1028780434db05395d40be6aa8f0d4d2895664701e1db",
+      "source": "A practical consequence is that apparently “flat” coffee deserves a water check before you make repeated grinder changes. This is a diagnostic possibility rather than a remote diagnosis: flatness also has other causes, including stale beans or a roast you do not enjoy. Use a controlled comparison to establish whether your water is contributing.",
+      "kind": "text",
+      "context": "A practical consequence is that apparently “flat” coffee deserves a water check before you make repeated grinder changes. This is a diagnostic possibility rather than a remote diagnosis: flatness also has other causes, including stale beans or a roast you do not enjoy. Use a controlled comparison to establish whether your water is contributing."
+    },
+    {
+      "id": "5118438c4e4dbdb8bb8aa76d3637671eab58a5193d088d17e1090e94328b5c38",
+      "source": "For a filter-brew comparison, choose two potable waters with documented, different alkalinity, keep coffee, grind, dose and water temperature the same, and taste both at comparable temperatures. Write down which cup preserves the qualities you want. Repeat before deciding. Use an external kettle for this experiment if either water falls outside your espresso machine’s requirements.",
+      "kind": "text",
+      "context": "For a filter-brew comparison, choose two potable waters with documented, different alkalinity, keep coffee, grind, dose and water temperature the same, and taste both at comparable temperatures. Write down which cup preserves the qualities you want. Repeat before deciding. Use an external kettle for this experiment if either water falls outside your espresso machine’s requirements."
+    },
+    {
+      "id": "c4d3efc8d561a4471a55be9de7bdc129de0abad8316fe9a546a24983be9103a8",
+      "source": "The Best Water for Coffee - An Introduction",
+      "kind": "text",
+      "context": "The Best Water for Coffee - An Introduction"
+    },
+    {
+      "id": "7f8394d7fde217cf9bc421635fafb0677cb467162b3879409f6754b6e2b45de4",
+      "source": "An accessible introduction to water choices for coffee. Use it to understand the questions; follow the current water specification for your own machine before changing its supply.",
+      "kind": "text",
+      "context": "An accessible introduction to water choices for coffee. Use it to understand the questions; follow the current water specification for your own machine before changing its supply."
+    },
+    {
+      "id": "bb92d78c744d708fddfad2e54de400931f62f1eed0ebe280d8f7d5c643f1eba2",
+      "source": "Play The Best Water for Coffee - An Introduction",
+      "kind": "attribute",
+      "context": "▶Watch with James Hoffmann"
+    },
+    {
+      "id": "688de42971a681f2ea17e37dddd50d34cc2159750ff49fa66b8d7bd9f6f72d3f",
+      "source": "A cheap TDS meter estimates dissolved ionic content from electrical conductivity. It cannot, on its own, tell you how much is calcium, how much is magnesium or how much acid-buffering capacity the water has. Two waters can register a similar number while having different compositions. Treat the meter as a consistency tool for a known supply, not a substitute for a full water analysis.",
+      "kind": "text",
+      "context": "A cheap TDS meter estimates dissolved ionic content from electrical conductivity. It cannot, on its own, tell you how much is calcium, how much is magnesium or how much acid-buffering capacity the water has. Two waters can register a similar number while having different compositions. Treat the meter as a consistency tool for a known supply, not a substitute for a full water analysis."
+    },
+    {
+      "id": "11ad699185019899e518012a5f8c7fb1d8b013434a1749a3246be2d79b07e071",
+      "source": "A label can be equally incomplete. Sodium, bicarbonate, calcium and magnesium entries are useful, but units and reporting conventions matter. “Bicarbonate, mg/L” is not automatically the same number as “alkalinity, mg/L as CaCO₃.” Avoid comparing the printed numbers as though the headings were interchangeable. If an important entry is missing, ask the supplier rather than filling the gap with a guess.",
+      "kind": "text",
+      "context": "A label can be equally incomplete. Sodium, bicarbonate, calcium and magnesium entries are useful, but units and reporting conventions matter. “Bicarbonate, mg/L” is not automatically the same number as “alkalinity, mg/L as CaCO₃.” Avoid comparing the printed numbers as though the headings were interchangeable. If an important entry is missing, ask the supplier rather than filling the gap with a guess."
+    },
+    {
+      "id": "0b2862b0b6f03aef6c037b897f3af1f3996cdf2943d8d1fbb9200e7a0f714f30",
+      "source": "For your home record, save the supplier’s date alongside the chemistry. Water supply can change, and a filter cartridge ages through use. The reading that helped you last year is context, not a permanent specification for this month’s coffee.",
+      "kind": "text",
+      "context": "For your home record, save the supplier’s date alongside the chemistry. Water supply can change, and a filter cartridge ages through use. The reading that helped you last year is context, not a permanent specification for this month’s coffee."
+    },
+    {
+      "id": "eda685cba1b297435c0da075993b8d7e046dac622118a462ad535eae3dc6744b",
+      "source": "What the measurements can—and cannot—tell you",
+      "kind": "text",
+      "context": "What the measurements can—and cannot—tell you"
+    },
+    {
+      "id": "4f924565a72618b325f915f67919aa26bc3bd4724e54314cd5f0c62200660b94",
+      "source": "Measurement",
+      "kind": "text",
+      "context": "Measurement"
+    },
+    {
+      "id": "fc2ef16fc6a16165147c125c99eb267142f5d674b358fa99f0c0f8b3da639aa0",
+      "source": "Useful for",
+      "kind": "text",
+      "context": "Useful for"
+    },
+    {
+      "id": "2870e4c8e48a9d83514fef9bf83272a4b878f30cfb8d60c3c56d2396a2994f69",
+      "source": "Does not establish alone",
+      "kind": "text",
+      "context": "Does not establish alone"
+    },
+    {
+      "id": "1ab019050872f04e26b806ade8a222c1f0b79e583fead1f103eaebbc453b8a07",
+      "source": "Total hardness",
+      "kind": "text",
+      "context": "Total hardness"
+    },
+    {
+      "id": "a46e557883baa222f12ae24bd1bad3c76c7a2b01a6ddb7c87f9f20b78b5883ae",
+      "source": "Calcium/magnesium context",
+      "kind": "text",
+      "context": "Calcium/magnesium context"
+    },
+    {
+      "id": "f03c8b39406dc3797724fb96020b521dcde3ec269b184139b5a56a876abb2966",
+      "source": "Full scale or corrosion risk",
+      "kind": "text",
+      "context": "Full scale or corrosion risk"
+    },
+    {
+      "id": "b8cf66faa7f8d411cfb32b3c0cee9d183888c8e394c2f2ede75bbb5adc035051",
+      "source": "Acid-buffering context",
+      "kind": "text",
+      "context": "Acid-buffering context"
+    },
+    {
+      "id": "790313a3962f626effffd542ee2d1931a156426f584b65c44606939db0994d6b",
+      "source": "Total mineral content",
+      "kind": "text",
+      "context": "Total mineral content"
+    },
+    {
+      "id": "fc411fc3850524ad3e1191fe42ff14ae18e79e24d7ef0a55f4bf9bfa6b9a79ad",
+      "source": "pH",
+      "kind": "text",
+      "context": "pH"
+    },
+    {
+      "id": "ad10175844a4f53b625b64e8d60dd57d205118de7e21fb023c7b9a7942b76dae",
+      "source": "Current acid/base state",
+      "kind": "text",
+      "context": "Current acid/base state"
+    },
+    {
+      "id": "21015a8fd27c0e4a4df71f2ae0604004aa0cd8d23901e09bff4eeeaa4805435d",
+      "source": "Buffering capacity",
+      "kind": "text",
+      "context": "Buffering capacity"
+    },
+    {
+      "id": "7c9fadfdc87dc55bec463f87294c9790a6bb859eea6a58f0b40dd7a3a6d91aec",
+      "source": "Conductivity / estimated TDS",
+      "kind": "text",
+      "context": "Conductivity / estimated TDS"
+    },
+    {
+      "id": "9a280fdfd76fb09e99a30de5894e7b2d8fa7df927f93f22b89b98ded574227b8",
+      "source": "Consistency of a known supply",
+      "kind": "text",
+      "context": "Consistency of a known supply"
+    },
+    {
+      "id": "c72cdcb36d5ba8fc1138cfa54a3c1c682a4d4ea0d17a65ad820b3a335b471914",
+      "source": "Individual ions or hardness",
+      "kind": "text",
+      "context": "Individual ions or hardness"
+    },
+    {
+      "id": "8f6565951007f922f2df687bf830c3805ba7ced78fa8dba780cbddf7e26c8c59",
+      "source": "Manufacturer specification",
+      "kind": "text",
+      "context": "Manufacturer specification"
+    },
+    {
+      "id": "7cd37da358810c7677b167c7ef62ee04af4e9aa44f9bc81e1dc6af65280fb4d4",
+      "source": "Model compatibility",
+      "kind": "text",
+      "context": "Model compatibility"
+    },
+    {
+      "id": "9dc76b9abd70b5a9cde89ee17b6f919eb75f15061a227f577a93f576c87c0043",
+      "source": "Your preferred taste",
+      "kind": "text",
+      "context": "Your preferred taste"
+    },
+    {
+      "id": "c14bb59d00abb66f346af235ff01efb55ff0a2d25cdd9242565f3c02635a5e58",
+      "source": "Water can be pleasant to drink and unsuitable for prolonged heating inside a boiler. La Marzocco’s",
+      "kind": "text",
+      "context": "Water can be pleasant to drink and unsuitable for prolonged heating inside a boiler. La Marzocco’s water calculator considers multiple parameters and temperature when assessing scaling or corrosion tendencies. It illustrates why flavour targets alone are an incomplete equipment policy."
+    },
+    {
+      "id": "ee863f364d90c257b1b4872d494d4126f0bca36f871ea1db0825478688f89d04",
+      "source": "water calculator",
+      "kind": "text",
+      "context": "water calculator"
+    },
+    {
+      "id": "da1f6d8bd99eefbcb19d635ab868c72e76356e07bdbca1700e06c0e924cb5df0",
+      "source": "considers multiple parameters and temperature when assessing scaling or corrosion tendencies. It illustrates why flavour targets alone are an incomplete equipment policy.",
+      "kind": "text",
+      "context": "Water can be pleasant to drink and unsuitable for prolonged heating inside a boiler. La Marzocco’s water calculator considers multiple parameters and temperature when assessing scaling or corrosion tendencies. It illustrates why flavour targets alone are an incomplete equipment policy."
+    },
+    {
+      "id": "dab044f83376c3c768298b17cdfec6f8d7e93c38f2808da6220a0275f42ae9bb",
+      "source": "Carbon filtration, softening and reverse osmosis perform different jobs. A carbon cartridge may reduce certain odours or disinfectant-related tastes without producing the hardness reduction you assumed. A softener changes the relevant ions; reverse osmosis removes much of the dissolved material. The result depends on the actual system and its condition. Verify the output rather than inferring it from the word “filtered.”",
+      "kind": "text",
+      "context": "Carbon filtration, softening and reverse osmosis perform different jobs. A carbon cartridge may reduce certain odours or disinfectant-related tastes without producing the hardness reduction you assumed. A softener changes the relevant ions; reverse osmosis removes much of the dissolved material. The result depends on the actual system and its condition. Verify the output rather than inferring it from the word “filtered.”"
+    },
+    {
+      "id": "80fdc076a37d340a045a53b9e2c9fa3e5f8c1b0d0e5cd504d2606068a2235add",
+      "source": "Do not pour untreated distilled or reverse-osmosis water into an espresso machine simply because you want to avoid scale. Follow the manufacturer’s requirements for composition and any remineralization. Chloride, pH and other parameters may matter alongside hardness and alkalinity. The appropriate choice is the compatible water that also brews well, not the smallest reading your meter can display.",
+      "kind": "text",
+      "context": "Do not pour untreated distilled or reverse-osmosis water into an espresso machine simply because you want to avoid scale. Follow the manufacturer’s requirements for composition and any remineralization. Chloride, pH and other parameters may matter alongside hardness and alkalinity. The appropriate choice is the compatible water that also brews well, not the smallest reading your meter can display."
+    },
+    {
+      "id": "da96761b3d6938c7d5d931887b67ad9c9ba3ad5e89a8c2e9e942707a1c49a0cc",
+      "source": "Inside the kettle / photograph",
+      "kind": "text",
+      "context": "Inside the kettle / photograph"
+    },
+    {
+      "id": "2761d03f29bd00a57e309391bd1711d0d72b1e084a355c7f5f2bfc2db22d40b3",
+      "source": "View source: Brittle chips of limescale removed from a kettle",
+      "kind": "attribute",
+      "context": "Inside the kettle / photograph    Limescale removed from a kettle. A useful view of what mineral deposition can leave behind, but not a diagnosis of any particular espresso machine.Alexander Davronov / Wikimedia Commons · Source · CC BY-SA 4.0 · Resized and converted to WebP."
+    },
+    {
+      "id": "bbc647d5623e24749fe55d0ef20647ad88194ae44777c9185790e7e2f42ee7fe",
+      "source": "Brittle chips of limescale removed from a kettle",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "94a1ba373e87247e17c1c79012460ce0cd7080f4c8283f0387d14de2192a5af6",
+      "source": "Limescale removed from a kettle. A useful view of what mineral deposition can leave behind, but not a diagnosis of any particular espresso machine.",
+      "kind": "text",
+      "context": "Limescale removed from a kettle. A useful view of what mineral deposition can leave behind, but not a diagnosis of any particular espresso machine."
+    },
+    {
+      "id": "e616e37c74a09cbbfc49cf858b33f18a21ea7a24b5ebc9a159f1a62234161ba6",
+      "source": "Alexander Davronov / Wikimedia Commons ·",
+      "kind": "text",
+      "context": "Alexander Davronov / Wikimedia Commons · Source · CC BY-SA 4.0 · Resized and converted to WebP."
+    },
+    {
+      "id": "e7800875c22040a6becf36f6bf2d528bb34fbceccdb05ba227bdf30116bad581",
+      "source": "First, get the machine’s water requirements and the supplier’s report. Second, identify any treatment between the supply and reservoir. Third, measure appropriate parameters at the point of use. Fourth, record the result and choose a replacement or service interval based on the manufacturer’s instructions and your usage.",
+      "kind": "text",
+      "context": "First, get the machine’s water requirements and the supplier’s report. Second, identify any treatment between the supply and reservoir. Third, measure appropriate parameters at the point of use. Fourth, record the result and choose a replacement or service interval based on the manufacturer’s instructions and your usage."
+    },
+    {
+      "id": "94d6294087944ad9621eaa0999df2cb01db44856b8d71814b1d8def6815511bc",
+      "source": "For a taste experiment, change water while holding the brewing variables steady. For a maintenance decision, compare measured output with the machine’s specification. Those are different questions with different evidence. A delicious cup does not establish corrosion compatibility, and a water inside the machine’s limits does not guarantee that it highlights your preferred flavour.",
+      "kind": "text",
+      "context": "For a taste experiment, change water while holding the brewing variables steady. For a maintenance decision, compare measured output with the machine’s specification. Those are different questions with different evidence. A delicious cup does not establish corrosion compatibility, and a water inside the machine’s limits does not guarantee that it highlights your preferred flavour."
+    },
+    {
+      "id": "5b47d94c673a39edcb1aef0c6dde3a1da25c8c04923f0005784d45c380309415",
+      "source": "The interactive diagram below separates hardness from buffering conceptually. Its states are qualitative illustrations, not calibrated sensory predictions or a universal safe zone. Use it to remember which question each measurement answers. Once the water is stable, grinder adjustments become easier to interpret because one hidden variable has finally become part of the recipe.",
+      "kind": "text",
+      "context": "The interactive diagram below separates hardness from buffering conceptually. Its states are qualitative illustrations, not calibrated sensory predictions or a universal safe zone. Use it to remember which question each measurement answers. Once the water is stable, grinder adjustments become easier to interpret because one hidden variable has finally become part of the recipe."
+    },
+    {
+      "id": "b44611fdf8bb1413b8be8d2ba03803a927a670684cbf457a0cd4fcd9656c47d8",
+      "source": "Measure hardness and alkalinity separately. Evaluate taste and machine compatibility separately, then choose water that works for both.",
+      "kind": "text",
+      "context": "Measure hardness and alkalinity separately. Evaluate taste and machine compatibility separately, then choose water that works for both."
+    },
+    {
+      "id": "0a582f196652c9eb3ef67383bc7a5631120ce9be80b1f327d7aa50bcc1b22175",
+      "source": "Is bottled water automatically better?",
+      "kind": "text",
+      "context": "Is bottled water automatically better?"
+    },
+    {
+      "id": "37d05ca0a8dc4ad269029db49cb4d8ff47ea0e1986e7dbaae5b5df492ebb84dc",
+      "source": "No. Read its analysis, compare it with the machine’s requirements, and taste it in a controlled brew.",
+      "kind": "text",
+      "context": "No. Read its analysis, compare it with the machine’s requirements, and taste it in a controlled brew."
+    },
+    {
+      "id": "4dbe411d83b6d8852dbefbfcdd7a332b1d21c72e875a431422b728478ba54eca",
+      "source": "Will any filter prevent scale?",
+      "kind": "text",
+      "context": "Will any filter prevent scale?"
+    },
+    {
+      "id": "eb689aef3761576ada4615780a38f27f1e69e1bffac8e921a250d87bbf4a1e80",
+      "source": "No. Treatment systems have different functions. Verify hardness and other relevant measurements after the filter.",
+      "kind": "text",
+      "context": "No. Treatment systems have different functions. Verify hardness and other relevant measurements after the filter."
+    },
+    {
+      "id": "9dffc87e80117097bf0cd01b2716a649678674575047724923d21c02374faa19",
+      "source": "Should I copy the La Marzocco ranges?",
+      "kind": "text",
+      "context": "Should I copy the La Marzocco ranges?"
+    },
+    {
+      "id": "ee369f8f54c164d01e1a69608e3e27a94743aa54f25cae951e8d15a62232caa6",
+      "source": "Only as an example of a manufacturer’s specification. Use the current requirements for your own machine.",
+      "kind": "text",
+      "context": "Only as an example of a manufacturer’s specification. Use the current requirements for your own machine."
+    },
+    {
+      "id": "2eb2f0ed690543f5dbfb864fc3aaa6fefb75700c12beddf2169350ae66c3cee6",
+      "source": "SCAE Water Chart report ↗",
+      "kind": "text",
+      "context": "SCAE Water Chart report ↗"
+    },
+    {
+      "id": "bf9f79571de83793b96ab978cad6e2af054e88f594387108ad7fcc3cbe374a12",
+      "source": "Definitions and a framework for brewing-water discussion.",
+      "kind": "text",
+      "context": "Definitions and a framework for brewing-water discussion."
+    },
+    {
+      "id": "13b80f085a1a2201c65b39b4382bb339adb02ebb7893c66fe4b2944c8ab0bf9f",
+      "source": "SCA: water and acidity ↗",
+      "kind": "text",
+      "context": "SCA: water and acidity ↗"
+    },
+    {
+      "id": "111a34d72c62895fad240047bd5b0dc2ba2061ae86c346a62baeaaea95bfc721",
+      "source": "Alkalinity, beverage ratio and practical constraints.",
+      "kind": "text",
+      "context": "Alkalinity, beverage ratio and practical constraints."
+    },
+    {
+      "id": "d40057d525cd9ba883d46c01665c9c4904e683062043809b426538c624b05efb",
+      "source": "La Marzocco water specifications ↗",
+      "kind": "text",
+      "context": "La Marzocco water specifications ↗"
+    },
+    {
+      "id": "158af02d1bb8bd6116ca84d272fc641d64936f01f906060946a387ad011ee869",
+      "source": "Manufacturer-specific example; not a universal target.",
+      "kind": "text",
+      "context": "Manufacturer-specific example; not a universal target."
+    },
+    {
+      "id": "e8c06510715f6df5472336d5c83b383f294cb80d5884c774a1c94f4f145832b9",
+      "source": "La Marzocco water calculator ↗",
+      "kind": "text",
+      "context": "La Marzocco water calculator ↗"
+    },
+    {
+      "id": "916f0e09645895fbc7eb855b49461b56ab513d8b2eea51aee585e4ef08973f87",
+      "source": "Multiple variables in scale/corrosion assessment.",
+      "kind": "text",
+      "context": "Multiple variables in scale/corrosion assessment."
+    },
+    {
+      "id": "9b29e39a66a89dde7d3b70ae396bdcb509875b17c10555ba7c980ccea5f07e34",
+      "source": "Water flowing from a kitchen tap into a glass",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "04a197aa6a620098716f41b7e77d3b15b06706de410c7af8b05b33372d8c7bea",
+      "source": "Tap water looks clear, while its dissolved composition remains invisible. This photograph records an everyday water supply, not a hardness or alkalinity measurement. Shixart1985 / Wikimedia Commons · Source · CC BY 2.0 · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "3ec66afea32c18136d712f5d80885b96423da7e06762d15b5f642de08535adc9",
+      "source": "Shixart1985 / Wikimedia Commons · Source · CC BY 2.0 · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "4feb1b5596f5f2e21d89b4f659fc6145bcf02de94ff43d5f082a7cd28de6a849",
+      "source": "Brittle chips of limescale removed from a kettle",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "0ea82d52fe1c4de3cb1ad3e158ca979a82ffd1811a9e3902ad647c547f64d090",
+      "source": "Limescale removed from a kettle. A useful view of what mineral deposition can leave behind, but not a diagnosis of any particular espresso machine. Alexander Davronov / Wikimedia Commons · Source · CC BY-SA 4.0 · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "6fe388c6541c1b4b02b95a6364ff93fa6322baa7606cacc960317c1ffb1cc338",
+      "source": "Alexander Davronov / Wikimedia Commons · Source · CC BY-SA 4.0 · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "aaeebdc9595683d481222a2563563c7b97017261c368bc3d4c791de34b87013c",
+      "source": "The ingredient you cannot see. | Coffeedant Journal",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "41a99efe66e6808d23e50af2a50426fc310b2eb4c6f71bcfb5db0d602e6e53a2",
+      "source": "Hardness, alkalinity and the reason a bottle labelled “pure” is not a complete brewing specification.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "966c088a6ced0d268181dfe71bba74823b8d126f04fc54c1f651bc78650b008d",
+      "source": "Tap water looks clear, while its dissolved composition remains invisible. This photograph records an everyday water supply, not a hardness or alkalinity measurement.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "d8b256662a5acbb09667bfcab26cd094b961cf24d05ccec4db99b1e006b7f489",
+      "source": "Shixart1985 / Wikimedia Commons",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "8b5189ea9b6717002abf5d627f4e7ef0060178cc36fb603aa53be41bbe3942d7",
+      "source": "Limescale removed from a kettle. A useful view of what mineral deposition can leave behind, but not a diagnosis of any particular espresso machine.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "ef9bb173ebb3fa009b2774c70091a90999909f2d14c0286276e6b351a598f57d",
+      "source": "Alexander Davronov / Wikimedia Commons",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "4f55a28e6f3b54e860534c5f0958981d9462160877b8ed60e10b83072f63e07c",
+      "source": "The Best Water for Coffee - An Introduction",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "055058168bdb9efa64e2a1d29f4e5668304afd7fa64ce248ef67f8efe137257e",
+      "source": "An accessible introduction to water choices for coffee. Use it to understand the questions; follow the current water specification for your own machine before changing its supply.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "6fcdfd25a01012d8a0a65990fecb013f4c31c32a1576fc2171172757e23c29d1",
+      "source": "Is bottled water automatically better?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "84651dfcc07d7fe80707dcc67087434687d8d53b8f336536bddcd06e529f2eb2",
+      "source": "No. Read its analysis, compare it with the machine’s requirements, and taste it in a controlled brew.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "7a150cd585a2b314637a418aa65431bd5bbde4275991e6e7937cf0f782ff0a00",
+      "source": "Will any filter prevent scale?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "a8124d83c6c36cd2fc94cda38d5911f0eb87e004e875a10d247535c61d003adc",
+      "source": "No. Treatment systems have different functions. Verify hardness and other relevant measurements after the filter.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "0ec757e4ee80b29bc33aa7326a361748bdba6356afde8ccb576f2d9a1113d4f0",
+      "source": "Should I copy the La Marzocco ranges?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "c112bab63ff44f7e7d231f0c6b3730a2bd0c0aad39ad5e812c1bc0e7d5cd158e",
+      "source": "Only as an example of a manufacturer’s specification. Use the current requirements for your own machine.",
+      "kind": "json",
+      "context": "text"
+    }
+  ],
+  "snapshotHash": "213927c4d73f8dd831b94cb23a0c5d778c1aa50f983a066a890edd5f5aeb3dd8"
+}

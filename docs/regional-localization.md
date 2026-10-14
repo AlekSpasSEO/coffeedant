@@ -434,6 +434,52 @@ Next: more complete articles, remaining editorial/category pages and Deals
 text/runtime. Preserve the US site and approved Dutch dosing URL; publish only
 after the entire current edition and all routes pass, then verify its live host.
 
+### Complete robusta and brewing-water readers (2026-10-14)
+
+Batch eleven directly translates the full `/journal/robusta-reconsidered/` and
+`/journal/water-hidden-ingredient/` readers into NL/DE/FR. Their source readers
+contain 1,829 and 1,566 words, including all chapters, diagrams, comparison
+tables, captions, media/creator metadata, source notes and six FAQ answers per
+language. All 259 frozen missing slots are covered with 223 distinct authored
+source strings. Fifteen verbatim approvals are exact creator/organization names,
+the named section label, conventional measurement/chemical notation and license
+labels; no article body is exempted or abridged. Passing prior wording is reused.
+
+New stable routes are `/journal/robusta-opnieuw-bekeken/` and
+`/journal/water-voor-koffie/` (NL), `/journal/robusta-neu-betrachtet/` and
+`/journal/wasser-fuer-kaffee/` (DE), and `/journal/robusta-reconsidere/` and
+`/journal/eau-pour-le-cafe/` (FR). The reviewed Dutch dosing URL is unchanged.
+
+Robusta retains the distinction between research candidates and released
+varieties, historical production shares and export rather than premium-market
+volume. It attributes the climate review's critique, preserves water/management
+dependencies and explicitly states that Coffeedant conducted no tasting. The
+literal source quantities `1,000` and `1,500` have written-out equivalents to
+avoid local decimal-comma ambiguity; export decimals retain the source notation.
+The water article separates hardness, alkalinity, conductivity and pH; the
+La Marzocco figures remain a manufacturer-specific example, not universal safe
+limits. Distilled/reverse-osmosis water, filter differences, equipment requirements
+and the qualitative rather than calibrated diagram caveats remain intact.
+
+A separate immutable snapshot records a one-slot French runtime grammar repair
+for the four water-control combinations. Both original placeholders remain exact;
+existing passing Dutch and German runtime wording is unchanged. Complete rendered
+article text, all FAQ schema answers, chapter destinations, translated video
+labels/original destinations and creators, publication labels, executable scripts,
+control values, locale/canonical/noindex and scoped sitemaps pass six HTML/JSON
+checks. Four water-result combinations per edition also pass integration checks.
+These are generated-output/runtime-integration checks, not a new browser session
+or Coffeedant experiment.
+
+The refreshed source contains 224 canonical pages / 45,678 unique slots. Complete
+regular content pages are NL 40, DE 39 and FR 39, excluding the 404; remaining
+slots are 41,497 / 41,608 / 41,608. All 146 distinct Finder descriptions remain
+translated with zero catalog gaps; unverified prices and Amazon links stay hidden.
+Fifty-two localization tests and current analytics validation pass. Scoped
+noindex builds contain 41/40/40 pages including the 404. All full editions remain
+incomplete and unpublished; no DNS changes, paid API calls or billing changes
+are made by this batch.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
