@@ -393,12 +393,46 @@ executable scripts, canonical/locale/robots, 146-product commerce suppression an
 matching scoped sitemaps. These are generated-output and runtime-integration
 checks, not a new browser session or physical product tests.
 
-All three full editions remain incomplete and unpublished; there is no public
-DNS cutover or partial edition release. Next priority: additional full articles,
-the remaining editorial/category pages and Deals text/runtime, using current
-coverage and reusable direct wording. Preserve the US site and approved Dutch
-review URL. Publish only after the entire current edition and all routes pass,
-then verify the live subdomain.
+### Complete decaf and fermentation readers (2026-10-14)
+
+Batch ten directly translates the complete `/journal/decaf-renaissance/` and
+`/journal/fermentation-frontier/` readers in all three editions. Their full source
+readers contain 1,827 and 1,849 words, including all six chapters, original
+diagrams/tables, photography/video labels and credits, source notes, takeaways
+and six FAQ answers per language. Every one of the 255 frozen missing slots is
+covered. Sixteen explicit verbatim approvals are creator names, license labels,
+measurement notation, US regulation identifiers and credited organizations;
+no article body is exempted or shortened.
+
+Decaf routes are `/journal/cafeinevrije-koffie/`,
+`/journal/entkoffeinierter-kaffee/` and `/journal/cafe-decafeine/`. Fermentation
+routes are `/journal/koffiefermentatie/`, `/journal/kaffeefermentation/` and
+`/journal/fermentation-du-cafe/`. All earlier URLs stay stable.
+
+The decaf translation retains residual-caffeine ranges, the US-only scope of
+the cited rules and the distinction between company volume/revenue and worldwide
+demand. It does not certify regional law, health outcomes or a tasting.
+Fermentation retains the differences between oxygen conditions, inoculation and
+added ingredients, the interview-based Colombian estimate, study samples and
+draft rather than binding guidance. The literal source number `620,000` is kept
+and accompanied by its written-out amount to avoid interpreting its English
+thousands separator as a local decimal comma. No new quantity is invented.
+
+The source remains 224 canonical pages / 45,674 unique slots. Complete current
+regular content pages are NL 38, DE 37 and FR 37, excluding the 404; remaining
+slots are 41,753 / 41,864 / 41,864. Finder gaps remain zero for all 146 products.
+Forty-nine localization tests and current analytics validation pass. Actual
+scoped noindex builds contain 39/38/38 pages including the 404. Six full-reader
+HTML/JSON passes compare entire authored text, all FAQs, diagrams/tables, chapter
+destinations, video labels/URLs/creators, publication labels, exact executable
+scripts, runtime locale/interface, canonical/robots and matching scoped sitemaps.
+These are generated-output and runtime-integration checks, not a browser session.
+
+All full editions are still incomplete and unpublished. No DNS cutover, local
+commerce approval, paid translation API, billing upgrade or subagent is used.
+Next: more complete articles, remaining editorial/category pages and Deals
+text/runtime. Preserve the US site and approved Dutch dosing URL; publish only
+after the entire current edition and all routes pass, then verify its live host.
 
 ## Missing configuration
 
