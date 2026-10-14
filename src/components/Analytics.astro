@@ -11,10 +11,16 @@ productionRegions['www.coffeedant.com'] = 'us';
   (() => {
     // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.
     if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;
+    // A repeated template/bootstrap must never configure a second page view.
+    if (window.__coffeedantAnalyticsInitialized) return;
+    window.__coffeedantAnalyticsInitialized = true;
     const storageKey = 'coffeedant.analytics-consent.v1';
     const maxAge = 180 * 24 * 60 * 60 * 1000;
     let choice = null;
-    let loaded = false;
+    let configured = false;
+    let tagState = 'idle';
+    let attempts = 0;
+    let retryTimer;
     const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';
     window.dataLayer = window.dataLayer || [];
     window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
@@ -22,44 +28,77 @@ productionRegions['www.coffeedant.com'] = 'us';
       analytics_storage: 'denied', ad_storage: 'denied',
       ad_user_data: 'denied', ad_personalization: 'denied',
     });
-    try {
-      const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');
-      if (saved && ['granted', 'denied'].includes(saved.value)
+    const readChoice = (raw) => {
+      try {
+        const saved = JSON.parse(raw || 'null');
+        if (saved && ['granted', 'denied'].includes(saved.value)
           && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt
-          && Date.now() - saved.savedAt < maxAge) choice = saved.value;
-    } catch { /* Storage may be unavailable; ask again on the next page. */ }
+          && Date.now() - saved.savedAt < maxAge) return saved.value;
+      } catch { /* Invalid preferences need a fresh choice. */ }
+      return null;
+    };
+    try { choice = readChoice(localStorage.getItem(storageKey)); }
+    catch { /* Storage may be unavailable; ask again on the next page. */ }
     if (browserOptOut) choice = 'denied';
 
     const removeAnalyticsCookies = () => {
       for (const entry of document.cookie.split(';')) {
         const name = entry.trim().split('=')[0];
         if (name !== '_ga' && !name.startsWith('_ga_')) continue;
-        for (const domain of ['', '; Domain=coffeedant.com', '; Domain=.coffeedant.com']) {
+        for (const domain of new Set(['', `; Domain=${location.hostname}`, '; Domain=coffeedant.com', '; Domain=.coffeedant.com'])) {
           document.cookie = `${name}=; Max-Age=0; Path=/${domain}; SameSite=Lax; Secure`;
         }
       }
+    };
+    const loadTag = () => {
+      if (choice !== 'granted' || browserOptOut || ['loading', 'ready'].includes(tagState) || attempts >= 2) return;
+      attempts++;
+      tagState = 'loading';
+      const tag = document.createElement('script');
+      tag.id = 'coffeedant-google-tag';
+      tag.async = true;
+      tag.src = `https://www.googletagmanager.com/gtag/js?id=${googleTagId}`;
+      tag.onload = () => { tagState = 'ready'; };
+      tag.onerror = () => {
+        tagState = 'error';
+        tag.remove();
+        // One bounded retry handles a transient failure, using the same queue.
+        // A rejection cancels it; browser tracking protections remain effective.
+        if (choice === 'granted' && attempts < 2) retryTimer = setTimeout(loadTag, 1500);
+      };
+      document.head.appendChild(tag);
     };
     const applyChoice = (value) => {
       if (browserOptOut) value = 'denied';
       window[`ga-disable-${measurementId}`] = value !== 'granted';
       window.gtag('consent', 'update', { analytics_storage: value });
-      if (value !== 'granted') { removeAnalyticsCookies(); return; }
-      if (loaded) return;
-      loaded = true;
-      window.gtag('js', new Date());
-      window.gtag('config', measurementId, {
-        allow_google_signals: false,
-        allow_ad_personalization_signals: false,
-        content_language: document.documentElement?.lang || 'en-US',
-        content_region: productionRegions[location.hostname],
-      });
-      const tag = document.createElement('script');
-      tag.id = 'coffeedant-google-tag';
-      tag.async = true;
-      tag.src = `https://www.googletagmanager.com/gtag/js?id=${googleTagId}`;
-      document.head.appendChild(tag);
+      if (value !== 'granted') {
+        clearTimeout(retryTimer);
+        removeAnalyticsCookies();
+        return;
+      }
+      if (!configured) {
+        configured = true;
+        window.gtag('js', new Date());
+        window.gtag('config', measurementId, {
+          send_page_view: true,
+          allow_google_signals: false,
+          allow_ad_personalization_signals: false,
+          content_language: document.documentElement?.lang || 'en-US',
+          content_region: productionRegions[location.hostname],
+        });
+      }
+      loadTag();
     };
     if (choice) applyChoice(choice);
+    // Apply withdrawal/acceptance immediately to other open tabs on this host.
+    window.addEventListener('storage', (event) => {
+      if (event.key !== storageKey && event.key !== null) return;
+      choice = browserOptOut ? 'denied' : readChoice(event.key === null ? null : event.newValue);
+      applyChoice(choice || 'denied');
+      const banner = document.querySelector('[data-analytics-consent]');
+      if (banner) banner.hidden = choice !== null;
+    });
 
     const connectControls = () => {
       const banner = document.querySelector('[data-analytics-consent]');

@@ -32,6 +32,7 @@
     "validate:beans": "node scripts/validate-bean-reviews.mjs",
     "validate:amazon-catalog": "node scripts/validate-amazon-catalog.mjs",
     "validate:analytics": "node scripts/validate-analytics.mjs",
+    "audit:analytics:live": "node scripts/audit-live-analytics.mjs",
     "validate:journal": "node --test scripts/tests/journal-routing.test.mjs && node scripts/validate-journal.mjs",
     "validate:migration": "npm run build && node scripts/validate-legacy-migration.mjs",
     "validate:reviews": "npm run build && npm run generate:review-media-ledgers && node scripts/validate-review-batch.mjs"
