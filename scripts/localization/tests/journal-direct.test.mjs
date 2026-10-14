@@ -1,10 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'node:path';
-import {root,readJson,loadCache,policyHash,digest,validateTranslation,getEdition} from '../core.mjs';
+import {root,readJson,loadCache,policyHash,digest,validateTranslation,getEdition,segmentId} from '../core.mjs';
 import {regionalFinder} from '../build.mjs';
 
-for(const [name,count] of [['source-refresh-batch-9',44],['journal-pages-batch-9',303],['journal-pages-batch-10',255],['journal-pages-batch-11',259]])test(`${name} has full frozen-slot coverage and exact facts in NL DE FR`,async()=>{
+for(const [name,count] of [['source-refresh-batch-9',44],['journal-pages-batch-9',303],['journal-pages-batch-10',255],['journal-pages-batch-11',259],['journal-pages-batch-12',238],['journal-library-alignment-batch-12',3]])test(`${name} has full frozen-slot coverage and exact facts in NL DE FR`,async()=>{
  const source=await readJson(path.join(root,`localization/authored/${name}.source.json`));
  const authored=await readJson(path.join(root,`localization/authored/${name}.json`));
  assert.equal(source.segments.length,count);
@@ -24,6 +24,43 @@ for(const [name,count] of [['source-refresh-batch-9',44],['journal-pages-batch-9
    assert.equal(entry.provider,'codex-direct');
    assert.equal(validateTranslation(segment.source,entry.text),entry.text);
   }
+ }
+});
+
+test('Americano quantities remain suggested protocols with separate dilution, basket caveats and no measured-extraction claim',async()=>{
+ const source=await readJson(path.join(root,'localization/authored/journal-pages-batch-12.source.json'));
+ const answers=[140,142,144].map(index=>source.segments[index]);
+ assert(answers.every(segment=>segment.kind==='json'));
+ for(const edition of ['nl','de','fr']){
+  const cache=await loadCache(edition),text=index=>cache.segments[source.segments[index].id].text;
+  for(const segment of answers){
+   assert.notEqual(cache.segments[segment.id].text,segment.source);
+   assert.equal(validateTranslation(segment.source,cache.segments[segment.id].text),cache.segments[segment.id].text);
+  }
+  for(const number of ['18','36','108','144'])assert(text(39).includes(number));
+  assert(/geen universele specificatie|keine universelle Spezifikation|pas une spécification universelle/.test(text(39)));
+  assert(/diagnostische notitie|diagnostische Notiz|note diagnostique/.test(text(48)));
+  assert(/redactioneel startadvies|redaktioneller Ausgangsvorschlag|suggestion éditoriale de départ/.test(text(71)));
+  assert(/geen beelden van een gemeten extractie|keine Aufnahmen einer gemessenen Extraktion|pas des images d’une extraction mesurée/.test(text(146)));
+  assert(/Laat de pomp niet|Lassen Sie die Pumpe nicht|Ne laissez pas tourner la pompe/.test(text(78)));
+  const transcript=source.segments[67].source;
+  assert.equal(cache.segments[segmentId(transcript,'json')].text,text(67));
+ }
+});
+
+test('Journal library search slots and colophon are fully localized without translating executable filter identifiers',async()=>{
+ const source=await readJson(path.join(root,'localization/authored/journal-pages-batch-12.source.json'));
+ const search=[180,184,185,187,189,190,191,192,193,194,197,201,204,207,209,211,214];
+ assert.equal(search.length,17);assert(search.every(index=>source.segments[index].kind==='attribute'));
+ for(const edition of ['nl','de','fr']){
+  const cache=await loadCache(edition);
+  for(const index of search){
+   const segment=source.segments[index],text=cache.segments[segment.id].text;
+   assert.notEqual(text,segment.source);
+   assert.equal(validateTranslation(segment.source,text),text);
+  }
+  const colophon=cache.segments[source.segments[227].id].text;
+  assert(/niet geïmpliceerd|nicht impliziert|n’est sous-entendu/.test(colophon));
  }
 });
 

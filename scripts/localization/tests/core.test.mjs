@@ -10,6 +10,18 @@ import { validatedRoutes, rewriteInternalUrl, verifiedOffer, regionalFinder, bui
 import { createRegionalRouter } from '../router.mjs';
 import { requestTranslations } from '../translate.mjs';
 
+test('video transcripts are translated structured prose while video URLs, duration and schema identifiers stay fixed', () => {
+  const value = { '@type': 'VideoObject', transcript: 'Grind 18 g coffee; extract 36 g espresso.', contentUrl: 'https://coffeedant.com/journal/video.mp4', duration: 'PT16S', uploadDate: '2026-10-13T00:00:00Z' };
+  const entries = jsonSlots(value);
+  assert.equal(entries.length, 1); assert.equal(entries[0].source, value.transcript);
+  const translated = validateTranslation(entries[0].source, '18 g Kaffee mahlen; 36 g Espresso extrahieren.');
+  entries[0].set(translated);
+  assert.equal(value.transcript, translated);
+  assert.equal(value['@type'], 'VideoObject'); assert.equal(value.duration, 'PT16S');
+  assert.equal(value.uploadDate, '2026-10-13T00:00:00Z');
+  assert.equal(value.contentUrl, 'https://coffeedant.com/journal/video.mp4');
+});
+
 test('15 unique editions use regional subdomains, never regional directories', () => {
   assert.equal(config.editions.length, 15);
   assert.equal(new Set(config.editions.map(({ host }) => host)).size, 15);
