@@ -1,4 +1,6 @@
 import expandedBeanReviews from './expanded-bean-reviews.json';
+import weekdayBeansA from './weekday-beans-20261014.json';
+import weekdayBeansB from './weekday-beans-20261014b.json';
 
 export type BeanReviewData = {
   slug: string; productId: string; roaster: string; coffee: string; title: string; description: string;
@@ -86,6 +88,6 @@ export const beanReviews: BeanReviewData[] = [{
     { id: 's6', title: 'Counter Culture Big Trouble', href: 'https://counterculturecoffee.com/products/big-trouble', note: 'Roaster listing for an alternative flavor direction; confirm current details at purchase.', checked: '2026-10-13' },
     { id: 's7', title: 'Counter Culture Apollo', href: 'https://counterculturecoffee.com/products/apollo', note: 'Roaster listing for an alternative flavor direction; confirm current details at purchase.', checked: '2026-10-13' },
   ],
-}, ...(expandedBeanReviews as BeanReviewData[])];
+}, ...(expandedBeanReviews as BeanReviewData[]), ...(weekdayBeansA as BeanReviewData[]), ...(weekdayBeansB as BeanReviewData[])];
 
 export const getBeanReview = (slug: string) => beanReviews.find((review) => review.slug === slug);

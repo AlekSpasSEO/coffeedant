@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/fellow-espresso-series-1/': officialProductMedia(
+    'Fellow US Espresso Series 1 product gallery',
+    'https://fellowproducts.com/products/espresso-series-1',
+    [
+      {
+        src: 'https://fellowproducts.com/cdn/shop/files/Web_PDP_Series1_Black-2.png',
+        alt: 'Fellow official gallery view of the black Espresso Series 1 and its brewing area',
+        caption: 'The official black-model gallery shows the brewing interface and portafilter area. It is a product photograph, not a Coffeedant setup or extraction test.',
+        width: 1560,
+        height: 1951,
+      },
+      {
+        src: 'https://fellowproducts.com/cdn/shop/files/Web_PDP_Series1_Black-3.png',
+        alt: 'Fellow official second view of the black Espresso Series 1 machine',
+        caption: 'A second factory view helps assess the physical layout; verify actual cabinet and tank clearance from Fellow dimensions.',
+        width: 1560,
+        height: 1951,
+      },
+    ],
+  ),
   '/espresso-machine/ninja-luxe-cafe-premier-es601/': officialProductMedia(
     'SharkNinja US stainless ES601 product page',
     'https://www.sharkninja.com/ninja-luxe-cafe-premier-3-in-1-espresso-coffee-cold-brew/ES601.html?dwvar_ES601_color=d2d7dd',
