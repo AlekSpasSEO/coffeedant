@@ -2,12 +2,14 @@
 const base = import.meta.env.BASE_URL;
 ---
 <section class="analytics-consent" data-analytics-consent aria-label="Analytics cookie preferences" hidden>
-  <h2>Help us improve Coffeedant</h2>
-  <p>May we use Google Analytics cookies to understand which pages are useful? You can change your choice using Cookie preferences in the footer. <a href={`${base}privacy-policy/`}>Privacy policy</a></p>
+  <h2>Analytics preferences</h2>
+  <p data-analytics-copy="off">May we use Google Analytics cookies to understand which pages are useful?</p>
+  <p data-analytics-copy="on" hidden>Analytics is on. We use Google Analytics cookies to understand which pages are useful. You can turn analytics off below.</p>
+  <p>You can change your choice using Cookie preferences in the footer. <a href={`${base}privacy-policy/`}>Privacy policy</a></p>
   <p data-analytics-optout hidden>Your browser requests no optional tracking. Analytics will stay off while that setting is enabled.</p>
   <div>
-    <button type="button" data-analytics-choice="granted">Accept analytics</button>
-    <button type="button" data-analytics-choice="denied">Reject analytics</button>
+    <button type="button" data-analytics-choice="granted"><span data-analytics-copy="off">Accept analytics</span><span data-analytics-copy="on" hidden>Keep analytics on</span></button>
+    <button type="button" data-analytics-choice="denied"><span data-analytics-copy="off">Reject analytics</span><span data-analytics-copy="on" hidden>Turn off analytics</span></button>
   </div>
 </section>
 <style>

@@ -33,7 +33,7 @@ jobs:
       - name: Validate sitemaps, metadata, schema and accessible media
         run: npm run test:seo && npm run validate:seo
       - name: Validate sitewide analytics and consent
-        run: npm run validate:analytics
+        run: npm run test:analytics-policy && npm run validate:analytics
       - name: Validate Cloudflare Journal
         run: npm run validate:journal
       - name: Validate Cloudflare modern reviews
