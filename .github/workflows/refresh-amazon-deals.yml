@@ -1,8 +1,8 @@
-name: Refresh Friday Amazon coffee deals
+name: Refresh weekly and seasonal Amazon coffee deals
 
 on:
   schedule:
-    - cron: '17 9 * * 5'
+    - cron: '17 3,9,15,21 * * *'
       timezone: Europe/Skopje
   workflow_dispatch:
 
@@ -26,18 +26,33 @@ jobs:
         with:
           node-version: 20
           cache: npm
-      - run: npm ci
-      - name: Discover this week's coffee deals through Amazon Creators API
+      - name: Select weekly or seasonal discovery cadence
+        id: plan
+        env:
+          FORCE_DISCOVERY: ${{ github.event_name == 'workflow_dispatch' }}
+        run: |
+          if [ "$FORCE_DISCOVERY" = 'true' ]; then
+            node scripts/plan-deal-discovery.mjs --force
+          else
+            node scripts/plan-deal-discovery.mjs
+          fi
+      - if: steps.plan.outputs.due == 'true'
+        run: npm ci
+      - name: Discover current coffee deals through Amazon Creators API
+        if: steps.plan.outputs.due == 'true'
         env:
           AMAZON_CREATORS_CREDENTIAL_ID: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_ID }}
           AMAZON_CREATORS_CREDENTIAL_SECRET: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_SECRET }}
           AMAZON_CREATORS_CREDENTIAL_VERSION: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_VERSION }}
         run: npm run update:amazon-deals
       - name: Verify discount and expiry safeguards
+        if: steps.plan.outputs.due == 'true'
         run: npm run test:deals
       - name: Verify production page and sitemaps
+        if: steps.plan.outputs.due == 'true'
         run: CF_PAGES=1 npm run build && npm run validate:seo
-      - name: Publish the Friday roundup to Cloudflare Pages
+      - name: Publish the deal selection to Cloudflare Pages
+        if: steps.plan.outputs.due == 'true'
         run: |
           git add src/data/amazon-deals.json src/data/amazon-deal-selection.json
           if git diff --cached --quiet; then
@@ -46,6 +61,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore: refresh Friday Amazon coffee deals"
+          git commit -m "chore: refresh weekly or seasonal Amazon coffee deals"
           git pull --rebase origin main
           git push origin HEAD:main
