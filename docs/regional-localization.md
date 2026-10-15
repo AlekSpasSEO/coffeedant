@@ -581,13 +581,19 @@ creator URLs, full publication labels, executable scripts, locale/canonical/
 noindex, safely rewritten links and matching scoped sitemaps. These are
 generated-output/runtime-integration checks, not a new browser session.
 
-The source contains 224 canonical pages / 45,674 unique slots. Ready regular
+The source contains 224 canonical pages / 45,661 unique slots. Ready regular
 content pages are NL 44, DE 43 and FR 43, excluding the 404; remaining slots are
-40,894 / 41,000 / 41,000. Scoped noindex builds contain 45/44/44 pages including
+40,881 / 40,987 / 40,987. Scoped noindex builds contain 45/44/44 pages including
 the 404. All 146 distinct Finder descriptions remain translated with zero gaps;
 unknown local prices and Amazon links remain hidden. Full editions remain
 incomplete and unpublished, with no DNS cutover, paid translation API, billing
 change or subagent used.
+
+Concurrent main-branch consent/navigation behavior and US offer changes are
+preserved through a normal merge. The full current-source build, all 59 tests,
+expanded analytics validation and six complete scoped checks pass again on that
+combined source. Counts reflect the refreshed offer snapshot; removed offer-only
+source strings are not counted as newly translated prose.
 
 ## Missing configuration
 
