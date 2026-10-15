@@ -85,6 +85,10 @@ const finderIdentityOverrides: Record<string, Partial<Pick<CoffeeFinderItem, 'wo
   '/espresso-machine/gaggia-classic-gt/': { workflow: 'hands-on', grinder: 'separate', experience: 'enthusiast' },
   // Guided recipes do not imply an integrated grinder or a compact station.
   '/espresso-machine/fellow-espresso-series-1/': { workflow: 'hands-on', grinder: 'separate', experience: 'enthusiast', footprint: 'standard' },
+  // Both current packages include a pressurized Flow Control path that can use pre-ground coffee;
+  // their bottomless path still benefits from a separate espresso grinder.
+  '/espresso-machine/flair-classic/': { workflow: 'manual', grinder: 'not-needed' },
+  '/espresso-machine/flair-neo-flex/': { workflow: 'manual', grinder: 'not-needed' },
 };
 
 const inferWorkflow = (review: MachineReviewData, text: string): CoffeeFinderWorkflow => {

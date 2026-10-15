@@ -1,10 +1,10 @@
 # Flair PRO 2 review: a capable legacy lever, not a current new-machine bargain media ledger
 
-Generated from the rendered review updated 2026-09-23. This is the publication audit record for the inline editorial media. The implementation remains the canonical machine-readable record.
+Generated from the rendered review updated 2026-10-15. This is the publication audit record for the inline editorial media. The implementation remains the canonical machine-readable record.
 
 ## Density and source mix
 
-- Editorial word count, excluding captions and embeds: 5259
+- Editorial word count, excluding captions and embeds: 5485
 - Publication image cap: 3 total images
 - Images published: 3 (2 inline images plus one product hero)
 - User-generated or community inline images: 0 of 2
