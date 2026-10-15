@@ -1,0 +1,841 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/journal/istanbul-coffeehouses/",
+      "sourceHash": "9354ac45ce05ffe73bfce7b0d7c8c969803c7ff6965d8b2d234499fcb45b920e"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "24ddbd9af0c58be62f3bab558be29d54882f99de519427b50f8883de25600fa4",
+      "source": "What the evidence supports",
+      "kind": "text",
+      "context": "What the evidence supports"
+    },
+    {
+      "id": "7953dedc81e5d391fe5b547ce27c5389861f726aad3e2bb0501067075057ac16",
+      "source": "1554–55: the coffeehouses that changed Istanbul | Coffeedant Journal",
+      "kind": "text",
+      "context": "1554–55: the coffeehouses that changed Istanbul | Coffeedant Journal"
+    },
+    {
+      "id": "6a68f3e57dbf6339a4f836d5fff8448d846602238149b8ce4d809507140925ff",
+      "source": "1554–55: the coffeehouses that changed Istanbul | Coffeedant Journal",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n    });\n    const readChoice = (raw) => {\n      try {\n        const saved = JSON.parse(raw || 'null');\n        if (saved && ['granted', 'denied'].includes(saved.value)\n          && Number.isFinite(saved.savedAt) && Date.now() >= saved.savedAt\n          && Date.now() - saved.savedAt < maxAge) return"
+    },
+    {
+      "id": "907231f87df997456f5e8f2c5afa0e11114eb33da9015bb61304b885614ad3aa",
+      "source": "History / 01",
+      "kind": "text",
+      "context": "History / 01"
+    },
+    {
+      "id": "acd3156b3d698c8e89571808adccc074050b00921ab5b479f74c5d7b3a9b2ea6",
+      "source": "An empire in a cup",
+      "kind": "text",
+      "context": "An empire in a cup"
+    },
+    {
+      "id": "f60addfc43bb7927937ebe926c28e43898edb3eaf5ff8848ce9a712ea9ec7c74",
+      "source": "Chapters in 1554–55: the coffeehouses that changed Istanbul",
+      "kind": "attribute",
+      "context": "Inside the story01A date with an asterisk02Before Istanbul, a forest and a highland crop03Read the route as a network04What was actually in the cup?05The room around the drink06A better origin story↗Sources & methodCoffeedant editorial deskPublished 13 October 2026Print this story ↗"
+    },
+    {
+      "id": "80e3aa01d8416ee4a28ff58afac0e05c2c893803aebe3eb33d966da0ff86aa2d",
+      "source": "A date with an asterisk",
+      "kind": "text",
+      "context": "01A date with an asterisk"
+    },
+    {
+      "id": "9a61b553e9b97bd8635a3d08fd2431bf0729806780047656bf93df2b094179c7",
+      "source": "Before Istanbul, a forest and a highland crop",
+      "kind": "text",
+      "context": "02Before Istanbul, a forest and a highland crop"
+    },
+    {
+      "id": "c327706fd1d1a196c0d192932e73a9bdc2fd23f703b5422f46538aedc318a8e7",
+      "source": "Read the route as a network",
+      "kind": "text",
+      "context": "03Read the route as a network"
+    },
+    {
+      "id": "97bb815904bbc9a29def404367ad7dac55e314bd0cf200f34c739e2eac3e9c84",
+      "source": "What was actually in the cup?",
+      "kind": "text",
+      "context": "04What was actually in the cup?"
+    },
+    {
+      "id": "d5895647bd4936f4dc96eca31e84488b39eb7f6a41f29e15aeef75cecee9577e",
+      "source": "The room around the drink",
+      "kind": "text",
+      "context": "05The room around the drink"
+    },
+    {
+      "id": "6cc676452b7e3fadde420978494ddade975044bdf156efad4392ee80409ebabe",
+      "source": "A better origin story",
+      "kind": "text",
+      "context": "06A better origin story"
+    },
+    {
+      "id": "786f76410bcd3fff57be5a1c68842c136fac7c81a2442bcf344779cd4cdb86fd",
+      "source": "The celebrated opening happened under Sultan Süleyman. But the more revealing story begins far from his palace: with African forests, Yemeni growers and the people who carried a new habit across an interconnected region.",
+      "kind": "text",
+      "context": "The celebrated opening happened under Sultan Süleyman. But the more revealing story begins far from his palace: with African forests, Yemeni growers and the people who carried a new habit across an interconnected region."
+    },
+    {
+      "id": "4064ab225594c873561a0f4f9da2af110b9c9adf9a45a1de9800680cb24618ec",
+      "source": "962 AH",
+      "kind": "text",
+      "context": "962 AH"
+    },
+    {
+      "id": "265cdaa1c93cbc2464d5d7da414a370075169acc81f2e6a3c8016d8f2c995abd",
+      "source": "Peçevi's chronology, approximately 1554–55",
+      "kind": "text",
+      "context": "Peçevi's chronology, approximately 1554–55"
+    },
+    {
+      "id": "4d39cd6667b3fd615dcc0da3d9819da10fe706f3674756ddd1c1e72b64ec0ca4",
+      "source": "Arabica",
+      "kind": "text",
+      "context": "Arabica"
+    },
+    {
+      "id": "daa461f0956f67560901cdf3ac46f2cdfacb39a9b0fd9070bd74049dce39d89a",
+      "source": "The species in the early Yemeni supply story",
+      "kind": "text",
+      "context": "The species in the early Yemeni supply story"
+    },
+    {
+      "id": "44b9af77f736cea9f9a766d6ec7d722633b2d7310dc81e5c62fcb8f56359fd51",
+      "source": "Süleyman's reign",
+      "kind": "text",
+      "context": "Süleyman's reign"
+    },
+    {
+      "id": "b4231fa762f7c3791ad34006b0e30aa9b58d16e6f5be798bb28e0282682eb567",
+      "source": "There is a wonderfully compact version of coffee history: in 1554, two men opened a coffeehouse in Istanbul and changed the city. The names usually attached to that moment are Hakem, from Aleppo, and Şems, from Damascus. The district was Tahtakale. The Turkish Ministry of Culture's account, drawing on the Ottoman chronicler Peçevi, preserves those details while acknowledging that the men may have opened separate establishments.",
+      "kind": "text",
+      "context": "There is a wonderfully compact version of coffee history: in 1554, two men opened a coffeehouse in Istanbul and changed the city. The names usually attached to that moment are Hakem, from Aleppo, and Şems, from Damascus. The district was Tahtakale. The Turkish Ministry of Culture's account, drawing on the Ottoman chronicler Peçevi, preserves those details while acknowledging that the men may have opened separate establishments. Read the historical account, pp. 23–24."
+    },
+    {
+      "id": "60cc150f840660a52afa406549c135e732480acc2c8d02492458812d9e1cb3a1",
+      "source": "Read the historical account, pp. 23–24",
+      "kind": "text",
+      "context": "Read the historical account, pp. 23–24"
+    },
+    {
+      "id": "add14071e2a88e428a6f391e2e17bda63ec254bb478e5f507d33aaf890a92a68",
+      "source": "Even the date needs room to breathe. Peçevi places the development in 962 of the Islamic calendar, rendered as 1554–55. Other Ottoman writers point to 960, or 1552–53. An opening date in a later chronicle is evidence, not an opening-day photograph. The strongest formulation is therefore 'Istanbul's first recorded coffeehouses, around 1554–55.' It also avoids calling them the Ottoman Empire's first: a capital's chronology cannot stand for every city within a changing empire.",
+      "kind": "text",
+      "context": "Even the date needs room to breathe. Peçevi places the development in 962 of the Islamic calendar, rendered as 1554–55. Other Ottoman writers point to 960, or 1552–53. An opening date in a later chronicle is evidence, not an opening-day photograph. The strongest formulation is therefore 'Istanbul's first recorded coffeehouses, around 1554–55.' It also avoids calling them the Ottoman Empire's first: a capital's chronology cannot stand for every city within a changing empire. Coffeehouse Sociability, p. 205."
+    },
+    {
+      "id": "08f903ea55f35ac26ab6e39174d45894ecf90cff76b3019b8658c09070cebb17",
+      "source": "Coffeehouse Sociability, p. 205",
+      "kind": "text",
+      "context": "Coffeehouse Sociability, p. 205"
+    },
+    {
+      "id": "a36f087cb7602c3479e636004f810c85a852a8c1e87d214727040855b0843512",
+      "source": "Süleyman ruled from 1520 to 1566. These openings belonged to a period of imperial expansion, trade and remarkable artistic activity, the same reign in which Sinan's Süleymaniye mosque complex took shape between 1550 and 1557. The court and the coffee shop occupied different worlds within the same transforming city. Saying the shops opened under Süleyman identifies the political setting; it does not establish that the sultan founded them or ordered their creation.",
+      "kind": "text",
+      "context": "Süleyman ruled from 1520 to 1566. These openings belonged to a period of imperial expansion, trade and remarkable artistic activity, the same reign in which Sinan's Süleymaniye mosque complex took shape between 1550 and 1557. The court and the coffee shop occupied different worlds within the same transforming city. Saying the shops opened under Süleyman identifies the political setting; it does not establish that the sultan founded them or ordered their creation. The Met on Süleyman's reign."
+    },
+    {
+      "id": "9be0dee50723a1e8e5a96f2bc9bac6d03f1632c4682c9477f5a09d4d3be4a260",
+      "source": "The Met on Süleyman's reign",
+      "kind": "text",
+      "context": "The Met on Süleyman's reign"
+    },
+    {
+      "id": "db88403b14746042bb3c74f93253a5f26f9352ea9a43d199753918938cb45654",
+      "source": "View source: Historic watercolor of boats and people along Istanbul's waterfront beside Yeni Camii",
+      "kind": "attribute",
+      "context": "Archive / original artwork    Istanbul's waterfront in Jean-Baptiste Hilair's late-eighteenth-century watercolor. This later port scene offers geographic context; it is not a record of the first coffeehouses of 1554–55.Jean-Baptiste Hilair / Pera Museum / Wikimedia Commons · Source · Public domain · Resized and converted to WebP."
+    },
+    {
+      "id": "32b0a497b5a7e00dd864a44e4568ce356d58445be5a223de9e53ac6f87941c37",
+      "source": "Historic watercolor of boats and people along Istanbul's waterfront beside Yeni Camii",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "a01cb6e2837c0a23736eb88fa080aaa596ae4f1ef5660943199926caca816100",
+      "source": "Istanbul's waterfront in Jean-Baptiste Hilair's late-eighteenth-century watercolor. This later port scene offers geographic context; it is not a record of the first coffeehouses of 1554–55.",
+      "kind": "text",
+      "context": "Istanbul's waterfront in Jean-Baptiste Hilair's late-eighteenth-century watercolor. This later port scene offers geographic context; it is not a record of the first coffeehouses of 1554–55."
+    },
+    {
+      "id": "9f1b8bb46f45b5479403f943103e8aae5c5d8c95f02fe0bee71392a4b9ea196a",
+      "source": "Jean-Baptiste Hilair / Pera Museum / Wikimedia Commons ·",
+      "kind": "text",
+      "context": "Jean-Baptiste Hilair / Pera Museum / Wikimedia Commons · Source · Public domain · Resized and converted to WebP."
+    },
+    {
+      "id": "129ba83e0ac9dd865ca462531243eb09fe7871352cb1b68f2a49b58bc61dc393",
+      "source": "The plant in this story is Arabica,",
+      "kind": "text",
+      "context": "The plant in this story is Arabica, Coffea arabica. Kew identifies its native range as southern Ethiopia and South Sudan. Yemen's importance is a different kind of origin: the development of cultivation, a beverage culture and commercial connections. Botanical birthplace, agricultural history and the place where a drink becomes popular are separate questions. Combining them into a single discovery story hides the people and practices that turned a wild plant into a traded crop. Kew's Arabica profile."
+    },
+    {
+      "id": "90af1489cb08a8cff94a3dbf04d25305651c86b3f97b753e5b7542f9f74622a6",
+      "source": "Coffea arabica",
+      "kind": "text",
+      "context": "Coffea arabica"
+    },
+    {
+      "id": "781ba56079550239e3b6a784555bcca50dc920bcddcf718dd2d33abacdedce05",
+      "source": ". Kew identifies its native range as southern Ethiopia and South Sudan. Yemen's importance is a different kind of origin: the development of cultivation, a beverage culture and commercial connections. Botanical birthplace, agricultural history and the place where a drink becomes popular are separate questions. Combining them into a single discovery story hides the people and practices that turned a wild plant into a traded crop.",
+      "kind": "text",
+      "context": "The plant in this story is Arabica, Coffea arabica. Kew identifies its native range as southern Ethiopia and South Sudan. Yemen's importance is a different kind of origin: the development of cultivation, a beverage culture and commercial connections. Botanical birthplace, agricultural history and the place where a drink becomes popular are separate questions. Combining them into a single discovery story hides the people and practices that turned a wild plant into a traded crop. Kew's Arabica profile."
+    },
+    {
+      "id": "a50ab1966e2dc267d1ba1df1d678baf8387752935ac71bd0bbf40d52948fcef8",
+      "source": "Kew's Arabica profile",
+      "kind": "text",
+      "context": "Kew's Arabica profile"
+    },
+    {
+      "id": "760936c60dff42a7f46caf3587f6abae552c8f4d701013281e2896d78fc8a76b",
+      "source": "Early written traditions connect Yemeni coffee drinking with Sufi circles and nighttime devotion. The sixteenth-century author al-Jaziri transmitted competing accounts of its introduction, including one involving al-Dhabhani, an Aden jurist who had encountered coffee in Africa. Those competing attributions matter. They describe the cultural work of giving a new practice an ancestry as well as attempts to record its movement. They do not offer a securely identified inventor.",
+      "kind": "text",
+      "context": "Early written traditions connect Yemeni coffee drinking with Sufi circles and nighttime devotion. The sixteenth-century author al-Jaziri transmitted competing accounts of its introduction, including one involving al-Dhabhani, an Aden jurist who had encountered coffee in Africa. Those competing attributions matter. They describe the cultural work of giving a new practice an ancestry as well as attempts to record its movement. They do not offer a securely identified inventor. Encyclopaedia Iranica's discussion of the early sources."
+    },
+    {
+      "id": "2cf168707fdf0a3aadf9270779a6226214aeefa85457a4c0ed4f43014db4fa51",
+      "source": "Encyclopaedia Iranica's discussion of the early sources",
+      "kind": "text",
+      "context": "Encyclopaedia Iranica's discussion of the early sources"
+    },
+    {
+      "id": "23e3d512f9b6222796b20f35232fefa5658cc9692a536216100e29ea64874787",
+      "source": "Historian Michel Tuchscherer places the emergence of an intensive Yemeni coffee economy in the second half of the sixteenth century. Growers cultivated mountain terraces above the Tihama coastal plain. This is a useful correction to the picture of an already mature global industry supplying the first Istanbul shops. The beverage's adoption and the expansion of its agricultural supply unfolded together, at different speeds. The capital's new demand belonged to a developing system rather than a fully formed modern supply chain.",
+      "kind": "text",
+      "context": "Historian Michel Tuchscherer places the emergence of an intensive Yemeni coffee economy in the second half of the sixteenth century. Growers cultivated mountain terraces above the Tihama coastal plain. This is a useful correction to the picture of an already mature global industry supplying the first Istanbul shops. The beverage's adoption and the expansion of its agricultural supply unfolded together, at different speeds. The capital's new demand belonged to a developing system rather than a fully formed modern supply chain. Tuchscherer on the Red Sea coffee economy."
+    },
+    {
+      "id": "edacc122d88fe9cff290fbf80945f4b605608c380c4de75f75e1ad675952f76b",
+      "source": "Tuchscherer on the Red Sea coffee economy",
+      "kind": "text",
+      "context": "Tuchscherer on the Red Sea coffee economy"
+    },
+    {
+      "id": "49b3d03ba300def8e9093168912509412e3194951c7f001ba534799accd408fa",
+      "source": "Trade atlas / reconstructed network",
+      "kind": "text",
+      "context": "Trade atlas / reconstructed network"
+    },
+    {
+      "id": "35cfb17846cfd21fa6b1273dac1882b1df11cb7d9fd6a0a3f78adf7d7f2194a3",
+      "source": "Before the world had a coffee route.",
+      "kind": "text",
+      "context": "Before the world had a coffee route."
+    },
+    {
+      "id": "cb6caf46a2dc2c26536f51021ef0fe28e688d7ae0109544dc0f20896456c3bd5",
+      "source": "Choose historical period",
+      "kind": "attribute",
+      "context": "Trade atlas / reconstructed networkBefore the world had a coffee route. 16th century17th century     Ethiopian source regionWild originsYemeni highlandsCultivation expandsYemeni portsRed Sea distributionJeddahRegional entrepôtCairoEgyptian distributionIstanbulUrban coffee cultureAleppo / DamascusCultural connections RED SEA → EASTERN MEDITERRANEAN  Sixteenth-century network: wild Ethiopian trade and expanding Yemeni cultivation. This schematic does not document one 1554 shipment. Schematic, not to geographic scale. Solid line: regional trade connections; dashed line: cultural links. Mocha’s principal entrepôt role belongs to the early seventeenth century."
+    },
+    {
+      "id": "bf59ca1c9cdf0731df6c2dbc55ee92cf962599daad16ba15e527379075aabe7c",
+      "source": "16th century",
+      "kind": "text",
+      "context": "16th century"
+    },
+    {
+      "id": "947e9593be27dc92da863ff06ff9b14930258680c0d2a30f2b0461312f730685",
+      "source": "17th century",
+      "kind": "text",
+      "context": "17th century"
+    },
+    {
+      "id": "21b83d06a2fac7534c466e015f874ffa3cbec562d15152f6fb24a02d048a6094",
+      "source": "Schematic network: Ethiopian origins, Yemeni highlands, Red Sea ports, Jeddah, Cairo and eastern Mediterranean cities. Mocha's importance grows in the seventeenth century.",
+      "kind": "attribute",
+      "context": "Trade atlas / reconstructed networkBefore the world had a coffee route. 16th century17th century     Ethiopian source regionWild originsYemeni highlandsCultivation expandsYemeni portsRed Sea distributionJeddahRegional entrepôtCairoEgyptian distributionIstanbulUrban coffee cultureAleppo / DamascusCultural connections RED SEA → EASTERN MEDITERRANEAN  Sixteenth-century network: wild Ethiopian trade and expanding Yemeni cultivation. This schematic does not document one 1554 shipment. Schematic, not to geographic scale. Solid line: regional trade connections; dashed line: cultural links. Mocha’s principal entrepôt role belongs to the early seventeenth century."
+    },
+    {
+      "id": "8002fcd0af4ff365810b5200af90dda7b48c8e6ce48bc1d33f9fae4ecd9232c2",
+      "source": "Ethiopian source region",
+      "kind": "text",
+      "context": "Ethiopian source region"
+    },
+    {
+      "id": "c78b4f733aa474f4217d1cdd4af41c1715a5b5a60622081cba7f115ac9047ed9",
+      "source": "Wild origins",
+      "kind": "text",
+      "context": "Wild origins"
+    },
+    {
+      "id": "e4ef42026881839eadd45113058659d3dadb8cdd193d728eb12f860066647017",
+      "source": "Yemeni highlands",
+      "kind": "text",
+      "context": "Yemeni highlands"
+    },
+    {
+      "id": "0ae44281f4670c7e8724fd75500cbec06d3fae126ce7ec0956de5b686a743d23",
+      "source": "Cultivation expands",
+      "kind": "text",
+      "context": "Cultivation expands"
+    },
+    {
+      "id": "523ffc67240c70c394cf2cf996798213a77cab2f6a1f95f29f32f57fd1a38065",
+      "source": "Yemeni ports",
+      "kind": "text",
+      "context": "Yemeni ports"
+    },
+    {
+      "id": "2f408c69de1fdffd0547de4783ea7588d08ca93884b0bd3dce3a74b9c73c4ebd",
+      "source": "Red Sea distribution",
+      "kind": "text",
+      "context": "Red Sea distribution"
+    },
+    {
+      "id": "3dfb5d29ba0b2f1da4233ca38fa6248b26241713eae1d9989ac18e75fce5fe52",
+      "source": "Jeddah",
+      "kind": "text",
+      "context": "Jeddah"
+    },
+    {
+      "id": "a8cc60c3f3a162c0ddf02a3b539cd1ee7e8bc2e08e763a33f70ec18b95adf50a",
+      "source": "Regional entrepôt",
+      "kind": "text",
+      "context": "Regional entrepôt"
+    },
+    {
+      "id": "ca45064f02693f58028ebe9ce0fb407e0d119540ea2bb409e85e8b82c07ed426",
+      "source": "Cairo",
+      "kind": "text",
+      "context": "Cairo"
+    },
+    {
+      "id": "25b8751fe93372026736d679bff143072be9c1e56758800017c459b0e60a8bed",
+      "source": "Egyptian distribution",
+      "kind": "text",
+      "context": "Egyptian distribution"
+    },
+    {
+      "id": "0e28144a2f0730be744eb49106eac32b65f68733cfe3f6970f53fa5893f6f631",
+      "source": "Istanbul",
+      "kind": "text",
+      "context": "Istanbul"
+    },
+    {
+      "id": "eb1882caf89391daf509f9c7106c6e95af5d4fce2fcf28e22fddf7cc98e89f7e",
+      "source": "Urban coffee culture",
+      "kind": "text",
+      "context": "Urban coffee culture"
+    },
+    {
+      "id": "00c5c44f8e831a5f24d739248569213822b1d60bc783fc6388f02d929df2c134",
+      "source": "Aleppo / Damascus",
+      "kind": "text",
+      "context": "Aleppo / Damascus"
+    },
+    {
+      "id": "59c5fcf35210a5a759c54b9158765f3fd2a534d5a5245deb3ce0e3d3c56f1802",
+      "source": "Cultural connections",
+      "kind": "text",
+      "context": "Cultural connections"
+    },
+    {
+      "id": "f6c51a5dd40a0f361499d755beb4a01d2420873919be0b9b89d229c60a4f54d8",
+      "source": "RED SEA → EASTERN MEDITERRANEAN",
+      "kind": "text",
+      "context": "RED SEA → EASTERN MEDITERRANEAN"
+    },
+    {
+      "id": "53215084fb6bc4b814d24da7ee16bccf129d7eb6b8abd15f24a605335fa284ca",
+      "source": "Schematic, not to geographic scale. Solid line: regional trade connections; dashed line: cultural links. Mocha’s principal entrepôt role belongs to the early seventeenth century.",
+      "kind": "text",
+      "context": "Schematic, not to geographic scale. Solid line: regional trade connections; dashed line: cultural links. Mocha’s principal entrepôt role belongs to the early seventeenth century."
+    },
+    {
+      "id": "5b762400d3407b8376019931955ebc0e24a969f6e9bcc3a90b8ebf5959ff67d3",
+      "source": "A line from Yemen to Istanbul is convenient on a map. A network explains more. Tuchscherer identifies commercial links between Yemeni ports, Jeddah and Cairo, connecting production near the southern Red Sea with Mediterranean consumption. Each node represents a change of circumstances: cultivation becomes a consignment, a port becomes a market, and a market supplies another region. The map accompanying this article reconstructs that regional geography; it does not trace an authenticated shipment delivered to Hakem's door.",
+      "kind": "text",
+      "context": "A line from Yemen to Istanbul is convenient on a map. A network explains more. Tuchscherer identifies commercial links between Yemeni ports, Jeddah and Cairo, connecting production near the southern Red Sea with Mediterranean consumption. Each node represents a change of circumstances: cultivation becomes a consignment, a port becomes a market, and a market supplies another region. The map accompanying this article reconstructs that regional geography; it does not trace an authenticated shipment delivered to Hakem's door. The documented trading connections."
+    },
+    {
+      "id": "12431625f6f638d62012f29957b3c9776e584526f0cd9ad0ea29128337b61bf0",
+      "source": "The documented trading connections",
+      "kind": "text",
+      "context": "The documented trading connections"
+    },
+    {
+      "id": "cb2307c380af070d3c704a851150bfda7fbf93f51be7be774382f309cf4be24e",
+      "source": "Mocha, or al-Makha, needs a date label of its own. Recent Red Sea scholarship locates its rise as the principal coffee entrepôt in the early seventeenth century, after the conventional Tahtakale opening. That prevents a familiar error: borrowing the well-described Mocha trade of a later period and pasting it onto 1554. The port belongs in coffee's expanding history, but its later prominence cannot prove that every earlier cup passed through it.",
+      "kind": "text",
+      "context": "Mocha, or al-Makha, needs a date label of its own. Recent Red Sea scholarship locates its rise as the principal coffee entrepôt in the early seventeenth century, after the conventional Tahtakale opening. That prevents a familiar error: borrowing the well-described Mocha trade of a later period and pasting it onto 1554. The port belongs in coffee's expanding history, but its later prominence cannot prove that every earlier cup passed through it. Red Sea scholarship on Mocha's rise."
+    },
+    {
+      "id": "5e3f098a40d1d92d1eb91076eb5f2acab1797a3274f4a87a5d0185a466ae2c3c",
+      "source": "Red Sea scholarship on Mocha's rise",
+      "kind": "text",
+      "context": "Red Sea scholarship on Mocha's rise"
+    },
+    {
+      "id": "d761f2d36400d57bc3d61453e257df16cd18eefba88c97c483e33a957b24addf",
+      "source": "Damascus and Aleppo are essential to the narrative as the named merchants' home cities. They are not, by that fact alone, proven waypoints for their coffee cargo. This distinction makes the story richer: commodities and commercial knowledge can travel along overlapping routes without following identical itineraries. The men who knew how to sell a beverage could matter as much as the vessel that carried the beans. A historical map should make that relationship visible without inventing a journey.",
+      "kind": "text",
+      "context": "Damascus and Aleppo are essential to the narrative as the named merchants' home cities. They are not, by that fact alone, proven waypoints for their coffee cargo. This distinction makes the story richer: commodities and commercial knowledge can travel along overlapping routes without following identical itineraries. The men who knew how to sell a beverage could matter as much as the vessel that carried the beans. A historical map should make that relationship visible without inventing a journey."
+    },
+    {
+      "id": "1decafd35a34a90020706fb10eac411e3d51190aed6988ebf812242dfc686951",
+      "source": "'Turkish coffee' names a preparation tradition, not a species of tree that must grow in Türkiye. UNESCO's description of the living practice starts with freshly roasted beans ground to a fine powder, then brewed slowly in a pot with water and, when desired, sugar. It associates the small cup with hospitality, conversation and ceremonial occasions. That is a contemporary cultural description, inscribed in 2013; it should not be mistaken for a precise recipe recovered from a 1554 shop.",
+      "kind": "text",
+      "context": "'Turkish coffee' names a preparation tradition, not a species of tree that must grow in Türkiye. UNESCO's description of the living practice starts with freshly roasted beans ground to a fine powder, then brewed slowly in a pot with water and, when desired, sugar. It associates the small cup with hospitality, conversation and ceremonial occasions. That is a contemporary cultural description, inscribed in 2013; it should not be mistaken for a precise recipe recovered from a 1554 shop. UNESCO on the living tradition."
+    },
+    {
+      "id": "dff5375aeb7d0d9cb975e7ffa042fbec622f26c23e7e2286b4059bd33ee0aec9",
+      "source": "UNESCO on the living tradition",
+      "kind": "text",
+      "context": "UNESCO on the living tradition"
+    },
+    {
+      "id": "feed177540da0bddcc084d25a9c729315ccace1f8008414f7ec1ad102ecffc7a",
+      "source": "For the sixteenth-century supply story, Arabica is the appropriate species. A modern Arabica–Robusta blend would be an anachronistic reconstruction: World Coffee Research dates Robusta's commercial cultivation to around 1870 in Congo. Equally, familiar present-day variety labels should not be assigned to the first Istanbul shops without evidence. We can identify the broad botanical context while leaving the exact seeds, roast intensity and cup proportions unresolved. Restraint here preserves the difference between a historical explanation and an imaginative tasting menu.",
+      "kind": "text",
+      "context": "For the sixteenth-century supply story, Arabica is the appropriate species. A modern Arabica–Robusta blend would be an anachronistic reconstruction: World Coffee Research dates Robusta's commercial cultivation to around 1870 in Congo. Equally, familiar present-day variety labels should not be assigned to the first Istanbul shops without evidence. We can identify the broad botanical context while leaving the exact seeds, roast intensity and cup proportions unresolved. Restraint here preserves the difference between a historical explanation and an imaginative tasting menu. World Coffee Research's species histories."
+    },
+    {
+      "id": "a990a893cc9e2f02ca00a01d31c1ad4b945bae847ba3d8a923de65e07ddcabae",
+      "source": "World Coffee Research's species histories",
+      "kind": "text",
+      "context": "World Coffee Research's species histories"
+    },
+    {
+      "id": "7ca757e29728223d6cf229ce5313e4d595eb814b591c9bbbf8ee6a2211d5a827",
+      "source": "There is also a distinction between the seed beverage and",
+      "kind": "text",
+      "context": "There is also a distinction between the seed beverage and qishr, a related drink made from coffee-fruit husks, noted in the scholarly history of coffee. A coffee tree can sustain more than one drinking tradition. Recognizing that fact keeps the agricultural story from shrinking to the roasted bean familiar today. It does not establish which husk or seed preparations the Tahtakale proprietors served; that particular menu has not been recovered here. Iranica on coffee and qishr."
+    },
+    {
+      "id": "3eb6e4d81c8ee5cb33d5d2d29d71a77a6049532451f661179fbdf5427c72b115",
+      "source": "qishr",
+      "kind": "text",
+      "context": "qishr"
+    },
+    {
+      "id": "c7acaba4630e6593450258c557a4d8f4e5ff0f09eb7e9026eba3c4196c482acc",
+      "source": ", a related drink made from coffee-fruit husks, noted in the scholarly history of coffee. A coffee tree can sustain more than one drinking tradition. Recognizing that fact keeps the agricultural story from shrinking to the roasted bean familiar today. It does not establish which husk or seed preparations the Tahtakale proprietors served; that particular menu has not been recovered here.",
+      "kind": "text",
+      "context": "There is also a distinction between the seed beverage and qishr, a related drink made from coffee-fruit husks, noted in the scholarly history of coffee. A coffee tree can sustain more than one drinking tradition. Recognizing that fact keeps the agricultural story from shrinking to the roasted bean familiar today. It does not establish which husk or seed preparations the Tahtakale proprietors served; that particular menu has not been recovered here. Iranica on coffee and qishr."
+    },
+    {
+      "id": "7a65714f14f23e6e26d45684744cbda0398e0d19c78eb79bb9579edde4c87fe3",
+      "source": "Iranica on coffee and qishr",
+      "kind": "text",
+      "context": "Iranica on coffee and qishr"
+    },
+    {
+      "id": "af59ab325973eda2552b90cf1e0e61f139d5284769b9c6751a6e88c505039455",
+      "source": "The Ritual of Turkish Coffee - Only In Türkiye⎮Go Türkiye",
+      "kind": "text",
+      "context": "The Ritual of Turkish Coffee - Only In Türkiye⎮Go Türkiye"
+    },
+    {
+      "id": "859dfa59991680e0ff12bfb7d4f7c12ef5066d776ab44edeaf6f31c23bb95eb7",
+      "source": "Go Türkiye follows the preparation and social ritual of Turkish coffee. This contemporary cultural film complements the article’s discussion of the living tradition; its scenes are not evidence of how a 1554–55 coffeehouse looked.",
+      "kind": "text",
+      "context": "Go Türkiye follows the preparation and social ritual of Turkish coffee. This contemporary cultural film complements the article’s discussion of the living tradition; its scenes are not evidence of how a 1554–55 coffeehouse looked."
+    },
+    {
+      "id": "e91e6a9a6b60bb65574c6f0ee1ecb42ba9c084df68910bc54eabe7f6f5a9b922",
+      "source": "Play The Ritual of Turkish Coffee - Only In Türkiye⎮Go Türkiye",
+      "kind": "attribute",
+      "context": "▶Watch with Go Türkiye"
+    },
+    {
+      "id": "91ee7360cfa667803f1a2f0aca15484443f37f00bf3301e72b94831c8505cc08",
+      "source": "Watch with Go Türkiye",
+      "kind": "text",
+      "context": "Watch with Go Türkiye"
+    },
+    {
+      "id": "cac555491a913b70a27349588a68510bcb0e0a249d39f4ba2ac8742f9b5f4347",
+      "source": "Watch on YouTube · Go Türkiye ↗",
+      "kind": "text",
+      "context": "Watch on YouTube · Go Türkiye ↗"
+    },
+    {
+      "id": "af99a4732c31ba7a6a06144a5f9b92829c56bf928347719996651841a84848cb",
+      "source": "Three different chronologies. The route illustration reconstructs a regional network; it is not a documented individual shipment.",
+      "kind": "text",
+      "context": "Three different chronologies. The route illustration reconstructs a regional network; it is not a documented individual shipment."
+    },
+    {
+      "id": "d82b6a04d5ee9b6b9cfdfc81354c9868f78fa9808277dfe12b248212f0144c19",
+      "source": "What",
+      "kind": "text",
+      "context": "What"
+    },
+    {
+      "id": "f9db94d591f85cff6dced675da61693836477bf68e3a80ffdcc93a34041adcda",
+      "source": "Where and when",
+      "kind": "text",
+      "context": "Where and when"
+    },
+    {
+      "id": "3700e9228cf680c77254a18a5be8ac0430bdfbf0cc2225d76c49a18e0e98aa13",
+      "source": "Arabica's native range",
+      "kind": "text",
+      "context": "Arabica's native range"
+    },
+    {
+      "id": "adc12f1136253c118fc2c3120d100b7bef843021f5b30c91d4ef8b494b05ccf4",
+      "source": "Southern Ethiopia and South Sudan",
+      "kind": "text",
+      "context": "Southern Ethiopia and South Sudan"
+    },
+    {
+      "id": "f0d00d78e823c43107739dd12264949d4b6da671b975aef80afc6bf07ec16576",
+      "source": "Botanical origins, distinct from the origin of a brewed drink",
+      "kind": "text",
+      "context": "Botanical origins, distinct from the origin of a brewed drink"
+    },
+    {
+      "id": "9201ada026988c4a31f72f3050498f16b9b60154c5583f0e08b442490d4d3a81",
+      "source": "Recorded coffeehouse openings",
+      "kind": "text",
+      "context": "Recorded coffeehouse openings"
+    },
+    {
+      "id": "59a7453c952a31621b273c84fc083fcc73acf2cfbe3559496881d01c62df1f3a",
+      "source": "Istanbul, c.1554–55; competing accounts c.1552–53",
+      "kind": "text",
+      "context": "Istanbul, c.1554–55; competing accounts c.1552–53"
+    },
+    {
+      "id": "80c3eb1fdf5e0c40e3cc9b38cd2a4d3ac624abf736d08cd7c8e0cbbd9abc3949",
+      "source": "A capital-city milestone under Süleyman",
+      "kind": "text",
+      "context": "A capital-city milestone under Süleyman"
+    },
+    {
+      "id": "8bf33a8c475eed920f2261308495e30e827afb76766f345732ae2f443e471497",
+      "source": "Intensive terrace cultivation",
+      "kind": "text",
+      "context": "Intensive terrace cultivation"
+    },
+    {
+      "id": "6cec6800c0b9af938450567cc174fd55b4c2e87a4881d04a78e2a39547d0fddb",
+      "source": "Yemen, second half of the sixteenth century",
+      "kind": "text",
+      "context": "Yemen, second half of the sixteenth century"
+    },
+    {
+      "id": "2985f45dc5e7c8b33828081d27801e21cc1996b9bc15515af4628e4818e26e5b",
+      "source": "A growing agricultural and commercial economy",
+      "kind": "text",
+      "context": "A growing agricultural and commercial economy"
+    },
+    {
+      "id": "10f6bfd39839680d8ce603b04a97539d4e3e52d6a5bfb8e983df655ae8df4c5e",
+      "source": "Mocha's principal entrepôt role",
+      "kind": "text",
+      "context": "Mocha's principal entrepôt role"
+    },
+    {
+      "id": "d0143b14c754ce3310da98723515e6590ee161f7139ab6844f738050b0be2882",
+      "source": "Early seventeenth century",
+      "kind": "text",
+      "context": "Early seventeenth century"
+    },
+    {
+      "id": "e7563192b2d072c6da1e474b17da3a4bb77b8262ed4920be88053ce87170f3c9",
+      "source": "A later phase, not proof of the 1554 shipment route",
+      "kind": "text",
+      "context": "A later phase, not proof of the 1554 shipment route"
+    },
+    {
+      "id": "5a6a1eeece9cf30beb43d916c3e80891f73defea65b2c27b66ca7c50021e6f29",
+      "source": "The most vivid material in Peçevi's later account concerns the customers: books, chess, backgammon and poetry; judges and professors alongside other men with time to spend. The Ministry's presentation records coffee being enjoyed for two akçe. Such details offer more than decorative atmosphere. They suggest why a shop could become an institution: a modest, repeatable purchase gave activities a shared setting, and the drink helped hold the gathering together.",
+      "kind": "text",
+      "context": "The most vivid material in Peçevi's later account concerns the customers: books, chess, backgammon and poetry; judges and professors alongside other men with time to spend. The Ministry's presentation records coffee being enjoyed for two akçe. Such details offer more than decorative atmosphere. They suggest why a shop could become an institution: a modest, repeatable purchase gave activities a shared setting, and the drink helped hold the gathering together. The account of the coffeehouse clientele, p. 23."
+    },
+    {
+      "id": "28ab4c6310a5ac290ae2f3bd792e0c41672d9bcb8624d02cacc6431ec52cb973",
+      "source": "The account of the coffeehouse clientele, p. 23",
+      "kind": "text",
+      "context": "The account of the coffeehouse clientele, p. 23"
+    },
+    {
+      "id": "44abf0cced3e44d299b2fbe52e1e13818d7a433da44bfa8470214f0a898d9b7c",
+      "source": "The novelty, in our reading, lies partly in the invitation. A proprietor could sell access to a room and a rhythm of sociability, rather than relying entirely on a host's personal invitation. That is an interpretation of the reported activities, not a claim that all social boundaries disappeared. The coffeehouse was still situated within its city's hierarchies, habits and expectations. Its importance does not require turning its customers into modern egalitarian citizens.",
+      "kind": "text",
+      "context": "The novelty, in our reading, lies partly in the invitation. A proprietor could sell access to a room and a rhythm of sociability, rather than relying entirely on a host's personal invitation. That is an interpretation of the reported activities, not a claim that all social boundaries disappeared. The coffeehouse was still situated within its city's hierarchies, habits and expectations. Its importance does not require turning its customers into modern egalitarian citizens."
+    },
+    {
+      "id": "aafdc8bb38c2ef2c573f10c564eab2ef432bf8be067903723168a1c2ab0d11eb",
+      "source": "View source: Painting of a spacious Tophane coffeehouse with seated patrons and tall decorated columns",
+      "kind": "attribute",
+      "context": "Archive / original artwork    Megerdich Jivanian's late-nineteenth-century coffeehouse scene, after Thomas Allom. It visualizes a much later Ottoman social setting, several centuries after the Tahtakale openings.Megerdich Jivanian, after Thomas Allom / Pera Museum / Wikimedia Commons · Source · Public domain · Resized and converted to WebP."
+    },
+    {
+      "id": "3d76240ad1d3e5d834ea6caced7e0d6aeebb70919647fbb01b2d2b77b3fd4c74",
+      "source": "Painting of a spacious Tophane coffeehouse with seated patrons and tall decorated columns",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "55940eef12865711e45b6db587364b8af97f2c5dbd877819c5b078dde035af8b",
+      "source": "Megerdich Jivanian's late-nineteenth-century coffeehouse scene, after Thomas Allom. It visualizes a much later Ottoman social setting, several centuries after the Tahtakale openings.",
+      "kind": "text",
+      "context": "Megerdich Jivanian's late-nineteenth-century coffeehouse scene, after Thomas Allom. It visualizes a much later Ottoman social setting, several centuries after the Tahtakale openings."
+    },
+    {
+      "id": "09ef41f478d4e661c149ff208f2249955121f7125699341454c9138be2dbfe78",
+      "source": "Megerdich Jivanian, after Thomas Allom / Pera Museum / Wikimedia Commons ·",
+      "kind": "text",
+      "context": "Megerdich Jivanian, after Thomas Allom / Pera Museum / Wikimedia Commons · Source · Public domain · Resized and converted to WebP."
+    },
+    {
+      "id": "5bae6f06e4ec6574381a12ab52f5718d24aef40564c2ff1ea3f1e384e13d5406",
+      "source": "The first-shop story is most useful when it opens outward. Hakem and Şems give us names; the chronicle gives us an approximate date; botany identifies a species; regional history supplies a developing production and trading geography. None of those kinds of evidence should be forced to do the work of another. Together they explain how a particular city could make an imported habit its own without erasing the growers, traders and devotional communities who preceded it.",
+      "kind": "text",
+      "context": "The first-shop story is most useful when it opens outward. Hakem and Şems give us names; the chronicle gives us an approximate date; botany identifies a species; regional history supplies a developing production and trading geography. None of those kinds of evidence should be forced to do the work of another. Together they explain how a particular city could make an imported habit its own without erasing the growers, traders and devotional communities who preceded it."
+    },
+    {
+      "id": "b4c48ed36fb43b4136895a06860c354491864c94485b9a5b1ec09fa053052ffe",
+      "source": "That is the significance of Istanbul's coffeehouses under Süleyman. They were a striking urban expression of a much longer transformation. Their legacy is visible whenever a cup purchases time to read, talk or simply remain among other people. The pleasure of the origin story survives its corrections. In fact, the story improves: one opening becomes a landscape of labor, exchange and invention, with enough uncertainty left intact to remind us that history is evidence being interpreted.",
+      "kind": "text",
+      "context": "That is the significance of Istanbul's coffeehouses under Süleyman. They were a striking urban expression of a much longer transformation. Their legacy is visible whenever a cup purchases time to read, talk or simply remain among other people. The pleasure of the origin story survives its corrections. In fact, the story improves: one opening becomes a landscape of labor, exchange and invention, with enough uncertainty left intact to remind us that history is evidence being interpreted."
+    },
+    {
+      "id": "5222cf58235e1adf2d121e8ded32bfceacc602ccf71deff1b19b3e23cc5cb907",
+      "source": "The Tahtakale milestone belongs to Istanbul around 1554–55. Its deeper history connects Arabica's African origins, Yemeni cultivation and a Red Sea trading network that developed over time.",
+      "kind": "text",
+      "context": "The Tahtakale milestone belongs to Istanbul around 1554–55. Its deeper history connects Arabica's African origins, Yemeni cultivation and a Red Sea trading network that developed over time."
+    },
+    {
+      "id": "4cdc53f7cd7c72f9dd8ecb88ffb942ab715cd04fff70e7d2d7bd1803982c9cb8",
+      "source": "Was this the first coffeehouse in the Ottoman Empire?",
+      "kind": "text",
+      "context": "Was this the first coffeehouse in the Ottoman Empire?"
+    },
+    {
+      "id": "ef28fce34d70733b9734893d4cf2106090e27fb88cae08297be9c310001f5d19",
+      "source": "The evidence presented here concerns the first recorded Istanbul establishments. Earlier coffee drinking and gathering traditions elsewhere make an empire-wide first an unjustified claim.",
+      "kind": "text",
+      "context": "The evidence presented here concerns the first recorded Istanbul establishments. Earlier coffee drinking and gathering traditions elsewhere make an empire-wide first an unjustified claim."
+    },
+    {
+      "id": "25e020e5841c4090938538e1ee4fb6fd95b781ad1337351e500b7240b6885dc7",
+      "source": "Can I recreate the exact coffee served in 1554?",
+      "kind": "text",
+      "context": "Can I recreate the exact coffee served in 1554?"
+    },
+    {
+      "id": "95b84c040e3733eda61301f96e715dd07296a00d837c08b6823d82efff695477",
+      "source": "No precise shop recipe, roast specification or named variety is established by these sources. A modern Turkish coffee is a living tradition, not an authenticated replica.",
+      "kind": "text",
+      "context": "No precise shop recipe, roast specification or named variety is established by these sources. A modern Turkish coffee is a living tradition, not an authenticated replica."
+    },
+    {
+      "id": "5b5a301b89c422176a526c2299181d7971c2a5c142e8d5c93aa879befe43c026",
+      "source": "Turkish Coffee Culture ↗",
+      "kind": "text",
+      "context": "Turkish Coffee Culture ↗"
+    },
+    {
+      "id": "8798c342d1f19e84b95220fd65eea01b3354c3a6180461c48a015ac1f8975271",
+      "source": "Turkish Ministry of Culture, 2011; pp. 23–24 for names and Peçevi's retrospective account.",
+      "kind": "text",
+      "context": "Turkish Ministry of Culture, 2011; pp. 23–24 for names and Peçevi's retrospective account."
+    },
+    {
+      "id": "ead1b65f6dfa8934a7f121a9a02433c818637b6ddc701a1eeafbe37e2f2a4218",
+      "source": "Journal of Ottoman Studies 49, 2017; competing chronologies on p. 205.",
+      "kind": "text",
+      "context": "Journal of Ottoman Studies 49, 2017; competing chronologies on p. 205."
+    },
+    {
+      "id": "f29e6a86d439dd55d0176bb95891d1eef8d4ab4c99f3141e0fd166c64b3ce938",
+      "source": "The Age of Süleyman ↗",
+      "kind": "text",
+      "context": "The Age of Süleyman ↗"
+    },
+    {
+      "id": "4483cbb0cdb5178e3b08546ea26028f0abef491550b1fc42455b8d4565f422d5",
+      "source": "Metropolitan Museum of Art; political and architectural context.",
+      "kind": "text",
+      "context": "Metropolitan Museum of Art; political and architectural context."
+    },
+    {
+      "id": "bd4103dbc44ae3451fa0e38c186378e6b15db694b4bb8a36a858a76d9fdc340a",
+      "source": "Royal Botanic Gardens, Kew; native range.",
+      "kind": "text",
+      "context": "Royal Botanic Gardens, Kew; native range."
+    },
+    {
+      "id": "d9d7558a2dbf43100351608f8e7cb6ba5ed89439426381067bf93f439a939451",
+      "source": "Michel Tuchscherer; chronology of cultivation and trading connections.",
+      "kind": "text",
+      "context": "Michel Tuchscherer; chronology of cultivation and trading connections."
+    },
+    {
+      "id": "c565f44104902d2f631af2a39dfdef070774e73edb8007dc3c5f86ee9a567153",
+      "source": "Between commerce and sanctity ↗",
+      "kind": "text",
+      "context": "Between commerce and sanctity ↗"
+    },
+    {
+      "id": "eaac45c2da8f185bd09fb4997f7be8c8ed7e5177a80b3a5a850227301efabfc7",
+      "source": "Journal of Global History; Mocha's early-seventeenth-century prominence.",
+      "kind": "text",
+      "context": "Journal of Global History; Mocha's early-seventeenth-century prominence."
+    },
+    {
+      "id": "39bc984e0cba7221b651af3b33bb75ddbf082d65f707a003d06073d85b5d43ce",
+      "source": "Coffee ↗",
+      "kind": "text",
+      "context": "Coffee ↗"
+    },
+    {
+      "id": "1a27aba56052a7cf64e145544d79eab104b6c9565ba56df3e57eeb39e6d6c1a9",
+      "source": "Encyclopaedia Iranica; early textual traditions and qishr.",
+      "kind": "text",
+      "context": "Encyclopaedia Iranica; early textual traditions and qishr."
+    },
+    {
+      "id": "336de604d19e4a0a9a754e7a4236820ec0ab8e8f1a0fdf786742786848eca720",
+      "source": "Turkish coffee culture and tradition ↗",
+      "kind": "text",
+      "context": "Turkish coffee culture and tradition ↗"
+    },
+    {
+      "id": "88d076fb028724bb4a6bdfaca23b9a47d366ff6c1162a37fc0cba9a34854cd0f",
+      "source": "UNESCO; a contemporary tradition, not a sixteenth-century recipe.",
+      "kind": "text",
+      "context": "UNESCO; a contemporary tradition, not a sixteenth-century recipe."
+    },
+    {
+      "id": "b8f74d3889172039eff42905a12c181d87f05507ea5ffcfd156b7f5dab6a516a",
+      "source": "Coffee varieties catalog ↗",
+      "kind": "text",
+      "context": "Coffee varieties catalog ↗"
+    },
+    {
+      "id": "97ce4006590b976db04762ed92f5019a3b683cebbfeda363e25fd4bff9a7eb80",
+      "source": "World Coffee Research; commercial Robusta chronology.",
+      "kind": "text",
+      "context": "World Coffee Research; commercial Robusta chronology."
+    },
+    {
+      "id": "1bbacdbe6b98e1cfc3370362b6cf820aa8cd4fc32f4fde74dcb1b88f7c6fa845",
+      "source": "Historic watercolor of boats and people along Istanbul's waterfront beside Yeni Camii",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "42fcd41cb550a1182adac0932cf6ee530ef7fbfce14445f0c3842f935c32d14a",
+      "source": "Istanbul's waterfront in Jean-Baptiste Hilair's late-eighteenth-century watercolor. This later port scene offers geographic context; it is not a record of the first coffeehouses of 1554–55. Jean-Baptiste Hilair / Pera Museum / Wikimedia Commons · Source · Public domain · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "5dc18d2e95cce23f02993b6c12cc6e045fe996f9a28f3df52df29cd8e08ab967",
+      "source": "Jean-Baptiste Hilair / Pera Museum / Wikimedia Commons · Source · Public domain · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "78b42f87c9e8cfacea05e4208e717b55660a19dad6eda9094e14a666884bd42c",
+      "source": "Painting of a spacious Tophane coffeehouse with seated patrons and tall decorated columns",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "7d12e4bd39772a2181846fc1c162b85726fce891f9c9c3a897565e09c4378ec6",
+      "source": "Megerdich Jivanian's late-nineteenth-century coffeehouse scene, after Thomas Allom. It visualizes a much later Ottoman social setting, several centuries after the Tahtakale openings. Megerdich Jivanian, after Thomas Allom / Pera Museum / Wikimedia Commons · Source · Public domain · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "4369e9fced828d8d60c26e59f3e75f6f11837e68945e71d63e3287decde2bcfe",
+      "source": "Megerdich Jivanian, after Thomas Allom / Pera Museum / Wikimedia Commons · Source · Public domain · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "9b82b04914ffd7b67c7a2957d5acd0ed184c63615417515cc61a56305bd9ac16",
+      "source": "1554–55: the coffeehouses that changed Istanbul | Coffeedant Journal",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "29e5913234aea9b0cc99077aa01b90675ea31d6a87bd59927c28158d993566af",
+      "source": "Istanbul's waterfront in Jean-Baptiste Hilair's late-eighteenth-century watercolor. This later port scene offers geographic context; it is not a record of the first coffeehouses of 1554–55.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "c6b306b36d9f7af11834e42933c6fd0f6434b1dfde3da1ad6bca95a10084010d",
+      "source": "Jean-Baptiste Hilair / Pera Museum / Wikimedia Commons",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "ce9aaca8663ef3bd020a6e959df32cc4987625c6376e718549a2139080f6d775",
+      "source": "Megerdich Jivanian's late-nineteenth-century coffeehouse scene, after Thomas Allom. It visualizes a much later Ottoman social setting, several centuries after the Tahtakale openings.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "0e775aa6ba872de02f589fe4056ddf12e66cab69823e1c9f5b4fa7c76b0b2110",
+      "source": "Megerdich Jivanian, after Thomas Allom / Pera Museum / Wikimedia Commons",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "92e759b69fae7f6d866c97ac24ab6cfea1fc0886f228cd213e2b9d9fd2870284",
+      "source": "The Ritual of Turkish Coffee - Only In Türkiye⎮Go Türkiye",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "5a6caf38e64df0470fd35419a8d45058b777095edd568f19359249a0d99180b9",
+      "source": "Go Türkiye follows the preparation and social ritual of Turkish coffee. This contemporary cultural film complements the article’s discussion of the living tradition; its scenes are not evidence of how a 1554–55 coffeehouse looked.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "5a28895e99e5d1d7c34d26b3578f5ba7c653081bae2797f4a0689ddb119fcc82",
+      "source": "Go Türkiye",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "447aa3cccc6134618956e6e1eedc0a726b1151e82d57e6c2eef3b621900c483d",
+      "source": "Was this the first coffeehouse in the Ottoman Empire?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "2dcd27abc81826154cbd0407260087e6ef0a3ed1b753da80551c54f0bfb6b511",
+      "source": "The evidence presented here concerns the first recorded Istanbul establishments. Earlier coffee drinking and gathering traditions elsewhere make an empire-wide first an unjustified claim.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "f3700be4d02670d21dffaf9c8dad948a7ce2f460392def820886cec7c4165430",
+      "source": "Can I recreate the exact coffee served in 1554?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "346681be7753a09d5999af7fc6df0d71f9986bf20cb1086ef5b8fd0480548d0e",
+      "source": "No precise shop recipe, roast specification or named variety is established by these sources. A modern Turkish coffee is a living tradition, not an authenticated replica.",
+      "kind": "json",
+      "context": "text"
+    }
+  ],
+  "snapshotHash": "731d051d472bbc302c4fcc38f4a74ced29fd850186b89682ac7963ee2fb317c9"
+}

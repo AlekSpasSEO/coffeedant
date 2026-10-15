@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/grinder/",
+      "sourceHash": "cf6f60d069eb67369f1f962f521563216781fa19c472039ecd9ccc19a0d1faf4"
+    },
+    {
+      "sourcePath": "/fellow/",
+      "sourceHash": "e301da6004b94b1197d05e2d0f40959d86d306d5f7d85f5e0a7ceb113478b27a"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "c6194f5456da57cd1758df8b7bf147d1bb0c4091ef854ac5b5a7a5802fe43af7",
+      "source": "Stepless 48 mm conical-burr single-dose grinder for espresso through cold brew",
+      "kind": "text",
+      "context": "Stepless 48 mm conical-burr single-dose grinder for espresso through cold brew"
+    },
+    {
+      "id": "0f88843d1121c346ff8c2c99ef360444deb715229f00aa80d53bfc4d59f7115f",
+      "source": "Opus 2",
+      "kind": "text",
+      "context": "Opus 2"
+    }
+  ],
+  "snapshotHash": "44c368d67c4a0018d8ecfe855cee6d9b498dfa3b96e3dd9a04a001833de547cc"
+}

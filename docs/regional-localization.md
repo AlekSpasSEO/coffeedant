@@ -595,6 +595,69 @@ expanded analytics validation and six complete scoped checks pass again on that
 combined source. Counts reflect the refreshed offer snapshot; removed offer-only
 source strings are not counted as newly translated prose.
 
+### Complete Istanbul reader and current-source maintenance (2026-10-15)
+
+Batch fourteen directly translates the full `/journal/istanbul-coffeehouses/`
+reader into NL/DE/FR: 1,970 readable source words, all six chapters, the trade
+network diagram and period controls, comparison table, sources, image/video
+captions and creator metadata, and both visible/structured FAQ answers. The
+immutable snapshot contains 138 slots / 126 distinct source strings. Eight
+verbatim approvals are proper names, a conventional calendar abbreviation, the
+Latin species name and the named drink; no article body is exempted or abridged.
+
+Stable routes are `/journal/koffiehuizen-istanbul/`,
+`/journal/kaffeehaeuser-istanbul/` and `/journal/cafes-istanbul/`. All earlier
+routes, especially the approved Dutch `/journal/espresso-doseren/`, are unchanged.
+This completes all ten editorial Journal readers in all three languages, not
+the remaining practical guides, product reviews or entire editions.
+
+The translation retains competing opening dates, the distinction between the
+first documented Istanbul establishments and an empire-wide first, and the
+difference between opening under a sultan and being founded by him. Later
+Mocha trade, intensive Yemeni cultivation, modern Turkish preparation and later
+paintings are not presented as exact evidence of a 1554 recipe or shipment.
+Uncertain seeds, roast and proportions remain uncertain; no local reporting,
+authenticated reconstruction or Coffeedant tasting is invented.
+
+Concurrent US publishing is preserved through normal fast-forward merges. A
+separate 47-slot snapshot translates the new shared consent dialog, all changed
+privacy-policy text, and five decaf cards plus their image descriptions and
+buying-guide teaser. Exact HTML and destinations are retained in inline policy
+units. Country uncertainty, opt-out precedence, the 180-day choice period,
+per-hostname scope and separate Cloudflare measurement are preserved; this is
+a translation of the source policy, not a legal-compliance certification. Card
+translation does not complete the five new reviews or their buying guide.
+
+A two-slot snapshot adds the new Opus 2 shared model label and grinder-hub
+description without asserting a regional variant. A five-slot snapshot restores
+the complete Big Trouble review after its new source recipe guidance, preserving
+the 25–35 second diagnostic window, taste/basket qualifications and distinction
+from the 1:17 filter ratio. Passing previous cache wording is unchanged.
+
+An inline-link validator bug treated the first English word after a closing
+attribute quote as part of a URL. URL recognition now stops at HTML boundaries;
+exact literal tags/hrefs, numeric facts, identifiers and placeholders remain
+protected, with positive/negative regression tests. No translation guard is
+bypassed to preserve an English policy label.
+
+All 66 localization tests, four analytics-policy tests and current GA4 validation
+pass. Nine complete generated HTML/JSON checks compare the Istanbul reader,
+current policy/consent dialog and updated Big Trouble review in all three
+editions. These verify all eight FAQ answers per language across the two
+readers, diagram/period controls, exact executable scripts, runtime labels,
+source/media destinations, canonical/language/noindex, safe internal links,
+matching scoped sitemaps and all 146 distinct Finder descriptions with no
+unverified local prices or Amazon links. They are generated-output/runtime
+integration checks, not a new browser session or product experiment.
+
+The current source has 231 canonical pages / 46,469 unique slots. Ready regular
+content pages are NL 45, DE 44 and FR 44, excluding the 404; pending slots are
+41,504 / 41,610 / 41,610. Scoped noindex builds contain 46/45/45 pages including
+the 404. The new US pages remain honestly queued. Full editions remain incomplete
+and unpublished; no DNS cutover, paid API call, billing change or subagent is
+used. Continue the remaining complete guides/reviews and Deals safeguards before
+full-edition deployment. The ongoing continuation remains active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
