@@ -1,0 +1,49 @@
+name: Switch seasonal deal coverage
+
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: amazon-commerce-refresh
+  cancel-in-progress: false
+
+jobs:
+  switch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - name: Resolve campaign independently of Amazon credentials or availability
+        run: npm run update:deal-season
+      - name: Check whether a transition needs publication
+        id: transition
+        run: |
+          if git diff --quiet -- src/data/deal-season.json; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+          else
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+      - if: steps.transition.outputs.changed == 'true'
+        run: npm ci && npm run test:deals
+      - if: steps.transition.outputs.changed == 'true'
+        run: CF_PAGES=1 npm run build && npm run validate:seo
+      - name: Publish the transition, including return to the standard design
+        if: steps.transition.outputs.changed == 'true'
+        run: |
+          git add src/data/deal-season.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: switch seasonal deal coverage"
+          git pull --rebase origin main
+          git push origin HEAD:main

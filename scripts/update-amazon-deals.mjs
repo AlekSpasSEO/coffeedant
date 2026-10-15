@@ -1,10 +1,12 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { categories, normalizeDeal } from './lib/amazon-deals.mjs';
+import { getDealSeason, seasonalQueries } from '../src/lib/deal-season.mjs';
 
 const root = new URL('../', import.meta.url);
 const dataPath = new URL('src/data/amazon-deals.json', root);
 const selectionPath = new URL('src/data/amazon-deal-selection.json', root);
 const refresh = process.argv.includes('--refresh');
+const season = getDealSeason();
 const argument = key => { const at = process.argv.indexOf(key); return at < 0 ? null : process.argv[at + 1]; };
 const parseCsv = line => {
   const cells = []; let cell = '', quoted = false;
@@ -64,7 +66,7 @@ if (refresh) {
 } else {
   const searches = [];
   for (const category of categories) {
-    for (const keywords of category.queries) {
+    for (const keywords of [...new Set([...category.queries, ...seasonalQueries(category.id, season)])]) {
       // Search discounted products, then a separate unfiltered page for deals
       // whose API response has DealDetails but no comparison-price savings.
       for (const discounted of [true, false]) {
@@ -83,7 +85,7 @@ if (refresh) {
     console.log(`Searched ${category.label}: ${[...found.values()].filter(product => product.category === category.id).length} verified deals.`);
   }
   const selectedAt = new Date().toISOString();
-  selection = { schemaVersion: 1, selectedAt, marketplace, products: [...found.values()].map(({ asin, category }) => ({ asin, category })), searches };
+  selection = { schemaVersion: 1, selectedAt, marketplace, campaign: season.campaign?.id ?? null, phase: season.phase, products: [...found.values()].map(({ asin, category }) => ({ asin, category })), searches };
 }
 const products = [...found.values()].sort((a, b) => (b.savingsPercent ?? 0) - (a.savingsPercent ?? 0) || a.asin.localeCompare(b.asin));
 const output = { schemaVersion: 1, source: 'Amazon Creators API', marketplace, selectedAt: selection.selectedAt, refreshedAt: new Date().toISOString(), categories: categories.map(({ id, label }) => ({ id, label })), products };

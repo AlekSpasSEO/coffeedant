@@ -6,7 +6,8 @@
   "scripts": {
     "update:amazon-deals": "node scripts/update-amazon-deals.mjs",
     "refresh:amazon-deals": "node scripts/update-amazon-deals.mjs --refresh",
-    "test:deals": "node --test scripts/tests/amazon-deals.test.mjs",
+    "test:deals": "node --test scripts/tests/amazon-deals.test.mjs scripts/tests/deal-season.test.mjs",
+    "update:deal-season": "node scripts/update-deal-season.mjs",
     "test:review-originality": "node --test scripts/tests/review-originality.test.mjs",
     "validate:review-originality": "node scripts/validate-review-originality.mjs",
     "dev": "astro dev",
