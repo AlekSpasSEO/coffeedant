@@ -706,6 +706,48 @@ published flag, billing, paid translation API or subagent changes are made.
 Continue the remaining complete articles and regional Deals safeguards before
 full-edition deployment; the continuation remains active.
 
+### Remaining decaf product reviews complete (2026-10-16)
+
+Batch sixteen directly translates the complete Counter Culture Slow Motion
+Decaf, Stumptown Trapper Creek Decaf and Equator Decaf Equator Blend reviews
+into NL/DE/FR. Their source bodies contain 1,154, 1,133 and 1,155 words, including
+all sections, evidence/methodology, source notes, alternatives, final verdicts
+and eighteen visible/structured FAQ answers per language. The immutable snapshot
+contains 164 missing slots / 131 distinct source strings. Eight verbatim
+approvals are exact coffee/roaster names and the named Swiss Water Process;
+no body paragraph is exempted or abridged. Previously passing wording is reused
+and unchanged. All five new decaf product reviews are now complete in each
+edition; their separate buying guide is still queued.
+
+Identifiers stay unchanged under `/koffiebonen/`, `/kaffeebohnen/` and
+`/cafe-en-grains/`, with no earlier route changes. The approved Dutch dosing URL
+is preserved. Slow Motion's historical 50/50 component mixes are not assigned
+to a future bag; Equator's current traceability claims are not permanent lot
+guarantees. Swiss Water and Mountain Water remain distinct named processes.
+The separate espresso/filter instructions retain basket/grinder constraints
+and the exact source ratios, doses and qualifications. External sample reports
+and owner anecdotes are not representative ratings, independent confirmation
+where none exists, or Coffeedant tasting. The FDA range remains general US
+context, not a product-specific caffeine assay. Historical US prices, pack
+arithmetic and source-check dates are retained, not converted into local offers.
+
+All 72 localization tests and current analytics validation pass. Nine complete
+generated HTML/JSON checks compare all three full reviews in every edition,
+all eighteen FAQ answers per language, identifiers, structured credits/roles/
+categories, media and source destinations, original publication dates, explicit
+US price boundaries, exact executable scripts, runtime locale, canonical/noindex
+and scoped sitemaps. Ready-page builds contain 51/50/50 pages including the 404.
+All 147 Finder descriptions remain distinct and translated, with unverified
+regional prices and Amazon links suppressed. These are generated-output/runtime
+integration checks, not a new browser session or physical tasting experiment.
+
+The source remains 232 canonical pages / 46,736 unique slots. Ready regular
+content pages are NL 50, DE 49 and FR 49, excluding the 404; remaining slots are
+41,442 / 41,548 / 41,548. Full editions remain incomplete and unpublished.
+No public hostname, published flag, paid API, billing or subagent changes are
+made. Continue full remaining guides/reviews, the decaf buying guide and regional
+Deals safeguards before production cutover; the continuation remains active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

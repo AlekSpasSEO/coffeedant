@@ -4,7 +4,7 @@ import path from 'node:path';
 import {root,readJson,digest,policyHash,loadCache,validateTranslation,getEdition} from '../core.mjs';
 import {regionalFinder} from '../build.mjs';
 
-for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-15',3]])test(`${name} fully covers its immutable source in NL DE FR`,async()=>{
+for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-15',3],['bean-reviews-batch-16',164]])test(`${name} fully covers its immutable source in NL DE FR`,async()=>{
  const source=await readJson(path.join(root,`localization/authored/${name}.source.json`));
  const authored=await readJson(path.join(root,`localization/authored/${name}.json`));
  assert.equal(source.segments.length,count);
@@ -22,6 +22,32 @@ for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-
    assert.equal(entry.provider,'codex-direct');
    assert.equal(validateTranslation(segment.source,entry.text),entry.text);
   }
+ }
+});
+
+test('Slow Motion, Equator and Trapper Creek keep changing-lot boundaries, distinct brew recipes and no invented tasting evidence',async()=>{
+ const source=await readJson(path.join(root,'localization/authored/bean-reviews-batch-16.source.json'));
+ for(const edition of ['nl','de','fr']){
+  const cache=await loadCache(edition),text=i=>cache.segments[source.segments[i].id].text;
+  for(const i of [61,63,64,112,114,115,160,162,163]){
+   assert.equal(source.segments[i].kind,'json');assert.notEqual(text(i),source.segments[i].source);
+  }
+  assert(text(26).includes('50/50'));
+  assert(/Schrijf.*niet toe|Übertragen Sie.*nicht|N’attribuez pas/.test(text(26)));
+  for(const n of ['18','1:2'])assert(text(30).includes(n));
+  for(const n of ['1:15','1:16'])assert(text(82).includes(n));
+  for(const n of ['1:17','19.5'])assert(text(131).includes(n));
+  assert(/niet automatisch|nicht automatisch|pas automatiquement/.test(text(32)));
+  assert(/geen blijvende garantie|keine dauerhafte Garantie|pas une garantie permanente/.test(text(78)));
+  assert(/geen onafhankelijke smaakbevestiging|keine unabhängige sensorische Bestätigung|pas une confirmation sensorielle indépendante/.test(text(80)));
+  assert(/niet onafhankelijk bevestigen|nicht unabhängig bestätigen|ne peut pas vérifier indépendamment/.test(text(90)));
+  assert(/anekdotisch|anekdotisch|anecdotique/.test(text(138)));
+  for(const i of [38,89,137])assert(/niet gekocht|nicht gekauft|n’a ni acheté/.test(text(i)));
+  for(const i of [35,87,134]){
+   assert(text(i).includes('2–15'));assert(/geen analyse|keine Analyse|n’est pas une analyse/.test(text(i)));
+  }
+  for(const n of ['$20','$1.06'])assert(text(33).includes(n));
+  for(const n of ['$19.50','$1.03'])assert(text(85).includes(n));
  }
 });
 
