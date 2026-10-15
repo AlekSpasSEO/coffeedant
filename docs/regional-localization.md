@@ -658,6 +658,54 @@ and unpublished; no DNS cutover, paid API call, billing change or subagent is
 used. Continue the remaining complete guides/reviews and Deals safeguards before
 full-edition deployment. The ongoing continuation remains active.
 
+### Complete Intelligentsia decaf reviews and 147-product Finder (2026-10-15)
+
+Batch fifteen directly translates the complete Intelligentsia Decaf Black Cat
+Espresso and Organic Decaf House Blend reviews in NL/DE/FR. Their source bodies
+contain 1,149 and 1,157 words, including all sections, evidence/methodology,
+alternatives, source notes, final verdicts and twelve visible/structured FAQ
+answers per language. The frozen batch contains 157 missing slots / 129 unique
+source strings, also covering the updated twelve-review Breville index and
+new shared model labels. Seven explicit verbatim approvals are exact coffee,
+roaster and model names; no body paragraph is exempted or abridged.
+
+The two coffee identifiers stay unchanged beneath `/koffiebonen/`,
+`/kaffeebohnen/` and `/cafe-en-grains/`. Earlier routes, including the approved
+Dutch dosing URL, remain stable. Black Cat's suggested 18 g to 45 g espresso
+target stays separate from House's 1:18 filter starting ratio and illustrative
+20 g / 360 g calculation. Neither is a Coffeedant extraction result. Classic's
+origin details are not transferred to Decaf Black Cat; House's current Honduras
+record is not guaranteed for future lots. Older external samples remain older,
+attributed evidence rather than a current sensory score. The FDA range is
+expressly general US context, not a caffeine assay of either coffee. Dated US
+prices and pack calculations are not converted or represented as local offers.
+
+The concurrent source adds a 147th Finder product: the actual US Breville
+Oracle Dual Boiler BES995. A separate immutable three-field snapshot translates
+its entire distinct description, best-for label and image alternative, retaining
+the US scope, 5.7-inch display, 45 settings, model identity and source facts.
+The frozen identity record preserves its source price and US search destination
+for auditing, not regional offer approval. All 147 current descriptions are
+distinct and complete in each edition; unknown regional prices and Amazon
+links remain suppressed. Existing passing cache wording is unchanged.
+
+Seventy localization tests and current analytics validation pass. Six complete
+generated HTML/JSON checks compare both entire reviews in all three editions,
+all twelve FAQ answers per language, exact product IDs, media/attribution and
+source destinations, publication dates, genre/author/category metadata, US
+price boundaries, exact executable scripts and runtime locale, canonicals,
+noindex and matching scoped sitemaps. Full ready-page scoped builds pass with
+48/47/47 pages including the 404. These are generated-output/runtime integration
+checks, not a new browser session or Coffeedant product/tasting experiment.
+
+The current source has 232 canonical pages / 46,736 unique slots. Ready regular
+content pages are NL 47, DE 46 and FR 46, excluding the 404. Remaining slots are
+41,606 / 41,712 / 41,712; all editions remain incomplete and unpublished. New US
+review and seasonal-Deals changes are preserved and honestly queued. No DNS,
+published flag, billing, paid translation API or subagent changes are made.
+Continue the remaining complete articles and regional Deals safeguards before
+full-edition deployment; the continuation remains active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
