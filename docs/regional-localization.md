@@ -541,6 +541,54 @@ Git merge. The full source build, all 57 localization tests, analytics validatio
 and the six scoped checks pass again on the combined source; saved coverage
 reflects that latest source rather than the earlier offer snapshot.
 
+### Complete coffeehouse and colonial-history readers (2026-10-15)
+
+Batch thirteen directly translates the complete `/journal/coffee-colonial-world/`
+and `/journal/coffeehouse-public-life/` readers into NL/DE/FR. The full source
+readers contain 2,084 and 1,918 words, including all six chapters per article,
+diagrams, comparison tables, photo/video captions and credits, evidence notes,
+takeaways and all four original visible/structured FAQ answers per language.
+Each source article has two FAQs; no extra question is invented for a test.
+
+The immutable snapshot contains 258 missing slots / 234 distinct source strings.
+Eighteen explicit verbatim approvals cover exact variety/place names, named
+publications and organizations, a creator/book credit and a formal license label.
+Anonymous-creator labels, restoration/resize prose and historical-image caveats
+are translated. No article body is exempted or abridged. Existing passing wording
+is retained, and a source-kind reuse scan finds no additional missing matches.
+
+Stable new routes are `/journal/koffie-koloniale-wereld/` and
+`/journal/koffiehuis-openbaar-leven/` (NL), `/journal/kaffee-koloniale-welt/` and
+`/journal/kaffeehaus-oeffentliches-leben/` (DE), and
+`/journal/cafe-monde-colonial/` and `/journal/cafes-vie-publique/` (FR).
+All earlier routes, including the approved Dutch dosing URL, stay unchanged.
+
+The colonial article keeps botanical transfer separate from commercial expansion,
+dates the Java/Priangan household figures to their source context, distinguishes
+forced cultivation from Caribbean slavery and identifies a planter's manual as
+a situated primary source. The 1906–07 photograph does not establish individuals'
+legal status. The coffeehouse article preserves Rosée's uncertain background,
+the limits of egalitarian/public-sphere claims, the attempted rather than universal
+1675 suppression, and the precisely scoped 1771 founders inquiry. The 1922 map
+remains a retrospective reconstruction of pre-1748 locations, not a contemporary
+survey. Video legend, source attributions and original reference destinations
+remain intact; no local reporting or hands-on research is invented.
+
+Fifty-nine localization tests and current analytics validation pass. Six actual
+scoped HTML/JSON checks compare entire readable articles, all four FAQ answers
+per edition, chapter destinations, diagrams/tables, video names/descriptions and
+creator URLs, full publication labels, executable scripts, locale/canonical/
+noindex, safely rewritten links and matching scoped sitemaps. These are
+generated-output/runtime-integration checks, not a new browser session.
+
+The source contains 224 canonical pages / 45,674 unique slots. Ready regular
+content pages are NL 44, DE 43 and FR 43, excluding the 404; remaining slots are
+40,894 / 41,000 / 41,000. Scoped noindex builds contain 45/44/44 pages including
+the 404. All 146 distinct Finder descriptions remain translated with zero gaps;
+unknown local prices and Amazon links remain hidden. Full editions remain
+incomplete and unpublished, with no DNS cutover, paid translation API, billing
+change or subagent used.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
