@@ -49,13 +49,19 @@ const run = ({ hostname = 'coffeedant.com', choice, savedAt = Date.now(), gpc = 
   const deletedCookies = [];
   const timers = new Map();
   const windowEvents = new Map();
+  const focusCalls = [];
   const buttons = ['granted', 'denied'].map((value) => ({
     value, handlers: {}, disabled: false,
     getAttribute: () => value,
     addEventListener(name, handler) { this.handlers[name] = handler; },
-    focus() {},
+    focus(options) { focusCalls.push({ target: value, preventScroll: options?.preventScroll === true }); },
   }));
-  const preferences = { hidden: true, handlers: {}, addEventListener(name, handler) { this.handlers[name] = handler; }, focus() {} };
+  const preferenceButtons = [0, 1].map((index) => ({
+    hidden: true, handlers: {},
+    addEventListener(name, handler) { this.handlers[name] = handler; },
+    focus(options) { focusCalls.push({ target: `preferences-${index}`, preventScroll: options?.preventScroll === true }); },
+  }));
+  const preferences = preferenceButtons[0];
   const note = { hidden: true };
   const banner = {
     hidden: true,
@@ -68,7 +74,7 @@ const run = ({ hostname = 'coffeedant.com', choice, savedAt = Date.now(), gpc = 
     head: { appendChild: (tag) => appended.push(tag) },
     createElement: () => ({ remove() { this.removed = true; } }),
     querySelector: (selector) => selector.includes('preferences') ? preferences : banner,
-    querySelectorAll: () => [preferences],
+    querySelectorAll: () => preferenceButtons,
     addEventListener: (_, handler) => events.push(handler),
     get cookie() { return '_ga=old; _ga_270R14ZHVX=old; essential=keep'; },
     set cookie(value) { deletedCookies.push(value); },
@@ -86,12 +92,27 @@ const run = ({ hostname = 'coffeedant.com', choice, savedAt = Date.now(), gpc = 
   vm.runInContext(bootstrap, context);
   events.forEach((handler) => handler());
   return {
-    window, banner, buttons, preferences, note, storage, appended, deletedCookies, timers,
+    window, banner, buttons, preferences, preferenceButtons, focusCalls, note, storage, appended, deletedCookies, timers,
     repeatBootstrap: () => vm.runInContext(bootstrap, context),
     storageEvent: (value) => windowEvents.get('storage')({ key: storageKey, newValue: value === null ? null : JSON.stringify({ value, savedAt }) }),
     flushTimers: () => { const pending = [...timers.values()]; timers.clear(); pending.forEach((handler) => handler()); },
   };
 };
+for (const buttonIndex of [0, 1]) {
+  const initial = run();
+  initial.buttons[buttonIndex].handlers.click();
+  assert.equal(initial.banner.hidden, true, 'The initial consent choice closes the banner');
+  assert.equal(initial.focusCalls.length, 0, 'The initial consent choice must not move focus to the footer');
+  const reopened = run({ choice: 'denied' });
+  reopened.preferenceButtons[1].handlers.click();
+  assert.deepEqual(reopened.focusCalls, [{ target: 'granted', preventScroll: true }], 'Opening preferences focuses a banner control without scrolling');
+  reopened.buttons[buttonIndex].handlers.click();
+  assert.deepEqual(reopened.focusCalls.at(-1), { target: 'preferences-1', preventScroll: true }, 'Closing preferences restores the exact opener without scrolling');
+  reopened.storageEvent(null);
+  const focusCount = reopened.focusCalls.length;
+  reopened.buttons[buttonIndex].handlers.click();
+  assert.equal(reopened.focusCalls.length, focusCount, 'A later automatic prompt must not reuse a previous preferences opener');
+}
 let result = run();
 assert.equal(result.appended.length, 0, 'No Google requests before opt-in');
 assert.equal(result.banner.hidden, false);
