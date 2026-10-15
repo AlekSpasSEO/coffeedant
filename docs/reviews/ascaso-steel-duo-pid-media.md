@@ -1,10 +1,10 @@
 # Ascaso Steel Duo PID review: fast control, with an electrical catch media ledger
 
-Generated from the rendered review updated 2026-09-17. This is the publication audit record for the inline editorial media. The implementation remains the canonical machine-readable record.
+Generated from the rendered review updated 2026-10-15. This is the publication audit record for the inline editorial media. The implementation remains the canonical machine-readable record.
 
 ## Density and source mix
 
-- Editorial word count, excluding captions and embeds: 5282
+- Editorial word count, excluding captions and embeds: 5552
 - Publication image cap: 3 total images
 - Images published: 3 (2 inline images plus one product hero)
 - User-generated or community inline images: 0 of 2
