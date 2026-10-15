@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/breville-oracle-dual-boiler-bes995/': officialProductMedia(
+    'Breville US BES995 product gallery',
+    'https://www.breville.com/en-us/product/BES995',
+    [
+      {
+        src: 'https://assets.breville.com/cdn-cgi/image/width=1200,format=png/BES995/BES995_CAROUSEL1_ANZ.png',
+        alt: 'Breville official BES995 gallery angle showing the stainless body and integrated grinder',
+        caption: 'Official gallery angle identifies the BES995 body and grinder placement; it is not a Coffeedant extraction or counter-fit test.',
+        width: 1200,
+        height: 1200,
+      },
+      {
+        src: 'https://assets.breville.com/cdn-cgi/image/width=1200,format=png/BES995/BES995_CAROUSEL4_ANZ.png',
+        alt: 'Breville official BES995 dimension diagram showing 14.7-inch width, 15.2-inch depth and 17.9-inch height labels',
+        caption: 'This gallery diagram on Breville US conflicts with that page’s text label for dimension axes. Confirm the delivered US body and cabinet clearance before ordering.',
+        width: 1200,
+        height: 1200,
+      },
+    ],
+  ),
   '/grinder/fellow-opus-2/': officialProductMedia(
     'Fellow US Opus 2 black product gallery',
     'https://fellowproducts.com/collections/grinder/products/opus-2-conical-burr-grinder',
