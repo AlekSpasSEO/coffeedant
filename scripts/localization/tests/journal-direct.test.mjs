@@ -4,7 +4,7 @@ import path from 'node:path';
 import {root,readJson,loadCache,policyHash,digest,validateTranslation,getEdition,segmentId} from '../core.mjs';
 import {regionalFinder} from '../build.mjs';
 
-for(const [name,count] of [['source-refresh-batch-9',44],['journal-pages-batch-9',303],['journal-pages-batch-10',255],['journal-pages-batch-11',259],['journal-pages-batch-12',238],['journal-library-alignment-batch-12',3]])test(`${name} has full frozen-slot coverage and exact facts in NL DE FR`,async()=>{
+for(const [name,count] of [['source-refresh-batch-9',44],['journal-pages-batch-9',303],['journal-pages-batch-10',255],['journal-pages-batch-11',259],['journal-pages-batch-12',238],['journal-library-alignment-batch-12',3],['journal-pages-batch-13',258]])test(`${name} has full frozen-slot coverage and exact facts in NL DE FR`,async()=>{
  const source=await readJson(path.join(root,`localization/authored/${name}.source.json`));
  const authored=await readJson(path.join(root,`localization/authored/${name}.json`));
  assert.equal(source.segments.length,count);
@@ -24,6 +24,31 @@ for(const [name,count] of [['source-refresh-batch-9',44],['journal-pages-batch-9
    assert.equal(entry.provider,'codex-direct');
    assert.equal(validateTranslation(segment.source,entry.text),entry.text);
   }
+ }
+});
+
+test('colonial and coffeehouse history retain dated statistics, distinct legal regimes and limits of historical pictures',async()=>{
+ const source=await readJson(path.join(root,'localization/authored/journal-pages-batch-13.source.json'));
+ const answers=[129,131,255,257].map(index=>source.segments[index]);
+ assert(answers.every(segment=>segment.kind==='json'));
+ for(const edition of ['nl','de','fr']){
+  const cache=await loadCache(edition),text=index=>cache.segments[source.segments[index].id].text;
+  for(const segment of answers){
+   assert.notEqual(cache.segments[segment.id].text,segment.source);
+   assert.equal(validateTranslation(segment.source,cache.segments[segment.id].text),cache.segments[segment.id].text);
+  }
+  for(const number of ['1840','30','65','80'])assert(text(55).includes(number));
+  assert(/niet alle koffiearbeid overal|nicht sämtliche Kaffeearbeit überall|pas tout le travail du café partout/.test(text(55)));
+  assert(/zonder de positie van alle arbeiders gelijk|ohne den Status aller Arbeitskräfte gleich|sans assimiler le statut de tous les travailleurs/.test(text(91)));
+  assert(text(82).includes('1906–07'));
+  assert(/stelt niet de juridische positie|belegt nicht den Rechtsstatus|n’établit pas le statut juridique/.test(text(82)));
+  assert(text(211).includes('1922')&&text(211).includes('1748'));
+  assert(/retrospectieve kaart|rückblickende Karte|carte rétrospective/.test(text(211)));
+  assert(text(207).includes('1675'));
+  assert(/onderdrukkingspoging|Unterdrückungsversuch|tentative de suppression/.test(text(207)));
+  assert(text(214).includes('1771'));
+  assert(/geen beschuldiging|keine Behauptung|pas l’accusation/.test(text(214)));
+  assert(/als legende|als Legende|comme une légende/.test(text(49)));
  }
 });
 
