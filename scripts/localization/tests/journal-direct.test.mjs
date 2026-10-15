@@ -4,7 +4,7 @@ import path from 'node:path';
 import {root,readJson,loadCache,policyHash,digest,validateTranslation,getEdition,segmentId} from '../core.mjs';
 import {regionalFinder} from '../build.mjs';
 
-for(const [name,count] of [['source-refresh-batch-9',44],['journal-pages-batch-9',303],['journal-pages-batch-10',255],['journal-pages-batch-11',259],['journal-pages-batch-12',238],['journal-library-alignment-batch-12',3],['journal-pages-batch-13',258]])test(`${name} has full frozen-slot coverage and exact facts in NL DE FR`,async()=>{
+for(const [name,count] of [['source-refresh-batch-9',44],['source-refresh-batch-14',47],['grinder-refresh-batch-14',2],['bean-refresh-batch-14',5],['journal-pages-batch-9',303],['journal-pages-batch-10',255],['journal-pages-batch-11',259],['journal-pages-batch-12',238],['journal-library-alignment-batch-12',3],['journal-pages-batch-13',258],['journal-pages-batch-14',138]])test(`${name} has full frozen-slot coverage and exact facts in NL DE FR`,async()=>{
  const source=await readJson(path.join(root,`localization/authored/${name}.source.json`));
  const authored=await readJson(path.join(root,`localization/authored/${name}.json`));
  assert.equal(source.segments.length,count);
@@ -24,6 +24,40 @@ for(const [name,count] of [['source-refresh-batch-9',44],['journal-pages-batch-9
    assert.equal(entry.provider,'codex-direct');
    assert.equal(validateTranslation(segment.source,entry.text),entry.text);
   }
+ }
+});
+
+test('current consent policy preserves opt-out precedence, location uncertainty, host scope and separate Cloudflare measurement',async()=>{
+ const source=await readJson(path.join(root,'localization/authored/source-refresh-batch-14.source.json'));
+ for(const edition of ['nl','de','fr']){
+  const cache=await loadCache(edition),text=index=>cache.segments[source.segments[index].id].text;
+  for(const index of [36,39,40,41,42,45,46])assert.equal(source.segments[index].kind,'inline-html');
+  assert(/locatie onbekend|unbekanntem Standort|localisation est inconnue/.test(text(36)));
+  assert(/leiden de locatie niet af|leiten den Standort nicht|ne déduisons pas la localisation/.test(text(39)));
+  assert(text(40).includes('180'));
+  assert(/niet als aanvaarding|nicht als Zustimmung|pas enregistrée comme une acceptation/.test(text(40)));
+  assert(/voorrang|Vorrang|priment/.test(text(41)));
+  assert(/regelt deze afzonderlijke meting niet|steuert diese getrennte Messung nicht|ne contrôle pas cette mesure distincte/.test(text(42)));
+  assert(/niet een kop|keine von Coffeedant verkostete|pas une tasse dégustée/.test(text(21)));
+ }
+});
+
+test('Istanbul keeps competing opening dates, distinct trade periods and limits of historical reconstruction',async()=>{
+ const source=await readJson(path.join(root,'localization/authored/journal-pages-batch-14.source.json'));
+ for(const edition of ['nl','de','fr']){
+  const cache=await loadCache(edition),text=index=>cache.segments[source.segments[index].id].text;
+  for(const index of [135,137]){
+   assert.equal(source.segments[index].kind,'json');
+   assert.notEqual(text(index),source.segments[index].source);
+   assert.equal(validateTranslation(source.segments[index].source,text(index)),text(index));
+  }
+  for(const number of ['962','960','1554–55','1552–53'])assert(text(20).includes(number));
+  assert(/geen foto|kein Foto|pas une photographie/.test(text(20)));
+  assert(/bewijst niet dat de sultan|belegt nicht, dass der Sultan|n’établit pas que le sultan/.test(text(22)));
+  assert(/bewijst niet dat elke eerdere kop|beweist nicht, dass jede frühere Tasse|ne prouve pas que chaque tasse antérieure/.test(text(60)));
+  assert(text(65).includes('1870'));
+  assert(/anachronistische|anachronistische|anachronique/.test(text(65)));
+  assert(/geen geauthenticeerde replica|keine authentifizierte Nachbildung|pas une réplique authentifiée/.test(text(137)));
  }
 });
 

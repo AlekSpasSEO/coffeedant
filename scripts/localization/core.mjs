@@ -108,7 +108,9 @@ export const validateTranslation = (source, translated) => {
   const literalTags = (value) => [...value.matchAll(/<\/?[a-z][^>]*>/gi)].map(([tag]) => tag);
   if (JSON.stringify(literalTags(source)) !== JSON.stringify(literalTags(translated))) throw new Error('Translation introduced or changed HTML-like source text');
   if (JSON.stringify(numericFacts(source)) !== JSON.stringify(numericFacts(translated))) throw new Error('Translation changed numeric facts');
-  for (const match of source.matchAll(/\{[a-zA-Z]+\}|https?:\/\/[^\s]+|\b[A-Z]{1,6}\d[A-Z\d./-]*\b/g)) {
+  // HTML attribute boundaries are not URL text. The literal-tag check above
+  // still protects the complete href while allowing its visible label to translate.
+  for (const match of source.matchAll(/\{[a-zA-Z]+\}|https?:\/\/[^\s<>"']+|\b[A-Z]{1,6}\d[A-Z\d./-]*\b/g)) {
     const value = match[0];
     // In "E61-style", the final hyphen belongs to the English adjective,
     // not the model. Preserve E61 itself; never normalize URLs, placeholders

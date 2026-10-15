@@ -10,6 +10,15 @@ import { validatedRoutes, rewriteInternalUrl, verifiedOffer, regionalFinder, bui
 import { createRegionalRouter } from '../router.mjs';
 import { requestTranslations } from '../translate.mjs';
 
+test('inline linked policy labels translate with exact href, tag and numeric guards', () => {
+  const source='We do not track. <a href="https://example.com/privacy/">Read our privacy policy</a>.';
+  const translated='Wij volgen u niet. <a href="https://example.com/privacy/">Lees ons privacybeleid</a>.';
+  assert.equal(validateTranslation(source,translated),translated);
+  assert.throws(()=>validateTranslation(source,translated.replace('example.com','other.example')));
+  assert.throws(()=>validateTranslation(source,translated.replace('</a>','</strong>')));
+  assert.throws(()=>validateTranslation('Keep https://example.com/a?x=1 unchanged.','Behoud https://example.com/a?x=2 ongewijzigd.'));
+});
+
 test('video transcripts are translated structured prose while video URLs, duration and schema identifiers stay fixed', () => {
   const value = { '@type': 'VideoObject', transcript: 'Grind 18 g coffee; extract 36 g espresso.', contentUrl: 'https://coffeedant.com/journal/video.mp4', duration: 'PT16S', uploadDate: '2026-10-13T00:00:00Z' };
   const entries = jsonSlots(value);
