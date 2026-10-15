@@ -82,6 +82,7 @@ import { upgradeTimemoreSculptorReviews } from './reviews/upgrade-timemore-sculp
 import { weekdayBaratzaEspProReviews } from './reviews/weekday-baratza-encore-esp-pro';
 import { weekdayNinjaEs601Reviews } from './reviews/weekday-ninja-luxe-cafe-premier-es601';
 import { weekdayFellowSeries1Reviews } from './reviews/weekday-fellow-espresso-series-1';
+import { weekdayFellowOpus2Reviews } from './reviews/weekday-fellow-opus-2';
 import { upgradeVbmDomobarSingleBoilerDigitalReviews } from './reviews/upgrade-vbm-domobar-single-boiler-digital';
 import { upgradeVbmDomobarSuperHxReviews } from './reviews/upgrade-vbm-domobar-super-hx';
 import {
@@ -203,6 +204,7 @@ const candidates: MachineReviewData[] = [
   ...weekdayBaratzaEspProReviews,
   ...weekdayNinjaEs601Reviews,
   ...weekdayFellowSeries1Reviews,
+  ...weekdayFellowOpus2Reviews,
   ...upgradeVbmDomobarSingleBoilerDigitalReviews,
   ...upgradeVbmDomobarSuperHxReviews,
 ];

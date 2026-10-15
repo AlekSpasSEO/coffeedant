@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/grinder/fellow-opus-2/': officialProductMedia(
+    'Fellow US Opus 2 black product gallery',
+    'https://fellowproducts.com/collections/grinder/products/opus-2-conical-burr-grinder',
+    [
+      {
+        src: 'https://fellowproducts.com/cdn/shop/files/Web_PDP_Opus2_Black_BlackLid_1.png?v=1775151772&width=1200',
+        alt: 'Official Fellow gallery view of the standard black Opus 2 with its black lid',
+        caption: 'The first factory view identifies the standard black finish and compact single-dose shape. It does not measure noise, retention, grind or durability.',
+        width: 1200,
+        height: 1501,
+      },
+      {
+        src: 'https://fellowproducts.com/cdn/shop/files/Web_PDP_Opus2_Black_BlackLid_2.png?v=1775151814&width=1200',
+        alt: 'Second official view of the black Fellow Opus 2 and its side adjustment area',
+        caption: 'The second product-gallery angle illustrates the side control. Use the current manual for operation and verify the delivered finish; this is not a Coffeedant test image.',
+        width: 1200,
+        height: 1501,
+      },
+    ],
+  ),
   '/espresso-machine/fellow-espresso-series-1/': officialProductMedia(
     'Fellow US Espresso Series 1 product gallery',
     'https://fellowproducts.com/products/espresso-series-1',
