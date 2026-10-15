@@ -1,6 +1,6 @@
 // Serialized into Pages advanced-mode _worker.js by bundle.mjs; keep this
 // function self-contained (no Node APIs or external imports at runtime).
-export function createRegionalRouter(hosts, redirects = {}) {
+export function createRegionalRouter(hosts, redirects = {}, analyticsConsentResponse) {
   return {
     async fetch(request, env) {
       const url = new URL(request.url);
@@ -13,6 +13,9 @@ export function createRegionalRouter(hosts, redirects = {}) {
       if (!edition || unsafePath || url.pathname.startsWith('/__editions/')) return new Response('Regional edition is not available.', {
         status: 404, headers: { 'X-Robots-Tag': 'noindex', 'Cache-Control': 'no-store' },
       });
+      if (/^\/api\/analytics-consent\/?$/.test(url.pathname) && analyticsConsentResponse) {
+        return analyticsConsentResponse(request);
+      }
       if (!['GET', 'HEAD'].includes(request.method)) return new Response('Method not allowed', { status: 405, headers: { Allow: 'GET, HEAD' } });
       const target = redirects[edition]?.[url.pathname];
       if (target) {

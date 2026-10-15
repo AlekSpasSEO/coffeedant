@@ -4,6 +4,7 @@ import path from 'node:path';
 import { root, config } from './core.mjs';
 import { buildRegional } from './build.mjs';
 import { createRegionalRouter } from './router.mjs';
+import { analyticsConsentResponse } from '../../src/lib/analytics-consent-policy.mjs';
 
 const targets = config.editions.filter(({ id, published }) => id !== 'us' && published);
 if (!targets.length) throw new Error('No regional editions are approved for public release. Complete translation/QA before enabling deployment.');
@@ -23,7 +24,7 @@ for (const edition of targets) {
   // ASSETS serves explicit paths; the Worker handles public-path redirects.
   await rm(path.join(assetDirectory, '_redirects'), { force: true });
 }
-await writeFile(path.join(temporary, '_worker.js'), `const hosts=${JSON.stringify(hosts)};const redirects=${JSON.stringify(redirects)};export default (${createRegionalRouter.toString()})(hosts,redirects);\n`);
+await writeFile(path.join(temporary, '_worker.js'), `const hosts=${JSON.stringify(hosts)};const redirects=${JSON.stringify(redirects)};const analyticsConsentResponse=${analyticsConsentResponse.toString()};export default (${createRegionalRouter.toString()})(hosts,redirects,analyticsConsentResponse);\n`);
 await writeFile(path.join(temporary, '_routes.json'), JSON.stringify({ version: 1, include: ['/*'], exclude: [] }));
 const destination = path.join(root, 'dist-regional/site');
 await rm(destination, { recursive: true, force: true });

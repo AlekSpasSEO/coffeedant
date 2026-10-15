@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import BrandLanding from '../components/BrandLanding.astro';
 import a from '../data/pages-a.json';
 import b from '../data/pages-b.json';
+import privacyPolicy from '../data/privacy-policy.html?raw';
 import { brands } from '../data/catalog';
 import { modernReviewSlugs, modernReviews } from '../data/review-registry';
 import { upgradedBlogPaths } from '../data/blog-articles';
@@ -41,7 +42,7 @@ export function getStaticPaths(){
 const { page, brand } = Astro.props;
 const migratedLegacyPage = page ? isMigratedLegacyPath(page.path) : false;
 const contactHtml = '<p>For editorial questions, corrections, coffee-equipment suggestions or privacy requests, email Aleksandar Spasevski:</p><p><a href="mailto:ace@growthradical.com">ace@growthradical.com</a></p><p>Please include the page URL when reporting a correction.</p>';
-const supportingHtml = (page?.path === '/contact/' ? contactHtml : page?.html)
+const supportingHtml = (page?.path === '/contact/' ? contactHtml : page?.path === '/privacy-policy/' ? privacyPolicy : page?.html)
   ?.replace(/href="\/coffeedant\//g, `href="${import.meta.env.BASE_URL}`);
 const linkedSupportingHtml = ['/privacy-policy/', '/tos/'].includes(page?.path)
   ? supportingHtml.replace(/<a>ace@growthradical\.com<\/a>/g, '<a href="mailto:ace@growthradical.com">ace@growthradical.com</a>').replace(/href="\/coffeedant\/"/g, `href="${import.meta.env.BASE_URL}"`)

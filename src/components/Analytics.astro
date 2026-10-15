@@ -21,7 +21,15 @@ productionRegions['www.coffeedant.com'] = 'us';
     let tagState = 'idle';
     let attempts = 0;
     let retryTimer;
-    const browserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';
+    let regionalMode = null;
+    let policyPending = false;
+    let policyResolved = false;
+    let serverBrowserOptOut = false;
+    let lookupController;
+    let lookupVersion = 0;
+    let preferencesOpener = null;
+    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';
+    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;
     window.dataLayer = window.dataLayer || [];
     window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
     window.gtag('consent', 'default', {
@@ -39,7 +47,19 @@ productionRegions['www.coffeedant.com'] = 'us';
     };
     try { choice = readChoice(localStorage.getItem(storageKey)); }
     catch { /* Storage may be unavailable; ask again on the next page. */ }
-    if (browserOptOut) choice = 'denied';
+    if (nativeBrowserOptOut) choice = 'denied';
+    const effectiveChoice = () => browserOptOut() || policyPending ? 'denied' : choice ?? (regionalMode === 'opt-out' ? 'granted' : 'denied');
+    const renderControls = () => {
+      const banner = document.querySelector('[data-analytics-consent]');
+      if (!banner) return;
+      const copy = effectiveChoice() === 'granted' ? 'on' : 'off';
+      banner.querySelectorAll('[data-analytics-copy]').forEach((node) => {
+        node.hidden = node.getAttribute('data-analytics-copy') !== copy;
+      });
+      banner.querySelector('[data-analytics-choice="granted"]').disabled = policyPending || browserOptOut();
+      banner.querySelector('[data-analytics-optout]').hidden = !browserOptOut();
+      banner.hidden = !preferencesOpener && (choice !== null || regionalMode === null);
+    };
 
     const removeAnalyticsCookies = () => {
       for (const entry of document.cookie.split(';')) {
@@ -51,7 +71,7 @@ productionRegions['www.coffeedant.com'] = 'us';
       }
     };
     const loadTag = () => {
-      if (choice !== 'granted' || browserOptOut || ['loading', 'ready'].includes(tagState) || attempts >= 2) return;
+      if (effectiveChoice() !== 'granted' || ['loading', 'ready'].includes(tagState) || attempts >= 2) return;
       attempts++;
       tagState = 'loading';
       const tag = document.createElement('script');
@@ -64,17 +84,17 @@ productionRegions['www.coffeedant.com'] = 'us';
         tag.remove();
         // One bounded retry handles a transient failure, using the same queue.
         // A rejection cancels it; browser tracking protections remain effective.
-        if (choice === 'granted' && attempts < 2) retryTimer = setTimeout(loadTag, 1500);
+        if (effectiveChoice() === 'granted' && attempts < 2) retryTimer = setTimeout(loadTag, 1500);
       };
       document.head.appendChild(tag);
     };
-    const applyChoice = (value) => {
-      if (browserOptOut) value = 'denied';
+    const applyChoice = (value, clearCookies = true) => {
+      if (browserOptOut() || policyPending) value = 'denied';
       window[`ga-disable-${measurementId}`] = value !== 'granted';
       window.gtag('consent', 'update', { analytics_storage: value });
       if (value !== 'granted') {
         clearTimeout(retryTimer);
-        removeAnalyticsCookies();
+        if (clearCookies) removeAnalyticsCookies();
         return;
       }
       if (!configured) {
@@ -90,43 +110,95 @@ productionRegions['www.coffeedant.com'] = 'us';
       }
       loadTag();
     };
-    if (choice) applyChoice(choice);
+    const cancelRegionLookup = () => {
+      lookupVersion++;
+      lookupController?.abort();
+      lookupController = null;
+    };
+    const resolveRegionalDefault = async () => {
+      cancelRegionLookup();
+      const version = lookupVersion;
+      regionalMode = null;
+      policyPending = true;
+      policyResolved = false;
+      // Pause collection while checking; preserve existing IDs until the policy is known.
+      applyChoice('denied', false);
+      renderControls();
+      let mode = 'opt-in';
+      let headerOptOut = serverBrowserOptOut;
+      let timer;
+      let controller;
+      try {
+        controller = new AbortController();
+        lookupController = controller;
+        timer = setTimeout(() => controller.abort(), 1200);
+        const response = await fetch('/api/analytics-consent', {
+          cache: 'no-store', credentials: 'omit', signal: controller.signal,
+        });
+        const data = response.ok ? await response.json() : null;
+        if (!controller.signal.aborted) {
+          // A positive browser signal always blocks collection. Automatic enablement
+          // additionally requires the complete current policy contract.
+          if (data?.browserOptOut === true) headerOptOut = true;
+          if (data?.policyVersion === '2026-10-15' && typeof data.browserOptOut === 'boolean'
+            && ['opt-in', 'opt-out'].includes(data.mode)) {
+            headerOptOut = data.browserOptOut;
+            mode = data.mode;
+          }
+        }
+      } catch { /* Unknown location, timeout or unavailable endpoint requires opt-in. */ }
+      finally { clearTimeout(timer); }
+      // A newer lookup wins; the current explicit choice still overrides the regional default.
+      if (version !== lookupVersion) return;
+      lookupController = null;
+      policyPending = false;
+      policyResolved = true;
+      serverBrowserOptOut = headerOptOut;
+      regionalMode = mode;
+      applyChoice(effectiveChoice());
+      renderControls();
+    };
+    if (choice === 'denied' || nativeBrowserOptOut) applyChoice('denied');
+    else resolveRegionalDefault();
     // Apply withdrawal/acceptance immediately to other open tabs on this host.
     window.addEventListener('storage', (event) => {
       if (event.key !== storageKey && event.key !== null) return;
-      choice = browserOptOut ? 'denied' : readChoice(event.key === null ? null : event.newValue);
-      applyChoice(choice || 'denied');
-      const banner = document.querySelector('[data-analytics-consent]');
-      if (banner) banner.hidden = choice !== null;
+      preferencesOpener = null;
+      choice = nativeBrowserOptOut ? 'denied' : readChoice(event.key === null ? null : event.newValue);
+      if (choice === null) {
+        applyChoice('denied');
+        resolveRegionalDefault();
+      } else if (choice === 'granted' && !policyResolved && !policyPending && !browserOptOut()) {
+        resolveRegionalDefault();
+      } else applyChoice(effectiveChoice());
+      renderControls();
     });
 
     const connectControls = () => {
       const banner = document.querySelector('[data-analytics-consent]');
       if (!banner) return;
-      let preferencesOpener = null;
-      banner.hidden = choice !== null;
-      if (browserOptOut) {
-        banner.querySelector('[data-analytics-choice="granted"]').disabled = true;
-        banner.querySelector('[data-analytics-optout]').hidden = false;
-      }
+      renderControls();
       document.querySelectorAll('[data-analytics-preferences]').forEach((button) => {
         button.hidden = false;
         button.addEventListener('click', () => {
           preferencesOpener = button;
-          banner.hidden = false;
+          if (!policyResolved && !policyPending && !browserOptOut()) resolveRegionalDefault();
+          renderControls();
           [...banner.querySelectorAll('[data-analytics-choice]')].find((control) => !control.disabled)?.focus({ preventScroll: true });
         });
       });
       banner.querySelectorAll('[data-analytics-choice]').forEach((button) => {
         button.addEventListener('click', () => {
-          choice = button.getAttribute('data-analytics-choice');
+          const value = button.getAttribute('data-analytics-choice');
+          if (value === 'granted' && (policyPending || browserOptOut())) return;
+          choice = value;
           try { localStorage.setItem(storageKey, JSON.stringify({ value: choice, savedAt: Date.now() })); }
           catch { /* Keep the visitor's choice for this page when storage is blocked. */ }
           applyChoice(choice);
-          banner.hidden = true;
           // Only restore focus when a control opened the banner explicitly.
           preferencesOpener?.focus({ preventScroll: true });
           preferencesOpener = null;
+          renderControls();
         });
       });
     };
