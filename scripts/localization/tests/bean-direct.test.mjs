@@ -4,7 +4,7 @@ import path from 'node:path';
 import {root,readJson,digest,policyHash,loadCache,validateTranslation,getEdition} from '../core.mjs';
 import {regionalFinder} from '../build.mjs';
 
-for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-15',3],['bean-reviews-batch-16',164],['bean-reviews-batch-18',192],['bean-reviews-batch-19',191],['source-refresh-batch-19',37]])test(`${name} fully covers its immutable source in NL DE FR`,async()=>{
+for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-15',3],['bean-reviews-batch-16',164],['bean-reviews-batch-18',192],['bean-reviews-batch-19',191],['source-refresh-batch-19',37],['bean-reviews-batch-20',189]])test(`${name} fully covers its immutable source in NL DE FR`,async()=>{
  const source=await readJson(path.join(root,`localization/authored/${name}.source.json`));
  const authored=await readJson(path.join(root,`localization/authored/${name}.json`));
  assert.equal(source.segments.length,count);
@@ -22,6 +22,30 @@ for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-
    assert.equal(entry.provider,'codex-direct');
    assert.equal(validateTranslation(segment.source,entry.text),entry.text);
   }
+ }
+});
+
+test('French Roast and Major Dickason’s retain exact formats, separate storage promises and non-measured brew guidance',async()=>{
+ const source=await readJson(path.join(root,'localization/authored/bean-reviews-batch-20.source.json'));
+ const authored=await readJson(path.join(root,'localization/authored/bean-reviews-batch-20.json'));
+ assert.equal(source.sourcePages.length,2);
+ assert.deepEqual(authored.preserveSource.map(i=>source.segments[i].source),['Stumptown French Roast',"Peet's Major Dickason's","Peet's Coffee","Peet's Coffee Major Dickason's",'Stumptown Coffee Roasters French Roast']);
+ for(const edition of ['nl','de','fr']){
+  const cache=await loadCache(edition),text=i=>cache.segments[source.segments[i].id].text;
+  for(const i of [88,90,92,94,96,98,178,180,182,184,186,188]){
+   assert.equal(source.segments[i].kind,'json');assert.notEqual(text(i),source.segments[i].source);
+  }
+  for(const n of ['454','18','$0.87','12','340'])assert(text(51).includes(n));
+  for(const n of ['12','340','2,268','20','17','113','80','28'])assert(text(138).includes(n));
+  for(const n of ['$20','12','20','$1.18'])assert(text(139).includes(n));
+  assert(/geen korting|kein Rabatt|Aucune remise/.test(text(69)));
+  assert(/geen universele|keine universelle|pas une compatibilité universelle/.test(text(161)));
+  assert(/geen gemeten|keine gemessenen|pas des résultats.*mesurés/.test(text(134)));
+  assert(/geldt niet voor Peet's|gilt nicht für Peet's|ne s’applique pas à Peet's/.test(text(48)));
+  assert(/geen.*Coffeedant|keine.*Coffeedant|aucune mesure Coffeedant/.test(text(43)));
+  assert(/niet.*geproefd|weder gebrüht|ni préparé/.test(text(128))||/niet gezet/.test(text(128)));
+  const prefix={nl:'/koffiebonen/',de:'/kaffeebohnen/',fr:'/cafe-en-grains/'}[edition];
+  for(const page of source.sourcePages)assert.equal(authored.routes[edition][page.sourcePath],page.sourcePath.replace('/coffee-beans/',prefix));
  }
 });
 
