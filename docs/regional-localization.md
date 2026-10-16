@@ -1141,6 +1141,62 @@ unpublished. No public hostname, release flag, paid API, billing or subagent
 changes are made. Continue the remaining full articles and regional Deals
 safeguards before full cutover; the continuation remains active.
 
+### All twenty coffee product reviews complete; incremental release batch (2026-10-16)
+
+Batch twenty-five directly translates the entire Equator Blend review into
+NL/DE/FR: 1,164 source article words, every section, source note, alternative,
+methodology and recommendation, six visible/structured FAQ answers, metadata,
+disclosures, attribution and accessible labels. The immutable snapshot contains
+61 missing slots / 49 distinct strings. Two verbatim approvals are exact named
+coffees, not body exemptions. Import adds 61 current cache entries per edition
+with no earlier cached text changed; passing hub verdict wording is reused.
+
+Existing routes are preserved: `/koffiebonen/equator-blend/`,
+`/kaffeebohnen/equator-blend/` and the already registered French
+`/cafe-en-grains/melange-equateur/`. The Dutch dosing URL stays unchanged. Current
+Sumatra/Kenya/Colombia/Guatemala details are not merged with an older Brazil
+account. The 1:15 / 24 g / 360 g V60 guidance is not an espresso extraction recipe;
+the espresso-grind selector does not establish dose or yield. Cream-and-sugar
+positioning stays attributed to the roaster, and no Coffeedant tasting, current-lot
+confirmation, universal ranking or local price is invented. US $18.50 and the
+dated pack/dose arithmetic remain source facts.
+
+The newly approved `published: true` / `publicationMode: ready-pages` mode remains
+enabled for NL/DE/FR. At batch start, Cloudflare reported all three Pages domains
+active and a successful production deployment of main `9d3fc3d`; public HTTPS
+manifests served 64/63/63 content pages, excluding their 404s. This batch prepares
+65/64/64 complete content pages for the automatic post-merge deployment. Verify
+that deployment and its live manifests before reporting the new review published;
+these are growing editions, not completed whole-site translations.
+
+The US build now contains a generated language chooser on verified pages. Source
+preprocessing excludes that generated nav before indexing/regional rendering:
+regional builders generate their own chooser from actual release routes and the
+target locale. This avoids false translation gaps and duplicate choosers while
+retaining authored article/navigation text. A regression test covers the boundary.
+The frozen Equator snapshot is unchanged; no source or factual guard is exempted.
+
+All 96 localization tests, analytics validation and the Cloudflare-target Finder
+validator pass. Three complete generated HTML/JSON checks compare the full new
+review, all FAQ answers, metadata, source links, dates, identifiers, credits/roles/
+categories, scripts/runtime, locale/canonical/noindex and scoped sitemaps. All
+twenty current coffee product reviews are now current and build-ready per edition.
+The full `npm run build:regions` production bundle also passes for all three
+editions, with indexable new review pages, one localized language chooser and
+reciprocal NL/DE/FR alternates. The 148 Finder descriptions remain distinct and translated; unverifiable local
+prices and Amazon offers stay hidden. These are generated-output/runtime checks,
+not a new browser session or product tasting.
+
+The source index remains 239 canonical pages / 47,110 unique authored slots;
+five generated chooser labels are not newly translated content. Ready regular
+pages are NL 65, DE 64 and FR 64; scoped builds contain 66/65/65 pages with 404s.
+Pending slots are 40,249 / 40,403 / 40,325. Counts include pre-existing main-branch
+source-change cache updates; this direct batch adds only its 61 entries per
+edition. Continue the remaining complete guides/reviews and regional Deals
+safeguards, publishing each complete page incrementally. Whole-site completion
+remains false, and the continuation stays active. No paid translation API,
+billing, subagent or public DNS changes are made by this batch.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
