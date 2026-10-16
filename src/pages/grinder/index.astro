@@ -5,6 +5,7 @@ const grinders = [
   { name: '1Zpresso K-Ultra', type: 'Manual', format: 'Hand grinder', best: 'Travel and quiet precision', compromise: 'Physical effort for every dose', path: '/grinder/1zpresso-k-ultra/', tags: 'manual espresso broad' },
   { name: 'Baratza Encore ESP', type: 'Electric', format: 'Hopper grinder', best: 'An approachable first espresso grinder', compromise: 'Less suited to frequent bean switching', path: '/grinder/baratza-encore-esp/', tags: 'electric espresso value broad' },
   { name: 'Baratza Encore ESP Pro', type: 'Electric', format: 'Hopper or single dose', best: 'Stepless espresso and filter adjustment', compromise: 'Auto-stop and grounds spray need a workflow check', path: '/grinder/baratza-encore-esp-pro/', tags: 'electric espresso single-dose broad' },
+  { name: 'Fellow Opus 2', type: 'Electric', format: 'Single-dose grinder', best: 'Side-dial adjustment across espresso and filter', compromise: 'New generation; verify shipping and independent long-term evidence', path: '/grinder/fellow-opus-2/', tags: 'electric espresso single-dose broad value' },
   { name: 'Timemore Sculptor', type: 'Electric', format: 'Single-dose grinder', best: 'Low-retention workflow and adjustment', compromise: 'More setup and a higher spend', path: '/grinder/timemore-sculptor/', tags: 'electric espresso single-dose upgrade' },
 ];
 ---
@@ -13,13 +14,13 @@ const grinders = [
     <section class="hub-hero">
       <div class="shell hub-hero-grid">
         <div><p class="eyebrow">Grinder hub</p><h1>The machine gets the credit. The grinder does the work.</h1><p class="hero-copy">Choose by dose workflow, adjustment, retention, and how often you change coffee. Ignore the feature count.</p></div>
-        <div class="hub-stamp"><strong>04</strong><span>grinders reviewed so far</span></div>
+        <div class="hub-stamp"><strong>{String(grinders.length).padStart(2, '0')}</strong><span>grinders reviewed so far</span></div>
       </div>
     </section>
 
     <section class="section section-compact grinder-finder" aria-labelledby="grinder-finder-title">
       <div class="shell">
-        <div class="section-heading"><span class="section-number">01 / Grinder finder</span><h2 id="grinder-finder-title">Narrow the workflow.</h2><p>Four reviews cover distinct daily routines. Filter by power and priority to see where each fits.</p></div>
+        <div class="section-heading"><span class="section-number">01 / Grinder finder</span><h2 id="grinder-finder-title">Narrow the workflow.</h2><p>{grinders.length} reviews cover distinct daily routines. Filter by power and priority to see where each fits.</p></div>
         <form class="catalog-filter-controls grinder-controls">
           <fieldset><legend>Power</legend><label><input type="radio" name="grinder-power" value="all" checked /><span>All</span></label><label><input type="radio" name="grinder-power" value="manual" /><span>Manual</span></label><label><input type="radio" name="grinder-power" value="electric" /><span>Electric</span></label></fieldset>
           <fieldset><legend>Priority</legend><label><input type="radio" name="grinder-focus" value="all" checked /><span>All</span></label><label><input type="radio" name="grinder-focus" value="value" /><span>Value</span></label><label><input type="radio" name="grinder-focus" value="single-dose" /><span>Single dose</span></label><label><input type="radio" name="grinder-focus" value="broad" /><span>Broad use</span></label></fieldset>
@@ -37,7 +38,7 @@ const grinders = [
 
     <section class="section section-compact comparison-section" aria-labelledby="grinder-table-title">
       <div class="shell">
-        <div class="section-heading"><span class="section-number">02 / Comparison</span><h2 id="grinder-table-title">Four different jobs.</h2><p>None is universally best. Each removes a different kind of friction.</p></div>
+        <div class="section-heading"><span class="section-number">02 / Comparison</span><h2 id="grinder-table-title">Compare the daily jobs.</h2><p>None is universally best. Each removes a different kind of friction.</p></div>
         <div class="table-scroll"><table class="comparison-table" aria-label="Coffee grinder review comparison"><thead><tr><th>Grinder</th><th>Format</th><th>Best for</th><th>Main compromise</th><th></th></tr></thead><tbody>
           {grinders.map((grinder) => <tr><th scope="row" data-label="Grinder">{grinder.name}</th><td data-label="Format">{grinder.format}</td><td data-label="Best for">{grinder.best}</td><td data-label="Main compromise">{grinder.compromise}</td><td data-label="Review"><a href={`${base}${grinder.path.replace(/^\//, '')}`}>Review →</a></td></tr>)}
         </tbody></table></div>
