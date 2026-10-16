@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/",
+      "sourceHash": "51d9315652111ac2bc5f929bbd7ea12710188d7842a5117d74f4b0d143b96430"
+    },
+    {
+      "sourcePath": "/de-longhi/",
+      "sourceHash": "ebe44ec97b24b874a7a24926166c1ff9ca1c4cd903001dc2a2e11e5dade23d2d"
+    },
+    {
+      "sourcePath": "/coffee-beans/",
+      "sourceHash": "731c2d0e70439df9288f99d5f61c822b1249f6f6a97564448fd50ff4640b8f98"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "cce29410f49ee0b5c366ccb07c2535c4d68edef96f9bee58e2b290785d1dd22c",
+      "source": "The US Onyx Black EXAM44055B is a one-touch Rivelia with two removable 8.8 oz hoppers, a 13-setting built-in burr grinder, Bean Adapt guidance, a 3.5-inch touchscreen, four user profiles and included LatteCrema Hot.",
+      "kind": "finder",
+      "context": "De'Longhi Rivelia EXAM44055B: description"
+    },
+    {
+      "id": "78bb88d4993151356cb100d2f93e84e18519c2f308fad7cae226659e7d91a0bc",
+      "source": "A US household alternating regular and decaf beans often enough to value labeled removable hoppers",
+      "kind": "finder",
+      "context": "De'Longhi Rivelia EXAM44055B: bestFor"
+    },
+    {
+      "id": "835db8605ee6d293b3671fbb54bce3d64c4a7e3439fea3be23c254d7696fe7da",
+      "source": "Official De’Longhi US Onyx Black Rivelia EXAM44055B product image",
+      "kind": "finder",
+      "context": "De'Longhi Rivelia EXAM44055B: imageAlt"
+    },
+    {
+      "id": "218d73f1959c8c43e30cbe6a2b28666a4dbd79f5122520a272681281326350c7",
+      "source": "15 reviews",
+      "kind": "text",
+      "context": "15 reviews →"
+    },
+    {
+      "id": "223edc8cdb90be0ca6af4ecce458a7f240ddc81b1f7a9d65daac5fbd876bd46e",
+      "source": "One-touch superautomatic espresso machine with swappable bean hoppers and LatteCrema Hot",
+      "kind": "text",
+      "context": "One-touch superautomatic espresso machine with swappable bean hoppers and LatteCrema Hot"
+    },
+    {
+      "id": "64da85645ef206aeef58273d7c01b97e0f5dc3775c8638dffcb640b3749b8d94",
+      "source": "Rivelia EXAM44055B",
+      "kind": "text",
+      "context": "Rivelia EXAM44055B"
+    },
+    {
+      "id": "ac2fa9ffcedba78eba40dcb5e7d7ced26b072fd244c2978339c92cbc1dd40aaf",
+      "source": "Official Equator Coffees Eye of the Tiger Espresso bag image",
+      "kind": "attribute",
+      "context": "Small, bright cappuccinoEquator Coffees Eye of the Tiger EspressoEvidence: Equator gives an 18 g to 46 g espresso start.Tradeoff: A lighter seasonal profile may recede in a very large milk drink.Skip if: You want a fixed blend or a heavy, low-acid latte.Image: Equator Coffees. Official bag-identification image; not a Coffeedant tasting photo.Read the full review →"
+    },
+    {
+      "id": "952a037e8a6245d5ad29ce39bba678fc769e6e469a1c6a76d0ccbf3791c45292",
+      "source": "Official Equator Coffees Equator Blend bag image",
+      "kind": "attribute",
+      "context": "Cream-and-sugar filter routineEquator Coffees Equator BlendEvidence: Equator explicitly positions this medium-dark blend for cream and sugar.Tradeoff: Its published recipes are for filter, not a specific espresso shot.Skip if: Your main need is a roaster-specified portafilter recipe.Image: Equator Coffees. Official bag-identification image; not a Coffeedant tasting photo.Read the full review →"
+    },
+    {
+      "id": "7ece7a734d5e847848e1c3633442f0ad5f79fd1abf68db496736593b64c545d2",
+      "source": "Eye of the Tiger Espresso",
+      "kind": "text",
+      "context": "Eye of the Tiger Espresso"
+    },
+    {
+      "id": "4f652d0dd806394c2fd1b7b6570a08fdde5a54417170b86e364a511b08c21414",
+      "source": "Equator Blend",
+      "kind": "text",
+      "context": "Equator Blend"
+    },
+    {
+      "id": "b2c8081d8691e1bb1533d1a3185abb1b621a1e11920a4fe5d6e758c46b3e37ef",
+      "source": "Official Equator Coffees Eye of the Tiger Espresso bag image",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "677885d51aafd388e4dfcfbeab8daefbdb1bc2c130db13170d0a06b089446562",
+      "source": "Official Equator Coffees Equator Blend bag image",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "8a828341a21e8fe6e129d17b8a8e79cdadf7c06914effead759cfa0c3c04914c",
+      "source": "Official Counter Culture Coffee Even Keel Half-Caff bag image",
+      "kind": "attribute",
+      "context": "Image: Counter Culture Coffee. Official roaster product image for identification; packaging or printed notes may lag a current blend. No Coffeedant tasting photograph."
+    },
+    {
+      "id": "b5c124e593445a320a2d0ac1dfc10583b99ba421edba50c53933304c452b41e5",
+      "source": "Even Keel is a ready-mixed half-caff for households that want one bag rather than weighing regular and decaf beans separately. Counter Culture states a 50/50 bean blend, but that is not a measured half-caffeine cup. The exact decaf component and roast wording deserve a bag-date check.",
+      "kind": "text",
+      "context": "Even Keel is a ready-mixed half-caff for households that want one bag rather than weighing regular and decaf beans separately. Counter Culture states a 50/50 bean blend, but that is not a measured half-caffeine cup. The exact decaf component and roast wording deserve a bag-date check."
+    },
+    {
+      "id": "075704d9653998c80645306b4a3756d14cd0a118f796433e2e288bd744a0e676",
+      "source": "Official Counter Culture Coffee Even Keel Half-Caff bag image",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "9ce3f221ab5274d60175c6aacdfbbca5187315fd6459cf3f9e74e30b7db786eb",
+      "source": "Official Counter Culture Coffee Fast Forward bag image",
+      "kind": "attribute",
+      "context": "Image: Counter Culture Coffee. Official roaster product image for identification; packaging or printed notes may lag a current blend. No Coffeedant tasting photograph."
+    },
+    {
+      "id": "5f65c2cea631788a7e950ee38269952bb02a60ae0bdb05855fe1558ea8169011",
+      "source": "Fast Forward is a sensible first bag for someone wanting a medium, nutty-and-sweet daily coffee across drip and occasional espresso. Its year-round name does not mean a fixed farm mix. Buy it for the roaster’s steady flavor aim, then check the actual roast-date composition and your own cup.",
+      "kind": "text",
+      "context": "Fast Forward is a sensible first bag for someone wanting a medium, nutty-and-sweet daily coffee across drip and occasional espresso. Its year-round name does not mean a fixed farm mix. Buy it for the roaster’s steady flavor aim, then check the actual roast-date composition and your own cup."
+    },
+    {
+      "id": "716f052ffb72718ea97eee8e272ce8d70482d70d22be334dbf99e5e6f25a5042",
+      "source": "Official Counter Culture Coffee Fast Forward bag image",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "05327559fa9e6850cb000cc47745d0268443ae49a87cae86695d6b45e4495245",
+      "source": "Official Counter Culture Coffee Gradient bag image",
+      "kind": "attribute",
+      "context": "Image: Counter Culture Coffee. Official roaster product image for identification; packaging or printed notes may lag a current blend. No Coffeedant tasting photograph."
+    },
+    {
+      "id": "9a664ebf5c883f91a01bad7f3057b1206f01e6e75477dd50161470d8976bc8fc",
+      "source": "Gradient is the dark-roast option for a buyer who wants chocolate and nuts but does not rule out a berry signal. The Colombian sourcing and washed-process statement make its identity clearer than a generic dark bag, while the rotating components and your actual brew still matter.",
+      "kind": "text",
+      "context": "Gradient is the dark-roast option for a buyer who wants chocolate and nuts but does not rule out a berry signal. The Colombian sourcing and washed-process statement make its identity clearer than a generic dark bag, while the rotating components and your actual brew still matter."
+    },
+    {
+      "id": "5741fbff892b1fc1874e2475ac026a0d93ae5e71a401ac4942bc4a33ac9c2924",
+      "source": "Official Counter Culture Coffee Gradient bag image",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "03d3851ba02ddd898cb772c692095e9dbd587112fe3037d6a60887c98e722763",
+      "source": "Equator Blend is a practical one-bag candidate for medium-dark drip and French press, with an unusually detailed current origin panel and Equator’s own cream-and-sugar positioning. The page also offers espresso grind, but gives filter recipes rather than a portafilter target; espresso buyers should be ready to dial in without a roaster shot recipe.",
+      "kind": "text",
+      "context": "Equator Blend is a practical one-bag candidate for medium-dark drip and French press, with an unusually detailed current origin panel and Equator’s own cream-and-sugar positioning. The page also offers espresso grind, but gives filter recipes rather than a portafilter target; espresso buyers should be ready to dial in without a roaster shot recipe."
+    },
+    {
+      "id": "8aef7ccfaf64a001c350cb20df4dbe5590dd3d091fe31776d39d77ca1afea97a",
+      "source": "Eye of the Tiger is the adventurous espresso choice: Equator gives a medium-light roast, current Costa Rican and Rwandan component detail, and an 18 g to 46 g starting shot. Its seasonal profile can change, so the recipe and the bag must be checked together rather than assuming one permanent origin list.",
+      "kind": "text",
+      "context": "Eye of the Tiger is the adventurous espresso choice: Equator gives a medium-light roast, current Costa Rican and Rwandan component detail, and an 18 g to 46 g starting shot. Its seasonal profile can change, so the recipe and the bag must be checked together rather than assuming one permanent origin list."
+    },
+    {
+      "id": "0a59d88655f271b46b5d49d11a1abae682431b86098bb2092a1fa3ac5b62f228",
+      "source": "Fast Forward",
+      "kind": "text",
+      "context": "Fast Forward"
+    },
+    {
+      "id": "51e03a1edb9be28b5b48696e72e21c9dcf51832b4c3184a13806a95628408441",
+      "source": "· $19.50 for 12 oz at October 16, 2026",
+      "kind": "text",
+      "context": "Updated 2026-10-16 · $19.50 for 12 oz at October 16, 2026"
+    },
+    {
+      "id": "3f6b94106747d5787bbc7e15c9d79a66c9e7e6f3e77ae909849bbaef7083c32f",
+      "source": "Gradient",
+      "kind": "text",
+      "context": "Gradient"
+    },
+    {
+      "id": "ee05557f43ad2d6a871114e32988ab9325c4956002c4446402da20a58397b561",
+      "source": "· $20 for 12 oz at October 16, 2026",
+      "kind": "text",
+      "context": "Updated 2026-10-16 · $20 for 12 oz at October 16, 2026"
+    },
+    {
+      "id": "b603e56db74bb8906a673ba27301bd3b8d64f795940ee65be0183990ba317c6b",
+      "source": "Even Keel Half-Caff",
+      "kind": "text",
+      "context": "Even Keel Half-Caff"
+    },
+    {
+      "id": "5a55b30ee796f652231fc17c378b53fc1331166a25721b38e896bc337932ce76",
+      "source": "· $18.50 for 12 oz at October 16, 2026",
+      "kind": "text",
+      "context": "Updated 2026-10-16 · $18.50 for 12 oz at October 16, 2026"
+    },
+    {
+      "id": "e42c48ccf1471013d64663326b1ff23292794b6f1d74989aca0b46841d7c448a",
+      "source": "New buying guide · October 16, 2026",
+      "kind": "text",
+      "context": "New buying guide · October 16, 2026"
+    },
+    {
+      "id": "21e3d75152c62b4c7a231d85d7215bf3bb489ff671316eb7534c1d47cc6d6ea4",
+      "source": "Beans for the milk drink you make",
+      "kind": "text",
+      "context": "Beans for the milk drink you make"
+    },
+    {
+      "id": "e9a94143344f22ae4d58995e6819e5087c54cda08e927b7d862f80208d3d7046",
+      "source": "Compare four exact whole-bean coffees for a large latte, bright cappuccino, coffee with cream and decaf milk drink.",
+      "kind": "text",
+      "context": "Compare four exact whole-bean coffees for a large latte, bright cappuccino, coffee with cream and decaf milk drink. Read the milk-drinks buying guide."
+    },
+    {
+      "id": "3004303dae40952d627f4d6e8fd134328b321f30f03ea124fdcdd649dc4d347b",
+      "source": "Read the milk-drinks buying guide",
+      "kind": "text",
+      "context": "Read the milk-drinks buying guide"
+    },
+    {
+      "id": "a723ac534cd04648b86c5115d1b820febf756c7cd7de9e9725c6dae06425f87d",
+      "source": "Buying guide · October 15, 2026",
+      "kind": "text",
+      "context": "Buying guide · October 15, 2026"
+    },
+    {
+      "id": "3decef9a49bd6abf423c9f57f123949e69b97ac845765467bbbcd1523f30ba04",
+      "source": "De'Longhi espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 15 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "e41f6c0f928a1fd541ea64b793af3f60e091826dacd607b2c3adbef2b2a21130",
+      "source": "De’Longhi Rivelia EXAM44055B",
+      "kind": "text",
+      "context": "De’Longhi Rivelia EXAM44055B"
+    },
+    {
+      "id": "41faf70a9cec4de5254a8f3aa2b22bf8702d35e4c63fc3ca526c99ff4b04db8a",
+      "source": "De'Longhi espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 15 Coffeedant reviews.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "6e99fd016d40c384774c7518134760c15ad8134dbfa81ec70fe2fd96321a405a"
+}

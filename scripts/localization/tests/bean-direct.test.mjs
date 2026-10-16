@@ -4,7 +4,7 @@ import path from 'node:path';
 import {root,readJson,digest,policyHash,loadCache,validateTranslation,getEdition} from '../core.mjs';
 import {regionalFinder} from '../build.mjs';
 
-for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-15',3],['bean-reviews-batch-16',164],['bean-reviews-batch-18',192]])test(`${name} fully covers its immutable source in NL DE FR`,async()=>{
+for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-15',3],['bean-reviews-batch-16',164],['bean-reviews-batch-18',192],['bean-reviews-batch-19',191],['source-refresh-batch-19',37]])test(`${name} fully covers its immutable source in NL DE FR`,async()=>{
  const source=await readJson(path.join(root,`localization/authored/${name}.source.json`));
  const authored=await readJson(path.join(root,`localization/authored/${name}.json`));
  assert.equal(source.segments.length,count);
@@ -22,6 +22,49 @@ for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-
    assert.equal(entry.provider,'codex-direct');
    assert.equal(validateTranslation(segment.source,entry.text),entry.text);
   }
+ }
+});
+
+test('Monarch and Holler Mountain retain changing lots, attributed sensory language, dated pack arithmetic and all FAQs',async()=>{
+ const source=await readJson(path.join(root,'localization/authored/bean-reviews-batch-19.source.json'));
+ const authored=await readJson(path.join(root,'localization/authored/bean-reviews-batch-19.json'));
+ assert.equal(source.sourcePages.length,2);
+ for(const edition of ['nl','de','fr']){
+  const cache=await loadCache(edition),text=i=>cache.segments[source.segments[i].id].text;
+  for(const i of [88,90,92,94,96,98,180,182,184,186,188,190]){
+   assert.equal(source.segments[i].kind,'json');assert.notEqual(text(i),source.segments[i].source);
+  }
+  for(const n of ['$21.50','10','2','5','$58.50','$122','$6','$0.076','$1.37','18','2026'])assert(text(43).includes(n));
+  for(const n of ['$20','12','$110','5','$0.059','$1.06','18','2026'])assert(text(133).includes(n));
+  assert(/geen onjuiste claim|nicht zu einer falschen|pas cela à une fausse/.test(text(35)));
+  assert(/geen dosisspecifieke|keinen dosisspezifischen|aucun test de caféine/.test(text(64)));
+  for(const i of [52,141])assert(/niet gekocht|weder gekauft|ni acheté/.test(text(i)));
+  assert(/niet als gemiddelde score|nicht als Durchschnittsnote|pas traité comme une note moyenne/.test(text(141)));
+  assert(/geen gemeten smaak|keine gemessene Geschmacks|pas une garantie mesurée/.test(text(126)));
+  assert(/geen universeel|keine allgemeingültige|Aucun nombre universel/.test(text(132)));
+  const prefix={nl:'/koffiebonen/',de:'/kaffeebohnen/',fr:'/cafe-en-grains/'}[edition];
+  for(const page of source.sourcePages)assert.equal(authored.routes[edition][page.sourcePath],page.sourcePath.replace('/coffee-beans/',prefix));
+ }
+});
+
+test('148 frozen Finder records include the exact US Rivelia, without regional model or offer approval',async()=>{
+ const source=await readJson(path.join(root,'localization/authored/source-refresh-batch-19.source.json'));
+ const frozen=await readJson(path.join(root,'localization/authored/finder-products-batch-19.items.source.json'));
+ assert.equal(frozen.snapshotHash,source.snapshotHash);
+ assert.equal(frozen.items[0].model,'Rivelia EXAM44055B');assert.equal(frozen.items[0].priceUsd,1299.95);
+ assert.deepEqual(source.segments.slice(0,3).map(s=>s.source),['description','bestFor','imageAlt'].map(f=>frozen.items[0][f]));
+ const items=[];
+ for(const batch of [3,4,5,6,9,15,19])items.push(...(await readJson(path.join(root,`localization/authored/finder-products-batch-${batch}.items.source.json`))).items);
+ assert.equal(items.length,148);assert.equal(new Set(items.map(i=>i.path)).size,148);
+ for(const edition of ['nl','de','fr']){
+  const cache=await loadCache(edition),catalog=regionalFinder({items},cache,new Map(),getEdition(edition),{},{});
+  assert.equal(new Set(catalog.items.map(i=>i.description)).size,148);
+  assert(catalog.items.every(i=>i.priceUsd===null&&i.priceAmount===null&&i.amazonHref===''));
+  const text=cache.segments[source.segments[0].id].text;
+  for(const term of ['EXAM44055B','8.8','13','3.5','Bean Adapt','LatteCrema Hot'])assert(text.includes(term));
+  assert(/Amerikaanse|US-Onyx|américaine/.test(text));
+  const halfCaff=cache.segments[source.segments[13].id].text;
+  assert(halfCaff.includes('50/50'));assert(/geen gemeten|keine gemessene|pas une tasse mesurée/.test(halfCaff));
  }
 });
 

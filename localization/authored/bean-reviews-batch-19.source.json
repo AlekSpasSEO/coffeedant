@@ -1,0 +1,1163 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/coffee-beans/stumptown-holler-mountain/",
+      "sourceHash": "ed7410b89ddcd5e55e44133027769e323eb65329becbb57fcc671eba99c5680a"
+    },
+    {
+      "sourcePath": "/coffee-beans/onyx-monarch/",
+      "sourceHash": "a32eddf54749a8d1736cc09fa130a97da018ad04bea432b2b927475077f41b19"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "218d73f1959c8c43e30cbe6a2b28666a4dbd79f5122520a272681281326350c7",
+      "source": "15 reviews",
+      "kind": "text",
+      "context": "15 reviews →"
+    },
+    {
+      "id": "223edc8cdb90be0ca6af4ecce458a7f240ddc81b1f7a9d65daac5fbd876bd46e",
+      "source": "One-touch superautomatic espresso machine with swappable bean hoppers and LatteCrema Hot",
+      "kind": "text",
+      "context": "One-touch superautomatic espresso machine with swappable bean hoppers and LatteCrema Hot"
+    },
+    {
+      "id": "64da85645ef206aeef58273d7c01b97e0f5dc3775c8638dffcb640b3749b8d94",
+      "source": "Rivelia EXAM44055B",
+      "kind": "text",
+      "context": "Rivelia EXAM44055B"
+    },
+    {
+      "id": "fea21ea24d4d72d7a60a6a745f9f6d956ea1c426eabf0b27e65eed180e524c13",
+      "source": "Stumptown Hair Bender",
+      "kind": "text",
+      "context": "Stumptown Hair Bender"
+    },
+    {
+      "id": "82022f79eb0106a548f9aaeb7e99591ae31d52db6cc06fcec107dadf0dd6390d",
+      "source": "Best dark roast coffee beans",
+      "kind": "text",
+      "context": "Best dark roast coffee beans"
+    },
+    {
+      "id": "b9be8da051ce34a28d9423b583e2637b614f1f07ecd902d8db80584b83ba7b43",
+      "source": "Onyx Coffee Lab Monarch",
+      "kind": "text",
+      "context": "Onyx Coffee Lab Monarch"
+    },
+    {
+      "id": "5b8f0ad19f4d456b82f947659b98505c6b0f1adcb0c484bd8658dbd6a1afad6c",
+      "source": "Image: Onyx Coffee Lab",
+      "kind": "text",
+      "context": "Image: Onyx Coffee Lab"
+    },
+    {
+      "id": "1cc625f180b7f7aee709de337723ad3273008ba6d56502f0f5c82fe82e71d390",
+      "source": "Onyx Coffee Lab Monarch",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "27828fb052cbfaa38bb6385bab26fcb3cff952dfe8543dc75319d150ab6090de",
+      "source": "Onyx Monarch review: a developed espresso blend built for milk | Coffeedant",
+      "kind": "text",
+      "context": "Onyx Monarch review: a developed espresso blend built for milk | Coffeedant"
+    },
+    {
+      "id": "637359b6bc5f7e245f2a48e93588521baaa7871430cb930f2c0eb6a09b5c66df",
+      "source": "Research-led US Onyx Monarch review covering its current Colombia-Ethiopia blend record, roaster chocolate and berry notes, milk fit, bag sizes, freshness and dated value.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "b5734cfd370a2ebda2436868fccf4f41ae788f204f54eacd9aaadce370813152",
+      "source": "Onyx Monarch review: a developed espresso blend built for milk | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "1150b61ef6df4b0fb4d6bea6e9b00ba3685e548d84210eed7c2fd9da4eaceb6a",
+      "source": ". Official Onyx product photograph used for identification; not a Coffeedant tasting photograph.",
+      "kind": "text",
+      "context": "Image: Onyx Coffee Lab. Official Onyx product photograph used for identification; not a Coffeedant tasting photograph."
+    },
+    {
+      "id": "f316d606168d6cb5809044965976331ef2c7140dafc2300af617031b62ee5a9b",
+      "source": "Onyx Monarch review: a developed espresso blend built for milk",
+      "kind": "text",
+      "context": "Onyx Monarch review: a developed espresso blend built for milk"
+    },
+    {
+      "id": "9734ec6b0b9341051b87d73fa10fdcb5dbd3350ea1366274744a8d6c3f481b7d",
+      "source": "$21.50 for 10 oz",
+      "kind": "text",
+      "context": "$21.50 for 10 oz"
+    },
+    {
+      "id": "7db5cc5c13b599b3890f838d1bab964f59bf2f79ba1e82f243b6acb94bf4612c",
+      "source": "I compared Onyx's current listing, brew guidance and pack variants with attributable owner comments. I treated the published sensory and caffeine claims as roaster information, not Coffeedant measurements.",
+      "kind": "text",
+      "context": "Author noteI compared Onyx's current listing, brew guidance and pack variants with attributable owner comments. I treated the published sensory and caffeine claims as roaster information, not Coffeedant measurements."
+    },
+    {
+      "id": "aa6c7d6336c450f8c41e2521abad8d279f64582634fb8dcac74207e0ff0c6db0",
+      "source": "Espresso with medium or large milk drinks",
+      "kind": "text",
+      "context": "Espresso with medium or large milk drinks"
+    },
+    {
+      "id": "6be728d3127048a8557f251c9876d57598629d4a9bafea66fd094d4b45fa05c0",
+      "source": "Buyers seeking a developed, chocolate-led roaster brief with berry undertones",
+      "kind": "text",
+      "context": "Buyers seeking a developed, chocolate-led roaster brief with berry undertones"
+    },
+    {
+      "id": "47f22f143aeada27ec281315b3c75b936d725ac6b62328422bd304c4a73e1056",
+      "source": "A small 10 oz trial before a 2 lb or 5 lb commitment",
+      "kind": "text",
+      "context": "A small 10 oz trial before a 2 lb or 5 lb commitment"
+    },
+    {
+      "id": "29ddb114071ce05040b7a7c8e91c3fbb5b2df1ec29f349add7317d26e569dd33",
+      "source": "You prefer a light floral straight shot",
+      "kind": "text",
+      "context": "You prefer a light floral straight shot"
+    },
+    {
+      "id": "1eb20cd335ccb1cbba0933d8ce2bf0a3f16d7e310d6a05d7deeedb9ec17da458",
+      "source": "You assume Onyx's published caffeine number is your own cup's dose",
+      "kind": "text",
+      "context": "You assume Onyx's published caffeine number is your own cup's dose"
+    },
+    {
+      "id": "1e1eb5b74a48139b935b0f9fcf6af3ed5ce9f1671ad725d6f4b80c22c40ecd2e",
+      "source": "You want a fixed farm and variety every shipment",
+      "kind": "text",
+      "context": "You want a fixed farm and variety every shipment"
+    },
+    {
+      "id": "3cf8f04ea5a3af1361ed4d62fb41f0c2e114322a762817c36bbb0e8d7824819b",
+      "source": "'Expressive dark' and most developed in Onyx's own range",
+      "kind": "text",
+      "context": "'Expressive dark' and most developed in Onyx's own range"
+    },
+    {
+      "id": "f58b46105148dd254a507a12bb097927391125be870d6e5f3017a2accea45eeb",
+      "source": "Dark chocolate, molasses, red wine, dried berries; attributed",
+      "kind": "text",
+      "context": "Dark chocolate, molasses, red wine, dried berries; attributed"
+    },
+    {
+      "id": "183a4dd163f0b0bb901ee74e4300de4b039640c4e5c90a2764ca1c2895995d4b",
+      "source": "Current origins",
+      "kind": "text",
+      "context": "Current origins"
+    },
+    {
+      "id": "8f9c4a687ffaa8e646956dc9605b123f32c4d5a95a631c839db0352c229df482",
+      "source": "Colombia and Ethiopia in the checked listing; rotating microlots",
+      "kind": "text",
+      "context": "Colombia and Ethiopia in the checked listing; rotating microlots"
+    },
+    {
+      "id": "0a00afa6cfcd0ab1e51e608983185408d39adbd8d46ab349e90baad6d7656939",
+      "source": "Variety / process",
+      "kind": "text",
+      "context": "Variety / process"
+    },
+    {
+      "id": "5258c0b0c6eefbde62c3a624db472385080dd95d5c675d353a5ba8e36c367043",
+      "source": "Mixed variety; the page's process fields are not fully consistent, so verify the current bag",
+      "kind": "text",
+      "context": "Mixed variety; the page's process fields are not fully consistent, so verify the current bag"
+    },
+    {
+      "id": "e07992723ee57efb04870bc4a2197fa3f14f4c8d4b99e4fa9bfcf03fe5ff1221",
+      "source": "Espresso preferred; roaster also names drip",
+      "kind": "text",
+      "context": "Espresso preferred; roaster also names drip"
+    },
+    {
+      "id": "dcb4136bd76a1a708b96460a515fc064cfa2c814546f7578b7273b78c6302f25",
+      "source": "2 oz, 10 oz ($21.50), 2 lb ($58.50), 5 lb ($122) plus case packs",
+      "kind": "text",
+      "context": "2 oz, 10 oz ($21.50), 2 lb ($58.50), 5 lb ($122) plus case packs"
+    },
+    {
+      "id": "d2da89a26f5fbd87a924db73b6eb26c950b660a96e8de9511896068f4c43efec",
+      "source": "Monarch is the darker Onyx espresso direction",
+      "kind": "text",
+      "context": "Monarch is the darker Onyx espresso direction"
+    },
+    {
+      "id": "dc5b48fd31f5bbb45854914b406afaa014a5a68239491c8cf0f57d67f11f85e9",
+      "source": "The intended drink is milk-led espresso",
+      "kind": "text",
+      "context": "The intended drink is milk-led espresso"
+    },
+    {
+      "id": "079e1ab4b8505d248a982a5e8ede2cbb69c51bc22542c0dd703ee0d4bd77fcee",
+      "source": "Start with Onyx's espresso brief, then document your shot",
+      "kind": "text",
+      "context": "Start with Onyx's espresso brief, then document your shot"
+    },
+    {
+      "id": "205c89deb12ba1b9db899a64d60cc316a64ef08650ac539ba41a05819517be83",
+      "source": "Small sizes make the first purchase more honest",
+      "kind": "text",
+      "context": "Small sizes make the first purchase more honest"
+    },
+    {
+      "id": "ac1dd78ba11046bc1c2c2e6c96c1d5a16f47958951a866a61863045200cd567f",
+      "source": "Normalize the pack size before comparing prices",
+      "kind": "text",
+      "context": "Normalize the pack size before comparing prices"
+    },
+    {
+      "id": "21820852c1472ab15335c13a320395ed1d22b5adc4e856f1b8a5da9b5fddd5b2",
+      "source": "Choose a different blend for a different drink",
+      "kind": "text",
+      "context": "Choose a different blend for a different drink"
+    },
+    {
+      "id": "0e9bfd83655a7ec7c82c6eea919fa6a823d6581df1f161589153815a1ccb8cde",
+      "source": "Onyx positions Monarch as the darker, more developed counterpart to Geometry. Its current page lists Colombia and Ethiopia and describes rotating microlots, which means the year-round name cannot stand in for a permanent farm or variety record. The page says mixed varieties. It also presents broad process fields alongside narrative wording that does not cleanly establish one process for every component; this review does not compress that into a false single-process claim. Check the current bag or ask Onyx for lot details.",
+      "kind": "text",
+      "context": "Onyx positions Monarch as the darker, more developed counterpart to Geometry. Its current page lists Colombia and Ethiopia and describes rotating microlots, which means the year-round name cannot stand in for a permanent farm or variety record. The page says mixed varieties. It also presents broad process fields alongside narrative wording that does not cleanly establish one process for every component; this review does not compress that into a false single-process claim. Check the current bag or ask Onyx for lot details. [1] [6]"
+    },
+    {
+      "id": "6b051581636ed7e632bedbbc387e0c494da676577614e669ef0ee535e39b3abb",
+      "source": "The product exists in multiple sizes, including a 2 oz sample and 10 oz retail bag. The sample is useful if the goal is to test the flavor direction with low waste; it is not enough for extensive grinder dialing. The 10 oz bag is the practical first review-sized purchase for most espresso drinkers.",
+      "kind": "text",
+      "context": "The product exists in multiple sizes, including a 2 oz sample and 10 oz retail bag. The sample is useful if the goal is to test the flavor direction with low waste; it is not enough for extensive grinder dialing. The 10 oz bag is the practical first review-sized purchase for most espresso drinkers. [1]"
+    },
+    {
+      "id": "83771d901b53c2b2cc634f5c6b4927cb33120f6be391f36862cac0767bf0001d",
+      "source": "Onyx names dark chocolate, molasses, red wine and dried berries and says Monarch is intentionally designed to work with milk. Its story specifically says the profile can remain noticeable in drinks of 12 oz or more. Those statements explain the roaster's design; they are not evidence that Coffeedant tasted these notes or measured milk performance.",
+      "kind": "text",
+      "context": "Onyx names dark chocolate, molasses, red wine and dried berries and says Monarch is intentionally designed to work with milk. Its story specifically says the profile can remain noticeable in drinks of 12 oz or more. Those statements explain the roaster's design; they are not evidence that Coffeedant tasted these notes or measured milk performance. [1]"
+    },
+    {
+      "id": "810322356c5036460f89180efa2ccf528de3ac17d74ece9b6a036627401dbc4d",
+      "source": "Self-selected owner reports offer useful but limited context. One Breville owner compared Monarch with Big Trouble and described it as forgiving for traditional milk drinks; another Onyx discussion noted price and preference differences. Their grinders, recipes and batches are not controlled. Use them as reasons to investigate, not a reliability or sensory rate.",
+      "kind": "text",
+      "context": "Self-selected owner reports offer useful but limited context. One Breville owner compared Monarch with Big Trouble and described it as forgiving for traditional milk drinks; another Onyx discussion noted price and preference differences. Their grinders, recipes and batches are not controlled. Use them as reasons to investigate, not a reliability or sensory rate. [4] [5]"
+    },
+    {
+      "id": "52ab02e67d7964e355950aab9ba5d47a78565714f23b7531a587b36f2afd8062",
+      "source": "Onyx labels espresso its preferred extraction and publishes a Monarch brew guide through its help page. Follow the current guide for your equipment as a starting point, while respecting the dose range of your basket. Record the coffee dose, beverage mass and grinder setting before changing one variable. A roaster recipe can narrow the search; it cannot guarantee a good shot with every roast date, water source or grinder.",
+      "kind": "text",
+      "context": "Onyx labels espresso its preferred extraction and publishes a Monarch brew guide through its help page. Follow the current guide for your equipment as a starting point, while respecting the dose range of your basket. Record the coffee dose, beverage mass and grinder setting before changing one variable. A roaster recipe can narrow the search; it cannot guarantee a good shot with every roast date, water source or grinder. [1] [2]"
+    },
+    {
+      "id": "65f1181cf95aa3462285ddb3030713b631028286ddc1991a66dbb1856205b846",
+      "source": "Onyx also says Monarch can be used for drip. The darker profile can make it a dual-method option for some households, but that does not mean the espresso grind is suitable for filter. If drip is your main use and espresso occasional, compare Onyx Geometry, which is explicitly positioned for both methods and a lighter fruit direction.",
+      "kind": "text",
+      "context": "Onyx also says Monarch can be used for drip. The darker profile can make it a dual-method option for some households, but that does not mean the espresso grind is suitable for filter. If drip is your main use and espresso occasional, compare Onyx Geometry, which is explicitly positioned for both methods and a lighter fruit direction. [1] [6]"
+    },
+    {
+      "id": "8b2d63cbaeee296e4766cecadceaa750789b6b6462f01212c94b68e97c4697ea",
+      "source": "At 10 oz, a bag contains roughly sixteen 18 g doses before dialing waste. That is enough to learn the coffee without pretending a 5 lb bag will stay at your preferred quality in a low-volume home. Check the actual roast date and package seal. Store a working bag closed, cool and dry; general Stumptown guidance cautions against repeatedly moving an opened bag between freezer and room temperature.",
+      "kind": "text",
+      "context": "At 10 oz, a bag contains roughly sixteen 18 g doses before dialing waste. That is enough to learn the coffee without pretending a 5 lb bag will stay at your preferred quality in a low-volume home. Check the actual roast date and package seal. Store a working bag closed, cool and dry; general Stumptown guidance cautions against repeatedly moving an opened bag between freezer and room temperature. [1] [7]"
+    },
+    {
+      "id": "87c0e715c44b11e70d35394f204602892eedf3b3145934929296c357b5391bd3",
+      "source": "Onyx's rotating lot language means a later bag may require a new grinder setting even when the front label is identical. Treat dial-in changes as part of a changing agricultural product, not proof of defect. If a subscription is considered, verify shipment cadence against the number of doses your household actually uses.",
+      "kind": "text",
+      "context": "Onyx's rotating lot language means a later bag may require a new grinder setting even when the front label is identical. Treat dial-in changes as part of a changing agricultural product, not proof of defect. If a subscription is considered, verify shipment cadence against the number of doses your household actually uses."
+    },
+    {
+      "id": "986313159f75b4cde0731e485539091a286cf7077699f94932dc6e9d1914a36e",
+      "source": "The official US variant feed showed $21.50 for 10 oz, $58.50 for 2 lb and $122 for 5 lb on October 14, 2026; a 2 oz sample was $6. A 10 oz bag at $21.50 is about $0.076 per gram, or $1.37 in beans for an illustrative 18 g shot before shipping, tax, milk and waste. Comparing $21.50 directly with a $20 12 oz competitor hides a size difference.",
+      "kind": "text",
+      "context": "The official US variant feed showed $21.50 for 10 oz, $58.50 for 2 lb and $122 for 5 lb on October 14, 2026; a 2 oz sample was $6. A 10 oz bag at $21.50 is about $0.076 per gram, or $1.37 in beans for an illustrative 18 g shot before shipping, tax, milk and waste. Comparing $21.50 directly with a $20 12 oz competitor hides a size difference. [1]"
+    },
+    {
+      "id": "f9b93dba0f318256766e8d27e3fc344adf1dff796829b8987b49deedad31ada8",
+      "source": "Onyx publishes unusually detailed sourcing and roast material, but that detail does not make the coffee automatically better for your palate. The higher small-bag cost is easiest to justify when its milk-focused brief and information matter to you; it is harder to justify if you only want a generic dark roast.",
+      "kind": "text",
+      "context": "Onyx publishes unusually detailed sourcing and roast material, but that detail does not make the coffee automatically better for your palate. The higher small-bag cost is easiest to justify when its milk-focused brief and information matter to you; it is harder to justify if you only want a generic dark roast."
+    },
+    {
+      "id": "b8213508719635539d553f70179c3392a36e81d1b58826728110a693342ff267",
+      "source": "Onyx Geometry is the lighter house alternative for filter and espresso. Counter Culture Big Trouble is a medium-dark caramel-and-nut direction in a 12 oz bag. Stumptown Hair Bender can serve both espresso and drip while retaining a chocolate-citrus brief. None has been tasted against Monarch by Coffeedant, so the comparison is based on current roaster descriptions and formats.",
+      "kind": "text",
+      "context": "Onyx Geometry is the lighter house alternative for filter and espresso. Counter Culture Big Trouble is a medium-dark caramel-and-nut direction in a 12 oz bag. Stumptown Hair Bender can serve both espresso and drip while retaining a chocolate-citrus brief. None has been tasted against Monarch by Coffeedant, so the comparison is based on current roaster descriptions and formats. [3] [6] [8]"
+    },
+    {
+      "id": "c51378680fedf75174af68c369e0ce0dc7979d0edb0064d538c652f65a385657",
+      "source": "If you mostly drink short black espresso and dislike roast-driven flavors, Monarch's own positioning is a warning. Try the 2 oz or 10 oz size before scaling. If you want the strongest flavor to remain in a large latte, Monarch has a more explicit roaster rationale than many all-purpose blends.",
+      "kind": "text",
+      "context": "If you mostly drink short black espresso and dislike roast-driven flavors, Monarch's own positioning is a warning. Try the 2 oz or 10 oz size before scaling. If you want the strongest flavor to remain in a large latte, Monarch has a more explicit roaster rationale than many all-purpose blends."
+    },
+    {
+      "id": "2200e65c567eb33f43d73bfe35c746521f470273fbe9247be8860d3091e76f80",
+      "source": "Onyx Geometry",
+      "kind": "text",
+      "context": "Onyx Geometry"
+    },
+    {
+      "id": "65938cd82a81550d6dfc8782a153830ab951bc36bfddd2aea23245dd648bc7a1",
+      "source": "Lighter filter-and-espresso positioning with fruit and florals.",
+      "kind": "text",
+      "context": "Lighter filter-and-espresso positioning with fruit and florals."
+    },
+    {
+      "id": "c1989b50626003a80438f54549149dc734d590474cd2e73f527cdc8928c9c4a3",
+      "source": "Medium-dark caramel and nut direction in a 12 oz bag.",
+      "kind": "text",
+      "context": "Medium-dark caramel and nut direction in a 12 oz bag."
+    },
+    {
+      "id": "3d7bb5d6e44a8115343ebf7ec57fae16a2f4c7e6864523a091e93ceac2557293",
+      "source": "Chocolate-citrus espresso blend also marketed for drip.",
+      "kind": "text",
+      "context": "Chocolate-citrus espresso blend also marketed for drip."
+    },
+    {
+      "id": "f404e8eadbe2fadb9b17ab7b50eef821187cdff78a747e6b6e88094e363e4daf",
+      "source": "Compare darker buying reasons and size tradeoffs.",
+      "kind": "text",
+      "context": "Compare darker buying reasons and size tradeoffs."
+    },
+    {
+      "id": "717312057306e0c70dfcf1048add99cd242cdd96065145d0eedc33d8838d3070",
+      "source": "This review compares Onyx's current Monarch listing and variant feed, brew and sourcing explanations, official alternatives and self-selected owner accounts. Coffeedant has not bought, brewed, tasted, measured or photographed Monarch. Owner accounts cannot establish a typical result or defect rate.",
+      "kind": "text",
+      "context": "This review compares Onyx's current Monarch listing and variant feed, brew and sourcing explanations, official alternatives and self-selected owner accounts. Coffeedant has not bought, brewed, tasted, measured or photographed Monarch. Owner accounts cannot establish a typical result or defect rate."
+    },
+    {
+      "id": "ecd9cc63258fa6f8f4c8fbfb2e70f6307f828a24b9b3b275079e8b5316ef1724",
+      "source": "The US direct price and pack options were checked October 14, 2026. The product is a rotating blend; current country names and process labels should be checked against the actual bag. The page's process presentation was not clear enough to assign one complete fixed process or variety list.",
+      "kind": "text",
+      "context": "The US direct price and pack options were checked October 14, 2026. The product is a rotating blend; current country names and process labels should be checked against the actual bag. The page's process presentation was not clear enough to assign one complete fixed process or variety list."
+    },
+    {
+      "id": "1d479f917a76d1572c69bb957a1ee9d1107a9e1e79a4a4826ef7b97e99fcad3a",
+      "source": "Monarch FAQ",
+      "kind": "text",
+      "context": "Monarch FAQ"
+    },
+    {
+      "id": "6b65089d990fd3d95326e82d400b1cacdc53a8f02eb72a5096218ce032883287",
+      "source": "Has Coffeedant tasted Monarch?",
+      "kind": "text",
+      "context": "Has Coffeedant tasted Monarch?"
+    },
+    {
+      "id": "4a4a7ef0d5c4f04f512399ac3b3b24258651c062c9b218f0c0bc137ed48bb21c",
+      "source": "No. The chocolate and berry descriptors are Onyx's; this is a research-led buying assessment.",
+      "kind": "text",
+      "context": "No. The chocolate and berry descriptors are Onyx's; this is a research-led buying assessment."
+    },
+    {
+      "id": "a936a58933ef972d404ecce3940f8b63b96af45918d306fc825779163fb1bec3",
+      "source": "Is Monarch for espresso only?",
+      "kind": "text",
+      "context": "Is Monarch for espresso only?"
+    },
+    {
+      "id": "591cb7fc99741392425a3c360eb4e46fccdfee83f008ff94bf8dab4277efc16b",
+      "source": "Onyx prefers it for espresso and also says it can be brewed as drip.",
+      "kind": "text",
+      "context": "Onyx prefers it for espresso and also says it can be brewed as drip."
+    },
+    {
+      "id": "d2d6411eb07143a8d329f7abffd71dd92b5d9b453c0b52220c9bec66c5cf9b61",
+      "source": "Is Monarch a fixed single origin?",
+      "kind": "text",
+      "context": "Is Monarch a fixed single origin?"
+    },
+    {
+      "id": "1a782259a54f65f2f0be3aae113feeb501acc81fd78a799e77671a845b1bb518",
+      "source": "No. The checked listing names Colombia and Ethiopia with rotating microlots and mixed varieties.",
+      "kind": "text",
+      "context": "No. The checked listing names Colombia and Ethiopia with rotating microlots and mixed varieties."
+    },
+    {
+      "id": "082c0e4136557b43a9662e4a2252bc65ab8ed0fe0e9c488ce665f271d41fc59b",
+      "source": "How big is the standard bag?",
+      "kind": "text",
+      "context": "How big is the standard bag?"
+    },
+    {
+      "id": "25860dbf9bcd23a18c60328743407faba780393c56fdc574a51bc5408016ac7d",
+      "source": "The checked direct listing offered a 10 oz bag at $21.50, plus 2 oz, 2 lb and 5 lb options.",
+      "kind": "text",
+      "context": "The checked direct listing offered a 10 oz bag at $21.50, plus 2 oz, 2 lb and 5 lb options."
+    },
+    {
+      "id": "059e0c7d3fe216553f7a0bbc1015963d19f96598a43cb75d8cf73ecd7bc94863",
+      "source": "Does the published caffeine figure apply to my espresso?",
+      "kind": "text",
+      "context": "Does the published caffeine figure apply to my espresso?"
+    },
+    {
+      "id": "9dc41fdaf84022ff46e8bbdf17785f8602d3098fbea6ba4235bae3f9e6ac55d3",
+      "source": "No Coffeedant dose-specific caffeine test was done; do not convert a roaster reference into a measured amount in your cup.",
+      "kind": "text",
+      "context": "No Coffeedant dose-specific caffeine test was done; do not convert a roaster reference into a measured amount in your cup."
+    },
+    {
+      "id": "33b9c663da66829ce5b7ee5323ee289e0c5cfdb5539c247b955cd39b284681de",
+      "source": "Why compare price per ounce?",
+      "kind": "text",
+      "context": "Why compare price per ounce?"
+    },
+    {
+      "id": "e1d31405e33d8fe44dc5562604407955dfda54fc3509b2266d24477af8fc5f56",
+      "source": "Monarch's 10 oz retail bag is smaller than many 12 oz competitors, so sticker prices alone mislead.",
+      "kind": "text",
+      "context": "Monarch's 10 oz retail bag is smaller than many 12 oz competitors, so sticker prices alone mislead."
+    },
+    {
+      "id": "51039d31c24d06a6afc153cbf3713eb35cc4ef9da88c4dcc3c6fe2dfc45db6fe",
+      "source": "Onyx Monarch product and variant listing",
+      "kind": "text",
+      "context": "Onyx Monarch product and variant listing ↗"
+    },
+    {
+      "id": "e49c468525fbbfd1de8ebbc070fd964669ad09e685b0545cac27c359e4782eea",
+      "source": "Official identity, flavor brief, current origin, rotating lots, brew use and US pack prices. Checked 2026-10-14.",
+      "kind": "text",
+      "context": "Official identity, flavor brief, current origin, rotating lots, brew use and US pack prices. Checked 2026-10-14."
+    },
+    {
+      "id": "b569239d1c7156cf542fbd5028b6dc9dfc00eaf7691143336de286ab5979e5be",
+      "source": "Onyx Help Me Brew",
+      "kind": "text",
+      "context": "Onyx Help Me Brew ↗"
+    },
+    {
+      "id": "a3d04747ca0c47a62708cc318d3de895db12b192774d4b021a028dfaff9e37e5",
+      "source": "Roaster Monarch espresso brewing guidance; a starting point, not a Coffeedant test. Checked 2026-10-14.",
+      "kind": "text",
+      "context": "Roaster Monarch espresso brewing guidance; a starting point, not a Coffeedant test. Checked 2026-10-14."
+    },
+    {
+      "id": "1d6c2ddb5f61613b44ab06196a645e46cb99583a470703a7f2db4ed3daa66fe3",
+      "source": "Official alternative flavor and size context. Checked 2026-10-14.",
+      "kind": "text",
+      "context": "Official alternative flavor and size context. Checked 2026-10-14."
+    },
+    {
+      "id": "ce5b3bc03c70f1fe53dfefa788cfbd5f2e678d060822e9d167daf4402381f743",
+      "source": "r/BrevilleCoffee: Monarch owner comparison",
+      "kind": "text",
+      "context": "r/BrevilleCoffee: Monarch owner comparison ↗"
+    },
+    {
+      "id": "f17e19c92e96ea927c61e44b6c8ed0a947ea01bd4b00719eb4f53463cde42976",
+      "source": "One owner's milk-drink comparison with Big Trouble; anecdotal. Checked 2026-10-14.",
+      "kind": "text",
+      "context": "One owner's milk-drink comparison with Big Trouble; anecdotal. Checked 2026-10-14."
+    },
+    {
+      "id": "ad0aebbacf27099c40a644e769d1609465a65c4861abe8e7c1e1d7c81b2e8d47",
+      "source": "r/espresso: trying Onyx Coffee",
+      "kind": "text",
+      "context": "r/espresso: trying Onyx Coffee ↗"
+    },
+    {
+      "id": "222626c58e84f7420ec97c7b25a67b2303335a559ea53617aaf93b8248d97b30",
+      "source": "Self-selected Onyx preferences and price concern; not representative. Checked 2026-10-14.",
+      "kind": "text",
+      "context": "Self-selected Onyx preferences and price concern; not representative. Checked 2026-10-14."
+    },
+    {
+      "id": "d0ce39c4ec5fafac49b873b60900d594ca411eed7e5fc4c477464fcb03198d32",
+      "source": "Official lighter filter-and-espresso comparison. Checked 2026-10-14.",
+      "kind": "text",
+      "context": "Official lighter filter-and-espresso comparison. Checked 2026-10-14."
+    },
+    {
+      "id": "183f630d312ceb4977b40fa64fc76ddf3ea0778734ecc0b0de1ef358a953ac96",
+      "source": "General storage advice, not a Monarch-specific product claim. Checked 2026-10-14.",
+      "kind": "text",
+      "context": "General storage advice, not a Monarch-specific product claim. Checked 2026-10-14."
+    },
+    {
+      "id": "95105ad237f6d5a7928c744e9e21535484f853e52c94900dd89ec6760f4124c0",
+      "source": "Alternative dual-method blend record. Checked 2026-10-14.",
+      "kind": "text",
+      "context": "Alternative dual-method blend record. Checked 2026-10-14."
+    },
+    {
+      "id": "20d5deac017bfe1faa83fccbe8c91072edd5f9c460dbf7cc1acd91e22a26f240",
+      "source": "Pay attention to 10 oz and the milk role",
+      "kind": "text",
+      "context": "Pay attention to 10 oz and the milk role"
+    },
+    {
+      "id": "12f61afdc15e162ebd044b133d6ec63cfc88698ec8cc9451df75d6428a1d60ac",
+      "source": "Monarch has a clear milk-drink job and a developed chocolate-and-berry brief. A 10 oz bag is the sensible test for most buyers. If your real routine is filter-first or fruit-led straight espresso, compare Geometry or another lighter blend before paying a larger-bag price.",
+      "kind": "text",
+      "context": "Monarch has a clear milk-drink job and a developed chocolate-and-berry brief. A 10 oz bag is the sensible test for most buyers. If your real routine is filter-first or fruit-led straight espresso, compare Geometry or another lighter blend before paying a larger-bag price."
+    },
+    {
+      "id": "b42a7016c3cfd65a0aebd638ea6b93802bdce3ba1cf3a90c90ce6c6644e9cda2",
+      "source": "Check Monarch at the roaster",
+      "kind": "text",
+      "context": "Check Monarch at the roaster ↗"
+    },
+    {
+      "id": "3691db877dfb8d02be316686e97d66ad4295a1373ba782d3fba42247401829ed",
+      "source": "Onyx Monarch review: a developed espresso blend built for milk | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "64dd85c9633eca9391ec830f9d4b58f9f3ab0a779fdab407f98adaf5ba6b789e",
+      "source": "Research-led US Onyx Monarch review covering its current Colombia-Ethiopia blend record, roaster chocolate and berry notes, milk fit, bag sizes, freshness and dated value.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "c17fa5db4746a55b6e9e41d41dec38cf836e280082d872c2b31a1d96d2c9fc2d",
+      "source": "Official Onyx product photograph used for identification; not a Coffeedant tasting photograph.",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "e7b596f03c613b79508dca4ce4c88b6313591c66055f9065e08c49d8b6362c8e",
+      "source": "Onyx Coffee Lab",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "57c350ce1bb73da3f3bace838593603482ff5e111bef69486ba083c0ad5cf464",
+      "source": "Onyx Monarch review: a developed espresso blend built for milk",
+      "kind": "json",
+      "context": "headline"
+    },
+    {
+      "id": "3bb9ce730a224637c38c6fe71f6366e23e98bb9ff5d2d80eaeceaa8b2e82908e",
+      "source": "Has Coffeedant tasted Monarch?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "d019048e0bf1ca5e2bdd1c39d9566eb35cc46436fc81404a7119d683f4560f47",
+      "source": "No. The chocolate and berry descriptors are Onyx's; this is a research-led buying assessment.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "e5ebce60d518ca9079b721dc8b340c1d04fcf04df1be882b792463522c8145d4",
+      "source": "Is Monarch for espresso only?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "99c9c993f55b3c0c4542526fc4392d3628aacdf90df6917d1336401852fcb5aa",
+      "source": "Onyx prefers it for espresso and also says it can be brewed as drip.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "b3452c4927ba840d2fb0756cab5e2e90cac1ee2a6186fa25685f873c98967113",
+      "source": "Is Monarch a fixed single origin?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "63c739d4f88aaa0c42cf756e4861cbc63ac42b51c2b0aff8c90a8527f29f7bbe",
+      "source": "No. The checked listing names Colombia and Ethiopia with rotating microlots and mixed varieties.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "e13414ebcbe627631fc5fe16f94e959f4c57b6fb833b89c24d5783c11d8044b3",
+      "source": "How big is the standard bag?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "3b319411d855be4dc5037a14e3bd7b17ca69f8546fe94083977cd2837004fb50",
+      "source": "The checked direct listing offered a 10 oz bag at $21.50, plus 2 oz, 2 lb and 5 lb options.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "bf3eb5813763e2a6cc093bc3db2710987ca4ab2d710f8d892f6776efc463d2dd",
+      "source": "Does the published caffeine figure apply to my espresso?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "c2362714a5148496bc64e6cc878a96a77a68ff3c0c56ac0075f440cc9e5b447e",
+      "source": "No Coffeedant dose-specific caffeine test was done; do not convert a roaster reference into a measured amount in your cup.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "dfb01b5e89f973f8ea5ea0500192dc7d956ca22b434ff0c136d8c46f2d4daaa7",
+      "source": "Why compare price per ounce?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "79310a0732b54bf72f3576974c0a933613a8a1b750e34a90efd8de68055519f5",
+      "source": "Monarch's 10 oz retail bag is smaller than many 12 oz competitors, so sticker prices alone mislead.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "615ead55e491492c6d4efa6d16b0e0df0dbb494c013f0cf6a52b4884e3ebea72",
+      "source": "Stumptown Holler Mountain review: an organic medium blend for espresso and drip | Coffeedant",
+      "kind": "text",
+      "context": "Stumptown Holler Mountain review: an organic medium blend for espresso and drip | Coffeedant"
+    },
+    {
+      "id": "696106081f8621f2555956221eabcbd7282df939d48fb783c66f3ecbbb0c4b58",
+      "source": "A research-led look at Stumptown Holler Mountain whole beans, attributed citrus-caramel-berry notes, medium roast, organic claim, dual-method fit, storage and US price.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "7832ee4cd6ee93181a9f2eab70e42f62adfc36f5973122404475a5dc380ced32",
+      "source": "Stumptown Holler Mountain review: an organic medium blend for espresso and drip | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "88f48deb0d38033ac3fca1637258aa589de24cabdc5fe761df1a1cfc16fa6c7a",
+      "source": "Stumptown Coffee Roasters Holler Mountain",
+      "kind": "text",
+      "context": "Stumptown Coffee Roasters Holler Mountain"
+    },
+    {
+      "id": "2439571c5db4ae528b4b27b0f7a1c0544ab771acfc507a00726e78c2bdc52908",
+      "source": ". Official Stumptown product photograph for identification; no Coffeedant tasting or photography.",
+      "kind": "text",
+      "context": "Image: Stumptown Coffee Roasters. Official Stumptown product photograph for identification; no Coffeedant tasting or photography."
+    },
+    {
+      "id": "755b8dc326b802df3ac650a60e563b34941488579de7510136cb08795b4ca881",
+      "source": "Stumptown Holler Mountain review: an organic medium blend for espresso and drip",
+      "kind": "text",
+      "context": "Stumptown Holler Mountain review: an organic medium blend for espresso and drip"
+    },
+    {
+      "id": "2adf432ac3a2cbc0ee1f7d09d98ef822924b6d2a0ed1ca0bd5694b0b1cff7039",
+      "source": "I used Stumptown's current direct listing, medium-roast and blend records, brew guidance and freshness instructions. I treated third-party tasting as sample-specific and made a buying judgment without tasting.",
+      "kind": "text",
+      "context": "Author noteI used Stumptown's current direct listing, medium-roast and blend records, brew guidance and freshness instructions. I treated third-party tasting as sample-specific and made a buying judgment without tasting."
+    },
+    {
+      "id": "ce5e78231b202e8955ca942f99c4131ede76f92e5046fc611c3fa55004f32c42",
+      "source": "Households alternating drip coffee and espresso",
+      "kind": "text",
+      "context": "Households alternating drip coffee and espresso"
+    },
+    {
+      "id": "bf10a333a1dec43c611e6c70a34d09920ef1d2828ddab4c7ffa007b2d63b701a",
+      "source": "A medium-roast, organic-labeled blend with a caramel and fruit direction",
+      "kind": "text",
+      "context": "A medium-roast, organic-labeled blend with a caramel and fruit direction"
+    },
+    {
+      "id": "384c3cff1aa4ac5cc7278ba8a3437735239553744d76fffc74ac259f09067209",
+      "source": "Buyers willing to inspect roast date before buying at retail",
+      "kind": "text",
+      "context": "Buyers willing to inspect roast date before buying at retail"
+    },
+    {
+      "id": "3c0ea290065648791aeb1721fcb8def8cb13c067abdc472abe70fe4a48053be8",
+      "source": "You need a fixed single-origin farm or variety",
+      "kind": "text",
+      "context": "You need a fixed single-origin farm or variety"
+    },
+    {
+      "id": "75439d7f721b40b93401b8757c90a30948f5a64b5cfbd67225d79d522932c64d",
+      "source": "You want a deliberately dark, smoky profile",
+      "kind": "text",
+      "context": "You want a deliberately dark, smoky profile"
+    },
+    {
+      "id": "47d64b0140cdd8758894eebf2ea6161d6c709d25bb51e8c284aaf365ca113bb6",
+      "source": "You will not finish a 5 lb bag while it still suits your palate",
+      "kind": "text",
+      "context": "You will not finish a 5 lb bag while it still suits your palate"
+    },
+    {
+      "id": "61c8119a83bbd6cc9c7b3d30033a8e151d419b2a9bcfc1888a3d16b4ef8367e6",
+      "source": "Medium, per Stumptown's whole-bean collection",
+      "kind": "text",
+      "context": "Medium, per Stumptown's whole-bean collection"
+    },
+    {
+      "id": "247beaf653ef218251a357d78cf26dadb70dbd5795429d6cc7b880b92a48ac28",
+      "source": "Citrus, caramel, berry jam; attributed, not Coffeedant tasting",
+      "kind": "text",
+      "context": "Citrus, caramel, berry jam; attributed, not Coffeedant tasting"
+    },
+    {
+      "id": "007143934fbc3110d0fd43b09427e316aede2042c8973babb8725511f2dff54a",
+      "source": "Organic whole-bean year-round blend",
+      "kind": "text",
+      "context": "Organic whole-bean year-round blend"
+    },
+    {
+      "id": "0689c1906c2ece8ab47a51c5ce4f6f054950c077a93b0052b223f82c4272e4cd",
+      "source": "Origin / variety",
+      "kind": "text",
+      "context": "Origin / variety"
+    },
+    {
+      "id": "dd9a2fc22d4618101e45f5080325e2bda6e4d0fc6dd030870ad6c77f9c9688d8",
+      "source": "Changing components; no complete current farm or variety list established",
+      "kind": "text",
+      "context": "Changing components; no complete current farm or variety list established"
+    },
+    {
+      "id": "c2fd0d1f948cb1a418d705fb1cc535b57c928c97fd7685b99c9dc545a06b25c0",
+      "source": "Espresso and daily drip, per roaster",
+      "kind": "text",
+      "context": "Espresso and daily drip, per roaster"
+    },
+    {
+      "id": "d71f4e8a57455335fc73ef0052fc9acdbe8971af280c96ee32ee84a8c6267e68",
+      "source": "12 oz ($20) and 5 lb ($110) at check",
+      "kind": "text",
+      "context": "12 oz ($20) and 5 lb ($110) at check"
+    },
+    {
+      "id": "214eb3cfad0b232f5a41a8edf6708f6b66c334de36228590248fdf5b090cc2a3",
+      "source": "The repeatable name covers a changing blend",
+      "kind": "text",
+      "context": "The repeatable name covers a changing blend"
+    },
+    {
+      "id": "415eed34295203b92be6a8a4436574a6b6892e2657811471c5851af85f8c9c40",
+      "source": "Caramel is a bridge between the citrus and berry words",
+      "kind": "text",
+      "context": "Caramel is a bridge between the citrus and berry words"
+    },
+    {
+      "id": "360828ba25a87ffb82123c543ff0f12a56ad2dc5a2be5553ec452c38ce0adc7e",
+      "source": "Versatility costs a second grinder setting",
+      "kind": "text",
+      "context": "Versatility costs a second grinder setting"
+    },
+    {
+      "id": "dc66d3577b5f23fba2889524a3067c40fd8155717a18794b48f3789a9e5eb3b7",
+      "source": "Check the date on the channel you use",
+      "kind": "text",
+      "context": "Check the date on the channel you use"
+    },
+    {
+      "id": "84f1e02528ab63707a034b26aa2c6bd3d3bd04eccd12fcd879f13e49ceb9eaea",
+      "source": "The direct price is a dated starting point",
+      "kind": "text",
+      "context": "The direct price is a dated starting point"
+    },
+    {
+      "id": "3a6b669f71c2769fafc13cf64eaec7d3c0e75e1fc779744b201b7df6f7892115",
+      "source": "Change the coffee only when you know why",
+      "kind": "text",
+      "context": "Change the coffee only when you know why"
+    },
+    {
+      "id": "61863b4da757655d8df69cd6af15d77279ba0f5eaf034f291919c8c6011d0521",
+      "source": "Stumptown describes Holler Mountain as an organic hometown blend and explicitly positions it for espresso and everyday drip. A blend name is an intended flavor target, not a lot number. Its blend explainer says year-round products are built from changing coffees selected for each component's role. Do not infer an unchanged farm, variety or processing method from the package name alone.",
+      "kind": "text",
+      "context": "Stumptown describes Holler Mountain as an organic hometown blend and explicitly positions it for espresso and everyday drip. A blend name is an intended flavor target, not a lot number. Its blend explainer says year-round products are built from changing coffees selected for each component's role. Do not infer an unchanged farm, variety or processing method from the package name alone. [1] [2]"
+    },
+    {
+      "id": "3ef08448a7ef1de9fa2bb96641b559f51d53f3e0aa9590f7d355362cab624be7",
+      "source": "The roaster's whole-bean category calls Holler Mountain medium roast. That is more useful than a vague 'balanced' label when you compare it with French Roast or Hair Bender, but it is still a roaster classification rather than an instrument reading on the bag in your hand. Certification and medium roast also answer separate questions: organic sourcing is not a measured taste or freshness guarantee.",
+      "kind": "text",
+      "context": "The roaster's whole-bean category calls Holler Mountain medium roast. That is more useful than a vague 'balanced' label when you compare it with French Roast or Hair Bender, but it is still a roaster classification rather than an instrument reading on the bag in your hand. Certification and medium roast also answer separate questions: organic sourcing is not a measured taste or freshness guarantee. [3]"
+    },
+    {
+      "id": "5a6c850b3a885b7afad3be3ec51a5571ea7017ff23969ddc1969b4a828157e9e",
+      "source": "Stumptown lists citrus, caramel and berry jam. They are the roaster's sensory brief. A medium blend with that brief could be interesting black and still bring sweetness to milk, but Coffeedant has not tasted this coffee and cannot promise which note your grinder, water or batch will emphasize. If you want nearly no fruit impression, the official descriptors are a reason to start elsewhere.",
+      "kind": "text",
+      "context": "Stumptown lists citrus, caramel and berry jam. They are the roaster's sensory brief. A medium blend with that brief could be interesting black and still bring sweetness to milk, but Coffeedant has not tasted this coffee and cannot promise which note your grinder, water or batch will emphasize. If you want nearly no fruit impression, the official descriptors are a reason to start elsewhere. [1]"
+    },
+    {
+      "id": "7e9282fa767a78cf341ed8831ec62819461929c8e92e81adf29882dd0448015c",
+      "source": "An independent Holler Mountain reviewer reported results over a particular four-week brewing period. That gives a sample-based perspective, but cannot make every shipment taste the same. The useful buyer question is whether you prefer the Holler Mountain brief over Hair Bender's darker chocolate and raisin direction. Try equal-size fresh bags in your actual drink instead of treating either reviewer's preference as a ranking.",
+      "kind": "text",
+      "context": "An independent Holler Mountain reviewer reported results over a particular four-week brewing period. That gives a sample-based perspective, but cannot make every shipment taste the same. The useful buyer question is whether you prefer the Holler Mountain brief over Hair Bender's darker chocolate and raisin direction. Try equal-size fresh bags in your actual drink instead of treating either reviewer's preference as a ranking. [7]"
+    },
+    {
+      "id": "b8a35abfca8657f7aa72a3c96a3e6651cfe683caa94edbfacb28e6ab3ef30614",
+      "source": "The roaster says Holler Mountain can pull espresso and serve as a daily drip coffee. That removes a product suitability doubt, but it does not mean one recipe transfers. Stumptown's method index separates espresso, automatic drip and manual filter because dose, grind and contact time differ. Use your basket's dose for espresso and a filter recipe for drip, recording results separately.",
+      "kind": "text",
+      "context": "The roaster says Holler Mountain can pull espresso and serve as a daily drip coffee. That removes a product suitability doubt, but it does not mean one recipe transfers. Stumptown's method index separates espresso, automatic drip and manual filter because dose, grind and contact time differ. Use your basket's dose for espresso and a filter recipe for drip, recording results separately. [1] [4]"
+    },
+    {
+      "id": "b4c7d57b20298068bae4a93ce12ef23c465e17ab0a5d716b9c38d0cf2c808d61",
+      "source": "If the household alternates every morning, consider whether your grinder can return to the prior espresso setting without repeated waste. A hopper full of Holler Mountain will not fix a grinder that cannot make the needed adjustment. For milk drinks, dial the shot before judging how caramel or berry language reads in milk; a large latte can hide differences that show up clearly in black drip.",
+      "kind": "text",
+      "context": "If the household alternates every morning, consider whether your grinder can return to the prior espresso setting without repeated waste. A hopper full of Holler Mountain will not fix a grinder that cannot make the needed adjustment. For milk drinks, dial the shot before judging how caramel or berry language reads in milk; a large latte can hide differences that show up clearly in black drip."
+    },
+    {
+      "id": "f28fd10842fcee4f6fafcec4330aafab08c21aec2336f02a014436ea258092ac",
+      "source": "Stumptown sells direct and through retail partners. Those channels can have different time between roast and purchase. Inspect the bag's roast date and package condition rather than assuming a grocery bag and a direct shipment are equivalent. Stumptown's freshness and storage articles favor keeping whole beans protected from air and moisture and caution against repeatedly moving an opened bag in and out of the freezer.",
+      "kind": "text",
+      "context": "Stumptown sells direct and through retail partners. Those channels can have different time between roast and purchase. Inspect the bag's roast date and package condition rather than assuming a grocery bag and a direct shipment are equivalent. Stumptown's freshness and storage articles favor keeping whole beans protected from air and moisture and caution against repeatedly moving an opened bag in and out of the freezer. [5] [6]"
+    },
+    {
+      "id": "f78e9b4302b9ccd6a026c96accfb42303b92c68b58e600c302d019c7c08d39db",
+      "source": "At 12 oz, the bag offers roughly nineteen 18 g espresso doses before dialing waste. A 5 lb bag offers far more; the larger format makes sense only if your household consumes enough or has a portioning plan. There is no universal number of days this blend stays enjoyable in every kitchen, so use the first small bag to learn your own consumption and flavor curve.",
+      "kind": "text",
+      "context": "At 12 oz, the bag offers roughly nineteen 18 g espresso doses before dialing waste. A 5 lb bag offers far more; the larger format makes sense only if your household consumes enough or has a portioning plan. There is no universal number of days this blend stays enjoyable in every kitchen, so use the first small bag to learn your own consumption and flavor curve."
+    },
+    {
+      "id": "7b307da6f932ca75532aa3d744a591b5e6520540c80bc67eb08766e4263236dc",
+      "source": "The official US feed showed $20 for 12 oz and $110 for 5 lb on October 14, 2026. At $20 for 12 oz, the illustrative bean cost is about $0.059 per gram or $1.06 for an 18 g espresso dose before shipping, tax, milk and grinder waste. A subscription promotion may lower checkout price, but it has separate terms; it is not the base comparison in this review.",
+      "kind": "text",
+      "context": "The official US feed showed $20 for 12 oz and $110 for 5 lb on October 14, 2026. At $20 for 12 oz, the illustrative bean cost is about $0.059 per gram or $1.06 for an 18 g espresso dose before shipping, tax, milk and grinder waste. A subscription promotion may lower checkout price, but it has separate terms; it is not the base comparison in this review. [1]"
+    },
+    {
+      "id": "c84c8c416b3e5535fa4421364d8b0da6cdc83b73c7aee5d192c7ff9111afc725",
+      "source": "That figure is close to Hair Bender's direct 12 oz price at this check. The buying decision should turn on your preferred roast direction, use of organic certification and whether the roast date available to you is satisfactory. Paying for a huge bag you cannot finish is not a saving.",
+      "kind": "text",
+      "context": "That figure is close to Hair Bender's direct 12 oz price at this check. The buying decision should turn on your preferred roast direction, use of organic certification and whether the roast date available to you is satisfactory. Paying for a huge bag you cannot finish is not a saving."
+    },
+    {
+      "id": "08ed229be863ddd752a55335776b889e4b4d0dceac99e70c499e7d278cd9b7f0",
+      "source": "Hair Bender is the same-roaster move toward a medium/dark café espresso recipe and dark-chocolate anchor. Counter Culture Hologram offers a medium fruit-and-milk-chocolate blend with a roast-date component selector. Apollo leans toward washed Ethiopian citrus and floral notes. The comparisons describe roaster briefs, not an in-house tasting order.",
+      "kind": "text",
+      "context": "Hair Bender is the same-roaster move toward a medium/dark café espresso recipe and dark-chocolate anchor. Counter Culture Hologram offers a medium fruit-and-milk-chocolate blend with a roast-date component selector. Apollo leans toward washed Ethiopian citrus and floral notes. The comparisons describe roaster briefs, not an in-house tasting order. [8] [9]"
+    },
+    {
+      "id": "ab4c4d92fba6035214780e6d5f448fd03a0337706ab65a5cc7f977cffe39e41c",
+      "source": "If you mostly drink filter coffee and need exact lot transparency, a current single origin may be more informative than any year-round blend. If you mostly make large milk drinks and want more roast presence, an espresso-focused darker blend may fit better. Holler Mountain's strength is the middle ground only when the middle ground is your actual routine.",
+      "kind": "text",
+      "context": "If you mostly drink filter coffee and need exact lot transparency, a current single origin may be more informative than any year-round blend. If you mostly make large milk drinks and want more roast presence, an espresso-focused darker blend may fit better. Holler Mountain's strength is the middle ground only when the middle ground is your actual routine."
+    },
+    {
+      "id": "1e1d7a78053442b7f7b31f87bc1165beaa657aa8368da5b6daa7fcce4b299a34",
+      "source": "A chocolate-led medium/dark café espresso blend that still supports drip.",
+      "kind": "text",
+      "context": "A chocolate-led medium/dark café espresso blend that still supports drip."
+    },
+    {
+      "id": "96cf633cd63c787792d544c70b3f338316f4177025152a83660903a57b4bb04d",
+      "source": "A medium fruit-and-chocolate blend with a live component selector.",
+      "kind": "text",
+      "context": "A medium fruit-and-chocolate blend with a live component selector."
+    },
+    {
+      "id": "b29ac56eb57de05211c3542c0aebb3b3f78e13a647d61c34e0899f7a48ddde42",
+      "source": "A washed Ethiopian, citrus-and-floral alternative.",
+      "kind": "text",
+      "context": "A washed Ethiopian, citrus-and-floral alternative."
+    },
+    {
+      "id": "166af4bb222576e41e7a637efa059e528a8fa71582564b7bb59bfe20c303ee2c",
+      "source": "Check repeatable espresso-to-drip adjustment before replacing the beans.",
+      "kind": "text",
+      "context": "Check repeatable espresso-to-drip adjustment before replacing the beans."
+    },
+    {
+      "id": "ce01abc91c456c0825791e0ce945ec44946a8cb78233cb3175862ba0dfd8865b",
+      "source": "This is a research-led buying assessment using the current Stumptown product feed, roaster blend and brewing documentation, freshness advice and one independent sample review. Coffeedant has not bought, brewed, tasted, measured or photographed Holler Mountain. Third-party taste is sample-specific and is not treated as an average score.",
+      "kind": "text",
+      "context": "This is a research-led buying assessment using the current Stumptown product feed, roaster blend and brewing documentation, freshness advice and one independent sample review. Coffeedant has not bought, brewed, tasted, measured or photographed Holler Mountain. Third-party taste is sample-specific and is not treated as an average score."
+    },
+    {
+      "id": "10919d7e470433023601aca045ead734852adcf3843cc1003cdc3bb422095823",
+      "source": "US direct variants and prices were checked October 14, 2026. Shipping, tax, discounts, lot composition and stock can change. Where the checked record does not identify a complete current farm or variety list, this review leaves it unknown.",
+      "kind": "text",
+      "context": "US direct variants and prices were checked October 14, 2026. Shipping, tax, discounts, lot composition and stock can change. Where the checked record does not identify a complete current farm or variety list, this review leaves it unknown."
+    },
+    {
+      "id": "99de9529162e9f335d78d904b9a5234a0def47b95029a3116baafdaae34c4459",
+      "source": "Holler Mountain FAQ",
+      "kind": "text",
+      "context": "Holler Mountain FAQ"
+    },
+    {
+      "id": "18988af652dfad92455edc48a08c8d25773e728025841b721a4cb51bc47a79f3",
+      "source": "Has Coffeedant brewed Holler Mountain?",
+      "kind": "text",
+      "context": "Has Coffeedant brewed Holler Mountain?"
+    },
+    {
+      "id": "1c95ff9c6770083eb81046a166bb883a24924675854a19e924b11d396e1b8718",
+      "source": "No. Its flavor notes are attributed to Stumptown and this is a research-led buying assessment.",
+      "kind": "text",
+      "context": "No. Its flavor notes are attributed to Stumptown and this is a research-led buying assessment."
+    },
+    {
+      "id": "c2fcd2d9b7918aec3568a66659e07c990d7093b9e334ccf6f0fb1b679be8cf7a",
+      "source": "Is Holler Mountain a dark roast?",
+      "kind": "text",
+      "context": "Is Holler Mountain a dark roast?"
+    },
+    {
+      "id": "1e49d1f5acd2c852d7d4a235e4881b9ccd3f85685f6a8681197c56b5e1858381",
+      "source": "Stumptown's whole-bean category classifies it as medium roast.",
+      "kind": "text",
+      "context": "Stumptown's whole-bean category classifies it as medium roast."
+    },
+    {
+      "id": "cc42f52ca30e769c4d6ff851223fc658033ad0b000f09675fbec4ec3e921ead0",
+      "source": "Can it work for both espresso and drip?",
+      "kind": "text",
+      "context": "Can it work for both espresso and drip?"
+    },
+    {
+      "id": "434eab378639c4597d37b8341ffbf2587664cf447f17e9804087e0645dd4f46f",
+      "source": "Yes, Stumptown explicitly markets both uses. Keep separate grind and dose recipes.",
+      "kind": "text",
+      "context": "Yes, Stumptown explicitly markets both uses. Keep separate grind and dose recipes."
+    },
+    {
+      "id": "67a3468ff961d4cd5b3ad3c6ed35ef0a415f4f4c9078f0a672c7042ffdc9655a",
+      "source": "Is it organic?",
+      "kind": "text",
+      "context": "Is it organic?"
+    },
+    {
+      "id": "bfc3a9ac1b6da05a2ae90b23c58a579fe05ac09b5404d8fa4e57f217ae868e5e",
+      "source": "The current Stumptown product listing calls the blend organic. Check the actual pack for the certification relevant to your purchase.",
+      "kind": "text",
+      "context": "The current Stumptown product listing calls the blend organic. Check the actual pack for the certification relevant to your purchase."
+    },
+    {
+      "id": "f7fbd855a7306f88fe1bb2700df1fc89012315e27f617f6325422a0fe51bf462",
+      "source": "Are the exact origin and variety fixed?",
+      "kind": "text",
+      "context": "Are the exact origin and variety fixed?"
+    },
+    {
+      "id": "f361d82bb381142d97a2e9884c37380609c3f38351c74e542c11f05442f2963e",
+      "source": "The checked sources do not establish one permanent farm or complete variety list for this changing blend.",
+      "kind": "text",
+      "context": "The checked sources do not establish one permanent farm or complete variety list for this changing blend."
+    },
+    {
+      "id": "b977d6fb697d20ef8600861e975bcf37658474cf8712f9037bed3cc17dd7070c",
+      "source": "Which size is sensible first?",
+      "kind": "text",
+      "context": "Which size is sensible first?"
+    },
+    {
+      "id": "9d977bab1eefe90f98edc36fe101f424ec2ebe4167dc83c5838c03bf08fa6674",
+      "source": "Start with the 12 oz whole-bean bag and use your actual consumption before considering 5 lb.",
+      "kind": "text",
+      "context": "Start with the 12 oz whole-bean bag and use your actual consumption before considering 5 lb."
+    },
+    {
+      "id": "7b68d97f28bae91ee9c9ac57620d18956fd25ed37f78e591f11486866b64a714",
+      "source": "Stumptown Holler Mountain listing",
+      "kind": "text",
+      "context": "Stumptown Holler Mountain listing ↗"
+    },
+    {
+      "id": "21852030f3df9f8e1ab88e1086ca0010858afcbc1e723e0875ded1f244c32af9",
+      "source": "Official organic claim, flavor brief, brew use and variants; feed checked for $20/12 oz and $110/5 lb. Checked 2026-10-14.",
+      "kind": "text",
+      "context": "Official organic claim, flavor brief, brew use and variants; feed checked for $20/12 oz and $110/5 lb. Checked 2026-10-14."
+    },
+    {
+      "id": "11fc68b88006995af9cd7294362b82fb240993667d2f7088db79c279ca6ab9ae",
+      "source": "Stumptown: how blends are made",
+      "kind": "text",
+      "context": "Stumptown: how blends are made ↗"
+    },
+    {
+      "id": "0216bce61668c59c9defbeb598b1762454cafd01563fcd46856798f84a2daa2b",
+      "source": "Roaster explanation of changing year-round blend components. Checked 2026-10-14.",
+      "kind": "text",
+      "context": "Roaster explanation of changing year-round blend components. Checked 2026-10-14."
+    },
+    {
+      "id": "41410b337d08a79240fa6de1291a57f1ee0248be58411c621d7a92ac865c559a",
+      "source": "Stumptown whole-bean collection",
+      "kind": "text",
+      "context": "Stumptown whole-bean collection ↗"
+    },
+    {
+      "id": "d8b2374013959d467be826e8eb4e48cf78a21c31740d52d1515c8c3622ea41b9",
+      "source": "Official medium-roast classification. Checked 2026-10-14.",
+      "kind": "text",
+      "context": "Official medium-roast classification. Checked 2026-10-14."
+    },
+    {
+      "id": "1b71ed28e4348323cffcbf3946ccd544cf1091056fc7e98852f7128fe423f24e",
+      "source": "Distinct espresso and filter brewing methods. Checked 2026-10-14.",
+      "kind": "text",
+      "context": "Distinct espresso and filter brewing methods. Checked 2026-10-14."
+    },
+    {
+      "id": "c28830d31a92e8a3839f210edd1b58b339a31d10aad56ce63bd06b7ebbccc5ff",
+      "source": "Stumptown: coffee freshness",
+      "kind": "text",
+      "context": "Stumptown: coffee freshness ↗"
+    },
+    {
+      "id": "ae68ac476e016b4fe667eda8daf3f36ee2ae3c2d9fe822dd4f57ecfe668af621",
+      "source": "Roaster guidance to evaluate whole-bean freshness. Checked 2026-10-14.",
+      "kind": "text",
+      "context": "Roaster guidance to evaluate whole-bean freshness. Checked 2026-10-14."
+    },
+    {
+      "id": "f87ed9bb60e0bc013e9301b691a9e113922f32336cca48e48cf433946c0fbb9a",
+      "source": "Stumptown: storage and freezer",
+      "kind": "text",
+      "context": "Stumptown: storage and freezer ↗"
+    },
+    {
+      "id": "afa1f066ff6ffb297ab3bd8f23383df3b7ebddc7e2263decbb19919fc7bec598",
+      "source": "Roaster storage guidance and moisture caveat. Checked 2026-10-14.",
+      "kind": "text",
+      "context": "Roaster storage guidance and moisture caveat. Checked 2026-10-14."
+    },
+    {
+      "id": "c5b6f4cebd7f1c8c1c6466a0d17948bb2d58e48b1cb40c8f6fbb55105596b46d",
+      "source": "Coffeexplore: Holler Mountain four-week review",
+      "kind": "text",
+      "context": "Coffeexplore: Holler Mountain four-week review ↗"
+    },
+    {
+      "id": "cdcc05f8114950d516fccb8502f971d893172ab62880d95d35ed1252efa026d5",
+      "source": "Independent sample-based evaluation, not a result for future bags. Checked 2026-10-14.",
+      "kind": "text",
+      "context": "Independent sample-based evaluation, not a result for future bags. Checked 2026-10-14."
+    },
+    {
+      "id": "c024c067a8208b30ae8899ddc4e0fc94a7a8d82586dde486da17e400af8ce089",
+      "source": "Same-roaster comparison with a different flavor direction. Checked 2026-10-14.",
+      "kind": "text",
+      "context": "Same-roaster comparison with a different flavor direction. Checked 2026-10-14."
+    },
+    {
+      "id": "92a083b2bb64c74de516630a82d24faa544f9bf9e782d8e4affec0f65ce2c5fa",
+      "source": "Alternative washed Ethiopian flavor direction. Checked 2026-10-14.",
+      "kind": "text",
+      "context": "Alternative washed Ethiopian flavor direction. Checked 2026-10-14."
+    },
+    {
+      "id": "6b241e3a9d5e5b077f1925eb74ec2e590b931f6ae9b442f525de7f4dab97e56e",
+      "source": "Try the small bag in both brewers",
+      "kind": "text",
+      "context": "Try the small bag in both brewers"
+    },
+    {
+      "id": "420d54bb36eec875aeff23b8cbce5c47e15d4abac89e563523149a80917d27f6",
+      "source": "Holler Mountain is a credible dual-method candidate if a medium, organic blend and Stumptown's citrus-caramel-berry brief match your household. Keep two recipes and check the roast date. If one method dominates, a more focused coffee may be a better purchase than a larger bag of a compromise.",
+      "kind": "text",
+      "context": "Holler Mountain is a credible dual-method candidate if a medium, organic blend and Stumptown's citrus-caramel-berry brief match your household. Keep two recipes and check the roast date. If one method dominates, a more focused coffee may be a better purchase than a larger bag of a compromise."
+    },
+    {
+      "id": "87460fd50a92ea0ec9227e9fde963ba431493e21f4ac023545df2bca6675bc05",
+      "source": "Check Holler Mountain at the roaster",
+      "kind": "text",
+      "context": "Check Holler Mountain at the roaster ↗"
+    },
+    {
+      "id": "4f0dff4d65e493bafab89c79aec7924d32eae1722a0c3adbfe54fd150236501d",
+      "source": "Stumptown Holler Mountain review: an organic medium blend for espresso and drip | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "2ae1c61bec455fd546634d7227ba1de08fa1efc750224562d23093403c35e27a",
+      "source": "A research-led look at Stumptown Holler Mountain whole beans, attributed citrus-caramel-berry notes, medium roast, organic claim, dual-method fit, storage and US price.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "08bb0eaa87408196ca0a7f385f6837b16582f8d5fcf64d9a24da19953bc5813c",
+      "source": "Official Stumptown product photograph for identification; no Coffeedant tasting or photography.",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "06de89cf25c06acda7994b67792d5d4cd3acaae0fdcf1c63e10d970d73009648",
+      "source": "Stumptown Coffee Roasters Holler Mountain",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "f1e590d7a6010d507db2b27fa5eed7ec3b7462f57d642600cc7d8d407f91ce54",
+      "source": "Stumptown Holler Mountain review: an organic medium blend for espresso and drip",
+      "kind": "json",
+      "context": "headline"
+    },
+    {
+      "id": "a8fac00086ed7089b31bf797b70a189e72fcd03ca1a079bbf462b53817adce59",
+      "source": "Has Coffeedant brewed Holler Mountain?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "8d00759696073e28a3487146bb9016fe4c765fa8c5b203ddd75300b861c8e00e",
+      "source": "No. Its flavor notes are attributed to Stumptown and this is a research-led buying assessment.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "d9ed5cc2a93ca1001eaf47fe1083b41ce9b003275b7c1e763e2834149976f317",
+      "source": "Is Holler Mountain a dark roast?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "62dd2e80b00d044691753d1fbf0cf3dde43edbb1da795c1e952bf4917ad38f3d",
+      "source": "Stumptown's whole-bean category classifies it as medium roast.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "658a9918af4312a88cfdd04ad27e537fd2be1f27029153c681135b3f3f7edd4e",
+      "source": "Can it work for both espresso and drip?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "5b8e6537da2089aebac8e8b3c549e699110765263cd9ec6475ac032ef3f80f41",
+      "source": "Yes, Stumptown explicitly markets both uses. Keep separate grind and dose recipes.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "d6a2e4b9887e237928dc472ad69fca4284afc768c638ec90ef90e475a15652eb",
+      "source": "Is it organic?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "4e76afc320150c340234849f515027ca7df3fb5ded5e2b6555f9708a71408eb7",
+      "source": "The current Stumptown product listing calls the blend organic. Check the actual pack for the certification relevant to your purchase.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "6fe30dc890f5022631565296cfc974634734215cc0bc409d4d4f3c84deb758f4",
+      "source": "Are the exact origin and variety fixed?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b924fc225db6af4cf40f2cd2f15f4b82bb6e52a68805de331755f64af45b82dc",
+      "source": "The checked sources do not establish one permanent farm or complete variety list for this changing blend.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "9df6f217d96f9b8b820de3a3dfb981a4cee99feff918016c98eca7d4cdcd6474",
+      "source": "Which size is sensible first?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "bab58f9124e6b55964675d857894ecc2285180a51e537f6efdf6ed1e7cf36910",
+      "source": "Start with the 12 oz whole-bean bag and use your actual consumption before considering 5 lb.",
+      "kind": "json",
+      "context": "text"
+    }
+  ],
+  "snapshotHash": "504e9f0402f80f3afbf568ea733bb8c3dc74a450ea7dcd96bddb698e84343661"
+}

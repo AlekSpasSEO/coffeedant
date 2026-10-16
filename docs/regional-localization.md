@@ -835,6 +835,58 @@ public hostname, published flag, paid API, billing or subagent changes are made.
 Continue the remaining full guides/reviews and regional Deals safeguards before
 production cutover; the continuation remains active.
 
+### Complete Monarch and Holler Mountain reviews; current 148-product Finder (2026-10-16)
+
+Batch nineteen directly translates the entire Onyx Monarch and Stumptown Holler
+Mountain reviews in NL/DE/FR. Their source article bodies contain 1,202 and 1,208
+words, including every section, methodology, source note, recommendation and
+twelve visible/structured FAQ answers per language. Headers, metadata, author
+disclosures and photo attribution are included. The frozen review snapshot has
+191 slots / 157 distinct strings. Six verbatim approvals are exact model, coffee
+and roaster names; no article body is exempted or shortened. Routes retain the
+product identifiers under `/koffiebonen/`, `/kaffeebohnen/` and `/cafe-en-grains/`;
+all earlier URLs, particularly the approved Dutch dosing URL, remain unchanged.
+
+Monarch's rotating lots and inconsistent source process fields remain qualified,
+not a false permanent origin/variety/process list. Roaster sensory/caffeine
+claims are not Coffeedant measurements. Its smaller 10 oz format and original
+dated US dollar comparisons remain explicit. Holler Mountain retains separate
+espresso/filter instructions, grinder workflow, variable blend and packaging
+history. Organic certification is not a taste/freshness guarantee, an outside
+four-week sample is not future-bag evidence, and neither review invents tasting,
+brewing, measurements or photography by Coffeedant.
+
+Concurrent US publication adds seven canonical pages and a 148th Finder record.
+A separate immutable 37-slot / 31-string source refresh translates the shared
+Rivelia navigation, fifteen-review De'Longhi index, new coffee-hub cards and
+milk-guide teaser, and all three fields of the exact US Onyx Black Rivelia
+EXAM44055B. Its two 8.8 oz hoppers, 13 grinder settings, 3.5-inch display, profiles
+and named features are retained; the frozen source identity records its US price
+and search URL for audit, not local offer approval. A 50/50 half-caff bean blend
+is not turned into a measured half-caffeine cup. Card and navigation translation
+does not complete the new review or buying-guide bodies. All 148 current Finder
+descriptions are distinct and complete, with unknown regional prices and Amazon
+links suppressed. Import adds 238 cache entries per edition without changing
+previous passing wording; four no-longer-indexed source slots are not counted as
+newly translated text.
+
+All 80 localization tests and analytics validation pass. Six complete generated
+review checks compare full bodies, all FAQ answers, source links, scripts/runtime,
+structured roles/categories/credits, source dates, locale/canonical/noindex and
+scoped sitemaps. Six additional checks compare the complete coffee-hub sections
+and De'Longhi editorial/review-index sections, image alternatives, shared menu,
+metadata and links in every edition. The real generated Finder has all 148
+translated records with unverified commerce hidden. These are generated-output/
+runtime integration checks, not a new browser session or hands-on product test.
+
+The current source has 239 canonical pages / 47,488 unique slots. Ready regular
+pages are NL 55, DE 54 and FR 54, excluding the 404; scoped noindex builds contain
+56/55/55 pages. Pending slots are 41,575 / 41,681 / 41,681; the larger source queue
+includes the newly published US content. Full editions remain incomplete and
+unpublished. No public hostname, release flag, paid API, billing or subagent
+changes are made. Continue remaining complete articles and regional Deals
+safeguards before full cutover; the continuation remains active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
