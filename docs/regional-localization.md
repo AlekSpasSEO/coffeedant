@@ -1018,6 +1018,47 @@ incomplete and unpublished. No public hostname, release flag, paid API, billing
 or subagent changes are made. Continue the remaining full articles and regional
 Deals safeguards before full cutover; the continuation remains active.
 
+### Fast Forward and Gradient full reviews (2026-10-16)
+
+Batch twenty-three directly translates the complete Counter Culture Fast
+Forward and Gradient reviews into NL/DE/FR. The source article bodies contain
+1,236 and 1,135 words, including all sections, methodology, source notes,
+alternatives, recommendations and twelve visible/structured FAQ answers per
+edition. Headers, metadata, author disclosures, image attribution and accessible
+labels are included. The immutable snapshot contains 152 missing slots / 123
+distinct strings; the only verbatim approvals are the two exact coffee names.
+Import adds 152 current entries per edition without changing earlier passing
+cached wording. Existing translated verdict wording from the coffee hub is reused.
+
+Product identifiers remain unchanged beneath `/koffiebonen/`, `/kaffeebohnen/`
+and `/cafe-en-grains/`; the approved Dutch dosing URL is unchanged. Fast Forward's
+rotating organic components do not become a permanent origin mix or invented
+percentages. Its 20 g / 340 g filter example is not an espresso recipe. Gradient's
+Colombian sourcing does not imply a fixed farm; the attributed berry note remains
+an explicit buying distinction. Its 30 g / 510 g example and 1:17 advice remain
+separate from espresso basket settings. No milk-performance result is invented.
+The Guardian's dated outside samples and self-selected owner anecdotes are not
+Coffeedant tastings or guarantees for future bags. Fast Forward's $19.50 and
+Gradient's $20 source prices and their different per-dose arithmetic stay distinct
+US facts, not converted local offers.
+
+All 88 localization tests and analytics validation pass. Six complete generated
+HTML/JSON checks compare full bodies, all FAQ answers, metadata, source links,
+dates, identifiers, credits/roles/categories, scripts/runtime, locale/canonical/
+noindex and matching scoped sitemaps. Seventeen of twenty current coffee product
+reviews are now current and build-ready in each edition; Even Keel Half-Caff,
+Eye of the Tiger Espresso and Equator Blend remain queued. All 148 Finder records
+remain distinct and translated, with unknown regional prices and Amazon links
+hidden. QA uses generated output/runtime integration, not a new browser session
+or hands-on product test.
+
+The source remains 239 canonical pages / 47,102 unique slots. Ready regular pages
+are NL 62, DE 61 and FR 61, excluding the 404; scoped builds contain 63/62/62
+pages. Pending slots are 40,476 / 40,582 / 40,582. Full editions remain incomplete
+and unpublished. No public hostname, release flag, paid API, billing or subagent
+changes are made. Continue the remaining full articles and regional Deals
+safeguards before full cutover; the continuation remains active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
