@@ -3,6 +3,7 @@ import weekdayBeansA from './weekday-beans-20261014.json';
 import weekdayBeansB from './weekday-beans-20261014b.json';
 import weekdayDecafBeans from './weekday-beans-20261015';
 import weekdayBeans20261016 from './weekday-beans-20261016';
+import { internalHref } from './batch-review-builder';
 
 export type BeanReviewData = {
   slug: string; productId: string; roaster: string; coffee: string; title: string; description: string;
@@ -53,7 +54,7 @@ export const beanReviews: BeanReviewData[] = [{
     { id: 'brewing', title: 'Filter, espresso and milk ask different questions', paragraphs: [
       'Counter Culture markets the blend for various brew methods and suggests grinding immediately before brewing. Its broad starting point is one gram of coffee to seventeen grams of water for most devices. For a 20 g filter dose, that implies about 340 g water; it is a starting ratio, not an exact recipe or quality guarantee. Adjust grind and ratio one variable at a time, using the actual bag and brewer as the final reference. [1]',
       'Espresso uses a different ratio and extraction regime, so do not copy the 1:17 filter suggestion into a portafilter. Begin with your machine and basket’s normal dose, record beverage mass and time, taste, and make small grinder changes. Milk can soften fruit and emphasize chocolate, but a large milk drink can also hide the reason you chose Hologram. The Guardian’s smaller-milk suggestion is a useful test, not a rule. [3]',
-      'For people alternating brew methods, a grinder that can return repeatably to an espresso setting matters more than a bag claiming “all-purpose.” Coffeedant’s grinder guide compares the trade-offs, and its Encore ESP review covers a lower-cost mixed-method route. The coffee cannot compensate for stale grinding, unsuitable water or an unrepeatable recipe. [1] [2]',
+      `For people alternating brew methods, a grinder that can return repeatably to an espresso setting matters more than a bag claiming “all-purpose.” Coffeedant’s <a href="${internalHref('/grinder/')}">grinder guide</a> compares the trade-offs, and its <a href="${internalHref('/grinder/baratza-encore-esp/')}">Encore ESP review</a> covers a lower-cost mixed-method route. The coffee cannot compensate for stale grinding, unsuitable water or an unrepeatable recipe. [1] [2]`,
     ] },
     { id: 'freshness', title: 'Buy for the roast date and your consumption rate', paragraphs: [
       'Counter Culture advises checking a “Roasted On” date rather than a best-by date. Its freshness guide recommends keeping whole beans tightly sealed in the original one-way-valve bag with excess air pressed out, or in an airtight container that lets carbon dioxide escape without admitting oxygen. Grind just before brewing. The advice is more useful than a rigid claim that all coffees peak on the same day: roast, packaging, shipping, storage and brewing method differ. [2]',
@@ -69,8 +70,9 @@ export const beanReviews: BeanReviewData[] = [{
     ] },
   ],
   alternatives: [
-    { title: 'Counter Culture Big Trouble', reason: 'Roaster-described caramel and nut direction; check current blend details.', href: 'https://counterculturecoffee.com/products/big-trouble' },
-    { title: 'Counter Culture Apollo', reason: 'A more floral and citrus-led roaster brief; check current lot.', href: 'https://counterculturecoffee.com/products/apollo' },
+    { title: 'Counter Culture Big Trouble', reason: 'Roaster-described caramel and nut direction; check current blend details.', href: '/coffee-beans/counter-culture-big-trouble/', internal: true },
+    { title: 'Counter Culture Apollo', reason: 'A more floral and citrus-led roaster brief; check current lot.', href: '/coffee-beans/counter-culture-apollo/', internal: true },
+    { title: 'Beans for espresso and drip', reason: 'Compare Hologram with other coffees for switching brew methods.', href: '/coffee-beans/best-coffee-beans-for-espresso-and-drip/', internal: true },
     { title: 'Coffee grinder guide', reason: 'Match a grinder to espresso and filter changes.', href: '/grinder/', internal: true },
   ],
   faqs: [

@@ -27,6 +27,7 @@
     "audit:supporting-pages": "node scripts/audit-supporting-pages.mjs",
     "generate:review-media-ledgers": "node scripts/generate-review-media-ledgers.mjs",
     "update:coffee-finder": "node scripts/update-coffee-finder-sync.mjs",
+    "validate:coffee-finder": "node scripts/validate-coffee-finder.mjs",
     "update:amazon-offers": "node scripts/update-amazon-offers.mjs",
     "update:amazon-recommendations": "node scripts/update-amazon-recommendations.mjs",
     "validate:amazon-banners": "node scripts/validate-amazon-banners.mjs",

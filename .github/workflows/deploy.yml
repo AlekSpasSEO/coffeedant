@@ -46,6 +46,8 @@ jobs:
         run: npm run validate:amazon-banners
       - name: Validate Cloudflare bean reviews
         run: CF_PAGES=1 npm run validate:beans
+      - name: Validate Cloudflare finder coverage and hardware filters
+        run: CF_PAGES=1 npm run validate:coffee-finder
       - name: Validate Amazon catalog and Finder purchase links
         run: npm run validate:amazon-catalog
       - name: Build GitHub Pages target
@@ -64,6 +66,8 @@ jobs:
         run: npm run validate:amazon-banners
       - name: Validate GitHub Pages bean reviews
         run: npm run validate:beans
+      - name: Validate GitHub Pages finder and internal links
+        run: npm run validate:coffee-finder
       - name: Record canonical article parity
         run: npm run audit:article-parity
       - name: Print upgrade queue
