@@ -84,6 +84,7 @@ import { weekdayNinjaEs601Reviews } from './reviews/weekday-ninja-luxe-cafe-prem
 import { weekdayFellowSeries1Reviews } from './reviews/weekday-fellow-espresso-series-1';
 import { weekdayFellowOpus2Reviews } from './reviews/weekday-fellow-opus-2';
 import { weekdayBrevilleOracleDualBoilerBes995Reviews } from './reviews/weekday-breville-oracle-dual-boiler-bes995';
+import { weekdayDelonghiRiveliaReviews } from './reviews/weekday-delonghi-rivelia';
 import { upgradeVbmDomobarSingleBoilerDigitalReviews } from './reviews/upgrade-vbm-domobar-single-boiler-digital';
 import { upgradeVbmDomobarSuperHxReviews } from './reviews/upgrade-vbm-domobar-super-hx';
 import {
@@ -207,6 +208,7 @@ const candidates: MachineReviewData[] = [
   ...weekdayFellowSeries1Reviews,
   ...weekdayFellowOpus2Reviews,
   ...weekdayBrevilleOracleDualBoilerBes995Reviews,
+  ...weekdayDelonghiRiveliaReviews,
   ...upgradeVbmDomobarSingleBoilerDigitalReviews,
   ...upgradeVbmDomobarSuperHxReviews,
 ];
