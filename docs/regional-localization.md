@@ -797,6 +797,44 @@ no public hostname, published flag, paid API, billing or subagent changes are
 made. Continue the remaining full guides/reviews and regional Deals safeguards
 before production cutover; the continuation remains active.
 
+### Complete Forty-Six and Hair Bender reviews (2026-10-16)
+
+Batch eighteen directly translates the full Counter Culture Forty-Six and
+Stumptown Hair Bender reviews into NL/DE/FR. Their source article bodies contain
+1,703 and 1,362 words respectively, including methodology, all buying guidance,
+sources, final recommendations and six visible/structured FAQ answers each.
+Headers, metadata, author disclosures, image attribution, accessible labels and
+navigation are translated too. The frozen snapshot contains 192 missing slots /
+158 distinct strings; four verbatim approvals are exact coffee names, not body
+exemptions. Import adds 193 current cache entries per edition across slot kinds,
+with no changes to previously passing cached wording.
+
+Stable routes retain each product identifier under `/koffiebonen/`,
+`/kaffeebohnen/` and `/cafe-en-grains/`. Existing routes, including the approved
+Dutch dosing URL, are unchanged. Changing blends are not presented as fixed
+farms or current percentages. Forty-Six's 1:17 general filter guidance is not an
+espresso recipe. Hair Bender's 19.5 g / 24–28 g / 23–28 second roaster starting
+recipe retains basket and adjustment caveats. Pack-use calculations are not
+shelf-life promises, source-market dollar values are not local offers, owner
+accounts are not representative testing, and Coffeedant tasting/measurement is
+not invented.
+
+All 76 localization tests and analytics validation pass. Six full generated
+HTML/JSON checks compare entire articles, all twelve FAQ answers per edition,
+source links, scripts/runtime, source dates, metadata, image credits, structured
+categories/genres, locale, canonical/noindex and matching scoped sitemaps.
+Ready-page builds contain 54/53/53 pages including the 404. All 147 Finder
+descriptions remain distinct and complete, with unknown regional prices and
+Amazon links suppressed. These are generated-output/runtime checks, not a new
+browser session or hands-on coffee testing.
+
+The current source remains 232 canonical pages / 46,732 unique slots. Ready
+regular pages are NL 53, DE 52 and FR 52, excluding the 404; remaining slots are
+41,053 / 41,159 / 41,159. Full editions remain incomplete and unpublished. No
+public hostname, published flag, paid API, billing or subagent changes are made.
+Continue the remaining full guides/reviews and regional Deals safeguards before
+production cutover; the continuation remains active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
