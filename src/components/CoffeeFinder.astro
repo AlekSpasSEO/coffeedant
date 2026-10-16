@@ -10,6 +10,7 @@ const {
     : 'Choose any details you know. We’ll search every published espresso-machine review and show useful starting points.',
   brand,
   excludePath,
+  resultsMode = 'products',
 } = Astro.props as {
   variant?: Variant;
   eyebrow?: string;
@@ -17,6 +18,7 @@ const {
   intro?: string;
   brand?: string;
   excludePath?: string;
+  resultsMode?: 'products' | 'videos';
 };
 
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
@@ -33,6 +35,7 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
   data-base={base}
   data-brand={brand}
   data-exclude-path={excludePath}
+  data-results-mode={resultsMode}
   data-finder-load-failed="The finder could not load"
   data-finder-load-fallback="Browse the full espresso-machine guide instead."
   aria-labelledby={variant === 'full' ? 'coffee-finder-title' : undefined}
@@ -105,7 +108,7 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
       )}
 
       <div class="coffee-finder-actions">
-        <button class="coffee-finder-submit" type="submit">Find my matches <span aria-hidden="true">→</span></button>
+        <button class="coffee-finder-submit" type="submit">{resultsMode === 'videos' ? 'Filter the videos' : 'Find my matches'} <span aria-hidden="true">→</span></button>
         <button class="coffee-finder-reset" type="button" data-finder-reset>Clear filters</button>
         {variant === 'banner' && <a href={fullFinderUrl}>Open the full finder <span aria-hidden="true">↗</span></a>}
       </div>
@@ -117,9 +120,9 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
         <strong data-finder-count>Loading the catalog…</strong>
         <span data-finder-sync>Re-indexed every two weeks</span>
       </div>
-      <div class="coffee-finder-results" data-finder-results aria-busy="true"></div>
+      <div class="coffee-finder-results" data-finder-results aria-busy="true" hidden={resultsMode === 'videos'}></div>
       <p class="coffee-finder-empty" data-finder-empty hidden>No exact match. Clear one filter to widen the shortlist.</p>
-      {variant === 'full' && <button class="coffee-finder-more-results" type="button" data-finder-more hidden>Show 12 more machines</button>}
+      {variant === 'full' && resultsMode !== 'videos' && <button class="coffee-finder-more-results" type="button" data-finder-more hidden>Show 12 more machines</button>}
     </div>
   </div>
 </section>
@@ -273,7 +276,12 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
           || a.model.localeCompare(b.model);
       });
 
-      results.replaceChildren(...filtered.slice(0, visibleLimit).map((item) => makeResultCard(item, base, variant !== 'full', catalog!.ui, catalog!.locale)));
+      if (root.dataset.resultsMode === 'videos') {
+        const active = Boolean(query) || Object.values(filters).some(value => value !== 'any');
+        document.dispatchEvent(new CustomEvent('coffee-finder:videos', { detail: { paths: filtered.map(item => item.path), active } }));
+      } else {
+        results.replaceChildren(...filtered.slice(0, visibleLimit).map((item) => makeResultCard(item, base, variant !== 'full', catalog!.ui, catalog!.locale)));
+      }
       results.setAttribute('aria-busy', 'false');
       if (count) count.textContent = catalog.ui?.matchCount
         ? message(catalog.ui.matchCount, { count: filtered.length })
@@ -311,7 +319,7 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
 
     form?.addEventListener('change', () => { visibleLimit = variant === 'full' ? 12 : 3; render(); });
     form?.addEventListener('input', () => { visibleLimit = variant === 'full' ? 12 : 3; render(); });
-    form?.addEventListener('submit', (event) => { event.preventDefault(); render(); results?.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); });
+    form?.addEventListener('submit', (event) => { event.preventDefault(); render(); (root.dataset.resultsMode === 'videos' ? document.querySelector('[data-video-results]') : results)?.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
     reset?.addEventListener('click', () => { form?.reset(); visibleLimit = variant === 'full' ? 12 : 3; render(); });
     more?.addEventListener('click', () => { visibleLimit += 12; render(); });
   });
@@ -348,6 +356,7 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
   .coffee-finder-status strong { text-transform: uppercase; letter-spacing: .06em; }
   .coffee-finder-status span { color: var(--muted); text-align: right; }
   .coffee-finder-results { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 18px; }
+  .coffee-finder-results[hidden] { display: none; }
   .coffee-finder-tool-banner .coffee-finder-results { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   /* Results are created in the browser, so Astro cannot add its scoped attribute to them. */
   :global(.coffee-finder-result) { display: flex; min-width: 0; flex-direction: column; border: 1px solid var(--ink); background: var(--white); }
