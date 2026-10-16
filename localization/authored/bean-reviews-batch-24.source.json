@@ -1,0 +1,707 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/coffee-beans/counter-culture-even-keel-half-caff/",
+      "sourceHash": "2186c27dde9d84a19f0bf9d08b11d6b402a6b1653ebc40a419ea2fb88d023cec"
+    },
+    {
+      "sourcePath": "/coffee-beans/equator-eye-of-the-tiger-espresso/",
+      "sourceHash": "002e9f2f7bcd6ac6ff8154a203f292442b29d7e035e76c0952666993ec21f559"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "9eca3d11037bd9485e98ed1035ef3f6c3ae7e7226d854e7bef311a9aeb1f6248",
+      "source": "Equator Coffees Eye of the Tiger Espresso",
+      "kind": "text",
+      "context": "Equator Coffees Eye of the Tiger Espresso"
+    },
+    {
+      "id": "f57836b8e0c2e0aaf39035eed62edcfa34a3b0a84d7edebfc3fb62983a64b632",
+      "source": "Equator Coffees Eye of the Tiger Espresso",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "ac4d3909f431259b873ec1bdf133b4033aa68adb88893fab3a0c46ec0f98cf08",
+      "source": "Counter Culture Coffee Even Keel Half-Caff review: the convenient 50/50 bag with a caffeine limit | Coffeedant",
+      "kind": "text",
+      "context": "Counter Culture Coffee Even Keel Half-Caff review: the convenient 50/50 bag with a caffeine limit | Coffeedant"
+    },
+    {
+      "id": "fcb662510a09219e1f1540be53a097b8fdc203469cd2bbce7c09dcb2e6a86ee4",
+      "source": "Research-led US review of Counter Culture Coffee Even Keel Half-Caff: exact bag, current components, attributed notes, brew fit, freshness and dated direct value.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "992ee86bff7e435ac18b312963379e0697c94ee08f4987b02ba472ca7a8ec783",
+      "source": "Counter Culture Coffee Even Keel Half-Caff review: the convenient 50/50 bag with a caffeine limit | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "cd1462a6925401a12b31e4123b923ad12b4e6c1d3b16a4109f216c0b098182bf",
+      "source": "Counter Culture Coffee Even Keel Half-Caff",
+      "kind": "text",
+      "context": "Counter Culture Coffee Even Keel Half-Caff"
+    },
+    {
+      "id": "46d5132936273947beb8981f05841dbbd6f9fd6fa8f709c1593f641880819a4b",
+      "source": "Counter Culture Coffee Even Keel Half-Caff review: the convenient 50/50 bag with a caffeine limit",
+      "kind": "text",
+      "context": "Counter Culture Coffee Even Keel Half-Caff review: the convenient 50/50 bag with a caffeine limit"
+    },
+    {
+      "id": "e9b32e22d4da86f916d401ae61c5405b653bcea385937f4fd1494e7ea5bc7c54",
+      "source": "A single whole-bean bag for a half-caff routine",
+      "kind": "text",
+      "context": "A single whole-bean bag for a half-caff routine"
+    },
+    {
+      "id": "b3179c7b360d1217724c91856412ca238d4d64d8be77fcedac1c8b588780d91b",
+      "source": "A graham-and-molasses roaster flavor brief",
+      "kind": "text",
+      "context": "A graham-and-molasses roaster flavor brief"
+    },
+    {
+      "id": "4ab31dfc5a95fe1445d8286d0eb908ea5da75d7ccff4b177a2e1a5105c8abb1b",
+      "source": "Buyers willing to check a changing component selector",
+      "kind": "text",
+      "context": "Buyers willing to check a changing component selector"
+    },
+    {
+      "id": "07ce9e7393c8766a7b86252a1ee8d5e4fa2230ce62d315b5d8f62063234ec048",
+      "source": "You need a medically precise caffeine dose",
+      "kind": "text",
+      "context": "You need a medically precise caffeine dose"
+    },
+    {
+      "id": "c50c797a3d154c4a4b8b1ce7b503cca3f586163fe2be3e42612555d491fbabbc",
+      "source": "You require a named stable decaf process",
+      "kind": "text",
+      "context": "You require a named stable decaf process"
+    },
+    {
+      "id": "1750a740ae81e795fb95bf6e493e1e39c2849d31dfa083a3ed0ca8ac1d7987a7",
+      "source": "You want a clear single roast label without a page discrepancy",
+      "kind": "text",
+      "context": "You want a clear single roast label without a page discrepancy"
+    },
+    {
+      "id": "4e2555db35bb58ea125d3c119b52de10aeea447a0f979aada63820dd59b93622",
+      "source": "Counter Culture Coffee Even Keel Half-Caff, whole-bean option",
+      "kind": "text",
+      "context": "Counter Culture Coffee Even Keel Half-Caff, whole-bean option"
+    },
+    {
+      "id": "7c6c082addd1909ff80244fcb6d66372f6855320cfe2a95c21bda077ac458ca2",
+      "source": "Medium-dark badge; page story says medium, an unresolved roaster wording difference",
+      "kind": "text",
+      "context": "Medium-dark badge; page story says medium, an unresolved roaster wording difference"
+    },
+    {
+      "id": "86ebb359fd394b5a5ff801f51902acd1674cd223140da74c56231c5d15a427be",
+      "source": "graham cracker, molasses, soft; not Coffeedant tasting",
+      "kind": "text",
+      "context": "graham cracker, molasses, soft; not Coffeedant tasting"
+    },
+    {
+      "id": "58ef3c6a414add8bc3b84344432f11c01b33f179baaced888b336954cf7ed17a",
+      "source": "Changing organic caffeinated and decaffeinated coffees; dated selector lists Guatemalan and Peruvian components",
+      "kind": "text",
+      "context": "Changing organic caffeinated and decaffeinated coffees; dated selector lists Guatemalan and Peruvian components"
+    },
+    {
+      "id": "33b874e9803419b6ad3b7dd8d62a23f4666f613e37e7c5d5615ded3e8bd33349",
+      "source": "Washed harvest summary; decaffeination method not established for the current selected bag",
+      "kind": "text",
+      "context": "Washed harvest summary; decaffeination method not established for the current selected bag"
+    },
+    {
+      "id": "1f49175ac3b70b5c07ae307a5e0316fbc4a68ff112128cd188ae4e7d6e8284d6",
+      "source": "Not specified for the whole rotating blend",
+      "kind": "text",
+      "context": "Not specified for the whole rotating blend"
+    },
+    {
+      "id": "ac2e2151113e7f43a78c31265de20ed0636f5797650a9304d411cde21c88490f",
+      "source": "Counter Culture says Even Keel combines regular and decaffeinated organic coffees in a 50/50 blend. It is distinct from Slow Motion, the full-decaf product, and from buying two bags to mix at home. The current roast-date selector shows several historical combinations; visible text does not reliably pair each component list with the selected period, so this review does not assign one origin percentage table to a bag it has not seen. The variety and decaffeination route of the complete current blend are not established by the accessible page.",
+      "kind": "text",
+      "context": "Counter Culture says Even Keel combines regular and decaffeinated organic coffees in a 50/50 blend. It is distinct from Slow Motion, the full-decaf product, and from buying two bags to mix at home. The current roast-date selector shows several historical combinations; visible text does not reliably pair each component list with the selected period, so this review does not assign one origin percentage table to a bag it has not seen. The variety and decaffeination route of the complete current blend are not established by the accessible page. [1] [2]"
+    },
+    {
+      "id": "0129d9d889da5aa6299f4ab246433c4f27131c41e59dc71a1bd2552d98b57a42",
+      "source": "The main product badge calls Even Keel medium-dark, while the story paragraph calls it medium. Both are roaster text on the same checked page. We disclose the mismatch rather than choosing one as a measured roast result. The 12 oz direct US base was $20, with 24 oz and 5 lb sizes listed.",
+      "kind": "text",
+      "context": "The main product badge calls Even Keel medium-dark, while the story paragraph calls it medium. Both are roaster text on the same checked page. We disclose the mismatch rather than choosing one as a measured roast result. The 12 oz direct US base was $20, with 24 oz and 5 lb sizes listed. [1]"
+    },
+    {
+      "id": "91364cf83f475aa208c269bdd8b8edfb24d371137a7c399218c8739b724ddbb7",
+      "source": "Graham cracker, molasses and soft are Counter Culture’s notes. The Guardian’s 2026 comparison tried a bag of Even Keel and found its flavor less distinctive than the reviewer’s favored coffees. That outside reaction can help set a risk, but is neither our tasting nor a verdict on every roast period. A half-caff discussion identified Even Keel as one whole-bean option; it did not measure caffeine or evaluate the current blend.",
+      "kind": "text",
+      "context": "Graham cracker, molasses and soft are Counter Culture’s notes. The Guardian’s 2026 comparison tried a bag of Even Keel and found its flavor less distinctive than the reviewer’s favored coffees. That outside reaction can help set a risk, but is neither our tasting nor a verdict on every roast period. A half-caff discussion identified Even Keel as one whole-bean option; it did not measure caffeine or evaluate the current blend. [1] [3] [4]"
+    },
+    {
+      "id": "f4a965e6623d1a38fdc48051db232bc0b5c5ee9e196a67769184bcf5ddad2a97",
+      "source": "The reason to choose this bag is routine simplicity. If distinctive flavor is the priority, a buyer may prefer to combine two coffees they already like, but that adds weighing and grinder-switch work. Even Keel trades that control for one packaged recipe.",
+      "kind": "text",
+      "context": "The reason to choose this bag is routine simplicity. If distinctive flavor is the priority, a buyer may prefer to combine two coffees they already like, but that adds weighing and grinder-switch work. Even Keel trades that control for one packaged recipe."
+    },
+    {
+      "id": "09b360c494400a166934f80684e052c20604da9f95ebce2f25766e51d0b5e66c",
+      "source": "Counter Culture publishes a French-press start of 50 g coffee to 800 g water at 205°F with a six-minute schedule. That is a 1:16 ratio for that method, not an espresso target. The bag can be ground for another brewer, but the water and grind should follow that brewer rather than a generic half-caff rule.",
+      "kind": "text",
+      "context": "Counter Culture publishes a French-press start of 50 g coffee to 800 g water at 205°F with a six-minute schedule. That is a 1:16 ratio for that method, not an espresso target. The bag can be ground for another brewer, but the water and grind should follow that brewer rather than a generic half-caff rule. [1]"
+    },
+    {
+      "id": "0ea5d97c6c9360542819ac76e3bc959d8efbaf12631bd96eca5e57c0148f864c",
+      "source": "Mixing regular and decaf beans does not make the cup’s caffeine exactly one half of a particular regular coffee. Bean lots and brewing extraction vary, and we have no assay for Even Keel. If a strict caffeine limit matters, ask the roaster for product-specific information or use an independently measured option; do not infer milligrams from the 50/50 ingredient statement.",
+      "kind": "text",
+      "context": "Mixing regular and decaf beans does not make the cup’s caffeine exactly one half of a particular regular coffee. Bean lots and brewing extraction vary, and we have no assay for Even Keel. If a strict caffeine limit matters, ask the roaster for product-specific information or use an independently measured option; do not infer milligrams from the 50/50 ingredient statement."
+    },
+    {
+      "id": "479a7fc0ccb4cf0b433bdc379b7869485c5469d5244d57b789553d8fa6f79406",
+      "source": "A 12 oz first bag tests whether the premixed flavor and caffeine routine suit you before the 24 oz or 5 lb commitment. Match its roast date to the current blend selector if component identity matters. Keep opened beans sealed and dry; repeated freezer transfers can add moisture risk.",
+      "kind": "text",
+      "context": "A 12 oz first bag tests whether the premixed flavor and caffeine routine suit you before the 24 oz or 5 lb commitment. Match its roast date to the current blend selector if component identity matters. Keep opened beans sealed and dry; repeated freezer transfers can add moisture risk. [1] [5]"
+    },
+    {
+      "id": "c61db79956a92a4fbe8f32678c12ca079daa42ac965db9f42ceff99aaeb1f78e",
+      "source": "A half-caff household may consume fewer grams per week than a regular morning-coffee household. Calculate use before bulk buying. An unopened-looking bag image says nothing about the bag that arrives.",
+      "kind": "text",
+      "context": "A half-caff household may consume fewer grams per week than a regular morning-coffee household. Calculate use before bulk buying. An unopened-looking bag image says nothing about the bag that arrives."
+    },
+    {
+      "id": "3184f9284ee2dea5d7bb23ad6d7b14551ca887a9314e83f2efead81788039481",
+      "source": "Even Keel’s October 16 US direct base was $20 per 12 oz, roughly $0.059 per gram. An illustrative 18 g dose contains about $1.06 of beans before waste, shipping, tax or milk. This is pack arithmetic, not a caffeine or cup-quality measurement.",
+      "kind": "text",
+      "context": "Even Keel’s October 16 US direct base was $20 per 12 oz, roughly $0.059 per gram. An illustrative 18 g dose contains about $1.06 of beans before waste, shipping, tax or milk. This is pack arithmetic, not a caffeine or cup-quality measurement. [1]"
+    },
+    {
+      "id": "8971e56600045571f5ddc2029fb4f296b1a9bbc9a26b9752223fd67b5d4b880f",
+      "source": "Two separate 12 oz bags let a household change its mix but cost more up front and can become stale at different rates. Even Keel simplifies inventory. Compare the actual combined checkout and likely consumption, not an assumed permanent subscription discount.",
+      "kind": "text",
+      "context": "Two separate 12 oz bags let a household change its mix but cost more up front and can become stale at different rates. Even Keel simplifies inventory. Compare the actual combined checkout and likely consumption, not an assumed permanent subscription discount."
+    },
+    {
+      "id": "d999a12cf627815db5024780358638868eef7eec643db3418772bc22e06a445a",
+      "source": "For full decaf, choose Slow Motion only if its cocoa-and-molasses brief and documented decaf route suit the brewer. For regular caffeine with a familiar medium profile, Fast Forward is the adjacent Counter Culture bag. Neither substitutes for an exact caffeine assay.",
+      "kind": "text",
+      "context": "For full decaf, choose Slow Motion only if its cocoa-and-molasses brief and documented decaf route suit the brewer. For regular caffeine with a familiar medium profile, Fast Forward is the adjacent Counter Culture bag. Neither substitutes for an exact caffeine assay. [7]"
+    },
+    {
+      "id": "9271ad333d42c2608099ac9d47286cd5f78c03092396cc735c7a065d0f02ee4e",
+      "source": "The existing decaf guide addresses fully decaffeinated choices by brew method. Even Keel solves a different decision: a regular/decaf mix already packaged as one coffee.",
+      "kind": "text",
+      "context": "The existing decaf guide addresses fully decaffeinated choices by brew method. Even Keel solves a different decision: a regular/decaf mix already packaged as one coffee."
+    },
+    {
+      "id": "7174626e9848a9027162bd56d2e070188d8d38694165e46edc0d40c4cd6654c6",
+      "source": "fully decaffeinated coffee with a separate brew and process brief",
+      "kind": "text",
+      "context": "fully decaffeinated coffee with a separate brew and process brief"
+    },
+    {
+      "id": "9565cfae6bb25079330620f0154e5bac7b5531dfe18746a2721972376c5f70c5",
+      "source": "Even Keel Half-Caff FAQ",
+      "kind": "text",
+      "context": "Even Keel Half-Caff FAQ"
+    },
+    {
+      "id": "2be11b9528229d71d2eea1541ae4ae936acdb7228f98fae05c4837eeab5c990f",
+      "source": "What is Even Keel Half-Caff?",
+      "kind": "text",
+      "context": "What is Even Keel Half-Caff?"
+    },
+    {
+      "id": "9a4391fd6b9566d9c5f6eb1fff08ea371e0e94f251145bcee57c3fa1c1d8d754",
+      "source": "The coffee is a 50/50 regular and decaf bean blend, not a measured 50% caffeine serving.",
+      "kind": "text",
+      "context": "The coffee is a 50/50 regular and decaf bean blend, not a measured 50% caffeine serving."
+    },
+    {
+      "id": "e3af45d004cfc0ee5462f7c75712c8924d3c165c308a10b2972e77ea7ef88546",
+      "source": "What does Even Keel Half-Caff taste like?",
+      "kind": "text",
+      "context": "What does Even Keel Half-Caff taste like?"
+    },
+    {
+      "id": "cdeb2be2cbed0bb8f45bfd6ad1b93c69b8b9263e0243c8777d218ee97d1b26a2",
+      "source": "Counter Culture Coffee describes graham cracker, molasses, soft. Coffeedant has not tasted this coffee.",
+      "kind": "text",
+      "context": "Counter Culture Coffee describes graham cracker, molasses, soft. Coffeedant has not tasted this coffee."
+    },
+    {
+      "id": "cd16425a4f5dffa1a2ecf34a15572c84f302a3ce1533b146753e09f09b37cbe6",
+      "source": "Which brewing method fits Even Keel Half-Caff?",
+      "kind": "text",
+      "context": "Which brewing method fits Even Keel Half-Caff?"
+    },
+    {
+      "id": "847bcc5b75d365c162b0d9491f086dbc2b137b9bf2a76ddb08ce8be5f4b04a91",
+      "source": "Counter Culture gives a 50 g to 800 g French-press starting recipe. Use a separate recipe for espresso.",
+      "kind": "text",
+      "context": "Counter Culture gives a 50 g to 800 g French-press starting recipe. Use a separate recipe for espresso."
+    },
+    {
+      "id": "0d2a8c1079fb74fa938713eb3d29bb8a17e63b48df1c7998618cbdf5b80d5e7e",
+      "source": "Counter Culture Coffee: Even Keel Half-Caff product listing",
+      "kind": "text",
+      "context": "Counter Culture Coffee: Even Keel Half-Caff product listing ↗"
+    },
+    {
+      "id": "adede4658ed3cb5a2bf01d4bfc250c7564089b2a77feea487b125b3a38a22d5e",
+      "source": "Independent taste impression of one Even Keel sample, explicitly bounded to that bag. Checked 2026-10-16.",
+      "kind": "text",
+      "context": "Independent taste impression of one Even Keel sample, explicitly bounded to that bag. Checked 2026-10-16."
+    },
+    {
+      "id": "6bbc3e43d57b3ae8367a97308056ab9088de2516a993d767d78340f862716b80",
+      "source": "r/thirdwavedecaf: half-caff options",
+      "kind": "text",
+      "context": "r/thirdwavedecaf: half-caff options ↗"
+    },
+    {
+      "id": "a61bae98e56554c73cb059d1d2f679533f3fc1478ce56010534096fc5cbbfc1d",
+      "source": "Self-selected discussion naming Even Keel and home mixing; no caffeine assay. Checked 2026-10-16.",
+      "kind": "text",
+      "context": "Self-selected discussion naming Even Keel and home mixing; no caffeine assay. Checked 2026-10-16."
+    },
+    {
+      "id": "ec219de7aad10d1d8e7c26b6eab6d6ac8270fbef8c45ec820fc7a41ab3a8dda4",
+      "source": "Counter Culture Slow Motion Decaf Coffeedant review",
+      "kind": "text",
+      "context": "Counter Culture Slow Motion Decaf Coffeedant review ↗"
+    },
+    {
+      "id": "080a4f6b92de54f783adb43a33e6b096967b9123c8d82214fd895ea0cefe1b0e",
+      "source": "US FDA: caffeine in decaf",
+      "kind": "text",
+      "context": "US FDA: caffeine in decaf ↗"
+    },
+    {
+      "id": "d0b5d9906846d151beb068049f8b67d4286cd0b0faaf416d6c8fe5a17bd498bb",
+      "source": "General caffeine context; not an Even Keel cup assay. Checked 2026-10-16.",
+      "kind": "text",
+      "context": "General caffeine context; not an Even Keel cup assay. Checked 2026-10-16."
+    },
+    {
+      "id": "607a56e05f81dd7fa2bdc7813690e2ada6fc3283553cc0572d0f792ad241cb4f",
+      "source": "Buy Even Keel Half-Caff for its documented role",
+      "kind": "text",
+      "context": "Buy Even Keel Half-Caff for its documented role"
+    },
+    {
+      "id": "7699bb3b8ad0b187ef5bf2efd1252f304814f3cb0a96fb71699018baae082e2a",
+      "source": "Even Keel is a ready-mixed half-caff for households that want one bag rather than weighing regular and decaf beans separately. Counter Culture states a 50/50 bean blend, but that is not a measured half-caffeine cup. The exact decaf component and roast wording deserve a bag-date check. Start with the 12 oz whole-bean option and let a saved recipe on the actual bag decide the next order.",
+      "kind": "text",
+      "context": "Even Keel is a ready-mixed half-caff for households that want one bag rather than weighing regular and decaf beans separately. Counter Culture states a 50/50 bean blend, but that is not a measured half-caffeine cup. The exact decaf component and roast wording deserve a bag-date check. Start with the 12 oz whole-bean option and let a saved recipe on the actual bag decide the next order."
+    },
+    {
+      "id": "b0a693901a68330262ef5e3e587e665f2359ede9feacf4ce4d44e43078676f86",
+      "source": "Check Even Keel Half-Caff at the roaster",
+      "kind": "text",
+      "context": "Check Even Keel Half-Caff at the roaster ↗"
+    },
+    {
+      "id": "a232b7eea5c20119ac228c6e4fe9f50da06bc7227445332b4ce64f393f307ef9",
+      "source": "Counter Culture Coffee Even Keel Half-Caff review: the convenient 50/50 bag with a caffeine limit | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "df661fb5318f09fbc70bfb29bfc9f95f2182c1eb429aee41f8824ee714cfa22a",
+      "source": "Research-led US review of Counter Culture Coffee Even Keel Half-Caff: exact bag, current components, attributed notes, brew fit, freshness and dated direct value.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "f606bb5aa0abfabc157cecbefde934236b24c7624e9398f527d9c6311f0d92b6",
+      "source": "Counter Culture Coffee Even Keel Half-Caff",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "e3905a5c2bdabd03057480a4acc101254b2c8d173a39651db9ba10d04805990e",
+      "source": "Counter Culture Coffee Even Keel Half-Caff review: the convenient 50/50 bag with a caffeine limit",
+      "kind": "json",
+      "context": "headline"
+    },
+    {
+      "id": "5723967cc30675e5ca6b7b8e69e611281247e87674255821b4c679209c4d48d9",
+      "source": "What is Even Keel Half-Caff?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "5849e0814597deab14b41fde25158f4c6d36e4e6ae976945bdebafda1be712dc",
+      "source": "The coffee is a 50/50 regular and decaf bean blend, not a measured 50% caffeine serving.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "9944dd6d3ea320a95f202b7216721206ca6529168e1a27183406a432787c01d9",
+      "source": "What does Even Keel Half-Caff taste like?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "daa4e53e080fec49be4ae6fef63b91e1d4a2d70f671b484a6d2755372e90097d",
+      "source": "Counter Culture Coffee describes graham cracker, molasses, soft. Coffeedant has not tasted this coffee.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "92a9d17c3b48cd3f31c2e608f3d706877f916fd2af8295c82d15f42bb4a38575",
+      "source": "Which brewing method fits Even Keel Half-Caff?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "6c429d08866813d5561972ccc3d3f940c889872a8d6be8cc48bc90a31fa4cadb",
+      "source": "Counter Culture gives a 50 g to 800 g French-press starting recipe. Use a separate recipe for espresso.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "eb3ffc89790742b980149422105c63c1b0fdd867484e4225b435fc1ac9f403f5",
+      "source": "Equator Coffees Eye of the Tiger Espresso review: a bright seasonal espresso that cannot be frozen in time | Coffeedant",
+      "kind": "text",
+      "context": "Equator Coffees Eye of the Tiger Espresso review: a bright seasonal espresso that cannot be frozen in time | Coffeedant"
+    },
+    {
+      "id": "d0b5b57730a2a1d5bc0dc69b05542c1125f054fefdd44c83193f375cbba57980",
+      "source": "Research-led US review of Equator Coffees Eye of the Tiger Espresso: exact bag, current components, attributed notes, brew fit, freshness and dated direct value.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "6e625ca42f9401944e3fe4c09f558d51299039b5af8c72f3258c47580f7aae0c",
+      "source": "Equator Coffees Eye of the Tiger Espresso review: a bright seasonal espresso that cannot be frozen in time | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "0f8517bad2aa40022b265fe15d5562e6ffb6cd60e1e3a2ad1e16de70f3866d03",
+      "source": "Equator Coffees Eye of the Tiger Espresso review: a bright seasonal espresso that cannot be frozen in time",
+      "kind": "text",
+      "context": "Equator Coffees Eye of the Tiger Espresso review: a bright seasonal espresso that cannot be frozen in time"
+    },
+    {
+      "id": "fd37f638134070fcdc6735eb8be1aba887bc9fa64fde9f71f366e3be3f31c388",
+      "source": "Espresso drinkers seeking a brighter roaster direction",
+      "kind": "text",
+      "context": "Espresso drinkers seeking a brighter roaster direction"
+    },
+    {
+      "id": "118b59b441954dd94d02207d8056cfb3576d41847cdfbe1055cc6ceb685ee826",
+      "source": "Buyers who want an explicit starting dose and yield",
+      "kind": "text",
+      "context": "Buyers who want an explicit starting dose and yield"
+    },
+    {
+      "id": "d7296ed1ad7d070accddb8f9e04be2fb460b4039b4c8e57f44e60feab12ef63c",
+      "source": "A small milk drink where the coffee can still be noticed",
+      "kind": "text",
+      "context": "A small milk drink where the coffee can still be noticed"
+    },
+    {
+      "id": "b9d27200bcb3683838e8a8d66c3fab69cd505ad3e43c6b8200d0678f50cc4b33",
+      "source": "You want a fixed origin or a dark, low-fruit profile",
+      "kind": "text",
+      "context": "You want a fixed origin or a dark, low-fruit profile"
+    },
+    {
+      "id": "2f0f87faa67e667bb59edf0e6e78b2fb5a4396693ca280fa8387e958d1d50740",
+      "source": "You need a permanent recipe that never changes with the lot",
+      "kind": "text",
+      "context": "You need a permanent recipe that never changes with the lot"
+    },
+    {
+      "id": "fcddbec2cde34d9b7c39591edbe90d40eb03db2033031a380003916c51b57f3b",
+      "source": "You depend on pre-ground espresso matching your own basket",
+      "kind": "text",
+      "context": "You depend on pre-ground espresso matching your own basket"
+    },
+    {
+      "id": "ea31ba71fe60292a0424cede851d53011928e9dedcb2cd6068725b9caac9079d",
+      "source": "Equator Coffees Eye of the Tiger Espresso, whole-bean option",
+      "kind": "text",
+      "context": "Equator Coffees Eye of the Tiger Espresso, whole-bean option"
+    },
+    {
+      "id": "64494adac08326b10809db706e1cefe2555c20bd0a33dafef6a07f65d3aa918a",
+      "source": "Medium-light; current Equator listing",
+      "kind": "text",
+      "context": "Medium-light; current Equator listing"
+    },
+    {
+      "id": "4b67cb91762227ca6944b402b21e32728d7b1dc100c9817cd908f26f32d2f5ed",
+      "source": "cherry cola, gingersnap, chocolate; not Coffeedant tasting",
+      "kind": "text",
+      "context": "cherry cola, gingersnap, chocolate; not Coffeedant tasting"
+    },
+    {
+      "id": "ebb33160a1e84938c60f96fd6f80fbfc8a0a7ead1a18609c00db68e67e73bc51",
+      "source": "Current accessible page: Costa Rica Tarrazú and Rwanda Nyampinga; earlier indexed page showed different components",
+      "kind": "text",
+      "context": "Current accessible page: Costa Rica Tarrazú and Rwanda Nyampinga; earlier indexed page showed different components"
+    },
+    {
+      "id": "674b50cfd25eec1bbecd457e8e54fce18707c5db9b56a634cc4022215beb21a4",
+      "source": "Costa Rican Catuai honey processed; Rwandan Bourbon washed in current page",
+      "kind": "text",
+      "context": "Costa Rican Catuai honey processed; Rwandan Bourbon washed in current page"
+    },
+    {
+      "id": "bb4b3da7fd135447bd79c43af62c44d07c5af37b6a964e07b8d646707371032d",
+      "source": "Catuai and Bourbon in the current accessible component panel",
+      "kind": "text",
+      "context": "Catuai and Bourbon in the current accessible component panel"
+    },
+    {
+      "id": "027b3ef07d86337818cf16d6931c6f4616c4b884ef5bb984847d21185dc1101b",
+      "source": "Equator calls Eye of the Tiger a seasonally evolving espresso blend and says the component profile may change about every three months. The accessible product page checked October 16 currently names Costa Rica Tarrazú honey-processed Catuai from Hermanos Monge Ureña and washed Bourbon from Rwanda’s Nyampinga Cooperative. A separately indexed version of the same URL showed Guatemala, Colombia and Papua New Guinea. That is evidence of change or indexing lag, not two compositions to merge. Use the live record and the delivered bag for your roast date.",
+      "kind": "text",
+      "context": "Equator calls Eye of the Tiger a seasonally evolving espresso blend and says the component profile may change about every three months. The accessible product page checked October 16 currently names Costa Rica Tarrazú honey-processed Catuai from Hermanos Monge Ureña and washed Bourbon from Rwanda’s Nyampinga Cooperative. A separately indexed version of the same URL showed Guatemala, Colombia and Papua New Guinea. That is evidence of change or indexing lag, not two compositions to merge. Use the live record and the delivered bag for your roast date. [1] [2]"
+    },
+    {
+      "id": "b27c0d4906702cd38691b9c4dd5749f93752b8b98f1d3670c907f6b767c8bd35",
+      "source": "The official US selector listed whole bean and several grinds, with 12 oz, 2 lb and 5 lb sizes; 12 oz was $19.50 before shipping and tax. The credited bag photo has its own older printed notes. It identifies the product line, not the current component panel or the contents of a future bag.",
+      "kind": "text",
+      "context": "The official US selector listed whole bean and several grinds, with 12 oz, 2 lb and 5 lb sizes; 12 oz was $19.50 before shipping and tax. The credited bag photo has its own older printed notes. It identifies the product line, not the current component panel or the contents of a future bag. [1]"
+    },
+    {
+      "id": "a76894467cda62ce8afd38474ef38cc7e11515205937aaf17aef635017944495",
+      "source": "Cherry cola, gingersnap and chocolate are the current roaster notes. Equator describes a light, bright espresso and says the Costa Rican coffee contributes body and sweet fruit, while the Rwandan component adds citrus and spice. These are the roaster’s descriptions, not a Coffeedant sensory finding. The Kitchn tasted an older Eye of the Tiger bag in a home espresso context; its favorable impression cannot confirm today’s components or our cup.",
+      "kind": "text",
+      "context": "Cherry cola, gingersnap and chocolate are the current roaster notes. Equator describes a light, bright espresso and says the Costa Rican coffee contributes body and sweet fruit, while the Rwandan component adds citrus and spice. These are the roaster’s descriptions, not a Coffeedant sensory finding. The Kitchn tasted an older Eye of the Tiger bag in a home espresso context; its favorable impression cannot confirm today’s components or our cup. [1] [3]"
+    },
+    {
+      "id": "bf54ce1d88c5d46a3fd3cda697e6a26c83ac3cc7372d0314d6ec50f08aaed09c",
+      "source": "An owner thread describes using Eye of the Tiger for home drinks, but its recipe, date and bag are not controlled. The evidence supports an adventurous flavor target and a useful recipe, not a comparative sensory ranking or consistency rate. Buyers who dislike a brighter espresso should treat the stated direction as a reason to skip.",
+      "kind": "text",
+      "context": "An owner thread describes using Eye of the Tiger for home drinks, but its recipe, date and bag are not controlled. The evidence supports an adventurous flavor target and a useful recipe, not a comparative sensory ranking or consistency rate. Buyers who dislike a brighter espresso should treat the stated direction as a reason to skip."
+    },
+    {
+      "id": "ff08c22c5fd23479bbba84f437f530345aae6f8a757fe3125e9e32762838c444",
+      "source": "Equator’s current espresso panel uses 18 g coffee and 46 g beverage, labeled 1:2.5, with a 23-second example on a Barista Express. The masses are an actionable start if your basket accepts 18 g. The time and grind are not promises on another machine. A scale and fresh whole beans allow you to compare the actual shot with the roaster’s target.",
+      "kind": "text",
+      "context": "Equator’s current espresso panel uses 18 g coffee and 46 g beverage, labeled 1:2.5, with a 23-second example on a Barista Express. The masses are an actionable start if your basket accepts 18 g. The time and grind are not promises on another machine. A scale and fresh whole beans allow you to compare the actual shot with the roaster’s target. [1]"
+    },
+    {
+      "id": "65d2753845238a1b69bbf15bc0a5aaf599023b818ffb8aa7a2d7cd17d524ee51",
+      "source": "Equator also gives moka-pot and AeroPress starting recipes. Those are different devices and ratios; the “espresso grind” purchase option is a convenience, not proof of a perfect grind for your machine. For milk, begin with a smaller drink if you want to assess whether the cherry-cola direction remains clear, then adjust from your own tasting.",
+      "kind": "text",
+      "context": "Equator also gives moka-pot and AeroPress starting recipes. Those are different devices and ratios; the “espresso grind” purchase option is a convenience, not proof of a perfect grind for your machine. For milk, begin with a smaller drink if you want to assess whether the cherry-cola direction remains clear, then adjust from your own tasting."
+    },
+    {
+      "id": "3f981115b7d12e772450157e4d667a430a27bca9ce4da61644e33f9d0db83032",
+      "source": "Seasonal blend changes make the roast date and product panel especially useful. Record the component summary and recipe with a first 12 oz bag. If a later bag changes origin, start the dial-in again instead of treating a saved grinder number as universal.",
+      "kind": "text",
+      "context": "Seasonal blend changes make the roast date and product panel especially useful. Record the component summary and recipe with a first 12 oz bag. If a later bag changes origin, start the dial-in again instead of treating a saved grinder number as universal. [1]"
+    },
+    {
+      "id": "616d57746f3631d6a98592a6aee29dbcce0cd93052c789e8e78978f8b6b7a218",
+      "source": "Equator offers 2 lb and 5 lb, but the larger bag ties you to one seasonal iteration and a freshness plan. Keep opened whole beans sealed, cool and dry. An office or café may finish a bulk pack quickly; an occasional home espresso drinker may not.",
+      "kind": "text",
+      "context": "Equator offers 2 lb and 5 lb, but the larger bag ties you to one seasonal iteration and a freshness plan. Keep opened whole beans sealed, cool and dry. An office or café may finish a bulk pack quickly; an occasional home espresso drinker may not."
+    },
+    {
+      "id": "ef1b42150add56d2d44821a18dfdea224210d22a7f56bb8d91fc7995c4017184",
+      "source": "The October 16 US direct base was $19.50 for 12 oz. At an illustrative 18 g dose, the bean portion is about $1.03 before dialing waste, milk, water, tax or delivery. This is arithmetic from the displayed pack price and a common 340 g conversion, not a measured drink cost.",
+      "kind": "text",
+      "context": "The October 16 US direct base was $19.50 for 12 oz. At an illustrative 18 g dose, the bean portion is about $1.03 before dialing waste, milk, water, tax or delivery. This is arithmetic from the displayed pack price and a common 340 g conversion, not a measured drink cost. [1]"
+    },
+    {
+      "id": "e964503bf22a33e9bc9675758b38004961acd9cd768aa1af42a5feb9fac49fd9",
+      "source": "A 2 lb or 5 lb price-per-ounce saving is useful only if the current recipe and changing profile fit and the pack will be consumed at an acceptable freshness. Do not apply a retailer’s old sample review to a bulk order without checking the lot.",
+      "kind": "text",
+      "context": "A 2 lb or 5 lb price-per-ounce saving is useful only if the current recipe and changing profile fit and the pack will be consumed at an acceptable freshness. Do not apply a retailer’s old sample review to a bulk order without checking the lot."
+    },
+    {
+      "id": "6cbf573ea316c2a152c5c40cca7c8468e8ca770a413f54e167b709da1951f69c",
+      "source": "Onyx Monarch is the existing full-review alternative for a darker, cocoa-and-fruit espresso brief. Intelligentsia Black Cat Classic is another recurring espresso blend. Eye of the Tiger makes a distinct case through explicit seasonal component disclosure and an 18 g/46 g recipe.",
+      "kind": "text",
+      "context": "Onyx Monarch is the existing full-review alternative for a darker, cocoa-and-fruit espresso brief. Intelligentsia Black Cat Classic is another recurring espresso blend. Eye of the Tiger makes a distinct case through explicit seasonal component disclosure and an 18 g/46 g recipe. [7]"
+    },
+    {
+      "id": "b3d4246b5894709cc941a0f28615c477a817c1868e6985a9ee84e1ff255e31f9",
+      "source": "Equator Blend is the namesake medium-dark coffee with detailed filter recipes and a cream-and-sugar claim. It is a better first look for a household that mainly makes batch drip and only occasionally makes espresso.",
+      "kind": "text",
+      "context": "Equator Blend is the namesake medium-dark coffee with detailed filter recipes and a cream-and-sugar claim. It is a better first look for a household that mainly makes batch drip and only occasionally makes espresso."
+    },
+    {
+      "id": "c556f2434d203772a543e402b68567bc3add347e3f8fd2dfeb8bb5d59b0a2523",
+      "source": "a separate cocoa-and-fruit espresso brief with a full review",
+      "kind": "text",
+      "context": "a separate cocoa-and-fruit espresso brief with a full review"
+    },
+    {
+      "id": "b9dc0c1edb518b18bc38fa8e4463fd7641e05426c5badb6f43698a554b550381",
+      "source": "Eye of the Tiger Espresso FAQ",
+      "kind": "text",
+      "context": "Eye of the Tiger Espresso FAQ"
+    },
+    {
+      "id": "d5254d5bc6477f10aa46a0a0302ce6af5e8f08f18e8734f050b1012e03ecbaec",
+      "source": "What is Eye of the Tiger Espresso?",
+      "kind": "text",
+      "context": "What is Eye of the Tiger Espresso?"
+    },
+    {
+      "id": "57eeffe10bdbbdc744fcc482c6721809123e845b82da0ff7dbeedabf51916dac",
+      "source": "No. Equator says the blend is seasonal, and older indexed versions name other component origins.",
+      "kind": "text",
+      "context": "No. Equator says the blend is seasonal, and older indexed versions name other component origins."
+    },
+    {
+      "id": "51fe7b580ca32de91519dd78346e974542f7d0a0055e2cfce0e197e1739b1650",
+      "source": "What does Eye of the Tiger Espresso taste like?",
+      "kind": "text",
+      "context": "What does Eye of the Tiger Espresso taste like?"
+    },
+    {
+      "id": "2c4c73e6ee25d06d50e0748ab6a3f1885ac48b5bf905bacf84abd859754f6413",
+      "source": "Equator Coffees describes cherry cola, gingersnap, chocolate. Coffeedant has not tasted this coffee.",
+      "kind": "text",
+      "context": "Equator Coffees describes cherry cola, gingersnap, chocolate. Coffeedant has not tasted this coffee."
+    },
+    {
+      "id": "e2db14f52a836b288b1b38ef421cdec50d3f7fb29f1b098326c196db4c9c9659",
+      "source": "Which brewing method fits Eye of the Tiger Espresso?",
+      "kind": "text",
+      "context": "Which brewing method fits Eye of the Tiger Espresso?"
+    },
+    {
+      "id": "100063f04d9316332328a3309fc680002acca912e698cc7f3f912224f1aa1ae7",
+      "source": "Equator gives 18 g coffee to 46 g beverage as a starting espresso recipe. Adjust grind and yield for the delivered bag and basket.",
+      "kind": "text",
+      "context": "Equator gives 18 g coffee to 46 g beverage as a starting espresso recipe. Adjust grind and yield for the delivered bag and basket."
+    },
+    {
+      "id": "6a3b2f9c553a4900784b613ab4673133e05a4c09850afffd40d426e8e859fb66",
+      "source": "Equator Coffees: Eye of the Tiger Espresso product listing",
+      "kind": "text",
+      "context": "Equator Coffees: Eye of the Tiger Espresso product listing ↗"
+    },
+    {
+      "id": "97f6b2725c92c9e610cf1750c7cf3f92b21705ec4d975b051a7fb5a8f6262521",
+      "source": "The Kitchn: Eye of the Tiger home espresso sample",
+      "kind": "text",
+      "context": "The Kitchn: Eye of the Tiger home espresso sample ↗"
+    },
+    {
+      "id": "565aa1c00249c8aa6161a73bf68c258b904e0a20baa4890b604406a7dbe72ef1",
+      "source": "Independent tasting of an older seasonal iteration; not current-lot confirmation. Checked 2026-10-16.",
+      "kind": "text",
+      "context": "Independent tasting of an older seasonal iteration; not current-lot confirmation. Checked 2026-10-16."
+    },
+    {
+      "id": "d1edd4b425acd086a4e763278c2b9756ab8fb91335d1bfe9818dc920e48519d6",
+      "source": "r/espresso: Equator espresso discussion",
+      "kind": "text",
+      "context": "r/espresso: Equator espresso discussion ↗"
+    },
+    {
+      "id": "69ecbea715bca2d5c6679c1288a820770c1c75dcd29ed765d9621e486ba04364",
+      "source": "Self-selected café and home comments; no controlled current-bag assessment. Checked 2026-10-16.",
+      "kind": "text",
+      "context": "Self-selected café and home comments; no controlled current-bag assessment. Checked 2026-10-16."
+    },
+    {
+      "id": "03fbfeb0b3f06ecdaeee5c2e383eea7cc8f61cd7c52a58e83bfd775b212f7680",
+      "source": "Onyx Coffee Lab Monarch Coffeedant review",
+      "kind": "text",
+      "context": "Onyx Coffee Lab Monarch Coffeedant review ↗"
+    },
+    {
+      "id": "f58b99d2002c46859c606ed2eb8d3d0f0afe58d164c2238a2e1a39cca599d881",
+      "source": "Equator brew guides",
+      "kind": "text",
+      "context": "Equator brew guides ↗"
+    },
+    {
+      "id": "fbafc58f3d5efe32b6e40337517d46900335b565b8b580cca1d961eaa274253c",
+      "source": "Device-specific brewing context; not a Coffeedant extraction. Checked 2026-10-16.",
+      "kind": "text",
+      "context": "Device-specific brewing context; not a Coffeedant extraction. Checked 2026-10-16."
+    },
+    {
+      "id": "4b18a38fe5c6fee78727573e227059e17fed1601854795f6d9bf7813ce5f3ad9",
+      "source": "Buy Eye of the Tiger Espresso for its documented role",
+      "kind": "text",
+      "context": "Buy Eye of the Tiger Espresso for its documented role"
+    },
+    {
+      "id": "000d19480fdd76f8116457377da7a4586d59351e8109a5a81875710de729681b",
+      "source": "Eye of the Tiger is the adventurous espresso choice: Equator gives a medium-light roast, current Costa Rican and Rwandan component detail, and an 18 g to 46 g starting shot. Its seasonal profile can change, so the recipe and the bag must be checked together rather than assuming one permanent origin list. Start with the 12 oz whole-bean option and let a saved recipe on the actual bag decide the next order.",
+      "kind": "text",
+      "context": "Eye of the Tiger is the adventurous espresso choice: Equator gives a medium-light roast, current Costa Rican and Rwandan component detail, and an 18 g to 46 g starting shot. Its seasonal profile can change, so the recipe and the bag must be checked together rather than assuming one permanent origin list. Start with the 12 oz whole-bean option and let a saved recipe on the actual bag decide the next order."
+    },
+    {
+      "id": "4cd5706abac78f4a31d6bcd8616b716c7af6bb738e00a7b7de2a90114f859918",
+      "source": "Check Eye of the Tiger Espresso at the roaster",
+      "kind": "text",
+      "context": "Check Eye of the Tiger Espresso at the roaster ↗"
+    },
+    {
+      "id": "e77c1ce9216767334bd882f2a9e18ae0b91c62f6fbb2cf09385f17b3400e9786",
+      "source": "Equator Coffees Eye of the Tiger Espresso review: a bright seasonal espresso that cannot be frozen in time | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "2a76a903d753a858f8ddddcd5db2f53fed3a4b7c406d478562f0ff90eee86372",
+      "source": "Research-led US review of Equator Coffees Eye of the Tiger Espresso: exact bag, current components, attributed notes, brew fit, freshness and dated direct value.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "b516f74c2fbcdfcea2106d75bb9718d37bb6e303a2f088f8da9067d3f2e114da",
+      "source": "Equator Coffees Eye of the Tiger Espresso review: a bright seasonal espresso that cannot be frozen in time",
+      "kind": "json",
+      "context": "headline"
+    },
+    {
+      "id": "c136f217b0bd4030451b5f2d1bc95b8af7cf0b1c8e2bd735b0092e209403cdb7",
+      "source": "What is Eye of the Tiger Espresso?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "3e86f77f71987c8be94965619885588035ea8d35482912ef14f2df355987563a",
+      "source": "No. Equator says the blend is seasonal, and older indexed versions name other component origins.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "8d9dde35ef16c08b336ca31b1786e20f528419a70f0cc4bbca774ec063c4a027",
+      "source": "What does Eye of the Tiger Espresso taste like?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "077fa6238e9456d86db5326ebfd96d68f2d74a36f7375dfbdc47edf7c8d73622",
+      "source": "Equator Coffees describes cherry cola, gingersnap, chocolate. Coffeedant has not tasted this coffee.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "fab6ff0afeb9765dd36a4aba57d1983a2555e35460cc69c56b70d6ff438c219c",
+      "source": "Which brewing method fits Eye of the Tiger Espresso?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "cc7c55897b540a0eb64edbdccbd2f74bc7285ba6a0e221ac2fc51e378bdde106",
+      "source": "Equator gives 18 g coffee to 46 g beverage as a starting espresso recipe. Adjust grind and yield for the delivered bag and basket.",
+      "kind": "json",
+      "context": "text"
+    }
+  ],
+  "snapshotHash": "0edfff4df843b65f5d4b0f51389d85664c80799f405f10fc7740abfb78573a63"
+}

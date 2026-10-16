@@ -1072,6 +1072,48 @@ and unpublished. No public hostname, release flag, paid API, billing or subagent
 changes are made. Continue the remaining full articles and regional Deals
 safeguards before full cutover; the continuation remains active.
 
+### Complete Even Keel Half-Caff and Eye of the Tiger reviews (2026-10-16)
+
+Batch twenty-four directly translates the full Counter Culture Even Keel
+Half-Caff and Equator Eye of the Tiger Espresso reviews into NL/DE/FR. Source
+article bodies contain 1,135 and 1,194 words, including every section, methodology,
+source note, alternative, recommendation and twelve visible/structured FAQ
+answers per edition. Headers, metadata, author disclosures, image attribution,
+accessible labels and shared interface remain complete. The immutable snapshot
+contains 115 missing slots / 93 distinct strings; only two exact coffee names
+have verbatim approvals. Import adds 115 current cache entries per edition with
+no changes to earlier passing wording. Existing hub verdict wording is reused.
+
+Identifiers remain unchanged under `/koffiebonen/`, `/kaffeebohnen/` and
+`/cafe-en-grains/`. Existing routes, especially the approved Dutch dosing URL,
+remain fixed. Even Keel's 50/50 ingredient statement is not a measured 50%
+caffeine serving, a medical dose guarantee or proof of a particular decaf process.
+The medium-dark badge versus medium story discrepancy remains explicit rather
+than resolved by invention. Its 50 g / 800 g / 205°F / 1:16 French-press starting
+recipe stays separate from espresso. Eye of the Tiger's current Costa Rica and
+Rwanda components are not merged with older indexed origins. Its 18 g / 46 g,
+roaster-labelled 1:2.5 and 23-second Barista Express example retain basket and
+equipment qualifications. Old packaging notes and outside samples do not prove
+the current lot. Neither review invents tasting, extraction or caffeine assays;
+dated US prices and dose arithmetic remain source-market facts, not local offers.
+
+All 91 localization tests, analytics validation and the Cloudflare-target Finder
+validator pass. Six complete generated HTML/JSON checks compare entire articles,
+all FAQ answers, metadata, source links, dates, identifiers, attribution, structured
+roles/categories/genres, scripts/runtime, locale/canonical/noindex and scoped
+sitemaps. Nineteen of twenty current coffee product reviews are current and
+build-ready per edition; Equator Blend remains queued. All 148 Finder descriptions
+remain distinct and translated, with unknown regional prices and Amazon links
+suppressed. These checks use generated output/runtime integration, not a new
+browser session or hands-on product test.
+
+The source remains 239 canonical pages / 47,110 unique slots. Ready regular pages
+are NL 64, DE 63 and FR 63, excluding the 404; scoped builds contain 65/64/64 pages.
+Pending slots are 40,358 / 40,464 / 40,464. Full editions remain incomplete and
+unpublished. No public hostname, release flag, paid API, billing or subagent
+changes are made. Continue the remaining full articles and regional Deals
+safeguards before full cutover; the continuation remains active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
