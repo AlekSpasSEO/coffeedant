@@ -4,7 +4,7 @@ import path from 'node:path';
 import {root,readJson,digest,policyHash,loadCache,validateTranslation,getEdition} from '../core.mjs';
 import {regionalFinder} from '../build.mjs';
 
-for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-15',3],['bean-reviews-batch-16',164],['bean-reviews-batch-18',192],['bean-reviews-batch-19',191],['source-refresh-batch-19',37],['bean-reviews-batch-20',189],['bean-reviews-batch-22',182],['bean-reviews-batch-23',152],['source-refresh-batch-23',13],['bean-reviews-batch-24',115]])test(`${name} fully covers its immutable source in NL DE FR`,async()=>{
+for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-15',3],['bean-reviews-batch-16',164],['bean-reviews-batch-18',192],['bean-reviews-batch-19',191],['source-refresh-batch-19',37],['bean-reviews-batch-20',189],['bean-reviews-batch-22',182],['bean-reviews-batch-23',152],['source-refresh-batch-23',13],['bean-reviews-batch-24',115],['bean-reviews-batch-25',61]])test(`${name} fully covers its immutable source in NL DE FR`,async()=>{
  const source=await readJson(path.join(root,`localization/authored/${name}.source.json`));
  const authored=await readJson(path.join(root,`localization/authored/${name}.json`));
  assert.equal(source.segments.length,count);
@@ -22,6 +22,27 @@ for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-
    assert.equal(entry.provider,'codex-direct');
    assert.equal(validateTranslation(segment.source,entry.text),entry.text);
   }
+ }
+});
+
+test('Equator Blend retains filter guidance, changing components, US arithmetic and its existing French route',async()=>{
+ const source=await readJson(path.join(root,'localization/authored/bean-reviews-batch-25.source.json'));
+ const authored=await readJson(path.join(root,'localization/authored/bean-reviews-batch-25.json'));
+ assert.equal(source.sourcePages.length,1);assert.equal(new Set(source.segments.map(s=>s.source)).size,49);
+ assert.deepEqual(authored.preserveSource.map(i=>source.segments[i].source),['Equator Coffees Equator Blend','Equator Eye of the Tiger Espresso']);
+ assert.deepEqual(['nl','de','fr'].map(e=>authored.routes[e]['/coffee-beans/equator-blend/']),['/koffiebonen/equator-blend/','/kaffeebohnen/equator-blend/','/cafe-en-grains/melange-equateur/']);
+ for(const edition of ['nl','de','fr']){
+  const cache=await loadCache(edition),text=i=>cache.segments[source.segments[i].id].text;
+  for(const i of [55,57,59,60]){assert.equal(source.segments[i].kind,'json');assert.notEqual(text(i),source.segments[i].source);}
+  for(const n of ['1:15','V60','24','360'])assert(text(22).includes(n));
+  assert(/geen espresso-extractierecept|kein Espresso-Extraktionsrezept|pas une recette d’extraction/.test(text(22)));
+  for(const n of ['$18.50','12','$0.054','24','$1.31','360'])assert(text(26).includes(n));
+  assert(text(39).includes('$18.50'));assert(text(28).includes('18 g/46 g'));
+  for(const n of ['SL28/SL34/Ruiru 11','Caturra/Castillo'])assert(text(18).includes(n));
+  assert(/niet.*samengevoegd|nicht.*verschmolzen|ne doivent pas.*fusionnées/.test(text(18)));
+  assert(/geen.*rangschikken|weder.*einstufen|ne pouvons.*classer/.test(text(21)));
+  assert(/niet geproefd|nicht verkostet|n’a pas dégusté/.test(text(36)));
+  assert(/geen bewijs|kein Beleg|pas une preuve/.test(text(44)));
  }
 });
 

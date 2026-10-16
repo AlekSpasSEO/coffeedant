@@ -3,10 +3,21 @@ import assert from 'node:assert/strict';
 import { mkdtemp, mkdir, writeFile, readFile, rm } from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
-import { collectSource } from '../source.mjs';
+import { collectSource, prepareRegionalDocument } from '../source.mjs';
 import { readySource } from '../ready.mjs';
 import { buildRegional, rewriteInternalUrl } from '../build.mjs';
-import { emptyCache, policyHash, root, getEdition } from '../core.mjs';
+import { emptyCache, policyHash, root, getEdition, parseHtml, walk, attr, slots } from '../core.mjs';
+
+test('generated US language chooser is not reindexed as authored regional copy', () => {
+  const document = prepareRegionalDocument(parseHtml('<html><body><nav data-language-region><a href="https://nl.coffeedant.com/">Dutch · Netherlands</a></nav><nav aria-label="Editorial navigation"><a href="/journal/">Journal library</a></nav><main><p>Complete source article.</p></main></body></html>'));
+  const nodes = walk(document);
+  assert(!nodes.some(node => attr(node, 'data-language-region') !== undefined));
+  assert(nodes.some(node => node.tagName === 'nav' && attr(node, 'aria-label') === 'Editorial navigation'));
+  const extracted = slots(document).map(slot => slot.source);
+  assert(!extracted.includes('Dutch · Netherlands'));
+  assert(extracted.includes('Journal library'));
+  assert(extracted.includes('Complete source article.'));
+});
 
 test('incremental editions publish complete pages, add finished translations and exclude invalidated pages', async () => {
   const directory = await mkdtemp(path.join(os.tmpdir(), 'coffeedant-incremental-'));
