@@ -11,7 +11,9 @@ for (const edition of config.editions.filter(({ id, published }) => id !== 'us' 
     const response = await fetch(`https://${edition.host}/localization-manifest.json`, { redirect: 'error', signal: AbortSignal.timeout(20000) });
     if (!response.ok) throw new Error(`Manifest HTTP ${response.status}`);
     const manifest = await response.json();
-    if (manifest.host !== edition.host || manifest.edition !== edition.id || !Array.isArray(manifest.pages)) throw new Error('Live manifest has the wrong edition');
+    if (manifest.host !== edition.host || manifest.edition !== edition.id || manifest.preview !== false
+      || !['complete-edition', 'ready-pages'].includes(manifest.scope) || !Array.isArray(manifest.pages)
+      || !manifest.pages.some(({ sourcePath, path }) => sourcePath === '/' && path === '/')) throw new Error('Live manifest is not a public edition');
     const home = await fetch(`https://${edition.host}/`, { redirect: 'error', signal: AbortSignal.timeout(20000) });
     if (!home.ok || /noindex/.test(home.headers.get('x-robots-tag') ?? '')) throw new Error('Homepage is not publicly indexable');
     const nodes = walk(parseHtml(await home.text()));
