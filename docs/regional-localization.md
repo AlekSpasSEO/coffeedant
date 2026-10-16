@@ -929,6 +929,53 @@ subagents are changed. Continue the remaining complete guides/reviews and
 regional Deals safeguards before full-edition cutover. The continuation remains
 active.
 
+### Complete dark-roast buying guide (2026-10-16)
+
+Batch twenty-one directly translates the complete
+`/coffee-beans/best-dark-roast-coffee-beans/` guide into NL/DE/FR. The source
+article has 3,168 words, including all ten main sections, both full comparison
+tables, three product cards, methodology, sources, final recommendation and
+eight visible/structured FAQ answers. Header/author disclosures, metadata,
+structured Article/ItemList/ImageObject prose, navigation and accessible table
+labels are translated too. The immutable snapshot contains 188 missing slots /
+168 distinct strings. Six verbatim approvals are four exact named source links
+and two literal price/pack-unit strings, not article body exemptions. Import
+adds 188 current entries per edition with no changes to earlier passing wording.
+
+Stable routes are `/koffiebonen/beste-donker-gebrande-koffiebonen/`,
+`/kaffeebohnen/beste-dunkle-kaffeebohnen/` and
+`/cafe-en-grains/meilleurs-cafes-torrefaction-foncee/`. All earlier URLs,
+especially the approved Dutch dosing URL, remain fixed. The guide's three
+product cards and structured list now link to the complete translated Forty-Six,
+French Roast and Major Dickason's reviews in scoped builds. Unfinished grinder
+reviews remain explicitly on the US source rather than partial regional pages.
+
+Buying-fit recommendations are not a tasting podium. Big Trouble's medium-dark
+classification stays outside the main dark category. Original US dates, dollar
+prices, pack masses and dose calculations remain explicit, not local offers,
+verified discounts, shelf-life tests or caffeine measurements. The literal
+`2,268 g` has a written-out equivalent to avoid decimal-comma ambiguity. Shipping
+policies remain roaster-specific; grinder oil care, dry burrs and machine
+descaling remain separate. Neither universal machine compatibility nor any
+Coffeedant tasting, brewing or measurement is invented.
+
+All 84 localization tests and analytics validation pass. Three full generated
+HTML/JSON checks compare complete article/header text, both tables (four and
+seven rows), all eight FAQ answers, metadata, photo captions/credits, publication
+date, exact scripts/runtime, citation targets, source destinations, the complete
+three-item regional review list, locale/canonical/noindex and scoped sitemaps.
+All 148 Finder descriptions remain distinct and translated, with unknown
+regional prices and Amazon links hidden. These are generated-output/runtime
+integration checks, not a new browser session or product test.
+
+The fresh build indexes 239 canonical pages / 47,102 unique slots. Its 386 fewer
+indexed source slots are not newly translated text. Ready regular pages are NL
+58, DE 57 and FR 57, excluding the 404; scoped builds contain 59/58/58 pages.
+Pending slots are 40,810 / 40,916 / 40,916. Full editions remain incomplete and
+unpublished. No public hostname, release flag, paid API, billing or subagent
+changes are made. Continue the remaining full guides/reviews and regional Deals
+safeguards before full cutover; the continuation remains active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
