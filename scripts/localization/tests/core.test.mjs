@@ -204,7 +204,7 @@ test('complete preview build translates metadata, JSON, finder, canonical URLs a
     assert(html.includes('<time datetime="2026-10-13">13. Oktober 2026</time>'));
     assert((await readFile(path.join(output, 'index.html'), 'utf8')).includes('https://de.coffeedant.com/testbericht/#ratings'));
     assert(!(await readFile(path.join(output, 'sitemap.xml'), 'utf8')).includes('coffeedant.com/review/'));
-    await assert.rejects(buildRegional('de', { source, cache }), /not approved/);
+    await assert.rejects(buildRegional('it', { source, cache }), /not approved/);
     delete cache.segments[source.segments[0].id];
     await assert.rejects(buildRegional('de', { preview: true, sourceDirectory: directory, source, cache }), /Missing/);
   } finally {

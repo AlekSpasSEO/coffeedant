@@ -50,6 +50,8 @@ jobs:
         run: CF_PAGES=1 npm run validate:coffee-finder
       - name: Validate Amazon catalog and Finder purchase links
         run: npm run validate:amazon-catalog
+      - name: Build published regional editions from fully translated pages
+        run: npm run build:regions
       - name: Build GitHub Pages target
         run: npm run build
       - name: Validate GitHub Pages SEO parity

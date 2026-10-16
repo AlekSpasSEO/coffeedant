@@ -1,5 +1,32 @@
 # Coffeedant regional publishing
 
+## Incremental public launch authorized October 16, 2026
+
+The user explicitly approved publishing the completed NL, DE and FR pages now,
+then adding pages as translation finishes. This supersedes the older whole-edition
+launch requirement below. These three editions use `publicationMode: "ready-pages"`
+and `published: true`; other editions retain their existing release gates.
+
+Every regional build selects only pages whose current visible text, metadata,
+structured data, shared interface and required Finder text pass translation
+validation. A translated homepage and 404 are required. Partial articles never
+fall back to English on a regional URL. Links to unfinished articles open their
+English source, with an explanation in the local language. Sitemaps, localized
+redirects and manifests contain only emitted pages. Stable translated URLs,
+including the approved Dutch espresso-dosing route, are preserved.
+
+The `coffeedant-regional` Pages project builds all three editions atomically using
+`npm run build:regions` on main-branch changes. Each completed translation batch
+automatically adds its newly ready pages on the next deployment. Cross-language
+links within the bundle use only that deployment's actual routes. The independent
+`Confirm published regional pages` workflow checks live manifests after successful
+site CI and hourly, then updates the English site's corresponding-page language
+selector. Existing regional commerce verification and source-market notices apply.
+
+Continue the substantive direct translation backfill after launch. Do not disable
+published editions or restore a whole-edition gate just because article bodies
+remain pending; report the published-page count separately from total coverage.
+
 ## Domain structure
 
 The US source remains on `coffeedant.com`. Every other edition has a distinct

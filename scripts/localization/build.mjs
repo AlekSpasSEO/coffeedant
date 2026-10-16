@@ -7,6 +7,7 @@ import { root, config, getEdition, sourceOrigin, interfaceSource, readJson, load
   translatedText, translateDom, parseHtml, serializeHtml, walk, attr, setAttr, detach,
   appendHtml, jsonSlots, textContent, contentId, writeJson, policyHash } from './core.mjs';
 import { collectSource, prepareRegionalDocument, documentJson } from './source.mjs';
+import { readySource } from './ready.mjs';
 
 const escape = (value) => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 export const validatedRoutes = (source, cache) => {
@@ -22,21 +23,24 @@ export const validatedRoutes = (source, cache) => {
   }
   return result;
 };
-export const rewriteInternalUrl = (value, routes, edition) => {
+export const rewriteInternalUrl = (value, routes, edition, partial = false) => {
   if (!value || /^(?:#|mailto:|tel:|data:|javascript:)/i.test(value)) return value;
   const url = new URL(value, sourceOrigin);
   if (![sourceOrigin, 'https://www.coffeedant.com'].includes(url.origin)) return value;
   // Assets remain on the current host, editorial links use the stable route registry.
-  if (!routes.has(url.pathname)) return value.startsWith('/') && !value.startsWith('//') ? value : url.href;
+  if (!routes.has(url.pathname)) {
+    if (partial && (url.pathname.endsWith('/') || !path.posix.extname(url.pathname))) return url.href;
+    return value.startsWith('/') && !value.startsWith('//') ? value : url.href;
+  }
   return `https://${edition.host}${routes.get(url.pathname)}${url.search}${url.hash}`;
 };
-const rewriteJson = (value, routes, edition) => {
+const rewriteJson = (value, routes, edition, partial) => {
   if (!value || typeof value !== 'object') return;
   delete value.offers; // A US offer must not become a regional structured-data offer.
   for (const [key, entry] of Object.entries(value)) {
     if (key === 'inLanguage') value[key] = edition.locale;
-    else if (typeof entry === 'string' && ['url', '@id', 'mainEntityOfPage', 'item'].includes(key)) value[key] = rewriteInternalUrl(entry, routes, edition);
-    else if (entry && typeof entry === 'object') rewriteJson(entry, routes, edition);
+    else if (typeof entry === 'string' && ['url', '@id', 'mainEntityOfPage', 'item'].includes(key)) value[key] = rewriteInternalUrl(entry, routes, edition, partial);
+    else if (entry && typeof entry === 'object') rewriteJson(entry, routes, edition, partial);
   }
 };
 const localizedInterface = (cache) => Object.fromEntries(Object.entries(interfaceSource).map(([key, source]) => [key, translatedText(cache, source, 'interface')]));
@@ -105,6 +109,15 @@ export const buildRegional = async (editionId, options = {}) => {
   if (!edition.published && !options.preview) throw new Error(`${edition.host} is not approved for public release; build with --preview for QA`);
   const directory = options.sourceDirectory ?? path.join(root, 'dist');
   let source = options.source ?? await collectSource(directory);
+  const sourcePageCount = source.pages.length;
+  const cache = options.cache ?? await loadCache(edition.id);
+  const partial = !options.preview && edition.publicationMode === 'ready-pages';
+  if (partial) {
+    source = await readySource(source, cache, directory);
+    for (const required of ['/', '/404/']) if (!source.pages.some(({ sourcePath }) => sourcePath === required)) {
+      throw new Error(`${edition.host}: required translated page ${required} is incomplete; keep the previous deployment`);
+    }
+  }
   if (options.reviewPages) {
     if (!options.preview || !Array.isArray(options.reviewPages) || !options.reviewPages.length) throw new Error('Scoped builds are allowed only for noindex editorial review');
     const pages = source.pages.filter(({ sourcePath }) => options.reviewPages.includes(sourcePath));
@@ -115,7 +128,6 @@ export const buildRegional = async (editionId, options = {}) => {
     if (includeFinder) for (const id of source.finderSegments) ids.add(id);
     source = { ...source, pages, segments: source.segments.filter(({ id, kind }) => ids.has(id) || kind === 'interface'), finderSegments: includeFinder ? source.finderSegments : [] };
   }
-  const cache = options.cache ?? await loadCache(edition.id);
   const routes = validatedRoutes(source, cache);
   const ui = localizedInterface(cache);
   // Verify complete current coverage before modifying any generated deployment output.
@@ -142,7 +154,7 @@ export const buildRegional = async (editionId, options = {}) => {
     for (const node of walk(document)) {
       for (const entry of node.attrs ?? []) {
         if (entry.name === 'href') {
-          entry.value = rewriteInternalUrl(entry.value, routes, edition);
+          entry.value = rewriteInternalUrl(entry.value, routes, edition, partial);
           // Review-only pages must not create links to nonexistent translations.
           if (options.reviewPages && node.tagName === 'a' && entry.value.startsWith('/') && !entry.value.startsWith('//')) entry.value = `${sourceOrigin}${entry.value}`;
         }
@@ -166,12 +178,21 @@ export const buildRegional = async (editionId, options = {}) => {
     }
     for (const { node, value } of documentJson(document)) {
       for (const slot of jsonSlots(value)) slot.set(translatedText(cache, slot.source, slot.kind));
-      rewriteJson(value, routes, edition);
+      rewriteJson(value, routes, edition, partial);
       node.childNodes = [{ nodeName: '#text', value: JSON.stringify(value).replaceAll('<', '\\u003c'), parentNode: node }];
     }
     const body = walk(document).find((node) => node.tagName === 'body');
     appendHtml(body, `<aside data-regional-context lang="${edition.locale}" style="margin:24px auto;padding:20px;max-width:1100px;border:1px solid #ddd"><p>${escape(ui.regionalContext)}</p><p>${escape(ui.regionalBuyingPending)}</p><a href="${sourceOrigin}${escape(page.sourcePath)}" lang="en-US">${escape(ui.sourceVersion)}</a></aside>`);
     const context = body.childNodes.pop(); body.childNodes.unshift(context);
+    if (partial) {
+      const notice = {
+        nl: 'Deze editie groeit: volledig vertaalde artikelen worden regelmatig toegevoegd. Nog niet vertaalde artikelen openen in het Engels.',
+        de: 'Diese Ausgabe wächst: vollständig übersetzte Artikel werden regelmäßig ergänzt. Noch nicht übersetzte Artikel werden auf Englisch geöffnet.',
+        fr: 'Cette édition s’enrichit : les articles entièrement traduits sont ajoutés régulièrement. Les articles pas encore traduits s’ouvrent en anglais.',
+      }[edition.id];
+      if (!notice) throw new Error(`Missing incremental publication notice for ${edition.id}`);
+      appendHtml(context, `<p data-incremental-edition>${escape(notice)}</p>`);
+    }
     const primaryOffer = verifiedOffer(market?.products?.[page.sourcePath], offers?.offers?.[page.sourcePath], market, edition);
     if (primaryOffer) appendHtml(body, `<aside data-regional-offer style="margin:24px auto;padding:20px;max-width:1100px"><a href="${escape(primaryOffer.detailPageUrl)}" rel="nofollow sponsored noopener" target="_blank">Amazon ↗</a><p>${escape(primaryOffer.price ?? ui.regionalPricePending)} · ${escape(primaryOffer.availabilityMessage)}</p></aside>`);
     addAlternates(document, page, releases);
@@ -183,7 +204,7 @@ export const buildRegional = async (editionId, options = {}) => {
   for (const { relative, html } of rendered) {
     const file = path.join(temporary, relative); await mkdir(path.dirname(file), { recursive: true }); await writeFile(file, html);
   }
-  if (!options.reviewPages || source.finderSegments.length) {
+  if ((!partial && !options.reviewPages) || source.finderSegments.length) {
     const finder = await readJson(path.join(directory, 'coffee-finder.json'));
     await writeJson(path.join(temporary, 'coffee-finder.json'), regionalFinder(finder, cache, routes, edition, market, offers));
   }
@@ -196,7 +217,7 @@ export const buildRegional = async (editionId, options = {}) => {
     const target=routes.get(newPath);if(target&&!new Set(routes.values()).has(oldPath))redirectLines.push(`${oldPath} ${target} 301`);
   }
   await writeFile(path.join(temporary, '_redirects'), `${redirectLines.join('\n')}\n`);
-  await writeJson(path.join(temporary, 'localization-manifest.json'), { edition: edition.id, host: edition.host, locale: edition.locale, policyHash, preview: Boolean(options.preview), scope: options.reviewPages ? 'editorial-review' : 'complete-edition',
+  await writeJson(path.join(temporary, 'localization-manifest.json'), { edition: edition.id, host: edition.host, locale: edition.locale, policyHash, preview: Boolean(options.preview), scope: options.reviewPages ? 'editorial-review' : partial ? 'ready-pages' : 'complete-edition', sourcePages: sourcePageCount,
     pages: source.pages.map((page) => ({ id: page.id, sourcePath: page.sourcePath, path: routes.get(page.sourcePath), sourceHash: page.sourceHash })) });
   const output = path.join(root, 'dist-regional', edition.id);
   if (path.dirname(output) !== path.join(root, 'dist-regional')) throw new Error('Output escaped generated build directory');

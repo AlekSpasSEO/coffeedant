@@ -1,0 +1,42 @@
+name: Confirm published regional pages
+
+on:
+  workflow_run:
+    workflows: [Deploy Astro site to Pages]
+    branches: [main]
+    types: [completed]
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: coffeedant-confirm-regional-releases
+  cancel-in-progress: false
+
+jobs:
+  confirm:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Verify public language sites and their available routes
+        run: node scripts/localization/confirm-releases.mjs
+      - name: Publish corresponding-page language links
+        run: |
+          git add localization/releases.json
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: confirm published regional pages"
+          git pull --rebase origin main
+          git push origin HEAD:main
