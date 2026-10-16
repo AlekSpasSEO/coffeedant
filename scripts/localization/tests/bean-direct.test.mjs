@@ -4,7 +4,7 @@ import path from 'node:path';
 import {root,readJson,digest,policyHash,loadCache,validateTranslation,getEdition} from '../core.mjs';
 import {regionalFinder} from '../build.mjs';
 
-for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-15',3],['bean-reviews-batch-16',164],['bean-reviews-batch-18',192],['bean-reviews-batch-19',191],['source-refresh-batch-19',37],['bean-reviews-batch-20',189]])test(`${name} fully covers its immutable source in NL DE FR`,async()=>{
+for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-15',3],['bean-reviews-batch-16',164],['bean-reviews-batch-18',192],['bean-reviews-batch-19',191],['source-refresh-batch-19',37],['bean-reviews-batch-20',189],['bean-reviews-batch-22',182]])test(`${name} fully covers its immutable source in NL DE FR`,async()=>{
  const source=await readJson(path.join(root,`localization/authored/${name}.source.json`));
  const authored=await readJson(path.join(root,`localization/authored/${name}.json`));
  assert.equal(source.segments.length,count);
@@ -22,6 +22,32 @@ for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-
    assert.equal(entry.provider,'codex-direct');
    assert.equal(validateTranslation(segment.source,entry.text),entry.text);
   }
+ }
+});
+
+test('Apollo and Black Cat Classic preserve different recipes, changing origins, sample limits and no invented tasting',async()=>{
+ const source=await readJson(path.join(root,'localization/authored/bean-reviews-batch-22.source.json'));
+ const authored=await readJson(path.join(root,'localization/authored/bean-reviews-batch-22.json'));
+ assert.equal(source.sourcePages.length,2);assert.equal(new Set(source.segments.map(s=>s.source)).size,149);
+ assert.deepEqual(authored.preserveSource.map(i=>source.segments[i].source),['Counter Culture Coffee Apollo','Intelligentsia Coffee Black Cat Classic Espresso','Black Cat Analog Espresso','Intelligentsia Direct Trade','Intelligentsia Black Cat Analog']);
+ for(const edition of ['nl','de','fr']){
+  const cache=await loadCache(edition),text=i=>cache.segments[source.segments[i].id].text;
+  for(const i of [77,79,81,83,85,87,172,174,176,178,179,181]){
+   assert.equal(source.segments[i].kind,'json');assert.notEqual(text(i),source.segments[i].source);
+  }
+  for(const n of ['20','340'])assert(text(30).includes(n));
+  assert(text(52).includes('1:17'));assert(/geen espressorecept|kein Espressorezept|pas une recette expresso/.test(text(52)));
+  for(const n of ['18','45','1:2.5'])assert(text(120).includes(n));
+  for(const n of ['$20','12','$38.50','24','$103','5','$0.059','$1.18','2026'])assert(text(34).includes(n));
+  for(const n of ['$17.50','12','$96.50','5','$0.051','$0.93','18','2026'])assert(text(124).includes(n));
+  for(const i of [42,133])assert(/niet gekocht|weder gekauft|ni acheté/.test(text(i)));
+  assert(/niet.*overdraagbaar|nicht.*übertragbar|ne se transpose pas/.test(text(143)));
+  assert(/niet als prestatieresultaat|nicht als Leistungsergebnis|pas.*résultat de performance/.test(text(134)));
+  assert(/geen claim dat alle|keinen generell alten|sans affirmer que tout/.test(text(122)));
+  assert(/geen bewijs|kein Beleg|pas la preuve/.test(text(117)));
+  assert(/geen.*garantie|keine Garantie|sans garantie/.test(text(28)));
+  const prefix={nl:'/koffiebonen/',de:'/kaffeebohnen/',fr:'/cafe-en-grains/'}[edition];
+  for(const page of source.sourcePages)assert.equal(authored.routes[edition][page.sourcePath],page.sourcePath.replace('/coffee-beans/',prefix));
  }
 });
 

@@ -976,6 +976,48 @@ unpublished. No public hostname, release flag, paid API, billing or subagent
 changes are made. Continue the remaining full guides/reviews and regional Deals
 safeguards before full cutover; the continuation remains active.
 
+### Original ten coffee reviews complete: Apollo and Black Cat Classic (2026-10-16)
+
+Batch twenty-two directly translates the complete Counter Culture Apollo and
+Intelligentsia Black Cat Classic Espresso reviews into NL/DE/FR. Source article
+bodies contain 1,181 and 1,225 words, including all sections, methodology,
+sources, alternatives, final recommendations and twelve visible/structured FAQ
+answers per edition. Headers, metadata, author disclosures, attribution and
+accessible labels are included. The immutable snapshot contains 182 missing
+slots / 149 distinct strings; five verbatim approvals are exact coffee/roaster
+and named sourcing-program labels, not body exemptions. Import adds 182 current
+entries per edition with no changes to previously passing cached wording.
+
+Product identifiers remain unchanged beneath `/koffiebonen/`, `/kaffeebohnen/`
+and `/cafe-en-grains/`; all earlier URLs, especially the approved Dutch dosing
+URL, remain fixed. Apollo's seasonal washed Ethiopian components are not a
+permanent farm/variety list, and its 1:17 filter advice stays distinct from
+espresso. The Guardian's dated sample observation is not future-bag proof.
+Black Cat Classic remains distinct from darker Analog; its 18 g / 45 g / 1:2.5
+recipe is a starting point with equipment constraints, not a universal setting
+or Coffeedant performance result. Direct Trade is a sourcing framework, not
+lot-specific sensory inspection. Retail anecdotes are not representative audits.
+Original dated US prices and pack calculations are retained, not converted to
+local offers; no tasting, brewing, measurement or photography is invented.
+
+All 86 localization tests and analytics validation pass. Six complete generated
+HTML/JSON checks compare full bodies, all FAQ answers, metadata, source links,
+dates, product IDs, credits/roles/categories, scripts/runtime, locale/canonical/
+noindex and matching scoped sitemaps. All original ten product reviews are
+current and build-ready in each edition, as are the five decaf reviews: fifteen
+of the twenty current coffee product reviews, not all reviews or full editions.
+The five newer reviews remain queued. All 148 Finder descriptions remain
+distinct and translated, with unknown regional prices and Amazon links hidden.
+These checks use generated output/runtime integration, not a new browser
+session or hands-on product test.
+
+The source remains 239 canonical pages / 47,102 unique slots. Ready regular
+pages are NL 60, DE 59 and FR 59, excluding the 404; scoped builds contain
+61/60/60 pages. Pending slots are 40,628 / 40,734 / 40,734. Full editions remain
+incomplete and unpublished. No public hostname, release flag, paid API, billing
+or subagent changes are made. Continue the remaining full articles and regional
+Deals safeguards before full cutover; the continuation remains active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
