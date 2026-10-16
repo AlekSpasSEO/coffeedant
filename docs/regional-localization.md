@@ -1042,19 +1042,32 @@ Coffeedant tastings or guarantees for future bags. Fast Forward's $19.50 and
 Gradient's $20 source prices and their different per-dose arithmetic stay distinct
 US facts, not converted local offers.
 
-All 88 localization tests and analytics validation pass. Six complete generated
-HTML/JSON checks compare full bodies, all FAQ answers, metadata, source links,
+The user's concurrent Finder/link repair in PR #158 is merged into this batch,
+not overwritten. A separate immutable 13-slot refresh translates the newly linked
+Hologram guidance, its new alternative and the five-review grinder hub, including
+the Opus 2 card, count and comparison heading. Prior wording is reused where
+possible while retaining protected names inside their actual link-separated
+slots. This contributes 14 additional current cache entries across text/JSON
+kinds: 166 new entries per edition for the combined batch, with no earlier cached
+text changed. Hardware filter identities and destinations come from the source
+repair, not translation inference.
+
+All 89 localization tests, analytics validation and the Cloudflare-target Finder
+validator pass. Nine complete generated HTML/JSON checks cover Fast Forward,
+Gradient and refreshed Hologram in all three languages, comparing full bodies,
+all FAQ answers, metadata, source links,
 dates, identifiers, credits/roles/categories, scripts/runtime, locale/canonical/
-noindex and matching scoped sitemaps. Seventeen of twenty current coffee product
+noindex and matching scoped sitemaps. Three further full grinder-hub checks cover
+all five sections, images, metadata, menus and source destinations. Seventeen of twenty current coffee product
 reviews are now current and build-ready in each edition; Even Keel Half-Caff,
 Eye of the Tiger Espresso and Equator Blend remain queued. All 148 Finder records
 remain distinct and translated, with unknown regional prices and Amazon links
 hidden. QA uses generated output/runtime integration, not a new browser session
 or hands-on product test.
 
-The source remains 239 canonical pages / 47,102 unique slots. Ready regular pages
+The synced source contains 239 canonical pages / 47,110 unique slots. Ready regular pages
 are NL 62, DE 61 and FR 61, excluding the 404; scoped builds contain 63/62/62
-pages. Pending slots are 40,476 / 40,582 / 40,582. Full editions remain incomplete
+pages. Pending slots are 40,473 / 40,579 / 40,579. Full editions remain incomplete
 and unpublished. No public hostname, release flag, paid API, billing or subagent
 changes are made. Continue the remaining full articles and regional Deals
 safeguards before full cutover; the continuation remains active.

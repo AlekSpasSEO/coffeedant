@@ -4,7 +4,7 @@ import path from 'node:path';
 import {root,readJson,digest,policyHash,loadCache,validateTranslation,getEdition} from '../core.mjs';
 import {regionalFinder} from '../build.mjs';
 
-for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-15',3],['bean-reviews-batch-16',164],['bean-reviews-batch-18',192],['bean-reviews-batch-19',191],['source-refresh-batch-19',37],['bean-reviews-batch-20',189],['bean-reviews-batch-22',182],['bean-reviews-batch-23',152]])test(`${name} fully covers its immutable source in NL DE FR`,async()=>{
+for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-15',3],['bean-reviews-batch-16',164],['bean-reviews-batch-18',192],['bean-reviews-batch-19',191],['source-refresh-batch-19',37],['bean-reviews-batch-20',189],['bean-reviews-batch-22',182],['bean-reviews-batch-23',152],['source-refresh-batch-23',13]])test(`${name} fully covers its immutable source in NL DE FR`,async()=>{
  const source=await readJson(path.join(root,`localization/authored/${name}.source.json`));
  const authored=await readJson(path.join(root,`localization/authored/${name}.json`));
  assert.equal(source.segments.length,count);
