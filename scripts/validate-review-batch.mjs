@@ -48,6 +48,7 @@ const getReviewRoute = (slug) => {
 const errors = [];
 const reports = [];
 const videoPages = new Map();
+const curatedVideos = JSON.parse(fs.readFileSync(path.join(root, 'src/data/product-videos.json'), 'utf8'));
 const banned = [
   /\bI tested\b/i,
   /\bin my testing\b/i,
@@ -153,8 +154,12 @@ for (const item of manifest) {
   const html = fs.readFileSync(output, 'utf8');
   const expectedCanonical = `${canonicalOrigin}${item.slug}`;
   const main = html.match(/<main\b[\s\S]*?<\/main>/i)?.[0] ?? '';
-  const visible = cleanText(main);
+  // Third-party titles are verbatim credits, not Coffeedant house-style prose.
+  const visible = cleanText(main.replace(/<section\b[^>]*id="video"[^>]*>[\s\S]*?<\/section>/gi, ' ').replace(/<li\b[^>]*data-video-source[^>]*>[\s\S]*?<\/li>/gi,' '));
   const articleCopy = cleanText(main
+    // Reusable video UI and source metadata do not count toward editorial length.
+    .replace(/<section\b[^>]*id="video"[^>]*>[\s\S]*?<\/section>/gi, ' ')
+    .replace(/<li\b[^>]*data-video-source[^>]*>[\s\S]*?<\/li>/gi,' ')
     .replace(/<figure\b[^>]*class="review-media review-inline-media"[^>]*>[\s\S]*?<\/figure>/gi, ' ')
     .replace(/<aside\b[^>]*class="review-community-(?:embed|evidence)"[^>]*>[\s\S]*?<\/aside>/gi, ' '));
   const words = wordCount(articleCopy);
@@ -215,18 +220,20 @@ for (const item of manifest) {
   if (!main.includes('data-commerce-ready="true"')) fail(item.slug, 'commerce-ready recommendation hook is missing');
   if (!main.includes('class="review-author-card"')) fail(item.slug, 'author card is missing');
   if (!main.includes('class="review-overall-rating"')) fail(item.slug, 'overall score is missing');
-  if (!main.includes('class="review-video"')) fail(item.slug, 'independent video module is missing');
-  if (!html.includes('"@type":"VideoObject"')) fail(item.slug, 'VideoObject metadata is missing');
+  const selectedVideo = curatedVideos[item.slug]?.[0];
+  if (selectedVideo && !main.includes('class="review-video"')) fail(item.slug, 'selected third-party video module is missing');
+  if (selectedVideo && !html.includes('"@type":"VideoObject"')) fail(item.slug, 'VideoObject metadata is missing');
+  if (!selectedVideo && (main.includes('data-product-video=') || html.includes('"@type":"VideoObject"'))) fail(item.slug, 'unapproved video rendered');
   const videoId = main.match(/data-review-video="([^"]+)"/)?.[1];
   const videoDate = html.match(/"@type":"VideoObject"[\s\S]*?"uploadDate":"([^"]+)"/)?.[1];
   const articlePublishedDate = html.match(/<meta property="article:published_time" content="([^"]+)">/)?.[1];
   const articleModifiedDate = html.match(/<meta property="article:modified_time" content="([^"]+)">/)?.[1];
-  if (!videoDate || !/^\d{4}-\d{2}-\d{2}(?:T00:00:00Z)?$/.test(videoDate)) {
+  if (selectedVideo && (!videoDate || !/^\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2}:\d{2}(?:Z|[+-]\d{2}:\d{2}))?$/.test(videoDate))) {
     fail(item.slug, 'VideoObject upload date must be a complete ISO date or timestamp');
   }
-  if (!videoId || !/^[\w-]{11}$/.test(videoId)) {
+  if (selectedVideo && (!videoId || !/^[\w-]{11}$/.test(videoId))) {
     fail(item.slug, 'YouTube video ID is missing or malformed');
-  } else {
+  } else if (videoId) {
     if (!sourceList.includes(videoId)) fail(item.slug, 'embedded video is absent from the source ledger');
     const pages = videoPages.get(videoId) ?? [];
     pages.push(item.slug);
@@ -273,12 +280,11 @@ for (const item of manifest) {
     || articleSchema.inLanguage !== 'en-US') {
     fail(item.slug, 'Article schema identity, date or Product relationship is wrong');
   }
-  if (!videoSchema
+  if (selectedVideo && (!videoSchema
     || videoSchema.uploadDate !== videoDate
-    || videoSchema.inLanguage !== 'en-US'
     || !videoId
     || !String(videoSchema.url ?? videoSchema.contentUrl ?? '').includes(videoId)
-    || !String(videoSchema.embedUrl ?? '').includes(videoId)) {
+    || !String(videoSchema.embedUrl ?? '').includes(videoId))) {
     fail(item.slug, 'VideoObject schema does not match the embedded video');
   }
   const breadcrumbItems = breadcrumbSchema?.itemListElement;

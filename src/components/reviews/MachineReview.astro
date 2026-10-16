@@ -9,8 +9,11 @@ import ReviewSummary from './ReviewSummary.astro';
 import ReviewRatings from './ReviewRatings.astro';
 import ReviewPerformanceDetail from './ReviewPerformanceDetail.astro';
 import AmazonTopSellerBanner from './AmazonTopSellerBanner.astro';
+import ProductVideo from '../ProductVideo.astro';
+import { getProductVideos, videoSchema } from '../../lib/product-videos';
 
 const { review } = Astro.props as { review: MachineReviewData };
+const selectedVideo = getProductVideos(review.slug)[0];
 const reviewRoute = getReviewRouteDefinition(review.slug);
 if (!reviewRoute) throw new Error(`${review.slug} is not a canonical modern review route.`);
 const amazonBannerContext = reviewRoute.family;
@@ -64,7 +67,7 @@ const jumpLinks = [
       ? review.evaluation.dimensions.find((dimension) => dimension.deepDiveId === section.id)?.label ?? shortLabels[section.id]
       : shortLabels[section.id] ?? section.title,
   })),
-  { id: 'video', label: 'Video' }, { id: 'methodology', label: 'Methodology' },
+  ...(selectedVideo ? [{ id: 'video', label: 'Video' }] : []), { id: 'methodology', label: 'Methodology' },
   { id: 'sources', label: 'Sources' }, { id: 'verdict', label: 'Verdict' },
 ];
 const author = {
@@ -101,15 +104,9 @@ const schema = {
       about: { '@id': `${canonical}#product` },
       publisher: { '@type': 'Organization', name: 'Coffeedant', url: 'https://coffeedant.com/' },
       citation: review.article.sources.map((source) => source.href),
+      ...(selectedVideo ? { video: { '@id': `${canonical}#video-${selectedVideo.id}` } } : {}),
     },
-    {
-      '@type': 'VideoObject', name: review.video.title, description: review.video.note,
-      inLanguage: 'en-US',
-      thumbnailUrl: `https://img.youtube.com/vi/${review.video.id}/hqdefault.jpg`, uploadDate: review.video.published,
-      embedUrl: `https://www.youtube-nocookie.com/embed/${review.video.id}`,
-      contentUrl: `https://www.youtube.com/watch?v=${review.video.id}`,
-      creator: { '@type': 'Organization', name: review.video.creator },
-    },
+    ...(selectedVideo ? [videoSchema(selectedVideo, { slug: review.slug, name: `${review.brand} ${review.model}` }, canonical)] : []),
     ...inlineMedia.map((media, index) => ({
       '@type': 'ImageObject', '@id': `${canonical}#editorial-image-${index + 1}`,
       contentUrl: assetUrl(media.src), name: media.alt, caption: media.caption,
@@ -231,21 +228,15 @@ const schema = {
           {index === setupBannerIndex && <AmazonTopSellerBanner placement="setup" context={amazonBannerContext} />}
         </Fragment>
       ))}
-      <section class="review-section" id="video" aria-labelledby="video-title">
+      {selectedVideo && <section class="review-section" id="video" aria-labelledby="video-title">
         <header class="review-section-heading"><p class="review-overline">See the {productNoun} in use</p><h2 id="video-title">An independent video perspective</h2></header>
         <div class="review-section-body">
-          <div class="review-video" data-review-video={review.video.id}>
-            <button class="review-video-poster" type="button" aria-label={`Play ${review.video.title}`}>
-              <img src={`https://img.youtube.com/vi/${review.video.id}/hqdefault.jpg`} alt="" width="480" height="360" loading="lazy" decoding="async" />
-              <span class="review-play" aria-hidden="true">▶</span><span class="review-video-label">Play video</span>
-            </button>
-            <div class="review-video-copy">
-              <p class="review-overline">{review.video.creator}</p><h3>{review.video.title}</h3><p>{review.video.note}</p>
-              <a href={`https://www.youtube.com/watch?v=${review.video.id}`} target="_blank" rel="noopener">Watch on YouTube <span aria-hidden="true">↗</span></a>
-            </div>
+          <div class="review-video" data-review-video={selectedVideo.id} style="display:block">
+            <ProductVideo video={selectedVideo} />
           </div>
+          <p><a href={`${base}videos/?model=${encodeURIComponent(review.slug)}`}>More video perspectives for this product →</a></p>
         </div>
-      </section>
+      </section>}
       <section class="review-section review-methodology" id="methodology" aria-labelledby="methodology-title">
         <span id="testing" class="review-anchor-alias" aria-hidden="true"></span>
         <header class="review-section-heading"><p class="review-overline">Why I trust the verdict</p><h2 id="methodology-title">What the evidence lets me say with confidence</h2></header>
@@ -259,6 +250,7 @@ const schema = {
         <div class="review-section-body">
           <ol class="review-source-list">
             {review.article.sources.map((source) => <li id={source.id}><a href={source.href} target="_blank" rel={isCommunityHref(source.href) ? 'ugc noopener' : 'noopener'}>{source.label} <span aria-hidden="true">↗</span></a><p>{source.note}</p></li>)}
+            {selectedVideo && !review.article.sources.some(source => source.href.includes(selectedVideo.id)) && <li data-video-source><a href={`https://www.youtube.com/watch?v=${selectedVideo.id}`} target="_blank" rel="noopener">{selectedVideo.title} · {selectedVideo.creator}</a><p>{selectedVideo.summary}</p></li>}
           </ol>
         </div>
       </section>

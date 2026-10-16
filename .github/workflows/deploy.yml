@@ -38,6 +38,8 @@ jobs:
         run: npm run validate:journal
       - name: Validate Cloudflare modern reviews
         run: CF_PAGES=1 node scripts/validate-review-batch.mjs
+      - name: Validate video library, provenance and new product coverage
+        run: npm run validate:videos
       - name: Validate Cloudflare review title and overview originality
         run: npm run validate:review-originality
       - name: Validate Cloudflare legacy migration

@@ -1,0 +1,115 @@
+---
+import HomeLayout from '../../layouts/HomeLayout.astro';
+import CoffeeFinder from '../../components/CoffeeFinder.astro';
+import ProductVideo from '../../components/ProductVideo.astro';
+import { modernReviews } from '../../data/review-registry';
+import { bambinoReview } from '../../data/reviews';
+import { beanReviews } from '../../data/bean-reviews';
+import { getProductVideos, videoSchema } from '../../lib/product-videos';
+const products = [
+  ...[bambinoReview, ...modernReviews].map(r => ({ slug:r.slug, brand:r.brand, model:r.model, category:r.slug.startsWith('/grinder/')?'Grinder':r.slug.startsWith('/coffee-machine/')?'Coffee machine':'Espresso machine' })),
+  ...beanReviews.map(r => ({slug:r.slug,brand:r.roaster,model:r.coffee,category:'Coffee beans'})),
+].map(p => ({...p, brand:p.brand.toLowerCase()==='lelit'?'Lelit':p.brand, name:p.model.toLowerCase().startsWith(`${p.brand.toLowerCase()} `)?p.model:`${p.brand} ${p.model}`, videos:getProductVideos(p.slug)}))
+  .filter(p => p.videos.length).sort((a,b) => a.brand.localeCompare(b.brand)||a.model.localeCompare(b.model));
+const brands = [...new Set(products.map(p => p.brand))];
+const videoCount = products.reduce((count,p) => count+p.videos.length,0);
+const base=import.meta.env.BASE_URL.replace(/\/?$/,'/');
+const canonical='https://coffeedant.com/videos/';
+const uniqueVideos = new Map<string, ReturnType<typeof videoSchema>>();
+for (const p of products) for (const v of p.videos) {
+  const entry=videoSchema(v,{slug:p.slug,name:p.name},canonical),prior=uniqueVideos.get(v.id);
+  if(prior) prior.about.push(...entry.about);
+  else uniqueVideos.set(v.id,entry);
+}
+const videos=[...uniqueVideos.values()];
+const schema = {'@context':'https://schema.org','@graph':[
+  {'@type':'CollectionPage','@id':`${canonical}#collection`,url:canonical,name:'Coffee equipment video reviews',description:'Third-party YouTube reviews of products covered by Coffeedant, with channel credits, publication dates and summaries.',mainEntity:{'@id':`${canonical}#list`}},
+  {'@type':'ItemList','@id':`${canonical}#list`,numberOfItems:videos.length,itemListElement:videos.map((v,i)=>({'@type':'ListItem',position:i+1,item:{'@id':v['@id']}}))},
+  ...videos,
+  {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:'https://coffeedant.com/'},{'@type':'ListItem',position:2,name:'Videos',item:canonical}]},
+]};
+---
+<HomeLayout title="Coffee Equipment Video Reviews | Coffeedant" canonicalPath="/videos/" description="Watch third-party video reviews of espresso machines, grinders and coffee makers. Filter by brand, model, budget and your daily coffee routine.">
+  <main id="main-content" class="videos-page" data-video-library tabindex="-1">
+    <header class="videos-hero shell">
+      <p class="videos-eyebrow">The video library · {products.length} products · {videoCount} reviews</p>
+      <h1>See it before<br />you choose it.</h1>
+      <p class="videos-intro">A closer look at the coffee gear we review. Explore up to three useful third-party videos per product, then read our full review for the buying decision.</p>
+      <p class="videos-policy">No manufacturer uploads. Some creators sell equipment or use affiliate links; retailer perspectives and disclosed product loans are labelled. Views and testing belong to each creator.</p>
+      <form class="videos-filters" data-video-filters>
+        <label>Brand<select name="video-brand"><option value="">All brands</option>{brands.map(brand=><option value={brand}>{brand}</option>)}</select></label>
+        <label>Model<select name="video-model"><option value="">All models</option>{products.map(p=><option value={p.slug} data-brand={p.brand}>{p.name}</option>)}</select></label>
+        <button type="reset">Reset brand &amp; model</button>
+      </form>
+      <noscript><p>Brand and preference filters need JavaScript. All video reviews remain available below, with direct YouTube links.</p></noscript>
+    </header>
+    <CoffeeFinder variant="full" resultsMode="videos" eyebrow="Make it personal" heading="Find videos for your routine." intro="Use our Coffee Finder to narrow the videos below. Preference filters apply to espresso machines; leave them clear to include grinders, coffee makers and any coffee-bean videos." />
+    <section class="videos-library shell" data-video-results aria-labelledby="video-library-title">
+      <div class="videos-results-heading"><h2 id="video-library-title">Watch the reviews</h2><p data-video-count role="status" aria-live="polite">{videoCount} videos across {products.length} products</p></div>
+      <p data-video-empty hidden>No videos match these filters. Try clearing a preference or selecting another model.</p>
+      {products.map(p=><section class="videos-product" data-video-product={p.slug} data-brand={p.brand} data-video-count={p.videos.length}>
+        <header class="videos-product-heading"><div><p class="videos-eyebrow">{p.category} · {p.videos.length} {p.videos.length===1?'perspective':'perspectives'}</p><h2>{p.name}</h2></div><a href={`${base}${p.slug.slice(1)}`}>Read our review →</a></header>
+        <div class="videos-grid">{p.videos.map(video=><ProductVideo video={video} />)}</div>
+      </section>)}
+      <button type="button" class="videos-more" data-videos-more hidden>Show more products</button>
+    </section>
+  </main>
+  <script type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g,'\u003c')} />
+</HomeLayout>
+<script>
+ const root=document.querySelector<HTMLElement>('[data-video-library]');
+ if(root){
+  const form=root.querySelector<HTMLFormElement>('[data-video-filters]')!;
+  const brand=form.querySelector<HTMLSelectElement>('[name="video-brand"]')!;
+  const model=form.querySelector<HTMLSelectElement>('[name="video-model"]')!;
+  const groups=[...root.querySelectorAll<HTMLElement>('[data-video-product]')];
+  const count=root.querySelector<HTMLElement>('[role="status"]')!;
+  const empty=root.querySelector<HTMLElement>('[data-video-empty]')!;
+  const more=root.querySelector<HTMLButtonElement>('[data-videos-more]')!;
+  let finderPaths:Set<string>|null=null,limit=12;
+  const options=[...model.options].map(o=>({value:o.value,label:o.text,brand:o.dataset.brand}));
+  const updateModels=()=>{const previous=model.value;model.replaceChildren(...options.filter(o=>!o.value||!brand.value||o.brand===brand.value).map(o=>new Option(o.label,o.value)));if([...model.options].some(o=>o.value===previous))model.value=previous;};
+  const render=()=>{
+   document.dispatchEvent(new Event('product-video-stop'));
+   let products=0,videos=0;
+   groups.forEach(g=>{const match=(!brand.value||g.dataset.brand===brand.value)&&(!model.value||g.dataset.videoProduct===model.value)&&(!finderPaths||finderPaths.has(g.dataset.videoProduct!));if(match){products++;videos+=Number(g.dataset.videoCount);}g.hidden=!match||products>limit;});
+   count.textContent=`${videos} ${videos===1?'video':'videos'} across ${products} ${products===1?'product':'products'}`;
+   empty.hidden=products>0;more.hidden=products<=limit;
+  };
+  brand.addEventListener('change',()=>{updateModels();limit=12;render();});
+  model.addEventListener('change',()=>{limit=12;render();});
+  form.addEventListener('submit',e=>e.preventDefault());
+  form.addEventListener('reset',()=>{setTimeout(()=>{updateModels();model.value='';limit=12;render();},0);});
+  document.addEventListener('coffee-finder:videos',((e:CustomEvent<{paths:string[];active:boolean}>)=>{finderPaths=e.detail.active?new Set(e.detail.paths):null;limit=12;render();}) as EventListener);
+  more.addEventListener('click',()=>{limit+=12;render();});
+  const requested=new URLSearchParams(location.search).get('model');
+  if(requested&&options.some(o=>o.value===requested)){model.value=requested;brand.value=options.find(o=>o.value===requested)?.brand??'';updateModels();}
+  render();
+ }
+</script>
+<style>
+ .videos-page { background:#f7f4eb; color:var(--ink); }
+ .videos-hero { padding-block:65px 40px; }
+ .videos-eyebrow { color:#315a45; text-transform:uppercase; font-weight:800; font-size:.72rem; letter-spacing:.08em; }
+ h1 { font-size:clamp(3rem,7.5vw,7.2rem); line-height:.98; letter-spacing:-.06em; margin:20px 0 26px; max-width:1000px; }
+ .videos-intro { max-width:760px; font-size:1.15rem; line-height:1.7; }
+ .videos-policy { max-width:840px; color:#566055; font-size:.83rem; line-height:1.7; }
+ .videos-filters { display:grid; grid-template-columns:1fr 1.4fr auto; gap:18px; align-items:end; margin-top:30px; padding:25px; background:#f3da00; border:2px solid var(--ink); }
+ .videos-filters label { font-size:.8rem; font-weight:800; }
+ .videos-filters select { display:block; width:100%; min-height:48px; margin-top:8px; padding:10px; font:inherit; background:#fffdf7; border:1px solid var(--ink); }
+ .videos-filters button,.videos-more { min-height:48px; padding:12px 18px; background:#143f32; color:white; border:2px solid var(--ink); font:inherit; font-size:.8rem; font-weight:800; cursor:pointer; }
+ .videos-library { padding-block:45px 80px; }
+ .videos-results-heading,.videos-product-heading { display:flex; justify-content:space-between; align-items:center; gap:20px; }
+ .videos-results-heading { border-bottom:2px solid var(--ink); padding-bottom:18px; margin-bottom:40px; }
+ .videos-results-heading h2 { font-size:1.5rem; margin:0; }
+ .videos-results-heading p { font-size:.8rem; }
+ .videos-product { margin-bottom:48px; padding-bottom:35px; border-bottom:1px solid #bec6bb; }
+ .videos-product-heading { margin-bottom:20px; }
+ .videos-product-heading h2 { margin:8px 0; font-size:clamp(1.5rem,3vw,2.2rem); line-height:1.15; }
+ .videos-product-heading a { flex-shrink:0; color:#143f32; font-size:.8rem; font-weight:800; }
+ .videos-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; }
+ .videos-more { display:block; margin:30px auto 0; }
+ [hidden] { display:none!important; }
+ @media(max-width:900px) { .videos-grid {grid-template-columns:repeat(2,minmax(0,1fr));} .videos-filters {grid-template-columns:1fr 1fr;} .videos-filters button {grid-column:1/-1;} }
+ @media(max-width:600px) { .videos-grid,.videos-filters {grid-template-columns:1fr;} .videos-results-heading,.videos-product-heading {align-items:flex-start;flex-direction:column;gap:8px;} .videos-hero {padding-top:40px;} }
+</style>
