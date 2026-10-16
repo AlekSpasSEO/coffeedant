@@ -748,6 +748,55 @@ No public hostname, published flag, paid API, billing or subagent changes are
 made. Continue full remaining guides/reviews, the decaf buying guide and regional
 Deals safeguards before production cutover; the continuation remains active.
 
+### Complete decaf buying guide (2026-10-16)
+
+Batch seventeen directly translates the complete
+`/coffee-beans/best-decaf-coffee-beans-by-brew-method/` guide into NL/DE/FR.
+Its source article contains 2,340 words, including all six explanatory sections,
+both comparison tables, five complete product cards, methodology, source notes,
+final recommendation and seven visible/structured FAQ answers. Header/author
+disclosures, metadata, structured genre/ItemList, accessible table labels and
+navigation are translated too. The immutable snapshot contains 191 missing
+slots / 172 distinct source strings; five verbatim approvals are exact named
+coffee/source links with their original arrow. No body is exempted or abridged,
+and previously passing cache wording is unchanged.
+
+Stable new routes are
+`/koffiebonen/beste-cafeinevrije-koffiebonen-per-zetmethode/`,
+`/kaffeebohnen/bester-entkoffeinierter-kaffee-nach-bruehmethode/` and
+`/cafe-en-grains/meilleurs-decafeines-par-methode/`. Earlier routes, particularly
+the approved Dutch dosing URL, remain unchanged. In scoped review builds the
+guide and its structured five-item list link to the five complete translated
+product reviews, not partial English regional pages. Unfinished related guides
+remain explicitly on the US source.
+
+US market/date/currency and original pack quantities remain explicit; no prices
+are converted or relabelled as local offers. The suggested espresso/filter
+recipes remain separate, with basket, grinder-retention and repeatable-setting
+constraints. Process names are not evidence of zero caffeine, equal taste or
+health superiority. The FDA range stays general context, not a product assay.
+Older outside samples and owner reports are bounded evidence, not current taste
+rankings. The reader exercise is not Coffeedant testing, and all no-tasting,
+no-brewing, no-caffeine-measurement and no-sensory-ranking disclosures remain.
+
+All 74 localization tests and current analytics validation pass. Three full
+generated HTML/JSON checks compare the entire guide and header, both complete
+tables, all seven FAQ answers per edition, metadata, exact scripts/runtime
+locale, original source destinations, citation anchors, publication date,
+structured guide/list names and five regional review destinations, canonical/
+noindex and matching scoped sitemaps. Ready-page builds contain 52/51/51 pages
+including the 404. All 147 Finder descriptions remain distinct and translated,
+with unknown regional prices and Amazon links suppressed. These are generated-
+output/runtime integration checks, not a new browser session or tasting.
+
+The fresh source contains 232 canonical pages / 46,732 unique slots. Ready
+regular content pages are NL 51, DE 50 and FR 50, excluding the 404; remaining
+slots are 41,246 / 41,352 / 41,352. Four no-longer-indexed source slots are not
+counted as new translation. Full editions remain incomplete and unpublished;
+no public hostname, published flag, paid API, billing or subagent changes are
+made. Continue the remaining full guides/reviews and regional Deals safeguards
+before production cutover; the continuation remains active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
