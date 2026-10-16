@@ -78,9 +78,22 @@ const finderDescription = (verdict: string) => {
 
 const canonicalBrand = (brand: string) => brand.toLowerCase() === 'lelit' ? 'Lelit' : brand;
 
-// These manual Gaggia reviews compare themselves with automatic machines.
-// Classify the reviewed hardware, not the alternatives named in their copy.
-const finderIdentityOverrides: Record<string, Partial<Pick<CoffeeFinderItem, 'workflow' | 'grinder' | 'experience' | 'footprint'>>> = {
+// Classify the reviewed hardware, not alternatives mentioned in its buying advice.
+// Evidence for the weekly corrections: docs/reviews/2026-10-16-finder-link-audit.md.
+const finderIdentityOverrides: Record<string, Partial<Pick<CoffeeFinderItem, 'workflow' | 'grinder' | 'drink' | 'experience' | 'footprint'>>> = {
+  '/espresso-machine/delonghi-dedica/': { workflow: 'hands-on', grinder: 'separate' },
+  '/espresso-machine/gaggia-classic-evo-pro/': { workflow: 'hands-on', grinder: 'separate', experience: 'beginner' },
+  '/espresso-machine/gaggia-espresso-evolution-eg2115/': { workflow: 'hands-on', grinder: 'separate', experience: 'beginner' },
+  '/espresso-machine/krups-opio-xp320840/': { workflow: 'hands-on', grinder: 'separate' },
+  '/espresso-machine/la-pavoni-mini-cellini/': { workflow: 'hands-on', grinder: 'separate' },
+  '/espresso-machine/lelit-grace-pl81t/': { workflow: 'hands-on', grinder: 'separate' },
+  '/espresso-machine/quick-mill-vetrano-2b-evo/': { workflow: 'hands-on', grinder: 'separate' },
+  '/espresso-machine/9barista-mk2/': { grinder: 'separate' },
+  '/espresso-machine/ecm-puristika/': { drink: 'espresso' },
+  '/espresso-machine/quick-mill-carola-evo/': { drink: 'espresso' },
+  '/espresso-machine/melitta-cafina-ct8/': { grinder: 'built-in' },
+  '/espresso-machine/melitta-cafina-xt6-bes870/': { grinder: 'built-in' },
+  '/espresso-machine/melitta-cafina-xt7/': { grinder: 'built-in' },
   '/espresso-machine/delonghi-rivelia-exam44055b/': { workflow: 'one-touch', grinder: 'built-in', experience: 'beginner', footprint: 'standard' },
   // The BES995's substantial body and hopper access make it a large integrated station;
   // the US text and gallery disagree about which dimension axis is 17.9 inches.
@@ -178,7 +191,7 @@ const toFinderItem = (review: MachineReviewData): CoffeeFinderItem => {
     priceCurrency: offer?.currency ?? review.price.currency,
     rating: getReviewOverallScore(review.evaluation),
     workflow,
-    drink: inferDrink(text, workflow),
+    drink: identityOverride?.drink ?? inferDrink(text, workflow),
     experience: identityOverride?.experience ?? inferExperience(text, workflow),
     grinder: identityOverride?.grinder ?? inferGrinder(text, workflow),
     footprint: identityOverride?.footprint ?? inferFootprint(text, workflow),
