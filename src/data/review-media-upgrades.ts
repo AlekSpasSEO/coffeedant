@@ -33,6 +33,26 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/delonghi-rivelia-exam44055b/': officialProductMedia(
+    'De’Longhi US EXAM44055B product gallery',
+    'https://www.delonghi.com/en-us/p/rivelia-rivelia-fully-automatic-espresso-machine--onyx-black/EXAM44055B.html',
+    [
+      {
+        src: 'https://dam.delonghi.com/902x902/assets/269789',
+        alt: 'Official De’Longhi Rivelia EXAM44055B product-gallery view',
+        caption: 'Official gallery view documents the exact Onyx Black product listing; it is not a Coffeedant fit or extraction test.',
+        width: 902,
+        height: 902,
+      },
+      {
+        src: 'https://dam.delonghigroup.com/Product-full/assets/372389',
+        alt: 'Official De’Longhi Rivelia product-gallery detail',
+        caption: 'The manufacturer gallery illustrates the Rivelia range. Check the delivered EXAM44055B and included hot-milk carafe before using an image to infer accessories.',
+        width: 902,
+        height: 902,
+      },
+    ],
+  ),
   '/espresso-machine/breville-oracle-dual-boiler-bes995/': officialProductMedia(
     'Breville US BES995 product gallery',
     'https://www.breville.com/en-us/product/BES995',

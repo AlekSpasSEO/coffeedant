@@ -81,6 +81,7 @@ const canonicalBrand = (brand: string) => brand.toLowerCase() === 'lelit' ? 'Lel
 // These manual Gaggia reviews compare themselves with automatic machines.
 // Classify the reviewed hardware, not the alternatives named in their copy.
 const finderIdentityOverrides: Record<string, Partial<Pick<CoffeeFinderItem, 'workflow' | 'grinder' | 'experience' | 'footprint'>>> = {
+  '/espresso-machine/delonghi-rivelia-exam44055b/': { workflow: 'one-touch', grinder: 'built-in', experience: 'beginner', footprint: 'standard' },
   // The BES995's substantial body and hopper access make it a large integrated station;
   // the US text and gallery disagree about which dimension axis is 17.9 inches.
   '/espresso-machine/breville-oracle-dual-boiler-bes995/': { footprint: 'large' },
