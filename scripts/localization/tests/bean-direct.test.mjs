@@ -4,7 +4,7 @@ import path from 'node:path';
 import {root,readJson,digest,policyHash,loadCache,validateTranslation,getEdition} from '../core.mjs';
 import {regionalFinder} from '../build.mjs';
 
-for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-15',3],['bean-reviews-batch-16',164],['bean-reviews-batch-18',192],['bean-reviews-batch-19',191],['source-refresh-batch-19',37],['bean-reviews-batch-20',189],['bean-reviews-batch-22',182],['bean-reviews-batch-23',152],['source-refresh-batch-23',13]])test(`${name} fully covers its immutable source in NL DE FR`,async()=>{
+for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-15',3],['bean-reviews-batch-16',164],['bean-reviews-batch-18',192],['bean-reviews-batch-19',191],['source-refresh-batch-19',37],['bean-reviews-batch-20',189],['bean-reviews-batch-22',182],['bean-reviews-batch-23',152],['source-refresh-batch-23',13],['bean-reviews-batch-24',115]])test(`${name} fully covers its immutable source in NL DE FR`,async()=>{
  const source=await readJson(path.join(root,`localization/authored/${name}.source.json`));
  const authored=await readJson(path.join(root,`localization/authored/${name}.json`));
  assert.equal(source.segments.length,count);
@@ -22,6 +22,32 @@ for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-
    assert.equal(entry.provider,'codex-direct');
    assert.equal(validateTranslation(segment.source,entry.text),entry.text);
   }
+ }
+});
+
+test('Even Keel and Eye of the Tiger preserve caffeine uncertainty, seasonal records and separate brewing recipes',async()=>{
+ const source=await readJson(path.join(root,'localization/authored/bean-reviews-batch-24.source.json'));
+ const authored=await readJson(path.join(root,'localization/authored/bean-reviews-batch-24.json'));
+ assert.equal(source.sourcePages.length,2);assert.equal(new Set(source.segments.map(s=>s.source)).size,93);
+ assert.deepEqual(authored.preserveSource.map(i=>source.segments[i].source),['Equator Coffees Eye of the Tiger Espresso','Counter Culture Coffee Even Keel Half-Caff']);
+ for(const edition of ['nl','de','fr']){
+  const cache=await loadCache(edition),text=i=>cache.segments[source.segments[i].id].text;
+  for(const i of [54,56,58,110,112,114]){assert.equal(source.segments[i].kind,'json');assert.notEqual(text(i),source.segments[i].source);}
+  for(const n of ['50','800','205°F','1:16'])assert(text(23).includes(n));
+  assert(/geen espressodoel|kein Espressoziel|pas une cible expresso/.test(text(23)));
+  assert(/geen analyse|keine Analyse|pas d’analyse/.test(text(24)));
+  assert(/geen gemeten|keine gemessene|pas une portion mesurée/.test(text(34)));assert(text(34).includes('50%'));
+  assert(/niet vastgesteld|nicht belegt|non établie/.test(text(17)));
+  assert(/verschil|Widerspruch|l’écart/.test(text(20)));
+  for(const n of ['18','46','1:2.5','23','Barista Express'])assert(text(79).includes(n));
+  assert(/geen beloften|keine Zusagen|pas des promesses/.test(text(79)));
+  for(const n of ['$20','12','$0.059','18','$1.06'])assert(text(27).includes(n));
+  for(const n of ['$19.50','12','18','$1.03','340'])assert(text(83).includes(n));
+  assert(/niet op twee.*samen te voegen|nicht zwei zusammenzuführende|pas deux compositions à fusionner/.test(text(75)));
+  for(const i of [36,92])assert(/niet geproefd|nicht verkostet|n’a pas dégusté/.test(text(i)));
+  assert(/geen bevestiging|keine Bestätigung|pas une confirmation/.test(text(97)));
+  const prefix={nl:'/koffiebonen/',de:'/kaffeebohnen/',fr:'/cafe-en-grains/'}[edition];
+  for(const page of source.sourcePages)assert.equal(authored.routes[edition][page.sourcePath],page.sourcePath.replace('/coffee-beans/',prefix));
  }
 });
 
