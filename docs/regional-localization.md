@@ -887,6 +887,48 @@ unpublished. No public hostname, release flag, paid API, billing or subagent
 changes are made. Continue remaining complete articles and regional Deals
 safeguards before full cutover; the continuation remains active.
 
+### Complete French Roast and Major Dickason's reviews (2026-10-16)
+
+Batch twenty directly translates the full Stumptown French Roast and Peet's
+Major Dickason's reviews into NL/DE/FR. Their source article bodies contain
+1,731 and 1,701 words, respectively, including all sections, buying guidance,
+methodology, source notes, recommendations and twelve visible/structured FAQ
+answers per edition. Header, metadata, author disclosures, photo attribution,
+accessible labels and navigation are included. The frozen snapshot has 189
+missing slots / 155 distinct strings; five verbatim approvals are exact coffee
+and roaster names, not body exemptions. Import adds 191 current entries per
+edition across slot kinds with no changes to earlier passing cache wording.
+
+Product identifiers remain unchanged under `/koffiebonen/`, `/kaffeebohnen/`
+and `/cafe-en-grains/`. Existing URLs, including the reviewed Dutch dosing URL,
+are preserved. Major Dickason's direct caffeinated whole-bean selection stays
+distinct from retail pack sizes, grounds, pods, capsules and decaf. Its dated
+display price is not a verified discount or stock claim. Other roasters' shipping
+or freshness policies are not transferred to Peet's. French Roast remains a
+roast-style name, not French geographical origin. The source's five-pound
+`2,268 g` notation is retained with a written-out equivalent to avoid decimal-
+comma ambiguity. Use calculations are not shelf-life measurements, third-party
+seller guarantees or product caffeine claims. Grinder oil cleaning and machine
+descaling remain distinct; no universal grinder compatibility, recipe, tasting
+score or Coffeedant brewing/measurement is invented.
+
+All 82 localization tests and analytics validation pass. Six full generated
+HTML/JSON checks compare complete article bodies, all FAQ answers, source links,
+scripts/runtime, source dates, structured product IDs, roles/categories/credits,
+locale, canonicals, noindex and matching scoped sitemaps. Scoped builds contain
+58/57/57 pages including the 404. All 148 Finder descriptions remain distinct
+and fully translated, with unverified regional prices and Amazon links hidden.
+These are generated-output/runtime integration checks, not a new browser session
+or hands-on product test.
+
+The current source remains 239 canonical pages / 47,488 unique slots. Ready
+regular content pages are NL 57, DE 56 and FR 56, excluding the 404; pending
+slots are 41,384 / 41,490 / 41,490. Full editions remain incomplete and
+unpublished; no public hostnames, published flags, paid APIs, billing or
+subagents are changed. Continue the remaining complete guides/reviews and
+regional Deals safeguards before full-edition cutover. The continuation remains
+active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
