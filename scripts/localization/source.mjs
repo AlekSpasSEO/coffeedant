@@ -8,6 +8,12 @@ export const prepareRegionalDocument = (document) => {
   const canonical = walk(document).find((node) => node.tagName === 'link' && attr(node, 'rel') === 'canonical');
   const policy = /^https:\/\/(?:www\.)?coffeedant\.com\/(?:privacy-policy|tos)\/$/.test(attr(canonical ?? {}, 'href') ?? '');
   for (const node of walk(document)) {
+    // The US build may already contain the generated language chooser. Regional
+    // builds recreate it from their actual release routes and locale; it is not
+    // authored source copy and must not be indexed or rendered a second time.
+    if (node.tagName === 'nav' && attr(node, 'data-language-region') !== undefined) {
+      detach(node); continue;
+    }
     const classes = (attr(node, 'class') ?? '').split(/\s+/);
     if (attr(node, 'data-amazon-recommendation') !== undefined
       || classes.some((value) => ['review-price', 'review-price-check', 'review-sticky-buy', 'review-sticky-offer'].includes(value))) detach(node);
