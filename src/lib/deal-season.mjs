@@ -47,15 +47,21 @@ export function discoveryPlan({ now = new Date(), selectedAt, selectedCampaign, 
   const season = getDealSeason(now);
   const checked = Date.parse(selectedAt);
   const age = new Date(now).getTime() - checked;
-  const sameDay = Number.isFinite(checked) && localDay(checked) === season.day;
-  const friday = new Date(`${season.day}T12:00:00Z`).getUTCDay() === 5;
+  const operatorDay = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Skopje', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(now));
+  const weekday = new Date(`${operatorDay}T12:00:00Z`).getUTCDay();
   const localHour = Number(new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Skopje', hour: '2-digit', hourCycle: 'h23' }).format(new Date(now)));
   // Six-hour UTC buckets tolerate job runtime/delays without skipping the next
   // scheduled search merely because the preceding one finished minutes later.
   const newSlot = Math.floor(new Date(now).getTime() / 21600000) !== Math.floor(checked / 21600000);
+  // The most recent Friday remains due after a failed run, including weekends.
+  // Compare local dates so DST does not move the 09:00 Friday boundary.
+  const daysSinceFriday = (weekday + 2) % 7 + (weekday === 5 && localHour < 9 ? 7 : 0);
+  const dueDay = new Date(Date.parse(`${operatorDay}T12:00:00Z`) - daysSinceFriday * 86400000).toISOString().slice(0, 10);
+  const selectedDay = Number.isFinite(checked) ? new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Skopje', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(checked)) : '';
+  const weeklyDue = !Number.isFinite(age) || age < 0 || selectedDay < dueDay;
   const due = force || (season.campaign
     ? selectedCampaign !== season.campaign.id || !Number.isFinite(age) || age < 0 || newSlot
-    : friday && localHour >= 9 && !sameDay);
+    : weeklyDue);
   return { due, campaign: season.campaign?.id ?? null, phase: season.phase };
 }
 

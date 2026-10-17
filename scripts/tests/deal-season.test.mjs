@@ -25,12 +25,17 @@ test('Cyber Monday takes precedence if it extends into December', () => {
   assert.equal(getDealSeason('2030-12-02T12:00:00Z').campaign.id, 'cyber-monday');
   assert.equal(getDealSeason('2030-12-03T12:00:00Z').campaign.id, 'christmas');
 });
-test('ordinary weeks discover once on Friday, with explicit recovery dispatch supported', () => {
-  assert.equal(discoveryPlan({ now: '2026-10-15T12:00:00Z' }).due, false);
+test('ordinary weeks discover on Friday and catch up after failures', () => {
+  assert.equal(discoveryPlan({ now: '2026-10-15T12:00:00Z', selectedAt: '2026-10-13T12:00:00Z' }).due, false);
   assert.equal(discoveryPlan({ now: '2026-10-16T12:00:00Z' }).due, true);
-  assert.equal(discoveryPlan({ now: '2026-10-16T04:00:00Z' }).due, false);
+  assert.equal(discoveryPlan({ now: '2026-10-16T04:00:00Z', selectedAt: '2026-10-13T12:00:00Z' }).due, false);
   assert.equal(discoveryPlan({ now: '2026-10-16T18:00:00Z', selectedAt: '2026-10-16T12:00:00Z' }).due, false);
   assert.equal(discoveryPlan({ now: '2026-10-15T12:00:00Z', force: true }).due, true);
+  assert.equal(discoveryPlan({ now: '2026-10-17T12:00:00Z', selectedAt: '2026-10-13T12:00:00Z' }).due, true);
+  assert.equal(discoveryPlan({ now: '2026-10-19T12:00:00Z', selectedAt: '2026-10-13T12:00:00Z' }).due, true);
+  assert.equal(discoveryPlan({ now: '2026-10-19T12:00:00Z', selectedAt: '2026-10-17T12:00:00Z' }).due, false);
+  assert.equal(discoveryPlan({ now: '2026-10-30T07:59:59Z', selectedAt: '2026-10-23T12:00:00Z' }).due, false);
+  assert.equal(discoveryPlan({ now: '2026-10-30T08:00:00Z', selectedAt: '2026-10-23T12:00:00Z' }).due, true);
 });
 test('campaigns discover on entry, each six hours, and recover missing or future timestamps', () => {
   const args = { now: '2026-11-20T12:00:00Z', selectedAt: '2026-11-20T06:00:00Z', selectedCampaign: 'black-friday' };

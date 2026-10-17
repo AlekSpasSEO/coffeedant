@@ -2,73 +2,58 @@
 import HomeLayout from '../../layouts/HomeLayout.astro';
 import data from '../../data/amazon-deals.json';
 import { isCurrentDeal } from '../../../scripts/lib/amazon-deals.mjs';
-import { getDealSeason, formatDay } from '../../lib/deal-season.mjs';
-import seasonReceipt from '../../data/deal-season.json';
-const season = getDealSeason();
+import catalog from '../../data/amazon-products.json';
+import { modernReviews } from '../../data/review-registry';
+import { buildDealCatalog, dealDisplay } from '../../lib/deal-catalog.mjs';
 const base = import.meta.env.BASE_URL;
-const products = data.products.filter(product => isCurrentDeal(product)).sort((a, b) => Number(season.campaign?.categories.includes(b.category) ?? false) - Number(season.campaign?.categories.includes(a.category) ?? false) || (b.savingsPercent ?? 0) - (a.savingsPercent ?? 0));
+const products = data.products.filter(product => isCurrentDeal(product));
+const catalogProducts = buildDealCatalog(catalog, modernReviews);
+const display = dealDisplay(products, catalogProducts);
+const fallback = display.mode === 'catalog';
+const itemLabel = fallback ? 'products to explore' : 'verified deals';
 const date = (value: string | null) => value ? new Intl.DateTimeFormat('en-US', { dateStyle: 'medium', timeStyle: 'short', timeZone: 'America/New_York' }).format(new Date(value)) + ' ET' : 'Awaiting refresh';
-const updated = [data.refreshedAt, seasonReceipt.updatedAt].filter(Boolean).sort().at(-1);
-const schema = { '@context': 'https://schema.org', '@type': 'CollectionPage', '@id': 'https://coffeedant.com/deals/#collection', url: 'https://coffeedant.com/deals/', name: season.title, description: season.description, dateModified: updated, publisher: { '@id': 'https://coffeedant.com/#organization' }, mainEntity: { '@type': 'ItemList', numberOfItems: products.length, itemListElement: products.map((product, index) => ({ '@type': 'ListItem', position: index + 1, name: product.title, url: product.detailPageUrl })) } };
+const schema = { '@context': 'https://schema.org', '@type': 'CollectionPage', '@id': 'https://coffeedant.com/deals/#collection', url: 'https://coffeedant.com/deals/', name: 'Coffee deals on Amazon', description: 'Explore coffee offers and reviewed products. Verified discounts appear when current prices are available.', publisher: { '@id': 'https://coffeedant.com/#organization' }, mainEntity: { '@type': 'ItemList', numberOfItems: display.products.length, itemListElement: display.products.map((product, index) => ({ '@type': 'ListItem', position: index + 1, name: product.title, url: product.detailPageUrl })) } };
 ---
-<HomeLayout title={season.title} description={season.description} canonicalPath="/deals/">
+<HomeLayout title="Coffee Deals on Amazon: Machines, Beans & More | Coffeedant" description="Browse Amazon coffee deals on beans, pods, espresso machines, grinders, brewers and accessories. New picks every Friday, with prices and availability refreshed regularly." canonicalPath="/deals/">
   <script id="deal-collection-schema" type="application/ld+json" set:html={JSON.stringify(schema).replaceAll('<', '\\u003c')} />
-  <main id="main-content" class="deals-page" data-deals-page data-season={season.campaign?.id ?? 'evergreen'}>
+  <main id="main-content" class="deals-page" data-deals-page>
     <section class="deals-hero">
       <div class="shell deals-hero-grid">
         <div>
-          <p class="deals-kicker" data-season-text="kicker">{season.kicker}</p>
-          <h1><span class="headline-main" data-season-text="headline">{season.headline}</span><br /><span data-season-text="accent">{season.accent}</span></h1>
-          <p class="deals-intro" data-season-text="intro">{season.intro}</p>
+          <p class="deals-kicker">AMAZON US / THE FRIDAY ROUNDUP</p>
+          <h1>Coffee deals.<br /><span>Better mornings.</span></h1>
+          <p class="deals-intro">A better price on your next bag, brewer, or espresso setup. Explore coffee deals on Amazon, gathered in one place.</p>
           <a class="deals-jump" href="#browse-deals">Browse the deals <span aria-hidden="true">↓</span></a>
         </div>
         <aside class="deals-note" aria-label="Update schedule">
           <span class="note-icon" aria-hidden="true">%</span>
-          <p class="deals-kicker" data-season-text="noteKicker">{season.noteKicker}</p>
-          <strong data-season-text="noteTitle">{season.noteTitle}</strong>
-          <p data-season-text="noteText">{season.noteText}</p>
-          <small>Amazon.com · USD · new products</small>
+          <p class="deals-kicker">A FRESH ROUND EVERY</p>
+          <strong>Friday.</strong>
+          <p>New searches once a week.<br />Price checks scheduled throughout the week.</p>
+          <small>Amazon.com · US shopping guide</small>
         </aside>
       </div>
     </section>
     <div class="deals-meta shell">
-      <p><span class="status-dot" aria-hidden="true"></span><strong data-total>{products.length}</strong> <span data-total-label>verified deals</span></p>
+      <p><span class="status-dot" aria-hidden="true"></span><strong data-total>{display.products.length}</strong> <span data-total-label>{itemLabel}</span></p>
       <p>Roundup: <time datetime={data.selectedAt ?? undefined}>{data.selectedAt ? new Intl.DateTimeFormat('en-US', { dateStyle: 'medium', timeZone: 'Europe/Skopje' }).format(new Date(data.selectedAt)) : 'Awaiting refresh'}</time></p>
-      <p>Prices checked: <time datetime={data.refreshedAt ?? undefined}>{date(data.refreshedAt)}</time></p>
+      <p>Last successful price check: <time datetime={data.refreshedAt ?? undefined}>{date(data.refreshedAt)}</time></p>
     </div>
 
-    <section class="shell deals-calendar" aria-labelledby="deal-calendar-title">
-      <div class="deals-section-heading"><div><p class="deals-kicker">PLAN YOUR NEXT COFFEE PURCHASE</p><h2 id="deal-calendar-title">The dates worth watching.</h2></div><span class="calendar-year" data-calendar-year>{season.year}</span></div>
-      <p class="calendar-intro">Black Friday for a bigger upgrade, Cyber Monday for a second look, and Christmas for a gift that fits their routine. Our coverage changes with the season; every offer still needs a current price check.</p>
-      <div class="calendar-grid">
-        {season.calendar.map(event => <article class="calendar-card" data-calendar-event={event.id} data-active={season.campaign?.id === event.id ? 'true' : 'false'}>
-          <p class="calendar-status" data-event-status>{season.campaign?.id === event.id ? season.phase === 'preview' ? 'Preview now' : 'In focus now' : season.day >= event.end ? 'Coverage ended' : 'Coming up'}</p>
-          <h3>{event.name}</h3><time data-event-date datetime={event.date}>{formatDay(event.date)}</time>
-          <p>{event.overview}</p>
-          <small>Our coverage: <span data-event-window>{formatDay(event.start)} – {formatDay(new Date(Date.parse(`${event.end}T12:00:00Z`) - 86400000).toISOString().slice(0, 10))}</span></small>
-          <a href="#browse-deals" data-focus-category={event.categories[0]}>Browse {data.categories.find(category => category.id === event.categories[0])?.label.toLowerCase()} <span aria-hidden="true">↗</span></a>
-        </article>)}
-      </div>
-      <p class="calendar-footnote">Dates use US Eastern time. These are Coffeedant’s coverage windows, not announced Amazon sale dates. Prices, stock and delivery depend on the individual offer.</p>
-      <p class="deals-trust">Published by <a href={`${base}about/`}>Coffeedant</a> · <a href={`${base}testing/`}>Editorial methodology</a> · <a href={`${base}contact/`}>Report a correction</a>. <strong>As an Amazon Associate I earn from qualifying purchases.</strong></p>
-    </section>
-
     <section class="shell deals-browser" id="browse-deals" aria-labelledby="deals-heading">
-      <div class="deals-section-heading"><div><p class="deals-kicker">01 / FIND YOUR NEXT UPGRADE</p><h2 id="deals-heading" data-season-text="browseTitle">{season.browseTitle}</h2></div><a href="#how-deals-work">How we find deals ↗</a></div>
-      <div class="seasonal-shopping" data-seasonal-shopping hidden={!season.campaign}>
-        <p>Start with <strong data-season-focus>{season.campaign?.focus}</strong>. Seasonal picks put relevant categories first; discounts and end times come from each Amazon offer.</p>
-        <button type="button" data-gift-filter hidden={season.campaign?.id !== 'christmas'} aria-pressed="false">Gifts under $50</button>
-      </div>
+      <div class="deals-section-heading"><div><p class="deals-kicker">01 / FIND YOUR NEXT UPGRADE</p><h2 id="deals-heading">What’s brewing this week.</h2></div><a href="#how-deals-work">How we find deals ↗</a></div>
+      <p class="deal-notice" data-catalog-notice hidden={!fallback}>Live discounts are temporarily unavailable. Browse our reviewed products below and check current prices on Amazon. These are shopping options, with no discount or stock claim.</p>
+      <p class="deals-trust">Published by <a href={`${base}about/`}>Coffeedant</a> · <a href={`${base}testing/`}>Editorial methodology</a> · <a href={`${base}contact/`}>Report a correction</a>. <strong>As an Amazon Associate I earn from qualifying purchases.</strong></p>
       <div class="deal-categories" role="group" aria-label="Filter deals by category">
-        <button type="button" data-category="all" aria-pressed="true">All deals</button>
-        {data.categories.map(category => <button type="button" data-category={category.id} aria-pressed="false">{category.label}</button>)}
+        <button type="button" data-category="all" aria-pressed="true">{fallback ? 'All products' : 'All deals'}</button>
+        {data.categories.map(category => <button type="button" data-category={category.id} aria-pressed="false" hidden={!display.products.some(product => product.category === category.id)}>{category.label}</button>)}
       </div>
       <div class="deal-controls">
-        <label class="deal-search"><span>Search deals</span><input type="search" placeholder="Try beans, Breville, or a scale…" data-deal-search /></label>
-        <label class="deal-sort"><span>Sort by</span><select data-deal-sort><option value="recommended" data-season-sort>{season.campaign ? 'Seasonal picks' : 'Recommended deals'}</option><option value="savings">Biggest savings</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option><option value="ending">Ending soon</option></select></label>
+        <label class="deal-search"><span>Search products</span><input type="search" placeholder="Try Breville, DeLonghi, or a grinder…" data-deal-search /></label>
+        <label class="deal-sort"><span>Sort by</span><select data-deal-sort><option value="name" selected={fallback}>Product name</option><option value="savings" selected={!fallback} disabled={fallback}>Biggest savings</option><option value="price-low" disabled={fallback}>Price: low to high</option><option value="price-high" disabled={fallback}>Price: high to low</option><option value="ending" disabled={fallback}>Ending soon</option></select></label>
       </div>
-      <p class="deals-results" data-result-count aria-live="polite">Showing {products.length} deals</p>
-      <div class="deals-grid" data-deals-grid>
+      <p class="deals-results" data-result-count aria-live="polite">Showing {display.products.length} {fallback ? 'products' : 'deals'}</p>
+      <div class="deals-grid" data-deals-grid hidden={fallback}>
         {products.map(product => <article class="deal-card" data-deal-card data-category={product.category} data-search={`${product.title} ${product.brand ?? ''}`.toLowerCase()} data-price={product.amount} data-savings={product.savingsPercent ?? 0} data-checked={product.checkedAt} data-ends={product.endsAt ?? ''}>
           <a class="deal-image-link" href={product.detailPageUrl} target="_blank" rel="sponsored nofollow noopener" aria-label={`View ${product.title} on Amazon`}>
             {product.imageUrl ? <img src={product.imageUrl} alt={product.title} width={product.imageWidth ?? 160} height={product.imageHeight ?? 160} loading="lazy" /> : <span class="deal-no-image">See product on Amazon ↗</span>}
@@ -88,16 +73,31 @@ const schema = { '@context': 'https://schema.org', '@type': 'CollectionPage', '@
           </div>
         </article>)}
       </div>
-      <div class="deal-empty" data-deal-empty hidden={products.length > 0}><h3>No deals to show right now.</h3><p>Try another category or search. Offers that have ended, sold out, or could not be checked recently are removed.</p><button type="button" data-deal-reset>Reset filters</button></div>
-      <noscript><p>This is the snapshot at the price-check time shown above. Enable JavaScript to filter offers, hide expired prices and switch seasonal coverage between scheduled site updates.</p></noscript>
+      <div class="deals-grid" data-catalog-grid hidden={!fallback}>
+        {catalogProducts.map(product => <article class="deal-card" data-catalog-card data-category={product.category} data-search={`${product.title} ${product.brand}`.toLowerCase()}>
+          <a class="deal-image-link" href={`${base}${product.reviewPath.slice(1)}`} aria-label={`Read our review of ${product.title}`}>
+            <img src={product.image.startsWith('https://') ? product.image : `${base}${product.image.replace(/^\//, '')}`} alt={product.imageAlt} width="300" height="300" loading="lazy" />
+            <span class="deal-badge catalog-badge">{product.conditionLabel ?? 'Explore'}</span>
+          </a>
+          <div class="deal-content">
+            <p class="deal-category">{data.categories.find(category => category.id === product.category)?.label}</p>
+            <h3><a href={product.detailPageUrl} target="_blank" rel="sponsored nofollow noopener">{product.title}</a></h3>
+            <p class="catalog-note">{product.purchaseNote ?? 'Check the current price, seller and availability on Amazon.'}</p>
+            <a class="catalog-review" href={`${base}${product.reviewPath.slice(1)}`}>Read our review ↗</a>
+            <a class="deal-cta" href={product.detailPageUrl} target="_blank" rel="sponsored nofollow noopener">Check price on Amazon <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>)}
+      </div>
+      <div class="deal-empty" data-deal-empty hidden><h3>No products match these filters.</h3><p>Try another category or search, or reset to see all products.</p><button type="button" data-deal-reset>Reset filters</button></div>
+      <noscript><p>This is the snapshot at the price-check time shown above. Enable JavaScript to filter products and automatically replace expired offers with our reviewed product catalog.</p></noscript>
       <p class="deal-price-disclaimer">Product prices and availability are accurate as of the date/time indicated and are subject to change. Any price and availability information displayed on Amazon.com at the time of purchase will apply to the purchase of this product.</p>
     </section>
 
     <section class="deals-method" id="how-deals-work" aria-labelledby="deals-method-title">
       <div class="shell"><p class="deals-kicker">02 / A LITTLE CONTEXT</p><h2 id="deals-method-title">A discount is a starting point.</h2>
         <div class="deals-method-grid">
-          <div><span>01</span><h3>A weekly roundup. More in sale season.</h3><p>New searches run every Friday, increasing to every six hours during our Black Friday, Cyber Monday and Christmas coverage. Prices are rechecked throughout the week. We search for coffee, pods, machines, grinders, brewers, kettles, frothers and tools; Amazon’s full catalog is larger.</p></div>
-          <div><span>02</span><h3>Amazon’s numbers.</h3><p>Product details, images, prices, comparison prices, discounts, and deal terms come from Amazon’s API. Savings use Amazon’s labelled reference price. A discount does not establish a historical low.</p></div>
+          <div><span>01</span><h3>New finds every Friday.</h3><p>We search Amazon.com for coffee, pods, machines, grinders, manual brewers, kettles, frothers, and coffee tools. This page includes the deals found by those searches; Amazon’s full catalog is larger.</p></div>
+          <div><span>02</span><h3>Amazon’s numbers.</h3><p>Live deal details, images, prices and savings come from Amazon’s API. Savings use Amazon’s labelled reference price; they do not establish a historical low. When current deals cannot be verified, our editorial product catalog keeps this page useful without displaying old prices or discounts.</p></div>
           <div><span>03</span><h3>Check the fit, then the price.</h3><p>Offers can end early. Check delivery, seller, tax, and any Prime requirements on Amazon before buying. Use our <a href={`${base}espresso-machine/`}>machine reviews</a>, <a href={`${base}grinder/`}>grinder guides</a>, and <a href={`${base}coffee-beans/`}>coffee reviews</a> to compare your options.</p></div>
         </div>
         <p class="deals-disclosure"><strong>Affiliate disclosure:</strong> As an Amazon Associate I earn from qualifying purchases. Deal links open Amazon in a new tab.</p>
@@ -107,73 +107,57 @@ const schema = { '@context': 'https://schema.org', '@type': 'CollectionPage', '@
 </HomeLayout>
 
 <script>
-  import { getDealSeason, formatDay } from '../../lib/deal-season.mjs';
+  import { dealDisplay } from '../../lib/deal-catalog.mjs';
   const page = document.querySelector<HTMLElement>('[data-deals-page]');
   if (page) {
     const grid = page.querySelector<HTMLElement>('[data-deals-grid]')!;
     const cards = [...page.querySelectorAll<HTMLElement>('[data-deal-card]')];
+    const catalogGrid = page.querySelector<HTMLElement>('[data-catalog-grid]')!;
+    const catalogCards = [...page.querySelectorAll<HTMLElement>('[data-catalog-card]')];
     const search = page.querySelector<HTMLInputElement>('[data-deal-search]')!;
     const sort = page.querySelector<HTMLSelectElement>('[data-deal-sort]')!;
     const filters = [...page.querySelectorAll<HTMLButtonElement>('button[data-category]')];
     let category = 'all';
-    let giftBudget = false;
-    let previousSeason = '';
-    const setCategory = (value: string) => { category = value; filters.forEach(filter => filter.setAttribute('aria-pressed', String(filter.dataset.category === category))); };
-    const current = (card: HTMLElement) => { const checked = Date.parse(card.dataset.checked ?? ''); return Number.isFinite(checked) && checked <= Date.now() && Date.now() - checked < 86400000 && (!card.dataset.ends || Date.parse(card.dataset.ends) > Date.now()); };
     const update = () => {
-      const season = getDealSeason();
-      if (previousSeason !== season.key) {
-        // Run on load and at midnight even if a scheduled rebuild is delayed.
-        page.dataset.season = season.campaign?.id ?? 'evergreen';
-        page.querySelectorAll<HTMLElement>('[data-season-text]').forEach(node => { node.textContent = String(season[node.dataset.seasonText as keyof typeof season]); });
-        page.querySelector('[data-calendar-year]')!.textContent = String(season.year);
-        page.querySelector<HTMLElement>('[data-seasonal-shopping]')!.hidden = !season.campaign;
-        page.querySelector('[data-season-focus]')!.textContent = season.campaign?.focus ?? '';
-        page.querySelector('[data-season-sort]')!.textContent = season.campaign ? 'Seasonal picks' : 'Recommended deals';
-        page.querySelector<HTMLButtonElement>('[data-gift-filter]')!.hidden = season.campaign?.id !== 'christmas';
-        if (season.campaign?.id !== 'christmas') giftBudget = false;
-        for (const event of season.calendar) {
-          const card = page.querySelector<HTMLElement>(`[data-calendar-event="${event.id}"]`)!;
-          const active = season.campaign?.id === event.id;
-          card.dataset.active = String(active);
-          card.querySelector('[data-event-status]')!.textContent = active ? season.phase === 'preview' ? 'Preview now' : 'In focus now' : season.day >= event.end ? 'Coverage ended' : 'Coming up';
-          const date = card.querySelector<HTMLTimeElement>('[data-event-date]')!;
-          date.dateTime = event.date; date.textContent = formatDay(event.date);
-          const last = new Date(Date.parse(`${event.end}T12:00:00Z`) - 86400000).toISOString().slice(0, 10);
-          card.querySelector('[data-event-window]')!.textContent = `${formatDay(event.start)} – ${formatDay(last)}`;
-        }
-        document.title = season.title;
-        for (const key of ['description', 'og:description', 'twitter:description']) document.querySelector(`meta[name="${key}"], meta[property="${key}"]`)?.setAttribute('content', season.description);
-        for (const key of ['og:title', 'twitter:title']) document.querySelector(`meta[name="${key}"], meta[property="${key}"]`)?.setAttribute('content', season.title);
-        previousSeason = season.key;
-      }
+      const display = dealDisplay(cards.map(card => ({ card, checkedAt: card.dataset.checked, endsAt: card.dataset.ends })), catalogCards.map(card => ({ card })));
+      const fallback = display.mode === 'catalog';
+      const live: HTMLElement[] = display.products.map(product => product.card);
+      grid.hidden = fallback;
+      catalogGrid.hidden = !fallback;
+      page.querySelector<HTMLElement>('[data-catalog-notice]')!.hidden = !fallback;
+      // Remove expired API content, including image URLs, rather than keeping
+      // stale prices in hidden cards. The independent catalog remains available.
+      cards.filter(card => !live.includes(card)).forEach(card => card.remove());
+      for (const option of sort.options) option.disabled = fallback && option.value !== 'name';
+      if (sort.selectedOptions[0].disabled) sort.value = 'name';
+      if (!live.some(card => card.dataset.category === category)) category = 'all';
+      filters.forEach(filter => {
+        filter.hidden = filter.dataset.category !== 'all' && !live.some(card => card.dataset.category === filter.dataset.category);
+        filter.setAttribute('aria-pressed', String(filter.dataset.category === category));
+        if (filter.dataset.category === 'all') filter.textContent = fallback ? 'All products' : 'All deals';
+      });
       const query = search.value.trim().toLowerCase();
-      const live = cards.filter(current);
-      const priority = (card: HTMLElement) => Number(season.campaign?.categories.includes(card.dataset.category ?? '') ?? false);
-      const ordered = [...cards].sort((a, b) => sort.value === 'price-low' ? Number(a.dataset.price) - Number(b.dataset.price) : sort.value === 'price-high' ? Number(b.dataset.price) - Number(a.dataset.price) : sort.value === 'ending' ? (a.dataset.ends ? Date.parse(a.dataset.ends) : Infinity) - (b.dataset.ends ? Date.parse(b.dataset.ends) : Infinity) : (sort.value === 'recommended' ? priority(b) - priority(a) : 0) || Number(b.dataset.savings) - Number(a.dataset.savings));
+      const ordered = [...live].sort((a, b) => sort.value === 'name' ? a.querySelector('h3')!.textContent!.localeCompare(b.querySelector('h3')!.textContent!) : sort.value === 'price-low' ? Number(a.dataset.price) - Number(b.dataset.price) : sort.value === 'price-high' ? Number(b.dataset.price) - Number(a.dataset.price) : sort.value === 'ending' ? (a.dataset.ends ? Date.parse(a.dataset.ends) : Infinity) - (b.dataset.ends ? Date.parse(b.dataset.ends) : Infinity) : Number(b.dataset.savings) - Number(a.dataset.savings));
       let count = 0;
       for (const card of ordered) {
-        card.hidden = !current(card) || (category !== 'all' && card.dataset.category !== category) || (giftBudget && Number(card.dataset.price) >= 50) || !card.dataset.search?.includes(query);
+        card.hidden = (category !== 'all' && card.dataset.category !== category) || !card.dataset.search?.includes(query);
         if (!card.hidden) count++;
-        grid.append(card);
+        (fallback ? catalogGrid : grid).append(card);
       }
-      page.querySelector('[data-result-count]')!.textContent = `Showing ${count} ${count === 1 ? 'deal' : 'deals'}`;
+      const noun = fallback ? 'product' : 'deal';
+      page.querySelector('[data-result-count]')!.textContent = `Showing ${count} ${noun}${count === 1 ? '' : 's'}`;
       page.querySelector('[data-total]')!.textContent = String(live.length);
-      page.querySelector('[data-total-label]')!.textContent = live.length ? 'verified deals' : 'recently verified deals — awaiting refresh';
+      page.querySelector('[data-total-label]')!.textContent = fallback ? 'products to explore' : 'verified deals';
       page.querySelector<HTMLElement>('[data-deal-empty]')!.hidden = count > 0;
-      page.querySelector('[data-gift-filter]')!.setAttribute('aria-pressed', String(giftBudget));
       const schemaNode = document.querySelector('#deal-collection-schema')!;
       const schema = JSON.parse(schemaNode.textContent!);
-      schema.name = season.title; schema.description = season.description;
       schema.mainEntity = { '@type': 'ItemList', numberOfItems: live.length, itemListElement: live.map((card, index) => ({ '@type': 'ListItem', position: index + 1, name: card.querySelector('h3')!.textContent!.trim(), url: card.querySelector<HTMLAnchorElement>('.deal-cta')!.href })) };
       schemaNode.textContent = JSON.stringify(schema).replaceAll('<', '\\u003c');
     };
-    filters.forEach(button => button.addEventListener('click', () => { setCategory(button.dataset.category!); giftBudget = false; update(); }));
-    page.querySelectorAll<HTMLElement>('[data-focus-category]').forEach(link => link.addEventListener('click', () => { setCategory(link.dataset.focusCategory!); giftBudget = false; search.value = ''; update(); }));
-    page.querySelector('[data-gift-filter]')!.addEventListener('click', () => { giftBudget = !giftBudget; setCategory('all'); search.value = ''; update(); });
+    filters.forEach(button => button.addEventListener('click', () => { category = button.dataset.category!; filters.forEach(filter => filter.setAttribute('aria-pressed', String(filter === button))); update(); }));
     search.addEventListener('input', update);
     sort.addEventListener('change', update);
-    page.querySelector('[data-deal-reset]')?.addEventListener('click', () => { setCategory('all'); giftBudget = false; search.value = ''; update(); search.focus(); });
+    page.querySelector('[data-deal-reset]')?.addEventListener('click', () => { category = 'all'; search.value = ''; filters.forEach(filter => filter.setAttribute('aria-pressed', String(filter.dataset.category === 'all'))); update(); search.focus(); });
     update();
     window.setInterval(update, 60000);
     document.addEventListener('visibilitychange', () => { if (!document.hidden) update(); });
@@ -187,35 +171,6 @@ const schema = { '@context': 'https://schema.org', '@type': 'CollectionPage', '@
   .deals-kicker { margin: 0 0 18px; font-size: .74rem; letter-spacing: .09em; font-weight: 900; }
   h1 { margin: 0; font-size: clamp(3rem, 5.7vw, 5.25rem); line-height: 1.03; letter-spacing: -.06em; }
   h1 span { color: #474100; }
-  h1 .headline-main { color: inherit; }
-  [data-season="black-friday"] .deals-hero { background: #181b18; color: #fffdf3; }
-  [data-season="black-friday"] h1 > span:last-child { color: #f3da00; }
-  [data-season="black-friday"] .deals-jump, [data-season="christmas"] .deals-jump { background: #f3da00; color: #171b19; }
-  [data-season="cyber-monday"] .deals-hero { background: #dceaff; background-image: linear-gradient(90deg, #174c8809 1px, transparent 1px), linear-gradient(#174c8809 1px, transparent 1px); background-size: 28px 28px; }
-  [data-season="cyber-monday"] h1 > span:last-child { color: #174c88; }
-  [data-season="christmas"] .deals-hero { background: #164d3b; color: #fffdf3; }
-  [data-season="christmas"] h1 > span:last-child { color: #f7dfa1; }
-  .deals-note { color: var(--ink); }
-  .deals-calendar { padding-block: 48px 38px; border-bottom: 1px solid var(--line); }
-  .calendar-year { font-size: 2rem; font-weight: 900; color: var(--muted); }
-  .calendar-intro { max-width: 800px; margin: -7px 0 26px; line-height: 1.7; }
-  .calendar-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
-  .calendar-card { display: flex; flex-direction: column; border: 1px solid var(--ink); padding: 24px; background: #fff; min-width: 0; }
-  .calendar-card[data-active="true"] { box-shadow: 5px 5px 0 var(--ink); background: #fffbe3; }
-  .calendar-status { margin: 0 0 14px; font-size: .65rem; letter-spacing: .08em; text-transform: uppercase; font-weight: 900; color: #50564b; }
-  .calendar-card h3 { margin: 0 0 6px; font-size: 1.5rem; letter-spacing: -.04em; }
-  .calendar-card time { font-size: .87rem; font-weight: 800; }
-  .calendar-card > p:not(.calendar-status) { font-size: .86rem; line-height: 1.7; }
-  .calendar-card small { margin-top: auto; font-size: .7rem; color: #50564b; line-height: 1.6; }
-  .calendar-card > a { display: flex; justify-content: space-between; margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--line); font-size: .8rem; font-weight: 800; text-decoration: none; }
-  .calendar-footnote, .deals-trust { font-size: .73rem; line-height: 1.7; color: var(--muted); }
-  .calendar-footnote { margin: 24px 0 8px; }
-  .deals-trust { margin: 0; }
-  .seasonal-shopping { padding: 16px 20px; border-left: 4px solid var(--green); margin-bottom: 24px; background: #edf3ed; display: flex; align-items: center; gap: 18px; }
-  .seasonal-shopping p { margin: 0; font-size: .85rem; line-height: 1.6; }
-  .seasonal-shopping button { flex-shrink: 0; padding: 10px 12px; background: #fff; border: 1px solid var(--ink); font: inherit; font-size: .8rem; cursor: pointer; }
-  .seasonal-shopping button[aria-pressed="true"] { background: var(--ink); color: #fff; }
-  [hidden] { display: none !important; }
   .deals-intro { max-width: 580px; margin: 24px 0; font-size: 1.13rem; line-height: 1.6; }
   .deals-jump { display: inline-flex; gap: 34px; padding: 14px 20px; background: var(--ink); color: white; text-decoration: none; font-weight: 800; }
   .deals-note { position: relative; padding: 28px 32px; border: 2px solid var(--ink); background: var(--paper); box-shadow: 7px 7px 0 var(--ink); transform: rotate(2deg); }
@@ -246,6 +201,12 @@ const schema = { '@context': 'https://schema.org', '@type': 'CollectionPage', '@
   .deals-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; }
   .deal-card { display: flex; flex-direction: column; min-width: 0; border: 1px solid var(--ink); background: white; }
   .deal-card[hidden], .deal-empty[hidden] { display: none; }
+  [hidden] { display: none !important; }
+  .deal-notice { padding: 16px 20px; border-left: 4px solid var(--ink); background: #f3f0e8; font-size: .9rem; line-height: 1.6; }
+  .deals-trust { margin: 18px 0 24px; color: var(--muted); font-size: .75rem; line-height: 1.6; }
+  .catalog-badge { background: #f3f0e8; }
+  .catalog-note { margin: auto 0 12px; font-size: .78rem; line-height: 1.5; color: var(--muted); }
+  .catalog-review { margin: 0 0 16px; font-size: .78rem; font-weight: 700; }
   .deal-image-link { display: flex; position: relative; align-items: center; justify-content: center; height: 210px; padding: 45px 24px 20px; text-decoration: none; background: white; border-bottom: 1px solid var(--line); }
   .deal-image-link img { width: 100%; height: 100%; object-fit: contain; }
   .deal-badge { position: absolute; left: 12px; top: 12px; padding: 5px 9px; background: var(--yellow); color: var(--ink); font-weight: 900; font-size: .8rem; max-width: calc(100% - 24px); }
@@ -275,7 +236,6 @@ const schema = { '@context': 'https://schema.org', '@type': 'CollectionPage', '@
   .deals-method-grid p { font-size: .9rem; line-height: 1.7; margin: 0; }
   .deals-disclosure { margin: 32px 0 0; font-size: .75rem; border-top: 1px solid var(--line); padding-top: 20px; color: var(--muted); }
   @media (max-width: 1020px) { .deals-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } .deals-hero-grid { gap: 35px; } }
-  @media (max-width: 760px) { .calendar-grid { grid-template-columns: 1fr; } .calendar-year { display: inline-block; margin-top: 12px; } .seasonal-shopping { flex-direction: column; align-items: start; } }
   @media (max-width: 760px) { .deals-hero { padding: 40px 0; } .deals-hero-grid { grid-template-columns: 1fr; gap: 30px; } .deals-note { transform: none; padding: 20px 24px; } .deals-note .deals-kicker { margin-top: 0; } .deals-note strong { font-size: 2.8rem; } .deals-note p { margin: 8px 0; } .deals-section-heading { display: block; } .deals-section-heading > a { display: inline-block; margin-top: 15px; } .deals-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; } .deal-controls { grid-template-columns: 1fr; padding: 14px; } .deals-method-grid { grid-template-columns: 1fr; gap: 28px; } .deals-meta { display: grid; gap: 7px; } }
   @media (max-width: 480px) { .deals-grid { grid-template-columns: 1fr; } .deal-card { display: grid; grid-template-columns: 108px minmax(0, 1fr); } .deal-image-link { height: 100%; min-height: 190px; padding: 48px 12px 18px; border-bottom: 0; border-right: 1px solid var(--line); } .deal-badge { left: 6px; top: 8px; font-size: .65rem; padding: 5px; max-width: calc(100% - 12px); } .deal-content { padding: 14px; } .deal-card h3 { font-size: .85rem; margin-bottom: 10px; } .deal-price strong { font-size: 1.4rem; } .deal-conditions { min-height: 0; margin-bottom: 12px; } .deal-cta { font-size: .68rem; } .deal-categories button { font-size: .72rem; padding: 9px 10px; } .deals-browser { padding-top: 36px; } }
 </style>

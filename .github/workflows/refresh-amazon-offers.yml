@@ -23,18 +23,24 @@ jobs:
           cache: npm
       - run: npm ci
       - name: Fetch current Amazon prices and availability
+        id: offers
+        continue-on-error: true
         env:
           AMAZON_CREATORS_CREDENTIAL_ID: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_ID }}
           AMAZON_CREATORS_CREDENTIAL_SECRET: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_SECRET }}
           AMAZON_CREATORS_CREDENTIAL_VERSION: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_VERSION }}
         run: npm run update:amazon-offers
       - name: Recheck prices, images and expiry for the current Friday deals
+        id: deals
+        continue-on-error: true
         env:
           AMAZON_CREATORS_CREDENTIAL_ID: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_ID }}
           AMAZON_CREATORS_CREDENTIAL_SECRET: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_SECRET }}
           AMAZON_CREATORS_CREDENTIAL_VERSION: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_VERSION }}
         run: npm run refresh:amazon-deals
       - name: Refresh configured regional offers using the existing Amazon credentials
+        id: regional
+        continue-on-error: true
         env:
           AMAZON_CREATORS_CREDENTIAL_ID: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_ID }}
           AMAZON_CREATORS_CREDENTIAL_SECRET: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_SECRET }}
@@ -57,3 +63,8 @@ jobs:
           git commit -m "chore: refresh Amazon offers"
           git pull --rebase origin main
           git push
+      - name: Report incomplete refreshes without discarding successful updates
+        if: steps.offers.outcome == 'failure' || steps.deals.outcome == 'failure' || steps.regional.outcome == 'failure'
+        run: |
+          echo '::error::One or more Amazon refreshes failed. Successful updates were preserved. Check the failed step for the API reason; the deals page falls back to reviewed products when prices expire.'
+          exit 1

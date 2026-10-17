@@ -1,6 +1,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { categories, normalizeDeal } from './lib/amazon-deals.mjs';
 import { getDealSeason, seasonalQueries } from '../src/lib/deal-season.mjs';
+import { amazonApiError } from './lib/amazon-api-error.mjs';
 
 const root = new URL('../', import.meta.url);
 const dataPath = new URL('src/data/amazon-deals.json', root);
@@ -47,7 +48,7 @@ const request = async (operation, parameters) => {
       if (errors.length && !noResults) throw new Error(`Amazon ${operation} returned partial errors: ${errors.map(error => error.code).join(', ')}.`);
       return payload;
     }
-    if (![429, 500, 502, 503, 504].includes(response.status) || attempt === 4) throw new Error(`Amazon ${operation} failed: HTTP ${response.status}; ${errors.map(error => error.code).join(', ') || 'API error'}.`);
+    if (![429, 500, 502, 503, 504].includes(response.status) || attempt === 4) throw new Error(amazonApiError(operation, response.status, payload));
   }
 };
 const found = new Map();
