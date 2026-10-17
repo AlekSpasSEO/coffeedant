@@ -52096,6 +52096,720 @@
       "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
       "provider": "codex-direct",
       "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "6074cf7e8f682d43a7da7459c1b4bc012f7c21872f344ddca8bd63ade95ed854": {
+      "source": "Alternative products",
+      "text": "Alternative Produkte",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "6e34fa69f0e6070f5b4a524e8b42dc191f79f3b98d8dc582aaf74bd6ae741086": {
+      "source": "Also consider",
+      "text": "Alternativ betrachten",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "b0d252450061882eccddd61479a6d2e542192ad51daeccae42b072f865cb0b87": {
+      "source": "Choose for removable filling and deep recipe control.",
+      "text": "Wählen Sie für abnehmbares Füllen und tiefe Rezeptsteuerung.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "55803dd64533fba867a9174c16d6ec8ac5f10efb1977560ebb994cafaea5d51b": {
+      "source": "Simple brewer plus Encore ESP",
+      "text": "Einfacher Brewer plus Encore ESP",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "db2c5742d333e73dfefd8b57f3776a7ed0466ea01d735eaff0daf96dbfe47759": {
+      "source": "Direct more budget to fresh, repeatable grinding when one fixed batch mode is enough.",
+      "text": "Weisen Sie mehr Budget für frisches, wiederholbares Mahlen zu, wenn ein fester Batch-Modus ausreicht.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "3a232c98213daeb49cd59b2f33f9b6c0cbabc3464b36a4d32a77a432cf408d1e": {
+      "source": "Choose pods plus carafe brewing when format flexibility matters more than custom extraction.",
+      "text": "Wählen Sie Kapseln plus Karaffe-Brauen, wenn Formatflexibilität wichtiger ist als benutzerdefinierte Extraktion.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "c6526381467d2466a046435c70a6aa96cb7987e2a518f2214bf9ba4a216b602d": {
+      "source": "Key specifications",
+      "text": "Schlüsselfunktionen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "ded3fdd1672f617f0793e743d42b4d8feaf547f78a6ecd0703e4fa1beab12f95": {
+      "source": "Capacity",
+      "text": "Kapazität",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "5318fb3bcb356b94a00611872b43eae99c5f05bcd9990cbd2452b2db4b50b3d0": {
+      "source": "60 fl oz / 12 cup removable water tank",
+      "text": "60 fl oz / 12-Tassen-abnehmbarer Wassertank",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "b11f0c7e16383094c66bbc17f8f6961a89cc82e49bbe52e1807c33f961229d53": {
+      "source": "Carafe",
+      "text": "Karaffe",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "42471fe27253dd88c43a51f9ab12145406bea562067a9d4c5a99959c50c3e75b": {
+      "source": "Thermal carafe",
+      "text": "Thermokaraffe",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "54280cb9aae8b416e09046689bcfda9e99b471025e7ee35de7a4b2b01ecb5597": {
+      "source": "Baskets",
+      "text": "Körbchen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "fc71c5d304aa770944c839f8f5e51288fe9e96c3716fb6d52d7ec085f38e6994": {
+      "source": "Cone and flat-bottom brewing options",
+      "text": "Kegel- und flachbodige Braumöglichkeiten",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "33efddc3a5eac3aa95f827e58bae6527aa225520c0e33b08017c67a32e387252": {
+      "source": "Gold mode",
+      "text": "Gold-Modus",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "0c8904fcae653331dbbe2981123980817e7adfb227b0401f2fabe2518232ae08": {
+      "source": "SCA-aligned preset",
+      "text": "SCA-konformer Voreinstellung",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "aef96ffaa02bf7c74eeb2842bf8d1ef393aa5f8a8f137eb49f6c6b3e1d3e8aaf": {
+      "source": "Custom control",
+      "text": "Benutzerdefinierte Steuerung",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "52a8d39174c73b3b2b9f66dea89298a67f73f01a35bcdec39d1dfbd80c5633d9": {
+      "source": "Bloom volume and time, brew temperature, and flow rate",
+      "text": "Blütenvolumen und -zeit, Brütemperatur und Flussrate",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "f0004928865273dd38840a685e81463c6e99d334a6fa7fe418787ebe1851a695": {
+      "source": "Cold brew",
+      "text": "Kaltbrüh",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "09d431a0e9ca84cd22f984f809d9fafda729f5d077553da618723a9315965238": {
+      "source": "Programmed cold-brew mode, as little as 30 minutes depending on volume",
+      "text": "Programmierter Kaltbrüh-Modus, ab 30 Minuten je nach Volumen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "cd4874bfe2a72bb4d7386fac8e219d7e2d630613572255713c46a4ce9ec996a3": {
+      "source": "Auto start",
+      "text": "Automatischer Start",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "d44f8651385ead807cd9ae7894a21208f4ad496631948305ed5cd9050ea7a5cb": {
+      "source": "Programmable up to 24 hours",
+      "text": "Programmierbar bis zu 24 Stunden",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "67e317c7f67501033f9ae2ef7ad0121a70008c36d24864a6e8db3ca46142466a": {
+      "source": "Construction",
+      "text": "Konstruktion",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "4a80b883fa6e8c4dd7459876433de1efdddcc0c308642e701ab5e860f371614d": {
+      "source": "Metal and plastic appliance body",
+      "text": "Metall- und Kunststoff-Gerätegehäuse",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "5846b6b0f66ba4593ffb9d99e4bdd3540ea3c82fd2ee5ba5f74ff598e9b66aab": {
+      "source": "Heat retention",
+      "text": "Wärmeisolierung",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "961ee0833e0d37668f67645db5ed3eead4e3986a243fcec78a47bc5f17442333": {
+      "source": "Regional claim above 65°C for up to 4 hours",
+      "text": "Regionale Behauptung über 65°C für bis zu 4 Stunden",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "ca016d274fb133393d224b445b0bd29fd259c09d9a58c0b8dc57653f1171900b": {
+      "source": "Model",
+      "text": "Modell",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "2ff79b3e941707f0886c7d19944f1c658740fc27dd73334970599fde809cdade": {
+      "source": "BDC465 thermal-carafe version",
+      "text": "BDC465 Thermokaraffe-Version",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "9549af6a83f446ce4dabf4d44930703a134f7bdf35099d6f2446273fe2cfbf97": {
+      "source": "Buy it if",
+      "text": "Kaufen Sie es, wenn",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "38900f11108863ff3834eee40b3772773ce9d67d49197be4f0473a4ac3a7352d": {
+      "source": "Household brewing several batch sizes and coffee styles",
+      "text": "Haushaltsbrüh mit mehreren Batch-Größen und Kaffee-Stilen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "0da684743d226a0306aeb30df7990470a416b29b4fa55536e47a1f2dfd01dc53": {
+      "source": "Counter where a removable tank is easier than pouring from a carafe",
+      "text": "Zähler, an dem ein abnehmbarer Tank einfacher ist als das Gießen aus einer Karaffe",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:37:26.924Z"
+    },
+    "ad6c652a8d8e619f76cb95bf02d22908f9cd8e3d6af7236fcfdb994d882d7237": {
+      "source": "Review sections",
+      "text": "Testberichtsabschnitte",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "44305f7c92df81bb11b0785ad915f9fcac6de4080db06b0699e4ecd1adc8798a": {
+      "source": "Ratings",
+      "text": "Bewertungen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "2266b898878f76bd100b8701c47f5198a8d1983fba4f07902d66c1820d6aef3e": {
+      "source": "Overview",
+      "text": "Überblick",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "1b2c9e89699931c4afa8188c1ea9c02fe639f8847d8bd62c65463eae8d686933": {
+      "source": "Daily use",
+      "text": "Tägliche Nutzung",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "d4384cda252ad2b9cfbcdd667ed442c8cf285ce5fe21d64fc32d10c055ce1ace": {
+      "source": "Build and service: judge access, support, and failure response",
+      "text": "Bau und Service: Zugang, Support und Ausfallreaktion beurteilen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "b21fcb1d2d22d3265b2c31288f01145287f9a85b1ba393a19cafb6f194294022": {
+      "source": "Features: separate daily help from brochure decoration",
+      "text": "Funktionen: tägliche Hilfe und Broschüren-Dekoration trennen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "453ee3b2427ddc0215abccc39ee6c33f31a39b6e12ddd5d3410ca04f72ac7117": {
+      "source": "Compare",
+      "text": "Vergleichen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "acdf097394abe6e931fb34848fafd9f59b5e5f13d0638d7b394d6a31554656d7": {
+      "source": "Ownership",
+      "text": "Besitz",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "22412da8c326463da0ffc2550f64fde7a23c9c8623e3831a0741c3953a6ac74d": {
+      "source": "Video",
+      "text": "Video",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "0e30bfe4f1cf9c85b7d5983cccdfaf97387019f79786783b4a56a633001aa281": {
+      "source": "Verdict",
+      "text": "Urteil",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "809e6c2f5959be1d73f0e6d95746b67acf5c1c03e5c4cf4052b856b02097d2ad": {
+      "source": "Breville Luxe Brewer Thermal BDC465 full review",
+      "text": "Breville Luxe Brewer Thermal BDC465 vollständiger Testbericht",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "0dc50c2d6bd9a67349ccd5c79629b363c08b92871240e77ce4bf72913f609590": {
+      "source": "Evidence first",
+      "text": "Beweise zuerst",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "3d100ebadcd7ba5096215a83c6d4c3285a1838b6341283630985e536bc54c1d7": {
+      "source": "A single overall score is useful only when you can see what produced it. Breville Luxe Brewer Thermal BDC465 earns",
+      "text": "Eine einzelne Gesamtbewertung ist nur dann nützlich, wenn man sehen kann, was sie produziert. Breville Luxe Brewer Thermal BDC465 erhält",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "f8b74f6df6124c9b608ba91ba1e4ed69e765dd0e1259ce5e0c77b94c5ea64d93": {
+      "source": ", with coffee, carafe, workflow, build, features, and value scored separately below.",
+      "text": ", mit Kaffee, Karaffe, Workflow, Bau, Funktionen und Wert, die separat unten bewertet werden.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "c8e3ffca3ea531802748b74cb5121c243c6f56b87d6e56b1081f4fb52a458097": {
+      "source": "Research-led assessment.",
+      "text": "Forschungsgeleitete Bewertung.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "78da6370e8713afaad1e8b70500fef2c4d5d59d1f1ce45222bbefc2d39fdc9ac": {
+      "source": "This is a research-led assessment built from current manufacturer material, manuals and support records, independent reviews and demonstrations, owner discussions, and dated price context. Coffeedant has not physically tested this machine. Scores describe the documented ownership proposition, not measurements made in a Coffeedant lab.",
+      "text": "Dies ist eine forschungsgeleitete Bewertung, die aus aktuellen Herstellerunterlagen, Handbüchern und Supportaufzeichnungen, unabhängigen Bewertungen und Demonstrationen, Besitzerdiskussionen und datierten Preisinformationen erstellt wurde. Coffeedant hat diese Maschine nicht physisch getestet. Die Bewertungen beschreiben das dokumentierte Besitzangebot, nicht die in einem Coffeedant-Labor durchgeführten Messungen.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "b990b1ba6b24e6b632b83d6bf980bd9651f48fc636e555e652cecf9e3848a925": {
+      "source": "Coffeedant category rating table",
+      "text": "Coffeedant-Kategoriewertungstabelle",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "1bc62d2b0a74cb63ac86ad260e9adc84907622ee10d7f68a550e01a843b2e117": {
+      "source": "Category",
+      "text": "Kategorie",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "bde0e06cf1f7d0ff35ad64f1cbf0f1a4f3ab309c0791c6da872ae72e31644820": {
+      "source": "Score",
+      "text": "Bewertung",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "8bd7b683ccae5d7541c6a7f74f131b9f14b6627c24bf8c7bffe5bdd25e1f7201": {
+      "source": "Reason",
+      "text": "Grund",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "b0148814061582d3d444db39aa6935fc40f21dea9f9338d32f7834060103034b": {
+      "source": "Gold mode plus custom bloom, temperature, flow, basket, and batch choices create a strong drip extraction toolkit.",
+      "text": "Gold-Modus plus benutzerdefinierte Blüte, Temperatur, Fluss, Korb und Chargenauswahl erzeugen ein starkes Drip-Extraktions-Toolkit.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "77347f04a981979607b24ed80fef2b53baa233d03301022c31e98874de684c31": {
+      "source": "The thermal carafe supports heat retention without a warming plate, with cleaning and preheating tradeoffs.",
+      "text": "Die thermische Karaffe unterstützt die Wärmebeibehaltung ohne eine Wärmeplatte, mit Reinigungs- und Vorheiz-Tradeoffs.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "620486c7392d5f62f72c7895b77898d00bb6b49b0d299683e4e05f9ea96f236c": {
+      "source": "A removable tank, programmable start, and clear presets make a complex brewer unusually manageable.",
+      "text": "Ein entfernbare Tank, programmierbarer Start und klare Voreinstellungen machen einen komplexen Brauer ungewöhnlich handhabbar.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "b7452b559d48b9668bf869093a403848f06c233f631816af735efc9a8c61f79a": {
+      "source": "Build",
+      "text": "Bau",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "ef5f97625d3fab20e1b9a588dcb51056252048b9ce2d1957161bfdedfc59eafe": {
+      "source": "Useful removable parts support care, while appliance electronics and small components remain service dependencies.",
+      "text": "Nützliche entfernbare Teile unterstützen die Pflege, während die Geräteelektronik und kleine Komponenten Service-Abhängigkeiten bleiben.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "32681e04c4117c0de9dcac24c9dada56aac10045c7b815af67292f112268f555": {
+      "source": "Features",
+      "text": "Funktionen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "89a4ff02ad4bd2611941cc061ab2415c1ba3cfb4ab51067b66adb77babe95495": {
+      "source": "The feature set is unusually broad and mostly tied to real brewing or filling decisions.",
+      "text": "Die Funktionssammlung ist ungewöhnlich breit und größtenteils an reale Brau- oder Füllentscheidungen gebunden.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "8b53bfe99a4371455415f12e05bbbddfba86564161d3ab58570bfbddcd76dc84": {
+      "source": "The premium is justified when flexibility and removable filling are used, not merely admired.",
+      "text": "Der Aufpreis ist gerechtfertigt, wenn Flexibilität und entfernbare Füllung verwendet werden, nicht nur bewundert.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "d9a6655f4d83283ece46f37366136647d4c923cc58b5353ba1a1c0cd0bed845b": {
+      "source": "Performance snapshot",
+      "text": "Leistungsübersicht",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:39:11.210Z"
+    },
+    "bbeffbf5b81966e5b6170e8026dc79227f420b899e25cefdf5115a9cd85cf75e": {
+      "source": "Coffeedant performance assessment across every required review category",
+      "text": "Coffeedant Leistungsbeurteilung in allen erforderlichen Testkategorien",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "b97ef6bce035d34192fdbd991f1c99f000a310444ed8cec74a1d0aaecfeb4e4a": {
+      "source": "Coffeedant performance assessment across every required review category",
+      "text": "Coffeedant Leistungsbeurteilung in allen erforderlichen Testkategorien",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "256ecec0bc40951a7c398d1888288c27c92e04967d6409c134dfbf7711b3e5cf": {
+      "source": "Area",
+      "text": "Bereich",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "0ecf2102f3800b298747152d58de13d837974e03a3e4350e0bf1a5a656e6da86": {
+      "source": "Evidence-backed finding",
+      "text": "Evidenzbasiertes Ergebnis",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "4d78681fceb9bab9a9aff8d9e67108f33e94487297ea88b363e642bdcd115b52": {
+      "source": "What it means",
+      "text": "Was es bedeutet",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "ee181c7565da001b8b3cf656cec97e5059bc750fd89ebb92b5f51be20a1fedee": {
+      "source": "Evidence status",
+      "text": "Evidenzstatus",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "b899362f2f6425937917fc44c1f6db6c9045942ca8f1badc52440a198d5f7701": {
+      "source": "Area",
+      "text": "Bereich",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "83c05ac6a3aa11fbbd1d4e8f96b7d7f155fefcb40265f08f014db1fa8b25d41c": {
+      "source": "Evidence-backed finding",
+      "text": "Evidenzbasiertes Ergebnis",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "a6c836dbc5a3a3f37997f544ad025500ee257df1ac5f314414a817a0240b0f27": {
+      "source": "What it means",
+      "text": "Was es bedeutet",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "9066f5ca51b81420095c3d699c39d6edc730b97632af7bc7a6fac3832bf1dc8c": {
+      "source": "Excellent for recipe-minded batch coffee, though a simple fixed routine does not need every control.",
+      "text": "Sehr gut für rezeptorientierten Batch-Kaffee, obwohl ein einfacher fester Ablauf nicht jeden Steuerung benötigt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "956577bdbac88b2eb2bd72de79014013cd4c1b5f59dfec9a1963ff0a2f545cae": {
+      "source": "Evidence status",
+      "text": "Evidenzstatus",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "91ebcdc1379ecdacd6926dc731af3b2765a24342cba62daece7796cb55e6a358": {
+      "source": "Official brewing modes and independent review",
+      "text": "Offizielle Braumodi und unabhängige Bewertung",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "418deaa9c6367373a6eaa8591e53b31e26e46c47ff0980f34c59193ad74c1f62": {
+      "source": "Good for serving a batch over time without cooking it on a hot plate.",
+      "text": "Gut zum Servieren eines Batches über einen längeren Zeitraum ohne ihn auf einem heißen Teller zu kochen.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "46e73d09c49dfb9e7861016259dbeb2bef28dbf47fd09460486d754452e357b0": {
+      "source": "Official carafe claims and independent demonstration",
+      "text": "Offizielle Karaffe-Ansprüche und unabhängige Demonstration",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "45c2f32a3738a4b39c660d9a5caf6039c228b70df5eaebc24ef550b60f59137b": {
+      "source": "Strong for under-cabinet counters and scheduled mornings, with more cleanup than a basic brewer.",
+      "text": "Stark für unter den Schränken und geplante Morgen, mit mehr Reinigung als ein einfacher Brewer.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "e65923fa048dc14e7b7dad4ad2059fc7105a80a67185eb9f742c50d615845ae0": {
+      "source": "Official operation and independent video",
+      "text": "Offizieller Betrieb und unabhängiges Video",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "0cfb610b52f1bef7e82c9b1b595c907e1f56d4080608b7b59b8b6d078f89059c": {
+      "source": "Treat it as a premium consumer brewer with a clear support route, not commercial equipment.",
+      "text": "Behandeln Sie es als Premium-Verbraucher-Brewer mit einem klaren Support-Weg, nicht als kommerzielle Ausrüstung.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "b32c7943886340f5639dd962cf9a4ba0782071cfc39b01f3bc5c3a49cd150800": {
+      "source": "Official construction and owner parts context",
+      "text": "Offizielle Konstruktion und Kontext der Besitzer-Teile",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "388f24435f480f4e38241abe0250009a439d9976a202749eb749a4b449c70eee": {
+      "source": "High value for an experimenter; unnecessary complexity for one fixed batch.",
+      "text": "Hoher Wert für einen Experimentierenden; unnötige Komplexität für einen festen Batch.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "9d6c376f8fdf7e62b89a1042612237fed6acb4d277d8e2fd478b3cbc523b1bae": {
+      "source": "Official current product specification",
+      "text": "Offizielle aktuelle Produktspezifikation",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "a6202597728b9278ff19dab5557888bdc4345e099ecb23b7222f885ed095e490": {
+      "source": "Compare against a simpler certified brewer if custom recipes and cold brew will stay untouched.",
+      "text": "Vergleichen Sie es mit einem einfacheren zertifizierten Brewer, wenn benutzerdefinierte Rezepte und Cold Brew unberührt bleiben.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "489581961b61648469d722459fd36e9ff10fd0f9698a8f49dc01d28523a58b20": {
+      "source": "Dated official price and independent category context",
+      "text": "Datierter offizieller Preis und unabhängiger Kategoriename",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "1ac277639a78e5c45cc1313e816ffb8220676a2fc74009773707fd7f1e174383": {
+      "source": "How to read this:",
+      "text": "So lesen Sie dies:",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "daa2a9055576e88e24dfa2c7722170e7ec07c4843112933280ff313226f42726": {
+      "source": "the category score is Coffeedant’s editorial judgment. The evidence-status column tells you what kind of support sits underneath it. Each category links to its full analysis farther down the review.",
+      "text": "Die Kategoriennote ist Coffeedants redaktionelles Urteil. Die Evidenzstatus-Spalte zeigt, welche Art von Unterstützung darunter liegt. Jede Kategorie verlinkt zu ihrer vollständigen Analyse weiter unten im Testbericht.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "1f1c629449973b5ec93d746e9f6044dd4ad2382bc85e715bf958c5e07c382dc5": {
+      "source": "Start with the decision",
+      "text": "Beginnen Sie mit der Entscheidung",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "d016e96fa98d69b24f414c4749f9b840f1e4968e266f29b58b467c0ada5eb05d": {
+      "source": "Luxe Brewer Thermal BDC465 in one honest frame",
+      "text": "Luxe Brewer Thermal BDC465 in einem ehrlichen Rahmen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "98a25cac35e390a90089f1983b7448a2465f1b32650ba6a4f78408f0cb7b423f": {
+      "source": "The Luxe Brewer Thermal is for a household that wants to change how it brews, rather than replace drip coffee with espresso. Its cone and flat-bottom baskets, custom bloom, temperature and flow settings give different coffees room to behave differently; Gold mode supplies a simpler starting point. The removable tank addresses the less glamorous problem of filling a brewer beneath kitchen cabinets, while the thermal carafe suits coffee served over a morning. Those advantages justify the extra controls only when they will be used. Someone repeating one familiar pot may get better value from a simpler brewer.",
+      "text": "Der Luxe Brewer Thermal ist für ein Haushalt geeignet, der seine Braumethode ändern möchte, anstatt Drip-Kaffee durch Espresso zu ersetzen. Seine Kegel- und flache Körbe, benutzerdefinierte Blüte, Temperatur- und Fluss-Einstellungen geben verschiedenen Kaffees Raum, sich unterschiedlich zu verhalten; der Gold-Modus bietet einen einfacheren Ausgangspunkt. Der abnehmbare Tank löst das weniger glamouröse Problem des Befüllens eines Brewers unter den Küchenschränken, während die thermische Karaffe für Kaffee geeignet ist, der über einen Morgen serviert wird. Diese Vorteile rechtfertigen die extra Steuerungen nur, wenn sie verwendet werden. Jemand, der einen vertrauten Topf wiederholt, kann vielleicht einen besseren Wert von einem einfacheren Brewer erhalten.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "ae17257fa1923dccf33843286a69af632ab7259070762d41f1e47db263445855": {
+      "source": "[source]",
+      "text": "[Quelle]",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "1587ae172968a0629877216b26c86beffbb84096259680fa1218399f8cfcdce7": {
+      "source": "This is thermal-carafe model BDC465, not a glass-carafe warming-plate version and not the older Precision Brewer by default. Regional Sage and Breville packages can differ.",
+      "text": "Dies ist das thermische Karaffe-Modell BDC465, nicht eine Glas-Karaffe-Wärmplatte-Version und nicht der ältere Precision Brewer standardmäßig. Regionale Sage- und Breville-Pakete können unterschiedlich sein.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "31a8900f560ca95db5c89b97aaaaaed9f97616528912bd97110d32f370047564": {
+      "source": "The strongest reason to choose it:",
+      "text": "Der stärkste Grund, es zu wählen:",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:40:05.812Z"
+    },
+    "2cb201a5b5fceeb07cb21f29a740af095932e5a34c65ac070e3bf54fd22b1bc3": {
+      "source": "It combines serious recipe control with the everyday convenience of a removable tank and insulated carafe.",
+      "text": "Es kombiniert eine ernsthafte Rezeptkontrolle mit der alltäglichen Bequemlichkeit eines entfernbaren Tanks und einer isolierten Kanne.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "8d0ed4a3e9ac44da72e3c0ec4d557b714f9b9295f862678701cd5bfa268e0bb3": {
+      "source": "The main reason to pause:",
+      "text": "Der Hauptgrund zum Zögern:",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "4d34f14d63556d995b9a1a07d85cc02e4881fbd3c5aed62b7e51b083c52f0584": {
+      "source": "The premium and extra settings are wasted when the household wants one fixed batch from one coffee every morning.",
+      "text": "Die Premium- und Extra-Einstellungen sind verschwendet, wenn das Haushalt nur eine feste Charge von einem Kaffee jeden Morgen wühst.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "cccfbd6df39e54eac7f5a1dc37283677f1434c7cbacbbf5cbb2fcbea5a0d9f3d": {
+      "source": "Evidence boundary:",
+      "text": "Beweisgrenze:",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "346e09f09e79f123e4fd47746363198fe0aa4ac04e2cc6e2be4dc74b4a8315b6": {
+      "source": "this page does not claim that Coffeedant brewed on, measured, opened, or durability-tested the Luxe Brewer Thermal BDC465. Product performance varies with inputs, setup, maintenance, technique, revision, and region.",
+      "text": "diese Seite behauptet nicht, dass Coffeedant den Luxe Brewer Thermal BDC465 zubereitet, gemessen, geöffnet oder hinsichtlich der Haltbarkeit getestet hat. Die Produktleistung variiert je nach Eingaben, Einrichtung, Wartung, Technik, Revision und Region.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "4042a6453ed5f6f0412f3cf258a601a83047c2bd6a001ae903e7e8d37ae7ae85": {
+      "source": "The first week",
+      "text": "Die erste Woche",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "0e695db1b2f96b0184c945aa97715c73a175ae126196587b97c1a2488bf1b33c": {
+      "source": "Set up the whole station, not only the machine",
+      "text": "Richten Sie die gesamte Station ein, nicht nur die Maschine",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "cf5cdbc1a1e0908767425aae1c740fe078939b9a56b7de5657ffb62f0ac7e826": {
+      "source": "Wash the tank, baskets, showerhead pieces, lid, and carafe as directed, set water hardness or filter care where applicable, then make one plain-water cycle before comparing recipes. Begin by matching the rating plate, manual, water guidance, included parts, and seller invoice to the exact delivered unit. Wash the removable food-contact parts as directed, install any supplied filter correctly, complete the documented rinse or prime sequence, and keep packaging until the machine has completed several normal cycles without an issue.",
+      "text": "Waschen Sie den Tank, die Körbchen, die Düsenstüke, den Deckel und die Kanne wie angegeben, stellen Sie die Wasserhärte oder Filterpflege ein, wo zutreffend, und machen Sie dann einen einfachen Wasserzyklus, bevor Sie Rezepte vergleichen. Beginnen Sie damit, die Typenschilder, die Bedienungsanleitung, die Wasseranleitung, die mitgelieferten Teile und die Verkaufsrechnung mit der exakt gelieferten Einheit abzugleichen. Waschen Sie die entfernbaren Lebensmittelkontakteile wie angegeben, installieren Sie alle mitgelieferten Filter korrekt, vervollständigen Sie die dokumentierte Spül- oder Primensequenz und bewahren Sie die Verpackung auf, bis die Maschine mehrere normale Zyklen ohne Probleme abgeschlossen hat.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "a33d3f5d06f7b4496fecf15d9c779e7eeff20ebce3c744f54a7bf4e30b97099c": {
+      "source": "Day one:",
+      "text": "Tag eins:",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "241a02a357356d2c71a933576e2c412c152b90d1a2876f794f19ee1a94665cbc": {
+      "source": "learn filling, startup, shutdown, warnings, and waste paths.",
+      "text": "lernen Sie das Füllen, das Hochfahren, das Herunterfahren, die Warnungen und die Abfallwege.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "325bc9bad7728516a8f24dfc605768c5df74981457827c7404601f0f2b57f329": {
+      "source": "Days two and three:",
+      "text": "Tage zwei und drei:",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "b7e4a17be48a185b559ad54d87f07c74349d0e6a5b4f1f83b9a5ef69028a1772": {
+      "source": "repeat one coffee and recipe, changing one variable at a time.",
+      "text": "wiederholen Sie einen Kaffee und ein Rezept, indem Sie eine Variable nach der anderen ändern.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "184098ddc26ef280667e3c3cebe001b2566ab2545cbf7a46e83591057427286e": {
+      "source": "Days four and five:",
+      "text": "Tage vier und fünf:",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "aeb52c5185910d3fd9135e8f0861fb54ee2cfdbf6dac99e2da2021f8749e8548": {
+      "source": "make the normal household order, including the refill and cleanup.",
+      "text": "stellen Sie die normale Haushaltsbestellung her, einschließlich der Nachbefüllung und der Reinigung.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "416b6abf6ca44659a59aaae8df80ffe41604ecfa4db7836e98fef774211da116": {
+      "source": "Days six and seven:",
+      "text": "Tage sechs und sieben:",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "918239bc4cc79daa061f24a39cf8df391e5f36c3ad458c62d19e10e96df7a650": {
+      "source": "perform routine care and decide whether the station still feels convenient.",
+      "text": "führen Sie die regelmäßige Wartung durch und entscheiden Sie, ob die Station immer noch bequem ist.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "7ec9f415f3020c31b9104faf25116b63ab4984472f62f0c94aba1036d101d0f1": {
+      "source": "Water is both an ingredient and a maintenance variable. Follow manufacturer and local-service guidance rather than assuming that very hard, completely demineralized, distilled, or generic bottled water is automatically suitable. If flow changes abruptly, a leak appears, a protection device trips, or the machine smells hot in an abnormal way, stop and arrange qualified diagnosis instead of repeatedly restarting it.",
+      "text": "Wasser ist sowohl ein Zutat als auch eine Wartungsvariable. Befolgen Sie die Hersteller- und lokalen Serviceanweisungen, anstatt anzunehmen, dass sehr hartes, vollständig entmineralisiertes, destilliertes oder generisches Flaschenwasser automatisch geeignet ist. Wenn der Fluss abrupt ändert, ein Leck erscheint, ein Schutzgerät auslöst oder die Maschine auf eine ungewöhnliche Weise heiß riecht, stoppen Sie und vereinbaren Sie eine qualifizierte Diagnose, anstatt sie wiederholt neu zu starten.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "62a3406ebf6127405b30d96b8c4c9bacfac7b623ee215c0efc1af29827d1693d": {
+      "source": "Breville Luxe Brewer Thermal removable water tank being lifted from the brewer",
+      "text": "Breville Luxe Brewer Thermal entfernbare Wassertank, der von der Kaffeemaschine abgehoben wird",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "12000189e4d7ac3b21b9ee731a3b1880ad27102c0a576e8c668541f2a045a3a5": {
+      "source": "Manufacturer photo",
+      "text": "Herstellerfoto",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "f9c1b85276cd9d602cb61056469f0508878392a0396573480c710e5add7694a3": {
+      "source": "The removable 60-ounce tank is a practical advantage under cabinets because filling and washing do not require pouring into the installed brewer.",
+      "text": "Der entfernbare 60-Unzen-Tank ist ein praktischer Vorteil unter den Schränken, da das Füllen und Waschen nicht das Eingießen in die installierte Kaffeemaschine erfordert.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "5a8065e723e0646ee15a565a64585770608dbc2a5d04449d9af28b2516e27655": {
+      "source": "Image:",
+      "text": "Bild:",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "62305d10fd265b5824f16cf8f224493dddc25ebb616cff75fea25f709f00af32": {
+      "source": "Breville US product page",
+      "text": "Breville US-Produktseite",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "9bf173344d51b5fd4cd96eef14a0a3b7cdcc9fd2e8f4df121806d026821fd743": {
+      "source": ".\n Usage record:",
+      "text": ".\nNutzungsprotokoll:",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "5ca92d17f56b7147e5589de534c11e94c0300ca80668a233a004f5b28d956597": {
+      "source": "Official manufacturer product-page media",
+      "text": "Offizielles Hersteller-Produktseiten-Medium",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "9b121234b1eba8d2c9b2ae7fe8c588f1f9bbefb468489453926de94b56ae395c": {
+      "source": ".\nOfficial manufacturer media; not a Coffeedant test photograph.",
+      "text": ".\nOffizielles Hersteller-Medium; kein Coffeedant-Testfotograf.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "7f39afa614f62ae5554245ca2ac1100a50c2f4270c49267c7ac152bdfa38dcde": {
+      "source": "Compare before you buy",
+      "text": "Vergleichen Sie vor dem Kauf",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "83e76802bba24ddb6edc206db07e70f6f0ecf6389140347a09ecf6f8f1e76a05": {
+      "source": "See what else fits beside the Luxe Brewer Thermal BDC465.",
+      "text": "Sehen Sie, was noch neben dem Luxe Brewer Thermal BDC465 passt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "d2afa3f597a54f8a541e983caea4c27c47bf8507cae5061a2e4f1eea511d95ec": {
+      "source": "Pick any budget, workflow, or drink preference. The finder searches the complete Coffeedant espresso-machine catalog and keeps this review out of the comparison results.",
+      "text": "Wählen Sie ein beliebiges Budget, einen Arbeitsablauf oder eine Getränkepräferenz. Der Finder durchsucht den gesamten Coffeedant-Espresso-Maschinen-Katalog und schließt diese Bewertung aus den Vergleichsergebnissen aus.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "17ce5a2423efaff68a65048978cfbcc1fe0bb0eb6d6130a0d3c6da7cb281bb2a": {
+      "source": "Rating deep dive",
+      "text": "Bewertungstiefe",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
+    },
+    "d82e02efab277f0cd00bed7670a2b2d316c4b0017c1dc383bfbd654bc6daedcc": {
+      "source": "Coffee: control the variables the machine leaves to you",
+      "text": "Kaffee: kontrollieren Sie die Variablen, die die Maschine Ihnen überlässt",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "updatedAt": "2026-10-17T17:41:12.507Z"
     }
   },
   "routes": {
@@ -52530,16 +53244,416 @@
     "page:8eae0f647a5275ebbe35": {
       "sourcePath": "/journal/espresso-dosing/",
       "path": "/journal/espresso-dosieren/"
+    },
+    "page:edf907a7e1fe959a34dc": {
+      "sourcePath": "/espresso-machine/breville-barista-express-bes870xl/",
+      "path": "/espresso-maschine/breville-barista-express-bes870xl/"
+    },
+    "page:fd0f6a09cdf60177c485": {
+      "sourcePath": "/espresso-machine/breville-barista-express-impress-bes876/",
+      "path": "/espresso-maschine/breville-barista-express-impress-bes876/"
+    },
+    "page:3c7f575c044379383a89": {
+      "sourcePath": "/espresso-machine/breville-oracle-dual-boiler-bes995/",
+      "path": "/espresso-maschine/breville-oracle-dual-boiler-bes995/"
+    },
+    "page:b1eebacf315c2562956c": {
+      "sourcePath": "/espresso-machine/delonghi-la-specialista-prestigio/",
+      "path": "/espresso-maschine/delonghi-la-specialista-prestigio/"
+    },
+    "page:f26ae1d730eee7cc582f": {
+      "sourcePath": "/espresso-machine/delonghi-magnifica-esam3000/",
+      "path": "/espresso-maschine/delonghi-magnifica-esam3000/"
+    },
+    "page:395d2612f803956f507e": {
+      "sourcePath": "/espresso-machine/delonghi-magnifica-evo-next/",
+      "path": "/espresso-maschine/delonghi-magnifica-evo-next/"
+    },
+    "page:96ceb62bb3073d2175eb": {
+      "sourcePath": "/espresso-machine/delonghi-magnifica-evo/",
+      "path": "/espresso-maschine/delonghi-magnifica-evo/"
+    },
+    "page:a31230b7a0b0c05c4b68": {
+      "sourcePath": "/espresso-machine/delonghi-magnifica-plus/",
+      "path": "/espresso-maschine/delonghi-magnifica-plus/"
+    },
+    "page:cc0d32c40a88b4ff0394": {
+      "sourcePath": "/espresso-machine/delonghi-magnifica-start/",
+      "path": "/espresso-maschine/delonghi-magnifica-start/"
+    },
+    "page:47f4e6b1ea0470dd2eba": {
+      "sourcePath": "/espresso-machine/delonghi-primadonna-soul-ecam610/",
+      "path": "/espresso-maschine/delonghi-primadonna-soul-ecam610/"
+    },
+    "page:048c04f5fb6705bec576": {
+      "sourcePath": "/espresso-machine/delonghi-rivelia-exam44055b/",
+      "path": "/espresso-maschine/delonghi-rivelia-exam44055b/"
+    },
+    "page:b828f2004768a26a49d7": {
+      "sourcePath": "/espresso-machine/ecm-casa-v/",
+      "path": "/espresso-maschine/ecm-casa-v/"
+    },
+    "page:e67d2c2d6182bdd849eb": {
+      "sourcePath": "/espresso-machine/ecm-classika-pid-flow-control/",
+      "path": "/espresso-maschine/ecm-classika-pid-flow-control/"
+    },
+    "page:13fe4556efad8561612b": {
+      "sourcePath": "/espresso-machine/ecm-mechanika-slim-pid/",
+      "path": "/espresso-maschine/ecm-mechanika-slim-pid/"
+    },
+    "page:ddfaacff0c8c1c887812": {
+      "sourcePath": "/espresso-machine/ecm-mechanika-v-slim/",
+      "path": "/espresso-maschine/ecm-mechanika-v-slim/"
+    },
+    "page:b74ec989bb5bcee485ae": {
+      "sourcePath": "/espresso-machine/ecm-puristika/",
+      "path": "/espresso-maschine/ecm-puristika/"
+    },
+    "page:85f7a0be434750d29c27": {
+      "sourcePath": "/espresso-machine/ecm-synchronika/",
+      "path": "/espresso-maschine/ecm-synchronika/"
+    },
+    "page:8950b683f965c1430178": {
+      "sourcePath": "/espresso-machine/ecm-technika-v-profi-pid/",
+      "path": "/espresso-maschine/ecm-technika-v-profi-pid/"
+    },
+    "page:25a2bab3181c95da5576": {
+      "sourcePath": "/espresso-machine/fellow-espresso-series-1/",
+      "path": "/espresso-maschine/fellow-espresso-series-1/"
+    },
+    "page:0c3086cda59db39baf61": {
+      "sourcePath": "/espresso-machine/flair-58/",
+      "path": "/espresso-maschine/flair-58/"
+    },
+    "page:18e9f7d9f60aac618900": {
+      "sourcePath": "/espresso-machine/gaggia-velasca-ri8260-3/",
+      "path": "/testbericht-gaggia-velasca-ri8260-3/"
+    },
+    "page:3a027328da47c8678016": {
+      "sourcePath": "/espresso-machine/jura-e6/",
+      "path": "/testbericht-jura-e6/"
+    },
+    "page:0ec7281270375bfca0cd": {
+      "sourcePath": "/espresso-machine/jura-e8/",
+      "path": "/testbericht-jura-e8/"
+    },
+    "page:f236822f6c9f2b605474": {
+      "sourcePath": "/espresso-machine/jura-giga-6/",
+      "path": "/testbericht-jura-giga-6/"
+    },
+    "page:50b30af0514b1ee3116d": {
+      "sourcePath": "/espresso-machine/jura-z10/",
+      "path": "/testbericht-jura-z10/"
+    },
+    "page:e18548b2b05df47fbc77": {
+      "sourcePath": "/espresso-machine/krups-arabica-digital-ea817040/",
+      "path": "/testbericht-krups-arabica-digital-ea817040/"
+    },
+    "page:2343724ec247e5fe7c7d": {
+      "sourcePath": "/espresso-machine/krups-arabica-manual-ea811040-ea811840/",
+      "path": "/testbericht-krups-arabica-manual-ea811040-ea811840/"
+    },
+    "page:e180c43fbf621a55979c": {
+      "sourcePath": "/espresso-machine/krups-evidence-eco-design-ea897b40/",
+      "path": "/testbericht-krups-evidence-eco-design-ea897b40/"
+    },
+    "page:d05de87a6554158a0d06": {
+      "sourcePath": "/espresso-machine/krups-evidence-milk-ea891d27/",
+      "path": "/testbericht-krups-evidence-milk-ea891d27/"
+    },
+    "page:2ce2959a5f6ae874117c": {
+      "sourcePath": "/espresso-machine/krups-evidence-one-ea895n40/",
+      "path": "/testbericht-krups-evidence-one-ea895n40/"
+    },
+    "page:6386388e47844c42daf7": {
+      "sourcePath": "/espresso-machine/krups-intuition-essential-ea870840/",
+      "path": "/testbericht-krups-intuition-essential-ea870840/"
+    },
+    "page:9ffa8675cabbabc0b9b8": {
+      "sourcePath": "/espresso-machine/krups-intuition-experience-ea877d40/",
+      "path": "/testbericht-krups-intuition-experience-ea877d40/"
+    },
+    "page:c98ac5116fda2c2f01d4": {
+      "sourcePath": "/espresso-machine/krups-intuition-preference-ea875u40/",
+      "path": "/testbericht-krups-intuition-preference-ea875u40/"
+    },
+    "page:6eb7db2c6b4d8e4233ba": {
+      "sourcePath": "/espresso-machine/krups-opio-xp320840/",
+      "path": "/testbericht-krups-opio-xp320840/"
+    },
+    "page:dd31ee988d703d53b957": {
+      "sourcePath": "/espresso-machine/krups-sensation-ea910e40/",
+      "path": "/testbericht-krups-sensation-ea910e40/"
+    },
+    "page:db26df1c5872d067f11b": {
+      "sourcePath": "/espresso-machine/krups-virtuoso-xp442c40/",
+      "path": "/testbericht-krups-virtuoso-xp442c40/"
+    },
+    "page:1d2da4e6aa3ab313e866": {
+      "sourcePath": "/espresso-machine/la-marzocco-linea-micra/",
+      "path": "/testbericht-la-marzocco-linea-micra/"
+    },
+    "page:0d69bd89ea7dd9074529": {
+      "sourcePath": "/espresso-machine/la-marzocco-linea-mini/",
+      "path": "/testbericht-la-marzocco-linea-mini/"
+    },
+    "page:3594ba1cd670bd35cbc8": {
+      "sourcePath": "/espresso-machine/la-pavoni-cellini-classic/",
+      "path": "/testbericht-la-pavoni-cellini-classic/"
+    },
+    "page:e5f9777ac703d4b424f8": {
+      "sourcePath": "/espresso-machine/la-pavoni-europiccola/",
+      "path": "/testbericht-la-pavoni-europiccola/"
+    },
+    "page:c0fa073e34d8a0d279b6": {
+      "sourcePath": "/espresso-machine/la-pavoni-mini-cellini/",
+      "path": "/espresso-maschine/la-pavoni-mini-cellini/"
+    },
+    "page:30afd0c9e4eeddc138ae": {
+      "sourcePath": "/espresso-machine/la-pavoni-new-domus-bar/",
+      "path": "/espresso-maschine/la-pavoni-new-domus-bar/"
+    },
+    "page:970128932c71b2cd8e1b": {
+      "sourcePath": "/espresso-machine/lelit-anna/",
+      "path": "/espresso-maschine/lelit-anna/"
+    },
+    "page:23b673f404ba5aa54c59": {
+      "sourcePath": "/espresso-machine/lelit-bianca-pl162t/",
+      "path": "/espresso-maschine/lelit-bianca-pl162t/"
+    },
+    "page:78e607e3ffaec476b00e": {
+      "sourcePath": "/espresso-machine/lelit-elizabeth/",
+      "path": "/espresso-maschine/lelit-elizabeth/"
+    },
+    "page:f622de5de681bc277688": {
+      "sourcePath": "/espresso-machine/lelit-glenda-pl41plust/",
+      "path": "/espresso-maschine/lelit-glenda-pl41plust/"
+    },
+    "page:a6805d21a9bd8e6791c0": {
+      "sourcePath": "/espresso-machine/lelit-grace-pl81t/",
+      "path": "/espresso-maschine/lelit-grace-pl81t/"
+    },
+    "page:8b4dceee22130ef264d5": {
+      "sourcePath": "/espresso-machine/lelit-mara-x/",
+      "path": "/espresso-maschine/lelit-mara-x/"
+    },
+    "page:0cd06882af4303c477c9": {
+      "sourcePath": "/espresso-machine/lelit-victoria-pl91t/",
+      "path": "/espresso-maschine/lelit-victoria-pl91t/"
+    },
+    "page:50d344bb9c9e5960487f": {
+      "sourcePath": "/espresso-machine/londinium-r24/",
+      "path": "/espresso-maschine/londinium-r24/"
+    },
+    "page:47e44af4f04728798939": {
+      "sourcePath": "/espresso-machine/melitta-barista-ts-smart/",
+      "path": "/espresso-maschine/melitta-barista-ts-smart/"
+    },
+    "page:3fd46623feef18f1f190": {
+      "sourcePath": "/espresso-machine/melitta-cafina-ct8/",
+      "path": "/espresso-maschine/melitta-cafina-ct8/"
+    },
+    "page:c8c1dd4e3dabd3c435e1": {
+      "sourcePath": "/espresso-machine/melitta-cafina-xt6-bes870/",
+      "path": "/espresso-maschine/melitta-cafina-xt6-bes870/"
+    },
+    "page:a4f71a6d2c956194d254": {
+      "sourcePath": "/espresso-machine/melitta-cafina-xt7/",
+      "path": "/espresso-maschine/melitta-cafina-xt7/"
+    },
+    "page:8d798c1567602a7cb97c": {
+      "sourcePath": "/espresso-machine/melitta-passione/",
+      "path": "/espresso-maschine/melitta-passione/"
+    },
+    "page:3c732ab90e3d4ca5fefd": {
+      "sourcePath": "/espresso-machine/miele-cm6360-milkperfection/",
+      "path": "/espresso-maschine/miele-cm6360-milkperfection/"
+    },
+    "page:c734a7f19e8f6e1ab450": {
+      "sourcePath": "/espresso-machine/miele-cm7750-coffeeselect/",
+      "path": "/espresso-maschine/miele-cm7750-coffeeselect/"
+    },
+    "page:4dcb61b101929b4c8d2c": {
+      "sourcePath": "/espresso-machine/nespresso-vertuo-plus/",
+      "path": "/espresso-maschine/nespresso-vertuo-plus/"
+    },
+    "page:355e0c34a6732840b4ce": {
+      "sourcePath": "/espresso-machine/ninja-luxe-cafe-premier-es601/",
+      "path": "/espresso-maschine/ninja-luxe-cafe-premier-es601/"
+    },
+    "page:b2e033a081f76ebb46e1": {
+      "sourcePath": "/espresso-machine/nivona-caferomatica-6xx/",
+      "path": "/espresso-maschine/nivona-caferomatica-6xx/"
+    },
+    "page:36a3ea8ab02f658a44b2": {
+      "sourcePath": "/espresso-machine/nivona-caferomatica-8xx/",
+      "path": "/nivona-caferomatica-8xx/testbericht/"
+    },
+    "page:3bb47c4bb704491fc536": {
+      "sourcePath": "/espresso-machine/nuova-simonelli-musica/",
+      "path": "/nuova-simonelli-musica/testbericht/"
+    },
+    "page:f38d457809b3d3998edf": {
+      "sourcePath": "/espresso-machine/nuova-simonelli-oscar-ii/",
+      "path": "/nuova-simonelli-oscar-ii/testbericht/"
+    },
+    "page:03aedc7a929dd122b471": {
+      "sourcePath": "/espresso-machine/philips-2200-lattego/",
+      "path": "/philips-2200-lattego/testbericht/"
+    },
+    "page:14b26d7cd9babc448392": {
+      "sourcePath": "/espresso-machine/philips-3200-lattego/",
+      "path": "/philips-3200-lattego/testbericht/"
+    },
+    "page:207d89d48d8afc30388c": {
+      "sourcePath": "/espresso-machine/philips-4300-lattego/",
+      "path": "/philips-4300-lattego/testbericht/"
+    },
+    "page:c1cc4cbb059eb69a30b2": {
+      "sourcePath": "/espresso-machine/philips-5400-lattego/",
+      "path": "/philips-5400-lattego/testbericht/"
+    },
+    "page:a6edc0f1f0c24e4c745c": {
+      "sourcePath": "/espresso-machine/profitec-go/",
+      "path": "/profitec-go/testbericht/"
+    },
+    "page:e0e10a6657c34011d9ee": {
+      "sourcePath": "/espresso-machine/profitec-pro-400/",
+      "path": "/profitec-pro-400/testbericht/"
+    },
+    "page:b6e0399eb76e7c1a18d6": {
+      "sourcePath": "/espresso-machine/profitec-pro-500-pid/",
+      "path": "/profitec-pro-500-pid/testbericht/"
+    },
+    "page:25f54e16aadec8544668": {
+      "sourcePath": "/espresso-machine/profitec-pro-600/",
+      "path": "/profitec-pro-600/testbericht/"
+    },
+    "page:b9b207be71ba92c13013": {
+      "sourcePath": "/espresso-machine/profitec-pro-700/",
+      "path": "/profitec-pro-700/testbericht/"
+    },
+    "page:cffadb13913fd74e9e37": {
+      "sourcePath": "/espresso-machine/profitec-pro-800/",
+      "path": "/profitec-pro-800/testbericht/"
+    },
+    "page:7faae619c57e7b5c93c4": {
+      "sourcePath": "/espresso-machine/prosumer-under-1000/",
+      "path": "/prosumer-espresso-maschinen-unter-1000/"
+    },
+    "page:f49d2382d02b6e154ab7": {
+      "sourcePath": "/espresso-machine/quick-mill-alexia-evo-flow/",
+      "path": "/quick-mill-alexia-evo-flow/testbericht/"
+    },
+    "page:0d7a9481d5ba7e73d4d7": {
+      "sourcePath": "/espresso-machine/quick-mill-andreja-premium-evo/",
+      "path": "/quick-mill-andreja-premium-evo/testbericht/"
+    },
+    "page:3c2100ce36fb758729e4": {
+      "sourcePath": "/espresso-machine/quick-mill-carola-evo/",
+      "path": "/quick-mill-carola-evo/testbericht/"
+    },
+    "page:8a40047853829db4261a": {
+      "sourcePath": "/espresso-machine/quick-mill-orione-3000/",
+      "path": "/quick-mill-orione-3000/testbericht/"
+    },
+    "page:02f676297e65d21a9fc9": {
+      "sourcePath": "/espresso-machine/quick-mill-pippa-4100/",
+      "path": "/quick-mill-pippa-4100/testbericht/"
+    },
+    "page:45d5ddf32a4ca3443755": {
+      "sourcePath": "/espresso-machine/quick-mill-qm67-evo/",
+      "path": "/quick-mill-qm67-evo/testbericht/"
+    },
+    "page:c88ae9405c3ce73a4976": {
+      "sourcePath": "/espresso-machine/quick-mill-rubino/",
+      "path": "/espresso-maschine/quick-mill-rubino/"
+    },
+    "page:822b6781750b15b662d3": {
+      "sourcePath": "/espresso-machine/quick-mill-silvano-evo/",
+      "path": "/espresso-maschine/quick-mill-silvano-evo/"
+    },
+    "page:3026e3c875d6fa9aee81": {
+      "sourcePath": "/espresso-machine/quick-mill-vetrano-2b-evo/",
+      "path": "/espresso-maschine/quick-mill-vetrano-2b-evo/"
+    },
+    "page:1a539d90cc872f738905": {
+      "sourcePath": "/espresso-machine/rancilio-silvia-pro-x/",
+      "path": "/espresso-maschine/rancilio-silvia-pro-x/"
+    },
+    "page:8a5b676e3d0e09135d06": {
+      "sourcePath": "/espresso-machine/rancilio-silvia/",
+      "path": "/espresso-maschine/rancilio-silvia/"
+    },
+    "page:98d8f44372fdd5c3c9ba": {
+      "sourcePath": "/espresso-machine/rocket-appartamento-tca/",
+      "path": "/espresso-maschine/rocket-appartamento-tca/"
+    },
+    "page:3873f5d7e485675c6e7c": {
+      "sourcePath": "/espresso-machine/rocket-giotto-cronometro-r/",
+      "path": "/espresso-maschine/rocket-giotto-cronometro-r/"
+    },
+    "page:8bd9e0431478fa3138f7": {
+      "sourcePath": "/espresso-machine/rocket-mozzafiato-cronometro-r/",
+      "path": "/espresso-maschine/rocket-mozzafiato-cronometro-r/"
+    },
+    "page:11de26edad2059497b61": {
+      "sourcePath": "/espresso-machine/rocket-r-nine-one/",
+      "path": "/espresso-maschine/rocket-r-nine-one/"
+    },
+    "page:3e6e65c5524be26cd2f8": {
+      "sourcePath": "/espresso-machine/rok-espresso-gc/",
+      "path": "/espresso-maschine/rok-espresso-gc/"
+    },
+    "page:51516fddc2a3e72bb57f": {
+      "sourcePath": "/espresso-machine/saeco-xelsis/",
+      "path": "/espresso-maschine/saeco-xelsis/"
+    },
+    "page:755e9a8d7e59c57a3e28": {
+      "sourcePath": "/espresso-machine/siemens-eq700-integral/",
+      "path": "/espresso-maschine/siemens-eq700-integral/"
+    },
+    "page:cb0d3c86f41f7f9f355a": {
+      "sourcePath": "/espresso-machine/siemens-eq9-plus-s700/",
+      "path": "/espresso-maschine/siemens-eq9-plus-s700/"
+    },
+    "page:3c1b65ffeadc08f91561": {
+      "sourcePath": "/espresso-machine/single-boiler/",
+      "path": "/espresso-maschine/einzelkessel/"
+    },
+    "page:e6c16acda60ecbe52818": {
+      "sourcePath": "/espresso-machine/slayer-single-group/",
+      "path": "/espresso-maschine/slayer-einzelgruppe/"
+    },
+    "page:9637f5b5fc330d9bc488": {
+      "sourcePath": "/espresso-machine/small/",
+      "path": "/espresso-maschine/klein/"
+    },
+    "page:b4a30e17e327b719fe88": {
+      "sourcePath": "/espresso-machine/superautomatic/",
+      "path": "/espresso-maschine/superautomatisch/"
+    },
+    "page:00bf2810e88c016fff09": {
+      "sourcePath": "/espresso-machine/vbm-domobar-single-boiler-digital/",
+      "path": "/espresso-maschine/vbm-domobar-einzelkessel-digital/"
+    },
+    "page:07152665096c6f95f392": {
+      "sourcePath": "/espresso-machine/vbm-domobar-super-hx/",
+      "path": "/espresso-maschine/vbm-domobar-super-hx/"
+    },
+    "page:4047cb124b81c945fc9f": {
+      "sourcePath": "/espresso-machine/without-grinder/",
+      "path": "/espresso-maschine/ohne-mahlwerk/"
     }
   },
   "lastModel": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "lastUsage": {
-    "prompt_tokens": 1467,
-    "completion_tokens": 756,
-    "total_tokens": 2223,
+    "prompt_tokens": 3092,
+    "completion_tokens": 2440,
+    "total_tokens": 5532,
     "prompt_tokens_details": {
       "cached_tokens": 0
     },
-    "neurons": 193.9542999267578
+    "neurons": 582.1814575195312
   }
 }
