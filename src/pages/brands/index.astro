@@ -4,6 +4,7 @@ import a from '../../data/pages-a.json';
 import b from '../../data/pages-b.json';
 import { brands, machinePagesForBrand } from '../../data/catalog';
 import { modernReviews } from '../../data/review-registry';
+import { brandNavigation } from '../../data/brand-navigation';
 
 const base = import.meta.env.BASE_URL;
 const pages = [...a, ...b, ...modernReviews.map((review) => ({ path: review.slug, title: review.title }))];
@@ -15,7 +16,7 @@ const mappedBrands = brands.map((brand) => ({
 }));
 ---
 <HomeLayout
-  title={`Espresso Machine Brands: Compare ${brands.length} Manufacturers | Coffeedant`}
+  title={`Coffee Equipment Brands: Browse ${brandNavigation.length} Manufacturers | Coffeedant`}
   description="Compare espresso machine brands by workflow, price position, strengths, and trade-offs, then browse every Coffeedant review by manufacturer."
   canonicalPath="/brands/"
 >
@@ -23,11 +24,11 @@ const mappedBrands = brands.map((brand) => ({
     <section class="hub-hero">
       <div class="shell hub-hero-grid">
         <div>
-          <p class="eyebrow">{brands.length} manufacturers · one useful map</p>
+          <p class="eyebrow">{brandNavigation.length} manufacturers · one useful map</p>
           <h1>Brands without the fan club.</h1>
           <p class="hero-copy">Start with the workflow you want. Then find the manufacturers that build around it.</p>
         </div>
-        <div class="hub-stamp"><strong>{mappedBrands.reduce((sum, brand) => sum + brand.count, 0)}</strong><span>machine reviews organized</span></div>
+        <div class="hub-stamp"><strong>{brandNavigation.reduce((sum, brand) => sum + brand.reviews.length, 0)}</strong><span>equipment reviews organized</span></div>
       </div>
     </section>
 
@@ -129,17 +130,36 @@ const mappedBrands = brands.map((brand) => ({
         <div class="section-heading">
           <span class="section-number">05 / Directory</span>
           <h2 id="brand-directory-title">Choose a manufacturer.</h2>
-          <p>Each page explains the fit, the compromise, and every machine we have reviewed.</p>
+          <p>Browse every brand and its reviews, with detailed brand guides where available.</p>
         </div>
         <div class="brand-directory">
-          {mappedBrands.map((brand, index) => (
-            <a href={`${base}${brand.path.replace(/^\//, '')}`} data-workflow={brand.workflow} data-tiers={brand.tiers}>
+          {brandNavigation.map((brand, index) => (
+            <a href={`${base}${brand.path.replace(/^\//, '')}`}>
               <span class="brand-directory-number">{String(index + 1).padStart(2, '0')}</span>
-              <div><strong>{brand.name}</strong><small>{brand.country} · {brand.system}</small></div>
-              <p>{brand.bestFor}</p>
-              <b>{brand.count}</b>
+              <div><strong>{brand.name}</strong>{brand.country && <small>{brand.country}</small>}</div>
+              <p>{brand.hasGuide ? 'Brand guide' : 'Reviews'}</p>
+              <b>{brand.reviews.length}</b>
               <i aria-hidden="true">→</i>
             </a>
+          ))}
+        </div>
+      </div>
+    </section>
+    <section class="section section-compact" aria-labelledby="brand-reviews-title">
+      <div class="shell">
+        <div class="section-heading">
+          <span class="section-number">06 / Reviews</span>
+          <h2 id="brand-reviews-title">Every review by brand.</h2>
+          <p>Explore espresso machines, coffee makers and grinders from each manufacturer.</p>
+        </div>
+        <div class="brand-review-directory">
+          {brandNavigation.map((brand) => (
+            <section id={`reviews-${brand.slug}`} aria-labelledby={`reviews-title-${brand.slug}`}>
+              <h3 id={`reviews-title-${brand.slug}`}>{brand.name}</h3>
+              <ul>{brand.reviews.map((review) => (
+                <li><a href={`${base}${review.slug.replace(/^\//, '')}`}>{review.model}</a></li>
+              ))}</ul>
+            </section>
           ))}
         </div>
       </div>
@@ -148,7 +168,7 @@ const mappedBrands = brands.map((brand) => ({
 
   <script>
     const brandFilter = document.querySelector<HTMLFormElement>('.brand-filter-controls');
-    const brandCards = Array.from(document.querySelectorAll<HTMLElement>('.brand-directory > a, .brand-filter-list > a'));
+    const brandCards = Array.from(document.querySelectorAll<HTMLElement>('.brand-filter-list > a'));
     const brandCount = document.querySelector<HTMLElement>('#brand-filter-count');
 
     const applyBrandFilter = () => {
@@ -167,3 +187,11 @@ const mappedBrands = brands.map((brand) => ({
     brandFilter?.addEventListener('change', applyBrandFilter);
   </script>
 </HomeLayout>
+
+<style>
+  .brand-review-directory { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 24px; }
+  .brand-review-directory section { border-top: 2px solid currentColor; padding-top: 16px; scroll-margin-top: 100px; }
+  .brand-review-directory h3 { margin: 0 0 12px; }
+  .brand-review-directory ul { margin: 0; padding-left: 20px; }
+  .brand-review-directory a { display: inline-block; padding: 8px 0; }
+</style>

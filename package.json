@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "validate:brand-navigation": "node scripts/validate-brand-navigation.mjs",
     "validate:videos": "node scripts/validate-product-videos.mjs",
     "update:amazon-deals": "node scripts/update-amazon-deals.mjs",
     "refresh:amazon-deals": "node scripts/update-amazon-deals.mjs --refresh",
