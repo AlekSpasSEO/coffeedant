@@ -3,6 +3,7 @@ import weekdayBeansA from './weekday-beans-20261014.json';
 import weekdayBeansB from './weekday-beans-20261014b.json';
 import weekdayDecafBeans from './weekday-beans-20261015';
 import weekdayBeans20261016 from './weekday-beans-20261016';
+import beanRefreshes20261017 from './bean-refreshes-2026-10-17.json';
 import { internalHref } from './batch-review-builder';
 
 export type BeanReviewData = {
@@ -18,7 +19,7 @@ export type BeanReviewData = {
   sources: { id: string; title: string; href: string; note: string; checked: string; community?: boolean }[];
 };
 
-export const beanReviews: BeanReviewData[] = [{
+export const beanReviews: BeanReviewData[] = ([{
   slug: '/coffee-beans/counter-culture-hologram/', productId: 'CD-BN-000001',
   roaster: 'Counter Culture Coffee', coffee: 'Hologram',
   title: 'Counter Culture Hologram review: a changing blend with a clear flavor promise',
@@ -92,6 +93,26 @@ export const beanReviews: BeanReviewData[] = [{
     { id: 's6', title: 'Counter Culture Big Trouble', href: 'https://counterculturecoffee.com/products/big-trouble', note: 'Roaster listing for an alternative flavor direction; confirm current details at purchase.', checked: '2026-10-13' },
     { id: 's7', title: 'Counter Culture Apollo', href: 'https://counterculturecoffee.com/products/apollo', note: 'Roaster listing for an alternative flavor direction; confirm current details at purchase.', checked: '2026-10-13' },
   ],
-}, ...(expandedBeanReviews as BeanReviewData[]), ...(weekdayBeansA as BeanReviewData[]), ...(weekdayBeansB as BeanReviewData[]), ...(weekdayDecafBeans as BeanReviewData[]), ...(weekdayBeans20261016 as BeanReviewData[])];
+}, ...(expandedBeanReviews as BeanReviewData[]), ...(weekdayBeansA as BeanReviewData[]), ...(weekdayBeansB as BeanReviewData[]), ...(weekdayDecafBeans as BeanReviewData[]), ...(weekdayBeans20261016 as BeanReviewData[])] as BeanReviewData[]).map((review) => {
+  const refresh = beanRefreshes20261017.find((item) => item.slug === review.slug);
+  if (!refresh) return review;
+  if (refresh.productId !== review.productId) throw new Error(`October 17 bean identity mismatch: ${review.slug}`);
+  const sourceNumber = review.sources.length + 1;
+  if (!review.sections.some((section) => section.id === refresh.sectionId)) throw new Error(`October 17 bean section missing: ${review.slug}#${refresh.sectionId}`);
+  return {
+    ...review,
+    updated: review.updated > '2026-10-17' ? review.updated : '2026-10-17',
+    sections: review.sections.map((section) => section.id === refresh.sectionId
+      ? { ...section, paragraphs: [...section.paragraphs, refresh.paragraph.replace('[SOURCE]', `[${sourceNumber}]`)] }
+      : section),
+    sources: [...review.sources, {
+      id: `s${sourceNumber}`,
+      title: refresh.sourceTitle,
+      href: refresh.source,
+      note: `${refresh.sourceNote} Research-led clarification; no Coffeedant tasting or price claim.`,
+      checked: '2026-10-17',
+    }],
+  };
+});
 
 export const getBeanReview = (slug: string) => beanReviews.find((review) => review.slug === slug);
