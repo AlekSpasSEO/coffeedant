@@ -11,7 +11,7 @@ export const prepareRegionalDocument = (document) => {
     // The US build may already contain the generated language chooser. Regional
     // builds recreate it from their actual release routes and locale; it is not
     // authored source copy and must not be indexed or rendered a second time.
-    if (node.tagName === 'nav' && attr(node, 'data-language-region') !== undefined) {
+    if (attr(node, 'data-language-region') !== undefined || attr(node, 'data-region-ui') !== undefined) {
       detach(node); continue;
     }
     const classes = (attr(node, 'class') ?? '').split(/\s+/);
