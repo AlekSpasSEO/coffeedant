@@ -32,6 +32,8 @@ jobs:
         run: CF_PAGES=1 npm run build
       - name: Validate sitemaps, metadata, schema and accessible media
         run: npm run test:seo && npm run validate:seo
+      - name: Validate complete brand navigation
+        run: CF_PAGES=1 npm run validate:brand-navigation
       - name: Validate sitewide analytics and consent
         run: npm run test:analytics-policy && npm run validate:analytics
       - name: Validate Cloudflare Journal
@@ -58,6 +60,8 @@ jobs:
         run: npm run build
       - name: Validate GitHub Pages SEO parity
         run: npm run validate:seo
+      - name: Validate GitHub Pages brand navigation
+        run: npm run validate:brand-navigation
       - name: Validate modern reviews
         run: node scripts/validate-review-batch.mjs
       - name: Validate GitHub Pages review title and overview originality
