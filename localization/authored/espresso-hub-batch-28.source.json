@@ -1,0 +1,595 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/",
+      "sourceHash": "8e5be896ac2be6083859031e73a6095d6569a5799fefdf6797d396f8199e1eb0"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "429bc1a8d93c6d1726f11aa678e956fca4f21efb02f44372e67ad8cb6a65e417",
+      "source": "Setup",
+      "kind": "text",
+      "context": "Setup"
+    },
+    {
+      "id": "644d0ad8b65849be2e75c68598ad1902614291d4ece9e03a5af4dd13ba3eb999",
+      "source": "Machine",
+      "kind": "text",
+      "context": "Machine"
+    },
+    {
+      "id": "d5eebfc31a33805d7b2ff473c5438dd1d820fed9f8561018335af2a8e5620935",
+      "source": "Best fit",
+      "kind": "text",
+      "context": "Best fit"
+    },
+    {
+      "id": "5ba783ac0b43fb0288679cf6f5a841a33dbe97ce3917f88c5aff5e5e533d9831",
+      "source": "Best fit",
+      "kind": "attribute",
+      "context": "Luxe Brewer Thermal BDC46512-cup countertop brewerProgrammable batch heaterCone or flat basket; Gold and custom controlsThermal carafe, no hot plateFlexible batch-coffee household"
+    },
+    {
+      "id": "ffa66b402155065d45104b8a0f87bafc3365456987d4e35afdd286ac47eb7aaf",
+      "source": "Machines for beginners",
+      "kind": "text",
+      "context": "Machines for beginners"
+    },
+    {
+      "id": "0cba43c37cf23cd864d5ba66c6e04a4931e35b3b50b6617842fd5ebf213bf569",
+      "source": "Bambino Plus",
+      "kind": "text",
+      "context": "Bambino Plus"
+    },
+    {
+      "id": "7c3afad56c53acb2bc2029920251c62edce2245b71e37a483a3ebbc53970cec0",
+      "source": "Magnifica Evo",
+      "kind": "text",
+      "context": "Magnifica Evo"
+    },
+    {
+      "id": "8de07f283ff00d0728f20a33406f9a0727ccbc51c6944c875c3a1e78e7a0754d",
+      "source": "Machine",
+      "kind": "attribute",
+      "context": "Breville Bambino PlusBES500$499.95 machine onlyCompact 54 mm semi-automatic with a separate grinderAutomatic presets or manual steam; sequential with brewingBest fit for milk-drink beginners who want fast startup, automatic milk and a grinder they can upgrade separately.Review →"
+    },
+    {
+      "id": "074fced40cfb8b9844159b42a1d07d1cbe3ab1b107323e80c1a90d9b38cc8dbc",
+      "source": "PID single boiler",
+      "kind": "text",
+      "context": "PID single boiler"
+    },
+    {
+      "id": "dbbe9bf22cae85faabc4fe01cfdb91d71e571cd65640e336e68cda25e5ae2eaa",
+      "source": "Machine type",
+      "kind": "text",
+      "context": "Machine type"
+    },
+    {
+      "id": "fc550d297f62daa5a191befeb0e933e326e570ce59fa3aef8b7d830fd395034c",
+      "source": "Compact semi-automatic",
+      "kind": "text",
+      "context": "Compact semi-automatic"
+    },
+    {
+      "id": "0c9481ee42492fc35b4ec037cd122c4a8db25b29c61280bed0d767106c686e6c",
+      "source": "Best Espresso Machines (2026): Choose by Routine | Coffeedant",
+      "kind": "text",
+      "context": "Best Espresso Machines (2026): Choose by Routine | Coffeedant"
+    },
+    {
+      "id": "49ec9e26863579e5ab95d7be9a5a36948b3ac610380fc1e561c275c8770bcc2f",
+      "source": "Choose the workflow first: push-button convenience, guided all-in-one control, or a machine and grinder you can upgrade separately.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "6eccade378c106fc4616bf5e974ae808c0f57c429bc7bf776ba2dc5b920e095c",
+      "source": "Best Espresso Machines (2026): Choose by Routine | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "96660a57d2b2a421a8b732e8c32e086bacc0984a08ab52c672fb961cbc59da8c",
+      "source": "Bambino Plus",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "bdd75b154d1d56747fd1d784ee52b1bb4d9800009dc501cf48a18f3c8bc08d83",
+      "source": "The main buying guide",
+      "kind": "text",
+      "context": "The main buying guide"
+    },
+    {
+      "id": "4de850abfbf393bdd6da9bd936bc9f08b21931e3470d4d6e1c375f3fb7ea637a",
+      "source": "The best machine is a fit, not a winner.",
+      "kind": "text",
+      "context": "The best machine is a fit, not a winner."
+    },
+    {
+      "id": "ac6f622baf4bc622c5ff0ecc2d848d33025d27bee7d2dea6c0927b931e466f09",
+      "source": "Choose the workflow first: push-button convenience, guided all-in-one control, or a machine and grinder you can upgrade separately.",
+      "kind": "text",
+      "context": "Choose the workflow first: push-button convenience, guided all-in-one control, or a machine and grinder you can upgrade separately."
+    },
+    {
+      "id": "271a7376d2d5fe5e9d87dfc19641a87cacf7c79e189bf4d209e87b1eb8e32113",
+      "source": "Fast decision",
+      "kind": "text",
+      "context": "Fast decision"
+    },
+    {
+      "id": "67ff2e42d1b20772fe1cd8cf0460c2faa0dd002f7180b6f7ef571c9601f2a34f",
+      "source": "Want one-touch drinks?",
+      "kind": "text",
+      "context": "Want one-touch drinks?Start with superautomatic"
+    },
+    {
+      "id": "eb016a31a351344d6b7090c3155c77f08e8bd0c29dc6bacf8a5c18039fc4cd81",
+      "source": "Start with superautomatic",
+      "kind": "text",
+      "context": "Start with superautomatic"
+    },
+    {
+      "id": "53e654106881eaa83816c3a916f91f3d537b485ad3bb463a5ddd10932c120735",
+      "source": "Want guided control?",
+      "kind": "text",
+      "context": "Want guided control?Start with a built-in grinder"
+    },
+    {
+      "id": "392b0141d80ed1474465db12db587ed6f20c071dcabc36b85a43d0179df2749a",
+      "source": "Start with a built-in grinder",
+      "kind": "text",
+      "context": "Start with a built-in grinder"
+    },
+    {
+      "id": "fdb5f9975b3a63c1f5dd1d62e142f0b075236835db95b575b96f18708e4509a4",
+      "source": "Want the best upgrade path?",
+      "kind": "text",
+      "context": "Want the best upgrade path?Choose a separate grinder"
+    },
+    {
+      "id": "8af3ba2145806fc80a37f1bb790247ad1f3e30e4edd1c9a7686ee3aa59e57590",
+      "source": "Choose a separate grinder",
+      "kind": "text",
+      "context": "Choose a separate grinder"
+    },
+    {
+      "id": "e429c25f7f41acd53d73ffc13b90b7f86d86d75f067c21177fa1ac5a29d914f7",
+      "source": "Short on counter space?",
+      "kind": "text",
+      "context": "Short on counter space?Open the compact guide"
+    },
+    {
+      "id": "3d0ff028f434b19fbc9613883ff3de31fefb737a29280546ef9df59fe30d0287",
+      "source": "Open the compact guide",
+      "kind": "text",
+      "context": "Open the compact guide"
+    },
+    {
+      "id": "9bed9be1df2779710e7585a9479a38fbcfa9b6ce8f8927ee0157062f0da67b21",
+      "source": "01 / Complete Coffee Finder",
+      "kind": "text",
+      "context": "01 / Complete Coffee Finder"
+    },
+    {
+      "id": "a038fecce3b8b4f564da0603e5cfb3e9448ffbf1194b902f5d6f575ab40d5b53",
+      "source": "Search the whole espresso-machine catalog.",
+      "kind": "text",
+      "context": "Search the whole espresso-machine catalog."
+    },
+    {
+      "id": "809c4a9922451834ffe9685a16d94ce6fbc8ca023e6eb02cc1a06b10c6857c5f",
+      "source": "Use one filter or build a detailed profile. The finder includes every current Coffeedant espresso-machine review, from sub-$500 starters to machines above $5,000.",
+      "kind": "text",
+      "context": "Use one filter or build a detailed profile. The finder includes every current Coffeedant espresso-machine review, from sub-$500 starters to machines above $5,000."
+    },
+    {
+      "id": "aa4461235ac97637f209fe19f7379a63fb40864858414b6c7fdbac091cfd624d",
+      "source": "02 / Quick comparison",
+      "kind": "text",
+      "context": "02 / Quick comparison"
+    },
+    {
+      "id": "9c1af1e300a5c850fb6f0494e56ebfc649dbe6c5e7e7d8286defadfe0ee15771",
+      "source": "See the trade-offs.",
+      "kind": "text",
+      "context": "See the trade-offs."
+    },
+    {
+      "id": "b780a567e48e4ca7ef9b59a248ff99ebd7ac66a2a5200270c03837b3d17dc2e3",
+      "source": "A useful shortlist is made of different answers, not four versions of the same machine.",
+      "kind": "text",
+      "context": "A useful shortlist is made of different answers, not four versions of the same machine."
+    },
+    {
+      "id": "da2c5bfdc4ee4d83ee06680f96583998405e638969766dd99f6ddde30e622acd",
+      "source": "The best machine is a fit, not a winner. starting shortlist comparison",
+      "kind": "attribute",
+      "context": "MachineSetupBest fitMain compromise   BrevilleBambino Plus Compact semi-automatic Fast, compact first machine Needs a separate grinder Review →  NinjaLuxe Café Premier ES601 Espresso machine Guided espresso, drip and rapid cold coffee Read the review for the full trade-offs Review →  FellowEspresso Series 1 Espresso machine Guided start, editable pressure profiles Read the review for the full trade-offs Review →  De'LonghiMagnifica Evo Bean-to-cup automatic Easy one-touch milk drinks Limited manual control Review →  De'LonghiRivelia EXAM44055B Espresso machine Two-bean one-touch routine with automatic hot milk Read the review for the full trade-offs Review →  GaggiaClassic EVO Pro Single-boiler semi-automatic A platform you can grow into Wait between brew and steam Review →  ProfitecGO PID single boiler Precise compact control Espresso-first milk workflow Review →"
+    },
+    {
+      "id": "ba806940ef061ee8d715ef6582b71ccb46d1fe5773274f635ae21688a3704940",
+      "source": "Setup",
+      "kind": "attribute",
+      "context": "BrevilleBambino Plus Compact semi-automatic Fast, compact first machine Needs a separate grinder Review →"
+    },
+    {
+      "id": "f9b109931cb1a767cad1a6aab683425b55911c4f21a9fb8ec8be5800901f501c",
+      "source": "Fast, compact first machine",
+      "kind": "text",
+      "context": "Fast, compact first machine"
+    },
+    {
+      "id": "d75c2ca0fabe224621b6342c4e7e0d4b29ab5f6ceb2edc30232444054dc1d7c3",
+      "source": "Needs a separate grinder",
+      "kind": "text",
+      "context": "Needs a separate grinder"
+    },
+    {
+      "id": "3938fbf54c6a8097e7add8038269e8569cb2af6186faa3c0ba7927163defd668",
+      "source": "Espresso machine",
+      "kind": "text",
+      "context": "Espresso machine"
+    },
+    {
+      "id": "6e063f2a543c61f7d923e8e44d5c1294d58c8fbbac2ce89f508130f5571f7c31",
+      "source": "Guided espresso, drip and rapid cold coffee",
+      "kind": "text",
+      "context": "Guided espresso, drip and rapid cold coffee"
+    },
+    {
+      "id": "5d21e1d588c0eda8d8812393e0f1eca97d50ea3d6e3b4f7b46098971e9d786a1",
+      "source": "Read the review for the full trade-offs",
+      "kind": "text",
+      "context": "Read the review for the full trade-offs"
+    },
+    {
+      "id": "a17e900bc0f5de094331551215248becdbe67209e5cb309e04ecaf00242f9c19",
+      "source": "Guided start, editable pressure profiles",
+      "kind": "text",
+      "context": "Guided start, editable pressure profiles"
+    },
+    {
+      "id": "3f2329299bda0600017461d2e86caa97689fa60f8bd35bb44cc9cf8728585538",
+      "source": "Bean-to-cup automatic",
+      "kind": "text",
+      "context": "Bean-to-cup automatic"
+    },
+    {
+      "id": "cd898355b5e713192d46ad0cd1340a47cd42a63d9497464164d4c2d1cda0c8c8",
+      "source": "Easy one-touch milk drinks",
+      "kind": "text",
+      "context": "Easy one-touch milk drinks"
+    },
+    {
+      "id": "ea1e872f32f9263088077ddbd72c7f289102892353874eb89498e4b6d571d927",
+      "source": "Limited manual control",
+      "kind": "text",
+      "context": "Limited manual control"
+    },
+    {
+      "id": "666af88d6010a7339876b84faa344ac457a5ea46b20a985ad45f3333092dd7c8",
+      "source": "Two-bean one-touch routine with automatic hot milk",
+      "kind": "text",
+      "context": "Two-bean one-touch routine with automatic hot milk"
+    },
+    {
+      "id": "afa72bf205a6150dc70e7f5b747fbd380b2ad46ccf71301dcca8292d465cf76e",
+      "source": "Classic EVO Pro",
+      "kind": "text",
+      "context": "GaggiaClassic EVO Pro"
+    },
+    {
+      "id": "207bbfce46af40b100f139e3ae198b05406c9aab455de24eddeace9c2bfee32d",
+      "source": "Single-boiler semi-automatic",
+      "kind": "text",
+      "context": "Single-boiler semi-automatic"
+    },
+    {
+      "id": "f9fe5f1cb5772f926d62d158128d79b98da136fed849bd9e988c965b751eb0d2",
+      "source": "A platform you can grow into",
+      "kind": "text",
+      "context": "A platform you can grow into"
+    },
+    {
+      "id": "549780aecd7ff17a70d205cf945562f122e7fc80830762d4ca4a1e1745c7dfbf",
+      "source": "Wait between brew and steam",
+      "kind": "text",
+      "context": "Wait between brew and steam"
+    },
+    {
+      "id": "2e5f83b8670a3c0e286f0666a20c115e4359820f0f750edec9c658b31419647c",
+      "source": "GO",
+      "kind": "text",
+      "context": "ProfitecGO"
+    },
+    {
+      "id": "1a052aa2a1dde83f95dbaf4553cefdf09b59897adf3f03f63d8ece596be1810c",
+      "source": "Precise compact control",
+      "kind": "text",
+      "context": "Precise compact control"
+    },
+    {
+      "id": "a19d03b316f793bc711dc3304c9c8bfbadc8950eeeee4f9bd67d6e18b6685e44",
+      "source": "Espresso-first milk workflow",
+      "kind": "text",
+      "context": "Espresso-first milk workflow"
+    },
+    {
+      "id": "5034478e038c356a346a43e509098851ffc4515f1861d667c711a9995867faa2",
+      "source": "03 / Choose a route",
+      "kind": "text",
+      "context": "03 / Choose a route"
+    },
+    {
+      "id": "328ced8300f903f55f6c4b4c42999a8c9e244da4d582368ee067f70bd8ff42c2",
+      "source": "Start with the setup.",
+      "kind": "text",
+      "context": "Start with the setup."
+    },
+    {
+      "id": "d8209bcb0760a016cc312cf4d9df412d1f474f37db71fd43e8169e54e43aaa2e",
+      "source": "The grinder decision changes cost, space, learning, and how easily you can improve later.",
+      "kind": "text",
+      "context": "The grinder decision changes cost, space, learning, and how easily you can improve later."
+    },
+    {
+      "id": "196d7b344876c0cc11e496f5d5a3c75685384de41a625b48cbefeb76a5d084b2",
+      "source": "Main guide",
+      "kind": "text",
+      "context": "Main guide"
+    },
+    {
+      "id": "6e1e20ef2e86fc159b2077fb34f3a3fb88e823a8401be8aeb6d5d664ec05d2c1",
+      "source": "Best espresso machines",
+      "kind": "text",
+      "context": "Best espresso machines"
+    },
+    {
+      "id": "9322c46c06fdf38f0c8ce52d53776681438613df5a2858d6633b1f6c9742ba84",
+      "source": "Compare every major workflow before choosing a model.",
+      "kind": "text",
+      "context": "Compare every major workflow before choosing a model."
+    },
+    {
+      "id": "054ba3f9905238486b25a1c04440dd5a04a67b33daccd3a95827639eaa641491",
+      "source": "Open guide →",
+      "kind": "text",
+      "context": "Open guide →"
+    },
+    {
+      "id": "e6045098f73deb35d1071ccc9f3776c9e53b7e76615b654224bb4954afba6b02",
+      "source": "All-in-one",
+      "kind": "text",
+      "context": "All-in-one"
+    },
+    {
+      "id": "e2c57933039b24a8c94796b50476e38b08bf811633fb027a2c5d4ca35fcf94f0",
+      "source": "Save space and simplify the routine, with the trade-offs made clear.",
+      "kind": "text",
+      "context": "Save space and simplify the routine, with the trade-offs made clear."
+    },
+    {
+      "id": "74658fe664b3318b3ef77dd5bac245b3efd8ee76cd8b6cc5176ff418dacd7a23",
+      "source": "Modular setup",
+      "kind": "text",
+      "context": "Modular setup"
+    },
+    {
+      "id": "1c49fd2cf2c11f9ff2bafa6e25c35311a2381317661b7e7d860d655eb9acaa4e",
+      "source": "Build a better long-term setup with a separate grinder.",
+      "kind": "text",
+      "context": "Build a better long-term setup with a separate grinder."
+    },
+    {
+      "id": "3e0b77504d9b8711a522a024ae7465786876bf16a63bdc357cc5e7e45d4fc115",
+      "source": "04 / Starting shortlist",
+      "kind": "text",
+      "context": "04 / Starting shortlist"
+    },
+    {
+      "id": "7c7ddefe3cc5d6695ee1fa9a8c28683811f81f6bd856e0b45fb4d8fea3410ca6",
+      "source": "Strong places to start.",
+      "kind": "text",
+      "context": "Strong places to start."
+    },
+    {
+      "id": "f7d300492078936d6e1cff77e15a21c206e2812d4ad73a998622a9330ea8e158",
+      "source": "Shortlisted for distinct routines, not stacked into one meaningless ranking.",
+      "kind": "text",
+      "context": "Shortlisted for distinct routines, not stacked into one meaningless ranking."
+    },
+    {
+      "id": "978c4f731e05b30e8dd8dd35a317197b116e2df77dbbf2b21387f9beedf3088b",
+      "source": "Bambino Plus",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "3870599d054a0b13e6dc88db80e38a70a66cda7ffe47889c400fc0d8d2824c12",
+      "source": "Magnifica Evo",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "d8c62f6f95d26568964188360c763a3cb8a7ecf7ab46f38908c2f8cb66ef90ae",
+      "source": "Classic EVO Pro",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "46206c1752ea6e82455c46d7ec60c1d27210dc38d69e7b91bc535105fec72416",
+      "source": "GO",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "3c303109f89cf2dce66fb91921ef37f676ef9176442ef3d52c51720c5a62b8da",
+      "source": "05 / Narrow it down",
+      "kind": "text",
+      "context": "05 / Narrow it down"
+    },
+    {
+      "id": "90b31351f24b2e9c378e139a13339654ec2be88d91b1dfc805b185a129542948",
+      "source": "Shop by constraint.",
+      "kind": "text",
+      "context": "Shop by constraint."
+    },
+    {
+      "id": "5cb85e9d7ddae1cb913669155246b00e8a70fca986b5a2cf5546175b78c3501c",
+      "source": "Budget, space, and effort are better filters than feature count.",
+      "kind": "text",
+      "context": "Budget, space, and effort are better filters than feature count."
+    },
+    {
+      "id": "2a79263fb05d954a397ad6944717caf276e46d2b1bd5244edf7f8a9b342b4ba7",
+      "source": "Push-button",
+      "kind": "text",
+      "context": "Push-button"
+    },
+    {
+      "id": "019fa3593c0091acc2500f06e916ed83a4321258d17f820473d8732d932f9d8d",
+      "source": "First setup",
+      "kind": "text",
+      "context": "First setup"
+    },
+    {
+      "id": "ff6d79603943b9f85e33a682ddd33d8b1fcdba344b118cba605bc43aac77d431",
+      "source": "Best under $500",
+      "kind": "text",
+      "context": "Best under $500"
+    },
+    {
+      "id": "8e3addf199069da6fa892b6e9982dd7a7c0fdcf4e78b68ad2a619c1beb8044a0",
+      "source": "Step-up",
+      "kind": "text",
+      "context": "Step-up"
+    },
+    {
+      "id": "15067e43e830155ceca65994bd07b84539f8127a4b751e84ed6b555ed126e039",
+      "source": "Small spaces",
+      "kind": "text",
+      "context": "Small spaces"
+    },
+    {
+      "id": "3fcbde976bc4d3f930a995f540f2116d339f67bccfd73ff83a43fbc5eb84cde8",
+      "source": "Compact machines",
+      "kind": "text",
+      "context": "Compact machines"
+    },
+    {
+      "id": "02a31e36cb2b8491872842a64664b1947f1126c9b4dfc41a64cc8453c729f3cd",
+      "source": "Manufacturer",
+      "kind": "text",
+      "context": "Manufacturer"
+    },
+    {
+      "id": "43d13e820cd3c632d43869cfae7b818f359ae47053ebf47a950d652f45e5a970",
+      "source": "Compare all brands",
+      "kind": "text",
+      "context": "Compare all brands"
+    },
+    {
+      "id": "06cd6f600ce4b4543946ee53301e85165ff20e80ac68602a144feb073943de26",
+      "source": "06 / Buying logic",
+      "kind": "text",
+      "context": "06 / Buying logic"
+    },
+    {
+      "id": "ae952426ef8be9b8b52e55db618a20ca03430a44591f33554c6e8c2b4663a387",
+      "source": "What changes the decision.",
+      "kind": "text",
+      "context": "What changes the decision."
+    },
+    {
+      "id": "5b39d4c86739eb38083ef8e6a1a2d11df1de224f25ce03612a3fe0f7f7c82ba0",
+      "source": "Use these rules to eliminate the wrong machines before comparing details.",
+      "kind": "text",
+      "context": "Use these rules to eliminate the wrong machines before comparing details."
+    },
+    {
+      "id": "b91e43f3abd22155f060475e28e8d56abb7e7b15c8c9cccbc2d2bd61e13aad3e",
+      "source": "Count daily actions",
+      "kind": "text",
+      "context": "Count daily actions"
+    },
+    {
+      "id": "8b7aa4be575277506606836e1ba21a4a0c3df97e27bb45e50a376ba1ad380ced",
+      "source": "Warm-up, dosing, steaming, and cleaning tell you more than the feature list.",
+      "kind": "text",
+      "context": "Warm-up, dosing, steaming, and cleaning tell you more than the feature list."
+    },
+    {
+      "id": "a7d7cd11f6a9adbb874f0403a957476c1dc06f602deed8d5ab549fdf6e6f0826",
+      "source": "Choose the grinder system",
+      "kind": "text",
+      "context": "Choose the grinder system"
+    },
+    {
+      "id": "5811d4d2bac19cace042e161de538ed88b7979a9acf48a42bedfd7801a71d163",
+      "source": "Built-in, separate, or fully automatic is the decision that shapes everything else.",
+      "kind": "text",
+      "context": "Built-in, separate, or fully automatic is the decision that shapes everything else."
+    },
+    {
+      "id": "70b5a4cf0e101b9e5e1bc4fe3f15bdfe5e270a9d046a8a828f9a88728b83bcfa",
+      "source": "Name the compromise",
+      "kind": "text",
+      "context": "Name the compromise"
+    },
+    {
+      "id": "637060a75391e5bcd0c7bb5bd16e7d1636c5ff2b04560da49b89f3cf1a9008c1",
+      "source": "Every machine is trading speed, control, space, price, or serviceability.",
+      "kind": "text",
+      "context": "Every machine is trading speed, control, space, price, or serviceability."
+    },
+    {
+      "id": "b37ba89ca77a5a3e7660b6f773d2abc911a1cbc8bbc33ed2788ec87c1c01365b",
+      "source": "Bambino Plus",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "fde8a89382ad6f2edf49a675aeaeb2e50de1e4349962e09914722a121642a85e",
+      "source": "Magnifica Evo",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "3d1593851a1b063174b940bf81fa6df04fc6c57417e8f90b57260790fcbd31c1",
+      "source": "Classic EVO Pro",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "62e1ec3f36ce83cb12a669829a790bc6e3cf6035aa0319a14049f81974433a83",
+      "source": "GO",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "4119e3ced3a440d31c1c572d9ea266cc47c40f9606cef6f768b8035688fbe98d",
+      "source": "Best Espresso Machines (2026): Choose by Routine | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "f07279afa63dde1a588fae4d0f1a5cc01b77977c3c2b7b8869be3fa59a1c4e46",
+      "source": "Choose the workflow first: push-button convenience, guided all-in-one control, or a machine and grinder you can upgrade separately.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "0e3db12306585ff69e14bb5e9548d2d26453b7fd842d22c21f583430ee4c3b16",
+      "source": "The best machine is a fit, not a winner.",
+      "kind": "json",
+      "context": "name"
+    }
+  ],
+  "snapshotHash": "d1b8b74df203d9bf0b3bf8a5776d886d7430bacd0b58e6ca49be0aadc46394aa"
+}
