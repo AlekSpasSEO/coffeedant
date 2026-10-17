@@ -8,8 +8,10 @@ type Upgrade = {
   productId: string;
   title?: string;
   description?: string;
+  alternatives?: MachineReviewData['alternatives'];
   sections: Record<string, SectionEdit>;
   sources?: MachineReviewData['article']['sources'];
+  sourceCorrections?: Record<string, Pick<MachineReviewData['article']['sources'][number], 'href' | 'note'>>;
   diagnostics?: Partial<Record<ReviewDimensionId, Array<{ signal: string; guidance: string }>>>;
 };
 
@@ -53,6 +55,15 @@ const upgrades: Record<string, Upgrade> = {
         title: 'PL92T3 is a different machine, not a free firmware upgrade',
         html: `<p>The PL92T reviewed here has timed buttons, LCC settings and two preinfusion approaches. It does not have Pagaia flow control, line-pressure preinfusion, plumbing or beverage weighing.</p><p>Lelit's separate Elizabeth3 PL92T3 record adds Pagaia, a new heated group, a 200 ml coffee boiler, programmable multistep profiles and a three-hole steam tip. Do not buy PL92T stock expecting those additions, and do not transfer PL92T3 recipes to the older controls.</p><p>Choose the established model when two-boiler milk service and its documented LCC controls already cover your routine. Verify the successor's regional stock, price, manual and support separately before making it a purchase comparison.</p>`,
       },
+      recommendations: {
+        title: 'Choose the controls that fit your daily order',
+        html: recommendationCardsHtml([
+          { kicker: 'Espresso first', title: 'Profitec GO', text: 'Compare factory PID feedback when milk is occasional.', href: '/espresso-machine/profitec-go/', linkLabel: 'Read the GO review', featured: true },
+          { kicker: 'Rancilio dual boiler', title: 'Silvia Pro X', text: 'Compare its steam reserve and simpler infusion routine.', href: '/espresso-machine/rancilio-silvia-pro-x/', linkLabel: 'Read the Pro X review' },
+          { kicker: 'Programmable brewing', title: 'Breville Dual Boiler', text: 'Compare recipe flexibility and local appliance support.', href: '/espresso-machine/breville-dual-boiler-bes920xl/', linkLabel: 'Read the Dual Boiler review' },
+          { kicker: 'Flow and plumbing', title: 'Lelit Bianca V3', text: 'Compare manual paddle control and a rotary pump.', href: '/espresso-machine/lelit-bianca-pl162t/', linkLabel: 'Read the Bianca review' },
+        ]),
+      },
     },
     sources: [
       { id: 'priority-elizabeth-product', label: 'Lelit: established Elizabeth PL92T', href: 'https://www.lelit.com/product/elizabeth-pl92t/', note: 'Official boiler, control and physical specifications; PL92T rather than PL92T3. Rechecked October 17, 2026.' },
@@ -65,6 +76,17 @@ const upgrades: Record<string, Upgrade> = {
     productId: 'CD-EM-000220',
     title: 'Profitec GO review: espresso control, one boiler to manage',
     description: 'Original Profitec GO review: PID dial-in, Fast Heat Up, a two-cappuccino sequence, post-steam refill and a clear boundary with GO 2.0.',
+    sourceCorrections: {
+      'refresh-20261014': {
+        href: 'https://links.imagerelay.com/cdn/2615/ql/592afb09fc7f40ffb5b48e3b6cba5d19/Profitec-GO-Espresso-Machine-User-Manual.pdf',
+        note: 'Manufacturer-authored March 2023 manual via Clive: section 6.4.2 confirms CLn defaults to zero and counts brews of at least 15 seconds; section 6.6 covers steam/refill. Broken original URL replaced October 17, 2026. Later readiness behavior depends on firmware.',
+      },
+    },
+    alternatives: [
+      { name: 'Lelit Victoria', href: '/espresso-machine/lelit-victoria-pl91t/', reason: 'Compare a compact PID single boiler with programmable preinfusion.' },
+      { name: 'Rancilio Silvia V6', href: '/espresso-machine/rancilio-silvia/', reason: 'Compare the stock thermostat routine and complete cost after any planned PID.' },
+      { name: 'Lelit Elizabeth', href: '/espresso-machine/lelit-elizabeth/', reason: 'Choose separate boilers when repeated milk drinks make the transition burdensome.' },
+    ],
     sections: {
       espresso: {
         title: 'Use the PID to repeat a recipe; use the grinder to establish it',
@@ -146,6 +168,11 @@ const upgrades: Record<string, Upgrade> = {
     productId: 'CD-EM-000164',
     title: 'Gaggia Accademia review: choose your milk routine first',
     description: 'Gaggia Accademia Glass RI9781/01 review: carafe versus wand, Espresso Plus dial-in, profiles, rinse-water handling and exact 230 V regional scope.',
+    alternatives: [
+      { name: 'Gaggia Cadorna Prestige', href: '/espresso-machine/gaggia-cadorna-prestige/', reason: 'Compare carafe-led service when the manual wand would go unused.' },
+      { name: 'Miele CM6360', href: '/espresso-machine/miele-cm6360-milkperfection/', reason: 'Compare paired automatic milk and removable-brewer care in the correct local version.' },
+      { name: 'Jura E8', href: '/espresso-machine/jura-e8/', reason: 'Compare its interface, drink choices and different brewer-access model.' },
+    ],
     sections: {
       espresso: {
         title: 'Dial in a short coffee before adding Espresso Plus and milk',
@@ -204,6 +231,11 @@ const upgrades: Record<string, Upgrade> = {
     productId: 'CD-EM-000174',
     title: 'Gaggia Classic GT review: a practical two-drink upgrade',
     description: 'North American 120 V Gaggia Classic GT review: manual versus automatic preinfusion, volumetric stopping, two-drink service and meaningful dual-boiler rivals.',
+    alternatives: [
+      { name: 'Lelit Elizabeth PL92T', href: '/espresso-machine/lelit-elizabeth/', reason: 'Compare timed buttons and two preinfusion approaches for a two-drink household.' },
+      { name: 'Rancilio Silvia Pro X', href: '/espresso-machine/rancilio-silvia-pro-x/', reason: 'Compare dedicated boilers and the Rancilio soft-infusion routine.' },
+      { name: 'Breville Dual Boiler', href: '/espresso-machine/breville-dual-boiler-bes920xl/', reason: 'Compare programmable extraction and the local Breville support package.' },
+    ],
     sections: {
       espresso: {
         title: 'Keep the preinfusion experiment separate from the automatic stop',
@@ -268,6 +300,11 @@ const upgrades: Record<string, Upgrade> = {
     productId: 'CD-EM-000211',
     title: 'Miele CM6360 review: paired milk drinks and the care behind them',
     description: 'Exact US Miele CM6360 MilkPerfection review: eight profiles, paired milk drinks, shared grinder settings, rinse-valve care and ownership costs.',
+    alternatives: [
+      { name: 'Miele CM7750 CoffeeSelect', href: '/espresso-machine/miele-cm7750-coffeeselect/', reason: 'Compare separate bean choices when a shared hopper is the real limitation.' },
+      { name: 'Jura E8', href: '/espresso-machine/jura-e8/', reason: 'Compare guided operation and its different brewer-access and care model.' },
+      { name: 'Gaggia Accademia', href: '/espresso-machine/gaggia-accademia-ri9781-01/', reason: 'Compare carafe plus manual wand, matching regional voltage and warranty.' },
+    ],
     sections: {
       espresso: {
         title: 'Eight profiles share one grinder, so establish the household bean first',
@@ -331,7 +368,10 @@ export const applyPriorityReviewUpgrade = (review: MachineReviewData): MachineRe
       throw new Error(`Priority upgrade section missing: ${review.slug}#${id}`);
     }
   }
-  const sources = [...review.article.sources];
+  const sources = review.article.sources.map(source => ({
+    ...source,
+    ...upgrade.sourceCorrections?.[source.id],
+  }));
   const aliases = new Map<string, string>();
   const normalize = (href: string) => href.replace(/\/$/, '');
   for (const source of upgrade.sources ?? []) {
@@ -346,6 +386,7 @@ export const applyPriorityReviewUpgrade = (review: MachineReviewData): MachineRe
     ...review,
     title: upgrade.title ?? review.title,
     description: upgrade.description ?? review.description,
+    alternatives: upgrade.alternatives ?? review.alternatives.filter(item => item.href !== review.slug),
     updated: review.updated > '2026-10-17' ? review.updated : '2026-10-17',
     evaluation: {
       ...review.evaluation,

@@ -28,7 +28,7 @@ This is a targeted competitive improvement, not a claim of exhaustive superiorit
 
 The scoped transform runs after prior dated factual refreshes. It verifies product identity and section IDs, preserves meaningful authored deep-dive notes, removes repeated factory disclaimer paragraphs, and reuses source anchors when a URL is already present. Previous GO CLn facts are retained. Exact-model manufacturer images replace generic community imagery on Elizabeth and Silvia. Existing video choices retain their provenance.
 
-GT self-recommendations are replaced with actual alternatives. Contextual links connect compatible buying decisions between the six priorities and existing comparison reviews. No broad navigation stuffing or new unsupported brand pages are added. The Miele expired price is removed from the numeric Finder fallback and the active recommendation; historical evidence is preserved as historical.
+GT self-recommendations are replaced with actual alternatives in both the summary and article. The Elizabeth self-card is replaced with an espresso-first GO comparison. Summary alternatives for GO, Accademia and Miele also match the revised buyer decisions. Contextual links connect compatible choices between the six priorities and existing comparison reviews. No broad navigation stuffing or unsupported brand pages are added. The Miele expired price is removed from the numeric Finder fallback and active recommendation; historical evidence is preserved as historical.
 
 Amazon API activity remains paused. Editorial work uses local cached validation only; no token, credential, price refresh, eligibility probe or refresh workflow is used.
 
@@ -38,12 +38,12 @@ Local production build completed successfully. The full modern-review validator 
 
 | Review | Publication-validator editorial words | Rating deep dives | Pro tips |
 | --- | ---: | ---: | ---: |
-| Elizabeth | 5,488 | 6 | 3 |
-| GO | 5,410 | 6 | 3 |
+| Elizabeth | 5,462 | 6 | 3 |
+| GO | 5,375 | 6 | 3 |
 | Silvia | 5,315 | 6 | 3 |
-| Accademia | 5,120 | 6 | 3 |
-| Classic GT | approximately 5,180; final headline shortened | 6 | 3 |
-| Miele CM6360 | 5,158 | 6 | 3 |
+| Accademia | 5,112 | 6 | 3 |
+| Classic GT | 5,165 | 6 | 3 |
+| Miele CM6360 | 5,140 | 6 | 3 |
 
 All six contain the required modules. The independent full-sitemap parity audit was run in its existing report-only mode: these six have 22/22 product-review modules, but it reports higher word totals than the publication validator because it also counts reusable commerce/Finder material. Its sitewide baseline reports 156 gaps, including other articles; this receipt does not claim that broad baseline is resolved or that strict parity passed. No audit threshold or exclusion was changed for this task.
 
