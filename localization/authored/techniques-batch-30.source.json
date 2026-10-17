@@ -1,0 +1,955 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/journal/espresso-techniques/",
+      "sourceHash": "3dd6d888c9935e28b0efe19b867337473e3429eb912e1a5dbffcfdcfc2b5ab28"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "d25727b79e719caaa64c836d5988ad15a54410ee76c002c0a6c5ea384068a441",
+      "source": "Espresso",
+      "kind": "text",
+      "context": "Espresso"
+    },
+    {
+      "id": "6aea87acebc2d7159398cdd4bc87896dec2a6876afd54bb3b409b417ab6fc08f",
+      "source": "Independent boilers",
+      "kind": "text",
+      "context": "Independent boilers"
+    },
+    {
+      "id": "8ee45d3c1a5b205a582974ddc670f39e07aa101673ca7f7858e6c62335914f03",
+      "source": "Brew boiler",
+      "kind": "text",
+      "context": "Brew boiler"
+    },
+    {
+      "id": "0576270ff62768641396720db8eb2efadc441a5a93aefe6892be68799aad5d4e",
+      "source": "Steam boiler",
+      "kind": "text",
+      "context": "Steam boiler"
+    },
+    {
+      "id": "f3cfc2e9b5a86dd28f7d1b350321b6347bd63eaf8e3fa3334064d3733fe02178",
+      "source": "Master Espresso Technique for Every Machine Type | Coffeedant",
+      "kind": "text",
+      "context": "Master Espresso Technique for Every Machine Type | Coffeedant"
+    },
+    {
+      "id": "5abb483c310ffefcc5fdf8fda970766b02b2a5ac2ed9d4254fee0ed29ab20108",
+      "source": "Master Espresso Technique for Every Machine Type | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "5c573459ee66749db3fa696201b0ba40a3c1925607017e792cbe38474d22de94",
+      "source": "Rancilio Silvia home espresso machine with steam wand",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "9aeda60681a258c4b8a67d928c114a7e8f485e1a82264b1d160e2bd4e637d718",
+      "source": "Technique systems · research-led guide",
+      "kind": "text",
+      "context": "Technique systems · research-led guide"
+    },
+    {
+      "id": "b2ca135c8b350f91018164e9f8863ee387f1e45737f735a3e3af8e6dd171faa1",
+      "source": "The useful technique depends on which jobs the machine gives back to the user. A lever, semi-automatic, bean-to-cup machine and capsule brewer can all make concentrated coffee, but their controllable variables are not the same.",
+      "kind": "text",
+      "context": "The useful technique depends on which jobs the machine gives back to the user. A lever, semi-automatic, bean-to-cup machine and capsule brewer can all make concentrated coffee, but their controllable variables are not the same."
+    },
+    {
+      "id": "b179c93f8b8fde56b298b80b3655788af48ddaaa5fc38ce7658e0137e9026e5e",
+      "source": "Identify the controls your machine truly exposes, establish one repeatable baseline, and change the highest-leverage available variable one step at a time. Do not import a manual-portafilter ritual into a closed automatic system or expect automation to remove cleaning and water management.",
+      "kind": "text",
+      "context": "Identify the controls your machine truly exposes, establish one repeatable baseline, and change the highest-leverage available variable one step at a time. Do not import a manual-portafilter ritual into a closed automatic system or expect automation to remove cleaning and water management."
+    },
+    {
+      "id": "2daaa081b87675ea450155a542d587c6f0e1e404b7c522f5a4c8afb46349af18",
+      "source": "The heater architecture changes the milk-drink workflow",
+      "kind": "text",
+      "context": "The heater architecture changes the milk-drink workflow"
+    },
+    {
+      "id": "f1f70139f546fcc68e88cdfc6a06146ce336c7652669f6e387f4fd2d04d4914f",
+      "source": "Compare a classic shared boiler with independent brew and steam boilers. These are conceptual operating sequences, not wiring diagrams, exact warm-up times or permission to modify a machine.",
+      "kind": "text",
+      "context": "Compare a classic shared boiler with independent brew and steam boilers. These are conceptual operating sequences, not wiring diagrams, exact warm-up times or permission to modify a machine."
+    },
+    {
+      "id": "6d12d525f9fae5904f14a8511ba7d69eb3d1266192952adc9017fbfa69f8b450",
+      "source": "The heater architecture changes the milk-drink workflow",
+      "kind": "attribute",
+      "context": "Visual explanation / Explore the mechanismThe heater architecture changes the milk-drink workflowCompare a classic shared boiler with independent brew and steam boilers. These are conceptual operating sequences, not wiring diagrams, exact warm-up times or permission to modify a machine. Shared boilerIndependent boilers    Shared boiler sequence versus separate brew and steam pathsBrew stateChange tosteam stateReturn tobrew stateOne heater system. Follow the exact manual when changing modes.Brew boilerSteam boilerEspressoMilk steamingIndependent circuits can overlap on machines documented to support it.    Basis: Source 1 ↗ · Source 2 ↗ · Source 3 ↗"
+    },
+    {
+      "id": "a6cddbae7505442df5f7e3471a3c2a6ec5d41667f629ea94ebee58ee7b4e4eef",
+      "source": "Shared boiler",
+      "kind": "text",
+      "context": "Shared boiler"
+    },
+    {
+      "id": "4cbb45270e31ec4ce4fc1f4b5e086a47c66243e36529b0ef1711396e5087a40c",
+      "source": "Shared boiler sequence versus separate brew and steam paths",
+      "kind": "text",
+      "context": "Shared boiler sequence versus separate brew and steam paths"
+    },
+    {
+      "id": "537108cb038fd72606cbbfcf4c29e766956e2a6dc1e9e10388c35663aeaa4193",
+      "source": "Brew state",
+      "kind": "text",
+      "context": "Brew state"
+    },
+    {
+      "id": "ed14adf684f851a84824ef201d6b5d6008fe920954bf9bc8f4d417ba39f9d323",
+      "source": "Change to",
+      "kind": "text",
+      "context": "Change to"
+    },
+    {
+      "id": "357b855d4216e3e4d03147676c6e3bf2e87c56cc82966908a1caa4fa823c649a",
+      "source": "steam state",
+      "kind": "text",
+      "context": "steam state"
+    },
+    {
+      "id": "8ac77ec08062f9987b9b8df7ee6b23673d6902d0b4306d7c3b2fa9fd0ad5628f",
+      "source": "Return to",
+      "kind": "text",
+      "context": "Return to"
+    },
+    {
+      "id": "f9eee329e252493a0789d2731216824f599ca00d71e42bf71b41ad4f8f3db1c8",
+      "source": "brew state",
+      "kind": "text",
+      "context": "brew state"
+    },
+    {
+      "id": "853d1e76a0b53e7f084152890c4aa881453f43c4632747c369f272c525a4d604",
+      "source": "One heater system. Follow the exact manual when changing modes.",
+      "kind": "text",
+      "context": "One heater system. Follow the exact manual when changing modes."
+    },
+    {
+      "id": "d515555424548805f64c855b0ace48e95c9532921160add7df9717ecff3bffd6",
+      "source": "Milk steaming",
+      "kind": "text",
+      "context": "Milk steaming"
+    },
+    {
+      "id": "2a40b58eb5f22b1d3ab20a0c78c27f56c4e772fffb3800046d1b2d2589a25aed",
+      "source": "Independent circuits can overlap on machines documented to support it.",
+      "kind": "text",
+      "context": "Independent circuits can overlap on machines documented to support it."
+    },
+    {
+      "id": "ccc089655669f2a7492454c9c7c7019efe2805ab7fde8f7856a6d625508bf2e0",
+      "source": "Source 3 ↗",
+      "kind": "text",
+      "context": "Source 3 ↗"
+    },
+    {
+      "id": "f2a9a8431b1ef66fd2dfaa70a74e035a4c5198f52064c950799d7a3e113b1d02",
+      "source": "Rancilio Silvia home espresso machine with steam wand",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "aaecc2c0b252ebc8d550ea5456c49e66a475cb46fa5dd72637a1b32d8f0b273f",
+      "source": "The classic Silvia illustrates a shared-boiler workflow: brewing and steaming require different heater states. Follow the instructions for the exact version before moving between them.",
+      "kind": "text",
+      "context": "The classic Silvia illustrates a shared-boiler workflow: brewing and steaming require different heater states. Follow the instructions for the exact version before moving between them."
+    },
+    {
+      "id": "831147d7a9977aa9ee27b83d7c5be1f12a6743cbd77d50303c30733659b9c71e",
+      "source": "Rancilio product listing ·",
+      "kind": "text",
+      "context": "Rancilio product listing · Source · Manufacturer product-identification image; copyright retained. Illustrative, not a Coffeedant test photograph."
+    },
+    {
+      "id": "f4b70517f62d5fc0b619ef5c843d00787012157afc5d05a57687dd0455abe27d",
+      "source": "Breville Dual Boiler BES920 espresso machine",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "6fc49e9f9dd1b91dbabd64f6ab641b5d8ed1ba5c39018930b59d84245073c445",
+      "source": "The BES920 separates espresso and steam boilers, allowing simultaneous extraction and milk steaming. That changes the sequence of work, not the need for a repeatable coffee recipe.",
+      "kind": "text",
+      "context": "The BES920 separates espresso and steam boilers, allowing simultaneous extraction and milk steaming. That changes the sequence of work, not the need for a repeatable coffee recipe."
+    },
+    {
+      "id": "e5340d4b73ac36270610b1868ae843241e9bfb7ba961a1ad8079b3c06ff1ee09",
+      "source": "Classic Rancilio Silvia V5; discussion started by a V6 owner",
+      "kind": "text",
+      "context": "Classic Rancilio Silvia V5; discussion started by a V6 owner"
+    },
+    {
+      "id": "3a0edf95d6c9f50f643172b9cdfb7d4fc5e11b50f5945c4de5ed5783ad19513f",
+      "source": "A V5 owner said four years of temperature surfing never became consistently repeatable for them, then reported more consistent results after a PID retrofit. Other owners in the thread used different routines. The guide should explain the burden of manual temperature management while avoiding a universal surfing timer or recommending an undocumented modification.",
+      "kind": "text",
+      "context": "A V5 owner said four years of temperature surfing never became consistently repeatable for them, then reported more consistent results after a PID retrofit. Other owners in the thread used different routines. The guide should explain the burden of manual temperature management while avoiding a universal surfing timer or recommending an undocumented modification."
+    },
+    {
+      "id": "eb6c79343c793252697a33dadd7afb749a90118f4d1423ca81b1c07f2913ab42",
+      "source": "One owner’s retrospective account; different Silvia generations and modified hardware cannot establish a stock V6 performance result.",
+      "kind": "text",
+      "context": "One owner’s retrospective account; different Silvia generations and modified hardware cannot establish a stock V6 performance result."
+    },
+    {
+      "id": "1172d4661702525b3d42bf42f9a6237043fab65c37ce8d8bd90cd6aaac39ce89",
+      "source": "Great espresso comes down to science and control. Whether you pull shots on a $200 manual lever or a $3,000 super-automatic, the same extraction principles determine what ends up in your cup. Water at 195-205°F (90-96°C) meets coffee grounds at 9 bars of pressure for 25-30 seconds, targeting a 1:2 brew ratio. Master these fundamentals, and you'll pull balanced shots regardless of your machine type.",
+      "kind": "text",
+      "context": "Great espresso comes down to science and control. Whether you pull shots on a $200 manual lever or a $3,000 super-automatic, the same extraction principles determine what ends up in your cup. Water at 195-205°F (90-96°C) meets coffee grounds at 9 bars of pressure for 25-30 seconds, targeting a 1:2 brew ratio. Master these fundamentals, and you'll pull balanced shots regardless of your machine type."
+    },
+    {
+      "id": "f1b4dab302c6c597f6072f4c3d49270fc2ab6bed6aa2fe1b2d9e416a272dc817",
+      "source": "Most home baristas assume their equipment limits their results. The truth cuts deeper. Technique matters more than machine cost. A skilled barista with a $400 Gaggia Classic will consistently outperform a beginner on a $2,000 dual boiler. You control grind size, distribution, tamping, and timing. These variables shape extraction far more than any machine feature.",
+      "kind": "text",
+      "context": "Most home baristas assume their equipment limits their results. The truth cuts deeper. Technique matters more than machine cost. A skilled barista with a $400 Gaggia Classic will consistently outperform a beginner on a $2,000 dual boiler. You control grind size, distribution, tamping, and timing. These variables shape extraction far more than any machine feature."
+    },
+    {
+      "id": "bf7c725dbb674d85702751b53c154ac16f2132ddb1fba6b7145efe2f0b5e22bf",
+      "source": "This guide delivers proven techniques for five machine categories: super-automatics, semi-automatics, manual levers, pod systems, and grind-and-brew combos. You'll learn puck preparation that prevents channeling, temperature management for consistent extraction, milk techniques for cafe-quality drinks, and troubleshooting solutions for common problems. Each machine type gets equal treatment because every path to excellent espresso deserves respect.",
+      "kind": "text",
+      "context": "This guide delivers proven techniques for five machine categories: super-automatics, semi-automatics, manual levers, pod systems, and grind-and-brew combos. You'll learn puck preparation that prevents channeling, temperature management for consistent extraction, milk techniques for cafe-quality drinks, and troubleshooting solutions for common problems. Each machine type gets equal treatment because every path to excellent espresso deserves respect."
+    },
+    {
+      "id": "0299312fb9579f43d511a5cb5bcefb9b183e1e7edef2be51bbf1c0b6865376b1",
+      "source": "The science behind espresso extraction",
+      "kind": "text",
+      "context": "The science behind espresso extraction"
+    },
+    {
+      "id": "e2ba2313f10197dddb025d8147b2d332403293783e01e18f4c369e67366178fe",
+      "source": "Espresso is a three-phase system: foam (crema), dissolved coffee compounds in water, and suspended particles with oil droplets. During extraction, pressurized water forces through compacted coffee, dissolving 18-22% of the coffee mass into your beverage. The Specialty Coffee Association defines optimal parameters precisely: brew temperature between 195-205°F (90.5-96°C), extraction pressure at 9 bars with maximum deviation of 0.4 bar, and outcoming extraction yield of 18-22%.",
+      "kind": "text",
+      "context": "Espresso is a three-phase system: foam (crema), dissolved coffee compounds in water, and suspended particles with oil droplets. During extraction, pressurized water forces through compacted coffee, dissolving 18-22% of the coffee mass into your beverage. The Specialty Coffee Association defines optimal parameters precisely: brew temperature between 195-205°F (90.5-96°C), extraction pressure at 9 bars with maximum deviation of 0.4 bar, and outcoming extraction yield of 18-22%."
+    },
+    {
+      "id": "ed080192b9531ba778204c2c65a39bf482218eaae03f9cf57eb698652b30515f",
+      "source": "Different compounds extract at different rates. Early extraction (0-15 seconds) pulls pleasant volatiles and sweet notes. Later extraction (15-30+ seconds) draws heavier body compounds and increased bitterness. Pull too fast and you get sour, thin shots. Extract too long and harsh, bitter flavors dominate. The goal is hitting that sweet spot where sweetness, acidity, and subtle bitterness balance perfectly.",
+      "kind": "text",
+      "context": "Different compounds extract at different rates. Early extraction (0-15 seconds) pulls pleasant volatiles and sweet notes. Later extraction (15-30+ seconds) draws heavier body compounds and increased bitterness. Pull too fast and you get sour, thin shots. Extract too long and harsh, bitter flavors dominate. The goal is hitting that sweet spot where sweetness, acidity, and subtle bitterness balance perfectly."
+    },
+    {
+      "id": "fb7f5262441b13c74a7ce89c588070e6c6928e13c26d0e2ec2862016e8ce0c6e",
+      "source": "Particle size distribution drives extraction consistency. Coffee grinds have a bimodal distribution with larger particles (200-500μm) and fines (particles under 100μm). Fines primarily affect flow dynamics, not extraction efficiency. They fill gaps between larger particles, increasing resistance and slowing water flow. Scientific modeling confirms that particles under 150μm increase extraction time while particles over 250μm decrease it.",
+      "kind": "text",
+      "context": "Particle size distribution drives extraction consistency. Coffee grinds have a bimodal distribution with larger particles (200-500μm) and fines (particles under 100μm). Fines primarily affect flow dynamics, not extraction efficiency. They fill gaps between larger particles, increasing resistance and slowing water flow. Scientific modeling confirms that particles under 150μm increase extraction time while particles over 250μm decrease it."
+    },
+    {
+      "id": "90abadf70db476a74650a5c6d84413842d6160693f1c152d4035065e3b4d9a59",
+      "source": "Pre-infusion transforms extraction quality. Gently saturating the puck at 1-3 bars for 3-10 seconds before ramping to full pressure reduces channeling dramatically. Dry coffee resists water flow like water on dry soil. Pre-wetting allows even distribution before high pressure hits. This technique also allows CO2 degassing, prevents puck cracking, and lets you grind 1-2 settings finer while maintaining the same shot time.",
+      "kind": "text",
+      "context": "Pre-infusion transforms extraction quality. Gently saturating the puck at 1-3 bars for 3-10 seconds before ramping to full pressure reduces channeling dramatically. Dry coffee resists water flow like water on dry soil. Pre-wetting allows even distribution before high pressure hits. This technique also allows CO2 degassing, prevents puck cracking, and lets you grind 1-2 settings finer while maintaining the same shot time."
+    },
+    {
+      "id": "33a9f002f2532cb5f2ed737fccebdd57d723650b9e422115763890aa22b05187",
+      "source": "Super-automatic machines: one-button convenience with control",
+      "kind": "text",
+      "context": "Super-automatic machines: one-button convenience with control"
+    },
+    {
+      "id": "d9c6a8d2d76c852fa41bfb1696187317528f1040cfee3f91d2bead89d28f6baa",
+      "source": "Super-automatic machines automate every step from bean to cup. Built-in burr grinders dose coffee automatically, internal brew units tamp consistently, and integrated systems extract at 9 bars with precise temperature control. The entire process takes 30-60 seconds with minimal user input. Major brands like Jura, DeLonghi, Philips, and Gaggia each approach automation differently, but all share core capabilities.",
+      "kind": "text",
+      "context": "Super-automatic machines automate every step from bean to cup. Built-in burr grinders dose coffee automatically, internal brew units tamp consistently, and integrated systems extract at 9 bars with precise temperature control. The entire process takes 30-60 seconds with minimal user input. Major brands like Jura, DeLonghi, Philips, and Gaggia each approach automation differently, but all share core capabilities."
+    },
+    {
+      "id": "f44743d39d741bd47f7b66685070d99b85c1090693b5601835ffadc6619634d1",
+      "source": "Setup and dialing in",
+      "kind": "text",
+      "context": "Setup and dialing in"
+    },
+    {
+      "id": "cb26d9e1d836d1c8fac94971c4fa6ec2c51f29164578cbd433a7d7e16a5bb2f3",
+      "source": "Start by adjusting the internal burr position. Most machines ship with grinders set too coarse for espresso. On Breville machines, you'll typically need to change the internal burr from factory position 6 down to 5 or 4. DeLonghi machines usually arrive properly calibrated but may need adjustment. Access the burr by removing the bean hopper, lifting the metal ring on top of the grinder, and twisting to a finer setting.",
+      "kind": "text",
+      "context": "Start by adjusting the internal burr position. Most machines ship with grinders set too coarse for espresso. On Breville machines, you'll typically need to change the internal burr from factory position 6 down to 5 or 4. DeLonghi machines usually arrive properly calibrated but may need adjustment. Access the burr by removing the bean hopper, lifting the metal ring on top of the grinder, and twisting to a finer setting."
+    },
+    {
+      "id": "ba0f0fb915f1e4c56ce26b39c25d4156558a98429beee4d8eeb6b71ee24e93fa",
+      "source": "Water hardness setup matters for descaling schedules. Use the included test strip by dipping it for one second in water, waiting one minute, and counting the colored squares. Enter this value into your machine's menu system. This setting determines when your machine prompts for descaling.",
+      "kind": "text",
+      "context": "Water hardness setup matters for descaling schedules. Use the included test strip by dipping it for one second in water, waiting one minute, and counting the colored squares. Enter this value into your machine's menu system. This setting determines when your machine prompts for descaling."
+    },
+    {
+      "id": "7fb3b87e54d164b804dc469ea1d7d621fc1fbb5d3e724f21214745f6a25b0c82",
+      "source": "Grind adjustment happens only while the grinder runs. Locate the adjustment dial inside the bean hopper. Start at the middle setting. If your shot pulls too fast (under 10 seconds for 30-35ml), grind finer by moving to a lower number. If the shot drips slowly or chokes, grind coarser. Make single-step adjustments and brew 2-3 shots between changes to clear old grounds from the system.",
+      "kind": "text",
+      "context": "Grind adjustment happens only while the grinder runs. Locate the adjustment dial inside the bean hopper. Start at the middle setting. If your shot pulls too fast (under 10 seconds for 30-35ml), grind finer by moving to a lower number. If the shot drips slowly or chokes, grind coarser. Make single-step adjustments and brew 2-3 shots between changes to clear old grounds from the system."
+    },
+    {
+      "id": "81ebe40eb9c56445fc6c6c3cca05546c2f1a3bceddd6f9748bf5ea73aa9ba597",
+      "source": "Coffee strength settings control dose amount, not grind size. Most machines offer 3-5 strength levels representing different coffee quantities (typically 6-16g per shot). Set espresso drinks to maximum strength (4-5 beans on the display) for concentrated shots. Use medium settings (3 beans) for larger coffee drinks like americanos.",
+      "kind": "text",
+      "context": "Coffee strength settings control dose amount, not grind size. Most machines offer 3-5 strength levels representing different coffee quantities (typically 6-16g per shot). Set espresso drinks to maximum strength (4-5 beans on the display) for concentrated shots. Use medium settings (3 beans) for larger coffee drinks like americanos."
+    },
+    {
+      "id": "60e2a340941da98ea18e80d42df1bb6aed6f4880d865f99cdaf8ad25587d7f5e",
+      "source": "Program water volume by selecting a drink, pressing start, and stopping the machine when your desired amount dispenses. The machine saves this volume for future drinks. Target 25-35ml for espresso, 50-70ml for double shots, and 100-150ml for americanos. For larger drinks, program two shots into one cup rather than over-extracting a single dose.",
+      "kind": "text",
+      "context": "Program water volume by selecting a drink, pressing start, and stopping the machine when your desired amount dispenses. The machine saves this volume for future drinks. Target 25-35ml for espresso, 50-70ml for double shots, and 100-150ml for americanos. For larger drinks, program two shots into one cup rather than over-extracting a single dose."
+    },
+    {
+      "id": "58a03e27bea05db0ea5c6414690b75dbc0344e4708a92ee04b53d390d53e284b",
+      "source": "Critical bean selection rules",
+      "kind": "text",
+      "context": "Critical bean selection rules"
+    },
+    {
+      "id": "9fc59142a225d3ba62947382172337162c32c09999bcf17b19226c99b3f3ec96",
+      "source": "Never use oily, shiny, or dark-roasted beans in super-automatics. Oils clog the grinder chute between burrs and brew unit, causing permanent damage not covered by warranty. Choose medium to dark roasts with dry surfaces that feel rough, not slippery. Excellent options include Whole Latte Love Crema Wave, Maromas Orphea, Filicori Gran Crema Forte, and illy dark roast. Light roasts also cause problems because extraction time runs too short and hard beans stress grinder mechanisms.",
+      "kind": "text",
+      "context": "Never use oily, shiny, or dark-roasted beans in super-automatics. Oils clog the grinder chute between burrs and brew unit, causing permanent damage not covered by warranty. Choose medium to dark roasts with dry surfaces that feel rough, not slippery. Excellent options include Whole Latte Love Crema Wave, Maromas Orphea, Filicori Gran Crema Forte, and illy dark roast. Light roasts also cause problems because extraction time runs too short and hard beans stress grinder mechanisms."
+    },
+    {
+      "id": "56b56ad09185ed07e558bf0fbb0073851d6d8b1563c55168a0a1e8af86ea8732",
+      "source": "Fill your bean hopper with only 2-3 days worth of beans. Keep the aroma preservation cover sealed when not in use. Store bulk beans separately in an airtight container. For single-hopper machines, use the bypass doser for variety or decaf rather than emptying and refilling the hopper.",
+      "kind": "text",
+      "context": "Fill your bean hopper with only 2-3 days worth of beans. Keep the aroma preservation cover sealed when not in use. Store bulk beans separately in an airtight container. For single-hopper machines, use the bypass doser for variety or decaf rather than emptying and refilling the hopper."
+    },
+    {
+      "id": "f814a35ee25c88d9a838dba6f1e81508ebf826b1c93c33e4b1c262aeb2e8e6f4",
+      "source": "Bypass doser technique",
+      "kind": "text",
+      "context": "Bypass doser technique"
+    },
+    {
+      "id": "58cadac4a9a17558c28cf9cada245292fc85b8fd19fca4fda5286843e6b10e07",
+      "source": "The bypass doser lets you use pre-ground coffee without touching hopper beans. Add one scoop (approximately 9-10g for DeLonghi/Philips, 14-15g for Jura) of espresso-ground coffee to the chute. Select the pre-ground function if your machine requires it. The machine brews without activating the grinder. This feature works perfectly for decaf, testing different beans, or using special single-origin coffees. Never exceed one scoop per cycle or you'll clog the brew unit.",
+      "kind": "text",
+      "context": "The bypass doser lets you use pre-ground coffee without touching hopper beans. Add one scoop (approximately 9-10g for DeLonghi/Philips, 14-15g for Jura) of espresso-ground coffee to the chute. Select the pre-ground function if your machine requires it. The machine brews without activating the grinder. This feature works perfectly for decaf, testing different beans, or using special single-origin coffees. Never exceed one scoop per cycle or you'll clog the brew unit."
+    },
+    {
+      "id": "e04064486da77d111a3866eb6990c4b8e59c36e43595e76836deac438e596a7a",
+      "source": "Maintenance for reliability",
+      "kind": "text",
+      "context": "Maintenance for reliability"
+    },
+    {
+      "id": "7362ba541b885e8891bb6e523f687260f400c9d2e5b9ccc10a881c18fa00ed56",
+      "source": "Daily maintenance takes under five minutes. Empty the drip tray and grounds container after each use. Remove milk system components, disassemble completely, and rinse all parts under water. Run the machine's rinse cycle. Wipe the coffee spout with a damp cloth.",
+      "kind": "text",
+      "context": "Daily maintenance takes under five minutes. Empty the drip tray and grounds container after each use. Remove milk system components, disassemble completely, and rinse all parts under water. Run the machine's rinse cycle. Wipe the coffee spout with a damp cloth."
+    },
+    {
+      "id": "3cca8c1e35d6937fa8ed4c1d0ec94dc6ab27baf33220e252e2484696c7e40abc",
+      "source": "Weekly cleaning depends on your brew unit type. Removable brew units (DeLonghi, Gaggia, Philips) need removal and thorough rinsing under warm water. Shake gently to remove all grounds, then air dry completely for 30+ minutes. Never use soap or put it in the dishwasher. Non-removable units (Jura) require cleaning tablets through the bypass doser following the automatic cleaning cycle.",
+      "kind": "text",
+      "context": "Weekly cleaning depends on your brew unit type. Removable brew units (DeLonghi, Gaggia, Philips) need removal and thorough rinsing under warm water. Shake gently to remove all grounds, then air dry completely for 30+ minutes. Never use soap or put it in the dishwasher. Non-removable units (Jura) require cleaning tablets through the bypass doser following the automatic cleaning cycle."
+    },
+    {
+      "id": "d35924b903ff8b7c46f004cb64d19e66300eac5e145093b629221cb3eda26027",
+      "source": "Every 400-500 cups or every four months, lubricate removable brew units. Apply a thin layer of food-grade silicone grease to the metal tracks and rails. Don't over-lubricate. Proper lubrication prevents friction, wear, and extraction problems.",
+      "kind": "text",
+      "context": "Every 400-500 cups or every four months, lubricate removable brew units. Apply a thin layer of food-grade silicone grease to the metal tracks and rails. Don't over-lubricate. Proper lubrication prevents friction, wear, and extraction problems."
+    },
+    {
+      "id": "fccefcc0b3ceecbe48943c2505250e092ddc0d3bf0085a05ac7afe03f89c412c",
+      "source": "Descaling every 1-3 months prevents scale buildup that damages heating elements and reduces temperature stability. Always use manufacturer-specific descaling solution. Jura needs Jura descaling tablets, DeLonghi requires EcoDecalk solution, and Philips machines need Philips descaling solution. Never use vinegar because it voids warranties and can damage internal components. The complete descaling program takes approximately 40 minutes including rinse cycles.",
+      "kind": "text",
+      "context": "Descaling every 1-3 months prevents scale buildup that damages heating elements and reduces temperature stability. Always use manufacturer-specific descaling solution. Jura needs Jura descaling tablets, DeLonghi requires EcoDecalk solution, and Philips machines need Philips descaling solution. Never use vinegar because it voids warranties and can damage internal components. The complete descaling program takes approximately 40 minutes including rinse cycles."
+    },
+    {
+      "id": "1c01a1f3af6afdc5a688d7254470907caca7159b8291f5594615f907ec37575e",
+      "source": "Semi-automatic machines: traditional control and craft",
+      "kind": "text",
+      "context": "Semi-automatic machines: traditional control and craft"
+    },
+    {
+      "id": "0b23e678a7b40f12d320d815c7a861f37b3c722c7c813ac239925eb1779cc97e",
+      "source": "Semi-automatic machines give you complete control over grinding, dosing, distribution, tamping, and extraction timing. You become the variable. Pump-driven systems deliver consistent 9-bar pressure while you determine everything else. Machines like the Breville Barista Express, Gaggia Classic Pro, Rancilio Silvia, and Lelit Elizabeth represent this category.",
+      "kind": "text",
+      "context": "Semi-automatic machines give you complete control over grinding, dosing, distribution, tamping, and extraction timing. You become the variable. Pump-driven systems deliver consistent 9-bar pressure while you determine everything else. Machines like the Breville Barista Express, Gaggia Classic Pro, Rancilio Silvia, and Lelit Elizabeth represent this category."
+    },
+    {
+      "id": "36910b2add980d5fcd307275e1c53e494cb6b6b66a0357e2ac2d79cada21b8cf",
+      "source": "Puck preparation fundamentals",
+      "kind": "text",
+      "context": "Puck preparation fundamentals"
+    },
+    {
+      "id": "03d5d1cb7e8eb950e64c0127fc3a1e941dad9449acab8a8836dba5dfdafdc098",
+      "source": "Weigh your dose to 0.1g accuracy. Target 18g for a double basket, though basket capacity varies. Match your dose to your basket's marked capacity within ±2g tolerance. Consistency matters more than the exact number.",
+      "kind": "text",
+      "context": "Weigh your dose to 0.1g accuracy. Target 18g for a double basket, though basket capacity varies. Match your dose to your basket's marked capacity within ±2g tolerance. Consistency matters more than the exact number."
+    },
+    {
+      "id": "f23cc852c27e52aec645a4b990258420059f3b5c0d1f57c5076e758306fb3202",
+      "source": "Distribution breaks up clumps and creates even density throughout the basket depth. The Weiss Distribution Technique (WDT) uses fine needles (0.3-0.4mm diameter) to stir grounds throughout the entire basket depth. Insert needles to the bottom, stir in overlapping circles, and work from bottom to top. Use a dosing funnel to prevent grounds from spilling. Proper WDT reduces channeling, increases puck resistance, and delivers higher peak pressure during extraction.",
+      "kind": "text",
+      "context": "Distribution breaks up clumps and creates even density throughout the basket depth. The Weiss Distribution Technique (WDT) uses fine needles (0.3-0.4mm diameter) to stir grounds throughout the entire basket depth. Insert needles to the bottom, stir in overlapping circles, and work from bottom to top. Use a dosing funnel to prevent grounds from spilling. Proper WDT reduces channeling, increases puck resistance, and delivers higher peak pressure during extraction."
+    },
+    {
+      "id": "1f33087dc45df7e3cf9e6104b9a7ce173571475753358d33be8bd4783044f479",
+      "source": "Tamping compresses grounds to create uniform resistance. Hold your tamper with fingers on the base for even pressure distribution. Keep your wrist straight and elbow at 90 degrees directly above the portafilter. Apply 30 pounds (13.6 kg) of downward pressure. Coffee stops compacting beyond this force, so additional pressure provides no benefit. Focus on creating a flat, level surface rather than maximum force. Never tap the portafilter sides after tamping because this cracks the puck edge seal.",
+      "kind": "text",
+      "context": "Tamping compresses grounds to create uniform resistance. Hold your tamper with fingers on the base for even pressure distribution. Keep your wrist straight and elbow at 90 degrees directly above the portafilter. Apply 30 pounds (13.6 kg) of downward pressure. Coffee stops compacting beyond this force, so additional pressure provides no benefit. Focus on creating a flat, level surface rather than maximum force. Never tap the portafilter sides after tamping because this cracks the puck edge seal."
+    },
+    {
+      "id": "8c94130290c763b966f306671c1a83cf0bcd43d2ca2c8696475f10a1dfeaff3f",
+      "source": "Inspect your tamped puck. The surface should sit below the basket's inner ring line, appear perfectly flat with no gaps or holes, and have coffee flush to basket edges. Any gaps create channels where water bypasses coffee.",
+      "kind": "text",
+      "context": "Inspect your tamped puck. The surface should sit below the basket's inner ring line, appear perfectly flat with no gaps or holes, and have coffee flush to basket edges. Any gaps create channels where water bypasses coffee."
+    },
+    {
+      "id": "1b5ff26543048d4974c1af49fd5a117830f2862b8bbc603db2a6334072c8b4b9",
+      "source": "Dialing in process",
+      "kind": "text",
+      "context": "Dialing in process"
+    },
+    {
+      "id": "3b864b6a82e507cc1362a951709d9f70f61dfb5fcb0382b2fa6ff5081d006425",
+      "source": "Lock in your dose first. Choose 18g for a double shot and keep it fixed throughout dialing. Set your target brew ratio next. The standard 1:2 ratio means 18g coffee produces 36g espresso. Ristretto uses 1:1 to 1:1.5 for concentrated shots. Normale runs 1:2 to 1:3 for balance. Lungo stretches to 1:3 to 1:4 for more volume.",
+      "kind": "text",
+      "context": "Lock in your dose first. Choose 18g for a double shot and keep it fixed throughout dialing. Set your target brew ratio next. The standard 1:2 ratio means 18g coffee produces 36g espresso. Ristretto uses 1:1 to 1:1.5 for concentrated shots. Normale runs 1:2 to 1:3 for balance. Lungo stretches to 1:3 to 1:4 for more volume."
+    },
+    {
+      "id": "9cd6996c5d057431d96ae69e3f0ac7e90970bc8294af9b51510a37b6423df538",
+      "source": "Pull a test shot stopping by weight, not time. Place a scale on your drip tray, zero it, and stop extraction when you reach your target output. Taste the result and note the extraction time. The 25-30 second guideline helps, but taste trumps numbers.",
+      "kind": "text",
+      "context": "Pull a test shot stopping by weight, not time. Place a scale on your drip tray, zero it, and stop extraction when you reach your target output. Taste the result and note the extraction time. The 25-30 second guideline helps, but taste trumps numbers."
+    },
+    {
+      "id": "58df6690cbe7f6283551a18c482e61b3fb6bf1a2c2dc83113d69abf02c3a9bb2",
+      "source": "Adjust grind for timing. If your shot finishes too fast (under 20 seconds), grind finer by one increment. If it runs too slow (over 40 seconds), grind coarser by one step. Purge 1-2 doses after each grinder adjustment to clear old settings. Wait for 2-3 shots before adjusting again because grinders need time to stabilize.",
+      "kind": "text",
+      "context": "Adjust grind for timing. If your shot finishes too fast (under 20 seconds), grind finer by one increment. If it runs too slow (over 40 seconds), grind coarser by one step. Purge 1-2 doses after each grinder adjustment to clear old settings. Wait for 2-3 shots before adjusting again because grinders need time to stabilize."
+    },
+    {
+      "id": "e4f88a3eaa1f5f5b3e87d5b0651f6f0df29c5364f79c6cd205bc7ca5a1b3f00a",
+      "source": "Fine-tune by taste once timing lands in range. Sour, sharp notes indicate under-extraction. Try grinding finer, increasing temperature, or extending extraction. Bitter, harsh, astringent flavors signal over-extraction. Grind coarser, decrease temperature, or shorten extraction time. Both sour and bitter simultaneously means channeling. Fix your puck preparation.",
+      "kind": "text",
+      "context": "Fine-tune by taste once timing lands in range. Sour, sharp notes indicate under-extraction. Try grinding finer, increasing temperature, or extending extraction. Bitter, harsh, astringent flavors signal over-extraction. Grind coarser, decrease temperature, or shorten extraction time. Both sour and bitter simultaneously means channeling. Fix your puck preparation."
+    },
+    {
+      "id": "6b97324e5e8241936b9e96981f3332fab784bd281c1d1a7c1727e29570468610",
+      "source": "Pre-infusion techniques",
+      "kind": "text",
+      "context": "Pre-infusion techniques"
+    },
+    {
+      "id": "975f3b9f8eeba0a89151ac4c48b54825023bff6655135a91fea66e646f05a71c",
+      "source": "Machines with pre-infusion capability deliver superior results. E61 group heads allow manual pre-infusion by lifting the brew lever halfway. Line pressure (not the pump) flows water at 2-3 bars to the puck. This only works on plumbed machines because reservoir machines lack back pressure.",
+      "kind": "text",
+      "context": "Machines with pre-infusion capability deliver superior results. E61 group heads allow manual pre-infusion by lifting the brew lever halfway. Line pressure (not the pump) flows water at 2-3 bars to the puck. This only works on plumbed machines because reservoir machines lack back pressure."
+    },
+    {
+      "id": "3bbcc710ae1fa34949006f20d19981784c56f7de9407c59b080d9574cea03ed4",
+      "source": "Programmable machines like the Lelit Elizabeth and La Marzocco Linea Mini offer electronic pre-infusion control. You can set pre-infusion duration from 0-10 seconds at 3-6 bars. Start with 3-4 seconds and adjust based on results.",
+      "kind": "text",
+      "context": "Programmable machines like the Lelit Elizabeth and La Marzocco Linea Mini offer electronic pre-infusion control. You can set pre-infusion duration from 0-10 seconds at 3-6 bars. Start with 3-4 seconds and adjust based on results."
+    },
+    {
+      "id": "0f311c9cf594963d6efea7e8e034241b4cb9c7d27174217ee6f1368f17cfd20d",
+      "source": "Breville machines include built-in low-pressure pre-infusion on most models. Basic models don't allow adjustment, but higher-end versions like the Dual Boiler offer programmable settings.",
+      "kind": "text",
+      "context": "Breville machines include built-in low-pressure pre-infusion on most models. Basic models don't allow adjustment, but higher-end versions like the Dual Boiler offer programmable settings."
+    },
+    {
+      "id": "b7e0264bf3b64d9dd88a866b5a987845ef86db78f7b58c5a7308812322dc327f",
+      "source": "Manual flow control paddles (Lelit Bianca, Profitec Pro 700) give infinite adjustability. A typical recipe starts with 3-4 seconds at 4-5 bars, then ramps to full 9-bar pressure. This approach requires hands-on attention but delivers maximum control.",
+      "kind": "text",
+      "context": "Manual flow control paddles (Lelit Bianca, Profitec Pro 700) give infinite adjustability. A typical recipe starts with 3-4 seconds at 4-5 bars, then ramps to full 9-bar pressure. This approach requires hands-on attention but delivers maximum control."
+    },
+    {
+      "id": "663d8c089bb4cb7f1c8490ac608b7cf0e22e80ca745da2b6054079597e870080",
+      "source": "Pressure and temperature management",
+      "kind": "text",
+      "context": "Pressure and temperature management"
+    },
+    {
+      "id": "78634aadecd881822b7963aee006486fa5a51b4a5f9d99507629ba74edff6ca9",
+      "source": "Many consumer machines ship at 12-15 bars, which causes channeling and over-extraction. Adjust your OPV (Over Pressure Valve) to 9 bars. Gaggia Classic requires an aftermarket spring kit. Breville machines need internal adjustment. Rancilio Silvia has user-adjustable OPV documented in the manual.",
+      "kind": "text",
+      "context": "Many consumer machines ship at 12-15 bars, which causes channeling and over-extraction. Adjust your OPV (Over Pressure Valve) to 9 bars. Gaggia Classic requires an aftermarket spring kit. Breville machines need internal adjustment. Rancilio Silvia has user-adjustable OPV documented in the manual."
+    },
+    {
+      "id": "e1cc4a115472ba12ac8aaa59dae1e3c48027536e93427a70d5cc058b0ae34b28",
+      "source": "Temperature surfing compensates for single-boiler temperature swings. Flush water through the group until the heating light turns off. Wait for the light to turn back on, then wait 10 additional seconds. Optionally engage the steam button for 3-6 seconds, turn it off, wait 3-4 seconds, and pull your shot. This technique applies to Gaggia Classic Pro, Rancilio Silvia without PID, and Breville Barista Express without modification.",
+      "kind": "text",
+      "context": "Temperature surfing compensates for single-boiler temperature swings. Flush water through the group until the heating light turns off. Wait for the light to turn back on, then wait 10 additional seconds. Optionally engage the steam button for 3-6 seconds, turn it off, wait 3-4 seconds, and pull your shot. This technique applies to Gaggia Classic Pro, Rancilio Silvia without PID, and Breville Barista Express without modification."
+    },
+    {
+      "id": "866fe92bb5c8308e3061f41e10023628931ddeac301ae79ec7aef74f3facf18d",
+      "source": "PID controllers eliminate temperature surfing. Dual-boiler machines provide rock-solid stability. Set brew temperature between 195-205°F (90-96°C). Light roasts often prefer 200-205°F while dark roasts work better at 195-199°F.",
+      "kind": "text",
+      "context": "PID controllers eliminate temperature surfing. Dual-boiler machines provide rock-solid stability. Set brew temperature between 195-205°F (90-96°C). Light roasts often prefer 200-205°F while dark roasts work better at 195-199°F."
+    },
+    {
+      "id": "41fb25112cbe414ab24343a894bb9b570fc9a22bdd31da44f85657eb7f567246",
+      "source": "Common mistakes and solutions",
+      "kind": "text",
+      "context": "Common mistakes and solutions"
+    },
+    {
+      "id": "12bdbce81a87b588a83d9e1268a861da2e7b7a71a19d2197f73f21bd0128cfd7",
+      "source": "Channeling shows as spurting jets with a bottomless portafilter, simultaneous sour and bitter taste, and visible cracks or holes in spent pucks. Fix it with thorough WDT, level tamping at consistent pressure, proper dose for your basket, and regular cleaning of your shower screen.",
+      "kind": "text",
+      "context": "Channeling shows as spurting jets with a bottomless portafilter, simultaneous sour and bitter taste, and visible cracks or holes in spent pucks. Fix it with thorough WDT, level tamping at consistent pressure, proper dose for your basket, and regular cleaning of your shower screen."
+    },
+    {
+      "id": "3ff0aa89f4beaa8ef5cf4b9581c18ad7775d1ff2dab79591c4b247abf4ec7059",
+      "source": "Pucks sticking to the shower screen indicate overdosing or too-fine grind combined with proper dose. Reduce dose by 1-2g or grind slightly coarser. Your puck should never touch the screen before extraction begins.",
+      "kind": "text",
+      "context": "Pucks sticking to the shower screen indicate overdosing or too-fine grind combined with proper dose. Reduce dose by 1-2g or grind slightly coarser. Your puck should never touch the screen before extraction begins."
+    },
+    {
+      "id": "8c00041cbee70531f91db0c62063ef5b498bb6b9f449a73e7efc4e5268e83958",
+      "source": "Temperature inconsistency between shots requires preheating. Lock your portafilter in the group during the 20-minute warm-up period. Run blank shots to heat the group head. Preheat cups on the warming tray. Single-boiler machines need temperature surfing technique.",
+      "kind": "text",
+      "context": "Temperature inconsistency between shots requires preheating. Lock your portafilter in the group during the 20-minute warm-up period. Run blank shots to heat the group head. Preheat cups on the warming tray. Single-boiler machines need temperature surfing technique."
+    },
+    {
+      "id": "27b3799a13f1a8c02a643560438fabfa976c8df311bb911520a73aace8991028",
+      "source": "Manual lever machines: hands-on pressure control",
+      "kind": "text",
+      "context": "Manual lever machines: hands-on pressure control"
+    },
+    {
+      "id": "626b86b09aa4eff3738b93f5a2976bb7f6f795b2adabf5d4041e0eddc50d3ee5",
+      "source": "Manual lever machines split into two types: spring-lever and direct-lever. Spring-lever machines (Profitec Pro 800, La Marzocco Leva) use compressed springs to provide automated pressure. You pull the lever down to load the spring, then release. The spring applies declining pressure from 9-12 bars initially, tapering to 3.5-4 bars by shot end. This profile mimics constant flow rate and suits medium-dark roasts perfectly.",
+      "kind": "text",
+      "context": "Manual lever machines split into two types: spring-lever and direct-lever. Spring-lever machines (Profitec Pro 800, La Marzocco Leva) use compressed springs to provide automated pressure. You pull the lever down to load the spring, then release. The spring applies declining pressure from 9-12 bars initially, tapering to 3.5-4 bars by shot end. This profile mimics constant flow rate and suits medium-dark roasts perfectly."
+    },
+    {
+      "id": "80be08a251f3c792bc890fc04cb33bcf2dcfeb31b1c5a69311a488b6b6f3a3ff",
+      "source": "Direct-lever machines (La Pavoni Europiccola, Flair, Cafelat Robot, ROK, Strietman CT2) give you complete manual control. Your arm provides all pressure throughout extraction. You can create any pressure profile imaginable. This flexibility allows unlimited experimentation but requires developed skill and muscle memory.",
+      "kind": "text",
+      "context": "Direct-lever machines (La Pavoni Europiccola, Flair, Cafelat Robot, ROK, Strietman CT2) give you complete manual control. Your arm provides all pressure throughout extraction. You can create any pressure profile imaginable. This flexibility allows unlimited experimentation but requires developed skill and muscle memory."
+    },
+    {
+      "id": "3c943e60dadc46e526fa88f6e1c454cc1ed1257414b2fdd0fd40fd9f2fc35faa",
+      "source": "Lever technique essentials",
+      "kind": "text",
+      "context": "Lever technique essentials"
+    },
+    {
+      "id": "8096d9bbf40843c83c4a344c320a2b581b92230119cd52d21f6d07323de10b18",
+      "source": "Puck preparation follows semi-automatic standards. Use WDT, consistent dosing (14-20g depending on basket size), and level tamping at 25-30 pounds. These fundamentals matter even more on lever machines because you can compensate for minor prep errors during extraction through pressure modulation.",
+      "kind": "text",
+      "context": "Puck preparation follows semi-automatic standards. Use WDT, consistent dosing (14-20g depending on basket size), and level tamping at 25-30 pounds. These fundamentals matter even more on lever machines because you can compensate for minor prep errors during extraction through pressure modulation."
+    },
+    {
+      "id": "98d86393c5c16bc21d223c7913200621f0eb05cf74633ee73f2c01ff21fc769f",
+      "source": "Grind slightly coarser than pump machines. Lever extraction typically runs longer due to declining pressure creating slower flow. The longer contact time extracts adequately with slightly larger particles. Start at standard espresso fineness and adjust coarser if needed.",
+      "kind": "text",
+      "context": "Grind slightly coarser than pump machines. Lever extraction typically runs longer due to declining pressure creating slower flow. The longer contact time extracts adequately with slightly larger particles. Start at standard espresso fineness and adjust coarser if needed."
+    },
+    {
+      "id": "a37577736cde0849f7d4ee76b2a5c43bb3c4f051a852a907dac4ed72b26715d0",
+      "source": "Pre-infusion technique varies by design. On spring levers, pull the lever fully down and hold it to control pre-infusion duration before releasing. On direct levers, raise the lever smoothly to fill the chamber (avoiding air), then begin downward pressure slowly. Apply 1-2 bars of gentle pressure for 5-15 seconds. Light roasts benefit from longer pre-infusion (up to 15 seconds). Never release or pump the lever during pre-infusion. Maintain constant forward pressure.",
+      "kind": "text",
+      "context": "Pre-infusion technique varies by design. On spring levers, pull the lever fully down and hold it to control pre-infusion duration before releasing. On direct levers, raise the lever smoothly to fill the chamber (avoiding air), then begin downward pressure slowly. Apply 1-2 bars of gentle pressure for 5-15 seconds. Light roasts benefit from longer pre-infusion (up to 15 seconds). Never release or pump the lever during pre-infusion. Maintain constant forward pressure."
+    },
+    {
+      "id": "2dab30a453b86873d379dccc84c03c0d29abe9a01065a925425c60bed596f444",
+      "source": "Extraction pressure for direct levers targets 6-9 bars. Approximately 25 pounds of straight-down force creates 7-8 bars on most manual machines. Use a bathroom scale to calibrate your force. Apply pressure gradually over 5-10 seconds, then maintain or modulate based on visual flow. Target 25-45 second total extraction, longer for light roasts.",
+      "kind": "text",
+      "context": "Extraction pressure for direct levers targets 6-9 bars. Approximately 25 pounds of straight-down force creates 7-8 bars on most manual machines. Use a bathroom scale to calibrate your force. Apply pressure gradually over 5-10 seconds, then maintain or modulate based on visual flow. Target 25-45 second total extraction, longer for light roasts."
+    },
+    {
+      "id": "a7fc687eb3693c845cffaefce5a5b1fac94c6f26e6ce26cbc50d0e58f80c25f4",
+      "source": "Model-specific guidance",
+      "kind": "text",
+      "context": "Model-specific guidance"
+    },
+    {
+      "id": "69e9ef424c47793af01f08a02ed93bd750e712451dafb292eee2b841e05d9211",
+      "source": "La Pavoni machines require 10-minute warm-up with ideal boiler pressure at 0.5-0.7 bars. Group head temperature should read 80-90°C externally. Never warm up longer than 20-25 minutes because overheating causes burnt, bitter shots. Pre-infusion should last 6-10 seconds passively.",
+      "kind": "text",
+      "context": "La Pavoni machines require 10-minute warm-up with ideal boiler pressure at 0.5-0.7 bars. Group head temperature should read 80-90°C externally. Never warm up longer than 20-25 minutes because overheating causes burnt, bitter shots. Pre-infusion should last 6-10 seconds passively."
+    },
+    {
+      "id": "4b90c30d263fab4cd5b1f4d840e3bbe396e14075893d2e0376d01b5e6b90fd78",
+      "source": "Flair espresso makers need water at 200-204°F (93-96°C). Preheating is critical. Pour boiling water through the cylinder and let it sit for 30-60 seconds before brewing. Grind fine, slightly coarser than standard pump espresso. Pre-infusion at 2 bars for 5-10 seconds works well. Ramp to 6-9 bars over 35-45 seconds. Use the pressure gauge during learning to build consistency.",
+      "kind": "text",
+      "context": "Flair espresso makers need water at 200-204°F (93-96°C). Preheating is critical. Pour boiling water through the cylinder and let it sit for 30-60 seconds before brewing. Grind fine, slightly coarser than standard pump espresso. Pre-infusion at 2 bars for 5-10 seconds works well. Ramp to 6-9 bars over 35-45 seconds. Use the pressure gauge during learning to build consistency."
+    },
+    {
+      "id": "2f33ed0e980cb3d0076d4d6573d4169e2cff3883c7b267ddc7facf9ab0cdcd7a",
+      "source": "Cafelat Robot uses dual-arm design with 58mm professional baskets. Target 6-7 bars, not 9 bars. Apply approximately 40 pounds (18 kg) straight down to achieve 7-8 bars. Pre-infusion happens through gravity feeding via the center-hole piston. Never use legs for leverage because this breaks the machine.",
+      "kind": "text",
+      "context": "Cafelat Robot uses dual-arm design with 58mm professional baskets. Target 6-7 bars, not 9 bars. Apply approximately 40 pounds (18 kg) straight down to achieve 7-8 bars. Pre-infusion happens through gravity feeding via the center-hole piston. Never use legs for leverage because this breaks the machine."
+    },
+    {
+      "id": "a9d358f02dbd980263446a2f815a8ae8d3b58b52a156c3d04f25bd9899ce1959",
+      "source": "ROK espresso requires preheating by running boiling water through the system for over one minute. Grind fine to medium-fine (table salt texture). Dose 16-19g typically. Apply 40 pounds of force for 7-8 bars. Pre-infusion technique involves pushing down until resistance, then holding for 15-20 seconds. Target 25-30 seconds for 36-40g output.",
+      "kind": "text",
+      "context": "ROK espresso requires preheating by running boiling water through the system for over one minute. Grind fine to medium-fine (table salt texture). Dose 16-19g typically. Apply 40 pounds of force for 7-8 bars. Pre-infusion technique involves pushing down until resistance, then holding for 15-20 seconds. Target 25-30 seconds for 36-40g output."
+    },
+    {
+      "id": "05913c077cdae09b1cb5277871d117b4fb558aaf88fed8528c4d39580d52bbdc",
+      "source": "Learning curve expectations",
+      "kind": "text",
+      "context": "Learning curve expectations"
+    },
+    {
+      "id": "579afdc3683b19f3d8c131728cd5cd1a7ad1bbb5f02ad9ac6bed2ec79c0df00b",
+      "source": "The first week brings frustration with many failed shots. Days 1-2 focus on understanding your machine's temperament. Days 3-7 produce occasional good shots mixed with inconsistency. Weeks 2-4 deliver consistent decent results as you develop feel for the machine. Months 2-3 produce excellent shots regularly as you master pressure profiling. Long-term, the machine becomes intuitive with micro-adjustments during extraction feeling natural.",
+      "kind": "text",
+      "context": "The first week brings frustration with many failed shots. Days 1-2 focus on understanding your machine's temperament. Days 3-7 produce occasional good shots mixed with inconsistency. Weeks 2-4 deliver consistent decent results as you develop feel for the machine. Months 2-3 produce excellent shots regularly as you master pressure profiling. Long-term, the machine becomes intuitive with micro-adjustments during extraction feeling natural."
+    },
+    {
+      "id": "df8d8ebb7812147c01b2dabac308881903b7ffa40ed756e7ddce369a41d14e25",
+      "source": "Spring-lever machines have virtually no learning curve for pump machine users. Direct-lever machines require 2-4 weeks of daily practice for consistency. The forgiving nature of manual pressure control compensates for minor prep errors, but building muscle memory takes time.",
+      "kind": "text",
+      "context": "Spring-lever machines have virtually no learning curve for pump machine users. Direct-lever machines require 2-4 weeks of daily practice for consistency. The forgiving nature of manual pressure control compensates for minor prep errors, but building muscle memory takes time."
+    },
+    {
+      "id": "ec84d0cd37681dfffa96f4429598d171d827c455420a272cff75ea4f0d866acd",
+      "source": "Pod and capsule systems: optimized convenience",
+      "kind": "text",
+      "context": "Pod and capsule systems: optimized convenience"
+    },
+    {
+      "id": "53d633ab63fb6302d181901989f8c3d2afc8a6b247e7a56a2d20b5a5fba946d8",
+      "source": "Nespresso Original Line uses 19-bar pressure to force hot water through hermetically sealed aluminum capsules. The system offers three brew sizes: ristretto (0.85 oz), espresso (1.35 oz), and lungo (3.7 oz). Temperature runs at 195-205°F with no user adjustment. The integrated Aeroccino frother handles milk separately.",
+      "kind": "text",
+      "context": "Nespresso Original Line uses 19-bar pressure to force hot water through hermetically sealed aluminum capsules. The system offers three brew sizes: ristretto (0.85 oz), espresso (1.35 oz), and lungo (3.7 oz). Temperature runs at 195-205°F with no user adjustment. The integrated Aeroccino frother handles milk separately."
+    },
+    {
+      "id": "8470327575b92b676df7f9b834676497bf9cfc1d574e79326c6d1162216aee51",
+      "source": "Nespresso Vertuo uses Centrifusion technology. Capsules spin at 7,000 RPM while water injects. Each capsule's barcode automatically sets brewing parameters including time, temperature, water volume, and rotation speed. This barcode system prevents use of third-party compatible capsules. Users commonly report Vertuo produces coffee that's not as hot as preferred.",
+      "kind": "text",
+      "context": "Nespresso Vertuo uses Centrifusion technology. Capsules spin at 7,000 RPM while water injects. Each capsule's barcode automatically sets brewing parameters including time, temperature, water volume, and rotation speed. This barcode system prevents use of third-party compatible capsules. Users commonly report Vertuo produces coffee that's not as hot as preferred."
+    },
+    {
+      "id": "17c68b8e328960d2a481c3e826e9ceec8447cdfae3f1bbde1ef36329ae298420",
+      "source": "Dolce Gusto machines deliver 15-bar pressure through larger capsules (54mm diameter versus Nespresso's 37mm). The system offers coffee, espresso, cappuccino, hot chocolate, and tea using separate milk capsules. You manually set water volume using a dial from 1-7. Milk drinks require two capsules: one for coffee, one for milk powder or foam.",
+      "kind": "text",
+      "context": "Dolce Gusto machines deliver 15-bar pressure through larger capsules (54mm diameter versus Nespresso's 37mm). The system offers coffee, espresso, cappuccino, hot chocolate, and tea using separate milk capsules. You manually set water volume using a dial from 1-7. Milk drinks require two capsules: one for coffee, one for milk powder or foam."
+    },
+    {
+      "id": "185a013ee57bca158a8f9730cc8f2b1608574da446e1e397893bcabc57a50b73",
+      "source": "Optimization techniques",
+      "kind": "text",
+      "context": "Optimization techniques"
+    },
+    {
+      "id": "6fd0f2fc27cf1ce87784dbbb7407a8cf735986d8b503975218d6800585e5ef63",
+      "source": "Machine warm-up matters despite automation. Allow 15-25 seconds after indicator lights stop blinking. Run a blank shot (no capsule) before your first use each day. This heats the group head, internal components, and purges stale water.",
+      "kind": "text",
+      "context": "Machine warm-up matters despite automation. Allow 15-25 seconds after indicator lights stop blinking. Run a blank shot (no capsule) before your first use each day. This heats the group head, internal components, and purges stale water."
+    },
+    {
+      "id": "315ffa56a07d576349033a58e657bcc9eec3e31617d752bd521bc3670c6e0f41",
+      "source": "Preheat your cup by filling it with hot water from the machine's hot water function. Let it sit during machine warm-up, then empty immediately before brewing. This prevents espresso from cooling rapidly and maintains crema longer.",
+      "kind": "text",
+      "context": "Preheat your cup by filling it with hot water from the machine's hot water function. Let it sit during machine warm-up, then empty immediately before brewing. This prevents espresso from cooling rapidly and maintains crema longer."
+    },
+    {
+      "id": "0df20f95e950e012672878b50521b13946b1e3c81d985b9aec58b086e1148761",
+      "source": "Cup size programming improves consistency. Press and hold the brew button while extracting. Release at your desired volume. The machine saves this setting for future brews. Target 30-40ml for espresso quality rather than default volumes.",
+      "kind": "text",
+      "context": "Cup size programming improves consistency. Press and hold the brew button while extracting. Release at your desired volume. The machine saves this setting for future brews. Target 30-40ml for espresso quality rather than default volumes."
+    },
+    {
+      "id": "5ac7673b5d47cc447ee50e1c96d58faa809f2135209e8353eab8d92432b816a5",
+      "source": "Capsule storage affects flavor. Keep capsules in original sealed sleeves. Nitrogen-flushed capsules maintain freshness when properly stored. Avoid refrigerator or freezer storage because condensation compromises seals. Store in a cool, dry place away from direct sunlight and heat.",
+      "kind": "text",
+      "context": "Capsule storage affects flavor. Keep capsules in original sealed sleeves. Nitrogen-flushed capsules maintain freshness when properly stored. Avoid refrigerator or freezer storage because condensation compromises seals. Store in a cool, dry place away from direct sunlight and heat."
+    },
+    {
+      "id": "49600c51737d40e441c2d206fc18b6b20592e058e517950f3ba5c7cbdc3aec06",
+      "source": "Maintenance requirements",
+      "kind": "text",
+      "context": "Maintenance requirements"
+    },
+    {
+      "id": "6d855ecc8ceebc226a28d4cca6cbcabeb6f3590385ac06b8b3e3ec12c420dd7f",
+      "source": "Descaling ranks as the most critical maintenance task. Scale buildup reduces water flow, lowers temperature, and damages machines. Descale every three months or 300 capsules, whichever comes first. Hard water areas need descaling every two months. Soft water areas can extend to six months.",
+      "kind": "text",
+      "context": "Descaling ranks as the most critical maintenance task. Scale buildup reduces water flow, lowers temperature, and damages machines. Descale every three months or 300 capsules, whichever comes first. Hard water areas need descaling every two months. Soft water areas can extend to six months."
+    },
+    {
+      "id": "dd91f590a49f1b4f2eaca47e797c1faaac2cef9882030d90854c116f8d63e7e7",
+      "source": "Use only manufacturer descaling solutions. Nespresso requires Nespresso descaling solution. Vinegar and third-party solutions damage internal components and void warranties. Mix solution with 0.5L water in the tank, enter descaling mode through the button combination specific to your model, run the full tank through, and rinse with two full tanks of fresh water. Total duration runs 15-20 minutes.",
+      "kind": "text",
+      "context": "Use only manufacturer descaling solutions. Nespresso requires Nespresso descaling solution. Vinegar and third-party solutions damage internal components and void warranties. Mix solution with 0.5L water in the tank, enter descaling mode through the button combination specific to your model, run the full tank through, and rinse with two full tanks of fresh water. Total duration runs 15-20 minutes."
+    },
+    {
+      "id": "2ea17db6545c42971b4acd449efb9225760e9a01d16aa04e21212243b8ec3c40",
+      "source": "Daily cleaning involves emptying drip tray, removing and rinsing capsule container, and wiping exterior surfaces. Clean the capsule holder for coffee residue buildup weekly.",
+      "kind": "text",
+      "context": "Daily cleaning involves emptying drip tray, removing and rinsing capsule container, and wiping exterior surfaces. Clean the capsule holder for coffee residue buildup weekly."
+    },
+    {
+      "id": "464d6fde776108c6b75ddac17526f808186768d8495463ef6f97a40a1701be73",
+      "source": "Reality check on limitations",
+      "kind": "text",
+      "context": "Reality check on limitations"
+    },
+    {
+      "id": "aa49b6bbec0c36613916937d951b8fe2663fc505ff2444170b6ba20873b8b88b",
+      "source": "Pod systems sacrifice quality and control for convenience. Testing by CHOICE with blind taste panels consistently ranks manual machine espresso significantly better than pod coffee. Pre-ground coffee in capsules is weeks to months old, well past the 5-14 day peak flavor window. Fixed parameters prevent adjustment of grind size, dose, or extraction time. Pressure of 15-19 bars exceeds the optimal 9 bar standard. Crema is often artificially enhanced rather than indicating true extraction quality.",
+      "kind": "text",
+      "context": "Pod systems sacrifice quality and control for convenience. Testing by CHOICE with blind taste panels consistently ranks manual machine espresso significantly better than pod coffee. Pre-ground coffee in capsules is weeks to months old, well past the 5-14 day peak flavor window. Fixed parameters prevent adjustment of grind size, dose, or extraction time. Pressure of 15-19 bars exceeds the optimal 9 bar standard. Crema is often artificially enhanced rather than indicating true extraction quality."
+    },
+    {
+      "id": "746a7541b11168711ff10cfaf65f4e6ed01845c9d18a983c0f62049ecf63fc26",
+      "source": "Cost per cup runs $0.85-1.30 for Nespresso capsules versus $0.20-0.35 per shot using fresh beans with traditional machines. Long-term, pod systems cost significantly more despite lower initial investment. Environmental impact remains substantial. Aluminum capsules require specialized recycling through Nespresso's program. Plastic capsules often can't be recycled at all.",
+      "kind": "text",
+      "context": "Cost per cup runs $0.85-1.30 for Nespresso capsules versus $0.20-0.35 per shot using fresh beans with traditional machines. Long-term, pod systems cost significantly more despite lower initial investment. Environmental impact remains substantial. Aluminum capsules require specialized recycling through Nespresso's program. Plastic capsules often can't be recycled at all."
+    },
+    {
+      "id": "310c09954223664ce6cad56bc235634ec80deb4a6edd9d0b821d75ce79e51a39",
+      "source": "Pod systems make sense for office settings, users with dexterity challenges, extreme time constraints under two minutes, and people with no desire to learn espresso technique. They deliver consistent results without skill requirements. Accept that you're prioritizing convenience over quality ceiling.",
+      "kind": "text",
+      "context": "Pod systems make sense for office settings, users with dexterity challenges, extreme time constraints under two minutes, and people with no desire to learn espresso technique. They deliver consistent results without skill requirements. Accept that you're prioritizing convenience over quality ceiling."
+    },
+    {
+      "id": "224b03e3a5063662f0c19876d804850280ce2f114f868335c642e690d58aecfd",
+      "source": "Grind-and-brew combo machines: integrated convenience",
+      "kind": "text",
+      "context": "Grind-and-brew combo machines: integrated convenience"
+    },
+    {
+      "id": "07c623d39129dc57a9194b8ed3e32fe51b5ae0fd2cdeaba34c4bc5f84aa7fa83",
+      "source": "Breville and DeLonghi dominate grind-and-brew combos. These machines integrate burr grinders directly into espresso machines, combining convenience with more control than pod systems. You still grind, distribute, tamp, and time extraction manually, but everything sits in one footprint.",
+      "kind": "text",
+      "context": "Breville and DeLonghi dominate grind-and-brew combos. These machines integrate burr grinders directly into espresso machines, combining convenience with more control than pod systems. You still grind, distribute, tamp, and time extraction manually, but everything sits in one footprint."
+    },
+    {
+      "id": "b6816aa19108cada0efcdc1d2f663ac0cadbfc08c7ff753d76f56fcf66e3ec6b",
+      "source": "Breville models and features",
+      "kind": "text",
+      "context": "Breville models and features"
+    },
+    {
+      "id": "2cb22c731fc3eea4c044bf0c9691cb159168740d114db79c40b2e982fb9db286",
+      "source": "The Barista Express ($700) started the all-in-one category. It offers manual tamping with 16-30 grind settings and a 54mm portafilter. The Barista Pro ($850) adds faster heat-up with ThermoJet heating, LCD display, and improved steam wand. The Barista Touch ($1,000) includes a color touchscreen with guided workflow and automatic milk frothing. The Barista Touch Impress ($1,300) combines touchscreen convenience with assisted tamping through the Impress Puck System.",
+      "kind": "text",
+      "context": "The Barista Express ($700) started the all-in-one category. It offers manual tamping with 16-30 grind settings and a 54mm portafilter. The Barista Pro ($850) adds faster heat-up with ThermoJet heating, LCD display, and improved steam wand. The Barista Touch ($1,000) includes a color touchscreen with guided workflow and automatic milk frothing. The Barista Touch Impress ($1,300) combines touchscreen convenience with assisted tamping through the Impress Puck System."
+    },
+    {
+      "id": "ed7116268d656069c5edc3b9cc7611850a9288c873c4bf0ceb5bdfdcb173b67c",
+      "source": "All Breville machines share a common challenge: grinders set too coarse from the factory. You'll need to adjust the internal burr position. Remove the hopper, lift the metal ring on top of the grinder, twist to a finer setting (from default position 6 down to 5 or 4), then work your way through external dial settings starting at coarsest.",
+      "kind": "text",
+      "context": "All Breville machines share a common challenge: grinders set too coarse from the factory. You'll need to adjust the internal burr position. Remove the hopper, lift the metal ring on top of the grinder, twist to a finer setting (from default position 6 down to 5 or 4), then work your way through external dial settings starting at coarsest."
+    },
+    {
+      "id": "65f7eeac026ea9c57c9348dc7c65184b3b45b2562e4dd6f64ca30c6bc70e2c95",
+      "source": "DeLonghi La Specialista line",
+      "kind": "text",
+      "context": "DeLonghi La Specialista line"
+    },
+    {
+      "id": "c922d2da6ba7ac7d608d8300c287a850a6662b1b4f0e950d2092631d0ca5859f",
+      "source": "La Specialista models include Arte ($700), standard Specialista ($800), Prestigio ($1,000), Maestro ($1,400), and Opera ($1,500). All use 51mm portafilters, smaller than Breville's 54mm and significantly smaller than commercial 58mm standard. Grinders offer 8 settings compared to Breville's 16-30, providing less precision for dialing in.",
+      "kind": "text",
+      "context": "La Specialista models include Arte ($700), standard Specialista ($800), Prestigio ($1,000), Maestro ($1,400), and Opera ($1,500). All use 51mm portafilters, smaller than Breville's 54mm and significantly smaller than commercial 58mm standard. Grinders offer 8 settings compared to Breville's 16-30, providing less precision for dialing in."
+    },
+    {
+      "id": "ac4248d26979a0c79af24138cab1116164f8290db76f92e2f70b0dc60f56aaab",
+      "source": "The smart tamping station uses a lever-pull system for consistency. Higher models include active temperature control and automatic milk frothers. The Opera adds cold brew functionality.",
+      "kind": "text",
+      "context": "The smart tamping station uses a lever-pull system for consistency. Higher models include active temperature control and automatic milk frothers. The Opera adds cold brew functionality."
+    },
+    {
+      "id": "ec9549fa156d96a6d1d2243e03bc12078d20201654aaf23286d0d558ce067dd7",
+      "source": "Setup and calibration",
+      "kind": "text",
+      "context": "Setup and calibration"
+    },
+    {
+      "id": "115aac03e5616c703f0b7197a6a6022fd256f1c5c0cff95d337dd8299d5f7ddf",
+      "source": "Ignore the machine's built-in dosing timer. These systems grind by time, not weight, creating dose inconsistency. Always weigh your dose on a scale. Target 17-18g for double shots. Grind into a dosing cup, then transfer to the portafilter using a dosing funnel.",
+      "kind": "text",
+      "context": "Ignore the machine's built-in dosing timer. These systems grind by time, not weight, creating dose inconsistency. Always weigh your dose on a scale. Target 17-18g for double shots. Grind into a dosing cup, then transfer to the portafilter using a dosing funnel."
+    },
+    {
+      "id": "02dee2697b6623e3d063f15b89a6478cf0437928e007f13f4f221b5d1f1be25a",
+      "source": "Adjust grind only while the grinder runs. Start at the middle external setting. If your shot pulls too fast (under 20 seconds) and tastes sour, grind finer by one increment. If it drips slowly (over 35 seconds) and tastes bitter, grind coarser by one step. Purge 5-10g between adjustments to clear old grounds. Make only one adjustment at a time.",
+      "kind": "text",
+      "context": "Adjust grind only while the grinder runs. Start at the middle external setting. If your shot pulls too fast (under 20 seconds) and tastes sour, grind finer by one increment. If it drips slowly (over 35 seconds) and tastes bitter, grind coarser by one step. Purge 5-10g between adjustments to clear old grounds. Make only one adjustment at a time."
+    },
+    {
+      "id": "f9f8adc65271d8d4d9c9966501ef35fd970b30d5caea92def70aa9581c74f95b",
+      "source": "Most machines need internal burr adjustment eventually. When your external dial maxes out at the finest setting but shots still run too fast, adjust the internal burr one position finer. Reset your external dial to the coarsest setting and work your way down to find the proper setting. Don't try to correlate settings between internal positions.",
+      "kind": "text",
+      "context": "Most machines need internal burr adjustment eventually. When your external dial maxes out at the finest setting but shots still run too fast, adjust the internal burr one position finer. Reset your external dial to the coarsest setting and work your way down to find the proper setting. Don't try to correlate settings between internal positions."
+    },
+    {
+      "id": "977fbd30c26bde68de2cd7ca173a90210af2715751bfc28e1d2e2292a2128bf0",
+      "source": "Milk frothing approaches",
+      "kind": "text",
+      "context": "Milk frothing approaches"
+    },
+    {
+      "id": "1b99dbed6e021a7e5dba52de3c5caab178276311032b9a8f0b3bb4707bcc2418",
+      "source": "Breville machines use single-hole steam tips requiring manual technique. Position the tip just below the surface, off-center. Start steam at full power. Stretch milk for 5-10 seconds with a gentle ripping sound. Lower the pitcher 1cm when milk reaches body temperature to create a rolling vortex. Stop when too hot to touch (140-150°F or 60-65°C). This approach gives more control for latte art but requires practice.",
+      "kind": "text",
+      "context": "Breville machines use single-hole steam tips requiring manual technique. Position the tip just below the surface, off-center. Start steam at full power. Stretch milk for 5-10 seconds with a gentle ripping sound. Lower the pitcher 1cm when milk reaches body temperature to create a rolling vortex. Stop when too hot to touch (140-150°F or 60-65°C). This approach gives more control for latte art but requires practice."
+    },
+    {
+      "id": "77767e8fba41e1390c6eef3b104e53b00a2ed2076ddbd172ed63889a326033c6",
+      "source": "DeLonghi uses panarello wands with built-in air valves. Turn the valve to control foam amount. This design requires less skill but provides less control. Higher DeLonghi models include automatic frothers with temperature probes for hands-free operation. Results are consistent but very thick foam.",
+      "kind": "text",
+      "context": "DeLonghi uses panarello wands with built-in air valves. Turn the valve to control foam amount. This design requires less skill but provides less control. Higher DeLonghi models include automatic frothers with temperature probes for hands-free operation. Results are consistent but very thick foam."
+    },
+    {
+      "id": "f6867bf0ba74f7c0a4233f5d967cca755982123f90c7523de61481748ccb0f20",
+      "source": "Common mistakes specific to combos",
+      "kind": "text",
+      "context": "Common mistakes specific to combos"
+    },
+    {
+      "id": "01ba3ed77a5970ac0bfaf2d74449676b847075bc106609c812a6f6a1a8f12a33",
+      "source": "Using the built-in dosing timer creates the biggest inconsistency. Dose by weight every single time. Not adjusting the grinder from factory settings produces weak, sour espresso. Fix internal burr position and dial in properly. Adjusting tamp pressure instead of grind leads to frustration. Use consistent 30-pound tamps and adjust grind only.",
+      "kind": "text",
+      "context": "Using the built-in dosing timer creates the biggest inconsistency. Dose by weight every single time. Not adjusting the grinder from factory settings produces weak, sour espresso. Fix internal burr position and dial in properly. Adjusting tamp pressure instead of grind leads to frustration. Use consistent 30-pound tamps and adjust grind only."
+    },
+    {
+      "id": "ed07c873acd20715827f9f65682b3918682ccf4a28a38d24143c227c83fb0984",
+      "source": "Changing multiple variables at once prevents diagnosis. Adjust grind, dose, or time independently. Not distributing grounds before tamping causes channeling. Use WDT or tap the portafilter sides. Skipping machine warm-up produces under-extracted shots. Allow 15-20 minutes, run a blank shot, and preheat the portafilter.",
+      "kind": "text",
+      "context": "Changing multiple variables at once prevents diagnosis. Adjust grind, dose, or time independently. Not distributing grounds before tamping causes channeling. Use WDT or tap the portafilter sides. Skipping machine warm-up produces under-extracted shots. Allow 15-20 minutes, run a blank shot, and preheat the portafilter."
+    },
+    {
+      "id": "5f37659f0df1199eb88fb5dec81d5f8deb8cdfd74b8b564e31432a68d8044a22",
+      "source": "Milk steaming and frothing across machine types",
+      "kind": "text",
+      "context": "Milk steaming and frothing across machine types"
+    },
+    {
+      "id": "df1defd64f109bbd7d830fb28fcfbc4ae288631178fd0a879bff2b8443930f16",
+      "source": "Manual steam wand technique splits into two phases. Stretching (aeration) happens with the wand tip 1-2mm below the surface, positioned between center and wall at a 20-30 degree angle. Listen for gentle \"ripping paper\" sounds. Continue for 5-10 seconds until volume increases by 20-50%. Complete this phase before milk reaches 99°F (37°C).",
+      "kind": "text",
+      "context": "Manual steam wand technique splits into two phases. Stretching (aeration) happens with the wand tip 1-2mm below the surface, positioned between center and wall at a 20-30 degree angle. Listen for gentle \"ripping paper\" sounds. Continue for 5-10 seconds until volume increases by 20-50%. Complete this phase before milk reaches 99°F (37°C)."
+    },
+    {
+      "id": "7205610b9aa23527a5f7b7ae31ef9d886b9387c1fb2e68fd5a24034df0c0036e",
+      "source": "Texturing (rolling) begins when you raise the pitcher 1cm to submerge the wand deeper. Create a vortex to break down bubbles into microfoam. Target temperature ranges from 140-150°F (60-65°C) for dairy milk. Plant-based milks need 125-135°F (53-57°C), about 10°F lower. Never exceed 160-165°F (71°C) because proteins denature and foam collapses.",
+      "kind": "text",
+      "context": "Texturing (rolling) begins when you raise the pitcher 1cm to submerge the wand deeper. Create a vortex to break down bubbles into microfoam. Target temperature ranges from 140-150°F (60-65°C) for dairy milk. Plant-based milks need 125-135°F (53-57°C), about 10°F lower. Never exceed 160-165°F (71°C) because proteins denature and foam collapses."
+    },
+    {
+      "id": "ee91fe30300bf27aba0c1a70730d9af370fb9e4989a728f37f2040276bff9f47",
+      "source": "Milk type performance",
+      "kind": "text",
+      "context": "Milk type performance"
+    },
+    {
+      "id": "e72ba8e59b48bf68d8196c9e9dfafda60054147b3a69247d40ef550ac82398d6",
+      "source": "Whole milk (3.25-3.5% fat) creates the densest, creamiest foam with smallest, most uniform bubbles. It takes longer to froth but provides the most stable foam. Target 140-155°F for optimal results.",
+      "kind": "text",
+      "context": "Whole milk (3.25-3.5% fat) creates the densest, creamiest foam with smallest, most uniform bubbles. It takes longer to froth but provides the most stable foam. Target 140-155°F for optimal results."
+    },
+    {
+      "id": "23eaf8661b66147fa16617cae9f3edf5026dca4d86ab639b968cd82ac380aa7a",
+      "source": "Do all espresso machines use the same dial-in method?",
+      "kind": "text",
+      "context": "Do all espresso machines use the same dial-in method?"
+    },
+    {
+      "id": "ea95a2eb05b00f2d4facc12f4e88676286db6ef934424f36493a2deb2d1a6333",
+      "source": "No. Semi-automatic and manual machines expose dose, distribution, tamp and yield directly; superautomatics and capsule systems expose a smaller set of strength, volume, temperature or bean settings.",
+      "kind": "text",
+      "context": "No. Semi-automatic and manual machines expose dose, distribution, tamp and yield directly; superautomatics and capsule systems expose a smaller set of strength, volume, temperature or bean settings."
+    },
+    {
+      "id": "26285902c9c574b371a1c9886978b783d8695dd886a023311fa7a2b9ee705114",
+      "source": "What variable should I change first?",
+      "kind": "text",
+      "context": "What variable should I change first?"
+    },
+    {
+      "id": "3c1effc40d9d8f0904d99a754bfe9791cf3b9dc1787b3136efa36f3ebae40f50",
+      "source": "On a manual-portafilter machine, stabilize dose and yield, then correct flow with grind. On an automatic system, use only documented user controls and keep the cleaning state constant while comparing.",
+      "kind": "text",
+      "context": "On a manual-portafilter machine, stabilize dose and yield, then correct flow with grind. On an automatic system, use only documented user controls and keep the cleaning state constant while comparing."
+    },
+    {
+      "id": "9604086030f4e779d01e8b0728949fa68566a13b68ed52d52997a1c9e984a879",
+      "source": "Can technique overcome machine limitations?",
+      "kind": "text",
+      "context": "Can technique overcome machine limitations?"
+    },
+    {
+      "id": "174d6b0b4b71a072955cdcaf0812beda0505dc0d9a55e8b1c9042926fc2c5eed",
+      "source": "Technique can improve repeatability within the machine’s range, but it cannot create missing temperature control, grinder resolution, steam capacity or service access.",
+      "kind": "text",
+      "context": "Technique can improve repeatability within the machine’s range, but it cannot create missing temperature control, grinder resolution, steam capacity or service access."
+    },
+    {
+      "id": "a5c82c0269be8c1a5de5e10365943ca01f5e3220710ee1d9d3f8bf3d727eb346",
+      "source": "This guide classifies technique by the controls each machine type actually exposes. It combines the preserved machine-by-machine article with official espresso recipe and standards context. Recommendations stay within documented user operations and do not imply that closed automatic systems should be modified or that one numerical recipe transfers unchanged between machines.",
+      "kind": "text",
+      "context": "This guide classifies technique by the controls each machine type actually exposes. It combines the preserved machine-by-machine article with official espresso recipe and standards context. Recommendations stay within documented user operations and do not imply that closed automatic systems should be modified or that one numerical recipe transfers unchanged between machines."
+    },
+    {
+      "id": "760f9aef6e6d05523e5d349fd816c659c1e2dd1617915ab1144880e11db4c92f",
+      "source": "Rancilio Silvia home espresso machine with steam wand",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "adc8128405725e55f4f1bd1e8adf5ebe288e22340c8e796563fa19cf7b8350ba",
+      "source": "The classic Silvia illustrates a shared-boiler workflow: brewing and steaming require different heater states. Follow the instructions for the exact version before moving between them. Rancilio product listing · Source · Manufacturer product-identification image; copyright retained. Illustrative, not a Coffeedant test photograph.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "96b048c72ce6d1b1cc37cd76f62e93bade7a46416bcac80a1898aaadfce89db1",
+      "source": "Breville Dual Boiler BES920 espresso machine",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "d3b36cb30e1580211b8cdf5326f2616d606c7b858b95ad68329deceaf4a0a9a1",
+      "source": "The BES920 separates espresso and steam boilers, allowing simultaneous extraction and milk steaming. That changes the sequence of work, not the need for a repeatable coffee recipe. Breville product listing · Source · Manufacturer product-identification image; copyright retained. Illustrative, not a Coffeedant test photograph.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "51a585caf5f9a1f5a5ff13ce47fdf27d1bca0e723fdd85d2aeb58e7c7fa5be39",
+      "source": "Master Espresso Technique for Every Machine Type | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "c82bc7e3d329c760b80e7d20e7624e93c5443fdcf259fd84ed2786fac23a05fd",
+      "source": "Do all espresso machines use the same dial-in method?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "347b0cb369a0f89a4b64453adfe14e0e7a6204088d8cad875b655db8017b0b5c",
+      "source": "No. Semi-automatic and manual machines expose dose, distribution, tamp and yield directly; superautomatics and capsule systems expose a smaller set of strength, volume, temperature or bean settings.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "15acfb6bb33d1665f5caa7f281d1f7814cbce63298983dd26507876ba99b0a7a",
+      "source": "What variable should I change first?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "809039775cb0c046d70a8b5b7301a01a8577071b10b32a84626174577af519fe",
+      "source": "On a manual-portafilter machine, stabilize dose and yield, then correct flow with grind. On an automatic system, use only documented user controls and keep the cleaning state constant while comparing.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "2ae923f7c9a47038a5f0f4b31fcd07ec23fbb7c760df24301bb04f2c061bf740",
+      "source": "Can technique overcome machine limitations?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "5a56184bfc575f4c2d21a9e1df12ee51733caac3e861b4452cee17a1dc06c466",
+      "source": "Technique can improve repeatability within the machine’s range, but it cannot create missing temperature control, grinder resolution, steam capacity or service access.",
+      "kind": "json",
+      "context": "text"
+    }
+  ],
+  "snapshotHash": "7d40d4f15decac05b0b6aa2f29f19640a2568507b832d4cdb6905f79b1b2a8d9"
+}

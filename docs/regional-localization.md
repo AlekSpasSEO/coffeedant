@@ -1407,6 +1407,48 @@ automatic production deployment, live manifests, sitemaps and reciprocal languag
 links after merge. No Amazon API, paid translation API, new credentials, billing,
 DNS changes or subagents are used by this batch.
 
+### Complete espresso-techniques guide in all three editions (2026-10-17)
+
+Batch thirty directly translates the full `/journal/espresso-techniques/` guide
+in NL/DE/FR. Its current visible main contains 4,801 source words and 108
+paragraphs, including the complete preserved machine-by-machine article, shared
+versus independent boiler diagram, two manufacturer photographs and captions,
+bounded Silvia owner evidence, methodology and three visible/structured FAQ
+answers. All machine categories, milk guidance, accessible diagram labels,
+metadata and structured ImageObject captions are included. The immutable
+snapshot has 157 missing slots / 145 distinct source strings; nothing is
+replaced by a summary or an English body exemption.
+
+New stable routes are `/journal/espressotechnieken/`,
+`/journal/espressotechniken/` and `/journal/techniques-expresso/`. Existing routes,
+especially the approved Dutch `/journal/espresso-doseren/`, remain unchanged.
+Source figures, original Fahrenheit/Celsius values, ratios, forces, volumes,
+model identifiers and US dollar amounts remain source facts, not converted local
+offers. English thousands notation has written-out quantities to avoid decimal-
+comma ambiguity. Different Silvia generations and retrofitted hardware are not
+presented as a stock V6 test; manufacturer photos are not Coffeedant test photos.
+The source's documented-control and closed-system limitations remain explicit.
+This translation does not certify, update or broaden legacy technical claims.
+
+All 113 localization tests, analytics, CF-target Finder, product-video and
+brand-navigation validators pass. Three complete generated checks compare the
+entire visible main, all 108 paragraphs, accessible labels, metadata, complete
+FAQ/Article/WebPage/ImageObject prose, original or safely rewritten links,
+executable scripts/runtime, localized dates and unchanged SVG geometry/images.
+All 148 Finder descriptions remain distinct, with unknown regional prices and
+buying links suppressed. These are generated-output/runtime checks, not a new
+browser session, equipment test or measurement claim.
+
+Import adds 157 current entries per edition with zero previous cached text
+changes. The concurrent automatic main-branch cache update is preserved and not
+credited as this direct batch's work. Fresh coverage remains 240 canonical source
+pages / 49,081 unique slots, with 69 ready regular pages plus 404 in each edition.
+Pending slots are NL 41,526, DE 41,407 and FR 41,407; whole editions remain
+incomplete. Keep incremental `ready-pages` publication and verify the automatic
+production deployment, manifests, sitemaps and reciprocal language links after
+merge. No Amazon API, paid translation API, new secrets, billing, DNS changes or
+subagents are used by this batch.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
