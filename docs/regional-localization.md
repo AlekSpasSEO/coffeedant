@@ -1270,6 +1270,56 @@ large video-library body and remaining guides/reviews are still queued; unfinish
 library/article links remain on the English source with the localized notice.
 No DNS, billing, paid translation API or subagent changes are made by this batch.
 
+### Complete espresso-and-drip buying guide (2026-10-17)
+
+Batch twenty-seven completes the entire
+`/coffee-beans/best-coffee-beans-for-espresso-and-drip/` guide in NL/DE/FR.
+The source article contains 2,455 words, including all seven explanatory sections,
+both comparison tables, four full product cards, methodology, source notes,
+final recommendation and seven visible/structured FAQ answers. Headers, metadata,
+author disclosure, accessible labels and structured Article/ItemList/ImageObject
+prose are included. The immutable snapshot has 165 slots / 145 distinct strings.
+One verbatim approval is the exact named Intelligentsia source link with its
+arrow, not a body exemption; all earlier snapshots remain unchanged.
+
+Import adds 89 current entries in NL, 165 in DE and 89 in FR. It also corrects
+72 pre-existing machine-translated entries each in NL/FR, replacing awkward or
+misleading brewing terminology and aligning visible/structured answers. No earlier
+directly authored cache text changes. Proper coffee/roaster names, source facts,
+numbers, link destinations and actual citation markup remain intact. Stable
+registered routes stay `/koffiebonen/beste-koffiebonen-voor-espresso-en-drip/`,
+`/kaffeebohnen/beste-kaffeebohnen-fuer-espresso-und-drip/` and
+`/cafe-en-grains/meilleurs-cafe-en-grains-pour-espresso-et-filtre/` even where
+the displayed title now uses more natural brewing terminology. The approved
+Dutch dosing URL is unchanged.
+
+Hair Bender's near-19.5 g / 24–28 g espresso demonstration remains distinct from
+Counter Culture's 1:17 / 20 g / 340 g filter example. Changing components do not
+become permanent origins, and a grinder's ability to switch methods is not
+assumed. The suggested home trial is reader guidance, not Coffeedant brewing
+or tasting. Black Cat's 18 g / 45 g espresso recipe does not establish daily
+filter suitability. Historical October 14 US prices and illustrative 18 g / 20 g
+cost arithmetic are not converted local offers, total drink costs or value scores.
+No universal automatic-machine compatibility or freshness guarantee is invented.
+
+All 104 localization tests, analytics validation, Cloudflare-target Finder and
+product-video validation pass. Three full generated HTML/JSON checks compare
+entire guide/header text, all five-row/six-row table cells, seven FAQ answers,
+metadata, dates, photo credits/assets/schema IDs, citation anchors, source links,
+unchanged scripts/runtime, locale/canonical/noindex and scoped sitemaps. All four
+guide picks link to their complete regional reviews. The 148 Finder descriptions
+remain distinct and translated; unverifiable prices and Amazon links stay hidden.
+These are generated-output/runtime checks, not a browser or product-testing claim.
+
+The concurrent main-branch Deals repair is preserved. The fresh source contains
+240 canonical pages / 49,062 unique slots. Ready regular pages are NL 67, DE 66
+and FR 66 (plus 404s); pending slots are 41,870 / 41,976 / 41,976. These counts
+include source growth, not an invented translation gain. Whole editions remain
+unfinished. Preserve `published: true` / `publicationMode: ready-pages`, verify
+the automatic production deployment after merge and continue the remaining full
+guides, reviews and video library. No DNS, paid API, billing or subagent changes
+are made by this batch.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
