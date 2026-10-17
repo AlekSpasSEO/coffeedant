@@ -1,5 +1,6 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
+import { amazonApiError } from './lib/amazon-api-error.mjs';
 
 const root = new URL('../', import.meta.url);
 const argument = (name) => {
@@ -102,7 +103,7 @@ const getItems = async (itemIds, condition = 'New') => {
     });
     if (response.ok) return response.json();
     if (response.status !== 429 || attempt === 3) {
-      throw new Error(`Amazon GetItems failed with HTTP ${response.status}.`);
+      throw new Error(amazonApiError('GetItems', response.status, await response.json().catch(() => ({}))));
     }
     await sleep(2 ** attempt * 1500);
   }
