@@ -1,5 +1,14 @@
 # Coffeedant regional publishing
 
+## API-free work authorized October 17, 2026
+
+All Amazon API activity is paused until the user explicitly authorizes resumption.
+Do not read or use its credentials, obtain tokens, test eligibility, refresh
+prices/offers, discover deals, update API recommendations, run regional probes,
+or enable/dispatch disabled Amazon workflows. Older API examples below are not
+current authorization. Continue editorial/localization work, API-free builds
+and validators, and ordinary affiliate links with the existing no-price treatment.
+
 ## Incremental public launch authorized October 16, 2026
 
 The user explicitly approved publishing the completed NL, DE and FR pages now,
@@ -1319,6 +1328,43 @@ unfinished. Preserve `published: true` / `publicationMode: ready-pages`, verify
 the automatic production deployment after merge and continue the remaining full
 guides, reviews and video library. No DNS, paid API, billing or subagent changes
 are made by this batch.
+
+### Complete main espresso-machine guide (2026-10-17)
+
+Batch twenty-eight directly completes `/espresso-machine/` in NL/DE/FR. The
+624-word source main includes its full introduction and decision route, complete
+Finder interface, seven-row comparison table with mobile labels, seven distinct
+starting picks, category/constraint links and all three buying principles.
+Metadata, image alternatives and structured WebPage prose are included. The frozen
+snapshot has 97 slots / 80 distinct strings; four verbatim approvals are exact
+model names only. Import adds 98 current cache entries per edition across kinds,
+with zero previous cached text changed.
+
+The new registered routes are `/espressomachines/`, `/espressomaschinen/` and
+`/machines-expresso/`. Earlier URLs, including the approved Dutch dosing page,
+remain unchanged. Model names and reviewed US variants are not replaced with
+guessed local equivalents. The original `$500` / `$5,000` source-budget scope
+remains dollar-based; the latter has a written-out quantity to avoid decimal-comma
+ambiguity. It does not establish local prices or offers. Separate-grinder needs,
+single-boiler brew/steam waits, limited manual control and different daily routines
+remain explicit rather than becoming a universal ranking.
+
+All 107 localization tests, analytics validation, the CF-target Finder validator
+and product-video validation pass. Three complete generated checks compare the
+entire main text, all table cells/mobile labels, seven cards, metadata/structured
+WebPage, original or safely rewritten links, unchanged authored scripts, exact
+runtime interface, disabled unverified budget controls, locale/canonical/noindex
+and scoped sitemaps. All 148 Finder descriptions remain distinct and translated;
+unknown regional prices and Amazon links stay hidden. The concurrent compact
+flag selector and collapsed regional notices are preserved, not reverted.
+These are generated-output/runtime checks, not a new browser or product test.
+
+The source remains 240 canonical pages / 49,062 unique slots. Ready regular pages
+are NL 68, DE 67 and FR 67, plus their 404s. Pending slots are 41,772 / 41,878 /
+41,878; whole editions remain incomplete. Preserve the incremental publication
+mode, verify the automatic production deployment/live pages after merge and
+continue the remaining full articles. This batch uses no Amazon API, translation
+API, new credentials, paid billing, DNS changes or subagents.
 
 ## Missing configuration
 
