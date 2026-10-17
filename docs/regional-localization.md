@@ -1449,6 +1449,57 @@ production deployment, manifests, sitemaps and reciprocal language links after
 merge. No Amazon API, paid translation API, new secrets, billing, DNS changes or
 subagents are used by this batch.
 
+### Complete conical-versus-flat grinder guide (2026-10-17)
+
+Batch thirty-one directly translates the entire
+`/journal/conical-vs-flat-burr-grinders/` guide into NL/DE/FR. Its current visible
+main contains 4,928 source words and 118 paragraphs, including the full technical
+comparison, fourteen comparison-table rows, eleven practical-check sections with
+twenty-two complete check paragraphs, interactive burr-path diagram, both photo
+captions, bounded owner evidence, methodology, references and three
+visible/structured FAQ answers. The immutable snapshot contains 189 missing slots
+/ 178 distinct strings. Six verbatim approvals are literal SI measurements only;
+no article body is exempted or shortened.
+
+The ordinary grouped translation file retains 172 explicitly authored entries.
+Twenty-two of those are mechanically assembled from authored sentence chunks;
+every complete assembled English paragraph must exactly match the frozen source.
+Existing approved recurring comparison wording is reused, without inference or
+a translation-provider call. Both authored parts and generated paragraphs are
+retained. Import adds 189 current entries per edition with zero prior cached
+text changed.
+
+Stable new routes are `/journal/conische-vs-vlakke-maalschijven/`,
+`/journal/konische-vs-flache-mahlscheiben/` and
+`/journal/meules-coniques-ou-plates/`. Earlier routes, especially the approved
+Dutch `/journal/espresso-doseren/`, remain unchanged. Original model names,
+quantities, source destinations and dollar amounts are preserved, not replaced
+with inferred regional variants or converted offers. Written-out thousands
+clarify English number notation. The four-person household comparison remains
+non-blind, recipe differences stay explicit, photographs do not become
+Coffeedant test evidence and broad category claims do not become new universal
+flavor guarantees. This is not a technical revision or certification of the
+preserved legacy comparison.
+
+All 116 localization tests, analytics, CF-target Finder, product-video and
+brand-navigation validators pass. Three whole-page generated checks compare all
+visible main text, 118 paragraphs, fourteen table rows and mobile labels, eleven
+checks, three complete FAQ answers, metadata, Article/WebPage/ImageObject prose,
+accessible labels, original or safely rewritten links, scripts/runtime, localized
+dates and unchanged SVG geometry/photo assets. All 148 translated Finder
+descriptions remain distinct, with unverifiable regional prices and offers
+suppressed. These are generated-output/runtime checks, not a new browser session
+or physical grinder test.
+
+The concurrent six-review US editorial upgrade is preserved. Current source
+coverage is 240 canonical pages / 49,320 unique slots; its added source text is
+not counted as this batch's translation work. All three editions have 70 ready
+regular pages plus their 404s. Remaining slots are NL 41,573 and DE/FR 41,454
+each. Whole editions remain unfinished. Preserve incremental `ready-pages`
+publication, verify automatic deployment and live manifests/sitemaps/language
+links after merge, and continue the remaining articles. No Amazon API, paid
+translation API, new credentials, billing, DNS changes or subagents are used.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
