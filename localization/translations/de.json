@@ -51024,14 +51024,14 @@
       "text": "Marken für Kaffeeausrüstung: 40 Hersteller entdecken | Coffeedant",
       "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
       "provider": "codex-direct",
-      "authoredFile": "localization/authored/brands-navigation-20261017.json"
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
     },
     "6d84b90fee714b20095f06cb43fc4b7e4a09aacd8539dbb7de4e6f970109c99f": {
       "source": "Coffee Equipment Brands: Browse 40 Manufacturers | Coffeedant",
       "text": "Marken für Kaffeeausrüstung: 40 Hersteller entdecken | Coffeedant",
       "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
       "provider": "codex-direct",
-      "authoredFile": "localization/authored/brands-navigation-20261017.json"
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
     },
     "2079fcc4effc4e4e430a52257240b608e3f08f0cc337f2c16403c2038c4a3b90": {
       "source": "40 manufacturers · one useful map",
@@ -51347,6 +51347,755 @@
       "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
       "provider": "codex-direct",
       "authoredFile": "localization/authored/brands-navigation-20261017.json"
+    },
+    "0eb4c1a200491608f1da1e16414e357705010afae6d6c9c7c9c02d5828e70424": {
+      "source": "Coffee Equipment Brands: Browse 40 Manufacturers | Coffeedant",
+      "text": "Marken für Kaffeeausrüstung: 40 Hersteller entdecken | Coffeedant",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "9c7322beab56564522401443534b4045e0d9e6e2178fe73404c7e1ceee172da4": {
+      "source": "The Home Barista's Guide to Espresso Dosing | Coffeedant",
+      "text": "Espresso dosieren: der Ratgeber für Heimbaristas | Coffeedant",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "9db9219df0680422a9152d96b569c6110a61fe200c342b8bb9ff6c26089bc7a4": {
+      "source": "The Home Barista's Guide to Espresso Dosing | Coffeedant",
+      "text": "Espresso dosieren: der Ratgeber für Heimbaristas | Coffeedant",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "632ae26fecf77a5829a791faf44db86228fe4824573a49bd37a06baad70f6f82": {
+      "source": "Dose is the dry coffee placed in the basket. Make it stable first, because every later adjustment becomes harder to read when the amount of coffee changes from shot to shot.",
+      "text": "Die Dosis ist der trockene Kaffee im Sieb. Halten Sie sie zuerst stabil, denn jede spätere Änderung lässt sich schwerer beurteilen, wenn die Kaffeemenge von Bezug zu Bezug schwankt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "22869bb4c3aeaecc6c71a68ccf674f383f6ad5de2c568e2f08b37ca758d01c81": {
+      "source": "Start near the basket manufacturer’s intended range, weigh the coffee that reaches the basket, keep dose stable while dialing grind and yield, and change dose only for a specific reason such as headspace, basket fit or recipe design.",
+      "text": "Beginnen Sie nahe dem vom Siebhersteller vorgesehenen Bereich, wiegen Sie den tatsächlich im Sieb ankommenden Kaffee, halten Sie die Dosis beim Einstellen von Mahlgrad und Ausbeute konstant und ändern Sie sie nur aus einem konkreten Grund wie Kopfraum, Siebpassung oder Rezeptgestaltung.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "6f39afc8702f19d7c1fc4c30c45bb40a84d2053540a270a968bdfa1d96032659": {
+      "source": "Getting your espresso dose right matters more than almost anything else you'll do at the machine.",
+      "text": "Die richtige Espressodosis zählt mehr als fast alles andere, was Sie an der Maschine tun.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "54ed9a03caddd3755fadf1770a478429c6b59c75c17b9a9e8ecde800cb8cdb23": {
+      "source": "Dose determines extraction quality, flavor balance, and whether that expensive single-origin pulls sweet and complex or sour and thin. Most home baristas chase grind adjustments and fancy gear when their real problem is dosing 16 grams into an 18-gram basket or stuffing 20 grams where 18 belongs. Fix your dose first, and everything else gets easier.",
+      "text": "Die Dosis bestimmt Extraktionsqualität, Geschmacksbalance und ob der teure Single Origin süß und komplex oder sauer und dünn wird. Viele Heimbaristas jagen Mahlgradänderungen und teurem Zubehör nach, obwohl ihr eigentliches Problem 16 Gramm im 18-Gramm-Sieb oder 20 Gramm anstelle von 18 sind. Korrigieren Sie zuerst die Dosis, dann wird alles Weitere leichter.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "28165403cdaf676ef5b33897e790e3c5af0107a30011376739d0160ccaeda8f5": {
+      "source": "Dosing means the weight of ground coffee in your portafilter basket before extraction—nothing more, nothing less. Modern specialty coffee measures in grams using digital scales because volumetric measurements fail when bean density varies between roasts. That dose creates the foundation for your brew ratio, affects water flow resistance through the puck, and determines whether your shot channels or extracts evenly. The science is straightforward: more coffee means more surface area and deeper puck depth, which increases contact time and changes extraction yield. Too little coffee and water rushes through in 15 seconds leaving you sour and disappointed. Too much and the puck smushes against the shower screen causing channeling and bitterness.",
+      "text": "Dosieren bedeutet das Gewicht des Mahlguts im Sieb vor der Extraktion, nicht mehr und nicht weniger. Moderner Spezialitätenkaffee nutzt Gramm und Digitalwaagen, weil Volumenmessungen bei unterschiedlicher Bohnendichte zwischen Röstungen versagen. Die Dosis bildet die Grundlage des Brühverhältnisses, beeinflusst den Wasserwiderstand im Puck und entscheidet mit über Kanäle oder gleichmäßige Extraktion. Das Prinzip ist einfach: Mehr Kaffee bedeutet mehr Oberfläche und einen tieferen Puck, was Kontaktzeit und Extraktionsausbeute verändert. Bei zu wenig Kaffee rauscht Wasser in 15 Sekunden durch und hinterlässt ein saures, enttäuschendes Ergebnis. Bei zu viel drückt der Puck gegen das Duschsieb und verursacht Kanäle und Bitterkeit.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "67bebae4f16d488071f11d90dd49e80533406c43238d0e3885e9215b282c94a4": {
+      "source": "This guide covers everything you need to dose accurately at home—from understanding standard ranges to troubleshooting when things go wrong.",
+      "text": "Dieser Ratgeber erklärt genaues Dosieren zu Hause, von üblichen Bereichen bis zur Fehlersuche.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "1519c03e1ab42640338f5b54f81d27dfce0d9a1340b2381c1159367b9d8367f7": {
+      "source": "Start with the right amount for your basket",
+      "text": "Mit der passenden Menge für Ihr Sieb beginnen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "4dc477d84646a8d2aaa4729086caa07ac01fd4e4b5fc8e7bda881a36d68266d5": {
+      "source": "Single shots call for 7-9 grams but rarely appear in modern specialty coffee due to difficult extraction in single basket geometry. The double shot is your standard, and here the numbers have evolved. Traditional Italian espresso used 14-18 grams, but the contemporary specialty coffee world doses 16-20 grams, with many cafes now using 18-22 grams. According to the Barista Guild of America's survey of 275 professionals, 66% use 18-20 grams as their standard dose with 1:2 ratios producing 36-40 gram yields.",
+      "text": "Einzelbezüge verlangen 7-9 Gramm, sind im modernen Spezialitätenkaffee aber wegen der schwierigen Einzel­siebgeometrie selten. Der Doppelbezug ist der Standard, dessen Zahlen sich verändert haben. Traditioneller italienischer Espresso nutzte 14-18 Gramm; zeitgenössischer Spezialitätenkaffee dosiert 16-20 Gramm, viele Cafés inzwischen 18-22 Gramm. Laut der Befragung von 275 Fachleuten durch die Barista Guild of America verwenden 66% standardmäßig 18-20 Gramm und erzeugen mit 1:2-Verhältnissen 36-40 Gramm Getränk.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "723acd51838264519062bd68c4c2bd364f1e64a5d72a897fb599b6e5e9ccc4b5": {
+      "source": "Your basket size determines your dose range.",
+      "text": "Ihre Siebgröße bestimmt den Dosisbereich.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "4058bd06267a26a7301388364c2e57a8c5c4a489208250d9dfb2db15edba5f4a": {
+      "source": "Most home machines use either 54mm portafilters (Breville, Sage) or 58mm portafilters (commercial-style machines like Rocket, ECM, La Marzocco). The 58mm is the industry standard with better accessory compatibility and slightly more even water distribution due to wider, shallower pucks. A 54mm basket creates deeper pucks for the same dose, requiring slightly finer grind adjustments.",
+      "text": "Die meisten Heimmaschinen verwenden Siebträger mit 54mm (Breville, Sage) oder 58mm (gewerblich geprägte Maschinen wie Rocket, ECM, La Marzocco). 58mm ist der Branchenstandard mit besserer Zubehörkompatibilität und etwas gleichmäßigerer Wasserverteilung durch breitere, flachere Pucks. Ein 54mm-Sieb erzeugt bei gleicher Dosis einen tieferen Puck und benötigt etwas feinere Mahlgradanpassungen.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "7127578f5ad98dc97218744d75eaf9e78e0d4c0c7f3bd5c4b9957b171faef31a": {
+      "source": "Match your dose to your specific basket capacity within 1-2 grams. An 18-gram basket works best with 17-19 grams of coffee. A 20-gram basket wants 19-21 grams. Underdose by more than 2 grams and you'll get soupy pucks with fast channeling. Overdose and the coffee contacts the shower screen, creating uneven extraction and bitter flavors. Leave at least 5-6mm of headspace between your grounds and the portafilter top.",
+      "text": "Passen Sie die Dosis bis auf 1-2 Gramm an die konkrete Siebkapazität an. Ein 18-Gramm-Sieb funktioniert am besten mit 17-19 Gramm, ein 20-Gramm-Sieb verlangt 19-21 Gramm. Bei mehr als 2 Gramm Unterdosierung entstehen matschige Pucks mit schneller Kanalbildung. Bei Überdosierung berührt der Kaffee das Duschsieb und erzeugt ungleichmäßige Extraktion und Bitterkeit. Lassen Sie mindestens 5-6mm Kopfraum zwischen Mahlgut und Siebträgeroberkante.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "431aeb0920a78b692bac11edbcb631ecfc3d272ad648591741db3905aac5bae4": {
+      "source": "Precision baskets from VST and IMS offer straight walls and refined hole patterns that improve consistency. These allow ±1-2 gram dose flexibility around their nominal capacity. If you're serious about espresso quality, upgrading to a precision basket delivers more value than most machine upgrades.",
+      "text": "Präzisionssiebe von VST und IMS haben gerade Wände und verfeinerte Lochmuster für mehr Konstanz. Sie erlauben ±1-2 Gramm Dosisspielraum um die Nennkapazität. Wer Espressoqualität ernst nimmt, erhält durch ein Präzisionssieb mehr Gegenwert als durch die meisten Maschinenaufrüstungen.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "cbb71b0be0cb61eb13072478f5c1f68f966ae1d479bdffcf0eba98319ac7dc72": {
+      "source": "Understanding brew ratios changes everything",
+      "text": "Brühverhältnisse zu verstehen verändert alles",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "3716788c67d674aadb88249cbc4a7d183bac78b1c418cbb7df0675d88fdc98d7": {
+      "source": "Brew ratio describes the relationship between dose and yield—your input coffee weight to output espresso weight. The modern standard is 1:2, meaning 18 grams of coffee produces 36 grams of liquid espresso. This ratio balances sweetness, acidity, and body for most beans and drinkers.",
+      "text": "Das Brühverhältnis beschreibt die Beziehung zwischen Dosis und Ausbeute: eingesetztes Kaffeegewicht zu ausgegebenem Espressogewicht. Der moderne Standard 1:2 bedeutet 18 Gramm Kaffee für 36 Gramm flüssigen Espresso. Dieses Verhältnis balanciert Süße, Säure und Körper für die meisten Bohnen und Trinker.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "f38c2eaf6bb3518ca5794ee93ffb298a60b1d4bcf17fdaa7c7c2245cf4d3f960": {
+      "source": "But ratios are tools, not rules.",
+      "text": "Doch Verhältnisse sind Werkzeuge, keine Regeln.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "f01e6edb655ef791fba606808bfb774f1b391a44525944c79159dca7a23c1d3a": {
+      "source": "Ristretto shots use 1:1 to 1:1.5 ratios",
+      "text": "Ristretti nutzen Verhältnisse von 1:1 bis 1:1.5",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "91ab7b38ac1f9d8dc6119f8b6f3838872da86b0cd5d73a3bd22403c969b64243": {
+      "source": "(18 grams in, 18-27 grams out) creating concentrated, syrupy espresso with heavy mouthfeel. These work brilliantly for dark roasts and milk drinks where you want strong coffee presence.",
+      "text": "(18 Gramm hinein, 18-27 Gramm heraus) und erzeugen konzentrierten, sirupartigen Espresso mit schwerem Mundgefühl. Das funktioniert hervorragend für dunkle Röstungen und Milchgetränke mit kräftiger Kaffeepräsenz.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "2efd1d958e9e2f2f44268d777a017ec2fb971318caaa686d975ebc2a3327f483": {
+      "source": "Normale shots at 1:1.5 to 1:2.5 ratios",
+      "text": "Normale-Bezüge mit Verhältnissen von 1:1.5 bis 1:2.5",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "140f8edbbd892a8a4d82fd6094dde48c5d1fe8e816720db364cd7329fa333a85": {
+      "source": "deliver balanced extractions versatile for straight espresso or milk drinks.",
+      "text": "liefern ausgewogene Extraktionen für puren Espresso oder Milchgetränke.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "40baf57c89d458b8eadf5ed7a513483fa92b922f6e18b5a36529ecbb8647c0b5": {
+      "source": "Lungo shots at 1:3 to 1:4 ratios",
+      "text": "Lungo-Bezüge mit Verhältnissen von 1:3 bis 1:4",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "5c9d9517c9c6602063e1eb47534930230a360d8222fbb61a319d9b4e9a8e9c72": {
+      "source": "pull longer yields emphasizing clarity and origin characteristics, often better for light roasts requiring higher extraction percentages.",
+      "text": "verlängern die Ausbeute mit Fokus auf Klarheit und Herkunftseigenschaften und passen häufig besser zu hellen Röstungen, die höhere Extraktionsanteile benötigen.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "6b4f8cd4d5a26a0a42233d0f191baaf33f7af51f4a35759a03b86570d936e6a4": {
+      "source": "The key principle: changing yield simultaneously affects both strength and extraction. Pull more liquid and you extract more while making the drink weaker. Pull less and you extract less while making it stronger. You cannot separate these variables by adjusting ratio alone. To increase extraction at the same strength, you must grind finer until channeling begins.",
+      "text": "Das Grundprinzip: Eine Ausbeuteänderung verändert gleichzeitig Stärke und Extraktion. Mehr Flüssigkeit bedeutet mehr Extraktion und ein schwächeres Getränk; weniger Flüssigkeit weniger Extraktion und ein stärkeres Getränk. Allein über das Verhältnis lassen sich diese Variablen nicht trennen. Für mehr Extraktion bei gleicher Stärke müssen Sie feiner mahlen, bis Kanalbildung beginnt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "919456ef784ff3aae280d3f41e5edbd9139bad565979d12d7ff4b2b3ce26d8f2": {
+      "source": "Three methods to dose accurately",
+      "text": "Drei Methoden zum genauen Dosieren",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "c9baa20a19adbe9de888d6fbd8cbc2fa11feae0a4e62b8faf179592d4fdcf47c": {
+      "source": "Weighing by scale gives you the gold standard.",
+      "text": "Wiegen mit einer Waage ist der Referenzstandard.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "2f78151336d9d0bbcf265784a70c986274a8e4dec5822cfa91a52c1adb90913e": {
+      "source": "Place your portafilter basket on a scale, tare to zero, and grind until you hit your target weight. Accuracy within 0.1 grams is achievable with decent scales costing $25-80. This method accounts for bean density variations between roasts, enables precise recipe replication, and remains essential for dialing in new coffees. The workflow adds 5-10 seconds but eliminates guesswork entirely. Every serious home barista should weigh doses.",
+      "text": "Stellen Sie das Sieb auf die Waage, tarieren Sie auf null und mahlen Sie bis zum Zielgewicht. Mit ordentlichen Waagen für $25-80 sind 0.1 Gramm Genauigkeit erreichbar. Diese Methode berücksichtigt Dichteunterschiede zwischen Röstungen, ermöglicht präzises Wiederholen und bleibt beim Einstellen neuer Kaffees wesentlich. Sie kostet 5-10 Sekunden, beseitigt aber das Raten vollständig. Jeder ernsthafte Heimbarista sollte Dosen wiegen.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "c202258b588cf2d0ef016577d00c738b971fd3ece758bb839a715533de59822a": {
+      "source": "Dosing by grinder timer works well after calibration. Set your grinder to dispense for a specific duration, then weigh the result to verify accuracy. Adjust the timer in 0.1-0.2 second increments until hitting your target dose consistently. This method suits integrated setups and busy mornings, providing 85-90% accuracy (within 0.25-0.5 grams when calibrated). The downside: you must recalibrate whenever changing beans, grind settings, or experiencing humidity shifts. Bean density changes from roast level or age also impact accuracy.",
+      "text": "Dosieren per Mühlentimer funktioniert nach Kalibrierung gut. Stellen Sie eine feste Mahldauer ein und wiegen Sie das Ergebnis zur Kontrolle. Passen Sie den Timer in Schritten von 0.1-0.2 Sekunden an, bis die Zieldosis konstant erreicht wird. Das passt zu integrierten Systemen und geschäftigen Morgen und bietet 85-90% Genauigkeit (kalibriert innerhalb von 0.25-0.5 Gramm). Der Nachteil: Bei anderen Bohnen, Mahlgraden oder Feuchtigkeitsschwankungen ist neue Kalibrierung nötig. Auch Dichteänderungen durch Röstgrad oder Alter beeinflussen die Genauigkeit.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "58eec5a3eda7d9a0b0adbb799e012a89b176e3970d569b77539987631fcbecb1": {
+      "source": "Dosing by sight relies on basket fill level. Before distribution, grounds should mound approximately 1.25cm above the basket rim. After distribution and tamping, the coffee bed should sit about 6mm below the rim. This traditional method costs nothing and works with any grinder, but accuracy suffers—typically within 0.5-1 gram variance, heavily dependent on bean density and grind size. Professionals note 25% volume variations even with experience. Use this method as a secondary check when weighing, not as your primary technique.",
+      "text": "Dosieren nach Augenmaß nutzt den Füllstand. Vor der Verteilung sollte das Mahlgut etwa 1.25cm über den Siebrand ragen, nach Verteilen und Tampen ungefähr 6mm darunter liegen. Diese traditionelle Methode kostet nichts und funktioniert mit jeder Mühle, verliert aber an Genauigkeit: meist 0.5-1 Gramm Abweichung, stark abhängig von Dichte und Mahlgrad. Fachleute nennen selbst mit Erfahrung 25% Volumenschwankung. Nutzen Sie sie als Zusatzkontrolle beim Wiegen, nicht als Haupttechnik.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "babc81a229dd12b94dfcc209096a071a0bf76b2e642bcb26b922c4ca004ec6e5": {
+      "source": "Dial in by taste, not just time",
+      "text": "Nach Geschmack einstellen, nicht nur nach Zeit",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "cb09137c29c4c80d8bff9440574364a166f0be0b8367030828922429a4c0c367": {
+      "source": "Lock your dose to your basket capacity first—this variable stays fixed during dialing. If using an 18-gram basket, commit to 18 grams and keep it there. Now adjust grind size to achieve a reasonable extraction time, starting around 25-35 seconds as a baseline. Don't obsess over exact timing yet. Some light roasts pull beautifully at 40 seconds while some turbo shots work at 15-20 seconds.",
+      "text": "Legen Sie zuerst die Dosis passend zur Siebkapazität fest und halten Sie sie während des Einstellens konstant. Beim 18-Gramm-Sieb entscheiden Sie sich für 18 Gramm und bleiben dabei. Ändern Sie nun den Mahlgrad für eine vernünftige Extraktionszeit, zunächst etwa 25-35 Sekunden. Fixieren Sie sich noch nicht auf exakte Zeiten. Manche hellen Röstungen gelingen bei 40 Sekunden hervorragend, manche Turbo-Shots bei 15-20 Sekunden.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "1ea13dd9f2b5d7d66240cf7896ed53c031bdc9ec2cf35e62a0699077e3b402fa": {
+      "source": "Taste tells you what to adjust.",
+      "text": "Der Geschmack zeigt, was zu ändern ist.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "dc8d934fd6bf9f0097c722a65a100e79153a24b2a37fad720d2bdcfbf87f92d1": {
+      "source": "A balanced shot shows sweetness, bright acidity without sharpness, complex flavors, and smooth mouthfeel with pleasant aftertaste. Sour shots with thin body and sharp tanginess indicate under-extraction—either from too-coarse grinding or occasionally from underdosing. Bitter shots with dry, astringent mouthfeel signal over-extraction from too-fine grinding or overdosing. The confusing case: tasting both sour and bitter simultaneously means channeling from poor puck preparation, not simple dose or grind issues.",
+      "text": "Ein ausgewogener Bezug zeigt Süße, lebhafte Säure ohne Schärfe, komplexe Aromen und ein glattes Mundgefühl mit angenehmem Nachgeschmack. Saure Bezüge mit dünnem Körper und scharfer Säure deuten auf Unterextraktion durch zu grobes Mahlen oder gelegentlich Unterdosierung. Bittere Bezüge mit trocken-adstringierendem Mundgefühl signalisieren Überextraktion durch zu feines Mahlen oder Überdosierung. Der verwirrende Fall: gleichzeitig sauer und bitter bedeutet Kanalbildung durch schlechte Puckvorbereitung, nicht bloß Dosis- oder Mahlgradprobleme.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "46dc15a80edd32da9b4d7fda26a75e293e61df4a341fe5cb7210f1cb2c7a55d0": {
+      "source": "Start with a 1:2 ratio and adjust based on taste. If sour, increase your yield to 1:2.5 or 1:3, extracting more from the coffee. If bitter, decrease yield to 1:1.5, extracting less. Once your ratio delivers good balance, grind as fine as possible while maintaining that balance. Finer grinding increases extraction, body, and complexity up to the point where channeling begins. Back off one step coarser when flavor declines.",
+      "text": "Beginnen Sie mit 1:2 und passen Sie nach Geschmack an. Bei Säure erhöhen Sie die Ausbeute auf 1:2.5 oder 1:3, um mehr zu extrahieren; bei Bitterkeit senken Sie auf 1:1.5. Sobald das Verhältnis ausgewogen schmeckt, mahlen Sie so fein wie möglich unter Erhalt dieser Balance. Feineres Mahlen steigert Extraktion, Körper und Komplexität bis zum Beginn der Kanalbildung. Gehen Sie bei schlechterem Geschmack einen Schritt gröber.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "53bd3c83a918ae5b7b20141d66a586004fc2557143f85f92733f6855edeef062": {
+      "source": "Adjust dose when you're struggling with extraction despite proper grind settings.",
+      "text": "Ändern Sie die Dosis, wenn die Extraktion trotz passendem Mahlgrad Probleme macht.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "5458e1290a0f19b942a519db57dff1f77e38189a2441b161d5848d7da2ade076": {
+      "source": "Light roasts tasting sour even with long ratios and fine grinds often improve by dosing down 1-2 grams to 16-17 grams. This seems counterintuitive but reduces puck density, allowing water to penetrate dense light-roasted beans more evenly. Conversely, adjust grind not dose when shot timing is simply too fast or slow with proper puck condition.",
+      "text": "Helle Röstungen, die trotz langer Verhältnisse und feiner Mahlung sauer bleiben, profitieren oft von einer um 1-2 Gramm reduzierten Dosis auf 16-17 Gramm. Das scheint widersinnig, senkt aber die Puckdichte und lässt Wasser dichteres helles Röstgut gleichmäßiger durchdringen. Ändern Sie dagegen den Mahlgrad, nicht die Dosis, wenn nur die Bezugszeit bei gutem Puck zu schnell oder langsam ist.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "4b1bd8af8a97e9c08dd817ff4b346e8f6376cc8903af0ca60c8a719e2c039055": {
+      "source": "Common mistakes kill your shots",
+      "text": "Häufige Fehler ruinieren Ihre Bezüge",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "34e0121bbacf2ef6b0b8944bc82d2fa21f32f033d14f34166ed79cf280fb135c": {
+      "source": "Underdosing shows up as soupy pucks, fast extractions under 20 seconds, thin crema, and weak sour taste. Using 14 grams in an 18-gram basket creates excessive headspace between puck and shower screen, letting water flow around the top rather than through evenly. Fix this by increasing dose to match basket capacity. The puck should be firm and dry when knocked out, not muddy and loose.",
+      "text": "Unterdosierung zeigt sich durch matschige Pucks, schnelle Extraktionen unter 20 Sekunden, dünne Crema und schwachen sauren Geschmack. 14 Gramm im 18-Gramm-Sieb lassen übermäßigen Kopfraum, sodass Wasser oben um den Puck statt gleichmäßig hindurchfließt. Erhöhen Sie die Dosis passend zur Siebkapazität. Beim Ausklopfen sollte der Puck fest und trocken sein, nicht schlammig und locker.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "4676e8e77151c52e288e2201223051a05409747832c1c3e3e90faae64150aa05": {
+      "source": "Overdosing reveals itself through shower screen impressions on the spent puck, water pooling on top during extraction, uneven spurting flow, and bitter taste despite reasonable timing. Coffee needs expansion room during extraction. Pack 20 grams into an 18-gram basket and the expanding puck smushes against the screen, creating channels and uneven extraction. Reduce dose by 1-2 grams and leave proper headspace.",
+      "text": "Überdosierung zeigt sich durch Duschsiebabdrücke im verbrauchten Puck, Wasser oben während der Extraktion, ungleichmäßiges Spritzen und Bitterkeit trotz vernünftiger Zeit. Kaffee braucht Ausdehnungsraum. 20 Gramm im 18-Gramm-Sieb drücken den quellenden Puck gegen das Sieb und erzeugen Kanäle und ungleichmäßige Extraktion. Reduzieren Sie um 1-2 Gramm und lassen Sie passenden Kopfraum.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "bdea276f59d404a9132dc35c1ee35f84472562ce14beaeee1870d8d7ed4663d9": {
+      "source": "Uneven distribution causes multiple simultaneous problems",
+      "text": "Ungleichmäßige Verteilung verursacht mehrere Probleme zugleich",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "a67a138319b36351b6f6f19700a0eccb5adebe3d6bcdd2d33aa44d3f46cef7de": {
+      "source": "—spraying from bottomless portafilters, off-center extraction, and confusing flavor profiles mixing sour and bitter notes. Clumpy grounds from your grinder create density variations in the puck. Water finds paths of least resistance, over-extracting some areas while under-extracting others. The solution is WDT: Weiss Distribution Technique using 0.35-0.4mm needles to break up clumps throughout the puck depth. Insert needles vertically to the basket floor, making overlapping circular motions covering the entire surface. Work from outside to center, then center to outside. This takes 5-10 seconds and dramatically improves consistency.",
+      "text": "—Spritzen aus bodenlosen Siebträgern, außermittige Extraktion und verwirrende Profile mit sauren und bitteren Noten. Mühlenklumpen erzeugen Dichteunterschiede. Wasser sucht den geringsten Widerstand und überextrahiert manche Bereiche, während andere unterextrahiert bleiben. Die Lösung ist WDT, die Weiss Distribution Technique mit 0.35-0.4mm-Nadeln zum Aufbrechen von Klumpen durch die Pucktiefe. Führen Sie die Nadeln senkrecht bis zum Siebboden und machen Sie überlappende Kreise über die ganze Fläche. Arbeiten Sie von außen zur Mitte und zurück. Das dauert 5-10 Sekunden und verbessert die Konstanz stark.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "bcc53dc0255b0e73f0c80c91f785a430a0a53a667f5e1afbc3f66f64a37d4acd": {
+      "source": "Adjust your dose for different roasts",
+      "text": "Die Dosis an unterschiedliche Röstungen anpassen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "a85966e67d063f08c91f3a6ec0305b9eb98b801f7cd216be7dc44a00b1e94613": {
+      "source": "Light roasts demand different treatment than dark roasts due to fundamental structural differences. Light-roasted beans stay denser and less porous with lower solubility.",
+      "text": "Helle Röstungen brauchen wegen grundlegender Strukturunterschiede eine andere Behandlung als dunkle. Hell geröstete Bohnen bleiben dichter, weniger porös und geringer löslich.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "e9a93d61609371c118a56a24ea101fd217e7a0e0dede594be047cebd11443a36": {
+      "source": "Dose light roasts at 16-18 grams even in 18-gram baskets.",
+      "text": "Dosieren Sie helle Röstungen mit 16-18 Gramm, auch in 18-Gramm-Sieben.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "b264a75975150435296d252682fda8488329b493650431e2e66661ddbf9179f7": {
+      "source": "This counterintuitive approach reduces puck resistance, allowing water to penetrate dense coffee more evenly. Pull longer ratios (1:2.5 to 1:3) at higher temperatures (203-205°F) with extraction times of 28-40+ seconds. Don't chase the 25-30 second rule with light roasts—some pull best at 45 seconds.",
+      "text": "Dieser scheinbar widersinnige Ansatz senkt den Puckwiderstand und lässt Wasser den dichten Kaffee gleichmäßiger durchdringen. Nutzen Sie längere Verhältnisse (1:2.5 bis 1:3), höhere Temperaturen (203-205°F) und Zeiten von 28-40+ Sekunden. Jagen Sie bei hellen Röstungen nicht der 25-30-Sekunden-Regel nach; manche gelingen bei 45 Sekunden am besten.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "2ec6100c99c41425203371c29b9a59c9dce5d37cd9512998bbd55fcda5cc2f03": {
+      "source": "Dark roasts create porous, easily extracted coffee with lower density. These handle 18-22 grams in standard baskets without extraction issues. Pull shorter ratios (1:1.5 to 1:2) at lower temperatures (199-200°F) with faster times around 20-28 seconds. The higher dose and shorter ratio showcase syrupy texture and chocolate notes while preventing over-extraction and bitterness. Dark roasts need less work to extract—respect that by not over-dosing time or temperature.",
+      "text": "Dunkle Röstungen ergeben porösen, leicht extrahierbaren Kaffee geringerer Dichte. Sie vertragen 18-22 Gramm in Standardsieben ohne Extraktionsprobleme. Nutzen Sie kürzere Verhältnisse (1:1.5 bis 1:2), niedrigere Temperaturen (199-200°F) und schnellere Zeiten um 20-28 Sekunden. Höhere Dosis und kürzeres Verhältnis betonen sirupartige Textur und Schokolade und vermeiden Überextraktion und Bitterkeit. Dunkle Röstungen lassen sich leichter extrahieren; respektieren Sie das und übertreiben Sie Zeit oder Temperatur nicht.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "87b98f11049d03e53e924796e88acc04e200b84f33db2bb6bf1d7a9916cfa4e5": {
+      "source": "The science: roasting breaks down cell structure, increasing porosity and solubility as roast level increases. Dark roasts have roughly 30% more soluble material than light roasts. This explains why identical doses and grinds produce vastly different results between roast levels. Always adjust dose based on roast darkness, bean origin, and your specific taste preferences.",
+      "text": "Die Erklärung: Rösten baut Zellstruktur ab; mit steigendem Röstgrad nehmen Porosität und Löslichkeit zu. Dunkle Röstungen enthalten ungefähr 30% mehr lösliches Material als helle. Deshalb liefern gleiche Dosen und Mahlgrade je nach Röstgrad sehr unterschiedliche Ergebnisse. Passen Sie die Dosis immer an Röstgrad, Herkunft und persönliche Vorlieben an.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "4777a593a4f149f7bd537a824c745217731c5ae6763de36119a8c68dc1d34875": {
+      "source": "Troubleshooting starts with the puck",
+      "text": "Fehlersuche beginnt beim Puck",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "f804a776f9608aed2d66f4b7b2f4ce925b432a0285ca04842794e99c89f2a44a": {
+      "source": "Inspect your spent puck after every shot during dialing. A shower screen impression signals overdosing—reduce by 1-2 grams. A soupy, muddy puck indicates underdosing—increase dose to match basket capacity. Visible holes, cracks, or uneven wetness point to distribution problems requiring better WDT technique. An even, firm, dry puck suggests proper dosing, shifting troubleshooting to grind size or ratio adjustments.",
+      "text": "Prüfen Sie beim Einstellen nach jedem Bezug den verbrauchten Puck. Ein Duschsiebabdruck signalisiert Überdosierung: 1-2 Gramm weniger. Ein matschiger Puck deutet auf Unterdosierung: bis zur Siebkapazität erhöhen. Sichtbare Löcher, Risse oder ungleichmäßige Nässe weisen auf Verteilungsprobleme und bessere WDT hin. Ein gleichmäßiger, fester, trockener Puck spricht für passende Dosierung; suchen Sie dann bei Mahlgrad oder Verhältnis weiter.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "3410ac8da8d331c1e6f2b23c248ecc88828b9693322d059de6923ef1dd4227f1": {
+      "source": "Use bottomless portafilters to see channeling directly.",
+      "text": "Nutzen Sie bodenlose Siebträger, um Kanalbildung direkt zu sehen.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "cca41eb9439de915a7a5214904c3779f3350d0c92a658ad6faf4372c092ccc2c": {
+      "source": "Multiple thin streams, spurting, or gaps showing metal basket through crema all indicate problems. Even extraction shows a single thick stream from the center blonding evenly. Channeling often comes from dose-basket mismatches or poor distribution, not grind issues.",
+      "text": "Mehrere dünne Strahlen, Spritzen oder durch die Crema sichtbares Siebmetall deuten auf Probleme. Gleichmäßige Extraktion zeigt einen dicken mittigen Strahl mit gleichmäßigem Aufhellen. Kanalbildung entsteht oft durch unpassende Dosis und Sieb oder schlechte Verteilung, nicht durch den Mahlgrad.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "cc7f1ef8cbeaf364a56177f80bfcaae5917209bdfcbda76d5674ff777460c678": {
+      "source": "When light roasts won't extract properly despite fine grinding and long ratios, try reducing dose rather than grinding finer. When dark roasts taste bitter at normal timing with proper puck condition, reduce dose or shorten ratio. When shot timing varies wildly with consistent dose, suspect grinder or distribution issues. Fix dose first, distribution second, then adjust grind and ratio.",
+      "text": "Extrahieren helle Röstungen trotz feiner Mahlung und langer Verhältnisse nicht richtig, reduzieren Sie die Dosis statt feiner zu mahlen. Schmecken dunkle Röstungen bei normaler Zeit und gutem Puck bitter, senken Sie die Dosis oder verkürzen das Verhältnis. Schwankt die Zeit bei konstanter Dosis stark, verdächtigen Sie Mühle oder Verteilung. Zuerst Dosis, dann Verteilung, dann Mahlgrad und Verhältnis korrigieren.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "169f753c475530aa6bd509c7abe8259f2695ccd01de26ef44c6caafa1d818275": {
+      "source": "Invest in the right tools",
+      "text": "In die richtigen Werkzeuge investieren",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "ad5d5d56e2371dc62469f898905dcad7293825f73f364723e4655bedb51570b3": {
+      "source": "Digital scales range from $20-$300 but you don't need premium models to start. The SearchPean Tiny 2S ($25-35) or Timemore Black Mirror Mini ($60-80) deliver 0.1-gram precision adequate for home use. Budget $20-40 scales work fine for beginners. Mid-tier options ($40-80) add features like auto-timers and flow rate displays. The Acaia Lunar ($250) represents the professional standard with waterproof construction and Bluetooth connectivity, but most home baristas get 95% of the benefit from $30 scales.",
+      "text": "Digitalwaagen kosten $20-$300, doch zum Einstieg brauchen Sie kein Premiummodell. SearchPean Tiny 2S ($25-35) oder Timemore Black Mirror Mini ($60-80) bieten für zu Hause ausreichende 0.1-Gramm-Präzision. Budgetwaagen für $20-40 genügen Einsteigern. Die Mittelklasse ($40-80) ergänzt Autotimer und Flussanzeigen. Acaia Lunar ($250) gilt mit wasserdichter Bauweise und Bluetooth als Profistandard, doch die meisten Heimbaristas erhalten 95% des Nutzens mit einer $30-Waage.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "059b65a469adf94d57cc5610db2dee212c924e961453fe76e51e43fd21f7f3db": {
+      "source": "Dosing funnels prevent spillage and enable clean WDT technique. These magnetic rings attach to your portafilter basket rim—make sure to match your basket diameter (51mm, 54mm, or 58mm). Expect to spend $10-25 for quality options. The funnel stays on during grinding and WDT, comes off before tamping.",
+      "text": "Dosiertrichter vermeiden Verluste und ermöglichen saubere WDT. Die Magnetringe sitzen auf dem Siebrand; achten Sie auf den Durchmesser (51mm, 54mm oder 58mm). Gute Varianten kosten $10-25. Der Trichter bleibt beim Mahlen und WDT aufgesetzt und wird vor dem Tampen entfernt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "46e6d1c8a05313c07b1f1e49b5553afdbea658f601b950165c1998636ae0945c": {
+      "source": "WDT tools matter more than distribution levelers.",
+      "text": "WDT-Werkzeuge zählen mehr als Verteilleveler.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "434487b6d21a46349efee02340b6a283934717606fac5f08d0561dbba2428ce8": {
+      "source": "Look for 6-9 needles at 0.35-0.4mm diameter in a pentagon pattern with center needle. Needles must reach your basket floor (50mm length standard). The Normcore WDT Tool V2 ($25-35) offers professional build quality, while generic Amazon tools ($15-25) work adequately for beginners. Distribution levelers look attractive but research shows they can decrease extraction yield compared to doing nothing—they level surface coffee without distributing through depth. Skip levelers and prioritize WDT instead.",
+      "text": "Suchen Sie 6-9 Nadeln mit 0.35-0.4mm Durchmesser in Fünfeckanordnung mit Mittelnadel. Sie müssen den Siebboden erreichen (50mm Standardlänge). Das Normcore WDT Tool V2 ($25-35) bietet professionelle Verarbeitung; generische Amazon-Werkzeuge ($15-25) genügen Einsteigern. Leveler sehen gut aus, können laut Forschung aber die Extraktionsausbeute gegenüber Nichtstun senken: Sie ebnen die Oberfläche, verteilen jedoch nicht in der Tiefe. Lassen Sie Leveler weg und priorisieren Sie WDT.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "a2b180edf4a751f71e305f3a97f2e3cd3a8b5f2a4b745bca0e3290a14e357243": {
+      "source": "A complete starter dosing kit costs $50-80: budget scale ($25-35), magnetic funnel ($10-15), and WDT tool ($15-30). This delivers immediately measurable improvement in shot consistency and flavor.",
+      "text": "Ein vollständiges Dosier-Einsteigerset kostet $50-80: Budgetwaage ($25-35), Magnettrichter ($10-15) und WDT-Werkzeug ($15-30). Das bringt unmittelbar messbare Verbesserungen bei Konstanz und Geschmack.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "59c66e538535d920e3e955674a26a5578b58d460ea21a18c3992ba85dc955161": {
+      "source": "Getting it right means tasting it right",
+      "text": "Richtig dosieren heißt richtig verkosten",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "ad75a2d0d2cf68c28bed8b2fd033722731639aba460b15e31520974c20349287": {
+      "source": "Dosing isn't about following rules—it's about understanding how weight, resistance, and extraction interact in your specific setup with your specific beans. The 18-gram dose isn't sacred. The 1:2 ratio isn't mandatory. The 25-30 second window isn't absolute. These numbers provide starting points for exploration based on decades of professional experience.",
+      "text": "Dosieren heißt nicht Regeln befolgen, sondern das Zusammenspiel von Gewicht, Widerstand und Extraktion mit Ihrer Ausstattung und Ihren Bohnen verstehen. Die 18-Gramm-Dosis ist nicht heilig, 1:2 nicht verpflichtend und das 25-30-Sekunden-Fenster nicht absolut. Diese Zahlen sind Ausgangspunkte für die Erkundung auf Basis jahrzehntelanger Berufserfahrung.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "20a19456a939849de1e6173affccba78d1a190a98b54720a156c0be392b90b8e": {
+      "source": "Your best dose balances three factors: basket capacity (physical constraint), bean characteristics (roast level and density), and desired flavor profile (strength and extraction level). Match dose to basket first, adjust for roast level second, then fine-tune by taste third. Keep dose locked during daily dialing, using grind size as your primary adjustment tool. Change dose only when switching roast levels, addressing puck preparation issues, or after optimizing grind without achieving good extraction.",
+      "text": "Ihre beste Dosis balanciert drei Faktoren: Siebkapazität als physische Grenze, Bohneneigenschaften wie Röstgrad und Dichte sowie das gewünschte Profil aus Stärke und Extraktion. Passen Sie zuerst ans Sieb, dann an die Röstung an und verfeinern Sie zuletzt nach Geschmack. Halten Sie die Dosis beim täglichen Einstellen fest und nutzen Sie primär den Mahlgrad. Ändern Sie die Dosis nur bei anderem Röstgrad, Puckproblemen oder wenn optimierter Mahlgrad keine gute Extraktion liefert.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "b6ac275edf8b2f12d8a23c71712b848535f73e3d6cbe935400df28bf245743b4": {
+      "source": "Weigh every dose. Distribute thoroughly with WDT. Leave proper headspace. Inspect the spent puck. Taste critically and adjust based on what you're experiencing, not what you think should be happening. Master these fundamentals and you'll pull consistently excellent espresso at home, regardless of whether you spent $500 or $5,000 on equipment. The coffee in your basket matters infinitely more than the machine under your portafilter.",
+      "text": "Wiegen Sie jede Dosis, verteilen Sie gründlich mit WDT, lassen Sie passenden Kopfraum und prüfen Sie den verbrauchten Puck. Verkosten Sie kritisch und reagieren Sie auf Ihre tatsächliche Erfahrung, nicht auf Erwartungen. Mit diesen Grundlagen gelingt zu Hause konstant guter Espresso, unabhängig davon, ob die Ausstattung $500 oder $5,000, also fünftausend Dollar, kostete. Der Kaffee im Sieb zählt unendlich mehr als die Maschine darunter.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "1851fcd1bd497b2cc800e2d0eaa56ca3813710bfaab669cbe2f413f6c1b935c8": {
+      "source": "Start with the basket, not a universal number",
+      "text": "Beim Sieb beginnen, nicht bei einer universellen Zahl",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "397698420ec74d6fce1014a58824e620d3507239e7bf2d97a99c6bb36afe094e": {
+      "source": "A nominal double basket gives a useful range, but roast density and basket geometry determine the practical dose. Treat this as a controlled comparison, not permission to change every variable at once. Keep basket, coffee and grinder stable, record dry dose, tamped headspace and any screen contact, and repeat the same routine before deciding that the difference is real. A single unusually good or bad result can come from preparation, temperature, retained coffee, bean age, or simple measurement error. The useful question is whether the result repeats when the setup and order of work remain the same.",
+      "text": "Ein nominelles Doppelsieb gibt einen nützlichen Bereich vor, doch Röstdichte und Siebgeometrie bestimmen die praktische Dosis. Behandeln Sie das als kontrollierten Vergleich, nicht als Erlaubnis, alle Variablen gleichzeitig zu ändern. Halten Sie Sieb, Kaffee und Mühle konstant, dokumentieren Sie Trockendosis, Kopfraum nach dem Tampen und möglichen Siebkontakt und wiederholen Sie die Routine, bevor Sie den Unterschied für echt halten. Ein einzelnes ungewöhnlich gutes oder schlechtes Ergebnis kann durch Vorbereitung, Temperatur, zurückgehaltenen Kaffee, Bohnenalter oder bloße Messfehler entstehen. Die nützliche Frage lautet, ob sich das Ergebnis bei gleicher Ausstattung und Arbeitsfolge wiederholt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "34fbe5cbb36c1a33d36e962b397ce5ce5fa421af3bcc0482dabc6d7ad5234908": {
+      "source": "Begin near the maker’s rating, lock in the portafilter, and inspect for obvious contact before increasing the dose. If the result moves in the expected direction, keep the change long enough to taste it across several preparations. If it does not, return to the baseline before trying another correction. More coffee can reduce headspace and slow flow without improving extraction. That distinction prevents a convenient explanation from becoming a false rule. Keep the lowest dose that prepares cleanly and supports the intended recipe. Write down the final setting and the reason for keeping it; a short decision record is more valuable than a perfect-looking number that cannot be reproduced tomorrow.",
+      "text": "Beginnen Sie nahe der Herstellerangabe, spannen Sie den Siebträger ein und prüfen Sie vor einer Dosiserhöhung auf offensichtlichen Kontakt. Bewegt sich das Ergebnis in die erwartete Richtung, behalten Sie die Änderung lange genug bei, um sie über mehrere Zubereitungen zu verkosten. Andernfalls kehren Sie zur Ausgangseinstellung zurück, bevor Sie eine weitere Korrektur versuchen. Mehr Kaffee kann Kopfraum verringern und Fluss bremsen, ohne die Extraktion zu verbessern. Diese Unterscheidung verhindert, dass eine bequeme Erklärung zur falschen Regel wird. Behalten Sie die niedrigste Dosis, die sich sauber vorbereiten lässt und das beabsichtigte Rezept trägt. Notieren Sie die endgültige Einstellung und den Grund dafür; eine kurze Entscheidungsnotiz ist wertvoller als eine perfekt wirkende Zahl, die sich morgen nicht wiederholen lässt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "876188c2d3026a5a1ad61c3cfe973bdf77fb8f0598fff67af6d34fb4e22a2699": {
+      "source": "Measure what reaches the basket",
+      "text": "Messen, was im Sieb ankommt",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "8cfe253ce737ca0dfe662947511147d18ed1a71182ed727c13768ab654a53944": {
+      "source": "A timed grinder setting is a delivery instruction, not proof of the final dose. Treat this as a controlled comparison, not permission to change every variable at once. Keep bean supply and grind setting stable, record basket mass after grinding, and repeat the same routine before deciding that the difference is real. A single unusually good or bad result can come from preparation, temperature, retained coffee, bean age, or simple measurement error. The useful question is whether the result repeats when the setup and order of work remain the same.",
+      "text": "Eine zeitgesteuerte Mühleneinstellung ist eine Ausgabeanweisung, kein Beweis der endgültigen Dosis. Behandeln Sie das als kontrollierten Vergleich, nicht als Erlaubnis, alle Variablen gleichzeitig zu ändern. Halten Sie Bohnenvorrat und Mahlgradeinstellung stabil, notieren Sie die Siebmasse nach dem Mahlen und wiederholen Sie die Routine, bevor Sie den Unterschied für echt halten. Ein einzelnes ungewöhnlich gutes oder schlechtes Ergebnis kann durch Vorbereitung, Temperatur, zurückgehaltenen Kaffee, Bohnenalter oder bloße Messfehler entstehen. Die nützliche Frage lautet, ob sich das Ergebnis bei gleicher Ausstattung und Arbeitsfolge wiederholt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "b47b17db0409cd9b4de61c39b253eb54d185270577d95a3fb992a1f0ef713dd9": {
+      "source": "Weigh the portafilter before and after grinding until the delivery variance is understood. If the result moves in the expected direction, keep the change long enough to taste it across several preparations. If it does not, return to the baseline before trying another correction. Retention and exchange can make the first dose after an adjustment different from later doses. That distinction prevents a convenient explanation from becoming a false rule. Once delivery is stable, use the simplest routine that stays within the chosen tolerance. Write down the final setting and the reason for keeping it; a short decision record is more valuable than a perfect-looking number that cannot be reproduced tomorrow.",
+      "text": "Wiegen Sie den Siebträger vor und nach dem Mahlen, bis Sie die Ausgabeschwankung verstehen. Bewegt sich das Ergebnis in die erwartete Richtung, behalten Sie die Änderung lange genug bei, um sie über mehrere Zubereitungen zu verkosten. Andernfalls kehren Sie zur Ausgangseinstellung zurück, bevor Sie eine weitere Korrektur versuchen. Retention und Austausch können die erste Dosis nach einer Änderung von späteren Dosen unterscheiden. Diese Unterscheidung verhindert, dass eine bequeme Erklärung zur falschen Regel wird. Ist die Ausgabe stabil, nutzen Sie die einfachste Routine innerhalb der gewählten Toleranz. Notieren Sie die endgültige Einstellung und den Grund dafür; eine kurze Entscheidungsnotiz ist wertvoller als eine perfekt wirkende Zahl, die sich morgen nicht wiederholen lässt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "ea5ecd31a3cc94b9300f448f9d5a8f0c729dd5657e1bfa1c674a48845cb02704": {
+      "source": "Choose a useful tolerance",
+      "text": "Eine sinnvolle Toleranz wählen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "24b8de1860c5e9242e7721ad6224257222d4fae7485eaf593cc2ba41a7a2e20d": {
+      "source": "Chasing every hundredth of a gram can add work without changing the cup. Treat this as a controlled comparison, not permission to change every variable at once. Keep scale, dose target and workflow stable, record variance over five normal preparations, and repeat the same routine before deciding that the difference is real. A single unusually good or bad result can come from preparation, temperature, retained coffee, bean age, or simple measurement error. The useful question is whether the result repeats when the setup and order of work remain the same.",
+      "text": "Jedem Hundertstelgramm nachzujagen kann Arbeit schaffen, ohne die Tasse zu verändern. Behandeln Sie das als kontrollierten Vergleich, nicht als Erlaubnis, alle Variablen gleichzeitig zu ändern. Halten Sie Waage, Dosisziel und Ablauf konstant, dokumentieren Sie die Schwankung über fünf normale Zubereitungen und wiederholen Sie die Routine, bevor Sie den Unterschied für echt halten. Ein einzelnes ungewöhnlich gutes oder schlechtes Ergebnis kann durch Vorbereitung, Temperatur, zurückgehaltenen Kaffee, Bohnenalter oder bloße Messfehler entstehen. Die nützliche Frage lautet, ob sich das Ergebnis bei gleicher Ausstattung und Arbeitsfolge wiederholt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "ae1f104d599d12935c8d900b99ae48cd99a34fbe2f77e082c0b96a03bd9b2efc": {
+      "source": "Set a tolerance the scale can resolve and the grinder can deliver, then test whether larger misses change flow. If the result moves in the expected direction, keep the change long enough to taste it across several preparations. If it does not, return to the baseline before trying another correction. Precision should support repeatability, not become a ritual detached from taste. That distinction prevents a convenient explanation from becoming a false rule. Stop correcting tiny differences when they do not move the beverage in a repeatable way. Write down the final setting and the reason for keeping it; a short decision record is more valuable than a perfect-looking number that cannot be reproduced tomorrow.",
+      "text": "Wählen Sie eine von der Waage auflösbare und der Mühle lieferbare Toleranz und prüfen Sie, ob größere Abweichungen den Fluss ändern. Bewegt sich das Ergebnis in die erwartete Richtung, behalten Sie die Änderung lange genug bei, um sie über mehrere Zubereitungen zu verkosten. Andernfalls kehren Sie zur Ausgangseinstellung zurück, bevor Sie eine weitere Korrektur versuchen. Präzision soll Wiederholbarkeit unterstützen, nicht zum geschmacksfernen Ritual werden. Diese Unterscheidung verhindert, dass eine bequeme Erklärung zur falschen Regel wird. Korrigieren Sie winzige Unterschiede nicht weiter, wenn sie das Getränk nicht reproduzierbar verändern. Notieren Sie die endgültige Einstellung und den Grund dafür; eine kurze Entscheidungsnotiz ist wertvoller als eine perfekt wirkende Zahl, die sich morgen nicht wiederholen lässt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "c2ee706e79925f8f3415ea8d11cdd4a5fd130a2e7efa5fa71d25653109e1adae": {
+      "source": "Hold dose while changing grind",
+      "text": "Dosis beim Mahlgradwechsel halten",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "0d6f763ff5e78b355355a6353d2e2ad949082d9bda85f3652fb31e532076fff0": {
+      "source": "Dose and grind both change puck resistance, so moving both hides the cause of a faster or slower shot. Treat this as a controlled comparison, not permission to change every variable at once. Keep dose, yield and temperature stable, record shot time, flow and taste, and repeat the same routine before deciding that the difference is real. A single unusually good or bad result can come from preparation, temperature, retained coffee, bean age, or simple measurement error. The useful question is whether the result repeats when the setup and order of work remain the same.",
+      "text": "Dosis und Mahlgrad ändern beide den Puckwiderstand; beide zugleich zu ändern verschleiert die Ursache eines schnelleren oder langsameren Bezugs. Behandeln Sie das als kontrollierten Vergleich, nicht als Erlaubnis, alle Variablen gleichzeitig zu ändern. Halten Sie Dosis, Ausbeute und Temperatur konstant, notieren Sie Bezugszeit, Fluss und Geschmack und wiederholen Sie die Routine, bevor Sie den Unterschied für echt halten. Ein einzelnes ungewöhnlich gutes oder schlechtes Ergebnis kann durch Vorbereitung, Temperatur, zurückgehaltenen Kaffee, Bohnenalter oder bloße Messfehler entstehen. Die nützliche Frage lautet, ob sich das Ergebnis bei gleicher Ausstattung und Arbeitsfolge wiederholt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "b39ddf79bf118bc88e2d735514171cbfd80baec529418bc6d3e37ae2b7ddf6d0": {
+      "source": "Correct a fast or slow baseline primarily with grind while returning to the same dry dose. If the result moves in the expected direction, keep the change long enough to taste it across several preparations. If it does not, return to the baseline before trying another correction. A stable input turns time into a more useful diagnostic rather than a target achieved by accident. That distinction prevents a convenient explanation from becoming a false rule. Change dose only after grind adjustment cannot solve the specific preparation or headspace problem. Write down the final setting and the reason for keeping it; a short decision record is more valuable than a perfect-looking number that cannot be reproduced tomorrow.",
+      "text": "Korrigieren Sie einen zu schnellen oder langsamen Ausgangsbezug primär über den Mahlgrad bei stets gleicher Trockendosis. Bewegt sich das Ergebnis in die erwartete Richtung, behalten Sie die Änderung lange genug bei, um sie über mehrere Zubereitungen zu verkosten. Andernfalls kehren Sie zur Ausgangseinstellung zurück, bevor Sie eine weitere Korrektur versuchen. Eine stabile Eingangsmenge macht Zeit zum nützlicheren Diagnosewert statt zum zufällig erreichten Ziel. Diese Unterscheidung verhindert, dass eine bequeme Erklärung zur falschen Regel wird. Ändern Sie die Dosis erst, wenn Mahlgradkorrekturen das konkrete Vorbereitungs- oder Kopfraumproblem nicht lösen. Notieren Sie die endgültige Einstellung und den Grund dafür; eine kurze Entscheidungsnotiz ist wertvoller als eine perfekt wirkende Zahl, die sich morgen nicht wiederholen lässt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "0b6966b5a1c590e3559a13ea75ff219c1f3cce24bb8cd3675159b259c9d7a037": {
+      "source": "Pair dose with beverage yield",
+      "text": "Dosis und Getränkeausbeute verbinden",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "acf7dc6dc39c60014f370d9c562860c7be5a5172d98a6c7e064e84a9d63a3ec2": {
+      "source": "Eighteen grams is not a complete recipe without the amount of espresso collected. Treat this as a controlled comparison, not permission to change every variable at once. Keep dose and cup position stable, record beverage mass and ratio, and repeat the same routine before deciding that the difference is real. A single unusually good or bad result can come from preparation, temperature, retained coffee, bean age, or simple measurement error. The useful question is whether the result repeats when the setup and order of work remain the same.",
+      "text": "Achtzehn Gramm sind ohne gesammelte Espressomenge kein vollständiges Rezept. Behandeln Sie das als kontrollierten Vergleich, nicht als Erlaubnis, alle Variablen gleichzeitig zu ändern. Halten Sie Dosis und Tassenposition stabil, notieren Sie Getränkemasse und Verhältnis und wiederholen Sie die Routine, bevor Sie den Unterschied für echt halten. Ein einzelnes ungewöhnlich gutes oder schlechtes Ergebnis kann durch Vorbereitung, Temperatur, zurückgehaltenen Kaffee, Bohnenalter oder bloße Messfehler entstehen. Die nützliche Frage lautet, ob sich das Ergebnis bei gleicher Ausstattung und Arbeitsfolge wiederholt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "27eaf7658710dea41e32074afb21f302db76e9446e4f64c8f3f9622ea64d4fcd": {
+      "source": "Place the cup on a scale, tare it, and stop the shot at a chosen yield before judging the result. If the result moves in the expected direction, keep the change long enough to taste it across several preparations. If it does not, return to the baseline before trying another correction. The same dose can produce a concentrated ristretto or a longer, more dilute espresso. That distinction prevents a convenient explanation from becoming a false rule. Keep a ratio only while it serves the coffee and drink style. Write down the final setting and the reason for keeping it; a short decision record is more valuable than a perfect-looking number that cannot be reproduced tomorrow.",
+      "text": "Stellen Sie die Tasse auf eine Waage, tarieren Sie und stoppen Sie bei gewählter Ausbeute, bevor Sie urteilen. Bewegt sich das Ergebnis in die erwartete Richtung, behalten Sie die Änderung lange genug bei, um sie über mehrere Zubereitungen zu verkosten. Andernfalls kehren Sie zur Ausgangseinstellung zurück, bevor Sie eine weitere Korrektur versuchen. Dieselbe Dosis kann einen konzentrierten Ristretto oder einen längeren, verdünnteren Espresso erzeugen. Diese Unterscheidung verhindert, dass eine bequeme Erklärung zur falschen Regel wird. Behalten Sie ein Verhältnis nur, solange es zu Kaffee und Getränkestil passt. Notieren Sie die endgültige Einstellung und den Grund dafür; eine kurze Entscheidungsnotiz ist wertvoller als eine perfekt wirkende Zahl, die sich morgen nicht wiederholen lässt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "b3412b5adea334ab85fc616ed9091a37fcbdb9fca805bab2faa0430190965ac9": {
+      "source": "Account for roast density",
+      "text": "Röstdichte berücksichtigen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "bc374a565b2408739fa6a715f4c596d6a7174658086c1d13ce6b3fc2ac988115": {
+      "source": "Darker coffee generally occupies more basket volume at the same mass than a denser light roast. Treat this as a controlled comparison, not permission to change every variable at once. Keep basket and target ratio stable, record headspace, puck condition and flow, and repeat the same routine before deciding that the difference is real. A single unusually good or bad result can come from preparation, temperature, retained coffee, bean age, or simple measurement error. The useful question is whether the result repeats when the setup and order of work remain the same.",
+      "text": "Dunkler Kaffee nimmt bei gleicher Masse gewöhnlich mehr Siebvolumen ein als eine dichtere helle Röstung. Behandeln Sie das als kontrollierten Vergleich, nicht als Erlaubnis, alle Variablen gleichzeitig zu ändern. Halten Sie Sieb und Zielverhältnis stabil, dokumentieren Sie Kopfraum, Puckzustand und Fluss und wiederholen Sie die Routine, bevor Sie den Unterschied für echt halten. Ein einzelnes ungewöhnlich gutes oder schlechtes Ergebnis kann durch Vorbereitung, Temperatur, zurückgehaltenen Kaffee, Bohnenalter oder bloße Messfehler entstehen. Die nützliche Frage lautet, ob sich das Ergebnis bei gleicher Ausstattung und Arbeitsfolge wiederholt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "23b9be6d5f1a63b8ffb16f085447b9adcc01a17fe7e7c4648815a467931cd60a": {
+      "source": "When changing roast style, return to the basket range and reassess headspace instead of copying the old dose blindly. If the result moves in the expected direction, keep the change long enough to taste it across several preparations. If it does not, return to the baseline before trying another correction. A volume difference does not mean one roast deserves an arbitrary larger or smaller number. That distinction prevents a convenient explanation from becoming a false rule. Choose the dose that fits the basket and supports an even, repeatable extraction. Write down the final setting and the reason for keeping it; a short decision record is more valuable than a perfect-looking number that cannot be reproduced tomorrow.",
+      "text": "Kehren Sie bei anderem Röststil zum Siebbereich zurück und prüfen Sie den Kopfraum neu, statt die alte Dosis blind zu übernehmen. Bewegt sich das Ergebnis in die erwartete Richtung, behalten Sie die Änderung lange genug bei, um sie über mehrere Zubereitungen zu verkosten. Andernfalls kehren Sie zur Ausgangseinstellung zurück, bevor Sie eine weitere Korrektur versuchen. Ein Volumenunterschied bedeutet nicht, dass eine Röstung eine beliebig größere oder kleinere Zahl verdient. Diese Unterscheidung verhindert, dass eine bequeme Erklärung zur falschen Regel wird. Wählen Sie die zum Sieb passende Dosis für gleichmäßige, wiederholbare Extraktion. Notieren Sie die endgültige Einstellung und den Grund dafür; eine kurze Entscheidungsnotiz ist wertvoller als eine perfekt wirkende Zahl, die sich morgen nicht wiederholen lässt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "3eadb316c484ea7b32333aee8c0f8cccefe1fe69711329403d9e75a56a2ee028": {
+      "source": "Check headspace without reading the wet puck",
+      "text": "Kopfraum prüfen, ohne den nassen Puck zu deuten",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "90b1617a9cec2ccca077c1d42ecefcf52d41c9c27fb426e3269fa2f07e6f1ce3": {
+      "source": "A soupy or dry spent puck is not a reliable quality score by itself. Treat this as a controlled comparison, not permission to change every variable at once. Keep dose and preparation stable, record dry clearance before brewing and any clear shower-screen imprint, and repeat the same routine before deciding that the difference is real. A single unusually good or bad result can come from preparation, temperature, retained coffee, bean age, or simple measurement error. The useful question is whether the result repeats when the setup and order of work remain the same.",
+      "text": "Ein matschiger oder trockener verbrauchter Puck ist allein kein verlässlicher Qualitätswert. Behandeln Sie das als kontrollierten Vergleich, nicht als Erlaubnis, alle Variablen gleichzeitig zu ändern. Halten Sie Dosis und Vorbereitung konstant, notieren Sie den trockenen Abstand vor dem Bezug sowie deutliche Duschsiebabdrücke und wiederholen Sie die Routine, bevor Sie den Unterschied für echt halten. Ein einzelnes ungewöhnlich gutes oder schlechtes Ergebnis kann durch Vorbereitung, Temperatur, zurückgehaltenen Kaffee, Bohnenalter oder bloße Messfehler entstehen. Die nützliche Frage lautet, ob sich das Ergebnis bei gleicher Ausstattung und Arbeitsfolge wiederholt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "4a569e2c38646a029654918392400522db043f0a7d02546eb3e34416687c0ab9": {
+      "source": "Use the machine or basket maker’s guidance and a careful dry fit where appropriate. If the result moves in the expected direction, keep the change long enough to taste it across several preparations. If it does not, return to the baseline before trying another correction. Water left above the puck can reflect machine design and depressurization rather than a dosing error. That distinction prevents a convenient explanation from becoming a false rule. Adjust only when contact, sealing or extraction behavior gives a consistent reason. Write down the final setting and the reason for keeping it; a short decision record is more valuable than a perfect-looking number that cannot be reproduced tomorrow.",
+      "text": "Nutzen Sie Maschinen- oder Siebherstellerhinweise und gegebenenfalls eine vorsichtige Trockenprobe. Bewegt sich das Ergebnis in die erwartete Richtung, behalten Sie die Änderung lange genug bei, um sie über mehrere Zubereitungen zu verkosten. Andernfalls kehren Sie zur Ausgangseinstellung zurück, bevor Sie eine weitere Korrektur versuchen. Wasser über dem Puck kann Bauart und Druckabbau widerspiegeln statt einen Dosierfehler. Diese Unterscheidung verhindert, dass eine bequeme Erklärung zur falschen Regel wird. Ändern Sie nur, wenn Kontakt, Abdichtung oder Extraktionsverhalten einen beständigen Grund liefern. Notieren Sie die endgültige Einstellung und den Grund dafür; eine kurze Entscheidungsnotiz ist wertvoller als eine perfekt wirkende Zahl, die sich morgen nicht wiederholen lässt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "62ae493131711a714d68b19efd628ea8ac19de86180f09b930f8cdf4a0c67136": {
+      "source": "Dose decaf as a new coffee",
+      "text": "Decaf als neuen Kaffee dosieren",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "dbd6806d676932c97e9b9930e981ccfd63edf2409229847ad1a5fae8ab73642d": {
+      "source": "Decaffeination and roast development can change density, brittleness and flow behavior. Treat this as a controlled comparison, not permission to change every variable at once. Keep basket, water and yield stable, record headspace, grind movement and taste, and repeat the same routine before deciding that the difference is real. A single unusually good or bad result can come from preparation, temperature, retained coffee, bean age, or simple measurement error. The useful question is whether the result repeats when the setup and order of work remain the same.",
+      "text": "Entkoffeinierung und Röstentwicklung können Dichte, Brüchigkeit und Fließverhalten ändern. Behandeln Sie das als kontrollierten Vergleich, nicht als Erlaubnis, alle Variablen gleichzeitig zu ändern. Halten Sie Sieb, Wasser und Ausbeute konstant, notieren Sie Kopfraum, Mahlgradbewegung und Geschmack und wiederholen Sie die Routine, bevor Sie den Unterschied für echt halten. Ein einzelnes ungewöhnlich gutes oder schlechtes Ergebnis kann durch Vorbereitung, Temperatur, zurückgehaltenen Kaffee, Bohnenalter oder bloße Messfehler entstehen. Die nützliche Frage lautet, ob sich das Ergebnis bei gleicher Ausstattung und Arbeitsfolge wiederholt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "1b115fe1b29cfeee665d018becbf173bba3f0c1a8184d948fe69d6a4d556b784": {
+      "source": "Begin again near the basket range and dial the decaf independently. If the result moves in the expected direction, keep the change long enough to taste it across several preparations. If it does not, return to the baseline before trying another correction. A decaf recipe does not need to match the regular coffee to be correct. That distinction prevents a convenient explanation from becoming a false rule. Keep the dose that produces a clean workflow and balanced cup without forced comparison. Write down the final setting and the reason for keeping it; a short decision record is more valuable than a perfect-looking number that cannot be reproduced tomorrow.",
+      "text": "Beginnen Sie erneut nahe dem Siebbereich und stellen Sie den Decaf eigenständig ein. Bewegt sich das Ergebnis in die erwartete Richtung, behalten Sie die Änderung lange genug bei, um sie über mehrere Zubereitungen zu verkosten. Andernfalls kehren Sie zur Ausgangseinstellung zurück, bevor Sie eine weitere Korrektur versuchen. Ein Decaf-Rezept muss nicht dem normalen Kaffee entsprechen, um richtig zu sein. Diese Unterscheidung verhindert, dass eine bequeme Erklärung zur falschen Regel wird. Behalten Sie die Dosis für sauberen Ablauf und ausgewogene Tasse ohne erzwungenen Vergleich. Notieren Sie die endgültige Einstellung und den Grund dafür; eine kurze Entscheidungsnotiz ist wertvoller als eine perfekt wirkende Zahl, die sich morgen nicht wiederholen lässt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "ef727300cd299dd548cb6fd2d1d350b53fa605ccb45b6e57ae3dae11d2e2b7cd": {
+      "source": "Plan consecutive shots",
+      "text": "Aufeinanderfolgende Bezüge planen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "fe247ce31a016e3f94abb444daac7232d311e870b15caec8623b634652c35c4d": {
+      "source": "Grinder exchange and basket heat can make the first preparation different from the next. Treat this as a controlled comparison, not permission to change every variable at once. Keep warm-up and purge routine stable, record dose variance and flow across a short sequence, and repeat the same routine before deciding that the difference is real. A single unusually good or bad result can come from preparation, temperature, retained coffee, bean age, or simple measurement error. The useful question is whether the result repeats when the setup and order of work remain the same.",
+      "text": "Mahlgutaustausch und Siebtemperatur können die erste Zubereitung von der nächsten unterscheiden. Behandeln Sie das als kontrollierten Vergleich, nicht als Erlaubnis, alle Variablen gleichzeitig zu ändern. Halten Sie Aufwärm- und Freimahlroutine konstant, dokumentieren Sie Dosisschwankung und Fluss in einer kurzen Folge und wiederholen Sie die Routine, bevor Sie den Unterschied für echt halten. Ein einzelnes ungewöhnlich gutes oder schlechtes Ergebnis kann durch Vorbereitung, Temperatur, zurückgehaltenen Kaffee, Bohnenalter oder bloße Messfehler entstehen. Die nützliche Frage lautet, ob sich das Ergebnis bei gleicher Ausstattung und Arbeitsfolge wiederholt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "2863413ce4bb4be476766830704a52cc17dd919cf16c98d1c75ca0e83081d892": {
+      "source": "Test the first and second shots you actually serve rather than a long laboratory run. If the result moves in the expected direction, keep the change long enough to taste it across several preparations. If it does not, return to the baseline before trying another correction. A routine for one morning espresso may need a small purge or delivery check before guests. That distinction prevents a convenient explanation from becoming a false rule. Adopt only the extra step that fixes a repeated difference. Write down the final setting and the reason for keeping it; a short decision record is more valuable than a perfect-looking number that cannot be reproduced tomorrow.",
+      "text": "Prüfen Sie den tatsächlich servierten ersten und zweiten Bezug statt einer langen Laborserie. Bewegt sich das Ergebnis in die erwartete Richtung, behalten Sie die Änderung lange genug bei, um sie über mehrere Zubereitungen zu verkosten. Andernfalls kehren Sie zur Ausgangseinstellung zurück, bevor Sie eine weitere Korrektur versuchen. Eine Routine für einen Morgenespresso kann vor Gästen etwas Freimahlen oder eine Ausgabekontrolle benötigen. Diese Unterscheidung verhindert, dass eine bequeme Erklärung zur falschen Regel wird. Übernehmen Sie nur den Zusatzschritt, der einen wiederholten Unterschied behebt. Notieren Sie die endgültige Einstellung und den Grund dafür; eine kurze Entscheidungsnotiz ist wertvoller als eine perfekt wirkende Zahl, die sich morgen nicht wiederholen lässt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "3cc49c17ad39363b610be0bd078dd7b02eb61df8a30612d5e07abf6893f9d654": {
+      "source": "Record the reason for a dose change",
+      "text": "Den Grund für eine Dosisänderung notieren",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "7a43a3c0564f2982275d7074f43456cef253b15d2fe516588bbffb4402765651": {
+      "source": "A dose change should solve a named problem instead of becoming a reaction to every imperfect shot. Treat this as a controlled comparison, not permission to change every variable at once. Keep all other recipe variables stable, record old and new dose, headspace, yield, time and taste, and repeat the same routine before deciding that the difference is real. A single unusually good or bad result can come from preparation, temperature, retained coffee, bean age, or simple measurement error. The useful question is whether the result repeats when the setup and order of work remain the same.",
+      "text": "Eine Dosisänderung soll ein benanntes Problem lösen statt auf jeden unperfekten Bezug zu reagieren. Behandeln Sie das als kontrollierten Vergleich, nicht als Erlaubnis, alle Variablen gleichzeitig zu ändern. Halten Sie alle anderen Rezeptvariablen konstant, notieren Sie alte und neue Dosis, Kopfraum, Ausbeute, Zeit und Geschmack und wiederholen Sie die Routine, bevor Sie den Unterschied für echt halten. Ein einzelnes ungewöhnlich gutes oder schlechtes Ergebnis kann durch Vorbereitung, Temperatur, zurückgehaltenen Kaffee, Bohnenalter oder bloße Messfehler entstehen. Die nützliche Frage lautet, ob sich das Ergebnis bei gleicher Ausstattung und Arbeitsfolge wiederholt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "a906ce4f8830e4793ad61f307a3b670395560425faf370384ba68a7bcef720ff": {
+      "source": "Write one sentence explaining the change and compare both recipes at their intended yields. If the result moves in the expected direction, keep the change long enough to taste it across several preparations. If it does not, return to the baseline before trying another correction. If the benefit cannot be described or repeated, the new number is not yet an improvement. That distinction prevents a convenient explanation from becoming a false rule. Keep the simpler recipe when both taste equivalent. Write down the final setting and the reason for keeping it; a short decision record is more valuable than a perfect-looking number that cannot be reproduced tomorrow.",
+      "text": "Erklären Sie die Änderung in einem Satz und vergleichen Sie beide Rezepte bei ihren vorgesehenen Ausbeuten. Bewegt sich das Ergebnis in die erwartete Richtung, behalten Sie die Änderung lange genug bei, um sie über mehrere Zubereitungen zu verkosten. Andernfalls kehren Sie zur Ausgangseinstellung zurück, bevor Sie eine weitere Korrektur versuchen. Lässt sich der Vorteil nicht beschreiben oder wiederholen, ist die neue Zahl noch keine Verbesserung. Diese Unterscheidung verhindert, dass eine bequeme Erklärung zur falschen Regel wird. Behalten Sie bei gleichwertigem Geschmack das einfachere Rezept. Notieren Sie die endgültige Einstellung und den Grund dafür; eine kurze Entscheidungsnotiz ist wertvoller als eine perfekt wirkende Zahl, die sich morgen nicht wiederholen lässt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "cea5474f1dbf2c27e0d580fda9af4dcaccfe5ac95ebfb868070de46c11cd0eac": {
+      "source": "Is 18 grams the correct espresso dose?",
+      "text": "Sind 18 Gramm die richtige Espressodosis?",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "9908db9d851f0d2da96bc3828eba23d6ad1770311b6bc1b8b9c1f039742c032b": {
+      "source": "It is a common starting point for many double baskets, not a universal rule. Use the exact basket’s range, coffee density, headspace and recipe to choose the working dose.",
+      "text": "Das ist ein verbreiteter Ausgangspunkt für viele Doppelsiebe, keine universelle Regel. Wählen Sie die Arbeitsdosis anhand des konkreten Siebbereichs, der Kaffeedichte, des Kopfraums und des Rezepts.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "927c38d6ca71cfb94c110995a7435f346ec1f7dc560dd0de13868876ce0eb34e": {
+      "source": "Should I change dose to fix shot time?",
+      "text": "Soll ich die Dosis ändern, um die Bezugszeit zu korrigieren?",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "15ddf2aa1b25c981561987025d6172e15a12408025b625545858910b80f055fd": {
+      "source": "Usually keep dose and yield stable and use grind size for the first flow correction. Change dose when you have a basket-fit, headspace or intentional recipe reason.",
+      "text": "Halten Sie gewöhnlich Dosis und Ausbeute stabil und korrigieren Sie den Fluss zuerst über den Mahlgrad. Ändern Sie die Dosis aus Gründen der Siebpassung, des Kopfraums oder eines bewusst anderen Rezepts.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "fd90020fb2bcd663cf20e00eb6c837f5ce6744fa8fde401e66d16a26116269c2": {
+      "source": "Do I weigh beans before or grounds after grinding?",
+      "text": "Wiege ich Bohnen vorher oder Mahlgut nach dem Mahlen?",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "805e5141ca02b2891200ecd7675e6fd294e1b44ef0326b6fd5d017a2b8216284": {
+      "source": "For the most direct measurement, weigh what reaches the basket. Weighing beans before grinding is useful for single dosing, but retained or exchanged grounds can make output differ.",
+      "text": "Für die direkteste Messung wiegen Sie, was das Sieb erreicht. Bohnen vorher zu wiegen hilft beim Einzeldosieren; zurückgehaltenes oder ausgetauschtes Mahlgut kann jedoch die ausgegebene Menge verändern.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "9d3b221c3acfef5edba62b4baad13aaa798a9820b00c6330e462daa47b118f43": {
+      "source": "This article treats dose as one measured input inside a complete espresso recipe. Basket and machine documentation control fit and operating limits; manufacturer training material supplies practical examples. The workflow advice is framed as a repeatable home test, not a claim that one dose or time fits every basket, roast or machine.",
+      "text": "Dieser Artikel behandelt die Dosis als einen gemessenen Eingangswert eines vollständigen Espressorezepts. Sieb- und Maschinendokumentation bestimmen Passung und Betriebsgrenzen; Herstellerschulungen liefern praktische Beispiele. Die Ablaufhinweise sind als wiederholbarer Heimversuch formuliert, nicht als Behauptung, eine Dosis oder Zeit passe zu jedem Sieb, jeder Röstung oder Maschine.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "08a6d8eb895ceb74c027dddb7348b50d625f8e002c567d68d8fb1a8502068bf9": {
+      "source": "The Home Barista's Guide to Espresso Dosing | Coffeedant",
+      "text": "Espresso dosieren: der Ratgeber für Heimbaristas | Coffeedant",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "ebe0928fa0bd4afb019431000eb25f9df7469d9133d7fa243413c623ca186f47": {
+      "source": "Is 18 grams the correct espresso dose?",
+      "text": "Sind 18 Gramm die richtige Espressodosis?",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "22d01464776dfbb200951e03f53650359a20b047a79e8131d16f819c5bb60918": {
+      "source": "It is a common starting point for many double baskets, not a universal rule. Use the exact basket’s range, coffee density, headspace and recipe to choose the working dose.",
+      "text": "Das ist ein verbreiteter Ausgangspunkt für viele Doppelsiebe, keine universelle Regel. Wählen Sie die Arbeitsdosis anhand des konkreten Siebbereichs, der Kaffeedichte, des Kopfraums und des Rezepts.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "69c437aca04b13733ba6695241f81978fdf4c4418b34413e7c3723fe6beae90e": {
+      "source": "Should I change dose to fix shot time?",
+      "text": "Soll ich die Dosis ändern, um die Bezugszeit zu korrigieren?",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "86c3ae038cfd96e23f98ae2d0fd9ee261552323dab819e832344e8bcfdf7017d": {
+      "source": "Usually keep dose and yield stable and use grind size for the first flow correction. Change dose when you have a basket-fit, headspace or intentional recipe reason.",
+      "text": "Halten Sie gewöhnlich Dosis und Ausbeute stabil und korrigieren Sie den Fluss zuerst über den Mahlgrad. Ändern Sie die Dosis aus Gründen der Siebpassung, des Kopfraums oder eines bewusst anderen Rezepts.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "e5a4129735fa838e907bef1a331e823231cf7124b25691496fd989ec29eaaebf": {
+      "source": "Do I weigh beans before or grounds after grinding?",
+      "text": "Wiege ich Bohnen vorher oder Mahlgut nach dem Mahlen?",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
+    },
+    "a49c2f843df978386697309620d881d3e9382d2330d7d12e62438fdacb52ef3e": {
+      "source": "For the most direct measurement, weigh what reaches the basket. Weighing beans before grinding is useful for single dosing, but retained or exchanged grounds can make output differ.",
+      "text": "Für die direkteste Messung wiegen Sie, was das Sieb erreicht. Bohnen vorher zu wiegen hilft beim Einzeldosieren; zurückgehaltenes oder ausgetauschtes Mahlgut kann jedoch die ausgegebene Menge verändern.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/dosing-brands-batch-29.json"
     }
   },
   "routes": {
@@ -51777,6 +52526,10 @@
     "page:9c8f45ae0daaa8b0cb94": {
       "sourcePath": "/espresso-machine/",
       "path": "/espressomaschinen/"
+    },
+    "page:8eae0f647a5275ebbe35": {
+      "sourcePath": "/journal/espresso-dosing/",
+      "path": "/journal/espresso-dosieren/"
     }
   },
   "lastModel": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
