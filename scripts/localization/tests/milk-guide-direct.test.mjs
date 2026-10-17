@@ -50,3 +50,39 @@ test('milk guide retains distinct recipes, limited caffeine evidence, unverified
   assert(/bepalen.*niet|bestimmen.*nicht|ne déterminent pas/.test(text(85)));
  }
 });
+
+test('October 17 source refresh is fully authored in all three languages against its immutable snapshot',async()=>{
+ const source=await readJson(path.join(root,'localization/authored/source-refresh-batch-26.source.json'));
+ const authored=await readJson(path.join(root,'localization/authored/source-refresh-batch-26.json'));
+ assert.equal(source.segments.length,17);assert.equal(source.snapshotHash,digest(JSON.stringify(source.segments)));
+ assert.equal(authored.snapshotHash,source.snapshotHash);assert.deepEqual(authored.preserveSource,[]);
+ assert.equal(Object.keys(authored.translations).length,17);
+ for(const edition of authored.editions){
+  const cache=await loadCache(edition);
+  for(const [i,segment]of source.segments.entries()){
+   assert.equal(cache.segments[segment.id].text,validateTranslation(segment.source,authored.translations[i][edition]));
+   assert.equal(cache.segments[segment.id].provider,'codex-direct');
+  }
+ }
+});
+
+test('refreshed reviews preserve separate brewing methods, dilution, decaf limits and source attribution',async()=>{
+ const authored=await readJson(path.join(root,'localization/authored/source-refresh-batch-26.json'));
+ for(const edition of authored.editions){
+  const text=i=>authored.translations[i][edition];
+  for(const n of ['200','300','1,300','1:17','5'])assert(text(1).includes(n));
+  assert(/dertienhonderd|eintausenddreihundert|mille trois cents/.test(text(1)));
+  assert(/gelijke delen|gleiche Teile|parts égales/.test(text(1)));
+  assert(/zestienhonderd|eintausendsechshundert|mille six cents/.test(text(3)));
+  for(const n of ['18','45'])assert(text(4).includes(n));
+  assert(/geen.*garantie op nul|keine Null-Koffein-Garantie|ni une garantie de caféine nulle/.test(text(6)));
+  for(const n of ['19','47','25','400'])assert(text(8).includes(n));
+  assert(/filterverhouding niet|Filterverhältnis nicht|n’appliquez pas le ratio filtre/.test(text(8)));
+  for(const n of ['56','19.5'])assert(text(11).includes(n));
+  for(const n of ['28','475','19.5'])assert(text(14).includes(n));
+  for(const i of [3,7,10,13,16]){
+   assert(text(i).includes('2026-10-17'));
+   assert(/geen Coffeedant-proeverij of prijsclaim|keine Coffeedant-Verkostung oder Preisbehauptung|aucune dégustation Coffeedant ni affirmation de prix/.test(text(i)));
+  }
+ }
+});

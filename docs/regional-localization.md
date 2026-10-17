@@ -1209,8 +1209,12 @@ Article/ItemList/ImageObject prose are included. The immutable main snapshot has
 137 missing slots / 119 distinct strings. Five verbatim approvals are exact named
 source links with their original arrows, not body exemptions. A separate frozen
 two-slot German-only completion translates the related-guide labels absent from
-the Dutch-based export. Import adds NL 137, DE 139 and FR 137 current entries,
-without changing earlier passing cached wording.
+the Dutch-based export. The guide imports add NL 137, DE 139 and FR 137 entries.
+After preserving the concurrent October 17 source refresh through a normal Git
+merge, a separate immutable seventeen-slot snapshot translates the additions to
+Apollo, Black Cat Classic, Monarch, Hair Bender and Holler Mountain. These five
+already-translated reviews remain current in all editions. Total batch additions
+are NL 154, DE 156 and FR 154; zero earlier cached text is changed.
 
 Existing registered routes are preserved:
 `/koffiebonen/beste-koffiebonen-voor-melkdranken/`,
@@ -1232,8 +1236,18 @@ selector price stays unverified; the other original October 16 US dollar prices,
 pack sizes and cost qualifications are preserved, not converted to local offers.
 No Coffeedant tasting, brewing, milk test or caffeine assay is invented.
 
-All 99 localization tests, analytics validation, the Cloudflare-target Finder
-validator and product-video validation pass. Three complete generated HTML/JSON
+The refresh retains Apollo's separately diluted cold-brew concentrate, Black Cat's
+distinct decaf identity and residual-caffeine caveat, Monarch's separate espresso
+and Kalita recipes, and the different press/filter/espresso grind settings in the
+Stumptown reviews. Source recipe numbers, original destinations and October 17
+check dates remain intact. English thousands notation is accompanied by written-
+out quantities, not silently interpreted as decimal commas. No roaster recipe
+becomes a Coffeedant brewing, tasting or price claim.
+
+All 101 localization tests, analytics validation, the Cloudflare-target Finder
+validator and product-video validation pass. Fifteen complete refreshed-review
+HTML/JSON checks verify full bodies, six FAQ answers each, source dates, links,
+identifiers, credits and unchanged runtime. Three complete guide HTML/JSON
 checks compare the entire guide/header, all table cells, all FAQ answers,
 metadata, source destinations, citation anchors, scripts/runtime, dates, image
 captions/dimensions/source URLs with correctly localized schema IDs, and the
@@ -1246,10 +1260,10 @@ The full `npm run build:regions` production bundle passes with indexable new
 guides, a single localized language chooser, reciprocal NL/DE/FR alternates and
 links to the unfinished video library explicitly on the English source.
 The user's concurrent video-library/shared-embed work on main is preserved.
-The current source is 240 canonical pages / 48,898 unique slots; the source growth
+The current source is 240 canonical pages / 48,936 unique slots; the source growth
 is not credited as newly translated content. Ready regular pages are NL 66,
 DE 65 and FR 65, excluding 404s; scoped builds contain 67/66/66 pages. Pending
-slots are 41,812 / 41,994 / 41,918. Whole-site completion remains false. Keep
+slots are 41,833 / 42,015 / 41,939. Whole-site completion remains false. Keep
 `published: true` / `publicationMode: ready-pages`, verify the automatic production
 deployment/live manifests after merge, and continue adding complete pages. The
 large video-library body and remaining guides/reviews are still queued; unfinished
