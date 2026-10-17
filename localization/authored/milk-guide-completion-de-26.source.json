@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/coffee-beans/best-coffee-beans-for-milk-drinks/",
+      "sourceHash": "67d9aec67874f2b7e705107248f5182576003591ed3531da11022d005e9e95c3"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "fc89a96e1ac71442aca80b2898c78df2394e70bd3c1a58e0cbe8af304de87f99",
+      "source": "Espresso and drip",
+      "kind": "text",
+      "context": "Espresso and drip"
+    },
+    {
+      "id": "bb39cea06906f1fd0f329fcc5aee1bdb6353b1bed391194eb294f10a063eda20",
+      "source": "Related decisions",
+      "kind": "text",
+      "context": "Related decisions"
+    }
+  ],
+  "snapshotHash": "fe4ffcdd0de01e13775459b6c09aaf1198623ea11d75587008004a791f8af20d"
+}

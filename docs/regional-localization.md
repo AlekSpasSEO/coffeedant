@@ -1197,6 +1197,65 @@ safeguards, publishing each complete page incrementally. Whole-site completion
 remains false, and the continuation stays active. No paid translation API,
 billing, subagent or public DNS changes are made by this batch.
 
+### Complete milk-drinks buying guide (2026-10-17)
+
+Batch twenty-six directly translates the entire
+`/coffee-beans/best-coffee-beans-for-milk-drinks/` guide into NL/DE/FR. Its source
+article contains 2,075 words, including all six explanatory sections, both full
+five-row tables, four product cards, methodology, source notes, final advice and
+seven visible/structured FAQ answers per language. Headers, metadata, author
+disclosures, image captions, accessible comparison labels and structured
+Article/ItemList/ImageObject prose are included. The immutable main snapshot has
+137 missing slots / 119 distinct strings. Five verbatim approvals are exact named
+source links with their original arrows, not body exemptions. A separate frozen
+two-slot German-only completion translates the related-guide labels absent from
+the Dutch-based export. Import adds NL 137, DE 139 and FR 137 current entries,
+without changing earlier passing cached wording.
+
+Existing registered routes are preserved:
+`/koffiebonen/beste-koffiebonen-voor-melkdranken/`,
+`/kaffeebohnen/beste-kaffeebohnen-fuer-milchgetraenke/` and
+`/cafe-en-grains/meilleurs-cafe-en-grains-pour-boissons-au-lait/`.
+The approved Dutch dosing URL remains unchanged. The four cards and structured
+list link to the complete regional Monarch, Eye of the Tiger, Equator Blend and
+Trapper Creek reviews. No incomplete regional article is substituted for English.
+
+The guide retains four distinct buying roles rather than a tasting podium.
+Roaster milk claims are attributed; dairy/oat equivalence and sensory superiority
+are unverified. Eye of the Tiger's 18 g / 46 g and Trapper Creek's near-19.5 g
+espresso starts stay distinct from Equator Blend's 1:15 filter guidance. A 150 ml
+cappuccino and 350 ml latte remain different examples, not measured preferences.
+Swiss Water is not a zero-caffeine guarantee; Even Keel's 50/50 ingredient blend
+does not establish half the caffeine in a brewed cup. Grinder retention,
+changing lots and dated outside samples keep their limits. Onyx's unverified
+selector price stays unverified; the other original October 16 US dollar prices,
+pack sizes and cost qualifications are preserved, not converted to local offers.
+No Coffeedant tasting, brewing, milk test or caffeine assay is invented.
+
+All 99 localization tests, analytics validation, the Cloudflare-target Finder
+validator and product-video validation pass. Three complete generated HTML/JSON
+checks compare the entire guide/header, all table cells, all FAQ answers,
+metadata, source destinations, citation anchors, scripts/runtime, dates, image
+captions/dimensions/source URLs with correctly localized schema IDs, and the
+four regional review destinations. Locale/canonical/noindex and matching scoped
+sitemaps pass. The 148 Finder descriptions stay distinct and translated, with
+unverifiable regional prices and Amazon offers hidden. These are generated-output
+and runtime checks, not a new browser session or physical product test.
+
+The full `npm run build:regions` production bundle passes with indexable new
+guides, a single localized language chooser, reciprocal NL/DE/FR alternates and
+links to the unfinished video library explicitly on the English source.
+The user's concurrent video-library/shared-embed work on main is preserved.
+The current source is 240 canonical pages / 48,898 unique slots; the source growth
+is not credited as newly translated content. Ready regular pages are NL 66,
+DE 65 and FR 65, excluding 404s; scoped builds contain 67/66/66 pages. Pending
+slots are 41,812 / 41,994 / 41,918. Whole-site completion remains false. Keep
+`published: true` / `publicationMode: ready-pages`, verify the automatic production
+deployment/live manifests after merge, and continue adding complete pages. The
+large video-library body and remaining guides/reviews are still queued; unfinished
+library/article links remain on the English source with the localized notice.
+No DNS, billing, paid translation API or subagent changes are made by this batch.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
