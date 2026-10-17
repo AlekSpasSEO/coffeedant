@@ -1,0 +1,48 @@
+[
+  {
+    "productId": "CD-BN-000006",
+    "slug": "/coffee-beans/stumptown-hair-bender/",
+    "sectionId": "brewing",
+    "paragraph": "A French press is a more concrete second use for Hair Bender than the phrase 'all-purpose.' Stumptown's published press method starts with 56 g coarse-ground coffee, breaks the crust at one minute and presses at four minutes, then pours into a carafe. Its Hair Bender espresso guide instead starts near 19.5 g and a much finer grind. If one grinder serves both, save separate settings and clear retained espresso grounds before the press batch. These are roaster recipes, not Coffeedant tasting or a promise that one bag will suit both cups. [SOURCE]",
+    "source": "https://www.stumptowncoffee.com/products/hair-bender",
+    "sourceTitle": "Stumptown Hair Bender product and method recipes",
+    "sourceNote": "Official Hair Bender page gives its French press steps and separate espresso method; buyer guidance compares the two without a sensory claim."
+  },
+  {
+    "productId": "CD-BN-000007",
+    "slug": "/coffee-beans/stumptown-holler-mountain/",
+    "sectionId": "brewing",
+    "paragraph": "The current Holler Mountain page gives a reproducible split: its automatic-drip method uses 28 g coffee for about 475 ml water at a medium-coarse grind, while its espresso method starts near 19.5 g and calls for a much finer grind. Use those as two roaster starting points, then fit the dose to the actual basket and brewer. For a household buying one bag for both machines, the grinder's repeatable changeover is part of the decision; the blend's versatility does not remove that task. [SOURCE]",
+    "source": "https://www.stumptowncoffee.com/products/holler-mountain",
+    "sourceTitle": "Stumptown Holler Mountain product and brew methods",
+    "sourceNote": "Official product page distinguishes 28 g/475 ml drip guidance and about 19.5 g espresso guidance."
+  },
+  {
+    "productId": "CD-BN-000008",
+    "slug": "/coffee-beans/intelligentsia-black-cat-classic-espresso/",
+    "sectionId": "alternatives",
+    "paragraph": "Caffeine is a separate reason to change bags. Intelligentsia now lists Decaf Black Cat Espresso as a water-processed espresso blend with cocoa, turbinado-sugar and apple descriptors, and its own 18 g to 45 g starting recipe. Our <a href=\"/coffee-beans/intelligentsia-decaf-black-cat-espresso/\">Decaf Black Cat review</a> covers that distinct product. It is not a lower-caffeine version of the same exact blend or a guarantee of zero caffeine; choose it for the decaf requirement, then dial it in separately. [SOURCE]",
+    "source": "https://www.intelligentsia.com/products/decaf-black-cat-espresso",
+    "sourceTitle": "Intelligentsia Decaf Black Cat Espresso",
+    "sourceNote": "Official water-processed decaf identity, attributed notes and 18 g to 45 g recipe; the linked Coffeedant review covers that separate product.",
+    "alternative": {"title":"Decaf Black Cat Espresso","reason":"A separately reviewed water-processed espresso option when caffeine is the deciding constraint.","href":"/coffee-beans/intelligentsia-decaf-black-cat-espresso/","internal":true}
+  },
+  {
+    "productId": "CD-BN-000009",
+    "slug": "/coffee-beans/onyx-monarch/",
+    "sectionId": "brewing",
+    "paragraph": "Onyx's current Monarch page makes the espresso starting point more concrete than a generic dark-roast rule: its displayed guide pairs 19 g ground coffee with 47 g beverage. The same page shows a separate 25 g to 400 g Kalita Wave filter recipe. They answer different jobs; do not apply the filter ratio to a portafilter or assume the 19 g dose fits every basket. Onyx calls espresso its preferred extraction, so a filter-first household should compare alternatives before buying a large bag. These are roaster methods, not Coffeedant brews. [SOURCE]",
+    "source": "https://onyxcoffeelab.com/products/monarch",
+    "sourceTitle": "Onyx Monarch product and extraction guides",
+    "sourceNote": "Official page displays 19 g to 47 g espresso and a separate 25 g to 400 g Kalita Wave recipe."
+  },
+  {
+    "productId": "CD-BN-000010",
+    "slug": "/coffee-beans/counter-culture-apollo/",
+    "sectionId": "brewing",
+    "paragraph": "For Apollo as iced coffee, Counter Culture publishes a separate Toddy-style cold-brew concentrate: 200 g medium-coarse coffee with 300 g warm bloom water and 1,300 g room-temperature water, followed by a refrigerated steep of at least six hours. The resulting concentrate is diluted to taste; the roaster suggests starting with equal parts concentrate and water for black cold brew. That is not the 1:17 hot-filter method or a ready-to-drink yield. A buyer without a suitable cold-brew vessel should try Apollo hot first rather than purchasing a 5 lb bag for an untested summer routine. [SOURCE]",
+    "source": "https://counterculturecoffee.com/products/apollo",
+    "sourceTitle": "Counter Culture Apollo product and cold-brew method",
+    "sourceNote": "Official Apollo page gives its Toddy-style 200 g to 1,600 g cold-brew concentrate recipe, six-hour minimum and dilution guidance."
+  }
+]
