@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/gaggia/",
+      "sourceHash": "8a1165a23cdb3a222d8295b1c7c4675fa05752ce71ec78f23b9881d7d51402c9"
+    },
+    {
+      "sourcePath": "/lelit/",
+      "sourceHash": "6e3d5cb7091924f7abaa80cd0ef639624ca259ae16a45cc777f5cfaca03a2fbc"
+    },
+    {
+      "sourcePath": "/rancilio/",
+      "sourceHash": "119cf667e3bb7747559ce7dcdb37e9b2b255d053dc27ad16d043677ec3f5c3a2"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "d073187eef7d03e508b9afec007a894ec7114a523ac53d02d8c32cd7a91e32e5",
+      "source": "Lelit Elizabeth",
+      "kind": "text",
+      "context": "Lelit Elizabeth ↗"
+    },
+    {
+      "id": "93f7047d84a89201a4be731b58b82ea409f14144ccb2dd68511a9484cac9ff38",
+      "source": "Rancilio Silvia",
+      "kind": "text",
+      "context": "Rancilio Silvia ↗"
+    },
+    {
+      "id": "3ba08acdff5fd740281e29017b5b8a300e164532f21979bd983e9b2db56d52a7",
+      "source": "Gaggia Accademia",
+      "kind": "text",
+      "context": "Gaggia Accademia"
+    }
+  ],
+  "snapshotHash": "31444c5857ad5935705eba047dc8cd88222ae1bfe9a69ecad81d839577121a1d"
+}

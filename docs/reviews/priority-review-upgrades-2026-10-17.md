@@ -32,6 +32,8 @@ GT self-recommendations are replaced with actual alternatives in both the summar
 
 Amazon API activity remains paused. Editorial work uses local cached validation only; no token, credential, price refresh, eligibility probe or refresh workflow is used.
 
+The existing regional homepage gate also requires the complete Finder text cache. The revised Miele summary therefore includes a directly authored Dutch, German and French translation. Three new comparison labels are protected product names (Lelit Elizabeth, Rancilio Silvia and Gaggia Accademia) approved verbatim through a frozen authored snapshot. These small cache updates preserve the existing regional home and brand pages; they do not publish translated versions of the six full reviews or alter localization gates. All 110 localization tests passed.
+
 ## Validation receipt
 
 Local production build completed successfully. The full modern-review validator passed, as did SEO validation (239 sitemap URLs; no warnings/errors), seven SEO unit tests, legacy migration validation and review-originality validation. Existing low-overlap editorial notices remain non-blocking; no near-duplicate headline or opening failed.
