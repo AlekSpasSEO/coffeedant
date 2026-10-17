@@ -1,5 +1,9 @@
 # Lelit Elizabeth PL92T research dossier
 
+## October 17, 2026 revision
+
+Replaced espresso, milk, workflow and generation-summary copy with a controlled preinfusion comparison, timed-button output check, two-person order and three practical pro tips. PL92T-120 identity, research-led basis and scores remain. Credited manufacturer media replaces generic community imagery. Official, independent and community sources, limits and competitive context are recorded in [the batch evidence ledger](priority-review-upgrades-2026-10-17.md). No owner timing or first-shot complaint is converted into a universal result. Controlled thermometry, service incidence and exact household throughput remain unknown.
+
 Checked: September 15, 2026
 Canonical path: `/espresso-machine/lelit-elizabeth/`
 Product ID: `CD-EM-000001`

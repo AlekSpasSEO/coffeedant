@@ -33,6 +33,42 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/lelit-elizabeth/': officialProductMedia(
+    'Lelit US Elizabeth product gallery',
+    'https://www.lelit.com/en-us/product/elizabeth-pesel01',
+    [
+      {
+        src: 'https://assets.breville.com/cdn-cgi/image/width=1300,format=png/Lelit/PESEL01/PESEL01_Carousel1.png',
+        alt: 'Official Lelit Elizabeth PL92T gallery view showing the front controls, group and separate steam wand',
+        caption: 'The established PL92T layout puts the LCC and two brew buttons beside the group. Those buttons repeat time, so check beverage mass when changing the recipe.',
+        width: 1300, height: 1300,
+      },
+      {
+        src: 'https://assets.breville.com/cdn-cgi/image/width=1300,format=png/Lelit/PESEL01/PESEL01_Carousel2.png',
+        alt: 'Second official Lelit Elizabeth PL92T product-gallery view',
+        caption: 'Use the manufacturer view to plan the complete station, then confirm top filling access under your own cabinet. The image documents PL92T, not Elizabeth3 PL92T3.',
+        width: 1300, height: 1300,
+      },
+    ],
+  ),
+  '/espresso-machine/rancilio-silvia/': officialProductMedia(
+    'Rancilio Group North America Silvia product gallery',
+    'https://www.ranciliogroupna.com/equipment/rancilio-silvia/',
+    [
+      {
+        src: 'https://www.ranciliogroupna.com/wp-content/uploads/2021/05/GNA3817-2-1024x1024.jpg',
+        alt: 'Official Rancilio Silvia gallery photograph showing the switches, group and manual steam wand',
+        caption: 'The stock Silvia uses switches and a heater lamp. Repeating the same thermal routine matters more than treating the lamp as a direct brew-temperature reading.',
+        width: 1024, height: 1024,
+      },
+      {
+        src: 'https://www.ranciliogroupna.com/wp-content/uploads/2021/05/2N6A1239-2-1024x683.jpg',
+        alt: 'Rancilio manufacturer photograph of a Silvia espresso station in a kitchen',
+        caption: 'Plan the grinder, cups, milk jug and a heat-safe refill vessel beside the machine. Boiler restoration after steaming belongs in the complete drink routine.',
+        width: 1024, height: 683,
+      },
+    ],
+  ),
   '/espresso-machine/delonghi-rivelia-exam44055b/': officialProductMedia(
     'De’Longhi US EXAM44055B product gallery',
     'https://www.delonghi.com/en-us/p/rivelia-rivelia-fully-automatic-espresso-machine--onyx-black/EXAM44055B.html',

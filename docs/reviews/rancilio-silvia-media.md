@@ -1,13 +1,13 @@
-# Rancilio Silvia V6 review: the manual classic in 2026 media ledger
+# Rancilio Silvia review: the stock V6 routine that matters media ledger
 
-Generated from the rendered review updated 2026-09-15. This is the publication audit record for the inline editorial media. The implementation remains the canonical machine-readable record.
+Generated from the rendered review updated 2026-10-17. This is the publication audit record for the inline editorial media. The implementation remains the canonical machine-readable record.
 
 ## Density and source mix
 
-- Editorial word count, excluding captions and embeds: 5190
+- Editorial word count, excluding captions and embeds: 5533
 - Publication image cap: 3 total images
 - Images published: 3 (2 inline images plus one product hero)
-- User-generated or community inline images: 1 of 2
+- User-generated or community inline images: 0 of 2
 - Every externally hosted image links to its original community, owner-review, or product-listing page.
 - Customer and community media is not represented as Coffeedant testing. Externally embedded media must retain its visible credit and source record, and must not be copied into the local asset store without a separate reuse review.
 
@@ -15,5 +15,5 @@ Generated from the rendered review updated 2026-09-15. This is the publication a
 
 | # | Placement | Source type | UGC | Original | Usage record | Creator or reviewer | Dimensions | Alt text | Editorial purpose and disclosure |
 | ---: | --- | --- | :---: | --- | --- | --- | ---: | --- | --- |
-| 1 | setup | product-listing | No | [Original source](https://www.ranciliogroupna.com/equipment/rancilio-silvia/) | [Official or current-program product-listing media](https://www.ranciliogroupna.com/equipment/rancilio-silvia/) | Rancilio Group North America product listing | 1400 × 1050 | Rancilio Silvia the machine installed in a home kitchen | The product listing view shows the machine installed in a home kitchen, which helps clarify the nearby workflow or ownership point. Disclosure: Product-listing image; not a Coffeedant test photograph. |
-| 2 | build | community | Yes | [Original source](https://commons.wikimedia.org/wiki/File:Espresso_machine_1.jpg) | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) | Herr Andrax, assumed from the Commons record | 640 × 480 | Espresso machine at a coffee bar | A working coffee station makes counter space, access and everyday handling visible. Disclosure: Community illustration; pictured equipment may differ from the reviewed model. |
+| 1 | setup | manufacturer | No | [Original source](https://www.ranciliogroupna.com/equipment/rancilio-silvia/) | [Official manufacturer product-page media](https://www.ranciliogroupna.com/equipment/rancilio-silvia/) | Rancilio Group North America Silvia product gallery | 1024 × 1024 | Official Rancilio Silvia gallery photograph showing the switches, group and manual steam wand | The stock Silvia uses switches and a heater lamp. Repeating the same thermal routine matters more than treating the lamp as a direct brew-temperature reading. Disclosure: Official manufacturer media; not a Coffeedant test photograph. |
+| 2 | build | manufacturer | No | [Original source](https://www.ranciliogroupna.com/equipment/rancilio-silvia/) | [Official manufacturer product-page media](https://www.ranciliogroupna.com/equipment/rancilio-silvia/) | Rancilio Group North America Silvia product gallery | 1024 × 683 | Rancilio manufacturer photograph of a Silvia espresso station in a kitchen | Plan the grinder, cups, milk jug and a heat-safe refill vessel beside the machine. Boiler restoration after steaming belongs in the complete drink routine. Disclosure: Official manufacturer media; not a Coffeedant test photograph. |

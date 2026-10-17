@@ -25,23 +25,23 @@ const profile: UpgradeReviewProfile = {
   brandPath: '/brands/',
   title: 'Miele CM6360 review: polished milk, premium price',
   description: 'Exact US Miele CM 6360 MilkPerfection review: $2,549 dated price, 8 profiles, OneTouch for Two, 1.8 L tank, removable brewer and owner evidence.',
-  verdictLabel: 'A refined one-touch machine whose $2,549 value case needs scrutiny',
-  verdict: 'Shortlist the US Lotus white CM 6360, material 11648190, when eight profiles, paired drinks, strong milk automation, a removable brewer and a compact 251 mm width matter enough to justify a premium. The official record gives a 1.8 L tank, 300 g hopper, 0.7 L glass milk container, ground-coffee chute and broad programmable menu. Abt displayed $2,549 on September 24, 2026, while Miele displayed $2,999 with $450 off in cart.',
+  verdictLabel: 'A polished choice for paired milk, with a real cleaning commitment',
+  verdict: 'Shortlist the US Lotus white CM 6360, material 11648190, when eight profiles, paired milk drinks, removable-brewer access and a narrow 251 mm body match the household. Every profile shares one hopper and grinder, and the milk pipework still needs physical cleaning. Compare current authorized checkout and service terms: the previously recorded manufacturer rebate ended October 11, 2026.',
   assessment: 'This is a research-led assessment, not Coffeedant testing. Current specifications, price language and images come from the exact US product record. An independent hands-on review, an exact-model retailer demonstration and self-selected owner discussions add context. They do not provide a representative reliability rate or Coffeedant measurements.',
   image,
   imageAlt: 'Miele official front view of the Lotus white CM 6360 MilkPerfection with two milk drinks and glass milk container',
   published: '2026-07-27',
   updated: '2026-10-13',
   price: {
-    label: 'Current checked exact-model price',
-    msrp: '$2,999 US reference price',
-    typical: 'Abt displayed $2,549 for Lotus white material 11648190 on September 24, 2026, including a $450 manufacturer rebate ending October 11, 2026. Miele displayed $2,999 with $450 off in cart. Price, stock and promotion can change.',
+    label: 'Historical US price context; check current checkout',
+    msrp: 'Check current US price',
+    typical: 'The September 24, 2026 Abt example of $2,549 included a rebate that ended October 11, 2026. It is expired historical context, not a current offer. Check the exact US article at checkout.',
     currency: 'USD',
-    numeric: '2549',
+    numeric: '',
     checked: 'September 24, 2026',
   },
   links: [
-    { label: 'Check exact Lotus white price and stock', href: abt, note: 'US material 11648190; $2,549 with dated manufacturer rebate when checked September 24, 2026', primary: true },
+    { label: 'Check exact Lotus white price and stock', href: abt, note: 'US material 11648190; current price and stock at retailer; earlier rebate expired', primary: true },
     { label: 'Read the official US product record', href: official, note: 'Exact identity, specifications, accessories, current price language and owner-review aggregate' },
   ],
   facts: [
@@ -59,7 +59,7 @@ const profile: UpgradeReviewProfile = {
     { question: 'Does it save profiles?', answer: 'Yes. Miele lists eight programmable user profiles.' },
     { question: 'Can it use pre-ground coffee?', answer: 'Yes. The product sheet and manual document a ground-coffee chute.' },
     { question: 'Is the brew unit removable?', answer: 'Yes. The manual also requires scheduled cleaning of the brew unit and interior.' },
-    { question: 'Is $2,549 permanent?', answer: 'No. It was a dated US retailer offer with a stated rebate end date.' },
+    { question: 'Is the earlier rebate still active?', answer: 'Its stated end date was October 11, 2026. Check current checkout; this update does not verify a discounted offer.' },
   ],
   bestFor: [
     'Milk-drink households that want paired one-touch service and eight profiles',
@@ -78,7 +78,7 @@ const profile: UpgradeReviewProfile = {
     'Compact width, glass milk container and clean exterior make a polished station',
   ],
   cons: [
-    'The $2,549 dated price remains high for a single-hopper automatic',
+    'Premium positioning for one shared bean path and a restrained display',
     'Text-and-sensor interface looks restrained beside richer competitor displays',
     'Milk pipework, rinse valve, brewer and trays still require hands-on maintenance',
     'Owner reports are mixed and self-selected, so no defect rate can be inferred',
@@ -86,7 +86,7 @@ const profile: UpgradeReviewProfile = {
   architecture: 'a 120 V countertop bean-to-cup platform with one selectable conical grinder, a removable brewing unit, DirectSensor text interface, paired OneTouch milk system, glass milk container and Miele@home connectivity',
   identityBoundary: 'This page reviews the Lotus white US CM 6360 material 11648190 and EAN 4002516380665. Obsidian Black.CS material 11648200 shares the CM 6360 family but is a separate colour article. Canadian, European and other regional packages can differ in voltage, article, finish, price, warranty and included parts. This is not the CM 6160, CM 6350 or CM 7750.',
   primaryStrength: 'It combines paired milk drinks, eight profiles and removable-brewer care in a narrow, premium-looking body.',
-  primaryLimit: 'The dated $2,549 checkout price asks buyers to value polish and personalization more than raw feature-per-dollar value.',
+  primaryLimit: 'Its premium positioning asks buyers to use paired milk and profiles often enough to justify one shared bean path and hands-on cleaning.',
   setupNote: 'Confirm material 11648190, 120 V, invoice, included glass flask, stainless milk rod, tablets and US warranty. Allow room above and beside the 251 × 427 mm footprint for tank filling and brew-unit door access. Set water hardness, complete commissioning, connect Wi-Fi only if useful and keep one repeat drink while learning the DirectSensor menus.',
   espressoNote: 'The documented controls include selectable grind, programmable coffee amount, water, temperature and pre-brewing, plus DoubleShot and a ground-coffee chute. That is meaningful automatic adjustment, but not manual dose, yield or pressure profiling. The independent Coffeeness review praised aroma and coffee quality while describing chosen settings; Coffeedant did not reproduce its sensory result or its sound reading.',
   milkNote: 'The exact US sheet lists single and paired cappuccino, latte macchiato, milk froth, espresso macchiato, cappuccino italiano, flat white, café au lait and caffè latte. The glass container and milk siphon support different storage routines. Automatic rinsing helps, but the manual still schedules cleaning of the flask, siphon, central spout, pipework and rinse valve.',
@@ -103,7 +103,7 @@ const profile: UpgradeReviewProfile = {
     workflow: { score: 8.5, claim: 'Profiles, paired drinks and accessible containers support a busy multi-user routine.', consequence: 'A 10-serving waste bin, rinse volume and menu navigation can add repeated touches.', status: 'Official capacities and interface plus mixed owner workflow reports', signals: ['Eight profiles and OneTouch for Two.', '1.8 L water and 300 g beans.', 'DirectSensor menus and frequent care remain part of the routine.'] },
     build: { score: 8.0, claim: 'Removable-brewer access and documented care are meaningful ownership strengths.', consequence: 'Premium positioning does not prove lifespan, and self-selected tray complaints remain unresolved at population level.', status: 'Official construction and maintenance record with limited owner evidence', signals: ['Removable brewer and milk pipework.', '251 × 359 × 427 mm body with 1.45 kW load.', 'No representative component-life or failure-rate study located.'] },
     features: { score: 9.0, claim: 'Profiles, paired recipes, bypass dosing, tea, pot mode and connectivity create a broad package.', consequence: 'One hopper and a restrained display leave room above it in the category.', status: 'Current exact US feature sheet checked September 24, 2026', signals: ['Eight profiles, Expert mode and programmable recipes.', 'Miele@home, MobileStart and RemoteUpdate.', 'One bean type and one bean container.'] },
-    value: { score: 6.8, claim: 'The promotion narrows the gap, but $2,549 remains a premium ask for one bean path.', consequence: 'Value depends on using paired milk, profiles and service access rather than merely wanting one-touch coffee.', status: 'Exact US retailer offer and manufacturer promotion checked September 24, 2026', signals: ['$2,549 exact Lotus white retailer listing.', '$2,999 Miele price with $450 off in cart.', 'Care supplies, warranty and service belong in ownership cost.'] },
+    value: { score: 6.8, claim: 'The premium is easiest to justify when several people use paired milk and profiles.', consequence: 'Value depends on the actual household order, physical cleaning and local service access.', status: 'Original score retained; earlier rebate expired October 11, 2026; no current discount verified', signals: ['Compare current authorized checkout for material 11648190.', 'The September 24 rebate example is historical and expired.', 'Care supplies, warranty and service belong in ownership cost.'] },
   },
   sources: [
     { label: 'Miele USA exact CM 6360 Lotus white product page', href: official, note: 'Exact material 11648190, EAN, current specifications, accessories, $2,999 price language and 4.7/5 from 26 reviews; checked September 24, 2026.' },
@@ -115,11 +115,11 @@ const profile: UpgradeReviewProfile = {
     { label: 'Miele exact US product data sheet', href: productSheet, note: 'Material-number-specific drink list, capacities, electrical data, dimensions, cleaning functions and included accessories.' },
     { label: 'Reddit CM5300, CM6360 and Jura comparison', href: ownerComparison, note: 'One detailed, self-selected short-term owner comparison reporting strong coffee but tray, door, hose and value concerns; not a failure-rate study.' },
     { label: 'Reddit CM6360 maintenance discussion', href: ownerCare, note: 'Small self-selected thread with positive two-year care reports and related-family comments; exact use and service histories are not controlled.' },
-    { label: 'Reddit new-owner CM6360 setup discussion', href: ownerSetup, note: 'Self-selected questions and replies about strength settings and milk-pipe rinse timing; useful workflow context, not official instructions.' },
+    { label: 'Reddit related-family CM6350 setup discussion', href: ownerSetup, note: 'The linked opening title identifies CM6350. Related-family rinse questions only; not exact CM6360 feature or reliability evidence.' },
     { label: 'Miele Canada CM 6360 product page', href: canada, note: 'Separate regional article and owner context used to preserve the US identity boundary, not to overwrite the 120 V US material record.' },
   ],
   comparisons: [
-    { name: 'Miele CM 6360 MilkPerfection', href: '/espresso-machine/miele-cm6360-milkperfection/', quickDecision: 'Choose paired milk drinks, eight profiles, removable-brewer care and a narrow body at the dated $2,549 price.', priceClass: '$2,549 checked Sep 24', dimensions: '251 × 427 × 359 mm W×D×H', heating: '1.45 kW automatic system', coffeeSetup: 'One conical grinder, 300 g hopper and bypass', milkWorkflow: 'Glass flask and paired OneTouch milk', bestFor: 'Premium multi-user milk households' },
+    { name: 'Miele CM 6360 MilkPerfection', href: '/espresso-machine/miele-cm6360-milkperfection/', quickDecision: 'Choose paired milk drinks, eight profiles, removable-brewer care and a narrow body when current checkout fits the budget.', priceClass: 'Check current US checkout; earlier rebate expired', dimensions: '251 × 427 × 359 mm W×D×H', heating: '1.45 kW automatic system', coffeeSetup: 'One conical grinder, 300 g hopper and bypass', milkWorkflow: 'Glass flask and paired OneTouch milk', bestFor: 'Premium multi-user milk households' },
     { name: 'Miele CM 7750 CoffeeSelect', href: '/espresso-machine/miele-cm7750-coffeeselect/', quickDecision: 'Step up when three bean containers and flagship automation justify a much larger budget.', priceClass: 'Ultra-premium superautomatic', dimensions: 'Larger flagship body', heating: 'Automatic bean-to-cup platform', coffeeSetup: 'CoffeeSelect multi-bean system', milkWorkflow: 'Automatic milk with broader flagship controls', bestFor: 'Several beans and premium automation' },
     { name: 'Jura E8', href: '/espresso-machine/jura-e8/', quickDecision: 'Compare its current interface and closed-brewer workflow when removable-brewer access is not essential.', priceClass: 'Premium superautomatic', dimensions: 'Premium automatic body', heating: 'Jura automatic platform', coffeeSetup: 'Single bean path and saved recipes', milkWorkflow: 'Hose-fed automatic milk', bestFor: 'Polished black coffee and guided operation' },
     { name: 'Melitta Barista TS Smart', href: '/espresso-machine/melitta-barista-ts-smart/', quickDecision: 'Choose two bean chambers, 21 recipes and eight profiles at a much lower dated price if US support is not required.', priceClass: '£649.99 direct Sep 24', dimensions: '259 × 467 × 372 mm W×D×H', heating: '1450 W automatic system', coffeeSetup: 'One grinder with dual bean chamber', milkWorkflow: 'Paired hose-fed one-touch milk', bestFor: 'Two-bean value seekers' },
@@ -139,12 +139,12 @@ const profile: UpgradeReviewProfile = {
     { question: 'What are the tank, hopper and dimensions?', answer: 'The US sheet lists 1.8 L water, a 300 g single hopper and a 251 × 359 × 427 mm W×H×D body. The glass milk container holds 0.7 L.' },
     { question: 'Is the brew unit removable?', answer: 'Yes. Miele documents removal and physical cleaning of the brew unit and interior. That access does not make the machine maintenance-free.' },
     { question: 'How much cleaning does the milk system require?', answer: 'The machine automatically rinses the milk pipework, but the manual also schedules physical cleaning of the flask, siphon, central spout, pipework and rinse valve.' },
-    { question: 'Is $2,549 a good price?', answer: 'It was the exact Lotus white Abt price on September 24, 2026, with a rebate stated to end October 11. Compare live checkout, warranty and full care cost before buying.' },
+    { question: 'Is the previously recorded rebate still valid?', answer: 'The earlier $450 rebate ended October 11, 2026. The September 24 price example is historical. Check live authorized checkout, warranty and full care cost; no current discount is verified here.' },
   ],
   finalTitle: 'Excellent milk convenience, but the premium must earn its place',
   finalVerdict: [
     'The exact US CM 6360 is a coherent premium automatic: paired milk drinks, eight profiles, a ground-coffee chute, a 1.8 L tank, a 300 g hopper, a glass milk flask, removable brewer and clear care documentation in a 251 mm-wide body. The independent review supports its coffee and milk promise, while the specification supports unusually broad daily personalization.',
-    'Price is the harder argument. At $2,549 on September 24, 2026, one bean path, a restrained display and a real milk-cleaning workload remain visible compromises. Buy it when several users will use the profiles and paired recipes and when local Miele support matters. Choose a less expensive automatic when one-touch basics are the whole job, or the CM 7750 only when multiple beans are worth flagship money.',
+    'The earlier rebate has expired, so compare current checkout rather than the September promotion. Buy when several people will use paired milk and profiles and local service matters. Choose a simpler automatic for one-touch basics, or the CM 7750 when multiple beans are the reason to spend more.',
   ],
   video: {
     id: '7gkD2fPkqwM',
@@ -165,7 +165,7 @@ profile.sectionOverrides = {
     <aside class="review-community-evidence" aria-labelledby="miele-cm6360-owner-title"><h3 id="miele-cm6360-owner-title">What the selected owner evidence actually says</h3><ul>
     <li><strong>Coffee quality can coexist with workflow complaints</strong><p>One detailed comparison praised the coffee yet criticized the drip tray, water-tank handle, milk-hose storage and brew-unit door access after a short ownership period.</p></li>
     <li><strong>Care-following owners also report positive experience</strong><p>A small Miele discussion includes an owner reporting two trouble-free years with regular cleaning and another related-family owner describing daily care as manageable.</p></li>
-    <li><strong>Rinse timing confuses some new owners</strong><p>A setup thread asks when the milk-pipe rinse prompt should appear. The current manual, not a forum reply, controls the required routine.</p></li>
+    <li><strong>Related-family setup questions have limited scope</strong><p>The linked CM6350 thread asks about milk-rinse timing. It cannot establish CM6360 behavior; use the exact CM6360 manual for the required routine.</p></li>
     </ul><p class="review-community-evidence-note">The evidence and its limits remain readable inside Coffeedant. Original addresses, dates and scope notes are preserved in the annotated source list.</p></aside><p>${profile.ownerCaution}</p>`,
 };
 

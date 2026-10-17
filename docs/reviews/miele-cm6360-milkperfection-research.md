@@ -1,5 +1,9 @@
 # Miele CM 6360 MilkPerfection 11648190 research ledger
 
+## October 17, 2026 revision
+
+Revised sections cover the shared grinder behind profiles, paired drinks, part-specific rinse-valve care, readiness modes and service-door clearance. Three pro tips are documented operating guidance, not firsthand testing. The $450 rebate ended October 11: the old $2,549 example is historical and removed from active recommendations and the Finder numeric fallback. No current discount was fetched or verified. The related-family owner source is correctly labelled CM6350. Existing scores and exact US material remain; current checkout, controlled beverage results, service costs and defect rates remain unknown. Official, independent and community evidence is traced in [the batch ledger](priority-review-upgrades-2026-10-17.md).
+
 Checked September 24, 2026. This ledger supports `/espresso-machine/miele-cm6360-milkperfection/` and permanent product ID `CD-EM-000211`. The assessment is research-led. Coffeedant did not operate, taste from, measure, open or durability-test this machine.
 
 ## Identity and region

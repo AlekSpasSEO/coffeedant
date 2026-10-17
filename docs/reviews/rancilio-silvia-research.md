@@ -1,5 +1,9 @@
 # Rancilio Silvia V6 research ledger
 
+## October 17, 2026 revision
+
+Revised stock-V6 espresso, milk and ownership sections explain thermal-state logging, batching coffee before steam, boiler restoration and used-unit water/service history. Three pro tips address a consistent start, a permanent heat-safe refill vessel and complete cost after a planned PID. No universal seconds-after-lamp recipe, measured service speed or energized inspection is recommended. Manufacturer photographs replace generic community imagery. Scores and stock identity remain. Controlled current-unit temperatures, repair costs and representative failure rates remain unknown. Official, independent and community sources are traced in [the batch ledger](priority-review-upgrades-2026-10-17.md).
+
 Review route: `/espresso-machine/rancilio-silvia/`
 Product ID: `CD-EM-000011`
 Model scope: current North American single-boiler Silvia V6/M-family listing, not Silvia Pro, Silvia Pro X, or a machine with an aftermarket PID.
