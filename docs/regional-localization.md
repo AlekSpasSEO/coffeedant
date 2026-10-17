@@ -1366,6 +1366,47 @@ mode, verify the automatic production deployment/live pages after merge and
 continue the remaining full articles. This batch uses no Amazon API, translation
 API, new credentials, paid billing, DNS changes or subagents.
 
+### Complete dosing guide in German and French; restore Brands index (2026-10-17)
+
+Batch twenty-nine directly completes `/journal/espresso-dosing/` in DE/FR,
+including its complete original guide, ten practical-check sections, all twenty
+check paragraphs, metadata, three visible/structured FAQ answers, methodology,
+accessible diagram text and shared runtime UI. The immutable snapshot has 107
+missing slots / 99 distinct source strings across this guide and the Brands
+index. Twenty long check paragraphs are mechanically assembled from explicitly
+authored sentences; their English assembly must exactly equal the frozen source.
+The remaining entries are fully authored, not article summaries or API output.
+
+New routes are `/journal/espresso-dosieren/` and `/journal/doser-expresso/`.
+The approved Dutch `/journal/espresso-doseren/` route and all existing cached
+wording remain unchanged. All original numbers, source-market dollar amounts,
+models, links, diagnostic caveats and SVG geometry are preserved. Wet-puck
+appearance alone is not presented as a quality score; dose, yield and grind
+changes retain the source's controlled-test limitations.
+
+The concurrent main-branch Brands navigation expansion is preserved. One missing
+structured WebPage title was withholding its current index in each edition;
+this batch fills that slot using the exact existing translated title, restoring
+the complete index for all three languages without rewriting its other text.
+
+All 110 localization tests, analytics, CF-target Finder, product-video and
+brand-navigation validators pass. Six whole-page generated checks compare both
+pages in all three editions, including complete visible main text, metadata,
+structured data, safely rewritten links, executable scripts, runtime UI and
+localized dates. Dosing checks include all ten sections, three complete FAQ
+answers and unchanged SVG geometry. These are generated-output/runtime checks,
+not a new browser or product-testing claim. All 148 Finder descriptions remain
+distinct, with unknown regional prices and buying links suppressed.
+
+Import adds one current NL cache entry and 107 each for DE/FR, with zero previous
+cached text changes. The current source has 240 canonical pages / 49,081 unique
+slots. Each edition now has 68 ready regular pages plus its 404, with 41,683
+pending slots; these are not complete editions. Fresh coverage is recorded in
+`localization/direct-progress.json`. Preserve incremental `ready-pages` publication and verify the
+automatic production deployment, live manifests, sitemaps and reciprocal language
+links after merge. No Amazon API, paid translation API, new credentials, billing,
+DNS changes or subagents are used by this batch.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
