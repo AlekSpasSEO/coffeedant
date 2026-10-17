@@ -1,5 +1,9 @@
 # Gaggia Classic GT research ledger
 
+## October 17, 2026 revision
+
+Revised sections distinguish volume from beverage mass, preserve the North American preinfusion boundary and describe an achievable dual-boiler routine. Three pro tips cover scale calibration, controllable steam settings and checking scheduled readiness. Duplicate self-comparisons are replaced by Elizabeth, Silvia Pro X and Breville Dual Boiler, with GO as the espresso-first single-boiler alternative. Commercial launch posts are not longitudinal owner evidence. No universal preinfusion fault or promised firmware fix is claimed. Scores and 120 V identity remain; controlled flow/temperature measurements and long-term incidence remain unknown. See [the batch ledger](priority-review-upgrades-2026-10-17.md) for official, independent and community sources.
+
 - Canonical route: `/espresso-machine/gaggia-classic-gt/`
 - Permanent product ID: `CD-EM-000174`
 - Research checked: September 23, 2026

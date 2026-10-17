@@ -1,10 +1,10 @@
-# Gaggia Accademia RI9781/01 review: glass-front luxury with two milk paths media ledger
+# Gaggia Accademia review: choose your milk routine first media ledger
 
-Generated from the rendered review updated 2026-09-23. This is the publication audit record for the inline editorial media. The implementation remains the canonical machine-readable record.
+Generated from the rendered review updated 2026-10-17. This is the publication audit record for the inline editorial media. The implementation remains the canonical machine-readable record.
 
 ## Density and source mix
 
-- Editorial word count, excluding captions and embeds: 5377
+- Editorial word count, excluding captions and embeds: 5363
 - Publication image cap: 3 total images
 - Images published: 3 (2 inline images plus one product hero)
 - User-generated or community inline images: 0 of 2

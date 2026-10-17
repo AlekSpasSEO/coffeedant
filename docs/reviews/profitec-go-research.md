@@ -1,5 +1,9 @@
 # Profitec GO original US research ledger
 
+## October 17, 2026 revision
+
+Revised original-US-GO guidance covers the distinct PID/grind/OPV roles, reproducible starting state, post-steam refill, two-cappuccino sequencing and cup/scale fit. Three pro tips are editorial guidance, not firsthand ownership. The prior CLn zero default and 15-second counting clarification remain. The manufacturer-authored manual is now linked through Clive because the old manufacturer PDF address returns 404. Its 2023 revision does not establish later firmware readiness behavior. Scores and identity remain; controlled US transition measurements and defect incidence remain unknown. Full official, independent and community provenance is in [the batch ledger](priority-review-upgrades-2026-10-17.md).
+
 Research checked September 24, 2026. The published review is research-led; Coffeedant did not test, measure, photograph or disassemble this machine.
 
 ## Identity and generation

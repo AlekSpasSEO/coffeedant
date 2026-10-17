@@ -1,5 +1,9 @@
 # Gaggia Accademia Glass RI9781/01 research ledger
 
+## October 17, 2026 revision
+
+Revised recipe, milk, workflow and feature copy explains physical grinder/outlet settings shared behind profiles, coffee-first tuning, the carafe-versus-wand decision and rinse handling. Three pro tips add a base-recipe habit, a two-milk-route demonstration and bounded rinse-cup guidance. Automatic alternatives replace an irrelevant lever recommendation. The European 230 V RI9781/01 identity and scores remain. Owner reports from another regional suffix do not establish exact feature parity. Milk temperature, rinse volume, throughput and defect incidence remain unknown. Official, independent and community provenance is in [the batch ledger](priority-review-upgrades-2026-10-17.md).
+
 - Canonical route: `/espresso-machine/gaggia-accademia-ri9781-01/`
 - Product ID: `CD-EM-000164`
 - Evidence lock: 2026-09-23

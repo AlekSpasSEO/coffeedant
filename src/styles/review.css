@@ -165,6 +165,9 @@
 .review-performance-score strong { font-size: 1.55rem; letter-spacing: -.05em; line-height: 1; }
 .review-performance-score span { color: var(--muted); font-size: .62rem; font-weight: 750; text-transform: uppercase; }
 .review-performance-detail > p { max-width: 780px; margin-inline: auto; }
+.review-section-body .review-pro-tip { max-width: 780px; margin: 28px auto; padding: 22px 24px; border-left: 4px solid var(--green); background: #f1f4e9; }
+.review-section-body .review-pro-tip h3 { margin: 0 0 10px; font-size: 1.05rem; line-height: 1.4; }
+.review-section-body .review-pro-tip p { margin: 0; }
 .review-diagnosis-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 24px; }
 .review-diagnosis-grid > div { display: grid; gap: 5px; min-width: 0; padding: 18px; border: 1px solid var(--line); background: #f7f4eb; }
 .review-diagnosis-grid strong { color: var(--ink); font-size: .8rem; line-height: 1.4; }
