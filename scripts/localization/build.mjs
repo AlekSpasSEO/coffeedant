@@ -8,6 +8,7 @@ import { root, config, getEdition, sourceOrigin, interfaceSource, readJson, load
   appendHtml, jsonSlots, textContent, contentId, writeJson, policyHash } from './core.mjs';
 import { collectSource, prepareRegionalDocument, documentJson } from './source.mjs';
 import { readySource } from './ready.mjs';
+import { addSelector, contextSummary } from './region-ui.mjs';
 
 const escape = (value) => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 export const validatedRoutes = (source, cache) => {
@@ -85,22 +86,6 @@ const addAlternates = (document, page, releases) => {
   appendHtml(head, `<link rel="alternate" hreflang="en-US" href="${sourceOrigin}${escape(page.sourcePath)}"><link rel="alternate" hreflang="en" href="${sourceOrigin}${escape(page.sourcePath)}"><link rel="alternate" hreflang="x-default" href="${sourceOrigin}${escape(page.sourcePath)}">`);
   for (const variant of variants) appendHtml(head,
     `<link rel="alternate" hreflang="${variant.hreflang}" href="https://${variant.host}${escape(safeRoute(releases.editions[variant.id].verifiedPaths[page.id]))}">`);
-};
-
-const addSelector = (document, page, releases, edition, ui) => {
-  const variants = config.editions.filter(({ id, published }) => id !== 'us' && published && releases.editions[id]?.verifiedPaths?.[page.id]);
-  if (!variants.length) return;
-  const languages = new Intl.DisplayNames(edition.locale, { type: 'language' });
-  const regions = new Intl.DisplayNames(edition.locale, { type: 'region' });
-  const links = [{ edition: getEdition('us'), route: page.sourcePath }, ...variants.map((variant) => ({ edition: variant, route: safeRoute(releases.editions[variant.id].verifiedPaths[page.id]) }))];
-  const html = `<nav data-language-region aria-label="${escape(ui.languageRegion)}" style="padding:12px 20px;border-bottom:1px solid #ddd;display:flex;flex-wrap:wrap;gap:12px">${links.map(({ edition: target, route }) => {
-    const country = target.locale.split('-')[1];
-    const label = `${languages.of(target.locale.split('-')[0])} · ${regions.of(country)}`;
-    return `<a href="https://${target.host}${escape(route)}" hreflang="${target.hreflang}" lang="${target.locale}">${escape(label)}</a>`;
-  }).join('')}</nav>`;
-  const body = walk(document).find((node) => node.tagName === 'body');
-  appendHtml(body, html);
-  const selector = body.childNodes.pop(); body.childNodes.unshift(selector);
 };
 
 export const buildRegional = async (editionId, options = {}) => {
@@ -182,8 +167,10 @@ export const buildRegional = async (editionId, options = {}) => {
       node.childNodes = [{ nodeName: '#text', value: JSON.stringify(value).replaceAll('<', '\\u003c'), parentNode: node }];
     }
     const body = walk(document).find((node) => node.tagName === 'body');
-    appendHtml(body, `<aside data-regional-context lang="${edition.locale}" style="margin:24px auto;padding:20px;max-width:1100px;border:1px solid #ddd"><p>${escape(ui.regionalContext)}</p><p>${escape(ui.regionalBuyingPending)}</p><a href="${sourceOrigin}${escape(page.sourcePath)}" lang="en-US">${escape(ui.sourceVersion)}</a></aside>`);
-    const context = body.childNodes.pop(); body.childNodes.unshift(context);
+    appendHtml(body, `<details data-regional-context lang="${edition.locale}"><summary>${escape(contextSummary(edition.id))}</summary><div class="cd-region-context-copy"><p>${escape(ui.regionalContext)}</p><p>${escape(ui.regionalBuyingPending)}</p><a href="${sourceOrigin}${escape(page.sourcePath)}" lang="en-US">${escape(ui.sourceVersion)}</a></div></details>`);
+    const context = body.childNodes.pop();
+    const headerIndex = body.childNodes.findIndex(node => node.tagName === 'header');
+    body.childNodes.splice(headerIndex + 1, 0, context);
     if (partial) {
       const notice = {
         nl: 'Deze editie groeit: volledig vertaalde artikelen worden regelmatig toegevoegd. Nog niet vertaalde artikelen openen in het Engels.',
@@ -191,7 +178,7 @@ export const buildRegional = async (editionId, options = {}) => {
         fr: 'Cette édition s’enrichit : les articles entièrement traduits sont ajoutés régulièrement. Les articles pas encore traduits s’ouvrent en anglais.',
       }[edition.id];
       if (!notice) throw new Error(`Missing incremental publication notice for ${edition.id}`);
-      appendHtml(context, `<p data-incremental-edition>${escape(notice)}</p>`);
+      appendHtml(context.childNodes.find(node => node.tagName === 'div'), `<p data-incremental-edition>${escape(notice)}</p>`);
     }
     const primaryOffer = verifiedOffer(market?.products?.[page.sourcePath], offers?.offers?.[page.sourcePath], market, edition);
     if (primaryOffer) appendHtml(body, `<aside data-regional-offer style="margin:24px auto;padding:20px;max-width:1100px"><a href="${escape(primaryOffer.detailPageUrl)}" rel="nofollow sponsored noopener" target="_blank">Amazon ↗</a><p>${escape(primaryOffer.price ?? ui.regionalPricePending)} · ${escape(primaryOffer.availabilityMessage)}</p></aside>`);

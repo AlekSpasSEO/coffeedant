@@ -6,7 +6,33 @@ import path from 'node:path';
 import { collectSource, prepareRegionalDocument } from '../source.mjs';
 import { readySource } from '../ready.mjs';
 import { buildRegional, rewriteInternalUrl } from '../build.mjs';
-import { emptyCache, policyHash, root, getEdition, parseHtml, walk, attr, slots } from '../core.mjs';
+import { emptyCache, policyHash, root, getEdition, parseHtml, walk, attr, slots, contentId } from '../core.mjs';
+import { addSelector } from '../region-ui.mjs';
+
+test('compact region chooser uses translated article routes and published homepages without entering source translations', () => {
+  const page = { id: contentId('/review/'), sourcePath: '/review/' };
+  const releases = { editions: {
+    nl: { verifiedPaths: { [page.id]: '/testbericht/' } },
+    de: { verifiedPaths: {} }, fr: { verifiedPaths: {} },
+  } };
+  const document = parseHtml('<html><head></head><body><header><div class="cd-header__inner"></div></header><main><h1>Source review</h1></main></body></html>');
+  addSelector(document, page, releases, getEdition('nl'), { languageRegion: 'Taal en regio' });
+  // Reprocessing must not duplicate the generated chooser or its assets.
+  addSelector(document, page, releases, getEdition('nl'), { languageRegion: 'Taal en regio' });
+  const nodes = walk(document);
+  const nav = nodes.filter(node => attr(node, 'data-language-region') !== undefined);
+  assert.equal(nav.length, 1);
+  assert.equal(attr(nav[0].parentNode, 'class'), 'cd-header__inner');
+  const links = walk(nav[0]).filter(node => node.tagName === 'a');
+  assert.deepEqual(links.map(node => attr(node, 'href')), ['https://coffeedant.com/review/', 'https://nl.coffeedant.com/testbericht/', 'https://fr.coffeedant.com/', 'https://de.coffeedant.com/']);
+  assert.equal(attr(links.find(node => attr(node, 'aria-current')), 'hreflang'), 'nl-NL');
+  const menu = walk(nav[0]).find(node => node.tagName === 'details');
+  assert.equal(attr(menu, 'open'), undefined);
+  assert(nodes.some(node => node.tagName === 'svg'));
+  prepareRegionalDocument(document);
+  assert(!walk(document).some(node => attr(node, 'data-region-ui') !== undefined || attr(node, 'data-language-region') !== undefined));
+  assert.deepEqual(slots(document).map(slot => slot.source), ['Source review']);
+});
 
 test('generated US language chooser is not reindexed as authored regional copy', () => {
   const document = prepareRegionalDocument(parseHtml('<html><body><nav data-language-region><a href="https://nl.coffeedant.com/">Dutch · Netherlands</a></nav><nav aria-label="Editorial navigation"><a href="/journal/">Journal library</a></nav><main><p>Complete source article.</p></main></body></html>'));
@@ -45,6 +71,8 @@ test('incremental editions publish complete pages, add finished translations and
     assert(home.includes('https://coffeedant.com/unfinished/?a=1#section'));
     assert(home.includes('src="/brand/logo.png"'));
     assert(home.includes('data-incremental-edition')); assert(!home.includes('noindex'));
+    const notice = walk(parseHtml(home)).find(node => attr(node, 'data-regional-context') !== undefined);
+    assert.equal(notice.tagName, 'details'); assert.equal(attr(notice, 'open'), undefined);
     assert(!(await readFile(path.join(output, 'sitemap.xml'), 'utf8')).includes('/artikel/'));
     await assert.rejects(readFile(path.join(output, 'artikel/index.html')), /ENOENT/);
     cache.segments[pending.id] = { source: pending.source, text: 'Dit artikel wacht nog op vertaling.', policyHash };

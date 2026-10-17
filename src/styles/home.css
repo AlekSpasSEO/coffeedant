@@ -531,7 +531,8 @@ h1 {
   }
   .nav-panel-brands a:nth-child(3n) { border-right: 1px solid var(--line); }
   .nav-panel-brands a:nth-child(even) { border-right: 0; }
-  .hero-grid { grid-template-columns: 1fr; min-height: auto; }
+  .hero-grid { grid-template-columns: minmax(0, 1fr); min-height: auto; }
+  .hero-grid h1 { overflow-wrap: anywhere; }
   .hero-copy { max-width: 760px; }
   .finder { max-width: 720px; }
   .section-heading { grid-template-columns: 70px 1fr; }
