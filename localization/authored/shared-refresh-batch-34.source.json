@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/brands/",
+      "sourceHash": "d88794dca91b7a73fcba2ba57a031e2a287ddd5b94b5ad71f88145623e4844b9"
+    },
+    {
+      "sourcePath": "/profitec/",
+      "sourceHash": "5f178e2be9311f81e5a3ec188471584c7dc3f537ef9b63eaec325c3a2a7b6949"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "57da109e292b400fc2df12e59a6b54a8d802c95a3904fa74af823d4b1f38b28b",
+      "source": "Coffee Equipment Brands: Browse 41 Manufacturers | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "cec7797928aaa3554ff9b1665aac91c3bfef971b54c69161126e01efca6571c5",
+      "source": "Profitec espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 7 Coffeedant reviews.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "6ae823f0c7299d44e5884bf7182ca86a6bb151ea64db6a00493566cfabede6b9"
+}

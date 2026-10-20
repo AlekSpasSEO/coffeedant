@@ -1601,6 +1601,72 @@ merge. The existing newer French cache update is preserved, not counted as direc
 batch 33 work. No Amazon API, paid translation API, billing, new credentials,
 DNS changes or subagents are used for the direct batch.
 
+## Direct batch 34: complete distribution guide and source synchronization (2026-10-20)
+
+The complete current `/journal/ground-distribution/` is directly translated into
+Dutch, German and French against immutable `distribution-guide-batch-34.source.json`.
+All 4,999 source words / 170 paragraphs are represented: the original article,
+WDT steps, alternative methods, diagnostic grids and placeholders, workflow,
+maintenance, two full practical checks, both schematic states, evidence and owner
+limitations, metadata, image credits and three visible/structured FAQ answers.
+Legacy technical claims are preserved, not certified or rewritten as local tests.
+
+The task freezes 370 missing slots / 361 distinct strings. The base authors 356
+complete strings; the parts author the four full practical-check paragraphs.
+Five recurring comparison/recording chunks reuse passing batch 33 wording.
+`compose-direct.mjs` verifies each assembled English paragraph against the frozen
+source; the final authored JSON contains 360 translations and one explicit
+proper-title approval, `Barista Hustle: Weiss Distribution Technique`.
+Keep the base, parts, snapshot and generated final JSON together. No paid
+translation provider is used. Stable new routes are `/journal/koffie-verdelen/`,
+`/journal/kaffeemehl-verteilen/` and `/journal/repartition-mouture/` respectively.
+Existing URLs and all prior cache wording remain unchanged.
+
+Concurrent main-branch PR #177 refreshed ten reviews, and PR #175 added eight
+source pages plus shared and decaf translations. Both were incorporated before
+final validation without changing their editorial work or released wording.
+The already released `decaf-refresh-20261020` wording is retained, not counted
+as this batch's translation. It preserves Slow Motion roast-date uncertainty,
+roaster-specific grind scales, current-lot rather than permanent origin claims,
+recipe/measurement distinctions, unconverted fluid-ounce output and explicit
+absence of Coffeedant tasting. Duplicate working translations were removed.
+
+The original distribution snapshot remains immutable. A separate full current
+`distribution-guide-current-batch-34.source.json` freezes 902 page/interface
+slots after the shared-source changes; all original 370 authored slots remain
+present and unchanged. Every current slot has passing cached text. Two newly
+generated JSON metadata slots on Brands and Profitec reuse the exact already
+released wording via immutable `shared-refresh-batch-34` files, keeping those
+existing pages ready. The batch adds 372 current cache entries per edition and
+changes no prior text. New machine/bean pages remain queued, not falsely counted
+as translated here.
+
+All 128 localization tests and analytics, CF-target Finder, video and brand
+navigation validators pass. Whole-page checks cover all three distribution
+articles, and fifteen further checks compare the full main text, links and
+metadata of the five updated bean reviews in each language. The actual compiled
+schematic handler is tested in both directions: native labels remain intact,
+pressed states and hidden panels switch correctly. SVG geometry, image assets,
+link destinations, numbers, placeholders, dollar examples and Fahrenheit values
+are unchanged. Spring force remains explicit `30 lb`, not metric local pounds.
+Diagram labels preserve their negative/illustrative meaning in compact native
+wording. At Arial 22 px, the first caption measures NL 369 / DE 466 / FR 459 px
+inside 495 units, the second NL 456 / DE 466 / FR 473 px inside 489 units.
+These are bounded rendered-output, font-metric and VM checks, not a browser or
+physical extraction experiment. All 149 current Finder descriptions remain distinct;
+unverified commerce stays suppressed.
+
+Current coverage is 248 source pages / 50,367 unique slots. Each edition has 73
+ready regular pages plus 404, including all 17 current canonical Journal articles
+and the 20 previously translated bean reviews. Five newly added bean reviews
+remain pending. Pending slots are NL 41,668 and DE/FR 41,639 each; whole
+editions remain incomplete. Preserve incremental publication and continuation.
+After merge, verify the exact automatic production deployment, live manifests,
+all 219 regular sitemap URLs, full new articles and reciprocal English links.
+The reviewed Dutch `/journal/espresso-doseren/` stays intact. No API credentials,
+Amazon requests, paid translation APIs, billing changes, DNS changes or subagents
+are needed for this direct batch.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
