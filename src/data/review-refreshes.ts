@@ -3,6 +3,7 @@ import refreshes from './review-refreshes.json';
 import october14Refreshes from './review-refreshes-2026-10-14.json';
 import october15Refreshes from './review-refreshes-2026-10-15.json';
 import october17Refreshes from './review-refreshes-2026-10-17.json';
+import october20Refreshes from './review-refreshes-2026-10-20.json';
 
 // Dated, sourced corrections to existing reviews. Keep original evidence intact.
 export const applyReviewRefresh = (review: MachineReviewData): MachineReviewData => {
@@ -10,11 +11,13 @@ export const applyReviewRefresh = (review: MachineReviewData): MachineReviewData
   const current = october14Refreshes.find((item) => item.slug === review.slug);
   const october15 = october15Refreshes.find((item) => item.slug === review.slug);
   const october17 = october17Refreshes.find((item) => item.slug === review.slug);
-  if (!refresh && !current && !october15 && !october17) return review;
+  const october20 = october20Refreshes.find((item) => item.slug === review.slug);
+  if (!refresh && !current && !october15 && !october17 && !october20) return review;
   if (!refresh) {
     const throughOctober14 = current ? applyOctober14Refresh(review, current) : review;
     const throughOctober15 = october15 ? applyOctober15Refresh(throughOctober14, october15) : throughOctober14;
-    return october17 ? applyOctober17Refresh(throughOctober15, october17) : throughOctober15;
+    const throughOctober17 = october17 ? applyOctober17Refresh(throughOctober15, october17) : throughOctober15;
+    return october20 ? applyOctober20Refresh(throughOctober17, october20) : throughOctober17;
   }
   if (review.productId !== refresh.productId) throw new Error(`Refresh identity mismatch: ${review.slug}`);
   const section = review.article.sections.find((item) => item.id === refresh.sectionId)
@@ -32,7 +35,32 @@ export const applyReviewRefresh = (review: MachineReviewData): MachineReviewData
   };
   const throughOctober14 = current ? applyOctober14Refresh(previous, current) : previous;
   const throughOctober15 = october15 ? applyOctober15Refresh(throughOctober14, october15) : throughOctober14;
-  return october17 ? applyOctober17Refresh(throughOctober15, october17) : throughOctober15;
+  const throughOctober17 = october17 ? applyOctober17Refresh(throughOctober15, october17) : throughOctober15;
+  return october20 ? applyOctober20Refresh(throughOctober17, october20) : throughOctober17;
+};
+
+type October20Refresh = (typeof october20Refreshes)[number];
+
+const applyOctober20Refresh = (review: MachineReviewData, refresh: October20Refresh): MachineReviewData => {
+  if (review.productId !== refresh.productId) throw new Error(`October 20 refresh identity mismatch: ${review.slug}`);
+  const section = review.article.sections.find((item) => item.id === refresh.sectionId);
+  if (!section) throw new Error(`October 20 refresh section missing: ${review.slug}#${refresh.sectionId}`);
+  return {
+    ...review,
+    updated: review.updated > '2026-10-20' ? review.updated : '2026-10-20',
+    article: {
+      ...review.article,
+      sections: review.article.sections.map((item) => item === section
+        ? { ...item, html: `${refresh.html}${item.html}` }
+        : item),
+      sources: [...review.article.sources, {
+        id: 'refresh-20261020',
+        label: `October 20 model-specific clarification: ${review.brand} ${review.model}`,
+        href: refresh.source,
+        note: `${refresh.note} Checked October 20, 2026; research-led, without new physical testing or score changes.`,
+      }],
+    },
+  };
 };
 
 type October14Refresh = (typeof october14Refreshes)[number];
