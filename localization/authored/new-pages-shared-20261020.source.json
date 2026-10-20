@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/",
+      "sourceHash": "e818f68a3ad2000f3a688455b6951b5ebef3297cf79dc59119dad7abaaf2b1ed"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "f6c4424a1836ad4e26d4d6204dbb81ac67ab769bc7d650ff1af6221af5e9699c",
+      "source": "Eureka",
+      "kind": "text",
+      "context": "Eureka"
+    },
+    {
+      "id": "0c0c028a08d97570c36d59d43ddc842cf76ad115d3d507886506c4a0422083df",
+      "source": "65 mm flat-burr single-dose espresso and filter grinder",
+      "kind": "text",
+      "context": "65 mm flat-burr single-dose espresso and filter grinder"
+    },
+    {
+      "id": "a1f599fb25869cafccf64b9f3e61c5cc2f07ffa88b2acc1a7408c0178d13e717",
+      "source": "Mignon Zero 65 All Purpose",
+      "kind": "text",
+      "context": "Mignon Zero 65 All Purpose"
+    },
+    {
+      "id": "ee7775213f4ef077464cb0c0c7c4e32397f2d41688488da377b71f0438a92e57",
+      "source": "Compact heat-exchanger espresso machine with three-position boiler-temperature switch",
+      "kind": "text",
+      "context": "Compact heat-exchanger espresso machine with three-position boiler-temperature switch"
+    },
+    {
+      "id": "b2a4d399446271960b7b6ffcf11458e1b425145b5c014e11332153c33140306c",
+      "source": "JUMP",
+      "kind": "text",
+      "context": "JUMP"
+    }
+  ],
+  "snapshotHash": "b2fff56d2f4f132106403111e9b629cbcb339a16c97b820e32c8c943c4f8034a"
+}

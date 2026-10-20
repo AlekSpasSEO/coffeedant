@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "editions": ["nl", "de", "fr"],
+  "scope": "segments",
+  "snapshot": "new-pages-shared-20261020.source.json",
+  "snapshotHash": "b2fff56d2f4f132106403111e9b629cbcb339a16c97b820e32c8c943c4f8034a",
+  "preserveSource": [0, 2, 4],
+  "translations": {
+    "1": {
+      "nl": "65 mm espressomolen met platte maalschijven voor enkele doses en filterkoffie",
+      "de": "Single-Dose-Mühle mit 65-mm-Flachmahlscheiben für Espresso und Filterkaffee",
+      "fr": "Moulin monodose à meules plates de 65 mm pour espresso et café filtre"
+    },
+    "3": {
+      "nl": "Compacte espressomachine met warmtewisselaar en een driestandenschakelaar voor de boilertemperatuur",
+      "de": "Kompakte Espressomaschine mit Wärmetauscher und dreistufigem Schalter für die Boilertemperatur",
+      "fr": "Machine à espresso compacte à échangeur de chaleur avec sélecteur de température de chaudière à trois positions"
+    }
+  }
+}

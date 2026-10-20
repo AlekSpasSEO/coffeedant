@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/brands/",
+      "sourceHash": "a317ad9f1fcb5ccf22c25b27223bed8b1092aeb32d647389d432bc37e7ba771b"
+    },
+    {
+      "sourcePath": "/coffee-beans/",
+      "sourceHash": "b0b76111fbaff62a136945f16a65cff16c6832ba4a0a9ae56361931079256237"
+    },
+    {
+      "sourcePath": "/espresso-machine/",
+      "sourceHash": "033c42b775240050f6f84ca042a6659b780b36e7e9daabfcf4a53162c4b4b335"
+    },
+    {
+      "sourcePath": "/grinder/",
+      "sourceHash": "9c1cd439f2aada27dfd14497c7ef5adae16ea3b3a78c82300fc0b98540aedcbb"
+    },
+    {
+      "sourcePath": "/profitec/",
+      "sourceHash": "1401a4ef59eb352b11edda48a0ab5d06e28bb6b2582d849a3d9100bd109aebe4"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "33a8cb685f4f9eb27eac40de1d0252312ea8be72fccbeb71890cd85d0060ba86",
+      "source": "Coffee Equipment Brands: Browse 41 Manufacturers | Coffeedant",
+      "kind": "text",
+      "context": "Coffee Equipment Brands: Browse 41 Manufacturers | Coffeedant"
+    },
+    {
+      "id": "b5d78822da54cae643518126aaf857019c1f950136e5d80b860f1bc089426420",
+      "source": "Coffee Equipment Brands: Browse 41 Manufacturers | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "693272fad4b9764ff3a342b2036af203db75167c7011d1fb0eb30e288cf0e123",
+      "source": "41 manufacturers · one useful map",
+      "kind": "text",
+      "context": "41 manufacturers · one useful map"
+    },
+    {
+      "id": "44b91ac212f6deca12d58257383d78aafb2dadcd94f7132ae05b0c9f9795d88c",
+      "source": "Official Onyx Coffee Lab Geometry whole-bean bag",
+      "kind": "attribute",
+      "context": "Onyx Coffee Lab · United StatesGeometryGeometry is a defensible first bag for a buyer who wants a light, floral and fruit-led coffee for both filter and espresso. Onyx publishes distinct recipes for both. Its Colombian and Ethiopian components change every few months, so the named flavor direction and recipe are a starting point, not a guarantee for the next bag.Updated 2026-10-20 · Check current 10 oz price at October 20, 2026"
+    },
+    {
+      "id": "b94798ad21c33b9d6b30a001c44742a1fbcef5ac3073b1690d3d06e4599a4923",
+      "source": "Geometry",
+      "kind": "text",
+      "context": "Geometry"
+    },
+    {
+      "id": "dc3b1f48ac841d2a94aea199fa92d28282421fe9d0dae52c871e86745b7ac760",
+      "source": "Geometry is a defensible first bag for a buyer who wants a light, floral and fruit-led coffee for both filter and espresso. Onyx publishes distinct recipes for both. Its Colombian and Ethiopian components change every few months, so the named flavor direction and recipe are a starting point, not a guarantee for the next bag.",
+      "kind": "text",
+      "context": "Geometry is a defensible first bag for a buyer who wants a light, floral and fruit-led coffee for both filter and espresso. Onyx publishes distinct recipes for both. Its Colombian and Ethiopian components change every few months, so the named flavor direction and recipe are a starting point, not a guarantee for the next bag."
+    },
+    {
+      "id": "f77c191f2513c91e955af3d668c5948aa37f830ffa33d9af530eabecad6a5ba1",
+      "source": "· Check current 10 oz price at October 20, 2026",
+      "kind": "text",
+      "context": "Updated 2026-10-20 · Check current 10 oz price at October 20, 2026"
+    },
+    {
+      "id": "679fed734df830c3ef2998df02c7e5dc96c64322cbafc39638a9dfa161d8760c",
+      "source": "Official Onyx Coffee Lab Southern Weather whole-bean bag",
+      "kind": "attribute",
+      "context": "Onyx Coffee Lab · United StatesSouthern WeatherSouthern Weather suits a buyer seeking a moderate Onyx blend with chocolate and nut cues plus a citrus finish. Its official page foregrounds filter brewing, while Fellow publishes a separate espresso starting recipe for a sampled bag. That makes espresso plausible, but neither source establishes the taste of a future lot or a universal milk-drink winner.Updated 2026-10-20 · Check current 10 oz price at October 20, 2026"
+    },
+    {
+      "id": "3f3cc53948c2a05633ad725aac413b78a13ba3d61bd964d4cd397a363e2f7615",
+      "source": "Southern Weather",
+      "kind": "text",
+      "context": "Southern Weather"
+    },
+    {
+      "id": "2524f88fa1ed6b2e74761772b00847ef742173a9bc11f178b9b4d5c31d6d82dd",
+      "source": "Southern Weather suits a buyer seeking a moderate Onyx blend with chocolate and nut cues plus a citrus finish. Its official page foregrounds filter brewing, while Fellow publishes a separate espresso starting recipe for a sampled bag. That makes espresso plausible, but neither source establishes the taste of a future lot or a universal milk-drink winner.",
+      "kind": "text",
+      "context": "Southern Weather suits a buyer seeking a moderate Onyx blend with chocolate and nut cues plus a citrus finish. Its official page foregrounds filter brewing, while Fellow publishes a separate espresso starting recipe for a sampled bag. That makes espresso plausible, but neither source establishes the taste of a future lot or a universal milk-drink winner."
+    },
+    {
+      "id": "a17c353b33bac7b0a10e16c7b01b0d099848fad2d240ba221c4760d4f9e09862",
+      "source": "Official Peet’s Coffee Big Bang whole-bean bag",
+      "kind": "attribute",
+      "context": "Peet’s Coffee · United StatesBig BangBig Bang is the Peet’s choice for a medium-roast buyer who welcomes a fruit cue beside chocolate and graham. The US direct page lists a 16 oz whole-bean option and useful filter-method guidance, but its sold-out state and price selector conflict at this check. Treat availability and checkout price as unverified until a seller confirms them.Updated 2026-10-20 · Check current 16 oz price and stock at October 20, 2026"
+    },
+    {
+      "id": "89f970590a98a1577a8653c5d8b986c2acc21498b0173179347fec937541944f",
+      "source": "Peet’s Coffee · United States",
+      "kind": "text",
+      "context": "Peet’s Coffee · United States"
+    },
+    {
+      "id": "c909a9379f236712ffdbb507177adf832aeb64d1aedf79cc544c8e722e4686ce",
+      "source": "Big Bang",
+      "kind": "text",
+      "context": "Big Bang"
+    },
+    {
+      "id": "8d2740544bf39941783e42da6c873dcd715607647f8d23c50431586efb62ee5c",
+      "source": "Big Bang is the Peet’s choice for a medium-roast buyer who welcomes a fruit cue beside chocolate and graham. The US direct page lists a 16 oz whole-bean option and useful filter-method guidance, but its sold-out state and price selector conflict at this check. Treat availability and checkout price as unverified until a seller confirms them.",
+      "kind": "text",
+      "context": "Big Bang is the Peet’s choice for a medium-roast buyer who welcomes a fruit cue beside chocolate and graham. The US direct page lists a 16 oz whole-bean option and useful filter-method guidance, but its sold-out state and price selector conflict at this check. Treat availability and checkout price as unverified until a seller confirms them."
+    },
+    {
+      "id": "aadacacfc51fce5dd932bb115a99db11ed71c411963c092c120c99586ffb4d2a",
+      "source": "· Check current 16 oz price and stock at October 20, 2026",
+      "kind": "text",
+      "context": "Updated 2026-10-20 · Check current 16 oz price and stock at October 20, 2026"
+    },
+    {
+      "id": "03f295444a9855f0ba496f0e25c0bdcbdecd1824da2cc59e8417a47befcc6ae6",
+      "source": "Official Peet’s Coffee Arabian Mocha-Java whole-bean bag",
+      "kind": "attribute",
+      "context": "Peet’s Coffee · United StatesArabian Mocha-JavaArabian Mocha-Java fits the buyer who wants Peet’s darker body plus cocoa, wine-like port and cardamom in the roaster’s description. Its name refers to a historic blend style; the current listing spans broader regions and does not document an exclusively Yemeni and Javanese recipe. Direct stock and checkout value were ambiguous on October 20.Updated 2026-10-20 · Check current 16 oz price and stock at October 20, 2026"
+    },
+    {
+      "id": "83a7cb45dfd73735971fd4b32d46f2336a8945ff19572cebe14766901f538171",
+      "source": "Arabian Mocha-Java",
+      "kind": "text",
+      "context": "Arabian Mocha-Java"
+    },
+    {
+      "id": "7ee3db526a42d1ce9e9b92ee28ef2aa4efe41bfc2a2dc48a843d44cf45d981b7",
+      "source": "Arabian Mocha-Java fits the buyer who wants Peet’s darker body plus cocoa, wine-like port and cardamom in the roaster’s description. Its name refers to a historic blend style; the current listing spans broader regions and does not document an exclusively Yemeni and Javanese recipe. Direct stock and checkout value were ambiguous on October 20.",
+      "kind": "text",
+      "context": "Arabian Mocha-Java fits the buyer who wants Peet’s darker body plus cocoa, wine-like port and cardamom in the roaster’s description. Its name refers to a historic blend style; the current listing spans broader regions and does not document an exclusively Yemeni and Javanese recipe. Direct stock and checkout value were ambiguous on October 20."
+    },
+    {
+      "id": "9bfa7f6289f0ebb299b0a6b45eae222ec3572912d727fa53bdc591760d05c8bd",
+      "source": "Official Verve Coffee Roasters Streetlevel whole-bean bag",
+      "kind": "attribute",
+      "context": "Verve Coffee Roasters · United StatesStreetlevelStreetlevel is a useful one-bag candidate for someone moving among espresso, drip and immersion methods who likes a medium roast with fruit and honey in Verve’s flavor brief. Its current origin panel is clear at country level, but the blend lacks complete variety and process detail. An all-purpose label cannot replace separate brew recipes.Updated 2026-10-20 · Check current 12 oz price at October 20, 2026"
+    },
+    {
+      "id": "fe04cf57f220a5fce72bce3715d6116dd96f6eda507f291a4a5fbc23536ae45b",
+      "source": "Verve Coffee Roasters · United States",
+      "kind": "text",
+      "context": "Verve Coffee Roasters · United States"
+    },
+    {
+      "id": "b86cf796c5c74e3bc251d996cd239733f206a390b5d23fe08a47a64ea9379674",
+      "source": "Streetlevel",
+      "kind": "text",
+      "context": "Streetlevel"
+    },
+    {
+      "id": "1ee2ad7e09f03edbf2868dfa8f9d6ce68b2032b780dcaec3d20c11b189232e34",
+      "source": "Streetlevel is a useful one-bag candidate for someone moving among espresso, drip and immersion methods who likes a medium roast with fruit and honey in Verve’s flavor brief. Its current origin panel is clear at country level, but the blend lacks complete variety and process detail. An all-purpose label cannot replace separate brew recipes.",
+      "kind": "text",
+      "context": "Streetlevel is a useful one-bag candidate for someone moving among espresso, drip and immersion methods who likes a medium roast with fruit and honey in Verve’s flavor brief. Its current origin panel is clear at country level, but the blend lacks complete variety and process detail. An all-purpose label cannot replace separate brew recipes."
+    },
+    {
+      "id": "42a4e13a57b4e505a15e5975cd97dd02bacc6fcdc5fbb453d4b083761e06fbf9",
+      "source": "· Check current 12 oz price at October 20, 2026",
+      "kind": "text",
+      "context": "Updated 2026-10-20 · Check current 12 oz price at October 20, 2026"
+    },
+    {
+      "id": "c406e8d671f8adf8f2dc4f378aa483c99f8765165f39b73bce0e5a6bd25dfb64",
+      "source": "Compact heat exchanger",
+      "kind": "text",
+      "context": "Compact heat exchanger"
+    },
+    {
+      "id": "ca19599b27108bbcaf385c2956fe589439dd9b399e8bff349aa57addee6ef67b",
+      "source": "Compact heat-exchanger espresso and milk routine",
+      "kind": "text",
+      "context": "Compact heat-exchanger espresso and milk routine"
+    },
+    {
+      "id": "20f6a8d222025ddc0ae21b1d795998a592a9e918bc57b4c2c78bb9612395c423",
+      "source": "Indirect brew-temperature control",
+      "kind": "text",
+      "context": "Indirect brew-temperature control"
+    },
+    {
+      "id": "9f42a7ae6ba179569f6ae56b5084c6e6c00da548b5cc0014a2bc7cf5bdc07299",
+      "source": "Profitec JUMP",
+      "kind": "text",
+      "context": "Profitec JUMP"
+    },
+    {
+      "id": "eb9d7ca01dda642315bc99048e8ebfeb9fe163af22237ef431abbb3727234441",
+      "source": "Eureka Mignon Zero 65 All Purpose",
+      "kind": "text",
+      "context": "Eureka Mignon Zero 65 All Purpose"
+    },
+    {
+      "id": "a3c8854d9e9853bbc77ed0e0af3fde77355a8315fbf7879f52d3476db0393b08",
+      "source": "6 reviews cover distinct daily routines. Filter by power and priority to see where each fits.",
+      "kind": "text",
+      "context": "6 reviews cover distinct daily routines. Filter by power and priority to see where each fits."
+    },
+    {
+      "id": "d25ae5266e0a0c7b6f09f8fdb0bb78aaed8e1d1e1d8ecf5cce35dca34c3db4a6",
+      "source": "Marked stepless return between espresso and filter",
+      "kind": "text",
+      "context": "Marked stepless return between espresso and filter"
+    },
+    {
+      "id": "abf330c5cd4ba3c3ea2e541229be70f98225c684d2c68cce31832a8769ddfb92",
+      "source": "Bellows cannot guarantee zero old grounds in a decaf dose",
+      "kind": "text",
+      "context": "Bellows cannot guarantee zero old grounds in a decaf dose"
+    },
+    {
+      "id": "48d61b3d07575868450b659308b260abca323b5e1745d41ff34a5d17482e6adb",
+      "source": "06 · Electric",
+      "kind": "text",
+      "context": "06 · Electric"
+    },
+    {
+      "id": "ce1830f814bb4169c0abec3f22f5aa1e2d9ef3d9e74991b7005d3af63308d321",
+      "source": "04 / Switching coffee",
+      "kind": "text",
+      "context": "04 / Switching coffee"
+    },
+    {
+      "id": "50ebdf67f92641fb3ffb693b2feacaa632c642925aa165a7595177ba90d2b76c",
+      "source": "Regular in the morning. Decaf later.",
+      "kind": "text",
+      "context": "Regular in the morning. Decaf later."
+    },
+    {
+      "id": "d6d28c3ba04e5306ac155950ad0c938e721b5ac029c136beb0566d28241c04db",
+      "source": "Compare four exact grinder routines for changing beans, returning to a setting and handling retained grounds without assuming “zero” means empty.",
+      "kind": "text",
+      "context": "Compare four exact grinder routines for changing beans, returning to a setting and handling retained grounds without assuming “zero” means empty."
+    },
+    {
+      "id": "d89f2b225b90a7b7c6328be89fc6a8a4c40a5047c84ccb9083e22afb926f0d56",
+      "source": "Read the regular and decaf grinder guide →",
+      "kind": "text",
+      "context": "Read the regular and decaf grinder guide →"
+    },
+    {
+      "id": "b29c10617483c10ac452f7eef7ae9aaa2b427bb2d884d26dd050a5fd7f002b5d",
+      "source": "05 / Buying logic",
+      "kind": "text",
+      "context": "05 / Buying logic"
+    },
+    {
+      "id": "4adc519f50bf4b27777c8baa2fca91813400bf296d75bf4f75cd472ced3a72e6",
+      "source": "Profitec espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 7 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "dbb2e674cbae6cbf0928bbfa8140c8f2e2846fbf81234345d9328902fc008c83",
+      "source": "GO is the compact single-boiler entry. Pro 400, JUMP and Pro 500 cover distinct heat-exchanger workflows. Pro 600 and 700 add dual-boiler control. Pro 800 is the lever route.",
+      "kind": "text",
+      "context": "GO is the compact single-boiler entry. Pro 400, JUMP and Pro 500 cover distinct heat-exchanger workflows. Pro 600 and 700 add dual-boiler control. Pro 800 is the lever route."
+    }
+  ],
+  "snapshotHash": "b6e330f252f7dfb38619b195df38644d5ff782aa9e00f285ea9cef135be13c6d"
+}
