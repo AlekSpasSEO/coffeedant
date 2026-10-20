@@ -1500,6 +1500,50 @@ publication, verify automatic deployment and live manifests/sitemaps/language
 links after merge, and continue the remaining articles. No Amazon API, paid
 translation API, new credentials, billing, DNS changes or subagents are used.
 
+## Direct batch 32: complete Nordic-style coffee guide (2026-10-20)
+
+The complete current `/journal/nordic-style-coffee/` article is directly authored
+in Dutch, German and French against the immutable
+`nordic-guide-batch-32.source.json` snapshot. Its 190 missing slots contain 182
+distinct source strings: 167 have authored three-language translations and 15
+are explicit verbatim approvals for exact measurements, cultural terms, names
+and product identifiers. Repeated title and FAQ strings propagate across their
+DOM and structured-data slots. All 4,902 source words and 86 paragraphs are
+represented; this is not an abridged article or a technical revision of the
+preserved historical account.
+
+New stable routes are `/journal/noordse-koffiestijl/`,
+`/journal/nordischer-kaffee/` and `/journal/cafe-nordique/`. The approved Dutch
+`/journal/espresso-doseren/` route and earlier cached wording remain unchanged.
+Each cache adds exactly 190 entries relative to current main, with zero existing
+entries changed. The newer automated Dutch cache update is retained exactly and
+is not counted as direct batch 32 translation work.
+
+The guide includes the six-step upright AeroPress sequence, all historical and
+cultural sections, source-market dollar examples, distinct competition and home
+recipes, full evidence descriptions, photo limitations, metadata and three
+complete FAQ answers. Source figures, models, attributions, assets, executable
+scripts and original external destinations remain intact. Written-out thousands
+clarify English numeric notation. The measured 14 g / 200 g recipe remains
+separate from the owner's 16–17 g / 245 g adaptation; neither becomes a universal
+Nordic standard or newly invented Coffeedant test.
+
+All 119 localization tests and the analytics, CF-target Finder, video and brand
+navigation validators pass. Whole-page generated checks in each edition compare
+all main text, links, translated accessible labels, localized dates, metadata,
+Article/WebPage/ImageObject prose, three structured answers, SVG geometry,
+photographs, scripts and runtime UI. All 148 Finder descriptions remain distinct
+with unverified local commerce suppressed. These are generated-output/runtime
+checks, not a new browser session or physical brewing test.
+
+Current coverage is 240 source pages / 49,320 unique slots. Each edition has 71
+ready regular pages plus its 404. Remaining slots are NL 41,293 and DE/FR 41,264
+each. All three whole editions remain incomplete; keep incremental `ready-pages`
+publication and the continuation active. Verify the automatic production build,
+live manifests, all 213 regular sitemap URLs, new full pages and reciprocal
+language links after merge. No Amazon API, paid translation provider, billing,
+new credentials, DNS changes or subagents are used for this batch.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
