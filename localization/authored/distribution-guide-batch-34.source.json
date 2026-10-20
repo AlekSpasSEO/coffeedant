@@ -1,0 +1,2233 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/journal/ground-distribution/",
+      "sourceHash": "988ee67e8c2527af8351eee4b40f7f7fb3d04a9e87345df8508c6c9bf27146a7"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "efb88592ad574f9b8eafc6d4b4345fcc6fd857490d67b5ed4d3bab8905dc99ce",
+      "source": "Even Ground Distribution Before Espresso Extraction | Coffeedant",
+      "kind": "text",
+      "context": "Even Ground Distribution Before Espresso Extraction | Coffeedant"
+    },
+    {
+      "id": "aac3775467986e8963bfe85a8d759b56ce4b5e1abec75280657e4cadab72a77a",
+      "source": "Even Ground Distribution Before Espresso Extraction | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "5c10b3e1740f466ba3a395516fbf4a09c145d998b9c548574fccb1d462be8930",
+      "source": "Distribution is the work between grinding and tamping: moving loose grounds toward a more even density before compression. The aim is not a cosmetically perfect surface. It is a puck with fewer obvious weak paths for water.",
+      "kind": "text",
+      "context": "Distribution is the work between grinding and tamping: moving loose grounds toward a more even density before compression. The aim is not a cosmetically perfect surface. It is a puck with fewer obvious weak paths for water."
+    },
+    {
+      "id": "46f8a339642e257035da10feb9bc440adaec16394abc1257f511c616dc87010b",
+      "source": "Deliver a repeatable dose, break meaningful clumps, distribute through the depth of the bed when the grinder and workflow benefit, settle the grounds without aggressive impacts, then tamp level. Keep a distribution step only when it reduces shot-to-shot variation or improves taste in a controlled comparison.",
+      "kind": "text",
+      "context": "Deliver a repeatable dose, break meaningful clumps, distribute through the depth of the bed when the grinder and workflow benefit, settle the grounds without aggressive impacts, then tamp level. Keep a distribution step only when it reduces shot-to-shot variation or improves taste in a controlled comparison."
+    },
+    {
+      "id": "803411a519ebc743394b81ff957a8739e79fe435dbaa70db89ad01bfbd77f87c",
+      "source": "Surface leveling and deep distribution do different work",
+      "kind": "text",
+      "context": "Surface leveling and deep distribution do different work"
+    },
+    {
+      "id": "f588ad2049d584e63ffcd92d1717eb0fab2da2e88d19fb464392b81e664e59f4",
+      "source": "Toggle Surface and Deep to reveal the difference between smoothing the top and moving through the coffee bed. Clumps and arrows are conceptual, not a photograph or a calibrated flow map.",
+      "kind": "text",
+      "context": "Toggle Surface and Deep to reveal the difference between smoothing the top and moving through the coffee bed. Clumps and arrows are conceptual, not a photograph or a calibrated flow map."
+    },
+    {
+      "id": "50975d791c548578c6b99eedd40b0c9983b516aece3247aed82e74c12b0d5821",
+      "source": "Surface leveling and deep distribution do different work",
+      "kind": "attribute",
+      "context": "Visual explanation / Explore the mechanismSurface leveling and deep distribution do different workToggle Surface and Deep to reveal the difference between smoothing the top and moving through the coffee bed. Clumps and arrows are conceptual, not a photograph or a calibrated flow map. Uneven bedPrepared bed      Conceptual coffee bed before and after distribution through its depthClumps and gaps: surface tidiness cannot show the whole bed.Illustrative distribution through depth; no measured flow claim.  Basis: Source 1 ↗ · Source 2 ↗"
+    },
+    {
+      "id": "37d60754b7b9a21d9fd5da39804eed21072d6b31fc198a731af1c541a204ca7f",
+      "source": "Uneven bed",
+      "kind": "text",
+      "context": "Uneven bed"
+    },
+    {
+      "id": "074b59b223c3dbd935e62d04ef81692a10c9db93e289be26f46086bb517bf154",
+      "source": "Prepared bed",
+      "kind": "text",
+      "context": "Prepared bed"
+    },
+    {
+      "id": "ae2d6c407fbb5be67d1c7b82f327bd9667ba7a43a9de2918e88e743ad03d1165",
+      "source": "Conceptual coffee bed before and after distribution through its depth",
+      "kind": "text",
+      "context": "Conceptual coffee bed before and after distribution through its depth"
+    },
+    {
+      "id": "f692b678bdf7aa58fbd7873b33a39274f85cd9450867aa313211111c48938926",
+      "source": "Clumps and gaps: surface tidiness cannot show the whole bed.",
+      "kind": "text",
+      "context": "Clumps and gaps: surface tidiness cannot show the whole bed."
+    },
+    {
+      "id": "95c9657e71c6eb204d4dfc35119a7b7ef896e88966f9982fcd7405830787685f",
+      "source": "Illustrative distribution through depth; no measured flow claim.",
+      "kind": "text",
+      "context": "Illustrative distribution through depth; no measured flow claim."
+    },
+    {
+      "id": "e230f4226114294d995118496e07f8d9ed25c48aeb72b6eeecee78bb0eb940bf",
+      "source": "Distribution happens in the basket before tamping. A smooth-looking top does not establish that the coffee is evenly distributed underneath.",
+      "kind": "text",
+      "context": "Distribution happens in the basket before tamping. A smooth-looking top does not establish that the coffee is evenly distributed underneath."
+    },
+    {
+      "id": "f35f2e1fd232fb17c2e369a72e34d359710cc66723a284bd4eb5d45259bf93d2",
+      "source": "Breville Bambino, Niche Zero and leveling spring tamper",
+      "kind": "text",
+      "context": "Breville Bambino, Niche Zero and leveling spring tamper"
+    },
+    {
+      "id": "3a19c1a4d6b418d4a1532cf5fdea49c2352e8afb8b28761f4c6a7022cbe7ee1a",
+      "source": "A novice owner described inconsistent shots when they only tapped the basket, then reported three pleasing shots after adding WDT and making small grind adjustments. That is useful context for trying a low-cost preparation change, but it does not isolate WDT from the grinder changes or prove every setup needs it.",
+      "kind": "text",
+      "context": "A novice owner described inconsistent shots when they only tapped the basket, then reported three pleasing shots after adding WDT and making small grind adjustments. That is useful context for trying a low-cost preparation change, but it does not isolate WDT from the grinder changes or prove every setup needs it."
+    },
+    {
+      "id": "6bbe0f3d2d22639b2fd6a1bc3f569b2ee02baaf42c8838c708611a4f2c36e69f",
+      "source": "One beginner’s report, with concurrent grind adjustments and no blind or instrumented comparison.",
+      "kind": "text",
+      "context": "One beginner’s report, with concurrent grind adjustments and no blind or instrumented comparison."
+    },
+    {
+      "id": "d1ed91c3a2ccfd7cd4634522772753975052f89aca2333f46557c20120fcd282",
+      "source": "Uneven coffee distribution creates channels where water flows through the path of least resistance. Your shot under-extracts in dense zones and over-extracts where grounds are sparse. The result: sour notes mixed with bitterness, thin body, and crema that collapses in seconds instead of lasting a full minute.",
+      "kind": "text",
+      "context": "Uneven coffee distribution creates channels where water flows through the path of least resistance. Your shot under-extracts in dense zones and over-extracts where grounds are sparse. The result: sour notes mixed with bitterness, thin body, and crema that collapses in seconds instead of lasting a full minute."
+    },
+    {
+      "id": "77d0d524648a95be720a2e3257ff6bb8201a3db2eac82da6f15aad5f8d8b25c6",
+      "source": "Proper distribution ensures uniform water contact across all grounds. The difference in extraction yield between proper distribution and clumping reaches 15-20% according to refractometer measurements from specialty coffee research. A well-distributed puck extracts balanced sweetness and acidity without the harsh edges that signal channeling.",
+      "kind": "text",
+      "context": "Proper distribution ensures uniform water contact across all grounds. The difference in extraction yield between proper distribution and clumping reaches 15-20% according to refractometer measurements from specialty coffee research. A well-distributed puck extracts balanced sweetness and acidity without the harsh edges that signal channeling."
+    },
+    {
+      "id": "3ce05efde551645896cb885af97ea42c3d025936e2683f424769d54e241a67e3",
+      "source": "Why Distribution Matters More Than You Think",
+      "kind": "text",
+      "context": "Why Distribution Matters More Than You Think"
+    },
+    {
+      "id": "7169aaa989c728fca91fb6a8aba512d1f571ff263b8a2ab20dd67c8ae212bce7",
+      "source": "When you grind coffee, the burrs create clumps held together by static electricity, moisture, and mechanical compression. These clumps vary in density. Drop them into your portafilter and you get a chaotic landscape of peaks, valleys, and compressed pockets.",
+      "kind": "text",
+      "context": "When you grind coffee, the burrs create clumps held together by static electricity, moisture, and mechanical compression. These clumps vary in density. Drop them into your portafilter and you get a chaotic landscape of peaks, valleys, and compressed pockets."
+    },
+    {
+      "id": "5314739373038613d3abb51d615ae5619f978b13073f627f106bd10a01de8a7e",
+      "source": "Lock that uneven puck into your machine and water takes the easy route. It rushes through the loose areas in under 20 seconds, pulling only surface-level acids and creating sourness. Meanwhile, the dense zones trap water, over-extracting bitterness and astringency. You taste both problems in the same cup.",
+      "kind": "text",
+      "context": "Lock that uneven puck into your machine and water takes the easy route. It rushes through the loose areas in under 20 seconds, pulling only surface-level acids and creating sourness. Meanwhile, the dense zones trap water, over-extracting bitterness and astringency. You taste both problems in the same cup."
+    },
+    {
+      "id": "31cb182fd4e0d8b7b08364885d3a5ed2bd322a0531655696e2563699837b1004",
+      "source": "The science of channeling:",
+      "kind": "text",
+      "context": "The science of channeling:"
+    },
+    {
+      "id": "c88c6e9546731a0606554e6abe49640241c41e90d534ffb1dfb266040ce9713a",
+      "source": "Water always follows the path of least resistance. A pressure differential of just 0.5 bar between two areas of the puck causes water to preferentially flow through the lower-resistance zone. This creates a positive feedback loop where initial flow erodes channels deeper, accelerating the imbalance.",
+      "kind": "text",
+      "context": "The science of channeling: Water always follows the path of least resistance. A pressure differential of just 0.5 bar between two areas of the puck causes water to preferentially flow through the lower-resistance zone. This creates a positive feedback loop where initial flow erodes channels deeper, accelerating the imbalance."
+    },
+    {
+      "id": "f605ff881c48b0beac3944065b3e5305f7fbead2151718fbbd393cbe87d1f256",
+      "source": "Temperature compounds the issue. Water flowing through channels extracts hotter and faster, while stagnant zones stay cooler and under-extract. The temperature delta can reach 8-10°C between channeled and blocked areas according to thermal imaging studies.",
+      "kind": "text",
+      "context": "Temperature compounds the issue. Water flowing through channels extracts hotter and faster, while stagnant zones stay cooler and under-extract. The temperature delta can reach 8-10°C between channeled and blocked areas according to thermal imaging studies."
+    },
+    {
+      "id": "2112522c0fbe5c0878729def6bb5eb1180172c90a60a9763db9913e1d40e293e",
+      "source": "Visual inspection fails:",
+      "kind": "text",
+      "context": "Visual inspection fails:"
+    },
+    {
+      "id": "0e8623f9d2d824ec6fb3454eef4566d041096b6073668a400b787fde31528edd",
+      "source": "You cannot see internal channels. The top surface may look perfectly level while the interior contains clumps the size of rice grains. Only systematic mechanical distribution addresses subsurface density variations.",
+      "kind": "text",
+      "context": "Visual inspection fails: You cannot see internal channels. The top surface may look perfectly level while the interior contains clumps the size of rice grains. Only systematic mechanical distribution addresses subsurface density variations."
+    },
+    {
+      "id": "68ca8dcf55e15e21bdd0c6e45a478667e9427f4ccca44853b5f9ab8cf201ec25",
+      "source": "The WDT Method: Gold Standard for Clump Elimination",
+      "kind": "text",
+      "context": "The WDT Method: Gold Standard for Clump Elimination"
+    },
+    {
+      "id": "2b7b0921264e09bb221c969a840384bb61a792a08f74229b78ba9148d90125f7",
+      "source": "The Weiss Distribution Technique breaks up clumps mechanically using thin needles that penetrate the entire puck depth without compressing grounds.",
+      "kind": "text",
+      "context": "The Weiss Distribution Technique breaks up clumps mechanically using thin needles that penetrate the entire puck depth without compressing grounds."
+    },
+    {
+      "id": "6429e39749c0051e681416bad7b3876ecff4646a39f4d0f03e7fb94c5dcb565d",
+      "source": "Tools You Need",
+      "kind": "text",
+      "context": "Tools You Need"
+    },
+    {
+      "id": "4a418ab67f0dd6caa97d3f930d9ca96ceb74a0471a94276dba0262ac1fee5738",
+      "source": "Needles:",
+      "kind": "text",
+      "context": "Needles:"
+    },
+    {
+      "id": "d112640fed4322a62cfa41ad382c9cc8aef5963f83864fadfd8538d6b5e5e055",
+      "source": "Diameter matters. Use 0.3-0.4mm acupuncture needles or similar. Thicker needles (0.6mm+) compress grounds as they pass through, defeating the purpose. Thinner needles eliminate clumps without adding new density problems.",
+      "kind": "text",
+      "context": "Needles: Diameter matters. Use 0.3-0.4mm acupuncture needles or similar. Thicker needles (0.6mm+) compress grounds as they pass through, defeating the purpose. Thinner needles eliminate clumps without adding new density problems."
+    },
+    {
+      "id": "3d1ff5615975527bcd319b5e4d699e0fa49b9d510e978e4ef37756dd5ce7a91e",
+      "source": "Needle count:",
+      "kind": "text",
+      "context": "Needle count:"
+    },
+    {
+      "id": "d93b9d26e289cc6ece7d34d78aea81b39e4c2edcea5314748c1e9b67a97dc06e",
+      "source": "8-12 needles provide optimal coverage. Fewer than 6 needles require too many passes and risk over-working the grounds. More than 15 needles create crowding that prevents effective stirring.",
+      "kind": "text",
+      "context": "Needle count: 8-12 needles provide optimal coverage. Fewer than 6 needles require too many passes and risk over-working the grounds. More than 15 needles create crowding that prevents effective stirring."
+    },
+    {
+      "id": "48364f175225824e126c536cf0bc35659d880d992ac1e6f86f63d125a1bf1d9f",
+      "source": "Handle options:",
+      "kind": "text",
+      "context": "Handle options:"
+    },
+    {
+      "id": "8aeb84cacd1ad8c2e9fc88518d13f74f307a3330689badd0c3a58d010f9ec7a2",
+      "source": "3D-printed WDT tools with radial needle arrangement ($15-25)",
+      "kind": "text",
+      "context": "3D-printed WDT tools with radial needle arrangement ($15-25)"
+    },
+    {
+      "id": "c693470aae0fec2044dc4c951e5b19c53021ee606df46d32d77829c2b7dc50ce",
+      "source": "Cork with needles inserted at angles ($2 DIY)",
+      "kind": "text",
+      "context": "Cork with needles inserted at angles ($2 DIY)"
+    },
+    {
+      "id": "33858b696d5116c5c9465951683f71b8605f6b42f8187c4e9a59987c06d5c7e3",
+      "source": "Dedicated WDT tools like the AutoComb or Nucleus ($40-80)",
+      "kind": "text",
+      "context": "Dedicated WDT tools like the AutoComb or Nucleus ($40-80)"
+    },
+    {
+      "id": "7cfedfaf7413adf55a42445ef8a9ae131f0a7474c2bee40fbf3045cac1e65b07",
+      "source": "Straightened paperclips work but lack durability",
+      "kind": "text",
+      "context": "Straightened paperclips work but lack durability"
+    },
+    {
+      "id": "07afa18858455bd44daa6520460f75f779af5fbc5ba4cd414e489d1118bbd326",
+      "source": "Basket preparation:",
+      "kind": "text",
+      "context": "Basket preparation:"
+    },
+    {
+      "id": "f52082a26f943f4a67c27e67c5f7ef8d26e0faaef3ca5de8da07df1daec9ab93",
+      "source": "Use a dosing funnel or collar that fits your portafilter. This contains grounds during distribution and prevents spillage. The Breville 54mm system benefits from a magnetic funnel. Commercial 58mm setups need deeper collars for 20g+ doses.",
+      "kind": "text",
+      "context": "Basket preparation: Use a dosing funnel or collar that fits your portafilter. This contains grounds during distribution and prevents spillage. The Breville 54mm system benefits from a magnetic funnel. Commercial 58mm setups need deeper collars for 20g+ doses."
+    },
+    {
+      "id": "035d48e0c766008b870b1d86ad22d009db07b65c44017bc55717d3a084b82c51",
+      "source": "Execution: Step-by-Step WDT Technique",
+      "kind": "text",
+      "context": "Execution: Step-by-Step WDT Technique"
+    },
+    {
+      "id": "c23304cfeb587a6b612982b84a57b1e2c5498e38f88dee169e0dea7729d92379",
+      "source": "1. Dose accurately",
+      "kind": "text",
+      "context": "1. Dose accurately"
+    },
+    {
+      "id": "cc3542d8a91534b2660e6681d06488d9c99ac4ec6e9a25b1eebfa2e2f065cf05",
+      "source": "Weigh beans before grinding. Use 18.0g for a double basket. Grind directly into the portafilter with the dosing funnel attached. Consistency in dose weight eliminates a major variable.",
+      "kind": "text",
+      "context": "1. Dose accurately Weigh beans before grinding. Use 18.0g for a double basket. Grind directly into the portafilter with the dosing funnel attached. Consistency in dose weight eliminates a major variable."
+    },
+    {
+      "id": "816372acb8369b4fda87dc09efb5ea38019f37790cbc4a8c7612a8e05f0143e7",
+      "source": "2. Initial assessment",
+      "kind": "text",
+      "context": "2. Initial assessment"
+    },
+    {
+      "id": "82209912b94afced8df75c1378d83c5fd7d87b60e4d2bb99ca742012483721cc",
+      "source": "Look at the mound. You'll see clumps, especially at fine grind settings below espresso range. Note any obvious high spots or asymmetry.",
+      "kind": "text",
+      "context": "2. Initial assessment Look at the mound. You'll see clumps, especially at fine grind settings below espresso range. Note any obvious high spots or asymmetry."
+    },
+    {
+      "id": "6fd883660ee91e3e7b5507db58ceefd54cf8184adf816fc1fd82026a0ffca4cf",
+      "source": "3. First pass: Deep insertion",
+      "kind": "text",
+      "context": "3. First pass: Deep insertion"
+    },
+    {
+      "id": "6a679e5b2b654ea3a59be4fdef5c63ddccc08ed5ef7a18b5a4e0ac4701478575",
+      "source": "Insert needles vertically to the basket bottom. Push through resistance. The goal is to reach every layer, not just surface grounds.",
+      "kind": "text",
+      "context": "3. First pass: Deep insertion Insert needles vertically to the basket bottom. Push through resistance. The goal is to reach every layer, not just surface grounds."
+    },
+    {
+      "id": "d63141b399047708203c5dbcb083c4dbaa17e3e11ba43063a3b4625b55f5f7ec",
+      "source": "4. Concentric stirring pattern",
+      "kind": "text",
+      "context": "4. Concentric stirring pattern"
+    },
+    {
+      "id": "693d286bdf146b0ef6eaca60676b5c1ef94c692e79075908e13bdcf8af4f3dce",
+      "source": "Start from the center. Stir in a spiral moving outward toward the rim. Move needles in small circles approximately 1cm in diameter. Complete 2-3 full rotations from center to edge.",
+      "kind": "text",
+      "context": "4. Concentric stirring pattern Start from the center. Stir in a spiral moving outward toward the rim. Move needles in small circles approximately 1cm in diameter. Complete 2-3 full rotations from center to edge."
+    },
+    {
+      "id": "08ff0263e9644595cf3981cca031709857c5d474929a2c0479e0affe15251179",
+      "source": "5. Reverse direction pass",
+      "kind": "text",
+      "context": "5. Reverse direction pass"
+    },
+    {
+      "id": "e14ee02760ef14052020ef02f5885ad3e7fcc920fe7db7dc1d5f86107eacef79",
+      "source": "Repeat the spiral pattern in the opposite direction. This addresses any directional bias from the first pass. Grounds should now appear fluffy and uniform.",
+      "kind": "text",
+      "context": "5. Reverse direction pass Repeat the spiral pattern in the opposite direction. This addresses any directional bias from the first pass. Grounds should now appear fluffy and uniform."
+    },
+    {
+      "id": "e584ede27a18a0d29016e69a90e3e10cd61179471f2ea8fb23a2ffa7861e7551",
+      "source": "6. Edge attention",
+      "kind": "text",
+      "context": "6. Edge attention"
+    },
+    {
+      "id": "3bbf613da7f74c999e8759bfeedb807edcb24f3d4efcd43328a55536f418e5f2",
+      "source": "Pay extra attention to the perimeter. Grounds near the basket wall often remain clumped because initial stirring focuses on the center. Run needles along the inside edge of the basket, breaking up any remaining dense spots.",
+      "kind": "text",
+      "context": "6. Edge attention Pay extra attention to the perimeter. Grounds near the basket wall often remain clumped because initial stirring focuses on the center. Run needles along the inside edge of the basket, breaking up any remaining dense spots."
+    },
+    {
+      "id": "5d5876eefddb8784697bd83558047823e2b2f2cdae4244e24325203b2619ed8e",
+      "source": "7. Depth check",
+      "kind": "text",
+      "context": "7. Depth check"
+    },
+    {
+      "id": "590adcfa1d651c50926296e2b3d24915d61e2ad3555da366ed6ab3122779821c",
+      "source": "Insert needles at 3-4 different points to confirm uniform texture throughout the depth. You should feel consistent, fluffy resistance. Hard spots indicate remaining clumps.",
+      "kind": "text",
+      "context": "7. Depth check Insert needles at 3-4 different points to confirm uniform texture throughout the depth. You should feel consistent, fluffy resistance. Hard spots indicate remaining clumps."
+    },
+    {
+      "id": "cc87468f3f2b159afde00cf13b33a043a17e0577c042d662f63e56aaacae115b",
+      "source": "8. Surface leveling",
+      "kind": "text",
+      "context": "8. Surface leveling"
+    },
+    {
+      "id": "6ff612e0a3c9a5258bde65ac79a6563f53f76d2b9e061282dbbeb3f663509071",
+      "source": "Remove the dosing funnel. Use a straight finger sweep across the top to level the surface. Don't compress. Just skim off peaks and fill valleys. The puck surface should sit 3-4mm below the basket rim.",
+      "kind": "text",
+      "context": "8. Surface leveling Remove the dosing funnel. Use a straight finger sweep across the top to level the surface. Don't compress. Just skim off peaks and fill valleys. The puck surface should sit 3-4mm below the basket rim."
+    },
+    {
+      "id": "8bc063471ff7b3382372c7c853aae7a6c83e801af4d20cd5a236dbba93a3bd90",
+      "source": "9. Pre-tamp verification",
+      "kind": "text",
+      "context": "9. Pre-tamp verification"
+    },
+    {
+      "id": "3806020036dc379a2745f33a187bad798752db51fb271e8572ba0c839a16b57f",
+      "source": "Look down at the basket. The surface should be perfectly level with no visible clumps or peaks. If you see any irregularity, repeat WDT focusing on problem areas.",
+      "kind": "text",
+      "context": "9. Pre-tamp verification Look down at the basket. The surface should be perfectly level with no visible clumps or peaks. If you see any irregularity, repeat WDT focusing on problem areas."
+    },
+    {
+      "id": "140d0300ec3c5a1f754b29aef43a42402940faf1e95b3d08f6747b0d7287d23c",
+      "source": "Critical Variables That Change Results",
+      "kind": "text",
+      "context": "Critical Variables That Change Results"
+    },
+    {
+      "id": "de39e6b5a61f44fab08fc348288ec6bfa25fd7b390dd87c85dc92dc46b5b5111",
+      "source": "Needle depth:",
+      "kind": "text",
+      "context": "Needle depth:"
+    },
+    {
+      "id": "1036d67a2bde2e614e508bb8cdcbf504237c84958b7750d678e3da894d807482",
+      "source": "Shallow stirring (top 5mm only) leaves subsurface clumps intact. These create the worst channels because they're surrounded by loose grounds on top and compressed grounds below. Always reach the basket floor.",
+      "kind": "text",
+      "context": "Needle depth: Shallow stirring (top 5mm only) leaves subsurface clumps intact. These create the worst channels because they're surrounded by loose grounds on top and compressed grounds below. Always reach the basket floor."
+    },
+    {
+      "id": "7028021397035640720d11d31ac3b110b8fc2de9459513e6bc40384b60f75465",
+      "source": "Stirring speed:",
+      "kind": "text",
+      "context": "Stirring speed:"
+    },
+    {
+      "id": "870b554057c58274ac30667f98444095148e860f5063228491cc1fbc0a27cb77",
+      "source": "Slow, deliberate stirring breaks clumps effectively. Fast, aggressive stirring pushes clumps around without breaking them. Aim for approximately 1 complete spiral per 3-4 seconds.",
+      "kind": "text",
+      "context": "Stirring speed: Slow, deliberate stirring breaks clumps effectively. Fast, aggressive stirring pushes clumps around without breaking them. Aim for approximately 1 complete spiral per 3-4 seconds."
+    },
+    {
+      "id": "74d76213ebbbc461db3f607fb39928e7755520caca65c1b974643a59260b2557",
+      "source": "Needle angle:",
+      "kind": "text",
+      "context": "Needle angle:"
+    },
+    {
+      "id": "d2bfbb8efd02e40327748b747fd39e66f1824e648c1262992ce1ab38867cfe94",
+      "source": "Vertical insertion prevents side-loading that could create new density variations. Some baristas use 15-degree angles to address specific clump patterns, but vertical works for 95% of situations.",
+      "kind": "text",
+      "context": "Needle angle: Vertical insertion prevents side-loading that could create new density variations. Some baristas use 15-degree angles to address specific clump patterns, but vertical works for 95% of situations."
+    },
+    {
+      "id": "89bf67f2a978b10782e26b751f5f95689df4092b49d0deb5276b9b398396c5dc",
+      "source": "Grind setting interaction:",
+      "kind": "text",
+      "context": "Grind setting interaction:"
+    },
+    {
+      "id": "5db81acfb525504ba65773556e195e0fac9b5f91cb490f93c6a2987545302817",
+      "source": "Finer grinds below setting 5 on most home grinders produce more static and smaller, harder clumps. These require more WDT passes. Coarser grinds above setting 8 may need only a single pass.",
+      "kind": "text",
+      "context": "Grind setting interaction: Finer grinds below setting 5 on most home grinders produce more static and smaller, harder clumps. These require more WDT passes. Coarser grinds above setting 8 may need only a single pass."
+    },
+    {
+      "id": "9e0ed82ca4878a9f118140652756d49226f7e2c94a60f471b4b10437007ad4c4",
+      "source": "Dose relationship:",
+      "kind": "text",
+      "context": "Dose relationship:"
+    },
+    {
+      "id": "08cffb5a7e888846f5d3890309215d3dd54dca9ce18d2546e85eef73b91f7543",
+      "source": "Doses above 20g in a standard basket create thicker puck depth that requires more thorough WDT coverage. Underdosing below 16g makes WDT easier but reduces extraction potential.",
+      "kind": "text",
+      "context": "Dose relationship: Doses above 20g in a standard basket create thicker puck depth that requires more thorough WDT coverage. Underdosing below 16g makes WDT easier but reduces extraction potential."
+    },
+    {
+      "id": "df4911b6e2d9bf00f303d1710deb6393a3af6b98b74447697a961df8d15fe6b3",
+      "source": "Understanding Clump Formation",
+      "kind": "text",
+      "context": "Understanding Clump Formation"
+    },
+    {
+      "id": "88f5069fef4cf1827ad5390dd9226957a350233f913a210b71fb276bb02f3585",
+      "source": "Static electricity creates the strongest clumping forces. Grinding generates friction that strips electrons from coffee particles, creating positive and negative charges that bind grounds together.",
+      "kind": "text",
+      "context": "Static electricity creates the strongest clumping forces. Grinding generates friction that strips electrons from coffee particles, creating positive and negative charges that bind grounds together."
+    },
+    {
+      "id": "7f26b97757e9f993efe751d2966c54b4b6f826ad17a5bfab174a56ecdd06184b",
+      "source": "Static factors:",
+      "kind": "text",
+      "context": "Static factors:"
+    },
+    {
+      "id": "9e2e724e111edae91849b942415015e0c6f1a426b88bb9a507d88329ab5983d2",
+      "source": "Humidity below 40% increases static dramatically",
+      "kind": "text",
+      "context": "Humidity below 40% increases static dramatically"
+    },
+    {
+      "id": "7c65f28dc84c12176d4ca03f407d74ed9746fb010c784fbaf62ce9e01807c27e",
+      "source": "Metal grinder bodies conduct charge better than plastic",
+      "kind": "text",
+      "context": "Metal grinder bodies conduct charge better than plastic"
+    },
+    {
+      "id": "fd71e0b7dae5e1e044d0506cc9b28e4c0d3e74cada323ac8358dd2293e2ad7dc",
+      "source": "Single-dosing creates more static than hopper grinding",
+      "kind": "text",
+      "context": "Single-dosing creates more static than hopper grinding"
+    },
+    {
+      "id": "f5e13522d99314c604fec1721a01982e186cf8c5eda18b3f8e654ee71b0a7630",
+      "source": "Dark roasts generate less static than light roasts due to oil content",
+      "kind": "text",
+      "context": "Dark roasts generate less static than light roasts due to oil content"
+    },
+    {
+      "id": "cec534e21b9613aa829d4b5076bb86751ac1f6a65a8b5d10b1b8d86399778f6e",
+      "source": "Faster grinding (high RPM burrs) produces more static",
+      "kind": "text",
+      "context": "Faster grinding (high RPM burrs) produces more static"
+    },
+    {
+      "id": "c7b80860be2587dc18cdbcdb868d0972dabaf338fa8d04bc67d75f054e63fc27",
+      "source": "Grinder design impact:",
+      "kind": "text",
+      "context": "Grinder design impact:"
+    },
+    {
+      "id": "6d3e6123a7b9cfec550cd23436b01119fdeea0b145a676aa19fca669b42814ab",
+      "source": "Conical burr grinders produce larger, irregular particles with more surface area for static attraction. Flat burr grinders create more uniform particles that clump less readily but still require distribution.",
+      "kind": "text",
+      "context": "Grinder design impact: Conical burr grinders produce larger, irregular particles with more surface area for static attraction. Flat burr grinders create more uniform particles that clump less readily but still require distribution."
+    },
+    {
+      "id": "c9cede3c36a37e0eb4f2ea78b82c4df46eac697978d955f0151d8c39f00688fa",
+      "source": "The Breville Barista Express grinder shows typical retention of 2.7g. This means yesterday's grounds mix with today's fresh dose. Old grounds stale overnight, losing CO2 and volatile aromatics. They extract differently than fresh grounds, creating inconsistent shots even with perfect distribution technique.",
+      "kind": "text",
+      "context": "The Breville Barista Express grinder shows typical retention of 2.7g. This means yesterday's grounds mix with today's fresh dose. Old grounds stale overnight, losing CO2 and volatile aromatics. They extract differently than fresh grounds, creating inconsistent shots even with perfect distribution technique."
+    },
+    {
+      "id": "227b7f1364ae1f6124ef08772a4cca26f7c455b48394581f6d3a5a8c31694b55",
+      "source": "Static Mitigation: The Ross Droplet Technique",
+      "kind": "text",
+      "context": "Static Mitigation: The Ross Droplet Technique"
+    },
+    {
+      "id": "3df3761eea88b7aa436c23b767b4c9e6d35dfec45bbb96b2434d159cc3933ea2",
+      "source": "Add a single drop of water (0.05-0.1ml) to beans immediately before grinding. The moisture dissipates static by providing a conductive path for charge equalization.",
+      "kind": "text",
+      "context": "Add a single drop of water (0.05-0.1ml) to beans immediately before grinding. The moisture dissipates static by providing a conductive path for charge equalization."
+    },
+    {
+      "id": "3de115cbc2066d31f08c756c671291d9fef45d9f3fabf9197751a42c3a0d10d0",
+      "source": "Execution:",
+      "kind": "text",
+      "context": "Execution:"
+    },
+    {
+      "id": "d36a66e3407cccf91853200ffe6929024c7bb20dc04078afc5ddd73ecc59a488",
+      "source": "Weigh beans",
+      "kind": "text",
+      "context": "Weigh beans"
+    },
+    {
+      "id": "e97226e956b119c5bbc4cf3a1252a59cf415e06ef8ff3f96bc5b0f99801a1d58",
+      "source": "Spray with atomizer or add one drop from wet fingertip",
+      "kind": "text",
+      "context": "Spray with atomizer or add one drop from wet fingertip"
+    },
+    {
+      "id": "f075d768292059cd08266d26a7a89968069c9d17f788b6afd1a647dbf3d559bd",
+      "source": "Shake container to distribute moisture",
+      "kind": "text",
+      "context": "Shake container to distribute moisture"
+    },
+    {
+      "id": "59072032d556ebdaaa4bcdd8be81e1c0aeb108a4b16cad806cd70e01cc5b1582",
+      "source": "Grind immediately",
+      "kind": "text",
+      "context": "Grind immediately"
+    },
+    {
+      "id": "9097dabd00c700314641bd257df20c134ad8f061d80ffb774f61a960dbbfa4a6",
+      "source": "Results:",
+      "kind": "text",
+      "context": "Results:"
+    },
+    {
+      "id": "367b69621b1a6a4a3f50e8e27baabe475a14b8bbdcd3d10208e491744e973cf1",
+      "source": "Static reduction of 60-75% according to user measurements with static meters. Grounds flow more freely and clump less. WDT still necessary but requires fewer passes.",
+      "kind": "text",
+      "context": "Results: Static reduction of 60-75% according to user measurements with static meters. Grounds flow more freely and clump less. WDT still necessary but requires fewer passes."
+    },
+    {
+      "id": "5ae93f7a08f641a3bc5dfe02c663c41664ea29a4964ec5dfd251d6fdcf80c6b7",
+      "source": "Concerns:",
+      "kind": "text",
+      "context": "Concerns:"
+    },
+    {
+      "id": "da9e8c0a8a1779b82507e9676adf903859e1a685176f2eaad4b3c0c25ed7bf30",
+      "source": "Long-term moisture exposure can corrode burrs and promote mold growth in the grinding chamber. Use the minimum effective moisture. Never add enough water to make beans visibly wet. If you see surface wetness, you've added too much.",
+      "kind": "text",
+      "context": "Concerns: Long-term moisture exposure can corrode burrs and promote mold growth in the grinding chamber. Use the minimum effective moisture. Never add enough water to make beans visibly wet. If you see surface wetness, you've added too much."
+    },
+    {
+      "id": "9ebb2086e67c71f902dbfeb0f1a322a318ec20a35b319f9dad54d1bba0b90ade",
+      "source": "Clean your grinder monthly when using RDT. Brush out the burr chamber and wipe down surfaces to prevent moisture accumulation.",
+      "kind": "text",
+      "context": "Clean your grinder monthly when using RDT. Brush out the burr chamber and wipe down surfaces to prevent moisture accumulation."
+    },
+    {
+      "id": "34c2348402e07cb2cb52cc1e0ce70a3e54635963cd8ce0668247b8e100bca7eb",
+      "source": "Grinder Retention Management",
+      "kind": "text",
+      "context": "Grinder Retention Management"
+    },
+    {
+      "id": "fa9c61b96b24d6bd81220d2b0442ff7187947c768ab7c83eea2721d958692039",
+      "source": "Purge retained grounds before each dose. Run the empty grinder for 1 second. This clears yesterday's stale coffee from the burr chamber and chute.",
+      "kind": "text",
+      "context": "Purge retained grounds before each dose. Run the empty grinder for 1 second. This clears yesterday's stale coffee from the burr chamber and chute."
+    },
+    {
+      "id": "17101bd1e3a1f1bf9ceeefff388b2e31585f9abd3fb34247e50c1c0c2df12fe2",
+      "source": "Single-dose workflows:",
+      "kind": "text",
+      "context": "Single-dose workflows:"
+    },
+    {
+      "id": "42bbab89958d5600b314a0b7a427946c39f82486a2e1151cee40158eda14edc3",
+      "source": "Remove the bean hopper. Drop pre-weighed beans directly into the burr chamber. This eliminates hopper popcorning where beans bounce instead of feeding smoothly. Reduces retention to under 0.5g in most grinders.",
+      "kind": "text",
+      "context": "Single-dose workflows: Remove the bean hopper. Drop pre-weighed beans directly into the burr chamber. This eliminates hopper popcorning where beans bounce instead of feeding smoothly. Reduces retention to under 0.5g in most grinders."
+    },
+    {
+      "id": "ce24d10c1d09bb025e306e86804d46161af46cccf0a79b1c536494a1b28bb024",
+      "source": "Bellows or blowers:",
+      "kind": "text",
+      "context": "Bellows or blowers:"
+    },
+    {
+      "id": "da6158f5d20dce28ff99235d676463d6bcffe3a338097ec96d6c797e2a9ade70",
+      "source": "Force air through the grinding chamber after dosing to push out retained grounds. Reduces waste and improves shot-to-shot consistency. Particularly effective with the Niche Zero and similar low-retention designs.",
+      "kind": "text",
+      "context": "Bellows or blowers: Force air through the grinding chamber after dosing to push out retained grounds. Reduces waste and improves shot-to-shot consistency. Particularly effective with the Niche Zero and similar low-retention designs."
+    },
+    {
+      "id": "749cbcf84af2bcbe58046e3dfbbe12887f2a753d231769a86e7ff09890f48ec8",
+      "source": "Distribution Alternatives When You Lack WDT Tools",
+      "kind": "text",
+      "context": "Distribution Alternatives When You Lack WDT Tools"
+    },
+    {
+      "id": "8ac3f3b84a5e078d1196be860c1efcbd79a9a7a31b20fb4e2d5927335395b3f3",
+      "source": "These methods work better than no distribution but cannot match WDT effectiveness for internal clump elimination.",
+      "kind": "text",
+      "context": "These methods work better than no distribution but cannot match WDT effectiveness for internal clump elimination."
+    },
+    {
+      "id": "eb1325287a00e6e739032381e956626d9b676a700c971d8c62b6055465b2799e",
+      "source": "The Stockfleth Move",
+      "kind": "text",
+      "context": "The Stockfleth Move"
+    },
+    {
+      "id": "cae5394987b5bd56c404c7ad9bfbcdf75ef50ad27b6a234ef60038bf9abf8ddd",
+      "source": "Developed by competitive barista John Stockfleth. Sweep your finger in a spiral from the basket rim toward the center, redistributing the mound into a level bed.",
+      "kind": "text",
+      "context": "Developed by competitive barista John Stockfleth. Sweep your finger in a spiral from the basket rim toward the center, redistributing the mound into a level bed."
+    },
+    {
+      "id": "5af61dc29e1bd9a44e5b35225f19d49451c93fc11bc0b5dc67636296a981b95c",
+      "source": "Technique:",
+      "kind": "text",
+      "context": "Technique:"
+    },
+    {
+      "id": "949adb7594956060b945f9cc69cfd24e9edab2aa0d6a705a67258fc6ddd45e0b",
+      "source": "Place finger at 3 o'clock position on basket rim",
+      "kind": "text",
+      "context": "Place finger at 3 o'clock position on basket rim"
+    },
+    {
+      "id": "274b5d22041738cdac6a6ea2937503413fd5ad322a29250ce2ebfecabd70f373",
+      "source": "Sweep inward in a spiral while rotating the portafilter counter-clockwise",
+      "kind": "text",
+      "context": "Sweep inward in a spiral while rotating the portafilter counter-clockwise"
+    },
+    {
+      "id": "251656e8cf1a13e6f8ca4d2b30949be987b1019ae7b56abef40a1dc3decd1a55",
+      "source": "Complete 2-3 full rotations",
+      "kind": "text",
+      "context": "Complete 2-3 full rotations"
+    },
+    {
+      "id": "4958fd3732b3f0c3e95ad8ee4ce9cbaf873d39f4d2d94030a9388dab8e51a2f6",
+      "source": "Surface should appear level",
+      "kind": "text",
+      "context": "Surface should appear level"
+    },
+    {
+      "id": "c38f9b4be0bb3bf280f8403083e7701a60c9bf71a8e337a11e195b6556419f71",
+      "source": "Limitations:",
+      "kind": "text",
+      "context": "Limitations:"
+    },
+    {
+      "id": "7308e8154ab399db03b8522dc84f1d86e9df7d3a6b054ee64ea8a1f893f35e01",
+      "source": "Only addresses the top 2-3mm of grounds. Subsurface clumps remain intact. Finger compression creates minor density variations. Effective for surface leveling but not true distribution.",
+      "kind": "text",
+      "context": "Limitations: Only addresses the top 2-3mm of grounds. Subsurface clumps remain intact. Finger compression creates minor density variations. Effective for surface leveling but not true distribution."
+    },
+    {
+      "id": "eb4f9c21c67589f9ceed8e8f2ecafc166b5a5f7cf199a32f609da6e76cfd127f",
+      "source": "Best use case:",
+      "kind": "text",
+      "context": "Best use case:"
+    },
+    {
+      "id": "01ccc1c3de2cbcdd9f664d53d29835b1c90000465417202aa98b56757de21fd4",
+      "source": "Combine with WDT. Use WDT first to break clumps, then Stockfleth to level the surface. This gives you both internal distribution and a flat top.",
+      "kind": "text",
+      "context": "Best use case: Combine with WDT. Use WDT first to break clumps, then Stockfleth to level the surface. This gives you both internal distribution and a flat top."
+    },
+    {
+      "id": "7fb36b8ba757d44df35a9a193f0242ef5963560902479b4d9b1b4952ff5c91ff",
+      "source": "Tapping Technique",
+      "kind": "text",
+      "context": "Tapping Technique"
+    },
+    {
+      "id": "63708c078ec27775e04fe413f41f33bcdf482bf6d7bd7f5394312d923f63db52",
+      "source": "Light taps settle grounds into a more uniform density. The vibration causes particles to shift into a lower-energy configuration.",
+      "kind": "text",
+      "context": "Light taps settle grounds into a more uniform density. The vibration causes particles to shift into a lower-energy configuration."
+    },
+    {
+      "id": "8534e70e614ba410d966fe5fc4ac8cdbdb055ea6bbc324f7f8942d97eb6f1741",
+      "source": "Hold the portafilter 2-3cm above a solid surface. Release and let it tap once. Repeat 1-2 times maximum.",
+      "kind": "text",
+      "context": "Execution: Hold the portafilter 2-3cm above a solid surface. Release and let it tap once. Repeat 1-2 times maximum."
+    },
+    {
+      "id": "06bf675752e2d1de6cafbdbd062099c4f58380761fcdc739bd65bf02bae6bc2f",
+      "source": "Physics:",
+      "kind": "text",
+      "context": "Physics:"
+    },
+    {
+      "id": "07320373f17183850013ae20697ecc31558da4d6b884fe9e2bd44399a36c90ff",
+      "source": "Tapping provides enough energy to overcome friction between particles, allowing them to settle into gaps. Excessive tapping creates bridging where particles lock into place with air pockets below, leading to channeling.",
+      "kind": "text",
+      "context": "Physics: Tapping provides enough energy to overcome friction between particles, allowing them to settle into gaps. Excessive tapping creates bridging where particles lock into place with air pockets below, leading to channeling."
+    },
+    {
+      "id": "a902d040d15db630dfbab486c8e461b6687d2a048f915c28056e027891c8643d",
+      "source": "Critical limit:",
+      "kind": "text",
+      "context": "Critical limit:"
+    },
+    {
+      "id": "2bcac68f6c2af712a50f2117349845bcc63245795975abe3ec8e43413f4e3813",
+      "source": "Never exceed 3 taps. Additional taps cause more harm than benefit. The grounds compact unevenly, creating horizontal stratification layers that trap water.",
+      "kind": "text",
+      "context": "Critical limit: Never exceed 3 taps. Additional taps cause more harm than benefit. The grounds compact unevenly, creating horizontal stratification layers that trap water."
+    },
+    {
+      "id": "69d92e094bf29c2d241dae2465e8b995212a76939524fbf5468ae3fdb9b1437b",
+      "source": "Never tap after tamping:",
+      "kind": "text",
+      "context": "Never tap after tamping:"
+    },
+    {
+      "id": "a8693a96582bd4a89c2849577d42015d0f0b942c7e09f0bb6c444e11e500202a",
+      "source": "Tapping a tamped puck breaks the seal between grounds and basket wall. Water will preferentially flow through this gap instead of the coffee, creating severe channeling.",
+      "kind": "text",
+      "context": "Never tap after tamping: Tapping a tamped puck breaks the seal between grounds and basket wall. Water will preferentially flow through this gap instead of the coffee, creating severe channeling."
+    },
+    {
+      "id": "86c42fecf562373fdff37594d5ebf8f538b280047291209c18b29c55fdea52ee",
+      "source": "Palm Distribution Method",
+      "kind": "text",
+      "context": "Palm Distribution Method"
+    },
+    {
+      "id": "3e0c000aa8dfd7fb21c0fbaae816880212121a3546ea91115f818933c69bc4b1",
+      "source": "Spin the basket in your palm while tapping the side with your finger. Centrifugal force spreads grounds outward toward the rim.",
+      "kind": "text",
+      "context": "Spin the basket in your palm while tapping the side with your finger. Centrifugal force spreads grounds outward toward the rim."
+    },
+    {
+      "id": "8a93c2f6ac6027fd5fe07ad73c6b9d4acffd8a2a45a8866a19267c10d27a13dd",
+      "source": "Hold portafilter in non-dominant hand",
+      "kind": "text",
+      "context": "Hold portafilter in non-dominant hand"
+    },
+    {
+      "id": "3e44c82cec66b182d8ee07182c4ceb82a44b2261313353040d40ac4127118259",
+      "source": "Tap side of basket rim with dominant hand",
+      "kind": "text",
+      "context": "Tap side of basket rim with dominant hand"
+    },
+    {
+      "id": "60c951c354c8d2c4f40a0fa3dc2589e2b2fbbd9be8dde7f21f45c022a3a6fdd9",
+      "source": "Rotate portafilter 90 degrees after each tap",
+      "kind": "text",
+      "context": "Rotate portafilter 90 degrees after each tap"
+    },
+    {
+      "id": "164823fbdda4be62d142416253b8303579d7ca78307cf3d1952a287ac01b0814",
+      "source": "Repeat for 8-12 taps total",
+      "kind": "text",
+      "context": "Repeat for 8-12 taps total"
+    },
+    {
+      "id": "88621f6fadc8d4954c8bfeb52008856ddf8dc19844164910fee6f50577895201",
+      "source": "Inconsistent. Works better with fresh, fluffy grounds. Fails with compacted or static-prone grounds. Better than nothing but far inferior to WDT.",
+      "kind": "text",
+      "context": "Results: Inconsistent. Works better with fresh, fluffy grounds. Fails with compacted or static-prone grounds. Better than nothing but far inferior to WDT."
+    },
+    {
+      "id": "627950c8ae746cb51b07910e4fed9e54d88960d34f8d3a8ee3b9f00ea79593f8",
+      "source": "Distribution Tools: Levelers and Spinners",
+      "kind": "text",
+      "context": "Distribution Tools: Levelers and Spinners"
+    },
+    {
+      "id": "20a49e21050344d8e03bf2fa2eca023c4db7d21d0cc95bc136c8eadf71a7e81b",
+      "source": "Spring-loaded distribution tools (OCD, AutoComb) spin while sitting on top of the grounds, leveling the surface through mechanical scraping.",
+      "kind": "text",
+      "context": "Spring-loaded distribution tools (OCD, AutoComb) spin while sitting on top of the grounds, leveling the surface through mechanical scraping."
+    },
+    {
+      "id": "0c23c5b4402650b1b808b2b00a2f288281085419085e30cc3fcc26ce4e3e3ac8",
+      "source": "How they work:",
+      "kind": "text",
+      "context": "How they work:"
+    },
+    {
+      "id": "97df620cc76f5512462c0db67f97853819c6b9c0ae7a8cb5d5fb24d3d4aab70f",
+      "source": "Adjustable depth fins rotate across the puck surface, cutting peaks and filling valleys. The goal is a flat, level top for even tamping.",
+      "kind": "text",
+      "context": "How they work: Adjustable depth fins rotate across the puck surface, cutting peaks and filling valleys. The goal is a flat, level top for even tamping."
+    },
+    {
+      "id": "e34bead1b83797258c090bc62e64eb580c8f6bc51f9927438ca54dd527716441",
+      "source": "Reality check:",
+      "kind": "text",
+      "context": "Reality check:"
+    },
+    {
+      "id": "1f09dad422a435d1f1fc547f84e5ca5525e22eac7e34a19f1310c3782d635999",
+      "source": "These tools level the surface effectively but don't break up clumps below. They redistribute the mound but leave internal density variations intact. Think of them as automated Stockfleth moves.",
+      "kind": "text",
+      "context": "Reality check: These tools level the surface effectively but don't break up clumps below. They redistribute the mound but leave internal density variations intact. Think of them as automated Stockfleth moves."
+    },
+    {
+      "id": "75c080a9d60ca65d7b78b3fef95c67511ff27a0d6138be3bfa8d5dc320e678e2",
+      "source": "Best practice:",
+      "kind": "text",
+      "context": "Best practice:"
+    },
+    {
+      "id": "a232b7660669da37744cb560329a7bab8a7357de159be545d06d33e17add113e",
+      "source": "Use after WDT, not instead of it. WDT breaks clumps, then the leveler creates a perfectly flat surface for tamping. This combination gives you both internal distribution and surface levelness.",
+      "kind": "text",
+      "context": "Best practice: Use after WDT, not instead of it. WDT breaks clumps, then the leveler creates a perfectly flat surface for tamping. This combination gives you both internal distribution and surface levelness."
+    },
+    {
+      "id": "79eaab0e45101f1d3dfd47c1e00f2721bff455586d6a48d45b4c426ba0e9f551",
+      "source": "Cost consideration:",
+      "kind": "text",
+      "context": "Cost consideration:"
+    },
+    {
+      "id": "628a36a594cb5dfa06ab516db626ca1e177e30b4a11e32b1991213e97cb59e11",
+      "source": "Quality levelers run $40-80. For that price, you could buy a precision basket ($35) and WDT tool ($25) that provide greater extraction improvement.",
+      "kind": "text",
+      "context": "Cost consideration: Quality levelers run $40-80. For that price, you could buy a precision basket ($35) and WDT tool ($25) that provide greater extraction improvement."
+    },
+    {
+      "id": "14e6ccf886ac3a482314572191e369a676b4c5a2da67043c58c4158416ee9cff",
+      "source": "Precision Baskets: Hardware That Forgives Distribution Errors",
+      "kind": "text",
+      "context": "Precision Baskets: Hardware That Forgives Distribution Errors"
+    },
+    {
+      "id": "4a64f053bae05b0d3c2c24f728476437195c17b510459306de9715a45850038c",
+      "source": "IMS and VST precision baskets feature laser-drilled holes in mathematically optimized patterns. Hole diameter varies by only ±0.02mm compared to ±0.15mm in standard baskets.",
+      "kind": "text",
+      "context": "IMS and VST precision baskets feature laser-drilled holes in mathematically optimized patterns. Hole diameter varies by only ±0.02mm compared to ±0.15mm in standard baskets."
+    },
+    {
+      "id": "d8ae3d12561fd2c618c460d134ede7f801da4e4eb02656c2561210588b14bf8e",
+      "source": "Impact on extraction:",
+      "kind": "text",
+      "context": "Impact on extraction:"
+    },
+    {
+      "id": "16e2566f697e6d5ca7f9786062a0f2bc8a9d999d5fa53ec940eac4e96c299f1c",
+      "source": "Uniform hole sizing creates even resistance across the entire basket floor. Water cannot preferentially flow through larger holes. This reduces the penalty for minor distribution imperfections.",
+      "kind": "text",
+      "context": "Impact on extraction: Uniform hole sizing creates even resistance across the entire basket floor. Water cannot preferentially flow through larger holes. This reduces the penalty for minor distribution imperfections."
+    },
+    {
+      "id": "0e7a2b373687ccc09e913d2dd598eab7ca79cb86b48b709bef7acc82b330cf52",
+      "source": "Extraction yield improvement:",
+      "kind": "text",
+      "context": "Extraction yield improvement:"
+    },
+    {
+      "id": "450475da721e58f0fb7c1063773c72b81d84002794e2795c1e6309fc83c2fcf6",
+      "source": "Users with refractometers report 0.5-1.0% TDS increases when switching from standard to precision baskets while keeping all other variables constant. That translates to 2-4% higher extraction yield at the same grind setting.",
+      "kind": "text",
+      "context": "Extraction yield improvement: Users with refractometers report 0.5-1.0% TDS increases when switching from standard to precision baskets while keeping all other variables constant. That translates to 2-4% higher extraction yield at the same grind setting."
+    },
+    {
+      "id": "b8313071802ffdc6e268d561b2cc5cb7d043f02090c0fa5576d3e75936c99fe3",
+      "source": "Cost vs. benefit:",
+      "kind": "text",
+      "context": "Cost vs. benefit:"
+    },
+    {
+      "id": "bbbab5cecce91e46431671a4fa64c0ea3c95784b2879f2c8bf81974f23f488af",
+      "source": "IMS baskets cost $30-40. VST baskets run $35-45. For serious home baristas, this represents the highest ROI upgrade after a capable grinder. The improvement exceeds expensive tampers, distribution tools, or portafilter upgrades.",
+      "kind": "text",
+      "context": "Cost vs. benefit: IMS baskets cost $30-40. VST baskets run $35-45. For serious home baristas, this represents the highest ROI upgrade after a capable grinder. The improvement exceeds expensive tampers, distribution tools, or portafilter upgrades."
+    },
+    {
+      "id": "23c54b7a465d261fdc887d8cca9af57680f3730f9fb56c93de8f45d4a6ed51e1",
+      "source": "Sizing:",
+      "kind": "text",
+      "context": "Sizing:"
+    },
+    {
+      "id": "6a8c0c01d7c6b0227a5c3c639ee01b26df7bba5ea3b8f6a566862925024c4e12",
+      "source": "Match your portafilter size exactly. The Breville Barista Express uses 54mm baskets. Commercial machines typically use 58mm. Measure your portafilter inner diameter if uncertain.",
+      "kind": "text",
+      "context": "Sizing: Match your portafilter size exactly. The Breville Barista Express uses 54mm baskets. Commercial machines typically use 58mm. Measure your portafilter inner diameter if uncertain."
+    },
+    {
+      "id": "88b81cf3d40ae26fb111ec0643bc464296a98329de23d9dc43167743c70215c7",
+      "source": "Basket depth:",
+      "kind": "text",
+      "context": "Basket depth:"
+    },
+    {
+      "id": "9631e8fccd205561d70676109776441b37775b33b2f9850f1fcc080de880218c",
+      "source": "Ridged baskets allow doses from 15-22g depending on ridge height. Ridgeless (straight-walled) baskets provide maximum flexibility but require precise dosing to achieve optimal puck thickness.",
+      "kind": "text",
+      "context": "Basket depth: Ridged baskets allow doses from 15-22g depending on ridge height. Ridgeless (straight-walled) baskets provide maximum flexibility but require precise dosing to achieve optimal puck thickness."
+    },
+    {
+      "id": "e75b3efb71f2aaa660e95700d42940352b366057e27834f6e8bd46540f07f13c",
+      "source": "Testing Your Distribution Quality",
+      "kind": "text",
+      "context": "Testing Your Distribution Quality"
+    },
+    {
+      "id": "886406a136f41a213a6d0d30aa962bb751e0ea2c619c2316cd684be624a74991",
+      "source": "Measure the impact of improved distribution through quantitative and qualitative assessment.",
+      "kind": "text",
+      "context": "Measure the impact of improved distribution through quantitative and qualitative assessment."
+    },
+    {
+      "id": "441d77ea95e643b17f534808fffb5e3cafa16908dc77f19b2f25cb24e0052763",
+      "source": "Extraction Time Comparison",
+      "kind": "text",
+      "context": "Extraction Time Comparison"
+    },
+    {
+      "id": "b748afc3a413839f3bef284bf7a69fb26057b93a9742d718fe6d4d57c3c37d20",
+      "source": "Baseline measurement:",
+      "kind": "text",
+      "context": "Baseline measurement:"
+    },
+    {
+      "id": "5ee6aaceb0825bcac2ec24a908327fda102c23fd848672171c599176e9e70855",
+      "source": "Pull a shot with your normal routine but skip WDT. Record:",
+      "kind": "text",
+      "context": "Baseline measurement: Pull a shot with your normal routine but skip WDT. Record:"
+    },
+    {
+      "id": "1aead8cf75309fc63428bf4d8fa875820fd9eecd8afe20ab479a39dca9fd4582",
+      "source": "Time to first drips: ____ seconds",
+      "kind": "text",
+      "context": "Time to first drips: ____ seconds"
+    },
+    {
+      "id": "6641e04ff0efce4261a72bb06cfd88839ae5c1a6572d904cfcce205f265bf45d",
+      "source": "Time to 36g output: ____ seconds",
+      "kind": "text",
+      "context": "Time to 36g output: ____ seconds"
+    },
+    {
+      "id": "0a67201912052bb6e857d9d95ef931f628d7710303b378eaaf6ff3f2bd81d296",
+      "source": "Total extraction time: ____ seconds",
+      "kind": "text",
+      "context": "Total extraction time: ____ seconds"
+    },
+    {
+      "id": "4f934a5e70c87d805fb0837e99ef0f88a6b43b5c65f90db745099f07e47b0f0e",
+      "source": "WDT measurement:",
+      "kind": "text",
+      "context": "WDT measurement:"
+    },
+    {
+      "id": "e01dfeb5833b5c1bed55c00053a8abf1dd4a3c3d4b95327c743fa8195d50ab25",
+      "source": "Pull an identical shot using WDT. Use the same beans, grind setting, dose, and tamp pressure. Record the same metrics.",
+      "kind": "text",
+      "context": "WDT measurement: Pull an identical shot using WDT. Use the same beans, grind setting, dose, and tamp pressure. Record the same metrics."
+    },
+    {
+      "id": "3eb4e51d7357218ab674a9a76cf09570fcab049ba181138356c0c55258252288",
+      "source": "Expected results:",
+      "kind": "text",
+      "context": "Expected results:"
+    },
+    {
+      "id": "93dd384acd2b34e2131926a92268167a5e8ff47fb8488f4d8022f784004d0a31",
+      "source": "Proper WDT reduces extraction time by 2-4 seconds at the same grind setting. This occurs because eliminating clumps reduces flow resistance. The same water pressure extracts coffee more efficiently through a uniform bed.",
+      "kind": "text",
+      "context": "Expected results: Proper WDT reduces extraction time by 2-4 seconds at the same grind setting. This occurs because eliminating clumps reduces flow resistance. The same water pressure extracts coffee more efficiently through a uniform bed."
+    },
+    {
+      "id": "3d2bd9d2cff9ce38dd11348dce4718d682f6ffea5a69d17e1f7bf619dcca1b5f",
+      "source": "Interpretation:",
+      "kind": "text",
+      "context": "Interpretation:"
+    },
+    {
+      "id": "35aaf502413708a0942adc749fcc15765bcea2edb898c1342e48e56c5aba6668",
+      "source": "If WDT increases extraction time, you over-worked the grounds or compacted them during distribution. Reduce stirring intensity and avoid pressing down with the needles.",
+      "kind": "text",
+      "context": "Interpretation: If WDT increases extraction time, you over-worked the grounds or compacted them during distribution. Reduce stirring intensity and avoid pressing down with the needles."
+    },
+    {
+      "id": "9350380796a191683266a88306d7be281389e6655ae87ae0a49fa6b4517e8d0a",
+      "source": "Flow Rate Observation",
+      "kind": "text",
+      "context": "Flow Rate Observation"
+    },
+    {
+      "id": "ff6ac6411697ac0bf7b77249d40a9af53c319e7d6eca43d3231c499deb2ed92b",
+      "source": "Watch the extraction streams from your portafilter spouts (or use a bottomless portafilter for direct observation).",
+      "kind": "text",
+      "context": "Watch the extraction streams from your portafilter spouts (or use a bottomless portafilter for direct observation)."
+    },
+    {
+      "id": "6e1e57ea0027e4a874da6ba4abae45848f01ee882321d0304b1345229d0811ce",
+      "source": "Poor distribution indicators:",
+      "kind": "text",
+      "context": "Poor distribution indicators:"
+    },
+    {
+      "id": "3083493afb74e960c25dd726ef7098b75f437407869e986c72bbb7e5a567299a",
+      "source": "Flow starts from one side before the other",
+      "kind": "text",
+      "context": "Flow starts from one side before the other"
+    },
+    {
+      "id": "2ea09afba78717aa54fa2ec0c4ed5e61c84f6e5e757d37f4054efd8b1ef1249a",
+      "source": "Spurts or gushes that interrupt steady flow",
+      "kind": "text",
+      "context": "Spurts or gushes that interrupt steady flow"
+    },
+    {
+      "id": "8c0332ccb9a3560c3e900733908fbc0d8c0f003fea9ed32766e59fb4e726a8f8",
+      "source": "Thin, fast streams that indicate channeling",
+      "kind": "text",
+      "context": "Thin, fast streams that indicate channeling"
+    },
+    {
+      "id": "5ad37a736dbd28b77e076449194cbeabb338782e2b71be7c22defbcce7d12f74",
+      "source": "Dry spots on the puck post-extraction",
+      "kind": "text",
+      "context": "Dry spots on the puck post-extraction"
+    },
+    {
+      "id": "39bfcfb1110f6a6e3b86affbf15fb6966632dd2c5374e01516499e12f819c8f4",
+      "source": "Good distribution indicators:",
+      "kind": "text",
+      "context": "Good distribution indicators:"
+    },
+    {
+      "id": "c41974caad8952292b2b61e0112d457130a22ae3981efe7c98927578307a5317",
+      "source": "Flow begins simultaneously across the entire puck surface",
+      "kind": "text",
+      "context": "Flow begins simultaneously across the entire puck surface"
+    },
+    {
+      "id": "17dab14c16a8aba9497e418fbad6b3798c27c7e12e39e4cdd88d6843eba3e554",
+      "source": "Steady, consistent streams throughout extraction",
+      "kind": "text",
+      "context": "Steady, consistent streams throughout extraction"
+    },
+    {
+      "id": "4eeed59bab2fbc8b677218a74fec1ccce1677535c9c75c7ccea23ffdde87529e",
+      "source": "Uniform dark color from all areas",
+      "kind": "text",
+      "context": "Uniform dark color from all areas"
+    },
+    {
+      "id": "222d008df0eb96ed27482af45435908f5f026cd0edb9b9c0fbcd5c2dc5047cca",
+      "source": "Even saturation with no dry patches when you knock out the puck",
+      "kind": "text",
+      "context": "Even saturation with no dry patches when you knock out the puck"
+    },
+    {
+      "id": "88b6165f12fe856b2b9c2971648b9bbdf9eef4ea407239bfa061c2f7366eb865",
+      "source": "Crema Stability Assessment",
+      "kind": "text",
+      "context": "Crema Stability Assessment"
+    },
+    {
+      "id": "3f071c01b91834d2f7f84e1cb2c3478778f770c82b58a5f807bdf3133500ec92",
+      "source": "Proper extraction produces crema that persists for 60-90 seconds before dissipating.",
+      "kind": "text",
+      "context": "Proper extraction produces crema that persists for 60-90 seconds before dissipating."
+    },
+    {
+      "id": "e5e7aa91a98eea9bf45e33fb160f9267acbcccd646c573dc85505f8a4fb82118",
+      "source": "Testing protocol:",
+      "kind": "text",
+      "context": "Testing protocol:"
+    },
+    {
+      "id": "6745068bca8bb68c51b2ddf89db14195e2e7854bfe71a85f077f52cb7b72c614",
+      "source": "Pull shot into a pre-warmed cup",
+      "kind": "text",
+      "context": "Pull shot into a pre-warmed cup"
+    },
+    {
+      "id": "1d1499ebf0af25b0e5198f763f826ed352ea49f71041f38ca475db7a47e59975",
+      "source": "Observe crema thickness (should be 3-4mm)",
+      "kind": "text",
+      "context": "Observe crema thickness (should be 3-4mm)"
+    },
+    {
+      "id": "971d44c86cedde663dcbdb6fafe17ae0d084876fb0e4a3f9956e26604f4b5bdc",
+      "source": "Set timer when shot completes",
+      "kind": "text",
+      "context": "Set timer when shot completes"
+    },
+    {
+      "id": "2f23b902e0b794f6d0d1b01693bde53420aa00f56287a71219ccfe33385b830a",
+      "source": "Note when crema breaks and liquid shows through",
+      "kind": "text",
+      "context": "Note when crema breaks and liquid shows through"
+    },
+    {
+      "id": "410d93802f8d9f18181eb02017164fed15392cf843d4ec1677cd7cb05ddfd511",
+      "source": "Crema indicators:",
+      "kind": "text",
+      "context": "Crema indicators:"
+    },
+    {
+      "id": "591e0254887d3f052ef5ee509da2f0916bcc95ffd22209ad48d39ff37a419e76",
+      "source": "<30 seconds: severe channeling or stale beans",
+      "kind": "text",
+      "context": "<30 seconds: severe channeling or stale beans"
+    },
+    {
+      "id": "15f28e38b49f9d78e895d2b7f4a14a3f468012991d02538458449696584102b8",
+      "source": "30-60 seconds: minor channeling or distribution issues",
+      "kind": "text",
+      "context": "30-60 seconds: minor channeling or distribution issues"
+    },
+    {
+      "id": "728ee753d9135c78883f67c8947d7c9cbbf1d7c4ae1e857be5cec6c08f3148b3",
+      "source": "60-90 seconds: good extraction and distribution",
+      "kind": "text",
+      "context": "60-90 seconds: good extraction and distribution"
+    },
+    {
+      "id": "0ce5e4f2b9ad5654af44c0e03ad999b46fdee68174d349ea5153b9d19d278908",
+      "source": "90 seconds: excellent extraction (or robusta content)",
+      "kind": "text",
+      "context": "90 seconds: excellent extraction (or robusta content)"
+    },
+    {
+      "id": "045d959e2f73340a2b7679a94e6dfee067f50a7f83aa30ed8fe9d6694195211c",
+      "source": "Crema texture:",
+      "kind": "text",
+      "context": "Crema texture:"
+    },
+    {
+      "id": "65e26f300681d5a5f816fe392a506b05f4b1e912b6f74eba74bc35e5f40e6b78",
+      "source": "Tiger striping (brown striations through tan crema) indicates excellent extraction with balanced flow. Uniform light brown suggests fast, under-extracted flow. Dark brown with bitter taste signals over-extraction or channeling in localized areas.",
+      "kind": "text",
+      "context": "Crema texture: Tiger striping (brown striations through tan crema) indicates excellent extraction with balanced flow. Uniform light brown suggests fast, under-extracted flow. Dark brown with bitter taste signals over-extraction or channeling in localized areas."
+    },
+    {
+      "id": "5791edd72caa80cb0308563a9d71daef32de736517f74bc9bea93a4a0433cbc8",
+      "source": "Taste Profiling",
+      "kind": "text",
+      "context": "Taste Profiling"
+    },
+    {
+      "id": "0d0e43ca1abef6b2e4d0ad7c6a1bc779a89b1700e34a95d83fe7649d48a231bb",
+      "source": "The most important test is flavor. Proper distribution produces balanced sweetness and acidity without harsh edges.",
+      "kind": "text",
+      "context": "The most important test is flavor. Proper distribution produces balanced sweetness and acidity without harsh edges."
+    },
+    {
+      "id": "0b09e7ca6441d9b275967af0e1762da59eb263ada37758562dce77b13f52f925",
+      "source": "Tasting grid:",
+      "kind": "text",
+      "context": "Tasting grid:"
+    },
+    {
+      "id": "c10cb5065ed143dd53873378726a05620ff00c2aabbf149f1e71d0af7fd5e65c",
+      "source": "Rate each attribute 1-5:",
+      "kind": "text",
+      "context": "Tasting grid: Rate each attribute 1-5:"
+    },
+    {
+      "id": "31f015ef445c2ce161465866236da30f490b37bc5e789fdd198362087459379d",
+      "source": "Acidity/Brightness: ____",
+      "kind": "text",
+      "context": "Acidity/Brightness: ____"
+    },
+    {
+      "id": "c13ea8d298284de91eb00f03037b6f7fa3a3aa12a1e16771ad33532b373aac4d",
+      "source": "Sweetness: ____",
+      "kind": "text",
+      "context": "Sweetness: ____"
+    },
+    {
+      "id": "22b26d97afd8cd9ef72683cd2c0d132777ef0d31791fb7d8937aa08593fc75ea",
+      "source": "Bitterness: ____",
+      "kind": "text",
+      "context": "Bitterness: ____"
+    },
+    {
+      "id": "1b2acb52144534e7fd0de7c62aacc1f6da9901e4891dfaa3620a869b5be4b047",
+      "source": "Body/Mouthfeel: ____",
+      "kind": "text",
+      "context": "Body/Mouthfeel: ____"
+    },
+    {
+      "id": "05ef5927b7b017a221496df5ece0b3128459a538dd47e1f61fc48dd6bb7b9fd1",
+      "source": "Aftertaste: ____",
+      "kind": "text",
+      "context": "Aftertaste: ____"
+    },
+    {
+      "id": "8b02cd1f9655e205c7e0510b5f9637c8e566d85dc60ccd2ac9306b6f6cd707ff",
+      "source": "Overall Balance: ____",
+      "kind": "text",
+      "context": "Overall Balance: ____"
+    },
+    {
+      "id": "b56d37d1f31396e6eebf37ef1503b6353d2230d7bb1735dab8179ae3db35f18c",
+      "source": "Distribution problems by taste:",
+      "kind": "text",
+      "context": "Distribution problems by taste:"
+    },
+    {
+      "id": "3ed89ba352ee5372630fff1dd8d3efd8124d307fe88d0137ad2ad7d4b8cd3059",
+      "source": "Sour + Bitter simultaneously: channeling creates under and over-extraction in the same shot",
+      "kind": "text",
+      "context": "Sour + Bitter simultaneously: channeling creates under and over-extraction in the same shot"
+    },
+    {
+      "id": "40b171f4ebbf437b60fc45a32069fa29cafaf7a7a2aaa11c0fe2ab6c040bfbd5",
+      "source": "Astringent dryness: over-extraction from compacted zones",
+      "kind": "text",
+      "context": "Astringent dryness: over-extraction from compacted zones"
+    },
+    {
+      "id": "cb8ac4cc028b2b22b468771b37ab48f69ad2f1bc8e33ffc8ed150904f119fe66",
+      "source": "Thin, watery body: channeling robs extraction time",
+      "kind": "text",
+      "context": "Thin, watery body: channeling robs extraction time"
+    },
+    {
+      "id": "86684547f0fa921556ec86a7111435a68dba1c0bdeee5e40143e882b029242fe",
+      "source": "Harsh acidity: under-extraction from fast channels",
+      "kind": "text",
+      "context": "Harsh acidity: under-extraction from fast channels"
+    },
+    {
+      "id": "81d00e503cd05ca43adb2a1dba4b1416bef03473dd0d0bb44453cf87491746c6",
+      "source": "Target profile:",
+      "kind": "text",
+      "context": "Target profile:"
+    },
+    {
+      "id": "b1cd1b7453621b4885d76e6552f1154bfacc10dd9f5e1718803ec176c72b2579",
+      "source": "Balanced shots show present but not dominant acidity, noticeable sweetness (caramel, chocolate, fruit depending on beans), low bitterness (should be pleasant backbone, not harsh), syrupy body that coats your tongue, and a clean, sweet aftertaste lasting 5-10 minutes.",
+      "kind": "text",
+      "context": "Target profile: Balanced shots show present but not dominant acidity, noticeable sweetness (caramel, chocolate, fruit depending on beans), low bitterness (should be pleasant backbone, not harsh), syrupy body that coats your tongue, and a clean, sweet aftertaste lasting 5-10 minutes."
+    },
+    {
+      "id": "1f99c40d5fc1d9f1fa327b836a7185db2b925bd56f2e99d2259250c3217c14d7",
+      "source": "Refractometer Measurement",
+      "kind": "text",
+      "context": "Refractometer Measurement"
+    },
+    {
+      "id": "bbd70a2729a4e41660c512703808e5c8a3422cc6aec525dd5694ad2fc3af1a25",
+      "source": "For precise quantification, measure Total Dissolved Solids (TDS) and calculate extraction yield.",
+      "kind": "text",
+      "context": "For precise quantification, measure Total Dissolved Solids (TDS) and calculate extraction yield."
+    },
+    {
+      "id": "889597a3b8a325755abab65964534b1df301b89849ce66927b23b784f760182f",
+      "source": "Equipment needed:",
+      "kind": "text",
+      "context": "Equipment needed:"
+    },
+    {
+      "id": "af164697f157ecb3e425bd598302013118acee1a1a4ff3733d08edf121cb8c93",
+      "source": "VST LAB Coffee III or similar refractometer ($700+). Alternatively, use the free Brix measurement apps with phone camera ($0) for rough estimates.",
+      "kind": "text",
+      "context": "Equipment needed: VST LAB Coffee III or similar refractometer ($700+). Alternatively, use the free Brix measurement apps with phone camera ($0) for rough estimates."
+    },
+    {
+      "id": "60b431b9278c4acd9fdfe75bd833f41bfd721ee072184d527dc1ff501877a1ea",
+      "source": "Process:",
+      "kind": "text",
+      "context": "Process:"
+    },
+    {
+      "id": "aa5fd7dff738a09357923ff2e9085368f70c06af4950a4b7633b57cdfffa8c55",
+      "source": "Pull shot into pre-weighed cup",
+      "kind": "text",
+      "context": "Pull shot into pre-weighed cup"
+    },
+    {
+      "id": "8e15354bb9c8ea8d403bfbcee52f6fd3824edd5ee0f5a43501c013396a638561",
+      "source": "Weigh final beverage",
+      "kind": "text",
+      "context": "Weigh final beverage"
+    },
+    {
+      "id": "21fe8fa9f9d98becb2fe2f2741b97411112f9e0c4d2bdfe4ac5b3fcbd73b5d27",
+      "source": "Stir thoroughly",
+      "kind": "text",
+      "context": "Stir thoroughly"
+    },
+    {
+      "id": "06a81fafc207d53f68411bfc1441a215ed89df1ace6d15533c2b323a86f42f29",
+      "source": "Place sample on refractometer",
+      "kind": "text",
+      "context": "Place sample on refractometer"
+    },
+    {
+      "id": "5caee0d1a21e2864c9ed878170ba099f9acf8fcfeae68ea19653e8c9d1d1584d",
+      "source": "Record TDS percentage",
+      "kind": "text",
+      "context": "Record TDS percentage"
+    },
+    {
+      "id": "9dfd9c7d74ed0893bd827abbb1fd286418905a939729239dabacd0b8f6057e21",
+      "source": "Calculation:",
+      "kind": "text",
+      "context": "Calculation:"
+    },
+    {
+      "id": "603d2bb16a211672f53f180f355933f9a1ba1ed347eb82319e690cd8fd253877",
+      "source": "Extraction Yield (%) = (Beverage Weight × TDS) ÷ Dose Weight × 100",
+      "kind": "text",
+      "context": "Calculation: Extraction Yield (%) = (Beverage Weight × TDS) ÷ Dose Weight × 100"
+    },
+    {
+      "id": "d5ba2579f6cce26648c0191687d0b1c2e0466a43f3ad2a67f53ef7adcc396e1b",
+      "source": "Target ranges:",
+      "kind": "text",
+      "context": "Target ranges:"
+    },
+    {
+      "id": "2b8316ff0fffc42242a125c203e0481577bbbc430f1920529ef409c6de3bab77",
+      "source": "TDS: 8-12% for straight espresso",
+      "kind": "text",
+      "context": "TDS: 8-12% for straight espresso"
+    },
+    {
+      "id": "16eb99aa9f28fc374910dcb05e5b5c9dfa11df99389378dbe1d01fa0a27e0fa0",
+      "source": "Extraction Yield: 18-22% (SCA \"golden cup\" standard)",
+      "kind": "text",
+      "context": "Extraction Yield: 18-22% (SCA \"golden cup\" standard)"
+    },
+    {
+      "id": "0d3695146643e41c795af01dc0fede9d5109801acc33e7fbcb03263ac7ee911d",
+      "source": "Distribution impact:",
+      "kind": "text",
+      "context": "Distribution impact:"
+    },
+    {
+      "id": "43ab349c3a023b4c81b04aded6e10eab3a5b09859d5bfa527ef297f928dad19f",
+      "source": "Poor distribution typically produces TDS values below 8% (under-extraction from channeling) or above 12% (over-extraction from compaction). Improved distribution centers your results in the 9-11% sweet spot.",
+      "kind": "text",
+      "context": "Distribution impact: Poor distribution typically produces TDS values below 8% (under-extraction from channeling) or above 12% (over-extraction from compaction). Improved distribution centers your results in the 9-11% sweet spot."
+    },
+    {
+      "id": "9dea50c572df8ed594e8ef4c97b75f287f247a7c2a7e1bf28ab19896430c26bb",
+      "source": "Common Distribution Errors and Fixes",
+      "kind": "text",
+      "context": "Common Distribution Errors and Fixes"
+    },
+    {
+      "id": "d5d3c3e867e2845a736d457c2e62b7bbb80659eb61edfdb99c6a433a7b2351c5",
+      "source": "Over-Distribution",
+      "kind": "text",
+      "context": "Over-Distribution"
+    },
+    {
+      "id": "8f1d473e2bc45dda0f52c59b67250485235cc15bf0d4335f7be4309be770ad15",
+      "source": "Symptom:",
+      "kind": "text",
+      "context": "Symptom:"
+    },
+    {
+      "id": "61065e3ba454adb0d94f8bc49fbb7582288dd449208b5779ff8fc98e7862b62e",
+      "source": "Extraction time increases after implementing WDT. Shot tastes bitter and astringent despite using the same grind setting that previously worked.",
+      "kind": "text",
+      "context": "Symptom: Extraction time increases after implementing WDT. Shot tastes bitter and astringent despite using the same grind setting that previously worked."
+    },
+    {
+      "id": "1d08dc525cc097b10a8196dede994a4a380395a10a9ddef7977358124eada02f",
+      "source": "Excessive stirring compacts grounds instead of fluffing them. The needles compress particles together through repeated passes in the same areas.",
+      "kind": "text",
+      "context": "Cause: Excessive stirring compacts grounds instead of fluffing them. The needles compress particles together through repeated passes in the same areas."
+    },
+    {
+      "id": "5354973435350d654ccfe121651a2c42e62ebf7a1ebf6d99cbae66bc268a6050",
+      "source": "Reduce stirring to 2 passes maximum. Use lighter pressure. The needles should glide through grounds, not plow through resistance. If you feel significant resistance, your grounds are already well-distributed.",
+      "kind": "text",
+      "context": "Fix: Reduce stirring to 2 passes maximum. Use lighter pressure. The needles should glide through grounds, not plow through resistance. If you feel significant resistance, your grounds are already well-distributed."
+    },
+    {
+      "id": "12573d85ef2eec1454d2b414b13edc792f55199bd0faff708d6fdef634add53f",
+      "source": "Incomplete Coverage",
+      "kind": "text",
+      "context": "Incomplete Coverage"
+    },
+    {
+      "id": "0dbf8c83291f808826c08aef5dab1a4dedac2bfaad1d70a9f5829ccc5a270e83",
+      "source": "Channeling persists after WDT implementation. Puck surface shows uneven saturation after extraction with dry spots remaining.",
+      "kind": "text",
+      "context": "Symptom: Channeling persists after WDT implementation. Puck surface shows uneven saturation after extraction with dry spots remaining."
+    },
+    {
+      "id": "43d5e62486ef86165a58996e9161f7282aa1cef656476a60555fafeaf3d29249",
+      "source": "Missing the basket edges or center during distribution. The spiral pattern skipped areas or didn't reach the basket bottom.",
+      "kind": "text",
+      "context": "Cause: Missing the basket edges or center during distribution. The spiral pattern skipped areas or didn't reach the basket bottom."
+    },
+    {
+      "id": "f922b586cae3d3f31ec2bdbf56b645ae81ee9b5c1c30d14dfa125ef7d41b7822",
+      "source": "Use a systematic pattern every time. Start center, spiral outward, reverse direction, then specifically address edges with vertical needle passes. Consistency in technique matters more than intensity.",
+      "kind": "text",
+      "context": "Fix: Use a systematic pattern every time. Start center, spiral outward, reverse direction, then specifically address edges with vertical needle passes. Consistency in technique matters more than intensity."
+    },
+    {
+      "id": "93b139f30fa4541865d447d1b941f3d06762966238a022e9ebba247b564eb37c",
+      "source": "Wrong Tool Diameter",
+      "kind": "text",
+      "context": "Wrong Tool Diameter"
+    },
+    {
+      "id": "f02c0d7ac7af21ec7d18b2769af809b5eb1c2a4f29b358c5e62d8e315a6b3fd5",
+      "source": "WDT takes excessive time and still leaves clumps. Grounds look compressed rather than fluffy.",
+      "kind": "text",
+      "context": "Symptom: WDT takes excessive time and still leaves clumps. Grounds look compressed rather than fluffy."
+    },
+    {
+      "id": "57db0c03f1aef651651009313a16fa1209807e361889a07dcc27fd8e8c42f906",
+      "source": "Needles thicker than 0.5mm compress grounds as they pass through. You're creating density variations instead of eliminating them.",
+      "kind": "text",
+      "context": "Cause: Needles thicker than 0.5mm compress grounds as they pass through. You're creating density variations instead of eliminating them."
+    },
+    {
+      "id": "b8dc75cd83e600f30d407336e911a92c82fc897f603d4175af6242b83ec21869",
+      "source": "Switch to thinner needles. Acupuncture needles in 0.3-0.4mm diameter work perfectly. If unavailable, straightened paperclips (approximately 0.4mm) work better than thick tools.",
+      "kind": "text",
+      "context": "Fix: Switch to thinner needles. Acupuncture needles in 0.3-0.4mm diameter work perfectly. If unavailable, straightened paperclips (approximately 0.4mm) work better than thick tools."
+    },
+    {
+      "id": "ac21a08a8567004c26cf6432a78fb9779c7ac29f7bb239ea270b126de64799c5",
+      "source": "Dosing Funnel Issues",
+      "kind": "text",
+      "context": "Dosing Funnel Issues"
+    },
+    {
+      "id": "5f4742518680a4ea82c3059f4d0f445865a25252fccbf7da544d68341e1e2fde",
+      "source": "Grounds spill during distribution. The WDT tool catches on the funnel rim.",
+      "kind": "text",
+      "context": "Symptom: Grounds spill during distribution. The WDT tool catches on the funnel rim."
+    },
+    {
+      "id": "c62a3d97121171bad4a02e12810051f4cdf6c0964246ec2dd616aa8a326aaa95",
+      "source": "Funnel too shallow for your dose size or WDT tool diameter.",
+      "kind": "text",
+      "context": "Cause: Funnel too shallow for your dose size or WDT tool diameter."
+    },
+    {
+      "id": "c47a65f588bca13abf7d626532894a1d9e025816ea12fe90806be6b10a8f736a",
+      "source": "Use a taller funnel that provides 15-20mm clearance above the grounds mound. Magnetic funnels stay secure during stirring. Remove the funnel before tamping.",
+      "kind": "text",
+      "context": "Fix: Use a taller funnel that provides 15-20mm clearance above the grounds mound. Magnetic funnels stay secure during stirring. Remove the funnel before tamping."
+    },
+    {
+      "id": "7660bb7e1fb71d6ad053810952a9f4a6a0bb2e21d0fa31bc79ee4c45b1d67499",
+      "source": "Post-Tamping Distribution",
+      "kind": "text",
+      "context": "Post-Tamping Distribution"
+    },
+    {
+      "id": "c33d69deae3b27800d6dcf3fd7ea578d30392d21e158c3a709d880c08dd36a4c",
+      "source": "You used WDT after tamping and the shot channeled severely with gushing flow.",
+      "kind": "text",
+      "context": "Symptom: You used WDT after tamping and the shot channeled severely with gushing flow."
+    },
+    {
+      "id": "1c21a67f1f4c6b46fc803c55d860692c1f66a933bffceae69fe50791388ffa57",
+      "source": "Disturbing a tamped puck breaks the seal between grounds and basket wall. Water flows through this gap preferentially.",
+      "kind": "text",
+      "context": "Cause: Disturbing a tamped puck breaks the seal between grounds and basket wall. Water flows through this gap preferentially."
+    },
+    {
+      "id": "58a7d0b09fc868de60c0dd9016b9d834e9ed5b921c118795e1f672108309e6cf",
+      "source": "Never touch grounds after tamping. The sequence must be: dose → WDT → level → tamp → lock → extract. Any deviation creates problems.",
+      "kind": "text",
+      "context": "Fix: Never touch grounds after tamping. The sequence must be: dose → WDT → level → tamp → lock → extract. Any deviation creates problems."
+    },
+    {
+      "id": "ce4b32f0d5b8cc7309e70e5debaa19d22967ab5f392e2d6dfb80da2eb1308976",
+      "source": "Integration Into Your Workflow",
+      "kind": "text",
+      "context": "Integration Into Your Workflow"
+    },
+    {
+      "id": "a03064abc2f016e72978dfe1868361d8a3bfe279ec42fe8b25747b095b28ebcf",
+      "source": "Effective distribution adds 8-12 seconds to your shot preparation time. This investment pays off in consistency and flavor clarity.",
+      "kind": "text",
+      "context": "Effective distribution adds 8-12 seconds to your shot preparation time. This investment pays off in consistency and flavor clarity."
+    },
+    {
+      "id": "ae4d45e081e382bfbf7c593bb62cd0984ecb1359bc00ca83ac7fc6339c58d574",
+      "source": "Morning routine optimization:",
+      "kind": "text",
+      "context": "Morning routine optimization:"
+    },
+    {
+      "id": "719e2dccb3acf4008c8a12476b321134f7c5e99fe32e9b60ad0668ddd9e0e314",
+      "source": "Warm machine (30-45 seconds with flush)",
+      "kind": "text",
+      "context": "Warm machine (30-45 seconds with flush)"
+    },
+    {
+      "id": "ddf017f80c957a3581bf5d00da5f317f54dce4ae672d5855f7732eefe392741c",
+      "source": "Weigh beans (18.0g on scale)",
+      "kind": "text",
+      "context": "Weigh beans (18.0g on scale)"
+    },
+    {
+      "id": "8f1dca5687b4ccefebfacf8c8415d85d31b47adaaade724426ce9d377751874a",
+      "source": "Grind into portafilter with funnel",
+      "kind": "text",
+      "context": "Grind into portafilter with funnel"
+    },
+    {
+      "id": "5acd8b66bee102f32d004ede22f5a8ca607dc02eab5840a4054cfa0feca8795c",
+      "source": "WDT (10 seconds, systematic pattern)",
+      "kind": "text",
+      "context": "WDT (10 seconds, systematic pattern)"
+    },
+    {
+      "id": "091840e7f72a2866c3ab4d4abb3fa68de4a1191dcc832c43c868704ed4039466",
+      "source": "Remove funnel",
+      "kind": "text",
+      "context": "Remove funnel"
+    },
+    {
+      "id": "e845ecb49f7c54fef4e3e4e6ef181031b945feaad9315c644497c569d4ca2eb4",
+      "source": "Level surface (2 seconds, finger sweep)",
+      "kind": "text",
+      "context": "Level surface (2 seconds, finger sweep)"
+    },
+    {
+      "id": "8414d6b8770c4139af8615fd3aa2dac7efe5c3a96d5cb4b7d80da638e6b34265",
+      "source": "Tamp (3 seconds, firm and level)",
+      "kind": "text",
+      "context": "Tamp (3 seconds, firm and level)"
+    },
+    {
+      "id": "2d5681c91c03b4149877d6d998243a2255e576733e4b4cfcce5575cb96b1ce8e",
+      "source": "Lock and extract immediately",
+      "kind": "text",
+      "context": "Lock and extract immediately"
+    },
+    {
+      "id": "9bf2ef746a7be411ed8bc575a180eab225d460173390f332f7d5cbac8ca10abe",
+      "source": "Total added time vs. no distribution:",
+      "kind": "text",
+      "context": "Total added time vs. no distribution:"
+    },
+    {
+      "id": "849b3607f527a0ef5704fc43d7513d915fd1f75fce135147203553dd518c0f46",
+      "source": "Approximately 12 seconds. The consistency improvement and taste quality justify this minor extension.",
+      "kind": "text",
+      "context": "Total added time vs. no distribution: Approximately 12 seconds. The consistency improvement and taste quality justify this minor extension."
+    },
+    {
+      "id": "341281c1f43383c98cdfe185be4ca43bc8d450a3b868ed16c588f2bdfedea620",
+      "source": "Workflow tip:",
+      "kind": "text",
+      "context": "Workflow tip:"
+    },
+    {
+      "id": "f5ae4b5ea14304e9233d76e764b079e45844e4498ae1751d1c2742fed139a5b7",
+      "source": "Prepare your WDT tool while the machine warms. Have it ready next to the grinder so distribution happens immediately after dosing. This prevents grounds from settling and clumping while you search for tools.",
+      "kind": "text",
+      "context": "Workflow tip: Prepare your WDT tool while the machine warms. Have it ready next to the grinder so distribution happens immediately after dosing. This prevents grounds from settling and clumping while you search for tools."
+    },
+    {
+      "id": "e05df72abf000869e088f127176c15afd8a2448734ecf89314d4f34557d575ec",
+      "source": "Advanced Distribution for Light Roasts",
+      "kind": "text",
+      "context": "Advanced Distribution for Light Roasts"
+    },
+    {
+      "id": "217f5a422ecd8b06388362dc061ce2c8919166f5e0db0824241f221fd39ac2fb",
+      "source": "Light roasts present unique distribution challenges. Their density and hardness create smaller, more numerous clumps that resist basic WDT.",
+      "kind": "text",
+      "context": "Light roasts present unique distribution challenges. Their density and hardness create smaller, more numerous clumps that resist basic WDT."
+    },
+    {
+      "id": "02231252283f061b65c201b0d9dc661de40995e31a2505d3a70de69557717a1a",
+      "source": "Light roast characteristics:",
+      "kind": "text",
+      "context": "Light roast characteristics:"
+    },
+    {
+      "id": "b73849f5220ac8a9592b45c7e3096f18f165740fde03e7976b96878f2610ec81",
+      "source": "Higher particle density",
+      "kind": "text",
+      "context": "Higher particle density"
+    },
+    {
+      "id": "ee84e03a5a13baddbbf1f1faa4032bbbcdace95f8ee60090bb88453116ac623c",
+      "source": "More static due to lower oil content",
+      "kind": "text",
+      "context": "More static due to lower oil content"
+    },
+    {
+      "id": "72435ca96a4d7c87f1cc8210be428de4f66b1758e51f844fd85bce18762ecdc7",
+      "source": "Smaller, harder clumps",
+      "kind": "text",
+      "context": "Smaller, harder clumps"
+    },
+    {
+      "id": "edcd239fe919da093a2aa4d823f045d3b9dc87b51d478df10b8174d29f35f2ff",
+      "source": "Requires finer grinding for proper extraction",
+      "kind": "text",
+      "context": "Requires finer grinding for proper extraction"
+    },
+    {
+      "id": "1bb78c970bd1b145c1cc206176b9f4b5262cff0c8d8f4fbe188bf22bc5750b2c",
+      "source": "Modified WDT technique:",
+      "kind": "text",
+      "context": "Modified WDT technique:"
+    },
+    {
+      "id": "44c417b1de7114c5d10bac23ff60777435f83c33dac712156dadff2746294eb5",
+      "source": "Increase needle count to 12-15 for better coverage",
+      "kind": "text",
+      "context": "Increase needle count to 12-15 for better coverage"
+    },
+    {
+      "id": "5a145011c5649ccaaa7cb92672c58417f3659a3314aea15b2c5e423fa875769e",
+      "source": "Add third stirring pass focusing on subsurface clumps",
+      "kind": "text",
+      "context": "Add third stirring pass focusing on subsurface clumps"
+    },
+    {
+      "id": "7e52c797c65129c6aacd0badb88ec0f0c878b98e22bda755b22167de96227034",
+      "source": "Use RDT (Ross Droplet) to reduce static before grinding",
+      "kind": "text",
+      "context": "Use RDT (Ross Droplet) to reduce static before grinding"
+    },
+    {
+      "id": "7317827866badb2f24b3548771703f31218c861e29f4ca30ccae268c3db8df97",
+      "source": "Consider dosing 0.5g higher to compensate for density",
+      "kind": "text",
+      "context": "Consider dosing 0.5g higher to compensate for density"
+    },
+    {
+      "id": "791665ea4f7bef537bf99af4ac7942a205620a4b5be3d076299fc93047f7dbad",
+      "source": "Grind adjustment:",
+      "kind": "text",
+      "context": "Grind adjustment:"
+    },
+    {
+      "id": "2e535ff8bca399964ad3fbd1bca81f64349d5a9b5a8b2faf759b9c2c2822a2b1",
+      "source": "Light roasts may need settings 2-3 steps finer than medium roasts. The Breville Barista Express often bottoms out before achieving ideal particle size for dense Nordic-style coffees. If setting 1 still extracts too fast, consider upgrading to a grinder with wider range like the Baratza Sette 270 or Niche Zero.",
+      "kind": "text",
+      "context": "Grind adjustment: Light roasts may need settings 2-3 steps finer than medium roasts. The Breville Barista Express often bottoms out before achieving ideal particle size for dense Nordic-style coffees. If setting 1 still extracts too fast, consider upgrading to a grinder with wider range like the Baratza Sette 270 or Niche Zero."
+    },
+    {
+      "id": "a5b63c9bb07797a0d91aaae1583fc04b9ce1186d296e442ce347fbfa0b58b795",
+      "source": "Temperature Interaction With Distribution",
+      "kind": "text",
+      "context": "Temperature Interaction With Distribution"
+    },
+    {
+      "id": "d4fb8fd616906de4d37d53f58119a69ed9e203eb11ece79c753cf0e1c528e89d",
+      "source": "Water temperature affects extraction differently in well-distributed versus poorly-distributed pucks.",
+      "kind": "text",
+      "context": "Water temperature affects extraction differently in well-distributed versus poorly-distributed pucks."
+    },
+    {
+      "id": "273aebde258e56c3d7411833670f20f8e21fe380605e1a7928d502a1d812bcd1",
+      "source": "Channeled pucks:",
+      "kind": "text",
+      "context": "Channeled pucks:"
+    },
+    {
+      "id": "5d958e0b81dba7161e631fcfefb1ddee22b0bb85c7d8549a97db6756b13507a4",
+      "source": "Fast water flow through channels doesn't allow sufficient time for thermal equilibrium. The shot extracts cooler than your PID setting, resulting in under-extraction even at high temperatures (205-210°F).",
+      "kind": "text",
+      "context": "Channeled pucks: Fast water flow through channels doesn't allow sufficient time for thermal equilibrium. The shot extracts cooler than your PID setting, resulting in under-extraction even at high temperatures (205-210°F)."
+    },
+    {
+      "id": "48a882e57e99f54168e6eccda6fb1d554558b6b0d48e933421a4e37d35e3ea60",
+      "source": "Well-distributed pucks:",
+      "kind": "text",
+      "context": "Well-distributed pucks:"
+    },
+    {
+      "id": "f464f2e0f5af3310c57444a28d9f307cc9d9b4a7dff424f3d786b99e7ff20a94",
+      "source": "Uniform flow allows proper thermal exchange. Your PID temperature directly controls extraction character. You can fine-tune flavor by adjusting temperature in 2-3°F increments.",
+      "kind": "text",
+      "context": "Well-distributed pucks: Uniform flow allows proper thermal exchange. Your PID temperature directly controls extraction character. You can fine-tune flavor by adjusting temperature in 2-3°F increments."
+    },
+    {
+      "id": "a71b793f5d06beba39206b58d1ca694ce537d7bf1630f3ad9923e33c40c91047",
+      "source": "Temperature recommendations by distribution quality:",
+      "kind": "text",
+      "context": "Temperature recommendations by distribution quality:"
+    },
+    {
+      "id": "4cca8e68632cd3596876692cf8548182496e1ee8217a4d47a668c5f6499cb648",
+      "source": "Poor distribution: higher temps (205-210°F) compensate for fast flow",
+      "kind": "text",
+      "context": "Poor distribution: higher temps (205-210°F) compensate for fast flow"
+    },
+    {
+      "id": "a87b4bbf6e1203160c404230f7edb07d9ea6548a6becdef8ef4305e6beddbabe",
+      "source": "Good distribution: standard temps (198-203°F) for balanced extraction",
+      "kind": "text",
+      "context": "Good distribution: standard temps (198-203°F) for balanced extraction"
+    },
+    {
+      "id": "93688a4fd2d8c36eac21f22a901aa3ec95a20f036ace1a9f3a07da15b45b7ce3",
+      "source": "Excellent distribution: lower temps (195-200°F) avoid over-extraction",
+      "kind": "text",
+      "context": "Excellent distribution: lower temps (195-200°F) avoid over-extraction"
+    },
+    {
+      "id": "171103797c4d13966ec40ff0122d65b581e98bb02f4763a853d8fe3c6100872e",
+      "source": "The Breville Barista Express offers three temperature settings accessed by holding the Program button during startup: 190°F for light roasts, 200°F for standard use, and 210°F for dark roasts. These presets assume mediocre distribution. With excellent WDT technique, you can decrease one setting level and achieve better balance.",
+      "kind": "text",
+      "context": "The Breville Barista Express offers three temperature settings accessed by holding the Program button during startup: 190°F for light roasts, 200°F for standard use, and 210°F for dark roasts. These presets assume mediocre distribution. With excellent WDT technique, you can decrease one setting level and achieve better balance."
+    },
+    {
+      "id": "853044fbe1c10feb782a191b5cb8d7f7f96910f106ae9bba7384b7272c53efde",
+      "source": "Distribution and Pressure Profiling",
+      "kind": "text",
+      "context": "Distribution and Pressure Profiling"
+    },
+    {
+      "id": "9fc1328b5176f30d18b56e4ed7c7556c363a13f18bc99775a185c16691c43248",
+      "source": "Pre-infusion benefits significantly from good distribution. The low-pressure wetting phase saturates grounds evenly when clumps are absent.",
+      "kind": "text",
+      "context": "Pre-infusion benefits significantly from good distribution. The low-pressure wetting phase saturates grounds evenly when clumps are absent."
+    },
+    {
+      "id": "9b10307961ae624d1011c08828c611ff4b702ee082e41bfe32ff2aea1ad0f574",
+      "source": "Standard machines:",
+      "kind": "text",
+      "context": "Standard machines:"
+    },
+    {
+      "id": "8bc18ca75241343bb93bc977f48b9dc3498bc57274263214b070129cd4da7ebc",
+      "source": "The Breville Barista Express includes basic pre-infusion that ramps from 0 to 7-8 bar over 3 seconds. This gentle start reduces channeling by 30% compared to immediate full pressure.",
+      "kind": "text",
+      "context": "Standard machines: The Breville Barista Express includes basic pre-infusion that ramps from 0 to 7-8 bar over 3 seconds. This gentle start reduces channeling by 30% compared to immediate full pressure."
+    },
+    {
+      "id": "65fa29385af8d395b4128df9d6992ce86cfe3c7ee5f5aa28027c68289780d88d",
+      "source": "Distribution impact on pre-infusion:",
+      "kind": "text",
+      "context": "Distribution impact on pre-infusion:"
+    },
+    {
+      "id": "07bede82b7ee073645173d735af4848d5fad207ac9616dc2069de19f0ec3ebc1",
+      "source": "Well-distributed grounds absorb water uniformly during pre-infusion, creating even resistance across the puck. Poor distribution causes dry spots that resist wetting, creating permanent channels when full pressure arrives.",
+      "kind": "text",
+      "context": "Distribution impact on pre-infusion: Well-distributed grounds absorb water uniformly during pre-infusion, creating even resistance across the puck. Poor distribution causes dry spots that resist wetting, creating permanent channels when full pressure arrives."
+    },
+    {
+      "id": "d9b80bbbabc7a3960fcc20c61c8788ec95dc2e8dfae018ca108b192953d5a711",
+      "source": "Advanced machines:",
+      "kind": "text",
+      "context": "Advanced machines:"
+    },
+    {
+      "id": "161649d3b08e5a68b4f01099b8d6e66829bcbaad4c63f21e040c3b1deb1489ec",
+      "source": "Lever machines and pressure-profiling pumps allow manual control of pressure throughout extraction. These systems magnify distribution quality differences. Perfect distribution enables declining-pressure profiles that extract delicate flavors impossible with channeling.",
+      "kind": "text",
+      "context": "Advanced machines: Lever machines and pressure-profiling pumps allow manual control of pressure throughout extraction. These systems magnify distribution quality differences. Perfect distribution enables declining-pressure profiles that extract delicate flavors impossible with channeling."
+    },
+    {
+      "id": "bf31c8d1e88090817cb9a2b0c0693f1c76b62fe148f88a57333985c53e68044b",
+      "source": "Tools and Accessories Worth Buying",
+      "kind": "text",
+      "context": "Tools and Accessories Worth Buying"
+    },
+    {
+      "id": "bf9ee4bf99b628a151e2084f4e3c0c934380a0db1708f34416cd580d7c5e0449",
+      "source": "Essential ($0-25)",
+      "kind": "text",
+      "context": "Essential ($0-25)"
+    },
+    {
+      "id": "6ba5bfe89f2ec018834d7667a6708026c204fe8a2bfe6bda6c82b93050ac889a",
+      "source": "WDT tool:",
+      "kind": "text",
+      "context": "WDT tool:"
+    },
+    {
+      "id": "ffee93c83a80eebd3d52fb4430b2f317d65a764971dc7a5e6e6846a4b4ecc6cf",
+      "source": "Priority one. 3D-print design files available free online. Acupuncture needles from medical supply: $5 for 100-pack. Cork and glue: $2. Total DIY cost: $7.",
+      "kind": "text",
+      "context": "WDT tool: Priority one. 3D-print design files available free online. Acupuncture needles from medical supply: $5 for 100-pack. Cork and glue: $2. Total DIY cost: $7."
+    },
+    {
+      "id": "1eee0b740dba3849bb864e6555b5d5ae3c452bb77a54270793a130608aab7333",
+      "source": "Dosing funnel:",
+      "kind": "text",
+      "context": "Dosing funnel:"
+    },
+    {
+      "id": "70aebd29c14731a1ce472d048aa65787b410643ed425211a52ddfdd7eae19cc3",
+      "source": "Magnetic collar for 54mm: $12-15. 58mm aluminum funnel: $15-20. Prevents spillage and enables clean WDT.",
+      "kind": "text",
+      "context": "Dosing funnel: Magnetic collar for 54mm: $12-15. 58mm aluminum funnel: $15-20. Prevents spillage and enables clean WDT."
+    },
+    {
+      "id": "3811f7cc2c8209e1b986505ce44241868636ff9026f30d09aaad8b5d59d9938f",
+      "source": "Scale:",
+      "kind": "text",
+      "context": "Scale:"
+    },
+    {
+      "id": "d90de9454bee160703eb7d857895b308e2187716311a0602dab207a2167066a6",
+      "source": "0.1g precision required. Generic jewelry scale: $15. Hario V60 scale: $25. Acaia Lunar: $250 (overkill for most users).",
+      "kind": "text",
+      "context": "Scale: 0.1g precision required. Generic jewelry scale: $15. Hario V60 scale: $25. Acaia Lunar: $250 (overkill for most users)."
+    },
+    {
+      "id": "746a275183bd7ffbb8548027deb76a2a89e77dfce960c38bcff49e8176586648",
+      "source": "Helpful ($25-75)",
+      "kind": "text",
+      "context": "Helpful ($25-75)"
+    },
+    {
+      "id": "2e5e4024b380d6327a69bb2faf35100f90ba2657613e9050d816b7d08e1f439e",
+      "source": "Precision basket:",
+      "kind": "text",
+      "context": "Precision basket:"
+    },
+    {
+      "id": "6c5b7a2f3266c91dc7eb8d33fb7d9b5ff4b549f4185cbf6493ac0877cf20de7a",
+      "source": "IMS or VST 18-22g ridgeless basket: $35-45. Improves extraction yield 2-4% compared to stock baskets.",
+      "kind": "text",
+      "context": "Precision basket: IMS or VST 18-22g ridgeless basket: $35-45. Improves extraction yield 2-4% compared to stock baskets."
+    },
+    {
+      "id": "eb09a81506131b48bebe029fe9b20298795a665563803366f9d1cb8cde2f5f72",
+      "source": "Puck screen:",
+      "kind": "text",
+      "context": "Puck screen:"
+    },
+    {
+      "id": "9e8cfe89ce6bcfde12bdfbf0c54fbdc942ba3e795b0a7adc7e00b91f94a5eb04",
+      "source": "Stainless mesh sits on grounds during extraction: $8-15. Keeps shower screen cleaner and improves top-surface distribution slightly. Not essential but reduces maintenance.",
+      "kind": "text",
+      "context": "Puck screen: Stainless mesh sits on grounds during extraction: $8-15. Keeps shower screen cleaner and improves top-surface distribution slightly. Not essential but reduces maintenance."
+    },
+    {
+      "id": "d978fada6bf9f06d6c2f775328ce933639999da0b0bd8cb5400f5aa3fe84bd59",
+      "source": "Bottomless portafilter:",
+      "kind": "text",
+      "context": "Bottomless portafilter:"
+    },
+    {
+      "id": "87be3c4c6d6a9771e25638adc90abe7346676d185160ed92624b5c6b3c25691b",
+      "source": "Visual feedback on channeling: $45-60 for 54mm, $35-50 for 58mm. Educational tool that accelerates learning. Strong recommendation for anyone serious about technique improvement.",
+      "kind": "text",
+      "context": "Bottomless portafilter: Visual feedback on channeling: $45-60 for 54mm, $35-50 for 58mm. Educational tool that accelerates learning. Strong recommendation for anyone serious about technique improvement."
+    },
+    {
+      "id": "51bcee3f48b9ff1357883cbdf7cdd4a72d0a9364aa2b02c0e80e6f724cd610dd",
+      "source": "Optional ($75+)",
+      "kind": "text",
+      "context": "Optional ($75+)"
+    },
+    {
+      "id": "ba8ad5aa5b272c2bd44f6a5c2b4b1609be2d70eedd92fef1e6932053401a74f8",
+      "source": "Distribution tool:",
+      "kind": "text",
+      "context": "Distribution tool:"
+    },
+    {
+      "id": "9c4c9912be9837f8b9ae1d83c4f6865947d16d318cba77664a37d75b4f7446dd",
+      "source": "Spring-loaded leveler: $40-80. Levels surface after WDT. Nice to have but not necessary if you master finger-leveling.",
+      "kind": "text",
+      "context": "Distribution tool: Spring-loaded leveler: $40-80. Levels surface after WDT. Nice to have but not necessary if you master finger-leveling."
+    },
+    {
+      "id": "d3dff1031e0152df9b716772909cf19aa63e97be9cb72fbc8a5bb6d1f9a0899a",
+      "source": "Calibrated tamper:",
+      "kind": "text",
+      "context": "Calibrated tamper:"
+    },
+    {
+      "id": "782febe3c81aaa08589095e6c43a752d40b64f7bd9337a56b3995468306556e9",
+      "source": "30-pound spring mechanism: $60-90. Ensures consistent compression. Standard tamper works fine if you develop consistent technique.",
+      "kind": "text",
+      "context": "Calibrated tamper: 30-pound spring mechanism: $60-90. Ensures consistent compression. Standard tamper works fine if you develop consistent technique."
+    },
+    {
+      "id": "f42ac8eb0c2bada04467da44fc5541ab65feb7da693e73d03b97a292bfcb33c0",
+      "source": "Refractometer:",
+      "kind": "text",
+      "context": "Refractometer:"
+    },
+    {
+      "id": "006b2b5d443685ee0e0bd3736de10856455d5c4dd0fc6df9daa9777d71464a17",
+      "source": "VST LAB Coffee: $700. For data-driven optimization. Only worthwhile if you enjoy measurement and experimentation.",
+      "kind": "text",
+      "context": "Refractometer: VST LAB Coffee: $700. For data-driven optimization. Only worthwhile if you enjoy measurement and experimentation."
+    },
+    {
+      "id": "2b643493f049599faa5e443c01096078b5f7592b77fff9f9477c71c5e7152c7b",
+      "source": "Maintenance: Keeping Your Distribution Game Strong",
+      "kind": "text",
+      "context": "Maintenance: Keeping Your Distribution Game Strong"
+    },
+    {
+      "id": "6eabe4c7fae6794abbfcae87a36b019dabb0722bb9c6c3cee91dae251b6709f2",
+      "source": "Weekly:",
+      "kind": "text",
+      "context": "Weekly:"
+    },
+    {
+      "id": "527a014f34ea3bf822ac67618d6bd46e49c641a9085515deef16414224becd7b",
+      "source": "Clean WDT needles with brush or damp cloth",
+      "kind": "text",
+      "context": "Clean WDT needles with brush or damp cloth"
+    },
+    {
+      "id": "769b36a2dddf305ccee55d8c28ede9db3b4bb29bda084ae083f7136e7b9e8c2d",
+      "source": "Wipe portafilter basket with dry cloth",
+      "kind": "text",
+      "context": "Wipe portafilter basket with dry cloth"
+    },
+    {
+      "id": "fcd033d8471cb9d9511c71dc2b2a04b158cb9e13ac46155212bd047cc91c425e",
+      "source": "Brush out grinder burr chamber",
+      "kind": "text",
+      "context": "Brush out grinder burr chamber"
+    },
+    {
+      "id": "56e00a1b9ed8f0ffde779821e4f0de463adb78759b2fae06f8c70446486d0067",
+      "source": "Monthly:",
+      "kind": "text",
+      "context": "Monthly:"
+    },
+    {
+      "id": "cfe0fa6de19ac13382eddc9eeafdae5b38acc81a31aa1123804d80c941061edd",
+      "source": "Deep clean grinder with vacuum and brush",
+      "kind": "text",
+      "context": "Deep clean grinder with vacuum and brush"
+    },
+    {
+      "id": "1e99e262cdd382610c68d9120568f5d46981bd788e8a514cd5c1b9794a530ad0",
+      "source": "Soak portafilter basket in Cafiza solution",
+      "kind": "text",
+      "context": "Soak portafilter basket in Cafiza solution"
+    },
+    {
+      "id": "8bd7550441d24c63552ade66bec25cb98dd814a45a2a8150471b7abedbba3a9c",
+      "source": "Inspect WDT needles for bending or damage",
+      "kind": "text",
+      "context": "Inspect WDT needles for bending or damage"
+    },
+    {
+      "id": "1da9e1e6aebc9a85bf3b9b37dd669aa423a2bb36603e8ccfcfc342d8b029d7d7",
+      "source": "Quarterly:",
+      "kind": "text",
+      "context": "Quarterly:"
+    },
+    {
+      "id": "746f802db7c438abf25f57a91e201c185b4371ae8ea15def246abfb9dc244426",
+      "source": "Replace WDT needles if bent",
+      "kind": "text",
+      "context": "Replace WDT needles if bent"
+    },
+    {
+      "id": "f56f4999df24c579c1e42a88578326e407c77d65c632678173af4dcc65fcc62c",
+      "source": "Check dosing funnel for cracks or magnetic degradation",
+      "kind": "text",
+      "context": "Check dosing funnel for cracks or magnetic degradation"
+    },
+    {
+      "id": "79d3b4cc7d08c0bfe234668c673388721e1d3f8c522672884f5311572719d756",
+      "source": "Verify basket isn't developing pitting or corrosion",
+      "kind": "text",
+      "context": "Verify basket isn't developing pitting or corrosion"
+    },
+    {
+      "id": "eba65e5505d76167924b89aa27acfe160e7db5e9daafc2a17bb8f7a130d5ecb7",
+      "source": "Signs your tools need replacement:",
+      "kind": "text",
+      "context": "Signs your tools need replacement:"
+    },
+    {
+      "id": "cf1d403182feea017bf846cb5e623351189874551bf23d8d445241092aa00ec8",
+      "source": "Bent needles compress rather than separate grounds",
+      "kind": "text",
+      "context": "Bent needles compress rather than separate grounds"
+    },
+    {
+      "id": "a40f7d5beb5f95b0b2b75e3555127cf5d36ad6be23b5c763194588f24febe2e3",
+      "source": "Funnel sits loose or wobbles on portafilter",
+      "kind": "text",
+      "context": "Funnel sits loose or wobbles on portafilter"
+    },
+    {
+      "id": "cbc79db42cea1c8a44c71969c483c2c4b387a744c2aff2a78f9e4a74a8296ff0",
+      "source": "Basket shows visible corrosion or deformation",
+      "kind": "text",
+      "context": "Basket shows visible corrosion or deformation"
+    },
+    {
+      "id": "4c48f2cbf87990681c3f812987c0bd0a039ea932eb37a2342911cb14c1e90fa9",
+      "source": "Basket holes show coffee buildup that won't clean",
+      "kind": "text",
+      "context": "Basket holes show coffee buildup that won't clean"
+    },
+    {
+      "id": "b7a198e7ebe5fadbf212a67c3ba8a1e84a4b1a26b0653044ae694ed41286e483",
+      "source": "Conclusion: Distribution as Foundation",
+      "kind": "text",
+      "context": "Conclusion: Distribution as Foundation"
+    },
+    {
+      "id": "6ba5320cc3588c0e34bcec4831a4c12899c7612435f18290df548853800b3e18",
+      "source": "Master distribution before adjusting grind, dose, or temperature. An evenly distributed puck extracts predictably. A channeled puck produces random results no matter what other variables you control.",
+      "kind": "text",
+      "context": "Master distribution before adjusting grind, dose, or temperature. An evenly distributed puck extracts predictably. A channeled puck produces random results no matter what other variables you control."
+    },
+    {
+      "id": "9c1a791250071d4e7210e2412a4acc206eb98ba5e861b7924fb083430e56fd70",
+      "source": "The sequence for skill building:",
+      "kind": "text",
+      "context": "The sequence for skill building:"
+    },
+    {
+      "id": "5cf30b71113a2cb45079fcc27c14c96cd5fcfed74c77d6210ae39736fb9d3d08",
+      "source": "Consistent distribution (WDT technique)",
+      "kind": "text",
+      "context": "Consistent distribution (WDT technique)"
+    },
+    {
+      "id": "50134153136855613ac0da9597b5dad71bdec5c8721fc6507aee5e985eb7ea92",
+      "source": "Consistent dosing (weigh every shot)",
+      "kind": "text",
+      "context": "Consistent dosing (weigh every shot)"
+    },
+    {
+      "id": "d5922f7074321fed2b1e3922bfb1f2d3c89ff4cd4fbeaee3ae715db8bf0f2a1e",
+      "source": "Consistent tamping (level pressure)",
+      "kind": "text",
+      "context": "Consistent tamping (level pressure)"
+    },
+    {
+      "id": "433a6ef4b976da55424131412e44aeec671d092cbf2e5332e838084734ba3a48",
+      "source": "Grind adjustment (dial in extraction time)",
+      "kind": "text",
+      "context": "Grind adjustment (dial in extraction time)"
+    },
+    {
+      "id": "c6ce1cddcf2686cba5ffcfcc5233fe277e5c729f938343428a951ad7cf496b3c",
+      "source": "Temperature tuning (fine-tune flavor profile)",
+      "kind": "text",
+      "context": "Temperature tuning (fine-tune flavor profile)"
+    },
+    {
+      "id": "9916dc3dab0df3adeba4a5ea0bb748080b9217704291dc110dd3a071debc40b6",
+      "source": "Attempting steps 4-5 without mastering 1-3 creates frustration. Your shots vary wildly because you're changing grind settings to compensate for inconsistent distribution. Lock in solid distribution technique first. Then the other variables become meaningful and adjustable.",
+      "kind": "text",
+      "context": "Attempting steps 4-5 without mastering 1-3 creates frustration. Your shots vary wildly because you're changing grind settings to compensate for inconsistent distribution. Lock in solid distribution technique first. Then the other variables become meaningful and adjustable."
+    },
+    {
+      "id": "36766b0fa1b759327fe2f5ae17e46ff8649621ec0d113734eb7c265053107cdb",
+      "source": "Test the grinder before adding a tool",
+      "kind": "text",
+      "context": "Test the grinder before adding a tool"
+    },
+    {
+      "id": "a7bcdf983063b9ce267b87028cbe1129e560a1ac6c79e70b278b39faebfcb386",
+      "source": "Some grinders deliver a loose, even mound while others produce visible clumps or concentrate grounds in one area of the basket. Treat this as a controlled comparison, not permission to change every variable at once. Keep coffee, dose, basket and grinder setting stable, record delivery pattern, clumps, shot time and taste over several preparations, and repeat the same routine before deciding that the difference is real. A single unusually good or bad result can come from preparation, temperature, retained coffee, bean age, or simple measurement error. The useful question is whether the result repeats when the setup and order of work remain the same.",
+      "kind": "text",
+      "context": "Some grinders deliver a loose, even mound while others produce visible clumps or concentrate grounds in one area of the basket. Treat this as a controlled comparison, not permission to change every variable at once. Keep coffee, dose, basket and grinder setting stable, record delivery pattern, clumps, shot time and taste over several preparations, and repeat the same routine before deciding that the difference is real. A single unusually good or bad result can come from preparation, temperature, retained coffee, bean age, or simple measurement error. The useful question is whether the result repeats when the setup and order of work remain the same."
+    },
+    {
+      "id": "2bda6fd6fb0171ee4ba91c3b77ff4c66db6c32a2ebf14e2afa8103d4ff8abe30",
+      "source": "Pull a short baseline series with the simplest careful routine before adding WDT, a leveler or a dosing cup transfer. If the result moves in the expected direction, keep the change long enough to taste it across several preparations. If it does not, return to the baseline before trying another correction. A tool can solve a real delivery problem, but adding motions without a baseline makes improvement impossible to separate from novelty. That distinction prevents a convenient explanation from becoming a false rule. Keep the fewest steps that produce repeatable flow and a balanced cup. Write down the final setting and the reason for keeping it; a short decision record is more valuable than a perfect-looking number that cannot be reproduced tomorrow.",
+      "kind": "text",
+      "context": "Pull a short baseline series with the simplest careful routine before adding WDT, a leveler or a dosing cup transfer. If the result moves in the expected direction, keep the change long enough to taste it across several preparations. If it does not, return to the baseline before trying another correction. A tool can solve a real delivery problem, but adding motions without a baseline makes improvement impossible to separate from novelty. That distinction prevents a convenient explanation from becoming a false rule. Keep the fewest steps that produce repeatable flow and a balanced cup. Write down the final setting and the reason for keeping it; a short decision record is more valuable than a perfect-looking number that cannot be reproduced tomorrow."
+    },
+    {
+      "id": "783c4472470e44f240fb168201c3be3615727cdfff447951c51c938823f36974",
+      "source": "Use WDT as distribution, not decoration",
+      "kind": "text",
+      "context": "Use WDT as distribution, not decoration"
+    },
+    {
+      "id": "8b9965b75af0c60be70179f81f1c3a3f357c62d8dd93f776dd952693d7567d34",
+      "source": "Fine needles can break clumps and move coffee through the bed, while thick tools or hurried stirring can create furrows and new density differences. Treat this as a controlled comparison, not permission to change every variable at once. Keep dose, funnel, needle pattern and tamp stable, record spillage, preparation time, shot variance and visible flow, and repeat the same routine before deciding that the difference is real. A single unusually good or bad result can come from preparation, temperature, retained coffee, bean age, or simple measurement error. The useful question is whether the result repeats when the setup and order of work remain the same.",
+      "kind": "text",
+      "context": "Fine needles can break clumps and move coffee through the bed, while thick tools or hurried stirring can create furrows and new density differences. Treat this as a controlled comparison, not permission to change every variable at once. Keep dose, funnel, needle pattern and tamp stable, record spillage, preparation time, shot variance and visible flow, and repeat the same routine before deciding that the difference is real. A single unusually good or bad result can come from preparation, temperature, retained coffee, bean age, or simple measurement error. The useful question is whether the result repeats when the setup and order of work remain the same."
+    },
+    {
+      "id": "50d782f7792a067b3f0ece286823ce1007c5ca6f4a22f36747f13561cf5bee05",
+      "source": "Stir deliberately from the lower bed upward, cover the basket area, finish with a level surface and avoid scraping the metal. If the result moves in the expected direction, keep the change long enough to taste it across several preparations. If it does not, return to the baseline before trying another correction. The goal is an even density field, not a memorized number of circles or a dramatic surface pattern. That distinction prevents a convenient explanation from becoming a false rule. Stop changing the motion once it is simple enough to repeat and no longer improves the measured result. Write down the final setting and the reason for keeping it; a short decision record is more valuable than a perfect-looking number that cannot be reproduced tomorrow.",
+      "kind": "text",
+      "context": "Stir deliberately from the lower bed upward, cover the basket area, finish with a level surface and avoid scraping the metal. If the result moves in the expected direction, keep the change long enough to taste it across several preparations. If it does not, return to the baseline before trying another correction. The goal is an even density field, not a memorized number of circles or a dramatic surface pattern. That distinction prevents a convenient explanation from becoming a false rule. Stop changing the motion once it is simple enough to repeat and no longer improves the measured result. Write down the final setting and the reason for keeping it; a short decision record is more valuable than a perfect-looking number that cannot be reproduced tomorrow."
+    },
+    {
+      "id": "c14507230317be69b9fae431ec2348021b7b73d179dea4fcfd4b930e4be989b3",
+      "source": "What is espresso distribution?",
+      "kind": "text",
+      "context": "What is espresso distribution?"
+    },
+    {
+      "id": "bd4e5f177dda2d4571d10c0925e3c60014b1fc4380d201a3e50310a1ede88956",
+      "source": "It is the process of arranging loose grounds more evenly in the basket before tamping, with the goal of reducing clumps and large density differences that can encourage uneven flow.",
+      "kind": "text",
+      "context": "It is the process of arranging loose grounds more evenly in the basket before tamping, with the goal of reducing clumps and large density differences that can encourage uneven flow."
+    },
+    {
+      "id": "1aca9d201ff6e19a246c6b3a3b49b69438e25868bd69fef9a4a141f41233d1c7",
+      "source": "Do I need a WDT tool?",
+      "kind": "text",
+      "context": "Do I need a WDT tool?"
+    },
+    {
+      "id": "1c7ff2e27e8141ea56ab54b89d40d0c64b83a67f7093c80ecc44389f38a49081",
+      "source": "Not every grinder and workflow needs it, but fine-needle WDT can be useful when grounds arrive clumped or unevenly. Compare it against a careful baseline rather than assuming every extra step helps.",
+      "kind": "text",
+      "context": "Not every grinder and workflow needs it, but fine-needle WDT can be useful when grounds arrive clumped or unevenly. Compare it against a careful baseline rather than assuming every extra step helps."
+    },
+    {
+      "id": "b40351f71a8b5ed9e8a4a1829be4b7e6592788c39e5a3dcd2570a979b8f4505b",
+      "source": "Is a spinning leveler the same as WDT?",
+      "kind": "text",
+      "context": "Is a spinning leveler the same as WDT?"
+    },
+    {
+      "id": "d01bbacb0d6b2ab194081fd5be30890c740d4bedba40eaf89d72942d726b2886",
+      "source": "No. A surface leveler mainly changes the top of the bed; WDT can move grounds and break clumps through more of the puck depth. Either tool can be misused, and neither replaces a level tamp.",
+      "kind": "text",
+      "context": "No. A surface leveler mainly changes the top of the bed; WDT can move grounds and break clumps through more of the puck depth. Either tool can be misused, and neither replaces a level tamp."
+    },
+    {
+      "id": "2f3ec5942053963d4c94afff61ca2215e34ed56624565917f60bc76415cf9869",
+      "source": "This guide preserves the original distribution article and adds a controlled comparison framework. Barista Hustle material supplies the WDT definition and bounded experimental context; manufacturer sources establish the surrounding dose, tamp and recipe workflow. Observed changes in resistance or flow are treated as diagnostics, not proof of better flavor without repeat tasting.",
+      "kind": "text",
+      "context": "This guide preserves the original distribution article and adds a controlled comparison framework. Barista Hustle material supplies the WDT definition and bounded experimental context; manufacturer sources establish the surrounding dose, tamp and recipe workflow. Observed changes in resistance or flow are treated as diagnostics, not proof of better flavor without repeat tasting."
+    },
+    {
+      "id": "43366c4dae773fa83b68be4d4bea9e79e3ce33d29c30e21dd00093e62a9c01f6",
+      "source": "Barista Hustle: Weiss Distribution Technique",
+      "kind": "text",
+      "context": "Barista Hustle: Weiss Distribution Technique ↗"
+    },
+    {
+      "id": "d72b02752ee8325b14449a2f1643ce8c723b976d9bc8ac95e47b07aebfb716f6",
+      "source": "Technical overview of WDT, clump reduction, deep versus surface stirring, puck resistance and workflow limits.",
+      "kind": "text",
+      "context": "Technical overview of WDT, clump reduction, deep versus surface stirring, puck resistance and workflow limits."
+    },
+    {
+      "id": "1e6caffaeb7b773e052e56c5426ca97da01f99c71d8570f3ac8ef17f54a2ce0c",
+      "source": "Barista Hustle distribution techniques",
+      "kind": "text",
+      "context": "Barista Hustle distribution techniques ↗"
+    },
+    {
+      "id": "6fa4194d205f0c174f141b3036d6da61de4c7348eaeb6984d51579dd06101ff8",
+      "source": "Training reference comparing tapping, dosing containers and WDT through the bed.",
+      "kind": "text",
+      "context": "Training reference comparing tapping, dosing containers and WDT through the bed."
+    },
+    {
+      "id": "76ebd91a62486227aee33a97deb267e82aeca1749408579c023582822f48b2f5",
+      "source": "Barista Hustle distribution test results",
+      "kind": "text",
+      "context": "Barista Hustle distribution test results ↗"
+    },
+    {
+      "id": "4754611971a60c871b22db6e22632dae9a9d8bbceb8cc039ea4b236ac50d7305",
+      "source": "A bounded experimental framework for evaluating distribution by consistency, extraction, speed and cleanliness.",
+      "kind": "text",
+      "context": "A bounded experimental framework for evaluating distribution by consistency, extraction, speed and cleanliness."
+    },
+    {
+      "id": "f2607f56e494be0f6beea4aaec1685118ab904c20f5d63f87887bc56c8eb5354",
+      "source": "Distribution happens in the basket before tamping. A smooth-looking top does not establish that the coffee is evenly distributed underneath. massage-techniques / Wikimedia Commons · Source · CC BY-SA 2.0 · Resized and converted to WebP.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "4f84ae6269ec71a044c1d8659a525825889b6e555e0d842f0e8c13206d28cc7b",
+      "source": "Even Ground Distribution Before Espresso Extraction | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "668ab5b8b624cd3458ae20a23c195bd4509015bf5a6d6ccc82601fff7661c7a1",
+      "source": "What is espresso distribution?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "741a2d593f27306055e3bfb917b89b354608ef5377d81e4ccd0bfb921c4c32ca",
+      "source": "It is the process of arranging loose grounds more evenly in the basket before tamping, with the goal of reducing clumps and large density differences that can encourage uneven flow.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "80d33d0be980f8d6bfb8b28f8cd96e7c818f54cfc41b0f959a4f502cef592d93",
+      "source": "Do I need a WDT tool?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b898d5a1f69033e6d73ea5ac2620c98f0535d1656ecee08581a2963abe26f37b",
+      "source": "Not every grinder and workflow needs it, but fine-needle WDT can be useful when grounds arrive clumped or unevenly. Compare it against a careful baseline rather than assuming every extra step helps.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "8a76af109145d2fe4f3ddde5167f1481019400a110af425ea18787664e95d270",
+      "source": "Is a spinning leveler the same as WDT?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "cba40f623d2ff873e40744ac0406a277b22875b72d97c58a106253171a3ce8e8",
+      "source": "No. A surface leveler mainly changes the top of the bed; WDT can move grounds and break clumps through more of the puck depth. Either tool can be misused, and neither replaces a level tamp.",
+      "kind": "json",
+      "context": "text"
+    }
+  ],
+  "snapshotHash": "16d36768c987716a786334e1e3395cdab2fd6275d5cdb899ebe98a5a081db3ac"
+}
