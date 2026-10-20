@@ -1719,6 +1719,56 @@ indexability, canonical/language/hreflang, unchanged Dutch dosing URL and the
 subsequent automatic reciprocal English links. No paid translation API, Amazon
 API activity, credentials, billing change, DNS change or subagents are used.
 
+## Direct batch 36 — complete Peet’s reviews (2026-10-20)
+
+Directly translated the complete current Big Bang and Arabian Mocha-Java
+reviews into Netherlands Dutch, Germany German and France French. Big Bang's
+source main contains 1,564 words / 49 paragraphs; Arabian Mocha-Java has 1,387
+words / 44 paragraphs. All body text, metadata, image descriptions, source
+notes, twelve visible/structured FAQ answers per edition and Big Bang's dated
+video title, accessible play label and evidence limitations are included.
+These remain translations of the research-led US articles, not local tastings.
+
+The frozen task has 128 missing slots / 101 distinct strings. The authored JSON
+contains 95 full translations and six proper-name-only verbatim approvals.
+Matching exact source strings across DOM/JSON kinds adds 129 current cache
+entries per edition, with no earlier cache text changed. Both concluding
+verdicts retain their exact passing wording before the new closing sentence.
+New URLs use the established `/koffiebonen/`, `/kaffeebohnen/` and
+`/cafe-en-grains/` prefixes and `peets-big-bang/` / `peets-arabian-mocha-java/`.
+All previous URLs, especially the reviewed Dutch dosing page, stay unchanged.
+
+Arabian Mocha-Java's historic name does not prove an exclusively Yemen/Java
+recipe. Its broad regions, unspecified component methods/varieties and
+attributed cocoa/port/cardamom notes remain intact; port is an analogy, not
+an ingredient or alcohol claim. Big Bang stays separate from pods, capsules
+and decaf, with washed/natural components and unspecified fixed percentages.
+Its medium label is not a universal owner taste judgment. The 2014 negative
+sample and 2020 video do not establish today's blend, freshness or value.
+Neither article invents a product-specific espresso dose/yield. The 16 oz /
+454 g / twenty-two 20 g estimate and separate 10.5 oz ground format retain
+their source units and scope. Conflicting price/stock panels mean no confirmed
+available US price or discount, still less an invented regional offer.
+
+All 132 localization tests pass. The six whole-page noindex-preview checks
+verify exact full main text, all structured data and FAQs, metadata, source
+links, accessibility, unchanged images/SVG and scripts/localized runtime.
+The full regional production bundle is separately built and rechecked after
+the API-free analytics, Finder, video and brand-navigation validators. These
+are rendered-output/runtime assertions, not a browser session or coffee test.
+The 149 distinct Finder records keep their no-price/no-unverified-offer state.
+
+Coverage is 248 current source pages / 50,367 unique slots. Each edition has
+77 ready regular pages plus 404, including all 17 Journal articles and 24 of
+25 bean reviews. Verve Streetlevel and other unfinished sections remain queued.
+Pending slots are NL 41,392 and DE/FR 41,363 each. No whole edition is complete;
+retain ready-pages publication and the continuation. After merging the exact
+green head, verify the automatic regional deployment, all six new live pages,
+live manifests and all 231 regular sitemap URLs, TLS, indexability, language,
+canonicals, reciprocal regional hreflang and subsequent English return links.
+No paid translation API, Amazon API activity, credentials, billing or DNS
+changes, or subagents are used for this batch.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

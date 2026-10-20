@@ -4,7 +4,7 @@ import path from 'node:path';
 import {root,readJson,digest,policyHash,loadCache,validateTranslation,getEdition} from '../core.mjs';
 import {regionalFinder} from '../build.mjs';
 
-for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-15',3],['bean-reviews-batch-16',164],['bean-reviews-batch-18',192],['bean-reviews-batch-19',191],['source-refresh-batch-19',37],['bean-reviews-batch-20',189],['bean-reviews-batch-22',182],['bean-reviews-batch-23',152],['source-refresh-batch-23',13],['bean-reviews-batch-24',115],['bean-reviews-batch-25',61],['bean-reviews-batch-35',147]])test(`${name} fully covers its immutable source in NL DE FR`,async()=>{
+for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-15',3],['bean-reviews-batch-16',164],['bean-reviews-batch-18',192],['bean-reviews-batch-19',191],['source-refresh-batch-19',37],['bean-reviews-batch-20',189],['bean-reviews-batch-22',182],['bean-reviews-batch-23',152],['source-refresh-batch-23',13],['bean-reviews-batch-24',115],['bean-reviews-batch-25',61],['bean-reviews-batch-35',147],['bean-reviews-batch-36',128]])test(`${name} fully covers its immutable source in NL DE FR`,async()=>{
  const source=await readJson(path.join(root,`localization/authored/${name}.source.json`));
  const authored=await readJson(path.join(root,`localization/authored/${name}.json`));
  assert.equal(source.segments.length,count);
@@ -22,6 +22,28 @@ for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-
    assert.equal(entry.provider,'codex-direct');
    assert.equal(validateTranslation(segment.source,entry.text),entry.text);
   }
+ }
+});
+
+test('both Peet’s reviews preserve uncertain stock, distinct blends, dated video and twelve full FAQ answers',async()=>{
+ const source=await readJson(path.join(root,'localization/authored/bean-reviews-batch-36.source.json')),authored=await readJson(path.join(root,'localization/authored/bean-reviews-batch-36.json'));
+ assert.equal(source.sourcePages.length,2);assert.equal(new Set(source.segments.map(s=>s.source)).size,101);assert.equal(Object.keys(authored.translations).length,95);
+ assert.deepEqual(authored.preserveSource.map(i=>source.segments[i].source),['Peet’s Coffee Arabian Mocha-Java','Peet’s Major Dickason’s Blend','Coffeedant: Peet’s Major Dickason’s Blend','Peet’s Coffee','Peet’s Coffee Big Bang','At Home with Lucas']);
+ for(const edition of ['nl','de','fr']){
+  const cache=await loadCache(edition),text=i=>cache.segments[source.segments[i].id].text;
+  const prefix={nl:'/koffiebonen/',de:'/kaffeebohnen/',fr:'/cafe-en-grains/'}[edition];for(const p of source.sourcePages)assert.equal(authored.routes[edition][p.sourcePath],p.sourcePath.replace('/coffee-beans/',prefix));
+  for(const[i,numbers]of [[19,['16 oz']],[22,['2014']],[81,['16','Ethiopian Super Natural']],[88,['16','454','20']],[89,['16','10.5']],[93,['2020','26','At Home with Lucas']],[95,['2020','26']],[96,['3','2020']],[97,['2020']]])for(const n of numbers)assert(text(i).includes(n),`${edition} ${i}: ${n}`);
+  assert(/geen.*vast|weder.*festes|ni.*fixe/.test(text(20)));
+  assert(/geen ingrediënt|keine Zutaten|pas un ingrédient/.test(text(22)));
+  assert(/geen.*specifieke|keine spezifische|pas de.*spécifiques/.test(text(24)));
+  assert(/geen bevestigde.*prijs|keinen bestätigten.*Preis|aucun prix.*confirmé/.test(text(28)));
+  assert(/geen.*vaste.*percentages|keine.*feste.*anteile|ne donne de proportions fixes/i.test(text(81)));
+  assert(/staat los van|zu unterscheiden|est distincte/.test(text(81)));
+  assert(/geen Peet’s.*geverifieerd|kein.*Peet’s.*verifiziert|Aucune.*Peet’s.*vérifiée/.test(text(86)));
+  assert(/geen van beide.*geproefd|keine der beiden.*verkostet|aucun des deux.*dégusté|dégusté aucun des deux/.test(text(97)));
+  for(const i of [37,102])assert(/niet geproefd|nicht verkostet|n’a pas dégusté/.test(text(i)));
+  for(const[i,j]of [[0,51],[1,52],[3,55],[6,56],[35,57],[20,58],[36,59],[37,60],[38,61],[24,62],[39,63],[64,114],[65,115],[95,116],[97,117],[94,118],[67,119],[68,120],[100,121],[81,122],[101,123],[102,124],[103,125],[85,126],[104,127]]){assert.equal(source.segments[j].kind,'json');assert.equal(text(i),text(j));}
+  for(const i of [49,112]){const original=source.segments[i].source.split(' Start with a smaller')[0],prior=Object.values(cache.segments).find(s=>s.source===original);assert(prior);assert(text(i).startsWith(prior.text),'reuse exact passing verdict before the new concluding sentence');}
  }
 });
 

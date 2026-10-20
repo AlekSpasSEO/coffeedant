@@ -1,0 +1,785 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/coffee-beans/peets-big-bang/",
+      "sourceHash": "ec05bac7ef99353cf86f999bc757d8cf7942b6972dc02741b4420dce47164986"
+    },
+    {
+      "sourcePath": "/coffee-beans/peets-arabian-mocha-java/",
+      "sourceHash": "66cb62884e984a5461cf0f1795c7bd2eba39afd21af990fdf6bcd5fdd039ccb0"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "a7f9e09dcfc4d13454ed22b0812758d8a34aebc0feae47941d431a47d77165e9",
+      "source": "Peet’s Arabian Mocha-Java review: historic name, current dark blend | Coffeedant",
+      "kind": "text",
+      "context": "Peet’s Arabian Mocha-Java review: historic name, current dark blend | Coffeedant"
+    },
+    {
+      "id": "27660cb84c3647b4893a4ccabd386dcfc329e07ef0d8bd7c98f0fa6c35d08ce5",
+      "source": "Research-led US review of Peet’s Coffee Arabian Mocha-Java: exact whole-bean identity, attributed flavor, brewing role, freshness and buying limits.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "30159f095d318e28cd14a1ccf7b69be70333ddd4a0deabeed8600ef13029a290",
+      "source": "Peet’s Arabian Mocha-Java review: historic name, current dark blend | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "2efbb589beb8e7334a0fc20d45db40c53546fd7facd0924c52a105e26babd828",
+      "source": "Peet’s Coffee Arabian Mocha-Java",
+      "kind": "text",
+      "context": "Peet’s Coffee Arabian Mocha-Java"
+    },
+    {
+      "id": "3b8543d6e7cde184cf7222f1913ed71ecd018b0c7a6f2b132f1503338158f323",
+      "source": "Image: Peet’s Coffee",
+      "kind": "text",
+      "context": "Image: Peet’s Coffee"
+    },
+    {
+      "id": "6e6708f6bd190380485995338b7f30822311c649986bed05d63734316ea62792",
+      "source": ". Official Peet’s Coffee product image for identification. Packaging is not proof of current contents or a Coffeedant tasting photo.",
+      "kind": "text",
+      "context": "Image: Peet’s Coffee. Official Peet’s Coffee product image for identification. Packaging is not proof of current contents or a Coffeedant tasting photo."
+    },
+    {
+      "id": "84c145308cb1e15cb38afbbb6e1d9191712905fabcb1fad8e72c526dfd6ddf3d",
+      "source": "Peet’s Arabian Mocha-Java review: historic name, current dark blend",
+      "kind": "text",
+      "context": "Peet’s Arabian Mocha-Java review: historic name, current dark blend"
+    },
+    {
+      "id": "fc773e4e7db6d0a9c9e70e2adaf22d6f5c656183458c2e9d8ef8dc6964b1757a",
+      "source": "Check current 16 oz price and stock",
+      "kind": "text",
+      "context": "Check current 16 oz price and stock"
+    },
+    {
+      "id": "5198ac3a27683f1c3f4531fae5cc0776656c4226eff405a9bd8d2ee47b20afc6",
+      "source": "A dark Peet’s coffee with a cocoa-and-spice brief",
+      "kind": "text",
+      "context": "A dark Peet’s coffee with a cocoa-and-spice brief"
+    },
+    {
+      "id": "cba5993b8cb8b3d85da0c8430c6b72fce072e04dfd7c02d39d34cbbb63d72de0",
+      "source": "A buyer interested in the Mocha-Java blend tradition",
+      "kind": "text",
+      "context": "A buyer interested in the Mocha-Java blend tradition"
+    },
+    {
+      "id": "be20a641ededb84e5bef0fef978aac8d75cf2abd0b000e5951dacea50d0554a4",
+      "source": "Whole-bean brew experiments across press and espresso",
+      "kind": "text",
+      "context": "Whole-bean brew experiments across press and espresso"
+    },
+    {
+      "id": "baf84044790624b5ddfe03e7d2d4a6641a5f6558e415d84019a322f5ea9bb2ef",
+      "source": "You assume the bag is solely Yemen plus Java",
+      "kind": "text",
+      "context": "You assume the bag is solely Yemen plus Java"
+    },
+    {
+      "id": "903264afeda2a909325b871e741c75719923f248e14f92a05221338afb8bc448",
+      "source": "You want a bright medium roast without dark development",
+      "kind": "text",
+      "context": "You want a bright medium roast without dark development"
+    },
+    {
+      "id": "c79472659f74cc16d3bed331c1700ff70fa07ba28dbc0beaaa7bfbc5137eb88d",
+      "source": "You need confirmed direct availability before reading further",
+      "kind": "text",
+      "context": "You need confirmed direct availability before reading further"
+    },
+    {
+      "id": "e0803a42a38b1e67b1a7eafcbbb6c7446a6bab84cac853cffdf085e1d6360a9d",
+      "source": "Peet’s Coffee Arabian Mocha-Java, whole-bean option",
+      "kind": "text",
+      "context": "Peet’s Coffee Arabian Mocha-Java, whole-bean option"
+    },
+    {
+      "id": "c1de63db4a8f8d64df8303301eeb8e8d476eb396dd8d29bd00a809f11f4d5364",
+      "source": "Dark, according to Peet’s",
+      "kind": "text",
+      "context": "Dark, according to Peet’s"
+    },
+    {
+      "id": "3698daae3775b2d66d4e38d125ba7ddc42a6ab0506d335b5c8ded29264a1eaaf",
+      "source": "cocoa, port, cardamom; not Coffeedant tasting",
+      "kind": "text",
+      "context": "cocoa, port, cardamom; not Coffeedant tasting"
+    },
+    {
+      "id": "1504db9ff2616f76040483205d6cf0ab9a365a466eee4732ef1578149df2a666",
+      "source": "Africa/Arabia and Indo-Pacific; not a promise of only Yemen and Java",
+      "kind": "text",
+      "context": "Africa/Arabia and Indo-Pacific; not a promise of only Yemen and Java"
+    },
+    {
+      "id": "1184cc47ff4a835d1f22061adbb5b328efc459e03484bd5bda9a774d48349c12",
+      "source": "Peet’s calls it “natural and rustic”; component methods not itemized",
+      "kind": "text",
+      "context": "Peet’s calls it “natural and rustic”; component methods not itemized"
+    },
+    {
+      "id": "af391e5d6bdd0cbaf769b8ecd8bb1535b0c54f7ca8f5b52a551a97adfd015326",
+      "source": "16 oz whole-bean selector; other grinds offered",
+      "kind": "text",
+      "context": "16 oz whole-bean selector; other grinds offered"
+    },
+    {
+      "id": "dc575f30aa5d602d719c14d7e948502a04362efc3d06fc7f036028e357291602",
+      "source": "Peet’s calls Arabian Mocha-Java a dark signature blend and lists Africa/Arabia and Indo-Pacific as broad source regions. Its story invokes historical mocha from Arabia and Java, while acknowledging that blends now use coffees from other regions. The present name does not prove one fixed country pair or farm-level recipe.",
+      "kind": "text",
+      "context": "Peet’s calls Arabian Mocha-Java a dark signature blend and lists Africa/Arabia and Indo-Pacific as broad source regions. Its story invokes historical mocha from Arabia and Java, while acknowledging that blends now use coffees from other regions. The present name does not prove one fixed country pair or farm-level recipe. [1]"
+    },
+    {
+      "id": "9b4749205d249f6dec83ccdd404f4173b0b7fd3609f39da1e19f8df6ad7ca2b9",
+      "source": "The attributes call the process “natural and rustic,” without a component-by-component method table or variety list. Whole bean is one of several grind choices for a 16 oz bag. The direct page also showed a sold-out message next to a price label, so stock is unresolved.",
+      "kind": "text",
+      "context": "The attributes call the process “natural and rustic,” without a component-by-component method table or variety list. Whole bean is one of several grind choices for a 16 oz bag. The direct page also showed a sold-out message next to a price label, so stock is unresolved. [1]"
+    },
+    {
+      "id": "02492f35b5f2d3c8fecb0c4440abe5419967addf307f7a8e5864ff9c5c1375cd",
+      "source": "Cocoa, port and cardamom are Peet’s tasting notes. “Port” is an analogy, not an ingredient or alcohol claim. An independent 2014 sample report was disappointed with its purchased bag; the long time gap, unknown current blend and individual palate make that a bounded counterpoint rather than a verdict on today’s product.",
+      "kind": "text",
+      "context": "Cocoa, port and cardamom are Peet’s tasting notes. “Port” is an analogy, not an ingredient or alcohol claim. An independent 2014 sample report was disappointed with its purchased bag; the long time gap, unknown current blend and individual palate make that a bounded counterpoint rather than a verdict on today’s product. [1] [3]"
+    },
+    {
+      "id": "9239d0fc8a3853202b262fbb84724fb2f477a763e99395f7f933ce792ac051a0",
+      "source": "One owner said they used Arabian Mocha-Java for espresso, while another Peet’s thread mentions its wine-like character. These self-selected reports are useful for expectations, not evidence of a stable tasting result or quality rate.",
+      "kind": "text",
+      "context": "One owner said they used Arabian Mocha-Java for espresso, while another Peet’s thread mentions its wine-like character. These self-selected reports are useful for expectations, not evidence of a stable tasting result or quality rate. [4]"
+    },
+    {
+      "id": "7e168d2678a88ccd901b7bbff304f925c4fa9c1c4cd9c9b9521cb892d9bf3413",
+      "source": "Peet’s allows whole bean, drip, French press and espresso grind selection. Its general brew guides cover the devices, but the Arabian Mocha-Java page does not publish a specific portafilter dose and yield. Buy whole bean when a suitable grinder is available and dial against the actual basket.",
+      "kind": "text",
+      "context": "Peet’s allows whole bean, drip, French press and espresso grind selection. Its general brew guides cover the devices, but the Arabian Mocha-Java page does not publish a specific portafilter dose and yield. Buy whole bean when a suitable grinder is available and dial against the actual basket. [1] [2]"
+    },
+    {
+      "id": "9045f53a4531e245ffcca51b0e277b8105667272ab1bec88fedb32b60861b3ab",
+      "source": "For a press or immersion cup, note grind and steep time before changing the coffee dose. A dark roast can still be over-extracted or taste harsh under a particular recipe; the label alone cannot determine your preferred temperature or ratio.",
+      "kind": "text",
+      "context": "For a press or immersion cup, note grind and steep time before changing the coffee dose. A dark roast can still be over-extracted or taste harsh under a particular recipe; the label alone cannot determine your preferred temperature or ratio."
+    },
+    {
+      "id": "6a02782c95ed84f417790681b4e68a6c12b326f76d1598f9450b129d96a64ce3",
+      "source": "Confirm the delivered bag’s roast or best-by date and packaging. Peet’s direct-roast language is not evidence of the date on a grocery bag. Keep opened whole beans sealed and dry, away from heat and odors; grind shortly before the brew you actually make.",
+      "kind": "text",
+      "context": "Confirm the delivered bag’s roast or best-by date and packaging. Peet’s direct-roast language is not evidence of the date on a grocery bag. Keep opened whole beans sealed and dry, away from heat and odors; grind shortly before the brew you actually make. [1] [5] [6]"
+    },
+    {
+      "id": "f0907bf0db033ab0b69d96b34e394ec2f1ac46122e93dbe12d0debd9fc9e6061",
+      "source": "The 16 oz size is a reasonable comparison with Peet’s other one-pound bags, but may be more than an occasional household uses while fresh. Avoid bulk or subscription decisions until the dark/spice flavor direction and real delivery pattern fit.",
+      "kind": "text",
+      "context": "The 16 oz size is a reasonable comparison with Peet’s other one-pound bags, but may be more than an occasional household uses while fresh. Avoid bulk or subscription decisions until the dark/spice flavor direction and real delivery pattern fit."
+    },
+    {
+      "id": "4a07340c78ae7154ba8f0cf383d04141109efc80aeaa3d7e5507a204bac2132d",
+      "source": "The page exposed a US per-pound price label but also a sold-out panel. We therefore give no confirmed available price or discount. Check the exact whole-bean variant and delivered total at an active seller before comparing it with a smaller-format coffee.",
+      "kind": "text",
+      "context": "The page exposed a US per-pound price label but also a sold-out panel. We therefore give no confirmed available price or discount. Check the exact whole-bean variant and delivered total at an active seller before comparing it with a smaller-format coffee. [1]"
+    },
+    {
+      "id": "63ede5231e6aae63cab42cdd8437d11b595fc1bedf4ef6fc19cccc644cc4225e",
+      "source": "Its distinct value is the historic-style dark flavor brief. If you simply want a chocolate dark roast without wine or spice cues, Peet’s Major Dickason’s or Counter Culture Forty-Six may make a clearer first bag.",
+      "kind": "text",
+      "context": "Its distinct value is the historic-style dark flavor brief. If you simply want a chocolate dark roast without wine or spice cues, Peet’s Major Dickason’s or Counter Culture Forty-Six may make a clearer first bag."
+    },
+    {
+      "id": "d7f25ecd023ba9bd8936355d25329c15a1eec648d19b6aefabc52333de516eee",
+      "source": "Peet’s Major Dickason’s is the existing broad dark blend review; Big Bang is Peet’s medium, fruit-tart direction. Arabian Mocha-Java earns a separate page because its regional scope, dark roast and port/cardamom language create a different buying decision.",
+      "kind": "text",
+      "context": "Peet’s Major Dickason’s is the existing broad dark blend review; Big Bang is Peet’s medium, fruit-tart direction. Arabian Mocha-Java earns a separate page because its regional scope, dark roast and port/cardamom language create a different buying decision. [1] [7]"
+    },
+    {
+      "id": "df35f5c8a92610995ce2d11d0dd2e824c3916f0b694ed747daad907c45338c49",
+      "source": "A classic blend name is not a protected recipe. Check the current product panel if the specific Yemeni or Indonesian component matters more to you than the described profile.",
+      "kind": "text",
+      "context": "A classic blend name is not a protected recipe. Check the current product panel if the specific Yemeni or Indonesian component matters more to you than the described profile."
+    },
+    {
+      "id": "6ec33c97f8c8bdb0af962220ac0b9163f0df89edb38e18550777c21e39cd5b77",
+      "source": "Peet’s Major Dickason’s Blend",
+      "kind": "text",
+      "context": "Peet’s Major Dickason’s Blend"
+    },
+    {
+      "id": "9a1d29fe3694eed1b8de4813d3e5cdc6759f7295e9b7bb69c54add770f97d640",
+      "source": "a Peet’s dark blend without this specific port-and-cardamom brief",
+      "kind": "text",
+      "context": "a Peet’s dark blend without this specific port-and-cardamom brief"
+    },
+    {
+      "id": "07ed90a95b34dd797ede17b753d896c1d027c585aecedee6d1897371070bb876",
+      "source": "Arabian Mocha-Java FAQ",
+      "kind": "text",
+      "context": "Arabian Mocha-Java FAQ"
+    },
+    {
+      "id": "f548a2944975dd95e57429439de150da14de3ee33fc5eb38c60fddfc10e6322b",
+      "source": "What exactly is Arabian Mocha-Java?",
+      "kind": "text",
+      "context": "What exactly is Arabian Mocha-Java?"
+    },
+    {
+      "id": "16a7dc6bf0d4620a3c46fc321381fac1982a6294d2062bdbe3f1fb0319a1ce69",
+      "source": "What does Arabian Mocha-Java taste like?",
+      "kind": "text",
+      "context": "What does Arabian Mocha-Java taste like?"
+    },
+    {
+      "id": "c0d9b9e5388bc7f31fe986b44fc2ea3b10b3bc5a53c4383e45e24983ac30f8f5",
+      "source": "Peet’s Coffee lists cocoa, port, cardamom. Coffeedant has not tasted this coffee; your bag and recipe may differ.",
+      "kind": "text",
+      "context": "Peet’s Coffee lists cocoa, port, cardamom. Coffeedant has not tasted this coffee; your bag and recipe may differ."
+    },
+    {
+      "id": "95ac27a4957987811a4658f8755be24f320e477103c6092e84a7421e1005ce1c",
+      "source": "Can I use Arabian Mocha-Java for espresso?",
+      "kind": "text",
+      "context": "Can I use Arabian Mocha-Java for espresso?"
+    },
+    {
+      "id": "820f6cf53a0e80a146f1f05e2268084871693a8102c95b76da9a71b30a87b68c",
+      "source": "Check the live selector and begin with its smaller whole-bean pack. Listed options at this check: 16 oz whole-bean selector; other grinds offered.",
+      "kind": "text",
+      "context": "Check the live selector and begin with its smaller whole-bean pack. Listed options at this check: 16 oz whole-bean selector; other grinds offered."
+    },
+    {
+      "id": "405f6ad346e4a128ac0a6915385fb3cb7c5c0f9664601bab00c893cd4c0f1d8b",
+      "source": "Peet’s Coffee: Arabian Mocha-Java product listing",
+      "kind": "text",
+      "context": "Peet’s Coffee: Arabian Mocha-Java product listing ↗"
+    },
+    {
+      "id": "fec667c605c38d547809a487d0b813bc3e318ef0f92f9cf430331b719b226f72",
+      "source": "Peet’s brew guides",
+      "kind": "text",
+      "context": "Peet’s brew guides ↗"
+    },
+    {
+      "id": "7366e68beeeb28745aca20225a1bc19b10aed2f024548a35bdd4133dd81857c4",
+      "source": "General device methods, not a current-bag evaluation. Checked 2026-10-20.",
+      "kind": "text",
+      "context": "General device methods, not a current-bag evaluation. Checked 2026-10-20."
+    },
+    {
+      "id": "e3b2ea2ca5030cee56633a5813ae4bf63268288998e0d129e86a7999bc063034",
+      "source": "Noteworthy: 2014 Arabian Mocha-Java sample",
+      "kind": "text",
+      "context": "Noteworthy: 2014 Arabian Mocha-Java sample ↗"
+    },
+    {
+      "id": "f3594936c1238ba2a31c2995ffa1f06d3390450504fab92c4ef08f908bcfdd48",
+      "source": "Independent but twelve-year-old negative tasting; not current-blend evidence. Checked 2026-10-20.",
+      "kind": "text",
+      "context": "Independent but twelve-year-old negative tasting; not current-blend evidence. Checked 2026-10-20."
+    },
+    {
+      "id": "705eb980719950cfeb0782da53c458f4a852726ce00a07cc0ff150fd3d802798",
+      "source": "r/espresso: Peet’s bean discussion",
+      "kind": "text",
+      "context": "r/espresso: Peet’s bean discussion ↗"
+    },
+    {
+      "id": "f64e23217ec67ce3f6c27d64d545843d2f6432c793c46f3f0a333ead75e45212",
+      "source": "Self-selected older owner report of espresso use; no general taste claim. Checked 2026-10-20.",
+      "kind": "text",
+      "context": "Self-selected older owner report of espresso use; no general taste claim. Checked 2026-10-20."
+    },
+    {
+      "id": "6035b981fb99ee3696173ecbf93b4ebd3843838f16ccd03e6747997ab4e8733c",
+      "source": "Coffeedant: Peet’s Major Dickason’s Blend",
+      "kind": "text",
+      "context": "Coffeedant: Peet’s Major Dickason’s Blend ↗"
+    },
+    {
+      "id": "018c48eb75cd25bb1af85a8e81ce7d0c5615a5bbe9ead8f0d3f271160595a4d9",
+      "source": "Buy Arabian Mocha-Java for its documented role",
+      "kind": "text",
+      "context": "Buy Arabian Mocha-Java for its documented role"
+    },
+    {
+      "id": "f135d8229580db37fa7a0f55101c0520dc43db8638b748157901684796776dba",
+      "source": "Arabian Mocha-Java fits the buyer who wants Peet’s darker body plus cocoa, wine-like port and cardamom in the roaster’s description. Its name refers to a historic blend style; the current listing spans broader regions and does not document an exclusively Yemeni and Javanese recipe. Direct stock and checkout value were ambiguous on October 20. Start with a smaller whole-bean pack and let the delivered bag and your repeatable recipe decide any larger order.",
+      "kind": "text",
+      "context": "Arabian Mocha-Java fits the buyer who wants Peet’s darker body plus cocoa, wine-like port and cardamom in the roaster’s description. Its name refers to a historic blend style; the current listing spans broader regions and does not document an exclusively Yemeni and Javanese recipe. Direct stock and checkout value were ambiguous on October 20. Start with a smaller whole-bean pack and let the delivered bag and your repeatable recipe decide any larger order."
+    },
+    {
+      "id": "0a9c2ff3698dd606f8f31551361c1667cffdfedf8e4d7f7b2bd57781f8ad834e",
+      "source": "Check Arabian Mocha-Java at the roaster",
+      "kind": "text",
+      "context": "Check Arabian Mocha-Java at the roaster ↗"
+    },
+    {
+      "id": "59ea7a89731770057983846f99fddfcc90e7e56dd9bcb4943b51d0b198f76976",
+      "source": "Peet’s Arabian Mocha-Java review: historic name, current dark blend | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "9d8838fe89762e638d3fe0c24feecb9675ab0987c8aed1d5587498135fb55fd4",
+      "source": "Research-led US review of Peet’s Coffee Arabian Mocha-Java: exact whole-bean identity, attributed flavor, brewing role, freshness and buying limits.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "15047067b70c872ac643299ac80caa9d624cbcbf9fd73f67ffe4b20943e45a5d",
+      "source": "Official Peet’s Coffee product image for identification. Packaging is not proof of current contents or a Coffeedant tasting photo.",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "77af62b638c9e803448079a4ea5c6d3822b76d2e9f2cdbbb9a88800610db0349",
+      "source": "Peet’s Coffee",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "a38cc216fe071db906c5bcc774a8b47d0672c9dab0ff3202e398043aed91b983",
+      "source": "Peet’s Coffee Arabian Mocha-Java",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "a35c57903c76cee801077645f89e27d26b66b8a89697bef819b1d30351c9451c",
+      "source": "Peet’s Arabian Mocha-Java review: historic name, current dark blend",
+      "kind": "json",
+      "context": "headline"
+    },
+    {
+      "id": "23f8180bd6ba1b545319c19496a6602607f28ac3578b08d021c8803812a72e45",
+      "source": "What exactly is Arabian Mocha-Java?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "671f9e867eecef15528f2f66e1bb167f612f8a0d82cf5979c500ed11731d46ae",
+      "source": "Peet’s calls Arabian Mocha-Java a dark signature blend and lists Africa/Arabia and Indo-Pacific as broad source regions. Its story invokes historical mocha from Arabia and Java, while acknowledging that blends now use coffees from other regions. The present name does not prove one fixed country pair or farm-level recipe.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "8948d233aca27f5fe8a060d89a809a8e9446632804a222a6d2f65c6f9f45df07",
+      "source": "What does Arabian Mocha-Java taste like?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "fe0243941d87d967c4448ceee9c95d7f6f75a539c3c0cbbc24762dfd50cdce5a",
+      "source": "Peet’s Coffee lists cocoa, port, cardamom. Coffeedant has not tasted this coffee; your bag and recipe may differ.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "39052d25cbb91fb56071cdd21dc2ddb281f7763560bf745899e22361e15648c5",
+      "source": "Can I use Arabian Mocha-Java for espresso?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b4e29dd2c254de23193408c646d0246d13e92b84755da986dc529478b28041b3",
+      "source": "Peet’s allows whole bean, drip, French press and espresso grind selection. Its general brew guides cover the devices, but the Arabian Mocha-Java page does not publish a specific portafilter dose and yield. Buy whole bean when a suitable grinder is available and dial against the actual basket.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "bec772a6d4fb589b61e3bd650837931cf40583e7f6ad069a00b2285f33c259c9",
+      "source": "Check the live selector and begin with its smaller whole-bean pack. Listed options at this check: 16 oz whole-bean selector; other grinds offered.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "38b5ddabf5a2c089673b480b6febec2eb4614321d293a99c2e2d8f6e4910b8d5",
+      "source": "Peet’s Big Bang review: a fruit-tart medium roast in a one-pound bag | Coffeedant",
+      "kind": "text",
+      "context": "Peet’s Big Bang review: a fruit-tart medium roast in a one-pound bag | Coffeedant"
+    },
+    {
+      "id": "259ae3c8f743e251fef1769fb520a1062e0a1c468a503839e357c06bc13a2f42",
+      "source": "Research-led US review of Peet’s Coffee Big Bang: exact whole-bean identity, attributed flavor, brewing role, freshness and buying limits.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "0cbf036482c9cc7b316c55cd8fb4f4a8470444b0067e23f9e9cc4a17e2611bff",
+      "source": "Peet’s Big Bang review: a fruit-tart medium roast in a one-pound bag | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "dd265fe815ce34c122c46cd8107decc5b4c1babbd6c243c6121d958fe21fe493",
+      "source": "Peet’s Coffee Big Bang",
+      "kind": "text",
+      "context": "Peet’s Coffee Big Bang"
+    },
+    {
+      "id": "4a2e5d06c1ae12e4d9a8320e29e42129960ac71898f1a6407249c53f64b9c211",
+      "source": "Peet’s Big Bang review: a fruit-tart medium roast in a one-pound bag",
+      "kind": "text",
+      "context": "Peet’s Big Bang review: a fruit-tart medium roast in a one-pound bag"
+    },
+    {
+      "id": "921ec5c17e12943de998240d647a731de7ad69d5ad433e0ffa622a3379b90b95",
+      "source": "A medium Peet’s bag with a stated fruit direction",
+      "kind": "text",
+      "context": "A medium Peet’s bag with a stated fruit direction"
+    },
+    {
+      "id": "9c465acf2f105136c1dcfbdf16c67b04bf3bdfc75259328df47ec50840e982fc",
+      "source": "French press, pour-over or cold-brew trial",
+      "kind": "text",
+      "context": "French press, pour-over or cold-brew trial"
+    },
+    {
+      "id": "d2c3abb777df53532cf1faa65fb38be03adc20e07ecd07010660331de45ba249",
+      "source": "A shopper who can check a real bag date and current stock",
+      "kind": "text",
+      "context": "A shopper who can check a real bag date and current stock"
+    },
+    {
+      "id": "626cb5ea101aa65bf97f90791750b9039dc5f42d30f68356dadda54e441a30d5",
+      "source": "You want a deeply dark, fruit-free Peet’s profile",
+      "kind": "text",
+      "context": "You want a deeply dark, fruit-free Peet’s profile"
+    },
+    {
+      "id": "7f179cdb1796d812840404489cfeed953471fc131db08500014e6192f0047cc9",
+      "source": "You require specific farm and variety detail",
+      "kind": "text",
+      "context": "You require specific farm and variety detail"
+    },
+    {
+      "id": "b15ae5496b9a01fe82922044f1ab4ae40faf36d3fee730f14f89c16fc44bb327",
+      "source": "You need a confirmed in-stock direct order today",
+      "kind": "text",
+      "context": "You need a confirmed in-stock direct order today"
+    },
+    {
+      "id": "99f2049e9cc6aaafef6f882bd5613cad0f550b5993d733b160780b29f3123b5b",
+      "source": "Peet’s Coffee Big Bang, whole-bean option",
+      "kind": "text",
+      "context": "Peet’s Coffee Big Bang, whole-bean option"
+    },
+    {
+      "id": "978ff7ccd27cf8963587e09bad89314955f2e6b6f4b9d37212c031ac420d11c8",
+      "source": "Medium, according to Peet’s",
+      "kind": "text",
+      "context": "Medium, according to Peet’s"
+    },
+    {
+      "id": "b2e9ab7eea4f5be1b1790acb58d0e56b4992b327c4948c38429a1a585dae6bcd",
+      "source": "fruit tart, milk chocolate, graham crust; not Coffeedant tasting",
+      "kind": "text",
+      "context": "fruit tart, milk chocolate, graham crust; not Coffeedant tasting"
+    },
+    {
+      "id": "dd10effb60a81df50d5adfa7aaab6b6036c4e608157b282ef00a67f3b616a882",
+      "source": "Africa/Arabia and the Americas; the story names Ethiopian Super Natural and Latin coffees",
+      "kind": "text",
+      "context": "Africa/Arabia and the Americas; the story names Ethiopian Super Natural and Latin coffees"
+    },
+    {
+      "id": "7156a66f7cb2700d9f1560a339bb49525a7c6efee3aed394df6045027893fb35",
+      "source": "Washed and natural components",
+      "kind": "text",
+      "context": "Washed and natural components"
+    },
+    {
+      "id": "f428dcf801a737db562939f83acdfe4e635635e2cbfabe9d23ac63b8b0765865",
+      "source": "16 oz whole-bean selector; separate ground and capsule formats",
+      "kind": "text",
+      "context": "16 oz whole-bean selector; separate ground and capsule formats"
+    },
+    {
+      "id": "b1fb9bcfd63ea78435fa0f7b7c4ee3dd82dabf6b4f7d8b73e7ed4684e36580a0",
+      "source": "Peet’s lists Big Bang as a signature medium blend spanning Africa/Arabia and the Americas. The story specifies sweet Latin coffees and Ethiopian Super Natural; the attributes say washed and natural processing. Neither source gives fixed component percentages or a complete variety list. This whole-bean 16 oz selection is distinct from the Big Bang pods, capsules and decaf product.",
+      "kind": "text",
+      "context": "Peet’s lists Big Bang as a signature medium blend spanning Africa/Arabia and the Americas. The story specifies sweet Latin coffees and Ethiopian Super Natural; the attributes say washed and natural processing. Neither source gives fixed component percentages or a complete variety list. This whole-bean 16 oz selection is distinct from the Big Bang pods, capsules and decaf product. [1]"
+    },
+    {
+      "id": "dd60633e238257712e03d1164536f10134b5372e41d65dd0c30212987c6b6417",
+      "source": "The product page showed a 16 oz price label but also a sold-out notice. We cannot establish that the selected whole-bean variant is currently purchasable, so price and availability stay open. A retailer may have a different pack and older roast date.",
+      "kind": "text",
+      "context": "The product page showed a 16 oz price label but also a sold-out notice. We cannot establish that the selected whole-bean variant is currently purchasable, so price and availability stay open. A retailer may have a different pack and older roast date. [1]"
+    },
+    {
+      "id": "1d548b18a773c77771ad2bdf62e80e5479f0e80d796aa8fc18fdf8af21490a87",
+      "source": "Fruit tart, milk chocolate and graham crust are Peet’s descriptors. They are useful as a buying direction, not a Coffeedant tasting or a claim that every bag has equal fruit intensity. An older Apartment Therapy blind tasting included Big Bang; its historical sample and price cannot establish the current roast or seller value.",
+      "kind": "text",
+      "context": "Fruit tart, milk chocolate and graham crust are Peet’s descriptors. They are useful as a buying direction, not a Coffeedant tasting or a claim that every bag has equal fruit intensity. An older Apartment Therapy blind tasting included Big Bang; its historical sample and price cannot establish the current roast or seller value. [1] [3]"
+    },
+    {
+      "id": "e907321a4daa79c461a33b6cd7f352bbc011937d84bc2eaae481aec3e73d9a40",
+      "source": "Home-barista owners have disagreed about how dark Big Bang tastes relative to the medium label. Their grinders, brew temperatures and older bags differ. That conflict is a reason to start with one fresh whole-bean bag, not a basis for a population score.",
+      "kind": "text",
+      "context": "Home-barista owners have disagreed about how dark Big Bang tastes relative to the medium label. Their grinders, brew temperatures and older bags differ. That conflict is a reason to start with one fresh whole-bean bag, not a basis for a population score. [4]"
+    },
+    {
+      "id": "4913d238763a6d296bfc4e91db079f07b31aebb0b4df4bf362fbdc33cdc31803",
+      "source": "Peet’s product panel recommends cold brew, French press and pour-over. The generic brew guide gives method steps; it does not prove Big Bang will have the same flavor in each device. Start with the method you use daily, weigh coffee and water, and adjust grind against the delivered bag.",
+      "kind": "text",
+      "context": "Peet’s product panel recommends cold brew, French press and pour-over. The generic brew guide gives method steps; it does not prove Big Bang will have the same flavor in each device. Start with the method you use daily, weigh coffee and water, and adjust grind against the delivered bag. [1] [2]"
+    },
+    {
+      "id": "4e18b1e050ed9a4954cf0aac711bb8dee17affd94dd1bc39ebe8cf9b33a0dc14",
+      "source": "The seller also offers an “espresso” grind choice, but a preground option cannot be matched to every basket. If you try Big Bang in a portafilter, buy whole bean and dial dose, grind and beverage yield separately. No Peet’s product-specific shot target was verified here.",
+      "kind": "text",
+      "context": "The seller also offers an “espresso” grind choice, but a preground option cannot be matched to every basket. If you try Big Bang in a portafilter, buy whole bean and dial dose, grind and beverage yield separately. No Peet’s product-specific shot target was verified here."
+    },
+    {
+      "id": "7de2dcfdecd12d44ea6f6fc2eb4e499e96ba2db4b362d04bfbeaf750925ea4d0",
+      "source": "Peet’s says direct beans are roasted and sealed, but that statement does not give the date on a bag at another store. Look for the delivered roast or best-by information and keep opened beans sealed away from heat and moisture.",
+      "kind": "text",
+      "context": "Peet’s says direct beans are roasted and sealed, but that statement does not give the date on a bag at another store. Look for the delivered roast or best-by information and keep opened beans sealed away from heat and moisture. [1] [5] [6]"
+    },
+    {
+      "id": "6c9b27aca32c3fca88862f1a7614296b4376fa6248e99abd2f43395c52ea37e2",
+      "source": "A 16 oz pack contains about 454 g, enough for roughly twenty-two 20 g filter doses before waste. The larger bag can be economical for a daily household and less attractive for occasional coffee. Current stock and bag age matter more than a nominal serving figure on the listing.",
+      "kind": "text",
+      "context": "A 16 oz pack contains about 454 g, enough for roughly twenty-two 20 g filter doses before waste. The larger bag can be economical for a daily household and less attractive for occasional coffee. Current stock and bag age matter more than a nominal serving figure on the listing."
+    },
+    {
+      "id": "19f6e9418467594c43b2d74160bd03ad99e467310b0af96efffc5add73cce0a3",
+      "source": "Because the direct page presented both a price label and a sold-out message, this review does not assert an available US price. Compare the exact 16 oz whole-bean bag at a live checkout, then include delivery and the actual roast date. A 10.5 oz grocery ground pack or pod box is not the same purchase.",
+      "kind": "text",
+      "context": "Because the direct page presented both a price label and a sold-out message, this review does not assert an available US price. Compare the exact 16 oz whole-bean bag at a live checkout, then include delivery and the actual roast date. A 10.5 oz grocery ground pack or pod box is not the same purchase. [1]"
+    },
+    {
+      "id": "86a22e29b3bd91640908a78a4ecdb511d9bc2383149d137dcdc98ec192c129b6",
+      "source": "Big Bang’s value proposition is a more fruit-accented medium alternative to Peet’s dark blends. If you want chocolate without fruit, a different bag may be better even at a similar unit price.",
+      "kind": "text",
+      "context": "Big Bang’s value proposition is a more fruit-accented medium alternative to Peet’s dark blends. If you want chocolate without fruit, a different bag may be better even at a similar unit price."
+    },
+    {
+      "id": "6ad8478a3122e6179b1fdf8ffb2af773856a8fa23b872c728f2602b9a8de6f79",
+      "source": "Peet’s Major Dickason’s is the existing darker, more traditional blend review. Arabian Mocha-Java is also dark but adds its own port, cocoa and cardamom brief. Big Bang is the medium, fruit-tart choice, with less complete farm-level detail than a current single-origin listing.",
+      "kind": "text",
+      "context": "Peet’s Major Dickason’s is the existing darker, more traditional blend review. Arabian Mocha-Java is also dark but adds its own port, cocoa and cardamom brief. Big Bang is the medium, fruit-tart choice, with less complete farm-level detail than a current single-origin listing. [1] [7]"
+    },
+    {
+      "id": "c670de631604eb57fea7c18746a630418550700632b47c7687ae04c0f4e9fbbc",
+      "source": "Onyx Geometry is a much lighter fruit-and-tea direction with explicit espresso and filter recipes. Pick it for that brewing documentation, not because its tasting words can be ranked against a Peet’s bag without shared tasting.",
+      "kind": "text",
+      "context": "Onyx Geometry is a much lighter fruit-and-tea direction with explicit espresso and filter recipes. Pick it for that brewing documentation, not because its tasting words can be ranked against a Peet’s bag without shared tasting."
+    },
+    {
+      "id": "37223ca94a714f972949ac33b10b2c4020418a3883f67c0858cf692463b14e25",
+      "source": "Play A Coffee Review: Peet's Big Bang Medium Roast 2020 Whole Bean #26 by At Home with Lucas",
+      "kind": "attribute",
+      "context": "▶ Play review"
+    },
+    {
+      "id": "d1dbccb5048280605f5db564065bed56813a73091e5fbc474121689f8dfad057",
+      "source": "At Home with Lucas",
+      "kind": "text",
+      "context": "At Home with Lucas"
+    },
+    {
+      "id": "358ad674b2fe45f5ba5682cf879d0aebb006ee5db37217936112341862397132",
+      "source": "A Coffee Review: Peet's Big Bang Medium Roast 2020 Whole Bean #26",
+      "kind": "text",
+      "context": "A Coffee Review: Peet's Big Bang Medium Roast 2020 Whole Bean #26"
+    },
+    {
+      "id": "35d0909aeb7ae851ae466051a4f07f726c57b502d6e140b33539a162f06124e1",
+      "source": "August 3, 2020",
+      "kind": "text",
+      "context": "August 3, 2020"
+    },
+    {
+      "id": "aefc3b194a9364d3f23bc41e75daef32f60e8af28d7fbd5d61c5d7eaaabceea0",
+      "source": "An independent tasting of an older Big Bang bag. The 2020 sample cannot establish the flavor, blend, freshness or package of a current purchase, and Coffeedant has not tasted either bag.",
+      "kind": "text",
+      "context": "An independent tasting of an older Big Bang bag. The 2020 sample cannot establish the flavor, blend, freshness or package of a current purchase, and Coffeedant has not tasted either bag."
+    },
+    {
+      "id": "e1d554d8a20a6846886a7b4028daddc04ffd147ce06f91d7b9e6a4efdc8d75ac",
+      "source": "the darker, more traditional Peet’s flavor brief",
+      "kind": "text",
+      "context": "the darker, more traditional Peet’s flavor brief"
+    },
+    {
+      "id": "bfb9f058513f81d2c6c6576275bb5b4646874fcc9552423e347371914a795516",
+      "source": "Big Bang FAQ",
+      "kind": "text",
+      "context": "Big Bang FAQ"
+    },
+    {
+      "id": "06c3eedfdbab8eecc760e969089147fc11c01d772f6fe29d68292b27c204c3d3",
+      "source": "What exactly is Big Bang?",
+      "kind": "text",
+      "context": "What exactly is Big Bang?"
+    },
+    {
+      "id": "4e3f4029423c28c5b95be40ad51213c12b2b3fd4731dca31a9eac2d25cbd1ebd",
+      "source": "What does Big Bang taste like?",
+      "kind": "text",
+      "context": "What does Big Bang taste like?"
+    },
+    {
+      "id": "0e5cce305343d04cc5ed4ec391e2521f2bbcac701584ee25bab0db47e8009f95",
+      "source": "Peet’s Coffee lists fruit tart, milk chocolate, graham crust. Coffeedant has not tasted this coffee; your bag and recipe may differ.",
+      "kind": "text",
+      "context": "Peet’s Coffee lists fruit tart, milk chocolate, graham crust. Coffeedant has not tasted this coffee; your bag and recipe may differ."
+    },
+    {
+      "id": "26dda71ef691e0e6a36ac8f4cffac51dc291287d1d139074553eb2aea6fe4540",
+      "source": "Can I use Big Bang for espresso?",
+      "kind": "text",
+      "context": "Can I use Big Bang for espresso?"
+    },
+    {
+      "id": "8a7cf1b9cbb93fc49cf7f305439d4b693342b7817d991faa570a151213938cd9",
+      "source": "Check the live selector and begin with its smaller whole-bean pack. Listed options at this check: 16 oz whole-bean selector; separate ground and capsule formats.",
+      "kind": "text",
+      "context": "Check the live selector and begin with its smaller whole-bean pack. Listed options at this check: 16 oz whole-bean selector; separate ground and capsule formats."
+    },
+    {
+      "id": "a43854fde1b8a1b89772eaa5377242e4a304f0b7fce454785bb8a5b2dfb5a5e3",
+      "source": "Peet’s Coffee: Big Bang product listing",
+      "kind": "text",
+      "context": "Peet’s Coffee: Big Bang product listing ↗"
+    },
+    {
+      "id": "530d31bfa7b3a948345452ba3f129538a25cc30d9fe3bcda34cbc10ed6f4427a",
+      "source": "General cold brew, French press and pour-over directions, not a Big Bang tasting. Checked 2026-10-20.",
+      "kind": "text",
+      "context": "General cold brew, French press and pour-over directions, not a Big Bang tasting. Checked 2026-10-20."
+    },
+    {
+      "id": "ba8f7383d7f4ae3311314dc023085e33a380598a01671ef21f017f4474bceacb",
+      "source": "Apartment Therapy: older medium-roast tasting",
+      "kind": "text",
+      "context": "Apartment Therapy: older medium-roast tasting ↗"
+    },
+    {
+      "id": "860d3ed03f0ca1d534ad2bc77ac94c114fca4ea57691f3790dd911262e90976e",
+      "source": "Includes an older Big Bang sample; historical price and bag cannot establish current value. Checked 2026-10-20.",
+      "kind": "text",
+      "context": "Includes an older Big Bang sample; historical price and bag cannot establish current value. Checked 2026-10-20."
+    },
+    {
+      "id": "f901abb444b5b42af00341b493152a1b59e3f89e32e9e5a40cdb0fa654bd441a",
+      "source": "Home-Barista: Big Bang owner discussion",
+      "kind": "text",
+      "context": "Home-Barista: Big Bang owner discussion ↗"
+    },
+    {
+      "id": "9038a18c77b0b36759a34d4b78c54f482bfa2e755f62461f1ca37fddcb921cbd",
+      "source": "Older self-selected perceptions of roast and brew temperature; no representative score. Checked 2026-10-20.",
+      "kind": "text",
+      "context": "Older self-selected perceptions of roast and brew temperature; no representative score. Checked 2026-10-20."
+    },
+    {
+      "id": "a801d09bfea31624c81a277bc1e6da310ed372a70767fb81fa85b1795323a30e",
+      "source": "Buy Big Bang for its documented role",
+      "kind": "text",
+      "context": "Buy Big Bang for its documented role"
+    },
+    {
+      "id": "74de931be784baa8837b8c798b2b37c540a08d10c83ad192692843b63bdb4d55",
+      "source": "Big Bang is the Peet’s choice for a medium-roast buyer who welcomes a fruit cue beside chocolate and graham. The US direct page lists a 16 oz whole-bean option and useful filter-method guidance, but its sold-out state and price selector conflict at this check. Treat availability and checkout price as unverified until a seller confirms them. Start with a smaller whole-bean pack and let the delivered bag and your repeatable recipe decide any larger order.",
+      "kind": "text",
+      "context": "Big Bang is the Peet’s choice for a medium-roast buyer who welcomes a fruit cue beside chocolate and graham. The US direct page lists a 16 oz whole-bean option and useful filter-method guidance, but its sold-out state and price selector conflict at this check. Treat availability and checkout price as unverified until a seller confirms them. Start with a smaller whole-bean pack and let the delivered bag and your repeatable recipe decide any larger order."
+    },
+    {
+      "id": "298c3578469e553668a197d0bff143143b7c27e0d5e087a55b2d79ffd1f282ae",
+      "source": "Check Big Bang at the roaster",
+      "kind": "text",
+      "context": "Check Big Bang at the roaster ↗"
+    },
+    {
+      "id": "4acd5e76ab688ce8176222e1869e34aa9823f687b714f41d270ea5d05e1e27f1",
+      "source": "Peet’s Big Bang review: a fruit-tart medium roast in a one-pound bag | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "ca8f385e859235ea6ba8f58a73ba909782f42cdda9c12e5b022a01537ce657ff",
+      "source": "Research-led US review of Peet’s Coffee Big Bang: exact whole-bean identity, attributed flavor, brewing role, freshness and buying limits.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "2381922d85b2a985b974c7836c5ae4856d0d3ef6b3d5d4dcad19ecd5420beb10",
+      "source": "A Coffee Review: Peet's Big Bang Medium Roast 2020 Whole Bean #26",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "53dc77df9cf27db55d5fae670080b3f8e88beee354804babc010a937dd08d146",
+      "source": "An independent tasting of an older Big Bang bag. The 2020 sample cannot establish the flavor, blend, freshness or package of a current purchase, and Coffeedant has not tasted either bag.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "f947eb1185122f22934e7a48baac600df7eeb1a93ba8ca68e1e913864e3b5099",
+      "source": "At Home with Lucas",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "7d8ec7ce8c57af3608ce77f4d84cdcb680fa9ebdb799ff36bf5f620fb37a823c",
+      "source": "Peet’s Coffee Big Bang",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "8ffd07fb4630bb3220d15ca35d2db097731b086934b51da15353f06e2d42a82c",
+      "source": "Peet’s Big Bang review: a fruit-tart medium roast in a one-pound bag",
+      "kind": "json",
+      "context": "headline"
+    },
+    {
+      "id": "e844a6ca553e641e2aaefd8f6f53118ec53520e308df8f3fad274ef3a9f59bd0",
+      "source": "What exactly is Big Bang?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "a5182c50405abd74c88629917887946596bd1ec72137d4ddf026bb148fa6161b",
+      "source": "Peet’s lists Big Bang as a signature medium blend spanning Africa/Arabia and the Americas. The story specifies sweet Latin coffees and Ethiopian Super Natural; the attributes say washed and natural processing. Neither source gives fixed component percentages or a complete variety list. This whole-bean 16 oz selection is distinct from the Big Bang pods, capsules and decaf product.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "b5e9da776ecfb0758ce763d5832ba02cc04181686c859585bbbbfb58a2c2e5c0",
+      "source": "What does Big Bang taste like?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "efcf195f44cd310e31e1ad1a73e6f97effa5070f96af632e0a93979cb4f2d04d",
+      "source": "Peet’s Coffee lists fruit tart, milk chocolate, graham crust. Coffeedant has not tasted this coffee; your bag and recipe may differ.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "7781d31b091f28584e421597cfbd817a89743876071676847f69bb0c1f3127a9",
+      "source": "Can I use Big Bang for espresso?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "8a4f43cbf30369c206c4097aab77d8230be2b598136edb412ce1a5eb42c55ae0",
+      "source": "Peet’s product panel recommends cold brew, French press and pour-over. The generic brew guide gives method steps; it does not prove Big Bang will have the same flavor in each device. Start with the method you use daily, weigh coffee and water, and adjust grind against the delivered bag.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "6c627616b99beb636c38c4e3fc17948ccf3a95bd32b2881b795d468659c04d42",
+      "source": "Check the live selector and begin with its smaller whole-bean pack. Listed options at this check: 16 oz whole-bean selector; separate ground and capsule formats.",
+      "kind": "json",
+      "context": "text"
+    }
+  ],
+  "snapshotHash": "71fca67c23523246dcbf051eb7dd288955ab7f1d11154ea132852f427eb2e280"
+}
