@@ -57105,16 +57105,96 @@
     "page:6eee789b64eb2acc7e9b": {
       "sourcePath": "/journal/nordic-style-coffee/",
       "path": "/journal/cafe-nordique/"
+    },
+    "page:85f7a0be434750d29c27": {
+      "sourcePath": "/espresso-machine/ecm-synchronika/",
+      "path": "/machine-a-espresso/ecm-synchronika/"
+    },
+    "page:8950b683f965c1430178": {
+      "sourcePath": "/espresso-machine/ecm-technika-v-profi-pid/",
+      "path": "/machine-a-espresso/ecm-technika-v-profi-pid/"
+    },
+    "page:25a2bab3181c95da5576": {
+      "sourcePath": "/espresso-machine/fellow-espresso-series-1/",
+      "path": "/machine-a-espresso/fellow-espresso-series-1/"
+    },
+    "page:0c3086cda59db39baf61": {
+      "sourcePath": "/espresso-machine/flair-58/",
+      "path": "/machine-a-espresso/flair-58/"
+    },
+    "page:9fe5cbcd8b725456a1ab": {
+      "sourcePath": "/espresso-machine/flair-classic/",
+      "path": "/machine-a-espresso/flair-classic/"
+    },
+    "page:069a464ddd4d9223d660": {
+      "sourcePath": "/espresso-machine/flair-neo-flex/",
+      "path": "/machine-a-espresso/flair-neo-flex/"
+    },
+    "page:55f4e295e393a63ae3ff": {
+      "sourcePath": "/espresso-machine/flair-pro-2/",
+      "path": "/machine-a-espresso/flair-pro-2/"
+    },
+    "page:cfb767610f869ffdbbc9": {
+      "sourcePath": "/espresso-machine/gaggia-accademia-ri9781-01/",
+      "path": "/machine-a-espresso/gaggia-accademia-ri9781-01/"
+    },
+    "page:cc351a5072dc2156f506": {
+      "sourcePath": "/espresso-machine/gaggia-anima-deluxe/",
+      "path": "/machine-a-espresso/gaggia-anima-deluxe/"
+    },
+    "page:d829aab0063e6e36733e": {
+      "sourcePath": "/espresso-machine/gaggia-anima-prestige/",
+      "path": "/machine-a-espresso/gaggia-anima-prestige/"
+    },
+    "page:d1523a3e6798aa6f4dea": {
+      "sourcePath": "/espresso-machine/gaggia-anima/",
+      "path": "/machine-a-espresso/gaggia-anima/"
+    },
+    "page:b491f3e37a7d2bd7b0c5": {
+      "sourcePath": "/espresso-machine/gaggia-babila-ri9700/",
+      "path": "/machine-a-espresso/gaggia-babila-ri9700/"
+    },
+    "page:89878eb80e50e4f3f6dd": {
+      "sourcePath": "/espresso-machine/gaggia-brera-ri9305/",
+      "path": "/machine-a-espresso/gaggia-brera-ri9305/"
+    },
+    "page:67cbf8883cdd4e06d502": {
+      "sourcePath": "/espresso-machine/gaggia-cadorna-barista-plus-ri9603-47/",
+      "path": "/machine-a-espresso/gaggia-cadorna-barista-plus-ri9603-47/"
+    },
+    "page:bf720a61142c9f37caac": {
+      "sourcePath": "/espresso-machine/gaggia-cadorna-milk/",
+      "path": "/machine-a-espresso/gaggia-cadorna-milk/"
+    },
+    "page:613e3cf456da7f88031b": {
+      "sourcePath": "/espresso-machine/gaggia-cadorna-prestige/",
+      "path": "/machine-a-espresso/gaggia-cadorna-prestige/"
+    },
+    "page:bfb150b1ad0a66e7a9be": {
+      "sourcePath": "/espresso-machine/gaggia-classic-evo-pro/",
+      "path": "/machine-a-espresso/gaggia-classic-evo-pro/"
+    },
+    "page:77f8bb36852e2559dccb": {
+      "sourcePath": "/espresso-machine/gaggia-classic-evo/",
+      "path": "/machine-a-espresso/gaggia-classic-evo/"
+    },
+    "page:feaae030b28145bc29f8": {
+      "sourcePath": "/espresso-machine/gaggia-classic-gt/",
+      "path": "/machine-a-espresso/gaggia-classic-gt/"
+    },
+    "page:448c27ba37f37e77e419": {
+      "sourcePath": "/espresso-machine/gaggia-espresso-evolution-eg2115/",
+      "path": "/machine-a-espresso/gaggia-espresso-evolution-eg2115/"
     }
   },
   "lastModel": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "lastUsage": {
-    "prompt_tokens": 3092,
-    "completion_tokens": 2612,
-    "total_tokens": 5704,
+    "prompt_tokens": 1500,
+    "completion_tokens": 731,
+    "total_tokens": 2231,
     "prompt_tokens_details": {
       "cached_tokens": 0
     },
-    "neurons": 617.407958984375
+    "neurons": 189.71420288085938
   }
 }
