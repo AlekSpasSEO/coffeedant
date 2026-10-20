@@ -122,7 +122,7 @@ export const brandDetails: Record<string, { approach: string; ownership: string;
   profitec: {
     approach: 'Profitec organizes its range as a clear progression from a focused single boiler to heat-exchanger, dual-boiler, and lever platforms.',
     ownership: 'Controls are purposeful and the machines expect a separate grinder. Buyers get strong hardware and an understandable upgrade ladder without much hand-holding.',
-    rangeLogic: 'GO is the compact entry. Pro 400 and 500 handle heat-exchanger workflows. Pro 600 and 700 add dual-boiler control. Pro 800 is the lever route.',
+    rangeLogic: 'GO is the compact single-boiler entry. Pro 400, JUMP and Pro 500 cover distinct heat-exchanger workflows. Pro 600 and 700 add dual-boiler control. Pro 800 is the lever route.',
   },
   'quick-mill': {
     approach: 'Quick Mill offers unusually broad hardware choice, from compact thermoblocks through single boilers, heat exchangers, and dual boilers.',
@@ -146,6 +146,7 @@ export const machineFacts: Record<string, { setup: string; compromise: string; s
   '/espresso-machine/delonghi-magnifica-evo/': { setup: 'Bean-to-cup automatic', compromise: 'Limited manual control', signals: ['milk', 'fast', 'shared', 'value'] },
   '/espresso-machine/gaggia-classic-evo-pro/': { setup: 'Single-boiler semi-automatic', compromise: 'Wait between brew and steam', signals: ['espresso', 'ritual', 'upgrade', 'value'] },
   '/espresso-machine/profitec-go/': { setup: 'PID single boiler', compromise: 'Espresso-first milk workflow', signals: ['espresso', 'ritual', 'compact', 'upgrade'] },
+  '/espresso-machine/profitec-jump/': { setup: 'Compact heat exchanger', compromise: 'Indirect brew-temperature control', signals: ['milk', 'ritual', 'compact', 'upgrade'] },
   '/espresso-machine/philips-5400-lattego/': { setup: 'Bean-to-cup automatic', compromise: 'Less extraction control', signals: ['milk', 'shared', 'fast'] },
   '/espresso-machine/breville-barista-pro-bes878/': { setup: 'Grinder-equipped semi-automatic', compromise: 'Integrated grinder limits upgrades', signals: ['mixed', 'ritual', 'compact'] },
   '/espresso-machine/jura-e8/': { setup: 'Premium bean-to-cup', compromise: 'High cost and closed workflow', signals: ['mixed', 'milk', 'shared', 'fast', 'upgrade'] },

@@ -33,6 +33,22 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/grinder/eureka-mignon-zero-65-all-purpose/': officialProductMedia(
+    'Eureka Mignon Zero 65 All Purpose official gallery',
+    'https://www.eureka.co.it/en/products/eureka%2B1920/prosumer%2Bgrinders/zero%2Brange/118/',
+    [
+      { src:'https://www.eureka.co.it/public/catalogo/118-1.jpg', alt:'Official Eureka Mignon Zero 65 All Purpose gallery view of the single-dose grinder', caption:'The exact product gallery shows the single-dose body and cup position. It does not establish retained-ground mass on a buyer’s unit.', width:1000, height:1000 },
+      { src:'https://www.eureka.co.it/public/catalogo/118-2.jpg', alt:'Second official gallery view of the Eureka Mignon Zero 65 All Purpose', caption:'Use the gallery to identify the All Purpose platform; confirm the delivered 110 V label and dial before applying the review.', width:1000, height:1000 },
+    ],
+  ),
+  '/espresso-machine/profitec-jump/': officialProductMedia(
+    'Profitec JUMP official product gallery',
+    'https://www.profitec-espresso.com/en/products/jump',
+    [
+      { src:'https://www.profitec-espresso.com/media/pages/produkte/jump/07615255a0-1718191909/profitec-jump-display.webp', alt:'Official Profitec JUMP display and shot-counter detail', caption:'The display shows settings and extraction time. It is not a direct measured temperature at the coffee.', width:1920, height:1240 },
+      { src:'https://www.profitec-espresso.com/media/pages/produkte/jump/9fd664537d-1718191909/profitec-jump-schalter.webp', alt:'Official Profitec JUMP three-position switch detail', caption:'The underside switch selects a boiler-temperature preset. Confirm the exact position and resulting routine on the delivered machine.', width:1920, height:1240 },
+    ],
+  ),
   '/espresso-machine/lelit-elizabeth/': officialProductMedia(
     'Lelit US Elizabeth product gallery',
     'https://www.lelit.com/en-us/product/elizabeth-pesel01',
