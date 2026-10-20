@@ -1667,6 +1667,58 @@ The reviewed Dutch `/journal/espresso-doseren/` stays intact. No API credentials
 Amazon requests, paid translation APIs, billing changes, DNS changes or subagents
 are needed for this direct batch.
 
+## Direct batch 35: complete Geometry and Southern Weather reviews (2026-10-20)
+
+Both current Onyx Coffee Lab reviews, Geometry and Southern Weather, are directly
+translated in full into Dutch, German and French against immutable
+`bean-reviews-batch-35.source.json`. Geometry has 1,507 source words / 44
+paragraphs and Southern Weather 1,453 / 44. All body sections, facts, owner and
+independent-source limitations, metadata, product/image descriptions, source
+notes and twelve complete visible/structured FAQ answers are included. These
+are translations of the research-led US assessments, not new local tastings.
+
+The frozen task has 147 missing slots / 118 distinct strings. The authored JSON
+contains 115 full translations and three proper-name-only verbatim approvals.
+It adds 147 current cache entries per edition and changes no earlier text.
+The concluding verdicts reuse their exact passing cached wording before the
+new closing sentence. Stable routes use the existing `/koffiebonen/`,
+`/kaffeebohnen/` and `/cafe-en-grains/` prefixes with `onyx-geometry/` and
+`onyx-southern-weather/`; all older URLs, including the reviewed Dutch dosing
+page, stay unchanged.
+
+The reviews keep their different brewing evidence: Geometry's Onyx cone recipe
+is 25 g / 400 g at 205°F, separately 19 g in / 45 g beverage for espresso.
+Southern Weather prioritizes filter; its 19 g / 40 g espresso start is Fellow's
+commercial sample-specific suggestion, not an official Onyx instruction or a
+Coffeedant result. The 45 g figure is not water added to the basket. Light
+Agtron 130 and moderate ground Agtron 123 remain distinct. Changing microlots,
+roast dates, washed processing, mixed varieties and whole bean versus instant
+are preserved, as are sample/owner uncertainty, no numeric sensory score and
+the explicit absence of Coffeedant purchase, brewing, tasting, measurement or
+photography. US formats stay in oz/lb and Fahrenheit is not falsely converted.
+Neither review claims a verified current US price or discount, still less a
+fabricated local offer. All original assets and source-link destinations remain.
+
+All 130 localization tests plus analytics, CF-target Finder, video and brand
+navigation validation pass. Six complete-page checks cover the full main text,
+all structured-data objects, six FAQs per page, metadata, links, accessible
+labels, unchanged images/SVG, scripts and localized runtime. Full noindex
+previews and the full regional production bundle are checked separately.
+These are bounded rendered-output checks, not a browser session or a physical
+coffee experiment. All 149 Finder descriptions remain distinct with no
+unverified prices or buying offers.
+
+Coverage remains 248 source pages / 50,367 unique slots. Each edition now has
+75 ready regular pages plus 404, including all 17 current Journal articles and
+22 of the 25 bean reviews. The three new Peet's/Verve reviews and other unfinished
+sections remain queued. Pending slots are NL 41,521 and DE/FR 41,492 each;
+whole editions remain incomplete. Keep ready-pages publication and continuation.
+After merging green checks, verify the exact automatic regional deployment,
+all six live new reviews, live manifests, all 225 regular sitemap URLs, TLS,
+indexability, canonical/language/hreflang, unchanged Dutch dosing URL and the
+subsequent automatic reciprocal English links. No paid translation API, Amazon
+API activity, credentials, billing change, DNS change or subagents are used.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
