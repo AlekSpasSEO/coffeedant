@@ -1544,6 +1544,63 @@ live manifests, all 213 regular sitemap URLs, new full pages and reciprocal
 language links after merge. No Amazon API, paid translation provider, billing,
 new credentials, DNS changes or subagents are used for this batch.
 
+## Direct batch 33: complete tamping guide (2026-10-20)
+
+The full current `/journal/espresso-tamp-guide/` is directly translated into
+Dutch, German and French against immutable `tamp-guide-batch-33.source.json`.
+All 5,063 source words / 140 paragraphs are represented, including the legacy
+article, newer preparation guidance, eight complete practical checks, the
+level/tilted schematic, metadata, owner evidence, image limitations, evidence
+descriptions and three complete visible/structured FAQ answers. This is not an
+abridged article or a technical certification of the preserved legacy claims.
+
+The frozen task has 227 missing slots / 218 distinct source strings. There are
+217 complete authored translations and one explicit proper-name approval for
+`Decent OCD (Ona Coffee Distributor)`. The base file authors 201 strings; the
+parts file authors all remaining content for sixteen full check paragraphs.
+`compose-direct.mjs` checks each complete assembled English paragraph against
+the frozen source. Five exact recurring comparison/recording chunks reuse the
+previously approved batch 31 wording. Keep the base, parts and generated final
+JSON together. Import adds 227 current entries per edition and changes no prior
+cache text. No translation provider is called for this direct authoring.
+
+Imports use the complete US source after its SEO pass. `build:regions` rebuilds
+Astro's raw US `dist` before bundling; restore `node scripts/build-seo.mjs` before
+another import or full frozen-source comparison. The importer correctly refuses
+missing generated-metadata slots rather than accepting an altered snapshot.
+
+New stable routes are `/journal/espresso-tampen/` in NL and DE, and
+`/journal/tassage-expresso/` in FR. Earlier routes and wording, particularly the
+approved Dutch `/journal/espresso-doseren/`, remain untouched. Force figures use
+explicit `lb` / American-pound wording rather than being mislabelled as metric
+local pounds; source values and dollar examples are not converted. Exact basket
+fit, models and original link destinations remain intact. Early Normcore owner
+comments do not become V4/V4.1 tests, photographs do not prove extraction quality,
+and a spring/click does not become a guarantee of uniform density or headspace.
+
+All 123 localization tests, analytics, CF-target Finder, video and brand
+navigation validators pass. Three generated whole-page checks compare all main
+text, 140 paragraphs, eight complete checks, three FAQ answers, metadata and
+Article/WebPage/ImageObject text, links, accessible labels, dates, scripts/UI,
+unchanged SVG geometry and images. Both assembled diagram states retain their
+localized text and original identifiers. A VM test executes the actual compiled
+TypeScript handler in both directions with localized controls and checks that
+panel visibility and pressed states change without replacing text. This is a
+bounded runtime test, not a browser session or physical tamping experiment.
+The mobile diagram caption uses compact native wording with the same negative
+meaning. Arial 22 px font measurements are NL 392, DE 410 and FR 358 pixels,
+within its 456-unit space; no original SVG geometry or markup is changed.
+All 148 Finder descriptions remain distinct with unverified commerce suppressed.
+
+Coverage remains 240 source pages / 49,320 unique slots. Each edition now has 72
+ready regular pages plus 404; pending slots are NL 41,066 and DE/FR 41,037 each.
+Whole editions remain incomplete. Keep incremental publication and continuation
+active; verify the automatic production deployment, live manifests, all 216
+regular sitemap URLs, full new pages and reciprocal English language links after
+merge. The existing newer French cache update is preserved, not counted as direct
+batch 33 work. No Amazon API, paid translation API, billing, new credentials,
+DNS changes or subagents are used for the direct batch.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

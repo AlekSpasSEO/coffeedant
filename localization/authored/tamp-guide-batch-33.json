@@ -1,0 +1,1112 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "tamp-guide-batch-33.source.json",
+  "snapshotHash": "0a3645d198d97aee75f759420fe998903d3d95c169b3f510901aec774d74ad3d",
+  "preserveSource": [
+    106
+  ],
+  "routes": {
+    "nl": {
+      "/journal/espresso-tamp-guide/": "/journal/espresso-tampen/"
+    },
+    "de": {
+      "/journal/espresso-tamp-guide/": "/journal/espresso-tampen/"
+    },
+    "fr": {
+      "/journal/espresso-tamp-guide/": "/journal/tassage-expresso/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "Espresso tampen: een herhaalbare aanpak voor vlakke pucks | Coffeedant",
+      "de": "Espresso tampen: reproduzierbar zu ebenen Pucks | Coffeedant",
+      "fr": "Tasser l’expresso : une méthode répétable pour des galettes planes | Coffeedant"
+    },
+    "2": {
+      "nl": "Puckvoorbereiding · onderzoeksgestuurde gids",
+      "de": "Puckvorbereitung · forschungsbasierter Leitfaden",
+      "fr": "Préparation de la galette · guide fondé sur la recherche"
+    },
+    "3": {
+      "nl": "Een goede tamp is vlak, herhaalbaar en stevig genoeg om de koffie volledig samen te drukken. Zodra de puck is samengedrukt, is extra kracht zelden de nuttigste weg naar een beter shot.",
+      "de": "Ein guter Tamp ist eben, reproduzierbar und fest genug, um das Kaffeemehl vollständig zu verdichten. Ist der Puck komprimiert, ist zusätzliche Kraft selten der sinnvollste Weg zu einem besseren Bezug.",
+      "fr": "Un bon tassage est horizontal, répétable et assez ferme pour comprimer complètement le café. Une fois la galette comprimée, forcer davantage est rarement la meilleure piste pour améliorer l’extraction."
+    },
+    "4": {
+      "nl": "Verdeel eerst de koffie, zet het filterbakje op een stabiele ondergrond, houd de tamper vlak, druk tot een herhaalbaar eindpunt en til hem schoon op. Onderzoek dosis, maalgraad, verdeling en vrije ruimte boven de puck voordat je een klein drukverschil de schuld geeft.",
+      "de": "Verteilen Sie zuerst das Mahlgut, stützen Sie das Sieb stabil ab, halten Sie den Tamper waagerecht, verdichten Sie bis zu einem reproduzierbaren Anschlag und heben Sie ihn sauber ab. Prüfen Sie Dosis, Mahlgrad, Verteilung und Kopfraum, bevor Sie einen kleinen Kraftunterschied verantwortlich machen.",
+      "fr": "Répartissez d’abord le café, posez le panier sur un support stable, gardez le tamper horizontal, comprimez jusqu’à un arrêt répétable puis retirez-le proprement. Examinez dose, mouture, répartition et espace libre avant d’accuser une petite différence de force."
+    },
+    "5": {
+      "nl": "Maak het oppervlak vlak voordat je kracht zet",
+      "de": "Vor dem Kraftaufwand die Oberfläche ebnen",
+      "fr": "Mettez la surface à niveau avant de forcer"
+    },
+    "6": {
+      "nl": "Kies Vlak of Scheef om te zien hoe de vorm van het droge koffiebed verandert. De pijlen tonen uitlijning, geen simulatie van gemeten waterstroming.",
+      "de": "Wählen Sie Eben oder Geneigt, um die Geometrie des trockenen Kaffeebetts zu vergleichen. Die Pfeile zeigen Ausrichtung, keine Simulation gemessener Wasserströmung.",
+      "fr": "Choisissez Horizontal ou Incliné pour voir changer la géométrie du lit sec. Les flèches illustrent l’alignement, pas une simulation de débit mesuré."
+    },
+    "8": {
+      "nl": "Vlak",
+      "de": "Eben",
+      "fr": "Horizontal"
+    },
+    "9": {
+      "nl": "Scheef",
+      "de": "Geneigt",
+      "fr": "Incliné"
+    },
+    "10": {
+      "nl": "Vlakke en scheve uitlijning van een tamper in een filterbakje",
+      "de": "Ebene und geneigte Tamperausrichtung im Sieb",
+      "fr": "Alignement horizontal et incliné du tamper dans un panier"
+    },
+    "11": {
+      "nl": "Rechte basis, vlak oppervlak",
+      "de": "Gerade Basis, ebene Oberfläche",
+      "fr": "Base droite, surface horizontale"
+    },
+    "12": {
+      "nl": "Meer kracht verhelpt scheefstand niet.",
+      "de": "Mehr Kraft gleicht Schräglage nicht aus.",
+      "fr": "Forcer plus ne remet pas à niveau."
+    },
+    "13": {
+      "nl": "Een tampmat ondersteunt de filterdrager tijdens het aandrukken. Houd het bakje stabiel en druk recht; het afgebeelde accessoire is een illustratie, geen bewijs van een extractieresultaat.",
+      "de": "Eine Tampermatte stützt den Siebträger beim Andrücken. Halten Sie das Sieb stabil und drücken Sie gerade; das abgebildete Zubehör illustriert den Vorgang und belegt kein Extraktionsergebnis.",
+      "fr": "Un tapis soutient le porte-filtre pendant le tassage. Stabilisez le panier et pressez droit ; l’accessoire photographié illustre le geste, sans prouver un résultat d’extraction."
+    },
+    "14": {
+      "nl": "Zelfnivellerende Normcore-tamper van 58.5 mm met een VST-bakje van 18 g",
+      "de": "58.5 mm Normcore-Nivelliertamper mit einem 18 g VST-Sieb",
+      "fr": "Tamper autonivelant Normcore de 58.5 mm avec panier VST de 18 g"
+    },
+    "15": {
+      "nl": "Een eigenaar meldde na een maand schone, vlakke tamps en makkelijker uitlijnen, maar soms bleef koffie aan de basis kleven. Een andere deelnemer vond dat bakjes met ogenschijnlijk dezelfde maat niet allemaal pasten. Controleer je echte bakje en houd de basis schoon voordat je een zelfnivellerende tamper als oplossing ziet.",
+      "de": "Ein Besitzer berichtete nach einem Monat von sauberen, ebenen Pucks und leichterer Ausrichtung, allerdings haftete gelegentlich Mahlgut an der Basis. Ein anderer stellte fest, dass nominell ähnliche Siebe nicht alle passten. Prüfen Sie das konkrete Sieb und halten Sie die Basis sauber, bevor Sie ein selbstnivellierendes Werkzeug als Lösung betrachten.",
+      "fr": "Après un mois, un propriétaire signalait un tassage propre et horizontal et un alignement facilité, mais parfois du café collé à la base. Un autre trouvait que des paniers de dimensions nominalement similaires n’étaient pas tous compatibles. Vérifiez le panier réel et nettoyez la base avant de considérer l’autonivellement comme une solution."
+    },
+    "16": {
+      "nl": "Ervaringen met een vroeg Normcore-model, geen test van de huidige V4/V4.1 en geen bewijs dat gereedschap betere koffie garandeert.",
+      "de": "Rückmeldungen zu einem frühen Normcore-Modell, kein Test der heutigen V4/V4.1 und kein Beleg dafür, dass ein Werkzeug besseren Kaffee garantiert.",
+      "fr": "Retours sur un ancien modèle Normcore, pas un test des actuels V4/V4.1 ni une preuve qu’un outil garantit un meilleur café."
+    },
+    "17": {
+      "nl": "Tampdruk bepaalt of water gelijkmatig door de puck stroomt of via zwakke plekken de weg van de minste weerstand kiest. Goed tampen geeft evenwichtige espresso met rijke crema; slecht tampen kan wekenlang zure, bittere of slappe shots opleveren.",
+      "de": "Tampdruck entscheidet, ob Wasser gleichmäßig durch den Puck fließt oder über Schwachstellen den Weg des geringsten Widerstands nimmt. Richtiges Tampen liefert ausgewogenen Espresso mit dichter Crema; Fehler können wochenlang saure, bittere oder schwache Bezüge verursachen.",
+      "fr": "La force de tassage détermine si l’eau traverse uniformément la galette ou emprunte les zones faibles. Un bon geste donne un expresso équilibré et une crema riche ; sinon, vous risquez de poursuivre longtemps des tasses aigres, amères ou faibles."
+    },
+    "18": {
+      "nl": "Deze gids legt uit wat tampdruk doet, hoe je zonder weegschaal steeds 30 lb (Amerikaanse ponden) toepast en hoe je extractieproblemen door een slechte tamptechniek herkent.",
+      "de": "Dieser Leitfaden erklärt die Wirkung des Tampdrucks, wie Sie ohne Waage gleichmäßig 30 lb (US-Pfund) anwenden und Extraktionsprobleme durch fehlerhafte Technik erkennen.",
+      "fr": "Ce guide explique l’effet du tassage, comment appliquer régulièrement 30 lb (livres américaines) sans balance et diagnostiquer les problèmes liés à la technique."
+    },
+    "19": {
+      "nl": "Wat tampdruk werkelijk doet",
+      "de": "Was Tampdruck tatsächlich bewirkt",
+      "fr": "Ce que fait réellement la force de tassage"
+    },
+    "20": {
+      "nl": "Wanneer je gemalen koffie in de filterdrager aandrukt, doe je drie dingen:",
+      "de": "Beim Andrücken des Mahlguts im Siebträger erreichen Sie drei Dinge:",
+      "fr": "En tassant le café moulu dans le porte-filtre, vous accomplissez trois choses :"
+    },
+    "21": {
+      "nl": "Luchtzakken verwijderen",
+      "de": "Lufttaschen entfernen",
+      "fr": "Éliminer les poches d’air"
+    },
+    "22": {
+      "nl": "tussen de koffiedeeltjes, waardoor water anders zonder goede extractie zou stromen. Losse koffie vormt kanalen waarin water vrij doorloopt en de meeste koffie overslaat, met slappe, zure shots als gevolg.",
+      "de": "zwischen den Partikeln, durch die Wasser ohne ausreichende Extraktion schießen könnte. Unverdichtetes Mahlgut bildet Kanäle, in denen Wasser den Großteil des Kaffees umgeht und schwache, saure Bezüge erzeugt.",
+      "fr": "entre les particules, où l’eau passerait trop vite sans bien extraire. Le café non tassé forme des canaux contournant l’essentiel de la mouture, donnant une boisson faible et aigre."
+    },
+    "23": {
+      "nl": "Een gelijkmatige dichtheid creëren",
+      "de": "Gleichmäßige Dichte schaffen",
+      "fr": "Créer une densité uniforme"
+    },
+    "24": {
+      "nl": "over het hele puckoppervlak, zodat water overal dezelfde weerstand ondervindt. Ongelijke dichtheid geeft snelle en trage zones. Water kiest de makkelijke weg en overextraheert sommige delen terwijl andere ondergeëxtraheerd blijven.",
+      "de": "über die gesamte Puckfläche, damit Wasser überall gleichen Widerstand findet. Unterschiedliche Dichte erzeugt schnelle und langsame Zonen. Wasser nimmt den leichten Weg und überextrahiert manche Bereiche, während andere unterextrahiert bleiben.",
+      "fr": "sur toute la surface pour opposer partout la même résistance. Une densité inégale crée des zones rapides et lentes : l’eau choisit la facilité, surextrayant certaines parties et en sous-extrayant d’autres."
+    },
+    "25": {
+      "nl": "Een vast uitgangspunt maken",
+      "de": "Eine konstante Ausgangsbasis schaffen",
+      "fr": "Établir une base constante"
+    },
+    "26": {
+      "nl": "voor je extracties. Zijn maalgraad en dosis ingesteld voor shots van 25 tot 30 seconden, dan dwingt een andere tampdruk je alles opnieuw af te stellen. Herhaalbaarheid telt meer dan de precieze drukwaarde.",
+      "de": "für Ihre Extraktionen. Sind Mahlgrad und Dosis auf 25 bis 30 Sekunden eingestellt, zwingt ein anderer Tampdruck zur erneuten Abstimmung. Konstanz zählt mehr als der genaue Kraftwert.",
+      "fr": "pour vos extractions. Une fois mouture et dose réglées pour 25 à 30 secondes, changer le tassage oblige à tout reprendre. La régularité compte plus que la force exacte."
+    },
+    "27": {
+      "nl": "De norm van 30 lb komt uit commerciële baristatraining en staat voor de kracht om goed gemalen espresso samen te drukken zonder een ondoordringbare barrière te maken. Minder druk laat de puck te los; meer kan de machine verstikken en de extractie tot druppelen vertragen.",
+      "de": "Der Standard von 30 lb stammt aus gewerblicher Baristaschulung und beschreibt die nötige Kraft, korrekt gemahlenen Espresso zu verdichten, ohne eine undurchlässige Barriere zu bilden. Weniger lässt den Puck zu locker; mehr kann die Maschine abwürgen und den Bezug stark verlangsamen.",
+      "fr": "La norme de 30 lb vient de la formation professionnelle : comprimer une mouture adaptée sans créer une barrière imperméable. Moins laisse la galette trop lâche ; davantage risque d’étouffer la machine et de ralentir fortement l’extraction."
+    },
+    "28": {
+      "nl": "De natuurkunde van doorstroming",
+      "de": "Die Physik des Durchflusses",
+      "fr": "La physique du débit"
+    },
+    "29": {
+      "nl": "Espresso-extractie volgt de wet van Darcy voor stroming door poreuze materialen. Het debiet hangt af van:",
+      "de": "Espressoextraktion folgt dem Darcy-Gesetz für Strömung durch poröse Medien. Der Durchfluss hängt ab von:",
+      "fr": "L’extraction suit la loi de Darcy sur les écoulements en milieu poreux. Le débit dépend de :"
+    },
+    "30": {
+      "nl": "Drukverschil (de 9 bar van je pomp tegenover de atmosferische druk)",
+      "de": "Druckdifferenz (9 bar Pumpendruck gegenüber Atmosphärendruck)",
+      "fr": "Différence de pression (les 9 bars de la pompe contre la pression atmosphérique)"
+    },
+    "31": {
+      "nl": "Doorlaatbaarheid (bepaald door deeltjesgrootte en pakkingsdichtheid)",
+      "de": "Durchlässigkeit (durch Partikelgröße und Packungsdichte bestimmt)",
+      "fr": "Perméabilité (définie par granulométrie et densité de remplissage)"
+    },
+    "32": {
+      "nl": "Vloeistofviscositeit (de watertemperatuur beïnvloedt die enigszins)",
+      "de": "Flüssigkeitsviskosität (durch Wassertemperatur leicht beeinflusst)",
+      "fr": "Viscosité du liquide (légèrement influencée par la température de l’eau)"
+    },
+    "33": {
+      "nl": "Trajectlengte (de dikte van je puck)",
+      "de": "Weglänge (Dicke des Pucks)",
+      "fr": "Longueur du trajet (épaisseur de la galette)"
+    },
+    "34": {
+      "nl": "Je tamp regelt de doorlaatbaarheid. Druk de puck 10% samen en de stromingsweerstand kan verdubbelen. Dat verklaart waarom kleine variaties in tampdruk merkbare tijdsverschillen geven.",
+      "de": "Ihr Tamp steuert die Durchlässigkeit. 10% Kompression können den Strömungswiderstand verdoppeln. Das erklärt, warum kleine Kraftunterschiede die Bezugszeit merklich verändern.",
+      "fr": "Le tassage contrôle la perméabilité. Comprimer la galette de 10% peut doubler sa résistance, ce qui explique l’effet visible de petites variations de force sur la durée."
+    },
+    "35": {
+      "nl": "Een goed aangedrukte dosis van 18 gram in een bakje van 58 millimeter geeft ongeveer 9 millimeter samengedrukte koffie. Samen met middelfijne maling geeft dat weerstand voor extracties van 25 tot 30 seconden bij 9 bar.",
+      "de": "18 Gramm richtig verdichteter Kaffee in einem 58-Millimeter-Sieb ergeben etwa 9 Millimeter Puckhöhe. Mit mittelfeiner Mahlung entsteht der Widerstand für 25 bis 30 Sekunden bei 9 bar.",
+      "fr": "Une dose de 18 grammes bien tassée dans un panier de 58 millimètres forme environ 9 millimètres de café comprimé. Avec une mouture moyennement fine, cela fournit la résistance pour 25 à 30 secondes à 9 bars."
+    },
+    "36": {
+      "nl": "Hoeveel kracht is 30 lb?",
+      "de": "Wie viel Kraft sind 30 lb?",
+      "fr": "Quelle force représentent 30 lb ?"
+    },
+    "37": {
+      "nl": "Dertig Amerikaanse ponden komt overeen met ongeveer 13.6 kilogram of 133 newton kracht. De meeste mensen onderschatten dit aanvankelijk sterk.",
+      "de": "Dreißig US-Pfund entsprechen ungefähr 13.6 Kilogramm oder 133 Newton Kraft. Die meisten unterschätzen das beim ersten Versuch deutlich.",
+      "fr": "Trente livres américaines correspondent à environ 13.6 kilogrammes ou 133 newtons. La plupart des personnes sous-estiment fortement cet effort au début."
+    },
+    "38": {
+      "nl": "De test met de personenweegschaal",
+      "de": "Der Test mit der Personenwaage",
+      "fr": "Le test du pèse-personne"
+    },
+    "39": {
+      "nl": "geeft direct feedback. Zet je filterdrager op een weegschaal, zet die op nul en druk recht terwijl je afleest. Dertig Amerikaanse ponden vraagt stevige, bewuste druk, geen zacht duwtje.",
+      "de": "gibt sofort Rückmeldung. Legen Sie den Siebträger auf eine Waage, tarieren Sie sie und drücken Sie bei Blick aufs Display gerade nach unten. Dreißig US-Pfund verlangen bewussten, festen Druck, kein leichtes Antippen.",
+      "fr": "donne un retour immédiat. Posez le porte-filtre, faites la tare puis pressez droit en regardant l’affichage. Trente livres américaines demandent un effort ferme et volontaire, pas une légère pression."
+    },
+    "40": {
+      "nl": "Na vijf of zes keer oefenen op een weegschaal slaat je spiergeheugen het gevoel op. Je herkent de benodigde inspanning en kunt die zonder weegschaal herhalen.",
+      "de": "Nach fünf oder sechs Durchgängen auf der Waage prägt sich das Gefühl ein. Sie erkennen den Aufwand und können ihn ohne Waage wiederholen.",
+      "fr": "Après cinq ou six essais sur balance, la mémoire musculaire retient l’effort et permet de le reproduire sans balance."
+    },
+    "41": {
+      "nl": "De ellebooghoekmethode",
+      "de": "Die Ellenbogenwinkel-Methode",
+      "fr": "La méthode de l’angle du coude"
+    },
+    "42": {
+      "nl": "geeft een grove benadering. Ga aan het aanrecht staan, zet de tamper op de koffie en druk recht tot je onderarm horizontaal staat (90 graden elleboogbuiging). Bij gemiddeld gebouwde volwassenen geeft dat 25 tot 35 lb, afhankelijk van armlengte en werkbladhoogte.",
+      "de": "liefert eine grobe Annäherung. Stellen Sie sich an die Arbeitsfläche, setzen Sie den Tamper auf und drücken Sie gerade, bis der Unterarm waagerecht ist (90-Grad-Ellenbogenwinkel). Bei durchschnittlichem Körperbau entstehen je nach Armlänge und Arbeitsflächenhöhe 25 bis 35 lb.",
+      "fr": "donne une approximation. Placez-vous au plan de travail, posez le tamper et pressez droit jusqu’à l’avant-bras horizontal (coude à 90 degrés). Chez un adulte de corpulence moyenne, cela produit 25 à 35 lb selon la longueur du bras et la hauteur du plan."
+    },
+    "43": {
+      "nl": "De weerstandstest",
+      "de": "Die Widerstandsprüfung",
+      "fr": "Le contrôle de résistance"
+    },
+    "44": {
+      "nl": "bevestigt voldoende druk: druk na het tampen zacht met je vinger op het oppervlak. Dat moet stevig voelen en niet indeuken. Blijft een deuk achter, dan heb je te weinig kracht gezet.",
+      "de": "bestätigt ausreichende Kraft: Drücken Sie nach dem Tampen leicht mit dem Finger auf die Oberfläche. Sie sollte fest sein und nicht nachgeben. Bleibt eine Delle, war die Kraft zu gering.",
+      "fr": "confirme une force suffisante : après tassage, pressez légèrement la surface du doigt. Elle doit être solide et résister. Une empreinte indique un effort insuffisant."
+    },
+    "45": {
+      "nl": "Tamptechniek stap voor stap",
+      "de": "Tamptechnik Schritt für Schritt",
+      "fr": "Technique de tassage pas à pas"
+    },
+    "46": {
+      "nl": "1. Verdeel eerst de koffie",
+      "de": "1. Zuerst das Mahlgut verteilen",
+      "fr": "1. Répartir d’abord la mouture"
+    },
+    "47": {
+      "nl": "Tampen vergroot bestaande verdeelproblemen. Ligt aan één kant een hogere hoop, dan blijft die ongelijkheid na het aandrukken bestaan en ontstaat kanaalvorming.",
+      "de": "Tampen verstärkt vorhandene Verteilungsfehler. Liegt auf einer Seite mehr Kaffee, bleibt diese Ungleichheit beim Verdichten bestehen und fördert Kanalbildung.",
+      "fr": "Le tassage amplifie les défauts de répartition. Si la mouture s’accumule d’un côté, il conserve cette inégalité et crée des canaux."
+    },
+    "48": {
+      "nl": "Gladstrijken met je vinger",
+      "de": "Das Abstreifen mit dem Finger",
+      "fr": "L’arasage au doigt"
+    },
+    "49": {
+      "nl": "volstaat voor eenvoudig gebruik. Vul het bakje iets te vol en strijk de hoop vlak met een rechte rand, je vinger of een verdeeltool. Tik zacht tegen de zijkanten van de filterdrager om lege plekken te vullen.",
+      "de": "genügt für einfache Anwendung. Füllen Sie das Sieb leicht über und streifen Sie die Häufung mit gerader Kante, Finger oder Verteiler ab. Klopfen Sie sanft seitlich gegen den Siebträger, damit Mahlgut in Hohlräume fällt.",
+      "fr": "convient à un usage simple. Remplissez légèrement trop le panier puis arasez avec un bord droit, le doigt ou un outil. Tapotez doucement les côtés du porte-filtre pour combler les vides."
+    },
+    "50": {
+      "nl": "Weiss-verdeeltechniek (WDT)",
+      "de": "Weiss-Verteilungstechnik (WDT)",
+      "fr": "Technique de répartition Weiss (WDT)"
+    },
+    "51": {
+      "nl": "breekt klonten met een dunne naald of speciaal gereedschap. Roer cirkelvormig van onder naar boven. Volgens refractometermetingen verbetert dit het extractierendement met 15 tot 20%, vooral belangrijk bij fijn malen of afzonderlijk doseren, waarbij meer klonten ontstaan.",
+      "de": "löst Klumpen mit dünner Nadel oder Spezialwerkzeug. Rühren Sie kreisend von unten nach oben. Laut Refraktometertests verbessert das die Extraktionsausbeute um 15 bis 20%, besonders wichtig bei feiner Mahlung oder Einzeldosierung mit stärkerer Klumpenbildung.",
+      "fr": "brise les grumeaux avec une aiguille fine ou un outil dédié. Remuez en cercles du fond vers le haut. Selon des mesures au réfractomètre, le rendement d’extraction progresse de 15 à 20%, surtout avec mouture fine ou monodosage favorisant les grumeaux."
+    },
+    "52": {
+      "nl": "2. Houd de tamper goed vast",
+      "de": "2. Den Tamper richtig halten",
+      "fr": "2. Bien tenir le tamper"
+    },
+    "53": {
+      "nl": "Pak het handvat met drie vingers eronder en duim en wijsvinger erboven, in een C-vorm. Houd je pols recht in het verlengde van je onderarm. Gebogen polsen geven scheve tamps.",
+      "de": "Greifen Sie den Griff mit drei Fingern darunter, Daumen und Zeigefinger oben in C-Form. Halten Sie das Handgelenk gerade in Verlängerung des Unterarms. Abknicken führt zu schiefen Pucks.",
+      "fr": "Saisissez la poignée avec trois doigts dessous, pouce et index dessus en forme de C. Gardez le poignet droit dans l’axe de l’avant-bras. Un poignet plié incline le tassage."
+    },
+    "54": {
+      "nl": "Houd je elleboog recht boven de tamper, niet opzij. De onderarm vormt een verticale lijn naar de tamperbasis. Zo gaat je lichaamsgewicht recht door het gereedschap naar beneden.",
+      "de": "Halten Sie den Ellenbogen direkt über dem Tamper statt seitlich versetzt. Der Unterarm bildet eine senkrechte Linie zur Basis. So übertragen Sie Körpergewicht gerade nach unten.",
+      "fr": "Gardez le coude juste au-dessus du tamper, pas de côté. L’avant-bras doit former une verticale jusqu’à la base, pour transférer le poids du corps droit vers le bas."
+    },
+    "55": {
+      "nl": "3. Druk in één beweging",
+      "de": "3. In einer Bewegung drücken",
+      "fr": "3. Presser en un seul mouvement"
+    },
+    "56": {
+      "nl": "Zet de tamper vlak op de koffie. Druk recht met toenemende kracht tot 30 lb. Houd één seconde vast en laat los.",
+      "de": "Setzen Sie den Tamper waagerecht auf. Drücken Sie gerade mit steigender Kraft bis 30 lb, halten Sie eine Sekunde und lösen Sie den Druck.",
+      "fr": "Posez le tamper horizontalement. Pressez droit en augmentant l’effort jusqu’à 30 lb. Maintenez une seconde puis relâchez."
+    },
+    "57": {
+      "nl": "Niet pompen of tikken.",
+      "de": "Nicht pumpen oder klopfen.",
+      "fr": "Ne pompez pas et ne tapez pas."
+    },
+    "58": {
+      "nl": "Herhaald aandrukken verstoort de gezette puckstructuur en kan horizontale breuken vormen die kanaalvorming bevorderen. Eén stevige druk doet alles wat nodig is.",
+      "de": "Mehrfaches Verdichten stört die gesetzte Puckstruktur und kann horizontale Brüche bilden, die Kanäle fördern. Ein fester Druck genügt.",
+      "fr": "Des compressions répétées perturbent la structure et peuvent créer des fissures horizontales favorisant les canaux. Une seule pression ferme suffit."
+    },
+    "59": {
+      "nl": "Draai de tamper niet",
+      "de": "Drehen Sie den Tamper nicht",
+      "fr": "Ne tournez pas le tamper"
+    },
+    "60": {
+      "nl": "terwijl je druk zet. Sommige barista’s ‘polijsten’ door tijdens het loslaten te draaien. Dat maakt het oppervlak cosmetisch glad, maar beïnvloedt de extractie niet en kan spiraalkanalen maken als je tegelijk drukt.",
+      "de": "unter Druck. Manche Baristas „polieren“ beim Lösen durch Drehen. Das glättet die Oberfläche optisch, verändert die Extraktion aber nicht und riskiert spiralförmige Kanäle, wenn dabei gedrückt wird.",
+      "fr": "sous pression. Certains baristas « polissent » en tournant au relâchement. Cela lisse seulement l’apparence, sans effet sur l’extraction, et risque de créer des canaux en spirale si l’on presse en même temps."
+    },
+    "61": {
+      "nl": "4. Controleer je werk",
+      "de": "4. Das Ergebnis prüfen",
+      "fr": "4. Contrôler le résultat"
+    },
+    "62": {
+      "nl": "Bekijk het puckoppervlak: vlak en gelijkmatig, zonder helling. Bij gelijkmatige compressie reflecteert het licht overal gelijk.",
+      "de": "Prüfen Sie die Oberfläche: eben, gleichmäßig und ohne Neigung. Bei gleichmäßiger Kompression sollte Licht überall gleich reflektieren.",
+      "fr": "Examinez la surface : plane, uniforme, sans pente. Une compression régulière doit réfléchir la lumière uniformément."
+    },
+    "63": {
+      "nl": "Kantel de filterdrager opzij. De puck hoort vast te blijven zitten, niet te schuiven of kruimelen. Beweegt hij, dan is te licht getampt of speelt er een maalprobleem.",
+      "de": "Neigen Sie den Siebträger zur Seite. Der Puck sollte fest sitzen, nicht rutschen oder zerbröseln. Bewegt er sich, war der Tamp zu leicht oder die Mahlung problematisch.",
+      "fr": "Inclinez le porte-filtre. La galette doit rester attachée, sans glisser ni s’effriter. Sinon, le tassage est insuffisant ou la mouture pose problème."
+    },
+    "64": {
+      "nl": "Gekalibreerde tampers: sneller naar constante resultaten",
+      "de": "Kalibrierte Tamper: der kurze Weg zur Konstanz",
+      "fr": "Tampers calibrés : le raccourci vers la régularité"
+    },
+    "65": {
+      "nl": "Gekalibreerde tampers bevatten veren die bij een vaste kracht, meestal 30 lb, klikken of stoppen. Druk tot je de ontgrendeling voelt of hoort en stop. Iedere tamp gebruikt dezelfde kracht, ongeacht kleine techniekverschillen.",
+      "de": "Kalibrierte Tamper haben Federn, die bei einer festgelegten Kraft, meist 30 lb, klicken oder stoppen. Drücken Sie bis zum fühl- oder hörbaren Auslösen. Jeder Tamp nutzt trotz Technikabweichungen gleiche Kraft.",
+      "fr": "Leurs ressorts cliquent ou s’arrêtent à une force prédéfinie, généralement 30 lb. Pressez jusqu’au déclenchement ressenti ou entendu, puis arrêtez. Chaque tassage applique le même effort malgré les variations de geste."
+    },
+    "66": {
+      "nl": "Budgetkeuze:",
+      "de": "Budgetoption:",
+      "fr": "Option économique :"
+    },
+    "67": {
+      "nl": "Normcore V4 ($40) gebruikt een veer met duidelijke voelbare feedback. De basis drukt samen tot de veer aangrijpt en houdt de drukvariatie binnen 2 lb.",
+      "de": "Normcore V4 ($40) nutzt eine Feder mit klarer taktiler Rückmeldung. Die Basis wird bis zum Eingreifen der Feder komprimiert und hält Kraftschwankungen innerhalb von 2 lb.",
+      "fr": "Normcore V4 ($40) utilise un ressort au retour tactile net. La base se comprime jusqu’à son engagement, maintenant une variation de force dans les 2 lb."
+    },
+    "68": {
+      "nl": "Premiumkeuze:",
+      "de": "Premiumoption:",
+      "fr": "Option haut de gamme :"
+    },
+    "69": {
+      "nl": "De Decent-tamper ($85) is instelbaar van 10 tot 40 lb en heeft een precisieveer voor 50,000+ compressies, dus ruim vijftigduizend. De investering waard als je dagelijks meerdere shots zet.",
+      "de": "Der Decent-Tamper ($85) ist von 10 bis 40 lb einstellbar und hat eine Präzisionsfeder für 50,000+ Betätigungen, also über fünfzigtausend. Bei mehreren täglichen Bezügen lohnt die Investition.",
+      "fr": "Le tamper Decent ($85) se règle de 10 à 40 lb et possède un ressort prévu pour 50,000+ compressions, soit plus de cinquante mille. Un investissement intéressant pour plusieurs extractions quotidiennes."
+    },
+    "70": {
+      "nl": "Gekalibreerde tampers halen één variabele uit de extractie. Bij zure of bittere shots kun je tampdruk uitsluiten en je op maalgraad, dosis of temperatuur richten.",
+      "de": "Kalibrierte Tamper entfernen eine Variable aus der Extraktion. Bei sauren oder bitteren Bezügen können Sie Tampdruck ausschließen und Mahlgrad, Dosis oder Temperatur prüfen.",
+      "fr": "Un tamper calibré retire une variable de l’équation. Face à une tasse aigre ou amère, vous pouvez écarter la force et examiner mouture, dose ou température."
+    },
+    "71": {
+      "nl": "Veelgemaakte tampfouten en oplossingen",
+      "de": "Häufige Tampfehler und Lösungen",
+      "fr": "Erreurs courantes de tassage et solutions"
+    },
+    "72": {
+      "nl": "Scheve tamps",
+      "de": "Schiefe Pucks",
+      "fr": "Tassage incliné"
+    },
+    "73": {
+      "nl": "Probleem:",
+      "de": "Problem:",
+      "fr": "Problème :"
+    },
+    "74": {
+      "nl": "De puck helt van de ene naar de andere kant. Water stroomt vooral door het dunne deel, met snelle kanalen en ongelijke extractie.",
+      "de": "Die Oberfläche fällt zu einer Seite ab. Wasser fließt bevorzugt durch den dünnen Bereich und bildet schnelle Kanäle sowie ungleichmäßige Extraktion.",
+      "fr": "La surface descend d’un côté. L’eau privilégie la partie mince, créant des canaux rapides et une extraction inégale."
+    },
+    "75": {
+      "nl": "Oorzaak:",
+      "de": "Ursache:",
+      "fr": "Cause :"
+    },
+    "76": {
+      "nl": "De filterdrager schuin vasthouden of je elleboog niet midden boven de tamper zetten. Rechtshandigen kantelen vaak naar hun dominante kant.",
+      "de": "Ein schräg gehaltener Siebträger oder seitlich versetzter Ellenbogen. Rechtshänder kippen häufig zur dominanten Seite.",
+      "fr": "Porte-filtre tenu en biais ou coude décentré. Les droitiers inclinent souvent vers leur côté dominant."
+    },
+    "77": {
+      "nl": "Oplossing:",
+      "de": "Abhilfe:",
+      "fr": "Solution :"
+    },
+    "78": {
+      "nl": "Laat de filterdrager op een stabiele ondergrond rusten in plaats van hem in de lucht te houden. Zet je elleboog recht boven de tamper en druk recht. Bekijk de puck van opzij om vlakke compressie te controleren.",
+      "de": "Stützen Sie den Siebträger stabil ab, statt ihn frei zu halten. Ellenbogen direkt über den Tamper, gerade drücken. Prüfen Sie den fertigen Puck seitlich auf ebene Kompression.",
+      "fr": "Posez le porte-filtre sur un support stable plutôt que de le tenir en l’air. Coude au-dessus du tamper, pressez droit. Regardez la galette de côté pour vérifier l’horizontalité."
+    },
+    "79": {
+      "nl": "Te licht tampen",
+      "de": "Zu leichtes Tampen",
+      "fr": "Tassage insuffisant"
+    },
+    "80": {
+      "nl": "Een losse, sponsachtige puck waar water in 15 seconden of minder doorheen schiet. Geeft dunne, zure espresso met weinig crema.",
+      "de": "Ein lockerer, schwammiger Puck, durch den Wasser in 15 Sekunden oder weniger schießt. Ergibt dünnen, sauren Espresso mit wenig Crema.",
+      "fr": "Galette lâche et spongieuse traversée en 15 secondes ou moins. Expresso mince, aigre et pauvre en crema."
+    },
+    "81": {
+      "nl": "Te weinig druk, vaak omdat je voorzichtig wilt zijn of alleen je pols gebruikt in plaats van lichaamsgewicht.",
+      "de": "Zu wenig Kraft, oft durch übertriebene Vorsicht oder reine Handgelenkskraft statt Körpergewicht.",
+      "fr": "Effort insuffisant, souvent par excès de douceur ou en n’utilisant que le poignet plutôt que le poids du corps."
+    },
+    "82": {
+      "nl": "Gebruik een personenweegschaal om het gevoel voor 30 lb te leren. Verander je houding zodat je lichaamsgewicht meewerkt, in plaats van alleen armkracht.",
+      "de": "Kalibrieren Sie Ihr Gefühl für 30 lb mit einer Personenwaage. Ändern Sie den Stand, damit Körpergewicht statt nur Armkraft wirkt.",
+      "fr": "Utilisez le pèse-personne pour apprendre l’effort de 30 lb. Adaptez votre position pour engager le poids du corps plutôt que les seuls bras."
+    },
+    "83": {
+      "nl": "Te hard tampen",
+      "de": "Zu starkes Tampen",
+      "fr": "Tassage excessif"
+    },
+    "84": {
+      "nl": "De extractie verstikt, druppelt 45+ seconden of valt helemaal stil. Het shot smaakt bitter, asachtig of overgeëxtraheerd.",
+      "de": "Der Bezug würgt ab, tröpfelt 45+ Sekunden oder stockt ganz. Er schmeckt bitter, aschig oder überextrahiert.",
+      "fr": "L’extraction s’étouffe, goutte pendant 45+ secondes ou se bloque. Goût amer, cendreux ou surextrait."
+    },
+    "85": {
+      "nl": "40+ lb zetten of normale tampdruk combineren met zeer fijne maling.",
+      "de": "40+ lb Kraft oder normales Tampen mit sehr feiner Mahlung.",
+      "fr": "Appliquer 40+ lb ou combiner un tassage normal avec une mouture très fine."
+    },
+    "86": {
+      "nl": "Te hard tampen geeft op zichzelf zelden problemen. Zet je een redelijke 30 tot 35 lb maar lopen shots traag, maal dan twee of drie klikjes grover. De maalgraad telt veel meer dan extra tampdruk.",
+      "de": "Zu starkes Tampen allein ist selten das Problem. Bei vernünftigen 30 bis 35 lb und langsamen Bezügen mahlen Sie zwei oder drei Klicks gröber. Der Mahlgrad zählt weit mehr als zusätzliche Kraft.",
+      "fr": "Un effort excessif pose rarement problème seul. À 30 à 35 lb raisonnables mais débit lent, grossissez de deux ou trois crans. La mouture compte bien plus que l’excès de force."
+    },
+    "87": {
+      "nl": "Gebroken pucks",
+      "de": "Gebrochene Pucks",
+      "fr": "Galettes fissurées"
+    },
+    "88": {
+      "nl": "De gebruikte puck vertoont horizontale scheuren of valt in lagen uiteen bij het uitkloppen: water vond breukvlakken tijdens de extractie.",
+      "de": "Der verbrauchte Puck zeigt horizontale Risse oder zerfällt beim Ausklopfen in Schichten: Wasser fand Bruchflächen während des Bezugs.",
+      "fr": "La galette usée présente des fissures horizontales ou se sépare en couches à l’éjection : l’eau a trouvé des plans de fracture pendant l’extraction."
+    },
+    "89": {
+      "nl": "Herhaald pompen met de tamper of de filterdrager na het tampen laten vallen.",
+      "de": "Mehrfaches Pumpen mit dem Tamper oder Fallenlassen des Siebträgers danach.",
+      "fr": "Pomper plusieurs fois avec le tamper ou laisser tomber le porte-filtre après tassage."
+    },
+    "90": {
+      "nl": "Druk één keer. Vergrendel de filterdrager meteen in de zetgroep zonder hem neer te zetten. Behandel hem voorzichtig zodat de puck geen schokken krijgt.",
+      "de": "Nur einmal drücken. Spannen Sie den Siebträger sofort ein, ohne ihn abzusetzen. Behandeln Sie ihn sanft, um den Puck nicht zu erschüttern.",
+      "fr": "Pressez une seule fois. Enclenchez immédiatement le porte-filtre sans le reposer. Manipulez-le doucement pour ne pas secouer la galette."
+    },
+    "91": {
+      "nl": "Doet tampdruk er echt toe?",
+      "de": "Ist Tampdruck wirklich wichtig?",
+      "fr": "La force de tassage compte-t-elle vraiment ?"
+    },
+    "92": {
+      "nl": "Tests van espresso-onderzoekers laten zien dat variaties tussen 20 en 40 lb weinig verschil in extractierendement of smaak geven als alle andere variabelen gelijk blijven. Het sleutelwoord is",
+      "de": "Versuche von Espressoforschern zeigen bei 20 bis 40 lb kaum Unterschiede in Ausbeute oder Geschmack, sofern alle anderen Variablen konstant bleiben. Das Schlüsselwort lautet",
+      "fr": "Des essais de chercheurs montrent peu de différences de rendement ou de goût entre 20 et 40 lb, si toutes les autres variables restent constantes. Le mot essentiel est"
+    },
+    "93": {
+      "nl": "gelijk",
+      "de": "konstant",
+      "fr": "constantes"
+    },
+    "94": {
+      "nl": "Een in 2018 in Matter verschenen studie",
+      "de": "Eine 2018 in Matter veröffentlichte Studie",
+      "fr": "Une étude publiée en 2018 dans Matter"
+    },
+    "95": {
+      "nl": "gebruikte computermodellen en experimentele validatie om te tonen dat zeer licht tampen (onder 10 lb) de extractie constanter maakte doordat de puck zich tijdens pre-infusie zelf ordende. Dit werkte echter alleen bij specifieke deeltjesverdelingen en pre-infusieprofielen die de meeste thuismachines niet bieden.",
+      "de": "zeigte mit Computermodellen und Experimenten, dass sehr leichtes Tampen unter 10 lb die Extraktion konstanter machte, weil sich der Puck während der Präinfusion selbst ordnete. Das galt jedoch nur für bestimmte Mahlverteilungen und Präinfusionsprofile, die den meisten Heimmaschinen fehlen.",
+      "fr": "utilisait modélisation et validation expérimentale pour montrer qu’un effort très léger, sous 10 lb, améliorait la régularité en laissant la galette s’organiser pendant la préinfusion. Cela ne fonctionnait qu’avec certaines distributions de mouture et certains profils absents de la plupart des machines domestiques."
+    },
+    "96": {
+      "nl": "Voor praktisch thuisgebruik blijft 30 lb bruikbaar, omdat:",
+      "de": "Für die Heimpraxis bleibt der 30-lb-Standard brauchbar, weil:",
+      "fr": "À domicile, la norme de 30 lb reste valable car :"
+    },
+    "97": {
+      "nl": "Het geeft herhaalbaarheid.",
+      "de": "Er schafft Wiederholbarkeit.",
+      "fr": "Elle établit la répétabilité."
+    },
+    "98": {
+      "nl": "Met steeds 30 lb haal je één variabele weg. Extractieproblemen worden makkelijker te herkennen en op te lossen.",
+      "de": "Mit stets 30 lb entfernen Sie eine Variable. Extraktionsprobleme lassen sich leichter erkennen und lösen.",
+      "fr": "Appliquer toujours 30 lb élimine une variable et facilite le diagnostic et la résolution des problèmes."
+    },
+    "99": {
+      "nl": "Het voorkomt duidelijk te licht tampen.",
+      "de": "Er verhindert deutlich zu leichtes Tampen.",
+      "fr": "Elle évite un tassage nettement insuffisant."
+    },
+    "100": {
+      "nl": "Vijftien Amerikaanse ponden laat de puck te los voor constante doorstroming. Vijftig Amerikaanse ponden beschadigt niets maar verspilt inspanning.",
+      "de": "Fünfzehn US-Pfund lassen den Puck für gleichmäßigen Fluss zu locker. Fünfzig US-Pfund schaden nicht, verschwenden aber Kraft.",
+      "fr": "Quinze livres américaines laissent la galette trop lâche pour un débit régulier. Cinquante ne font pas de mal, mais gaspillent l’effort."
+    },
+    "101": {
+      "nl": "Het sluit aan bij commerciële training.",
+      "de": "Er passt zur gewerblichen Schulung.",
+      "fr": "Elle correspond à la formation professionnelle."
+    },
+    "102": {
+      "nl": "Leer je op een Decent, Decent of andere prosumermachine, dan ontwikkel je overdraagbare vaardigheden voor elk café.",
+      "de": "Lernen Sie auf einer Decent, Decent oder anderen Prosumer-Maschine, entwickeln Sie übertragbare Fähigkeiten für jedes Café.",
+      "fr": "Apprendre sur une Decent, Decent ou autre machine prosumer développe des gestes transférables dans n’importe quel café."
+    },
+    "103": {
+      "nl": "Constante uitvoering telt veel meer dan exact 30.0 lb halen. Variëren tussen 28 en 32 lb per shot verpest je espresso niet. Tussen 15 en 45 lb wel.",
+      "de": "Konstanz ist viel wichtiger als exakt 30.0 lb. Schwankungen zwischen 28 und 32 lb ruinieren Espresso nicht, zwischen 15 und 45 lb dagegen schon.",
+      "fr": "La régularité importe bien plus que viser exactement 30.0 lb. Passer de 28 à 32 lb ne ruinera pas l’expresso ; varier de 15 à 45 lb, si."
+    },
+    "104": {
+      "nl": "Gereedschap dat echt helpt",
+      "de": "Werkzeuge, die wirklich helfen",
+      "fr": "Les outils réellement utiles"
+    },
+    "105": {
+      "nl": "Verdeeltools",
+      "de": "Verteilungswerkzeuge",
+      "fr": "Outils de répartition"
+    },
+    "107": {
+      "nl": "($85) heeft instelbare diepte en verdeelt de koffie gelijkmatig vóór het tampen. De draaiende beweging vult lege plekken en maakt het oppervlak vlak. Combineer hem met een vlakke tamper voor uitstekende resultaten.",
+      "de": "($85) hat einstellbare Tiefe und verteilt das Mahlgut vor dem Tampen gleichmäßig. Drehen setzt Kaffee in Hohlräume und ebnet die Oberfläche. Mit einem flachen Tamper kombiniert ergibt das ausgezeichnete Ergebnisse.",
+      "fr": "($85) offre une profondeur réglable et répartit le café avant tassage. La rotation comble les vides et nivelle la surface. Associez-le à un tamper plat pour d’excellents résultats."
+    },
+    "108": {
+      "nl": "Zelfgemaakte WDT-tool:",
+      "de": "WDT-Werkzeug zum Selbstbau:",
+      "fr": "Outil WDT maison :"
+    },
+    "109": {
+      "nl": "Buig een paperclip recht of gebruik een prepareernaald. Roer vóór het tampen in een zigzagpatroon. Gratis en bijna even goed als commerciële verdelers om klonten te breken.",
+      "de": "Biegen Sie eine Büroklammer gerade oder nutzen Sie eine Präpariernadel. Rühren Sie vor dem Tampen im Zickzack. Kostenlos und beim Klumpenlösen fast so wirksam wie gekaufte Verteiler.",
+      "fr": "Redressez un trombone ou utilisez une aiguille à dissection. Remuez en zigzag avant tassage. Gratuit et presque aussi efficace qu’un répartiteur commercial pour briser les grumeaux."
+    },
+    "110": {
+      "nl": "Betere tampers",
+      "de": "Tamper aufrüsten",
+      "fr": "Améliorer le tamper"
+    },
+    "111": {
+      "nl": "Vlakke of bolle basis:",
+      "de": "Flache oder konvexe Basis:",
+      "fr": "Base plate ou convexe :"
+    },
+    "112": {
+      "nl": "Vlakke tampers passen bij de meeste bakjes en drukken gelijkmatig samen. Bolle, licht gebogen bases kunnen bij sommige bakjes kanaalvorming langs de rand verminderen, maar voegen complexiteit toe. Blijf bij vlak tot je de basis beheerst.",
+      "de": "Flache Tamper passen zu den meisten Sieben und verdichten gleichmäßig. Konvexe, leicht gewölbte Basen können bei manchen Sieben Randkanäle verringern, bringen aber Komplexität. Bleiben Sie bei flach, bis die Grundlagen sitzen.",
+      "fr": "Le plat convient à la plupart des paniers et comprime uniformément. Une base légèrement convexe peut réduire les canaux périphériques sur certains modèles, mais complique le geste. Restez au plat jusqu’à maîtriser les bases."
+    },
+    "113": {
+      "nl": "Diameter telt:",
+      "de": "Der Durchmesser zählt:",
+      "fr": "Le diamètre compte :"
+    },
+    "114": {
+      "nl": "Meet de binnendiameter van je bakje. Een bakje van 58 millimeter vraagt een tamper van 58.4 tot 58.5 millimeter voor minimale speling. Te groot klemt vast; te klein laat een onaangedrukte koffiering achter.",
+      "de": "Messen Sie den Innendurchmesser. Ein 58-Millimeter-Sieb braucht für wenig Spiel einen Tamper von 58.4 bis 58.5 Millimetern. Zu groß klemmt, zu klein lässt einen unverdichteten Rand.",
+      "fr": "Mesurez le diamètre intérieur. Un panier de 58 millimètres demande un tamper de 58.4 à 58.5 millimètres pour limiter le jeu. Trop grand, il coince ; trop petit, il laisse une couronne non tassée."
+    },
+    "115": {
+      "nl": "Materiaal van de basis:",
+      "de": "Basismaterial:",
+      "fr": "Matériau de la base :"
+    },
+    "116": {
+      "nl": "Roestvrij staal en aluminium werken even goed. Vermijd goedkoop kunststof dat onder druk buigt en ongelijk aandrukt.",
+      "de": "Edelstahl und Aluminium funktionieren gleich gut. Vermeiden Sie billigen Kunststoff, der unter Druck nachgibt und ungleichmäßig verdichtet.",
+      "fr": "Inox et aluminium fonctionnent aussi bien. Évitez le plastique bon marché qui fléchit et comprime irrégulièrement."
+    },
+    "117": {
+      "nl": "Ergonomie van het handvat:",
+      "de": "Griffergonomie:",
+      "fr": "Ergonomie de la poignée :"
+    },
+    "118": {
+      "nl": "Ronde of gegolfde handvatten spreiden de druk beter over je handpalm dan smalle houten knoppen. Dat vermindert vermoeide handen bij veel opeenvolgende shots.",
+      "de": "Runde oder gerippte Griffe verteilen Druck besser auf die Handfläche als schmale Holzknäufe und verringern Ermüdung bei vielen Bezügen.",
+      "fr": "Les poignées arrondies ou ondulées répartissent mieux la pression dans la paume que les boutons étroits en bois, réduisant la fatigue en usage intensif."
+    },
+    "119": {
+      "nl": "Tampmatten",
+      "de": "Tampermatten",
+      "fr": "Tapis de tassage"
+    },
+    "120": {
+      "nl": "Rubberen of siliconen matten beschermen het werkblad tegen krassen en geven een stabiele, stroeve ondergrond. Uitsparingen bieden ruimte aan de uitlopen. Eenvoudige matten kosten $10 tot 15. Niet noodzakelijk, wel handig bij dagelijks espresso zetten.",
+      "de": "Gummi- oder Silikonmatten schützen Arbeitsflächen vor Kratzern und bieten stabilen Halt. Aussparungen nehmen die Ausläufe auf. Einfache Matten kosten $10 bis 15. Nicht nötig, aber bei täglichen Bezügen hilfreich.",
+      "fr": "Les tapis en caoutchouc ou silicone protègent le plan des rayures et offrent un appui stable et adhérent. Les découpes accueillent les becs. Comptez $10 à 15 pour un modèle simple. Facultatif mais utile au quotidien."
+    },
+    "121": {
+      "nl": "Extractieproblemen via tampen herkennen",
+      "de": "Extraktionsprobleme über das Tampen erkennen",
+      "fr": "Diagnostiquer l’extraction par le tassage"
+    },
+    "122": {
+      "nl": "Smaken shots verkeerd, dan laat een systematische diagnose zien of tampen bijdroeg aan het probleem.",
+      "de": "Schmecken Bezüge falsch, zeigt eine systematische Diagnose, ob Tampen dazu beigetragen hat.",
+      "fr": "Si le goût déçoit, un diagnostic méthodique détermine si le tassage contribue au problème."
+    },
+    "123": {
+      "nl": "Shot loopt te snel (minder dan 20 seconden)",
+      "de": "Bezug zu schnell (unter 20 Sekunden)",
+      "fr": "Extraction trop rapide (moins de 20 secondes)"
+    },
+    "124": {
+      "nl": "Waarschijnlijke oorzaken, in volgorde:",
+      "de": "Wahrscheinliche Ursachen der Reihe nach:",
+      "fr": "Causes probables, dans l’ordre :"
+    },
+    "125": {
+      "nl": "Te grove maling",
+      "de": "Zu grobe Mahlung",
+      "fr": "Mouture trop grosse"
+    },
+    "126": {
+      "nl": "Te kleine dosis (onder 17 gram in een dubbel bakje)",
+      "de": "Zu wenig Kaffee (unter 17 Gramm im Doppelsieb)",
+      "fr": "Dose insuffisante (sous 17 grammes en panier double)"
+    },
+    "127": {
+      "nl": "Te licht tampen (weinig druk of scheef)",
+      "de": "Zu leichtes Tampen (wenig Kraft oder schräg)",
+      "fr": "Tassage insuffisant (léger ou incliné)"
+    },
+    "128": {
+      "nl": "Oude koffie (meer dan 4 weken na branddatum)",
+      "de": "Alter Kaffee (mehr als 4 Wochen seit der Röstung)",
+      "fr": "Café trop ancien (plus de 4 semaines après torréfaction)"
+    },
+    "129": {
+      "nl": "Test:",
+      "de": "Prüfung:",
+      "fr": "Test :"
+    },
+    "130": {
+      "nl": "Geeft meer tampdruk, van 25 naar 35 lb, 3 tot 5 seconden extra doorlooptijd, dan speelde tampen mee. Verandert de tijd nauwelijks, richt je dan op fijner malen.",
+      "de": "Verlängert mehr Tampkraft von 25 auf 35 lb den Bezug um 3 bis 5 Sekunden, war Tampen beteiligt. Ändert sich kaum etwas, mahlen Sie feiner.",
+      "fr": "Si passer de 25 à 35 lb ajoute 3 à 5 secondes, le tassage contribuait au problème. Sinon, concentrez-vous sur une mouture plus fine."
+    },
+    "131": {
+      "nl": "Shot loopt te traag (meer dan 35 seconden)",
+      "de": "Bezug zu langsam (über 35 Sekunden)",
+      "fr": "Extraction trop lente (plus de 35 secondes)"
+    },
+    "132": {
+      "nl": "Te fijne maling",
+      "de": "Zu feine Mahlung",
+      "fr": "Mouture trop fine"
+    },
+    "133": {
+      "nl": "Te hoge dosis (meer dan 20 gram in een dubbel bakje)",
+      "de": "Zu viel Kaffee (über 20 Gramm im Doppelsieb)",
+      "fr": "Dose excessive (plus de 20 grammes en panier double)"
+    },
+    "134": {
+      "nl": "Te hard tampen in combinatie met fijne maling",
+      "de": "Zu starkes Tampen mit feiner Mahlung",
+      "fr": "Tassage excessif combiné à une mouture fine"
+    },
+    "135": {
+      "nl": "Kanaalvorming doordat slechte verdeling een dichte wand maakt",
+      "de": "Kanalbildung durch eine dichte Wand aus schlechter Verteilung",
+      "fr": "Canaux dus à une paroi dense créée par une mauvaise répartition"
+    },
+    "136": {
+      "nl": "Versnelt teruggaan naar 20 lb je shot tot 30 seconden, dan tampte je te hard. Blijft het traag, maal twee klikjes grover.",
+      "de": "Beschleunigt eine Reduktion auf 20 lb den Bezug auf 30 Sekunden, war der Tamp zu stark. Bleibt er langsam, mahlen Sie zwei Klicks gröber.",
+      "fr": "Si réduire à 20 lb ramène l’extraction à 30 secondes, vous tassiez trop fort. Si elle reste lente, grossissez de deux crans."
+    },
+    "137": {
+      "nl": "Zichtbare kanaalvorming bij een bodemloze filterdrager",
+      "de": "Sichtbare Kanäle im bodenlosen Siebträger",
+      "fr": "Canaux visibles avec un porte-filtre sans fond"
+    },
+    "138": {
+      "nl": "Symptomen:",
+      "de": "Symptome:",
+      "fr": "Symptômes :"
+    },
+    "139": {
+      "nl": "Spuitende straaltjes aan één kant. Het shot begint in het midden en wijkt daarna af.",
+      "de": "Spritzende Strahlen von einer Siebseite. Der Bezug startet mittig und weicht dann ab.",
+      "fr": "Jets et projections d’un côté du panier. L’écoulement démarre au centre puis dévie."
+    },
+    "140": {
+      "nl": "Oorzaken:",
+      "de": "Ursachen:",
+      "fr": "Causes :"
+    },
+    "141": {
+      "nl": "Ongelijke verdeling vóór het tampen",
+      "de": "Ungleiche Verteilung vor dem Tampen",
+      "fr": "Répartition inégale avant tassage"
+    },
+    "142": {
+      "nl": "Scheve tamp met dikkere en dunnere zones",
+      "de": "Schiefer Tamp mit dickeren und dünneren Zonen",
+      "fr": "Tassage incliné créant des zones épaisses et minces"
+    },
+    "143": {
+      "nl": "Gebroken puck door ruwe behandeling",
+      "de": "Puckbruch durch grobe Handhabung",
+      "fr": "Galette fissurée par manipulation brusque"
+    },
+    "144": {
+      "nl": "Gebruik WDT of een verdeeltool vóór het tampen. Controleer de puck van opzij op vlakheid. Vergrendel de filterdrager meteen zonder hem neer te zetten.",
+      "de": "Nutzen Sie WDT oder Verteiler vor dem Tampen. Prüfen Sie seitlich auf Ebenheit. Spannen Sie den Siebträger sofort ohne Absetzen ein.",
+      "fr": "Utilisez WDT ou un répartiteur avant tassage. Contrôlez l’horizontalité de côté. Enclenchez aussitôt sans reposer le porte-filtre."
+    },
+    "145": {
+      "nl": "Gevorderd: drukprofielen en tampen",
+      "de": "Fortgeschritten: Druckprofile und Tampen",
+      "fr": "Avancé : profils de pression et tassage"
+    },
+    "146": {
+      "nl": "Machines met drukprofielen (Decent, Londinium, aangepaste Gaggia Classic) kunnen tampverschillen opvangen door de pompdruk tijdens de extractie dynamisch te regelen.",
+      "de": "Maschinen mit Druckprofilen (Decent, Londinium, modifizierte Gaggia Classic) können Tampabweichungen über dynamischen Pumpendruck beim Bezug ausgleichen.",
+      "fr": "Les machines à profils de pression (Decent, Londinium, Gaggia Classic modifiée) peuvent compenser les variations de tassage en réglant dynamiquement la pompe pendant l’extraction."
+    },
+    "147": {
+      "nl": "Pre-infusie bij 2 tot 4 bar",
+      "de": "Präinfusion bei 2 bis 4 bar",
+      "fr": "Préinfusion à 2 à 4 bars"
+    },
+    "148": {
+      "nl": "gedurende 5 tot 10 seconden verzadigt de puck en laat hem uitzetten vóór volle druk. Dit zelfnivellerende effect vermindert kanaalvorming, ook bij een iets ongelijke tamp.",
+      "de": "für 5 bis 10 Sekunden sättigt den Puck und lässt ihn vor vollem Druck quellen. Das selbstnivellierende Verhalten verringert Kanäle auch bei leicht unebenem Tamp.",
+      "fr": "pendant 5 à 10 secondes laisse la galette se saturer et gonfler avant la pleine pression. Cet effet autonivelant réduit les canaux même après un tassage légèrement inégal."
+    },
+    "149": {
+      "nl": "Dalende drukprofielen",
+      "de": "Abfallende Druckprofile",
+      "fr": "Les profils de pression décroissants"
+    },
+    "150": {
+      "nl": "beginnen op 9 bar en dalen in 30 seconden naar 6 bar. De lagere einddruk haalt delicate smaken uit de koffie zonder overextractie en vergeeft kleine tampverschillen makkelijker.",
+      "de": "starten bei 9 bar und sinken über 30 Sekunden auf 6 bar. Weniger Enddruck extrahiert zarte Aromen ohne Überextraktion und verzeiht kleine Tampabweichungen.",
+      "fr": "démarrent à 9 bars et descendent à 6 bars sur 30 secondes. La pression finale moindre extrait les nuances délicates sans surextraire et tolère mieux de petits écarts de tassage."
+    },
+    "151": {
+      "nl": "Met zo’n machine kun je beter minder op perfecte tamps focussen en meer met profielen experimenteren. Drukregeling beïnvloedt de smaak sterker dan verdere tampverfijning.",
+      "de": "Mit einer solchen Maschine lohnt weniger Fixierung auf perfekte Pucks und mehr Experimentieren mit Profilen. Druckregelung beeinflusst Geschmack stärker als weitere Tampverfeinerung.",
+      "fr": "Avec cette machine, consacrez moins de temps au tassage parfait et davantage aux profils. Le contrôle de pression influence plus les saveurs que le raffinement du geste."
+    },
+    "152": {
+      "nl": "En hendelmachines?",
+      "de": "Was ist mit Hebelmaschinen?",
+      "fr": "Et les machines à levier ?"
+    },
+    "153": {
+      "nl": "Handmatige hendelmachines (La Pavoni, Flair, Cafelat Robot) gebruiken een veer of directe armkracht in plaats van een elektrische pomp. De hendelbeweging bepaalt druk en debiet, waardoor tampen iets anders werkt.",
+      "de": "Manuelle Hebelmaschinen (La Pavoni, Flair, Cafelat Robot) nutzen Feder- oder direkte Armkraft statt Elektropumpe. Der Hebelzug bestimmt Druck und Fluss, wodurch sich das Tampverhalten etwas unterscheidet.",
+      "fr": "Les leviers manuels (La Pavoni, Flair, Cafelat Robot) utilisent ressort ou bras plutôt qu’une pompe électrique. Le mouvement commande pression et débit, modifiant légèrement le comportement au tassage."
+    },
+    "154": {
+      "nl": "Hendelmachines met veer",
+      "de": "Federhebelmaschinen",
+      "fr": "Les machines à levier à ressort"
+    },
+    "155": {
+      "nl": "(La Pavoni Europiccola) profiteren van stevigere tamps (35 tot 40 lb): de veer geeft aanvankelijk vaak 10 tot 12 bar, waarna de druk daalt als de hendel stijgt. Een stevigere puck weerstaat die piek zonder kanaalvorming.",
+      "de": "(La Pavoni Europiccola) profitieren von festerem Tampen mit 35 bis 40 lb, weil die Feder anfangs oft 10 bis 12 bar erzeugt, bevor der Druck beim steigenden Hebel sinkt. Ein festerer Puck widersteht der Spitze ohne Kanäle.",
+      "fr": "(La Pavoni Europiccola) bénéficient de 35 à 40 lb : le ressort produit souvent 10 à 12 bars au départ, puis la pression baisse avec la remontée du levier. Une galette ferme résiste au pic sans canaux."
+    },
+    "156": {
+      "nl": "Directe hendelmachines",
+      "de": "Direkthebelmaschinen",
+      "fr": "Les machines à levier direct"
+    },
+    "157": {
+      "nl": "(Flair 58, Cafelat Robot) geven volledige drukregeling via je arm. Lichter tampen kun je compenseren met harder trekken en andersom. Veel gebruikers tampen lichter (20 tot 25 lb) en regelen de extractie met de hendeldruk.",
+      "de": "(Flair 58, Cafelat Robot) bieten volle Druckkontrolle über Armkraft. Leichtere Tamps lassen sich durch stärkeres Ziehen ausgleichen und umgekehrt. Viele Nutzer tampen mit 20 bis 25 lb leichter und steuern den Bezug per Hebeldruck.",
+      "fr": "(Flair 58, Cafelat Robot) permettent de contrôler la pression au bras. Vous compensez un tassage léger par un effort supérieur, ou inversement. Beaucoup tassent à 20 à 25 lb et contrôlent l’extraction en modulant le levier."
+    },
+    "158": {
+      "nl": "Bij hendels is pre-infusie belangrijk. Meestal zet je 5 tot 10 seconden lichte druk om de puck te verzadigen en ga je daarna naar volle kracht. Eerst verzadigen, dan extraheren vergeeft tampverschillen makkelijker dan de directe klap van 9 bar bij pompmachines.",
+      "de": "Hebelabläufe betonen Präinfusion: meist 5 bis 10 Sekunden leichter Druck zur Sättigung, danach volle Kraft. Erst sättigen, dann extrahieren verzeiht Tampabweichungen besser als der sofortige 9-bar-Stoß einer Pumpenmaschine.",
+      "fr": "Le levier privilégie la préinfusion : une faible pression pendant 5 à 10 secondes pour saturer, puis l’effort complet. Cette séquence tolère mieux les variations que le choc immédiat de 9 bars d’une pompe."
+    },
+    "159": {
+      "nl": "Spiergeheugen opbouwen",
+      "de": "Muskelgedächtnis aufbauen",
+      "fr": "Construire la mémoire musculaire"
+    },
+    "160": {
+      "nl": "Constant tampen wordt na 50 tot 100 bewuste herhalingen automatisch.",
+      "de": "Konstantes Tampen wird nach 50 bis 100 bewussten Wiederholungen automatisch.",
+      "fr": "Un tassage régulier devient automatique après 50 à 100 répétitions attentives."
+    },
+    "161": {
+      "nl": "Week 1:",
+      "de": "Woche 1:",
+      "fr": "Semaine 1 :"
+    },
+    "162": {
+      "nl": "Gebruik voor iedere tamp een weegschaal. Zet de gevulde filterdrager erop, zet op nul en druk tot 30 lb op het scherm staat. Let op inspanning en elleboog- en polsstand. Herhaal 20 keer.",
+      "de": "Nutzen Sie bei jedem Tamp die Waage. Gefüllten Siebträger auflegen, tarieren, bis 30 lb drücken. Beachten Sie Aufwand, Ellenbogen und Handgelenk. Wiederholen Sie 20 Mal.",
+      "fr": "Pesez chaque tassage : porte-filtre rempli sur le pèse-personne, tare, puis effort jusqu’à 30 lb. Notez la sensation et les positions du coude et du poignet. Répétez 20 fois."
+    },
+    "163": {
+      "nl": "Week 2:",
+      "de": "Woche 2:",
+      "fr": "Semaine 2 :"
+    },
+    "164": {
+      "nl": "Tamp 10 shots met en 10 zonder weegschaal. Wissel controleren en op gevoel werken af. Blijf binnen ±5 lb.",
+      "de": "Tampen Sie 10 Bezüge mit, dann 10 ohne Waage. Wechseln Sie Kontrolle und Gefühl ab. Die Genauigkeit sollte innerhalb ±5 lb bleiben.",
+      "fr": "Tassez 10 doses avec balance, puis 10 sans. Alternez contrôle et sensation. La précision devrait rester à ±5 lb."
+    },
+    "165": {
+      "nl": "Week 3:",
+      "de": "Woche 3:",
+      "fr": "Semaine 3 :"
+    },
+    "166": {
+      "nl": "Tamp zonder weegschaal en controleer willekeurige shots op gewicht. Zit je consequent binnen ±3 lb, dan beheers je de vaardigheid.",
+      "de": "Tampen Sie ohne Waage und prüfen Sie zufällige Bezüge nach. Bleiben Sie konstant innerhalb ±3 lb, sitzt die Fähigkeit.",
+      "fr": "Tassez sans balance, puis vérifiez des doses au hasard. À ±3 lb régulièrement, le geste est acquis."
+    },
+    "167": {
+      "nl": "Onderhoud:",
+      "de": "Erhaltung:",
+      "fr": "Entretien :"
+    },
+    "168": {
+      "nl": "Controleer om de paar maanden opnieuw, of bij vreemd shotgedrag. Techniek kan verschuiven, vooral na een pauze in je dagelijkse espressoroutine.",
+      "de": "Prüfen Sie alle paar Monate oder bei ungewöhnlichen Bezügen nach. Technik kann sich verschieben, besonders nach einer Pause vom täglichen Espresso.",
+      "fr": "Recontrôlez tous les quelques mois ou si les extractions changent. Le geste peut dériver, surtout après une pause dans la routine quotidienne."
+    },
+    "169": {
+      "nl": "Tampen voor verschillende bakjesmaten",
+      "de": "Tampen bei verschiedenen Siebgrößen",
+      "fr": "Tasser selon la taille du panier"
+    },
+    "170": {
+      "nl": "Diameter en diepte veranderen hoe kracht in druk wordt omgezet.",
+      "de": "Durchmesser und Tiefe ändern, wie Kraft zu Druck wird.",
+      "fr": "Diamètre et profondeur modifient la conversion de force en pression."
+    },
+    "171": {
+      "nl": "Standaard dubbel bakje (18 tot 20 gram, 58 millimeter):",
+      "de": "Standard-Doppelsieb (18 bis 20 Gramm, 58 Millimeter):",
+      "fr": "Panier double standard (18 à 20 grammes, 58 millimètres) :"
+    },
+    "172": {
+      "nl": "Hiervoor is de 30-lb-norm ontwikkeld. Druk tot de tamper niet verder zakt en de puck stevig aanvoelt.",
+      "de": "Dafür wurde der 30-lb-Standard entwickelt. Drücken Sie, bis der Tamper nicht mehr sinkt und der Puck fest ist.",
+      "fr": "La norme de 30 lb a été conçue pour ce format. Pressez jusqu’à l’arrêt de la descente et à une galette solide."
+    },
+    "173": {
+      "nl": "Driedubbel bakje (21 tot 24 gram, 58 millimeter):",
+      "de": "Dreifachsieb (21 bis 24 Gramm, 58 Millimeter):",
+      "fr": "Panier triple (21 à 24 grammes, 58 millimètres) :"
+    },
+    "174": {
+      "nl": "De diepere dosis vraagt iets steviger tampen (32 tot 35 lb) voor vergelijkbare compressie. Er is meer koffiemassa om samen te drukken.",
+      "de": "Die tiefere Dosis braucht mit 32 bis 35 lb etwas festeres Tampen für ähnliche Kompression, weil mehr Kaffeemasse verdichtet wird.",
+      "fr": "La dose plus profonde demande un effort un peu supérieur (32 à 35 lb) pour une compression similaire : il y a plus de café à comprimer."
+    },
+    "175": {
+      "nl": "Kleinere bakjes (51 millimeter, 14 tot 16 gram):",
+      "de": "Kleinere Siebe (51 Millimeter, 14 bis 16 Gramm):",
+      "fr": "Petits paniers (51 millimètres, 14 à 16 grammes) :"
+    },
+    "176": {
+      "nl": "Minder kracht (25 tot 28 lb) geeft voldoende compressie in de kleinere diameter. Te veel kracht kan deze ondiepere pucks te sterk verdichten.",
+      "de": "Weniger Kraft, 25 bis 28 lb, verdichtet den kleineren Durchmesser ausreichend. Zu viel kann diese flacheren Pucks übermäßig komprimieren.",
+      "fr": "Un effort moindre (25 à 28 lb) suffit au diamètre réduit. Trop de force peut surcomprimer ces galettes moins profondes."
+    },
+    "177": {
+      "nl": "Precisiebakjes (IMS, VST):",
+      "de": "Präzisionssiebe (IMS, VST):",
+      "fr": "Paniers de précision (IMS, VST) :"
+    },
+    "178": {
+      "nl": "Lasergeboorde gaten en constante productie laten nauwere toleranties toe. Deze bakjes belonen precies, vlak tampen meer dan standaard gestanste bakjes met onregelmatige gaten.",
+      "de": "Lasergebohrte Löcher und gleichmäßige Fertigung erlauben engere Toleranzen. Präzises, ebenes Tampen lohnt hier stärker als bei gestanzten Standardsieben mit unregelmäßigen Löchern.",
+      "fr": "Perçage laser et fabrication régulière permettent des tolérances serrées. Ces paniers récompensent davantage un tassage précis et horizontal que les modèles emboutis aux trous irréguliers."
+    },
+    "179": {
+      "nl": "De kern",
+      "de": "Das Fazit",
+      "fr": "L’essentiel"
+    },
+    "180": {
+      "nl": "Tamp met 30 lb, recht naar beneden en in één beweging. Controleer of het oppervlak vlak en stevig is. Herhaal voor ieder shot op dezelfde manier.",
+      "de": "Tampen Sie mit 30 lb gerade nach unten in einer Bewegung. Prüfen Sie ebene, feste Oberfläche und wiederholen Sie das bei jedem Bezug identisch.",
+      "fr": "Tassez à 30 lb, droit et d’un seul geste. Vérifiez une surface plane et ferme. Répétez à l’identique pour chaque extraction."
+    },
+    "181": {
+      "nl": "Koop een gekalibreerde tamper als je die variabele helemaal wilt wegnemen. Verdeeltools of WDT verbeteren de regelmaat verder.",
+      "de": "Kaufen Sie einen kalibrierten Tamper, wenn Sie diese Variable ganz ausschließen möchten. Verteiler oder WDT verbessern die Konstanz weiter.",
+      "fr": "Choisissez un tamper calibré pour supprimer entièrement cette variable. Un répartiteur ou WDT améliore encore la régularité."
+    },
+    "182": {
+      "nl": "Pas bij slechte shots eerst de maalgraad aan. Tampdruk verklaart minder extractieproblemen dan beginners vaak denken. Met een vaste techniek wordt tampen onzichtbaar: het werkt gewoon.",
+      "de": "Ändern Sie bei schlechten Bezügen zuerst den Mahlgrad. Tampdruck erklärt weniger Probleme, als Anfänger oft denken. Mit konstanter Technik wird Tampen unsichtbar: Es funktioniert einfach.",
+      "fr": "En cas de mauvais goût, ajustez d’abord la mouture. Le tassage explique moins de problèmes que ne l’imaginent les débutants. Une fois la technique constante, il devient invisible : cela fonctionne."
+    },
+    "183": {
+      "nl": "Maak tampen zo automatisch dat je er niet meer over nadenkt en je op belangrijkere variabelen richt: maalgraad, dosis, watertemperatuur en koffieversheid.",
+      "de": "Ziel ist ein so automatischer Ablauf, dass Sie nicht mehr daran denken und sich auf Mahlgrad, Dosis, Wassertemperatur und Frische konzentrieren.",
+      "fr": "Le but est d’automatiser le geste pour se concentrer sur des variables plus importantes : mouture, dose, température et fraîcheur."
+    },
+    "184": {
+      "nl": "Stem de tamper op het bakje af",
+      "de": "Den Tamper ans Sieb anpassen",
+      "fr": "Adapter le tamper au panier"
+    },
+    "185": {
+      "nl": "Een tamper die een brede onaangedrukte ring achterlaat, geeft niet dezelfde randconditie als een passend exemplaar. Behandel dit als een gecontroleerde vergelijking, niet als toestemming om alle variabelen tegelijk te veranderen. Houd bakje en koffie gelijk, noteer tamperspeling, randmaling en zichtbare scheefstand en herhaal dezelfde routine voordat je het verschil echt noemt. Eén ongewoon goed of slecht resultaat kan komen door voorbereiding, temperatuur, achtergebleven koffie, de leeftijd van de bonen of een eenvoudige meetfout. De nuttige vraag is of het resultaat terugkomt wanneer de opstelling en werkvolgorde gelijk blijven.",
+      "de": "Ein Tamper mit breitem unverdichtetem Rand schafft nicht dieselben Randbedingungen wie ein passend dimensionierter. Behandeln Sie das als kontrollierten Vergleich, nicht als Erlaubnis, alle Variablen gleichzeitig zu ändern. Halten Sie Sieb und Kaffee konstant, notieren Sie Tamperspiel, Randmahlgut und sichtbare Neigung und wiederholen Sie den Ablauf, bevor Sie den Unterschied für echt halten. Ein einzelnes ungewöhnlich gutes oder schlechtes Ergebnis kann durch Vorbereitung, Temperatur, zurückgehaltenen Kaffee, Bohnenalter oder bloße Messfehler entstehen. Die nützliche Frage lautet, ob sich das Ergebnis bei gleicher Ausstattung und Arbeitsfolge wiederholt.",
+      "fr": "Un tamper laissant une large couronne non tassée ne crée pas les mêmes conditions au bord qu’un modèle adapté au panier. Traitez cela comme une comparaison contrôlée, pas comme une autorisation de changer toutes les variables à la fois. Gardez panier et café stables, notez jeu du tamper, café périphérique et inclinaison visible, puis répétez la même routine avant de conclure à une différence réelle. Un résultat isolé particulièrement bon ou mauvais peut venir de la préparation, température, rétention, âge du café ou d’une simple erreur de mesure. La question utile est de savoir si le résultat se répète avec la même configuration et le même ordre de travail."
+    },
+    "186": {
+      "nl": "Controleer de bedoelde tamperdiameter van het bakje en test de passing zonder metaal tegen de wand te forceren. Gaat het resultaat in de verwachte richting, houd de wijziging dan lang genoeg aan om die bij meerdere bereidingen te proeven. Zo niet, keer dan terug naar het basisrecept voordat je een andere correctie probeert. Een nauwere passing kan de onaangeraakte ring verkleinen, maar onveilig contact en vacuümoptillen maken nieuwe problemen. Dat onderscheid voorkomt dat een handige verklaring een onjuiste regel wordt. Kies soepele beweging, veilige speling en herhaalbaar loslaten boven de grootste geadverteerde diameter. Noteer de uiteindelijke instelling en waarom je die behoudt; een kort beslisverslag is waardevoller dan een perfect ogend getal dat je morgen niet kunt reproduceren.",
+      "de": "Prüfen Sie den vorgesehenen Tamperdurchmesser und die Passung, ohne Metall gegen die Wand zu zwingen. Bewegt sich das Ergebnis in die erwartete Richtung, behalten Sie die Änderung lange genug bei, um sie über mehrere Zubereitungen zu verkosten. Andernfalls kehren Sie zur Ausgangseinstellung zurück, bevor Sie eine weitere Korrektur versuchen. Engere Passung kann den unberührten Ring verkleinern, doch unsicherer Kontakt und Vakuumanheben schaffen neue Probleme. Diese Unterscheidung verhindert, dass eine bequeme Erklärung zur falschen Regel wird. Bevorzugen Sie sanften Lauf, sicheren Abstand und reproduzierbares Abheben statt maximal beworbenem Durchmesser. Notieren Sie die endgültige Einstellung und den Grund dafür; eine kurze Entscheidungsnotiz ist wertvoller als eine perfekt wirkende Zahl, die sich morgen nicht wiederholen lässt.",
+      "fr": "Vérifiez le diamètre prévu pour le panier et essayez l’ajustement sans forcer le métal contre la paroi. Si le résultat évolue comme prévu, conservez le changement assez longtemps pour le goûter sur plusieurs préparations. Sinon, revenez au point de départ avant une autre correction. Un ajustement serré réduit la couronne intacte, mais contact dangereux et soulèvement par dépression créent d’autres problèmes. Cette distinction évite qu’une explication commode devienne une fausse règle. Préférez une course fluide, un jeu sûr et un retrait répétable au plus grand diamètre annoncé. Notez le réglage final et pourquoi le conserver ; une courte trace de décision vaut mieux qu’un chiffre parfait impossible à reproduire demain."
+    },
+    "187": {
+      "nl": "Neem een stabiele houding aan",
+      "de": "Einen stabilen Stand aufbauen",
+      "fr": "Adopter une position stable"
+    },
+    "188": {
+      "nl": "Tampen wordt makkelijker herhaalbaar als pols, elleboog en positie aan het werkblad niet per shot veranderen. Behandel dit als een gecontroleerde vergelijking, niet als toestemming om alle variabelen tegelijk te veranderen. Houd ondersteuning en tamper gelijk, noteer vlakheid en comfort over meerdere bereidingen en herhaal dezelfde routine voordat je het verschil echt noemt. Eén ongewoon goed of slecht resultaat kan komen door voorbereiding, temperatuur, achtergebleven koffie, de leeftijd van de bonen of een eenvoudige meetfout. De nuttige vraag is of het resultaat terugkomt wanneer de opstelling en werkvolgorde gelijk blijven.",
+      "de": "Tampen wird reproduzierbarer, wenn Handgelenk, Ellenbogen und Position zur Arbeitsfläche gleich bleiben. Behandeln Sie das als kontrollierten Vergleich, nicht als Erlaubnis, alle Variablen gleichzeitig zu ändern. Halten Sie Siebträgerstütze und Tamper konstant, dokumentieren Sie Ebenheit und Komfort über mehrere Zubereitungen und wiederholen Sie den Ablauf, bevor Sie den Unterschied für echt halten. Ein einzelnes ungewöhnlich gutes oder schlechtes Ergebnis kann durch Vorbereitung, Temperatur, zurückgehaltenen Kaffee, Bohnenalter oder bloße Messfehler entstehen. Die nützliche Frage lautet, ob sich das Ergebnis bei gleicher Ausstattung und Arbeitsfolge wiederholt.",
+      "fr": "Le tassage se répète mieux si poignet, coude et position au plan de travail ne changent pas à chaque dose. Traitez cela comme une comparaison contrôlée, pas comme une autorisation de changer toutes les variables à la fois. Gardez support du porte-filtre et tamper stables, notez horizontalité et confort sur plusieurs préparations, puis répétez la routine avant de conclure à une différence réelle. Un résultat isolé particulièrement bon ou mauvais peut venir de la préparation, température, rétention, âge du café ou d’une simple erreur de mesure. La question utile est de savoir si le résultat se répète avec la même configuration et le même ordre de travail."
+    },
+    "189": {
+      "nl": "Zet het bakje op een mat of station dat ondersteunt zonder de uitlopen te belasten en lijn je onderarm boven de puck uit. Gaat het resultaat in de verwachte richting, houd de wijziging dan lang genoeg aan om die bij meerdere bereidingen te proeven. Zo niet, keer dan terug naar het basisrecept voordat je een andere correctie probeert. Een comfortabele verticale beweging is beter herhaalbaar dan een onhandige poging om een precieze kracht te halen. Dat onderscheid voorkomt dat een handige verklaring een onjuiste regel wordt. Stop en verander de opstelling als de routine je pols belast of het bakje kantelt. Noteer de uiteindelijke instelling en waarom je die behoudt; een kort beslisverslag is waardevoller dan een perfect ogend getal dat je morgen niet kunt reproduceren.",
+      "de": "Stützen Sie das Sieb auf Matte oder Station ab, ohne die Ausläufe zu belasten, und richten Sie den Unterarm über dem Puck aus. Bewegt sich das Ergebnis in die erwartete Richtung, behalten Sie die Änderung lange genug bei, um sie über mehrere Zubereitungen zu verkosten. Andernfalls kehren Sie zur Ausgangseinstellung zurück, bevor Sie eine weitere Korrektur versuchen. Eine bequeme senkrechte Bewegung ist reproduzierbarer als der verkrampfte Versuch, eine bestimmte Kraft zu erreichen. Diese Unterscheidung verhindert, dass eine bequeme Erklärung zur falschen Regel wird. Stoppen Sie und ändern Sie die Station bei Handgelenksbelastung oder kippendem Sieb. Notieren Sie die endgültige Einstellung und den Grund dafür; eine kurze Entscheidungsnotiz ist wertvoller als eine perfekt wirkende Zahl, die sich morgen nicht wiederholen lässt.",
+      "fr": "Posez le panier sur un tapis ou support sans charger les becs, puis alignez l’avant-bras au-dessus de la galette. Si le résultat évolue comme prévu, conservez le changement assez longtemps pour le goûter sur plusieurs préparations. Sinon, revenez au point de départ avant une autre correction. Un mouvement vertical confortable est plus répétable qu’une tentative maladroite d’atteindre une force précise. Cette distinction évite qu’une explication commode devienne une fausse règle. Arrêtez et modifiez le support si la routine sollicite le poignet ou fait basculer le panier. Notez le réglage final et pourquoi le conserver ; une courte trace de décision vaut mieux qu’un chiffre parfait impossible à reproduire demain."
+    },
+    "190": {
+      "nl": "Verdeel vóór het samendrukken",
+      "de": "Vor dem Verdichten verteilen",
+      "fr": "Répartir avant de comprimer"
+    },
+    "191": {
+      "nl": "Tampen drukt de bestaande verdeling samen; het verplaatst een dichte hoop niet betrouwbaar naar een lege rand. Behandel dit als een gecontroleerde vergelijking, niet als toestemming om alle variabelen tegelijk te veranderen. Houd dosis en maalgraad gelijk, noteer oppervlak en klonten vóór het tampen en herhaal dezelfde routine voordat je het verschil echt noemt. Eén ongewoon goed of slecht resultaat kan komen door voorbereiding, temperatuur, achtergebleven koffie, de leeftijd van de bonen of een eenvoudige meetfout. De nuttige vraag is of het resultaat terugkomt wanneer de opstelling en werkvolgorde gelijk blijven.",
+      "de": "Tampen verdichtet die vorhandene Anordnung; es verschiebt eine dichte Häufung nicht zuverlässig zum leeren Rand. Behandeln Sie das als kontrollierten Vergleich, nicht als Erlaubnis, alle Variablen gleichzeitig zu ändern. Halten Sie Dosis und Mahlgrad konstant, erfassen Sie Oberfläche und Klumpen vor dem Tampen und wiederholen Sie den Ablauf, bevor Sie den Unterschied für echt halten. Ein einzelnes ungewöhnlich gutes oder schlechtes Ergebnis kann durch Vorbereitung, Temperatur, zurückgehaltenen Kaffee, Bohnenalter oder bloße Messfehler entstehen. Die nützliche Frage lautet, ob sich das Ergebnis bei gleicher Ausstattung und Arbeitsfolge wiederholt.",
+      "fr": "Le tassage comprime la répartition existante ; il ne déplace pas fiablement un monticule dense vers un bord vide. Traitez cela comme une comparaison contrôlée, pas comme une autorisation de changer toutes les variables à la fois. Gardez dose et mouture stables, notez niveau et grumeaux avant tassage, puis répétez la routine avant de conclure à une différence réelle. Un résultat isolé particulièrement bon ou mauvais peut venir de la préparation, température, rétention, âge du café ou d’une simple erreur de mesure. La question utile est de savoir si le résultat se répète avec la même configuration et le même ordre de travail."
+    },
+    "192": {
+      "nl": "Breek duidelijke klonten en maak een gelijkmatig bed voordat je de tamper neerzet. Gaat het resultaat in de verwachte richting, houd de wijziging dan lang genoeg aan om die bij meerdere bereidingen te proeven. Zo niet, keer dan terug naar het basisrecept voordat je een andere correctie probeert. Een vlak eindoppervlak kan onderliggende dichtheidsverschillen verbergen. Dat onderscheid voorkomt dat een handige verklaring een onjuiste regel wordt. Gebruik de tamper niet als vervanging voor een vaste doseer- en verdeelroutine. Noteer de uiteindelijke instelling en waarom je die behoudt; een kort beslisverslag is waardevoller dan een perfect ogend getal dat je morgen niet kunt reproduceren.",
+      "de": "Lösen Sie sichtbare Klumpen und schaffen Sie ein ebenes Bett, bevor Sie den Tamper aufsetzen. Bewegt sich das Ergebnis in die erwartete Richtung, behalten Sie die Änderung lange genug bei, um sie über mehrere Zubereitungen zu verkosten. Andernfalls kehren Sie zur Ausgangseinstellung zurück, bevor Sie eine weitere Korrektur versuchen. Eine ebene Endfläche kann ungleichmäßige Dichte darunter verbergen. Diese Unterscheidung verhindert, dass eine bequeme Erklärung zur falschen Regel wird. Nutzen Sie den Tamper nicht als Ersatz für konstantes Dosieren und Verteilen. Notieren Sie die endgültige Einstellung und den Grund dafür; eine kurze Entscheidungsnotiz ist wertvoller als eine perfekt wirkende Zahl, die sich morgen nicht wiederholen lässt.",
+      "fr": "Brisez les grumeaux visibles et créez un lit régulier avant de poser le tamper. Si le résultat évolue comme prévu, conservez le changement assez longtemps pour le goûter sur plusieurs préparations. Sinon, revenez au point de départ avant une autre correction. Une surface finale horizontale peut cacher une densité inégale dessous. Cette distinction évite qu’une explication commode devienne une fausse règle. N’utilisez pas le tamper à la place d’une routine régulière de dosage et de répartition. Notez le réglage final et pourquoi le conserver ; une courte trace de décision vaut mieux qu’un chiffre parfait impossible à reproduire demain."
+    },
+    "193": {
+      "nl": "Vind het einde van de compressie",
+      "de": "Den Kompressionsendpunkt finden",
+      "fr": "Trouver l’arrêt de compression"
+    },
+    "194": {
+      "nl": "Koffie drukt eerst sterk samen en biedt daarna toenemende weerstand. Behandel dit als een gecontroleerde vergelijking, niet als toestemming om alle variabelen tegelijk te veranderen. Houd dosis, bakje en houding gelijk, noteer tamperbeweging en uiteindelijke puckhoogte en herhaal dezelfde routine voordat je het verschil echt noemt. Eén ongewoon goed of slecht resultaat kan komen door voorbereiding, temperatuur, achtergebleven koffie, de leeftijd van de bonen of een eenvoudige meetfout. De nuttige vraag is of het resultaat terugkomt wanneer de opstelling en werkvolgorde gelijk blijven.",
+      "de": "Kaffee lässt sich zunächst deutlich verdichten und bietet dann steigenden Widerstand. Behandeln Sie das als kontrollierten Vergleich, nicht als Erlaubnis, alle Variablen gleichzeitig zu ändern. Halten Sie Dosis, Sieb und Körperposition konstant, notieren Sie Tamperweg und endgültige Puckhöhe und wiederholen Sie den Ablauf, bevor Sie den Unterschied für echt halten. Ein einzelnes ungewöhnlich gutes oder schlechtes Ergebnis kann durch Vorbereitung, Temperatur, zurückgehaltenen Kaffee, Bohnenalter oder bloße Messfehler entstehen. Die nützliche Frage lautet, ob sich das Ergebnis bei gleicher Ausstattung und Arbeitsfolge wiederholt.",
+      "fr": "Le café se comprime beaucoup au départ, puis oppose une résistance croissante. Traitez cela comme une comparaison contrôlée, pas comme une autorisation de changer toutes les variables à la fois. Gardez dose, panier et posture stables, notez course du tamper et hauteur finale, puis répétez la routine avant de conclure à une différence réelle. Un résultat isolé particulièrement bon ou mauvais peut venir de la préparation, température, rétention, âge du café ou d’une simple erreur de mesure. La question utile est de savoir si le résultat se répète avec la même configuration et le même ordre de travail."
+    },
+    "195": {
+      "nl": "Druk soepel tot extra comfortabele kracht nauwelijks beweging geeft en laat dan los. Gaat het resultaat in de verwachte richting, houd de wijziging dan lang genoeg aan om die bij meerdere bereidingen te proeven. Zo niet, keer dan terug naar het basisrecept voordat je een andere correctie probeert. Een herhaalbaar eindpunt telt meer dan met je schouder een precieze kracht bewijzen. Dat onderscheid voorkomt dat een handige verklaring een onjuiste regel wordt. Vermijd veren, herhaalde klappen of kracht die de controle vermindert. Noteer de uiteindelijke instelling en waarom je die behoudt; een kort beslisverslag is waardevoller dan een perfect ogend getal dat je morgen niet kunt reproduceren.",
+      "de": "Drücken Sie sanft, bis zusätzliche bequeme Kraft wenig Bewegung erzeugt, und lösen Sie dann. Bewegt sich das Ergebnis in die erwartete Richtung, behalten Sie die Änderung lange genug bei, um sie über mehrere Zubereitungen zu verkosten. Andernfalls kehren Sie zur Ausgangseinstellung zurück, bevor Sie eine weitere Korrektur versuchen. Der reproduzierbare Endpunkt zählt mehr als der Nachweis exakter Kraft mit der Schulter. Diese Unterscheidung verhindert, dass eine bequeme Erklärung zur falschen Regel wird. Vermeiden Sie Wippen, wiederholte Stöße und Kraft, die Kontrolle beeinträchtigt. Notieren Sie die endgültige Einstellung und den Grund dafür; eine kurze Entscheidungsnotiz ist wertvoller als eine perfekt wirkende Zahl, die sich morgen nicht wiederholen lässt.",
+      "fr": "Pressez doucement jusqu’à ce qu’un effort supplémentaire confortable produise peu de mouvement, puis relâchez. Si le résultat évolue comme prévu, conservez le changement assez longtemps pour le goûter sur plusieurs préparations. Sinon, revenez au point de départ avant une autre correction. Un point d’arrêt répétable compte plus que prouver une force exacte avec l’épaule. Cette distinction évite qu’une explication commode devienne une fausse règle. Évitez rebonds, impacts répétés et effort compromettant le contrôle. Notez le réglage final et pourquoi le conserver ; une courte trace de décision vaut mieux qu’un chiffre parfait impossible à reproduire demain."
+    },
+    "196": {
+      "nl": "Controleer vlakheid vanuit meerdere richtingen",
+      "de": "Ebenheit aus mehreren Richtungen prüfen",
+      "fr": "Vérifier le niveau dans plusieurs directions"
+    },
+    "197": {
+      "nl": "Een puck kan vanaf het handvat vlak lijken maar langs de andere as hellen. Behandel dit als een gecontroleerde vergelijking, niet als toestemming om alle variabelen tegelijk te veranderen. Houd opstelling en dosis gelijk, noteer de kraag of basis ten opzichte van de bakjesrand en herhaal dezelfde routine voordat je het verschil echt noemt. Eén ongewoon goed of slecht resultaat kan komen door voorbereiding, temperatuur, achtergebleven koffie, de leeftijd van de bonen of een eenvoudige meetfout. De nuttige vraag is of het resultaat terugkomt wanneer de opstelling en werkvolgorde gelijk blijven.",
+      "de": "Ein Puck kann von der Griffseite eben wirken und auf der anderen Achse geneigt sein. Behandeln Sie das als kontrollierten Vergleich, nicht als Erlaubnis, alle Variablen gleichzeitig zu ändern. Halten Sie Station und Dosis konstant, erfassen Sie Kragen oder Basis relativ zum Siebrand und wiederholen Sie den Ablauf, bevor Sie den Unterschied für echt halten. Ein einzelnes ungewöhnlich gutes oder schlechtes Ergebnis kann durch Vorbereitung, Temperatur, zurückgehaltenen Kaffee, Bohnenalter oder bloße Messfehler entstehen. Die nützliche Frage lautet, ob sich das Ergebnis bei gleicher Ausstattung und Arbeitsfolge wiederholt.",
+      "fr": "Une galette peut sembler horizontale côté poignée et pencher sur l’autre axe. Traitez cela comme une comparaison contrôlée, pas comme une autorisation de changer toutes les variables à la fois. Gardez support et dose stables, notez collerette ou base par rapport au bord du panier, puis répétez la routine avant de conclure à une différence réelle. Un résultat isolé particulièrement bon ou mauvais peut venir de la préparation, température, rétention, âge du café ou d’une simple erreur de mesure. La question utile est de savoir si le résultat se répète avec la même configuration et le même ordre de travail."
+    },
+    "198": {
+      "nl": "Pauzeer bij licht contact, bekijk de uitlijning vanuit twee richtingen en maak dan de tamp af. Gaat het resultaat in de verwachte richting, houd de wijziging dan lang genoeg aan om die bij meerdere bereidingen te proeven. Zo niet, keer dan terug naar het basisrecept voordat je een andere correctie probeert. Een nivelleerkraag kan helpen bij herhaalbaarheid, maar herstelt geen ongelijke dichtheid onder het oppervlak. Dat onderscheid voorkomt dat een handige verklaring een onjuiste regel wordt. Behoud het hulpmiddel alleen als het herhaalbaarheid verbetert zonder koffie vast te houden of de dosis te veranderen. Noteer de uiteindelijke instelling en waarom je die behoudt; een kort beslisverslag is waardevoller dan een perfect ogend getal dat je morgen niet kunt reproduceren.",
+      "de": "Halten Sie bei leichtem Kontakt inne, prüfen Sie die Ausrichtung aus zwei Richtungen und vollenden Sie den Tamp. Bewegt sich das Ergebnis in die erwartete Richtung, behalten Sie die Änderung lange genug bei, um sie über mehrere Zubereitungen zu verkosten. Andernfalls kehren Sie zur Ausgangseinstellung zurück, bevor Sie eine weitere Korrektur versuchen. Ein Nivellierkragen kann Wiederholbarkeit verbessern, aber keine ungleiche Dichte unter der Oberfläche beheben. Diese Unterscheidung verhindert, dass eine bequeme Erklärung zur falschen Regel wird. Behalten Sie die Hilfe nur bei besserer Wiederholbarkeit ohne gefangenes Mahlgut oder veränderte Dosis. Notieren Sie die endgültige Einstellung und den Grund dafür; eine kurze Entscheidungsnotiz ist wertvoller als eine perfekt wirkende Zahl, die sich morgen nicht wiederholen lässt.",
+      "fr": "Arrêtez-vous au contact léger, examinez l’alignement dans deux directions, puis terminez le tassage. Si le résultat évolue comme prévu, conservez le changement assez longtemps pour le goûter sur plusieurs préparations. Sinon, revenez au point de départ avant une autre correction. Une collerette peut aider la répétabilité, mais ne corrige pas la densité inégale sous la surface. Cette distinction évite qu’une explication commode devienne une fausse règle. Gardez l’aide seulement si elle améliore la répétabilité sans piéger de mouture ni modifier la dose. Notez le réglage final et pourquoi le conserver ; une courte trace de décision vaut mieux qu’un chiffre parfait impossible à reproduire demain."
+    },
+    "199": {
+      "nl": "Til op zonder de puck te verstoren",
+      "de": "Abheben, ohne den Puck zu stören",
+      "fr": "Retirer sans perturber la galette"
+    },
+    "200": {
+      "nl": "Snel schuin optillen of sterk vacuüm kan het oppervlak breken of meetrekken. Behandel dit als een gecontroleerde vergelijking, niet als toestemming om alle variabelen tegelijk te veranderen. Houd tamper en bakje even schoon, noteer koffie aan de basis en oppervlakteschade en herhaal dezelfde routine voordat je het verschil echt noemt. Eén ongewoon goed of slecht resultaat kan komen door voorbereiding, temperatuur, achtergebleven koffie, de leeftijd van de bonen of een eenvoudige meetfout. De nuttige vraag is of het resultaat terugkomt wanneer de opstelling en werkvolgorde gelijk blijven.",
+      "de": "Schnelles schräges Abheben oder starkes Vakuum kann die Oberfläche brechen oder hochziehen. Behandeln Sie das als kontrollierten Vergleich, nicht als Erlaubnis, alle Variablen gleichzeitig zu ändern. Halten Sie die Sauberkeit von Tamper und Sieb konstant, notieren Sie haftendes Mahlgut und Oberflächenschäden und wiederholen Sie den Ablauf, bevor Sie den Unterschied für echt halten. Ein einzelnes ungewöhnlich gutes oder schlechtes Ergebnis kann durch Vorbereitung, Temperatur, zurückgehaltenen Kaffee, Bohnenalter oder bloße Messfehler entstehen. Die nützliche Frage lautet, ob sich das Ergebnis bei gleicher Ausstattung und Arbeitsfolge wiederholt.",
+      "fr": "Un retrait rapide en biais ou une forte dépression peut fissurer ou soulever la surface. Traitez cela comme une comparaison contrôlée, pas comme une autorisation de changer toutes les variables à la fois. Gardez tamper et panier aussi propres, notez café collé et dégâts de surface, puis répétez la routine avant de conclure à une différence réelle. Un résultat isolé particulièrement bon ou mauvais peut venir de la préparation, température, rétention, âge du café ou d’une simple erreur de mesure. La question utile est de savoir si le résultat se répète avec la même configuration et le même ordre de travail."
+    },
+    "201": {
+      "nl": "Laat de druk los, til verticaal op en veeg de tamper zo nodig tussen bereidingen schoon. Gaat het resultaat in de verwachte richting, houd de wijziging dan lang genoeg aan om die bij meerdere bereidingen te proeven. Zo niet, keer dan terug naar het basisrecept voordat je een andere correctie probeert. Een gepolijst oppervlak is cosmetisch tenzij de puck eronder gelijkmatig en intact blijft. Dat onderscheid voorkomt dat een handige verklaring een onjuiste regel wordt. Laat extra bewegingen weg die meer rommel of variatie geven dan voordeel. Noteer de uiteindelijke instelling en waarom je die behoudt; een kort beslisverslag is waardevoller dan een perfect ogend getal dat je morgen niet kunt reproduceren.",
+      "de": "Lösen Sie den Druck, heben Sie senkrecht ab und wischen Sie den Tamper bei Bedarf zwischen Zubereitungen ab. Bewegt sich das Ergebnis in die erwartete Richtung, behalten Sie die Änderung lange genug bei, um sie über mehrere Zubereitungen zu verkosten. Andernfalls kehren Sie zur Ausgangseinstellung zurück, bevor Sie eine weitere Korrektur versuchen. Eine polierte Fläche ist Kosmetik, wenn der Puck darunter nicht gleichmäßig und intakt bleibt. Diese Unterscheidung verhindert, dass eine bequeme Erklärung zur falschen Regel wird. Streichen Sie jede Ausschmückung mit mehr Unordnung oder Streuung als Nutzen. Notieren Sie die endgültige Einstellung und den Grund dafür; eine kurze Entscheidungsnotiz ist wertvoller als eine perfekt wirkende Zahl, die sich morgen nicht wiederholen lässt.",
+      "fr": "Relâchez, soulevez verticalement et essuyez le tamper entre préparations si nécessaire. Si le résultat évolue comme prévu, conservez le changement assez longtemps pour le goûter sur plusieurs préparations. Sinon, revenez au point de départ avant une autre correction. Le polissage est cosmétique si la galette dessous ne reste pas régulière et intacte. Cette distinction évite qu’une explication commode devienne une fausse règle. Supprimez tout geste décoratif créant plus de salissures ou de variation que de bénéfice. Notez le réglage final et pourquoi le conserver ; une courte trace de décision vaut mieux qu’un chiffre parfait impossible à reproduire demain."
+    },
+    "202": {
+      "nl": "Gebruik gekalibreerde tampers als oefenhulpmiddel",
+      "de": "Kalibrierte Tamper als Lernhilfen betrachten",
+      "fr": "Considérer les tampers calibrés comme outils d’apprentissage"
+    },
+    "203": {
+      "nl": "Een veer of klik kan een deel van de beweging standaardiseren, maar garandeert geen vlakke verdeling of juiste vrije ruimte. Behandel dit als een gecontroleerde vergelijking, niet als toestemming om alle variabelen tegelijk te veranderen. Houd dosis en voorbereiding gelijk, noteer vlakheid, eindpunt en shotherhaalbaarheid en herhaal dezelfde routine voordat je het verschil echt noemt. Eén ongewoon goed of slecht resultaat kan komen door voorbereiding, temperatuur, achtergebleven koffie, de leeftijd van de bonen of een eenvoudige meetfout. De nuttige vraag is of het resultaat terugkomt wanneer de opstelling en werkvolgorde gelijk blijven.",
+      "de": "Feder oder Klick können einen Bewegungsteil standardisieren, garantieren aber weder ebene Verteilung noch richtigen Kopfraum. Behandeln Sie das als kontrollierten Vergleich, nicht als Erlaubnis, alle Variablen gleichzeitig zu ändern. Halten Sie Dosis und Vorbereitung konstant, erfassen Sie Ebenheit, Endpunkt und Bezugswiederholbarkeit und wiederholen Sie den Ablauf, bevor Sie den Unterschied für echt halten. Ein einzelnes ungewöhnlich gutes oder schlechtes Ergebnis kann durch Vorbereitung, Temperatur, zurückgehaltenen Kaffee, Bohnenalter oder bloße Messfehler entstehen. Die nützliche Frage lautet, ob sich das Ergebnis bei gleicher Ausstattung und Arbeitsfolge wiederholt.",
+      "fr": "Ressort ou clic standardisent une partie du geste sans garantir répartition horizontale ni espace libre correct. Traitez cela comme une comparaison contrôlée, pas comme une autorisation de changer toutes les variables à la fois. Gardez dose et préparation stables, notez horizontalité, arrêt et répétabilité des extractions, puis répétez la routine avant de conclure à une différence réelle. Un résultat isolé particulièrement bon ou mauvais peut venir de la préparation, température, rétention, âge du café ou d’une simple erreur de mesure. La question utile est de savoir si le résultat se répète avec la même configuration et le même ordre de travail."
+    },
+    "204": {
+      "nl": "Vergelijk de gekalibreerde tamper over meerdere shots met zorgvuldig gewoon tampen. Gaat het resultaat in de verwachte richting, houd de wijziging dan lang genoeg aan om die bij meerdere bereidingen te proeven. Zo niet, keer dan terug naar het basisrecept voordat je een andere correctie probeert. Een klik bevestigt dat het mechanisme zijn instelpunt bereikt, niet dat de hele puck gelijkmatig is. Dat onderscheid voorkomt dat een handige verklaring een onjuiste regel wordt. Behoud het gereedschap als het de techniek vereenvoudigt; gebruik het niet om eerdere voorbereidingsfouten te negeren. Noteer de uiteindelijke instelling en waarom je die behoudt; een kort beslisverslag is waardevoller dan een perfect ogend getal dat je morgen niet kunt reproduceren.",
+      "de": "Vergleichen Sie das kalibrierte Werkzeug über mehrere Bezüge mit sorgfältigem herkömmlichem Tampen. Bewegt sich das Ergebnis in die erwartete Richtung, behalten Sie die Änderung lange genug bei, um sie über mehrere Zubereitungen zu verkosten. Andernfalls kehren Sie zur Ausgangseinstellung zurück, bevor Sie eine weitere Korrektur versuchen. Ein Klick bestätigt den Sollpunkt des Mechanismus, nicht die Gleichmäßigkeit des ganzen Pucks. Diese Unterscheidung verhindert, dass eine bequeme Erklärung zur falschen Regel wird. Behalten Sie das Werkzeug bei vereinfachter Technik; nutzen Sie es nicht, um frühere Vorbereitungsfehler zu ignorieren. Notieren Sie die endgültige Einstellung und den Grund dafür; eine kurze Entscheidungsnotiz ist wertvoller als eine perfekt wirkende Zahl, die sich morgen nicht wiederholen lässt.",
+      "fr": "Comparez l’outil calibré à un tassage classique soigné sur plusieurs extractions. Si le résultat évolue comme prévu, conservez le changement assez longtemps pour le goûter sur plusieurs préparations. Sinon, revenez au point de départ avant une autre correction. Un clic confirme que le mécanisme a atteint sa consigne, pas que toute la galette est uniforme. Cette distinction évite qu’une explication commode devienne une fausse règle. Gardez l’outil s’il simplifie le geste ; ne l’utilisez pas pour ignorer les erreurs de préparation antérieures. Notez le réglage final et pourquoi le conserver ; une courte trace de décision vaut mieux qu’un chiffre parfait impossible à reproduire demain."
+    },
+    "205": {
+      "nl": "Onderscheid tampfouten van maalfouten",
+      "de": "Tampfehler von Mahlfehlern trennen",
+      "fr": "Distinguer défauts de tassage et de mouture"
+    },
+    "206": {
+      "nl": "Een snel shot na stevig, vlak tampen wordt vaker met maalgraad gecorrigeerd dan met veel meer druk. Behandel dit als een gecontroleerde vergelijking, niet als toestemming om alle variabelen tegelijk te veranderen. Houd dosis, opbrengst en tamproutine gelijk, noteer tijd, doorstroming en smaak en herhaal dezelfde routine voordat je het verschil echt noemt. Eén ongewoon goed of slecht resultaat kan komen door voorbereiding, temperatuur, achtergebleven koffie, de leeftijd van de bonen of een eenvoudige meetfout. De nuttige vraag is of het resultaat terugkomt wanneer de opstelling en werkvolgorde gelijk blijven.",
+      "de": "Ein schneller Bezug nach festem, ebenem Tamp wird eher über Mahlgrad als über massiv mehr Kraft korrigiert. Behandeln Sie das als kontrollierten Vergleich, nicht als Erlaubnis, alle Variablen gleichzeitig zu ändern. Halten Sie Dosis, Ausbeute und Tampablauf konstant, erfassen Sie Zeit, Fluss und Geschmack und wiederholen Sie den Ablauf, bevor Sie den Unterschied für echt halten. Ein einzelnes ungewöhnlich gutes oder schlechtes Ergebnis kann durch Vorbereitung, Temperatur, zurückgehaltenen Kaffee, Bohnenalter oder bloße Messfehler entstehen. Die nützliche Frage lautet, ob sich das Ergebnis bei gleicher Ausstattung und Arbeitsfolge wiederholt.",
+      "fr": "Un débit rapide après un tassage ferme et horizontal se corrige plus souvent par la mouture que par beaucoup plus de force. Traitez cela comme une comparaison contrôlée, pas comme une autorisation de changer toutes les variables à la fois. Gardez dose, rendement et tassage stables, notez durée, débit et goût, puis répétez la routine avant de conclure à une différence réelle. Un résultat isolé particulièrement bon ou mauvais peut venir de la préparation, température, rétention, âge du café ou d’une simple erreur de mesure. La question utile est de savoir si le résultat se répète avec la même configuration et le même ordre de travail."
+    },
+    "207": {
+      "nl": "Keer terug naar dezelfde tamp en wijzig de maalgraad met één kleine stap. Gaat het resultaat in de verwachte richting, houd de wijziging dan lang genoeg aan om die bij meerdere bereidingen te proeven. Zo niet, keer dan terug naar het basisrecept voordat je een andere correctie probeert. Zodra het bed is samengedrukt, beïnvloedt maalgraad de weerstand veel sterker dan extra tampkracht. Dat onderscheid voorkomt dat een handige verklaring een onjuiste regel wordt. Verander de tamptechniek alleen als vlakheid of herhaalbaarheid werkelijk wisselt. Noteer de uiteindelijke instelling en waarom je die behoudt; een kort beslisverslag is waardevoller dan een perfect ogend getal dat je morgen niet kunt reproduceren.",
+      "de": "Kehren Sie zum gleichen Tamp zurück und ändern Sie den Mahlgrad in einem kleinen Schritt. Bewegt sich das Ergebnis in die erwartete Richtung, behalten Sie die Änderung lange genug bei, um sie über mehrere Zubereitungen zu verkosten. Andernfalls kehren Sie zur Ausgangseinstellung zurück, bevor Sie eine weitere Korrektur versuchen. Nach Verdichtung beeinflusst der Mahlgrad den Widerstand weit stärker als zusätzliche Tampkraft. Diese Unterscheidung verhindert, dass eine bequeme Erklärung zur falschen Regel wird. Ändern Sie die Tamptechnik nur bei tatsächlich unbeständiger Ebenheit oder Wiederholbarkeit. Notieren Sie die endgültige Einstellung und den Grund dafür; eine kurze Entscheidungsnotiz ist wertvoller als eine perfekt wirkende Zahl, die sich morgen nicht wiederholen lässt.",
+      "fr": "Revenez au même tassage et modifiez la mouture d’un petit cran. Si le résultat évolue comme prévu, conservez le changement assez longtemps pour le goûter sur plusieurs préparations. Sinon, revenez au point de départ avant une autre correction. Une fois le lit comprimé, la mouture agit beaucoup plus sur la résistance que l’effort supplémentaire. Cette distinction évite qu’une explication commode devienne une fausse règle. Ne changez la technique que si horizontalité ou répétabilité sont réellement irrégulières. Notez le réglage final et pourquoi le conserver ; une courte trace de décision vaut mieux qu’un chiffre parfait impossible à reproduire demain."
+    },
+    "208": {
+      "nl": "Hoe hard moet ik espresso tampen?",
+      "de": "Wie fest sollte ich Espresso tampen?",
+      "fr": "Avec quelle force tasser l’expresso ?"
+    },
+    "209": {
+      "nl": "Druk stevig en beheerst tot de koffie volledig is samengedrukt. Doe het daarna vooral vlak en iedere keer gelijk. Zodra de compressie voltooid is, telt exacte kracht minder dan herhaalbaarheid.",
+      "de": "Drücken Sie fest und kontrolliert, bis das Mahlgut vollständig verdichtet ist. Achten Sie vor allem auf Ebenheit und denselben Ablauf. Nach vollständiger Kompression zählt Wiederholbarkeit mehr als exakte Kraft.",
+      "fr": "Appliquez un effort ferme et contrôlé jusqu’à compression complète, puis privilégiez l’horizontalité et la répétabilité. Une fois la compression terminée, la force exacte importe moins que la régularité."
+    },
+    "210": {
+      "nl": "Moet ik na het tampen draaien of polijsten?",
+      "de": "Sollte ich nach dem Tampen drehen oder polieren?",
+      "fr": "Faut-il tourner ou polir après tassage ?"
+    },
+    "211": {
+      "nl": "Licht en schoon loslaten is genoeg. Hard polijsten herstelt geen ongelijke verdeling en kan de puck verstoren of koffie op de bakjeswand achterlaten.",
+      "de": "Sanftes, sauberes Abheben genügt. Starkes Polieren korrigiert keine ungleiche Verteilung und kann den Puck stören oder Mahlgut an der Siebwand hinterlassen.",
+      "fr": "Un retrait léger et propre suffit. Un polissage appuyé ne répare pas la répartition et peut perturber la galette ou déposer du café sur les parois."
+    },
+    "212": {
+      "nl": "Verhelpt een zelfnivellerende tamper kanaalvorming?",
+      "de": "Behebt ein selbstnivellierender Tamper Kanalbildung?",
+      "fr": "Un tamper autonivelant corrige-t-il les canaux ?"
+    },
+    "213": {
+      "nl": "Hij kan scheefstand aan het oppervlak verminderen, maar geen klonten, ongelijke dichtheid, slechte dosispasvorm, beschadigde bakjes of een ongeschikte maalgraad corrigeren.",
+      "de": "Er kann Oberflächenneigung verringern, aber weder Klumpen noch ungleiche Dichte, unpassende Dosis, beschädigte Siebe oder ungeeignete Mahlung korrigieren.",
+      "fr": "Il peut réduire l’inclinaison en surface, mais ne corrige ni grumeaux, ni densité inégale, ni dose mal adaptée, ni panier endommagé, ni mouture inappropriée."
+    },
+    "214": {
+      "nl": "De aanbevelingen onderscheiden gedocumenteerde fabrikanttechniek van variabelen die je met het exacte bakje en de koffie moet testen. Het artikel legt de nadruk op herhaalbare voorbereiding en begrensde diagnose; het beweert niet dat een bepaalde kracht, tamperstijl of puckuiterlijk op zichzelf extractiekwaliteit bewijst.",
+      "de": "Die Empfehlungen trennen dokumentierte Herstellertechnik von Variablen, die am konkreten Sieb und Kaffee zu prüfen sind. Der Artikel betont reproduzierbare Vorbereitung und begrenzte Diagnose; weder ein Kraftwert noch Tamperstil oder Puckaussehen belegen allein Extraktionsqualität.",
+      "fr": "Les recommandations distinguent technique documentée du fabricant et variables à tester sur le panier et le café exacts. L’article privilégie préparation répétable et diagnostic circonscrit ; il ne prétend pas qu’une force, un style de tamper ou l’apparence de la galette prouve seul la qualité d’extraction."
+    },
+    "215": {
+      "nl": "Breville-gids voor espresso tampen",
+      "de": "Breville-Anleitung zum Espresso-Tampen",
+      "fr": "Guide Breville du tassage de l’expresso"
+    },
+    "216": {
+      "nl": "Fabrikantinstructies over bakjesvoorbereiding, verdeling, vlak tampen en herhaalbare druk.",
+      "de": "Herstellerhinweise zu Siebvorbereitung, Verteilung, ebenem Tampen und reproduzierbarer Kraft.",
+      "fr": "Conseils du fabricant sur préparation du panier, répartition, tassage horizontal et effort répétable."
+    },
+    "217": {
+      "nl": "Handleiding Breville Barista Pro",
+      "de": "Bedienungsanleitung Breville Barista Pro",
+      "fr": "Manuel Breville Barista Pro"
+    },
+    "218": {
+      "nl": "Instructies voor het exacte apparaat over doseren, tampdruk, afstrijken van de dosis en voorbereiding van de zetgroep.",
+      "de": "Anweisungen zur konkreten Maschine über Dosierung, Tampdruck, Abstreifen und Brühgruppenvorbereitung.",
+      "fr": "Instructions de la machine exacte sur dosage, effort de tassage, arasage et préparation du groupe."
+    },
+    "219": {
+      "nl": "Een tampmat ondersteunt de filterdrager tijdens het aandrukken. Houd het bakje stabiel en druk recht; het afgebeelde accessoire is een illustratie, geen bewijs van een extractieresultaat. massage-techniques / Wikimedia Commons · Bron · CC BY-SA 2.0 · Verkleind en naar WebP omgezet.",
+      "de": "Eine Tampermatte stützt den Siebträger beim Andrücken. Halten Sie das Sieb stabil und drücken Sie gerade; das abgebildete Zubehör illustriert den Vorgang und belegt kein Extraktionsergebnis. massage-techniques / Wikimedia Commons · Quelle · CC BY-SA 2.0 · Verkleinert und in WebP umgewandelt.",
+      "fr": "Un tapis soutient le porte-filtre pendant le tassage. Stabilisez le panier et pressez droit ; l’accessoire photographié illustre le geste, sans prouver un résultat d’extraction. massage-techniques / Wikimedia Commons · Source · CC BY-SA 2.0 · Redimensionnée et convertie en WebP."
+    }
+  }
+}
