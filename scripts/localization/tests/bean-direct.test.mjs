@@ -4,7 +4,7 @@ import path from 'node:path';
 import {root,readJson,digest,policyHash,loadCache,validateTranslation,getEdition} from '../core.mjs';
 import {regionalFinder} from '../build.mjs';
 
-for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-15',3],['bean-reviews-batch-16',164],['bean-reviews-batch-18',192],['bean-reviews-batch-19',191],['source-refresh-batch-19',37],['bean-reviews-batch-20',189],['bean-reviews-batch-22',182],['bean-reviews-batch-23',152],['source-refresh-batch-23',13],['bean-reviews-batch-24',115],['bean-reviews-batch-25',61]])test(`${name} fully covers its immutable source in NL DE FR`,async()=>{
+for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-15',3],['bean-reviews-batch-16',164],['bean-reviews-batch-18',192],['bean-reviews-batch-19',191],['source-refresh-batch-19',37],['bean-reviews-batch-20',189],['bean-reviews-batch-22',182],['bean-reviews-batch-23',152],['source-refresh-batch-23',13],['bean-reviews-batch-24',115],['bean-reviews-batch-25',61],['bean-reviews-batch-35',147]])test(`${name} fully covers its immutable source in NL DE FR`,async()=>{
  const source=await readJson(path.join(root,`localization/authored/${name}.source.json`));
  const authored=await readJson(path.join(root,`localization/authored/${name}.json`));
  assert.equal(source.segments.length,count);
@@ -22,6 +22,26 @@ for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-
    assert.equal(entry.provider,'codex-direct');
    assert.equal(validateTranslation(segment.source,entry.text),entry.text);
   }
+ }
+});
+
+test('Geometry and Southern Weather retain different recipes, source limits and all twelve FAQ answers',async()=>{
+ const source=await readJson(path.join(root,'localization/authored/bean-reviews-batch-35.source.json')),authored=await readJson(path.join(root,'localization/authored/bean-reviews-batch-35.json'));
+ assert.equal(source.sourcePages.length,2);assert.equal(new Set(source.segments.map(s=>s.source)).size,118);assert.equal(Object.keys(authored.translations).length,115);
+ assert.deepEqual(authored.preserveSource.map(i=>source.segments[i].source),['Onyx Coffee Lab Geometry','Coffeedant: Onyx Coffee Lab Monarch','Onyx Coffee Lab Southern Weather']);
+ for(const edition of ['nl','de','fr']){
+  const cache=await loadCache(edition),text=i=>cache.segments[source.segments[i].id].text;
+  const prefix={nl:'/koffiebonen/',de:'/kaffeebohnen/',fr:'/cafe-en-grains/'}[edition];for(const p of source.sourcePages)assert.equal(authored.routes[edition][p.sourcePath],p.sourcePath.replace('/coffee-beans/',prefix));
+  for(const[i,numbers]of [[16,['130']],[21,['2 oz','10 oz','2 lb','5 lb']],[32,['25','400','205°F','19','45']],[33,['1:16']],[34,['10','20']],[36,['10','12']],[102,['123']],[107,['123']],[111,['19','40','Fellow','Onyx']],[115,['12']]])for(const n of numbers)assert(text(i).includes(n),`${edition} ${i}: ${n}`);
+  assert(/niet 45|nicht 45|pas 45/.test(text(32)));assert(/geen Coffeedant|kein Coffeedant|pas un résultat.*Coffeedant/.test(text(33)));
+  assert(/geen geverifieerde Amerikaanse prijs|keinen verifizierten US-Preis|aucun prix américain/.test(text(36)));
+  assert(/niet gekocht, gezet of geproefd|nicht gekauft, zubereitet oder verkostet|ni acheté, ni préparé, ni goûté/.test(text(8)));
+  assert(/niet gekocht, gezet, geproefd, gemeten of gefotografeerd|weder gekauft, zubereitet, verkostet, gemessen noch fotografiert|ni acheté, préparé, goûté, mesuré ni photographié/.test(text(45)));
+  assert(/geen gezamenlijke|keine gemeinsame|pas un classement/.test(text(38)));
+  assert(/oploskoffie|Instantkaffee|instantané/.test(text(108)));assert(/niet als officieel|nicht als offizielle|pas une prescription officielle/.test(text(111)));
+  assert(/geen Onyx-garantie|keine Onyx-Garantie|pas une garantie Onyx/.test(text(128)));
+  for(const[i,j]of [[0,73],[1,74],[3,76],[5,77],[48,78],[28,79],[49,80],[50,81],[51,82],[32,83],[52,84],[53,85],[54,86],[55,87],[56,88],[57,89],[90,136],[91,137],[93,138],[94,139],[121,140],[107,141],[122,142],[123,143],[124,144],[111,145],[125,146]]){assert.equal(source.segments[j].kind,'json');assert.equal(text(i),text(j));}
+  for(const i of [71,134]){const original=source.segments[i].source.split(' Start with a smaller')[0],prior=Object.values(cache.segments).find(s=>s.source===original);assert(prior);assert(text(i).startsWith(prior.text),'reuse exact passing verdict before the new concluding sentence');}
  }
 });
 
