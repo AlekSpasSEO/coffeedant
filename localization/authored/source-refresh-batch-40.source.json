@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/coffee-beans/",
+      "sourceHash": "7a587c425b1b4f5457f67d1cc8809d10393d85e92186ab181a030cbb99a34378"
+    },
+    {
+      "sourcePath": "/profitec/",
+      "sourceHash": "6dc7f333fd540b5ec3221046f3f23299f98263dd75fb158bd26d7ab11e2b15e3"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "fb8fb1aabd8f22bc82d0e1f7acdc8fec7c91e637ba72ce99564ab87139201437",
+      "source": "Blue Bottle Giant Steps Korean whole-bean pack, shown as an identity image; US pack differs",
+      "kind": "attribute",
+      "context": "Dark press with milkBlue Bottle Coffee Giant StepsEvidence: Blue Bottle explicitly labels French press with milk and a 1:13 start.Tradeoff: The current full origin and process breakdown is absent.Skip if: You want a light, clear, fruit-first cup.Image: Blue Bottle Coffee. Blue Bottle Coffee Korea product image. Korean 250 g packaging illustrates identity; US pack and size must be verified separately.Read the full review →"
+    },
+    {
+      "id": "04896a29256146b0315f40882b66b30cea1204f960f985ad7ea80f6815a6fa1b",
+      "source": "Blue Bottle Night Light Decaf Korean whole-bean pack, shown as identity imagery for the US review",
+      "kind": "attribute",
+      "context": "Decaf pressBlue Bottle Coffee Night Light DecafEvidence: Blue Bottle explicitly invites French press and espresso for its water-process decaf.Tradeoff: It suggests a heavier dose but gives no exact product-specific press ratio.Skip if: You require a measured zero-caffeine guarantee.Image: Blue Bottle Coffee. Blue Bottle Coffee Korea product image. Its 250 g pack is illustrative; verify the separate US package and size.Read the full review →"
+    },
+    {
+      "id": "f74d0e762d9195d20569deaf6fdc4a73c41ae0b9dc7194c1229941e36b50bbd5",
+      "source": "Giant Steps",
+      "kind": "text",
+      "context": "Giant Steps"
+    },
+    {
+      "id": "b001ac14908f824de188fa74153bb9f03dc28adceb54e112aaa40f03dda19213",
+      "source": "Night Light Decaf",
+      "kind": "text",
+      "context": "Night Light Decaf"
+    },
+    {
+      "id": "6920b82ed7102a814d74f0e9f9f19d6f1523603e77f80d94f3a5fec2824a3bfa",
+      "source": "Blue Bottle Giant Steps Korean whole-bean pack, shown as an identity image; US pack differs",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "83e2c8f16227fbabde38d55344c2b5de49e4513d47b29d7c2f7ab7f619a4b139",
+      "source": "Blue Bottle Night Light Decaf Korean whole-bean pack, shown as identity imagery for the US review",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "d910e5a3f52fe362891351c11fb9cf6e54cfb3c3bfe795d9213c7ee66004c0fd",
+      "source": "Blue Bottle 17ft Ceiling Espresso 12-ounce US whole-bean bag",
+      "kind": "attribute",
+      "context": "Image: Blue Bottle Coffee. Blue Bottle Coffee US image of the 12 oz whole-bean package; packaging is not a current-lot certificate."
+    },
+    {
+      "id": "35385fcc8223203718fc3448fa69cbacbb2e375d2bcd7fcd73b480412afc2fdd",
+      "source": "17ft Ceiling is the distinct Blue Bottle dark espresso for a buyer who wants a classic short-shot direction and is comfortable with a named robusta accent. Blue Bottle says its Latin American and East African coffees and fine robusta serve body and crema. Those are formulation and roaster-positioning claims, not Coffeedant extraction measurements.",
+      "kind": "text",
+      "context": "17ft Ceiling is the distinct Blue Bottle dark espresso for a buyer who wants a classic short-shot direction and is comfortable with a named robusta accent. Blue Bottle says its Latin American and East African coffees and fine robusta serve body and crema. Those are formulation and roaster-positioning claims, not Coffeedant extraction measurements."
+    },
+    {
+      "id": "7c3aaf6abec676e93166243d4e4712573ecd36f3a37977e032eadd0e1ac6396e",
+      "source": "Blue Bottle 17ft Ceiling Espresso 12-ounce US whole-bean bag",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "43ba6ac992156c2bdfee00624ca70997681a34852d907512a1bab5fc2f52c6f2",
+      "source": "Blue Bottle Bella Donovan 12-ounce US whole-bean bag",
+      "kind": "attribute",
+      "context": "Image: Blue Bottle Coffee. Blue Bottle Coffee US product imagery; the pictured bag cannot establish a current roast lot."
+    },
+    {
+      "id": "27aac03a4ae7a798990025e737c127839c732303132a39495f657ad051d066f3",
+      "source": "Bella Donovan makes sense when a dark daily drip coffee should retain a roaster-described berry edge under chocolate and molasses. Blue Bottle attributes that fruit to a natural-processed Ethiopian component and explicitly invites milk or cream. The full current blend recipe and delivered roast date still need a bag check.",
+      "kind": "text",
+      "context": "Bella Donovan makes sense when a dark daily drip coffee should retain a roaster-described berry edge under chocolate and molasses. Blue Bottle attributes that fruit to a natural-processed Ethiopian component and explicitly invites milk or cream. The full current blend recipe and delivered roast date still need a bag check."
+    },
+    {
+      "id": "5651459f43e46c25fceab4c2ff0a97115fcd04a7b0072e52e4636a009d062c41",
+      "source": "Blue Bottle Bella Donovan 12-ounce US whole-bean bag",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "8e70a303c967c332641af77671fd31233151f64b0f91f8788fc3c87200a8f37f",
+      "source": "Giant Steps has one unusually useful piece of product-specific brew guidance: Blue Bottle labels it for French press with milk and gives a 1:13 ratio. It is a defensible first bag for someone who wants a developed chocolate direction in a press, with the caveat that roaster notes and an older independent cup cannot predict today’s delivered bag.",
+      "kind": "text",
+      "context": "Giant Steps has one unusually useful piece of product-specific brew guidance: Blue Bottle labels it for French press with milk and gives a 1:13 ratio. It is a defensible first bag for someone who wants a developed chocolate direction in a press, with the caveat that roaster notes and an older independent cup cannot predict today’s delivered bag."
+    },
+    {
+      "id": "c88ebbc07617e664ca20514f033c40bd4c786e4fa460c7356f40b5a570ce93a8",
+      "source": "Blue Bottle Hayes Valley Espresso 12-ounce US whole-bean bag",
+      "kind": "attribute",
+      "context": "Image: Blue Bottle Coffee. Blue Bottle Coffee US product imagery; packaging identifies the blend, not the delivered roast date."
+    },
+    {
+      "id": "e6cd2eb282dca87f4ef6bcfafe6442fc30eee9345b9038fe4bd82e3c5ffaa379",
+      "source": "Hayes Valley is the clearest Blue Bottle first bag for someone recreating its chocolate-led café espresso or a small milk drink. The US page names washed processing, dark roasting and short ristretto service. Its tasting words and café practice do not prove how a home machine will extract a particular bag.",
+      "kind": "text",
+      "context": "Hayes Valley is the clearest Blue Bottle first bag for someone recreating its chocolate-led café espresso or a small milk drink. The US page names washed processing, dark roasting and short ristretto service. Its tasting words and café practice do not prove how a home machine will extract a particular bag."
+    },
+    {
+      "id": "f470f8007bd66c59c7823f202d0613462435c2c5061416a27cb359e7a00cb4bd",
+      "source": "Blue Bottle Hayes Valley Espresso 12-ounce US whole-bean bag",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "0dd69ad17339df2879410e27b1864b5245cc3eea333668ae2bf7c2dea5989d6f",
+      "source": "Night Light Decaf is a useful one-bag trial for a US household moving between decaf espresso and French press. Blue Bottle says it uses a water decaffeination process and positions the coffee for both black and milk drinks. The US page’s medium label and darker flavor description should be read together; neither establishes a Coffeedant tasting or residual-caffeine measurement.",
+      "kind": "text",
+      "context": "Night Light Decaf is a useful one-bag trial for a US household moving between decaf espresso and French press. Blue Bottle says it uses a water decaffeination process and positions the coffee for both black and milk drinks. The US page’s medium label and darker flavor description should be read together; neither establishes a Coffeedant tasting or residual-caffeine measurement."
+    },
+    {
+      "id": "74793abce53c8896cd09b1cb0bc66ac3a0582dba5088ba7c0d2fd294830b877c",
+      "source": "Blue Bottle Coffee · United States",
+      "kind": "text",
+      "context": "Blue Bottle Coffee · United States"
+    },
+    {
+      "id": "c2a63876554df659da866bb2d7338213e14d3bd0dd7da269b81460e92a67083e",
+      "source": "Hayes Valley Espresso",
+      "kind": "text",
+      "context": "Hayes Valley Espresso"
+    },
+    {
+      "id": "76e36d5522b994990dd6098ba60ca68c9f340335e9220e62dccbf9e72e60fbdb",
+      "source": "· Check current US price at October 21, 2026",
+      "kind": "text",
+      "context": "Updated 2026-10-21 · Check current US price at October 21, 2026"
+    },
+    {
+      "id": "e2a3e0a63a5fe14ffaeaecdcf53394053445be27912c2467fd27e8efc3ea3a39",
+      "source": "Bella Donovan",
+      "kind": "text",
+      "context": "Bella Donovan"
+    },
+    {
+      "id": "bf3e14c66ce681f4c1dcbde043c3a3e0bc076536e0aead8827547651b52f5b97",
+      "source": "17ft Ceiling Espresso",
+      "kind": "text",
+      "context": "17ft Ceiling Espresso"
+    },
+    {
+      "id": "652885e84a3ce0a7e6e5107d1e21dc9ea5c6a034c660d1ad23e7cfc52ee5e192",
+      "source": "New buying guide · October 21, 2026",
+      "kind": "text",
+      "context": "New buying guide · October 21, 2026"
+    },
+    {
+      "id": "e8ff5f328432325adcef1fde8d82d6fdfeeacfd0fdf4162ca944a6c42eea71a0",
+      "source": "Beans for the French press cup you make",
+      "kind": "text",
+      "context": "Beans for the French press cup you make"
+    },
+    {
+      "id": "7f6ec826ec4f25a72563da18e8b845f70b3a84278c90aa3592a9932a8e4f7a43",
+      "source": "Compare four exact whole-bean coffees for dark press with milk, medium fruit, cream-friendly filter and decaf.",
+      "kind": "text",
+      "context": "Compare four exact whole-bean coffees for dark press with milk, medium fruit, cream-friendly filter and decaf. Read the French press bean guide."
+    },
+    {
+      "id": "7bc1ad859daf156a1360bafb270e515d0239658d9d51fa59632c0bc4bccd9e0b",
+      "source": "Read the French press bean guide",
+      "kind": "text",
+      "context": "Read the French press bean guide"
+    },
+    {
+      "id": "e0980f60515470ea30c9f75deaf6167b11c69304fbe42c3d41b82dc7b3ed74e8",
+      "source": "Profitec MOVE",
+      "kind": "text",
+      "context": "Profitec MOVE"
+    },
+    {
+      "id": "ff5508b3809d515adad500994b32dec13b3e655283046273d915683f95512bf5",
+      "source": "Profitec espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 8 Coffeedant reviews.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "e62e3d2dfb43d6ff0f2a1873eb9506cd25c02460d955a7aeaa1ca9ff9228092b",
+      "source": "Profitec espresso machines compared by workflow, price level, strengths, and trade-offs. Browse 8 Coffeedant reviews.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "de11be437cca6f895889b1bb0c3c7a2bdeb858d181d17257331d294d709054c8"
+}
