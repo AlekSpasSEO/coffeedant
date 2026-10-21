@@ -1,0 +1,773 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/coffee-beans/blue-bottle-17ft-ceiling-espresso/",
+      "sourceHash": "4077369ac3d1db535911d98f1f6abeeb33df2c59218577fdce88697694ca527b"
+    },
+    {
+      "sourcePath": "/coffee-beans/blue-bottle-hayes-valley-espresso/",
+      "sourceHash": "bbf4711ad4d470131167b35cf2b0f8f79607b7933a5cedd11b153b2b217a746f"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "d5eb3d035489827e53fa806bddc9bd26335146098eab3942ceb3d05bdc78f27d",
+      "source": "Blue Bottle 17ft Ceiling review: a dark espresso with robusta | Coffeedant",
+      "kind": "text",
+      "context": "Blue Bottle 17ft Ceiling review: a dark espresso with robusta | Coffeedant"
+    },
+    {
+      "id": "99f662ea53f457b75775cce3c16cb0c7b3b365a37dc82b65f5cbafeacf4b1cb5",
+      "source": "Research-led US review of Blue Bottle 17ft Ceiling Espresso: current blend identity, attributed notes, brew role, freshness, alternatives and limits.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "56ee4e79394c24d1116040d9a1f524ae520cfc261669edb885338bca127343fd",
+      "source": "Blue Bottle 17ft Ceiling review: a dark espresso with robusta | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "ac87bb0c6b2bcab592f3ddb0b2e290f03ca9d847daa70a73cf0935bc836ff7b5",
+      "source": "Blue Bottle Coffee 17ft Ceiling Espresso",
+      "kind": "text",
+      "context": "Blue Bottle Coffee 17ft Ceiling Espresso"
+    },
+    {
+      "id": "e23b58943159d26c81ca5f18207f3af3aaa252fb893003cac503e975cec31afe",
+      "source": ". Blue Bottle Coffee US image of the 12 oz whole-bean package; packaging is not a current-lot certificate.",
+      "kind": "text",
+      "context": "Image: Blue Bottle Coffee. Blue Bottle Coffee US image of the 12 oz whole-bean package; packaging is not a current-lot certificate."
+    },
+    {
+      "id": "e3badb2a43c20e9872e99de6de98b314f792d58f9e4c198f465433e2143e73b8",
+      "source": "Blue Bottle 17ft Ceiling review: a dark espresso with robusta",
+      "kind": "text",
+      "context": "Blue Bottle 17ft Ceiling review: a dark espresso with robusta"
+    },
+    {
+      "id": "6619a7f2ea7a5e160eb41d05bff12f2213b5e31b5af9cbb2d4b39c43ea902915",
+      "source": "Classic-style short espresso",
+      "kind": "text",
+      "context": "Classic-style short espresso"
+    },
+    {
+      "id": "3393702e67e0a53acf2bbf6c5a2da712b5f91bbad05dc636118a307befd9b27b",
+      "source": "A buyer intentionally seeking an Arabica-and-robusta blend",
+      "kind": "text",
+      "context": "A buyer intentionally seeking an Arabica-and-robusta blend"
+    },
+    {
+      "id": "dd72483a4a3b21c795509963987fb39486e1f56f0e2c246788404ac450debbc7",
+      "source": "Milk drinks where a dark coffee brief is preferred",
+      "kind": "text",
+      "context": "Milk drinks where a dark coffee brief is preferred"
+    },
+    {
+      "id": "756ea42022f6656722edd9a09f0197df1393f222652dbabc6668cf5c60b539a2",
+      "source": "You want Arabica-only coffee",
+      "kind": "text",
+      "context": "You want Arabica-only coffee"
+    },
+    {
+      "id": "c6d52822bb00d4fd729a4fa78f3633f023749cc1deb61bb7fb38c56235578828",
+      "source": "You need farm-level current component detail",
+      "kind": "text",
+      "context": "You need farm-level current component detail"
+    },
+    {
+      "id": "1b1d2afcb1587d4cc3046b48245f8cd2c556c330760e8beeb30c21e7593b73af",
+      "source": "You equate crema volume with measured espresso quality",
+      "kind": "text",
+      "context": "You equate crema volume with measured espresso quality"
+    },
+    {
+      "id": "aa3d8412e841d67bdd8d008826a38a1d51172723f5f7f101fa15556bf4178cee",
+      "source": "Blue Bottle Coffee 17ft Ceiling Espresso, US whole-bean product",
+      "kind": "text",
+      "context": "Blue Bottle Coffee 17ft Ceiling Espresso, US whole-bean product"
+    },
+    {
+      "id": "49e10466b983f27fdbbeed4bcad4e026d67334a2fb6ad495aa9897654ac205f4",
+      "source": "caramel, almond, dried cherry; not Coffeedant tasting",
+      "kind": "text",
+      "context": "caramel, almond, dried cherry; not Coffeedant tasting"
+    },
+    {
+      "id": "8ce497bcb33d85393dd33cb2bd53ca3a2555a7705aeae27babe32710485c8cf1",
+      "source": "Latin American and East African coffees; exact current countries and farms not specified",
+      "kind": "text",
+      "context": "Latin American and East African coffees; exact current countries and farms not specified"
+    },
+    {
+      "id": "64a85dc73c773e6e85078a3878ba4b0d0903bb5eeb40a51ca2b92e87afc1f930",
+      "source": "Not specified for every component",
+      "kind": "text",
+      "context": "Not specified for every component"
+    },
+    {
+      "id": "3cc7045bf46d6e301ba1b23b6de10fcc8181fd3c5cc06c16c5a237336157717f",
+      "source": "Includes fine robusta; Arabica component varieties not specified",
+      "kind": "text",
+      "context": "Includes fine robusta; Arabica component varieties not specified"
+    },
+    {
+      "id": "5fcbf0b0f45457bd5d46c4c5ebf40d4e9192134decf8c56881e10f39f3652a94",
+      "source": "12 oz US whole-bean package pictured; confirm selected live size",
+      "kind": "text",
+      "context": "12 oz US whole-bean package pictured; confirm selected live size"
+    },
+    {
+      "id": "20aa2f7204ed3493ebc384ef359fe738c04bcb27d96a7655214b7b74a9b4faef",
+      "source": "Blue Bottle names 17ft Ceiling after its former Mint Plaza café and says the blend joins Latin American and East African coffees with fine robusta. The US product page calls it dark roast. The wording identifies a genuine blend-design difference from Hayes Valley, but does not specify every current country, farm, proportion or processing method.",
+      "kind": "text",
+      "context": "Blue Bottle names 17ft Ceiling after its former Mint Plaza café and says the blend joins Latin American and East African coffees with fine robusta. The US product page calls it dark roast. The wording identifies a genuine blend-design difference from Hayes Valley, but does not specify every current country, farm, proportion or processing method. [1]"
+    },
+    {
+      "id": "09431a3b0791edb56a42d88e04a2f066f3c67c137e9395de0f2c03b2238d44d1",
+      "source": "The US image shows a 12 oz whole-bean package for identification. It does not confirm a particular roast date, lot or the current proportion of robusta. A buyer who avoids robusta should skip this exact product rather than assuming the accent is removable.",
+      "kind": "text",
+      "context": "The US image shows a 12 oz whole-bean package for identification. It does not confirm a particular roast date, lot or the current proportion of robusta. A buyer who avoids robusta should skip this exact product rather than assuming the accent is removable. [1]"
+    },
+    {
+      "id": "5fdbb3fc2ad40e925767f1b4e8b591cc9c6a9e86bce7e64037d09a8ea9cc8e34",
+      "source": "Caramel, almond and dried cherry are the roaster’s tasting descriptors. Blue Bottle also describes a crema-heavy, lower-acidity impression; Coffeedant did not measure acidity, crema or flavor. A self-selected owner review on the product page favors the blend while another describes it as hollow for a dark roast. Neither is a reliable population average.",
+      "kind": "text",
+      "context": "Caramel, almond and dried cherry are the roaster’s tasting descriptors. Blue Bottle also describes a crema-heavy, lower-acidity impression; Coffeedant did not measure acidity, crema or flavor. A self-selected owner review on the product page favors the blend while another describes it as hollow for a dark roast. Neither is a reliable population average. [1] [4]"
+    },
+    {
+      "id": "10dca5a14d181d52851dfbcf25fa20ea17579c58c2a17afb44d287c7b4c889a0",
+      "source": "An older independent subscription discussion included 17ft Ceiling and Hayes Valley. It is context for the older products and shipping experience, not a current blind comparison. The reason to consider 17ft remains its declared robusta and classic espresso architecture, not a claimed ranking.",
+      "kind": "text",
+      "context": "An older independent subscription discussion included 17ft Ceiling and Hayes Valley. It is context for the older products and shipping experience, not a current blind comparison. The reason to consider 17ft remains its declared robusta and classic espresso architecture, not a claimed ranking. [3]"
+    },
+    {
+      "id": "9e6dca2bd60dd348bd561857b09af41c8f21640fe350f432f518c89e50523eff",
+      "source": "Blue Bottle presents 17ft Ceiling as a classic espresso and mentions a ristretto design. Begin with a basket-appropriate dose and a short weighed yield, then adjust grind on the delivered bag. There is no single product-page dose and yield that Coffeedant can present as a verified home result.",
+      "kind": "text",
+      "context": "Blue Bottle presents 17ft Ceiling as a classic espresso and mentions a ristretto design. Begin with a basket-appropriate dose and a short weighed yield, then adjust grind on the delivered bag. There is no single product-page dose and yield that Coffeedant can present as a verified home result. [1]"
+    },
+    {
+      "id": "e005352ddad725bcba020ac8829808a20f85e9eb03d5ed51bbbce7a34d408349",
+      "source": "The product page also carries Blue Bottle’s generic 27 g to 350 g pour-over instructions. They are a separate filter method, not a prescription to grind 27 g for a portafilter. If trying a moka pot, follow Blue Bottle’s device guide and keep the result distinct from a nine-bar espresso shot.",
+      "kind": "text",
+      "context": "The product page also carries Blue Bottle’s generic 27 g to 350 g pour-over instructions. They are a separate filter method, not a prescription to grind 27 g for a portafilter. If trying a moka pot, follow Blue Bottle’s device guide and keep the result distinct from a nine-bar espresso shot. [2]"
+    },
+    {
+      "id": "5a61548420a0f993352e55333c00cd58d925643792bf65e60172544961deab76",
+      "source": "Inspect the delivered roast date before blaming a recipe for a flat cup. Keep whole beans sealed and away from air, heat and odors. A dark-roast oil sheen can appear over time, but it is not by itself a reliable freshness meter or taste result.",
+      "kind": "text",
+      "context": "Inspect the delivered roast date before blaming a recipe for a flat cup. Keep whole beans sealed and away from air, heat and odors. A dark-roast oil sheen can appear over time, but it is not by itself a reliable freshness meter or taste result. [5] [6]"
+    },
+    {
+      "id": "7a22a2081a2d22cb802510eb566123b0c7b5800ca53f3484807bfc87496a905f",
+      "source": "A 12 oz first bag gives room to dial a short espresso without assuming a bulk purchase will stay at the same peak. Record the package and settings if you reorder; current origins and roast development may shift.",
+      "kind": "text",
+      "context": "A 12 oz first bag gives room to dial a short espresso without assuming a bulk purchase will stay at the same peak. Record the package and settings if you reorder; current origins and roast development may shift."
+    },
+    {
+      "id": "b364b8010523fad846bf2351e3afc87a4fec5acf9279ffe5a19067240988888e",
+      "source": "The US storefront displayed subscription and one-time controls, but one reliable delivered price for a selected one-time 12 oz pack was not established. This page therefore supplies a check-price link only and claims no current discount. Confirm order mode, stock, taxes and shipping at checkout.",
+      "kind": "text",
+      "context": "The US storefront displayed subscription and one-time controls, but one reliable delivered price for a selected one-time 12 oz pack was not established. This page therefore supplies a check-price link only and claims no current discount. Confirm order mode, stock, taxes and shipping at checkout. [1]"
+    },
+    {
+      "id": "bc726929cb22901d48d07cca609480cecfb8fe97d90816e6c537d4839af429f1",
+      "source": "Buy 17ft for its specific robusta-accented classic-espresso role. If that feature is unwanted, Hayes Valley is the closer Blue Bottle dark espresso alternative; Giant Steps addresses French press with milk more directly.",
+      "kind": "text",
+      "context": "Buy 17ft for its specific robusta-accented classic-espresso role. If that feature is unwanted, Hayes Valley is the closer Blue Bottle dark espresso alternative; Giant Steps addresses French press with milk more directly."
+    },
+    {
+      "id": "14ced558d95f121fa0583595861706f29db41b15b8902ec01cd3165619fef414",
+      "source": "Hayes Valley is another dark Blue Bottle espresso, but its current US record says washed organic coffees from the Americas rather than an explicit robusta accent. The two names are not aliases or variant bags.",
+      "kind": "text",
+      "context": "Hayes Valley is another dark Blue Bottle espresso, but its current US record says washed organic coffees from the Americas rather than an explicit robusta accent. The two names are not aliases or variant bags. [1] [7]"
+    },
+    {
+      "id": "1b3ec60ce3088f9555b1621b0f3ccaa927d6684849584689129c682b7e08be1f",
+      "source": "Onyx Monarch is an existing darker milk-drink blend with a different fruit-and-chocolate brief. Compare exact bag identity and what the roaster actually says before inferring that all dark blends create the same shot.",
+      "kind": "text",
+      "context": "Onyx Monarch is an existing darker milk-drink blend with a different fruit-and-chocolate brief. Compare exact bag identity and what the roaster actually says before inferring that all dark blends create the same shot."
+    },
+    {
+      "id": "fd1bfb623b117088f301fb81879884fa5658d069d21f5823d47e8862602abf42",
+      "source": "Blue Bottle Hayes Valley Espresso",
+      "kind": "text",
+      "context": "Blue Bottle Hayes Valley Espresso"
+    },
+    {
+      "id": "06694827bbf39f9eae3e88f1cbf3f8d2306789dd6ca0d6468b7e08262fdecf68",
+      "source": "a dark washed espresso brief without a declared robusta component",
+      "kind": "text",
+      "context": "a dark washed espresso brief without a declared robusta component"
+    },
+    {
+      "id": "c49942f6d423cf2520250dae25be3e0c89ee47b987b5eb595b09a60b0c7034f8",
+      "source": "17ft Ceiling Espresso FAQ",
+      "kind": "text",
+      "context": "17ft Ceiling Espresso FAQ"
+    },
+    {
+      "id": "4c99c1613daae146f71e1c5669fdd965a843d69b50327f1686d49adc76327c7b",
+      "source": "What is Blue Bottle 17ft Ceiling Espresso?",
+      "kind": "text",
+      "context": "What is Blue Bottle 17ft Ceiling Espresso?"
+    },
+    {
+      "id": "8620c9813922cf7c0d58f582f9f129c7cc93bd762d6296220cce7880b786fc70",
+      "source": "What does 17ft Ceiling Espresso taste like?",
+      "kind": "text",
+      "context": "What does 17ft Ceiling Espresso taste like?"
+    },
+    {
+      "id": "02d8cb755dc5b335de79c6fe5228e32be7ec015efdde00df3cc72c88b953e1f7",
+      "source": "Blue Bottle lists caramel, almond, dried cherry. These are roaster descriptors; Coffeedant has not tasted the bag.",
+      "kind": "text",
+      "context": "Blue Bottle lists caramel, almond, dried cherry. These are roaster descriptors; Coffeedant has not tasted the bag."
+    },
+    {
+      "id": "7cf3f7981f3ef61c37037a8de40271ab63182f97bd1487ead1709fea10646c6e",
+      "source": "How should I brew 17ft Ceiling Espresso?",
+      "kind": "text",
+      "context": "How should I brew 17ft Ceiling Espresso?"
+    },
+    {
+      "id": "82119fa71f09a46825cd7546e5d8ebf1732996fafd1d33e04e77f8b7861cb048",
+      "source": "Latin American and East African coffees; exact current countries and farms not specified Includes fine robusta; Arabica component varieties not specified Check the delivered bag for any current component panel.",
+      "kind": "text",
+      "context": "Latin American and East African coffees; exact current countries and farms not specified Includes fine robusta; Arabica component varieties not specified Check the delivered bag for any current component panel."
+    },
+    {
+      "id": "0735ca63a72bec8615602384ccfcb3daf1cafaa5ac827ece4137f8772c5aecfb",
+      "source": "Blue Bottle Coffee US image of the 12 oz whole-bean package; packaging is not a current-lot certificate.",
+      "kind": "text",
+      "context": "Blue Bottle Coffee US image of the 12 oz whole-bean package; packaging is not a current-lot certificate."
+    },
+    {
+      "id": "4769eb1c85f0e8306ce2e710df885916a0b2e17a7b94d9cfc082e45dd1a5600d",
+      "source": "Blue Bottle US: 17ft Ceiling Espresso",
+      "kind": "text",
+      "context": "Blue Bottle US: 17ft Ceiling Espresso ↗"
+    },
+    {
+      "id": "e1be48909a68b4e184c8ae6b01d5a51c7438cc6f38a5b46afcf1c76d93f1123b",
+      "source": "Blue Bottle moka pot guide",
+      "kind": "text",
+      "context": "Blue Bottle moka pot guide ↗"
+    },
+    {
+      "id": "bf6b49e3ff6ba82eda518faded5b6d72f9e29c56e2f194272ff28199266a3e24",
+      "source": "Separate device guidance, not an espresso extraction measure. Checked 2026-10-21.",
+      "kind": "text",
+      "context": "Separate device guidance, not an espresso extraction measure. Checked 2026-10-21."
+    },
+    {
+      "id": "ddd68fdf5b527f537f5e474d58497d90d14d0964449e20913b980bcd01d89e32",
+      "source": "Home-Barista: older Blue Bottle subscription review",
+      "kind": "text",
+      "context": "Home-Barista: older Blue Bottle subscription review ↗"
+    },
+    {
+      "id": "8932b64f1fed64fd89ebabebd63c575beb6e80ae65fc010ed4d35e7b37ffd16c",
+      "source": "Older independent delivery and blend context; not a current controlled 17ft tasting. Checked 2026-10-21.",
+      "kind": "text",
+      "context": "Older independent delivery and blend context; not a current controlled 17ft tasting. Checked 2026-10-21."
+    },
+    {
+      "id": "0d4039e0fe83532f8a495ef74141d0a920e66de92df2063dd08a57672851e731",
+      "source": "Blue Bottle 17ft Ceiling product-page buyer reviews",
+      "kind": "text",
+      "context": "Blue Bottle 17ft Ceiling product-page buyer reviews ↗"
+    },
+    {
+      "id": "d7d86672b299dc01474624ee051e5f5889cecd1e7c5e71cc947fbe4bd7179b8e",
+      "source": "Self-selected verified buyers disagree about body and flavor; not a representative score. Checked 2026-10-21.",
+      "kind": "text",
+      "context": "Self-selected verified buyers disagree about body and flavor; not a representative score. Checked 2026-10-21."
+    },
+    {
+      "id": "3d9559156c8299467f1c1725f2ca9099d2ff1ae562731bc3cc2edbf66f25f35b",
+      "source": "Coffeedant: Blue Bottle Hayes Valley Espresso",
+      "kind": "text",
+      "context": "Coffeedant: Blue Bottle Hayes Valley Espresso ↗"
+    },
+    {
+      "id": "a99d09c1e8670b1c7ab8eb2021ef83a1ca792fb3ba4d32cc7c99cf8f0fd094d1",
+      "source": "Blue Bottle Coffee US image of the 12 oz whole-bean package; packaging is not a current-lot certificate. Checked 2026-10-21.",
+      "kind": "text",
+      "context": "Blue Bottle Coffee US image of the 12 oz whole-bean package; packaging is not a current-lot certificate. Checked 2026-10-21."
+    },
+    {
+      "id": "3223ce6cfe52f9df0f75a4180a3ac44deef85c6a3ed5aa440085839db77f8503",
+      "source": "Buy 17ft Ceiling Espresso for its documented brew role",
+      "kind": "text",
+      "context": "Buy 17ft Ceiling Espresso for its documented brew role"
+    },
+    {
+      "id": "8b76aa60c075fe1c69a9c64e124618a0c9ee753df3709f06c529d9107b6d682f",
+      "source": "17ft Ceiling is the distinct Blue Bottle dark espresso for a buyer who wants a classic short-shot direction and is comfortable with a named robusta accent. Blue Bottle says its Latin American and East African coffees and fine robusta serve body and crema. Those are formulation and roaster-positioning claims, not Coffeedant extraction measurements. Start with one whole-bean bag, check the delivered roast date, and let a repeatable personal brew decide any larger order.",
+      "kind": "text",
+      "context": "17ft Ceiling is the distinct Blue Bottle dark espresso for a buyer who wants a classic short-shot direction and is comfortable with a named robusta accent. Blue Bottle says its Latin American and East African coffees and fine robusta serve body and crema. Those are formulation and roaster-positioning claims, not Coffeedant extraction measurements. Start with one whole-bean bag, check the delivered roast date, and let a repeatable personal brew decide any larger order."
+    },
+    {
+      "id": "0ca97067a6ee7645d88c72f3f1e051277cfbc014e57f7d9314d2405a9796cb32",
+      "source": "Check 17ft Ceiling Espresso at the roaster",
+      "kind": "text",
+      "context": "Check 17ft Ceiling Espresso at the roaster ↗"
+    },
+    {
+      "id": "4a19d5fb63e134cebfe7e19145fadc94f7bd308f167ad7e6346ac691ed124f2e",
+      "source": "Blue Bottle 17ft Ceiling review: a dark espresso with robusta | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "588c0ed13fb5bf253f0351aa23f55cbe073730b1d5cadaba9d5113e5a3bd846d",
+      "source": "Research-led US review of Blue Bottle 17ft Ceiling Espresso: current blend identity, attributed notes, brew role, freshness, alternatives and limits.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "f8ac78f1ac02f643b04717b7ca1363a6d82e53243797336baa439b1943d7ee7d",
+      "source": "Blue Bottle Coffee US image of the 12 oz whole-bean package; packaging is not a current-lot certificate.",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "a10773df163d793ae4df3ee2b05af784ec551f1580631cd6f14d8fee719dcf2c",
+      "source": "Blue Bottle Coffee 17ft Ceiling Espresso",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "6d2227986226e9acdc9ba753024a6a439b98a33de7a5387a996fe90ecb21aee8",
+      "source": "Blue Bottle 17ft Ceiling review: a dark espresso with robusta",
+      "kind": "json",
+      "context": "headline"
+    },
+    {
+      "id": "b58db34274b85bd0eb26aea9648f66288e991e2b98e651c1670bd6f10504c237",
+      "source": "What is Blue Bottle 17ft Ceiling Espresso?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "90b8334540236c08fbc0559f5ad704ab84c405f4e6507e039f4d4365a5cdd927",
+      "source": "Blue Bottle names 17ft Ceiling after its former Mint Plaza café and says the blend joins Latin American and East African coffees with fine robusta. The US product page calls it dark roast. The wording identifies a genuine blend-design difference from Hayes Valley, but does not specify every current country, farm, proportion or processing method.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "40ce4ec52fffb1d523b789539f5d5c97422eca71bc666cc52290f8d2f5e9cfbe",
+      "source": "What does 17ft Ceiling Espresso taste like?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "1e677393f325c7e446e660410e066d2ed33cfc52c550aed46312470eee39f5ea",
+      "source": "Blue Bottle lists caramel, almond, dried cherry. These are roaster descriptors; Coffeedant has not tasted the bag.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "f46763b0ec910beeba6a498d8d6e8eb1d4db7de3fcee8da471eddcd666ae6107",
+      "source": "How should I brew 17ft Ceiling Espresso?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "dad7df23ff869a7e21f3dc39fe91437684353fdc973c476f46b6dad87b85f01c",
+      "source": "Blue Bottle presents 17ft Ceiling as a classic espresso and mentions a ristretto design. Begin with a basket-appropriate dose and a short weighed yield, then adjust grind on the delivered bag. There is no single product-page dose and yield that Coffeedant can present as a verified home result.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "3cac872a3c2264d10adb7daae67ad73e43eb915c42ffd08dc676d970eabb3af9",
+      "source": "Latin American and East African coffees; exact current countries and farms not specified Includes fine robusta; Arabica component varieties not specified Check the delivered bag for any current component panel.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "ee8b9e1db6fcbbe9924e44830cc040bece4b3f68357db6a8949d6ef2d82b3d9c",
+      "source": "Blue Bottle Hayes Valley Espresso review: a dark café ristretto brief | Coffeedant",
+      "kind": "text",
+      "context": "Blue Bottle Hayes Valley Espresso review: a dark café ristretto brief | Coffeedant"
+    },
+    {
+      "id": "0a41b9ec5b7734e6d5ee604002e11806653231133c91865e6ccd349b095d922c",
+      "source": "Research-led US review of Blue Bottle Hayes Valley Espresso: current blend identity, attributed notes, brew role, freshness, alternatives and limits.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "813ffd8b22879d833f68191c2de085729c600881278977aff5164806fe2ef7b7",
+      "source": "Blue Bottle Hayes Valley Espresso review: a dark café ristretto brief | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "e0d104ae223febd05578c7cf6277674c492cd0dda6ccccdb806e1619d576dec2",
+      "source": "Blue Bottle Coffee Hayes Valley Espresso",
+      "kind": "text",
+      "context": "Blue Bottle Coffee Hayes Valley Espresso"
+    },
+    {
+      "id": "5e9e7e1746a4f3b5fee47253baa62f4c774c6c23fdfcaee7825f116955c7377f",
+      "source": ". Blue Bottle Coffee US product imagery; packaging identifies the blend, not the delivered roast date.",
+      "kind": "text",
+      "context": "Image: Blue Bottle Coffee. Blue Bottle Coffee US product imagery; packaging identifies the blend, not the delivered roast date."
+    },
+    {
+      "id": "e78d9587b9a123e562ffaf4ea2d273279193d02ba0155b4460f69f8aea74e9f0",
+      "source": "Blue Bottle Hayes Valley Espresso review: a dark café ristretto brief",
+      "kind": "text",
+      "context": "Blue Bottle Hayes Valley Espresso review: a dark café ristretto brief"
+    },
+    {
+      "id": "316535d0f69711ec04542f3e0b7b2d1adda22e96efed5b91ffb6f56f349a925f",
+      "source": "A short, concentrated espresso with a cocoa-forward brief",
+      "kind": "text",
+      "context": "A short, concentrated espresso with a cocoa-forward brief"
+    },
+    {
+      "id": "0a49d3f744f816c056c1d5061d0cbf5f372119367bf5b95dd7ee4ba86f2cdcc1",
+      "source": "Small cappuccinos or lattes following Blue Bottle’s café use",
+      "kind": "text",
+      "context": "Small cappuccinos or lattes following Blue Bottle’s café use"
+    },
+    {
+      "id": "f02f3042843513245767889569c56682931bce3cdd3a53838b6cdce14e18892b",
+      "source": "Buyers who can dial in a dark espresso rather than expect a universal setting",
+      "kind": "text",
+      "context": "Buyers who can dial in a dark espresso rather than expect a universal setting"
+    },
+    {
+      "id": "c119b3810ae3cc902b172683c2e153abb1789348c6b51557abea6c2140793e6e",
+      "source": "You want a light, tea-like or fruit-first filter coffee",
+      "kind": "text",
+      "context": "You want a light, tea-like or fruit-first filter coffee"
+    },
+    {
+      "id": "fe1387710ed35d718e6b0c8632a291f2a15f658fa03d33fd09c8c9bae4765852",
+      "source": "You need named current farms and varieties",
+      "kind": "text",
+      "context": "You need named current farms and varieties"
+    },
+    {
+      "id": "91b3910f8daf858963a8d6bb767734a86207eba5babd431b6cc3d57e9eb04fdc",
+      "source": "You expect a roaster note to guarantee a specific home shot",
+      "kind": "text",
+      "context": "You expect a roaster note to guarantee a specific home shot"
+    },
+    {
+      "id": "c781e02b8ed401f09c71409f78ec6f8d0c73bff855ca336e55f20a7e4ac71c3f",
+      "source": "Blue Bottle Coffee Hayes Valley Espresso, US whole-bean product",
+      "kind": "text",
+      "context": "Blue Bottle Coffee Hayes Valley Espresso, US whole-bean product"
+    },
+    {
+      "id": "98aeb12bbc5a955ed498d184e26e93db6813a9e390a6b2bc6212175fbe250d8e",
+      "source": "Dark according to Blue Bottle US",
+      "kind": "text",
+      "context": "Dark according to Blue Bottle US"
+    },
+    {
+      "id": "6631d42f5629922f280c502d2ab5be2cb1f0faead27ba522c70aeb655bb952a2",
+      "source": "baking chocolate, orange zest, brown sugar; not Coffeedant tasting",
+      "kind": "text",
+      "context": "baking chocolate, orange zest, brown sugar; not Coffeedant tasting"
+    },
+    {
+      "id": "6dd9072dbbe5dd8a027e33c43aa25999eb35b469a04c5263df026a1444619e9c",
+      "source": "Organic coffees from the Americas; current farm and country blend not specified on the US page",
+      "kind": "text",
+      "context": "Organic coffees from the Americas; current farm and country blend not specified on the US page"
+    },
+    {
+      "id": "08a2fc525b639e4d03238efcfa345d6cfa70360d5c5a7a3804533c71acd39f5e",
+      "source": "Washed, as labeled on the current US page",
+      "kind": "text",
+      "context": "Washed, as labeled on the current US page"
+    },
+    {
+      "id": "11a3cf2ffb6e2a151939695253ffd440b79748a086aa40525d9e732b11e55020",
+      "source": "12 oz US whole-bean bag pictured; confirm the selected live size",
+      "kind": "text",
+      "context": "12 oz US whole-bean bag pictured; confirm the selected live size"
+    },
+    {
+      "id": "a80fa2c085c6aa742d1662159da704c8e697bad8601e9b76be03816e84f3b2f2",
+      "source": "The reviewed product is the US whole-bean Hayes Valley Espresso, not a ready-to-drink café beverage or a rotating espresso subscription. Blue Bottle labels the current page dark roast and washed, describing organic coffees from the Americas. It does not name a complete current farm, country or variety composition. A historic recipe, Japanese bag or owner post cannot fill those missing US lot details.",
+      "kind": "text",
+      "context": "The reviewed product is the US whole-bean Hayes Valley Espresso, not a ready-to-drink café beverage or a rotating espresso subscription. Blue Bottle labels the current page dark roast and washed, describing organic coffees from the Americas. It does not name a complete current farm, country or variety composition. A historic recipe, Japanese bag or owner post cannot fill those missing US lot details. [1]"
+    },
+    {
+      "id": "29a40237df297e4bcb2adc8a3331405f67444ebc622b580da70b0c78a157e7a3",
+      "source": "Blue Bottle says Hayes Valley is served across its cafés and uses a short ristretto approach. That is a meaningful intended use, but a home grinder, basket and roast date can change the starting point. Check the delivered bag rather than treating the package photograph as a production-lot record.",
+      "kind": "text",
+      "context": "Blue Bottle says Hayes Valley is served across its cafés and uses a short ristretto approach. That is a meaningful intended use, but a home grinder, basket and roast date can change the starting point. Check the delivered bag rather than treating the package photograph as a production-lot record. [1]"
+    },
+    {
+      "id": "029797e3d1badec0d6100a0d177400d04b7ac387f4dde08ab97ef24dde417105",
+      "source": "Baking chocolate, orange zest and brown sugar are Blue Bottle’s descriptors. They describe its target, not Coffeedant tasting. An older independent Coffee Cantata sample offers a separate person’s extraction account, and espresso owners report both enjoyable milk drinks and difficulty dialing it in. Those bags predate this check and cannot establish the flavor or consistency of the next shipment.",
+      "kind": "text",
+      "context": "Baking chocolate, orange zest and brown sugar are Blue Bottle’s descriptors. They describe its target, not Coffeedant tasting. An older independent Coffee Cantata sample offers a separate person’s extraction account, and espresso owners report both enjoyable milk drinks and difficulty dialing it in. Those bags predate this check and cannot establish the flavor or consistency of the next shipment. [1] [3] [4]"
+    },
+    {
+      "id": "8cc6d44590cfbdc8406f4cf998ca685d6c3e854380d451cb790799b3429311a3",
+      "source": "The orange cue is a useful warning to a buyer seeking only low-fruit cocoa. A dark label does not remove every bright note. Start with one bag, prepare repeatable doses, and decide from the delivered coffee rather than from a numeric sensory score we have not earned.",
+      "kind": "text",
+      "context": "The orange cue is a useful warning to a buyer seeking only low-fruit cocoa. A dark label does not remove every bright note. Start with one bag, prepare repeatable doses, and decide from the delivered coffee rather than from a numeric sensory score we have not earned."
+    },
+    {
+      "id": "7a603f0b07aa153d6149182352e145592b0a454ff3cc40438eaec21b8287dbc6",
+      "source": "Blue Bottle’s café explanation favors ristretto: a shorter finished beverage than a conventional long espresso. It does not supply one reliable home dose and yield for every basket on this product page. Begin within your basket’s capacity, weigh the ground dose and finished beverage, then adjust grind against the actual bag. Do not copy the site’s 27 g to 350 g pour-over recipe into a portafilter.",
+      "kind": "text",
+      "context": "Blue Bottle’s café explanation favors ristretto: a shorter finished beverage than a conventional long espresso. It does not supply one reliable home dose and yield for every basket on this product page. Begin within your basket’s capacity, weigh the ground dose and finished beverage, then adjust grind against the actual bag. Do not copy the site’s 27 g to 350 g pour-over recipe into a portafilter. [1]"
+    },
+    {
+      "id": "bcb9eb69b4e217153fca0921b4c6309699d947dd539c53b57ad8f8458b352f00",
+      "source": "Milk softens the concentration and can make the chocolate brief feel different. Keep milk volume fixed if comparing Hayes Valley with another bag. A large latte may hide the orange nuance that Blue Bottle describes; a small cappuccino is a more faithful first comparison to its café role.",
+      "kind": "text",
+      "context": "Milk softens the concentration and can make the chocolate brief feel different. Keep milk volume fixed if comparing Hayes Valley with another bag. A large latte may hide the orange nuance that Blue Bottle describes; a small cappuccino is a more faithful first comparison to its café role."
+    },
+    {
+      "id": "18926a2b2b4328bdd8e10a1b31d5b2194633a0b282a670d3f70d038ff3e029c1",
+      "source": "Look for the actual roast date when the bag arrives, then store opened whole beans sealed, dry and away from heat. Blue Bottle’s freshness writing explains why roast timing and degassing matter, but it does not prove a universal peak day for this particular shipment.",
+      "kind": "text",
+      "context": "Look for the actual roast date when the bag arrives, then store opened whole beans sealed, dry and away from heat. Blue Bottle’s freshness writing explains why roast timing and degassing matter, but it does not prove a universal peak day for this particular shipment. [5] [6]"
+    },
+    {
+      "id": "55addcee53d49911167c9e57535a2a58d4418ecf07e2094b7bde0eb191f31b5d",
+      "source": "The pictured 12 oz format gives about nineteen theoretical 18 g doses before dial-in waste. Espresso uses beans rapidly while settings settle; a much larger pack should follow a successful first bag and a realistic household consumption rate.",
+      "kind": "text",
+      "context": "The pictured 12 oz format gives about nineteen theoretical 18 g doses before dial-in waste. Espresso uses beans rapidly while settings settle; a much larger pack should follow a successful first bag and a realistic household consumption rate."
+    },
+    {
+      "id": "d7e7950ee0f648086c1d7c9df6bb842ea6ed826b65193d91bc659c8b897772b9",
+      "source": "The accessible US product page mixes one-time and subscription selectors, and it did not establish a reliable delivered one-time 12 oz total for this check. We therefore make no current price or discount claim. Verify the size, order mode, stock, shipping and tax in the active cart.",
+      "kind": "text",
+      "context": "The accessible US product page mixes one-time and subscription selectors, and it did not establish a reliable delivered one-time 12 oz total for this check. We therefore make no current price or discount claim. Verify the size, order mode, stock, shipping and tax in the active cart. [1]"
+    },
+    {
+      "id": "431c387671e2c3c75c926d571bdc091709380716d9b8bc141552bab401a235ad",
+      "source": "Its value comes from a clearly stated dark ristretto and café milk role. If the household mostly makes French press without milk, Giant Steps has a more explicit press recommendation and is the more direct comparison.",
+      "kind": "text",
+      "context": "Its value comes from a clearly stated dark ristretto and café milk role. If the household mostly makes French press without milk, Giant Steps has a more explicit press recommendation and is the more direct comparison."
+    },
+    {
+      "id": "3eef33dc40be41d1e04b80d7f8f14fd11cf768ed30be0ba789c83447099bac94",
+      "source": "17ft Ceiling is Blue Bottle’s separate classic-Italian-inspired espresso with an explicitly named fine robusta component. Hayes Valley’s current US page instead describes a washed organic Americas blend. Those identities should not be merged because both are dark café coffees.",
+      "kind": "text",
+      "context": "17ft Ceiling is Blue Bottle’s separate classic-Italian-inspired espresso with an explicitly named fine robusta component. Hayes Valley’s current US page instead describes a washed organic Americas blend. Those identities should not be merged because both are dark café coffees. [1] [7]"
+    },
+    {
+      "id": "965092ac5d4d8d8ee21f394ea98f4df01d7de559f5460eb3b853808cb0b8e77e",
+      "source": "For a less dark multi-method bag, Stumptown Hair Bender is an existing Coffeedant alternative. Compare the roasters’ stated roles, then use the same grinder and milk volume when judging your own cup.",
+      "kind": "text",
+      "context": "For a less dark multi-method bag, Stumptown Hair Bender is an existing Coffeedant alternative. Compare the roasters’ stated roles, then use the same grinder and milk volume when judging your own cup."
+    },
+    {
+      "id": "e90f65392f68fc8c929f623db9ef82dbd8339b236954e35986f274ad3ecd2297",
+      "source": "Blue Bottle 17ft Ceiling Espresso",
+      "kind": "text",
+      "context": "Blue Bottle 17ft Ceiling Espresso"
+    },
+    {
+      "id": "75e30f7006f006771018dc2e2fd87fb240c1518545ecd545e45b052278bed58e",
+      "source": "a separate dark espresso with a documented robusta accent",
+      "kind": "text",
+      "context": "a separate dark espresso with a documented robusta accent"
+    },
+    {
+      "id": "15145dc2631903f82f33c2291a0c363d22cc6148caeec7b1eef0971072fb46a7",
+      "source": "Hayes Valley Espresso FAQ",
+      "kind": "text",
+      "context": "Hayes Valley Espresso FAQ"
+    },
+    {
+      "id": "b22ad5aff4a88af029021b3ca5cfd89ba99e663fcc0d6963159cd5cb5a32fe01",
+      "source": "What is Blue Bottle Hayes Valley Espresso?",
+      "kind": "text",
+      "context": "What is Blue Bottle Hayes Valley Espresso?"
+    },
+    {
+      "id": "03c5d3cf8a0008664f4b8d059d2f250ee9e0b415cd12ca66fd206f7fc47e950b",
+      "source": "What does Hayes Valley Espresso taste like?",
+      "kind": "text",
+      "context": "What does Hayes Valley Espresso taste like?"
+    },
+    {
+      "id": "d2dfdcafebe1a308e2fde335e616d1081cc34520641335dd26cdc958d4c56438",
+      "source": "Blue Bottle lists baking chocolate, orange zest, brown sugar. These are roaster descriptors; Coffeedant has not tasted the bag.",
+      "kind": "text",
+      "context": "Blue Bottle lists baking chocolate, orange zest, brown sugar. These are roaster descriptors; Coffeedant has not tasted the bag."
+    },
+    {
+      "id": "43eb46ff54c6435ba0fdcc59f4299d0c3025adaa6c6a255732891efb3257db7a",
+      "source": "How should I brew Hayes Valley Espresso?",
+      "kind": "text",
+      "context": "How should I brew Hayes Valley Espresso?"
+    },
+    {
+      "id": "1202d7d98edd9ec7660bb4dfebb17e79160369e9018815418d127fd4854b1e3a",
+      "source": "Organic coffees from the Americas; current farm and country blend not specified on the US page Not specified for the complete blend Check the delivered bag for any current component panel.",
+      "kind": "text",
+      "context": "Organic coffees from the Americas; current farm and country blend not specified on the US page Not specified for the complete blend Check the delivered bag for any current component panel."
+    },
+    {
+      "id": "82909d8f3f1fa9c7aa2444a50855c336be42e7a49aa3dcc096ff32137bb598a0",
+      "source": "Blue Bottle Coffee US product imagery; packaging identifies the blend, not the delivered roast date.",
+      "kind": "text",
+      "context": "Blue Bottle Coffee US product imagery; packaging identifies the blend, not the delivered roast date."
+    },
+    {
+      "id": "863391474e68b635de246d26d806ca6f0aecf70886d8ca3b930c767a3b03f32f",
+      "source": "Blue Bottle US: Hayes Valley Espresso",
+      "kind": "text",
+      "context": "Blue Bottle US: Hayes Valley Espresso ↗"
+    },
+    {
+      "id": "98de285499527a1fd1f365090bc6be76a2796c2d490bf6afc6b98f93ac237ec6",
+      "source": "Blue Bottle Hayes Valley café and brew guidance",
+      "kind": "text",
+      "context": "Blue Bottle Hayes Valley café and brew guidance ↗"
+    },
+    {
+      "id": "79beb4ea315c2d78a55a66aec311f6e930a43fc7b2f32882e98b46799c968d86",
+      "source": "Roaster café ristretto role and separate filter recipe, not Coffeedant testing. Checked 2026-10-21.",
+      "kind": "text",
+      "context": "Roaster café ristretto role and separate filter recipe, not Coffeedant testing. Checked 2026-10-21."
+    },
+    {
+      "id": "077aa71bbb27df52fa75d7d39880b328b388ac0acf2f073fb49239627141b597",
+      "source": "Coffee Cantata: Hayes Valley sample review",
+      "kind": "text",
+      "context": "Coffee Cantata: Hayes Valley sample review ↗"
+    },
+    {
+      "id": "bc50af68b4d913ed49596cbafbd32ba898e7b4c84f8178ad06e9eaf120378623",
+      "source": "Older independent bag and home espresso account; no claim about the current blend. Checked 2026-10-21.",
+      "kind": "text",
+      "context": "Older independent bag and home espresso account; no claim about the current blend. Checked 2026-10-21."
+    },
+    {
+      "id": "339bc1778c268bd3a0de109165eef786549435b560b8e2a38d720c360f395514",
+      "source": "r/espresso: Hayes Valley home brewing reports",
+      "kind": "text",
+      "context": "r/espresso: Hayes Valley home brewing reports ↗"
+    },
+    {
+      "id": "9a47dc0526385b892d06a37c4dccf1cf059baaa45565d735c54dda2ce397e2d4",
+      "source": "One self-selected owner struggled with repeatability; other users report different outcomes. Checked 2026-10-21.",
+      "kind": "text",
+      "context": "One self-selected owner struggled with repeatability; other users report different outcomes. Checked 2026-10-21."
+    },
+    {
+      "id": "6e8e91590207732bf0691135786f945a9b8d160d5f5fd826210333ad874dc57f",
+      "source": "Coffeedant: Blue Bottle 17ft Ceiling Espresso",
+      "kind": "text",
+      "context": "Coffeedant: Blue Bottle 17ft Ceiling Espresso ↗"
+    },
+    {
+      "id": "9ccb852167059de2175634d7d30fae5ebd52aadb23f4b49f8615b61574c51f2a",
+      "source": "Blue Bottle Coffee US product imagery; packaging identifies the blend, not the delivered roast date. Checked 2026-10-21.",
+      "kind": "text",
+      "context": "Blue Bottle Coffee US product imagery; packaging identifies the blend, not the delivered roast date. Checked 2026-10-21."
+    },
+    {
+      "id": "fb38377ec8d1bd3b653c7ea51128e23f9fa661568f780244186ef04b1c7c5ce1",
+      "source": "Buy Hayes Valley Espresso for its documented brew role",
+      "kind": "text",
+      "context": "Buy Hayes Valley Espresso for its documented brew role"
+    },
+    {
+      "id": "ec01f05196c0b19afaaacdf54ca6b0055013acf1317b8dfc36112bec44cd28f8",
+      "source": "Hayes Valley is the clearest Blue Bottle first bag for someone recreating its chocolate-led café espresso or a small milk drink. The US page names washed processing, dark roasting and short ristretto service. Its tasting words and café practice do not prove how a home machine will extract a particular bag. Start with one whole-bean bag, check the delivered roast date, and let a repeatable personal brew decide any larger order.",
+      "kind": "text",
+      "context": "Hayes Valley is the clearest Blue Bottle first bag for someone recreating its chocolate-led café espresso or a small milk drink. The US page names washed processing, dark roasting and short ristretto service. Its tasting words and café practice do not prove how a home machine will extract a particular bag. Start with one whole-bean bag, check the delivered roast date, and let a repeatable personal brew decide any larger order."
+    },
+    {
+      "id": "8488cf3ff161b355c79638832ffd88f5f6c538aeace00ad84aeeb60125dad00f",
+      "source": "Check Hayes Valley Espresso at the roaster",
+      "kind": "text",
+      "context": "Check Hayes Valley Espresso at the roaster ↗"
+    },
+    {
+      "id": "645f8b5e4dd854a08d10a5fc5b843c8a1362d8e768e17a3f4e76bb5f9b5a5232",
+      "source": "Blue Bottle Hayes Valley Espresso review: a dark café ristretto brief | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "db1ee3cd25787f4d4e81de85bd76e16b432da0b908b1e49bdd4a04b21eb6de22",
+      "source": "Research-led US review of Blue Bottle Hayes Valley Espresso: current blend identity, attributed notes, brew role, freshness, alternatives and limits.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "21fb74aa857ded48947c6d0b4e3291ef965c259f281eca649bf29c4ef7867685",
+      "source": "Blue Bottle Coffee US product imagery; packaging identifies the blend, not the delivered roast date.",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "b9b627ff7d2c95fa5c724d5759b40c798dba6b71b16381033c7721e3f25a4188",
+      "source": "Blue Bottle Coffee Hayes Valley Espresso",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "06bd4a619906027d032637847c6fcdd46e8fd54cb0db352a9c1c36e582236031",
+      "source": "Blue Bottle Hayes Valley Espresso review: a dark café ristretto brief",
+      "kind": "json",
+      "context": "headline"
+    },
+    {
+      "id": "51a79e236b98051cacaabaffd51ac8af0240629eae4e01a6a89dbb385fbf7340",
+      "source": "What is Blue Bottle Hayes Valley Espresso?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "da428f8cec9400c0f5b0b3256761311069d6160d6ec5cd6c1d11d85bb2ee8a71",
+      "source": "The reviewed product is the US whole-bean Hayes Valley Espresso, not a ready-to-drink café beverage or a rotating espresso subscription. Blue Bottle labels the current page dark roast and washed, describing organic coffees from the Americas. It does not name a complete current farm, country or variety composition. A historic recipe, Japanese bag or owner post cannot fill those missing US lot details.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "57f94c3ef4ba48cd6e39502492d9e58d5d16e0c342b120af61545e2da0d44406",
+      "source": "What does Hayes Valley Espresso taste like?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "8caa228bcd00a37677e35a8b21e8a4cdba3234e7bb56a1292934d478715ca995",
+      "source": "Blue Bottle lists baking chocolate, orange zest, brown sugar. These are roaster descriptors; Coffeedant has not tasted the bag.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "4e197af0373e34c8389e3ff305f100311377e7e89aa6b37faf2022326cd38e7c",
+      "source": "How should I brew Hayes Valley Espresso?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "6770cdcc719eb6267d08aa169a44d9ded65b2282946e461610af9f411fa953cd",
+      "source": "Blue Bottle’s café explanation favors ristretto: a shorter finished beverage than a conventional long espresso. It does not supply one reliable home dose and yield for every basket on this product page. Begin within your basket’s capacity, weigh the ground dose and finished beverage, then adjust grind against the actual bag. Do not copy the site’s 27 g to 350 g pour-over recipe into a portafilter.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "de4fc2fc7d2dfaacbf675771309c2762f8e8d907157c14035591a07ce7382173",
+      "source": "Organic coffees from the Americas; current farm and country blend not specified on the US page Not specified for the complete blend Check the delivered bag for any current component panel.",
+      "kind": "json",
+      "context": "text"
+    }
+  ],
+  "snapshotHash": "9c2c5d5380458afe0efc7631456b1d03cbf33223b67016c29a2c272f23c94614"
+}

@@ -2098,6 +2098,58 @@ affected live pages, 249 regional sitemap URLs, assets and corresponding English
 language links after merging the scoped refresh; do not publish any partial
 watch page or change billing, Amazon API state or DNS.
 
+## Direct batch 42 — complete 17ft Ceiling and Hayes Valley (2026-10-21)
+
+Directly translated both complete current Blue Bottle espresso reviews into
+Netherlands Dutch, Germany German and France French. 17ft Ceiling contains
+1,463 source main words and Hayes Valley 1,562; each has 46 paragraphs and
+seven full visible/structured FAQ pairs. Complete bodies, metadata, accessible
+labels, product/image descriptions, source notes and existing schema are included.
+These remain research-led US assessments, not new Coffeedant purchases, brewing,
+tasting, measurements or photographs. No sensory score or local offer is invented.
+
+The immutable task freezes 126 missing slots / 100 distinct source strings.
+Its 96 full three-language translations preserve only four exact product names
+verbatim. Import adds 126 current cache entries per edition with zero previous
+cache text changed. The newer automatic cache update `9dc10f7` is retained.
+NL and DE use their native bean-category prefixes with the unchanged coffee
+slugs. The already registered French URLs remain
+`/blue-bottle-17ft-ceiling-espresso/` and `/blue-bottle-hayes-valley-espresso/`;
+they are not silently moved into another category. Every prior ready route,
+especially the approved Dutch dosing URL, remains stable.
+
+17ft retains its declared fine robusta, unknown current proportions/farms and
+classic short-shot role; it is not equated with Hayes Valley's washed organic
+Americas identity. Roaster crema/acidity descriptions are not measurements or
+proof of quality. Both keep the generic 27 g / 350 g pour-over recipe separate
+from a portafilter dose, with no invented universal home ristretto yield.
+Hayes Valley retains its orange note, bounded older Coffee Cantata/owner
+accounts, milk-volume guidance and roughly nineteen theoretical 18 g doses
+from the pictured 12 oz format before dial-in waste. Packaging is not a current
+lot/roast-date certificate; neither review claims a verified delivered US price
+or discount, much less a converted regional offer.
+
+All 154 localization tests and nine SEO tests pass. Six complete noindex
+previews compare full main text, paragraphs, seven FAQ pairs per article,
+all schema/metadata, accessible labels, original images/SVG, scripts and native
+runtime. API-free analytics validates 648 content pages plus 16 redirects;
+Finder (150 distinct records/six grinders), videos (393 watch pages), brands,
+beans and source SEO validation pass. The separate full regional production
+bundle and all six whole-page checks pass, as do all 258 emitted HTML
+source-hash/social-metadata/caption checks. These are bounded generated-output
+and runtime checks, not a browser session. After exact-head green merge verify
+exact production, all six whole live reviews,
+manifests, all 255 regular sitemap URLs, assets, language/canonical/indexability,
+reciprocal regional/English links and the unchanged Dutch dosing page.
+
+Coverage is 648 canonical source pages / 55,161 unique slots, with 85 complete
+regular pages plus 404 per edition, including 29/30 bean reviews and all 17
+Journal articles. Pending slots are NL 44,935 and DE/FR 44,910 each, Finder
+pending zero. Bella Donovan, the French-press guide, MOVE and substantial
+older content/watch pages remain queued. Full editions remain incomplete;
+keep ready-pages publication and continuation active. No Amazon API/credentials,
+paid translation API, billing, DNS changes or subagents are used in this batch.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
