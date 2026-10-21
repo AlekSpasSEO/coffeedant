@@ -7,6 +7,9 @@ const root=new URL('../',import.meta.url),read=p=>fs.readFileSync(new URL(p,root
 const catalog=json('src/data/product-videos.json'),assessments=json('src/data/product-video-assessments.json');
 const products=json('dist/product-video-inventory.json');
 const library=read('dist/videos/index.html'),doc=parse(library),nodes=walk(doc),schemas=graph(doc);
+// Inspect the built target: CI's CF_PAGES value is scoped to its build step.
+const base=attr(nodes.find(n=>n.tagName==='a'&&attr(n,'aria-label')==='Coffeedant home'),'href');
+assert.ok(['/', '/coffeedant/'].includes(base),'library has a recognized site base');
 const videos=Object.values(catalog).flat(),ids=new Set(videos.map(v=>v.id));
 const videoSitemap=read('dist/video-sitemap.xml');
 const watchPaths=new Set();
@@ -41,7 +44,6 @@ for(const p of products){
   assert.equal(watchNodes.filter(n=>n.tagName==='iframe').length,1,`${watchPath}: crawlable server-rendered player`);
   assert.equal(attr(watchNodes.find(n=>n.tagName==='link'&&attr(n,'rel')==='canonical'),'href'),`https://coffeedant.com${watchPath}`);
   assert.ok(videoSitemap.includes(`<loc>https://coffeedant.com${watchPath}</loc>`),`${watchPath}: video sitemap membership`);
-  const base=process.env.CF_PAGES==='1'?'/':'/coffeedant/';
   assert.ok(nodes.some(n=>n.tagName==='a'&&attr(n,'data-video-watch-link')!==undefined&&attr(n,'href')===`${base}${watchPath.slice(1)}`),`${watchPath}: crawlable library link`);
   assert.match(v.id,/^[\w-]{11}$/);assert.ok(v.title&&v.summary&&v.creator&&v.verifiedAt);
   assert.match(v.channelUrl,/^https:\/\/www\.youtube\.com\/channel\/[\w-]+$/);
