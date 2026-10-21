@@ -33,6 +33,14 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/profitec-move/': officialProductMedia(
+    'Profitec MOVE official product gallery',
+    'https://www.profitec-espresso.com/en/products/move',
+    [
+      { src:'https://www.profitec-espresso.com/media/pages/produkte/move/43bc2cebc9-1718703372/profitec-move-bezugstasten.jpg', alt:'Official Profitec MOVE programmable shot buttons beside the group', caption:'The buttons stop by programmed pump time on the original MOVE; they do not weigh the beverage.', width:1920, height:1240 },
+      { src:'https://www.profitec-espresso.com/media/pages/produkte/move/258de00b2e-1718703373/profitec-move-display-on.jpg', alt:'Official Profitec MOVE illuminated OLED display', caption:'The OLED displays settings and extraction time. Its ready indication does not measure first-shot temperature at the coffee.', width:1920, height:1240 },
+    ],
+  ),
   '/grinder/eureka-mignon-zero-65-all-purpose/': officialProductMedia(
     'Eureka Mignon Zero 65 All Purpose official gallery',
     'https://www.eureka.co.it/en/products/eureka%2B1920/prosumer%2Bgrinders/zero%2Brange/118/',

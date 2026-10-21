@@ -29,11 +29,12 @@ test('Streetlevel preserves all-purpose limits, attributed roast scale, seller p
  const source=await readJson(path.join(root,'localization/authored/bean-reviews-batch-37.source.json')),authored=await readJson(path.join(root,'localization/authored/bean-reviews-batch-37.json'));
  assert.equal(source.sourcePages.length,1);assert.equal(new Set(source.segments.map(s=>s.source)).size,51);assert.equal(Object.keys(authored.translations).length,48);
  assert.deepEqual(authored.preserveSource.map(i=>source.segments[i].source),['Verve Coffee Roasters Streetlevel','Coffeedant: Stumptown Hair Bender','Verve Coffee Roasters']);
- const beans=await readJson(path.join(root,'src/data/bean-review-manifest.json'));assert.equal(beans.length,25);
+ const beans=await readJson(path.join(root,'src/data/bean-review-manifest.json'));assert.equal(beans.length,30);
+ const historicalBeans=beans.filter(({productId})=>Number(productId.slice(-6))<=25);assert.equal(historicalBeans.length,25);
  for(const edition of ['nl','de','fr']){
   const cache=await loadCache(edition),text=i=>cache.segments[source.segments[i].id].text;
   const prefix={nl:'/koffiebonen/',de:'/kaffeebohnen/',fr:'/cafe-en-grains/'}[edition];assert.equal(authored.routes[edition]['/coffee-beans/verve-streetlevel/'],prefix+'verve-streetlevel/');
-  for(const b of beans)assert(Object.values(cache.routes).some(r=>r.sourcePath===b.slug),`${edition}: stable route ${b.slug}`);
+  for(const b of historicalBeans)assert(Object.values(cache.routes).some(r=>r.sourcePath===b.slug),`${edition}: stable route ${b.slug}`);
   for(const[i,numbers]of [[15,['6/10']],[19,['6 oz','12 oz','2.2 lb','5 lb']],[20,['6/10','Honduras','Guatemala']],[21,['12','6']],[27,['12','2.2','5']],[28,['12']],[38,['6 oz','12 oz','2.2 lb','5 lb']]])for(const n of numbers)assert(text(i).includes(n),`${edition} ${i}: ${n}`);
   assert(/niet als.*permanente|nicht als dauerhafte|pas.*permanente/.test(text(20)));
   assert(/niet.*bevestigen|weder.*bestätigen|ne peut confirmer/.test(text(22)));
