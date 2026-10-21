@@ -1874,6 +1874,62 @@ language/canonical/indexability/hreflang, preserved Dutch dosing and English
 return links. No paid translation API, Amazon API/credentials, billing or DNS
 changes, or subagents are used for this direct batch.
 
+## Direct batch 39 — complete methodology page (2026-10-21)
+
+Directly translated the complete current `/testing/` page into Netherlands
+Dutch, Germany German and France French: 3,873 source main words and all 92
+paragraphs, plus lists, headings, navigation labels, metadata and five complete
+visible methodology FAQ pairs. The source has Organization, WebSite, WebPage
+and BreadcrumbList graphs, not a FAQPage graph; their existing structure is
+preserved rather than inventing additional structured testing claims.
+
+The immutable task has 352 missing slots / 348 distinct strings, covered by
+346 complete authored translations and two verbatim source placeholder tokens:
+`[PRODUCT BOX]` and `[PRODUCT RATING]`. Both tokens also remain exact inside
+surrounding translated sentences. Import adds 352 current cache entries per
+edition, with no previous cache text changed. New stable routes are
+`/testmethode/`, `/testmethodik/` and `/methodologie/`. The approved Dutch dosing
+URL and every earlier localized route remain unchanged.
+
+This is a faithful translation of the existing US methodology publication,
+including its legacy first-person bench protocols, not an independent audit
+of those claims or evidence of new tests in NL/DE/FR. No test results, local
+experiments, regional model equivalence or local prices were invented. Water
+chemistry, CaCO3/TDS/pH, 230 V and 120 V references, temperatures, doses/yields,
+milk volumes, timing, 100-point category weights, unit-level caveats and stock
+configuration/firmware qualifications retain their original source scope.
+The complete panel, blind-test, stress/reliability, scoring, comparison and
+home-reproduction sections are included without replacing them with summaries.
+
+All 142 localization tests pass. Three whole-page noindex previews compare
+the full main text and paragraph count, all existing schema, metadata, links,
+accessible labels, original scripts and localized runtime. The separate full
+production bundle is rebuilt and checked after API-free analytics, Finder,
+video, brand-navigation and bean validation. These are rendered-output/runtime
+checks, not a browser session or coffee equipment experiment.
+
+The production audit found that the regional bundle indexed raw Astro HTML
+before the US SEO step. Pages without a hero could therefore regenerate the
+English default social-image description after translation. The bundle and
+the standalone `--astro` path now prepare canonical US SEO before source
+indexing, so generated metadata/schema text participates in translation and
+ready-page validation. An isolated helper plus two regression tests cover
+default alt/caption translation in all three locales and stable source hashes.
+The US editorial source is unchanged. Production checks also compare metadata,
+social captions and complete canonical source hashes across all emitted pages.
+
+Coverage remains 248 current source pages / 50,404 unique slots. Each edition
+has 80 complete regular pages plus 404, including all 25 current bean reviews
+and all 17 Journal articles. Finder remains 149 distinct records with no
+unverified prices or buying offers. Pending slots are NL 40,855 and DE/FR
+40,826 each. Full editions remain unfinished; keep ready-pages publication
+and continuation. After exact-head green checks and merge, verify the exact
+production deployment, three live methodology pages, matching manifests and
+all 240 regular sitemap URLs, TLS, language/canonical/indexability/reciprocal
+hreflang, preserved Dutch dosing and corresponding English return links.
+No paid translation API, Amazon API/credentials, billing or DNS changes,
+or subagents are used for this direct batch.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
