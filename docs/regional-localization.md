@@ -2150,6 +2150,68 @@ older content/watch pages remain queued. Full editions remain incomplete;
 keep ready-pages publication and continuation active. No Amazon API/credentials,
 paid translation API, billing, DNS changes or subagents are used in this batch.
 
+## Direct batch 43 — complete French-press guide and Bella Donovan (2026-10-21)
+
+Directly translated the entire current French-press bean guide and Bella
+Donovan review into NL/DE/FR. The guide contains 2,064 source main words and
+71 paragraphs, all five explanatory sections, both comparison tables, four
+full cards, nine source notes and seven visible/structured FAQ pairs. Bella
+Donovan has 1,460 words / 46 paragraphs and seven full FAQ pairs. Headers,
+metadata, accessible labels, image descriptions and all original schema are
+included, without replacing bodies with summaries or inventing local testing.
+
+The frozen task has 195 missing slots / 164 distinct strings. Its 162 complete
+translations retain only two exact coffee names verbatim. Import adds 195
+entries per edition and changes no prior cached text. Earlier ready routes and
+the approved Dutch dosing URL stay fixed. New Dutch guide URL is
+`/koffiebonen/beste-koffiebonen-voor-cafetiere/`; existing DE
+`/kaffeebohnen/beste-kaffeebohnen-fuer-french-press/` and FR
+`/meilleurs-cafes-pour-presse-francaise/` stay unchanged. Bella Donovan uses
+native NL/DE bean prefixes and the existing FR `/blue-bottle-bella-donovan/`.
+
+The guide keeps Giant Steps' 1:13 / thirty grams to 390 grams distinct from
+Equator's approximately 1:15 / 30 g to 450 g arithmetic. Neither is a measured
+Coffeedant extraction; Peet's and Night Light receive no fabricated precise
+press ratio. Water-decaf does not mean measured zero caffeine, mesh filtering
+does not remove all fruit or sediment, and the 12 oz / approximately 340 g /
+eleven theoretical 30 g brews remain qualified before dial-in waste. Korean
+250 g illustrations and the 2026 Japanese sample retain their regional limits.
+No unverified delivered-price ranking or discount is invented.
+
+Bella Donovan preserves its partial natural Ethiopian component, unknown
+remaining origins/proportions/varieties, US dark/organic labeling versus a
+different Canadian label, and the sample-specific 2017 Coffee Cantata press
+counterexample. Moka-Java inspiration is not a fixed Yemen/Java recipe, an
+espresso ratio or proof of shared farms with Peet's Arabian Mocha-Java. The
+27 g / 350 g pour-over sequence stays separate from press handling. All taste
+descriptors remain attributed; no Coffeedant purchase, brewing, tasting,
+measurement, photography, score or verified price/discount is claimed.
+
+157 localization tests and nine SEO tests pass. API-free source build,
+analytics/consent, Finder (150 distinct records and six grinders), videos,
+beans, brand-navigation and source SEO checks pass. Six complete noindex
+previews compare entire bodies and paragraph counts, all schema and FAQs,
+metadata/accessibility, original links, scripts/runtime, images and SVG.
+Additional guide checks compare six complete tables, twelve complete cards,
+accessible scrolling regions and twelve ready localized review destinations
+across three editions. The separate full production bundle, all six whole-page
+checks and the same table/card/destination checks also pass; all 264 emitted
+HTML pages pass current canonical hash/social metadata/caption checks. Merge
+only an exact green head against current main, then
+verify live production, all six whole pages, manifests, all 261 regular sitemap
+URLs, assets, TLS/lang/canonicals/indexability, stable Dutch dosing and reciprocal
+regional/English links. These are bounded generated-output/runtime/HTTP checks,
+not a new browser session or physical coffee test.
+
+Current source remains 648 canonical pages / 55,161 unique slots. Each edition
+has 87 complete regular pages plus 404, including all 30 current bean reviews,
+all five bean buying guides and all 17 Journal articles. Pending slots: NL
+44,740, DE/FR 44,715 each;
+Finder pending zero. MOVE, machine/grinder reviews and substantial other
+source/watch content remain queued. Full editions remain incomplete. Keep
+ready-pages publication and continuation active. No Amazon API/credentials,
+paid translation API, billing, DNS changes or subagents are used in this batch.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
