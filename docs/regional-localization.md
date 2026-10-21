@@ -1930,6 +1930,62 @@ hreflang, preserved Dutch dosing and corresponding English return links.
 No paid translation API, Amazon API/credentials, billing or DNS changes,
 or subagents are used for this direct batch.
 
+## Direct batch 40 — complete prosumer under-$1,000 guide (2026-10-21)
+
+Directly translated the entire current `/espresso-machine/prosumer-under-1000/`
+buying guide into Netherlands Dutch, Germany German and France French: all
+5,447 source main words, 154 paragraphs, both four-machine comparison tables,
+four documented operating schematics and bounded owner accounts, eight full
+visible and structured FAQ pairs, citations, video/accessibility labels,
+metadata and all existing structured data. The source is research-led and
+explicitly not a Coffeedant physical side-by-side test; those limits remain
+clear in every language. Owner anecdotes do not become reliability statistics,
+modified machines do not become factory specifications, and illustration
+credits do not become Coffeedant test photographs.
+
+The frozen task has 341 missing slots / 307 distinct strings. Its 305 complete
+authored translations retain only the exact model `Gaggia Classic Pro E24` and
+creator name `Cabeen’s Coffee Corner` verbatim. The four existing DE/FR labels
+are reused exactly. Import adds 343 current NL entries and 339 each in DE/FR,
+including exact wording reused across source kinds, with zero previous cache
+text changes. Existing NL `/prosumer-espresso-machines-onder-1000/` and DE
+`/prosumer-espresso-maschinen-unter-1000/` routes stay fixed; FR receives
+`/machines-expresso-prosumer-moins-de-1000/`. Earlier routes, including the
+approved Dutch dosing URL, remain unchanged.
+
+The dated US $1,000 machine-only cap, all source prices, the separate €549 EU
+reference, boiler sizes and electrical identities remain source facts, not
+new regional offers or converted prices. North American E24 is not the coated
+2023 Evo; 230 V EU PL41TEM is not silently equated to 120 V US PESAN06;
+Silvia V6 is not Silvia Pro X; current Flair Plus 2 is not an earlier 58/Plus.
+All four require separate grinders, single-boiler milk remains sequential,
+Flair still needs a kettle and separate milk equipment, and warranty/water/
+electrical-modification qualifications remain complete. No local tests,
+retailer eligibility, current offers or price refresh were invented.
+
+All 145 localization tests and seven SEO tests pass. Whole-page noindex previews
+compare complete main text, all 154 paragraphs, native metadata, all schema,
+eight FAQ pairs, original executable scripts, translated runtime, links,
+accessible attributes and unchanged image/SVG geometry. The embedded Finder
+is checked with its existing disabled regional budget control and native
+no-price explanation, not the source's US budget bands. The separate full
+production bundle receives the same whole-page checks and the all-page
+canonical source-hash/social-metadata audit after API-free analytics, Finder,
+video, brand-navigation, bean and SEO validation. These are generated-output
+and runtime checks, not a browser session or equipment experiment.
+
+Coverage remains 248 current canonical source pages / 50,404 unique slots.
+Each edition has 81 complete regular pages plus 404, including all 25 current
+bean reviews and 17 Journal articles. Pending slots are NL 40,512 and DE/FR
+40,487 each. Finder remains 149 distinct records, with no unverified prices
+or local buying offers. Full editions remain unfinished: retain ready-pages
+publication and continuation. Merge only an exact green head on current main;
+then verify the production deployment, three whole live guides, matching
+manifests, all 243 regular sitemap URLs, preserved Dutch dosing, TLS, language,
+canonical, indexability and reciprocal regional/English language links.
+No Amazon API/credentials, paid translation API, billing, DNS changes or
+subagents are used for this direct batch.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
