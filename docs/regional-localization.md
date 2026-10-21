@@ -2375,9 +2375,10 @@ generated-output/runtime/HTTP checks, not a new browser or physical machine test
 The prior beginner-guide deployment recovered after GitHub's webhook incident:
 exact merge `be3d07c` deployed to regional Pages as
 `bd5f6b45-38e5-49ae-aed7-64efdf128105`. Three whole live guides, all 288 sitemap
-URLs and native hub links passed. The verified 96-route release record is
-included here so the English site can add corresponding-page links; it does
-not announce the still-unpublished budget page. Keep ready counts separate
+URLs and native hub links passed. Automatic confirmation committed the same
+verified 96-route release record as `870cf15`; it is preserved, not duplicated,
+so the English site can add corresponding-page links. It does not announce
+the still-unpublished budget page. Keep ready counts separate
 from live counts until the deployment audit passes.
 
 Current source is still 648 canonical pages / 55,161 unique slots. This batch
