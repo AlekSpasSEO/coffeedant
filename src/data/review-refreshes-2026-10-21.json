@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "/espresso-machine/ninja-luxe-cafe-premier-es601/",
+    "productId": "CD-EM-000246",
+    "sectionId": "features",
+    "html": "<p><strong>Check your hot-water need:</strong> SharkNinja's US comparison lists espresso, drip and rapid cold brew for ES601; ES701 Pro adds hot water. If Americanos or tea are daily drinks, do not infer a dedicated hot-water mode from the Premier's steam wand. Compare the exact controls before buying. Checked October 21, 2026. <a href=\"#refresh-20261021\">[source]</a></p>",
+    "source": "https://www.sharkninja.com/ninja-luxe-cafe-premier-3-in-1-espresso-coffee-cold-brew/ES601.html",
+    "note": "US product comparison distinguishes ES601 three-mode brewing from ES701 four-mode brewing with hot water."
+  },
+  {
+    "slug": "/espresso-machine/fellow-espresso-series-1/",
+    "productId": "CD-EM-000247",
+    "sectionId": "features",
+    "html": "<p><strong>Software state now matters to a Series 1 handover:</strong> Fellow lists firmware 2.5.15, released in stages, with separate System and Precise Calibration flows, a long-press steam-wand purge, and fixes for group rinse, maintenance counters and descaling interruptions. A secondhand buyer should record the installed version in Settings, ask whether an update completed, and test the actual cleaning and calibration menus before relying on a seller's account of them. Staged rollout means a machine without 2.5.15 is not automatically faulty. These are Fellow's release notes, not Coffeedant verification of a particular unit or a reliability rate. Checked October 21, 2026. <a href=\"#refresh-20261021\">[source]</a></p>",
+    "source": "https://help.fellowproducts.com/hc/en-us/articles/41646457316123-What-is-the-latest-firmware-version-for-Series-1-what-did-it-update-and-what-s-next",
+    "note": "October 8 Fellow release notes identify staged 2.5.15 rollout, calibration, purge and cleaning/descale fixes."
+  },
+  {
+    "slug": "/espresso-machine/breville-oracle-dual-boiler-bes995/",
+    "productId": "CD-EM-000248",
+    "sectionId": "build",
+    "removeTexts": ["Integration creates convenience and a single purchase, but also concentrates repair and replacement decisions. ", "A self-selected thread about older Oracle models is not transferable evidence for this revision. "],
+    "html": "<p><strong>Prepare the BES995 for transit:</strong> its US guide lists an on-screen Empty Boilers cycle for shipping or storage, separate from cleaning and descaling. Ask a used seller whether that cycle was completed, especially before freezing conditions. Follow the delivered BES995 instructions, not valve steps from older Oracle models. Checked October 21, 2026. <a href=\"#refresh-20261021\">[source]</a></p>",
+    "source": "https://assets.breville.com/BES995/BES995_USCM_IB_B25_LR.pdf",
+    "note": "BES995 US guide lists an Empty Boilers cycle for shipping or storage among separate maintenance functions."
+  },
+  {
+    "slug": "/espresso-machine/delonghi-rivelia-exam44055b/",
+    "productId": "CD-EM-000249",
+    "sectionId": "workflow",
+    "removeTexts": ["The current bean has to be cleared from the grinder path before a strict decaf cup, and a small amount of previous grounds can remain. The machine’s Bean Switch prompts help manage that transition; they do not magically create two independent grinders. "],
+    "html": "<p><strong>Choose the cost of a bean switch:</strong> De'Longhi's EXAM44055B instructions offer a transition drink using the old beans or a Grind &amp; Empty cycle that discards them. Switching without clearing mixes beans in the next cup. A regular-and-decaf household should budget that drink or waste; neither option proves zero residual caffeine. Follow the screen's sequence. Checked October 21, 2026. <a href=\"#refresh-20261021\">[source]</a></p>",
+    "source": "https://www.delonghi.com/medias/EXAM44055B-287353",
+    "note": "EXAM44055B instructions describe Choose the drink and Grind & Empty and warn of mixing if beans are not cleared."
+  },
+  {
+    "slug": "/grinder/timemore-sculptor/",
+    "productId": "CD-GR-000003",
+    "sectionId": "workflow",
+    "removeTexts": ["A small purge can still be necessary after a major setting change when cross-dose carryover matters. "],
+    "html": "<p><strong>Plan the 078S as a single-dose grinder:</strong> Timemore lists a roughly 30 g hopper, 60-second auto-off and closed-lid advice to reduce popcorning. Larger filter batches need separate weighed charges; auto-off is not timed dosing. The 078S is stepless, unlike the stepped 078; confirm the suffix. Checked October 21, 2026. <a href=\"#refresh-20261021\">[source]</a></p>",
+    "source": "https://www.timemore.com/pages/sculptor-related-faq",
+    "note": "Timemore Sculptor FAQ: around 30 g hopper, 60-second auto-off, close lid, and stepless 078S versus stepped 078."
+  }
+]
