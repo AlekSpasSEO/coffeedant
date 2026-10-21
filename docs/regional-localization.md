@@ -2323,6 +2323,72 @@ substantial other source content remain queued. Full editions are incomplete;
 retain ready-pages publication and continuation. No Amazon API/credentials,
 paid translation API, billing, DNS changes or subagents are used by this batch.
 
+## Direct batch 46 — complete under-$500 machine guide (2026-10-21)
+
+Directly translated the full current budget espresso-machine guide into
+NL/DE/FR. The raw source main contains 6,135 words; the existing regional
+commerce policy removes only the US Amazon listing anchor, leaving 6,131
+prepared source words and all 161 paragraphs. No article paragraph is removed
+or summarized. Both complete comparison tables, four picks, four product
+schematics, owner evidence, maintenance/safety/first-week instructions,
+methodology, source annotations and all eight visible/structured FAQ pairs
+are included, with metadata and accessible labels.
+
+The immutable task has 245 missing slots / 218 distinct strings. Its 212
+complete three-language translations preserve six exact brand/model/source
+labels; import adds 246 current cache entries per edition across source kinds
+with zero previous text changes. New NL route is
+`/espressomachines-onder-500/`. Existing DE
+`/espresso-maschine/billig-budget-unter-500/` and FR
+`/machine-a-espresso/meilleures-machines-a-espresso-pas-cheres-moins-de-500/`
+remain fixed, as do all earlier ready URLs and the reviewed Dutch dosing page.
+
+The $500 limit remains machine-only, before tax and optional accessories;
+it is not a converted regional budget or a complete-station promise. Dated
+$499.95/$169.95/$159/$259 US observations and the September 17/23/25 checks
+retain their distinct context. ECP3420 US 120 V is not a European 230 V
+Espresso Evolution or another Dedica generation. Current Flair gauge/two-filter
+contents are not assigned to older owner reports; ROK Black PLUS is not assumed
+to equal an Explorer bundle. The £500 independent video remains a 2020
+comparison, not current US pricing. Pump maximum is not brew-pressure quality;
+manual presses still need external hot water, and the included ROK hand
+frother is not a steam wand. No local listing, warranty, measured lifespan,
+defect rate or Coffeedant physical test is invented. Electrical/pressure
+repair and hot-head cooling warnings remain explicit.
+
+166 localization tests and nine SEO tests pass, with API-free source build,
+analytics/consent, Finder (150 distinct records/six grinders), video, bean,
+brand-navigation and source SEO validators. Three full noindex previews compare
+all text/161 paragraphs, schema/FAQ answers, metadata, accessible attributes,
+unchanged images/SVG, scripts/native runtime and source links. A specific
+check confirms that only the unsupported US listing anchor is removed, not
+any paragraph. Compiled schematic code passes four brew/steam clicks per
+edition across two selectable pump systems and two manual systems, preserving
+native labels and pressed/hidden state. The separate full production bundle,
+three whole-page/runtime checks and all 294 emitted HTML metadata/source-hash
+checks pass; merge only exact-head green CI. Then verify production,
+three complete live guides, all 291 canonical sitemap URLs, 24 existing
+video-sitemap entries, native hub links, assets, TLS/lang/canonicals/indexability,
+stable Dutch dosing and reciprocal regional/English links. These are bounded
+generated-output/runtime/HTTP checks, not a new browser or physical machine test.
+
+The prior beginner-guide deployment recovered after GitHub's webhook incident:
+exact merge `be3d07c` deployed to regional Pages as
+`bd5f6b45-38e5-49ae-aed7-64efdf128105`. Three whole live guides, all 288 sitemap
+URLs and native hub links passed. The verified 96-route release record is
+included here so the English site can add corresponding-page links; it does
+not announce the still-unpublished budget page. Keep ready counts separate
+from live counts until the deployment audit passes.
+
+Current source is still 648 canonical pages / 55,161 unique slots. This batch
+readies 97 complete canonical pages per edition (+404): 89 articles/support
+pages and eight watch companions. NL has 11,035 translated / 44,126 pending;
+DE/FR have 11,060 translated / 44,101 pending each. Finder gaps are zero.
+The full editions remain incomplete; MOVE, remaining machine/grinder content,
+385 other watch pages and substantial other work remain queued. Preserve
+ready-pages publication and continuation. No Amazon API/credentials, paid
+translation API, billing, DNS changes or subagents are used.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
