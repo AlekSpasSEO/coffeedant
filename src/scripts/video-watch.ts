@@ -5,7 +5,12 @@ dialog.setAttribute('aria-labelledby', 'video-watch-title');
 const close = document.createElement('button');
 close.type = 'button';
 close.className = 'video-watch-dialog-close';
-close.textContent = 'Close video ×';
+let closeLabel = 'Close video ×';
+try {
+  const localized = JSON.parse(document.querySelector('#coffeedant-localization')?.textContent || 'null');
+  if (localized?.ui?.videoClose) closeLabel = localized.ui.videoClose;
+} catch { /* The US source keeps its default; regional builds validate all UI keys. */ }
+close.textContent = closeLabel;
 const content = document.createElement('div');
 dialog.append(close, content);
 document.body.append(dialog);

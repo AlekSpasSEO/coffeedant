@@ -2063,6 +2063,41 @@ language, canonical/indexability, preserved Dutch sample and reciprocal
 regional/English language links. No Amazon API/credentials, paid translation
 API, billing, DNS changes or subagents are used for this direct batch.
 
+### Concurrent video-watch publication: scoped batch-41 refresh
+
+After PR #187 merged green, independent commit `4d10696` added 393 English
+video-watch pages and replaced embedded-video buttons with popup/watch links.
+Its newer workflow superseded the original main CI run. Preserve that feature,
+the subsequent release update and validator fix (`1800dbb`); do not revert them
+or claim the pre-update bundle is the current full-source release.
+
+A separate frozen 15-slot direct task covers only the new accessibility/poster
+labels needed by the 83 already translated regular pages plus 404, and the
+video-close runtime key. Native article-title alternatives and video-title
+wording reuse the passing cache; cited creator names and identified video
+titles stay exact. The popup close initializer now reads the validated native
+runtime UI, while US behavior remains unchanged. Links to untranslated watch
+pages remain ordinary cross-origin English-source navigation: the popup must
+not fetch and display English watch content inside a regional page.
+
+All 151 localization tests and nine SEO tests pass, including native close
+initialization, US/malformed-data defaults and the existing cross-origin guard.
+The source now has 648 canonical pages / 55,161 unique slots, including the 393
+new watch pages, which remain queued rather than falsely published as regional
+translations. All original 83 complete regular routes per edition are retained.
+Twenty-seven complete current production pages are compared (the two new bean
+reviews and seven affected earlier reviews in each language), together with
+all 252 emitted HTML metadata/source hashes. API-free analytics validates 648
+content pages plus 16 redirect fallbacks; the 393 watch pages/video sitemap,
+150 Finder records, six grinders, 41 brands / 158 reviews and 30 bean records
+pass their current validators. Pending slots are NL 45,061 and DE/FR 45,036 each.
+The earlier 255-page counts above describe the initial reviewed batch checkpoint,
+not completion of the expanded site. Keep all full-edition flags false and the
+hourly continuation active. Verify the latest exact production commit, all 27
+affected live pages, 249 regional sitemap URLs, assets and corresponding English
+language links after merging the scoped refresh; do not publish any partial
+watch page or change billing, Amazon API state or DNS.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
