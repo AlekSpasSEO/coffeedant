@@ -123,6 +123,9 @@ node scripts/localization/review.mjs nl /journal/espresso-dosing/
 
 Do not overwrite a frozen snapshot for an existing translation without reviewing
 and reindexing its authored entries; snapshot/hash mismatches are rejected.
+Wait for the entire US build, including localization and SEO post-processing,
+to finish before exporting a task. Do not index `dist` while another build is
+still writing it; generated metadata affects the canonical source-page hash.
 Importing validates every slot, numeric fact, protected identifier and current
 source-page hash before updating the cache. Missing text cannot silently become
 English fallback. Only noindex reviews may select a subset of pages; the full
@@ -2006,6 +2009,59 @@ manifests, all 243 regular sitemap URLs, preserved Dutch dosing, TLS, language,
 canonical, indexability and reciprocal regional/English language links.
 No Amazon API/credentials, paid translation API, billing, DNS changes or
 subagents are used for this direct batch.
+
+## Direct batch 41 — Giant Steps and Night Light Decaf (2026-10-21)
+
+Directly translated both complete current Blue Bottle reviews in NL/DE/FR:
+Giant Steps (1,513 source main words / 46 paragraphs) and Night Light Decaf
+(1,539 words / 46 paragraphs). All seven visible and structured FAQ pairs per
+article, source/copyright labels, accessible text, metadata and existing schema
+are included. These remain research-led US assessments, not Coffeedant purchases,
+brews, tastings, measurements or photographs. No numeric sensory score, measured
+caffeine result, delivered price or discount was invented.
+
+The immutable missing-slot task has 155 slots / 126 distinct strings. Its 122
+complete authored translations retain only four exact brand/product names
+verbatim. Import adds 157 current entries per edition, reusing the same passing
+wording across source kinds; every earlier cache text remains unchanged.
+Native routes use `/koffiebonen/`, `/kaffeebohnen/` and `/cafe-en-grains/` with
+the stable `blue-bottle-giant-steps` / `blue-bottle-night-light-decaf` model
+slugs. Earlier routes, including the reviewed Dutch dosing URL, stay fixed.
+
+Giant Steps keeps the roaster's 1:13 press-with-milk suggestion, the separate
+27 g / 350 g pour-over recipe and the explicit 30 g / 390 g mathematical
+example, not a Coffeedant-tested recipe. The 2019 Coffee Cantata sample is
+bounded by its own bag, grinder and method. Night Light keeps both the US
+medium label and darker descriptive wording, an unnamed proprietary water
+process, no exact product-specific brew ratio, nonzero-caffeine uncertainty
+and no clinical sleep/tolerance claim. Its 2026 Japanese 200 g sample and one
+self-selected latte report do not become representative US results. Both
+Korean 250 g package images remain identified as illustrations, not the US
+12 oz sale units or evidence of a delivered roast date.
+
+All 149 localization tests and seven SEO tests pass. Six complete noindex
+previews compare entire main text and paragraphs, all schema and seven FAQ
+pairs, native metadata, unchanged scripts, localized runtime, accessible
+attributes, images/SVG geometry and links. A separate zero-missing snapshot
+records the final canonical page hashes after US SEO preparation; the original
+missing-slot snapshot is preserved and every original authored slot is checked
+against current source. All six complete production pages also pass, together
+with all 252 emitted HTML metadata/social-caption/canonical-hash checks after API-free
+analytics, Finder, video, brand-navigation, bean and SEO validation. These are
+generated-output/runtime checks, not a browser session or coffee experiment.
+
+The source remains 255 canonical pages / 51,150 unique slots. Each edition now
+has 83 complete regular pages plus 404, including 27 of 30 current bean reviews
+and all 17 Journal articles. Pending slots are NL 41,058 and DE/FR 41,033 each.
+Finder remains 150 distinct records with no unverified local prices or offers.
+Three other new Blue Bottle reviews, the French-press guide, MOVE article and
+substantial earlier source content remain queued. Keep full-edition completion
+false, ready-pages publication and hourly continuation. Merge only an exact
+green head on current main, then verify the automatic production deployment,
+six whole live pages, manifests, all 249 regular sitemap URLs, assets, TLS,
+language, canonical/indexability, preserved Dutch sample and reciprocal
+regional/English language links. No Amazon API/credentials, paid translation
+API, billing, DNS changes or subagents are used for this direct batch.
 
 ## Missing configuration
 
