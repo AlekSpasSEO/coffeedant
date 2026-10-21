@@ -2212,6 +2212,63 @@ source/watch content remain queued. Full editions remain incomplete. Keep
 ready-pages publication and continuation active. No Amazon API/credentials,
 paid translation API, billing, DNS changes or subagents are used in this batch.
 
+## Direct batch 44 — complete bean-video watch companions (2026-10-21)
+
+Directly completed all eight current coffee-bean video watch pages in NL/DE/FR:
+Big Trouble, Fast Forward, Hologram, Black Cat Classic, Big Bang, both French
+Roast perspectives and Hair Bender. These are complete short watch companions
+(604 combined source main words, 33 paragraphs), not eight new long-form coffee
+reviews. All ownership/curation copy, summaries, affiliate disclosure, visible
+dates, navigation, accessibility, metadata and ItemPage/VideoObject/Breadcrumb
+prose are covered. Existing approved cited video titles remain attributed names;
+original creator identities, channel links, video IDs and media are preserved.
+The original third-party recordings are not dubbed or claimed as local-language
+audio, and no Coffeedant brewing, tasting or production evidence is invented.
+
+The immutable task contains 108 missing slots / 73 distinct strings. Its 72
+explicit three-language entries retain only creator name `Live with Irish`
+verbatim. Import adds 108 entries per edition, zero prior cache text changes.
+New NL paths use their translated bean parents and original creator slugs;
+all previously registered DE/FR watch paths remain fixed, including their
+existing creator-slug spellings. The approved Dutch dosing route and all earlier
+ready pages are retained. Generic watch navigation/credit labels are reusable
+for future watch pages; the unfinished video library still opens its English
+source with the regional notice and original model-filter identifier.
+
+The 2020 Big Bang sample remains limited to that older bag, not current blend,
+freshness, packaging or a Coffeedant tasting. Original upload timestamps,
+durations, player/thumbnail URLs and iframe attributes stay exact. Source title
+date prefixes and UTC-formatted visible dates are both retained, even when the
+source timestamp crosses a UTC calendar boundary; no dates are silently guessed.
+Video schema receives no invented dubbing or spoken-language claim.
+
+160 localization tests and nine SEO tests pass, as do the API-free source build,
+analytics/consent, Finder, video, bean, brand and SEO validators. Twenty-four
+whole-page noindex previews and twenty-four separate production checks compare
+complete bodies, all 33 paragraphs per edition, schema, metadata, accessibility,
+unchanged player/media fields, scripts, links and native runtime. All 288 emitted
+HTML pages pass canonical source-hash/native social metadata/caption checks.
+Production bindings verify 24 native standalone players, 42 same-origin popup
+links from seven existing reviews per edition, all 24 video-sitemap URLs and
+English-source links to the unfinished library. The actual TypeScript popup
+handler is compiled and executed in bounded VM fixtures for all three locales:
+native content/head/history, translated close label, focus restoration, iframe
+removal and unmodified cross-origin/modified-click behavior pass. These are
+generated-output/runtime checks, not a new browser session or video dubbing.
+
+Current source remains 648 canonical pages / 55,161 unique slots. Each edition
+has 95 complete canonical pages excluding 404: 87 earlier articles/supporting
+pages plus eight watch companions. All 30 bean reviews, five bean guides and
+17 Journal articles remain ready. Pending slots are NL 44,632 and DE/FR 44,607
+each; Finder pending zero. The other 385 watch pages, MOVE, machine/grinder
+reviews and substantial other source content remain queued; full editions are
+not complete. Keep ready-pages publication and continuation. After exact-head
+green merge verify exact production, all 24 whole live watch pages, manifests,
+all 285 sitemap URLs, video sitemaps, all 42 native parent links, assets, TLS,
+language/canonicals/indexability, Dutch dosing and reciprocal English links.
+No Amazon API/credentials, paid translation API, billing, DNS changes or
+subagents are used in this batch.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
