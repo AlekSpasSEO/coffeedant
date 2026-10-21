@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "editions": ["nl", "de", "fr"],
+  "scope": "segments",
+  "snapshot": "new-pages-home-20261021.source.json",
+  "snapshotHash": "108e900789957c6d8db75a6210e62f3f446a53566db02c0b07068f41ce383243",
+  "preserveSource": [4],
+  "translations": {
+    "0": {
+      "nl": "De MOVE heeft afzonderlijk instelbare temperaturen voor de zet- en stoomboiler, een uitschakelbare stoomboiler, instelbare pre-infusie en een meegeleverde modulaire bodemloze filterdrager. De huidige pagina voor CM500003-01 is de bron voor de Amerikaanse hardware.",
+      "de": "Die MOVE bietet getrennt einstellbare Temperaturen für Brüh- und Dampfboiler, einen abschaltbaren Dampfboiler, einstellbare Präinfusion und einen mitgelieferten modularen bodenlosen Siebträger. Die aktuelle Seite zu CM500003-01 ist die maßgebliche Quelle für die US-Ausstattung.",
+      "fr": "La MOVE propose des réglages de température distincts pour les chaudières d'extraction et de vapeur, une chaudière vapeur désactivable, une préinfusion réglable et un porte-filtre modulaire sans fond fourni. La fiche actuelle CM500003-01 fait référence pour la configuration américaine."
+    },
+    "1": {
+      "nl": "Een huishouden dat zelf espresso en melkdranken bereidt en afzonderlijke boilerinstellingen wil in een behuizing van 270 mm breed",
+      "de": "Ein Haushalt, der Espresso und Milchgetränke selbst zubereitet und getrennte Boilereinstellungen bei 270 mm Gehäusebreite wünscht",
+      "fr": "Un foyer qui prépare manuellement espresso et boissons lactées et souhaite des réglages séparés des chaudières dans un boîtier de 270 mm de large"
+    },
+    "2": {
+      "nl": "Officiële Profitec-foto van de zwarte MOVE-espressomachine met dubbele boiler en walnoothouten handgrepen",
+      "de": "Offizielles Profitec-Foto der schwarzen MOVE-Dualboiler-Espressomaschine mit Walnussholzgriffen",
+      "fr": "Photo officielle Profitec de la machine à espresso MOVE noire à double chaudière et poignées en noyer"
+    },
+    "3": {
+      "nl": "Compacte handmatige espressomachine met dubbele boiler",
+      "de": "Kompakte manuelle Dualboiler-Espressomaschine",
+      "fr": "Machine à espresso manuelle compacte à double chaudière"
+    }
+  }
+}

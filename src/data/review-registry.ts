@@ -88,6 +88,7 @@ import { weekdayBrevilleOracleDualBoilerBes995Reviews } from './reviews/weekday-
 import { weekdayDelonghiRiveliaReviews } from './reviews/weekday-delonghi-rivelia';
 import { weekdayEurekaZero65ApReviews } from './reviews/weekday-eureka-zero-65-ap';
 import { weekdayProfitecJumpReviews } from './reviews/weekday-profitec-jump';
+import { weekdayProfitecMoveReviews } from './reviews/weekday-profitec-move';
 import { upgradeVbmDomobarSingleBoilerDigitalReviews } from './reviews/upgrade-vbm-domobar-single-boiler-digital';
 import { upgradeVbmDomobarSuperHxReviews } from './reviews/upgrade-vbm-domobar-super-hx';
 import {
@@ -214,6 +215,7 @@ const candidates: MachineReviewData[] = [
   ...weekdayDelonghiRiveliaReviews,
   ...weekdayEurekaZero65ApReviews,
   ...weekdayProfitecJumpReviews,
+  ...weekdayProfitecMoveReviews,
   ...upgradeVbmDomobarSingleBoilerDigitalReviews,
   ...upgradeVbmDomobarSuperHxReviews,
 ];
