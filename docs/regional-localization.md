@@ -1820,6 +1820,60 @@ TLS, indexability, language/canonical/hreflang, Dutch dosing and subsequent
 English return links. No paid translation API, Amazon API, credentials, billing,
 DNS changes or subagents are used for this direct batch.
 
+## Direct batch 38 — regular/decaf grinder guide and current bean updates (2026-10-21)
+
+Directly translated the complete regular/decaf grinder-switching guide in
+Netherlands Dutch, Germany German and France French: 1,776 source main words,
+66 paragraphs, the complete five-row comparison, four product cards, ten
+annotated sources and seven visible/structured FAQ answers per edition. Also
+translated every current addition to Fast Forward, Gradient, Even Keel, Eye of
+the Tiger and Equator Blend after preserving the October 21 source refresh
+from PR #182. The five changed bean reviews are again fully renderable, not
+older translations served as if current. No English source text was changed.
+
+The immutable task contains 156 missing slots / 132 distinct strings, authored
+as 131 complete translations and one proper-model-name verbatim approval.
+Exact-source reuse across kinds adds 159 current cache entries per edition.
+All earlier cache text stays unchanged, including the two reused passing
+labels. New guide URLs are `/koffiemolen/wisselen-gewone-cafeinevrije-koffie/`,
+`/kaffeemuehle/wechsel-normal-entkoffeiniert/` and
+`/moulin-a-cafe/alterner-cafe-normal-decafeine/`. The existing French Equator
+route and reviewed Dutch dosing URL remain unchanged, as do all older routes.
+
+The guide separates dose-in/output difference, internal retained coffee and
+old grounds exchanged into a later dose. Eureka's 0.55 g and Kaffeemacher's
+1.8 g retain their separate methods; no caffeine percentage or zero-carryover
+promise is inferred. Exact models, 65 mm burrs, 0–10 dial, electrical cleaning
+precautions, manual effort and dated US 110 V / $499 / $199.95 context remain.
+No current local price, model equivalence or Coffeedant grinding/tasting/test
+claim is invented. Tables, accessible/mobile labels, complete metadata, image
+credits, source links, scripts and runtime interface are included.
+
+Current bean additions retain Fast Forward's October 19–Present uncertainty;
+Gradient's separate 63 g / 1 litre and Kalita 30 g / 500 g / 3:30–4:00 starts;
+Even Keel's explicit 50 g versus 45 g / 800 g recipe conflict with unmeasured
+caffeine; Equator Blend's distinct drip/Clara/V60 methods; and Eye of the
+Tiger's Bialetti/AeroPress starts rather than transplanted espresso yields.
+These are source-attributed recipe clarifications, not new local experiments.
+
+Validation includes 137 localization tests, API-free analytics, Finder, video,
+brand-navigation and bean checks, full US and regional production builds and
+18 whole-page checks in each preview/production pass. Whole main text, all
+structured-data graphs and FAQs, metadata, links, table cells, accessibility,
+unchanged images/SVG and original scripts/localized runtime are compared.
+These are bounded rendered-output/runtime checks, not a browser session.
+
+Current coverage is 248 source pages / 50,404 unique slots. Each edition has
+79 ready regular pages plus 404, including all 25 current bean reviews and all
+17 Journal articles. Finder remains 149 distinct records with no unverified
+prices or offers. Pending slots are NL 41,207 and DE/FR 41,178 each; the full
+editions are still incomplete. Retain ready-pages publication and continuation.
+After exact-head green checks and merge, verify the exact production release,
+all 18 affected live pages, manifests and all 237 regular sitemap URLs, TLS,
+language/canonical/indexability/hreflang, preserved Dutch dosing and English
+return links. No paid translation API, Amazon API/credentials, billing or DNS
+changes, or subagents are used for this direct batch.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
