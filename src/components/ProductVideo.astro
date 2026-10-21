@@ -1,62 +1,49 @@
 ---
 import type { ProductVideo } from '../lib/product-videos';
-const { video } = Astro.props as { video: ProductVideo };
+import { getVideoWatchPath } from '../lib/product-videos';
+import '../styles/video-watch.css';
+const { video, productSlug } = Astro.props as { video: ProductVideo; productSlug: string };
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const watchPath = `${base}${getVideoWatchPath(productSlug, video).slice(1)}`;
 const date = new Intl.DateTimeFormat('en-US', { dateStyle: 'long', timeZone: 'UTC' }).format(new Date(`${video.published.slice(0,10)}T00:00:00Z`));
 ---
 <article class="product-video" data-product-video={video.id}>
   <div class="product-video-stage">
-    <button type="button" data-play-product-video aria-label={`Play ${video.title} by ${video.creator}`}>
+    <a href={watchPath} data-video-watch-link data-play-product-video aria-label={`Watch ${video.title} by ${video.creator}`}>
       <img src={`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`} width="480" height="360" alt="" loading="lazy" decoding="async" />
       <span class="product-video-play" aria-hidden="true">▶</span>
       <span class="product-video-play-label">Play review</span>
-    </button>
+    </a>
   </div>
   <div class="product-video-copy">
     <p class="product-video-credit"><a href={video.channelUrl} target="_blank" rel="noopener noreferrer">{video.creator}</a> · {video.sourceType === 'retailer' ? 'Retailer perspective' : 'Third-party perspective'}</p>
-    <h3>{video.title}</h3>
+    <h3><a href={watchPath} data-video-watch-link>{video.title}</a></h3>
     <p class="product-video-date">Published <time datetime={video.published}>{date}</time></p>
     <p>{video.summary}</p>
     {video.disclosure && <p class="product-video-disclosure">{video.disclosure}</p>}
     <a class="product-video-youtube" href={`https://www.youtube.com/watch?v=${video.id}`} target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a>
-    <button type="button" class="product-video-close" data-close-product-video hidden>Close video ×</button>
   </div>
 </article>
 <script>
-  document.querySelectorAll<HTMLElement>('[data-product-video]').forEach(root => {
-    const play = root.querySelector<HTMLButtonElement>('[data-play-product-video]');
-    const close = root.querySelector<HTMLButtonElement>('[data-close-product-video]');
-    const stop = () => { root.querySelector('iframe')?.remove(); if(play) play.hidden = false; if(close) close.hidden = true; };
-    play?.addEventListener('click', () => {
-      document.dispatchEvent(new Event('product-video-stop'));
-      const frame = document.createElement('iframe');
-      frame.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(root.dataset.productVideo ?? '')}?autoplay=1&rel=0`;
-      frame.title = play.getAttribute('aria-label') ?? 'Product video review';
-      frame.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share';
-      frame.allowFullscreen = true; frame.referrerPolicy = 'strict-origin-when-cross-origin';
-      root.querySelector('.product-video-stage')?.append(frame);
-      play.hidden = true; if(close) close.hidden = false; frame.focus();
-    });
-    close?.addEventListener('click', () => { stop(); play?.focus(); });
-    document.addEventListener('product-video-stop', stop);
-  });
+  import '../scripts/video-watch';
 </script>
 <style>
   .product-video { min-width:0; border:1px solid var(--ink,#18241c); background:var(--white,#fffdf7); }
   .product-video-stage { position:relative; aspect-ratio:16/9; background:#172b22; }
-  .product-video-stage button { width:100%; height:100%; display:block; padding:0; border:0; cursor:pointer; background:#172b22; color:white; }
+  .product-video-stage a { width:100%; height:100%; display:block; padding:0; border:0; cursor:pointer; background:#172b22; color:white; }
   .product-video-stage img { width:100%; height:100%; object-fit:cover; }
   .product-video-play { position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); padding:14px 21px; background:#143f32; border:2px solid white; border-radius:50%; font-size:1.5rem; }
   .product-video-play-label { position:absolute; bottom:12px; left:12px; padding:5px 9px; background:#143f32; font-weight:800; font-size:.75rem; }
   .product-video-stage :global(iframe) { position:absolute; inset:0; width:100%; height:100%; border:0; }
   .product-video-copy { padding:20px; }
   .product-video-copy h3 { margin:10px 0; font-size:1.13rem; line-height:1.35; }
+  .product-video-copy h3 a { color:inherit; text-decoration:none; }
   .product-video-copy p { font-size:.84rem; line-height:1.65; }
   .product-video-credit,.product-video-date,.product-video-disclosure { color:#4b554d; }
   .product-video-credit { margin:0; font-size:.72rem!important; }
   .product-video-credit a,.product-video-youtube { color:#143f32; font-weight:800; }
   .product-video-date { font-size:.72rem!important; }
-  .product-video-youtube,.product-video-close { font-size:.78rem; }
-  .product-video-close { margin-left:12px; padding:6px; background:transparent; border:1px solid; cursor:pointer; }
+  .product-video-youtube { font-size:.78rem; }
   [hidden] { display:none!important; }
   button:focus-visible,a:focus-visible { outline:3px solid #c18c00; outline-offset:3px; }
 </style>

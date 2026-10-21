@@ -161,6 +161,15 @@ export const sitemapXml = pages => `<?xml version="1.0" encoding="UTF-8"?>\n<?xm
 // Sitemap membership follows editorial sections, not Article schema: product
 // reviews and buying guides are pages even when their schema includes Article.
 export const isPostSitemapPage = page => /^\/(?:blog|journal)\/[^/]+\/$/.test(page.sourcePath ?? new URL(page.url).pathname);
+export const isVideoSitemapPage = page => /^\/(?:espresso-machine|grinder|coffee-machine|coffee-beans)\/[^/]+\/video\/[^/]+\/$/.test(page.sourcePath ?? new URL(page.url).pathname);
+export const videoDurationSeconds = duration => {
+  const match = /^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/.exec(duration ?? '');
+  return match ? Number(match[1] ?? 0) * 3600 + Number(match[2] ?? 0) * 60 + Number(match[3] ?? 0) : 0;
+};
+export const videoSitemapXml = pages => `<?xml version="1.0" encoding="UTF-8"?>\n<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">\n${pages.filter(isVideoSitemapPage).map(p => `  <url><loc>${escape(p.url)}</loc><lastmod>${escape(p.lastmod)}</lastmod>${p.videos.map(v => {
+  const duration = videoDurationSeconds(v.duration);
+  return `<video:video><video:thumbnail_loc>${escape([v.thumbnailUrl].flat()[0])}</video:thumbnail_loc><video:title>${escape(v.name.slice(0, 100))}</video:title><video:description>${escape(v.description.slice(0, 2048))}</video:description><video:player_loc>${escape(v.embedUrl)}</video:player_loc>${duration > 0 && duration <= 28800 ? `<video:duration>${duration}</video:duration>` : ''}${v.uploadDate ? `<video:publication_date>${escape(v.uploadDate)}</video:publication_date>` : ''}${v.creator?.name ? `<video:uploader${v.creator.url ? ` info="${escape(v.creator.url)}"` : ''}>${escape(v.creator.name)}</video:uploader>` : ''}</video:video>`;
+}).join('')}</url>`).join('\n')}\n</urlset>\n`;
 
 export const buildSeo = async (directory = path.join(root, 'dist'), options = {}) => {
   const siteOrigin = options.origin ?? origin;
@@ -177,22 +186,24 @@ export const buildSeo = async (directory = path.join(root, 'dist'), options = {}
     await writeFile(file, result.html);
     if (route !== '/404/' && !/noindex/i.test(attr(walk(parse(result.html)).find(n => n.tagName === 'meta' && attr(n, 'name') === 'robots'), 'content') ?? '')) pages.push(result);
   }
-  const posts = pages.filter(isPostSitemapPage); const regular = pages.filter(p => !isPostSitemapPage(p));
+  const posts = pages.filter(isPostSitemapPage); const videos = pages.filter(isVideoSitemapPage);
+  const regular = pages.filter(p => !isPostSitemapPage(p) && !isVideoSitemapPage(p));
   await writeFile(path.join(directory, 'post-sitemap.xml'), sitemapXml(posts));
   await writeFile(path.join(directory, 'page-sitemap.xml'), sitemapXml(regular));
+  await writeFile(path.join(directory, 'video-sitemap.xml'), videoSitemapXml(videos));
   // Preserve the historical full sitemap endpoint for existing submissions.
   await writeFile(path.join(directory, 'sitemap.xml'), sitemapXml(pages));
   const lastmod = pages.map(p => p.lastmod).sort().at(-1);
-  await writeFile(path.join(directory, 'sitemap_index.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${['post', 'page'].map(kind => `<sitemap><loc>${siteOrigin}/${kind}-sitemap.xml</loc><lastmod>${lastmod}</lastmod></sitemap>`).join('')}</sitemapindex>\n`);
-  await writeFile(path.join(directory, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${siteOrigin}/sitemap_index.xml\nSitemap: ${siteOrigin}/sitemap.xml\nSitemap: ${siteOrigin}/post-sitemap.xml\nSitemap: ${siteOrigin}/page-sitemap.xml\n`);
+  await writeFile(path.join(directory, 'sitemap_index.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${['post', 'page', 'video'].map(kind => `<sitemap><loc>${siteOrigin}/${kind}-sitemap.xml</loc><lastmod>${lastmod}</lastmod></sitemap>`).join('')}</sitemapindex>\n`);
+  await writeFile(path.join(directory, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${siteOrigin}/sitemap_index.xml\nSitemap: ${siteOrigin}/sitemap.xml\nSitemap: ${siteOrigin}/post-sitemap.xml\nSitemap: ${siteOrigin}/page-sitemap.xml\nSitemap: ${siteOrigin}/video-sitemap.xml\n`);
   const lines = ['# Coffeedant', '', '> Research-led coffee equipment reviews, buying guides and brewing education.', '', 'Coffeedant is an editorial publisher. Product identity, regional versions, sourcing, publication dates and methodology are documented on individual pages. Research-led assessments are not claims of physical testing. Prices and availability are dated and should be verified with the seller. Images and videos belong to their credited creators; illustrations are labelled.', '', '## Site information'];
   const sections = [ ['Site information', pages.filter(p => /\/(?:about|testing|contact|privacy-policy|tos)\/$/.test(new URL(p.url).pathname))], ['Libraries and tools', pages.filter(p => !p.post && !/\/(?:about|testing|contact|privacy-policy|tos)\/$/.test(new URL(p.url).pathname))], ['Reviews and articles', pages.filter(p => p.post)] ];
   lines.pop();
   for (const [name, entries] of sections) { lines.push(`## ${name}`, ''); for (const p of entries) lines.push(`- [${p.title.replace(/[\[\]]/g, '')}](${p.url}): ${p.description}`); lines.push(''); }
-  lines.push('## Crawl resources', '', `- [Sitemap index](${siteOrigin}/sitemap_index.xml): Canonical pages and articles.`, `- [Post sitemap](${siteOrigin}/post-sitemap.xml): Blog and Journal articles.`, `- [Page sitemap](${siteOrigin}/page-sitemap.xml): Product reviews, buying guides, libraries, categories and supporting pages.`, '');
+  lines.push('## Crawl resources', '', `- [Sitemap index](${siteOrigin}/sitemap_index.xml): Canonical pages and articles.`, `- [Post sitemap](${siteOrigin}/post-sitemap.xml): Blog and Journal articles.`, `- [Page sitemap](${siteOrigin}/page-sitemap.xml): Product reviews, buying guides, libraries, categories and supporting pages.`, `- [Video sitemap](${siteOrigin}/video-sitemap.xml): Dedicated video watch pages and player metadata.`, '');
   await writeFile(path.join(directory, 'llms.txt'), lines.join('\n'));
   await writeFile(path.join(directory, 'llm.txt'), '# Coffeedant\n\nThe canonical LLM-readable site directory is at ' + siteOrigin + '/llms.txt\n');
-  const report = { pages: pages.length, posts: posts.length, regular: regular.length, imageEntries: pages.reduce((n, p) => n + p.images.length, 0), videoObjects: pages.reduce((n, p) => n + p.videos.length, 0) };
+  const report = { pages: pages.length, posts: posts.length, regular: regular.length, videoPages: videos.length, imageEntries: pages.reduce((n, p) => n + p.images.length, 0), videoObjects: pages.reduce((n, p) => n + p.videos.length, 0) };
   console.log(`SEO build: ${JSON.stringify(report)}`); return report;
 };
 

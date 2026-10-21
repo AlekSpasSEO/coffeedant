@@ -49,7 +49,7 @@ const schema = {'@context':'https://schema.org','@graph':[
       <p data-video-empty hidden>No videos match these filters. Try clearing a preference or selecting another model.</p>
       {products.map(p=><section class="videos-product" data-video-product={p.slug} data-brand={p.brand} data-video-count={p.videos.length}>
         <header class="videos-product-heading"><div><p class="videos-eyebrow">{p.category} · {p.videos.length} {p.videos.length===1?'perspective':'perspectives'}</p><h2>{p.name}</h2></div><a href={`${base}${p.slug.slice(1)}`}>Read our review →</a></header>
-        <div class="videos-grid">{p.videos.map(video=><ProductVideo video={video} />)}</div>
+        <div class="videos-grid">{p.videos.map(video=><ProductVideo video={video} productSlug={p.slug} />)}</div>
       </section>)}
       <button type="button" class="videos-more" data-videos-more hidden>Show more products</button>
     </section>

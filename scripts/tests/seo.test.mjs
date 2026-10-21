@@ -1,7 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { parse } from 'parse5';
-import { enhancePage, graph, faqQuestions, sitemapXml, walk, attr, isPostSitemapPage } from '../build-seo.mjs';
+import { enhancePage, graph, faqQuestions, sitemapXml, walk, attr, isPostSitemapPage, isVideoSitemapPage, videoSitemapXml, videoDurationSeconds } from '../build-seo.mjs';
+import { creatorSlug, videoWatchPath } from '../../src/lib/video-routes.mjs';
 
 const page = '<!doctype html><html lang="en"><head><title>Test coffee review | Coffeedant</title></head><body><main><h1>Test coffee review</h1><p>Our evidence-led coffee review explains identity, ownership and practical buying decisions for a home espresso setup.</p><img src="/images/coffee.jpg" alt="Coffee in a white cup" width="1200" height="800"><section id="faq"><article><h3>Does it need a grinder?</h3><p>Yes, use a suitable espresso grinder.</p></article></section></main></body></html>';
 
@@ -42,4 +43,33 @@ test('region metadata and schema keep the correct host and locale', () => {
   assert.equal(result.url, 'https://nl.coffeedant.com/koffie/');
   assert.ok(graph(parse(result.html)).some(n => n.inLanguage === 'nl-NL'));
   assert.match(result.html, /content="nl_NL"/);
+});
+
+test('watch URLs normalize creator names and disambiguate repeated creators independently of selection order', () => {
+  const first = { creator: "Tom’s Coffee & Café", id: 'abCDEfGh123', channelUrl: 'https://www.youtube.com/channel/UC123' };
+  const second = { ...first, id: 'zyXWVuTs987' };
+  assert.equal(creatorSlug(first), 'toms-coffee-and-cafe');
+  assert.equal(videoWatchPath('/espresso-machine/example/', first, [first]), '/espresso-machine/example/video/toms-coffee-and-cafe/');
+  const path = videoWatchPath('/espresso-machine/example/', first, [first, second]);
+  assert.equal(path, '/espresso-machine/example/video/toms-coffee-and-cafe-6162434445664768313233/');
+  assert.match(videoWatchPath('/espresso-machine/example/', { ...first, id: 'ab_CDE-Gh12' }, [second]), /^\/[a-z0-9/-]+\/$/);
+  assert.equal(videoWatchPath('/espresso-machine/example/', first, [second, first]), path);
+  assert.notEqual(videoWatchPath('/espresso-machine/example/', second, [first, second]), path);
+  assert.equal(creatorSlug({ ...first, creator: '☕' }), 'channel-uc123');
+});
+
+test('video sitemap includes only watch pages and escapes verified metadata', () => {
+  const video = { name: 'Review & setup <demo>', description: 'Coffee & milk.', embedUrl: 'https://www.youtube-nocookie.com/embed/abc?rel=0&start=0', thumbnailUrl: 'https://i.ytimg.com/vi/abc/hqdefault.jpg', uploadDate: '2026-10-16T09:00:00Z', duration: 'PT1H2M3S', creator: { name: 'Coffee & Co.', url: 'https://www.youtube.com/channel/UC123' } };
+  const pages = ['/espresso-machine/example/video/coffee-and-co/', '/espresso-machine/example/', '/videos/'].map(route => ({ url: `https://coffeedant.com${route}`, lastmod: '2026-10-21', videos: [video] }));
+  const xml = videoSitemapXml(pages);
+  assert.equal((xml.match(/<url>/g) ?? []).length, 1);
+  assert.match(xml, /xmlns:video="http:\/\/www.google.com\/schemas\/sitemap-video\/1.1"/);
+  assert.match(xml, /<video:title>Review &amp; setup &lt;demo&gt;<\/video:title>/);
+  assert.match(xml, /rel=0&amp;start=0/);
+  assert.match(xml, /<video:duration>3723<\/video:duration>/);
+  assert.match(xml, /<video:publication_date>2026-10-16T09:00:00Z<\/video:publication_date>/);
+  assert.ok(!xml.includes('video:content_loc'));
+  assert.equal(videoDurationSeconds('PT98S'), 98);
+  assert.equal(videoDurationSeconds('invalid'), 0);
+  assert.equal(isVideoSitemapPage({ url: 'https://nl.coffeedant.com/espresso/voorbeeld/video/koffie/', sourcePath: '/espresso-machine/example/video/coffee/' }), true);
 });

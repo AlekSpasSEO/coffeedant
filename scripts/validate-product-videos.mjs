@@ -2,11 +2,14 @@ import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import { parse } from 'parse5';
 import { graph, walk, attr } from './build-seo.mjs';
+import { videoWatchPath } from '../src/lib/video-routes.mjs';
 const root=new URL('../',import.meta.url),read=p=>fs.readFileSync(new URL(p,root),'utf8'),json=p=>JSON.parse(read(p));
 const catalog=json('src/data/product-videos.json'),assessments=json('src/data/product-video-assessments.json');
 const products=json('dist/product-video-inventory.json');
 const library=read('dist/videos/index.html'),doc=parse(library),nodes=walk(doc),schemas=graph(doc);
 const videos=Object.values(catalog).flat(),ids=new Set(videos.map(v=>v.id));
+const videoSitemap=read('dist/video-sitemap.xml');
+const watchPaths=new Set();
 assert.equal(schemas.filter(s=>s['@type']==='VideoObject').length,ids.size,'one library VideoObject per unique video');
 assert.equal(nodes.filter(n=>attr(n,'data-product-video')!==undefined).length,videos.length,'every selection renders in the library');
 assert.ok(schemas.some(s=>s['@type']==='CollectionPage'),'CollectionPage schema');
@@ -24,6 +27,22 @@ for(const p of products){
  assert.equal(reviewSchemas.length,selected.length?1:0,`${p.slug}: video/schema parity`);
  if(selected.length)assert.equal(attr(reviewVideos[0],'data-product-video'),selected[0].id,`${p.slug}: primary selection`);
  for(const v of selected){
+  const watchPath=videoWatchPath(p.slug,v,selected);
+  assert.ok(!watchPaths.has(watchPath),`${watchPath}: unique watch URL`);watchPaths.add(watchPath);
+  const watchDoc=parse(read(`dist${watchPath}index.html`)),watchNodes=walk(watchDoc),watchSchemas=graph(watchDoc);
+  const watchVideo=watchSchemas.filter(s=>s['@type']==='VideoObject');
+  assert.equal(watchVideo.length,1,`${watchPath}: exactly one primary video`);
+  assert.equal(watchVideo[0].url,`https://coffeedant.com${watchPath}`);
+  assert.equal(watchVideo[0].mainEntityOfPage,`https://coffeedant.com${watchPath}`);
+  assert.equal(watchVideo[0].embedUrl,`https://www.youtube-nocookie.com/embed/${v.id}`);
+  assert.equal(watchVideo[0].description,v.summary);
+  assert.equal(watchVideo[0].uploadDate,v.published);
+  assert.equal(watchVideo[0].creator.url,v.channelUrl);
+  assert.equal(watchNodes.filter(n=>n.tagName==='iframe').length,1,`${watchPath}: crawlable server-rendered player`);
+  assert.equal(attr(watchNodes.find(n=>n.tagName==='link'&&attr(n,'rel')==='canonical'),'href'),`https://coffeedant.com${watchPath}`);
+  assert.ok(videoSitemap.includes(`<loc>https://coffeedant.com${watchPath}</loc>`),`${watchPath}: video sitemap membership`);
+  const base=process.env.CF_PAGES==='1'?'/':'/coffeedant/';
+  assert.ok(nodes.some(n=>n.tagName==='a'&&attr(n,'data-video-watch-link')!==undefined&&attr(n,'href')===`${base}${watchPath.slice(1)}`),`${watchPath}: crawlable library link`);
   assert.match(v.id,/^[\w-]{11}$/);assert.ok(v.title&&v.summary&&v.creator&&v.verifiedAt);
   assert.match(v.channelUrl,/^https:\/\/www\.youtube\.com\/channel\/[\w-]+$/);
   assert.ok(!/^(breville|sage appliances|de.?longhi|gaggia(?:na| uk)?|krups|philips|saeco|melitta|la pavoni|lelit|flair espresso|rok coffee|cady hungary)\b/i.test(v.creator),`${p.slug}: manufacturer upload excluded`);
@@ -35,4 +54,8 @@ for(const p of products){
  }
 }
 assert.ok(read('dist/sitemap.xml').includes('https://coffeedant.com/videos/'),'video library in sitemap');
-console.log(`Video library passed: ${products.length} products assessed, ${videos.length} selections, ${ids.size} unique videos, metadata/schema parity and one embed per eligible review.`);
+assert.equal([...videoSitemap.matchAll(/<video:video>/g)].length,videos.length,'one sitemap video per selection');
+assert.ok(videoSitemap.includes('xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"'));
+assert.ok(!videoSitemap.includes('<loc>https://coffeedant.com/videos/</loc>'),'library is not a watch page');
+assert.ok(!videoSitemap.includes('<video:content_loc>'),'YouTube watch links are not raw content URLs');
+console.log(`Video library passed: ${products.length} products assessed, ${videos.length} selections and watch pages, ${ids.size} unique videos, metadata/schema parity and one card per eligible review.`);

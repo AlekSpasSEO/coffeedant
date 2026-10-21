@@ -1,38 +1,40 @@
-# Deploying Coffeedant to GitHub + Vercel
+# Deploying Coffeedant through GitHub to Cloudflare Pages
 
-## 1. Add the images
-Copy the WordPress `wp-content/uploads/` folder into
-`public/wp-content/uploads/` (see README). The site builds without them, but
-images will 404 until this is done.
+Production uses the `main` branch of `AlekSpasSEO/coffeedant`, connected to Cloudflare Pages. Push authorized, verified changes directly to `main`; Cloudflare builds and publishes that commit automatically.
 
-## 2. Push to GitHub
-This folder is **already a git repository with the first commit made** (branch
-`main`). You only need to point it at your GitHub repo and push:
+## Verify locally
 
-    git remote add origin https://github.com/<your-username>/<repo>.git
-    git push -u origin main
+Use Node 20 and the existing lockfile:
 
-If you'd rather start fresh, delete the `.git` folder and run
-`git init && git add . && git commit -m "initial"` yourself.
-(`node_modules/` and `dist/` are gitignored.)
+```powershell
+npm ci
+$env:CF_PAGES = '1'
+npm run build
+npm run test:seo
+npm run validate:seo
+npm run validate:videos
+git diff --check
+```
 
-## 3. Import into Vercel
-1. Vercel dashboard -> Add New -> Project -> import the GitHub repo.
-2. Framework preset: **Astro** (auto-detected).
-   - Build command: `astro build`   Output directory: `dist`
-3. Deploy. You get a `*.vercel.app` URL to verify.
+`CF_PAGES=1` selects `https://coffeedant.com` at `/`. A build without it preserves the separate GitHub Pages preview at `/coffeedant`.
 
-## 4. Custom domain
-1. Vercel project -> Settings -> Domains -> add your domain.
-2. Point DNS at Vercel:
-   - Apex/root domain: A record -> `76.76.21.21`
-   - `www` subdomain: CNAME -> `cname.vercel-dns.com`
-   (Or use Vercel nameservers if you prefer Vercel to manage DNS.)
-3. Vercel issues the SSL certificate automatically once DNS resolves.
+## Publish
 
-## Notes
-- `site` in `astro.config.mjs` and all canonicals are set to
-  `https://coffeedant.com`. If the production domain differs, change `site`
-  there, update `public/sitemap.xml` + `public/robots.txt`, and rebuild.
-- Legacy URL redirects live in `vercel.json` (27 rules from the old
-  Redirection plugin) and apply automatically on Vercel.
+Commit only the intended source changes, fetch the latest `main`, and preserve any newer commits before pushing:
+
+```text
+git fetch origin main
+git push origin HEAD:main
+```
+
+Do not force-push. Verify the Cloudflare deployment for that exact commit and check the affected production URLs after publication. The existing GitHub Pages workflow is an additional preview/check pipeline; the production Cloudflare Git integration publishes from `main`.
+
+Cloudflare project settings: production branch `main`, framework Astro, build command `npm run build`, output directory `dist`, repository root, and Node 20 from `.node-version`. See `cloudflare/README.md` for DNS and redirect settings.
+
+## Videos and crawl resources
+
+Product cards open a popup at `/{category}/{model}/video/{creator}/`. The same URL directly serves a complete static watch page. The build automatically generates `video-sitemap.xml` and lists it in `sitemap_index.xml` and `robots.txt`; no manual sitemap publication is needed.
+
+## Amazon API pause
+
+The October 17, 2026 pause remains in effect. Builds and local validators use existing data only. Do not run Amazon API refresh commands, dispatch or enable their workflows, read API credentials, or request Amazon tokens. Existing affiliate check-price links remain usable.

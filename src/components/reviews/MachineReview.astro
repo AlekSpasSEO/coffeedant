@@ -232,7 +232,7 @@ const schema = {
         <header class="review-section-heading"><p class="review-overline">See the {productNoun} in use</p><h2 id="video-title">An independent video perspective</h2></header>
         <div class="review-section-body">
           <div class="review-video" data-review-video={selectedVideo.id} style="display:block">
-            <ProductVideo video={selectedVideo} />
+            <ProductVideo video={selectedVideo} productSlug={review.slug} />
           </div>
           <p><a href={`${base}videos/?model=${encodeURIComponent(review.slug)}`}>More video perspectives for this product →</a></p>
         </div>
