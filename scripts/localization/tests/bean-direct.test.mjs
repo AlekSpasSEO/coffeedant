@@ -4,7 +4,7 @@ import path from 'node:path';
 import {root,readJson,digest,policyHash,loadCache,validateTranslation,getEdition} from '../core.mjs';
 import {regionalFinder} from '../build.mjs';
 
-for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-15',3],['bean-reviews-batch-16',164],['bean-reviews-batch-18',192],['bean-reviews-batch-19',191],['source-refresh-batch-19',37],['bean-reviews-batch-20',189],['bean-reviews-batch-22',182],['bean-reviews-batch-23',152],['source-refresh-batch-23',13],['bean-reviews-batch-24',115],['bean-reviews-batch-25',61],['bean-reviews-batch-35',147],['bean-reviews-batch-36',128]])test(`${name} fully covers its immutable source in NL DE FR`,async()=>{
+for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-15',3],['bean-reviews-batch-16',164],['bean-reviews-batch-18',192],['bean-reviews-batch-19',191],['source-refresh-batch-19',37],['bean-reviews-batch-20',189],['bean-reviews-batch-22',182],['bean-reviews-batch-23',152],['source-refresh-batch-23',13],['bean-reviews-batch-24',115],['bean-reviews-batch-25',61],['bean-reviews-batch-35',147],['bean-reviews-batch-36',128],['bean-reviews-batch-37',63]])test(`${name} fully covers its immutable source in NL DE FR`,async()=>{
  const source=await readJson(path.join(root,`localization/authored/${name}.source.json`));
  const authored=await readJson(path.join(root,`localization/authored/${name}.json`));
  assert.equal(source.segments.length,count);
@@ -22,6 +22,31 @@ for(const [name,count] of [['bean-reviews-batch-15',157],['finder-refresh-batch-
    assert.equal(entry.provider,'codex-direct');
    assert.equal(validateTranslation(segment.source,entry.text),entry.text);
   }
+ }
+});
+
+test('Streetlevel preserves all-purpose limits, attributed roast scale, seller promises and all structured answers',async()=>{
+ const source=await readJson(path.join(root,'localization/authored/bean-reviews-batch-37.source.json')),authored=await readJson(path.join(root,'localization/authored/bean-reviews-batch-37.json'));
+ assert.equal(source.sourcePages.length,1);assert.equal(new Set(source.segments.map(s=>s.source)).size,51);assert.equal(Object.keys(authored.translations).length,48);
+ assert.deepEqual(authored.preserveSource.map(i=>source.segments[i].source),['Verve Coffee Roasters Streetlevel','Coffeedant: Stumptown Hair Bender','Verve Coffee Roasters']);
+ const beans=await readJson(path.join(root,'src/data/bean-review-manifest.json'));assert.equal(beans.length,25);
+ for(const edition of ['nl','de','fr']){
+  const cache=await loadCache(edition),text=i=>cache.segments[source.segments[i].id].text;
+  const prefix={nl:'/koffiebonen/',de:'/kaffeebohnen/',fr:'/cafe-en-grains/'}[edition];assert.equal(authored.routes[edition]['/coffee-beans/verve-streetlevel/'],prefix+'verve-streetlevel/');
+  for(const b of beans)assert(Object.values(cache.routes).some(r=>r.sourcePath===b.slug),`${edition}: stable route ${b.slug}`);
+  for(const[i,numbers]of [[15,['6/10']],[19,['6 oz','12 oz','2.2 lb','5 lb']],[20,['6/10','Honduras','Guatemala']],[21,['12','6']],[27,['12','2.2','5']],[28,['12']],[38,['6 oz','12 oz','2.2 lb','5 lb']]])for(const n of numbers)assert(text(i).includes(n),`${edition} ${i}: ${n}`);
+  assert(/niet als.*permanente|nicht als dauerhafte|pas.*permanente/.test(text(20)));
+  assert(/niet.*bevestigen|weder.*bestätigen|ne peut confirmer/.test(text(22)));
+  assert(/geen defectpercentage|keine Fehlerquote|pas d’établir un taux de défauts/.test(text(23)));
+  assert(/niet één universele|keine universelle|n’implique pas un réglage universel/.test(text(24)));
+  assert(/geen gemeten|kein gemessenes|sans être un résultat mesuré/.test(text(24)));
+  assert(/twee werkdagen|zwei Werktagen|deux jours ouvrés/.test(text(26)));
+  assert(/verkopersuitspraak|Verkäuferaussage|déclaration du vendeur/.test(text(26)));
+  assert(/geen betrouwbaar.*totaal|keinen verlässlichen.*Gesamtpreis|n’établissait pas de total.*fiable/.test(text(28)));
+  assert(/geen gecontroleerde proeverij|keine kontrollierte Verkostung|aucune dégustation contrôlée/.test(text(30)));
+  assert(/niet geproefd|nicht verkostet|n’a pas dégusté/.test(text(36)));
+  for(const[i,j]of [[0,50],[1,51],[3,54],[6,55],[34,56],[20,57],[35,58],[36,59],[37,60],[24,61],[38,62]]){assert.equal(source.segments[j].kind,'json');assert.equal(text(i),text(j));}
+  const original=source.segments[48].source.split(' Start with a smaller')[0],prior=Object.values(cache.segments).find(s=>s.source===original);assert(prior);assert(text(48).startsWith(prior.text));
  }
 });
 

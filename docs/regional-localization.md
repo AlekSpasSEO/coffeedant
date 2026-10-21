@@ -1769,6 +1769,57 @@ canonicals, reciprocal regional hreflang and subsequent English return links.
 No paid translation API, Amazon API activity, credentials, billing or DNS
 changes, or subagents are used for this batch.
 
+## Direct batch 37 — complete Streetlevel and all bean reviews (2026-10-21)
+
+Finished the directly authored Verve Streetlevel review in Netherlands Dutch,
+Germany German and France French. The complete current source main has 1,454
+words / 44 paragraphs. This includes body, metadata, image descriptions, source
+annotations and all six visible/structured FAQ answers in each language. The
+frozen snapshot from October 20 still matches the current source on October 21;
+it was not overwritten or reindexed. These are translations of the US research
+assessment, not new local coffee experiments.
+
+The task has 63 missing slots / 51 distinct strings. Its authored JSON has 48
+complete translations and three proper-name-only verbatim approvals. Import
+adds 63 current cache entries per edition and changes no earlier cache text.
+The concluding verdict retains its exact passing cached prefix before the new
+closing sentence. URLs use the stable native `/koffiebonen/`, `/kaffeebohnen/`
+and `/cafe-en-grains/` category prefixes with `verve-streetlevel/`; all earlier
+URLs, including the approved Dutch espresso-dosing page, remain unchanged.
+
+Verve's medium 6/10 is explicitly a roast scale, not a Coffeedant sensory score.
+Honduras, Guatemala and Colombia are the checked blend's country-level record,
+not a permanent farm list. Complete processing and variety details remain
+unspecified. Clementine, red apple and honeycomb are attributed to Verve, and
+older tasting/owner impressions cannot establish the current blend, consistency
+or defect rate. All-purpose positioning does not mean one dose, ratio or grind
+for filter and espresso; no measured Coffeedant extraction is invented.
+Roasting to order and dispatch within two business days stay seller statements,
+not delivery guarantees. The 6 oz / 12 oz / 2.2 lb / 5 lb formats and uncertain
+US delivered total retain their original scope; no local price or offer is
+fabricated. Original assets and source-link destinations are unchanged.
+
+All 134 localization tests pass, including immutable-task coverage, factual
+caveats, all structured answer pairs and stable routes for all 25 bean reviews.
+Three whole-page noindex previews compare full main text, all schema and FAQs,
+metadata, links, accessible labels, images/SVG, original scripts and localized
+runtime. The separate production bundle is rebuilt and rechecked after API-free
+analytics, Finder, video, brand-navigation and bean validators. These are
+bounded rendered-output/runtime checks, not a browser session or tasting.
+
+Current source remains 248 canonical pages / 50,367 unique slots. Each edition
+has 78 ready regular pages plus 404. All 25 current bean reviews and all 17
+Journal articles are now fully renderable in all three languages. The 149
+Finder descriptions remain distinct with no unverified prices or offers.
+Pending slots: NL 41,329; DE/FR 41,300 each. Most machine/grinder reviews and
+other unfinished sections remain; none of the full editions is complete.
+Retain incremental ready-pages publication and the continuation. Merge only
+after exact-head/current-base checks pass, then verify the automatic production
+deployment, three new live pages, manifests and all 234 regular sitemap URLs,
+TLS, indexability, language/canonical/hreflang, Dutch dosing and subsequent
+English return links. No paid translation API, Amazon API, credentials, billing,
+DNS changes or subagents are used for this direct batch.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/coffee-beans/verve-streetlevel/",
+      "sourceHash": "0f630e5487ac26afe5213bad169668e145ece3559ce4e73d4e26dcbe188b7176"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "d248bd79fc08465fd96ee3d9c7cce42aafd6ee23d2360243046edd36e5785df8",
+      "source": "Verve Streetlevel review: clementine and honey across brew methods | Coffeedant",
+      "kind": "text",
+      "context": "Verve Streetlevel review: clementine and honey across brew methods | Coffeedant"
+    },
+    {
+      "id": "1918b087d7d77de972374ee2315b784a2715dd0effbcb92fb8876aff5fa65fb0",
+      "source": "Research-led US review of Verve Coffee Roasters Streetlevel: exact whole-bean identity, attributed flavor, brewing role, freshness and buying limits.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "c54f5360ea9bbc6d8ac92836c8cace22ad9a3f9d7b520f8ddec708899b910fad",
+      "source": "Verve Streetlevel review: clementine and honey across brew methods | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "e57c5a3436afdf89adf579e6042af8a618490ac204565933c24d21cce13dcfcc",
+      "source": "Verve Coffee Roasters Streetlevel",
+      "kind": "text",
+      "context": "Verve Coffee Roasters Streetlevel"
+    },
+    {
+      "id": "dce93861f9b5f29134a94c409a948f14683951a4f1d9dd58697d94b0cd8cee38",
+      "source": "Image: Verve Coffee Roasters",
+      "kind": "text",
+      "context": "Image: Verve Coffee Roasters"
+    },
+    {
+      "id": "297f5eefe35677f1672b8f678fa106ea942dc92e13cb1e626830fa818d161350",
+      "source": ". Official Verve Coffee Roasters product image for identification. Packaging is not proof of current contents or a Coffeedant tasting photo.",
+      "kind": "text",
+      "context": "Image: Verve Coffee Roasters. Official Verve Coffee Roasters product image for identification. Packaging is not proof of current contents or a Coffeedant tasting photo."
+    },
+    {
+      "id": "044f25d6f9a698d561fa22fcbb74095e5ab351f8d1a7edbe4fbd207084467109",
+      "source": "Verve Streetlevel review: clementine and honey across brew methods",
+      "kind": "text",
+      "context": "Verve Streetlevel review: clementine and honey across brew methods"
+    },
+    {
+      "id": "149c975cff505874e4e8fedd722caafdfbc3210362cf85dbe1cfa1d4d8067e21",
+      "source": "Check current 12 oz price",
+      "kind": "text",
+      "context": "Check current 12 oz price"
+    },
+    {
+      "id": "e39f7b90c81e295c59965c56f94c925c58cd5873051467e0681f360fbb29a253",
+      "source": "A medium blend across several brew devices",
+      "kind": "text",
+      "context": "A medium blend across several brew devices"
+    },
+    {
+      "id": "841c1828959021a2c04be0845992bb62a06497e1639c5a9d99c5c88b379c167e",
+      "source": "Fruit and honey cues rather than a dark cocoa-only brief",
+      "kind": "text",
+      "context": "Fruit and honey cues rather than a dark cocoa-only brief"
+    },
+    {
+      "id": "7b17775c17968e5aca1c322b265f90b304f7889d50d6decdf75452926204eb47",
+      "source": "A smaller trial bag before bulk purchase",
+      "kind": "text",
+      "context": "A smaller trial bag before bulk purchase"
+    },
+    {
+      "id": "55ae1dc31a5863a62269a3fbc8b5e6751a128fae800948da75ceb58f249645a0",
+      "source": "You need fully specified farms, varieties and processes",
+      "kind": "text",
+      "context": "You need fully specified farms, varieties and processes"
+    },
+    {
+      "id": "e28b58615c5fd879ebe1c5068fb5770271a4a799b73399376a1299fda3e0a171",
+      "source": "You want a very dark, low-fruit espresso",
+      "kind": "text",
+      "context": "You want a very dark, low-fruit espresso"
+    },
+    {
+      "id": "04bb74df3ffe2bb033ca6e0a0ac578d2f3eabbc9372adf461732c93554cf09d2",
+      "source": "You expect one grind setting to work for all methods",
+      "kind": "text",
+      "context": "You expect one grind setting to work for all methods"
+    },
+    {
+      "id": "160fed4cbc75ace0c0e8a6b87ed8193e2552d1f5d00f2d1e82ca37c957deb8e7",
+      "source": "Verve Coffee Roasters Streetlevel, whole-bean option",
+      "kind": "text",
+      "context": "Verve Coffee Roasters Streetlevel, whole-bean option"
+    },
+    {
+      "id": "a6a2ae756e4a5753521c772b51989752c5387c1bfa3abf34d5ed92fe31423a64",
+      "source": "Medium; Verve rates it 6/10",
+      "kind": "text",
+      "context": "Medium; Verve rates it 6/10"
+    },
+    {
+      "id": "3203878056dcd23baf3ba3dbc26d29af58ecb999dd8866d3d00244e782575190",
+      "source": "clementine, red apple, honeycomb; not Coffeedant tasting",
+      "kind": "text",
+      "context": "clementine, red apple, honeycomb; not Coffeedant tasting"
+    },
+    {
+      "id": "e55d86f6755977a2fe0d9e0d56191b1a1beace26b5fa6bd6e3f44908ee3ea713",
+      "source": "Honduras, Guatemala and Colombia in the checked blend panel",
+      "kind": "text",
+      "context": "Honduras, Guatemala and Colombia in the checked blend panel"
+    },
+    {
+      "id": "f09b96e75a1c04dcc9ce791b0bac44826b6119fdb006f7d7a8460858bfd9e90f",
+      "source": "Not specified for the complete current blend",
+      "kind": "text",
+      "context": "Not specified for the complete current blend"
+    },
+    {
+      "id": "6248ce24ec7507c54e5b816de274128cc4193f287c2b740a4a5bed97ccc2bc7c",
+      "source": "6 oz, 12 oz, 2.2 lb and 5 lb choices shown; check live selector",
+      "kind": "text",
+      "context": "6 oz, 12 oz, 2.2 lb and 5 lb choices shown; check live selector"
+    },
+    {
+      "id": "b10dc1f4301c26da5a19e6ac27a54699a0f04840a37b4c6c3555e46cb649b929",
+      "source": "Verve calls Streetlevel its original all-purpose blend and lists Honduras, Guatemala and Colombia on the current page. It rates the roast medium at 6/10. The page does not specify one complete variety or processing record for all components. Avoid treating the three country names as a permanent farm list; check the delivered bag.",
+      "kind": "text",
+      "context": "Verve calls Streetlevel its original all-purpose blend and lists Honduras, Guatemala and Colombia on the current page. It rates the roast medium at 6/10. The page does not specify one complete variety or processing record for all components. Avoid treating the three country names as a permanent farm list; check the delivered bag. [1]"
+    },
+    {
+      "id": "51cc72e2eebecd97ea892ffe99cf6774fc9c513212ed42f0f93416b168d34dfe",
+      "source": "The product selector shows multiple sizes including a 12 oz whole-bean bag. A photograph of that bag helps identify the item, but does not establish the exact roast date or component harvest shipped to a buyer. A 6 oz trial can make sense if the smaller variant is available at checkout.",
+      "kind": "text",
+      "context": "The product selector shows multiple sizes including a 12 oz whole-bean bag. A photograph of that bag helps identify the item, but does not establish the exact roast date or component harvest shipped to a buyer. A 6 oz trial can make sense if the smaller variant is available at checkout. [1]"
+    },
+    {
+      "id": "931833331217964b43ef657820f8e2f8936635e67415de323a08a990e1e24be4",
+      "source": "Clementine, red apple and honeycomb are Verve’s descriptors. They signal a sweeter, fruit-forward medium profile, not sensory findings from Coffeedant. An older independent café/bag tasting described its own Streetlevel sample; it cannot confirm today’s blend or quantify consistency.",
+      "kind": "text",
+      "context": "Clementine, red apple and honeycomb are Verve’s descriptors. They signal a sweeter, fruit-forward medium profile, not sensory findings from Coffeedant. An older independent café/bag tasting described its own Streetlevel sample; it cannot confirm today’s blend or quantify consistency. [1] [3]"
+    },
+    {
+      "id": "32e426c9ba0b8ef8e3305c08c7e24458ba274e3d7b828d7c16ca2a5874155b9c",
+      "source": "Owner accounts include a disappointing espresso and another very negative bag impression. They are self-selected, use different equipment and dates, and cannot support a defect rate. They do show why a first small bag and a deliberate espresso dial-in are more useful than assuming a well-known blend suits every palate.",
+      "kind": "text",
+      "context": "Owner accounts include a disappointing espresso and another very negative bag impression. They are self-selected, use different equipment and dates, and cannot support a defect rate. They do show why a first small bag and a deliberate espresso dial-in are more useful than assuming a well-known blend suits every palate. [4]"
+    },
+    {
+      "id": "5c4d8a6e590986d47658343beb7ec8fe3ef637a1c7c314cd828fb8350057a44f",
+      "source": "Verve markets Streetlevel across brewing methods, including espresso. Use a separate dose, water ratio and grind for filter versus a portafilter; a single “all-purpose” product description does not imply one universal setting. The current product page’s preferred brew messaging is an invitation to experiment, not a measured Coffeedant result.",
+      "kind": "text",
+      "context": "Verve markets Streetlevel across brewing methods, including espresso. Use a separate dose, water ratio and grind for filter versus a portafilter; a single “all-purpose” product description does not imply one universal setting. The current product page’s preferred brew messaging is an invitation to experiment, not a measured Coffeedant result. [1]"
+    },
+    {
+      "id": "ece614e9671c534e7ddffb0518ec14a93ef7af91304c11d5f539e882b0cf20cf",
+      "source": "If you make both a morning drip pot and afternoon espresso, choose a grinder that can return to a marked setting, keep whole beans sealed and document each recipe. A fruit cue that reads pleasantly in filter may be more challenging in a short espresso shot; adjust on the actual bag rather than assuming a fixed outcome.",
+      "kind": "text",
+      "context": "If you make both a morning drip pot and afternoon espresso, choose a grinder that can return to a marked setting, keep whole beans sealed and document each recipe. A fruit cue that reads pleasantly in filter may be more challenging in a short espresso shot; adjust on the actual bag rather than assuming a fixed outcome."
+    },
+    {
+      "id": "0142c3921c767bb209aeeea758663d5be48fd32e24a05b22aacb92d9454b9006",
+      "source": "Verve says it roasts to order and ships within two business days on the direct listing. That is a seller statement; inspect the actual roast date and delivery conditions. Store opened whole beans sealed, dry and away from heat. A local retailer can have a different inventory age.",
+      "kind": "text",
+      "context": "Verve says it roasts to order and ships within two business days on the direct listing. That is a seller statement; inspect the actual roast date and delivery conditions. Store opened whole beans sealed, dry and away from heat. A local retailer can have a different inventory age. [1] [5] [6]"
+    },
+    {
+      "id": "6497620ab0edc60d01b37ce775ee9a15777d5f3860bc2aff8658c5d735de59f6",
+      "source": "A 12 oz bag is a reasonable first assessment for a daily household. The 2.2 lb and 5 lb options require faster consumption or a deliberate storage plan. Price per ounce is not the only value measure when freshness and the brew fit are uncertain.",
+      "kind": "text",
+      "context": "A 12 oz bag is a reasonable first assessment for a daily household. The 2.2 lb and 5 lb options require faster consumption or a deliberate storage plan. Price per ounce is not the only value measure when freshness and the brew fit are uncertain."
+    },
+    {
+      "id": "1d4f6079b9a27787b1d938b7bde56e2a3160047e825ebc2e0928068f2875a0a5",
+      "source": "The live page displays size and purchase choices, but the visible selector did not establish one reliable US delivered total across variants and subscriptions. This review therefore uses check-price language. Verify the 12 oz whole-bean option, stock, shipping and current roast promise at checkout.",
+      "kind": "text",
+      "context": "The live page displays size and purchase choices, but the visible selector did not establish one reliable US delivered total across variants and subscriptions. This review therefore uses check-price language. Verify the 12 oz whole-bean option, stock, shipping and current roast promise at checkout. [1]"
+    },
+    {
+      "id": "2703567d08c9d4646ce718695b5ee48709ce595f205b1587562df536aae3d82e",
+      "source": "Streetlevel’s case is flexible device positioning plus a clear medium fruit-and-honey brief. If your household only drinks traditional dark lattes, its broad-use framing does not by itself justify the bag over a darker, explicitly milk-oriented coffee.",
+      "kind": "text",
+      "context": "Streetlevel’s case is flexible device positioning plus a clear medium fruit-and-honey brief. If your household only drinks traditional dark lattes, its broad-use framing does not by itself justify the bag over a darker, explicitly milk-oriented coffee."
+    },
+    {
+      "id": "f02b588604658dc877fd174a4c19986c5ac1da50fe0f001287ecd10798ebeba7",
+      "source": "Stumptown Hair Bender is another multi-method espresso blend with a different roaster profile. Onyx Geometry goes lighter with published exact filter and espresso starts. Streetlevel is the medium, accessible all-purpose option here, but no controlled tasting ranks them.",
+      "kind": "text",
+      "context": "Stumptown Hair Bender is another multi-method espresso blend with a different roaster profile. Onyx Geometry goes lighter with published exact filter and espresso starts. Streetlevel is the medium, accessible all-purpose option here, but no controlled tasting ranks them. [1] [7]"
+    },
+    {
+      "id": "cfbb7de7207013717e724b6f2625ed8a9b01442b1b04ec458451cbf61aee59e6",
+      "source": "For milk drinks, consult the separate milk-bean guide, which distinguishes large lattes from small cappuccinos. Verve’s fruit language may suit one drink size and disappear in another; only a repeatable personal brew can answer that.",
+      "kind": "text",
+      "context": "For milk drinks, consult the separate milk-bean guide, which distinguishes large lattes from small cappuccinos. Verve’s fruit language may suit one drink size and disappear in another; only a repeatable personal brew can answer that."
+    },
+    {
+      "id": "e7ccf8ea6920705869017010592292ca36d47e8296dde2572939d3e37bbff5be",
+      "source": "another multi-method espresso blend with a distinct flavor brief",
+      "kind": "text",
+      "context": "another multi-method espresso blend with a distinct flavor brief"
+    },
+    {
+      "id": "e8c1caade51d19daa9ebe4de5d234e1adb97c76ce84678758f3af539991cba6b",
+      "source": "Streetlevel FAQ",
+      "kind": "text",
+      "context": "Streetlevel FAQ"
+    },
+    {
+      "id": "52f61daf0736868e8f9da1e8e265d20f100cb3a46da5faa33e27a5b88743e6b8",
+      "source": "What exactly is Streetlevel?",
+      "kind": "text",
+      "context": "What exactly is Streetlevel?"
+    },
+    {
+      "id": "3be163a09c09ca4383697e7184e12cf90dfcf214085a2697919f97878420c9c6",
+      "source": "What does Streetlevel taste like?",
+      "kind": "text",
+      "context": "What does Streetlevel taste like?"
+    },
+    {
+      "id": "32ce24f14c652588ff869eca221f9f7b045083e242ed9efdcd9fdb4a744124ff",
+      "source": "Verve Coffee Roasters lists clementine, red apple, honeycomb. Coffeedant has not tasted this coffee; your bag and recipe may differ.",
+      "kind": "text",
+      "context": "Verve Coffee Roasters lists clementine, red apple, honeycomb. Coffeedant has not tasted this coffee; your bag and recipe may differ."
+    },
+    {
+      "id": "0cd72afd1216af5ff661278ebd40cb57c9300e4e526b700e28e2d5bb4f802eab",
+      "source": "Can I use Streetlevel for espresso?",
+      "kind": "text",
+      "context": "Can I use Streetlevel for espresso?"
+    },
+    {
+      "id": "f441e9cd7a9d5e5669f0e86f28a7c6d2a7949c12eb04d5fdcc0c89c31993d8c8",
+      "source": "Check the live selector and begin with its smaller whole-bean pack. Listed options at this check: 6 oz, 12 oz, 2.2 lb and 5 lb choices shown; check live selector.",
+      "kind": "text",
+      "context": "Check the live selector and begin with its smaller whole-bean pack. Listed options at this check: 6 oz, 12 oz, 2.2 lb and 5 lb choices shown; check live selector."
+    },
+    {
+      "id": "c7bbc8c663e2038a63e81716c65393b31a7c50143e5bfc1c6d5f1df0b0b6bc7d",
+      "source": "Verve Coffee Roasters: Streetlevel product listing",
+      "kind": "text",
+      "context": "Verve Coffee Roasters: Streetlevel product listing ↗"
+    },
+    {
+      "id": "61f8eb1a9451f7469a76b2b5569a6cc476c48c40281df1757bdefc00d4e7c506",
+      "source": "Verve Streetlevel current product and brewing scope",
+      "kind": "text",
+      "context": "Verve Streetlevel current product and brewing scope ↗"
+    },
+    {
+      "id": "22d2c7353f4f7d5ede5ec453cd34050c25ddf4ea3348c42542d3081b36c0af19",
+      "source": "Roaster all-purpose positioning; no Coffeedant extraction. Checked 2026-10-20.",
+      "kind": "text",
+      "context": "Roaster all-purpose positioning; no Coffeedant extraction. Checked 2026-10-20."
+    },
+    {
+      "id": "4dff7caca933580a1ad76db57572c88e2dc67ba1e1de9b3545767ecf6cc07412",
+      "source": "Coffee Blogger MKE: older Verve tasting",
+      "kind": "text",
+      "context": "Coffee Blogger MKE: older Verve tasting ↗"
+    },
+    {
+      "id": "02c60da9103c5ce01496f7d86ffdbad0608cd5d47547e3a1407a0e6781b235b3",
+      "source": "Independent older sample impression; not current-lot or controlled espresso evidence. Checked 2026-10-20.",
+      "kind": "text",
+      "context": "Independent older sample impression; not current-lot or controlled espresso evidence. Checked 2026-10-20."
+    },
+    {
+      "id": "07c06f5d3b5b74d3a5be9069524f5f3e26b46e1f585572ab57196c4fd564e984",
+      "source": "r/espresso: Streetlevel owner discussion",
+      "kind": "text",
+      "context": "r/espresso: Streetlevel owner discussion ↗"
+    },
+    {
+      "id": "f1001be36516919294bf5b3c393fbc4111ef44639c38cbbea43b2e0d09d3f7c4",
+      "source": "Conflicting self-selected espresso experiences; no representative quality inference. Checked 2026-10-20.",
+      "kind": "text",
+      "context": "Conflicting self-selected espresso experiences; no representative quality inference. Checked 2026-10-20."
+    },
+    {
+      "id": "ee206a311773c5734cca45b8d368a22ba7f065b1204ce1e286dce7eab7b153d5",
+      "source": "Coffeedant: Stumptown Hair Bender",
+      "kind": "text",
+      "context": "Coffeedant: Stumptown Hair Bender ↗"
+    },
+    {
+      "id": "d99056c31bca02bb60bd7ccb539f6f2c9049afd82c96e15342603ddad3c7409e",
+      "source": "Buy Streetlevel for its documented role",
+      "kind": "text",
+      "context": "Buy Streetlevel for its documented role"
+    },
+    {
+      "id": "af281fef8692222d94fe1c901e5033bf948780ed4fcf5410cedfa248e8cc876b",
+      "source": "Streetlevel is a useful one-bag candidate for someone moving among espresso, drip and immersion methods who likes a medium roast with fruit and honey in Verve’s flavor brief. Its current origin panel is clear at country level, but the blend lacks complete variety and process detail. An all-purpose label cannot replace separate brew recipes. Start with a smaller whole-bean pack and let the delivered bag and your repeatable recipe decide any larger order.",
+      "kind": "text",
+      "context": "Streetlevel is a useful one-bag candidate for someone moving among espresso, drip and immersion methods who likes a medium roast with fruit and honey in Verve’s flavor brief. Its current origin panel is clear at country level, but the blend lacks complete variety and process detail. An all-purpose label cannot replace separate brew recipes. Start with a smaller whole-bean pack and let the delivered bag and your repeatable recipe decide any larger order."
+    },
+    {
+      "id": "c4c47a757121d099f75ea8ae6edffea6218cafca422bcb83fac82f304104e9f3",
+      "source": "Check Streetlevel at the roaster",
+      "kind": "text",
+      "context": "Check Streetlevel at the roaster ↗"
+    },
+    {
+      "id": "1d6485c259a09e9d506fcc8a8762f1406af696d389dffee73e1be69f26f2077b",
+      "source": "Verve Streetlevel review: clementine and honey across brew methods | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "29f0401f64c14077d8cab5eb4e8fc6e531b884916cddb29b928974e1d4fdda49",
+      "source": "Research-led US review of Verve Coffee Roasters Streetlevel: exact whole-bean identity, attributed flavor, brewing role, freshness and buying limits.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "8736753a2126854a71f5072febd3c936c0e8f5fa99a9fad3af6b3e69ea78366d",
+      "source": "Official Verve Coffee Roasters product image for identification. Packaging is not proof of current contents or a Coffeedant tasting photo.",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "c5f894812e47256712d13fda95e049bd0c07da114e8604617a16f3c5a7ddcf25",
+      "source": "Verve Coffee Roasters",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "7d384fc111d7debb0f553745e4ca0a28d79334e0e42e3da183f67ae2fd15831a",
+      "source": "Verve Coffee Roasters Streetlevel",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "5f48d4992d5021f60d7a779dbb279c4d963741d9e4c45db23d92947cc51482d6",
+      "source": "Verve Streetlevel review: clementine and honey across brew methods",
+      "kind": "json",
+      "context": "headline"
+    },
+    {
+      "id": "f0b69b67c8757fa02bc43ac461731261a2bec1c54bfc89da0f8bb72e7705f85a",
+      "source": "What exactly is Streetlevel?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "6cfa107f59543cea99a9454da8fcc32a6262ea32131056623a8f91cd77a71a2b",
+      "source": "Verve calls Streetlevel its original all-purpose blend and lists Honduras, Guatemala and Colombia on the current page. It rates the roast medium at 6/10. The page does not specify one complete variety or processing record for all components. Avoid treating the three country names as a permanent farm list; check the delivered bag.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "0f5d2283544cf36cff32b12f2f63eb8804d12f977d86f3c9efc592358d5c6897",
+      "source": "What does Streetlevel taste like?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "ad161e7016a9abe9bf30e6b30c6e64632d39447a7d5c4cd49b73a0b5e6430526",
+      "source": "Verve Coffee Roasters lists clementine, red apple, honeycomb. Coffeedant has not tasted this coffee; your bag and recipe may differ.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "e8b7b0b75ab19183662f8fda1a2d3491b544134ed86f7f01aa9ae9c68580e372",
+      "source": "Can I use Streetlevel for espresso?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "947f0d98e14506732587f6529f55b218e311e01d17b01b5518f9c76c62beda8f",
+      "source": "Verve markets Streetlevel across brewing methods, including espresso. Use a separate dose, water ratio and grind for filter versus a portafilter; a single “all-purpose” product description does not imply one universal setting. The current product page’s preferred brew messaging is an invitation to experiment, not a measured Coffeedant result.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "71dbbe1858559b0adc903be18c34b6af2be96021a18c14e5c6473c9ac833c516",
+      "source": "Check the live selector and begin with its smaller whole-bean pack. Listed options at this check: 6 oz, 12 oz, 2.2 lb and 5 lb choices shown; check live selector.",
+      "kind": "json",
+      "context": "text"
+    }
+  ],
+  "snapshotHash": "d5abd67b76494f2ddf8780d73fadd05c532f03ef4a605bfa74e5e6bf87ff97ec"
+}
