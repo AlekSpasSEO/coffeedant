@@ -2269,6 +2269,60 @@ language/canonicals/indexability, Dutch dosing and reciprocal English links.
 No Amazon API/credentials, paid translation API, billing, DNS changes or
 subagents are used in this batch.
 
+## Direct batch 45 — complete beginner espresso-machine guide (2026-10-21)
+
+Directly translated the entire current beginner espresso-machine buying guide
+into NL/DE/FR: 5,507 source main words, 157 paragraphs, both complete comparison
+tables, four recommendation cards, four documented product schematics and all
+eight visible/structured FAQ pairs. Full methodology, ownership costs, first-week
+plan, attributed owner evidence, source annotations, metadata and accessible
+controls are included. Earlier approved shared wording is reused, not replaced
+by summaries. The immutable task contains 259 missing slots / 233 distinct
+strings; 222 explicit three-language translations preserve eleven exact model,
+brand, technical-identifier or creator labels. Import adds 260 current entries
+per edition across source kinds, with zero previous cache wording changed.
+
+Already registered routes remain `/espresso-machine/beginners/` (NL),
+`/espresso-maschine/anfaenger/` (DE) and
+`/machine-a-espresso/debutants/` (FR). No old ready URL is renamed, especially
+the approved Dutch dosing route. The four exact US/North American models remain
+BES500, Classic Pro E24, BES870XL and ECAM29084SB; regional Sage siblings,
+older Evo generations and Canadian owner reports are not relabeled as those
+models. Historical dollar observations retain their September 25, 2026 context,
+not converted local prices or new offers. The E24 brass boiler is not the 2023
+coated Evo boiler. Fast heater readiness does not warm the whole station;
+brewing and steaming remain sequential, and automatic milk still needs cleaning.
+Neither anecdotal cup temperatures nor mixed-generation upgrade reports become
+controlled measurements, reliability rates or Coffeedant physical testing.
+
+163 localization tests and nine SEO tests pass. API-free source build,
+analytics/consent, Finder (150 distinct records and six grinders), videos, beans,
+brand navigation and source SEO validators pass. Three entire noindex previews
+compare the full body, all paragraphs, tables, schema/FAQ answers, metadata,
+accessible labels, unchanged images/SVG, source links and executable scripts.
+The embedded Finder retains its native no-price notice and disabled unsupported
+US budget bands, rather than falsely offering converted local budgets. Actual
+compiled schematic code is executed against the three native outputs: four
+schematics per edition, three selectable systems and six brew/steam clicks
+retain translated labels while updating pressed/hidden states. These are bounded
+generated-output/runtime checks, not a new browser or physical machine test.
+The separate full production bundle, three entire production-page checks,
+compiled schematic runtime checks and all 291 emitted HTML source-hash/social
+metadata checks pass. Merge only after exact-head green CI. After merge verify
+production manifests, all three complete live
+guides, all 288 canonical sitemap URLs, eight video-sitemap entries per edition,
+assets, TLS/lang/canonicals/indexability, stable Dutch dosing and reciprocal
+regional/English links.
+
+Current source remains 648 canonical pages / 55,161 unique slots. Each edition
+has 96 complete canonical pages excluding 404: 88 articles/support pages plus
+eight watch companions. NL has 10,789 translated / 44,372 pending slots; DE/FR
+have 10,814 translated / 44,347 pending each. Finder gaps remain zero. MOVE,
+remaining machine/grinder reviews and guides, the other 385 watch pages and
+substantial other source content remain queued. Full editions are incomplete;
+retain ready-pages publication and continuation. No Amazon API/credentials,
+paid translation API, billing, DNS changes or subagents are used by this batch.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
