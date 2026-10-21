@@ -2390,6 +2390,67 @@ The full editions remain incomplete; MOVE, remaining machine/grinder content,
 ready-pages publication and continuation. No Amazon API/credentials, paid
 translation API, billing, DNS changes or subagents are used.
 
+## Direct batch 47 — complete integrated-grinder machine guide (2026-10-21)
+
+Directly translated the entire current `/espresso-machine/built-in-grinder/`
+guide into Netherlands Dutch, Germany German and France French. Its source
+main contains 6,127 words and 162 paragraphs, with both comparison tables,
+four complete recommendations, four product schematics, all owner evidence,
+first-week and maintenance instructions, methodology, source annotations,
+final verdict and eight visible/structured FAQ pairs. No source paragraph,
+link or body qualification is removed or summarized. Metadata, accessible
+labels and structured descriptions are included, not just the visible article.
+
+The new immutable snapshot freezes 242 missing slots / 215 distinct strings.
+The 206 directly authored three-language entries preserve nine exact model,
+brand/SKU and video-work-title labels. Import adds 243 current cache entries
+per edition across source kinds, with zero changes to previous cache text.
+The new Dutch route is `/espressomachines-met-molen/`; existing German
+`/espresso-maschine/eingebaute-mahlmuhle/` and French
+`/machine-a-espresso/machine-a-espresso-avec-broyeur/` stay fixed. All previous
+ready routes and the reviewed `/journal/espresso-doseren/` are preserved.
+
+The exact US/North American BES878, BES876, ECAM29084SB and fifth-generation
+JURA E8 article 15722 remain distinct. Sage names, other Magnifica panels and
+older E8 owner accounts do not establish regional model equivalence. The
+dated September 25 $849.95/$799.95/$899.95/$2,599 references remain US source
+facts; the E8 retailer reference was unavailable when checked. Manual milk,
+assisted dosing/tamping and actual bean-to-cup work remain separate. The
+grinder-running adjustment requirement, dry grinder parts, non-removable JURA
+brew unit, daily milk cleaning and exact voltage/manual/return checks remain
+explicit. Owner anecdotes do not become measured failure rates, unsupported
+dose/pressure claims or a Coffeedant physical comparison test. The independent
+2022 video retains its creator, title, media and historical-specification limits.
+
+169 localization tests and nine SEO tests pass. API-free source build,
+analytics/consent, production-target Finder (150 distinct records/six grinders),
+video, bean and brand-navigation checks pass. Three full noindex previews
+compare the complete main, 162 paragraphs, all schema/FAQ answers, metadata,
+accessible attributes, source links, images/SVG and unchanged scripts/native
+runtime. The separate production bundle must pass the same whole-page checks,
+all 297 emitted HTML metadata/source hashes and the actual compiled controls:
+four brew/steam clicks per edition across the two selectable semi-automatics,
+plus the two fixed automatic schematics. Publish only after exact-head green
+CI, then verify the three whole live guides, all 294 canonical sitemap URLs,
+24 existing video-sitemap entries, native hub links, assets, TLS/language,
+canonicals/indexability and reciprocal regional/English language links.
+These checks concern generated output/runtime/HTTP, not physical products.
+
+Batch 46 is now published and verified: merge `aea4bc2`, regional deployment
+`ae94dba6-99b6-44cc-a3d6-dd9453a84315`, confirmation `3082848`. Its complete
+three budget guides, all 291 sitemap URLs and English return links passed.
+That establishes 97 live canonical pages per edition before this new batch;
+do not confuse the newly ready guide with a verified live deployment yet.
+
+The current source remains 648 canonical pages / 55,161 unique slots. This
+batch readies 98 complete canonical pages per edition (+404): 90 article/support
+pages and eight watch companions. NL has 11,278 translated / 43,883 pending;
+DE/FR have 11,303 translated / 43,858 pending each. Finder gaps are zero.
+All full editions remain incomplete. MOVE, most machine/grinder content,
+385 other watch pages and substantial other content remain queued. Preserve
+incremental ready-pages publication and the continuation. No Amazon API or
+credentials, paid translation API, billing, DNS changes or subagents are used.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
