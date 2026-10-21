@@ -3,7 +3,7 @@ import { mkdir, cp, writeFile, mkdtemp, rm, readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { root, config, loadCache, readJson } from './core.mjs';
 import { buildRegional } from './build.mjs';
-import { collectSource } from './source.mjs';
+import { buildRegionalSource } from './build-source.mjs';
 import { readySource } from './ready.mjs';
 import { createRegionalRouter } from './router.mjs';
 import { analyticsConsentResponse } from '../../src/lib/analytics-consent-policy.mjs';
@@ -12,7 +12,7 @@ const targets = config.editions.filter(({ id, published }) => id !== 'us' && pub
 if (!targets.length) throw new Error('No regional editions are approved for public release. Complete translation/QA before enabling deployment.');
 const build = spawnSync(process.execPath, [path.join(root, 'node_modules/astro/astro.js'), 'build'], { cwd: root, stdio: 'inherit', env: { ...process.env, CF_PAGES: '1' } });
 if (build.status !== 0) process.exit(build.status ?? 1);
-const source = await collectSource();
+const source = await buildRegionalSource(path.join(root, 'dist'));
 const releases = await readJson(path.join(root, 'localization/releases.json'));
 const caches = new Map();
 // Every language in this bundle goes live atomically. Cross-language links may

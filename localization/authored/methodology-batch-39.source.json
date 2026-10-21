@@ -1,0 +1,2125 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/testing/",
+      "sourceHash": "1f142b6f6fd3468b02034da88f415b43b8d7fbcd5ca576a274b10c600379a812"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "fa136812f8530ac33f2ee662b173466d2d81812ee455a7ba1bcd8f287afdbc33",
+      "source": "Beans",
+      "kind": "text",
+      "context": "Beans"
+    },
+    {
+      "id": "51cef28aeb5e25bfbb2b3f730ff964a145f452ce7f26f2e7d58dddb8f452b190",
+      "source": "Recipes",
+      "kind": "text",
+      "context": "Recipes"
+    },
+    {
+      "id": "0ec112d3283dac52c28e16a0cbdbdd58f06d80d1592a96ba396546143e5ea7e2",
+      "source": "Why Our Coffee Reviews Read Differently | Coffeedant",
+      "kind": "text",
+      "context": "Why Our Coffee Reviews Read Differently | Coffeedant"
+    },
+    {
+      "id": "111497b341199f86cd77ed5a11ffbd636b2908f7e1ca43dde7a68be65403c0cf",
+      "source": "See how Coffeedant researches coffee equipment, separates documented specifications from observed evidence and keeps recommendations within their limits.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "4f83ddc555c142c5c4cf95051d954c5db6a1ed507525d9aea6b77da41c7789b1",
+      "source": "Why Our Coffee Reviews Read Differently | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "2b8cfce1154d7d2f126c5e7a8057efc5d372f36c4654f8db4358c666b723d816",
+      "source": "How Coffeedant Researches and Reviews",
+      "kind": "text",
+      "context": "How Coffeedant Researches and Reviews"
+    },
+    {
+      "id": "442fe550e65e36cebf57cd0dbe815ee381c5ecf4e5f9bdcad353c06daf4246ba",
+      "source": "You come to Coffeedant for answers. Not hype. This page explains exactly how we test espresso machines, grinders, and beans so our reviews are repeatable, comparable, and useful for real buying decisions. Every protocol below has been refined by bar service, repair work, and hundreds of hours on the bench. We publish the same numbers you would track at your own bar or brew bar at home.",
+      "kind": "text",
+      "context": "You come to Coffeedant for answers. Not hype. This page explains exactly how we test espresso machines, grinders, and beans so our reviews are repeatable, comparable, and useful for real buying decisions. Every protocol below has been refined by bar service, repair work, and hundreds of hours on the bench. We publish the same numbers you would track at your own bar or brew bar at home."
+    },
+    {
+      "id": "4dad5a0807571bd6e40fb269f1096ccb979bf9f89cbb6fa18c9b7eb51dacb5d3",
+      "source": "The short version. We standardize water, baskets, prep, and recipes. We measure heat, pressure, flow, and extraction. We score milk performance with timed, temperature-tracked steams. We push gear with stress runs and long idle tests. We blind taste across multiple coffees and log extraction yields. We document faults and fixes. Then we weight everything into the [PRODUCT RATING] you see at the top of each review.",
+      "kind": "text",
+      "context": "The short version. We standardize water, baskets, prep, and recipes. We measure heat, pressure, flow, and extraction. We score milk performance with timed, temperature-tracked steams. We push gear with stress runs and long idle tests. We blind taste across multiple coffees and log extraction yields. We document faults and fixes. Then we weight everything into the [PRODUCT RATING] you see at the top of each review."
+    },
+    {
+      "id": "6ea4bee3f190dde21fe7656869dc49541e057aa735adf65a14f5277791b66491",
+      "source": "What follows is the long version. This is the exact playbook.",
+      "kind": "text",
+      "context": "What follows is the long version. This is the exact playbook."
+    },
+    {
+      "id": "9933a735fb7f460668e7afb8e128004c2679ffbe044db0fdd081f3a0e9062768",
+      "source": "Test Bench Standards",
+      "kind": "text",
+      "context": "Test Bench Standards"
+    },
+    {
+      "id": "aad51a49dba0f8b98fc6bbad236ac47ac92e2b349b68c38eefebc2a941b641da",
+      "source": "Test Water",
+      "kind": "text",
+      "context": "Test Water"
+    },
+    {
+      "id": "e904e145fe55c72c3dbfd05c170de3f437adf683992c881031372766f7aa0040",
+      "source": "Water skews everything. We use a controlled brew water that protects boilers while keeping flavor neutral.",
+      "kind": "text",
+      "context": "Water skews everything. We use a controlled brew water that protects boilers while keeping flavor neutral."
+    },
+    {
+      "id": "786f24cdae62ad390a419ddafd3b8e65bac5136cd57e2a72a91be9ff5b67e3e2",
+      "source": "Target hardness: 50 to 70 mg/L as CaCO3",
+      "kind": "text",
+      "context": "Target hardness: 50 to 70 mg/L as CaCO3"
+    },
+    {
+      "id": "e3df2c87c764fd4d151c31f1387d21320e2f3e41f2bc3459bf4cb8f248c5722e",
+      "source": "Target alkalinity: 35 to 45 mg/L as CaCO3",
+      "kind": "text",
+      "context": "Target alkalinity: 35 to 45 mg/L as CaCO3"
+    },
+    {
+      "id": "9094c6f5293e83b85432c750537cd2b552e9d73c51206d350b2ed7952e81f50c",
+      "source": "Target TDS: 110 to 140 mg/L",
+      "kind": "text",
+      "context": "Target TDS: 110 to 140 mg/L"
+    },
+    {
+      "id": "8d106ba0ac0606f96a2644d3cb45be5948190faa06bdfca87ec83a61ed612979",
+      "source": "pH near 7.2",
+      "kind": "text",
+      "context": "pH near 7.2"
+    },
+    {
+      "id": "e16d16731ec0ad8a03639b6322233bed7f3aac55a9d9e7c364681e07399937e6",
+      "source": "Source: either mixed mineral packets in RO or a lab-mixed concentrate in RO. We verify with titration kits and a calibrated TDS meter at setup and mid-test.",
+      "kind": "text",
+      "context": "Source: either mixed mineral packets in RO or a lab-mixed concentrate in RO. We verify with titration kits and a calibrated TDS meter at setup and mid-test."
+    },
+    {
+      "id": "d67808b9a950ddfe45295c2b3453a377c0d7d88790fd232e9eab698330ae7139",
+      "source": "Why this range matters. It supports extraction, reduces scale risk, and keeps steam performance stable. If a machine requires its own cartridge or proprietary filter, we test it with our bench water and with the vendor’s recommended setup, and we publish both results.",
+      "kind": "text",
+      "context": "Why this range matters. It supports extraction, reduces scale risk, and keeps steam performance stable. If a machine requires its own cartridge or proprietary filter, we test it with our bench water and with the vendor’s recommended setup, and we publish both results."
+    },
+    {
+      "id": "c866c1935f343e4b8f91179b93668629cb81686cccb858a3f4a9c4b36932b48b",
+      "source": "Environment",
+      "kind": "text",
+      "context": "Environment"
+    },
+    {
+      "id": "e814938ba2bdd5690311e4bcc579dff968833a36f9d955edfb28f72286876a25",
+      "source": "Room temperature: 20 to 23°C",
+      "kind": "text",
+      "context": "Room temperature: 20 to 23°C"
+    },
+    {
+      "id": "3feefc64845ce7cd415404284e637c9ea819d7ad0584892703e9b170254b9d00",
+      "source": "Humidity: 35 to 55 percent",
+      "kind": "text",
+      "context": "Humidity: 35 to 55 percent"
+    },
+    {
+      "id": "e9fd1f34469bd10b3fafbed2c5b3777c2ba3638a5395eb9880f8306aec2bcc50",
+      "source": "Bench power: dedicated 230 V or 120 V line as relevant, measured with an inline power meter",
+      "kind": "text",
+      "context": "Bench power: dedicated 230 V or 120 V line as relevant, measured with an inline power meter"
+    },
+    {
+      "id": "1dbe69e56dea06a05bf2db8f15d5fc6252930e599bb233fe4e5d70572f87f0e6",
+      "source": "Noise floor: measured before each run",
+      "kind": "text",
+      "context": "Noise floor: measured before each run"
+    },
+    {
+      "id": "46d521ed1f31fac593e4321808d57ee4691578014ead4b99908c7f5c4fb202c4",
+      "source": "Consumables and Prep",
+      "kind": "text",
+      "context": "Consumables and Prep"
+    },
+    {
+      "id": "f627b298532365f1b492a34e86eadeced414818bae9acd79df173bf7d715d769",
+      "source": "Baskets: precision ridgeless baskets in 18 g and 20 g sizes. We document if a machine ships with non-standard baskets.",
+      "kind": "text",
+      "context": "Baskets: precision ridgeless baskets in 18 g and 20 g sizes. We document if a machine ships with non-standard baskets."
+    },
+    {
+      "id": "76749d0baf37459ac7b120e69702cd3e44fca476c687a97002c4cadd248cdfcd",
+      "source": "Tamper: calibrated tamper that applies 15 kg force.",
+      "kind": "text",
+      "context": "Tamper: calibrated tamper that applies 15 kg force."
+    },
+    {
+      "id": "882fed23b3bd86f36e75f4d9ab770b91b4978be4c71ea808d8b30cf458dcf99f",
+      "source": "Distribution: WDT with 0.30 to 0.35 mm needles, three passes, followed by a leveler set to the basket rim height.",
+      "kind": "text",
+      "context": "Distribution: WDT with 0.30 to 0.35 mm needles, three passes, followed by a leveler set to the basket rim height."
+    },
+    {
+      "id": "35215250eecee18aa8c0769ec2a45f608d10770878e7afd48ec3c93ccaa6bd62",
+      "source": "Scales: 0.01 g accuracy for dose and yield.",
+      "kind": "text",
+      "context": "Scales: 0.01 g accuracy for dose and yield."
+    },
+    {
+      "id": "524d65d6cccb73166ac14e35ac2c9cdc22fd89c5d0823e8c1efc1526cf6c8dc7",
+      "source": "Shot timer: independent optical or scale-based timer.",
+      "kind": "text",
+      "context": "Shot timer: independent optical or scale-based timer."
+    },
+    {
+      "id": "a75b03f665a2d04da54c3eeb491ccd21cb61ee767dc2ff83e19ffc8536722fd1",
+      "source": "Milk: 2 percent cow’s milk and a barista-labeled oat option, both tested at 4 to 6°C starting temperature.",
+      "kind": "text",
+      "context": "Milk: 2 percent cow’s milk and a barista-labeled oat option, both tested at 4 to 6°C starting temperature."
+    },
+    {
+      "id": "82f085347f16f2a7cde2969a76848b58d5318de0f10a9aa08b6f7c02a5d7a360",
+      "source": "Coffee Set",
+      "kind": "text",
+      "context": "Coffee Set"
+    },
+    {
+      "id": "fadce25304acc3bff5198d3a8fafc69b35ad03f87d9cf328783722534a71f8d4",
+      "source": "Every machine and grinder is tested with a matrix of coffees to reveal strengths and blind spots.",
+      "kind": "text",
+      "context": "Every machine and grinder is tested with a matrix of coffees to reveal strengths and blind spots."
+    },
+    {
+      "id": "4444b6102970686277bc5f8fd803eb1a5c9ff05e9007f97f22f6811d420039c2",
+      "source": "Washed medium roast espresso blend",
+      "kind": "text",
+      "context": "Washed medium roast espresso blend"
+    },
+    {
+      "id": "eee214ba38cf76faa5dd47566b0abf836a7746d16e73e44904322c4c0026f9fb",
+      "source": "Washed light espresso roast",
+      "kind": "text",
+      "context": "Washed light espresso roast"
+    },
+    {
+      "id": "8a60597527922658053469aa47d0627ffc368ea7990d95fdc929f8a9d75b7141",
+      "source": "Natural process medium-light espresso roast",
+      "kind": "text",
+      "context": "Natural process medium-light espresso roast"
+    },
+    {
+      "id": "837b46e8309cf411a92d2905457fa7f46abfba84442f9c9a0f349718348bc8b4",
+      "source": "Decaf medium roast",
+      "kind": "text",
+      "context": "Decaf medium roast"
+    },
+    {
+      "id": "1d2688cd195bde9089be9ece8668a2def0cb86563f9321dbe561c7bd26811b1d",
+      "source": "A retail supermarket whole-bean medium roast to simulate common buyer behavior",
+      "kind": "text",
+      "context": "A retail supermarket whole-bean medium roast to simulate common buyer behavior"
+    },
+    {
+      "id": "d3241a04e5d4a4069516fd1fe37de2190d3acf945ae24a9ddf0a012163116ac2",
+      "source": "We rest coffees to their best window. Medium roasts usually 5 to 14 days off roast. Light roasts usually 7 to 28 days. We document the rest day for each test.",
+      "kind": "text",
+      "context": "We rest coffees to their best window. Medium roasts usually 5 to 14 days off roast. Light roasts usually 7 to 28 days. We document the rest day for each test."
+    },
+    {
+      "id": "8db6a51a153f3060a56ed464e13e77330927f179e16a860f0a36f0c431be50b2",
+      "source": "How We Score",
+      "kind": "text",
+      "context": "How We Score"
+    },
+    {
+      "id": "ade27b30b58a4e75651a2029990752e05153b1f143b5d06c88ea4b43bcecd98f",
+      "source": "Coffeedant uses a 100-point composite with weights that match real user priorities. We score separately for espresso machines, grinders, and beans. Each review shows the category subscores inside the [PRODUCT RATING] box.",
+      "kind": "text",
+      "context": "Coffeedant uses a 100-point composite with weights that match real user priorities. We score separately for espresso machines, grinders, and beans. Each review shows the category subscores inside the [PRODUCT RATING] box."
+    },
+    {
+      "id": "226dc1ed0a790116e57cb1a48752b85c0e7fbc510183451c2f2f2c6b35a5eeda",
+      "source": "Espresso Machines",
+      "kind": "text",
+      "context": "Espresso Machines"
+    },
+    {
+      "id": "2fc84e1e2467bbbbe6ab474bec81256d1ec701784f03cc9bef87328ac0b88949",
+      "source": "Espresso performance: 30",
+      "kind": "text",
+      "context": "Espresso performance: 30"
+    },
+    {
+      "id": "439f247c7f965118dcc2c919a57acec673f3cb23f01ee37b92cf24224689b264",
+      "source": "Milk steaming: 20",
+      "kind": "text",
+      "context": "Milk steaming: 20"
+    },
+    {
+      "id": "e7d7272c54f99407c061c64125b6799250398e5627a9b6401f7bc6c233d1bfad",
+      "source": "Workflow and ergonomics: 15",
+      "kind": "text",
+      "context": "Workflow and ergonomics: 15"
+    },
+    {
+      "id": "fd217d319f81993d104a95be3cd20cb1e1724ff643f1f96c2957a037497f8749",
+      "source": "Temperature and pressure stability: 15",
+      "kind": "text",
+      "context": "Temperature and pressure stability: 15"
+    },
+    {
+      "id": "277abca42044f5ef91384a52701f04170b8508103d8c92e4f3c787ca216184c3",
+      "source": "Build quality and serviceability: 10",
+      "kind": "text",
+      "context": "Build quality and serviceability: 10"
+    },
+    {
+      "id": "1857581e5848187414618a2090b78130bb60eddbb88fe3c9332d9116fcd3291f",
+      "source": "Efficiency, noise, and warm-up: 5",
+      "kind": "text",
+      "context": "Efficiency, noise, and warm-up: 5"
+    },
+    {
+      "id": "d62f4645030b85b1516eaa3c2e7ee5a51f6c5a225088ebf3e8d0ecd059b589b0",
+      "source": "Value and warranty: 5",
+      "kind": "text",
+      "context": "Value and warranty: 5"
+    },
+    {
+      "id": "9ce768b5cfd7f25517a58561f1061efcf4233f276b0fa57e88c8a20718e30d15",
+      "source": "In-cup performance and clarity: 35",
+      "kind": "text",
+      "context": "In-cup performance and clarity: 35"
+    },
+    {
+      "id": "b37b782a14a3a46a65179d1ad90e8f53556e65c66b2a402bad26d4357dfbd097",
+      "source": "Consistency and repeatability: 20",
+      "kind": "text",
+      "context": "Consistency and repeatability: 20"
+    },
+    {
+      "id": "5f72e6696f018badf7a4d9760fe4698860c1dbb09835dde2287081b97c287099",
+      "source": "Retention and workflow: 15",
+      "kind": "text",
+      "context": "Retention and workflow: 15"
+    },
+    {
+      "id": "7edaf983ff1bd84d6c65b31b558cb8c667deb3fbcd7229a8063d76c239143a00",
+      "source": "Grind speed and heat rise: 10",
+      "kind": "text",
+      "context": "Grind speed and heat rise: 10"
+    },
+    {
+      "id": "9fe862c105db46753b9dde6ac749a09c00eef9b03029d932dd3ea35faf20b05d",
+      "source": "Alignment and burr quality: 10",
+      "kind": "text",
+      "context": "Alignment and burr quality: 10"
+    },
+    {
+      "id": "afad02aab53f10c00024f1c117591b2923d758761c24f6934bb949aab803fb11",
+      "source": "Noise and static management: 5",
+      "kind": "text",
+      "context": "Noise and static management: 5"
+    },
+    {
+      "id": "91e10e4282879620ff725dbc37c7ee0788c5270c2bfdb4bff0953271255a9141",
+      "source": "Value and support: 5",
+      "kind": "text",
+      "context": "Value and support: 5"
+    },
+    {
+      "id": "3f30bbefe8551447ddf2166e42d9e8764a79159c6f5a3a330a597363b8eb98b1",
+      "source": "Espresso performance across recipes: 35",
+      "kind": "text",
+      "context": "Espresso performance across recipes: 35"
+    },
+    {
+      "id": "f62857b1c0ef4ecacff08fc0605bffd7f0c7ab5d204eb1302ba170b91061759f",
+      "source": "Flavor quality and balance: 25",
+      "kind": "text",
+      "context": "Flavor quality and balance: 25"
+    },
+    {
+      "id": "303319818ab5b9f4a6ce82737b9a641b4016fc8d46080cb854a99f25f2dc8d03",
+      "source": "Consistency bag to bag: 15",
+      "kind": "text",
+      "context": "Consistency bag to bag: 15"
+    },
+    {
+      "id": "c302fac32874f6d82893a40c6bfa522b69636999c4b5a91e19c865f7a98c9df4",
+      "source": "Milk performance: 10",
+      "kind": "text",
+      "context": "Milk performance: 10"
+    },
+    {
+      "id": "f792b8c60e2bbbc03df627dfbf7d71d1be7e0a63144c994e0a2826c8b8bea584",
+      "source": "Freshness window and degas behavior: 10",
+      "kind": "text",
+      "context": "Freshness window and degas behavior: 10"
+    },
+    {
+      "id": "9492cbc456bb235d6856d4c1f2fda11106416102130e1e0e0aae70e0b6ba3b4a",
+      "source": "Value and availability: 5",
+      "kind": "text",
+      "context": "Value and availability: 5"
+    },
+    {
+      "id": "720b04c5a16350e26b88e19855911ed01ee6330e68c40b5013666c830865783c",
+      "source": "Panel tasters score sensory categories on a 10-point scale. Instrument data and timed tests map to score ranges. We publish the raw tables in each review when space allows.",
+      "kind": "text",
+      "context": "Panel tasters score sensory categories on a 10-point scale. Instrument data and timed tests map to score ranges. We publish the raw tables in each review when space allows."
+    },
+    {
+      "id": "b6b46b1bc67767a9883c3f23cdb3754a482ba30b8ae5bbc1da2c984acef730af",
+      "source": "Espresso Machine Protocols",
+      "kind": "text",
+      "context": "Espresso Machine Protocols"
+    },
+    {
+      "id": "ef29eb9f7a60db071368a97562d7b71e040a80251c9782563659ff4f8fec6c0f",
+      "source": "Warm-Up and Thermal Stability",
+      "kind": "text",
+      "context": "Warm-Up and Thermal Stability"
+    },
+    {
+      "id": "e75de9e47dccb26f03b700741faec8bfb490a8d5b8893386a3892b0120b1d6fe",
+      "source": "Goal",
+      "kind": "text",
+      "context": "Goal"
+    },
+    {
+      "id": "9ffed11b1552c36649cee268e2c054d13385b9441eb0d741a8ca35c3953f1891",
+      "source": "Verify that the group and brew path reach a stable operating temperature and stay there.",
+      "kind": "text",
+      "context": "GoalVerify that the group and brew path reach a stable operating temperature and stay there."
+    },
+    {
+      "id": "0966fd82db5f045bb775c6687531b56a3619ca9a8216bb51a0b3ec51b1dc74c0",
+      "source": "Method",
+      "kind": "text",
+      "context": "Method"
+    },
+    {
+      "id": "66949f315ecdd9bf21f5a2b71a19addf4bbc574b2780cac1001840164cf7299b",
+      "source": "We log heat-up from cold with a thermofilter or group probe.",
+      "kind": "text",
+      "context": "We log heat-up from cold with a thermofilter or group probe."
+    },
+    {
+      "id": "70e48b7d687b84e591219af5c9d47ecc93956f37ed1f99eafa0a4c50a7681d62",
+      "source": "Warm-up is the time from power-on to within 1°C of final stabilized brew temperature at 1.0 bar simulated backpressure.",
+      "kind": "text",
+      "context": "Warm-up is the time from power-on to within 1°C of final stabilized brew temperature at 1.0 bar simulated backpressure."
+    },
+    {
+      "id": "03a8f669e102dc80dd61849e4a2917f88003026a73b59456ba555297ccd7edad",
+      "source": "Idle stability is tracked for 15 minutes with no shots, then for 10 minutes while we pull six doubles at 30-second intervals.",
+      "kind": "text",
+      "context": "Idle stability is tracked for 15 minutes with no shots, then for 10 minutes while we pull six doubles at 30-second intervals."
+    },
+    {
+      "id": "927ed1c50ce53e9063ce8dfe1a3849bbb147d0955e36b27646fe6c7f4c7ef3b4",
+      "source": "Heat recovery is the delta between first and last shot temperature in that six-shot run.",
+      "kind": "text",
+      "context": "Heat recovery is the delta between first and last shot temperature in that six-shot run."
+    },
+    {
+      "id": "7c31d797c53b242985f273b8a31514925dcf4334913a5839c07c26af586ff375",
+      "source": "For machines with active group control, we repeat at two setpoints that bracket common use, usually 92°C and 94°C.",
+      "kind": "text",
+      "context": "For machines with active group control, we repeat at two setpoints that bracket common use, usually 92°C and 94°C."
+    },
+    {
+      "id": "0c1be993a595d82690110f9ba01f833886b3858bc93793e07ea65661e78a6697",
+      "source": "What earns top marks",
+      "kind": "text",
+      "context": "What earns top marks"
+    },
+    {
+      "id": "6b0c5187cf8f07023e98a423cf82ac2f4cf7ae89a2856c45f44215982ca0cc2f",
+      "source": "Under 10 minutes to first stable shot for single boilers with thermoblocks. Under 20 minutes for heat exchangers. Under 30 minutes for saturated groups and dual boilers. Recovery within 2°C across a six-shot set.",
+      "kind": "text",
+      "context": "What earns top marksUnder 10 minutes to first stable shot for single boilers with thermoblocks. Under 20 minutes for heat exchangers. Under 30 minutes for saturated groups and dual boilers. Recovery within 2°C across a six-shot set."
+    },
+    {
+      "id": "11ca7c10a94a6729b16b109f07e38371f00d33d6231abb7ef44e51e1c0af5b26",
+      "source": "Pressure and Flow Control",
+      "kind": "text",
+      "context": "Pressure and Flow Control"
+    },
+    {
+      "id": "a5725d4060a70e4de0b95a9f624da0edb798b27696a5212678e9707d98f60df9",
+      "source": "Confirm that brew pressure and flow match the set profile and remain consistent.",
+      "kind": "text",
+      "context": "GoalConfirm that brew pressure and flow match the set profile and remain consistent."
+    },
+    {
+      "id": "44c482be6f2996d2b9d5e2ef62cafbe530fcbd2f2a9ed02bc442b35e1da83066",
+      "source": "We measure pump pressure at the group with a calibrated gauge.",
+      "kind": "text",
+      "context": "We measure pump pressure at the group with a calibrated gauge."
+    },
+    {
+      "id": "a66c2dcdad97b86eef8a5d6ed675a54af88bfd68573a8f0c03900ccd94aef725",
+      "source": "For machines with programmable profiles, we run a straight 9 bar profile and the machine’s default pre-infusion profile.",
+      "kind": "text",
+      "context": "For machines with programmable profiles, we run a straight 9 bar profile and the machine’s default pre-infusion profile."
+    },
+    {
+      "id": "dbeb36e0b3c44905dd4afcc13a773ad7298143d4a45b27fec0281211d88e0a32",
+      "source": "We log flow rate with a high-resolution scale and calculate flow from mass over time.",
+      "kind": "text",
+      "context": "We log flow rate with a high-resolution scale and calculate flow from mass over time."
+    },
+    {
+      "id": "0879651fd8ea8082e085ac7570679f7f4293c43e5ad0f8595a0cd0412fe69afc",
+      "source": "We evaluate pressure overshoot and settling time, plus consistency over three back-to-back shots with identical prep.",
+      "kind": "text",
+      "context": "We evaluate pressure overshoot and settling time, plus consistency over three back-to-back shots with identical prep."
+    },
+    {
+      "id": "cd46a6c73cdae7b920ebc952b8b02265587c96b1e7b2dbaecf3680e6859ac776",
+      "source": "Minimal overshoot, stable 8.5 to 9.5 bar under puck load, repeatable flow curves.",
+      "kind": "text",
+      "context": "What earns top marksMinimal overshoot, stable 8.5 to 9.5 bar under puck load, repeatable flow curves."
+    },
+    {
+      "id": "36023243aed7026b4b53d35be6cf746b0d8340219e62e834e6ac1fab2a5d2fd0",
+      "source": "Shot Quality and Extraction",
+      "kind": "text",
+      "context": "Shot Quality and Extraction"
+    },
+    {
+      "id": "10e1d4bbd98c162afe2d30e8e741aa30c74c224eace5407d514fa20f8d50c28e",
+      "source": "Quantify how well the machine supports tasty extractions with different coffees.",
+      "kind": "text",
+      "context": "GoalQuantify how well the machine supports tasty extractions with different coffees."
+    },
+    {
+      "id": "4201474798f91598cf8bca7a184580fdc5c98e11bd7f3b09d37857fe459417f5",
+      "source": "Medium roast: 18 g in, 36 g out in 25 to 32 seconds at 93°C.",
+      "kind": "text",
+      "context": "Medium roast: 18 g in, 36 g out in 25 to 32 seconds at 93°C."
+    },
+    {
+      "id": "3482ee263eb37a6da946c24fa8513d687de88befc6fd87f139d411aed7365857",
+      "source": "Light roast: 18 g in, 40 g out in 28 to 36 seconds at 94°C to 95°C.",
+      "kind": "text",
+      "context": "Light roast: 18 g in, 40 g out in 28 to 36 seconds at 94°C to 95°C."
+    },
+    {
+      "id": "09b00b9f365028d1e5c349b44e3a7d5338e9646fa200fe78bd798858e8dff0dc",
+      "source": "Natural process: 18 g in, 38 g out, same temperature as medium.",
+      "kind": "text",
+      "context": "Natural process: 18 g in, 38 g out, same temperature as medium."
+    },
+    {
+      "id": "f6a132d84436845367ed9eb179fd4d62c611d50ec4c099f4782f622330fe34c9",
+      "source": "Decaf: 18 g in, 32 g out, 92°C.",
+      "kind": "text",
+      "context": "Decaf: 18 g in, 32 g out, 92°C."
+    },
+    {
+      "id": "d249a2e4c046746c79ce2e57063c1f77202e34d38bac6da573d801622ee51590",
+      "source": "We pull three shots per coffee recipe.",
+      "kind": "text",
+      "context": "We pull three shots per coffee recipe."
+    },
+    {
+      "id": "4f04bce398c51803ad1f261d81726e220985f3f5b68503ead2c61c3082d45aa2",
+      "source": "We measure TDS with a calibrated refractometer, then compute extraction yield.",
+      "kind": "text",
+      "context": "We measure TDS with a calibrated refractometer, then compute extraction yield."
+    },
+    {
+      "id": "b033710f66bd63071ef718eebfaf240d34c150fc827d882ee6f365441403a924",
+      "source": "We log channeling events visually and with a bottomless portafilter when possible.",
+      "kind": "text",
+      "context": "We log channeling events visually and with a bottomless portafilter when possible."
+    },
+    {
+      "id": "fcf22035f0530f59c351042ec4f67b035b6e4cf7cb15fdc94b65f831bef678a2",
+      "source": "We taste blind in flights, scoring clarity, sweetness, acidity quality, texture, balance, and aftertaste.",
+      "kind": "text",
+      "context": "We taste blind in flights, scoring clarity, sweetness, acidity quality, texture, balance, and aftertaste."
+    },
+    {
+      "id": "da3065823f7df3434180875fc841fc36d0acaa46e9220f80b7c83234fba45491",
+      "source": "Extraction yield in the target range with low variance, minimal prep sensitivity, and no harshness when pushed coarser or finer.",
+      "kind": "text",
+      "context": "What earns top marksExtraction yield in the target range with low variance, minimal prep sensitivity, and no harshness when pushed coarser or finer."
+    },
+    {
+      "id": "480e688b42f5208c154c95c5e519b8200b587b921d882ebd4ff154748e35b206",
+      "source": "Milk Steaming",
+      "kind": "text",
+      "context": "Milk Steaming"
+    },
+    {
+      "id": "d8a7c46dd708c43296ac502a4e281ea679c1b0bcb2dcf0af0c00a25289f09d51",
+      "source": "Measure steam power, control, and milk texture quality.",
+      "kind": "text",
+      "context": "GoalMeasure steam power, control, and milk texture quality."
+    },
+    {
+      "id": "71ff5c404d307a2a2ea30b22a45a66eda3099bdf9f0a74c0f7d120d5df5d3b72",
+      "source": "Start milk at 4 to 6°C in a 350 ml pitcher with 200 ml fill.",
+      "kind": "text",
+      "context": "Start milk at 4 to 6°C in a 350 ml pitcher with 200 ml fill."
+    },
+    {
+      "id": "493134fd744e61b7f356d3f0cb98aeb769ae89c05d82e662a9cf54a2222667e8",
+      "source": "Time to 55°C with a fast digital thermometer. We stop steaming at 60°C and record time, pressure behavior, and the need to purge.",
+      "kind": "text",
+      "context": "Time to 55°C with a fast digital thermometer. We stop steaming at 60°C and record time, pressure behavior, and the need to purge."
+    },
+    {
+      "id": "c0bdf13f16076aa1b77e274539e208f308321cfb2dd534c40927cd4b818ebd88",
+      "source": "We evaluate microfoam texture on a 1 to 10 scale for gloss, bubble size, and drink integration.",
+      "kind": "text",
+      "context": "We evaluate microfoam texture on a 1 to 10 scale for gloss, bubble size, and drink integration."
+    },
+    {
+      "id": "4ef194c47594480ce4c45477063e037f39a078ad4e934f48177644c48c3be90d",
+      "source": "We repeat with oat milk to observe tip design and turbulence behavior.",
+      "kind": "text",
+      "context": "We repeat with oat milk to observe tip design and turbulence behavior."
+    },
+    {
+      "id": "7bd33bd9c04342960ea9693d30acd6ed181bb81a630abb1d7e35b61e2df050bf",
+      "source": "55°C in under 25 seconds for dual boilers and HX, under 45 seconds for single boilers with thermoblocks, smooth pressure ramp, and microfoam suitable for basic art without hot spots.",
+      "kind": "text",
+      "context": "What earns top marks55°C in under 25 seconds for dual boilers and HX, under 45 seconds for single boilers with thermoblocks, smooth pressure ramp, and microfoam suitable for basic art without hot spots."
+    },
+    {
+      "id": "4a8fd660126933fe169a24da08680ea00dff5068980252331c2f837b474ddca2",
+      "source": "Workflow and Ergonomics",
+      "kind": "text",
+      "context": "Workflow and Ergonomics"
+    },
+    {
+      "id": "0843e2b110a968dc4d34f6c1933882faf126964158aa7d7bedb42585586540bb",
+      "source": "Assess efficiency, comfort, and reliability during single-drink use and a short rush.",
+      "kind": "text",
+      "context": "GoalAssess efficiency, comfort, and reliability during single-drink use and a short rush."
+    },
+    {
+      "id": "7d991d3297035f8402c16e6f2990069399b25ef3e7775cb87aeda0ea2ab7e38a",
+      "source": "Single drink flow: grind to sip time with espresso only, and with a milk drink.",
+      "kind": "text",
+      "context": "Single drink flow: grind to sip time with espresso only, and with a milk drink."
+    },
+    {
+      "id": "63cfe67420a1d4e087f777c5182fcfd3c26e7e7e7854bb86a666348ad2280ffa",
+      "source": "Rush simulation: three drinks back to back. Espresso, flat white, espresso. We record total time, misses, purge behavior, and clean-down.",
+      "kind": "text",
+      "context": "Rush simulation: three drinks back to back. Espresso, flat white, espresso. We record total time, misses, purge behavior, and clean-down."
+    },
+    {
+      "id": "03c61c086cc600b0d231b1cdb9a76f829a268adb7897273ae90d2c891338c746",
+      "source": "Ergonomics checklist: portafilter fit, handle angle, basket lock point, steam lever action, wand reach, hot water spout splash, cup clearance, and drip tray capacity.",
+      "kind": "text",
+      "context": "Ergonomics checklist: portafilter fit, handle angle, basket lock point, steam lever action, wand reach, hot water spout splash, cup clearance, and drip tray capacity."
+    },
+    {
+      "id": "654f27e1082a557fe98f5a4577406cb7d4abf56872677395276508e1846eaa26",
+      "source": "Noise: we record dBA at 1 meter during idle, brew, and steam.",
+      "kind": "text",
+      "context": "Noise: we record dBA at 1 meter during idle, brew, and steam."
+    },
+    {
+      "id": "a3ebf5fc35384e9a210fdd4643d69051138c82b6b9c7df9f1d843dcfcddf52fb",
+      "source": "Logical controls, clean line of sight under the group, tidy purge, smooth wand with a safe pivot range, and low mess.",
+      "kind": "text",
+      "context": "What earns top marksLogical controls, clean line of sight under the group, tidy purge, smooth wand with a safe pivot range, and low mess."
+    },
+    {
+      "id": "05e0ccf54e58b86b7fe9b10d3cbe6a0f67991360abb684419770560b3ba50a5a",
+      "source": "Build, Serviceability, and Safety",
+      "kind": "text",
+      "context": "Build, Serviceability, and Safety"
+    },
+    {
+      "id": "af7ad35940bcdb5b151ccbdb6a433760f77a503a89a05f755e823b14ed388419",
+      "source": "Inspect parts quality, assembly, and the ease of long-term care.",
+      "kind": "text",
+      "context": "GoalInspect parts quality, assembly, and the ease of long-term care."
+    },
+    {
+      "id": "b589c201aff32c75db73ce8c21738f06efd5d8c5bc8b7e0eebfc9ec93942d636",
+      "source": "Exterior fit, internal layout, and fastener choices.",
+      "kind": "text",
+      "context": "Exterior fit, internal layout, and fastener choices."
+    },
+    {
+      "id": "88ea3f4c099b30f5c2aa0948d4710b5f4fd58f3cbb41fc9c14fdf35f9e2018ab",
+      "source": "Access routine: group gasket and screen removal time, water tank access, and descale access where relevant.",
+      "kind": "text",
+      "context": "Access routine: group gasket and screen removal time, water tank access, and descale access where relevant."
+    },
+    {
+      "id": "418eb792403332d436a81aa4ac0d581131660a91e792f2ce7a0e6b9074e0e767",
+      "source": "Electronics: board layout, strain relief, connector quality.",
+      "kind": "text",
+      "context": "Electronics: board layout, strain relief, connector quality."
+    },
+    {
+      "id": "99c52621a41879de108b90f42f3edde8d58a5424edaf65d64bf2046e69dae700",
+      "source": "Over-temperature and low-water behavior.",
+      "kind": "text",
+      "context": "Over-temperature and low-water behavior."
+    },
+    {
+      "id": "b9a8521a1e9c401e54702735ab32fbd2002d3b95b38e77958fa69026737613df",
+      "source": "Spare parts availability and documentation quality.",
+      "kind": "text",
+      "context": "Spare parts availability and documentation quality."
+    },
+    {
+      "id": "b8d194e1f0fcb0c595c12be3291f2ec8cdd2700096d739f33ccf85f0d10303e5",
+      "source": "Warranty scope and regional coverage.",
+      "kind": "text",
+      "context": "Warranty scope and regional coverage."
+    },
+    {
+      "id": "e8146aa71d22426f973cd5c82a2fb8b4d6b3c7421dbc031406b365dce86311b5",
+      "source": "Quality metals, clean wiring looms, parts labeling, easy access to wear items, and a manual that actually helps.",
+      "kind": "text",
+      "context": "What earns top marksQuality metals, clean wiring looms, parts labeling, easy access to wear items, and a manual that actually helps."
+    },
+    {
+      "id": "43ecdb8b0613e6d3cf1efc39b34d8d1a10eb7588f2b050461ee250ebab6e1f46",
+      "source": "Energy Use",
+      "kind": "text",
+      "context": "Energy Use"
+    },
+    {
+      "id": "c072fc54ff919407f22dfa61e99fae3bc593cc976208c54809527b4622f5bef6",
+      "source": "Quantify idle draw, warm-up draw, and typical daily consumption.",
+      "kind": "text",
+      "context": "GoalQuantify idle draw, warm-up draw, and typical daily consumption."
+    },
+    {
+      "id": "dfcd9111ff500586956708c076191e7ab7346045614eb2ffbe0d8939f4f7e5e8",
+      "source": "Inline power meter.",
+      "kind": "text",
+      "context": "Inline power meter."
+    },
+    {
+      "id": "58f7cd7441d5be5833bcb6e3c9f4abc44f9ed08baf079e23eeaa4beab07cf15e",
+      "source": "From cold: energy to stable brew state.",
+      "kind": "text",
+      "context": "From cold: energy to stable brew state."
+    },
+    {
+      "id": "17dca89c680cc9fd63943a733422b9dec8186411ece04d6e203d3e76ba8552ab",
+      "source": "Idle: two hours with and without eco mode.",
+      "kind": "text",
+      "context": "Idle: two hours with and without eco mode."
+    },
+    {
+      "id": "4f3d9e0925a8bedc804bc8c9f67d1cbcc83639c857ac777bb960183d2a5e361e",
+      "source": "Workday simulation: four double shots and two milk drinks spaced over 45 minutes.",
+      "kind": "text",
+      "context": "Workday simulation: four double shots and two milk drinks spaced over 45 minutes."
+    },
+    {
+      "id": "16d062fee5e9449c181868513194a8639a9b77d9b0e2cbc3bb2f42ab0fa17f96",
+      "source": "We publish kWh and projected monthly cost at typical tariffs.",
+      "kind": "text",
+      "context": "We publish kWh and projected monthly cost at typical tariffs."
+    },
+    {
+      "id": "dc644364233e2395d03bb244608f9ec8c8e39e8a876e1193955cdd77d4d300dc",
+      "source": "Grinder Protocols",
+      "kind": "text",
+      "context": "Grinder Protocols"
+    },
+    {
+      "id": "04f62948dc9eb7062056ac401d0e9333bd30df9cb814f2a8ff76249691cc93cf",
+      "source": "Burr Prep and Alignment",
+      "kind": "text",
+      "context": "Burr Prep and Alignment"
+    },
+    {
+      "id": "7e899a482308e724d03719d5b3435c5533d1cc94335a8c0d877c3af67bff5b28",
+      "source": "Ensure the grinder we test is operating within spec.",
+      "kind": "text",
+      "context": "GoalEnsure the grinder we test is operating within spec."
+    },
+    {
+      "id": "69bdb53c36d4938496672bba411d2bb953bc107d47fc9de13d3f3f397ca3859f",
+      "source": "Burrs are cleaned and seasoned with 500 g of sacrificial coffee unless the vendor specifies otherwise.",
+      "kind": "text",
+      "context": "Burrs are cleaned and seasoned with 500 g of sacrificial coffee unless the vendor specifies otherwise."
+    },
+    {
+      "id": "f23db197d33dd67934dce34c8054b05938e67f7db42a5693f7506a3cc8a7543c",
+      "source": "We inspect mounting surfaces and run a basic marker test or dial indicator where accessible to check for parallelism.",
+      "kind": "text",
+      "context": "We inspect mounting surfaces and run a basic marker test or dial indicator where accessible to check for parallelism."
+    },
+    {
+      "id": "bbc99312f7d8a4be78a4ed38333fa2313fac87a48d8fbf03c8f6ddfb2698cfc8",
+      "source": "If a grinder offers factory alignment shims, we document the as-received condition and any correction steps.",
+      "kind": "text",
+      "context": "If a grinder offers factory alignment shims, we document the as-received condition and any correction steps."
+    },
+    {
+      "id": "8c47e437c503dc9dc801d95e7d006811665cdaf15bd312d8126a74c97635796e",
+      "source": "Even contact pattern or verified parallelism, no burr rub at espresso settings, and a clean zero point.",
+      "kind": "text",
+      "context": "What earns top marksEven contact pattern or verified parallelism, no burr rub at espresso settings, and a clean zero point."
+    },
+    {
+      "id": "bb8952817850e91112cb85fd4de8662f8f2c66ac086eb8b8252c68a836b56ba2",
+      "source": "Retention and Single Dosing",
+      "kind": "text",
+      "context": "Retention and Single Dosing"
+    },
+    {
+      "id": "43ff01669b93aecab884f19c18766d667c89b9b80c159160bfd6a08f9a30da0a",
+      "source": "Measure how much coffee the grinder holds and how much purging is required for repeatable shots.",
+      "kind": "text",
+      "context": "GoalMeasure how much coffee the grinder holds and how much purging is required for repeatable shots."
+    },
+    {
+      "id": "efd823d3856a8fade93ddf00bb35d816f791acccab1ec8300ce13e7616684d00",
+      "source": "Espresso setting tuned for 18 g in, 36 g out at 28 to 32 seconds on the medium roast.",
+      "kind": "text",
+      "context": "Espresso setting tuned for 18 g in, 36 g out at 28 to 32 seconds on the medium roast."
+    },
+    {
+      "id": "be914503b939fd228b4a996e4affdd1d511d5a89732ff9df5994b6f2a3573a33",
+      "source": "Ten single-dose runs of 18.0 g. We record in and out to 0.01 g.",
+      "kind": "text",
+      "context": "Ten single-dose runs of 18.0 g. We record in and out to 0.01 g."
+    },
+    {
+      "id": "6a200ca37112b59d650360760d6960b38863c06cbb435b6638a07baec3439320",
+      "source": "We calculate average retention, peak retention, and the purge mass needed to bring the next dose within 0.2 g of target.",
+      "kind": "text",
+      "context": "We calculate average retention, peak retention, and the purge mass needed to bring the next dose within 0.2 g of target."
+    },
+    {
+      "id": "15f72be53c426c8766b20fc749f4a9fcf2704fa794affc1cc9b914a54cd230a2",
+      "source": "We repeat with RDT and without if the grinder is prone to static.",
+      "kind": "text",
+      "context": "We repeat with RDT and without if the grinder is prone to static."
+    },
+    {
+      "id": "9e355cba7d3900f4c4762ee068d5410e437c22a5ae94295372b03d415dfdcff4",
+      "source": "Average retention at or under 0.3 g with predictable purge behavior.",
+      "kind": "text",
+      "context": "What earns top marksAverage retention at or under 0.3 g with predictable purge behavior."
+    },
+    {
+      "id": "7dc749eb256ef4ebc923bcac41b65104443674b7ae0310258b05f9edff8dcacd",
+      "source": "Grind Speed and Heat Rise",
+      "kind": "text",
+      "context": "Grind Speed and Heat Rise"
+    },
+    {
+      "id": "2c99c58f0fd91fd5e5c349f5139a9cc32e29f7c99a3478723d17a754a10e0b7e",
+      "source": "See how fast the grinder works and whether it heats the coffee.",
+      "kind": "text",
+      "context": "GoalSee how fast the grinder works and whether it heats the coffee."
+    },
+    {
+      "id": "1b00d14768f8891b0e30c43444a0bce819415c717b8792419dafd8f52fde290a",
+      "source": "We time ten 18 g grinds at the espresso setting and publish grams per second and variance.",
+      "kind": "text",
+      "context": "We time ten 18 g grinds at the espresso setting and publish grams per second and variance."
+    },
+    {
+      "id": "bd7b88d6f33ad1f94e9ce59b36e87e5c76b3c571d05192d27e01ed3c2e39784f",
+      "source": "We record burr carrier temperature before and after a 10-shot string and the bean temperature delta if accessible.",
+      "kind": "text",
+      "context": "We record burr carrier temperature before and after a 10-shot string and the bean temperature delta if accessible."
+    },
+    {
+      "id": "c10d300e20929b4156b537a2febf59b83fe07317ca2ead3c2f9086f4500d72f6",
+      "source": "If speed control exists, we test at low and high RPM.",
+      "kind": "text",
+      "context": "If speed control exists, we test at low and high RPM."
+    },
+    {
+      "id": "99ba420fa3ee9f1c7e8f73ad32a675f584a59599db38f9b76e9a35080e6abaa0",
+      "source": "Fast enough for home use without flavor penalties. Minimal heat rise and stable RPM.",
+      "kind": "text",
+      "context": "What earns top marksFast enough for home use without flavor penalties. Minimal heat rise and stable RPM."
+    },
+    {
+      "id": "1efaf732fa4d311afeb00cdd6b01a9e7d669f466ee7d566724a593e9de67c19a",
+      "source": "Particle Behavior",
+      "kind": "text",
+      "context": "Particle Behavior"
+    },
+    {
+      "id": "3f1ffd53a39efef18d9d0af7894a6837b2eff7e9a45251cd37b25972ef0a4756",
+      "source": "Understand grind distribution tendencies that influence clarity and body.",
+      "kind": "text",
+      "context": "GoalUnderstand grind distribution tendencies that influence clarity and body."
+    },
+    {
+      "id": "0b18b6fc9da69ae6d8ca24588043160779ef586f7880d649c45b08c19a399309",
+      "source": "We use a set of coffee sieves for a coarse cut of distribution and repeatability.",
+      "kind": "text",
+      "context": "We use a set of coffee sieves for a coarse cut of distribution and repeatability."
+    },
+    {
+      "id": "bdc61f73644e6d7fb8f56a5f71e91cdf6a2eb74505b01ab62d831cdcb0ccce58",
+      "source": "We note fines proportion changes when chasing shots finer or coarser.",
+      "kind": "text",
+      "context": "We note fines proportion changes when chasing shots finer or coarser."
+    },
+    {
+      "id": "e3771f8173d0e47cfb197c3d3858871ed76e73df6e716092525641fd3591961e",
+      "source": "We connect distribution notes to taste outcomes across the coffee set.",
+      "kind": "text",
+      "context": "We connect distribution notes to taste outcomes across the coffee set."
+    },
+    {
+      "id": "b1df9a0f797b10b309e67183bcbc44e72e49d7afa5dd8f07261ecbd22cedc4de",
+      "source": "Tight repeatability and a fines profile that supports either clarity or texture as advertised.",
+      "kind": "text",
+      "context": "What earns top marksTight repeatability and a fines profile that supports either clarity or texture as advertised."
+    },
+    {
+      "id": "c740a4f4dffa31d449cd12799324ea265622ccf4246ea396912599ff7b10f638",
+      "source": "Rate the day-to-day experience.",
+      "kind": "text",
+      "context": "GoalRate the day-to-day experience."
+    },
+    {
+      "id": "26cc62bcbb409bbd4b535783591bb3623ce1232a497e711e8505b60641690c66",
+      "source": "Dose cup design, magnet strength, and spout geometry.",
+      "kind": "text",
+      "context": "Dose cup design, magnet strength, and spout geometry."
+    },
+    {
+      "id": "ab9e1cf2a2db1303b249777b09fb2ea5446c702612334eac086c5f912c96318b",
+      "source": "Static and clumping with and without RDT.",
+      "kind": "text",
+      "context": "Static and clumping with and without RDT."
+    },
+    {
+      "id": "83ee9ca2102028e6665066bdc8e5b25eeb524d5038c5b8a137094c77a03458e5",
+      "source": "Adjustment range and resolution.",
+      "kind": "text",
+      "context": "Adjustment range and resolution."
+    },
+    {
+      "id": "0a3ccb2c45db7a8d05358aaf84a5055e6df7ad13c60d6c8bfa898a1ee0263acf",
+      "source": "Noise at 1 meter and tone quality.",
+      "kind": "text",
+      "context": "Noise at 1 meter and tone quality."
+    },
+    {
+      "id": "13d01b2a8ef0522104c5e8397e6db175230d8be9f5c1e882c1ccf1930ab4d3f9",
+      "source": "Cleaning routine and tool access.",
+      "kind": "text",
+      "context": "Cleaning routine and tool access."
+    },
+    {
+      "id": "6ed7534072eba40353e0acd0fcbbfcebdf036321ed8a08fb4e09b1f76613c450",
+      "source": "Predictable dial, low mess, easy cleaning, and a design that does not scatter grounds.",
+      "kind": "text",
+      "context": "What earns top marksPredictable dial, low mess, easy cleaning, and a design that does not scatter grounds."
+    },
+    {
+      "id": "ec622122163fff5a3e02f38c2f566b92521fa5eec83798be92b2669f6db714b1",
+      "source": "In-Cup Performance",
+      "kind": "text",
+      "context": "In-Cup Performance"
+    },
+    {
+      "id": "5fe83a0ccad829fe6804601d8fd52791d681bf8286e3a9f509f0268b6f5d4180",
+      "source": "Tie everything back to flavor.",
+      "kind": "text",
+      "context": "GoalTie everything back to flavor."
+    },
+    {
+      "id": "fb97b5a918c10ffa7f4105eea3feadf1c8f1bdd198fbc63b737e0529f29089cd",
+      "source": "Pull identical recipes on the test machine with the grinder under review and a control grinder.",
+      "kind": "text",
+      "context": "Pull identical recipes on the test machine with the grinder under review and a control grinder."
+    },
+    {
+      "id": "27134495bd7bf785a1029887ea5bd0cb7137d976e6fb92be8390a06aa5ebcc96",
+      "source": "We taste blind and track extraction yields.",
+      "kind": "text",
+      "context": "We taste blind and track extraction yields."
+    },
+    {
+      "id": "8ab6f66773323d297dc2f6d3ad58f39ed4c55c367b567aab462e14790a9f6b7d",
+      "source": "We document where the grinder excels. Clarity. Texture. Chocolate weight. Floral definition. We also document where it struggles.",
+      "kind": "text",
+      "context": "We document where the grinder excels. Clarity. Texture. Chocolate weight. Floral definition. We also document where it struggles."
+    },
+    {
+      "id": "99cb40bb6276edd34f627b6a75552bb621f92384450aa36d719ab17bb343240c",
+      "source": "Clear gains over a solid control grinder or distinct value at a lower price point.",
+      "kind": "text",
+      "context": "What earns top marksClear gains over a solid control grinder or distinct value at a lower price point."
+    },
+    {
+      "id": "8ee31c8366a9e5545c96541f62f37cd72d5e329c2e93a14707b46e15990fae8d",
+      "source": "Coffee Bean Protocols",
+      "kind": "text",
+      "context": "Coffee Bean Protocols"
+    },
+    {
+      "id": "c3be464cb99a20a378bdf837010b555eb1910c8c176fa6e3f37417ebdafd5111",
+      "source": "Intake and Data",
+      "kind": "text",
+      "context": "Intake and Data"
+    },
+    {
+      "id": "1899031a8ab7f1fa45fc5a48041dea41634f59856e2cff0aea43ed924fe8d8bf",
+      "source": "Capture roast details and check for defects.",
+      "kind": "text",
+      "context": "GoalCapture roast details and check for defects."
+    },
+    {
+      "id": "899d22624870ecccd03049e1b230e74fe2c03c0af3efbe1e914e0904562aafea",
+      "source": "We log roast date, variety info, process, altitude if listed, and packaging valve type.",
+      "kind": "text",
+      "context": "We log roast date, variety info, process, altitude if listed, and packaging valve type."
+    },
+    {
+      "id": "dd410e90b50fedf9bae976527ee48cf18a4eb2e949926d96bc5ff4610ccb19a3",
+      "source": "We check for quakers and visual defects.",
+      "kind": "text",
+      "context": "We check for quakers and visual defects."
+    },
+    {
+      "id": "240b8ddc357b69344960dce5309798343eb6cfc9be61991dfb5e2765afdf6773",
+      "source": "We note roast uniformity and color using a roast color meter where available.",
+      "kind": "text",
+      "context": "We note roast uniformity and color using a roast color meter where available."
+    },
+    {
+      "id": "adca4945a4117861b4d31e0aad061e1cabffa38bb1703fd25d04ddf362fbc638",
+      "source": "Degassing and Freshness Window",
+      "kind": "text",
+      "context": "Degassing and Freshness Window"
+    },
+    {
+      "id": "ba506c6b192dbac3541e58d69ae70223e9b7cb8a6f940fe5a6b2ae9d5178cab8",
+      "source": "Find the sweet spot for espresso and milk drinks.",
+      "kind": "text",
+      "context": "GoalFind the sweet spot for espresso and milk drinks."
+    },
+    {
+      "id": "60333eea1ceb360c615bce26e97dcc8e10ac096dd89e0273e82401540be6fb83",
+      "source": "We open one bag on day three and pull shots daily until day 21.",
+      "kind": "text",
+      "context": "We open one bag on day three and pull shots daily until day 21."
+    },
+    {
+      "id": "637fe2f1a9083738b0adf350b325dcdd3fb913f2b22003db7b1ca651bc89974f",
+      "source": "We track crema behavior, channeling tendency, and shot time range at a standard ratio.",
+      "kind": "text",
+      "context": "We track crema behavior, channeling tendency, and shot time range at a standard ratio."
+    },
+    {
+      "id": "fc288b76cbd1acaad6b5a3cfaac8365a34d9ae63555e75ea914208a1a72da084",
+      "source": "We record TDS and extraction yield every other day to see solubility changes.",
+      "kind": "text",
+      "context": "We record TDS and extraction yield every other day to see solubility changes."
+    },
+    {
+      "id": "a48b6ba659abe3a9bf4d082bac31de2a5c1e67f6001d1307a847278570d6210c",
+      "source": "A wide usable window with stable shots and clear flavor progression rather than sudden staling.",
+      "kind": "text",
+      "context": "What earns top marksA wide usable window with stable shots and clear flavor progression rather than sudden staling."
+    },
+    {
+      "id": "f724264b7e1966415e6f9ce79f68a74a376ca4c5c56e4df1f4869880cb89800a",
+      "source": "Espresso Performance",
+      "kind": "text",
+      "context": "Espresso Performance"
+    },
+    {
+      "id": "defcbb4100abdb38cd27b30a1f433e303c1698627b94f7f33d58bca82a68d906",
+      "source": "Test how the coffee behaves across common ratios and temperatures.",
+      "kind": "text",
+      "context": "GoalTest how the coffee behaves across common ratios and temperatures."
+    },
+    {
+      "id": "2762864a2789519d81969cc96d3de96aa8a20634e5e076b1250079d581773afa",
+      "source": "Medium roast: 1 to 2 ratio at 93°C base temperature.",
+      "kind": "text",
+      "context": "Medium roast: 1 to 2 ratio at 93°C base temperature."
+    },
+    {
+      "id": "65fbd80a3f85faffa8769ac03485baa7b50b809d4e7ac64b22b2b2c6f72715de",
+      "source": "Light roast: 1 to 2.2 ratio at 94°C to 95°C, then a 1 to 2.5 variant.",
+      "kind": "text",
+      "context": "Light roast: 1 to 2.2 ratio at 94°C to 95°C, then a 1 to 2.5 variant."
+    },
+    {
+      "id": "1d911d8e307f3b569a8284c8a3e6226997e5115c65fb1abe0307e6c3f6df5ed2",
+      "source": "We pull three shots per recipe, calculate extraction yield, and taste blind in flights.",
+      "kind": "text",
+      "context": "We pull three shots per recipe, calculate extraction yield, and taste blind in flights."
+    },
+    {
+      "id": "63ba87b5a6bb30f3c6b985d7c5e62db2d227b0a39f0b17c479fa2e034220798a",
+      "source": "We score sweetness, acidity quality, texture, and finish.",
+      "kind": "text",
+      "context": "We score sweetness, acidity quality, texture, and finish."
+    },
+    {
+      "id": "e23b16ee1b454390d1e4dcec84c3aaa7aedc15a1ebcc042e3e4e883c4b170830",
+      "source": "Milk Performance",
+      "kind": "text",
+      "context": "Milk Performance"
+    },
+    {
+      "id": "64871f775746d21c4620055e1276aa9444a72c32bcfb796e9d5a0568bdf68f52",
+      "source": "See how the coffee cuts through milk.",
+      "kind": "text",
+      "context": "GoalSee how the coffee cuts through milk."
+    },
+    {
+      "id": "b7ea062f276d2dcaaf08e61f3016df1ab1056324cff7d57ca1bd339495ecd01e",
+      "source": "We build 150 ml milk drinks with both dairy and oat.",
+      "kind": "text",
+      "context": "We build 150 ml milk drinks with both dairy and oat."
+    },
+    {
+      "id": "f7bf3950a6a39b83a45e6c00544b005421d4a4481d750bc390c721ee457180c2",
+      "source": "We taste for chocolate base, caramel lift, and bitterness carry.",
+      "kind": "text",
+      "context": "We taste for chocolate base, caramel lift, and bitterness carry."
+    },
+    {
+      "id": "19e622adf4e1bfad0d3ab83898a5018f90fb0103106ff0892abdf032900fd8e1",
+      "source": "We score integration and aftertaste.",
+      "kind": "text",
+      "context": "We score integration and aftertaste."
+    },
+    {
+      "id": "1906a162841e72c4318266f4b580a2f9305b690ec7c28e862d527f82a2030b9b",
+      "source": "Consistency and Value",
+      "kind": "text",
+      "context": "Consistency and Value"
+    },
+    {
+      "id": "f3780d2c85890960c869ba6e209c6c668942b9f3dad136ab82967660dd2fa3aa",
+      "source": "Check if the experience holds across bags and price.",
+      "kind": "text",
+      "context": "GoalCheck if the experience holds across bags and price."
+    },
+    {
+      "id": "f21a23f239f07618e729693a7e8cf4cf2ec9870d0eae64f4dd14d9b6b01c2f06",
+      "source": "If possible we source a second bag two to four weeks later.",
+      "kind": "text",
+      "context": "If possible we source a second bag two to four weeks later."
+    },
+    {
+      "id": "265ce08f1bea76158912580a873ef1265a86dee5e5402bc777288b17cd2eb1c5",
+      "source": "We note any significant batch variation.",
+      "kind": "text",
+      "context": "We note any significant batch variation."
+    },
+    {
+      "id": "ea388f1e62d71f3f4f11d962b0496b6172aaafd4a0611a4dcfa24bb55bdeeae3",
+      "source": "We calculate cost per usable shot based on extraction success rate.",
+      "kind": "text",
+      "context": "We calculate cost per usable shot based on extraction success rate."
+    },
+    {
+      "id": "63dd36d433e37b96b3ba9fbcd11e5d7c80b6c4ca20b9b3abf09cc882a85c804b",
+      "source": "Sensory Panel and Blind Testing",
+      "kind": "text",
+      "context": "Sensory Panel and Blind Testing"
+    },
+    {
+      "id": "64f1077fd99d0b643a7ba6d2cb1d8be334f03a7a64cd0f836d46af24116290a7",
+      "source": "Panel Setup",
+      "kind": "text",
+      "context": "Panel Setup"
+    },
+    {
+      "id": "f6de539221fa5b31c24c4e94971df12b615f90f8f91092ef5539b3f9d511028c",
+      "source": "Three to five tasters calibrated on a set of reference espressos.",
+      "kind": "text",
+      "context": "Three to five tasters calibrated on a set of reference espressos."
+    },
+    {
+      "id": "ecfcd5aee3a6daab91f15c485c3c76e98e49effab832c20502ab30d17412e04d",
+      "source": "We taste flights in black demitasses with numeric labels.",
+      "kind": "text",
+      "context": "We taste flights in black demitasses with numeric labels."
+    },
+    {
+      "id": "dee8a0dfd112ecafa76cc0b70419622ae8fa753afabeaa1ff5bee08bc82ac958",
+      "source": "We randomize order.",
+      "kind": "text",
+      "context": "We randomize order."
+    },
+    {
+      "id": "e1251e9d1b3f03b92a28fe184e74eb4725a6cc2ed69c78a03210f0a68a36b535",
+      "source": "Panelists spit and rinse with low-TDS water.",
+      "kind": "text",
+      "context": "Panelists spit and rinse with low-TDS water."
+    },
+    {
+      "id": "8f88da3f5032aa179e8d278da3d3c94ca7b7a5d0e044555b922a611f75322323",
+      "source": "Scoring and Notes",
+      "kind": "text",
+      "context": "Scoring and Notes"
+    },
+    {
+      "id": "553ca58911b822a2a97a79a524f5bae3101a8e273b331d01b9887e98ddcf1171",
+      "source": "Categories: clarity, sweetness, acidity quality, texture, balance, aftertaste, and milk integration where relevant.",
+      "kind": "text",
+      "context": "Categories: clarity, sweetness, acidity quality, texture, balance, aftertaste, and milk integration where relevant."
+    },
+    {
+      "id": "aec62779dfbe2499d2b238e7a86b95c70546f5d8d606ddef04588feea13c0031",
+      "source": "Scale: 1 to 10, half points allowed.",
+      "kind": "text",
+      "context": "Scale: 1 to 10, half points allowed."
+    },
+    {
+      "id": "da9dd7d95ec1ce153844d4e85f0c6994a7991eb8732f20ab751b86e2459625e8",
+      "source": "Panel leads compile notes and reconcile outliers. If a session shows high variance, we rerun it.",
+      "kind": "text",
+      "context": "Panel leads compile notes and reconcile outliers. If a session shows high variance, we rerun it."
+    },
+    {
+      "id": "69223d11791025c6c56cd18c7d7d3596dda22c753937cdfcf60493aee2e5686d",
+      "source": "Bias Controls",
+      "kind": "text",
+      "context": "Bias Controls"
+    },
+    {
+      "id": "7ec3bca1b785e34f3cd49fa851d811f50392a6f65c316ae8270ffc7a6e4cfa98",
+      "source": "The person who prepares shots does not pour flights.",
+      "kind": "text",
+      "context": "The person who prepares shots does not pour flights."
+    },
+    {
+      "id": "61e9728e03ef92cfaa9a9172ca57f32ef77f749497f675361d15fb4c88f0a5a1",
+      "source": "We rotate the starting taster to avoid order effects.",
+      "kind": "text",
+      "context": "We rotate the starting taster to avoid order effects."
+    },
+    {
+      "id": "53777744dc9b7369011394ced47e6da7d0a3823139482f9308e5cf2714dd5c88",
+      "source": "We keep grinders and machines identical across comparative flights unless the product under test is the variable by design.",
+      "kind": "text",
+      "context": "We keep grinders and machines identical across comparative flights unless the product under test is the variable by design."
+    },
+    {
+      "id": "4a2eb87bc082f7b411b89017c353a2aa14db9c8e6d26654475fa308ab42d285f",
+      "source": "Stress, Reliability, and Safety Testing",
+      "kind": "text",
+      "context": "Stress, Reliability, and Safety Testing"
+    },
+    {
+      "id": "ab5d993c72486986934728ba2f7e940fe7005911cf6d6d4d40550eeaf2e5d2cd",
+      "source": "Short Stress",
+      "kind": "text",
+      "context": "Short Stress"
+    },
+    {
+      "id": "7664d9c94fc8849d145c1d68c0c93032e76707e3e52a37a7780b1199750e1b51",
+      "source": "Six doubles in three minutes. We log temperatures, shot times, and any cutouts.",
+      "kind": "text",
+      "context": "Six doubles in three minutes. We log temperatures, shot times, and any cutouts."
+    },
+    {
+      "id": "88d50e4b4ba48258d6de0f55cabf647bfb521f79d21d245381ce233397ff4c56",
+      "source": "Milk after espresso stress: a 350 ml steam cycle followed by a double shot and recovery timing.",
+      "kind": "text",
+      "context": "Milk after espresso stress: a 350 ml steam cycle followed by a double shot and recovery timing."
+    },
+    {
+      "id": "800cb45a1f7158ad3b4223c6cb8ea379bb958e66002df25b593959a87f97a756",
+      "source": "Long Idle",
+      "kind": "text",
+      "context": "Long Idle"
+    },
+    {
+      "id": "5ba8f3eeec2c52a4e792240a134f49234771bde8e590de59b5d655e1821d536c",
+      "source": "Four-hour idle with periodic shots. We note scale on wands, hissing valves, or stability drift.",
+      "kind": "text",
+      "context": "Four-hour idle with periodic shots. We note scale on wands, hissing valves, or stability drift."
+    },
+    {
+      "id": "51b49a663b3c9318b835169367e4ed1d432826ac469b1f1311f237ddb8d17805",
+      "source": "We test auto-sleep and wake behavior.",
+      "kind": "text",
+      "context": "We test auto-sleep and wake behavior."
+    },
+    {
+      "id": "e9eb4bc26c903af0fbc33ffb108a564fadca58d30b691af517ce4de03e27937d",
+      "source": "Protection Tests",
+      "kind": "text",
+      "context": "Protection Tests"
+    },
+    {
+      "id": "ab6766f43618c3c0d3150f778a44d00ae1009d9a2575509c21d6d4210c4d752d",
+      "source": "Low tank water: verify prompts and cutoffs.",
+      "kind": "text",
+      "context": "Low tank water: verify prompts and cutoffs."
+    },
+    {
+      "id": "316d8cac2156d8a80a911c8baecced65c68d09e7a79e64c6151536734b571148",
+      "source": "Over-temperature behavior: verify shutdown or alarms.",
+      "kind": "text",
+      "context": "Over-temperature behavior: verify shutdown or alarms."
+    },
+    {
+      "id": "701c06404433978f82cc3d27b9bf3dce1bdafc827701aab9f23d24355e269f78",
+      "source": "Real-world Faults",
+      "kind": "text",
+      "context": "Real-world Faults"
+    },
+    {
+      "id": "cd43be92d94ee12c20b57118a8b24c125f24a3870d7b7d8ce62bb61ffd1b8fa7",
+      "source": "We run a slightly off grind for two shots to see how the machine copes with choked or racing shots.",
+      "kind": "text",
+      "context": "We run a slightly off grind for two shots to see how the machine copes with choked or racing shots."
+    },
+    {
+      "id": "3b53b7384377b0d25f3ec9d5de8e5314624474f7e29e6fdb4ad59986a510d9c3",
+      "source": "We test water with a slightly lower alkalinity to check how PID and pressure respond.",
+      "kind": "text",
+      "context": "We test water with a slightly lower alkalinity to check how PID and pressure respond."
+    },
+    {
+      "id": "76d9880bc32b2d00a4f184f7f25fdf3c9776201e3aab181a75d496ad2595613a",
+      "source": "Duty Cycle",
+      "kind": "text",
+      "context": "Duty Cycle"
+    },
+    {
+      "id": "c535e4caea04e4f8b02f21c38779da1f3be422a6715f6362e90fff9678364e50",
+      "source": "Ten consecutive doses at espresso fineness. We watch for thermal throttling and burr rub.",
+      "kind": "text",
+      "context": "Ten consecutive doses at espresso fineness. We watch for thermal throttling and burr rub."
+    },
+    {
+      "id": "88e27c3a4359929a07da67667cd8f30a7cf2c43d39fc1f8d7c2f0e3815d77e08",
+      "source": "We test coarse range quickly to see if there is reverse migration or dial slip.",
+      "kind": "text",
+      "context": "We test coarse range quickly to see if there is reverse migration or dial slip."
+    },
+    {
+      "id": "b71caad5a7e29a937388c3490ea5e7846d2ecbcf8d8917d04d32e05e65168837",
+      "source": "Static Season",
+      "kind": "text",
+      "context": "Static Season"
+    },
+    {
+      "id": "81145244629c959e544fc3c4b1d21ded3a38e119d38949b1e9189567469a2b8c",
+      "source": "We purposely do not use RDT for a set to observe worst-case mess. Then we add RDT and note changes.",
+      "kind": "text",
+      "context": "We purposely do not use RDT for a set to observe worst-case mess. Then we add RDT and note changes."
+    },
+    {
+      "id": "7a9b7a2b85e79399337276b8ae9157f9c9d2d65be5e0b736db247ff520c3802f",
+      "source": "Assembly and Wear",
+      "kind": "text",
+      "context": "Assembly and Wear"
+    },
+    {
+      "id": "e3f33949ce567be0b0222d4736710d88cf808d5beebd41c804e4b05ec18d6476",
+      "source": "We inspect threads, collars, and anti-popcorn parts after the full test cycle.",
+      "kind": "text",
+      "context": "We inspect threads, collars, and anti-popcorn parts after the full test cycle."
+    },
+    {
+      "id": "2695ed41bc9d6397de2fac3e3cb2be1a03c6f6dbef59596b0f3f7c701b8df797",
+      "source": "We check runout again at the end to detect shift.",
+      "kind": "text",
+      "context": "We check runout again at the end to detect shift."
+    },
+    {
+      "id": "ef3bba493694f2653ee0c93137d0a9645cbda427c04e74a264f9510fb62846e7",
+      "source": "Data Capture and Tools",
+      "kind": "text",
+      "context": "Data Capture and Tools"
+    },
+    {
+      "id": "5a9a4c88b547782d50bc88d99003c7334e7356d183f0379ef9f893015544ea4c",
+      "source": "We work to publish numbers you can reproduce. Our bench relies on:",
+      "kind": "text",
+      "context": "We work to publish numbers you can reproduce. Our bench relies on:"
+    },
+    {
+      "id": "451d9143c7b7f3d4089ea13d9c7cf7a6a8c474c6e58583bbd1defdb0b5e00ebe",
+      "source": "Precision scales to 0.01 g for dose and yield",
+      "kind": "text",
+      "context": "Precision scales to 0.01 g for dose and yield"
+    },
+    {
+      "id": "0799541d7a76a0d5f77ef2b68acce254903ede2e8c1776b8c3700294ab362f4e",
+      "source": "Independent shot timers",
+      "kind": "text",
+      "context": "Independent shot timers"
+    },
+    {
+      "id": "c687708cb6bedbc689820031cc3700d3169ed5d3754cce32e5392a19b05197ed",
+      "source": "Refractometer for TDS and extraction yield calculations",
+      "kind": "text",
+      "context": "Refractometer for TDS and extraction yield calculations"
+    },
+    {
+      "id": "28dc88be5bb71ca309f05d5d2db79c9823c7e2ae6a1e4eeda07d522025ba78fc",
+      "source": "Thermofilter or group thermocouple for brew temperature",
+      "kind": "text",
+      "context": "Thermofilter or group thermocouple for brew temperature"
+    },
+    {
+      "id": "b19d4dbc4a9e5072e24b3e30ccd6fa54a411c91efd469cdd2633ba1e34d71d59",
+      "source": "Inline power meter for energy and warm-up profiles",
+      "kind": "text",
+      "context": "Inline power meter for energy and warm-up profiles"
+    },
+    {
+      "id": "b7afbf3d926b11a2598474fab19b7584d0a0de5fe79a1ec8e9ffa4f36b1ff258",
+      "source": "Contact thermometer for milk, verified in ice bath",
+      "kind": "text",
+      "context": "Contact thermometer for milk, verified in ice bath"
+    },
+    {
+      "id": "36f03e812945e73a53f564fe77c067c963b2f3aa653dca1a9e9e21dbbec14351",
+      "source": "dBA meter at 1 meter for noise",
+      "kind": "text",
+      "context": "dBA meter at 1 meter for noise"
+    },
+    {
+      "id": "556d43a5f2519b214d52b82c115141f6c6f38bf57e5ce14b5139cedf78db0ab5",
+      "source": "Sieve set for grind distribution snapshots",
+      "kind": "text",
+      "context": "Sieve set for grind distribution snapshots"
+    },
+    {
+      "id": "54f185545596c2a35dd381682b5b805189a41361b0d1750961799c1b8ae08f32",
+      "source": "Calipers and dial indicator for alignment checks where accessible",
+      "kind": "text",
+      "context": "Calipers and dial indicator for alignment checks where accessible"
+    },
+    {
+      "id": "0761d52e9b11678840a1dd39d811bb40d96e0079dae2bb9d398cd5724b8d0903",
+      "source": "We calibrate instruments on a schedule and cross-check between units.",
+      "kind": "text",
+      "context": "We calibrate instruments on a schedule and cross-check between units."
+    },
+    {
+      "id": "a94824d85de9ddf3935db4d94fafd247e1f0819540d66ae80fc93409973d0912",
+      "source": "The Review Day Flow",
+      "kind": "text",
+      "context": "The Review Day Flow"
+    },
+    {
+      "id": "4c9392dedb6a595a332b7c9e13fcd913c71ffb297288562b2e331462b4eb52f1",
+      "source": "Here is how a typical full-day session runs for an espresso machine with its matching grinder.",
+      "kind": "text",
+      "context": "Here is how a typical full-day session runs for an espresso machine with its matching grinder."
+    },
+    {
+      "id": "f9f47d7c7110f68b0631040bff474f90bb0ca98de2b87c06754ab67fce760058",
+      "source": "Warm-up and baseline",
+      "kind": "text",
+      "context": "Warm-up and baseline"
+    },
+    {
+      "id": "b1864ba40fd0287cd41a54f3a4eaf3e752845567af7366cb1e5ee951557c1ba9",
+      "source": "Power on. Log warm-up temperature curve. Check group temperature with the thermofilter.",
+      "kind": "text",
+      "context": "Power on. Log warm-up temperature curve. Check group temperature with the thermofilter."
+    },
+    {
+      "id": "b06add24b411e95c64faf6623288554a7feaf9f495f1bf8452f4dc6287beb4e2",
+      "source": "Pull a few purge shots to season the path.",
+      "kind": "text",
+      "context": "Pull a few purge shots to season the path."
+    },
+    {
+      "id": "95fe73d1e0bfc44a3d35f6f8504211019bb50084c8a997ab12c583865cd3421e",
+      "source": "Verify brew pressure on a blind basket.",
+      "kind": "text",
+      "context": "Verify brew pressure on a blind basket."
+    },
+    {
+      "id": "20bcb96622ccd38b690cd6e4104ef5fe64a89a621d3435d30956e0dceb4b24c0",
+      "source": "Dial-in",
+      "kind": "text",
+      "context": "Dial-in"
+    },
+    {
+      "id": "e473710b07452290406a6a1dd89864c877f8e485e8fe82bf903cb6eee1ade76a",
+      "source": "Use the medium roast. Set 18 g in, 36 g out, target 28 to 32 seconds.",
+      "kind": "text",
+      "context": "Use the medium roast. Set 18 g in, 36 g out, target 28 to 32 seconds."
+    },
+    {
+      "id": "8f5b0b37464d9a9afd43d20034a0755e42c2517a7a6eebe2ae5eebb0d7373046",
+      "source": "Adjust grind to hit time and taste.",
+      "kind": "text",
+      "context": "Adjust grind to hit time and taste."
+    },
+    {
+      "id": "5464ce788387f97807b12ad3b8fd8d91a6f85b7ac32187e537e5943f9b946d0a",
+      "source": "Lock the burr setting and do not change it for the baseline set.",
+      "kind": "text",
+      "context": "Lock the burr setting and do not change it for the baseline set."
+    },
+    {
+      "id": "6edb2738fd66381fd5c524816cd3bf451972624505b2011f146abae03a8ff538",
+      "source": "Baseline shots",
+      "kind": "text",
+      "context": "Baseline shots"
+    },
+    {
+      "id": "528ee55ce59adbe48dafa5eba4343285bf96f0ac625619e6a7ca483de4a31ce0",
+      "source": "Three shots on medium roast. Log TDS, EY, and tasting notes.",
+      "kind": "text",
+      "context": "Three shots on medium roast. Log TDS, EY, and tasting notes."
+    },
+    {
+      "id": "656fd67ffd9bbacb74b035affd4ca4b41a53f1bfa98c705b8e44e5bf3d14d5c7",
+      "source": "Repeat for natural and light roasts with the recipe changes listed earlier.",
+      "kind": "text",
+      "context": "Repeat for natural and light roasts with the recipe changes listed earlier."
+    },
+    {
+      "id": "5bd16f45fe9d86b0db8380e1af8943712b501efde772d99f9b05ca3a09ff73e8",
+      "source": "Note any channeling incidents under a bottomless portafilter.",
+      "kind": "text",
+      "context": "Note any channeling incidents under a bottomless portafilter."
+    },
+    {
+      "id": "a1efb2c5503972e0c3ad6282b173833f11cec7536d9b56adde4833b7126de700",
+      "source": "Milk tests",
+      "kind": "text",
+      "context": "Milk tests"
+    },
+    {
+      "id": "29ce97a896d4d11332e3f5a3bc0a9908685cc2c5b1ea0b697698ea03df3e1570",
+      "source": "Time and temperature the 200 ml steam routine.",
+      "kind": "text",
+      "context": "Time and temperature the 200 ml steam routine."
+    },
+    {
+      "id": "2e461f5e57aa867b407fa630b2f07acc092a9967a1e25915100f03073af0c9b6",
+      "source": "Assess microfoam and repeat with oat.",
+      "kind": "text",
+      "context": "Assess microfoam and repeat with oat."
+    },
+    {
+      "id": "902e03ca248a918181e949548eeae5fb9098a22a791b202fc8befc542e73aedf",
+      "source": "Workflow and rush",
+      "kind": "text",
+      "context": "Workflow and rush"
+    },
+    {
+      "id": "de1ceb2461c2d936dd315c41ac5364a160e74df388e26b2f4c1ba8a101611e1c",
+      "source": "Log grind-to-sip times.",
+      "kind": "text",
+      "context": "Log grind-to-sip times."
+    },
+    {
+      "id": "923b03667596cc6e52de8a2c0aa951fa580c83cac3ff2845328a7f2bb81916ea",
+      "source": "Run the three-drink rush simulation with espresso, flat white, espresso.",
+      "kind": "text",
+      "context": "Run the three-drink rush simulation with espresso, flat white, espresso."
+    },
+    {
+      "id": "9f2864c2093f5e320b263f78a0d93147329a1c31db1b9d4a9406dfac8b17e5c2",
+      "source": "Note mess, purge, and clean-down.",
+      "kind": "text",
+      "context": "Note mess, purge, and clean-down."
+    },
+    {
+      "id": "881511daa3a4d15d20f9edbfe381d31acf009a8af40ce6b96b9f072e37d86adc",
+      "source": "Stress and recovery",
+      "kind": "text",
+      "context": "Stress and recovery"
+    },
+    {
+      "id": "89d80283bcac05a844a6b45fe1cb76d464048aa0ff4bc7b330f99f2206b84ebd",
+      "source": "Six doubles in three minutes. Watch temperature drift.",
+      "kind": "text",
+      "context": "Six doubles in three minutes. Watch temperature drift."
+    },
+    {
+      "id": "a56de54144ad956ca8fe973ba6039fd7884eeecfd54e69926067e752f001c7f5",
+      "source": "Steam immediately after and then pull a recovery shot.",
+      "kind": "text",
+      "context": "Steam immediately after and then pull a recovery shot."
+    },
+    {
+      "id": "cf54deb2cef262f9953d5096cdf096dad3a0659fbf94e09bb5b1a1aedf65d7d5",
+      "source": "Energy and idle",
+      "kind": "text",
+      "context": "Energy and idle"
+    },
+    {
+      "id": "58fe7c5a54438241f43db64f1c5f6e479c30b80cf32627eee007753311c4506c",
+      "source": "Log kWh for warm-up and a 45-minute simulated session.",
+      "kind": "text",
+      "context": "Log kWh for warm-up and a 45-minute simulated session."
+    },
+    {
+      "id": "70e3bded7202939a3f74487a2273c8e9e4874aa30afbd7117537d7b0dc5b5796",
+      "source": "Idle for an hour and capture standby behavior.",
+      "kind": "text",
+      "context": "Idle for an hour and capture standby behavior."
+    },
+    {
+      "id": "25977ce90ae4b09bd4235efa75c85600c6ab72f55b961db8e1a5b794c9b65def",
+      "source": "Panel tasting",
+      "kind": "text",
+      "context": "Panel tasting"
+    },
+    {
+      "id": "c78b0a9c0d2c355b196d5c97d58711788311231b1802c78ac9a1c6244136696b",
+      "source": "Prepare blind flights with control shots from a known reference machine and grinder.",
+      "kind": "text",
+      "context": "Prepare blind flights with control shots from a known reference machine and grinder."
+    },
+    {
+      "id": "7213203abfdacc5cebdc57f483591ac428923105b77e50320b03ac997d947eaa",
+      "source": "Score and reconcile notes.",
+      "kind": "text",
+      "context": "Score and reconcile notes."
+    },
+    {
+      "id": "ed780707cd3e510e12b772c67249b4499fac4a4ce3a85e2cde7ab54d1bd1495d",
+      "source": "Tear-down",
+      "kind": "text",
+      "context": "Tear-down"
+    },
+    {
+      "id": "40cf2cb32dd5f424bef8e27bbff61e808dc8188dea7fb35eac3239dd701ed3a6",
+      "source": "Inspect gaskets, screens, wands, and internal layout if accessible.",
+      "kind": "text",
+      "context": "Inspect gaskets, screens, wands, and internal layout if accessible."
+    },
+    {
+      "id": "aa3e13a93a15fd0377dc1f864ed67e41dc715aa8fed8fcaea486f200d941ae49",
+      "source": "Note serviceability, fastener quality, and any wear.",
+      "kind": "text",
+      "context": "Note serviceability, fastener quality, and any wear."
+    },
+    {
+      "id": "024d74b32c4ec7b2fc8e7dee8aac59c09dccaad872dd07a24fcf294c1662f3a4",
+      "source": "We repeat sections on another day if results look inconsistent. For grinders the flow is similar with a focus on retention, speed, and in-cup deltas against a control grinder.",
+      "kind": "text",
+      "context": "We repeat sections on another day if results look inconsistent. For grinders the flow is similar with a focus on retention, speed, and in-cup deltas against a control grinder."
+    },
+    {
+      "id": "bd6cca9129661c742bf21d0615570579891359f46e11c3d175b4487c8e3bb543",
+      "source": "How We Compare Products",
+      "kind": "text",
+      "context": "How We Compare Products"
+    },
+    {
+      "id": "f28c03c752864160f7e7656d3488e32528f67115712e5a6221d967ab5bbed335",
+      "source": "A machine is only as good as the benchmark you hold it to. We run head-to-head comparisons when products share price bands or buyers.",
+      "kind": "text",
+      "context": "A machine is only as good as the benchmark you hold it to. We run head-to-head comparisons when products share price bands or buyers."
+    },
+    {
+      "id": "9809a63cd5363710012e72f8d040b9d6e08ef0ed33c9acfba282a30484abd6d1",
+      "source": "Same price, different design",
+      "kind": "text",
+      "context": "Same price, different design"
+    },
+    {
+      "id": "b1aaf6d285cd040f6a790372febe3d221e4c61f7da807ea17d97491140fea5de",
+      "source": "Dual boiler vs heat exchanger at a similar price. We compare steam power, heat-up, stability, and cup results directly.",
+      "kind": "text",
+      "context": "Same price, different designDual boiler vs heat exchanger at a similar price. We compare steam power, heat-up, stability, and cup results directly."
+    },
+    {
+      "id": "9f3a943bd2a60ea084df861bf939e7a971d7ed0b797e346fc43c8546bd7d4fcd",
+      "source": "Premium vs value",
+      "kind": "text",
+      "context": "Premium vs value"
+    },
+    {
+      "id": "faa6659a8bb9f812f0fc3a34d5368bd89f831bd4fcb9f1588db6b570a4656196",
+      "source": "A high-end prosumer machine against a strong mid-tier unit. We weigh the real gains per euro or dollar.",
+      "kind": "text",
+      "context": "Premium vs valueA high-end prosumer machine against a strong mid-tier unit. We weigh the real gains per euro or dollar."
+    },
+    {
+      "id": "e40ad7b5962694caaab724856358d708ad9132fd438443f4f1ab065c00d0ec3a",
+      "source": "Feature leader vs simple workhorse",
+      "kind": "text",
+      "context": "Feature leader vs simple workhorse"
+    },
+    {
+      "id": "2967584a3846fa2d07d8a07a6caceb14aa896363693edc28daf7190135a74dce",
+      "source": "Flow-profiling machines against fixed-profile machines. We examine whether the extra control lands in the cup for each coffee type.",
+      "kind": "text",
+      "context": "Feature leader vs simple workhorseFlow-profiling machines against fixed-profile machines. We examine whether the extra control lands in the cup for each coffee type."
+    },
+    {
+      "id": "8752201d557ed16d07e8b5fe8c43efb6b324e4746a3df7a54d81fc1eba58b57c",
+      "source": "We always disclose the exact comparison units and any accessories used. We keep the grinder constant when the machine is the variable, and keep the machine constant when the grinder is the variable.",
+      "kind": "text",
+      "context": "We always disclose the exact comparison units and any accessories used. We keep the grinder constant when the machine is the variable, and keep the machine constant when the grinder is the variable."
+    },
+    {
+      "id": "9f0d355eeeab65138002b6eeb6791c52e743f33b2512cd8d39292fe6a20e8285",
+      "source": "Interpreting Our Scores",
+      "kind": "text",
+      "context": "Interpreting Our Scores"
+    },
+    {
+      "id": "061ba9a80b4e1a188bf44d7ebb598da6eec9c527f5e6b61caaf33074c4ffbb95",
+      "source": "Numbers matter when they reflect the cup and the user’s day. Here is how to read the common ranges.",
+      "kind": "text",
+      "context": "Numbers matter when they reflect the cup and the user’s day. Here is how to read the common ranges."
+    },
+    {
+      "id": "94319850accb21f658ed1389fb6806ff6f548e54aee7008bb5d3c64970bfb250",
+      "source": "Espresso performance 27 to 30",
+      "kind": "text",
+      "context": "Espresso performance 27 to 30"
+    },
+    {
+      "id": "6076297f7ec64c79806dc0c36694bf0e56e8284821050030072cec85bc367c40",
+      "source": "The machine makes balanced shots across the coffee set with low fuss. Light roasts are no problem at reasonable ratios.",
+      "kind": "text",
+      "context": "Espresso performance 27 to 30The machine makes balanced shots across the coffee set with low fuss. Light roasts are no problem at reasonable ratios."
+    },
+    {
+      "id": "abac391e1afb1b99f124936decc89ff10e10c65a96db2d2f456a1859fdec31b3",
+      "source": "Milk steaming 17 to 20",
+      "kind": "text",
+      "context": "Milk steaming 17 to 20"
+    },
+    {
+      "id": "bda454ef6c8ea5db942ee0dc332fd744e7cf45c331b815298a980e63f86f14ea",
+      "source": "Real microfoam on demand with fast heat recovery. Oat milk does not split. Purge is clean.",
+      "kind": "text",
+      "context": "Milk steaming 17 to 20Real microfoam on demand with fast heat recovery. Oat milk does not split. Purge is clean."
+    },
+    {
+      "id": "3c6560bec57931db30fd9fb8a81d15cd5b19b27b6742dcb074a0e67041faf1cf",
+      "source": "Workflow 13 to 15",
+      "kind": "text",
+      "context": "Workflow 13 to 15"
+    },
+    {
+      "id": "057b13cca0e3616864c499ce881038bba2425da9bf10dd52f3f9635fac82ca00",
+      "source": "Easy reach controls, consistent portafilter lock, good cup clearance, and a tidy drip tray design.",
+      "kind": "text",
+      "context": "Workflow 13 to 15Easy reach controls, consistent portafilter lock, good cup clearance, and a tidy drip tray design."
+    },
+    {
+      "id": "5fb90c8a576a6d551f134cf4c18bc34d3ea126d2ea7f13ad16dd946de76b5732",
+      "source": "Stability 13 to 15",
+      "kind": "text",
+      "context": "Stability 13 to 15"
+    },
+    {
+      "id": "67edceeb7c5ca28c220c23e8e0aa3c8f1e8e2f7912abdad141942a26bb39057a",
+      "source": "Temperature recovery inside 2°C across stress runs and predictable pressure behavior.",
+      "kind": "text",
+      "context": "Stability 13 to 15Temperature recovery inside 2°C across stress runs and predictable pressure behavior."
+    },
+    {
+      "id": "26ebfdb82da85ca7bd5756b1eae5f1034c12d82aebb0f9b930e7534f0f2c66f5",
+      "source": "Build 8 to 10",
+      "kind": "text",
+      "context": "Build 8 to 10"
+    },
+    {
+      "id": "79cf64beeea6279f052174a036927a4cd926b8a6852146c410e8cb70e7bf7a08",
+      "source": "Sound internal layout, accessible parts, and thoughtful fasteners. Spare parts are available and documented.",
+      "kind": "text",
+      "context": "Build 8 to 10Sound internal layout, accessible parts, and thoughtful fasteners. Spare parts are available and documented."
+    },
+    {
+      "id": "2cb5a93f6636c244c5eb26a06b946983836bca06ed101e3409e0b0f4835e57f4",
+      "source": "For grinders the top ranges indicate exceptional clarity or texture at their price, minimal retention, and a dial that makes sense day to day. For beans a top flavor score reflects sweetness, clean structure, and a finish that invites another sip.",
+      "kind": "text",
+      "context": "For grinders the top ranges indicate exceptional clarity or texture at their price, minimal retention, and a dial that makes sense day to day. For beans a top flavor score reflects sweetness, clean structure, and a finish that invites another sip."
+    },
+    {
+      "id": "6396f0cc8a69b1fd9d00a6dd8706b740d738bd8f6ccb7eab7e80e592c2121a1a",
+      "source": "Edge Cases We Check",
+      "kind": "text",
+      "context": "Edge Cases We Check"
+    },
+    {
+      "id": "cf67caabfdbbbe4df6463ffea9f81f08cba28f165c4ec4d66c54f399fdafea1e",
+      "source": "Not all buyers pull the same shots we do. We test outside the median so you know what happens if you do too.",
+      "kind": "text",
+      "context": "Not all buyers pull the same shots we do. We test outside the median so you know what happens if you do too."
+    },
+    {
+      "id": "2fb3756656adcd9d221d3a2cf647c17f4dd4acecb99c10987238c988eb104a21",
+      "source": "Very short ratios",
+      "kind": "text",
+      "context": "Very short ratios"
+    },
+    {
+      "id": "d6e2fdd4cf249ab5e4ce00ebaebd727d75f33c81c776f87792b8f9ff1de69bcd",
+      "source": "Ristretto style shots at 1 to 1.5 ratio. We watch for pump behavior and channeling risk.",
+      "kind": "text",
+      "context": "Very short ratiosRistretto style shots at 1 to 1.5 ratio. We watch for pump behavior and channeling risk."
+    },
+    {
+      "id": "6e5d4d1f4d06a9a6081559c97304f89cb13f1b650f6d3590d0d186d8a566aad1",
+      "source": "Very long ratios",
+      "kind": "text",
+      "context": "Very long ratios"
+    },
+    {
+      "id": "e05cbab62121771f1c4a2a81fe4bbabaed45cdfdbe7a4d906a2bb9f73b7d5e40",
+      "source": "1 to 3 espresso on lighter roasts. We check if flow holds stable or if it surges.",
+      "kind": "text",
+      "context": "Very long ratios1 to 3 espresso on lighter roasts. We check if flow holds stable or if it surges."
+    },
+    {
+      "id": "15c2c7f862801ab7b7cebb4e35fbf1268640837f031469eb728b83e54d0466a4",
+      "source": "Pre-ground in pressurized baskets",
+      "kind": "text",
+      "context": "Pre-ground in pressurized baskets"
+    },
+    {
+      "id": "547513b74755ee69fbf550d4eaf1589613b51c911dca07083a7a47fe90305f57",
+      "source": "On entry machines we confirm whether pressurized baskets can rescue pre-ground coffee for new users and how fast you will outgrow them.",
+      "kind": "text",
+      "context": "Pre-ground in pressurized basketsOn entry machines we confirm whether pressurized baskets can rescue pre-ground coffee for new users and how fast you will outgrow them."
+    },
+    {
+      "id": "5e9e6f4c13c3e466f4e3fe012a6badea094558a9f3113983e9e2e9b269967ac7",
+      "source": "Single-dose workflow on hopper grinders",
+      "kind": "text",
+      "context": "Single-dose workflow on hopper grinders"
+    },
+    {
+      "id": "7c791a25b5546c922ef68c030e4fdde500869ea23a6b534c1fadf16e42d63dc3",
+      "source": "We try single dosing on a hopper grinder and document the variance so buyers know if it is viable.",
+      "kind": "text",
+      "context": "Single-dose workflow on hopper grindersWe try single dosing on a hopper grinder and document the variance so buyers know if it is viable."
+    },
+    {
+      "id": "58eeb8287f7845d24e644f8cde89b10f82fe00b57343d9664a6fcaf366a4231f",
+      "source": "Super-automatic baseline",
+      "kind": "text",
+      "context": "Super-automatic baseline"
+    },
+    {
+      "id": "6c16ea7da2d24a93ea4005c0ece65e30961a4a562e37d50e8a3f73e970623447",
+      "source": "Where relevant we run a super-automatic against a manual setup for the same bean, so convenience buyers see the tradeoffs.",
+      "kind": "text",
+      "context": "Super-automatic baselineWhere relevant we run a super-automatic against a manual setup for the same bean, so convenience buyers see the tradeoffs."
+    },
+    {
+      "id": "f2342651ac417f9ec0107b168ba12587a90cae1a9898d6443d8aacd6f4285c81",
+      "source": "Fairness, Repeatability, and Limits",
+      "kind": "text",
+      "context": "Fairness, Repeatability, and Limits"
+    },
+    {
+      "id": "e9f8b9a89cb41a5179ced1584b77c4b36d0fe03cb6851b37541ff4fa22e7a4e7",
+      "source": "Loaners, Purchases, and Disclosure",
+      "kind": "text",
+      "context": "Loaners, Purchases, and Disclosure"
+    },
+    {
+      "id": "d0953192c7e883aa47cabf9d8328cac792523dd1894ba4d8da3eb0044b77a3ce",
+      "source": "We buy some units, borrow others from retailers or brands, and sometimes receive review samples. We never accept money to change a verdict. If a brand-loaned machine needs repair during review, that becomes part of the story.",
+      "kind": "text",
+      "context": "We buy some units, borrow others from retailers or brands, and sometimes receive review samples. We never accept money to change a verdict. If a brand-loaned machine needs repair during review, that becomes part of the story."
+    },
+    {
+      "id": "36ef422944591551f71f2c103a126e78362c43126219b3e52e5c67bbaa777086",
+      "source": "Multiple Units When Needed",
+      "kind": "text",
+      "context": "Multiple Units When Needed"
+    },
+    {
+      "id": "2bc5df4436885287122ba26b991ccdd25abfbff89189ba12fef28f22b72da67a",
+      "source": "If a result looks like an outlier, we try a second unit. If performance changes, we note unit variance.",
+      "kind": "text",
+      "context": "If a result looks like an outlier, we try a second unit. If performance changes, we note unit variance."
+    },
+    {
+      "id": "45c586c3a9d938ae1f31c11e2965ccac8c0ea4d293e18cf35fdfbe1ff2975e4c",
+      "source": "Software and Firmware",
+      "kind": "text",
+      "context": "Software and Firmware"
+    },
+    {
+      "id": "d4fea129a6645b07af5212904e0f1354c9c5feccb0ae02aceb0083b8684935fe",
+      "source": "If a machine updates during testing, we re-run affected sections. We note firmware versions and changes in the review.",
+      "kind": "text",
+      "context": "If a machine updates during testing, we re-run affected sections. We note firmware versions and changes in the review."
+    },
+    {
+      "id": "602313e203d8532829a4e538f1d1faf8923e65393feb19cc20c65180e8af92fd",
+      "source": "Human Limits",
+      "kind": "text",
+      "context": "Human Limits"
+    },
+    {
+      "id": "e7a8657cd5e751d7d66e836e6b5414810868333415f94aaa8300a760b230ea73",
+      "source": "We drink a lot of espresso during testing but we do not rely on a single taster. Panel tasting and blind flights reduce bias. We also include a control machine and control grinder in flights so you can anchor our notes to a known performer.",
+      "kind": "text",
+      "context": "We drink a lot of espresso during testing but we do not rely on a single taster. Panel tasting and blind flights reduce bias. We also include a control machine and control grinder in flights so you can anchor our notes to a known performer."
+    },
+    {
+      "id": "a6bc476086dab1274250441d81349f36c03257cdbc99502253e5c88078905d28",
+      "source": "Frequently Asked Questions About Our Methods",
+      "kind": "text",
+      "context": "Frequently Asked Questions About Our Methods"
+    },
+    {
+      "id": "df5678c98013640491b34667d54f66b8b2824bbd46dd47df9b9064f7be7e9ee9",
+      "source": "Why do you publish extraction yield when taste is what matters?",
+      "kind": "text",
+      "context": "Why do you publish extraction yield when taste is what matters?"
+    },
+    {
+      "id": "81187466075a45b95aa8a015178976678df24016e9603bea61405c5b3e8b148a",
+      "source": "Taste leads. Extraction yield shows whether a recipe sits in a reasonable window and whether a machine or grinder can reach it without extreme prep. Yield is one tool, not the verdict.",
+      "kind": "text",
+      "context": "Taste leads. Extraction yield shows whether a recipe sits in a reasonable window and whether a machine or grinder can reach it without extreme prep. Yield is one tool, not the verdict."
+    },
+    {
+      "id": "c6451142dd7eb4a83382c478fcc7fa49f2b325808870cb8179b3ae1b1126e21a",
+      "source": "Do you test with aftermarket baskets, shower screens, or flow kits?",
+      "kind": "text",
+      "context": "Do you test with aftermarket baskets, shower screens, or flow kits?"
+    },
+    {
+      "id": "d3ffc598943eb47e495d07a7bf4ad6fa8893bbbfddbd8be8b88556a844fd2c59",
+      "source": "We start stock. If an affordable, widely used upgrade changes performance in a meaningful way, we add a clearly labeled section. Scores reflect the stock configuration unless stated.",
+      "kind": "text",
+      "context": "We start stock. If an affordable, widely used upgrade changes performance in a meaningful way, we add a clearly labeled section. Scores reflect the stock configuration unless stated."
+    },
+    {
+      "id": "94b03db115fb06f1ea1a7a24f7d34a275dd0fb6c34dcf5bbc009ff44977ef446",
+      "source": "How do you handle water differences across regions?",
+      "kind": "text",
+      "context": "How do you handle water differences across regions?"
+    },
+    {
+      "id": "647f9b7812e59d3b29dcf1a9c92f1ec27a37189ed329e616821269d625e61347",
+      "source": "We test with controlled bench water and disclose the spec so readers can reproduce it. If a machine requires a specific cartridge to stay in warranty, we test both ways.",
+      "kind": "text",
+      "context": "We test with controlled bench water and disclose the spec so readers can reproduce it. If a machine requires a specific cartridge to stay in warranty, we test both ways."
+    },
+    {
+      "id": "c4e2e4d40855d0ac4d6b3ad829f577bbe7c9252af549c2c2adf1ce09d2f01f43",
+      "source": "What if my kitchen is colder or hotter than your lab?",
+      "kind": "text",
+      "context": "What if my kitchen is colder or hotter than your lab?"
+    },
+    {
+      "id": "4f985ddccd17413dfcb1df9188cee508613f241b074d2a1649c76ddb3e94629b",
+      "source": "Very cold rooms extend warm-up and alter stability. Our stability section shows drift margins and recovery. Use those numbers to adjust expectations for your space.",
+      "kind": "text",
+      "context": "Very cold rooms extend warm-up and alter stability. Our stability section shows drift margins and recovery. Use those numbers to adjust expectations for your space."
+    },
+    {
+      "id": "babdf476b27948ffbe2f26220d7b5ab8de826349bc9d16ec7ad8372acd9480f2",
+      "source": "Do you test pods or capsules?",
+      "kind": "text",
+      "context": "Do you test pods or capsules?"
+    },
+    {
+      "id": "9e845e6c4e56af51ed65cbf1e3e62ff524a9008e998b7284d66391b78b4fefd1",
+      "source": "Only when the machine is designed for them. We do not score pod performance in a dedicated espresso machine review unless the brand markets that feature as primary.",
+      "kind": "text",
+      "context": "Only when the machine is designed for them. We do not score pod performance in a dedicated espresso machine review unless the brand markets that feature as primary."
+    },
+    {
+      "id": "1c0411e3ec7d9e53bb96753c8012e10e3cce03bd51e4d134e5cf48dab8259592",
+      "source": "How This Shows Up In Reviews",
+      "kind": "text",
+      "context": "How This Shows Up In Reviews"
+    },
+    {
+      "id": "962f563d48abd6109b1aa20a6b3a745965777bdb922b6901926527caec7594d9",
+      "source": "When you see a Coffeedant review, the top of the page includes:",
+      "kind": "text",
+      "context": "When you see a Coffeedant review, the top of the page includes:"
+    },
+    {
+      "id": "deaf9e512d11f4742a3a994a3c92ddb813f70b16288e3b02da1c9e87d4c7e4dc",
+      "source": "[PRODUCT BOX]",
+      "kind": "text",
+      "context": "[PRODUCT BOX]"
+    },
+    {
+      "id": "9c835ce96a381f5a168b65d54d9ea3eee7bafb553c87b3f5911f948302fcdbec",
+      "source": "with what is in the box, key specs, and regional variants",
+      "kind": "text",
+      "context": "[PRODUCT BOX] with what is in the box, key specs, and regional variants"
+    },
+    {
+      "id": "62ef666aa0f42272f9314b72406a971fa03f595d8ddf10f87d0bf9a9579e33fa",
+      "source": "[PRODUCT RATING]",
+      "kind": "text",
+      "context": "[PRODUCT RATING]"
+    },
+    {
+      "id": "6a843545d9f2d022dea79aa881e753d2083ab492d82d616c4082f0cd0ace3e6f",
+      "source": "with the category scores and a quick fit summary for who should buy and who should avoid",
+      "kind": "text",
+      "context": "[PRODUCT RATING] with the category scores and a quick fit summary for who should buy and who should avoid"
+    },
+    {
+      "id": "07c33c00e46c23cb51fae33cb95e3978160cd73ad85fb1af2761fdf3c344549d",
+      "source": "Comparisons to sibling models and key competitors so you know the alternatives up front",
+      "kind": "text",
+      "context": "Comparisons to sibling models and key competitors so you know the alternatives up front"
+    },
+    {
+      "id": "35a06abdffa9d9100a24fa74cf4c1a337d864cee0eec82004c65d7f8976f584a",
+      "source": "Deep dive sections that follow the same order and methods described here",
+      "kind": "text",
+      "context": "Deep dive sections that follow the same order and methods described here"
+    },
+    {
+      "id": "c46545b76ae281b2a05ead7c5244541087ebfba6f7a882bd322e0fbc412751da",
+      "source": "Because our process is consistent, you can line up two machines and compare the numbers directly. If the scores are close, read the workflow notes and the blind taste sections. That is where character and preference come through.",
+      "kind": "text",
+      "context": "Because our process is consistent, you can line up two machines and compare the numbers directly. If the scores are close, read the workflow notes and the blind taste sections. That is where character and preference come through."
+    },
+    {
+      "id": "2362ab195a4a4de096eb5deaa3574e3cb8999b4bb3aabd64abdce483ea91e57a",
+      "source": "Reproducing Our Tests At Home",
+      "kind": "text",
+      "context": "Reproducing Our Tests At Home"
+    },
+    {
+      "id": "5e488fddadf5e1cefab162c4d842c761f04447df55917ff59ff8978f84658777",
+      "source": "If you want to replicate our results, here is the minimal kit and plan.",
+      "kind": "text",
+      "context": "If you want to replicate our results, here is the minimal kit and plan."
+    },
+    {
+      "id": "7b8a6f977f1c0192b4fb44e2baa1f2eb88a0e494a837c2cb86aca309220feaf4",
+      "source": "A good scale to 0.1 g for brewing and to 0.01 g for dosing",
+      "kind": "text",
+      "context": "A good scale to 0.1 g for brewing and to 0.01 g for dosing"
+    },
+    {
+      "id": "0043cf8581b846dd537c81c6a64bfef2a2b44633c835a41adef26db6af5821e5",
+      "source": "A timer",
+      "kind": "text",
+      "context": "A timer"
+    },
+    {
+      "id": "ad3b6645c6c6a576e15ad3e29f2c5aab24556604bf9fc9262db88e6284ac79ff",
+      "source": "A basic water kit or mineral packets to bring your water close to our spec",
+      "kind": "text",
+      "context": "A basic water kit or mineral packets to bring your water close to our spec"
+    },
+    {
+      "id": "242488d28f1cda0e8ef9fefc8105f20b260942bd443dc012bb3e30f198722768",
+      "source": "A refractometer if you want extraction numbers, otherwise taste and consistency notes",
+      "kind": "text",
+      "context": "A refractometer if you want extraction numbers, otherwise taste and consistency notes"
+    },
+    {
+      "id": "de054883e6b0cfa58ae5397ef3ac401d2058c8b72f0e048ca02b7ff5b9d7bc62",
+      "source": "A thermometer for milk",
+      "kind": "text",
+      "context": "A thermometer for milk"
+    },
+    {
+      "id": "9cbff37d5b47991e93c6e5d2501c548fa181c56521b6bbcc52edcb3c2997ecbc",
+      "source": "A notebook or a simple spreadsheet",
+      "kind": "text",
+      "context": "A notebook or a simple spreadsheet"
+    },
+    {
+      "id": "3d69eb415689d14d90a5f17dea3f8ebf789ec4eaa5f93da466c70296598caaee",
+      "source": "Run our baseline recipes with your coffee set. Taste blind if you can. Change one variable at a time. Most of the value comes from discipline, not fancy gear.",
+      "kind": "text",
+      "context": "Run our baseline recipes with your coffee set. Taste blind if you can. Change one variable at a time. Most of the value comes from discipline, not fancy gear."
+    },
+    {
+      "id": "ae1558d2be303f8f3c3527dbf9e05de6ac636751163f8b6451a2dc25a0b00b96",
+      "source": "The Payoff For You",
+      "kind": "text",
+      "context": "The Payoff For You"
+    },
+    {
+      "id": "7e33c059f0efd26b2af9cb6a2d9980831872538a23d305defb74be7cc890fa08",
+      "source": "This process takes time. It saves you money. When we say a heat exchanger holds stable through a six-shot run, or a conical grinder needs 0.5 g purge after every shot to stay on target, or a light roast needs 95°C on a specific machine to open up, you can trust that it came from test-bench work, not a single Saturday morning.",
+      "kind": "text",
+      "context": "This process takes time. It saves you money. When we say a heat exchanger holds stable through a six-shot run, or a conical grinder needs 0.5 g purge after every shot to stay on target, or a light roast needs 95°C on a specific machine to open up, you can trust that it came from test-bench work, not a single Saturday morning."
+    },
+    {
+      "id": "bc3e2f7a909129ffd0b9099819780176f202b80c53edc604d66bd1a8ab726fbf",
+      "source": "If you ever want to see a raw table that did not make the review page, ask us. We keep our logs. We are happy to share the numbers that shaped a verdict.",
+      "kind": "text",
+      "context": "If you ever want to see a raw table that did not make the review page, ask us. We keep our logs. We are happy to share the numbers that shaped a verdict."
+    },
+    {
+      "id": "c60bbeab5aa6a05ee30190912b594040852a7ccde014a0b089c286161e9da50b",
+      "source": "Change Log",
+      "kind": "text",
+      "context": "Change Log"
+    },
+    {
+      "id": "59f73981a55cb84c31bf1c12548724baa3234a49cebf8de412fcf4e9210af04b",
+      "source": "We update this page when our methods improve. If we add a new measurement, you will see it in the next review with a note in the methodology section.",
+      "kind": "text",
+      "context": "We update this page when our methods improve. If we add a new measurement, you will see it in the next review with a note in the methodology section."
+    },
+    {
+      "id": "1ea22244222b9d75e820ca745c20de24c59e628beba44b260953b870eef7d3eb",
+      "source": "Bottom Line",
+      "kind": "text",
+      "context": "Bottom Line"
+    },
+    {
+      "id": "9897a7bf9751b4892e476d8ebab03d4251372d3bb3fa30d26a1b4134362204f7",
+      "source": "The Coffeedant bench treats every espresso machine, grinder, and bag of beans with the same respect you give your morning shot. Control what you can. Measure what matters. Taste blind. Publish the numbers. That is how we write reviews that help you buy once and enjoy for years.",
+      "kind": "text",
+      "context": "The Coffeedant bench treats every espresso machine, grinder, and bag of beans with the same respect you give your morning shot. Control what you can. Measure what matters. Taste blind. Publish the numbers. That is how we write reviews that help you buy once and enjoy for years."
+    },
+    {
+      "id": "575193dd0f7526bb25b142362cd11a94bc8dff3469441ed9385f68cd98e01017",
+      "source": "Why Our Coffee Reviews Read Differently | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "c33467919dbd8de79e17dc84cc2aded23b03a7e4c04fa49cfcc91ce90394810d",
+      "source": "See how Coffeedant researches coffee equipment, separates documented specifications from observed evidence and keeps recommendations within their limits.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "178ec8a1ffe3776d7f6ddfcc691fd5e1bddfb06a7b17f58812517aa10509f68a",
+      "source": "How Coffeedant Researches and Reviews",
+      "kind": "json",
+      "context": "name"
+    }
+  ],
+  "snapshotHash": "5f5bdbc3e4194da89636d022d349c3eefa93a92de47608acf3f2045c08f9cfde"
+}

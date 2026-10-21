@@ -223,6 +223,7 @@ if (process.argv[1] && path.resolve(process.argv[1]) === path.join(root, 'script
     const build = spawnSync(process.execPath, [path.join(root, 'node_modules/astro/astro.js'), 'build'], {
       cwd: root, stdio: 'inherit', env: { ...process.env, CF_PAGES: '1' } });
     if (build.status !== 0) process.exit(build.status ?? 1);
+    await buildSeo(path.join(root, 'dist'));
   }
   if (id !== 'us') await buildRegional(id, { preview: process.argv.includes('--preview') });
   else if (process.env.CF_PAGES === '1') {
