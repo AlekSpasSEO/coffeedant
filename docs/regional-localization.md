@@ -2556,6 +2556,37 @@ remain zero, all old registered routes including pending watch routes stay fixed
 and full-edition completion remains false. Preserve incremental publishing and
 continuation; no Amazon API, paid translation, billing or DNS changes are used.
 
+The independent cold-brew publication `ce06067` then added five new bean
+reviews and one buying guide while this preservation batch was running.
+Normal merge `00e63c9` preserves that work, the subsequent pending Dutch URL
+registrations (`247aa0c`) and the automatic removal of no-longer-current release
+entries. No source changes or registered URLs are rolled back. A second frozen
+task, `cold-brew-hub-preservation-batch-48`, translates all 25 missing hub slots
+(20 distinct strings; 15 authored entries and five exact coffee names). The new
+card descriptions, image alternatives, explicit US-price-check label, stock
+warning and buying-guide introduction are native. The five new full reviews
+and cold-brew guide remain queued, linked to their actual English source with
+the edition notice; the native hub is not a claim of six new translated articles.
+
+Together these two preservation tasks add 43 entries per edition versus the
+latest incoming cache, with zero previous text edits and no route changes.
+All eighteen current-source whole-page previews pass: four full refreshed reviews,
+the entire 2,679-word/85-paragraph hub and the stable 6,078-word/167-paragraph
+single-boiler guide in each language. Current-source regression coverage now
+includes 175 localization tests and nine SEO tests. Production must repeat these
+whole-page checks, all 300 emitted HTML metadata/source hashes and compiled
+schematic controls before the preservation follow-up merges.
+
+Current source is 654 canonical pages / 55,680 unique slots (653 indexable source
+pages plus 404), not 648. After preserving current text, all 99 canonical regional
+pages (+404) are ready: NL 11,617 translated / 44,063 pending, DE/FR each 11,642 /
+44,038 pending. The growth in unfinished source is reported honestly, not treated
+as lost translations. Finder remains 150 native no-price records. There are now
+169 other non-watch pages and 385 watch pages pending; full editions are still
+incomplete. The single-boiler publication is retained, not repeated as a new
+page in this follow-up. Verify the actual final main deployment and reciprocal
+links after merge and continue backfilling without per-page approval.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
