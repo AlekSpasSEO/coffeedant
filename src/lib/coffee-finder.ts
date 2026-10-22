@@ -106,6 +106,8 @@ const finderIdentityOverrides: Record<string, Partial<Pick<CoffeeFinderItem, 'wo
   // their bottomless path still benefits from a separate espresso grinder.
   '/espresso-machine/flair-classic/': { workflow: 'manual', grinder: 'not-needed' },
   '/espresso-machine/flair-neo-flex/': { workflow: 'manual', grinder: 'not-needed' },
+  // The Legato V2 requires a separate grinder; comparison text mentions integrated alternatives.
+  '/espresso-machine/turin-legato-v2/': { workflow: 'hands-on', grinder: 'separate' },
 };
 
 const inferWorkflow = (review: MachineReviewData, text: string): CoffeeFinderWorkflow => {
