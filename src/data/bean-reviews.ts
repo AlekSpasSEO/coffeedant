@@ -8,6 +8,7 @@ import weekdayBeans20261021 from './weekday-beans-20261021';
 import beanRefreshes20261017 from './bean-refreshes-2026-10-17.json';
 import beanRefreshes20261020 from './bean-refreshes-2026-10-20.json';
 import beanRefreshes20261021 from './bean-refreshes-2026-10-21.json';
+import beanRefreshes20261022 from './bean-refreshes-2026-10-22.json';
 import { internalHref } from './batch-review-builder';
 
 export type BeanReviewData = {
@@ -155,6 +156,26 @@ export const beanReviews: BeanReviewData[] = ([{
       href: refresh.source,
       note: `${refresh.sourceNote} Research-led clarification; no Coffeedant tasting or price claim.`,
       checked: '2026-10-21',
+    }],
+  };
+}).map((review) => {
+  const refresh = beanRefreshes20261022.find((item) => item.slug === review.slug);
+  if (!refresh) return review;
+  if (refresh.productId !== review.productId) throw new Error(`October 22 bean identity mismatch: ${review.slug}`);
+  const sourceNumber = review.sources.length + 1;
+  if (!review.sections.some((section) => section.id === refresh.sectionId)) throw new Error(`October 22 bean section missing: ${review.slug}#${refresh.sectionId}`);
+  return {
+    ...review,
+    updated: review.updated > '2026-10-22' ? review.updated : '2026-10-22',
+    sections: review.sections.map((section) => section.id === refresh.sectionId
+      ? { ...section, paragraphs: [...section.paragraphs, refresh.paragraph.replace('[SOURCE]', `[${sourceNumber}]`)] }
+      : section),
+    sources: [...review.sources, {
+      id: `s${sourceNumber}`,
+      title: refresh.sourceTitle,
+      href: refresh.source,
+      note: `${refresh.sourceNote} Research-led clarification; no Coffeedant tasting or price claim.`,
+      checked: '2026-10-22',
     }],
   };
 });
