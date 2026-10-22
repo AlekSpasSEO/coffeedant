@@ -33,6 +33,22 @@ const retailerProductMedia = (
 }));
 
 export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
+  '/espresso-machine/turin-legato-v2/': officialProductMedia(
+    'Turin Legato V2 official US product gallery',
+    'https://www.turingrinders.com/products/turin%E2%84%A2-legato%E2%84%A2-v2-espresso-machine',
+    [
+      { src:'https://www.turingrinders.com/cdn/shop/files/DSC00722.jpg?v=1763497322&width=1080', alt:'Official stainless Turin Legato V2 front control panel and pressure gauge', caption:'The displayed PID and gauge support manual setup but do not measure temperature at the puck.', width:1080, height:1620 },
+      { src:'https://www.turingrinders.com/cdn/shop/files/DSC00727.jpg?v=1763497322&width=1080', alt:'Official stainless Turin Legato V2 group and drip tray detail', caption:'The 58 mm portafilter area is visible; actual basket and tamper compatibility still need checking on the delivered unit.', width:1080, height:1620 },
+    ],
+  ),
+  '/grinder/mazzer-philos/': officialProductMedia(
+    'Mazzer Philos official US product gallery',
+    'https://shop-us.mazzer.com/products/philos',
+    [
+      { src:'https://shop-us.mazzer.com/cdn/shop/files/foto_philos.jpg?v=1733823028&width=2083', alt:'Official Mazzer Philos black single-dose grinder from the front', caption:'The official image identifies the hopper, adjustment body and dosing station; it does not show which burr option is installed.', width:2083, height:2083 },
+      { src:'https://shop-us.mazzer.com/cdn/shop/files/vid_philos-02_Tavola_disegno_1.png?v=1713516125&width=1082', alt:'Official Mazzer Philos visual of the front grinding and cleaning access', caption:'The front access is documented by Mazzer; follow the manual before touching the burr carrier.', width:1082, height:1082 },
+    ],
+  ),
   '/espresso-machine/profitec-move/': officialProductMedia(
     'Profitec MOVE official product gallery',
     'https://www.profitec-espresso.com/en/products/move',

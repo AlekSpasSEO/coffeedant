@@ -27,7 +27,7 @@ for (const item of catalog.items) {
   assert.ok(!['guided', 'one-touch'].includes(item.workflow) || item.grinder === 'built-in', `${item.path}: integrated workflow`);
 }
 // Hardware fixtures catch comparison-copy contamination, rather than asserting a fixed catalog size.
-for (const slug of ['delonghi-dedica', 'gaggia-classic-evo-pro', 'gaggia-espresso-evolution-eg2115', 'krups-opio-xp320840', 'la-pavoni-mini-cellini', 'lelit-grace-pl81t', 'quick-mill-vetrano-2b-evo']) {
+for (const slug of ['delonghi-dedica', 'gaggia-classic-evo-pro', 'gaggia-espresso-evolution-eg2115', 'krups-opio-xp320840', 'la-pavoni-mini-cellini', 'lelit-grace-pl81t', 'quick-mill-vetrano-2b-evo', 'turin-legato-v2']) {
   const item = catalog.items.find(r => r.path === `/espresso-machine/${slug}/`);
   assert.equal(item?.workflow, 'hands-on', slug);
   assert.equal(item?.grinder, 'separate', slug);
