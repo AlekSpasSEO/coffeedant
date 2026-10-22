@@ -2451,6 +2451,72 @@ All full editions remain incomplete. MOVE, most machine/grinder content,
 incremental ready-pages publication and the continuation. No Amazon API or
 credentials, paid translation API, billing, DNS changes or subagents are used.
 
+## Direct batch 48 — complete single-boiler machine guide (2026-10-22)
+
+Directly translated the entire current `/espresso-machine/single-boiler/`
+guide in NL/DE/FR: 6,078 source-main words, all 167 paragraphs, both comparison
+tables, four complete recommendations and eight visible/structured FAQ pairs.
+The full original-GO, Classic Pro E24, Silvia and Classika milk/ownership/workflow
+sections, owner evidence, source annotations, first-week advice, methodology,
+verdict, metadata, accessible labels and all four product schematics are included.
+No article paragraph or source link is removed or summarized. Reused generic
+milk/workflow/owner paragraphs also benefit other queued reviews without falsely
+declaring those entire reviews translated.
+
+The immutable snapshot contains 290 missing slots / 266 distinct source strings.
+Its 255 three-language entries preserve eleven exact brand/model/source labels
+and the independent video's title/creator. Import adds 296 current cache entries
+per edition across source kinds, with zero previous text changes. New routes are
+`/espressomachines-met-enkele-boiler/` (NL) and
+`/machines-expresso-simple-chaudiere/` (FR); established DE
+`/espresso-maschine/einzelkessel/`, all previous ready routes and the reviewed
+Dutch dosing URL stay fixed. The concurrent automatic cache commit `ccaf30f`
+only registered pending Dutch watch URLs; it is preserved, not counted as new
+translated articles and not silently renamed.
+
+The original US GO remains separate from the European GO 2.0, including June
+2026 successor timing, 2025 running changes and conflicting electrical listings.
+The 115 V/900 W record, original manual's steam purge/refill/cooling sequence,
+full-reservoir-versus-full-boiler distinction and absence of simultaneous steam
+remain explicit. E24's lead-free brass boiler is not the coated 2023 Evo; 110-120V
+is not presented as a European electrical specification. Silvia's thermostat
+routine and Classika's optional Flow Profile Valve retain their limits. Dated
+September 15/18/23/24 US prices and retailer-specific warranty observations are
+not converted regional offers. Hot discharge, qualified internal repair, water,
+voltage and return-window cautions remain. Owner posts and the commercial
+independent video do not establish Coffeedant tests, failure rates, lifespan or
+universal two-drink service times.
+
+Three focused factual/safety tests are added, bringing the suite to 172; nine
+SEO tests and API-free analytics/consent, production-target Finder (150 distinct
+records/six grinders), 393-watch video, 30-bean and 41-brand/158-review navigation
+validators pass. Three complete noindex HTML/JSON previews compare every main
+character, all FAQ/schema answers, metadata, links, accessible attributes,
+images/SVG, unchanged scripts and native runtime. The separate full production
+bundle must pass identical whole-guide checks, all 300 emitted HTML metadata/
+source hashes and eight actual compiled brew/steam clicks per edition across
+the four selectable schematics. Merge only exact-head green CI; then audit
+the complete live guides, all 297 canonical sitemap URLs, 24 watch-sitemap
+entries, assets, native hub links, TLS/language/canonicals/indexability, preserved
+Dutch dosing and reciprocal regional/English links. These are output/runtime/
+HTTP checks, not physical testing or a claim of dubbed video.
+
+Batch 47 is published and fully verified: PR #194, merge `1026c44`, regional
+deployment `aa49d62d-8809-4171-8cb2-b03abe84ca86`, confirmation `d45af95` and
+confirmation regional deployment `c191be37-bf6c-49b2-a9d5-036fd7aa4202` all passed.
+Its complete integrated-grinder guides, 294 sitemap URLs and English return
+links passed after confirmation. This establishes 98 live canonical pages per
+edition before the present batch; newly ready and verified-live counts remain
+separate until this batch's actual production audit passes.
+
+Current source remains 648 canonical pages / 55,161 unique slots. This batch
+readies 99 canonical pages per edition (+404): 91 article/support pages and eight
+watch companions. NL has 11,574 translated / 43,587 pending; DE/FR each have
+11,599 translated / 43,562 pending. Finder gaps stay zero. Full editions remain
+incomplete: 163 other non-watch pages and 385 watch pages are still queued.
+Keep ready-pages publication and continuation. No Amazon API/credentials,
+paid translation API, billing, DNS changes or subagents are used.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
