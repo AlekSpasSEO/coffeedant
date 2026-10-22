@@ -82416,16 +82416,96 @@
     "page:3c1b65ffeadc08f91561": {
       "sourcePath": "/espresso-machine/single-boiler/",
       "path": "/espressomachines-met-enkele-boiler/"
+    },
+    "page:c843f53e6b517f831e5e": {
+      "sourcePath": "/espresso-machine/la-marzocco-linea-micra/video/more-george/",
+      "path": "/la-marzocco-linea-micra/beoordeling/more-george/"
+    },
+    "page:169450e94cda66e218b9": {
+      "sourcePath": "/espresso-machine/la-marzocco-linea-micra/video/the-real-sprometheus/",
+      "path": "/la-marzocco-linea-micra/video/the-real-sprometheus/"
+    },
+    "page:0d69bd89ea7dd9074529": {
+      "sourcePath": "/espresso-machine/la-marzocco-linea-mini/",
+      "path": "/espresso-machine/la-marzocco-linea-mini/"
+    },
+    "page:a374a39795c77f621ac2": {
+      "sourcePath": "/espresso-machine/la-marzocco-linea-mini/video/artisti-coffee-roasters/",
+      "path": "/espresso-machine/la-marzocco-linea-mini/video/artisti-coffee-roasters/"
+    },
+    "page:3de989731c1a3f793af9": {
+      "sourcePath": "/espresso-machine/la-marzocco-linea-mini/video/daddy-got-coffee/",
+      "path": "/espresso-machine/la-marzocco-linea-mini/video/daddy-got-coffee/"
+    },
+    "page:6e1a315d8674a93fa652": {
+      "sourcePath": "/espresso-machine/la-marzocco-linea-mini/video/golden-brown-coffee/",
+      "path": "/espresso-machine/la-marzocco-linea-mini/video/golden-brown-coffee/"
+    },
+    "page:3594ba1cd670bd35cbc8": {
+      "sourcePath": "/espresso-machine/la-pavoni-cellini-classic/",
+      "path": "/espresso-machine/la-pavoni-cellini-classic/"
+    },
+    "page:83f4be9775121a6acccd": {
+      "sourcePath": "/espresso-machine/la-pavoni-cellini-classic/video/alternative-brewing/",
+      "path": "/espresso-machine/la-pavoni-cellini-classic/video/alternative-brewing/"
+    },
+    "page:e5f9777ac703d4b424f8": {
+      "sourcePath": "/espresso-machine/la-pavoni-europiccola/",
+      "path": "/espresso-machine/la-pavoni-europiccola/"
+    },
+    "page:be376847a3f2b2a4199b": {
+      "sourcePath": "/espresso-machine/la-pavoni-europiccola/video/coffee-kev/",
+      "path": "/espresso-machine/la-pavoni-europiccola/video/coffee-kev/"
+    },
+    "page:82e3bc743afcd088473b": {
+      "sourcePath": "/espresso-machine/la-pavoni-europiccola/video/euroespresso-machine-company/",
+      "path": "/espresso-machine/la-pavoni-europiccola/video/euroespresso-machine-company/"
+    },
+    "page:541f7797ceb1c3a6c62f": {
+      "sourcePath": "/espresso-machine/la-pavoni-europiccola/video/james-hoffmann/",
+      "path": "/espresso-machine/la-pavoni-europiccola/video/james-hoffmann/"
+    },
+    "page:c0fa073e34d8a0d279b6": {
+      "sourcePath": "/espresso-machine/la-pavoni-mini-cellini/",
+      "path": "/espresso-machine/la-pavoni-mini-cellini/"
+    },
+    "page:894e2315b9d54f248f8a": {
+      "sourcePath": "/espresso-machine/la-pavoni-mini-cellini/video/alternative-brewing-5848357351667168644955/",
+      "path": "/espresso-machine/la-pavoni-mini-cellini/video/alternative-brewing-5848357351667168644955/"
+    },
+    "page:e3a9c1a8325a2f41f0c4": {
+      "sourcePath": "/espresso-machine/la-pavoni-mini-cellini/video/alternative-brewing-766849465f4c676d4c4c4d/",
+      "path": "/espresso-machine/la-pavoni-mini-cellini/video/alternative-brewing-766849465f4c676d4c4c4d/"
+    },
+    "page:30afd0c9e4eeddc138ae": {
+      "sourcePath": "/espresso-machine/la-pavoni-new-domus-bar/",
+      "path": "/espresso-machine/la-pavoni-new-domus-bar/"
+    },
+    "page:244c6860193471cf55ea": {
+      "sourcePath": "/espresso-machine/la-pavoni-new-domus-bar/video/doekspresu/",
+      "path": "/espresso-machine/la-pavoni-new-domus-bar/video/doekspresu/"
+    },
+    "page:449517bbf06b5d4d4c3c": {
+      "sourcePath": "/espresso-machine/la-pavoni-new-domus-bar/video/ecs-coffee-espresso-and-coffee-gear-465761572d5757706d5451/",
+      "path": "/espresso-machine/la-pavoni-new-domus-bar/video/ecs-coffee-espresso-and-coffee-gear-465761572d5757706d5451/"
+    },
+    "page:2e01b3cb32c1bb41011f": {
+      "sourcePath": "/espresso-machine/la-pavoni-new-domus-bar/video/ecs-coffee-espresso-and-coffee-gear-6c6c7547616453636b5730/",
+      "path": "/espresso-machine/la-pavoni-new-domus-bar/video/ecs-coffee-espresso-and-coffee-gear-6c6c7547616453636b5730/"
+    },
+    "page:970128932c71b2cd8e1b": {
+      "sourcePath": "/espresso-machine/lelit-anna/",
+      "path": "/espresso-machine/lelit-anna/"
     }
   },
   "lastModel": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "lastUsage": {
-    "prompt_tokens": 2074,
-    "completion_tokens": 891,
-    "total_tokens": 2965,
+    "prompt_tokens": 1966,
+    "completion_tokens": 878,
+    "total_tokens": 2844,
     "prompt_tokens_details": {
       "cached_tokens": 0
     },
-    "neurons": 237.79029846191406
+    "neurons": 232.24771118164062
   }
 }

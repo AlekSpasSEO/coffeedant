@@ -29,7 +29,7 @@ test('Streetlevel preserves all-purpose limits, attributed roast scale, seller p
  const source=await readJson(path.join(root,'localization/authored/bean-reviews-batch-37.source.json')),authored=await readJson(path.join(root,'localization/authored/bean-reviews-batch-37.json'));
  assert.equal(source.sourcePages.length,1);assert.equal(new Set(source.segments.map(s=>s.source)).size,51);assert.equal(Object.keys(authored.translations).length,48);
  assert.deepEqual(authored.preserveSource.map(i=>source.segments[i].source),['Verve Coffee Roasters Streetlevel','Coffeedant: Stumptown Hair Bender','Verve Coffee Roasters']);
- const beans=await readJson(path.join(root,'src/data/bean-review-manifest.json'));assert.equal(beans.length,30);
+ const beans=await readJson(path.join(root,'src/data/bean-review-manifest.json'));assert.equal(beans.length,35);
  const historicalBeans=beans.filter(({productId})=>Number(productId.slice(-6))<=25);assert.equal(historicalBeans.length,25);
  for(const edition of ['nl','de','fr']){
   const cache=await loadCache(edition),text=i=>cache.segments[source.segments[i].id].text;
