@@ -2517,6 +2517,45 @@ incomplete: 163 other non-watch pages and 385 watch pages are still queued.
 Keep ready-pages publication and continuation. No Amazon API/credentials,
 paid translation API, billing, DNS changes or subagents are used.
 
+### Concurrent October 22 source refresh during batch 48
+
+After the single-boiler guide merged, independent source commit `3f288b7`
+refreshed ten reviews and the Finder's catalog-sync timestamp. It is preserved.
+Four already-translated bean reviews gained new paragraphs, source annotations
+and an October 22 date: Hologram, Major Dickason's, Hair Bender and Holler
+Mountain. Their current-source gates correctly hold them until that new text
+is translated; the new single-boiler guide itself remains complete. Do not
+mistake a deployment queue skip for a translation or hosting failure.
+
+The additional immutable `october22-published-refresh-batch-48` task directly
+translates all 13 new distinct slots in NL/DE/FR, with no route edits or changes
+to prior wording. It preserves Hologram's 1:17 versus 30 g/335 g/165 g flash-brew
+distinction and warns that the detailed pours outlast the one-minute summary.
+Major Dickason's broad origin/process categories are not farm traceability or
+a fixed-country promise. Hair Bender's recurring subscription can be paused,
+skipped or cancelled; it is not a verified discount or delivery promise. Holler
+Mountain's 28 g/475 ml drip recipe is separate from roughly 19.5 g espresso,
+without a universal basket-fit or Coffeedant brewing claim. Citation destinations
+and complete policy sentences/negations stay intact.
+
+All twelve complete refreshed review previews pass: 8,117 combined source-main
+words / 216 paragraphs per edition, six visible/structured FAQ pairs per review,
+all metadata, full-body text, source links, images/accessible attributes and
+unchanged scripts/native runtime. Two new factual tests bring the suite to 174.
+The full current-source production bundle and 300-HTML audit must pass before
+the follow-up PR merges. These are whole-review checks, not a claim that only
+the appended paragraphs constitute complete reviews. Verify final production,
+all 99 canonical routes per edition and English reciprocal links after deployment.
+
+Current source is now 648 canonical pages / 55,199 unique slots, not the earlier
+55,161. The refresh adds 13 cache entries per edition and restores all 99 ready
+canonical pages (+404), rather than inventing four new pages. NL has 11,587
+translated / 43,612 pending; DE/FR each have 11,612 / 43,587 pending. The source
+increase on other unfinished reviews is not translation regression. Finder gaps
+remain zero, all old registered routes including pending watch routes stay fixed,
+and full-edition completion remains false. Preserve incremental publishing and
+continuation; no Amazon API, paid translation, billing or DNS changes are used.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
