@@ -82727,16 +82727,96 @@
     "page:3c1b65ffeadc08f91561": {
       "sourcePath": "/espresso-machine/single-boiler/",
       "path": "/machines-expresso-simple-chaudiere/"
+    },
+    "page:4e96ddacad16819bc56e": {
+      "sourcePath": "/coffee-beans/best-coffee-beans-for-cold-brew/",
+      "path": "/cafe-en-grains/meilleurs-cafes-en-grains-pour-cold-brew/"
+    },
+    "page:cd85b1bee2592d068b43": {
+      "sourcePath": "/coffee-beans/blue-bottle-three-africas/",
+      "path": "/cafe-en-grains/blue-bottle-three-africas/"
+    },
+    "page:15db9f37208aae1c1e88": {
+      "sourcePath": "/coffee-beans/peets-baridi-blend/",
+      "path": "/cafe-en-grains/peets-baridi-blend/"
+    },
+    "page:e221267795d584ef4e47": {
+      "sourcePath": "/coffee-beans/peets-off-the-grid/",
+      "path": "/cafe-en-grains/peets-off-the-grid/"
+    },
+    "page:c3dff72d1c4ff5bcb992": {
+      "sourcePath": "/coffee-beans/peets-sun-catcher/",
+      "path": "/cafe-en-grains/peets-sun-catcher/"
+    },
+    "page:520d9c9355ed092ed494": {
+      "sourcePath": "/coffee-beans/verve-sermon/",
+      "path": "/cafe-en-grains/verve-sermon/"
+    },
+    "page:235eb79f3429e7dce02c": {
+      "sourcePath": "/espresso-machine/9barista-mk2/video/the-real-sprometheus/",
+      "path": "/machine-a-espresso/9barista-mk2/video/the-real-sprometheus/"
+    },
+    "page:3d5fea285b9cd06e1bad": {
+      "sourcePath": "/espresso-machine/ascaso-steel-duo-pid/video/lance-hedrick/",
+      "path": "/machine-a-espresso/ascaso-steel-duo-pid/video/lance-hedrick/"
+    },
+    "page:1e9a3b6255c8524d056b": {
+      "sourcePath": "/espresso-machine/ascaso-steel-duo-pid/video/lifestyle-lab/",
+      "path": "/machine-a-espresso/ascaso-steel-duo-pid/video/lifestyle-lab/"
+    },
+    "page:05ca85ffa34cc08d8ad4": {
+      "sourcePath": "/espresso-machine/ascaso-steel-duo-pid/video/rob-mcgee/",
+      "path": "/machine-a-espresso/ascaso-steel-duo-pid/video/rob-mcgee/"
+    },
+    "page:abf8fcf0195bf190d6a5": {
+      "sourcePath": "/espresso-machine/ascaso-steel-uno/video/idrinkcoffeecanada/",
+      "path": "/machine-a-espresso/ascaso-steel-uno/video/idrinkcoffeecanada/"
+    },
+    "page:2d1b5b0aaf1379929312": {
+      "sourcePath": "/espresso-machine/ascaso-steel-uno/video/seattle-coffee-gear/",
+      "path": "/machine-a-espresso/ascaso-steel-uno/video/seattle-coffee-gear/"
+    },
+    "page:8ca75876736c922cee90": {
+      "sourcePath": "/espresso-machine/ascaso-steel-uno/video/the-real-sprometheus/",
+      "path": "/machine-a-espresso/ascaso-steel-uno/video/the-real-sprometheus/"
+    },
+    "page:886697383fdc344cb837": {
+      "sourcePath": "/espresso-machine/bezzera-bz09/video/maxicoffee/",
+      "path": "/machine-a-espresso/bezzera-bz09/video/maxicoffee/"
+    },
+    "page:59ef853f15472986f98e": {
+      "sourcePath": "/espresso-machine/bezzera-bz10/video/alternative-brewing/",
+      "path": "/machine-a-espresso/bezzera-bz10/video/alternative-brewing/"
+    },
+    "page:ad0e5cb60ed3d4f12fd3": {
+      "sourcePath": "/espresso-machine/bezzera-bz10/video/daniel-baird/",
+      "path": "/machine-a-espresso/bezzera-bz10/video/daniel-baird/"
+    },
+    "page:2fe4273e009d0500d9d3": {
+      "sourcePath": "/espresso-machine/bezzera-bz10/video/de-hobby-barista/",
+      "path": "/machine-a-espresso/bezzera-bz10/video/de-hobby-barista/"
+    },
+    "page:5d5381335d0861602dfd": {
+      "sourcePath": "/espresso-machine/bezzera-bz13-pid/video/chefauthorized/",
+      "path": "/machine-a-espresso/bezzera-bz13-pid/video/chefauthorized/"
+    },
+    "page:35b23a8c209a1f4b8145": {
+      "sourcePath": "/espresso-machine/bezzera-bz13-pid/video/whole-latte-love-444d624367463135353445/",
+      "path": "/machine-a-espresso/bezzera-bz13-pid/video/whole-latte-love-444d624367463135353445/"
+    },
+    "page:b2012828e92c25ef44f8": {
+      "sourcePath": "/espresso-machine/bezzera-bz13-pid/video/whole-latte-love-61665153424c4e54766549/",
+      "path": "/machine-a-espresso/bezzera-bz13-pid/video/whole-latte-love-61665153424c4e54766549/"
     }
   },
   "lastModel": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "lastUsage": {
-    "prompt_tokens": 1909,
-    "completion_tokens": 775,
-    "total_tokens": 2684,
+    "prompt_tokens": 1810,
+    "completion_tokens": 833,
+    "total_tokens": 2643,
     "prompt_tokens_details": {
       "cached_tokens": 0
     },
-    "neurons": 209.63272094726562
+    "neurons": 218.87132263183594
   }
 }

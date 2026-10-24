@@ -82881,16 +82881,96 @@
     "page:970128932c71b2cd8e1b": {
       "sourcePath": "/espresso-machine/lelit-anna/",
       "path": "/espresso-machine/lelit-anna/"
+    },
+    "page:5bec9962a4fc88f27246": {
+      "sourcePath": "/espresso-machine/breville-barista-pro-bes878/",
+      "path": "/espresso-machine/breville-barista-pro-bes878/"
+    },
+    "page:f9950b507067ab032f81": {
+      "sourcePath": "/espresso-machine/breville-barista-pro-bes878/video/harvesting-figs/",
+      "path": "/espresso-machine/breville-barista-pro-bes878/video/harvesting-figs/"
+    },
+    "page:3f65975e093cb03aafd5": {
+      "sourcePath": "/espresso-machine/breville-barista-pro-bes878/video/lifestyle-lab/",
+      "path": "/espresso-machine/breville-barista-pro-bes878/video/lifestyle-lab/"
+    },
+    "page:e8d6fb7cddf0083abcc1": {
+      "sourcePath": "/espresso-machine/breville-barista-pro-bes878/video/toms-coffee-corner/",
+      "path": "/espresso-machine/breville-barista-pro-bes878/video/toms-coffee-corner/"
+    },
+    "page:060ff13581e2019751f4": {
+      "sourcePath": "/espresso-machine/breville-barista-touch-bes880bss/",
+      "path": "/espresso-machine/breville-barista-touch-bes880bss/"
+    },
+    "page:183665e442771b730fec": {
+      "sourcePath": "/espresso-machine/breville-barista-touch-bes880bss/video/eric-the-coffee-guy/",
+      "path": "/espresso-machine/breville-barista-touch-bes880bss/video/eric-the-coffee-guy/"
+    },
+    "page:54efc0844407894d110c": {
+      "sourcePath": "/espresso-machine/breville-oracle-dual-boiler-bes995/video/toms-coffee-corner/",
+      "path": "/espresso-machine/breville-oracle-dual-boiler-bes995/video/toms-coffee-corner/"
+    },
+    "page:1476d8f8d8a4165b9b1a": {
+      "sourcePath": "/espresso-machine/breville-oracle-jet-bes985/",
+      "path": "/espresso-machine/breville-oracle-jet-bes985/"
+    },
+    "page:61927041b59a38d31e3f": {
+      "sourcePath": "/espresso-machine/breville-oracle-jet-bes985/video/lifestyle-lab/",
+      "path": "/espresso-machine/breville-oracle-jet-bes985/video/lifestyle-lab/"
+    },
+    "page:b95edb892007726e5685": {
+      "sourcePath": "/espresso-machine/breville-oracle-jet-bes985/video/othersteves-reviews/",
+      "path": "/espresso-machine/breville-oracle-jet-bes985/video/othersteves-reviews/"
+    },
+    "page:ce2c8e4f8404e0f2c273": {
+      "sourcePath": "/espresso-machine/breville-oracle-jet-bes985/video/toms-coffee-corner/",
+      "path": "/espresso-machine/breville-oracle-jet-bes985/video/toms-coffee-corner/"
+    },
+    "page:ac8fd22aa49ce1497941": {
+      "sourcePath": "/espresso-machine/breville-oracle-touch-bes990/",
+      "path": "/espresso-machine/breville-oracle-touch-bes990/"
+    },
+    "page:a19457d739c74f6fb44b": {
+      "sourcePath": "/espresso-machine/breville-oracle-touch-bes990/video/espresso-outlet-llc/",
+      "path": "/espresso-machine/breville-oracle-touch-bes990/video/espresso-outlet-llc/"
+    },
+    "page:d1af22871f1969fda2f9": {
+      "sourcePath": "/espresso-machine/breville-oracle-touch-bes990/video/james-hoffmann/",
+      "path": "/espresso-machine/breville-oracle-touch-bes990/video/james-hoffmann/"
+    },
+    "page:c90ba8849728d4718119": {
+      "sourcePath": "/espresso-machine/breville-oracle-touch-bes990/video/kyle-rowsell/",
+      "path": "/espresso-machine/breville-oracle-touch-bes990/video/kyle-rowsell/"
+    },
+    "page:d2728ca4d4699c06db00": {
+      "sourcePath": "/espresso-machine/cafelat-robot-barista/",
+      "path": "/espresso-machine/cafelat-robot-barista/"
+    },
+    "page:ec0e72922a406d037a74": {
+      "sourcePath": "/espresso-machine/cafelat-robot-barista/video/alternative-brewing/",
+      "path": "/espresso-machine/cafelat-robot-barista/video/alternative-brewing/"
+    },
+    "page:b659f2c904066d116439": {
+      "sourcePath": "/espresso-machine/cafelat-robot-barista/video/daddy-got-coffee/",
+      "path": "/espresso-machine/cafelat-robot-barista/video/daddy-got-coffee/"
+    },
+    "page:81b9383e36b19b2398cf": {
+      "sourcePath": "/espresso-machine/cafelat-robot-barista/video/james-hoffmann/",
+      "path": "/espresso-machine/cafelat-robot-barista/video/james-hoffmann/"
+    },
+    "page:f302e80f50df925e4315": {
+      "sourcePath": "/espresso-machine/crem-one-hx-pid-wt-wc/",
+      "path": "/espresso-machine/crem-one-hx-pid-wt-wc/"
     }
   },
   "lastModel": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "lastUsage": {
-    "prompt_tokens": 1966,
-    "completion_tokens": 878,
-    "total_tokens": 2844,
+    "prompt_tokens": 1829,
+    "completion_tokens": 818,
+    "total_tokens": 2647,
     "prompt_tokens_details": {
       "cached_tokens": 0
     },
-    "neurons": 232.24771118164062
+    "neurons": 216.30592346191406
   }
 }
