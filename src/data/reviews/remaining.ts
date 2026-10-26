@@ -1069,9 +1069,9 @@ export const lelitElizabethReview = buildResearchReview({
       },
       {
         id: 'setup', eyebrow: 'First week', title: 'Set water, heat time and one simple recipe', html: `
-          <p>Test source water and install the supplied treatment only if it matches the live instructions and local chemistry. A small reservoir cartridge has a finite capacity and does not make every hard water safe forever. Keep hardness records, replace treatment on schedule and avoid casual boiler descaling. Two-boiler mineral work is better prevented and, when necessary, handled under manufacturer or seller guidance.</p>
-          <p>Turn on both boilers and allow about 20 minutes before judging stability. The LCC may show readiness earlier; that means the sensor target has been reached, not that every gram of metal has fully equalized under every protocol. Lock the portafilter in loosely during warm-up and warm cups with a brief water routine that follows the manual rather than excessive flushing.</p>
-          <p>Start with the 14–18 g basket, a dose appropriate to its coffee, a roughly 1:2 yield and no elaborate preinfusion. Dial grind first. Then program one coffee button by time while continuing to weigh output. Once the basic recipe is repeatable, explore a short pump wetting and pause or the steam-pressure method. These are editorial starting steps, not Coffeedant taste results.</p>
+          <p>Test source water before choosing the supplied treatment; the cartridge cannot make every hard supply safe indefinitely. Keep hardness records and replace treatment as directed. Seek manufacturer or seller guidance for boiler mineral work instead of casually descaling.</p>
+          <p>Allow about 20 minutes with both boilers on before judging stability. The LCC can signal readiness before the whole machine equalizes. Warm the installed portafilter and cups with a brief manual-consistent water routine.</p>
+          <p>Start with the 14–18 g basket, a suitable dose, roughly 1:2 yield and simple preinfusion. Dial grind first, then program a button while weighing output. Explore other preinfusion modes only after the basic recipe repeats; these are editorial starts, not Coffeedant tasting.</p>
         `,
       },
       {
