@@ -10,6 +10,7 @@ import beanRefreshes20261017 from './bean-refreshes-2026-10-17.json';
 import beanRefreshes20261020 from './bean-refreshes-2026-10-20.json';
 import beanRefreshes20261021 from './bean-refreshes-2026-10-21.json';
 import beanRefreshes20261022 from './bean-refreshes-2026-10-22.json';
+import beanRefreshes20261026 from './bean-refreshes-2026-10-26.json';
 import { internalHref } from './batch-review-builder';
 
 export type BeanReviewData = {
@@ -177,6 +178,37 @@ export const beanReviews: BeanReviewData[] = ([{
       href: refresh.source,
       note: `${refresh.sourceNote} Research-led clarification; no Coffeedant tasting or price claim.`,
       checked: '2026-10-22',
+    }],
+  };
+}).map((review) => {
+  const refresh = beanRefreshes20261026.find((item) => item.slug === review.slug);
+  if (!refresh) return review;
+  if (refresh.productId !== review.productId) throw new Error(`October 26 bean identity mismatch: ${review.slug}`);
+  const section = review.sections.find((item) => item.id === refresh.sectionId);
+  if (!section) throw new Error(`October 26 bean section missing: ${review.slug}#${refresh.sectionId}`);
+  if (refresh.replaceText && !section.paragraphs.includes(refresh.replaceText)) {
+    throw new Error(`October 26 prior bean text missing: ${review.slug}`);
+  }
+  const sourceNumber = review.sources.length + 1;
+  return {
+    ...review,
+    updated: review.updated > '2026-10-26' ? review.updated : '2026-10-26',
+    sections: review.sections.map((item) => item === section ? {
+      ...item,
+      paragraphs: [
+        refresh.paragraph.replace('[SOURCE]', `[${sourceNumber}]`),
+        ...item.paragraphs.filter((paragraph) => paragraph !== refresh.replaceText),
+      ],
+    } : item),
+    faqs: refresh.replaceText ? review.faqs.map((item) => item.answer === refresh.replaceText.replace(/ \[\d+\]/g, '')
+      ? { ...item, answer: refresh.paragraph.replace(/ \[SOURCE\]/g, '') }
+      : item) : review.faqs,
+    sources: [...review.sources, {
+      id: `s${sourceNumber}`,
+      title: refresh.sourceTitle,
+      href: refresh.source,
+      note: `${refresh.sourceNote} Research-led clarification; no Coffeedant tasting or price claim.`,
+      checked: '2026-10-26',
     }],
   };
 });
