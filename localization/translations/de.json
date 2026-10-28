@@ -84071,16 +84071,96 @@
     "page:4e0e464f1f64c599cf3a": {
       "sourcePath": "/espresso-machine/ninja-luxe-cafe-premier-es601/video/lifestyle-lab/",
       "path": "/ninja-luxe-cafe-premier-es601/testbericht/lifestyle-lab/"
+    },
+    "page:e04b85da8b591be5c37f": {
+      "sourcePath": "/espresso-machine/bezzera-duo-mn/video/clive-coffee/",
+      "path": "/bezzera-duo-mn/testbericht/clive-coffee/"
+    },
+    "page:699b23cd8b77df4fc3f9": {
+      "sourcePath": "/espresso-machine/bezzera-duo-mn/video/whole-latte-love-556f445264535856303655/",
+      "path": "/bezzera-duo-mn/testbericht/whole-latte-love-556f445264535856303655/"
+    },
+    "page:13c9e436e3532121622d": {
+      "sourcePath": "/espresso-machine/bezzera-duo-mn/video/whole-latte-love-712d70724b634c35482d34/",
+      "path": "/bezzera-duo-mn/testbericht/whole-latte-love-712d70724b634c35482d34/"
+    },
+    "page:bb4f6647d3426f91dd22": {
+      "sourcePath": "/espresso-machine/bezzera-hobby/video/1st-line-equipment/",
+      "path": "/bezzera-hobby/video/1st-line-equipment/"
+    },
+    "page:6871376d80b346284ded": {
+      "sourcePath": "/espresso-machine/bezzera-hobby/video/whole-latte-love-3261585a4744514f2d5951/",
+      "path": "/bezzera-hobby/testbericht/whole-latte-love-3261585a4744514f2d5951/"
+    },
+    "page:4ce344d738d8ec0611a2": {
+      "sourcePath": "/espresso-machine/bezzera-hobby/video/whole-latte-love-414e346d706d6137434563/",
+      "path": "/bezzera-hobby/video/whole-latte-love-414e346d706d6137434563/"
+    },
+    "page:b9fa7908ec94fea96622": {
+      "sourcePath": "/espresso-machine/bezzera-mitica-top-pid/video/dario-callejas/",
+      "path": "/bezzera-mitica-top-pid/video/dario-callejas/"
+    },
+    "page:e37e1454829629f422f5": {
+      "sourcePath": "/espresso-machine/bezzera-mitica-top-pid/video/diecrema/",
+      "path": "/bezzera-mitica-top-pid/testbericht/diecrema/"
+    },
+    "page:f647d9389afa1dc96889": {
+      "sourcePath": "/espresso-machine/bezzera-mitica-top-pid/video/stoffasie/",
+      "path": "/bezzera-mitica-top-pid/video/stoffasie/"
+    },
+    "page:2021cfe44923b9d68e26": {
+      "sourcePath": "/espresso-machine/bezzera-strega/video/joe-varacalli/",
+      "path": "/bezzera-strega/video/joe-varacalli/"
+    },
+    "page:5a312f38ffc8b7bcd031": {
+      "sourcePath": "/espresso-machine/bezzera-strega/video/spina-espresso/",
+      "path": "/bezzera-strega/testbericht/spina-espresso/"
+    },
+    "page:75f54b79d77bcc852332": {
+      "sourcePath": "/espresso-machine/bezzera-strega/video/whole-latte-love/",
+      "path": "/bezzera-strega/video/whole-latte-love/"
+    },
+    "page:9cf1d9ebe3898dde6b1f": {
+      "sourcePath": "/espresso-machine/bezzera-unica-pid/video/1st-line-equipment/",
+      "path": "/bezzera-unica-pid/video/1st-line-equipment/"
+    },
+    "page:cec10ab16dc6c01310de": {
+      "sourcePath": "/espresso-machine/bezzera-unica-pid/video/viacheslav-druzhynin/",
+      "path": "/bezzera-unica-pid/testbericht/viacheslav-druzhynin/"
+    },
+    "page:191e33a9e0cc7af99cb8": {
+      "sourcePath": "/espresso-machine/bezzera-unica-pid/video/whole-latte-love/",
+      "path": "/bezzera-unica-pid/testbericht/whole-latte-love/"
+    },
+    "page:380f9fdff1f8350b0ec9": {
+      "sourcePath": "/espresso-machine/bosch-300-series-verocafe-tiu20307/video/sharpeye-reviews/",
+      "path": "/bosch-300-series-verocafe-tiu20307/testbericht/sharpeye-reviews/"
+    },
+    "page:0ae5c6cb4cb72801283a": {
+      "sourcePath": "/espresso-machine/bosch-500-series-verocafe-tpu40109/video/best-buys-reviewed/",
+      "path": "/bosch-500-series-verocafe-tpu40109/testbericht/best-buys-reviewed/"
+    },
+    "page:0c051579396153a061da": {
+      "sourcePath": "/espresso-machine/bosch-800-series/video/angela-rossi-treasures-and-teaching/",
+      "path": "/bosch-800-series/video/angela-rossi-treasures-and-teaching/"
+    },
+    "page:bf8d5342d64bec4a0e1e": {
+      "sourcePath": "/espresso-machine/bosch-800-series/video/the-wolf-of-williamsburg/",
+      "path": "/bosch-800-series/video/the-wolf-of-williamsburg/"
+    },
+    "page:b39a66266cc38af479c7": {
+      "sourcePath": "/espresso-machine/breville-bambino/video/coffee-kev/",
+      "path": "/breville-bambino/testbericht/coffee-kev/"
     }
   },
   "lastModel": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "lastUsage": {
-    "prompt_tokens": 3619,
-    "completion_tokens": 2618,
-    "total_tokens": 6237,
+    "prompt_tokens": 2023,
+    "completion_tokens": 836,
+    "total_tokens": 2859,
     "prompt_tokens_details": {
       "cached_tokens": 0
     },
-    "neurons": 632.690673828125
+    "neurons": 225.16595458984375
   }
 }
