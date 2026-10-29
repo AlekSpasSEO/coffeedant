@@ -84244,16 +84244,96 @@
     "page:eaa6cafe496e77b3de80": {
       "sourcePath": "/espresso-machine/philips-3200-lattego/video/craft-coffee-spot/",
       "path": "/philips-3200-lattego-review-craft-coffee-spot/"
+    },
+    "page:71873fe7398f81efc7c6": {
+      "sourcePath": "/espresso-machine/philips-3200-lattego/video/toms-coffee-corner-416962794d7a372d467345/",
+      "path": "/philips-3200-lattego-review/toms-coffee-corner-416962794d7a372d467345/beoordeling/"
+    },
+    "page:56fe1479c11287effc7a": {
+      "sourcePath": "/espresso-machine/philips-3200-lattego/video/toms-coffee-corner-51504c72454f674e365345/",
+      "path": "/philips-3200-lattego-review/toms-coffee-corner-51504c72454f674e365345/beoordeling/"
+    },
+    "page:525db71c12cd96369343": {
+      "sourcePath": "/espresso-machine/philips-4300-lattego/video/seattle-coffee-gear/",
+      "path": "/philips-4300-lattego-review/seattle-coffee-gear/beoordeling/"
+    },
+    "page:e0a727ec6e00591fa8a4": {
+      "sourcePath": "/espresso-machine/philips-4300-lattego/video/social-family-reviews/",
+      "path": "/philips-4300-lattego-review/social-family-reviews/beoordeling/"
+    },
+    "page:9104b3cfb1aee7b7e530": {
+      "sourcePath": "/espresso-machine/philips-4300-lattego/video/the-wolf-of-williamsburg/",
+      "path": "/philips-4300-lattego-review/the-wolf-of-williamsburg/beoordeling/"
+    },
+    "page:3f9fc27dfbf9fcdd9ff6": {
+      "sourcePath": "/espresso-machine/philips-5400-lattego/video/cafelista-coffee/",
+      "path": "/philips-5400-lattego-review/cafelista-coffee/beoordeling/"
+    },
+    "page:a1929c6c5eb50f2fd3ec": {
+      "sourcePath": "/espresso-machine/philips-5400-lattego/video/espresso-canada/",
+      "path": "/philips-5400-lattego-review/espresso-canada/beoordeling/"
+    },
+    "page:107f6aaf8f784818000d": {
+      "sourcePath": "/espresso-machine/philips-5400-lattego/video/toms-coffee-corner/",
+      "path": "/philips-5400-lattego-review/toms-coffee-corner/beoordeling/"
+    },
+    "page:8068b7bd222fac4664f1": {
+      "sourcePath": "/espresso-machine/profitec-go/video/coffee-kev/",
+      "path": "/profitec-go-review/coffee-kev/beoordeling/"
+    },
+    "page:306a82c2579d674344fd": {
+      "sourcePath": "/espresso-machine/profitec-go/video/lifestyle-lab/",
+      "path": "/profitec-go-review/lifestyle-lab/beoordeling/"
+    },
+    "page:0b0c0612f1c9236c6e4f": {
+      "sourcePath": "/espresso-machine/profitec-go/video/the-real-sprometheus/",
+      "path": "/profitec-go-review/the-real-sprometheus/beoordeling/"
+    },
+    "page:9e43453a41e2cfa022a2": {
+      "sourcePath": "/espresso-machine/profitec-jump/",
+      "path": "/profitec-jump-review/beoordeling/"
+    },
+    "page:2676e70b6646e9524a8d": {
+      "sourcePath": "/espresso-machine/profitec-jump/video/kaffeemacher/",
+      "path": "/profitec-jump-review/kaffeemacher/beoordeling/"
+    },
+    "page:8c27c4564714ca31dbd5": {
+      "sourcePath": "/espresso-machine/profitec-move/",
+      "path": "/profitec-move-review/beoordeling/"
+    },
+    "page:67ab66813ff1a823c287": {
+      "sourcePath": "/espresso-machine/profitec-move/video/kaffeemacher/",
+      "path": "/profitec-move-review/kaffeemacher/beoordeling/"
+    },
+    "page:168f0ef958bb9d820976": {
+      "sourcePath": "/espresso-machine/profitec-pro-400/video/lifestyle-lab/",
+      "path": "/profitec-pro-400-review/lifestyle-lab/beoordeling/"
+    },
+    "page:5e66dfec40c08f2a46ab": {
+      "sourcePath": "/espresso-machine/profitec-pro-400/video/michael-porter/",
+      "path": "/profitec-pro-400-review/michael-porter/beoordeling/"
+    },
+    "page:7d85f4820980662cd095": {
+      "sourcePath": "/espresso-machine/profitec-pro-400/video/whole-latte-love/",
+      "path": "/profitec-pro-400-review/whole-latte-love/beoordeling/"
+    },
+    "page:c1b94670affe5cca9f54": {
+      "sourcePath": "/espresso-machine/profitec-pro-500-pid/video/anthonys-espresso-equipment/",
+      "path": "/profitec-pro-500-pid-review/anthonys-espresso-equipment/beoordeling/"
+    },
+    "page:217d3fd3e6599723196a": {
+      "sourcePath": "/espresso-machine/profitec-pro-500-pid/video/whole-latte-love-395073344a667152507549/",
+      "path": "/profitec-pro-500-pid-review/whole-latte-love-395073344a667152507549/beoordeling/"
     }
   },
   "lastModel": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "lastUsage": {
-    "prompt_tokens": 2079,
-    "completion_tokens": 729,
-    "total_tokens": 2808,
+    "prompt_tokens": 1990,
+    "completion_tokens": 809,
+    "total_tokens": 2799,
     "prompt_tokens_details": {
       "cached_tokens": 0
     },
-    "neurons": 204.74517822265625
+    "neurons": 218.7561798095703
   }
 }
