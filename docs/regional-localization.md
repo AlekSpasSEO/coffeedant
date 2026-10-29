@@ -2659,6 +2659,42 @@ pending counts are NL 11,814 / 44,637, DE 11,911 / 44,540 and FR 11,839 / 44,612
 There are 171 non-watch pages and 385 watch pages still pending. The follow-up
 adds four cache entries per edition with zero previous text or URL changes.
 
+### Direct batch 50: Off the Grid and Sun Catcher (2026-10-29)
+
+Batch 49 and its source-preservation follow-up are merged as PRs #202 and #204.
+Their live checks passed, including the complete current native bean hub and
+reciprocal English links. This next batch directly translates both full US
+reviews of Peet's Off the Grid and Peet's Sun Catcher into NL/DE/FR, retaining
+all six already registered regional URLs rather than generating replacements.
+
+`peets-fruit-bean-reviews-batch-50` freezes 128 missing slots / 102 distinct
+strings. Ninety-eight authored triples and four explicit proper-name approvals
+cover the snapshot. The complete articles contain 3,138 source words,
+92 paragraphs and fourteen FAQ answers per edition, with metadata, photo/source
+attribution, evidence limits, comparisons and buying conclusions intact.
+
+Off the Grid preserves washed Colombia/El Salvador, the attributed chocolate,
+almond-butter and pear targets, separate cold-immersion and hot-filter methods,
+the whole-bean versus 10.5 oz ground-pack distinction and no verified delivered
+US price. Sun Catcher preserves Brazil/Kenya, incomplete assignment of natural
+and washed components, its pour-over-first role, checked sold-out warning and
+the limits of older/pre-ground samples. “Bright” remains an attributed flavor/
+roast description, not an invented measured acidity, caffeine level or standard
+light-roast classification. Neither page invents a Coffeedant tasting or local
+offer. Previously passing common wording is reused; old snapshots are unchanged.
+
+The two new regressions take the suite to 182 localization tests, with nine SEO
+tests. All six whole-page previews pass, including complete main text, metadata,
+all structured answers, accessible/image labels, original scripts and native
+runtime. Production and live verification remain required before calling this
+batch published. The validated current readiness is 103 complete
+indexable pages plus 404 per edition, including 34 of the 35 full bean reviews.
+The remaining Sermon review and unfinished buying guides are not claimed complete.
+The source inventory remains 658 canonical pages / 56,451 slots. This import adds
+128 entries per edition with no old text or URL changes: NL 11,942 translated /
+44,509 pending, DE 12,039 / 44,412, FR 11,967 / 44,484. There are 169 non-watch
+pages and 385 watch pages still pending; all full-edition flags remain false.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

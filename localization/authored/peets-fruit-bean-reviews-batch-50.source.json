@@ -1,0 +1,785 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/coffee-beans/peets-off-the-grid/",
+      "sourceHash": "ad0efa31b08b283e88dfc160fcdc423ddb3f4b479099d5874ccfe63db675e7c8"
+    },
+    {
+      "sourcePath": "/coffee-beans/peets-sun-catcher/",
+      "sourceHash": "38fd5e57f0b9a7c811646c1d931097ffb4b0183d4c41452b395c990f8e82b407"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "d3e1156e42036754cb805cb24bf45b0153c98c8f6c2de116c6594f9b6aa3c9ef",
+      "source": "Peet's Off the Grid review: washed Colombia and El Salvador for cold brew | Coffeedant",
+      "kind": "text",
+      "context": "Peet's Off the Grid review: washed Colombia and El Salvador for cold brew | Coffeedant"
+    },
+    {
+      "id": "77ed07a36c31d378912222f495b9aa7bbed56bb5a89821c15c9d9c116bb1a241",
+      "source": "Research-led US review of Peet's Coffee Off the Grid: exact whole-bean identity, roaster notes, brew role, availability and evidence limits.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "fd0e2766f42b7087a84524833543c1cd46c51deb37997be5c95db4d665bbbbaf",
+      "source": "Peet's Off the Grid review: washed Colombia and El Salvador for cold brew | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "f15c7acc840767b07ba94c5dfb869154b7993b37707ac3ae2978d97fe1113246",
+      "source": "Peet's Coffee Off the Grid",
+      "kind": "text",
+      "context": "Peet's Coffee Off the Grid"
+    },
+    {
+      "id": "e07b0e30e5f6e00e1b6135fbe7a0640597e897246a2fb4205ae617f7c0b564b5",
+      "source": ". Peet's Coffee US product photograph; current packaging illustration, not a roast-date or price receipt.",
+      "kind": "text",
+      "context": "Image: Peet's Coffee. Peet's Coffee US product photograph; current packaging illustration, not a roast-date or price receipt."
+    },
+    {
+      "id": "dafa7f041a45baf7a35875d9e1e52715cb65513d980c84839f9e3f5d5944ef63",
+      "source": "Peet's Off the Grid review: washed Colombia and El Salvador for cold brew",
+      "kind": "text",
+      "context": "Peet's Off the Grid review: washed Colombia and El Salvador for cold brew"
+    },
+    {
+      "id": "7b1efae8b4421e4bfadcb5c2523a8c11a49c6b12726a6535920627af03cbb790",
+      "source": "A washed blend for both chilled immersion and hot paper-filter brewing",
+      "kind": "text",
+      "context": "A washed blend for both chilled immersion and hot paper-filter brewing"
+    },
+    {
+      "id": "1d6059737720379a7d7ff71deb4ff6368792b45349c33aab6270656c75219c99",
+      "source": "A buyer wanting fruit cues without a dark roast",
+      "kind": "text",
+      "context": "A buyer wanting fruit cues without a dark roast"
+    },
+    {
+      "id": "3f644eea0bfdadaa05e1b09cd845623bacb173dbd9acf1c30fafa12ee43b68dd",
+      "source": "Comparing one exact bag across two distinct recipes",
+      "kind": "text",
+      "context": "Comparing one exact bag across two distinct recipes"
+    },
+    {
+      "id": "aa1d75ad515388648e7134975655c729181c789cb489199bd03c7154dd27d7db",
+      "source": "You require one single-origin farm",
+      "kind": "text",
+      "context": "You require one single-origin farm"
+    },
+    {
+      "id": "7f20c938d655531ce655a76f36f5524d88e0802904330890aed478aa3363fb4b",
+      "source": "You want a smoky or very dark profile",
+      "kind": "text",
+      "context": "You want a smoky or very dark profile"
+    },
+    {
+      "id": "8feeeffcc6161615a894a01be585a9fb251d8962f19883520d0622fc88d92a54",
+      "source": "You assume a flash-chilled hot recipe equals a long cold steep",
+      "kind": "text",
+      "context": "You assume a flash-chilled hot recipe equals a long cold steep"
+    },
+    {
+      "id": "bc0a874e2604c3d9ac8ba3b6f5effa99cf209270e65665f6f6dea085389d0410",
+      "source": "Peet's Coffee Off the Grid, US whole-bean product",
+      "kind": "text",
+      "context": "Peet's Coffee Off the Grid, US whole-bean product"
+    },
+    {
+      "id": "8cf81ceaf5c6de27a622046986822eb636baa69801db9f0f04215ae5aeffc964",
+      "source": "Bright medium on Peet's current US page",
+      "kind": "text",
+      "context": "Bright medium on Peet's current US page"
+    },
+    {
+      "id": "0e30a116fd1494f56b667f476c0c2cb7acd881d0ab6891e7c38628884db7c78a",
+      "source": "milk chocolate, almond butter and pear, as described by Peet's; not Coffeedant tasting",
+      "kind": "text",
+      "context": "milk chocolate, almond butter and pear, as described by Peet's; not Coffeedant tasting"
+    },
+    {
+      "id": "124f4d0903369e063990c965c80dfb068e1d051922f1b32e2b6ed29c5e81798f",
+      "source": "Colombia and El Salvador on the current product page",
+      "kind": "text",
+      "context": "Colombia and El Salvador on the current product page"
+    },
+    {
+      "id": "f81e0ff75422e0afa46931b57f639b8e4060de7019872b9180d169f2860f4295",
+      "source": "Washed on the current product page",
+      "kind": "text",
+      "context": "Washed on the current product page"
+    },
+    {
+      "id": "39efcddbfb752b4bc97cbf8f0b9414ce56d799b490f19449af261450caa17735",
+      "source": "US whole-bean selector; separate grocery ground packs must not be conflated",
+      "kind": "text",
+      "context": "US whole-bean selector; separate grocery ground packs must not be conflated"
+    },
+    {
+      "id": "fd3a24a1a067099909f3592f1ea3e1bc433f5bf3bb175b621257ddc64e59e497",
+      "source": "Cold brew or pour-over with a chocolate-and-pear brief",
+      "kind": "text",
+      "context": "Cold brew or pour-over with a chocolate-and-pear brief"
+    },
+    {
+      "id": "3b05804b22b2ac9aada7270023c86fde592d2cd9b4d8a9bb6f6e30a7b00cb2d5",
+      "source": "Current US product page and whole-bean option checked; verify active stock in cart",
+      "kind": "text",
+      "context": "Current US product page and whole-bean option checked; verify active stock in cart"
+    },
+    {
+      "id": "c371173dd6252d472ab3fa351332e594df28e1e2e5f361ae794a99fee27dc0fe",
+      "source": "The current Peet's US Off the Grid page names Colombia and El Salvador, washed processing and a bright-medium roast. A 2024 press release explains the launch blend, but the live product record is more relevant for the current bag; even named countries do not fix farms, harvests, varieties or proportions. This is the whole-bean product, not the separate grocery ground bag or a finished café drink.",
+      "kind": "text",
+      "context": "The current Peet's US Off the Grid page names Colombia and El Salvador, washed processing and a bright-medium roast. A 2024 press release explains the launch blend, but the live product record is more relevant for the current bag; even named countries do not fix farms, harvests, varieties or proportions. This is the whole-bean product, not the separate grocery ground bag or a finished café drink. [1] [2]"
+    },
+    {
+      "id": "227e3be2778765531909dc39da68b7dc5d89a98d6a17c672a503373582a0c08e",
+      "source": "Peet's includes Off the Grid in its cold-brew collection and its product method panel lists cold brew beside pour-over. That gives it a real method claim but no controlled Coffeedant cup result. Confirm the grind selection remains Whole Bean and the chosen pack is available before interpreting any checkout display.",
+      "kind": "text",
+      "context": "Peet's includes Off the Grid in its cold-brew collection and its product method panel lists cold brew beside pour-over. That gives it a real method claim but no controlled Coffeedant cup result. Confirm the grind selection remains Whole Bean and the chosen pack is available before interpreting any checkout display. [1]"
+    },
+    {
+      "id": "fe57cc85ada6435874d40458d78dcc6347217707b5c01a5af7b9e9c655546e67",
+      "source": "Milk chocolate, almond butter and pear are Peet's descriptors. The Brew Adventures describes its own hot and cold samples; the writer's extraction and bag age are not stated to match a 2026 order. Owner discussions about Peet's as a brand are even broader, so they are used only as context for checking dates, not as proof of Off the Grid's reliability or taste.",
+      "kind": "text",
+      "context": "Milk chocolate, almond butter and pear are Peet's descriptors. The Brew Adventures describes its own hot and cold samples; the writer's extraction and bag age are not stated to match a 2026 order. Owner discussions about Peet's as a brand are even broader, so they are used only as context for checking dates, not as proof of Off the Grid's reliability or taste. [1] [3] [4]"
+    },
+    {
+      "id": "6bc0a06edb62cd191c4b35ae0155b82ba5cf8e229c8eca3da77df21b02eb41d4",
+      "source": "The blend sounds more chocolate-centered than Baridi's citrus-and-blackberry brief, though both advertise fruit. Those are editorial comparisons of published targets, not a side-by-side tasting. If pear sounds too subtle to justify a purchase, start with one bag and compare it against the existing Big Bang review under the same cold-brew dilution.",
+      "kind": "text",
+      "context": "The blend sounds more chocolate-centered than Baridi's citrus-and-blackberry brief, though both advertise fruit. Those are editorial comparisons of published targets, not a side-by-side tasting. If pear sounds too subtle to justify a purchase, start with one bag and compare it against the existing Big Bang review under the same cold-brew dilution."
+    },
+    {
+      "id": "5b5dac2d85ac386701d6c724ea623385b08abb84fe4045f21e09b38e7e8f73e3",
+      "source": "Peet's says Off the Grid can be cold-brewed and lists a 12-plus-hour method; it separately recommends pour-over. The hot pour-over duration is not a cold-brew time, and a flash-chilled hot coffee uses another method altogether. Use coarse grounds and a tested vessel-specific immersion start, then filter and refrigerate.",
+      "kind": "text",
+      "context": "Peet's says Off the Grid can be cold-brewed and lists a 12-plus-hour method; it separately recommends pour-over. The hot pour-over duration is not a cold-brew time, and a flash-chilled hot coffee uses another method altogether. Use coarse grounds and a tested vessel-specific immersion start, then filter and refrigerate. [1] [2]"
+    },
+    {
+      "id": "52b7ca100de07328f848202a6b6ad4d8493e73609578f039c4e89cfe0cb3fe14",
+      "source": "For a fair home comparison, hold the coffee-to-water ratio, steep conditions and serving dilution steady against Big Bang. Change one variable when the actual cup is too light or heavy. Avoid converting Peet's roast and brightness indicators into an invented caffeine or acidity measurement.",
+      "kind": "text",
+      "context": "For a fair home comparison, hold the coffee-to-water ratio, steep conditions and serving dilution steady against Big Bang. Change one variable when the actual cup is too light or heavy. Avoid converting Peet's roast and brightness indicators into an invented caffeine or acidity measurement."
+    },
+    {
+      "id": "c43b3c8cf3a70879a73c6d72f3b343eab6b9c609f125aab066674aca380a8d50",
+      "source": "Buy the whole-bean format and inspect the printed roast date. A 10.5 oz grocery ground pack shown by retailers is not the same purchase as the roaster's online whole-bean selector. After opening, seal the beans away from heat and odors and grind only the amount planned for the next batch.",
+      "kind": "text",
+      "context": "Buy the whole-bean format and inspect the printed roast date. A 10.5 oz grocery ground pack shown by retailers is not the same purchase as the roaster's online whole-bean selector. After opening, seal the beans away from heat and odors and grind only the amount planned for the next batch. [5]"
+    },
+    {
+      "id": "6520d5cc2135fb2fce75ceb88f73991fbf31c6265ff8fea668fc3697c7501bb2",
+      "source": "A concentrated cold-brew recipe can consume a bag quickly, but the correct bulk size depends on your ratio and how long finished coffee sits refrigerated. Date the batch and follow the brewer or roaster's safe-storage guidance rather than using a packet photo as a freshness guarantee.",
+      "kind": "text",
+      "context": "A concentrated cold-brew recipe can consume a bag quickly, but the correct bulk size depends on your ratio and how long finished coffee sits refrigerated. Date the batch and follow the brewer or roaster's safe-storage guidance rather than using a packet photo as a freshness guarantee."
+    },
+    {
+      "id": "c341db3f5400d7c75d41912a1213dfc254144f783d6a6a05e38e6a959b718b3a",
+      "source": "We did not verify a final one-time delivered US whole-bean price across shipping and tax, so no price or discount is quoted. Check the selected format, stock, order cadence and basket total on Peet's official page. Do not use a similarly named third-party storefront as an official Peet's offer.",
+      "kind": "text",
+      "context": "We did not verify a final one-time delivered US whole-bean price across shipping and tax, so no price or discount is quoted. Check the selected format, stock, order cadence and basket total on Peet's official page. Do not use a similarly named third-party storefront as an official Peet's offer. [1]"
+    },
+    {
+      "id": "66fa49953b8b776c40ba839c9ebcb3ae372c45e3371b6c4af74285eee6155821",
+      "source": "Off the Grid's value proposition is a washed two-country blend with a distinct chilled and hot-filter role. If the household only drinks espresso, Verve Sermon's espresso-first brief is a more direct trial; if it wants an overtly berry cold brew, Baridi or Three Africas may be more relevant when available.",
+      "kind": "text",
+      "context": "Off the Grid's value proposition is a washed two-country blend with a distinct chilled and hot-filter role. If the household only drinks espresso, Verve Sermon's espresso-first brief is a more direct trial; if it wants an overtly berry cold brew, Baridi or Three Africas may be more relevant when available."
+    },
+    {
+      "id": "3b128648d956084875223c4aa7dbe71fd6b29691e27556b10049370f62226968",
+      "source": "Peet's Big Bang has a medium, fruit-tart and milk-chocolate direction with direct cold-brew guidance, while Off the Grid is washed Colombia/El Salvador with pear and almond-butter descriptors. Shared cold-brew eligibility does not make the blends interchangeable.",
+      "kind": "text",
+      "context": "Peet's Big Bang has a medium, fruit-tart and milk-chocolate direction with direct cold-brew guidance, while Off the Grid is washed Colombia/El Salvador with pear and almond-butter descriptors. Shared cold-brew eligibility does not make the blends interchangeable. [1] [7]"
+    },
+    {
+      "id": "659c15afad01e4bb19a0a69be41fb86f932faddfa350dc617ed4a797388c1dd9",
+      "source": "Sun Catcher is Peet's brighter Brazil-and-Kenya blend with pour-over priority and cold brew as an alternative. Off the Grid has the more chocolate-led profile and direct washed-origin record. Choose from the desired cup, not an unverified ranking of roast darkness or value.",
+      "kind": "text",
+      "context": "Sun Catcher is Peet's brighter Brazil-and-Kenya blend with pour-over priority and cold brew as an alternative. Off the Grid has the more chocolate-led profile and direct washed-origin record. Choose from the desired cup, not an unverified ranking of roast darkness or value."
+    },
+    {
+      "id": "edfc2ac3eda2ecb8c54e666e1a1fa4bd71f3562fc80f62d7d96c65b19140b513",
+      "source": "a different medium-roast cold-brew blend with fruit-tart emphasis",
+      "kind": "text",
+      "context": "a different medium-roast cold-brew blend with fruit-tart emphasis"
+    },
+    {
+      "id": "9b9a25408ffa1d0dabe6583c435cec68822031df029d3f55fbc2d9750d634c80",
+      "source": "Off the Grid FAQ",
+      "kind": "text",
+      "context": "Off the Grid FAQ"
+    },
+    {
+      "id": "b3de66bcfce9f18e34c1ba502ef7acc318cc3cf97e00ff724cdc173f6a4d9c45",
+      "source": "What is Peet's Coffee Off the Grid?",
+      "kind": "text",
+      "context": "What is Peet's Coffee Off the Grid?"
+    },
+    {
+      "id": "122c09c9ead990a39c075bbe3be0f13484f22007c020b6bb672c656618e74443",
+      "source": "What does Off the Grid taste like?",
+      "kind": "text",
+      "context": "What does Off the Grid taste like?"
+    },
+    {
+      "id": "b24aa6792233e6d8310b741f8a16c4cfac9a2434e53a3435633625399ac0091f",
+      "source": "Peet's Coffee lists milk chocolate, almond butter and pear, as described by Peet's. Coffeedant has not tasted this bag.",
+      "kind": "text",
+      "context": "Peet's Coffee lists milk chocolate, almond butter and pear, as described by Peet's. Coffeedant has not tasted this bag."
+    },
+    {
+      "id": "1c257012ed066c05e470e00eec3e06cdc1c611bae01478cbe2897d6864c7285a",
+      "source": "Which brew method fits Off the Grid?",
+      "kind": "text",
+      "context": "Which brew method fits Off the Grid?"
+    },
+    {
+      "id": "3628f306f3a0c8563c92d6469291df662330ff2d7aaf8fcf6d376a155cc50372",
+      "source": "Colombia and El Salvador on the current product page Not specified for the complete blend Check the delivered pack for current lot details.",
+      "kind": "text",
+      "context": "Colombia and El Salvador on the current product page Not specified for the complete blend Check the delivered pack for current lot details."
+    },
+    {
+      "id": "e7d9d7399aa1f4bc660a8462ca7219d283febaec60f8bbdb6b92f8e58265147b",
+      "source": "Peet's Coffee US product photograph; current packaging illustration, not a roast-date or price receipt.",
+      "kind": "text",
+      "context": "Peet's Coffee US product photograph; current packaging illustration, not a roast-date or price receipt."
+    },
+    {
+      "id": "2234bb08211809a95e6a533ca3ce22def15a3e82a23d2f2b4fc18e6ef43b2abd",
+      "source": "Peet's Coffee US: Off the Grid",
+      "kind": "text",
+      "context": "Peet's Coffee US: Off the Grid ↗"
+    },
+    {
+      "id": "55011447624d84c558298381a55bc25fb3b6cdbc34f45359c7ccb156ee35942b",
+      "source": "Peet's cold-brew bean collection",
+      "kind": "text",
+      "context": "Peet's cold-brew bean collection ↗"
+    },
+    {
+      "id": "06dca0c74c56769b5f6ed5fe4b5d92fbc0bbf0887046dfcd535999e7e0df7b49",
+      "source": "Current inclusion of Off the Grid among cold-brew bean options. Checked 2026-10-22.",
+      "kind": "text",
+      "context": "Current inclusion of Off the Grid among cold-brew bean options. Checked 2026-10-22."
+    },
+    {
+      "id": "b2359cb09f7f36ff1a85566f50ea014e5a5c082959c29f20b02106f199f42673",
+      "source": "The Brew Adventures: Off the Grid sample",
+      "kind": "text",
+      "context": "The Brew Adventures: Off the Grid sample ↗"
+    },
+    {
+      "id": "8915bf906f4fd2c13135a86040a5b5581c83ad3844c23d5d78cb5a7ac1b98e13",
+      "source": "Independent hot and cold brew impressions from one bag; not a current controlled comparison. Checked 2026-10-22.",
+      "kind": "text",
+      "context": "Independent hot and cold brew impressions from one bag; not a current controlled comparison. Checked 2026-10-22."
+    },
+    {
+      "id": "6852f951197598eb1b413934b9910a531af2a61e6e78661b8ddaf8e94bd0bd3a",
+      "source": "r/Coffee: Peet’s buying and date context",
+      "kind": "text",
+      "context": "r/Coffee: Peet’s buying and date context ↗"
+    },
+    {
+      "id": "021574541bb7228e1fd154db435b2eb09493d528b861214c1d2b7d8510ad034c",
+      "source": "Older brand-level owner context only; not evidence of this exact 2026 blend. Checked 2026-10-22.",
+      "kind": "text",
+      "context": "Older brand-level owner context only; not evidence of this exact 2026 blend. Checked 2026-10-22."
+    },
+    {
+      "id": "fc9f65d9e0a564cc8b40a2717a51552bae7818a3ce47e2853b68deee4ce0eddd",
+      "source": "Peet's Coffee US product photograph; current packaging illustration, not a roast-date or price receipt. Checked 2026-10-22.",
+      "kind": "text",
+      "context": "Peet's Coffee US product photograph; current packaging illustration, not a roast-date or price receipt. Checked 2026-10-22."
+    },
+    {
+      "id": "3f285e51ca956bd7fc96d09e5eefb2b5960a5183b2d985b9ecfb9ed5dfc2d7b1",
+      "source": "Buy Off the Grid for its documented brew role",
+      "kind": "text",
+      "context": "Buy Off the Grid for its documented brew role"
+    },
+    {
+      "id": "e2b832ef8852d3e1bebc5e694ed1e5486a199da40be31c9eb09d94843c1dc002",
+      "source": "Off the Grid earns a separate look from Peet's dark classics: the current page identifies Colombia and El Salvador, washed processing, a bright-medium roast and a cold-brew option alongside pour-over. Its milk-chocolate, almond-butter and pear notes are a roaster target. Buyers wanting to make a clean, fruit-leaning chilled cup should still check the selected whole-bean format and live stock before ordering. Start with one whole-bean bag where available and let a repeatable personal brew decide any larger order.",
+      "kind": "text",
+      "context": "Off the Grid earns a separate look from Peet's dark classics: the current page identifies Colombia and El Salvador, washed processing, a bright-medium roast and a cold-brew option alongside pour-over. Its milk-chocolate, almond-butter and pear notes are a roaster target. Buyers wanting to make a clean, fruit-leaning chilled cup should still check the selected whole-bean format and live stock before ordering. Start with one whole-bean bag where available and let a repeatable personal brew decide any larger order."
+    },
+    {
+      "id": "c33da897dd7c2f61628695a9aed7dac0641531154622cdf0031195b9cba1c2e4",
+      "source": "Check Off the Grid at the roaster",
+      "kind": "text",
+      "context": "Check Off the Grid at the roaster ↗"
+    },
+    {
+      "id": "e7a3e19c02142ee545f35c1f2b94845002334c61bd633e2ea758f5acde9811c0",
+      "source": "Peet's Off the Grid review: washed Colombia and El Salvador for cold brew | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "f9e2e21ad30b3fadfc952a40b0dd4669dba023e880ecbb1735327212564fa275",
+      "source": "Research-led US review of Peet's Coffee Off the Grid: exact whole-bean identity, roaster notes, brew role, availability and evidence limits.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "dd378ccea6a553674c6b7e763deed1e33e5ea9a94887c9227d49c0419d617917",
+      "source": "Peet's Coffee US product photograph; current packaging illustration, not a roast-date or price receipt.",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "825e03314968ca5653c0cef209e20ae33fe57275b6cc3e25f01a8a1341340d5b",
+      "source": "Peet's Coffee Off the Grid",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "3440804ae0aa70f0fd1c480390be3ffd86d79cb85044d8cacb9eba7875dd2c64",
+      "source": "Peet's Off the Grid review: washed Colombia and El Salvador for cold brew",
+      "kind": "json",
+      "context": "headline"
+    },
+    {
+      "id": "0cb86145c6b73821c9d391eae073bf866d691d422b21b11e888f8be0c44a6f7e",
+      "source": "What is Peet's Coffee Off the Grid?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "4aa9dd0bd2e788dae0f7b33075a6e4a585057252fe045c2e273c47acc5e60c37",
+      "source": "The current Peet's US Off the Grid page names Colombia and El Salvador, washed processing and a bright-medium roast. A 2024 press release explains the launch blend, but the live product record is more relevant for the current bag; even named countries do not fix farms, harvests, varieties or proportions. This is the whole-bean product, not the separate grocery ground bag or a finished café drink.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "a7c8ded29562df7f1e3d79c0484caf86e2b6d5981c285b59b2c970db73d23e69",
+      "source": "What does Off the Grid taste like?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "a85e4b539f9de5ec4051fdef518817ef371b14da7143df50b400dd7fe037bb0c",
+      "source": "Peet's Coffee lists milk chocolate, almond butter and pear, as described by Peet's. Coffeedant has not tasted this bag.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "f18c69cf3e88c1c30d3b82badb63fe9e11ac18d947e6ab3fec8bd3e53aab51c6",
+      "source": "Which brew method fits Off the Grid?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "03151dd47afb02b1fb676d99e0e966b023578b04b0261d15480cd78ab40dd507",
+      "source": "Peet's says Off the Grid can be cold-brewed and lists a 12-plus-hour method; it separately recommends pour-over. The hot pour-over duration is not a cold-brew time, and a flash-chilled hot coffee uses another method altogether. Use coarse grounds and a tested vessel-specific immersion start, then filter and refrigerate.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "4106f72c693d811fd618e9b96512dc165c879323d59cd9926d970789df391c1a",
+      "source": "Colombia and El Salvador on the current product page Not specified for the complete blend Check the delivered pack for current lot details.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "c69270b2b0e1d644a60fca8b43694f5fb88586cac8ccad3a4c718403ea2bc50d",
+      "source": "Peet's Sun Catcher review: Brazil and Kenya in a bright filter blend | Coffeedant",
+      "kind": "text",
+      "context": "Peet's Sun Catcher review: Brazil and Kenya in a bright filter blend | Coffeedant"
+    },
+    {
+      "id": "560b8cb26c6ea49a660a7cc7c6bc9729be5c889c350dc638688b2ab201a5eac4",
+      "source": "Research-led US review of Peet's Coffee Sun Catcher: exact whole-bean identity, roaster notes, brew role, availability and evidence limits.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "f99f7bc38cbf69c0580b25779c2b9d66f81b0653a16610b8e0a78197a2f6f747",
+      "source": "Peet's Sun Catcher review: Brazil and Kenya in a bright filter blend | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "9e1630b01c281dd219ca4f02f86a19feaf82544a9866b08e4522d245b7837b0a",
+      "source": "Peet's Coffee Sun Catcher",
+      "kind": "text",
+      "context": "Peet's Coffee Sun Catcher"
+    },
+    {
+      "id": "c2868e13035b26ee191521768fb734fcdb678499b9e4380d1ddf734add3fca46",
+      "source": ". Peet's Coffee current US product image; it cannot confirm the roast date or actual bag supplied.",
+      "kind": "text",
+      "context": "Image: Peet's Coffee. Peet's Coffee current US product image; it cannot confirm the roast date or actual bag supplied."
+    },
+    {
+      "id": "aa1f3814141547f6118ba1c4ee80547b5b63445d5cc726eae02a849ce86f6d6b",
+      "source": "Peet's Sun Catcher review: Brazil and Kenya in a bright filter blend",
+      "kind": "text",
+      "context": "Peet's Sun Catcher review: Brazil and Kenya in a bright filter blend"
+    },
+    {
+      "id": "e0cf2132fc87f96af2a6e2d75a2db3527e83a6da529f92cd52b77709e2e00351",
+      "source": "A bright pour-over trial with a separate cold-brew option",
+      "kind": "text",
+      "context": "A bright pour-over trial with a separate cold-brew option"
+    },
+    {
+      "id": "bd99983455f2b24dc2e8164cc6fbcc7e5f664b686c5b007b922b3cc30e13bbee",
+      "source": "Buyers who welcome fruit and floral roaster notes",
+      "kind": "text",
+      "context": "Buyers who welcome fruit and floral roaster notes"
+    },
+    {
+      "id": "0887a88ab917a431baf493ab67716fa6873e6d479e55bf0a690e6ec415da6bdc",
+      "source": "Comparing Brazil-and-Kenya with Off the Grid’s Colombia-and-El Salvador",
+      "kind": "text",
+      "context": "Comparing Brazil-and-Kenya with Off the Grid’s Colombia-and-El Salvador"
+    },
+    {
+      "id": "a8e5ce87c0bce9a5c8ec7276033ae8bf62af07d273e91d566d373a3811b0bf79",
+      "source": "You need an immediately purchasable bag at the checked official listing",
+      "kind": "text",
+      "context": "You need an immediately purchasable bag at the checked official listing"
+    },
+    {
+      "id": "6c32bd82490e16d8cb9da8aea88efad899f39c89991efabbc54adc230a94f42b",
+      "source": "You want a dark roast for milk-heavy concentrate",
+      "kind": "text",
+      "context": "You want a dark roast for milk-heavy concentrate"
+    },
+    {
+      "id": "0753c80e2c40433a2d3a60a12d6e3eea4a21481fa8ac425ecbccbd59209d0a8a",
+      "source": "You will mistake a ground grocery sample for evidence of the current whole-bean lot",
+      "kind": "text",
+      "context": "You will mistake a ground grocery sample for evidence of the current whole-bean lot"
+    },
+    {
+      "id": "e7600df65cd6291169f3f63453912f8f30ffef7f8da00b819a35e91d9d2ea5d9",
+      "source": "Peet's Coffee Sun Catcher, US whole-bean product",
+      "kind": "text",
+      "context": "Peet's Coffee Sun Catcher, US whole-bean product"
+    },
+    {
+      "id": "03119dbc0b2f370bb063bf9f8d8e425779d8c97643995a3e6c369850e1a69a28",
+      "source": "Bright roast on Peet's current US page",
+      "kind": "text",
+      "context": "Bright roast on Peet's current US page"
+    },
+    {
+      "id": "9c0c4e914e8937fd05e6e5cb228bfb6b9f58e6fac42a9cee41ac03ad1fd91770",
+      "source": "strawberry jam, honeysuckle and citrus, as described by Peet's; not Coffeedant tasting",
+      "kind": "text",
+      "context": "strawberry jam, honeysuckle and citrus, as described by Peet's; not Coffeedant tasting"
+    },
+    {
+      "id": "91ab4df03cbc912a749c05c22c140901ffb7334aab5c6e4022b56217a44081b8",
+      "source": "Brazil and Kenya on the current US product page",
+      "kind": "text",
+      "context": "Brazil and Kenya on the current US product page"
+    },
+    {
+      "id": "e7f4584ecd5998b7d234b78e146d149430bb494a8326fd7ef6258a2d463baaee",
+      "source": "Natural and washed are listed for the blend; component assignments are not fully stated",
+      "kind": "text",
+      "context": "Natural and washed are listed for the blend; component assignments are not fully stated"
+    },
+    {
+      "id": "c334c449aa08ed025c03de0b57e34216bc7c503813546e4fbc7b88c85d125d1c",
+      "source": "US one-pound whole-bean selector; separate 10.5 oz grocery ground pack also exists",
+      "kind": "text",
+      "context": "US one-pound whole-bean selector; separate 10.5 oz grocery ground pack also exists"
+    },
+    {
+      "id": "38ea82f25b75773f7d6c09270520d78cdb4a1a76172a44648919dc82eac3a552",
+      "source": "Bright hot pour-over first; cold brew is listed as an alternative",
+      "kind": "text",
+      "context": "Bright hot pour-over first; cold brew is listed as an alternative"
+    },
+    {
+      "id": "9833659ba07fc79cf7b2259cca89683b93f810c5bbfc92f7c014097971ef4c28",
+      "source": "Current official product page exists but displays a sold-out message; verify exact stock",
+      "kind": "text",
+      "context": "Current official product page exists but displays a sold-out message; verify exact stock"
+    },
+    {
+      "id": "5e4438c503de0a97f8bcb0993072329e6ecf8b12bf09a4d80022bcf7ada561fd",
+      "source": "Sun Catcher is Peet's bright-roast blend of Brazil and Kenya on its current US page. The attributes list natural and washed processing, but do not assign each process to a fixed current farm or disclose the full variety set. A 2024 launch document describes its first recipe; that historical record cannot establish that every later harvest is unchanged. This review concerns the whole-bean selection, not the separate K-Cup or grocery ground format.",
+      "kind": "text",
+      "context": "Sun Catcher is Peet's bright-roast blend of Brazil and Kenya on its current US page. The attributes list natural and washed processing, but do not assign each process to a fixed current farm or disclose the full variety set. A 2024 launch document describes its first recipe; that historical record cannot establish that every later harvest is unchanged. This review concerns the whole-bean selection, not the separate K-Cup or grocery ground format. [1] [2]"
+    },
+    {
+      "id": "6c1541d2affdf51fb73b954c71f4815c54a92a91acd6e746d84801aa3ab2e911",
+      "source": "The product page recommends pour-over and also lists cold brew, making it a filter-first choice rather than an exclusive cold-brew bean. It displays a sold-out warning at this check. Treat the title as a review of the product and its documented use, not a claim that a one-pound bag can be bought immediately from Peet's online.",
+      "kind": "text",
+      "context": "The product page recommends pour-over and also lists cold brew, making it a filter-first choice rather than an exclusive cold-brew bean. It displays a sold-out warning at this check. Treat the title as a review of the product and its documented use, not a claim that a one-pound bag can be bought immediately from Peet's online. [1]"
+    },
+    {
+      "id": "ce2bb75c3cd2b782ade43430fcbef6acdacce20a6ab166c6b24e561aa48dabcb",
+      "source": "Strawberry jam, honeysuckle and citrus are Peet's descriptors. A personal 2025 blog tasting and a 2024 subscription review concern their own bags and one was pre-ground; their impressions cannot be promoted as Coffeedant's sensory findings. Selected owner comments praise or question the brightness, but not under one standardized recipe.",
+      "kind": "text",
+      "context": "Strawberry jam, honeysuckle and citrus are Peet's descriptors. A personal 2025 blog tasting and a 2024 subscription review concern their own bags and one was pre-ground; their impressions cannot be promoted as Coffeedant's sensory findings. Selected owner comments praise or question the brightness, but not under one standardized recipe. [1] [3] [4]"
+    },
+    {
+      "id": "61324e46321a5bd9498ed412c11418e79c8b92c746f1b2ed8409b4a275989135",
+      "source": "The documented Brazil/Kenya combination supports asking whether the buyer enjoys fruit and floral cues, while processing and roast labels alone cannot specify the result in a home cup. If the first bag is too bright, changing method, grind or water may help; it is also reasonable to prefer Off the Grid's more chocolate-led brief.",
+      "kind": "text",
+      "context": "The documented Brazil/Kenya combination supports asking whether the buyer enjoys fruit and floral cues, while processing and roast labels alone cannot specify the result in a home cup. If the first bag is too bright, changing method, grind or water may help; it is also reasonable to prefer Off the Grid's more chocolate-led brief."
+    },
+    {
+      "id": "b6a9975d4ced0f901eb53b991a303604e792f161293f88762c93920fd8acc0e9",
+      "source": "Peet's puts pour-over first for Sun Catcher and offers cold brew as another method with a broad 12-plus-hour indication. These require separate grind, water and timing. The 2024 launch described it as bright and sweet but did not publish a universal dose that could replace a device-specific guide.",
+      "kind": "text",
+      "context": "Peet's puts pour-over first for Sun Catcher and offers cold brew as another method with a broad 12-plus-hour indication. These require separate grind, water and timing. The 2024 launch described it as bright and sweet but did not publish a universal dose that could replace a device-specific guide. [1] [2]"
+    },
+    {
+      "id": "5eb3e5f146a3e62d081fa4b0cc7ba9c85b16db489bd693a0dea548d0e330b168",
+      "source": "Begin with a familiar paper-filter recipe on the delivered whole beans, recording dose and yield. For cold brew, use a coarse-grind immersion guide, filter, refrigerate and record dilution. Comparing a hot cup with cold brew is useful, but it is not a controlled taste ranking of coffees when both recipes change.",
+      "kind": "text",
+      "context": "Begin with a familiar paper-filter recipe on the delivered whole beans, recording dose and yield. For cold brew, use a coarse-grind immersion guide, filter, refrigerate and record dilution. Comparing a hot cup with cold brew is useful, but it is not a controlled taste ranking of coffees when both recipes change."
+    },
+    {
+      "id": "0b4e3d7f817c19c2fd603c7a7d11a8a499963c18fb1e36a6bab89d5139bde5a9",
+      "source": "If a reliable seller has the exact whole-bean pack, inspect its roast date before choosing quantity. Store opened beans sealed away from heat and odors, then grind only the next brew's dose. Do not treat the website's current product photo or a historical subscription bag as shipment evidence.",
+      "kind": "text",
+      "context": "If a reliable seller has the exact whole-bean pack, inspect its roast date before choosing quantity. Store opened beans sealed away from heat and odors, then grind only the next brew's dose. Do not treat the website's current product photo or a historical subscription bag as shipment evidence. [5]"
+    },
+    {
+      "id": "2c359d274d799b5871c0fe7d67fcf6c33077b8edd1c44045f44b58d86b42feda",
+      "source": "A one-pound bag can be excessive for someone making one occasional pour-over. A small pack from a reputable seller, when available, may be a better first experiment than a lower per-ounce bulk option that ages open.",
+      "kind": "text",
+      "context": "A one-pound bag can be excessive for someone making one occasional pour-over. A small pack from a reputable seller, when available, may be a better first experiment than a lower per-ounce bulk option that ages open."
+    },
+    {
+      "id": "50be2a6d6682119e81c3a53e96f6bc17944c64aea26e6fe9404606ab269ee1f7",
+      "source": "The official page's listed figure sits beside a sold-out message, so no live offer or discount is asserted here. Check legitimate seller stock, whole-bean size, roast date, shipping and tax. A similarly named ground grocery item has a different value equation and cannot silently substitute for the reviewed bag.",
+      "kind": "text",
+      "context": "The official page's listed figure sits beside a sold-out message, so no live offer or discount is asserted here. Check legitimate seller stock, whole-bean size, roast date, shipping and tax. A similarly named ground grocery item has a different value equation and cannot silently substitute for the reviewed bag. [1]"
+    },
+    {
+      "id": "eedba6cb9e1a59c77e83d2dff78e7c9e20028c56f4bca597dd29f73f080985a6",
+      "source": "The useful reason to choose Sun Catcher is a documented bright Brazil/Kenya profile with two method options. Off the Grid offers a washed medium alternative, while Three Africas gives more explicit current washed/natural fruit-blend context. Neither comparison rests on an invented Coffeedant cupping.",
+      "kind": "text",
+      "context": "The useful reason to choose Sun Catcher is a documented bright Brazil/Kenya profile with two method options. Off the Grid offers a washed medium alternative, while Three Africas gives more explicit current washed/natural fruit-blend context. Neither comparison rests on an invented Coffeedant cupping."
+    },
+    {
+      "id": "b1057b27bacf0108dffe0df4669cebe93b5290db0662a7131e818e4d06d710ca",
+      "source": "Off the Grid uses Colombia and El Salvador and has Peet's milk-chocolate, almond-butter and pear brief; Sun Catcher targets strawberry, florals and citrus. Both can be cold-brewed, but one is pour-over-first and the other has a more chocolate-oriented cold-brew use case.",
+      "kind": "text",
+      "context": "Off the Grid uses Colombia and El Salvador and has Peet's milk-chocolate, almond-butter and pear brief; Sun Catcher targets strawberry, florals and citrus. Both can be cold-brewed, but one is pour-over-first and the other has a more chocolate-oriented cold-brew use case. [1] [7]"
+    },
+    {
+      "id": "5621cdaf7ac7863861dc56a43367e2cc15f35fc41ba409c2bf70090fa013198f",
+      "source": "Peet's Big Bang is a medium, fruit-tart choice with direct cold-brew recommendation and an existing full review. If the buyer wants cold brew as the only method and Sun Catcher remains unavailable, that review offers a more practical starting comparison.",
+      "kind": "text",
+      "context": "Peet's Big Bang is a medium, fruit-tart choice with direct cold-brew recommendation and an existing full review. If the buyer wants cold brew as the only method and Sun Catcher remains unavailable, that review offers a more practical starting comparison."
+    },
+    {
+      "id": "fab46a841ae5f579b64190be4afc1c72499fc2b0b9cc4097b0567eb423b9aaae",
+      "source": "Peet's Off the Grid",
+      "kind": "text",
+      "context": "Peet's Off the Grid"
+    },
+    {
+      "id": "c65c4434b83ef64d40e31d5e39ea65e56469a5014384493bca1eb5a647c802a3",
+      "source": "a less floral, washed medium blend with a chocolate-and-pear roaster brief",
+      "kind": "text",
+      "context": "a less floral, washed medium blend with a chocolate-and-pear roaster brief"
+    },
+    {
+      "id": "63e0fc4a8b9ef19ef3fc51d899cfde1a7a013ec555a393f7554202a77d1a85cb",
+      "source": "Sun Catcher FAQ",
+      "kind": "text",
+      "context": "Sun Catcher FAQ"
+    },
+    {
+      "id": "12a0dc8f41c7f19a2a2e64fce4e2258dd3265e26f2d4f6dc559422e83872b7aa",
+      "source": "What is Peet's Coffee Sun Catcher?",
+      "kind": "text",
+      "context": "What is Peet's Coffee Sun Catcher?"
+    },
+    {
+      "id": "6cee5593ec6f8cc142ca9383e70654c44d278e98b1a419441ef7997522b916cd",
+      "source": "What does Sun Catcher taste like?",
+      "kind": "text",
+      "context": "What does Sun Catcher taste like?"
+    },
+    {
+      "id": "35c5c442c564cf925c601a38b69ce4a637b0882abc148443431590667b28b0a3",
+      "source": "Peet's Coffee lists strawberry jam, honeysuckle and citrus, as described by Peet's. Coffeedant has not tasted this bag.",
+      "kind": "text",
+      "context": "Peet's Coffee lists strawberry jam, honeysuckle and citrus, as described by Peet's. Coffeedant has not tasted this bag."
+    },
+    {
+      "id": "3b5634cd06abf8bb253f94fa9487f2c99fdae14f660c111c7a6f8c1dc0e889a0",
+      "source": "Which brew method fits Sun Catcher?",
+      "kind": "text",
+      "context": "Which brew method fits Sun Catcher?"
+    },
+    {
+      "id": "b1b9d7da353f4a200912d69103146cc0003a57a92c16665d6adea2e831be39c3",
+      "source": "Brazil and Kenya on the current US product page Not specified for the complete blend Check the delivered pack for current lot details.",
+      "kind": "text",
+      "context": "Brazil and Kenya on the current US product page Not specified for the complete blend Check the delivered pack for current lot details."
+    },
+    {
+      "id": "a51baef0647b77b97390614eff581673d22b68fc563db4da40e4783fd60db516",
+      "source": "Peet's Coffee current US product image; it cannot confirm the roast date or actual bag supplied.",
+      "kind": "text",
+      "context": "Peet's Coffee current US product image; it cannot confirm the roast date or actual bag supplied."
+    },
+    {
+      "id": "8dc0f27ba73c0454695314b33c14d384e442a0c028d712dc916fea3036374f9a",
+      "source": "Peet's Coffee US: Sun Catcher",
+      "kind": "text",
+      "context": "Peet's Coffee US: Sun Catcher ↗"
+    },
+    {
+      "id": "71d07107fc6891f789a6490569bf6c0a2d7d30f051982ac27efff7da490510b8",
+      "source": "Peet's Bright Collection launch record",
+      "kind": "text",
+      "context": "Peet's Bright Collection launch record ↗"
+    },
+    {
+      "id": "9b18523bf39cb1b46302a5f450eb61b32d66833a9655b7c4efa48f276bfe2a0b",
+      "source": "2024 launch origin and positioning; historical, not proof of the 2026 lot. Checked 2026-10-22.",
+      "kind": "text",
+      "context": "2024 launch origin and positioning; historical, not proof of the 2026 lot. Checked 2026-10-22."
+    },
+    {
+      "id": "4c6e6a651d98545ec34c6c39beba17c1858a65a5d0e93a269faf9f1cbd6ca383",
+      "source": "My Subscription Addiction: Sun Catcher sample",
+      "kind": "text",
+      "context": "My Subscription Addiction: Sun Catcher sample ↗"
+    },
+    {
+      "id": "5ac6272dd8d2f17cd9b2603f22e1b6676b18994c8e8920f3989e51c8264b90e6",
+      "source": "Independent 2024 pre-ground subscription sample; cannot validate current whole-bean sensory claims. Checked 2026-10-22.",
+      "kind": "text",
+      "context": "Independent 2024 pre-ground subscription sample; cannot validate current whole-bean sensory claims. Checked 2026-10-22."
+    },
+    {
+      "id": "af131831cdebbffd446c14f049fbf3610983428f7ad66c7e2fef138c51f7143e",
+      "source": "Personal 2025 Sun Catcher tasting",
+      "kind": "text",
+      "context": "Personal 2025 Sun Catcher tasting ↗"
+    },
+    {
+      "id": "9519993d13ff9c09aef5b0c316ea96d1ebf86abe3a4af2bc3cecd07dd896ff83",
+      "source": "One self-reported prior bag; preparation and roast date differ. Checked 2026-10-22.",
+      "kind": "text",
+      "context": "One self-reported prior bag; preparation and roast date differ. Checked 2026-10-22."
+    },
+    {
+      "id": "2f6baefbeaab10d61f75957bdfa0559342de1c57dfb632eaec9c2d6823cb51e7",
+      "source": "Coffeedant: Peet's Off the Grid",
+      "kind": "text",
+      "context": "Coffeedant: Peet's Off the Grid ↗"
+    },
+    {
+      "id": "0682248df263e57ad1d1a67fd2cfe2c24ec35515dd90f66b770b662bbdec6e9e",
+      "source": "Peet's Coffee current US product image; it cannot confirm the roast date or actual bag supplied. Checked 2026-10-22.",
+      "kind": "text",
+      "context": "Peet's Coffee current US product image; it cannot confirm the roast date or actual bag supplied. Checked 2026-10-22."
+    },
+    {
+      "id": "55137b61db80ece2f42da67dc381cf7b0e0e28339b5951de2f3d4d9d4ee32f7a",
+      "source": "Buy Sun Catcher for its documented brew role",
+      "kind": "text",
+      "context": "Buy Sun Catcher for its documented brew role"
+    },
+    {
+      "id": "e4ad787388e13858fa58e1ae4abf8109d8dd523c3fdbbbbd196492bfc5528315",
+      "source": "Sun Catcher is the Peet's bag for someone who wants a brighter hot filter coffee and may also experiment with cold brew. Its current page identifies Brazil and Kenya, natural and washed processing, and a pour-over-first role. The strawberry, honeysuckle and citrus direction is roaster-attributed; a grocery pre-ground review cannot predict this whole-bean shipment. Start with one whole-bean bag where available and let a repeatable personal brew decide any larger order.",
+      "kind": "text",
+      "context": "Sun Catcher is the Peet's bag for someone who wants a brighter hot filter coffee and may also experiment with cold brew. Its current page identifies Brazil and Kenya, natural and washed processing, and a pour-over-first role. The strawberry, honeysuckle and citrus direction is roaster-attributed; a grocery pre-ground review cannot predict this whole-bean shipment. Start with one whole-bean bag where available and let a repeatable personal brew decide any larger order."
+    },
+    {
+      "id": "0596a2cf9c151ef9d81e573da888095d84d390200be74a164c394bba05ccd0f9",
+      "source": "Check Sun Catcher at the roaster",
+      "kind": "text",
+      "context": "Check Sun Catcher at the roaster ↗"
+    },
+    {
+      "id": "a79dd190f6c8b6ef8ac17a98f8c042d064a5b088b1b3b79119c4bf040d9fb74e",
+      "source": "Peet's Sun Catcher review: Brazil and Kenya in a bright filter blend | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "30dce74c79938cbef3016f55705290b6551afca997fc9dbc5f9c6c585b894372",
+      "source": "Research-led US review of Peet's Coffee Sun Catcher: exact whole-bean identity, roaster notes, brew role, availability and evidence limits.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "b9f11b7b994008be52f565e798b05e8f04594f44d60c829758581cd50de32093",
+      "source": "Peet's Coffee current US product image; it cannot confirm the roast date or actual bag supplied.",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "3c1f0ee7e9caf5643e9737e8c9484c7f686788170429aa7232958c5cd38041d1",
+      "source": "Peet's Coffee Sun Catcher",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "026c4a2d954678759bbe4c19b69587a90441d01d8806fe916dc4486497dca937",
+      "source": "Peet's Sun Catcher review: Brazil and Kenya in a bright filter blend",
+      "kind": "json",
+      "context": "headline"
+    },
+    {
+      "id": "947e790f1aba527d816412d50e4bfdb95eb04af54b9db790af9474a5cff6962e",
+      "source": "What is Peet's Coffee Sun Catcher?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "889863f888109e690b043dc037c85ebf09596d9227a6439860dafb9d59112de8",
+      "source": "Sun Catcher is Peet's bright-roast blend of Brazil and Kenya on its current US page. The attributes list natural and washed processing, but do not assign each process to a fixed current farm or disclose the full variety set. A 2024 launch document describes its first recipe; that historical record cannot establish that every later harvest is unchanged. This review concerns the whole-bean selection, not the separate K-Cup or grocery ground format.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "244fe12e7caa1aed28930d6eed73d61cec72ad65a5ba6e65a67bf863d2eeb255",
+      "source": "What does Sun Catcher taste like?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "52e387aa90bd13319a81833a5710710acdf3bfecfcc0452bdc0da3ee8984bc1c",
+      "source": "Peet's Coffee lists strawberry jam, honeysuckle and citrus, as described by Peet's. Coffeedant has not tasted this bag.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "4398f9c2a9d348547e5c6f7afebbef307e2fd358a2271c0cdbf214e5430e5fed",
+      "source": "Which brew method fits Sun Catcher?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "0cb876d954d1cdc3cc33d230fa1bf2d659ade110abf47c2c3463fff0699e2282",
+      "source": "Peet's puts pour-over first for Sun Catcher and offers cold brew as another method with a broad 12-plus-hour indication. These require separate grind, water and timing. The 2024 launch described it as bright and sweet but did not publish a universal dose that could replace a device-specific guide.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "0504e594b2fb9c306e076c0083f32a760f61e8bda894642b8313ae97d05157d6",
+      "source": "Brazil and Kenya on the current US product page Not specified for the complete blend Check the delivered pack for current lot details.",
+      "kind": "json",
+      "context": "text"
+    }
+  ],
+  "snapshotHash": "e9669bee4f4213c7bc3883781d2d467abfb3ac26723262468414ab698b035c2b"
+}
