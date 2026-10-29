@@ -2634,6 +2634,31 @@ Production must repeat the complete-page checks and all emitted metadata/hashes;
 after a passing merge, verify the actual Pages deployment, live manifests,
 sitemaps and English return links before calling this batch published.
 
+#### Batch 49 concurrent pour-over hub preservation
+
+After the two new reviews passed production and live checks, independent source
+PR #203 added a pour-over buying-guide panel to `/coffee-beans/`. Its four new
+strings are directly authored in `pour-over-hub-preservation-batch-49`, retaining
+the source date and exact guide destination. The entire current bean hub is
+2,714 source words / 87 paragraphs, not an abridged replacement. The new guide
+itself is still queued: its hub link opens the actual English source with the
+native edition notice. Existing cache wording and every registered URL remain
+unchanged. The passing release-confirmation record and cache formatting from
+main are preserved. This follow-up restores the hub's readiness after the source
+addition; it is not an additional full translated buying guide or a full edition.
+
+Regression coverage is now 180 localization tests and nine SEO tests. Thirty-three
+whole current pages are checked across the three editions: the previous ten plus
+the complete expanded bean hub. Analytics, all 35 source bean reviews and the
+151-record no-price Finder plus seven grinder records pass API-free validation.
+Production and live publication checks remain required for the follow-up merge.
+
+The added source guide raises the inventory to 658 canonical pages / 56,451 slots.
+Readiness remains 101 indexable pages plus 404 per edition. Current translated /
+pending counts are NL 11,814 / 44,637, DE 11,911 / 44,540 and FR 11,839 / 44,612.
+There are 171 non-watch pages and 385 watch pages still pending. The follow-up
+adds four cache entries per edition with zero previous text or URL changes.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
