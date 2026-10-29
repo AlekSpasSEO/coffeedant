@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/brands/",
+      "sourceHash": "359a697deff07356a5585bbc7363b350e9544337d573d692105b0e35e3d176ed"
+    },
+    {
+      "sourcePath": "/coffee-beans/",
+      "sourceHash": "06c4724e6ed9393d8501e318b79728df8df17bdddfce3b0fd630ac1bd2615e99"
+    },
+    {
+      "sourcePath": "/coffee-beans/counter-culture-hologram/",
+      "sourceHash": "bf6ae5423c203d989dd59280b0ecc39d43204002842b095da7e6e3a9cb0b6380"
+    },
+    {
+      "sourcePath": "/coffee-beans/peets-major-dickasons/",
+      "sourceHash": "3001f44983e6df6dc7551b17a7899cf2ff39c632632ef25753d8beae62056b1c"
+    },
+    {
+      "sourcePath": "/coffee-beans/stumptown-hair-bender/",
+      "sourceHash": "5884c06ec27465c96490cb44f101cd438309d8d5cec8bf5fe988d6b2899624c1"
+    },
+    {
+      "sourcePath": "/coffee-beans/stumptown-holler-mountain/",
+      "sourceHash": "4cd5e9a5e5a9ebdcbe3de4ac8e864f3e3fd46f6d31194c0c04fbcc0109946456"
+    },
+    {
+      "sourcePath": "/coffee-beans/blue-bottle-three-africas/",
+      "sourceHash": "71acfffda7214bc2db76509b8e141316860d050b96a013e64f6302cf966ab2f6"
+    },
+    {
+      "sourcePath": "/coffee-beans/peets-baridi-blend/",
+      "sourceHash": "ab887b61cb6116e6e974e9a63a6dbdb55c2ef96b20b247d158bc8c87a28f20d9"
+    },
+    {
+      "sourcePath": "/grinder/",
+      "sourceHash": "c7d852400ce0ab7e39f309572adc18cc57a7c74fc43b185e2cfc4c359c77b446"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "40d5facc8240ef0c4be787e284b57b9ebaeba8773629a7445d774c29cf1f40c6",
+      "source": "Coffee Equipment Brands: Browse 43 Manufacturers | Coffeedant",
+      "kind": "text",
+      "context": "Coffee Equipment Brands: Browse 43 Manufacturers | Coffeedant"
+    },
+    {
+      "id": "7e1b85c1f973f59eeff489b070890781d1b9f384d1a707a972750dc31542e38d",
+      "source": "Coffee Equipment Brands: Browse 43 Manufacturers | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "16201c6ae9644db599c7ee3f7081383e91d0ddd3bf31e5040e9e362dc4fe32c6",
+      "source": "43 manufacturers · one useful map",
+      "kind": "text",
+      "context": "43 manufacturers · one useful map"
+    },
+    {
+      "id": "10bd08e0c68c6cbe738ebea40917e96d9bb768a5f3a3f1fa1c8131fc8535e51c",
+      "source": "Coffee Equipment Brands: Browse 43 Manufacturers | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "28125570348fdc2db3f73198e2b7c7e3e5edbedf2c59e2c2bc9c0eeed38dbde6",
+      "source": "05 / Counter space",
+      "kind": "text",
+      "context": "05 / Counter space"
+    },
+    {
+      "id": "90173a88d8f1d1ca80a41f221743a82b42aa53c752ac44b15ad0893cb8022525",
+      "source": "Fit the grinder and your hands.",
+      "kind": "text",
+      "context": "Fit the grinder and your hands."
+    },
+    {
+      "id": "8be1e30ccc015d6385d48ce90d04fe96a269d1c77108acab9ec24914ccc1c1cb",
+      "source": "Compare three exact electric espresso grinders by published width, depth and height, then allow space for dosing, adjustment and cleaning.",
+      "kind": "text",
+      "context": "Compare three exact electric espresso grinders by published width, depth and height, then allow space for dosing, adjustment and cleaning."
+    },
+    {
+      "id": "8eb3ce8946f75f17a680160fe77211b8535f815955a03efcac7f058565c4f989",
+      "source": "Read the compact grinder guide →",
+      "kind": "text",
+      "context": "Read the compact grinder guide →"
+    }
+  ],
+  "snapshotHash": "c063de28f6651420708e72ee4f052e2a835d010fd01ae87ec81736686c8e4f77"
+}

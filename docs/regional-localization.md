@@ -2587,6 +2587,53 @@ incomplete. The single-boiler publication is retained, not repeated as a new
 page in this follow-up. Verify the actual final main deployment and reciprocal
 links after merge and continue backfilling without per-page approval.
 
+### Direct batch 49: two cold-brew reviews and current-source preservation (2026-10-29)
+
+`cold-brew-bean-reviews-batch-49` directly translates both complete US reviews of
+Blue Bottle Three Africas and Peet's Baridi Blend into NL/DE/FR. The frozen
+snapshot has 149 slots / 120 distinct strings; 117 authored triples and three
+explicit proper-name approvals cover it completely. The two full articles have
+3,265 English source words, 92 paragraphs and fourteen FAQ answers per edition,
+including metadata, photo attribution, source annotations and buying conclusions.
+They are not shortened hub summaries. Routes use the existing `/koffiebonen/`,
+`/kaffeebohnen/` and `/cafe-en-grains/` prefixes and the exact product slugs.
+
+Three Africas retains the washed/natural Ethiopian and current Rwandan sourcing
+qualifications, the distinction between a hot 27 g/350 g pour-over and cold
+immersion, and no invented tasting or delivered price. Baridi retains the checked
+sold-out warning, inconsistent broad origin descriptions, separate café drink
+and dry-bean identities, and the limits of milk-and-syrup tasting evidence.
+
+Intervening source publications and automatic cache updates were merged without
+discarding their text or pending routes. `published-preservation-current-batch-49`
+adds the 43-manufacturer directory labels and the new compact-grinder hub panel;
+the unfinished compact-grinder guide still links to English. Passing German
+directory wording is reused. `six-bean-current-refresh-batch-49` preserves six
+previously translated full reviews after their October 26 source additions:
+Bella Donovan, Hayes Valley Espresso, Geometry, Southern Weather, Big Bang and
+Streetlevel. The complete brew masses, Fahrenheit ranges, recipe corrections,
+subscription renewal/cancellation caveats and stock warnings remain source facts,
+not local offers. Frozen earlier snapshots are unchanged. One newly automatic
+German photo caption is replaced by the reviewed direct wording with its source
+punctuation; no other existing cache text changes versus `471afdc`.
+
+All thirty whole-page previews pass: eight complete reviews plus the brands and
+grinder hubs in each language. Each edition preserves 14,710 source words,
+449 paragraphs and 52 FAQ answers across those ten audited pages. The suite has
+179 passing localization tests and nine passing SEO tests. API-free analytics
+validation covers 657 content pages and sixteen redirect fallbacks; the Finder
+has 151 unique native no-price records and seven grinder records. The brands
+validator covers 43 brands and 160 unique review destinations.
+
+Measured current coverage is 657 canonical source pages / 56,339 unique slots.
+Each edition has 101 complete indexable pages plus its 404, including 32 of the
+35 full bean reviews and eight watch companions. NL has 11,810 translated /
+44,529 pending slots; DE 11,907 / 44,432; FR 11,835 / 44,504. There are 170 other
+non-watch pages and 385 watch pages pending. All full-edition flags remain false.
+Production must repeat the complete-page checks and all emitted metadata/hashes;
+after a passing merge, verify the actual Pages deployment, live manifests,
+sitemaps and English return links before calling this batch published.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
