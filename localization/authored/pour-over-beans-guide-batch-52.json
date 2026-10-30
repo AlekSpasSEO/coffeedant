@@ -1,0 +1,465 @@
+{
+  "schemaVersion": 1,
+  "scope": "segments",
+  "editions": ["nl", "de", "fr"],
+  "snapshot": "pour-over-beans-guide-batch-52.source.json",
+  "snapshotHash": "6e0e368e0c2f28d8c28ad023824963a8506a931716c3dc780c417e428bc96bd2",
+  "preserveSource": [81, 87, 89],
+  "routes": {
+    "nl": {"/coffee-beans/best-pour-over-coffee-beans-by-flavor/": "/koffiebonen/beste-pour-over-koffiebonen-op-smaak/"},
+    "de": {"/coffee-beans/best-pour-over-coffee-beans-by-flavor/": "/kaffeebohnen/beste-handfilter-kaffeebohnen-nach-geschmack/"},
+    "fr": {"/coffee-beans/best-pour-over-coffee-beans-by-flavor/": "/cafe-en-grains/meilleurs-cafes-pour-filtre-manuel-par-saveur/"}
+  },
+  "translations": {
+    "0": {
+      "nl": "Belangrijkste onzekerheid",
+      "de": "Hauptunsicherheit",
+      "fr": "Principale incertitude"
+    },
+    "1": {
+      "nl": "Afrekenen in de VS",
+      "de": "US-Checkout",
+      "fr": "Paiement aux États-Unis"
+    },
+    "2": {
+      "nl": "Herleidbare onderbouwing",
+      "de": "Nachvollziehbare Belege",
+      "fr": "Éléments attribués aux sources"
+    },
+    "3": {
+      "nl": "Beste koffiebonen voor pour-over per smaakprofiel | Coffeedant",
+      "de": "Die besten Kaffeebohnen für Handfilter nach Geschmacksrichtung | Coffeedant",
+      "fr": "Les meilleurs cafés en grains pour filtre manuel selon le profil aromatique | Coffeedant"
+    },
+    "4": {
+      "nl": "Drie op bronnenonderzoek gebaseerde Amerikaanse bonenkeuzes voor frisse, evenwichtige en donkerdere pour-over, met exacte branderrecepten, afwegingen en bronbeperkingen.",
+      "de": "Drei quellenbasierte US-Empfehlungen für ganze Bohnen: lebhafter, ausgewogener und dunklerer Handfilterkaffee, mit genauen Rösterrezepten, Abwägungen und Quellengrenzen.",
+      "fr": "Trois choix documentaires de cafés en grains américains pour un filtre vif, équilibré ou plus sombre, avec recettes précises des torréfacteurs, compromis et limites des sources."
+    },
+    "6": {
+      "nl": "Pour-over",
+      "de": "Handfilter",
+      "fr": "Filtre manuel"
+    },
+    "7": {
+      "nl": "Beste koffiebonen voor pour-over per smaakprofiel",
+      "de": "Die besten Kaffeebohnen für Handfilter nach Geschmacksrichtung",
+      "fr": "Les meilleurs cafés en grains pour filtre manuel selon le profil aromatique"
+    },
+    "8": {
+      "nl": "Kies een bloemige, rondfruitige of donkerdere chocoladerichting voor je conische filterkoffie. Drie specifieke koffies in hele bonen hebben elk andere redenen om ze te kopen of over te slaan.",
+      "de": "Wählen Sie für Ihren Kegelfilter eine florale, rund-fruchtige oder dunklere schokoladige Richtung. Drei konkrete Kaffees als ganze Bohnen bieten unterschiedliche Kaufgründe und Gründe, sie auszulassen.",
+      "fr": "Choisissez une orientation florale, fruitée et ronde, ou plus sombre et chocolatée pour votre filtre conique. Trois cafés précis en grains présentent des raisons différentes de les choisir ou de les écarter."
+    },
+    "9": {
+      "nl": "29 oktober 2026",
+      "de": "29. Oktober 2026",
+      "fr": "29 octobre 2026"
+    },
+    "10": {
+      "nl": "Ik heb de huidige productpagina’s en filtergidsen van de branders vergeleken met onze volledige productreviews. Ik heb deze zakken niet gekocht, gezet of geproefd. De aanduidingen voor wie een koffie geschikt is, zijn koopadviezen op basis van bronnenonderzoek.",
+      "de": "Ich habe aktuelle Rösterangebote und Filteranleitungen mit unseren vollständigen Produktbesprechungen verglichen. Ich habe diese Beutel weder gekauft noch aufgebrüht oder verkostet. Die Eignungsempfehlungen sind quellenbasierte Kaufurteile.",
+      "fr": "J’ai comparé les fiches actuelles des torréfacteurs et leurs guides de filtre à nos avis produit complets. Je n’ai ni acheté, ni préparé, ni dégusté ces sachets. Les indications d’usage sont des jugements d’achat fondés sur des recherches documentaires."
+    },
+    "11": {
+      "nl": "Kies je bonen voor pour-over",
+      "de": "Wählen Sie Ihre Handfilterbohnen",
+      "fr": "Choisissez votre café pour filtre manuel"
+    },
+    "12": {
+      "nl": "Kies eerst de smaak in je kop, dan de koffie",
+      "de": "Erst das Tassenprofil wählen, dann den Kaffee",
+      "fr": "Choisissez le profil en tasse avant le café"
+    },
+    "13": {
+      "nl": "Gebruik steeds dezelfde zetmethode en filterhouder",
+      "de": "Den Filterhalter konstant halten",
+      "fr": "Gardez le même porte-filtre"
+    },
+    "14": {
+      "nl": "Koop een zak die je op kunt maken",
+      "de": "Einen Beutel kaufen, den Sie aufbrauchen können",
+      "fr": "Achetez un sachet que vous pourrez terminer"
+    },
+    "15": {
+      "nl": "Wanneer deze drie niet passen",
+      "de": "Wann diese drei nicht passen",
+      "fr": "Quand ces trois choix ne conviennent pas"
+    },
+    "16": {
+      "nl": "Koopbeslissing",
+      "de": "Kaufentscheidung",
+      "fr": "Décision d’achat"
+    },
+    "17": {
+      "nl": "Deze selectie is bedoeld voor wie pour-over met een conisch filter zet en zelf maalgraad, water en schenkschema kan kiezen. We vereisten een herkenbaar actueel Amerikaans product met hele bonen, een gekoppelde Coffeedant-review, een smaakomschrijving van de brander en een verdedigbare rol bij pour-over. Een specifiek gepubliceerd recept maakte een keuze sterker. Apollo blijft nuttig als smaakgericht alternatief, ook al geeft de gecontroleerde pagina geen specifiek conisch schenkschema voor Apollo. We sloten capsules, uitsluitend gemalen producten, producten zonder duidelijke huidige identiteit en koffies die alleen op het etiket “beste” werden gekozen uit.",
+      "de": "Diese Auswahl richtet sich an Käufer für Handfilter mit Kegelfilter, die Mahlgrad, Wasser und Gießschema selbst wählen können. Voraussetzung waren ein eindeutig identifizierbares aktuelles US-Angebot ganzer Bohnen, eine verlinkte Coffeedant-Besprechung, ein Geschmacksprofil des Rösters und ein nachvollziehbarer Handfilterzweck. Ein konkret veröffentlichtes Rezept stärkte eine Empfehlung. Apollo bleibt als geschmacksorientierte Alternative sinnvoll, obwohl die geprüfte Seite kein Apollo-spezifisches Gießschema für Kegelfilter nennt. Ausgeschlossen wurden Kapseln, ausschließlich gemahlen angebotene Produkte, Kaffees ohne klare aktuelle Identität und solche, die nur wegen der Bezeichnung „beste“ auf einem Etikett ausgewählt worden wären.",
+      "fr": "Cette sélection s’adresse à l’acheteur préparant un café au filtre conique manuel, qui peut choisir mouture, eau et séquence de versement. Nous exigions une offre américaine actuelle et identifiable de café en grains, un avis Coffeedant lié, un profil aromatique du torréfacteur et un usage défendable en filtre manuel. Une recette précise publiée renforçait un choix. Apollo reste pertinent comme option guidée par le goût, même si sa page vérifiée ne fournit pas de séquence conique propre à Apollo. Nous avons exclu capsules, offres uniquement moulues, produits sans identité actuelle claire et cafés choisis seulement parce qu’une étiquette les dit « meilleurs »."
+    },
+    "18": {
+      "nl": "De keuzes vertegenwoordigen drie verschillende richtingen: Apollo voor citrus en bloemen, Geometry voor een fruitige maar rondere blend met een exact startrecept voor een conisch filter en Bella Donovan voor een donkerdere chocoladebasis die melk aankan. Dit zijn redactionele geschiktheidsoordelen op basis van informatie van de branders. Coffeedant heeft de huidige zakken niet gekocht, gezet, geproefd, op extractie gemeten of met een sensorische score gerangschikt. Lees elke volledige review voor de onderliggende bronnen en hun beperkingen.",
+      "de": "Die Empfehlungen stehen für drei Richtungen: Apollo für Zitrus und Blüten, Geometry für eine fruchtbetonte, aber rundere Mischung mit einem genauen Ausgangsrezept für Kegelfilter und Bella Donovan für eine dunklere Schokoladenbasis, die Milch verträgt. Das sind redaktionelle Eignungsurteile anhand von Rösterangaben. Coffeedant hat die aktuellen Beutel weder gekauft, aufgebrüht, verkostet, ihre Extraktion gemessen noch nach sensorischen Punkten bewertet. Lesen Sie die jeweilige vollständige Besprechung für die zugrunde liegenden Belege und deren Grenzen.",
+      "fr": "Les choix représentent trois directions : Apollo pour les agrumes et les fleurs, Geometry pour un assemblage fruité mais plus rond avec un point de départ conique précis, et Bella Donovan pour une base chocolatée plus sombre qui accepte le lait. Il s’agit de jugements éditoriaux d’adéquation fondés sur les informations des torréfacteurs. Coffeedant n’a ni acheté, ni préparé, ni dégusté les sachets actuels, ni mesuré leur extraction ou établi un classement par score sensoriel. Lisez chaque avis complet pour les éléments sous-jacents et leurs limites."
+    },
+    "19": {
+      "nl": "De bestaande gids voor espresso en filterkoffie lost een ander probleem op: één zak vinden voor twee zetmethoden. Hier geven de smaakrichting bij pour-over, de filteronderbouwing van de brander en het praktische, herhaalbare recept de doorslag. Proefnotities van een brander zijn streefprofielen, geen belofte over jouw water, molen, zak met een bepaalde branddatum of smaakbeleving.",
+      "de": "Der vorhandene Ratgeber für Espresso und Filtermaschine löst ein anderes Problem: einen Beutel für zwei Brühmethoden zu finden. Hier entscheiden die Geschmacksrichtung im Handfilter, die Filterbelege des Rösters und das praktisch wiederholbare Rezept. Verkostungsnoten eines Rösters sind Zielprofile, kein Versprechen für Ihr Wasser, Ihre Mühle, Ihren Beutel mit seinem Röstdatum oder Ihren Geschmack.",
+      "fr": "Le guide existant sur l’espresso et le filtre automatique répond à un autre besoin : trouver un sachet pour deux méthodes. Ici, les facteurs décisifs sont l’orientation aromatique en filtre manuel, les éléments du torréfacteur concernant le filtre et la recette pratique que le lecteur peut reproduire. Les notes d’un torréfacteur sont des objectifs, pas une promesse concernant votre eau, votre moulin, la date de torréfaction de votre sachet ou votre palais."
+    },
+    "20": {
+      "nl": "Begin met één schone conische filterhouder, een passend papieren filter, versgemalen hele bonen, een weegschaal en water dat je ook zou drinken. Spoel het filter en verwarm de filterhouder voor. Noteer dosis, watergewicht en temperatuur, maalgraad, bloom, schenkschema en totale doorlooptijd. Verander één variabele tegelijk als het resultaat niet bij je voorkeur past. Een verhouding is een startpunt, geen kwaliteitsmeting.",
+      "de": "Beginnen Sie mit einem sauberen Kegelfilterhalter, passendem Papierfilter, frisch gemahlenen ganzen Bohnen, einer Waage und Wasser, das Sie trinken würden. Spülen Sie den Filter und wärmen Sie den Filterhalter vor. Notieren Sie Dosis, Wassermasse und Temperatur, Mahlgrad, Vorquellen, Gießschema und gesamte Durchlaufzeit. Ändern Sie jeweils eine Variable, wenn das Ergebnis nicht Ihrem Geschmack entspricht. Ein Verhältnis ist ein Ausgangspunkt, keine Qualitätsmessung.",
+      "fr": "Commencez avec un porte-filtre conique propre, un filtre papier adapté, des grains fraîchement moulus, une balance et une eau que vous boiriez. Rincez le filtre et préchauffez le porte-filtre. Notez dose, masse et température de l’eau, mouture, préinfusion, séquence de versement et durée totale d’écoulement. Modifiez une variable à la fois si le résultat ne vous convient pas. Un ratio est un point de départ, pas une mesure de qualité."
+    },
+    "21": {
+      "nl": "Onyx publiceert momenteel voor Geometry een startrecept voor een Origami/Hario-conus van 25 g koffie op 400 g water bij 205°F, ongeveer 1:16. Blue Bottle publiceert voor Bella Donovan 27 g op 350 g, ongeveer 1:13, en adviseert voor donkerdere brandingen de koelere kant van het bereik van 195–205°F. Dit zijn verschillende recepten voor verschillende koffies en apparatuur. Het numerieke verschil omzetten in een rechtstreekse smaakclaim is niet verantwoord; vergelijk eerst met één gecontroleerd recept en probeer daarna de beoogde methode van elke brander.",
+      "de": "Onyx veröffentlicht derzeit für Geometry einen Origami/Hario-Kegelfilterstart mit 25 g Kaffee auf 400 g Wasser bei 205°F, ungefähr 1:16. Blue Bottle nennt für Bella Donovan 27 g auf 350 g, ungefähr 1:13, und empfiehlt für dunklere Röstungen das kühlere Ende seines Bereichs von 195–205°F. Das sind unterschiedliche Rezepte für unterschiedliche Kaffee- und Gerätekontexte. Aus dem Zahlenunterschied eine direkte Geschmacksbehauptung abzuleiten wäre nicht fundiert; vergleichen Sie zuerst mit einem kontrollierten Rezept und probieren Sie danach die jeweils vorgesehene Röstermethode.",
+      "fr": "Onyx publie actuellement pour Geometry un départ au cône Origami/Hario de 25 g de café pour 400 g d’eau à 205°F, soit environ 1:16. Blue Bottle indique 27 g pour 350 g pour Bella Donovan, soit environ 1:13, et recommande le bas de sa plage de 195–205°F pour les torréfactions plus foncées. Ce sont des recettes différentes, adaptées à des cafés et équipements différents. Déduire de l’écart numérique une supériorité gustative directe serait infondé ; comparez d’abord avec une recette contrôlée, puis essayez la méthode prévue par chaque torréfacteur."
+    },
+    "22": {
+      "nl": "Counter Culture beschrijft Apollo als een mediumgebrande blend met citrus en bloemen en geeft op de website algemenere zetadviezen. We schrijven de brander geen precieze Apollo-specifieke dosis, watertemperatuur of eindtijd voor pour-over toe. Gebruik het gebruikelijke filterrecept van je filterhouder, leg het resultaat vast en stel af op de geleverde zak. Een brandcategorie op zichzelf bepaalt de extractie niet.",
+      "de": "Counter Culture beschreibt Apollo als mittlere Röstung mit Zitrus und floralen Noten und gibt auf seiner Website allgemeinere Brühhinweise. Wir schreiben dem Röster keine genaue Apollo-spezifische Handfilterdosis, Wassertemperatur oder Endzeit zu. Nutzen Sie das normale Filterrezept Ihres Filterhalters, protokollieren Sie das Ergebnis und passen Sie es an den gelieferten Beutel an. Eine nominelle Röstkategorie bestimmt die Extraktion nicht allein.",
+      "fr": "Counter Culture décrit Apollo comme un assemblage de torréfaction moyenne aux agrumes et aux fleurs et donne des conseils de préparation plus généraux sur son site. Nous n’attribuons pas au torréfacteur de dose, température d’eau ou durée finale précise en filtre manuel propre à Apollo. Utilisez la recette habituelle de votre porte-filtre, consignez le résultat et adaptez-la au sachet reçu. Une catégorie de torréfaction nominale ne détermine pas à elle seule l’extraction."
+    },
+    "23": {
+      "nl": "Drie smaakrichtingen",
+      "de": "Drei Geschmacksrichtungen",
+      "fr": "Trois orientations aromatiques"
+    },
+    "24": {
+      "nl": "Horizontaal verschuifbare vergelijking van bonen voor pour-over",
+      "de": "Horizontal verschiebbarer Vergleich von Handfilterbohnen",
+      "fr": "Comparatif défilant des cafés pour filtre manuel"
+    },
+    "25": {
+      "nl": "Amerikaanse producten met hele bonen gecontroleerd op 29 oktober 2026; geen actuele rangschikking op bezorgde prijs",
+      "de": "US-Angebote ganzer Bohnen am 29. Oktober 2026 geprüft; keine aktuelle Rangfolge nach Gesamtpreis einschließlich Lieferung",
+      "fr": "Offres américaines en grains vérifiées le 29 octobre 2026 ; aucun classement selon le prix livré actuel"
+    },
+    "26": {
+      "nl": "Bloemige koffie met citrus op de voorgrond",
+      "de": "Florale Tasse mit Zitrus im Vordergrund",
+      "fr": "Tasse florale dominée par les agrumes"
+    },
+    "27": {
+      "nl": "Je houdt niet van citrus of wilt een partij met vaste herkomst.",
+      "de": "Sie mögen keine Zitrusnoten oder möchten eine Charge mit fester Herkunft.",
+      "fr": "Vous n’aimez pas les agrumes ou voulez un lot d’origine fixe."
+    },
+    "28": {
+      "nl": "Fruit met een ronde basis",
+      "de": "Frucht mit runder Basis",
+      "fr": "Du fruit sur une base ronde"
+    },
+    "29": {
+      "nl": "Licht, volgens Onyx",
+      "de": "Hell, laut Onyx",
+      "fr": "Claire, selon Onyx"
+    },
+    "30": {
+      "nl": "Je wilt een donkere branding of één vaste boerderij.",
+      "de": "Sie möchten eine dunkle Röstung oder eine einzige feste Farm.",
+      "fr": "Vous voulez une torréfaction foncée ou une seule exploitation fixe."
+    },
+    "31": {
+      "nl": "Donkere pour-over met melk",
+      "de": "Dunkler Handfilterkaffee mit Milch",
+      "fr": "Filtre manuel foncé avec du lait"
+    },
+    "32": {
+      "nl": "Donker, volgens Blue Bottle",
+      "de": "Dunkel, laut Blue Bottle",
+      "fr": "Foncée, selon Blue Bottle"
+    },
+    "33": {
+      "nl": "Je wilt een lichte, theeachtige zwarte koffie.",
+      "de": "Sie möchten eine helle, teeartige schwarze Tasse.",
+      "fr": "Vous voulez une tasse noire légère, évoquant le thé."
+    },
+    "34": {
+      "nl": "Verschillende redenen om te kopen",
+      "de": "Unterschiedliche Kaufgründe",
+      "fr": "Des raisons distinctes de choisir"
+    },
+    "35": {
+      "nl": "Drie keuzes voor een eerste zak",
+      "de": "Drei Empfehlungen für den ersten Beutel",
+      "fr": "Trois choix pour un premier sachet"
+    },
+    "36": {
+      "nl": "Waarom:",
+      "de": "Warum:",
+      "fr": "Pourquoi :"
+    },
+    "37": {
+      "nl": "Counter Culture beschrijft Apollo als citrusachtig, bloemig en zijdezacht; de huidige blend is biologisch en wisselt van componenten.",
+      "de": "Counter Culture beschreibt Apollo als zitrusbetont, floral und seidig; die aktuelle Mischung ist biologisch und ihre Komponenten wechseln.",
+      "fr": "Counter Culture décrit Apollo comme agrumé, floral et soyeux ; l’assemblage actuel est biologique et ses composants changent."
+    },
+    "38": {
+      "nl": "Het smaakprofiel kan te fris zijn als je vooral chocolade wilt.",
+      "de": "Das Geschmacksprofil kann zu lebhaft sein, wenn Sie vor allem Schokolade suchen.",
+      "fr": "Le profil peut être trop vif si vous cherchez d’abord le chocolat."
+    },
+    "39": {
+      "nl": "Onyx beveelt Geometry uitdrukkelijk aan voor zowel filterkoffie als espresso en publiceert een recept voor een conisch filter voor deze blend van gewassen Ethiopische en Colombiaanse koffie.",
+      "de": "Onyx empfiehlt Geometry ausdrücklich sowohl für Filterkaffee als auch für Espresso und veröffentlicht für die Mischung aus gewaschenen äthiopischen und kolumbianischen Kaffees ein Kegelfilterrezept.",
+      "fr": "Onyx recommande explicitement Geometry pour le filtre comme pour l’espresso et publie une recette au filtre conique pour son assemblage de cafés éthiopiens et colombiens lavés."
+    },
+    "40": {
+      "nl": "De componentpartijen en versies van de zetgids kunnen veranderen; stem de huidige zak en gids op elkaar af.",
+      "de": "Komponentenchargen und Versionen der Brühanleitung können wechseln; gleichen Sie den aktuellen Beutel mit der Anleitung ab.",
+      "fr": "Les lots des composants et les versions du guide peuvent changer ; faites correspondre le sachet actuel et le guide."
+    },
+    "41": {
+      "nl": "Blue Bottle geeft een gedetailleerd schenkschema voor pour-over en beschrijft een chocoladebasis met een fruitaccent van naturel verwerkte Ethiopische koffie.",
+      "de": "Blue Bottle stellt ein detailliertes Handfilter-Gießschema bereit und beschreibt eine Schokoladenbasis mit einer Fruchtnote aus natural aufbereitetem äthiopischem Kaffee.",
+      "fr": "Blue Bottle fournit une séquence détaillée de filtre manuel et décrit une base chocolatée relevée d’une note fruitée issue de café éthiopien traité par voie naturelle."
+    },
+    "42": {
+      "nl": "Door de donkerdere branding en hogere aanbevolen dosis is dit een andere aankoop dan de twee frissere keuzes.",
+      "de": "Die dunklere Röstung und höhere empfohlene Dosis machen ihn zu einem anderen Kauf als die beiden lebhafteren Empfehlungen.",
+      "fr": "La torréfaction plus foncée et la dose conseillée plus importante en font un achat différent des deux choix plus vifs."
+    },
+    "43": {
+      "nl": "Gebruik de getallen op de juiste manier",
+      "de": "Die Zahlen richtig verwenden",
+      "fr": "Utilisez les chiffres correctement"
+    },
+    "44": {
+      "nl": "Horizontaal verschuifbare gedetailleerde vergelijking voor pour-over",
+      "de": "Horizontal verschiebbarer ausführlicher Handfiltervergleich",
+      "fr": "Comparatif détaillé défilant pour filtre manuel"
+    },
+    "45": {
+      "nl": "Branderclaims en startrecepten; geen Coffeedant-proeverij of extractiemetingen",
+      "de": "Rösterangaben und Ausgangsrezepte; keine Coffeedant-Verkostung oder Extraktionsmessungen",
+      "fr": "Déclarations des torréfacteurs et recettes de départ ; aucune dégustation ni mesure d’extraction de Coffeedant"
+    },
+    "46": {
+      "nl": "Smaakrichting",
+      "de": "Geschmacksrichtung",
+      "fr": "Orientation aromatique"
+    },
+    "47": {
+      "nl": "Filteronderbouwing van de brander",
+      "de": "Filterbelege des Rösters",
+      "fr": "Éléments du torréfacteur concernant le filtre"
+    },
+    "48": {
+      "nl": "De brander geeft algemene filteradviezen, geen vast conisch recept voor Apollo",
+      "de": "Der Röster gibt allgemeine Filterhinweise, kein festes Apollo-Kegelfilterrezept",
+      "fr": "Le torréfacteur donne des conseils généraux pour le filtre, pas de recette conique fixe pour Apollo"
+    },
+    "49": {
+      "nl": "Onyx Origami/Hario-conus: 25 g koffie, 400 g water bij 205°F",
+      "de": "Onyx Origami/Hario-Kegelfilter: 25 g Kaffee, 400 g Wasser bei 205°F",
+      "fr": "Cône Onyx Origami/Hario : 25 g de café, 400 g d’eau à 205°F"
+    },
+    "50": {
+      "nl": "Blue Bottle pour-over: 27 g koffie, 350 g water bij 195–205°F",
+      "de": "Blue Bottle Handfilter: 27 g Kaffee, 350 g Wasser bei 195–205°F",
+      "fr": "Filtre manuel Blue Bottle : 27 g de café, 350 g d’eau à 195–205°F"
+    },
+    "51": {
+      "nl": "Controleer formaat met hele bonen, branddatum, voorraad, verzending en belasting",
+      "de": "Packungsgröße ganzer Bohnen, Röstdatum, Bestand, Versand und Steuern prüfen",
+      "fr": "Vérifier format en grains, date de torréfaction, stock, livraison et taxes"
+    },
+    "52": {
+      "nl": "Gebruik de onderbouwing",
+      "de": "Die Belege nutzen",
+      "fr": "Appuyez-vous sur les éléments disponibles"
+    },
+    "53": {
+      "nl": "Een actueel online product bewijst de branddatum van de geleverde zak niet. Controleer de verpakking en kies een formaat dat je opmaakt zolang de smaak je nog bevalt. Het algemene versheidsadvies van Stumptown benadrukt hele bonen, een afgesloten zak of bak uit de buurt van warmte en vocht en malen vlak voor het zetten. We passen dat bewaarprincipe toe zonder de voorgestelde termijn als gemeten houdbaarheid van Apollo, Geometry of Bella Donovan te presenteren.",
+      "de": "Ein aktuelles Online-Angebot belegt nicht das Röstdatum des gelieferten Beutels. Prüfen Sie die Packung und wählen Sie eine Größe, die Sie aufbrauchen, solange Ihnen der Geschmack noch zusagt. Stumptowns allgemeine Frischehinweise betonen ganze Bohnen, einen verschlossenen Beutel oder Behälter fern von Wärme und Feuchtigkeit sowie das Mahlen direkt vor dem Brühen. Wir übernehmen dieses Lagerprinzip, ohne das empfohlene Zeitfenster als gemessene Haltbarkeit von Apollo, Geometry oder Bella Donovan darzustellen.",
+      "fr": "Une offre en ligne actuelle ne prouve pas la date de torréfaction du sachet reçu. Vérifiez l’emballage et choisissez un format que vous consommerez tant que son goût vous convient. Les conseils généraux de fraîcheur de Stumptown privilégient les grains entiers, un sachet ou récipient fermé à l’abri de la chaleur et de l’humidité, et la mouture juste avant la préparation. Nous appliquons ce principe de conservation sans présenter la période suggérée comme une durée de conservation mesurée pour Apollo, Geometry ou Bella Donovan."
+    },
+    "54": {
+      "nl": "Namen van blends kunnen gelijk blijven terwijl de componenten veranderen. Bij deze controle noemt Onyx gewassen Ethiopische en Colombiaanse koffies voor Geometry; Counter Culture beschrijft Apollo als een blend voor het hele jaar; Blue Bottle noemt een naturel verwerkte Ethiopische component in Bella Donovan. Die gegevens helpen bij een eerste aankoop, maar de daadwerkelijke verpakking en huidige brandergegevens moeten uitsluitsel geven over claims voor een specifieke partij. Is een traceerbare vaste herkomst het belangrijkst, kies dan een gedocumenteerd product van één herkomst.",
+      "de": "Mischnamen können gleich bleiben, während sich die Komponenten ändern. Zum Prüfzeitpunkt nennt Onyx gewaschene äthiopische und kolumbianische Kaffees für Geometry; Counter Culture beschreibt Apollo als ganzjährig angebotene Mischung; Blue Bottle nennt eine natural aufbereitete äthiopische Komponente in Bella Donovan. Diese Angaben helfen beim ersten Kauf, doch die tatsächliche Packung und die aktuellen Rösterangaben sollten chargenspezifische Aussagen klären. Steht eine nachvollziehbare feste Herkunft an erster Stelle, wählen Sie stattdessen ein dokumentiertes Single-Origin-Angebot.",
+      "fr": "Les noms d’assemblage peuvent rester stables tandis que les composants changent. Lors de cette vérification, Onyx cite des cafés éthiopiens et colombiens lavés pour Geometry ; Counter Culture décrit Apollo comme un assemblage disponible toute l’année ; Blue Bottle identifie un composant éthiopien naturel dans Bella Donovan. Ces détails guident un premier achat, mais le paquet réel et la fiche actuelle du torréfacteur doivent trancher toute affirmation propre au lot. Si la traçabilité d’une origine fixe prime, choisissez plutôt une offre documentée d’origine unique."
+    },
+    "55": {
+      "nl": "Hier wordt geen prijs inclusief bezorging, verzendtotaal of korting gerangschikt. Elke Amerikaanse winkelwagen kan verschillen door zakformaat, aankoopvorm, belasting en verzending. Een kleinere eerste zak geeft vaak nuttigere informatie dan een grootbestelling op basis van alleen smaakwoorden. Noteer de branddatum en je recept voordat je beslist of een grotere zak werkelijk voordelig is.",
+      "de": "Hier werden weder Gesamtpreise einschließlich Lieferung noch Versandkosten oder Rabatte in eine Rangfolge gebracht. Jeder US-Warenkorb kann je nach Beutelgröße, Kaufart, Steuern und Versand variieren. Ein kleinerer erster Beutel liefert oft nützlichere Erkenntnisse als eine allein auf Geschmackswörtern beruhende Großbestellung. Notieren Sie Röstdatum und Rezept, bevor Sie beurteilen, ob ein größerer Beutel wirklich preiswert ist.",
+      "fr": "Aucun classement de prix livré, de frais de port totaux ou de remise n’est établi ici. Chaque panier américain peut varier selon le format, le mode d’achat, les taxes et la livraison. Un premier petit sachet fournit souvent des éléments plus utiles qu’une commande en gros fondée uniquement sur des mots aromatiques. Notez date de torréfaction et recette avant de décider si un plus grand sachet constitue réellement un bon achat."
+    },
+    "56": {
+      "nl": "Zet je vooral met een automatisch filterapparaat, dan noemt de brander dat gebruik uitdrukkelijk voor Bella Donovan; de conische recepten hier zijn niet vanzelf geschikt voor het sproeipatroon van het apparaat. Wissel je dagelijks tussen pour-over en espresso, dan kunnen de afzonderlijk gedocumenteerde espresso- en filterrollen van Geometry nuttiger zijn, maar je hebt nog steeds aparte maalinstellingen nodig. Zie de gekoppelde volledige review en de gids voor espresso en filterkoffie.",
+      "de": "Brühen Sie hauptsächlich mit einer Filtermaschine, gibt es für Bella Donovan eine ausdrückliche Rösterangabe zu diesem Einsatz; die Kegelfilterrezepte hier lassen sich nicht zwangsläufig auf das Sprühbild der Maschine übertragen. Wechseln Sie täglich zwischen Handfilter und Espresso, könnten die separat dokumentierten Espresso- und Filterzwecke von Geometry hilfreicher sein, doch unterschiedliche Mühleneinstellungen bleiben nötig. Lesen Sie die verlinkte vollständige Besprechung und den Ratgeber für Espresso und Filtermaschine.",
+      "fr": "Si vous utilisez surtout une cafetière filtre automatique, Blue Bottle indique explicitement cet usage pour Bella Donovan, alors que les recettes coniques présentées ici ne se transposent pas nécessairement à l’arrosage de la machine. Si vous alternez chaque jour filtre manuel et espresso, les usages filtre et espresso documentés séparément de Geometry peuvent être plus utiles, mais des réglages de moulin distincts restent nécessaires. Consultez l’avis complet lié et le guide espresso et filtre automatique."
+    },
+    "57": {
+      "nl": "Is donkere koffie met melk je prioriteit, dan is Bella Donovan de relevante keuze van deze drie; gebruik onze bonengids voor melkdranken voor een specifieke vergelijking. Wil je een lichtere bloemige koffie, kies dan niet alleen op het algemene etiket “medium”: de huidige citrus- en bloemennotities van Apollo verschillen wezenlijk van het bessen- en steenfruitprofiel van Geometry. Coffeedant heeft geen van beide geproefd.",
+      "de": "Hat eine dunkle Röstung mit Milch Vorrang, ist Bella Donovan die passende dieser drei Optionen; für einen gezielten Vergleich von Milchgetränken nutzen Sie unseren entsprechenden Bohnenratgeber. Möchten Sie eine hellere florale Tasse, wählen Sie nicht allein nach einer allgemeinen Bezeichnung wie „mittel“: Apollos aktuelle Zitrus- und Blütenangaben unterscheiden sich wesentlich von Geometrys Beeren- und Steinobstprofil. Coffeedant hat keinen der beiden Kaffees verkostet.",
+      "fr": "Si votre priorité est une torréfaction foncée dans le lait, Bella Donovan est le choix pertinent parmi ces trois ; pour une comparaison dédiée, utilisez notre guide des grains pour boissons lactées. Si vous voulez une tasse plus légère et florale, ne choisissez pas sur la seule mention générique « moyenne » : les notes actuelles d’agrumes et de fleurs d’Apollo diffèrent réellement du profil de baies et de fruits à noyau de Geometry. Coffeedant n’a dégusté ni l’un ni l’autre."
+    },
+    "58": {
+      "nl": "Zijn het smaakprofiel van de brander, de huidige voorraad of een branddatum voor de exacte zak niet te controleren, stel de aankoop dan uit of kies een andere gedocumenteerde koffie. Een prachtig gedetailleerd recept bewijst geen versheid of verkrijgbaarheid. Maak van een oudere onafhankelijke proeverij of gebruikersreactie geen claim over een nieuwe partij.",
+      "de": "Lassen sich Geschmacksrichtung des Rösters, aktueller Lagerbestand oder datierte Röstung für den konkreten Beutel nicht verifizieren, verschieben Sie den Kauf oder wählen Sie einen anderen dokumentierten Kaffee. Ein noch so detailliertes Rezept belegt weder Frische noch Verfügbarkeit. Machen Sie aus einer älteren unabhängigen Verkostung oder einem Nutzerkommentar keine Aussage über eine neue Charge.",
+      "fr": "Si l’orientation aromatique du torréfacteur, le stock actuel ou une date de torréfaction ne peuvent être vérifiés pour le sachet exact, reportez l’achat ou choisissez un autre café documenté. Une recette très détaillée ne prouve ni fraîcheur ni disponibilité. Évitez de transformer une ancienne dégustation indépendante ou un commentaire d’utilisateur en affirmation sur un nouveau lot."
+    },
+    "59": {
+      "nl": "Stem de rest van je koffieroutine af",
+      "de": "Den Rest Ihrer Kaffeeroutine abstimmen",
+      "fr": "Adaptez le reste de votre routine"
+    },
+    "60": {
+      "nl": "Eén zak voor twee methoden, met aparte maalinstellingen.",
+      "de": "Ein Beutel für zwei Methoden, mit getrennten Mühleneinstellungen.",
+      "fr": "Un sachet pour deux méthodes, avec des réglages de mouture distincts."
+    },
+    "61": {
+      "nl": "Kies voor latte, cappuccino en koffie met room.",
+      "de": "Für Latte, Cappuccino und Kaffee mit Sahne auswählen.",
+      "fr": "Choisissez pour latte, cappuccino et café avec de la crème."
+    },
+    "62": {
+      "nl": "Vergelijk toepassingen met immersie in plaats van conische filters.",
+      "de": "Immersionszwecke statt Kegelfiltereinsätze vergleichen.",
+      "fr": "Comparez les usages en immersion plutôt qu’au filtre conique."
+    },
+    "63": {
+      "nl": "We controleerden de exacte huidige Amerikaanse producten met hele bonen, smaakbeschrijvingen van de branders en gepubliceerde filtertoepassingen en recepten en bekeken daarna elke gekoppelde Coffeedant-productbeoordeling. De drie keuzes passen bij verschillende smaakvoorkeuren voor pour-over. We voerden geen proeverij, blinde vergelijking of extractiemeting uit en gaven geen verkrijgbaarheidsgarantie.",
+      "de": "Wir prüften die genauen aktuellen US-Produkte als ganze Bohnen, Geschmacksbeschreibungen der Röster sowie veröffentlichte Filterzwecke und Rezepte und sichteten anschließend jede verlinkte Coffeedant-Produktbesprechung. Die drei Empfehlungen entsprechen unterschiedlichen Handfilter-Geschmacksvorlieben. Wir führten weder eine Verkostung, einen Blindvergleich noch eine Extraktionsmessung durch und gaben keine Verfügbarkeitsgarantie.",
+      "fr": "Nous avons vérifié l’identité exacte des produits américains actuels en grains, les descriptions aromatiques des torréfacteurs, les usages filtre et recettes publiés, puis examiné chaque analyse produit Coffeedant liée. Les trois choix répondent à des préférences aromatiques différentes en filtre manuel. Nous n’avons réalisé ni dégustation, ni comparaison à l’aveugle, ni mesure d’extraction, ni garanti la disponibilité."
+    },
+    "64": {
+      "nl": "Beschrijvingen en recepten zijn aan de branders toegeschreven. De gepubliceerde verhoudingen gelden voor het genoemde product en de genoemde methode, niet voor elke filterhouder of geleverde partij. Controleer vóór aankoop opnieuw voorraad, formaat, branddatum, verzending en belasting in de actuele Amerikaanse winkelwagen.",
+      "de": "Beschreibungen und Rezepte werden den Röstern zugeschrieben. Die veröffentlichten Verhältnisse gelten für das genannte Produkt und die genannte Methode, nicht für jeden Filterhalter oder jede gelieferte Charge. Prüfen Sie vor dem Kauf Bestand, Größe, Röstdatum, Versand und Steuern erneut im aktuellen US-Warenkorb.",
+      "fr": "Les descriptions et recettes sont attribuées aux torréfacteurs. Les ratios publiés s’appliquent au produit et à la méthode indiqués, pas à chaque porte-filtre ou lot livré. Vérifiez à nouveau stock, format, date de torréfaction, livraison et taxes dans le panier américain actif avant l’achat."
+    },
+    "65": {
+      "nl": "Veelgestelde vragen over bonen voor pour-over",
+      "de": "Häufige Fragen zu Handfilterbohnen",
+      "fr": "Questions fréquentes sur les grains pour filtre manuel"
+    },
+    "66": {
+      "nl": "Welke keuze is het beste voor een bloemige pour-over?",
+      "de": "Welche Empfehlung passt am besten zu floralem Handfilterkaffee?",
+      "fr": "Quel choix convient le mieux à un filtre manuel floral ?"
+    },
+    "67": {
+      "nl": "Counter Culture beschrijft Apollo als citrusachtig, bloemig en zijdezacht. Het is een smaakgerichte keuze op basis van bronnenonderzoek, geen proefresultaat van Coffeedant.",
+      "de": "Counter Culture beschreibt Apollo als zitrusbetont, floral und seidig. Es ist eine quellenbasierte Empfehlung nach Geschmacksrichtung, kein Verkostungsergebnis von Coffeedant.",
+      "fr": "Counter Culture décrit Apollo comme agrumé, floral et soyeux. C’est un choix d’orientation aromatique fondé sur des recherches documentaires, pas un résultat de dégustation Coffeedant."
+    },
+    "68": {
+      "nl": "Voor welke koffie is een conisch filterrecept gepubliceerd?",
+      "de": "Für welchen Kaffee gibt es ein veröffentlichtes Kegelfilterrezept?",
+      "fr": "Quel café possède une recette publiée au filtre conique ?"
+    },
+    "69": {
+      "nl": "Onyx noemt voor Geometry een Origami/Hario-startrecept van 25 g op 400 g; Blue Bottle geeft voor Bella Donovan 27 g op 350 g. Stem de precieze huidige gids af op je filterhouder.",
+      "de": "Onyx nennt für Geometry einen Origami/Hario-Start mit 25 g auf 400 g; Blue Bottle gibt für Bella Donovan 27 g auf 350 g an. Gleichen Sie die genaue aktuelle Anleitung mit Ihrem Filterhalter ab.",
+      "fr": "Onyx indique pour Geometry un départ Origami/Hario de 25 g pour 400 g ; Blue Bottle donne 27 g pour 350 g pour Bella Donovan. Faites correspondre le guide actuel exact et votre porte-filtre."
+    },
+    "70": {
+      "nl": "Is een donkere branding geschikt voor pour-over?",
+      "de": "Eignet sich eine dunkle Röstung für Handfilter?",
+      "fr": "Une torréfaction foncée convient-elle au filtre manuel ?"
+    },
+    "71": {
+      "nl": "Ja. Blue Bottle publiceert een pour-overmethode voor Bella Donovan en adviseert voor donkerdere brandingen koeler water binnen het bereik van 195–205°F. De koffie zal anders zijn dan een lichtgebrand streefprofiel.",
+      "de": "Ja. Blue Bottle veröffentlicht eine Handfiltermethode für Bella Donovan und empfiehlt bei dunkleren Röstungen kühleres Wasser innerhalb seines Bereichs von 195–205°F. Die Tasse unterscheidet sich vom Zielprofil einer hellen Röstung.",
+      "fr": "Oui. Blue Bottle publie une méthode de filtre manuel pour Bella Donovan et conseille une eau plus fraîche dans sa plage de 195–205°F pour les torréfactions plus foncées. La tasse différera d’un profil de torréfaction claire."
+    },
+    "72": {
+      "nl": "Kan ik de drie vergelijken met de verschillende recepten van hun branders?",
+      "de": "Kann ich die drei mit den unterschiedlichen Rösterrezepten vergleichen?",
+      "fr": "Puis-je comparer les trois avec les recettes différentes de leurs torréfacteurs ?"
+    },
+    "73": {
+      "nl": "Dan test je koffie en recept tegelijk. Houd eerst filterhouder, water, verhouding en werkwijze gelijk en probeer daarna de voorgestelde methode van elke brander.",
+      "de": "Damit testen Sie Kaffee und Rezept gleichzeitig. Halten Sie zunächst Filterhalter, Wasser, Verhältnis und Verfahren konstant und probieren Sie anschließend die vorgeschlagene Methode jedes Rösters.",
+      "fr": "Cela teste le café et la recette en même temps. Gardez d’abord le même porte-filtre, la même eau, le même ratio et la même procédure, puis essayez la méthode suggérée par chaque torréfacteur."
+    },
+    "74": {
+      "nl": "Zijn de proefnotities van Coffeedant?",
+      "de": "Stammen die Verkostungsnoten von Coffeedant?",
+      "fr": "Les notes de dégustation sont-elles celles de Coffeedant ?"
+    },
+    "75": {
+      "nl": "Nee. Alle smaakwoorden hier zijn aan de branders toegeschreven. Coffeedant heeft deze huidige zakken niet gezet of geproefd.",
+      "de": "Nein. Alle Geschmackswörter hier werden den Röstern zugeschrieben. Coffeedant hat diese aktuellen Beutel weder aufgebrüht noch verkostet.",
+      "fr": "Non. Tous les mots aromatiques sont attribués ici aux torréfacteurs. Coffeedant n’a ni préparé ni dégusté ces sachets actuels."
+    },
+    "76": {
+      "nl": "Bewijst een productfoto de branddatum?",
+      "de": "Belegt ein Produktfoto das Röstdatum?",
+      "fr": "Une photo produit prouve-t-elle la date de torréfaction ?"
+    },
+    "77": {
+      "nl": "Nee. Inspecteer de geleverde zak en controleer vóór aankoop het exacte formaat met hele bonen en de bestelvoorwaarden.",
+      "de": "Nein. Prüfen Sie den gelieferten Beutel und bestätigen Sie vor dem Kauf die genaue Packungsgröße ganzer Bohnen und die Bestellbedingungen.",
+      "fr": "Non. Examinez le sachet reçu et confirmez le format exact en grains et les conditions de commande avant l’achat."
+    },
+    "78": {
+      "nl": "Kan ik Geometry ook voor espresso gebruiken?",
+      "de": "Kann ich Geometry auch für Espresso verwenden?",
+      "fr": "Puis-je aussi utiliser Geometry pour l’espresso ?"
+    },
+    "79": {
+      "nl": "Onyx publiceert aparte filter- en espressoadviezen. Bewaar voor elke methode een andere maalgraad en een ander recept; de conische verhouding is geen doel voor een portafilter.",
+      "de": "Onyx veröffentlicht getrennte Filter- und Espressohinweise. Speichern Sie für jede Methode einen anderen Mahlgrad und ein eigenes Rezept; das Kegelfilterverhältnis ist kein Siebträgerziel.",
+      "fr": "Onyx publie des conseils distincts pour filtre et espresso. Conservez une mouture et une recette différentes pour chaque méthode ; le ratio du cône n’est pas un objectif pour le porte-filtre espresso."
+    },
+    "80": {
+      "nl": "Bronnen gecontroleerd op 29 oktober 2026",
+      "de": "Quellen am 29. Oktober 2026 geprüft",
+      "fr": "Sources vérifiées le 29 octobre 2026"
+    },
+    "82": {
+      "nl": "Huidige Amerikaanse blendidentiteit, biologische aanduiding, brandernotities en beschrijving als mediumbranding. Gecontroleerd op 29 oktober 2026.",
+      "de": "Aktuelle US-Mischungsidentität, Bio-Kennzeichnung, Rösterangaben und Beschreibung als mittlere Röstung. Am 29. Oktober 2026 geprüft.",
+      "fr": "Identité actuelle de l’assemblage américain, mention biologique, notes du torréfacteur et description de torréfaction moyenne. Vérifié le 29 octobre 2026."
+    },
+    "83": {
+      "nl": "Onyx Geometry: product en filtergids ↗",
+      "de": "Onyx Geometry: Produkt und Filteranleitung ↗",
+      "fr": "Onyx Geometry : produit et guide filtre ↗"
+    },
+    "84": {
+      "nl": "Huidige samenstelling, filtertoepassing en conische gids van 25 g/400 g. Gecontroleerd op 29 oktober 2026.",
+      "de": "Aktuelle Zusammensetzung, Filterzweck und Kegelfilteranleitung mit 25 g/400 g. Am 29. Oktober 2026 geprüft.",
+      "fr": "Composition actuelle, usage filtre et guide conique de 25 g/400 g. Vérifié le 29 octobre 2026."
+    },
+    "85": {
+      "nl": "Blue Bottle Bella Donovan: product en zetgids ↗",
+      "de": "Blue Bottle Bella Donovan: Produkt und Brühanleitung ↗",
+      "fr": "Blue Bottle Bella Donovan : produit et guide de préparation ↗"
+    },
+    "86": {
+      "nl": "Huidige donkergebrande smaakomschrijving, naturel verwerkte Ethiopische component en pour-overmethode van 27 g/350 g. Gecontroleerd op 29 oktober 2026.",
+      "de": "Aktuelles Profil der dunklen Röstung, natural aufbereitete äthiopische Komponente und Handfiltermethode mit 27 g/350 g. Am 29. Oktober 2026 geprüft.",
+      "fr": "Profil actuel de torréfaction foncée, composant éthiopien naturel et méthode de filtre manuel de 27 g/350 g. Vérifié le 29 octobre 2026."
+    },
+    "88": {
+      "nl": "Huidige algemene voorbereiding voor conische filters en context van het Geometry-recept; recepten kunnen per pagina of versie verschillen. Gecontroleerd op 29 oktober 2026.",
+      "de": "Aktuelle allgemeine Kegelfiltervorbereitung und Kontext zum Geometry-Rezept; Rezepte können je nach Seite oder Version abweichen. Am 29. Oktober 2026 geprüft.",
+      "fr": "Préparation conique générale actuelle et contexte de la recette Geometry ; les recettes peuvent différer selon la page ou la version. Vérifié le 29 octobre 2026."
+    },
+    "90": {
+      "nl": "Algemene context voor het bewaren van hele bonen en het maalmoment, geen gemeten houdbaarheid voor deze koffies. Gecontroleerd op 29 oktober 2026.",
+      "de": "Allgemeiner Kontext zur Lagerung ganzer Bohnen und zum Mahlzeitpunkt, keine gemessene Haltbarkeit dieser Kaffees. Am 29. Oktober 2026 geprüft.",
+      "fr": "Contexte général de conservation des grains et de moment de mouture, pas une durée de conservation mesurée pour ces cafés. Vérifié le 29 octobre 2026."
+    },
+    "91": {
+      "nl": "Je eerste zak",
+      "de": "Ihr erster Beutel",
+      "fr": "Votre premier sachet"
+    },
+    "92": {
+      "nl": "Kies de smaak en houd het schenken daarna herhaalbaar",
+      "de": "Den Geschmack wählen, dann reproduzierbar aufgießen",
+      "fr": "Choisissez le goût, puis gardez un versement reproductible"
+    },
+    "93": {
+      "nl": "Koop de exacte zak hele bonen voor de gewenste smaakrichting, controleer de branddatum en noteer het eerste gecontroleerde recept. Je eigen kop koffie kan daarna een zinvolle tweede aankoop sturen.",
+      "de": "Kaufen Sie den konkreten Beutel ganzer Bohnen für Ihre gewünschte Geschmacksrichtung, prüfen Sie das Röstdatum und notieren Sie das erste kontrollierte Rezept. Ihre eigene Tasse kann dann einen fundierten zweiten Kauf leiten.",
+      "fr": "Achetez le sachet exact en grains correspondant au profil souhaité, examinez sa date de torréfaction et notez la première recette contrôlée. Votre propre tasse pourra ensuite guider un deuxième achat pertinent."
+    }
+  }
+}

@@ -1,0 +1,679 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/coffee-beans/best-pour-over-coffee-beans-by-flavor/",
+      "sourceHash": "e4edbea4bcca8946048bf3d5c2d79a006b3e101a794ee1e89f53c91d22a3341f"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "2b4baf71b1ac05cab390198543290e73dea8f2b3543ec140d1b926d6fc17a464",
+      "source": "Main uncertainty",
+      "kind": "text",
+      "context": "Main uncertainty"
+    },
+    {
+      "id": "020442f6104f5402896111fd180deded2f490d2ab5001d939aeca4e08f4bde48",
+      "source": "US checkout",
+      "kind": "text",
+      "context": "US checkout"
+    },
+    {
+      "id": "099d66181aa0b128ab4269db64aafce0b25e23bb356ede23191d6e7fe20abf99",
+      "source": "Attributable evidence",
+      "kind": "text",
+      "context": "Attributable evidence"
+    },
+    {
+      "id": "69933e2753b4be9dcb5c488d5c6f7f94a9a635739c0d04ba09d4600472ea5723",
+      "source": "Best Pour-Over Coffee Beans by Flavor Direction | Coffeedant",
+      "kind": "text",
+      "context": "Best Pour-Over Coffee Beans by Flavor Direction | Coffeedant"
+    },
+    {
+      "id": "4481d52b682aa1b8c5260cddcddf54bf5e2dfbc5665069c9bc536da140624f30",
+      "source": "Three research-led US whole-bean picks for bright, balanced and darker pour-over coffee, with exact roaster recipes, tradeoffs and source limits.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "fce4b9e851f8a3e7d6c9b93780fd734b45119dc2855e7f5036ebad524effbb39",
+      "source": "Best Pour-Over Coffee Beans by Flavor Direction | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "854b8a4b36ffc63aebf2ca0cbfcd6e1b7b9b784bd927ca56da3796a2d041a539",
+      "source": "Pour-over",
+      "kind": "text",
+      "context": "Pour-over"
+    },
+    {
+      "id": "fe02d742dfa840173d28fefaad7ef5eb55697e1bce30f30a90e24da5c2cc60df",
+      "source": "Best Pour-Over Coffee Beans by Flavor Direction",
+      "kind": "text",
+      "context": "Best Pour-Over Coffee Beans by Flavor Direction"
+    },
+    {
+      "id": "ba8ad1eb7b60004596f63bd377b467f3a4563fd567005c72effd6752d70b3fcf",
+      "source": "Choose a floral, rounded-fruit or darker chocolate direction for your cone-filter cup. Three exact whole beans have different reasons to buy and reasons to skip.",
+      "kind": "text",
+      "context": "Choose a floral, rounded-fruit or darker chocolate direction for your cone-filter cup. Three exact whole beans have different reasons to buy and reasons to skip."
+    },
+    {
+      "id": "82cc3dd663687fbc3dbeeb87cb7f71cf0d169a9df81a0733819355a66010e40e",
+      "source": "October 29, 2026",
+      "kind": "text",
+      "context": "October 29, 2026"
+    },
+    {
+      "id": "075ef07373f8d83e32b92efa6aa9861be64c490e7a786433d6794cf4d686a69a",
+      "source": "I compared current roaster listings and filter guides with our full product reviews. I have not bought, brewed or tasted these bags. The best-for labels are research-led buying judgments.",
+      "kind": "text",
+      "context": "I compared current roaster listings and filter guides with our full product reviews. I have not bought, brewed or tasted these bags. The best-for labels are research-led buying judgments."
+    },
+    {
+      "id": "0f0eaaff42a7a2f6204aac9677bef87c2f179f5726948f0308c1e8197ff029ba",
+      "source": "Choose your pour-over bean",
+      "kind": "text",
+      "context": "Choose your pour-over bean"
+    },
+    {
+      "id": "d638bfd5bcb2582dbffc96c1301f03a9ab3a374d623892fb1ad949514287c365",
+      "source": "Select the cup before the coffee",
+      "kind": "text",
+      "context": "Select the cup before the coffee"
+    },
+    {
+      "id": "411992ff8b670ce92b1d639853456226a0ee106af8610d90dcbb1b04efd9aeac",
+      "source": "Hold the brewer constant",
+      "kind": "text",
+      "context": "Hold the brewer constant"
+    },
+    {
+      "id": "b34e6504103d9d859044036979a47f9e7cd187f2ca0f37bb66bc9c74c100e321",
+      "source": "Buy a bag you can finish",
+      "kind": "text",
+      "context": "Buy a bag you can finish"
+    },
+    {
+      "id": "b323c0293a587ba2469361c279985e0090a6e3065b94c12bde3763cce50d9263",
+      "source": "When these three are wrong",
+      "kind": "text",
+      "context": "When these three are wrong"
+    },
+    {
+      "id": "8a76d6b1511612e50840856cbc2eb4387886c7f4d0ab10d355c1f35e1f63e549",
+      "source": "Buyer decision",
+      "kind": "text",
+      "context": "Buyer decision"
+    },
+    {
+      "id": "acad809e704246a88d9b781fdbe8cc65bd085cdb6d866e80a869ed504cbbd9de",
+      "source": "This shortlist addresses a cone-filter pour-over buyer who can choose grind, water and pouring pattern. We required an identifiable current US whole-bean listing, a linked Coffeedant review, a roaster flavor brief, and a defensible pour-over role. A specific published recipe strengthened a pick. Apollo remains useful as a flavor-led alternative even though its checked page does not give an Apollo-specific cone schedule. We excluded pods, ground-only listings, products without a clear current identity, and coffees selected solely because a label says “best.”",
+      "kind": "text",
+      "context": "This shortlist addresses a cone-filter pour-over buyer who can choose grind, water and pouring pattern. We required an identifiable current US whole-bean listing, a linked Coffeedant review, a roaster flavor brief, and a defensible pour-over role. A specific published recipe strengthened a pick. Apollo remains useful as a flavor-led alternative even though its checked page does not give an Apollo-specific cone schedule. We excluded pods, ground-only listings, products without a clear current identity, and coffees selected solely because a label says “best.” [1] [2] [3]"
+    },
+    {
+      "id": "376187f3506cc1ab4f2e8d643a3428892c26783073e89b1e4e7f9bc5692b12f4",
+      "source": "The picks represent three different directions: Apollo for citrus and floral notes, Geometry for a fruit-led but rounder blend with an exact cone starting point, and Bella Donovan for a darker chocolate foundation that can take milk. These are editorial fit judgments based on roaster information. Coffeedant did not buy, brew, taste, measure extraction, or rank current bags by a sensory score. Read each full review for the underlying evidence and its limits.",
+      "kind": "text",
+      "context": "The picks represent three different directions: Apollo for citrus and floral notes, Geometry for a fruit-led but rounder blend with an exact cone starting point, and Bella Donovan for a darker chocolate foundation that can take milk. These are editorial fit judgments based on roaster information. Coffeedant did not buy, brew, taste, measure extraction, or rank current bags by a sensory score. Read each full review for the underlying evidence and its limits."
+    },
+    {
+      "id": "cea90ef5db59969a4757b609f3a332e34f93207e2e5ab0d2692a3229f629a53e",
+      "source": "The existing espresso-and-drip guide solves a separate problem: finding one bag for two brewing methods. Here the deciding factors are pour-over flavor direction, the roaster’s filter evidence, and the practical recipe a reader can repeat. A roaster’s tasting notes are targets, not a promise about your water, grinder, roast-date bag or palate.",
+      "kind": "text",
+      "context": "The existing espresso-and-drip guide solves a separate problem: finding one bag for two brewing methods. Here the deciding factors are pour-over flavor direction, the roaster’s filter evidence, and the practical recipe a reader can repeat. A roaster’s tasting notes are targets, not a promise about your water, grinder, roast-date bag or palate."
+    },
+    {
+      "id": "05b36356527589fb0e652b09817f0386a240676bd818282e4c64056c0f306b92",
+      "source": "Start with one clean cone dripper, a matching paper filter, freshly ground whole beans, a scale and water you would drink. Rinse the filter and preheat the brewer. Record dose, water mass and temperature, grind, bloom, pour schedule and total drawdown. Change one variable at a time when the result misses your preference. A ratio is a starting point, not a quality measurement.",
+      "kind": "text",
+      "context": "Start with one clean cone dripper, a matching paper filter, freshly ground whole beans, a scale and water you would drink. Rinse the filter and preheat the brewer. Record dose, water mass and temperature, grind, bloom, pour schedule and total drawdown. Change one variable at a time when the result misses your preference. A ratio is a starting point, not a quality measurement. [2] [3] [4]"
+    },
+    {
+      "id": "48255a0216d1a1e3b64cd9d6933bcf9630ec423673eb5647ddf3790af339e7b3",
+      "source": "Onyx currently publishes a 25 g to 400 g Origami/Hario cone start at 205°F for Geometry, about 1:16. Blue Bottle publishes 27 g to 350 g for Bella Donovan, about 1:13, and advises the cooler end of its 195–205°F range for darker roasts. These are different recipes for different coffee and equipment contexts. Copying the numeric difference into a head-to-head taste claim would be unsound; compare at one controlled recipe first, then try each roaster’s intended method.",
+      "kind": "text",
+      "context": "Onyx currently publishes a 25 g to 400 g Origami/Hario cone start at 205°F for Geometry, about 1:16. Blue Bottle publishes 27 g to 350 g for Bella Donovan, about 1:13, and advises the cooler end of its 195–205°F range for darker roasts. These are different recipes for different coffee and equipment contexts. Copying the numeric difference into a head-to-head taste claim would be unsound; compare at one controlled recipe first, then try each roaster’s intended method. [2] [3]"
+    },
+    {
+      "id": "983dd8535207fc170a6b9f93a35ac509bff8e29bf1b58b7b89f0c39e1c2d808b",
+      "source": "Counter Culture describes Apollo as a medium-roast citrus-floral blend and gives broader brewing guidance on its site. We do not attribute a precise Apollo-specific pour-over dose, water temperature or finishing time to the roaster. Use your brewer’s normal filter recipe, log the outcome, and adjust the delivered bag. A nominal roast category does not settle extraction on its own.",
+      "kind": "text",
+      "context": "Counter Culture describes Apollo as a medium-roast citrus-floral blend and gives broader brewing guidance on its site. We do not attribute a precise Apollo-specific pour-over dose, water temperature or finishing time to the roaster. Use your brewer’s normal filter recipe, log the outcome, and adjust the delivered bag. A nominal roast category does not settle extraction on its own. [1]"
+    },
+    {
+      "id": "bc89cb547175b1dc9a72692d5416d6046860dfd5e3cd2761eba9b21a3dcda3f1",
+      "source": "Three flavor directions",
+      "kind": "text",
+      "context": "Three flavor directions"
+    },
+    {
+      "id": "5256839a00fe57b67a979e4b90cfc9407abf0005efda6c980ebd484cfa53712d",
+      "source": "Scrollable pour-over bean comparison",
+      "kind": "attribute",
+      "context": "Three flavor directionsQuick comparisonUS whole-bean listings checked October 29, 2026; no current delivered-price rankingCoffeeBest forRoastSkip ifCounter Culture Coffee ApolloFloral and citrus-led cupMedium, per Counter CultureYou dislike citrus or want a fixed-origin lot.Onyx Coffee Lab GeometryFruit with a rounded baseLight, per OnyxYou want a dark roast or a single fixed farm.Blue Bottle Coffee Bella DonovanDark pour-over with milkDark, per Blue BottleYou want a light, tea-like black cup."
+    },
+    {
+      "id": "b6aef372fecf0412477c078a373d6914c936b92a9fb80827a478c2e5b67fcf62",
+      "source": "US whole-bean listings checked October 29, 2026; no current delivered-price ranking",
+      "kind": "text",
+      "context": "US whole-bean listings checked October 29, 2026; no current delivered-price ranking"
+    },
+    {
+      "id": "1757ad53af298e464114f374510899e221597fc4d008b1f200627ee8129fb39d",
+      "source": "Floral and citrus-led cup",
+      "kind": "text",
+      "context": "Floral and citrus-led cup"
+    },
+    {
+      "id": "7393cdd7106be9ba0c988801b302216105227b56eb9f27dd2eef9b2a672249a0",
+      "source": "You dislike citrus or want a fixed-origin lot.",
+      "kind": "text",
+      "context": "You dislike citrus or want a fixed-origin lot."
+    },
+    {
+      "id": "609efdd551175b48e0b52ad48cecdb34fa7d5b5ba2cf15ff465a169b6614b449",
+      "source": "Fruit with a rounded base",
+      "kind": "text",
+      "context": "Fruit with a rounded base"
+    },
+    {
+      "id": "54a5f1306c2afa8a8256bd3c954e85cf0de0a4e9157aa57d7e1c1db6f5dc1a6f",
+      "source": "Light, per Onyx",
+      "kind": "text",
+      "context": "Light, per Onyx"
+    },
+    {
+      "id": "6791d91c5949fd36d1af8454c1cdecb9568a062d9e5ddfb5decf9ab099881ccb",
+      "source": "You want a dark roast or a single fixed farm.",
+      "kind": "text",
+      "context": "You want a dark roast or a single fixed farm."
+    },
+    {
+      "id": "9e90d1c0198b758bdb0ec6dee2d2bd7f471fa5b8aaa8fba5eafd4bb08e91fc3a",
+      "source": "Dark pour-over with milk",
+      "kind": "text",
+      "context": "Dark pour-over with milk"
+    },
+    {
+      "id": "5c80df89cfcba1109914ec0355ce2c5907760e1a9af48926910cf914d55a21a2",
+      "source": "Dark, per Blue Bottle",
+      "kind": "text",
+      "context": "Dark, per Blue Bottle"
+    },
+    {
+      "id": "dc61190b1e4d3a7584526079863d606b62d2a041142d6efa578db01aa8d5e7af",
+      "source": "You want a light, tea-like black cup.",
+      "kind": "text",
+      "context": "You want a light, tea-like black cup."
+    },
+    {
+      "id": "59f9f74ec7d3f91726536e957fa578ac8eb17eb6f9ed229ba7b714f00ef8f8ea",
+      "source": "Distinct reasons to buy",
+      "kind": "text",
+      "context": "Distinct reasons to buy"
+    },
+    {
+      "id": "7040dd83919f9fba5b688c04764c9e36e9c4849a4d02b1648190e1d647594b6d",
+      "source": "Three first-bag picks",
+      "kind": "text",
+      "context": "Three first-bag picks"
+    },
+    {
+      "id": "c0fae75586007532bb9253ddb6bc0abe918da7c26622086bb4797d4efd2a97a3",
+      "source": "Why:",
+      "kind": "text",
+      "context": "Why:"
+    },
+    {
+      "id": "142b66c6a11172eedcac90a3c96bdfa10791877d6d8697f05ee899caeda51fd3",
+      "source": "Counter Culture describes Apollo as citrus, floral and silky; the current blend is organic and rotates its components.",
+      "kind": "text",
+      "context": "Why: Counter Culture describes Apollo as citrus, floral and silky; the current blend is organic and rotates its components."
+    },
+    {
+      "id": "af352d77812431b82971fdaa711593f0096abc79c09f6d1db5a815334b47d625",
+      "source": "The flavor brief may be too bright if you want a chocolate-first cup.",
+      "kind": "text",
+      "context": "Tradeoff: The flavor brief may be too bright if you want a chocolate-first cup."
+    },
+    {
+      "id": "57d81b509ac0000bdb1ef371c849dea9e45c872fbbc25f8035e7ca2aeaec04a2",
+      "source": "Onyx explicitly favors Geometry for filter as well as espresso and publishes a cone-filter recipe for its washed Ethiopian and Colombian blend.",
+      "kind": "text",
+      "context": "Why: Onyx explicitly favors Geometry for filter as well as espresso and publishes a cone-filter recipe for its washed Ethiopian and Colombian blend."
+    },
+    {
+      "id": "6f49b8ffeae0c2dec45cc76a4a1ce72dd6e0c40466921e981ecec382df997fd6",
+      "source": "Its component lots and brew-guide versions can change; match the current bag and guide.",
+      "kind": "text",
+      "context": "Tradeoff: Its component lots and brew-guide versions can change; match the current bag and guide."
+    },
+    {
+      "id": "2abb06a8f54dc9a1f0ca5d526cea314e179c04c8721e8e0a98429f2d03a6cbb2",
+      "source": "Blue Bottle supplies a detailed pour-over schedule and describes a chocolate base with a fruit edge from natural Ethiopian coffee.",
+      "kind": "text",
+      "context": "Why: Blue Bottle supplies a detailed pour-over schedule and describes a chocolate base with a fruit edge from natural Ethiopian coffee."
+    },
+    {
+      "id": "c5fec66aadaef32fa9797d9a791f0146bd49b7f36de0a58301284d408f147f56",
+      "source": "The darker roast and larger suggested dose make it a different purchase from the two brighter picks.",
+      "kind": "text",
+      "context": "Tradeoff: The darker roast and larger suggested dose make it a different purchase from the two brighter picks."
+    },
+    {
+      "id": "fcf96fe463c057e847272d612b96a6927963c066d83d29ffe1bbbbf35480d9a3",
+      "source": "Use the numbers correctly",
+      "kind": "text",
+      "context": "Use the numbers correctly"
+    },
+    {
+      "id": "0714036d93e89b5f22776a38a4c56a3c95ded7895be9e1dc29cb42d2a51a776e",
+      "source": "Scrollable detailed pour-over comparison",
+      "kind": "attribute",
+      "context": "Use the numbers correctlyDetailed comparisonRoaster claims and starting recipes; no Coffeedant tasting or extraction measurementsFactorApolloGeometryBella DonovanFlavor directionFloral and citrus-led cupFruit with a rounded baseDark pour-over with milkRoaster filter evidenceRoaster provides general filter guidance, not a fixed Apollo cone recipeOnyx Origami/Hario cone: 25 g coffee, 400 g water at 205°FBlue Bottle pour-over: 27 g coffee, 350 g water at 195–205°FRoastMedium, per Counter CultureLight, per OnyxDark, per Blue BottleMain uncertaintyThe flavor brief may be too bright if you want a chocolate-first cup.Its component lots and brew-guide versions can change; match the current bag and guide.The darker roast and larger suggested dose make it a different purchase from the two brighter picks.US checkoutVerify whole-bean size, roast date, stock, shipping and taxVerify whole-bean size, roast date, stock, shipping and taxVerify whole-bean size, roast date, stock, shipping and tax"
+    },
+    {
+      "id": "b94929b280dacb338094adfe391b14e3f83aebf995d27cec8728999c3a9b368f",
+      "source": "Roaster claims and starting recipes; no Coffeedant tasting or extraction measurements",
+      "kind": "text",
+      "context": "Roaster claims and starting recipes; no Coffeedant tasting or extraction measurements"
+    },
+    {
+      "id": "015f27baeb2623e0dde1ea7633a8cf4137258ccd9531890615d026feaea1a1d1",
+      "source": "Flavor direction",
+      "kind": "text",
+      "context": "Flavor direction"
+    },
+    {
+      "id": "0973f990e348cc1ef5076f7f8482d5b6b4f47dd0ab5203239d243ff8f07677ee",
+      "source": "Roaster filter evidence",
+      "kind": "text",
+      "context": "Roaster filter evidence"
+    },
+    {
+      "id": "740d774da76e49422f927b6668c75a4d39145608e3f9aa5e8ab2ae8e6537290d",
+      "source": "Roaster provides general filter guidance, not a fixed Apollo cone recipe",
+      "kind": "text",
+      "context": "Roaster provides general filter guidance, not a fixed Apollo cone recipe"
+    },
+    {
+      "id": "c840600182398f4ea6d773a1363f973833b97a612e07a42c99998a884c974822",
+      "source": "Onyx Origami/Hario cone: 25 g coffee, 400 g water at 205°F",
+      "kind": "text",
+      "context": "Onyx Origami/Hario cone: 25 g coffee, 400 g water at 205°F"
+    },
+    {
+      "id": "54813a49d52a311d22ed94ebc0d0a90e9e7e619cccb9a694c2bcf654f57d3718",
+      "source": "Blue Bottle pour-over: 27 g coffee, 350 g water at 195–205°F",
+      "kind": "text",
+      "context": "Blue Bottle pour-over: 27 g coffee, 350 g water at 195–205°F"
+    },
+    {
+      "id": "78224b8cfea61a2fc39d5e265372131b18cf1f38c4aaba14780151b65065ba2b",
+      "source": "Verify whole-bean size, roast date, stock, shipping and tax",
+      "kind": "text",
+      "context": "Verify whole-bean size, roast date, stock, shipping and tax"
+    },
+    {
+      "id": "6b3122b40590fb3d04dded7a33d7c3dcec9fa4e7ec32da7905ff2c4a9387f480",
+      "source": "Use the evidence",
+      "kind": "text",
+      "context": "Use the evidence"
+    },
+    {
+      "id": "406f2586e2ac3fa4a821417040e0e18fa2d8322ac6dda8aca4994b54891a1c56",
+      "source": "A current online listing does not prove the roast date of the bag that arrives. Check the package and choose a size you will use while its flavor still suits you. Stumptown’s general freshness advice emphasizes whole beans, a sealed bag or container away from heat and moisture, and grinding just before brewing. We apply that storage principle without presenting its suggested window as a measured shelf life for Apollo, Geometry or Bella Donovan.",
+      "kind": "text",
+      "context": "A current online listing does not prove the roast date of the bag that arrives. Check the package and choose a size you will use while its flavor still suits you. Stumptown’s general freshness advice emphasizes whole beans, a sealed bag or container away from heat and moisture, and grinding just before brewing. We apply that storage principle without presenting its suggested window as a measured shelf life for Apollo, Geometry or Bella Donovan. [5]"
+    },
+    {
+      "id": "e61753f8b62053e979f173ba365c8aa2d711d386ce556131f2751e1cdcfba0b9",
+      "source": "Blend names can stay stable while components change. Onyx names washed Ethiopian and Colombian coffees for Geometry at this check; Counter Culture describes Apollo as a year-round blend; Blue Bottle identifies a natural Ethiopian component in Bella Donovan. Those details guide a first purchase, but the actual pack and current roaster record should settle any lot-specific claim. If traceable fixed-origin identity matters most, choose a documented single-origin listing instead.",
+      "kind": "text",
+      "context": "Blend names can stay stable while components change. Onyx names washed Ethiopian and Colombian coffees for Geometry at this check; Counter Culture describes Apollo as a year-round blend; Blue Bottle identifies a natural Ethiopian component in Bella Donovan. Those details guide a first purchase, but the actual pack and current roaster record should settle any lot-specific claim. If traceable fixed-origin identity matters most, choose a documented single-origin listing instead."
+    },
+    {
+      "id": "ce6c72491d32b9b074b9911bd6c692f5a19a2446690a0f075bce208ca17c7e1a",
+      "source": "No delivered price, shipping total or discount is ranked here. Each US cart can vary by bag size, purchase mode, tax and shipping. A smaller first bag often gives more useful evidence than a bulk order made from flavor words alone. Note the roast date and your recipe before deciding whether a larger bag is truly good value.",
+      "kind": "text",
+      "context": "No delivered price, shipping total or discount is ranked here. Each US cart can vary by bag size, purchase mode, tax and shipping. A smaller first bag often gives more useful evidence than a bulk order made from flavor words alone. Note the roast date and your recipe before deciding whether a larger bag is truly good value."
+    },
+    {
+      "id": "ebecff6465681569a9dad8055893c6a37c05a8a0fc507439f4ebd8d2fefd9d83",
+      "source": "If you brew mainly through an automatic drip machine, Bella Donovan has an explicit roaster statement for that use, while the cone recipes here need not transfer to the machine’s spray pattern. If you alternate pour-over and espresso every day, Geometry’s separately documented espresso and filter roles may be more useful, but you still need distinct grinder settings. See the linked full review and the espresso-and-drip guide.",
+      "kind": "text",
+      "context": "If you brew mainly through an automatic drip machine, Bella Donovan has an explicit roaster statement for that use, while the cone recipes here need not transfer to the machine’s spray pattern. If you alternate pour-over and espresso every day, Geometry’s separately documented espresso and filter roles may be more useful, but you still need distinct grinder settings. See the linked full review and the espresso-and-drip guide. [2] [3]"
+    },
+    {
+      "id": "4d11d91697c0b41d44ad88af7e7e91b80642051f1d019b4b563be758aa1b3166",
+      "source": "If a dark roast in milk is your priority, Bella Donovan is the relevant one of these three; for a dedicated milk-drink comparison, use our milk-drinks bean guide. If you want a lighter floral cup, avoid choosing by a generic “medium” label alone: Apollo’s current citrus/floral words and Geometry’s berry/stone-fruit brief are meaningfully different. Neither has been tasted by Coffeedant.",
+      "kind": "text",
+      "context": "If a dark roast in milk is your priority, Bella Donovan is the relevant one of these three; for a dedicated milk-drink comparison, use our milk-drinks bean guide. If you want a lighter floral cup, avoid choosing by a generic “medium” label alone: Apollo’s current citrus/floral words and Geometry’s berry/stone-fruit brief are meaningfully different. Neither has been tasted by Coffeedant. [1] [2]"
+    },
+    {
+      "id": "62bd0348fd78712a9adabcdd4003a2e007b3d922392baea7f4c4c32f5d9a335a",
+      "source": "If the roaster’s flavor direction, current stock or a dated roast cannot be verified for the exact bag, postpone the purchase or select another documented coffee. A beautifully detailed recipe is not evidence of freshness or availability. Avoid converting an older independent tasting or owner comment into a claim about a new lot.",
+      "kind": "text",
+      "context": "If the roaster’s flavor direction, current stock or a dated roast cannot be verified for the exact bag, postpone the purchase or select another documented coffee. A beautifully detailed recipe is not evidence of freshness or availability. Avoid converting an older independent tasting or owner comment into a claim about a new lot."
+    },
+    {
+      "id": "b9886721e8492410f2c7b6d05673d42f19a292e99e0f82378ddded5c9da09f8f",
+      "source": "Match the rest of your routine",
+      "kind": "text",
+      "context": "Match the rest of your routine"
+    },
+    {
+      "id": "70ec8b09dee375a77969ad1ea7aeb9f227921f845879cde926163814c8882bee",
+      "source": "One bag for two methods, with separate grind settings.",
+      "kind": "text",
+      "context": "One bag for two methods, with separate grind settings."
+    },
+    {
+      "id": "6a3f8a28a432eed0eda3f7c66590dd123e4239c0de1ba465156542d5e879d279",
+      "source": "Choose for latte, cappuccino and coffee with cream.",
+      "kind": "text",
+      "context": "Choose for latte, cappuccino and coffee with cream."
+    },
+    {
+      "id": "0c7d8e145dc8a0ceda895051097d9b419a4029407417c8a570ad878bf937ab82",
+      "source": "Compare immersion rather than cone-filter roles.",
+      "kind": "text",
+      "context": "Compare immersion rather than cone-filter roles."
+    },
+    {
+      "id": "1eb555a8a64d546dd3fda701d4c762e7714c1a4d2f50e8e54cdda2adc1c0f515",
+      "source": "We checked exact current US whole-bean product identities, roaster flavor descriptions, published filter roles and recipes, then reviewed each linked Coffeedant product assessment. The three picks answer different pour-over flavor preferences. We did not conduct a tasting, blind comparison, extraction measurement or availability guarantee.",
+      "kind": "text",
+      "context": "We checked exact current US whole-bean product identities, roaster flavor descriptions, published filter roles and recipes, then reviewed each linked Coffeedant product assessment. The three picks answer different pour-over flavor preferences. We did not conduct a tasting, blind comparison, extraction measurement or availability guarantee."
+    },
+    {
+      "id": "2586db5917258793a58573968875a90167ddb9a4cf347e61612d8e83d9455c73",
+      "source": "Roaster descriptions and recipes are attributed. The published ratios apply to the stated product and method, not to every dripper or delivered lot. Recheck stock, size, roast date, shipping and tax in the live US cart before purchasing.",
+      "kind": "text",
+      "context": "Roaster descriptions and recipes are attributed. The published ratios apply to the stated product and method, not to every dripper or delivered lot. Recheck stock, size, roast date, shipping and tax in the live US cart before purchasing."
+    },
+    {
+      "id": "8e05bee61802d8c7ef447c146edc9e7765764dcb2c5c6214cd6e93f038955572",
+      "source": "Pour-over bean FAQ",
+      "kind": "text",
+      "context": "Pour-over bean FAQ"
+    },
+    {
+      "id": "f75fee2a7dc3d559be52d4a77333a8bc2d505a23cc46df7a3399769889ea5ad9",
+      "source": "Which pick is best for a floral pour-over?",
+      "kind": "text",
+      "context": "Which pick is best for a floral pour-over?"
+    },
+    {
+      "id": "50a1f77a3cce89a76410705147b681f0c8bc3421df452a3da9862ade81fb4255",
+      "source": "Counter Culture describes Apollo as citrus, floral and silky. It is a research-led flavor-direction pick, not a Coffeedant tasting result.",
+      "kind": "text",
+      "context": "Counter Culture describes Apollo as citrus, floral and silky. It is a research-led flavor-direction pick, not a Coffeedant tasting result."
+    },
+    {
+      "id": "fae097435a44bcc3d6634e7b2b3569cb35b278cc8cf481d91333c7ff4efe07f4",
+      "source": "Which coffee has a published cone recipe?",
+      "kind": "text",
+      "context": "Which coffee has a published cone recipe?"
+    },
+    {
+      "id": "0f9f5f8106e11662fd25dc9eabc3d66cc39d5e507db768f884d6604dad62e905",
+      "source": "Onyx lists a 25 g to 400 g Origami/Hario start for Geometry; Blue Bottle gives 27 g to 350 g for Bella Donovan. Match the exact current guide and your dripper.",
+      "kind": "text",
+      "context": "Onyx lists a 25 g to 400 g Origami/Hario start for Geometry; Blue Bottle gives 27 g to 350 g for Bella Donovan. Match the exact current guide and your dripper."
+    },
+    {
+      "id": "5d1654576ac1efee5c61f7b4c4336430c3b22c24a7d86e229522262c737741a3",
+      "source": "Is dark roast suitable for pour-over?",
+      "kind": "text",
+      "context": "Is dark roast suitable for pour-over?"
+    },
+    {
+      "id": "6246676fdeb112b50c91c789c8d30a4b15f7c860522175520737ca407307591c",
+      "source": "Yes. Blue Bottle publishes a Bella Donovan pour-over method and suggests cooler water within its 195–205°F range for darker roasts. The cup will differ from a light-roast target.",
+      "kind": "text",
+      "context": "Yes. Blue Bottle publishes a Bella Donovan pour-over method and suggests cooler water within its 195–205°F range for darker roasts. The cup will differ from a light-roast target."
+    },
+    {
+      "id": "e930b0eb0a05be7680a9a1e1fd0f42665d4ad4082b8e365d26292252e0311b62",
+      "source": "Can I compare the three using their roasters’ different recipes?",
+      "kind": "text",
+      "context": "Can I compare the three using their roasters’ different recipes?"
+    },
+    {
+      "id": "e57dff4c712ffe2173cca235f05081a6c78722a48bbb7838e91108367cc5affc",
+      "source": "That tests coffee and recipe at once. Hold one brewer, water, ratio and procedure constant first, then try each roaster’s suggested method.",
+      "kind": "text",
+      "context": "That tests coffee and recipe at once. Hold one brewer, water, ratio and procedure constant first, then try each roaster’s suggested method."
+    },
+    {
+      "id": "82e5345bb39c14d0b8dd42bf7a9b5d13d512baa2295bc21c1d68cd54143bfb26",
+      "source": "Are the tasting notes Coffeedant’s?",
+      "kind": "text",
+      "context": "Are the tasting notes Coffeedant’s?"
+    },
+    {
+      "id": "2bd645264d8b1e466fd4d3112f27450ef045115d333c350a15a5dde80c446eaa",
+      "source": "No. All flavor words here are attributed to the roasters. Coffeedant has not brewed or tasted these current bags.",
+      "kind": "text",
+      "context": "No. All flavor words here are attributed to the roasters. Coffeedant has not brewed or tasted these current bags."
+    },
+    {
+      "id": "109d07fff785c52d12b83fda38f2b4b22a39d3f0dc184ed5e11ab88f01a51514",
+      "source": "Does a product photo verify the roast date?",
+      "kind": "text",
+      "context": "Does a product photo verify the roast date?"
+    },
+    {
+      "id": "9c75194f2b27981c7dab2d1b8be772b5095bf535e9bac7ad8a7da6541743e8c8",
+      "source": "No. Inspect the delivered bag and confirm the exact whole-bean size and order terms before purchase.",
+      "kind": "text",
+      "context": "No. Inspect the delivered bag and confirm the exact whole-bean size and order terms before purchase."
+    },
+    {
+      "id": "4fab01e70bc42cadeef44e1f8637301fff389d5de3e438d10b5c646feb26506e",
+      "source": "Can I use Geometry for espresso too?",
+      "kind": "text",
+      "context": "Can I use Geometry for espresso too?"
+    },
+    {
+      "id": "8a19e0fecd013bc3010e492db0d8b2e60978c8c23b0eaa0b9bb06ec95bd13fa0",
+      "source": "Onyx publishes separate filter and espresso guidance. Save a different grind and recipe for each method; the cone ratio is not a portafilter target.",
+      "kind": "text",
+      "context": "Onyx publishes separate filter and espresso guidance. Save a different grind and recipe for each method; the cone ratio is not a portafilter target."
+    },
+    {
+      "id": "06406d337dda344a4745659b589c20482afab350845aa3bd6ed780644b314944",
+      "source": "Sources checked October 29, 2026",
+      "kind": "text",
+      "context": "Sources checked October 29, 2026"
+    },
+    {
+      "id": "51adedbcbb1db3ed71de1d2c1b67efcc43af935e88cb07ba1e0b3bf8b8917548",
+      "source": "Counter Culture Apollo ↗",
+      "kind": "text",
+      "context": "Counter Culture Apollo ↗"
+    },
+    {
+      "id": "519e79690d0a5e1932c563dbdadd0086bda594129fda1ba44487e3e55abfec75",
+      "source": "Current US blend identity, organic designation, roaster notes and medium-roast description. Checked October 29, 2026.",
+      "kind": "text",
+      "context": "Current US blend identity, organic designation, roaster notes and medium-roast description. Checked October 29, 2026."
+    },
+    {
+      "id": "4fcacf6c1e4c08b197f967588d77a63d46f902f363fd0b924aa22367e59633d4",
+      "source": "Onyx Geometry product and filter guide ↗",
+      "kind": "text",
+      "context": "Onyx Geometry product and filter guide ↗"
+    },
+    {
+      "id": "38f05255622a73b1034214dfb9827b033fd14f04f658ef37c49121befd2019dd",
+      "source": "Current composition, filter role and 25 g/400 g cone guide. Checked October 29, 2026.",
+      "kind": "text",
+      "context": "Current composition, filter role and 25 g/400 g cone guide. Checked October 29, 2026."
+    },
+    {
+      "id": "26bb0f822c941048b2962040d592c826dad2938dc06c95f2dfaf7b38d2e2d2f3",
+      "source": "Blue Bottle Bella Donovan product and brew guide ↗",
+      "kind": "text",
+      "context": "Blue Bottle Bella Donovan product and brew guide ↗"
+    },
+    {
+      "id": "8cfd3019a4a9325016158065bf6eb41b3c77aafddc162c7ba02565da5c1c1301",
+      "source": "Current dark-roast brief, natural Ethiopian component and 27 g/350 g pour-over method. Checked October 29, 2026.",
+      "kind": "text",
+      "context": "Current dark-roast brief, natural Ethiopian component and 27 g/350 g pour-over method. Checked October 29, 2026."
+    },
+    {
+      "id": "399aa34e74bf8864a69ea5857e5bb8c2fea5c942cdc68a56eb03fda9dbb6a4e8",
+      "source": "Onyx Help Me Brew ↗",
+      "kind": "text",
+      "context": "Onyx Help Me Brew ↗"
+    },
+    {
+      "id": "d20a124784017a3ae4a4c6bff108c37bf3e3ddcea173c75dbea970437065cecb",
+      "source": "Current general cone preparation and Geometry recipe context; recipes can differ by page/version. Checked October 29, 2026.",
+      "kind": "text",
+      "context": "Current general cone preparation and Geometry recipe context; recipes can differ by page/version. Checked October 29, 2026."
+    },
+    {
+      "id": "2ad8f4f4bcf07725af43cb4120332e07ffdeb999944cdcef8714c323043bf2a9",
+      "source": "Stumptown Coffee Class: Get Fresh ↗",
+      "kind": "text",
+      "context": "Stumptown Coffee Class: Get Fresh ↗"
+    },
+    {
+      "id": "395b61fcad25a03c4bec574b59a073f928c1c8f7997bc774577899b74b146506",
+      "source": "General whole-bean storage and grind timing context, not a measured shelf life for these coffees. Checked October 29, 2026.",
+      "kind": "text",
+      "context": "General whole-bean storage and grind timing context, not a measured shelf life for these coffees. Checked October 29, 2026."
+    },
+    {
+      "id": "21459091be84c0c51c2a659e2cac09b99cbc748aefba24f1f490becdb789ea49",
+      "source": "Your first bag",
+      "kind": "text",
+      "context": "Your first bag"
+    },
+    {
+      "id": "3e94587b2ab7f1c258dfa536f697408bdc8bd91d7169d0cce6a567a711eec91b",
+      "source": "Choose the flavor, then keep the pour repeatable",
+      "kind": "text",
+      "context": "Choose the flavor, then keep the pour repeatable"
+    },
+    {
+      "id": "2d19bbb44a569f6c56aa53da72f815f4caf544229533021be4d2768fd8f8e203",
+      "source": "Buy the exact whole-bean bag for the direction you want, inspect its roast date, and write down the first controlled recipe. Your own cup can then guide a meaningful second purchase.",
+      "kind": "text",
+      "context": "Buy the exact whole-bean bag for the direction you want, inspect its roast date, and write down the first controlled recipe. Your own cup can then guide a meaningful second purchase."
+    },
+    {
+      "id": "6268212af8d8e26bd0e45f43f905720c56752e0406b1c93949862aa28754fadb",
+      "source": "Best Pour-Over Coffee Beans by Flavor Direction | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "820140d3536c298e248f576f266cdc38d7086850b331af4a7cf0199afffde029",
+      "source": "Three research-led US whole-bean picks for bright, balanced and darker pour-over coffee, with exact roaster recipes, tradeoffs and source limits.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "ac1b8517002962da651e39cf14bee2a53189cb08be6d80082891d80d7feb996e",
+      "source": "Best Pour-Over Coffee Beans by Flavor Direction",
+      "kind": "json",
+      "context": "headline"
+    },
+    {
+      "id": "cc09ee01811e22cc3d9c8bb6569b5ec58eae42600c96d99ac664cd2b92d2772d",
+      "source": "Which pick is best for a floral pour-over?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "0f0be6cf1c015c8e5fe913ff7b6846b93d76c6c178c535d39f6e04df9a24cabf",
+      "source": "Counter Culture describes Apollo as citrus, floral and silky. It is a research-led flavor-direction pick, not a Coffeedant tasting result.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "dca91c35ba9b954943117a9aa3b55738a135aaf1457d78f3994fa1187d5e5d4a",
+      "source": "Which coffee has a published cone recipe?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "a93fb48f164b152c4101ce849a1529f05dc4c2ede006035ba8d0fa08501fbb52",
+      "source": "Onyx lists a 25 g to 400 g Origami/Hario start for Geometry; Blue Bottle gives 27 g to 350 g for Bella Donovan. Match the exact current guide and your dripper.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "0b64d007ef67534df388f484fa5a57b4ab1c2dec79027896db5b3939b7c8d9ff",
+      "source": "Is dark roast suitable for pour-over?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "53fae268b882a8f1b79867c9e698c775b526f2d1766208e22785467f9158f75c",
+      "source": "Yes. Blue Bottle publishes a Bella Donovan pour-over method and suggests cooler water within its 195–205°F range for darker roasts. The cup will differ from a light-roast target.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "1966609e9f95215dfb9965e326a10e500e27329109f21a52cff266d637664056",
+      "source": "Can I compare the three using their roasters’ different recipes?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "fa23acaadd525347ecf4957f7186ea39db040aaf75314113e6ea17d1129e7ba3",
+      "source": "That tests coffee and recipe at once. Hold one brewer, water, ratio and procedure constant first, then try each roaster’s suggested method.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "6cefc3bb3a45dc3c9eab7726c15a78b4ab0b855c60a696f90d6c770e5eaf8f68",
+      "source": "Are the tasting notes Coffeedant’s?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "3f55ce5cb845c2aee1cf4fdd33515a72cefec0affecd33e914ccd4e65d1b34a3",
+      "source": "No. All flavor words here are attributed to the roasters. Coffeedant has not brewed or tasted these current bags.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "394fb53eaf28f0b7282809072356eec63b7328d6c4e6c088b9e8e92f4fdac93f",
+      "source": "Does a product photo verify the roast date?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "26af3a3801028e199edf96bf12af8ca7acdf83bf3c2944280efffcf824dc3366",
+      "source": "No. Inspect the delivered bag and confirm the exact whole-bean size and order terms before purchase.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "90dbf51c46d5356dee8403eeda014d4b799a57d87352701d08045d3d9fdc070a",
+      "source": "Can I use Geometry for espresso too?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "fc549952a2c0a58e8367ec40967d29fcb0de6c6f37b67bfc8a83af8b74396052",
+      "source": "Onyx publishes separate filter and espresso guidance. Save a different grind and recipe for each method; the cone ratio is not a portafilter target.",
+      "kind": "json",
+      "context": "text"
+    }
+  ],
+  "snapshotHash": "6e0e368e0c2f28d8c28ad023824963a8506a931716c3dc780c417e428bc96bd2"
+}

@@ -2730,6 +2730,40 @@ DE 12,105 / 44,346, FR 12,033 / 44,418. There remain 168 non-watch and 385 watch
 pages pending. Complete-edition flags remain false; incremental publication and
 the continuation stay enabled.
 
+### Direct batch 52: full pour-over buying guide (2026-10-30)
+
+The complete current pour-over buying guide is directly authored for NL/DE/FR
+using the immutable `pour-over-beans-guide-batch-52` snapshot: 111 missing
+NL slots / 93 distinct strings, with 90 authored triples and three explicit
+external proper-name/title approvals. The two already passing German labels
+are reused exactly. New native routes are registered once for this previously
+unrouted guide; every existing route, including Dutch espresso dosing, is kept.
+
+All 1,814 source words, 58 paragraphs, seven visible and structured FAQ answers,
+the two comparison tables, scroll/mobile labels, metadata, source attribution
+and links are retained. Apollo remains a flavor-led choice without an invented
+specific cone recipe. Geometry retains Onyx's 25 g/400 g at 205°F and about
+1:16; Bella Donovan retains 27 g/350 g, 195–205°F and about 1:13. These different
+recipes are not converted into a tasting ranking. Variable components,
+unmeasured shelf life, no Coffeedant tasting/extraction measurement and no
+verified delivered-price ranking remain explicit. Original US facts and
+Fahrenheit values are retained in the native edition's source-market context;
+no local equivalent, converted price or offer is invented.
+
+The two new regressions pass within 186 localization tests and nine SEO tests.
+Static analytics, Finder 151 records / seven grinders, all 35 full bean reviews
+and 43-brand navigation pass without API requests. Whole-page preview,
+production and public verification remain required before calling this batch
+published. The intended new readiness is 105 complete indexable pages plus 404
+per edition; the unfinished cold-brew buying guide stays an English destination
+with the localized edition notice.
+
+The current source inventory stays at 658 canonical pages / 56,451 slots.
+New entries are NL/FR 111 each and DE 109, without changes to old text. Expected
+coverage is NL 12,119 translated / 44,332 pending, DE 12,214 / 44,237 and
+FR 12,144 / 44,307. There remain 167 non-watch and 385 watch pages pending.
+Full-edition flags remain false, and incremental publication continues.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
