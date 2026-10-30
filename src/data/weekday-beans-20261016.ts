@@ -293,9 +293,7 @@ const makeReview = (r:RecordData):BeanReviewData => ({
     {question:'What is ' + r.coffee + '?',answer:r.faqIdentity},
     {question:'What does ' + r.coffee + ' taste like?',answer:r.roaster + ' describes ' + r.notes + '. Coffeedant has not tasted this coffee.'},
     {question:'Which brewing method fits ' + r.coffee + '?',answer:r.faqBrew},
-    {question:'Which pack should I buy first?',answer:'Start with 12 oz, verify its roast date and your main recipe, then assess whether a larger bag would stay fresh at your use rate.'},
     {question:'Is the listed price guaranteed?',answer:'No. The US direct base for 12 oz was ' + r.price.split(' for ')[0] + ' on October 16, 2026; shipping, tax, promotions and stock can change.'},
-    {question:'Are the origin and notes fixed for future bags?',answer:'No guarantee. Check the current roaster page and delivered bag, especially for a rotating blend.'}
   ],
   sources:[
     {id:'s1',title:r.roaster + ': ' + r.coffee + ' product listing',href:r.official,note:'Exact current identity, notes, roast, components where available, sizes, brew and US direct base price.',checked:date},

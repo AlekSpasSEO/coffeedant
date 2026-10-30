@@ -267,8 +267,6 @@ const reviews:BeanReviewData[] = drafts.map((r)=>({
     {question:`Which brew method fits ${r.coffee}?`,answer:r.brewing[0].replace(/ \[\d+\]/g,'')},
     {question:'Are the origin and variety fixed?',answer:r.origin+' '+r.variety+' Check the delivered pack for current lot details.'},
     {question:'What package is pictured?',answer:r.imageCredit},
-    {question:'Is a displayed price guaranteed?',answer:'No. Confirm the exact whole-bean size, order mode, stock, shipping and tax in the live US cart.'},
-    {question:'How should I store it?',answer:'Check the roast date, seal opened whole beans away from air and heat, and grind shortly before brewing.'}
   ],
   sources:[
     {id:'s1',title:`${r.roaster} US: ${r.coffee}`,href:r.official,note:'Current exact product identity, roaster descriptions, formats and availability; checked October 22, 2026.',checked},

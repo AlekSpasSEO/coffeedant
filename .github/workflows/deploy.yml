@@ -26,7 +26,7 @@ jobs:
         run: npm run test:localization
       - name: Test Amazon deal discounts, availability and expiry
         run: npm run test:deals
-      - name: Test product-specific review openings and similarity safeguards
+      - name: Test product-specific review prose and similarity safeguards
         run: npm run test:review-originality
       - name: Build Cloudflare target
         run: CF_PAGES=1 npm run build
@@ -42,7 +42,7 @@ jobs:
         run: CF_PAGES=1 node scripts/validate-review-batch.mjs
       - name: Validate video library, provenance and new product coverage
         run: npm run validate:videos
-      - name: Validate Cloudflare review title and overview originality
+      - name: Validate Cloudflare review titles, openings and body originality
         run: npm run validate:review-originality
       - name: Validate Cloudflare legacy migration
         run: CF_PAGES=1 node scripts/validate-legacy-migration.mjs
@@ -54,8 +54,29 @@ jobs:
         run: CF_PAGES=1 npm run validate:coffee-finder
       - name: Validate Amazon catalog and Finder purchase links
         run: npm run validate:amazon-catalog
-      - name: Build published regional editions from fully translated pages
-        run: npm run build:regions
+      - name: Build regional editions or retain their release while translations are pending
+        shell: bash
+        run: |
+          set +e
+          node scripts/localization/bundle.mjs --check
+          regional_status=$?
+          if [ "$regional_status" -eq 0 ]; then
+            npm run build:regions
+            regional_status=$?
+          fi
+          set -e
+          if [ "$regional_status" -eq 42 ]; then
+            echo "::notice::Regional publication deferred: current translations are incomplete. Existing regional pages stay on the previous successful deployment; English checks continue."
+          elif [ "$regional_status" -ne 0 ]; then
+            exit "$regional_status"
+          fi
+      - name: Preserve regional publication readiness report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: regional-publication-readiness
+          path: .localization/regional-publication.json
+          if-no-files-found: ignore
       - name: Build GitHub Pages target
         run: npm run build
       - name: Validate GitHub Pages SEO parity
@@ -64,7 +85,7 @@ jobs:
         run: npm run validate:brand-navigation
       - name: Validate modern reviews
         run: node scripts/validate-review-batch.mjs
-      - name: Validate GitHub Pages review title and overview originality
+      - name: Validate GitHub Pages review titles, openings and body originality
         run: npm run validate:review-originality
       - name: Validate GitHub Pages Journal
         run: npm run validate:journal

@@ -35,7 +35,7 @@ for (const item of manifest) {
   if (!/Roasted On|roast date/i.test(visible)) errors.push(`${item.slug}: missing freshness guidance`);
   if (scope.filter((node) => node.tagName === 'img').length < 2) errors.push(`${item.slug}: missing credited hero or author image`);
   if (scope.filter((node) => node.tagName === 'article' && attr(node, 'class').includes('bean-faq')).length) errors.push(`${item.slug}: FAQ structure unexpectedly changed`);
-  if (scope.filter((node) => node.tagName === 'h3' && /\?/.test(text(node))).length < 6) errors.push(`${item.slug}: fewer than six visible FAQ questions`);
+  if (scope.filter((node) => node.tagName === 'h3' && /\?/.test(text(node))).length < 3) errors.push(`${item.slug}: fewer than three visible product-specific FAQ questions`);
   if (scope.filter((node) => node.tagName === 'li' && /^s\d+$/.test(attr(node, 'id'))).length < 7) errors.push(`${item.slug}: fewer than seven annotated sources`);
   const canonicalLink = nodes.find((node) => node.tagName === 'link' && attr(node, 'rel') === 'canonical');
   if (attr(canonicalLink, 'href') !== canonical) errors.push(`${item.slug}: incorrect canonical URL`);

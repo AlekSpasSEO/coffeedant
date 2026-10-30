@@ -24,6 +24,42 @@ const dim = (score: number, claim: string, consequence: string, signals: [string
   signals,
 });
 
+type ClassicCopy = Pick<UpgradeReviewProfile, 'setupNote' | 'espressoNote' | 'milkNote' | 'workflowNote' | 'ownerPattern' | 'maintenanceNote'>;
+const ownership: Record<string, ClassicCopy> = {
+  'gaggia-espresso-evolution-eg2115': {
+    setupNote: 'EG2115/01 is a compact 230 V entry machine, not a 58 mm Classic. Check the supplied holder, double-wall filters and cup clearance before buying a tamper or scale. Its 1.2 L tank removes from the side, so the narrow body still needs lateral access.',
+    espressoNote: 'The double-wall baskets and ESE option make Espresso Evolution less demanding of a separate fine-adjustment grinder than an open 58 mm Classic basket. The documented PID is internal assistance, not a user temperature menu. Memo volume can repeat a chosen setting; weighing the drink still shows what the coffee produced.',
+    milkNote: 'The plastic pannarello is intended to help introduce air while steaming. Coffee and milk remain separate stages. Check whether the chosen cup fits the low dispensing space before building a milk-drink routine around a tall mug.',
+    workflowNote: 'Backlit buttons and stored volume keep the controls simple. The trade is less feedback: there is no documented pressure gauge or temperature menu. Choose it for small-space, assisted entry espresso rather than as a cheap way into the Classic accessory and modification ecosystem.',
+    ownerPattern: 'Before ordering, request the exact included filter and holder details. A seller calling this a Gaggia PID machine does not establish Classic basket compatibility. Its light 3.7 kg body and side tank also deserve a hands-on counter-fit check if portafilter handling is the main concern.',
+    maintenanceNote: 'Use the EG2115 manual for its double-wall filters and pannarello. Do not copy a Classic backflush procedure merely because both machines carry the same brand. Keep side access clear so the small reservoir can be removed and washed without rearranging the station.',
+  },
+  'gaggia-classic-evo': {
+    setupNote: 'This route reviews the current North American E24 with a lead-free brass boiler. Confirm that description on the offered machine instead of accepting “Classic Evo” as a complete identity. Place the grinder and scale beside the 8 by 9.5 in footprint before deciding how much counter space the compact brewer saves.',
+    espressoNote: 'E24 pairs the 58 mm group with nine-bar OPV calibration and a three-way solenoid. It does not provide a factory PID or shot timer. Keep the warm-up and switch routine consistent, then use an external scale and timer to learn the grinder’s effect; the brass boiler does not automate recipe control.',
+    milkNote: 'The two-hole stainless wand makes milk a manual skill. Brewing and steaming share a small dual-use boiler, so make the coffee, raise the temperature for milk and follow the manual’s refill and return-to-brew sequence. Several cappuccinos expose this transition more than one occasional drink.',
+    workflowNote: 'Three rocker switches make the current E24 easy to understand but leave the owner responsible for timing. Its appeal is a traditional learning station whose separate grinder can be improved independently. If repeat milk rounds are the daily order, compare a dual boiler before paying for accessories and later wishing away the transition.',
+    ownerPattern: 'Ask the seller to identify the boiler generation and show both brewing and steaming. Much Classic advice refers to older aluminum-boiler units or modified machines. Establish the supplied E24’s stock behavior before deciding that a PID or other modification is necessary.',
+    maintenanceNote: 'The three-way solenoid provides the relevant hardware context for the E24 cleaning routine; use its own manual for the permitted backflush and group-care steps. Water treatment and immediate wand cleaning still matter with a brass boiler. Internal modifications are a different commitment from routine owner care.',
+  },
+  'gaggia-classic-evo-pro': {
+    setupNote: 'RI9380/46 here means the 2023 coated-aluminum Classic Evo Pro. Obtain the serial, original purchase record and any boiler-replacement documentation before comparing its price with a new E24. A photograph of the familiar Classic case cannot resolve the internal boiler history.',
+    espressoNote: 'The 58 mm format, nine-bar calibration and three-way solenoid provide a familiar manual brewing platform. Thermostats rather than a PID control the stock boiler. For a candidate used unit, a stable demonstrated brew routine and documented condition are more useful than an impressive extraction video with an unknown grinder.',
+    milkNote: 'RI9380/46 changes between coffee and steam temperature within one boiler. Ask to see the complete brew–steam–return sequence, because a machine sold after years of use needs more than a working pump demonstration. The manual wand offers direct texture control but no automated finishing.',
+    workflowNote: 'Rocker switches and manual shot stopping leave a simple interface with no temperature display. The buying complication is inside: this generation’s coated-boiler history must be documented. Treat the time and cost of inspection as part of the purchase instead of valuing it as an interchangeable E24.',
+    ownerPattern: 'Owner discussions about the 2023 boiler are a reason to request records, not a way to diagnose a particular unit remotely. Ask what boiler is fitted now, who performed any replacement and what seller protection applies. If those answers remain vague, the low asking price is not enough evidence.',
+    maintenanceNote: 'Match descaling and cleaning guidance to the boiler actually installed, including any documented replacement. Keep photographs and service invoices with the serial information. A used unit with uncertain internals should be assessed by competent service rather than subjected to a borrowed online cleaning recipe.',
+  },
+  'gaggia-classic-gt': {
+    setupNote: 'The GT is a 39 lb, 10.2 by 16.5 in dual-boiler station, not a slightly wider E24. Check lifting and rear-counter access before installation, and pair it with an espresso grinder. Begin with straightforward settings before adding volumetric stopping and low-flow pre-infusion choices.',
+    espressoNote: 'Separate PID control, an adjustable OPV, pressure feedback and low-flow pre-infusion give GT owners more tools to compare recipes. Change one control while keeping dose and beverage mass fixed. A programmable volume is useful for stopping a repeat drink, but it does not remove the reason to check output on a scale.',
+    milkNote: 'The separate 30.4 oz steam boiler allows milk to overlap brewing, unlike E24’s temperature-switching sequence. Its one-hole wand and four steam settings offer another adjustment to learn. Start with sequential tasks until the user can watch extraction and pitcher movement comfortably together.',
+    workflowNote: 'Five toggles and the 2.4 in TFT divide ordinary actions from deeper settings. GT earns its larger footprint when the household actually repeats milk drinks or changes brew temperature and pre-infusion. A single daily espresso does not exploit the same advantages over the simpler Classic.',
+    ownerPattern: 'Evaluate the complete two-drink routine and ask the seller to explain the selected pre-infusion and stop mode. GT has different boilers, controls and dimensions from the older Classic family, so a familiar brand-specific modification or replacement part should not be assumed to carry over.',
+    maintenanceNote: 'Care now covers independent brew and steam circuits as well as the wand and group. Follow GT instructions for cleaning and draining rather than an E24 checklist. Leave enough access around the heavier chassis that a full tray or reservoir can be handled without moving a hot machine.',
+  },
+};
+
 const makeProfile = (p: ClassicConfig): UpgradeReviewProfile => ({
   key: p.key,
   slug: p.slug,
@@ -79,16 +115,16 @@ const makeProfile = (p: ClassicConfig): UpgradeReviewProfile => ({
   identityBoundary: p.exactIdentity,
   primaryStrength: p.strength,
   primaryLimit: p.limit,
-  setupNote: 'Verify the rating plate and generation before use, wash removable food-contact parts, prime exactly as the manual directs, set up the grinder and scale, and allow the group and portafilter to warm beyond the first ready indication.',
-  espressoNote: `${p.brew} Start from a measured dose and beverage mass, distribute and tamp consistently, then change grind before chasing several variables at once.`,
-  milkNote: `${p.milk} Purge condensate, introduce air early, establish circulation, stop before overheating, then wipe and purge immediately.`,
-  workflowNote: `${p.controls} Count grinder work, warmup, puck preparation, extraction, steam transition or overlap, knock-out and cleanup.`,
-  buildNote: `${p.architecture} ${p.dimensions} Match every replacement part and service instruction to the exact serial, voltage and boiler generation.`,
-  featuresNote: `${p.controls} The useful controls are the ones that make pressure, temperature, dose and repeatability easier to manage, not drink names listed on a product page.`,
+  setupNote: ownership[p.key].setupNote,
+  espressoNote: ownership[p.key].espressoNote,
+  milkNote: ownership[p.key].milkNote,
+  workflowNote: ownership[p.key].workflowNote,
+  buildNote: `${p.architecture}. ${p.dimensions}.`,
+  featuresNote: p.controls,
   valueNote: `${p.priceLabel} was recorded as ${p.price}: ${p.priceContext}`,
-  ownerPattern: 'Owner discussions repeatedly cover grinder choice, temperature routine, steam transition, scale control, OPV behavior, modifications and exact-generation parts.',
-  ownerCaution: `Listings and owner posts often collapse Classic, Pro, Evo, E24 and GT. They are not interchangeable evidence, and anecdotes cannot establish a failure rate for ${p.sku}.`,
-  maintenanceNote: 'Backflush only where the exact manual permits it, clean the group and wand on schedule, use suitable water, and never treat an electrical or pressurized internal repair as routine cleaning.',
+  ownerPattern: ownership[p.key].ownerPattern,
+  ownerCaution: `The assessment is limited to ${p.sku}. ${p.limit}.`,
+  maintenanceNote: ownership[p.key].maintenanceNote,
   dimensions: {
     espresso: dim(p.rating[0], p.brew, 'The grinder and preparation routine decide whether the architecture becomes repeatable espresso.', [p.architecture, p.controls, 'Dose, grind, puck preparation, water and warmup remain user variables.']),
     milk: dim(p.rating[1], p.milk, 'Steam hardware must be judged with transition, recovery, texture control and cleanup.', [p.milk, p.architecture, 'Milk quantity, pitcher, tip cleanliness and technique change the result.']),
@@ -123,17 +159,15 @@ const makeProfile = (p: ClassicConfig): UpgradeReviewProfile => ({
     { kicker: 'Single-boiler PID', title: 'Profitec GO', text: 'Choose a factory PID and pressure display without moving to a dual boiler.', href: '/espresso-machine/profitec-go/', linkLabel: 'Read the Profitec GO review' },
   ],
   faqs: [
-    { question: `Which ${p.model} does this page cover?`, answer: p.exactIdentity },
-    { question: 'Does it include a grinder?', answer: 'No. A capable espresso grinder is part of the required station.' },
-    { question: 'Can it use pre-ground coffee?', answer: 'Yes, but repeatable non-pressurized espresso depends on fresh, suitably fine and adjustable grinding.' },
-    { question: 'Can it brew and steam simultaneously?', answer: p.model.includes('GT') ? 'Yes. Its separate brew and steam boilers support overlap.' : 'No. Brewing and steaming use one dual-use boiler in sequence.' },
-    { question: 'Is nine bar the same as the pump label?', answer: 'No. Pump capability and brew-pressure calibration describe different points in the hydraulic system.' },
-    { question: 'Should I install a modification immediately?', answer: 'Establish a safe stock baseline first. Modifications can affect warranty, electrical safety and diagnosis.' },
-    { question: `Is ${p.price} a permanent worldwide price?`, answer: `No. It is the dated ${p.priceLabel.toLowerCase()} context recorded September 23, 2026. Region, tax, stock, condition and warranty vary.` },
-    { question: 'How should I use owner reports?', answer: 'Use them to form inspection and service questions, never as a measured reliability rate.' },
+    { question: `What distinguishes this ${p.model} from adjacent Gaggias?`, answer: p.exactIdentity },
+    { question: `What does preparing milk on ${p.model} involve?`, answer: ownership[p.key].milkNote },
+    { question: `What should I inspect before buying ${p.model}?`, answer: ownership[p.key].ownerPattern },
+    { question: `Which controls does ${p.model} actually provide?`, answer: p.controls },
+    { question: `What boiler architecture is inside this ${p.model}?`, answer: p.architecture },
+    { question: `Which cleaning guidance applies to this generation?`, answer: ownership[p.key].maintenanceNote },
   ],
   finalTitle: `${p.model} earns its place only when the workflow fits`,
-  finalVerdict: [p.strength, `${p.limit} Verify the exact generation, budget for the grinder, and treat temperature, water and cleaning routines as part of the purchase.`],
+  finalVerdict: [p.strength, p.limit],
   video: { id: p.videoId, title: p.videoTitle, creator: p.videoCreator, published: p.videoDate, note: 'Independent visual workflow evidence. Current specifications, generation and price are verified separately.' },
 });
 

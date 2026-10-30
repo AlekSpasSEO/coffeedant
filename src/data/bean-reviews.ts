@@ -12,6 +12,7 @@ import beanRefreshes20261021 from './bean-refreshes-2026-10-21.json';
 import beanRefreshes20261022 from './bean-refreshes-2026-10-22.json';
 import beanRefreshes20261026 from './bean-refreshes-2026-10-26.json';
 import { internalHref } from './batch-review-builder';
+import { applyBeanDecision } from './bean-review-decisions';
 
 export type BeanReviewData = {
   slug: string; productId: string; roaster: string; coffee: string; title: string; description: string;
@@ -211,6 +212,6 @@ export const beanReviews: BeanReviewData[] = ([{
       checked: '2026-10-26',
     }],
   };
-});
+}).map(applyBeanDecision);
 
 export const getBeanReview = (slug: string) => beanReviews.find((review) => review.slug === slug);

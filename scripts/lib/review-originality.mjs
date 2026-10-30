@@ -26,6 +26,105 @@ export function orderedWordOverlap(a,b) {
   for(let i=1;i<=left.length;i++) {let previous=0;for(let j=1;j<=right.length;j++){const old=row[j];row[j]=left[i-1]===right[j-1]?previous+1:Math.max(row[j],row[j-1]);previous=old;}}
   return 2*row[right.length]/(left.length+right.length);
 }
+
+// Dedicated methodology and source sections are omitted by the HTML reader. These
+// narrowly scoped sentences may also appear beside a rating without being review
+// advice. Do not exempt a paragraph just because it contains one disclaimer.
+const disclosureSentence = /^(?:Coffeedant (?:has not|did not|does not) (?:physically )?(?:test|tested|taste|tasted|brew|brewed|measure|measured)\b|This (?:is a research-led|review is research-led|score is an editorial judgment)|Scores (?:are|describe) (?:editorial judgments|the documented)|(?:Self-selected )?Owner (?:reports|discussions) (?:are not|cannot establish|do not establish)|(?:It is|These are) not (?:a |)Coffeedant (?:bench |lab |)measurements?)/i;
+const sentences = value => String(value).match(/[^.!?]+(?:[.!?]+|$)/g) ?? [];
+const editorialText = value => sentences(value)
+  .map(sentence => sentence.trim())
+  .filter(sentence => !disclosureSentence.test(sentence))
+  .join(' ');
+
+export function extractReviewBodyParagraphs(article) {
+  const attr = (node, key) => node?.attrs?.find(item => item.name === key)?.value;
+  const hasClass = (node, value) => (attr(node, 'class') ?? '').split(/\s+/).includes(value);
+  const descendants = node => node ? [node, ...(node.childNodes ?? []).flatMap(descendants)] : [];
+  const text = node => ['blockquote','q'].includes(node?.tagName) ? '' : (node?.nodeName === '#text' ? node.value : (node?.childNodes ?? []).filter(child => !(child.tagName === 'a' && /^\[(?:source|\d+)\]$/.test((child.childNodes ?? []).map(item => item.value ?? '').join('').trim()))).map(text).join(' ')).replace(/\s+/g, ' ').trim();
+  const omittedSections = new Set(['ratings','video','methodology','sources']);
+  const omittedClasses = ['review-source-list','review-buy-actions','review-section-heading','review-score-card','review-rating-card','review-community-evidence','review-community-embed'];
+  const result = [];
+  const visit = (node, section = '') => {
+    if (!node || ['script','style','nav','table','blockquote','q','figure','figcaption'].includes(node.tagName)) return;
+    if (node.tagName === 'section') {
+      section = attr(node, 'id') ?? section;
+      if (omittedSections.has(section)) return;
+    }
+    if (omittedClasses.some(name => hasClass(node, name)) || (node.attrs ?? []).some(item => item.name === 'data-amazon-recommendation' || item.name === 'data-coffee-finder')) return;
+    if (node.tagName === 'p' || (node.tagName === 'li' && !descendants(node).some(child => child !== node && ['p','li'].includes(child.tagName)))) {
+      const value = text(node);
+      if (value) result.push({ section, text: value });
+      return;
+    }
+    for (const child of node.childNodes ?? []) visit(child, section);
+  };
+  visit(article);
+  return result;
+}
+
+function checkBodyOriginality(documents, normalize) {
+  const shingleSize = 14;
+  const passages = new Map();
+  const paragraphs = new Map();
+  const bodyDocuments = documents.map(review => {
+    let offset = 0;
+    const blocks = (review.paragraphs ?? []).map((paragraph, index) => {
+      const source = typeof paragraph === 'string' ? { text: paragraph } : paragraph;
+      const tokens = words(normalize(editorialText(source.text)));
+      const block = { text: source.text, section: source.section ?? '', index, tokens, offset };
+      offset += tokens.length;
+      return block;
+    }).filter(block => block.tokens.length >= shingleSize);
+    return { slug: review.slug, blocks, totalWords: offset, reused: new Set() };
+  });
+  for (const review of bodyDocuments) for (const block of review.blocks) {
+    if (block.tokens.length >= 30) {
+      const key = block.tokens.join(' ');
+      if (!paragraphs.has(key)) paragraphs.set(key, []);
+      paragraphs.get(key).push({ slug: review.slug, section: block.section, text: block.text, words: block.tokens.length });
+    }
+    for (let index = 0; index <= block.tokens.length - shingleSize; index++) {
+      const phrase = block.tokens.slice(index, index + shingleSize).join(' ');
+      if (!passages.has(phrase)) passages.set(phrase, []);
+      passages.get(phrase).push({ slug: review.slug, section: block.section, offset: block.offset + index, review });
+    }
+  }
+  const repeatedParagraphs = [...paragraphs].flatMap(([normalized, occurrences]) => {
+    const distinct = [...new Map(occurrences.map(item => [item.slug, item])).values()];
+    return distinct.length < 2 ? [] : [{
+      kind: 'body-paragraph', normalized, text: distinct[0].text,
+      words: distinct[0].words, reviews: distinct.length,
+      locations: distinct.map(({ slug, section }) => ({ slug, section })),
+    }];
+  }).sort((a, b) => b.reviews - a.reviews || b.words - a.words);
+  // Merge adjacent shingles occurring in the same reviews. A template paragraph
+  // should produce one actionable finding, rather than hundreds of noisy errors.
+  const groups = new Map();
+  for (const [phrase, occurrences] of passages) {
+    const slugs = [...new Set(occurrences.map(item => item.slug))].sort();
+    if (slugs.length < 2) continue;
+    for (const occurrence of occurrences) for (let i = 0; i < shingleSize; i++) occurrence.review.reused.add(occurrence.offset + i);
+    if (slugs.length < 5) continue;
+    const key = slugs.join('\n');
+    if (!groups.has(key)) groups.set(key, { reviews: slugs.length, phrases: [], locations: [...new Map(occurrences.map(({ slug, section }) => [slug, { slug, section }])).values()] });
+    groups.get(key).phrases.push(phrase);
+  }
+  const widespreadBodyPassages = [...groups.values()].map(group => ({
+    ...group, phraseCount: group.phrases.length, phrases: group.phrases.slice(0, 4),
+  })).sort((a, b) => b.reviews - a.reviews || b.phraseCount - a.phraseCount);
+  const bodyReuse = bodyDocuments.filter(review => review.totalWords).map(review => ({
+    slug: review.slug, words: review.totalWords, reusedWords: review.reused.size,
+    ratio: Math.round(review.reused.size / review.totalWords * 1000) / 1000,
+  })).sort((a, b) => b.ratio - a.ratio);
+  const errors = [];
+  const longParagraphs = repeatedParagraphs.filter(paragraph => paragraph.words >= 60);
+  if (longParagraphs.length) errors.push(`${longParagraphs.length} editorial paragraphs of sixty or more words repeat across different reviews after removing names; see repeatedParagraphs in the originality report.`);
+  if (widespreadBodyPassages.length) errors.push(`${widespreadBodyPassages.length} groups of fourteen-word editorial passages recur in five or more review bodies; remove shared padding or write product-specific advice (see report locations).`);
+  for (const review of bodyReuse) if (review.reusedWords >= 120 && review.ratio >= .35) errors.push(`${review.slug}: ${Math.round(review.ratio * 100)}% of article words occur in passages shared with other reviews (${review.reusedWords}/${review.words}); review the copied body prose.`);
+  return { errors, repeatedParagraphs, widespreadBodyPassages, bodyReuse };
+}
+
 export function checkReviewOriginality(reviews) {
   const normalize=identityNormalizer(reviews),errors=[],warnings=[],matches=[];
   const documents=reviews.map(review=>({...review,hook:words(normalize(review.title.replace(/^.*?\breview\b\s*:?\s*/i,''))),opening:words(normalize(review.overview))}));
@@ -52,5 +151,11 @@ export function checkReviewOriginality(reviews) {
   }
   const widespreadPhrases=[...phrases].filter(([,slugs])=>slugs.length>=10);
   if(widespreadPhrases.length)errors.push(`${widespreadPhrases.length} phrases of eight words recur in ten or more opening overviews; write product-specific prose.`);
-  return {reviews:reviews.length,errors,warnings,matches,widespreadPhrases};
+  const body = checkBodyOriginality(documents, normalize);
+  errors.push(...body.errors);
+  return {reviews:reviews.length,errors,warnings,matches,widespreadPhrases,
+    repeatedParagraphs: body.repeatedParagraphs,
+    widespreadBodyPassages: body.widespreadBodyPassages,
+    bodyReuse: body.bodyReuse,
+  };
 }

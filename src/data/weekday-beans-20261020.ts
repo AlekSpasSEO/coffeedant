@@ -249,9 +249,6 @@ const reviews: BeanReviewData[] = beans.map((r) => ({
     {question:`What exactly is ${r.coffee}?`,answer:r.identity[0].replace(/ \[\d+\]/g,'')},
     {question:`What does ${r.coffee} taste like?`,answer:`${r.roaster} lists ${r.notes}. Coffeedant has not tasted this coffee; your bag and recipe may differ.`},
     {question:`Can I use ${r.coffee} for espresso?`,answer:r.brew[0].replace(/ \[\d+\]/g,'')},
-    {question:'Which bag size should I try first?',answer:`Check the live selector and begin with its smaller whole-bean pack. Listed options at this check: ${r.sizes}.`},
-    {question:'Is the listed price or stock guaranteed?',answer:'No. Price and availability must be checked at the current seller checkout; no discount or future price is claimed.'},
-    {question:'How should I handle freshness?',answer:'Check the delivered roast date, seal opened whole beans away from air and heat, and buy a size you can use while the flavor suits you.'}
   ],
   sources:[
     {id:'s1',title:`${r.roaster}: ${r.coffee} product listing`,href:r.official,note:'Exact identity, current roast, notes, origin scope, formats and any seller price or stock ambiguity.',checked:date},
