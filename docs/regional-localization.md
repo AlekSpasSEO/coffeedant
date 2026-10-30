@@ -2695,6 +2695,41 @@ The source inventory remains 658 canonical pages / 56,451 slots. This import add
 44,509 pending, DE 12,039 / 44,412, FR 11,967 / 44,484. There are 169 non-watch
 pages and 385 watch pages still pending; all full-edition flags remain false.
 
+### Direct batch 51: Sermon and the complete current bean-review inventory (2026-10-30)
+
+This batch directly translates the complete Verve Sermon review into Netherlands
+Dutch, Germany German and France French. The frozen
+`sermon-bean-review-batch-51` snapshot contains 66 missing slots / 53 distinct
+strings, covered by 49 authored triples and four proper-name approvals. The
+entire article contains 1,548 source words, 46 paragraphs and seven FAQ answers
+per edition; metadata, accessibility, image attribution and source notes are
+included. All three pre-existing regional Sermon URLs remain unchanged, as does
+the approved Dutch espresso-dosing URL.
+
+The translation preserves the current Colombia/East Africa blend description,
+natural versus washed component distinction, variable future origins, the
+12 oz versus 6 oz selection, larger 2.2 lb and 5 lb packs, two-business-day
+shipping attribution and theoretical nineteen 18 g doses. Older recipes and
+component percentages are not presented as current specifications. Fruit notes
+remain attributed; the page explicitly retains no Coffeedant tasting, no
+universal espresso recipe and no verified delivered US price or local offer.
+
+Previously passing wording is reused. No old translation text, registered route,
+source article, prior snapshot or commerce configuration is changed. The two
+new regressions pass with all 184 localization tests and nine SEO tests;
+static analytics, all 35 bean reviews, Finder 151 records / seven grinders and
+43-brand navigation also pass without API requests.
+
+Whole-page preview, production and public deployment verification must pass
+before treating this batch as published. The intended new readiness is 104
+complete indexable pages plus 404 per edition and all 35 current full bean
+reviews; the two unfinished bean buying guides remain English destinations.
+The source inventory remains 658 canonical pages / 56,451 slots. This batch
+adds 66 entries per edition: NL 12,008 translated / 44,443 pending,
+DE 12,105 / 44,346, FR 12,033 / 44,418. There remain 168 non-watch and 385 watch
+pages pending. Complete-edition flags remain false; incremental publication and
+the continuation stay enabled.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
