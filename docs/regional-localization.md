@@ -2852,6 +2852,48 @@ each. There remain 166 non-watch and 385 watch pages incomplete. All
 full-edition flags remain false; incremental publishing and continuation stay
 enabled for the rest of the site.
 
+### Direct batch 55: complete grinder-free espresso station guide (2026-10-30)
+
+The full `/espresso-machine/without-grinder/` guide is directly completed for
+NL/DE/FR using `no-grinder-espresso-guide-batch-55`: 139 missing slots /
+124 distinct strings, covered by 119 authored triples and five explicit
+measurement/proper-name approvals. Existing German registration
+`/espresso-maschine/ohne-mahlwerk/` is retained. New native registrations are
+`/espressomachines/zonder-molen/` and
+`/machines-expresso/sans-broyeur/`. All other URLs, including Dutch espresso
+dosing, remain unchanged.
+
+Passing cached wording completes the reusable parts of the entire 5,958-word,
+163-paragraph guide; the eight visible/structured FAQ answers, two comparison
+tables, four product schematics, owner evidence, milk/cleaning routines,
+video labels, source notes, accessibility and metadata are preserved. The
+grinder's dry purge remains distinct from rinsing; water must stay away from
+the burrs. Manufacturer photographs and conceptual schematics do not become
+Coffeedant tests or repair diagrams.
+
+US model and generation bounds remain explicit: BES500 versus BES450, the
+original Profitec GO versus GO 2.0, North American Classic Pro E24, and
+PL92T/PL92T-120 versus the separate Elizabeth3 PL92T3. The latter's US rollout
+and price remain unconfirmed in the source. UK Sage video experience is not
+transferred to US specifications. Original dollar prices and check dates stay
+historical US observations, not converted local offers. Boiler capacities are
+not promised milk batches; cleaning and descaling are not interchangeable.
+The existing unverified local budget-filter treatment remains in effect.
+
+All 193 localization tests and nine SEO tests pass, as do static analytics,
+Finder 151 records / seven grinders, all 35 bean reviews and 43-brand
+navigation. All three complete previews pass; production and public checks
+are required before treating the batch as live. There are no old text changes.
+The import adds 141 current entries per edition: the 139 frozen slots plus two
+matching JSON slots reused across source kinds.
+
+Current readiness is 108 complete indexable pages plus 404 per edition. All
+35 bean reviews, eight bean guides and their hub remain ready. Source inventory
+stays 659 canonical pages / 56,563 slots. NL has 12,477 translated / 44,086
+pending; DE/FR each have 12,502 / 44,061. There remain 165 non-watch and 385
+watch pages incomplete. No full-edition flag is set complete; incremental
+publication and continuation remain enabled.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
