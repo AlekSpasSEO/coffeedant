@@ -11,6 +11,8 @@ import ReviewPerformanceDetail from './ReviewPerformanceDetail.astro';
 import AmazonTopSellerBanner from './AmazonTopSellerBanner.astro';
 import ProductVideo from '../ProductVideo.astro';
 import { getProductVideos, videoSchema } from '../../lib/product-videos';
+import legacyReviewAnchors from '../../data/legacy-review-anchors.json';
+import { getReviewAnchorAliases } from '../../lib/review-anchors.mjs';
 
 const { review } = Astro.props as { review: MachineReviewData };
 const selectedVideo = getProductVideos(review.slug)[0];
@@ -18,6 +20,7 @@ const reviewRoute = getReviewRouteDefinition(review.slug);
 if (!reviewRoute) throw new Error(`${review.slug} is not a canonical modern review route.`);
 const amazonBannerContext = reviewRoute.family;
 const sections = review.article.sections;
+const anchorAliases = getReviewAnchorAliases(review, (legacyReviewAnchors as Record<string, Record<string, string>>)[review.slug] ?? {});
 const performanceIndex = sections.findIndex((section) => section.id === 'espresso');
 const grinderBannerIndex = performanceIndex >= 0 ? performanceIndex : Math.min(2, sections.length - 1);
 const workflowIndex = sections.findIndex((section, index) => section.id === 'workflow' && index > grinderBannerIndex);
@@ -133,7 +136,7 @@ const schema = {
       <a href={`${base}${reviewRoute.basePath.replace(/^\//, '')}`}>{reviewRoute.breadcrumbLabel}</a><span aria-hidden="true">/</span>
       <span aria-current="page">{review.model}</span>
     </nav>
-    <ReviewSummary review={reviewWithPurchaseLinks} />
+    <ReviewSummary review={reviewWithPurchaseLinks} anchorAliases={anchorAliases} />
     <section class="quick-answer-panel" aria-labelledby="quick-answer-title">
       <header class="quick-answer-heading"><p class="review-overline">At a glance</p><h2 id="quick-answer-title">Before you choose</h2></header>
       <dl class="quick-answer-grid">
@@ -145,10 +148,11 @@ const schema = {
       <span>In this review</span><div>{jumpLinks.map((link) => <a href={`#${link.id}`}>{link.label}</a>)}</div>
     </nav>
     <article class="review-article" aria-label={`${review.brand} ${review.model} full review`}>
-      <ReviewRatings evaluation={review.evaluation} productName={`${review.brand} ${review.model}`} />
+      <ReviewRatings evaluation={review.evaluation} productName={`${review.brand} ${review.model}`} anchorAliases={anchorAliases.ratings ?? []} />
       {review.article.sections.map((section, index) => (
         <Fragment>
           <section class="review-section" id={section.id} aria-labelledby={`${section.id}-title`}>
+            {(anchorAliases[section.id] ?? []).map(alias => <span id={alias} class="review-anchor-alias" data-legacy-anchor-target={section.id} aria-hidden="true"></span>)}
             <header class="review-section-heading">
               <p class="review-overline"><span class="review-section-number">{String(index + 2).padStart(2, '0')}</span>{section.eyebrow}</p>
               <h2 id={`${section.id}-title`}>{section.title}</h2>
@@ -239,6 +243,7 @@ const schema = {
       </section>}
       <section class="review-section review-methodology" id="methodology" aria-labelledby="methodology-title">
         <span id="testing" class="review-anchor-alias" aria-hidden="true"></span>
+        {(anchorAliases.methodology ?? []).map(alias => <span id={alias} class="review-anchor-alias" data-legacy-anchor-target="methodology" aria-hidden="true"></span>)}
         <header class="review-section-heading"><p class="review-overline">Why I trust the verdict</p><h2 id="methodology-title">What the evidence lets me say with confidence</h2></header>
         <div class="review-section-body">
           {review.article.methodology.trim().startsWith('<') ? <Fragment set:html={review.article.methodology} /> : <p>{review.article.methodology}</p>}
@@ -246,6 +251,7 @@ const schema = {
       </section>
       <section class="review-section" id="sources" aria-labelledby="sources-title">
         <span id="resources" class="review-anchor-alias" aria-hidden="true"></span>
+        {(anchorAliases.sources ?? []).map(alias => <span id={alias} class="review-anchor-alias" data-legacy-anchor-target="sources" aria-hidden="true"></span>)}
         <header class="review-section-heading"><p class="review-overline">Check the evidence</p><h2 id="sources-title">Sources and further reading</h2></header>
         <div class="review-section-body">
           <ol class="review-source-list">
@@ -255,6 +261,7 @@ const schema = {
         </div>
       </section>
       <section class="final-verdict" id="verdict" aria-labelledby="final-verdict-title">
+        {(anchorAliases.verdict ?? []).map(alias => <span id={alias} class="review-anchor-alias" style="position:static;display:block;width:0;height:0" data-legacy-anchor-target="verdict" aria-hidden="true"></span>)}
         <p class="review-overline">The buying decision</p><h2 id="final-verdict-title">{review.article.finalTitle}</h2>
         {review.article.finalVerdict.map((paragraph) => <p>{paragraph}</p>)}
         {primaryOffer && <a class="review-buy-button review-buy-button-dark" href={primaryOffer.href} target="_blank" rel={primaryOffer.affiliate ? 'nofollow sponsored noopener' : 'noopener'}>{primaryOffer.label} <span aria-hidden="true">↗</span></a>}

@@ -8,6 +8,16 @@ export const prepareRegionalDocument = (document) => {
   const canonical = walk(document).find((node) => node.tagName === 'link' && attr(node, 'rel') === 'canonical');
   const policy = /^https:\/\/(?:www\.)?coffeedant\.com\/(?:privacy-policy|tos)\/$/.test(attr(canonical ?? {}, 'href') ?? '');
   for (const node of walk(document)) {
+    // Finder snapshots are generated from the catalog, not authored article
+    // copy. Regional builds restore them from localized, offer-safe data after
+    // translation, without indexing US prices or new duplicate text segments.
+    if (attr(node, 'data-finder-initial') !== undefined) {
+      node.childNodes = []; setAttr(node, 'aria-busy', 'true');
+    }
+    const finderInitialText = attr(node, 'data-finder-initial-count') !== undefined ? 'Loading the catalog…'
+      : attr(node, 'data-finder-initial-sync') !== undefined ? 'Re-indexed every two weeks' : null;
+    if (finderInitialText !== null) node.childNodes = [{ nodeName: '#text', value: finderInitialText, parentNode: node }];
+    if (attr(node, 'data-finder-empty') !== undefined || attr(node, 'data-finder-more') !== undefined) setAttr(node, 'hidden', '');
     // The US build may already contain the generated language chooser. Regional
     // builds recreate it from their actual release routes and locale; it is not
     // authored source copy and must not be indexed or rendered a second time.
