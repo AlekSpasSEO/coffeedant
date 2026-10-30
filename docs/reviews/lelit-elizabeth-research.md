@@ -1,5 +1,29 @@
 # Lelit Elizabeth PL92T research dossier
 
+## October 30, 2026 evidence revision
+
+The review remains a research-led assessment of PL92T-120 at `/espresso-machine/lelit-elizabeth/`, product ID `CD-EM-000001`. Coffeedant has not physically tested, timed, tasted or measured either Elizabeth generation. The editorial scores remain unchanged. Earlier check dates below are historical; this revision does not imply that every old claim was rechecked on October 30. See the [October 30 change and evidence ledger](lelit-elizabeth-2026-10-30.md).
+
+### Current US offer and model identity
+
+On October 30, the [Lelit US listing](https://www.lelit.com/en-us/product/elizabeth-pesel01) and [Clive listing](https://clivecoffee.com/products/lelit-elizabeth-dual-boiler-espresso-machine) both displayed $1,799.95 for the established Elizabeth. This is a dated observation, not a future checkout guarantee. The reviewed PL92T must be distinguished from [Elizabeth3 PL92T3](https://www.lelit.com/product/elizabeth3-pl92t3/); no official V4 identity was verified. Informal V2/V3/V4 labels do not establish a delivered machine's hardware, firmware or electrical configuration.
+
+### Operating documents and revision conflicts
+
+The manufacturer-authored [2021 REV00 extended guide](https://www.maxicoffee.com/images/pdf/TECH_PL92T_ELIZABETH_extended_guide_2021_REV00.pdf), printed pages 15 and 20–21, describes timed shot stopping, BLS1/2 steam-assisted preinfusion and BLP1/2 bloom timing. EVS and steam-boiler state affect mode selection. Its three- and seven-second examples explain programming; they are not Coffeedant recipes or measured optimums.
+
+The [older manual hosted by Clive](https://links.imagerelay.com/cdn/2615/ql/a9eab104e81b45f2bd5546efbdd445a9/Lelit-Elizabeth-User-Manual.pdf), printed pages 17–18, says preinfusion is unavailable with the steam boiler off. That conflicts with the later guide's bloom instructions. Older dimensions and weight also differ from the current manufacturer record. Use the exact unit's documentation and firmware; do not combine incompatible instructions or silently replace one revision's specifications with another's.
+
+### Firsthand findings and their limits
+
+| Evidence | Supported finding | Publication boundary |
+| --- | --- | --- |
+| [Kaffeemacher PL92T test](https://kaffeemacher.de/en/blogs/kaffeewissen/lelit-elizabeth) | Factory-setting measurements support at least 20 minutes of warm-up. Its early-session +2°C adjustment belongs to that sample. | The article excludes Pagaia; its exact electrical variant and firmware are unspecified. Do not prescribe the offset for every US unit. |
+| Same Kaffeemacher test | Its steam-off energy run lasted 15 minutes and was not fully warm. | This is not a complete ready-to-drink energy comparison or a basis for projected household savings. The update date does not establish the collection date of every measurement. |
+| [CoffeeKev firsthand comparison](https://coffeeblog.co.uk/lelit-elizabeth-review/) | Its older non-Pagaia machine heated 170 ml of milk to 60°C in approximately 24–25 seconds at maximum steam temperature; the compared Sage took 25–27 seconds. | Starting milk temperature, repetition count and uncertainty are undisclosed. This does not establish a universal speed advantage, recovery capacity or PL92T-120 result. |
+
+The useful distinction is between first-cup warm-up, one-pitcher speed and repeated-drink steam reserve. Do not present them as interchangeable measurements. Owner discussions remain self-selected inspection leads: they do not establish failure rates, a universal first-shot fault or the reliability of PL92T3. The linked video remains third-party evidence; no new quantitative finding is inferred from its metadata.
+
 ## October 17, 2026 revision
 
 Replaced espresso, milk, workflow and generation-summary copy with a controlled preinfusion comparison, timed-button output check, two-person order and three practical pro tips. PL92T-120 identity, research-led basis and scores remain. Credited manufacturer media replaces generic community imagery. Official, independent and community sources, limits and competitive context are recorded in [the batch evidence ledger](priority-review-upgrades-2026-10-17.md). No owner timing or first-shot complaint is converted into a universal result. Controlled thermometry, service incidence and exact household throughput remain unknown.

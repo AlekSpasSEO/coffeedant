@@ -1,7 +1,7 @@
 import type { MachineReviewData, ReviewDimensionId } from '../reviews';
 import { comparisonTablesHtml, internalHref, recommendationCardsHtml } from '../batch-review-builder';
 
-// Applied after dated factual refreshes. These six edits replace stock copy;
+// Applied after dated factual refreshes. These product-specific edits replace stock copy;
 // they do not change product identity, evidence basis or editorial scores.
 type SectionEdit = { title: string; html: string };
 type Upgrade = {
@@ -20,58 +20,6 @@ const link = (slug: string, label: string) => `<a href="${internalHref(slug)}">$
 const tip = (title: string, text: string) => `<aside class="review-pro-tip"><h3>Pro tip: ${title}</h3><p>${text}</p></aside>`;
 
 const upgrades: Record<string, Upgrade> = {
-  '/espresso-machine/lelit-elizabeth/': {
-    productId: 'CD-EM-000001',
-    title: 'Lelit Elizabeth review: two drinks, two preinfusion choices',
-    description: 'Lelit Elizabeth PL92T review: timed shots, steam and bloom preinfusion, two-drink workflow, ownership and the separate PL92T3 successor explained.',
-    sections: {
-      espresso: {
-        title: 'Choose a preinfusion mode before chasing a longer shot time',
-        html: `<p>Elizabeth's most useful coffee feature is the ability to approach the first seconds of extraction in different ways. Steam-assisted preinfusion wets the coffee under low pressure from the steam system. Bloom preinfusion instead introduces water, pauses, then resumes pumping. They are different experiments, and the steam boiler's operating state matters. Check the extended guide and firmware before copying a button sequence. ${ref('priority-elizabeth-guide', 'priority-elizabeth-kev')}</p>
-          <p>Begin with one bean, a dose suited to the supplied basket and a weighed output. Use a simple recipe without adding a long pause, establish a grind that tastes reasonable, then compare one preinfusion change at the same dose and beverage mass. Record whether your timer includes wetting and soaking. A 35-second recipe with a pause cannot be judged against a 25-second continuous extraction by the clock alone.</p>
-          <p>Do not confuse the two programmable coffee buttons with gravimetric dosing. The PL92T stops on time; it cannot recognize that yesterday's grind now produces more liquid. Recheck the cup on a scale after changing beans, grind or preinfusion. The pressure gauge is useful context, but a particular needle position does not prove even extraction or a sweeter drink.</p>
-          ${tip('keep one button as your reference', 'Once a straightforward recipe tastes good, leave one brew button unchanged and use the other for experiments. Write down both settings before changing advanced menus. Returning to a known recipe is much more useful than trying to remember which of several simultaneous changes improved the cup.')}
-          <p>If the first shot differs from the second, repeat the same warm-up and flush routine before changing grind. Owner reports do not establish a universal pressure fault; persistent deviations need seller support. ${ref('priority-elizabeth-owners')}</p>`,
-      },
-      milk: {
-        title: 'Make two flat whites without turning simultaneous steaming into a juggling act',
-        html: `<p>The separate 600 ml steam boiler lets the PL92T brew while you texture milk. That removes the brew-to-steam temperature change of a single boiler; it does not remove dosing, tamping or cleaning. The established machine uses an insulated multidirectional wand with a two-hole tip. Its value is especially clear when the household repeats two milk drinks rather than making one occasional cappuccino. ${ref('priority-elizabeth-product')}</p>
-          <p>For the first few sessions, brew and steam consecutively even though the machine permits overlap. Find a stable pitcher position, add a little air early and then concentrate on a rolling milk surface. Once that movement is repeatable, begin steaming during extraction while keeping the scale and stop button in view. Close the steam valve before removing the pitcher, then wipe and purge promptly.</p>
-          ${tip('prepare the second dose before starting the first drink', 'Set out both cups, weigh the second dose into a separate dry container and fill the pitcher before brewing. Keep the second basket dry until it is needed. This removes a preparation bottleneck without leaving a loaded portafilter heating in the group while the first drink is finished.')}
-          <p>If a larger jug loses the rolling movement or steam pace drops, reduce the fill and let the boiler recover. The 600 ml specification is boiler capacity, not a promised continuous milk batch.</p>
-          <p>If you rarely steam, the ${link('/espresso-machine/profitec-go/', 'original Profitec GO')} may cover the espresso requirement with a smaller station. If two milk drinks are the daily baseline, Elizabeth's separate steam circuit is a more meaningful upgrade than an extra menu option.</p>`,
-      },
-      workflow: {
-        title: 'A repeatable two-person morning, from warm-up to an empty tray',
-        html: `<ol><li><strong>Before grinding:</strong> check tank level, clear the tray, heat the fitted portafilter and warm the cups. Use the same starting routine each morning.</li>
-          <li><strong>First drink:</strong> dry the basket, prepare the puck, start the chosen timed button and watch beverage mass. Add simultaneous steaming only when you can stop both jobs comfortably.</li>
-          <li><strong>Second drink:</strong> knock out and rinse the basket, dry it, prepare the second dose and repeat. There is no single-boiler steam-to-brew cooling step between the two.</li>
-          <li><strong>Finish:</strong> wipe and purge the wand, clean the group as directed, put milk away and empty rinse water before carrying a full tray.</li></ol>
-          ${tip('check tank access with cups on the warmer', 'Measure the clearance needed to lift the tank cover and handle the fill container under your actual cabinet. A machine that fits its published footprint can still force you to remove warm cups or slide a hot station forward. Make that reach part of the buying decision, not a surprise after delivery.')}
-          <p>The LCC can manage automatic purge, steam-boiler enablement and standby, but those settings should simplify an already understood routine. Extra flushing changes both thermal history and tray fill. Keep it consistent while diagnosing a recipe; reducing every flush to save water can change the experiment you thought you were repeating.</p>
-          <p>Elizabeth is strongest when one person wants shot experimentation and the household also needs milk drinks. For a more switch-led dual boiler with volumetric stopping, compare the ${link('/espresso-machine/gaggia-classic-gt/', 'North American Classic GT')}. For the established Lelit, check the PL92T model plate; the newer Elizabeth3 PL92T3 has a separate feature set.</p>`,
-      },
-      features: {
-        title: 'PL92T3 is a different machine, not a free firmware upgrade',
-        html: `<p>The PL92T reviewed here has timed buttons, LCC settings and two preinfusion approaches. It does not have Pagaia flow control, line-pressure preinfusion, plumbing or beverage weighing.</p><p>Lelit's separate Elizabeth3 PL92T3 record adds Pagaia, a new heated group, a 200 ml coffee boiler, programmable multistep profiles and a three-hole steam tip. Do not buy PL92T stock expecting those additions, and do not transfer PL92T3 recipes to the older controls.</p><p>Choose the established model when two-boiler milk service and its documented LCC controls already cover your routine. Verify the successor's regional stock, price, manual and support separately before making it a purchase comparison.</p>`,
-      },
-      recommendations: {
-        title: 'Choose the controls that fit your daily order',
-        html: recommendationCardsHtml([
-          { kicker: 'Espresso first', title: 'Profitec GO', text: 'Compare factory PID feedback when milk is occasional.', href: '/espresso-machine/profitec-go/', linkLabel: 'Read the GO review', featured: true },
-          { kicker: 'Rancilio dual boiler', title: 'Silvia Pro X', text: 'Compare its steam reserve and simpler infusion routine.', href: '/espresso-machine/rancilio-silvia-pro-x/', linkLabel: 'Read the Pro X review' },
-          { kicker: 'Programmable brewing', title: 'Breville Dual Boiler', text: 'Compare recipe flexibility and local appliance support.', href: '/espresso-machine/breville-dual-boiler-bes920xl/', linkLabel: 'Read the Dual Boiler review' },
-          { kicker: 'Flow and plumbing', title: 'Lelit Bianca V3', text: 'Compare manual paddle control and a rotary pump.', href: '/espresso-machine/lelit-bianca-pl162t/', linkLabel: 'Read the Bianca review' },
-        ]),
-      },
-    },
-    sources: [
-      { id: 'priority-elizabeth-product', label: 'Lelit: established Elizabeth PL92T', href: 'https://www.lelit.com/product/elizabeth-pl92t/', note: 'Official boiler, control and physical specifications; PL92T rather than PL92T3. Rechecked October 17, 2026.' },
-      { id: 'priority-elizabeth-guide', label: 'Lelit PL92T extended technical guide', href: 'https://www.maxicoffee.com/images/pdf/TECH_PL92T_ELIZABETH_extended_guide_2021_REV00.pdf', note: 'Manufacturer-authored extended LCC guide, hosted by a retailer. Check firmware before applying advanced settings.' },
-      { id: 'priority-elizabeth-kev', label: 'Coffee Kev: Elizabeth hands-on review', href: 'https://coffeekev.com/lelit-elizabeth-review/', note: 'Independent first-person account distinguishes steam-assisted and bloom preinfusion. Its observations are not Coffeedant testing.' },
-      { id: 'priority-elizabeth-owners', label: 'Elizabeth owners: everyday strengths and frustrations', href: 'https://www.reddit.com/r/Lelit/comments/1mcdhan', note: 'Self-selected reports about tank access, controls and first-shot variation. Used as inspection questions, not universal faults or reliability rates.' },
-    ],
-  },
   '/espresso-machine/profitec-go/': {
     productId: 'CD-EM-000220',
     title: 'Profitec GO review: espresso control, one boiler to manage',
