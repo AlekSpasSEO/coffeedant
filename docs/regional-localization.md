@@ -2750,18 +2750,27 @@ verified delivered-price ranking remain explicit. Original US facts and
 Fahrenheit values are retained in the native edition's source-market context;
 no local equivalent, converted price or offer is invented.
 
-The two new regressions pass within 186 localization tests and nine SEO tests.
-Static analytics, Finder 151 records / seven grinders, all 35 full bean reviews
-and 43-brand navigation pass without API requests. Whole-page preview,
-production and public verification remain required before calling this batch
-published. The intended new readiness is 105 complete indexable pages plus 404
-per edition; the unfinished cold-brew buying guide stays an English destination
-with the localized edition notice.
+While this batch was prepared, independent PR #207 added the AeroPress guide
+and four new bean-hub strings. A normal merge preserves that source work and
+its release record. A separate immutable
+`aeropress-hub-preservation-batch-52` snapshot directly translates those four
+strings without altering the pour-over snapshot. The entire current hub
+(2,748 words / 89 paragraphs) is checked beside the complete guide, giving
+4,562 source words / 147 paragraphs / seven FAQ answers per edition. The
+AeroPress body remains unfinished and is linked to its English source.
 
-The current source inventory stays at 658 canonical pages / 56,451 slots.
-New entries are NL/FR 111 each and DE 109, without changes to old text. Expected
-coverage is NL 12,119 translated / 44,332 pending, DE 12,214 / 44,237 and
-FR 12,144 / 44,307. There remain 167 non-watch and 385 watch pages pending.
+Three new regressions pass within 187 localization tests and nine SEO tests.
+Static analytics covers all 659 current content pages / 16 redirects. Finder
+151 records / seven grinders, all 35 full bean reviews and 43-brand navigation
+also pass. All six whole-page native previews pass; production and public
+verification remain required before calling this batch published. Readiness is
+105 complete indexable pages plus 404 per edition. Both unfinished cold-brew
+and AeroPress buying guides stay English destinations with the native notice.
+
+The merged source inventory is 659 canonical pages / 56,563 slots. New entries
+are NL/FR 115 each and DE 113, without changes to old text or old routes.
+Coverage is NL 12,123 translated / 44,440 pending, DE 12,218 / 44,345 and
+FR 12,148 / 44,415. There remain 168 non-watch and 385 watch pages pending.
 Full-edition flags remain false, and incremental publication continues.
 
 ## Missing configuration

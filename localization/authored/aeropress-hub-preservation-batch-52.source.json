@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/coffee-beans/",
+      "sourceHash": "56155903c16bca77ffc69466251d90ea5ced196c4e1222f3853f7dcad5ee0b28"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "5bf48db19c4287877b845899a288da7247a04518422290666edc3d9180f75cb7",
+      "source": "New buying guide · October 30, 2026",
+      "kind": "text",
+      "context": "New buying guide · October 30, 2026"
+    },
+    {
+      "id": "43411884687cc78047cbca2db7af5197b70a435dd27ff54c922fd36221004a63",
+      "source": "AeroPress beans by cup style",
+      "kind": "text",
+      "context": "AeroPress beans by cup style"
+    },
+    {
+      "id": "2fec7713bf45cfc776bb02a50680890fdd5b613e351abd5c439744f3a0ef01b2",
+      "source": "Compare a fruit-led black cup, chocolate-fruit daily cup and iced stronger brew using roaster methods and explicit evidence limits.",
+      "kind": "text",
+      "context": "Compare a fruit-led black cup, chocolate-fruit daily cup and iced stronger brew using roaster methods and explicit evidence limits. Read the AeroPress bean guide."
+    },
+    {
+      "id": "aa0f854246a6c234511fb58ba3c71d497ba25186e7474c336fc9920183b49c3b",
+      "source": "Read the AeroPress bean guide",
+      "kind": "text",
+      "context": "Read the AeroPress bean guide"
+    }
+  ],
+  "snapshotHash": "65fcdb7b970cfbc94f10f5df983a0a57fa0ad9e3d9b5ab0188d69795d3a7b8c1"
+}

@@ -3,6 +3,13 @@ import assert from 'node:assert/strict';
 import path from 'node:path';
 import {root,readJson,digest,loadCache,policyHash,validateTranslation,contentId} from '../core.mjs';
 
+test('The concurrent AeroPress addition preserves the complete native bean hub with an English article destination',async()=>{
+ const name='aeropress-hub-preservation-batch-52',s=await readJson(path.join(root,'localization/authored/'+name+'.source.json')),a=await readJson(path.join(root,'localization/authored/'+name+'.json'));
+ assert.equal(s.segments.length,4);assert.equal(s.snapshotHash,digest(JSON.stringify(s.segments)));assert.equal(a.snapshotHash,s.snapshotHash);assert.equal(Object.keys(a.translations).length,4);assert(!a.routes);assert.equal(s.sourcePages[0].sourcePath,'/coffee-beans/');
+ for(const e of a.editions){const c=await loadCache(e);for(const [i,v]of s.segments.entries()){const x=c.segments[v.id];assert.equal(x.source,v.source);assert.equal(x.text,a.translations[i][e]);assert.equal(x.text,validateTranslation(v.source,x.text));assert.equal(x.policyHash,policyHash);}assert(a.translations[1][e].includes('AeroPress'));assert(a.translations[0][e].includes('30'));assert(a.translations[0][e].includes('2026'));}
+ const html=await import('node:fs/promises').then(fs=>fs.readFile(path.join(root,'src/pages/coffee-beans/index.astro'),'utf8'));assert(html.includes("base + 'coffee-beans/best-coffee-beans-for-aeropress/'"));
+});
+
 test('The pour-over buying guide has complete immutable native text, metadata and stable routes',async()=>{
  const name='pour-over-beans-guide-batch-52',s=await readJson(path.join(root,'localization/authored/'+name+'.source.json')),a=await readJson(path.join(root,'localization/authored/'+name+'.json'));
  assert.equal(s.segments.length,111);assert.equal(new Set(s.segments.map(v=>v.source)).size,93);assert.equal(s.snapshotHash,digest(JSON.stringify(s.segments)));assert.equal(a.snapshotHash,s.snapshotHash);assert.equal(Object.keys(a.translations).length,90);
