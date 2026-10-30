@@ -322,32 +322,6 @@ const products: ProductConfig[] = [
   },
 ];
 
-const removeParagraphs = (html: string, indexes: number[]) => {
-  let index = -1;
-  return html.replace(/<p>[\s\S]*?<\/p>/g, (paragraph) => (indexes.includes(++index) ? '' : paragraph));
-};
-
-const compactJuraReview = (review: MachineReviewData, extra = false): MachineReviewData => {
-  const removals: Record<string, number[]> = {
-    setup: [1],
-    workflow: [2],
-    features: [2],
-    ownership: [2],
-    ...(extra ? { espresso: [2], milk: [1], build: [2], value: [1] } : {}),
-  };
-  return {
-    ...review,
-    article: {
-      ...review.article,
-      sections: review.article.sections.map((section) => ({
-        ...section,
-        html: removals[section.id] ? removeParagraphs(section.html, removals[section.id]) : section.html,
-      })),
-    },
-  };
-};
-
-export const upgradeGaggiaJuraReviews: MachineReviewData[] = products.map((product) => {
-  const review = buildUpgradeReview(makeProfile(product));
-  return product.brand === 'JURA' ? compactJuraReview(review, product.key === 'jura-giga-6') : review;
-});
+// The shared factory now emits only authored advice. Positional removal of its
+// former boilerplate would delete the product's setup and maintenance instead.
+export const upgradeGaggiaJuraReviews: MachineReviewData[] = products.map((product) => buildUpgradeReview(makeProfile(product)));

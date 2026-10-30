@@ -163,6 +163,12 @@ for (const item of manifest) {
     .replace(/<figure\b[^>]*class="review-media review-inline-media"[^>]*>[\s\S]*?<\/figure>/gi, ' ')
     .replace(/<aside\b[^>]*class="review-community-(?:embed|evidence)"[^>]*>[\s\S]*?<\/aside>/gi, ' '));
   const words = wordCount(articleCopy);
+  const setupBlock = main.match(/<section\b[^>]*\bid="setup"[^>]*>[\s\S]*?<\/section>/i)?.[0] ?? '';
+  const setupAdvice = [...setupBlock.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)]
+    .map((match) => cleanText(match[1]))
+    .some((paragraph) => !/^System:/i.test(paragraph) && wordCount(paragraph) >= 8);
+  // Older independently authored reviews use their own setup section IDs.
+  if (setupBlock && !setupAdvice) fail(item.slug, 'setup lacks authored advice beyond the system specification; check for obsolete paragraph pruning');
   const scoreCards = count(main, /class="review-score-card"/g);
   const deepDives = count(main, /class="review-performance-detail"/g);
   const comparisonDetails = count(main, /class="review-comparison-details(?:\s|"|$)/g);

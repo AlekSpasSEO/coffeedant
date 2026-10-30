@@ -10,6 +10,7 @@ The English review corpus contains 160 equipment reviews (159 in the registry pl
 - Added an individual first-bag plan and distinct conclusion to every bean review; removed generic FAQ and decaf padding. Existing source and price check dates remain unchanged. October 30 is an editorial revision date, not a new tasting or verification claim.
 - Removed the equipment word quota. Required evidence, comparison, rating, accessibility and schema checks remain. Equipment retains six visible FAQs; beans require at least three relevant questions.
 - Extended originality validation from titles/openings to authored body paragraphs, lists, FAQs and conclusions. Shared interface, methodology, attributed quotations and source metadata are excluded. Thirteen regression tests cover the boundary.
+- Live verification also exposed old positional JURA and Keurig paragraph trimming. Removed those obsolete passes so setup, model scope and care advice survive the shorter factory; the equipment validator now rejects setup sections containing only a system specification.
 
 ## Evidence and verification
 

@@ -146,12 +146,6 @@ const profile: UpgradeReviewProfile = {
   overview: "A pod before work and a pot for visitors are two different jobs, and the K-Duo Plus puts them in one narrow appliance. Single cups use K-Cups; the insulated carafe uses ground coffee, without a warming plate underneath it. The repositionable reservoir is particularly useful when the available counter space dictates where filling can happen. This model earns its place through flexibility of serving format, rather than fine control over extraction. Buyers expecting espresso, a glass carafe kept hot on a plate, or the newer Hot & Iced functions need a different Keurig.",
 };
 
-const trimFirstParagraph = (html: string) => html.replace(/<p>[\s\S]*?<\/p>/, '');
-const trimSecondParagraph = (html: string) => {
-  let seen = 0;
-  return html.replace(/<p>[\s\S]*?<\/p>/g, (paragraph) => (++seen === 2 ? '' : paragraph));
-};
-
 const review = buildUpgradeReview(profile);
 export const upgradeKeurigReviews: MachineReviewData[] = [{
   ...review,
@@ -159,13 +153,4 @@ export const upgradeKeurigReviews: MachineReviewData[] = [{
     { name: 'Breville Luxe Brewer Thermal', reason: 'Choose dedicated ground-coffee brewing when pods are unnecessary.', href: '/coffee-machine/breville-luxe-brewer-thermal-bdc465/' },
     { name: 'Nespresso Vertuo Plus', reason: 'Choose a capsule-only station if a ground-coffee carafe would go unused.', href: '/espresso-machine/nespresso-vertuo-plus/' },
   ],
-  article: {
-    ...review.article,
-    sections: review.article.sections.map((section) => ({
-      ...section,
-      html: ['orientation', 'setup'].includes(section.id) ? trimSecondParagraph(section.html)
-        : ['comparisons', 'recommendations'].includes(section.id) ? trimFirstParagraph(section.html)
-          : section.html,
-    })),
-  },
 }];
