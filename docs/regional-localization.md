@@ -2880,12 +2880,12 @@ historical US observations, not converted local offers. Boiler capacities are
 not promised milk batches; cleaning and descaling are not interchangeable.
 The existing unverified local budget-filter treatment remains in effect.
 
-All 197 localization tests and 20 SEO tests pass, as do static analytics,
-Finder 151 records / seven grinders, all 35 bean reviews and 43-brand
-navigation. All three complete previews pass; production and public checks
-are required before treating the batch as live. There are no old text changes.
-The import adds 141 current entries per edition: the 139 frozen slots plus two
-matching JSON slots reused across source kinds.
+Before the later editorial source revision, 197 localization tests and 20 SEO
+tests passed, along with analytics, Finder, bean and brand validators. Complete
+previews and production builds passed, including metadata/current-hash checks
+across 327 regional HTML pages. These results do not establish publication of
+this batch. The original import adds 141 entries per edition: the 139 frozen
+slots plus two matching JSON slots reused across source kinds.
 
 The concurrent layout, video-schema and historical-anchor repairs are retained.
 Generated Finder snapshots keep their previous translation fingerprints. The
@@ -2894,12 +2894,44 @@ paragraphs generated from the native, price-safe Finder catalog. Complete
 render comparisons include those cards, their descriptions and runtime labels.
 The frozen authored snapshot is unchanged.
 
-Current readiness is 108 complete indexable pages plus 404 per edition. All
-35 bean reviews, eight bean guides and their hub remain ready. Source inventory
-stays 659 canonical pages / 56,563 slots. NL has 12,477 translated / 44,086
-pending; DE/FR each have 12,502 / 44,061. There remain 165 non-watch and 385
-watch pages incomplete. No full-edition flag is set complete; incremental
-publication and continuation remain enabled.
+### Later October 30 source revision: publication deferred, direct repairs saved
+
+Main commit `848f9c7` independently rewrote the English review corpus. Its new
+publication guard preserves previously published regional URLs while their
+current source translations are pending. It does not require a complete edition.
+The first current build identified gaps in all 35 bean reviews, the single-boiler
+guide and three reused paragraphs in the new grinder-free guide.
+
+`review-source-repair-batch-55` freezes and directly translates 21 distinct
+current slots across NL/DE/FR. It completes the revised Hologram and Forty-Six
+reviews, and the shared E24 milk, decision and used-machine advice in both
+espresso guides. The home comparisons remain proposed reader experiments;
+they are not Coffeedant tasting results. Historic bag prices and units stay
+unchanged. Brewing/steaming share one boiler; older aluminum-boiler or modified
+Classic advice is not silently applied to a stock E24.
+
+`no-grinder-current-source-batch-55.source.json` records the complete revised
+guide separately: 5,545 source words, 157 authored paragraphs and eight FAQ
+answers; the three initial Finder cards bring the rendered total to 166
+paragraphs. The original authored 139-slot snapshot and its indices are
+preserved. The current-source repair adds 23 entries per edition: 21 frozen
+text slots and two matching JSON slots. Together the two direct imports add
+164 entries per edition, with no edits to previous cached wording. All 206
+localization and 20 SEO tests pass; complete current native previews cover the
+two bean reviews and both espresso guides. Their 12 complete-body comparisons
+include all metadata, schema/FAQ, links, accessible labels and runtime data;
+the actual compiled schematic handlers pass 18 native-language interactions.
+
+Current source inventory is 659 pages / 56,457 segments. Each edition has 75
+current complete indexable pages plus 404. NL has 12,269 translated / 44,188
+pending; DE/FR each have 12,291 / 44,166. There remain 198 non-watch and 385
+watch pages incomplete. These are current-source readiness counts, not the
+number of pages in the retained public deployment.
+
+The remaining 33 bean-review revisions defer the regional bundle. Existing
+successful regional deployments remain in service; this batch is not described
+as publicly deployed. No full-edition flag is set complete, no published path is
+renamed, and approved ready-page publication and continuation remain enabled.
 
 ## Missing configuration
 
