@@ -3,7 +3,7 @@ import type { ReviewEvaluation, ReviewTable } from '../../data/reviews';
 import { getReviewOverallScore } from '../../data/reviews';
 import ResponsiveTable from './ResponsiveTable.astro';
 
-const { evaluation, productName } = Astro.props as { evaluation: ReviewEvaluation; productName: string };
+const { evaluation, productName, anchorAliases = [] } = Astro.props as { evaluation: ReviewEvaluation; productName: string; anchorAliases?: string[] };
 const overall = getReviewOverallScore(evaluation);
 const heading = evaluation.basis.kind === 'hands-on'
   ? 'What our testing showed'
@@ -36,6 +36,7 @@ const summaryTable: ReviewTable = {
 ---
 
 <section class="review-section review-ratings" id="ratings" aria-labelledby="ratings-title">
+  {anchorAliases.map(alias => <span id={alias} class="review-anchor-alias" data-legacy-anchor-target="ratings" aria-hidden="true"></span>)}
   <header class="review-section-heading">
     <p class="review-overline"><span class="review-section-number">01</span>Evidence first</p>
     <h2 id="ratings-title">{heading}</h2>

@@ -3,7 +3,7 @@ import type { MachineReviewData } from '../../data/reviews';
 import { getReviewOverallScore } from '../../data/reviews';
 import { getAmazonOfferCheckedLabel } from '../../lib/amazon-affiliate';
 
-const { review } = Astro.props as { review: MachineReviewData };
+const { review, anchorAliases = {} } = Astro.props as { review: MachineReviewData; anchorAliases?: Record<string, string[]> };
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const basePath = base.replace(/\/$/, '');
 const assetUrl = (path: string) => /^https:\/\//i.test(path)
@@ -22,7 +22,8 @@ const amazonLink = review.links.find((link) => link.retailer === 'Amazon');
 const amazonCheckedLabel = amazonLink ? getAmazonOfferCheckedLabel(amazonLink) : null;
 ---
 
-<section class="review-summary" aria-labelledby="review-title">
+<section class="review-summary" aria-labelledby="review-title" style="position:relative">
+  {(anchorAliases.summary ?? []).map(alias => <span id={alias} class="review-anchor-alias" data-legacy-anchor-target="summary" aria-hidden="true"></span>)}
   <header class="review-summary-heading">
     <p class="review-overline">{review.brand} · {review.evaluation.basis.label.toLowerCase()}</p>
     <h1 id="review-title">{review.title}</h1>
@@ -86,8 +87,8 @@ const amazonCheckedLabel = amazonLink ? getAmazonOfferCheckedLabel(amazonLink) :
       </nav>
     )}
   </div>
-  <dl class="review-fact-strip" aria-label="Key specifications">
-    {review.facts.map((fact) => <div><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}
+  <dl class="review-fact-strip" aria-label="Key specifications" style="position:relative">
+    {review.facts.map((fact, index) => <div><dt>{index === 0 && (anchorAliases.specifications ?? []).map(alias => <span id={alias} class="review-anchor-alias" data-legacy-anchor-target="specifications" aria-hidden="true"></span>)}{fact.label}</dt><dd>{fact.value}</dd></div>)}
   </dl>
   <div class="review-summary-bottom">
     <div class="review-fit review-fit-good"><h2>Buy it if</h2><ul>{review.bestFor.map((item) => <li>{item}</li>)}</ul></div>

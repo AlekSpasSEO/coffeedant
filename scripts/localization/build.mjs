@@ -9,6 +9,7 @@ import { root, config, getEdition, sourceOrigin, interfaceSource, readJson, load
 import { collectSource, prepareRegionalDocument, documentJson } from './source.mjs';
 import { readySource } from './ready.mjs';
 import { addSelector, contextSummary } from './region-ui.mjs';
+import { initialFinderSnapshot } from '../../src/lib/finder-initial-render.mjs';
 
 const escape = (value) => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 export const validatedRoutes = (source, cache) => {
@@ -77,6 +78,31 @@ export const regionalFinder = (finder, cache, routes, edition, market, offers, n
     }) };
 };
 
+export const restoreInitialFinder = (document, catalog) => {
+  for (const finder of walk(document).filter(node => attr(node, 'data-coffee-finder') !== undefined)) {
+    const nodes = walk(finder);
+    const results = nodes.find(node => attr(node, 'data-finder-initial') !== undefined);
+    if (!results) continue; // Video filters do not render machine result cards.
+    const snapshot = initialFinderSnapshot(catalog, {
+      variant: attr(finder, 'data-variant') ?? 'banner',
+      brand: attr(finder, 'data-brand') ?? '',
+      excludePath: attr(finder, 'data-exclude-path') ?? '',
+      base: '/',
+    });
+    results.childNodes = []; appendHtml(results, snapshot.html); setAttr(results, 'aria-busy', 'false');
+    for (const [attribute, text] of [['data-finder-count', snapshot.countText], ['data-finder-sync', snapshot.syncText]]) {
+      const node = nodes.find(candidate => attr(candidate, attribute) !== undefined);
+      if (node) { node.childNodes = []; appendHtml(node, escape(text)); }
+    }
+    for (const [attribute, hidden] of [['data-finder-empty', snapshot.count !== 0], ['data-finder-more', !snapshot.hasMore]]) {
+      const node = nodes.find(candidate => attr(candidate, attribute) !== undefined);
+      if (!node) continue;
+      node.attrs = (node.attrs ?? []).filter(entry => entry.name !== 'hidden');
+      if (hidden) setAttr(node, 'hidden', '');
+    }
+  }
+};
+
 const addAlternates = (document, page, releases) => {
   const head = walk(document).find((node) => node.tagName === 'head');
   for (const node of walk(head)) if (node.tagName === 'link' && attr(node, 'hreflang')) detach(node);
@@ -120,6 +146,9 @@ export const buildRegional = async (editionId, options = {}) => {
   const markets = options.markets ?? await readJson(path.join(root, 'localization/markets.json'));
   const market = markets.markets[edition.id];
   const offers = options.offers ?? await readJson(path.join(root, `localization/offers/${edition.id}.json`), { offers: {} });
+  const finderCatalog = ((!partial && !options.reviewPages) || source.finderSegments.length)
+    ? regionalFinder(await readJson(path.join(directory, 'coffee-finder.json')), cache, routes, edition, market, offers)
+    : null;
   const releases = options.releases ?? await readJson(path.join(root, 'localization/releases.json'));
   await mkdir(path.join(root, '.localization'), { recursive: true });
   const temporary = await mkdtemp(path.join(root, '.localization/build-'));
@@ -166,6 +195,7 @@ export const buildRegional = async (editionId, options = {}) => {
       rewriteJson(value, routes, edition, partial);
       node.childNodes = [{ nodeName: '#text', value: JSON.stringify(value).replaceAll('<', '\\u003c'), parentNode: node }];
     }
+    if (finderCatalog) restoreInitialFinder(document, finderCatalog);
     const body = walk(document).find((node) => node.tagName === 'body');
     appendHtml(body, `<details data-regional-context lang="${edition.locale}"><summary>${escape(contextSummary(edition.id))}</summary><div class="cd-region-context-copy"><p>${escape(ui.regionalContext)}</p><p>${escape(ui.regionalBuyingPending)}</p><a href="${sourceOrigin}${escape(page.sourcePath)}" lang="en-US">${escape(ui.sourceVersion)}</a></div></details>`);
     const context = body.childNodes.pop();
@@ -191,10 +221,7 @@ export const buildRegional = async (editionId, options = {}) => {
   for (const { relative, html } of rendered) {
     const file = path.join(temporary, relative); await mkdir(path.dirname(file), { recursive: true }); await writeFile(file, html);
   }
-  if ((!partial && !options.reviewPages) || source.finderSegments.length) {
-    const finder = await readJson(path.join(directory, 'coffee-finder.json'));
-    await writeJson(path.join(temporary, 'coffee-finder.json'), regionalFinder(finder, cache, routes, edition, market, offers));
-  }
+  if (finderCatalog) await writeJson(path.join(temporary, 'coffee-finder.json'), finderCatalog);
   const urls = source.pages.filter(({ sourcePath }) => sourcePath !== '/404/').map(({ sourcePath }) => `https://${edition.host}${routes.get(sourcePath)}`);
   await writeFile(path.join(temporary, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls.map((url) => `<url><loc>${escape(url)}</loc></url>`).join('')}</urlset>`);
   await writeFile(path.join(temporary, 'robots.txt'), options.preview ? 'User-agent: *\nDisallow: /\n' : `User-agent: *\nAllow: /\nSitemap: https://${edition.host}/sitemap.xml\n`);

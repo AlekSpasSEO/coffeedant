@@ -33,7 +33,8 @@
 
 *,*::before,*::after{ box-sizing:border-box; }
 
-html{ -webkit-text-size-adjust:100%; }
+/* Keep desktop page geometry stable when a dialog locks scrolling. */
+html{ -webkit-text-size-adjust:100%; scrollbar-gutter:stable; }
 body{
   margin:0;
   font-family:var(--global-body-font-family);

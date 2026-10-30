@@ -1,4 +1,7 @@
 ---
+import { getCoffeeFinderCatalog } from '../lib/coffee-finder';
+import { initialFinderSnapshot } from '../lib/finder-initial-render.mjs';
+
 type Variant = 'full' | 'banner';
 
 const {
@@ -24,6 +27,9 @@ const {
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const catalogUrl = `${base}coffee-finder.json`;
 const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
+const initial = resultsMode === 'products' ? initialFinderSnapshot(getCoffeeFinderCatalog(), {
+  variant, brand, excludePath, base,
+}) : null;
 ---
 
 <section
@@ -117,17 +123,18 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
 
     <div class="coffee-finder-results-wrap">
       <div class="coffee-finder-status" aria-live="polite">
-        <strong data-finder-count>Loading the catalog…</strong>
-        <span data-finder-sync>Re-indexed every two weeks</span>
+        <strong data-finder-count data-finder-initial-count={initial ? '' : undefined}>{initial?.countText ?? 'Loading the catalog…'}</strong>
+        <span data-finder-sync data-finder-initial-sync={initial ? '' : undefined}>{initial?.syncText ?? 'Re-indexed every two weeks'}</span>
       </div>
-      <div class="coffee-finder-results" data-finder-results aria-busy="true" hidden={resultsMode === 'videos'}></div>
-      <p class="coffee-finder-empty" data-finder-empty hidden>No exact match. Clear one filter to widen the shortlist.</p>
-      {variant === 'full' && resultsMode !== 'videos' && <button class="coffee-finder-more-results" type="button" data-finder-more hidden>Show 12 more machines</button>}
+      <div class="coffee-finder-results" data-finder-results data-finder-initial={initial ? '' : undefined} aria-busy={initial ? 'false' : 'true'} hidden={resultsMode === 'videos'} set:html={initial?.html ?? ''}></div>
+      <p class="coffee-finder-empty" data-finder-empty hidden={!initial || initial.count !== 0}>No exact match. Clear one filter to widen the shortlist.</p>
+      {variant === 'full' && resultsMode !== 'videos' && <button class="coffee-finder-more-results" type="button" data-finder-more hidden={!initial?.hasMore}>Show 12 more machines</button>}
     </div>
   </div>
 </section>
 
 <script>
+  import { compareFinderItems, renderFinderCard } from '../lib/finder-initial-render.mjs';
   type FinderItem = {
     brand: string; model: string; path: string; image: string; imageAlt: string;
     description: string; bestFor: string; amazonHref: string; amazonLabel: string; amazonNote?: string;
@@ -141,15 +148,6 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
   const message = (template: string, values: Record<string, string | number>) =>
     template.replace(/\{([a-z]+)\}/g, (token, key) => String(values[key] ?? token));
 
-  const createNode = <K extends keyof HTMLElementTagNameMap>(tag: K, className?: string) => {
-    const node = document.createElement(tag);
-    if (className) node.className = className;
-    return node;
-  };
-
-  const sitePath = (base: string, path: string) => /^https?:\/\//i.test(path)
-    ? path
-    : `${base}${path.replace(/^\//, '')}`;
   const budgetMatch = (price: number | null, range: string) => {
     if (range === 'any') return true;
     if (price === null) return false;
@@ -169,63 +167,9 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
   };
 
   const makeResultCard = (item: FinderItem, base: string, compact = false, ui: Record<string, string> = {}, locale = 'en-US') => {
-    const card = createNode('article', compact ? 'coffee-finder-result coffee-finder-result-compact' : 'coffee-finder-result');
-    const href = sitePath(base, item.path);
-    if (!compact) {
-      const media = createNode('a', 'coffee-finder-result-media');
-      media.href = href;
-      const image = createNode('img');
-      image.src = sitePath(base, item.image);
-      image.alt = item.imageAlt;
-      image.width = 320;
-      image.height = 260;
-      image.loading = 'lazy';
-      image.decoding = 'async';
-      media.append(image);
-      card.append(media);
-    }
-    const body = createNode('div', 'coffee-finder-result-body');
-    const overline = createNode('p', 'coffee-finder-result-overline');
-    overline.textContent = `${item.brand} · ${ui[`workflow:${item.workflow}`] ?? item.workflow.replace('-', ' ')}`;
-    const title = createNode('h3');
-    const titleLink = createNode('a');
-    titleLink.href = href;
-    titleLink.textContent = item.model;
-    title.append(titleLink);
-    const copy = createNode('p', 'coffee-finder-result-copy');
-    copy.textContent = item.description;
-    const meta = createNode('div', 'coffee-finder-result-meta');
-    const price = createNode('span');
-    price.textContent = item.priceLabel;
-    const status = createNode('span');
-    status.textContent = item.availabilityLabel;
-    meta.append(price, status);
-    if (!compact && item.rating !== null) {
-      const rating = createNode('span');
-      rating.textContent = `${new Intl.NumberFormat(locale, { minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(item.rating)}/5 Coffeedant`;
-      meta.append(rating);
-    }
-    const actions = createNode('div', 'coffee-finder-result-actions');
-    const reviewLink = createNode('a', 'coffee-finder-result-link');
-    reviewLink.href = href;
-    reviewLink.textContent = ui.readReview ?? 'Read the review →';
-    actions.append(reviewLink);
-    if (item.amazonHref) {
-      const amazonLink = createNode('a', 'coffee-finder-result-amazon');
-      amazonLink.href = item.amazonHref;
-      amazonLink.textContent = `${item.amazonLabel} ↗`;
-      amazonLink.target = '_blank';
-      amazonLink.rel = 'nofollow sponsored noopener';
-      actions.append(amazonLink);
-    }
-    body.append(overline, title, copy, meta, actions);
-    if (item.amazonNote) {
-      const purchaseNote = createNode('p', 'coffee-finder-result-purchase-note');
-      purchaseNote.textContent = item.amazonNote;
-      body.append(purchaseNote);
-    }
-    card.append(body);
-    return card;
+    const template = document.createElement('template');
+    template.innerHTML = renderFinderCard(item, base, compact, ui, locale);
+    return template.content.firstElementChild as HTMLElement;
   };
 
   document.querySelectorAll<HTMLElement>('[data-coffee-finder]').forEach((root) => {
@@ -268,13 +212,7 @@ const fullFinderUrl = `${base}espresso-machine/#coffee-finder`;
           && (filters.footprint === 'any' || item.footprint === filters.footprint)
           && (filters.volume === 'any' || item.volume === filters.volume)
           && (filters.availability === 'any' || item.availability === filters.availability);
-      }).sort((a, b) => {
-        const availabilityOrder: Record<string, number> = { current: 0, catalog: 1, limited: 2 };
-        return (availabilityOrder[a.availability] ?? 3) - (availabilityOrder[b.availability] ?? 3)
-          || (b.rating ?? 0) - (a.rating ?? 0)
-          || a.brand.localeCompare(b.brand)
-          || a.model.localeCompare(b.model);
-      });
+      }).sort(compareFinderItems);
 
       if (root.dataset.resultsMode === 'videos') {
         const active = Boolean(query) || Object.values(filters).some(value => value !== 'any');
