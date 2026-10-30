@@ -3120,6 +3120,53 @@ current; 15 other published revisions still defer the atomic regional bundle.
 The existing 107-page public editions remain available. Ready-pages publication
 and continuation remain enabled; no full-edition completion is claimed.
 
+### Direct batch 60: six current Blue Bottle review revisions (2026-10-30)
+
+`review-source-repair-batch-60` directly translates 60 distinct current slots in
+NL/DE/FR, reusing passing cache wording for all other current source content.
+The immutable snapshot was exported after the entire source build and coverage
+pass finished; each complete source body and FAQ was read before authoring.
+
+| Review | Source words | Paragraphs | FAQ answers |
+| --- | ---: | ---: | ---: |
+| 17ft Ceiling Espresso | 1,506 | 46 | 5 |
+| Bella Donovan | 1,622 | 48 | 5 |
+| Giant Steps | 1,538 | 46 | 5 |
+| Hayes Valley Espresso | 1,737 | 48 | 5 |
+| Night Light Decaf | 1,563 | 46 | 5 |
+| Three Africas | 1,684 | 46 | 5 |
+
+New wording keeps 17ft Ceiling's declared robusta component distinct from Hayes
+Valley, without inventing proportions, crema measurements or a sensory ranking.
+Giant Steps retains its 1:13 press-with-milk role and illustrative 30 g / 390 g
+start. Those instructions do not become a portafilter or cold-brew recipe.
+Bella Donovan remains a separate daily brewed-coffee comparison. Three Africas
+preserves washed/natural Ethiopian components and the Rwandan component, with
+steeping and serving dilution kept distinct from the hot pour-over guide.
+
+Night Light's process label does not establish zero caffeine or a proprietary
+process provider. Proposed reader trials remain separate from Coffeedant tests.
+US whole-bean selections remain separate from Korean packaging illustrations;
+no current delivered price, discount, local offer or converted price is added.
+All registered URLs, markup and link destinations retain their existing rules.
+
+The import adds 60 entries per edition with zero prior wording or route changes.
+All 210 localization and 20 SEO tests pass, along with analytics on 659 content
+pages / 16 redirects, all 35 bean reviews, and the 151-machine / seven-grinder
+Finder validators. Eighteen complete native preview comparisons pass across
+9,650 source words, 280 paragraphs and 30 FAQ answers per edition, including all
+metadata, structured data, links, accessible labels, image/SVG geometry, compiled
+scripts and runtime interface values. Every previously ready page remains ready,
+including the approved Dutch dosing route.
+
+Inventory stays at 659 pages / 56,506 segments. Each edition now has 99 current
+complete indexable pages plus 404. NL has 12,512 translated / 43,994 pending;
+DE/FR each have 12,534 / 43,972, with zero Finder pending. There are 174 non-watch
+and 385 watch pages incomplete. Twenty-six revised bean reviews are current;
+nine other published revisions still defer the regional bundle with the expected
+exit 42. The existing 107-page public editions remain available. Ready-pages
+publication and continuation remain enabled; no full-edition completion is claimed.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
