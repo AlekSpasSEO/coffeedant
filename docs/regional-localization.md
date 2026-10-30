@@ -2964,6 +2964,41 @@ watch pages incomplete. Four of the revised bean reviews are now current;
 The guard retains the existing successful release with 107 public indexable
 pages per edition. No new production launch or full-edition completion is claimed.
 
+### Direct batch 57: four current bean-review repairs (2026-10-30)
+
+`review-source-repair-batch-57` freezes and directly translates 35 distinct
+current slots for Major Dickason’s, Hair Bender, Holler Mountain and Black Cat
+Classic into NL/DE/FR. Passing cached wording completes every other current
+slot. The full source bodies are 2,235 / 2,099 / 1,839 / 1,849 words and
+60 / 57 / 52 / 55 paragraphs respectively, each with six visible and structured
+FAQ answers. Metadata, source links, photographs, accessible labels, runtime
+data and all registered URLs are preserved, including Dutch espresso dosing.
+
+Classic, Analog and Decaf Black Cat remain distinct products. The 18 g to
+45 g starting shot is conditional on the basket; somebody else's grinder
+number is not a transferable setting. Major Dickason’s retains the distinction
+between roast preference, concentration and the actual whole-bean package.
+The Stumptown comparisons include separate brewing settings and switching
+waste. These are proposed reader trials, not Coffeedant tasting results.
+Holler Mountain's organic and flavor descriptions remain roaster-attributed;
+the comparison with washed Ethiopian Apollo is a preference choice, not a
+universal quality ranking. Historical US prices and check dates are unchanged.
+
+The import adds 35 entries per edition and changes no previous cached text.
+All 208 localization and 20 SEO tests pass, along with analytics, all 35 bean
+reviews and the 151-machine / seven-grinder Finder validators. Twelve complete
+native preview comparisons pass for full bodies, metadata, every schema/FAQ,
+links, image/SVG geometry, accessible attributes, scripts and runtime data.
+Every previously current complete page remains ready.
+
+Current inventory remains 659 pages / 56,465 segments. Each edition has 81
+current complete indexable pages plus 404. NL has 12,317 translated / 44,148
+pending; DE/FR each have 12,339 / 44,126. There remain 192 non-watch and 385
+watch pages incomplete. Eight revised bean reviews are now current; 27 other
+published bean-review revisions still defer the regional bundle. The existing
+107-page public editions are retained. No new public launch or full-edition
+completion is claimed; ready-page publication and continuation stay enabled.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
