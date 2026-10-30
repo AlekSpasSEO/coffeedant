@@ -2812,6 +2812,46 @@ DE 12,326 / 44,237 and FR 12,256 / 44,307. There remain 167 non-watch and 385
 watch pages incomplete. All full-edition flags remain false; continuation and
 incremental ready-pages publication stay enabled.
 
+### Direct batch 54: complete cold-brew guide and current bean article inventory (2026-10-30)
+
+The complete cold-brew guide is directly authored for NL/DE/FR using
+`cold-brew-beans-guide-batch-54`: 105 slots / 87 distinct strings, covered by
+83 triples and four proper-name approvals. All three already registered URLs
+are retained. All 1,852 source words, 61 paragraphs, two comparison tables and
+seven visible/structured FAQ answers remain intact, with metadata, accessible
+labels, source attribution and exact original link destinations.
+
+Editorial review corrects 63 old German slots within this unpublished guide.
+Examples include metadata incorrectly copied from the title, an equipment
+reference rendered as a beverage, lost cocoa-only exclusivity, English
+fragments and grammar faults. The correction guard restricts changes to
+frozen source IDs and forbids changing any text used by previously ready pages.
+Sound existing wording and all old routes remain unchanged.
+
+The two active first-bag choices stay distinct from the four Peet’s alternatives
+that were sold out at the dated October 22 source check. No fresh availability
+claim is invented. The 12–24-hour and 12-plus-hour roaster guidance remains
+broad, and Giant Steps' hot French-press-with-milk 1:13 figure is explicitly
+not a cold-brew recipe. The 12 oz / about 340 g / 30 g example remains
+illustrative arithmetic rather than a new recipe or serving promise. No
+tasting, extraction test, shelf-life experiment, delivered-price ranking or
+verified local offer is invented.
+
+All 191 localization tests and nine SEO tests pass, as do static analytics,
+Finder 151 records / seven grinders, 35 bean reviews and 43-brand navigation.
+All three whole-page previews pass. Current readiness reaches 107 complete
+indexable pages plus 404 per edition. All 35 current bean reviews, eight buying
+guides and their hub are ready; bean video companions are counted separately.
+Production and public verification are still required before calling this
+batch published, including full live-body checks for all eight buying guides.
+
+The source inventory stays at 659 canonical pages / 56,563 slots. New entries
+are NL/FR 105 each and DE 35; corrected German entries are not counted twice.
+Coverage is NL 12,336 translated / 44,227 pending and DE/FR 12,361 / 44,202
+each. There remain 166 non-watch and 385 watch pages incomplete. All
+full-edition flags remain false; incremental publishing and continuation stay
+enabled for the rest of the site.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
