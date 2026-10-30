@@ -2880,12 +2880,19 @@ historical US observations, not converted local offers. Boiler capacities are
 not promised milk batches; cleaning and descaling are not interchangeable.
 The existing unverified local budget-filter treatment remains in effect.
 
-All 193 localization tests and nine SEO tests pass, as do static analytics,
+All 197 localization tests and 20 SEO tests pass, as do static analytics,
 Finder 151 records / seven grinders, all 35 bean reviews and 43-brand
 navigation. All three complete previews pass; production and public checks
 are required before treating the batch as live. There are no old text changes.
 The import adds 141 current entries per edition: the 139 frozen slots plus two
 matching JSON slots reused across source kinds.
+
+The concurrent layout, video-schema and historical-anchor repairs are retained.
+Generated Finder snapshots keep their previous translation fingerprints. The
+guide's 163 authored paragraphs remain complete; three initial cards add nine
+paragraphs generated from the native, price-safe Finder catalog. Complete
+render comparisons include those cards, their descriptions and runtime labels.
+The frozen authored snapshot is unchanged.
 
 Current readiness is 108 complete indexable pages plus 404 per edition. All
 35 bean reviews, eight bean guides and their hub remain ready. Source inventory
