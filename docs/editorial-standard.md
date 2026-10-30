@@ -19,7 +19,7 @@ A product review is complete only when it meets all of these requirements in the
 
 - One canonical product identity, permanent product ID, exact model or generation, and regional scope
 - One H1 and one production canonical URL
-- Approximately 4,700 to 5,500 editorial words, excluding image captions and the community-evidence panel
+- Enough product-specific evidence to answer the buying decision, with no minimum or maximum word quota. Cut a paragraph if it would work unchanged in another review.
 - The shared `MachineReview` layout and responsive visual system
 - Product hero, named author, role, author note, publication date, and update date
 - Overall editorial rating out of 5
@@ -62,11 +62,13 @@ Educational articles use a sibling editorial layout with the reference typograph
 - Write an original opening overview around the exact product's buying decision, supported design details and consequential limitations. Changing names in shared prose is not an editorial rewrite. Vary the argument and sentence structure according to the machine.
 - `UpgradeReviewProfile.overview` holds the authored plain-text first paragraph. A complete `sectionOverrides.orientation` is the alternative for a custom review. The shared generator supplies layout and citations, with no generated prose fallback. Keep model/generation/regional exclusions in the separate scope paragraph.
 - The headline hook must communicate a specific finding or buyer question. Avoid batch-wide price/workflow/limits lists and automatically swapping synonyms to lower a similarity score. Retain brand and exact model for identification.
-- Run `npm run test:review-originality` and `npm run validate:review-originality` after building. Names and the word “Review” are removed before comparison. Exact hooks and hooks with at least 80% wording overlap (minimum four words), opening paragraphs with at least 85% overlap, and eight-word phrases shared by ten or more openings fail the check. Hooks at 50–79% receive editorial-review warnings. Shared navigation labels, disclosures and model-scope paragraphs are excluded.
+- Run `npm run test:review-originality` and `npm run validate:review-originality` after building. Names and the word “Review” are removed before comparison. Exact hooks and hooks with at least 80% wording overlap (minimum four words), opening paragraphs with at least 85% overlap, and eight-word phrases shared by ten or more openings fail the check. Hooks at 50–79% receive editorial-review warnings. Full-body checks also fail shared paragraphs of at least 60 words, fourteen-word passages across five or more reviews, or at least 120 shared words covering 35% of an article. The report locates each passage by section. Shared UI, methodology, source metadata, media provenance and marked quotations are excluded, while authored owner advice, FAQs and conclusions are checked.
 
 - Preserve the useful original research, but remove obsolete pricing, unsupported measurements, duplicate passages, and conflicting model claims.
 - Lead each section with the decision or practical answer, then show the evidence and limitations.
 - Do not inflate word count with repeated summaries, generic coffee advice, or paraphrased specifications.
+- Apply originality to the whole article, not just the headline and opening. Shared components supply structure, links and citations; the product record supplies the argument. Do not append generic brewing lessons, first-week checklists, troubleshooting or repeated evidence caveats to every product. Put general technique in a linked guide and explain here only what this product changes.
+- Make the distinction useful: explain which daily task improves, what compromise remains, who should buy something else, and which specific alternative solves that mismatch. Coffee reviews need an individual first-bag decision and a conclusion that adds to the opening rather than repeating it.
 - Attribute third-party measurements and owner experiences. Anecdotes do not establish failure rates.
 - Date prices and volatile product details. Do not present a dated price as a permanent market fact.
 - Keep comparisons aligned to the same buyer decision, price class, and workflow.

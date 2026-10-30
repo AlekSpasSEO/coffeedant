@@ -193,8 +193,9 @@ for (const item of manifest) {
   if (mains !== 1 || !main.includes('id="main-content"') || !main.includes('tabindex="-1"')) {
     fail(item.slug, `expected one skip-link focusable main landmark, found ${mains}`);
   }
-  if (words < 4700) fail(item.slug, `only ${words} visible words; target minimum is 4700`);
-  if (words > 5500) fail(item.slug, `${words} visible words; target maximum is 5500`);
+  // Length is reported, not rewarded. Product-specific evidence and the required
+  // decision modules below define completeness; full-body originality is checked
+  // by validate-review-originality.mjs. A quota encouraged generic filler.
   if (scoreCards !== 6) fail(item.slug, `expected 6 rating cards, found ${scoreCards}`);
   if (deepDives !== 6) fail(item.slug, `expected 6 performance deep dives, found ${deepDives}`);
   if (count(quickAnswerPanel, /<dt>/g) !== 6) fail(item.slug, 'expected exactly 6 quick answers');

@@ -133,6 +133,22 @@ const records: RecordData[] = [
     skip:'you require independent tasting of the current lot or a roaster espresso recipe'
   },
 ];
+const decafPackPlanning: Record<string, string> = {
+  '/coffee-beans/counter-culture-slow-motion-decaf/': 'Slow Motion offers 12 oz, 24 oz and 5 lb. Start with the smallest pack when decaf is an occasional evening brew, then use the stamped roast date to find the matching blend record before ordering again. [1] [2]',
+  '/coffee-beans/stumptown-trapper-creek-decaf/': 'Trapper Creek’s five-pound option is a large jump from 12 oz. Account for coffee used when switching back from regular beans, as well as the drinks consumed; that changeover can determine how quickly a decaf bag actually empties. [1] [2]',
+  '/coffee-beans/intelligentsia-decaf-black-cat-espresso/': 'At the roaster’s 18 g espresso start, 12 oz contains roughly eighteen full doses before adjustment waste. Use the first pack to establish your decaf setting; the five-pound order makes more sense after the evening shot has become a regular habit. [1] [2]',
+  '/coffee-beans/intelligentsia-organic-decaf-house-blend/': 'A 20 g filter dose uses a 12 oz House bag in roughly seventeen brews before waste. Compare that with the number of decaf filter brews you actually make, especially if you are weighing the five-pound size for a household that mostly drinks regular coffee. [1] [2]',
+  '/coffee-beans/equator-decaf-equator-blend/': 'The choice between 12 oz, 2 lb and 5 lb lets Equator buyers scale gradually. A shared drip pot may justify the intermediate size sooner than an occasional single cup; first confirm the medium-dark, fruit-and-spice direction works for the people who will finish it. [1] [2]',
+};
+
+const decafValueJudgment: Record<string, string> = {
+  '/coffee-beans/counter-culture-slow-motion-decaf/': 'Slow Motion gives a mixed-method household a smaller step from 12 oz to 24 oz before the five-pound order. At the checked $20 starter price, paying for a bag that works both as filter and espresso is more useful than buying bulk before either recipe is settled. The blend record follows roast dates, so match the next order to its actual coffee rather than assuming a repeat of an older bag. [1] [2]',
+  '/coffee-beans/stumptown-trapper-creek-decaf/': 'The $20 Trapper Creek reference buys the 12 oz trial, not evidence that five pounds will be good value for an occasional decaf drinker. Its stated espresso-and-drip role is the useful proposition: one bag may cover both, but it still needs separate grinder settings. Include changeover waste when deciding how long the larger pack would last. [1] [2]',
+  '/coffee-beans/intelligentsia-decaf-black-cat-espresso/': 'At $18.50 for the checked 12 oz listing, Black Cat is a purchase for a specific espresso job. Its published 18 g to 45 g starting recipe gives you something concrete to try before ordering five pounds. House Blend is the more relevant comparison when the evening routine is a filter pot rather than a portafilter; the same dated pack price does not make the two coffees interchangeable. [1] [2] [7]',
+  '/coffee-beans/intelligentsia-organic-decaf-house-blend/': 'House Blend and Decaf Black Cat each had an $18.50 small-pack reference, so brew fit is a better tiebreaker than the sticker. House provides a filter-led direction; Black Cat provides an explicit espresso starting recipe. For infrequent filter use, finish the 12 oz House bag and count the brews before choosing five pounds. A lower price per ounce matters only if that quantity matches the routine. [1] [2] [7]',
+  '/coffee-beans/equator-decaf-equator-blend/': 'Equator’s checked $19.50 12 oz pack offers a way to assess its medium-dark fruit-and-spice brief before choosing 2 lb or 5 lb. The middle size is useful for a household that has proved the coffee in a shared pot but cannot justify a bulk order. Select whole bean or the required grind explicitly; an inexpensive bag in the wrong format does not solve the intended brew. [1] [2]',
+};
+
 const makeReview = (r: RecordData): BeanReviewData => {
   const dollars = Number(r.price.match(/\$(\d+(?:\.\d+)?)/)?.[1] ?? 0);
   const doseCost = (dollars * 18 / 340.194).toFixed(2);
@@ -156,29 +172,22 @@ const makeReview = (r: RecordData): BeanReviewData => {
       {label:'Current origin',value:r.origin},
       {label:'Decaffeination',value:r.process},
       {label:'Variety',value:r.variety},
-      {label:'US direct sizes',value:r.sizes}
+      {label:'US direct sizes',value:r.sizes},
+      {label:'Illustrative 18 g bean cost',value:'About $' + doseCost + ' using the dated 12 oz price; excludes shipping, tax, dialing waste and other drink costs'}
     ],
     sections:[
-      {id:'identity',title:'What the current product record establishes',paragraphs:[
-        r.identity,
-        'The official product feed showed the 12 oz option available at ' + r.price.split(' for ')[0] + ' on October 15, 2026 and supplied the credited bag image. This is a dated US listing, not a checkout total or future stock guarantee. The product reviewed is ' + r.coffee + ', not a similarly named caffeinated coffee. [1] [2]'
-      ]},
-      {id:'flavor',title:'Roaster notes and external samples have different roles',paragraphs:[
-        r.flavor,
-        'Our decision is about buying fit rather than a sensory score. The roaster direction of ' + noteDirection + ' may help you select a first bag, but origin, roast date, water, grind and brewing can change what you notice. If the first bag misses your preference, use that observation to guide the next purchase rather than treating published notes as a guarantee.'
-      ]},
+      {id:'identity',title:'What the current product record establishes',paragraphs:[r.identity]},
+      {id:'flavor',title:'Roaster notes and external samples have different roles',paragraphs:[r.flavor]},
       {id:'brewing',title:'Choose the brew before the larger pack',paragraphs:[r.brew,r.limit]},
       {id:'freshness',title:'Make a freshness and storage plan',paragraphs:[
-        'Check a roast date on the bag or ask the seller how the bag is dated. A product photograph is not evidence about the bag shipped to you. Keep opened whole beans sealed, cool and dry, and grind near brewing. Stumptown’s storage advice cautions against repeated freezer transfers because moisture and odors are practical risks. [8]',
-        'The checked size choices are ' + r.sizes + '. A 5 lb option is a café-scale purchase, not automatically a household saving. Estimate weekly decaf use before scaling up. If you switch regular and decaf in one grinder, old beans in the hopper and retained grounds are additional workflow costs. [1] [2]'
+        'Store sealed, cool and dry; grind near brewing. [8]',
+        decafPackPlanning[r.slug]
       ]},
       {id:'value',title:'Price is a dated comparison, not a promise',paragraphs:[
-        'The verified US direct base listing was ' + r.price + ' on October 15, 2026. An illustrative 18 g dose from a 12 oz bag contains about $' + doseCost + ' of beans before dialing waste, shipping, tax, water, milk and equipment. That is transparent pack arithmetic, not a measured drink cost or quality score. [2]',
-        'A subscription, retailer promotion or delivery fee can change the checkout total. Verify the selected bag, roast date, stock and cart before buying. A lower per-ounce bulk price loses its value if you cannot finish the beans while they still taste good to you.'
+        decafValueJudgment[r.slug]
       ]},
       {id:'alternatives',title:'Choose the alternative for its documented role',paragraphs:[
-        'Compare ' + r.altName + ' if ' + r.altWhy + '. That is a difference in documented brew fit, not a blind taste ranking. Its full review carries a separate source and price boundary. [7]',
-        'Decaf is not necessarily caffeine-free. The US FDA says an eight-fluid-ounce brewed decaf cup typically has 2–15 mg caffeine. That population range is not an assay of ' + r.coffee + ' or your serving. A process label and flavor note cannot substitute for product-specific measurement when exact exposure matters. [5]'
+        'Compare ' + r.altName + ' if ' + r.altWhy + '. [7]'
       ]}
     ],
     alternatives:[
@@ -187,12 +196,10 @@ const makeReview = (r: RecordData): BeanReviewData => {
       {title:'Coffee grinder reviews',reason:'Match bean switching and adjustment to your routine.',href:'/grinder/',internal:true}
     ],
     faqs:[
-      {question:'Is ' + r.coffee + ' completely caffeine-free?',answer:'No decaf label proves zero caffeine in the brewed cup. The FDA’s typical range is not a measurement of this bag.'},
+      {question:'Is ' + r.coffee + ' completely caffeine-free?',answer:'The label does not establish zero caffeine in your cup.'},
       {question:'How is ' + r.coffee + ' decaffeinated?',answer:r.process + '. Check the current listing and bag for any lot-specific exception.'},
       {question:'What does ' + r.coffee + ' taste like?',answer:r.roaster + ' describes ' + noteDirection + '. Coffeedant has not tasted it or assigned a sensory score.'},
       {question:'Which brewing method fits it best?',answer:r.role + '. Follow the official method-specific recipe where available and adjust for your actual brewer.'},
-      {question:'Which bag size should I start with?',answer:'The 12 oz bag is the clearest first trial. Larger sizes need a proven consumption pace.'},
-      {question:'How should I store an opened bag?',answer:'Keep whole beans sealed, cool and dry; avoid moisture and repeated freezer transfers; grind near brewing.'}
     ],
     sources:[
       {id:'s1',title:r.roaster + ': ' + r.coffee + ' product page',href:r.official,note:'Exact identity, process, notes, brew role and current details where disclosed.',checked:date},

@@ -12,8 +12,6 @@ const sitemapFile = path.join(dist, 'sitemap.xml');
 const referenceRoute = '/espresso-machine/breville-barista-express-bes870xl/';
 const strict = process.argv.includes('--strict');
 const help = process.argv.includes('--help') || process.argv.includes('-h');
-const minimumEditorialWords = 4700;
-const maximumEditorialWords = 5500;
 
 const productRoutePattern = /^\/(?:espresso-machine|coffee-machine|grinder)\/[^/]+\/$/;
 const blogRoutePattern = /^\/blog\/[^/]+\/$/;
@@ -49,7 +47,7 @@ const skippedTextClasses = new Set([
 
 const usage = `Usage: node scripts/audit-canonical-article-parity.mjs [--strict]\n\n`+
   'Reads dist/sitemap.xml and built article HTML. The default baseline mode always exits 0.\n' +
-  'Pass --strict to exit 1 when an article is outside the accepted reference-volume range or misses a required module.';
+  'Pass --strict to exit 1 when an article misses a required module. Word counts are informational; length is not a quality target.';
 
 if (help) {
   console.log(usage);
@@ -358,7 +356,6 @@ const inspectArticle = ({ route, type, benchmarkWords, benchmarkContext, moduleS
       type,
       state: 'MISSING',
       words: 0,
-      wordParity: false,
       modulesPassed: 0,
       modulesTotal: moduleSets[type].length,
       missing: ['built-html'],
@@ -373,14 +370,12 @@ const inspectArticle = ({ route, type, benchmarkWords, benchmarkContext, moduleS
   const missing = modules
     .filter((module) => module.metric(context) < module.minimum)
     .map((module) => module.id);
-  const wordParity = words >= minimumEditorialWords && words <= maximumEditorialWords;
 
   return {
     route,
     type,
-    state: wordParity && !missing.length ? 'PASS' : 'GAP',
+    state: !missing.length ? 'PASS' : 'GAP',
     words,
-    wordParity,
     modulesPassed: modules.length - missing.length,
     modulesTotal: modules.length,
     missing,
@@ -437,7 +432,7 @@ const run = () => {
   console.log(`Canonical article parity audit (${strict ? 'strict' : 'baseline'} mode)`);
   console.log(`Sitemap: ${path.relative(root, sitemapFile)} (${locations.length} URLs)`);
   console.log(`Reference: ${referenceRoute} (${benchmarkWords} words)`);
-  console.log(`Target: ${minimumEditorialWords}-${maximumEditorialWords} words plus every required module for the classified article type`);
+  console.log('Target: every required module for the classified article type; word counts are informational, without a quota');
   if (!strict) console.log('Baseline mode is report-only; parity gaps do not change the exit code.');
 
   console.log('\nProduct review modules (minimum benchmark count):');
@@ -462,7 +457,6 @@ const run = () => {
   const blogReports = reports.filter((report) => report.type === 'blog-article');
   const passing = reports.filter((report) => report.state === 'PASS');
   const gaps = reports.filter((report) => report.state !== 'PASS');
-  const outsideWordTarget = reports.filter((report) => !report.wordParity);
   const missingModules = reports.filter((report) => report.missing.length);
 
   console.log('\nSummary:');
@@ -472,7 +466,6 @@ const run = () => {
   );
   console.log(`  Full parity: ${passing.length}`);
   console.log(`  Gaps: ${gaps.length}`);
-  console.log(`  Outside ${minimumEditorialWords}-${maximumEditorialWords} words: ${outsideWordTarget.length}`);
   console.log(`  Missing one or more required modules: ${missingModules.length}`);
   for (const issue of setupIssues) console.log(`  Setup issue: ${issue}`);
 

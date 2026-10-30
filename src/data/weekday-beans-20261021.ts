@@ -257,8 +257,6 @@ const reviews: BeanReviewData[] = beans.map((r) => ({
     {question:`How should I brew ${r.coffee}?`,answer:r.brewing[0].replace(/ \[\d+\]/g,'')},
     {question:'Are the origins and varieties fixed?',answer:r.origin+' '+r.variety+' Check the delivered bag for any current component panel.'},
     {question:'What package is pictured?',answer:r.imageCredit},
-    {question:'Is the listed price guaranteed?',answer:'No one-time delivered US pack price was verified at this check. Confirm size, order mode, tax and shipping in the live cart.'},
-    {question:'How should I keep the beans?',answer:'Check the roast date, seal opened whole beans away from air and heat, and grind shortly before brewing.'}
   ],
   sources:[
     {id:'s1',title:`Blue Bottle US: ${r.coffee}`,href:r.official,note:'Current product identity, roast label, roaster notes, stated brew role and selector limitations.',checked},

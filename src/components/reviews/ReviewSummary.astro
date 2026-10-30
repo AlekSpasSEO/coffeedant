@@ -40,7 +40,7 @@ const amazonCheckedLabel = amazonLink ? getAmazonOfferCheckedLabel(amazonLink) :
         <div><dt>Published</dt><dd><time datetime={review.published}>{formatDate(review.published)}</time></dd></div>
         <div><dt>Updated</dt><dd><time datetime={review.updated}>{formatDate(review.updated)}</time></dd></div>
       </dl>
-      <p><strong>A note from the author</strong>{review.author.note}</p>
+      {review.author.note.trim() !== review.assessment.trim() && <p><strong>A note from the author</strong>{review.author.note}</p>}
     </aside>
   </div>
 
