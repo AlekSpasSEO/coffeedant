@@ -2999,6 +2999,55 @@ published bean-review revisions still defer the regional bundle. The existing
 107-page public editions are retained. No new public launch or full-edition
 completion is claimed; ready-page publication and continuation stay enabled.
 
+### Direct batch 58: six current bean-review repairs and FAQ coherence (2026-10-30)
+
+`review-source-repair-batch-58` directly translates 58 distinct current slots
+for Apollo, Monarch, Fast Forward, Gradient, Geometry and Southern Weather in
+NL/DE/FR. Passing cached wording completes all other current source text,
+metadata, accessible labels, source links and structured answers.
+
+| Review | Source words | Paragraphs | FAQ answers |
+| --- | ---: | ---: | ---: |
+| Apollo | 1,718 | 49 | 6 |
+| Monarch | 1,736 | 49 | 6 |
+| Fast Forward | 1,751 | 52 | 4 |
+| Gradient | 1,596 | 47 | 4 |
+| Geometry | 1,588 | 44 | 3 |
+| Southern Weather | 1,546 | 44 | 3 |
+
+Source QA found Fast Forward's descriptive FAQ prompts paired with existing
+yes/no answers. Its two prompts now ask whether origins are fixed and whether
+both drip and espresso are supported. All answers, negations, facts, prices,
+dates and URLs remain unchanged. Optional per-record question labels preserve
+other records. Existing translated question wording is reused. The built-page
+validator checks both visible questions and JSON-LD, and a fixture-only check
+confirms that it rejects the prior mismatched prompts without modifying files.
+The original frozen snapshot is preserved; the adjacent `-current.source.json`
+records the corrected full-page hash with the same 58 authored indices.
+
+The new comparisons remain proposed reader trials, not Coffeedant tasting or
+extraction results. They preserve washed Ethiopian versus Colombian records,
+roast-date changes, milk quantity, separate brew/grind methods and adjustment
+waste. Flavor notes are not added ingredients; one grinder setting is not
+claimed to serve both methods. All historical US price and recipe limitations,
+roaster attribution and registered routes remain intact.
+
+The import adds 58 entries per edition with no changes to prior cached wording.
+All 209 localization and 20 SEO tests pass, along with analytics, all 35 bean
+reviews and the 151-machine / seven-grinder Finder validators. Eighteen complete
+native preview comparisons pass for all bodies, metadata, every schema/FAQ,
+links, image/SVG geometry, accessible attributes, scripts and runtime data.
+Every previously current complete page remains ready, including Dutch dosing.
+
+Current inventory is 659 pages / 56,461 segments; shared FAQ prompts remove four
+redundant current text/JSON IDs without deleting cached evidence. Each edition
+has 87 current complete indexable pages plus 404. NL has 12,371 translated /
+44,090 pending; DE/FR each have 12,393 / 44,068. There remain 186 non-watch and
+385 watch pages incomplete. Fourteen revised bean reviews are now current;
+21 other published bean-review revisions still defer the regional bundle.
+The existing 107-page public editions are retained. No full-edition completion
+or new regional launch is claimed; publication mode and continuation stay enabled.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

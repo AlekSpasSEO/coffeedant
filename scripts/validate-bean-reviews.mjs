@@ -42,6 +42,16 @@ for (const item of manifest) {
   const schema = nodes.filter((node) => node.tagName === 'script' && attr(node, 'type') === 'application/ld+json').map((node) => text(node));
   if (!schema.some((item) => item.includes('"Product"') && item.includes('"Article"') && item.includes('"BreadcrumbList"') && item.includes('"FAQPage"'))) errors.push(`${item.slug}: incomplete schema`);
   if (schema.some((item) => /aggregateRating|reviewRating/.test(item))) errors.push(`${item.slug}: numeric score on untested coffee`);
+  if (item.slug === '/coffee-beans/counter-culture-fast-forward/') {
+    const faq = schema.flatMap((value) => { const parsed = JSON.parse(value); return parsed['@graph'] ?? [parsed]; }).find((value) => value['@type'] === 'FAQPage');
+    const visibleQuestions = scope.filter((node) => node.tagName === 'h3').map((node) => text(node).replace(/\s+/g, ' ').trim());
+    for (const [question, answer] of [
+      ['Are the origins fixed?', 'No. The origin mix rotates by roast-date period; match the actual bag date to the selector.'],
+      ['Can I use it for drip as well as espresso?', 'Yes, Counter Culture names both auto-drip and espresso, but its 1:17 suggestion is a filter starting point. Dial espresso separately.'],
+    ]) {
+      if (!visibleQuestions.includes(question) || !faq?.mainEntity?.some((entry) => entry.name === question && entry.acceptedAnswer?.text === answer)) errors.push(`${item.slug}: origin and brew FAQ prompts must match their yes/no answers in visible text and schema`);
+    }
+  }
   const localLinks = scope.filter((node) => node.tagName === 'a').map((node) => attr(node, 'href')).filter((href) => href.startsWith(base) && !href.startsWith('//'));
   for (const href of localLinks) {
     const relative = href.slice(base.length).split(/[?#]/)[0];

@@ -14,7 +14,8 @@ type RecordData = {
   externalTitle:string; externalUrl:string; externalNote:string;
   ownerTitle:string; ownerUrl:string; ownerNote:string;
   altName:string; altSlug:string; altReason:string;
-  faqBrew:string; faqIdentity:string; extraSourceTitle:string; extraSourceUrl:string; extraSourceNote:string;
+  faqBrew:string; faqIdentity:string; faqBrewQuestion?:string; faqIdentityQuestion?:string;
+  extraSourceTitle:string; extraSourceUrl:string; extraSourceNote:string;
 };
 
 const records: RecordData[] = [
@@ -60,7 +61,9 @@ const records: RecordData[] = [
     ownerNote:'Older self-selected grocery-bag account; no current-lot or population inference.',
     altName:'Counter Culture Big Trouble', altSlug:'/coffee-beans/counter-culture-big-trouble/',
     altReason:'a more caramel-led medium-dark Counter Culture brief',
+    faqBrewQuestion:'Can I use it for drip as well as espresso?',
     faqBrew:'Yes, Counter Culture names both auto-drip and espresso, but its 1:17 suggestion is a filter starting point. Dial espresso separately.',
+    faqIdentityQuestion:'Are the origins fixed?',
     faqIdentity:'No. The origin mix rotates by roast-date period; match the actual bag date to the selector.',
     extraSourceTitle:'Counter Culture on year-round blends', extraSourceUrl:yearRound,
     extraSourceNote:'Why component coffees change while a flavor target stays.'
@@ -290,9 +293,9 @@ const makeReview = (r:RecordData):BeanReviewData => ({
     {title:'Coffee bean reviews',reason:'Browse other roast, brew and caffeine choices.',href:'/coffee-beans/',internal:true}
   ],
   faqs:[
-    {question:'What is ' + r.coffee + '?',answer:r.faqIdentity},
+    {question:r.faqIdentityQuestion ?? 'What is ' + r.coffee + '?',answer:r.faqIdentity},
     {question:'What does ' + r.coffee + ' taste like?',answer:r.roaster + ' describes ' + r.notes + '. Coffeedant has not tasted this coffee.'},
-    {question:'Which brewing method fits ' + r.coffee + '?',answer:r.faqBrew},
+    {question:r.faqBrewQuestion ?? 'Which brewing method fits ' + r.coffee + '?',answer:r.faqBrew},
     {question:'Is the listed price guaranteed?',answer:'No. The US direct base for 12 oz was ' + r.price.split(' for ')[0] + ' on October 16, 2026; shipping, tax, promotions and stock can change.'},
   ],
   sources:[
