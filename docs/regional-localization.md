@@ -2922,7 +2922,7 @@ two bean reviews and both espresso guides. Their 12 complete-body comparisons
 include all metadata, schema/FAQ, links, accessible labels and runtime data;
 the actual compiled schematic handlers pass 18 native-language interactions.
 
-Current source inventory is 659 pages / 56,457 segments. Each edition has 75
+At source base `848f9c7`, inventory was 659 pages / 56,457 segments. Each edition had 75
 current complete indexable pages plus 404. NL has 12,269 translated / 44,188
 pending; DE/FR each have 12,291 / 44,166. There remain 198 non-watch and 385
 watch pages incomplete. These are current-source readiness counts, not the
@@ -2932,6 +2932,37 @@ The remaining 33 bean-review revisions defer the regional bundle. Existing
 successful regional deployments remain in service; this batch is not described
 as publicly deployed. No full-edition flag is set complete, no published path is
 renamed, and approved ready-page publication and continuation remain enabled.
+
+### Direct batch 56: Big Trouble and French Roast revision repairs (2026-10-30)
+
+`review-source-repair-batch-56` freezes and directly translates all 13 missing
+current slots for `/coffee-beans/counter-culture-big-trouble/` and
+`/coffee-beans/stumptown-french-roast/` into NL/DE/FR. Passing cached text covers
+the rest of both complete articles. Big Trouble has 2,019 source words and 59
+paragraphs; French Roast has 2,200 source words and 63 paragraphs. Each retains
+all six visible and structured FAQ answers, metadata, evidence, accessible labels,
+external-video attribution and source links. All registered routes stay unchanged.
+
+The first-bag comparisons remain proposed reader experiments, not Coffeedant
+tastings. French Roast still describes roast style rather than French origin.
+The larger-bag decision follows actual household consumption; dark beans are
+not claimed to keep indefinitely. Original US prices, package sizes and dates
+remain source facts, with no converted local offers or new purchase claims.
+
+The import adds 13 entries per edition and changes no previous cached wording.
+All 207 localization and 20 SEO tests pass, as do analytics (659 content pages /
+16 redirects), 35 bean-review and 151-machine / seven-grinder Finder validators.
+Six whole-page native preview checks pass, including full bodies, metadata,
+schema/FAQ, links, image attributes and runtime data. Every previously current
+complete route remains ready, including Dutch `/journal/espresso-doseren/`.
+
+Current source inventory is 659 pages / 56,465 segments. Each edition has 77
+current complete indexable pages plus 404. NL has 12,282 translated / 44,183
+pending; DE/FR each have 12,304 / 44,161. There remain 196 non-watch and 385
+watch pages incomplete. Four of the revised bean reviews are now current;
+31 other published bean-review revisions still defer the regional bundle.
+The guard retains the existing successful release with 107 public indexable
+pages per edition. No new production launch or full-edition completion is claimed.
 
 ## Missing configuration
 
