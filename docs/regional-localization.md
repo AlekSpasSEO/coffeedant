@@ -2773,6 +2773,45 @@ Coverage is NL 12,123 translated / 44,440 pending, DE 12,218 / 44,345 and
 FR 12,148 / 44,415. There remain 168 non-watch and 385 watch pages pending.
 Full-edition flags remain false, and incremental publication continues.
 
+### Direct batch 53: complete AeroPress guide and reviewed German wording (2026-10-30)
+
+The complete current AeroPress guide is directly authored for NL/DE/FR using
+the immutable `aeropress-beans-guide-batch-53` snapshot: 108 slots / 91
+distinct strings, covered by 87 triples and four proper-name approvals.
+Existing NL and DE AeroPress URLs are preserved; only the FR route is new.
+The full article contains 1,900 source words, 61 paragraphs, two comparison
+tables and seven visible/structured FAQ answers per edition, including
+metadata, accessible/mobile labels, source attribution and links.
+
+Prior automatic German wording passed structural validation but included
+editorial and factual faults: “honeysuckle” became “Akazie”, “whole-bean” became
+“Vollkorn”, and several paragraphs retained awkward English fragments. This
+batch corrects 63 existing slots within this still-unpublished guide, retaining
+sound cached wording. The correction guard requires every changed old ID to
+belong to its frozen snapshot and forbids changing text used by any previously
+ready page. Other old cache text and every registered URL remain unchanged.
+
+Onyx's 14 g/210 g at 205°F, 50 g bloom and 1:15 full-cup method remain distinct
+from Stumptown's general 17 g/220 g, about 205°F and 1:13 start. Hair Bender's
+older iced suggestion does not acquire an invented exact product recipe.
+Hot coffee cooled with ice remains distinct from cold extraction. Variable
+components, paper-filter setup, manufacturer handling advice, source-market
+context and no tasting/price/stock guarantees are preserved.
+
+The two new regressions pass within 189 localization tests and nine SEO tests.
+Analytics covers 659 current pages / 16 redirects; Finder 151 records / seven
+grinders, all 35 bean reviews and 43-brand navigation pass. Whole-page preview,
+production and public verification are required before calling this batch live.
+Expected readiness is 106 complete indexable pages plus 404 per edition; the
+unfinished cold-brew guide remains an English destination with a native notice.
+
+The source inventory remains 659 canonical pages / 56,563 slots. New entries
+are NL/FR 108 each and DE 27; the 63 corrected German slots are not counted as
+new coverage. Expected totals are NL 12,231 translated / 44,332 pending,
+DE 12,326 / 44,237 and FR 12,256 / 44,307. There remain 167 non-watch and 385
+watch pages incomplete. All full-edition flags remain false; continuation and
+incremental ready-pages publication stay enabled.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

@@ -1,0 +1,661 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/coffee-beans/best-coffee-beans-for-aeropress/",
+      "sourceHash": "0660c73a38ebe4079d9c00c1f73d691b460edf4e33de52c1b361f61c2b9215ce"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "c670223564e7868af80f57784c0cd4b713c4fd06e1022e8ee1a0def453a074d9",
+      "source": "Best Coffee Beans for AeroPress by Cup Style | Coffeedant",
+      "kind": "text",
+      "context": "Best Coffee Beans for AeroPress by Cup Style | Coffeedant"
+    },
+    {
+      "id": "8796c57c8311eb483613830809647b002ddda3903afc5d6845c5ab46e0d3b8c4",
+      "source": "Three US whole-bean AeroPress starting points for a fruit-led black cup, a chocolate-fruit daily cup, and iced concentrate, with roaster recipes and evidence limits.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "e6eb3c4ed03da653af85c1dcf7922d7898c6daa23d433d3897f74433dfc3e4a4",
+      "source": "Best Coffee Beans for AeroPress by Cup Style | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "0dcaf03433856356ebbbaae942ddaff3e738639ebf8c1bccabb8cdc64b189ae9",
+      "source": "AeroPress",
+      "kind": "text",
+      "context": "AeroPress"
+    },
+    {
+      "id": "63ced8e966630e977e30e8b5a4bb594955eca351e94b285d63239d618d56069c",
+      "source": "Best Coffee Beans for AeroPress by Cup Style",
+      "kind": "text",
+      "context": "Best Coffee Beans for AeroPress by Cup Style"
+    },
+    {
+      "id": "b2a380217b786e473d10a1fd390e6ff91549ebae8dfc9562a2566f34391184a2",
+      "source": "Choose a fruit-led black cup, a chocolate-fruit daily cup or an iced stronger brew. Three exact whole beans have different reasons to buy and skip.",
+      "kind": "text",
+      "context": "Choose a fruit-led black cup, a chocolate-fruit daily cup or an iced stronger brew. Three exact whole beans have different reasons to buy and skip."
+    },
+    {
+      "id": "53278474dfcedc584ca1e72739e7f0d6f06956397766483f6aa79b09d1e25ef0",
+      "source": "October 30, 2026",
+      "kind": "text",
+      "context": "October 30, 2026"
+    },
+    {
+      "id": "1dd835a9efa828033cbe5364fa53fefa088d7fbb89b4bab8647ce951a2b32e11",
+      "source": "I compared current roaster listings and AeroPress guides with our full reviews. I have not bought, brewed or tasted these bags. The best-for labels are research-led buying judgments.",
+      "kind": "text",
+      "context": "I compared current roaster listings and AeroPress guides with our full reviews. I have not bought, brewed or tasted these bags. The best-for labels are research-led buying judgments."
+    },
+    {
+      "id": "7483e87f87248001ff07dde49118e971d4e49028f5f435bb8bfb25b7d181de99",
+      "source": "Choose your AeroPress bean",
+      "kind": "text",
+      "context": "Choose your AeroPress bean"
+    },
+    {
+      "id": "db0118669ae44d2d5dd044064791086a6d004d12bb043d5c8aafdef4dc92d047",
+      "source": "Choose a cup, then choose a bag",
+      "kind": "text",
+      "context": "Choose a cup, then choose a bag"
+    },
+    {
+      "id": "3cbba0c1fa123d2580b0e62d0dfc8f39a1b9d35f6795d330703f757a872bd7b3",
+      "source": "Keep the first brew comparable",
+      "kind": "text",
+      "context": "Keep the first brew comparable"
+    },
+    {
+      "id": "a1e1b3a0a1ec4e77500cc6df423017a17a9ef5216c7b430dc55ee0f00d66be98",
+      "source": "An iced cup needs a dilution plan",
+      "kind": "text",
+      "context": "An iced cup needs a dilution plan"
+    },
+    {
+      "id": "c7cc96363ea087db79f84e3eeb1757f7f5fe7d382fe769019e05f19a80f893ae",
+      "source": "Check the delivered bag",
+      "kind": "text",
+      "context": "Check the delivered bag"
+    },
+    {
+      "id": "57404d488b1ac42f1f838f74e55cccb5c5b8c04c3b7c655fe0ec76b8e924aad4",
+      "source": "When another coffee makes more sense",
+      "kind": "text",
+      "context": "When another coffee makes more sense"
+    },
+    {
+      "id": "d27d04db69eb49140e0fabbc74966b77acf79ccc27d58eb05219aeba85e73cac",
+      "source": "This is a shortlist for US buyers of whole beans using an AeroPress Original-style paper-filter brewer. We required an exact currently identifiable coffee, a full Coffeedant review, a roaster-attributed flavor direction and a documented AeroPress use. We excluded ground-only products, uncertain identities and coffees recommended only by a generic “works for everything” label.",
+      "kind": "text",
+      "context": "This is a shortlist for US buyers of whole beans using an AeroPress Original-style paper-filter brewer. We required an exact currently identifiable coffee, a full Coffeedant review, a roaster-attributed flavor direction and a documented AeroPress use. We excluded ground-only products, uncertain identities and coffees recommended only by a generic “works for everything” label. [1] [4] [5]"
+    },
+    {
+      "id": "853dce81e15261c5e2e5c672472bfddacd9b6ea3007ff45dc48a97d37439e2cc",
+      "source": "Geometry and Southern Weather have Onyx product-specific recipe blocks; Hair Bender has a Stumptown iced-use suggestion plus the roaster’s general AeroPress recipe. That is an evidence difference, not a ranking of cup quality. A brewer recipe can establish an intended use, but only your actual bag, grinder, water and taste can establish your preference. Coffeedant has not brewed or tasted these coffees.",
+      "kind": "text",
+      "context": "Geometry and Southern Weather have Onyx product-specific recipe blocks; Hair Bender has a Stumptown iced-use suggestion plus the roaster’s general AeroPress recipe. That is an evidence difference, not a ranking of cup quality. A brewer recipe can establish an intended use, but only your actual bag, grinder, water and taste can establish your preference. Coffeedant has not brewed or tasted these coffees."
+    },
+    {
+      "id": "fc9f51b1014eb72e636e8ac473eeb296d049d5a4ae62cc3bfbe2e3c4e88d8f2d",
+      "source": "The decision differs from our pour-over guide: immersion time, stirring, a paper filter and manual pressing replace a cone dripper’s continuous flow. The same bean can taste different under those methods. If you want one bag for espresso and drip instead, use that separate comparison.",
+      "kind": "text",
+      "context": "The decision differs from our pour-over guide: immersion time, stirring, a paper filter and manual pressing replace a cone dripper’s continuous flow. The same bean can taste different under those methods. If you want one bag for espresso and drip instead, use that separate comparison."
+    },
+    {
+      "id": "2311ab92efcfb3bc373186a630408f942897ec78d6897b159498ad872a291e76",
+      "source": "Onyx specifies 14 g coffee and 210 g water at 205°F with a medium grind for its AeroPress method. Its sequence includes a 50 g bloom and stir, a pour to 210 g, capping, then an inverted flip and a short press. The displayed guide describes the method as emphasizing body and sweetness. Its same numeric start appears for Geometry and Southern Weather; it is not evidence that their actual cups are identical.",
+      "kind": "text",
+      "context": "Onyx specifies 14 g coffee and 210 g water at 205°F with a medium grind for its AeroPress method. Its sequence includes a 50 g bloom and stir, a pour to 210 g, capping, then an inverted flip and a short press. The displayed guide describes the method as emphasizing body and sweetness. Its same numeric start appears for Geometry and Southern Weather; it is not evidence that their actual cups are identical. [1]"
+    },
+    {
+      "id": "b5e9cc174072bdc8f18acf1f8363ba1bc9d0e3e7aed23ecfea2ea13acea0fe4f",
+      "source": "Stumptown’s general upright guide uses 17 g coffee and 220 g water at about 205°F, a finer grind, a stir and a press just before two minutes. The approximate 1:13 ratio is stronger than the Onyx 1:15 start. Do not compare coffees brewed under different ratios and call the difference a bean result. First hold one recipe and paper filter constant; then try the roaster’s approach for the chosen coffee.",
+      "kind": "text",
+      "context": "Stumptown’s general upright guide uses 17 g coffee and 220 g water at about 205°F, a finer grind, a stir and a press just before two minutes. The approximate 1:13 ratio is stronger than the Onyx 1:15 start. Do not compare coffees brewed under different ratios and call the difference a bean result. First hold one recipe and paper filter constant; then try the roaster’s approach for the chosen coffee. [4]"
+    },
+    {
+      "id": "9d43c8f05636dad2339b7d9d99130ce8cb65c3c80e5dcd59de5d0f13b5267d5f",
+      "source": "If you use an AeroPress Go, XL, Flow Control cap or metal filter, confirm capacity and the manufacturer’s handling guidance. The recipes here are starting points for the cited brewer setup, not guarantees that a marked chamber line equals a weighed water mass. Use a stable vessel and avoid an unsafe inversion when handling hot water.",
+      "kind": "text",
+      "context": "If you use an AeroPress Go, XL, Flow Control cap or metal filter, confirm capacity and the manufacturer’s handling guidance. The recipes here are starting points for the cited brewer setup, not guarantees that a marked chamber line equals a weighed water mass. Use a stable vessel and avoid an unsafe inversion when handling hot water. [7]"
+    },
+    {
+      "id": "de352254d71d14d9ef70fa824ba18b9898d34330a3f48b389a66f1a8a996c667",
+      "source": "Three cup styles",
+      "kind": "text",
+      "context": "Three cup styles"
+    },
+    {
+      "id": "1356d50703ee030fa1d15bb4ae865f3eaaffcea7ded71839994bd31523ec5e74",
+      "source": "Scrollable AeroPress bean comparison",
+      "kind": "attribute",
+      "context": "Three cup stylesQuick comparisonUS whole-bean identities checked October 30, 2026; no delivered-price rankingCoffeeBest forRoaster flavor briefSkip ifOnyx Coffee Lab GeometryFruit-led black cupBerries, stone fruit, Earl Grey and honeysuckle, per OnyxYou want dark chocolate first or a fixed single-origin lot.Onyx Coffee Lab Southern WeatherChocolate-fruit daily cupMilk chocolate, plum, candied walnuts and citrus finish, per OnyxYou want a strongly floral cup or a dark, roast-forward coffee.Stumptown Coffee Roasters Hair BenderIced, stronger AeroPressCitrus, dark chocolate and raisin, per StumptownYou only want a delicate hot black cup or require a current exact iced recipe."
+    },
+    {
+      "id": "240f22c1d89470e3cf2727c6789d975080c14cc740cec7c109afcf544b14f2bd",
+      "source": "US whole-bean identities checked October 30, 2026; no delivered-price ranking",
+      "kind": "text",
+      "context": "US whole-bean identities checked October 30, 2026; no delivered-price ranking"
+    },
+    {
+      "id": "d083a559083f6655f224b69d53dba006a12447500c120f7ec4a86bbdf9713673",
+      "source": "Fruit-led black cup",
+      "kind": "text",
+      "context": "Fruit-led black cup"
+    },
+    {
+      "id": "4d599fdd13ae1ecf2c5aef7cc54e0bba6137b1d0ab04ed1be1a3b1773647abad",
+      "source": "Berries, stone fruit, Earl Grey and honeysuckle, per Onyx",
+      "kind": "text",
+      "context": "Berries, stone fruit, Earl Grey and honeysuckle, per Onyx"
+    },
+    {
+      "id": "fdc2c17329ee8d4eb0445eea46439167c98105dce95435cb51026e8e655c14fd",
+      "source": "You want dark chocolate first or a fixed single-origin lot.",
+      "kind": "text",
+      "context": "You want dark chocolate first or a fixed single-origin lot."
+    },
+    {
+      "id": "5075e1532cf219fbe10c8e1b65011a43a01189bb5f5c00a1cad9ebafeae3e305",
+      "source": "Chocolate-fruit daily cup",
+      "kind": "text",
+      "context": "Chocolate-fruit daily cup"
+    },
+    {
+      "id": "1651d602e068576cb2d2f4210d3f9ac7e5ac021c3e3675b8c941a7a547a3d448",
+      "source": "Milk chocolate, plum, candied walnuts and citrus finish, per Onyx",
+      "kind": "text",
+      "context": "Milk chocolate, plum, candied walnuts and citrus finish, per Onyx"
+    },
+    {
+      "id": "fd13b983394c5a32858648a548595b015ad5446892c54d65e81e6c355d3154be",
+      "source": "You want a strongly floral cup or a dark, roast-forward coffee.",
+      "kind": "text",
+      "context": "You want a strongly floral cup or a dark, roast-forward coffee."
+    },
+    {
+      "id": "8a4d9eeec6189be31f794bd4141763c20188bcc2f0462f7811568ae7ea1da517",
+      "source": "Iced, stronger AeroPress",
+      "kind": "text",
+      "context": "Iced, stronger AeroPress"
+    },
+    {
+      "id": "4f438e041c75fb0661ee2842755206c70954e9d719505281d8caf2cad155b3af",
+      "source": "Citrus, dark chocolate and raisin, per Stumptown",
+      "kind": "text",
+      "context": "Citrus, dark chocolate and raisin, per Stumptown"
+    },
+    {
+      "id": "353265570549b600dad70f66415177939f6525d80fd8fb0a58ed63d2f33f1e91",
+      "source": "You only want a delicate hot black cup or require a current exact iced recipe.",
+      "kind": "text",
+      "context": "You only want a delicate hot black cup or require a current exact iced recipe."
+    },
+    {
+      "id": "c00ed3ef5555e1227df2e727511292f50e18ed9a281da18255ddf9d10cd2d661",
+      "source": "Reasons to choose",
+      "kind": "text",
+      "context": "Reasons to choose"
+    },
+    {
+      "id": "07e7e6d62fbe3edf0943a997d3da0b4a6f10322179eeac2edf1b237799c791a2",
+      "source": "Onyx gives Geometry an explicit AeroPress recipe and describes a washed Ethiopian and Colombian blend that also works as filter coffee.",
+      "kind": "text",
+      "context": "Why: Onyx gives Geometry an explicit AeroPress recipe and describes a washed Ethiopian and Colombian blend that also works as filter coffee."
+    },
+    {
+      "id": "2abe7c9365f84f481c93315babc21222bdcce5df5d8cf26f63fabdcba8de8611",
+      "source": "The 1:15 recipe is a full cup, not a concentrate; its component lots can rotate.",
+      "kind": "text",
+      "context": "Tradeoff: The 1:15 recipe is a full cup, not a concentrate; its component lots can rotate."
+    },
+    {
+      "id": "5ecd557223d80f4776d0e5661d67d924af76337a81633fb014ac8707d84be751",
+      "source": "Onyx publishes the same AeroPress starting method and positions this moderate blend as a house filter coffee with chocolate and citrus balance.",
+      "kind": "text",
+      "context": "Why: Onyx publishes the same AeroPress starting method and positions this moderate blend as a house filter coffee with chocolate and citrus balance."
+    },
+    {
+      "id": "0cff3ca6a76ea921990b06deb2986bf5ae9ee6380facf8b4cdfa7efbc6c0f096",
+      "source": "The shared recipe does not prove it tastes better than Geometry; the flavor brief and current bag decide fit.",
+      "kind": "text",
+      "context": "Tradeoff: The shared recipe does not prove it tastes better than Geometry; the flavor brief and current bag decide fit."
+    },
+    {
+      "id": "d41ab13771fb355ff886b9331c7c7d56d8fd957bd6f1742f6d3407b55f1685ea",
+      "source": "Stumptown explicitly names Hair Bender for an iced AeroPress use. Its current whole-bean page identifies a versatile espresso blend.",
+      "kind": "text",
+      "context": "Why: Stumptown explicitly names Hair Bender for an iced AeroPress use. Its current whole-bean page identifies a versatile espresso blend."
+    },
+    {
+      "id": "fcc734f11986934981a886b47752c2e7f3506164e11c9bbd733bed76606c6e1c",
+      "source": "The iced suggestion is older and has no exact current Hair Bender dose. Start with the general method, then account for ice dilution.",
+      "kind": "text",
+      "context": "Tradeoff: The iced suggestion is older and has no exact current Hair Bender dose. Start with the general method, then account for ice dilution."
+    },
+    {
+      "id": "d23f18115bcf6c66869764709cc98d77cfab987484c75157ff55426dbc3a4488",
+      "source": "Compare the evidence",
+      "kind": "text",
+      "context": "Compare the evidence"
+    },
+    {
+      "id": "e8984994a0e5261792418160c6831cef09e19972d2a242570184cec3d6033e50",
+      "source": "Scrollable detailed AeroPress comparison",
+      "kind": "attribute",
+      "context": "Compare the evidenceDetailed comparisonRoaster methods and descriptions, not Coffeedant tasting resultsFactorGeometrySouthern WeatherHair BenderCup directionFruit-led black cupChocolate-fruit daily cupIced, stronger AeroPressRoaster methodOnyx AeroPress: 14 g coffee to 210 g water at 205°F; medium grindOnyx AeroPress: 14 g coffee to 210 g water at 205°F; medium grindStumptown general AeroPress: 17 g coffee to 220 g water; for iced Hair Bender, roaster suggests an inverted brew over ice without a fixed product-specific ratioFlavor briefBerries, stone fruit, Earl Grey and honeysuckle, per OnyxMilk chocolate, plum, candied walnuts and citrus finish, per OnyxCitrus, dark chocolate and raisin, per StumptownMain limitThe 1:15 recipe is a full cup, not a concentrate; its component lots can rotate.The shared recipe does not prove it tastes better than Geometry; the flavor brief and current bag decide fit.The iced suggestion is older and has no exact current Hair Bender dose. Start with the general method, then account for ice dilution.US checkoutVerify whole-bean size, roast date, stock, shipping and taxVerify whole-bean size, roast date, stock, shipping and taxVerify whole-bean size, roast date, stock, shipping and tax"
+    },
+    {
+      "id": "46b487ce5b0644e8bad3034c5b46884b32dc7d3767b395be96164b5d36e53949",
+      "source": "Roaster methods and descriptions, not Coffeedant tasting results",
+      "kind": "text",
+      "context": "Roaster methods and descriptions, not Coffeedant tasting results"
+    },
+    {
+      "id": "f6fd9bd838ad4d85617dbf79854706ccac581e3555c5cef3dbc50d412f8783d0",
+      "source": "Cup direction",
+      "kind": "text",
+      "context": "Cup direction"
+    },
+    {
+      "id": "4e35dc8990c2e820e35918dbdde94ed35baa5518cf7a2ca5b19f81b1bd804def",
+      "source": "Roaster method",
+      "kind": "text",
+      "context": "Roaster method"
+    },
+    {
+      "id": "00e2195013287f0b64bc1799ef3dc5cf1b318cd9c8989906066efe09fef1dda6",
+      "source": "Onyx AeroPress: 14 g coffee to 210 g water at 205°F; medium grind",
+      "kind": "text",
+      "context": "Onyx AeroPress: 14 g coffee to 210 g water at 205°F; medium grind"
+    },
+    {
+      "id": "85b4427963aa5b184f830f361186a74e24281edc21e17339a3fd4c823776cf57",
+      "source": "Stumptown general AeroPress: 17 g coffee to 220 g water; for iced Hair Bender, roaster suggests an inverted brew over ice without a fixed product-specific ratio",
+      "kind": "text",
+      "context": "Stumptown general AeroPress: 17 g coffee to 220 g water; for iced Hair Bender, roaster suggests an inverted brew over ice without a fixed product-specific ratio"
+    },
+    {
+      "id": "e027ac2cfe44f26490e591f8fd647f16897f403ee3d7ddd6d837308cfcd15fd6",
+      "source": "Flavor brief",
+      "kind": "text",
+      "context": "Flavor brief"
+    },
+    {
+      "id": "6ca91a68ff102eed52496af53ed5e1a23da7e1c6a846c3f1a5752e895214502b",
+      "source": "Stumptown’s older article explicitly recommends Hair Bender in an inverted AeroPress poured over ice. It does not provide a product-specific mass of coffee, brew water or ice. We therefore cannot reproduce a validated exact Hair Bender iced recipe from that article. Its general 17 g/220 g hot method offers a documented starting point, but ice will dilute and cool the cup. Record both brew water and ice before adjusting strength.",
+      "kind": "text",
+      "context": "Stumptown’s older article explicitly recommends Hair Bender in an inverted AeroPress poured over ice. It does not provide a product-specific mass of coffee, brew water or ice. We therefore cannot reproduce a validated exact Hair Bender iced recipe from that article. Its general 17 g/220 g hot method offers a documented starting point, but ice will dilute and cool the cup. Record both brew water and ice before adjusting strength. [4] [6]"
+    },
+    {
+      "id": "04a6808159ff96136f4a5195f89adf9fd051da0eb9ed6d856abe0672d8eeaa38",
+      "source": "An iced AeroPress is hot-brewed coffee cooled with ice; it is not cold brew. If the hot coffee tastes right but the finished drink tastes thin, changing the ice and water balance is a clearer experiment than assuming the bean is wrong. For a cold-extraction decision, read the separate cold-brew bean guide. No claim here says Hair Bender has been compared blind with the Onyx coffees.",
+      "kind": "text",
+      "context": "An iced AeroPress is hot-brewed coffee cooled with ice; it is not cold brew. If the hot coffee tastes right but the finished drink tastes thin, changing the ice and water balance is a clearer experiment than assuming the bean is wrong. For a cold-extraction decision, read the separate cold-brew bean guide. No claim here says Hair Bender has been compared blind with the Onyx coffees."
+    },
+    {
+      "id": "50d23a24dd4923a2d27b7fd560054a4a48138fd6d6d8b8c741225a70c5ac6ea7",
+      "source": "Flavor notes describe a roaster’s intended cup, not a promise for every roast date. Both Onyx blends can change components while retaining their named flavor briefs; inspect the current bag and product page. Hair Bender is a named blend, and Stumptown describes citrus, dark chocolate and raisin. Those are roaster notes, not Coffeedant tasting results.",
+      "kind": "text",
+      "context": "Flavor notes describe a roaster’s intended cup, not a promise for every roast date. Both Onyx blends can change components while retaining their named flavor briefs; inspect the current bag and product page. Hair Bender is a named blend, and Stumptown describes citrus, dark chocolate and raisin. Those are roaster notes, not Coffeedant tasting results. [2] [3] [5]"
+    },
+    {
+      "id": "a84fc7bab23bb718e79a5fa0382437b368b3bfabb6eebb6f48bc85566e057bc1",
+      "source": "Buy a whole-bean size you can finish while you enjoy it, check the roast date and package condition on arrival, close the bag tightly, store it cool and dry, and grind shortly before brewing. A direct listing does not prove the roast date or shipping condition of the individual bag you receive. This guide does not rank delivered price, stock or discounts; check the current US cart, size, shipping and tax before ordering.",
+      "kind": "text",
+      "context": "Buy a whole-bean size you can finish while you enjoy it, check the roast date and package condition on arrival, close the bag tightly, store it cool and dry, and grind shortly before brewing. A direct listing does not prove the roast date or shipping condition of the individual bag you receive. This guide does not rank delivered price, stock or discounts; check the current US cart, size, shipping and tax before ordering."
+    },
+    {
+      "id": "8482c6a6ac8d9a4bccd350ec318049c48b2b5aaab87efa6e55660969bf85caf2",
+      "source": "Choose Geometry when a berry and tea-like brief is the point of your black cup. Choose Southern Weather when you prefer a chocolate-led but still fruit-aware daily cup. If neither brief appeals, a documented darker coffee may fit better, but a roast label alone cannot tell you how it will taste in your brewer. The linked full reviews explain each product’s current scope and evidence.",
+      "kind": "text",
+      "context": "Choose Geometry when a berry and tea-like brief is the point of your black cup. Choose Southern Weather when you prefer a chocolate-led but still fruit-aware daily cup. If neither brief appeals, a documented darker coffee may fit better, but a roast label alone cannot tell you how it will taste in your brewer. The linked full reviews explain each product’s current scope and evidence. [2] [3]"
+    },
+    {
+      "id": "449f301dd7c6c876048c491dbbba2a561892cd9806d59b75dc360c7c61e8a891",
+      "source": "Hair Bender is the most directly named iced AeroPress option here, with a dark-chocolate and citrus brief. If you only make hot coffee and need a current product-specific recipe, the two Onyx options have stronger recipe evidence. If your priority is decaf, use our decaf-by-brew-method guide and verify its suggested method; none of these three is presented as a decaf.",
+      "kind": "text",
+      "context": "Hair Bender is the most directly named iced AeroPress option here, with a dark-chocolate and citrus brief. If you only make hot coffee and need a current product-specific recipe, the two Onyx options have stronger recipe evidence. If your priority is decaf, use our decaf-by-brew-method guide and verify its suggested method; none of these three is presented as a decaf. [1] [5] [6]"
+    },
+    {
+      "id": "b7edd052b968d92900d7c73a489c759b33e30f95027f3ba4d5fbc0ba2b5f40c3",
+      "source": "Choose by the method you actually use",
+      "kind": "text",
+      "context": "Choose by the method you actually use"
+    },
+    {
+      "id": "379103ea5086438d070cc8e8335bcbb1d41851acdc40846dd3d6c8facde92d23",
+      "source": "Pour-over beans",
+      "kind": "text",
+      "context": "Pour-over beans"
+    },
+    {
+      "id": "299e8cd4379a1585d4a3d4c7bbda6de56de626338169e3202541d5feaa731b8e",
+      "source": "Compare flow-through cone brewing by flavor direction.",
+      "kind": "text",
+      "context": "Compare flow-through cone brewing by flavor direction."
+    },
+    {
+      "id": "3a6ab6b957f9fd991f3824dde6aa59b068123a9040fc31ad4fcffa5de2440dca",
+      "source": "Cold-brew beans",
+      "kind": "text",
+      "context": "Cold-brew beans"
+    },
+    {
+      "id": "1df8aa428ca9b43fef5c3c9f4ecbfe54bbd339dd1b568ae8b893e03dbf8c806c",
+      "source": "Compare cold extraction rather than hot coffee over ice.",
+      "kind": "text",
+      "context": "Compare cold extraction rather than hot coffee over ice."
+    },
+    {
+      "id": "74be7da0892bc267ec3aed9c7e011e796bff1471e7fe0ab4c881bf240034cee5",
+      "source": "Decaf beans",
+      "kind": "text",
+      "context": "Decaf beans"
+    },
+    {
+      "id": "d6a54e5f4e12e0496cefffec9dd714c4554784a0c1a3f34ec264bf6502d42f67",
+      "source": "Choose a lower-caffeine bag for your brew method.",
+      "kind": "text",
+      "context": "Choose a lower-caffeine bag for your brew method."
+    },
+    {
+      "id": "74cbd6e98c9b08fe3be8a4bfc14ab086137207b0209b098275804ba76e8e5942",
+      "source": "We checked exact US whole-bean identities, current roaster descriptions, published AeroPress methods and our linked full reviews. We selected three different cup intentions, not a sensory winner. Coffeedant did not brew, taste, measure extraction or verify the roast date of a delivered bag.",
+      "kind": "text",
+      "context": "We checked exact US whole-bean identities, current roaster descriptions, published AeroPress methods and our linked full reviews. We selected three different cup intentions, not a sensory winner. Coffeedant did not brew, taste, measure extraction or verify the roast date of a delivered bag."
+    },
+    {
+      "id": "63eb3e06e1078ab2b8dec728dd7d09fe556f157500a6d8289b1372fbcde0b76c",
+      "source": "Onyx’s product-specific recipe blocks and Stumptown’s general method have different scopes. The older Stumptown Hair Bender iced suggestion is marked as such. No price, discount, stock guarantee or owner reliability claim is inferred from a product listing.",
+      "kind": "text",
+      "context": "Onyx’s product-specific recipe blocks and Stumptown’s general method have different scopes. The older Stumptown Hair Bender iced suggestion is marked as such. No price, discount, stock guarantee or owner reliability claim is inferred from a product listing."
+    },
+    {
+      "id": "085ac6ba197924dcd92f921050240065e0877cf699a971eb00d6127b6625f396",
+      "source": "AeroPress bean FAQ",
+      "kind": "text",
+      "context": "AeroPress bean FAQ"
+    },
+    {
+      "id": "2867ef0d39c2417422a6e3a77c3dd0e28e318b1df8f562d30c79b9bcdc7e8eb6",
+      "source": "Which pick has an exact roaster AeroPress recipe?",
+      "kind": "text",
+      "context": "Which pick has an exact roaster AeroPress recipe?"
+    },
+    {
+      "id": "bb74ddd82b0e9ef4367ba1fd2314d5621480db23393e1a6856bc37f3e9142fac",
+      "source": "Onyx publishes AeroPress blocks for Geometry and Southern Weather: 14 g coffee, 210 g water at 205°F and a medium grind. Check the live guide for its full sequence.",
+      "kind": "text",
+      "context": "Onyx publishes AeroPress blocks for Geometry and Southern Weather: 14 g coffee, 210 g water at 205°F and a medium grind. Check the live guide for its full sequence."
+    },
+    {
+      "id": "b163c8d801ef3a0fe43cce32d3b92baa3dd84f07f0a48fe143e4c5609dcdf85a",
+      "source": "Is Hair Bender only an espresso bean?",
+      "kind": "text",
+      "context": "Is Hair Bender only an espresso bean?"
+    },
+    {
+      "id": "d91b2a2fd11a989c43bfd33324263a69a19e21a760988a8f083118b948ddb420",
+      "source": "No. Stumptown describes the whole-bean blend across brew methods and explicitly suggests it for iced AeroPress in an older roaster article.",
+      "kind": "text",
+      "context": "No. Stumptown describes the whole-bean blend across brew methods and explicitly suggests it for iced AeroPress in an older roaster article."
+    },
+    {
+      "id": "56eeed3f1b112e60b27d67c689027f4a3bed8dee2a4b124d1df75817a2b17914",
+      "source": "Can I use Stumptown’s 17 g/220 g method for Onyx?",
+      "kind": "text",
+      "context": "Can I use Stumptown’s 17 g/220 g method for Onyx?"
+    },
+    {
+      "id": "4413a1d0d19ddcd57ec4c55f30afe2ff5b06c76c76cc9bc29b18f2614561e091",
+      "source": "It is a reasonable controlled experiment, but it is Stumptown’s general method, not an Onyx recommendation. Keep the method constant when comparing bags.",
+      "kind": "text",
+      "context": "It is a reasonable controlled experiment, but it is Stumptown’s general method, not an Onyx recommendation. Keep the method constant when comparing bags."
+    },
+    {
+      "id": "cf146d10c50d0a6f2c5423c5e1ca9df639b59d50e6005b4d8c3fd594adbad2e1",
+      "source": "Is iced AeroPress the same as cold brew?",
+      "kind": "text",
+      "context": "Is iced AeroPress the same as cold brew?"
+    },
+    {
+      "id": "af2af004d895f5b282b534ce69980f844fd72db44cd2a325b97ee74709e8ee40",
+      "source": "No. AeroPress brews with hot water here; ice then cools and dilutes it. Cold brew uses a different extraction process.",
+      "kind": "text",
+      "context": "No. AeroPress brews with hot water here; ice then cools and dilutes it. Cold brew uses a different extraction process."
+    },
+    {
+      "id": "426f28577b5c2378144e9aa9edd65932337f0f6f84156de995597390694a5095",
+      "source": "No. These are research-led fit judgments using current roaster product descriptions, published brewing methods and linked reviews.",
+      "kind": "text",
+      "context": "No. These are research-led fit judgments using current roaster product descriptions, published brewing methods and linked reviews."
+    },
+    {
+      "id": "6e6c83711182bc658810cb883f59ed7913a394f089de8bb26d8f4183705d5233",
+      "source": "Do the blend components stay fixed?",
+      "kind": "text",
+      "context": "Do the blend components stay fixed?"
+    },
+    {
+      "id": "c592df2b8784f7f64740cd62c013b878984356d1b04bd6945218ad1e15071bb1",
+      "source": "Do not assume so. Check the current roaster record and the delivered roast-date bag for any lot-specific detail.",
+      "kind": "text",
+      "context": "Do not assume so. Check the current roaster record and the delivered roast-date bag for any lot-specific detail."
+    },
+    {
+      "id": "b53f8c7d68bd3ad8145a9e8223c79ff6d603405bd6f6b30bd3b090d153284a0a",
+      "source": "Should I use a metal filter?",
+      "kind": "text",
+      "context": "Should I use a metal filter?"
+    },
+    {
+      "id": "c6d5a7168620056f11a2f7d1df58c39903bee461714fe7a3e00f7f76c705acd0",
+      "source": "This comparison uses the cited paper-filter methods. A different filter changes the setup; follow the filter and brewer maker’s instructions.",
+      "kind": "text",
+      "context": "This comparison uses the cited paper-filter methods. A different filter changes the setup; follow the filter and brewer maker’s instructions."
+    },
+    {
+      "id": "a4e4b245f693035f13827ec6792bbf1f325bf6dd57d55d8f397974215e2dfbfd",
+      "source": "Sources checked October 30, 2026",
+      "kind": "text",
+      "context": "Sources checked October 30, 2026"
+    },
+    {
+      "id": "c28bd6f6525bfa6dd91983254776a4bea3d8d8b48840ab0204ec217e518f43f9",
+      "source": "Current AeroPress recipe blocks for Geometry and Southern Weather; verify selected guide and bag. Checked October 30, 2026.",
+      "kind": "text",
+      "context": "Current AeroPress recipe blocks for Geometry and Southern Weather; verify selected guide and bag. Checked October 30, 2026."
+    },
+    {
+      "id": "58f5ee0b2503324b492a06b3c5de514f14ac08151191bcb835c914674e1d5324",
+      "source": "Onyx Geometry ↗",
+      "kind": "text",
+      "context": "Onyx Geometry ↗"
+    },
+    {
+      "id": "473d8a4530a1ff5d5bedd973cd9bbc2a9058e1840ca78cfa496f2135cb21c4bb",
+      "source": "Current US whole-bean identity, blend and flavor brief. Checked October 30, 2026.",
+      "kind": "text",
+      "context": "Current US whole-bean identity, blend and flavor brief. Checked October 30, 2026."
+    },
+    {
+      "id": "aad2743330100360c4e6286fb9992c52f617774f966e931bb36d5a159f409d75",
+      "source": "Onyx Southern Weather ↗",
+      "kind": "text",
+      "context": "Onyx Southern Weather ↗"
+    },
+    {
+      "id": "be5384d3e104b1974050919ee45c8f6c218a23f8cf54dfef06a64918059a0c33",
+      "source": "Current US whole-bean identity, moderate filter role and flavor brief. Checked October 30, 2026.",
+      "kind": "text",
+      "context": "Current US whole-bean identity, moderate filter role and flavor brief. Checked October 30, 2026."
+    },
+    {
+      "id": "5565ee809a9f0ce3724b3b69a412538dd0b3ef5ec7cad0716716c0e850601ee3",
+      "source": "Stumptown AeroPress brew guide ↗",
+      "kind": "text",
+      "context": "Stumptown AeroPress brew guide ↗"
+    },
+    {
+      "id": "4171eac1eac791bffba659ca039e27fad7518ae904acdd69475a8a29c2335d91",
+      "source": "General 17 g/220 g method; not a Hair Bender-specific taste test. Checked October 30, 2026.",
+      "kind": "text",
+      "context": "General 17 g/220 g method; not a Hair Bender-specific taste test. Checked October 30, 2026."
+    },
+    {
+      "id": "b32f74e316da970626f4149aa7e34e41cba6095ccaeb1962b6e5972f10b762a9",
+      "source": "Stumptown Hair Bender ↗",
+      "kind": "text",
+      "context": "Stumptown Hair Bender ↗"
+    },
+    {
+      "id": "c24ab616cd1c72faca036577f2d539d5c9adde43e43d8add4d1f94464f7fc887",
+      "source": "Current whole-bean identity and roaster flavor description. Checked October 30, 2026.",
+      "kind": "text",
+      "context": "Current whole-bean identity and roaster flavor description. Checked October 30, 2026."
+    },
+    {
+      "id": "956730da3e2cb29b6e2d88698d2be5f8a7157d796dde6fb46a7f21e20815c134",
+      "source": "Stumptown: Five Easy Ways to Make Your Coffee Taste Better ↗",
+      "kind": "text",
+      "context": "Stumptown: Five Easy Ways to Make Your Coffee Taste Better ↗"
+    },
+    {
+      "id": "b935c17cdf2d5215bb6d8907f2730ea85530c7257b6363676fafe10ada0af50e",
+      "source": "Older roaster suggestion for iced inverted AeroPress with Hair Bender; no exact current product ratio. Checked October 30, 2026.",
+      "kind": "text",
+      "context": "Older roaster suggestion for iced inverted AeroPress with Hair Bender; no exact current product ratio. Checked October 30, 2026."
+    },
+    {
+      "id": "b7395bdafebdb5802d414697b15ac6d800e7595c38c102ef8a04ac84cd2cc84f",
+      "source": "AeroPress Original instructions ↗",
+      "kind": "text",
+      "context": "AeroPress Original instructions ↗"
+    },
+    {
+      "id": "2787aaa1ba8360baa290937e111337cd7de0dd93d411fa336d42961314c4d7c2",
+      "source": "Brewer handling and filter context; follow the instructions for the brewer you own. Checked October 30, 2026.",
+      "kind": "text",
+      "context": "Brewer handling and filter context; follow the instructions for the brewer you own. Checked October 30, 2026."
+    },
+    {
+      "id": "390e230d34f0e230f8a5c5d77d518d10dde591c4f97f1e4a34cd0ca804c2894b",
+      "source": "Match the cup, then repeat one recipe",
+      "kind": "text",
+      "context": "Match the cup, then repeat one recipe"
+    },
+    {
+      "id": "ccbb01977188bf53981580dfa3afcd17a7a81562cdb9a9a4f5d5def6a1a1e7ef",
+      "source": "Start with the exact whole-bean coffee whose roaster brief fits your cup. Inspect the bag and record dose, water, grind, time and filter. Your own repeatable brew can guide the next purchase.",
+      "kind": "text",
+      "context": "Start with the exact whole-bean coffee whose roaster brief fits your cup. Inspect the bag and record dose, water, grind, time and filter. Your own repeatable brew can guide the next purchase."
+    },
+    {
+      "id": "c9c86ac1f1f151365bd894e162f7fb77be92824c9ba913c08b960ed43fe1faca",
+      "source": "Best Coffee Beans for AeroPress by Cup Style | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "6bd0236ca0477fa376f0353089fd181010a88067f052516cdd48a534820c6aae",
+      "source": "Three US whole-bean AeroPress starting points for a fruit-led black cup, a chocolate-fruit daily cup, and iced concentrate, with roaster recipes and evidence limits.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "d1acae406925723d58fd9238aee9545c662e5fe3733b31c79f3e0e08397af289",
+      "source": "Best Coffee Beans for AeroPress by Cup Style",
+      "kind": "json",
+      "context": "headline"
+    },
+    {
+      "id": "7440e7a5b95c758c1bbc9195405fa11eda837f90cb209027256c400f29e12fcd",
+      "source": "Which pick has an exact roaster AeroPress recipe?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "becccaada2d2d9cd640dfe543488e580e954bfef8275ce6c765aeaa6a819d53d",
+      "source": "Onyx publishes AeroPress blocks for Geometry and Southern Weather: 14 g coffee, 210 g water at 205°F and a medium grind. Check the live guide for its full sequence.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "725737ee9e13a12d7026bc84bc010a7b85f5640bf0f06297258dfd59e2b5d0b0",
+      "source": "Is Hair Bender only an espresso bean?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "2fa18232934d8b359d43e8535f9aef18796ec4c2aab489622f0ec8785226c291",
+      "source": "No. Stumptown describes the whole-bean blend across brew methods and explicitly suggests it for iced AeroPress in an older roaster article.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "76dad70d64b38aa87fb3a6e2d729277b791c2bd7ee9226e89ea774c7fbe3b216",
+      "source": "Can I use Stumptown’s 17 g/220 g method for Onyx?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "511d6179bd41b9f913efc63a63876fb1105a26a8b068ee59f7b0a2d13774c951",
+      "source": "It is a reasonable controlled experiment, but it is Stumptown’s general method, not an Onyx recommendation. Keep the method constant when comparing bags.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "67a7e20e9794f072c3563471ee3d4a108145c3287a81f34129d217852216cc4b",
+      "source": "Is iced AeroPress the same as cold brew?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "ba22093a4dbc5653f7aad18b46aa2428026c5fb470a314fb3421500649abbbbc",
+      "source": "No. AeroPress brews with hot water here; ice then cools and dilutes it. Cold brew uses a different extraction process.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "c0041edfde9a839d5bd09a9d796d102fcb3be9b4f61bf2edefbf8df3b3b256fe",
+      "source": "No. These are research-led fit judgments using current roaster product descriptions, published brewing methods and linked reviews.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "c4b6932b0d07d12ff2d12b5718e8d8125c8ff631549118f4546c8e760396af0f",
+      "source": "Do the blend components stay fixed?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "185ef433916795d5a569030705fb51b364adf21a413cb67fea132c43fb0e52ec",
+      "source": "Do not assume so. Check the current roaster record and the delivered roast-date bag for any lot-specific detail.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "aeaffc102fd0ffd3aa1eca5a689a38190787df3f693bcab86211219a1e653fbc",
+      "source": "Should I use a metal filter?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "7c64ebcbaf81d15914f9b5865f33fae2d3a18c71d675e2c9a98d152195efc4b9",
+      "source": "This comparison uses the cited paper-filter methods. A different filter changes the setup; follow the filter and brewer maker’s instructions.",
+      "kind": "json",
+      "context": "text"
+    }
+  ],
+  "snapshotHash": "2923d974f7bd8f12d5b1795b8ba5c4803e0c27a2cb1cc5dbacc33370d0f3667d"
+}
