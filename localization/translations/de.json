@@ -89098,6 +89098,580 @@
       "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
       "provider": "codex-direct",
       "authoredFile": "localization/authored/elizabeth-guide-update-batch-58.json"
+    },
+    "481187e8091adb8db814109bff3a7dcb500179e638fb4189abde285c21726272": {
+      "source": "Half-caff is a blend identity, not a cup measurement",
+      "text": "Half-Caff bezeichnet eine Mischung, keine Messung in der Tasse",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "30a99d5058bbed7ba679a07eebf47ba2f557e653c286145d4fcd7d16dbda6657": {
+      "source": "Read the current flavor brief with the component record",
+      "text": "Lesen Sie die aktuelle Geschmacksbeschreibung zusammen mit den Angaben zu den Bestandteilen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "54f7a102514a7d8d2b52ea99355aa084cff966b68dc310c3a1a769e64a2caf7c": {
+      "source": "Save a setting for this particular blend",
+      "text": "Speichern Sie eine Einstellung für genau diese Mischung",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "468aec0dd897ec3b179848ba8662cbb3333c8ae7321afd7d3845a1e8c8c40f3a": {
+      "source": "An occasional half-caff drink changes pack economics",
+      "text": "Gelegentlicher Half-Caff-Konsum verändert die Kostenrechnung der Packung",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "647708a1beb95522a634f8449c301ab0f491f5f86510a5a7ab71b551e973ab51": {
+      "source": "Buy the format before comparing caffeine claims",
+      "text": "Wählen Sie die Angebotsform, bevor Sie Koffeinaussagen vergleichen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "1ea253d9c84c4e39b6c84bf551cde2fb3232e8993d27eae3d2f49e9e6aadeb8b": {
+      "source": "Decide whether half-caff is the change you actually need",
+      "text": "Entscheiden Sie, ob Half-Caff tatsächlich die Veränderung ist, die Sie brauchen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "18a8fd8f52d4d739a8d380126c6898966ee2b7a82cac4a55980f36752a858fbd": {
+      "source": "Full decaf and regular blends serve other goals",
+      "text": "Vollständig entkoffeinierte Kaffees und reguläre Mischungen dienen anderen Zielen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "62b561c4b72d43040cd8ce8c502472480ded5c0762e5bd659c1b9e9654ad7e06": {
+      "source": "Try Even Keel in the same drink and serving size as your usual coffee, using a separately adjusted grind if needed. That keeps the flavor comparison useful. If the purpose is specifically to avoid caffeine, a half-caff name cannot establish the amount in your cup; a full-decaf product is a different buying category, also without a zero-caffeine guarantee.",
+      "text": "Probieren Sie Even Keel im gleichen Getränk und in der gleichen Portionsgröße wie Ihren üblichen Kaffee, bei Bedarf mit separat angepasstem Mahlgrad. So bleibt der Geschmacksvergleich sinnvoll. Wenn Sie gezielt Koffein vermeiden möchten, lässt sich aus der Bezeichnung Half-Caff die Menge in Ihrer Tasse nicht ableiten; ein vollständig entkoffeiniertes Produkt ist eine andere Kaufkategorie, ebenfalls ohne Garantie auf null Koffein.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "1addd1bb55e851c20745efc7d47436892be5b403d4fb4c5dde7d34a8140469e9": {
+      "source": "A deliberate middle ground with a measurement limit",
+      "text": "Ein bewusster Mittelweg mit einer Messgrenze",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "63f0b84cfe3cf9e5de6f16a03efb81c400d20ec40ee855181cef9bd0e75351bb": {
+      "source": "Even Keel is relevant when you deliberately want a half-caff blend rather than regular or full decaf. Evaluate it as its own coffee and size the order around how often you use it. Do not translate the name into a precise brewed-caffeine figure.",
+      "text": "Even Keel ist relevant, wenn Sie bewusst eine Half-Caff-Mischung statt regulärem oder vollständig entkoffeiniertem Kaffee möchten. Beurteilen Sie ihn als eigenständigen Kaffee und richten Sie die Bestellmenge danach aus, wie oft Sie ihn verwenden. Leiten Sie aus dem Namen keinen präzisen Koffeinwert für den gebrühten Kaffee ab.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "c6d3c7437637b4056741851750e6a2ff60091e6e395e6862d70e712ee5b08e4f": {
+      "source": "Illustrative 18 g bean cost",
+      "text": "Beispielhafte Bohnenkosten für 18 g",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "d7a335a1ad217761d1d3868a41204fbecf53fcae058222e9f363adb4890fcd24": {
+      "source": "About $1.06 using the dated 12 oz price; excludes shipping, tax, dialing waste and other drink costs",
+      "text": "Etwa $1.06 auf Grundlage des datierten Preises für 12 oz; ohne Versand, Steuern, Einstellverluste und weitere Getränkekosten",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "3ff338666fdd94ef061f6a99bfe88b9916e661e0335c0e49553084e38e1d0fe2": {
+      "source": "Slow Motion has its own roast-date history",
+      "text": "Slow Motion hat seine eigene Historie nach Röstdatum",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "def74a5fa6522d4cdb53c3c5eb85f0914de3c4e71fec02b865f23fd8520d3233": {
+      "source": "A molasses-and-cocoa decaf target",
+      "text": "Ein entkoffeinierter Kaffee mit Melasse und Kakao als Geschmacksziel",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "5e9f37c89c78e6c893df4422858fc66b51e4b21d9fd731f3daee1681e67c7611": {
+      "source": "Use the main brewer to choose this decaf",
+      "text": "Wählen Sie diesen entkoffeinierten Kaffee nach Ihrem hauptsächlich verwendeten Brühgerät",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "e50e75ce9e15e7d1c4d2ad48e57e042cb935d9228819ba012a3d362089a0a59a": {
+      "source": "A decaf bag needs its own consumption plan",
+      "text": "Ein Beutel entkoffeinierter Kaffee braucht einen eigenen Verbrauchsplan",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "70d01de7093f4818e492da97c6ffe4532d4870e35728ff60e5d3ca9fa44249a7": {
+      "source": "The dated 12 oz price per espresso dose",
+      "text": "Der datierte Preis für 12 oz je Espressodosis",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "8509816a6567554d7fb1d533fc5131e413f5da03463c7584bb3ef4ca96192452": {
+      "source": "Choose the decaf for the time of day you will drink it",
+      "text": "Wählen Sie den entkoffeinierten Kaffee für die Tageszeit, zu der Sie ihn trinken werden",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "6833f816fb340d6797a36cf21f28719b27c2618e69ee1ab5669e7163b0eedfa1": {
+      "source": "Trapper Creek changes the flavor and brew brief",
+      "text": "Trapper Creek bietet eine andere Geschmacks- und Brühausrichtung",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "c9f9072607be7352b7e7f12da142ad2df9eb83c1cf77a5c1e4fd2922d0100fde": {
+      "source": "Store sealed, cool and dry; grind near brewing.",
+      "text": "Verschlossen, kühl und trocken lagern; kurz vor dem Brühen mahlen.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "a182494fac5541fd3926f5cec0e96fa4279b563697a48cc6ff7cda7fa1ef94e3": {
+      "source": "Slow Motion offers 12 oz, 24 oz and 5 lb. Start with the smallest pack when decaf is an occasional evening brew, then use the stamped roast date to find the matching blend record before ordering again.",
+      "text": "Slow Motion gibt es in 12 oz, 24 oz und 5 lb. Beginnen Sie mit der kleinsten Packung, wenn entkoffeinierter Kaffee nur gelegentlich am Abend getrunken wird, und suchen Sie vor der nächsten Bestellung anhand des aufgestempelten Röstdatums den passenden Mischungseintrag.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "9267950ca10b2ffdc2eaee19e2d44b772b2ac8d104aa86922578bf4cf620ac2f": {
+      "source": "Slow Motion gives a mixed-method household a smaller step from 12 oz to 24 oz before the five-pound order. At the checked $20 starter price, paying for a bag that works both as filter and espresso is more useful than buying bulk before either recipe is settled. The blend record follows roast dates, so match the next order to its actual coffee rather than assuming a repeat of an older bag.",
+      "text": "Slow Motion bietet einem Haushalt mit mehreren Brühmethoden einen kleineren Schritt von 12 oz auf 24 oz vor der Bestellung von fünf Pfund. Beim geprüften Einstiegspreis von $20 ist ein Beutel, der sowohl für Filterkaffee als auch für Espresso funktioniert, nützlicher als ein Großeinkauf, bevor eines der beiden Rezepte feststeht. Die Mischungseinträge richten sich nach den Röstdaten; gleichen Sie die nächste Bestellung daher mit dem tatsächlichen Kaffee ab, statt eine Wiederholung eines älteren Beutels anzunehmen.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "45e2b4fe2666be5ed6fd1b12921a4bc89fc85b3201a624d7e077262f3c5583b5": {
+      "source": "Try Slow Motion using the brewer and serving size you normally use for decaf, rather than judging it through your caffeinated espresso settings. If decaf is an occasional evening cup, note how slowly the bag empties before considering a larger size. Its cocoa-and-molasses brief is a flavor choice; a decaf label does not establish zero caffeine.",
+      "text": "Probieren Sie Slow Motion mit dem Brühgerät und der Portionsgröße, die Sie normalerweise für entkoffeinierten Kaffee verwenden, statt ihn mit Ihren Einstellungen für koffeinhaltigen Espresso zu beurteilen. Wenn Sie nur gelegentlich am Abend entkoffeinierten Kaffee trinken, beobachten Sie, wie langsam der Beutel leer wird, bevor Sie eine größere Packung erwägen. Das Kakao-Melasse-Profil ist eine Geschmacksentscheidung; ein Entkoffeinierungslabel belegt keinen Koffeingehalt von null.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "2b385ac272577d74e5512c211110bd4e26513c490951003118eb3cd35a1a2d7d": {
+      "source": "Compare Stumptown Trapper Creek Decaf if its roaster explicitly positions it for both espresso and drip.",
+      "text": "Vergleichen Sie Stumptown Trapper Creek Decaf, wenn der Röster ihn ausdrücklich sowohl für Espresso als auch für Filterkaffee positioniert.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "166adde3bf1cd429caadbb2ede32d7206a812cff976eec2b941259e00d948ea5": {
+      "source": "The label does not establish zero caffeine in your cup.",
+      "text": "Das Etikett belegt keinen Koffeingehalt von null in Ihrer Tasse.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "bd7538a9830a0a7855277518680ee6d31b9737f73f8a6eea4739931303bab659": {
+      "source": "A small-bag route to a cocoa-led decaf",
+      "text": "Ein kleiner Beutel als Einstieg in einen kakaobetonten entkoffeinierten Kaffee",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "c96e86465bb010410d654e39ff75752c819d7f4672c36688d3602acd07be1322": {
+      "source": "Slow Motion is worth trying when cocoa and molasses appeal and the roast-date record is useful to you. Keep the order proportional to actual decaf use. Compare Trapper Creek for a different fruit/graham/cocoa brief rather than treating every water-processed coffee as interchangeable.",
+      "text": "Slow Motion ist einen Versuch wert, wenn Ihnen Kakao und Melasse zusagen und die Einträge nach Röstdatum für Sie nützlich sind. Richten Sie die Bestellmenge nach Ihrem tatsächlichen Verbrauch an entkoffeiniertem Kaffee aus. Vergleichen Sie Trapper Creek für eine andere Ausrichtung mit Frucht, Graham und Kakao, statt jeden mit Wasser entkoffeinierten Kaffee als austauschbar zu behandeln.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "62ab115e26d169229dd0b00d6f0b71cf87cbc8d9e2177e0b96d45a524bb98c68": {
+      "source": "The label does not establish zero caffeine in your cup.",
+      "text": "Das Etikett belegt keinen Koffeingehalt von null in Ihrer Tasse.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "441bc9816efb5668933f2b78db687c91ded05eaf034372784c86c83bfee0464a": {
+      "source": "About $1.03 using the dated 12 oz price; excludes shipping, tax, dialing waste and other drink costs",
+      "text": "Etwa $1.03 auf Grundlage des datierten Preises für 12 oz; ohne Versand, Steuern, Einstellverluste und weitere Getränkekosten",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "bef54b97c2065ddd780dc347f1afa279b4bbe7436d61c1f5801e6e3651eb9ff9": {
+      "source": "Colombia and Brazil with a named water process",
+      "text": "Kolumbien und Brasilien mit einem benannten Wasserverfahren",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "78385b2ddaad34d030cbf43cb5d207d9727f4a11bad2c964a54229b6e8a7fe69": {
+      "source": "Prune, cherry and spice are the stated direction",
+      "text": "Trockenpflaume, Kirsche und Gewürze sind die angegebene Richtung",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "3ee92ad23b2e60355ba819aeee0f4b7965d9e705df44631e12a559bf9fa0091a": {
+      "source": "Pick the documented filter method first",
+      "text": "Wählen Sie zuerst die dokumentierte Filtermethode",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "b965bacb0892238a766a1ef72ceefcbca0d4bc94a377e33b8b4f08b1caedf3e7": {
+      "source": "Try 12 oz before the two-pound decaf order",
+      "text": "Probieren Sie 12 oz vor der Bestellung von zwei Pfund entkoffeiniertem Kaffee",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "182b0bf2068a8c536b265c947c561b9e6d7744421390993f40d024e7909e97de": {
+      "source": "Traceability adds detail, not a tasting score",
+      "text": "Rückverfolgbarkeit liefert Details, keine Verkostungsnote",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "b42c558e80bf17b22ff7d7ed5f17fc6da10412c6e01b637a23c36ccd4be22eba": {
+      "source": "Use the origin detail to choose a style, then test one brewer",
+      "text": "Nutzen Sie die Herkunftsangaben zur Stilwahl und probieren Sie dann ein Brühgerät aus",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "ea30683c58dc789d3418402b7186958a4b4f84db272215af40ea901ecfd761d0": {
+      "source": "Compare an espresso-first decaf when the brewer changes",
+      "text": "Vergleichen Sie bei einem Wechsel des Brühgeräts einen auf Espresso ausgerichteten entkoffeinierten Kaffee",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "0833aa7bba0afd296cb29d9ffa2bdc1b14b76f9935818383129b4f4e666d6993": {
+      "source": "The choice between 12 oz, 2 lb and 5 lb lets Equator buyers scale gradually. A shared drip pot may justify the intermediate size sooner than an occasional single cup; first confirm the medium-dark, fruit-and-spice direction works for the people who will finish it.",
+      "text": "Die Auswahl zwischen 12 oz, 2 lb und 5 lb ermöglicht Equator-Käufern eine schrittweise Vergrößerung. Eine gemeinsam getrunkene Kanne Filterkaffee kann die mittlere Größe eher rechtfertigen als eine gelegentliche einzelne Tasse; prüfen Sie zuerst, ob die mitteldunkle Frucht-Gewürz-Ausrichtung den Menschen zusagt, die den Beutel aufbrauchen werden.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "a5a443aa5029261381509b2ecf71dc237f353f03be08fdfa87321511f44024b0": {
+      "source": "Equator’s checked $19.50 12 oz pack offers a way to assess its medium-dark fruit-and-spice brief before choosing 2 lb or 5 lb. The middle size is useful for a household that has proved the coffee in a shared pot but cannot justify a bulk order. Select whole bean or the required grind explicitly; an inexpensive bag in the wrong format does not solve the intended brew.",
+      "text": "Equators geprüfte 12-oz-Packung für $19.50 bietet die Möglichkeit, das mitteldunkle Frucht-Gewürz-Profil zu beurteilen, bevor Sie 2 lb oder 5 lb wählen. Die mittlere Größe ist für einen Haushalt sinnvoll, der den Kaffee in einer gemeinsam getrunkenen Kanne erprobt hat, aber keinen Großeinkauf rechtfertigen kann. Wählen Sie ausdrücklich ganze Bohnen oder den benötigten Mahlgrad; ein günstiger Beutel in der falschen Form löst die vorgesehene Brühaufgabe nicht.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "479b4a9baed5beeec591599236c6122eebefb002ed437bf118b6ed9e513ad3c2": {
+      "source": "Start in drip, Chemex or French press using the corresponding published ratio. The medium-dark fruit-and-spice brief is the reason to try this decaf; the detailed component panel is useful context for buying it again. If you chiefly pull espresso and want a starting dose and yield, Decaf Black Cat answers that need more directly.",
+      "text": "Beginnen Sie mit Filterkaffee, Chemex oder French Press und verwenden Sie das jeweils veröffentlichte Verhältnis. Das mitteldunkle Frucht-Gewürz-Profil ist der Grund, diesen entkoffeinierten Kaffee zu probieren; die detaillierten Angaben zu den Bestandteilen liefern nützlichen Kontext für einen erneuten Kauf. Wenn Sie hauptsächlich Espresso beziehen und eine Anfangsdosis sowie Ausgabemenge suchen, erfüllt Decaf Black Cat diesen Bedarf direkter.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "5c6c88259943a63012111e1459b2fd6264efe3edb678c78b82eb8c7bdd1da109": {
+      "source": "Compare Intelligentsia Decaf Black Cat Espresso if you chiefly make espresso and want a published 18 g to 45 g recipe.",
+      "text": "Vergleichen Sie Intelligentsia Decaf Black Cat Espresso, wenn Sie hauptsächlich Espresso zubereiten und ein veröffentlichtes Rezept von 18 g auf 45 g möchten.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "a28d5497f53c58eaeaca586c8496a89be0e34a11e92d770dd3d1d65d894dcb56": {
+      "source": "A detailed decaf record with a filter-led starting point",
+      "text": "Detaillierte Angaben zu einem entkoffeinierten Kaffee mit Filter als Ausgangspunkt",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "1d11efdd33e4f763323ab8bdfea4a3630917dce9e5178425dfe040dd60827907": {
+      "source": "Decaf Equator Blend stands out for its stated Mountain Water process and component detail. Its clearest recipe support is for filter and press. Order for those strengths, while keeping caffeine exposure and an untested current-lot flavor result outside what the process label can establish.",
+      "text": "Decaf Equator Blend zeichnet sich durch das angegebene Mountain Water-Verfahren und die Angaben zu den Bestandteilen aus. Die klarste Rezeptunterstützung gibt es für Filter und French Press. Kaufen Sie ihn wegen dieser Stärken, ohne aus der Verfahrensbezeichnung Schlüsse über die Koffeinaufnahme oder ein ungeprüftes Geschmacksergebnis der aktuellen Charge zu ziehen.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "71055e1e7794f82d15e7ac0e5d93f4e4bbf2e5a6ec2184d3862acfb1c2ce83ae": {
+      "source": "About $0.98 using the dated 12 oz price; excludes shipping, tax, dialing waste and other drink costs",
+      "text": "Etwa $0.98 auf Grundlage des datierten Preises für 12 oz; ohne Versand, Steuern, Einstellverluste und weitere Getränkekosten",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "791828721b06ad5d7cc5b8a810f2b518850ddde997b060fec0312e6b8d21c4b4": {
+      "source": "Decaf Black Cat is not Classic with a new label",
+      "text": "Decaf Black Cat ist kein Classic mit neuem Etikett",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "9bb259c0b91173cf766a9dfaf141c4d4e68d30870d21daf4e376485892dd2b54": {
+      "source": "Cocoa and sugar with an apple cue",
+      "text": "Kakao und Zucker mit einem Apfelhinweis",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "797ea25d80ab6b1efabb7d3e480f7fa5cb556aa5c572dc4f57ed475c50f39562": {
+      "source": "A documented 18 g to 45 g espresso start",
+      "text": "Ein dokumentierter Espresso-Start von 18 g auf 45 g",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "807d8a78aa20672e27335fc342a4e8e4de57d374685163b6ac73f73f9431fa39": {
+      "source": "Let espresso consumption determine pack size",
+      "text": "Lassen Sie den Espressokonsum die Packungsgröße bestimmen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "292675bb98754b96acb5eb99e8c87187ff92f23b05238d12a28b1b197f97475f": {
+      "source": "Price the recipe you will actually pull",
+      "text": "Berechnen Sie die Kosten des Rezepts, das Sie tatsächlich zubereiten werden",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "eed549afb46d336254a00421db7f2c61e4bb45aff16b9a55b280f1015ed07201": {
+      "source": "Use the published ratio to learn one new decaf",
+      "text": "Nutzen Sie das veröffentlichte Verhältnis, um einen neuen entkoffeinierten Kaffee kennenzulernen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "bc7ebcba73da225e09e2c3428edc5d11e1643927720ce67944d02ce8bc4f50f4": {
+      "source": "Decaf House is the filter-first sibling",
+      "text": "Decaf House ist das auf Filter ausgerichtete Geschwisterprodukt",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "99854232326c73d32433696d98df248ca82755aba2fe15858929e379884daa81": {
+      "source": "At the roaster’s 18 g espresso start, 12 oz contains roughly eighteen full doses before adjustment waste. Use the first pack to establish your decaf setting; the five-pound order makes more sense after the evening shot has become a regular habit.",
+      "text": "Bei der Espresso-Anfangsdosis des Rösters von 18 g enthält 12 oz etwa achtzehn volle Dosen vor Einstellverlusten. Nutzen Sie die erste Packung, um Ihre Einstellung für entkoffeinierten Kaffee festzulegen; die Bestellung von fünf Pfund ist sinnvoller, sobald der abendliche Espresso zur regelmäßigen Gewohnheit geworden ist.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "f0b2066060cffa54fa4c244597660958355ca11297cdbb765c207d5c9511ad06": {
+      "source": "At $18.50 for the checked 12 oz listing, Black Cat is a purchase for a specific espresso job. Its published 18 g to 45 g starting recipe gives you something concrete to try before ordering five pounds. House Blend is the more relevant comparison when the evening routine is a filter pot rather than a portafilter; the same dated pack price does not make the two coffees interchangeable.",
+      "text": "Bei $18.50 für das geprüfte Angebot mit 12 oz ist Black Cat ein Kauf für eine bestimmte Espressoaufgabe. Sein veröffentlichtes Startrezept von 18 g auf 45 g gibt Ihnen etwas Konkretes zum Ausprobieren, bevor Sie fünf Pfund bestellen. House Blend ist der relevantere Vergleich, wenn die Abendroutine eine Kanne Filterkaffee statt eines Siebträgers vorsieht; derselbe datierte Packungspreis macht die beiden Kaffees nicht austauschbar.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "7c02afe8c2ad687b5240c51eae09acaf6c764d2655c77aebf37bb7f78a0469b9": {
+      "source": "For a compatible basket, start with 18 g and a 45 g beverage, recording the grind used for this decaf rather than preserving your regular-bean setting. The useful result is a repeatable evening shot. If most of your decaf is made in automatic drip, compare Decaf House before buying Black Cat for its familiar espresso-family name.",
+      "text": "Beginnen Sie bei einem passenden Sieb mit 18 g und einem Getränk von 45 g und notieren Sie den Mahlgrad für diesen entkoffeinierten Kaffee, statt Ihre Einstellung für reguläre Bohnen beizubehalten. Das nützliche Ergebnis ist ein wiederholbarer abendlicher Espresso. Wenn Sie den Großteil Ihres entkoffeinierten Kaffees in einer Filtermaschine zubereiten, vergleichen Sie Decaf House, bevor Sie Black Cat wegen seines vertrauten Namens aus der Espressofamilie kaufen.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "525a9673a4c640d3dfba163a8f72833c5de47b759d133e024acdd9926f3bf28e": {
+      "source": "Compare Intelligentsia Organic Decaf House Blend if your dominant method is drip or pour-over rather than espresso.",
+      "text": "Vergleichen Sie Intelligentsia Organic Decaf House Blend, wenn Filtermaschine oder Handfilter statt Espresso Ihre vorherrschende Methode ist.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "07437c2ae263c118247ca2165b812430d9552e04235395629d6cdcaad03456f1": {
+      "source": "Choose the decaf with the espresso recipe",
+      "text": "Wählen Sie den entkoffeinierten Kaffee mit dem Espressorezept",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "44a462e6c6cd4eb0187945b3c46aada47d5ebd1f8556017475b03b47c66bbb44": {
+      "source": "Decaf Black Cat is the clearer Intelligentsia purchase for a portafilter user who wants an explicit starting ratio. Decaf House carries the stronger filter-method case. The water-process statement helps identify the coffee but does not measure caffeine in the drink you prepare.",
+      "text": "Decaf Black Cat ist der klarere Intelligentsia-Kauf für Siebträgernutzer, die ein ausdrückliches Startverhältnis möchten. Decaf House bietet die stärkere Begründung für Filtermethoden. Die Angabe zum Wasserverfahren hilft bei der Identifizierung des Kaffees, misst aber nicht das Koffein in Ihrem zubereiteten Getränk.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "b9f9fa1eb2f5dfc32987b5ddc6d6b498b769da8720aa0ad7d8c3274f625933cb": {
+      "source": "The current House listing identifies Honduras",
+      "text": "Das aktuelle House-Angebot nennt Honduras",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "ba4169e92a6501058e30729bcb322a142b74453282168e3dc9f3d49b7f3d7166": {
+      "source": "Lime is a useful warning for citrus-averse drinkers",
+      "text": "Limette ist ein nützlicher Hinweis für Menschen, die Zitrus nicht mögen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "542b769586dcc553fd2cc86cbeab7686be8e0b5b35b6b48dd2b64e433cda5c32": {
+      "source": "Start filter brewing at the roaster’s 1:18",
+      "text": "Beginnen Sie beim Filterbrühen mit dem 1:18-Verhältnis des Rösters",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "db3e455f72fd8a69f69c9be7e55a4ee3a2a0554902ab0b16cee3bea008559288": {
+      "source": "A filter decaf still needs a fresh small pack",
+      "text": "Auch entkoffeinierter Filterkaffee braucht eine frische kleine Packung",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "265fd4583e5426534fdd1422c11a9a47b3701bcbafa651d1f623611f8036ad8e": {
+      "source": "Compare cost using your filter dose",
+      "text": "Vergleichen Sie die Kosten anhand Ihrer Filterdosis",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "a2898c36293056e56d617239128baebcc9ea35632110fbeafa9fa5d04fd9af15": {
+      "source": "Try the bright filter brief before committing to bulk",
+      "text": "Probieren Sie das lebhafte Filterprofil vor dem Großeinkauf",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "1c1b564111827ec1a4d506b83231802971d05dd86dd817d2ca52ed1658e74401": {
+      "source": "Decaf Black Cat supplies the espresso alternative",
+      "text": "Decaf Black Cat bietet die Espressoalternative",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "64e6f86f3925fc13385412854236903249daf1121ecf3dda87bfddcc729ab189": {
+      "source": "A 20 g filter dose uses a 12 oz House bag in roughly seventeen brews before waste. Compare that with the number of decaf filter brews you actually make, especially if you are weighing the five-pound size for a household that mostly drinks regular coffee.",
+      "text": "Bei einer Filterdosis von 20 g reicht ein House-Beutel mit 12 oz für etwa siebzehn Zubereitungen vor Verlusten. Vergleichen Sie das mit der Zahl der tatsächlich zubereiteten entkoffeinierten Filterkaffees, besonders wenn Sie die Größe von fünf Pfund für einen Haushalt erwägen, der hauptsächlich regulären Kaffee trinkt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "352a574dad4667444201e8d0f67a30378fb23e4bf15c50a93eda7f6cfac93d09": {
+      "source": "House Blend and Decaf Black Cat each had an $18.50 small-pack reference, so brew fit is a better tiebreaker than the sticker. House provides a filter-led direction; Black Cat provides an explicit espresso starting recipe. For infrequent filter use, finish the 12 oz House bag and count the brews before choosing five pounds. A lower price per ounce matters only if that quantity matches the routine.",
+      "text": "House Blend und Decaf Black Cat hatten beide einen Referenzpreis von $18.50 für die kleine Packung; die Eignung für die Brühmethode ist daher das bessere Entscheidungskriterium als das Preisschild. House bietet eine Filterausrichtung, Black Cat ein ausdrückliches Espresso-Startrezept. Brauchen Sie Filterkaffee nur selten, verbrauchen Sie zunächst den House-Beutel mit 12 oz und zählen Sie die Zubereitungen, bevor Sie fünf Pfund wählen. Ein niedrigerer Preis pro Unze zählt nur, wenn diese Menge zur Routine passt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "703c2356557cab8e3ddedfe058dc8ecbf7d413643201e2f8a4098440fbdcf9df": {
+      "source": "A 20 g dose and 360 g water follow the listed 1:18 filter starting ratio. Use the brewer you already know so the first trial answers whether the chocolate-and-lime direction appeals. If citrus is the mismatch, compare a more cocoa-led decaf instead of buying five pounds on the strength of the House name.",
+      "text": "Eine Dosis von 20 g und 360 g Wasser folgt dem angegebenen Filter-Startverhältnis von 1:18. Verwenden Sie das bereits vertraute Brühgerät, damit der erste Versuch zeigt, ob Ihnen die Schokoladen-Limetten-Ausrichtung gefällt. Wenn Zitrus nicht passt, vergleichen Sie einen stärker kakaobetonten entkoffeinierten Kaffee, statt aufgrund des House-Namens fünf Pfund zu kaufen.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "9b8b30522592461467057ce9b146324c1b67903185a2b9dc16348c7e9aeba00b": {
+      "source": "Compare Intelligentsia Decaf Black Cat Espresso if you want a portafilter recipe with an explicit 18 g to 45 g start.",
+      "text": "Vergleichen Sie Intelligentsia Decaf Black Cat Espresso, wenn Sie ein Siebträgerrezept mit einem ausdrücklichen Start von 18 g auf 45 g möchten.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "3871c8f172ae500eaa81ff2534cbb7ae68d4b4e4c1fb5c7e6344ce800b8a7b36": {
+      "source": "The better-documented choice for filter decaf",
+      "text": "Die besser dokumentierte Wahl für entkoffeinierten Filterkaffee",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "bd3b339b84f6da748bb97c455f4d3c8b79a630ea17c8c80dee0b5fb9f235da4c": {
+      "source": "Choose Decaf House when pour-over or automatic drip is the main job and its bright flavor brief sounds welcome. Decaf Black Cat is a more direct espresso comparison. Check the next bag’s origin panel rather than assuming the recurring House label fixes one lot forever.",
+      "text": "Wählen Sie Decaf House, wenn Handfilter oder Filtermaschine die Hauptaufgabe sind und Ihnen das lebhafte Geschmacksprofil zusagt. Decaf Black Cat ist ein direkterer Espressovergleich. Prüfen Sie die Herkunftsangaben auf dem nächsten Beutel, statt anzunehmen, dass das wiederkehrende House-Etikett eine Charge für immer festlegt.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "cc9cee3e79cfc0c8b236bd9ae16d3ee3320a8ee5ca945637477760db2b792cfa": {
+      "source": "Trapper Creek is a separate water-processed blend",
+      "text": "Trapper Creek ist eine eigenständige, mit Wasser entkoffeinierte Mischung",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "4dbc301f388cf167c78646c9a771a679dbfea88018f43951a54b1993650880da": {
+      "source": "Citrus and graham accompany the cocoa",
+      "text": "Zitrus und Graham begleiten den Kakao",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "9b3998c325ff2763badeb2a0dad1ab2236d4a31f9a4e7a998fd3832091b8ca54": {
+      "source": "Keep drip and espresso targets apart",
+      "text": "Halten Sie die Zielwerte für Filterkaffee und Espresso getrennt",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "76a2f7f1a533d1d47ef5d95adea886f2566326b24db85a947ebddc25c78eb3c2": {
+      "source": "Regular-to-decaf switching can waste coffee",
+      "text": "Der Wechsel von regulärem zu entkoffeiniertem Kaffee kann Kaffee verschwenden",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "90cf1566b3053a5bf14d09eb85ff7d56de15da2e54d95e5ae594b8550d93ed74": {
+      "source": "Five pounds needs a proven decaf routine",
+      "text": "Fünf Pfund setzen eine erprobte Routine mit entkoffeiniertem Kaffee voraus",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "93dc3e3b39cd7be472b915f619a12fb60c9cd5a345e78f2ae7ea0080f9cefcdd": {
+      "source": "Check whether the decaf switch is convenient enough to repeat",
+      "text": "Prüfen Sie, ob der Wechsel zu entkoffeiniertem Kaffee bequem genug für eine Wiederholung ist",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "93f467cf1a752e76bfd30bf4672f6f0371fc243fd148c3ebc621bc2d2a4407f0": {
+      "source": "Slow Motion offers a different medium-roast brief",
+      "text": "Slow Motion bietet eine andere Geschmacksrichtung bei mittlerer Röstung",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "5942857783f23702ea4df5c2e8681387c679eb35debc4b724f8d87540a28fc96": {
+      "source": "Trapper Creek’s five-pound option is a large jump from 12 oz. Account for coffee used when switching back from regular beans, as well as the drinks consumed; that changeover can determine how quickly a decaf bag actually empties.",
+      "text": "Trapper Creeks Option von fünf Pfund ist ein großer Sprung von 12 oz. Berücksichtigen Sie neben den getrunkenen Getränken auch den Kaffee, der beim Wechsel von regulären Bohnen verbraucht wird; dieser Wechsel kann bestimmen, wie schnell ein Beutel entkoffeinierter Kaffee tatsächlich leer wird.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "2b0cc9ed38cdbe6416eae0697095fb160bb0f0e372dd480acaf000876b44fa3d": {
+      "source": "The $20 Trapper Creek reference buys the 12 oz trial, not evidence that five pounds will be good value for an occasional decaf drinker. Its stated espresso-and-drip role is the useful proposition: one bag may cover both, but it still needs separate grinder settings. Include changeover waste when deciding how long the larger pack would last.",
+      "text": "Der Trapper-Creek-Referenzpreis von $20 bezahlt den Versuch mit 12 oz und belegt nicht, dass fünf Pfund für gelegentliche Decaf-Trinker ein gutes Preis-Leistungs-Verhältnis bieten. Die angegebene Rolle für Espresso und Filterkaffee ist das nützliche Angebot: Ein Beutel kann beides abdecken, braucht aber weiterhin getrennte Mühleneinstellungen. Rechnen Sie Wechselverluste ein, wenn Sie bestimmen, wie lange die größere Packung reichen würde.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "f69aecdc55c027305e909c598be2699d03d4e0fa89efdb34a72b484599c3715d": {
+      "source": "Make Trapper Creek after the household’s regular coffee using the same switching routine you expect to keep. Account for old beans in the hopper and retained grounds, and save a dedicated decaf setting if your grinder allows it. A small bag tests both the flavor and whether the changeover discourages you from using it.",
+      "text": "Bereiten Sie Trapper Creek nach dem regulären Kaffee des Haushalts mit genau der Wechselroutine zu, die Sie beibehalten möchten. Berücksichtigen Sie alte Bohnen im Bohnenbehälter und zurückgehaltenes Mahlgut und speichern Sie eine eigene Decaf-Einstellung, wenn Ihre Mühle dies erlaubt. Ein kleiner Beutel prüft sowohl den Geschmack als auch die Frage, ob der Wechsel Sie von der Verwendung abhält.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "cf5f141418f044a04b09fb2fb2e75bef94b2383e0e68c4633b78205c8f9ffc1b": {
+      "source": "Compare Counter Culture Slow Motion Decaf if you prefer a medium cocoa-and-molasses brief with published roast-date blend history.",
+      "text": "Vergleichen Sie Counter Culture Slow Motion Decaf, wenn Sie ein mittleres Röstprofil mit Kakao und Melasse sowie eine veröffentlichte Mischungshistorie nach Röstdatum bevorzugen.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "329678c82421df7af1518601a9a2cd578196561c03dc18ac46b86ca190b44430": {
+      "source": "Buy for the decaf routine, not only the flavor words",
+      "text": "Kaufen Sie für die Decaf-Routine, nicht nur wegen der Geschmackswörter",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
+    },
+    "fcf023f6a358e1fcf6f4f70eb14bf6998c4eda8e497fa19e6e6401c2db362063": {
+      "source": "Trapper Creek makes a practical trial for someone needing both drip and espresso guidance in a decaf. Its citrus/graham/cocoa brief differs from Slow Motion’s molasses direction. The larger pack becomes sensible only when bean switching and weekly consumption are already working.",
+      "text": "Trapper Creek ist ein praktischer Versuch für alle, die bei einem entkoffeinierten Kaffee sowohl Filter- als auch Espressoanleitungen brauchen. Sein Zitrus-Graham-Kakao-Profil unterscheidet sich von Slow Motions Melasse-Ausrichtung. Die größere Packung wird erst sinnvoll, wenn Bohnenwechsel und wöchentlicher Verbrauch bereits funktionieren.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/review-source-repair-batch-59.json"
     }
   },
   "routes": {

@@ -3068,6 +3068,58 @@ still defer the regional bundle. The existing 107-page public editions are
 retained. No full-edition completion or new regional launch is claimed;
 publication mode and continuation stay enabled.
 
+### Direct batch 59: six decaf and half-caff review revisions (2026-10-30)
+
+`review-source-repair-batch-59` directly translates 82 current slots / 81 distinct
+strings in NL/DE/FR. Existing passing cache wording completes all other current
+text, metadata, accessible labels and structured answers for these six reviews:
+
+| Review | Source words | Paragraphs | FAQ answers |
+| --- | ---: | ---: | ---: |
+| Slow Motion Decaf | 1,376 | 43 | 4 |
+| Trapper Creek Decaf | 1,334 | 43 | 4 |
+| Decaf Black Cat Espresso | 1,357 | 43 | 4 |
+| Organic Decaf House Blend | 1,366 | 43 | 4 |
+| Decaf Equator Blend | 1,400 | 43 | 4 |
+| Even Keel Half-Caff | 1,604 | 47 | 4 |
+
+The complete source bodies were reviewed directly. New wording preserves the
+difference between a 50/50 bean blend and measured caffeine in a brewed serving;
+neither a half-caff name nor a decaf label proves zero caffeine. Swiss Water and
+Mountain Water remain distinct process claims, not measurements of the drink.
+Origin records remain tied to the current lot or roast date. Proposed trials
+remain instructions to the reader, never Coffeedant tasting or extraction tests.
+
+The native copy retains separate espresso and filter settings, retained grounds
+when switching beans, dated US pack prices and consumption before bulk buying.
+Decaf Black Cat's 18 g to 45 g recipe remains distinct from House's 1:18 filter
+start and its illustrative 20 g / 360 g recipe. Equator's filter and press support
+does not become an espresso recipe. Lime and dried-plum notes remain specific;
+flavor descriptions do not become added ingredients. No local offer, converted
+price, caffeine assay or universal grinder setting is invented.
+
+The initial snapshot was collected before source-build metadata finalization.
+It is preserved unchanged. The adjacent `-current.source.json` pins the finalized
+full-page fingerprints after verifying that all 82 original slot IDs, source
+strings, kinds and authored indices remain current and unchanged. No authored
+entry was silently reindexed, and no localized URL was renamed.
+
+The import adds 82 entries per edition with zero changes to prior cache wording
+or routes. All 210 localization and 20 SEO tests pass. Analytics validates all
+659 content pages and 16 redirects; all 35 bean reviews and the 151-machine /
+seven-grinder Finder checks pass with the Cloudflare build flag. Eighteen full
+native preview comparisons cover all 8,437 source words, 262 paragraphs and 24
+FAQ answers per edition, plus complete metadata, schema, links, accessible
+attributes, image/SVG geometry, compiled scripts and runtime interface data.
+
+Inventory remains 659 pages / 56,506 segments. Each edition has 93 current
+complete indexable pages plus 404. NL has 12,452 translated / 44,054 pending;
+DE/FR each have 12,474 / 44,032. Finder pending remains zero. There are 180
+non-watch and 385 watch pages incomplete. Twenty revised bean reviews are now
+current; 15 other published revisions still defer the atomic regional bundle.
+The existing 107-page public editions remain available. Ready-pages publication
+and continuation remain enabled; no full-edition completion is claimed.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
