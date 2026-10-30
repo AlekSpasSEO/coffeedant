@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "scope": "segments",
+  "editions": ["nl", "de", "fr"],
+  "snapshot": "aeropress-hub-preservation-batch-52.source.json",
+  "snapshotHash": "65fcdb7b970cfbc94f10f5df983a0a57fa0ad9e3d9b5ab0188d69795d3a7b8c1",
+  "translations": {
+    "0": {
+      "nl": "Nieuwe koopgids · 30 oktober 2026",
+      "de": "Neuer Kaufratgeber · 30. Oktober 2026",
+      "fr": "Nouveau guide d’achat · 30 octobre 2026"
+    },
+    "1": {
+      "nl": "AeroPress-bonen per koffiestijl",
+      "de": "AeroPress-Bohnen nach Tassenprofil",
+      "fr": "Grains pour AeroPress selon le style en tasse"
+    },
+    "2": {
+      "nl": "Vergelijk een fruitige zwarte koffie, een dagelijkse kop met chocolade en fruit en een sterkere ijskoffie aan de hand van brandermethoden en expliciete beperkingen van het bewijs.",
+      "de": "Vergleichen Sie eine fruchtbetonte schwarze Tasse, einen Alltagskaffee mit Schokolade und Frucht sowie eine kräftigere Zubereitung auf Eis anhand von Röstermethoden und ausdrücklich benannten Beleggrenzen.",
+      "fr": "Comparez une tasse noire fruitée, un café quotidien chocolaté et fruité et une préparation plus concentrée sur glace à partir des méthodes des torréfacteurs et de limites explicites des preuves."
+    },
+    "3": {
+      "nl": "Lees de bonengids voor AeroPress",
+      "de": "Den Bohnenratgeber für AeroPress lesen",
+      "fr": "Lire le guide des grains pour AeroPress"
+    }
+  }
+}

@@ -2730,6 +2730,49 @@ DE 12,105 / 44,346, FR 12,033 / 44,418. There remain 168 non-watch and 385 watch
 pages pending. Complete-edition flags remain false; incremental publication and
 the continuation stay enabled.
 
+### Direct batch 52: full pour-over buying guide (2026-10-30)
+
+The complete current pour-over buying guide is directly authored for NL/DE/FR
+using the immutable `pour-over-beans-guide-batch-52` snapshot: 111 missing
+NL slots / 93 distinct strings, with 90 authored triples and three explicit
+external proper-name/title approvals. The two already passing German labels
+are reused exactly. New native routes are registered once for this previously
+unrouted guide; every existing route, including Dutch espresso dosing, is kept.
+
+All 1,814 source words, 58 paragraphs, seven visible and structured FAQ answers,
+the two comparison tables, scroll/mobile labels, metadata, source attribution
+and links are retained. Apollo remains a flavor-led choice without an invented
+specific cone recipe. Geometry retains Onyx's 25 g/400 g at 205°F and about
+1:16; Bella Donovan retains 27 g/350 g, 195–205°F and about 1:13. These different
+recipes are not converted into a tasting ranking. Variable components,
+unmeasured shelf life, no Coffeedant tasting/extraction measurement and no
+verified delivered-price ranking remain explicit. Original US facts and
+Fahrenheit values are retained in the native edition's source-market context;
+no local equivalent, converted price or offer is invented.
+
+While this batch was prepared, independent PR #207 added the AeroPress guide
+and four new bean-hub strings. A normal merge preserves that source work and
+its release record. A separate immutable
+`aeropress-hub-preservation-batch-52` snapshot directly translates those four
+strings without altering the pour-over snapshot. The entire current hub
+(2,748 words / 89 paragraphs) is checked beside the complete guide, giving
+4,562 source words / 147 paragraphs / seven FAQ answers per edition. The
+AeroPress body remains unfinished and is linked to its English source.
+
+Three new regressions pass within 187 localization tests and nine SEO tests.
+Static analytics covers all 659 current content pages / 16 redirects. Finder
+151 records / seven grinders, all 35 full bean reviews and 43-brand navigation
+also pass. All six whole-page native previews pass; production and public
+verification remain required before calling this batch published. Readiness is
+105 complete indexable pages plus 404 per edition. Both unfinished cold-brew
+and AeroPress buying guides stay English destinations with the native notice.
+
+The merged source inventory is 659 canonical pages / 56,563 slots. New entries
+are NL/FR 115 each and DE 113, without changes to old text or old routes.
+Coverage is NL 12,123 translated / 44,440 pending, DE 12,218 / 44,345 and
+FR 12,148 / 44,415. There remain 168 non-watch and 385 watch pages pending.
+Full-edition flags remain false, and incremental publication continues.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
