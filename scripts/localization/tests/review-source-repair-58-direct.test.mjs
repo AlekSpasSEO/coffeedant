@@ -11,3 +11,12 @@ test('six bean-review repairs preserve frozen indices, method boundaries and att
   const t=i=>c.segments[s.segments[i].id].text;assert(t(11).includes('1:17'));assert(/niet automatisch|nicht automatisch|pas automatiquement/.test(t(8)));assert(/karameltonen|Karamellnoten|notes de caramel/.test(t(15)));assert(/niet omdat één|nicht weil eine einzige|pas parce qu’un seul/.test(t(36)));assert(/zelden|selten|rarement/.test(t(45)));for(const name of ['Southern Weather','Geometry'])assert(t(47).includes(name));
  }
 });
+
+test('the current Elizabeth guide excerpts preserve US identity, independent preheat limits and manual steam care',async()=>{
+ const name='elizabeth-guide-update-batch-58',s=await readJson(path.join(root,'localization/authored/'+name+'.source.json')),a=await readJson(path.join(root,'localization/authored/'+name+'.json'));
+ assert.equal(s.segments.length,38);assert.equal(new Set(s.segments.map(v=>v.source)).size,34);assert.equal(s.snapshotHash,digest(JSON.stringify(s.segments)));assert.equal(a.snapshotHash,s.snapshotHash);assert.equal(Object.keys(a.translations).length,34);assert.equal(a.routes,undefined);
+ for(const e of a.editions){const c=await loadCache(e),expected=new Map(Object.entries(a.translations).map(([i,v])=>[s.segments[+i].source,v[e]]));for(const v of s.segments){const x=c.segments[v.id];assert.equal(x.source,v.source);assert.equal(x.text,expected.get(v.source));assert.equal(x.text,validateTranslation(v.source,x.text));assert.equal(x.policyHash,policyHash);assert.equal(x.provider,'codex-direct');}
+  const t=i=>c.segments[s.segments[i].id].text;for(const n of ['PL92T','E61','$1,799.95','30','2026','Clive'])assert(t(1).includes(n));assert(t(3).includes('PL92T-120'));assert(t(16).includes('20–30')&&t(16).includes('PL92T'));assert(/onafhankelijke|unabhängige|indépendantes/.test(t(16)));assert(/geen onbeperkte|weder unbegrenzte|ni une capacité de lait illimitée/.test(t(17)));for(const n of ['Silvia Pro','Pro X'])assert(t(21).includes(n));assert(/geen gecontroleerd|kein kontrolliertes|pas de protocole contrôlé/.test(t(21)));assert(t(33).includes('$1,799.95'));
+  if(e==='de'){assert(t(20).includes('lassen Sie Dampf ab'));assert(!t(20).includes('spülen'));}
+ }
+});

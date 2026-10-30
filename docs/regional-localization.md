@@ -3032,21 +3032,41 @@ waste. Flavor notes are not added ingredients; one grinder setting is not
 claimed to serve both methods. All historical US price and recipe limitations,
 roaster attribution and registered routes remain intact.
 
-The import adds 58 entries per edition with no changes to prior cached wording.
-All 209 localization and 20 SEO tests pass, along with analytics, all 35 bean
-reviews and the 151-machine / seven-grinder Finder validators. Eighteen complete
-native preview comparisons pass for all bodies, metadata, every schema/FAQ,
-links, image/SVG geometry, accessible attributes, scripts and runtime data.
+The bean import adds 58 entries per edition with no changes to prior wording.
+The concurrent Elizabeth research revision `ba808fc` is preserved. Its changed
+excerpts briefly made the unpublished grinder-free guide incomplete, while its
+retained Finder wording kept all 151 records current. A separate immutable
+`elizabeth-guide-update-batch-58` snapshot covers 38 missing slots / 34 distinct
+strings. Direct translations add 39 current entries per edition across slot
+kinds, restoring the entire 5,531-word / 157-paragraph guide and its eight FAQs.
+Three initial Finder cards bring the rendered paragraph count to 166. This
+does not claim completion of the separate full Elizabeth review.
+
+The guide preserves PL92T / US PL92T-120 identity, programmable time rather
+than automatic beverage weighing, and independently observed 20–30-minute
+preheating without claiming a timing result for every US machine. Milk recovery
+and two-drink workflow remain bounded; retailer evidence mixing Silvia Pro and
+Pro X is not treated as a controlled repeated-pitcher test. Steam-wand purging
+follows the applicable manual. New dollar figures remain dated Lelit US / Clive
+source observations, not local offers or fresh API checks.
+
+Together the imports add 97 entries per edition with no prior text changes.
+All 210 localization and 20 SEO tests pass, along with analytics, all 35 bean
+reviews and the 151-machine / seven-grinder Finder validators. Twenty-one
+complete native preview comparisons pass for all bodies, metadata, every
+schema/FAQ, links, image/SVG geometry, accessible attributes, scripts and runtime
+data. The guide's actual compiled schematic handlers pass 18 native interactions.
 Every previously current complete page remains ready, including Dutch dosing.
 
-Current inventory is 659 pages / 56,461 segments; shared FAQ prompts remove four
-redundant current text/JSON IDs without deleting cached evidence. Each edition
-has 87 current complete indexable pages plus 404. NL has 12,371 translated /
-44,090 pending; DE/FR each have 12,393 / 44,068. There remain 186 non-watch and
-385 watch pages incomplete. Fourteen revised bean reviews are now current;
-21 other published bean-review revisions still defer the regional bundle.
-The existing 107-page public editions are retained. No full-edition completion
-or new regional launch is claimed; publication mode and continuation stay enabled.
+Current inventory is 659 pages / 56,506 segments after the independent Elizabeth
+revision. The shared FAQ prompts remove four redundant question IDs without
+deleting cached evidence. Each edition has 87 current complete indexable pages
+plus 404. NL has 12,370 translated / 44,136 pending; DE/FR each have 12,392 /
+44,114. There remain 186 non-watch and 385 watch pages incomplete. Fourteen
+revised bean reviews are now current; 21 other published bean-review revisions
+still defer the regional bundle. The existing 107-page public editions are
+retained. No full-edition completion or new regional launch is claimed;
+publication mode and continuation stay enabled.
 
 ## Missing configuration
 
