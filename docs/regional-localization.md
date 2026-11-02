@@ -3367,6 +3367,47 @@ Dutch dosing URL. NL has 12,956 translated / 43,640 pending; DE has 13,008 /
 non-watch and 385 watch pages incomplete. Incremental publication and the hourly
 continuation remain active; no full edition is complete.
 
+### Direct batch 65: four complete machine-video companions (2026-11-02)
+
+Four complete short video pages are directly completed in NL/DE/FR: original
+Profitec GO and Bambino Plus with Coffee Kev, plus Bezzera Strega and Quick Mill
+Silvano Evo with Joe Varacalli. Their full current bodies contain 321 combined
+source words and 19 paragraphs. Ownership, curation, affiliate disclosure, visible
+dates, accessible player titles, navigation, metadata and ItemPage/VideoObject/
+Breadcrumb text are covered. Creator identities, original upload timestamps,
+durations, IDs, channel links and privacy-enhanced players are preserved. The
+existing approved quoted Profitec video title and passing summaries are reused
+verbatim, following the cited-work-name treatment of batch 44. The recordings
+remain the creators' original media; no local-language audio or Coffeedant test
+is claimed. The UK Sage experience remains separate from US Bambino terms, and
+the original GO is not replaced with GO 2.0 evidence.
+
+The GO full snapshot freezes 485 page/shared slots. A four-page batch snapshot
+pins each complete source fingerprint and 56 missing slots. Its 35 authored
+three-language strings add 56 current cache entries per edition, with zero prior
+wording changes. All six previously registered watch URLs are retained; the six
+missing routes are added under their stable original creator slugs. Parent full
+reviews and the unfinished video library continue to open their English source
+with the native edition notice.
+
+All 210 localization and 20 SEO tests pass, including the actual native video
+close-label initializer and cross-origin English-link fallback. Analytics, all
+35 bean reviews and the 151-machine/seven-grinder Finder validators also pass.
+Twelve whole-page previews compare complete text, metadata, schema, labels, links
+and runtime UI. Player IDs, embed destinations, 960 × 540 dimensions and original
+permissions are independently compared to the complete source. The full regional
+production bundle passes with zero publication deferrals; another twelve full
+page comparisons pass after production SEO generation. Live evidence is recorded
+in the batch PR after deployment.
+
+Inventory remains 660 source pages / 56,596 segments. Ready selection is 115
+indexable pages plus 404 per edition, preserving all 111 old live routes and the
+approved Dutch dosing URL. NL has 13,012 translated / 43,584 pending; DE has
+13,064 / 43,532 and FR has 13,034 / 43,562. Finder gaps remain zero. There are
+163 non-watch and 381 watch pages still incomplete. Ready-pages publication,
+hourly continuation and source-change automation remain active; full editions
+remain incomplete.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
