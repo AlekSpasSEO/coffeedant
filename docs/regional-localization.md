@@ -3207,8 +3207,13 @@ The independent moka-pot guide from `749bec8` is preserved through a normal
 merge. Its four new hub strings are directly translated in a separate frozen
 `moka-hub-update-batch-61` task, completing the current hub without publishing
 the unfinished guide. Its hub link opens the English source with the existing
-native edition notice. Together the imports add 94 entries in NL/FR and 34 in DE;
-the 46 selected German corrections remain the only prior wording changes.
+native edition notice. A second normal merge preserves the incoming German
+cache and 20 routes from `79b1cf7`, including the still-unrouted moka guide.
+Against that final upstream baseline the imports add 94 entries in NL/FR and
+12 in DE, with 68 selected German wording corrections. Changes remain confined
+to the 94 explicitly authored source IDs; earlier Codex-direct wording and all
+unrelated incoming entries and routes are preserved. All 11,621 required render
+inputs per edition match the validated production bundle after this cache merge.
 
 All 35 bean reviews, the complete grinder-free guide and the current coffee-bean
 hub pass 111 native preview comparisons across the three editions. Per edition
@@ -3230,7 +3235,8 @@ The ready-page selection contains 108 indexable pages plus 404 per edition,
 preserving all 107 previously published routes and adding the grinder-free guide.
 
 Inventory is 660 pages / 56,596 segments. NL has 12,604 translated / 43,992 pending;
-DE/FR each have 12,626 / 43,970. Finder pending is zero, and no bean-review revision
+DE has 12,714 / 43,882 and FR has 12,626 / 43,970. Finder pending is zero,
+and no bean-review revision
 remains pending. There are still 166 non-watch and 385 watch pages incomplete.
 Ready-pages publication and hourly continuation remain enabled. Full editions
 remain incomplete; completing the current bean reviews is not full-site completion.
