@@ -3452,6 +3452,52 @@ NL has 13,103 translated / 43,493 pending; DE has 13,155 / 43,441 and FR has
 pages still incomplete. Ready-pages publication, hourly continuation and
 source-change automation remain active; all full editions remain incomplete.
 
+### Direct batch 67: complete superautomatic guide (2026-11-02)
+
+The full current `/espresso-machine/superautomatic/` guide is directly completed
+in NL/DE/FR, reusing the saved passing batch-66 wording. Its complete source body
+contains 5,903 words and 166 paragraphs; the regional rendering has 175 paragraphs
+after the native Finder/interface content is restored. All eight visible and
+structured FAQ answers, comparison cells, evidence notes, image descriptions,
+metadata, accessible labels and four automatic operating diagrams are covered.
+The exact US De'Longhi ECAM29084SB, discontinued/refurbished Philips EP5447/94,
+fifth-generation North American JURA article 15722 and European Gaggia RI9781/01
+remain distinct. Dated US/UK prices stay source-market observations, without
+currency conversion or invented local offers. Owner reports, voltage conflicts,
+commercial interests and the limits of independent testing remain explicit.
+
+The immutable complete snapshot freezes 921 slots with the same fingerprint as
+the batch-66 source. A new missing-only snapshot freezes 188 slots. Its 162
+authored string triples and eight unchanged brand/model/capacity values add 195
+current cache entries per edition across source kinds, with no earlier wording
+changes. The German `/espresso-maschine/superautomatisch/` URL is preserved; the
+new NL/FR URLs are `/espressomachines/volautomatisch/` and
+`/machines-expresso/automatiques/`.
+
+Nine complete guide/hub/companion comparisons cover every body character,
+metadata, schema, links, runtime interface and SVG geometry. Independent compiled
+Finder records confirm all four recommendations have built-in grinders. All
+four automatic schematics per edition remain static as in the source; no
+interactive controls or test results are invented. All 210 localization and 20
+SEO tests, analytics, 35 bean reviews and the 151-machine/seven-grinder validators
+pass. Production and live deployment evidence is recorded in the batch PR.
+
+Exact desktop/mobile Chrome rendering exposed a German header language-picker
+overflow and a clipped French automatic-diagram note. Regional-only CSS reduces
+desktop header gaps and sets automatic-diagram notes to 13px, preserving the
+complete cached wording, existing markup and SVG geometry. The US selector keeps
+its original CSS. Browser checks use actual CSS viewports of 1365px and 390px,
+including diagram text bounds and native menu/keyboard behavior; final results
+are recorded with the production checks.
+
+Inventory remains 660 source pages / 56,596 segments. Ready selection is 118
+indexable pages plus 404 per edition, preserving all 117 old public routes and
+the approved Dutch dosing URL. NL has 13,298 translated / 43,298 pending; DE has
+13,350 / 43,246 and FR has 13,320 / 43,276. Finder gaps remain zero. There are
+162 non-watch and 379 watch pages still incomplete. Ready-pages publication,
+hourly continuation and source-change automation remain active; full editions
+remain incomplete.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
