@@ -1,0 +1,877 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/grinder/best-compact-electric-espresso-grinders/",
+      "sourceHash": "108135e70919a326fefde3044c6732b8949e7956a1002ee460cad521af635247"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "84e7424f9db615443ebb033cd3f5d5715cadb3720f5a1553a9c5189b0bf356f0",
+      "source": "Body",
+      "kind": "text",
+      "context": "Body"
+    },
+    {
+      "id": "da7c82a592b78c71a3284c321e5d37cd4d1e257e23c02f5bc06df6441a33db05",
+      "source": "Width",
+      "kind": "text",
+      "context": "Width"
+    },
+    {
+      "id": "12e1b384fcb5e24cf8a5b156e740e49c8a41172e8d27ae26c190f2b7b1238659",
+      "source": "Small espresso machines",
+      "kind": "text",
+      "context": "Small espresso machines"
+    },
+    {
+      "id": "3cd29c1afd1afedcc64ea506a63cb4512415673fa8a9a474ea2174fe410f8d98",
+      "source": "Baratza official product image of the black Encore ESP Pro with its bean hopper and grounds bin",
+      "kind": "attribute",
+      "context": "A versatile $299.95 grinder for buyers who want fine espresso adjustment without surrendering filter range or routine parts access     Written byAleksandar SpasevskiEditor at Coffeedant   PublishedOct 13, 2026 UpdatedOct 30, 2026"
+    },
+    {
+      "id": "766aff0cc90b716e4b3da96ff4c018e614cf5feeb0151df46cffb94ad77741ce",
+      "source": "Baratza official product image of the black Encore ESP Pro with its bean hopper and grounds bin",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "63905e5b314f178a04d60244cc3231aae4467f24a40d8404c5199177da086681",
+      "source": "Best Compact Electric Espresso Grinders | Coffeedant",
+      "kind": "text",
+      "context": "Best Compact Electric Espresso Grinders | Coffeedant"
+    },
+    {
+      "id": "bae3e3a14d576bf94cab5cbf025512d4417267aea46a457038c9966db16d0970",
+      "source": "Three exact US electric espresso grinders compared by manufacturer footprint, counter clearance, dosing access, cleaning and independent use evidence.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "31939e0d20bbc14b3973b72c8ab6ef1a17ae07551fc01fac4629524cb1bc6f70",
+      "source": "Best Compact Electric Espresso Grinders | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "6a9175f35fb61b00a3a1eab1e1bed88b7b0e8521a8cd0b13675c72dd4ad62f7e",
+      "source": "Compact electric",
+      "kind": "text",
+      "context": "Compact electric"
+    },
+    {
+      "id": "3910505ab3b2f63b2509503d38894c8ce1be2d222f3aea37df1ca87572a6a11e",
+      "source": "Best Compact Electric Espresso Grinders",
+      "kind": "text",
+      "context": "Best Compact Electric Espresso Grinders"
+    },
+    {
+      "id": "55478ff7adc4e6f3e23b0636b88ccfbdf16b56a8c50e42dbe43a3407150ae0eb",
+      "source": "Three narrow grinders solve different counter problems. Check depth, cabinet clearance and the room your hands need before choosing by body size.",
+      "kind": "text",
+      "context": "Three narrow grinders solve different counter problems. Check depth, cabinet clearance and the room your hands need before choosing by body size."
+    },
+    {
+      "id": "f0b6547dab2d1a02a7d5c8cd23dedf3e1b084c9d4f1613d1879498e105dfb4aa",
+      "source": "October 27, 2026",
+      "kind": "text",
+      "context": "October 27, 2026"
+    },
+    {
+      "id": "c79adc8d95e557b477d9545fff3643ab15d0809a19d44477d902fbaacc49ed04",
+      "source": "· Sources checked October 26–27 · US product context",
+      "kind": "text",
+      "context": "Published October 27, 2026 · Sources checked October 26–27 · US product context"
+    },
+    {
+      "id": "8e73962e09a3110b66ad9cf70e9e2b74c304c6fb4bddd7d51383d4191157225c",
+      "source": "I compared current manufacturer dimensions and exact-model documents with independent sample reviews. Coffeedant has not handled, ground, measured or tasted with these grinders. The picks are research-led space and workflow judgments.",
+      "kind": "text",
+      "context": "I compared current manufacturer dimensions and exact-model documents with independent sample reviews. Coffeedant has not handled, ground, measured or tasted with these grinders. The picks are research-led space and workflow judgments."
+    },
+    {
+      "id": "ccc1d950f4a7fd1ca5875167e8abf08ed7b907072dbd327a75475add33181911",
+      "source": "Plan your counter",
+      "kind": "text",
+      "context": "Plan your counter"
+    },
+    {
+      "id": "2013445fb86e0142db5e63ac5805edbd48696b6c1587490e1bede0287f4e064e",
+      "source": "Measure the space you actually use",
+      "kind": "text",
+      "context": "Measure the space you actually use"
+    },
+    {
+      "id": "cad7f3a15c29cc91ee7b3b1dfcc73105d0df29a0b3e0db531de2bb850ecb0514",
+      "source": "A smaller footprint can still have a worse reach",
+      "kind": "text",
+      "context": "A smaller footprint can still have a worse reach"
+    },
+    {
+      "id": "a4719fc407bf1c80421dfffd0adc8843e7fe99a866197de343261f704d9dfe16",
+      "source": "Choose the dose routine before the dimensions",
+      "kind": "text",
+      "context": "Choose the dose routine before the dimensions"
+    },
+    {
+      "id": "78007477e2a254a550441c759b9d10c0bb226bfaa3a01e000f38c0f8ea2594df",
+      "source": "Leave enough room to keep it clean",
+      "kind": "text",
+      "context": "Leave enough room to keep it clean"
+    },
+    {
+      "id": "442285eae3ef5800f1e3a90063e9cd0860471be643776a1fa0555972d538e76d",
+      "source": "Compare the whole station, not a dated sticker price",
+      "kind": "text",
+      "context": "Compare the whole station, not a dated sticker price"
+    },
+    {
+      "id": "4c69bf211ed86c146a34a87f24481997bb750e2914b75748aa857e4d2ed7857a",
+      "source": "The space decision",
+      "kind": "text",
+      "context": "The space decision"
+    },
+    {
+      "id": "32fd39a328cda0de63315a5e896d23152d49b7f86b2680380dd2e594865cf0fc",
+      "source": "This shortlist solves a physical fit problem: fitting an electric espresso-capable grinder beside a machine and still reaching its controls, beans and cleaning parts. We included only exact reviewed models with current manufacturer width, depth and height data, a US configuration, and enough independent use evidence to discuss a limitation. We excluded grinders with missing comparable dimensions or a larger body that did not improve this particular decision. The dimensions are manufacturer body specifications, not measurements taken by Coffeedant.",
+      "kind": "text",
+      "context": "This shortlist solves a physical fit problem: fitting an electric espresso-capable grinder beside a machine and still reaching its controls, beans and cleaning parts. We included only exact reviewed models with current manufacturer width, depth and height data, a US configuration, and enough independent use evidence to discuss a limitation. We excluded grinders with missing comparable dimensions or a larger body that did not improve this particular decision. The dimensions are manufacturer body specifications, not measurements taken by Coffeedant. [1] [2] [3]"
+    },
+    {
+      "id": "b64f045d9faff769eaec92e25fb46603542cdce8f18e027967e685cdb319e306",
+      "source": "Measure the countertop from backsplash to usable front edge, then the gap from counter to cabinet underside. Reserve room around the grinder for a cup or portafilter, a hand on the adjustment, its power cord, and safe access to remove beans and clean the burr chamber. A body that fits exactly on paper can be awkward under a low cupboard. None of the three published dimensions proves that the top-opening or bellows can operate within the same height. Make a cardboard rectangle for the footprint before ordering.",
+      "kind": "text",
+      "context": "Measure the countertop from backsplash to usable front edge, then the gap from counter to cabinet underside. Reserve room around the grinder for a cup or portafilter, a hand on the adjustment, its power cord, and safe access to remove beans and clean the burr chamber. A body that fits exactly on paper can be awkward under a low cupboard. None of the three published dimensions proves that the top-opening or bellows can operate within the same height. Make a cardboard rectangle for the footprint before ordering."
+    },
+    {
+      "id": "ed0a412df6d82fa0827ecba1f9f37ea052f21f33fca37989d87aee650ee0e43b",
+      "source": "The three bodies are all narrow, at 130–133 mm wide, but their proportions differ. The Encore ESP Pro is the shallowest on the stated dimensions at 150 mm deep; it is 340 mm tall and its hopper or single-dose lid and adjustment collar are above the body. Opus 2 is 267 mm tall, yet 206 mm deep. The Zero 65 All Purpose is 357 mm tall and 215 mm deep, before any practical clearance for its bellows. Those figures are useful for screening a shelf, not a complete installed-space drawing.",
+      "kind": "text",
+      "context": "The three bodies are all narrow, at 130–133 mm wide, but their proportions differ. The Encore ESP Pro is the shallowest on the stated dimensions at 150 mm deep; it is 340 mm tall and its hopper or single-dose lid and adjustment collar are above the body. Opus 2 is 267 mm tall, yet 206 mm deep. The Zero 65 All Purpose is 357 mm tall and 215 mm deep, before any practical clearance for its bellows. Those figures are useful for screening a shelf, not a complete installed-space drawing. [1] [2] [3]"
+    },
+    {
+      "id": "3e800e5385b29f2bca66be1d29bfae24cb8734d7984eca9186db90b6c009707a",
+      "source": "Counter placement also determines which control feels convenient. Opus 2 uses a side adjustment dial; check which side remains reachable next to your espresso machine. The Baratza changes grind at the upper collar and presents a front display. Eureka has a large marked dial and a dosing fork, but the bellows needs space above. A tight counter can make the theoretically smaller grinder harder to use if the accessible side faces a wall.",
+      "kind": "text",
+      "context": "Counter placement also determines which control feels convenient. Opus 2 uses a side adjustment dial; check which side remains reachable next to your espresso machine. The Baratza changes grind at the upper collar and presents a front display. Eureka has a large marked dial and a dosing fork, but the bellows needs space above. A tight counter can make the theoretically smaller grinder harder to use if the accessible side faces a wall."
+    },
+    {
+      "id": "168f4582d5fbdc40a4ae2f4389a89ee3128c385869535fcf5b0603984794061a",
+      "source": "Manufacturer body dimensions",
+      "kind": "text",
+      "context": "Manufacturer body dimensions"
+    },
+    {
+      "id": "bc544c07c9ec8e4773ca8a60cc90d0c7eaa23706e43b9ed39a076dd981496faa",
+      "source": "Scrollable compact espresso grinder comparison",
+      "kind": "attribute",
+      "context": "Manufacturer body dimensionsQuick comparisonWidth × depth × height in millimeters; clearance for loading and cleaning is additionalExact grinderBodyBest fitMain limitFellow Opus 2130 × 206 × 267 mmLowest published heightThe plastic grind path and filter-cup results in an independent sample are real compromisesBaratza Encore ESP Pro130 × 150 × 340 mmShallowest published bodyThe tall hopper and top collar need usable space above the cabinet lineEureka Mignon Zero 65 All Purpose133 × 215 × 357 mmNarrow stepless upgradeTallest and deepest of this shortlist; allow room for bellows and adjustment"
+    },
+    {
+      "id": "ba49a50fab331f2fe5685ef079e4aff52800c2b1a6290af0a7a473d2596a1671",
+      "source": "Width × depth × height in millimeters; clearance for loading and cleaning is additional",
+      "kind": "text",
+      "context": "Width × depth × height in millimeters; clearance for loading and cleaning is additional"
+    },
+    {
+      "id": "921efadf79419c16734f4ae6ca1e272874f7714c62d9254759dd588a15fc9d0b",
+      "source": "Exact grinder",
+      "kind": "text",
+      "context": "Exact grinder"
+    },
+    {
+      "id": "856f7543209e4e8005ed90e0127719b3f05ea2a60455e487645eb222902ba44f",
+      "source": "130 × 206 × 267 mm",
+      "kind": "text",
+      "context": "130 × 206 × 267 mm"
+    },
+    {
+      "id": "b6b057e70e5b9489c8b7f0e8e356e4e79db299406b54efba193c5ee802d97a79",
+      "source": "Lowest published height",
+      "kind": "text",
+      "context": "Lowest published height"
+    },
+    {
+      "id": "9994d16f0ed655900684683e7f38f4ea3dcfad67e9b2ecc1af42e5a0329ee512",
+      "source": "The plastic grind path and filter-cup results in an independent sample are real compromises",
+      "kind": "text",
+      "context": "The plastic grind path and filter-cup results in an independent sample are real compromises"
+    },
+    {
+      "id": "7ff100140d6ac570f660d5af29bf18d09d73c1e304d95866878b13ceb8cf8222",
+      "source": "130 × 150 × 340 mm",
+      "kind": "text",
+      "context": "130 × 150 × 340 mm"
+    },
+    {
+      "id": "da9172ebf834fcb1992bd066d9f776298f07fbe9a76950139334096f98618a5f",
+      "source": "Shallowest published body",
+      "kind": "text",
+      "context": "Shallowest published body"
+    },
+    {
+      "id": "2fd879c4f7408437c99878ce614dad7ec558eae831d9a0f7894701343ce585d5",
+      "source": "The tall hopper and top collar need usable space above the cabinet line",
+      "kind": "text",
+      "context": "The tall hopper and top collar need usable space above the cabinet line"
+    },
+    {
+      "id": "9d7f714d01f09e332148d9637b7439b523cba5eb04cb979d49a8ea4bda988f6a",
+      "source": "133 × 215 × 357 mm",
+      "kind": "text",
+      "context": "133 × 215 × 357 mm"
+    },
+    {
+      "id": "694a61f31c9c8ada9eb70ef5b81d22a56b2130bfe3eb71b7331699bd9c2be802",
+      "source": "Narrow stepless upgrade",
+      "kind": "text",
+      "context": "Narrow stepless upgrade"
+    },
+    {
+      "id": "381c018f510860a1f89d71fcd7c58b82e3334af8f1fe4c5baf0dc44471391e5e",
+      "source": "Tallest and deepest of this shortlist; allow room for bellows and adjustment",
+      "kind": "text",
+      "context": "Tallest and deepest of this shortlist; allow room for bellows and adjustment"
+    },
+    {
+      "id": "a6425ffcd73500e0aac8a2265d18e61a13f09cbcda0603f21a6a389af8d8504f",
+      "source": "Exact US model identities",
+      "kind": "text",
+      "context": "Exact US model identities"
+    },
+    {
+      "id": "b687bd47c55610f4d17f8016fb9e18b18820f6bb1ad042a6dcd0a6034ea3f6df",
+      "source": "Three defensible picks",
+      "kind": "text",
+      "context": "Three defensible picks"
+    },
+    {
+      "id": "a9e2010ad22624a768463a8ad279353475afdef9ee2f87206392344efaa8cd7f",
+      "source": "Fellow publishes a 130 × 206 × 267 mm body and a single-dose workflow. The Coffee Chronicler found tidy espresso use on one sample, while criticizing plastic internal parts and weaker filter results.",
+      "kind": "text",
+      "context": "Fellow publishes a 130 × 206 × 267 mm body and a single-dose workflow. The Coffee Chronicler found tidy espresso use on one sample, while criticizing plastic internal parts and weaker filter results. [1] [4]"
+    },
+    {
+      "id": "d29fa0e0a9fe8a7a0ddeb55cd3bd3df774e08e0bb0f29d4976b9991b364e9a11",
+      "source": "Daily routine:",
+      "kind": "text",
+      "context": "Daily routine:"
+    },
+    {
+      "id": "fe3c3acbdf60ebffd7f0af4c2d05d86739d24cce2d8ebdd4337b55e9121a2953",
+      "source": "Weigh each dose; use the supplied espresso cup.",
+      "kind": "text",
+      "context": "Daily routine: Weigh each dose; use the supplied espresso cup."
+    },
+    {
+      "id": "8259864a261f0337faa237cbc4d2b730fb0983bf2d0822d6c229553cb27421e5",
+      "source": "The plastic grind path and filter-cup results in an independent sample are real compromises.",
+      "kind": "text",
+      "context": "Tradeoff: The plastic grind path and filter-cup results in an independent sample are real compromises."
+    },
+    {
+      "id": "963285c1636fd1380dafbb16be1f4f80343fceaed819bc1c90783e446b68114f",
+      "source": "You need a hopper left full or a metal-heavy build.",
+      "kind": "text",
+      "context": "Skip if: You need a hopper left full or a metal-heavy build."
+    },
+    {
+      "id": "f17e481187ce3bdbb267feb188c17d19bde97963e66a14eaaa32b03eda4f6a63",
+      "source": "Baratza specifies 130 × 150 × 340 mm. Expert Reviews found its sample versatile but reported an unreliable empty-hopper auto-stop and difficult first cleaning. Its UK sample experience is context, not a US-unit reliability rate.",
+      "kind": "text",
+      "context": "Baratza specifies 130 × 150 × 340 mm. Expert Reviews found its sample versatile but reported an unreliable empty-hopper auto-stop and difficult first cleaning. Its UK sample experience is context, not a US-unit reliability rate. [2] [5]"
+    },
+    {
+      "id": "6c83f050e5a864ab171536b729f2fa5ab697f2064376aaa958e494ff243b71ba",
+      "source": "Choose timed hopper dosing or single dosing.",
+      "kind": "text",
+      "context": "Daily routine: Choose timed hopper dosing or single dosing."
+    },
+    {
+      "id": "415fb849306e722ac0dc7075cb5cd5daf1f91957e77e6a26c03fe33dbdd78778",
+      "source": "The tall hopper and top collar need usable space above the cabinet line.",
+      "kind": "text",
+      "context": "Tradeoff: The tall hopper and top collar need usable space above the cabinet line."
+    },
+    {
+      "id": "7545d771f5aa8229a379e3aa111ca9f988e297aa10c07ee69d27fa6647ceda30",
+      "source": "Your cabinet clearance is tight or you want the simplest burr removal.",
+      "kind": "text",
+      "context": "Skip if: Your cabinet clearance is tight or you want the simplest burr removal."
+    },
+    {
+      "id": "8fd7e2c56bbd40835848f29c0aaf1ca10028a1f70815dc32ae7ebffe0f3406ab",
+      "source": "Image and product: Baratza",
+      "kind": "text",
+      "context": "Image and product: Baratza"
+    },
+    {
+      "id": "1f0bc60f672fba2ac647592ea5042dee6a27a921e91ce176cc051c80b00d7b65",
+      "source": "Eureka publishes 133 × 215 × 357 mm, 65 mm flat burrs and a revolution-counting dial. Kaffeemacher found nonzero retained grounds under its own protocol; the marketing name is not a cleanliness guarantee.",
+      "kind": "text",
+      "context": "Eureka publishes 133 × 215 × 357 mm, 65 mm flat burrs and a revolution-counting dial. Kaffeemacher found nonzero retained grounds under its own protocol; the marketing name is not a cleanliness guarantee. [3] [6]"
+    },
+    {
+      "id": "cecc0bd5ed8defe0e014de831f53300b9da5da6b6369c2b8af6517c55e707f89",
+      "source": "Single-dose into the cup or portafilter with bellows and marked dial.",
+      "kind": "text",
+      "context": "Daily routine: Single-dose into the cup or portafilter with bellows and marked dial."
+    },
+    {
+      "id": "425eca7197d2cbe8ac53dca717be926e3f1a861d4a5cac817f60939126a1e300",
+      "source": "Tallest and deepest of this shortlist; allow room for bellows and adjustment.",
+      "kind": "text",
+      "context": "Tradeoff: Tallest and deepest of this shortlist; allow room for bellows and adjustment."
+    },
+    {
+      "id": "9fcdc9ebe8350040effdf60f174df3da637638d7fde91ef840790d73fb093575",
+      "source": "You want a low-effort hopper routine or a guaranteed empty grind path.",
+      "kind": "text",
+      "context": "Skip if: You want a low-effort hopper routine or a guaranteed empty grind path."
+    },
+    {
+      "id": "95bb43b91535538b2e786825c04fcd4ba0baf59d87d7133de502ed14fca2d7c2",
+      "source": "More than body width",
+      "kind": "text",
+      "context": "More than body width"
+    },
+    {
+      "id": "830f1042608ad05df9ec960be538bda936e5f05670377771652299276c699f79",
+      "source": "Scrollable detailed compact grinder comparison",
+      "kind": "attribute",
+      "context": "More than body widthDetailed comparisonDocumented form factors and research-led fit; no Coffeedant performance rankingFactorOpus 2Encore ESP ProMignon Zero 65 All PurposeWidth130 mm130 mm133 mmDepth206 mm150 mm215 mmBody height267 mm340 mm357 mmDose routineWeigh each dose; use the supplied espresso cupChoose timed hopper dosing or single dosingSingle-dose into the cup or portafilter with bellows and marked dialReason to skipYou need a hopper left full or a metal-heavy buildYour cabinet clearance is tight or you want the simplest burr removalYou want a low-effort hopper routine or a guaranteed empty grind path"
+    },
+    {
+      "id": "8023cbae5ef9dbfdfac3c47ab1aa55abc105cb360a6bae1975916f6e227cb244",
+      "source": "Documented form factors and research-led fit; no Coffeedant performance ranking",
+      "kind": "text",
+      "context": "Documented form factors and research-led fit; no Coffeedant performance ranking"
+    },
+    {
+      "id": "9ef83bb4e1f35223db775c6db8e04ff2160213d18f93b8aed09c032d2de467c9",
+      "source": "130 mm",
+      "kind": "text",
+      "context": "130 mm"
+    },
+    {
+      "id": "2b87c4cc447e4aecfbed52ac545339af9d90f2eb010af8ae1a81aa7a5f2e3a4b",
+      "source": "133 mm",
+      "kind": "text",
+      "context": "133 mm"
+    },
+    {
+      "id": "bb05eb9ebddc52eff450745e0ad33993ce9cfe5a938ecd6ea3f54711b94d15d7",
+      "source": "Depth",
+      "kind": "text",
+      "context": "Depth"
+    },
+    {
+      "id": "582d79fd21776bc26bf249d4e044c41de4e85e00cd9e5ce11457c60cddf92b64",
+      "source": "206 mm",
+      "kind": "text",
+      "context": "206 mm"
+    },
+    {
+      "id": "4cd8c4bb3a392571bea74e8a34ad7a7fa4f3f71f5b2ad552fea77d86ab03a3b5",
+      "source": "150 mm",
+      "kind": "text",
+      "context": "150 mm"
+    },
+    {
+      "id": "42ff9d658bdec9c430e34fac68bedb04a8c80925d9336822124d0af125a7912a",
+      "source": "215 mm",
+      "kind": "text",
+      "context": "215 mm"
+    },
+    {
+      "id": "9f08b7eb4ae91381ef953024b7380a83808bd800e2c75b87337cacdc05bc2b6c",
+      "source": "Body height",
+      "kind": "text",
+      "context": "Body height"
+    },
+    {
+      "id": "5a1da1c651b15b96d34a3f5410882f35e011da6f59a59455d83ed7b9ed342797",
+      "source": "267 mm",
+      "kind": "text",
+      "context": "267 mm"
+    },
+    {
+      "id": "02e947a8a54314b8727433e674189b01a5be602f0695faee57dbbec763dcb806",
+      "source": "340 mm",
+      "kind": "text",
+      "context": "340 mm"
+    },
+    {
+      "id": "c3b6461a17ef6fd5139f66649d2b0c010b0758159f3a6d3e9882f7385612f1be",
+      "source": "357 mm",
+      "kind": "text",
+      "context": "357 mm"
+    },
+    {
+      "id": "fd64175b6e967b4e43a8a812acfa087ecfe807f378cdeeab5de5959abb8c630d",
+      "source": "Dose routine",
+      "kind": "text",
+      "context": "Dose routine"
+    },
+    {
+      "id": "c236e8be6165db8c383500b3e23a1d3dfa62e9f684522229e3c17f859b635da3",
+      "source": "Weigh each dose; use the supplied espresso cup",
+      "kind": "text",
+      "context": "Weigh each dose; use the supplied espresso cup"
+    },
+    {
+      "id": "8affcdcdb6f80f6dc86aedf48dbf5b5a171aac8d7b82626e3751264a893fddef",
+      "source": "Choose timed hopper dosing or single dosing",
+      "kind": "text",
+      "context": "Choose timed hopper dosing or single dosing"
+    },
+    {
+      "id": "31d77c321a7187a07bc1e6a5f4bf3adcea84c03c6bda6db5dc248a01ebe2d3d9",
+      "source": "Single-dose into the cup or portafilter with bellows and marked dial",
+      "kind": "text",
+      "context": "Single-dose into the cup or portafilter with bellows and marked dial"
+    },
+    {
+      "id": "1a623643e333eb73439fe84fe6e4cda8eba929800ea1ecf26b801bad1f4c7204",
+      "source": "Reason to skip",
+      "kind": "text",
+      "context": "Reason to skip"
+    },
+    {
+      "id": "a5cfb21c331c4c168b25471f9d8aba1c1c54e14ced86516efc94b0cb4e2fdff6",
+      "source": "You need a hopper left full or a metal-heavy build",
+      "kind": "text",
+      "context": "You need a hopper left full or a metal-heavy build"
+    },
+    {
+      "id": "542986279a3942a80021ceb94ea57edc8d15f5f1d740904b61a9012a76c162ef",
+      "source": "Your cabinet clearance is tight or you want the simplest burr removal",
+      "kind": "text",
+      "context": "Your cabinet clearance is tight or you want the simplest burr removal"
+    },
+    {
+      "id": "4158a8679afb6ec3787e5bb7726088ddd4ab267eeb43225b6cf69d9593d62e3c",
+      "source": "You want a low-effort hopper routine or a guaranteed empty grind path",
+      "kind": "text",
+      "context": "You want a low-effort hopper routine or a guaranteed empty grind path"
+    },
+    {
+      "id": "5de845cb7176ca085e2f4db87a891b95759ce682a526423a8a207acd316bbb4d",
+      "source": "Live with the grinder",
+      "kind": "text",
+      "context": "Live with the grinder"
+    },
+    {
+      "id": "f24c94ee5ef691b8c2a6976d5bb4c9433ba95783b048a6665682428144d68ece",
+      "source": "Opus 2 is the most natural fit for someone who weighs a fresh dose for every espresso and sometimes grinds filter coffee. Fellow supplies two magnetic catch cups and describes the espresso cup as compatible with 54 mm and 58 mm portafilters. That is a cup-transfer statement, not universal portafilter fit: different baskets, handles and funnels still matter. Its one stepless dial removes the older Opus inner-ring routine. The Coffee Chronicler liked its speed and low mess on a particular sample, but found its plastic grind chamber and filter cup less convincing.",
+      "kind": "text",
+      "context": "Opus 2 is the most natural fit for someone who weighs a fresh dose for every espresso and sometimes grinds filter coffee. Fellow supplies two magnetic catch cups and describes the espresso cup as compatible with 54 mm and 58 mm portafilters. That is a cup-transfer statement, not universal portafilter fit: different baskets, handles and funnels still matter. Its one stepless dial removes the older Opus inner-ring routine. The Coffee Chronicler liked its speed and low mess on a particular sample, but found its plastic grind chamber and filter cup less convincing. [1] [4]"
+    },
+    {
+      "id": "809c84b862f8d0ce48630aa40a048e9e5df89bf658b2102ab661686d397ba1f5",
+      "source": "The Encore ESP Pro can keep beans in a hopper for timed doses or run a single-dose mode. That flexibility matters in a cramped shared kitchen where weighing every serving may be impractical. The independent Expert Reviews sample worked across espresso and filter, but its empty-hopper stop sometimes required a manual stop, and initial disassembly was awkward. Do not infer a failure frequency for every unit from one reviewer. Check that the collar can be reached and the hopper removed in your actual cabinet gap.",
+      "kind": "text",
+      "context": "The Encore ESP Pro can keep beans in a hopper for timed doses or run a single-dose mode. That flexibility matters in a cramped shared kitchen where weighing every serving may be impractical. The independent Expert Reviews sample worked across espresso and filter, but its empty-hopper stop sometimes required a manual stop, and initial disassembly was awkward. Do not infer a failure frequency for every unit from one reviewer. Check that the collar can be reached and the hopper removed in your actual cabinet gap. [2] [5]"
+    },
+    {
+      "id": "9ace82120bdb55086650a1203cc98ad0ce5ffd63bec2d963f66e2c697bba22fc",
+      "source": "The Eureka Zero 65 All Purpose is the specialist choice for a narrow station where careful espresso adjustment and occasional brewing changes justify a bellows routine. Its 65 mm flat burrs, stepless micrometric setting and revolution counter are exact-model features. The bellows can help clear loose grounds, yet independent Kaffeemacher measurements show that “Zero” is not literal empty retention. The substantial 5.6 kg body also makes frequent lifting to clear a cabinet less attractive.",
+      "kind": "text",
+      "context": "The Eureka Zero 65 All Purpose is the specialist choice for a narrow station where careful espresso adjustment and occasional brewing changes justify a bellows routine. Its 65 mm flat burrs, stepless micrometric setting and revolution counter are exact-model features. The bellows can help clear loose grounds, yet independent Kaffeemacher measurements show that “Zero” is not literal empty retention. The substantial 5.6 kg body also makes frequent lifting to clear a cabinet less attractive. [3] [6]"
+    },
+    {
+      "id": "335a06ab5d3ca5abbe81777307919d2a1d01e4cfa78d2580b6f840d31ee22533",
+      "source": "All three need access for periodic cleaning. A grinder pushed hard against a backsplash or trapped under a fixed shelf invites skipped maintenance, especially when the hopper or burr assembly must come off. Follow the exact manual, unplug first, and keep water away from electrical and burr components unless that manual explicitly permits it. A brush, bellows or anti-static feature reduces a particular mess; none replaces scheduled cleaning.",
+      "kind": "text",
+      "context": "All three need access for periodic cleaning. A grinder pushed hard against a backsplash or trapped under a fixed shelf invites skipped maintenance, especially when the hopper or burr assembly must come off. Follow the exact manual, unplug first, and keep water away from electrical and burr components unless that manual explicitly permits it. A brush, bellows or anti-static feature reduces a particular mess; none replaces scheduled cleaning. [7] [8] [9]"
+    },
+    {
+      "id": "038befb24a06f949b77001d64e3fc13ef24da949082a21a96bba2b6a9571edea",
+      "source": "The Encore ESP Pro’s independent disassembly difficulty deserves weight if hand strength or access is limited. Fellow describes tool-free burr access, which is convenient on paper, while its plastic chamber is a material tradeoff. Eureka’s bellows and cup add steps to the morning routine. Plan space for the accessories as well as the body; a compact machine surrounded by loose cups and funnels is not a compact station.",
+      "kind": "text",
+      "context": "The Encore ESP Pro’s independent disassembly difficulty deserves weight if hand strength or access is limited. Fellow describes tool-free burr access, which is convenient on paper, while its plastic chamber is a material tradeoff. Eureka’s bellows and cup add steps to the morning routine. Plan space for the accessories as well as the body; a compact machine surrounded by loose cups and funnels is not a compact station. [1] [3] [5]"
+    },
+    {
+      "id": "c58d91a189f42a44d7e5a59db57a2469e00c84a5606064986cea651592076804",
+      "source": "We did not verify one comparable delivered US checkout total for the exact selected colors and voltages on October 26, so this guide does not rank current prices or discounts. The linked full reviews contain dated offer context; recheck a legitimate US seller, taxes, shipping, stock and return terms before purchase. None of these models should be substituted with an older Opus, Encore ESP or Mignon Zero 55 merely because a retailer shortens the name.",
+      "kind": "text",
+      "context": "We did not verify one comparable delivered US checkout total for the exact selected colors and voltages on October 26, so this guide does not rank current prices or discounts. The linked full reviews contain dated offer context; recheck a legitimate US seller, taxes, shipping, stock and return terms before purchase. None of these models should be substituted with an older Opus, Encore ESP or Mignon Zero 55 merely because a retailer shortens the name. [1] [2] [3]"
+    },
+    {
+      "id": "078799d31e9e17f6ed51c5b38c4e35fbd3c28873f60ea176c242e5c2a7f54e56",
+      "source": "A shallow grinder may let you retain a usable prep zone, while a shorter body may fit a cabinet. Either saving is valuable only if the grind quality and daily routine meet your espresso needs. Keep room in the setup budget for a scale, a compatible cup or funnel, and a sensible cleaning kit. Avoid buying a larger hopper or dosing accessory until the body has been placed and used. For a travel kit or a counter with no safe electrical space, the separate reviewed K-Ultra hand grinder may be a better category entirely, with hand effort as its explicit cost.",
+      "kind": "text",
+      "context": "A shallow grinder may let you retain a usable prep zone, while a shorter body may fit a cabinet. Either saving is valuable only if the grind quality and daily routine meet your espresso needs. Keep room in the setup budget for a scale, a compatible cup or funnel, and a sensible cleaning kit. Avoid buying a larger hopper or dosing accessory until the body has been placed and used. For a travel kit or a counter with no safe electrical space, the separate reviewed K-Ultra hand grinder may be a better category entirely, with hand effort as its explicit cost."
+    },
+    {
+      "id": "50eb2e58837b5c6a2ff4b2cc1b56269ff7a7db5e52cb74069759e0c4d4117bc4",
+      "source": "Explore the rest of the station",
+      "kind": "text",
+      "context": "Explore the rest of the station"
+    },
+    {
+      "id": "c96f1f6213b21e813b748839bc7315db537959a372228e82534ec852fa1703c0",
+      "source": "See electric and manual alternatives outside this footprint shortlist.",
+      "kind": "text",
+      "context": "See electric and manual alternatives outside this footprint shortlist."
+    },
+    {
+      "id": "257d8609710bc0697cfbda8363674dea18333e36031a97b0e5e7a93d470ee309",
+      "source": "Regular and decaf grinder guide",
+      "kind": "text",
+      "context": "Regular and decaf grinder guide"
+    },
+    {
+      "id": "c165c7cca353c903abbdaf7244188e03a8e2898ef1c4b74108c8ec070d5773ad",
+      "source": "Choose a routine for two beans without assuming zero carryover.",
+      "kind": "text",
+      "context": "Choose a routine for two beans without assuming zero carryover."
+    },
+    {
+      "id": "3f8d37097f6768db4acdf61b2617276854c398acf58d1e0d8287e02cb33a5c10",
+      "source": "Reserve counter space for both the machine and grinder.",
+      "kind": "text",
+      "context": "Reserve counter space for both the machine and grinder."
+    },
+    {
+      "id": "7504368042348e1dcf8810e362d210000910e58244ce9dc0bd30dbef9cd6315c",
+      "source": "We screened the existing Coffeedant grinder reviews for exact electric models sold for espresso with current manufacturer width, depth and height specifications. These three offer distinct physical and dosing choices. We compared published controls and independent sample findings, then kept each sample observation within its own test context. We did not calculate a counter-area winner as a proxy for espresso quality.",
+      "kind": "text",
+      "context": "We screened the existing Coffeedant grinder reviews for exact electric models sold for espresso with current manufacturer width, depth and height specifications. These three offer distinct physical and dosing choices. We compared published controls and independent sample findings, then kept each sample observation within its own test context. We did not calculate a counter-area winner as a proxy for espresso quality."
+    },
+    {
+      "id": "ea269b7e2363ececacff588c19b9c93f2ace8f0cc484ae3ce472172f381158c9",
+      "source": "Sources were checked October 26, 2026. There is no Coffeedant hands-on test, sound measurement, retention measurement, taste comparison or verified delivered-price ranking here. Product images are credited identification media. The reader should check the actual US variant and measure installed clearance before ordering; affiliate links in full reviews do not control the selection.",
+      "kind": "text",
+      "context": "Sources were checked October 26, 2026. There is no Coffeedant hands-on test, sound measurement, retention measurement, taste comparison or verified delivered-price ranking here. Product images are credited identification media. The reader should check the actual US variant and measure installed clearance before ordering; affiliate links in full reviews do not control the selection."
+    },
+    {
+      "id": "f703c3af96efda6ddded36bb3928446e5ac7f2aea32731578a785a1965588f67",
+      "source": "Compact grinder FAQ",
+      "kind": "text",
+      "context": "Compact grinder FAQ"
+    },
+    {
+      "id": "f0cc370cf293352274b09ed31a880d3692c7320b67016b2b378b819c7916fc84",
+      "source": "Which is shortest under a cabinet?",
+      "kind": "text",
+      "context": "Which is shortest under a cabinet?"
+    },
+    {
+      "id": "b903fdd931820defcca1f0011abc87c5c45756a59b2a5d4438872a4f3a86f482",
+      "source": "Fellow lists Opus 2 at 267 mm high, versus 340 mm for Encore ESP Pro and 357 mm for Zero 65 All Purpose. Leave extra room for loading and servicing; body height alone is insufficient.",
+      "kind": "text",
+      "context": "Fellow lists Opus 2 at 267 mm high, versus 340 mm for Encore ESP Pro and 357 mm for Zero 65 All Purpose. Leave extra room for loading and servicing; body height alone is insufficient."
+    },
+    {
+      "id": "7f8770803f37fd5e24555fa3c63e1be4d791cef0216cbf6d4b552a75bd2c0888",
+      "source": "Which uses the least published counter depth?",
+      "kind": "text",
+      "context": "Which uses the least published counter depth?"
+    },
+    {
+      "id": "bd836712520b647b51e5c956bdc8f581cfaea82b0aa64d5717cabe8c4e6e4e15",
+      "source": "Baratza lists the Encore ESP Pro at 150 mm deep, versus 206 mm for Opus 2 and 215 mm for Eureka Zero 65 All Purpose. Leave front space for the catch cup or portafilter.",
+      "kind": "text",
+      "context": "Baratza lists the Encore ESP Pro at 150 mm deep, versus 206 mm for Opus 2 and 215 mm for Eureka Zero 65 All Purpose. Leave front space for the catch cup or portafilter."
+    },
+    {
+      "id": "66fe86aebeb5d89d5be12506b5fc0eba902e68fffd699f637d3802c94be49605",
+      "source": "Are these measurements Coffeedant measurements?",
+      "kind": "text",
+      "context": "Are these measurements Coffeedant measurements?"
+    },
+    {
+      "id": "2de3da0acad8ab31ae9c927211c90afdfb13fe115b91403566f39bd1575475d0",
+      "source": "No. They are manufacturer dimensions for the exact named models, checked October 26, 2026. Check the selected US variant and any accessories against your own space.",
+      "kind": "text",
+      "context": "No. They are manufacturer dimensions for the exact named models, checked October 26, 2026. Check the selected US variant and any accessories against your own space."
+    },
+    {
+      "id": "481078745a8110c50de2a876c3d273a728aa330e643fbe17a84ae09adfd59cf9",
+      "source": "Can all three grind for espresso?",
+      "kind": "text",
+      "context": "Can all three grind for espresso?"
+    },
+    {
+      "id": "48c003b18fdc6eda319af4c1130660d824df7f76e2369ba9bdc71a8ac1ff2c51",
+      "source": "Yes, their makers specify espresso-capable adjustment. Actual basket, beans and recipe determine the setting; the guide does not claim a side-by-side taste result.",
+      "kind": "text",
+      "context": "Yes, their makers specify espresso-capable adjustment. Actual basket, beans and recipe determine the setting; the guide does not claim a side-by-side taste result."
+    },
+    {
+      "id": "a49cc0ebcaabe9c59b3a334631e75038bf217b5b29c5d7cb809e75d2ac4ea781",
+      "source": "Does the Eureka bellows leave zero coffee inside?",
+      "kind": "text",
+      "context": "Does the Eureka bellows leave zero coffee inside?"
+    },
+    {
+      "id": "115a1120f81597890b70d9d64ca47ef2d5cac10be9e352307d1a60d95fceacd4",
+      "source": "No. The independent sample study found nonzero retained coffee under its protocol. A bellows helps a workflow but does not prove a completely empty path.",
+      "kind": "text",
+      "context": "No. The independent sample study found nonzero retained coffee under its protocol. A bellows helps a workflow but does not prove a completely empty path."
+    },
+    {
+      "id": "73f910f6ad0bddbdd44ebd285ba47c2843c807a78ae29511efd9e4368d6b2d12",
+      "source": "Can I keep the Baratza hopper under a low cabinet?",
+      "kind": "text",
+      "context": "Can I keep the Baratza hopper under a low cabinet?"
+    },
+    {
+      "id": "2c96788e6b194c778533c1ad7f248d20d907d78562c0bdb6631cd4da482625b7",
+      "source": "Only if there is room to load beans, turn the collar and remove parts for cleaning. Measure the clearance in your kitchen beyond the published 340 mm body height.",
+      "kind": "text",
+      "context": "Only if there is room to load beans, turn the collar and remove parts for cleaning. Measure the clearance in your kitchen beyond the published 340 mm body height."
+    },
+    {
+      "id": "7d44ca8e2adf2626d98ded799306dd81d09561fdf8cac0566d080fd36eb9bc01",
+      "source": "Are these current US price rankings?",
+      "kind": "text",
+      "context": "Are these current US price rankings?"
+    },
+    {
+      "id": "46ccbf7b775e6d89d094e8fbf5b3b11bd2572677995823dbc555ef8898d33d54",
+      "source": "No. This guide uses no unverified numeric price or discount. Confirm the exact finish, voltage, availability and delivered total in the live US cart.",
+      "kind": "text",
+      "context": "No. This guide uses no unverified numeric price or discount. Confirm the exact finish, voltage, availability and delivered total in the live US cart."
+    },
+    {
+      "id": "4a4ab131526866c88705338aa9eccadfaabab780b3fef83fbdac775c627765f4",
+      "source": "Fellow: Opus 2 US product ↗",
+      "kind": "text",
+      "context": "Fellow: Opus 2 US product ↗"
+    },
+    {
+      "id": "7f54fad70356201538a139bb388072fb5baf961283ad1e50a471f3137b689918",
+      "source": "Exact generation, dimensions, dosing cups, adjustment and maintenance claims. Checked October 26, 2026.",
+      "kind": "text",
+      "context": "Exact generation, dimensions, dosing cups, adjustment and maintenance claims. Checked October 26, 2026."
+    },
+    {
+      "id": "6d88db9e54b41e182512bf8621c2092a4cf92248e65eb2bf749483f6a0dc0f52",
+      "source": "Baratza: Encore ESP Pro specifications ↗",
+      "kind": "text",
+      "context": "Baratza: Encore ESP Pro specifications ↗"
+    },
+    {
+      "id": "9ed99a3e345ede2cb884b08da01a780ded3f12076bdd56bbb937224fbcbe3590",
+      "source": "Exact ZCG595 model dimensions and dosing modes; US listing checked separately for market identity. Checked October 26, 2026.",
+      "kind": "text",
+      "context": "Exact ZCG595 model dimensions and dosing modes; US listing checked separately for market identity. Checked October 26, 2026."
+    },
+    {
+      "id": "5d99579552abd1035664482d9b20597e1fb4a54609ebcd5b70bcf7ba5c5348e5",
+      "source": "Eureka: Mignon Zero 65 All Purpose ↗",
+      "kind": "text",
+      "context": "Eureka: Mignon Zero 65 All Purpose ↗"
+    },
+    {
+      "id": "f6e003f8c7d69c0817248ad573f08ebbada281198e6c7d875ca45b33aca8e907",
+      "source": "Exact dimensions, weight, burr, dial, bellows and fork specifications. Checked October 26, 2026.",
+      "kind": "text",
+      "context": "Exact dimensions, weight, burr, dial, bellows and fork specifications. Checked October 26, 2026."
+    },
+    {
+      "id": "35911f424c1e6a0d5b67e782a560d26f55b5590a7f011d0a016a4524bd83202e",
+      "source": "The Coffee Chronicler: Opus 2 sample review ↗",
+      "kind": "text",
+      "context": "The Coffee Chronicler: Opus 2 sample review ↗"
+    },
+    {
+      "id": "6f44e3452fb755e66af8a1e3a91c8564325ba72d6c0008f0166b2cb5d294df61",
+      "source": "Independent September 2026 sample, workflow and material limitations; not a universal result. Checked October 26, 2026.",
+      "kind": "text",
+      "context": "Independent September 2026 sample, workflow and material limitations; not a universal result. Checked October 26, 2026."
+    },
+    {
+      "id": "ed8646882d515233ed3914177fcf24fd57377e98c9c21d854c7ed4b3baa92831",
+      "source": "Expert Reviews: Encore ESP Pro sample ↗",
+      "kind": "text",
+      "context": "Expert Reviews: Encore ESP Pro sample ↗"
+    },
+    {
+      "id": "3076d937d562380a9a2e35d86c533f3e0d649b0159e7deb582edee8f2ea5e8e2",
+      "source": "Independent UK sample of the exact model; stop and cleaning observations are bounded. Checked October 26, 2026.",
+      "kind": "text",
+      "context": "Independent UK sample of the exact model; stop and cleaning observations are bounded. Checked October 26, 2026."
+    },
+    {
+      "id": "10db77619f7e3cdddf5132900244f26e276ac48ac689c519602d70bd56dfe525",
+      "source": "Kaffeemacher: Eureka Zero 65 AP comparison ↗",
+      "kind": "text",
+      "context": "Kaffeemacher: Eureka Zero 65 AP comparison ↗"
+    },
+    {
+      "id": "ab5b26f61821ff1d122bb7d833f1f916ae0b1076eed3ee8feee2078bb1b757a9",
+      "source": "Independent sample measurements and nonzero-retention context. Checked October 26, 2026.",
+      "kind": "text",
+      "context": "Independent sample measurements and nonzero-retention context. Checked October 26, 2026."
+    },
+    {
+      "id": "9129c700429050e3d0560364e3a347a586c0c04b4d5be227b912c51428405605",
+      "source": "Fellow: Opus 2 safety manual ↗",
+      "kind": "text",
+      "context": "Fellow: Opus 2 safety manual ↗"
+    },
+    {
+      "id": "9d480326cf509f76a350c696e05792063cd8d4b4435935ce9d1799962d49bf45",
+      "source": "Exact-generation cleaning and safety instructions. Checked October 26, 2026.",
+      "kind": "text",
+      "context": "Exact-generation cleaning and safety instructions. Checked October 26, 2026."
+    },
+    {
+      "id": "27a0962ad4c47e2b736f9632804b700dca9f687d888972fa018677e458aaf4ea",
+      "source": "Baratza: manuals and documentation ↗",
+      "kind": "text",
+      "context": "Baratza: manuals and documentation ↗"
+    },
+    {
+      "id": "b6aecfa39bef47960b02ba1520dc69f597a2e4f4f0abbb3e04892000c5597d5c",
+      "source": "Encore ESP Pro manual entry and service context. Checked October 26, 2026.",
+      "kind": "text",
+      "context": "Encore ESP Pro manual entry and service context. Checked October 26, 2026."
+    },
+    {
+      "id": "eb8e8e55c17030dfc5431fb026f6756bfc18e2e2a6685adbe8b3ed7de00a1e38",
+      "source": "Eureka: exact-model manual link ↗",
+      "kind": "text",
+      "context": "Eureka: exact-model manual link ↗"
+    },
+    {
+      "id": "196b3fd6db462fe6ed6b94b65d686701ad41341f4fd7f9644b5c1ea59411950b",
+      "source": "Manufacturer manual link and model-specific care context. Checked October 26, 2026.",
+      "kind": "text",
+      "context": "Manufacturer manual link and model-specific care context. Checked October 26, 2026."
+    },
+    {
+      "id": "62948bf1afaeb894760feccad8f36e01e415689fcbbfab81fae7bfae58209337",
+      "source": "Baratza: Encore ESP Pro US listing ↗",
+      "kind": "text",
+      "context": "Baratza: Encore ESP Pro US listing ↗"
+    },
+    {
+      "id": "e197e1c776543dc1d02faa01e739c14092ff5884796c83b0afcb974c028fa80e",
+      "source": "US-market product identity and current availability context, without a quoted offer. Checked October 26, 2026.",
+      "kind": "text",
+      "context": "US-market product identity and current availability context, without a quoted offer. Checked October 26, 2026."
+    },
+    {
+      "id": "ee838b4fc6b4c6ccfe7f492dc5ce26db63129a1955de7181ec2e9f6a27a30c0b",
+      "source": "Fit the routine as well as the body",
+      "kind": "text",
+      "context": "Fit the routine as well as the body"
+    },
+    {
+      "id": "d9f0a19a905613b0a2e42dedd63ecfc0ac9a19321239250c8a6629c2b44fbf6e",
+      "source": "Choose Opus 2 for the lowest stated body height, Encore ESP Pro for the shallowest body and hopper flexibility, or Zero 65 All Purpose for a narrow single-dose upgrade. Test the real loading, adjustment and cleaning clearances in your kitchen before buying.",
+      "kind": "text",
+      "context": "Choose Opus 2 for the lowest stated body height, Encore ESP Pro for the shallowest body and hopper flexibility, or Zero 65 All Purpose for a narrow single-dose upgrade. Test the real loading, adjustment and cleaning clearances in your kitchen before buying."
+    },
+    {
+      "id": "3255409a96145af793215617ecc4850074c313c7d78d249656aae124eeb38488",
+      "source": "Best Compact Electric Espresso Grinders | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "f486604a639a9139d9daf1d9bbc3718f771a87d5798504615fe6a4a3ef46391e",
+      "source": "Three exact US electric espresso grinders compared by manufacturer footprint, counter clearance, dosing access, cleaning and independent use evidence.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "52fa4aacdd2615b1e9a90bee77ba1ac4d5b38d2c7e51a13e5b506e56b3165394",
+      "source": "Best Compact Electric Espresso Grinders",
+      "kind": "json",
+      "context": "headline"
+    },
+    {
+      "id": "95529c707d1976c4a9ccf6de0e00369cf5fe740d50b96bd7ba2b98860ff06d10",
+      "source": "Which is shortest under a cabinet?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "e4845fedbe448c85a6b3aa19b04777c4fc1d48558d58704e9c916ca208a9e3f3",
+      "source": "Fellow lists Opus 2 at 267 mm high, versus 340 mm for Encore ESP Pro and 357 mm for Zero 65 All Purpose. Leave extra room for loading and servicing; body height alone is insufficient.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "aa344d673765a96b0533f86fbceb6f537be91ec94fe3b23a1ca9b782b9bb6f8e",
+      "source": "Which uses the least published counter depth?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "88810b25775256d1493dac948e75b4983ea4286e9d037cbe13c6d78d632095e6",
+      "source": "Baratza lists the Encore ESP Pro at 150 mm deep, versus 206 mm for Opus 2 and 215 mm for Eureka Zero 65 All Purpose. Leave front space for the catch cup or portafilter.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "b23ae363da17825ad1d3ef8aa7903f6be003e23d1ecb630a99de6d685db7af35",
+      "source": "Are these measurements Coffeedant measurements?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "d3334020471066dfc16b8139b273606c628a2d4d5d5576da5bc12b1500562dfe",
+      "source": "No. They are manufacturer dimensions for the exact named models, checked October 26, 2026. Check the selected US variant and any accessories against your own space.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "9dd283cee7b5679799a30acdfbc490c06e49d097aec629e76862aae7862b3b09",
+      "source": "Can all three grind for espresso?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "844f92508a477c02c89bc4834529ccf428f3fec999f5720801d43343ca82e698",
+      "source": "Yes, their makers specify espresso-capable adjustment. Actual basket, beans and recipe determine the setting; the guide does not claim a side-by-side taste result.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "35c60de9717374fe7add9b3b5fddea0eea51645b86ac2b3506ebd1472d6710cb",
+      "source": "Does the Eureka bellows leave zero coffee inside?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "f97b220e7684f5fa2c5891092f2b471776401bee5d2a292d63e5fb04f54b4af0",
+      "source": "No. The independent sample study found nonzero retained coffee under its protocol. A bellows helps a workflow but does not prove a completely empty path.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "3f5f3eaf56ae116089d089a8f5eb5632e7fee8dc4df1165d72f298bef2c05c53",
+      "source": "Can I keep the Baratza hopper under a low cabinet?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "f985313f193f73b53d277ff73b94d3c02db4f47d55a9febbffd47a58d9107149",
+      "source": "Only if there is room to load beans, turn the collar and remove parts for cleaning. Measure the clearance in your kitchen beyond the published 340 mm body height.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "26b6ce10d4f4bd358d2a8c3771d3bcfab68ac6b06949caaa07f0760b847c3e4b",
+      "source": "Are these current US price rankings?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "ac53c16c2e85de93c7765c94a09b9de37b4d2217f0fd35578bf642af22658af5",
+      "source": "No. This guide uses no unverified numeric price or discount. Confirm the exact finish, voltage, availability and delivered total in the live US cart.",
+      "kind": "json",
+      "context": "text"
+    }
+  ],
+  "snapshotHash": "037312721ac57ce2c81819550ed60c15dba95f3b19b902014d6ca1bc75ece0ea"
+}

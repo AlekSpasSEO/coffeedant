@@ -3284,6 +3284,47 @@ DE has 12,744 / 43,852 and FR has 12,714 / 43,882. Finder pending remains zero.
 There are still 165 non-watch and 385 watch pages incomplete. Ready-pages
 publication and hourly continuation remain active; no full edition is complete.
 
+### Direct batch 63: complete compact electric grinder guide (2026-11-02)
+
+The compact electric espresso grinder guide is directly translated into NL/DE/FR.
+The complete current article contains 2,154 source words, 66 paragraphs and seven
+visible/structured FAQ answers. It preserves the exact Opus 2, Encore ESP Pro and
+Mignon Zero 65 All Purpose identities and explicitly rejects substitution with
+older similarly named models. Manufacturer dimensions, 54 mm / 58 mm cup-transfer
+limits, the 65 mm burr specification and 5.6 kg weight remain source facts. The
+independent UK sample is not relabelled as a US reliability rate; nonzero retention
+does not become a zero-retention promise. Cleaning instructions retain unplugging
+and the conditional prohibition on water. No local test or price ranking is added.
+
+The full immutable snapshot freezes 660 page/shared slots. The missing-work
+snapshot freezes 144 slots, covered by 114 authored three-language strings and
+11 explicitly preserved numeric-only dimension strings. Exact source reuse across
+kinds adds 145 current entries per edition, with zero prior wording changes.
+All existing localized routes and unrelated work remain intact.
+
+New stable guide paths are:
+
+- NL `/koffiemolen/beste-compacte-elektrische-espressomolens/`
+- DE `/kaffeemuehle/beste-kompakte-elektrische-espressomuehlen/`
+- FR `/moulin-a-cafe/meilleurs-moulins-electriques-compacts-pour-espresso/`
+
+The full guide, grinder hub and existing regular/decaf guide pass nine native
+preview comparisons, including complete bodies, metadata, schema, FAQ answers,
+source links, accessible table labels, images, compiled scripts and runtime UI.
+All 210 localization and 20 SEO tests pass, as do analytics, all 35 bean reviews
+and the 151-machine/seven-grinder Finder validators on the Cloudflare build.
+The complete regional production build passes without publication deferrals.
+Another nine complete page comparisons pass after production SEO generation.
+Live release verification is recorded in the batch PR after deployment.
+
+Inventory remains 660 pages / 56,596 segments. Ready selection is 110 indexable
+pages plus 404 per edition, preserving all 109 previous live routes and the
+approved Dutch dosing URL. NL has 12,837 translated / 43,759 pending; DE has
+12,889 / 43,707 and FR has 12,859 / 43,737. Finder gaps remain zero. There are
+164 non-watch and 385 watch pages still incomplete. Incremental publication,
+hourly continuation and source-change automation remain active; full editions
+remain incomplete.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
