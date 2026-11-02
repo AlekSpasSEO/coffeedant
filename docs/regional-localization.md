@@ -3408,6 +3408,50 @@ approved Dutch dosing URL. NL has 13,012 translated / 43,584 pending; DE has
 hourly continuation and source-change automation remain active; full editions
 remain incomplete.
 
+### Direct batch 66: two complete automatic-machine videos and saved guide work (2026-11-02)
+
+Two complete short watch pages are directly translated into NL/DE/FR: Cafelista_Coffee
+on De'Longhi Magnifica Evo with LatteCrema and Coffee Kev on Gaggia Accademia Glass
+RI9781/01. Their complete current bodies contain 147 source words and nine
+paragraphs. Metadata, visible dates, player titles, curation, ownership and
+affiliate disclosures, and ItemPage/VideoObject/Breadcrumb text are covered.
+Original media, creator/channel identities, upload timestamps, durations,
+privacy-enhanced embed destinations, 960 × 540 dimensions and player permissions
+are preserved. The recordings remain the creators' original media. The three
+existing watch URLs are retained and three missing routes are registered.
+
+The full De'Longhi watch snapshot freezes 485 page/shared slots; the two-page
+missing snapshot pins both full fingerprints and 30 slots. Nineteen authored
+three-language strings plus the unchanged Gaggia brand/model identity cover that
+batch. Passing wording for the De'Longhi title and summary is reused from the
+guide work imported first, with no earlier cached wording changed.
+
+The long superautomatic guide is deliberately still unfinished. Its full snapshot
+freezes 921 slots and its missing snapshot freezes 247 slots. This batch saves
+49 directly authored three-language strings (1,068 source words), plus unchanged
+capacity units and creator identity, covering the De'Longhi controls, exact US
+ECAM29084SB identity, milk workflow, two-person routine, infuser care, warranty,
+costs and evidence labels. Shared exact-source reuse and the completed companion
+reduce the guide to 188 missing slots per edition. No partial guide is published;
+its existing German route remains stable. Continue from these immutable snapshots
+or export a new missing-only snapshot, never overwrite or reindex them silently.
+
+All 210 localization and 20 SEO tests pass. Analytics, all 35 bean reviews and the
+151-machine/seven-grinder Finder validators pass with the CF_PAGES route base.
+Six complete native previews verify every body character, metadata, schema,
+links, accessibility labels, runtime interface and unchanged player attributes.
+Every previously ready page and cached wording is retained; the partial guide is
+explicitly excluded from publication. Production-build and live evidence are
+recorded in the batch PR after the corresponding checks complete.
+
+Inventory remains 660 source pages / 56,596 segments. Ready selection is 117
+indexable pages plus 404 per edition, preserving all 115 old public routes and
+the approved Dutch dosing URL. This batch adds 91 cache entries per edition:
+NL has 13,103 translated / 43,493 pending; DE has 13,155 / 43,441 and FR has
+13,125 / 43,471. Finder gaps remain zero. There are 163 non-watch and 379 watch
+pages still incomplete. Ready-pages publication, hourly continuation and
+source-change automation remain active; all full editions remain incomplete.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "editions": ["nl", "de", "fr"],
+  "scope": "segments",
+  "snapshot": "automatic-videos-batch-66.source.json",
+  "snapshotHash": "9b90e4eb47a5587192fead25e50709ed8918cec87842e159811592859eb2fbfb",
+  "routes": {
+    "nl": {
+      "/espresso-machine/delonghi-magnifica-evo/video/cafelista-coffee/": "/espressomachines/delonghi-magnifica-evo/video/cafelista-coffee/",
+      "/espresso-machine/gaggia-accademia-ri9781-01/video/coffee-kev/": "/espresso-machine/gaggia-accademia-ri9781-01/video/coffee-kev/"
+    },
+    "de": {
+      "/espresso-machine/delonghi-magnifica-evo/video/cafelista-coffee/": "/delonghi-magnifica-evo/video/cafelista-coffee/",
+      "/espresso-machine/gaggia-accademia-ri9781-01/video/coffee-kev/": "/gaggia-accademia-ri9781-01/video/coffee-kev/"
+    },
+    "fr": {
+      "/espresso-machine/delonghi-magnifica-evo/video/cafelista-coffee/": "/machines-expresso/delonghi-magnifica-evo/video/cafelista-coffee/",
+      "/espresso-machine/gaggia-accademia-ri9781-01/video/coffee-kev/": "/machines-expresso/gaggia-accademia-ri9781-01/video/coffee-kev/"
+    }
+  },
+  "translations": {
+    "0": {"nl":"De'Longhi Magnifica Evo met LatteCrema","de":"De'Longhi Magnifica Evo mit LatteCrema","fr":"De'Longhi Magnifica Evo avec LatteCrema"},
+    "1": {"nl":"3 augustus 2024","de":"3. August 2024","fr":"3 août 2024"},
+    "2": {"nl":"De'Longhi Magnifica Evo met LatteCrema: review van de Delonghi Magnifica Evo: de beste optie zonder een fortuin uit te geven? · Cafelista_Coffee (2024-08-03) | Coffeedant","de":"De'Longhi Magnifica Evo mit LatteCrema: Rezension der Delonghi Magnifica Evo: die beste Option, ohne das Budget zu sprengen? · Cafelista_Coffee (2024-08-03) | Coffeedant","fr":"De'Longhi Magnifica Evo avec LatteCrema : avis sur la Delonghi Magnifica Evo : la meilleure option sans se ruiner ? · Cafelista_Coffee (2024-08-03) | Coffeedant"},
+    "3": {"nl":"Bekijk Cafelista_Coffee over de De'Longhi Magnifica Evo met LatteCrema (2024-08-03): review van de Delonghi Magnifica Evo: de beste optie zonder een fortuin uit te geven? Onafhankelijke videotest die helpt de werkwijze voor malen, dranken en onderhoud te tonen. De resultaten behoren toe aan de reviewer en de getoonde uitvoering.","de":"Sehen Sie Cafelista_Coffee zur De'Longhi Magnifica Evo mit LatteCrema (2024-08-03): Rezension der Delonghi Magnifica Evo: die beste Option, ohne das Budget zu sprengen? Unabhängiger Videotest, der die Abläufe beim Mahlen, bei Getränken und bei der Pflege veranschaulicht. Die Ergebnisse gehören zum Rezensenten und zur gezeigten Ausführung.","fr":"Regardez Cafelista_Coffee à propos de la De'Longhi Magnifica Evo avec LatteCrema (2024-08-03) : avis sur la Delonghi Magnifica Evo : la meilleure option sans se ruiner ? Essai vidéo indépendant qui aide à comprendre le fonctionnement du moulin, la préparation et l’entretien. Les résultats appartiennent à l’évaluateur et à la variante présentée."},
+    "5": {"nl":"Video over de De'Longhi Magnifica Evo met LatteCrema van Cafelista_Coffee","de":"Video zur De'Longhi Magnifica Evo mit LatteCrema von Cafelista_Coffee","fr":"Vidéo sur la De'Longhi Magnifica Evo avec LatteCrema par Cafelista_Coffee"},
+    "6": {"nl":"← Review van de De'Longhi Magnifica Evo met LatteCrema","de":"← Rezension der De'Longhi Magnifica Evo mit LatteCrema","fr":"← Analyse de la De'Longhi Magnifica Evo avec LatteCrema"},
+    "7": {"nl":"Review van de Delonghi Magnifica Evo: de beste optie zonder een fortuin uit te geven? door Cafelista_Coffee","de":"Rezension der Delonghi Magnifica Evo: die beste Option, ohne das Budget zu sprengen? von Cafelista_Coffee","fr":"Avis sur la Delonghi Magnifica Evo : la meilleure option sans se ruiner ? par Cafelista_Coffee"},
+    "8": {"nl":"De'Longhi Magnifica Evo met LatteCrema · Perspectief van een derde partij","de":"De'Longhi Magnifica Evo mit LatteCrema · Perspektive eines Dritten","fr":"De'Longhi Magnifica Evo avec LatteCrema · Point de vue d’un tiers"},
+    "9": {"nl":"De video en meningen zijn van Cafelista_Coffee. Coffeedant selecteert dit perspectief naast onze geschreven review.","de":"Video und Meinungen stammen von Cafelista_Coffee. Coffeedant wählt diese Perspektive als Ergänzung zu unserer schriftlichen Rezension aus.","fr":"La vidéo et les opinions appartiennent à Cafelista_Coffee. Coffeedant sélectionne ce point de vue en complément de notre analyse écrite."},
+    "13": {"nl":"Video van Cafelista_Coffee","de":"Video von Cafelista_Coffee","fr":"Vidéo de Cafelista_Coffee"},
+    "15": {"nl":"Gaggia Accademia Glass RI9781/01: nieuwe Gaggia Accademia - geen doorsnee volautomatische koffiemachine! · Coffee Kev (2023-04-19) | Coffeedant","de":"Gaggia Accademia Glass RI9781/01: neue Gaggia Accademia - kein gewöhnlicher Kaffeevollautomat! · Coffee Kev (2023-04-19) | Coffeedant","fr":"Gaggia Accademia Glass RI9781/01 : nouvelle Gaggia Accademia - pas un expresso broyeur ordinaire ! · Coffee Kev (2023-04-19) | Coffeedant"},
+    "16": {"nl":"Bekijk Coffee Kev over de Gaggia Accademia Glass RI9781/01 (2023-04-19): nieuwe Gaggia Accademia - geen doorsnee volautomatische koffiemachine! Coffee Kev presenteert de Gaggia Accademia Glass RI9781/01. De demonstraties en meningen zijn van de maker zelf.","de":"Sehen Sie Coffee Kev zur Gaggia Accademia Glass RI9781/01 (2023-04-19): neue Gaggia Accademia - kein gewöhnlicher Kaffeevollautomat! Coffee Kev stellt die Gaggia Accademia Glass RI9781/01 vor. Vorführungen und Meinungen stammen vom Ersteller selbst.","fr":"Regardez Coffee Kev à propos de la Gaggia Accademia Glass RI9781/01 (2023-04-19) : nouvelle Gaggia Accademia - pas un expresso broyeur ordinaire ! Coffee Kev présente la Gaggia Accademia Glass RI9781/01. Les démonstrations et les opinions sont celles du créateur."},
+    "18": {"nl":"Video over de Gaggia Accademia Glass RI9781/01 van Coffee Kev","de":"Video zur Gaggia Accademia Glass RI9781/01 von Coffee Kev","fr":"Vidéo sur la Gaggia Accademia Glass RI9781/01 par Coffee Kev"},
+    "19": {"nl":"← Review van de Gaggia Accademia Glass RI9781/01","de":"← Rezension der Gaggia Accademia Glass RI9781/01","fr":"← Analyse de la Gaggia Accademia Glass RI9781/01"},
+    "20": {"nl":"Nieuwe Gaggia Accademia - geen doorsnee volautomatische koffiemachine! door Coffee Kev","de":"Neue Gaggia Accademia - kein gewöhnlicher Kaffeevollautomat! von Coffee Kev","fr":"Nouvelle Gaggia Accademia - pas un expresso broyeur ordinaire ! par Coffee Kev"},
+    "21": {"nl":"Gaggia Accademia Glass RI9781/01 · Perspectief van een derde partij","de":"Gaggia Accademia Glass RI9781/01 · Perspektive eines Dritten","fr":"Gaggia Accademia Glass RI9781/01 · Point de vue d’un tiers"},
+    "22": {"nl":"Nieuwe Gaggia Accademia - geen doorsnee volautomatische koffiemachine!","de":"Neue Gaggia Accademia - kein gewöhnlicher Kaffeevollautomat!","fr":"Nouvelle Gaggia Accademia - pas un expresso broyeur ordinaire !"},
+    "23": {"nl":"19 april 2023","de":"19. April 2023","fr":"19 avril 2023"},
+    "24": {"nl":"Coffee Kev presenteert de Gaggia Accademia Glass RI9781/01. De demonstraties en meningen zijn van de maker zelf.","de":"Coffee Kev stellt die Gaggia Accademia Glass RI9781/01 vor. Vorführungen und Meinungen stammen vom Ersteller selbst.","fr":"Coffee Kev présente la Gaggia Accademia Glass RI9781/01. Les démonstrations et les opinions sont celles du créateur."}
+  },
+  "preserveSource": [14]
+}
