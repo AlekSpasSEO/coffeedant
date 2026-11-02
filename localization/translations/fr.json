@@ -92379,6 +92379,839 @@
       "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
       "provider": "codex-direct",
       "authoredFile": "localization/authored/compact-grinder-guide-batch-63.json"
+    },
+    "786296a7e103c25207e473984f8671eb8f0f56e1de308428afadbb858a5d79b2": {
+      "source": "Water tank",
+      "text": "Réservoir d’eau",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "a8a4075de24d1375c134e49a14db5253b7f7a13ace8ba24eed1fa1796f80abb7": {
+      "source": "58 mm, walnut-handled",
+      "text": "58 mm, poignée en noyer",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "3326f787dc7c8159ac1cc7b74adf7bfbe34be708452acb25aa72a748a6805c70": {
+      "source": "PID, two volumetric doses, shot timer, programmable pre-infusion",
+      "text": "PID, deux doses volumétriques, chronomètre d’extraction, préinfusion programmable",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "1221c51de3905d400b8fc6ae8476a5f9460c289f8749754fc5535f6634d590b9": {
+      "source": "67 fl oz / about 2 L, removable",
+      "text": "67 fl oz / environ 2 L, amovible",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "0c06fe286561949158df95e53361c1f38f8081c57f233f54260984592ed340f6": {
+      "source": "Ascaso global Steel range and 2026 specification sheet",
+      "text": "Gamme mondiale Steel et fiche technique 2026 d’Ascaso",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "d1bf34c7df45cbdd571e5dede5029e8cabd42dddf157cdd5f026ddfc30d45599": {
+      "source": "Ascaso Steel user manual",
+      "text": "Manuel d’utilisation Ascaso Steel",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "5e957482c1098d6ff66d82064227f1c293cf2d9376c86090be093cefd718a062": {
+      "source": "The Steel Uno PID makes sense when you want Ascaso’s 58 mm group, adjustable temperature, programmable pre-infusion, volumetric buttons, gauge, and quick on-demand heating, but milk is occasional and a 1050 W single circuit suits the kitchen better than the Duo. It is harder to recommend at a $1,695 US reference price while the official listing available to verify is refurbished and sold out. Confirm new stock, generation, warranty, and service before treating the reference price as a live offer.",
+      "text": "La Steel Uno PID a du sens si vous recherchez le groupe Ascaso de 58 mm, une température réglable, la préinfusion programmable, des touches volumétriques, un manomètre et une chauffe rapide à la demande, mais préparez rarement du lait et préférez un circuit unique de 1050 W à la Duo pour votre cuisine. Elle est plus difficile à recommander au prix de référence américain de $1,695 lorsque la fiche officielle vérifiable concerne un appareil reconditionné et épuisé. Confirmez le stock neuf, la génération, la garantie et le service avant de traiter ce prix de référence comme une offre actuelle.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "ac2fc047e6c2cedf36050fd566baf9283f750bdd9a6788462c9807163762a06f": {
+      "source": "A refined, low-draw espresso platform whose single-heater milk sequence and uncertain US availability narrow the audience.",
+      "text": "Une plateforme espresso raffinée à faible consommation électrique, dont la séquence lait à chauffage unique et la disponibilité américaine incertaine limitent le public.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "1ddb863e21ec1fa50cf76261478086266d4cb8592e5a8f796b1c8d7e8855ea95": {
+      "source": "One thermoblock for brewing, hot water, and steam in sequence",
+      "text": "Un thermobloc pour le café, l’eau chaude et la vapeur successivement",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "a3a49a4914498c7c4e8b914042c89fedcee602a0dd9b0cb45cc7a09929742208": {
+      "source": "120 V, 1050 W, 9 A on official US reference listing",
+      "text": "120 V, 1050 W, 9 A sur la fiche de référence américaine officielle",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "973d887a1e5bfdf49350a9dc4e9e1f74e113c163ce1fe21ff22e5eea6d301c5d": {
+      "source": "One or two drinks at a time, with milk made occasionally rather than in a daily queue",
+      "text": "Une ou deux boissons par session, avec du lait occasionnellement plutôt qu’une série quotidienne",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "2079237d1965feb9e7ef74961dbc3f120fb6c5ae2e5735f00dd4f5ccdb5d3bae": {
+      "source": "A kitchen that values lower electrical draw and short on-demand startup over simultaneous steam",
+      "text": "Une cuisine qui privilégie une consommation électrique réduite et un démarrage rapide à la demande plutôt que la vapeur simultanée",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "c5bd67c1070a9d9d2f11175d543d5de9a2f559a59ff18a42e4ddbe2ac1f61ea5": {
+      "source": "You regularly make two or more milk drinks and dislike waiting or cooling the heater between modes",
+      "text": "Vous préparez régulièrement deux boissons lactées ou plus et n’aimez pas attendre ou refroidir le chauffage entre les modes",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "0aba3bf921a69a51e8c4336bbd51231971253ded134fc813d489cc5a62d30a33": {
+      "source": "You need confirmed new US stock and a simple current manufacturer purchase path today",
+      "text": "Vous avez besoin de stock neuf américain confirmé et d’un parcours d’achat actuel simple auprès du fabricant aujourd’hui",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "3bd5fcb703a6f4a9df156ac020cc5e594ad0c7c8a6ddf3c5f6314a242a536a7b": {
+      "source": "Traditional boiler thermal mass, powerful steam, and broad owner-service evidence are priorities",
+      "text": "L’inertie thermique d’une chaudière traditionnelle, une vapeur puissante et de nombreuses observations sur l’entretien par les propriétaires sont prioritaires",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "01d27cd7498c7ecc1e4955cd82b24ce8d406c573a6f9bd6bd290f25ad3635752": {
+      "source": "Can the Steel Uno brew and steam together?",
+      "text": "La Steel Uno peut-elle extraire et produire de la vapeur en même temps ?",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "dc95c16aa65da362c2e0afc5ac051a9d00d2f7cfde6909b8fb0527247d698907": {
+      "source": "No. One thermoblock changes between brewing and steam. Make the espresso, enter steam mode, texture milk, then cool or prime the circuit before another shot as the manual directs.",
+      "text": "Non. Un thermobloc alterne entre extraction et vapeur. Préparez l’espresso, passez en mode vapeur, texturez le lait, puis refroidissez ou amorcez le circuit avant un autre café comme l’indique le manuel.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "f6783fa8d12ee452c961d9eb9804634b666f6e02d81f789559660c64fcf00b24": {
+      "source": "Is it the same brewer as the Duo?",
+      "text": "Est-ce la même machine que la Duo ?",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "71a9934ab6c60e508891ef1b91665ba7170383965e9cde7a6a3d5d4909b72007": {
+      "source": "It shares many controls and the 58 mm Steel platform, but the heating and milk workflow are materially different. The Duo has independent brew and steam thermoblocks.",
+      "text": "Elle partage de nombreuses commandes et la plateforme Steel de 58 mm, mais la chauffe et la préparation du lait diffèrent sensiblement. La Duo possède des thermoblocs indépendants pour le café et la vapeur.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "7e4de8dad56eb40ffec6b5c4a66ca09de7d0492a95c55d6c34f21b84a0afbbe0": {
+      "source": "The single heater moves from brew to steam. The older FAQ describes another roughly one to one-and-a-half minutes and lower force than boiler steam, though generation and starting state matter. One cappuccino remains practical: purge, introduce air early, roll a small cold quantity, then wipe and purge.",
+      "text": "Le chauffage unique passe du café à la vapeur. L’ancienne FAQ décrit environ une à une minute et demie supplémentaire et une puissance inférieure à la vapeur de chaudière, mais la génération et l’état initial comptent. Un cappuccino reste réalisable : purgez, incorporez l’air tôt, faites tourner une petite quantité froide, puis essuyez et purgez la buse.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "6bfd3894b67cb41d8caac94c50047e0eaf52f14c210386358f2455e833b62299": {
+      "source": "After steam, the manual says to wait five minutes or run water to refill and cool the circuit before another coffee. Follow the exact procedure, because the heater must return safely to brew condition.",
+      "text": "Après la vapeur, le manuel indique d’attendre cinq minutes ou de faire couler de l’eau pour remplir et refroidir le circuit avant un autre café. Suivez la procédure exacte, car le chauffage doit revenir sans risque aux conditions d’extraction.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "fdecb2eac3c30850db0bfc63514da64551761e9a6d5e4c4d90db45661f0275d2": {
+      "source": "Keep milk, quantity, jug, and setting consistent. If two lattes are routine, compare the",
+      "text": "Gardez le même lait, la même quantité, le même pichet et le même réglage. Si deux lattes sont habituels, comparez la",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "3a5ff6e9acae0f05955251f7537ad20f8c2471a49681bce447d385ba4c7d2b37": {
+      "source": "or a dual boiler rather than expecting technique to remove the serial delay.",
+      "text": "ou une machine à double chaudière plutôt que d’espérer supprimer par la technique l’attente imposée par les étapes successives.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "e42ad9ecb9c65e19ef5f8cbbd209a4e3a61a9dcc21be8933d257d8a3aba58246": {
+      "source": "Pressure feedback",
+      "text": "Indication de pression",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "9a2625151cd48f5500e53dcc2d5f93277cba22b8feadd09705ffc82da7e45caf": {
+      "source": "Ascaso USA refurbished Steel Uno PID product page",
+      "text": "Fiche produit Ascaso USA de la Steel Uno PID reconditionnée",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "08f001dfededbdccd98c3c395e31d409db853324a05f6479d6f87348ef996e69": {
+      "source": "Primary US reference for 120 V power, nominal dimensions, tank, controls, materials, accessories, reference price and refurbished status. It was sold out and does not establish current new-machine availability or pricing.",
+      "text": "Référence américaine principale pour l’alimentation 120 V, les dimensions nominales, le réservoir, les commandes, les matériaux, les accessoires, le prix de référence et l’état reconditionné. Le produit était épuisé et n’établit ni disponibilité ni prix actuels des machines neuves.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "d83090f2f53306c52fb8a93e4ac9f9c7f7f1c112d93b5426decb6b4f86ec9f66": {
+      "source": "Primary current-family source for one-thermoblock architecture, control range, nominal global dimensions, weight and manufacturer claims. Regional voltage, package, configuration and availability may differ.",
+      "text": "Source principale de la famille actuelle pour l’architecture à un thermobloc, la plage de réglage, les dimensions nominales mondiales, le poids et les affirmations du fabricant. La tension, le contenu, la configuration et la disponibilité peuvent varier selon la région.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "2bb66afa0797eb6719a3ceec4e40fd3671d32483ad5296c23c06272a0da8e098": {
+      "source": "Official 2022 shared manual for safe use, programming, the Uno post-steam reset, cleaning and water. Exact specifications should be checked against the selected machine label and current offer.",
+      "text": "Manuel officiel commun de 2022 pour l’utilisation sûre, la programmation, le retour de l’Uno après vapeur, le nettoyage et l’eau. Vérifiez les caractéristiques exactes sur l’étiquette de la machine choisie et l’offre actuelle.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "92d71a161a9cb7ad25cc1bb13d347719b5269852da77a83e2220e6a998806fb0": {
+      "source": "Ascaso USA Steel Uno FAQ",
+      "text": "FAQ Ascaso USA de la Steel Uno",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "84b7f43a2f7229adb2e332194486b8a8509e5d5afdd67212682299756f837ea0": {
+      "source": "Official support context for the single-block sequence, older heat-up timing, flowmeter, OPV, steam pressure and cleaning. It appears older and is not treated as a current-generation performance guarantee.",
+      "text": "Contexte officiel d’assistance sur la séquence à bloc unique, les anciennes durées de chauffe, le débitmètre, l’OPV, la pression vapeur et le nettoyage. Il semble ancien et n’est pas traité comme une garantie de performance de la génération actuelle.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "1fd011912ab21bdc6bb5cdcd28a12000342f3604730f40891fe9cab238533106": {
+      "source": "The Steel Uno PID makes sense when you want Ascaso’s 58 mm group, adjustable temperature, programmable pre-infusion, volumetric buttons, gauge, and quick on-demand heating, but milk is occasional and a 1050 W single circuit suits the kitchen better than the Duo. It is harder to recommend at a $1,695 US reference price while the official listing available to verify is refurbished and sold out. Confirm new stock, generation, warranty, and service before treating the reference price as a live offer.",
+      "text": "La Steel Uno PID a du sens si vous recherchez le groupe Ascaso de 58 mm, une température réglable, la préinfusion programmable, des touches volumétriques, un manomètre et une chauffe rapide à la demande, mais préparez rarement du lait et préférez un circuit unique de 1050 W à la Duo pour votre cuisine. Elle est plus difficile à recommander au prix de référence américain de $1,695 lorsque la fiche officielle vérifiable concerne un appareil reconditionné et épuisé. Confirmez le stock neuf, la génération, la garantie et le service avant de traiter ce prix de référence comme une offre actuelle.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "a9ad63d692865a9d43f6d6d1e62e868fb621c580573d376a5004e93f9d2468aa": {
+      "source": "Is the group 58 mm?",
+      "text": "Le groupe mesure-t-il 58 mm ?",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "ba240d8eb3cec57dc564a89762d21b2652a742c90713e8d7944a2f6208237982": {
+      "source": "Is the group 58 mm?",
+      "text": "Le groupe mesure-t-il 58 mm ?",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "3caf38deec2503392f65e62a17b957a1a98b318d9a6a51537721b9e98d6e4c1f": {
+      "source": "Exact market",
+      "text": "Marché exact",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "fb74c0958ddb7a430cc18a78877abc38908871f925d399cadd4e11a31e55c90a": {
+      "source": "Boiler and group",
+      "text": "Chaudière et groupe",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "0fd66fbd3870d709a8d9772246d38a40fa0a80f86ee0c7f8c569eaf34d70c981": {
+      "source": "Size and mass",
+      "text": "Dimensions et masse",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "9750474713fd5e27c4820d7ffcb9c7db77fe06a623d10ec97e7cb0d1129332ff": {
+      "source": "Water and milk",
+      "text": "Eau et lait",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "f17c5eda2c0c8803fa1fabbfbbe0790929676bd5f72c2167dc477a728623609a": {
+      "source": "Consider EU PL41TEM for adjustable boiler temperature, a pressure manometer, three-way valve and 2.7 L tank in a 230 mm wide machine. Its 250 ml brass boiler handles coffee, steam and hot water sequentially, while LELIT57 has fewer third-party tools than 58 mm rivals. Coffee Friend listed it at €549 on September 24, 2026.",
+      "text": "Envisagez l’EU PL41TEM pour sa température de chaudière réglable, son manomètre, sa vanne trois voies et son réservoir de 2.7 L dans une machine de 230 mm de large. Sa chaudière en laiton de 250 ml fournit café, vapeur et eau chaude successivement, tandis que LELIT57 propose moins d’outils tiers que les concurrents de 58 mm. Coffee Friend l’affichait à €549 le 24 septembre 2026.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "654ee74804a5b11a63ce369ab1d706b47cee4f8faaaef0fc2fe2bd225894a347": {
+      "source": "This is research-led, not a Coffeedant bench test. Current EU PL41TEM records govern specifications; two hands-on reviewers add bounded context. Coffeedant did not measure group temperature, puck pressure, extraction yield, sound, energy, recovery or reliability.",
+      "text": "Il s’agit d’une recherche documentaire, pas d’un essai sur banc Coffeedant. Les documents actuels de l’EU PL41TEM déterminent les caractéristiques ; deux essais pratiques apportent un contexte limité. Coffeedant n’a mesuré ni température du groupe, pression sur la galette, rendement d’extraction, bruit, énergie, récupération ou fiabilité.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "67de2e7fc1bf9694712010bb7979b45c05cf734b7deaae4e7373085143fab83a": {
+      "source": "EU PL41TEM, polished stainless steel, 220-240 V, 50 Hz and type E+F plug",
+      "text": "EU PL41TEM, acier inoxydable poli, 220-240 V, 50 Hz et fiche de type E+F",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "961cda2ed1a8aea2e98d928c94ce7a3275fdcb3de84ae2860460ce63b8d407f5": {
+      "source": "250 ml brass single boiler with PID control, LELIT57 group and three-way solenoid valve",
+      "text": "Chaudière unique en laiton de 250 ml avec régulation PID, groupe LELIT57 et électrovanne trois voies",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "0dc16eca49a5c79bf3f08e562db2289b6a8f095375fdaea0025e4c2d908a98bf": {
+      "source": "Front manometer for coffee pressure with a marked green target area; it is not a measurement at the coffee puck",
+      "text": "Manomètre frontal de pression du café avec zone cible verte ; ce n’est pas une mesure au niveau de la galette",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "6839ea17496e863c9cc76fac129c1e20887aad88ccf6af041d9d62ae2b3e3438": {
+      "source": "2.7 L tank with side level window; multidirectional steam and hot-water wand with anti-burn handle",
+      "text": "Réservoir de 2.7 L avec fenêtre latérale de niveau ; buse vapeur et eau chaude multidirectionnelle avec poignée anti-brûlure",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "c809865629440d4c3272b90629b9d33cd8376633acd1b95e14a9199970b7de17": {
+      "source": "230 × 380 × 340 mm and 7.5 kg in current official EU records",
+      "text": "230 × 380 × 340 mm et 7.5 kg selon les documents officiels actuels de l’UE",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "dfce058b34d193c373a3faaae9f347fb35e013cd2c56a0142d051d9fac35f1df": {
+      "source": "Small kitchens that can accommodate a separate capable grinder and 380 mm machine depth",
+      "text": "Petites cuisines pouvant accueillir un moulin adapté séparé et une machine de 380 mm de profondeur",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "df3a2866e0593053ed347ab605d23c0424f7b8522c768e767ff78005f979b89f": {
+      "source": "One- or two-drink sessions where a deliberate brew-to-steam sequence is acceptable",
+      "text": "Sessions d’une ou deux boissons où une séquence délibérée du café à la vapeur est acceptable",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "f2cea9ad527bcbcdbfd8b14164caeb28be674f8d0d8fa4999bdd91077bc3171b": {
+      "source": "You already own many 58 mm baskets, tampers or puck-preparation tools",
+      "text": "Vous possédez déjà beaucoup de paniers, tampers ou outils de préparation de galette en 58 mm",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "d0c90f09fe15b73ecbba0bef2f86affa6d0283d4eeb86fd844443a2eb2c68d8a": {
+      "source": "You regularly prepare several milk drinks and need brewing and steaming at the same time",
+      "text": "Vous préparez régulièrement plusieurs boissons lactées et avez besoin d’extraire et de produire de la vapeur simultanément",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "7b504ae1a51cb13084b9fcb0b831d0f6de743459643e8086b03325be3af53169": {
+      "source": "You want a shot timer, volumetric dosing, automatic milk or a one-button workflow",
+      "text": "Vous voulez un chronomètre d’extraction, un dosage volumétrique, du lait automatique ou un fonctionnement à une touche",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "53f2611ba5c55cb84a2c700f44cb78ee0220c7039cae3a9426b5ebe247a3ebed": {
+      "source": "Is this the current PID Anna?",
+      "text": "S’agit-il de l’Anna PID actuelle ?",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "074fc274930e5c48806f4e9ba7ffeb7aa6bd8a80c90f7e60a59d2f18fa91026d": {
+      "source": "Yes. This covers EU PL41TEM, often called Anna 2 or Anna PID. Earlier PL41EM and PL41LEM machines have different controls and should not inherit this review.",
+      "text": "Oui. Cela concerne l’EU PL41TEM, souvent appelée Anna 2 ou Anna PID. Les anciennes PL41EM et PL41LEM ont des commandes différentes et ne doivent pas reprendre cette analyse à leur compte.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "66a90422652abd92e7c7c40276a6a2103c39294854432bec2f6512a1febed287": {
+      "source": "No. Lelit specifies its LELIT57 group and compatible LELIT57 tools. Owners find suitable accessories, but the selection is smaller than for standard 58 mm machines.",
+      "text": "Non. Lelit spécifie son groupe LELIT57 et les outils LELIT57 compatibles. Les propriétaires trouvent des accessoires adaptés, mais le choix est plus restreint que pour les machines standard de 58 mm.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "4b5e55b25d4724e6a0f132eb0108c8f8c8cba2a8963140879d8ba4431beb7244": {
+      "source": "No. Coffee and steam share one 250 ml brass boiler, so the machine heats into steam mode and must be refilled and cooled before another espresso.",
+      "text": "Non. Le café et la vapeur partagent une chaudière en laiton de 250 ml ; la machine chauffe donc jusqu’au mode vapeur et doit être remplie et refroidie avant un nouvel espresso.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "3101854f1deb9df2422c2048359804b40b088810402f65579a21cfa932a77da3": {
+      "source": "Pull espresso first, switch to steam, wait, purge condensation, texture, then wipe and purge. The exact-model manual requires opening the valve and running the pump in hot-water mode until water flows before returning to coffee mode, refilling the boiler.",
+      "text": "Préparez d’abord l’espresso, passez à la vapeur, attendez, purgez la condensation, texturez le lait, puis essuyez et purgez. Le manuel du modèle exact impose d’ouvrir la vanne et de faire fonctionner la pompe en mode eau chaude jusqu’à écoulement d’eau avant de revenir en mode café, afin de remplir la chaudière.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "8a756d2da1dd05eac89bc1d3edc87ef7d9c42c62f8fe0160aac84a6f9956ea10": {
+      "source": "Lelit exact Anna PL41TEM product page",
+      "text": "Fiche produit Lelit de l’Anna PL41TEM exacte",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "bd8199dc8bff9f39fd7562e45519c0a465e9d8bb47bd2e1729d497356f88d423": {
+      "source": "Current EU identity, functions, regional articles, dimensions, mass and package; checked September 24, 2026.",
+      "text": "Identité actuelle de l’UE, fonctions, références régionales, dimensions, masse et contenu ; vérifiés le 24 septembre 2026.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "964d46b45e9cbca07ced2afaa0a46bb84e7f316533709f06c6454dcc6d3db5bd": {
+      "source": "Lelit Anna PL41TEM technical sheet",
+      "text": "Fiche technique Lelit Anna PL41TEM",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "ca2da0038635d851ca793cc821435125f8ace10c719f60e4b41ff544e7ec60aa": {
+      "source": "Official 2024 sheet confirming core architecture and LELIT57 filters; it lists a blind filter that the current page omits.",
+      "text": "Fiche officielle de 2024 confirmant l’architecture principale et les filtres LELIT57 ; elle mentionne un filtre aveugle omis sur la page actuelle.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "bee1d7c27d6f20ed18cb68c064d4aaebd8433821c4c8aadcd7c993721903440a": {
+      "source": "Lelit US Anna PESAN06 product page",
+      "text": "Fiche produit américaine Lelit Anna PESAN06",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "c18e94087434bb2f19e8a76052410db44f0124ab9e451d9f9728e4ba014691db": {
+      "source": "Current US regional identity, 120 V article, $599.95 price and under-ten-minute heat-up claim; not transferred to EU PL41TEM.",
+      "text": "Identité régionale américaine actuelle, référence 120 V, prix de $599.95 et annonce d’une chauffe en moins de dix minutes ; non transférés à l’EU PL41TEM.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "dd5538de007be6592ebe3d0599880bf37571f1d0b935fff4eae0adeb7a03711f": {
+      "source": "Lelit PL41TEM user manual mirror",
+      "text": "Copie du manuel d’utilisation Lelit PL41TEM",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "2eac9a1ef4ac8e27ceeb9cf1ef8aff5b3ef4cba56410fac999e0fec181827bcd": {
+      "source": "Retailer-hosted 2017 exact-model manual for first fill, PID, steam reset and care; current EU records govern later changes.",
+      "text": "Manuel du modèle exact de 2017 hébergé par un vendeur, pour le premier remplissage, le PID, le retour après vapeur et l’entretien ; les documents actuels de l’UE prévalent pour les évolutions ultérieures.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "399eb59c43322ff03941a200dfa1fe213f56cfb433a2c42943b0231a89273c60": {
+      "source": "Consider EU PL41TEM for adjustable boiler temperature, a pressure manometer, three-way valve and 2.7 L tank in a 230 mm wide machine. Its 250 ml brass boiler handles coffee, steam and hot water sequentially, while LELIT57 has fewer third-party tools than 58 mm rivals. Coffee Friend listed it at €549 on September 24, 2026.",
+      "text": "Envisagez l’EU PL41TEM pour sa température de chaudière réglable, son manomètre, sa vanne trois voies et son réservoir de 2.7 L dans une machine de 230 mm de large. Sa chaudière en laiton de 250 ml fournit café, vapeur et eau chaude successivement, tandis que LELIT57 propose moins d’outils tiers que les concurrents de 58 mm. Coffee Friend l’affichait à €549 le 24 septembre 2026.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "78894e005595f4ec85c76f5ea97f1fab901e5d52eb278392fedb2a90bc833fa4": {
+      "source": "Best Small Espresso Machines: Measure the Complete Station | Coffeedant",
+      "text": "Meilleures petites machines à espresso : mesurez l’installation complète | Coffeedant",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "150c2014fe9cd3759396ae2a241525e2c1a2630fb173a8778c326b1a33eadf68": {
+      "source": "Research-led guide to compact espresso machines, comparing footprint, tank access, heat system, grinder space, milk workflow and ownership.",
+      "text": "Guide documentaire des machines à espresso compactes comparant l’encombrement, l’accès au réservoir, la chauffe, la place du moulin, la préparation du lait et la vie avec la machine.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "67c9ae44c563802989c0f4e4e96bb75ff8fc8c68c52a95f2442570ecd13f8403": {
+      "source": "Best Small Espresso Machines: Measure the Complete Station | Coffeedant",
+      "text": "Meilleures petites machines à espresso : mesurez l’installation complète | Coffeedant",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "1010c8d0ba369f9018eea7087878286aafa38a5e63e690e5eb049c6b4f34e4b5": {
+      "source": "Best small espresso machines",
+      "text": "Meilleures petites machines à espresso",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "8ef90e278ad8f59db6b34bd61aa384a2f14bf193623167c75298a2e555ad2ad4": {
+      "source": "Compact should describe the complete working station, not only the width printed on a product page. Grinder, tank access, steam clearance and wet-tool storage determine whether a machine truly fits.",
+      "text": "Le terme compact doit décrire toute l’installation utilisable, pas seulement la largeur d’une fiche produit. Le moulin, l’accès au réservoir, le dégagement pour la vapeur et le rangement des outils mouillés déterminent si une machine tient vraiment.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "6af3a9bef06623a4ffd3ca0bd366f4c79705186546274fb637729e3aea752019": {
+      "source": "Best small espresso machines",
+      "text": "Meilleures petites machines à espresso",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "748c3df681110ecb0be5b1554aa5acd0f898a7c7080c48cbda94e8f2718bb5e4": {
+      "source": "Measure the work area before comparing compact machines",
+      "text": "Mesurez l’espace de travail avant de comparer les machines compactes",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "23bedefbf051d73a0b9db1b9e17abdcfb1ecfe90927a73946eff5d0bd4aa5783": {
+      "source": "Start with a paper rectangle the size of the machine and add the grinder, scale, knock box, milk pitcher and a safe place for a hot portafilter. Then mark the direction in which the tank, hopper or cup tray must move. A narrow machine that needs open space above it can be harder to place than a wider machine with front access.",
+      "text": "Commencez par un rectangle en papier de la taille de la machine et ajoutez le moulin, la balance, le bac à marc, le pichet à lait et un emplacement sûr pour un porte-filtre chaud. Marquez ensuite le sens de déplacement du réservoir, de la trémie ou du plateau à tasses. Une machine étroite nécessitant de l’espace au-dessus peut être plus difficile à installer qu’une machine plus large à accès frontal.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "dea41e87dca5346e4ff2ab5de507a70976df716dfa277d311560ba3cf418bcab": {
+      "source": "Compact machines also concentrate trade-offs. A smaller boiler or rapid heater can shorten warm-up and reduce the footprint, while limiting simultaneous work or repeated milk service. A traditional metal chassis can feel stable while requiring more warm-up and top clearance. An automatic milk system can reduce technique while adding purge water and tray-emptying work. Compare the complete morning sequence, not the exterior volume alone.",
+      "text": "Les machines compactes concentrent aussi les compromis. Une petite chaudière ou une chauffe rapide peut réduire le préchauffage et l’encombrement, tout en limitant le travail simultané ou les préparations lactées répétées. Un châssis métallique traditionnel peut sembler stable tout en exigeant davantage de préchauffage et de dégagement supérieur. Un système de lait automatique peut réduire la technique nécessaire, mais ajouter de l’eau de purge et des vidanges de bac. Comparez toute la séquence matinale, pas seulement le volume extérieur.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "159621971d0507a920ac4a775a84264f110558e1daea52dd1a2ba1017241da62": {
+      "source": "The grinder remains part of the station. All four of these picks require a separate espresso grinder, and that grinder may be wider than the brewer. Preserve working room for adjustment and bean loading. Buying a small machine and then pairing it with an unsuitable grinder is not a space-saving decision.",
+      "text": "Le moulin fait toujours partie de l’installation. Ces quatre choix nécessitent tous un moulin à espresso séparé, qui peut être plus large que la machine. Gardez de la place pour le réglage et le remplissage des grains. Acheter une petite machine puis l’associer à un moulin inadapté n’est pas un choix qui fait gagner de l’espace.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "40f5e58ecfd6e4c764374ce78589d80ca92c287432de640ebbdb8e9e552da318": {
+      "source": "Four compact approaches, from assisted milk to factory PID control",
+      "text": "Quatre approches compactes, du lait assisté au contrôle PID d’origine",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "40c86d86c6db815793e14a2eea507b1015b981b3381f3b231b4cd0f80b946ceb": {
+      "source": "EU PL41TEM, polished stainless steel, type E+F plug",
+      "text": "EU PL41TEM, acier inoxydable poli, fiche de type E+F",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "b19d4544ac93ccac50c825ec8ce1a31e0cf49192342f8e15a275517114bba6ff": {
+      "source": "Best fit: Espresso learners who want PID temperature control without installing a modification",
+      "text": "Idéal pour : les débutants en espresso qui veulent une régulation PID sans installer de modification",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "67872240250a5a0298cc5fcdcd751ae0ed822ecf7293ce9eaa755ab38427a162": {
+      "source": "STEEL-UNO-PID-120V",
+      "text": "STEEL-UNO-PID-120V",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "61d114e18c6d54b2d0718bba7572df611734534e0ea5ee8e80a72a7c24930ae0": {
+      "source": "$1,695.00 reference",
+      "text": "$1,695.00 de référence",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "4d2f9bcf9c901f8aeeff527e17b4732f95abae6a35b90f8243e8c699281d3054": {
+      "source": "Best fit: An espresso-first household that wants 58 mm accessories, PID control, a gauge, and programmable pre-infusion",
+      "text": "Idéal pour : un foyer privilégiant l’espresso et souhaitant des accessoires de 58 mm, le contrôle PID, un manomètre et la préinfusion programmable",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "133c16b676f1af3060e429fb457cc31d05925b977a11383d1974364384de7e5c": {
+      "source": "Avoid if: You already own many 58 mm baskets, tampers or puck-preparation tools",
+      "text": "À éviter si : vous possédez déjà beaucoup de paniers, tampers ou outils de préparation de galette en 58 mm",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "f0781595bef52e72be133539699f20fef5d0cd7969e3165f073f65a5ef0bdeff": {
+      "source": "Avoid if: You regularly make two or more milk drinks and dislike waiting or cooling the heater between modes",
+      "text": "À éviter si : vous préparez régulièrement deux boissons lactées ou plus et n’aimez pas attendre ou refroidir le chauffage entre les modes",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "3e3b6024d7658665e43846187222b84d72cf218e04b0e2507808189c714f7b35": {
+      "source": "Ascaso / rapid heater",
+      "text": "Ascaso / chauffe rapide",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "f7c1548edd666318dece7daafce515b68ed9394f67a6a54fd3a55aed53a09f94": {
+      "source": "Ascaso Steel Uno PID, US 120 V reference product view showing the external controls and preparation area",
+      "text": "Ascaso Steel Uno PID, référence américaine 120 V, vue produit montrant les commandes externes et la zone de préparation",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "d95490f939e78a7698d432381385f13d7ed702a14635fcf411d807e71ba4200d": {
+      "source": "Ascaso Steel Uno PID, US 120 V reference. Use the exact model code and region when comparing packages. This product-identification image does not establish a measured result.",
+      "text": "Ascaso Steel Uno PID, référence américaine 120 V. Utilisez le code exact du modèle et la région pour comparer les offres groupées. Cette image d’identification ne démontre aucun résultat mesuré.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "23bc6aab6512e2cd8f5144b2064c0b6dcfd96d6945010b434744bba76ef6bc59": {
+      "source": "Ascaso USA refurbished Steel Uno PID product page ·",
+      "text": "Fiche produit Ascaso USA de la Steel Uno PID reconditionnée ·",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "cdaa46707501b1a5302503a0da793d2d51fd422cbc26e401d516db2b17d464c4": {
+      "source": "Operating states for Ascaso Steel Uno PID, US 120 V reference",
+      "text": "États de fonctionnement de l’Ascaso Steel Uno PID, référence américaine 120 V",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "72ea2609dc24500efa0eb3960695ce70ff6ad932589e3a65a51cb41a40ddee8d": {
+      "source": "Ascaso Steel Uno PID, US 120 V reference: conceptual operating system",
+      "text": "Ascaso Steel Uno PID, référence américaine 120 V : schéma conceptuel de fonctionnement",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "74d6d0606d5452835e76e349d648f123238f74a725282240bddd4ce8c5b6d940": {
+      "source": "One PID-controlled thermoblock.",
+      "text": "Un thermobloc régulé par PID.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "bae5a773009968d7dca7404594df35075681d1d11bba66f3ac768ae398bca693": {
+      "source": "One block supplies brew water and steam separately. Follow the manual for post-steam cooling; Uno is not the dual-block Steel Duo.",
+      "text": "Un bloc fournit séparément l’eau d’extraction et la vapeur. Suivez le manuel pour le refroidissement après vapeur ; l’Uno n’est pas la Steel Duo à deux blocs.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "dac1666fcf8cadc0cd500b87f085192e607b01cbabc12cb7d6ebb65a8bbd03bf": {
+      "source": "Ascaso Steel UNO / 2022 owner, exact revision unconfirmed",
+      "text": "Ascaso Steel UNO / propriétaire de 2022, révision exacte non confirmée",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "8cc5e0b51e26774304da5de582996da2432a776a2e76708dd21595dc64c6df05": {
+      "source": "A self-described UNO owner a few weeks into ownership liked the construction but cautioned that programmed volume did not eliminate variation from preparation and diverted water.",
+      "text": "Une personne se présentant comme propriétaire d’une UNO depuis quelques semaines appréciait la construction, mais signalait que le volume programmé ne supprimait pas les variations dues à la préparation et à l’eau détournée.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "a6fb6f5bf448ece181235c738e95580bff34b3aa47fed941c339b31ee77f4e21": {
+      "source": "Will you keep weighing drink yield instead of treating the volume button as a guarantee?",
+      "text": "Continuerez-vous à peser la boisson plutôt que de considérer la touche de volume comme une garantie ?",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "bb06494245b13d530ac2e1016bf859f18064910136d01912512c92696acafe0b": {
+      "source": "Older short-term UNO account, not current revision testing. The technical explanation is a commenter's interpretation, not a Coffeedant measurement.",
+      "text": "Ancien témoignage de courte durée sur l’UNO, pas un essai de la révision actuelle. L’explication technique est l’interprétation d’un commentateur, pas une mesure de Coffeedant.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "f6c8c38555cd5c41f98d79e934820beef60caa00a5399dab832649b797ef110a": {
+      "source": "· Original post date unavailable · Checked 2026-10-13 · u/SimpleUsuario",
+      "text": "· Date du message d’origine indisponible · Vérifié le 2026-10-13 · u/SimpleUsuario",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "012e3d27301a95372be019a8db17c3df9c0c30bc42b970da966de7e1632352a6": {
+      "source": "the machine needed a genuinely compact domestic footprint, a current exact-model record, a permanent Coffeedant review and a workflow that answers a distinct small-kitchen need. Tank access, portafilter clearance, milk method and the grinder requirement all counted.",
+      "text": "la machine devait avoir un encombrement réellement compact pour la maison, un dossier actuel du modèle exact, une analyse permanente Coffeedant et un fonctionnement répondant à un besoin distinct de petite cuisine. L’accès au réservoir, le dégagement du porte-filtre, la méthode de lait et le besoin d’un moulin ont tous compté.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "3faa3c7405f8dceee8cd74204b18645c15b5918295771d3c9a0bab0e719da420": {
+      "source": "a machine was not included because one marketing dimension was small while required access made the station impractical. Large integrated-grinder systems, unclear regional variants and machines selected only for appearance were excluded. Dimensions are manufacturer records, not Coffeedant measurements, so verify a tight shelf against the exact delivered unit.",
+      "text": "une machine n’a pas été retenue parce qu’une dimension publicitaire était petite alors que l’accès nécessaire rendait l’installation peu pratique. Les grands systèmes à moulin intégré, les variantes régionales floues et les machines choisies uniquement pour leur apparence ont été exclus. Les dimensions viennent des fabricants, pas de mesures Coffeedant ; vérifiez donc une étagère étroite avec l’appareil exact livré.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "ebb581ce3d84e8dc9b1fd22b6c0602f9f5833bf33bde0563dde13dbea9707583": {
+      "source": "Current EU retailer price:",
+      "text": "Prix actuel chez un vendeur de l’UE :",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "7551ead9c4940b3ceb74eaeca2c246fa990990d2c2e987a7d7f48340dc1f4adf": {
+      "source": "€549. Coffee Friend listed Anna PL41TEM at €549 and in stock on September 24, 2026; US PESAN06 was $599.95. Price, voltage, plug, warranty, tools and stock are regional, so compare the exact article and dealer terms. Price context checked September 24, 2026.",
+      "text": "€549. Coffee Friend affichait l’Anna PL41TEM à €549 et en stock le 24 septembre 2026 ; la PESAN06 américaine était à $599.95. Prix, tension, fiche, garantie, outils et stock sont régionaux : comparez la référence exacte et les conditions du vendeur. Contexte de prix vérifié le 24 septembre 2026.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "24343001a45c8cce921a5ff83375cf99127d598e45f1706160132112cb6427f9": {
+      "source": "Ascaso USA reference price:",
+      "text": "Prix de référence Ascaso USA :",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "3df7aba0a834905750afe22049504616b7f0a10d727bff36a24dd89c14576e38": {
+      "source": "$1,695.00 reference. Official US refurbished listing showed $1,440.75 and sold out; verify new stock and warranty Price context checked September 17, 2026.",
+      "text": "$1,695.00 de référence. La fiche américaine officielle reconditionnée indiquait $1,440.75 et épuisé ; vérifiez le stock neuf et la garantie. Contexte de prix vérifié le 17 septembre 2026.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "bc96994bcfa0e47fe316b23eb7a867d4c917de67da29174feea189ffd8474abc": {
+      "source": "Small machines need disciplined counter management. Leave room to remove the tank, lock the portafilter without hitting a wall, vent steam safely and remove the drip tray without lifting the machine. Give wet accessories a washable landing place. If the machine must be pulled forward for every refill, include that movement in the daily routine.",
+      "text": "Les petites machines exigent une gestion rigoureuse du plan de travail. Laissez de la place pour retirer le réservoir, verrouiller le porte-filtre sans heurter un mur, évacuer la vapeur sans risque et retirer le bac sans soulever la machine. Prévoyez une surface lavable pour les accessoires mouillés. Si la machine doit être tirée vers l’avant à chaque remplissage, incluez ce mouvement dans la routine quotidienne.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "3e47caffaefebf4314dbf01137f87b1bb5abd9487e336ed02d464a71bd239b8e": {
+      "source": "Compact does not mean maintenance-free. Milk residue, coffee oils and scale occupy the same pathways as on larger equipment. Follow the exact manual, use suitable water and confirm local service. The total ownership cost includes a grinder where required, a scale, care products and any model-specific tools.",
+      "text": "Compact ne signifie pas sans entretien. Résidus de lait, huiles de café et tartre occupent les mêmes circuits que dans les grands appareils. Suivez le manuel exact, utilisez une eau adaptée et confirmez le service local. Le coût total comprend un moulin si nécessaire, une balance, les produits d’entretien et les outils propres au modèle.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "8c46b281973b402aa88e324db18563f598a3ea8d0302e887366fd387954c8e44": {
+      "source": "Lelit · EU PL41TEM, polished stainless steel, type E+F plug",
+      "text": "Lelit · EU PL41TEM, acier inoxydable poli, fiche de type E+F",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "710161efb1cf217e406a82d321a333ba6ed412cac6558fc06d110b3f5b908fa6": {
+      "source": "Ascaso · STEEL-UNO-PID-120V",
+      "text": "Ascaso · STEEL-UNO-PID-120V",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "09e4e7544cd1d73d4be73514fa0834fd4896c17b3244b1509d59a8c49f4f8644": {
+      "source": "Small espresso machines FAQ",
+      "text": "Questions fréquentes sur les petites machines à espresso",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "6fda76b3ecf4d5a06b6eac3b34f4d4afe0519912feddc448d9878b1bc3747d4f": {
+      "source": "Choose Bambino Plus when the smallest easy milk workflow matters. Choose Profitec GO when compact width must coexist with PID control and a 58 mm group. Choose Lelit Anna when factory temperature control and a lower purchase price justify the 57 mm ecosystem. Choose Ascaso Steel Uno when fast thermoblock behavior and a slim modern chassis fit the routine.",
+      "text": "Choisissez la Bambino Plus si une préparation du lait simple et aussi compacte que possible compte. Choisissez la Profitec GO pour associer faible largeur, contrôle PID et groupe de 58 mm. Choisissez la Lelit Anna si la régulation de température d’origine et un prix d’achat inférieur justifient l’écosystème de 57 mm. Choisissez l’Ascaso Steel Uno si la réactivité du thermobloc et un châssis moderne fin conviennent à votre routine.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "7073304994dc37eae0592601d18c30e9c95c617ce8944eefea99dde3de5c0c73": {
+      "source": "The best compact machine is the one that remains convenient after the grinder, refill path and cleaning tools are on the counter. Measure that station before ordering.",
+      "text": "La meilleure machine compacte reste pratique une fois le moulin, l’accès au remplissage et les outils de nettoyage sur le plan de travail. Mesurez toute cette installation avant de commander.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "ecf1b414212220303d8e2349ea80fa1591c8a726dd61d7ebf9de98a851f52cc8": {
+      "source": "Ascaso Steel Uno PID, US 120 V reference product view showing the external controls and preparation area",
+      "text": "Ascaso Steel Uno PID, référence américaine 120 V, vue produit montrant les commandes externes et la zone de préparation",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "3135f7d6eb93052c95077f50afdb04b2d227d0c5038d74f0491d3f465f5de109": {
+      "source": "Ascaso Steel Uno PID, US 120 V reference. Use the exact model code and region when comparing packages. This product-identification image does not establish a measured result. Ascaso USA refurbished Steel Uno PID product page · Source · Manufacturer product-identification image; copyright retained. Illustrative, not a Coffeedant test photograph.",
+      "text": "Ascaso Steel Uno PID, référence américaine 120 V. Utilisez le code exact du modèle et la région pour comparer les offres groupées. Cette image d’identification ne démontre aucun résultat mesuré. Fiche produit Ascaso USA de la Steel Uno PID reconditionnée · Source · Image d’identification du fabricant ; droits d’auteur conservés. Illustration, pas une photo d’essai Coffeedant.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "988e22256d6080a7e5b36c728d15053dc6b7708cb139c73acf35129002a7bd60": {
+      "source": "Best Small Espresso Machines: Measure the Complete Station | Coffeedant",
+      "text": "Meilleures petites machines à espresso : mesurez l’installation complète | Coffeedant",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "2272e20a91371cf58a038cb72f6032bab0e22913958b3ced008a95050399e5a2": {
+      "source": "Research-led guide to compact espresso machines, comparing footprint, tank access, heat system, grinder space, milk workflow and ownership.",
+      "text": "Guide documentaire des machines à espresso compactes comparant l’encombrement, l’accès au réservoir, la chauffe, la place du moulin, la préparation du lait et la vie avec la machine.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "f07bd047ab4427812b2e6c3fad91a9622a0f49bbf0eef836f45df40d2180269a": {
+      "source": "Best Small Espresso Machines: Measure the Complete Station",
+      "text": "Meilleures petites machines à espresso : mesurez l’installation complète",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "b79a8b932606dbec5ec7982a8c38bbf9e8032930d0506af89f7a067fc03ab3cb": {
+      "source": "Is this the current PID Anna?",
+      "text": "S’agit-il de l’Anna PID actuelle ?",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "215bdebd4ee8ab7df2b08037a66ea348b517ba9e8eba32acf279423fc89fa1a2": {
+      "source": "Yes. This covers EU PL41TEM, often called Anna 2 or Anna PID. Earlier PL41EM and PL41LEM machines have different controls and should not inherit this review.",
+      "text": "Oui. Cela concerne l’EU PL41TEM, souvent appelée Anna 2 ou Anna PID. Les anciennes PL41EM et PL41LEM ont des commandes différentes et ne doivent pas reprendre cette analyse à leur compte.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "684ca9cfb002988291a706491e33367ada692e9318bba86b2f3d292ccdc330b5": {
+      "source": "No. Lelit specifies its LELIT57 group and compatible LELIT57 tools. Owners find suitable accessories, but the selection is smaller than for standard 58 mm machines.",
+      "text": "Non. Lelit spécifie son groupe LELIT57 et les outils LELIT57 compatibles. Les propriétaires trouvent des accessoires adaptés, mais le choix est plus restreint que pour les machines standard de 58 mm.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "375a1ff677916a026ef7ed3ac46dccde518bbed385d5e56ea25bbf47a490c432": {
+      "source": "Can the Steel Uno brew and steam together?",
+      "text": "La Steel Uno peut-elle extraire et produire de la vapeur en même temps ?",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "321c1c587ca0aecf14f4e271cc633c973d99636cd993a7db340bd92e1a2a71b4": {
+      "source": "No. One thermoblock changes between brewing and steam. Make the espresso, enter steam mode, texture milk, then cool or prime the circuit before another shot as the manual directs.",
+      "text": "Non. Un thermobloc alterne entre extraction et vapeur. Préparez l’espresso, passez en mode vapeur, texturez le lait, puis refroidissez ou amorcez le circuit avant un autre café comme l’indique le manuel.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "78aef6a5e7e69aa8599eff88839a75957227c6bdfb454874a29a913f5892d9ee": {
+      "source": "Is it the same brewer as the Duo?",
+      "text": "Est-ce la même machine que la Duo ?",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
+    },
+    "b843047972c78cdea64ae147f9de94a881756d9319c39870e80b1771ffc93af6": {
+      "source": "It shares many controls and the 58 mm Steel platform, but the heating and milk workflow are materially different. The Duo has independent brew and steam thermoblocks.",
+      "text": "Elle partage de nombreuses commandes et la plateforme Steel de 58 mm, mais la chauffe et la préparation du lait diffèrent sensiblement. La Duo possède des thermoblocs indépendants pour le café et la vapeur.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/small-machine-guide-batch-64.json"
     }
   },
   "routes": {
@@ -93361,6 +94194,10 @@
     "page:b0882e43c780a29e6a58": {
       "sourcePath": "/grinder/best-compact-electric-espresso-grinders/",
       "path": "/moulin-a-cafe/meilleurs-moulins-electriques-compacts-pour-espresso/"
+    },
+    "page:9637f5b5fc330d9bc488": {
+      "sourcePath": "/espresso-machine/small/",
+      "path": "/machines-expresso/compactes/"
     }
   },
   "lastModel": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
