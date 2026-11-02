@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/profitec-go/video/coffee-kev/",
+      "sourceHash": "0d21fbfff93be6741df12dade10fb75d553146df654d35ad3c49d414d39d3458"
+    },
+    {
+      "sourcePath": "/espresso-machine/breville-bambino/video/coffee-kev/",
+      "sourceHash": "6c8e3a47d74f312cb1ea7519f146d155852d7cb44ecebf051c3a251482d69cbb"
+    },
+    {
+      "sourcePath": "/espresso-machine/bezzera-strega/video/joe-varacalli/",
+      "sourceHash": "39ccecff6424ab059c4de94a9dab7825c7c0d08a96ddaa8ada0e2602f3746332"
+    },
+    {
+      "sourcePath": "/espresso-machine/quick-mill-silvano-evo/video/joe-varacalli/",
+      "sourceHash": "39b94f18c582ef1d1c338f1e5e5073daba5d7cb273974bc6c80d25fb98eb901e"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "1a4e7c31953d73d91f2dcd0ed567e8c6bcf001a8d859553cf0d2008c6eec8645",
+      "source": "Video and opinions belong to Coffee Kev. Coffeedant curates this perspective alongside our written review.",
+      "kind": "text",
+      "context": "Video and opinions belong to Coffee Kev. Coffeedant curates this perspective alongside our written review."
+    },
+    {
+      "id": "6dced7388efd9091213cc8986493f0aa44a5f51f4c61257034726404caf1aafe",
+      "source": "Video by Coffee Kev",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "4d3fdcc5adaa447a1054f22c6dc73e69fae749af309034e4a50060cb6cbdf29f",
+      "source": "Bezzera Strega: Bezzera Strega Overview · Joe Varacalli (2023-04-18) | Coffeedant",
+      "kind": "text",
+      "context": "Bezzera Strega: Bezzera Strega Overview · Joe Varacalli (2023-04-18) | Coffeedant"
+    },
+    {
+      "id": "94d193874485031780169a53b9284688c7fb17d8ae0b26de44952100fc21b93f",
+      "source": "Watch Joe Varacalli on Bezzera Strega (2023-04-18): Bezzera Strega Overview. Joe Varacalli presents Bezzera Strega, covering espresso preparation, milk drinks, setup and controls. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "525f9657af38c9623b4cc23699d87b164947a7afd59ce3dd4d3505e56324dc1f",
+      "source": "Bezzera Strega: Bezzera Strega Overview · Joe Varacalli (2023-04-18) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "ea12e796481bade4496871c51aebe249a16d2e80e73d1394abe110a000a5852d",
+      "source": "Bezzera Strega video by Joe Varacalli",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "29b86a870d429dd2dc5cd1bd42300df955a085d60508d9c1ad51a8adff5e08a1",
+      "source": "← Bezzera Strega review",
+      "kind": "text",
+      "context": "← Bezzera Strega review"
+    },
+    {
+      "id": "727cf84093a2e8390c51c8316673dd5f7f9abcc3429e6cd70633b35ede482dea",
+      "source": "Bezzera Strega Overview by Joe Varacalli",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "282401f070c8af0acaf1291196e68ee6cbc57e2810314d71f685abac6f202df2",
+      "source": "Bezzera Strega · Third-party perspective",
+      "kind": "text",
+      "context": "Bezzera Strega · Third-party perspective"
+    },
+    {
+      "id": "e35b25d292480ee62843fd254d7a307662d4c41c55eb68a39e365ec52549f532",
+      "source": "Bezzera Strega Overview",
+      "kind": "text",
+      "context": "Bezzera Strega Overview"
+    },
+    {
+      "id": "3602a8be353dc4fc9d052e1aacdfa811a12d4f5ef2cd01020c9198e47f0d3954",
+      "source": "April 18, 2023",
+      "kind": "text",
+      "context": "April 18, 2023"
+    },
+    {
+      "id": "6617c74d8db1bcdbe51be33d7c3b5a86afb38451fdfc73dea03cb29370f94573",
+      "source": "Joe Varacalli presents Bezzera Strega, covering espresso preparation, milk drinks, setup and controls. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Joe Varacalli presents Bezzera Strega, covering espresso preparation, milk drinks, setup and controls. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "82c59eb678c016067c0afc45d03208540486b8c2365555b37dfdcd4207b68a33",
+      "source": "Bezzera Strega: Bezzera Strega Overview · Joe Varacalli (2023-04-18) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "5354d05963f8968be55e481ee632fa65086b815baf5fd54a5e1e6c2a31125a74",
+      "source": "Watch Joe Varacalli on Bezzera Strega (2023-04-18): Bezzera Strega Overview. Joe Varacalli presents Bezzera Strega, covering espresso preparation, milk drinks, setup and controls. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "50399080fb21b80a53f422ec1a4e5490eb165f6421b947047004471683641e09",
+      "source": "Bezzera Strega video by Joe Varacalli",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "b8ec0afe15763933f1304747288984be2c75f9baceb80bb738a6fac2f8626d20",
+      "source": "Bezzera Strega Overview",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "ab9548056eee50c9c51615218a3b1a1c28abe3d87a698ae982a2a942c408a7a3",
+      "source": "Joe Varacalli presents Bezzera Strega, covering espresso preparation, milk drinks, setup and controls. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "18cb1782fda852609882d3cc3c6fcd626623629751a8628fb5a3f7eeb3b99644",
+      "source": "Sage (Breville) Bambino Plus Review After Nearly 4 Years",
+      "kind": "text",
+      "context": "Sage (Breville) Bambino Plus Review After Nearly 4 Years"
+    },
+    {
+      "id": "72f4e278a65fd42d6a006af502b134314ab27ebf11a5e8c7c3ca5343ebaeb82b",
+      "source": "November 30, 2023",
+      "kind": "text",
+      "context": "November 30, 2023"
+    },
+    {
+      "id": "68dfa4a880166a6ef206f4c0e727f99e667eef1449226457b4cf17ba9dbf82d6",
+      "source": "Sage (Breville) Bambino Plus Review After Nearly 4 Years",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "11464d4761004581ba0243d792af44e73a6466e3d379c5b336767126afafa5fc",
+      "source": "Breville Bambino Plus: Sage (Breville) Bambino Plus Review After Nearly 4 Years · Coffee Kev (2023-11-30) | Coffeedant",
+      "kind": "text",
+      "context": "Breville Bambino Plus: Sage (Breville) Bambino Plus Review After Nearly 4 Years · Coffee Kev (2023-11-30) | Coffeedant"
+    },
+    {
+      "id": "2fca165af9548981ba27b39ae49067efa42a8929644b42cba9e483dc578f5ff2",
+      "source": "Watch Coffee Kev on Breville Bambino Plus (2023-11-30): Sage (Breville) Bambino Plus Review After Nearly 4 Years. Coffee Kev’s long-term perspective adds context beyond a short review. His UK Sage experience is separate from the US specifications and buying terms used here. This is an external review, not Coffeedant testing.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "8394911281846f05dd2c542cb54b68272f515d2cf3878ef612a4651948f9b273",
+      "source": "Breville Bambino Plus: Sage (Breville) Bambino Plus Review After Nearly 4 Years · Coffee Kev (2023-11-30) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "e5b44829953f24097ada6457cb9a65085ecda0991df8df24539502538a3b089c",
+      "source": "Breville Bambino Plus video by Coffee Kev",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "ea18eec2d2805d9a1d123bb3e6e6a3dca40773f6cc33cc49e41b451b6a91a3d1",
+      "source": "← Breville Bambino Plus review",
+      "kind": "text",
+      "context": "← Breville Bambino Plus review"
+    },
+    {
+      "id": "49864b01c43f1ad9e27f91a14c16c841bb298141a74315ba5d4ab706fdc29307",
+      "source": "Sage (Breville) Bambino Plus Review After Nearly 4 Years by Coffee Kev",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "832924f10d6146635a526374268db146f44ff59d02fc64934d84e53d3fd7efe2",
+      "source": "Breville Bambino Plus · Third-party perspective",
+      "kind": "text",
+      "context": "Breville Bambino Plus · Third-party perspective"
+    },
+    {
+      "id": "2010caeacf07fb0c3ec2d21696078b68d301821ea464a9695cb43a51226e45a3",
+      "source": "Breville Bambino Plus: Sage (Breville) Bambino Plus Review After Nearly 4 Years · Coffee Kev (2023-11-30) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "3a943537bddf5f7edaf365cd7077b9034566343f632af7a9537cf31dc0787c26",
+      "source": "Watch Coffee Kev on Breville Bambino Plus (2023-11-30): Sage (Breville) Bambino Plus Review After Nearly 4 Years. Coffee Kev’s long-term perspective adds context beyond a short review. His UK Sage experience is separate from the US specifications and buying terms used here. This is an external review, not Coffeedant testing.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "25730f6d0e63abc9810d4aeb39b6b77e3636dbccfb953c3c5130c052d8e0767a",
+      "source": "Breville Bambino Plus video by Coffee Kev",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "85a957f2004b6c41c8b244fe180484ff99fad608824b252c7eb4f3afedcf0831",
+      "source": "September 28, 2025",
+      "kind": "text",
+      "context": "September 28, 2025"
+    },
+    {
+      "id": "ef4f0b561771f4a7bc560771b3616db13e57fa50288a9c66c4966be1cac9aa19",
+      "source": "Profitec GO original generation: Profitec Go Review 2025 + Pro Barista Coffee Making Demo · Coffee Kev (2025-09-28) | Coffeedant",
+      "kind": "text",
+      "context": "Profitec GO original generation: Profitec Go Review 2025 + Pro Barista Coffee Making Demo · Coffee Kev (2025-09-28) | Coffeedant"
+    },
+    {
+      "id": "9c80da331d49a431f0aec0b559d6c9ccd4a0f2fa92727ac35da986021d82766e",
+      "source": "Watch Coffee Kev on Profitec GO original generation (2025-09-28): Profitec Go Review 2025 + Pro Barista Coffee Making Demo. Independent hands-on video of the original Profitec GO, including espresso preparation, PID workflow and milk steaming. Coffee Kev uses affiliate links and sells coffee, so commercial interests are explicit; the video does not establish reliability or another unit’s performance.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "354f525307fcae64d0817d03b84558b567876467ff80459fbfa2036a17d3060b",
+      "source": "Profitec GO original generation: Profitec Go Review 2025 + Pro Barista Coffee Making Demo · Coffee Kev (2025-09-28) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "272819e0bc5a2c9c03a28797e32227205fd07637c9890982b1d1e124b807eb96",
+      "source": "Profitec GO original generation video by Coffee Kev",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "3ffd93751c485c85adab98524e0815d1f74b54a04d4ba75eff1eebafd29b9b64",
+      "source": "← Profitec GO original generation review",
+      "kind": "text",
+      "context": "← Profitec GO original generation review"
+    },
+    {
+      "id": "0a302545211d3d723d4454cb818604f7f59ba5b8afba07222c9d37500fed4560",
+      "source": "Profitec Go Review 2025 + Pro Barista Coffee Making Demo by Coffee Kev",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "01ce0e5e4d8f3beb2a29122522e2bc9ffd1edb327ee69e8916ddd05f906cac6e",
+      "source": "Profitec GO original generation · Third-party perspective",
+      "kind": "text",
+      "context": "Profitec GO original generation · Third-party perspective"
+    },
+    {
+      "id": "ddd914a53af723dbdca88f1d31a9a1f33ea1769eba1b31f92589f3cc257da2b7",
+      "source": "Profitec GO original generation: Profitec Go Review 2025 + Pro Barista Coffee Making Demo · Coffee Kev (2025-09-28) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "d5b16140a9835be0d80e6c8be1d92e7bfc07e0c6508952548d258676be190810",
+      "source": "Watch Coffee Kev on Profitec GO original generation (2025-09-28): Profitec Go Review 2025 + Pro Barista Coffee Making Demo. Independent hands-on video of the original Profitec GO, including espresso preparation, PID workflow and milk steaming. Coffee Kev uses affiliate links and sells coffee, so commercial interests are explicit; the video does not establish reliability or another unit’s performance.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "67c53ced0441165605cc63daaf32c07c9bcafb93f817e4b99e7e9623d78e35d0",
+      "source": "Profitec GO original generation video by Coffee Kev",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "e583cbce63001e8b967ba71226fa7062f657bd64824a39c0c9fa23a4460e6a59",
+      "source": "Quick Mill Silvano Review",
+      "kind": "text",
+      "context": "Quick Mill Silvano Review"
+    },
+    {
+      "id": "9f31c05dad30a619accfe911e47ff91cc78a4a7d5e4ce67aefca3e3f1adc24db",
+      "source": "November 15, 2021",
+      "kind": "text",
+      "context": "November 15, 2021"
+    },
+    {
+      "id": "fdac285264d872f492b5ddede497629bd7bf8b105d9e014f2146ad31a2d7a139",
+      "source": "Unique exact-model independent owner review covering controls, espresso preparation, steam workflow and buyer fit. It is not Coffeedant testing, current-price evidence or a universal performance measurement.",
+      "kind": "text",
+      "context": "Unique exact-model independent owner review covering controls, espresso preparation, steam workflow and buyer fit. It is not Coffeedant testing, current-price evidence or a universal performance measurement."
+    },
+    {
+      "id": "321c3d204b14b00e6d39ba549d1e3f993cc7a195c0dd517fb17c6aac6e8ee09a",
+      "source": "Quick Mill Silvano Review",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "68448a9c0529e4ca27fe2731ec2bbe354953d6e4c1b0e1ffb52afe17ff1b4a0b",
+      "source": "Unique exact-model independent owner review covering controls, espresso preparation, steam workflow and buyer fit. It is not Coffeedant testing, current-price evidence or a universal performance measurement.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "e5dff833921c45e77e12112970717163a66586c3e229ee2d3cee6f4b551b6360",
+      "source": "← Quick Mill Silvano Evo review",
+      "kind": "text",
+      "context": "← Quick Mill Silvano Evo review"
+    },
+    {
+      "id": "a6965320c32ca32bb3871b0700771182b263fd708c5ffb66c9f10a22bbc6eb7a",
+      "source": "Quick Mill Silvano Evo: Quick Mill Silvano Review · Joe Varacalli (2021-11-15) | Coffeedant",
+      "kind": "text",
+      "context": "Quick Mill Silvano Evo: Quick Mill Silvano Review · Joe Varacalli (2021-11-15) | Coffeedant"
+    },
+    {
+      "id": "a957303375ad43dfb00bb912cefe7e38002b24df437fef9da5c656fbc8451a21",
+      "source": "Watch Joe Varacalli on Quick Mill Silvano Evo (2021-11-15): Quick Mill Silvano Review. Unique exact-model independent owner review covering controls, espresso preparation, steam workflow and buyer fit. It is not Coffeedant testing, current-price evidence or a universal performance measurement.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "c0dbe90bad89216c5ab27ae2df2b3a1429580dd25b147cc330780d9f76a0d8a1",
+      "source": "Quick Mill Silvano Evo: Quick Mill Silvano Review · Joe Varacalli (2021-11-15) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "15050e368f922345679c65fcc7859ac1b75fa47d142bd473b50311067ae78c08",
+      "source": "Quick Mill Silvano Evo video by Joe Varacalli",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "ee987fcab9f1317e7786d0317230f711e7542ff4b9672ebad8e4fc33cf3692b0",
+      "source": "Quick Mill Silvano Review by Joe Varacalli",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "b3360324d674868c565b0419d81bd5ec80bacef4bfe2db5be09f8537795f7a72",
+      "source": "Quick Mill Silvano Evo · Third-party perspective",
+      "kind": "text",
+      "context": "Quick Mill Silvano Evo · Third-party perspective"
+    },
+    {
+      "id": "8efcfdd16fc2f53bed6be80fe0486aeb57005791f0358bc46a80afe153bd6378",
+      "source": "Quick Mill Silvano Evo: Quick Mill Silvano Review · Joe Varacalli (2021-11-15) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "9afa58074b544dfa61031486217e5caf3440bc683c5d1f87dd64dbbf22389e25",
+      "source": "Watch Joe Varacalli on Quick Mill Silvano Evo (2021-11-15): Quick Mill Silvano Review. Unique exact-model independent owner review covering controls, espresso preparation, steam workflow and buyer fit. It is not Coffeedant testing, current-price evidence or a universal performance measurement.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "4afa636106a057372a591d443cb01f1b8a7f277cf200265cd33806427a80ec43",
+      "source": "Quick Mill Silvano Evo video by Joe Varacalli",
+      "kind": "json",
+      "context": "caption"
+    }
+  ],
+  "snapshotHash": "f55d5bb468cbe75bd14c38c4d4b8bfecb6d1fce6b4d322be51d463f5d026a68e"
+}
