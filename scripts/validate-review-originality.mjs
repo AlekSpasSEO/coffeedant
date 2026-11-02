@@ -27,9 +27,21 @@ for(const slug of routes) {
   const article=content.find(n=>n.tagName==='article'&&(hasClass(n,'review-article')||hasClass(n,'bean-article')));
   const section=walk(article).find(n=>n.tagName==='section'&&hasClass(n,'review-section')&&!['ratings','video','methodology','sources','verdict'].includes(attr(n,'id')));
   const body=walk(section).find(n=>hasClass(n,'review-section-body'));
-  const overview=text(body?.childNodes.find(n=>n.tagName==='p'));
+  const isElizabethDashboard=slug==='/espresso-machine/lelit-elizabeth/'&&attr(main,'data-elizabeth-dashboard')!==undefined;
+  // The dashboard leads with an authored buying verdict outside its article.
+  // Keep that opening subject to the same checks without imposing legacy UI.
+  const overview=isElizabethDashboard
+    ? text(content.find(n=>n.tagName==='p'&&hasClass(n,'ed-verdict')))
+    : text(body?.childNodes.find(n=>n.tagName==='p'));
   if(!overview)throw new Error(`${slug}: missing opening article paragraph`);
-  reviews.push({slug,title:text(content.find(n=>n.tagName==='h1')),name:product?.name,brand:typeof product?.brand==='string'?product.brand:product?.brand?.name,overview,paragraphs:extractReviewBodyParagraphs(article)});
+  const paragraphs=extractReviewBodyParagraphs(article);
+  if(isElizabethDashboard){
+    const sections=new Set(paragraphs.filter(paragraph=>paragraph.text.trim()).map(paragraph=>paragraph.section));
+    for(const id of ['espresso','milk','workflow','setup','features','build','value','identity','faq','verdict']){
+      if(!sections.has(id))throw new Error(`${slug}: originality reader omitted dashboard section ${id}`);
+    }
+  }
+  reviews.push({slug,title:text(content.find(n=>n.tagName==='h1')),name:product?.name,brand:typeof product?.brand==='string'?product.brand:product?.brand?.name,overview,paragraphs});
 }
 const result=checkReviewOriginality(reviews);
 await fs.mkdir(path.dirname(reportPath),{recursive:true});

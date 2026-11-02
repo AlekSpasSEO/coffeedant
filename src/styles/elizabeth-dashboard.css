@@ -24,3 +24,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 .ed-question>.ed-answer-sources{font-size:.72rem;margin:-4px 0 18px;color:#617251}.ed-answer-sources a{display:inline-block;margin-right:7px}
+.elizabeth-dashboard .ed-byline{display:flex;align-items:center;gap:12px;padding:0;border:0;background:transparent;box-shadow:none;margin:0;grid-template-columns:unset}.elizabeth-dashboard .ed-byline img{width:36px;height:36px;flex:0 0 auto}.elizabeth-dashboard .ed-byline p{flex:1 1 auto}.elizabeth-dashboard .ed-research-label{flex:0 0 auto}
+@media(max-width:500px){.elizabeth-dashboard .ed-byline{flex-wrap:wrap;gap:10px}.elizabeth-dashboard .ed-byline p{flex:1 1 calc(100% - 50px)}.elizabeth-dashboard .ed-research-label{margin-left:46px}}
