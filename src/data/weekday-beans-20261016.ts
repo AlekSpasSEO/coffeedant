@@ -208,6 +208,7 @@ const records: RecordData[] = [
     altName:'Onyx Coffee Lab Monarch', altSlug:'/coffee-beans/onyx-monarch/',
     altReason:'a separate cocoa-and-fruit espresso brief with a full review',
     faqBrew:'Equator gives 18 g coffee to 46 g beverage as a starting espresso recipe. Adjust grind and yield for the delivered bag and basket.',
+    faqIdentityQuestion:'Are the origins fixed?',
     faqIdentity:'No. Equator says the blend is seasonal, and older indexed versions name other component origins.',
     extraSourceTitle:'Equator brew guides', extraSourceUrl:'https://www.equatorcoffees.com/pages/brew-guides',
     extraSourceNote:'Device-specific brewing context; not a Coffeedant extraction.'

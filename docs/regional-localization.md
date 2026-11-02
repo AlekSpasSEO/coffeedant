@@ -3167,6 +3167,63 @@ nine other published revisions still defer the regional bundle with the expected
 exit 42. The existing 107-page public editions remain available. Ready-pages
 publication and continuation remain enabled; no full-edition completion is claimed.
 
+### Direct batch 61: current bean reviews and grinder-free guide (2026-11-02)
+
+The final nine published bean-review revisions are now fully current in NL/DE/FR.
+`review-source-repair-batch-61` directly authors their 90 distinct missing source
+strings, retaining the complete cached bodies, metadata and structured answers.
+
+| Review | Source words | Paragraphs | FAQ answers |
+| --- | ---: | ---: | ---: |
+| Equator Blend | 1,661 | 47 | 4 |
+| Eye of the Tiger Espresso | 1,680 | 47 | 4 |
+| Arabian Mocha-Java | 1,393 | 43 | 3 |
+| Baridi Blend | 1,664 | 46 | 5 |
+| Big Bang | 1,664 | 50 | 3 |
+| Off the Grid | 1,602 | 46 | 5 |
+| Sun Catcher | 1,621 | 46 | 5 |
+| Sermon | 1,581 | 46 | 5 |
+| Streetlevel | 1,528 | 45 | 3 |
+
+Concurrent German cache work from `cc92f73` is preserved. The batch adds 90 new
+entries in NL/FR and 30 in DE. Fourteen of the 60 newly cached German strings
+are reused exactly; 46 selected strings receive native/factual corrections.
+These preserve Three Africas as a product name, express recipe masses as a
+ratio rather than a range, retain medium rather than medium-dark roasting where
+the source says medium, and repair malformed brew instructions. No earlier
+Codex-direct wording, unrelated cache text or registered route is changed.
+
+Source review also found Eye of the Tiger's identity question paired with a
+negative seasonal-origin answer. Its prompt now asks whether origins are fixed,
+using existing validated wording shared with Fast Forward. The answer, source
+facts, dates, prices and links remain unchanged. The built-page validator checks
+the visible question and JSON-LD; a fixture-only negative check rejects the old
+mismatched prompt without mutating files. The original snapshot is preserved;
+the adjacent `-current.source.json` pins the changed full-page fingerprint after
+verifying all 90 original slot IDs, kinds, source strings and indices unchanged.
+Two redundant question IDs leave the current inventory; cache evidence is kept.
+
+All 35 bean reviews and the complete grinder-free guide pass 108 native preview
+comparisons across the three editions. Per edition these cover 64,225 source
+words, 1,851 authored paragraphs and 173 FAQ answers, including complete metadata,
+structured data, links, accessible labels, image/SVG geometry, compiled scripts
+and runtime interface values. The guide's three initial Finder cards bring the
+rendered paragraph total to 1,860. Every previously ready page remains ready,
+including `/journal/espresso-doseren/`.
+
+All 210 localization and 20 SEO tests pass. Analytics, all 35 bean reviews and
+the 151-machine / seven-grinder Finder validators also pass. The complete
+production bundle and actual compiled guide controls are checked before merge;
+live manifests, sitemaps and reciprocal English links are recorded in the PR.
+The ready-page selection contains 108 indexable pages plus 404 per edition,
+preserving all 107 previously published routes and adding the grinder-free guide.
+
+Inventory is 659 pages / 56,504 segments. NL has 12,600 translated / 43,904 pending;
+DE/FR each have 12,622 / 43,882. Finder pending is zero, and no bean-review revision
+remains pending. There are still 165 non-watch and 385 watch pages incomplete.
+Ready-pages publication and hourly continuation remain enabled. Full editions
+remain incomplete; completing the current bean reviews is not full-site completion.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
