@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "scope": "segments",
+  "editions": ["nl", "de", "fr"],
+  "snapshot": "moka-hub-update-batch-61.source.json",
+  "snapshotHash": "7b15a5bdca33eefac484c9193c9b257d0e0897228f7110a4fa17326c51d5906a",
+  "translations": {
+    "0": {"nl":"Nieuwe koopgids · 2 november 2026","de":"Neuer Kaufratgeber · 2. November 2026","fr":"Nouveau guide d’achat · 2 novembre 2026"},
+    "1": {"nl":"Bonen voor de mokapot per smaakprofiel","de":"Kaffeebohnen für die Mokkakanne nach Geschmacksprofil","fr":"Grains pour cafetière italienne selon le profil recherché"},
+    "2": {"nl":"Vergelijk hele bonen met chocolade- en sinaasappeltonen of aardse en kruidige tonen voor een herhaalbare bereiding op het fornuis, met duidelijke grenzen aan de onderbouwing van het productspecifieke zetadvies.","de":"Vergleichen Sie ganze Bohnen mit Schokoladen- und Orangennoten oder erdig-würzigen Noten für eine wiederholbare Zubereitung auf dem Herd. Die Grenzen der produktspezifischen Belege zur Zubereitung werden klar benannt.","fr":"Comparez des cafés en grains aux notes de chocolat et d’orange ou terreuses et épicées pour une préparation reproductible sur la cuisinière. Les limites des éléments disponibles sur la préparation de chaque produit sont clairement indiquées."},
+    "3": {"nl":"Lees de bonengids voor de mokapot","de":"Lesen Sie den Bohnenratgeber für die Mokkakanne","fr":"Lisez le guide des cafés en grains pour cafetière italienne"}
+  }
+}
