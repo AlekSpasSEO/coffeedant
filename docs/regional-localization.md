@@ -3241,6 +3241,49 @@ remains pending. There are still 166 non-watch and 385 watch pages incomplete.
 Ready-pages publication and hourly continuation remain enabled. Full editions
 remain incomplete; completing the current bean reviews is not full-site completion.
 
+### Direct batch 62: complete moka-pot bean guide (2026-11-02)
+
+The complete current moka-pot buying guide is directly translated into Dutch,
+German and French. Its 1,520 source words, 49 paragraphs and six full FAQ answers
+retain the two exact US products, roaster attribution and evidence limits. The
+guide does not claim Coffeedant bought, brewed or tasted either coffee, or that
+either has a product-specific moka recipe. Blue Bottle's six-cup 20–22 g / about
+345 g method remains distinct from espresso-machine preparation. The instructions
+retain both prohibitions: do not copy six-cup quantities into a smaller pot and
+do not fill above its safety valve. No prices, discounts or local offers are added.
+
+`moka-guide-batch-62-full.source.json` freezes all 613 page/shared slots, while
+the adjacent batch snapshot freezes the 88 missing NL slots. The apply-patch
+authored task supplies all 72 distinct source strings in three languages; import
+reuses those exact strings across text, metadata and structured-data kinds.
+NL/FR each gain 88 current entries without changing prior wording. DE gains no
+entries: 12 cached entries are reused verbatim and 76 selected entries receive
+native/factual corrections, including a lost negation in the valve warning,
+misread flavor directions and mismatched visible/structured FAQ wording. Earlier
+Codex-direct wording and all unrelated cache entries and routes are preserved.
+
+The new stable guide paths are:
+
+- NL `/koffiebonen/beste-koffiebonen-voor-mokkapot/`
+- DE `/kaffeebohnen/beste-kaffeebohnen-fuer-espressokocher/`
+- FR `/cafe-en-grains/meilleurs-cafes-en-grains-pour-cafetiere-italienne/`
+
+The guide, current bean hub and both linked full bean reviews pass 12 complete
+native preview comparisons, covering all text, metadata, JSON-LD, source links,
+accessible table labels, images, compiled scripts and shared runtime UI. All 210
+localization and 20 SEO tests pass. Analytics, all 35 bean reviews and the
+151-machine/seven-grinder Finder validators pass against the Cloudflare build.
+The full regional production build also passes, with no published-page deferrals;
+another 12 full-page comparisons pass after production SEO generation. Live
+release evidence is recorded in the batch PR after deployment.
+
+Inventory remains 660 source pages / 56,596 segments. Ready selection is 109
+indexable pages plus 404 per edition, preserving all prior 108 live routes,
+including `/journal/espresso-doseren/`. NL has 12,692 translated / 43,904 pending;
+DE has 12,744 / 43,852 and FR has 12,714 / 43,882. Finder pending remains zero.
+There are still 165 non-watch and 385 watch pages incomplete. Ready-pages
+publication and hourly continuation remain active; no full edition is complete.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
