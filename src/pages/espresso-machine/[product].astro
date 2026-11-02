@@ -1,6 +1,7 @@
 ---
 import HomeLayout from '../../layouts/HomeLayout.astro';
 import MachineReview from '../../components/reviews/MachineReview.astro';
+import ElizabethDashboard from '../../components/reviews/ElizabethDashboard.astro';
 import type { MachineReviewData } from '../../data/reviews';
 import { getModernReviewsByRouteFamily } from '../../data/review-registry';
 import '../../styles/review.css';
@@ -25,5 +26,5 @@ const { review } = Astro.props as { review: MachineReviewData };
   published={review.published}
   updated={review.updated}
 >
-  <MachineReview review={review} />
+  {review.slug === '/espresso-machine/lelit-elizabeth/' ? <ElizabethDashboard review={review} /> : <MachineReview review={review} />}
 </HomeLayout>

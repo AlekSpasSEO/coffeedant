@@ -25,7 +25,8 @@ const known=new Set(products.map(p=>p.slug));
 for(const path of Object.keys(catalog))assert.ok(known.has(path),`orphan video product ${path}`);
 for(const p of products){
  assert.ok(Object.hasOwn(catalog,p.slug)&&assessments[p.slug],`${p.slug}: research videos for every new review, including an explicit no-video result`);
- const selected=catalog[p.slug];assert.ok(selected.length<=3,`${p.slug}: maximum three videos`);
+ const isElizabethDashboard=p.slug==='/espresso-machine/lelit-elizabeth/';
+ const selected=catalog[p.slug];assert.ok(selected.length<=(isElizabethDashboard?4:3),`${p.slug}: curated video limit`);
  assert.equal(new Set(selected.map(v=>v.id)).size,selected.length,`${p.slug}: no duplicate selections`);
  const reviewDoc=parse(read(`dist${p.slug}index.html`)),reviewGraph=graph(reviewDoc),reviewVideos=walk(reviewDoc).filter(n=>attr(n,'data-product-video')!==undefined),reviewSchemas=reviewGraph.filter(s=>s['@type']==='VideoObject');
  const reviewProducts=schemaNodesOfType(reviewGraph,'Product');
@@ -35,9 +36,28 @@ for(const p of products){
   assert.ok(reviewProducts[0].review?.reviewRating?.ratingValue,`${p.slug}: preserve the equipment review rating`);
   assert.ok(reviewProducts[0].review.author?.name,`${p.slug}: preserve the equipment review author`);
  }
- assert.equal(reviewVideos.length,selected.length?1:0,`${p.slug}: exactly one selected video, or none when unsuitable`);
- assert.equal(reviewSchemas.length,selected.length?1:0,`${p.slug}: video/schema parity`);
+ // Elizabeth's dashboard exposes every curated perspective through one selector.
+ // Other reviews retain the established single-primary-video contract.
+ const expectedReviewVideoCount=isElizabethDashboard?selected.length:(selected.length?1:0);
+ assert.equal(reviewVideos.length,expectedReviewVideoCount,`${p.slug}: rendered video selection count`);
+ assert.equal(reviewSchemas.length,expectedReviewVideoCount,`${p.slug}: video/schema parity`);
  if(selected.length)assert.equal(attr(reviewVideos[0],'data-product-video'),selected[0].id,`${p.slug}: primary selection`);
+ if(isElizabethDashboard){
+  assert.deepEqual(reviewVideos.map(n=>attr(n,'data-product-video')),selected.map(v=>v.id),`${p.slug}: every curated perspective rendered in catalog order`);
+  const article=reviewGraph.find(s=>s['@type']==='Article');
+  const references=[article?.video??[]].flat().map(v=>v['@id']);
+  assert.deepEqual(references,selected.map(v=>`https://coffeedant.com${p.slug}#video-${v.id}`),`${p.slug}: article references every video`);
+  for(const v of selected){
+   const s=reviewSchemas.find(s=>s['@id']===`https://coffeedant.com${p.slug}#video-${v.id}`);
+   assert.ok(s,`${p.slug}: video entity ${v.id}`);
+   assert.equal(s.name,v.title,`${p.slug}: video title ${v.id}`);
+   assert.equal(s.embedUrl,`https://www.youtube-nocookie.com/embed/${v.id}`,`${p.slug}: video embed ${v.id}`);
+   assert.equal(s.uploadDate,v.published,`${p.slug}: video date ${v.id}`);
+   assert.equal(s.duration,v.duration,`${p.slug}: video duration ${v.id}`);
+   assert.equal(s.creator.url,v.channelUrl,`${p.slug}: video creator ${v.id}`);
+   assert.equal(s.description,v.summary,`${p.slug}: video description ${v.id}`);
+  }
+ }
  for(const v of selected){
   const watchPath=videoWatchPath(p.slug,v,selected);
   assert.ok(!watchPaths.has(watchPath),`${watchPath}: unique watch URL`);watchPaths.add(watchPath);
@@ -71,4 +91,4 @@ assert.equal([...videoSitemap.matchAll(/<video:video>/g)].length,videos.length,'
 assert.ok(videoSitemap.includes('xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"'));
 assert.ok(!videoSitemap.includes('<loc>https://coffeedant.com/videos/</loc>'),'library is not a watch page');
 assert.ok(!videoSitemap.includes('<video:content_loc>'),'YouTube watch links are not raw content URLs');
-console.log(`Video library passed: ${products.length} products assessed, ${videos.length} selections and watch pages, ${ids.size} unique videos, recursive Product schema checks, preserved review ratings, metadata/schema parity and one card per eligible review.`);
+console.log(`Video library passed: ${products.length} products assessed, ${videos.length} selections and watch pages, ${ids.size} unique videos, recursive Product schema checks, preserved review ratings, metadata/schema parity, single-primary reviews and Elizabeth's complete selector.`);

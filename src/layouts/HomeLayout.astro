@@ -23,6 +23,7 @@ const socialImage = image
     ? String(image)
     : new URL(`${base}${String(image).replace(/^\//, '')}`, Astro.site ?? Astro.url).toString()
   : undefined;
+const isPreview = process.env.COFFEEDANT_PREVIEW === '1' || Boolean(process.env.CF_PAGES_BRANCH && process.env.CF_PAGES_BRANCH !== 'main');
 ---
 
 <!doctype html>
@@ -34,6 +35,7 @@ const socialImage = image
     <meta name="theme-color" content="#f3da00" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    {isPreview && <meta name="robots" content="noindex, follow" />}
     <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/png" href={`${base}brand/coffeedant-logo.png`} />
     <meta property="og:type" content={ogType} />

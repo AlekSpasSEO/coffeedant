@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { validateElizabethDashboard } from './validate-elizabeth-dashboard.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.join(root, 'dist');
@@ -154,6 +155,33 @@ for (const item of manifest) {
   const html = fs.readFileSync(output, 'utf8');
   const expectedCanonical = `${canonicalOrigin}${item.slug}`;
   const main = html.match(/<main\b[\s\S]*?<\/main>/i)?.[0] ?? '';
+  if (item.slug === '/espresso-machine/lelit-elizabeth/' && /\sdata-elizabeth-dashboard(?:\s|=|>)/.test(main)) {
+    try {
+      const dashboard = validateElizabethDashboard({ html, projectRoot: root });
+      if (sitemapMatches.length === 1 && Date.parse(sitemapMatches[0].lastmod) < Date.parse(dashboard.updated)) {
+        fail(item.slug, `sitemap lastmod ${sitemapMatches[0].lastmod} predates article modified date ${dashboard.updated}`);
+      }
+      for (const video of curatedVideos[item.slug] ?? []) {
+        const pages = videoPages.get(video.id) ?? [];
+        pages.push(item.slug);
+        videoPages.set(video.id, pages);
+      }
+      reports.push({
+        slug: item.slug,
+        dashboard: true,
+        words: wordCount(cleanText(main)),
+        sources: dashboard.sources,
+        videos: dashboard.videos,
+        vendors: dashboard.vendors,
+        questions: dashboard.questions,
+        faqs: dashboard.faqs,
+        images: dashboard.images,
+      });
+    } catch (error) {
+      fail(item.slug, `dashboard validation: ${error.message}`);
+    }
+    continue;
+  }
   // Third-party titles are verbatim credits, not Coffeedant house-style prose.
   const visible = cleanText(main.replace(/<section\b[^>]*id="video"[^>]*>[\s\S]*?<\/section>/gi, ' ').replace(/<li\b[^>]*data-video-source[^>]*>[\s\S]*?<\/li>/gi,' '));
   const articleCopy = cleanText(main
@@ -440,6 +468,10 @@ for (const [videoId, pages] of videoPages) {
 }
 
 for (const report of reports) {
+  if (report.dashboard) {
+    console.log(`${report.slug} dashboard: ${report.words} words, ${report.images} images, ${report.sources} sources, ${report.videos} curated videos, ${report.vendors} dated vendor observations, ${report.questions} question sections, ${report.faqs} visible FAQs`);
+    continue;
+  }
   console.log(`${report.slug} ${report.words} words, ${report.images} images, ${report.userGeneratedMedia} community/owner images, ${report.sources} sources, ${report.scoreCards} ratings, ${report.deepDives} deep dives, ${report.recommendations} recommendations`);
 }
 

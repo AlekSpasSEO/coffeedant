@@ -7,15 +7,15 @@ export const lelitElizabethReview = buildResearchReview({
   slug: '/espresso-machine/lelit-elizabeth/', productId: 'CD-EM-000001',
   brand: 'Lelit', model: 'Elizabeth PL92T', sku: 'PL92T-120',
   category: 'Dual-boiler semi-automatic espresso machine', brandPath: '/lelit/',
-  title: 'Lelit Elizabeth review: dual boilers, a longer warm-up',
-  description: 'Lelit Elizabeth PL92T review: warm-up evidence, milk workflow, timed shots, V3/V4 listing checks and alternatives. US price rechecked. Research-led, not hands-on.',
+  title: 'Lelit Elizabeth review: is it right for your morning?',
+  description: 'Lelit Elizabeth PL92T: compare video reviews, dated retailer prices and the evidence on espresso, milk, warm-up and ownership. Find out whether it fits your routine.',
   verdictLabel: 'For a planned espresso-and-milk routine',
   // Keep this first sentence aligned with the already translated Finder card.
   verdict: 'I would choose the current Elizabeth PL92T for a household making two or three espresso and milk drinks that wants dual boilers, timed shot buttons, programmable preinfusion and onboard temperature controls without an E61 footprint. The main compromise is first-cup readiness: independent reviewers recommend a longer preheat than the early ready signal suggests. Choose it for control once warm; compare another machine if a spontaneous first drink, plumbing or automatic beverage weighing matters more. Lelit US and Clive listed it at $1,799.95 on October 30, 2026; confirm the exact model and offer before buying.',
   assessment: 'A capable compact dual boiler for an owner willing to preheat, weigh the cup and learn the LCC. The controls are the attraction; fast cold starts and automatic output measurement are not its strengths.',
   image: 'images/products/lelit-elizabeth.jpg',
   imageAlt: 'Lelit Elizabeth PL92T dual-boiler espresso machine in brushed stainless steel',
-  published: '2025-11-03', updated: '2026-10-30',
+  published: '2025-11-03', updated: '2026-11-02',
   authorNote: 'I checked the current manufacturer documents and US listings, compared independent test protocols, and separated useful owner questions from unsupported reliability claims. This is a research-led assessment. I have not physically tested the Elizabeth; the measurements below belong to their named authors.',
   basisDisclosure: 'This review evaluates the established Elizabeth PL92T, with US buying scope tied to PL92T-120. Ratings are editorial judgments from documented features, attributed independent evaluations and owner context. Coffeedant has not measured temperature, pressure, steaming, sound, taste or durability. Third-party results are not measurements of a Coffeedant sample.',
   price: {

@@ -1,0 +1,92 @@
+{
+  "reviewedProduct": "Lelit Elizabeth PL92T; excludes Elizabeth3 PL92T3",
+  "verifiedAt": "2026-11-02",
+  "verificationMethod": "Read public YouTube watch-page HTML. Titles, author, channelId, publishDate, uploadDate and lengthSeconds were extracted from the returned page. Chapter timestamps below were verified against creator descriptions returned by web search. No authentication or Amazon API was used.",
+  "coverage": "Four curated reviews from three creators. Coffee Kev Part 1 and Part 2 are one creator's complementary perspective; they are not two independent tests. This is not a claim to include every review online.",
+  "videos": [
+    {
+      "id": "qw1MtYtwIrs",
+      "url": "https://www.youtube.com/watch?v=qw1MtYtwIrs",
+      "title": "Dual Boiler? Look no Further",
+      "creator": "Lance Hedrick",
+      "channelUrl": "https://www.youtube.com/channel/UCR2_8uHyWcTSV6iIw6BN4rg",
+      "published": "2025-05-19T08:43:56-07:00",
+      "uploadDate": "2025-05-19T08:43:56-07:00",
+      "duration": "PT1364S",
+      "sourceType": "reviewer",
+      "summary": "An independent overview of the established PL92T's controls, steaming and value. The creator's judgments belong to his setup; Coffeedant did not reproduce the testing.",
+      "chapters": [],
+      "chapterVerification": "No chapter timestamps verified for this record."
+    },
+    {
+      "id": "AfNiz8V9O5g",
+      "url": "https://www.youtube.com/watch?v=AfNiz8V9O5g",
+      "title": "Lelit Elizabeth - Most Underrated Dual Boiler Espresso Machine?",
+      "creator": "Coffee Kev",
+      "channelUrl": "https://www.youtube.com/channel/UCJ8SVN2eg7v82-1qr2eNO6A",
+      "published": "2025-08-24T09:30:03-07:00",
+      "uploadDate": "2025-08-24T09:30:03-07:00",
+      "duration": "PT983S",
+      "sourceType": "reviewer",
+      "summary": "A firsthand established-PL92T review with test results, steam-wand discussion, controls, and Sage/Breville comparison. The creator promotes his coffee business and discount/affiliate offers.",
+      "chapters": [
+        { "label": "Specifications", "startSeconds": 36 },
+        { "label": "First impressions", "startSeconds": 192 },
+        { "label": "Test results", "startSeconds": 283 },
+        { "label": "LCC controls", "startSeconds": 410 },
+        { "label": "Preinfusion modes", "startSeconds": 465 },
+        { "label": "Shot buttons", "startSeconds": 542 },
+        { "label": "Espresso quality", "startSeconds": 578 },
+        { "label": "Steam wand", "startSeconds": 640 },
+        { "label": "Hot water", "startSeconds": 658 },
+        { "label": "Sage/Breville comparison", "startSeconds": 684 },
+        { "label": "Who it is for", "startSeconds": 731 },
+        { "label": "Likes", "startSeconds": 753 },
+        { "label": "Dislikes", "startSeconds": 785 }
+      ],
+      "chapterVerification": "Creator's published description, verified through YouTube web-search result."
+    },
+    {
+      "id": "bUiW9or4KjY",
+      "url": "https://www.youtube.com/watch?v=bUiW9or4KjY",
+      "title": "Lelit Elizabeth Review Part 2. Advanced LCC, Preinfusion Modes & More.",
+      "creator": "Coffee Kev",
+      "channelUrl": "https://www.youtube.com/channel/UCJ8SVN2eg7v82-1qr2eNO6A",
+      "published": "2025-09-07T09:30:12-07:00",
+      "uploadDate": "2025-09-07T09:30:12-07:00",
+      "duration": "PT978S",
+      "sourceType": "reviewer",
+      "summary": "A complementary PL92T controls deep dive covering preinfusion, hot water, LCC, OPV, timed buttons and reserve mode. This is the same creator as the overview, not another independent test.",
+      "chapters": [
+        { "label": "Preinfusion modes", "startSeconds": 65 },
+        { "label": "Hot water", "startSeconds": 320 },
+        { "label": "Group purge", "startSeconds": 381 },
+        { "label": "Advanced LCC menu", "startSeconds": 444 },
+        { "label": "OPV discussion", "startSeconds": 547 },
+        { "label": "Shot buttons", "startSeconds": 656 },
+        { "label": "App control discussion", "startSeconds": 719 },
+        { "label": "Reserve mode", "startSeconds": 746 },
+        { "label": "Alternatives", "startSeconds": 766 }
+      ],
+      "chapterVerification": "Creator's published description, verified through YouTube web-search result."
+    },
+    {
+      "id": "alpRn3vlMBs",
+      "url": "https://www.youtube.com/watch?v=alpRn3vlMBs",
+      "title": "Lelit Elizabeth PL92T Espressomaschine - Bester Einstiegs-Dualboiler?!",
+      "creator": "Kaffeemacher",
+      "channelUrl": "https://www.youtube.com/channel/UCWftIqesWS2AQBDhpTg8CTg",
+      "published": "2023-01-01T07:00:07-08:00",
+      "uploadDate": "2023-01-01T07:00:07-08:00",
+      "duration": "PT2758S",
+      "sourceType": "reviewer",
+      "language": "de",
+      "summary": "The original German PL92T test video. The accompanying article's September 2026 retest revises parts of the older assessment; use the written update for the current attributed thermal findings.",
+      "relatedArticle": "https://kaffeemacher.de/en/blogs/kaffeewissen/lelit-elizabeth",
+      "dateCaution": "The written article refers to testing in 2022, but the public watch page's actual upload/publish date is January 1, 2023. Do not use a fabricated 2022 upload date.",
+      "chapters": [],
+      "chapterVerification": "No chapter timestamps verified for this record."
+    }
+  ],
+  "measurementBoundary": "No numerical test results are inferred solely from titles or video metadata. Attribute quantitative milk results to Coffee Kev's written review and thermal retest results to Kaffeemacher's written article, with sample/protocol limits. No controlled established-PL92T dynamic brew-pressure trace was verified."
+}
