@@ -3325,6 +3325,48 @@ approved Dutch dosing URL. NL has 12,837 translated / 43,759 pending; DE has
 hourly continuation and source-change automation remain active; full editions
 remain incomplete.
 
+### Direct batch 64: complete small-machine guide (2026-11-02)
+
+The complete small espresso machine guide is directly translated into NL/DE/FR.
+It retains all 6,092 source words, 163 authored paragraphs, eight visible/schema
+FAQ answers and four complete model schematics. Restoring the three native initial
+Finder cards produces 172 rendered paragraphs per guide. This is the full article,
+including milk/reset procedures, source-specific owner accounts, evidence limits,
+regional identities, historical price records and model-generation distinctions.
+
+Before freezing, the English statement that three picks need a separate grinder
+was corrected to all four. The actual four configured picks and independently
+compiled Finder records all specify `grinder: separate`: Bambino Plus, original
+Profitec GO, Anna PL41TEM and Steel Uno PID. No product specification or measured
+claim was inferred. Every regional text follows that corrected current source.
+
+The full snapshot freezes 935 page/shared slots; the missing-work snapshot freezes
+117 slots. The authored task supplies 102 distinct three-language strings and
+explicitly preserves two model/SKU-only strings. Exact reuse across source kinds
+adds 119 current entries per edition, with zero previous wording changes. EU
+PL41TEM remains distinct from US PESAN06 and older Anna controls; original GO
+remains distinct from GO 2.0; Steel Uno remains a single-thermoblock system rather
+than a Steel Duo. No historical US/EU price becomes a converted or verified local
+offer. The stable DE `/espresso-maschine/klein/` route is retained; NL adds
+`/espressomachines/klein/` and FR adds `/machines-expresso/compactes/`.
+
+Nine full preview comparisons cover the guide, machine hub and compact grinder
+guide. All text, metadata, structured answers, images/SVG geometry, accessible
+labels, source links and runtime UI match the complete current source projection.
+The actual compiled schematic handler passes 24 native-label/pressed/hidden-state
+interactions across the three editions. All 210 localization and 20 SEO tests
+pass, together with analytics, all 35 bean reviews and the 151-machine/seven-grinder
+Finder validators. The final full production bundle passes with no publication
+deferrals, another nine complete page comparisons and 24 compiled schematic
+interactions. Live evidence is recorded in the batch PR after deployment.
+
+Inventory remains 660 pages / 56,596 segments. Ready selection is 111 indexable
+pages plus 404 per edition, preserving all 110 old live routes and the approved
+Dutch dosing URL. NL has 12,956 translated / 43,640 pending; DE has 13,008 /
+43,588 and FR has 12,978 / 43,618. Finder pending is zero. There are still 163
+non-watch and 385 watch pages incomplete. Incremental publication and the hourly
+continuation remain active; no full edition is complete.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
