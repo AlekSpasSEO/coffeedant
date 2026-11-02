@@ -3203,24 +3203,35 @@ the adjacent `-current.source.json` pins the changed full-page fingerprint after
 verifying all 90 original slot IDs, kinds, source strings and indices unchanged.
 Two redundant question IDs leave the current inventory; cache evidence is kept.
 
-All 35 bean reviews and the complete grinder-free guide pass 108 native preview
-comparisons across the three editions. Per edition these cover 64,225 source
-words, 1,851 authored paragraphs and 173 FAQ answers, including complete metadata,
+The independent moka-pot guide from `749bec8` is preserved through a normal
+merge. Its four new hub strings are directly translated in a separate frozen
+`moka-hub-update-batch-61` task, completing the current hub without publishing
+the unfinished guide. Its hub link opens the English source with the existing
+native edition notice. Together the imports add 94 entries in NL/FR and 34 in DE;
+the 46 selected German corrections remain the only prior wording changes.
+
+All 35 bean reviews, the complete grinder-free guide and the current coffee-bean
+hub pass 111 native preview comparisons across the three editions. Per edition
+these cover 67,006 source words, 1,942 authored paragraphs and 173 FAQ answers,
+including complete metadata,
 structured data, links, accessible labels, image/SVG geometry, compiled scripts
 and runtime interface values. The guide's three initial Finder cards bring the
-rendered paragraph total to 1,860. Every previously ready page remains ready,
+rendered paragraph total to 1,951. Every previously ready page remains ready,
 including `/journal/espresso-doseren/`.
 
 All 210 localization and 20 SEO tests pass. Analytics, all 35 bean reviews and
 the 151-machine / seven-grinder Finder validators also pass. The complete
-production bundle and actual compiled guide controls are checked before merge;
-live manifests, sitemaps and reciprocal English links are recorded in the PR.
+production bundle passes another 111 full-page comparisons after SEO generation,
+with generated image captions checked against native visible captions or alt
+text. The actual compiled guide controls pass 18 interactions across the three
+editions. Live manifests, sitemaps and reciprocal English links are recorded in
+the PR after deployment.
 The ready-page selection contains 108 indexable pages plus 404 per edition,
 preserving all 107 previously published routes and adding the grinder-free guide.
 
-Inventory is 659 pages / 56,504 segments. NL has 12,600 translated / 43,904 pending;
-DE/FR each have 12,622 / 43,882. Finder pending is zero, and no bean-review revision
-remains pending. There are still 165 non-watch and 385 watch pages incomplete.
+Inventory is 660 pages / 56,596 segments. NL has 12,604 translated / 43,992 pending;
+DE/FR each have 12,626 / 43,970. Finder pending is zero, and no bean-review revision
+remains pending. There are still 166 non-watch and 385 watch pages incomplete.
 Ready-pages publication and hourly continuation remain enabled. Full editions
 remain incomplete; completing the current bean reviews is not full-site completion.
 
