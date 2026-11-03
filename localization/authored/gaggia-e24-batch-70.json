@@ -1,0 +1,485 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "gaggia-e24-batch-70.source.json",
+  "snapshotHash": "9910fa906b42d2b055ff0f7a77f2347356fb9ae314368941c04438746ec0e76a",
+  "preserveSource": [
+    21
+  ],
+  "routes": {
+    "nl": {
+      "/espresso-machine/gaggia-classic-evo/": "/espressomachines/gaggia-classic-e24/",
+      "/espresso-machine/gaggia-classic-evo/video/whole-latte-love/": "/espressomachines/gaggia-classic-e24/video/whole-latte-love/"
+    },
+    "de": {
+      "/espresso-machine/gaggia-classic-evo/": "/espresso-maschine/gaggia-classic-e24/",
+      "/espresso-machine/gaggia-classic-evo/video/whole-latte-love/": "/espresso-maschine/gaggia-classic-e24/video/whole-latte-love/"
+    },
+    "fr": {
+      "/espresso-machine/gaggia-classic-evo/": "/machine-a-espresso/gaggia-classic-evo/",
+      "/espresso-machine/gaggia-classic-evo/video/whole-latte-love/": "/machine-a-espresso/gaggia-classic-evo/video/whole-latte-love/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "De video en meningen zijn van Whole Latte Love. Coffeedant plaatst dit perspectief naast onze geschreven review.",
+      "de": "Video und Meinungen stammen von Whole Latte Love. Coffeedant stellt diese Perspektive neben unseren schriftlichen Testbericht.",
+      "fr": "La vidéo et les opinions appartiennent à Whole Latte Love. Coffeedant présente ce point de vue en complément de notre analyse écrite."
+    },
+    "1": {
+      "nl": "Video door Whole Latte Love",
+      "de": "Video von Whole Latte Love",
+      "fr": "Vidéo par Whole Latte Love"
+    },
+    "2": {
+      "nl": "$549 als actuele Amerikaanse referentie",
+      "de": "$549 als aktuelle US-Referenz",
+      "fr": "$549 comme référence américaine actuelle"
+    },
+    "3": {
+      "nl": "$1,699 als actuele Amerikaanse referentie",
+      "de": "$1,699 als aktuelle US-Referenz",
+      "fr": "$1,699 comme référence américaine actuelle"
+    },
+    "4": {
+      "nl": "Portafilter van 58 mm plus losse molen",
+      "de": "58-mm-Siebträger plus separate Mühle",
+      "fr": "Porte-filtre de 58 mm et moulin séparé"
+    },
+    "5": {
+      "nl": "8 bij 9.5 bij 14.2 in, in de volgorde van de officiële productvermelding",
+      "de": "8 mal 9.5 mal 14.2 in in der Reihenfolge der offiziellen Produktangabe",
+      "fr": "8 par 9.5 par 14.2 in, dans l’ordre de la fiche officielle"
+    },
+    "6": {
+      "nl": "Eén loodvrije messing boiler met dubbele functie",
+      "de": "Einzelner bleifreier Messingboiler für Brühwasser und Dampf",
+      "fr": "Chaudière unique en laiton sans plomb à double usage"
+    },
+    "7": {
+      "nl": "Portafilter van 58 mm; losse molen",
+      "de": "58-mm-Siebträger; separate Mühle",
+      "fr": "Porte-filtre de 58 mm ; moulin séparé"
+    },
+    "8": {
+      "nl": "Traditioneel compact leerplatform",
+      "de": "Traditionelle kompakte Lernplattform",
+      "fr": "Plateforme traditionnelle compacte pour apprendre"
+    },
+    "9": {
+      "nl": "10.2 bij 16.5 bij 16.7 in",
+      "de": "10.2 mal 16.5 mal 16.7 in",
+      "fr": "10.2 par 16.5 par 16.7 in"
+    },
+    "10": {
+      "nl": "Messing zetboiler plus roestvrijstalen stoomboiler",
+      "de": "Messing-Brühboiler plus Edelstahl-Dampfboiler",
+      "fr": "Chaudière d’extraction en laiton et chaudière vapeur en acier inoxydable"
+    },
+    "11": {
+      "nl": "Gelijktijdig stomen met een stoompijpje in professionele stijl",
+      "de": "Gleichzeitiges Dampfen mit einer Dampflanze im professionellen Stil",
+      "fr": "Buse de style professionnel permettant la vapeur simultanée"
+    },
+    "12": {
+      "nl": "Prosumer-werkwijze voor meer drankjes achter elkaar",
+      "de": "Prosumer-Arbeitsablauf für höheren Durchsatz",
+      "fr": "Préparation de niveau prosumer pour un débit supérieur"
+    },
+    "13": {
+      "nl": "Classic, Classic Pro, 2023 Evo, E24 en GT zijn verschillende keuzes qua hardware. Controleer het typeplaatje, de boiler en de regio in plaats van te vertrouwen op een verkorte producttitel.",
+      "de": "Classic, Classic Pro, 2023 Evo, E24 und GT sind unterschiedliche Hardwareentscheidungen. Prüfen Sie Typenschild, Boiler und Region, statt sich auf einen verkürzten Angebotstitel zu verlassen.",
+      "fr": "Classic, Classic Pro, 2023 Evo, E24 et GT correspondent à des choix matériels différents. Vérifiez la plaque signalétique, la chaudière et la région plutôt que de vous fier à un titre d’annonce abrégé."
+    },
+    "14": {
+      "nl": "Huidig model met één boiler",
+      "de": "Aktuelles Modell mit einem Boiler",
+      "fr": "Modèle actuel à chaudière unique"
+    },
+    "15": {
+      "nl": "Kies het huidige model met messing boiler wanneer een compact traditioneel platform en budget voor een molen belangrijk zijn.",
+      "de": "Wählen Sie das aktuelle Modell mit Messingboiler, wenn eine kompakte traditionelle Plattform und das Mühlenbudget zählen.",
+      "fr": "Choisissez le modèle actuel à chaudière en laiton lorsqu’une plateforme traditionnelle compacte et le budget du moulin comptent."
+    },
+    "16": {
+      "nl": "Lees de E24-review",
+      "de": "Den Testbericht zur E24 lesen",
+      "fr": "Lire le test de l’E24"
+    },
+    "17": {
+      "nl": "Stap naar dubbele boilers",
+      "de": "Aufstieg zu zwei Boilern",
+      "fr": "Passage à deux chaudières"
+    },
+    "18": {
+      "nl": "Kies dubbele boilers, PID-regelaars en pre-infusie wanneer meerdere melkdranken achter elkaar en temperatuurcontrole de stap rechtvaardigen.",
+      "de": "Wählen Sie zwei Boiler, PID-Regler und Präinfusion, wenn mehrere Milchgetränke hintereinander und Temperaturkontrolle den Sprung rechtfertigen.",
+      "fr": "Choisissez deux chaudières, des PID et la préinfusion lorsque les séries de boissons lactées et le contrôle de la température justifient le passage."
+    },
+    "19": {
+      "nl": "Lees de Classic GT-review",
+      "de": "Den Testbericht zur Classic GT lesen",
+      "fr": "Lire le test de la Classic GT"
+    },
+    "20": {
+      "nl": "Snellere route met een compact keukenapparaat",
+      "de": "Schnellere Haushaltsgeräte-Alternative",
+      "fr": "Alternative plus rapide avec un appareil électroménager"
+    },
+    "22": {
+      "nl": "Kies compacte, snelle opwarming wanneer gemak belangrijker is dan het Classic-platform.",
+      "de": "Wählen Sie kompakte Bauweise und schnelles Aufheizen, wenn Komfort wichtiger ist als die Classic-Plattform.",
+      "fr": "Choisissez un appareil compact à chauffe rapide lorsque le confort compte davantage que la plateforme Classic."
+    },
+    "23": {
+      "nl": "Lees de Bambino-review",
+      "de": "Den Testbericht zur Bambino lesen",
+      "fr": "Lire le test de la Bambino"
+    },
+    "24": {
+      "nl": "Eén boiler met PID",
+      "de": "Ein Boiler mit PID",
+      "fr": "Chaudière unique avec PID"
+    },
+    "25": {
+      "nl": "Kies een PID-regelaar en drukweergave af fabriek zonder over te stappen op dubbele boilers.",
+      "de": "Wählen Sie einen werkseitigen PID-Regler und eine Druckanzeige, ohne auf zwei Boiler umzusteigen.",
+      "fr": "Choisissez un PID et un affichage de pression d’origine sans passer à deux chaudières."
+    },
+    "26": {
+      "nl": "Welke schoonmaakinstructies gelden voor deze generatie?",
+      "de": "Welche Reinigungsanleitung gilt für diese Generation?",
+      "fr": "Quelles consignes de nettoyage s’appliquent à cette génération ?"
+    },
+    "27": {
+      "nl": "Producthandleidingen van Gaggia North America",
+      "de": "Produkthandbücher von Gaggia North America",
+      "fr": "Manuels des produits Gaggia North America"
+    },
+    "28": {
+      "nl": "Officiële regionale index met handleidingen en ondersteuning, gebruikt om huidige en oudere uitvoeringen van elkaar te onderscheiden.",
+      "de": "Offizielles regionales Handbuch- und Supportverzeichnis zur Unterscheidung aktueller und älterer Revisionen.",
+      "fr": "Index régional officiel des manuels et de l’assistance, utilisé pour distinguer les révisions actuelles des anciennes."
+    },
+    "29": {
+      "nl": "Het assortiment handmatige machines van Gaggia",
+      "de": "Das manuelle Maschinensortiment von Gaggia",
+      "fr": "La gamme de machines manuelles Gaggia"
+    },
+    "30": {
+      "nl": "Officiële actuele context van de productfamilie voor Classic-generaties en verwante handmatige machines.",
+      "de": "Offizieller aktueller Familienkontext für Classic-Generationen und verwandte manuelle Maschinen.",
+      "fr": "Contexte officiel actuel de la famille pour les générations Classic et les machines manuelles voisines."
+    },
+    "31": {
+      "nl": "Actuele productpagina van de Gaggia Classic Pro E24",
+      "de": "Aktuelle Produktseite der Gaggia Classic Pro E24",
+      "fr": "Page produit actuelle de la Gaggia Classic Pro E24"
+    },
+    "32": {
+      "nl": "Context over de huidige Noord-Amerikaanse opvolger; geen bewijs dat een oudere Evo de messing boiler van de E24 heeft.",
+      "de": "Kontext zum aktuellen nordamerikanischen Nachfolger; kein Beleg dafür, dass eine ältere Evo den Messingboiler der E24 besitzt.",
+      "fr": "Contexte sur le successeur nord-américain actuel ; cela ne prouve pas qu’une ancienne Evo possède la chaudière en laiton de l’E24."
+    },
+    "33": {
+      "nl": "Onafhankelijke achtergrond over watersamenstelling; voor de veiligheid van de machine is de handleiding van het exacte Gaggia-model bepalend.",
+      "de": "Unabhängiger Hintergrund zur Wasserzusammensetzung; für die Maschinensicherheit ist das Handbuch des genauen Gaggia-Modells maßgeblich.",
+      "fr": "Contexte indépendant sur la composition de l’eau ; le manuel du modèle Gaggia exact fait autorité pour la sécurité de la machine."
+    },
+    "35": {
+      "nl": "Gaggia Classic E24-review: traditie met een messing boiler voor $549 | Coffeedant",
+      "de": "Gaggia Classic E24 im Test: Messingboiler-Tradition für $549 | Coffeedant",
+      "fr": "Test de la Gaggia Classic E24 : tradition à chaudière en laiton pour $549 | Coffeedant"
+    },
+    "36": {
+      "nl": "Een review op basis van bronnenonderzoek van de Gaggia Classic Pro E24 over de enkele loodvrije messing boiler, het portafilter van 58 mm, de kalibratie op negen bar, het stoompijpje met twee gaten, de prijs van $549 en de werkwijze.",
+      "de": "Eine recherchegestützte Bewertung der Gaggia Classic Pro E24 mit einzelnem bleifreiem Messingboiler, 58-mm-Siebträger, Neun-Bar-Kalibrierung, Zweiloch-Dampfdüse, dem Preis von $549 und dem Arbeitsablauf.",
+      "fr": "Une évaluation de la Gaggia Classic Pro E24 fondée sur des recherches, couvrant sa chaudière unique en laiton sans plomb, son porte-filtre de 58 mm, son étalonnage à neuf bars, sa buse à deux trous, son prix de $549 et son utilisation."
+    },
+    "38": {
+      "nl": "Gaggia Classic E24-review: traditie met een messing boiler voor $549",
+      "de": "Gaggia Classic E24 im Test: Messingboiler-Tradition für $549",
+      "fr": "Test de la Gaggia Classic E24 : tradition à chaudière en laiton pour $549"
+    },
+    "39": {
+      "nl": "Voor thuisbarista’s die een compact, repareerbaar platform van 58 mm met messing boiler willen dat budget overlaat voor een molen",
+      "de": "Für Heimbaristas, die eine kompakte, reparierbare 58-mm-Plattform mit Messingboiler möchten, die Budget für eine Mühle lässt",
+      "fr": "Pour les baristas à domicile qui veulent une plateforme compacte et réparable de 58 mm à chaudière en laiton, préservant le budget du moulin"
+    },
+    "40": {
+      "nl": "Rechtstreekse prijs van Gaggia North America; controleer generatie, boiler, spanning, staat en garantie",
+      "de": "Direktpreis von Gaggia North America; Generation, Boiler, Spannung, Zustand und Garantie prüfen",
+      "fr": "Prix direct de Gaggia North America ; vérifier la génération, la chaudière, la tension, l’état et la garantie"
+    },
+    "41": {
+      "nl": "Kies voor een compact, repareerbaar platform van 58 mm met messing boiler dat budget overlaat voor een molen.",
+      "de": "Wählen Sie sie als kompakte, reparierbare 58-mm-Plattform mit Messingboiler, die Budget für eine Mühle lässt.",
+      "fr": "À choisir pour une plateforme compacte et réparable de 58 mm à chaudière en laiton qui préserve le budget du moulin."
+    },
+    "42": {
+      "nl": "Uitneembaar reservoir van 72 oz, lekbak van 16 oz en een opgegeven bereik voor filterbakjes van 7-18 g",
+      "de": "Herausnehmbarer 72-oz-Tank, 16-oz-Abtropfschale und angegebener Siebbereich von 7-18 g",
+      "fr": "Réservoir amovible de 72 oz, bac d’égouttage de 16 oz et plage annoncée de 7-18 g pour les paniers"
+    },
+    "43": {
+      "nl": "8 B bij 9.5 D bij 14.2 H in; 19 lb",
+      "de": "8 B mal 9.5 T mal 14.2 H in; 19 lb",
+      "fr": "8 l par 9.5 P par 14.2 H in ; 19 lb"
+    },
+    "44": {
+      "nl": "Een koper die waarde hecht aan een compact, repareerbaar platform van 58 mm met messing boiler dat budget overlaat voor een molen, en accepteert dat er geen PID, shottimer of gelijktijdige stoom is, waardoor consistentie afhangt van routine en de kwaliteit van de molen",
+      "de": "Ein Käufer, der eine kompakte, reparierbare 58-mm-Plattform mit Messingboiler schätzt, die Budget für eine Mühle lässt, und akzeptiert, dass es keinen PID-Regler, Shot-Timer oder gleichzeitigen Dampf gibt, sodass die Konstanz von Routine und Mühlenqualität abhängt",
+      "fr": "Un acheteur qui apprécie une plateforme compacte et réparable de 58 mm à chaudière en laiton préservant le budget du moulin, et accepte l’absence de PID, de minuterie d’extraction et de vapeur simultanée, la régularité dépendant donc de la routine et de la qualité du moulin"
+    },
+    "45": {
+      "nl": "Volledige review van de Gaggia Classic Pro E24",
+      "de": "Vollständiger Testbericht zur Gaggia Classic Pro E24",
+      "fr": "Test complet de la Gaggia Classic Pro E24"
+    },
+    "46": {
+      "nl": "Eén totaalscore is alleen nuttig als je kunt zien waarop deze is gebaseerd. De Gaggia Classic Pro E24 krijgt",
+      "de": "Eine einzelne Gesamtnote ist nur nützlich, wenn Sie ihre Grundlage erkennen können. Die Gaggia Classic Pro E24 erhält",
+      "fr": "Une note globale n’est utile que si l’on peut voir ce qui la justifie. La Gaggia Classic Pro E24 obtient"
+    },
+    "47": {
+      "nl": "Voor $549.00 is een vergelijking van de complete koffieopstelling nodig.",
+      "de": "Bei $549.00 ist ein Vergleich der gesamten Kaffeestation nötig.",
+      "fr": "À $549.00, une comparaison de l’installation complète s’impose."
+    },
+    "48": {
+      "nl": "Classic Pro E24: de aankoopbeslissing",
+      "de": "Classic Pro E24: die Kaufentscheidung",
+      "fr": "Classic Pro E24 : la décision d’achat"
+    },
+    "49": {
+      "nl": "De E24 vernieuwt het boilermateriaal van de Classic, maar behoudt het compacte handmatige formaat dat de machine kenmerkt. De huidige Noord-Amerikaanse versie combineert een messing boiler met een portafilter van 58 mm, kalibratie op negen bar, mechanische schakelaars en een traditioneel stoompijpje. De koper krijgt een vertrouwd assortiment accessoires en houdt binnen het budget voor de koffieopstelling ruimte over voor een molen, maar krijgt geen PID-regelaar of shottimer af fabriek om de routine te begeleiden. Koffiezetten en stomen gebruiken ook na elkaar dezelfde boiler. De aantrekkingskracht is een onderhoudbaar traditioneel platform voor een eigenaar die de timing van de temperatuur en de voorbereiding wil leren, in plaats van een eerste machine met elektronische begeleiding.",
+      "de": "Die E24 erneuert das Boilermaterial der Classic und behält zugleich das kompakte manuelle Format bei, das die Maschine ausmacht. Die aktuelle nordamerikanische Version kombiniert einen Messingboiler mit einem 58-mm-Siebträger, Neun-Bar-Kalibrierung, mechanischen Schaltern und einer herkömmlichen Dampflanze. Käufer erhalten einen vertrauten Zubehörweg und behalten im Stationsbudget Spielraum für eine Mühle, bekommen aber weder einen werkseitigen PID-Regler noch einen Shot-Timer zur Steuerung des Ablaufs. Brühen und Dampfen nutzen außerdem nacheinander denselben Boiler. Der Reiz liegt in einer wartungsfreundlichen traditionellen Plattform für Besitzer, die Temperaturtiming und Vorbereitung erlernen möchten, statt eine elektronisch angeleitete erste Maschine zu suchen.",
+      "fr": "L’E24 renouvelle le matériau de la chaudière de la Classic tout en conservant le format manuel compact qui définit la machine. La version nord-américaine actuelle associe une chaudière en laiton à un porte-filtre de 58 mm, un étalonnage à neuf bars, des interrupteurs mécaniques et une buse vapeur classique. Elle offre à l’acheteur un choix d’accessoires familier et laisse de la place dans le budget de l’installation pour un moulin, mais ne fournit ni PID ni minuterie d’extraction d’origine pour guider la routine. L’extraction et la vapeur utilisent aussi la même chaudière successivement. Son attrait est celui d’une plateforme traditionnelle réparable pour qui souhaite apprendre la gestion de la température et la préparation, plutôt que d’une première machine guidée par l’électronique."
+    },
+    "50": {
+      "nl": "De Classic Pro E24 installeren",
+      "de": "Die Classic Pro E24 einrichten",
+      "fr": "Installer la Classic Pro E24"
+    },
+    "51": {
+      "nl": "één loodvrije messing boiler van 3.5 oz voor koffiezetten en stomen, met ingebouwd verwarmingselement en thermostaatregeling.",
+      "de": "einzelner bleifreier 3.5-oz-Messingboiler für Brühwasser und Dampf mit eingebautem Heizelement und Thermostatregelung.",
+      "fr": "chaudière unique en laiton sans plomb de 3.5 oz à double usage, avec élément chauffant intégré et régulation par thermostat."
+    },
+    "52": {
+      "nl": "Deze pagina beoordeelt de huidige Noord-Amerikaanse E24 met een loodvrije messing boiler. Controleer die beschrijving op de aangeboden machine in plaats van “Classic Evo” als volledige identiteit te accepteren. Zet de molen en weegschaal naast het grondvlak van 8 bij 9.5 in voordat je bepaalt hoeveel aanrechtruimte de compacte machine bespaart.",
+      "de": "Diese Seite bewertet die aktuelle nordamerikanische E24 mit bleifreiem Messingboiler. Bestätigen Sie diese Beschreibung an der angebotenen Maschine, statt „Classic Evo“ als vollständige Identität zu akzeptieren. Stellen Sie Mühle und Waage neben die Grundfläche von 8 mal 9.5 in, bevor Sie entscheiden, wie viel Arbeitsfläche der kompakte Brüher spart.",
+      "fr": "Cette page évalue l’E24 nord-américaine actuelle à chaudière en laiton sans plomb. Vérifiez cette description sur la machine proposée au lieu d’accepter « Classic Evo » comme identité complète. Placez le moulin et la balance à côté de l’emprise de 8 par 9.5 in avant de déterminer combien de place cette machine compacte fait gagner sur le plan de travail."
+    },
+    "53": {
+      "nl": "Stoompijpje met twee gaten in professionele stijl op de Gaggia Classic-familie",
+      "de": "Dampflanze mit Zweilochdüse im professionellen Stil an der Gaggia Classic-Familie",
+      "fr": "Buse vapeur de style professionnel à deux trous sur la famille Gaggia Classic"
+    },
+    "54": {
+      "nl": "Het detail van het stoompijpje toont het handmatige stoomtraject met twee gaten van de huidige E24, waarbij melktextuur, positie van het kannetje en direct schoonmaken aan de gebruiker worden overgelaten.",
+      "de": "Das Detail der Dampflanze zeigt den manuellen Dampfweg mit Zweilochdüse der aktuellen E24; Textur, Kännchenposition und sofortige Reinigung bleiben dem Bediener überlassen.",
+      "fr": "Le détail de la buse montre le circuit vapeur manuel à deux trous de l’E24 actuelle, la texture, la position du pichet et le nettoyage immédiat restant à la charge de l’utilisateur."
+    },
+    "55": {
+      "nl": "Productpagina van de Gaggia North America Classic Pro E24",
+      "de": "Produktseite der Gaggia North America Classic Pro E24",
+      "fr": "Page produit Gaggia North America Classic Pro E24"
+    },
+    "56": {
+      "nl": "Bekijk wat er nog meer naast de Classic Pro E24 past.",
+      "de": "Sehen Sie, was neben die Classic Pro E24 passt.",
+      "fr": "Découvrez ce qui peut aussi trouver sa place à côté de la Classic Pro E24."
+    },
+    "57": {
+      "nl": "De E24 combineert de zetgroep van 58 mm met een op negen bar gekalibreerde OPV en een driewegmagneetventiel. Er is geen PID-regelaar of shottimer af fabriek. Houd de opwarm- en schakelroutine constant en gebruik daarna een externe weegschaal en timer om het effect van de molen te leren kennen; de messing boiler automatiseert de controle over het recept niet.",
+      "de": "Die E24 kombiniert die 58-mm-Brühgruppe mit einer auf neun Bar kalibrierten OPV und einem Dreiwege-Magnetventil. Sie bietet weder einen werkseitigen PID-Regler noch einen Shot-Timer. Halten Sie Aufwärm- und Schaltroutine konstant und nutzen Sie dann eine externe Waage und einen Timer, um den Einfluss der Mühle kennenzulernen; der Messingboiler automatisiert die Rezeptkontrolle nicht.",
+      "fr": "L’E24 associe le groupe de 58 mm à une OPV étalonnée à neuf bars et à une électrovanne à trois voies. Elle ne propose ni PID ni minuterie d’extraction d’origine. Gardez une routine de préchauffage et de commutation constante, puis utilisez une balance et un chronomètre externes pour comprendre l’effet du moulin ; la chaudière en laiton n’automatise pas le contrôle de la recette."
+    },
+    "58": {
+      "nl": "Gaggia verkoopt de messing E24-boiler voor oudere Classic-, Pro- en Evo Pro-machines. Een ombouw is geen E24 af fabriek: controleer het typeplaatje en de onderhoudsfactuur voordat je tweedehands koopt.",
+      "de": "Gaggia verkauft den E24-Messingboiler für ältere Classic-, Pro- und Evo Pro-Maschinen. Ein Umbau ist keine werkseitige E24: Prüfen Sie vor dem Gebrauchtkauf Typenschild und Servicerechnung.",
+      "fr": "Gaggia vend la chaudière en laiton de l’E24 pour les anciennes machines Classic, Pro et Evo Pro. Une transformation n’est pas une E24 d’usine : vérifiez la plaque signalétique et la facture d’intervention avant un achat d’occasion."
+    },
+    "59": {
+      "nl": "Eén loodvrije messing boiler van 3.5 oz voor koffiezetten en stomen, met ingebouwd verwarmingselement en thermostaatregeling. 8 B bij 9.5 D bij 14.2 H in; 19 lb.",
+      "de": "Einzelner bleifreier 3.5-oz-Messingboiler für Brühwasser und Dampf mit eingebautem Heizelement und Thermostatregelung. 8 B mal 9.5 T mal 14.2 H in; 19 lb.",
+      "fr": "Chaudière unique en laiton sans plomb de 3.5 oz à double usage, avec élément chauffant intégré et régulation par thermostat. 8 l par 9.5 P par 14.2 H in ; 19 lb."
+    },
+    "60": {
+      "nl": "Het driewegmagneetventiel vormt de relevante hardwarecontext voor de schoonmaakroutine van de E24; gebruik de eigen handleiding voor de toegestane stappen voor terugspoelen en onderhoud van de zetgroep. Waterbehandeling en het direct schoonmaken van het stoompijpje blijven ook met een messing boiler belangrijk. Interne aanpassingen vragen een andere inzet dan het reguliere onderhoud door de eigenaar.",
+      "de": "Das Dreiwege-Magnetventil bildet den relevanten Hardwarekontext für die Reinigungsroutine der E24; nutzen Sie ihr eigenes Handbuch für die zulässigen Rückspül- und Brühgruppenpflegeschritte. Wasseraufbereitung und sofortige Reinigung der Dampflanze bleiben auch bei einem Messingboiler wichtig. Interne Modifikationen sind eine andere Verpflichtung als die routinemäßige Pflege durch Besitzer.",
+      "fr": "L’électrovanne à trois voies constitue le contexte matériel pertinent pour le nettoyage de l’E24 ; utilisez son propre manuel pour les opérations de rinçage à contre-courant et d’entretien du groupe autorisées. Le traitement de l’eau et le nettoyage immédiat de la buse restent importants avec une chaudière en laiton. Les modifications internes représentent un engagement différent de l’entretien courant par le propriétaire."
+    },
+    "61": {
+      "nl": "Mechanische tuimelschakelaars op de Gaggia Classic Pro E24",
+      "de": "Mechanische Wippschalter an der Gaggia Classic Pro E24",
+      "fr": "Interrupteurs mécaniques à bascule sur la Gaggia Classic Pro E24"
+    },
+    "62": {
+      "nl": "De drie tuimelschakelaars maken de bewust eenvoudige werkwijze voor koffiezetten, stomen en heet water zichtbaar, zonder PID-display of shottimer.",
+      "de": "Die drei Wippschalter verdeutlichen den bewusst einfachen Ablauf für Brühen, Dampf und Heißwasser ohne PID-Anzeige oder Shot-Timer.",
+      "fr": "Les trois interrupteurs à bascule rendent visible le fonctionnement volontairement simple pour l’extraction, la vapeur et l’eau chaude, sans affichage PID ni minuterie d’extraction."
+    },
+    "63": {
+      "nl": "De rechtstreekse prijs van Gaggia North America is vastgelegd als $549.00: huidige aanbieding voor een nieuwe Noord-Amerikaanse E24; kleur, belasting, voorraad en garantie variëren",
+      "de": "Der Direktpreis von Gaggia North America wurde mit $549.00 erfasst: aktuelles Angebot für eine neue nordamerikanische E24; Farbe, Steuern, Lagerbestand und Garantie variieren",
+      "fr": "Le prix direct de Gaggia North America a été relevé à $549.00 : offre actuelle pour une E24 nord-américaine neuve ; couleur, taxes, stock et garantie variables"
+    },
+    "64": {
+      "nl": "Rechtstreekse prijs van Gaggia North America: $549.00",
+      "de": "Direktpreis von Gaggia North America: $549.00",
+      "fr": "Prix direct de Gaggia North America : $549.00"
+    },
+    "65": {
+      "nl": "Huidige aanbieding voor een nieuwe Noord-Amerikaanse E24; kleur, belasting, voorraad en garantie variëren",
+      "de": "Aktuelles Angebot für eine neue nordamerikanische E24; Farbe, Steuern, Lagerbestand und Garantie variieren",
+      "fr": "Offre actuelle pour une E24 nord-américaine neuve ; couleur, taxes, stock et garantie variables"
+    },
+    "66": {
+      "nl": "Discussie van eigenaren: Classic Pro E24",
+      "de": "Besitzerdiskussion: Classic Pro E24",
+      "fr": "Discussion de propriétaires : Classic Pro E24"
+    },
+    "67": {
+      "nl": "Classic Pro E24 tegenover de meest vergelijkbare alternatieven",
+      "de": "Classic Pro E24 im Vergleich zu den nächstliegenden Alternativen",
+      "fr": "Classic Pro E24 face aux alternatives les plus proches"
+    },
+    "68": {
+      "nl": "Korte vergelijking van de Gaggia Classic Pro E24",
+      "de": "Kurzvergleich der Gaggia Classic Pro E24",
+      "fr": "Comparaison rapide de la Gaggia Classic Pro E24"
+    },
+    "69": {
+      "nl": "Gaggia Classic Pro E24 en de meest vergelijkbare alternatieven",
+      "de": "Gaggia Classic Pro E24 und ihre nächstliegenden Alternativen",
+      "fr": "Gaggia Classic Pro E24 et ses alternatives les plus proches"
+    },
+    "70": {
+      "nl": "Gedetailleerde vergelijking van de Gaggia Classic Pro E24",
+      "de": "Detaillierter Vergleich der Gaggia Classic Pro E24",
+      "fr": "Comparaison détaillée de la Gaggia Classic Pro E24"
+    },
+    "71": {
+      "nl": "Leven met de Classic Pro E24",
+      "de": "Alltag mit der Classic Pro E24",
+      "fr": "Vivre avec la Classic Pro E24"
+    },
+    "72": {
+      "nl": "Andere opties voor de koper van een Classic Pro E24",
+      "de": "Weitere Optionen für Käufer einer Classic Pro E24",
+      "fr": "D’autres options pour l’acheteur d’une Classic Pro E24"
+    },
+    "73": {
+      "nl": "Veelgestelde vragen over de Classic Pro E24",
+      "de": "Häufige Fragen zur Classic Pro E24",
+      "fr": "Questions fréquentes sur la Classic Pro E24"
+    },
+    "74": {
+      "nl": "Wat onderscheidt deze Classic Pro E24 van verwante Gaggia-modellen?",
+      "de": "Was unterscheidet diese Classic Pro E24 von verwandten Gaggia-Modellen?",
+      "fr": "Qu’est-ce qui distingue cette Classic Pro E24 des Gaggia voisines ?"
+    },
+    "75": {
+      "nl": "Wat komt er kijken bij melkbereiding met de Classic Pro E24?",
+      "de": "Was gehört zur Milchzubereitung mit der Classic Pro E24?",
+      "fr": "Qu’implique la préparation du lait avec la Classic Pro E24 ?"
+    },
+    "76": {
+      "nl": "Wat moet ik controleren voordat ik een Classic Pro E24 koop?",
+      "de": "Was sollte ich vor dem Kauf einer Classic Pro E24 prüfen?",
+      "fr": "Que dois-je examiner avant d’acheter une Classic Pro E24 ?"
+    },
+    "77": {
+      "nl": "Welke bediening biedt de Classic Pro E24 daadwerkelijk?",
+      "de": "Welche Bedienelemente bietet die Classic Pro E24 tatsächlich?",
+      "fr": "Quelles commandes la Classic Pro E24 propose-t-elle réellement ?"
+    },
+    "78": {
+      "nl": "Welke boileropbouw zit er in deze Classic Pro E24?",
+      "de": "Welcher Boileraufbau steckt in dieser Classic Pro E24?",
+      "fr": "Quelle architecture de chaudière se trouve dans cette Classic Pro E24 ?"
+    },
+    "79": {
+      "nl": "Bekijk Gaggia Classic Pro E24-espressomachine-review door Whole Latte Love",
+      "de": "Gaggia Classic Pro E24 Espressomaschinen-Testbericht von Whole Latte Love ansehen",
+      "fr": "Regarder le test de la machine expresso Gaggia Classic Pro E24 par Whole Latte Love"
+    },
+    "81": {
+      "nl": "Gaggia Classic Pro E24-espressomachine-review",
+      "de": "Gaggia Classic Pro E24 Espressomaschinen-Testbericht",
+      "fr": "Test de la machine expresso Gaggia Classic Pro E24"
+    },
+    "82": {
+      "nl": "30 oktober 2024",
+      "de": "30. Oktober 2024",
+      "fr": "30 octobre 2024"
+    },
+    "83": {
+      "nl": "De beoordeling is beperkt tot de huidige Noord-Amerikaanse Classic Pro E24, 110-120V. Geen PID-regelaar, shottimer of gelijktijdige stoom, dus consistentie hangt af van routine en de kwaliteit van de molen.",
+      "de": "Die Bewertung beschränkt sich auf die aktuelle nordamerikanische Classic Pro E24, 110-120V. Kein PID-Regler, Shot-Timer oder gleichzeitiger Dampf, daher hängt die Konstanz von Routine und Mühlenqualität ab.",
+      "fr": "L’évaluation se limite à la Classic Pro E24 nord-américaine actuelle, 110-120V. Pas de PID, de minuterie d’extraction ni de vapeur simultanée : la régularité dépend donc de la routine et de la qualité du moulin."
+    },
+    "84": {
+      "nl": "Onafhankelijke video van Whole Latte Love, gepubliceerd op 2024-10-30, gebruikt als visuele context voor de werkwijze.",
+      "de": "Unabhängiges Video von Whole Latte Love, veröffentlicht am 2024-10-30, als sichtbarer Kontext zum Arbeitsablauf genutzt.",
+      "fr": "Vidéo indépendante de Whole Latte Love, publiée le 2024-10-30, utilisée pour le contexte visuel de la préparation."
+    },
+    "85": {
+      "nl": "Modelspecifieke verduidelijking van 14 oktober: Gaggia Classic Pro E24",
+      "de": "Modellspezifische Klarstellung vom 14. Oktober: Gaggia Classic Pro E24",
+      "fr": "Précision propre au modèle du 14 octobre : Gaggia Classic Pro E24"
+    },
+    "86": {
+      "nl": "De vermelding van het vervangingsonderdeel bij Gaggia North America vermeldt dat de messing boiler compatibel is met de Classic, Classic Pro en Evo Pro, en dat afdichtingen en montagemateriaal niet zijn inbegrepen; de huidige E24-productpagina identificeert de generatie met messing boiler af fabriek. Gecontroleerd op 14 oktober 2026; gebaseerd op bronnenonderzoek, zonder nieuwe fysieke tests of wijzigingen van de scores.",
+      "de": "Das Ersatzteilangebot von Gaggia North America nennt die Kompatibilität des Messingboilers mit Classic, Classic Pro und Evo Pro und schließt Dichtungen/Befestigungsmaterial aus; die aktuelle E24-Produktseite kennzeichnet die werkseitige Messingboiler-Generation. Am 14. Oktober 2026 geprüft; recherchegestützt, ohne neue praktische Tests oder Änderungen der Punktzahlen.",
+      "fr": "La fiche de pièce de rechange de Gaggia North America indique que la chaudière en laiton est compatible avec les Classic, Classic Pro et Evo Pro et exclut les joints et le matériel de fixation ; la page produit de l’E24 actuelle identifie la génération à chaudière en laiton d’usine. Vérifié le 14 octobre 2026 ; fondé sur des recherches, sans nouvel essai physique ni modification des notes."
+    },
+    "87": {
+      "nl": "De Classic Pro E24 verdient zijn plek alleen als de werkwijze bij je past",
+      "de": "Die Classic Pro E24 verdient ihren Platz nur, wenn der Arbeitsablauf passt",
+      "fr": "La Classic Pro E24 ne mérite sa place que si son utilisation vous convient"
+    },
+    "95": {
+      "nl": "Enkele loodvrije messing dubbelgebruikboiler van 3.5 oz met ingebouwd element en thermostaatregeling",
+      "de": "Einzelner bleifreier 3.5 oz-Messing-Zweizweckkessel mit eingebauter Heizung und Thermostatregelung",
+      "fr": "Chaudière unique à double usage en laiton sans plomb de 3.5 oz, résistance intégrée et thermostat"
+    },
+    "104": {
+      "nl": "← Gaggia Classic Pro E24-review",
+      "de": "← Testbericht zur Gaggia Classic Pro E24",
+      "fr": "← Test de la Gaggia Classic Pro E24"
+    },
+    "105": {
+      "nl": "Gaggia Classic Pro E24 · Perspectief van een verkoper",
+      "de": "Gaggia Classic Pro E24 · Händlerperspektive",
+      "fr": "Gaggia Classic Pro E24 · Point de vue d’un vendeur"
+    },
+    "106": {
+      "nl": "Gaggia Classic Pro E24: Gaggia Classic Pro E24-espressomachine-review · Whole Latte Love (2024-10-30) | Coffeedant",
+      "de": "Gaggia Classic Pro E24: Gaggia Classic Pro E24 Espressomaschinen-Testbericht · Whole Latte Love (2024-10-30) | Coffeedant",
+      "fr": "Gaggia Classic Pro E24 : test de la machine expresso Gaggia Classic Pro E24 · Whole Latte Love (2024-10-30) | Coffeedant"
+    },
+    "107": {
+      "nl": "Bekijk Whole Latte Love over de Gaggia Classic Pro E24 (2024-10-30): Gaggia Classic Pro E24-espressomachine-review. Onafhankelijk visueel bewijs van de werkwijze. Actuele specificaties, generatie en prijs worden afzonderlijk geverifieerd.",
+      "de": "Sehen Sie Whole Latte Love zur Gaggia Classic Pro E24 (2024-10-30): Gaggia Classic Pro E24 Espressomaschinen-Testbericht. Unabhängige visuelle Belege zum Arbeitsablauf. Aktuelle Spezifikationen, Generation und Preis werden gesondert überprüft.",
+      "fr": "Regardez Whole Latte Love à propos de la Gaggia Classic Pro E24 (2024-10-30) : test de la machine expresso Gaggia Classic Pro E24. Éléments visuels indépendants sur le déroulement de la préparation. Les caractéristiques actuelles, la génération et le prix sont vérifiés séparément."
+    },
+    "109": {
+      "nl": "Video over de Gaggia Classic Pro E24 door Whole Latte Love",
+      "de": "Video zur Gaggia Classic Pro E24 von Whole Latte Love",
+      "fr": "Vidéo sur la Gaggia Classic Pro E24 par Whole Latte Love"
+    },
+    "110": {
+      "nl": "Gaggia Classic Pro E24-espressomachine-review door Whole Latte Love",
+      "de": "Gaggia Classic Pro E24 Espressomaschinen-Testbericht von Whole Latte Love",
+      "fr": "Test de la machine expresso Gaggia Classic Pro E24 par Whole Latte Love"
+    }
+  }
+}
