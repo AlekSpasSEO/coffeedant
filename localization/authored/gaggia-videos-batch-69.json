@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "gaggia-videos-batch-69.source.json",
+  "snapshotHash": "00e110ca51b684215b4fcba9fd573adfd75823409fc233e038ac983f07061668",
+  "routes": {
+    "nl": {
+      "/espresso-machine/gaggia-classic-gt/video/coffee-kev/": "/espressomachines/gaggia-classic-gt/video/coffee-kev/",
+      "/espresso-machine/gaggia-brera-ri9305/video/coffee-kev/": "/espressomachines/gaggia-brera-ri9305/video/coffee-kev/"
+    },
+    "de": {
+      "/espresso-machine/gaggia-classic-gt/video/coffee-kev/": "/espresso-maschine/gaggia-classic-gt/video/coffee-kev/",
+      "/espresso-machine/gaggia-brera-ri9305/video/coffee-kev/": "/testbericht-gaggia-brera-ri9305/video/coffee-kev/"
+    },
+    "fr": {
+      "/espresso-machine/gaggia-classic-gt/video/coffee-kev/": "/machines-expresso/gaggia-classic-gt/video/coffee-kev/",
+      "/espresso-machine/gaggia-brera-ri9305/video/coffee-kev/": "/machines-expresso/gaggia-brera-ri9305/video/coffee-kev/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "Gaggia Brera-review",
+      "de": "Gaggia Brera im Test",
+      "fr": "Test de la Gaggia Brera"
+    },
+    "1": {
+      "nl": "23 februari 2022",
+      "de": "23. Februar 2022",
+      "fr": "23 février 2022"
+    },
+    "2": {
+      "nl": "Coffee Kev presenteert de Gaggia Brera RI9305 en bespreekt de installatie en bediening. De demonstraties en meningen zijn van de maker zelf.",
+      "de": "Coffee Kev stellt die Gaggia Brera RI9305 vor und behandelt Einrichtung und Bedienung. Die Vorführungen und Meinungen stammen vom Ersteller selbst.",
+      "fr": "Coffee Kev présente la Gaggia Brera RI9305 et aborde l’installation et les commandes. Les démonstrations et les opinions sont celles du créateur."
+    },
+    "5": {
+      "nl": "← Gaggia Brera RI9305-review",
+      "de": "← Testbericht zur Gaggia Brera RI9305",
+      "fr": "← Test de la Gaggia Brera RI9305"
+    },
+    "6": {
+      "nl": "Gaggia Brera RI9305 · Perspectief van een externe reviewer",
+      "de": "Gaggia Brera RI9305 · Externe Perspektive",
+      "fr": "Gaggia Brera RI9305 · Point de vue indépendant"
+    },
+    "7": {
+      "nl": "Gaggia Brera RI9305: Gaggia Brera-review · Coffee Kev (2022-02-23) | Coffeedant",
+      "de": "Gaggia Brera RI9305: Gaggia Brera im Test · Coffee Kev (2022-02-23) | Coffeedant",
+      "fr": "Gaggia Brera RI9305 : test de la Gaggia Brera · Coffee Kev (2022-02-23) | Coffeedant"
+    },
+    "8": {
+      "nl": "Bekijk Coffee Kev over de Gaggia Brera RI9305 (2022-02-23): Gaggia Brera-review. Coffee Kev presenteert de Gaggia Brera RI9305 en bespreekt de installatie en bediening. De demonstraties en meningen zijn van de maker zelf.",
+      "de": "Sehen Sie Coffee Kev zur Gaggia Brera RI9305 (2022-02-23): Gaggia Brera im Test. Coffee Kev stellt die Gaggia Brera RI9305 vor und behandelt Einrichtung und Bedienung. Die Vorführungen und Meinungen stammen vom Ersteller selbst.",
+      "fr": "Regardez Coffee Kev à propos de la Gaggia Brera RI9305 (2022-02-23) : test de la Gaggia Brera. Coffee Kev présente la Gaggia Brera RI9305 et aborde l’installation et les commandes. Les démonstrations et les opinions sont celles du créateur."
+    },
+    "10": {
+      "nl": "Video over de Gaggia Brera RI9305 door Coffee Kev",
+      "de": "Video zur Gaggia Brera RI9305 von Coffee Kev",
+      "fr": "Vidéo sur la Gaggia Brera RI9305 par Coffee Kev"
+    },
+    "11": {
+      "nl": "Gaggia Brera-review door Coffee Kev",
+      "de": "Gaggia Brera im Test von Coffee Kev",
+      "fr": "Test de la Gaggia Brera par Coffee Kev"
+    },
+    "15": {
+      "nl": "Onafhankelijk visueel bewijs van de werkwijze. Actuele specificaties, generatie en prijs worden afzonderlijk geverifieerd.",
+      "de": "Unabhängige visuelle Belege zum Arbeitsablauf. Aktuelle Spezifikationen, Generation und Preis werden gesondert überprüft.",
+      "fr": "Éléments visuels indépendants sur le déroulement de la préparation. Les caractéristiques actuelles, la génération et le prix sont vérifiés séparément."
+    },
+    "17": {
+      "nl": "Gaggia Classic GT: Gaggia Classic GT-review - Gewoon een Classic met dubbele boiler? · Coffee Kev (2025-04-05) | Coffeedant",
+      "de": "Gaggia Classic GT: Gaggia Classic GT im Test - Nur eine Classic mit zwei Boilern? · Coffee Kev (2025-04-05) | Coffeedant",
+      "fr": "Gaggia Classic GT : test de la Gaggia Classic GT - Juste une Classic à double chaudière ? · Coffee Kev (2025-04-05) | Coffeedant"
+    },
+    "18": {
+      "nl": "Bekijk Coffee Kev over de Gaggia Classic GT (2025-04-05): Gaggia Classic GT-review - Gewoon een Classic met dubbele boiler? Onafhankelijk visueel bewijs van de werkwijze. Actuele specificaties, generatie en prijs worden afzonderlijk geverifieerd.",
+      "de": "Sehen Sie Coffee Kev zur Gaggia Classic GT (2025-04-05): Gaggia Classic GT im Test - Nur eine Classic mit zwei Boilern? Unabhängige visuelle Belege zum Arbeitsablauf. Aktuelle Spezifikationen, Generation und Preis werden gesondert überprüft.",
+      "fr": "Regardez Coffee Kev à propos de la Gaggia Classic GT (2025-04-05) : test de la Gaggia Classic GT - Juste une Classic à double chaudière ? Éléments visuels indépendants sur le déroulement de la préparation. Les caractéristiques actuelles, la génération et le prix sont vérifiés séparément."
+    },
+    "20": {
+      "nl": "Video over de Gaggia Classic GT door Coffee Kev",
+      "de": "Video zur Gaggia Classic GT von Coffee Kev",
+      "fr": "Vidéo sur la Gaggia Classic GT par Coffee Kev"
+    },
+    "21": {
+      "nl": "← Gaggia Classic GT-review",
+      "de": "← Testbericht zur Gaggia Classic GT",
+      "fr": "← Test de la Gaggia Classic GT"
+    },
+    "22": {
+      "nl": "Gaggia Classic GT-review - Gewoon een Classic met dubbele boiler? door Coffee Kev",
+      "de": "Gaggia Classic GT im Test - Nur eine Classic mit zwei Boilern? von Coffee Kev",
+      "fr": "Test de la Gaggia Classic GT - Juste une Classic à double chaudière ? par Coffee Kev"
+    },
+    "23": {
+      "nl": "Gaggia Classic GT · Perspectief van een externe reviewer",
+      "de": "Gaggia Classic GT · Externe Perspektive",
+      "fr": "Gaggia Classic GT · Point de vue indépendant"
+    },
+    "24": {
+      "nl": "Gaggia Classic GT-review - Gewoon een Classic met dubbele boiler?",
+      "de": "Gaggia Classic GT im Test - Nur eine Classic mit zwei Boilern?",
+      "fr": "Test de la Gaggia Classic GT - Juste une Classic à double chaudière ?"
+    },
+    "25": {
+      "nl": "5 april 2025",
+      "de": "5. April 2025",
+      "fr": "5 avril 2025"
+    }
+  }
+}

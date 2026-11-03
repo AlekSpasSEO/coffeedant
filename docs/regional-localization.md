@@ -3539,6 +3539,45 @@ plus 404 per edition, retaining all 118 previously live canonical paths. NL has
 162 non-watch and 379 watch pages. Ready-pages publication, hourly continuation
 and source-change automation remain active; all full editions remain incomplete.
 
+### Direct batch 69: complete Gaggia videos and reusable review wording (2026-11-03)
+
+Directly complete the Coffee Kev video pages for Gaggia Classic GT and Gaggia
+Brera RI9305 in NL/DE/FR. Both entire current pages include five paragraphs,
+localized titles, dates, descriptions, accessible iframe titles and structured
+video metadata. Preserve the original creator, video IDs, embed URLs, dimensions,
+permissions and affiliate attribution. Demonstrations and opinions remain the
+creator's; no Coffeedant handling or testing is claimed.
+
+A 907-slot full snapshot freezes both pages and the current Classic/E24 review.
+The video snapshot has 30 missing slots covered by 18 authored string triples.
+The 261-slot review snapshot receives 138 authored triples plus the unchanged
+Whole Latte Love name: 157 snapshot slots covering shared rating/navigation
+labels, complete evidence and commission disclosures, owner-report limits,
+architecture and care context. Matching video wording also fills two review
+slots. This saves a substantive 717 distinct source words of review/shared work,
+alongside 194 distinct video source words. The review still has 102 missing slots
+per edition and remains unpublished; its registered French URL stays stable.
+Existing passing German/French wording is reused exactly. No prior cached text
+or registered route is changed.
+
+All 210 localization and 20 SEO tests, analytics, all 35 bean reviews and the
+151-machine/seven-grinder Finder validators pass. Six complete noindex previews
+and six production comparisons verify every body character, metadata, schema,
+embed geometry, link and runtime interface. The full regional bundle passes
+without deferrals. Nine actual Chrome viewports verify both video pages across
+the three editions: no document overflow, responsive labelled 16:9 frames,
+collapsed native notices, six mobile menu open/close checks and nine language
+picker Escape/focus checks. Production deployment and live evidence follow in
+the batch PR after checks pass.
+
+Current source remains 661 pages / 56,721 segments. Ready selection is 121
+indexable pages plus 404 per edition, preserving all 119 earlier canonical paths
+and the approved Dutch dosing URL. Cache additions are NL 188, DE 172, FR 175;
+coverage is NL 13,611 translated / 43,110 pending, DE 13,647 / 43,074 and
+FR 13,620 / 43,101. Finder gaps remain zero. The unfinished inventory is 162
+non-video pages and 377 video pages. All full editions remain incomplete;
+incremental publication, continuation and source-change maintenance stay active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "gaggia-classic-batch-69.source.json",
+  "snapshotHash": "ca21dfd480a3a68f9cf530d7ae84dbef8cf5006f61abee5175df049f6357475a",
+  "preserveSource": [
+    112
+  ],
+  "translations": {
+    "0": {
+      "nl": "30 okt 2026",
+      "de": "30. Okt. 2026",
+      "fr": "30 oct. 2026"
+    },
+    "1": {
+      "nl": "Mijn beoordeling",
+      "de": "Meine Bewertung",
+      "fr": "Mon évaluation"
+    },
+    "2": {
+      "nl": "Hoe ik tot deze conclusie kwam",
+      "de": "Wie ich zu diesem Schluss kam",
+      "fr": "Comment je suis arrivé à cette conclusion"
+    },
+    "3": {
+      "nl": "Beoordeling op basis van bronnenonderzoek",
+      "de": "Recherchegestützte Bewertung",
+      "fr": "Évaluation fondée sur des recherches"
+    },
+    "4": {
+      "nl": "Bekijk alle zes categorieën ↓",
+      "de": "Alle sechs Kategorien ansehen ↓",
+      "fr": "Voir les six catégories ↓"
+    },
+    "5": {
+      "nl": "Vergelijk met Coffee Finder",
+      "de": "Mit Coffee Finder vergleichen",
+      "fr": "Comparer avec Coffee Finder"
+    },
+    "6": {
+      "nl": "Doorzoek alle beoordeelde machines",
+      "de": "Alle bewerteten Maschinen durchsuchen",
+      "fr": "Rechercher parmi toutes les machines évaluées"
+    },
+    "7": {
+      "nl": "Sla deze over als",
+      "de": "Nicht geeignet, wenn",
+      "fr": "À éviter si"
+    },
+    "8": {
+      "nl": "Wat goed werkt",
+      "de": "Was überzeugt",
+      "fr": "Les points forts"
+    },
+    "9": {
+      "nl": "De afwegingen",
+      "de": "Die Kompromisse",
+      "fr": "Les compromis"
+    },
+    "10": {
+      "nl": "Affiliatevermelding:",
+      "de": "Hinweis zu Affiliate-Links:",
+      "fr": "Mention relative aux liens d’affiliation :"
+    },
+    "11": {
+      "nl": "Als Amazon-partner verdien ik aan in aanmerking komende aankopen. Coffeedant kan ook commissie ontvangen via links naar andere verkopers, zonder extra kosten voor jou. De beoordeling is gebaseerd op het bewijs en de bronnen die hieronder worden toegelicht.",
+      "de": "Als Amazon-Partner verdiene ich an qualifizierten Verkäufen. Coffeedant kann auch durch Links zu anderen Händlern eine Provision erhalten, ohne zusätzliche Kosten für Sie. Die Bewertung stützt sich auf die nachfolgend erläuterten Belege und Quellen.",
+      "fr": "En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises. Coffeedant peut aussi percevoir une commission grâce aux liens vers d’autres vendeurs, sans frais supplémentaires pour vous. L’évaluation repose sur les éléments et les sources expliqués ci-dessous."
+    },
+    "12": {
+      "nl": "Voordat je kiest",
+      "de": "Vor Ihrer Entscheidung",
+      "fr": "Avant de choisir"
+    },
+    "13": {
+      "nl": "Voor wie is deze geschikt?",
+      "de": "Für wen ist sie geeignet?",
+      "fr": "À qui convient-elle ?"
+    },
+    "14": {
+      "nl": "Onderdelen van de review",
+      "de": "Testberichtsabschnitte",
+      "fr": "Sections de l'avis"
+    },
+    "15": {
+      "nl": "Beoordelingen",
+      "de": "Bewertungen",
+      "fr": "Notes"
+    },
+    "16": {
+      "nl": "Overzicht",
+      "de": "Überblick",
+      "fr": "Présentation générale"
+    },
+    "17": {
+      "nl": "Dagelijks gebruik",
+      "de": "Tägliche Nutzung",
+      "fr": "Utilisation quotidienne"
+    },
+    "18": {
+      "nl": "Bouw & onderhoud",
+      "de": "Bau & Pflege",
+      "fr": "Construction et entretien"
+    },
+    "19": {
+      "nl": "Functies",
+      "de": "Funktionen",
+      "fr": "Fonctionnalités"
+    },
+    "20": {
+      "nl": "Bewijs voorop",
+      "de": "Beweise zuerst",
+      "fr": "Preuves d'abord"
+    },
+    "21": {
+      "nl": "Beoordeling op basis van bronnenonderzoek.",
+      "de": "Forschungsgeleitete Bewertung.",
+      "fr": "Évaluation basée sur la recherche"
+    },
+    "22": {
+      "nl": "Coffeedant heeft dit product niet fysiek getest. De scores zijn redactionele oordelen op basis van het aangehaalde bewijs.",
+      "de": "Coffeedant hat dieses Produkt nicht selbst praktisch getestet. Die Punktzahlen sind redaktionelle Urteile auf Grundlage der angeführten Belege.",
+      "fr": "Coffeedant n’a pas testé physiquement ce produit. Les notes sont des jugements éditoriaux fondés sur les éléments cités."
+    },
+    "23": {
+      "nl": "Tabel met Coffeedant-beoordelingen per categorie",
+      "de": "Coffeedant-Kategoriewertungstabelle",
+      "fr": "Tableau de notation de catégorie de Coffeedant"
+    },
+    "24": {
+      "nl": "Categorie",
+      "de": "Kategorie",
+      "fr": "Catégorie"
+    },
+    "25": {
+      "nl": "Score",
+      "de": "Bewertung",
+      "fr": "Note"
+    },
+    "26": {
+      "nl": "Reden",
+      "de": "Grund",
+      "fr": "Raison"
+    },
+    "27": {
+      "nl": "Bouw",
+      "de": "Bau",
+      "fr": "Conception"
+    },
+    "28": {
+      "nl": "Prestaties in het kort",
+      "de": "Leistungsübersicht",
+      "fr": "Aperçu des performances"
+    },
+    "29": {
+      "nl": "Voor het eerste drankje",
+      "de": "Vor dem ersten Getränk",
+      "fr": "Avant la première boisson"
+    },
+    "30": {
+      "nl": "Systeem:",
+      "de": "System:",
+      "fr": "Système :"
+    },
+    "31": {
+      "nl": "van 10",
+      "de": "von 10",
+      "fr": "sur 10"
+    },
+    "32": {
+      "nl": "Wat het bewijs laat zien",
+      "de": "Was die Belege zeigen",
+      "fr": "Ce que montrent les éléments disponibles"
+    },
+    "33": {
+      "nl": "Gevolg voor je aankoop",
+      "de": "Konsequenz für den Kauf",
+      "fr": "Conséquence pour l’achat"
+    },
+    "34": {
+      "nl": "Opbouw van het zetsysteem",
+      "de": "Aufbau des Brühsystems",
+      "fr": "Architecture d’extraction"
+    },
+    "37": {
+      "nl": "Beschikbare controle",
+      "de": "Verfügbare Kontrolle",
+      "fr": "Contrôle disponible"
+    },
+    "38": {
+      "nl": "Gevolg voor het recept",
+      "de": "Konsequenz für das Rezept",
+      "fr": "Conséquence pour la recette"
+    },
+    "39": {
+      "nl": "8.4 van 10",
+      "de": "8.4 von 10",
+      "fr": "8.4 sur 10"
+    },
+    "40": {
+      "nl": "Stoom- of melksysteem",
+      "de": "Dampf- oder Milchsystem",
+      "fr": "Système vapeur ou lait"
+    },
+    "41": {
+      "nl": "Inbreng van de gebruiker",
+      "de": "Eingriff des Bedieners",
+      "fr": "Intervention de l’utilisateur"
+    },
+    "42": {
+      "nl": "Gevolg voor meerdere drankjes achter elkaar",
+      "de": "Konsequenz für mehrere Getränke hintereinander",
+      "fr": "Conséquence pour les boissons à la suite"
+    },
+    "43": {
+      "nl": "Beoordeling van de werkwijze",
+      "de": "Bewertung des Arbeitsablaufs",
+      "fr": "Évaluation du déroulement de la préparation"
+    },
+    "44": {
+      "nl": "Bewijs over de werkwijze",
+      "de": "Belege zum Arbeitsablauf",
+      "fr": "Éléments sur le déroulement de la préparation"
+    },
+    "45": {
+      "nl": "Bewijs over de werkwijze en het praktische gevolg ervan",
+      "de": "Belege zum Arbeitsablauf und ihre praktische Konsequenz",
+      "fr": "Éléments sur le déroulement de la préparation et leur conséquence pratique"
+    },
+    "47": {
+      "nl": "Routine bij een koude start",
+      "de": "Ablauf beim Kaltstart",
+      "fr": "Routine de démarrage à froid"
+    },
+    "48": {
+      "nl": "Volgorde van de drankjes",
+      "de": "Getränkeabfolge",
+      "fr": "Enchaînement des boissons"
+    },
+    "49": {
+      "nl": "Hoeveelheid schoonmaakwerk",
+      "de": "Reinigungsaufwand",
+      "fr": "Charge de nettoyage"
+    },
+    "50": {
+      "nl": "Beoordeling van bouw en onderhoud",
+      "de": "Bewertung von Bau und Pflege",
+      "fr": "Évaluation de la construction et de l’entretien"
+    },
+    "51": {
+      "nl": "Beoordeling van de bouw",
+      "de": "Bewertung der Bauweise",
+      "fr": "Évaluation de la construction"
+    },
+    "52": {
+      "nl": "Bewijs over de bouw",
+      "de": "Belege zur Bauweise",
+      "fr": "Éléments sur la construction"
+    },
+    "53": {
+      "nl": "Bewijs over de bouw en het praktische gevolg ervan",
+      "de": "Belege zur Bauweise und ihre praktische Konsequenz",
+      "fr": "Éléments sur la construction et leur conséquence pratique"
+    },
+    "55": {
+      "nl": "Basisconstructie",
+      "de": "Grundkonstruktion",
+      "fr": "Construction de base"
+    },
+    "56": {
+      "nl": "Toegankelijkheid en onderhoud",
+      "de": "Zugänglichkeit und Pflege",
+      "fr": "Accessibilité et entretien"
+    },
+    "57": {
+      "nl": "Grenzen van ondersteuning",
+      "de": "Grenzen des Supports",
+      "fr": "Limites de l’assistance"
+    },
+    "58": {
+      "nl": "Beoordeling van de functies",
+      "de": "Bewertung der Funktionen",
+      "fr": "Évaluation des fonctionnalités"
+    },
+    "59": {
+      "nl": "Bewijs over de functies",
+      "de": "Belege zu den Funktionen",
+      "fr": "Éléments sur les fonctionnalités"
+    },
+    "60": {
+      "nl": "Bewijs over de functies en het praktische gevolg ervan",
+      "de": "Belege zu den Funktionen und ihre praktische Konsequenz",
+      "fr": "Éléments sur les fonctionnalités et leur conséquence pratique"
+    },
+    "62": {
+      "nl": "Nuttige controle",
+      "de": "Nützliche Kontrolle",
+      "fr": "Contrôle utile"
+    },
+    "63": {
+      "nl": "Ontbrekende controle",
+      "de": "Fehlende Kontrolle",
+      "fr": "Contrôle absent"
+    },
+    "64": {
+      "nl": "Belang voor de koper",
+      "de": "Bedeutung für Käufer",
+      "fr": "Intérêt pour l’acheteur"
+    },
+    "65": {
+      "nl": "Beoordeling van de prijs-kwaliteitverhouding",
+      "de": "Bewertung des Gegenwerts",
+      "fr": "Évaluation du rapport qualité-prix"
+    },
+    "66": {
+      "nl": "Bewijs over de prijs-kwaliteitverhouding",
+      "de": "Belege zum Gegenwert",
+      "fr": "Éléments sur le rapport qualité-prix"
+    },
+    "67": {
+      "nl": "8.0 van 10",
+      "de": "8.0 von 10",
+      "fr": "8.0 sur 10"
+    },
+    "68": {
+      "nl": "Bewijs over de prijs-kwaliteitverhouding en het praktische gevolg ervan",
+      "de": "Belege zum Gegenwert und ihre praktische Konsequenz",
+      "fr": "Éléments sur le rapport qualité-prix et leur conséquence pratique"
+    },
+    "70": {
+      "nl": "Gecontroleerde prijs",
+      "de": "Geprüfter Preis",
+      "fr": "Prix vérifié"
+    },
+    "71": {
+      "nl": "Complete koffieopstelling",
+      "de": "Gesamte Kaffeestation",
+      "fr": "Installation complète"
+    },
+    "72": {
+      "nl": "Wat echte eigenaren melden",
+      "de": "Was tatsächliche Besitzer berichten",
+      "fr": "Ce que rapportent les propriétaires"
+    },
+    "73": {
+      "nl": "De bruikbare patronen uit Reddit, op deze pagina samengebracht",
+      "de": "Die hilfreichen Muster aus Reddit, auf dieser Seite zusammengeführt",
+      "fr": "Les tendances utiles de Reddit, réunies sur cette page"
+    },
+    "74": {
+      "nl": "Dit zijn meldingen van eigenaren die er zelf voor hebben gekozen hun ervaringen te delen, geen representatieve steekproef of tests door Coffeedant. De volledige brongegevens blijven beschikbaar in de onderstaande bewijslijst.",
+      "de": "Dies sind selbstselektierte Besitzerberichte, keine repräsentative Stichprobe und keine Tests von Coffeedant. Die vollständigen Quellenangaben bleiben in der nachfolgenden Belegliste erhalten.",
+      "fr": "Il s’agit de témoignages de propriétaires qui ont choisi de s’exprimer, et non d’un échantillon représentatif ou d’essais réalisés par Coffeedant. Les références complètes restent dans la liste des éléments ci-dessous."
+    },
+    "75": {
+      "nl": "Vergelijk de alternatieven",
+      "de": "Die Alternativen vergleichen",
+      "fr": "Comparer les alternatives"
+    },
+    "76": {
+      "nl": "Snel kiezen",
+      "de": "Die schnelle Entscheidung",
+      "fr": "Le choix en bref"
+    },
+    "78": {
+      "nl": "Details",
+      "de": "Details",
+      "fr": "Détails"
+    },
+    "79": {
+      "nl": "Open de technische vergelijking en de vergelijking van de werkwijze",
+      "de": "Vergleich von Technik und Arbeitsablauf öffnen",
+      "fr": "Ouvrir la comparaison technique et pratique"
+    },
+    "80": {
+      "nl": "Gedetailleerde vergelijking van het gebruik als eigenaar",
+      "de": "Detaillierter Vergleich aus Besitzersicht",
+      "fr": "Comparaison détaillée de l’utilisation au quotidien"
+    },
+    "81": {
+      "nl": "Afmetingen",
+      "de": "Abmessungen",
+      "fr": "Dimensions"
+    },
+    "82": {
+      "nl": "Koffieopstelling",
+      "de": "Kaffeeausstattung",
+      "fr": "Équipement café"
+    },
+    "83": {
+      "nl": "Werkwijze voor melk",
+      "de": "Milchzubereitung",
+      "fr": "Préparation du lait"
+    },
+    "87": {
+      "nl": "Ervaringen van eigenaren",
+      "de": "Eigentümerberichte",
+      "fr": "Témoignages de propriétaires"
+    },
+    "88": {
+      "nl": "Kies op basis van je routine",
+      "de": "Wählen Sie nach Routine",
+      "fr": "Choisir selon sa routine"
+    },
+    "89": {
+      "nl": "Vragen voor de aankoop",
+      "de": "Fragen vor dem Kauf",
+      "fr": "Questions avant l’achat"
+    },
+    "90": {
+      "nl": "Bekijk de machine in gebruik",
+      "de": "Die Maschine im Einsatz ansehen",
+      "fr": "Voir la machine en fonctionnement"
+    },
+    "91": {
+      "nl": "Een onafhankelijk videoperspectief",
+      "de": "Eine unabhängige Videoperspektive",
+      "fr": "Un point de vue vidéo indépendant"
+    },
+    "92": {
+      "nl": "Meer videoperspectieven over dit product →",
+      "de": "Weitere Videoperspektiven zu diesem Produkt →",
+      "fr": "D’autres points de vue vidéo sur ce produit →"
+    },
+    "93": {
+      "nl": "Waarom ik vertrouwen heb in het oordeel",
+      "de": "Warum ich dem Urteil vertraue",
+      "fr": "Pourquoi je fais confiance au verdict"
+    },
+    "94": {
+      "nl": "Wat ik op basis van het bewijs met vertrouwen kan zeggen",
+      "de": "Was ich anhand der Belege mit Sicherheit sagen kann",
+      "fr": "Ce que les éléments disponibles me permettent d’affirmer avec confiance"
+    },
+    "95": {
+      "nl": "Beoordeling op basis van bronnenonderzoek van het hierboven exact geïdentificeerde model, met gebruik van de gelinkte documentatie van de fabrikant, onafhankelijke beoordelingen en ervaringen van eigenaren. Coffeedant heeft dit product niet fysiek getest. De controledata van bronnen en prijzen blijven aan de bijbehorende gegevens gekoppeld; deze redactionele herziening verifieert ze niet opnieuw.",
+      "de": "Recherchegestützte Bewertung des oben genau bezeichneten Modells anhand der verlinkten Herstellerunterlagen, unabhängiger Bewertungen und Besitzerberichte. Coffeedant hat dieses Produkt nicht selbst praktisch getestet. Die Prüfzeitpunkte von Quellen und Preisen bleiben ihren jeweiligen Einträgen zugeordnet; diese redaktionelle Überarbeitung prüft sie nicht erneut.",
+      "fr": "Évaluation fondée sur des recherches concernant le modèle précisément identifié ci-dessus, à partir de la documentation du fabricant en lien, d’évaluations indépendantes et de témoignages de propriétaires. Coffeedant n’a pas testé physiquement ce produit. Les dates de vérification des sources et des prix restent rattachées à leurs références ; cette réécriture éditoriale ne les vérifie pas à nouveau."
+    },
+    "96": {
+      "nl": "Productreview op basis van bronnenonderzoek",
+      "de": "Recherchegestützte Produktbewertung",
+      "fr": "Évaluation de produit fondée sur des recherches"
+    },
+    "97": {
+      "nl": "7.6 van 10",
+      "de": "7.6 von 10",
+      "fr": "7.6 sur 10"
+    },
+    "98": {
+      "nl": ", waarbij espresso, melk, werkwijze, bouw, functies en prijs-kwaliteitverhouding hieronder afzonderlijk worden beoordeeld.",
+      "de": ", wobei Espresso, Milch, Arbeitsablauf, Bauweise, Funktionen und Gegenwert nachfolgend getrennt bewertet werden.",
+      "fr": ", avec des notes distinctes ci-dessous pour l’espresso, le lait, le déroulement de la préparation, la construction, les fonctionnalités et le rapport qualité-prix."
+    },
+    "99": {
+      "nl": "Beoordeling van de espresso",
+      "de": "Bewertung des Espressos",
+      "fr": "Évaluation de l’espresso"
+    },
+    "100": {
+      "nl": "Bewijs over espresso en het praktische gevolg ervan",
+      "de": "Belege zum Espresso und ihre praktische Konsequenz",
+      "fr": "Éléments sur l’espresso et leur conséquence pratique"
+    },
+    "102": {
+      "nl": "Beoordeling van de melkbereiding",
+      "de": "Bewertung der Milchzubereitung",
+      "fr": "Évaluation de la préparation du lait"
+    },
+    "103": {
+      "nl": "Bewijs over melkbereiding en het praktische gevolg ervan",
+      "de": "Belege zur Milchzubereitung und ihre praktische Konsequenz",
+      "fr": "Éléments sur la préparation du lait et leur conséquence pratique"
+    },
+    "105": {
+      "nl": "6.8 van 10",
+      "de": "6.8 von 10",
+      "fr": "6.8 sur 10"
+    },
+    "106": {
+      "nl": "Reviews van espressomachines",
+      "de": "Testberichte zu Espressomaschinen",
+      "fr": "Tests de machines expresso"
+    },
+    "107": {
+      "nl": "Kan deze tegelijk koffie zetten en stomen?",
+      "de": "Kann sie gleichzeitig brühen und Dampf erzeugen?",
+      "fr": "Peut-elle extraire et produire de la vapeur simultanément ?"
+    },
+    "108": {
+      "nl": "8.2 van 10",
+      "de": "8.2 von 10",
+      "fr": "8.2 sur 10"
+    },
+    "109": {
+      "nl": "3.8 van 5, open de Coffeedant-beoordelingen per categorie",
+      "de": "3.8 von 5, Coffeedant-Kategoriewertungen öffnen",
+      "fr": "3.8 sur 5, ouvrir les notes Coffeedant par catégorie"
+    },
+    "110": {
+      "nl": "Lees de Profitec GO-review",
+      "de": "Den Testbericht zur Profitec GO lesen",
+      "fr": "Lire le test de la Profitec GO"
+    },
+    "111": {
+      "nl": "· Perspectief van een verkoper",
+      "de": "· Händlerperspektive",
+      "fr": "· Point de vue d’un vendeur"
+    },
+    "114": {
+      "nl": "Bewijs over espresso",
+      "de": "Belege zum Espresso",
+      "fr": "Éléments sur l’espresso"
+    },
+    "115": {
+      "nl": "Bewijs over melkbereiding",
+      "de": "Belege zur Milchzubereitung",
+      "fr": "Éléments sur la préparation du lait"
+    },
+    "116": {
+      "nl": "6.4 van 10",
+      "de": "6.4 von 10",
+      "fr": "6.4 sur 10"
+    },
+    "117": {
+      "nl": "Handmatig stomen na het koffiezetten",
+      "de": "Manuelles Dampfen nacheinander",
+      "fr": "Vapeur manuelle après l’extraction"
+    },
+    "118": {
+      "nl": "Gaggia · beoordeling op basis van bronnenonderzoek",
+      "de": "Gaggia · recherchegestützte Bewertung",
+      "fr": "Gaggia · évaluation fondée sur des recherches"
+    },
+    "119": {
+      "nl": "Meer Gaggia-reviews",
+      "de": "Weitere Gaggia-Testberichte",
+      "fr": "D’autres tests Gaggia"
+    },
+    "120": {
+      "nl": "Open officiële productinformatie",
+      "de": "Offizielle Produktinformationen öffnen",
+      "fr": "Ouvrir les informations officielles du produit"
+    },
+    "121": {
+      "nl": "Achtergrond bij het waterrecept van Barista Hustle",
+      "de": "Hintergrund zum Wasserrezept von Barista Hustle",
+      "fr": "Contexte de la recette d’eau de Barista Hustle"
+    },
+    "122": {
+      "nl": "Controleer de exacte aanbieding of productgegevens",
+      "de": "Genaues Angebot oder Produktdaten prüfen",
+      "fr": "Vérifier l’annonce exacte ou la fiche produit"
+    },
+    "123": {
+      "nl": "Gegevens van de fabrikant over identiteit, opbouw en specificaties",
+      "de": "Herstellerangaben zu Identität, Aufbau und Spezifikationen",
+      "fr": "Fiche du fabricant sur l’identité, l’architecture et les caractéristiques"
+    },
+    "124": {
+      "nl": "Kies de huidige variant met één messing boiler wanneer kosten en eenvoud belangrijk zijn.",
+      "de": "Wählen Sie die aktuelle Variante mit einem Messingboiler, wenn Kosten und Einfachheit zählen.",
+      "fr": "Choisissez le modèle actuel à chaudière unique en laiton lorsque le coût et la simplicité comptent."
+    },
+    "125": {
+      "nl": "Kies dubbele boilers, twee PID-regelaars, drukfeedback en pre-infusie wanneer snellere controle de kosten rechtvaardigt.",
+      "de": "Wählen Sie zwei Boiler, zwei PID-Regler, Druckrückmeldung und Präinfusion, wenn schnellere Kontrolle den Preis rechtfertigt.",
+      "fr": "Choisissez deux chaudières, deux PID, un retour sur la pression et la préinfusion lorsque la rapidité du contrôle justifie le coût."
+    },
+    "126": {
+      "nl": "Portafilter van 58 mm; geschikte espressomolen en weegschaal vereist",
+      "de": "58-mm-Siebträger; geeignete Espressomühle und Waage erforderlich",
+      "fr": "Porte-filtre de 58 mm ; moulin à espresso adapté et balance nécessaires"
+    },
+    "127": {
+      "nl": "Grenzen van onderhoud en reparatie",
+      "de": "Grenzen bei Wartung und Reparatur",
+      "fr": "Limites d’entretien et de réparation"
+    },
+    "128": {
+      "nl": "Ecosysteem van accessoires van 58 mm",
+      "de": "Zubehörökosystem für 58 mm",
+      "fr": "Écosystème d’accessoires de 58 mm"
+    },
+    "129": {
+      "nl": "Gedocumenteerde context over onderhoud, reparatie en onderdelen",
+      "de": "Dokumentierter Kontext zu Wartung, Reparatur und Ersatzteilen",
+      "fr": "Contexte documenté sur l’entretien, la réparation et les pièces"
+    },
+    "130": {
+      "nl": "Een losse koffiemolen is vereist",
+      "de": "Eine separate Mühle ist erforderlich",
+      "fr": "Un moulin séparé est nécessaire"
+    },
+    "131": {
+      "nl": "De voorbereiding van de puck blijft handwerk",
+      "de": "Die Puckvorbereitung bleibt manuell",
+      "fr": "La préparation de la galette reste manuelle"
+    },
+    "132": {
+      "nl": "Generatienamen lopen in aanbiedingen gemakkelijk door elkaar",
+      "de": "Generationsnamen verschwimmen in Angeboten leicht",
+      "fr": "Les noms des générations se confondent facilement dans les annonces"
+    },
+    "133": {
+      "nl": "Welk portafilter gebruikt deze?",
+      "de": "Welchen Siebträger verwendet sie?",
+      "fr": "Quel porte-filtre utilise-t-elle ?"
+    },
+    "134": {
+      "nl": "Een portafilter van 58 mm in professionele stijl; de meegeleverde filterbakjes hangen af van regio en uitvoering.",
+      "de": "Einen Siebträger im professionellen Stil mit 58 mm; die mitgelieferten Siebe hängen von Region und Revision ab.",
+      "fr": "Un porte-filtre de style professionnel de 58 mm, avec des paniers fournis qui varient selon la région et la révision."
+    },
+    "135": {
+      "nl": "Is er een PID-regelaar inbegrepen?",
+      "de": "Ist ein PID-Regler enthalten?",
+      "fr": "Un PID est-il inclus ?"
+    },
+    "136": {
+      "nl": "Nee. De standaardtemperatuurregeling gebruikt thermostaten in plaats van een door de gebruiker instelbare PID-regelaar.",
+      "de": "Nein. Die serienmäßige Temperaturregelung verwendet Thermostate statt eines vom Nutzer einstellbaren PID-Reglers.",
+      "fr": "Non. La régulation de température d’origine utilise des thermostats plutôt qu’un PID réglable par l’utilisateur."
+    },
+    "137": {
+      "nl": "Het Classic-chassis en de zetgroep van 58 mm ondersteunen langdurig bezit wanneer duidelijk is om welke uitvoering het precies gaat.",
+      "de": "Das Classic-Gehäuse und die 58-mm-Brühgruppe unterstützen eine lange Nutzungsdauer, wenn die genaue Revision bekannt ist.",
+      "fr": "Le châssis Classic et le groupe de 58 mm permettent d’envisager une possession durable lorsque la révision exacte est bien identifiée."
+    },
+    "138": {
+      "nl": "De molen en de voorbereidingsroutine bepalen of dit systeem herhaalbare espresso oplevert.",
+      "de": "Mühle und Vorbereitungsroutine entscheiden, ob der Aufbau wiederholbaren Espresso ermöglicht.",
+      "fr": "Le moulin et la routine de préparation déterminent si cette architecture donne un espresso reproductible."
+    },
+    "139": {
+      "nl": "Officiële documentatie, marktcontext voor de exacte generatie, onafhankelijke beoordeling en ervaringen van eigenaren gecontroleerd op 23 september 2026",
+      "de": "Offizielle Dokumentation, Marktkontext der genauen Generation, unabhängige Bewertung und Besitzerbelege am 23. September 2026 geprüft",
+      "fr": "Documentation officielle, contexte commercial de la génération exacte, évaluation indépendante et témoignages de propriétaires vérifiés le 23 septembre 2026"
+    },
+    "140": {
+      "nl": "Beoordeel de stoomonderdelen samen met de omschakeling, hersteltijd, controle over de melktextuur en schoonmaak.",
+      "de": "Dampfkomponenten müssen zusammen mit Umschaltung, Erholung, Texturkontrolle und Reinigung beurteilt werden.",
+      "fr": "Le matériel vapeur doit être évalué avec la transition, la récupération, le contrôle de la texture et le nettoyage."
+    },
+    "141": {
+      "nl": "Het complete drankje zegt meer dan het signaal dat de verwarming klaar is.",
+      "de": "Das vollständige Getränk ist aussagekräftiger als das Bereitschaftssignal der Heizung.",
+      "fr": "La boisson complète est plus révélatrice que le signal indiquant que le système de chauffe est prêt."
+    },
+    "142": {
+      "nl": "Onderhoudbaarheid neemt de veiligheidsgrenzen rond elektriciteit, druk of boilers niet weg.",
+      "de": "Wartungsfreundlichkeit hebt die Sicherheitsgrenzen bei Elektrik, Druck und Boilern nicht auf.",
+      "fr": "La réparabilité ne supprime pas les limites de sécurité liées à l’électricité, à la pression ou à la chaudière."
+    },
+    "143": {
+      "nl": "Nuttige controle moet onzekerheid bij een herhaald recept verminderen.",
+      "de": "Nützliche Kontrolle sollte die Unsicherheit bei einem wiederholt zubereiteten Rezept verringern.",
+      "fr": "Un contrôle utile doit réduire l’incertitude lors de la répétition d’une recette."
+    },
+    "144": {
+      "nl": "Tel molen, hulpmiddelen, onderhoud, belasting, garantie en waarschijnlijke reparaties mee voordat je de prijs-kwaliteitverhouding vergelijkt.",
+      "de": "Berücksichtigen Sie Mühle, Hilfsmittel, Pflege, Steuern, Garantie und voraussichtlichen Service, bevor Sie den Gegenwert einstufen.",
+      "fr": "Ajoutez le moulin, les outils, l’entretien, les taxes, la garantie et les réparations probables avant de classer le rapport qualité-prix."
+    },
+    "145": {
+      "nl": "Dosering, maalgraad, puckvoorbereiding, water en opwarming blijven variabelen die de gebruiker bepaalt.",
+      "de": "Dosis, Mahlgrad, Puckvorbereitung, Wasser und Aufwärmen bleiben Variablen des Nutzers.",
+      "fr": "La dose, la mouture, la préparation de la galette, l’eau et le préchauffage restent des variables qui dépendent de l’utilisateur."
+    },
+    "146": {
+      "nl": "De hoeveelheid melk, het kannetje, de reinheid van het stoompijpje en de techniek beïnvloeden het resultaat.",
+      "de": "Milchmenge, Kännchen, Sauberkeit der Dampfdüsenspitze und Technik verändern das Ergebnis.",
+      "fr": "La quantité de lait, le pichet, la propreté de la buse et la technique modifient le résultat."
+    },
+    "147": {
+      "nl": "Onderdelen voor de exacte generatie en deskundige ondersteuning zijn belangrijk.",
+      "de": "Ersatzteile für die genaue Generation und qualifizierte Unterstützung sind wichtig.",
+      "fr": "Des pièces correspondant à la génération exacte et une assistance qualifiée comptent."
+    },
+    "148": {
+      "nl": "Een geschikte molen kan het totaalbedrag aanzienlijk veranderen.",
+      "de": "Eine geeignete Mühle kann die Gesamtkosten erheblich verändern.",
+      "fr": "Un moulin adapté peut modifier sensiblement le coût total."
+    },
+    "149": {
+      "nl": "Context uit zelfgeselecteerde ervaringen van eigenaren over werkwijze, onderhoud en generaties; geen bewijs voor hoe vaak problemen voorkomen.",
+      "de": "Selbstselektierte Besitzerberichte als Kontext zu Arbeitsablauf, Wartung und Generationsfragen; keine Belege für Häufigkeiten.",
+      "fr": "Contexte issu de témoignages spontanés de propriétaires sur l’utilisation, l’entretien et les générations ; aucune preuve de fréquence des problèmes."
+    },
+    "150": {
+      "nl": "Ervaringen van eigenaren op r/gaggiaclassic",
+      "de": "Besitzerdiskussionen auf r/gaggiaclassic",
+      "fr": "Discussions de propriétaires sur r/gaggiaclassic"
+    },
+    "151": {
+      "nl": "Bredere context uit zelfgeselecteerde communitybijdragen over molens, temperatuurroutines, onderdelen en aanpassingen.",
+      "de": "Breiterer Kontext aus selbstselektierten Communitybeiträgen zu Mühlen, Temperaturroutinen, Ersatzteilen und Modifikationen.",
+      "fr": "Contexte communautaire plus large, issu de contributions spontanées, sur les moulins, les routines de température, les pièces et les modifications."
+    }
+  }
+}
