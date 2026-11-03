@@ -3498,6 +3498,47 @@ the approved Dutch dosing URL. NL has 13,298 translated / 43,298 pending; DE has
 hourly continuation and source-change automation remain active; full editions
 remain incomplete.
 
+### Direct batch 68: espresso/pour-over grinder guide and current hub (2026-11-03)
+
+Main added `/grinder/best-grinders-for-espresso-and-pour-over/` and a new section
+in the published grinder hub. This batch directly completes the entire new guide
+in NL/DE/FR and all five changed hub slots. The complete guide contains 2,039
+source words, 60 paragraphs, two comparison tables and seven visible/structured
+FAQ answers. All source claims, citations, metadata, accessible table labels,
+credited identification images, related links and methodological limits are
+covered. The exact US Encore ESP Pro, Opus 2 and Mignon Zero 65 All Purpose stay
+distinct from older generations and other regional products. Independent sample
+observations retain their scope; no Coffeedant grinding/tasting, universal
+zero-retention result or current delivered-price comparison is invented.
+
+The full snapshot freezes 634 page/shared slots. The missing-only snapshot pins
+both complete source fingerprints and 125 missing slots (120 guide and five hub).
+Its 106 authored string triples and one unchanged brand/model citation add 125
+current cache entries per edition, with no prior wording edits. The three new
+guide routes are `/koffiemolen/beste-molens-voor-espresso-en-pour-over/`,
+`/kaffeemuehle/beste-muehlen-fuer-espresso-und-pour-over/` and
+`/moulin-a-cafe/meilleurs-moulins-pour-espresso-et-filtre-manuel/`.
+All previously registered routes, including the Dutch dosing URL, are preserved.
+
+All 210 localization and 20 SEO tests, analytics, 35 bean reviews and the
+151-machine/seven-grinder Finder validators pass. Nine whole-page previews
+compare the new guide, updated hub and existing compact-grinder guide across
+all editions, including every body character, metadata, schema, image geometry,
+links, labels and runtime interface. Six exact Chrome viewports (1365px/390px)
+have no document overflow and verify twelve focusable, natively labelled table
+regions, their mobile horizontal scrolling, native mobile menus and language
+picker Escape/focus behavior. Production and live release evidence is recorded
+in the batch PR after the corresponding checks complete.
+
+Current source grows to 661 pages / 56,721 segments. Before this batch the changed
+published hub was incomplete against that current source; this batch restores
+its readiness and adds the full new guide. Ready selection is 119 indexable pages
+plus 404 per edition, retaining all 118 previously live canonical paths. NL has
+13,423 translated / 43,298 pending; DE has 13,475 / 43,246 and FR has
+13,445 / 43,276. Finder gaps remain zero. The older unfinished inventory remains
+162 non-watch and 379 watch pages. Ready-pages publication, hourly continuation
+and source-change automation remain active; all full editions remain incomplete.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

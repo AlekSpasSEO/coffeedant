@@ -1,0 +1,767 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/grinder/best-grinders-for-espresso-and-pour-over/",
+      "sourceHash": "c5a68265dbdce2fe5110ca4b241c78cceab3c7d8ecee9ac93723f78d8515a514"
+    },
+    {
+      "sourcePath": "/grinder/",
+      "sourceHash": "72240944a39d90b0ab67c1ed8336f3482a157b7b1860a4216c08e6a7710692dc"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "0b4b35b3b2108db8c9c82385c980c4ae23ab86f5af5cb5eea5534082eb32d2fd",
+      "source": "Best Grinders for Espresso and Pour-Over in One Kitchen | Coffeedant",
+      "kind": "text",
+      "context": "Best Grinders for Espresso and Pour-Over in One Kitchen | Coffeedant"
+    },
+    {
+      "id": "3af5230f83725849eda095b5a0071c759c846732ddb6136397001cb045f18b03",
+      "source": "Three exact US grinders for alternating espresso and pour-over: choose by dose routine, return-to-setting effort, and the quality limits of one-grinder compromises.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "388e5335f5c2b32ec70dbf24a68e5c19c005306f86acf6d3a7ac2ee48d7b62a3",
+      "source": "Best Grinders for Espresso and Pour-Over in One Kitchen | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "37f47f8ae8287fe98fc067760aad244b71c3e684415cdf4e8dc8d8c2850bbace",
+      "source": "Espresso and pour-over",
+      "kind": "text",
+      "context": "Espresso and pour-over"
+    },
+    {
+      "id": "fb5999dec4824f3db19d06542ea0b95cef769fa4839485f143d782e0f9ca473c",
+      "source": "Best Grinders for Espresso and Pour-Over in One Kitchen",
+      "kind": "text",
+      "context": "Best Grinders for Espresso and Pour-Over in One Kitchen"
+    },
+    {
+      "id": "94f2562be699f65dc0be0ed4e4c8c40e72f357ea3d35c0baebb6a9505b01f2bf",
+      "source": "One grinder can cover two brew ranges. The hard part is returning to espresso without sacrificing the filter cup you actually want.",
+      "kind": "text",
+      "context": "One grinder can cover two brew ranges. The hard part is returning to espresso without sacrificing the filter cup you actually want."
+    },
+    {
+      "id": "d6cd70c1d00e7601b81306cbc09fc90ef2d80837611287f3fb0cc62d418a42b5",
+      "source": "November 3, 2026",
+      "kind": "text",
+      "context": "November 3, 2026"
+    },
+    {
+      "id": "bd2edd8851baa674dccb2d13b8e800e4c85fe7aa884ef162a1e2f099dc1dc6a7",
+      "source": "· US exact-model context",
+      "kind": "text",
+      "context": "Published and checked November 3, 2026 · US exact-model context"
+    },
+    {
+      "id": "ced7094d57b21ada8dbf913b8f823b2bbf6de69ab0de5905780775b2683f353e",
+      "source": "I compared current manufacturer documents with attributed independent samples and our full reviews. Coffeedant has not handled, ground, measured or tasted with these grinders. These are research-led workflow judgments.",
+      "kind": "text",
+      "context": "I compared current manufacturer documents with attributed independent samples and our full reviews. Coffeedant has not handled, ground, measured or tasted with these grinders. These are research-led workflow judgments."
+    },
+    {
+      "id": "d9bf0d55711f0b0b300de24b43d95b352957c76d3e57e8d3fc6412b8100cfe80",
+      "source": "One grinder, two brews",
+      "kind": "text",
+      "context": "One grinder, two brews"
+    },
+    {
+      "id": "268a88fd41f8c8b278d4909fa6727448bdaa392f337819d71a236b8e61b66a1c",
+      "source": "Decide which brew gets priority",
+      "kind": "text",
+      "context": "Decide which brew gets priority"
+    },
+    {
+      "id": "cc1af99103cdbaec55363556b0e03b6e7bedd190a37987d9a6b9e0ad90c67957",
+      "source": "Make a repeatable two-brew routine",
+      "kind": "text",
+      "context": "Make a repeatable two-brew routine"
+    },
+    {
+      "id": "807761f73ad882e6970fcd0280690bc94372a8fd61b231f7de52a7d189979686",
+      "source": "Read filter and espresso evidence separately",
+      "kind": "text",
+      "context": "Read filter and espresso evidence separately"
+    },
+    {
+      "id": "ec1a3efa3e87d696f3d25edb3aedab7af36bf1f4504c9dab7e1674aa4e37e62d",
+      "source": "Account for cleanup, space and cost",
+      "kind": "text",
+      "context": "Account for cleanup, space and cost"
+    },
+    {
+      "id": "acd559f6f6ceaf81938f5ce336b8ca184b7317e55231c591da88a77c691908e6",
+      "source": "Two-brew decision",
+      "kind": "text",
+      "context": "Two-brew decision"
+    },
+    {
+      "id": "3101888a81c830d3fc2852ea5fe0746243dd882dfd3f2cd396ec5a4bf3bad24c",
+      "source": "This guide is for a US kitchen making both real espresso and pour-over with one electric grinder. We included only exact current models with a Coffeedant full review, manufacturer support for both grind ranges, and independent evidence about a consequential compromise. We excluded filter-only grinders, the older Opus and Encore ESP, and machines whose exact US version or evidence did not support this comparison. These are workflow picks, not a blind taste ranking.",
+      "kind": "text",
+      "context": "This guide is for a US kitchen making both real espresso and pour-over with one electric grinder. We included only exact current models with a Coffeedant full review, manufacturer support for both grind ranges, and independent evidence about a consequential compromise. We excluded filter-only grinders, the older Opus and Encore ESP, and machines whose exact US version or evidence did not support this comparison. These are workflow picks, not a blind taste ranking. [1] [2] [3] [4] [5] [6]"
+    },
+    {
+      "id": "2baf6e601ddb85b619dd0bc1b4ebae472baf44fd77c831ee8a8985d7bbb90cce",
+      "source": "If espresso is the daily drink and pour-over occasional, favor a repeatable espresso return and a catch cup that works with your basket. If light-roast pour-over is the main event, demand independent filter-cup evidence: a manufacturer’s all-purpose claim establishes a grind range, not that the filter cup will satisfy you. The Coffee Chronicler’s Opus 2 sample is the caution here.",
+      "kind": "text",
+      "context": "If espresso is the daily drink and pour-over occasional, favor a repeatable espresso return and a catch cup that works with your basket. If light-roast pour-over is the main event, demand independent filter-cup evidence: a manufacturer’s all-purpose claim establishes a grind range, not that the filter cup will satisfy you. The Coffee Chronicler’s Opus 2 sample is the caution here. [1] [4]"
+    },
+    {
+      "id": "9d79a05f56d6ca3b3abe5887bb6fe9857a741a153a7759decf2bb7b453b48b35",
+      "source": "The other choice is whether beans stay in a hopper. A filled hopper removes a daily weighing step but makes changing coffees more cumbersome. Single dosing helps keep separate bags separate, though it does not remove every retained ground. If you brew the same coffee for both methods, carryover matters less than return-to-setting effort.",
+      "kind": "text",
+      "context": "The other choice is whether beans stay in a hopper. A filled hopper removes a daily weighing step but makes changing coffees more cumbersome. Single dosing helps keep separate bags separate, though it does not remove every retained ground. If you brew the same coffee for both methods, carryover matters less than return-to-setting effort. [2] [3] [6]"
+    },
+    {
+      "id": "9d596f6c795d7dad30f51cd3eb7e5b307da8f3c7c60154c44125da4ccbff8c25",
+      "source": "Start with the espresso recipe that already works in your machine. Note the exact grinder mark, dose and basket. Then move to your pour-over setting and record that position with the dripper, dose and water recipe. On the return, use those notes as a starting point and dial in again: burr position, bean age and the coffee itself can change the shot. A scale and written recipe are more useful than assuming the same printed mark always yields the same cup.",
+      "kind": "text",
+      "context": "Start with the espresso recipe that already works in your machine. Note the exact grinder mark, dose and basket. Then move to your pour-over setting and record that position with the dripper, dose and water recipe. On the return, use those notes as a starting point and dial in again: burr position, bean age and the coffee itself can change the shot. A scale and written recipe are more useful than assuming the same printed mark always yields the same cup."
+    },
+    {
+      "id": "bb9a883b48303a0488e9efac1ef9aabd99ca354c12750284897ca3a050afd96e",
+      "source": "The Encore ESP Pro offers a stepless collar and either timed hopper dosing or single dosing. The Opus 2 uses a single side dial and two dedicated cups. Eureka’s Zero 65 All Purpose uses a large micrometric dial and single-dose kit. All three can change grind range; none removes the need to reset dose and evaluate the next brew. These controls are manufacturer descriptions, not Coffeedant-measured repeatability.",
+      "kind": "text",
+      "context": "The Encore ESP Pro offers a stepless collar and either timed hopper dosing or single dosing. The Opus 2 uses a single side dial and two dedicated cups. Eureka’s Zero 65 All Purpose uses a large micrometric dial and single-dose kit. All three can change grind range; none removes the need to reset dose and evaluate the next brew. These controls are manufacturer descriptions, not Coffeedant-measured repeatability. [1] [2] [3]"
+    },
+    {
+      "id": "38ad08a6e9c2211985c36cf142171fd52fad5fbab0f90bf65ca407e8b0165d97",
+      "source": "When switching between different beans as well as brew methods, a small purge may be sensible. How much depends on the machine and your tolerance for mixed grounds; we have no Coffeedant exchange-retention measurement. Eureka’s published anti-retention claims and the Kaffeemacher sample use different protocols, so neither is a universal promise for your kitchen.",
+      "kind": "text",
+      "context": "When switching between different beans as well as brew methods, a small purge may be sensible. How much depends on the machine and your tolerance for mixed grounds; we have no Coffeedant exchange-retention measurement. Eureka’s published anti-retention claims and the Kaffeemacher sample use different protocols, so neither is a universal promise for your kitchen. [3] [6]"
+    },
+    {
+      "id": "efe63e32f0185fec75faeb7c5f63a00406964b63adce2cd0e50a61f9abcd8ed9",
+      "source": "Choose the daily routine",
+      "kind": "text",
+      "context": "Choose the daily routine"
+    },
+    {
+      "id": "6433697c9f108983d293e213fcaefb293204010274315d99648218b79ce7832d",
+      "source": "Scrollable espresso and pour-over grinder comparison",
+      "kind": "attribute",
+      "context": "Choose the daily routineQuick comparisonExact US model identities; selection is by workflow, not a measured taste or price rankGrinderBest forChange routineWho should skipBaratza Encore ESP ProA shared hopper and timed routineStepless collar; save a starting position for each brewYou need verified low carryover between different coffees or want to avoid a hopper.Fellow Opus 2Simple single-dose brew changesOne stepless side dial; record espresso and filter marksPour-over is your primary drink and a strong light-roast filter cup matters more than a quick switch.Eureka Mignon Zero 65 All PurposeMarked adjustment with a single-dose routineStepless large dial with revolution referenceYou want a filled hopper, one-button timed dosing or a guaranteed purge-free switch."
+    },
+    {
+      "id": "02a40530c5290552b504428e900eb655e142b53fa79d04ca30253f8332555377",
+      "source": "Exact US model identities; selection is by workflow, not a measured taste or price rank",
+      "kind": "text",
+      "context": "Exact US model identities; selection is by workflow, not a measured taste or price rank"
+    },
+    {
+      "id": "a6f3a3f179e7f595f9bab7d6fb578f8fc505e0d8b018eaf38a758bfa6c701dca",
+      "source": "Change routine",
+      "kind": "text",
+      "context": "Change routine"
+    },
+    {
+      "id": "a0e9e32eef88bd8e20e951ecd2b962ca13db8bd45d1fcd42ae10f88943c6713d",
+      "source": "Who should skip",
+      "kind": "text",
+      "context": "Who should skip"
+    },
+    {
+      "id": "b528260f9ca0be6ba3e950e084ad2520189b7fefbcd0b246feca1bf6ceee3311",
+      "source": "A shared hopper and timed routine",
+      "kind": "text",
+      "context": "A shared hopper and timed routine"
+    },
+    {
+      "id": "b0ba6879ff6ee6bb0db954c3933b3c32e2511c28ca19052051badce599232c65",
+      "source": "Stepless collar; save a starting position for each brew",
+      "kind": "text",
+      "context": "Stepless collar; save a starting position for each brew"
+    },
+    {
+      "id": "5d76e4bef13fc8c3a6e8254f9bc04cf905e8a34b6c1fe8cdf4b9f4b0e03a3eed",
+      "source": "You need verified low carryover between different coffees or want to avoid a hopper.",
+      "kind": "text",
+      "context": "You need verified low carryover between different coffees or want to avoid a hopper."
+    },
+    {
+      "id": "0ad53c71caf65b3b9ee5e2e6c239182ee9ec74e1a9e08b9955b0835b469db313",
+      "source": "Simple single-dose brew changes",
+      "kind": "text",
+      "context": "Simple single-dose brew changes"
+    },
+    {
+      "id": "488682ad587fb807f94e36ebe7e15ca7002286039bbaf62efadcccd76cc5f905",
+      "source": "One stepless side dial; record espresso and filter marks",
+      "kind": "text",
+      "context": "One stepless side dial; record espresso and filter marks"
+    },
+    {
+      "id": "59417735b3394881544c66442a2a9f47e5f58a2241779b7bcae22ee9513941c1",
+      "source": "Pour-over is your primary drink and a strong light-roast filter cup matters more than a quick switch.",
+      "kind": "text",
+      "context": "Pour-over is your primary drink and a strong light-roast filter cup matters more than a quick switch."
+    },
+    {
+      "id": "95007189749db6af96fcbc388ff5ed070fe89ddfaa04bba7d8d337f1177e1854",
+      "source": "Marked adjustment with a single-dose routine",
+      "kind": "text",
+      "context": "Marked adjustment with a single-dose routine"
+    },
+    {
+      "id": "b1c1477a9ee8865d1883d592fe77e3d1f90ede1160c21d85d36828e8e22e1443",
+      "source": "Stepless large dial with revolution reference",
+      "kind": "text",
+      "context": "Stepless large dial with revolution reference"
+    },
+    {
+      "id": "aee9997ad3acde52f49fe833d64d01bc666e511cf40071909c9e27625064e74d",
+      "source": "You want a filled hopper, one-button timed dosing or a guaranteed purge-free switch.",
+      "kind": "text",
+      "context": "You want a filled hopper, one-button timed dosing or a guaranteed purge-free switch."
+    },
+    {
+      "id": "84248e2d42ecf510def5ac1368d773484041c71b6aa3e5e1bdf453feeef21671",
+      "source": "Exact model, explicit limit",
+      "kind": "text",
+      "context": "Exact model, explicit limit"
+    },
+    {
+      "id": "2b903f07aba01dced91b8e62541e91aac2e9c57b410e2321b8e39015edc53aef",
+      "source": "Three starting points",
+      "kind": "text",
+      "context": "Three starting points"
+    },
+    {
+      "id": "a9e47f1fd029579a16782cdbc26194eb944ee0f77c419a2dd924bd2e8a3e4235",
+      "source": "Why it fits:",
+      "kind": "text",
+      "context": "Why it fits:"
+    },
+    {
+      "id": "f4c49d2692b9187dcad9e1d42214e6e38b21197db38ef34e1a4849990e002aaa",
+      "source": "Baratza explicitly supports espresso through pour-over and gives the Encore ESP Pro both a timed hopper mode and a single-dose mode. That is a useful compromise when several people make different drinks without weighing every dose.",
+      "kind": "text",
+      "context": "Baratza explicitly supports espresso through pour-over and gives the Encore ESP Pro both a timed hopper mode and a single-dose mode. That is a useful compromise when several people make different drinks without weighing every dose. [2]"
+    },
+    {
+      "id": "5c5b88a6eed1dc6b77b9f81b9460e4e02d4e553f5c8e5f7e31b18fc851eb3a6e",
+      "source": "Expert Reviews found an empty-hopper auto-stop that sometimes needed a manual stop and an awkward first cleaning on its UK sample. Neither observation is a rate for all US units.",
+      "kind": "text",
+      "context": "Expert Reviews found an empty-hopper auto-stop that sometimes needed a manual stop and an awkward first cleaning on its UK sample. Neither observation is a rate for all US units. [5]"
+    },
+    {
+      "id": "c7e456b1a28802f171f630af26b9cd1e49072e6c18d2a612318df8bac2bd9ee6",
+      "source": ". Manufacturer or seller identification media; no Coffeedant test photo.",
+      "kind": "text",
+      "context": "Image and product: Baratza. Manufacturer or seller identification media; no Coffeedant test photo."
+    },
+    {
+      "id": "45f1a7c3c1a5b82b91e1eff4f5e870092fa71c8a321188d80b0301f716e760b9",
+      "source": "Fellow replaced the original Opus inner adjustment ring with one stepless control and two dedicated catch cups. The Coffee Chronicler found its sample quick and tidy for espresso-to-filter changes.",
+      "kind": "text",
+      "context": "Fellow replaced the original Opus inner adjustment ring with one stepless control and two dedicated catch cups. The Coffee Chronicler found its sample quick and tidy for espresso-to-filter changes. [1] [4]"
+    },
+    {
+      "id": "81d4c877f6c59b868657be06e06116930a20f9e7ed1537f18294223e2b3e5562",
+      "source": "That reviewer considered light-roast filter cups merely passable and criticized the plastic grind chamber. This is a useful espresso-first choice, not a proven pour-over taste winner.",
+      "kind": "text",
+      "context": "That reviewer considered light-roast filter cups merely passable and criticized the plastic grind chamber. This is a useful espresso-first choice, not a proven pour-over taste winner. [4]"
+    },
+    {
+      "id": "15be4cceff9ddf4d4a07da1679a9c2cc1c5ef5144aaccf7ac6c7e8119345f8ed",
+      "source": "Eureka names the exact Zero 65 All Purpose for both espresso and filter, with 65 mm all-purpose flat burrs, a larger adjustment dial and a dosing kit. The marked dial makes a written return point more practical than a tiny unmarked knob.",
+      "kind": "text",
+      "context": "Eureka names the exact Zero 65 All Purpose for both espresso and filter, with 65 mm all-purpose flat burrs, a larger adjustment dial and a dosing kit. The marked dial makes a written return point more practical than a tiny unmarked knob. [3]"
+    },
+    {
+      "id": "4f9a90ceeb482692b77847a9541cc8995f3e43c65c06d9e38c823874635b9dc1",
+      "source": "Kaffeemacher found nonzero retained grounds in its sample protocol. A bellows and a model named “Zero” do not prove complete exchange when changing beans.",
+      "kind": "text",
+      "context": "Kaffeemacher found nonzero retained grounds in its sample protocol. A bellows and a model named “Zero” do not prove complete exchange when changing beans. [6]"
+    },
+    {
+      "id": "e48304458ad38f921802b503feea9d0faeebbd6afd87b048568de9ee418bc531",
+      "source": "What changes between cups",
+      "kind": "text",
+      "context": "What changes between cups"
+    },
+    {
+      "id": "929e775010b2819d74f6ac2b11aad8d3bb56531aa9c1d1b4b4d95aed61226f87",
+      "source": "Scrollable detailed dual-brew grinder comparison",
+      "kind": "attribute",
+      "context": "What changes between cupsDetailed comparisonDocumented controls and research-led fit; no Coffeedant performance measurementFactorEncore ESP ProOpus 2Mignon Zero 65 All PurposeDose routineHopper with timer or supplied single-dose lidWeigh each dose; swap espresso and brew catch cupsWeigh each dose; use cup or adjustable fork and bellowsChange and returnStepless collar; save a starting position for each brewOne stepless side dial; record espresso and filter marksStepless large dial with revolution referenceMain limitationExpert Reviews found an empty-hopper auto-stop that sometimes needed a manual stop and an awkward first cleaning on its UK sample. Neither observation is a rate for all US units. [5]That reviewer considered light-roast filter cups merely passable and criticized the plastic grind chamber. This is a useful espresso-first choice, not a proven pour-over taste winner. [4]Kaffeemacher found nonzero retained grounds in its sample protocol. A bellows and a model named “Zero” do not prove complete exchange when changing beans. [6]Avoid ifYou need verified low carryover between different coffees or want to avoid a hopper.Pour-over is your primary drink and a strong light-roast filter cup matters more than a quick switch.You want a filled hopper, one-button timed dosing or a guaranteed purge-free switch."
+    },
+    {
+      "id": "e5a1f66ab871c36d91ad5c9aa70dc0e0256cff778fed11d519b556b572c8e247",
+      "source": "Documented controls and research-led fit; no Coffeedant performance measurement",
+      "kind": "text",
+      "context": "Documented controls and research-led fit; no Coffeedant performance measurement"
+    },
+    {
+      "id": "86f434302bf68af4bf6b1d7ada9faf5ac4a2288eb8591583bf79eaf2c94d2b39",
+      "source": "Hopper with timer or supplied single-dose lid",
+      "kind": "text",
+      "context": "Hopper with timer or supplied single-dose lid"
+    },
+    {
+      "id": "9178ce2a5ad8ec9aac4d2761c99ec4265436ac1caab9567696b540a4a52cecce",
+      "source": "Weigh each dose; swap espresso and brew catch cups",
+      "kind": "text",
+      "context": "Weigh each dose; swap espresso and brew catch cups"
+    },
+    {
+      "id": "cbce6ef072bc9f1c107223e9dd640bbd14df35d121686ecf03cdaaf302be83d0",
+      "source": "Weigh each dose; use cup or adjustable fork and bellows",
+      "kind": "text",
+      "context": "Weigh each dose; use cup or adjustable fork and bellows"
+    },
+    {
+      "id": "fbe8756e8731ee524e6aa1877e3360c7113c999550b9833ab48f30cbf7156c48",
+      "source": "Change and return",
+      "kind": "text",
+      "context": "Change and return"
+    },
+    {
+      "id": "d1716eaaeb94f38d568ea070e466c9c4695d7dd450e30032f2b8847f1d32443e",
+      "source": "Main limitation",
+      "kind": "text",
+      "context": "Main limitation"
+    },
+    {
+      "id": "bb503aa7cac59d4eac63a99e93592e4a19bf33c207c4c1ed2dcdb84626a02cfe",
+      "source": "Expert Reviews found an empty-hopper auto-stop that sometimes needed a manual stop and an awkward first cleaning on its UK sample. Neither observation is a rate for all US units. [5]",
+      "kind": "text",
+      "context": "Expert Reviews found an empty-hopper auto-stop that sometimes needed a manual stop and an awkward first cleaning on its UK sample. Neither observation is a rate for all US units. [5]"
+    },
+    {
+      "id": "05b19dd95f0d05eda65d19a3e73c5e0ffbcfb22dd50405de5b04f6ef38e4d9c0",
+      "source": "That reviewer considered light-roast filter cups merely passable and criticized the plastic grind chamber. This is a useful espresso-first choice, not a proven pour-over taste winner. [4]",
+      "kind": "text",
+      "context": "That reviewer considered light-roast filter cups merely passable and criticized the plastic grind chamber. This is a useful espresso-first choice, not a proven pour-over taste winner. [4]"
+    },
+    {
+      "id": "99ee9d965b95a8d553de0545891edf8aac69a576318d6b58444823e9f80332e9",
+      "source": "Kaffeemacher found nonzero retained grounds in its sample protocol. A bellows and a model named “Zero” do not prove complete exchange when changing beans. [6]",
+      "kind": "text",
+      "context": "Kaffeemacher found nonzero retained grounds in its sample protocol. A bellows and a model named “Zero” do not prove complete exchange when changing beans. [6]"
+    },
+    {
+      "id": "4c5348708fd820e9e7d7e27bcf831bf5bcc4fb4fd9b84446a95b0b4bfc7fdbf6",
+      "source": "Live with the choice",
+      "kind": "text",
+      "context": "Live with the choice"
+    },
+    {
+      "id": "d36e04db86137a5b73de7bcd68e6b7a71d5d4755157fd681cc84d376f86093d0",
+      "source": "The Coffee Chronicler liked its Opus 2 sample’s espresso workflow, yet preferred another grinder for light-roast filter brews in its own side-by-side comparisons. This does not prove everyone will taste the same difference. It does show why a buyer who mostly drinks delicate pour-over should not equate “grinds for filter” with a filter-first recommendation.",
+      "kind": "text",
+      "context": "The Coffee Chronicler liked its Opus 2 sample’s espresso workflow, yet preferred another grinder for light-roast filter brews in its own side-by-side comparisons. This does not prove everyone will taste the same difference. It does show why a buyer who mostly drinks delicate pour-over should not equate “grinds for filter” with a filter-first recommendation. [4]"
+    },
+    {
+      "id": "bd7766ef57c006a59244529dea95c3c2799b3f25141ca6d01ef20b4ba25d7004",
+      "source": "Expert Reviews found the Encore ESP Pro broadly useful across espresso and filter in a UK review. Its sample’s empty-hopper stopping behavior and initial cleaning difficulty are relevant to a household that changes brew methods often. We use those as observed limitations, not as evidence that every US unit behaves alike.",
+      "kind": "text",
+      "context": "Expert Reviews found the Encore ESP Pro broadly useful across espresso and filter in a UK review. Its sample’s empty-hopper stopping behavior and initial cleaning difficulty are relevant to a household that changes brew methods often. We use those as observed limitations, not as evidence that every US unit behaves alike. [5]"
+    },
+    {
+      "id": "1a3f38467ae9576c5b3129a926f9bf982624ef8f8ff239186d431347d371e280",
+      "source": "Eureka’s all-purpose burr and marked dial offer a different value: a focused single-dose path for two brew ranges. The independent Kaffeemacher comparison adds evidence on retained grounds, but cannot turn a paper specification into a head-to-head cup ranking against the other two. Choose this model for the documented controls and routine, then judge both cups using your beans.",
+      "kind": "text",
+      "context": "Eureka’s all-purpose burr and marked dial offer a different value: a focused single-dose path for two brew ranges. The independent Kaffeemacher comparison adds evidence on retained grounds, but cannot turn a paper specification into a head-to-head cup ranking against the other two. Choose this model for the documented controls and routine, then judge both cups using your beans. [3] [6]"
+    },
+    {
+      "id": "ee2c630ba3efd7885b570ac8f637f4c1c36009013ae865a4051de7f88a890acd",
+      "source": "Changing grind range regularly means more attention to the chute, catch cup and burr chamber. Use the exact manual, unplug before cleaning and keep water away from electrical parts unless the maker explicitly permits it. Keep the included dosing accessories together; otherwise a fast change becomes a search for the correct cup. The Opus 2 and Eureka are single-dose routines; the Baratza can remain a hopper grinder.",
+      "kind": "text",
+      "context": "Changing grind range regularly means more attention to the chute, catch cup and burr chamber. Use the exact manual, unplug before cleaning and keep water away from electrical parts unless the maker explicitly permits it. Keep the included dosing accessories together; otherwise a fast change becomes a search for the correct cup. The Opus 2 and Eureka are single-dose routines; the Baratza can remain a hopper grinder. [1] [2] [3]"
+    },
+    {
+      "id": "baeae9c985bb05b1afc683811dd4118b4f40e7ff70ae3cf62726d65260d0a9ec",
+      "source": "These picks also appear in our compact-grinder and regular-to-decaf guides, but those articles answer counter fit and cross-bean carryover. Here the decision is how one grinder returns between espresso and pour-over and where its filter evidence is weak. If a second dedicated filter grinder is feasible, it removes the repeated adjustment and lets you optimize the two cups separately. It takes more money and counter room.",
+      "kind": "text",
+      "context": "These picks also appear in our compact-grinder and regular-to-decaf guides, but those articles answer counter fit and cross-bean carryover. Here the decision is how one grinder returns between espresso and pour-over and where its filter evidence is weak. If a second dedicated filter grinder is feasible, it removes the repeated adjustment and lets you optimize the two cups separately. It takes more money and counter room."
+    },
+    {
+      "id": "4a14c8a5f3b33f92880017a83974ea67cb82c16933bdf1650e31a416fac538d9",
+      "source": "No comparable delivered US checkout total was verified for all three exact models on November 3, 2026. This guide therefore quotes no current price, discount or value-per-dollar ranking. Check the current US variant, voltage, shipping, tax and return terms in the seller’s cart. A scale and cleaning tools belong in the whole-station budget.",
+      "kind": "text",
+      "context": "No comparable delivered US checkout total was verified for all three exact models on November 3, 2026. This guide therefore quotes no current price, discount or value-per-dollar ranking. Check the current US variant, voltage, shipping, tax and return terms in the seller’s cart. A scale and cleaning tools belong in the whole-station budget."
+    },
+    {
+      "id": "772138e0f5f8df73eef46ea69fd0aa86f37d631a13684394a374086f178af922",
+      "source": "Neighboring decisions",
+      "kind": "text",
+      "context": "Neighboring decisions"
+    },
+    {
+      "id": "47bae15202094c49a1eace63bb28867337a6e854742213d9739b6e74aa8c424a",
+      "source": "Keep the question clear",
+      "kind": "text",
+      "context": "Keep the question clear"
+    },
+    {
+      "id": "a34ac02d8e358645ba88b80942195773531605b893feecbe184aa947774dc3ae",
+      "source": "Compact electric grinders",
+      "kind": "text",
+      "context": "Compact electric grinders"
+    },
+    {
+      "id": "873574ff814fcb86512f2ee7f418b218c5f61966836811b22bccabbafd7517a7",
+      "source": "Compare actual body dimensions and clearance.",
+      "kind": "text",
+      "context": "Compare actual body dimensions and clearance."
+    },
+    {
+      "id": "3fd867402bec31ab8df116dcc504d77b4a5d34b6010a14543199c9fd01042b10",
+      "source": "Regular and decaf switching",
+      "kind": "text",
+      "context": "Regular and decaf switching"
+    },
+    {
+      "id": "2a9631fae8d323ed6a105bca7a623d62d29b1dafbdd4a8421f8f34d958fae8b3",
+      "source": "Focus on bean carryover rather than two brew methods.",
+      "kind": "text",
+      "context": "Focus on bean carryover rather than two brew methods."
+    },
+    {
+      "id": "2def1a51e04911f0fa5b609eade9c8d9c1a731512cadcc74fde4fb9aa7f53c30",
+      "source": "Consider a dedicated grinder when one unit is too much compromise.",
+      "kind": "text",
+      "context": "Consider a dedicated grinder when one unit is too much compromise."
+    },
+    {
+      "id": "1991a49e78b77c66f1b90015bc303728d4846d421229349f5abbb91eed1f9f4f",
+      "source": "We screened current exact US grinder reviews for manufacturer support across espresso and pour-over, then compared dosing, adjustment and return routines. Independent reviewers supply bounded sample observations. We did not use a manufacturer’s “all-purpose” label as proof of a particular cup result or treat one reviewer’s sample as a reliability rate.",
+      "kind": "text",
+      "context": "We screened current exact US grinder reviews for manufacturer support across espresso and pour-over, then compared dosing, adjustment and return routines. Independent reviewers supply bounded sample observations. We did not use a manufacturer’s “all-purpose” label as proof of a particular cup result or treat one reviewer’s sample as a reliability rate."
+    },
+    {
+      "id": "5849343f6d95a5a95e38662d53f9e700ad66a0fe32d8ca1548ee2f2d066e9ed5",
+      "source": "Sources were checked November 3, 2026. No Coffeedant hands-on grinding, taste comparison, retention test or delivered-price comparison is claimed. Product images are credited identification media. The best-for labels are editorial inferences from the cited controls and observed limitations. Affiliate links in the full reviews do not determine inclusion.",
+      "kind": "text",
+      "context": "Sources were checked November 3, 2026. No Coffeedant hands-on grinding, taste comparison, retention test or delivered-price comparison is claimed. Product images are credited identification media. The best-for labels are editorial inferences from the cited controls and observed limitations. Affiliate links in the full reviews do not determine inclusion."
+    },
+    {
+      "id": "99674a97b90dee7a82a82162a7e0a8c27f2d1125af68326ca66bb44399bb6606",
+      "source": "Espresso and pour-over grinder FAQ",
+      "kind": "text",
+      "context": "Espresso and pour-over grinder FAQ"
+    },
+    {
+      "id": "f83dcab69f44af7a14b4214a4b37e025c37467c779f3e2ede7ab34f9968a9eed",
+      "source": "Can one grinder really handle espresso and pour-over?",
+      "kind": "text",
+      "context": "Can one grinder really handle espresso and pour-over?"
+    },
+    {
+      "id": "0f34e40844b5bd2209af3e5cbb15b9364c2bc30d61c39723a5ac523278e208f1",
+      "source": "These three manufacturers specify both grind ranges. Cup quality and the ease of returning to a setting differ; use the exact-model tradeoffs and your own brewing results.",
+      "kind": "text",
+      "context": "These three manufacturers specify both grind ranges. Cup quality and the ease of returning to a setting differ; use the exact-model tradeoffs and your own brewing results."
+    },
+    {
+      "id": "fd2c3a044435e8865ef276ed28725c402bafd66760d509bd63e44c924cefd5df",
+      "source": "Which pick suits a hopper household?",
+      "kind": "text",
+      "context": "Which pick suits a hopper household?"
+    },
+    {
+      "id": "32b16eb21e696b7f7919d41457cbfb7ac9ab48bcb9c5a2458bffc5efa9b46b28",
+      "source": "The Encore ESP Pro is the only pick here with a timed hopper routine as well as a single-dose option. Changing coffees in a loaded hopper still takes planning.",
+      "kind": "text",
+      "context": "The Encore ESP Pro is the only pick here with a timed hopper routine as well as a single-dose option. Changing coffees in a loaded hopper still takes planning."
+    },
+    {
+      "id": "92f9e4fd9e4dd5e13b4802d5d1732e2f652ebe27285fbd2cd30910daf8692ad0",
+      "source": "Which pick has the simplest single-dose adjustment?",
+      "kind": "text",
+      "context": "Which pick has the simplest single-dose adjustment?"
+    },
+    {
+      "id": "4fe1528f0e4b85dc6a4fa520421b254549a9a3e23cbb3bb9f717d8714c98e436",
+      "source": "The Opus 2 uses one stepless side dial and dedicated espresso and brew cups. Its independent filter-cup evidence is weaker than its espresso workflow evidence.",
+      "kind": "text",
+      "context": "The Opus 2 uses one stepless side dial and dedicated espresso and brew cups. Its independent filter-cup evidence is weaker than its espresso workflow evidence."
+    },
+    {
+      "id": "cddf0c6113ca06a76d801684135d382bcfc992e0020ab9895806805b9fc614a6",
+      "source": "Does the Eureka leave zero old grounds?",
+      "kind": "text",
+      "context": "Does the Eureka leave zero old grounds?"
+    },
+    {
+      "id": "ddf95de0f88897aa4a44701f3f7dbefe9a4a43d9ef812999752db6e11f75d584",
+      "source": "No universal zero-retention claim is supported. Kaffeemacher found retained grounds in a sample protocol; use the bellows and decide whether a purge is needed.",
+      "kind": "text",
+      "context": "No universal zero-retention claim is supported. Kaffeemacher found retained grounds in a sample protocol; use the bellows and decide whether a purge is needed."
+    },
+    {
+      "id": "af652e4fc7a04e587b0a17ccfad503ba5e764941cba3ad65518b0b05fb40aad5",
+      "source": "Will a saved espresso dial mark always work after pour-over?",
+      "kind": "text",
+      "context": "Will a saved espresso dial mark always work after pour-over?"
+    },
+    {
+      "id": "0ef00f7833336ca46dd9a13ba9e9213451cd47889c5d64609dc5acfa34810333",
+      "source": "Treat it as a starting point. Bean age, a new coffee and your shot recipe can change the needed setting. Check the next extraction.",
+      "kind": "text",
+      "context": "Treat it as a starting point. Bean age, a new coffee and your shot recipe can change the needed setting. Check the next extraction."
+    },
+    {
+      "id": "003179e33f53aedc9c3f84047a73e458e82f69f035beada9867b5e3b1541e72c",
+      "source": "Did Coffeedant test these three side by side?",
+      "kind": "text",
+      "context": "Did Coffeedant test these three side by side?"
+    },
+    {
+      "id": "24bec1b1c3d929a05264e7487c0d39c4d5e411253701693484cb2a0120bf9d7b",
+      "source": "No. This is a research-led comparison of exact manufacturer documents and attributed independent samples, with no Coffeedant grinding or tasting claim.",
+      "kind": "text",
+      "context": "No. This is a research-led comparison of exact manufacturer documents and attributed independent samples, with no Coffeedant grinding or tasting claim."
+    },
+    {
+      "id": "c0d772eaf23d4d6bc1eb264e4faf292f1a08a79c0ce3f45e9ce603398778438e",
+      "source": "Is this a current US price ranking?",
+      "kind": "text",
+      "context": "Is this a current US price ranking?"
+    },
+    {
+      "id": "1d626bd73f269ec74ababd34b2a10a63b0971af02a70bc3252e641a35761f1cc",
+      "source": "No. Comparable delivered totals were not verified. Check the exact US model and live seller checkout before purchase.",
+      "kind": "text",
+      "context": "No. Comparable delivered totals were not verified. Check the exact US model and live seller checkout before purchase."
+    },
+    {
+      "id": "0e768f7ea7fac7203018d2868dfd1649de9090cd03fb889ff4a7ab30838cbb0e",
+      "source": "Fellow, Opus 2 US product ↗",
+      "kind": "text",
+      "context": "Fellow, Opus 2 US product ↗"
+    },
+    {
+      "id": "0b6f38ca2a16a5718daaa2c64d3ea4cb6da16c688090c4089230afe361ac4820",
+      "source": "Exact second generation, single-dose controls, espresso and brew cups. Checked November 3, 2026.",
+      "kind": "text",
+      "context": "Exact second generation, single-dose controls, espresso and brew cups. Checked November 3, 2026."
+    },
+    {
+      "id": "8440b6af207d6f174f2a0b15a4e8c3a660054d432941b2e98c331a4aeb88ffa8",
+      "source": "Baratza, Encore ESP Pro US product ↗",
+      "kind": "text",
+      "context": "Baratza, Encore ESP Pro US product ↗"
+    },
+    {
+      "id": "f65571405363060903ca52416ea97da32c0009d9a8b512e18f058ec5dc67d63d",
+      "source": "Exact US product, stepless grind range, timer and single-dose modes. Checked November 3, 2026.",
+      "kind": "text",
+      "context": "Exact US product, stepless grind range, timer and single-dose modes. Checked November 3, 2026."
+    },
+    {
+      "id": "c770fdb68ea53d99c25fa5ab6de6abe7d8f7b1364dded782765b8c58b5914eef",
+      "source": "Eureka, Mignon Zero 65 All Purpose ↗",
+      "kind": "text",
+      "context": "Eureka, Mignon Zero 65 All Purpose ↗"
+    },
+    {
+      "id": "de4c2acba9abacadc7422ada42bec1520889d837c7319ce2f9769c2bf6d1eaa6",
+      "source": "Exact all-purpose model, 65 mm burrs, adjustment and dosing kit. Checked November 3, 2026.",
+      "kind": "text",
+      "context": "Exact all-purpose model, 65 mm burrs, adjustment and dosing kit. Checked November 3, 2026."
+    },
+    {
+      "id": "b36a9c4935d54ccbd6e530df624b33e75a4055bd4d176b3dc511dcc17ecab091",
+      "source": "The Coffee Chronicler, Opus 2 sample review ↗",
+      "kind": "text",
+      "context": "The Coffee Chronicler, Opus 2 sample review ↗"
+    },
+    {
+      "id": "6ddd94743c6da987daab8a2c3088b094ac476b4b7e0922966ee871dd697b8c89",
+      "source": "September 2026 independent sample; espresso workflow and filter-cup limitation. Checked November 3, 2026.",
+      "kind": "text",
+      "context": "September 2026 independent sample; espresso workflow and filter-cup limitation. Checked November 3, 2026."
+    },
+    {
+      "id": "3aa8cf99bd57d3d9b84bcce7740c6b4076ed8d28366bdfdd1a4bb9e7fd559b9b",
+      "source": "Expert Reviews, Encore ESP Pro sample ↗",
+      "kind": "text",
+      "context": "Expert Reviews, Encore ESP Pro sample ↗"
+    },
+    {
+      "id": "b696c5fa4705a4ed80edb4d6cee610351050e62d772d47fbe2dd0da707002d2a",
+      "source": "April 2026 independent UK sample; broad use, stopping and cleaning limits. Checked November 3, 2026.",
+      "kind": "text",
+      "context": "April 2026 independent UK sample; broad use, stopping and cleaning limits. Checked November 3, 2026."
+    },
+    {
+      "id": "c9e322a46bbfefe850ce2e4664af699eb06ba6fc6969df25d82173d33fd12c8e",
+      "source": "Kaffeemacher, Eureka Zero comparison ↗",
+      "kind": "text",
+      "context": "Kaffeemacher, Eureka Zero comparison ↗"
+    },
+    {
+      "id": "e739fd6c80da33c22395d9b19a0f199ac2c7a943a26f8d64bd2148b3fdd6e456",
+      "source": "Independent sample and retention context for the exact Zero 65 All Purpose. Checked November 3, 2026.",
+      "kind": "text",
+      "context": "Independent sample and retention context for the exact Zero 65 All Purpose. Checked November 3, 2026."
+    },
+    {
+      "id": "706393427ce872f9504888da6ddc8c3b148335a08da30bb63376e1e030097dfc",
+      "source": "Fellow, what changed with Opus 2 ↗",
+      "kind": "text",
+      "context": "Fellow, what changed with Opus 2 ↗"
+    },
+    {
+      "id": "e5a849c89e9b96b0541715314683b8cd37963377f6ecc1d0caaf73f0f9a0574b",
+      "source": "Manufacturer generation distinction and adjustment change. Checked November 3, 2026.",
+      "kind": "text",
+      "context": "Manufacturer generation distinction and adjustment change. Checked November 3, 2026."
+    },
+    {
+      "id": "33f0fbf1349652c581cabaffc4e9a41ac568e7919e9cd3ec1a874a08aaa500a8",
+      "source": "Pick the routine, then check both cups",
+      "kind": "text",
+      "context": "Pick the routine, then check both cups"
+    },
+    {
+      "id": "f1959220ecdd69c1f4ae4ab2154080897794f9f32a98060d3af1cb9fb28737b7",
+      "source": "Choose Encore ESP Pro for shared timed hopper use, Opus 2 for an espresso-first single-dose change, or Zero 65 All Purpose for a marked single-dose return. If delicate pour-over is your priority, weigh the independent filter-cup limitations before buying any one-grinder compromise.",
+      "kind": "text",
+      "context": "Choose Encore ESP Pro for shared timed hopper use, Opus 2 for an espresso-first single-dose change, or Zero 65 All Purpose for a marked single-dose return. If delicate pour-over is your priority, weigh the independent filter-cup limitations before buying any one-grinder compromise."
+    },
+    {
+      "id": "59c99cb637a379b3b4fb0a27ff096cb96727921809117cf018d61748ccf0de5e",
+      "source": "Best Grinders for Espresso and Pour-Over in One Kitchen | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "8651daf6f5646b6a7915d63631b7797d95a79f512f2790706cdb2c89496a3132",
+      "source": "Three exact US grinders for alternating espresso and pour-over: choose by dose routine, return-to-setting effort, and the quality limits of one-grinder compromises.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "9a128dd45313b10060967a492f33505e01ab8c04c51672d62fc03ee392d71c9d",
+      "source": "Best Grinders for Espresso and Pour-Over in One Kitchen",
+      "kind": "json",
+      "context": "headline"
+    },
+    {
+      "id": "0e3e7d9de72c3cb161d423dce0cb309a8bed07ead42771ec66c2c2ac260f917c",
+      "source": "Can one grinder really handle espresso and pour-over?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "ec259fabc7292b2e8eb0a451f9d941878c1fad5e07b5ca3765472c9aa871a4e4",
+      "source": "These three manufacturers specify both grind ranges. Cup quality and the ease of returning to a setting differ; use the exact-model tradeoffs and your own brewing results.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "756d51b6edf798f8588ede011afb7dfe8ed3a05d6a90615bfdf3a35e113dea95",
+      "source": "Which pick suits a hopper household?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "3377e1ba89b5bc5d656410ce0015a7d2e05fea6983501a04fa4161655cb596b5",
+      "source": "The Encore ESP Pro is the only pick here with a timed hopper routine as well as a single-dose option. Changing coffees in a loaded hopper still takes planning.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "fcf7faa47dc31d973cd0f5a9719ab52a3acd10a629d5622eda78d804bf181516",
+      "source": "Which pick has the simplest single-dose adjustment?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "e67a221d80006225c2c44fc73d280310979ed0e22349bd3801c326e88416cfc8",
+      "source": "The Opus 2 uses one stepless side dial and dedicated espresso and brew cups. Its independent filter-cup evidence is weaker than its espresso workflow evidence.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "f367e03508103994b45853b1dc3e8de81ec67976c550f00146499997ee0697a3",
+      "source": "Does the Eureka leave zero old grounds?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "8ddf554d8c570636e1e94c2dc9d24c6fda188259765f81c2eef5d51d5080feac",
+      "source": "No universal zero-retention claim is supported. Kaffeemacher found retained grounds in a sample protocol; use the bellows and decide whether a purge is needed.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "344577bdfdbdd0905c87cba27c31d598aee9fb062130f94b963906d806f1faaa",
+      "source": "Will a saved espresso dial mark always work after pour-over?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "240d100d810f01ca1059a5ac6e6e8587c82bbd51be57d5abd168a32731d46b6a",
+      "source": "Treat it as a starting point. Bean age, a new coffee and your shot recipe can change the needed setting. Check the next extraction.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "7cc81095c26cf90341ee6bcb826642ebc9c4ab4f6ac70d57abaecd02aeb9e70a",
+      "source": "Did Coffeedant test these three side by side?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "8b6a531a41c7b474b23ded4e258189500909e70d1c919e56f0c9c63adb055a69",
+      "source": "No. This is a research-led comparison of exact manufacturer documents and attributed independent samples, with no Coffeedant grinding or tasting claim.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "d4b2c2a0df224e8ccad4fb1cfe37022945653c478429055cfa4e4c02e389d6c3",
+      "source": "Is this a current US price ranking?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "fd2b4d68dd6c4b2655171a2349f39f1c4abcdb37b9d0195ed494c07bbe3cde11",
+      "source": "No. Comparable delivered totals were not verified. Check the exact US model and live seller checkout before purchase.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "c961d3a26eb5d2579fe98a6935aa83cc89e82dd7caad516d778b3fa2703ed483",
+      "source": "06 / Two brew methods",
+      "kind": "text",
+      "context": "06 / Two brew methods"
+    },
+    {
+      "id": "789b985ef3a4312fec2ab9c49a0028a58277fb641a396c1dce47436f7402abe9",
+      "source": "Espresso today. Pour-over tomorrow.",
+      "kind": "text",
+      "context": "Espresso today. Pour-over tomorrow."
+    },
+    {
+      "id": "384e6ca7a8dcbb2d16e55f5aebad2f96b0e7e932e2c60eba8d0867f1c89b6e3e",
+      "source": "Compare three exact grinders by dosing, return-to-setting effort and the limits of their filter-cup evidence.",
+      "kind": "text",
+      "context": "Compare three exact grinders by dosing, return-to-setting effort and the limits of their filter-cup evidence."
+    },
+    {
+      "id": "787a4029d699ba8a49a5ac7fc3593386f6d73358421ed2fc3acd1e064b624166",
+      "source": "Read the dual-brew grinder guide →",
+      "kind": "text",
+      "context": "Read the dual-brew grinder guide →"
+    },
+    {
+      "id": "775ac7ebcf94dc241a436b8bf1ac454bbdc97ba5a8ff6dbd757c09bdaf4636f2",
+      "source": "07 / Buying logic",
+      "kind": "text",
+      "context": "07 / Buying logic"
+    }
+  ],
+  "snapshotHash": "54ab302449c64e0c5624006282038b69ceee3c05da24611d5e78051a5ae75ca7"
+}
