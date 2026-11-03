@@ -1,0 +1,718 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "gaggia-velasca-batch-73.source.json",
+  "snapshotHash": "4cae4e0623945bf84de7ccb3461ad47199e4b32806c428fa958c28987b49d47c",
+  "preserveSource": [
+    5,
+    15,
+    17,
+    119
+  ],
+  "routes": {
+    "nl": {
+      "/espresso-machine/gaggia-velasca-ri8260-3/": "/gaggia-velasca-ri8260-3/",
+      "/espresso-machine/gaggia-velasca-ri8260-3/video/whole-latte-love-4e68554a58374475684677/": "/gaggia-velasca-ri8260-3/video/whole-latte-love-4e68554a58374475684677/"
+    },
+    "de": {
+      "/espresso-machine/gaggia-velasca-ri8260-3/": "/testbericht-gaggia-velasca-ri8260-3/",
+      "/espresso-machine/gaggia-velasca-ri8260-3/video/whole-latte-love-4e68554a58374475684677/": "/gaggia-velasca-ri8260-3/video/whole-latte-love-4e68554a58374475684677/"
+    },
+    "fr": {
+      "/espresso-machine/gaggia-velasca-ri8260-3/": "/machines-expresso/gaggia-velasca-ri8260-3/",
+      "/espresso-machine/gaggia-velasca-ri8260-3/video/whole-latte-love-4e68554a58374475684677/": "/machines-expresso/gaggia-velasca-ri8260-3/video/whole-latte-love-4e68554a58374475684677/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "19 december 2023",
+      "de": "19. Dezember 2023",
+      "fr": "19 décembre 2023"
+    },
+    "1": {
+      "nl": "7.5 van 10",
+      "de": "7.5 von 10",
+      "fr": "7.5 sur 10"
+    },
+    "2": {
+      "nl": "Lees de beoordeling van de Cadorna Prestige",
+      "de": "Testbericht zur Cadorna Prestige lesen",
+      "fr": "Lire l’analyse de la Cadorna Prestige"
+    },
+    "3": {
+      "nl": "Bekijk de actuele vermelding",
+      "de": "Aktuelle Produktlistung prüfen",
+      "fr": "Consulter la fiche actuelle"
+    },
+    "4": {
+      "nl": "Fabrikantgegevens over identiteit, functies en specificaties",
+      "de": "Herstellerangaben zu Identität, Funktionen und technischen Daten",
+      "fr": "Données du fabricant sur l’identité, les fonctions et les caractéristiques"
+    },
+    "6": {
+      "nl": "Keramische molen met vijf standen",
+      "de": "Keramikmahlwerk mit fünf Stufen",
+      "fr": "Moulin céramique à cinq réglages"
+    },
+    "7": {
+      "nl": "Rechtstreekse prijs bij Gaggia North America: $699.00",
+      "de": "Direktpreis bei Gaggia North America: $699.00",
+      "fr": "Prix en vente directe chez Gaggia North America : $699.00"
+    },
+    "8": {
+      "nl": "Gaggia Velasca RI8260-3 beoordeeld: het huidige Amerikaanse pannarello-model voor $699 | Coffeedant",
+      "de": "Gaggia Velasca RI8260-3 im Test: das aktuelle US-Pannarello-Modell für $699 | Coffeedant",
+      "fr": "Analyse de la Gaggia Velasca RI8260-3 : le modèle américain actuel à pannarello à $699 | Coffeedant"
+    },
+    "9": {
+      "nl": "Een op bronnen gebaseerde beoordeling van de Gaggia Velasca over het onopgehelderde RI8260-3-achtervoegsel in de URL, het huidige Noord-Amerikaanse pannarello-model, de keramische molen met tien standen, de prijs van $699 en het onderhoud.",
+      "de": "Eine quellenbasierte Bewertung der Gaggia Velasca zum ungeklärten RI8260-3-Suffix in der URL, zum aktuellen nordamerikanischen Pannarello-Modell, zum Keramikmahlwerk mit zehn Stufen, zum Preis von $699 und zur Pflege.",
+      "fr": "Une analyse documentaire de la Gaggia Velasca portant sur le suffixe RI8260-3 non confirmé de l’URL, le modèle nord-américain actuel à pannarello, le moulin céramique à dix réglages, le prix de $699 et l’entretien."
+    },
+    "11": {
+      "nl": "Gaggia Velasca RI8260-3 beoordeeld: het huidige Amerikaanse pannarello-model voor $699",
+      "de": "Gaggia Velasca RI8260-3 im Test: das aktuelle US-Pannarello-Modell für $699",
+      "fr": "Analyse de la Gaggia Velasca RI8260-3 : le modèle américain actuel à pannarello à $699"
+    },
+    "12": {
+      "nl": "Voor huishoudens die een compacte machine met toegang aan de voorkant, tien maalstanden en een zelf uitneembare zetgroep willen",
+      "de": "Für Haushalte, die eine kompakte Maschine mit Frontzugang, zehn Mahlstufen und selbst entnehmbarer Brühgruppe suchen",
+      "fr": "Pour les foyers qui recherchent une machine compacte à accès frontal, avec dix réglages de mouture et un groupe d’extraction amovible par l’utilisateur"
+    },
+    "13": {
+      "nl": "Een compacte machine met toegang aan de voorkant, tien maalstanden en een zelf uitneembare zetgroep. Het belangrijkste compromis: het achtervoegsel ri8260-3 is niet opgehelderd en melkbereiding is handmatig",
+      "de": "Eine kompakte Maschine mit Frontzugang, zehn Mahlstufen und selbst entnehmbarer Brühgruppe. Der zentrale Kompromiss: Das Suffix ri8260-3 ist ungeklärt und die Milchzubereitung erfolgt manuell",
+      "fr": "Une machine compacte à accès frontal, avec dix réglages de mouture et un groupe d’extraction amovible par l’utilisateur. Le principal compromis : le suffixe ri8260-3 n’est pas confirmé et la préparation du lait est manuelle"
+    },
+    "14": {
+      "nl": "Rechtstreekse prijs bij Gaggia North America; voorraad, belasting, staat en garantie kunnen veranderen",
+      "de": "Direktpreis bei Gaggia North America; Bestand, Steuern, Zustand und Garantie können sich ändern",
+      "fr": "Prix en vente directe chez Gaggia North America ; le stock, les taxes, l’état et la garantie peuvent changer"
+    },
+    "16": {
+      "nl": "Kies het pannarello-model voor handmatige melkbereiding en toegang tot de zetgroep voor eigen onderhoud.",
+      "de": "Wähle das Pannarello-Modell für manuelle Milchzubereitung und Zugang zur Brühgruppe für die eigene Pflege.",
+      "fr": "Choisissez le modèle à pannarello pour préparer le lait manuellement et accéder au groupe d’extraction pour l’entretien."
+    },
+    "18": {
+      "nl": "Kies RI8263/47 als een automatische uitneembare melkkaraf het extra schoonmaakwerk waard is.",
+      "de": "Wähle RI8263/47, wenn eine automatische abnehmbare Milchkaraffe den zusätzlichen Reinigungsaufwand wert ist.",
+      "fr": "Choisissez RI8263/47 si une carafe amovible automatique justifie le nettoyage supplémentaire."
+    },
+    "19": {
+      "nl": "Kies een smallere, eenvoudigere huidige Gaggia met pannarello als vijf maalstanden voldoende zijn.",
+      "de": "Wähle eine schmalere, einfachere aktuelle Gaggia mit Pannarello, wenn fünf Mahlstufen ausreichen.",
+      "fr": "Choisissez une Gaggia actuelle à pannarello plus étroite et plus simple si cinq réglages de mouture suffisent."
+    },
+    "20": {
+      "nl": "Deze URL vermeldt van oudsher RI8260-3. De actuele pagina van Gaggia North America identificeert de huidige Velasca met pannarello, maar vermeldt geen RI-achtervoegsel. Deze beoordeling stelt hem niet stilzwijgend gelijk aan de Velasca Prestige RI8263 en claimt geen ongeverifieerde elektrische modelcode.",
+      "de": "Diese URL nennt historisch RI8260-3. Die aktuelle Seite von Gaggia North America identifiziert die derzeitige Velasca mit Pannarello, nennt aber kein RI-Suffix. Diese Bewertung setzt sie nicht stillschweigend mit der Velasca Prestige RI8263 gleich und behauptet keinen ungeprüften elektrischen Modellcode.",
+      "fr": "Cette URL mentionne historiquement RI8260-3. La page actuelle de Gaggia North America identifie la Velasca actuelle équipée d’un pannarello, mais n’indique aucun suffixe RI. Cette analyse ne l’assimile pas implicitement à la Velasca Prestige RI8263 et n’affirme aucun code électrique non vérifié."
+    },
+    "21": {
+      "nl": "Aparte bediening voor espresso, espresso lungo en speciale dranken, met vijf aromasterktes, drie temperaturen, programmeerbaar volume en instelbare pre-infusie",
+      "de": "Eigene Bedienelemente für Espresso, Espresso Lungo und Spezialgetränke mit fünf Aromastärken, drei Temperaturen, programmierbarer Menge und einstellbarer Vorbrühung",
+      "fr": "Commandes dédiées à l’espresso, à l’espresso lungo et aux boissons spéciales, avec cinq intensités aromatiques, trois températures, volume programmable et pré-infusion réglable"
+    },
+    "22": {
+      "nl": "Handmatige, automatisch beluchtende pannarello voor stoom en heet water; melk blijft een aparte handmatige stap",
+      "de": "Manueller, selbstbelüftender Pannarello für Dampf und Heißwasser; Milch bleibt ein eigener manueller Arbeitsschritt",
+      "fr": "Pannarello manuel à aération automatique pour vapeur et eau chaude ; le lait reste une étape manuelle distincte"
+    },
+    "23": {
+      "nl": "Ingebouwde keramische maalschijven met tien maalstanden, vijf sterkte-instellingen en een doseeropening voor voorgemalen koffie",
+      "de": "Integriertes Keramikmahlwerk mit zehn Mahlstufen, fünf Stärke-Einstellungen und einem Pulverschacht",
+      "fr": "Moulin intégré à meules céramiques avec dix réglages de mouture, cinq réglages d’intensité et une trappe à café prémoulu"
+    },
+    "24": {
+      "nl": "Monochroom display met fysieke drank- en menuknoppen",
+      "de": "Monochromes Display mit physischen Getränke- und Menütasten",
+      "fr": "Écran monochrome avec boutons physiques de boissons et de menu"
+    },
+    "25": {
+      "nl": "Aan de voorkant uitneembaar waterreservoir van 54 oz, bonenreservoir van 10.5 oz en koffiedikbak voor 10 koeken",
+      "de": "Vorn entnehmbarer 54 oz Wassertank, 10.5 oz Bohnenbehälter und Satzbehälter für 10 Kaffeepucks",
+      "fr": "Réservoir d’eau de 54 oz amovible par l’avant, bac à grains de 10.5 oz et bac à marc pour 10 galettes"
+    },
+    "26": {
+      "nl": "10.3 B × 13.5 H × 17 D in; 17.6 lb",
+      "de": "10.3 B × 13.5 H × 17 T in; 17.6 lb",
+      "fr": "10.3 l × 13.5 H × 17 P in ; 17.6 lb"
+    },
+    "27": {
+      "nl": "Onderhoud door de eigenaar",
+      "de": "Pflege durch den Besitzer",
+      "fr": "Entretien par le propriétaire"
+    },
+    "28": {
+      "nl": "Verwijder, spoel en smeer de Gaggia-zetgroep volgens de instructies; leeg de lekbak en koffiedikbak, ontkalk afzonderlijk en spoel de pannarello direct na melkbereiding.",
+      "de": "Entnimm, spüle und schmiere die Gaggia-Brühgruppe nach Anleitung; leere Tropfschale und Satzbehälter, entkalke separat und spüle den Pannarello unmittelbar nach der Milchzubereitung.",
+      "fr": "Retirez, rincez et lubrifiez le groupe d’extraction Gaggia selon les instructions ; videz le bac et le récipient à marc, détartrez séparément et rincez le pannarello immédiatement après le lait."
+    },
+    "29": {
+      "nl": "Het achtervoegsel RI8260-3 is niet opgehelderd en melkbereiding is handmatig",
+      "de": "Das Suffix RI8260-3 ist ungeklärt und die Milchzubereitung erfolgt manuell",
+      "fr": "Le suffixe RI8260-3 n’est pas confirmé et la préparation du lait est manuelle"
+    },
+    "30": {
+      "nl": "Begeleide spoel- en onderhoudsprogramma’s",
+      "de": "Geführte Spül- und Pflegeprogramme",
+      "fr": "Programmes guidés de rinçage et d’entretien"
+    },
+    "31": {
+      "nl": "Het gesloten zetsysteem beperkt de directe toegang tot de koffiekoek",
+      "de": "Das geschlossene Brühsystem begrenzt den direkten Zugang zum Kaffeepuck",
+      "fr": "Le système d’extraction fermé limite l’accès direct à la galette"
+    },
+    "32": {
+      "nl": "De melkonderdelen brengen extra schoonmaakwerk mee",
+      "de": "Die Milchkomponenten verursachen zusätzlichen Reinigungsaufwand",
+      "fr": "Les composants du système lait ajoutent du nettoyage"
+    },
+    "33": {
+      "nl": "Regionale generaties en artikelnummers zijn gemakkelijk te verwarren",
+      "de": "Regionale Generationen und Artikelnummern lassen sich leicht verwechseln",
+      "fr": "Les générations régionales et les références sont faciles à confondre"
+    },
+    "34": {
+      "nl": "Welke exacte Velasca behandelt deze beoordeling?",
+      "de": "Welche genaue Velasca behandelt diese Bewertung?",
+      "fr": "Quelle version précise de la Velasca cette analyse couvre-t-elle ?"
+    },
+    "35": {
+      "nl": "Ja. Ingebouwde keramische maalschijven met tien maalstanden, vijf sterkte-instellingen en een doseeropening voor voorgemalen koffie",
+      "de": "Ja. Integriertes Keramikmahlwerk mit zehn Mahlstufen, fünf Stärke-Einstellungen und einem Pulverschacht",
+      "fr": "Oui. Moulin intégré à meules céramiques avec dix réglages de mouture, cinq réglages d’intensité et une trappe à café prémoulu"
+    },
+    "36": {
+      "nl": "Hoe maakt hij melkdranken?",
+      "de": "Wie bereitet sie Milchgetränke zu?",
+      "fr": "Comment prépare-t-elle les boissons lactées ?"
+    },
+    "37": {
+      "nl": "Wat is de sterkste reden om hem te kopen?",
+      "de": "Was ist der stärkste Kaufgrund?",
+      "fr": "Quelle est la principale raison de l’acheter ?"
+    },
+    "38": {
+      "nl": "Wat is de belangrijkste beperking?",
+      "de": "Was ist die wichtigste Einschränkung?",
+      "fr": "Quelle est sa principale limite ?"
+    },
+    "39": {
+      "nl": "Is het schoonmaken volledig automatisch?",
+      "de": "Läuft die Reinigung vollautomatisch?",
+      "fr": "Le nettoyage est-il entièrement automatique ?"
+    },
+    "40": {
+      "nl": "Nee. Verwijder, spoel en smeer de Gaggia-zetgroep volgens de instructies; leeg de lekbak en koffiedikbak, ontkalk afzonderlijk en spoel de pannarello direct na melkbereiding.",
+      "de": "Nein. Entnimm, spüle und schmiere die Gaggia-Brühgruppe nach Anleitung; leere Tropfschale und Satzbehälter, entkalke separat und spüle den Pannarello unmittelbar nach der Milchzubereitung.",
+      "fr": "Non. Retirez, rincez et lubrifiez le groupe d’extraction Gaggia selon les instructions ; videz le bac et le récipient à marc, détartrez séparément et rincez le pannarello immédiatement après le lait."
+    },
+    "41": {
+      "nl": "Volledige beoordeling van de Gaggia Velasca",
+      "de": "Vollständiger Testbericht zur Gaggia Velasca",
+      "fr": "Analyse complète de la Gaggia Velasca"
+    },
+    "42": {
+      "nl": "Eén totaalscore is alleen nuttig als je ziet waarop die is gebaseerd. De Gaggia Velasca krijgt",
+      "de": "Eine Gesamtnote ist nur hilfreich, wenn ihre Grundlage erkennbar ist. Die Gaggia Velasca erhält",
+      "fr": "Une note globale n’est utile que si l’on comprend ses fondements. La Gaggia Velasca obtient"
+    },
+    "43": {
+      "nl": "Aparte bediening voor espresso, espresso lungo en speciale dranken, met vijf aromasterktes, drie temperaturen, programmeerbaar volume en instelbare pre-infusie, zorgt voor herhaalbare automatische koffie binnen een gesloten systeem.",
+      "de": "Eigene Bedienelemente für Espresso, Espresso Lungo und Spezialgetränke mit fünf Aromastärken, drei Temperaturen, programmierbarer Menge und einstellbarer Vorbrühung ermöglichen wiederholbare automatische Kaffeezubereitung in einem geschlossenen System.",
+      "fr": "Les commandes dédiées à l’espresso, à l’espresso lungo et aux boissons spéciales, avec cinq intensités aromatiques, trois températures, volume programmable et pré-infusion réglable, permettent de reproduire la préparation automatique du café dans un système fermé."
+    },
+    "44": {
+      "nl": "De Velasca heeft een uitneembare zetgroep voor onderhoud door de eigenaar.",
+      "de": "Die Velasca hat eine entnehmbare Brühgruppe für die Pflege durch den Besitzer.",
+      "fr": "La Velasca possède un groupe d’extraction amovible pour l’entretien par le propriétaire."
+    },
+    "45": {
+      "nl": "Bij $699.00 hoort gedateerde informatie over staat, voorraad en garantie.",
+      "de": "Bei $699.00 sind datierte Angaben zu Zustand, Bestand und Garantie nötig.",
+      "fr": "À $699.00, il faut un contexte daté sur l’état, le stock et la garantie."
+    },
+    "46": {
+      "nl": "Het recept aanpassen is eenvoudiger dan de koffiekoek direct beïnvloeden, maar de mogelijkheden hebben een ander plafond.",
+      "de": "Die Rezeptanpassung ist einfacher als die direkte Kontrolle des Kaffeepucks, doch die Leistungsgrenze liegt anders.",
+      "fr": "Ajuster la recette est plus facile que contrôler directement la galette, mais le potentiel reste différent."
+    },
+    "47": {
+      "nl": "Officiële documentatie voor het exacte model, gedateerde marktcontext, onafhankelijke evaluatie en ervaringen van eigenaren gecontroleerd op 23 september 2026",
+      "de": "Offizielle Unterlagen zum genauen Modell, datierter Marktkontext, unabhängige Bewertung und Besitzerberichte am 23. September 2026 geprüft",
+      "fr": "Documentation officielle du modèle exact, contexte de marché daté, évaluation indépendante et témoignages de propriétaires vérifiés le 23 septembre 2026"
+    },
+    "48": {
+      "nl": "Gemak moet samen met de schoonmaakvolgorde worden beoordeeld.",
+      "de": "Komfort muss zusammen mit dem Reinigungsablauf bewertet werden.",
+      "fr": "La commodité doit être évaluée avec la séquence de nettoyage."
+    },
+    "49": {
+      "nl": "De score omvat bijvullen, spoelen en het legen van koffiedikbak en lekbak.",
+      "de": "Die Note berücksichtigt Nachfüllen, Spülen sowie die Arbeit mit Satzbehälter und Tropfschale.",
+      "fr": "La note intègre les remplissages, les rinçages, le marc et le bac."
+    },
+    "50": {
+      "nl": "Een breed drankenaanbod is nuttig als de bediening begrijpelijk blijft.",
+      "de": "Eine große Getränkeauswahl ist nützlich, wenn die Bedienung verständlich bleibt.",
+      "fr": "Une large variété de boissons est utile si les commandes restent compréhensibles."
+    },
+    "51": {
+      "nl": "Vergelijk het volledige gebruik en onderhoud, niet alleen het aantal menuopties.",
+      "de": "Vergleiche den gesamten Besitz- und Pflegealltag, nicht allein die Zahl der Menüoptionen.",
+      "fr": "Comparez l’ensemble du parcours de possession, pas seulement le nombre de boissons au menu."
+    },
+    "52": {
+      "nl": "Velasca: de aankoopbeslissing",
+      "de": "Velasca: die Kaufentscheidung",
+      "fr": "Velasca : la décision d’achat"
+    },
+    "53": {
+      "nl": "De standaard Velasca is een volautomaat met toegang aan de voorkant voor wie meer maalafstelling wil en melk handmatig wil blijven bereiden. Tien standen van de keramische molen, sterkte- en temperatuurinstellingen, instelbare pre-infusie en een uitneembare zetgroep geven nuttige flexibiliteit achter de eenvoudige monochrome bediening. De pannarello blijft een aparte stoomstap; dit is dus niet de Prestige met melkkaraf. Er blijft ook een identiteitsgrens die zichtbaar moet blijven: de huidige Noord-Amerikaanse productpagina bevestigt het pannarello-model zonder het RI-achtervoegsel uit deze URL te vermelden. Het geleverde typeplaatje en de documentatie van de verkoper moeten dat vóór aankoop ophelderen.",
+      "de": "Die Standard-Velasca ist ein Vollautomat mit Frontzugang für alle, die mehr Mahlgradeinstellungen wünschen und Milch weiterhin manuell zubereiten möchten. Zehn Stufen des Keramikmahlwerks, Stärke- und Temperatureinstellungen, einstellbare Vorbrühung und eine entnehmbare Brühgruppe bieten sinnvolle Flexibilität hinter der einfachen monochromen Bedienoberfläche. Der Pannarello bleibt ein eigener Dampfschritt; dies ist also nicht die Prestige mit Milchkaraffe. Auch eine Identitätsgrenze muss sichtbar bleiben: Die aktuelle nordamerikanische Produktseite bestätigt das Pannarello-Modell, nennt aber nicht das RI-Suffix dieser URL. Das gelieferte Typenschild und die Verkäuferunterlagen sollten dieses Detail vor dem Kauf klären.",
+      "fr": "La Velasca standard est une automatique à accès frontal destinée à qui souhaite davantage de réglages de mouture tout en gardant une préparation manuelle du lait. Dix positions du moulin céramique, des réglages d’intensité et de température, une pré-infusion réglable et un groupe amovible offrent une souplesse utile derrière l’interface monochrome simple. Le pannarello reste une étape vapeur distincte : il ne s’agit donc pas de la Prestige à carafe. Une limite d’identification doit aussi rester visible : la page produit nord-américaine actuelle confirme le modèle à pannarello sans indiquer le suffixe RI utilisé dans cette URL. La plaque de la machine livrée et les documents du vendeur doivent clarifier ce détail avant l’achat."
+    },
+    "54": {
+      "nl": "De Velasca installeren",
+      "de": "Die Velasca einrichten",
+      "fr": "Installer la Velasca"
+    },
+    "55": {
+      "nl": "een volautomaat met ingebouwde keramische maalschijven met tien maalstanden, vijf sterkte-instellingen en een doseeropening voor voorgemalen koffie, aparte bediening voor espresso, espresso lungo en speciale dranken met vijf aromasterktes, drie temperaturen, programmeerbaar volume en instelbare pre-infusie, en een handmatige, automatisch beluchtende pannarello voor stoom en heet water; melk blijft een aparte handmatige stap.",
+      "de": "ein Kaffeevollautomat mit integriertem Keramikmahlwerk mit zehn Mahlstufen, fünf Stärke-Einstellungen und einem Pulverschacht, eigenen Bedienelementen für Espresso, Espresso Lungo und Spezialgetränke mit fünf Aromastärken, drei Temperaturen, programmierbarer Menge und einstellbarer Vorbrühung sowie einem manuellen, selbstbelüftenden Pannarello für Dampf und Heißwasser; Milch bleibt ein eigener manueller Arbeitsschritt.",
+      "fr": "une machine à café en grains avec moulin intégré à meules céramiques doté de dix réglages de mouture, cinq réglages d’intensité et une trappe à café prémoulu, des commandes dédiées à l’espresso, à l’espresso lungo et aux boissons spéciales avec cinq intensités aromatiques, trois températures, volume programmable et pré-infusion réglable, ainsi qu’un pannarello manuel à aération automatique pour vapeur et eau chaude ; le lait reste une étape manuelle distincte."
+    },
+    "56": {
+      "nl": "Bevestig de geleverde modelcode bij de verkoper: de huidige Noord-Amerikaanse Velasca-pagina onderbouwt het historische RI8260-3-achtervoegsel in deze URL niet. Het reservoir is aan de voorkant uitneembaar, maar de diepte van 17 in moet nog steeds op het aanrecht passen. Controleer of het aangeboden model de handmatige pannarello heeft en niet de Prestige-melkkaraf.",
+      "de": "Bestätige den gelieferten Modellcode beim Verkäufer: Die aktuelle nordamerikanische Velasca-Seite belegt das historische RI8260-3-Suffix dieser URL nicht. Der Tank lässt sich vorn entnehmen, doch die Tiefe von 17 in muss trotzdem auf die Arbeitsplatte passen. Prüfe, ob das angebotene Modell den manuellen Pannarello statt der Prestige-Karaffe hat.",
+      "fr": "Confirmez le code livré auprès du vendeur : la page nord-américaine actuelle de la Velasca n’établit pas le suffixe historique RI8260-3 de cette URL. Son réservoir se retire par l’avant, mais sa profondeur de 17 in doit tout de même tenir sur le plan de travail. Vérifiez que le modèle proposé possède le pannarello manuel plutôt que la carafe de la Prestige."
+    },
+    "57": {
+      "nl": "Pannarello-opzetstuk voor stoom en heet water van de Gaggia Velasca",
+      "de": "Pannarello-Aufsatz für Dampf und Heißwasser der Gaggia Velasca",
+      "fr": "Accessoire pannarello de vapeur et d’eau chaude de la Gaggia Velasca"
+    },
+    "58": {
+      "nl": "De pannarello bevestigt dat melkbereiding een aparte handmatige stap is op de huidige Noord-Amerikaanse Velasca, in tegenstelling tot de automatische karafbereiding van de Velasca Prestige.",
+      "de": "Der Pannarello bestätigt, dass Milch bei der aktuellen nordamerikanischen Velasca ein eigener manueller Arbeitsschritt ist, anders als die automatische Zubereitung mit der Karaffe der Velasca Prestige.",
+      "fr": "Le pannarello confirme que le lait est une étape manuelle distincte sur la Velasca nord-américaine actuelle, et non la préparation automatique à carafe de la Velasca Prestige."
+    },
+    "59": {
+      "nl": "Velasca-productpagina van Gaggia North America",
+      "de": "Velasca-Produktseite von Gaggia North America",
+      "fr": "Page produit Velasca de Gaggia North America"
+    },
+    "60": {
+      "nl": "Bekijk wat er nog meer past naast de Velasca.",
+      "de": "Sieh dir an, was neben der Velasca noch infrage kommt.",
+      "fr": "Découvrez les autres machines à envisager aux côtés de la Velasca."
+    },
+    "61": {
+      "nl": "De Velasca biedt tien standen van de keramische molen plus sterkte, temperatuur, programmeerbaar volume en instelbare pre-infusie. Die instellingen maken een vergelijking met een Anima met vijf standen zinvol als zwarte koffie vooropstaat. Stel eerst je gebruikelijke espresso goed af voordat je met pre-infusie experimenteert, zodat een veranderd resultaat een herkenbare oorzaak heeft.",
+      "de": "Die Velasca bietet zehn Stufen des Keramikmahlwerks sowie Stärke, Temperatur, programmierbare Menge und einstellbare Vorbrühung. Damit lohnt der Vergleich mit einer Anima mit fünf Stufen, wenn schwarzer Kaffee im Mittelpunkt steht. Stelle zuerst den üblichen Espresso ein, bevor du mit Vorbrühung experimentierst, damit ein verändertes Ergebnis eine erkennbare Ursache hat.",
+      "fr": "La Velasca offre dix positions du moulin céramique, ainsi que l’intensité, la température, le volume programmable et la pré-infusion réglable. Ces commandes justifient une comparaison avec une Anima à cinq réglages lorsque le café noir est prioritaire. Établissez d’abord votre espresso habituel avant d’expérimenter la pré-infusion, afin qu’un résultat modifié ait une cause identifiable."
+    },
+    "62": {
+      "nl": "Bonen, water, dosis, volume en de stabilisatie van de molen veranderen de koffie nog steeds.",
+      "de": "Bohnen, Wasser, Dosis, Menge und das Einpendeln des Mahlwerks verändern weiterhin das Ergebnis in der Tasse.",
+      "fr": "Les grains, l’eau, la dose, le volume et la stabilisation du moulin modifient toujours le résultat en tasse."
+    },
+    "63": {
+      "nl": "De samenstelling en temperatuur van de melk beïnvloeden de textuur.",
+      "de": "Zusammensetzung und Temperatur der Milch beeinflussen die Textur.",
+      "fr": "La composition et la température du lait influencent la texture."
+    },
+    "64": {
+      "nl": "Elke melkbereiding brengt schoonmaakwerk voor dezelfde dag mee.",
+      "de": "Jede Milchzubereitung erzeugt Reinigungsarbeit für denselben Tag.",
+      "fr": "Chaque préparation de lait crée une tâche de nettoyage à effectuer le jour même."
+    },
+    "65": {
+      "nl": "De monochrome bediening past bij een kleine, terugkerende bestelling in plaats van een uitgebreid menu. Koffie is automatisch en melk is een aparte pannarello-taak. Wie automatische cappuccino wil, moet de geverifieerde RI8263/47 Prestige vergelijken in plaats van aan te nemen dat elke Velasca hetzelfde melksysteem heeft.",
+      "de": "Die monochrome Bedienoberfläche passt zu einer kleinen, wiederkehrenden Bestellung statt zu einem großen Menü. Kaffee läuft automatisch, Milch ist eine separate Pannarello-Aufgabe. Wer automatischen Cappuccino möchte, sollte die bestätigte RI8263/47 Prestige vergleichen, statt bei jeder Velasca dasselbe Milchsystem anzunehmen.",
+      "fr": "L’interface monochrome convient à une petite commande récurrente plutôt qu’à un grand menu. Le café est automatique et le lait constitue une tâche distincte au pannarello. Un acheteur souhaitant un cappuccino automatique devrait comparer la Prestige RI8263/47 vérifiée au lieu de supposer que toutes les Velasca possèdent le même système lait."
+    },
+    "66": {
+      "nl": "Opgeslagen dranken helpen pas nadat het recept goed is afgesteld.",
+      "de": "Gespeicherte Getränke helfen erst, wenn das Rezept abgestimmt ist.",
+      "fr": "Les boissons mémorisées ne sont utiles qu’une fois la recette réglée."
+    },
+    "67": {
+      "nl": "10.3 B × 13.5 H × 17 D in; 17.6 lb. De Velasca heeft een zelf uitneembare zetgroep.",
+      "de": "10.3 B × 13.5 H × 17 T in; 17.6 lb. Die Velasca bietet eine selbst entnehmbare Brühgruppe.",
+      "fr": "10.3 l × 13.5 H × 17 P in ; 17.6 lb. La Velasca possède un groupe d’extraction amovible par l’utilisateur."
+    },
+    "68": {
+      "nl": "Aan de voorkant uitneembaar waterreservoir en onderhoudsladen van de Gaggia Velasca",
+      "de": "Vorn entnehmbarer Wassertank und Wartungsschubladen der Gaggia Velasca",
+      "fr": "Réservoir d’eau et tiroirs d’entretien amovibles par l’avant de la Gaggia Velasca"
+    },
+    "69": {
+      "nl": "Toegang aan de voorkant tot water, koffiedik en de zetgroep beperkt het verschuiven van de machine onder bovenkastjes, hoewel het bonenreservoir nog steeds ruimte erboven nodig heeft.",
+      "de": "Frontzugang zu Wasser, Kaffeesatz und Brühgruppe reduziert das Verrücken unter Hängeschränken, obwohl der Bohnenbehälter weiterhin Platz nach oben braucht.",
+      "fr": "L’accès frontal à l’eau, au marc et au groupe d’extraction réduit les manipulations sous les placards, même si le bac à grains nécessite toujours de l’espace au-dessus."
+    },
+    "70": {
+      "nl": "De rechtstreekse prijs bij Gaggia North America bedroeg $699.00: actuele Noord-Amerikaanse vermelding met voorraad; de actuele pagina vermeldt het historische RI8260-3-achtervoegsel niet, dus controleer het geleverde typeplaatje",
+      "de": "Der Direktpreis bei Gaggia North America betrug $699.00: aktuelle nordamerikanische Listung mit Lagerbestand; die aktuelle Seite nennt das historische RI8260-3-Suffix nicht, daher das gelieferte Typenschild prüfen",
+      "fr": "Le prix en vente directe chez Gaggia North America était de $699.00 : fiche nord-américaine actuelle indiquant du stock ; la page actuelle n’indique pas le suffixe historique RI8260-3, il faut donc confirmer la plaque signalétique livrée"
+    },
+    "71": {
+      "nl": "Actuele Noord-Amerikaanse vermelding met voorraad; de actuele pagina vermeldt het historische RI8260-3-achtervoegsel niet, dus controleer het geleverde typeplaatje",
+      "de": "Aktuelle nordamerikanische Listung mit Lagerbestand; die aktuelle Seite nennt das historische RI8260-3-Suffix nicht, daher das gelieferte Typenschild prüfen",
+      "fr": "Fiche nord-américaine actuelle indiquant du stock ; la page actuelle n’indique pas le suffixe historique RI8260-3, il faut donc confirmer la plaque signalétique livrée"
+    },
+    "72": {
+      "nl": "Filters, reinigingsmiddelen, melkonderhoud en service brengen extra kosten mee.",
+      "de": "Filter, Reiniger, Milchpflege und Service verursachen weitere Kosten.",
+      "fr": "Les filtres, les nettoyants, l’entretien du système lait et le service ajoutent des coûts."
+    },
+    "73": {
+      "nl": "Discussies van Velasca-eigenaren",
+      "de": "Diskussionen von Velasca-Besitzern",
+      "fr": "Discussions de propriétaires de Velasca"
+    },
+    "74": {
+      "nl": "Zelfgeselecteerde ervaringen van eigenaren over recepten en reiniging, geen gekwantificeerd bewijs van betrouwbaarheid.",
+      "de": "Selbst ausgewählte Besitzerberichte zu Rezepten und Reinigung, keine quantifizierten Zuverlässigkeitsbelege.",
+      "fr": "Témoignages spontanés de propriétaires sur les recettes et le nettoyage, pas des données chiffrées de fiabilité."
+    },
+    "75": {
+      "nl": "Discussies van Gaggia-eigenaren",
+      "de": "Diskussionen von Gaggia-Besitzern",
+      "fr": "Discussions de propriétaires de Gaggia"
+    },
+    "76": {
+      "nl": "Bredere gemeenschapscontext over onderhoud van de uitneembare zetgroep en maalafstelling.",
+      "de": "Breiterer Community-Kontext zur Pflege der entnehmbaren Brühgruppe und Mahlwerkeinstellung.",
+      "fr": "Contexte communautaire plus large sur l’entretien du groupe amovible et le réglage du moulin."
+    },
+    "77": {
+      "nl": "Velasca tegenover de meest vergelijkbare alternatieven",
+      "de": "Velasca im Vergleich mit den ähnlichsten Alternativen",
+      "fr": "Velasca face aux alternatives les plus proches"
+    },
+    "78": {
+      "nl": "Snelle vergelijking van de Gaggia Velasca",
+      "de": "Kurzvergleich zur Gaggia Velasca",
+      "fr": "Comparatif rapide de la Gaggia Velasca"
+    },
+    "79": {
+      "nl": "De Gaggia Velasca en de meest vergelijkbare alternatieven",
+      "de": "Gaggia Velasca und ihre ähnlichsten Alternativen",
+      "fr": "La Gaggia Velasca et ses alternatives les plus proches"
+    },
+    "80": {
+      "nl": "$699 als huidige Amerikaanse rechtstreekse prijsreferentie",
+      "de": "$699 als aktuelle US-Direktpreisreferenz",
+      "fr": "$699 comme référence américaine actuelle en vente directe"
+    },
+    "81": {
+      "nl": "$799 als huidige Amerikaanse rechtstreekse prijsreferentie",
+      "de": "$799 als aktuelle US-Direktpreisreferenz",
+      "fr": "$799 comme référence américaine actuelle en vente directe"
+    },
+    "82": {
+      "nl": "Uitgebreide vergelijking van de Gaggia Velasca",
+      "de": "Ausführlicher Vergleich zur Gaggia Velasca",
+      "fr": "Comparatif détaillé de la Gaggia Velasca"
+    },
+    "83": {
+      "nl": "10.3 B × 13.5 H × 17 D in",
+      "de": "10.3 B × 13.5 H × 17 T in",
+      "fr": "10.3 l × 13.5 H × 17 P in"
+    },
+    "84": {
+      "nl": "Volautomatisch platform voor koffie uit bonen",
+      "de": "Kaffeevollautomaten-Plattform",
+      "fr": "Plateforme automatique pour café en grains"
+    },
+    "85": {
+      "nl": "Keramische molen met tien standen",
+      "de": "Keramikmahlwerk mit zehn Stufen",
+      "fr": "Moulin céramique à dix réglages"
+    },
+    "86": {
+      "nl": "Handmatige pannarello",
+      "de": "Manueller Pannarello",
+      "fr": "Pannarello manuel"
+    },
+    "87": {
+      "nl": "Compacte bereiding van zwarte koffie en af en toe handmatig bereide melk",
+      "de": "Kompakte Zubereitung von schwarzem Kaffee und gelegentlicher manueller Milch",
+      "fr": "Café noir dans un format compact et lait manuel occasionnel"
+    },
+    "88": {
+      "nl": "Automatische afneembare melkkaraf",
+      "de": "Automatische abnehmbare Milchkaraffe",
+      "fr": "Carafe automatique détachable"
+    },
+    "89": {
+      "nl": "Cappuccino met één druk op de knop",
+      "de": "Cappuccino auf Knopfdruck",
+      "fr": "Cappuccino en une touche"
+    },
+    "90": {
+      "nl": "Circa 8.8 B × 13.4 H × 16.9 D in",
+      "de": "Etwa 8.8 B × 13.4 H × 16.9 T in",
+      "fr": "Environ 8.8 l × 13.4 H × 16.9 P in"
+    },
+    "91": {
+      "nl": "Beperkte breedte op het aanrecht",
+      "de": "Schmaler Platz auf der Arbeitsfläche",
+      "fr": "Espace étroit sur le plan de travail"
+    },
+    "92": {
+      "nl": "De huidige Velasca is het alternatief met handmatige pannarello; Prestige voegt de uitneembare melkkaraf toe. Helder het geleverde achtervoegsel op voordat je die melkwerkwijzen vergelijkt.",
+      "de": "Die aktuelle Velasca ist die Alternative mit manuellem Pannarello; Prestige ergänzt die abnehmbare Milchkaraffe. Kläre das gelieferte Suffix, bevor du diese Milchabläufe vergleichst.",
+      "fr": "La Velasca actuelle est l’alternative à pannarello manuel ; la Prestige ajoute la carafe amovible. Clarifiez le suffixe livré avant de comparer ces méthodes de préparation du lait."
+    },
+    "93": {
+      "nl": "Leven met de Velasca",
+      "de": "Alltag mit der Velasca",
+      "fr": "Vivre avec la Velasca"
+    },
+    "94": {
+      "nl": "Het onopgehelderde achtervoegsel is een documentatiekwestie die je vóór betaling moet oplossen. Vraag om een foto van het typeplaatje, de meegeleverde handleiding en bevestiging van de melkonderdelen. Bepaal daarna of watertoegang aan de voorkant en tien maalstanden meer waard zijn dan het kleinere instelbereik van de slankere Anima.",
+      "de": "Das ungeklärte Suffix ist eine Dokumentationsfrage, die vor der Bezahlung zu klären ist. Bitte um ein Foto des Typenschilds, die mitgelieferte Anleitung und eine Bestätigung der Milchkomponenten. Entscheide dann, ob der vordere Wasserzugang und zehn Mahlstufen mehr wert sind als der kleinere Einstellbereich der schlankeren Anima.",
+      "fr": "Le suffixe non confirmé est une question de documentation à régler avant de payer. Demandez une photo de la plaque signalétique, le manuel fourni et une confirmation des composants du système lait. Décidez ensuite si l’accès frontal à l’eau et les dix réglages de mouture valent davantage que la plage de réglage réduite de l’Anima plus fine."
+    },
+    "95": {
+      "nl": "Andere opties voor de Velasca-koper",
+      "de": "Weitere Optionen für Velasca-Käufer",
+      "fr": "Autres options pour l’acheteur d’une Velasca"
+    },
+    "96": {
+      "nl": "Verwante uitvoering met één druk op de knop",
+      "de": "Direktes Schwestermodell mit Ein-Tasten-Bedienung",
+      "fr": "Modèle frère à commande en une touche"
+    },
+    "97": {
+      "nl": "Kies het geverifieerde RI8263/47-model met melkkaraf als automatische melkbereiding belangrijk is.",
+      "de": "Wähle das bestätigte RI8263/47-Karaffenmodell, wenn automatische Milchzubereitung wichtig ist.",
+      "fr": "Choisissez le modèle à carafe RI8263/47 vérifié si la préparation automatique du lait compte."
+    },
+    "98": {
+      "nl": "Lees de beoordeling van de Velasca Prestige",
+      "de": "Testbericht zur Velasca Prestige lesen",
+      "fr": "Lire l’analyse de la Velasca Prestige"
+    },
+    "99": {
+      "nl": "Slank, met handmatige melkbereiding",
+      "de": "Schlank mit manueller Milchzubereitung",
+      "fr": "Format fin et lait manuel"
+    },
+    "100": {
+      "nl": "Kies de Anima voor een smallere huidige machine met pannarello.",
+      "de": "Wähle die Anima als schmalere aktuelle Maschine mit Pannarello.",
+      "fr": "Choisissez l’Anima pour une machine actuelle à pannarello plus étroite."
+    },
+    "101": {
+      "nl": "Lees de beoordeling van de Anima",
+      "de": "Testbericht zur Anima lesen",
+      "fr": "Lire l’analyse de l’Anima"
+    },
+    "102": {
+      "nl": "Profielen en stoompijp",
+      "de": "Profile und Dampflanze",
+      "fr": "Profils et buse vapeur"
+    },
+    "103": {
+      "nl": "Kies vier profielen en een handmatige stoompijp met twee gaatjes voor een veelzijdigere gedeelde routine.",
+      "de": "Wähle vier Profile und eine manuelle Dampflanze mit zwei Löchern für einen vielseitigeren gemeinsamen Alltag.",
+      "fr": "Choisissez quatre profils et une buse manuelle à deux trous pour une routine partagée plus polyvalente."
+    },
+    "104": {
+      "nl": "Lees de beoordeling van de Cadorna",
+      "de": "Testbericht zur Cadorna lesen",
+      "fr": "Lire l’analyse de la Cadorna"
+    },
+    "105": {
+      "nl": "Uitgebreider menu met één druk op de knop",
+      "de": "Größeres Menü auf Knopfdruck",
+      "fr": "Menu plus large en une touche"
+    },
+    "106": {
+      "nl": "Kies een huidige machine met melkkaraf, vier profielen en een veel uitgebreider menu met opgeslagen dranken.",
+      "de": "Wähle eine aktuelle Maschine mit Milchkaraffe, vier Profilen und einem deutlich größeren Menü gespeicherter Getränke.",
+      "fr": "Choisissez une machine actuelle à carafe avec quatre profils et un menu de boissons mémorisées beaucoup plus large."
+    },
+    "107": {
+      "nl": "Veelgestelde vragen over de Velasca",
+      "de": "Häufige Fragen zur Velasca",
+      "fr": "Questions fréquentes sur la Velasca"
+    },
+    "108": {
+      "nl": "Welke generatie en uitvoering behandelt deze Velasca-beoordeling?",
+      "de": "Welche Generation und Ausstattung behandelt diese Velasca-Bewertung?",
+      "fr": "Quelle génération et quelle configuration cette analyse de la Velasca couvre-t-elle ?"
+    },
+    "109": {
+      "nl": "Wat komt er kijken bij dagelijks gebruik van de Velasca?",
+      "de": "Was gehört zum täglichen Gebrauch der Velasca?",
+      "fr": "Qu’implique l’utilisation quotidienne de la Velasca ?"
+    },
+    "110": {
+      "nl": "Welk melkonderhoud vereist de Velasca?",
+      "de": "Welche Milchpflege benötigt die Velasca?",
+      "fr": "Quel entretien du système lait la Velasca exige-t-elle ?"
+    },
+    "111": {
+      "nl": "Wat moet ik bij de verkoper controleren?",
+      "de": "Was sollte ich beim Verkäufer prüfen?",
+      "fr": "Que dois-je vérifier auprès du vendeur ?"
+    },
+    "112": {
+      "nl": "Welke molen wordt voor deze Velasca opgegeven?",
+      "de": "Welches Mahlwerk ist für diese Velasca angegeben?",
+      "fr": "Quel moulin est indiqué pour cette Velasca ?"
+    },
+    "113": {
+      "nl": "Hoeveel aanrechtruimte heeft deze uitvoering nodig?",
+      "de": "Wie viel Platz auf der Arbeitsplatte braucht diese Version?",
+      "fr": "Quel espace cette version nécessite-t-elle sur le plan de travail ?"
+    },
+    "114": {
+      "nl": "Bekijk Gaggia Velasca-espressomachine: uitpakken, opstarten en eerste gebruik, livestream van Whole Latte Love",
+      "de": "Gaggia Velasca Espressomaschine: Auspacken, Start und erste Nutzung als Livestream von Whole Latte Love ansehen",
+      "fr": "Regarder Machine espresso Gaggia Velasca : déballage, démarrage et première utilisation en direct, par Whole Latte Love"
+    },
+    "116": {
+      "nl": "Gaggia Velasca-espressomachine: uitpakken, opstarten en eerste gebruik, livestream",
+      "de": "Gaggia Velasca Espressomaschine: Auspacken, Start und erste Nutzung als Livestream",
+      "fr": "Machine espresso Gaggia Velasca : déballage, démarrage et première utilisation en direct"
+    },
+    "117": {
+      "nl": "Onafhankelijk bewijs van de werkwijze van een winkelier. De actuele prijs, precieze identiteitsafbakening en specificaties worden afzonderlijk geverifieerd.",
+      "de": "Unabhängige Belege eines Händlers zum Arbeitsablauf. Aktueller Preis, genaue Identitätsabgrenzung und technische Daten werden gesondert geprüft.",
+      "fr": "Éléments indépendants d’un revendeur sur la préparation. Le prix actuel, les limites précises d’identification et les caractéristiques sont vérifiés séparément."
+    },
+    "118": {
+      "nl": "Deze beoordeling behandelt de huidige Noord-Amerikaanse Velasca-vermelding; het historische RI8260-3-achtervoegsel in de URL staat niet op de actuele pagina. Het achtervoegsel RI8260-3 is niet opgehelderd en melkbereiding is handmatig.",
+      "de": "Diese Bewertung behandelt die aktuelle nordamerikanische Velasca-Listung; das historische RI8260-3-Suffix der URL erscheint auf der aktuellen Seite nicht. Das Suffix RI8260-3 ist ungeklärt und die Milchzubereitung erfolgt manuell.",
+      "fr": "Cette analyse couvre la fiche nord-américaine actuelle de la Velasca ; le suffixe historique RI8260-3 de l’URL n’apparaît pas sur la page actuelle. Le suffixe RI8260-3 n’est pas confirmé et la préparation du lait est manuelle."
+    },
+    "120": {
+      "nl": "Officiële huidige Noord-Amerikaanse identiteit, prijs, molen, pannarello, capaciteiten en afmetingen.",
+      "de": "Offizielle aktuelle nordamerikanische Identität, Preis, Mahlwerk, Pannarello, Fassungsvermögen und Abmessungen.",
+      "fr": "Identité, prix, moulin, pannarello, capacités et dimensions officiels actuels pour l’Amérique du Nord."
+    },
+    "121": {
+      "nl": "Gaggia-producthandleidingen",
+      "de": "Gaggia-Produktanleitungen",
+      "fr": "Manuels des produits Gaggia"
+    },
+    "122": {
+      "nl": "Officiële ondersteuningsroute voor installatie, reiniging en de exacte meegeleverde documentatie.",
+      "de": "Offizieller Supportweg für Einrichtung, Reinigung und die genauen mitgelieferten Unterlagen.",
+      "fr": "Voie d’assistance officielle pour l’installation, le nettoyage et la documentation exacte fournie."
+    },
+    "123": {
+      "nl": "Rechtstreekse productvermelding van Gaggia North America",
+      "de": "Direktlistung bei Gaggia North America",
+      "fr": "Fiche de vente directe de Gaggia North America"
+    },
+    "124": {
+      "nl": "Voorraadcontext bij $699 gecontroleerd op 23 september 2026; belasting en garantie kunnen veranderen.",
+      "de": "Lagerbestandskontext bei $699 am 23. September 2026 geprüft; Steuern und Garantie können sich ändern.",
+      "fr": "Contexte de disponibilité à $699 vérifié le 23 septembre 2026 ; les taxes et la garantie peuvent changer."
+    },
+    "125": {
+      "nl": "Whole Latte Love: beoordeling van de Velasca",
+      "de": "Whole Latte Love: Velasca-Testbericht",
+      "fr": "Whole Latte Love : analyse de la Velasca"
+    },
+    "126": {
+      "nl": "Onafhankelijke vergelijking van de modelfamilie en context over de werkwijze; de exacte actuele specificaties blijven gebaseerd op Gaggia.",
+      "de": "Unabhängiger Familienvergleich und Kontext zum Arbeitsablauf; genaue aktuelle technische Daten bleiben auf Gaggia gestützt.",
+      "fr": "Comparaison indépendante de la famille et contexte de préparation ; les caractéristiques actuelles exactes restent fondées sur Gaggia."
+    },
+    "127": {
+      "nl": "Gaggia Velasca: uitpakken, opstarten en eerste gebruik",
+      "de": "Gaggia Velasca: Auspacken, Start und erste Nutzung",
+      "fr": "Gaggia Velasca : déballage, démarrage et première utilisation"
+    },
+    "128": {
+      "nl": "Onafhankelijke video van een winkelier, gepubliceerd op 19 december 2023, gebruikt om de zichtbare werkwijze te verduidelijken; claims over het achtervoegsel in de URL worden niet uit de video afgeleid.",
+      "de": "Unabhängiges Händlervideo, veröffentlicht am 19. Dezember 2023, als sichtbarer Kontext zum Arbeitsablauf verwendet; Aussagen zum Suffix der URL werden nicht aus dem Video abgeleitet.",
+      "fr": "Vidéo indépendante d’un revendeur, publiée le 19 décembre 2023, utilisée pour illustrer le déroulement visible de la préparation ; aucune affirmation sur le suffixe de l’URL n’est déduite de la vidéo."
+    },
+    "129": {
+      "nl": "Gaggia-productzoekfunctie",
+      "de": "Gaggia-Produktsuche",
+      "fr": "Recherche de produits Gaggia"
+    },
+    "130": {
+      "nl": "Officiële zoekfunctie voor modelcodes om onopgehelderde achtervoegselgegevens expliciet te houden.",
+      "de": "Offizielle Modellcodesuche, um ungeklärte Suffixdetails ausdrücklich sichtbar zu halten.",
+      "fr": "Recherche officielle de codes modèles pour maintenir explicites les détails non confirmés du suffixe."
+    },
+    "131": {
+      "nl": "Gaggia-volautomaten",
+      "de": "Gaggia-Kaffeevollautomaten",
+      "fr": "Machines automatiques Gaggia"
+    },
+    "132": {
+      "nl": "Officiële familiecontext die de Velasca onderscheidt van de Velasca Prestige met melkkaraf.",
+      "de": "Offizieller Familienkontext zur Abgrenzung der Velasca von der Velasca Prestige mit Milchkaraffe.",
+      "fr": "Contexte officiel de la famille distinguant la Velasca de la Velasca Prestige à carafe."
+    },
+    "133": {
+      "nl": "Waterachtergrond van Barista Hustle",
+      "de": "Wasserhintergrund von Barista Hustle",
+      "fr": "Contexte sur l’eau de Barista Hustle"
+    },
+    "134": {
+      "nl": "Onafhankelijke achtergrond over watersamenstelling; de meegeleverde handleiding bepaalt wat veilig is voor de machine.",
+      "de": "Unabhängiger Hintergrund zur Wasserzusammensetzung; für maschinensichere Vorgehensweisen ist die mitgelieferte Anleitung maßgeblich.",
+      "fr": "Contexte indépendant sur la composition de l’eau ; le manuel fourni détermine les pratiques sûres pour la machine."
+    },
+    "135": {
+      "nl": "Velasca: koop de werkwijze, niet het aantal menuopties",
+      "de": "Velasca: den Ablauf kaufen, nicht die Zahl der Menüoptionen",
+      "fr": "Velasca : acheter une méthode de préparation, pas un nombre de boissons au menu"
+    },
+    "165": {
+      "nl": "Video van Whole Latte Love over de Gaggia Velasca",
+      "de": "Video zur Gaggia Velasca von Whole Latte Love",
+      "fr": "Vidéo sur la Gaggia Velasca par Whole Latte Love"
+    },
+    "166": {
+      "nl": "← Beoordeling van de Gaggia Velasca",
+      "de": "← Testbericht zur Gaggia Velasca",
+      "fr": "← Analyse de la Gaggia Velasca"
+    },
+    "167": {
+      "nl": "Gaggia Velasca · Perspectief van een winkelier",
+      "de": "Gaggia Velasca · Händlerperspektive",
+      "fr": "Gaggia Velasca · Point de vue d’un revendeur"
+    },
+    "169": {
+      "nl": "Gaggia Velasca: Gaggia Velasca-espressomachine: uitpakken, opstarten en eerste gebruik, livestream · Whole Latte Love (2023-12-19) | Coffeedant",
+      "de": "Gaggia Velasca: Gaggia Velasca Espressomaschine: Auspacken, Start und erste Nutzung als Livestream · Whole Latte Love (2023-12-19) | Coffeedant",
+      "fr": "Gaggia Velasca : Machine espresso Gaggia Velasca : déballage, démarrage et première utilisation en direct · Whole Latte Love (2023-12-19) | Coffeedant"
+    },
+    "170": {
+      "nl": "Bekijk Whole Latte Love over de Gaggia Velasca (2023-12-19): Gaggia Velasca-espressomachine: uitpakken, opstarten en eerste gebruik, livestream. Onafhankelijk bewijs van de werkwijze van een winkelier. De actuele prijs, precieze identiteitsafbakening en specificaties worden afzonderlijk geverifieerd.",
+      "de": "Whole Latte Love zur Gaggia Velasca ansehen (2023-12-19): Gaggia Velasca Espressomaschine: Auspacken, Start und erste Nutzung als Livestream. Unabhängige Belege eines Händlers zum Arbeitsablauf. Aktueller Preis, genaue Identitätsabgrenzung und technische Daten werden gesondert geprüft.",
+      "fr": "Regardez Whole Latte Love présenter la Gaggia Velasca (2023-12-19) : Machine espresso Gaggia Velasca : déballage, démarrage et première utilisation en direct. Éléments indépendants d’un revendeur sur la préparation. Le prix actuel, les limites précises d’identification et les caractéristiques sont vérifiés séparément."
+    },
+    "172": {
+      "nl": "Gaggia Velasca-espressomachine: uitpakken, opstarten en eerste gebruik, livestream van Whole Latte Love",
+      "de": "Gaggia Velasca Espressomaschine: Auspacken, Start und erste Nutzung als Livestream von Whole Latte Love",
+      "fr": "Machine espresso Gaggia Velasca : déballage, démarrage et première utilisation en direct par Whole Latte Love"
+    },
+    "173": {
+      "nl": "20 december 2023",
+      "de": "20. Dezember 2023",
+      "fr": "20 décembre 2023"
+    }
+  }
+}
