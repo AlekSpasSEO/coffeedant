@@ -1,0 +1,412 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "gaggia-evo-pro-batch-72.source.json",
+  "snapshotHash": "691c655777c0288ba4ded5361ddd5cfacc195859fd63d63a44fa6b8a623d6530",
+  "preserveSource": [
+    0,
+    67,
+    88
+  ],
+  "routes": {
+    "nl": {
+      "/espresso-machine/gaggia-classic-evo-pro/": "/espressomachines/gaggia-classic-evo-pro/",
+      "/espresso-machine/gaggia-classic-evo-pro/video/lifestyle-lab/": "/espressomachines/gaggia-classic-evo-pro/video/lifestyle-lab/"
+    },
+    "de": {
+      "/espresso-machine/gaggia-classic-evo-pro/": "/espresso-maschine/gaggia-classic-evo-pro/",
+      "/espresso-machine/gaggia-classic-evo-pro/video/lifestyle-lab/": "/espresso-maschine/gaggia-classic-evo-pro/video/lifestyle-lab/"
+    },
+    "fr": {
+      "/espresso-machine/gaggia-classic-evo-pro/": "/machine-a-espresso/gaggia-classic-evo-pro/",
+      "/espresso-machine/gaggia-classic-evo-pro/video/lifestyle-lab/": "/machine-a-espresso/gaggia-classic-evo-pro/video/lifestyle-lab/"
+    }
+  },
+  "translations": {
+    "1": {
+      "nl": "De video en de meningen zijn van Lifestyle Lab. Coffeedant plaatst dit perspectief naast onze geschreven beoordeling.",
+      "de": "Video und Meinungen stammen von Lifestyle Lab. Coffeedant ergänzt unseren schriftlichen Testbericht um diese Perspektive.",
+      "fr": "La vidéo et les opinions sont celles de Lifestyle Lab. Coffeedant présente ce point de vue en complément de notre analyse écrite."
+    },
+    "3": {
+      "nl": "Video van Lifestyle Lab",
+      "de": "Video von Lifestyle Lab",
+      "fr": "Vidéo de Lifestyle Lab"
+    },
+    "4": {
+      "nl": "3.3 van 5, open de Coffeedant-beoordelingen per categorie",
+      "de": "3.3 von 5, Coffeedant-Kategoriebewertungen öffnen",
+      "fr": "3.3 sur 5, ouvrir les notes par catégorie de Coffeedant"
+    },
+    "5": {
+      "nl": "6.5 van 10",
+      "de": "6.5 von 10",
+      "fr": "6.5 sur 10"
+    },
+    "6": {
+      "nl": "Gaggia Classic Evo Pro beoordeeld: bepaal vóór aankoop welke boiler uit 2023 erin zit | Coffeedant",
+      "de": "Gaggia Classic Evo Pro im Test: den Boiler von 2023 vor dem Kauf bestimmen | Coffeedant",
+      "fr": "Analyse de la Gaggia Classic Evo Pro : identifier la chaudière de 2023 avant l’achat | Coffeedant"
+    },
+    "7": {
+      "nl": "Een op bronnen gebaseerde beoordeling van de Gaggia Classic Evo Pro RI9380/46 over de gecoate aluminium boiler uit 2023, de 58 mm filterdrager, de afstelling op negen bar, controles bij tweedehands aankoop en de opvolger.",
+      "de": "Eine quellenbasierte Bewertung der Gaggia Classic Evo Pro RI9380/46 zum beschichteten Aluminiumboiler von 2023, zum 58 mm Siebträger, zur Neun-Bar-Abstimmung, zu Gebrauchtkaufprüfungen und zum Nachfolgemodell.",
+      "fr": "Une analyse documentaire de la Gaggia Classic Evo Pro RI9380/46 portant sur la chaudière en aluminium revêtu de 2023, le porte-filtre de 58 mm, le réglage à neuf bars, les vérifications d’occasion et le modèle successeur."
+    },
+    "9": {
+      "nl": "Gaggia Classic Evo Pro beoordeeld: bepaal vóór aankoop welke boiler uit 2023 erin zit",
+      "de": "Gaggia Classic Evo Pro im Test: den Boiler von 2023 vor dem Kauf bestimmen",
+      "fr": "Analyse de la Gaggia Classic Evo Pro : identifier la chaudière de 2023 avant l’achat"
+    },
+    "10": {
+      "nl": "Voor thuisbarista’s die een voordelig klassiek 58 mm platform willen, mits de precieze boilergeschiedenis en staat zijn gedocumenteerd",
+      "de": "Für Heimbaristas, die eine preiswerte klassische 58 mm Plattform suchen, sofern die genaue Boilerhistorie und der Zustand dokumentiert sind",
+      "fr": "Pour les baristas à domicile qui recherchent une plateforme classique de 58 mm abordable, avec un historique précis de la chaudière et un état documentés"
+    },
+    "11": {
+      "nl": "Kies de Classic Evo Pro RI9380/46 voor een voordelig klassiek 58 mm platform wanneer de precieze boilergeschiedenis en staat zijn gedocumenteerd. Sla hem over als de onopgeloste onzekerheid bij tweedehands aankoop van de generatie met gecoate boiler uit 2023 en de vervanging door e24 niet passen bij je dagelijkse koffieroutine.",
+      "de": "Wähle die Classic Evo Pro RI9380/46 als preiswerte klassische 58 mm Plattform, wenn die genaue Boilerhistorie und der Zustand dokumentiert sind. Verzichte darauf, wenn die ungeklärten Gebrauchtkaufrisiken der Generation mit beschichtetem Boiler von 2023 und ihre Ablösung durch e24 nicht zum gewohnten Getränkeablauf passen.",
+      "fr": "Choisissez la Classic Evo Pro RI9380/46 comme plateforme classique de 58 mm abordable si l’historique précis de la chaudière et son état sont documentés. Écartez-la si les incertitudes persistantes à l’achat d’occasion de la génération à chaudière revêtue de 2023 et son remplacement par e24 ne conviennent pas à votre routine de boissons."
+    },
+    "12": {
+      "nl": "Een voordelig Classic-platform van 58 mm wanneer de precieze boilergeschiedenis en staat zijn gedocumenteerd. Het belangrijkste compromis: de generatie met gecoate boiler uit 2023 kent onopgeloste onzekerheid bij tweedehands aankoop en is opgevolgd door e24",
+      "de": "Eine preiswerte Classic-Plattform mit 58 mm, wenn die genaue Boilerhistorie und der Zustand dokumentiert sind. Der zentrale Kompromiss: Bei der Generation mit beschichtetem Boiler von 2023 bleiben Gebrauchtkaufrisiken ungeklärt; sie wurde durch e24 abgelöst",
+      "fr": "Une plateforme Classic de 58 mm abordable si l’historique précis de la chaudière et son état sont documentés. Le principal compromis : la génération à chaudière revêtue de 2023 présente encore des incertitudes à l’achat d’occasion et a été remplacée par e24"
+    },
+    "13": {
+      "nl": "Gedocumenteerde introductieprijs uit 2023; controleer generatie, boiler, spanning, staat en garantie",
+      "de": "Dokumentierter Einführungspreis von 2023; Generation, Boiler, Spannung, Zustand und Garantie prüfen",
+      "fr": "Prix de lancement documenté de 2023 ; vérifier la génération, la chaudière, la tension, l’état et la garantie"
+    },
+    "14": {
+      "nl": "Kies hem voor een voordelig klassiek 58 mm platform wanneer de precieze boilergeschiedenis en staat zijn gedocumenteerd.",
+      "de": "Wähle ihn als preiswerte klassische 58 mm Plattform, wenn die genaue Boilerhistorie und der Zustand dokumentiert sind.",
+      "fr": "À choisir comme plateforme classique de 58 mm abordable si l’historique précis de la chaudière et son état sont documentés."
+    },
+    "15": {
+      "nl": "Noord-Amerikaanse RI9380/46 Classic Evo Pro uit 2023 met de af fabriek gecoate aluminium boiler, niet de latere E24.",
+      "de": "Nordamerikanische RI9380/46 Classic Evo Pro von 2023 mit werkseitig beschichtetem Aluminiumboiler, nicht die spätere E24.",
+      "fr": "Classic Evo Pro RI9380/46 nord-américaine de 2023 avec chaudière en aluminium revêtu d’origine, et non l’E24 ultérieure."
+    },
+    "16": {
+      "nl": "Eén gecoate aluminium boiler voor koffie en stoom, met thermostaatregeling",
+      "de": "Ein beschichteter Aluminiumboiler für Kaffee und Dampf mit Thermostatregelung",
+      "fr": "Chaudière unique en aluminium revêtu pour café et vapeur, avec régulation par thermostat"
+    },
+    "17": {
+      "nl": "58 mm filterdrager, afstelling op negen bar en driewegmagneetventiel zonder PID",
+      "de": "58 mm Siebträger, Neun-Bar-Abstimmung und Dreiwege-Magnetventil ohne PID",
+      "fr": "Porte-filtre de 58 mm, réglage à neuf bars et électrovanne à trois voies, sans PID"
+    },
+    "18": {
+      "nl": "Handmatige stoompijp; koffiezetten, stomen en afkoelen gebeuren na elkaar",
+      "de": "Manuelle Dampflanze; Brühen, Aufschäumen und Abkühlen erfolgen nacheinander",
+      "fr": "Buse vapeur manuelle ; extraction, vapeur et refroidissement se succèdent"
+    },
+    "19": {
+      "nl": "Drie wipschakelaars, handmatig stoppen van de extractie en geen temperatuurdisplay",
+      "de": "Drei Kippschalter, manueller Bezugsstopp und keine Temperaturanzeige",
+      "fr": "Trois interrupteurs à bascule, arrêt manuel de l’extraction et aucun affichage de température"
+    },
+    "20": {
+      "nl": "Reservoir van circa 72 oz en lekbak van 16 oz",
+      "de": "Etwa 72 oz Tankvolumen und 16 oz Tropfschale",
+      "fr": "Réservoir d’environ 72 oz et bac de 16 oz"
+    },
+    "21": {
+      "nl": "Circa 8 B × 9.5 D × 14.2 H in; controleer het typeplaatje",
+      "de": "Etwa 8 B × 9.5 T × 14.2 H in; Typenschild prüfen",
+      "fr": "Environ 8 l × 9.5 P × 14.2 H in ; vérifier la plaque signalétique"
+    },
+    "22": {
+      "nl": "De generatie met gecoate boiler uit 2023 kent onopgeloste onzekerheid bij tweedehands aankoop en is opgevolgd door E24",
+      "de": "Bei der Generation mit beschichtetem Boiler von 2023 bleiben Gebrauchtkaufrisiken ungeklärt; sie wurde durch E24 abgelöst",
+      "fr": "La génération à chaudière revêtue de 2023 présente encore des incertitudes à l’achat d’occasion et a été remplacée par E24"
+    },
+    "23": {
+      "nl": "Welke exacte Classic Evo Pro RI9380/46 wordt beoordeeld?",
+      "de": "Welche genaue Classic Evo Pro RI9380/46 wird bewertet?",
+      "fr": "Quelle version précise de la Classic Evo Pro RI9380/46 est analysée ?"
+    },
+    "24": {
+      "nl": "Een koper die waarde hecht aan een voordelig klassiek 58 mm platform wanneer de precieze boilergeschiedenis en staat zijn gedocumenteerd, en accepteert dat de generatie met gecoate boiler uit 2023 onopgeloste onzekerheid bij tweedehands aankoop kent en is opgevolgd door e24",
+      "de": "Ein Käufer, der eine preiswerte klassische 58 mm Plattform bei dokumentierter genauer Boilerhistorie und dokumentiertem Zustand schätzt und akzeptiert, dass bei der Generation mit beschichtetem Boiler von 2023 Gebrauchtkaufrisiken ungeklärt bleiben und sie durch e24 abgelöst wurde",
+      "fr": "Un acheteur qui apprécie une plateforme classique de 58 mm abordable, avec un historique précis de la chaudière et un état documentés, et accepte que la génération à chaudière revêtue de 2023 présente encore des incertitudes à l’achat d’occasion et ait été remplacée par e24"
+    },
+    "25": {
+      "nl": "Volledige beoordeling van de Gaggia Classic Evo Pro RI9380/46",
+      "de": "Vollständiger Testbericht zur Gaggia Classic Evo Pro RI9380/46",
+      "fr": "Analyse complète de la Gaggia Classic Evo Pro RI9380/46"
+    },
+    "26": {
+      "nl": "Eén totaalscore is alleen nuttig als je ziet waarop die is gebaseerd. De Gaggia Classic Evo Pro RI9380/46 krijgt",
+      "de": "Eine Gesamtnote ist nur hilfreich, wenn ihre Grundlage erkennbar ist. Die Gaggia Classic Evo Pro RI9380/46 erhält",
+      "fr": "Une note globale n’est utile que si l’on comprend ses fondements. La Gaggia Classic Evo Pro RI9380/46 obtient"
+    },
+    "27": {
+      "nl": "Bij $499.00 moet je een volledige koffieopstelling vergelijken.",
+      "de": "Bei $499.00 ist ein Vergleich der vollständigen Kaffeestation nötig.",
+      "fr": "À $499.00, il faut comparer le coût d’un poste café complet."
+    },
+    "28": {
+      "nl": "Classic Evo Pro RI9380/46: de aankoopbeslissing",
+      "de": "Classic Evo Pro RI9380/46: die Kaufentscheidung",
+      "fr": "Classic Evo Pro RI9380/46 : la décision d’achat"
+    },
+    "29": {
+      "nl": "Bij een Classic Evo Pro uit 2023 moet de boilergeschiedenis vaststaan voordat de vertrouwde 58 mm groep een verkoopargument wordt. De beoordeelde Noord-Amerikaanse RI9380/46 werd gebouwd met een gecoate aluminium boiler en is inmiddels opgevolgd door E24; de vervangingsgeschiedenis en de staat van het concrete exemplaar zijn dus van belang. De mechanische schakelaars, het driewegmagneetventiel en de handmatige stoompijp blijven herkenbare sterke punten van de Classic, waarbij de eigenaar rekening moet houden met de thermostaatcyclus en opeenvolgende melkbereiding. Een gedocumenteerd exemplaar voor een passende prijs kan nuttig zijn. Een onduidelijke boilergeschiedenis moet zwaarder wegen dan enthousiasme voor het ecosysteem van accessoires en modificaties van de Classic.",
+      "de": "Bei einer Classic Evo Pro von 2023 muss die Boilerhistorie feststehen, bevor die vertraute 58 mm Brühgruppe zum Kaufargument wird. Die bewertete nordamerikanische RI9380/46 wurde mit einem beschichteten Aluminiumboiler gebaut und inzwischen durch E24 abgelöst; Austauschhistorie und Zustand des konkreten Exemplars sind deshalb entscheidend. Mechanische Schalter, Dreiwege-Magnetventil und manuelle Dampflanze bleiben typische Stärken der Classic, wobei der Besitzer weiterhin Thermostatzyklen berücksichtigen und Milchgetränke nacheinander zubereiten muss. Ein dokumentiertes, angemessen bepreistes Exemplar kann sinnvoll sein. Eine unklare Boilerhistorie sollte stärker wiegen als die Begeisterung für das Zubehör- und Umbauangebot der Classic.",
+      "fr": "Sur une Classic Evo Pro de 2023, l’historique de la chaudière doit être établi avant que le groupe familier de 58 mm devienne un argument d’achat. La RI9380/46 nord-américaine analysée a été construite avec une chaudière en aluminium revêtu et remplacée depuis par E24 : l’historique des remplacements et l’état de l’exemplaire concerné comptent donc. Ses interrupteurs mécaniques, son électrovanne à trois voies et sa buse vapeur manuelle restent des atouts reconnaissables de la Classic, mais le propriétaire doit toujours composer avec les cycles du thermostat et la préparation successive du lait. Un exemplaire documenté à un prix adapté peut être utile. Un historique de chaudière incertain doit peser davantage que l’enthousiasme pour l’écosystème d’accessoires et de modifications de la Classic."
+    },
+    "30": {
+      "nl": "De Classic Evo Pro RI9380/46 installeren",
+      "de": "Die Classic Evo Pro RI9380/46 einrichten",
+      "fr": "Installer la Classic Evo Pro RI9380/46"
+    },
+    "31": {
+      "nl": "één gecoate aluminium boiler voor koffie en stoom, met thermostaatregeling.",
+      "de": "ein beschichteter Aluminiumboiler für Kaffee und Dampf mit Thermostatregelung.",
+      "fr": "chaudière unique en aluminium revêtu pour café et vapeur, avec régulation par thermostat."
+    },
+    "32": {
+      "nl": "RI9380/46 verwijst hier naar de Classic Evo Pro uit 2023 met gecoate aluminium boiler. Vraag het serienummer, het oorspronkelijke aankoopbewijs en eventuele documentatie over boilervervanging op voordat je de prijs vergelijkt met een nieuwe E24. Een foto van de vertrouwde Classic-behuizing geeft geen uitsluitsel over de interne boilergeschiedenis.",
+      "de": "RI9380/46 bezeichnet hier die Classic Evo Pro von 2023 mit beschichtetem Aluminiumboiler. Lass dir Seriennummer, ursprünglichen Kaufbeleg und gegebenenfalls Unterlagen zum Boileraustausch geben, bevor du ihren Preis mit einer neuen E24 vergleichst. Ein Foto des vertrauten Classic-Gehäuses klärt die interne Boilerhistorie nicht.",
+      "fr": "RI9380/46 désigne ici la Classic Evo Pro de 2023 à chaudière en aluminium revêtu. Obtenez le numéro de série, la preuve d’achat d’origine et tout document relatif à un remplacement de chaudière avant de comparer son prix à celui d’une E24 neuve. Une photo du boîtier familier de la Classic ne permet pas de connaître l’historique de la chaudière interne."
+    },
+    "33": {
+      "nl": "Roestvrijstalen frame en kopjesplateau van de Gaggia Classic-familie",
+      "de": "Edelstahlrahmen und Tassenablage der Gaggia Classic-Familie",
+      "fr": "Châssis en acier inoxydable et espace pour tasses de la famille Gaggia Classic"
+    },
+    "34": {
+      "nl": "Dit detail van de buitenkant is gedeeld beeldmateriaal van de modelfamilie. Het helpt het chassis te herkennen, maar bewijst niet of een gebruikt exemplaar de gecoate boiler uit 2023, een ongecoate overgangsboiler of de latere messing E24-boiler bevat.",
+      "de": "Die Außenansicht ist gemeinsames Bildmaterial der Modellfamilie. Sie hilft beim Erkennen des Gehäuses, belegt aber nicht, ob ein gebrauchtes Exemplar den beschichteten Boiler von 2023, einen unbeschichteten Übergangsboiler oder den späteren Messingboiler der E24 enthält.",
+      "fr": "Ce détail extérieur provient des visuels communs à la famille. Il aide à identifier le châssis, mais ne prouve pas qu’un exemplaire d’occasion contient la chaudière revêtue de 2023, une chaudière de transition non revêtue ou la chaudière en laiton de l’E24 ultérieure."
+    },
+    "35": {
+      "nl": "Productbeeldmateriaal van de Gaggia Classic-familie",
+      "de": "Produktbildmaterial der Gaggia Classic-Familie",
+      "fr": "Visuels produits de la famille Gaggia Classic"
+    },
+    "36": {
+      "nl": "Bekijk wat er nog meer past naast de Classic Evo Pro RI9380/46.",
+      "de": "Sieh dir an, was neben der Classic Evo Pro RI9380/46 noch infrage kommt.",
+      "fr": "Découvrez les autres machines à envisager aux côtés de la Classic Evo Pro RI9380/46."
+    },
+    "37": {
+      "nl": "Het 58 mm formaat, de afstelling op negen bar en het driewegmagneetventiel vormen een vertrouwd handmatig zetplatform. Thermostaten regelen de standaardboiler, geen PID. Bij een gebruikt exemplaar dat je overweegt, zijn een aantoonbaar stabiele zetroutine en gedocumenteerde staat nuttiger dan een indrukwekkende extractievideo met een onbekende molen.",
+      "de": "Das 58 mm Format, die Neun-Bar-Abstimmung und das Dreiwege-Magnetventil bilden eine vertraute manuelle Brühplattform. Thermostate regeln den serienmäßigen Boiler, kein PID. Bei einem infrage kommenden Gebrauchtgerät sind ein nachweislich stabiler Brühablauf und ein dokumentierter Zustand hilfreicher als ein beeindruckendes Extraktionsvideo mit unbekannter Mühle.",
+      "fr": "Le format de 58 mm, le réglage à neuf bars et l’électrovanne à trois voies constituent une plateforme d’extraction manuelle familière. Des thermostats régulent la chaudière d’origine, sans PID. Pour un exemplaire d’occasion envisagé, une routine d’extraction stable démontrée et un état documenté sont plus utiles qu’une impressionnante vidéo d’extraction avec un moulin inconnu."
+    },
+    "38": {
+      "nl": "De RI9380/46 schakelt binnen één boiler tussen koffie- en stoomtemperatuur. Vraag om de volledige volgorde van koffiezetten, stomen en terugkeren naar zettemperatuur te zien: bij een machine die na jaren gebruik wordt verkocht, is alleen aantonen dat de pomp werkt onvoldoende. De handmatige stoompijp geeft directe controle over de textuur, maar werkt de melk niet automatisch af.",
+      "de": "Die RI9380/46 wechselt in einem Boiler zwischen Kaffee- und Dampftemperatur. Lass dir den vollständigen Ablauf aus Brühen, Aufschäumen und Rückkehr zur Brühtemperatur zeigen: Bei einer nach jahrelanger Nutzung verkauften Maschine reicht eine Vorführung der funktionierenden Pumpe nicht aus. Die manuelle Dampflanze ermöglicht direkte Kontrolle über die Textur, übernimmt aber keine automatische Fertigstellung.",
+      "fr": "La RI9380/46 passe de la température café à la température vapeur dans une seule chaudière. Demandez à voir le cycle complet extraction–vapeur–retour à l’extraction : pour une machine vendue après des années d’utilisation, une simple démonstration du fonctionnement de la pompe ne suffit pas. La buse manuelle donne un contrôle direct de la texture, sans finition automatique."
+    },
+    "39": {
+      "nl": "Wipschakelaars en handmatig stoppen van de extractie zorgen voor een eenvoudige bediening zonder temperatuurdisplay. De aankoopcomplicatie zit binnenin: de geschiedenis van de gecoate boiler van deze generatie moet gedocumenteerd zijn. Reken de tijd en kosten voor inspectie mee bij de aankoop, in plaats van hem te waarderen alsof hij uitwisselbaar is met een E24.",
+      "de": "Kippschalter und manueller Bezugsstopp ergeben eine einfache Bedienung ohne Temperaturanzeige. Die Schwierigkeit beim Kauf liegt im Inneren: Die Historie des beschichteten Boilers dieser Generation muss dokumentiert sein. Rechne Zeit und Kosten einer Prüfung zum Kauf hinzu, statt das Gerät als austauschbare E24 zu bewerten.",
+      "fr": "Les interrupteurs à bascule et l’arrêt manuel de l’extraction offrent une interface simple, sans affichage de température. La difficulté d’achat est à l’intérieur : l’historique de la chaudière revêtue de cette génération doit être documenté. Intégrez le temps et le coût de l’inspection à l’achat, au lieu de l’évaluer comme une E24 interchangeable."
+    },
+    "40": {
+      "nl": "Eén gecoate aluminium boiler voor koffie en stoom, met thermostaatregeling. Circa 8 B × 9.5 D × 14.2 H in; controleer het typeplaatje.",
+      "de": "Ein beschichteter Aluminiumboiler für Kaffee und Dampf mit Thermostatregelung. Etwa 8 B × 9.5 T × 14.2 H in; Typenschild prüfen.",
+      "fr": "Chaudière unique en aluminium revêtu pour café et vapeur, avec régulation par thermostat. Environ 8 l × 9.5 P × 14.2 H in ; vérifier la plaque signalétique."
+    },
+    "41": {
+      "nl": "Stem de ontkalkings- en reinigingsinstructies af op de daadwerkelijk geïnstalleerde boiler, inclusief een eventuele gedocumenteerde vervanging. Bewaar foto’s en onderhoudsfacturen bij de serienummergegevens. Laat een gebruikt exemplaar met onduidelijke interne onderdelen beoordelen door een deskundige reparateur, in plaats van een online reinigingsrecept over te nemen.",
+      "de": "Passe Entkalkungs- und Reinigungshinweise an den tatsächlich eingebauten Boiler an, einschließlich eines dokumentierten Austauschs. Bewahre Fotos und Servicerechnungen zusammen mit den Seriennummerangaben auf. Ein Gebrauchtgerät mit unklaren Innenteilen sollte ein fachkundiger Service beurteilen, statt ein beliebiges Reinigungsrezept aus dem Internet anzuwenden.",
+      "fr": "Adaptez les consignes de détartrage et de nettoyage à la chaudière réellement installée, y compris tout remplacement documenté. Conservez les photos et les factures d’entretien avec les informations de série. Un exemplaire d’occasion dont les composants internes sont incertains doit être évalué par un professionnel compétent plutôt que soumis à une recette de nettoyage trouvée en ligne."
+    },
+    "42": {
+      "nl": "Handmatige stoompijp van de Gaggia Classic-familie",
+      "de": "Manuelle Dampflanze der Gaggia Classic-Familie",
+      "fr": "Buse vapeur manuelle de la famille Gaggia Classic"
+    },
+    "43": {
+      "nl": "De huidige afbeelding van de modelfamilie illustreert de handmatige melkbereiding. De exacte boiler en interne uitvoering moeten nog steeds worden gecontroleerd aan de hand van de machine en de administratie van de verkoper.",
+      "de": "Das aktuelle Familienbild veranschaulicht den manuellen Milchablauf. Der genaue Boiler und die interne Revision müssen weiterhin anhand der Maschine und der Verkäuferunterlagen geprüft werden.",
+      "fr": "L’image actuelle de la famille illustre la préparation manuelle du lait. La chaudière exacte et la révision interne doivent toujours être vérifiées sur la machine et dans les documents du vendeur."
+    },
+    "44": {
+      "nl": "De gedocumenteerde introductieprijs uit 2023 is vastgelegd als $499.00: historische introductiereferentie, geen actuele aanbieding van nieuwe voorraad; de staat van gebruikte exemplaren en oude voorraad, de boilergeschiedenis en de garantie moeten afzonderlijk worden gecontroleerd",
+      "de": "Der dokumentierte Einführungspreis von 2023 wurde mit $499.00 erfasst: historische Einführungsreferenz, kein aktuelles Neuwarenangebot; Zustand von Gebrauchtgeräten und Altbestand, Boilerhistorie und Garantie müssen einzeln geprüft werden",
+      "fr": "Le prix de lancement documenté de 2023 a été relevé à $499.00 : référence historique de lancement, et non offre actuelle de stock neuf ; l’état des exemplaires d’occasion ou d’anciens stocks, l’historique de la chaudière et la garantie doivent être vérifiés individuellement"
+    },
+    "45": {
+      "nl": "5.8 van 10",
+      "de": "5.8 von 10",
+      "fr": "5.8 sur 10"
+    },
+    "46": {
+      "nl": "Gedocumenteerde introductieprijs uit 2023: $499.00",
+      "de": "Dokumentierter Einführungspreis von 2023: $499.00",
+      "fr": "Prix de lancement documenté de 2023 : $499.00"
+    },
+    "47": {
+      "nl": "Historische introductiereferentie, geen actuele aanbieding van nieuwe voorraad; de staat van gebruikte exemplaren en oude voorraad, de boilergeschiedenis en de garantie moeten afzonderlijk worden gecontroleerd",
+      "de": "Historische Einführungsreferenz, kein aktuelles Neuwarenangebot; Zustand von Gebrauchtgeräten und Altbestand, Boilerhistorie und Garantie müssen einzeln geprüft werden",
+      "fr": "Référence historique de lancement, et non offre actuelle de stock neuf ; l’état des exemplaires d’occasion ou d’anciens stocks, l’historique de la chaudière et la garantie doivent être vérifiés individuellement"
+    },
+    "48": {
+      "nl": "Discussie onder eigenaren: Classic Evo Pro RI9380/46",
+      "de": "Besitzerdiskussion: Classic Evo Pro RI9380/46",
+      "fr": "Discussion entre propriétaires : Classic Evo Pro RI9380/46"
+    },
+    "49": {
+      "nl": "Classic Evo Pro RI9380/46 tegenover de meest vergelijkbare alternatieven",
+      "de": "Classic Evo Pro RI9380/46 im Vergleich mit den ähnlichsten Alternativen",
+      "fr": "Classic Evo Pro RI9380/46 face aux alternatives les plus proches"
+    },
+    "50": {
+      "nl": "Snelle vergelijking van de Gaggia Classic Evo Pro RI9380/46",
+      "de": "Kurzvergleich zur Gaggia Classic Evo Pro RI9380/46",
+      "fr": "Comparatif rapide de la Gaggia Classic Evo Pro RI9380/46"
+    },
+    "51": {
+      "nl": "De Gaggia Classic Evo Pro RI9380/46 en de meest vergelijkbare alternatieven",
+      "de": "Gaggia Classic Evo Pro RI9380/46 und ihre ähnlichsten Alternativen",
+      "fr": "La Gaggia Classic Evo Pro RI9380/46 et ses alternatives les plus proches"
+    },
+    "52": {
+      "nl": "Uitgebreide vergelijking van de Gaggia Classic Evo Pro RI9380/46",
+      "de": "Ausführlicher Vergleich zur Gaggia Classic Evo Pro RI9380/46",
+      "fr": "Comparatif détaillé de la Gaggia Classic Evo Pro RI9380/46"
+    },
+    "53": {
+      "nl": "Leven met de Classic Evo Pro RI9380/46",
+      "de": "Alltag mit der Classic Evo Pro RI9380/46",
+      "fr": "Vivre avec la Classic Evo Pro RI9380/46"
+    },
+    "54": {
+      "nl": "Discussies van eigenaren over de boiler uit 2023 zijn een reden om documentatie op te vragen, geen manier om een bepaald exemplaar op afstand te diagnosticeren. Vraag welke boiler er nu in zit, wie een eventuele vervanging heeft uitgevoerd en welke bescherming de verkoper biedt. Blijven die antwoorden vaag, dan is de lage vraagprijs onvoldoende bewijs.",
+      "de": "Besitzerdiskussionen zum Boiler von 2023 sind ein Anlass, Unterlagen anzufordern, keine Möglichkeit zur Ferndiagnose eines bestimmten Exemplars. Frage, welcher Boiler derzeit eingebaut ist, wer einen möglichen Austausch vorgenommen hat und welchen Schutz der Verkäufer bietet. Bleiben diese Antworten vage, ist der niedrige Angebotspreis kein ausreichender Beleg.",
+      "fr": "Les discussions de propriétaires sur la chaudière de 2023 justifient de demander des documents, pas de diagnostiquer un exemplaire à distance. Demandez quelle chaudière est installée actuellement, qui a effectué un éventuel remplacement et quelle protection offre le vendeur. Si les réponses restent vagues, le faible prix demandé ne constitue pas une preuve suffisante."
+    },
+    "55": {
+      "nl": "Andere opties voor de koper van een Classic Evo Pro RI9380/46",
+      "de": "Weitere Optionen für Käufer einer Classic Evo Pro RI9380/46",
+      "fr": "Autres options pour l’acheteur d’une Classic Evo Pro RI9380/46"
+    },
+    "56": {
+      "nl": "Veelgestelde vragen over de Classic Evo Pro RI9380/46",
+      "de": "Häufige Fragen zur Classic Evo Pro RI9380/46",
+      "fr": "Questions fréquentes sur la Classic Evo Pro RI9380/46"
+    },
+    "57": {
+      "nl": "Wat onderscheidt deze Classic Evo Pro RI9380/46 van verwante Gaggia-modellen?",
+      "de": "Was unterscheidet diese Classic Evo Pro RI9380/46 von benachbarten Gaggia-Modellen?",
+      "fr": "Qu’est-ce qui distingue cette Classic Evo Pro RI9380/46 des modèles Gaggia voisins ?"
+    },
+    "58": {
+      "nl": "Wat komt er kijken bij melkbereiding met de Classic Evo Pro RI9380/46?",
+      "de": "Was gehört zur Milchzubereitung mit der Classic Evo Pro RI9380/46?",
+      "fr": "Qu’implique la préparation du lait sur la Classic Evo Pro RI9380/46 ?"
+    },
+    "59": {
+      "nl": "Wat moet ik controleren vóór aankoop van een Classic Evo Pro RI9380/46?",
+      "de": "Was sollte ich vor dem Kauf einer Classic Evo Pro RI9380/46 prüfen?",
+      "fr": "Que dois-je inspecter avant d’acheter une Classic Evo Pro RI9380/46 ?"
+    },
+    "60": {
+      "nl": "Welke bediening biedt de Classic Evo Pro RI9380/46 precies?",
+      "de": "Welche Bedienelemente bietet die Classic Evo Pro RI9380/46 tatsächlich?",
+      "fr": "Quelles commandes la Classic Evo Pro RI9380/46 offre-t-elle réellement ?"
+    },
+    "61": {
+      "nl": "Welke boileropbouw heeft deze Classic Evo Pro RI9380/46?",
+      "de": "Welche Boilerarchitektur steckt in dieser Classic Evo Pro RI9380/46?",
+      "fr": "Quelle architecture de chaudière équipe cette Classic Evo Pro RI9380/46 ?"
+    },
+    "62": {
+      "nl": "Bekijk Gaggia Classic EVO Pro beoordeeld | Een verbetering? van Lifestyle Lab",
+      "de": "Gaggia Classic EVO Pro im Test | Ein Upgrade? von Lifestyle Lab ansehen",
+      "fr": "Regarder Gaggia Classic EVO Pro : analyse | Une amélioration ? par Lifestyle Lab"
+    },
+    "64": {
+      "nl": "Gaggia Classic EVO Pro beoordeeld | Een verbetering?",
+      "de": "Gaggia Classic EVO Pro im Test | Ein Upgrade?",
+      "fr": "Gaggia Classic EVO Pro : analyse | Une amélioration ?"
+    },
+    "65": {
+      "nl": "16 september 2023",
+      "de": "16. September 2023",
+      "fr": "16 septembre 2023"
+    },
+    "66": {
+      "nl": "De beoordeling is beperkt tot de Noord-Amerikaanse RI9380/46 Classic Evo Pro uit 2023. De generatie met gecoate boiler uit 2023 kent onopgeloste onzekerheid bij tweedehands aankoop en is opgevolgd door E24.",
+      "de": "Die Bewertung beschränkt sich auf die nordamerikanische RI9380/46 Classic Evo Pro von 2023. Bei der Generation mit beschichtetem Boiler von 2023 bleiben Gebrauchtkaufrisiken ungeklärt; sie wurde durch E24 abgelöst.",
+      "fr": "L’analyse se limite à la Classic Evo Pro RI9380/46 nord-américaine de 2023. La génération à chaudière revêtue de 2023 présente encore des incertitudes à l’achat d’occasion et a été remplacée par E24."
+    },
+    "68": {
+      "nl": "Handleiding van de Gaggia Classic Evo Pro RI9380/46",
+      "de": "Bedienungsanleitung der Gaggia Classic Evo Pro RI9380/46",
+      "fr": "Manuel de la Gaggia Classic Evo Pro RI9380/46"
+    },
+    "69": {
+      "nl": "Gedocumenteerde introductieprijs uit 2023",
+      "de": "Dokumentierter Einführungspreis von 2023",
+      "fr": "Prix de lancement documenté de 2023"
+    },
+    "70": {
+      "nl": "Prijscontext van $499.00 vastgelegd op 23 september 2026; voorraad, belasting, staat en garantie kunnen veranderen.",
+      "de": "Preiskontext von $499.00 am 23. September 2026 erfasst; Bestand, Steuern, Zustand und Garantie können sich ändern.",
+      "fr": "Contexte de prix à $499.00 relevé le 23 septembre 2026 ; le stock, les taxes, l’état et la garantie peuvent changer."
+    },
+    "71": {
+      "nl": "Onafhankelijke beoordeling: Classic Evo Pro RI9380/46",
+      "de": "Unabhängiger Testbericht: Classic Evo Pro RI9380/46",
+      "fr": "Analyse indépendante : Classic Evo Pro RI9380/46"
+    },
+    "72": {
+      "nl": "Gaggia Classic EVO Pro beoordeeld: een verbetering?",
+      "de": "Gaggia Classic EVO Pro im Test: ein Upgrade?",
+      "fr": "Gaggia Classic EVO Pro : analyse et amélioration ?"
+    },
+    "73": {
+      "nl": "Onafhankelijke video van Lifestyle Lab, gepubliceerd op 2023-09-16, gebruikt om de zichtbare werkwijze te verduidelijken.",
+      "de": "Unabhängiges Video von Lifestyle Lab, veröffentlicht am 2023-09-16, als sichtbarer Kontext zum Arbeitsablauf verwendet.",
+      "fr": "Vidéo indépendante de Lifestyle Lab, publiée le 2023-09-16, utilisée pour illustrer le déroulement visible de la préparation."
+    },
+    "74": {
+      "nl": "De Classic Evo Pro RI9380/46 verdient zijn plek alleen als de werkwijze past",
+      "de": "Die Classic Evo Pro RI9380/46 lohnt sich nur, wenn der Ablauf passt",
+      "fr": "La Classic Evo Pro RI9380/46 ne mérite sa place que si son fonctionnement vous convient"
+    },
+    "98": {
+      "nl": "Gaggia Classic Evo Pro RI9380/46: Gaggia Classic EVO Pro beoordeeld | Een verbetering? · Lifestyle Lab (2023-09-16) | Coffeedant",
+      "de": "Gaggia Classic Evo Pro RI9380/46: Gaggia Classic EVO Pro im Test | Ein Upgrade? · Lifestyle Lab (2023-09-16) | Coffeedant",
+      "fr": "Gaggia Classic Evo Pro RI9380/46 : Gaggia Classic EVO Pro : analyse | Une amélioration ? · Lifestyle Lab (2023-09-16) | Coffeedant"
+    },
+    "99": {
+      "nl": "Bekijk Lifestyle Lab over de Gaggia Classic Evo Pro RI9380/46 (2023-09-16): Gaggia Classic EVO Pro beoordeeld | Een verbetering?. Onafhankelijk visueel bewijs van de werkwijze. Actuele specificaties, generatie en prijs worden afzonderlijk geverifieerd.",
+      "de": "Lifestyle Lab zur Gaggia Classic Evo Pro RI9380/46 ansehen (2023-09-16): Gaggia Classic EVO Pro im Test | Ein Upgrade?. Unabhängige visuelle Belege zum Arbeitsablauf. Aktuelle technische Daten, Generation und Preis werden gesondert geprüft.",
+      "fr": "Regardez Lifestyle Lab présenter la Gaggia Classic Evo Pro RI9380/46 (2023-09-16) : Gaggia Classic EVO Pro : analyse | Une amélioration ?. Éléments visuels indépendants sur la préparation. Les caractéristiques actuelles, la génération et le prix sont vérifiés séparément."
+    },
+    "101": {
+      "nl": "Video van Lifestyle Lab over de Gaggia Classic Evo Pro RI9380/46",
+      "de": "Video zur Gaggia Classic Evo Pro RI9380/46 von Lifestyle Lab",
+      "fr": "Vidéo sur la Gaggia Classic Evo Pro RI9380/46 par Lifestyle Lab"
+    },
+    "102": {
+      "nl": "← Beoordeling van de Gaggia Classic Evo Pro RI9380/46",
+      "de": "← Testbericht zur Gaggia Classic Evo Pro RI9380/46",
+      "fr": "← Analyse de la Gaggia Classic Evo Pro RI9380/46"
+    },
+    "103": {
+      "nl": "Gaggia Classic EVO Pro beoordeeld | Een verbetering? van Lifestyle Lab",
+      "de": "Gaggia Classic EVO Pro im Test | Ein Upgrade? von Lifestyle Lab",
+      "fr": "Gaggia Classic EVO Pro : analyse | Une amélioration ? par Lifestyle Lab"
+    },
+    "104": {
+      "nl": "Gaggia Classic Evo Pro RI9380/46 · Perspectief van een derde",
+      "de": "Gaggia Classic Evo Pro RI9380/46 · Externe Perspektive",
+      "fr": "Gaggia Classic Evo Pro RI9380/46 · Point de vue tiers"
+    }
+  }
+}

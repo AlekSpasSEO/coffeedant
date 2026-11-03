@@ -3661,6 +3661,46 @@ DE 13,868 / 42,853 and FR 13,841 / 42,880. Finder gaps remain zero. There are
 160 non-video and 375 video pages unfinished. All full editions remain incomplete;
 ready-pages publication, continuation and source-change maintenance stay active.
 
+### Direct batch 72: complete 2023 Classic Evo Pro review and video (2026-11-03)
+
+Complete the entire current Gaggia Classic Evo Pro RI9380/46 review and its
+Lifestyle Lab video page in NL/DE/FR. Preserve all six FAQ answers, nine
+evidence/comparison tables, source citations, photo credits and metadata. The
+prepared review has 93 paragraphs; native Finder rebuilding yields 102, with
+every expected body character retained. The companion video has five paragraphs.
+The exact 2023 North American factory-coated aluminum boiler remains distinct
+from uncoated transition units and the later E24 brass boiler. Serial, purchase
+and boiler-replacement records, competent inspection, thermostat timing,
+sequential milk work and family-photo limitations remain explicit. The original
+dated $499.00 launch context is historical, with individual used/old-stock
+condition and warranty checks retained. No converted local prices, new offer
+verification or Coffeedant physical-testing claims are introduced.
+
+The immutable full snapshot freezes 882 page/shared slots. The missing snapshot
+pins both complete current fingerprints and 108 slots, covered by 76 authored
+triples and three unchanged proper names. Exact-source reuse adds 109 cache
+entries per edition, with no prior wording edits or route renames. Preserve the
+registered French review `/machine-a-espresso/gaggia-classic-evo-pro/` path.
+New NL/DE review routes use their existing espressomachines/espresso-maschine
+prefixes; new video routes are nested under each edition's review route.
+
+All 210 localization and 20 SEO tests, analytics, 35 bean reviews and the
+151-machine/seven-grinder Finder validators pass. Nine complete previews and
+nine production comparisons cover both new pages and the existing E24 review.
+The full regional bundle builds without deferrals. Nine exact-output Chrome
+viewports at native origins verify zero document overflow, 54 labelled/focusable
+table regions, six Finder filter/reset/self-exclusion checks, six video dialogs
+with native labels and history/focus/canonical restoration, six mobile menus and
+nine language pickers. Live deployment and reciprocal-link evidence follows in
+the batch PR after checks pass.
+
+Current source remains 661 pages / 56,721 segments. Ready selection is 127
+indexable pages plus 404 per edition, preserving all 125 earlier canonical paths
+and the Dutch dosing URL. Coverage is NL 13,941 translated / 42,780 pending,
+DE 13,977 / 42,744 and FR 13,950 / 42,771. Finder gaps remain zero. There are
+159 non-video and 374 video pages unfinished. All full editions remain incomplete;
+ready-pages publication, continuation and source-change maintenance stay active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
