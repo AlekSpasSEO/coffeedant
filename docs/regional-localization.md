@@ -3619,6 +3619,48 @@ DE 13,761 / 42,960 and FR 13,734 / 42,987. Finder gaps remain zero. There are
 161 non-video and 376 video pages unfinished. All full editions remain incomplete;
 ready-pages publication, continuation and source-change maintenance stay active.
 
+### Direct batch 71: complete Espresso Evolution review and video (2026-11-03)
+
+Complete the entire current Gaggia Espresso Evolution EG2115/01 review and its
+Whole Latte Love video page in NL/DE/FR. Preserve all six FAQ answers, nine
+evidence/comparison tables, source citations, photo credits and metadata. The
+prepared review has 92 paragraphs; native Finder rebuilding yields 101, with
+every expected body character retained. The companion video has four paragraphs.
+The reviewed Stone Black European/UK 230V package stays distinct from the
+Classic/58 mm platform. Internal factory PID assistance does not become a
+user-adjustable temperature menu or a claimed coffee-bed measurement. The Lava
+Red detail-photo difference, listed 76 mm clearance and manual-specific cleaning
+limits remain explicit. The original dated £199 UK out-of-stock record and
+parts-warranty context are preserved without converted local prices, new offer
+verification or Coffeedant physical-testing claims. Local commerce stays suppressed.
+
+The immutable full snapshot freezes 877 page/shared slots. The missing snapshot
+pins both complete current fingerprints and 106 slots, covered by 77 authored
+triples and one unchanged product name. Exact-source reuse adds 107 cache entries
+per edition, with no prior wording edits or route renames. Preserve the registered
+NL video `/gaggia-espresso-evolutie-eg2115/video/whole-latte-love/`, DE video
+`/gaggia-espresso-evolution-eg2115/testbericht/whole-latte-love/` and French review
+`/machine-a-espresso/gaggia-espresso-evolution-eg2115/` paths. New NL/DE review
+routes use their existing espressomachines/espresso-maschine prefixes; the new
+French video route is nested under its stable review route.
+
+All 210 localization and 20 SEO tests, analytics, 35 bean reviews and the
+151-machine/seven-grinder Finder validators pass. Nine complete previews and
+nine production comparisons cover both new pages and the existing E24 review.
+The full regional bundle builds without deferrals. Nine exact-output Chrome
+viewports at native origins verify zero document overflow, 54 labelled/focusable
+table regions, six Finder filter/reset/self-exclusion checks, six video dialogs
+with native labels and history/focus/canonical restoration, six mobile menus and
+nine language pickers. Live deployment and reciprocal-link evidence follows in
+the batch PR after checks pass.
+
+Current source remains 661 pages / 56,721 segments. Ready selection is 125
+indexable pages plus 404 per edition, preserving all 123 earlier canonical paths
+and the Dutch dosing URL. Coverage is NL 13,832 translated / 42,889 pending,
+DE 13,868 / 42,853 and FR 13,841 / 42,880. Finder gaps remain zero. There are
+160 non-video and 375 video pages unfinished. All full editions remain incomplete;
+ready-pages publication, continuation and source-change maintenance stay active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

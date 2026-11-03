@@ -1,0 +1,415 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "gaggia-evolution-batch-71.source.json",
+  "snapshotHash": "e24d5fb05d150248c9e556cc431b637114d125a0bc551f43012208b862df484c",
+  "preserveSource": [
+    86
+  ],
+  "routes": {
+    "nl": {
+      "/espresso-machine/gaggia-espresso-evolution-eg2115/": "/espressomachines/gaggia-espresso-evolution-eg2115/",
+      "/espresso-machine/gaggia-espresso-evolution-eg2115/video/whole-latte-love/": "/gaggia-espresso-evolutie-eg2115/video/whole-latte-love/"
+    },
+    "de": {
+      "/espresso-machine/gaggia-espresso-evolution-eg2115/": "/espresso-maschine/gaggia-espresso-evolution-eg2115/",
+      "/espresso-machine/gaggia-espresso-evolution-eg2115/video/whole-latte-love/": "/gaggia-espresso-evolution-eg2115/testbericht/whole-latte-love/"
+    },
+    "fr": {
+      "/espresso-machine/gaggia-espresso-evolution-eg2115/": "/machine-a-espresso/gaggia-espresso-evolution-eg2115/",
+      "/espresso-machine/gaggia-espresso-evolution-eg2115/video/whole-latte-love/": "/machine-a-espresso/gaggia-espresso-evolution-eg2115/video/whole-latte-love/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "3.7 van 5, open de Coffeedant-beoordelingen per categorie",
+      "de": "3.7 von 5, Coffeedant-Kategoriewertungen öffnen",
+      "fr": "3.7 sur 5, ouvrir les notes Coffeedant par catégorie"
+    },
+    "1": {
+      "nl": "7.1 van 10",
+      "de": "7.1 von 10",
+      "fr": "7.1 sur 10"
+    },
+    "2": {
+      "nl": "7.9 van 10",
+      "de": "7.9 von 10",
+      "fr": "7.9 sur 10"
+    },
+    "3": {
+      "nl": "6.7 van 10",
+      "de": "6.7 von 10",
+      "fr": "6.7 sur 10"
+    },
+    "4": {
+      "nl": "6.2 van 10",
+      "de": "6.2 von 10",
+      "fr": "6.2 sur 10"
+    },
+    "5": {
+      "nl": "Gaggia Espresso Evolution EG2115-review: PID-regeling voor een geverifieerde prijs van £199 | Coffeedant",
+      "de": "Gaggia Espresso Evolution EG2115 im Test: PID-Regelung zum verifizierten Preis von £199 | Coffeedant",
+      "fr": "Test de la Gaggia Espresso Evolution EG2115 : régulation PID à un prix vérifié de £199 | Coffeedant"
+    },
+    "6": {
+      "nl": "Een review op basis van bronnenonderzoek van de Gaggia Espresso Evolution EG2115/01 over de PID-regelaar af fabriek, dubbelwandige filterhouder, het Crema XL-systeem, de pannarello, de Britse aanbieding van £199 en de beperkingen.",
+      "de": "Eine recherchegestützte Bewertung der Gaggia Espresso Evolution EG2115/01 zu werkseitigem PID-Regler, doppelwandigem Filterhalter, Crema XL-System, Pannarello, britischem Angebot für £199 und Grenzen.",
+      "fr": "Une évaluation de la Gaggia Espresso Evolution EG2115/01 fondée sur des recherches, couvrant son PID d’origine, son porte-filtre à double paroi, son système Crema XL, son pannarello, son annonce britannique à £199 et ses limites."
+    },
+    "8": {
+      "nl": "Gaggia Espresso Evolution EG2115-review: PID-regeling voor een geverifieerde prijs van £199",
+      "de": "Gaggia Espresso Evolution EG2115 im Test: PID-Regelung zum verifizierten Preis von £199",
+      "fr": "Test de la Gaggia Espresso Evolution EG2115 : régulation PID à un prix vérifié de £199"
+    },
+    "9": {
+      "nl": "Voor thuisbarista’s die compacte instapespresso met PID-ondersteuning, eenvoudige dosering en een zijreservoir willen",
+      "de": "Für Heimbaristas, die kompakten Einstieg in Espresso mit PID-Unterstützung, einfacher Dosierung und seitlichem Tank möchten",
+      "fr": "Pour les baristas à domicile qui veulent une machine espresso d’entrée de gamme compacte, assistée par PID, avec dosage simple et réservoir latéral"
+    },
+    "10": {
+      "nl": "Compacte instapespresso met PID-ondersteuning, eenvoudige dosering en een zijreservoir. Het centrale compromis bestaat uit kunststof zetonderdelen, weinig ruimte voor kopjes en een accessoireplatform dat geen 58 mm gebruikt",
+      "de": "Kompakter Einstieg in Espresso mit PID-Unterstützung, einfacher Dosierung und seitlichem Tank. Der zentrale Kompromiss sind Brühkomponenten aus Kunststoff, geringe Tassenfreiheit und ein Zubehörsystem außerhalb des 58-mm-Formats",
+      "fr": "Une machine espresso d’entrée de gamme compacte, assistée par PID, avec dosage simple et réservoir latéral. Le compromis central concerne les composants d’extraction en plastique, la faible hauteur disponible pour la tasse et un format d’accessoires autre que 58 mm"
+    },
+    "11": {
+      "nl": "Aanbieding van Gaggia Direct UK; controleer generatie, boiler, spanning, staat en garantie",
+      "de": "Angebot von Gaggia Direct UK; Generation, Boiler, Spannung, Zustand und Garantie prüfen",
+      "fr": "Annonce de Gaggia Direct UK ; vérifier la génération, la chaudière, la tension, l’état et la garantie"
+    },
+    "12": {
+      "nl": "Kies voor compacte instapespresso met PID-ondersteuning, eenvoudige dosering en een zijreservoir.",
+      "de": "Wählen Sie sie für kompakten Einstieg in Espresso mit PID-Unterstützung, einfacher Dosierung und seitlichem Tank.",
+      "fr": "À choisir pour une machine espresso d’entrée de gamme compacte, assistée par PID, avec dosage simple et réservoir latéral."
+    },
+    "13": {
+      "nl": "Stone Black 230V EG2115/01 met PID-regelaar af fabriek, pre-infusie, zijreservoir van 1.2 L en Crema XL-systeem; dit is geen Gaggia Classic of platform van 58 mm.",
+      "de": "Stone Black 230V EG2115/01 mit werkseitigem PID-Regler, Präinfusion, seitlichem 1.2-L-Tank und Crema XL-System; keine Gaggia Classic und keine 58-mm-Plattform.",
+      "fr": "Stone Black 230V EG2115/01 avec PID d’origine, préinfusion, réservoir latéral de 1.2 L et système Crema XL ; ce n’est ni une Gaggia Classic ni une plateforme de 58 mm."
+    },
+    "14": {
+      "nl": "Officieel gedocumenteerde roestvrijstalen boiler, PID, pomp van 15 bar en pre-infusie",
+      "de": "Offiziell dokumentierter Edelstahlboiler, PID-Regler, 15-Bar-Pumpe und Präinfusion",
+      "fr": "Chaudière en acier inoxydable, PID, pompe de 15 bars et préinfusion officiellement documentés"
+    },
+    "15": {
+      "nl": "Filterhouder van ABS en roestvrij staal met dubbelwandige filters voor twee kopjes en voor één kopje of ESE-pads",
+      "de": "Halter aus ABS und Edelstahl mit doppelwandigen Sieben für zwei Tassen sowie für eine Tasse oder ESE-Pads",
+      "fr": "Porte-filtre en ABS et acier inoxydable avec filtres à double paroi pour deux tasses et pour une tasse ou une dosette ESE"
+    },
+    "16": {
+      "nl": "Klassieke kunststof pannarello; espresso zetten en stomen gebeuren na elkaar",
+      "de": "Klassischer Kunststoff-Pannarello; Espressozubereitung und Dampfen erfolgen nacheinander",
+      "fr": "Pannarello classique en plastique ; l’extraction de l’espresso et la vapeur se font successivement"
+    },
+    "17": {
+      "nl": "Verlichte knoppen en volumegeheugen; er is geen manometer of temperatuurmenu gedocumenteerd",
+      "de": "Beleuchtete Tasten und gespeicherte Bezugsmenge; weder Manometer noch Temperaturmenü sind dokumentiert",
+      "fr": "Boutons rétroéclairés et mémorisation du volume ; aucun manomètre ni menu de température n’est documenté"
+    },
+    "18": {
+      "nl": "Zijreservoir van 1.2 L; geschikt voor gemalen koffie en ESE-pads",
+      "de": "Seitlicher 1.2-L-Tank; für gemahlenen Kaffee und ESE-Pads geeignet",
+      "fr": "Réservoir latéral de 1.2 L ; compatible avec le café moulu et les dosettes ESE"
+    },
+    "19": {
+      "nl": "19.9 B bij 25.5 D bij 30.3 H cm; 3.7 kg",
+      "de": "19.9 B mal 25.5 T mal 30.3 H cm; 3.7 kg",
+      "fr": "19.9 l par 25.5 P par 30.3 H cm ; 3.7 kg"
+    },
+    "20": {
+      "nl": "Gaggia-filterhouder van ABS en roestvrij staal met meegeleverde dubbelwandige filters; geen 58 mm",
+      "de": "Gaggia-Halter aus ABS und Edelstahl mit mitgelieferten doppelwandigen Sieben; nicht 58 mm",
+      "fr": "Porte-filtre Gaggia en ABS et acier inoxydable avec filtres à double paroi fournis ; pas de 58 mm"
+    },
+    "21": {
+      "nl": "Kunststof zetonderdelen, weinig ruimte voor kopjes en een accessoireplatform dat geen 58 mm gebruikt",
+      "de": "Brühkomponenten aus Kunststoff, geringe Tassenfreiheit und ein Zubehörsystem außerhalb des 58-mm-Formats",
+      "fr": "Composants d’extraction en plastique, faible hauteur disponible pour la tasse et format d’accessoires autre que 58 mm"
+    },
+    "22": {
+      "nl": "Welke exacte Espresso Evolution EG2115/01 wordt beoordeeld?",
+      "de": "Welche genaue Espresso Evolution EG2115/01 wird bewertet?",
+      "fr": "Quelle version exacte de l’Espresso Evolution EG2115/01 est évaluée ?"
+    },
+    "23": {
+      "nl": "Ja. Gaggia documenteert een PID-regelaar af fabriek, maar er wordt geen door de gebruiker instelbaar temperatuurmenu of meting in het koffiebed geclaimd.",
+      "de": "Ja. Gaggia dokumentiert einen werkseitigen PID-Regler, beansprucht aber weder ein vom Nutzer einstellbares Temperaturmenü noch eine Messung im Kaffeebett.",
+      "fr": "Oui. Gaggia documente un PID d’origine, mais ne revendique ni menu de température réglable par l’utilisateur ni mesure dans le lit de café."
+    },
+    "24": {
+      "nl": "Een koper die compacte instapespresso met PID-ondersteuning, eenvoudige dosering en een zijreservoir waardeert en kunststof zetonderdelen, weinig ruimte voor kopjes en een accessoireplatform zonder 58 mm accepteert",
+      "de": "Ein Käufer, der kompakten Einstieg in Espresso mit PID-Unterstützung, einfacher Dosierung und seitlichem Tank schätzt und Brühkomponenten aus Kunststoff, geringe Tassenfreiheit und ein Zubehörsystem außerhalb des 58-mm-Formats akzeptiert",
+      "fr": "Un acheteur qui apprécie une machine espresso d’entrée de gamme compacte, assistée par PID, avec dosage simple et réservoir latéral, et accepte les composants d’extraction en plastique, la faible hauteur disponible pour la tasse et un format d’accessoires autre que 58 mm"
+    },
+    "25": {
+      "nl": "Volledige review van de Gaggia Espresso Evolution EG2115/01",
+      "de": "Vollständiger Testbericht zur Gaggia Espresso Evolution EG2115/01",
+      "fr": "Test complet de la Gaggia Espresso Evolution EG2115/01"
+    },
+    "26": {
+      "nl": "Eén totaalscore is alleen nuttig als je kunt zien waarop deze is gebaseerd. De Gaggia Espresso Evolution EG2115/01 krijgt",
+      "de": "Eine einzelne Gesamtnote ist nur nützlich, wenn Sie ihre Grundlage erkennen können. Die Gaggia Espresso Evolution EG2115/01 erhält",
+      "fr": "Une note globale n’est utile que si l’on peut voir ce qui la justifie. La Gaggia Espresso Evolution EG2115/01 obtient"
+    },
+    "27": {
+      "nl": "Voor £199.00 is een vergelijking van de complete koffieopstelling nodig.",
+      "de": "Bei £199.00 ist ein Vergleich der gesamten Kaffeestation nötig.",
+      "fr": "À £199.00, une comparaison de l’installation complète s’impose."
+    },
+    "28": {
+      "nl": "Espresso Evolution EG2115/01: de aankoopbeslissing",
+      "de": "Espresso Evolution EG2115/01: die Kaufentscheidung",
+      "fr": "Espresso Evolution EG2115/01 : la décision d’achat"
+    },
+    "29": {
+      "nl": "De Espresso Evolution is een compacte instapmachine met PID-ondersteuning af fabriek, pre-infusie en volumegeheugen, in plaats van een kleinere versie van de Gaggia Classic. De dubbelwandige filters en ESE-ondersteuning bieden een vergevingsgezind begin, en het zijreservoir kan helpen waar toegang aan de achterkant lastig is. De kunststof pannarello houdt de melkbereiding handmatig, terwijl het portafiltersysteem een andere richting kiest dan de accessoires van 58 mm van de Classic. PID betekent hier ook niet dat er een temperatuurmenu voor de gebruiker is. De beoordeelde 230 V EG2115/01 past bij iemand die bescheiden elektronische hulp en eenvoudige dosering wil en vooraf de beperkte ruimte voor kopjes en het accessoireformaat accepteert.",
+      "de": "Die Espresso Evolution ist eine kompakte Einstiegsmaschine mit werkseitiger PID-Unterstützung, Präinfusion und gespeicherter Bezugsmenge, keine kleinere Version der Gaggia Classic. Ihre doppelwandigen Siebe und die ESE-Unterstützung bieten einen fehlertoleranten Einstieg, und der seitliche Tank kann helfen, wenn der Zugang von hinten schwierig ist. Der Kunststoff-Pannarello belässt die Milchzubereitung beim Nutzer, während das Siebträgersystem von den 58-mm-Zubehörteilen der Classic wegführt. PID bedeutet hier auch kein Temperaturmenü für den Nutzer. Die bewertete 230 V EG2115/01 passt zu jemandem, der etwas elektronische Hilfe und einfache Dosierung möchte und Tassenfreiheit sowie Zubehörformat vorab akzeptiert.",
+      "fr": "L’Espresso Evolution est une machine d’entrée de gamme compacte avec assistance PID d’origine, préinfusion et mémorisation du volume, plutôt qu’une version réduite de la Gaggia Classic. Ses filtres à double paroi et sa compatibilité ESE offrent un point de départ tolérant, et le réservoir latéral peut aider lorsque l’accès arrière est difficile. Le pannarello en plastique maintient la préparation du lait manuelle, tandis que le système de porte-filtre s’écarte des accessoires de 58 mm de la Classic. Ici, PID n’implique pas non plus un menu de température accessible à l’utilisateur. L’EG2115/01 en 230 V évaluée convient à qui souhaite une aide électronique modeste et un dosage simple, en acceptant d’avance la hauteur disponible pour la tasse et le format des accessoires."
+    },
+    "30": {
+      "nl": "De Espresso Evolution EG2115/01 installeren",
+      "de": "Die Espresso Evolution EG2115/01 einrichten",
+      "fr": "Installer l’Espresso Evolution EG2115/01"
+    },
+    "31": {
+      "nl": "officieel gedocumenteerde roestvrijstalen boiler, PID, pomp van 15 bar en pre-infusie.",
+      "de": "offiziell dokumentierter Edelstahlboiler, PID-Regler, 15-Bar-Pumpe und Präinfusion.",
+      "fr": "chaudière en acier inoxydable, PID, pompe de 15 bars et préinfusion officiellement documentés."
+    },
+    "32": {
+      "nl": "De EG2115/01 is een compacte instapmachine op 230 V, geen Classic van 58 mm. Controleer de meegeleverde filterhouder, dubbelwandige filters en ruimte voor kopjes voordat je een tamper of weegschaal koopt. Het reservoir van 1.2 L wordt aan de zijkant uitgenomen, dus de smalle behuizing heeft nog steeds zijwaartse toegang nodig.",
+      "de": "Die EG2115/01 ist eine kompakte Einstiegsmaschine mit 230 V, keine 58-mm-Classic. Prüfen Sie mitgelieferten Halter, doppelwandige Siebe und Tassenfreiheit, bevor Sie Tamper oder Waage kaufen. Ihr 1.2-L-Tank wird seitlich entnommen, sodass das schmale Gehäuse weiterhin seitlichen Zugang benötigt.",
+      "fr": "L’EG2115/01 est une machine d’entrée de gamme compacte en 230 V, pas une Classic de 58 mm. Vérifiez le porte-filtre fourni, les filtres à double paroi et la hauteur disponible pour la tasse avant d’acheter un tamper ou une balance. Son réservoir de 1.2 L se retire par le côté : le boîtier étroit nécessite donc quand même un accès latéral."
+    },
+    "33": {
+      "nl": "Bediening, filterhouder en pannarello van de Gaggia Espresso Evolution in Lava Red",
+      "de": "Bedienelemente, Filterhalter und Pannarello der Gaggia Espresso Evolution in Lava Red",
+      "fr": "Commandes, porte-filtre et pannarello de la Gaggia Espresso Evolution en Lava Red"
+    },
+    "34": {
+      "nl": "Officieel detailbeeld toont de compacte verlichte bediening, hoge dubbelwandige filterhouder en opstelling van de pannarello; de kleur wijkt af van de beoordeelde Stone Black EG2115/01.",
+      "de": "Offizielles Detailmaterial zeigt die kompakten beleuchteten Bedienelemente, den hohen doppelwandigen Filterhalter und die Pannarello-Anordnung; die Farbe unterscheidet sich von der bewerteten Stone Black EG2115/01.",
+      "fr": "Le visuel de détail officiel montre les commandes compactes rétroéclairées, le porte-filtre haut à double paroi et l’agencement du pannarello ; la couleur diffère de la Stone Black EG2115/01 évaluée."
+    },
+    "35": {
+      "nl": "Productpagina van de Gaggia Espresso Evolution",
+      "de": "Produktseite der Gaggia Espresso Evolution",
+      "fr": "Page produit de la Gaggia Espresso Evolution"
+    },
+    "36": {
+      "nl": "Bekijk wat er nog meer naast de Espresso Evolution EG2115/01 past.",
+      "de": "Sehen Sie, was neben die Espresso Evolution EG2115/01 passt.",
+      "fr": "Découvrez ce qui peut aussi trouver sa place à côté de l’Espresso Evolution EG2115/01."
+    },
+    "37": {
+      "nl": "De dubbelwandige filterbakjes en ESE-optie maken de Espresso Evolution minder veeleisend voor een losse, fijn instelbare molen dan een open filterbakje van 58 mm van de Classic. De gedocumenteerde PID is interne ondersteuning, geen temperatuurmenu voor de gebruiker. Het volumegeheugen kan een gekozen instelling herhalen; wegen van de drank laat nog steeds zien wat de koffie heeft opgeleverd.",
+      "de": "Die doppelwandigen Siebe und die ESE-Option stellen bei der Espresso Evolution geringere Anforderungen an eine separate, fein einstellbare Mühle als ein offenes 58-mm-Sieb der Classic. Der dokumentierte PID-Regler ist eine interne Unterstützung, kein Temperaturmenü für den Nutzer. Die gespeicherte Bezugsmenge kann eine gewählte Einstellung wiederholen; das Wiegen des Getränks zeigt weiterhin, was der Kaffee ergeben hat.",
+      "fr": "Les paniers à double paroi et l’option ESE rendent l’Espresso Evolution moins exigeante envers un moulin séparé à réglage fin qu’un panier ouvert de 58 mm de Classic. Le PID documenté est une assistance interne, pas un menu de température pour l’utilisateur. La mémorisation du volume peut répéter un réglage choisi ; peser la boisson permet toujours de voir ce que le café a produit."
+    },
+    "38": {
+      "nl": "De kunststof pannarello is bedoeld om tijdens het stomen lucht toe te voegen. Koffie en melk blijven afzonderlijke stappen. Controleer of het gekozen kopje in de lage uitloopruimte past voordat je een routine voor melkdranken rond een hoge mok opbouwt.",
+      "de": "Der Kunststoff-Pannarello soll beim Dampfen Luft einbringen. Kaffee und Milch bleiben getrennte Schritte. Prüfen Sie, ob die gewählte Tasse unter den niedrigen Auslauf passt, bevor Sie eine Milchgetränkeroutine um einen hohen Becher aufbauen.",
+      "fr": "Le pannarello en plastique est conçu pour faciliter l’introduction d’air pendant la production de vapeur. Le café et le lait restent des étapes distinctes. Vérifiez que la tasse choisie passe dans l’espace bas sous l’écoulement avant d’organiser une routine de boissons lactées autour d’un grand mug."
+    },
+    "39": {
+      "nl": "Verlichte knoppen en opgeslagen volume houden de bediening eenvoudig. De afweging is minder feedback: er is geen manometer of temperatuurmenu gedocumenteerd. Kies deze voor ondersteunde instapespresso in een kleine ruimte, niet als goedkope toegang tot het ecosysteem van accessoires en aanpassingen van de Classic.",
+      "de": "Beleuchtete Tasten und gespeicherte Bezugsmenge halten die Bedienung einfach. Der Kompromiss ist weniger Rückmeldung: Weder Manometer noch Temperaturmenü sind dokumentiert. Wählen Sie sie für unterstützten Einstieg in Espresso auf wenig Platz, nicht als günstigen Zugang zum Zubehör- und Modifikationsökosystem der Classic.",
+      "fr": "Les boutons rétroéclairés et le volume mémorisé gardent les commandes simples. Le compromis est un retour d’information moindre : aucun manomètre ni menu de température n’est documenté. Choisissez-la pour débuter en espresso avec une assistance dans un petit espace, plutôt que comme accès économique à l’écosystème d’accessoires et de modifications de la Classic."
+    },
+    "40": {
+      "nl": "Officieel gedocumenteerde roestvrijstalen boiler, PID, pomp van 15 bar en pre-infusie. 19.9 B bij 25.5 D bij 30.3 H cm; 3.7 kg.",
+      "de": "Offiziell dokumentierter Edelstahlboiler, PID-Regler, 15-Bar-Pumpe und Präinfusion. 19.9 B mal 25.5 T mal 30.3 H cm; 3.7 kg.",
+      "fr": "Chaudière en acier inoxydable, PID, pompe de 15 bars et préinfusion officiellement documentés. 19.9 l par 25.5 P par 30.3 H cm ; 3.7 kg."
+    },
+    "41": {
+      "nl": "Gebruik de EG2115-handleiding voor de dubbelwandige filters en pannarello. Neem niet zomaar een terugspoelprocedure van de Classic over omdat beide machines hetzelfde merk dragen. Houd de zijwaartse toegang vrij, zodat het kleine reservoir kan worden uitgenomen en gewassen zonder de koffieopstelling te verplaatsen.",
+      "de": "Verwenden Sie das EG2115-Handbuch für die doppelwandigen Siebe und den Pannarello. Übernehmen Sie keine Rückspülprozedur der Classic, nur weil beide Maschinen dieselbe Marke tragen. Halten Sie den seitlichen Zugang frei, damit der kleine Tank ohne Umräumen der Kaffeestation entnommen und gereinigt werden kann.",
+      "fr": "Utilisez le manuel EG2115 pour ses filtres à double paroi et son pannarello. Ne reprenez pas une procédure de rinçage à contre-courant de Classic simplement parce que les deux machines portent la même marque. Gardez l’accès latéral dégagé afin de pouvoir retirer et laver le petit réservoir sans réorganiser l’installation."
+    },
+    "42": {
+      "nl": "Stone Black Gaggia Espresso Evolution die koffie zet in een laag espressokopje",
+      "de": "Stone Black Gaggia Espresso Evolution beim Bezug in eine niedrige Espressotasse",
+      "fr": "Gaggia Espresso Evolution Stone Black préparant un espresso dans une tasse basse"
+    },
+    "43": {
+      "nl": "Het officiële beeld met een kopje maakt de lage opgegeven werkruimte van 76 mm en de vorm van de lekbak gemakkelijker te beoordelen voordat je een weegschaal toevoegt.",
+      "de": "Die offizielle Tassenansicht erleichtert die Beurteilung der niedrigen angegebenen Arbeitshöhe von 76 mm und der Abtropfschalengeometrie, bevor eine Waage hinzukommt.",
+      "fr": "La vue officielle avec tasse permet de mieux juger la faible hauteur utile annoncée de 76 mm et la géométrie du bac d’égouttage avant d’ajouter une balance."
+    },
+    "44": {
+      "nl": "De aanbieding van Gaggia Direct UK is vastgelegd op £199.00: niet-voorradige aanbieding voor de EG2115/01 met vijf jaar onderdelengarantie; beschikbaarheid en samenstelling van het pakket kunnen veranderen",
+      "de": "Das Angebot von Gaggia Direct UK wurde mit £199.00 erfasst: nicht lieferbares EG2115/01-Angebot mit fünfjähriger Teilegarantie; Verfügbarkeit und Lieferumfang können sich ändern",
+      "fr": "L’annonce de Gaggia Direct UK a été relevée à £199.00 : EG2115/01 en rupture de stock avec garantie de cinq ans sur les pièces ; disponibilité et contenu de l’ensemble susceptibles de changer"
+    },
+    "45": {
+      "nl": "Aanbieding van Gaggia Direct UK: £199.00",
+      "de": "Angebot von Gaggia Direct UK: £199.00",
+      "fr": "Annonce de Gaggia Direct UK : £199.00"
+    },
+    "46": {
+      "nl": "Niet-voorradige aanbieding voor de EG2115/01 met vijf jaar onderdelengarantie; beschikbaarheid en samenstelling van het pakket kunnen veranderen",
+      "de": "Nicht lieferbares EG2115/01-Angebot mit fünfjähriger Teilegarantie; Verfügbarkeit und Lieferumfang können sich ändern",
+      "fr": "EG2115/01 en rupture de stock avec garantie de cinq ans sur les pièces ; disponibilité et contenu de l’ensemble susceptibles de changer"
+    },
+    "47": {
+      "nl": "Discussie van eigenaren: Espresso Evolution EG2115/01",
+      "de": "Besitzerdiskussion: Espresso Evolution EG2115/01",
+      "fr": "Discussion de propriétaires : Espresso Evolution EG2115/01"
+    },
+    "48": {
+      "nl": "Espresso Evolution EG2115/01 tegenover de meest vergelijkbare alternatieven",
+      "de": "Espresso Evolution EG2115/01 im Vergleich zu den nächstliegenden Alternativen",
+      "fr": "Espresso Evolution EG2115/01 face aux alternatives les plus proches"
+    },
+    "49": {
+      "nl": "Korte vergelijking van de Gaggia Espresso Evolution EG2115/01",
+      "de": "Kurzvergleich der Gaggia Espresso Evolution EG2115/01",
+      "fr": "Comparaison rapide de la Gaggia Espresso Evolution EG2115/01"
+    },
+    "50": {
+      "nl": "Gaggia Espresso Evolution EG2115/01 en de meest vergelijkbare alternatieven",
+      "de": "Gaggia Espresso Evolution EG2115/01 und ihre nächstliegenden Alternativen",
+      "fr": "Gaggia Espresso Evolution EG2115/01 et ses alternatives les plus proches"
+    },
+    "51": {
+      "nl": "Gedetailleerde vergelijking van de Gaggia Espresso Evolution EG2115/01",
+      "de": "Detaillierter Vergleich der Gaggia Espresso Evolution EG2115/01",
+      "fr": "Comparaison détaillée de la Gaggia Espresso Evolution EG2115/01"
+    },
+    "52": {
+      "nl": "Leven met de Espresso Evolution EG2115/01",
+      "de": "Alltag mit der Espresso Evolution EG2115/01",
+      "fr": "Vivre avec l’Espresso Evolution EG2115/01"
+    },
+    "53": {
+      "nl": "Vraag vóór het bestellen naar de exacte gegevens van het meegeleverde filter en de filterhouder. Dat een verkoper deze een Gaggia PID-machine noemt, bewijst niet dat filterbakjes van de Classic passen. De lichte behuizing van 3.7 kg en het zijreservoir verdienen ook een praktische controle op het aanrecht als het hanteren van het portafilter de belangrijkste zorg is.",
+      "de": "Erfragen Sie vor der Bestellung die genauen Angaben zum mitgelieferten Sieb und Halter. Wenn ein Verkäufer sie als Gaggia-PID-Maschine bezeichnet, belegt das keine Kompatibilität mit Classic-Sieben. Auch das leichte 3.7-kg-Gehäuse und der seitliche Tank verdienen eine praktische Prüfung auf der Arbeitsfläche, wenn die Siebträgerhandhabung die Hauptsorge ist.",
+      "fr": "Avant de commander, demandez les caractéristiques exactes du filtre et du porte-filtre inclus. Qu’un vendeur parle d’une machine Gaggia à PID ne démontre pas sa compatibilité avec les paniers de Classic. Son boîtier léger de 3.7 kg et son réservoir latéral méritent aussi une vérification pratique sur le plan de travail si la manipulation du porte-filtre est la principale préoccupation."
+    },
+    "54": {
+      "nl": "Andere opties voor de koper van een Espresso Evolution EG2115/01",
+      "de": "Weitere Optionen für Käufer einer Espresso Evolution EG2115/01",
+      "fr": "D’autres options pour l’acheteur d’une Espresso Evolution EG2115/01"
+    },
+    "55": {
+      "nl": "Veelgestelde vragen over de Espresso Evolution EG2115/01",
+      "de": "Häufige Fragen zur Espresso Evolution EG2115/01",
+      "fr": "Questions fréquentes sur l’Espresso Evolution EG2115/01"
+    },
+    "56": {
+      "nl": "Wat onderscheidt deze Espresso Evolution EG2115/01 van verwante Gaggia-modellen?",
+      "de": "Was unterscheidet diese Espresso Evolution EG2115/01 von verwandten Gaggia-Modellen?",
+      "fr": "Qu’est-ce qui distingue cette Espresso Evolution EG2115/01 des Gaggia voisines ?"
+    },
+    "57": {
+      "nl": "Wat komt er kijken bij melkbereiding met de Espresso Evolution EG2115/01?",
+      "de": "Was gehört zur Milchzubereitung mit der Espresso Evolution EG2115/01?",
+      "fr": "Qu’implique la préparation du lait avec l’Espresso Evolution EG2115/01 ?"
+    },
+    "58": {
+      "nl": "Wat moet ik controleren voordat ik een Espresso Evolution EG2115/01 koop?",
+      "de": "Was sollte ich vor dem Kauf einer Espresso Evolution EG2115/01 prüfen?",
+      "fr": "Que dois-je examiner avant d’acheter une Espresso Evolution EG2115/01 ?"
+    },
+    "59": {
+      "nl": "Welke bediening biedt de Espresso Evolution EG2115/01 daadwerkelijk?",
+      "de": "Welche Bedienelemente bietet die Espresso Evolution EG2115/01 tatsächlich?",
+      "fr": "Quelles commandes l’Espresso Evolution EG2115/01 propose-t-elle réellement ?"
+    },
+    "60": {
+      "nl": "Welke boileropbouw zit er in deze Espresso Evolution EG2115/01?",
+      "de": "Welcher Boileraufbau steckt in dieser Espresso Evolution EG2115/01?",
+      "fr": "Quelle architecture de chaudière se trouve dans cette Espresso Evolution EG2115/01 ?"
+    },
+    "61": {
+      "nl": "Bekijk Gaggia Espresso Evolution-review door Whole Latte Love",
+      "de": "Gaggia Espresso Evolution Testbericht von Whole Latte Love ansehen",
+      "fr": "Regarder le test de la Gaggia Espresso Evolution par Whole Latte Love"
+    },
+    "63": {
+      "nl": "Gaggia Espresso Evolution-review",
+      "de": "Gaggia Espresso Evolution Testbericht",
+      "fr": "Test de la Gaggia Espresso Evolution"
+    },
+    "64": {
+      "nl": "25 maart 2024",
+      "de": "25. März 2024",
+      "fr": "25 mars 2024"
+    },
+    "65": {
+      "nl": "De beoordeling is beperkt tot de EG2115/01 Stone Black, 230V Europese en Britse uitvoering. Kunststof zetonderdelen, weinig ruimte voor kopjes en een accessoireplatform dat geen 58 mm gebruikt.",
+      "de": "Die Bewertung beschränkt sich auf das europäische und britische EG2115/01 Stone Black-Paket mit 230V. Brühkomponenten aus Kunststoff, geringe Tassenfreiheit und ein Zubehörsystem außerhalb des 58-mm-Formats.",
+      "fr": "L’évaluation se limite à l’EG2115/01 Stone Black, version européenne et britannique en 230V. Composants d’extraction en plastique, faible hauteur disponible pour la tasse et format d’accessoires autre que 58 mm."
+    },
+    "66": {
+      "nl": "Gaggia: Espresso Evolution EG2115/01",
+      "de": "Gaggia: Espresso Evolution EG2115/01",
+      "fr": "Gaggia : Espresso Evolution EG2115/01"
+    },
+    "67": {
+      "nl": "Handleiding van de Gaggia Espresso Evolution EG2115/01",
+      "de": "Handbuch der Gaggia Espresso Evolution EG2115/01",
+      "fr": "Manuel de la Gaggia Espresso Evolution EG2115/01"
+    },
+    "68": {
+      "nl": "Aanbieding van Gaggia Direct UK",
+      "de": "Angebot von Gaggia Direct UK",
+      "fr": "Annonce de Gaggia Direct UK"
+    },
+    "69": {
+      "nl": "Context van £199.00 vastgelegd op 23 september 2026; voorraad, belasting, staat en garantie kunnen veranderen.",
+      "de": "Kontext zu £199.00 am 23. September 2026 erfasst; Lagerbestand, Steuern, Zustand und Garantie können sich ändern.",
+      "fr": "Contexte de £199.00 relevé le 23 septembre 2026 ; stock, taxes, état et garantie susceptibles de changer."
+    },
+    "70": {
+      "nl": "Onafhankelijke review: Espresso Evolution EG2115/01",
+      "de": "Unabhängiger Testbericht: Espresso Evolution EG2115/01",
+      "fr": "Test indépendant : Espresso Evolution EG2115/01"
+    },
+    "71": {
+      "nl": "Onafhankelijke video van Whole Latte Love, gepubliceerd op 2024-03-25, gebruikt als visuele context voor de werkwijze.",
+      "de": "Unabhängiges Video von Whole Latte Love, veröffentlicht am 2024-03-25, als sichtbarer Kontext zum Arbeitsablauf genutzt.",
+      "fr": "Vidéo indépendante de Whole Latte Love, publiée le 2024-03-25, utilisée pour le contexte visuel de la préparation."
+    },
+    "72": {
+      "nl": "De Espresso Evolution EG2115/01 verdient zijn plek alleen als de werkwijze bij je past",
+      "de": "Die Espresso Evolution EG2115/01 verdient ihren Platz nur, wenn der Arbeitsablauf passt",
+      "fr": "L’Espresso Evolution EG2115/01 ne mérite sa place que si son utilisation vous convient"
+    },
+    "96": {
+      "nl": "← Gaggia Espresso Evolution EG2115/01-review",
+      "de": "← Testbericht zur Gaggia Espresso Evolution EG2115/01",
+      "fr": "← Test de la Gaggia Espresso Evolution EG2115/01"
+    },
+    "97": {
+      "nl": "Gaggia Espresso Evolution EG2115/01 · Perspectief van een verkoper",
+      "de": "Gaggia Espresso Evolution EG2115/01 · Händlerperspektive",
+      "fr": "Gaggia Espresso Evolution EG2115/01 · Point de vue d’un vendeur"
+    },
+    "98": {
+      "nl": "Gaggia Espresso Evolution EG2115/01: Gaggia Espresso Evolution-review · Whole Latte Love (2024-03-25) | Coffeedant",
+      "de": "Gaggia Espresso Evolution EG2115/01: Gaggia Espresso Evolution Testbericht · Whole Latte Love (2024-03-25) | Coffeedant",
+      "fr": "Gaggia Espresso Evolution EG2115/01 : test de la Gaggia Espresso Evolution · Whole Latte Love (2024-03-25) | Coffeedant"
+    },
+    "99": {
+      "nl": "Bekijk Whole Latte Love over de Gaggia Espresso Evolution EG2115/01 (2024-03-25): Gaggia Espresso Evolution-review. Onafhankelijk visueel bewijs van de werkwijze. Actuele specificaties, generatie en prijs worden afzonderlijk geverifieerd.",
+      "de": "Sehen Sie Whole Latte Love zur Gaggia Espresso Evolution EG2115/01 (2024-03-25): Gaggia Espresso Evolution Testbericht. Unabhängige visuelle Belege zum Arbeitsablauf. Aktuelle Spezifikationen, Generation und Preis werden gesondert überprüft.",
+      "fr": "Regardez Whole Latte Love à propos de la Gaggia Espresso Evolution EG2115/01 (2024-03-25) : test de la Gaggia Espresso Evolution. Éléments visuels indépendants sur le déroulement de la préparation. Les caractéristiques actuelles, la génération et le prix sont vérifiés séparément."
+    },
+    "101": {
+      "nl": "Video over de Gaggia Espresso Evolution EG2115/01 door Whole Latte Love",
+      "de": "Video zur Gaggia Espresso Evolution EG2115/01 von Whole Latte Love",
+      "fr": "Vidéo sur la Gaggia Espresso Evolution EG2115/01 par Whole Latte Love"
+    },
+    "102": {
+      "nl": "Gaggia Espresso Evolution-review door Whole Latte Love",
+      "de": "Gaggia Espresso Evolution Testbericht von Whole Latte Love",
+      "fr": "Test de la Gaggia Espresso Evolution par Whole Latte Love"
+    }
+  }
+}
