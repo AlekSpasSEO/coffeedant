@@ -3578,6 +3578,47 @@ FR 13,620 / 43,101. Finder gaps remain zero. The unfinished inventory is 162
 non-video pages and 377 video pages. All full editions remain incomplete;
 incremental publication, continuation and source-change maintenance stay active.
 
+### Direct batch 70: complete current Classic/E24 review and video (2026-11-03)
+
+Complete the entire current North American Gaggia Classic Pro E24 review at the
+legacy `/espresso-machine/gaggia-classic-evo/` source key, together with its
+Whole Latte Love video page, in NL/DE/FR. The full review retains all six FAQ
+answers, nine comparison/evidence tables, manufacturer-photo captions and
+credits, structured data, source citations and ownership limits. Its prepared
+source has 94 paragraphs; rebuilding the native Finder cards yields 103, with
+every expected body character retained. The companion video has four paragraphs.
+Current E24, older coated-boiler Evo, retrofits and GT remain distinct. Original
+North American voltage, dimensions and documented dollar-price context stay
+attached to their source scope and check dates, with no converted local price,
+fresh offer claim or Coffeedant physical test. Regional commerce stays suppressed.
+
+The immutable full snapshot freezes 884 page/shared slots. The missing snapshot
+pins both complete source fingerprints and 114 slots. Its 91 authored triples
+and unchanged Breville Bambino name cover every remaining slot, adding 114
+current cache entries per edition. Reuse the existing passing boiler wording;
+no prior cached text or registered route changes. The French review keeps
+`/machine-a-espresso/gaggia-classic-evo/`; new NL/DE review routes use
+`/espressomachines/gaggia-classic-e24/` and
+`/espresso-maschine/gaggia-classic-e24/`, with corresponding nested video routes.
+
+All 210 localization and 20 SEO tests, analytics, 35 bean reviews and the
+151-machine/seven-grinder Finder validators pass. Nine complete previews and
+nine production comparisons cover both new pages and the existing Classic GT
+video. The full regional bundle builds without deferrals. Nine Chrome viewports
+use the exact production bytes at native origins through request interception,
+with the actual consent-policy function for its worker endpoint. They verify
+zero overflow, 54 labelled/focusable table regions, six Finder filter/reset
+checks excluding the current review, six native video dialogs with history,
+focus and canonical restoration, six mobile menus and nine language pickers.
+Live HTTPS, deployment and reciprocal-link evidence follows in the batch PR.
+
+Current source remains 661 pages / 56,721 segments. Ready selection is 123
+indexable pages plus 404 per edition, preserving all 121 earlier canonical paths
+and the Dutch dosing URL. Coverage is NL 13,725 translated / 42,996 pending,
+DE 13,761 / 42,960 and FR 13,734 / 42,987. Finder gaps remain zero. There are
+161 non-video and 376 video pages unfinished. All full editions remain incomplete;
+ready-pages publication, continuation and source-change maintenance stay active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
