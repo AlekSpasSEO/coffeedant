@@ -3831,6 +3831,52 @@ and FR 14,383 / 42,338. Finder gaps remain zero; 156 non-video and 371 video pag
 remain unfinished. Full editions remain incomplete. Ready-pages publication,
 continuation and source-change maintenance stay active.
 
+### Direct batch 76: complete second-generation Z10 review and cold-workflow video (2026-11-04)
+
+Directly translate the entire current JURA Z10 Aluminium Black NAB review and
+its catalogued Seattle Coffee Gear companion video into NL/DE/FR. The review
+covers North American second-generation article 15702: 51 specialties,
+P.R.G.2+, Cold Extraction, four profiles and included Wi-Fi. Keep the optional
+chocolate attachment separate from included equipment, preserve daily milk
+care, and retain the dated $4,499 out-of-stock US record. First-generation
+video material supplies limited workflow context and cannot establish the
+later grinder, software or recipe specifications. Original attribution and date
+strings, including the companion's distinct displayed date, remain unchanged;
+translation does not reverify their provenance. No local model equivalence,
+converted prices, fresh offers or Coffeedant physical testing are claimed.
+
+The immutable full snapshot freezes 869 review/shared slots. The missing
+snapshot pins both current page fingerprints and 121 slots, covered by 88
+directly authored translation triples and three unchanged proper names.
+Exact-source reuse adds 122 cache entries per edition without changing earlier
+wording or routes. Preserve the registered German review
+`/testbericht-jura-z10/` and video
+`/jura-z10-video-testbericht-seattle-coffee-gear/`. New Dutch paths use
+`/espressomachines/jura-z10/`; new French paths use
+`/machines-expresso/jura-z10/`, each with its nested companion video.
+
+All 210 localization and 20 SEO tests and analytics validation pass. Nine
+complete previews retain every expected body character, metadata field,
+structured answer, accessible label, link and runtime string, including the
+existing E24 review as a regression. The prepared Z10 review has 91 paragraphs
+and 100 after native Finder rebuilding, six FAQ answers and nine tables; the
+companion has four paragraphs. Nine matching production comparisons and the
+full regional bundle also pass. Nine native-origin Chrome viewports verify
+zero document overflow, 54 labelled/focusable table regions, six Finder
+filter/reset/self-exclusion checks, six video dialogs with native labels and
+history/focus/canonical restoration, six mobile menus and nine language
+pickers. All 35 bean reviews and the 151-machine/seven-grinder Finder
+validators pass against the Cloudflare build.
+
+Current source remains 661 pages / 56,721 segments. Ready selection is 135
+indexable pages plus 404 per edition, retaining all 133 earlier canonical
+paths and the approved Dutch dosing URL. Coverage is NL 14,496 translated /
+42,225 pending, DE 14,532 / 42,189 and FR 14,505 / 42,216. Finder gaps remain
+zero; 155 non-video and 370 video pages remain unfinished. Full editions remain
+incomplete. Ready-pages publication, continuation and source-change
+maintenance stay active. Current-head checks, production deployment, complete
+live manifests and reciprocal links must pass before reporting publication.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
