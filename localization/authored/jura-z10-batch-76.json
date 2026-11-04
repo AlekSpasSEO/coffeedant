@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "jura-z10-batch-76.source.json",
+  "snapshotHash": "4c586eae0cfc4024603a1843415b12118f145bceea4bf233cf2891cc77f6964c",
+  "preserveSource": [
+    4,
+    75,
+    98
+  ],
+  "routes": {
+    "nl": {
+      "/espresso-machine/jura-z10/": "/espressomachines/jura-z10/",
+      "/espresso-machine/jura-z10/video/seattle-coffee-gear/": "/espressomachines/jura-z10/video/seattle-coffee-gear/"
+    },
+    "de": {
+      "/espresso-machine/jura-z10/": "/testbericht-jura-z10/",
+      "/espresso-machine/jura-z10/video/seattle-coffee-gear/": "/jura-z10-video-testbericht-seattle-coffee-gear/"
+    },
+    "fr": {
+      "/espresso-machine/jura-z10/": "/machines-expresso/jura-z10/",
+      "/espresso-machine/jura-z10/video/seattle-coffee-gear/": "/machines-expresso/jura-z10/video/seattle-coffee-gear/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "4.3 van 5, open de categoriebeoordelingen van Coffeedant",
+      "de": "4.3 von 5, die Kategorienbewertungen von Coffeedant öffnen",
+      "fr": "4.3 sur 5, ouvrir les notes par catégorie de Coffeedant"
+    },
+    "1": {
+      "nl": "8.8 van 10",
+      "de": "8.8 von 10",
+      "fr": "8.8 sur 10"
+    },
+    "2": {
+      "nl": "9.1 van 10",
+      "de": "9.1 von 10",
+      "fr": "9.1 sur 10"
+    },
+    "3": {
+      "nl": "9.2 van 10",
+      "de": "9.2 von 10",
+      "fr": "9.2 sur 10"
+    },
+    "5": {
+      "nl": "De video en meningen zijn van Seattle Coffee Gear. Coffeedant selecteert dit perspectief als aanvulling op onze geschreven beoordeling.",
+      "de": "Video und Meinungen stammen von Seattle Coffee Gear. Coffeedant stellt diese Perspektive ergänzend zu unserer schriftlichen Bewertung vor.",
+      "fr": "La vidéo et les opinions appartiennent à Seattle Coffee Gear. Coffeedant sélectionne ce point de vue en complément de notre évaluation écrite."
+    },
+    "7": {
+      "nl": "Video van Seattle Coffee Gear",
+      "de": "Video von Seattle Coffee Gear",
+      "fr": "Vidéo de Seattle Coffee Gear"
+    },
+    "8": {
+      "nl": "8.3 van 10",
+      "de": "8.3 von 10",
+      "fr": "8.3 sur 10"
+    },
+    "9": {
+      "nl": "9.7 van 10",
+      "de": "9.7 von 10",
+      "fr": "9.7 sur 10"
+    },
+    "10": {
+      "nl": "Huidig JURA-assortiment voor thuis",
+      "de": "Aktuelles JURA-Sortiment für zu Hause",
+      "fr": "Gamme domestique actuelle de JURA"
+    },
+    "11": {
+      "nl": "JURA Z10 beoordeeld: wanneer koude extractie de meerprijs van een topmodel waard is | Coffeedant",
+      "de": "JURA Z10 im Überblick: Wann kalte Extraktion den Aufpreis für das Spitzenmodell rechtfertigt | Coffeedant",
+      "fr": "Analyse de la JURA Z10 : quand l’extraction à froid justifie le supplément du modèle phare | Coffeedant"
+    },
+    "12": {
+      "nl": "Een beoordeling op basis van bronnenonderzoek van de JURA Z10 NAB van de tweede generatie: artikel 15702, 51 specialiteiten, P.R.G.2+-molen, Cold Extraction, vier profielen, Amerikaanse prijs van $4,499 en onderhoud.",
+      "de": "Eine quellenbasierte Bewertung der JURA Z10 NAB der zweiten Generation zu Artikel 15702, 51 Spezialitäten, P.R.G.2+-Mahlwerk, Cold Extraction, vier Profilen, dem US-Preis von $4,499 und der Pflege.",
+      "fr": "Évaluation fondée sur des recherches de la JURA Z10 NAB de deuxième génération : article 15702, 51 spécialités, broyeur P.R.G.2+, Cold Extraction, quatre profils, prix américain de $4,499 et entretien."
+    },
+    "14": {
+      "nl": "JURA Z10 beoordeeld: wanneer koude extractie de meerprijs van een topmodel waard is",
+      "de": "JURA Z10 im Überblick: Wann kalte Extraktion den Aufpreis für das Spitzenmodell rechtfertigt",
+      "fr": "Analyse de la JURA Z10 : quand l’extraction à froid justifie le supplément du modèle phare"
+    },
+    "15": {
+      "nl": "Voor huishoudens die het breedste huidige JURA-menu voor thuis willen, met koude extractie, vier profielen en inbegrepen connectiviteit",
+      "de": "Für Haushalte, die das derzeit breiteste JURA-Menü für zu Hause mit kalter Extraktion, vier Profilen und enthaltener Konnektivität wünschen",
+      "fr": "Pour les foyers qui souhaitent le menu domestique actuel le plus étendu de JURA, avec extraction à froid, quatre profils et connectivité incluse"
+    },
+    "16": {
+      "nl": "Kies de Z10 Aluminium Black NAB voor het breedste huidige JURA-menu voor thuis, met koude extractie, vier profielen en inbegrepen connectiviteit. Laat hem staan als het doorslaggevende bezwaar is dat de prijs van $4,499 en de uitgebreide functies binnen een gesloten systeem alleen zin hebben wanneer het huishouden de extra koude en zoete bereidingen en profielfuncties gebruikt.",
+      "de": "Wählen Sie die Z10 Aluminium Black NAB für das derzeit breiteste JURA-Menü für zu Hause mit kalter Extraktion, vier Profilen und enthaltener Konnektivität. Verzichten Sie darauf, wenn es ein Ausschlussgrund ist, dass der Preis von $4,499 und die umfangreichen Funktionen im geschlossenen System nur sinnvoll sind, wenn der Haushalt die zusätzlichen Kalt-, Süß- und Profilfunktionen nutzt.",
+      "fr": "Choisissez la Z10 Aluminium Black NAB pour le menu domestique actuel le plus étendu de JURA, avec extraction à froid, quatre profils et connectivité incluse. Écartez-la si votre objection décisive est que le prix de $4,499 et les nombreuses fonctions du système fermé ne se justifient que si le foyer utilise les préparations froides et sucrées ainsi que les profils supplémentaires."
+    },
+    "17": {
+      "nl": "Het breedste huidige JURA-menu voor thuis, met Cold Extraction, vier profielen en inbegrepen connectiviteit. De belangrijkste afweging is dat de prijs van $4,499 en de uitgebreide functies binnen een gesloten systeem alleen zin hebben wanneer het huishouden de extra koude en zoete bereidingen en profielfuncties gebruikt",
+      "de": "Das derzeit breiteste JURA-Menü für zu Hause mit Cold Extraction, vier Profilen und enthaltener Konnektivität. Der zentrale Kompromiss: Der Preis von $4,499 und die umfangreichen Funktionen im geschlossenen System sind nur sinnvoll, wenn der Haushalt die zusätzlichen Kalt-, Süß- und Profilfunktionen nutzt",
+      "fr": "Le menu domestique actuel le plus étendu de JURA, avec Cold Extraction, quatre profils et connectivité incluse. Le principal compromis est que le prix de $4,499 et les nombreuses fonctions du système fermé ne se justifient que si le foyer utilise les préparations froides et sucrées ainsi que les profils supplémentaires"
+    },
+    "18": {
+      "nl": "Noord-Amerikaanse Z10 Aluminium Black NAB, artikel 15702. Beoordelingen en video's van de eerste generatie Z10 blijven alleen bruikbaar als beperkte context voor de werkwijze, omdat de menu's, koffiemolen en software verschillen.",
+      "de": "Nordamerikanische Z10 Aluminium Black NAB, Artikel 15702. Bewertungen und Videos der Z10 der ersten Generation bleiben nur als begrenzter Kontext zum Ablauf nützlich, da sich Menüs, Mahlwerk und Software unterscheiden.",
+      "fr": "Z10 Aluminium Black NAB nord-américaine, article 15702. Les évaluations et vidéos de la Z10 de première génération restent utiles uniquement comme contexte limité sur l’utilisation, car les menus, le broyeur et le logiciel diffèrent."
+    },
+    "19": {
+      "nl": "Eenenvijftig Hot-, Light-, Cold- en Sweet-specialiteiten met Cold Extraction, vier profielen, Coffee Timer en Caffeine Regulator",
+      "de": "Einundfünfzig Hot-, Light-, Cold- und Sweet-Spezialitäten mit Cold Extraction, vier Profilen, Coffee Timer und Caffeine Regulator",
+      "fr": "Cinquante et une spécialités Hot, Light, Cold et Sweet avec Cold Extraction, quatre profils, Coffee Timer et Caffeine Regulator"
+    },
+    "20": {
+      "nl": "Automatisch HP3-melksysteem met Milk Assistant en begeleide reiniging; een optioneel chocoladeopzetstuk breidt de zoete recepten uit",
+      "de": "Automatisches HP3-Milchsystem mit Milk Assistant und geführter Reinigung; ein optionaler Schokoladenaufsatz erweitert die süßen Rezepte",
+      "fr": "Système de lait automatique HP3 avec Milk Assistant et nettoyage guidé ; un accessoire à chocolat en option élargit les recettes sucrées"
+    },
+    "21": {
+      "nl": "Elektronisch gestuurde P.R.G.2+-koffiemolen die zich automatisch aanpast aan de gekozen specialiteit",
+      "de": "Elektronisch gesteuertes P.R.G.2+-Mahlwerk mit automatischer Anpassung an die gewählte Spezialität",
+      "fr": "Broyeur P.R.G.2+ à commande électronique avec adaptation automatique à la spécialité sélectionnée"
+    },
+    "22": {
+      "nl": "4.3-inch kleurentouchscreen met vier profielen, inbegrepen wifi en ondersteuning voor J.O.E.",
+      "de": "4.3-Zoll-Farb-Touchscreen mit vier Profilen, enthaltenem WLAN und J.O.E.-Unterstützung",
+      "fr": "Écran tactile couleur de 4.3 pouces avec quatre profils, Wi-Fi inclus et prise en charge de J.O.E."
+    },
+    "23": {
+      "nl": "Waterreservoir van 81 oz, bonenreservoir van 9.9 oz en koffieresidubak voor ongeveer 20 porties",
+      "de": "Wassertank mit 81 oz, Bohnenbehälter mit 9.9 oz und Kaffeesatzbehälter für etwa 20 Portionen",
+      "fr": "Réservoir d’eau de 81 oz, bac à grains de 9.9 oz et bac à marc d’environ 20 portions"
+    },
+    "24": {
+      "nl": "12.6 B bij 14.3 H bij 18.5 D in; ongeveer 27 lb",
+      "de": "12.6 B × 14.3 H × 18.5 T in; etwa 27 lb",
+      "fr": "12.6 l × 14.3 H × 18.5 P in ; environ 27 lb"
+    },
+    "25": {
+      "nl": "Gebruik de Quality Assistant en de aangegeven reinigings- of ontkalkingscycli, reinig de melkonderdelen elke dag waarop ze worden gebruikt en controleer de onderhoudsinstructies voor een eventueel chocoladeopzetstuk.",
+      "de": "Nutzen Sie den Quality Assistant und die angeforderten Reinigungs- oder Entkalkungszyklen, reinigen Sie die Milchkomponenten an jedem Tag ihrer Nutzung und prüfen Sie die Pflege eines etwaigen optionalen Schokoladenaufsatzes.",
+      "fr": "Utilisez le Quality Assistant et les cycles de nettoyage ou de détartrage demandés, nettoyez les éléments du circuit de lait chaque jour où ils sont utilisés et vérifiez l’entretien de tout accessoire à chocolat optionnel."
+    },
+    "26": {
+      "nl": "De prijs van $4,499 en de uitgebreide functies binnen een gesloten systeem hebben alleen zin wanneer het huishouden de extra koude en zoete bereidingen en profielfuncties gebruikt",
+      "de": "Der Preis von $4,499 und die umfangreichen Funktionen im geschlossenen System sind nur sinnvoll, wenn der Haushalt die zusätzlichen Kalt-, Süß- und Profilfunktionen nutzt",
+      "fr": "Le prix de $4,499 et les nombreuses fonctions du système fermé ne se justifient que si le foyer utilise les préparations froides et sucrées ainsi que les profils supplémentaires"
+    },
+    "27": {
+      "nl": "Over welke exacte Z10 Aluminium Black NAB gaat deze beoordeling?",
+      "de": "Welche genaue Z10 Aluminium Black NAB behandelt diese Bewertung?",
+      "fr": "Quelle Z10 Aluminium Black NAB précise cette évaluation couvre-t-elle ?"
+    },
+    "28": {
+      "nl": "Ja. Elektronisch gestuurde P.R.G.2+-koffiemolen die zich automatisch aanpast aan de gekozen specialiteit",
+      "de": "Ja. Elektronisch gesteuertes P.R.G.2+-Mahlwerk mit automatischer Anpassung an die gewählte Spezialität",
+      "fr": "Oui. Broyeur P.R.G.2+ à commande électronique avec adaptation automatique à la spécialité sélectionnée"
+    },
+    "29": {
+      "nl": "Nee. Gebruik de Quality Assistant en de aangegeven reinigings- of ontkalkingscycli, reinig de melkonderdelen elke dag waarop ze worden gebruikt en controleer de onderhoudsinstructies voor een eventueel chocoladeopzetstuk.",
+      "de": "Nein. Nutzen Sie den Quality Assistant und die angeforderten Reinigungs- oder Entkalkungszyklen, reinigen Sie die Milchkomponenten an jedem Tag ihrer Nutzung und prüfen Sie die Pflege eines etwaigen optionalen Schokoladenaufsatzes.",
+      "fr": "Non. Utilisez le Quality Assistant et les cycles de nettoyage ou de détartrage demandés, nettoyez les éléments du circuit de lait chaque jour où ils sont utilisés et vérifiez l’entretien de tout accessoire à chocolat optionnel."
+    },
+    "30": {
+      "nl": "Volledige beoordeling van de JURA Z10 Aluminium Black NAB",
+      "de": "Vollständige Bewertung der JURA Z10 Aluminium Black NAB",
+      "fr": "Évaluation complète de la JURA Z10 Aluminium Black NAB"
+    },
+    "31": {
+      "nl": "Eén totaalscore is pas nuttig wanneer duidelijk is waarop deze berust. De JURA Z10 Aluminium Black NAB krijgt",
+      "de": "Eine Gesamtnote ist nur hilfreich, wenn ihre Grundlage nachvollziehbar ist. Die JURA Z10 Aluminium Black NAB erhält",
+      "fr": "Une note globale n’est utile que si l’on voit ce qui la fonde. La JURA Z10 Aluminium Black NAB obtient"
+    },
+    "32": {
+      "nl": "Eenenvijftig Hot-, Light-, Cold- en Sweet-specialiteiten met Cold Extraction, vier profielen, Coffee Timer en Caffeine Regulator zorgen voor herhaalbare automatische koffie binnen een gesloten systeem.",
+      "de": "Einundfünfzig Hot-, Light-, Cold- und Sweet-Spezialitäten mit Cold Extraction, vier Profilen, Coffee Timer und Caffeine Regulator ermöglichen wiederholbare automatische Kaffeezubereitung in einem geschlossenen System.",
+      "fr": "Cinquante et une spécialités Hot, Light, Cold et Sweet avec Cold Extraction, quatre profils, Coffee Timer et Caffeine Regulator permettent une préparation automatique reproductible du café au sein d’un système fermé."
+    },
+    "33": {
+      "nl": "Bij de Z10 Aluminium Black NAB verloopt de reiniging van de zetgroep volgens de voorgeschreven routine voor het gesloten systeem.",
+      "de": "Bei der Z10 Aluminium Black NAB bleibt die Reinigung der Brüheinheit Teil der vorgeschriebenen Routine für das geschlossene System.",
+      "fr": "Sur la Z10 Aluminium Black NAB, le nettoyage du groupe de percolation suit la procédure prescrite pour le système fermé."
+    },
+    "34": {
+      "nl": "Bij $4,499.00 is gedateerde context over staat, voorraad en garantie nodig.",
+      "de": "$4,499.00 erfordern datierten Kontext zu Zustand, Lagerbestand und Garantie.",
+      "fr": "Le prix de $4,499.00 nécessite un contexte daté sur l’état, le stock et la garantie."
+    },
+    "35": {
+      "nl": "Z10 Aluminium Black NAB: de aankoopbeslissing",
+      "de": "Z10 Aluminium Black NAB: die Kaufentscheidung",
+      "fr": "Z10 Aluminium Black NAB : la décision d’achat"
+    },
+    "36": {
+      "nl": "De huidige Z10 NAB heeft een duidelijke reden om boven JURA's machines voor warme dranken te staan: Cold Extraction vult de bereidingen Hot, Light en Sweet aan. Vier profielen, inbegrepen connectiviteit en de elektronisch gestuurde koffiemolen maken die mogelijkheden voor een gevarieerd huishouden nuttiger dan een lang menu alleen. De prijs werpt de vraag op of koude dranken en personalisatie vaste gewoontes worden, in plaats van incidentele demonstraties. Het melksysteem en het gesloten zetplatform blijven het voorgeschreven onderhoud vereisen. Materiaal over de eerste generatie Z10 biedt enige visuele context, maar voor de koffiemolen, software en receptmogelijkheden van het huidige Noord-Amerikaanse model is eigen bewijs nodig.",
+      "de": "Die aktuelle Z10 NAB hat einen klaren Grund, oberhalb von JURAs Heißgetränkemaschinen zu stehen: Cold Extraction ergänzt ihre Hot-, Light- und Sweet-Zubereitungen. Vier Profile, enthaltene Konnektivität und das elektronisch gesteuerte Mahlwerk machen diese Möglichkeiten in einem Haushalt mit unterschiedlichen Vorlieben nützlicher als eine lange Getränkeliste allein. Der Preis wirft die Frage auf, ob kalte Getränke und Personalisierung regelmäßige Gewohnheiten statt gelegentlicher Vorführungen sein werden. Milchsystem und geschlossenes Brühsystem benötigen weiterhin die vorgeschriebene Pflege. Material zur Z10 der ersten Generation bietet etwas visuellen Kontext, doch Mahlwerk, Software und Rezeptmöglichkeiten des aktuellen nordamerikanischen Modells brauchen eigene Belege.",
+      "fr": "La Z10 NAB actuelle a une raison claire de se placer au-dessus des machines JURA à boissons chaudes : Cold Extraction complète ses préparations Hot, Light et Sweet. Quatre profils, la connectivité incluse et le broyeur à commande électronique rendent ces possibilités plus utiles dans un foyer aux goûts variés qu’une longue liste de boissons à elle seule. Le prix pose la question de savoir si les boissons froides et la personnalisation seront des habitudes régulières plutôt que des démonstrations occasionnelles. Son système de lait et sa plateforme de percolation fermée exigent toujours l’entretien prescrit. Les contenus sur la Z10 de première génération offrent un certain contexte visuel, mais le broyeur, le logiciel et les recettes du modèle nord-américain actuel nécessitent leurs propres preuves."
+    },
+    "37": {
+      "nl": "De Z10 Aluminium Black NAB in gebruik nemen",
+      "de": "Die Z10 Aluminium Black NAB einrichten",
+      "fr": "Installation de la Z10 Aluminium Black NAB"
+    },
+    "38": {
+      "nl": "een volautomaat met elektronisch gestuurde p.r.g.2+-koffiemolen die zich automatisch aanpast aan de gekozen specialiteit, eenenvijftig hot-, light-, cold- en sweet-specialiteiten met cold extraction, vier profielen, coffee timer en caffeine regulator, en een automatisch hp3-melksysteem met milk assistant en begeleide reiniging; een optioneel chocoladeopzetstuk breidt de zoete recepten uit.",
+      "de": "ein Kaffeevollautomat mit elektronisch gesteuertem p.r.g.2+-Mahlwerk mit automatischer Anpassung an die gewählte Spezialität, einundfünfzig hot-, light-, cold- und sweet-Spezialitäten mit cold extraction, vier Profilen, coffee timer und caffeine regulator sowie einem automatischen hp3-Milchsystem mit milk assistant und geführter Reinigung; ein optionaler Schokoladenaufsatz erweitert die süßen Rezepte.",
+      "fr": "une machine automatique du grain à la tasse avec broyeur p.r.g.2+ à commande électronique s’adaptant automatiquement à la spécialité sélectionnée, cinquante et une spécialités hot, light, cold et sweet avec cold extraction, quatre profils, coffee timer et caffeine regulator, et système de lait automatique hp3 avec milk assistant et nettoyage guidé ; un accessoire à chocolat en option élargit les recettes sucrées."
+    },
+    "39": {
+      "nl": "Dit is het Noord-Amerikaanse NAB-artikel 15702 van de tweede generatie. De gecontroleerde pagina met een prijs van $4,499 meldde geen voorraad; bevestig daarom een daadwerkelijk aanbod voordat u op levering rekent. Wifi is inbegrepen; het chocoladeopzetstuk is optioneel. Dat zijn verschillende vragen over de uitrusting, ook al komen beide terug in het bredere verhaal over zoete dranken.",
+      "de": "Dies ist der nordamerikanische NAB-Artikel 15702 der zweiten Generation. Auf der geprüften Seite für $4,499 war das Gerät nicht vorrätig; bestätigen Sie daher ein tatsächliches Angebot, bevor Sie die Lieferung planen. WLAN ist enthalten, der Schokoladenaufsatz optional. Das sind unterschiedliche Fragen zum Lieferumfang, auch wenn beides zum breiteren Thema süßer Getränke gehört.",
+      "fr": "Il s’agit de l’article NAB 15702 nord-américain de deuxième génération. La page vérifiée à $4,499 indiquait une rupture de stock ; confirmez donc une offre réelle avant de prévoir la livraison. Le Wi-Fi est inclus ; l’accessoire à chocolat est optionnel. Ce sont des questions distinctes sur l’équipement fourni, même si elles figurent toutes deux dans la présentation plus large des boissons sucrées."
+    },
+    "40": {
+      "nl": "Officieel campagnebeeld van de JURA Z10 van de tweede generatie",
+      "de": "Offizielles Kampagnenbild der JURA Z10 der zweiten Generation",
+      "fr": "Image officielle de campagne de la JURA Z10 de deuxième génération"
+    },
+    "41": {
+      "nl": "Het officiële campagnemateriaal laat de huidige Z10 in een woonomgeving op schaal zien. Het wordt niet gepresenteerd als een test van Coffeedant of als bewijs voor de drankkwaliteit.",
+      "de": "Das offizielle Kampagnenmaterial zeigt die aktuelle Z10 im Wohnumfeld und vermittelt ihre Größe. Es wird weder als Coffeedant-Test noch als Beleg für die Getränkequalität dargestellt.",
+      "fr": "Les visuels officiels de campagne donnent une idée de l’échelle de la Z10 actuelle en situation. Ils ne sont présentés ni comme des essais de Coffeedant ni comme une preuve de la qualité des boissons."
+    },
+    "42": {
+      "nl": "Productpagina van de JURA Z10 van de tweede generatie",
+      "de": "Produktseite der JURA Z10 der zweiten Generation",
+      "fr": "Page produit de la JURA Z10 de deuxième génération"
+    },
+    "43": {
+      "nl": "Bekijk welke andere machines naast de Z10 Aluminium Black NAB bij u passen.",
+      "de": "Sehen Sie, was neben der Z10 Aluminium Black NAB sonst noch zu Ihnen passt.",
+      "fr": "Découvrez quelles autres machines peuvent vous convenir aux côtés de la Z10 Aluminium Black NAB."
+    },
+    "44": {
+      "nl": "De P.R.G.2+ van de Z10 past de maling aan de gekozen specialiteit aan en ondersteunt zo het assortiment Hot, Light, Cold en Sweet. Begin met een vertrouwde warme drank en vergelijk Cold Extraction als een afzonderlijk recept; neem niet aan dat serveren met ijs hetzelfde proces is. Vier profielen kunnen de voorkeuren van verschillende gebruikers bewaren zonder ze dagelijks opnieuw in te stellen.",
+      "de": "Das P.R.G.2+-Mahlwerk der Z10 passt die Mahlung an die gewählte Spezialität an und unterstützt damit ihr Hot-, Light-, Cold- und Sweet-Sortiment. Beginnen Sie mit einem vertrauten Heißgetränk und vergleichen Sie Cold Extraction als eigenes Rezept, statt eine auf Eis servierte Portion für denselben Prozess zu halten. Vier Profile können die Vorlieben verschiedener Nutzer ohne tägliches Zurücksetzen speichern.",
+      "fr": "Le P.R.G.2+ de la Z10 adapte la mouture à la spécialité choisie, au service de sa gamme Hot, Light, Cold et Sweet. Commencez par une boisson chaude familière et comparez Cold Extraction comme une recette distincte, sans supposer qu’un service sur glace relève du même procédé. Quatre profils peuvent conserver les préférences de différents utilisateurs sans réinitialisation quotidienne."
+    },
+    "45": {
+      "nl": "Het touchscreen van 4.3 in, inbegrepen wifi en vier profielen overtuigen vooral wanneer meerdere mensen daadwerkelijk verschillende warme en koude dranken drinken. Milk Assistant en het optionele chocoladeaccessoire voegen keuzes en onderhoudstaken toe. Een huishouden dat vooral espresso drinkt, heeft minder reden om voor eenenvijftig specialiteiten te betalen.",
+      "de": "Der 4.3-in-Touchscreen, enthaltenes WLAN und vier Profile überzeugen am meisten, wenn mehrere Personen tatsächlich unterschiedliche heiße und kalte Getränke nutzen. Milk Assistant und das optionale Schokoladenzubehör bringen zusätzliche Auswahl und Pflegeaufgaben. Ein Haushalt, der hauptsächlich Espresso trinkt, hat weniger Anlass, für einundfünfzig Spezialitäten zu bezahlen.",
+      "fr": "L’écran tactile de 4.3 in, le Wi-Fi inclus et les quatre profils sont surtout convaincants lorsque plusieurs personnes consomment réellement différentes boissons chaudes et froides. Milk Assistant et l’accessoire à chocolat optionnel ajoutent des choix et des tâches d’entretien. Un foyer qui boit surtout de l’espresso a moins de raisons de payer pour cinquante et une spécialités."
+    },
+    "46": {
+      "nl": "12.6 B bij 14.3 H bij 18.5 D in; ongeveer 27 lb. De Z10 Aluminium Black NAB heeft een gesloten zetgroep; intern werk wordt door een gekwalificeerde servicedienst uitgevoerd.",
+      "de": "12.6 B × 14.3 H × 18.5 T in; etwa 27 lb. Die Z10 Aluminium Black NAB verwendet eine geschlossene Brüheinheit; Arbeiten im Inneren übernimmt ein qualifizierter Service.",
+      "fr": "12.6 l × 14.3 H × 18.5 P in ; environ 27 lb. La Z10 Aluminium Black NAB utilise un groupe de percolation fermé ; les interventions internes passent par un service qualifié."
+    },
+    "47": {
+      "nl": "Officieel beeld van de werkwijze met de JURA Z10 Aluminium Black",
+      "de": "Offizielles Bild zum Ablauf mit der JURA Z10 Aluminium Black",
+      "fr": "Image officielle de l’utilisation de la JURA Z10 Aluminium Black"
+    },
+    "48": {
+      "nl": "Het officiële beeld van de werkwijze ondersteunt de beoordeling van het huidige touchscreen en drankplatform; exacte claims blijven gebaseerd op bronnen voor NAB-artikel 15702.",
+      "de": "Das offizielle Bild zum Ablauf unterstützt die Bewertung des aktuellen Touchscreens und der Getränkeplattform; genaue Aussagen bleiben an die Quellen zum NAB-Artikel 15702 gebunden.",
+      "fr": "L’image officielle de l’utilisation appuie l’évaluation de l’écran tactile et de la plateforme de boissons actuels ; les affirmations précises restent liées aux sources de l’article NAB 15702."
+    },
+    "49": {
+      "nl": "De officiële Amerikaanse JURA-webshop vermeldde $4,499.00: huidige vermelding van de Aluminium Black NAB, artikel 15702, niet op voorraad op de controledatum; belasting, het moment van aanvulling en accessoires kunnen veranderen",
+      "de": "Der offizielle JURA-US-Shop zeigte $4,499.00: aktuelles Angebot der Aluminium Black NAB, Artikel 15702, am Prüftag nicht vorrätig; Steuern, Zeitpunkt der Wiederverfügbarkeit und Zubehör können sich ändern",
+      "fr": "La boutique officielle américaine JURA affichait $4,499.00 : fiche actuelle de l’Aluminium Black NAB, article 15702, en rupture de stock à la date de vérification ; les taxes, le calendrier de réapprovisionnement et les accessoires peuvent changer"
+    },
+    "50": {
+      "nl": "Prijs in de officiële Amerikaanse JURA-webshop: $4,499.00",
+      "de": "Preis im offiziellen JURA-US-Shop: $4,499.00",
+      "fr": "Prix de la boutique officielle américaine JURA : $4,499.00"
+    },
+    "51": {
+      "nl": "Huidige vermelding van de Aluminium Black NAB, artikel 15702, niet op voorraad op de controledatum; belasting, het moment van aanvulling en accessoires kunnen veranderen",
+      "de": "Aktuelles Angebot der Aluminium Black NAB, Artikel 15702, am Prüftag nicht vorrätig; Steuern, Zeitpunkt der Wiederverfügbarkeit und Zubehör können sich ändern",
+      "fr": "Fiche actuelle de l’Aluminium Black NAB, article 15702, en rupture de stock à la date de vérification ; les taxes, le calendrier de réapprovisionnement et les accessoires peuvent changer"
+    },
+    "52": {
+      "nl": "Discussie van eigenaren: de nieuwe Z10 is uit",
+      "de": "Besitzerdiskussion: Die neue Z10 ist da",
+      "fr": "Discussion de propriétaires : la nouvelle Z10 est sortie"
+    },
+    "53": {
+      "nl": "Discussie uit september 2025 over de tweede generatie, met zelfgeselecteerde deelnemers; bruikbaar voor kopersvragen, niet als bewijs voor percentages.",
+      "de": "Diskussion vom September 2025 zur zweiten Generation mit selbst ausgewählten Teilnehmenden; nützlich für Käuferfragen, nicht als Beleg für Häufigkeiten.",
+      "fr": "Discussion de septembre 2025 sur la deuxième génération, avec participants autosélectionnés ; utile pour les questions d’acheteurs, pas comme preuve de fréquence."
+    },
+    "54": {
+      "nl": "Ervaring van een eigenaar: Z10 valt volledig tegen",
+      "de": "Besitzerbericht: Z10 eine völlige Enttäuschung",
+      "fr": "Témoignage d’un propriétaire : Z10, déception totale"
+    },
+    "55": {
+      "nl": "Zelfgeselecteerde negatieve ervaring uit februari 2026, behouden als context en niet veralgemeniseerd naar de betrouwbaarheid.",
+      "de": "Selbst ausgewählte negative Erfahrung vom Februar 2026, als Kontext beibehalten und nicht auf die Zuverlässigkeit verallgemeinert.",
+      "fr": "Expérience négative autosélectionnée de février 2026 conservée comme contexte, sans généralisation sur la fiabilité."
+    },
+    "56": {
+      "nl": "Z10 Aluminium Black NAB tegenover de meest vergelijkbare alternatieven",
+      "de": "Z10 Aluminium Black NAB im Vergleich zu den nächstliegenden Alternativen",
+      "fr": "Z10 Aluminium Black NAB face aux alternatives les plus proches"
+    },
+    "57": {
+      "nl": "Snelle vergelijking van de JURA Z10 Aluminium Black NAB",
+      "de": "Kurzvergleich der JURA Z10 Aluminium Black NAB",
+      "fr": "Comparaison rapide de la JURA Z10 Aluminium Black NAB"
+    },
+    "58": {
+      "nl": "De JURA Z10 Aluminium Black NAB en de meest vergelijkbare alternatieven",
+      "de": "Die JURA Z10 Aluminium Black NAB und ihre nächstliegenden Alternativen",
+      "fr": "La JURA Z10 Aluminium Black NAB et ses alternatives les plus proches"
+    },
+    "59": {
+      "nl": "Uitgebreide vergelijking van de JURA Z10 Aluminium Black NAB",
+      "de": "Detaillierter Vergleich der JURA Z10 Aluminium Black NAB",
+      "fr": "Comparaison détaillée de la JURA Z10 Aluminium Black NAB"
+    },
+    "60": {
+      "nl": "Noord-Amerikaanse Z10 Aluminium Black NAB, artikel 15702. Beoordelingen en video's van de eerste generatie Z10 blijven alleen bruikbaar als beperkte context voor de werkwijze, omdat de menu's, koffiemolen en software verschillen. Vergelijk die exacte uitvoering met de onderstaande alternatieven.",
+      "de": "Nordamerikanische Z10 Aluminium Black NAB, Artikel 15702. Bewertungen und Videos der Z10 der ersten Generation bleiben nur als begrenzter Kontext zum Ablauf nützlich, da sich Menüs, Mahlwerk und Software unterscheiden. Vergleichen Sie genau diese Ausführung mit den folgenden Alternativen.",
+      "fr": "Z10 Aluminium Black NAB nord-américaine, article 15702. Les évaluations et vidéos de la Z10 de première génération restent utiles uniquement comme contexte limité sur l’utilisation, car les menus, le broyeur et le logiciel diffèrent. Comparez cette version précise aux alternatives ci-dessous."
+    },
+    "61": {
+      "nl": "Leven met de Z10 Aluminium Black NAB",
+      "de": "Der Alltag mit der Z10 Aluminium Black NAB",
+      "fr": "Vivre avec la Z10 Aluminium Black NAB"
+    },
+    "62": {
+      "nl": "Vraag bij artikel 15702 om een demonstratie van het koude recept en het wisselen van profielen die de meerprijs rechtvaardigen. Video's van de eerste generatie Z10 kunnen de latere koffiemolen en software niet bevestigen. Als die toevoegingen ongebruikt blijven, vergelijk dan een huidige E8 in plaats van het breedste menu automatisch als een verbetering te zien.",
+      "de": "Bitten Sie bei Artikel 15702 um eine Vorführung des kalten Rezepts und des Profilwechsels, die den Aufpreis rechtfertigen. Videos der Z10 der ersten Generation können das spätere Mahlwerk und die spätere Software nicht bestätigen. Wenn diese Ergänzungen ungenutzt bleiben, vergleichen Sie eine aktuelle E8, statt das breiteste Menü automatisch als Verbesserung anzusehen.",
+      "fr": "Demandez une démonstration, sur l’article 15702, de la recette froide et du changement de profil qui justifient le supplément. Les vidéos de la Z10 de première génération ne peuvent pas confirmer le broyeur et le logiciel ultérieurs. Si ces ajouts doivent rester inutilisés, comparez une E8 actuelle au lieu de considérer le menu le plus étendu comme une amélioration automatique."
+    },
+    "63": {
+      "nl": "Andere opties voor de koper van een Z10 Aluminium Black NAB",
+      "de": "Weitere Möglichkeiten für Käufer der Z10 Aluminium Black NAB",
+      "fr": "Autres options pour l’acheteur d’une Z10 Aluminium Black NAB"
+    },
+    "64": {
+      "nl": "Veelgestelde vragen over de Z10 Aluminium Black NAB",
+      "de": "Häufige Fragen zur Z10 Aluminium Black NAB",
+      "fr": "Questions fréquentes sur la Z10 Aluminium Black NAB"
+    },
+    "65": {
+      "nl": "Over welke generatie en uitvoering gaat deze beoordeling van de Z10 Aluminium Black NAB?",
+      "de": "Welche Generation und Ausführung behandelt diese Bewertung der Z10 Aluminium Black NAB?",
+      "fr": "Quelle génération et quelle version cette évaluation de la Z10 Aluminium Black NAB couvre-t-elle ?"
+    },
+    "66": {
+      "nl": "Wat houdt dagelijks gebruik van de Z10 Aluminium Black NAB in?",
+      "de": "Was gehört zur täglichen Nutzung der Z10 Aluminium Black NAB?",
+      "fr": "Qu’implique l’utilisation quotidienne de la Z10 Aluminium Black NAB ?"
+    },
+    "67": {
+      "nl": "Welk onderhoud van het melksysteem vereist de Z10 Aluminium Black NAB?",
+      "de": "Welche Milchsystempflege benötigt die Z10 Aluminium Black NAB?",
+      "fr": "Quel entretien du circuit de lait la Z10 Aluminium Black NAB exige-t-elle ?"
+    },
+    "68": {
+      "nl": "Welke koffiemolen is gespecificeerd voor deze Z10 Aluminium Black NAB?",
+      "de": "Welches Mahlwerk ist für diese Z10 Aluminium Black NAB angegeben?",
+      "fr": "Quel broyeur est spécifié pour cette Z10 Aluminium Black NAB ?"
+    },
+    "69": {
+      "nl": "Bekijk Coldbrew uit een Jura Z10-volautomaat van Seattle Coffee Gear",
+      "de": "Cold Brew aus einem Jura-Z10-Vollautomaten von Seattle Coffee Gear ansehen",
+      "fr": "Regarder Café infusé à froid avec une Jura Z10 automatique de Seattle Coffee Gear"
+    },
+    "71": {
+      "nl": "Coldbrew uit een Jura Z10-volautomaat",
+      "de": "Cold Brew aus einem Jura-Z10-Vollautomaten",
+      "fr": "Café infusé à froid avec une Jura Z10 automatique"
+    },
+    "72": {
+      "nl": "18 juli 2022",
+      "de": "18. Juli 2022",
+      "fr": "18 juillet 2022"
+    },
+    "73": {
+      "nl": "Alleen onafhankelijke context over de werkwijze van de eerste generatie. Functies en prijs van de tweede generatie worden afzonderlijk geverifieerd.",
+      "de": "Nur unabhängiger Kontext zum Ablauf der ersten Generation. Funktionen und Preis der zweiten Generation werden gesondert geprüft.",
+      "fr": "Uniquement un contexte indépendant sur l’utilisation de la première génération. Les fonctions et le prix de la deuxième génération sont vérifiés séparément."
+    },
+    "74": {
+      "nl": "Deze beoordeling gaat over artikel 15702, Noord-Amerika, tweede generatie. De prijs van $4,499 en de uitgebreide functies binnen een gesloten systeem hebben alleen zin wanneer het huishouden de extra koude en zoete bereidingen en profielfuncties gebruikt.",
+      "de": "Diese Bewertung behandelt Artikel 15702, Nordamerika, zweite Generation. Der Preis von $4,499 und die umfangreichen Funktionen im geschlossenen System sind nur sinnvoll, wenn der Haushalt die zusätzlichen Kalt-, Süß- und Profilfunktionen nutzt.",
+      "fr": "Cette évaluation couvre l’article 15702, Amérique du Nord, deuxième génération. Le prix de $4,499 et les nombreuses fonctions du système fermé ne se justifient que si le foyer utilise les préparations froides et sucrées ainsi que les profils supplémentaires."
+    },
+    "76": {
+      "nl": "Officiële identiteit, 51 specialiteiten, koffiemolen en functies van de Noord-Amerikaanse tweede generatie.",
+      "de": "Offizielle Identität, 51 Spezialitäten, Mahlwerk und Funktionen der nordamerikanischen zweiten Generation.",
+      "fr": "Identité officielle, 51 spécialités, broyeur et fonctions de la deuxième génération nord-américaine."
+    },
+    "77": {
+      "nl": "Handleiding van de JURA Z10 NAB",
+      "de": "Anleitung der JURA Z10 NAB",
+      "fr": "Mode d’emploi de la JURA Z10 NAB"
+    },
+    "78": {
+      "nl": "Officiële instructies voor installatie, dranken, reiniging, ontkalking, filter en probleemoplossing.",
+      "de": "Offizielle Anweisungen zu Einrichtung, Getränken, Reinigung, Entkalkung, Filter und Fehlerbehebung.",
+      "fr": "Instructions officielles d’installation, de boissons, de nettoyage, de détartrage, de filtre et de dépannage."
+    },
+    "79": {
+      "nl": "Officiële Amerikaanse JURA-webshop: Z10 15702",
+      "de": "Offizieller JURA-US-Shop: Z10 15702",
+      "fr": "Boutique officielle américaine JURA : Z10 15702"
+    },
+    "80": {
+      "nl": "Prijs van $4,499 bij ontbrekende voorraad en Noord-Amerikaanse specificaties gecontroleerd op 23 september 2026.",
+      "de": "Preis von $4,499 bei fehlender Verfügbarkeit und nordamerikanische Spezifikationen am 23. September 2026 geprüft.",
+      "fr": "Prix de $4,499 en rupture de stock et spécifications nord-américaines vérifiés le 23 septembre 2026."
+    },
+    "81": {
+      "nl": "T3: JURA vernieuwt zijn Z10",
+      "de": "T3: JURA überarbeitet seine Z10",
+      "fr": "T3 : JURA fait évoluer sa Z10"
+    },
+    "82": {
+      "nl": "Onafhankelijke beoordeling bij de introductie op 13 februari 2026 en context over de prijs-kwaliteitverhouding.",
+      "de": "Unabhängige Bewertung zur Einführung vom 13. Februar 2026 und Kontext zum Preis-Leistungs-Verhältnis.",
+      "fr": "Évaluation indépendante du lancement du 13 février 2026 et contexte sur le rapport qualité-prix."
+    },
+    "83": {
+      "nl": "Onafhankelijke video van ECS Coffee, gepubliceerd op 18 juli 2022; alleen de werkwijze voor koude koffie van de eerste generatie, geen specificaties van de tweede generatie.",
+      "de": "Unabhängiges Video von ECS Coffee, veröffentlicht am 18. Juli 2022; nur der Ablauf für kalten Kaffee der ersten Generation, keine Spezifikationen der zweiten Generation.",
+      "fr": "Vidéo indépendante d’ECS Coffee publiée le 18 juillet 2022 ; uniquement l’utilisation à froid de la première génération, pas les spécifications de la deuxième génération."
+    },
+    "84": {
+      "nl": "Officiële context van het assortiment die de Z10 onderscheidt van de E6, E8 en huidige GIGA-modellen.",
+      "de": "Offizieller Sortimentskontext, der die Z10 von E6, E8 und aktuellen GIGA-Modellen abgrenzt.",
+      "fr": "Contexte officiel de la gamme distinguant la Z10 des E6, E8 et des modèles GIGA actuels."
+    },
+    "85": {
+      "nl": "Z10 Aluminium Black NAB: kies de werkwijze, niet het aantal dranken",
+      "de": "Z10 Aluminium Black NAB: den Ablauf kaufen, nicht die Anzahl der Getränke",
+      "fr": "Z10 Aluminium Black NAB : acheter l’usage, pas le nombre de boissons"
+    },
+    "110": {
+      "nl": "JURA Z10 Aluminium Black NAB: Coldbrew uit een Jura Z10-volautomaat · Seattle Coffee Gear (2022-07-18) | Coffeedant",
+      "de": "JURA Z10 Aluminium Black NAB: Cold Brew aus einem Jura-Z10-Vollautomaten · Seattle Coffee Gear (2022-07-18) | Coffeedant",
+      "fr": "JURA Z10 Aluminium Black NAB : Café infusé à froid avec une Jura Z10 automatique · Seattle Coffee Gear (2022-07-18) | Coffeedant"
+    },
+    "111": {
+      "nl": "Bekijk Seattle Coffee Gear over de JURA Z10 Aluminium Black NAB (2022-07-18): Coldbrew uit een Jura Z10-volautomaat. Alleen onafhankelijke context over de werkwijze van de eerste generatie. Functies en prijs van de tweede generatie worden afzonderlijk geverifieerd.",
+      "de": "Sehen Sie Seattle Coffee Gear zur JURA Z10 Aluminium Black NAB (2022-07-18): Cold Brew aus einem Jura-Z10-Vollautomaten. Nur unabhängiger Kontext zum Ablauf der ersten Generation. Funktionen und Preis der zweiten Generation werden gesondert geprüft.",
+      "fr": "Regardez Seattle Coffee Gear sur la JURA Z10 Aluminium Black NAB (2022-07-18) : Café infusé à froid avec une Jura Z10 automatique. Uniquement un contexte indépendant sur l’utilisation de la première génération. Les fonctions et le prix de la deuxième génération sont vérifiés séparément."
+    },
+    "113": {
+      "nl": "Video over de JURA Z10 Aluminium Black NAB van Seattle Coffee Gear",
+      "de": "Video zur JURA Z10 Aluminium Black NAB von Seattle Coffee Gear",
+      "fr": "Vidéo sur la JURA Z10 Aluminium Black NAB de Seattle Coffee Gear"
+    },
+    "114": {
+      "nl": "← Beoordeling van de JURA Z10 Aluminium Black NAB",
+      "de": "← Bewertung der JURA Z10 Aluminium Black NAB",
+      "fr": "← Évaluation de la JURA Z10 Aluminium Black NAB"
+    },
+    "115": {
+      "nl": "Coldbrew uit een Jura Z10-volautomaat van Seattle Coffee Gear",
+      "de": "Cold Brew aus einem Jura-Z10-Vollautomaten von Seattle Coffee Gear",
+      "fr": "Café infusé à froid avec une Jura Z10 automatique de Seattle Coffee Gear"
+    },
+    "116": {
+      "nl": "JURA Z10 Aluminium Black NAB · Perspectief van een verkoper",
+      "de": "JURA Z10 Aluminium Black NAB · Händlerperspektive",
+      "fr": "JURA Z10 Aluminium Black NAB · Point de vue d’un revendeur"
+    },
+    "117": {
+      "nl": "19 juli 2022",
+      "de": "19. Juli 2022",
+      "fr": "19 juillet 2022"
+    }
+  }
+}

@@ -1,0 +1,743 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/jura-z10/",
+      "sourceHash": "6c0c65e048b0cf469ed46da287b5e687ddf9415688137b08907ec1a0c21ff456"
+    },
+    {
+      "sourcePath": "/espresso-machine/jura-z10/video/seattle-coffee-gear/",
+      "sourceHash": "d62c69df666265c5261026787111395fa6b3f8b2961c709e00b93f189b5f3711"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "0988645e4f9af36d7bb12088f8801a30d485e0d7e9194d6276df21a53e4715bc",
+      "source": "4.3 out of 5, open the Coffeedant category ratings",
+      "kind": "attribute",
+      "context": "Research-led assessment 4.3/5 See all six categories ↓     Check Breville price ↗Official US product page  Check current support ↗Official Breville support route   Compare with Coffee Finder → Search every reviewed machine"
+    },
+    {
+      "id": "9f5e4466a82cda443ea339343f075ed0e90b44deb3b297807eb343c7af7a7e6c",
+      "source": "8.8 out of 10",
+      "kind": "attribute",
+      "context": "Coffee assessment Coffee evidence   8.8 out of 10"
+    },
+    {
+      "id": "4146e490966b948bf7ac6236adb05ad21f8b7e4ddfc83121067374ab6f68a5a6",
+      "source": "9.1 out of 10",
+      "kind": "attribute",
+      "context": "Workflow assessment Workflow evidence   9.1 out of 10"
+    },
+    {
+      "id": "ade44ddef0818c8e9be8b7c28e914348a4574e369cee1e3e00ef542c15cc1382",
+      "source": "9.2 out of 10",
+      "kind": "attribute",
+      "context": "Features assessment Features evidence   9.2 out of 10"
+    },
+    {
+      "id": "105d4ec9c5a9d61e712730c873e8a559b16cc3a4a15d54d636b162563860f267",
+      "source": "Seattle Coffee Gear",
+      "kind": "text",
+      "context": "Seattle Coffee Gear"
+    },
+    {
+      "id": "113328940e2bbe3f84df4d18adbc0aed75a0bbc30c0d0068ff0d7df33c0c78a3",
+      "source": "Video and opinions belong to Seattle Coffee Gear. Coffeedant curates this perspective alongside our written review.",
+      "kind": "text",
+      "context": "Video and opinions belong to Seattle Coffee Gear. Coffeedant curates this perspective alongside our written review."
+    },
+    {
+      "id": "84c34c88ddc7d883dc12881d820635e45e8759c6205c7527356567995b8c4a25",
+      "source": "Seattle Coffee Gear",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "cdfd897d0b81dda83cf1c05033d60ec3230c51ef06143a08ce5de030c86c2291",
+      "source": "Video by Seattle Coffee Gear",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "43e9fe4e382f1a0c6f913054aefa02f4f6e306340c6676776e50ebc94c540e52",
+      "source": "8.3 out of 10",
+      "kind": "attribute",
+      "context": "Build assessment Parts diagrams matter more when a technician can act on them   8.3 out of 10"
+    },
+    {
+      "id": "56b000701656f8d29c2035db5c030f9aee9e6ec72d2e03395cc2fc7f6963db71",
+      "source": "9.7 out of 10",
+      "kind": "attribute",
+      "context": "Espresso assessment Espresso evidence   9.7 out of 10"
+    },
+    {
+      "id": "2adb45b46182b7e8742d2f0ccb26494df00ba095f593b074fcda52ed1696a204",
+      "source": "JURA current home range",
+      "kind": "text",
+      "context": "JURA current home range ↗"
+    },
+    {
+      "id": "812b459cecc8c5d81f69afca51891e415b9e82c72a170dbdc2a8c316a46ded4a",
+      "source": "JURA Z10 review: when cold extraction earns a flagship premium | Coffeedant",
+      "kind": "text",
+      "context": "JURA Z10 review: when cold extraction earns a flagship premium | Coffeedant"
+    },
+    {
+      "id": "ec4cfa93c64597dd971fe1c51441228cb4571136f38d542130be19309342fea6",
+      "source": "A research-led second-generation JURA Z10 NAB review covering article 15702, 51 specialties, P.R.G.2+ grinder, Cold Extraction, four profiles, $4,499 US price and care.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "8c10103bf68d630b809e960f13e8b0974251066113e30ca797b411f67892f61c",
+      "source": "JURA Z10 review: when cold extraction earns a flagship premium | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "3fa39c95d55dc5503e5031b5bdd1e1152aff1897ff1eb5f3c05e4f628cc662bc",
+      "source": "JURA Z10 review: when cold extraction earns a flagship premium",
+      "kind": "text",
+      "context": "JURA Z10 review: when cold extraction earns a flagship premium"
+    },
+    {
+      "id": "694b75f0f4bf18bb39a273b8d3b045ae538315078ad8b0064c8c1dbd8c6f65bd",
+      "source": "For households that want the broadest current jura home menu, including cold extraction, four profiles and included connectivity",
+      "kind": "text",
+      "context": "For households that want the broadest current jura home menu, including cold extraction, four profiles and included connectivity"
+    },
+    {
+      "id": "bd2c0fab7bea6cf63859c50a4039967e2d01e8e1bbdbad8d547cd6c70d762cc2",
+      "source": "Choose the Z10 Aluminium Black NAB for the broadest current jura home menu, including cold extraction, four profiles and included connectivity. Skip it when the $4,499 price and extensive closed-system feature set only make sense when the household will use the added cold, sweet and profile functions is a deal-breaker.",
+      "kind": "text",
+      "context": "Choose the Z10 Aluminium Black NAB for the broadest current jura home menu, including cold extraction, four profiles and included connectivity. Skip it when the $4,499 price and extensive closed-system feature set only make sense when the household will use the added cold, sweet and profile functions is a deal-breaker."
+    },
+    {
+      "id": "f5696efa94e066a099fe2d5bc339fa5584a7b75dbf97be7f8066bca60b2213e3",
+      "source": "The broadest current JURA home menu, including Cold Extraction, four profiles and included connectivity The central trade-off is the $4,499 price and extensive closed-system feature set only make sense when the household will use the added cold, sweet and profile functions",
+      "kind": "text",
+      "context": "The broadest current JURA home menu, including Cold Extraction, four profiles and included connectivity The central trade-off is the $4,499 price and extensive closed-system feature set only make sense when the household will use the added cold, sweet and profile functions"
+    },
+    {
+      "id": "1c819123618f2ad8f0b3b087adf0de02cf48a576def95255083df130cee52e62",
+      "source": "North American Z10 Aluminium Black NAB, article 15702. First-generation Z10 reviews and videos remain useful only for limited workflow context because menus, grinder and software differ.",
+      "kind": "text",
+      "context": "North American Z10 Aluminium Black NAB, article 15702. First-generation Z10 reviews and videos remain useful only for limited workflow context because menus, grinder and software differ."
+    },
+    {
+      "id": "cb2aa7098f7645d0ef6a8da41392ad44df9ef36fb80933b89dd486c9c8bf1087",
+      "source": "Fifty-one Hot, Light, Cold and Sweet specialties with Cold Extraction, four profiles, Coffee Timer and Caffeine Regulator",
+      "kind": "text",
+      "context": "Fifty-one Hot, Light, Cold and Sweet specialties with Cold Extraction, four profiles, Coffee Timer and Caffeine Regulator"
+    },
+    {
+      "id": "71ae17b3871071c35eb5bd9a349f790610587f8cc472430fcb085ccb0fe3888d",
+      "source": "Automatic HP3 milk system with Milk Assistant and guided cleaning; an optional chocolate attachment expands sweet recipes",
+      "kind": "text",
+      "context": "Automatic HP3 milk system with Milk Assistant and guided cleaning; an optional chocolate attachment expands sweet recipes"
+    },
+    {
+      "id": "902039ba4ca5f4bb82cbeffb1f857e287e766d97a93c954c3999e3de095339a9",
+      "source": "P.R.G.2+ electronically controlled grinder with automatic adjustment for the selected specialty",
+      "kind": "text",
+      "context": "P.R.G.2+ electronically controlled grinder with automatic adjustment for the selected specialty"
+    },
+    {
+      "id": "222d616803a21535b7a251279c22ae8a1a0c7e66f1de3d386dfcd4f45ac0ba24",
+      "source": "4.3-inch color touchscreen with four profiles, included Wi-Fi and J.O.E. support",
+      "kind": "text",
+      "context": "4.3-inch color touchscreen with four profiles, included Wi-Fi and J.O.E. support"
+    },
+    {
+      "id": "62e732543030667b40aec54531899be5e3f42f4184117b14408d1f82c41a9b67",
+      "source": "81 oz water tank, 9.9 oz bean container and about 20-serving grounds bin",
+      "kind": "text",
+      "context": "81 oz water tank, 9.9 oz bean container and about 20-serving grounds bin"
+    },
+    {
+      "id": "6bb0d66bd66feeeee3d09c471953226aba2a3166aac5e684916dfcd7d2a57813",
+      "source": "12.6 W by 14.3 H by 18.5 D in; about 27 lb",
+      "kind": "text",
+      "context": "12.6 W by 14.3 H by 18.5 D in; about 27 lb"
+    },
+    {
+      "id": "5631337ef0084219e57a184f26e52cd9a401cfe242053f69910a3ab10eb5bf2e",
+      "source": "Use the Quality Assistant and prompted cleaning or descaling cycles, clean milk hardware every day it is used, and verify care for any optional chocolate attachment.",
+      "kind": "text",
+      "context": "Use the Quality Assistant and prompted cleaning or descaling cycles, clean milk hardware every day it is used, and verify care for any optional chocolate attachment."
+    },
+    {
+      "id": "a88d39158e8c099a2aa03d5c923ca57263ffa7b8174155396fc022c3f8d5dfe2",
+      "source": "The $4,499 price and extensive closed-system feature set only make sense when the household will use the added cold, sweet and profile functions",
+      "kind": "text",
+      "context": "The $4,499 price and extensive closed-system feature set only make sense when the household will use the added cold, sweet and profile functions"
+    },
+    {
+      "id": "bee872a03e5d7987c32ee0eda805dc2c8f0de35d91334a3ca97dc3e01c3e6fbc",
+      "source": "What exact Z10 Aluminium Black NAB does this review cover?",
+      "kind": "text",
+      "context": "What exact Z10 Aluminium Black NAB does this review cover?"
+    },
+    {
+      "id": "e7b9e442274e520e34426f0f86f8def33bb1eadfa5afa3fb9a6e52cbe2f48aca",
+      "source": "Yes. P.R.G.2+ electronically controlled grinder with automatic adjustment for the selected specialty",
+      "kind": "text",
+      "context": "Yes. P.R.G.2+ electronically controlled grinder with automatic adjustment for the selected specialty"
+    },
+    {
+      "id": "1d334714a7967db27716d77b7f067467cf5f2b6e464a618a51ec1e3c5d7b1b92",
+      "source": "No. Use the Quality Assistant and prompted cleaning or descaling cycles, clean milk hardware every day it is used, and verify care for any optional chocolate attachment.",
+      "kind": "text",
+      "context": "No. Use the Quality Assistant and prompted cleaning or descaling cycles, clean milk hardware every day it is used, and verify care for any optional chocolate attachment."
+    },
+    {
+      "id": "e53bef890193acd28269ebe0771687513b04b3d87d845fc2206673815cbccaf1",
+      "source": "JURA Z10 Aluminium Black NAB full review",
+      "kind": "attribute",
+      "context": "Home/ Espresso machines/ Z10 Aluminium Black NAB     JURA · research-led assessment JURA Z10 review: when cold extraction earns a flagship premium   For households that want the broadest current jura home menu, including cold extraction, four profiles and included connectivity     Written byAleksandar SpasevskiEditor at Coffeedant   PublishedJul 27, 2026 UpdatedOct 30, 2026      Choose the Z10 Aluminium Black NAB for the broadest current jura home menu, including cold extraction, four profiles and included connectivity. Skip it when the $4,499 price and extensive closed-system feature set only make sense when the household will use the added cold, sweet and profile functions is a deal-breaker.  My assessmentThe broadest current JURA home menu, including Cold Extraction, four profiles and included connectivity The central trade-off is the $4,499 price and extensive closed-system feature set only make sense when the household will use the added cold, sweet and profile functions How I reached this conclusion ↗    Research-led assessment 4.3/5 See all six categories ↓     Check current listing ↗JURA US official shop price; stock, tax, condition and warranty can change  Open official product information ↗Manufacturer identity, feature and specification record   Compare with Coffee Finder → Search every reviewed machine      Also consider JURA Z10 ↗Choose the reviewed machine when its exact drink menu and ownership routine match the household.JURA E6 ↗Choose the least expensive current JURA here when 11 hot specialties are enough.JURA E8 ↗Choose the current fifth-generation middle ground for 27 Hot, Light and Sweet specialties.    Exact identityNorth American Z10 Aluminium Black NAB, article 15702. First-generation Z10 reviews and videos remain useful only for limited workflo"
+    },
+    {
+      "id": "5f2ded0f744355bd393df107e106b2662ddc068736b4fad500495df8d432a357",
+      "source": "A single overall score is useful only when you can see what produced it. JURA Z10 Aluminium Black NAB earns",
+      "kind": "text",
+      "context": "A single overall score is useful only when you can see what produced it. JURA Z10 Aluminium Black NAB earns 4.3/5, with espresso, milk, workflow, build, features, and value scored separately below."
+    },
+    {
+      "id": "d0dbeeb73ab096c037cbdcccd81046d5c4a711eeb0f235249d1e0c18a9692c8f",
+      "source": "Fifty-one Hot, Light, Cold and Sweet specialties with Cold Extraction, four profiles, Coffee Timer and Caffeine Regulator provide repeatable automatic coffee within a closed system.",
+      "kind": "text",
+      "context": "Fifty-one Hot, Light, Cold and Sweet specialties with Cold Extraction, four profiles, Coffee Timer and Caffeine Regulator provide repeatable automatic coffee within a closed system."
+    },
+    {
+      "id": "d839ad0010d7a017507f4c3c434995d1743a9b8ac3a294ba4603a899e97cb5ce",
+      "source": "Z10 Aluminium Black NAB keeps brew-unit cleaning within the prescribed closed-system routine.",
+      "kind": "text",
+      "context": "Z10 Aluminium Black NAB keeps brew-unit cleaning within the prescribed closed-system routine."
+    },
+    {
+      "id": "218f184e419df19a9269de88675d6988c3428ee45a86211999442bf5793196de",
+      "source": "$4,499.00 needs dated condition, stock and warranty context.",
+      "kind": "text",
+      "context": "$4,499.00 needs dated condition, stock and warranty context."
+    },
+    {
+      "id": "c490e591ad81933d4226f942d9cc712145f659f0f92498cb9b8479b13a13d12c",
+      "source": "Z10 Aluminium Black NAB: the buying decision",
+      "kind": "text",
+      "context": "Z10 Aluminium Black NAB: the buying decision"
+    },
+    {
+      "id": "49c7d2e5a2dd1d5bf645ab352ebb258c93661eadba18e9c90470f721a1a0c2b8",
+      "source": "The current Z10 NAB has a clear reason to sit above JURA's hot-drink machines: Cold Extraction belongs alongside its Hot, Light and Sweet preparations. Four profiles, included connectivity and the electronically controlled grinder make those options more useful in a varied household than a long menu alone would be. The price asks whether cold drinks and personalization will be regular habits, not occasional demonstrations. Its milk system and closed brew platform still require the specified care. First-generation Z10 material offers some visual context, but the current North American model's grinder, software and recipe capabilities need their own evidence.",
+      "kind": "text",
+      "context": "The current Z10 NAB has a clear reason to sit above JURA's hot-drink machines: Cold Extraction belongs alongside its Hot, Light and Sweet preparations. Four profiles, included connectivity and the electronically controlled grinder make those options more useful in a varied household than a long menu alone would be. The price asks whether cold drinks and personalization will be regular habits, not occasional demonstrations. Its milk system and closed brew platform still require the specified care. First-generation Z10 material offers some visual context, but the current North American model's grinder, software and recipe capabilities need their own evidence. [source] [source] [source] [source] [source] [source]"
+    },
+    {
+      "id": "c9e6d05d4eec156993e935400061fa37692812448c3bad173d4e67c2b88ee7d6",
+      "source": "Setting up the Z10 Aluminium Black NAB",
+      "kind": "text",
+      "context": "Setting up the Z10 Aluminium Black NAB"
+    },
+    {
+      "id": "0f4f37e0b1fa41cbcbd05045d6fa72ece58f48110ff9bd2650d01416e8c4e70b",
+      "source": "a bean-to-cup appliance with p.r.g.2+ electronically controlled grinder with automatic adjustment for the selected specialty, fifty-one hot, light, cold and sweet specialties with cold extraction, four profiles, coffee timer and caffeine regulator, and automatic hp3 milk system with milk assistant and guided cleaning; an optional chocolate attachment expands sweet recipes.",
+      "kind": "text",
+      "context": "System: a bean-to-cup appliance with p.r.g.2+ electronically controlled grinder with automatic adjustment for the selected specialty, fifty-one hot, light, cold and sweet specialties with cold extraction, four profiles, coffee timer and caffeine regulator, and automatic hp3 milk system with milk assistant and guided cleaning; an optional chocolate attachment expands sweet recipes."
+    },
+    {
+      "id": "389f8e72cd017e0e8dda58b7be8bbe5e8b637f2977b6127e6d00a4d9ee5f8353",
+      "source": "This is second-generation North American NAB article 15702. The checked $4,499 page was out of stock, so confirm an actual offer before planning delivery. Wi-Fi is included; the chocolate attachment is optional. Those are different package questions, even though both appear in the broader sweet-drink story.",
+      "kind": "text",
+      "context": "This is second-generation North American NAB article 15702. The checked $4,499 page was out of stock, so confirm an actual offer before planning delivery. Wi-Fi is included; the chocolate attachment is optional. Those are different package questions, even though both appear in the broader sweet-drink story. [source] [source] [source]"
+    },
+    {
+      "id": "6515cc3bf52ca88cbdcc68358274afc156f96fb879e56b2b051ac2270e93a9c5",
+      "source": "Second-generation JURA Z10 official campaign image",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "20b74b2677207b9fb05bf46903129ca1d513491f8a3a88c8bc6c9652d0f3f702",
+      "source": "Official campaign media gives lifestyle scale for the current Z10. It is not presented as Coffeedant testing or drink-quality proof.",
+      "kind": "text",
+      "context": "Manufacturer photo Official campaign media gives lifestyle scale for the current Z10. It is not presented as Coffeedant testing or drink-quality proof. \nImage: JURA Z10 second-generation product page.\n Usage record: Official manufacturer product-page media.\nOfficial manufacturer media; not a Coffeedant test photograph."
+    },
+    {
+      "id": "864acc08265a569538b81dc21ef67782245a08247306c546eae6c8910f88c2ce",
+      "source": "JURA Z10 second-generation product page",
+      "kind": "text",
+      "context": "JURA Z10 second-generation product page"
+    },
+    {
+      "id": "946fd01494400ba2cba3904f32bd29253d57d4e64eeee12ac4b8278c0f59c0a9",
+      "source": "See what else fits beside the Z10 Aluminium Black NAB.",
+      "kind": "text",
+      "context": "See what else fits beside the Z10 Aluminium Black NAB."
+    },
+    {
+      "id": "5dc172182891b27a896e80ed34db077e0d075f9bbfe7324191bb5aeec601f3c6",
+      "source": "Z10’s P.R.G.2+ adjusts grinding for the selected specialty, supporting its Hot, Light, Cold and Sweet range. Begin with a familiar hot drink and compare Cold Extraction as a separate recipe rather than assuming an iced serving is the same process. Four profiles can retain different users’ preferences without a daily reset.",
+      "kind": "text",
+      "context": "Z10’s P.R.G.2+ adjusts grinding for the selected specialty, supporting its Hot, Light, Cold and Sweet range. Begin with a familiar hot drink and compare Cold Extraction as a separate recipe rather than assuming an iced serving is the same process. Four profiles can retain different users’ preferences without a daily reset. [source] [source] [source]"
+    },
+    {
+      "id": "8e70150ae482bd9580a9eb2883cc45b85d96278304932e939230037b1c556128",
+      "source": "The 4.3 in touchscreen, included Wi-Fi and four profiles are most persuasive when several people actually use different hot and cold drinks. Milk Assistant and the optional chocolate accessory add choices and care tasks. A mostly espresso-only household has less reason to pay for fifty-one specialties.",
+      "kind": "text",
+      "context": "The 4.3 in touchscreen, included Wi-Fi and four profiles are most persuasive when several people actually use different hot and cold drinks. Milk Assistant and the optional chocolate accessory add choices and care tasks. A mostly espresso-only household has less reason to pay for fifty-one specialties. [source] [source] [source]"
+    },
+    {
+      "id": "68c802ef220e690f64fc7527a36fd147cd721ad5296be0ff2df6bf97c22b7d48",
+      "source": "12.6 W by 14.3 H by 18.5 D in; about 27 lb. Z10 Aluminium Black NAB uses a closed brew unit; internal work goes through qualified service.",
+      "kind": "text",
+      "context": "12.6 W by 14.3 H by 18.5 D in; about 27 lb. Z10 Aluminium Black NAB uses a closed brew unit; internal work goes through qualified service. [source] [source] [source] [source]"
+    },
+    {
+      "id": "052f7cd5c3fe70d5558ea7085ebdd6b97c528490a6ae46b87e4c6789dcc6c33a",
+      "source": "JURA Z10 Aluminium Black official workflow image",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "2567eb680363d5743943558bef6ec5d1928a9ddb90f4eb0f2714974cf3590170",
+      "source": "The official workflow image supports assessment of the current touchscreen and drink platform; exact claims remain tied to NAB article 15702 sources.",
+      "kind": "text",
+      "context": "Manufacturer photo The official workflow image supports assessment of the current touchscreen and drink platform; exact claims remain tied to NAB article 15702 sources. \nImage: JURA Z10 second-generation product page.\n Usage record: Official manufacturer product-page media.\nOfficial manufacturer media; not a Coffeedant test photograph."
+    },
+    {
+      "id": "042fd73fae9d84ad4b978dc8f034f9971a6a3cc6fedcfb263dda2be5860756fb",
+      "source": "JURA US official shop price showed $4,499.00: Current Aluminium Black NAB article 15702 listing, out of stock on the check date; tax, restock timing and accessories can change",
+      "kind": "text",
+      "context": "JURA US official shop price showed $4,499.00: Current Aluminium Black NAB article 15702 listing, out of stock on the check date; tax, restock timing and accessories can change [source]"
+    },
+    {
+      "id": "a2d0682f2ed4d1bed67ed4e4933947c8330d2fb484852516ac64a71f26d712c4",
+      "source": "JURA US official shop price: $4,499.00",
+      "kind": "text",
+      "context": "JURA US official shop price: $4,499.00"
+    },
+    {
+      "id": "629f938e28a7d9a3c9fc3c3e7dfec4ea23933cb92c94334d720a33d812bdfb72",
+      "source": "Current Aluminium Black NAB article 15702 listing, out of stock on the check date; tax, restock timing and accessories can change",
+      "kind": "text",
+      "context": "Current Aluminium Black NAB article 15702 listing, out of stock on the check date; tax, restock timing and accessories can change"
+    },
+    {
+      "id": "e8a82f2443a0eec4f75f1b364b3d75d3b0df65888d6d29f0f0bc5d94b2179af5",
+      "source": "Owner discussion: new Z10 is out",
+      "kind": "text",
+      "context": "Owner discussion: new Z10 is out"
+    },
+    {
+      "id": "c1bdcff6ddc8c248c1709cc9587b9453488b79426e38cb6c46234c5e94091f50",
+      "source": "Self-selected September 2025 discussion of the second generation; useful for buyer questions, not rate evidence.",
+      "kind": "text",
+      "context": "Self-selected September 2025 discussion of the second generation; useful for buyer questions, not rate evidence."
+    },
+    {
+      "id": "79552c8a0785f9b9eecd6239c8bef46f1605f602085fae3bfea78a7e30096f04",
+      "source": "Owner report: Z10 total letdown",
+      "kind": "text",
+      "context": "Owner report: Z10 total letdown"
+    },
+    {
+      "id": "fe0f592187054eaa9d58ba88be70b3f68154b77ceaa96d59b5400921413072e2",
+      "source": "Self-selected February 2026 negative experience retained as context, not generalized to reliability.",
+      "kind": "text",
+      "context": "Self-selected February 2026 negative experience retained as context, not generalized to reliability."
+    },
+    {
+      "id": "0c33e62576542177667d60094e8205901f686e38d2317947072967dcf4e4f8f3",
+      "source": "Z10 Aluminium Black NAB versus the closest alternatives",
+      "kind": "text",
+      "context": "Z10 Aluminium Black NAB versus the closest alternatives"
+    },
+    {
+      "id": "7fe362fe292807c4b6e0d8ac18049b98d49bf289d804d01d296e3df993bba724",
+      "source": "JURA Z10 Aluminium Black NAB quick comparison",
+      "kind": "attribute",
+      "context": "JURA Z10 Aluminium Black NAB and its closest alternatives\n        MachinePrice positionThe quick decision\n        JURA Z10$4,499Choose the reviewed machine when its exact drink menu and ownership routine match the household.JURA E6$1,899 current US direct referenceChoose the least expensive current JURA here when 11 hot specialties are enough.JURA E8$2,599 dated US retailer referenceChoose the current fifth-generation middle ground for 27 Hot, Light and Sweet specialties.JURA Z10$4,499 current US direct referenceChoose the current flagship for Cold Extraction, 51 specialties and four profiles.\n      \n    \n    \n      DetailsOpen the technical and workflow comparison\n      \n        \n          Detailed ownership comparison\n          MachineDimensionsHeatingCoffee setupMilk workflowBest fit\n          JURA Z10See the exact-model facts aboveJURA Thermoblock platformIntegrated automatic grinder and 5-16 g brew unitAutomatic hose-fed milk path with same-day cleaningGuided bean-to-cup operationJURA E611 W by 13.8 H by 17.6 D inSingle automatic Thermoblock platformP.A.G. grinder and 5-16 g brew unitHP1 Easy Cappuccino systemFocused hot coffee and cappuccinoJURA E811 W by 13.8 H by 17.6 D inAutomatic Thermoblock platformP.A.G.2 grinder and 5-16 g brew unitAutomatic HP3 milk systemBroader hot and sweet menuJURA Z1012.6 W by 14.3 H by 18.5 D inAutomatic Thermoblock platformP.R.G.2+ grinder and 5-16 g brew unitHP3 milk system with Milk AssistantMaximum menu breadth and cold coffee\n        \n      \n      North American Z10 Aluminium Black NAB, article 15702. First-generation Z10 reviews and videos remain useful only for limited workflow context because menus, grinder and software differ. Compare that exact package with the alternatives below."
+    },
+    {
+      "id": "ad336d388150772c4aea9c17209c66ae6edd95a75c3b4b0f3d542020da6c1318",
+      "source": "JURA Z10 Aluminium Black NAB and its closest alternatives",
+      "kind": "text",
+      "context": "JURA Z10 Aluminium Black NAB and its closest alternatives"
+    },
+    {
+      "id": "26fabbf3de0c3977d4c288ab4503ae2bf64df5bfca994607bd04d7d7c6aae4ca",
+      "source": "JURA Z10 Aluminium Black NAB detailed comparison",
+      "kind": "attribute",
+      "context": "DetailsOpen the technical and workflow comparison\n      \n        \n          Detailed ownership comparison\n          MachineDimensionsHeatingCoffee setupMilk workflowBest fit\n          JURA Z10See the exact-model facts aboveJURA Thermoblock platformIntegrated automatic grinder and 5-16 g brew unitAutomatic hose-fed milk path with same-day cleaningGuided bean-to-cup operationJURA E611 W by 13.8 H by 17.6 D inSingle automatic Thermoblock platformP.A.G. grinder and 5-16 g brew unitHP1 Easy Cappuccino systemFocused hot coffee and cappuccinoJURA E811 W by 13.8 H by 17.6 D inAutomatic Thermoblock platformP.A.G.2 grinder and 5-16 g brew unitAutomatic HP3 milk systemBroader hot and sweet menuJURA Z1012.6 W by 14.3 H by 18.5 D inAutomatic Thermoblock platformP.R.G.2+ grinder and 5-16 g brew unitHP3 milk system with Milk AssistantMaximum menu breadth and cold coffee\n        \n      \n      North American Z10 Aluminium Black NAB, article 15702. First-generation Z10 reviews and videos remain useful only for limited workflow context because menus, grinder and software differ. Compare that exact package with the alternatives below."
+    },
+    {
+      "id": "27f47f5eb228d6140caf4264256f9495f766bdae6c2b2a04df1d7fa14b6f4b7c",
+      "source": "North American Z10 Aluminium Black NAB, article 15702. First-generation Z10 reviews and videos remain useful only for limited workflow context because menus, grinder and software differ. Compare that exact package with the alternatives below.",
+      "kind": "text",
+      "context": "North American Z10 Aluminium Black NAB, article 15702. First-generation Z10 reviews and videos remain useful only for limited workflow context because menus, grinder and software differ. Compare that exact package with the alternatives below."
+    },
+    {
+      "id": "5192f4a038ba21852ef4941094dff577c35c41dfd59fe2095c2276f1d6140640",
+      "source": "Living with the Z10 Aluminium Black NAB",
+      "kind": "text",
+      "context": "Living with the Z10 Aluminium Black NAB"
+    },
+    {
+      "id": "f0a55353be06594b183dafba9c24aa3b91b182b0735ee5831e080e849caef068",
+      "source": "Request a demonstration on article 15702 of the cold recipe and profile switching that justify the premium. First-generation Z10 videos cannot confirm the later grinder and software. If those additions will sit unused, compare a current E8 rather than treating the widest menu as an automatic upgrade.",
+      "kind": "text",
+      "context": "Request a demonstration on article 15702 of the cold recipe and profile switching that justify the premium. First-generation Z10 videos cannot confirm the later grinder and software. If those additions will sit unused, compare a current E8 rather than treating the widest menu as an automatic upgrade. [source] [source]"
+    },
+    {
+      "id": "d41f032b278ec80093a0d53eae374b8ac726c233b398fd614967cbdfe0fce35f",
+      "source": "Other options for the Z10 Aluminium Black NAB buyer",
+      "kind": "text",
+      "context": "Other options for the Z10 Aluminium Black NAB buyer"
+    },
+    {
+      "id": "55e65774dd1e991e159b952f77335abc397e5ba699312c5a8c1dccf2954197cf",
+      "source": "Z10 Aluminium Black NAB FAQ",
+      "kind": "text",
+      "context": "Z10 Aluminium Black NAB FAQ"
+    },
+    {
+      "id": "b3cc62889639da4f45fbc5116f4fbe0494af90034e25b6acccb70bf1f78450de",
+      "source": "Which generation and package does this Z10 Aluminium Black NAB review cover?",
+      "kind": "text",
+      "context": "Which generation and package does this Z10 Aluminium Black NAB review cover?"
+    },
+    {
+      "id": "be9e2a16503371e74663aa9a6e4337850e17aaf6c4955ba7da7cdc673249e826",
+      "source": "What does daily use of Z10 Aluminium Black NAB involve?",
+      "kind": "text",
+      "context": "What does daily use of Z10 Aluminium Black NAB involve?"
+    },
+    {
+      "id": "5239bda292abfe92d23631f333cb8ea7e508b3275d9622b6a3b943d90dc473db",
+      "source": "What milk care does Z10 Aluminium Black NAB require?",
+      "kind": "text",
+      "context": "What milk care does Z10 Aluminium Black NAB require?"
+    },
+    {
+      "id": "9f3720edbfc45238081a60fd8f47ab3381b0daf89393a03e3275b4f96ac3147d",
+      "source": "What grinder is specified for this Z10 Aluminium Black NAB?",
+      "kind": "text",
+      "context": "What grinder is specified for this Z10 Aluminium Black NAB?"
+    },
+    {
+      "id": "fe40ca0aa2d5212c3ef5c631336abd2d5fcf8ae3f7264df2eafc4d7139c9d34b",
+      "source": "Watch Cold Brew From a Jura Z10 Superautomatic by Seattle Coffee Gear",
+      "kind": "attribute",
+      "context": "▶ Play review"
+    },
+    {
+      "id": "57cd84840e373e9cf4703973aaa1457f677f7439b7311af257c90cb14fb747de",
+      "source": "JURA Z10 review: when cold extraction earns a flagship premium",
+      "kind": "attribute",
+      "context": "▶ Play review"
+    },
+    {
+      "id": "9c7b00a5672dba38dfa0c227c65643affb2961273206dba35cd48e018dea3155",
+      "source": "Cold Brew From a Jura Z10 Superautomatic",
+      "kind": "text",
+      "context": "Cold Brew From a Jura Z10 Superautomatic"
+    },
+    {
+      "id": "50640253ea6f5be046ba123487fead2cd6782a432040431fd9df26ea935f4237",
+      "source": "July 18, 2022",
+      "kind": "text",
+      "context": "July 18, 2022"
+    },
+    {
+      "id": "0f640e9e1b2b31aece3060a2fa2bec81faacd94b610d8f2b4309a4406e337270",
+      "source": "Independent first-generation workflow context only. Second-generation features and price are verified separately.",
+      "kind": "text",
+      "context": "Independent first-generation workflow context only. Second-generation features and price are verified separately."
+    },
+    {
+      "id": "f3592ed8254aff5df76bbda583ad381a35a5da679c5a6b96a708475216fcf362",
+      "source": "This review covers Article 15702, North America, second generation. The $4,499 price and extensive closed-system feature set only make sense when the household will use the added cold, sweet and profile functions.",
+      "kind": "text",
+      "context": "This review covers Article 15702, North America, second generation. The $4,499 price and extensive closed-system feature set only make sense when the household will use the added cold, sweet and profile functions."
+    },
+    {
+      "id": "93397ac673ccbe4860b64b72b18375e4e8ad4266a2a13373968c371129483a9a",
+      "source": "JURA Z10 Aluminium Black NAB 15702",
+      "kind": "text",
+      "context": "JURA Z10 Aluminium Black NAB 15702 ↗"
+    },
+    {
+      "id": "e21ecf1a9297d255a2948f449294c6224b425f7181dc4497503f304a2d64faa1",
+      "source": "Official second-generation North American identity, 51 specialties, grinder and features.",
+      "kind": "text",
+      "context": "Official second-generation North American identity, 51 specialties, grinder and features."
+    },
+    {
+      "id": "9cef0a8ff89ebc592bbe336a91c626bd443b89c63fe79ec55cac9394bd0c68ae",
+      "source": "JURA Z10 NAB instructions",
+      "kind": "text",
+      "context": "JURA Z10 NAB instructions ↗"
+    },
+    {
+      "id": "13a0408d8dd847e1aa38c3b2c007eccb38e612a4583e6645f6d1e563f5e73e1c",
+      "source": "Official setup, drinks, cleaning, descaling, filter and troubleshooting instructions.",
+      "kind": "text",
+      "context": "Official setup, drinks, cleaning, descaling, filter and troubleshooting instructions."
+    },
+    {
+      "id": "7bd5e8ba413b1d797a2f0e36c2d552d9e3f583a385988b191e05b7ab61547df0",
+      "source": "JURA US official shop: Z10 15702",
+      "kind": "text",
+      "context": "JURA US official shop: Z10 15702 ↗"
+    },
+    {
+      "id": "a701227f1be938a08d5250131372fc9f945ec553d614d94481d3b9bf36d9468e",
+      "source": "$4,499 out-of-stock price and North American specifications checked September 23, 2026.",
+      "kind": "text",
+      "context": "$4,499 out-of-stock price and North American specifications checked September 23, 2026."
+    },
+    {
+      "id": "964a3afad9d53cf57c2bdcebe4be1167449f171078a53e18aaf6eaa66469bf4a",
+      "source": "T3: JURA upgrades its Z10",
+      "kind": "text",
+      "context": "T3: JURA upgrades its Z10 ↗"
+    },
+    {
+      "id": "e0d31b8c49139cf93ffc994c1d1ad6627f2c803fb39f29e18f8997ee38aa1d2d",
+      "source": "Independent February 13, 2026 launch evaluation and value context.",
+      "kind": "text",
+      "context": "Independent February 13, 2026 launch evaluation and value context."
+    },
+    {
+      "id": "32087339cabb26be9ffd77eb4bf8a5eed8eab05dc654470bfdd30ad458ee9b12",
+      "source": "Independent ECS Coffee video published July 18, 2022; first-generation cold workflow only, not second-generation specs.",
+      "kind": "text",
+      "context": "Independent ECS Coffee video published July 18, 2022; first-generation cold workflow only, not second-generation specs."
+    },
+    {
+      "id": "2e98bec486bff9ca792dfa4ac960c6cd2f827365334cbfbc7e522e756695052d",
+      "source": "Official range context separating Z10 from E6, E8 and current GIGA models.",
+      "kind": "text",
+      "context": "Official range context separating Z10 from E6, E8 and current GIGA models."
+    },
+    {
+      "id": "91f36148d7441a7d7647b1ca1f3065e2971de54128c0a493826b0aa2dabc2622",
+      "source": "Z10 Aluminium Black NAB: buy the workflow, not the menu count",
+      "kind": "text",
+      "context": "Z10 Aluminium Black NAB: buy the workflow, not the menu count"
+    },
+    {
+      "id": "804337c96a639b982b01445da3989167707a58528fe758bec603a74cff504a24",
+      "source": "JURA Z10 review: when cold extraction earns a flagship premium | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "c032efeb43c01759816c9d2343adc593b1f1a7f886970303942af47db4f5e860",
+      "source": "A research-led second-generation JURA Z10 NAB review covering article 15702, 51 specialties, P.R.G.2+ grinder, Cold Extraction, four profiles, $4,499 US price and care.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "ed6d5fcd01a3cd6cd0f547d913c5d1e6d30b76d7c5898cffa3bbcc3bbb8679f4",
+      "source": "Which generation and package does this Z10 Aluminium Black NAB review cover?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "21faddbf567c698969493b932a25cfcaa7596bb76c5a56d5d0b58da946e00221",
+      "source": "North American Z10 Aluminium Black NAB, article 15702. First-generation Z10 reviews and videos remain useful only for limited workflow context because menus, grinder and software differ.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "dddb2b2701be4baac9a0c683c4c0fcac4494926dff19200aaedee66a4bd0360a",
+      "source": "What does daily use of Z10 Aluminium Black NAB involve?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "ad49d78c3cf167c64eae82f31a0280de8a079e14305d3364fd9b8476357671d0",
+      "source": "The 4.3 in touchscreen, included Wi-Fi and four profiles are most persuasive when several people actually use different hot and cold drinks. Milk Assistant and the optional chocolate accessory add choices and care tasks. A mostly espresso-only household has less reason to pay for fifty-one specialties.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "b68525e23bc4c3a715e2a720f988bfd546ec3de1ade6daac8a8fbeed3134572a",
+      "source": "What milk care does Z10 Aluminium Black NAB require?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "005706a478ea5c8546a94cc280191bccabac271acfdbc339c191365fd93f9cf2",
+      "source": "Use the Quality Assistant and prompted cleaning or descaling cycles, clean milk hardware every day it is used, and verify care for any optional chocolate attachment.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "5c46e9b40ec0870cd9af97ac5556fac6bb7fc06b85c192e11c3221007a4c8b72",
+      "source": "Request a demonstration on article 15702 of the cold recipe and profile switching that justify the premium. First-generation Z10 videos cannot confirm the later grinder and software. If those additions will sit unused, compare a current E8 rather than treating the widest menu as an automatic upgrade.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "1672d16cc4f0939d5ec96ce670925106c634b694617b2a3e287bb101aa57eacd",
+      "source": "What grinder is specified for this Z10 Aluminium Black NAB?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "f805dac37003eca74a378a4542397873b5c323335260010ecf6a9e1ee19f4524",
+      "source": "P.R.G.2+ electronically controlled grinder with automatic adjustment for the selected specialty",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "b9ea354c486b938e8f0f84fb2ac28c18fbfeaef88e19bdfd0f0aa446125f93a3",
+      "source": "12.6 W by 14.3 H by 18.5 D in; about 27 lb",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "0a9c329301be188926db8b67fd2063461efe95662c89c6abd084ddab8a08e4bf",
+      "source": "JURA Z10 Aluminium Black NAB",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "6d043f0304b25e6efc09998ffa32ed89d1a67ba16dcb698b73cb9cf2811307a4",
+      "source": "JURA Z10 review: when cold extraction earns a flagship premium",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "87752f2840e0d51a056d8cfbd905682424c6c59b355725cdf130b95f8e702061",
+      "source": "Choose the Z10 Aluminium Black NAB for the broadest current jura home menu, including cold extraction, four profiles and included connectivity. Skip it when the $4,499 price and extensive closed-system feature set only make sense when the household will use the added cold, sweet and profile functions is a deal-breaker.",
+      "kind": "json",
+      "context": "reviewBody"
+    },
+    {
+      "id": "07c8effd773d3cc271b1c43e929ea47556962e6ee0053afa19ad6376041684a4",
+      "source": "4.3-inch color touchscreen with four profiles, included Wi-Fi and J.O.E. support",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "92027cff3006850ee3392ffce1811bd6e3f682e157a2a9fdc35e5711f18a7424",
+      "source": "The $4,499 price and extensive closed-system feature set only make sense when the household will use the added cold, sweet and profile functions",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "3d8aa5dff3b136105f9e540acadb3f577f046518c2f5661fa435cf2d33b91b76",
+      "source": "Cold Brew From a Jura Z10 Superautomatic",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "70494b114aa4e1b857ab67982832575e792008bd3680166fd4a84d04fb54765f",
+      "source": "Independent first-generation workflow context only. Second-generation features and price are verified separately.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "d9e4df80a2e8d2bcd0971481a5fcd18075569433ced447d33c33da95ceef324c",
+      "source": "Second-generation JURA Z10 official campaign image",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "8afd7606a2c71951b40046e39f33e2f8c863469a203d19a6dc63e07c54d3f481",
+      "source": "Official campaign media gives lifestyle scale for the current Z10. It is not presented as Coffeedant testing or drink-quality proof.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "ed6a2ebebcf7c4b06530a1d4cd7a5740cd750a56b4b60d0ca5ca3425ad6d5584",
+      "source": "JURA Z10 second-generation product page",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "40580fbd09f15b1b379a8be6d40345766a727c09c2336ef32c2e5c700bc1107b",
+      "source": "JURA Z10 Aluminium Black official workflow image",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "8d07a664c1fc1c80d705412a6e1b0d91f167cb9e2bc56cd2d2b66593ac3d5389",
+      "source": "The official workflow image supports assessment of the current touchscreen and drink platform; exact claims remain tied to NAB article 15702 sources.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "28ad78161082e614f46c9b617704cfd172ce6d283759dad2b8c52db6cd05dc9f",
+      "source": "JURA Z10 Aluminium Black NAB: Cold Brew From a Jura Z10 Superautomatic · Seattle Coffee Gear (2022-07-18) | Coffeedant",
+      "kind": "text",
+      "context": "JURA Z10 Aluminium Black NAB: Cold Brew From a Jura Z10 Superautomatic · Seattle Coffee Gear (2022-07-18) | Coffeedant"
+    },
+    {
+      "id": "19cd3e02d19a648e91fc156cadcd78a06d9e7618c54dd8f741c8995b63295144",
+      "source": "Watch Seattle Coffee Gear on JURA Z10 Aluminium Black NAB (2022-07-18): Cold Brew From a Jura Z10 Superautomatic. Independent first-generation workflow context only. Second-generation features and price are verified separately.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "bd55dbea098653dbbf03de65bfb90f7508c5b9da3c6f8d24ed6598f874d50688",
+      "source": "JURA Z10 Aluminium Black NAB: Cold Brew From a Jura Z10 Superautomatic · Seattle Coffee Gear (2022-07-18) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "29bd81ad4d192c67c73b6a8892f1ed928c316d345d314a5f1a3a50549b346f2b",
+      "source": "JURA Z10 Aluminium Black NAB video by Seattle Coffee Gear",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "c6ed845c472d0012c51e6b2e30e9552eee0306fa7853507ea5ba8ac1277555fe",
+      "source": "← JURA Z10 Aluminium Black NAB review",
+      "kind": "text",
+      "context": "← JURA Z10 Aluminium Black NAB review"
+    },
+    {
+      "id": "1f64d16af0bee7d1fe097ba6b035bcac33af1bfeb681330aa35a6f6414ed93a8",
+      "source": "Cold Brew From a Jura Z10 Superautomatic by Seattle Coffee Gear",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "a5e993523c1d1c8a0b0e8ac9539e0130d77f994be23abfdec95c00be0d3b5676",
+      "source": "JURA Z10 Aluminium Black NAB · Retailer perspective",
+      "kind": "text",
+      "context": "JURA Z10 Aluminium Black NAB · Retailer perspective"
+    },
+    {
+      "id": "a7e0f33544954d9404a086b0e183d54e739b3fa1a28d3b4b9498427155f7f8cf",
+      "source": "July 19, 2022",
+      "kind": "text",
+      "context": "July 19, 2022"
+    },
+    {
+      "id": "91d986ffe456e8092f673eb9017ebb7bcaff87c19f508e3f84d8f18c4bacd338",
+      "source": "JURA Z10 Aluminium Black NAB: Cold Brew From a Jura Z10 Superautomatic · Seattle Coffee Gear (2022-07-18) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "15fcd2625b6583fbd7b0003b6d750315417c4536cc74d502c54d61b3f4a41699",
+      "source": "Watch Seattle Coffee Gear on JURA Z10 Aluminium Black NAB (2022-07-18): Cold Brew From a Jura Z10 Superautomatic. Independent first-generation workflow context only. Second-generation features and price are verified separately.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "e1a69e0637d5a26f92f784a140dfe28556250937b7306099fc11c655867c9df1",
+      "source": "JURA Z10 Aluminium Black NAB video by Seattle Coffee Gear",
+      "kind": "json",
+      "context": "caption"
+    }
+  ],
+  "snapshotHash": "4c586eae0cfc4024603a1843415b12118f145bceea4bf233cf2891cc77f6964c"
+}
