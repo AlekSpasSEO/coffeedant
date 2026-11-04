@@ -3785,6 +3785,52 @@ DE 14,292 / 42,429 and FR 14,265 / 42,456. Finder gaps remain zero. There are
 157 non-video and 372 video pages unfinished. All full editions remain incomplete;
 ready-pages publication, continuation and source-change maintenance stay active.
 
+### Direct batch 75: complete E6 review and comparison video (2026-11-04)
+
+Complete the entire current JURA E6 Dark Inox NAC review and its featured
+Quality Coffee Systems comparison video in NL/DE/FR. Preserve all six FAQ
+answers, nine evidence/comparison tables, source citations, photo credits and
+metadata. The prepared review has 91 paragraphs; native Finder rebuilding yields
+100, with every expected body character retained. The companion video has four
+paragraphs. Article 15621 and the NAC manual remain authoritative; an older EC
+code in official image filenames does not establish NAC specifications.
+HP1 milk is neither stored nor refrigerated, Wi-Fi Connect is optional and
+prescribed milk/CLARIS Smart+ care stays explicit. The dated US $1,899 record,
+owner-report limitations and older-video generation boundaries are retained.
+No local model equivalence, converted prices, new offer verification or
+Coffeedant physical-testing claims are introduced.
+
+The immutable full snapshot freezes 884 page/shared slots. The missing snapshot
+pins both current fingerprints and 117 slots, covered by 85 authored triples and
+three unchanged proper names. Exact-source reuse adds 118 cache entries per
+edition with no earlier wording edits or route renames. Preserve NL review
+`/jura-e6/`, DE review `/testbericht-jura-e6/` and the registered German featured
+video `/jura-e6/video/quality-coffee-systems/`. New French routes use the existing
+machines-expresso prefix. The other unfinished videos retain English
+destinations and the localized edition notice.
+
+All 210 localization and 20 SEO tests, analytics, 35 bean reviews and the
+151-machine/seven-grinder Finder validators pass. Nine complete previews and
+nine production comparisons cover both new pages and the existing E24 review.
+The full regional bundle builds without deferrals. Nine exact-output Chrome
+viewports at native origins verify zero document overflow, 54 labelled/focusable
+table regions, six Finder filter/reset/self-exclusion checks, six video dialogs
+with native labels and history/focus/canonical restoration, six mobile menus and
+nine language pickers.
+
+This batch was prepared independently while the preceding E8 merge was delayed.
+Its checked translations are now rebased onto the verified E8 confirmation on
+main. Current-head CI, production deployments, complete live-page checks and
+reciprocal-link verification remain required before reporting it as published.
+
+Current source remains 661 pages / 56,721 segments. Ready selection is 133
+indexable pages plus 404 per edition. All 131 previously published canonical
+paths and the Dutch dosing URL are preserved. Coverage is NL 14,374 translated
+/ 42,347 pending, DE 14,410 / 42,311
+and FR 14,383 / 42,338. Finder gaps remain zero; 156 non-video and 371 video pages
+remain unfinished. Full editions remain incomplete. Ready-pages publication,
+continuation and source-change maintenance stay active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
