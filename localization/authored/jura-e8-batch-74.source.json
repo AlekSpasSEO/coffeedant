@@ -1,0 +1,845 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/jura-e8/",
+      "sourceHash": "b025b0c89f61917473fedeea61068e9350f51d868d528574d96b5621c3722d8d"
+    },
+    {
+      "sourcePath": "/espresso-machine/jura-e8/video/kafiservice/",
+      "sourceHash": "35dd1608e83d664c5b897781b8cdd7b8cb3cd8b46910542058e54118b0734892"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "3e2ba7ce4e190eee026a2c79035ce1757c66582f4c5853ed54a44bd969bf9d5b",
+      "source": "6.9 out of 10",
+      "kind": "attribute",
+      "context": "Value assessment Value evidence   6.9 out of 10"
+    },
+    {
+      "id": "7f15ecc4ece255512e5d86be857caf204daf1e418bc3f031fd1d6404e9948aca",
+      "source": "9.0 out of 10",
+      "kind": "attribute",
+      "context": "Workflow assessment Judge the complete drink, not the first readiness light   9.0 out of 10"
+    },
+    {
+      "id": "8724def07539be05f9c2d2c18055d98e681d2d3f98a4953d30a1fb08b9f11c18",
+      "source": "4.1 out of 5, open the Coffeedant category ratings",
+      "kind": "attribute",
+      "context": "Research-led assessment 4.1/5 See all six categories ↓     Check DE availability ↗Dealer listing, marked unavailable at the research check   Compare with Coffee Finder → Search every reviewed machine"
+    },
+    {
+      "id": "dcee34f79868b7758cadab82a631819c1c8f032588b3af3508fefdb693847878",
+      "source": "Read the Eletta Explore review",
+      "kind": "text",
+      "context": "Read the Eletta Explore review →"
+    },
+    {
+      "id": "96dbd9de17ffdb75d1fc1cdc4da049cc12930511df4b82b88e80f5689354ada9",
+      "source": "JURA · research-led assessment",
+      "kind": "text",
+      "context": "JURA · research-led assessment"
+    },
+    {
+      "id": "a28b8bd9788232606f690c88e738520756f42c4f7bc158e82ac8b45292be011e",
+      "source": "Choose the reviewed machine when its exact drink menu and ownership routine match the household.",
+      "kind": "text",
+      "context": "Choose the reviewed machine when its exact drink menu and ownership routine match the household."
+    },
+    {
+      "id": "7b261911717684163fff357eb4e64e3bf7840e096c703591092fb90012de0cea",
+      "source": "Choose the least expensive current JURA here when 11 hot specialties are enough.",
+      "kind": "text",
+      "context": "Choose the least expensive current JURA here when 11 hot specialties are enough."
+    },
+    {
+      "id": "d25135ba479e58f6b54b5214c1c786112d0d8c9c0a7e05931113c504838bb429",
+      "source": "Choose the current fifth-generation middle ground for 27 Hot, Light and Sweet specialties.",
+      "kind": "text",
+      "context": "Choose the current fifth-generation middle ground for 27 Hot, Light and Sweet specialties."
+    },
+    {
+      "id": "1dc668dd895a100e92194900180b2b417e6eb3f3abdc8be5bd2ea90bf00f3df6",
+      "source": "64 oz water tank, 9.9 oz bean container and about 16-serving grounds bin",
+      "kind": "text",
+      "context": "64 oz water tank, 9.9 oz bean container and about 16-serving grounds bin"
+    },
+    {
+      "id": "650612d06f2fed688bd449b7f90d03793784429bc8df09b4090313e60dfba80c",
+      "source": "$1,899 current US direct reference",
+      "kind": "text",
+      "context": "$1,899 current US direct reference"
+    },
+    {
+      "id": "78f4349f424ac18d14fca4bc9bd67a159442e8a6995dca1d1a05461b09f41ee6",
+      "source": "$2,599 dated US retailer reference",
+      "kind": "text",
+      "context": "$2,599 dated US retailer reference"
+    },
+    {
+      "id": "7989d2d8c6d1157f26caae7c5f72abc453fa96b041bd035fbba1c0d2cec14f56",
+      "source": "$4,499 current US direct reference",
+      "kind": "text",
+      "context": "$4,499 current US direct reference"
+    },
+    {
+      "id": "67455a787de8462f285f5cee718274650896c8b156039651263c5752f2389bb6",
+      "source": "Choose the current flagship for Cold Extraction, 51 specialties and four profiles.",
+      "kind": "text",
+      "context": "Choose the current flagship for Cold Extraction, 51 specialties and four profiles."
+    },
+    {
+      "id": "6a69f598a6f6b4ce45930a68714dfb6b3d985089fb90bdb96aa2c8cec730c68c",
+      "source": "See the exact-model facts above",
+      "kind": "text",
+      "context": "See the exact-model facts above"
+    },
+    {
+      "id": "48f88f60366c4b740fee57835a01e9720fc60e168ecb47593b22ff40cda6cc8f",
+      "source": "JURA Thermoblock platform",
+      "kind": "text",
+      "context": "JURA Thermoblock platform"
+    },
+    {
+      "id": "2fce8e53311abe700de8c55ae033f559e7fe6c34d81a06894532d42a1405872b",
+      "source": "Integrated automatic grinder and 5-16 g brew unit",
+      "kind": "text",
+      "context": "Integrated automatic grinder and 5-16 g brew unit"
+    },
+    {
+      "id": "76824115105037cdbe3d9eb28cfcde3590eba4cff1486402caf3ec6edbff227b",
+      "source": "Automatic hose-fed milk path with same-day cleaning",
+      "kind": "text",
+      "context": "Automatic hose-fed milk path with same-day cleaning"
+    },
+    {
+      "id": "c51ae5c00d0832d83882624dedf679d940255118b33d30f862fa40747f7ddbc6",
+      "source": "Guided bean-to-cup operation",
+      "kind": "text",
+      "context": "Guided bean-to-cup operation"
+    },
+    {
+      "id": "38e40a8fc8dd708c69b477c54b7fdbdbcc67a0f4c35fc8200ee87a58b201e7aa",
+      "source": "11 W by 13.8 H by 17.6 D in",
+      "kind": "text",
+      "context": "11 W by 13.8 H by 17.6 D in"
+    },
+    {
+      "id": "775c3471f342065827729712849ad526d29ae56122d5ee2daf55c2f79b36d5eb",
+      "source": "Single automatic Thermoblock platform",
+      "kind": "text",
+      "context": "Single automatic Thermoblock platform"
+    },
+    {
+      "id": "492a2197660110bafc6b90a7d97a5cc401bd98d9f4528c7d97c6c79ce3629051",
+      "source": "P.A.G. grinder and 5-16 g brew unit",
+      "kind": "text",
+      "context": "P.A.G. grinder and 5-16 g brew unit"
+    },
+    {
+      "id": "cda740abd5dd26e73707bb2c66859e0dc474748bf818948cd078133c1ff172d0",
+      "source": "HP1 Easy Cappuccino system",
+      "kind": "text",
+      "context": "HP1 Easy Cappuccino system"
+    },
+    {
+      "id": "b61cd5668b47cb6b435ea851feea5185d05b4dd61111bee2a073dfff6bc6717c",
+      "source": "Focused hot coffee and cappuccino",
+      "kind": "text",
+      "context": "Focused hot coffee and cappuccino"
+    },
+    {
+      "id": "fcad85b2e41122c4caedc48a58b64f5ba9a44b30f548b792b741363319229709",
+      "source": "Automatic Thermoblock platform",
+      "kind": "text",
+      "context": "Automatic Thermoblock platform"
+    },
+    {
+      "id": "b7fd6c8c6c41810abdb0bb1b6be57ec9f7140ca25a595aebe451d303a7f223e7",
+      "source": "P.A.G.2 grinder and 5-16 g brew unit",
+      "kind": "text",
+      "context": "P.A.G.2 grinder and 5-16 g brew unit"
+    },
+    {
+      "id": "b46ae728d0c877a4752bf5aad8cf27b52236de4a32e2ed8fa8dabe95da86754b",
+      "source": "Automatic HP3 milk system",
+      "kind": "text",
+      "context": "Automatic HP3 milk system"
+    },
+    {
+      "id": "3671bd295641856820697fe55707d6726c85799df10dbb41be0f4e7c68954a85",
+      "source": "Broader hot and sweet menu",
+      "kind": "text",
+      "context": "Broader hot and sweet menu"
+    },
+    {
+      "id": "196895c881b2806550480bbdfcb79b121ccc6c5b210edb83c6a476cec5b9a012",
+      "source": "12.6 W by 14.3 H by 18.5 D in",
+      "kind": "text",
+      "context": "12.6 W by 14.3 H by 18.5 D in"
+    },
+    {
+      "id": "7668bf89bd144eb03d0daedb7dcb1f6aa072f1bd1281cb1376302dac6a42d733",
+      "source": "P.R.G.2+ grinder and 5-16 g brew unit",
+      "kind": "text",
+      "context": "P.R.G.2+ grinder and 5-16 g brew unit"
+    },
+    {
+      "id": "8b7fe6a79df1b4362228229de42a755029569b48b6c654934db65d0a9731c278",
+      "source": "HP3 milk system with Milk Assistant",
+      "kind": "text",
+      "context": "HP3 milk system with Milk Assistant"
+    },
+    {
+      "id": "86f2038072163579d38a08980bde460a1e1ef0c59de68f14d9994d1ab57a9e7a",
+      "source": "Maximum menu breadth and cold coffee",
+      "kind": "text",
+      "context": "Maximum menu breadth and cold coffee"
+    },
+    {
+      "id": "1a2efe014f12f62639e48c1badc99e1f0cc51b5e76fa7689b075b7f8a37b91ae",
+      "source": "Focused value",
+      "kind": "text",
+      "context": "Focused value"
+    },
+    {
+      "id": "41f57ef73250a412dbb9fafa068ea81afb265343982899b2324b4a7b06e8acc4",
+      "source": "Choose 11 hot specialties and a simpler button-led routine when breadth is not worth another $700.",
+      "kind": "text",
+      "context": "Choose 11 hot specialties and a simpler button-led routine when breadth is not worth another $700."
+    },
+    {
+      "id": "e30cf1d7ca6084e5d9b7dbcc243e9c8a51c76f78b83b1a4b2b7464a54a4d0b18",
+      "source": "Read the E6 review",
+      "kind": "text",
+      "context": "Read the E6 review →"
+    },
+    {
+      "id": "134e69e0faa2fcb4ec3656bbead09f5aafbd74a79c10b22ff20a13aa013852b9",
+      "source": "Current middle ground",
+      "kind": "text",
+      "context": "Current middle ground"
+    },
+    {
+      "id": "646357e05d1c32129ae0e4ee6d89e7184fce5d0acf296fe115d43b5fe8d71d93",
+      "source": "Choose the fifth-generation E8 for Hot, Light and Sweet recipes without Z10 pricing.",
+      "kind": "text",
+      "context": "Choose the fifth-generation E8 for Hot, Light and Sweet recipes without Z10 pricing."
+    },
+    {
+      "id": "4433a67a66c11a38d4e6e94e52d0a63b3c7a8885f80e211ee7f4cfcd94916ea7",
+      "source": "Read the E8 review",
+      "kind": "text",
+      "context": "Read the E8 review →"
+    },
+    {
+      "id": "53ed2c3c31a0dfcbb9ab4755e088efd870668e093b71f758bb79a9d584194fdc",
+      "source": "Flagship breadth",
+      "kind": "text",
+      "context": "Flagship breadth"
+    },
+    {
+      "id": "991eb785ce5647c2a1c844aba93fd4d2a13ea8406dd020669e1ccc16283c7a62",
+      "source": "Choose the Z10 for Cold Extraction, four profiles and the widest current home menu.",
+      "kind": "text",
+      "context": "Choose the Z10 for Cold Extraction, four profiles and the widest current home menu."
+    },
+    {
+      "id": "553c7fd340e895cb653a8db535a9f07c9bda244e1ce2535a9de10724053abf88",
+      "source": "Read the Z10 review",
+      "kind": "text",
+      "context": "Read the Z10 review →"
+    },
+    {
+      "id": "ab3dc41893ad72362f47069514e05bfc376398ec2a32f76478cb3674ca97c9d5",
+      "source": "Serviceable alternative",
+      "kind": "text",
+      "context": "Serviceable alternative"
+    },
+    {
+      "id": "fdcf4a512c138a0f25183f501ab56f8813e3dc0bb5d932ed6666bb5fa4ab12d8",
+      "source": "Compare a removable brew group and broad hot-and-cold menu when owner access matters.",
+      "kind": "text",
+      "context": "Compare a removable brew group and broad hot-and-cold menu when owner access matters."
+    },
+    {
+      "id": "0c11f3fd9e68cee3b092cf81fcc027b72d84c577ac48f9da0487c49df1169067",
+      "source": "JURA service and support",
+      "kind": "text",
+      "context": "JURA service and support ↗"
+    },
+    {
+      "id": "3a3a88519cffbaba0283e51959a87a804272ee452923c33fde4e9f5f74c6f359",
+      "source": "Official North American service and support route.",
+      "kind": "text",
+      "context": "Official North American service and support route."
+    },
+    {
+      "id": "44aded12aca0cc6397a0ebfd7f8e8e3cb18193d43d2401d240b7570b3bfb1392",
+      "source": "JURA E-Line context",
+      "kind": "text",
+      "context": "JURA E-Line context ↗"
+    },
+    {
+      "id": "489caccc1bcda710c5124d87a8d1261d0873b7b032123ac4ab8ebafddfadaec6",
+      "source": "More JURA reviews",
+      "kind": "text",
+      "context": "More JURA reviews"
+    },
+    {
+      "id": "4f51b36f207d569cf28ba7d4c66ebe8276f58ec86fb47484253826010c1c30eb",
+      "source": "JURA",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "03a88b1103233f30996f32935e5e3917af03b565b85b70d6c8c92ec11e7ed0cd",
+      "source": "JURA E8 review: what fifth-generation Light and Sweet recipes add | Coffeedant",
+      "kind": "text",
+      "context": "JURA E8 review: what fifth-generation Light and Sweet recipes add | Coffeedant"
+    },
+    {
+      "id": "da5f0d4aaec836b6d145bc473fdd7207c0077d14910da2c098e31ef7fa6c514c",
+      "source": "A research-led JURA E8 NAD review covering article 15722, 27 specialties, P.A.G.2 grinder, Hot, Light and Sweet menus, current $2,599 US context and ownership.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "82f420519c2f5d2ca1aaa3ea157258f68b918bde2c89a259d623497f4a4691bf",
+      "source": "JURA E8 review: what fifth-generation Light and Sweet recipes add | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "1b1c02383efd91243669dcfba427bda0dc2a0dcf67ad080dbfe8dcccb715dc47",
+      "source": "JURA E8 review: what fifth-generation Light and Sweet recipes add",
+      "kind": "text",
+      "context": "JURA E8 review: what fifth-generation Light and Sweet recipes add"
+    },
+    {
+      "id": "bba78da30909b71136eb2703f01d074e8f45de67353726a6beb49f1930d3872e",
+      "source": "For households that want twenty-seven hot, light and sweet specialties in a polished mid-range jura workflow",
+      "kind": "text",
+      "context": "For households that want twenty-seven hot, light and sweet specialties in a polished mid-range jura workflow"
+    },
+    {
+      "id": "85a329cf8d80087c9f5fca6a015162e1a364ea8d2783dcd662035cf8896371e9",
+      "source": "Abt US authorized-retailer price; stock, tax, condition and warranty can change",
+      "kind": "text",
+      "context": "Abt US authorized-retailer price; stock, tax, condition and warranty can change"
+    },
+    {
+      "id": "53d9cd4862c3625df191d6b90f04a4180c2c4f35193af0129d604cdcece9d386",
+      "source": "11 W by 13.8 H by 17.6 D in; about 22 lb",
+      "kind": "text",
+      "context": "11 W by 13.8 H by 17.6 D in; about 22 lb"
+    },
+    {
+      "id": "9da431dbe0c5245512cd9372cedb832be6d99fce73552e652e08d8d294a75e1e",
+      "source": "Use the guided cleaning and descaling programs, clean the milk system every day it is used, and follow the NAD manual for filter and hygiene steps.",
+      "kind": "text",
+      "context": "Use the guided cleaning and descaling programs, clean the milk system every day it is used, and follow the NAD manual for filter and hygiene steps."
+    },
+    {
+      "id": "53a66b7cfe359f1b4917d0007cd54aa3f6f2ff14d4d6104f866355a4bfed0909",
+      "source": "No. Use the guided cleaning and descaling programs, clean the milk system every day it is used, and follow the NAD manual for filter and hygiene steps.",
+      "kind": "text",
+      "context": "No. Use the guided cleaning and descaling programs, clean the milk system every day it is used, and follow the NAD manual for filter and hygiene steps."
+    },
+    {
+      "id": "ab1096ca6af894220040bcc29871e7136bc39f0ed90c42a82b9580021c0963fe",
+      "source": "JURA E8 Midnight Silver NAD full review",
+      "kind": "attribute",
+      "context": "Home/ Espresso machines/ E8 Midnight Silver NAD     JURA · research-led assessment JURA E8 review: what fifth-generation Light and Sweet recipes add   For households that want twenty-seven hot, light and sweet specialties in a polished mid-range jura workflow     Written byAleksandar SpasevskiEditor at Coffeedant   PublishedJul 27, 2026 UpdatedOct 30, 2026      Choose the E8 Midnight Silver NAD for twenty-seven hot, light and sweet specialties in a polished mid-range jura workflow. Skip it when the $2,599 price, closed brew system and optional connectivity demand more than a long menu to justify ownership is a deal-breaker.  My assessmentTwenty-seven Hot, Light and Sweet specialties in a polished mid-range JURA workflow The central trade-off is the $2,599 price, closed brew system and optional connectivity demand more than a long menu to justify ownership How I reached this conclusion ↗    Research-led assessment 4.1/5 See all six categories ↓     Check current listing ↗Abt US authorized-retailer price; stock, tax, condition and warranty can change  Open official product information ↗Manufacturer identity, feature and specification record   Compare with Coffee Finder → Search every reviewed machine      Also consider JURA E8 ↗Choose the reviewed machine when its exact drink menu and ownership routine match the household.JURA E6 ↗Choose the least expensive current JURA here when 11 hot specialties are enough.JURA E8 ↗Choose the current fifth-generation middle ground for 27 Hot, Light and Sweet specialties.    Exact identityFifth-generation North American E8 Midnight Silver NAD, article 15722. It is not the earlier EC generation still shown in many reviews and listings.Coffee systemTwenty-seven Hot, Light and Sweet specialties with ten strength levels, a 5-16 g brew unit "
+    },
+    {
+      "id": "d35830deb3c0be90bc46708ed24cc539018dd2cd35c66f5028132f80bc672da5",
+      "source": "A single overall score is useful only when you can see what produced it. JURA E8 Midnight Silver NAD earns",
+      "kind": "text",
+      "context": "A single overall score is useful only when you can see what produced it. JURA E8 Midnight Silver NAD earns 4.1/5, with espresso, milk, workflow, build, features, and value scored separately below."
+    },
+    {
+      "id": "c8f81615c4f85bd365bc19822269500df5d826d230f0013fa427d9d9ffd324f2",
+      "source": "Twenty-seven Hot, Light and Sweet specialties with ten strength levels, a 5-16 g brew unit and adjustable recipes provide repeatable automatic coffee within a closed system.",
+      "kind": "text",
+      "context": "Twenty-seven Hot, Light and Sweet specialties with ten strength levels, a 5-16 g brew unit and adjustable recipes provide repeatable automatic coffee within a closed system."
+    },
+    {
+      "id": "714bdab81f8e628435ec6fd8656cbaec9eccf74509fb45c0dd5745a1610db618",
+      "source": "E8 Midnight Silver NAD keeps brew-unit cleaning within the prescribed closed-system routine.",
+      "kind": "text",
+      "context": "E8 Midnight Silver NAD keeps brew-unit cleaning within the prescribed closed-system routine."
+    },
+    {
+      "id": "42275bb67a4d4e228623888280d9dc456d17056ec18a36c623080b64ff70f92f",
+      "source": "$2,599.00 needs dated condition, stock and warranty context.",
+      "kind": "text",
+      "context": "$2,599.00 needs dated condition, stock and warranty context."
+    },
+    {
+      "id": "a61968a20325a6cd84c81175187e2e9cc0b5797567fead3b106b8b4fe0c9efc6",
+      "source": "E8 Midnight Silver NAD: the buying decision",
+      "kind": "text",
+      "context": "E8 Midnight Silver NAD: the buying decision"
+    },
+    {
+      "id": "8287e45cabe2777d45f6a0d30d9a440c41e4193e234d8912b37fb130c2b25d2d",
+      "source": "The fifth-generation E8 NAD moves beyond familiar hot recipes with Light and Sweet specialties, while retaining side-button selection around its color display. Its twenty-seven-drink menu is most relevant to people who will use those preparation styles, rather than treat the count itself as an upgrade. The automatic milk hose and closed brew system also make JURA's cleaning routine part of the purchase. Connectivity is optional on this North American generation. Compare the exact NAD machine with the E6 around drink preferences and the E8's additional preparation options; older E8 reviews cannot establish all of this generation's features.",
+      "kind": "text",
+      "context": "The fifth-generation E8 NAD moves beyond familiar hot recipes with Light and Sweet specialties, while retaining side-button selection around its color display. Its twenty-seven-drink menu is most relevant to people who will use those preparation styles, rather than treat the count itself as an upgrade. The automatic milk hose and closed brew system also make JURA's cleaning routine part of the purchase. Connectivity is optional on this North American generation. Compare the exact NAD machine with the E6 around drink preferences and the E8's additional preparation options; older E8 reviews cannot establish all of this generation's features. [source] [source] [source] [source] [source] [source]"
+    },
+    {
+      "id": "14baece637dd7221af375bf7e0297b6aa391e500a06213396b62bc77f42620c4",
+      "source": "Setting up the E8 Midnight Silver NAD",
+      "kind": "text",
+      "context": "Setting up the E8 Midnight Silver NAD"
+    },
+    {
+      "id": "fe9d42080dc9b223ace91399ff7178cae491fb38aed4b5b56e14326d5e16c650",
+      "source": "a bean-to-cup appliance with p.a.g.2 grinder with an automatic bean-to-cup workflow and bypass chute, twenty-seven hot, light and sweet specialties with ten strength levels, a 5-16 g brew unit and adjustable recipes, and automatic hp3 milk system for milk and milk foam through a hose, with guided cleaning after use.",
+      "kind": "text",
+      "context": "System: a bean-to-cup appliance with p.a.g.2 grinder with an automatic bean-to-cup workflow and bypass chute, twenty-seven hot, light and sweet specialties with ten strength levels, a 5-16 g brew unit and adjustable recipes, and automatic hp3 milk system for milk and milk foam through a hose, with guided cleaning after use."
+    },
+    {
+      "id": "165fb9a18d1791aaf19c7b98642662c0ca9284f76deaae63801723b5c6e4d34b",
+      "source": "Article 15722 is the fifth-generation North American E8, not the older EC machine shown in many demonstrations. Verify the NAD documents and any Wi-Fi Connect V2 accessory. The 3.5 in display has side buttons; do not buy expecting Z10’s touchscreen and included connectivity.",
+      "kind": "text",
+      "context": "Article 15722 is the fifth-generation North American E8, not the older EC machine shown in many demonstrations. Verify the NAD documents and any Wi-Fi Connect V2 accessory. The 3.5 in display has side buttons; do not buy expecting Z10’s touchscreen and included connectivity. [source] [source] [source]"
+    },
+    {
+      "id": "9d7b8a533458c2ed9ea7f0799fc2910ef0fa7e43098151deefcaf823e9df36d7",
+      "source": "JURA E8 fifth-generation campaign image in a home setting",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "691a8dd2da53973d2b0749e689cdd7d69c43ea53906b39b8cdb683d3c9c71e3f",
+      "source": "Official campaign media provides scale for the fifth-generation E8; it is illustrative rather than evidence of Coffeedant testing.",
+      "kind": "text",
+      "context": "Manufacturer photo Official campaign media provides scale for the fifth-generation E8; it is illustrative rather than evidence of Coffeedant testing. \nImage: JURA E8 fifth-generation product page.\n Usage record: Official manufacturer product-page media.\nOfficial manufacturer media; not a Coffeedant test photograph."
+    },
+    {
+      "id": "5b609d022bf3987302c351c70cdb525094bad7bda7465a8a999c1032cdc05104",
+      "source": "JURA E8 fifth-generation product page",
+      "kind": "text",
+      "context": "JURA E8 fifth-generation product page"
+    },
+    {
+      "id": "645e0d7cbdef0ef04aeb3e41c2814d524e2f9e2bbbb39d335e30ad4c61ba94ce",
+      "source": "See what else fits beside the E8 Midnight Silver NAD.",
+      "kind": "text",
+      "context": "See what else fits beside the E8 Midnight Silver NAD."
+    },
+    {
+      "id": "c2d6d1bfd55e40a525ba57455d7adf3de5b4bf34b712f2ffe975c5637b913cd9",
+      "source": "Twenty-seven Hot, Light and Sweet entries give this E8 more recipe breadth than E6. Choose the black coffee used most, then tune its strength and volume before exploring the other modes. The P.A.G.2 grinder is part of this generation’s specification, so an older E8 recipe or review is context rather than an exact match.",
+      "kind": "text",
+      "context": "Twenty-seven Hot, Light and Sweet entries give this E8 more recipe breadth than E6. Choose the black coffee used most, then tune its strength and volume before exploring the other modes. The P.A.G.2 grinder is part of this generation’s specification, so an older E8 recipe or review is context rather than an exact match. [source] [source] [source]"
+    },
+    {
+      "id": "26d84d4ff87b3b9fa6e7fdba5b99a70a66d092fdb4c77fd6df88897e05c0d11c",
+      "source": "E8’s practical middle-ground role is a broader menu without the Z10 price or control package. Side-button selection and the HP3 hose-fed milk path remain physical daily tasks. Optional J.O.E. and Coffee Timer functions require the documented connectivity accessory; they should not be assumed from the E8 name alone.",
+      "kind": "text",
+      "context": "E8’s practical middle-ground role is a broader menu without the Z10 price or control package. Side-button selection and the HP3 hose-fed milk path remain physical daily tasks. Optional J.O.E. and Coffee Timer functions require the documented connectivity accessory; they should not be assumed from the E8 name alone. [source] [source] [source]"
+    },
+    {
+      "id": "1fe9a7088c49a77b53224b0af762ea87f81c6cd1167af3dc839e94e8218d4cb4",
+      "source": "11 W by 13.8 H by 17.6 D in; about 22 lb. E8 Midnight Silver NAD uses a closed brew unit; internal work goes through qualified service.",
+      "kind": "text",
+      "context": "11 W by 13.8 H by 17.6 D in; about 22 lb. E8 Midnight Silver NAD uses a closed brew unit; internal work goes through qualified service. [source] [source] [source] [source]"
+    },
+    {
+      "id": "1ad1ef2c022828a1c9ab64c29173707fa19d4b1be6e6e317531a647cc3646748",
+      "source": "JURA E8 fifth-generation display and coffee outlet",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "382d07c0304a340bd4c26f404dbe45b2e0dd9af94db67efce00827639eabebb6",
+      "source": "The official family workflow image shows the current control and dispensing layout. NAD identity and specifications come from article 15722 documentation.",
+      "kind": "text",
+      "context": "Manufacturer photo The official family workflow image shows the current control and dispensing layout. NAD identity and specifications come from article 15722 documentation. \nImage: JURA E8 fifth-generation product page.\n Usage record: Official manufacturer product-page media.\nOfficial manufacturer media; not a Coffeedant test photograph."
+    },
+    {
+      "id": "44d1a24002cfbc33c395af0c96663e110a3d2a08af263699fe2873a57d5e9f54",
+      "source": "Abt US authorized-retailer price showed $2,599.00: Article 15722 was listed at $2,599 but unavailable to order on the check date; tax, restock timing and warranty can change",
+      "kind": "text",
+      "context": "Abt US authorized-retailer price showed $2,599.00: Article 15722 was listed at $2,599 but unavailable to order on the check date; tax, restock timing and warranty can change [source]"
+    },
+    {
+      "id": "7e588380545722e9a958525d337adca141d006861ab3ef821044e7469c0580dc",
+      "source": "Abt US authorized-retailer price: $2,599.00",
+      "kind": "text",
+      "context": "Abt US authorized-retailer price: $2,599.00"
+    },
+    {
+      "id": "107462b6a0e934891e835d7c31789ee5913a8e02dfefe8d310836388982b2575",
+      "source": "Article 15722 was listed at $2,599 but unavailable to order on the check date; tax, restock timing and warranty can change",
+      "kind": "text",
+      "context": "Article 15722 was listed at $2,599 but unavailable to order on the check date; tax, restock timing and warranty can change"
+    },
+    {
+      "id": "dd8e947dd6cc0c14fd160fe63ee0141bcb867f8778a6514573e84c960799b1ab",
+      "source": "JURA E8 owner discussions",
+      "kind": "text",
+      "context": "JURA E8 owner discussions"
+    },
+    {
+      "id": "48433f907fcba06fae91078ec55df49de8a2c147fc5cf9ea4053cafe625f6557",
+      "source": "Self-selected owner context for recipes, cleaning and service questions, not reliability rates.",
+      "kind": "text",
+      "context": "Self-selected owner context for recipes, cleaning and service questions, not reliability rates."
+    },
+    {
+      "id": "e4c00ca199ccb841bff44ae4b84af902dc1199c1d5a63096255ca4172cd5dbea",
+      "source": "JURA configuration discussion",
+      "kind": "text",
+      "context": "JURA configuration discussion"
+    },
+    {
+      "id": "8b4c35cfac39ae8d6dce711ce6d06e667f7d815fb1c6046f49eff618d7ede8b0",
+      "source": "Self-selected recipe discussion illustrating the importance of volume and strength settings.",
+      "kind": "text",
+      "context": "Self-selected recipe discussion illustrating the importance of volume and strength settings."
+    },
+    {
+      "id": "394c7475c59f608eab3905325509c2c68e0ac5f821fb7676709e5ecf52c6a60f",
+      "source": "E8 Midnight Silver NAD versus the closest alternatives",
+      "kind": "text",
+      "context": "E8 Midnight Silver NAD versus the closest alternatives"
+    },
+    {
+      "id": "4f8420cc4cb8cdfa17b8e68454c9ca3e2c410dfcd2c0e37be72e2d5052f76613",
+      "source": "JURA E8 Midnight Silver NAD quick comparison",
+      "kind": "attribute",
+      "context": "JURA E8 Midnight Silver NAD and its closest alternatives\n        MachinePrice positionThe quick decision\n        JURA E8$2,599Choose the reviewed machine when its exact drink menu and ownership routine match the household.JURA E6$1,899 current US direct referenceChoose the least expensive current JURA here when 11 hot specialties are enough.JURA E8$2,599 dated US retailer referenceChoose the current fifth-generation middle ground for 27 Hot, Light and Sweet specialties.JURA Z10$4,499 current US direct referenceChoose the current flagship for Cold Extraction, 51 specialties and four profiles.\n      \n    \n    \n      DetailsOpen the technical and workflow comparison\n      \n        \n          Detailed ownership comparison\n          MachineDimensionsHeatingCoffee setupMilk workflowBest fit\n          JURA E8See the exact-model facts aboveJURA Thermoblock platformIntegrated automatic grinder and 5-16 g brew unitAutomatic hose-fed milk path with same-day cleaningGuided bean-to-cup operationJURA E611 W by 13.8 H by 17.6 D inSingle automatic Thermoblock platformP.A.G. grinder and 5-16 g brew unitHP1 Easy Cappuccino systemFocused hot coffee and cappuccinoJURA E811 W by 13.8 H by 17.6 D inAutomatic Thermoblock platformP.A.G.2 grinder and 5-16 g brew unitAutomatic HP3 milk systemBroader hot and sweet menuJURA Z1012.6 W by 14.3 H by 18.5 D inAutomatic Thermoblock platformP.R.G.2+ grinder and 5-16 g brew unitHP3 milk system with Milk AssistantMaximum menu breadth and cold coffee\n        \n      \n      Fifth-generation North American E8 Midnight Silver NAD, article 15722. It is not the earlier EC generation still shown in many reviews and listings. Compare that exact package with the alternatives below."
+    },
+    {
+      "id": "4f9e01f6ecd428538fe8dbabd1c049e916b348e3fced1245c831b135cba44211",
+      "source": "JURA E8 Midnight Silver NAD and its closest alternatives",
+      "kind": "text",
+      "context": "JURA E8 Midnight Silver NAD and its closest alternatives"
+    },
+    {
+      "id": "843232e72eb383c726c5543521d4ff6a795811ffcc0b4cf0eb4b983a42ef2ec9",
+      "source": "JURA E8 Midnight Silver NAD detailed comparison",
+      "kind": "attribute",
+      "context": "DetailsOpen the technical and workflow comparison\n      \n        \n          Detailed ownership comparison\n          MachineDimensionsHeatingCoffee setupMilk workflowBest fit\n          JURA E8See the exact-model facts aboveJURA Thermoblock platformIntegrated automatic grinder and 5-16 g brew unitAutomatic hose-fed milk path with same-day cleaningGuided bean-to-cup operationJURA E611 W by 13.8 H by 17.6 D inSingle automatic Thermoblock platformP.A.G. grinder and 5-16 g brew unitHP1 Easy Cappuccino systemFocused hot coffee and cappuccinoJURA E811 W by 13.8 H by 17.6 D inAutomatic Thermoblock platformP.A.G.2 grinder and 5-16 g brew unitAutomatic HP3 milk systemBroader hot and sweet menuJURA Z1012.6 W by 14.3 H by 18.5 D inAutomatic Thermoblock platformP.R.G.2+ grinder and 5-16 g brew unitHP3 milk system with Milk AssistantMaximum menu breadth and cold coffee\n        \n      \n      Fifth-generation North American E8 Midnight Silver NAD, article 15722. It is not the earlier EC generation still shown in many reviews and listings. Compare that exact package with the alternatives below."
+    },
+    {
+      "id": "2612a85ad825162c92d06b4a7768b92208364e45ab64831350126e4a4b2bff21",
+      "source": "Fifth-generation North American E8 Midnight Silver NAD, article 15722. It is not the earlier EC generation still shown in many reviews and listings. Compare that exact package with the alternatives below.",
+      "kind": "text",
+      "context": "Fifth-generation North American E8 Midnight Silver NAD, article 15722. It is not the earlier EC generation still shown in many reviews and listings. Compare that exact package with the alternatives below."
+    },
+    {
+      "id": "06f2323ea9980982a2ee82e9f2d7d4d5cc8b6d3f8e7138b8e121727bb82cb3f5",
+      "source": "Living with the E8 Midnight Silver NAD",
+      "kind": "text",
+      "context": "Living with the E8 Midnight Silver NAD"
+    },
+    {
+      "id": "434a73a762be8b707bb23967aefa35da5ecc781e746e7572e05d41cbb66a8fdc",
+      "source": "When comparing offers, ask the seller to identify the generation by article number and show the Hot, Light and Sweet menu. An inexpensive older E8 may be a different proposition. Compare current 15722 stock and accessory cost with the E6 before paying primarily for a longer recipe list.",
+      "kind": "text",
+      "context": "When comparing offers, ask the seller to identify the generation by article number and show the Hot, Light and Sweet menu. An inexpensive older E8 may be a different proposition. Compare current 15722 stock and accessory cost with the E6 before paying primarily for a longer recipe list. [source] [source]"
+    },
+    {
+      "id": "04533c579aa4a713cf3941b33e3edfcb3585bb63f57f16493889e50237a46e6a",
+      "source": "Other options for the E8 Midnight Silver NAD buyer",
+      "kind": "text",
+      "context": "Other options for the E8 Midnight Silver NAD buyer"
+    },
+    {
+      "id": "46ebf213255c8d32889e5a0d7fd3f36f0a8bace36456cfadc49b3e2999904053",
+      "source": "E8 Midnight Silver NAD FAQ",
+      "kind": "text",
+      "context": "E8 Midnight Silver NAD FAQ"
+    },
+    {
+      "id": "dddb4e4698b43e24eb224b71683b98f570df0bf241a73fe405cefbbcf2328bab",
+      "source": "Which generation and package does this E8 Midnight Silver NAD review cover?",
+      "kind": "text",
+      "context": "Which generation and package does this E8 Midnight Silver NAD review cover?"
+    },
+    {
+      "id": "34f245f3d0f9abc990a95212f7636901acb1a85f133cad4a3eed3dd702b7994b",
+      "source": "What does daily use of E8 Midnight Silver NAD involve?",
+      "kind": "text",
+      "context": "What does daily use of E8 Midnight Silver NAD involve?"
+    },
+    {
+      "id": "1d90a8d98b9349be336bf9637ab3ca715088a3f4b76aced5326579f43da56e62",
+      "source": "What milk care does E8 Midnight Silver NAD require?",
+      "kind": "text",
+      "context": "What milk care does E8 Midnight Silver NAD require?"
+    },
+    {
+      "id": "20d0b1cae3f3ae8d98606ccdbd8c885cb6f4d9ce053ce03b6e6c3c010355e377",
+      "source": "What grinder is specified for this E8 Midnight Silver NAD?",
+      "kind": "text",
+      "context": "What grinder is specified for this E8 Midnight Silver NAD?"
+    },
+    {
+      "id": "860375b6939d36915a6c4668d97a68ca41ab53a8cdec512e2b1e30180d53b327",
+      "source": "Watch Die brandneue JURA E8 (SD) 2025 im Test by KafiService",
+      "kind": "attribute",
+      "context": "▶ Play review"
+    },
+    {
+      "id": "65c6a2360639ab8fa3c4efb1e2dd8e052f04625e7d992eae43c1e9ca6bd926c2",
+      "source": "JURA E8 review: what fifth-generation Light and Sweet recipes add",
+      "kind": "attribute",
+      "context": "▶ Play review"
+    },
+    {
+      "id": "e065d313b06bd1b64f73445199e6c0aafe426d3965729acbc002da0de06222ba",
+      "source": "KafiService",
+      "kind": "text",
+      "context": "KafiService"
+    },
+    {
+      "id": "81e3e85b2270ccaac4909e4bba3fc5e8469bd651a41aa0a82c89edeae261963f",
+      "source": "Die brandneue JURA E8 (SD) 2025 im Test",
+      "kind": "text",
+      "context": "Die brandneue JURA E8 (SD) 2025 im Test"
+    },
+    {
+      "id": "f52190af17e718652580656f8c412850efb97a85b744f83623edf874cbb316c9",
+      "source": "September 4, 2025",
+      "kind": "text",
+      "context": "September 4, 2025"
+    },
+    {
+      "id": "4f9ad173f39719cd04405ea07104f0ace697b3d6dcd755147e07262d03b1ca6c",
+      "source": "Independent current-generation family workflow evidence. Regional specifications are verified against the NAD sources.",
+      "kind": "text",
+      "context": "Independent current-generation family workflow evidence. Regional specifications are verified against the NAD sources."
+    },
+    {
+      "id": "b881c139f51037770f1b54817824ecd8d4267b133f6488a1b68d47254e5fd061",
+      "source": "This review covers Article 15722, North America, fifth generation. The $2,599 price, closed brew system and optional connectivity demand more than a long menu to justify ownership.",
+      "kind": "text",
+      "context": "This review covers Article 15722, North America, fifth generation. The $2,599 price, closed brew system and optional connectivity demand more than a long menu to justify ownership."
+    },
+    {
+      "id": "8d2060e3abccf770bbf54ba87c64b0ac63cbbad273c0548ef3a1d33d1974f542",
+      "source": "The brand new JURA E8 (SD) 2025 in review",
+      "kind": "text",
+      "context": "The brand new JURA E8 (SD) 2025 in review ↗"
+    },
+    {
+      "id": "4cb7efe5202e451ba9c318d6110ca9ce68464ac2489f12dfae5889eae81e05ee",
+      "source": "Independent September 4, 2025 video used for current-generation family workflow; SD and NAD regional details can differ.",
+      "kind": "text",
+      "context": "Independent September 4, 2025 video used for current-generation family workflow; SD and NAD regional details can differ."
+    },
+    {
+      "id": "a9abb010f67cd9e7ab24c6cfbc0869028661a832716396513c8af75f3b7a086e",
+      "source": "Official current family context used to separate generations and adjacent models.",
+      "kind": "text",
+      "context": "Official current family context used to separate generations and adjacent models."
+    },
+    {
+      "id": "4d23e5e40cb0ca85d0d1366fce22d2f35f036a50743dc163b4602d5a738abc48",
+      "source": "Independent water context; JURA instructions remain controlling.",
+      "kind": "text",
+      "context": "Independent water context; JURA instructions remain controlling."
+    },
+    {
+      "id": "3a051b0c77b9aaf32eca715036f4e4081eaaf94d48f5aa703cb995f0447fb6ee",
+      "source": "E8 Midnight Silver NAD: buy the workflow, not the menu count",
+      "kind": "text",
+      "context": "E8 Midnight Silver NAD: buy the workflow, not the menu count"
+    },
+    {
+      "id": "30bc602f6e4fcebbd3c1a65b23cddabac50ad016068273e1e7dfac9262fbccce",
+      "source": "JURA E8 review: what fifth-generation Light and Sweet recipes add | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "dd044e26cd542055c59db6e847977fda5ff0761ff98dc926ace4e19c6aceb7c4",
+      "source": "A research-led JURA E8 NAD review covering article 15722, 27 specialties, P.A.G.2 grinder, Hot, Light and Sweet menus, current $2,599 US context and ownership.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "73b35b8a782c8657c38e95132bb936e8b1e6d9e742e32784771489c75654fc49",
+      "source": "Which generation and package does this E8 Midnight Silver NAD review cover?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "a5c70c290c49ec3965a2bf75f8605cc6f4a19ca9444ab487ef3065cb9015fc8a",
+      "source": "What does daily use of E8 Midnight Silver NAD involve?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "be962b46e581695fc3c139eb74ad241b9503717d0136ae04d26d47d1a2ca2df0",
+      "source": "E8’s practical middle-ground role is a broader menu without the Z10 price or control package. Side-button selection and the HP3 hose-fed milk path remain physical daily tasks. Optional J.O.E. and Coffee Timer functions require the documented connectivity accessory; they should not be assumed from the E8 name alone.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "bec904a944f12da6714c12e5f2c66934074b43e72bef94168fccbd54405d17f5",
+      "source": "What milk care does E8 Midnight Silver NAD require?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "8f97fe524577d7f19d4083454b47a7c0b6f848c0d77066cd2138e19bc4509e1e",
+      "source": "Use the guided cleaning and descaling programs, clean the milk system every day it is used, and follow the NAD manual for filter and hygiene steps.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "138b82aa9d67b04a2cff9b7e2f747153d8ec2892d11a5f8dc1a8ba188e4f8362",
+      "source": "When comparing offers, ask the seller to identify the generation by article number and show the Hot, Light and Sweet menu. An inexpensive older E8 may be a different proposition. Compare current 15722 stock and accessory cost with the E6 before paying primarily for a longer recipe list.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "829ac1bec38852c0a5f3358a736958e6c7449e24cd83cacaafc8eb2c62b9353a",
+      "source": "What grinder is specified for this E8 Midnight Silver NAD?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "a4481d68986f8c432cbd1f404cf465b31a1dcc27b21034170857b8c2c4f863e3",
+      "source": "11 W by 13.8 H by 17.6 D in; about 22 lb",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "1fda951bbbbd7749550916f20748081f19ea988e1d42c03bfd262c51843e60c4",
+      "source": "JURA E8 review: what fifth-generation Light and Sweet recipes add",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "38a74c2d4be8bc728ef8ea9e940e421a8fab8ec65db59c7316dca302fb534d23",
+      "source": "Die brandneue JURA E8 (SD) 2025 im Test",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "910ecb96c144078d6bed0323e83a11b7f9ee54f1710bfcc92b22e8ac133f0d52",
+      "source": "Independent current-generation family workflow evidence. Regional specifications are verified against the NAD sources.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "04e092c1b77b6c2e10c2209a8df9a27a8a48c6fb0e4c1b6c2e4ccf3a9949a6bf",
+      "source": "KafiService",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "ab2c2422ca0ee2f0aac8eb6d7580f9c2ef17624d48e476e64fd5e1e70df770a7",
+      "source": "JURA E8 fifth-generation campaign image in a home setting",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "bed6050cfb9a66e5bd262079dedfb9fc39110e9ae03e04100525bbc7d9834596",
+      "source": "Official campaign media provides scale for the fifth-generation E8; it is illustrative rather than evidence of Coffeedant testing.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "5bad69366849442e2e9504c27cbf23466f5489970c602be384096673acbab590",
+      "source": "JURA E8 fifth-generation product page",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "561850a89f650527a55cd41c2410bf67afa7a079a4c10957cc5737c8e4f2e775",
+      "source": "JURA E8 fifth-generation display and coffee outlet",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "f5ddcb237d1c39eca490d4ec4d734bb9bdd19170fa27e47730d8e450058a36a5",
+      "source": "The official family workflow image shows the current control and dispensing layout. NAD identity and specifications come from article 15722 documentation.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "93b1fd782603e9b4b798697fe1d7d68ba931c904eb482502de87f339a3698b7d",
+      "source": "JURA E8 Midnight Silver NAD: Die brandneue JURA E8 (SD) 2025 im Test · KafiService (2025-09-04) | Coffeedant",
+      "kind": "text",
+      "context": "JURA E8 Midnight Silver NAD: Die brandneue JURA E8 (SD) 2025 im Test · KafiService (2025-09-04) | Coffeedant"
+    },
+    {
+      "id": "c084fe6278c7e671d4d63a8750b878b194e3848baf214023e45f3732747abc39",
+      "source": "Watch KafiService on JURA E8 Midnight Silver NAD (2025-09-04): Die brandneue JURA E8 (SD) 2025 im Test. Independent current-generation family workflow evidence. Regional specifications are verified against the NAD sources.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "ba6db484d1a69691f6b1185db7512a4969ba39bd06fd55caba26280059d7ac2b",
+      "source": "JURA E8 Midnight Silver NAD: Die brandneue JURA E8 (SD) 2025 im Test · KafiService (2025-09-04) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "7980036f4e5df2b96cc6d957532ef6a9febfbe6c60c54678aed89ac8bf9c89ba",
+      "source": "JURA E8 Midnight Silver NAD video by KafiService",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "c6a4c38e05bc4a08ffe670b0a60c8b48d775948616ff46824261012572ff6aa3",
+      "source": "← JURA E8 Midnight Silver NAD review",
+      "kind": "text",
+      "context": "← JURA E8 Midnight Silver NAD review"
+    },
+    {
+      "id": "6a25478872888f76d51074a2e208a51b76192528e4aff331ec09a17a89634a9f",
+      "source": "Die brandneue JURA E8 (SD) 2025 im Test by KafiService",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "fde7c4fc93761541c7d176f7ad8144d7143bcb1d161a73a4ebef52628f5e1bfa",
+      "source": "JURA E8 Midnight Silver NAD · Retailer perspective",
+      "kind": "text",
+      "context": "JURA E8 Midnight Silver NAD · Retailer perspective"
+    },
+    {
+      "id": "fd6c4fe27b5891590b0a17ebae02dd76e1bafa94a627def7a6d201a64311ad71",
+      "source": "Video and opinions belong to KafiService. Coffeedant curates this perspective alongside our written review.",
+      "kind": "text",
+      "context": "Video and opinions belong to KafiService. Coffeedant curates this perspective alongside our written review."
+    },
+    {
+      "id": "d9749bef97fe79ecf027ea582a4f57baaaca7b22d685e1354c24817d4d5ca722",
+      "source": "JURA E8 Midnight Silver NAD: Die brandneue JURA E8 (SD) 2025 im Test · KafiService (2025-09-04) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "e67eb52fb62ff76387ad6fdf945357a270b27757c650961c497501d413316594",
+      "source": "Watch KafiService on JURA E8 Midnight Silver NAD (2025-09-04): Die brandneue JURA E8 (SD) 2025 im Test. Independent current-generation family workflow evidence. Regional specifications are verified against the NAD sources.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "234a1f4ac4331575ba65645f2210ac6c14b886c66507bd01d72ba789299f2ebf",
+      "source": "JURA E8 Midnight Silver NAD video by KafiService",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "ded43e6dd5b82450cfd606cc73714ad51427f3bacf6d7c977aa3b5b76d7e9e30",
+      "source": "Video by KafiService",
+      "kind": "json",
+      "context": "name"
+    }
+  ],
+  "snapshotHash": "bfc5d20e211f6620d5ad095c436c67cdf656f320456d2038e4940efd72db74b9"
+}

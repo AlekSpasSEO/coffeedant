@@ -1,0 +1,586 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "jura-e8-batch-74.source.json",
+  "snapshotHash": "bfc5d20e211f6620d5ad095c436c67cdf656f320456d2038e4940efd72db74b9",
+  "preserveSource": [
+    46,
+    97
+  ],
+  "routes": {
+    "nl": {
+      "/espresso-machine/jura-e8/": "/espressomachines/jura-e8/",
+      "/espresso-machine/jura-e8/video/kafiservice/": "/espressomachines/jura-e8/video/kafiservice/"
+    },
+    "de": {
+      "/espresso-machine/jura-e8/": "/testbericht-jura-e8/",
+      "/espresso-machine/jura-e8/video/kafiservice/": "/testbericht-jura-e8/video/kafiservice/"
+    },
+    "fr": {
+      "/espresso-machine/jura-e8/": "/machines-expresso/jura-e8/",
+      "/espresso-machine/jura-e8/video/kafiservice/": "/machines-expresso/jura-e8/video/kafiservice/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "6.9 van 10",
+      "de": "6.9 von 10",
+      "fr": "6.9 sur 10"
+    },
+    "1": {
+      "nl": "9.0 van 10",
+      "de": "9.0 von 10",
+      "fr": "9.0 sur 10"
+    },
+    "2": {
+      "nl": "4.1 van 5, open de Coffeedant-beoordelingen per categorie",
+      "de": "4.1 von 5, Coffeedant-Kategoriebewertungen öffnen",
+      "fr": "4.1 sur 5, ouvrir les notes par catégorie de Coffeedant"
+    },
+    "3": {
+      "nl": "Lees de beoordeling van de Eletta Explore",
+      "de": "Testbericht zur Eletta Explore lesen",
+      "fr": "Lire l’analyse de l’Eletta Explore"
+    },
+    "4": {
+      "nl": "JURA · beoordeling op basis van bronnenonderzoek",
+      "de": "JURA · recherchegestützte Bewertung",
+      "fr": "JURA · évaluation fondée sur des recherches"
+    },
+    "5": {
+      "nl": "Kies de beoordeelde machine als het exacte drankenmenu en de dagelijkse gebruiks- en onderhoudsroutine bij het huishouden passen.",
+      "de": "Wähle die bewertete Maschine, wenn ihr genaues Getränkemenü sowie der Nutzungs- und Pflegealltag zum Haushalt passen.",
+      "fr": "Choisissez la machine analysée si son menu précis de boissons et sa routine d’utilisation et d’entretien conviennent au foyer."
+    },
+    "6": {
+      "nl": "Kies de voordeligste huidige JURA in deze vergelijking als 11 warme specialiteiten voldoende zijn.",
+      "de": "Wähle die günstigste aktuelle JURA in diesem Vergleich, wenn 11 heiße Spezialitäten ausreichen.",
+      "fr": "Choisissez la JURA actuelle la moins chère de cette sélection si 11 spécialités chaudes suffisent."
+    },
+    "7": {
+      "nl": "Kies de huidige middenweg van de vijfde generatie voor 27 specialiteiten in de categorieën Hot, Light en Sweet.",
+      "de": "Wähle die aktuelle Mitte der fünften Generation für 27 Spezialitäten in den Kategorien Hot, Light und Sweet.",
+      "fr": "Choisissez le compromis actuel de cinquième génération pour 27 spécialités Hot, Light et Sweet."
+    },
+    "8": {
+      "nl": "Waterreservoir van 64 oz, bonenreservoir van 9.9 oz en koffiedikbak voor circa 16 porties",
+      "de": "64 oz Wassertank, 9.9 oz Bohnenbehälter und Satzbehälter für etwa 16 Portionen",
+      "fr": "Réservoir d’eau de 64 oz, bac à grains de 9.9 oz et bac à marc d’environ 16 portions"
+    },
+    "9": {
+      "nl": "$1,899 als huidige Amerikaanse rechtstreekse prijsreferentie",
+      "de": "$1,899 als aktuelle US-Direktpreisreferenz",
+      "fr": "$1,899 comme référence américaine actuelle en vente directe"
+    },
+    "10": {
+      "nl": "$2,599 als gedateerde Amerikaanse prijsreferentie van een winkelier",
+      "de": "$2,599 als datierte US-Händlerpreisreferenz",
+      "fr": "$2,599 comme référence datée d’un revendeur américain"
+    },
+    "11": {
+      "nl": "$4,499 als huidige Amerikaanse rechtstreekse prijsreferentie",
+      "de": "$4,499 als aktuelle US-Direktpreisreferenz",
+      "fr": "$4,499 comme référence américaine actuelle en vente directe"
+    },
+    "12": {
+      "nl": "Kies het huidige topmodel voor Cold Extraction, 51 specialiteiten en vier profielen.",
+      "de": "Wähle das aktuelle Spitzenmodell für Cold Extraction, 51 Spezialitäten und vier Profile.",
+      "fr": "Choisissez le modèle phare actuel pour Cold Extraction, 51 spécialités et quatre profils."
+    },
+    "13": {
+      "nl": "Bekijk de gegevens van het exacte model hierboven",
+      "de": "Angaben zum genauen Modell oben ansehen",
+      "fr": "Consulter les caractéristiques du modèle exact ci-dessus"
+    },
+    "14": {
+      "nl": "JURA Thermoblock-platform",
+      "de": "JURA Thermoblock-Plattform",
+      "fr": "Plateforme Thermoblock JURA"
+    },
+    "15": {
+      "nl": "Geïntegreerde automatische molen en zetgroep voor 5-16 g",
+      "de": "Integriertes automatisches Mahlwerk und Brühgruppe für 5-16 g",
+      "fr": "Moulin automatique intégré et groupe d’extraction de 5-16 g"
+    },
+    "16": {
+      "nl": "Automatisch melkcircuit via een slang, met reiniging op dezelfde dag",
+      "de": "Automatischer Milchweg über einen Schlauch mit Reinigung am selben Tag",
+      "fr": "Circuit lait automatique par tuyau, avec nettoyage le jour même"
+    },
+    "17": {
+      "nl": "Begeleide volautomatische bereiding uit bonen",
+      "de": "Geführte Bedienung des Kaffeevollautomaten",
+      "fr": "Utilisation guidée du café en grains à la tasse"
+    },
+    "18": {
+      "nl": "11 B × 13.8 H × 17.6 D in",
+      "de": "11 B × 13.8 H × 17.6 T in",
+      "fr": "11 l × 13.8 H × 17.6 P in"
+    },
+    "19": {
+      "nl": "Enkelvoudig automatisch Thermoblock-platform",
+      "de": "Einzelne automatische Thermoblock-Plattform",
+      "fr": "Plateforme automatique à Thermoblock unique"
+    },
+    "20": {
+      "nl": "P.A.G.-molen en zetgroep voor 5-16 g",
+      "de": "P.A.G.-Mahlwerk und Brühgruppe für 5-16 g",
+      "fr": "Moulin P.A.G. et groupe d’extraction de 5-16 g"
+    },
+    "21": {
+      "nl": "HP1 Easy Cappuccino-systeem",
+      "de": "HP1 Easy Cappuccino-System",
+      "fr": "Système HP1 Easy Cappuccino"
+    },
+    "22": {
+      "nl": "Gericht op warme koffie en cappuccino",
+      "de": "Auf heißen Kaffee und Cappuccino ausgerichtet",
+      "fr": "Centré sur le café chaud et le cappuccino"
+    },
+    "23": {
+      "nl": "Automatisch Thermoblock-platform",
+      "de": "Automatische Thermoblock-Plattform",
+      "fr": "Plateforme automatique à Thermoblock"
+    },
+    "24": {
+      "nl": "P.A.G.2-molen en zetgroep voor 5-16 g",
+      "de": "P.A.G.2-Mahlwerk und Brühgruppe für 5-16 g",
+      "fr": "Moulin P.A.G.2 et groupe d’extraction de 5-16 g"
+    },
+    "25": {
+      "nl": "Automatisch HP3-melksysteem",
+      "de": "Automatisches HP3-Milchsystem",
+      "fr": "Système lait automatique HP3"
+    },
+    "26": {
+      "nl": "Uitgebreider menu met warme en zoete dranken",
+      "de": "Größeres Menü mit heißen und süßen Getränken",
+      "fr": "Menu plus large de boissons chaudes et sucrées"
+    },
+    "27": {
+      "nl": "12.6 B × 14.3 H × 18.5 D in",
+      "de": "12.6 B × 14.3 H × 18.5 T in",
+      "fr": "12.6 l × 14.3 H × 18.5 P in"
+    },
+    "28": {
+      "nl": "P.R.G.2+-molen en zetgroep voor 5-16 g",
+      "de": "P.R.G.2+-Mahlwerk und Brühgruppe für 5-16 g",
+      "fr": "Moulin P.R.G.2+ et groupe d’extraction de 5-16 g"
+    },
+    "29": {
+      "nl": "HP3-melksysteem met Milk Assistant",
+      "de": "HP3-Milchsystem mit Milk Assistant",
+      "fr": "Système lait HP3 avec Milk Assistant"
+    },
+    "30": {
+      "nl": "Maximale menubreedte en koude koffie",
+      "de": "Maximale Menübreite und kalter Kaffee",
+      "fr": "Variété maximale du menu et café froid"
+    },
+    "31": {
+      "nl": "Gericht op prijs-kwaliteit",
+      "de": "Gezieltes Preis-Leistungs-Verhältnis",
+      "fr": "Rapport qualité-prix ciblé"
+    },
+    "32": {
+      "nl": "Kies 11 warme specialiteiten en een eenvoudigere routine met knoppen als de extra keuze geen $700 meer waard is.",
+      "de": "Wähle 11 heiße Spezialitäten und einen einfacheren Ablauf mit Tasten, wenn die größere Auswahl keine weiteren $700 wert ist.",
+      "fr": "Choisissez 11 spécialités chaudes et une routine plus simple à boutons si la variété ne justifie pas $700 supplémentaires."
+    },
+    "33": {
+      "nl": "Lees de beoordeling van de E6",
+      "de": "Testbericht zur E6 lesen",
+      "fr": "Lire l’analyse de l’E6"
+    },
+    "34": {
+      "nl": "Huidige middenweg",
+      "de": "Aktuelle Mitte",
+      "fr": "Compromis actuel"
+    },
+    "35": {
+      "nl": "Kies de E8 van de vijfde generatie voor recepten in de categorieën Hot, Light en Sweet zonder de prijs van de Z10.",
+      "de": "Wähle die E8 der fünften Generation für Hot-, Light- und Sweet-Rezepte ohne den Preis der Z10.",
+      "fr": "Choisissez l’E8 de cinquième génération pour les recettes Hot, Light et Sweet sans le prix de la Z10."
+    },
+    "36": {
+      "nl": "Lees de beoordeling van de E8",
+      "de": "Testbericht zur E8 lesen",
+      "fr": "Lire l’analyse de l’E8"
+    },
+    "37": {
+      "nl": "Brede keuze van het topmodel",
+      "de": "Breite Auswahl des Spitzenmodells",
+      "fr": "Variété du modèle phare"
+    },
+    "38": {
+      "nl": "Kies de Z10 voor Cold Extraction, vier profielen en het uitgebreidste huidige menu voor thuis.",
+      "de": "Wähle die Z10 für Cold Extraction, vier Profile und das größte aktuelle Menü für zu Hause.",
+      "fr": "Choisissez la Z10 pour Cold Extraction, quatre profils et le menu domestique actuel le plus large."
+    },
+    "39": {
+      "nl": "Lees de beoordeling van de Z10",
+      "de": "Testbericht zur Z10 lesen",
+      "fr": "Lire l’analyse de la Z10"
+    },
+    "40": {
+      "nl": "Alternatief met toegang voor onderhoud",
+      "de": "Wartungszugängliche Alternative",
+      "fr": "Alternative accessible pour l’entretien"
+    },
+    "41": {
+      "nl": "Vergelijk een uitneembare zetgroep en een uitgebreid menu met warme en koude dranken als toegang voor eigen onderhoud belangrijk is.",
+      "de": "Vergleiche eine entnehmbare Brühgruppe und ein großes Heiß- und Kaltgetränkemenü, wenn eigener Zugang wichtig ist.",
+      "fr": "Comparez un groupe d’extraction amovible et un large menu chaud et froid si l’accès par le propriétaire compte."
+    },
+    "42": {
+      "nl": "JURA-service en ondersteuning",
+      "de": "JURA-Service und Unterstützung",
+      "fr": "Service et assistance JURA"
+    },
+    "43": {
+      "nl": "Officiële Noord-Amerikaanse route voor service en ondersteuning.",
+      "de": "Offizieller nordamerikanischer Service- und Supportweg.",
+      "fr": "Voie officielle de service et d’assistance pour l’Amérique du Nord."
+    },
+    "44": {
+      "nl": "Context van de JURA E-Line",
+      "de": "Kontext zur JURA E-Line",
+      "fr": "Contexte de la JURA E-Line"
+    },
+    "45": {
+      "nl": "Meer JURA-beoordelingen",
+      "de": "Weitere JURA-Testberichte",
+      "fr": "Autres analyses de JURA"
+    },
+    "47": {
+      "nl": "JURA E8 beoordeeld: wat Light- en Sweet-recepten van de vijfde generatie toevoegen | Coffeedant",
+      "de": "JURA E8 im Test: was Light- und Sweet-Rezepte der fünften Generation ergänzen | Coffeedant",
+      "fr": "Analyse de la JURA E8 : l’apport des recettes Light et Sweet de cinquième génération | Coffeedant"
+    },
+    "48": {
+      "nl": "Een op bronnen gebaseerde beoordeling van de JURA E8 NAD over artikel 15722, 27 specialiteiten, de P.A.G.2-molen, de menu’s Hot, Light en Sweet, de huidige Amerikaanse prijscontext van $2,599 en het gebruik en onderhoud.",
+      "de": "Eine quellenbasierte Bewertung der JURA E8 NAD zu Artikel 15722, 27 Spezialitäten, P.A.G.2-Mahlwerk, Hot-, Light- und Sweet-Menüs, aktuellem US-Preiskontext von $2,599 sowie Nutzung und Pflege.",
+      "fr": "Une analyse documentaire de la JURA E8 NAD portant sur l’article 15722, les 27 spécialités, le moulin P.A.G.2, les menus Hot, Light et Sweet, le contexte américain actuel à $2,599 et la possession."
+    },
+    "50": {
+      "nl": "JURA E8 beoordeeld: wat Light- en Sweet-recepten van de vijfde generatie toevoegen",
+      "de": "JURA E8 im Test: was Light- und Sweet-Rezepte der fünften Generation ergänzen",
+      "fr": "Analyse de la JURA E8 : l’apport des recettes Light et Sweet de cinquième génération"
+    },
+    "51": {
+      "nl": "Voor huishoudens die zevenentwintig hot-, light- en sweet-specialiteiten willen binnen een verzorgde routine met een jura uit het middensegment",
+      "de": "Für Haushalte, die siebenundzwanzig hot-, light- und sweet-Spezialitäten in einem ausgereiften Ablauf mit einer jura der Mittelklasse wünschen",
+      "fr": "Pour les foyers qui souhaitent vingt-sept spécialités hot, light et sweet dans une routine soignée avec une jura de milieu de gamme"
+    },
+    "52": {
+      "nl": "Prijs bij erkende Amerikaanse winkelier Abt; voorraad, belasting, staat en garantie kunnen veranderen",
+      "de": "Preis beim autorisierten US-Händler Abt; Bestand, Steuern, Zustand und Garantie können sich ändern",
+      "fr": "Prix chez Abt, revendeur américain agréé ; le stock, les taxes, l’état et la garantie peuvent changer"
+    },
+    "53": {
+      "nl": "11 B × 13.8 H × 17.6 D in; circa 22 lb",
+      "de": "11 B × 13.8 H × 17.6 T in; etwa 22 lb",
+      "fr": "11 l × 13.8 H × 17.6 P in ; environ 22 lb"
+    },
+    "54": {
+      "nl": "Gebruik de begeleide reinigings- en ontkalkingsprogramma’s, reinig het melksysteem op elke dag dat het wordt gebruikt en volg de NAD-handleiding voor de filter- en hygiënestappen.",
+      "de": "Nutze die geführten Reinigungs- und Entkalkungsprogramme, reinige das Milchsystem an jedem Tag, an dem es benutzt wird, und befolge für Filter- und Hygieneschritte die NAD-Anleitung.",
+      "fr": "Utilisez les programmes guidés de nettoyage et de détartrage, nettoyez le système lait chaque jour où il est utilisé et suivez le manuel NAD pour le filtre et l’hygiène."
+    },
+    "55": {
+      "nl": "Nee. Gebruik de begeleide reinigings- en ontkalkingsprogramma’s, reinig het melksysteem op elke dag dat het wordt gebruikt en volg de NAD-handleiding voor de filter- en hygiënestappen.",
+      "de": "Nein. Nutze die geführten Reinigungs- und Entkalkungsprogramme, reinige das Milchsystem an jedem Tag, an dem es benutzt wird, und befolge für Filter- und Hygieneschritte die NAD-Anleitung.",
+      "fr": "Non. Utilisez les programmes guidés de nettoyage et de détartrage, nettoyez le système lait chaque jour où il est utilisé et suivez le manuel NAD pour le filtre et l’hygiène."
+    },
+    "56": {
+      "nl": "Volledige beoordeling van de JURA E8 Midnight Silver NAD",
+      "de": "Vollständiger Testbericht zur JURA E8 Midnight Silver NAD",
+      "fr": "Analyse complète de la JURA E8 Midnight Silver NAD"
+    },
+    "57": {
+      "nl": "Eén totaalscore is alleen nuttig als je ziet waarop die is gebaseerd. De JURA E8 Midnight Silver NAD krijgt",
+      "de": "Eine Gesamtnote ist nur hilfreich, wenn ihre Grundlage erkennbar ist. Die JURA E8 Midnight Silver NAD erhält",
+      "fr": "Une note globale n’est utile que si l’on comprend ses fondements. La JURA E8 Midnight Silver NAD obtient"
+    },
+    "58": {
+      "nl": "Zevenentwintig specialiteiten in de categorieën Hot, Light en Sweet, met tien sterkteniveaus, een zetgroep voor 5-16 g en instelbare recepten, zorgen voor herhaalbare automatische koffie binnen een gesloten systeem.",
+      "de": "Siebenundzwanzig Hot-, Light- und Sweet-Spezialitäten mit zehn Stärkestufen, einer Brühgruppe für 5-16 g und anpassbaren Rezepten ermöglichen wiederholbare automatische Kaffeezubereitung in einem geschlossenen System.",
+      "fr": "Vingt-sept spécialités Hot, Light et Sweet, avec dix niveaux d’intensité, un groupe d’extraction de 5-16 g et des recettes réglables, permettent de reproduire la préparation automatique du café dans un système fermé."
+    },
+    "59": {
+      "nl": "Bij de E8 Midnight Silver NAD blijft de reiniging van de zetgroep onderdeel van de voorgeschreven routine voor een gesloten systeem.",
+      "de": "Bei der E8 Midnight Silver NAD bleibt die Brühgruppenreinigung Teil des vorgeschriebenen Ablaufs für das geschlossene System.",
+      "fr": "Sur l’E8 Midnight Silver NAD, le nettoyage du groupe d’extraction reste intégré à la routine prescrite pour le système fermé."
+    },
+    "60": {
+      "nl": "Bij $2,599.00 hoort gedateerde informatie over staat, voorraad en garantie.",
+      "de": "Bei $2,599.00 sind datierte Angaben zu Zustand, Bestand und Garantie nötig.",
+      "fr": "À $2,599.00, il faut un contexte daté sur l’état, le stock et la garantie."
+    },
+    "61": {
+      "nl": "E8 Midnight Silver NAD: de aankoopbeslissing",
+      "de": "E8 Midnight Silver NAD: die Kaufentscheidung",
+      "fr": "E8 Midnight Silver NAD : la décision d’achat"
+    },
+    "62": {
+      "nl": "De E8 NAD van de vijfde generatie breidt de vertrouwde warme recepten uit met Light- en Sweet-specialiteiten en behoudt de keuze met knoppen naast het kleurendisplay. Het menu met zevenentwintig dranken is vooral relevant voor mensen die deze bereidingswijzen gebruiken, in plaats van alleen het aantal als een verbetering te zien. De automatische melkslang en het gesloten zetsysteem maken de reinigingsroutine van JURA ook onderdeel van de aankoop. Connectiviteit is optioneel bij deze Noord-Amerikaanse generatie. Vergelijk de exacte NAD-machine met de E6 op basis van drankvoorkeuren en de extra bereidingsmogelijkheden van de E8; oudere E8-beoordelingen onderbouwen niet alle functies van deze generatie.",
+      "de": "Die E8 NAD der fünften Generation erweitert die vertrauten heißen Rezepte um Light- und Sweet-Spezialitäten und behält die Auswahl über Tasten neben dem Farbdisplay bei. Das Menü mit siebenundzwanzig Getränken ist vor allem für Menschen relevant, die diese Zubereitungsarten nutzen, statt allein die Anzahl als Verbesserung anzusehen. Der automatische Milchschlauch und das geschlossene Brühsystem machen auch die JURA-Reinigungsroutine zum Teil der Kaufentscheidung. Konnektivität ist bei dieser nordamerikanischen Generation optional. Vergleiche die genaue NAD-Maschine mit der E6 anhand der Getränkevorlieben und der zusätzlichen Zubereitungsmöglichkeiten der E8; ältere E8-Testberichte belegen nicht alle Funktionen dieser Generation.",
+      "fr": "L’E8 NAD de cinquième génération ajoute aux recettes chaudes familières des spécialités Light et Sweet, tout en conservant la sélection par boutons latéraux autour de son écran couleur. Son menu de vingt-sept boissons intéresse surtout les personnes qui utiliseront ces modes de préparation, plutôt que de considérer le nombre seul comme une amélioration. Le tuyau à lait automatique et le système d’extraction fermé intègrent aussi la routine de nettoyage JURA à la décision d’achat. La connectivité est optionnelle sur cette génération nord-américaine. Comparez la machine NAD exacte à l’E6 selon vos préférences de boissons et les préparations supplémentaires de l’E8 ; les anciennes analyses de l’E8 ne permettent pas d’établir toutes les fonctions de cette génération."
+    },
+    "63": {
+      "nl": "De E8 Midnight Silver NAD installeren",
+      "de": "Die E8 Midnight Silver NAD einrichten",
+      "fr": "Installer l’E8 Midnight Silver NAD"
+    },
+    "64": {
+      "nl": "een volautomaat met p.a.g.2-molen, automatische bereiding uit bonen en een opening voor voorgemalen koffie, zevenentwintig hot-, light- en sweet-specialiteiten met tien sterkteniveaus, een zetgroep voor 5-16 g en instelbare recepten, en een automatisch hp3-melksysteem voor melk en melkschuim via een slang, met begeleide reiniging na gebruik.",
+      "de": "ein Kaffeevollautomat mit p.a.g.2-Mahlwerk, automatischer Zubereitung aus Bohnen und Pulverschacht, siebenundzwanzig hot-, light- und sweet-Spezialitäten mit zehn Stärkestufen, einer Brühgruppe für 5-16 g und anpassbaren Rezepten sowie einem automatischen hp3-Milchsystem für Milch und Milchschaum über einen Schlauch mit geführter Reinigung nach Gebrauch.",
+      "fr": "une machine à café en grains avec moulin p.a.g.2, préparation automatique du grain à la tasse et trappe à café prémoulu, vingt-sept spécialités hot, light et sweet avec dix niveaux d’intensité, un groupe d’extraction de 5-16 g et des recettes réglables, ainsi qu’un système lait automatique hp3 pour le lait et la mousse par tuyau, avec nettoyage guidé après utilisation."
+    },
+    "65": {
+      "nl": "Artikel 15722 is de Noord-Amerikaanse E8 van de vijfde generatie, niet de oudere EC-machine uit veel demonstraties. Controleer de NAD-documentatie en een eventueel Wi-Fi Connect V2-accessoire. Het display van 3.5 in heeft knoppen aan de zijkant; koop hem niet met de verwachting van het touchscreen en de inbegrepen connectiviteit van de Z10.",
+      "de": "Artikel 15722 ist die nordamerikanische E8 der fünften Generation, nicht die ältere EC-Maschine aus vielen Vorführungen. Prüfe die NAD-Unterlagen und ein etwaiges Wi-Fi Connect V2-Zubehör. Das 3.5 in Display hat seitliche Tasten; erwarte beim Kauf nicht den Touchscreen und die enthaltene Konnektivität der Z10.",
+      "fr": "L’article 15722 est l’E8 nord-américaine de cinquième génération, et non l’ancienne machine EC visible dans de nombreuses démonstrations. Vérifiez les documents NAD et tout accessoire Wi-Fi Connect V2. L’écran de 3.5 in possède des boutons latéraux ; ne l’achetez pas en attendant l’écran tactile et la connectivité incluse de la Z10."
+    },
+    "66": {
+      "nl": "Campagnebeeld van de JURA E8 van de vijfde generatie in een thuissituatie",
+      "de": "Kampagnenbild der JURA E8 der fünften Generation in einem Wohnumfeld",
+      "fr": "Visuel de campagne de la JURA E8 de cinquième génération dans un intérieur"
+    },
+    "67": {
+      "nl": "Officieel campagnebeeldmateriaal geeft een indruk van het formaat van de E8 van de vijfde generatie; het dient als illustratie en is geen bewijs van Coffeedant-tests.",
+      "de": "Offizielles Kampagnenmaterial vermittelt die Größenverhältnisse der E8 der fünften Generation; es dient der Veranschaulichung und belegt keine Coffeedant-Tests.",
+      "fr": "Les visuels officiels de campagne donnent une idée de l’échelle de l’E8 de cinquième génération ; ils sont illustratifs et ne constituent pas une preuve de tests Coffeedant."
+    },
+    "68": {
+      "nl": "Productpagina van de JURA E8 van de vijfde generatie",
+      "de": "Produktseite der JURA E8 der fünften Generation",
+      "fr": "Page produit de la JURA E8 de cinquième génération"
+    },
+    "69": {
+      "nl": "Bekijk wat er nog meer past naast de E8 Midnight Silver NAD.",
+      "de": "Sieh dir an, was neben der E8 Midnight Silver NAD noch infrage kommt.",
+      "fr": "Découvrez les autres machines à envisager aux côtés de l’E8 Midnight Silver NAD."
+    },
+    "70": {
+      "nl": "Zevenentwintig keuzes in de categorieën Hot, Light en Sweet geven deze E8 meer receptvariatie dan de E6. Kies de zwarte koffie die je het meest drinkt en stel eerst de sterkte en het volume af voordat je andere modi verkent. De P.A.G.2-molen hoort bij de specificatie van deze generatie, dus een ouder E8-recept of een oudere beoordeling biedt context en is geen exacte overeenkomst.",
+      "de": "Siebenundzwanzig Hot-, Light- und Sweet-Einträge geben dieser E8 mehr Rezeptvielfalt als der E6. Wähle den am häufigsten getrunkenen schwarzen Kaffee und passe zuerst Stärke und Menge an, bevor du andere Modi erkundest. Das P.A.G.2-Mahlwerk gehört zur Spezifikation dieser Generation; ein älteres E8-Rezept oder ein älterer Testbericht liefert daher Kontext und ist keine genaue Entsprechung.",
+      "fr": "Vingt-sept préparations Hot, Light et Sweet donnent à cette E8 une plus grande variété de recettes que l’E6. Choisissez le café noir le plus consommé, puis réglez son intensité et son volume avant d’explorer les autres modes. Le moulin P.A.G.2 fait partie des caractéristiques de cette génération : une ancienne recette ou analyse de l’E8 apporte donc du contexte plutôt qu’une correspondance exacte."
+    },
+    "71": {
+      "nl": "De praktische middenpositie van de E8 is een uitgebreider menu zonder de prijs of het bedieningspakket van de Z10. De keuze met zijknoppen en het HP3-melkcircuit via een slang blijven fysieke dagelijkse handelingen. Voor de optionele functies J.O.E. en Coffee Timer is het gedocumenteerde connectiviteitsaccessoire nodig; je mag ze niet alleen op basis van de naam E8 veronderstellen.",
+      "de": "Die praktische Mittelposition der E8 liegt in einem größeren Menü ohne den Preis oder das Bedienpaket der Z10. Die Auswahl über seitliche Tasten und der schlauchgespeiste HP3-Milchweg bleiben tägliche Handgriffe. Die optionalen Funktionen J.O.E. und Coffee Timer benötigen das dokumentierte Konnektivitätszubehör; sie dürfen nicht allein aus dem Namen E8 abgeleitet werden.",
+      "fr": "Le rôle intermédiaire pratique de l’E8 est d’offrir un menu plus large sans le prix ni l’ensemble de commandes de la Z10. La sélection par boutons latéraux et le circuit lait HP3 alimenté par tuyau restent des tâches physiques quotidiennes. Les fonctions optionnelles J.O.E. et Coffee Timer nécessitent l’accessoire de connectivité documenté ; il ne faut pas les supposer incluses sur la seule base du nom E8."
+    },
+    "72": {
+      "nl": "11 B × 13.8 H × 17.6 D in; circa 22 lb. De E8 Midnight Silver NAD gebruikt een gesloten zetgroep; intern werk verloopt via een gekwalificeerde servicedienst.",
+      "de": "11 B × 13.8 H × 17.6 T in; etwa 22 lb. Die E8 Midnight Silver NAD verwendet eine geschlossene Brühgruppe; Arbeiten im Inneren erfolgen über qualifizierten Service.",
+      "fr": "11 l × 13.8 H × 17.6 P in ; environ 22 lb. L’E8 Midnight Silver NAD utilise un groupe d’extraction fermé ; les interventions internes passent par un service qualifié."
+    },
+    "73": {
+      "nl": "Display en koffie-uitloop van de JURA E8 van de vijfde generatie",
+      "de": "Display und Kaffeeauslauf der JURA E8 der fünften Generation",
+      "fr": "Écran et sortie café de la JURA E8 de cinquième génération"
+    },
+    "74": {
+      "nl": "Het officiële beeld van de dagelijkse bediening binnen de modelfamilie toont de huidige indeling van bediening en uitlopen. De NAD-identiteit en specificaties komen uit de documentatie van artikel 15722.",
+      "de": "Das offizielle Bild zum Familienablauf zeigt die aktuelle Anordnung von Bedienelementen und Ausläufen. NAD-Identität und technische Daten stammen aus den Unterlagen zu Artikel 15722.",
+      "fr": "Le visuel officiel de la famille en utilisation montre la disposition actuelle des commandes et des sorties. L’identité NAD et les caractéristiques proviennent de la documentation de l’article 15722."
+    },
+    "75": {
+      "nl": "De prijs bij erkende Amerikaanse winkelier Abt bedroeg $2,599.00: artikel 15722 stond voor $2,599 vermeld, maar kon op de controledatum niet worden besteld; belasting, het moment van aanvullen en garantie kunnen veranderen",
+      "de": "Der Preis beim autorisierten US-Händler Abt betrug $2,599.00: Artikel 15722 war für $2,599 gelistet, konnte am Prüfdatum aber nicht bestellt werden; Steuern, Nachliefertermin und Garantie können sich ändern",
+      "fr": "Le prix chez Abt, revendeur américain agréé, était de $2,599.00 : l’article 15722 était affiché à $2,599 mais ne pouvait pas être commandé à la date de vérification ; les taxes, le calendrier de réapprovisionnement et la garantie peuvent changer"
+    },
+    "76": {
+      "nl": "Prijs bij erkende Amerikaanse winkelier Abt: $2,599.00",
+      "de": "Preis beim autorisierten US-Händler Abt: $2,599.00",
+      "fr": "Prix chez Abt, revendeur américain agréé : $2,599.00"
+    },
+    "77": {
+      "nl": "Artikel 15722 stond voor $2,599 vermeld, maar kon op de controledatum niet worden besteld; belasting, het moment van aanvullen en garantie kunnen veranderen",
+      "de": "Artikel 15722 war für $2,599 gelistet, konnte am Prüfdatum aber nicht bestellt werden; Steuern, Nachliefertermin und Garantie können sich ändern",
+      "fr": "L’article 15722 était affiché à $2,599 mais ne pouvait pas être commandé à la date de vérification ; les taxes, le calendrier de réapprovisionnement et la garantie peuvent changer"
+    },
+    "78": {
+      "nl": "Discussies van JURA E8-eigenaren",
+      "de": "Diskussionen von JURA E8-Besitzern",
+      "fr": "Discussions de propriétaires de JURA E8"
+    },
+    "79": {
+      "nl": "Zelfgeselecteerde ervaringen van eigenaren over recepten, reiniging en servicevragen, geen betrouwbaarheidspercentages.",
+      "de": "Selbst ausgewählte Besitzerberichte zu Rezepten, Reinigung und Servicefragen, keine Zuverlässigkeitsquoten.",
+      "fr": "Témoignages spontanés de propriétaires sur les recettes, le nettoyage et le service, pas des taux de fiabilité."
+    },
+    "80": {
+      "nl": "Discussie over JURA-instellingen",
+      "de": "Diskussion zur JURA-Konfiguration",
+      "fr": "Discussion sur les réglages JURA"
+    },
+    "81": {
+      "nl": "Zelfgeselecteerde receptdiscussie die het belang van volume- en sterkte-instellingen illustreert.",
+      "de": "Selbst ausgewählte Rezeptdiskussion, die die Bedeutung von Mengen- und Stärke-Einstellungen veranschaulicht.",
+      "fr": "Discussion spontanée sur les recettes illustrant l’importance des réglages de volume et d’intensité."
+    },
+    "82": {
+      "nl": "E8 Midnight Silver NAD tegenover de meest vergelijkbare alternatieven",
+      "de": "E8 Midnight Silver NAD im Vergleich mit den ähnlichsten Alternativen",
+      "fr": "E8 Midnight Silver NAD face aux alternatives les plus proches"
+    },
+    "83": {
+      "nl": "Snelle vergelijking van de JURA E8 Midnight Silver NAD",
+      "de": "Kurzvergleich zur JURA E8 Midnight Silver NAD",
+      "fr": "Comparatif rapide de la JURA E8 Midnight Silver NAD"
+    },
+    "84": {
+      "nl": "De JURA E8 Midnight Silver NAD en de meest vergelijkbare alternatieven",
+      "de": "JURA E8 Midnight Silver NAD und ihre ähnlichsten Alternativen",
+      "fr": "La JURA E8 Midnight Silver NAD et ses alternatives les plus proches"
+    },
+    "85": {
+      "nl": "Uitgebreide vergelijking van de JURA E8 Midnight Silver NAD",
+      "de": "Ausführlicher Vergleich zur JURA E8 Midnight Silver NAD",
+      "fr": "Comparatif détaillé de la JURA E8 Midnight Silver NAD"
+    },
+    "86": {
+      "nl": "Noord-Amerikaanse E8 Midnight Silver NAD van de vijfde generatie, artikel 15722. Dit is niet de eerdere EC-generatie die nog in veel beoordelingen en productvermeldingen staat. Vergelijk die exacte uitvoering met de onderstaande alternatieven.",
+      "de": "Nordamerikanische E8 Midnight Silver NAD der fünften Generation, Artikel 15722. Dies ist nicht die frühere EC-Generation, die weiterhin in vielen Testberichten und Produktlistungen gezeigt wird. Vergleiche genau diese Ausstattung mit den folgenden Alternativen.",
+      "fr": "E8 Midnight Silver NAD nord-américaine de cinquième génération, article 15722. Il ne s’agit pas de l’ancienne génération EC encore visible dans de nombreuses analyses et fiches. Comparez cette configuration exacte aux alternatives ci-dessous."
+    },
+    "87": {
+      "nl": "Leven met de E8 Midnight Silver NAD",
+      "de": "Alltag mit der E8 Midnight Silver NAD",
+      "fr": "Vivre avec l’E8 Midnight Silver NAD"
+    },
+    "88": {
+      "nl": "Vraag de verkoper bij het vergelijken van aanbiedingen om de generatie met het artikelnummer te identificeren en het menu met Hot, Light en Sweet te tonen. Een voordelige oudere E8 kan iets anders bieden. Vergelijk de huidige voorraad van 15722 en de kosten van accessoires met de E6 voordat je vooral voor een langere receptenlijst betaalt.",
+      "de": "Bitte den Verkäufer beim Angebotsvergleich, die Generation anhand der Artikelnummer zu identifizieren und das Hot-, Light- und Sweet-Menü zu zeigen. Eine günstige ältere E8 kann ein anderes Angebot darstellen. Vergleiche den aktuellen Bestand von 15722 und die Zubehörkosten mit der E6, bevor du hauptsächlich für eine längere Rezeptliste bezahlst.",
+      "fr": "En comparant les offres, demandez au vendeur d’identifier la génération par le numéro d’article et de montrer le menu Hot, Light et Sweet. Une ancienne E8 bon marché peut représenter une proposition différente. Comparez le stock actuel de 15722 et le coût des accessoires à l’E6 avant de payer principalement pour une liste de recettes plus longue."
+    },
+    "89": {
+      "nl": "Andere opties voor de koper van een E8 Midnight Silver NAD",
+      "de": "Weitere Optionen für Käufer einer E8 Midnight Silver NAD",
+      "fr": "Autres options pour l’acheteur d’une E8 Midnight Silver NAD"
+    },
+    "90": {
+      "nl": "Veelgestelde vragen over de E8 Midnight Silver NAD",
+      "de": "Häufige Fragen zur E8 Midnight Silver NAD",
+      "fr": "Questions fréquentes sur l’E8 Midnight Silver NAD"
+    },
+    "91": {
+      "nl": "Welke generatie en uitvoering behandelt deze beoordeling van de E8 Midnight Silver NAD?",
+      "de": "Welche Generation und Ausstattung behandelt diese Bewertung der E8 Midnight Silver NAD?",
+      "fr": "Quelle génération et quelle configuration cette analyse de l’E8 Midnight Silver NAD couvre-t-elle ?"
+    },
+    "92": {
+      "nl": "Wat komt er kijken bij dagelijks gebruik van de E8 Midnight Silver NAD?",
+      "de": "Was gehört zum täglichen Gebrauch der E8 Midnight Silver NAD?",
+      "fr": "Qu’implique l’utilisation quotidienne de l’E8 Midnight Silver NAD ?"
+    },
+    "93": {
+      "nl": "Welk melkonderhoud vereist de E8 Midnight Silver NAD?",
+      "de": "Welche Milchpflege benötigt die E8 Midnight Silver NAD?",
+      "fr": "Quel entretien du système lait l’E8 Midnight Silver NAD exige-t-elle ?"
+    },
+    "94": {
+      "nl": "Welke molen wordt voor deze E8 Midnight Silver NAD opgegeven?",
+      "de": "Welches Mahlwerk ist für diese E8 Midnight Silver NAD angegeben?",
+      "fr": "Quel moulin est indiqué pour cette E8 Midnight Silver NAD ?"
+    },
+    "95": {
+      "nl": "Bekijk De gloednieuwe JURA E8 (SD) 2025 beoordeeld van KafiService",
+      "de": "Die brandneue JURA E8 (SD) 2025 im Test von KafiService ansehen",
+      "fr": "Regarder La toute nouvelle JURA E8 (SD) 2025 à l’essai par KafiService"
+    },
+    "98": {
+      "nl": "De gloednieuwe JURA E8 (SD) 2025 beoordeeld",
+      "de": "Die brandneue JURA E8 (SD) 2025 im Test",
+      "fr": "La toute nouvelle JURA E8 (SD) 2025 à l’essai"
+    },
+    "99": {
+      "nl": "4 september 2025",
+      "de": "4. September 2025",
+      "fr": "4 septembre 2025"
+    },
+    "100": {
+      "nl": "Onafhankelijk bewijs van de werkwijze binnen de huidige generatie van de modelfamilie. Regionale specificaties worden getoetst aan de NAD-bronnen.",
+      "de": "Unabhängige Belege zum Arbeitsablauf der aktuellen Modellgeneration. Regionale technische Daten werden anhand der NAD-Quellen geprüft.",
+      "fr": "Éléments indépendants sur la préparation dans la famille de génération actuelle. Les caractéristiques régionales sont vérifiées à partir des sources NAD."
+    },
+    "101": {
+      "nl": "Deze beoordeling behandelt artikel 15722, Noord-Amerika, vijfde generatie. De prijs van $2,599, het gesloten zetsysteem en de optionele connectiviteit vereisen meer dan een uitgebreid menu om de aankoop te rechtvaardigen.",
+      "de": "Diese Bewertung behandelt Artikel 15722, Nordamerika, fünfte Generation. Der Preis von $2,599, das geschlossene Brühsystem und die optionale Konnektivität verlangen mehr als ein großes Menü, um den Kauf zu rechtfertigen.",
+      "fr": "Cette analyse couvre l’article 15722, Amérique du Nord, cinquième génération. Le prix de $2,599, le système d’extraction fermé et la connectivité optionnelle demandent davantage qu’un long menu pour justifier l’achat."
+    },
+    "102": {
+      "nl": "De gloednieuwe JURA E8 (SD) 2025 beoordeeld",
+      "de": "Die brandneue JURA E8 (SD) 2025 im Test",
+      "fr": "La toute nouvelle JURA E8 (SD) 2025 à l’essai"
+    },
+    "103": {
+      "nl": "Onafhankelijke video van 4 september 2025, gebruikt om de werkwijze binnen de huidige generatie van de modelfamilie te verduidelijken; regionale SD- en NAD-details kunnen verschillen.",
+      "de": "Unabhängiges Video vom 4. September 2025 zum Arbeitsablauf der aktuellen Modellgeneration; regionale SD- und NAD-Details können sich unterscheiden.",
+      "fr": "Vidéo indépendante du 4 septembre 2025 utilisée pour illustrer la préparation dans la famille de génération actuelle ; les détails régionaux SD et NAD peuvent différer."
+    },
+    "104": {
+      "nl": "Officiële context van de huidige modelfamilie om generaties en verwante modellen uit elkaar te houden.",
+      "de": "Offizieller aktueller Familienkontext zur Unterscheidung von Generationen und benachbarten Modellen.",
+      "fr": "Contexte officiel de la famille actuelle pour distinguer les générations et les modèles voisins."
+    },
+    "105": {
+      "nl": "Onafhankelijke achtergrond over water; de JURA-instructies blijven leidend.",
+      "de": "Unabhängiger Hintergrund zu Wasser; die JURA-Anweisungen bleiben maßgeblich.",
+      "fr": "Contexte indépendant sur l’eau ; les instructions JURA restent déterminantes."
+    },
+    "106": {
+      "nl": "E8 Midnight Silver NAD: koop de werkwijze, niet het aantal menuopties",
+      "de": "E8 Midnight Silver NAD: den Ablauf kaufen, nicht die Zahl der Menüoptionen",
+      "fr": "E8 Midnight Silver NAD : acheter une méthode de préparation, pas un nombre de boissons au menu"
+    },
+    "126": {
+      "nl": "JURA E8 Midnight Silver NAD: De gloednieuwe JURA E8 (SD) 2025 beoordeeld · KafiService (2025-09-04) | Coffeedant",
+      "de": "JURA E8 Midnight Silver NAD: Die brandneue JURA E8 (SD) 2025 im Test · KafiService (2025-09-04) | Coffeedant",
+      "fr": "JURA E8 Midnight Silver NAD : La toute nouvelle JURA E8 (SD) 2025 à l’essai · KafiService (2025-09-04) | Coffeedant"
+    },
+    "127": {
+      "nl": "Bekijk KafiService over de JURA E8 Midnight Silver NAD (2025-09-04): De gloednieuwe JURA E8 (SD) 2025 beoordeeld. Onafhankelijk bewijs van de werkwijze binnen de huidige generatie van de modelfamilie. Regionale specificaties worden getoetst aan de NAD-bronnen.",
+      "de": "KafiService zur JURA E8 Midnight Silver NAD ansehen (2025-09-04): Die brandneue JURA E8 (SD) 2025 im Test. Unabhängige Belege zum Arbeitsablauf der aktuellen Modellgeneration. Regionale technische Daten werden anhand der NAD-Quellen geprüft.",
+      "fr": "Regardez KafiService présenter la JURA E8 Midnight Silver NAD (2025-09-04) : La toute nouvelle JURA E8 (SD) 2025 à l’essai. Éléments indépendants sur la préparation dans la famille de génération actuelle. Les caractéristiques régionales sont vérifiées à partir des sources NAD."
+    },
+    "129": {
+      "nl": "Video van KafiService over de JURA E8 Midnight Silver NAD",
+      "de": "Video zur JURA E8 Midnight Silver NAD von KafiService",
+      "fr": "Vidéo sur la JURA E8 Midnight Silver NAD par KafiService"
+    },
+    "130": {
+      "nl": "← Beoordeling van de JURA E8 Midnight Silver NAD",
+      "de": "← Testbericht zur JURA E8 Midnight Silver NAD",
+      "fr": "← Analyse de la JURA E8 Midnight Silver NAD"
+    },
+    "131": {
+      "nl": "De gloednieuwe JURA E8 (SD) 2025 beoordeeld van KafiService",
+      "de": "Die brandneue JURA E8 (SD) 2025 im Test von KafiService",
+      "fr": "La toute nouvelle JURA E8 (SD) 2025 à l’essai par KafiService"
+    },
+    "132": {
+      "nl": "JURA E8 Midnight Silver NAD · Perspectief van een winkelier",
+      "de": "JURA E8 Midnight Silver NAD · Händlerperspektive",
+      "fr": "JURA E8 Midnight Silver NAD · Point de vue d’un revendeur"
+    },
+    "133": {
+      "nl": "De video en de meningen zijn van KafiService. Coffeedant plaatst dit perspectief naast onze geschreven beoordeling.",
+      "de": "Video und Meinungen stammen von KafiService. Coffeedant ergänzt unseren schriftlichen Testbericht um diese Perspektive.",
+      "fr": "La vidéo et les opinions sont celles de KafiService. Coffeedant présente ce point de vue en complément de notre analyse écrite."
+    },
+    "137": {
+      "nl": "Video van KafiService",
+      "de": "Video von KafiService",
+      "fr": "Vidéo de KafiService"
+    }
+  }
+}
