@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/coffee-beans/",
+      "sourceHash": "49d4c32feb8833bfc166e38050d4c1069a50b7857f93757fa411560c95778172"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "81bb749d96b2c2c3bc41e163a749523e8cbe51d34d81aec5c62e202a1ce4441b",
+      "source": "New buying guide · November 4, 2026",
+      "kind": "text",
+      "context": "New buying guide · November 4, 2026"
+    },
+    {
+      "id": "cf7274eb0dbebb1fe74b89317f7f9cc30e99339f17c51caf0ef25ea440c342cf",
+      "source": "Whole beans for an automatic-drip carafe",
+      "kind": "text",
+      "context": "Whole beans for an automatic-drip carafe"
+    },
+    {
+      "id": "83cce59f905bdcfd52c1855a4799ee52cbf288326ef039938119b391cbb7d641",
+      "source": "Compare three roaster-documented whole beans for a nutty daily pot, a brighter medium pot and a darker cup with cream.",
+      "kind": "text",
+      "context": "Compare three roaster-documented whole beans for a nutty daily pot, a brighter medium pot and a darker cup with cream. Read the automatic-drip bean guide."
+    },
+    {
+      "id": "53c6752dde7f979986c35cc08ce39eb14d723d7be3d8a9103e13a9ba70253f8d",
+      "source": "Read the automatic-drip bean guide",
+      "kind": "text",
+      "context": "Read the automatic-drip bean guide"
+    }
+  ],
+  "snapshotHash": "fccc2dbcfedbe7eaa9d67a3bab7cace890c13bad22327939135303285205766d"
+}

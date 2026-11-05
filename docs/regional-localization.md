@@ -3877,6 +3877,67 @@ incomplete. Ready-pages publication, continuation and source-change
 maintenance stay active. Current-head checks, production deployment, complete
 live manifests and reciprocal links must pass before reporting publication.
 
+### Direct batch 77: GIGA 6, automatic-drip guide and current hubs (2026-11-05)
+
+Directly translate the complete JURA GIGA 6 Aluminum NAA review and its
+catalogued Faema Canada video into NL/DE/FR. Keep the dated US factory-refurbished
+15396.99 reference separate from UK 230 V EA article 15394. The conflicting
+16-versus-28 specialty counts remain explicit. Preserve the out-of-stock
+$3,499 refurb, $5,999 reference, one-year refurb warranty, dual grinders and
+fluid systems, daily HP2 milk care and exact-model parts/service conditions.
+Original video/source attributions and dates remain as written; translation
+does not reverify them. No local model equivalence, converted prices, fresh
+offers or Coffeedant physical testing are introduced.
+
+The immutable full snapshot freezes 865 review/shared slots. A missing snapshot
+pins the current review/video fingerprints and 121 slots, covered by 90 authored
+translation triples and two unchanged proper names. A separate frozen
+four-slot supplement translates the new automatic-drip card on the bean hub,
+and a two-slot supplement translates the new no-plug card on the machine hub.
+The automatic-drip guide additionally uses an immutable 645-slot full snapshot
+and 109-slot missing snapshot, covered by 88 translation triples and three
+unchanged proper-name links. Translate its complete body, seven FAQ answers,
+two comparison tables, metadata and accessible labels. Preserve the distinction
+between SCA equipment capacity checks, general filter ratios and Blue Bottle's
+hand-pour recipe; no current-bag tasting, delivery, stock or price is inferred.
+Correct the newly cached German guide's mistranslated grinder settings and
+brewer terminology, and the bean-hub heading. Reuse valid cached wording and
+preserve all unrelated concurrent cache additions and registered routes.
+The bean hub now links to the complete native guide. The unfinished manual
+guide continues opening its English source with the localized edition notice.
+The GIGA snapshots remain unchanged across the independent source additions.
+
+Preserve the registered German review `/testbericht-jura-giga-6/` and featured
+video `/jura-giga-6-video-testbericht-faema-canada/`. New Dutch paths use
+`/espressomachines/jura-giga-6/`; French paths use
+`/machines-expresso/jura-giga-6/`, each with its nested featured video. Other
+unfinished GIGA videos retain English destinations and the native notice.
+
+All 210 localization and 20 SEO tests pass. Final analytics, generated SEO,
+full previews and production checks cover the current 663-page source.
+Eighteen full comparisons cover the review, video, automatic-drip guide,
+both updated hubs and existing E24 regression in all three editions.
+The prepared GIGA review has 90 paragraphs and 99 after native Finder rebuilding,
+six FAQ answers and nine tables; the video has four paragraphs, and the complete
+bean hub retains all 93 paragraphs. Current production and runtime verification
+also covers the refreshed machine hub and its English guide destination before
+publication. Mobile rendering checks identified a long German Finder heading
+overflowing its container and a constraint label touching its value.
+Regional-only wrapping within the existing grid cells preserves the reviewed
+wording and the US layout; final browser checks cover the corrected heading,
+native guide links, tables, menus, Finder filters and video dialogs.
+All 35 bean reviews and the
+151-machine/seven-grinder Finder validators remain required on the current build.
+
+Current source is 663 pages / 56,955 segments. Ready selection is 138 indexable
+pages plus 404 per edition, preserving all 135 earlier canonical paths and the
+approved Dutch dosing URL. Coverage is NL 14,733 translated / 42,222 pending,
+DE 14,799 / 42,156 and FR 14,742 / 42,213. Finder gaps remain zero; 155 non-video
+and 369 video pages remain unfinished. Full editions remain incomplete.
+Ready-pages publication, continuation and source-change maintenance remain
+active. Current-head checks, production deployments, full live manifests and
+reciprocal links must pass before reporting publication.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

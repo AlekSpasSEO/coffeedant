@@ -49,9 +49,12 @@ const styles = `
 // Native menus need room for the language picker just above the mobile breakpoint.
 // Keep the English header unchanged, and fit translated automatic-diagram notes
 // within the original viewBox without shortening their wording or moving geometry.
+// Long translated headings and constraint labels must fit their existing grid cells.
 const regionalLayoutStyles = `
 @media(min-width:1321px){.cd-header .cd-header__inner{gap:8px}.cd-header .cd-nav__list{gap:4px}}
 [data-product-schematic="automatic"] .diagram-note{font-size:13px}
+.coffee-finder-heading h2{overflow-wrap:anywhere}
+.constraint-links span,.constraint-links strong{min-width:0;overflow-wrap:anywhere}
 `;
 
 // Native disclosure keeps the selector usable before JavaScript loads.
