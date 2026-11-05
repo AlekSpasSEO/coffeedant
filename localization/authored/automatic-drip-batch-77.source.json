@@ -1,0 +1,667 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/coffee-beans/best-coffee-beans-for-automatic-drip/",
+      "sourceHash": "a09eb8d90ae6af32016a7ae2ad242f42d3acbb4b6da386a7c7d765c8eb634577"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "ed9e8079131972c8485e4f7faf5fddfdf714748f69c154fa1e2379e969bc0c0a",
+      "source": "Best Whole-Bean Coffees for Automatic Drip Brewers | Coffeedant",
+      "kind": "text",
+      "context": "Best Whole-Bean Coffees for Automatic Drip Brewers | Coffeedant"
+    },
+    {
+      "id": "15ec255b525a8ebc76b40f0a706c6a59ebdcbc773376f645177e69c8e061e116",
+      "source": "Three research-led US whole-bean choices for a full automatic-drip carafe: a nutty daily blend, a fruit-aware medium blend and a darker cup with cream.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "f365c6b2f24eb2e2b4a058ddeaf27b5e4f2494ecaddf5727faad0e201264d58e",
+      "source": "Best Whole-Bean Coffees for Automatic Drip Brewers | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "951094f42fedda40f16293167fddbbabe697fd19099c7ea80881929075a5c2f7",
+      "source": "Automatic drip",
+      "kind": "text",
+      "context": "Automatic drip"
+    },
+    {
+      "id": "42816957c461d4ebffff089f28607a127fdeb00ee4d8f61765a6d94a869e1ede",
+      "source": "Best Whole-Bean Coffees for Automatic Drip Brewers",
+      "kind": "text",
+      "context": "Best Whole-Bean Coffees for Automatic Drip Brewers"
+    },
+    {
+      "id": "e47568e0cd0ca8a6e2d6dc1ca6bdc952eaaffea88113c2049c96f2690d756fe6",
+      "source": "Choose a daily nutty pot, a medium pot with brightness or a darker cup for cream. These three exact whole beans have direct roaster support for automatic drip.",
+      "kind": "text",
+      "context": "Choose a daily nutty pot, a medium pot with brightness or a darker cup for cream. These three exact whole beans have direct roaster support for automatic drip."
+    },
+    {
+      "id": "fff3090390722038e0a3006457807cfa2a11dcba0ad3600a6cc466bd3c593d5f",
+      "source": "November 4, 2026",
+      "kind": "text",
+      "context": "November 4, 2026"
+    },
+    {
+      "id": "0782351c4a619d407b16a6e9fda1396bfc12c02acdedf580c6a6559c9cdaf593",
+      "source": "I compared current roaster records, brewer guidance and our full reviews. I have not bought, brewed or tasted these bags. The best-for labels are research-led buying judgments.",
+      "kind": "text",
+      "context": "I compared current roaster records, brewer guidance and our full reviews. I have not bought, brewed or tasted these bags. The best-for labels are research-led buying judgments."
+    },
+    {
+      "id": "efae099d4245df71c59f81d62211841ee10c55762efbe4f613e0116db26e94b9",
+      "source": "Choose your drip bean",
+      "kind": "text",
+      "context": "Choose your drip bean"
+    },
+    {
+      "id": "55ba5b017ea03706a9df345d4c3a719de1e800b27d49059888d143c4726a217a",
+      "source": "Choose for the whole pot",
+      "kind": "text",
+      "context": "Choose for the whole pot"
+    },
+    {
+      "id": "31f64149a71ad124beb38eae4b10e807a904f415258c28eae4f58a04e3ae3899",
+      "source": "Measure a real batch before changing beans",
+      "kind": "text",
+      "context": "Measure a real batch before changing beans"
+    },
+    {
+      "id": "b0904ed8096ef9af32258fc32ceffeeb6c756094dbb688d95754fe0b6a645205",
+      "source": "Match the drinkers sharing the carafe",
+      "kind": "text",
+      "context": "Match the drinkers sharing the carafe"
+    },
+    {
+      "id": "694052baefe667dfad15dbac775a672273cf7d25a195567a4ecb361ec127709d",
+      "source": "Buy for the pace of the household",
+      "kind": "text",
+      "context": "Buy for the pace of the household"
+    },
+    {
+      "id": "00b5687a13dc77b88d65d4cb60b1f9a4b805441a62f3682ee8f211ea88c756bf",
+      "source": "When these three are the wrong shortlist",
+      "kind": "text",
+      "context": "When these three are the wrong shortlist"
+    },
+    {
+      "id": "cc0ca130791cfb96f4aff53c789ea1c7d7fba621f4cf773ce957cdbd14e57b63",
+      "source": "This is a US whole-bean shortlist for an automatic filter brewer making several cups at once. We required an exact currently identifiable bag, an explicit roaster statement about automatic drip, a linked full Coffeedant review and a distinct buyer reason. We excluded a coffee whose only method evidence was a hand-pour recipe, and we did not rank a sold-out or unclear format by price.",
+      "kind": "text",
+      "context": "This is a US whole-bean shortlist for an automatic filter brewer making several cups at once. We required an exact currently identifiable bag, an explicit roaster statement about automatic drip, a linked full Coffeedant review and a distinct buyer reason. We excluded a coffee whose only method evidence was a hand-pour recipe, and we did not rank a sold-out or unclear format by price. [1] [3] [4]"
+    },
+    {
+      "id": "63d74b281656da2f28a6f95e1a8a2f29cfb96f6ca4e5198ef40d59c1535e0de5",
+      "source": "The choice is between a nutty daily medium blend, a brighter medium blend and a darker chocolate-rich blend that can take cream. All three roasters describe their own intended flavor. Those descriptions do not prove what a future bag will taste like in your machine. Coffeedant has not bought or brewed these bags.",
+      "kind": "text",
+      "context": "The choice is between a nutty daily medium blend, a brighter medium blend and a darker chocolate-rich blend that can take cream. All three roasters describe their own intended flavor. Those descriptions do not prove what a future bag will taste like in your machine. Coffeedant has not bought or brewed these bags."
+    },
+    {
+      "id": "40a34f7c05b8f795cb7745e3cdf87fcbb8785edaaa3704ff9f1ce4f574569e7d",
+      "source": "Our espresso-and-drip guide solves a different problem: one bag and grinder moving between a portafilter and a filter brewer. This page assumes the pot is the main job. That changes the questions to basket capacity, repeated full-carafe use, whether the household drinks black or with cream, and how quickly a larger bag will be consumed.",
+      "kind": "text",
+      "context": "Our espresso-and-drip guide solves a different problem: one bag and grinder moving between a portafilter and a filter brewer. This page assumes the pot is the main job. That changes the questions to basket capacity, repeated full-carafe use, whether the household drinks black or with cream, and how quickly a larger bag will be consumed."
+    },
+    {
+      "id": "d0e67b625f515e3394935234c3cc796bda86d56fd358f073210bb8e9b1a28710",
+      "source": "The SCA home-brewer requirement uses about 55 g of coffee per liter at maximum capacity to check that a basket accommodates a full brew without overflow. That is a design requirement for certified equipment, not a universal best dose for your coffee. Stumptown’s 28 g to 475 ml drip start is close to 59 g/L. Counter Culture gives a wider general filter range of one part coffee to 15–18 parts water. Keep your machine manual, actual water fill and basket limit in view.",
+      "kind": "text",
+      "context": "The SCA home-brewer requirement uses about 55 g of coffee per liter at maximum capacity to check that a basket accommodates a full brew without overflow. That is a design requirement for certified equipment, not a universal best dose for your coffee. Stumptown’s 28 g to 475 ml drip start is close to 59 g/L. Counter Culture gives a wider general filter range of one part coffee to 15–18 parts water. Keep your machine manual, actual water fill and basket limit in view. [2] [3] [6]"
+    },
+    {
+      "id": "867700230eead993c4e9e490f143636e4e645356c234537a46e8d242b4fde029",
+      "source": "Start with one weighed coffee and water amount, the same filter, and a grind appropriate to your machine. Brew a full pot only if the brewer and basket are designed for it. Record the result before changing grind or dose. If a pot tastes weak after sitting, first distinguish brew strength from time on a warming plate; beans cannot fix an overheld carafe. None of these suggestions is a Coffeedant extraction measurement.",
+      "kind": "text",
+      "context": "Start with one weighed coffee and water amount, the same filter, and a grind appropriate to your machine. Brew a full pot only if the brewer and basket are designed for it. Record the result before changing grind or dose. If a pot tastes weak after sitting, first distinguish brew strength from time on a warming plate; beans cannot fix an overheld carafe. None of these suggestions is a Coffeedant extraction measurement."
+    },
+    {
+      "id": "ba025e95ad50f0c121161c3161230dd7f8119632369c250055037293d43be59e",
+      "source": "Blue Bottle’s 27 g to 350 g recipe is explicitly for its hand-poured dripper. It helps identify the roaster’s filter-coffee intent but should not be entered as an automatic-brewer preset. A machine controls delivery differently, and its basket may use a different filter geometry.",
+      "kind": "text",
+      "context": "Blue Bottle’s 27 g to 350 g recipe is explicitly for its hand-poured dripper. It helps identify the roaster’s filter-coffee intent but should not be entered as an automatic-brewer preset. A machine controls delivery differently, and its basket may use a different filter geometry. [4]"
+    },
+    {
+      "id": "0eb6b12d760b8b9c15c8ec349131d953a902e3cbf107980d96c0538866ba8ce2",
+      "source": "Three full-carafe directions",
+      "kind": "text",
+      "context": "Three full-carafe directions"
+    },
+    {
+      "id": "288280e98aa7114dcfb835e806c90ac008133494975cfb43cad560780fa6e473",
+      "source": "Scrollable automatic drip coffee comparison",
+      "kind": "attribute",
+      "context": "Three full-carafe directionsQuick comparisonUS whole-bean identities checked November 4, 2026; no delivered-price rankingCoffeeBest forRoaster flavor briefSkip ifCounter Culture Coffee Fast ForwardLow-fuss daily carafeNutty, sweet and creamy, per Counter CultureYou want a fixed-origin coffee or clearly prominent berry and citrus notes.Stumptown Coffee Roasters Holler MountainMedium carafe with some brightnessCitrus, caramel and berry jam, per StumptownYour household wants a roast-forward, fruit-free pot every morning.Blue Bottle Coffee Bella DonovanDarker pot for black or creamRaspberry, chocolate and molasses, per Blue BottleYou want a lighter, floral cup or dislike the possibility of fruit in a dark blend."
+    },
+    {
+      "id": "67d1454905af4a26cb8e76b34277a89c99909d0d7acd4fe7c1a6f05938400eb3",
+      "source": "US whole-bean identities checked November 4, 2026; no delivered-price ranking",
+      "kind": "text",
+      "context": "US whole-bean identities checked November 4, 2026; no delivered-price ranking"
+    },
+    {
+      "id": "904ba03d9283c86abf78793a2f306023f2ab180fff78ec8fe9a386e9f0c1af2e",
+      "source": "Low-fuss daily carafe",
+      "kind": "text",
+      "context": "Low-fuss daily carafe"
+    },
+    {
+      "id": "420ba837a7b8046a4c89aff5a9b8ad58a07d51d6a82f9a54c94131948473a1e1",
+      "source": "Nutty, sweet and creamy, per Counter Culture",
+      "kind": "text",
+      "context": "Nutty, sweet and creamy, per Counter Culture"
+    },
+    {
+      "id": "f7cf29279e5f0e2d5c2631c497b3ee89eb9aff9432c0d029623d864a8e84126e",
+      "source": "You want a fixed-origin coffee or clearly prominent berry and citrus notes.",
+      "kind": "text",
+      "context": "You want a fixed-origin coffee or clearly prominent berry and citrus notes."
+    },
+    {
+      "id": "374bc24d46a22cbfd181bcc68fe8486d444f3445b7884df1177e3e989a591651",
+      "source": "Medium carafe with some brightness",
+      "kind": "text",
+      "context": "Medium carafe with some brightness"
+    },
+    {
+      "id": "6091b16849faa6016193142ee6bf1d33957282e18cef6f65e8b4161867bcab8f",
+      "source": "Citrus, caramel and berry jam, per Stumptown",
+      "kind": "text",
+      "context": "Citrus, caramel and berry jam, per Stumptown"
+    },
+    {
+      "id": "cc4e803cb2f366ab2ce5e5a76aeeab0fe888b495fe22999885c4d23c4939fa73",
+      "source": "Your household wants a roast-forward, fruit-free pot every morning.",
+      "kind": "text",
+      "context": "Your household wants a roast-forward, fruit-free pot every morning."
+    },
+    {
+      "id": "5f68bea72c6971a2ea200c4f1ab9bbbc3c5e731328f2820d4cd298fd35fcd6e5",
+      "source": "Darker pot for black or cream",
+      "kind": "text",
+      "context": "Darker pot for black or cream"
+    },
+    {
+      "id": "125ee3d42083e820d7ccdabc32f453690a5e999b58e2ef654f7501a73174e51f",
+      "source": "Raspberry, chocolate and molasses, per Blue Bottle",
+      "kind": "text",
+      "context": "Raspberry, chocolate and molasses, per Blue Bottle"
+    },
+    {
+      "id": "da1b2667a6557e2df105b284ede293d554060f318ee0905b509dcf6719723628",
+      "source": "You want a lighter, floral cup or dislike the possibility of fruit in a dark blend.",
+      "kind": "text",
+      "context": "You want a lighter, floral cup or dislike the possibility of fruit in a dark blend."
+    },
+    {
+      "id": "398ff18845ac2526145dd8b5c18b5c08f5c23b7b85d3deaf9b2e6419088e07b9",
+      "source": "The current US whole-bean page calls Fast Forward a medium organic blend and explicitly supports auto-drip. Its familiar nut-and-sweet brief is the least fruit-led direction here.",
+      "kind": "text",
+      "context": "Why: The current US whole-bean page calls Fast Forward a medium organic blend and explicitly supports auto-drip. Its familiar nut-and-sweet brief is the least fruit-led direction here."
+    },
+    {
+      "id": "65b475208b2679f83d3ff3657050f9dd0e9f1aab88d6b250bef5134e75e26e31",
+      "source": "The blend changes with harvests; use the roast-date component selector for the bag you receive.",
+      "kind": "text",
+      "context": "Tradeoff: The blend changes with harvests; use the roast-date component selector for the bag you receive."
+    },
+    {
+      "id": "7263fc56ff760f581d532ed6cbedb4fa48cb805e9d55d0f8274493d0b84a7f30",
+      "source": "The roaster explicitly calls Holler Mountain an organic daily drip coffee and supplies a drip recipe. Caramel is the bridge for a household that accepts some fruit.",
+      "kind": "text",
+      "context": "Why: The roaster explicitly calls Holler Mountain an organic daily drip coffee and supplies a drip recipe. Caramel is the bridge for a household that accepts some fruit."
+    },
+    {
+      "id": "4b4ad6c21391b1b3a0d8c8819cc45ac67cf1fa4a68158939026fede02773dd5d",
+      "source": "Its citrus and berry brief may be more noticeable black than under milk; the blend components can change.",
+      "kind": "text",
+      "context": "Tradeoff: Its citrus and berry brief may be more noticeable black than under milk; the blend components can change."
+    },
+    {
+      "id": "450e781743cd847c8b2f8e2844d7eb76ea90278b2febd768b8ad1f42bd82018d",
+      "source": "The product description makes an unusually direct automatic-drip claim while giving a darker chocolate-rich alternative to the two medium blends.",
+      "kind": "text",
+      "context": "Why: The product description makes an unusually direct automatic-drip claim while giving a darker chocolate-rich alternative to the two medium blends."
+    },
+    {
+      "id": "636c58158022b847616ff883b56f52cc8d54b9953e6ec07f28180152e24edb78",
+      "source": "The berry edge remains part of the roaster brief. The hand-pour recipe cannot be copied as an automatic-brewer program.",
+      "kind": "text",
+      "context": "Tradeoff: The berry edge remains part of the roaster brief. The hand-pour recipe cannot be copied as an automatic-brewer program."
+    },
+    {
+      "id": "d7e76ad7a4a104968a9fb2ea9e697faa44925a527971f4fdda4d4bae28d1c134",
+      "source": "Scrollable detailed automatic drip comparison",
+      "kind": "attribute",
+      "context": "Compare the evidenceDetailed comparisonRoaster statements and published methods, not Coffeedant tastingFactorFast ForwardHoller MountainBella DonovanPot directionLow-fuss daily carafeMedium carafe with some brightnessDarker pot for black or creamMethod evidenceCounter Culture explicitly names auto-drip; its general filter guidance starts at 1:15–1:18 coffee to waterStumptown publishes a drip start of 28 g coffee to 475 ml water, about 1:17, with a medium-coarse grindBlue Bottle explicitly says this organic dark blend holds its own in automatic drip; its displayed 27 g/350 g recipe is for a hand-poured dripper, not a machine settingFlavor briefNutty, sweet and creamy, per Counter CultureCitrus, caramel and berry jam, per StumptownRaspberry, chocolate and molasses, per Blue BottleMain limitThe blend changes with harvests; use the roast-date component selector for the bag you receive.Its citrus and berry brief may be more noticeable black than under milk; the blend components can change.The berry edge remains part of the roaster brief. The hand-pour recipe cannot be copied as an automatic-brewer program.US checkoutVerify whole-bean size, roast date, stock, shipping and taxVerify whole-bean size, roast date, stock, shipping and taxVerify whole-bean size, roast date, stock, shipping and tax"
+    },
+    {
+      "id": "d62ea4306abf68787ae807b561c42201e3572b3c32572a842495de5850f941b3",
+      "source": "Roaster statements and published methods, not Coffeedant tasting",
+      "kind": "text",
+      "context": "Roaster statements and published methods, not Coffeedant tasting"
+    },
+    {
+      "id": "30ded678852953f8e4375682a7f4f34aeff1eae7870bac5a26009801e6e40809",
+      "source": "Pot direction",
+      "kind": "text",
+      "context": "Pot direction"
+    },
+    {
+      "id": "b35a59ea94cff851354ff8138f6cb56fff782f3d34ee6a19310a6a416e6048fb",
+      "source": "Counter Culture explicitly names auto-drip; its general filter guidance starts at 1:15–1:18 coffee to water",
+      "kind": "text",
+      "context": "Counter Culture explicitly names auto-drip; its general filter guidance starts at 1:15–1:18 coffee to water"
+    },
+    {
+      "id": "265f41834a1b9ca0c21a223a5607334382c3c8c2e35c7eedf37d7630f691c681",
+      "source": "Stumptown publishes a drip start of 28 g coffee to 475 ml water, about 1:17, with a medium-coarse grind",
+      "kind": "text",
+      "context": "Stumptown publishes a drip start of 28 g coffee to 475 ml water, about 1:17, with a medium-coarse grind"
+    },
+    {
+      "id": "af4db409622d5924a9ebd7643ab2dfc5387826e126ac692d4e7d7c2c606b2f9c",
+      "source": "Blue Bottle explicitly says this organic dark blend holds its own in automatic drip; its displayed 27 g/350 g recipe is for a hand-poured dripper, not a machine setting",
+      "kind": "text",
+      "context": "Blue Bottle explicitly says this organic dark blend holds its own in automatic drip; its displayed 27 g/350 g recipe is for a hand-poured dripper, not a machine setting"
+    },
+    {
+      "id": "61f17bf7fc25c9d777e7c295f8b79a232c16c3a92ef35da3e923ebc7f79c739c",
+      "source": "Fast Forward is the restrained starting point when several drinkers prefer a familiar nutty and sweet direction. Counter Culture says the underlying coffees rotate, so the roast-date selector matters more than an old country list. The Guardian’s prior sample is an independent opinion about that sample, not a calibration for the bag sold today.",
+      "kind": "text",
+      "context": "Fast Forward is the restrained starting point when several drinkers prefer a familiar nutty and sweet direction. Counter Culture says the underlying coffees rotate, so the roast-date selector matters more than an old country list. The Guardian’s prior sample is an independent opinion about that sample, not a calibration for the bag sold today. [1] [7]"
+    },
+    {
+      "id": "39cd68174db049e566670ce450ff3f80244f16538b06bc99f4ef560325a19eee",
+      "source": "Holler Mountain introduces a stated citrus and berry-jam direction over caramel. Stumptown says it serves daily drip and publishes a practical starting dose. That makes it the clearest recipe-led first try if the household accepts a bit of brightness. Its medium-roast label does not guarantee that everyone will perceive the same acidity.",
+      "kind": "text",
+      "context": "Holler Mountain introduces a stated citrus and berry-jam direction over caramel. Stumptown says it serves daily drip and publishes a practical starting dose. That makes it the clearest recipe-led first try if the household accepts a bit of brightness. Its medium-roast label does not guarantee that everyone will perceive the same acidity. [3]"
+    },
+    {
+      "id": "16447fe0db07ae8c8c0111dab3a7274cd3baa8153c68cb7ca2c925887acbd489",
+      "source": "Bella Donovan is the dark option when black coffee or cream is the routine. Blue Bottle describes chocolate, raspberry and molasses, and says the blend holds up in automatic drip. An older independent tasting can illustrate one earlier bag, but the roaster’s current listing is the evidence for today’s identity and intent. Do not interpret “dark” as “fruit-free.”",
+      "kind": "text",
+      "context": "Bella Donovan is the dark option when black coffee or cream is the routine. Blue Bottle describes chocolate, raspberry and molasses, and says the blend holds up in automatic drip. An older independent tasting can illustrate one earlier bag, but the roaster’s current listing is the evidence for today’s identity and intent. Do not interpret “dark” as “fruit-free.” [4] [8]"
+    },
+    {
+      "id": "125527e945ad2f3897853565b366320fff9f2cf7e62afb54fa7dec531d72b2c9",
+      "source": "A full carafe uses more coffee than one cup, but a bulk bag is useful only if it stays enjoyable through the time you will take to finish it. Begin with a small whole-bean format, check the delivered roast date, seal it away from heat and light, and grind near brewing. A direct listing does not verify the date or storage history of the bag delivered to you.",
+      "kind": "text",
+      "context": "A full carafe uses more coffee than one cup, but a bulk bag is useful only if it stays enjoyable through the time you will take to finish it. Begin with a small whole-bean format, check the delivered roast date, seal it away from heat and light, and grind near brewing. A direct listing does not verify the date or storage history of the bag delivered to you."
+    },
+    {
+      "id": "886103871286aa1848b2dad017079b8a2bc1740929df6c96edeb2260e59637b1",
+      "source": "Check the live US cart for the exact whole-bean size, stock, shipping and tax. Subscription selectors can change the displayed amount and purchase commitment. We have not ranked these bags by a price that may change before checkout; the linked reviews explain the last checked offer context. No discount is claimed here.",
+      "kind": "text",
+      "context": "Check the live US cart for the exact whole-bean size, stock, shipping and tax. Subscription selectors can change the displayed amount and purchase commitment. We have not ranked these bags by a price that may change before checkout; the linked reviews explain the last checked offer context. No discount is claimed here."
+    },
+    {
+      "id": "c5948e32dfe1da6314f1ec3ee3bb009a77caf1dc73ad7b074f22c11e4f44cade",
+      "source": "If you want a single bag for espresso and drip, use the separate dual-method guide, which weighs grind-return and espresso tradeoffs. If you want a manual cone pour-over, the pour-over guide discusses the different flow and cup-style decision. If caffeine is the limiting factor, start from the decaf-by-brew-method guide and confirm the current bag. These are different purchasing problems, not lower-ranked versions of this list.",
+      "kind": "text",
+      "context": "If you want a single bag for espresso and drip, use the separate dual-method guide, which weighs grind-return and espresso tradeoffs. If you want a manual cone pour-over, the pour-over guide discusses the different flow and cup-style decision. If caffeine is the limiting factor, start from the decaf-by-brew-method guide and confirm the current bag. These are different purchasing problems, not lower-ranked versions of this list."
+    },
+    {
+      "id": "0e3c403b0c112bfe1df900702a7b7200dcc3bcc23a6514ff1e3df0142ce68779",
+      "source": "A household that strongly rejects fruit should skip Holler Mountain and should not assume Bella Donovan is fruitless merely because it is dark. If origin traceability by one farm or harvest is essential, all three named blends are the wrong format; find a currently identified single origin and verify its date and process.",
+      "kind": "text",
+      "context": "A household that strongly rejects fruit should skip Holler Mountain and should not assume Bella Donovan is fruitless merely because it is dark. If origin traceability by one farm or harvest is essential, all three named blends are the wrong format; find a currently identified single origin and verify its date and process."
+    },
+    {
+      "id": "5afd858efb51c9ff2a3cb3dd6e555ba3869e67e1e6c6365281560574afd122f6",
+      "source": "Change the method, change the shortlist",
+      "kind": "text",
+      "context": "Change the method, change the shortlist"
+    },
+    {
+      "id": "86e40df816cca4b851c5c063683cfd368cbfcdf64d47de4e9ad31966454ce6b3",
+      "source": "One bag across two grinders settings and brew recipes.",
+      "kind": "text",
+      "context": "One bag across two grinders settings and brew recipes."
+    },
+    {
+      "id": "df3cb7e9c40ef1844df4c1b6af1afe09db7118aa043ee1c0e8abb8c96c05e491",
+      "source": "Manual pour-over",
+      "kind": "text",
+      "context": "Manual pour-over"
+    },
+    {
+      "id": "ca0bf4e91d76381d991b21e4f5f6b7746aafc51117089f15065cd83a6c452886",
+      "source": "Choose by cone-filter cup direction.",
+      "kind": "text",
+      "context": "Choose by cone-filter cup direction."
+    },
+    {
+      "id": "f4f70f92f7fac1badb27f067a319644b5dd8534e32ff5e4016d655e2869c14cd",
+      "source": "Choose a lower-caffeine bag for the brewer you use.",
+      "kind": "text",
+      "context": "Choose a lower-caffeine bag for the brewer you use."
+    },
+    {
+      "id": "98d1d8931115aacf049fb114cb922def2c5b20eb4d70dde5f6d42a2246af4150",
+      "source": "We checked exact US whole-bean identities, current roaster automatic-drip descriptions, general brewer guidance and linked full reviews. We chose distinct household cup intentions, not a sensory winner. Coffeedant did not taste, brew, measure extraction or inspect a delivered roast-date bag.",
+      "kind": "text",
+      "context": "We checked exact US whole-bean identities, current roaster automatic-drip descriptions, general brewer guidance and linked full reviews. We chose distinct household cup intentions, not a sensory winner. Coffeedant did not taste, brew, measure extraction or inspect a delivered roast-date bag."
+    },
+    {
+      "id": "ac5d39138c1fc771fe92e0346897813b5120a9da3bfe41c08534a3cf14edb47b",
+      "source": "Independent tastings linked below describe earlier samples only. The SCA source concerns brewer capacity, not a ranking of these beans. No price, discount, stock guarantee or owner reliability rate is inferred.",
+      "kind": "text",
+      "context": "Independent tastings linked below describe earlier samples only. The SCA source concerns brewer capacity, not a ranking of these beans. No price, discount, stock guarantee or owner reliability rate is inferred."
+    },
+    {
+      "id": "02aac04d940c2bf8785fabdadff70225c54057612b163bfc0f0cb4a78d134218",
+      "source": "Automatic drip bean FAQ",
+      "kind": "text",
+      "context": "Automatic drip bean FAQ"
+    },
+    {
+      "id": "83bd88e4de8886a0acf5f7fba9ec5814e02319c9110a9d8f6c743864a13b3be8",
+      "source": "Which pick has a specific drip dose?",
+      "kind": "text",
+      "context": "Which pick has a specific drip dose?"
+    },
+    {
+      "id": "c9693a8843c35a94f55cb87903e417e52d5223b8f9b40413519a66f48fd97a67",
+      "source": "Stumptown lists 28 g coffee to 475 ml water for Holler Mountain drip. Treat it as a starting point for your machine and basket.",
+      "kind": "text",
+      "context": "Stumptown lists 28 g coffee to 475 ml water for Holler Mountain drip. Treat it as a starting point for your machine and basket."
+    },
+    {
+      "id": "5a96da1f8f2cb45df79b4262f57830617cc9b09bbd6a148105210d22ae1b2937",
+      "source": "Can I copy Blue Bottle’s pour-over recipe into a drip machine?",
+      "kind": "text",
+      "context": "Can I copy Blue Bottle’s pour-over recipe into a drip machine?"
+    },
+    {
+      "id": "67ca5707c8638e31ec19cb5f4cab34a7e070f317d20f87b0447db35e988dd548",
+      "source": "No. The published 27 g/350 g sequence is for a hand-poured dripper. Blue Bottle separately says Bella Donovan suits automatic drip.",
+      "kind": "text",
+      "context": "No. The published 27 g/350 g sequence is for a hand-poured dripper. Blue Bottle separately says Bella Donovan suits automatic drip."
+    },
+    {
+      "id": "6717b4b55b644f7da55fd85be1974f0545e5321c472e2a4de7947ad5676dc8d2",
+      "source": "Is a certified brewer required for these beans?",
+      "kind": "text",
+      "context": "Is a certified brewer required for these beans?"
+    },
+    {
+      "id": "57e9a489ae3e4e7c3facf7016bfc4f2f4fd21cf6bcdf0f0ed235ecb9a863626f",
+      "source": "No. SCA certification evaluates brewer performance against its program; it does not certify or rank the coffees here.",
+      "kind": "text",
+      "context": "No. SCA certification evaluates brewer performance against its program; it does not certify or rank the coffees here."
+    },
+    {
+      "id": "f63d193ec1ac49ba32e1b0b58689c44c327890acca6b28b6eb51b33b9122e0fe",
+      "source": "Does Fast Forward keep the same origins?",
+      "kind": "text",
+      "context": "Does Fast Forward keep the same origins?"
+    },
+    {
+      "id": "e3958cb25908a7941eaaf9d5cc436ab486a808e7f39205400a68eca24aa6fa29",
+      "source": "No fixed component list is promised. Counter Culture says the blend changes with harvests; use the current roast-date selector and the delivered bag.",
+      "kind": "text",
+      "context": "No fixed component list is promised. Counter Culture says the blend changes with harvests; use the current roast-date selector and the delivered bag."
+    },
+    {
+      "id": "460a487fd0c26d352d4815c295cb21e101e6ac95c96eb0f010b3ebb3549c75b1",
+      "source": "Which coffee is least fruit-led on the roaster descriptions?",
+      "kind": "text",
+      "context": "Which coffee is least fruit-led on the roaster descriptions?"
+    },
+    {
+      "id": "daf426feebb0b3111afab0c91679c1a080e58d75383cd838e1169238469fd5b0",
+      "source": "Fast Forward has the most nut-and-sweet brief of these three. This is a comparison of roaster wording, not a Coffeedant tasting result.",
+      "kind": "text",
+      "context": "Fast Forward has the most nut-and-sweet brief of these three. This is a comparison of roaster wording, not a Coffeedant tasting result."
+    },
+    {
+      "id": "7fa8d35fd22bb12d56ee5e8e694f1c051a651a6cadea67072f002f1a15804119",
+      "source": "Will a five-pound bag be cheaper per cup?",
+      "kind": "text",
+      "context": "Will a five-pound bag be cheaper per cup?"
+    },
+    {
+      "id": "7edad472cf2cec0ecba39cb764a357b68c0b63eae9f8c0e36c14276e6bbfe0db",
+      "source": "A larger pack may change the unit cost, but delivered price and the amount you can finish while fresh decide value. Check the current US cart.",
+      "kind": "text",
+      "context": "A larger pack may change the unit cost, but delivered price and the amount you can finish while fresh decide value. Check the current US cart."
+    },
+    {
+      "id": "1b56493fccbc6a040fc5e35377ca26cef48acb8f3bcaf84da0db3f184927e72f",
+      "source": "Did Coffeedant test these coffees in an automatic brewer?",
+      "kind": "text",
+      "context": "Did Coffeedant test these coffees in an automatic brewer?"
+    },
+    {
+      "id": "d1ff760dce3c5af4f81cd75bc3de18bfb1e8c3d5f798825183663d9d6077ad29",
+      "source": "No. The recommendations are research-led fit judgments from current roaster records, a brewer standard, independent context and linked full reviews.",
+      "kind": "text",
+      "context": "No. The recommendations are research-led fit judgments from current roaster records, a brewer standard, independent context and linked full reviews."
+    },
+    {
+      "id": "c3ed8b21b415c6dec2001bfd67585b6532639991fdf7435a55fda7bb29c64373",
+      "source": "Sources checked November 4, 2026",
+      "kind": "text",
+      "context": "Sources checked November 4, 2026"
+    },
+    {
+      "id": "6643ccc73795f54c854e4428577915386ec4561fdf9f922f9b685a21f12e3233",
+      "source": "Counter Culture Fast Forward ↗",
+      "kind": "text",
+      "context": "Counter Culture Fast Forward ↗"
+    },
+    {
+      "id": "1648f0d74fc93eb9ceef3606dd6a6fb10267b21fdd3c38a661fcb62bebaef999",
+      "source": "Current US blend identity, roast, flavor brief, auto-drip use and changing components. Checked November 4, 2026.",
+      "kind": "text",
+      "context": "Current US blend identity, roast, flavor brief, auto-drip use and changing components. Checked November 4, 2026."
+    },
+    {
+      "id": "fb6c283b68225d2fbaaae9b8aa2ff6065a0f8755507d99f1d3e8f00f2e08a32d",
+      "source": "Counter Culture brewing guides ↗",
+      "kind": "text",
+      "context": "Counter Culture brewing guides ↗"
+    },
+    {
+      "id": "ce346436833142cab9a6010f3a44af13b729f4bf6719d6e12d1665ce1da6a8bb",
+      "source": "General recently-roasted-coffee and 1:15–1:18 filter ratio guidance, not a product tasting. Checked November 4, 2026.",
+      "kind": "text",
+      "context": "General recently-roasted-coffee and 1:15–1:18 filter ratio guidance, not a product tasting. Checked November 4, 2026."
+    },
+    {
+      "id": "17178227e06a302b2205074271536edfd675cbd362803d5d0a07fce9f6e77b6c",
+      "source": "Stumptown Holler Mountain ↗",
+      "kind": "text",
+      "context": "Stumptown Holler Mountain ↗"
+    },
+    {
+      "id": "a3114687161e72fe38039c17ee7aa6d140fc556bac7bf2232263855482c17100",
+      "source": "Current whole-bean identity, organic medium blend, flavor notes, daily-drip positioning and 28 g/475 ml method. Checked November 4, 2026.",
+      "kind": "text",
+      "context": "Current whole-bean identity, organic medium blend, flavor notes, daily-drip positioning and 28 g/475 ml method. Checked November 4, 2026."
+    },
+    {
+      "id": "7d85d3a212f631caca1a3966e8c4173f28a56a0ead5a7b03d40690eef1032f68",
+      "source": "Blue Bottle Bella Donovan ↗",
+      "kind": "text",
+      "context": "Blue Bottle Bella Donovan ↗"
+    },
+    {
+      "id": "99d15b649c3dfb33a08003aaf317a4a36598af35d91e8629f02e20c0fa208b9d",
+      "source": "Current whole-bean dark blend, automatic-drip positioning, flavor brief and separate hand-pour recipe. Checked November 4, 2026.",
+      "kind": "text",
+      "context": "Current whole-bean dark blend, automatic-drip positioning, flavor brief and separate hand-pour recipe. Checked November 4, 2026."
+    },
+    {
+      "id": "a9a53ffb5fe3b478aef1a665af8996ee156f438f427ca19f4fe6adea473f9fa7",
+      "source": "Specialty Coffee Association home brewer program ↗",
+      "kind": "text",
+      "context": "Specialty Coffee Association home brewer program ↗"
+    },
+    {
+      "id": "f01b047ffe88ad033a297324c9d926228e501ca8e4ae97950c4ba997709aa0e5",
+      "source": "Brewer certification context; it certifies equipment, not any coffee in this list. Checked November 4, 2026.",
+      "kind": "text",
+      "context": "Brewer certification context; it certifies equipment, not any coffee in this list. Checked November 4, 2026."
+    },
+    {
+      "id": "4d6d9fb9a7c6e837a01f3338886496079cfe32071b4a25137bd8bd95f91dc1ce",
+      "source": "Specialty Coffee Association minimum home brewer requirements ↗",
+      "kind": "text",
+      "context": "Specialty Coffee Association minimum home brewer requirements ↗"
+    },
+    {
+      "id": "264accb21cc55ec81e3408a0ee0eb2a92f41da1ccec1c94e5803f29065557951",
+      "source": "Approximate 55 g/L full-capacity basket requirement and contact-time context; a standard, not Coffeedant testing. Checked November 4, 2026.",
+      "kind": "text",
+      "context": "Approximate 55 g/L full-capacity basket requirement and contact-time context; a standard, not Coffeedant testing. Checked November 4, 2026."
+    },
+    {
+      "id": "2ac71485c00db91ad704a073ec65dd4b7cf5361815fa744ba03d0433feb41360",
+      "source": "The Guardian: Counter Culture comparison ↗",
+      "kind": "text",
+      "context": "The Guardian: Counter Culture comparison ↗"
+    },
+    {
+      "id": "45c6788bc9c09ee5356585eef20154c05855e8749b3d3d5d43458d47a993ce82",
+      "source": "Independent tasting of a prior Fast Forward sample; not the current roast-date blend. Checked November 4, 2026.",
+      "kind": "text",
+      "context": "Independent tasting of a prior Fast Forward sample; not the current roast-date blend. Checked November 4, 2026."
+    },
+    {
+      "id": "9e5405cc0b08c13e99afb32e20748979858016183b8fa778b6d6d5e3d30a0022",
+      "source": "Coffee Cantata: Bella Donovan review ↗",
+      "kind": "text",
+      "context": "Coffee Cantata: Bella Donovan review ↗"
+    },
+    {
+      "id": "5379143f74bd1630b8382f8a8b4db8cf7c98cacaea63a80adfe5abd7ce58d3f7",
+      "source": "Older independent single-bag tasting; historical context only. Checked November 4, 2026.",
+      "kind": "text",
+      "context": "Older independent single-bag tasting; historical context only. Checked November 4, 2026."
+    },
+    {
+      "id": "59fa6784c8bf1591c6652d2a8a7bbe252d0caf2cf4ec8a76b90e0cc3de1c4229",
+      "source": "Choose the pot your household will finish",
+      "kind": "text",
+      "context": "Choose the pot your household will finish"
+    },
+    {
+      "id": "fae77ecf8fce843dc2d32a98c32fcf1aef52f75f54245d5539e97010b175e093",
+      "source": "Start with a small whole-bean bag in the flavor direction your household agrees to drink. Weigh a repeatable batch, check the delivered roast date and change one variable at a time before ordering more.",
+      "kind": "text",
+      "context": "Start with a small whole-bean bag in the flavor direction your household agrees to drink. Weigh a repeatable batch, check the delivered roast date and change one variable at a time before ordering more."
+    },
+    {
+      "id": "99ca38c45e8e39f8c055a424d178615fe83e0b5ab4836a6a6c90b26174731ba6",
+      "source": "Best Whole-Bean Coffees for Automatic Drip Brewers | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "e725dd1d6d7afa1f8c2c7b2fabe26bba7cb29ed1f4ef54ad7194061c53c04621",
+      "source": "Three research-led US whole-bean choices for a full automatic-drip carafe: a nutty daily blend, a fruit-aware medium blend and a darker cup with cream.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "0b6d4252451e360ffd411e1ec061bcabb5ce9284ac9384f0a44b4a5aa457cf2c",
+      "source": "Best Whole-Bean Coffees for Automatic Drip Brewers",
+      "kind": "json",
+      "context": "headline"
+    },
+    {
+      "id": "ff6e013f12951e80bf661367c13b6f1d2508cd8f6e36d6e8be9f15ca6d6c5694",
+      "source": "Which pick has a specific drip dose?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "a99618d597776a0a103f1c305c538f1614587e17c1ce3f0838cce0cdbd2c5e0c",
+      "source": "Stumptown lists 28 g coffee to 475 ml water for Holler Mountain drip. Treat it as a starting point for your machine and basket.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "6b9d9d3cf1d8f79a2ee2be326d506bd1225e8aa357edfa226e9447b6ecf98e20",
+      "source": "Can I copy Blue Bottle’s pour-over recipe into a drip machine?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "702ad6e7b0ce02bdc899a44501a15cdc9ad71ed7a78d10d35018db8774cafd3e",
+      "source": "No. The published 27 g/350 g sequence is for a hand-poured dripper. Blue Bottle separately says Bella Donovan suits automatic drip.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "312df7af4688aeca9e73c8dc50124469ef4ea1615cae8fae034d59969a924e70",
+      "source": "Is a certified brewer required for these beans?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "7cc88b323ca9c03def1b39af9ebe8e5e6c814b7c15e147c2a75ea70115c7bbc7",
+      "source": "No. SCA certification evaluates brewer performance against its program; it does not certify or rank the coffees here.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "6c5c29ddb437804ade188fd3f49f92f2c08103366b415ae74af57a3525981798",
+      "source": "Does Fast Forward keep the same origins?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "43c48dda7812df6d751729ff7bb39d1ea3a75be3b0f1c802378e4ecf6abeea49",
+      "source": "No fixed component list is promised. Counter Culture says the blend changes with harvests; use the current roast-date selector and the delivered bag.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "6394749907985a5765f6edc3a06f27a3cab30fc53738589bb638cc4936216ae8",
+      "source": "Which coffee is least fruit-led on the roaster descriptions?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "0ee86711c7af4e7b2ca007230e5e1e8edcf629b58ffb89bffaa11009f68966d9",
+      "source": "Fast Forward has the most nut-and-sweet brief of these three. This is a comparison of roaster wording, not a Coffeedant tasting result.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "6f236e1c870128f08985e4a8c94ad37aa39a8d34e95be424cb59f79716ff15cf",
+      "source": "Will a five-pound bag be cheaper per cup?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "ba6c1f6bfd7a4ea6073740893e3ac15b45fcb7d7e30b2c9071ca295cca1b1a72",
+      "source": "A larger pack may change the unit cost, but delivered price and the amount you can finish while fresh decide value. Check the current US cart.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "16b72b37f01dac4511cc0f733f714a565ce81280a93671ea1ae51049d9422019",
+      "source": "Did Coffeedant test these coffees in an automatic brewer?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "9ca76acaa7f025200c5541ff955a2dec3374a81a8a50b8c967522f00889d7b1c",
+      "source": "No. The recommendations are research-led fit judgments from current roaster records, a brewer standard, independent context and linked full reviews.",
+      "kind": "json",
+      "context": "text"
+    }
+  ],
+  "snapshotHash": "8c75b8baccce6e990f271cf8b2270a4993d11121a057b1a1d9a2e37963d176bd"
+}

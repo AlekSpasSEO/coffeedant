@@ -1,0 +1,481 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "jura-giga-6-batch-77.source.json",
+  "snapshotHash": "7c0afadd697ff84eb388e2f45f55b5da307c9dac7334d75fc2b1608384e4b11c",
+  "preserveSource": [
+    65,
+    97
+  ],
+  "routes": {
+    "nl": {
+      "/espresso-machine/jura-giga-6/": "/espressomachines/jura-giga-6/",
+      "/espresso-machine/jura-giga-6/video/faema-canada/": "/espressomachines/jura-giga-6/video/faema-canada/"
+    },
+    "de": {
+      "/espresso-machine/jura-giga-6/": "/testbericht-jura-giga-6/",
+      "/espresso-machine/jura-giga-6/video/faema-canada/": "/jura-giga-6-video-testbericht-faema-canada/"
+    },
+    "fr": {
+      "/espresso-machine/jura-giga-6/": "/machines-expresso/jura-giga-6/",
+      "/espresso-machine/jura-giga-6/video/faema-canada/": "/machines-expresso/jura-giga-6/video/faema-canada/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "JURA GIGA 6 beoordeeld: twee koffiemolens in een gereviseerd, uit het assortiment genomen model van $3,499 | Coffeedant",
+      "de": "JURA GIGA 6 bewertet: zwei Mahlwerke in einem ausgelaufenen, werksüberholten Modell für $3,499 | Coffeedant",
+      "fr": "Analyse de la JURA GIGA 6 : deux broyeurs dans un modèle arrêté et reconditionné à $3,499 | Coffeedant"
+    },
+    "1": {
+      "nl": "Een beoordeling op basis van bronnenonderzoek van de JURA GIGA 6: gereviseerde Amerikaanse NAA 15396.99, twee koffiemolens, twee thermoblokken, tegenstrijdige aantallen van 16 en 28 specialiteiten, de prijs van $3,499 en ondersteuning.",
+      "de": "Quellenbasierte Bewertung der JURA GIGA 6 zu US-Werksüberholung NAA 15396.99, zwei Mahlwerken, zwei Thermoblöcken, widersprüchlichen Angaben von 16 gegenüber 28 Spezialitäten, $3,499 und Support.",
+      "fr": "Évaluation fondée sur des recherches de la JURA GIGA 6 : NAA 15396.99 américaine reconditionnée, deux broyeurs, deux thermoblocs, nombres contradictoires de 16 et 28 spécialités, prix de $3,499 et assistance."
+    },
+    "3": {
+      "nl": "JURA GIGA 6 beoordeeld: twee koffiemolens in een gereviseerd, uit het assortiment genomen model van $3,499",
+      "de": "JURA GIGA 6 bewertet: zwei Mahlwerke in einem ausgelaufenen, werksüberholten Modell für $3,499",
+      "fr": "Analyse de la JURA GIGA 6 : deux broyeurs dans un modèle arrêté et reconditionné à $3,499"
+    },
+    "4": {
+      "nl": "Voor huishoudens die twee koffiemolens en twee vloeistofsystemen willen voor variatie met twee bonensoorten en bijzonder veelzijdige opeenvolgende drankbereiding",
+      "de": "Für Haushalte, die zwei Mahlwerke und zwei Flüssigkeitssysteme für Vielfalt mit zwei Bohnensorten und besonders leistungsfähige Getränkeabläufe wünschen",
+      "fr": "Pour les foyers qui souhaitent deux broyeurs et deux circuits de fluides pour varier entre deux cafés et bénéficier d’un enchaînement des boissons particulièrement performant"
+    },
+    "5": {
+      "nl": "Twee koffiemolens en twee vloeistofsystemen voor variatie met twee bonensoorten en bijzonder veelzijdige opeenvolgende drankbereiding. De belangrijkste afweging is dat het model uit het assortiment is genomen, niet op voorraad is en gereviseerd wordt aangeboden, met één jaar garantie en tegenstrijdige regionale menu-aantallen",
+      "de": "Zwei Mahlwerke und zwei Flüssigkeitssysteme für Vielfalt mit zwei Bohnensorten und besonders leistungsfähige Getränkeabläufe. Der zentrale Kompromiss: Das Modell ist ausgelaufen, nicht vorrätig und werksüberholt, mit einem Jahr Garantie und widersprüchlichen regionalen Menüangaben",
+      "fr": "Deux broyeurs et deux circuits de fluides pour varier entre deux cafés et bénéficier d’un enchaînement des boissons particulièrement performant. Le principal compromis est qu’il s’agit d’un modèle arrêté, en rupture de stock et reconditionné, avec une garantie d’un an et des nombres de boissons contradictoires selon la région"
+    },
+    "6": {
+      "nl": "Amerikaanse JURA-prijs voor een door de fabriek gereviseerde machine; voorraad, belasting, staat en garantie kunnen veranderen",
+      "de": "JURA-US-Preis für ein werksüberholtes Gerät; Bestand, Steuern, Zustand und Garantie können sich ändern",
+      "fr": "Prix américain JURA pour un appareil reconditionné en usine ; le stock, les taxes, l’état et la garantie peuvent changer"
+    },
+    "7": {
+      "nl": "Kies dit alleen als twee koffiemolens en twee systemen een gereviseerd platform rechtvaardigen dat uit het assortiment is genomen.",
+      "de": "Nur wählen, wenn zwei Mahlwerke und zwei Systeme eine ausgelaufene, werksüberholte Plattform rechtfertigen.",
+      "fr": "À choisir uniquement si deux broyeurs et deux systèmes justifient une plateforme arrêtée et reconditionnée."
+    },
+    "8": {
+      "nl": "Het Amerikaanse model Aluminum NAA 15396.99, door de fabriek gereviseerd, is de gedateerde prijsreferentie. De actuele Britse pagina beschrijft EA-artikel 15394 voor 230 V en 28 specialiteiten. De Amerikaanse revisietekst van JURA vermeldt 16 afzonderlijk programmeerbare specialiteiten. Deze beoordeling legt het verschil vast zonder de aantallen samen te voegen.",
+      "de": "Das werksüberholte US-Modell Aluminum NAA 15396.99 ist die datierte Preisreferenz. Die aktuelle britische Seite dokumentiert den 230-V-EA-Artikel 15394 und 28 Spezialitäten. Der JURA-US-Text zur Werksüberholung nennt 16 einzeln programmierbare Spezialitäten. Diese Bewertung hält den Widerspruch fest, statt die Zahlen zusammenzuführen.",
+      "fr": "Le modèle américain Aluminum NAA 15396.99 reconditionné en usine constitue la référence de prix datée. La page britannique en ligne décrit l’article EA 15394 en 230 V et 28 spécialités. Le texte américain de JURA sur le reconditionné mentionne 16 spécialités programmables individuellement. Cette évaluation consigne la contradiction sans fusionner les nombres."
+    },
+    "9": {
+      "nl": "Twee thermoblokken, twee pompen en twee vloeistofsystemen ondersteunen gelijktijdige koffie- en melkbereiding; de officiële Britse EA-pagina vermeldt 28 menu-items, inclusief dubbele varianten",
+      "de": "Zwei Thermoblöcke, zwei Pumpen und zwei Flüssigkeitssysteme unterstützen die gleichzeitige Kaffee- und Milchzubereitung; die offizielle britische EA-Seite nennt 28 Menüeinträge einschließlich Doppelvarianten",
+      "fr": "Deux thermoblocs, deux pompes et deux circuits de fluides permettent de travailler simultanément le café et le lait ; la page officielle britannique EA indique 28 entrées de menu, variantes doubles comprises"
+    },
+    "10": {
+      "nl": "Automatisch HP2/CX2-melksysteem met programmeerbare melk- en schuimtemperatuur en reiniging op dezelfde dag",
+      "de": "Automatisches HP2/CX2-Milchsystem mit programmierbarer Milch- und Schaumtemperatur und Reinigung am selben Tag",
+      "fr": "Système de lait automatique HP2/CX2 avec température du lait et de la mousse programmable et nettoyage le jour même"
+    },
+    "11": {
+      "nl": "Twee elektronisch instelbare keramische schijfmolens met Automatic Grinder Adjustment en instelbare bonenmenging",
+      "de": "Zwei elektronisch einstellbare Keramikscheibenmahlwerke mit Automatic Grinder Adjustment und wählbarer Bohnenmischung",
+      "fr": "Deux broyeurs à disques en céramique réglables électroniquement avec Automatic Grinder Adjustment et mélange des grains sélectionnable"
+    },
+    "12": {
+      "nl": "4.3-inch kleurentouchscreen met zelflerend startscherm, dranknamen en J.O.E.-connectiviteit",
+      "de": "4.3-Zoll-Farb-Touchscreen mit selbstlernendem Startbildschirm, benannten Getränken und J.O.E.-Konnektivität",
+      "fr": "Écran tactile couleur de 4.3 pouces avec écran d’accueil autoapprenant, boissons nommées et connectivité J.O.E."
+    },
+    "13": {
+      "nl": "UK EA-referentie: 2.6 L water, twee bonenreservoirs van 280 g en koffieresidu voor ongeveer 20 porties",
+      "de": "UK-EA-Referenz: 2.6 L Wasser, zwei Bohnenbehälter mit 280 g und Kaffeesatz für etwa 20 Portionen",
+      "fr": "Référence UK EA : 2.6 L d’eau, deux bacs à grains de 280 g et environ 20 portions de marc"
+    },
+    "14": {
+      "nl": "UK EA: 32 B bij 41.5 H bij 48 D cm en 18 kg; de Amerikaanse gereviseerde uitvoering vermeldt 12.6 B bij 16.3 H bij 18.9 D in en 39.7 lb",
+      "de": "UK EA: 32 B × 41.5 H × 48 T cm und 18 kg; die US-Werksüberholung nennt 12.6 B × 16.3 H × 18.9 T in und 39.7 lb",
+      "fr": "UK EA : 32 l × 41.5 H × 48 P cm et 18 kg ; la version américaine reconditionnée indique 12.6 l × 16.3 H × 18.9 P in et 39.7 lb"
+    },
+    "15": {
+      "nl": "Voer de JURA-programma's uit wanneer daarom wordt gevraagd, reinig het HP2-melksysteem elke dag waarop het wordt gebruikt en stel de beschikbaarheid van onderdelen voor het exacte uit het assortiment genomen model en gekwalificeerde service als aankoopvoorwaarden.",
+      "de": "Führen Sie JURA-Programme nach Aufforderung aus, reinigen Sie das HP2-Milchsystem an jedem Tag seiner Nutzung und machen Sie die Verfügbarkeit von Teilen für das genaue ausgelaufene Modell sowie qualifizierten Service zu Kaufbedingungen.",
+      "fr": "Exécutez les programmes JURA lorsqu’ils sont demandés, nettoyez le système de lait HP2 chaque jour où il est utilisé et faites de la disponibilité des pièces pour ce modèle précis arrêté et d’un service qualifié des conditions d’achat."
+    },
+    "16": {
+      "nl": "Het model is uit het assortiment genomen, niet op voorraad en gereviseerd, met één jaar garantie en tegenstrijdige regionale menu-aantallen",
+      "de": "Es ist ausgelaufen, nicht vorrätig und werksüberholt, mit einem Jahr Garantie und widersprüchlichen regionalen Menüangaben",
+      "fr": "Il s’agit d’un modèle arrêté, en rupture de stock et reconditionné, avec une garantie d’un an et des nombres de boissons contradictoires selon la région"
+    },
+    "17": {
+      "nl": "Over welke exacte GIGA 6 Aluminum NAA gaat deze beoordeling?",
+      "de": "Welche genaue GIGA 6 Aluminum NAA behandelt diese Bewertung?",
+      "fr": "Quelle GIGA 6 Aluminum NAA précise cette évaluation couvre-t-elle ?"
+    },
+    "18": {
+      "nl": "Ja. Twee elektronisch instelbare keramische schijfmolens met Automatic Grinder Adjustment en instelbare bonenmenging",
+      "de": "Ja. Zwei elektronisch einstellbare Keramikscheibenmahlwerke mit Automatic Grinder Adjustment und wählbarer Bohnenmischung",
+      "fr": "Oui. Deux broyeurs à disques en céramique réglables électroniquement avec Automatic Grinder Adjustment et mélange des grains sélectionnable"
+    },
+    "19": {
+      "nl": "Nee. Voer de JURA-programma's uit wanneer daarom wordt gevraagd, reinig het HP2-melksysteem elke dag waarop het wordt gebruikt en stel de beschikbaarheid van onderdelen voor het exacte uit het assortiment genomen model en gekwalificeerde service als aankoopvoorwaarden.",
+      "de": "Nein. Führen Sie JURA-Programme nach Aufforderung aus, reinigen Sie das HP2-Milchsystem an jedem Tag seiner Nutzung und machen Sie die Verfügbarkeit von Teilen für das genaue ausgelaufene Modell sowie qualifizierten Service zu Kaufbedingungen.",
+      "fr": "Non. Exécutez les programmes JURA lorsqu’ils sont demandés, nettoyez le système de lait HP2 chaque jour où il est utilisé et faites de la disponibilité des pièces pour ce modèle précis arrêté et d’un service qualifié des conditions d’achat."
+    },
+    "20": {
+      "nl": "Volledige beoordeling van de JURA GIGA 6 Aluminum NAA",
+      "de": "Vollständige Bewertung der JURA GIGA 6 Aluminum NAA",
+      "fr": "Évaluation complète de la JURA GIGA 6 Aluminum NAA"
+    },
+    "21": {
+      "nl": "Eén totaalscore is pas nuttig wanneer duidelijk is waarop deze berust. De JURA GIGA 6 Aluminum NAA krijgt",
+      "de": "Eine Gesamtnote ist nur hilfreich, wenn ihre Grundlage nachvollziehbar ist. Die JURA GIGA 6 Aluminum NAA erhält",
+      "fr": "Une note globale n’est utile que si l’on voit ce qui la fonde. La JURA GIGA 6 Aluminum NAA obtient"
+    },
+    "22": {
+      "nl": "Twee thermoblokken, twee pompen en twee vloeistofsystemen ondersteunen gelijktijdige koffie- en melkbereiding en maken herhaalbare automatische koffie binnen een gesloten systeem mogelijk; de officiële Britse EA-pagina vermeldt 28 menu-items, inclusief dubbele varianten.",
+      "de": "Zwei Thermoblöcke, zwei Pumpen und zwei Flüssigkeitssysteme unterstützen die gleichzeitige Kaffee- und Milchzubereitung und ermöglichen wiederholbare automatische Kaffeezubereitung in einem geschlossenen System; die offizielle britische EA-Seite nennt 28 Menüeinträge einschließlich Doppelvarianten.",
+      "fr": "Deux thermoblocs, deux pompes et deux circuits de fluides permettent de travailler simultanément le café et le lait et de préparer automatiquement un café reproductible au sein d’un système fermé ; la page officielle britannique EA indique 28 entrées de menu, variantes doubles comprises."
+    },
+    "23": {
+      "nl": "Bij de GIGA 6 Aluminum NAA verloopt de reiniging van de zetgroep volgens de voorgeschreven routine voor het gesloten systeem.",
+      "de": "Bei der GIGA 6 Aluminum NAA bleibt die Reinigung der Brüheinheit Teil der vorgeschriebenen Routine für das geschlossene System.",
+      "fr": "Sur la GIGA 6 Aluminum NAA, le nettoyage du groupe de percolation suit la procédure prescrite pour le système fermé."
+    },
+    "24": {
+      "nl": "Bij $3,499.00 is gedateerde context over staat, voorraad en garantie nodig.",
+      "de": "$3,499.00 erfordern datierten Kontext zu Zustand, Lagerbestand und Garantie.",
+      "fr": "Le prix de $3,499.00 nécessite un contexte daté sur l’état, le stock et la garantie."
+    },
+    "25": {
+      "nl": "GIGA 6 Aluminum NAA: de aankoopbeslissing",
+      "de": "GIGA 6 Aluminum NAA: die Kaufentscheidung",
+      "fr": "GIGA 6 Aluminum NAA : la décision d’achat"
+    },
+    "26": {
+      "nl": "Twee elektronisch instelbare koffiemolens zijn het onderscheidende voordeel van de GIGA 6 voor een huishouden dat daadwerkelijk wisselt tussen bonensoorten of ze mengt. Twee vloeistofsystemen ondersteunen bovendien ambitieuzere opeenvolgende koffie- en melkbereiding dan een eenvoudige volautomaat met één circuit. Het gaat echter om een groot platform dat uit het assortiment is genomen, en de gedateerde Noord-Amerikaanse aankoopreferentie betrof een door de fabriek gereviseerde Aluminum NAA. De staat, inbegrepen garantie en het exacte regionale menu verdienen daarom evenveel aandacht als de dubbele koffiemolen. Tegenstrijdige Amerikaanse en Britse aantallen recepten moeten gescheiden blijven. Kies een specifiek, ondersteund exemplaar vanwege de functie voor twee bonensoorten; neem niet aan dat een ouder topmodel automatisch de beste huidige JURA-prijs-kwaliteitverhouding biedt.",
+      "de": "Zwei elektronisch einstellbare Mahlwerke sind der entscheidende Vorteil der GIGA 6 für einen Haushalt, der tatsächlich Bohnensorten wechselt oder mischt. Zwei Flüssigkeitssysteme unterstützen zudem anspruchsvollere Kaffee- und Milchabläufe als ein einfacher Vollautomat mit nur einem Flüssigkeitsweg. Es handelt sich jedoch um eine große, ausgelaufene Plattform, und die datierte nordamerikanische Kaufreferenz war eine werksüberholte Aluminum NAA. Zustand, enthaltene Garantie und das genaue regionale Menü verdienen deshalb ebenso viel Aufmerksamkeit wie die beiden Mahlwerke. Widersprüchliche US- und UK-Rezeptzahlen sollten getrennt bleiben. Wählen Sie ein konkretes, unterstütztes Exemplar für seine Zwei-Bohnen-Funktion, statt anzunehmen, ein früheres Spitzenmodell biete automatisch das beste aktuelle Preis-Leistungs-Verhältnis bei JURA.",
+      "fr": "Deux broyeurs réglables électroniquement constituent l’avantage distinctif de la GIGA 6 pour un foyer qui change réellement de grains ou les mélange. Deux circuits de fluides permettent aussi des enchaînements café-lait plus ambitieux qu’une simple machine automatique à circuit unique. Il s’agit toutefois d’une grande plateforme arrêtée, et la référence d’achat nord-américaine datée concernait un appareil Aluminum NAA reconditionné en usine. L’état, la garantie incluse et le menu régional précis méritent donc autant d’attention que les deux broyeurs. Les nombres contradictoires de recettes américaines et britanniques doivent rester distincts. Choisissez un exemplaire précis bénéficiant d’une assistance pour son rôle à deux cafés, sans supposer qu’un ancien modèle phare offre automatiquement le meilleur rapport qualité-prix actuel chez JURA."
+    },
+    "27": {
+      "nl": "De GIGA 6 Aluminum NAA in gebruik nemen",
+      "de": "Die GIGA 6 Aluminum NAA einrichten",
+      "fr": "Installation de la GIGA 6 Aluminum NAA"
+    },
+    "28": {
+      "nl": "een volautomaat met twee elektronisch instelbare keramische schijfmolens met automatic grinder adjustment en instelbare bonenmenging. Twee thermoblokken, twee pompen en twee vloeistofsystemen ondersteunen gelijktijdige koffie- en melkbereiding; de officiële uk ea-pagina vermeldt 28 menu-items, inclusief dubbele varianten. Daarbij komt een automatisch hp2/cx2-melksysteem met programmeerbare melk- en schuimtemperatuur en reiniging op dezelfde dag.",
+      "de": "ein Kaffeevollautomat mit zwei elektronisch einstellbaren Keramikscheibenmahlwerken mit automatic grinder adjustment und wählbarer Bohnenmischung. Zwei Thermoblöcke, zwei Pumpen und zwei Flüssigkeitssysteme unterstützen die gleichzeitige Kaffee- und Milchzubereitung; die offizielle uk ea-Seite nennt 28 Menüeinträge einschließlich Doppelvarianten. Hinzu kommt ein automatisches hp2/cx2-Milchsystem mit programmierbarer Milch- und Schaumtemperatur und Reinigung am selben Tag.",
+      "fr": "une machine automatique du grain à la tasse avec deux broyeurs à disques en céramique réglables électroniquement dotés d’automatic grinder adjustment et d’un mélange des grains sélectionnable. Deux thermoblocs, deux pompes et deux circuits de fluides permettent de travailler simultanément le café et le lait ; la page officielle uk ea indique 28 entrées de menu, variantes doubles comprises. S’y ajoute un système de lait automatique hp2/cx2 avec température du lait et de la mousse programmable et nettoyage le jour même."
+    },
+    "29": {
+      "nl": "Het gedateerde Amerikaanse aanbod betreft een door de fabriek gereviseerde 15396.99 met één jaar garantie; de Britse EA 15394 heeft een andere elektrische uitvoering. Bevestig welk apparaat daadwerkelijk wordt aangeboden en of het op voorraad is. Met ongeveer 39.7 lb en twee bonenreservoirs vraagt de installatie om een geplande tilroute en toegang van bovenaf.",
+      "de": "Das datierte US-Angebot betrifft die Werksüberholung 15396.99 mit einem Jahr Garantie, während die britische EA 15394 eine andere elektrische Ausführung ist. Bestätigen Sie, welches Gerät tatsächlich angeboten wird und ob es vorrätig ist. Bei etwa 39.7 lb und zwei Bohnenbehältern erfordert die Installation einen geplanten Hebeweg und Zugang von oben.",
+      "fr": "L’offre américaine datée concerne l’appareil 15396.99 reconditionné en usine avec une garantie d’un an, tandis que l’EA 15394 britannique possède un équipement électrique différent. Confirmez l’appareil réellement proposé et sa disponibilité. Avec environ 39.7 lb et deux bacs à grains, l’installation mérite un trajet de levage prévu et un accès par le dessus."
+    },
+    "30": {
+      "nl": "Dubbele automatische koffiebereiding met de JURA GIGA 6",
+      "de": "Doppelter automatischer Kaffeeablauf mit der JURA GIGA 6",
+      "fr": "Double préparation automatique du café avec la JURA GIGA 6"
+    },
+    "31": {
+      "nl": "Officieel beeldmateriaal over de functies van de Amerikaanse modelfamilie illustreert de werkwijze met twee systemen. De beoordeling houdt specificaties van de gereviseerde Amerikaanse NAA en de Britse EA gescheiden.",
+      "de": "Offizielles Funktionsmaterial der US-Modellfamilie veranschaulicht den Ablauf mit zwei Systemen. Die Bewertung hält die Spezifikationen der US-NAA-Werksüberholung und der britischen EA getrennt.",
+      "fr": "Les visuels officiels des fonctions de la famille américaine illustrent l’utilisation à deux systèmes. L’évaluation maintient distinctes les spécifications de la NAA américaine reconditionnée et de l’EA britannique."
+    },
+    "32": {
+      "nl": "Officiële productpagina van de JURA GIGA 6",
+      "de": "Offizielle Produktseite der JURA GIGA 6",
+      "fr": "Page produit officielle de la JURA GIGA 6"
+    },
+    "33": {
+      "nl": "Bekijk welke andere machines naast de GIGA 6 Aluminum NAA bij u passen.",
+      "de": "Sehen Sie, was neben der GIGA 6 Aluminum NAA sonst noch zu Ihnen passt.",
+      "fr": "Découvrez quelles autres machines peuvent vous convenir aux côtés de la GIGA 6 Aluminum NAA."
+    },
+    "34": {
+      "nl": "Twee elektronisch instelbare keramische koffiemolens maken de GIGA 6 relevant voor een huishouden dat verschillende bonen of bewuste mengsels gebruikt. Leer elk bonenreservoir afzonderlijk kennen voordat u de bonen mengt. Twee koffiemolens voldoen aan een behoefte aan twee bonensoorten; ze bewijzen op zichzelf niet dat de koffie beter is dan uit een goed afgestelde machine met één koffiemolen.",
+      "de": "Zwei elektronisch einstellbare Keramikmahlwerke machen die GIGA 6 für einen Haushalt interessant, der unterschiedliche Bohnen oder gezielte Mischungen nutzt. Lernen Sie jeden Bohnenbehälter einzeln kennen, bevor Sie mischen. Zwei Mahlwerke erfüllen einen Bedarf an zwei Bohnensorten; allein belegen sie keinen besseren Kaffee als bei einer gut eingestellten Maschine mit einem Mahlwerk.",
+      "fr": "Deux broyeurs en céramique réglables électroniquement rendent la GIGA 6 pertinente pour un foyer utilisant différents grains ou des mélanges délibérés. Apprenez à connaître chaque bac séparément avant de les mélanger. Deux broyeurs répondent à un besoin de deux cafés ; ils ne prouvent pas à eux seuls que le café est meilleur qu’avec une machine à broyeur unique bien réglée."
+    },
+    "35": {
+      "nl": "Twee thermoblokken, pompen en vloeistofsystemen laten koffie- en melkbereiding overlappen. Die capaciteit is de reden om de grote, uit het assortiment genomen GIGA te overwegen, vooral in combinatie met de keuze uit twee bonensoorten. De tegenstrijdige Amerikaanse beschrijving van 16 specialiteiten en Britse beschrijving van 28 menu-items moeten bij het daadwerkelijke gereviseerde apparaat worden gecontroleerd, in plaats van tot één beloofd menu te worden samengevoegd.",
+      "de": "Zwei Thermoblöcke, Pumpen und Flüssigkeitssysteme erlauben es, Kaffee- und Milchzubereitung zeitlich zu überlappen. Diese Kapazität ist der Grund, die große, ausgelaufene GIGA in Betracht zu ziehen, besonders zusammen mit der Auswahl zwischen zwei Bohnensorten. Die widersprüchlichen US-Angaben zu 16 Spezialitäten und britischen Angaben zu 28 Menüeinträgen sollten am tatsächlichen werksüberholten Gerät geprüft werden, statt sie zu einem versprochenen Menü zusammenzuführen.",
+      "fr": "Deux thermoblocs, pompes et circuits de fluides permettent de faire se chevaucher le travail du café et du lait. Cette capacité justifie d’envisager la grande GIGA arrêtée, surtout avec la sélection de deux cafés. Les descriptions contradictoires de 16 spécialités américaines et de 28 entrées britanniques doivent être vérifiées sur l’appareil reconditionné réel, sans les fusionner en un seul menu promis."
+    },
+    "36": {
+      "nl": "UK EA: 32 B bij 41.5 H bij 48 D cm en 18 kg; de Amerikaanse gereviseerde uitvoering vermeldt 12.6 B bij 16.3 H bij 18.9 D in en 39.7 lb. De GIGA 6 Aluminum NAA heeft een gesloten zetgroep; intern werk wordt door een gekwalificeerde servicedienst uitgevoerd.",
+      "de": "UK EA: 32 B × 41.5 H × 48 T cm und 18 kg; die US-Werksüberholung nennt 12.6 B × 16.3 H × 18.9 T in und 39.7 lb. Die GIGA 6 Aluminum NAA verwendet eine geschlossene Brüheinheit; Arbeiten im Inneren übernimmt ein qualifizierter Service.",
+      "fr": "UK EA : 32 l × 41.5 H × 48 P cm et 18 kg ; la version américaine reconditionnée indique 12.6 l × 16.3 H × 18.9 P in et 39.7 lb. La GIGA 6 Aluminum NAA utilise un groupe de percolation fermé ; les interventions internes passent par un service qualifié."
+    },
+    "37": {
+      "nl": "Touchscreen en bediening van de twee koffiemolens van de JURA GIGA 6",
+      "de": "Touchscreen und Steuerung der beiden Mahlwerke der JURA GIGA 6",
+      "fr": "Écran tactile et commandes des deux broyeurs de la JURA GIGA 6"
+    },
+    "38": {
+      "nl": "Het functiebeeld ondersteunt de beoordeling van de 4.3-inch interface en de mogelijkheden met twee bonensoorten, niet een claim dat Coffeedant het apparaat zelf heeft gebruikt.",
+      "de": "Die Funktionsansicht unterstützt die Bewertung der 4.3-Zoll-Oberfläche und des Zwei-Bohnen-Konzepts, nicht die Behauptung einer praktischen Nutzung durch Coffeedant.",
+      "fr": "La vue des fonctions appuie l’évaluation de l’interface de 4.3 pouces et de la proposition à deux cafés, sans prétendre à une utilisation pratique par Coffeedant."
+    },
+    "39": {
+      "nl": "De Amerikaanse JURA-prijs voor een door de fabriek gereviseerde machine bedroeg $3,499.00: niet op voorraad zijnd, door de fabriek gereviseerd model 15396.99, verlaagd vanaf $5,999 met één jaar revisiegarantie; geen huidige prijs voor een nieuwe machine",
+      "de": "Der JURA-US-Preis für die Werksüberholung betrug $3,499.00: nicht vorrätiges, werksüberholtes Modell 15396.99, von $5,999 reduziert und mit einem Jahr Garantie für die Werksüberholung; kein aktueller Neumaschinenpreis",
+      "fr": "Le prix américain JURA du reconditionné en usine affichait $3,499.00 : modèle 15396.99 reconditionné en usine, en rupture de stock, à un prix réduit par rapport à $5,999 avec une garantie d’un an sur le reconditionné ; ce n’est pas un prix actuel de machine neuve"
+    },
+    "40": {
+      "nl": "Amerikaanse JURA-prijs voor een door de fabriek gereviseerde machine: $3,499.00",
+      "de": "JURA-US-Preis für die Werksüberholung: $3,499.00",
+      "fr": "Prix américain JURA du reconditionné en usine : $3,499.00"
+    },
+    "41": {
+      "nl": "Niet op voorraad zijnd, door de fabriek gereviseerd model 15396.99, verlaagd vanaf $5,999 met één jaar revisiegarantie; geen huidige prijs voor een nieuwe machine",
+      "de": "Nicht vorrätiges, werksüberholtes Modell 15396.99, von $5,999 reduziert und mit einem Jahr Garantie für die Werksüberholung; kein aktueller Neumaschinenpreis",
+      "fr": "Modèle 15396.99 reconditionné en usine, en rupture de stock, à un prix réduit par rapport à $5,999 avec une garantie d’un an sur le reconditionné ; ce n’est pas un prix actuel de machine neuve"
+    },
+    "42": {
+      "nl": "Discussies van eigenaren over de JURA GIGA 6",
+      "de": "Besitzerdiskussionen zur JURA GIGA 6",
+      "fr": "Discussions de propriétaires de JURA GIGA 6"
+    },
+    "43": {
+      "nl": "Context van zelfgeselecteerde eigenaren en kopers, geen gekwantificeerd bewijs voor de betrouwbaarheid.",
+      "de": "Kontext selbst ausgewählter Besitzer und Käufer, kein quantifizierter Zuverlässigkeitsnachweis.",
+      "fr": "Contexte de propriétaires et d’acheteurs autosélectionnés, pas une preuve quantifiée de fiabilité."
+    },
+    "44": {
+      "nl": "GIGA 6 Aluminum NAA tegenover de meest vergelijkbare alternatieven",
+      "de": "GIGA 6 Aluminum NAA im Vergleich zu den nächstliegenden Alternativen",
+      "fr": "GIGA 6 Aluminum NAA face aux alternatives les plus proches"
+    },
+    "45": {
+      "nl": "Snelle vergelijking van de JURA GIGA 6 Aluminum NAA",
+      "de": "Kurzvergleich der JURA GIGA 6 Aluminum NAA",
+      "fr": "Comparaison rapide de la JURA GIGA 6 Aluminum NAA"
+    },
+    "46": {
+      "nl": "De JURA GIGA 6 Aluminum NAA en de meest vergelijkbare alternatieven",
+      "de": "Die JURA GIGA 6 Aluminum NAA und ihre nächstliegenden Alternativen",
+      "fr": "La JURA GIGA 6 Aluminum NAA et ses alternatives les plus proches"
+    },
+    "47": {
+      "nl": "$3,499 voor een niet op voorraad zijnde fabrieksrevisie",
+      "de": "$3,499 für eine nicht vorrätige Werksüberholung",
+      "fr": "$3,499 pour un reconditionné en usine en rupture de stock"
+    },
+    "48": {
+      "nl": "Uitgebreide vergelijking van de JURA GIGA 6 Aluminum NAA",
+      "de": "Detaillierter Vergleich der JURA GIGA 6 Aluminum NAA",
+      "fr": "Comparaison détaillée de la JURA GIGA 6 Aluminum NAA"
+    },
+    "49": {
+      "nl": "12.6 B bij 16.3 H bij 18.9 D in, Amerikaanse revisiereferentie",
+      "de": "12.6 B × 16.3 H × 18.9 T in laut US-Referenz zur Werksüberholung",
+      "fr": "12.6 l × 16.3 H × 18.9 P in, référence américaine reconditionnée"
+    },
+    "50": {
+      "nl": "Twee thermoblokken, pompen en vloeistofsystemen",
+      "de": "Zwei Thermoblöcke, Pumpen und Flüssigkeitssysteme",
+      "fr": "Deux thermoblocs, pompes et circuits de fluides"
+    },
+    "51": {
+      "nl": "Twee keramische koffiemolens met instelbare menging",
+      "de": "Zwei Keramikmahlwerke mit wählbarer Mischung",
+      "fr": "Deux broyeurs en céramique avec mélange sélectionnable"
+    },
+    "52": {
+      "nl": "Automatische melkbereiding met HP2/CX2",
+      "de": "Automatische Milchzubereitung mit HP2/CX2",
+      "fr": "Préparation automatique du lait HP2/CX2"
+    },
+    "53": {
+      "nl": "Twee bonensoorten en parallelle bereiding",
+      "de": "Zwei Bohnensorten und parallele Zubereitung",
+      "fr": "Deux cafés et préparation en parallèle"
+    },
+    "54": {
+      "nl": "Het Amerikaanse model Aluminum NAA 15396.99, door de fabriek gereviseerd, is de gedateerde prijsreferentie. De actuele Britse pagina beschrijft EA-artikel 15394 voor 230 V en 28 specialiteiten. De Amerikaanse revisietekst van JURA vermeldt 16 afzonderlijk programmeerbare specialiteiten. Deze beoordeling legt het verschil vast zonder de aantallen samen te voegen. Vergelijk die exacte uitvoering met de onderstaande alternatieven.",
+      "de": "Das werksüberholte US-Modell Aluminum NAA 15396.99 ist die datierte Preisreferenz. Die aktuelle britische Seite dokumentiert den 230-V-EA-Artikel 15394 und 28 Spezialitäten. Der JURA-US-Text zur Werksüberholung nennt 16 einzeln programmierbare Spezialitäten. Diese Bewertung hält den Widerspruch fest, statt die Zahlen zusammenzuführen. Vergleichen Sie genau diese Ausführung mit den folgenden Alternativen.",
+      "fr": "Le modèle américain Aluminum NAA 15396.99 reconditionné en usine constitue la référence de prix datée. La page britannique en ligne décrit l’article EA 15394 en 230 V et 28 spécialités. Le texte américain de JURA sur le reconditionné mentionne 16 spécialités programmables individuellement. Cette évaluation consigne la contradiction sans fusionner les nombres. Comparez cette version précise aux alternatives ci-dessous."
+    },
+    "55": {
+      "nl": "Leven met de GIGA 6 Aluminum NAA",
+      "de": "Der Alltag mit der GIGA 6 Aluminum NAA",
+      "fr": "Vivre avec la GIGA 6 Aluminum NAA"
+    },
+    "56": {
+      "nl": "Vraag de revisiedienst om beide koffiemolens, de bonenselectie of -menging en gelijktijdige koffie- en melkbereiding te demonstreren. De bijzondere sterke punten van de machine steunen op meer hardware dan bij een eenvoudige volautomaat. Schriftelijke ondersteuning voor het exacte uit het assortiment genomen apparaat is belangrijker dan de vroegere positie als topmodel.",
+      "de": "Bitten Sie den Aufbereiter, beide Mahlwerke, die Bohnenauswahl oder -mischung und den gleichzeitigen Kaffee- und Milchbetrieb vorzuführen. Die besonderen Stärken der Maschine hängen von mehr Technik ab als bei einem einfachen Vollautomaten. Schriftlich zugesicherter Support für genau dieses ausgelaufene Gerät ist wichtiger als seine frühere Position als Spitzenmodell.",
+      "fr": "Demandez au reconditionneur de démontrer les deux broyeurs, la sélection ou le mélange des grains et le fonctionnement simultané du café et du lait. Les points forts inhabituels de cette machine dépendent de davantage de matériel que ceux d’une automatique de base. Une assistance écrite pour cet appareil précis arrêté compte plus que son ancienne position de modèle phare."
+    },
+    "57": {
+      "nl": "Andere opties voor de koper van een GIGA 6 Aluminum NAA",
+      "de": "Weitere Möglichkeiten für Käufer der GIGA 6 Aluminum NAA",
+      "fr": "Autres options pour l’acheteur d’une GIGA 6 Aluminum NAA"
+    },
+    "58": {
+      "nl": "Veelgestelde vragen over de GIGA 6 Aluminum NAA",
+      "de": "Häufige Fragen zur GIGA 6 Aluminum NAA",
+      "fr": "Questions fréquentes sur la GIGA 6 Aluminum NAA"
+    },
+    "59": {
+      "nl": "Over welke generatie en uitvoering gaat deze beoordeling van de GIGA 6 Aluminum NAA?",
+      "de": "Welche Generation und Ausführung behandelt diese Bewertung der GIGA 6 Aluminum NAA?",
+      "fr": "Quelle génération et quelle version cette évaluation de la GIGA 6 Aluminum NAA couvre-t-elle ?"
+    },
+    "60": {
+      "nl": "Wat houdt dagelijks gebruik van de GIGA 6 Aluminum NAA in?",
+      "de": "Was gehört zur täglichen Nutzung der GIGA 6 Aluminum NAA?",
+      "fr": "Qu’implique l’utilisation quotidienne de la GIGA 6 Aluminum NAA ?"
+    },
+    "61": {
+      "nl": "Welk onderhoud van het melksysteem vereist de GIGA 6 Aluminum NAA?",
+      "de": "Welche Milchsystempflege benötigt die GIGA 6 Aluminum NAA?",
+      "fr": "Quel entretien du circuit de lait la GIGA 6 Aluminum NAA exige-t-elle ?"
+    },
+    "62": {
+      "nl": "Welke koffiemolen is gespecificeerd voor deze GIGA 6 Aluminum NAA?",
+      "de": "Welches Mahlwerk ist für diese GIGA 6 Aluminum NAA angegeben?",
+      "fr": "Quel broyeur est spécifié pour cette GIGA 6 Aluminum NAA ?"
+    },
+    "63": {
+      "nl": "Bekijk Jura GIGA 6 | De meest geavanceerde koffiemachine voor thuis van Faema Canada",
+      "de": "Jura GIGA 6 | Die fortschrittlichste Kaffeemaschine für zu Hause von Faema Canada ansehen",
+      "fr": "Regarder Jura GIGA 6 | La machine à café la plus avancée pour la maison de Faema Canada"
+    },
+    "66": {
+      "nl": "Jura GIGA 6 | De meest geavanceerde koffiemachine voor thuis",
+      "de": "Jura GIGA 6 | Die fortschrittlichste Kaffeemaschine für zu Hause",
+      "fr": "Jura GIGA 6 | La machine à café la plus avancée pour la maison"
+    },
+    "67": {
+      "nl": "29 november 2021",
+      "de": "29. November 2021",
+      "fr": "29 novembre 2021"
+    },
+    "68": {
+      "nl": "Onafhankelijk beeldmateriaal als bewijs voor de werkwijze. Huidige staat, prijs en regionale identiteit worden afzonderlijk geverifieerd.",
+      "de": "Unabhängige sichtbare Belege zum Ablauf. Aktueller Zustand, Preis und regionale Identität werden gesondert geprüft.",
+      "fr": "Preuves visuelles indépendantes de l’utilisation. L’état actuel, le prix et l’identité régionale sont vérifiés séparément."
+    },
+    "69": {
+      "nl": "Deze beoordeling gaat over het door de fabriek gereviseerde Amerikaanse model 15396.99; het huidige Britse EA-artikel 15394 heeft een andere elektrische uitvoering. Het model is uit het assortiment genomen, niet op voorraad en gereviseerd, met één jaar garantie en tegenstrijdige regionale menu-aantallen.",
+      "de": "Diese Bewertung behandelt das werksüberholte US-Modell 15396.99; der aktuelle britische EA-Artikel 15394 ist eine andere elektrische Ausführung. Es ist ausgelaufen, nicht vorrätig und werksüberholt, mit einem Jahr Garantie und widersprüchlichen regionalen Menüangaben.",
+      "fr": "Cette évaluation couvre le modèle américain 15396.99 reconditionné en usine ; l’article EA 15394 britannique actuel possède un équipement électrique différent. Il s’agit d’un modèle arrêté, en rupture de stock et reconditionné, avec une garantie d’un an et des nombres de boissons contradictoires selon la région."
+    },
+    "70": {
+      "nl": "Amerikaanse, door de fabriek gereviseerde JURA GIGA 6 NAA",
+      "de": "JURA GIGA 6 NAA als US-Werksüberholung",
+      "fr": "JURA GIGA 6 NAA américaine reconditionnée en usine"
+    },
+    "71": {
+      "nl": "Officiële Amerikaanse revisie-identiteit, model 15396.99, staat, prijs van $3,499, garantie en regionale specificaties.",
+      "de": "Offizielle US-Identität der Werksüberholung, Modell 15396.99, Zustand, $3,499, Garantie und regionale Spezifikationen.",
+      "fr": "Identité officielle du reconditionné américain, modèle 15396.99, état, prix de $3,499, garantie et spécifications régionales."
+    },
+    "72": {
+      "nl": "Officiële pagina van de JURA GIGA 6 EA",
+      "de": "Offizielle Seite der JURA GIGA 6 EA",
+      "fr": "Page officielle de la JURA GIGA 6 EA"
+    },
+    "73": {
+      "nl": "Officiële functies, menu met 28 items en volledige specificaties van EA-artikel 15394 voor 230 V; niet stilzwijgend in de plaats van NAA gebruikt.",
+      "de": "Offizielle Funktionen, Menü mit 28 Einträgen und vollständige Spezifikationen des 230-V-EA-Artikels 15394; nicht stillschweigend anstelle von NAA eingesetzt.",
+      "fr": "Fonctions officielles, menu de 28 entrées et spécifications complètes de l’article EA 15394 en 230 V ; sans substitution implicite à la NAA."
+    },
+    "74": {
+      "nl": "Amerikaanse JURA-prijs voor een door de fabriek gereviseerde machine",
+      "de": "JURA-US-Preis für die Werksüberholung",
+      "fr": "Prix américain JURA du reconditionné en usine"
+    },
+    "75": {
+      "nl": "Niet op voorraad zijnde revisie van $3,499 tegenover de oorspronkelijke referentie van $5,999, gecontroleerd op 23 september 2026.",
+      "de": "Nicht vorrätige Werksüberholung für $3,499 gegenüber der ursprünglichen Referenz von $5,999, geprüft am 23. September 2026.",
+      "fr": "Reconditionné en rupture de stock à $3,499 face à la référence initiale de $5,999, vérifié le 23 septembre 2026."
+    },
+    "76": {
+      "nl": "Overzicht van de JURA GIGA 6",
+      "de": "Überblick zur JURA GIGA 6",
+      "fr": "Présentation de la JURA GIGA 6"
+    },
+    "77": {
+      "nl": "Onafhankelijke beoordeling van bezit en werkwijze; officiële bronnen zijn leidend voor de specificaties.",
+      "de": "Unabhängige Bewertung von Alltag und Ablauf; für Spezifikationen sind offizielle Quellen maßgeblich.",
+      "fr": "Évaluation indépendante de la possession et de l’utilisation ; les sources officielles font autorité pour les spécifications."
+    },
+    "78": {
+      "nl": "Jura Giga 6 | De meest geavanceerde koffiemachine voor thuis",
+      "de": "Jura Giga 6 | Die fortschrittlichste Kaffeemaschine für zu Hause",
+      "fr": "Jura Giga 6 | La machine à café la plus avancée pour la maison"
+    },
+    "79": {
+      "nl": "Onafhankelijke video van ECS Coffee, gepubliceerd op 29 november 2021, als visuele context voor de werkwijze.",
+      "de": "Unabhängiges Video von ECS Coffee, veröffentlicht am 29. November 2021, als sichtbarer Kontext zum Ablauf.",
+      "fr": "Vidéo indépendante d’ECS Coffee publiée le 29 novembre 2021 pour illustrer l’utilisation."
+    },
+    "80": {
+      "nl": "Handleiding van de JURA GIGA 6 EA",
+      "de": "Anleitung der JURA GIGA 6 EA",
+      "fr": "Mode d’emploi de la JURA GIGA 6 EA"
+    },
+    "81": {
+      "nl": "Officiële bedienings-, reinigings-, ontkalkings- en veiligheidsinstructies voor EA/SA/INTA.",
+      "de": "Offizielle Anweisungen zu Bedienung, Reinigung, Entkalkung und Sicherheit für EA/SA/INTA.",
+      "fr": "Instructions officielles d’utilisation, de nettoyage, de détartrage et de sécurité pour EA/SA/INTA."
+    },
+    "82": {
+      "nl": "Officieel huidig assortiment waaruit blijkt dat de GIGA 6 geen huidig nieuw Amerikaans model meer is.",
+      "de": "Offizielles aktuelles Sortiment als Beleg dafür, dass die GIGA 6 kein aktuelles US-Neumodell mehr ist.",
+      "fr": "Gamme officielle actuelle utilisée pour établir que la GIGA 6 n’est plus un modèle neuf actuel aux États-Unis."
+    },
+    "83": {
+      "nl": "Officiële Noord-Amerikaanse servicedienst; exacte dekking voor de gereviseerde machine moet worden bevestigd.",
+      "de": "Offizieller nordamerikanischer Serviceweg; der genaue Schutzumfang der Werksüberholung muss bestätigt werden.",
+      "fr": "Service officiel nord-américain ; la couverture exacte du reconditionné doit être confirmée."
+    },
+    "84": {
+      "nl": "GIGA 6 Aluminum NAA: kies de werkwijze, niet het aantal dranken",
+      "de": "GIGA 6 Aluminum NAA: den Ablauf kaufen, nicht die Anzahl der Getränke",
+      "fr": "GIGA 6 Aluminum NAA : acheter l’usage, pas le nombre de boissons"
+    },
+    "109": {
+      "nl": "JURA GIGA 6 Aluminum NAA: Jura GIGA 6 | De meest geavanceerde koffiemachine voor thuis · Faema Canada (2021-11-29) | Coffeedant",
+      "de": "JURA GIGA 6 Aluminum NAA: Jura GIGA 6 | Die fortschrittlichste Kaffeemaschine für zu Hause · Faema Canada (2021-11-29) | Coffeedant",
+      "fr": "JURA GIGA 6 Aluminum NAA : Jura GIGA 6 | La machine à café la plus avancée pour la maison · Faema Canada (2021-11-29) | Coffeedant"
+    },
+    "110": {
+      "nl": "Bekijk Faema Canada over de JURA GIGA 6 Aluminum NAA (2021-11-29): Jura GIGA 6 | De meest geavanceerde koffiemachine voor thuis. Onafhankelijk beeldmateriaal als bewijs voor de werkwijze. Huidige staat, prijs en regionale identiteit worden afzonderlijk geverifieerd.",
+      "de": "Sehen Sie Faema Canada zur JURA GIGA 6 Aluminum NAA (2021-11-29): Jura GIGA 6 | Die fortschrittlichste Kaffeemaschine für zu Hause. Unabhängige sichtbare Belege zum Ablauf. Aktueller Zustand, Preis und regionale Identität werden gesondert geprüft.",
+      "fr": "Regardez Faema Canada sur la JURA GIGA 6 Aluminum NAA (2021-11-29) : Jura GIGA 6 | La machine à café la plus avancée pour la maison. Preuves visuelles indépendantes de l’utilisation. L’état actuel, le prix et l’identité régionale sont vérifiés séparément."
+    },
+    "112": {
+      "nl": "Video over de JURA GIGA 6 Aluminum NAA van Faema Canada",
+      "de": "Video zur JURA GIGA 6 Aluminum NAA von Faema Canada",
+      "fr": "Vidéo sur la JURA GIGA 6 Aluminum NAA de Faema Canada"
+    },
+    "113": {
+      "nl": "← Beoordeling van de JURA GIGA 6 Aluminum NAA",
+      "de": "← Bewertung der JURA GIGA 6 Aluminum NAA",
+      "fr": "← Évaluation de la JURA GIGA 6 Aluminum NAA"
+    },
+    "114": {
+      "nl": "Jura GIGA 6 | De meest geavanceerde koffiemachine voor thuis van Faema Canada",
+      "de": "Jura GIGA 6 | Die fortschrittlichste Kaffeemaschine für zu Hause von Faema Canada",
+      "fr": "Jura GIGA 6 | La machine à café la plus avancée pour la maison de Faema Canada"
+    },
+    "115": {
+      "nl": "JURA GIGA 6 Aluminum NAA · Perspectief van een verkoper",
+      "de": "JURA GIGA 6 Aluminum NAA · Händlerperspektive",
+      "fr": "JURA GIGA 6 Aluminum NAA · Point de vue d’un revendeur"
+    },
+    "116": {
+      "nl": "De video en meningen zijn van Faema Canada. Coffeedant selecteert dit perspectief als aanvulling op onze geschreven beoordeling.",
+      "de": "Video und Meinungen stammen von Faema Canada. Coffeedant stellt diese Perspektive ergänzend zu unserer schriftlichen Bewertung vor.",
+      "fr": "La vidéo et les opinions appartiennent à Faema Canada. Coffeedant sélectionne ce point de vue en complément de notre évaluation écrite."
+    },
+    "120": {
+      "nl": "Video van Faema Canada",
+      "de": "Video von Faema Canada",
+      "fr": "Vidéo de Faema Canada"
+    }
+  }
+}

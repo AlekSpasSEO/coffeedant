@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "jura-giga-6-batch-77-machine-hub.source.json",
+  "snapshotHash": "68296be00eb2199fa44e27323d9fdfc667b7e9b3b21bef073041307241ac68da",
+  "routes": {
+    "nl": {},
+    "de": {},
+    "fr": {}
+  },
+  "translations": {
+    "0": {
+      "nl": "Handmatige espresso zonder stekker",
+      "de": "Manueller Espresso ohne Stecker",
+      "fr": "Espresso manuel sans prise"
+    },
+    "1": {
+      "nl": "Handmatig, zonder stekker",
+      "de": "Manuell, ohne Stecker",
+      "fr": "Manuel, sans prise"
+    }
+  }
+}

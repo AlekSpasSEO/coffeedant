@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "jura-giga-6-batch-77-bean-hub.source.json",
+  "snapshotHash": "fccc2dbcfedbe7eaa9d67a3bab7cace890c13bad22327939135303285205766d",
+  "routes": {
+    "nl": {},
+    "de": {},
+    "fr": {}
+  },
+  "translations": {
+    "0": {
+      "nl": "Nieuwe koopgids · 4 november 2026",
+      "de": "Neue Kaufberatung · 4. November 2026",
+      "fr": "Nouveau guide d’achat · 4 novembre 2026"
+    },
+    "1": {
+      "nl": "Hele koffiebonen voor een kan filterkoffie uit een koffiezetapparaat",
+      "de": "Ganze Bohnen für eine Kanne aus der Filterkaffeemaschine",
+      "fr": "Café en grains pour une carafe de cafetière filtre automatique"
+    },
+    "2": {
+      "nl": "Vergelijk drie koffies in hele bonen met documentatie van de brander: voor een nootachtige dagelijkse kan, een levendigere mediumgebrande kan en een donkerdere kop met room.",
+      "de": "Vergleichen Sie drei vom Röster dokumentierte Bohnenkaffees für eine nussige Alltagskanne, eine lebhaftere Kanne mit mittlerer Röstung und eine dunklere Tasse mit Sahne.",
+      "fr": "Comparez trois cafés en grains documentés par les torréfacteurs pour une cafetière quotidienne aux notes de noix, une préparation plus vive de torréfaction moyenne et une tasse plus sombre avec de la crème."
+    },
+    "3": {
+      "nl": "Lees de bonengids voor filterkoffiezetapparaten",
+      "de": "Den Bohnenratgeber für Filterkaffeemaschinen lesen",
+      "fr": "Lire le guide des grains pour cafetière filtre automatique"
+    }
+  }
+}
