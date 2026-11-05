@@ -1,0 +1,522 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "manual-espresso-batch-78.source.json",
+  "snapshotHash": "5ae9f2b812d80ff3dd8b08f9433e4c961f491fc87b9b94e584e0042d7a7f86cc",
+  "preserveSource": [
+    47
+  ],
+  "routes": {
+    "nl": {
+      "/espresso-machine/best-manual-espresso-makers-no-plug/": "/espressomachines/beste-handmatige-espressomakers-zonder-stekker/"
+    },
+    "de": {
+      "/espresso-machine/best-manual-espresso-makers-no-plug/": "/espresso-maschine/beste-manuelle-espresso-maschinen-ohne-stecker/"
+    },
+    "fr": {
+      "/espresso-machine/best-manual-espresso-makers-no-plug/": "/machines-expresso/meilleures-machines-expresso-manuelles-sans-prise/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "Beste handmatige espressomakers voor een koffiehoek zonder stopcontact | Coffeedant",
+      "de": "Die besten manuellen Espressobereiter für eine Kaffeestation ohne Steckdose | Coffeedant",
+      "fr": "Les meilleures machines à expresso manuelles pour un coin café sans prise | Coffeedant"
+    },
+    "1": {
+      "nl": "Kies tussen een directe hendel en een espressomaker voor op het fornuis wanneer het apparaat geen stopcontact kan gebruiken. Exacte Amerikaanse uitvoeringen, warmtevereisten en afwegingen.",
+      "de": "Wählen Sie zwischen einem direkten Handhebel und einem Herdgerät, wenn der Espressobereiter keine Steckdose nutzen kann. Genaue US-Ausführungen, Wärmebedarf und Kompromisse.",
+      "fr": "Choisissez entre un levier direct et une machine pour cuisinière lorsque la machine à expresso ne peut pas utiliser de prise. Versions américaines précises, besoins en chaleur et compromis."
+    },
+    "3": {
+      "nl": "Huidige Flair Classic met handmatige hendel tijdens het zetten van espresso",
+      "de": "Aktueller Flair Classic bei der Espressozubereitung mit Handhebel",
+      "fr": "Flair Classic actuel préparant un expresso avec son levier manuel"
+    },
+    "4": {
+      "nl": "Koopgids voor espresso · gebaseerd op onderzoek · Verenigde Staten",
+      "de": "Espresso-Kaufberatung · auf Recherche gestützt · Vereinigte Staaten",
+      "fr": "Guide d’achat expresso · fondé sur des recherches · États-Unis"
+    },
+    "5": {
+      "nl": "Beste handmatige espressomakers voor een koffiehoek zonder stopcontact",
+      "de": "Die besten manuellen Espressobereiter für eine Kaffeestation ohne Steckdose",
+      "fr": "Les meilleures machines à expresso manuelles pour un coin café sans prise"
+    },
+    "6": {
+      "nl": "Een handmatige espressomaker kan de koffiehoek onafhankelijk maken van een stopcontact, maar neemt de behoefte aan warmte, een geschikte molen en tijd tussen de shots niet weg. Kies de hendel als u de druk wilt sturen; kies de espressomaker voor op het fornuis als u wilt dat de warmtebron het shot aandrijft.",
+      "de": "Ein manueller Espressobereiter kann die Kaffeestation von einer Steckdose unabhängig machen. Wärme, eine geeignete Mühle und Zeit zwischen den Bezügen bleiben dennoch nötig. Wählen Sie den Handhebel, wenn Sie den Druckverlauf gestalten möchten, und das Herdgerät, wenn die Wärmequelle den Bezug antreiben soll.",
+      "fr": "Une machine manuelle peut libérer le coin café d’une prise, mais elle ne supprime ni le besoin de chaleur, ni celui d’un moulin adapté, ni le temps entre les extractions. Choisissez le levier pour moduler la pression ; choisissez la machine pour cuisinière pour que la source de chaleur entraîne l’extraction."
+    },
+    "7": {
+      "nl": "5 november 2026",
+      "de": "5. November 2026",
+      "fr": "5 novembre 2026"
+    },
+    "8": {
+      "nl": "· context van Amerikaanse modellen",
+      "de": "· Kontext der US-Modelle",
+      "fr": "· contexte des modèles américains"
+    },
+    "9": {
+      "nl": "Ik heb actuele fabrikantgegevens vergeleken met onafhankelijke informatie, ervaringen van eigenaren en de gelinkte volledige beoordelingen. Ik heb deze machines niet gebruikt of gemeten. De aanduidingen voor wie ze geschikt zijn, zijn koopadviezen op basis van onderzoek.",
+      "de": "Ich habe aktuelle Herstellerunterlagen mit unabhängigen Berichten, Erfahrungen von Besitzern und den verlinkten vollständigen Testberichten verglichen. Ich habe diese Geräte weder benutzt noch vermessen. Die Empfehlungen zur Eignung sind Kaufurteile auf Grundlage von Recherche.",
+      "fr": "J’ai comparé les informations actuelles des fabricants aux témoignages indépendants, aux retours de propriétaires et aux évaluations complètes en lien. Je n’ai ni utilisé ni mesuré ces machines. Les indications de public visé sont des jugements d’achat fondés sur des recherches."
+    },
+    "10": {
+      "nl": "Kies een opstelling zonder stekker",
+      "de": "Eine Ausstattung ohne Netzanschluss wählen",
+      "fr": "Choisir une installation sans prise"
+    },
+    "11": {
+      "nl": "Keuzecriteria",
+      "de": "Entscheidungskriterien",
+      "fr": "Critères de choix"
+    },
+    "12": {
+      "nl": "Warmte en stroom",
+      "de": "Wärme und Strom",
+      "fr": "Chaleur et électricité"
+    },
+    "13": {
+      "nl": "Gebruik en alternatieven",
+      "de": "Besitz und Alternativen",
+      "fr": "Utilisation et alternatives"
+    },
+    "14": {
+      "nl": "Bepaal wat de pomp vervangt",
+      "de": "Entscheiden, was die Pumpe ersetzt",
+      "fr": "Décider de ce qui remplace la pompe"
+    },
+    "15": {
+      "nl": "De selectie is bedoeld voor een Amerikaanse koper zonder handig bereikbaar stopcontact bij de espressoplaats. De espressomaker moet zonder eigen elektrische pomp of verwarming werken, een momenteel herkenbare Amerikaanse uitvoering hebben en een andere werkwijze bieden. We kozen de huidige Flair Classic-set met twee filterdragers en de 9Barista Mk.2 Standard, afgestemd op het fornuis van de koper. Voor beide bestaan al volledige beoordelingen van Coffeedant. We sloten handmatige hendelmachines met stekker, zoals een elektrisch verwarmde Flair 58, uit en beschouwden niet elk mokkapotje als een espressomaker. [1] [3]",
+      "de": "Die Auswahl richtet sich an US-Käufer ohne gut erreichbare Steckdose an der Espressostation. Der Bereiter muss ohne eigene elektrische Pumpe oder Heizung arbeiten, in einer aktuell eindeutig bestimmbaren US-Konfiguration erhältlich sein und einen anderen Arbeitsablauf bieten. Wir wählten das aktuelle Flair Classic-Set mit zwei Siebträgern und den für den Herd des Käufers konfigurierten 9Barista Mk.2 Standard. Zu beiden gibt es bereits vollständige Coffeedant-Testberichte. Handhebelgeräte mit Netzanschluss wie einen elektrisch beheizten Flair 58 haben wir ausgeschlossen; auch nicht jede Mokkakanne haben wir als Espressobereiter eingeordnet. [1] [3]",
+      "fr": "La sélection vise un acheteur américain sans prise facilement accessible au poste expresso. La machine doit fonctionner sans pompe ni chauffage électriques propres, présenter une configuration américaine actuellement identifiable et répondre à un usage différent. Nous avons retenu le kit Flair Classic actuel à deux porte-filtres et la 9Barista Mk.2 Standard configurée pour la cuisinière de l’acheteur. Toutes deux disposent déjà d’évaluations complètes sur Coffeedant. Nous avons exclu les machines à levier manuelles avec prise, comme une Flair 58 à chauffage électrique, et n’avons pas assimilé toute cafetière moka à une machine à expresso. [1] [3]"
+    },
+    "16": {
+      "nl": "Geen van beide keuzes maakt de hele opstelling op zichzelf stroomvrij. De Flair heeft apart verwarmd water nodig. De 9Barista heeft een geschikte brander of een geschikt fornuis nodig; een elektrisch fornuis verbruikt nog steeds stroom, alleen buiten de espressomaker zelf. Beide vereisen een aparte methode voor melk. Dit onderscheid is belangrijker dan een marketingclaim als ‘geen elektriciteit’.",
+      "de": "Keine der beiden Optionen macht die gesamte Ausstattung von selbst stromlos. Der Flair benötigt separat erhitztes Wasser. Der 9Barista braucht einen passenden Brenner oder Herd; ein Elektroherd verbraucht weiterhin Strom, nur außerhalb des Gerätegehäuses. Für Milch benötigen beide eine separate Methode. Diese Unterscheidung ist wichtiger als eine Werbeaussage wie „kein Strom“.",
+      "fr": "Aucun de ces choix ne rend à lui seul toute l’installation indépendante de l’électricité. La Flair demande de l’eau chauffée séparément. La 9Barista exige un brûleur ou une cuisinière compatible ; une cuisinière électrique consomme toujours du courant, simplement hors du corps de la machine. Toutes deux nécessitent une méthode distincte pour le lait. Cette distinction importe plus qu’une promesse commerciale « sans électricité »."
+    },
+    "17": {
+      "nl": "De bestaande gids voor kleine machines gaat over het ruimtebeslag op het aanrecht bij zowel pomp- als handmatige ontwerpen. Deze vergelijking gaat specifiek over de toevoer van warmte en druk wanneer de espressomaker geen stekker heeft. We rangschikken niet op basis van een ongeverifieerde prijs en nemen niet aan dat een klein apparaat gemakkelijk mee op reis kan.",
+      "de": "Die vorhandene Kaufberatung für kleine Geräte behandelt den Platzbedarf auf der Arbeitsplatte bei Pumpen- und Handmodellen. Dieser Vergleich befasst sich gezielt damit, wie Wärme und Druck bereitgestellt werden, wenn der Bereiter keinen Netzstecker hat. Wir erstellen keine Rangfolge nach ungeprüften Preisen und setzen kleine Abmessungen nicht mit einfacher Reisetauglichkeit gleich.",
+      "fr": "Le guide existant sur les petites machines traite de l’encombrement sur le plan de travail, qu’il s’agisse de modèles à pompe ou manuels. Cette comparaison porte précisément sur l’apport de chaleur et de pression lorsque la machine n’a pas de prise. Nous ne classons pas selon un prix non vérifié et ne supposons pas qu’un petit appareil soit facile à emporter en voyage."
+    },
+    "18": {
+      "nl": "Vóór het bestellen",
+      "de": "Vor der Bestellung",
+      "fr": "Avant de commander"
+    },
+    "19": {
+      "nl": "Controleer de warmtebron en de molen",
+      "de": "Wärmequelle und Mühle prüfen",
+      "fr": "Vérifier la source de chaleur et le moulin"
+    },
+    "20": {
+      "nl": "Volgens Flair heeft de Classic gekookt water nodig en bevat de huidige set een Flow Control-filterdrager en een Bottomless 2-in-1-filterdrager. De optie met begrensde doorstroming stelt minder hoge eisen aan de molen; de bodemloze optie vraagt om een espressofijne afstelling en verse koffie. Met de directe hendel en de manometer bepaalt u zelf het drukverloop in de tijd. Oudere Classic-beoordelingen kunnen een andere bundel beschrijven, dus controleer de huidige inhoud van de doos. [1] [2] [5]",
+      "de": "Laut Flair benötigt der Classic aufgekochtes Wasser; das aktuelle Set enthält einen Flow Control-Siebträger und einen Bottomless 2-in-1-Siebträger. Die Variante mit begrenztem Durchfluss senkt die Anforderungen an die Mühle. Die bodenlose Variante verlangt eine espressofeine Einstellung und frischen Kaffee. Direkter Handhebel und Manometer geben Ihnen die Kontrolle über den zeitlichen Druckverlauf. Ältere Classic-Testberichte können einen anderen Lieferumfang beschreiben; prüfen Sie deshalb die aktuelle Packliste. [1] [2] [5]",
+      "fr": "Flair indique que la Classic nécessite de l’eau bouillie et que le kit actuel comprend un porte-filtre Flow Control ainsi qu’un porte-filtre Bottomless 2-in-1. L’option à débit restreint réduit les exigences envers le moulin ; l’option sans fond demande un réglage fin pour expresso et du café frais. Le levier direct et le manomètre vous donnent la maîtrise de l’évolution de la pression dans le temps. D’anciennes évaluations de la Classic peuvent décrire un autre ensemble : vérifiez donc le contenu actuel de la boîte. [1] [2] [5]"
+    },
+    "21": {
+      "nl": "9Barista verkoopt de Mk.2 in Standard- en Pro-uitvoeringen en vraagt kopers hun type fornuis te kiezen. De behuizing van de machine is gelijk bij de inductie- en niet-inductieopties, maar de meegeleverde warmteplaat verschilt. Deze gids behandelt Standard; claims over het mandje en de filterdrager van Pro gelden hiervoor niet. Na het zetten is een 9Barista een heet metalen vat. Laat hem afkoelen en volg de instructies vóór het demonteren. [3]",
+      "de": "9Barista verkauft den Mk.2 in den Konfigurationen Standard und Pro und lässt Käufer ihren Herdtyp auswählen. Der Gerätekörper ist bei den Optionen für Induktion und andere Herdarten gleich, die mitgelieferte Wärmeleitplatte unterscheidet sich jedoch. Diese Kaufberatung behandelt Standard; Aussagen zu Korb und Siebträger des Pro gelten dafür nicht. Nach dem Brühen ist ein 9Barista ein heißes Metallgefäß. Lassen Sie es abkühlen und befolgen Sie vor dem Zerlegen die Anleitung. [3]",
+      "fr": "9Barista vend la Mk.2 en configurations Standard et Pro et demande aux acheteurs de sélectionner leur type de cuisinière. Le corps de la machine est identique pour les options à induction et sans induction, mais la plaque de transfert de chaleur fournie diffère. Ce guide couvre la Standard ; les caractéristiques du panier et du porte-filtre Pro ne s’y appliquent pas. Après l’extraction, une 9Barista est un récipient métallique chaud. Laissez-la refroidir et suivez ses instructions avant de la démonter. [3]"
+    },
+    "22": {
+      "nl": "Een weegschaal, verse koffie en een herhaalbare maalgraad zijn voor beide nuttig, maar in de vergelijkingsprijs is geen molen, waterkoker, brander of melkopschuimer inbegrepen. Controleer het actuele Amerikaanse winkelmandje op de exacte onderdelen, verzendkosten en belastingen. Hier wordt geen actuele prijs of korting geclaimd.",
+      "de": "Eine Waage, frischer Kaffee und eine reproduzierbare Mahlung sind für beide hilfreich. Im Vergleichspreis sind jedoch weder Mühle noch Wasserkocher, Brenner oder Milchaufschäumer enthalten. Prüfen Sie im aktuellen US-Warenkorb die genaue Ausstattung, Versandkosten und Steuern. Hier wird kein aktueller Preis oder Rabatt behauptet.",
+      "fr": "Une balance, du café frais et une mouture reproductible sont utiles pour les deux, mais le prix comparé ne comprend ni moulin, ni bouilloire, ni brûleur, ni mousseur à lait. Vérifiez le panier américain actuel pour le matériel précis, les frais de livraison et les taxes. Aucun prix ni rabais actuel n’est affirmé ici."
+    },
+    "23": {
+      "nl": "Twee verschillende methoden",
+      "de": "Zwei unterschiedliche Verfahren",
+      "fr": "Deux méthodes distinctes"
+    },
+    "24": {
+      "nl": "Horizontaal verschuifbare vergelijking van handmatige espresso",
+      "de": "Horizontal scrollbarer Vergleich manueller Espressobereiter",
+      "fr": "Comparaison de machines à expresso manuelles à défilement horizontal"
+    },
+    "25": {
+      "nl": "Amerikaanse uitvoeringen gecontroleerd op 5 november 2026; geen rangschikking op prijs",
+      "de": "US-Konfigurationen am 5. November 2026 geprüft; keine Preisrangliste",
+      "fr": "Configurations américaines vérifiées le 5 novembre 2026 ; aucun classement par prix"
+    },
+    "26": {
+      "nl": "Exacte keuze",
+      "de": "Genaue Auswahl",
+      "fr": "Choix précis"
+    },
+    "27": {
+      "nl": "Benodigde warmte",
+      "de": "Erforderliche Wärme",
+      "fr": "Chaleur nécessaire"
+    },
+    "28": {
+      "nl": "Flair Classic, huidige versie met twee filterdragers",
+      "de": "Flair Classic, aktuelle Version mit zwei Siebträgern",
+      "fr": "Flair Classic, version actuelle à deux porte-filtres"
+    },
+    "29": {
+      "nl": "Een hendelopstelling met controle over het shot",
+      "de": "Eine Handhebelstation mit Kontrolle über den Bezug",
+      "fr": "Un poste à levier pour maîtriser l’extraction"
+    },
+    "30": {
+      "nl": "Gekookt water uit een aparte waterkoker of een andere veilige warmtebron",
+      "de": "Aufgekochtes Wasser aus einem separaten Wasserkocher oder einer anderen sicheren Wärmequelle",
+      "fr": "Eau bouillie provenant d’une bouilloire distincte ou d’une autre source de chaleur sûre"
+    },
+    "31": {
+      "nl": "U wilt dat de espressomaker zelf water verwarmt, of u maakt geregeld meerdere dranken achter elkaar.",
+      "de": "Der Bereiter selbst soll Wasser erhitzen, oder Sie bereiten regelmäßig mehrere Getränke direkt nacheinander zu.",
+      "fr": "Vous avez besoin que la machine chauffe elle-même l’eau, ou vous préparez régulièrement plusieurs boissons d’affilée."
+    },
+    "32": {
+      "nl": "9Barista Mk.2 Standard, afgestemd op uw fornuis",
+      "de": "9Barista Mk.2 Standard, passend zu Ihrem Herd",
+      "fr": "9Barista Mk.2 Standard, adaptée à votre cuisinière"
+    },
+    "33": {
+      "nl": "Een routine op het fornuis zonder aparte waterkoker",
+      "de": "Eine Herdroutine ohne separaten Wasserkocher",
+      "fr": "Une routine sur cuisinière sans bouilloire distincte"
+    },
+    "34": {
+      "nl": "Een geschikt fornuis of een geschikte brander en de daarvoor gekozen warmteplaat",
+      "de": "Ein passender Herd oder Brenner und die dafür gewählte Wärmeleitplatte",
+      "fr": "Une cuisinière ou un brûleur compatible et la plaque de transfert de chaleur sélectionnée pour cette source"
+    },
+    "35": {
+      "nl": "U heeft geen geschikte warmtebron, wilt de druk handmatig sturen of heeft snel opeenvolgende shots nodig.",
+      "de": "Ihnen fehlt eine passende Wärmequelle, Sie möchten den Druck manuell gestalten oder benötigen rasch aufeinanderfolgende Bezüge.",
+      "fr": "Vous n’avez pas de source de chaleur compatible, souhaitez moduler la pression à la main ou avez besoin d’extractions successives rapides."
+    },
+    "36": {
+      "nl": "De twee onderbouwde keuzes",
+      "de": "Die beiden begründeten Empfehlungen",
+      "fr": "Les deux choix étayés"
+    },
+    "38": {
+      "nl": "U drukt op de hendel en bekijkt de meegeleverde manometer; de Flow Control- en Bottomless 2-in-1-filterdragers passen bij verschillende molenopstellingen",
+      "de": "Sie drücken den Hebel und beobachten das mitgelieferte Manometer; die Siebträger Flow Control und Bottomless 2-in-1 eignen sich für unterschiedliche Mühlenausstattungen",
+      "fr": "Vous appuyez sur le levier et observez le manomètre fourni ; les porte-filtres Flow Control et Bottomless 2-in-1 conviennent à différents équipements de mouture"
+    },
+    "39": {
+      "nl": "De zetgroep, het mandje en het apart verwarmen van water voegen stappen toe aan elk shot. Er is geen melkstomer.",
+      "de": "Brühkopf, Filterkorb und separate Wassererwärmung erfordern zusätzliche Schritte bei jedem Bezug. Ein Milchdampfsystem ist nicht vorhanden.",
+      "fr": "La tête d’infusion, le panier et le chauffage séparé de l’eau ajoutent des étapes à chaque extraction. Il n’y a pas de système vapeur pour le lait."
+    },
+    "40": {
+      "nl": ". Officiële productbeelden tonen om welk model het gaat; geen testfoto van Coffeedant.",
+      "de": ". Offizielle Produktbilder zeigen das Modell; keine Testaufnahme von Coffeedant.",
+      "fr": ". Les images officielles du produit identifient le modèle ; aucune photo d’essai de Coffeedant."
+    },
+    "41": {
+      "nl": "Gemonteerde 9Barista Mk.2-espressomaker voor op het fornuis",
+      "de": "Zusammengebauter 9Barista Mk.2-Espressobereiter für den Herd",
+      "fr": "Machine à expresso 9Barista Mk.2 assemblée pour cuisinière"
+    },
+    "42": {
+      "nl": "De warmte van het fornuis drijft de espressomaker aan; kies bewust de Standard- of Pro-onderdelen. Deze keuze betreft Standard.",
+      "de": "Die Herdwärme treibt den Bereiter an; wählen Sie die Ausstattung Standard oder Pro bewusst. Diese Empfehlung gilt dem Standard.",
+      "fr": "La chaleur de la cuisinière entraîne la machine ; choisissez délibérément le matériel Standard ou Pro. Ce choix porte sur la Standard."
+    },
+    "43": {
+      "nl": "Het hete metaal moet afkoelen voordat u veilig kunt demonteren en een volgende cyclus kunt starten; melk vraagt om een aparte methode.",
+      "de": "Das heiße Metall muss vor sicherem Zerlegen und dem nächsten Durchgang abkühlen; für Milch ist eine separate Methode nötig.",
+      "fr": "Le métal chaud doit refroidir avant un démontage sûr et le cycle suivant ; le lait nécessite une méthode distincte."
+    },
+    "44": {
+      "nl": "Het praktische verschil",
+      "de": "Der praktische Unterschied",
+      "fr": "La distinction pratique"
+    },
+    "45": {
+      "nl": "Horizontaal verschuifbare gedetailleerde vergelijking van handmatige espresso",
+      "de": "Horizontal scrollbarer Detailvergleich manueller Espressobereiter",
+      "fr": "Comparaison détaillée de machines à expresso manuelles à défilement horizontal"
+    },
+    "46": {
+      "nl": "Uitspraken van de fabrikant over uitvoering en werkwijze, geen metingen van Coffeedant",
+      "de": "Herstellerangaben zu Konfiguration und Arbeitsablauf, keine Coffeedant-Messungen",
+      "fr": "Informations des fabricants sur la configuration et l’utilisation, pas des mesures de Coffeedant"
+    },
+    "48": {
+      "nl": "Kook water apart en giet het in de zetcilinder",
+      "de": "Wasser separat aufkochen und in den Brühzylinder gießen",
+      "fr": "Faire bouillir l’eau séparément et la verser dans le cylindre d’infusion"
+    },
+    "49": {
+      "nl": "Verwarm de gemonteerde espressomaker op een geschikt fornuis met de gekozen plaat",
+      "de": "Den zusammengebauten Bereiter mit der gewählten Platte auf einem passenden Herd erhitzen",
+      "fr": "Chauffer la machine assemblée sur une cuisinière compatible avec la plaque choisie"
+    },
+    "50": {
+      "nl": "Druk",
+      "de": "Druck",
+      "fr": "Pression"
+    },
+    "51": {
+      "nl": "Handbediende hendel met meegeleverde manometer",
+      "de": "Von Hand betätigter Hebel mit mitgeliefertem Manometer",
+      "fr": "Levier actionné à la main avec manomètre fourni"
+    },
+    "52": {
+      "nl": "Thermisch systeem op het fornuis; geen hendel om de druk te sturen",
+      "de": "Thermisches Herdsystem; kein Hebel zur Gestaltung des Druckverlaufs",
+      "fr": "Système thermique sur cuisinière ; aucun levier pour moduler la pression"
+    },
+    "53": {
+      "nl": "Vereisten voor de molen",
+      "de": "Anforderungen an die Mühle",
+      "fr": "Exigences de mouture"
+    },
+    "54": {
+      "nl": "De Flow Control-filterdrager verdraagt een ruimer maalbereik; bodemloos profiteert van een afstelling die geschikt is voor espresso",
+      "de": "Der Flow Control-Siebträger toleriert einen größeren Mahlbereich; die bodenlose Variante profitiert von einer espressofähigen Einstellung",
+      "fr": "Le porte-filtre Flow Control tolère une plage de mouture plus large ; le modèle sans fond profite d’un réglage adapté à l’expresso"
+    },
+    "55": {
+      "nl": "Standard-mandje en -filterdrager; goed afstellen blijft belangrijk",
+      "de": "Standard-Filterkorb und -Siebträger; das Einwählen bleibt wichtig",
+      "fr": "Panier et porte-filtre Standard ; le réglage reste important"
+    },
+    "56": {
+      "nl": "Tussen dranken",
+      "de": "Zwischen den Getränken",
+      "fr": "Entre les boissons"
+    },
+    "57": {
+      "nl": "Bereid de filterdrager en de cilinder voor en vul ze opnieuw",
+      "de": "Siebträger und Zylinder vorbereiten und erneut befüllen",
+      "fr": "Préparer et remplir à nouveau le porte-filtre et le cylindre"
+    },
+    "58": {
+      "nl": "Laat het hete metaal afkoelen vóór het demonteren en een volgende cyclus",
+      "de": "Heißes Metall vor dem Zerlegen und einem weiteren Durchgang abkühlen lassen",
+      "fr": "Laisser refroidir le métal chaud avant le démontage et un autre cycle"
+    },
+    "59": {
+      "nl": "Geen geïntegreerde melkstomer",
+      "de": "Kein integriertes Dampfsystem",
+      "fr": "Aucun système vapeur intégré"
+    },
+    "60": {
+      "nl": "Risico op verwarring tussen uitvoeringen",
+      "de": "Verwechslungsrisiko bei Varianten",
+      "fr": "Risque de confusion entre versions"
+    },
+    "61": {
+      "nl": "Controleer de huidige set met twee filterdragers tegenover oudere Classic-bundels",
+      "de": "Aktuelles Set mit zwei Siebträgern mit älteren Classic-Paketen abgleichen",
+      "fr": "Comparer le kit actuel à deux porte-filtres aux anciens ensembles Classic"
+    },
+    "62": {
+      "nl": "Kies bewust Standard of Pro en de juiste plaat voor het fornuis",
+      "de": "Standard oder Pro und die richtige Herdplatte bewusst auswählen",
+      "fr": "Choisir délibérément Standard ou Pro et la plaque adaptée à la cuisinière"
+    },
+    "63": {
+      "nl": "Wanneer geen van beide keuzes de juiste opstelling biedt",
+      "de": "Wann keine der beiden Optionen zur Ausstattung passt",
+      "fr": "Quand aucun de ces choix ne convient"
+    },
+    "64": {
+      "nl": "De aparte warmtebron is de eerste vraag op het gebied van kosten en veiligheid. Als het enige stopcontact ver weg is, kan een veilige plek op het fornuis in het voordeel van de 9Barista spreken; als u al water kookt voor een andere methode, kan de Flair bij die routine aansluiten. Gebruik geen ongeschikte kookplaat, geïmproviseerde brander of instabiele kampeeropstelling. Stem de instructies van de fabrikant af op de daadwerkelijke warmtebron. [1] [3]",
+      "de": "Die separate Wärmequelle ist die erste Kosten- und Sicherheitsfrage. Ist die einzige Steckdose weit entfernt, kann ein sicherer Platz am Herd für den 9Barista sprechen. Wenn Sie bereits für eine andere Methode Wasser aufkochen, kann sich der Flair in diese Routine einfügen. Verwenden Sie keine ungeeignete Heizplatte, improvisierte Brenner oder instabilen Campingaufbauten. Gleichen Sie die Herstelleranleitung mit der tatsächlichen Wärmequelle ab. [1] [3]",
+      "fr": "La source de chaleur distincte est la première question de coût et de sécurité. Si la seule prise est éloignée, un emplacement sûr sur la cuisinière peut favoriser la 9Barista ; si vous faites déjà bouillir de l’eau pour une autre méthode, la Flair peut partager cette routine. N’utilisez ni plaque chauffante inadaptée, ni brûleur improvisé, ni installation de camping instable. Faites correspondre les instructions du fabricant à la source de chaleur réelle. [1] [3]"
+    },
+    "65": {
+      "nl": "Onafhankelijke verslagen helpen de inspanning in te schatten, maar zijn geen vergelijkbare laboratoriummetingen. De eerdere Classic-beoordeling van GearLab beschrijft het ontbreken van ingebouwde waterverwarming en melkstoom; die set dateert van vóór de huidige bundel met twee filterdragers. Tom’s Guide beoordeelde een Mk.2-exemplaar en bespreekt het werken op het fornuis. Berichten van eigenaren beschrijven extra stappen voor meerdere Classic-shots en één geval van moeite met het afstellen van een Mk.2. Dat zijn individuele ervaringen, geen percentages of bewijs dat beide producten zich voor elke koper hetzelfde zullen gedragen. [4] [5] [6] [7]",
+      "de": "Unabhängige Berichte helfen, den Aufwand einzuordnen, sind aber keine vergleichbaren Labormessungen. Der frühere Classic-Testbericht von GearLab beschreibt die fehlende eingebaute Wassererwärmung und Milchschaumzubereitung per Dampf; das damalige Set stammt aus der Zeit vor dem aktuellen Paket mit zwei Siebträgern. Tom’s Guide testete ein Mk.2-Gerät und bespricht dessen Arbeitsablauf auf dem Herd. Besitzerbeiträge schildern zusätzliche Schritte für mehrere Classic-Bezüge und einen einzelnen Fall mit Schwierigkeiten beim Einwählen des Mk.2. Das sind Einzelerfahrungen, keine Häufigkeitsraten und kein Beleg dafür, dass sich die Produkte bei jedem Käufer gleich verhalten. [4] [5] [6] [7]",
+      "fr": "Les témoignages indépendants aident à situer l’effort, mais ne constituent pas des mesures de laboratoire comparables. L’ancienne évaluation de la Classic par GearLab décrit l’absence de chauffage d’eau intégré et de vapeur pour le lait ; son kit précède l’ensemble actuel à deux porte-filtres. Tom’s Guide a évalué un exemplaire Mk.2 et décrit son utilisation sur cuisinière. Des publications de propriétaires évoquent des étapes supplémentaires pour plusieurs extractions avec la Classic et un cas de difficulté à régler une Mk.2. Ce sont des expériences individuelles, pas des taux ni la preuve que ces produits se comporteront de la même façon pour chaque acheteur. [4] [5] [6] [7]"
+    },
+    "66": {
+      "nl": "Als de gebruikelijke bestelling uit meerdere cappuccino’s bestaat, kan een pompmachine met stoompijp een betere aankoop zijn, ook als die een stopcontact nodig heeft. Wilt u vooral af en toe een handmatig shot en terugkoppeling over de druk, begin dan met de Flair. Wilt u een op zichzelf staand extractiemechanisme op het fornuis en heeft u al een geschikte warmtebron, bekijk dan de 9Barista Standard-uitvoering. Gebruik voor een andere budgetafweging de",
+      "de": "Wenn üblicherweise mehrere Cappuccinos gewünscht sind, kann eine Pumpenmaschine mit Dampflanze trotz Steckdosenbedarf der bessere Kauf sein. Für einen gelegentlichen manuellen Bezug mit Rückmeldung zum Druck beginnen Sie mit dem Flair. Wenn Sie einen in sich geschlossenen Extraktionsmechanismus für den Herd wünschen und die passende Wärmequelle bereits haben, prüfen Sie die Konfiguration 9Barista Standard. Für eine andere Budgetentscheidung nutzen Sie die",
+      "fr": "Si vous préparez habituellement plusieurs cappuccinos, une machine à pompe avec buse vapeur peut être un meilleur achat, même si elle nécessite une prise. Pour une extraction manuelle occasionnelle avec retour sur la pression, commencez par la Flair. Si vous voulez un mécanisme d’extraction autonome sur cuisinière et disposez déjà de la source de chaleur compatible, examinez la configuration 9Barista Standard. Pour un autre choix de budget, consultez le"
+    },
+    "67": {
+      "nl": "gids voor minder dan $500",
+      "de": "Kaufberatung unter $500",
+      "fr": "guide à moins de $500"
+    },
+    "68": {
+      "nl": "; als ruimtebeslag vooropstaat, gebruik dan de",
+      "de": "; wenn der Platzbedarf im Vordergrund steht, nutzen Sie die",
+      "fr": " ; pour privilégier l’encombrement, consultez le"
+    },
+    "69": {
+      "nl": "gids voor kleine machines",
+      "de": "Kaufberatung für kleine Geräte",
+      "fr": "guide des petites machines"
+    },
+    "70": {
+      "nl": "We vergeleken actuele Amerikaanse fabrikantpagina’s, exacte sets en uitvoeringskeuzes, beoordelingen van derden, discussies van eigenaren en de bestaande volledige beoordelingen van Coffeedant. Het selectiecriterium was een espressomaker zonder ingebouwde elektrische vereiste, met een onderscheidende werkwijze voor druk en warmte. We sloten onzekere gelijkwaardigheid van bundels uit en leidden geen prijzen, betrouwbaarheidscijfers, extractieprestaties of smaak af uit fabrikantteksten of anekdotes.",
+      "de": "Wir verglichen aktuelle US-Herstellerseiten, genaue Sets und Varianten, Bewertungen Dritter, Besitzerdiskussionen und die bestehenden vollständigen Coffeedant-Testberichte. Auswahlkriterium war ein Bereiter ohne integrierten Strombedarf mit einem eigenständigen Ablauf für Druck und Wärme. Unsichere Gleichsetzungen verschiedener Lieferumfänge schlossen wir aus. Aus Herstellertexten oder Anekdoten leiteten wir weder Preise noch Zuverlässigkeitsraten, Extraktionsleistung oder Geschmack ab.",
+      "fr": "Nous avons comparé les pages américaines actuelles des fabricants, les kits précis et les variantes, les évaluations de tiers, les discussions de propriétaires et les évaluations complètes existantes de Coffeedant. Le critère de sélection était une machine sans besoin électrique intégré, avec un fonctionnement distinct pour la pression et la chaleur. Nous avons écarté les équivalences incertaines entre ensembles et n’avons déduit ni prix, ni taux de fiabilité, ni performances d’extraction, ni goût des textes des fabricants ou des anecdotes."
+    },
+    "71": {
+      "nl": "Coffeedant heeft geen van beide espressomakers gekocht, gebruikt of gemeten. De productafbeeldingen komen van de fabrikanten en tonen de onderdelen. Controleer de actuele productpagina’s en handleidingen opnieuw vóór aankoop, omdat bundels, voorraad en compatibiliteit kunnen veranderen.",
+      "de": "Coffeedant hat keinen der beiden Bereiter gekauft, betrieben oder vermessen. Die Produktbilder stammen von den Herstellern und zeigen die Ausstattung. Prüfen Sie Produktseiten und Handbücher vor dem Kauf erneut, da sich Lieferumfang, Lagerbestand und Kompatibilität ändern können.",
+      "fr": "Coffeedant n’a acheté, utilisé ou mesuré aucune de ces deux machines. Les images proviennent des fabricants et identifient le matériel. Consultez à nouveau les pages produit et les manuels avant l’achat, car les ensembles, les stocks et la compatibilité peuvent évoluer."
+    },
+    "72": {
+      "nl": "Veelgestelde vragen over espresso zonder stekker",
+      "de": "Häufige Fragen zu Espresso ohne Netzstecker",
+      "fr": "Questions fréquentes sur l’expresso sans prise"
+    },
+    "73": {
+      "nl": "Hebben deze espressomakers elektriciteit nodig?",
+      "de": "Benötigen diese Espressobereiter überhaupt Strom?",
+      "fr": "Ces machines à expresso ont-elles besoin d’électricité ?"
+    },
+    "74": {
+      "nl": "De espressomakers zelf niet. U heeft nog steeds een veilige manier nodig om water te verwarmen voor de Flair of een geschikt fornuis te verwarmen voor de 9Barista; een elektrische waterkoker of een elektrisch fornuis verbruikt wel stroom.",
+      "de": "Die Bereiter selbst nicht. Sie benötigen weiterhin eine sichere Möglichkeit, Wasser für den Flair oder einen passenden Herd für den 9Barista zu erhitzen. Ein elektrischer Wasserkocher oder Herd verbraucht dabei Strom.",
+      "fr": "Les machines elles-mêmes n’en ont pas besoin. Il faut toujours un moyen sûr de chauffer l’eau pour la Flair ou une cuisinière compatible pour la 9Barista ; une bouilloire ou une cuisinière électrique consommerait de l’électricité."
+    },
+    "75": {
+      "nl": "Kan ik voorgemalen koffie gebruiken?",
+      "de": "Kann ich vorgemahlenen Kaffee verwenden?",
+      "fr": "Puis-je utiliser du café prémoulu ?"
+    },
+    "76": {
+      "nl": "De huidige Flair Classic bevat een Flow Control-filterdrager die volgens Flair geschikt kan zijn voor voorgemalen koffie. De bodemloze filterdrager en de 9Barista Standard profiteren van een molen die geschikt is voor espresso.",
+      "de": "Der aktuelle Flair Classic enthält einen Flow Control-Siebträger, der laut Flair mit vorgemahlenem Kaffee funktionieren kann. Sein bodenloser Siebträger und der 9Barista Standard profitieren von einer espressofähigen Mühle.",
+      "fr": "La Flair Classic actuelle comprend un porte-filtre Flow Control qui, selon Flair, peut fonctionner avec du café prémoulu. Son porte-filtre sans fond et la 9Barista Standard profitent d’un moulin adapté à l’expresso."
+    },
+    "77": {
+      "nl": "Maakt een van beide melkschuim?",
+      "de": "Bereitet eines der Geräte Milchschaum zu?",
+      "fr": "L’une ou l’autre produit-elle de la mousse de lait ?"
+    },
+    "78": {
+      "nl": "Geen van beide keuzes heeft een geïntegreerde stoompijp. Plan een aparte methode om melk te verwarmen en op te schuimen als u melkdranken wilt maken.",
+      "de": "Keine der beiden Empfehlungen hat eine integrierte Dampflanze. Planen Sie eine separate Methode zum Erhitzen und Aufschäumen der Milch ein, wenn Sie Milchgetränke zubereiten möchten.",
+      "fr": "Aucun de ces choix n’intègre de buse vapeur. Prévoyez une méthode distincte pour chauffer et faire mousser le lait si vous souhaitez des boissons lactées."
+    },
+    "79": {
+      "nl": "Welke is gemakkelijker voor meerdere dranken achter elkaar?",
+      "de": "Welches Gerät ist für direkt aufeinanderfolgende Getränke einfacher?",
+      "fr": "Laquelle est la plus simple pour plusieurs boissons d’affilée ?"
+    },
+    "80": {
+      "nl": "Geen van beide is ontworpen voor snelle bediening. Bij de Flair moeten het mandje en de cilinder telkens opnieuw worden voorbereid; de 9Barista moet voldoende afkoelen om veilig vast te pakken vóór het demonteren en een volgende cyclus.",
+      "de": "Keines der Geräte ist auf schnelle Bedienung ausgelegt. Beim Flair müssen Korb und Zylinder wiederholt vorbereitet werden. Der 9Barista muss vor dem Zerlegen und einem weiteren Durchgang so weit abkühlen, dass er sicher angefasst werden kann.",
+      "fr": "Aucune n’est conçue pour un service rapide. La Flair demande de préparer à nouveau le panier et le cylindre ; la 9Barista doit refroidir suffisamment pour être manipulée sans danger avant le démontage et un autre cycle."
+    },
+    "81": {
+      "nl": "Werkt een inductiefornuis met de 9Barista?",
+      "de": "Funktioniert der 9Barista auf einem Induktionsherd?",
+      "fr": "Une cuisinière à induction fonctionnera-t-elle avec la 9Barista ?"
+    },
+    "82": {
+      "nl": "9Barista vraagt kopers een type fornuis te kiezen. Bij de inductieoptie wordt een inductieadapterplaat geleverd; controleer vóór het bestellen uw exacte fornuis en de gekozen plaat.",
+      "de": "9Barista lässt Käufer einen Herdtyp auswählen. Die Induktionsoption enthält eine Induktionsadapterplatte. Bestätigen Sie vor der Bestellung die Eignung für Ihren genauen Herd und die gewählte Platte.",
+      "fr": "9Barista demande aux acheteurs de choisir un type de cuisinière. L’option induction fournit une plaque adaptatrice pour induction ; confirmez votre cuisinière exacte et la plaque sélectionnée avant de commander."
+    },
+    "83": {
+      "nl": "Is de 9Barista Mk.2 Pro dezelfde keuze?",
+      "de": "Ist der 9Barista Mk.2 Pro dieselbe Empfehlung?",
+      "fr": "La 9Barista Mk.2 Pro correspond-elle au même choix ?"
+    },
+    "84": {
+      "nl": "Nee. Deze vergelijking gebruikt de Mk.2 Standard. Bij Pro zijn de filterdrager, het mandje en het manddeksel anders; schrijf die onderdelen of claims niet toe aan Standard.",
+      "de": "Nein. Dieser Vergleich verwendet den Mk.2 Standard. Beim Pro unterscheiden sich Siebträger, Korb und Korbdeckel. Übertragen Sie diese Teile oder Aussagen nicht auf den Standard.",
+      "fr": "Non. Cette comparaison porte sur la Mk.2 Standard. La Pro modifie le porte-filtre, le panier et son couvercle ; n’attribuez pas ces pièces ou ces caractéristiques à la Standard."
+    },
+    "85": {
+      "nl": "Heeft Coffeedant een van beide espressomakers getest?",
+      "de": "Hat Coffeedant einen der beiden Bereiter getestet?",
+      "fr": "Coffeedant a-t-il testé l’une de ces machines ?"
+    },
+    "86": {
+      "nl": "Nee. Dit zijn geschiktheidsbeoordelingen op basis van onderzoek naar actuele fabrikantgegevens, onafhankelijke verslagen, ervaringen van eigenaren en de gelinkte volledige beoordelingen van Coffeedant.",
+      "de": "Nein. Diese Urteile zur Eignung beruhen auf der Recherche aktueller Herstellerunterlagen, unabhängiger Berichte, Besitzererfahrungen und der verlinkten vollständigen Coffeedant-Testberichte.",
+      "fr": "Non. Ce sont des jugements d’adéquation fondés sur les informations actuelles des fabricants, des témoignages indépendants, des retours de propriétaires et les évaluations complètes de Coffeedant en lien."
+    },
+    "87": {
+      "nl": "Bronnen gecontroleerd op 5 november 2026",
+      "de": "Quellen am 5. November 2026 geprüft",
+      "fr": "Sources vérifiées le 5 novembre 2026"
+    },
+    "88": {
+      "nl": "Amerikaanse productpagina van de Flair Classic ↗",
+      "de": "US-Produktseite des Flair Classic ↗",
+      "fr": "Page produit américaine de la Flair Classic ↗"
+    },
+    "89": {
+      "nl": "— Huidige set met twee filterdragers, manometer, vereisten voor water en molen, afmetingen en werking zonder stekker. Gecontroleerd op 5 november 2026.",
+      "de": "— Aktuelles Set mit zwei Siebträgern, Manometer, Anforderungen an Wasser und Mühle, Abmessungen und Betrieb ohne Netzstecker. Am 5. November 2026 geprüft.",
+      "fr": "— Kit actuel à deux porte-filtres, manomètre, besoins en eau et en mouture, dimensions et fonctionnement sans prise. Vérifiés le 5 novembre 2026."
+    },
+    "90": {
+      "nl": "Productgids voor de Flair Classic ↗",
+      "de": "Produktleitfaden für den Flair Classic ↗",
+      "fr": "Guide produit de la Flair Classic ↗"
+    },
+    "91": {
+      "nl": "— Context van de herziening uit 2025; controleer de actuele set vóór het bestellen. Gecontroleerd op 5 november 2026.",
+      "de": "— Kontext der Überarbeitung von 2025; aktuelles Set vor der Bestellung prüfen. Am 5. November 2026 geprüft.",
+      "fr": "— Contexte de la révision de 2025 ; vérifiez le kit actuel avant de commander. Vérifié le 5 novembre 2026."
+    },
+    "92": {
+      "nl": "Amerikaanse productpagina van de 9Barista Mk.2 ↗",
+      "de": "US-Produktseite des 9Barista Mk.2 ↗",
+      "fr": "Page produit américaine de la 9Barista Mk.2 ↗"
+    },
+    "93": {
+      "nl": "— Huidige verschillen tussen Mk.2 Standard/Pro en warmteplaat voor het specifieke fornuis. Gecontroleerd op 5 november 2026.",
+      "de": "— Aktuelle Unterschiede zwischen Mk.2 Standard/Pro und herdabhängige Wärmeleitplatte. Am 5. November 2026 geprüft.",
+      "fr": "— Distinctions actuelles entre Mk.2 Standard/Pro et plaque de transfert de chaleur propre au type de cuisinière. Vérifiées le 5 novembre 2026."
+    },
+    "94": {
+      "nl": "Tom’s Guide: beoordeling van de 9Barista Mk.2 ↗",
+      "de": "Tom’s Guide: Testbericht zum 9Barista Mk.2 ↗",
+      "fr": "Tom’s Guide : évaluation de la 9Barista Mk.2 ↗"
+    },
+    "95": {
+      "nl": "— Onafhankelijk praktijkverslag van de werkwijze met de Mk.2; één beoordelaar, geen duurzaamheidspercentage. Gecontroleerd op 5 november 2026.",
+      "de": "— Unabhängiger Praxisbericht zum Arbeitsablauf mit dem Mk.2; ein einzelner Rezensent, keine Haltbarkeitsrate. Am 5. November 2026 geprüft.",
+      "fr": "— Témoignage pratique indépendant sur l’utilisation de la Mk.2 ; un seul évaluateur, pas un taux de durabilité. Vérifié le 5 novembre 2026."
+    },
+    "96": {
+      "nl": "GearLab: beoordeling van de Flair Classic ↗",
+      "de": "GearLab: Testbericht zum Flair Classic ↗",
+      "fr": "GearLab : évaluation de la Flair Classic ↗"
+    },
+    "97": {
+      "nl": "— Onafhankelijke beoordeling van een eerdere Classic; nuttige context voor de werkwijze, geen bevestiging van de herziene set. Gecontroleerd op 5 november 2026.",
+      "de": "— Unabhängiger Testbericht zu einem früheren Classic; hilfreicher Kontext zum Arbeitsablauf, keine Bestätigung des überarbeiteten Sets. Am 5. November 2026 geprüft.",
+      "fr": "— Évaluation indépendante d’une ancienne Classic ; contexte d’utilisation utile, pas une confirmation du kit révisé. Vérifiée le 5 novembre 2026."
+    },
+    "98": {
+      "nl": "Discussie van Flair-eigenaren ↗",
+      "de": "Diskussion unter Flair-Besitzern ↗",
+      "fr": "Discussion de propriétaires de Flair ↗"
+    },
+    "99": {
+      "nl": "— Eén eigenaar van de vernieuwde Classic beschrijft extra werk voor meerdere shots; alleen een anekdote. Gecontroleerd op 5 november 2026.",
+      "de": "— Ein Besitzer des aktualisierten Classic beschreibt zusätzlichen Aufwand für mehrere Bezüge; lediglich eine Anekdote. Am 5. November 2026 geprüft.",
+      "fr": "— Un propriétaire de la Classic mise à jour décrit du travail supplémentaire pour plusieurs extractions ; anecdote uniquement. Vérifié le 5 novembre 2026."
+    },
+    "100": {
+      "nl": "Discussie van 9Barista-eigenaren ↗",
+      "de": "Diskussion unter 9Barista-Besitzern ↗",
+      "fr": "Discussion de propriétaires de 9Barista ↗"
+    },
+    "101": {
+      "nl": "— Eén Mk.2-eigenaar beschrijft moeite met afstellen; alleen een anekdote. Gecontroleerd op 5 november 2026.",
+      "de": "— Ein Mk.2-Besitzer beschreibt Schwierigkeiten beim Einwählen; lediglich eine Anekdote. Am 5. November 2026 geprüft.",
+      "fr": "— Un propriétaire de Mk.2 décrit une difficulté de réglage ; anecdote uniquement. Vérifié le 5 novembre 2026."
+    }
+  }
+}
