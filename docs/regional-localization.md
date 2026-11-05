@@ -3938,6 +3938,51 @@ Ready-pages publication, continuation and source-change maintenance remain
 active. Current-head checks, production deployments, full live manifests and
 reciprocal links must pass before reporting publication.
 
+### Direct batch 78: complete manual-espresso guide without a plug (2026-11-05)
+
+Directly translate the complete no-plug manual-espresso buying guide into
+NL/DE/FR. Preserve the current Flair Classic two-portafilter kit, its Flow
+Control and Bottomless 2-in-1 choices, and the stove-matched 9Barista Mk.2
+Standard. Pro hardware claims stay separate. The brewer having no plug does
+not make the entire setup electricity-free: separate water heating or a
+compatible stove remains necessary. Retain cooling and handling instructions,
+separate milk preparation, dated US configuration context and the distinction
+between older reviews, current kits and individual owner anecdotes. No local
+availability, current price, measured performance or Coffeedant testing is added.
+
+The immutable full snapshot contains 619 slots. The missing snapshot freezes
+123 current slots, covered by 99 directly authored translation triples and
+one unchanged model name. Exact-source reuse also fills metadata, image labels
+and all seven structured FAQ answers. Import adds 123 cache entries per edition
+without changing earlier cached wording. Original markup, citations, image
+destinations and linked source articles remain intact.
+
+Preserve the registered German route
+`/espresso-maschine/beste-manuelle-espresso-maschinen-ohne-stecker/`.
+The Dutch guide uses
+`/espressomachines/beste-handmatige-espressomakers-zonder-stekker/`;
+the French guide uses
+`/machines-expresso/meilleures-machines-expresso-manuelles-sans-prise/`.
+The machine hub opens the completed native guide. Unfinished model reviews
+continue opening their English source with the native edition notice.
+
+All 210 localization and 20 SEO tests pass. Analytics, generated SEO, 35 bean
+reviews and the 151-machine/seven-grinder Finder pass against the current
+663-page source. Nine full preview and production comparisons cover the manual
+guide, its machine hub and the existing automatic-drip guide in every edition.
+Browser checks cover the guide at desktop and mobile widths, seven FAQ answers,
+two focusable scrolling comparisons, jump destinations, language selectors,
+mobile menus and native hub links. Production manifests, sitemaps, strict TLS,
+canonicals, indexing and English return links remain required after merge.
+
+Current source remains 663 pages / 56,955 segments. Ready selection is 139
+indexable pages plus 404 per edition, retaining all 138 earlier canonical paths
+and the approved Dutch dosing URL. Coverage is NL 14,856 translated / 42,099
+pending, DE 14,922 / 42,033 and FR 14,865 / 42,090. Finder gaps remain zero;
+154 non-video and 369 video pages per edition remain unfinished. Full editions
+remain incomplete. Ready-pages publication and both continuation and
+source-change maintenance remain active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
