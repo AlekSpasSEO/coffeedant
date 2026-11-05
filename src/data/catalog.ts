@@ -173,6 +173,7 @@ export const decisionGuides = [
   { path: '/espresso-machine/prosumer-under-1000/', label: 'Step-up', title: 'Prosumer under $1,000', note: 'More control and stronger hardware without entering luxury pricing.', tone: 'paper' },
   { path: '/espresso-machine/single-boiler/', label: 'Machine type', title: 'Single-boiler machines', note: 'Focused espresso performance for buyers who can wait between brew and steam.', tone: 'paper' },
   { path: '/espresso-machine/small/', label: 'Small spaces', title: 'Compact machines', note: 'Real espresso capability for tight counters.', tone: 'paper' },
+  { path: '/espresso-machine/best-manual-espresso-makers-no-plug/', label: 'Manual, no plug', title: 'No-plug manual espresso', note: 'Compare lever and stovetop routines when the brewer has no outlet.', tone: 'paper' },
 ];
 
 export const machinePagesForBrand = (brand: Brand, pages: any[]) => [...new Map(pages
