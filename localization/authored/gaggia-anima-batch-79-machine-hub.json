@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "gaggia-anima-batch-79-machine-hub.source.json",
+  "snapshotHash": "ead0b85df4cc24bc7ac41a831b8fbad741db22a352830fcad59ffa8001fb9b44",
+  "routes": {
+    "nl": {},
+    "de": {},
+    "fr": {}
+  },
+  "translations": {
+    "0": {
+      "nl": "Melkdranken achter elkaar",
+      "de": "Milchgetränke direkt nacheinander",
+      "fr": "Boissons lactées à la suite"
+    },
+    "1": {
+      "nl": "Routine voor melkdranken",
+      "de": "Ablauf für Milchgetränke",
+      "fr": "Routine de boissons lactées"
+    }
+  }
+}

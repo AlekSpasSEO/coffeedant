@@ -1,0 +1,756 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "gaggia-anima-batch-79.source.json",
+  "snapshotHash": "06b930196f49c3680cda3b5c1188b6a7113037b63b7fa97f3b242b3910c86eb7",
+  "preserveSource": [
+    6,
+    145
+  ],
+  "routes": {
+    "nl": {
+      "/espresso-machine/gaggia-anima/": "/espresso-machine/gaggia-anima/",
+      "/espresso-machine/gaggia-anima/video/whole-latte-love/": "/espresso-machine/gaggia-anima/video/whole-latte-love/"
+    },
+    "de": {
+      "/espresso-machine/gaggia-anima/": "/testbericht-gaggia-anima/",
+      "/espresso-machine/gaggia-anima/video/whole-latte-love/": "/testbericht-gaggia-anima/video/whole-latte-love/"
+    },
+    "fr": {
+      "/espresso-machine/gaggia-anima/": "/machine-a-espresso/gaggia-anima/",
+      "/espresso-machine/gaggia-anima/video/whole-latte-love/": "/machine-a-espresso/gaggia-anima/video/whole-latte-love/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "7.7 van de 10",
+      "de": "7.7 von 10",
+      "fr": "7.7 sur 10"
+    },
+    "1": {
+      "nl": "7.4 van de 10",
+      "de": "7.4 von 10",
+      "fr": "7.4 sur 10"
+    },
+    "2": {
+      "nl": "7.3 van de 10",
+      "de": "7.3 von 10",
+      "fr": "7.3 sur 10"
+    },
+    "3": {
+      "nl": "Zetgroep",
+      "de": "Brühgruppe",
+      "fr": "Groupe d’infusion"
+    },
+    "4": {
+      "nl": "Handmatige espressoroute",
+      "de": "Manueller Weg zum Espresso",
+      "fr": "Voie de l’expresso manuel"
+    },
+    "5": {
+      "nl": "Kan hij twee dranken maken?",
+      "de": "Kann das Gerät zwei Getränke zubereiten?",
+      "fr": "Peut-elle préparer deux boissons ?"
+    },
+    "7": {
+      "nl": "Kies een smal model met geïntegreerde melkkan voor cappuccino en latte macchiato met één druk op de knop.",
+      "de": "Wählen Sie ein schmales Gerät mit integrierter Milchkaraffe für Cappuccino und Latte macchiato auf Knopfdruck.",
+      "fr": "Choisissez une machine étroite à carafe intégrée pour cappuccino et latte macchiato d’une seule touche."
+    },
+    "8": {
+      "nl": "Kies profielen, kleurenmenu’s en een handmatige stoompijp met twee gaatjes als melkbereiding belangrijk is.",
+      "de": "Wählen Sie Profile, Farbmenüs und eine manuelle Dampflanze mit zwei Öffnungen, wenn Ihnen die Milchzubereitung wichtig ist.",
+      "fr": "Choisissez des profils, des menus en couleur et une buse manuelle à deux trous si le travail du lait compte."
+    },
+    "9": {
+      "nl": "Molen met platte keramische maalschijven en vijf maalstanden",
+      "de": "Mühle mit flachen Keramikmahlscheiben und fünf Mahlgradeinstellungen",
+      "fr": "Moulin à meules plates en céramique avec cinq réglages"
+    },
+    "10": {
+      "nl": "Uitneembare automatische zetgroep van Gaggia; volg de handleiding van de exacte uitvoering voor spoelen en smeren",
+      "de": "Herausnehmbare automatische Gaggia-Brühgruppe; zum Spülen und Schmieren die Anleitung des genauen Modells beachten",
+      "fr": "Groupe d’infusion automatique Gaggia amovible ; suivez le manuel du modèle précis pour le rinçage et la lubrification"
+    },
+    "11": {
+      "nl": "Wateronderhoud",
+      "de": "Wasserpflege",
+      "fr": "Entretien du circuit d’eau"
+    },
+    "12": {
+      "nl": "Compatibel met Intenza+, met automatisch spoelen en begeleid of automatisch ontkalken",
+      "de": "Intenza+-kompatibel mit automatischem Spülen und angeleiteter oder automatischer Entkalkung",
+      "fr": "Compatible Intenza+, avec rinçage automatique et détartrage guidé ou automatique"
+    },
+    "13": {
+      "nl": "Verse koffie zonder aparte molen en filterdrager",
+      "de": "Frischer Kaffee ohne separate Mühle und Siebträger",
+      "fr": "Du café frais sans moulin ni porte-filtre séparés"
+    },
+    "14": {
+      "nl": "Een eigenaar die de instructies voor de zetgroep en het wateronderhoud opvolgt",
+      "de": "Ein Besitzer, der die Hinweise zu Brühgruppe und Wasserpflege befolgt",
+      "fr": "Un propriétaire qui suivra les consignes d’entretien du groupe et du circuit d’eau"
+    },
+    "15": {
+      "nl": "U wilt een aparte molen en directe controle over de koffiepuck",
+      "de": "Sie wünschen eine separate Mühle und direkte Kontrolle über den Kaffeepuck",
+      "fr": "Vous souhaitez un moulin séparé et un contrôle direct de la galette"
+    },
+    "16": {
+      "nl": "Niemand neemt het reinigen en ontkalken op zich",
+      "de": "Niemand übernimmt Reinigung und Entkalkung",
+      "fr": "Personne ne prendra en charge le nettoyage et le détartrage"
+    },
+    "17": {
+      "nl": "Door de eigenaar uitneembare zetgroep",
+      "de": "Vom Besitzer herausnehmbare Brühgruppe",
+      "fr": "Groupe d’infusion amovible par le propriétaire"
+    },
+    "18": {
+      "nl": "Geen controle over de koffiepuck tot op de gram",
+      "de": "Keine grammgenaue Kontrolle über den Kaffeepuck",
+      "fr": "Aucun contrôle de la galette au gramme près"
+    },
+    "19": {
+      "nl": "Melkonderdelen moeten direct worden gereinigd",
+      "de": "Milchteile müssen zeitnah gereinigt werden",
+      "fr": "Les pièces du circuit de lait doivent être nettoyées rapidement"
+    },
+    "20": {
+      "nl": "Suffix en garantie verschillen per regio",
+      "de": "Suffix und Garantie unterscheiden sich je nach Region",
+      "fr": "Le suffixe et la garantie varient selon la région"
+    },
+    "21": {
+      "nl": "Maalt hij automatisch bonen?",
+      "de": "Mahlt das Gerät Bohnen automatisch?",
+      "fr": "Moud-elle les grains automatiquement ?"
+    },
+    "22": {
+      "nl": "Ja. Een molen met platte keramische maalschijven en vijf maalstanden. Een bypassdoseerder verwerkt af en toe voorgemalen koffie.",
+      "de": "Ja. Eine Mühle mit flachen Keramikmahlscheiben und fünf Mahlgradeinstellungen. Ein Pulverschacht nimmt gelegentlich vorgemahlenen Kaffee auf.",
+      "fr": "Oui. Un moulin à meules plates en céramique avec cinq réglages. Une trappe à café moulu permet un usage occasionnel de café prémoulu."
+    },
+    "23": {
+      "nl": "Hoe bereidt hij melk?",
+      "de": "Wie wird Milch zubereitet?",
+      "fr": "Comment gère-t-elle le lait ?"
+    },
+    "24": {
+      "nl": "Waar dit is gedocumenteerd, ondersteunt hij zwarte koffie in twee cycli, geen gelijktijdige melkdranken.",
+      "de": "Soweit dokumentiert, unterstützt das Gerät schwarzen Kaffee in zwei Zyklen, keine gleichzeitigen Milchgetränke.",
+      "fr": "Lorsque cela est documenté, elle permet deux cycles de café noir, pas des boissons lactées simultanées."
+    },
+    "25": {
+      "nl": "Gaat het onderhoud automatisch?",
+      "de": "Erfolgt die Wartung automatisch?",
+      "fr": "L’entretien est-il automatique ?"
+    },
+    "26": {
+      "nl": "Nee. Meldingen helpen, maar de lekbak, koffiedikbak, zetgroep en melkonderdelen moeten nog steeds worden gereinigd.",
+      "de": "Nein. Hinweise helfen, doch Tropfschale, Tresterbehälter, Brühgruppe und Milchteile müssen weiterhin gereinigt werden.",
+      "fr": "Non. Les messages aident, mais le bac d’égouttage, le bac à marc, le groupe et les pièces du circuit de lait restent à nettoyer."
+    },
+    "27": {
+      "nl": "De uitneembare zetgroep maakt inspectie door de eigenaar gemakkelijker.",
+      "de": "Die herausnehmbare Brühgruppe erleichtert die Kontrolle durch den Besitzer.",
+      "fr": "Le groupe amovible facilite l’inspection par le propriétaire."
+    },
+    "28": {
+      "nl": "Herhaalbare koffie voor thuis zonder directe controle over de koffiepuck.",
+      "de": "Reproduzierbarer Kaffee im Haushalt ohne direkte Kontrolle über den Kaffeepuck.",
+      "fr": "Du café reproductible à la maison sans contrôle direct de la galette."
+    },
+    "29": {
+      "nl": "Officiële documentatie, verkoopcontext van het exacte model, onafhankelijke beoordeling en ervaringen van eigenaren gecontroleerd op 23 september 2026",
+      "de": "Offizielle Unterlagen, Handelskontext zum genauen Modell, unabhängiger Testbericht und Besitzerberichte am 23. September 2026 geprüft",
+      "fr": "Documentation officielle, contexte de vente du modèle précis, évaluation indépendante et témoignages de propriétaires vérifiés le 23 septembre 2026"
+    },
+    "30": {
+      "nl": "De score houdt rekening met reinigen en de volgorde van handelingen.",
+      "de": "Die Bewertung berücksichtigt Reinigung und die Abfolge der Arbeitsschritte.",
+      "fr": "La note intègre le nettoyage et l’enchaînement des opérations."
+    },
+    "31": {
+      "nl": "Het meest geschikt voor een vaste routine.",
+      "de": "Am besten für eine wiederkehrende Routine.",
+      "fr": "Idéal pour une routine répétée."
+    },
+    "32": {
+      "nl": "Werk aan de binnenkant vereist de juiste onderdelen en deskundig onderhoud.",
+      "de": "Arbeiten im Inneren erfordern passende Teile und qualifizierten Service.",
+      "fr": "Les interventions internes nécessitent les pièces exactes et un service qualifié."
+    },
+    "33": {
+      "nl": "De opbouw van het melksysteem bepaalt de geschiktheid.",
+      "de": "Die Bauweise des Milchsystems entscheidet über die Eignung.",
+      "fr": "L’architecture du circuit de lait détermine l’adéquation."
+    },
+    "34": {
+      "nl": "Vergelijk het volledige gebruik en onderhoud.",
+      "de": "Alle Aspekte des Besitzes vergleichen.",
+      "fr": "Comparer l’ensemble de l’utilisation et de l’entretien."
+    },
+    "35": {
+      "nl": "Bonen, water, volume en het stabiliseren van de molen beïnvloeden het kopje.",
+      "de": "Bohnen, Wasser, Getränkemenge und das Einpendeln der Mühle beeinflussen das Ergebnis in der Tasse.",
+      "fr": "Les grains, l’eau, le volume et la stabilisation du moulin influencent la tasse."
+    },
+    "36": {
+      "nl": "De montage en de samenstelling van de melk beïnvloeden de textuur.",
+      "de": "Zusammenbau und Milchzusammensetzung beeinflussen die Textur.",
+      "fr": "L’assemblage et la composition du lait influencent la texture."
+    },
+    "37": {
+      "nl": "Elk gebruik van melk brengt een spoelbeurt met zich mee.",
+      "de": "Jede Milchzubereitung erfordert anschließendes Spülen.",
+      "fr": "Chaque utilisation de lait impose un rinçage."
+    },
+    "38": {
+      "nl": "Spoelbeurten verhogen het waterverbruik en vullen de lekbak.",
+      "de": "Spülvorgänge verbrauchen Wasser und füllen die Tropfschale.",
+      "fr": "Les rinçages consomment de l’eau et remplissent le bac."
+    },
+    "39": {
+      "nl": "Controleer of suffix, spanning en ondersteuning bij elkaar passen.",
+      "de": "Suffix, Spannung und Unterstützung aufeinander abstimmen.",
+      "fr": "Vérifier la concordance du suffixe, de la tension et de l’assistance."
+    },
+    "40": {
+      "nl": "Onderhoud en service brengen kosten mee.",
+      "de": "Pflege und Service verursachen zusätzliche Kosten.",
+      "fr": "L’entretien et le service ajoutent des coûts."
+    },
+    "41": {
+      "nl": "Zelfgeselecteerde ervaringen van eigenaren en kopers over instellen, dranken, onderhoud en service; geen bewijs voor frequentiecijfers.",
+      "de": "Selbst ausgewählte Besitzer- und Käuferberichte zu Einrichtung, Getränken, Pflege und Service; keine Belege für Häufigkeitsraten.",
+      "fr": "Témoignages spontanés de propriétaires et d’acheteurs sur l’installation, les boissons, l’entretien et le service ; aucune preuve de taux."
+    },
+    "42": {
+      "nl": "Gaggia-discussies op r/superautomatic",
+      "de": "Gaggia-Diskussionen auf r/superautomatic",
+      "fr": "Discussions Gaggia sur r/superautomatic"
+    },
+    "43": {
+      "nl": "Bredere, zelfgeselecteerde ervaringen binnen de categorie over reinigen, molenafstelling en servicevragen.",
+      "de": "Breiterer, selbst ausgewählter Kontext zur Geräteklasse bei Fragen zu Reinigung, Mahlgradeinstellung und Service.",
+      "fr": "Contexte plus large de la catégorie, issu de témoignages spontanés, sur le nettoyage, le réglage du moulin et les questions de service."
+    },
+    "44": {
+      "nl": "$849 als actuele rechtstreekse Amerikaanse referentie",
+      "de": "$849 als aktueller direkter US-Referenzpreis",
+      "fr": "$849 comme référence américaine directe actuelle"
+    },
+    "45": {
+      "nl": "$899 als actuele rechtstreekse Amerikaanse referentie",
+      "de": "$899 als aktueller direkter US-Referenzpreis",
+      "fr": "$899 comme référence américaine directe actuelle"
+    },
+    "46": {
+      "nl": "Automatisch platform met thermoblok of boiler",
+      "de": "Automatische Plattform mit Thermoblock oder Boiler",
+      "fr": "Plateforme automatique à thermobloc ou chaudière"
+    },
+    "47": {
+      "nl": "Circa 8.8 in breed en 13.4 in hoog; toegang van boven nodig",
+      "de": "Etwa 8.8 in breit und 13.4 in hoch; Zugang von oben erforderlich",
+      "fr": "Environ 8.8 in de large sur 13.4 in de haut ; accès par le haut nécessaire"
+    },
+    "48": {
+      "nl": "Automatisch systeem op één platform",
+      "de": "Automatisches System mit einer gemeinsamen Plattform",
+      "fr": "Système automatique sur une seule plateforme"
+    },
+    "49": {
+      "nl": "Uitneembare automatische melkkan",
+      "de": "Abnehmbare automatische Milchkaraffe",
+      "fr": "Carafe automatique amovible"
+    },
+    "50": {
+      "nl": "Compacte melkbereiding met één druk op de knop",
+      "de": "Kompakte Milchzubereitung auf Knopfdruck",
+      "fr": "Boissons lactées d’une touche dans un format compact"
+    },
+    "51": {
+      "nl": "10.2 bij 15 bij 17.3 in",
+      "de": "10.2 × 15 × 17.3 in",
+      "fr": "10.2 sur 15 sur 17.3 in"
+    },
+    "52": {
+      "nl": "Automatische koffie, gevolgd door handmatig stomen",
+      "de": "Automatischer Kaffee mit anschließendem manuellem Aufschäumen",
+      "fr": "Café automatique puis vapeur manuelle"
+    },
+    "53": {
+      "nl": "Keramische molen met tien maalstanden en vier profielen",
+      "de": "Keramikmühle mit zehn Mahlgradeinstellungen und vier Profilen",
+      "fr": "Moulin en céramique à dix réglages et quatre profils"
+    },
+    "54": {
+      "nl": "Handmatige stoompijp van professioneel type",
+      "de": "Manuelle Dampflanze in gewerblicher Bauart",
+      "fr": "Buse vapeur manuelle de type professionnel"
+    },
+    "55": {
+      "nl": "Gedeeld huishouden met handmatige melkbereiding",
+      "de": "Gemeinsamer Haushalt mit manueller Milchzubereitung",
+      "fr": "Foyer partagé avec préparation manuelle du lait"
+    },
+    "56": {
+      "nl": "Andere manier om melk te verwerken",
+      "de": "Alternative Milchhandhabung",
+      "fr": "Autre gestion du lait"
+    },
+    "57": {
+      "nl": "Vergelijk de melkbereiding",
+      "de": "Die Milchzubereitung vergleichen",
+      "fr": "Comparer la préparation du lait"
+    },
+    "58": {
+      "nl": "Profielen en melkkeuze",
+      "de": "Profile und Milchauswahl",
+      "fr": "Profils et choix du lait"
+    },
+    "59": {
+      "nl": "Vergelijk het Cadorna-alternatief",
+      "de": "Die Cadorna-Alternative vergleichen",
+      "fr": "Comparer l’alternative Cadorna"
+    },
+    "60": {
+      "nl": "Twee hoogwaardige melksystemen",
+      "de": "Zwei hochwertige Milchwege",
+      "fr": "Deux circuits de lait haut de gamme"
+    },
+    "61": {
+      "nl": "Lees de Accademia-beoordeling",
+      "de": "Den Accademia-Testbericht lesen",
+      "fr": "Lire l’évaluation de l’Accademia"
+    },
+    "62": {
+      "nl": "Lees de Classic Evo-beoordeling",
+      "de": "Den Classic Evo-Testbericht lesen",
+      "fr": "Lire l’évaluation de la Classic Evo"
+    },
+    "63": {
+      "nl": "Waarom zou ik een ander model kiezen?",
+      "de": "Warum könnte ein anderes Modell besser passen?",
+      "fr": "Pourquoi choisirais-je un autre modèle ?"
+    },
+    "64": {
+      "nl": "Welk onderhoud brengt dit specifieke melksysteem mee?",
+      "de": "Welche Pflege erfordert dieses spezielle Milchsystem?",
+      "fr": "Quel entretien ce circuit de lait précis ajoute-t-il ?"
+    },
+    "65": {
+      "nl": "6 november 2015",
+      "de": "6. November 2015",
+      "fr": "6 novembre 2015"
+    },
+    "66": {
+      "nl": "Onafhankelijke visuele informatie over de werkwijze. Actuele specificaties, prijs en beschikbaarheid worden afzonderlijk gecontroleerd.",
+      "de": "Unabhängige visuelle Belege zum Arbeitsablauf. Aktuelle Spezifikationen, Preis und Verfügbarkeit werden gesondert geprüft.",
+      "fr": "Éléments visuels indépendants sur l’utilisation. Les caractéristiques, le prix et la disponibilité actuels sont vérifiés séparément."
+    },
+    "67": {
+      "nl": "Officiële informatie over modelidentiteit, dranken, molen, melksysteem, capaciteit, materiaal en elektrische specificaties.",
+      "de": "Offizielle Angaben zu Modellidentität, Getränken, Mühle, Milchsystem, Kapazität, Material und Elektrik.",
+      "fr": "Informations officielles sur l’identité du modèle, les boissons, le moulin, le lait, la capacité, les matériaux et les caractéristiques électriques."
+    },
+    "68": {
+      "nl": "Officiële instructies voor instellen, gebruik, molenafstelling, reinigen, ontkalken en probleemoplossing.",
+      "de": "Offizielle Anleitungen zu Einrichtung, Betrieb, Mahlgradeinstellung, Reinigung, Entkalkung und Fehlerbehebung.",
+      "fr": "Instructions officielles d’installation, d’utilisation, de réglage du moulin, de nettoyage, de détartrage et de dépannage."
+    },
+    "69": {
+      "nl": "Zoeken in de productondersteuning van Gaggia",
+      "de": "Gaggia-Produktsupport durchsuchen",
+      "fr": "Recherche dans l’assistance produit Gaggia"
+    },
+    "70": {
+      "nl": "Officiële route via de exacte code voor handleidingen en documenten over veiligheid, conformiteitsverklaring en garantie.",
+      "de": "Offizieller Zugang über den genauen Gerätecode zu Handbüchern sowie Sicherheits-, Konformitäts- und Garantiedokumenten.",
+      "fr": "Accès officiel par code exact aux manuels et documents de sécurité, de déclaration de conformité et de garantie."
+    },
+    "71": {
+      "nl": "Assortiment automatische Gaggia-machines",
+      "de": "Gaggia-Sortiment automatischer Geräte",
+      "fr": "Gamme de machines automatiques Gaggia"
+    },
+    "72": {
+      "nl": "Officiële actuele familie-informatie om aangrenzende melksystemen en generaties te onderscheiden.",
+      "de": "Offizieller aktueller Familienkontext zur Abgrenzung benachbarter Milchsysteme und Generationen.",
+      "fr": "Contexte officiel actuel de la famille pour distinguer les systèmes de lait voisins et les générations."
+    },
+    "73": {
+      "nl": "Gaggia Direct: informatie over Anima en automatische machines",
+      "de": "Gaggia Direct: Hinweise zu Anima und automatischen Geräten",
+      "fr": "Gaggia Direct : conseils sur l’Anima et les machines automatiques"
+    },
+    "74": {
+      "nl": "Vergelijkings- en onderhoudsinformatie van de erkende Britse distributeur; regionale prijzen en garantie verschillen.",
+      "de": "Vergleichs- und Pflegekontext des autorisierten britischen Händlers; regionale Preise und Garantie unterscheiden sich.",
+      "fr": "Comparaison et conseils d’entretien du distributeur britannique agréé ; les prix et la garantie diffèrent selon la région."
+    },
+    "75": {
+      "nl": "Onafhankelijke achtergrondinformatie over watersamenstelling; voor machineveiligheid blijft de Gaggia-handleiding bepalend.",
+      "de": "Unabhängige Hintergrundinformationen zur Wasserzusammensetzung; für die Gerätesicherheit bleibt die Gaggia-Anleitung maßgeblich.",
+      "fr": "Informations indépendantes sur la composition de l’eau ; le manuel Gaggia reste la référence pour la sécurité de la machine."
+    },
+    "84": {
+      "nl": "Rechtstreekse prijs van Gaggia North America; beschikbaarheid en garantie zijn veranderlijk",
+      "de": "Direkter Preis von Gaggia North America; Verfügbarkeit und Garantie können sich ändern",
+      "fr": "Prix direct de Gaggia North America ; disponibilité et garantie susceptibles de changer"
+    },
+    "85": {
+      "nl": "Gaggia Anima beoordeeld: de keuze voor zwarte koffie binnen de Anima-familie | Coffeedant",
+      "de": "Bewertung der Gaggia Anima: die Wahl für schwarzen Kaffee in der Anima-Familie | Coffeedant",
+      "fr": "Évaluation de la Gaggia Anima : le choix du café noir dans la famille Anima | Coffeedant"
+    },
+    "86": {
+      "nl": "Een op onderzoek gebaseerde beoordeling van de Gaggia Anima met zijn keramische molen met vijf standen, pannarellostoompijp, reservoir van 1.8 L, hoge uitlopen, actuele Amerikaanse prijs, reiniging en exacte familieverschillen.",
+      "de": "Eine auf Recherche gestützte Bewertung der Gaggia Anima zu Keramikmühle mit fünf Stufen, Pannarello-Düse, 1.8-L-Tank, hohen Ausläufen, aktuellem US-Preis, Reinigung und den genauen Unterschieden innerhalb der Familie.",
+      "fr": "Une évaluation de la Gaggia Anima fondée sur des recherches : moulin en céramique à cinq réglages, buse pannarello, réservoir de 1.8 L, sorties hautes, prix américain actuel, nettoyage et différences précises dans la famille."
+    },
+    "88": {
+      "nl": "Gaggia Anima beoordeeld: de keuze voor zwarte koffie binnen de Anima-familie",
+      "de": "Bewertung der Gaggia Anima: die Wahl für schwarzen Kaffee in der Anima-Familie",
+      "fr": "Évaluation de la Gaggia Anima : le choix du café noir dans la famille Anima"
+    },
+    "89": {
+      "nl": "Voor huishoudens die een smalle, eenvoudige machine voor zwarte koffie met een handmatige melkoptie willen",
+      "de": "Für Haushalte, die ein schmales, unkompliziertes Gerät für schwarzen Kaffee mit manueller Milchoption wünschen",
+      "fr": "Pour les foyers qui souhaitent une machine étroite et simple pour café noir, avec une option de lait manuelle"
+    },
+    "90": {
+      "nl": "Een smalle, eenvoudige machine voor zwarte koffie met een handmatige melkoptie. De keerzijde is dat melkdranken een aparte stoomhandeling vereisen en de molen met vijf standen weinig ruimte voor fijne correcties biedt.",
+      "de": "Ein schmales, unkompliziertes Gerät für schwarzen Kaffee mit manueller Milchoption. Der Kompromiss: Milchgetränke erfordern einen separaten Aufschäumschritt, und die Mühle mit fünf Stufen lässt wenig Spielraum für feine Korrekturen.",
+      "fr": "Une machine étroite et simple pour café noir avec une option de lait manuelle. En contrepartie, les boissons lactées nécessitent une étape vapeur séparée et les cinq réglages du moulin laissent peu de marge pour des corrections fines."
+    },
+    "91": {
+      "nl": "Kies voor een smalle, eenvoudige machine voor zwarte koffie met een handmatige melkoptie.",
+      "de": "Wählen Sie ein schmales, unkompliziertes Gerät für schwarzen Kaffee mit manueller Milchoption.",
+      "fr": "Choisissez une machine étroite et simple pour café noir avec une option de lait manuelle."
+    },
+    "92": {
+      "nl": "Huidige Gaggia North America Anima met zwarte ABS-frontplaat, pannarellostoompijp en specificaties van 110-120V, 1400W; andere RI8760-suffixen kunnen afwijken.",
+      "de": "Aktueller Gaggia North America Anima mit schwarzer ABS-Front, Pannarello-Düse und Spezifikation 110-120V, 1400W; andere RI8760-Suffixe können abweichen.",
+      "fr": "Gaggia North America Anima actuelle avec façade noire en ABS, buse pannarello et caractéristiques 110-120V, 1400W ; d’autres suffixes RI8760 peuvent différer."
+    },
+    "93": {
+      "nl": "Knoppen voor espresso en espresso lungo, vijf aromasterktes, drie temperaturen, programmeerbaar volume en bypassdosering",
+      "de": "Tasten für Espresso und Espresso lungo, fünf Aromastärken, drei Temperaturen, programmierbare Getränkemenge und Pulverschacht",
+      "fr": "Touches espresso et espresso lungo, cinq intensités d’arôme, trois températures, volume programmable et dosage par trappe à café moulu"
+    },
+    "94": {
+      "nl": "Handmatige, automatisch lucht toevoegende pannarellostoompijp voor stoom en heet water; geen geïntegreerde melkkan",
+      "de": "Manuelle, selbstbelüftende Pannarello-Düse für Dampf und Heißwasser; keine integrierte Milchkaraffe",
+      "fr": "Buse pannarello manuelle à aération automatique pour vapeur et eau chaude ; aucune carafe à lait intégrée"
+    },
+    "95": {
+      "nl": "LED- of LCD-statusinterface met fysieke knoppen voor dranken, stoom, heet water en menu’s",
+      "de": "LED- oder LCD-Statusanzeige mit physischen Tasten für Getränke, Dampf, Heißwasser und Menüs",
+      "fr": "Interface d’état LED ou LCD avec touches physiques pour boissons, vapeur, eau chaude et menus"
+    },
+    "96": {
+      "nl": "1.8 L water, circa 250 g bonen en maximaal 15 koffiepucks",
+      "de": "1.8 L Wasser, etwa 250 g Bohnen und bis zu 15 Kaffeepucks",
+      "fr": "1.8 L d’eau, environ 250 g de grains et jusqu’à 15 galettes de café"
+    },
+    "97": {
+      "nl": "Circa 22.1 W bij 34 H bij 43 D cm; houd de tank en het bonenreservoir van boven bereikbaar",
+      "de": "Etwa 22.1 W × 34 H × 43 D cm; Tank und Bohnenbehälter müssen von oben zugänglich bleiben",
+      "fr": "Environ 22.1 W sur 34 H sur 43 D cm ; prévoir l’accès supérieur au réservoir et à la trémie"
+    },
+    "98": {
+      "nl": "Melkdranken vereisen een aparte stoomhandeling en de molen met vijf standen biedt weinig ruimte voor fijne correcties",
+      "de": "Milchgetränke erfordern einen separaten Aufschäumschritt, und die Mühle mit fünf Stufen lässt wenig Spielraum für feine Korrekturen",
+      "fr": "Les boissons lactées nécessitent une étape vapeur séparée et les cinq réglages du moulin laissent peu de marge pour des corrections fines"
+    },
+    "99": {
+      "nl": "Welke exacte Anima behandelt deze beoordeling?",
+      "de": "Welchen genauen Anima behandelt dieser Testbericht?",
+      "fr": "Quelle Anima précise cette évaluation couvre-t-elle ?"
+    },
+    "100": {
+      "nl": "Een koper die een smalle, eenvoudige machine voor zwarte koffie met een handmatige melkoptie waardeert en accepteert dat melkdranken een aparte stoomhandeling vragen en de molen met vijf standen weinig ruimte voor fijne correcties biedt",
+      "de": "Ein Käufer, der ein schmales, unkompliziertes Gerät für schwarzen Kaffee mit manueller Milchoption schätzt und akzeptiert, dass Milchgetränke einen separaten Aufschäumschritt erfordern und die Mühle mit fünf Stufen wenig Spielraum für feine Korrekturen lässt",
+      "fr": "Un acheteur qui apprécie une machine étroite et simple pour café noir avec une option de lait manuelle et accepte l’étape vapeur séparée ainsi que la faible marge de correction fine des cinq réglages du moulin"
+    },
+    "101": {
+      "nl": "Volledige beoordeling van de Gaggia Anima",
+      "de": "Vollständige Bewertung der Gaggia Anima",
+      "fr": "Évaluation complète de la Gaggia Anima"
+    },
+    "102": {
+      "nl": "Een enkele totaalscore is alleen nuttig als u kunt zien hoe die tot stand kwam. De Gaggia Anima krijgt",
+      "de": "Eine einzelne Gesamtwertung ist nur nützlich, wenn Sie deren Grundlage erkennen können. Der Gaggia Anima erhält",
+      "fr": "Une seule note globale n’est utile que si l’on peut voir ce qui la justifie. La Gaggia Anima obtient"
+    },
+    "103": {
+      "nl": "Knoppen voor espresso en espresso lungo, vijf aromasterktes, drie temperaturen, programmeerbaar volume en bypassdosering bieden nuttige automatische afstelmogelijkheden.",
+      "de": "Tasten für Espresso und Espresso lungo, fünf Aromastärken, drei Temperaturen, programmierbare Getränkemenge und Pulverschacht bieten nützliche automatische Einstellmöglichkeiten.",
+      "fr": "Les touches espresso et espresso lungo, les cinq intensités d’arôme, les trois températures, le volume programmable et le dosage par trappe à café moulu offrent des réglages automatiques utiles."
+    },
+    "104": {
+      "nl": "De LED- of LCD-statusinterface met fysieke knoppen voor dranken, stoom, heet water en menu’s houdt de drankbereiding overzichtelijk.",
+      "de": "Die LED- oder LCD-Statusanzeige mit physischen Tasten für Getränke, Dampf, Heißwasser und Menüs hält die Zubereitung übersichtlich.",
+      "fr": "L’interface d’état LED ou LCD et ses touches physiques pour boissons, vapeur, eau chaude et menus gardent la préparation accessible."
+    },
+    "105": {
+      "nl": "Knoppen voor espresso en espresso lungo, vijf aromasterktes, drie temperaturen, programmeerbaar volume en bypassdosering dekken het kerngebruik.",
+      "de": "Tasten für Espresso und Espresso lungo, fünf Aromastärken, drei Temperaturen, programmierbare Getränkemenge und Pulverschacht decken den zentralen Anwendungsfall ab.",
+      "fr": "Les touches espresso et espresso lungo, les cinq intensités d’arôme, les trois températures, le volume programmable et le dosage par trappe à café moulu couvrent l’usage principal."
+    },
+    "106": {
+      "nl": "$699.00 vraagt om context over staat en garantie.",
+      "de": "$699.00 erfordern Kontext zu Zustand und Garantie.",
+      "fr": "$699.00 nécessitent un contexte sur l’état et la garantie."
+    },
+    "107": {
+      "nl": "Anima: de aankoopbeslissing",
+      "de": "Anima: die Kaufentscheidung",
+      "fr": "Anima : la décision d’achat"
+    },
+    "108": {
+      "nl": "De standaard-Anima automatiseert zwarte koffie en maakt melk tot een aparte, handmatige stap. Knoppen voor espresso en lungo, programmeerbare volumes en een keramische molen met vijf standen houden de koffieroutine compact, terwijl de pannarellostoompijp zo nodig stoom of heet water levert. Dit past vanzelfsprekend bij iemand die vooral espresso of langere koffie drinkt en slechts af en toe schuim wil. Het is minder reden om deze machine te kiezen voor dagelijks meerdere cappuccino’s. De smalle behuizing blijft aantrekkelijk, maar de beperkte maalstanden en het ontbreken van een automatisch melksysteem zijn bewuste grenzen.",
+      "de": "Der Standard-Anima automatisiert schwarzen Kaffee und überlässt die Milch einem separaten manuellen Schritt. Espresso- und Lungo-Tasten, programmierbare Mengen und eine Keramikmühle mit fünf Stufen halten die Kaffeeroutine kompakt. Die Pannarello-Düse liefert bei Bedarf Dampf oder Heißwasser. Das passt zu Menschen, die hauptsächlich Espresso oder längeren Kaffee trinken und nur gelegentlich Schaum wünschen. Für eine tägliche Reihe von Cappuccinos bietet diese Bauweise weniger Kaufargumente. Das schmale Gehäuse bleibt attraktiv, doch die begrenzten Mahlstufen und der fehlende automatische Milchweg sind bewusste Grenzen.",
+      "fr": "L’Anima standard automatise le café noir et réserve au lait une étape manuelle distincte. Les touches espresso et lungo, les volumes programmables et le moulin en céramique à cinq positions gardent la routine café compacte, tandis que la buse pannarello fournit au besoin vapeur ou eau chaude. Cet agencement convient naturellement à quelqu’un qui boit surtout de l’expresso ou du café long et ne souhaite de la mousse qu’occasionnellement. Il donne moins de raisons de choisir cette machine pour une série quotidienne de cappuccinos. Le corps étroit reste séduisant, mais les réglages limités du moulin et l’absence de circuit de lait automatique constituent des limites délibérées."
+    },
+    "109": {
+      "nl": "De Anima instellen",
+      "de": "Den Anima einrichten",
+      "fr": "Installer l’Anima"
+    },
+    "110": {
+      "nl": "een volautomaat met een molen met platte keramische maalschijven en vijf standen, een automatische uitneembare zetgroep, een LED- of LCD-statusinterface met fysieke knoppen voor dranken, stoom, heet water en menu’s, en een handmatige, automatisch lucht toevoegende pannarellostoompijp voor stoom en heet water; geen geïntegreerde melkkan.",
+      "de": "ein Kaffeevollautomat mit flachen Keramikmahlscheiben und fünf Mahlgradeinstellungen, einer automatischen herausnehmbaren Brühgruppe, LED- oder LCD-Statusanzeige mit physischen Tasten für Getränke, Dampf, Heißwasser und Menüs sowie einer manuellen, selbstbelüftenden Pannarello-Düse für Dampf und Heißwasser; keine integrierte Milchkaraffe.",
+      "fr": "une machine à grains avec moulin à meules plates en céramique à cinq réglages, groupe d’infusion automatique amovible, interface d’état LED ou LCD avec touches physiques pour boissons, vapeur, eau chaude et menus, et buse pannarello manuelle à aération automatique pour vapeur et eau chaude ; aucune carafe à lait intégrée."
+    },
+    "111": {
+      "nl": "De standaard Noord-Amerikaanse Anima heeft een pannarello, geen melkkan. Meet naast de breedte van circa 22.1 cm ook de ruimte boven de machine om tank en bonenreservoir te bereiken. Houd er een plek voor een kannetje naast vrij als af en toe melk bereiden deel van de aankoopreden is.",
+      "de": "Der nordamerikanische Standard-Anima besitzt eine Pannarello-Düse, keine Karaffe. Messen Sie neben der Breite von etwa 22.1 cm auch den Zugang von oben zu Tank und Bohnenbehälter. Planen Sie Platz für ein Kännchen daneben ein, wenn gelegentliche Milchgetränke ein Kaufgrund sind.",
+      "fr": "L’Anima nord-américaine standard possède une buse pannarello, pas de carafe. Mesurez l’accès par le haut au réservoir et à la trémie, en plus de sa largeur d’environ 22.1 cm. Prévoyez une place pour un pichet à côté si les boissons lactées occasionnelles motivent l’achat."
+    },
+    "112": {
+      "nl": "Fysieke bediening en blauw statusdisplay van de Gaggia Anima",
+      "de": "Physische Bedienelemente und blaue Statusanzeige des Gaggia Anima",
+      "fr": "Commandes physiques et écran d’état bleu de la Gaggia Anima"
+    },
+    "113": {
+      "nl": "De detailfoto van de bediening toont de directe werkwijze voor espresso, lungo, aroma, stoom, heet water en menu’s, zonder touchscreen met recepten.",
+      "de": "Die Nahaufnahme der Bedienelemente zeigt die direkte Bedienung von Espresso, Lungo, Aroma, Dampf, Heißwasser und Menüs ohne Rezept-Touchscreen.",
+      "fr": "Le gros plan des commandes montre l’accès direct à l’espresso, au lungo, à l’arôme, à la vapeur, à l’eau chaude et aux menus, sans écran tactile de recettes."
+    },
+    "114": {
+      "nl": "Gaggia North America: productpagina van de Anima",
+      "de": "Gaggia North America: Anima-Produktseite",
+      "fr": "Gaggia North America : page produit de l’Anima"
+    },
+    "115": {
+      "nl": "Bekijk wat er naast de Anima nog bij u past.",
+      "de": "Sehen Sie, welche Alternativen zum Anima ebenfalls passen.",
+      "fr": "Voyez quelles autres machines vous conviennent à côté de l’Anima."
+    },
+    "116": {
+      "nl": "Gebruik de twee koffieknoppen als herhaalbare keuzes voor espresso en lungo, met sterkte en temperatuur ingesteld op de gebruikelijke boon. Een melkdrank voegt een aparte stoomhandeling toe. Dit is een samenhangend compromis voor wie vooral zwarte koffie drinkt; bij veel cappuccino’s worden de andere melkonderdelen van de Prestige relevanter.",
+      "de": "Nutzen Sie die beiden Kaffeetasten für wiederholbare Espresso- und Lungo-Einstellungen, mit Stärke und Temperatur passend zur üblichen Bohne. Ein Milchgetränk bringt einen separaten Aufschäumschritt mit sich. Für überwiegend schwarzen Kaffee ist das ein stimmiger Kompromiss. Bei häufigen Cappuccinos wird die andere Milchausstattung des Prestige wichtiger.",
+      "fr": "Utilisez les deux touches café comme choix reproductibles d’espresso et de lungo, avec l’intensité et la température réglées pour le grain habituel. Une boisson lactée ajoute une opération vapeur distincte. C’est un compromis cohérent pour qui boit surtout du café noir ; des cappuccinos fréquents rendent plus pertinent le matériel lait différent de la Prestige."
+    },
+    "117": {
+      "nl": "Circa 22.1 W bij 34 H bij 43 D cm; houd tank en bonenreservoir van boven bereikbaar. De zetgroep is uitneembaar voor reiniging.",
+      "de": "Etwa 22.1 W × 34 H × 43 D cm; Tank und Bohnenbehälter müssen von oben zugänglich bleiben. Die Brühgruppe ist zur Reinigung herausnehmbar.",
+      "fr": "Environ 22.1 W sur 34 H sur 43 D cm ; prévoir l’accès supérieur au réservoir et à la trémie. Le groupe est amovible pour le nettoyage."
+    },
+    "118": {
+      "nl": "Spoel de door de eigenaar uitneembare zetgroep volgens de Anima-instructies en reinig de pannarello na gebruik. De capaciteit van maximaal 15 koffiepucks vermindert één onderbreking, maar tank met toegang van boven en lekbak moeten ook in een smalle opstelling bereikbaar blijven.",
+      "de": "Spülen Sie die vom Besitzer herausnehmbare Brühgruppe gemäß den Anima-Hinweisen und reinigen Sie die Pannarello-Düse nach Gebrauch. Die Kapazität für bis zu 15 Kaffeepucks verringert eine Unterbrechung. Tank mit Zugang von oben und Tropfschale müssen aber auch in einer schmalen Aufstellung erreichbar bleiben.",
+      "fr": "Rincez le groupe amovible par le propriétaire selon les consignes Anima et nettoyez la buse pannarello après usage. La capacité allant jusqu’à 15 galettes réduit une interruption, mais le réservoir accessible par le haut et le bac doivent rester atteignables dans une installation étroite."
+    },
+    "119": {
+      "nl": "Gaggia Anima op een keukenblad naast twee koffiekopjes",
+      "de": "Gaggia Anima auf einer Küchenarbeitsplatte neben zwei Kaffeetassen",
+      "fr": "Gaggia Anima sur un plan de travail à côté de deux tasses de café"
+    },
+    "120": {
+      "nl": "De keukenfoto geeft context aan de smalle behuizing, de hoge koffie-uitloop, de pannarellostoompijp en de benodigde werkruimte aan de voorkant.",
+      "de": "Die Küchenansicht zeigt den schmalen Gerätekörper, den hohen Kaffeeauslauf, die Pannarello-Düse und den nötigen Arbeitsraum davor im Zusammenhang.",
+      "fr": "La vue en cuisine met en contexte le corps étroit, la sortie de café haute, la buse pannarello et l’espace de travail nécessaire à l’avant."
+    },
+    "121": {
+      "nl": "De rechtstreekse prijs van Gaggia North America was $699.00: nieuwe Amerikaanse 120V-voorraad met pannarellostoompijp; belastingen en beschikbaarheid variëren",
+      "de": "Der direkte Preis von Gaggia North America lag bei $699.00: neue US-120V-Ware mit Pannarello-Düse; Steuern und Verfügbarkeit variieren",
+      "fr": "Le prix direct de Gaggia North America était de $699.00 : stock américain neuf en 120V avec buse pannarello ; taxes et disponibilité variables"
+    },
+    "122": {
+      "nl": "Nieuwe Amerikaanse 120V-voorraad met pannarellostoompijp; belastingen en beschikbaarheid variëren",
+      "de": "Neue US-120V-Ware mit Pannarello-Düse; Steuern und Verfügbarkeit variieren",
+      "fr": "Stock américain neuf en 120V avec buse pannarello ; taxes et disponibilité variables"
+    },
+    "123": {
+      "nl": "Discussie van eigenaren: Anima",
+      "de": "Besitzerdiskussion: Anima",
+      "fr": "Discussion de propriétaires : Anima"
+    },
+    "124": {
+      "nl": "Anima tegenover de meest vergelijkbare alternatieven",
+      "de": "Anima im Vergleich mit den naheliegenden Alternativen",
+      "fr": "L’Anima face aux alternatives les plus proches"
+    },
+    "125": {
+      "nl": "Snelle vergelijking van de Gaggia Anima",
+      "de": "Schnellvergleich zum Gaggia Anima",
+      "fr": "Comparaison rapide de la Gaggia Anima"
+    },
+    "126": {
+      "nl": "Gaggia Anima en de meest vergelijkbare alternatieven",
+      "de": "Gaggia Anima und seine naheliegenden Alternativen",
+      "fr": "La Gaggia Anima et ses alternatives les plus proches"
+    },
+    "127": {
+      "nl": "Gedetailleerde vergelijking van de Gaggia Anima",
+      "de": "Detailvergleich zum Gaggia Anima",
+      "fr": "Comparaison détaillée de la Gaggia Anima"
+    },
+    "128": {
+      "nl": "Anima: een smalle, eenvoudige machine voor zwarte koffie met een handmatige melkoptie. De beperking in deze vergelijking is dat melkdranken een aparte stoomhandeling vragen en de molen met vijf standen weinig ruimte voor fijne correcties biedt.",
+      "de": "Anima: ein schmales, unkompliziertes Gerät für schwarzen Kaffee mit manueller Milchoption. Die Grenze in diesem Vergleich: Milchgetränke erfordern einen separaten Aufschäumschritt, und die Mühle mit fünf Stufen lässt wenig Spielraum für feine Korrekturen.",
+      "fr": "Anima : une machine étroite et simple pour café noir avec une option de lait manuelle. La limite dans cette comparaison tient à l’étape vapeur distincte pour les boissons lactées et à la faible marge de correction fine des cinq réglages du moulin."
+    },
+    "129": {
+      "nl": "Leven met de Anima",
+      "de": "Mit dem Anima leben",
+      "fr": "Vivre avec l’Anima"
+    },
+    "130": {
+      "nl": "Vijf maalstanden geven minder ruimte voor fijne correcties dan de tien standen van de Velasca. Vergelijk, voordat u de machine verwijt dat een drank niet bevalt, de geprogrammeerde dranklengte en sterkte met de koffie die u daadwerkelijk wilt. Een groter melkmenu is geen oplossing als het huishouden vooral espresso drinkt.",
+      "de": "Fünf Mahlgradeinstellungen bieten weniger Raum für feine Korrekturen als die zehn Stufen des Velasca. Bevor Sie der Maschine ein unpassendes Getränk anlasten, vergleichen Sie die programmierte Getränkemenge und Stärke mit dem Kaffee, den Sie tatsächlich wünschen. Ein größeres Milchmenü ist keine Lösung, wenn der Haushalt überwiegend Espresso trinkt.",
+      "fr": "Cinq positions de moulin laissent moins de marge pour les corrections fines que les dix de la Velasca. Avant de reprocher à la machine une boisson inadaptée, comparez le volume et l’intensité programmés au café que vous souhaitez réellement. Un menu lait plus large n’est pas la solution si le foyer boit surtout de l’expresso."
+    },
+    "131": {
+      "nl": "Andere opties voor de Anima-koper",
+      "de": "Weitere Optionen für Anima-Käufer",
+      "fr": "D’autres options pour l’acheteur d’Anima"
+    },
+    "132": {
+      "nl": "Blijf binnen de Anima-familie en vervang handmatige melkbereiding door een melkkan.",
+      "de": "Bleiben Sie in der Anima-Familie und ersetzen Sie die manuelle Milchzubereitung durch eine Karaffe.",
+      "fr": "Restez dans la famille Anima et remplacez la préparation manuelle du lait par une carafe."
+    },
+    "133": {
+      "nl": "Krijg tien maalstanden, persoonlijke profielen en een stoompijp met twee gaatjes.",
+      "de": "Erhalten Sie zehn Mahlgradeinstellungen, persönliche Profile und eine Dampflanze mit zwei Öffnungen.",
+      "fr": "Bénéficiez de dix réglages de moulin, de profils personnels et d’une buse vapeur à deux trous."
+    },
+    "134": {
+      "nl": "Overweeg zowel automatische als handmatige melkbereiding in plaats van alleen een pannarello.",
+      "de": "Ziehen Sie automatische und manuelle Milchzubereitung statt nur einer Pannarello-Düse in Betracht.",
+      "fr": "Envisagez à la fois une préparation automatique et manuelle du lait plutôt qu’une seule buse pannarello."
+    },
+    "135": {
+      "nl": "Ga van automatische dosering naar zelf elke koffiepuck wegen en voorbereiden.",
+      "de": "Wechseln Sie von automatischer Dosierung zum eigenen Wiegen und Vorbereiten jedes Kaffeepucks.",
+      "fr": "Passez du dosage automatique à la pesée et à la préparation de chaque galette vous-même."
+    },
+    "136": {
+      "nl": "Veelgestelde vragen over de Anima",
+      "de": "Häufige Fragen zum Anima",
+      "fr": "Questions fréquentes sur l’Anima"
+    },
+    "137": {
+      "nl": "Welke melkhandelingen laat de Anima aan de gebruiker over?",
+      "de": "Welche Milcharbeit überlässt der Anima dem Nutzer?",
+      "fr": "Quel travail du lait l’Anima laisse-t-elle à l’utilisateur ?"
+    },
+    "138": {
+      "nl": "Hoeveel maalafstelling biedt de Anima?",
+      "de": "Wie viel Mahlgradeinstellung bietet der Anima?",
+      "fr": "Quelle marge de réglage du moulin l’Anima offre-t-elle ?"
+    },
+    "139": {
+      "nl": "Wat moet ik controleren voordat ik een Anima bestel?",
+      "de": "Was sollte ich vor der Bestellung eines Anima prüfen?",
+      "fr": "Que dois-je vérifier avant de commander une Anima ?"
+    },
+    "140": {
+      "nl": "Welke koffierecepten en instellingen biedt de Anima?",
+      "de": "Welche Kaffeerezepte und Einstellungen bietet der Anima?",
+      "fr": "Quelles recettes de café et commandes l’Anima propose-t-elle ?"
+    },
+    "141": {
+      "nl": "Bekijk de beoordeling van de Gaggia Anima-volautomaat door Whole Latte Love",
+      "de": "Die Bewertung des Kaffeevollautomaten Gaggia Anima von Whole Latte Love ansehen",
+      "fr": "Voir l’évaluation de la machine à expresso automatique Gaggia Anima par Whole Latte Love"
+    },
+    "143": {
+      "nl": "Beoordeling: Gaggia Anima-volautomaat",
+      "de": "Bewertung: Kaffeevollautomat Gaggia Anima",
+      "fr": "Évaluation : machine à expresso automatique Gaggia Anima"
+    },
+    "144": {
+      "nl": "Ervaringen van eigenaren zijn anekdotisch. Melkdranken vereisen een aparte stoomhandeling en de molen met vijf standen biedt weinig ruimte voor fijne correcties.",
+      "de": "Besitzerberichte sind anekdotisch. Milchgetränke erfordern einen separaten Aufschäumschritt, und die Mühle mit fünf Stufen lässt wenig Spielraum für feine Korrekturen.",
+      "fr": "Les témoignages de propriétaires sont anecdotiques. Les boissons lactées nécessitent une étape vapeur séparée et les cinq réglages du moulin laissent peu de marge pour des corrections fines."
+    },
+    "146": {
+      "nl": "Handleiding van de Gaggia Anima",
+      "de": "Handbuch für den Gaggia Anima",
+      "fr": "Manuel de la Gaggia Anima"
+    },
+    "147": {
+      "nl": "$699.00 en beschikbaarheidscontext gecontroleerd op 23 september 2026; belastingen, regio en garantie variëren.",
+      "de": "$699.00 und Verfügbarkeitskontext am 23. September 2026 geprüft; Steuern, Region und Garantie variieren.",
+      "fr": "$699.00 et contexte de disponibilité vérifiés le 23 septembre 2026 ; taxes, région et garantie variables."
+    },
+    "148": {
+      "nl": "Onafhankelijke beoordeling: Anima",
+      "de": "Unabhängiger Testbericht: Anima",
+      "fr": "Évaluation indépendante : Anima"
+    },
+    "149": {
+      "nl": "Onafhankelijke video van Whole Latte Love, gepubliceerd op 2015-11-06, gebruikt als zichtbare context voor de werkwijze.",
+      "de": "Unabhängiges Video von Whole Latte Love, veröffentlicht am 2015-11-06, als sichtbarer Kontext zum Arbeitsablauf genutzt.",
+      "fr": "Vidéo indépendante de Whole Latte Love, publiée le 2015-11-06, utilisée comme contexte visuel de l’utilisation."
+    },
+    "150": {
+      "nl": "De Anima werkt wanneer zijn melksysteem bij het huishouden past",
+      "de": "Der Anima passt, wenn sein Milchsystem zum Haushalt passt",
+      "fr": "L’Anima convient lorsque son circuit de lait correspond au foyer"
+    },
+    "170": {
+      "nl": "← Beoordeling van de Gaggia Anima",
+      "de": "← Bewertung der Gaggia Anima",
+      "fr": "← Évaluation de la Gaggia Anima"
+    },
+    "171": {
+      "nl": "Gaggia Anima: beoordeling van de Gaggia Anima-volautomaat · Whole Latte Love (2015-11-06) | Coffeedant",
+      "de": "Gaggia Anima: Bewertung des Kaffeevollautomaten Gaggia Anima · Whole Latte Love (2015-11-06) | Coffeedant",
+      "fr": "Gaggia Anima : évaluation de la machine à expresso automatique Gaggia Anima · Whole Latte Love (2015-11-06) | Coffeedant"
+    },
+    "172": {
+      "nl": "Bekijk Whole Latte Love over de Gaggia Anima (2015-11-06): beoordeling van de Gaggia Anima-volautomaat. Onafhankelijke visuele informatie over de werkwijze. Actuele specificaties, prijs en beschikbaarheid worden afzonderlijk gecontroleerd.",
+      "de": "Sehen Sie Whole Latte Love zum Gaggia Anima (2015-11-06): Bewertung des Kaffeevollautomaten Gaggia Anima. Unabhängige visuelle Belege zum Arbeitsablauf. Aktuelle Spezifikationen, Preis und Verfügbarkeit werden gesondert geprüft.",
+      "fr": "Regardez Whole Latte Love sur la Gaggia Anima (2015-11-06) : évaluation de la machine à expresso automatique Gaggia Anima. Éléments visuels indépendants sur l’utilisation. Les caractéristiques, le prix et la disponibilité actuels sont vérifiés séparément."
+    },
+    "174": {
+      "nl": "Gaggia Anima-video van Whole Latte Love",
+      "de": "Video zum Gaggia Anima von Whole Latte Love",
+      "fr": "Vidéo Gaggia Anima par Whole Latte Love"
+    },
+    "175": {
+      "nl": "Beoordeling van de Gaggia Anima-volautomaat door Whole Latte Love",
+      "de": "Bewertung des Kaffeevollautomaten Gaggia Anima von Whole Latte Love",
+      "fr": "Évaluation de la machine à expresso automatique Gaggia Anima par Whole Latte Love"
+    },
+    "176": {
+      "nl": "Gaggia Anima · perspectief van een verkoper",
+      "de": "Gaggia Anima · Händlerperspektive",
+      "fr": "Gaggia Anima · point de vue d’un vendeur"
+    }
+  }
+}
