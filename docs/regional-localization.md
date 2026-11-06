@@ -3983,6 +3983,60 @@ pending, DE 14,922 / 42,033 and FR 14,865 / 42,090. Finder gaps remain zero;
 remain incomplete. Ready-pages publication and both continuation and
 source-change maintenance remain active.
 
+### Direct batch 79: complete Gaggia Anima review and featured video (2026-11-06)
+
+Directly translate the complete standard Gaggia Anima review and its Whole
+Latte Love video into NL/DE/FR. Preserve the North American black ABS model,
+110-120V / 1400W specification, manual pannarello and absence of a milk carafe.
+Do not transfer Deluxe or Prestige milk hardware. Keep the five grinder
+positions, five aroma strengths, three temperatures, 1.8 L tank, approximately
+250 g hopper, 15-puck capacity and stated access clearances. The $699.00 US
+reference and comparison prices remain dated source facts, with the September
+23, 2026 check context; translation does not refresh them. The featured video's
+2015-11-06 date, retailer perspective and original attribution remain intact.
+No regional electrical equivalence, local offer or Coffeedant physical testing
+is introduced.
+
+An immutable full snapshot freezes 869 review/shared slots. A separate missing
+snapshot pins both current page fingerprints and 180 slots, covered by 145
+directly authored translation triples and two unchanged proper names. Reuse
+fills matching metadata, image captions, accessible labels and all six FAQ
+answers. Import adds 180 cache entries per edition without changing any earlier
+cached wording. Both review and video retain complete original markup,
+citations, images and link destinations.
+
+A separate frozen two-slot supplement translates the current machine hub's
+new milk-drink routine card after synchronizing the independent source addition.
+It adds two cache entries per edition and preserves the existing complete hub.
+The unfinished back-to-back milk-drink guide opens its English source with the
+localized edition notice; it is not emitted as a regional article.
+
+Preserve the existing Dutch review/video paths under
+`/espresso-machine/gaggia-anima/`, the German review and video under
+`/testbericht-gaggia-anima/`, and the French review under
+`/machine-a-espresso/gaggia-anima/`. The new French companion video uses that
+same parent with `/video/whole-latte-love/`. The Gaggia hub links to the native
+review, and unfinished video or alternative-model articles retain English
+destinations with the localized edition notice.
+
+All 210 localization and 20 SEO tests pass. Current-source analytics, generated
+SEO, 35 bean reviews and the 151-machine/seven-grinder Finder pass. Twelve full
+preview and production comparisons cover the review, featured video and
+existing no-plug manual guide, plus the current machine hub, in all three editions. Desktop/mobile runtime
+checks cover complete comparison tables, FAQ answers, Finder filtering/reset,
+current-model exclusion, video-dialog history/focus, localized menus, language
+selectors and analytics rejection. Publication still requires successful
+current-head checks, production manifests, sitemaps, strict TLS, canonicals,
+indexability and reciprocal English links.
+
+Current source is 664 pages / 57,073 segments. Ready selection is 141
+indexable pages plus 404 per edition, retaining all 139 earlier canonical paths
+and the approved Dutch dosing URL. Coverage is NL 15,038 translated / 42,035
+pending, DE 15,104 / 41,969 and FR 15,047 / 42,026. Finder gaps remain zero;
+154 non-video and 368 video pages per edition remain unfinished. Full editions
+remain incomplete. Ready-pages publication, continuation and source-change
+maintenance remain active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
