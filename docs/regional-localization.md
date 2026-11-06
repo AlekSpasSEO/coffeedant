@@ -4087,6 +4087,61 @@ pending, DE 15,307 / 41,766 and FR 15,250 / 41,823. Finder gaps remain zero;
 remain incomplete. Ready-pages publication, continuation and source-change
 maintenance remain active.
 
+### Direct batch 81: Babila and Velasca Prestige with featured videos (2026-11-06)
+
+Directly translate both complete reviews and their first Whole Latte Love watch
+pages into NL/DE/FR. Babila retains the discontinued North American RI9700/64
+and SUP046DG identity, distinct regional suffixes, fifteen grinder positions,
+Espresso Plus flow control, adjustable prebrew, automatic carafe and separate
+manual milk path. Preserve the absence of named profiles and the sold-out
+Cerini Coffee US reference of $1,888.95 against $1,993.95, with exact-model
+parts, condition, warranty and service constraints. This is not the current
+Accademia and no regional electrical equivalence is inferred.
+
+Velasca Prestige retains its North American RI8263/47, SUP047RG and 120V
+identity, distinct from 230V RI8263/01. Keep ten grinder positions, five
+strengths, adjustable pre-infusion, a detachable automatic carafe, separate
+hot-water outlet and absence of named profiles or an app. Preserve 54 oz water,
+10.5 oz beans, ten pucks, the original inch/pound dimensions and 2.75–4.5 in
+spout range. The dated $799.00 direct US reference is not a local offer.
+Both source check dates remain September 23, 2026; the featured videos retain
+2019-08-30 and 2017-12-22. No physical testing, stock refresh or local prices
+are added.
+
+Immutable full snapshots contain 868 slots each. The four-page missing snapshot
+freezes 208 slots, covered by 151 directly authored translation triples and
+four unchanged proper names. Cross-kind reuse adds 210 cache entries per
+edition without changing earlier passing wording or registered URLs. Complete
+bodies, twelve FAQ answers, image credits, metadata, accessible/mobile labels,
+tables and exact source links remain intact. Each review retains 92 prepared
+paragraphs and 101 after native Finder rebuilding; each watch page has four.
+
+Preserve the existing Dutch and German Babila parents, Dutch/German Velasca
+Prestige root routes and French Babila parent. New watch routes retain the
+source's disambiguating video suffix under the corresponding native parent.
+New French Velasca review/video routes use `/machine-a-espresso/`. Gaggia hub
+and family links resolve only to emitted native pages; unfinished perspectives
+continue opening their English source with the localized notice.
+
+The API-free Cloudflare source build, all 210 localization and 20 SEO tests,
+analytics/SEO validators, 35 bean reviews and 151-machine/seven-grinder Finder
+pass. Fifteen full preview and fifteen production comparisons include both
+reviews, both watch pages and the existing standard Anima in every edition.
+Eighteen browser views pass with zero overflow, 108 focusable table regions,
+twelve Finder filter/reset and current-model-exclusion checks, twelve video
+dialog history/focus checks, native menus, selectors and analytics rejection.
+Current-head CI and preview must pass before merge; final production manifests,
+sitemaps, TLS, canonicals, indexability and reciprocal English links must be
+verified after deployment.
+
+Current source remains 664 pages / 57,073 segments. The ready selection is 149
+indexable pages plus 404 per edition, preserving all 145 prior canonical paths
+and the approved Dutch dosing URL. Coverage is NL 15,451 translated / 41,622
+pending, DE 15,517 / 41,556 and FR 15,460 / 41,613. Finder gaps are zero;
+150 non-video and 364 video pages per edition remain unfinished. Full editions
+remain incomplete. Ready-pages publication, continuation and source-change
+maintenance remain active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
