@@ -4142,6 +4142,62 @@ pending, DE 15,517 / 41,556 and FR 15,460 / 41,613. Finder gaps are zero;
 remain incomplete. Ready-pages publication, continuation and source-change
 maintenance remain active.
 
+### Direct batch 82: Cadorna Milk and Prestige with featured videos (2026-11-06)
+
+Directly translate both complete Cadorna reviews and their featured watch pages
+into NL/DE/FR. Milk retains its North American 110-120V, 1400W identity,
+Capp-in-Cup external tube and separate 0.5 L container, ten beverages, three
+one-touch milk specialties and four profiles. Prestige retains the current
+North American Over-Ice revision, fifteen beverages, seven one-touch milk
+specialties, removable integrated 0.6 L carafe and four profiles. Over-Ice
+remains a programmed hot extraction served over ice, not cold brew. Both keep
+their ten-position flat ceramic grinders, physical buttons, 1.5 L water,
+10.58 oz beans, 18 oz tray, ten pucks and original inch/pound dimensions.
+No regional electrical equivalence or new local commerce is inferred.
+
+Keep the dated $849.00 Milk and $1,049.00 Prestige US references with their
+September 23, 2026 checks. Milk's current watch/catalog attribution remains
+ECS COFFEE Espresso & Coffee Gear, and its written source citation retains
+Coffee Kev; the inherited attribution difference is preserved in translation.
+The featured dates remain 2021-03-08 and 2020-10-02. Manufacturer credits,
+ownership limitations and the absence of Coffeedant physical testing remain
+explicit; no source or stock is freshly reverified.
+
+Immutable full snapshots freeze 869 Milk and 868 Prestige/shared slots. The
+four-page missing snapshot contains 200 slots, covered by 144 directly authored
+translation triples and three unchanged proper names. Import adds 200 cache
+entries per edition with zero changes to earlier passing wording or registered
+URLs. Both complete bodies retain 92 prepared paragraphs and 101 after native
+Finder rebuilding, all twelve FAQ answers, metadata, image credits, accessible
+labels, tables and exact source links. Each watch page retains four paragraphs.
+
+Preserve the existing German `/espresso-maschine/` parents and the registered
+Milk watch route, including its `ecs-coffee-espresso-und-kaffee-gear` segment.
+New Dutch routes use `/espresso-machine/`; existing French review parents
+remain under `/machine-a-espresso/` with new corresponding watch routes.
+Prestige retains its source video disambiguation suffix. Native hub and family
+links point only to emitted pages; unfinished perspectives open the English
+source with the localized edition notice. The approved Dutch dosing route stays
+unchanged.
+
+The API-free Cloudflare source build, all 210 localization and 20 SEO tests,
+analytics/SEO validators, 35 bean reviews and the 151-machine/seven-grinder
+Finder pass. Fifteen full preview and fifteen production comparisons cover
+both reviews, both watch pages and the existing standard Anima in all editions.
+Eighteen final browser views pass with zero overflow, 108 focusable table
+regions, twelve Finder filter/reset and current-model-exclusion checks, twelve
+native video dialogs with their actual original creators, menus, language
+selector focus and analytics rejection. Current-head CI and preview remain
+required before merge; production manifests, complete sitemaps, TLS,
+canonicals, indexability and reciprocal English links are verified afterward.
+
+Current source remains 664 pages / 57,073 segments. Ready selection is 153
+indexable pages plus 404 per edition, retaining all 149 earlier canonical paths.
+Coverage is NL 15,651 translated / 41,422 pending, DE 15,717 / 41,356 and
+FR 15,660 / 41,413. Finder gaps remain zero; 148 non-video and 362 video pages
+per edition remain unfinished. Full editions remain incomplete. Ready-pages
+publication, continuation and source-change maintenance remain active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
