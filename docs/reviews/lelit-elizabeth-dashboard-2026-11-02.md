@@ -11,7 +11,7 @@ The shared route selects a dedicated dashboard only for this review. Other machi
 - A top decision dashboard combines the existing featured image, author/dates, editorial assessment, coffee/milk workflow, suitability, and consequential compromises.
 - A native selector exposes four verified videos from three creators. Coffee Kev's two complementary videos are identified as one perspective. The older Kaffeemacher video is distinguished from its September 2026 written retest.
 - Five public retailer price observations cover the US, UK, and Germany, with exact-model/electrical notes and check dates. Only US offers describe the PL92T-120 Product in JSON-LD. Availability, delivery totals, imported-unit eligibility and market completeness are not invented.
-- No historical series was established. The price-history panel therefore explains that tracking is unavailable and does not draw a fabricated chart.
+- The November 7 revision puts a manual Amazon US check in the header and a tagged Amazon search next to the editorial and retailer customer ratings. The search targets PL92T-120 because an exact Amazon US product page could not be verified.
 - Three optional routine scenarios explain how the same hardware affects different buyers, without generating an opaque match percentage.
 - Eight answer-first questions cover espresso, milk, warm-up/workflow, setup/input, controls/pressure, care/service, value and exact identity/kitchen fit. Supporting evidence can be expanded; source references remain visible.
 - Six visible FAQs mirror FAQPage data. Product microdata shares the canonical JSON-LD Product ID. Product/Review, Article, VideoObject, BreadcrumbList, image, and site metadata retain attribution.
@@ -22,12 +22,12 @@ The source ledger is maintained in `src/data/elizabeth-dashboard.ts`; verified v
 
 Kaffeemacher's 2026 thermal findings describe an older test sample and its stated protocol, not a Coffeedant test or a guarantee about every current US unit. Coffee Kev's milk benchmark is a single-pitcher observation with limited published starting-condition/repetition details. No sufficiently verified controlled dynamic extraction-pressure trace for a current PL92T-120 was established. Pump rating is not presented as puck pressure. Manufacturer documents disagree on dimensions/weight, so kitchen-fit advice requires confirmation of the supplied machine.
 
-The 4.3/5 figure is the existing Coffeedant editorial assessment, not an external aggregate rating. Reviewer opinions are not averaged. Claims of lifetime, population failure rates, commercial throughput or one-touch ownership are excluded.
+The 4.3/5 figure is the existing Coffeedant editorial assessment. The separate retailer figure weights published product ratings by rating count. The source links and inputs are in `src/data/elizabeth-dashboard.ts`. The sample can span revisions and regional electrical variants of the PL92T. It excludes Amazon and the Elizabeth3, and stays out of review structured data.
 
-The Amazon API pause remains in force. No API credentials, tokens, refreshes or Amazon price verifications were used. Independent retailer pages and existing editorial assets supply this preview.
+For monthly editorial checks, open the public Amazon listing or tagged search by hand and confirm the exact model, condition, marketplace, and voltage. Record the check date and listing status for the review. Keep any price observations in the private editorial record. The [Amazon Associates policies](https://affiliate-program.amazon.com/help/operating/policies) restrict public price display and require Amazon's agreement for on-site price tracking. The Amazon API pause remains in force.
 
 ## Validation contract
 
-The dashboard has its own built-page validator covering semantic identity, metadata, source/citation relationships, accessible selectors, video/schema parity, all eight question sections, visible FAQ parity, retailer observation dates, image provenance, local links and honest missing-history state. The standard review validator routes this one page through that contract. All other reviews retain their existing checks. The video validator permits four videos only for Elizabeth; other products retain their existing limit.
+The dashboard has its own built-page validator covering semantic identity, metadata, source/citation relationships, accessible selectors, video/schema parity, all eight question sections, visible FAQ parity, retailer observation dates, image provenance, local links, retailer rating math and the manual Amazon check. The standard review validator routes this one page through that contract. The video validator permits four videos only for Elizabeth.
 
 Build, SEO/schema, historical-anchor, video, review and originality checks are run before delivery. Desktop/mobile inspection and selector/player interaction checks apply to the deployed preview.

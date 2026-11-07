@@ -39,7 +39,12 @@ for (const node of nodes) {
   idNodes.set(id, node);
 }
 assert.equal(nodes.filter(node => node.tagName === 'h1').length, 1, 'one page heading');
-assert.match(text(nodes.find(node => node.tagName === 'h1')), /Lelit.*Elizabeth/i, 'heading identifies the reviewed machine');
+const h1 = idNodes.get('review-title');
+assert.match(text(h1), /Lelit.*Elizabeth/i, 'heading identifies the reviewed machine');
+const headerElements = h1.parentNode.childNodes.filter(node => node.tagName);
+assert.equal(attr(headerElements[headerElements.indexOf(h1) + 1], 'aria-label'), 'Breadcrumb', 'breadcrumb follows the headline');
+const method = dashboardNodes.find(node => node.tagName === 'details' && hasClass(node, 'ed-method'));
+assert.ok(method?.childNodes.some(node => node.tagName === 'summary'), 'byline exposes the review method in a native disclosure');
 
 const metadata = (key, attribute = 'name') => nodes.filter(node => node.tagName === 'meta' && attr(node, attribute) === key);
 const metaValue = (key, attribute) => attr(metadata(key, attribute)[0], 'content');
@@ -75,6 +80,11 @@ assert.ok(type(product.review, 'Review'), 'editorial Review belongs to Product')
 assert.ok(product.review.author?.name && product.review.reviewBody, 'review has an author and assessment');
 assert.ok(Number(product.review.reviewRating?.ratingValue) >= 1 && Number(product.review.reviewRating?.ratingValue) <= 5, 'editorial rating lies on its declared scale');
 assert.equal(Number(product.review.reviewRating.bestRating), 5, 'editorial rating uses the existing five-point scale');
+const verdict = dashboardNodes.find(node => hasClass(node, 'ed-verdict'));
+assert.equal(clean(text(verdict)), product.review.reviewBody, 'visible summary matches the editorial Review');
+const decisionOrder = verdict.parentNode.childNodes.filter(node => node.tagName);
+assert.ok(hasClass(decisionOrder[decisionOrder.indexOf(verdict) + 1], 'ed-fit-grid'), 'buyer fit follows the summary');
+assert.ok(hasClass(decisionOrder[decisionOrder.indexOf(verdict) + 2], 'ed-facts'), 'icon facts follow buyer fit');
 
 const articles = schema.filter(entity => type(entity, 'Article'));
 assert.equal(articles.length, 1, 'one authoritative Article');
@@ -210,11 +220,39 @@ for (const offer of offers) {
   assert.ok(children(offer).some(node => node.tagName === 'a' && /^https:\/\//.test(attr(node, 'href') ?? '')), 'each vendor has a direct HTTPS link');
 }
 const aggregateRatings = value => Array.isArray(value) ? value.flatMap(aggregateRatings) : !value || typeof value !== 'object' ? [] : [...(Object.hasOwn(value, 'aggregateRating') ? [value] : []), ...Object.values(value).flatMap(aggregateRatings)];
-assert.equal(aggregateRatings(schema).length, 0, 'editorial synthesis is not presented as a fabricated aggregate rating');
-const history = dashboardNodes.find(node => attr(node, 'data-price-history') === 'unavailable');
-assert.ok(history, 'unavailable price-history coverage is explicit');
-assert.match(clean(text(history)), /(?:not|unavailable|no historical|no verified|not yet)/i, 'price-history empty state explains the missing evidence');
-assert.ok(!children(history).some(node => ['canvas', 'svg'].includes(node.tagName) || attr(node, 'data-price-point') !== undefined), 'missing historical observations are not represented as a chart');
+assert.equal(aggregateRatings(schema).length, 0, 'external retailer ratings stay out of review structured data');
+assert.ok(!dashboardNodes.some(node => attr(node, 'itemprop') === 'aggregateRating'), 'external retailer ratings stay out of microdata');
+const ownerScore = dashboardNodes.find(node => attr(node, 'data-retailer-rating') !== undefined);
+const storeScores = dashboardNodes.filter(node => attr(node, 'data-retailer-rating-source') !== undefined);
+assert.equal(attr(ownerScore, 'href'), '#retailer-ratings', 'retailer average links to its sources');
+assert.ok(storeScores.length >= 2, 'retailer average uses multiple stores');
+let weightedSum = 0;
+let ratingCount = 0;
+for (const store of storeScores) {
+  assert.ok(children(store).some(node => node.tagName === 'a' && /^https:\/\//.test(attr(node, 'href') ?? '')), 'store score has a direct source');
+  const match = clean(text(store)).match(/(\d\.\d)\/5 · (\d+) ratings?$/);
+  assert.ok(match && Number(match[1]) >= 1 && Number(match[1]) <= 5 && Number(match[2]) > 0, 'each store has a valid score and count');
+  weightedSum += Number(match[1]) * Number(match[2]);
+  ratingCount += Number(match[2]);
+}
+const displayedScore = clean(text(children(ownerScore).find(node => node.tagName === 'strong'))).replace(/\s+/g, '');
+assert.equal(displayedScore, `${(weightedSum / ratingCount).toFixed(1)}/5`, 'visible owner score matches the weighted mean');
+assert.ok(clean(text(ownerScore)).includes(`${ratingCount} ratings · ${storeScores.length} retailers`), 'visible owner score names its sample size');
+
+const priceCheck = dashboardNodes.find(node => attr(node, 'data-amazon-price-check') !== undefined);
+assert.ok(priceCheck && /Amazon price check/.test(text(priceCheck)), 'the header shows an Amazon-only price check');
+const manualDate = children(priceCheck).find(node => node.tagName === 'time');
+const checkedAt = Date.parse(attr(manualDate, 'datetime'));
+assert.ok(Number.isFinite(checkedAt) && checkedAt <= Date.now(), 'the manual check date is valid');
+assert.doesNotMatch(text(priceCheck), /\$\s*\d|USD\s*\d/, 'the manual price check does not republish Amazon prices');
+const amazon = dashboardNodes.find(node => attr(node, 'data-amazon-cta') !== undefined);
+const amazonUrl = new URL(attr(amazon, 'href'));
+assert.equal(amazonUrl.origin, 'https://www.amazon.com', 'affiliate action leads to Amazon US');
+assert.ok(amazonUrl.searchParams.get('tag') && attr(amazon, 'rel')?.split(' ').includes('sponsored'), 'affiliate action has attribution and disclosure markup');
+if (amazonUrl.pathname === '/s') {
+  assert.match(amazonUrl.searchParams.get('k'), /PL92T-120/, 'affiliate search targets the exact US model');
+  assert.match(text(amazon), /Search Amazon/, 'a search fallback is clearly labeled');
+}
 
 return {
   sources: sourceEntries.length,

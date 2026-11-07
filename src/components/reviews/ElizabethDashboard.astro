@@ -1,10 +1,11 @@
 ---
 import type { MachineReviewData } from '../../data/reviews';
 import { getReviewOverallScore } from '../../data/reviews';
-import { dashboardQuestions, dashboardSources } from '../../data/elizabeth-dashboard';
+import { dashboardQuestions, dashboardSources, elizabethOwnerRatings } from '../../data/elizabeth-dashboard';
 import { reviewInlineMedia } from '../../data/review-inline-media';
 import historicalAnchors from '../../data/legacy-review-anchors.json';
 import { commonReviewAnchors } from '../../lib/review-anchors.mjs';
+import { getReviewPurchaseLinks } from '../../lib/amazon-affiliate';
 import { getProductVideos, videoSchema } from '../../lib/product-videos';
 import ProductVideo from '../ProductVideo.astro';
 import '../../styles/elizabeth-dashboard.css';
@@ -16,14 +17,18 @@ const canonical = `https://coffeedant.com${review.slug}`;
 const asset = (url: string) => new URL(path(url), Astro.site ?? Astro.url).toString();
 const videos = getProductVideos(review.slug);
 const score = getReviewOverallScore(review.evaluation);
-const dashboardVerdict = 'Independent boiler control and saved routines make sense when espresso is part of your day. You still grind, tamp, steam and clean. Give the machine time to warm through.';
+const dashboardVerdict = 'If you’re tired of waiting for a single-boiler machine to switch to steam, the Elizabeth lets you pull a shot while you froth milk. Budget 25–30 minutes from cold for a more stable first shot, based on independent tests. You’ll need a separate espresso grinder, and you still prep each shot and steam milk by hand.';
 const checked = '2026-11-02';
+const amazonChecked = '2026-11-07';
+const [amazon] = getReviewPurchaseLinks(review);
 const date = (value: string) => new Intl.DateTimeFormat('en-US', { dateStyle: 'medium', timeZone: 'UTC' }).format(new Date(`${value.slice(0, 10)}T00:00:00Z`));
+const ownerCount = elizabethOwnerRatings.stores.reduce((total, store) => total + store.count, 0);
+const ownerScore = (elizabethOwnerRatings.stores.reduce((total, store) => total + store.rating * store.count, 0) / ownerCount).toFixed(1);
 const facts = [
-  { label: 'Coffee input', value: 'Ground coffee', detail: 'Separate espresso grinder' },
-  { label: 'Milk preparation', value: 'Manual steam wand', detail: 'Brew and steam together' },
-  { label: 'Plan your preheat', value: '20–30 minutes', detail: 'Independent sample findings' },
-  { label: 'Saved coffee buttons', value: 'Time-based', detail: 'Weigh your drink separately' },
+  { label: 'Counter space', value: '32 cm wide before the grinder', icon: 'M3 7h18v10H3z M7 7v4m5-4v4m5-4v4' },
+  { label: 'Water supply', value: 'Refillable 2.5 L tank', icon: 'M12 3c-2 3-6 7-6 11a6 6 0 0 0 12 0c0-4-4-8-6-11Z' },
+  { label: 'Coffee format', value: 'Ground coffee in a 58 mm basket', icon: 'M3 8h12l-2 6H5L3 8Zm11 2h7m-12 4v3' },
+  { label: 'Shot controls', value: 'Timed buttons, weigh shots separately', icon: 'M9 3h6m-3 4v5l3 2 M12 7a7 7 0 1 0 0 14 7 7 0 0 0 0-14Z' },
 ];
 const retailers = [
   { region: 'US', name: 'Lelit US', href: 'https://www.lelit.com/en-us/product/elizabeth-pesel01', price: '$1,799.95', number: 1799.95, currency: 'USD', note: 'Manufacturer store · PL92T-120. Confirm stock and delivery at checkout.' },
@@ -44,8 +49,8 @@ const faqs = [
   { question: 'Has Coffeedant tested this machine?', answer: 'This is a research-led review. Coffeedant has not physically tested the PL92T. Measurements are attributed to their authors, and the editorial score is our interpretation of the documented evidence.' },
   { question: 'Can these sources tell me how many years it will last?', answer: 'No representative PL92T failure-rate dataset was established for this review. Check the local service route, terms and parts support. Individual owner reports cannot establish a lifespan guarantee.' },
 ];
-const fit = ['You make espresso and milk drinks regularly and want to overlap brewing and steaming.', 'You enjoy adjusting coffee, can plan preheating and have space for a separate grinder.'];
-const avoid = ['You want spontaneous coffee or one-button milk drinks with very little preparation.', 'You need plumbing, automatic drink weighing or proven repeated large-pitcher performance.'];
+const fit = ['You make two flat whites or cappuccinos most mornings and want to steam while the espresso pulls.', 'You already dial in espresso and want timed shots and programmable preinfusion in a compact machine.'];
+const avoid = ['You want coffee a few minutes after switching on, or you’re moving from capsules for the same one-button routine.', 'You want a machine that grinds, weighs the shot or froths the milk for you.'];
 const chapterLinks: Record<string, { id: string; seconds: number; label: string }> = {
   espresso: { id: 'AfNiz8V9O5g', seconds: 283, label: 'Coffee Kev’s test discussion · 4:43' },
   milk: { id: 'AfNiz8V9O5g', seconds: 640, label: 'See the steam wand · 10:40' },
@@ -71,27 +76,47 @@ const schema = { '@context': 'https://schema.org', '@graph': [
 ---
 
 <main id="main-content" class="review-page elizabeth-dashboard" data-product-id={review.productId} data-elizabeth-dashboard tabindex="-1" itemscope itemtype="https://schema.org/Product" itemid={`${canonical}#product`}>
-  <meta itemprop="sku" content={review.sku} /><meta itemprop="identifier" content={review.productId} /><link itemprop="url" href={canonical} />
+  <meta itemprop="name" content="Lelit Elizabeth PL92T" /><meta itemprop="sku" content={review.sku} /><meta itemprop="identifier" content={review.productId} /><link itemprop="url" href={canonical} />
   <div class="review-shell ed-shell">
-    <nav class="ed-breadcrumb" aria-label="Breadcrumb"><a href={base}>Home</a><span>/</span><a href={path('/espresso-machine/')}>Espresso machines</a><span>/</span><span aria-current="page">Lelit Elizabeth</span></nav>
     <header class="ed-heading" id="summary">
       {(aliases.summary ?? []).map(id => <span id={id} class="ed-anchor" aria-hidden="true" />)}
-      <p class="ed-eyebrow">The machine, the evidence, your morning.</p>
-      <h1 id="review-title"><span itemprop="name">Lelit Elizabeth PL92T</span> review</h1>
-      <p class="ed-deck">Two boilers for your daily flat whites. Plan the first cup.</p>
-      <div class="ed-byline review-author-card"><img src={path(review.author.image)} alt="" width="36" height="36" /><p>By <a href={path('/about/')}>{review.author.name}</a> · {review.author.role}<br /><span>Published <time datetime={review.published}>{date(review.published)}</time> · Updated <time datetime={review.updated}>{date(review.updated)}</time></span></p><a class="ed-research-label" href="#methodology">Research-led review ↗</a></div>
+      <h1 id="review-title">{review.title}</h1>
+      <nav class="ed-breadcrumb" aria-label="Breadcrumb"><a href={base}>Home</a><span aria-hidden="true">/</span><a href={path('/espresso-machine/')}>Espresso machines</a><span aria-hidden="true">/</span><span aria-current="page">Lelit Elizabeth</span></nav>
+      <div class="ed-review-meta">
+        <div>
+          <div class="ed-byline review-author-card">
+            <img src={path(review.author.image)} alt="" width="36" height="36" />
+            <p>By <a href={path('/about/')}>{review.author.name}</a> · {review.author.role}<br /><span>Published <time datetime={review.published}>{date(review.published)}</time> · Updated <time datetime={review.updated}>{date(review.updated)}</time></span></p>
+          </div>
+          <details class="ed-method">
+            <summary>How I review espresso machines</summary>
+            <p>I check the exact model against manufacturer documents, compare independent measurements and videos, and show where reviewers’ results differ. For the Elizabeth, that means seeing how the ready light compares with measured shot temperatures and what the steam test can tell you about making milk drinks.</p>
+            <p>You can check the original evidence, compare retailer customer ratings and see when seller prices were checked. The editorial score is my judgment. I have not physically tested the PL92T.</p>
+            <a href="#methodology">Read the full methodology ↓</a>
+          </details>
+        </div>
+        <aside class="ed-price-check" aria-label="Amazon price check" data-amazon-price-check>
+          <strong>Amazon price check <span>US</span></strong>
+          <p>Exact PL92T-120 listing unverified.</p>
+          <small>Last manual check <time datetime={amazonChecked}>{date(amazonChecked)}</time></small>
+        </aside>
+      </div>
     </header>
 
     <section class="ed-hero" aria-label="Buying decision">
       <figure class="ed-featured"><img class="review-product-image" itemprop="image" src={path(review.image)} alt={review.imageAlt} width="400" height="406" fetchpriority="high" decoding="async" /><figcaption>The PL92T in a complete station. The grinder is separate.</figcaption></figure>
       <div class="ed-decision">
-        <div class="ed-verdict-row"><p class="ed-eyebrow">Our assessment</p><a class="review-overall-rating ed-score" href="#ratings">{score}<span>/5 · editorial</span></a></div>
-        <h2>A strong fit for planned, hands-on milk drinks.</h2>
+        <div class="ed-verdict-row">
+          <a class="review-overall-rating" href="#ratings"><span>Editorial rating</span><strong>{score}<small>/5</small></strong></a>
+          <a class="ed-owner-score" href="#retailer-ratings" data-retailer-rating><span>Retailer customer rating</span><strong>{ownerScore}<small>/5</small></strong><small>{ownerCount} ratings · {elizabethOwnerRatings.stores.length} retailers</small></a>
+          <div class="ed-amazon-action">
+            <a class="ed-button ed-amazon-button" data-amazon-cta href={amazon.href} target="_blank" rel="sponsored noopener noreferrer">{amazon.exactProduct ? 'Buy on Amazon' : 'Search Amazon'} <span aria-hidden="true">↗</span></a>
+            <small>Affiliate link · Amazon US</small>
+          </div>
+        </div>
         <p class="ed-verdict" itemprop="description">{dashboardVerdict}</p>
-        <dl class="ed-facts">{facts.map(fact => <div><dt>{fact.label}</dt><dd>{fact.value}<small>{fact.detail}</small></dd></div>)}</dl>
-        <p class="ed-inline-source">Preheat guidance: <a href="#eliz-kev">Coffee Kev</a> and <a href="#eliz-kaffee">Kaffeemacher</a>. Their samples and methods differ.</p>
         <div class="ed-fit-grid"><div><h3>Get it if</h3><ul>{fit.map(text => <li>{text}</li>)}</ul></div><div><h3>Reconsider if</h3><ul>{avoid.map(text => <li>{text}</li>)}</ul></div></div>
-        <div class="ed-actions"><a class="ed-button" href="#where-to-buy">Compare retailers ↓</a><a class="ed-text-link" href="#espresso">Read the evidence ↓</a></div>
+        <dl class="ed-facts">{facts.map(fact => <div><svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d={fact.icon} /></svg><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}</dl>
       </div>
     </section>
 
@@ -110,8 +135,7 @@ const schema = { '@context': 'https://schema.org', '@graph': [
         <p class="ed-small ed-region-note" data-region-note>US listings for PL92T-120. Prices exclude any checkout taxes and delivery charges.</p>
         <div class="ed-offers">{retailers.map((retailer, index) => <div class="ed-offer" data-vendor-offer data-region={retailer.region} hidden={retailer.region !== 'US'}><div><a href={retailer.href} target="_blank" rel="noopener noreferrer">{retailer.name} ↗</a><p>{retailer.note}</p><time datetime={checked}>Checked {date(checked)} · {retailer.region}</time></div><strong>{retailer.price}</strong></div>)}</div>
         <p class="ed-small">Dated public-page snapshots, not live quotes. Check the exact model, plug, stock, delivered total and seller terms. These are the retailers checked for this preview.</p>
-        <div class="ed-history" data-price-history="unavailable"><strong>Price history</strong><span>Not tracked yet. These snapshots cannot establish a trend or a lowest-ever price.</span></div>
-        <p class="ed-small ed-disclosure">Retailer selection is independent of commission. Existing affiliate links elsewhere on Coffeedant may earn a commission. No Amazon price is verified here.</p>
+        <p class="ed-small ed-disclosure">We select retailers independently of commission.</p>
         <p class="ed-sr-only" data-region-status aria-live="polite"></p>
       </section>
     </div>
@@ -141,6 +165,12 @@ const schema = { '@context': 'https://schema.org', '@graph': [
         <section class="ed-question" id="comparisons">{(aliases.comparisons ?? []).map(id => <span id={id} class="ed-anchor" aria-hidden="true" />)}<h2>Which alternative solves your hesitation?</h2><div class="ed-alternatives">{review.alternatives.map(alternative => <a class="review-recommendation-card" href={alternative.href}><strong>{alternative.name} ↗</strong><span>{alternative.reason}</span></a>)}</div><p class="ed-small">These links explain different workflows. They are not a controlled head-to-head performance ranking.</p></section>
         <section class="ed-question" id="faq">{(aliases.faq ?? []).map(id => <span id={id} class="ed-anchor" aria-hidden="true" />)}<h2>A few things worth settling before you buy</h2><div class="review-faq-list">{faqs.map(faq => <article class="review-faq-item"><h3>{faq.question}</h3><p>{faq.answer}</p></article>)}</div></section>
         <section class="ed-question" id="ratings">{(aliases.ratings ?? []).map(id => <span id={id} class="ed-anchor" aria-hidden="true" />)}<h2>How to read the {score}/5 score</h2><p>This is Coffeedant’s editorial assessment, carried forward from the existing evidence-based review. It is not an average of other reviewers’ ratings or a personal match score.</p><details class="ed-evidence"><summary>See the six category assessments</summary><dl>{review.evaluation.dimensions.map(dimension => <div><dt>{dimension.label} · {dimension.score}/10</dt><dd>{dimension.reason}</dd></div>)}</dl></details></section>
+        <section class="ed-question" id="retailer-ratings">
+          <h2>How did retailer customers rate the Elizabeth?</h2>
+          <p>{ownerScore}/5 from {ownerCount} customer ratings across {elizabethOwnerRatings.stores.length} retailers, checked <time datetime={elizabethOwnerRatings.checked}>{date(elizabethOwnerRatings.checked)}</time>. We weight each store’s published score by its rating count. Some stores round their scores, and listings can pool regional versions or revisions of the original PL92T.</p>
+          <p>This sample covers stores with usable public scores for the PL92T. It excludes Amazon, the Elizabeth3, and feeds where we identified repeated or mixed-model ratings.</p>
+          <ul class="ed-rating-sources">{elizabethOwnerRatings.stores.map(store => <li data-retailer-rating-source><a href={store.href} target="_blank" rel="noopener noreferrer">{store.name}</a><span>{store.rating.toFixed(1)}/5 · {store.count} {store.count === 1 ? 'rating' : 'ratings'}</span></li>)}</ul>
+        </section>
         <section class="ed-question" id="methodology"><span id="testing" class="ed-anchor" aria-hidden="true" /><h2>How this review was researched</h2><p>We started with Coffeedant’s existing PL92T review and rechecked manufacturer documents, public retailer pages, independent reviews and video metadata on November 2, 2026. Coffeedant has not physically tested this machine. We distinguish specifications from measurements and our interpretation.</p><p>Independent results describe the author’s sample, settings and method. We did not reproduce temperature, pressure, steaming, noise or durability tests. Related videos are selected for relevant PL92T coverage, with creator attribution and commercial disclosures. Multiple videos from one creator are one perspective.</p><p>The September 2026 Kaffeemacher written retest and older video are identified separately. PL92T3 findings are excluded. Retailer prices are observations, not an automated feed or an all-market guarantee.</p></section>
         <section class="ed-question" id="sources"><h2>Sources you can inspect</h2><p class="ed-small">Manufacturer facts, independent observations and seller information have different roles. Source notes identify their limits.</p><ol class="review-source-list">{sources.map(source => <li id={source.id}><a href={source.href} target="_blank" rel="noopener noreferrer">{source.label} ↗</a><span class="ed-source-kind">{source.kind}</span><p>{source.note}</p></li>)}</ol></section>
         <section class="ed-final" id="verdict">{(aliases.verdict ?? []).map(id => <span id={id} class="ed-anchor" aria-hidden="true" />)}<h2>The decision</h2><p>Choose the Elizabeth PL92T when learning and preparing espresso feels worthwhile, milk drinks are frequent, and preheating fits your day. Keep budget and counter space for the grinder. If your priority is coffee with very little thought or preparation, start with a more automated route.</p><a class="ed-button" href="#where-to-buy">Revisit the retailer comparison ↑</a></section>

@@ -7,15 +7,15 @@ export const lelitElizabethReview = buildResearchReview({
   slug: '/espresso-machine/lelit-elizabeth/', productId: 'CD-EM-000001',
   brand: 'Lelit', model: 'Elizabeth PL92T', sku: 'PL92T-120',
   category: 'Dual-boiler semi-automatic espresso machine', brandPath: '/lelit/',
-  title: 'Lelit Elizabeth review: is it right for your morning?',
-  description: 'Lelit Elizabeth PL92T: compare video reviews, dated retailer prices and the evidence on espresso, milk, warm-up and ownership. Find out whether it fits your routine.',
+  title: 'Lelit Elizabeth PL92T review — brew and steam together, but plan for warm-up',
+  description: 'Brew espresso and steam milk at the same time. See how long the Lelit Elizabeth PL92T takes to warm up, what gear it needs and how owners rate it.',
   verdictLabel: 'For a planned espresso-and-milk routine',
   // Keep this first sentence aligned with the already translated Finder card.
   verdict: 'I would choose the current Elizabeth PL92T for a household making two or three espresso and milk drinks that wants dual boilers, timed shot buttons, programmable preinfusion and onboard temperature controls without an E61 footprint. The main compromise is first-cup readiness: independent reviewers recommend a longer preheat than the early ready signal suggests. Choose it for control once warm; compare another machine if a spontaneous first drink, plumbing or automatic beverage weighing matters more. Lelit US and Clive listed it at $1,799.95 on October 30, 2026; confirm the exact model and offer before buying.',
   assessment: 'A capable compact dual boiler for an owner willing to preheat, weigh the cup and learn the LCC. The controls are the attraction; fast cold starts and automatic output measurement are not its strengths.',
   image: 'images/products/lelit-elizabeth.jpg',
   imageAlt: 'Lelit Elizabeth PL92T dual-boiler espresso machine in brushed stainless steel',
-  published: '2025-11-03', updated: '2026-11-02',
+  published: '2025-11-03', updated: '2026-11-07',
   authorNote: 'I checked the current manufacturer documents and US listings, compared independent test protocols, and separated useful owner questions from unsupported reliability claims. This is a research-led assessment. I have not physically tested the Elizabeth; the measurements below belong to their named authors.',
   basisDisclosure: 'This review evaluates the established Elizabeth PL92T, with US buying scope tied to PL92T-120. Ratings are editorial judgments from documented features, attributed independent evaluations and owner context. Coffeedant has not measured temperature, pressure, steaming, sound, taste or durability. Third-party results are not measurements of a Coffeedant sample.',
   price: {
@@ -25,7 +25,6 @@ export const lelitElizabethReview = buildResearchReview({
   links: [
     { label: 'Check Lelit US price', href: 'https://www.lelit.com/en-us/product/elizabeth-pesel01', note: 'PL92T US offer checked October 30, 2026; verify the shipped model', primary: true },
     { label: 'Check Clive Coffee price', href: 'https://clivecoffee.com/products/lelit-elizabeth-dual-boiler-espresso-machine', note: 'Listing showed stock and $1,799.95 on October 30; read seller coverage terms' },
-    { label: 'Check Amazon availability', href: 'https://amzn.to/4j2hL7C', note: 'Affiliate link; verify exact model, seller and warranty', affiliate: true },
   ],
   facts: [
     { label: 'Reviewed identity', value: 'Elizabeth PL92T; US electrical variant PL92T-120' },

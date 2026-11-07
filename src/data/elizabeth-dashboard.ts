@@ -15,6 +15,22 @@ export type DashboardQuestion = {
   takeaway: string;
 };
 
+export const elizabethOwnerRatings = {
+  checked: '2026-11-07',
+  stores: [
+    { name: 'Clive Coffee', rating: 4.7, count: 57, href: 'https://clivecoffee.com/collections/lelit' },
+    { name: '1st-line', rating: 4.9, count: 24, href: 'https://www.1st-line.com/buy/lelit-pl92t-elizabeth-pid-dual-boiler-espresso-machine/' },
+    { name: 'Seattle Coffee Gear', rating: 4.3, count: 10, href: 'https://www.seattlecoffeegear.com/products/lelit-elizabeth-espresso-machine' },
+    { name: 'BaristaDiscount', rating: 4.2, count: 5, href: 'https://baristadiscount.com/en/28777-machine-expresso-lelit-elizabeth-pl92t.html' },
+    { name: 'Coffee Addicts', rating: 5, count: 3, href: 'https://coffeeaddicts.ca/products/lelit-elizabeth' },
+    { name: 'Natur Bohne', rating: 5, count: 3, href: 'https://naturbohne.de/products/lelit-lelit-elizabeth-pl92t-v3' },
+    { name: 'Crema', rating: 4.5, count: 2, href: 'https://www.cremashop.eu/en/products/lelit/elisabeth-pl92t' },
+    { name: 'The Kitchen Barista', rating: 5, count: 2, href: 'https://thekitchenbarista.com/products/lelit-vip-elizabeth-semi-automatic-espresso-machine-pl92t' },
+    { name: 'Origin Coffee', rating: 5, count: 1, href: 'https://www.origincoffee.co.uk/products/lelit-elizabeth' },
+    { name: 'Rimprezza', rating: 5, count: 1, href: 'https://www.rimprezza.de/Lelit-Elizabeth-Dual-Boiler' },
+  ],
+};
+
 export const dashboardSources: DashboardSource[] = [
   {
     id: 'eliz-official', label: 'Lelit: Elizabeth PL92T',
