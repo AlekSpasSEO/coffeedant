@@ -4287,6 +4287,40 @@ zero; 146 non-video and 359 video pages per edition remain unfinished. Full
 editions are incomplete. Incremental publication and source-change maintenance
 stay active.
 
+### Direct batch 85: Naviglio Deluxe and the Max & Cocco watch page (2026-11-07)
+
+Translate the complete Gaggia Naviglio Deluxe review and its Max & Cocco watch
+page into NL/DE/FR. The review identifies the silver 230 V HD8749/11 and its
+removable Cappuccinatore with a milk tube, distinct from the base Naviglio's
+pannarello and the Naviglio Milk's Capp-in-Cup. It retains immediate rinsing,
+three Optiaroma strengths, five ceramic grinder positions, the front-removable
+1.5 L tank, 300 g hopper, 10-puck bin, dimensions and spout range. The £369.00
+UK reference remains dated September 23, 2026, with the source VAT and regional
+terms intact. The review remains research-led. The Max & Cocco page retains
+the June 13, 2020 video and attribution; the separate Cady Hungary source
+remains separately credited in the review.
+
+The full 871-slot review export and 112-slot missing snapshot are immutable.
+The batch supplies 80 translated strings and three exact brand, model, or
+creator strings, adding 113 current cache entries per edition. Existing NL
+and DE review and video URLs stay in place. FR uses the native
+`/machine-a-espresso/gaggia-naviglio-deluxe-hd8749/` review path and its
+`video/max-and-cocco/` child.
+
+The source and regional builds, 210 localization tests, 20 SEO tests,
+analytics, and the 151-machine/seven-grinder Finder checks pass. Six complete
+document comparisons cover all 93 prepared review paragraphs, six FAQ answers
+and nine review tables, plus all four watch-page paragraphs. Nine desktop and
+mobile browser views show no horizontal overflow, with native menus, Finder
+filters and video dialog controls.
+
+Current source remains 664 pages / 57,077 segments. The ready selection is
+160 indexable pages plus 404 per edition. Coverage is NL 15,981 translated /
+41,096 pending, DE 16,066 / 41,011 and FR 15,990 / 41,087. Finder gaps remain
+zero; 145 non-video and 358 video pages per edition remain unfinished. Full
+editions are incomplete. Incremental publication and source-change maintenance
+stay active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
