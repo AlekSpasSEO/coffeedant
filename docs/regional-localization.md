@@ -4198,6 +4198,62 @@ FR 15,660 / 41,413. Finder gaps remain zero; 148 non-video and 362 video pages
 per edition remain unfinished. Full editions remain incomplete. Ready-pages
 publication, continuation and source-change maintenance remain active.
 
+### Direct batch 83: Cadorna Barista Plus and both watch pages (2026-11-07)
+
+Directly translate the complete Barista Plus review and its two watch pages
+into NL/DE/FR. The current source identifies the reviewed North American
+Barista Plus as RI9601/47. The RI9603/47 code in the historical source URL
+belongs to Cadorna Milk, which has automatic milk hardware. Preserve that
+distinction, the black ABS body, four named profiles, six coffee beverages
+plus hot water and steam, ten grinder positions and the pivoting manual
+stainless wand with two openings and an insulated grip. Milk texturing and
+cleanup remain manual. Keep the dated $899.00 US 110-120V reference and
+September 23, 2026 source check without inferring local stock or equivalence.
+
+Both source videos remain intact: the November 24, 2020 Jess - Gadgets, Gear,
+Coffee perspective retains the creator affiliate disclosure, and the June 5,
+2020 Whole Latte Love perspective retains its retailer attribution and exact
+RI9601/47 wording. The full 872-slot snapshot and 117-slot missing snapshot
+remain immutable. The batch uses 82 directly authored translation triples
+and two unchanged proper names, adding 117 cache entries per edition with
+zero changes to earlier passing wording. The review retains 93 prepared
+paragraphs and 102 with native Finder results, all six FAQ answers and nine
+tables. The two watch pages retain five and four paragraphs respectively.
+
+Keep the English source and registered German/French routes under their
+historical RI9603-47 slugs, including the German Whole Latte Love watch page
+under `/espresso-maschine/`. The new Dutch review and watch routes use the
+documented RI9601-47 identity. New French watch routes use the existing
+French review parent. Earlier canonical URLs, including the approved Dutch
+dosing route, remain intact. Gaggia hub and family links use emitted native
+counterparts; unfinished pages continue opening their English source with
+the localized edition notice.
+
+The API-free source build, all 210 localization and 20 SEO tests, analytics
+and SEO validators, 35 bean reviews and the 151-machine/seven-grinder Finder
+pass. Fifteen full preview and eighteen production comparisons cover the new
+review, both watch pages and the existing Cadorna Milk and Prestige reviews
+in every edition; production checks also cover the repaired compact espresso
+guide. Twelve browser views pass with zero overflow, 54 focusable
+table regions, six Finder filter/reset and model-exclusion checks, six
+native video dialogs, both original creators, mobile menus, language selector
+focus and analytics rejection. Exact-head CI and preview are required before
+merge, followed by live deployment, sitemap, TLS, indexability and reciprocal
+language-link verification.
+
+The current Lelit Anna source revisions also changed four shared strings in
+the published compact espresso guide. This batch translates the updated
+technical-sheet note, check-price label and dated EU retailer reference for all
+three editions. The historical quote stays explicitly distinct from a verified
+current offer. The existing source-change update to the German cache is retained.
+
+Current source is 664 pages / 57,077 segments. The ready selection is 156
+indexable pages plus 404 per edition, retaining all 153 prior canonical
+paths. Coverage is NL 15,769 translated / 41,308 pending, DE 15,854 / 41,223
+and FR 15,778 / 41,299. Finder gaps remain zero; 147 non-video and 360 video
+pages per edition remain unfinished. Full editions remain incomplete.
+Ready-pages publication, continuation and source-change maintenance stay active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
