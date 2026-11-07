@@ -4321,6 +4321,42 @@ zero; 145 non-video and 358 video pages per edition remain unfinished. Full
 editions are incomplete. Incremental publication and source-change maintenance
 stay active.
 
+### Direct batch 86: Naviglio HD8749/01 and the Scelta Perfetta watch page (2026-11-07)
+
+Translate the complete review of the black 230 V base Gaggia Naviglio HD8749/01
+and its Scelta Perfetta watch page into NL/DE/FR. The source corrects the model
+name in the historical URL: this model has a manual plastic pannarello, not the
+Naviglio Milk's Capp-in-Cup or the Deluxe's tube. Preserve manual milk handling,
+the three Optiaroma strengths, the five-position ceramic grinder, the 1.5 L
+front-access tank, 300 g hopper, 10-puck bin, and the dated £349.00 UK reference.
+Retain the research-led evidence limits, the retailer attribution and the
+original embedded video. The review's March 8, 2025 source date and the watch
+page's March 9 UTC display date refer to the same source timestamp. The source
+video title is truncated and remains visibly truncated in translation.
+
+The 870-slot full review export and 107-slot missing snapshot are immutable.
+The batch uses 78 directly translated strings and two unchanged names. Preserve
+the registered Dutch and German URLs with the historical “milk” slug. The new
+French paths use the exact model at
+`/machine-a-espresso/gaggia-naviglio-hd8749-01/` and its
+`video/scelta-perfetta/` child. The separate FRAD COFFEE watch page is unfinished
+and stays outside the regional sitemaps.
+
+The source and regional builds, 210 localization tests, 20 SEO tests,
+analytics, and the 151-machine/seven-grinder Finder checks pass. Six complete
+document comparisons cover the 92 prepared review paragraphs, six FAQ answers,
+nine tables and four watch-page paragraphs. Nine desktop and mobile browser
+views pass with no horizontal overflow and native menus, Finder filters and
+video controls.
+
+Current source remains 664 pages / 57,077 segments. The ready selection is
+162 indexable pages plus 404 per edition, retaining all 160 prior indexable
+paths. The batch adds 107 current cache entries per edition with no changes to
+earlier translations. Coverage is NL 16,088 translated / 40,989 pending,
+DE 16,173 / 40,904 and FR 16,097 / 40,980. Finder gaps remain zero; 144 non-video
+and 357 video pages per edition remain unfinished. Incremental publication and
+source-change maintenance stay active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
