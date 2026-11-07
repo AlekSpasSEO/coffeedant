@@ -4254,6 +4254,39 @@ and FR 15,778 / 41,299. Finder gaps remain zero; 147 non-video and 360 video
 pages per edition remain unfinished. Full editions remain incomplete.
 Ready-pages publication, continuation and source-change maintenance stay active.
 
+### Direct batch 84: Magenta Prestige and the Whole Latte Love watch page (2026-11-07)
+
+Translate the complete Gaggia Magenta Prestige review and its Whole Latte Love
+watch page into NL/DE/FR. The review distinguishes the North American 110-120V
+RI8702/46 and its thirteen-specialty Over-Ice menu from the global 230V version
+with twelve beverages. It keeps the removable automatic carafe and its cleaning
+requirements, five ceramic grinder positions, saved beverage settings without
+named profiles, dimensions and capacities, and the $899.00 North American
+reference checked September 23, 2026. The text retains the research-led evidence
+limits and the video’s May 3, 2021 date and retailer attribution.
+
+The 868-slot full review export and 98-slot missing snapshot are frozen. The
+batch supplies 70 translated strings per edition plus two exact brand/model
+strings; the importer adds 99 current cache entries per edition. Existing NL
+and DE review and video URLs remain stable. FR uses the native
+`/machine-a-espresso/gaggia-magenta-prestige-ri8702/` review path and its
+`video/whole-latte-love/` child. The unfinished Pirados por Café watch page
+continues to open in the English edition where linked.
+
+The source and regional builds, 210 localization tests, 20 SEO tests,
+analytics, and the 151-machine/seven-grinder Finder checks pass. Six complete
+document comparisons cover all 92 prepared review paragraphs, six FAQ answers
+and nine review tables, plus all four watch-page paragraphs. Nine desktop and
+mobile browser views pass with no horizontal overflow, including localized
+menus, Finder filters and video dialog controls.
+
+Current source remains 664 pages / 57,077 segments. The ready selection is
+158 indexable pages plus 404 per edition. Coverage is NL 15,868 translated /
+41,209 pending, DE 15,953 / 41,124 and FR 15,877 / 41,200. Finder gaps remain
+zero; 146 non-video and 359 video pages per edition remain unfinished. Full
+editions are incomplete. Incremental publication and source-change maintenance
+stay active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
