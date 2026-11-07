@@ -23,7 +23,7 @@ const profile: UpgradeReviewProfile = {
   assessment: 'This is research-led, not a Coffeedant bench test. Current EU PL41TEM records govern specifications; two hands-on reviewers add bounded context. Coffeedant did not measure group temperature, puck pressure, extraction yield, sound, energy, recovery or reliability.',
   image: hero, imageAlt: 'Lelit official front image of the polished stainless Anna PL41TEM with PID display, pressure gauge and multidirectional wand',
   published: '2025-12-03', updated: '2026-11-07',
-  price: { label: 'Dated EU retailer reference', msrp: '€549', typical: 'Coffee Friend listed Anna PL41TEM at €549 on September 24, 2026. This is a historical reference, not a verified current offer. Check today’s price, stock, exact regional article, plug, warranty and delivered tools with the seller.', currency: 'EUR', numeric: '549', checked: 'September 24, 2026' },
+  price: { label: 'Dated EU retailer reference', msrp: 'Check price', typical: 'Coffee Friend listed Anna PL41TEM at €549 on September 24, 2026. This is a historical reference, not a verified current offer. Check today’s price, stock, exact regional article, plug, warranty and delivered tools with the seller.', currency: 'EUR', numeric: '549', checked: 'September 24, 2026' },
   links: [
     { label: 'Check the exact Lelit EU specification', href: official, note: 'Current PL41TEM identity, architecture, regional electrical codes and delivered accessories', primary: true },
     { label: 'Watch the independent Anna review', href: film, note: 'Coffee Kev exact-model video published December 28, 2024; hands-on and commercially disclosed' },
