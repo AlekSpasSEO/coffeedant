@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/small/",
+      "sourceHash": "7d59d455f85d848e7ebedfe47842fb1982068074305418a1455aa403d0ac61a5"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "b24c6fc6c35e17d8750b772d8150c5da871df4279520cf27047af9e983e92dcf",
+      "source": "Official 2024 sheet confirming core architecture and LELIT57 filters; it lists a blind filter that the current page omits. Compared with the current product page November 7, 2026.",
+      "kind": "text",
+      "context": "Official 2024 sheet confirming core architecture and LELIT57 filters; it lists a blind filter that the current page omits. Compared with the current product page November 7, 2026."
+    },
+    {
+      "id": "cf05c80bf72fc41f1eeffeb924eb081c97931ed835ddbf76120a03d56d8d23d2",
+      "source": "Check price",
+      "kind": "text",
+      "context": "Check pricePID single-boiler manual espresso machine"
+    },
+    {
+      "id": "2155553d526a7215d934f5fce45314e9fbae8b00edaf062bd2bc874ded58f010",
+      "source": "Dated EU retailer reference:",
+      "kind": "text",
+      "context": "Dated EU retailer reference:"
+    },
+    {
+      "id": "ac56d5c26dd584014460819a052709fa52bd0cbb6fc4f6e0aa473e6e77c3b95d",
+      "source": "Check price. Coffee Friend listed Anna PL41TEM at €549 on September 24, 2026. This is a historical reference, not a verified current offer. Check today’s price, stock, exact regional article, plug, warranty and delivered tools with the seller. Price context checked September 24, 2026.",
+      "kind": "text",
+      "context": "Dated EU retailer reference: Check price. Coffee Friend listed Anna PL41TEM at €549 on September 24, 2026. This is a historical reference, not a verified current offer. Check today’s price, stock, exact regional article, plug, warranty and delivered tools with the seller. Price context checked September 24, 2026."
+    }
+  ],
+  "snapshotHash": "f011f6badb1363a6887446122dbad89bbf15c2df1369d72998267ada08112db8"
+}
