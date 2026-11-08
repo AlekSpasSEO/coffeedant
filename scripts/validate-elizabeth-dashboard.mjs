@@ -52,11 +52,12 @@ assert.ok(readingMinutes && clean(text(readingTime)) === `${readingMinutes} min 
 const method = dashboardNodes.find(node => node.tagName === 'details' && hasClass(node, 'ed-method'));
 assert.ok(method?.childNodes.some(node => node.tagName === 'summary'), 'byline exposes the review method in a native disclosure');
 const topSections = header.parentNode.childNodes.filter(node => node.tagName);
-const featured = topSections[topSections.indexOf(header) + 1];
-const decision = topSections[topSections.indexOf(header) + 2];
-assert.ok(featured?.tagName === 'figure' && hasClass(featured, 'ed-featured'), 'the featured figure follows the header');
+const hero = topSections[topSections.indexOf(header) + 1];
+assert.ok(hasClass(hero, 'ed-hero'), 'the hero follows the full-width header');
+const [featured, decision] = hero.childNodes.filter(node => node.tagName);
+assert.ok(featured?.tagName === 'figure' && hasClass(featured, 'ed-featured'), 'the featured figure comes first in the hero');
 assert.ok(children(featured).some(node => node.tagName === 'img' && attr(node, 'itemprop') === 'image' && visible(node)), 'the featured figure displays the product image');
-assert.ok(hasClass(decision, 'ed-hero'), 'the buying decision follows the featured figure');
+assert.ok(hasClass(decision, 'ed-decision'), 'the buying decision follows the featured figure');
 
 const metadata = (key, attribute = 'name') => nodes.filter(node => node.tagName === 'meta' && attr(node, attribute) === key);
 const metaValue = (key, attribute) => attr(metadata(key, attribute)[0], 'content');

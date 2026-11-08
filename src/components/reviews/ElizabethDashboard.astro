@@ -139,10 +139,10 @@ const schema = { '@context': 'https://schema.org', '@graph': [
       </div>
     </header>
 
-    <figure class="ed-featured">
-      <img itemprop="image" src={path(review.image)} alt="Lelit Elizabeth PL92T with a separate grinder, scale and portafilter on a kitchen counter" width="400" height="406" fetchpriority="high" decoding="async" />
-    </figure>
     <section class="ed-hero" aria-label="Buying decision">
+      <figure class="ed-featured">
+        <img itemprop="image" src={path(review.image)} alt="Lelit Elizabeth PL92T with a separate grinder, scale and portafilter on a kitchen counter" width="400" height="406" fetchpriority="high" decoding="async" />
+      </figure>
       <div class="ed-decision">
         <p class="ed-verdict" itemprop="description">{dashboardVerdict}</p>
         <div class="ed-fit-grid">
