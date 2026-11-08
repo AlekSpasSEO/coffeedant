@@ -2,7 +2,8 @@
 import type { MachineReviewData } from '../../data/reviews';
 import { getReviewOverallScore } from '../../data/reviews';
 import { dashboardQuestions, dashboardSources, elizabethOwnerRatings } from '../../data/elizabeth-dashboard';
-import { reviewInlineMedia } from '../../data/review-inline-media';
+import { elizabethMachinePhotos } from '../../data/elizabeth-machine-photos';
+import { elizabethOwnerReports } from '../../data/elizabeth-owner-reports';
 import historicalAnchors from '../../data/legacy-review-anchors.json';
 import { commonReviewAnchors } from '../../lib/review-anchors.mjs';
 import { getReviewPurchaseLinks } from '../../lib/amazon-affiliate';
@@ -46,6 +47,11 @@ const retailerSources = retailers.map((retailer, index) => ({ id: `eliz-shop-${i
 const videoSources = videos.map(video => ({ id: `eliz-video-${video.id}`, label: `${video.creator}: ${video.title}`, href: `https://www.youtube.com/watch?v=${video.id}`, note: `${date(video.published)}. ${video.summary} ${video.disclosure ?? ''}`, kind: 'independent' }));
 const sources = [...dashboardSources, ...retailerSources, ...videoSources];
 const sourceNumbers = Object.fromEntries(sources.map((source, index) => [source.id, index + 1]));
+const citations = [...new Set([
+  ...sources.map(source => source.href),
+  ...Object.values(elizabethMachinePhotos).map(photo => photo.sourceHref),
+  ...Object.values(elizabethOwnerReports).flatMap(reports => reports.map(report => report.href)),
+])];
 const faqs = [
   { question: 'Is this the Elizabeth3 with the Pagaia lever?', answer: 'No. This page evaluates Elizabeth PL92T, including US electrical model PL92T-120. Elizabeth3 is the separate PL92T3. Confirm the model plate rather than relying on a shop’s V3 or V4 nickname.' },
   { question: 'Will it stop at 36 grams automatically?', answer: 'No. The programmable coffee buttons stop by time. Output mass changes with the coffee and grind, so use a scale to check the beverage.' },
@@ -59,6 +65,7 @@ const avoid = ['You want coffee a few minutes after switching on, or you’re mo
 const readingText = [
   dashboardVerdict, ...fit, ...avoid,
   ...dashboardQuestions.flatMap(({ question, answer, paragraphs, takeaway }) => [question, answer, ...paragraphs, takeaway]),
+  ...Object.values(elizabethOwnerReports).flatMap(reports => reports.flatMap(({ title, summary }) => [title, summary])),
   ...faqs.flatMap(({ question, answer }) => [question, answer]),
 ].join(' ');
 const readingMinutes = Math.ceil(readingText.split(/\s+/).length / 210);
@@ -74,8 +81,6 @@ for (const [alias, category] of Object.entries({ ...commonReviewAnchors, ...(his
   const target = category === 'orientation' ? 'overview' : category;
   if (occupied.has(target)) (aliases[target] ??= []).push(alias);
 }
-const inlineMedia = reviewInlineMedia[review.slug] ?? [];
-const galleryImages = { milk: inlineMedia[0], identity: inlineMedia[1] };
 const evidenceImages = {
   espresso: {
     file: 'lelit-elizabeth-warm-up.svg',
@@ -101,7 +106,7 @@ const author = { '@type': 'Person', name: review.author.name, jobTitle: review.a
 const editorialReview = { '@type': 'Review', '@id': `${canonical}#review`, name: review.title, author, datePublished: review.published, dateModified: review.updated, reviewBody: dashboardVerdict, reviewRating: { '@type': 'Rating', ratingValue: score, bestRating: 5, worstRating: 1 }, positiveNotes: { '@type': 'ItemList', itemListElement: fit.map((name, index) => ({ '@type': 'ListItem', position: index + 1, name })) }, negativeNotes: { '@type': 'ItemList', itemListElement: avoid.map((name, index) => ({ '@type': 'ListItem', position: index + 1, name })) } };
 const schema = { '@context': 'https://schema.org', '@graph': [
   { '@type': 'Product', '@id': `${canonical}#product`, name: 'Lelit Elizabeth PL92T', sku: review.sku, identifier: review.productId, brand: { '@type': 'Brand', name: 'Lelit' }, category: review.category, description: review.description, image: asset(review.image), url: canonical, review: editorialReview, offers: retailers.filter(retailer => retailer.region === 'US').map(retailer => ({ '@type': 'Offer', url: retailer.href, price: retailer.number, priceCurrency: retailer.currency, itemCondition: 'https://schema.org/NewCondition', eligibleRegion: 'US', seller: { '@type': 'Organization', name: retailer.name } })) },
-  { '@type': 'Article', '@id': `${canonical}#article`, headline: review.title, description: review.description, genre: 'Research-led product review', articleSection: 'Espresso machine reviews', inLanguage: 'en-US', author, datePublished: review.published, dateModified: review.updated, image: asset(review.image), mainEntityOfPage: canonical, about: { '@id': `${canonical}#product` }, publisher: { '@type': 'Organization', name: 'Coffeedant', url: 'https://coffeedant.com/' }, citation: sources.map(source => source.href), video: videos.map(video => ({ '@id': `${canonical}#video-${video.id}` })) },
+  { '@type': 'Article', '@id': `${canonical}#article`, headline: review.title, description: review.description, genre: 'Research-led product review', articleSection: 'Espresso machine reviews', inLanguage: 'en-US', author, datePublished: review.published, dateModified: review.updated, image: asset(review.image), mainEntityOfPage: canonical, about: { '@id': `${canonical}#product` }, publisher: { '@type': 'Organization', name: 'Coffeedant', url: 'https://coffeedant.com/' }, citation: citations, video: videos.map(video => ({ '@id': `${canonical}#video-${video.id}` })) },
   ...videos.map(video => videoSchema(video, { slug: review.slug, name: 'Lelit Elizabeth PL92T' }, canonical)),
   { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://coffeedant.com/' }, { '@type': 'ListItem', position: 2, name: 'Espresso machines', item: 'https://coffeedant.com/espresso-machine/' }, { '@type': 'ListItem', position: 3, name: 'Lelit Elizabeth PL92T', item: canonical }] },
   { '@type': 'FAQPage', mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })) },
@@ -195,9 +200,10 @@ const schema = { '@context': 'https://schema.org', '@graph': [
     <div class="ed-reading-grid">
       <nav class="ed-question-nav" aria-label="Questions in this review"><p class="ed-eyebrow">Your questions, answered</p>{dashboardQuestions.map((question, index) => <a href={`#${question.id}`}><span>{String(index + 1).padStart(2, '0')}</span>{question.id === 'identity' ? 'Exact model & kitchen fit' : question.id === 'features' ? 'Buttons & pressure' : question.id === 'build' ? 'Cleaning & service' : question.id === 'workflow' ? 'The morning routine' : question.id === 'setup' ? 'Grinder & complete setup' : question.id === 'value' ? 'Value & alternatives' : question.id === 'milk' ? 'Milk drinks' : 'Espresso quality'}</a>)}<a href="#sources"><span>↗</span>All sources</a></nav>
       <article class="review-article ed-article" aria-label="Lelit Elizabeth question-led review">
-        <section id="overview" class="ed-reading-intro"><p class="ed-eyebrow">The full review</p><h2>What changes when you bring it home?</h2><p>Start with the answer. Open the supporting evidence when you want to check how we reached it.</p></section>
+        <section id="overview" class="ed-reading-intro"><p class="ed-eyebrow">The full review</p><h2>What changes when you bring it home?</h2><p>Each answer links to its evidence and to firsthand owner accounts. The owner reports reflect individual machines, settings and routines.</p></section>
         {dashboardQuestions.map((question, index) => {
-          const gallery = galleryImages[question.id as keyof typeof galleryImages];
+          const photo = elizabethMachinePhotos[question.id as keyof typeof elizabethMachinePhotos];
+          const reports = elizabethOwnerReports[question.id as keyof typeof elizabethOwnerReports];
           const visual = evidenceImages[question.id as keyof typeof evidenceImages];
           const guide = relatedGuides[question.id as keyof typeof relatedGuides];
           return <section class="review-section ed-question" id={question.id} aria-labelledby={`${question.id}-title`}>
@@ -206,16 +212,31 @@ const schema = { '@context': 'https://schema.org', '@graph': [
             <p class="ed-section-number">Question {String(index + 1).padStart(2, '0')}</p><h2 id={`${question.id}-title`}>{question.question}</h2><p class="ed-answer">{question.answer}</p><p class="ed-answer-sources">Evidence: {[...new Set(question.evidence.flatMap(record => record.sourceIds))].map(id => <a href={`#${id}`} aria-label={`Source ${sourceNumbers[id]}`}>[{sourceNumbers[id]}]</a>)}</p>
             {question.paragraphs.map(paragraph => <p>{paragraph}</p>)}
             {guide && <p>{guide.intro} <a href={path(guide.href)}>{guide.label}</a>.</p>}
+            <figure class="review-media review-inline-media ed-inline-media" data-source-type={photo.sourceType} data-usage-record={photo.sourceHref} data-user-generated="false">
+              <a class="ed-photo-link" href={photo.sourceHref} target="_blank" rel="noopener noreferrer">
+                <img src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} loading="lazy" decoding="async" />
+              </a>
+              <figcaption>
+                <span>{photo.caption}</span>
+                <a class="review-media-credit" href={photo.sourceHref} target="_blank" rel="noopener noreferrer">{photo.credit} ↗</a>
+              </figcaption>
+            </figure>
             {visual && <figure class="ed-research-visual">
               <img src={path(`/images/products/${visual.file}`)} alt={visual.alt} width="800" height="360" loading="lazy" decoding="async" />
               <figcaption>{visual.caption} <a href={visual.source}>{visual.credit}</a>.</figcaption>
             </figure>}
-            {gallery && <figure class="review-media review-inline-media ed-inline-media" data-source-type={gallery.sourceType} data-usage-record={gallery.usageHref} data-user-generated="false">
-              <img src={gallery.src} alt={gallery.alt} width={gallery.width} height={gallery.height} loading="lazy" decoding="async" />
-              <figcaption><span>{question.id === 'milk' ? 'The separate wand lets you steam while the espresso pours.' : 'Leave room to reach the reservoir and move the portafilter and steam wand.'}</span><a class="review-media-credit" href={gallery.sourceHref} target="_blank" rel="noopener noreferrer">Lelit product gallery ↗</a></figcaption>
-            </figure>}
             <details class="ed-evidence"><summary>Check the evidence <span>{question.evidence.length} {question.evidence.length === 1 ? 'record' : 'records'}</span></summary><dl>{question.evidence.map(record => <div><dt>{record.label}</dt><dd>{record.detail} {record.sourceIds.map(id => <a href={`#${id}`} aria-label={`Source ${sourceNumbers[id]}`}>[{sourceNumbers[id]}]</a>)}</dd></div>)}</dl></details>
             {chapterLinks[question.id] && <a class="ed-watch-link" href={`https://www.youtube.com/watch?v=${chapterLinks[question.id].id}&t=${chapterLinks[question.id].seconds}s`} target="_blank" rel="noopener noreferrer">▶ {chapterLinks[question.id].label} ↗</a>}
+            <aside class="ed-owner-reports" aria-labelledby={`${question.id}-owners`}>
+              <h3 id={`${question.id}-owners`}>What owners report</h3>
+              <ul>
+                {reports.map(report => <li>
+                  <strong>{report.title}</strong>
+                  <p>{report.summary}</p>
+                  <a href={report.href} target="_blank" rel="noopener noreferrer">{report.author} · {report.community} ↗</a>
+                </li>)}
+              </ul>
+            </aside>
             <p class="ed-takeaway"><strong>For your decision</strong>{question.takeaway}</p>
           </section>;
         })}

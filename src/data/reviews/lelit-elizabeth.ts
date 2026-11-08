@@ -15,7 +15,7 @@ export const lelitElizabethReview = buildResearchReview({
   assessment: 'A capable compact dual boiler for an owner willing to preheat, weigh the cup and learn the LCC. The controls are the attraction; fast cold starts and automatic output measurement are not its strengths.',
   image: 'images/products/lelit-elizabeth.jpg',
   imageAlt: 'Lelit Elizabeth PL92T dual-boiler espresso machine in brushed stainless steel',
-  published: '2025-11-03', updated: '2026-11-07',
+  published: '2025-11-03', updated: '2026-11-08',
   authorNote: 'I checked the current manufacturer documents and US listings, compared independent test protocols, and separated useful owner questions from unsupported reliability claims. This is a research-led assessment. I have not physically tested the Elizabeth; the measurements below belong to their named authors.',
   basisDisclosure: 'This review evaluates the established Elizabeth PL92T, with US buying scope tied to PL92T-120. Ratings are editorial judgments from documented features, attributed independent evaluations and owner context. Coffeedant has not measured temperature, pressure, steaming, sound, taste or durability. Third-party results are not measurements of a Coffeedant sample.',
   price: {

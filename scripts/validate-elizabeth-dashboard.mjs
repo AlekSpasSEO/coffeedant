@@ -132,12 +132,21 @@ assert.equal(breadcrumbs.length, 1, 'one breadcrumb entity');
 assert.equal(breadcrumbs[0].itemListElement?.at(-1)?.item, canonical, 'breadcrumb ends at the reviewed machine');
 
 const questionIds = ['espresso', 'milk', 'workflow', 'setup', 'features', 'build', 'value', 'identity'];
+const questionPhotos = new Set();
 for (const id of questionIds) {
   const section = idNodes.get(id);
   assert.ok(section && section.tagName === 'section', `answer section exists: ${id}`);
   const heading = children(section).find(node => node.tagName === 'h2');
   assert.ok(heading && /\?/.test(clean(text(heading))), `answer section has a question heading: ${id}`);
   assert.ok(children(section).some(node => node.tagName === 'p' && clean(text(node)).length > 40), `answer section has substantive visible content: ${id}`);
+  const photo = children(section).find(node => node.tagName === 'figure' && hasClass(node, 'ed-inline-media'));
+  const image = photo && children(photo).find(node => node.tagName === 'img');
+  const photoUrl = attr(image, 'src');
+  assert.ok(photoUrl && clean(attr(image, 'alt')) && visible(image), `answer section shows a described machine photo: ${id}`);
+  assert.ok(!questionPhotos.has(photoUrl), `machine photo is distinct: ${id}`);
+  questionPhotos.add(photoUrl);
+  const reports = children(section).find(node => node.tagName === 'aside' && hasClass(node, 'ed-owner-reports'));
+  assert.ok(reports && children(reports).some(node => node.tagName === 'a' && /^https:\/\//.test(attr(node, 'href') ?? '')), `answer section links to a firsthand owner account: ${id}`);
 }
 for (const node of dashboardNodes.filter(node => node.tagName === 'a')) {
   const href = attr(node, 'href') ?? '';
