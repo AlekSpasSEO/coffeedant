@@ -41,7 +41,8 @@ for (const node of nodes) {
 assert.equal(nodes.filter(node => node.tagName === 'h1').length, 1, 'one page heading');
 const h1 = idNodes.get('review-title');
 assert.match(text(h1), /Lelit.*Elizabeth/i, 'heading identifies the reviewed machine');
-const headerElements = h1.parentNode.childNodes.filter(node => node.tagName);
+const header = h1.parentNode;
+const headerElements = header.childNodes.filter(node => node.tagName);
 const metadataRow = headerElements[headerElements.indexOf(h1) + 1];
 assert.ok(hasClass(metadataRow, 'ed-review-meta') && children(metadataRow).some(node => attr(node, 'aria-label') === 'Breadcrumb'), 'breadcrumb sits in the metadata below the headline');
 const dates = children(metadataRow).find(node => hasClass(node, 'ed-dates'));
@@ -50,6 +51,12 @@ const readingMinutes = attr(readingTime, 'datetime')?.match(/^PT([1-9]\d*)M$/)?.
 assert.ok(readingMinutes && clean(text(readingTime)) === `${readingMinutes} min read`, 'the dates row includes a visible reading-time estimate');
 const method = dashboardNodes.find(node => node.tagName === 'details' && hasClass(node, 'ed-method'));
 assert.ok(method?.childNodes.some(node => node.tagName === 'summary'), 'byline exposes the review method in a native disclosure');
+const topSections = header.parentNode.childNodes.filter(node => node.tagName);
+const featured = topSections[topSections.indexOf(header) + 1];
+const decision = topSections[topSections.indexOf(header) + 2];
+assert.ok(featured?.tagName === 'figure' && hasClass(featured, 'ed-featured'), 'the featured figure follows the header');
+assert.ok(children(featured).some(node => node.tagName === 'img' && attr(node, 'itemprop') === 'image' && visible(node)), 'the featured figure displays the product image');
+assert.ok(hasClass(decision, 'ed-hero'), 'the buying decision follows the featured figure');
 
 const metadata = (key, attribute = 'name') => nodes.filter(node => node.tagName === 'meta' && attr(node, attribute) === key);
 const metaValue = (key, attribute) => attr(metadata(key, attribute)[0], 'content');
@@ -85,11 +92,14 @@ assert.ok(type(product.review, 'Review'), 'editorial Review belongs to Product')
 assert.ok(product.review.author?.name && product.review.reviewBody, 'review has an author and assessment');
 assert.ok(Number(product.review.reviewRating?.ratingValue) >= 1 && Number(product.review.reviewRating?.ratingValue) <= 5, 'editorial rating lies on its declared scale');
 assert.equal(Number(product.review.reviewRating.bestRating), 5, 'editorial rating uses the existing five-point scale');
-const verdict = dashboardNodes.find(node => hasClass(node, 'ed-verdict'));
+const verdict = children(decision).find(node => hasClass(node, 'ed-verdict'));
 assert.equal(clean(text(verdict)), product.review.reviewBody, 'visible summary matches the editorial Review');
 const decisionOrder = verdict.parentNode.childNodes.filter(node => node.tagName);
 assert.ok(hasClass(decisionOrder[decisionOrder.indexOf(verdict) + 1], 'ed-fit-grid'), 'buyer fit follows the summary');
-assert.ok(hasClass(decisionOrder[decisionOrder.indexOf(verdict) + 2], 'ed-verdict-row'), 'ratings and Amazon action follow buyer fit');
+const verdictActions = decisionOrder[decisionOrder.indexOf(verdict) + 2];
+assert.ok(hasClass(verdictActions, 'ed-verdict-row'), 'ratings and Amazon action follow buyer fit');
+const scoreCards = children(verdictActions).filter(node => node.tagName === 'a' && hasClass(node, 'ed-score-card') && visible(node));
+assert.deepEqual(scoreCards.map(node => attr(node, 'href')), ['#ratings', '#retailer-ratings'], 'two visible score cards link to their respective evidence');
 
 const articles = schema.filter(entity => type(entity, 'Article'));
 assert.equal(articles.length, 1, 'one authoritative Article');
@@ -248,13 +258,11 @@ const displayedScore = clean(text(children(ownerScore).find(node => node.tagName
 assert.equal(displayedScore, `${(weightedSum / ratingCount).toFixed(1)}/5`, 'visible owner score matches the weighted mean');
 assert.ok(clean(text(ownerScore)).includes(`${ratingCount} ratings · ${storeScores.length} retailers`), 'visible owner score names its sample size');
 
-const priceCheck = dashboardNodes.find(node => attr(node, 'data-amazon-price-check') !== undefined);
-assert.ok(priceCheck && children(idNodes.get('where-to-buy')).includes(priceCheck) && /Amazon price check/.test(text(priceCheck)), 'the retailer section includes the Amazon-only price check');
-const manualDate = children(priceCheck).find(node => node.tagName === 'time');
-const checkedAt = Date.parse(attr(manualDate, 'datetime'));
-assert.ok(Number.isFinite(checkedAt) && checkedAt <= Date.now(), 'the manual check date is valid');
-assert.doesNotMatch(text(priceCheck), /\$\s*\d|USD\s*\d/, 'the manual price check does not republish Amazon prices');
-const amazon = dashboardNodes.find(node => attr(node, 'data-amazon-cta') !== undefined);
+assert.ok(!dashboardNodes.some(node => attr(node, 'data-amazon-price-check') !== undefined), 'the old Amazon price-check panel is removed');
+const amazon = children(verdictActions).find(node => node.tagName === 'a' && attr(node, 'data-amazon-cta') !== undefined);
+assert.ok(amazon && visible(amazon), 'the buying decision includes a visible Amazon action');
+assert.ok(children(amazon.parentNode).some(node => node.tagName && visible(node) && clean(text(node)) === 'Paid link'), 'the Amazon action has a nearby visible paid-link disclosure');
+assert.doesNotMatch(text(amazon.parentNode), /\$\s*\d|USD\s*\d/, 'the Amazon action does not display a price');
 const amazonUrl = new URL(attr(amazon, 'href'));
 assert.equal(amazonUrl.origin, 'https://www.amazon.com', 'affiliate action leads to Amazon US');
 assert.ok(amazonUrl.searchParams.get('tag') && attr(amazon, 'rel')?.split(' ').includes('sponsored'), 'affiliate action has attribution and disclosure markup');
@@ -276,5 +284,5 @@ return {
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const result = validateElizabethDashboard();
-  console.log(`Elizabeth dashboard passed: canonical metadata; Product/Review, Article, Breadcrumb, FAQ and ${result.videos} videos; consistent microdata; ${result.questions} question sections; ${result.sources} source records; ${result.vendors} dated vendor observations; honest price-history coverage.`);
+  console.log(`Elizabeth dashboard passed: canonical metadata; Product/Review, Article, Breadcrumb, FAQ and ${result.videos} videos; consistent microdata; ${result.questions} question sections; ${result.sources} source records; ${result.vendors} dated vendor observations; paid-link disclosure.`);
 }

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="360" viewBox="0 0 800 360" role="img" aria-labelledby="shot-controls-title shot-controls-description">
+  <title id="shot-controls-title">Lelit Elizabeth PL92T timed shot buttons and separate scale</title>
+  <desc id="shot-controls-description">Press either of the two brew buttons to start a shot. Each button can stop the shot after its own saved time. Use a separate scale to check the weight of coffee in the cup, particularly after changing the grind or coffee.</desc>
+  <rect width="800" height="360" rx="16" fill="#f7f2e7"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#18392e">
+    <text x="40" y="49" font-size="33" font-weight="700">What stops the shot?</text>
+    <text x="40" y="78" fill="#426053" font-size="22">Lelit Elizabeth PL92T</text>
+
+    <rect x="40" y="110" width="348" height="178" rx="12" fill="#e3ede2"/>
+    <rect x="412" y="110" width="348" height="178" rx="12" fill="#fffaf0" stroke="#b2c0b0" stroke-width="2"/>
+    <g text-anchor="middle">
+      <g font-size="26" font-weight="700">
+        <text x="214" y="151">Two timed brew buttons</text>
+        <text x="586" y="151">One separate scale</text>
+      </g>
+
+      <g fill="#1b5d46">
+        <rect x="75" y="178" width="132" height="49" rx="8"/>
+        <rect x="221" y="178" width="132" height="49" rx="8"/>
+      </g>
+      <g fill="#fffaf0" font-size="22" font-weight="700">
+        <text x="141" y="210">Button 1</text>
+        <text x="287" y="210">Button 2</text>
+      </g>
+
+      <path d="M535 182H637M523 188H649L659 225H513Z" fill="none" stroke="#1b5d46" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="565" y="194" width="42" height="24" rx="3" fill="#e3ede2"/>
+      <text x="586" y="212" font-size="20" font-weight="700">g</text>
+
+      <g font-size="23">
+        <text x="214" y="263">Stops at the saved time.</text>
+        <text x="586" y="263">Check the weight in the cup.</text>
+      </g>
+    </g>
+    <text x="40" y="338" fill="#426053" font-size="21">Changing the coffee or grind can change the yield.</text>
+  </g>
+</svg>
