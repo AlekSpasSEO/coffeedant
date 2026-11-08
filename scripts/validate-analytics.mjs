@@ -213,6 +213,13 @@ assert.equal(result.appended.length, 0, 'Cross-tab acceptance cannot override GP
 result = run({ hostname: 'ca.coffeedant.com', choice: 'denied' });
 assert(result.deletedCookies.some((cookie) => cookie.includes('Domain=ca.coffeedant.com')), 'Withdrawal clears regional-domain cookies');
 
+result = run({ hostname: 'de.coffeedant.com' });
+await result.resolveRegion('opt-in');
+assert.equal(result.appended.length, 0, 'A regional opt-in still blocks collection until acceptance');
+assert.equal(result.deletedCookies.length, 0, 'An unanswered regional prompt preserves shared analytics cookies');
+result.buttons[1].handlers.click();
+assert(result.deletedCookies.some((cookie) => cookie.includes('Domain=coffeedant.com')), 'Explicit rejection still clears shared analytics cookies');
+
 result = run();
 assert.equal(result.window['ga-disable-G-270R14ZHVX'], true, 'Collection is disabled while location is unresolved');
 assert.equal(result.deletedCookies.length, 0, 'A pending lookup preserves existing IDs until the policy is known');
@@ -272,6 +279,7 @@ for (const choice of [undefined, 'granted']) {
   await headerBlocked.resolveRegion('opt-in', { browserOptOut: true });
   assert.equal(headerBlocked.appended.length, 0, 'HTTP-only privacy signals override default and saved acceptance');
   assert.equal(headerBlocked.window['ga-disable-G-270R14ZHVX'], true);
+  assert(headerBlocked.deletedCookies.length > 0, 'HTTP-only privacy signals still clear analytics cookies');
   headerBlocked.preferences.handlers.click();
   assert.equal(headerBlocked.buttons[0].disabled, true, 'HTTP-only opt-out disables acceptance');
   assert.equal(headerBlocked.note.hidden, false, 'HTTP-only opt-out is explained in the banner');

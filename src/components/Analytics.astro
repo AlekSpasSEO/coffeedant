@@ -155,7 +155,8 @@ productionRegions['www.coffeedant.com'] = 'us';
       policyResolved = true;
       serverBrowserOptOut = headerOptOut;
       regionalMode = mode;
-      applyChoice(effectiveChoice());
+      // A pending opt-in on this host does not withdraw a choice made on another host.
+      applyChoice(effectiveChoice(), choice === 'denied' || browserOptOut());
       renderControls();
     };
     if (choice === 'denied' || nativeBrowserOptOut) applyChoice('denied');
