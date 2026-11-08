@@ -4464,6 +4464,30 @@ and 40,881 pending. Finder gaps remain zero. Each edition has 144 non-video and
 349 video pages left. Incremental publication and source-change maintenance
 stay active.
 
+### Direct batch 91 — two Bezzera BZ13 PID watch pages (2026-11-08)
+
+Translate two Whole Latte Love watch pages for the Bezzera BZ13 PID. The
+April 7, 2022 video covers both PM and DE control variants, the electrically
+heated BZ group, PID controls, and simultaneous brewing and steaming. The
+August 27, 2020 video covers grinding, espresso, and milk drinks. Both
+retain the original embeds, dates, retailer attribution, and registered
+routes. The unfinished written review opens at its English source.
+
+The 496-slot full export and 26-slot missing snapshot freeze the source.
+Fifteen directly translated strings add 26 current cache entries per edition.
+
+The static builds, 210 localization tests, 20 SEO tests, analytics, and Finder
+checks pass. Six document comparisons confirm complete text, metadata,
+accessibility labels, dates, and original video destinations. Twelve desktop
+and mobile views pass with no horizontal overflow.
+
+The source remains 664 pages and 57,077 segments. The ready selection is 172
+indexable pages plus 404 per edition. Coverage is NL 16,213 translated and
+40,864 pending, DE 16,298 translated and 40,779 pending, and FR 16,222 translated
+and 40,855 pending. Finder gaps remain zero. Each edition has 144 non-video and
+347 video pages left. Incremental publication and source-change maintenance
+stay active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
