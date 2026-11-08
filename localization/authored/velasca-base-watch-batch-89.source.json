@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/gaggia-velasca-ri8260-3/video/whole-latte-love-4b5747694457726b4c7855/",
+      "sourceHash": "61d8ff47680469ac270c8b68d8d03afaa08c51eee48e4e27f35be9697700a942"
+    },
+    {
+      "sourcePath": "/espresso-machine/gaggia-velasca-ri8260-3/video/whole-latte-love-66706f6f5563316a394773/",
+      "sourceHash": "b4d5fe9b7987d5f4061f390506a385548f0c86732fcd0dba2237583a5219c689"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "9d09441e019da407d5383c12a19984247b88d009bfd77bfc3c9010691352bebe",
+      "source": "Gaggia Velasca: Gaggia Velasca: Basic Operation and Programming · Whole Latte Love (2017-12-22) | Coffeedant",
+      "kind": "text",
+      "context": "Gaggia Velasca: Gaggia Velasca: Basic Operation and Programming · Whole Latte Love (2017-12-22) | Coffeedant"
+    },
+    {
+      "id": "83b0f64c19098743635088774f2d16982b7376f12c9c309835f4bd6e2a9155c7",
+      "source": "Watch Whole Latte Love on Gaggia Velasca (2017-12-22): Gaggia Velasca: Basic Operation and Programming. Whole Latte Love presents Gaggia Velasca, covering grinding, espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "5ebaa221418e5373100ea0e1f653efaf08d6716d8a482deb85581d37d13b81ea",
+      "source": "Gaggia Velasca: Gaggia Velasca: Basic Operation and Programming · Whole Latte Love (2017-12-22) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "818721049207d7ca5a74f54730236300e23e1c35788fd460e67ab661ee2a7851",
+      "source": "Gaggia Velasca: Basic Operation and Programming by Whole Latte Love",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "dcd8564cd54a713878db2a0a6b5dee754baed5dde50eb9b4009379f492bf6843",
+      "source": "Gaggia Velasca: Basic Operation and Programming",
+      "kind": "text",
+      "context": "Gaggia Velasca: Basic Operation and Programming"
+    },
+    {
+      "id": "1f0ed4d938c932e3eedffe193dde27250d67b7c5de41ecbc5fed19d72ef50456",
+      "source": "Whole Latte Love presents Gaggia Velasca, covering grinding, espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "text",
+      "context": "Whole Latte Love presents Gaggia Velasca, covering grinding, espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review."
+    },
+    {
+      "id": "2cb775821f9e525e026e84077892883af2f21c6bd177b6a0309420faa27964b4",
+      "source": "Gaggia Velasca: Gaggia Velasca: Basic Operation and Programming · Whole Latte Love (2017-12-22) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "d73766824e9a1de199bcfc4e95bd6c2e00fb2d7ef3fc958e84043b9e78cd13e9",
+      "source": "Watch Whole Latte Love on Gaggia Velasca (2017-12-22): Gaggia Velasca: Basic Operation and Programming. Whole Latte Love presents Gaggia Velasca, covering grinding, espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "08425f3edbb22fbd330d1219ef98b6892855fde024e8fe0bf4525dbe88b49771",
+      "source": "Gaggia Velasca: Basic Operation and Programming",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "0b78a641d9a1b66438b9523a46f589694dffbc94ba321978cbeeee6e2775ac39",
+      "source": "Whole Latte Love presents Gaggia Velasca, covering grinding, espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "3e25d29405277cf9eeca0cbd2203ae2bbf3ba22f4188c33f67b5181f0a84077f",
+      "source": "Gaggia Velasca: Review: Gaggia Velasca & Velasca Prestige Bean to Cup Coffee Machines · Whole Latte Love (2017-05-26) | Coffeedant",
+      "kind": "text",
+      "context": "Gaggia Velasca: Review: Gaggia Velasca & Velasca Prestige Bean to Cup Coffee Machines · Whole Latte Love (2017-05-26) | Coffeedant"
+    },
+    {
+      "id": "50dfeedb148ffe78702af400173a80855b5fa279069b21f12b14838788b0da66",
+      "source": "Watch Whole Latte Love on Gaggia Velasca (2017-05-26): Review: Gaggia Velasca & Velasca Prestige Bean to Cup Coffee Machines. Whole Latte Love compares Gaggia Velasca Prestige RI8263/47 and Gaggia Velasca. Watch for differences in controls and day-to-day operation; the observations belong to the creator.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "42eddb5243febf9b5920c52effb8500dfec8682bd164e929fa11015615a86d5d",
+      "source": "Gaggia Velasca: Review: Gaggia Velasca & Velasca Prestige Bean to Cup Coffee Machines · Whole Latte Love (2017-05-26) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "1ffbfe18a0bcac2a9cced5efc8f5e906892c133ec8bcb8fb4b213271c0fe4c2a",
+      "source": "Gaggia Velasca: Review: Gaggia Velasca & Velasca Prestige Bean to Cup Coffee Machines · Whole Latte Love (2017-05-26) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "18db31123507d32023e369c5e90da19604bb13823be0c6374a76f7fcabb746f6",
+      "source": "Watch Whole Latte Love on Gaggia Velasca (2017-05-26): Review: Gaggia Velasca & Velasca Prestige Bean to Cup Coffee Machines. Whole Latte Love compares Gaggia Velasca Prestige RI8263/47 and Gaggia Velasca. Watch for differences in controls and day-to-day operation; the observations belong to the creator.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "36d224533cc528956f7ee855e08319f38229fa8d7f5decb4b41129a778f1c385"
+}

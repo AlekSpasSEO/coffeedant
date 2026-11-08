@@ -4412,6 +4412,33 @@ and 40,922 pending. Finder gaps remain zero. There are 144 non-video and 353
 video pages per edition still unfinished. Incremental publication and
 source-change maintenance stay active.
 
+### Direct batch 89 — two base Velasca watch pages (2026-11-08)
+
+Translate the two remaining Whole Latte Love watch pages associated with the
+published Gaggia Velasca RI8260 review. The December 22, 2017 video covers basic
+operation and programming, including grinding, espresso and milk drinks. The
+May 26, 2017 video compares the base Velasca with the Velasca Prestige
+RI8263/47. It retains the distinction between models and the creator's
+observations. Both retain the source dates, embeds, and retailer attribution.
+
+The 485-slot full watch export and 15-slot missing snapshot are immutable.
+Seven directly translated strings add 15 current cache entries per edition.
+The comparison retains previously translated wording where the source matches.
+NL and DE keep the registered URLs. FR uses the published base Velasca review
+path as the parent for both watch pages.
+
+The source and regional builds, 210 localization tests, 20 SEO tests,
+analytics, and Finder checks pass. Six full document comparisons cover both
+four-paragraph pages, localized metadata and labels, and original embeds.
+Twelve desktop and mobile browser views pass with no horizontal overflow.
+
+The source remains 664 pages and 57,077 segments. The ready selection is 168
+indexable pages plus 404 per edition. Coverage is NL 16,161 translated and
+40,916 pending, DE 16,246 translated and 40,831 pending, and FR 16,170 translated
+and 40,907 pending. Finder gaps remain zero. There are 144 non-video and 351
+video pages per edition still unfinished. Incremental publication and
+source-change maintenance stay active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
