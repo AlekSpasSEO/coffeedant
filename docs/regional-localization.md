@@ -4439,6 +4439,31 @@ and 40,907 pending. Finder gaps remain zero. There are 144 non-video and 351
 video pages per edition still unfinished. Incremental publication and
 source-change maintenance stay active.
 
+### Direct batch 90 — two Bezzera Duo MN watch pages (2026-11-08)
+
+Translate two Whole Latte Love watch pages for the Bezzera Duo MN. The
+July 6, 2018 video examines the internal components of the Bezzera Matrix
+and Duo. The May 8, 2018 video reviews the Bezzera Matrix MN and Duo MN,
+including espresso, milk drinks and cleaning. Both retain the source
+dates, embeds, retailer attribution, and links. The written Duo MN review
+is still pending and opens on the English site from the localized pages.
+
+The 496-slot full export and 26-slot missing snapshot freeze the source.
+Fifteen directly translated strings add 26 current cache entries per
+edition. All six watch URLs keep their registered paths.
+
+The source and regional builds, 210 localization tests, 20 SEO tests,
+analytics, and Finder checks pass. Six document comparisons confirm full
+text, metadata, labels, dates, and the original video destinations.
+Twelve desktop and mobile browser views pass with no horizontal overflow.
+
+The source remains 664 pages and 57,077 segments. The ready selection is 170
+indexable pages plus 404 per edition. Coverage is NL 16,187 translated and
+40,890 pending, DE 16,272 translated and 40,805 pending, and FR 16,196 translated
+and 40,881 pending. Finder gaps remain zero. Each edition has 144 non-video and
+349 video pages left. Incremental publication and source-change maintenance
+stay active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

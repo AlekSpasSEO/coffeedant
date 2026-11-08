@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/bezzera-duo-mn/video/whole-latte-love-556f445264535856303655/",
+      "sourceHash": "18454e4476b699ff251a8ebe1b0cb5cd63333ffbf9bdfb1ef1be5a3ec2945386"
+    },
+    {
+      "sourcePath": "/espresso-machine/bezzera-duo-mn/video/whole-latte-love-712d70724b634c35482d34/",
+      "sourceHash": "bb266526443c33d2e940167d742f8b6c125d7b603c63c0256272c612f7b20386"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "0969c368772f360fa672aeb88f79bddee715fa44fd4f3c083b90666b73ef2f54",
+      "source": "← Bezzera Duo MN review",
+      "kind": "text",
+      "context": "← Bezzera Duo MN review"
+    },
+    {
+      "id": "d0b0dfd73f90838abedad718129a049c615bdb62db8322ec531f5223768c1ce6",
+      "source": "Bezzera Duo MN · Retailer perspective",
+      "kind": "text",
+      "context": "Bezzera Duo MN · Retailer perspective"
+    },
+    {
+      "id": "e65e43d8b8e2ada9fbe425e352027a9e22496e5e2a347136c6663bf922964853",
+      "source": "Bezzera Duo MN: Review: Bezzera Matrix and Duo Internal Components · Whole Latte Love (2018-07-06) | Coffeedant",
+      "kind": "text",
+      "context": "Bezzera Duo MN: Review: Bezzera Matrix and Duo Internal Components · Whole Latte Love (2018-07-06) | Coffeedant"
+    },
+    {
+      "id": "aea15a0c019dfdd0b5be03ba0be5f28db994e0a7ce50b3d2fe3e7267c45bfa0b",
+      "source": "Watch Whole Latte Love on Bezzera Duo MN (2018-07-06): Review: Bezzera Matrix and Duo Internal Components. Whole Latte Love presents Bezzera Duo MN, covering espresso preparation, milk drinks, design and construction. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "175a13f9a38b7c8fb64f865f521c9a8a89aa6182b4aeaf011a2a24176d427f95",
+      "source": "Bezzera Duo MN: Review: Bezzera Matrix and Duo Internal Components · Whole Latte Love (2018-07-06) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "ee51285824b3abe83976808872219a2a653bf3ce2eddd0c2cb52c0f7542ac79d",
+      "source": "Bezzera Duo MN video by Whole Latte Love",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "011ccefc08cc4dec15a24d21d43c4655bc1fde3bf01c38f29c21fd7b109ee264",
+      "source": "Review: Bezzera Matrix and Duo Internal Components by Whole Latte Love",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "e2e8afa8fdf0c8db225aa8a1934d5bd8dc29b2a2bcdca3b8b130d2d91d12f0bd",
+      "source": "Review: Bezzera Matrix and Duo Internal Components",
+      "kind": "text",
+      "context": "Review: Bezzera Matrix and Duo Internal Components"
+    },
+    {
+      "id": "baee7d11a69f22988b3adba50ffc83e144ee7cc130e41742c387ecd55c2befcf",
+      "source": "July 6, 2018",
+      "kind": "text",
+      "context": "July 6, 2018"
+    },
+    {
+      "id": "8157ccaabeddd14fd7b952d65d2cb3717ac10f1b84945862e241032b0ea9cc30",
+      "source": "Whole Latte Love presents Bezzera Duo MN, covering espresso preparation, milk drinks, design and construction. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "text",
+      "context": "Whole Latte Love presents Bezzera Duo MN, covering espresso preparation, milk drinks, design and construction. This is an equipment seller’s perspective; consider it alongside the other sources and our written review."
+    },
+    {
+      "id": "ba681f4541cae0f2675e221de626696f0a7576812962b018d8d7c2ae9cb3eb9f",
+      "source": "Bezzera Duo MN: Review: Bezzera Matrix and Duo Internal Components · Whole Latte Love (2018-07-06) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "3a9031ef13a6febb0f620fa64d90dbcd2948ee0fe1e5cd3498c688b5e6e1cbd7",
+      "source": "Watch Whole Latte Love on Bezzera Duo MN (2018-07-06): Review: Bezzera Matrix and Duo Internal Components. Whole Latte Love presents Bezzera Duo MN, covering espresso preparation, milk drinks, design and construction. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "fc144e9b4078b36d2472d683990689ebbbadfcde13e7df0261c9a7fdae7c0f6e",
+      "source": "Bezzera Duo MN video by Whole Latte Love",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "1638d966375a9fe1188720c644d96b2c43f39299c5a9218dafd29d8323aa4d26",
+      "source": "Review: Bezzera Matrix and Duo Internal Components",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "76637c0678590b3a7bfa48f5fe7b4e36004082f7642e6ff42d282861cad5e6e8",
+      "source": "Whole Latte Love presents Bezzera Duo MN, covering espresso preparation, milk drinks, design and construction. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "d8accfe9112f6084762fc36c32f168d16c8b917eb15408bf96d0c4c7cbd96303",
+      "source": "Bezzera Duo MN: Review: Bezzera Matrix MN and Duo MN Espresso Machines · Whole Latte Love (2018-05-08) | Coffeedant",
+      "kind": "text",
+      "context": "Bezzera Duo MN: Review: Bezzera Matrix MN and Duo MN Espresso Machines · Whole Latte Love (2018-05-08) | Coffeedant"
+    },
+    {
+      "id": "c64ede31aeacd5b425f24185a1a2fb3b7bbd704ec6ba02825dd0011eba266a16",
+      "source": "Watch Whole Latte Love on Bezzera Duo MN (2018-05-08): Review: Bezzera Matrix MN and Duo MN Espresso Machines. Whole Latte Love presents Bezzera Duo MN, covering espresso preparation, milk drinks, cleaning. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "5077b7481b458daf7b3ede07d387957f99cbc1d7cc7924e2fba01d5005312397",
+      "source": "Bezzera Duo MN: Review: Bezzera Matrix MN and Duo MN Espresso Machines · Whole Latte Love (2018-05-08) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "e874c1288827b010c4e9a50a8dc20c6e12c99f7c7b6da8f9a8e71dffb51e2aab",
+      "source": "Review: Bezzera Matrix MN and Duo MN Espresso Machines by Whole Latte Love",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "1ce91af4ed3bd5a0323e1bbe82e1c828438ebe443bebe36ad7a7a06bb526e1ba",
+      "source": "Review: Bezzera Matrix MN and Duo MN Espresso Machines",
+      "kind": "text",
+      "context": "Review: Bezzera Matrix MN and Duo MN Espresso Machines"
+    },
+    {
+      "id": "c59e8bf4327c8827fca0f351d56eed0ffd2a344003522d7c63b580b5e7793e74",
+      "source": "May 8, 2018",
+      "kind": "text",
+      "context": "May 8, 2018"
+    },
+    {
+      "id": "f9596c15b0e1c6cc147a30053e5ca7235f8b884e2d366e0fb4ae432c985f4888",
+      "source": "Whole Latte Love presents Bezzera Duo MN, covering espresso preparation, milk drinks, cleaning. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "text",
+      "context": "Whole Latte Love presents Bezzera Duo MN, covering espresso preparation, milk drinks, cleaning. This is an equipment seller’s perspective; consider it alongside the other sources and our written review."
+    },
+    {
+      "id": "f8cab7b50ada7d6ca9f2039840480c206db4f3e6c43940780faf078574c77d8d",
+      "source": "Bezzera Duo MN: Review: Bezzera Matrix MN and Duo MN Espresso Machines · Whole Latte Love (2018-05-08) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "7919cf57403676f798cab862d4966d60c3baa03baf4a47d610e2c47d6d607a7a",
+      "source": "Watch Whole Latte Love on Bezzera Duo MN (2018-05-08): Review: Bezzera Matrix MN and Duo MN Espresso Machines. Whole Latte Love presents Bezzera Duo MN, covering espresso preparation, milk drinks, cleaning. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "e13ebd5c9144270fbffbe2c7b1b1d7bd2e673159173c9201504f6465fec18d13",
+      "source": "Review: Bezzera Matrix MN and Duo MN Espresso Machines",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b0015c8da90f8be4489fb9e0822b285906c68e59f6c555e51878ad97bc6ae01f",
+      "source": "Whole Latte Love presents Bezzera Duo MN, covering espresso preparation, milk drinks, cleaning. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "4a451db21e06bc095397eda72efd10b35c8c2576d4a26f53316ac042ac77896d"
+}
