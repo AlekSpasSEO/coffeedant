@@ -4357,6 +4357,34 @@ DE 16,173 / 40,904 and FR 16,097 / 40,980. Finder gaps remain zero; 144 non-vide
 and 357 video pages per edition remain unfinished. Incremental publication and
 source-change maintenance stay active.
 
+### Direct batch 87 — FRAD COFFEE and Pirados por Café watch pages (2026-11-08)
+
+Translate the two remaining watch pages associated with the published Gaggia
+Naviglio HD8749/01 and Magenta Prestige RI8702/46 reviews. Keep the FRAD COFFEE
+April 4, 2020 and Pirados por Café December 12, 2024 videos, their original
+embeds and third-party attribution. Both demonstrate espresso preparation.
+The titles, page copy, image and frame labels, and structured metadata follow
+the frozen source. The FRAD COFFEE page identifies the base Naviglio, despite
+the historical “milk” slug in its source and registered NL and DE URLs.
+
+The FRAD COFFEE full export contains 485 slots and the grouped missing snapshot
+contains 36. The batch supplies 20 translated strings plus two creator names
+and adds 36 cache entries per edition. NL and DE keep their registered paths.
+The new French watch URLs use the existing French review paths as their parents.
+
+The source and regional builds, 210 localization tests, 20 SEO tests,
+analytics, and Finder checks pass. Six full document comparisons preserve all
+four paragraphs of each watch page, the localized frame label, the original
+embed and the page metadata. Twelve browser views cover both watch pages on
+mobile and desktop with no horizontal overflow.
+
+The source remains 664 pages and 57,077 segments. The ready selection is 164
+indexable pages plus 404 per edition. Coverage is NL 16,124 translated and
+40,953 pending, DE 16,209 translated and 40,868 pending, and FR 16,133 translated
+and 40,944 pending. Finder gaps remain zero. There are 144 non-video and 355
+video pages per edition still unfinished. Incremental publication and
+source-change maintenance stay active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

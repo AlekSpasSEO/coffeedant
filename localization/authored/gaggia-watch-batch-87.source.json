@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/gaggia-naviglio-milk-hd8749-01/video/frad-coffee/",
+      "sourceHash": "c874d5a17315b12ec2741bd956e6e08c14b70179b0ff2118d4402a2cc22d0ba8"
+    },
+    {
+      "sourcePath": "/espresso-machine/gaggia-magenta-prestige-ri8702/video/pirados-por-cafe/",
+      "sourceHash": "50dac40b4a24d2a749f6bbbbda58aa3687cb4ff365300d27e844813ade7b6237"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "8da28f9bca2166c3ae19f908aa051471d51f236ae8095586c4b88fddeb86ba07",
+      "source": "April 4, 2020",
+      "kind": "text",
+      "context": "April 4, 2020"
+    },
+    {
+      "id": "8abc9fec7f20156ac796f82da9a5a336cc9be9446e906464b35d05e707cbf1a2",
+      "source": "Gaggia Magenta Prestige RI8702/46: Review Completo da Máquina de Café Espresso Superautomática Gaggia Magenta Prestige · Pirados por Café (2024-12-12) | Coffeedant",
+      "kind": "text",
+      "context": "Gaggia Magenta Prestige RI8702/46: Review Completo da Máquina de Café Espresso Superautomática Gaggia Magenta Prestige · Pirados por Café (2024-12-12) | Coffeedant"
+    },
+    {
+      "id": "82f1a3d273bae6ad4d87d668be34f526e7ea7e24f0f8b31cd557a177df7a8b7d",
+      "source": "Watch Pirados por Café on Gaggia Magenta Prestige RI8702/46 (2024-12-12): Review Completo da Máquina de Café Espresso Superautomática Gaggia Magenta Prestige. Pirados por Café presents Gaggia Magenta Prestige RI8702/46, covering espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "c6076aecf51090b3e2ea738874a84e7e8141dbd35359f6aaa2607d6765ddb4bc",
+      "source": "Gaggia Magenta Prestige RI8702/46: Review Completo da Máquina de Café Espresso Superautomática Gaggia Magenta Prestige · Pirados por Café (2024-12-12) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "b106f580f2bcda87b1475345b13bd86564cc62339add1bb8b229265fed378c8b",
+      "source": "Gaggia Magenta Prestige RI8702/46 video by Pirados por Café",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "ef2db3b48bdd1772c093eab711722ca624a073cea171ddd865717f6fd5a6676e",
+      "source": "Review Completo da Máquina de Café Espresso Superautomática Gaggia Magenta Prestige by Pirados por Café",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "57c0bf7cb27634829154ab9a6c1f4488f6e295edd2745d259c1f46b38f1497ce",
+      "source": "Gaggia Magenta Prestige RI8702/46 · Third-party perspective",
+      "kind": "text",
+      "context": "Gaggia Magenta Prestige RI8702/46 · Third-party perspective"
+    },
+    {
+      "id": "5110034ad2a3395ec57f6a262e19e91c8a015fa575689ec546ad18ca6b9857d2",
+      "source": "Review Completo da Máquina de Café Espresso Superautomática Gaggia Magenta Prestige",
+      "kind": "text",
+      "context": "Review Completo da Máquina de Café Espresso Superautomática Gaggia Magenta Prestige"
+    },
+    {
+      "id": "57f6ab82e33715af986906fffddba0a5fb4952920dfeac66fa928cce13a03750",
+      "source": "Pirados por Café",
+      "kind": "text",
+      "context": "Pirados por Café"
+    },
+    {
+      "id": "2112c4721dfb93285b5d6dc14eba6614d5eb6e48b891b78253e41219cc6be8a0",
+      "source": "December 12, 2024",
+      "kind": "text",
+      "context": "December 12, 2024"
+    },
+    {
+      "id": "15c6f20aa1f62f7891b03706e710000b65a3ee16d354fd3995e024b6e188073b",
+      "source": "Pirados por Café presents Gaggia Magenta Prestige RI8702/46, covering espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Pirados por Café presents Gaggia Magenta Prestige RI8702/46, covering espresso preparation. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "282fcd3e30f88fa0d24a83cfb836997b468be7882732e905b1d78564f14a5a0d",
+      "source": "Video and opinions belong to Pirados por Café. Coffeedant curates this perspective alongside our written review.",
+      "kind": "text",
+      "context": "Video and opinions belong to Pirados por Café. Coffeedant curates this perspective alongside our written review."
+    },
+    {
+      "id": "b8162287acc8fd334fd97077c60588fa6176705c75cd9bb1255f7593401a38c5",
+      "source": "Gaggia Magenta Prestige RI8702/46: Review Completo da Máquina de Café Espresso Superautomática Gaggia Magenta Prestige · Pirados por Café (2024-12-12) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "dee40fa2f6b7efa7301a1eaa922ae083a921ac33000330ca93b8fee81f94d928",
+      "source": "Watch Pirados por Café on Gaggia Magenta Prestige RI8702/46 (2024-12-12): Review Completo da Máquina de Café Espresso Superautomática Gaggia Magenta Prestige. Pirados por Café presents Gaggia Magenta Prestige RI8702/46, covering espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "eef6862b42ef40ce7b96c8b70f76fba4e508c93a9e529ea82e1cbd5a73d44e90",
+      "source": "Gaggia Magenta Prestige RI8702/46 video by Pirados por Café",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "3960dc50043b40b6d269631d43d1e0468b528426bba7714926b1018bed29984c",
+      "source": "Review Completo da Máquina de Café Espresso Superautomática Gaggia Magenta Prestige",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "aa281a5f264ca80715f3d45ad97e88a5fa0641f0b9089e8899025dc798235b21",
+      "source": "Pirados por Café presents Gaggia Magenta Prestige RI8702/46, covering espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "5403770354e2c6479d3f7c8bf1e8c13b02f6b6efd20c952921839b6529925104",
+      "source": "Pirados por Café",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "1c6e07917a95d23c01e9f5beec915d558fabf81085bb9f6e35e92425841f08e3",
+      "source": "Video by Pirados por Café",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "9d0e0519cce699efc5dfb4ac518f406dacec0577e4f8c9936a750c434fdfa5ca",
+      "source": "Gaggia Naviglio HD8749/01: Gaggia Naviglio Review 介绍 · FRAD COFFEE (2020-04-04) | Coffeedant",
+      "kind": "text",
+      "context": "Gaggia Naviglio HD8749/01: Gaggia Naviglio Review 介绍 · FRAD COFFEE (2020-04-04) | Coffeedant"
+    },
+    {
+      "id": "adf140d4f89ef74243545e8eb3e40ec846cb03bfaeb395c23eebaea80bc6872b",
+      "source": "Watch FRAD COFFEE on Gaggia Naviglio HD8749/01 (2020-04-04): Gaggia Naviglio Review 介绍. FRAD COFFEE presents Gaggia Naviglio HD8749/01, covering espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "c081b156700972c0ad9d08f2bea9b7b79afb3488fd1a12bf6430e5f70d5ea9f9",
+      "source": "Gaggia Naviglio HD8749/01: Gaggia Naviglio Review 介绍 · FRAD COFFEE (2020-04-04) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "5e7c677c5fbaea1ba2ace089c4bee6d4f15b1cd8e9d95e8e28a0da0533caac46",
+      "source": "Gaggia Naviglio HD8749/01 video by FRAD COFFEE",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "4fdd0f958c017a450f44d747333755094ec8eacaf152ca57d176bea9190dd0b8",
+      "source": "Gaggia Naviglio Review 介绍 by FRAD COFFEE",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "e77798edb8bb2985842857d64a5e25ccdd0386257c32b90edfe8386c9c0f3e7e",
+      "source": "Gaggia Naviglio HD8749/01 · Third-party perspective",
+      "kind": "text",
+      "context": "Gaggia Naviglio HD8749/01 · Third-party perspective"
+    },
+    {
+      "id": "20009678d97f46f70091495efaf00e16bd49adea52e9d54529fbb19e0601a13b",
+      "source": "Gaggia Naviglio Review 介绍",
+      "kind": "text",
+      "context": "Gaggia Naviglio Review 介绍"
+    },
+    {
+      "id": "1cfc72683b69fb86375b8ab270d1f68c93b9bed697e0cfcfd667c55845a2f444",
+      "source": "FRAD COFFEE",
+      "kind": "text",
+      "context": "FRAD COFFEE"
+    },
+    {
+      "id": "f19a346bc5a42bc322c2f32aa2743ecf66555bee2edd9ca964eceb0a414258cc",
+      "source": "FRAD COFFEE presents Gaggia Naviglio HD8749/01, covering espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "FRAD COFFEE presents Gaggia Naviglio HD8749/01, covering espresso preparation. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "de5f9c7405cb4482e768b60d7b9fa48bbe5ad809a9155f52e5f9d565b6ba837d",
+      "source": "Video and opinions belong to FRAD COFFEE. Coffeedant curates this perspective alongside our written review.",
+      "kind": "text",
+      "context": "Video and opinions belong to FRAD COFFEE. Coffeedant curates this perspective alongside our written review."
+    },
+    {
+      "id": "7b8e6f29575af13c6c128e0300b14fd5dd61ca8042584d744d2cf01bd6a149e9",
+      "source": "Gaggia Naviglio HD8749/01: Gaggia Naviglio Review 介绍 · FRAD COFFEE (2020-04-04) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b585a34ebeb5b387a05068a44f556e65dac21d534a22e7bc8d63996a9e45c4d8",
+      "source": "Watch FRAD COFFEE on Gaggia Naviglio HD8749/01 (2020-04-04): Gaggia Naviglio Review 介绍. FRAD COFFEE presents Gaggia Naviglio HD8749/01, covering espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "8bdb423e8b61e53d4f69dce6c20c90cfca676e9c4bc32fb07b35eb325564b829",
+      "source": "Gaggia Naviglio HD8749/01 video by FRAD COFFEE",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "192718ceba1de22f2717e74fa76c1e10988ce03a4c7ab61b5488756600e68a74",
+      "source": "Gaggia Naviglio Review 介绍",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "7b17aa9fd2f3d8c0d0279b8791a4d7d73074a8f4d8663051a79c9edb590678ca",
+      "source": "FRAD COFFEE presents Gaggia Naviglio HD8749/01, covering espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "114266f7c4adf56da1e706b1b334ee5aca1d192dbf9f98f3b4066a074aa51f23",
+      "source": "FRAD COFFEE",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "e40640ac4fd4074b2c130cf30877b68212f908dfb194ac21d33a9091b9b39f14",
+      "source": "Video by FRAD COFFEE",
+      "kind": "json",
+      "context": "name"
+    }
+  ],
+  "snapshotHash": "5c7608ad698b0dadff239e3729c3db13413ce8b922d6e2b10afb5d5859615537"
+}
