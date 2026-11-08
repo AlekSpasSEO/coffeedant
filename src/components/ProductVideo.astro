@@ -2,7 +2,11 @@
 import type { ProductVideo } from '../lib/product-videos';
 import { getVideoWatchPath } from '../lib/product-videos';
 import '../styles/video-watch.css';
-const { video, productSlug } = Astro.props as { video: ProductVideo; productSlug: string };
+const { video, productSlug, poster = { file: 'hqdefault', width: 480, height: 360 } } = Astro.props as {
+  video: ProductVideo;
+  productSlug: string;
+  poster?: { file: string; width: number; height: number };
+};
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const watchPath = `${base}${getVideoWatchPath(productSlug, video).slice(1)}`;
 const date = new Intl.DateTimeFormat('en-US', { dateStyle: 'long', timeZone: 'UTC' }).format(new Date(`${video.published.slice(0,10)}T00:00:00Z`));
@@ -10,7 +14,7 @@ const date = new Intl.DateTimeFormat('en-US', { dateStyle: 'long', timeZone: 'UT
 <article class="product-video" data-product-video={video.id}>
   <div class="product-video-stage">
     <a href={watchPath} data-video-watch-link data-play-product-video aria-label={`Watch ${video.title} by ${video.creator}`}>
-      <img src={`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`} width="480" height="360" alt="" loading="lazy" decoding="async" />
+      <img src={`https://i.ytimg.com/vi/${video.id}/${poster.file}.jpg`} width={poster.width} height={poster.height} alt="" loading="lazy" decoding="async" />
       <span class="product-video-play" aria-hidden="true">▶</span>
       <span class="product-video-play-label">Play review</span>
     </a>

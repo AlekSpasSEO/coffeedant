@@ -16,6 +16,12 @@ const path = (url: string) => `${base}${url.replace(/^\//, '')}`;
 const canonical = `https://coffeedant.com${review.slug}`;
 const asset = (url: string) => new URL(path(url), Astro.site ?? Astro.url).toString();
 const videos = getProductVideos(review.slug);
+const widePosters: Record<string, { file: string; width: number; height: number }> = {
+  qw1MtYtwIrs: { file: 'sddefault', width: 640, height: 480 },
+  AfNiz8V9O5g: { file: 'maxresdefault', width: 1280, height: 720 },
+  bUiW9or4KjY: { file: 'maxresdefault', width: 1280, height: 720 },
+  alpRn3vlMBs: { file: 'maxresdefault', width: 1280, height: 720 },
+};
 const score = getReviewOverallScore(review.evaluation);
 const dashboardVerdict = 'If you’re tired of waiting for a single-boiler machine to switch to steam, the Elizabeth lets you pull a shot while you froth milk. Budget 25–30 minutes from cold for a more stable first shot, based on independent tests. You’ll need a separate espresso grinder, and you still prep each shot and steam milk by hand.';
 const checked = '2026-11-02';
@@ -51,6 +57,12 @@ const faqs = [
 ];
 const fit = ['You make two flat whites or cappuccinos most mornings and want to steam while the espresso pulls.', 'You already dial in espresso and want timed shots and programmable preinfusion in a compact machine.'];
 const avoid = ['You want coffee a few minutes after switching on, or you’re moving from capsules for the same one-button routine.', 'You want a machine that grinds, weighs the shot or froths the milk for you.'];
+const readingText = [
+  dashboardVerdict, ...fit, ...avoid,
+  ...dashboardQuestions.flatMap(({ question, answer, paragraphs, takeaway }) => [question, answer, ...paragraphs, takeaway]),
+  ...faqs.flatMap(({ question, answer }) => [question, answer]),
+].join(' ');
+const readingMinutes = Math.ceil(readingText.split(/\s+/).length / 210);
 const chapterLinks: Record<string, { id: string; seconds: number; label: string }> = {
   espresso: { id: 'AfNiz8V9O5g', seconds: 283, label: 'Coffee Kev’s test discussion · 4:43' },
   milk: { id: 'AfNiz8V9O5g', seconds: 640, label: 'See the steam wand · 10:40' },
@@ -81,12 +93,12 @@ const schema = { '@context': 'https://schema.org', '@graph': [
     <header class="ed-heading" id="summary">
       {(aliases.summary ?? []).map(id => <span id={id} class="ed-anchor" aria-hidden="true" />)}
       <h1 id="review-title">{review.title}</h1>
-      <nav class="ed-breadcrumb" aria-label="Breadcrumb"><a href={base}>Home</a><span aria-hidden="true">/</span><a href={path('/espresso-machine/')}>Espresso machines</a><span aria-hidden="true">/</span><span aria-current="page">Lelit Elizabeth</span></nav>
       <div class="ed-review-meta">
-        <div>
+        <nav class="ed-breadcrumb" aria-label="Breadcrumb"><a href={base}>Home</a><span aria-hidden="true">/</span><a href={path('/espresso-machine/')}>Espresso machines</a><span aria-hidden="true">/</span><span aria-current="page">Lelit Elizabeth</span></nav>
+        <div class="ed-author">
           <div class="ed-byline review-author-card">
             <img src={path(review.author.image)} alt="" width="36" height="36" />
-            <p>By <a href={path('/about/')}>{review.author.name}</a> · {review.author.role}<br /><span>Published <time datetime={review.published}>{date(review.published)}</time> · Updated <time datetime={review.updated}>{date(review.updated)}</time></span></p>
+            <p>By <a href={path('/about/')}>{review.author.name}</a> <span>· {review.author.role}</span></p>
           </div>
           <details class="ed-method">
             <summary>How I review espresso machines</summary>
@@ -95,56 +107,74 @@ const schema = { '@context': 'https://schema.org', '@graph': [
             <a href="#methodology">Read the full methodology ↓</a>
           </details>
         </div>
-        <aside class="ed-price-check" aria-label="Amazon price check" data-amazon-price-check>
-          <strong>Amazon price check <span>US</span></strong>
-          <p>Exact PL92T-120 listing unverified.</p>
-          <small>Last manual check <time datetime={amazonChecked}>{date(amazonChecked)}</time></small>
-        </aside>
+        <div class="ed-dates">
+          <span>Published <time datetime={review.published}>{date(review.published)}</time></span>
+          <span>Updated <time datetime={review.updated}>{date(review.updated)}</time></span>
+          <time class="ed-read-time" datetime={`PT${readingMinutes}M`}>
+            <svg aria-hidden="true" viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"><circle cx="8" cy="8" r="6.2" /><path d="M8 4.5V8l2.4 1.5" /></svg>
+            {readingMinutes} min read
+          </time>
+        </div>
       </div>
     </header>
 
     <section class="ed-hero" aria-label="Buying decision">
       <figure class="ed-featured"><img class="review-product-image" itemprop="image" src={path(review.image)} alt={review.imageAlt} width="400" height="406" fetchpriority="high" decoding="async" /><figcaption>The PL92T in a complete station. The grinder is separate.</figcaption></figure>
       <div class="ed-decision">
+        <p class="ed-verdict" itemprop="description">{dashboardVerdict}</p>
+        <div class="ed-fit-grid">
+          <div><h3>Get it if</h3><ul>{fit.map(text => <li>{text}</li>)}</ul></div>
+          <div><h3>Reconsider if</h3><ul>{avoid.map(text => <li>{text}</li>)}</ul></div>
+        </div>
         <div class="ed-verdict-row">
-          <a class="review-overall-rating" href="#ratings"><span>Editorial rating</span><strong>{score}<small>/5</small></strong></a>
-          <a class="ed-owner-score" href="#retailer-ratings" data-retailer-rating><span>Retailer customer rating</span><strong>{ownerScore}<small>/5</small></strong><small>{ownerCount} ratings · {elizabethOwnerRatings.stores.length} retailers</small></a>
           <div class="ed-amazon-action">
             <a class="ed-button ed-amazon-button" data-amazon-cta href={amazon.href} target="_blank" rel="sponsored noopener noreferrer">{amazon.exactProduct ? 'Buy on Amazon' : 'Search Amazon'} <span aria-hidden="true">↗</span></a>
             <small>Affiliate link · Amazon US</small>
           </div>
+          <a class="review-overall-rating" href="#ratings"><span>Editorial rating</span><strong>{score}<small>/5</small></strong></a>
+          <a class="ed-owner-score" href="#retailer-ratings" data-retailer-rating><span>Retailer customer rating</span><strong>{ownerScore}<small>/5</small></strong><small>{ownerCount} ratings · {elizabethOwnerRatings.stores.length} retailers</small></a>
         </div>
-        <p class="ed-verdict" itemprop="description">{dashboardVerdict}</p>
-        <div class="ed-fit-grid"><div><h3>Get it if</h3><ul>{fit.map(text => <li>{text}</li>)}</ul></div><div><h3>Reconsider if</h3><ul>{avoid.map(text => <li>{text}</li>)}</ul></div></div>
-        <dl class="ed-facts">{facts.map(fact => <div><svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d={fact.icon} /></svg><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}</dl>
       </div>
     </section>
 
+    <section class="review-video ed-video-room" id="video" aria-labelledby="video-title" data-review-video={videos[0]?.id}>
+      <div class="ed-video-header">
+        <div>
+          <p class="ed-eyebrow">{videos.length} videos from 3 creators</p>
+          <h2 id="video-title">The review room</h2>
+        </div>
+        <label class="ed-select-label" for="ed-video-selector">Choose a review
+          <select id="ed-video-selector" data-video-selector>{videos.map(video => <option value={video.id}>{video.creator} · {video.id === 'bUiW9or4KjY' ? 'Advanced controls' : video.id === 'alpRn3vlMBs' ? 'Original test · German' : 'Full review'}</option>)}</select>
+        </label>
+      </div>
+      <div class="ed-video-cards">{videos.map((video, index) => <div data-video-panel={video.id} hidden={index !== 0}><ProductVideo video={video} productSlug={review.slug} poster={widePosters[video.id]} /></div>)}</div>
+      <p class="ed-video-note">Kaffeemacher’s <a href="#eliz-kaffee">September 2026 written retest</a> updates its older video.</p>
+      <p class="ed-sr-only" data-video-status aria-live="polite"></p>
+    </section>
+
     <div class="ed-dashboard-tools">
-      <section class="review-video ed-panel" id="video" aria-labelledby="video-title" data-review-video={videos[0]?.id}>
-        <div class="ed-panel-heading"><div><p class="ed-eyebrow">Watch different perspectives</p><h2 id="video-title">The review room</h2></div><span class="ed-count">{videos.length} videos</span></div>
-        <label class="ed-select-label" for="ed-video-selector">Choose a review<select id="ed-video-selector" data-video-selector>{videos.map(video => <option value={video.id}>{video.creator} · {video.id === 'bUiW9or4KjY' ? 'Advanced controls' : video.id === 'alpRn3vlMBs' ? 'Original test · German' : 'Full review'}</option>)}</select></label>
-        <div class="ed-video-cards">{videos.map((video, index) => <div data-video-panel={video.id} hidden={index !== 0}><ProductVideo video={video} productSlug={review.slug} /></div>)}</div>
-        <p class="ed-small">Four videos represent three creators. Kaffeemacher’s <a href="#eliz-kaffee">September 2026 written retest</a> updates its older video. Creator opinions remain their own.</p>
-        <p class="ed-sr-only" data-video-status aria-live="polite"></p>
+      <section class="ed-panel ed-routine" aria-labelledby="ed-routine-title">
+        <div class="ed-panel-heading"><div><p class="ed-eyebrow">Your daily coffee</p><h2 id="ed-routine-title">How would you use it?</h2></div></div>
+        <div class="ed-routine-buttons" role="group" aria-label="Your coffee routine"><button type="button" data-routine="milk" aria-pressed="true">Two milk drinks</button><button type="button" data-routine="espresso" aria-pressed="false">Mostly espresso</button><button type="button" data-routine="capsules" aria-pressed="false">Moving from capsules</button></div>
+        <p data-routine-answer aria-live="polite">A useful fit once warm: the boilers let brewing and steaming overlap. You prepare each dose and texture the milk yourself; cleaning follows both drinks. No verified complete two-drink time is available.</p>
       </section>
 
       <section class="ed-panel ed-commerce" id="where-to-buy" aria-labelledby="ed-buy-title">
-        <div class="ed-panel-heading"><div><p class="ed-eyebrow">Compare the whole offer</p><h2 id="ed-buy-title">Where to buy</h2></div><span class="ed-count">New units</span></div>
+        <div class="ed-panel-heading"><div><p class="ed-eyebrow">Regional retailer prices</p><h2 id="ed-buy-title">Where to buy</h2></div><span class="ed-count">New units</span></div>
         <label class="ed-select-label" for="ed-region">Shopping region<select id="ed-region" data-region-selector><option value="US">United States · USD</option><option value="UK">United Kingdom · GBP</option><option value="DE">Germany · EUR</option></select></label>
         <p class="ed-small ed-region-note" data-region-note>US listings for PL92T-120. Prices exclude any checkout taxes and delivery charges.</p>
         <div class="ed-offers">{retailers.map((retailer, index) => <div class="ed-offer" data-vendor-offer data-region={retailer.region} hidden={retailer.region !== 'US'}><div><a href={retailer.href} target="_blank" rel="noopener noreferrer">{retailer.name} ↗</a><p>{retailer.note}</p><time datetime={checked}>Checked {date(checked)} · {retailer.region}</time></div><strong>{retailer.price}</strong></div>)}</div>
-        <p class="ed-small">Dated public-page snapshots, not live quotes. Check the exact model, plug, stock, delivered total and seller terms. These are the retailers checked for this preview.</p>
-        <p class="ed-small ed-disclosure">We select retailers independently of commission.</p>
+        <p class="ed-small">Prices reflect the check date. Confirm the model, plug, stock, delivered total and seller terms.</p>
+        <aside class="ed-price-check" aria-label="Amazon price check" data-amazon-price-check>
+          <strong>Amazon price check <span>US</span></strong>
+          <p>Exact PL92T-120 listing unverified.</p>
+          <small>Last manual check <time datetime={amazonChecked}>{date(amazonChecked)}</time></small>
+        </aside>
         <p class="ed-sr-only" data-region-status aria-live="polite"></p>
       </section>
     </div>
 
-    <section class="ed-routine" aria-labelledby="ed-routine-title">
-      <div><p class="ed-eyebrow">Picture your day</p><h2 id="ed-routine-title">How would you use it?</h2></div>
-      <div class="ed-routine-buttons" role="group" aria-label="Your coffee routine"><button type="button" data-routine="milk" aria-pressed="true">Two milk drinks</button><button type="button" data-routine="espresso" aria-pressed="false">Mostly espresso</button><button type="button" data-routine="capsules" aria-pressed="false">Moving from capsules</button></div>
-      <p data-routine-answer aria-live="polite">A useful fit once warm: the boilers let brewing and steaming overlap. You prepare each dose and texture the milk yourself; cleaning follows both drinks. No verified complete two-drink time is available.</p>
-    </section>
+    <dl class="ed-facts" aria-label="Setup at a glance">{facts.map(fact => <div><svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d={fact.icon} /></svg><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}</dl>
 
     <div class="ed-reading-grid">
       <nav class="ed-question-nav" aria-label="Questions in this review"><p class="ed-eyebrow">Your questions, answered</p>{dashboardQuestions.map((question, index) => <a href={`#${question.id}`}><span>{String(index + 1).padStart(2, '0')}</span>{question.id === 'identity' ? 'Exact model & kitchen fit' : question.id === 'features' ? 'Buttons & pressure' : question.id === 'build' ? 'Cleaning & service' : question.id === 'workflow' ? 'The morning routine' : question.id === 'setup' ? 'Grinder & complete setup' : question.id === 'value' ? 'Value & alternatives' : question.id === 'milk' ? 'Milk drinks' : 'Espresso quality'}</a>)}<a href="#sources"><span>↗</span>All sources</a></nav>

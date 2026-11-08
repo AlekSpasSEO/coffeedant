@@ -42,7 +42,12 @@ assert.equal(nodes.filter(node => node.tagName === 'h1').length, 1, 'one page he
 const h1 = idNodes.get('review-title');
 assert.match(text(h1), /Lelit.*Elizabeth/i, 'heading identifies the reviewed machine');
 const headerElements = h1.parentNode.childNodes.filter(node => node.tagName);
-assert.equal(attr(headerElements[headerElements.indexOf(h1) + 1], 'aria-label'), 'Breadcrumb', 'breadcrumb follows the headline');
+const metadataRow = headerElements[headerElements.indexOf(h1) + 1];
+assert.ok(hasClass(metadataRow, 'ed-review-meta') && children(metadataRow).some(node => attr(node, 'aria-label') === 'Breadcrumb'), 'breadcrumb sits in the metadata below the headline');
+const dates = children(metadataRow).find(node => hasClass(node, 'ed-dates'));
+const readingTime = children(dates).find(node => hasClass(node, 'ed-read-time'));
+const readingMinutes = attr(readingTime, 'datetime')?.match(/^PT([1-9]\d*)M$/)?.[1];
+assert.ok(readingMinutes && clean(text(readingTime)) === `${readingMinutes} min read`, 'the dates row includes a visible reading-time estimate');
 const method = dashboardNodes.find(node => node.tagName === 'details' && hasClass(node, 'ed-method'));
 assert.ok(method?.childNodes.some(node => node.tagName === 'summary'), 'byline exposes the review method in a native disclosure');
 
@@ -84,7 +89,7 @@ const verdict = dashboardNodes.find(node => hasClass(node, 'ed-verdict'));
 assert.equal(clean(text(verdict)), product.review.reviewBody, 'visible summary matches the editorial Review');
 const decisionOrder = verdict.parentNode.childNodes.filter(node => node.tagName);
 assert.ok(hasClass(decisionOrder[decisionOrder.indexOf(verdict) + 1], 'ed-fit-grid'), 'buyer fit follows the summary');
-assert.ok(hasClass(decisionOrder[decisionOrder.indexOf(verdict) + 2], 'ed-facts'), 'icon facts follow buyer fit');
+assert.ok(hasClass(decisionOrder[decisionOrder.indexOf(verdict) + 2], 'ed-verdict-row'), 'ratings and Amazon action follow buyer fit');
 
 const articles = schema.filter(entity => type(entity, 'Article'));
 assert.equal(articles.length, 1, 'one authoritative Article');
@@ -198,6 +203,10 @@ for (const question of faqs[0].mainEntity) {
 }
 
 const catalog = JSON.parse(read('src/data/product-videos.json'))[route];
+const videoRoom = idNodes.get('video');
+const shoppingTools = idNodes.get('where-to-buy').parentNode;
+assert.equal(videoRoom.parentNode, shoppingTools.parentNode, 'the video room is a standalone section beside the shopping-tools group');
+assert.ok(children(shoppingTools).some(node => attr(node, 'id') === 'ed-routine-title'), 'routine and retailer panels share a section');
 const videos = dashboardNodes.filter(node => attr(node, 'data-product-video') !== undefined);
 const videoSchemas = schema.filter(entity => type(entity, 'VideoObject'));
 assert.equal(videos.length, catalog.length, 'selector exposes every curated video');
@@ -240,7 +249,7 @@ assert.equal(displayedScore, `${(weightedSum / ratingCount).toFixed(1)}/5`, 'vis
 assert.ok(clean(text(ownerScore)).includes(`${ratingCount} ratings · ${storeScores.length} retailers`), 'visible owner score names its sample size');
 
 const priceCheck = dashboardNodes.find(node => attr(node, 'data-amazon-price-check') !== undefined);
-assert.ok(priceCheck && /Amazon price check/.test(text(priceCheck)), 'the header shows an Amazon-only price check');
+assert.ok(priceCheck && children(idNodes.get('where-to-buy')).includes(priceCheck) && /Amazon price check/.test(text(priceCheck)), 'the retailer section includes the Amazon-only price check');
 const manualDate = children(priceCheck).find(node => node.tagName === 'time');
 const checkedAt = Date.parse(attr(manualDate, 'datetime'));
 assert.ok(Number.isFinite(checkedAt) && checkedAt <= Date.now(), 'the manual check date is valid');
