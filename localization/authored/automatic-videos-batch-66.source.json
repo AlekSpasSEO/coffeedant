@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/delonghi-magnifica-evo/video/cafelista-coffee/",
+      "sourceHash": "d132235168c0f154b9fe89bc89821b26cac79f0804e5b060c23c4da0f7d1076a"
+    },
+    {
+      "sourcePath": "/espresso-machine/gaggia-accademia-ri9781-01/video/coffee-kev/",
+      "sourceHash": "ad401275768eb05cb4bb7a4e5f8106ec96ce64b71b71e2265eabe4d2279a4419"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "9fb959d046cf2a663b02f21533c0061b88507222686435ca47221c002a1482ef",
+      "source": "De'Longhi Magnifica Evo with LatteCrema",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "eb66d3c366bb9a836cdffcfb8ee05a316a88f7d7b513bbb782b655d1fb90962a",
+      "source": "August 3, 2024",
+      "kind": "text",
+      "context": "August 3, 2024"
+    },
+    {
+      "id": "59aeda6c1d9a15555f15fad91297d966d4767370e14c900f4ed09fe2bf740e2a",
+      "source": "De'Longhi Magnifica Evo with LatteCrema: Delonghi Magnifica Evo Review: Best Option Without Breaking the Bank ? · Cafelista_Coffee (2024-08-03) | Coffeedant",
+      "kind": "text",
+      "context": "De'Longhi Magnifica Evo with LatteCrema: Delonghi Magnifica Evo Review: Best Option Without Breaking the Bank ? · Cafelista_Coffee (2024-08-03) | Coffeedant"
+    },
+    {
+      "id": "95fbe17c8b1921567dd2474cd4e86dbe0750863fc1ab822a89250fef1f6c19bd",
+      "source": "Watch Cafelista_Coffee on De'Longhi Magnifica Evo with LatteCrema (2024-08-03): Delonghi Magnifica Evo Review: Best Option Without Breaking the Bank ?. Independent video testing that helps show the grinder, drink and care workflow. Its results belong to the reviewer and variant shown.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "873f710cc9dce787fcbf2eb7dd59b79d77c35c23d3be8d6d78b63d322a7fa4a4",
+      "source": "De'Longhi Magnifica Evo with LatteCrema: Delonghi Magnifica Evo Review: Best Option Without Breaking the Bank ? · Cafelista_Coffee (2024-08-03) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "20221185a8af9a8479538b682509a77f3d924246b222ec42de4e353d035770c0",
+      "source": "De'Longhi Magnifica Evo with LatteCrema video by Cafelista_Coffee",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "9e30ffb978c4ef35a973425d9000a34759e1674fa3ea83859df3bbdc4548d431",
+      "source": "← De'Longhi Magnifica Evo with LatteCrema review",
+      "kind": "text",
+      "context": "← De'Longhi Magnifica Evo with LatteCrema review"
+    },
+    {
+      "id": "1fd8fbdf6b3e54deaccd0e5f5fa15b3ef55ab8e230253519b54acf4c615ba31b",
+      "source": "Delonghi Magnifica Evo Review: Best Option Without Breaking the Bank ? by Cafelista_Coffee",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "7c174c249567ea6cf3e6599177684dce4a445002e0a5df77f1472b20a99a9781",
+      "source": "De'Longhi Magnifica Evo with LatteCrema · Third-party perspective",
+      "kind": "text",
+      "context": "De'Longhi Magnifica Evo with LatteCrema · Third-party perspective"
+    },
+    {
+      "id": "74597abefb11736567335106c41bbccc480f341c048ed8855971282a03f7f849",
+      "source": "Video and opinions belong to Cafelista_Coffee. Coffeedant curates this perspective alongside our written review.",
+      "kind": "text",
+      "context": "Video and opinions belong to Cafelista_Coffee. Coffeedant curates this perspective alongside our written review."
+    },
+    {
+      "id": "ee27a50b1a0b13ff1dc23ac07f4b3d94e3638837911f6c07b78fba569508dc3d",
+      "source": "De'Longhi Magnifica Evo with LatteCrema: Delonghi Magnifica Evo Review: Best Option Without Breaking the Bank ? · Cafelista_Coffee (2024-08-03) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "75dde16ec40bcc1fd71e3084bf776fba28cb2d866df4acd68561fb8cd890a73b",
+      "source": "Watch Cafelista_Coffee on De'Longhi Magnifica Evo with LatteCrema (2024-08-03): Delonghi Magnifica Evo Review: Best Option Without Breaking the Bank ?. Independent video testing that helps show the grinder, drink and care workflow. Its results belong to the reviewer and variant shown.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "f15f2064daef91d93de4e415e36fc3d1cca5e77f56bc66bf62990bbff47a0c23",
+      "source": "De'Longhi Magnifica Evo with LatteCrema video by Cafelista_Coffee",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "eb94b5056a39b7068c3003b3756aa3ff23198f8acab42a4fc78c6daaa4c28095",
+      "source": "Video by Cafelista_Coffee",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b001221dcbb972eddc0be2d0450ee2c36aa544c7590af2caa55e354e05f8d296",
+      "source": "Gaggia Accademia Glass RI9781/01",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "5eed977a159cdc3fbfd5ee11220e3769cd826ad0f4c9db5470031d51e64dcb11",
+      "source": "Gaggia Accademia Glass RI9781/01: New Gaggia Accademia - Not Your Average Bean to Cup Coffee Machine! · Coffee Kev (2023-04-19) | Coffeedant",
+      "kind": "text",
+      "context": "Gaggia Accademia Glass RI9781/01: New Gaggia Accademia - Not Your Average Bean to Cup Coffee Machine! · Coffee Kev (2023-04-19) | Coffeedant"
+    },
+    {
+      "id": "40b56933678d6a8e42e7ad25b4b97fc285f43e03e0c2331fce33efed011d47cc",
+      "source": "Watch Coffee Kev on Gaggia Accademia Glass RI9781/01 (2023-04-19): New Gaggia Accademia - Not Your Average Bean to Cup Coffee Machine!. Coffee Kev presents Gaggia Accademia Glass RI9781/01. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "c6c34732a3a00a8107c4380589df11ed24199de05c8b9e96c5abe91f10ec0c61",
+      "source": "Gaggia Accademia Glass RI9781/01: New Gaggia Accademia - Not Your Average Bean to Cup Coffee Machine! · Coffee Kev (2023-04-19) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "aed5ff9caeef1d5b077610749ed82fd83833a721cf97d47546c0b667bcce3fc8",
+      "source": "Gaggia Accademia Glass RI9781/01 video by Coffee Kev",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "a378df0e6591f8a31c988e5849aebec32eed8749cbd43e6d436710689200a86a",
+      "source": "← Gaggia Accademia Glass RI9781/01 review",
+      "kind": "text",
+      "context": "← Gaggia Accademia Glass RI9781/01 review"
+    },
+    {
+      "id": "2f9e7bd63438f2e04e141ba520277d88c070da6048af8375c8b38fe8e3a186df",
+      "source": "New Gaggia Accademia - Not Your Average Bean to Cup Coffee Machine! by Coffee Kev",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "ab542f1f37679a04970096efcd3f9842af7b873740d30159521b930676e6f8fd",
+      "source": "Gaggia Accademia Glass RI9781/01 · Third-party perspective",
+      "kind": "text",
+      "context": "Gaggia Accademia Glass RI9781/01 · Third-party perspective"
+    },
+    {
+      "id": "c5140456613dbd155dc6d1f8faf604b9b28767bc7ddb82dcc0b56ebc80cfa5f0",
+      "source": "New Gaggia Accademia - Not Your Average Bean to Cup Coffee Machine!",
+      "kind": "text",
+      "context": "New Gaggia Accademia - Not Your Average Bean to Cup Coffee Machine!"
+    },
+    {
+      "id": "3a1b254659d737f23fad8e522abc28de7ab2d60dbcc854b596e26f0580eeed5d",
+      "source": "April 19, 2023",
+      "kind": "text",
+      "context": "April 19, 2023"
+    },
+    {
+      "id": "f0e02ae50e353534dfb878279d9d06c029fe138dfceac697d797d777cc426bae",
+      "source": "Coffee Kev presents Gaggia Accademia Glass RI9781/01. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Coffee Kev presents Gaggia Accademia Glass RI9781/01. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "92acf8e8633b19bcc93cfbb5fa169b9ba8af3fa4d37deae9f29f3355dcc366fb",
+      "source": "Gaggia Accademia Glass RI9781/01: New Gaggia Accademia - Not Your Average Bean to Cup Coffee Machine! · Coffee Kev (2023-04-19) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "1481c8fb5a3174c7a51a87c1f0cb324f7b6a6a073d21ae2f7150f10aaf05ca7b",
+      "source": "Watch Coffee Kev on Gaggia Accademia Glass RI9781/01 (2023-04-19): New Gaggia Accademia - Not Your Average Bean to Cup Coffee Machine!. Coffee Kev presents Gaggia Accademia Glass RI9781/01. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "da999fe019134f7aa383b8297f1388ff142df6ba9a6b7001f2f19170074a630b",
+      "source": "Gaggia Accademia Glass RI9781/01 video by Coffee Kev",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "978a6c71f7f3a78749d40582295d8d7472a43b40262c1b6bf6a67672e0135098",
+      "source": "New Gaggia Accademia - Not Your Average Bean to Cup Coffee Machine!",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "361280603cc644e05c0f8e7bf0bc0a17030a5192ecc432ae02ce99293ea33de2",
+      "source": "Coffee Kev presents Gaggia Accademia Glass RI9781/01. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "9b90e4eb47a5587192fead25e50709ed8918cec87842e159811592859eb2fbfb"
+}

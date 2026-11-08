@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/bezzera-strega/video/whole-latte-love/",
+      "sourceHash": "f534da12829c22772da56f21f9c745d4a61b141602635b59c28e2f4ad023f45a"
+    },
+    {
+      "sourcePath": "/espresso-machine/bezzera-strega/video/spina-espresso/",
+      "sourceHash": "c96d586bfbc6d808c36d07d02a12cc6095b57a55cade818b85a2b3812a488f78"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "c21936ba31bdc0fa25235f8defd33fdfbfacfaab112f04c1e10445786b21199f",
+      "source": "Bezzera Strega: Lever Espresso with a Pump Twist",
+      "kind": "text",
+      "context": "Bezzera Strega: Lever Espresso with a Pump Twist"
+    },
+    {
+      "id": "60fd967e87aa8429809a5608fab770ea7087a0de50d65f8b8cf1177591430366",
+      "source": "October 14, 2014",
+      "kind": "text",
+      "context": "October 14, 2014"
+    },
+    {
+      "id": "022ed5e773240b3f981d8ec74d860edc0c62718b2694e5a364e2cb35c3fdc46e",
+      "source": "A retailer-produced independent walkthrough that clearly shows the lever, group-fill concept, controls, and steam workflow. It is visual context, not Coffeedant testing, and current variant details should be checked against Bezzera documentation.",
+      "kind": "text",
+      "context": "A retailer-produced independent walkthrough that clearly shows the lever, group-fill concept, controls, and steam workflow. It is visual context, not Coffeedant testing, and current variant details should be checked against Bezzera documentation."
+    },
+    {
+      "id": "b221efd8c7fbd0ccc578f7c1ca1bc5b8d30bc52178f700332e0685017b028127",
+      "source": "Bezzera Strega: Lever Espresso with a Pump Twist",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "ea4d6a256cd5060ecd4e59cf87dd9033f55df0b4b99e99875438d52a4d6b5b50",
+      "source": "A retailer-produced independent walkthrough that clearly shows the lever, group-fill concept, controls, and steam workflow. It is visual context, not Coffeedant testing, and current variant details should be checked against Bezzera documentation.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "83fb3e343d1e8bfaf296f66ed98fb55106949f3e583da35ab2674166eafbc918",
+      "source": "Bezzera Strega: Bezzera Strega quick review. · Spina Espresso (2022-10-16) | Coffeedant",
+      "kind": "text",
+      "context": "Bezzera Strega: Bezzera Strega quick review. · Spina Espresso (2022-10-16) | Coffeedant"
+    },
+    {
+      "id": "ba9594e89f107a54013d381d7675ffc8b87ac2ab4c618fd8a5db5a2f96954a6d",
+      "source": "Watch Spina Espresso on Bezzera Strega (2022-10-16): Bezzera Strega quick review.. Spina Espresso presents Bezzera Strega. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "9d861c4c5d0521ec989f0eec0c7131a63b15a38aa7a967abb6de34cc2ad9a845",
+      "source": "Bezzera Strega: Bezzera Strega quick review. · Spina Espresso (2022-10-16) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "022531cd0c2d68a2a00acefa01e98429aef5597d787a91667d82d5cc5dc5c8fb",
+      "source": "Bezzera Strega video by Spina Espresso",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "3e6d660621b5249c94fc944557a3a791176f32acceb1c7ee5c3dd75a979393f3",
+      "source": "Bezzera Strega quick review. by Spina Espresso",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "dd7bba8bbf02742e80e851d50e47064cb4fa2231518b6c41a2d6d6275ee59cbb",
+      "source": "Bezzera Strega quick review.",
+      "kind": "text",
+      "context": "Bezzera Strega quick review."
+    },
+    {
+      "id": "02ffeb523e5c4c7b2f0b51231cb5ae4aa9212221dd04dffa5bba9e001f239523",
+      "source": "Spina Espresso",
+      "kind": "text",
+      "context": "Spina Espresso"
+    },
+    {
+      "id": "0246f6df4651a09443fb0638144259575cfe79c6a6a66c6fe2256b6ea782222d",
+      "source": "October 17, 2022",
+      "kind": "text",
+      "context": "October 17, 2022"
+    },
+    {
+      "id": "20a6a324f370b92b4f6f61188cee359f41f4f83fb3f3d1dbbd15d4f020e9b61f",
+      "source": "Spina Espresso presents Bezzera Strega. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Spina Espresso presents Bezzera Strega. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "c7dbd9898f26f5762d0e5c2bf94e271a5cdd6f77cf68658ee14db5658e67c345",
+      "source": "Video and opinions belong to Spina Espresso. Coffeedant curates this perspective alongside our written review.",
+      "kind": "text",
+      "context": "Video and opinions belong to Spina Espresso. Coffeedant curates this perspective alongside our written review."
+    },
+    {
+      "id": "021cc7f0b2ff4d8d1e50c4ffb253c2b260b918add04d4853467ee2cfb3ee2182",
+      "source": "Bezzera Strega: Bezzera Strega quick review. · Spina Espresso (2022-10-16) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "e3cd33420b2ae8730e23174f009a4a26be0e0505db44a9af8cb229a3264f5783",
+      "source": "Watch Spina Espresso on Bezzera Strega (2022-10-16): Bezzera Strega quick review.. Spina Espresso presents Bezzera Strega. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "a4ffd5762f363eb726d5650b4e0e2e7e279df9276156d1befba90c75d43d01d0",
+      "source": "Bezzera Strega video by Spina Espresso",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "f7335997cbbe9fe62af255417dd26ff16b0ef5af6d9e777ba9f2c3acf61a0179",
+      "source": "Bezzera Strega quick review.",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "180dbc262ddf9f40ed8cace275e3feb4703545d5aec1add4cef45f4bab276068",
+      "source": "Spina Espresso presents Bezzera Strega. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "f4dd84b8d5b376af98b9e245fbd726b722cf64fd00fb31c50d9ad6562648dfcf",
+      "source": "Spina Espresso",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "54efdc97b43f7194f4b2406343d9c42e4ac5af49e4de8a728199aecba127182e",
+      "source": "Video by Spina Espresso",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "22f02d4a31a60bf53b2c8acac65982a896dd4254da8c8bcc44d0e965cc4bc4b9",
+      "source": "Bezzera Strega: Bezzera Strega: Lever Espresso with a Pump Twist · Whole Latte Love (2014-10-14) | Coffeedant",
+      "kind": "text",
+      "context": "Bezzera Strega: Bezzera Strega: Lever Espresso with a Pump Twist · Whole Latte Love (2014-10-14) | Coffeedant"
+    },
+    {
+      "id": "2e89b4351b62a4602cfd9d98d7f2de72ec5ee422995b2cbdd476481532d55788",
+      "source": "Watch Whole Latte Love on Bezzera Strega (2014-10-14): Bezzera Strega: Lever Espresso with a Pump Twist. A retailer-produced independent walkthrough that clearly shows the lever, group-fill concept, controls, and steam workflow. It is visual context, not Coffeedant testing, and current variant details should be checked against Bezzera documentation.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "a8bdd7aa55780f402db8356cd47dfbb5a83d065e63283231608c669f27310976",
+      "source": "Bezzera Strega: Bezzera Strega: Lever Espresso with a Pump Twist · Whole Latte Love (2014-10-14) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "5a90db187a203debddadfa1680b98cf3f09fc021448e0c7c03c5cd1f3c9ec737",
+      "source": "Bezzera Strega video by Whole Latte Love",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "bcd6f28e77071f5f33d6e96aa6f747632279cd8dabd9662c22af27ea21cdd3f8",
+      "source": "Bezzera Strega: Lever Espresso with a Pump Twist by Whole Latte Love",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "71de5651212317fef4311f5f9902db830db9a13e494d20c389301578930955ea",
+      "source": "Bezzera Strega · Retailer perspective",
+      "kind": "text",
+      "context": "Bezzera Strega · Retailer perspective"
+    },
+    {
+      "id": "fcabc1668a47155f211b83ed7794279abdfa53e9606466c850eb4377d6c96be0",
+      "source": "Bezzera Strega: Bezzera Strega: Lever Espresso with a Pump Twist · Whole Latte Love (2014-10-14) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "45fd1409b6022d44acebb54d7f591adec8295ad333f8e3b93fcd174d2626b195",
+      "source": "Watch Whole Latte Love on Bezzera Strega (2014-10-14): Bezzera Strega: Lever Espresso with a Pump Twist. A retailer-produced independent walkthrough that clearly shows the lever, group-fill concept, controls, and steam workflow. It is visual context, not Coffeedant testing, and current variant details should be checked against Bezzera documentation.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "1a4d95bbaa952c14217c72b9a4b2f40014316a590cd3caa416ad6e7c7adfab74",
+      "source": "Bezzera Strega video by Whole Latte Love",
+      "kind": "json",
+      "context": "caption"
+    }
+  ],
+  "snapshotHash": "befe262876784f859f31a1deeae14e6b1f14d8dc405d3cc27bc5f7b1c7760fe7"
+}

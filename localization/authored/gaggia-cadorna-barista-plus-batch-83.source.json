@@ -1,0 +1,723 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/gaggia-cadorna-barista-plus-ri9603-47/",
+      "sourceHash": "da3793322e791ba5cd95fb59ebadf79aaab196a3d6fc9d2d7b52cc1db08c6a8f"
+    },
+    {
+      "sourcePath": "/espresso-machine/gaggia-cadorna-barista-plus-ri9603-47/video/jess-gadgets-gear-coffee/",
+      "sourceHash": "c1f1ffdc3c1a2f5cd2c2333a3b2ed366cfcd3ab8f43c8a1e8e7a0415435be32f"
+    },
+    {
+      "sourcePath": "/espresso-machine/gaggia-cadorna-barista-plus-ri9603-47/video/whole-latte-love/",
+      "sourceHash": "2b2db90588d51b3ee5118ee57c9eb16335bae0f2172684632d89dfe3e1c66ccb"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "d8b3e317f2b768ab23b20078269378d108dc8562da23943254aa73419aa99f72",
+      "source": "8.9 out of 10",
+      "kind": "attribute",
+      "context": "Espresso assessment Espresso evidence   8.9 out of 10"
+    },
+    {
+      "id": "86706303082bfd9b1217a7eeb479771876db4a2ddbee98809b9c22f32dcdc9db",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47 review: profiles meet a real steam wand | Coffeedant",
+      "kind": "text",
+      "context": "Gaggia Cadorna Barista Plus RI9601/47 review: profiles meet a real steam wand | Coffeedant"
+    },
+    {
+      "id": "5f83ced3170df80bead5e8aedfbe248e506ea6e691c9e5e12012574057b3b5ab",
+      "source": "A research-led Gaggia Cadorna Barista Plus RI9601/47 review covering four profiles, six coffee beverages, two-hole steam wand, ten-step ceramic grinder, $899 price and care.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "912182e314ad2506dc140cef85c0706a88535ed06f513192b91c9be97f4578d2",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47 review: profiles meet a real steam wand | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "71b34dbfc5f5a4609835f334beb11ee432a8cbb05f49f67663be3b9671a3534a",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47 review: profiles meet a real steam wand",
+      "kind": "text",
+      "context": "Gaggia Cadorna Barista Plus RI9601/47 review: profiles meet a real steam wand"
+    },
+    {
+      "id": "aa44f7e2142069138b1244cf6d9c3b07cda83ddf88cc3b385a1eca3cccbf3c8a",
+      "source": "For households that want saved profiles and automatic coffee paired with a capable two-hole manual steam wand",
+      "kind": "text",
+      "context": "For households that want saved profiles and automatic coffee paired with a capable two-hole manual steam wand"
+    },
+    {
+      "id": "97ad4799479a496e846728713d11fc9d348d49256b2159de84113c9996b526fa",
+      "source": "Choose the Cadorna Barista Plus RI9601/47 for saved profiles and automatic coffee paired with a capable two-hole manual steam wand. Skip it when milk is not one-touch and the wand-to-coffee sequence still asks the user to learn texture and clean immediately is a deal-breaker or you want direct portafilter control.",
+      "kind": "text",
+      "context": "Choose the Cadorna Barista Plus RI9601/47 for saved profiles and automatic coffee paired with a capable two-hole manual steam wand. Skip it when milk is not one-touch and the wand-to-coffee sequence still asks the user to learn texture and clean immediately is a deal-breaker or you want direct portafilter control."
+    },
+    {
+      "id": "ebccce635a0ae2501ebfd341f8552c21503a534c1fc8e3afb4d80dde9e576e94",
+      "source": "Saved profiles and automatic coffee paired with a capable two-hole manual steam wand The trade-off is milk is not one-touch and the wand-to-coffee sequence still asks the user to learn texture and clean immediately",
+      "kind": "text",
+      "context": "Saved profiles and automatic coffee paired with a capable two-hole manual steam wand The trade-off is milk is not one-touch and the wand-to-coffee sequence still asks the user to learn texture and clean immediately"
+    },
+    {
+      "id": "5df619e89d6cbd5ef45223eb1b97bd8135e78427fe5b53700cee5aa2580806fc",
+      "source": "Choose for saved profiles and automatic coffee paired with a capable two-hole manual steam wand.",
+      "kind": "text",
+      "context": "Choose for saved profiles and automatic coffee paired with a capable two-hole manual steam wand."
+    },
+    {
+      "id": "04e67fadc5aae92e4b403ec7b26fbf3f7391de6455690d2f054dcc0efb6456b5",
+      "source": "North American RI9601/47 Cadorna Barista Plus with black ABS body, four profiles, color TFT and two-hole manual stainless wand. RI9603/47 is Cadorna Milk with automatic milk hardware, a different model.",
+      "kind": "text",
+      "context": "North American RI9601/47 Cadorna Barista Plus with black ABS body, four profiles, color TFT and two-hole manual stainless wand. RI9603/47 is Cadorna Milk with automatic milk hardware, a different model."
+    },
+    {
+      "id": "025264b029d1156497e79c991d99194359b594fe43eaeed37a75c0af27da3a6f",
+      "source": "Six listed coffee beverages plus hot water and steam, four profiles, five strengths, three temperatures and adjustable volume",
+      "kind": "text",
+      "context": "Six listed coffee beverages plus hot water and steam, four profiles, five strengths, three temperatures and adjustable volume"
+    },
+    {
+      "id": "6650f60e52098f984179840a85ab0704a605356e812c12eb98bb8474e94abffe",
+      "source": "Pivoting commercial-style stainless steam wand with two-hole tip and insulated grip; milk texture and cleanup are manual",
+      "kind": "text",
+      "context": "Pivoting commercial-style stainless steam wand with two-hole tip and insulated grip; milk texture and cleanup are manual"
+    },
+    {
+      "id": "2c40dc35680aea6f31e38184ccc5b54fbc1d42ac7fa8a9724cd7748acff7a43f",
+      "source": "Full-color TFT plus backlit buttons with four named user profiles",
+      "kind": "text",
+      "context": "Full-color TFT plus backlit buttons with four named user profiles"
+    },
+    {
+      "id": "1e95461aca5703f04ed2275f18e4ae1ef907904026b05e12d68124f26f4ec844",
+      "source": "1.5 L water, 10.58 oz beans, 18 oz tray and 10 pucks",
+      "kind": "text",
+      "context": "1.5 L water, 10.58 oz beans, 18 oz tray and 10 pucks"
+    },
+    {
+      "id": "05b695bee50205396621c6163b335b1494a0dddb254b9e760ab14d237417d654",
+      "source": "Milk is not one-touch and the wand-to-coffee sequence still asks the user to learn texture and clean immediately",
+      "kind": "text",
+      "context": "Milk is not one-touch and the wand-to-coffee sequence still asks the user to learn texture and clean immediately"
+    },
+    {
+      "id": "0c1835d29c325acac288117ca0316a5447304839d3ca78c5dea63a11a3948944",
+      "source": "What exact Cadorna Barista Plus RI9601/47 does this review cover?",
+      "kind": "text",
+      "context": "What exact Cadorna Barista Plus RI9601/47 does this review cover?"
+    },
+    {
+      "id": "51f071b3412d4d10c19e21f75d5b86a00485c31dbad9431ddda1b55f6f68d765",
+      "source": "A buyer who values saved profiles and automatic coffee paired with a capable two-hole manual steam wand and accepts milk is not one-touch and the wand-to-coffee sequence still asks the user to learn texture and clean immediately",
+      "kind": "text",
+      "context": "A buyer who values saved profiles and automatic coffee paired with a capable two-hole manual steam wand and accepts milk is not one-touch and the wand-to-coffee sequence still asks the user to learn texture and clean immediately"
+    },
+    {
+      "id": "0f9e2518c117fb6d6f1a4bc91f9347f3f4cbefcad16b6f142ad1241ae1dfcba5",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47 full review",
+      "kind": "attribute",
+      "context": "Home/ Espresso machines/ Cadorna Barista Plus RI9601/47     Gaggia · research-led assessment Gaggia Cadorna Barista Plus RI9601/47 review: profiles meet a real steam wand   For households that want saved profiles and automatic coffee paired with a capable two-hole manual steam wand     Written byAleksandar SpasevskiEditor at Coffeedant   PublishedJul 27, 2026 UpdatedOct 30, 2026      Choose the Cadorna Barista Plus RI9601/47 for saved profiles and automatic coffee paired with a capable two-hole manual steam wand. Skip it when milk is not one-touch and the wand-to-coffee sequence still asks the user to learn texture and clean immediately is a deal-breaker or you want direct portafilter control.  My assessmentSaved profiles and automatic coffee paired with a capable two-hole manual steam wand The trade-off is milk is not one-touch and the wand-to-coffee sequence still asks the user to learn texture and clean immediately How I reached this conclusion ↗    Research-led assessment 4.2/5 See all six categories ↓     Check current listing ↗Gaggia North America direct price; availability and warranty are volatile  Open official product information ↗Manufacturer identity, feature and specification record   Compare with Coffee Finder → Search every reviewed machine      Also consider Cadorna Barista Plus RI9601/47 ↗Choose for saved profiles and automatic coffee paired with a capable two-hole manual steam wand.Gaggia Anima Prestige ↗Choose a slim integrated-carafe route for one-touch cappuccino and latte macchiato.Gaggia Cadorna Barista Plus ↗Choose profiles, color menus and a two-hole manual wand when milk craft matters.    Exact identityNorth American RI9601/47 Cadorna Barista Plus with black ABS body, four profiles, color TFT and two-hole manual stainless wand. RI9603/47 is Cad"
+    },
+    {
+      "id": "f29f9a7d670b8f4639c8330f072a4387134d1445f73c9a67bedefdbca4d6946e",
+      "source": "A single overall score is useful only when you can see what produced it. Gaggia Cadorna Barista Plus RI9601/47 earns",
+      "kind": "text",
+      "context": "A single overall score is useful only when you can see what produced it. Gaggia Cadorna Barista Plus RI9601/47 earns 4.2/5, with espresso, milk, workflow, build, features, and value scored separately below."
+    },
+    {
+      "id": "6cf89234b0f18521d3735028df23996cd293c2625cd22f035de1426426473739",
+      "source": "Six listed coffee beverages plus hot water and steam, four profiles, five strengths, three temperatures and adjustable volume give useful automatic adjustment.",
+      "kind": "text",
+      "context": "Six listed coffee beverages plus hot water and steam, four profiles, five strengths, three temperatures and adjustable volume give useful automatic adjustment."
+    },
+    {
+      "id": "3c2414806da8710923e751cc8174a07e50f288caf06d6466978635c3e1b7aa60",
+      "source": "Full-color TFT plus backlit buttons with four named user profiles keep drinks approachable.",
+      "kind": "text",
+      "context": "Full-color TFT plus backlit buttons with four named user profiles keep drinks approachable."
+    },
+    {
+      "id": "cf7cc2394f131894c906ab5fc45e0d622470367ddec319e097414d23928c73b8",
+      "source": "Six listed coffee beverages plus hot water and steam, four profiles, five strengths, three temperatures and adjustable volume cover the core use case.",
+      "kind": "text",
+      "context": "Six listed coffee beverages plus hot water and steam, four profiles, five strengths, three temperatures and adjustable volume cover the core use case."
+    },
+    {
+      "id": "d44ce3386459526a7a7d9e76c0316655931a2dbd2a67d91183f831abd26938ae",
+      "source": "$899.00 needs condition and warranty context.",
+      "kind": "text",
+      "context": "$899.00 needs condition and warranty context."
+    },
+    {
+      "id": "191193b100faef2cfb2561179356435b6e16b1324dd1ce5774efcc9ff646c330",
+      "source": "Cadorna Barista Plus RI9601/47: the buying decision",
+      "kind": "text",
+      "context": "Cadorna Barista Plus RI9601/47: the buying decision"
+    },
+    {
+      "id": "fe1045d98d9e43a65a5ca9dced002eeb4abbead2d1f149057f41e9600b908cd0",
+      "source": "Cadorna Barista Plus is the Cadorna for someone who wants saved coffee preferences and a proper manual milk task. Four profiles and a ten-position ceramic grinder support automatic coffee preparation, while the two-hole stainless wand leaves texture and pouring to the owner. That division gives a shared kitchen convenience without an automatic milk container, provided someone is willing to learn steaming and clean the wand promptly. The reviewed North American model is RI9601/47. The historical URL's RI9603/47 code belongs to Cadorna Milk, so the listing and rating plate need to follow the corrected identity rather than the route text.",
+      "kind": "text",
+      "context": "Cadorna Barista Plus is the Cadorna for someone who wants saved coffee preferences and a proper manual milk task. Four profiles and a ten-position ceramic grinder support automatic coffee preparation, while the two-hole stainless wand leaves texture and pouring to the owner. That division gives a shared kitchen convenience without an automatic milk container, provided someone is willing to learn steaming and clean the wand promptly. The reviewed North American model is RI9601/47. The historical URL's RI9603/47 code belongs to Cadorna Milk, so the listing and rating plate need to follow the corrected identity rather than the route text. [source] [source] [source] [source] [source] [source]"
+    },
+    {
+      "id": "c79df584bf402803e4e8391903f463259557b3fa26dae37d8a9b834222208eae",
+      "source": "Setting up the Cadorna Barista Plus RI9601/47",
+      "kind": "text",
+      "context": "Setting up the Cadorna Barista Plus RI9601/47"
+    },
+    {
+      "id": "39c3625524bc077f9b768763f97ef3b33be36a12b1731f676d3e6a81adcf2e24",
+      "source": "a bean-to-cup appliance with flat ceramic burr grinder with ten adjustment positions, an automatic removable brew group, full-color tft plus backlit buttons with four named user profiles, and pivoting commercial-style stainless steam wand with two-hole tip and insulated grip; milk texture and cleanup are manual.",
+      "kind": "text",
+      "context": "System: a bean-to-cup appliance with flat ceramic burr grinder with ten adjustment positions, an automatic removable brew group, full-color tft plus backlit buttons with four named user profiles, and pivoting commercial-style stainless steam wand with two-hole tip and insulated grip; milk texture and cleanup are manual."
+    },
+    {
+      "id": "8611c99b03e12905ad12bd090fe5dc28d8773f890e1545a2cd4be4dca124c804",
+      "source": "The reviewed North American Barista Plus is RI9601/47 despite the historical RI9603-47 route. Match that rating plate and the two-hole stainless wand. Set up the four profiles for the actual household members before adjusting everyone’s shared bean and grind.",
+      "kind": "text",
+      "context": "The reviewed North American Barista Plus is RI9601/47 despite the historical RI9603-47 route. Match that rating plate and the two-hole stainless wand. Set up the four profiles for the actual household members before adjusting everyone’s shared bean and grind. [source] [source] [source]"
+    },
+    {
+      "id": "37b0e5747ae078cff420cd0810d323a39205171dd90d611fea98491230c9ed30",
+      "source": "Two-hole stainless steam wand on the Gaggia Cadorna Barista Plus",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "1eaae37de6ec65456566a55df0e55f6d6cd84bb7259bdc73b07cc53e0a51e426",
+      "source": "The wand detail shows the insulated grip and two-hole tip that give Cadorna Barista Plus its manual milk-texturing role.",
+      "kind": "text",
+      "context": "Manufacturer photo The wand detail shows the insulated grip and two-hole tip that give Cadorna Barista Plus its manual milk-texturing role. \nImage: Gaggia North America Cadorna Barista Plus product page.\n Usage record: Official manufacturer product-page media.\nOfficial manufacturer media; not a Coffeedant test photograph."
+    },
+    {
+      "id": "7779f7eb08ccf525a8b5363695dc95f20d5e8e5e160f8ae24fab57a77a4d3e23",
+      "source": "Gaggia North America Cadorna Barista Plus product page",
+      "kind": "text",
+      "context": "Gaggia North America Cadorna Barista Plus product page"
+    },
+    {
+      "id": "cafbb413cd08252e103dd2819d4a05034d4fd472b7c3f0fe5c2e6b49d2d608a5",
+      "source": "See what else fits beside the Cadorna Barista Plus RI9601/47.",
+      "kind": "text",
+      "context": "See what else fits beside the Cadorna Barista Plus RI9601/47."
+    },
+    {
+      "id": "d211ced6cb8584961852eebe3cfcc03652cfff00ff9e5a8f719ab0c5539407b3",
+      "source": "Cadorna Barista Plus automates grinding and coffee preparation while leaving milk texture to the user. Save a coffee recipe per profile, then learn the pivoting two-hole wand separately. It suits someone who wants personal coffee settings without giving up pitcher control; it is not one-touch milk.",
+      "kind": "text",
+      "context": "Cadorna Barista Plus automates grinding and coffee preparation while leaving milk texture to the user. Save a coffee recipe per profile, then learn the pivoting two-hole wand separately. It suits someone who wants personal coffee settings without giving up pitcher control; it is not one-touch milk. [source] [source] [source]"
+    },
+    {
+      "id": "056d97cf4da20ab4589f54ff45afac742a18f6d4fc204871876eecbf1c428f68",
+      "source": "Wipe and purge the two-hole wand immediately after texturing. An 18 oz tray also collects rinse water, so its capacity is not reserved solely for accidental spills. Keep access for the 10-puck bin when positioning the larger, 17.3 in deep Cadorna body.",
+      "kind": "text",
+      "context": "Wipe and purge the two-hole wand immediately after texturing. An 18 oz tray also collects rinse water, so its capacity is not reserved solely for accidental spills. Keep access for the 10-puck bin when positioning the larger, 17.3 in deep Cadorna body."
+    },
+    {
+      "id": "4502ba28b94b8c5509585f68c381458a73cdd24115b63a7a144f9b65a7239a63",
+      "source": "Full-color interface on the Gaggia Cadorna Barista Plus",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "f0056228c559e6ef851b6df447b6dbdb2cf285a16a6e655ba2c1dd7a2421635e",
+      "source": "The interface view shows the color menu and profile-led drink selection that organize coffee before the separate manual milk step.",
+      "kind": "text",
+      "context": "Manufacturer photo The interface view shows the color menu and profile-led drink selection that organize coffee before the separate manual milk step. \nImage: Gaggia North America Cadorna Barista Plus product page.\n Usage record: Official manufacturer product-page media.\nOfficial manufacturer media; not a Coffeedant test photograph."
+    },
+    {
+      "id": "313fcb7df3b8deac255c5726c7286a441c332359f4b0587e09c503900e970974",
+      "source": "Gaggia North America direct price showed $899.00: Current US 110-120V direct listing; tax, stock and warranty vary",
+      "kind": "text",
+      "context": "Gaggia North America direct price showed $899.00: Current US 110-120V direct listing; tax, stock and warranty vary [source]"
+    },
+    {
+      "id": "ac313c3174eb76957db72a84d5d6c592a3c3e95a4ed57f06236a13e62ccfb67c",
+      "source": "Gaggia North America direct price: $899.00",
+      "kind": "text",
+      "context": "Gaggia North America direct price: $899.00"
+    },
+    {
+      "id": "7059e163ead8f00fd02a9719af0103c0dd133809b3956a658b5cb292e2795483",
+      "source": "Current US 110-120V direct listing; tax, stock and warranty vary",
+      "kind": "text",
+      "context": "Current US 110-120V direct listing; tax, stock and warranty vary"
+    },
+    {
+      "id": "609011f9188ad47933deb2ffdf9e1dbb1af948f59773dd96e43db4254fdcfb92",
+      "source": "Owner discussion: Cadorna Barista Plus RI9601/47",
+      "kind": "text",
+      "context": "Owner discussion: Cadorna Barista Plus RI9601/47"
+    },
+    {
+      "id": "f390ee8eff61688121fdf3e2d84739f573d9c8c193ac604fcb5fedcc84138864",
+      "source": "Cadorna Barista Plus RI9601/47 versus the closest alternatives",
+      "kind": "text",
+      "context": "Cadorna Barista Plus RI9601/47 versus the closest alternatives"
+    },
+    {
+      "id": "c09780e9b1d9000ac3d0157ffe477439b84223942d9c5ce01f89077da01812c9",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47 quick comparison",
+      "kind": "attribute",
+      "context": "Gaggia Cadorna Barista Plus RI9601/47 and its closest alternatives\n        MachinePrice positionThe quick decision\n        Cadorna Barista Plus RI9601/47$899.00Choose for saved profiles and automatic coffee paired with a capable two-hole manual steam wand.Gaggia Anima Prestige$849 current US direct referenceChoose a slim integrated-carafe route for one-touch cappuccino and latte macchiato.Gaggia Cadorna Barista Plus$899 current US direct referenceChoose profiles, color menus and a two-hole manual wand when milk craft matters.\n      \n    \n    \n      DetailsOpen the technical and workflow comparison\n      \n        \n          Detailed ownership comparison\n          MachineDimensionsHeatingCoffee setupMilk workflowBest fit\n          Cadorna Barista Plus RI9601/4710.2 W by 15 H by 17.3 D in; 20.5 lbAutomatic thermoblock or boiler platformFlat ceramic burr grinder with ten adjustment positionsPivoting commercial-style stainless steam wand with two-hole tip and insulated grip; milk texture and cleanup are manualSaved profiles and automatic coffee paired with a capable two-hole manual steam wandGaggia Anima PrestigeAbout 8.8 in wide by 13.4 in high; top access requiredAutomatic single-platform systemFive-step ceramic grinderRemovable automatic carafeCompact one-touch milkGaggia Cadorna Barista Plus10.2 by 15 by 17.3 inAutomatic coffee plus manual steam sequenceTen-step ceramic grinder and four profilesManual commercial-style wandShared home with manual milk\n        \n      \n      Cadorna Barista Plus RI9601/47: Saved profiles and automatic coffee paired with a capable two-hole manual steam wand. The limiting factor in this comparison is milk is not one-touch and the wand-to-coffee sequence still asks the user to learn texture and clean immediately."
+    },
+    {
+      "id": "8cd70269954f5261581e5692e51eae661140b90dc927083848c1fed7b64d4c1e",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47 and its closest alternatives",
+      "kind": "text",
+      "context": "Gaggia Cadorna Barista Plus RI9601/47 and its closest alternatives"
+    },
+    {
+      "id": "726c504618114321aeddae53a191f6eb3ededfec60ad0f1de3288b0bfade7660",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47 detailed comparison",
+      "kind": "attribute",
+      "context": "DetailsOpen the technical and workflow comparison\n      \n        \n          Detailed ownership comparison\n          MachineDimensionsHeatingCoffee setupMilk workflowBest fit\n          Cadorna Barista Plus RI9601/4710.2 W by 15 H by 17.3 D in; 20.5 lbAutomatic thermoblock or boiler platformFlat ceramic burr grinder with ten adjustment positionsPivoting commercial-style stainless steam wand with two-hole tip and insulated grip; milk texture and cleanup are manualSaved profiles and automatic coffee paired with a capable two-hole manual steam wandGaggia Anima PrestigeAbout 8.8 in wide by 13.4 in high; top access requiredAutomatic single-platform systemFive-step ceramic grinderRemovable automatic carafeCompact one-touch milkGaggia Cadorna Barista Plus10.2 by 15 by 17.3 inAutomatic coffee plus manual steam sequenceTen-step ceramic grinder and four profilesManual commercial-style wandShared home with manual milk\n        \n      \n      Cadorna Barista Plus RI9601/47: Saved profiles and automatic coffee paired with a capable two-hole manual steam wand. The limiting factor in this comparison is milk is not one-touch and the wand-to-coffee sequence still asks the user to learn texture and clean immediately."
+    },
+    {
+      "id": "313221e04b6b79b4c1aee3286412970e65637b901e5c4db87137a115c7cacecf",
+      "source": "Cadorna Barista Plus RI9601/47: Saved profiles and automatic coffee paired with a capable two-hole manual steam wand. The limiting factor in this comparison is milk is not one-touch and the wand-to-coffee sequence still asks the user to learn texture and clean immediately.",
+      "kind": "text",
+      "context": "Cadorna Barista Plus RI9601/47: Saved profiles and automatic coffee paired with a capable two-hole manual steam wand. The limiting factor in this comparison is milk is not one-touch and the wand-to-coffee sequence still asks the user to learn texture and clean immediately."
+    },
+    {
+      "id": "374abb9c3300525d5bafcab7cf10d2a749f93234695a8af9901ea2ca0670bca2",
+      "source": "Living with the Cadorna Barista Plus RI9601/47",
+      "kind": "text",
+      "context": "Living with the Cadorna Barista Plus RI9601/47"
+    },
+    {
+      "id": "dd3bdb6ad8a3c558189e98fd6a71a5f9026ed47622fd71d344e52c761acc9040",
+      "source": "Have each regular user select a profile and prepare their normal drink. The useful test is whether the manual wand is a welcome skill or an unwanted extra job. Compare Cadorna Milk for tube-fed froth and Prestige for a removable carafe if automatic milk is the actual goal.",
+      "kind": "text",
+      "context": "Have each regular user select a profile and prepare their normal drink. The useful test is whether the manual wand is a welcome skill or an unwanted extra job. Compare Cadorna Milk for tube-fed froth and Prestige for a removable carafe if automatic milk is the actual goal. [source] [source]"
+    },
+    {
+      "id": "ccad4d103c61a3764171b751a0f17fb87886bc6ef977676e6b466425740845aa",
+      "source": "Other options for the Cadorna Barista Plus RI9601/47 buyer",
+      "kind": "text",
+      "context": "Other options for the Cadorna Barista Plus RI9601/47 buyer"
+    },
+    {
+      "id": "86674a1befee02f0a84330b5b814ad2658659d5b3f1b767b6f721314866810ca",
+      "source": "Automate milk with a simpler interface when profiles are less important.",
+      "kind": "text",
+      "context": "Automate milk with a simpler interface when profiles are less important."
+    },
+    {
+      "id": "23d686424c9dc86465ede433ac29dad4746f1d1be284eba7939510036642f4c3",
+      "source": "Keep four profiles and automate milk with the Prestige’s removable carafe.",
+      "kind": "text",
+      "context": "Keep four profiles and automate milk with the Prestige’s removable carafe."
+    },
+    {
+      "id": "ee1055b61a3b2fd5f2efc2ed06981946d0151450b92f4816a0a43ebef088d5ad",
+      "source": "Add a carafe while retaining a separate professional wand.",
+      "kind": "text",
+      "context": "Add a carafe while retaining a separate professional wand."
+    },
+    {
+      "id": "feef5bc7257023dce8a6f9af5abaf4e819f39d11a6a94d496f8d7290abaca8fa",
+      "source": "Keep manual milk and take charge of coffee preparation too.",
+      "kind": "text",
+      "context": "Keep manual milk and take charge of coffee preparation too."
+    },
+    {
+      "id": "1400c9233aed7a315cee796bb8b0b1050a06711c747fabaa8d1216e7be9464be",
+      "source": "Cadorna Barista Plus RI9601/47 FAQ",
+      "kind": "text",
+      "context": "Cadorna Barista Plus RI9601/47 FAQ"
+    },
+    {
+      "id": "ef2dd79c5f7b86747fff0fe2961e62363f95536a38ff054ae8481d8ee25bb8ee",
+      "source": "What milk work does Cadorna Barista Plus RI9601/47 leave to the user?",
+      "kind": "text",
+      "context": "What milk work does Cadorna Barista Plus RI9601/47 leave to the user?"
+    },
+    {
+      "id": "3919a1b63e7e396310fb87b11f12acfb6c13a12f88e499baa49d094000ad05cd",
+      "source": "How much grinder adjustment does Cadorna Barista Plus RI9601/47 offer?",
+      "kind": "text",
+      "context": "How much grinder adjustment does Cadorna Barista Plus RI9601/47 offer?"
+    },
+    {
+      "id": "b27edd523f29fa43666b682cee453946efd485cb0458aab20b533e2c640341d0",
+      "source": "What should I check before ordering Cadorna Barista Plus RI9601/47?",
+      "kind": "text",
+      "context": "What should I check before ordering Cadorna Barista Plus RI9601/47?"
+    },
+    {
+      "id": "fa8ed9003535ec5f6f6b30aa2259b6fa896055e3940fe6a1467da8dddeaba085",
+      "source": "Which coffee recipes and controls does Cadorna Barista Plus RI9601/47 provide?",
+      "kind": "text",
+      "context": "Which coffee recipes and controls does Cadorna Barista Plus RI9601/47 provide?"
+    },
+    {
+      "id": "a23d612b835b060fd2a23b3782b31b7bbc6eb29683aa277839e65709b3445124",
+      "source": "Watch Gaggia Cadorna Barista Plus unboxing, features, review: Superautomatic espresso latte art steam wand by Jess - Gadgets, Gear, Coffee",
+      "kind": "attribute",
+      "context": "▶ Play review"
+    },
+    {
+      "id": "0d8610274e90d7eccc3483f9acc19a5295cc22a2de93083bdecb4694abcfa1b9",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47 review: profiles meet a real steam wand",
+      "kind": "attribute",
+      "context": "▶ Play review"
+    },
+    {
+      "id": "108a84d9790e4d1e2da62c7d5051dbe83bb1c7e257aeb6b4ba1e90129353eb8f",
+      "source": "Jess - Gadgets, Gear, Coffee",
+      "kind": "text",
+      "context": "Jess - Gadgets, Gear, Coffee"
+    },
+    {
+      "id": "91c4cce726029f8bc85585a1dcbf594067fb5aa81635d5475e0668512d8d1e9e",
+      "source": "Gaggia Cadorna Barista Plus unboxing, features, review: Superautomatic espresso latte art steam wand",
+      "kind": "text",
+      "context": "Gaggia Cadorna Barista Plus unboxing, features, review: Superautomatic espresso latte art steam wand"
+    },
+    {
+      "id": "dc08bb08db7876daa88db73c0820b3aa623f37840e9d546cf5f0bf198f34dd88",
+      "source": "November 24, 2020",
+      "kind": "text",
+      "context": "November 24, 2020"
+    },
+    {
+      "id": "d28f3db16d858fbbae4ba3deb58ade26152b42602a3a7c7fb87c0dc34d260151",
+      "source": "Owner evidence is anecdotal. Milk is not one-touch and the wand-to-coffee sequence still asks the user to learn texture and clean immediately.",
+      "kind": "text",
+      "context": "Owner evidence is anecdotal. Milk is not one-touch and the wand-to-coffee sequence still asks the user to learn texture and clean immediately."
+    },
+    {
+      "id": "65f18044a999c4a06a08edb4bd48e160b9f0e3abc860450f783099fa3e529dcd",
+      "source": "Gaggia: Cadorna Barista Plus RI9601/47",
+      "kind": "text",
+      "context": "Gaggia: Cadorna Barista Plus RI9601/47 ↗"
+    },
+    {
+      "id": "d58397648520375b9155f0394eb32c9fc023df5af2e15339d43e95db0532954a",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47 manual",
+      "kind": "text",
+      "context": "Gaggia Cadorna Barista Plus RI9601/47 manual ↗"
+    },
+    {
+      "id": "941e9bac541db72eeede1b406c58654b6df1ff16d2bd8ad0ce663b9d6044f428",
+      "source": "$899.00 and availability context checked September 23, 2026; taxes, region and warranty vary.",
+      "kind": "text",
+      "context": "$899.00 and availability context checked September 23, 2026; taxes, region and warranty vary."
+    },
+    {
+      "id": "2d4265af43f33da56200de0a7adac56a38dbab7c910099ab462d46e766f8334c",
+      "source": "Independent review: Cadorna Barista Plus RI9601/47",
+      "kind": "text",
+      "context": "Independent review: Cadorna Barista Plus RI9601/47 ↗"
+    },
+    {
+      "id": "317d79fde695bd88493875b708d4e3605c43d512609ec9507afe84db12ee7ce7",
+      "source": "Gaggia Cadorna Barista Plus unboxing, features, review",
+      "kind": "text",
+      "context": "Gaggia Cadorna Barista Plus unboxing, features, review ↗"
+    },
+    {
+      "id": "0c5bc26180086cd56bb525a69acc1c23b58c2305a1c2561cdddd2604208ce7ea",
+      "source": "Independent video by Jess - Gadgets, Gear, Coffee, published 2020-11-24, used for visible workflow context.",
+      "kind": "text",
+      "context": "Independent video by Jess - Gadgets, Gear, Coffee, published 2020-11-24, used for visible workflow context."
+    },
+    {
+      "id": "3838666c820efd36f5b4c7bb00ea829c06111082052a3f809036df03e0fc7d3f",
+      "source": "Cadorna Barista Plus RI9601/47 works when its milk path matches the household",
+      "kind": "text",
+      "context": "Cadorna Barista Plus RI9601/47 works when its milk path matches the household"
+    },
+    {
+      "id": "ac23101f9a3db80356709b02500d9f0396e8e16991b632023c443615dd7643ff",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47 review: profiles meet a real steam wand | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "99596aa226d15c4057f77fe8fb748aa73347f3e05842a02c63b14abf97e820a3",
+      "source": "A research-led Gaggia Cadorna Barista Plus RI9601/47 review covering four profiles, six coffee beverages, two-hole steam wand, ten-step ceramic grinder, $899 price and care.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "8a6255e945836b45d1a47ff3255a255041092737abce304833362680f8929779",
+      "source": "What milk work does Cadorna Barista Plus RI9601/47 leave to the user?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "699e6a09fe5fa28a6f066e14b0f4e409d6c1202115aca3d2aa2cfe2dd79f7d70",
+      "source": "Cadorna Barista Plus automates grinding and coffee preparation while leaving milk texture to the user. Save a coffee recipe per profile, then learn the pivoting two-hole wand separately. It suits someone who wants personal coffee settings without giving up pitcher control; it is not one-touch milk.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "acf9e119bc505df71f0eae58d7638a752059387c7dbb7c3836fb01a82cdf763c",
+      "source": "How much grinder adjustment does Cadorna Barista Plus RI9601/47 offer?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "8878e23c517e765ef7e0c2a58bcb343ccb5a49ea163662828e88054bd670817b",
+      "source": "What should I check before ordering Cadorna Barista Plus RI9601/47?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "3e1ae6a251a84f21267831545e823af8993a53ef505c68133b8738e91d615abb",
+      "source": "The reviewed North American Barista Plus is RI9601/47 despite the historical RI9603-47 route. Match that rating plate and the two-hole stainless wand. Set up the four profiles for the actual household members before adjusting everyone’s shared bean and grind.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "34d6a1d434b1840ec0b80359c97b2a6b0c405d3dda3578c4cd4dc24238e84674",
+      "source": "Milk is not one-touch and the wand-to-coffee sequence still asks the user to learn texture and clean immediately",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "b2cee65e328999e1ff4beff09b48f516f76bad45ae1161a4525b8b763d08a744",
+      "source": "Which coffee recipes and controls does Cadorna Barista Plus RI9601/47 provide?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "7f83bf598ad6cc213faed7edfce6007bf3518477e037b04c7e9dfdc0703e1cd2",
+      "source": "Six listed coffee beverages plus hot water and steam, four profiles, five strengths, three temperatures and adjustable volume",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "f0ad64ada4cbbf4885b710d9f80c7983931d6b0d3989b0b88e996a193a8df5a2",
+      "source": "Wipe and purge the two-hole wand immediately after texturing. An 18 oz tray also collects rinse water, so its capacity is not reserved solely for accidental spills. Keep access for the 10-puck bin when positioning the larger, 17.3 in deep Cadorna body.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "fad4fc3580e3689a7da5d1c56bddf5103c0fd02c568286e227342b54abcaae55",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47 review: profiles meet a real steam wand",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "3058c3f38c720987a9cd3f39490738165f0e39fc351d540cac912b5ee499b5d5",
+      "source": "Choose the Cadorna Barista Plus RI9601/47 for saved profiles and automatic coffee paired with a capable two-hole manual steam wand. Skip it when milk is not one-touch and the wand-to-coffee sequence still asks the user to learn texture and clean immediately is a deal-breaker or you want direct portafilter control.",
+      "kind": "json",
+      "context": "reviewBody"
+    },
+    {
+      "id": "f59395ddb5c9fa654406c2ff8672a42f6f0ad2aabfeba2735d91aa92770e1293",
+      "source": "Full-color TFT plus backlit buttons with four named user profiles",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "2f8e94d2aef978edda0067c7702f95497bbaf531aaded8bc0b5ca033e5f5d665",
+      "source": "Gaggia Cadorna Barista Plus unboxing, features, review: Superautomatic espresso latte art steam wand",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "113ecf1e5841e72cdc4720234210ae13164161339b4b840c482aaab97ffa99e0",
+      "source": "Jess - Gadgets, Gear, Coffee",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "8b45d6f9f93ab05fd2d62da594dc15dfdae1a906bf8b1050f061b43841f15a25",
+      "source": "Two-hole stainless steam wand on the Gaggia Cadorna Barista Plus",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "adf90b1e9946ebc2078efc166c39ac55ef173b72328f0e0faf7b321265b3f76a",
+      "source": "The wand detail shows the insulated grip and two-hole tip that give Cadorna Barista Plus its manual milk-texturing role.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "6943f9e9a8a2f3080b4713b0772e6de656dc3f0388913fbf494352c6d4ead7b6",
+      "source": "Gaggia North America Cadorna Barista Plus product page",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "8db0328ab9283e8da0a70cde7d00d66ed29afcfb76ba8fec66f1550676153829",
+      "source": "Full-color interface on the Gaggia Cadorna Barista Plus",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "ae1ea62a5bd901d79c3b4f2bee10c9d98f65ccd2e9659b46ddf746c0d0218073",
+      "source": "The interface view shows the color menu and profile-led drink selection that organize coffee before the separate manual milk step.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "14f4dbff7c5b82ee5113d633be0d60dbfb6ced5aac8085088e19b07bbfb2229e",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47: Gaggia Cadorna Barista Plus unboxing, features, review: Superautomatic espresso latte art steam wand · Jess - Gadgets, Gear, Coffee (2020-11-24) | Coffeedant",
+      "kind": "text",
+      "context": "Gaggia Cadorna Barista Plus RI9601/47: Gaggia Cadorna Barista Plus unboxing, features, review: Superautomatic espresso latte art steam wand · Jess - Gadgets, Gear, Coffee (2020-11-24) | Coffeedant"
+    },
+    {
+      "id": "7b5e2598ed3ef17809de2dc6793cdf6d0354b4e88c96243f37a660cc0e9bbaef",
+      "source": "Watch Jess - Gadgets, Gear, Coffee on Gaggia Cadorna Barista Plus RI9601/47 (2020-11-24): Gaggia Cadorna Barista Plus unboxing, features, review: Superautomatic espresso latte art steam wand. Independent visual workflow evidence. Current specifications, price and availability are verified separately.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "4fd036d462b62d7f52618314d21a03ab2e28be033efc93bbe100814dd4267e26",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47: Gaggia Cadorna Barista Plus unboxing, features, review: Superautomatic espresso latte art steam wand · Jess - Gadgets, Gear, Coffee (2020-11-24) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "37d6578b0ae8e4d71ae9affb84042a58ffc7a686b70a2a89bf5c9d05afa9149f",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47 video by Jess - Gadgets, Gear, Coffee",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "12312eeadc60ea8a0150ec612e47549728164c10ad7f2568f4ae9650183a8b07",
+      "source": "← Gaggia Cadorna Barista Plus RI9601/47 review",
+      "kind": "text",
+      "context": "← Gaggia Cadorna Barista Plus RI9601/47 review"
+    },
+    {
+      "id": "b5ea14f88d7d92d33c053f4de097d4c423b83efd65da4e6676da00b5f65041dc",
+      "source": "Gaggia Cadorna Barista Plus unboxing, features, review: Superautomatic espresso latte art steam wand by Jess - Gadgets, Gear, Coffee",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "801451bf2e985619b08d33865a11ca72f83d24a93a5d4134b0747a6baa93204b",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47 · Third-party perspective",
+      "kind": "text",
+      "context": "Gaggia Cadorna Barista Plus RI9601/47 · Third-party perspective"
+    },
+    {
+      "id": "9602ae4c613efaa0f9619859738afbaa54b4c712504995724e12a4bdfd887d72",
+      "source": "Video and opinions belong to Jess - Gadgets, Gear, Coffee. Coffeedant curates this perspective alongside our written review.",
+      "kind": "text",
+      "context": "Video and opinions belong to Jess - Gadgets, Gear, Coffee. Coffeedant curates this perspective alongside our written review."
+    },
+    {
+      "id": "b33fa622f1f2ae0b598a61bbb6affa87c249d07391964726e055ef289ccb28fb",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47: Gaggia Cadorna Barista Plus unboxing, features, review: Superautomatic espresso latte art steam wand · Jess - Gadgets, Gear, Coffee (2020-11-24) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b2e5e678c288045367872fa31935cd9a1afdd19124df1c1282071031de98de69",
+      "source": "Watch Jess - Gadgets, Gear, Coffee on Gaggia Cadorna Barista Plus RI9601/47 (2020-11-24): Gaggia Cadorna Barista Plus unboxing, features, review: Superautomatic espresso latte art steam wand. Independent visual workflow evidence. Current specifications, price and availability are verified separately.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "ad0298b9de3b783a79562ddd24502ecf677aebeb477b6cb66a1b790fa4672724",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47 video by Jess - Gadgets, Gear, Coffee",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "d1198444b1483d2c8b4b9253f01b14d7a1286076bbc25f0b01cdd6158f4be225",
+      "source": "Video by Jess - Gadgets, Gear, Coffee",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "3fb04de15db22e461c23086d5e12812d9649246d1b562c29257c5bfc998bf600",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47: Latte Art on the Gaggia Cadorna Barista Plus Espresso Machine · Whole Latte Love (2020-06-05) | Coffeedant",
+      "kind": "text",
+      "context": "Gaggia Cadorna Barista Plus RI9601/47: Latte Art on the Gaggia Cadorna Barista Plus Espresso Machine · Whole Latte Love (2020-06-05) | Coffeedant"
+    },
+    {
+      "id": "4d74b124bd13ec282471d69357e39c01032ff0304f1f84820ac7bfaa37e48974",
+      "source": "Watch Whole Latte Love on Gaggia Cadorna Barista Plus RI9601/47 (2020-06-05): Latte Art on the Gaggia Cadorna Barista Plus Espresso Machine. Whole Latte Love presents Gaggia Cadorna Barista Plus RI9601/47, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "8f1e78b1f7dc40980fe32285e5f46837a456128f9a1abd0bb156b3a3211342d5",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47: Latte Art on the Gaggia Cadorna Barista Plus Espresso Machine · Whole Latte Love (2020-06-05) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "ed6d30d167c300fb7f82572ddeca96056559d03d32508f0e06e1f6fb644d1ccc",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47 video by Whole Latte Love",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "b41d2b6cf55418ef9c2450868b3502156dd93849145fdda7e8a81aea96f5582d",
+      "source": "Latte Art on the Gaggia Cadorna Barista Plus Espresso Machine by Whole Latte Love",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "490e121d600cd22b780aa09ec8ccec7b9baff1e48e9174d295d0eb7c91c0c301",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47 · Retailer perspective",
+      "kind": "text",
+      "context": "Gaggia Cadorna Barista Plus RI9601/47 · Retailer perspective"
+    },
+    {
+      "id": "4929fd1d427112c1404550069772f33f223e3976c2ab9e988561eeba807dabbe",
+      "source": "Latte Art on the Gaggia Cadorna Barista Plus Espresso Machine",
+      "kind": "text",
+      "context": "Latte Art on the Gaggia Cadorna Barista Plus Espresso Machine"
+    },
+    {
+      "id": "2e92d5f2b081a7b73c7b451906c46005ab4a43d54bd7b4aacacf9a5505c05b9e",
+      "source": "June 5, 2020",
+      "kind": "text",
+      "context": "June 5, 2020"
+    },
+    {
+      "id": "9aa339cd771dead56a6df7bc780dfa1b8980809bb9665cbc7838408bf51c9358",
+      "source": "Whole Latte Love presents Gaggia Cadorna Barista Plus RI9601/47, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "text",
+      "context": "Whole Latte Love presents Gaggia Cadorna Barista Plus RI9601/47, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review."
+    },
+    {
+      "id": "9be57df131b0eed58a087af0354bead72785022249ad0999b168b8c75cfaffdf",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47: Latte Art on the Gaggia Cadorna Barista Plus Espresso Machine · Whole Latte Love (2020-06-05) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "690c3a765264dfcf58d30e8ba49379a99b4e02c16c8c0b134462a5ecec2b4af7",
+      "source": "Watch Whole Latte Love on Gaggia Cadorna Barista Plus RI9601/47 (2020-06-05): Latte Art on the Gaggia Cadorna Barista Plus Espresso Machine. Whole Latte Love presents Gaggia Cadorna Barista Plus RI9601/47, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "2c62a7ac3c410169b42e8225a1e92974a80c681010b7d7a4a931dd933106830b",
+      "source": "Gaggia Cadorna Barista Plus RI9601/47 video by Whole Latte Love",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "6d83e48d6eb68a4d6d4d1689e8dcb8cbf220d27c42c514b0e9dfc8708ca5e6e6",
+      "source": "Latte Art on the Gaggia Cadorna Barista Plus Espresso Machine",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "25788adfa76d9e1964c8881898d74621966d79fc8f9048569d3b61f5e6b7d56a",
+      "source": "Whole Latte Love presents Gaggia Cadorna Barista Plus RI9601/47, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "52fd085163eb7f1113bbe9c76e20d2feff5d63e417a6e4b86fe8ca98fcd9776a"
+}

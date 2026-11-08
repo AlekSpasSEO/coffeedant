@@ -3408,6 +3408,1111 @@ approved Dutch dosing URL. NL has 13,012 translated / 43,584 pending; DE has
 hourly continuation and source-change automation remain active; full editions
 remain incomplete.
 
+### Direct batch 66: two complete automatic-machine videos and saved guide work (2026-11-02)
+
+Two complete short watch pages are directly translated into NL/DE/FR: Cafelista_Coffee
+on De'Longhi Magnifica Evo with LatteCrema and Coffee Kev on Gaggia Accademia Glass
+RI9781/01. Their complete current bodies contain 147 source words and nine
+paragraphs. Metadata, visible dates, player titles, curation, ownership and
+affiliate disclosures, and ItemPage/VideoObject/Breadcrumb text are covered.
+Original media, creator/channel identities, upload timestamps, durations,
+privacy-enhanced embed destinations, 960 × 540 dimensions and player permissions
+are preserved. The recordings remain the creators' original media. The three
+existing watch URLs are retained and three missing routes are registered.
+
+The full De'Longhi watch snapshot freezes 485 page/shared slots; the two-page
+missing snapshot pins both full fingerprints and 30 slots. Nineteen authored
+three-language strings plus the unchanged Gaggia brand/model identity cover that
+batch. Passing wording for the De'Longhi title and summary is reused from the
+guide work imported first, with no earlier cached wording changed.
+
+The long superautomatic guide is deliberately still unfinished. Its full snapshot
+freezes 921 slots and its missing snapshot freezes 247 slots. This batch saves
+49 directly authored three-language strings (1,068 source words), plus unchanged
+capacity units and creator identity, covering the De'Longhi controls, exact US
+ECAM29084SB identity, milk workflow, two-person routine, infuser care, warranty,
+costs and evidence labels. Shared exact-source reuse and the completed companion
+reduce the guide to 188 missing slots per edition. No partial guide is published;
+its existing German route remains stable. Continue from these immutable snapshots
+or export a new missing-only snapshot, never overwrite or reindex them silently.
+
+All 210 localization and 20 SEO tests pass. Analytics, all 35 bean reviews and the
+151-machine/seven-grinder Finder validators pass with the CF_PAGES route base.
+Six complete native previews verify every body character, metadata, schema,
+links, accessibility labels, runtime interface and unchanged player attributes.
+Every previously ready page and cached wording is retained; the partial guide is
+explicitly excluded from publication. Production-build and live evidence are
+recorded in the batch PR after the corresponding checks complete.
+
+Inventory remains 660 source pages / 56,596 segments. Ready selection is 117
+indexable pages plus 404 per edition, preserving all 115 old public routes and
+the approved Dutch dosing URL. This batch adds 91 cache entries per edition:
+NL has 13,103 translated / 43,493 pending; DE has 13,155 / 43,441 and FR has
+13,125 / 43,471. Finder gaps remain zero. There are 163 non-watch and 379 watch
+pages still incomplete. Ready-pages publication, hourly continuation and
+source-change automation remain active; all full editions remain incomplete.
+
+### Direct batch 67: complete superautomatic guide (2026-11-02)
+
+The full current `/espresso-machine/superautomatic/` guide is directly completed
+in NL/DE/FR, reusing the saved passing batch-66 wording. Its complete source body
+contains 5,903 words and 166 paragraphs; the regional rendering has 175 paragraphs
+after the native Finder/interface content is restored. All eight visible and
+structured FAQ answers, comparison cells, evidence notes, image descriptions,
+metadata, accessible labels and four automatic operating diagrams are covered.
+The exact US De'Longhi ECAM29084SB, discontinued/refurbished Philips EP5447/94,
+fifth-generation North American JURA article 15722 and European Gaggia RI9781/01
+remain distinct. Dated US/UK prices stay source-market observations, without
+currency conversion or invented local offers. Owner reports, voltage conflicts,
+commercial interests and the limits of independent testing remain explicit.
+
+The immutable complete snapshot freezes 921 slots with the same fingerprint as
+the batch-66 source. A new missing-only snapshot freezes 188 slots. Its 162
+authored string triples and eight unchanged brand/model/capacity values add 195
+current cache entries per edition across source kinds, with no earlier wording
+changes. The German `/espresso-maschine/superautomatisch/` URL is preserved; the
+new NL/FR URLs are `/espressomachines/volautomatisch/` and
+`/machines-expresso/automatiques/`.
+
+Nine complete guide/hub/companion comparisons cover every body character,
+metadata, schema, links, runtime interface and SVG geometry. Independent compiled
+Finder records confirm all four recommendations have built-in grinders. All
+four automatic schematics per edition remain static as in the source; no
+interactive controls or test results are invented. All 210 localization and 20
+SEO tests, analytics, 35 bean reviews and the 151-machine/seven-grinder validators
+pass. Production and live deployment evidence is recorded in the batch PR.
+
+Exact desktop/mobile Chrome rendering exposed a German header language-picker
+overflow and a clipped French automatic-diagram note. Regional-only CSS reduces
+desktop header gaps and sets automatic-diagram notes to 13px, preserving the
+complete cached wording, existing markup and SVG geometry. The US selector keeps
+its original CSS. Browser checks use actual CSS viewports of 1365px and 390px,
+including diagram text bounds and native menu/keyboard behavior; final results
+are recorded with the production checks.
+
+Inventory remains 660 source pages / 56,596 segments. Ready selection is 118
+indexable pages plus 404 per edition, preserving all 117 old public routes and
+the approved Dutch dosing URL. NL has 13,298 translated / 43,298 pending; DE has
+13,350 / 43,246 and FR has 13,320 / 43,276. Finder gaps remain zero. There are
+162 non-watch and 379 watch pages still incomplete. Ready-pages publication,
+hourly continuation and source-change automation remain active; full editions
+remain incomplete.
+
+### Direct batch 68: espresso/pour-over grinder guide and current hub (2026-11-03)
+
+Main added `/grinder/best-grinders-for-espresso-and-pour-over/` and a new section
+in the published grinder hub. This batch directly completes the entire new guide
+in NL/DE/FR and all five changed hub slots. The complete guide contains 2,039
+source words, 60 paragraphs, two comparison tables and seven visible/structured
+FAQ answers. All source claims, citations, metadata, accessible table labels,
+credited identification images, related links and methodological limits are
+covered. The exact US Encore ESP Pro, Opus 2 and Mignon Zero 65 All Purpose stay
+distinct from older generations and other regional products. Independent sample
+observations retain their scope; no Coffeedant grinding/tasting, universal
+zero-retention result or current delivered-price comparison is invented.
+
+The full snapshot freezes 634 page/shared slots. The missing-only snapshot pins
+both complete source fingerprints and 125 missing slots (120 guide and five hub).
+Its 106 authored string triples and one unchanged brand/model citation add 125
+current cache entries per edition, with no prior wording edits. The three new
+guide routes are `/koffiemolen/beste-molens-voor-espresso-en-pour-over/`,
+`/kaffeemuehle/beste-muehlen-fuer-espresso-und-pour-over/` and
+`/moulin-a-cafe/meilleurs-moulins-pour-espresso-et-filtre-manuel/`.
+All previously registered routes, including the Dutch dosing URL, are preserved.
+
+All 210 localization and 20 SEO tests, analytics, 35 bean reviews and the
+151-machine/seven-grinder Finder validators pass. Nine whole-page previews
+compare the new guide, updated hub and existing compact-grinder guide across
+all editions, including every body character, metadata, schema, image geometry,
+links, labels and runtime interface. Six exact Chrome viewports (1365px/390px)
+have no document overflow and verify twelve focusable, natively labelled table
+regions, their mobile horizontal scrolling, native mobile menus and language
+picker Escape/focus behavior. Production and live release evidence is recorded
+in the batch PR after the corresponding checks complete.
+
+Current source grows to 661 pages / 56,721 segments. Before this batch the changed
+published hub was incomplete against that current source; this batch restores
+its readiness and adds the full new guide. Ready selection is 119 indexable pages
+plus 404 per edition, retaining all 118 previously live canonical paths. NL has
+13,423 translated / 43,298 pending; DE has 13,475 / 43,246 and FR has
+13,445 / 43,276. Finder gaps remain zero. The older unfinished inventory remains
+162 non-watch and 379 watch pages. Ready-pages publication, hourly continuation
+and source-change automation remain active; all full editions remain incomplete.
+
+### Direct batch 69: complete Gaggia videos and reusable review wording (2026-11-03)
+
+Directly complete the Coffee Kev video pages for Gaggia Classic GT and Gaggia
+Brera RI9305 in NL/DE/FR. Both entire current pages include five paragraphs,
+localized titles, dates, descriptions, accessible iframe titles and structured
+video metadata. Preserve the original creator, video IDs, embed URLs, dimensions,
+permissions and affiliate attribution. Demonstrations and opinions remain the
+creator's; no Coffeedant handling or testing is claimed.
+
+A 907-slot full snapshot freezes both pages and the current Classic/E24 review.
+The video snapshot has 30 missing slots covered by 18 authored string triples.
+The 261-slot review snapshot receives 138 authored triples plus the unchanged
+Whole Latte Love name: 157 snapshot slots covering shared rating/navigation
+labels, complete evidence and commission disclosures, owner-report limits,
+architecture and care context. Matching video wording also fills two review
+slots. This saves a substantive 717 distinct source words of review/shared work,
+alongside 194 distinct video source words. The review still has 102 missing slots
+per edition and remains unpublished; its registered French URL stays stable.
+Existing passing German/French wording is reused exactly. No prior cached text
+or registered route is changed.
+
+All 210 localization and 20 SEO tests, analytics, all 35 bean reviews and the
+151-machine/seven-grinder Finder validators pass. Six complete noindex previews
+and six production comparisons verify every body character, metadata, schema,
+embed geometry, link and runtime interface. The full regional bundle passes
+without deferrals. Nine actual Chrome viewports verify both video pages across
+the three editions: no document overflow, responsive labelled 16:9 frames,
+collapsed native notices, six mobile menu open/close checks and nine language
+picker Escape/focus checks. Production deployment and live evidence follow in
+the batch PR after checks pass.
+
+Current source remains 661 pages / 56,721 segments. Ready selection is 121
+indexable pages plus 404 per edition, preserving all 119 earlier canonical paths
+and the approved Dutch dosing URL. Cache additions are NL 188, DE 172, FR 175;
+coverage is NL 13,611 translated / 43,110 pending, DE 13,647 / 43,074 and
+FR 13,620 / 43,101. Finder gaps remain zero. The unfinished inventory is 162
+non-video pages and 377 video pages. All full editions remain incomplete;
+incremental publication, continuation and source-change maintenance stay active.
+
+### Direct batch 70: complete current Classic/E24 review and video (2026-11-03)
+
+Complete the entire current North American Gaggia Classic Pro E24 review at the
+legacy `/espresso-machine/gaggia-classic-evo/` source key, together with its
+Whole Latte Love video page, in NL/DE/FR. The full review retains all six FAQ
+answers, nine comparison/evidence tables, manufacturer-photo captions and
+credits, structured data, source citations and ownership limits. Its prepared
+source has 94 paragraphs; rebuilding the native Finder cards yields 103, with
+every expected body character retained. The companion video has four paragraphs.
+Current E24, older coated-boiler Evo, retrofits and GT remain distinct. Original
+North American voltage, dimensions and documented dollar-price context stay
+attached to their source scope and check dates, with no converted local price,
+fresh offer claim or Coffeedant physical test. Regional commerce stays suppressed.
+
+The immutable full snapshot freezes 884 page/shared slots. The missing snapshot
+pins both complete source fingerprints and 114 slots. Its 91 authored triples
+and unchanged Breville Bambino name cover every remaining slot, adding 114
+current cache entries per edition. Reuse the existing passing boiler wording;
+no prior cached text or registered route changes. The French review keeps
+`/machine-a-espresso/gaggia-classic-evo/`; new NL/DE review routes use
+`/espressomachines/gaggia-classic-e24/` and
+`/espresso-maschine/gaggia-classic-e24/`, with corresponding nested video routes.
+
+All 210 localization and 20 SEO tests, analytics, 35 bean reviews and the
+151-machine/seven-grinder Finder validators pass. Nine complete previews and
+nine production comparisons cover both new pages and the existing Classic GT
+video. The full regional bundle builds without deferrals. Nine Chrome viewports
+use the exact production bytes at native origins through request interception,
+with the actual consent-policy function for its worker endpoint. They verify
+zero overflow, 54 labelled/focusable table regions, six Finder filter/reset
+checks excluding the current review, six native video dialogs with history,
+focus and canonical restoration, six mobile menus and nine language pickers.
+Live HTTPS, deployment and reciprocal-link evidence follows in the batch PR.
+
+Current source remains 661 pages / 56,721 segments. Ready selection is 123
+indexable pages plus 404 per edition, preserving all 121 earlier canonical paths
+and the Dutch dosing URL. Coverage is NL 13,725 translated / 42,996 pending,
+DE 13,761 / 42,960 and FR 13,734 / 42,987. Finder gaps remain zero. There are
+161 non-video and 376 video pages unfinished. All full editions remain incomplete;
+ready-pages publication, continuation and source-change maintenance stay active.
+
+### Direct batch 71: complete Espresso Evolution review and video (2026-11-03)
+
+Complete the entire current Gaggia Espresso Evolution EG2115/01 review and its
+Whole Latte Love video page in NL/DE/FR. Preserve all six FAQ answers, nine
+evidence/comparison tables, source citations, photo credits and metadata. The
+prepared review has 92 paragraphs; native Finder rebuilding yields 101, with
+every expected body character retained. The companion video has four paragraphs.
+The reviewed Stone Black European/UK 230V package stays distinct from the
+Classic/58 mm platform. Internal factory PID assistance does not become a
+user-adjustable temperature menu or a claimed coffee-bed measurement. The Lava
+Red detail-photo difference, listed 76 mm clearance and manual-specific cleaning
+limits remain explicit. The original dated £199 UK out-of-stock record and
+parts-warranty context are preserved without converted local prices, new offer
+verification or Coffeedant physical-testing claims. Local commerce stays suppressed.
+
+The immutable full snapshot freezes 877 page/shared slots. The missing snapshot
+pins both complete current fingerprints and 106 slots, covered by 77 authored
+triples and one unchanged product name. Exact-source reuse adds 107 cache entries
+per edition, with no prior wording edits or route renames. Preserve the registered
+NL video `/gaggia-espresso-evolutie-eg2115/video/whole-latte-love/`, DE video
+`/gaggia-espresso-evolution-eg2115/testbericht/whole-latte-love/` and French review
+`/machine-a-espresso/gaggia-espresso-evolution-eg2115/` paths. New NL/DE review
+routes use their existing espressomachines/espresso-maschine prefixes; the new
+French video route is nested under its stable review route.
+
+All 210 localization and 20 SEO tests, analytics, 35 bean reviews and the
+151-machine/seven-grinder Finder validators pass. Nine complete previews and
+nine production comparisons cover both new pages and the existing E24 review.
+The full regional bundle builds without deferrals. Nine exact-output Chrome
+viewports at native origins verify zero document overflow, 54 labelled/focusable
+table regions, six Finder filter/reset/self-exclusion checks, six video dialogs
+with native labels and history/focus/canonical restoration, six mobile menus and
+nine language pickers. Live deployment and reciprocal-link evidence follows in
+the batch PR after checks pass.
+
+Current source remains 661 pages / 56,721 segments. Ready selection is 125
+indexable pages plus 404 per edition, preserving all 123 earlier canonical paths
+and the Dutch dosing URL. Coverage is NL 13,832 translated / 42,889 pending,
+DE 13,868 / 42,853 and FR 13,841 / 42,880. Finder gaps remain zero. There are
+160 non-video and 375 video pages unfinished. All full editions remain incomplete;
+ready-pages publication, continuation and source-change maintenance stay active.
+
+### Direct batch 72: complete 2023 Classic Evo Pro review and video (2026-11-03)
+
+Complete the entire current Gaggia Classic Evo Pro RI9380/46 review and its
+Lifestyle Lab video page in NL/DE/FR. Preserve all six FAQ answers, nine
+evidence/comparison tables, source citations, photo credits and metadata. The
+prepared review has 93 paragraphs; native Finder rebuilding yields 102, with
+every expected body character retained. The companion video has five paragraphs.
+The exact 2023 North American factory-coated aluminum boiler remains distinct
+from uncoated transition units and the later E24 brass boiler. Serial, purchase
+and boiler-replacement records, competent inspection, thermostat timing,
+sequential milk work and family-photo limitations remain explicit. The original
+dated $499.00 launch context is historical, with individual used/old-stock
+condition and warranty checks retained. No converted local prices, new offer
+verification or Coffeedant physical-testing claims are introduced.
+
+The immutable full snapshot freezes 882 page/shared slots. The missing snapshot
+pins both complete current fingerprints and 108 slots, covered by 76 authored
+triples and three unchanged proper names. Exact-source reuse adds 109 cache
+entries per edition, with no prior wording edits or route renames. Preserve the
+registered French review `/machine-a-espresso/gaggia-classic-evo-pro/` path.
+New NL/DE review routes use their existing espressomachines/espresso-maschine
+prefixes; new video routes are nested under each edition's review route.
+
+All 210 localization and 20 SEO tests, analytics, 35 bean reviews and the
+151-machine/seven-grinder Finder validators pass. Nine complete previews and
+nine production comparisons cover both new pages and the existing E24 review.
+The full regional bundle builds without deferrals. Nine exact-output Chrome
+viewports at native origins verify zero document overflow, 54 labelled/focusable
+table regions, six Finder filter/reset/self-exclusion checks, six video dialogs
+with native labels and history/focus/canonical restoration, six mobile menus and
+nine language pickers. Live deployment and reciprocal-link evidence follows in
+the batch PR after checks pass.
+
+Current source remains 661 pages / 56,721 segments. Ready selection is 127
+indexable pages plus 404 per edition, preserving all 125 earlier canonical paths
+and the Dutch dosing URL. Coverage is NL 13,941 translated / 42,780 pending,
+DE 13,977 / 42,744 and FR 13,950 / 42,771. Finder gaps remain zero. There are
+159 non-video and 374 video pages unfinished. All full editions remain incomplete;
+ready-pages publication, continuation and source-change maintenance stay active.
+
+### Direct batch 73: complete Velasca review and featured video (2026-11-03)
+
+Complete the entire current Gaggia Velasca review and its featured Whole Latte
+Love unboxing/first-use video in NL/DE/FR. Preserve all six FAQ answers, nine
+evidence/comparison tables, source citations, photo credits and metadata. The
+prepared review has 91 paragraphs; native Finder rebuilding yields 100, with
+every expected body character retained. The companion video has four paragraphs.
+The historical RI8260-3 URL suffix remains unresolved by the cited current
+North American pannarello listing. No electrical code or equivalence with the
+RI8263/47 Prestige carafe model is inferred. Ten grinder steps, manual milk,
+front access, owner-removable brew-group care and the dated US-dollar price
+records remain explicit. Source and video dates stay attached to their original
+records. No converted local prices, new offer verification or Coffeedant
+physical-testing claims are introduced; local commerce stays suppressed.
+
+The immutable full snapshot freezes 875 page/shared slots. The missing snapshot
+pins both complete current fingerprints and 176 slots, covered by 137 authored
+triples and four unchanged proper names. Exact-source reuse adds 176 cache
+entries per edition, with no prior wording edits or route renames. Preserve the
+registered NL review `/gaggia-velasca-ri8260-3/`, DE review
+`/testbericht-gaggia-velasca-ri8260-3/` and both registered NL/DE featured-video
+routes. New French review and featured-video routes use the existing
+machines-expresso prefix. The other two unfinished videos keep their English
+destinations and localized edition notice.
+
+All 210 localization and 20 SEO tests, analytics, 35 bean reviews and the
+151-machine/seven-grinder Finder validators pass. Nine complete previews and
+nine production comparisons cover both new pages and the existing E24 review.
+The full regional bundle builds without deferrals. Nine exact-output Chrome
+viewports at native origins verify zero document overflow, 54 labelled/focusable
+table regions, six Finder filter/reset/self-exclusion checks, six video dialogs
+with native labels and history/focus/canonical restoration, six mobile menus and
+nine language pickers. Live deployment and reciprocal-link evidence follows in
+the batch PR after checks pass.
+
+Current source remains 661 pages / 56,721 segments. Ready selection is 129
+indexable pages plus 404 per edition, preserving all 127 earlier canonical paths
+and the Dutch dosing URL. Coverage is NL 14,117 translated / 42,604 pending,
+DE 14,153 / 42,568 and FR 14,126 / 42,595. Finder gaps remain zero. There are
+158 non-video and 373 video pages unfinished. All full editions remain incomplete;
+ready-pages publication, continuation and source-change maintenance stay active.
+
+### Direct batch 74: complete fifth-generation E8 review and family video (2026-11-04)
+
+Complete the entire current JURA E8 Midnight Silver NAD review and its featured
+KafiService video in NL/DE/FR. Preserve all six FAQ answers, nine evidence and
+comparison tables, source citations, photo credits and metadata. The prepared
+review has 91 paragraphs; native Finder rebuilding yields 100, with every
+expected body character retained. The companion video has four paragraphs.
+The exact fifth-generation North American article 15722 remains distinct from
+older EC units and the SD video package. Hot, Light and Sweet recipes, P.A.G.2,
+HP3 milk care, the side-button display and optional Wi-Fi Connect V2, J.O.E. and
+Coffee Timer accessory requirements remain explicit. Original dated US $2,599
+unavailable-to-order context, cited tasting-protocol limitations and manufacturer
+campaign-photo limitations are retained. No local model equivalence, converted
+prices, new offer verification or Coffeedant physical-testing claims are added.
+
+The immutable full snapshot freezes 884 page/shared slots. The missing snapshot
+pins both complete current fingerprints and 138 slots, covered by 111 authored
+triples and two unchanged proper names. Exact-source reuse adds 139 cache entries
+per edition, with no earlier wording edits or route renames. Preserve the
+registered German review `/testbericht-jura-e8/` URL. New NL and FR review paths
+use their existing espressomachines and machines-expresso prefixes; each new
+video path is nested under its corresponding review. The German video title
+is already native and remains unchanged in DE; NL and FR translate it fully.
+The other unfinished video keeps its English destination and edition notice.
+
+All 210 localization and 20 SEO tests, analytics, 35 bean reviews and the
+151-machine/seven-grinder Finder validators pass. Nine complete previews and
+nine production comparisons cover both new pages and the existing E24 review.
+The full regional bundle builds without deferrals. Nine exact-output Chrome
+viewports at native origins verify zero document overflow, 54 labelled/focusable
+table regions, six Finder filter/reset/self-exclusion checks, six video dialogs
+with native labels and history/focus/canonical restoration, six mobile menus and
+nine language pickers. Live deployment and reciprocal-link evidence follows in
+the batch PR after checks pass.
+
+Current source remains 661 pages / 56,721 segments. Ready selection is 131
+indexable pages plus 404 per edition, preserving all 129 earlier canonical paths
+and the Dutch dosing URL. Coverage is NL 14,256 translated / 42,465 pending,
+DE 14,292 / 42,429 and FR 14,265 / 42,456. Finder gaps remain zero. There are
+157 non-video and 372 video pages unfinished. All full editions remain incomplete;
+ready-pages publication, continuation and source-change maintenance stay active.
+
+### Direct batch 75: complete E6 review and comparison video (2026-11-04)
+
+Complete the entire current JURA E6 Dark Inox NAC review and its featured
+Quality Coffee Systems comparison video in NL/DE/FR. Preserve all six FAQ
+answers, nine evidence/comparison tables, source citations, photo credits and
+metadata. The prepared review has 91 paragraphs; native Finder rebuilding yields
+100, with every expected body character retained. The companion video has four
+paragraphs. Article 15621 and the NAC manual remain authoritative; an older EC
+code in official image filenames does not establish NAC specifications.
+HP1 milk is neither stored nor refrigerated, Wi-Fi Connect is optional and
+prescribed milk/CLARIS Smart+ care stays explicit. The dated US $1,899 record,
+owner-report limitations and older-video generation boundaries are retained.
+No local model equivalence, converted prices, new offer verification or
+Coffeedant physical-testing claims are introduced.
+
+The immutable full snapshot freezes 884 page/shared slots. The missing snapshot
+pins both current fingerprints and 117 slots, covered by 85 authored triples and
+three unchanged proper names. Exact-source reuse adds 118 cache entries per
+edition with no earlier wording edits or route renames. Preserve NL review
+`/jura-e6/`, DE review `/testbericht-jura-e6/` and the registered German featured
+video `/jura-e6/video/quality-coffee-systems/`. New French routes use the existing
+machines-expresso prefix. The other unfinished videos retain English
+destinations and the localized edition notice.
+
+All 210 localization and 20 SEO tests, analytics, 35 bean reviews and the
+151-machine/seven-grinder Finder validators pass. Nine complete previews and
+nine production comparisons cover both new pages and the existing E24 review.
+The full regional bundle builds without deferrals. Nine exact-output Chrome
+viewports at native origins verify zero document overflow, 54 labelled/focusable
+table regions, six Finder filter/reset/self-exclusion checks, six video dialogs
+with native labels and history/focus/canonical restoration, six mobile menus and
+nine language pickers.
+
+This batch was prepared independently while the preceding E8 merge was delayed.
+Its checked translations are now rebased onto the verified E8 confirmation on
+main. Current-head CI, production deployments, complete live-page checks and
+reciprocal-link verification remain required before reporting it as published.
+
+Current source remains 661 pages / 56,721 segments. Ready selection is 133
+indexable pages plus 404 per edition. All 131 previously published canonical
+paths and the Dutch dosing URL are preserved. Coverage is NL 14,374 translated
+/ 42,347 pending, DE 14,410 / 42,311
+and FR 14,383 / 42,338. Finder gaps remain zero; 156 non-video and 371 video pages
+remain unfinished. Full editions remain incomplete. Ready-pages publication,
+continuation and source-change maintenance stay active.
+
+### Direct batch 76: complete second-generation Z10 review and cold-workflow video (2026-11-04)
+
+Directly translate the entire current JURA Z10 Aluminium Black NAB review and
+its catalogued Seattle Coffee Gear companion video into NL/DE/FR. The review
+covers North American second-generation article 15702: 51 specialties,
+P.R.G.2+, Cold Extraction, four profiles and included Wi-Fi. Keep the optional
+chocolate attachment separate from included equipment, preserve daily milk
+care, and retain the dated $4,499 out-of-stock US record. First-generation
+video material supplies limited workflow context and cannot establish the
+later grinder, software or recipe specifications. Original attribution and date
+strings, including the companion's distinct displayed date, remain unchanged;
+translation does not reverify their provenance. No local model equivalence,
+converted prices, fresh offers or Coffeedant physical testing are claimed.
+
+The immutable full snapshot freezes 869 review/shared slots. The missing
+snapshot pins both current page fingerprints and 121 slots, covered by 88
+directly authored translation triples and three unchanged proper names.
+Exact-source reuse adds 122 cache entries per edition without changing earlier
+wording or routes. Preserve the registered German review
+`/testbericht-jura-z10/` and video
+`/jura-z10-video-testbericht-seattle-coffee-gear/`. New Dutch paths use
+`/espressomachines/jura-z10/`; new French paths use
+`/machines-expresso/jura-z10/`, each with its nested companion video.
+
+All 210 localization and 20 SEO tests and analytics validation pass. Nine
+complete previews retain every expected body character, metadata field,
+structured answer, accessible label, link and runtime string, including the
+existing E24 review as a regression. The prepared Z10 review has 91 paragraphs
+and 100 after native Finder rebuilding, six FAQ answers and nine tables; the
+companion has four paragraphs. Nine matching production comparisons and the
+full regional bundle also pass. Nine native-origin Chrome viewports verify
+zero document overflow, 54 labelled/focusable table regions, six Finder
+filter/reset/self-exclusion checks, six video dialogs with native labels and
+history/focus/canonical restoration, six mobile menus and nine language
+pickers. All 35 bean reviews and the 151-machine/seven-grinder Finder
+validators pass against the Cloudflare build.
+
+Current source remains 661 pages / 56,721 segments. Ready selection is 135
+indexable pages plus 404 per edition, retaining all 133 earlier canonical
+paths and the approved Dutch dosing URL. Coverage is NL 14,496 translated /
+42,225 pending, DE 14,532 / 42,189 and FR 14,505 / 42,216. Finder gaps remain
+zero; 155 non-video and 370 video pages remain unfinished. Full editions remain
+incomplete. Ready-pages publication, continuation and source-change
+maintenance stay active. Current-head checks, production deployment, complete
+live manifests and reciprocal links must pass before reporting publication.
+
+### Direct batch 77: GIGA 6, automatic-drip guide and current hubs (2026-11-05)
+
+Directly translate the complete JURA GIGA 6 Aluminum NAA review and its
+catalogued Faema Canada video into NL/DE/FR. Keep the dated US factory-refurbished
+15396.99 reference separate from UK 230 V EA article 15394. The conflicting
+16-versus-28 specialty counts remain explicit. Preserve the out-of-stock
+$3,499 refurb, $5,999 reference, one-year refurb warranty, dual grinders and
+fluid systems, daily HP2 milk care and exact-model parts/service conditions.
+Original video/source attributions and dates remain as written; translation
+does not reverify them. No local model equivalence, converted prices, fresh
+offers or Coffeedant physical testing are introduced.
+
+The immutable full snapshot freezes 865 review/shared slots. A missing snapshot
+pins the current review/video fingerprints and 121 slots, covered by 90 authored
+translation triples and two unchanged proper names. A separate frozen
+four-slot supplement translates the new automatic-drip card on the bean hub,
+and a two-slot supplement translates the new no-plug card on the machine hub.
+The automatic-drip guide additionally uses an immutable 645-slot full snapshot
+and 109-slot missing snapshot, covered by 88 translation triples and three
+unchanged proper-name links. Translate its complete body, seven FAQ answers,
+two comparison tables, metadata and accessible labels. Preserve the distinction
+between SCA equipment capacity checks, general filter ratios and Blue Bottle's
+hand-pour recipe; no current-bag tasting, delivery, stock or price is inferred.
+Correct the newly cached German guide's mistranslated grinder settings and
+brewer terminology, and the bean-hub heading. Reuse valid cached wording and
+preserve all unrelated concurrent cache additions and registered routes.
+The bean hub now links to the complete native guide. The unfinished manual
+guide continues opening its English source with the localized edition notice.
+The GIGA snapshots remain unchanged across the independent source additions.
+
+Preserve the registered German review `/testbericht-jura-giga-6/` and featured
+video `/jura-giga-6-video-testbericht-faema-canada/`. New Dutch paths use
+`/espressomachines/jura-giga-6/`; French paths use
+`/machines-expresso/jura-giga-6/`, each with its nested featured video. Other
+unfinished GIGA videos retain English destinations and the native notice.
+
+All 210 localization and 20 SEO tests pass. Final analytics, generated SEO,
+full previews and production checks cover the current 663-page source.
+Eighteen full comparisons cover the review, video, automatic-drip guide,
+both updated hubs and existing E24 regression in all three editions.
+The prepared GIGA review has 90 paragraphs and 99 after native Finder rebuilding,
+six FAQ answers and nine tables; the video has four paragraphs, and the complete
+bean hub retains all 93 paragraphs. Current production and runtime verification
+also covers the refreshed machine hub and its English guide destination before
+publication. Mobile rendering checks identified a long German Finder heading
+overflowing its container and a constraint label touching its value.
+Regional-only wrapping within the existing grid cells preserves the reviewed
+wording and the US layout; final browser checks cover the corrected heading,
+native guide links, tables, menus, Finder filters and video dialogs.
+All 35 bean reviews and the
+151-machine/seven-grinder Finder validators remain required on the current build.
+
+Current source is 663 pages / 56,955 segments. Ready selection is 138 indexable
+pages plus 404 per edition, preserving all 135 earlier canonical paths and the
+approved Dutch dosing URL. Coverage is NL 14,733 translated / 42,222 pending,
+DE 14,799 / 42,156 and FR 14,742 / 42,213. Finder gaps remain zero; 155 non-video
+and 369 video pages remain unfinished. Full editions remain incomplete.
+Ready-pages publication, continuation and source-change maintenance remain
+active. Current-head checks, production deployments, full live manifests and
+reciprocal links must pass before reporting publication.
+
+### Direct batch 78: complete manual-espresso guide without a plug (2026-11-05)
+
+Directly translate the complete no-plug manual-espresso buying guide into
+NL/DE/FR. Preserve the current Flair Classic two-portafilter kit, its Flow
+Control and Bottomless 2-in-1 choices, and the stove-matched 9Barista Mk.2
+Standard. Pro hardware claims stay separate. The brewer having no plug does
+not make the entire setup electricity-free: separate water heating or a
+compatible stove remains necessary. Retain cooling and handling instructions,
+separate milk preparation, dated US configuration context and the distinction
+between older reviews, current kits and individual owner anecdotes. No local
+availability, current price, measured performance or Coffeedant testing is added.
+
+The immutable full snapshot contains 619 slots. The missing snapshot freezes
+123 current slots, covered by 99 directly authored translation triples and
+one unchanged model name. Exact-source reuse also fills metadata, image labels
+and all seven structured FAQ answers. Import adds 123 cache entries per edition
+without changing earlier cached wording. Original markup, citations, image
+destinations and linked source articles remain intact.
+
+Preserve the registered German route
+`/espresso-maschine/beste-manuelle-espresso-maschinen-ohne-stecker/`.
+The Dutch guide uses
+`/espressomachines/beste-handmatige-espressomakers-zonder-stekker/`;
+the French guide uses
+`/machines-expresso/meilleures-machines-expresso-manuelles-sans-prise/`.
+The machine hub opens the completed native guide. Unfinished model reviews
+continue opening their English source with the native edition notice.
+
+All 210 localization and 20 SEO tests pass. Analytics, generated SEO, 35 bean
+reviews and the 151-machine/seven-grinder Finder pass against the current
+663-page source. Nine full preview and production comparisons cover the manual
+guide, its machine hub and the existing automatic-drip guide in every edition.
+Browser checks cover the guide at desktop and mobile widths, seven FAQ answers,
+two focusable scrolling comparisons, jump destinations, language selectors,
+mobile menus and native hub links. Production manifests, sitemaps, strict TLS,
+canonicals, indexing and English return links remain required after merge.
+
+Current source remains 663 pages / 56,955 segments. Ready selection is 139
+indexable pages plus 404 per edition, retaining all 138 earlier canonical paths
+and the approved Dutch dosing URL. Coverage is NL 14,856 translated / 42,099
+pending, DE 14,922 / 42,033 and FR 14,865 / 42,090. Finder gaps remain zero;
+154 non-video and 369 video pages per edition remain unfinished. Full editions
+remain incomplete. Ready-pages publication and both continuation and
+source-change maintenance remain active.
+
+### Direct batch 79: complete Gaggia Anima review and featured video (2026-11-06)
+
+Directly translate the complete standard Gaggia Anima review and its Whole
+Latte Love video into NL/DE/FR. Preserve the North American black ABS model,
+110-120V / 1400W specification, manual pannarello and absence of a milk carafe.
+Do not transfer Deluxe or Prestige milk hardware. Keep the five grinder
+positions, five aroma strengths, three temperatures, 1.8 L tank, approximately
+250 g hopper, 15-puck capacity and stated access clearances. The $699.00 US
+reference and comparison prices remain dated source facts, with the September
+23, 2026 check context; translation does not refresh them. The featured video's
+2015-11-06 date, retailer perspective and original attribution remain intact.
+No regional electrical equivalence, local offer or Coffeedant physical testing
+is introduced.
+
+An immutable full snapshot freezes 869 review/shared slots. A separate missing
+snapshot pins both current page fingerprints and 180 slots, covered by 145
+directly authored translation triples and two unchanged proper names. Reuse
+fills matching metadata, image captions, accessible labels and all six FAQ
+answers. Import adds 180 cache entries per edition without changing any earlier
+cached wording. Both review and video retain complete original markup,
+citations, images and link destinations.
+
+A separate frozen two-slot supplement translates the current machine hub's
+new milk-drink routine card after synchronizing the independent source addition.
+It adds two cache entries per edition and preserves the existing complete hub.
+The unfinished back-to-back milk-drink guide opens its English source with the
+localized edition notice; it is not emitted as a regional article.
+
+Preserve the existing Dutch review/video paths under
+`/espresso-machine/gaggia-anima/`, the German review and video under
+`/testbericht-gaggia-anima/`, and the French review under
+`/machine-a-espresso/gaggia-anima/`. The new French companion video uses that
+same parent with `/video/whole-latte-love/`. The Gaggia hub links to the native
+review, and unfinished video or alternative-model articles retain English
+destinations with the localized edition notice.
+
+All 210 localization and 20 SEO tests pass. Current-source analytics, generated
+SEO, 35 bean reviews and the 151-machine/seven-grinder Finder pass. Twelve full
+preview and production comparisons cover the review, featured video and
+existing no-plug manual guide, plus the current machine hub, in all three editions. Desktop/mobile runtime
+checks cover complete comparison tables, FAQ answers, Finder filtering/reset,
+current-model exclusion, video-dialog history/focus, localized menus, language
+selectors and analytics rejection. Publication still requires successful
+current-head checks, production manifests, sitemaps, strict TLS, canonicals,
+indexability and reciprocal English links.
+
+Current source is 664 pages / 57,073 segments. Ready selection is 141
+indexable pages plus 404 per edition, retaining all 139 earlier canonical paths
+and the approved Dutch dosing URL. Coverage is NL 15,038 translated / 42,035
+pending, DE 15,104 / 41,969 and FR 15,047 / 42,026. Finder gaps remain zero;
+154 non-video and 368 video pages per edition remain unfinished. Full editions
+remain incomplete. Ready-pages publication, continuation and source-change
+maintenance remain active.
+
+### Direct batch 80: Anima Prestige and Deluxe with featured videos (2026-11-06)
+
+Directly translate both complete Anima milk-system reviews and their short
+Whole Latte Love companion pages into NL/DE/FR. Prestige retains its North
+American 110-120V identity, integrated removable double-chamber carafe, four
+one-touch drinks, five grinder positions, stored volumes and absence of named
+user profiles. Deluxe retains its separate Cappuccinatore tube and external
+milk container. Its official RI8759/01 record is European; the US refurbished
+listing does not establish electrical equivalence. Keep the dated, sold-out
+$490.62 refurbished reference, stated $749 comparison and six-month limited
+warranty distinct from new stock and from Prestige's $849.00 US reference.
+No local price, discount, stock or Coffeedant physical testing is added.
+
+Immutable full snapshots freeze 870 Prestige and 869 Deluxe/shared slots.
+A four-page missing snapshot freezes 203 current slots, filled by 150 directly
+authored translation triples and two unchanged proper names. All twelve FAQ
+answers, metadata, image credits, mobile/accessibility labels, body sections,
+tables and source links remain complete. Import adds 203 cache entries per
+edition with no changes to prior cached wording. Both reviews retain all 92
+prepared paragraphs and 101 after native Finder rebuilding; each video retains
+four paragraphs. The source's Deluxe video catalog/UI date of 2015-11-06 and
+its written citation date of 2015-11-09 remain distinct; neither is silently
+reverified or corrected. Prestige retains 2015-11-11.
+
+Preserve Dutch review/video routes under `/espresso-machine/`, German routes
+under the existing `/testbericht-gaggia-anima-prestige/` and
+`/testbericht-gaggia-anima-deluxe/` parents, and the existing French review
+parents under `/machine-a-espresso/`. The two new French companion videos use
+their respective parent plus `/video/whole-latte-love/`. Native family and
+Gaggia-hub links point only to emitted pages; unfinished perspectives continue
+opening their English source with the localized notice.
+
+All 210 localization and 20 SEO tests pass. Current-source analytics, generated
+SEO, 35 bean reviews and the 151-machine/seven-grinder Finder pass. Fifteen full
+preview and production comparisons cover both complete reviews, both companion
+videos and the existing standard Anima in every edition. Eighteen browser views
+verify zero overflow, 108 focusable comparison regions, twelve Finder
+filter/reset and current-model-exclusion cases, twelve video dialogs, native
+menus, language-selector focus and analytics rejection. Current-head CI,
+production manifests, complete sitemaps, strict TLS, canonicals, indexability
+and reciprocal English links remain required before reporting publication.
+
+Current source remains 664 pages / 57,073 segments. Ready selection is 145
+indexable pages plus 404 per edition, retaining all 141 earlier canonical paths
+and the approved Dutch dosing URL. Coverage is NL 15,241 translated / 41,832
+pending, DE 15,307 / 41,766 and FR 15,250 / 41,823. Finder gaps remain zero;
+152 non-video and 366 video pages per edition remain unfinished. Full editions
+remain incomplete. Ready-pages publication, continuation and source-change
+maintenance remain active.
+
+### Direct batch 81: Babila and Velasca Prestige with featured videos (2026-11-06)
+
+Directly translate both complete reviews and their first Whole Latte Love watch
+pages into NL/DE/FR. Babila retains the discontinued North American RI9700/64
+and SUP046DG identity, distinct regional suffixes, fifteen grinder positions,
+Espresso Plus flow control, adjustable prebrew, automatic carafe and separate
+manual milk path. Preserve the absence of named profiles and the sold-out
+Cerini Coffee US reference of $1,888.95 against $1,993.95, with exact-model
+parts, condition, warranty and service constraints. This is not the current
+Accademia and no regional electrical equivalence is inferred.
+
+Velasca Prestige retains its North American RI8263/47, SUP047RG and 120V
+identity, distinct from 230V RI8263/01. Keep ten grinder positions, five
+strengths, adjustable pre-infusion, a detachable automatic carafe, separate
+hot-water outlet and absence of named profiles or an app. Preserve 54 oz water,
+10.5 oz beans, ten pucks, the original inch/pound dimensions and 2.75–4.5 in
+spout range. The dated $799.00 direct US reference is not a local offer.
+Both source check dates remain September 23, 2026; the featured videos retain
+2019-08-30 and 2017-12-22. No physical testing, stock refresh or local prices
+are added.
+
+Immutable full snapshots contain 868 slots each. The four-page missing snapshot
+freezes 208 slots, covered by 151 directly authored translation triples and
+four unchanged proper names. Cross-kind reuse adds 210 cache entries per
+edition without changing earlier passing wording or registered URLs. Complete
+bodies, twelve FAQ answers, image credits, metadata, accessible/mobile labels,
+tables and exact source links remain intact. Each review retains 92 prepared
+paragraphs and 101 after native Finder rebuilding; each watch page has four.
+
+Preserve the existing Dutch and German Babila parents, Dutch/German Velasca
+Prestige root routes and French Babila parent. New watch routes retain the
+source's disambiguating video suffix under the corresponding native parent.
+New French Velasca review/video routes use `/machine-a-espresso/`. Gaggia hub
+and family links resolve only to emitted native pages; unfinished perspectives
+continue opening their English source with the localized notice.
+
+The API-free Cloudflare source build, all 210 localization and 20 SEO tests,
+analytics/SEO validators, 35 bean reviews and 151-machine/seven-grinder Finder
+pass. Fifteen full preview and fifteen production comparisons include both
+reviews, both watch pages and the existing standard Anima in every edition.
+Eighteen browser views pass with zero overflow, 108 focusable table regions,
+twelve Finder filter/reset and current-model-exclusion checks, twelve video
+dialog history/focus checks, native menus, selectors and analytics rejection.
+Current-head CI and preview must pass before merge; final production manifests,
+sitemaps, TLS, canonicals, indexability and reciprocal English links must be
+verified after deployment.
+
+Current source remains 664 pages / 57,073 segments. The ready selection is 149
+indexable pages plus 404 per edition, preserving all 145 prior canonical paths
+and the approved Dutch dosing URL. Coverage is NL 15,451 translated / 41,622
+pending, DE 15,517 / 41,556 and FR 15,460 / 41,613. Finder gaps are zero;
+150 non-video and 364 video pages per edition remain unfinished. Full editions
+remain incomplete. Ready-pages publication, continuation and source-change
+maintenance remain active.
+
+### Direct batch 82: Cadorna Milk and Prestige with featured videos (2026-11-06)
+
+Directly translate both complete Cadorna reviews and their featured watch pages
+into NL/DE/FR. Milk retains its North American 110-120V, 1400W identity,
+Capp-in-Cup external tube and separate 0.5 L container, ten beverages, three
+one-touch milk specialties and four profiles. Prestige retains the current
+North American Over-Ice revision, fifteen beverages, seven one-touch milk
+specialties, removable integrated 0.6 L carafe and four profiles. Over-Ice
+remains a programmed hot extraction served over ice, not cold brew. Both keep
+their ten-position flat ceramic grinders, physical buttons, 1.5 L water,
+10.58 oz beans, 18 oz tray, ten pucks and original inch/pound dimensions.
+No regional electrical equivalence or new local commerce is inferred.
+
+Keep the dated $849.00 Milk and $1,049.00 Prestige US references with their
+September 23, 2026 checks. Milk's current watch/catalog attribution remains
+ECS COFFEE Espresso & Coffee Gear, and its written source citation retains
+Coffee Kev; the inherited attribution difference is preserved in translation.
+The featured dates remain 2021-03-08 and 2020-10-02. Manufacturer credits,
+ownership limitations and the absence of Coffeedant physical testing remain
+explicit; no source or stock is freshly reverified.
+
+Immutable full snapshots freeze 869 Milk and 868 Prestige/shared slots. The
+four-page missing snapshot contains 200 slots, covered by 144 directly authored
+translation triples and three unchanged proper names. Import adds 200 cache
+entries per edition with zero changes to earlier passing wording or registered
+URLs. Both complete bodies retain 92 prepared paragraphs and 101 after native
+Finder rebuilding, all twelve FAQ answers, metadata, image credits, accessible
+labels, tables and exact source links. Each watch page retains four paragraphs.
+
+Preserve the existing German `/espresso-maschine/` parents and the registered
+Milk watch route, including its `ecs-coffee-espresso-und-kaffee-gear` segment.
+New Dutch routes use `/espresso-machine/`; existing French review parents
+remain under `/machine-a-espresso/` with new corresponding watch routes.
+Prestige retains its source video disambiguation suffix. Native hub and family
+links point only to emitted pages; unfinished perspectives open the English
+source with the localized edition notice. The approved Dutch dosing route stays
+unchanged.
+
+The API-free Cloudflare source build, all 210 localization and 20 SEO tests,
+analytics/SEO validators, 35 bean reviews and the 151-machine/seven-grinder
+Finder pass. Fifteen full preview and fifteen production comparisons cover
+both reviews, both watch pages and the existing standard Anima in all editions.
+Eighteen final browser views pass with zero overflow, 108 focusable table
+regions, twelve Finder filter/reset and current-model-exclusion checks, twelve
+native video dialogs with their actual original creators, menus, language
+selector focus and analytics rejection. Current-head CI and preview remain
+required before merge; production manifests, complete sitemaps, TLS,
+canonicals, indexability and reciprocal English links are verified afterward.
+
+Current source remains 664 pages / 57,073 segments. Ready selection is 153
+indexable pages plus 404 per edition, retaining all 149 earlier canonical paths.
+Coverage is NL 15,651 translated / 41,422 pending, DE 15,717 / 41,356 and
+FR 15,660 / 41,413. Finder gaps remain zero; 148 non-video and 362 video pages
+per edition remain unfinished. Full editions remain incomplete. Ready-pages
+publication, continuation and source-change maintenance remain active.
+
+### Direct batch 83: Cadorna Barista Plus and both watch pages (2026-11-07)
+
+Directly translate the complete Barista Plus review and its two watch pages
+into NL/DE/FR. The current source identifies the reviewed North American
+Barista Plus as RI9601/47. The RI9603/47 code in the historical source URL
+belongs to Cadorna Milk, which has automatic milk hardware. Preserve that
+distinction, the black ABS body, four named profiles, six coffee beverages
+plus hot water and steam, ten grinder positions and the pivoting manual
+stainless wand with two openings and an insulated grip. Milk texturing and
+cleanup remain manual. Keep the dated $899.00 US 110-120V reference and
+September 23, 2026 source check without inferring local stock or equivalence.
+
+Both source videos remain intact: the November 24, 2020 Jess - Gadgets, Gear,
+Coffee perspective retains the creator affiliate disclosure, and the June 5,
+2020 Whole Latte Love perspective retains its retailer attribution and exact
+RI9601/47 wording. The full 872-slot snapshot and 117-slot missing snapshot
+remain immutable. The batch uses 82 directly authored translation triples
+and two unchanged proper names, adding 117 cache entries per edition with
+zero changes to earlier passing wording. The review retains 93 prepared
+paragraphs and 102 with native Finder results, all six FAQ answers and nine
+tables. The two watch pages retain five and four paragraphs respectively.
+
+Keep the English source and registered German/French routes under their
+historical RI9603-47 slugs, including the German Whole Latte Love watch page
+under `/espresso-maschine/`. The new Dutch review and watch routes use the
+documented RI9601-47 identity. New French watch routes use the existing
+French review parent. Earlier canonical URLs, including the approved Dutch
+dosing route, remain intact. Gaggia hub and family links use emitted native
+counterparts; unfinished pages continue opening their English source with
+the localized edition notice.
+
+The API-free source build, all 210 localization and 20 SEO tests, analytics
+and SEO validators, 35 bean reviews and the 151-machine/seven-grinder Finder
+pass. Fifteen full preview and eighteen production comparisons cover the new
+review, both watch pages and the existing Cadorna Milk and Prestige reviews
+in every edition; production checks also cover the repaired compact espresso
+guide. Twelve browser views pass with zero overflow, 54 focusable
+table regions, six Finder filter/reset and model-exclusion checks, six
+native video dialogs, both original creators, mobile menus, language selector
+focus and analytics rejection. Exact-head CI and preview are required before
+merge, followed by live deployment, sitemap, TLS, indexability and reciprocal
+language-link verification.
+
+The current Lelit Anna source revisions also changed four shared strings in
+the published compact espresso guide. This batch translates the updated
+technical-sheet note, check-price label and dated EU retailer reference for all
+three editions. The historical quote stays explicitly distinct from a verified
+current offer. The existing source-change update to the German cache is retained.
+
+Current source is 664 pages / 57,077 segments. The ready selection is 156
+indexable pages plus 404 per edition, retaining all 153 prior canonical
+paths. Coverage is NL 15,769 translated / 41,308 pending, DE 15,854 / 41,223
+and FR 15,778 / 41,299. Finder gaps remain zero; 147 non-video and 360 video
+pages per edition remain unfinished. Full editions remain incomplete.
+Ready-pages publication, continuation and source-change maintenance stay active.
+
+### Direct batch 84: Magenta Prestige and the Whole Latte Love watch page (2026-11-07)
+
+Translate the complete Gaggia Magenta Prestige review and its Whole Latte Love
+watch page into NL/DE/FR. The review distinguishes the North American 110-120V
+RI8702/46 and its thirteen-specialty Over-Ice menu from the global 230V version
+with twelve beverages. It keeps the removable automatic carafe and its cleaning
+requirements, five ceramic grinder positions, saved beverage settings without
+named profiles, dimensions and capacities, and the $899.00 North American
+reference checked September 23, 2026. The text retains the research-led evidence
+limits and the video’s May 3, 2021 date and retailer attribution.
+
+The 868-slot full review export and 98-slot missing snapshot are frozen. The
+batch supplies 70 translated strings per edition plus two exact brand/model
+strings; the importer adds 99 current cache entries per edition. Existing NL
+and DE review and video URLs remain stable. FR uses the native
+`/machine-a-espresso/gaggia-magenta-prestige-ri8702/` review path and its
+`video/whole-latte-love/` child. The unfinished Pirados por Café watch page
+continues to open in the English edition where linked.
+
+The source and regional builds, 210 localization tests, 20 SEO tests,
+analytics, and the 151-machine/seven-grinder Finder checks pass. Six complete
+document comparisons cover all 92 prepared review paragraphs, six FAQ answers
+and nine review tables, plus all four watch-page paragraphs. Nine desktop and
+mobile browser views pass with no horizontal overflow, including localized
+menus, Finder filters and video dialog controls.
+
+Current source remains 664 pages / 57,077 segments. The ready selection is
+158 indexable pages plus 404 per edition. Coverage is NL 15,868 translated /
+41,209 pending, DE 15,953 / 41,124 and FR 15,877 / 41,200. Finder gaps remain
+zero; 146 non-video and 359 video pages per edition remain unfinished. Full
+editions are incomplete. Incremental publication and source-change maintenance
+stay active.
+
+### Direct batch 85: Naviglio Deluxe and the Max & Cocco watch page (2026-11-07)
+
+Translate the complete Gaggia Naviglio Deluxe review and its Max & Cocco watch
+page into NL/DE/FR. The review identifies the silver 230 V HD8749/11 and its
+removable Cappuccinatore with a milk tube, distinct from the base Naviglio's
+pannarello and the Naviglio Milk's Capp-in-Cup. It retains immediate rinsing,
+three Optiaroma strengths, five ceramic grinder positions, the front-removable
+1.5 L tank, 300 g hopper, 10-puck bin, dimensions and spout range. The £369.00
+UK reference remains dated September 23, 2026, with the source VAT and regional
+terms intact. The review remains research-led. The Max & Cocco page retains
+the June 13, 2020 video and attribution; the separate Cady Hungary source
+remains separately credited in the review.
+
+The full 871-slot review export and 112-slot missing snapshot are immutable.
+The batch supplies 80 translated strings and three exact brand, model, or
+creator strings, adding 113 current cache entries per edition. Existing NL
+and DE review and video URLs stay in place. FR uses the native
+`/machine-a-espresso/gaggia-naviglio-deluxe-hd8749/` review path and its
+`video/max-and-cocco/` child.
+
+The source and regional builds, 210 localization tests, 20 SEO tests,
+analytics, and the 151-machine/seven-grinder Finder checks pass. Six complete
+document comparisons cover all 93 prepared review paragraphs, six FAQ answers
+and nine review tables, plus all four watch-page paragraphs. Nine desktop and
+mobile browser views show no horizontal overflow, with native menus, Finder
+filters and video dialog controls.
+
+Current source remains 664 pages / 57,077 segments. The ready selection is
+160 indexable pages plus 404 per edition. Coverage is NL 15,981 translated /
+41,096 pending, DE 16,066 / 41,011 and FR 15,990 / 41,087. Finder gaps remain
+zero; 145 non-video and 358 video pages per edition remain unfinished. Full
+editions are incomplete. Incremental publication and source-change maintenance
+stay active.
+
+### Direct batch 86: Naviglio HD8749/01 and the Scelta Perfetta watch page (2026-11-07)
+
+Translate the complete review of the black 230 V base Gaggia Naviglio HD8749/01
+and its Scelta Perfetta watch page into NL/DE/FR. The source corrects the model
+name in the historical URL: this model has a manual plastic pannarello, not the
+Naviglio Milk's Capp-in-Cup or the Deluxe's tube. Preserve manual milk handling,
+the three Optiaroma strengths, the five-position ceramic grinder, the 1.5 L
+front-access tank, 300 g hopper, 10-puck bin, and the dated £349.00 UK reference.
+Retain the research-led evidence limits, the retailer attribution and the
+original embedded video. The review's March 8, 2025 source date and the watch
+page's March 9 UTC display date refer to the same source timestamp. The source
+video title is truncated and remains visibly truncated in translation.
+
+The 870-slot full review export and 107-slot missing snapshot are immutable.
+The batch uses 78 directly translated strings and two unchanged names. Preserve
+the registered Dutch and German URLs with the historical “milk” slug. The new
+French paths use the exact model at
+`/machine-a-espresso/gaggia-naviglio-hd8749-01/` and its
+`video/scelta-perfetta/` child. The separate FRAD COFFEE watch page is unfinished
+and stays outside the regional sitemaps.
+
+The source and regional builds, 210 localization tests, 20 SEO tests,
+analytics, and the 151-machine/seven-grinder Finder checks pass. Six complete
+document comparisons cover the 92 prepared review paragraphs, six FAQ answers,
+nine tables and four watch-page paragraphs. Nine desktop and mobile browser
+views pass with no horizontal overflow and native menus, Finder filters and
+video controls.
+
+Current source remains 664 pages / 57,077 segments. The ready selection is
+162 indexable pages plus 404 per edition, retaining all 160 prior indexable
+paths. The batch adds 107 current cache entries per edition with no changes to
+earlier translations. Coverage is NL 16,088 translated / 40,989 pending,
+DE 16,173 / 40,904 and FR 16,097 / 40,980. Finder gaps remain zero; 144 non-video
+and 357 video pages per edition remain unfinished. Incremental publication and
+source-change maintenance stay active.
+
+### Direct batch 87 — FRAD COFFEE and Pirados por Café watch pages (2026-11-08)
+
+Translate the two remaining watch pages associated with the published Gaggia
+Naviglio HD8749/01 and Magenta Prestige RI8702/46 reviews. Keep the FRAD COFFEE
+April 4, 2020 and Pirados por Café December 12, 2024 videos, their original
+embeds and third-party attribution. Both demonstrate espresso preparation.
+The titles, page copy, image and frame labels, and structured metadata follow
+the frozen source. The FRAD COFFEE page identifies the base Naviglio, despite
+the historical “milk” slug in its source and registered NL and DE URLs.
+
+The FRAD COFFEE full export contains 485 slots and the grouped missing snapshot
+contains 36. The batch supplies 20 translated strings plus two creator names
+and adds 36 cache entries per edition. NL and DE keep their registered paths.
+The new French watch URLs use the existing French review paths as their parents.
+
+The source and regional builds, 210 localization tests, 20 SEO tests,
+analytics, and Finder checks pass. Six full document comparisons preserve all
+four paragraphs of each watch page, the localized frame label, the original
+embed and the page metadata. Twelve browser views cover both watch pages on
+mobile and desktop with no horizontal overflow.
+
+The source remains 664 pages and 57,077 segments. The ready selection is 164
+indexable pages plus 404 per edition. Coverage is NL 16,124 translated and
+40,953 pending, DE 16,209 translated and 40,868 pending, and FR 16,133 translated
+and 40,944 pending. Finder gaps remain zero. There are 144 non-video and 355
+video pages per edition still unfinished. Incremental publication and
+source-change maintenance stay active.
+
+### Direct batch 88 — two Velasca Prestige watch pages (2026-11-08)
+
+Translate the two remaining Whole Latte Love watch pages associated with the
+published Gaggia Velasca Prestige RI8263/47 review. The June 7, 2017 video
+demonstrates espresso and milk drinks. The May 26, 2017 video compares the
+Prestige with the base Velasca, preserving the distinction between the models
+and crediting the creator for the observations. Both retain their retailer
+attribution, original embeds and publication dates.
+
+The 485-slot full watch export and 22-slot missing snapshot are immutable.
+Twelve directly translated strings add 22 current cache entries per edition.
+NL and DE keep their registered URLs. FR uses the published French Velasca
+Prestige review as the parent and keeps both video suffixes distinct.
+
+The source and regional builds, 210 localization tests, 20 SEO tests,
+analytics, and Finder checks pass. Six full document comparisons cover the
+four paragraphs on each watch page, localized metadata and frame labels, and
+original embeds. Twelve desktop and mobile browser views pass with no horizontal
+overflow.
+
+The source remains 664 pages and 57,077 segments. The ready selection is 166
+indexable pages plus 404 per edition. Coverage is NL 16,146 translated and
+40,931 pending, DE 16,231 translated and 40,846 pending, and FR 16,155 translated
+and 40,922 pending. Finder gaps remain zero. There are 144 non-video and 353
+video pages per edition still unfinished. Incremental publication and
+source-change maintenance stay active.
+
+### Direct batch 89 — two base Velasca watch pages (2026-11-08)
+
+Translate the two remaining Whole Latte Love watch pages associated with the
+published Gaggia Velasca RI8260 review. The December 22, 2017 video covers basic
+operation and programming, including grinding, espresso and milk drinks. The
+May 26, 2017 video compares the base Velasca with the Velasca Prestige
+RI8263/47. It retains the distinction between models and the creator's
+observations. Both retain the source dates, embeds, and retailer attribution.
+
+The 485-slot full watch export and 15-slot missing snapshot are immutable.
+Seven directly translated strings add 15 current cache entries per edition.
+The comparison retains previously translated wording where the source matches.
+NL and DE keep the registered URLs. FR uses the published base Velasca review
+path as the parent for both watch pages.
+
+The source and regional builds, 210 localization tests, 20 SEO tests,
+analytics, and Finder checks pass. Six full document comparisons cover both
+four-paragraph pages, localized metadata and labels, and original embeds.
+Twelve desktop and mobile browser views pass with no horizontal overflow.
+
+The source remains 664 pages and 57,077 segments. The ready selection is 168
+indexable pages plus 404 per edition. Coverage is NL 16,161 translated and
+40,916 pending, DE 16,246 translated and 40,831 pending, and FR 16,170 translated
+and 40,907 pending. Finder gaps remain zero. There are 144 non-video and 351
+video pages per edition still unfinished. Incremental publication and
+source-change maintenance stay active.
+
+### Direct batch 90 — two Bezzera Duo MN watch pages (2026-11-08)
+
+Translate two Whole Latte Love watch pages for the Bezzera Duo MN. The
+July 6, 2018 video examines the internal components of the Bezzera Matrix
+and Duo. The May 8, 2018 video reviews the Bezzera Matrix MN and Duo MN,
+including espresso, milk drinks and cleaning. Both retain the source
+dates, embeds, retailer attribution, and links. The written Duo MN review
+is still pending and opens on the English site from the localized pages.
+
+The 496-slot full export and 26-slot missing snapshot freeze the source.
+Fifteen directly translated strings add 26 current cache entries per
+edition. All six watch URLs keep their registered paths.
+
+The source and regional builds, 210 localization tests, 20 SEO tests,
+analytics, and Finder checks pass. Six document comparisons confirm full
+text, metadata, labels, dates, and the original video destinations.
+Twelve desktop and mobile browser views pass with no horizontal overflow.
+
+The source remains 664 pages and 57,077 segments. The ready selection is 170
+indexable pages plus 404 per edition. Coverage is NL 16,187 translated and
+40,890 pending, DE 16,272 translated and 40,805 pending, and FR 16,196 translated
+and 40,881 pending. Finder gaps remain zero. Each edition has 144 non-video and
+349 video pages left. Incremental publication and source-change maintenance
+stay active.
+
+### Direct batch 91 — two Bezzera BZ13 PID watch pages (2026-11-08)
+
+Translate two Whole Latte Love watch pages for the Bezzera BZ13 PID. The
+April 7, 2022 video covers both PM and DE control variants, the electrically
+heated BZ group, PID controls, and simultaneous brewing and steaming. The
+August 27, 2020 video covers grinding, espresso, and milk drinks. Both
+retain the original embeds, dates, retailer attribution, and registered
+routes. The unfinished written review opens at its English source.
+
+The 496-slot full export and 26-slot missing snapshot freeze the source.
+Fifteen directly translated strings add 26 current cache entries per edition.
+
+The static builds, 210 localization tests, 20 SEO tests, analytics, and Finder
+checks pass. Six document comparisons confirm complete text, metadata,
+accessibility labels, dates, and original video destinations. Twelve desktop
+and mobile views pass with no horizontal overflow.
+
+The source remains 664 pages and 57,077 segments. The ready selection is 172
+indexable pages plus 404 per edition. Coverage is NL 16,213 translated and
+40,864 pending, DE 16,298 translated and 40,779 pending, and FR 16,222 translated
+and 40,855 pending. Finder gaps remain zero. Each edition has 144 non-video and
+347 video pages left. Incremental publication and source-change maintenance
+stay active.
+
+### Direct batch 92 — two Bezzera Strega watch pages (2026-11-08)
+
+Translate the Whole Latte Love and Spina Espresso watch pages for the Bezzera
+Strega. The retailer video shows the lever, pump fill, controls, and steaming.
+The short Spina Espresso review retains its creator attribution and source
+dates, including the difference between the timestamp’s local date and the
+displayed UTC date. The original embeds and registered routes stay in place.
+The unfinished written review opens at its English source.
+
+The 503-slot full export and 31-slot missing snapshot freeze the source.
+Seventeen directly translated strings and the unchanged Spina Espresso name
+add 31 current cache entries per edition.
+
+The static builds, 210 localization tests, 20 SEO tests, analytics, and Finder
+checks pass. Six full document comparisons cover text, metadata, labels,
+structured data, and exact video destinations. All twelve desktop and mobile
+views fit without horizontal overflow.
+
+The source has 664 pages and 57,081 segments after the K-Ultra source update.
+The ready selection is 174 indexable pages plus 404 per edition. Coverage is
+NL 16,244 translated and 40,837 pending, DE 16,329 translated and 40,752 pending,
+and FR 16,253 translated and 40,828 pending. Finder gaps remain zero. Each edition
+has 144 non-video and 345 video pages left. Incremental publication and
+source-change maintenance stay active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

@@ -1,0 +1,665 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/gaggia-classic-evo-pro/",
+      "sourceHash": "d96cff02b75ace5f942a42214767949df6175a295d89104494787ddbb5b05da0"
+    },
+    {
+      "sourcePath": "/espresso-machine/gaggia-classic-evo-pro/video/lifestyle-lab/",
+      "sourceHash": "b7b68e3e559f0deebc5966ad431485e9ad207c1a96399ffd1d146921d302275f"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "34167cfb74c282386c3c1f6ad839c12b813865ee4b60cc51710808b5e263e222",
+      "source": "Lifestyle Lab",
+      "kind": "text",
+      "context": "Lifestyle Lab"
+    },
+    {
+      "id": "5aa231efee42d864f0db01c9d55ca0b8636d7ed93b65aa0dac5731f0245a9fff",
+      "source": "Video and opinions belong to Lifestyle Lab. Coffeedant curates this perspective alongside our written review.",
+      "kind": "text",
+      "context": "Video and opinions belong to Lifestyle Lab. Coffeedant curates this perspective alongside our written review."
+    },
+    {
+      "id": "62c9e2d86a6263211639dd705bbe9283fa7689a5d62af64730aa09ebe5012d82",
+      "source": "Lifestyle Lab",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "640a225d98562faaf02fe9892918cda379b48f180d854a766769e97c1a46cabe",
+      "source": "Video by Lifestyle Lab",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b4be31faf1f16c2294add69d5c8d418414cee680199706d71f31a17f48bf0cfd",
+      "source": "3.3 out of 5, open the Coffeedant category ratings",
+      "kind": "attribute",
+      "context": "Research-led assessment 3.3/5 See all six categories ↓     Check refurbished stock ↗Official current availability and condition disclosure  Open NEO Flex tutorials ↗Official generation-specific brewing and care guidance   Compare with Coffee Finder → Search every reviewed machine"
+    },
+    {
+      "id": "b5caac91a619292e251e6ed5d5d854554847ac280923a1ed3c2033f3f3b99d4c",
+      "source": "6.5 out of 10",
+      "kind": "attribute",
+      "context": "Features assessment Features: a short list that is easy to learn   6.5 out of 10"
+    },
+    {
+      "id": "5ab5841b9c7893620bf98308987d813bd2cc39e6cab0e0a473e4e9801608867c",
+      "source": "Gaggia Classic Evo Pro review: identify the 2023 boiler before buying | Coffeedant",
+      "kind": "text",
+      "context": "Gaggia Classic Evo Pro review: identify the 2023 boiler before buying | Coffeedant"
+    },
+    {
+      "id": "47fa2118b5fd3aa7992d8d44ffff276d05effbd287e009550d3f883fe960bde6",
+      "source": "A research-led Gaggia Classic Evo Pro RI9380/46 review covering the 2023 coated aluminum boiler, 58 mm portafilter, nine-bar setup, used-buying checks and successor context.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "0f0cc6912c0060f91c3dd50af60ebad3ef33a545bfa59f2ed9563b04162746fc",
+      "source": "Gaggia Classic Evo Pro review: identify the 2023 boiler before buying | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "700ef95f4e892475d9a44b22b0167dd7493af2d598aa845832f7e4f635172d10",
+      "source": "Gaggia Classic Evo Pro review: identify the 2023 boiler before buying",
+      "kind": "text",
+      "context": "Gaggia Classic Evo Pro review: identify the 2023 boiler before buying"
+    },
+    {
+      "id": "2f36df45984a2625c41add940108926b2414cd89550ae356898e910a537099d9",
+      "source": "For home baristas who want a low-cost 58 mm classic platform when the exact boiler history and condition are documented",
+      "kind": "text",
+      "context": "For home baristas who want a low-cost 58 mm classic platform when the exact boiler history and condition are documented"
+    },
+    {
+      "id": "9edaca18257e731fb4af5897f52f4ba815a5057d8a0cfc13846af8979bf21375",
+      "source": "Choose the Classic Evo Pro RI9380/46 for a low-cost 58 mm classic platform when the exact boiler history and condition are documented. Skip it when the 2023 coated-boiler generation carries unresolved used-buying uncertainty and has been superseded by e24 conflicts with the normal drink routine.",
+      "kind": "text",
+      "context": "Choose the Classic Evo Pro RI9380/46 for a low-cost 58 mm classic platform when the exact boiler history and condition are documented. Skip it when the 2023 coated-boiler generation carries unresolved used-buying uncertainty and has been superseded by e24 conflicts with the normal drink routine."
+    },
+    {
+      "id": "ee4ed41bdad2a8a5f78ee29772731c3f542ceb45e67b50d15bb3ceab25476c40",
+      "source": "A low-cost 58 mm Classic platform when the exact boiler history and condition are documented The central trade-off is the 2023 coated-boiler generation carries unresolved used-buying uncertainty and has been superseded by e24",
+      "kind": "text",
+      "context": "A low-cost 58 mm Classic platform when the exact boiler history and condition are documented The central trade-off is the 2023 coated-boiler generation carries unresolved used-buying uncertainty and has been superseded by e24"
+    },
+    {
+      "id": "09a7550d534e8c5c749e2d4b63939ad982d1eaa90d11992eadc0de8c4af3214f",
+      "source": "Documented 2023 launch price; verify generation, boiler, voltage, condition and warranty",
+      "kind": "text",
+      "context": "Documented 2023 launch price; verify generation, boiler, voltage, condition and warranty"
+    },
+    {
+      "id": "718327069650ec39ed0e236a310da892f43516a68b10920aabd7eb8334ca9562",
+      "source": "Choose for a low-cost 58 mm classic platform when the exact boiler history and condition are documented.",
+      "kind": "text",
+      "context": "Choose for a low-cost 58 mm classic platform when the exact boiler history and condition are documented."
+    },
+    {
+      "id": "a83f1d73411e19ad5587ee31b7cc8edce658c73863a4a6a6e68bd575f90eea28",
+      "source": "North American 2023 RI9380/46 Classic Evo Pro with the factory-coated aluminum boiler, not the later E24.",
+      "kind": "text",
+      "context": "North American 2023 RI9380/46 Classic Evo Pro with the factory-coated aluminum boiler, not the later E24."
+    },
+    {
+      "id": "718598859992c19a6d06ebdcd9ecdd90ab73c341c6a71029693223313cecd9e4",
+      "source": "Single coated-aluminum dual-use boiler with thermostat control",
+      "kind": "text",
+      "context": "Single coated-aluminum dual-use boiler with thermostat control"
+    },
+    {
+      "id": "9130f59dd93ac6ff858c4d4d1889e9e516cef82fb428dc2f72f19f24b64a35bd",
+      "source": "58 mm portafilter, nine-bar calibration and three-way solenoid without a PID",
+      "kind": "text",
+      "context": "58 mm portafilter, nine-bar calibration and three-way solenoid without a PID"
+    },
+    {
+      "id": "22723ccfab8059d6c54b870d4e5fe7cb818ff9e128b05d9074824541152e853b",
+      "source": "Manual wand; brewing, steaming and cooling happen in sequence",
+      "kind": "text",
+      "context": "Manual wand; brewing, steaming and cooling happen in sequence"
+    },
+    {
+      "id": "0d7d7b370214f1e93a4af3360a87a058a1625f58ff5d2ed5c18d62872297e5f0",
+      "source": "Three rocker switches, manual shot stop and no temperature display",
+      "kind": "text",
+      "context": "Three rocker switches, manual shot stop and no temperature display"
+    },
+    {
+      "id": "0e79dd7eb0f4f3e1bbdbe647d52b38ba570fc91f817039a6660d2f1e1713c553",
+      "source": "About 72 oz reservoir and 16 oz tray",
+      "kind": "text",
+      "context": "About 72 oz reservoir and 16 oz tray"
+    },
+    {
+      "id": "b26f1c6e95cfa0356f447569db9982deed6a98cae280aafe9be224b40cba8565",
+      "source": "About 8 W by 9.5 D by 14.2 H in; verify the rating plate",
+      "kind": "text",
+      "context": "About 8 W by 9.5 D by 14.2 H in; verify the rating plate"
+    },
+    {
+      "id": "66595df86ab5dd9d68468dd5b0dac603ba8404150a36ffde491ce0b81eacb59f",
+      "source": "The 2023 coated-boiler generation carries unresolved used-buying uncertainty and has been superseded by E24",
+      "kind": "text",
+      "context": "The 2023 coated-boiler generation carries unresolved used-buying uncertainty and has been superseded by E24"
+    },
+    {
+      "id": "4f75fec872151d03ebf620582ba005ae373cf9147b00fb9863c61edfa3d980fc",
+      "source": "What exact Classic Evo Pro RI9380/46 is reviewed?",
+      "kind": "text",
+      "context": "What exact Classic Evo Pro RI9380/46 is reviewed?"
+    },
+    {
+      "id": "c4aefa1b991c6d1218cccc7034c18c54db5eddc3b3054901479ee1960d1875e3",
+      "source": "A buyer who values a low-cost 58 mm classic platform when the exact boiler history and condition are documented and accepts the 2023 coated-boiler generation carries unresolved used-buying uncertainty and has been superseded by e24",
+      "kind": "text",
+      "context": "A buyer who values a low-cost 58 mm classic platform when the exact boiler history and condition are documented and accepts the 2023 coated-boiler generation carries unresolved used-buying uncertainty and has been superseded by e24"
+    },
+    {
+      "id": "a95eb5ec10d7459e57b1ef6d2d5e4863edf5af1d905463cddc79658f2dd96201",
+      "source": "Gaggia Classic Evo Pro RI9380/46 full review",
+      "kind": "attribute",
+      "context": "Home/ Espresso machines/ Classic Evo Pro RI9380/46     Gaggia · research-led assessment Gaggia Classic Evo Pro review: identify the 2023 boiler before buying   For home baristas who want a low-cost 58 mm classic platform when the exact boiler history and condition are documented     Written byAleksandar SpasevskiEditor at Coffeedant   PublishedJul 27, 2026 UpdatedOct 30, 2026      Choose the Classic Evo Pro RI9380/46 for a low-cost 58 mm classic platform when the exact boiler history and condition are documented. Skip it when the 2023 coated-boiler generation carries unresolved used-buying uncertainty and has been superseded by e24 conflicts with the normal drink routine.  My assessmentA low-cost 58 mm Classic platform when the exact boiler history and condition are documented The central trade-off is the 2023 coated-boiler generation carries unresolved used-buying uncertainty and has been superseded by e24 How I reached this conclusion ↗    Research-led assessment 3.3/5 See all six categories ↓     Check exact listing or product record ↗Documented 2023 launch price; verify generation, boiler, voltage, condition and warranty  Open official product information ↗Manufacturer identity, architecture and specification record   Compare with Coffee Finder → Search every reviewed machine      Also consider Classic Evo Pro RI9380/46 ↗Choose for a low-cost 58 mm classic platform when the exact boiler history and condition are documented.Gaggia Classic Pro E24 ↗Choose the current brass-boiler single-boiler route when cost and simplicity matter.Gaggia Classic GT ↗Choose dual boilers, two PIDs, pressure feedback and pre-infusion when faster control earns the cost.    Exact identityNorth American 2023 RI9380/46 Classic Evo Pro with the factory-coated aluminum boiler, not the later E2"
+    },
+    {
+      "id": "df0afc43c4f3089688105380099e7c19b1b939c16a060f107474859870a4d63d",
+      "source": "A single overall score is useful only when you can see what produced it. Gaggia Classic Evo Pro RI9380/46 earns",
+      "kind": "text",
+      "context": "A single overall score is useful only when you can see what produced it. Gaggia Classic Evo Pro RI9380/46 earns 3.3/5, with espresso, milk, workflow, build, features, and value scored separately below."
+    },
+    {
+      "id": "9f152def180a55917e44a9bb74445bba91e2f2a8c02220fc0cd8115f961f66b4",
+      "source": "$499.00 needs a complete-station comparison.",
+      "kind": "text",
+      "context": "$499.00 needs a complete-station comparison."
+    },
+    {
+      "id": "a70c1f564150822fa91027633fcc8dbe8e215236c5f5005999573a32b32c65c3",
+      "source": "Classic Evo Pro RI9380/46: the buying decision",
+      "kind": "text",
+      "context": "Classic Evo Pro RI9380/46: the buying decision"
+    },
+    {
+      "id": "b5271b5457e73aa4c416693c831cd3ce80183e251b6076d528fe6c2693b3ecb3",
+      "source": "A 2023 Classic Evo Pro needs its boiler history established before its familiar 58 mm group becomes a selling point. The reviewed North American RI9380/46 was built with a coated aluminum boiler and has since been superseded by E24, so replacement history and the condition of the actual unit matter. Its mechanical switches, three-way solenoid and manual steam wand remain recognizable Classic strengths, with thermostat timing and sequential milk work still expected of the owner. A documented, appropriately priced example can be useful. An uncertain boiler record should outweigh enthusiasm for the Classic's accessory and modification ecosystem.",
+      "kind": "text",
+      "context": "A 2023 Classic Evo Pro needs its boiler history established before its familiar 58 mm group becomes a selling point. The reviewed North American RI9380/46 was built with a coated aluminum boiler and has since been superseded by E24, so replacement history and the condition of the actual unit matter. Its mechanical switches, three-way solenoid and manual steam wand remain recognizable Classic strengths, with thermostat timing and sequential milk work still expected of the owner. A documented, appropriately priced example can be useful. An uncertain boiler record should outweigh enthusiasm for the Classic's accessory and modification ecosystem. [source] [source] [source] [source] [source] [source]"
+    },
+    {
+      "id": "f9a5bd0219b7c05d6f93e3976e32698b5016500b075a458e7a844300a6163070",
+      "source": "Setting up the Classic Evo Pro RI9380/46",
+      "kind": "text",
+      "context": "Setting up the Classic Evo Pro RI9380/46"
+    },
+    {
+      "id": "df03a1ec8e8207d7db99162df59be1a5d23d296ad583027b6aeaca8e4a1589cd",
+      "source": "single coated-aluminum dual-use boiler with thermostat control.",
+      "kind": "text",
+      "context": "System: single coated-aluminum dual-use boiler with thermostat control."
+    },
+    {
+      "id": "7a985f9d634397ca7e4352ef4d964f1d5eeacb5fc3009c4a5fc713a055ef8cd2",
+      "source": "RI9380/46 here means the 2023 coated-aluminum Classic Evo Pro. Obtain the serial, original purchase record and any boiler-replacement documentation before comparing its price with a new E24. A photograph of the familiar Classic case cannot resolve the internal boiler history.",
+      "kind": "text",
+      "context": "RI9380/46 here means the 2023 coated-aluminum Classic Evo Pro. Obtain the serial, original purchase record and any boiler-replacement documentation before comparing its price with a new E24. A photograph of the familiar Classic case cannot resolve the internal boiler history. [source] [source] [source]"
+    },
+    {
+      "id": "362910c024194857adabcace44caab1bdf6994dbf8a100b3d6ba98c00592e0ce",
+      "source": "Stainless frame and cup area of the Gaggia Classic family",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "d18eedb3f241a16aa86fa5d34bd8460553773891b8eecbeb2b5764afbfa2d064",
+      "source": "The exterior detail is shared family media. It helps identify the chassis but does not prove whether a used unit contains the 2023 coated boiler, an uncoated transition boiler or the later E24 brass boiler.",
+      "kind": "text",
+      "context": "Manufacturer photo The exterior detail is shared family media. It helps identify the chassis but does not prove whether a used unit contains the 2023 coated boiler, an uncoated transition boiler or the later E24 brass boiler. \nImage: Gaggia Classic family product media.\n Usage record: Official manufacturer product-page media.\nOfficial manufacturer media; not a Coffeedant test photograph."
+    },
+    {
+      "id": "78ef813ec21b5e1bcab6b567df1b494c31998e609423aade5f9207b451b0b284",
+      "source": "Gaggia Classic family product media",
+      "kind": "text",
+      "context": "Gaggia Classic family product media"
+    },
+    {
+      "id": "72c9989a6ea51031dff0b086c66a916aa1ebfe89e6115dafe7392cdd20b9af88",
+      "source": "See what else fits beside the Classic Evo Pro RI9380/46.",
+      "kind": "text",
+      "context": "See what else fits beside the Classic Evo Pro RI9380/46."
+    },
+    {
+      "id": "5080d43fdd09c204ceaafbfb8b5512291cdd122830d923df85c26a1d681fd564",
+      "source": "The 58 mm format, nine-bar calibration and three-way solenoid provide a familiar manual brewing platform. Thermostats rather than a PID control the stock boiler. For a candidate used unit, a stable demonstrated brew routine and documented condition are more useful than an impressive extraction video with an unknown grinder.",
+      "kind": "text",
+      "context": "The 58 mm format, nine-bar calibration and three-way solenoid provide a familiar manual brewing platform. Thermostats rather than a PID control the stock boiler. For a candidate used unit, a stable demonstrated brew routine and documented condition are more useful than an impressive extraction video with an unknown grinder. [source] [source] [source]"
+    },
+    {
+      "id": "10773ae46275d20dff3f24d06d4db7d22ada630041e87e426c8e663989004db4",
+      "source": "RI9380/46 changes between coffee and steam temperature within one boiler. Ask to see the complete brew–steam–return sequence, because a machine sold after years of use needs more than a working pump demonstration. The manual wand offers direct texture control but no automated finishing.",
+      "kind": "text",
+      "context": "RI9380/46 changes between coffee and steam temperature within one boiler. Ask to see the complete brew–steam–return sequence, because a machine sold after years of use needs more than a working pump demonstration. The manual wand offers direct texture control but no automated finishing. [source] [source] [source] [source]"
+    },
+    {
+      "id": "4ea5cab219cc84da2d8b22aae204340c8a0748e2a03a604f9e1f36cd141dda6b",
+      "source": "Rocker switches and manual shot stopping leave a simple interface with no temperature display. The buying complication is inside: this generation’s coated-boiler history must be documented. Treat the time and cost of inspection as part of the purchase instead of valuing it as an interchangeable E24.",
+      "kind": "text",
+      "context": "Rocker switches and manual shot stopping leave a simple interface with no temperature display. The buying complication is inside: this generation’s coated-boiler history must be documented. Treat the time and cost of inspection as part of the purchase instead of valuing it as an interchangeable E24. [source] [source] [source]"
+    },
+    {
+      "id": "579b7ca1ffff38652ecd3a237ea52257fa926653abf8aca77647acb773683a9f",
+      "source": "Single coated-aluminum dual-use boiler with thermostat control. About 8 W by 9.5 D by 14.2 H in; verify the rating plate.",
+      "kind": "text",
+      "context": "Single coated-aluminum dual-use boiler with thermostat control. About 8 W by 9.5 D by 14.2 H in; verify the rating plate. [source] [source] [source] [source]"
+    },
+    {
+      "id": "8166cdfd4623453484b226093cce176d5df9a1ed764107c7fcc6a4fc389aabbc",
+      "source": "Match descaling and cleaning guidance to the boiler actually installed, including any documented replacement. Keep photographs and service invoices with the serial information. A used unit with uncertain internals should be assessed by competent service rather than subjected to a borrowed online cleaning recipe.",
+      "kind": "text",
+      "context": "Match descaling and cleaning guidance to the boiler actually installed, including any documented replacement. Keep photographs and service invoices with the serial information. A used unit with uncertain internals should be assessed by competent service rather than subjected to a borrowed online cleaning recipe."
+    },
+    {
+      "id": "28c005637180c0a1049c63a6c8bd18ebe0be15768befa2dbb05c4bf1b54d2130",
+      "source": "Manual steam wand on the Gaggia Classic family",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "6aae43c8f0898d670499276c35b08ef4d36b84c9001755a403858ff0bf226d5f",
+      "source": "The current family image illustrates the manual milk workflow. Exact boiler and internal revision still have to be verified from the machine and seller records.",
+      "kind": "text",
+      "context": "Manufacturer photo The current family image illustrates the manual milk workflow. Exact boiler and internal revision still have to be verified from the machine and seller records. \nImage: Gaggia Classic family product media.\n Usage record: Official manufacturer product-page media.\nOfficial manufacturer media; not a Coffeedant test photograph."
+    },
+    {
+      "id": "2e3b6cd987009809c99ba9775b0b145beee3b77045a884dd5c5584fa452fbff6",
+      "source": "Documented 2023 launch price was recorded as $499.00: Historical launch reference, not a current new-stock offer; used and old-stock condition, boiler history and warranty must be checked individually",
+      "kind": "text",
+      "context": "Documented 2023 launch price was recorded as $499.00: Historical launch reference, not a current new-stock offer; used and old-stock condition, boiler history and warranty must be checked individually [source]"
+    },
+    {
+      "id": "3f5fc14ebeba485cae53ce1d5cb62797e761dce53ae402d41a314273c44ebba4",
+      "source": "5.8 out of 10",
+      "kind": "attribute",
+      "context": "Value assessment Value evidence   5.8 out of 10"
+    },
+    {
+      "id": "b136be267d2cc56c395a56bba68689329c0876a24093cc923697a4e00ed788b2",
+      "source": "Documented 2023 launch price: $499.00",
+      "kind": "text",
+      "context": "Documented 2023 launch price: $499.00"
+    },
+    {
+      "id": "24120d7aa4f1199d82b37c48df2dd616c345ce7cab63398b71d55368ccfe5afc",
+      "source": "Historical launch reference, not a current new-stock offer; used and old-stock condition, boiler history and warranty must be checked individually",
+      "kind": "text",
+      "context": "Historical launch reference, not a current new-stock offer; used and old-stock condition, boiler history and warranty must be checked individually"
+    },
+    {
+      "id": "a6762f5711d2db24ec54bc1d5c5460ea770454816b47a68d0cdd7e5b42ff2bdb",
+      "source": "Owner discussion: Classic Evo Pro RI9380/46",
+      "kind": "text",
+      "context": "Owner discussion: Classic Evo Pro RI9380/46"
+    },
+    {
+      "id": "32525aba14004b941a217775a029190ca148b7d0e3df9a16984289ef01884e15",
+      "source": "Classic Evo Pro RI9380/46 versus the closest alternatives",
+      "kind": "text",
+      "context": "Classic Evo Pro RI9380/46 versus the closest alternatives"
+    },
+    {
+      "id": "30f657f0585c2affdafbe8316faa5a28572291028f796050fdc2e4a6cfde197d",
+      "source": "Gaggia Classic Evo Pro RI9380/46 quick comparison",
+      "kind": "attribute",
+      "context": "Gaggia Classic Evo Pro RI9380/46 and its closest alternatives\n        MachinePrice positionThe quick decision\n        Classic Evo Pro RI9380/46$499.00Choose for a low-cost 58 mm classic platform when the exact boiler history and condition are documented.Gaggia Classic Pro E24$549 current US referenceChoose the current brass-boiler single-boiler route when cost and simplicity matter.Gaggia Classic GT$1,699 current US referenceChoose dual boilers, two PIDs, pressure feedback and pre-infusion when faster control earns the cost.\n      \n    \n    \n      DetailsOpen the technical and workflow comparison\n      \n        \n          Detailed ownership comparison\n          MachineDimensionsHeatingCoffee setupMilk workflowBest fit\n          Classic Evo Pro RI9380/46About 8 W by 9.5 D by 14.2 H in; verify the rating plateSingle coated-aluminum dual-use boiler with thermostat control58 mm portafilter plus separate grinderManual wand; brewing, steaming and cooling happen in sequenceA low-cost 58 mm Classic platform when the exact boiler history and condition are documentedGaggia Classic Pro E248 by 9.5 by 14.2 in official listing orderLead-free brass single dual-use boiler58 mm portafilter; separate grinderSequential manual steamTraditional compact learning platformGaggia Classic GT10.2 by 16.5 by 16.7 inBrass brew boiler plus stainless steam boiler58 mm portafilter; separate grinderSimultaneous commercial-style wandHigher-throughput prosumer workflow\n        \n      \n      Classic, Classic Pro, 2023 Evo, E24 and GT are different hardware decisions. Verify the rating plate, boiler and region rather than trusting a shortened listing title."
+    },
+    {
+      "id": "7f05218511abe353173f2efa021864289f5c58b519c4008519cff7ee349aa84f",
+      "source": "Gaggia Classic Evo Pro RI9380/46 and its closest alternatives",
+      "kind": "text",
+      "context": "Gaggia Classic Evo Pro RI9380/46 and its closest alternatives"
+    },
+    {
+      "id": "afe4062bf18ede08a531d97047e9e09e97bf1d37d77f23fd573bb8a9ce0ac3c0",
+      "source": "Gaggia Classic Evo Pro RI9380/46 detailed comparison",
+      "kind": "attribute",
+      "context": "DetailsOpen the technical and workflow comparison\n      \n        \n          Detailed ownership comparison\n          MachineDimensionsHeatingCoffee setupMilk workflowBest fit\n          Classic Evo Pro RI9380/46About 8 W by 9.5 D by 14.2 H in; verify the rating plateSingle coated-aluminum dual-use boiler with thermostat control58 mm portafilter plus separate grinderManual wand; brewing, steaming and cooling happen in sequenceA low-cost 58 mm Classic platform when the exact boiler history and condition are documentedGaggia Classic Pro E248 by 9.5 by 14.2 in official listing orderLead-free brass single dual-use boiler58 mm portafilter; separate grinderSequential manual steamTraditional compact learning platformGaggia Classic GT10.2 by 16.5 by 16.7 inBrass brew boiler plus stainless steam boiler58 mm portafilter; separate grinderSimultaneous commercial-style wandHigher-throughput prosumer workflow\n        \n      \n      Classic, Classic Pro, 2023 Evo, E24 and GT are different hardware decisions. Verify the rating plate, boiler and region rather than trusting a shortened listing title."
+    },
+    {
+      "id": "de3b63387513213fec8d6b2acd54ca6830acd1d38d63177afbd5a2e7066c9b75",
+      "source": "Living with the Classic Evo Pro RI9380/46",
+      "kind": "text",
+      "context": "Living with the Classic Evo Pro RI9380/46"
+    },
+    {
+      "id": "4737c04fb007e46442655a712be676239f2e7b7ac33340351be5b1379ea7ad72",
+      "source": "Owner discussions about the 2023 boiler are a reason to request records, not a way to diagnose a particular unit remotely. Ask what boiler is fitted now, who performed any replacement and what seller protection applies. If those answers remain vague, the low asking price is not enough evidence.",
+      "kind": "text",
+      "context": "Owner discussions about the 2023 boiler are a reason to request records, not a way to diagnose a particular unit remotely. Ask what boiler is fitted now, who performed any replacement and what seller protection applies. If those answers remain vague, the low asking price is not enough evidence. [source] [source]"
+    },
+    {
+      "id": "8da8dd846964022f8dd722dc8063e3520ecf59535971cfacd1e9be339a5b65df",
+      "source": "Other options for the Classic Evo Pro RI9380/46 buyer",
+      "kind": "text",
+      "context": "Other options for the Classic Evo Pro RI9380/46 buyer"
+    },
+    {
+      "id": "82347d21d9ec65e2543288a04d1c7550247d2d073b041609b0062eeb28f61485",
+      "source": "Classic Evo Pro RI9380/46 FAQ",
+      "kind": "text",
+      "context": "Classic Evo Pro RI9380/46 FAQ"
+    },
+    {
+      "id": "4eab1bdd5a3fd5e776aa95fce6dc1ef25ac2ab5942c840ed61c74266e3c93be2",
+      "source": "What distinguishes this Classic Evo Pro RI9380/46 from adjacent Gaggias?",
+      "kind": "text",
+      "context": "What distinguishes this Classic Evo Pro RI9380/46 from adjacent Gaggias?"
+    },
+    {
+      "id": "d65bb57bf6690244df014dc9d98ba3c1d118a077eb7782b80b55b9002bddf162",
+      "source": "What does preparing milk on Classic Evo Pro RI9380/46 involve?",
+      "kind": "text",
+      "context": "What does preparing milk on Classic Evo Pro RI9380/46 involve?"
+    },
+    {
+      "id": "34acfc8a1d71ae416a26242149c41e5cfce351327aa33906d3b46a686b4772be",
+      "source": "What should I inspect before buying Classic Evo Pro RI9380/46?",
+      "kind": "text",
+      "context": "What should I inspect before buying Classic Evo Pro RI9380/46?"
+    },
+    {
+      "id": "e6e30bfb23502ca0313e178f99aadb2d6644d424fe559f24b64f7a4a5afae5ee",
+      "source": "Which controls does Classic Evo Pro RI9380/46 actually provide?",
+      "kind": "text",
+      "context": "Which controls does Classic Evo Pro RI9380/46 actually provide?"
+    },
+    {
+      "id": "00547a3c5f8ded3d5c4cd2648af31ab802bece4995f5201fa8129db5d90ab8de",
+      "source": "What boiler architecture is inside this Classic Evo Pro RI9380/46?",
+      "kind": "text",
+      "context": "What boiler architecture is inside this Classic Evo Pro RI9380/46?"
+    },
+    {
+      "id": "0746335c54570d0c8d4f9fa9edc2343d555359b3b27d283952d7898aa7fc2498",
+      "source": "Watch Gaggia Classic EVO Pro Review | Upgrade? by Lifestyle Lab",
+      "kind": "attribute",
+      "context": "▶ Play review"
+    },
+    {
+      "id": "2abde6e8910adc22e0d77175a209b82a18f377e06c0523a81eb178493ee88bdb",
+      "source": "Gaggia Classic Evo Pro review: identify the 2023 boiler before buying",
+      "kind": "attribute",
+      "context": "▶ Play review"
+    },
+    {
+      "id": "29738bb9f840c88841fbfc8b3b29fc13a8054b960162a967487c89f980c9c938",
+      "source": "Gaggia Classic EVO Pro Review | Upgrade?",
+      "kind": "text",
+      "context": "Gaggia Classic EVO Pro Review | Upgrade?"
+    },
+    {
+      "id": "3f38f0e4c9011a96b2622cf612bfad52d10f381f445329f12902f141429e18af",
+      "source": "September 16, 2023",
+      "kind": "text",
+      "context": "September 16, 2023"
+    },
+    {
+      "id": "e53661d6fd4374737300bf7cea7101a5e6bb1b6897d538f63346c39174b8e57c",
+      "source": "The assessment is limited to 2023 North American RI9380/46 Classic Evo Pro. The 2023 coated-boiler generation carries unresolved used-buying uncertainty and has been superseded by E24.",
+      "kind": "text",
+      "context": "The assessment is limited to 2023 North American RI9380/46 Classic Evo Pro. The 2023 coated-boiler generation carries unresolved used-buying uncertainty and has been superseded by E24."
+    },
+    {
+      "id": "334cfad78a1457435d0f5e8d9c05652f9b4892fb99909e840d2e5b9a1e99b9d6",
+      "source": "Gaggia: Classic Evo Pro RI9380/46",
+      "kind": "text",
+      "context": "Gaggia: Classic Evo Pro RI9380/46 ↗"
+    },
+    {
+      "id": "62dbd68070cc067011bb50beae938f7c9f26464eb22dbb4fbccc0b08b425d856",
+      "source": "Gaggia Classic Evo Pro RI9380/46 manual",
+      "kind": "text",
+      "context": "Gaggia Classic Evo Pro RI9380/46 manual ↗"
+    },
+    {
+      "id": "c3d50ab6399a91cd700825a8ab7c012015e1228d94b2122ccefd0ed642995506",
+      "source": "Documented 2023 launch price",
+      "kind": "text",
+      "context": "Documented 2023 launch price ↗"
+    },
+    {
+      "id": "00a2148b740b898604a684a45596d2d12ce904eef750a912f05143036da9b203",
+      "source": "$499.00 context recorded September 23, 2026; stock, tax, condition and warranty can change.",
+      "kind": "text",
+      "context": "$499.00 context recorded September 23, 2026; stock, tax, condition and warranty can change."
+    },
+    {
+      "id": "40c7f918db84c65a3c792cd79a64412f04617ed180ee5fa93aac0b98dd0d5242",
+      "source": "Independent review: Classic Evo Pro RI9380/46",
+      "kind": "text",
+      "context": "Independent review: Classic Evo Pro RI9380/46 ↗"
+    },
+    {
+      "id": "e74d50b56ee77a19c885aaf6efdf4b906d78aecf84f4c44e8c30ccb4ec372d3a",
+      "source": "Gaggia Classic EVO Pro Review: Upgrade?",
+      "kind": "text",
+      "context": "Gaggia Classic EVO Pro Review: Upgrade? ↗"
+    },
+    {
+      "id": "d35f7c9a4d45a6e45eea104f1100cff6223c6b42a7bcc8e5c0cfa7dda43a8f6d",
+      "source": "Independent video by Lifestyle Lab, published 2023-09-16, used for visible workflow context.",
+      "kind": "text",
+      "context": "Independent video by Lifestyle Lab, published 2023-09-16, used for visible workflow context."
+    },
+    {
+      "id": "876d7efd17c777143f90d09c9f5b104b28fd6b6edbc0f74b144dca29e0d086ff",
+      "source": "Classic Evo Pro RI9380/46 earns its place only when the workflow fits",
+      "kind": "text",
+      "context": "Classic Evo Pro RI9380/46 earns its place only when the workflow fits"
+    },
+    {
+      "id": "07d87424e1a29282ddb86062054e43caba3906765e7269f8ddbae8e70e016ee2",
+      "source": "Gaggia Classic Evo Pro review: identify the 2023 boiler before buying | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "28b058c8e1c14c85508f16ff5a5d7e91d6da80d2924156dfe530a2c67b71f147",
+      "source": "A research-led Gaggia Classic Evo Pro RI9380/46 review covering the 2023 coated aluminum boiler, 58 mm portafilter, nine-bar setup, used-buying checks and successor context.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "0a1046e3e873099d90bfcfcc79706ec5cc32931bcc6e28b57e7db328c2ebf767",
+      "source": "What distinguishes this Classic Evo Pro RI9380/46 from adjacent Gaggias?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "abd844c374521959814ad2cf8eaeddfcd0aef8a4755c05a6eb0e3a3a3a4263f7",
+      "source": "North American 2023 RI9380/46 Classic Evo Pro with the factory-coated aluminum boiler, not the later E24.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "0790dfd2f07c32228bc4224f21f303cff44b75412d106799edf4ce2a8a797d0f",
+      "source": "What does preparing milk on Classic Evo Pro RI9380/46 involve?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "70c861375de923241b81f309d64ebe0369b403203b446fc72a6868f1b01d8386",
+      "source": "RI9380/46 changes between coffee and steam temperature within one boiler. Ask to see the complete brew–steam–return sequence, because a machine sold after years of use needs more than a working pump demonstration. The manual wand offers direct texture control but no automated finishing.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "1863970c20f757e5b269d2051a669e69d14309ffdc2cab65eed55571a7454cf8",
+      "source": "What should I inspect before buying Classic Evo Pro RI9380/46?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "a2381dbb9618dd74670057abeb221f71f9f87017ad9b69fb013a43e4c0784b90",
+      "source": "Owner discussions about the 2023 boiler are a reason to request records, not a way to diagnose a particular unit remotely. Ask what boiler is fitted now, who performed any replacement and what seller protection applies. If those answers remain vague, the low asking price is not enough evidence.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "0f1c19be8dd9d0b3d790f286d12c22acf258ad87d2413470d519a765b7a9820b",
+      "source": "Which controls does Classic Evo Pro RI9380/46 actually provide?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "d242b28cf7937dae12e6c9c2e11b880825dcc19fcdf9faade0c336242acb7a80",
+      "source": "Three rocker switches, manual shot stop and no temperature display",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "9a00af1bd3cec5ad998f7898a1f31672e8c4bb9e0c91c67bebab9469d275ac30",
+      "source": "What boiler architecture is inside this Classic Evo Pro RI9380/46?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "08649d4b6a71f80e1227a7576f1668572565ed89bfc970ea36bca22905ae9deb",
+      "source": "Single coated-aluminum dual-use boiler with thermostat control",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "f3683f162f2829501509415cced9d47e04ac4d44fe6a7881f1f1afc39aec59d6",
+      "source": "Match descaling and cleaning guidance to the boiler actually installed, including any documented replacement. Keep photographs and service invoices with the serial information. A used unit with uncertain internals should be assessed by competent service rather than subjected to a borrowed online cleaning recipe.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "20b9ad17e2072c38ec16adebc3a20a57a47321f753fee245fec6e64769eb800c",
+      "source": "Gaggia Classic Evo Pro RI9380/46",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b20ca399e424fb183cc93baa246538059ce3f7209cee1be6b22ccaeee1cc32c4",
+      "source": "Gaggia Classic Evo Pro review: identify the 2023 boiler before buying",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "325ae859b827212a5852d8e794d34dfee7a8337a8852d47a9fe60edaabb53e05",
+      "source": "Choose the Classic Evo Pro RI9380/46 for a low-cost 58 mm classic platform when the exact boiler history and condition are documented. Skip it when the 2023 coated-boiler generation carries unresolved used-buying uncertainty and has been superseded by e24 conflicts with the normal drink routine.",
+      "kind": "json",
+      "context": "reviewBody"
+    },
+    {
+      "id": "141f37aaed04646232adbd43b25dc11d235ef3401838f851cbee0c1abac107d7",
+      "source": "The 2023 coated-boiler generation carries unresolved used-buying uncertainty and has been superseded by E24",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b1b4fd12831751ca4758e8a91d18405879bb924ff51d38ed46670857d7a34549",
+      "source": "Gaggia Classic EVO Pro Review | Upgrade?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "da5d9286609eff44cf27663c4bf74a6418e6cb17caa4a18c860eb32b010f1e19",
+      "source": "Stainless frame and cup area of the Gaggia Classic family",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "06ce52888562e7d2682e9bac84ff7e421114293714fb54c5b2c34e6525d9fdee",
+      "source": "The exterior detail is shared family media. It helps identify the chassis but does not prove whether a used unit contains the 2023 coated boiler, an uncoated transition boiler or the later E24 brass boiler.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "2b9498c01c08619c319540b3e3525237429b641518b62c0fab12458d6d095bf1",
+      "source": "Gaggia Classic family product media",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "4f2d28b9c3dd325f3622ce8f59acecaacd94dd8be36f62867a7acbf6e8e5d799",
+      "source": "Manual steam wand on the Gaggia Classic family",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "d01c8dbb85c923b2f52a997a5c291e58cd9cea55b8fc54d920000d447ae398eb",
+      "source": "The current family image illustrates the manual milk workflow. Exact boiler and internal revision still have to be verified from the machine and seller records.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "ef6fd56db662d8eeebc41b7d036147d5dd8d98322b67052939b9b8d5709ccccc",
+      "source": "Gaggia Classic Evo Pro RI9380/46: Gaggia Classic EVO Pro Review | Upgrade? · Lifestyle Lab (2023-09-16) | Coffeedant",
+      "kind": "text",
+      "context": "Gaggia Classic Evo Pro RI9380/46: Gaggia Classic EVO Pro Review | Upgrade? · Lifestyle Lab (2023-09-16) | Coffeedant"
+    },
+    {
+      "id": "c9413c9881abc4e6f47d7bc809026c8e760bbe631ec96ab4969b3aed2e5cf959",
+      "source": "Watch Lifestyle Lab on Gaggia Classic Evo Pro RI9380/46 (2023-09-16): Gaggia Classic EVO Pro Review | Upgrade?. Independent visual workflow evidence. Current specifications, generation and price are verified separately.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "44be6492346295ee636802bc36d411b11a36e3215c61cde1349257965bbfcbfa",
+      "source": "Gaggia Classic Evo Pro RI9380/46: Gaggia Classic EVO Pro Review | Upgrade? · Lifestyle Lab (2023-09-16) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "eadbff41677d14efa3588b17ea1af34c0180333d339dcce560a62b31b9554363",
+      "source": "Gaggia Classic Evo Pro RI9380/46 video by Lifestyle Lab",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "ba6ffe06f0a10e772f6a77f66965cab690226af21aae7737787c505d70b55786",
+      "source": "← Gaggia Classic Evo Pro RI9380/46 review",
+      "kind": "text",
+      "context": "← Gaggia Classic Evo Pro RI9380/46 review"
+    },
+    {
+      "id": "c1227a5d56797ee07d56ff08748a349fc3e024c637be6c93b3cc224d69b22dbe",
+      "source": "Gaggia Classic EVO Pro Review | Upgrade? by Lifestyle Lab",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "ffac22ea01557fe48263d676d93e7b03af388addb730590b47db57d568f611a5",
+      "source": "Gaggia Classic Evo Pro RI9380/46 · Third-party perspective",
+      "kind": "text",
+      "context": "Gaggia Classic Evo Pro RI9380/46 · Third-party perspective"
+    },
+    {
+      "id": "2b6ecf31aa717717ff91a054f9f3876a7ea7fef03b0f64a4abdcb142d6b67bc3",
+      "source": "Gaggia Classic Evo Pro RI9380/46: Gaggia Classic EVO Pro Review | Upgrade? · Lifestyle Lab (2023-09-16) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "3ef01c048bca08598dc73df793aef27e0ed4a3a3f12e115e2a2a1a5f09fa27a0",
+      "source": "Watch Lifestyle Lab on Gaggia Classic Evo Pro RI9380/46 (2023-09-16): Gaggia Classic EVO Pro Review | Upgrade?. Independent visual workflow evidence. Current specifications, generation and price are verified separately.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "9942caceb09c952ec3d7f80b94aa576dd1ca9c4c9a274b6649c18a4234db00f6",
+      "source": "Gaggia Classic Evo Pro RI9380/46 video by Lifestyle Lab",
+      "kind": "json",
+      "context": "caption"
+    }
+  ],
+  "snapshotHash": "691c655777c0288ba4ded5361ddd5cfacc195859fd63d63a44fa6b8a623d6530"
+}

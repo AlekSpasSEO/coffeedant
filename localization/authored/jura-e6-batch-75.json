@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "jura-e6-batch-75.source.json",
+  "snapshotHash": "7dceab28af22e15f1276c7cd856fcb2205f60b99ed491afbf34597c2041e9905",
+  "preserveSource": [
+    63,
+    68,
+    93
+  ],
+  "routes": {
+    "nl": {
+      "/espresso-machine/jura-e6/": "/jura-e6/",
+      "/espresso-machine/jura-e6/video/quality-coffee-systems/": "/jura-e6/video/quality-coffee-systems/"
+    },
+    "de": {
+      "/espresso-machine/jura-e6/": "/testbericht-jura-e6/",
+      "/espresso-machine/jura-e6/video/quality-coffee-systems/": "/jura-e6/video/quality-coffee-systems/"
+    },
+    "fr": {
+      "/espresso-machine/jura-e6/": "/machines-expresso/jura-e6/",
+      "/espresso-machine/jura-e6/video/quality-coffee-systems/": "/machines-expresso/jura-e6/video/quality-coffee-systems/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "7.8 van 10",
+      "de": "7.8 von 10",
+      "fr": "7.8 sur 10"
+    },
+    "1": {
+      "nl": "7.2 van 10",
+      "de": "7.2 von 10",
+      "fr": "7.2 sur 10"
+    },
+    "2": {
+      "nl": "8.6 van 10",
+      "de": "8.6 von 10",
+      "fr": "8.6 sur 10"
+    },
+    "3": {
+      "nl": "3.9 van 5, open de Coffeedant-beoordelingen per categorie",
+      "de": "3.9 von 5, Coffeedant-Kategoriebewertungen öffnen",
+      "fr": "3.9 sur 5, ouvrir les notes par catégorie de Coffeedant"
+    },
+    "4": {
+      "nl": "JURA E6 beoordeeld: 11 warme specialiteiten voor de huidige instapprijs van $1,899 | Coffeedant",
+      "de": "JURA E6 im Test: 11 heiße Spezialitäten zum aktuellen Einstiegspreis von $1,899 | Coffeedant",
+      "fr": "Analyse de la JURA E6 : 11 spécialités chaudes au prix d’entrée actuel de $1,899 | Coffeedant"
+    },
+    "5": {
+      "nl": "Een op bronnen gebaseerde beoordeling van de JURA E6 Dark Inox NAC over artikel 15621, 11 specialiteiten, de P.A.G.-molen, het Easy Cappuccino-melksysteem, de Amerikaanse prijs van $1,899 en het onderhoud.",
+      "de": "Eine quellenbasierte Bewertung der JURA E6 Dark Inox NAC zu Artikel 15621, 11 Spezialitäten, P.A.G.-Mahlwerk, Easy Cappuccino-Milchsystem, US-Preis von $1,899 und Pflege.",
+      "fr": "Une analyse documentaire de la JURA E6 Dark Inox NAC portant sur l’article 15621, les 11 spécialités, le moulin P.A.G., le système lait Easy Cappuccino, le prix américain de $1,899 et l’entretien."
+    },
+    "7": {
+      "nl": "JURA E6 beoordeeld: 11 warme specialiteiten voor de huidige instapprijs van $1,899",
+      "de": "JURA E6 im Test: 11 heiße Spezialitäten zum aktuellen Einstiegspreis von $1,899",
+      "fr": "Analyse de la JURA E6 : 11 spécialités chaudes au prix d’entrée actuel de $1,899"
+    },
+    "8": {
+      "nl": "Voor huishoudens die de eenvoudigste huidige JURA-route willen voor warme koffie en cappuccino, met begeleide bediening aan de voorkant",
+      "de": "Für Haushalte, die den einfachsten aktuellen JURA-Weg zu heißem Kaffee und Cappuccino mit geführter Frontbedienung suchen",
+      "fr": "Pour les foyers qui souhaitent la solution JURA actuelle la plus simple pour le café chaud et le cappuccino, avec une interface frontale guidée"
+    },
+    "9": {
+      "nl": "De eenvoudigste huidige JURA-route voor warme koffie en cappuccino, met begeleide bediening aan de voorkant. Het belangrijkste compromis: elf warme specialiteiten, geen koude extractie en optionele in plaats van inbegrepen Wi-Fi beperken de waarde bij $1,899",
+      "de": "Der einfachste aktuelle JURA-Weg zu heißem Kaffee und Cappuccino mit geführter Frontbedienung. Der zentrale Kompromiss: Elf heiße Spezialitäten, keine Kaltextraktion und optionales statt enthaltenem Wi-Fi schränken den Gegenwert bei $1,899 ein",
+      "fr": "La solution JURA actuelle la plus simple pour le café chaud et le cappuccino, avec une interface frontale guidée. Le principal compromis : onze spécialités chaudes, aucune extraction à froid et le Wi-Fi optionnel plutôt qu’inclus limitent la valeur à $1,899"
+    },
+    "10": {
+      "nl": "Prijs in de officiële Amerikaanse JURA-webwinkel; voorraad, belasting, staat en garantie kunnen veranderen",
+      "de": "Preis im offiziellen US-Shop von JURA; Bestand, Steuern, Zustand und Garantie können sich ändern",
+      "fr": "Prix de la boutique officielle américaine JURA ; le stock, les taxes, l’état et la garantie peuvent changer"
+    },
+    "11": {
+      "nl": "Huidige Noord-Amerikaanse E6 Dark Inox NAC, artikel 15621. Officiële afbeeldingspaden kunnen een eerdere EC-artikelcode behouden; de specificaties komen daarom van de pagina voor 15621 en de NAC-handleiding en worden niet uit de bestandsnaam van het beeld afgeleid.",
+      "de": "Aktuelle nordamerikanische E6 Dark Inox NAC, Artikel 15621. Offizielle Bildpfade können einen früheren EC-Artikelcode enthalten; die technischen Daten stammen daher von der Seite zu 15621 und aus der NAC-Anleitung und werden nicht aus dem Mediendateinamen abgeleitet.",
+      "fr": "E6 Dark Inox NAC nord-américaine actuelle, article 15621. Les chemins des images officielles peuvent conserver une ancienne référence EC ; les caractéristiques proviennent donc de la page 15621 et du manuel NAC, sans être déduites du nom du fichier média."
+    },
+    "12": {
+      "nl": "Elf warme specialiteiten, tien sterkteniveaus, een variabele zetgroep voor 5-16 g en JURA Pulse Extraction Process",
+      "de": "Elf heiße Spezialitäten, zehn Stärkestufen, eine variable Brühgruppe für 5-16 g und JURA Pulse Extraction Process",
+      "fr": "Onze spécialités chaudes, dix niveaux d’intensité, un groupe d’extraction variable de 5-16 g et JURA Pulse Extraction Process"
+    },
+    "13": {
+      "nl": "Het HP1 Easy Cappuccino-systeem zuigt melk via een slang aan en maakt fijn schuim; het bewaart of koelt de melk niet",
+      "de": "Das HP1 Easy Cappuccino-System zieht Milch durch einen Schlauch ein und bereitet feinen Schaum zu; es lagert oder kühlt die Milch nicht",
+      "fr": "Le système HP1 Easy Cappuccino aspire le lait par un tuyau et prépare une mousse fine ; il ne stocke ni ne réfrigère le lait"
+    },
+    "14": {
+      "nl": "Professional Aroma Grinder met automatische dosering van bonen naar koffie en een doseeropening voor voorgemalen koffie",
+      "de": "Professional Aroma Grinder mit automatischer Dosierung von der Bohne zur Tasse und einem Pulverschacht",
+      "fr": "Professional Aroma Grinder avec dosage automatique du grain à la tasse et trappe à café prémoulu"
+    },
+    "15": {
+      "nl": "Kleurendisplay van 2.8 inch met zes fysieke knoppen; optionele Wi-Fi Connect maakt J.O.E. mogelijk",
+      "de": "2.8-Zoll-Farbdisplay mit sechs physischen Tasten; optionales Wi-Fi Connect ermöglicht J.O.E.",
+      "fr": "Écran couleur de 2.8 pouces avec six boutons physiques ; Wi-Fi Connect optionnel permet J.O.E."
+    },
+    "16": {
+      "nl": "11 B × 13.8 H × 17.6 D in; circa 21 lb",
+      "de": "11 B × 13.8 H × 17.6 T in; etwa 21 lb",
+      "fr": "11 l × 13.8 H × 17.6 P in ; environ 21 lb"
+    },
+    "17": {
+      "nl": "Voer de reinigings- en ontkalkingsprogramma’s van JURA uit wanneer daarom wordt gevraagd, reinig het melksysteem op elke dag dat het wordt gebruikt en volg de NAC-handleiding voor het CLARIS Smart+-filter.",
+      "de": "Führe die JURA-Reinigungs- und Entkalkungsprogramme bei Aufforderung aus, reinige das Milchsystem an jedem Tag, an dem es benutzt wird, und befolge für den Umgang mit dem CLARIS Smart+-Filter die NAC-Anleitung.",
+      "fr": "Lancez les programmes de nettoyage et de détartrage JURA lorsqu’ils sont demandés, nettoyez le système lait chaque jour où il est utilisé et suivez le manuel NAC pour le filtre CLARIS Smart+."
+    },
+    "18": {
+      "nl": "Elf warme specialiteiten, geen koude extractie en optionele in plaats van inbegrepen Wi-Fi beperken de waarde bij $1,899",
+      "de": "Elf heiße Spezialitäten, keine Kaltextraktion und optionales statt enthaltenem Wi-Fi schränken den Gegenwert bei $1,899 ein",
+      "fr": "Onze spécialités chaudes, aucune extraction à froid et le Wi-Fi optionnel plutôt qu’inclus limitent la valeur à $1,899"
+    },
+    "19": {
+      "nl": "Welke exacte E6 Dark Inox NAC behandelt deze beoordeling?",
+      "de": "Welche genaue E6 Dark Inox NAC behandelt diese Bewertung?",
+      "fr": "Quelle version précise de l’E6 Dark Inox NAC cette analyse couvre-t-elle ?"
+    },
+    "20": {
+      "nl": "Ja. Professional Aroma Grinder met automatische dosering van bonen naar koffie en een doseeropening voor voorgemalen koffie",
+      "de": "Ja. Professional Aroma Grinder mit automatischer Dosierung von der Bohne zur Tasse und einem Pulverschacht",
+      "fr": "Oui. Professional Aroma Grinder avec dosage automatique du grain à la tasse et trappe à café prémoulu"
+    },
+    "21": {
+      "nl": "Nee. Voer de reinigings- en ontkalkingsprogramma’s van JURA uit wanneer daarom wordt gevraagd, reinig het melksysteem op elke dag dat het wordt gebruikt en volg de NAC-handleiding voor het CLARIS Smart+-filter.",
+      "de": "Nein. Führe die JURA-Reinigungs- und Entkalkungsprogramme bei Aufforderung aus, reinige das Milchsystem an jedem Tag, an dem es benutzt wird, und befolge für den Umgang mit dem CLARIS Smart+-Filter die NAC-Anleitung.",
+      "fr": "Non. Lancez les programmes de nettoyage et de détartrage JURA lorsqu’ils sont demandés, nettoyez le système lait chaque jour où il est utilisé et suivez le manuel NAC pour le filtre CLARIS Smart+."
+    },
+    "22": {
+      "nl": "Volledige beoordeling van de JURA E6 Dark Inox NAC",
+      "de": "Vollständiger Testbericht zur JURA E6 Dark Inox NAC",
+      "fr": "Analyse complète de la JURA E6 Dark Inox NAC"
+    },
+    "23": {
+      "nl": "Eén totaalscore is alleen nuttig als je ziet waarop die is gebaseerd. De JURA E6 Dark Inox NAC krijgt",
+      "de": "Eine Gesamtnote ist nur hilfreich, wenn ihre Grundlage erkennbar ist. Die JURA E6 Dark Inox NAC erhält",
+      "fr": "Une note globale n’est utile que si l’on comprend ses fondements. La JURA E6 Dark Inox NAC obtient"
+    },
+    "24": {
+      "nl": "Elf warme specialiteiten, tien sterkteniveaus, een variabele zetgroep voor 5-16 g en JURA Pulse Extraction Process zorgen voor herhaalbare automatische koffie binnen een gesloten systeem.",
+      "de": "Elf heiße Spezialitäten, zehn Stärkestufen, eine variable Brühgruppe für 5-16 g und JURA Pulse Extraction Process ermöglichen wiederholbare automatische Kaffeezubereitung in einem geschlossenen System.",
+      "fr": "Onze spécialités chaudes, dix niveaux d’intensité, un groupe d’extraction variable de 5-16 g et JURA Pulse Extraction Process permettent de reproduire la préparation automatique du café dans un système fermé."
+    },
+    "25": {
+      "nl": "Bij de E6 Dark Inox NAC blijft de reiniging van de zetgroep onderdeel van de voorgeschreven routine voor een gesloten systeem.",
+      "de": "Bei der E6 Dark Inox NAC bleibt die Brühgruppenreinigung Teil des vorgeschriebenen Ablaufs für das geschlossene System.",
+      "fr": "Sur l’E6 Dark Inox NAC, le nettoyage du groupe d’extraction reste intégré à la routine prescrite pour le système fermé."
+    },
+    "26": {
+      "nl": "Bij $1,899.00 hoort gedateerde informatie over staat, voorraad en garantie.",
+      "de": "Bei $1,899.00 sind datierte Angaben zu Zustand, Bestand und Garantie nötig.",
+      "fr": "À $1,899.00, il faut un contexte daté sur l’état, le stock et la garantie."
+    },
+    "27": {
+      "nl": "E6 Dark Inox NAC: de aankoopbeslissing",
+      "de": "E6 Dark Inox NAC: die Kaufentscheidung",
+      "fr": "E6 Dark Inox NAC : la décision d’achat"
+    },
+    "28": {
+      "nl": "De E6 Dark Inox NAC is de huidige Noord-Amerikaanse instap in JURA’s routine voor warme koffie en cappuccino. Elf specialiteiten en fysieke knoppen naast een scherm van 2.8 inch houden de keuze relatief overzichtelijk, terwijl het melksysteem via een slang een ingebouwde bewaarkaraf vermijdt. Noch die slang, noch het gesloten zetplatform neemt de noodzaak van voorgeschreven onderhoud weg. Optionele connectiviteit moet ook als extra aankoop worden meegerekend en niet als onderdeel van het pakket worden verondersteld. Het sterkste argument voor de E6 is een huishouden dat deze vertrouwde warme dranken en begeleide bediening wil, zonder te betalen voor koude extractie of een veel uitgebreider menu.",
+      "de": "Die E6 Dark Inox NAC ist der aktuelle nordamerikanische Einstieg in JURAs Routine für heißen Kaffee und Cappuccino. Elf Spezialitäten und physische Tasten neben einem 2.8-Zoll-Bildschirm halten die Auswahl vergleichsweise übersichtlich, während das schlauchgespeiste Milchsystem eine eingebaute Aufbewahrungskaraffe vermeidet. Weder dieser Schlauch noch die geschlossene Brühplattform beseitigen die Notwendigkeit der vorgeschriebenen Pflege. Optionale Konnektivität muss ebenfalls als zusätzlicher Kauf eingerechnet werden und darf nicht als Bestandteil des Pakets gelten. Der stärkste Fall für die E6 ist ein Haushalt, der diese vertrauten Heißgetränke und eine geführte Bedienung möchte, ohne für Kaltextraktion oder ein deutlich größeres Menü zu bezahlen.",
+      "fr": "L’E6 Dark Inox NAC est l’entrée nord-américaine actuelle dans la routine JURA du café chaud et du cappuccino. Onze spécialités et des boutons physiques autour d’un écran de 2.8 pouces gardent la sélection relativement ciblée, tandis que le système lait par tuyau évite une carafe de stockage intégrée. Ni ce tuyau ni la plateforme d’extraction fermée ne suppriment l’entretien prescrit. La connectivité optionnelle doit aussi être comptée comme un achat supplémentaire plutôt que supposée incluse. Le meilleur argument de l’E6 est un foyer qui souhaite ces boissons chaudes familières et une interface guidée, sans payer pour l’extraction à froid ou un menu beaucoup plus vaste."
+    },
+    "29": {
+      "nl": "De E6 Dark Inox NAC installeren",
+      "de": "Die E6 Dark Inox NAC einrichten",
+      "fr": "Installer l’E6 Dark Inox NAC"
+    },
+    "30": {
+      "nl": "een volautomaat met Professional Aroma Grinder, automatische dosering van bonen naar koffie en een doseeropening voor voorgemalen koffie, elf warme specialiteiten, tien sterkteniveaus, een variabele zetgroep voor 5-16 g en JURA Pulse Extraction Process, en een HP1 Easy Cappuccino-systeem dat melk via een slang aanzuigt en fijn schuim maakt; het bewaart of koelt de melk niet.",
+      "de": "ein Kaffeevollautomat mit Professional Aroma Grinder, automatischer Dosierung von der Bohne zur Tasse und Pulverschacht, elf heißen Spezialitäten, zehn Stärkestufen, einer variablen Brühgruppe für 5-16 g und JURA Pulse Extraction Process sowie einem HP1 Easy Cappuccino-System, das Milch durch einen Schlauch einzieht und feinen Schaum zubereitet; es lagert oder kühlt die Milch nicht.",
+      "fr": "une machine à café en grains avec Professional Aroma Grinder, dosage automatique du grain à la tasse et trappe à café prémoulu, onze spécialités chaudes, dix niveaux d’intensité, un groupe d’extraction variable de 5-16 g et JURA Pulse Extraction Process, ainsi qu’un système HP1 Easy Cappuccino qui aspire le lait par un tuyau et prépare une mousse fine ; il ne stocke ni ne réfrigère le lait."
+    },
+    "31": {
+      "nl": "Controleer artikel 15621 en de NAC-handleiding, want een oude EC-code kan in een officiële afbeeldingsnaam blijven staan. Plan een apart melkreservoir voor de slang. Wi-Fi Connect is optioneel, dus controleer het accessoirepakket voordat je appbediening meeneemt in de aankoopbeslissing.",
+      "de": "Gleiche Artikel 15621 mit der NAC-Anleitung ab, da ein alter EC-Code in einem offiziellen Bilddateinamen erhalten bleiben kann. Plane einen separaten Milchbehälter für den Schlauch ein. Wi-Fi Connect ist optional; prüfe daher das Zubehörpaket, bevor du die App-Bedienung in die Kaufentscheidung einbeziehst.",
+      "fr": "Vérifiez l’article 15621 et le manuel NAC, car un ancien code EC peut subsister dans le nom d’une image officielle. Prévoyez un récipient à lait séparé pour le tuyau. Wi-Fi Connect est optionnel : vérifiez donc les accessoires fournis avant d’intégrer l’utilisation de l’application à la décision d’achat."
+    },
+    "32": {
+      "nl": "JURA E6 Dark Inox-volautomaat die koffie serveert",
+      "de": "JURA E6 Dark Inox Kaffeevollautomat bei der Kaffeeausgabe",
+      "fr": "Machine à café automatique JURA E6 Dark Inox servant du café"
+    },
+    "33": {
+      "nl": "Officieel beeldmateriaal van de modelfamilie toont het formaat en het onderhoudsgedeelte aan de voorkant van de E6; specificaties en artikelidentiteit zijn gebaseerd op de huidige NAC 15621-documentatie.",
+      "de": "Offizielles Bildmaterial der Modellfamilie zeigt die Größe der E6 und den vorderen Servicebereich; technische Daten und Artikelidentität stützen sich auf die aktuelle NAC-15621-Dokumentation.",
+      "fr": "Les visuels officiels de la famille montrent l’échelle de l’E6 et sa zone d’entretien frontale ; les caractéristiques et l’identité de l’article sont fondées sur la documentation NAC 15621 actuelle."
+    },
+    "34": {
+      "nl": "JURA E6-productpagina",
+      "de": "JURA E6-Produktseite",
+      "fr": "Page produit JURA E6"
+    },
+    "35": {
+      "nl": "Bekijk wat er nog meer past naast de E6 Dark Inox NAC.",
+      "de": "Sieh dir an, was neben der E6 Dark Inox NAC noch infrage kommt.",
+      "fr": "Découvrez les autres machines à envisager aux côtés de l’E6 Dark Inox NAC."
+    },
+    "36": {
+      "nl": "De E6 biedt tien sterkteniveaus en een zetgroep voor 5–16 g voor elf warme specialiteiten. Vergelijk bij een slappe lange koffie het ingestelde volume en de sterkte voordat je andere bonen bestelt of de molen meerdere keren bijstelt. Het gerichte menu is nuttig als het huishouden al weet welke warme koffies het wil.",
+      "de": "Die E6 bietet zehn Stärkestufen und eine Brühgruppe für 5–16 g für elf heiße Spezialitäten. Vergleiche bei einem schwachen langen Getränk die programmierte Menge und Stärke, bevor du andere Bohnen bestellst oder das Mahlwerk mehrfach verstellst. Das gezielte Menü ist hilfreich, wenn der Haushalt bereits weiß, welche heißen Kaffees er möchte.",
+      "fr": "L’E6 offre dix niveaux d’intensité et un groupe d’extraction de 5–16 g pour onze spécialités chaudes. Pour une boisson longue trop faible, comparez le volume programmé et l’intensité avant de commander d’autres grains ou de modifier plusieurs fois le moulin. Le menu ciblé est utile si le foyer sait déjà quels cafés chauds il souhaite."
+    },
+    "37": {
+      "nl": "Zes knoppen naast een scherm van 2.8 in geven een gerichtere keuze dan de grotere JURA-machines met touchscreen. Het HP1-systeem kan cappuccinoschuim maken, maar houdt de melk niet koud. Neem het terugzetten van de melk en het reinigen van de slang op in de ochtendroutine, zelfs voor één kop.",
+      "de": "Sechs Tasten neben einem 2.8 in Bildschirm bieten eine gezieltere Auswahl als die größeren JURA-Maschinen mit Touchscreen. Das HP1-System kann Cappuccinoschaum zubereiten, die Milch aber nicht kalt halten. Plane das Zurückstellen der Milch und die Schlauchreinigung in den Morgenablauf ein, auch bei nur einer Tasse.",
+      "fr": "Six boutons autour d’un écran de 2.8 in offrent une sélection plus ciblée que les grandes JURA à écran tactile. Le système HP1 peut préparer de la mousse de cappuccino, mais ne peut pas garder le lait froid. Intégrez le rangement du lait et le nettoyage du tuyau à la routine du matin, même pour une seule tasse."
+    },
+    "38": {
+      "nl": "11 B × 13.8 H × 17.6 D in; circa 21 lb. De E6 Dark Inox NAC gebruikt een gesloten zetgroep; intern werk verloopt via een gekwalificeerde servicedienst.",
+      "de": "11 B × 13.8 H × 17.6 T in; etwa 21 lb. Die E6 Dark Inox NAC verwendet eine geschlossene Brühgruppe; Arbeiten im Inneren erfolgen über qualifizierten Service.",
+      "fr": "11 l × 13.8 H × 17.6 P in ; environ 21 lb. L’E6 Dark Inox NAC utilise un groupe d’extraction fermé ; les interventions internes passent par un service qualifié."
+    },
+    "39": {
+      "nl": "JURA E6 Dark Inox in een koffiehoek thuis",
+      "de": "JURA E6 Dark Inox in einer häuslichen Kaffeeumgebung",
+      "fr": "JURA E6 Dark Inox dans un espace café domestique"
+    },
+    "40": {
+      "nl": "Het sfeerbeeld helpt om de toegang voor kopjes en de benodigde diepte op het aanrecht te beoordelen. Het afbeeldingspad bevat nog een EC-code, dus er wordt geen NAC-specificatie uit de foto afgeleid.",
+      "de": "Die Wohnaufnahme hilft, den Zugang für Tassen und die Tiefe auf der Arbeitsplatte einzuschätzen. Der Medienpfad enthält weiterhin einen EC-Code; daher wird keine NAC-Spezifikation aus dem Foto abgeleitet.",
+      "fr": "La vue en situation aide à évaluer l’accès aux tasses et la profondeur sur le plan de travail. Le chemin du média conserve un code EC ; aucune caractéristique NAC n’est donc déduite de la photographie."
+    },
+    "41": {
+      "nl": "De prijs in de officiële Amerikaanse JURA-webwinkel bedroeg $1,899.00: huidige Dark Inox NAC artikel 15621 met voorraad; belasting, voorraad en bundel kunnen veranderen",
+      "de": "Der Preis im offiziellen US-Shop von JURA betrug $1,899.00: aktuelle lagernde Dark Inox NAC, Artikel 15621; Steuern, Bestand und Paketumfang können sich ändern",
+      "fr": "Le prix de la boutique officielle américaine JURA était de $1,899.00 : Dark Inox NAC actuelle en stock, article 15621 ; les taxes, le stock et l’offre groupée peuvent changer"
+    },
+    "42": {
+      "nl": "Prijs in de officiële Amerikaanse JURA-webwinkel: $1,899.00",
+      "de": "Preis im offiziellen US-Shop von JURA: $1,899.00",
+      "fr": "Prix de la boutique officielle américaine JURA : $1,899.00"
+    },
+    "43": {
+      "nl": "Huidige Dark Inox NAC artikel 15621 met voorraad; belasting, voorraad en bundel kunnen veranderen",
+      "de": "Aktuelle lagernde Dark Inox NAC, Artikel 15621; Steuern, Bestand und Paketumfang können sich ändern",
+      "fr": "Dark Inox NAC actuelle en stock, article 15621 ; les taxes, le stock et l’offre groupée peuvent changer"
+    },
+    "44": {
+      "nl": "Vraag van een eigenaar: moet ik een JURA E6 kopen?",
+      "de": "Besitzerfrage: Sollte ich eine JURA E6 kaufen?",
+      "fr": "Question d’un propriétaire : dois-je acheter une JURA E6 ?"
+    },
+    "45": {
+      "nl": "Zelfgeselecteerde kopersdiscussie van februari 2025; nuttig voor vragen, niet voor incidentiepercentages.",
+      "de": "Selbst ausgewählte Käuferdiskussion vom Februar 2025; hilfreich für Fragen, nicht für Häufigkeitsraten.",
+      "fr": "Discussion spontanée d’acheteurs de février 2025 ; utile pour les questions, pas pour les taux d’incidence."
+    },
+    "46": {
+      "nl": "Ervaring van een eigenaar: E6 valt tegen",
+      "de": "Besitzerbericht: E6 enttäuscht",
+      "fr": "Témoignage d’un propriétaire : E6 décevante"
+    },
+    "47": {
+      "nl": "Zelfgeselecteerde context over instellingen en recepten die illustreert waarom maalgraad, sterkte en volume moeten worden afgesteld.",
+      "de": "Selbst ausgewählter Einrichtungs- und Rezeptkontext, der zeigt, warum Mahlgrad, Stärke und Menge abgestimmt werden müssen.",
+      "fr": "Contexte spontané de réglage et de recette illustrant pourquoi la mouture, l’intensité et le volume doivent être ajustés."
+    },
+    "48": {
+      "nl": "E6 Dark Inox NAC tegenover de meest vergelijkbare alternatieven",
+      "de": "E6 Dark Inox NAC im Vergleich mit den ähnlichsten Alternativen",
+      "fr": "E6 Dark Inox NAC face aux alternatives les plus proches"
+    },
+    "49": {
+      "nl": "Snelle vergelijking van de JURA E6 Dark Inox NAC",
+      "de": "Kurzvergleich zur JURA E6 Dark Inox NAC",
+      "fr": "Comparatif rapide de la JURA E6 Dark Inox NAC"
+    },
+    "50": {
+      "nl": "De JURA E6 Dark Inox NAC en de meest vergelijkbare alternatieven",
+      "de": "JURA E6 Dark Inox NAC und ihre ähnlichsten Alternativen",
+      "fr": "La JURA E6 Dark Inox NAC et ses alternatives les plus proches"
+    },
+    "51": {
+      "nl": "Uitgebreide vergelijking van de JURA E6 Dark Inox NAC",
+      "de": "Ausführlicher Vergleich zur JURA E6 Dark Inox NAC",
+      "fr": "Comparatif détaillé de la JURA E6 Dark Inox NAC"
+    },
+    "52": {
+      "nl": "Huidige Noord-Amerikaanse E6 Dark Inox NAC, artikel 15621. Officiële afbeeldingspaden kunnen een eerdere EC-artikelcode behouden; de specificaties komen daarom van de pagina voor 15621 en de NAC-handleiding en worden niet uit de bestandsnaam van het beeld afgeleid. Vergelijk die exacte uitvoering met de onderstaande alternatieven.",
+      "de": "Aktuelle nordamerikanische E6 Dark Inox NAC, Artikel 15621. Offizielle Bildpfade können einen früheren EC-Artikelcode enthalten; die technischen Daten stammen daher von der Seite zu 15621 und aus der NAC-Anleitung und werden nicht aus dem Mediendateinamen abgeleitet. Vergleiche genau diese Ausstattung mit den folgenden Alternativen.",
+      "fr": "E6 Dark Inox NAC nord-américaine actuelle, article 15621. Les chemins des images officielles peuvent conserver une ancienne référence EC ; les caractéristiques proviennent donc de la page 15621 et du manuel NAC, sans être déduites du nom du fichier média. Comparez cette configuration exacte aux alternatives ci-dessous."
+    },
+    "53": {
+      "nl": "Leven met de E6 Dark Inox NAC",
+      "de": "Alltag mit der E6 Dark Inox NAC",
+      "fr": "Vivre avec l’E6 Dark Inox NAC"
+    },
+    "54": {
+      "nl": "Het aangehaalde verslag over tegenvallende koffie maakt het zinvol de receptinstellingen te controleren, maar bewijst geen E6-defect. Vraag om het bedoelde volume bij een gekozen sterkte te proeven of te bekijken. Als je eigenlijk koude extractie of veel zoete recepten wilt, past het beperkte E6-menu niet bij de aankoopwens; het is geen instelling die je kunt ontgrendelen.",
+      "de": "Der zitierte Bericht über eine enttäuschende Tasse macht eine Prüfung der Rezepteinstellung sinnvoll, belegt aber keinen E6-Defekt. Bitte darum, die gewünschte Menge bei einer gewählten Stärke zu probieren oder zu beobachten. Wenn eigentlich Kaltextraktion oder viele süße Rezepte gewünscht sind, passt das begrenzte E6-Menü nicht zum Kaufwunsch; es ist keine freischaltbare Einstellung.",
+      "fr": "Le témoignage cité sur un café décevant justifie de vérifier le réglage de la recette, sans établir un défaut de l’E6. Demandez à goûter ou à observer le volume souhaité à une intensité choisie. Si le véritable souhait est l’extraction à froid ou de nombreuses recettes sucrées, le menu restreint de l’E6 ne correspond pas à l’achat recherché ; ce n’est pas un réglage à débloquer."
+    },
+    "55": {
+      "nl": "Andere opties voor de koper van een E6 Dark Inox NAC",
+      "de": "Weitere Optionen für Käufer einer E6 Dark Inox NAC",
+      "fr": "Autres options pour l’acheteur d’une E6 Dark Inox NAC"
+    },
+    "56": {
+      "nl": "Veelgestelde vragen over de E6 Dark Inox NAC",
+      "de": "Häufige Fragen zur E6 Dark Inox NAC",
+      "fr": "Questions fréquentes sur l’E6 Dark Inox NAC"
+    },
+    "57": {
+      "nl": "Welke generatie en uitvoering behandelt deze beoordeling van de E6 Dark Inox NAC?",
+      "de": "Welche Generation und Ausstattung behandelt diese Bewertung der E6 Dark Inox NAC?",
+      "fr": "Quelle génération et quelle configuration cette analyse de l’E6 Dark Inox NAC couvre-t-elle ?"
+    },
+    "58": {
+      "nl": "Wat komt er kijken bij dagelijks gebruik van de E6 Dark Inox NAC?",
+      "de": "Was gehört zum täglichen Gebrauch der E6 Dark Inox NAC?",
+      "fr": "Qu’implique l’utilisation quotidienne de l’E6 Dark Inox NAC ?"
+    },
+    "59": {
+      "nl": "Welk melkonderhoud vereist de E6 Dark Inox NAC?",
+      "de": "Welche Milchpflege benötigt die E6 Dark Inox NAC?",
+      "fr": "Quel entretien du système lait l’E6 Dark Inox NAC exige-t-elle ?"
+    },
+    "60": {
+      "nl": "Welke molen wordt voor deze E6 Dark Inox NAC opgegeven?",
+      "de": "Welches Mahlwerk ist für diese E6 Dark Inox NAC angegeben?",
+      "fr": "Quel moulin est indiqué pour cette E6 Dark Inox NAC ?"
+    },
+    "61": {
+      "nl": "Bekijk JURA C9 versus E6 + E8 | Wat maakt ze verschillend? van Quality Coffee Systems",
+      "de": "JURA C9 gegen E6 + E8 | Was unterscheidet sie? von Quality Coffee Systems ansehen",
+      "fr": "Regarder JURA C9 face aux E6 + E8 | Qu’est-ce qui les différencie ? par Quality Coffee Systems"
+    },
+    "64": {
+      "nl": "JURA C9 versus E6 + E8 | Wat maakt ze verschillend?",
+      "de": "JURA C9 gegen E6 + E8 | Was unterscheidet sie?",
+      "fr": "JURA C9 face aux E6 + E8 | Qu’est-ce qui les différencie ?"
+    },
+    "65": {
+      "nl": "3 juni 2026",
+      "de": "3. Juni 2026",
+      "fr": "3 juin 2026"
+    },
+    "66": {
+      "nl": "Onafhankelijk vergelijkend bewijs van de werkwijze. De exacte specificaties en prijs van 15621 worden afzonderlijk geverifieerd.",
+      "de": "Unabhängige vergleichende Belege zum Arbeitsablauf. Die genauen technischen Daten und der Preis von 15621 werden gesondert geprüft.",
+      "fr": "Éléments comparatifs indépendants sur la préparation. Les caractéristiques exactes et le prix de 15621 sont vérifiés séparément."
+    },
+    "67": {
+      "nl": "Deze beoordeling behandelt artikel 15621, Noord-Amerika. Elf warme specialiteiten, geen koude extractie en optionele in plaats van inbegrepen Wi-Fi beperken de waarde bij $1,899.",
+      "de": "Diese Bewertung behandelt Artikel 15621, Nordamerika. Elf heiße Spezialitäten, keine Kaltextraktion und optionales statt enthaltenem Wi-Fi schränken den Gegenwert bei $1,899 ein.",
+      "fr": "Cette analyse couvre l’article 15621, Amérique du Nord. Onze spécialités chaudes, aucune extraction à froid et le Wi-Fi optionnel plutôt qu’inclus limitent la valeur à $1,899."
+    },
+    "69": {
+      "nl": "Officiële huidige Noord-Amerikaanse identiteit, functies en artikelnummer.",
+      "de": "Offizielle aktuelle nordamerikanische Identität, Funktionen und Artikelnummer.",
+      "fr": "Identité, fonctions et numéro d’article officiels actuels pour l’Amérique du Nord."
+    },
+    "70": {
+      "nl": "JURA E6 NAC-handleiding",
+      "de": "JURA E6 NAC-Anleitung",
+      "fr": "Instructions JURA E6 NAC"
+    },
+    "71": {
+      "nl": "Officiële instructies voor installatie, dranken, reiniging, ontkalking, filters en probleemoplossing.",
+      "de": "Offizielle Anweisungen zu Einrichtung, Getränken, Reinigung, Entkalkung, Filtern und Fehlerbehebung.",
+      "fr": "Instructions officielles d’installation, de boissons, de nettoyage, de détartrage, de filtre et de dépannage."
+    },
+    "72": {
+      "nl": "Officiële Amerikaanse JURA-webwinkel: E6",
+      "de": "Offizieller US-Shop von JURA: E6",
+      "fr": "Boutique officielle américaine JURA : E6"
+    },
+    "73": {
+      "nl": "Voorraadprijs van $1,899 en Noord-Amerikaanse specificaties gecontroleerd op 23 september 2026.",
+      "de": "Lagerpreis von $1,899 und nordamerikanische technische Daten am 23. September 2026 geprüft.",
+      "fr": "Prix en stock de $1,899 et caractéristiques nord-américaines vérifiés le 23 septembre 2026."
+    },
+    "74": {
+      "nl": "Vergelijking van JURA C9, E6 en E8",
+      "de": "Vergleich von JURA C9, E6 und E8",
+      "fr": "Comparaison des JURA C9, E6 et E8"
+    },
+    "75": {
+      "nl": "Onafhankelijke vergelijkende evaluatie uit 2026 voor context over de werkwijze, niet als gezaghebbende bron voor specificaties.",
+      "de": "Unabhängige vergleichende Bewertung von 2026 als Kontext zum Arbeitsablauf, nicht als maßgebliche Quelle für technische Daten.",
+      "fr": "Évaluation comparative indépendante de 2026 utilisée pour le contexte de préparation, et non comme référence faisant autorité sur les caractéristiques."
+    },
+    "76": {
+      "nl": "Beoordeling: Jura E6-volautomaat",
+      "de": "Testbericht: Jura E6 Kaffeevollautomat",
+      "fr": "Analyse : Jura E6, machine à café automatique"
+    },
+    "77": {
+      "nl": "Onafhankelijke visuele beoordeling gepubliceerd op 7 december 2021; generatieverschillen blijven expliciet.",
+      "de": "Unabhängiger visueller Testbericht, veröffentlicht am 7. Dezember 2021; Generationsunterschiede bleiben ausdrücklich sichtbar.",
+      "fr": "Analyse visuelle indépendante publiée le 7 décembre 2021 ; les différences de génération restent explicites."
+    },
+    "78": {
+      "nl": "Officiële context van het huidige assortiment om E6, E8 en Z10 uit elkaar te houden.",
+      "de": "Offizieller aktueller Sortimentskontext zur Unterscheidung von E6, E8 und Z10.",
+      "fr": "Contexte officiel de la gamme actuelle distinguant les E6, E8 et Z10."
+    },
+    "79": {
+      "nl": "Onafhankelijke achtergrond over water; de JURA-instructies blijven leidend voor de machine.",
+      "de": "Unabhängiger Hintergrund zu Wasser; für die Maschine bleiben die JURA-Anweisungen maßgeblich.",
+      "fr": "Contexte indépendant sur l’eau ; les instructions JURA restent déterminantes pour la machine."
+    },
+    "80": {
+      "nl": "E6 Dark Inox NAC: koop de werkwijze, niet het aantal menuopties",
+      "de": "E6 Dark Inox NAC: den Ablauf kaufen, nicht die Zahl der Menüoptionen",
+      "fr": "E6 Dark Inox NAC : acheter une méthode de préparation, pas un nombre de boissons au menu"
+    },
+    "105": {
+      "nl": "← Beoordeling van de JURA E6 Dark Inox NAC",
+      "de": "← Testbericht zur JURA E6 Dark Inox NAC",
+      "fr": "← Analyse de la JURA E6 Dark Inox NAC"
+    },
+    "106": {
+      "nl": "JURA E6 Dark Inox NAC: JURA C9 versus E6 + E8 | Wat maakt ze verschillend? · Quality Coffee Systems (2026-06-03) | Coffeedant",
+      "de": "JURA E6 Dark Inox NAC: JURA C9 gegen E6 + E8 | Was unterscheidet sie? · Quality Coffee Systems (2026-06-03) | Coffeedant",
+      "fr": "JURA E6 Dark Inox NAC : JURA C9 face aux E6 + E8 | Qu’est-ce qui les différencie ? · Quality Coffee Systems (2026-06-03) | Coffeedant"
+    },
+    "107": {
+      "nl": "Bekijk Quality Coffee Systems over de JURA E6 Dark Inox NAC (2026-06-03): JURA C9 versus E6 + E8 | Wat maakt ze verschillend?. Onafhankelijk vergelijkend bewijs van de werkwijze. De exacte specificaties en prijs van 15621 worden afzonderlijk geverifieerd.",
+      "de": "Quality Coffee Systems zur JURA E6 Dark Inox NAC ansehen (2026-06-03): JURA C9 gegen E6 + E8 | Was unterscheidet sie?. Unabhängige vergleichende Belege zum Arbeitsablauf. Die genauen technischen Daten und der Preis von 15621 werden gesondert geprüft.",
+      "fr": "Regardez Quality Coffee Systems présenter la JURA E6 Dark Inox NAC (2026-06-03) : JURA C9 face aux E6 + E8 | Qu’est-ce qui les différencie ?. Éléments comparatifs indépendants sur la préparation. Les caractéristiques exactes et le prix de 15621 sont vérifiés séparément."
+    },
+    "109": {
+      "nl": "Video van Quality Coffee Systems over de JURA E6 Dark Inox NAC",
+      "de": "Video zur JURA E6 Dark Inox NAC von Quality Coffee Systems",
+      "fr": "Vidéo sur la JURA E6 Dark Inox NAC par Quality Coffee Systems"
+    },
+    "110": {
+      "nl": "JURA C9 versus E6 + E8 | Wat maakt ze verschillend? van Quality Coffee Systems",
+      "de": "JURA C9 gegen E6 + E8 | Was unterscheidet sie? von Quality Coffee Systems",
+      "fr": "JURA C9 face aux E6 + E8 | Qu’est-ce qui les différencie ? par Quality Coffee Systems"
+    },
+    "111": {
+      "nl": "JURA E6 Dark Inox NAC · Perspectief van een winkelier",
+      "de": "JURA E6 Dark Inox NAC · Händlerperspektive",
+      "fr": "JURA E6 Dark Inox NAC · Point de vue d’un revendeur"
+    },
+    "112": {
+      "nl": "De video en de meningen zijn van Quality Coffee Systems. Coffeedant plaatst dit perspectief naast onze geschreven beoordeling.",
+      "de": "Video und Meinungen stammen von Quality Coffee Systems. Coffeedant ergänzt unseren schriftlichen Testbericht um diese Perspektive.",
+      "fr": "La vidéo et les opinions sont celles de Quality Coffee Systems. Coffeedant présente ce point de vue en complément de notre analyse écrite."
+    },
+    "116": {
+      "nl": "Video van Quality Coffee Systems",
+      "de": "Video von Quality Coffee Systems",
+      "fr": "Vidéo de Quality Coffee Systems"
+    }
+  }
+}

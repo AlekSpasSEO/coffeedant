@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "editions": ["nl", "de", "fr"],
+  "scope": "segments",
+  "snapshot": "gaggia-watch-batch-87.source.json",
+  "snapshotHash": "5c7608ad698b0dadff239e3729c3db13413ce8b922d6e2b10afb5d5859615537",
+  "preserveSource": [8, 26],
+  "routes": {
+    "nl": {
+      "/espresso-machine/gaggia-naviglio-milk-hd8749-01/video/frad-coffee/": "/gaggia-naviglio-milk-hd8749-01/video/frad-coffee/",
+      "/espresso-machine/gaggia-magenta-prestige-ri8702/video/pirados-por-cafe/": "/gaggia-magenta-prestige-ri8702/video/pirados-por-cafe/"
+    },
+    "de": {
+      "/espresso-machine/gaggia-naviglio-milk-hd8749-01/video/frad-coffee/": "/gaggia-naviglio-milk-hd8749-01/video/frad-coffee/",
+      "/espresso-machine/gaggia-magenta-prestige-ri8702/video/pirados-por-cafe/": "/gaggia-magenta-prestige-ri8702/video/pirados-por-cafe/"
+    },
+    "fr": {
+      "/espresso-machine/gaggia-naviglio-milk-hd8749-01/video/frad-coffee/": "/machine-a-espresso/gaggia-naviglio-hd8749-01/video/frad-coffee/",
+      "/espresso-machine/gaggia-magenta-prestige-ri8702/video/pirados-por-cafe/": "/machine-a-espresso/gaggia-magenta-prestige-ri8702/video/pirados-por-cafe/"
+    }
+  },
+  "translations": {
+    "0": {"nl":"4 april 2020","de":"4. April 2020","fr":"4 avril 2020"},
+    "1": {"nl":"Gaggia Magenta Prestige RI8702/46: volledige review van de volautomatische espressomachine Gaggia Magenta Prestige · Pirados por Café (2024-12-12) | Coffeedant","de":"Gaggia Magenta Prestige RI8702/46: ausführliche Bewertung des Espresso-Vollautomaten Gaggia Magenta Prestige · Pirados por Café (2024-12-12) | Coffeedant","fr":"Gaggia Magenta Prestige RI8702/46 : évaluation complète de la machine à espresso superautomatique Gaggia Magenta Prestige · Pirados por Café (2024-12-12) | Coffeedant"},
+    "2": {"nl":"Bekijk Pirados por Café over de Gaggia Magenta Prestige RI8702/46 (2024-12-12): volledige review van de volautomatische espressomachine Gaggia Magenta Prestige. Pirados por Café presenteert de Gaggia Magenta Prestige RI8702/46 en laat zien hoe je espresso zet. De demonstraties en meningen zijn van de maker.","de":"Pirados por Café zur Gaggia Magenta Prestige RI8702/46 ansehen (2024-12-12): ausführliche Bewertung des Espresso-Vollautomaten Gaggia Magenta Prestige. Pirados por Café stellt die Gaggia Magenta Prestige RI8702/46 vor und zeigt die Espressozubereitung. Die Vorführungen und Meinungen stammen vom Kanal selbst.","fr":"Regardez Pirados por Café présenter la Gaggia Magenta Prestige RI8702/46 (2024-12-12) : évaluation complète de la machine à espresso superautomatique Gaggia Magenta Prestige. Pirados por Café présente la Gaggia Magenta Prestige RI8702/46 et montre comment préparer un espresso. Les démonstrations et les opinions sont celles du créateur."},
+    "4": {"nl":"Video over de Gaggia Magenta Prestige RI8702/46 door Pirados por Café","de":"Video von Pirados por Café zur Gaggia Magenta Prestige RI8702/46","fr":"Vidéo de Pirados por Café sur la Gaggia Magenta Prestige RI8702/46"},
+    "5": {"nl":"Volledige review van de volautomatische espressomachine Gaggia Magenta Prestige door Pirados por Café","de":"Ausführliche Bewertung des Espresso-Vollautomaten Gaggia Magenta Prestige von Pirados por Café","fr":"Évaluation complète de la machine à espresso superautomatique Gaggia Magenta Prestige par Pirados por Café"},
+    "6": {"nl":"Gaggia Magenta Prestige RI8702/46 · In beeld bij een externe maker","de":"Gaggia Magenta Prestige RI8702/46 · Sicht eines externen Kanals","fr":"Gaggia Magenta Prestige RI8702/46 · Point de vue d’un tiers"},
+    "7": {"nl":"Volledige review van de volautomatische espressomachine Gaggia Magenta Prestige","de":"Ausführliche Bewertung des Espresso-Vollautomaten Gaggia Magenta Prestige","fr":"Évaluation complète de la machine à espresso superautomatique Gaggia Magenta Prestige"},
+    "9": {"nl":"12 december 2024","de":"12. Dezember 2024","fr":"12 décembre 2024"},
+    "10": {"nl":"Pirados por Café presenteert de Gaggia Magenta Prestige RI8702/46 en laat zien hoe je espresso zet. De demonstraties en meningen zijn van de maker.","de":"Pirados por Café stellt die Gaggia Magenta Prestige RI8702/46 vor und zeigt die Espressozubereitung. Die Vorführungen und Meinungen stammen vom Kanal selbst.","fr":"Pirados por Café présente la Gaggia Magenta Prestige RI8702/46 et montre comment préparer un espresso. Les démonstrations et les opinions sont celles du créateur."},
+    "11": {"nl":"De video en de meningen zijn van Pirados por Café. Coffeedant heeft deze invalshoek geselecteerd als aanvulling op de geschreven review.","de":"Video und Meinungen stammen von Pirados por Café. Coffeedant hat diese Sichtweise als Ergänzung zur schriftlichen Bewertung ausgewählt.","fr":"La vidéo et les opinions sont celles de Pirados por Café. Coffeedant a retenu ce point de vue en complément de son évaluation écrite."},
+    "18": {"nl":"Video door Pirados por Café","de":"Video von Pirados por Café","fr":"Vidéo de Pirados por Café"},
+    "19": {"nl":"Gaggia Naviglio HD8749/01: kennismaking en review van de Gaggia Naviglio · FRAD COFFEE (2020-04-04) | Coffeedant","de":"Gaggia Naviglio HD8749/01: Vorstellung und Bewertung der Gaggia Naviglio · FRAD COFFEE (2020-04-04) | Coffeedant","fr":"Gaggia Naviglio HD8749/01 : présentation et évaluation de la Gaggia Naviglio · FRAD COFFEE (2020-04-04) | Coffeedant"},
+    "20": {"nl":"Bekijk FRAD COFFEE over de Gaggia Naviglio HD8749/01 (2020-04-04): kennismaking en review van de Gaggia Naviglio. FRAD COFFEE presenteert de Gaggia Naviglio HD8749/01 en laat zien hoe je espresso zet. De demonstraties en meningen zijn van de maker.","de":"FRAD COFFEE zur Gaggia Naviglio HD8749/01 ansehen (2020-04-04): Vorstellung und Bewertung der Gaggia Naviglio. FRAD COFFEE stellt die Gaggia Naviglio HD8749/01 vor und zeigt die Espressozubereitung. Die Vorführungen und Meinungen stammen vom Kanal selbst.","fr":"Regardez FRAD COFFEE présenter la Gaggia Naviglio HD8749/01 (2020-04-04) : présentation et évaluation de la Gaggia Naviglio. FRAD COFFEE présente la Gaggia Naviglio HD8749/01 et montre comment préparer un espresso. Les démonstrations et les opinions sont celles du créateur."},
+    "22": {"nl":"Video over de Gaggia Naviglio HD8749/01 door FRAD COFFEE","de":"Video von FRAD COFFEE zur Gaggia Naviglio HD8749/01","fr":"Vidéo de FRAD COFFEE sur la Gaggia Naviglio HD8749/01"},
+    "23": {"nl":"Kennismaking en review van de Gaggia Naviglio door FRAD COFFEE","de":"Vorstellung und Bewertung der Gaggia Naviglio von FRAD COFFEE","fr":"Présentation et évaluation de la Gaggia Naviglio par FRAD COFFEE"},
+    "24": {"nl":"Gaggia Naviglio HD8749/01 · In beeld bij een externe maker","de":"Gaggia Naviglio HD8749/01 · Sicht eines externen Kanals","fr":"Gaggia Naviglio HD8749/01 · Point de vue d’un tiers"},
+    "25": {"nl":"Kennismaking en review van de Gaggia Naviglio","de":"Vorstellung und Bewertung der Gaggia Naviglio","fr":"Présentation et évaluation de la Gaggia Naviglio"},
+    "27": {"nl":"FRAD COFFEE presenteert de Gaggia Naviglio HD8749/01 en laat zien hoe je espresso zet. De demonstraties en meningen zijn van de maker.","de":"FRAD COFFEE stellt die Gaggia Naviglio HD8749/01 vor und zeigt die Espressozubereitung. Die Vorführungen und Meinungen stammen vom Kanal selbst.","fr":"FRAD COFFEE présente la Gaggia Naviglio HD8749/01 et montre comment préparer un espresso. Les démonstrations et les opinions sont celles du créateur."},
+    "28": {"nl":"De video en de meningen zijn van FRAD COFFEE. Coffeedant heeft deze invalshoek geselecteerd als aanvulling op de geschreven review.","de":"Video und Meinungen stammen von FRAD COFFEE. Coffeedant hat diese Sichtweise als Ergänzung zur schriftlichen Bewertung ausgewählt.","fr":"La vidéo et les opinions sont celles de FRAD COFFEE. Coffeedant a retenu ce point de vue en complément de son évaluation écrite."},
+    "35": {"nl":"Video door FRAD COFFEE","de":"Video von FRAD COFFEE","fr":"Vidéo de FRAD COFFEE"}
+  }
+}

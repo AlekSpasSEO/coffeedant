@@ -1,0 +1,787 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "gaggia-anima-family-batch-80.source.json",
+  "snapshotHash": "984fa86f430e1179dd71fbf89ec6300a406e343eda00420bb604a2ef98d85ae3",
+  "preserveSource": [
+    67,
+    167
+  ],
+  "routes": {
+    "nl": {
+      "/espresso-machine/gaggia-anima-prestige/": "/espresso-machine/gaggia-anima-prestige/",
+      "/espresso-machine/gaggia-anima-prestige/video/whole-latte-love/": "/espresso-machine/gaggia-anima-prestige/video/whole-latte-love/",
+      "/espresso-machine/gaggia-anima-deluxe/": "/espresso-machine/gaggia-anima-deluxe/",
+      "/espresso-machine/gaggia-anima-deluxe/video/whole-latte-love/": "/espresso-machine/gaggia-anima-deluxe/video/whole-latte-love/"
+    },
+    "de": {
+      "/espresso-machine/gaggia-anima-prestige/": "/testbericht-gaggia-anima-prestige/",
+      "/espresso-machine/gaggia-anima-prestige/video/whole-latte-love/": "/testbericht-gaggia-anima-prestige/video/whole-latte-love/",
+      "/espresso-machine/gaggia-anima-deluxe/": "/testbericht-gaggia-anima-deluxe/",
+      "/espresso-machine/gaggia-anima-deluxe/video/whole-latte-love/": "/testbericht-gaggia-anima-deluxe/video/whole-latte-love/"
+    },
+    "fr": {
+      "/espresso-machine/gaggia-anima-prestige/": "/machine-a-espresso/gaggia-anima-prestige/",
+      "/espresso-machine/gaggia-anima-prestige/video/whole-latte-love/": "/machine-a-espresso/gaggia-anima-prestige/video/whole-latte-love/",
+      "/espresso-machine/gaggia-anima-deluxe/": "/machine-a-espresso/gaggia-anima-deluxe/",
+      "/espresso-machine/gaggia-anima-deluxe/video/whole-latte-love/": "/machine-a-espresso/gaggia-anima-deluxe/video/whole-latte-love/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "Productadvertentie",
+      "de": "Produktangebot",
+      "fr": "Annonce produit"
+    },
+    "1": {
+      "nl": "Actuele beelden van de productpagina van de verkoper",
+      "de": "Aktuelle Medien der Händler-Produktseite",
+      "fr": "Images actuelles de la page produit du vendeur"
+    },
+    "2": {
+      "nl": ".\nBeelden uit de productadvertentie van de verkoper; geen testfoto van Coffeedant.",
+      "de": ".\nMedien aus dem Händlerangebot; keine Testaufnahme von Coffeedant.",
+      "fr": ".\nImages de l’annonce du vendeur ; aucune photo d’essai de Coffeedant."
+    },
+    "3": {
+      "nl": "8.1 van de 10",
+      "de": "8.1 von 10",
+      "fr": "8.1 sur 10"
+    },
+    "4": {
+      "nl": "8.7 van de 10",
+      "de": "8.7 von 10",
+      "fr": "8.7 sur 10"
+    },
+    "5": {
+      "nl": "Gaggia Anima Deluxe beoordeeld: handig melkschuim via een slang, met schoonmaakwerk erbij | Coffeedant",
+      "de": "Bewertung der Gaggia Anima Deluxe: bequemer Milchschaum per Schlauch, mit Reinigung im Anschluss | Coffeedant",
+      "fr": "Évaluation de la Gaggia Anima Deluxe : mousse pratique par tuyau, avec nettoyage à la clé | Coffeedant"
+    },
+    "6": {
+      "nl": "Een op onderzoek gebaseerde beoordeling van de Gaggia Anima Deluxe over de identiteit RI8759/01, Cappuccinatore-melkbereiding, keramische molen, actuele prijs van een gereviseerd exemplaar, werkwijze, onderhoud en regioverschillen.",
+      "de": "Eine auf Recherche gestützte Bewertung der Gaggia Anima Deluxe zu RI8759/01, Cappuccinatore-Milchzubereitung, Keramikmühle, aktuellem Preis eines aufbereiteten Geräts, Arbeitsablauf, Pflege und regionalen Unterschieden.",
+      "fr": "Une évaluation de la Gaggia Anima Deluxe fondée sur des recherches : identité RI8759/01, lait par Cappuccinatore, moulin en céramique, prix actuel d’un exemplaire reconditionné, utilisation, entretien et différences régionales."
+    },
+    "8": {
+      "nl": "Gaggia Anima Deluxe beoordeeld: handig melkschuim via een slang, met schoonmaakwerk erbij",
+      "de": "Bewertung der Gaggia Anima Deluxe: bequemer Milchschaum per Schlauch, mit Reinigung im Anschluss",
+      "fr": "Évaluation de la Gaggia Anima Deluxe : mousse pratique par tuyau, avec nettoyage à la clé"
+    },
+    "9": {
+      "nl": "Voor huishoudens die melkschuim met één druk op de knop via een slang willen, zonder een merkspecifieke melkkan te bewaren",
+      "de": "Für Haushalte, die Milchschaum per Schlauch auf Knopfdruck wünschen, ohne eine herstellerspezifische Karaffe aufzubewahren",
+      "fr": "Pour les foyers qui souhaitent de la mousse de lait par tuyau sur simple pression, sans ranger une carafe propriétaire"
+    },
+    "10": {
+      "nl": "Melkschuim met één druk op de knop via een slang, zonder een merkspecifieke melkkan te bewaren. De keerzijde is dat de melkslang en Cappuccinatore direct moeten worden gereinigd en het gecontroleerde Amerikaanse exemplaar gereviseerd en uitverkocht was.",
+      "de": "Milchschaum per Schlauch auf Knopfdruck, ohne eine herstellerspezifische Karaffe aufzubewahren. Der Kompromiss: Milchschlauch und Cappuccinatore müssen zeitnah gereinigt werden, und das geprüfte US-Angebot betraf ein aufbereitetes, ausverkauftes Gerät.",
+      "fr": "De la mousse de lait par tuyau sur simple pression, sans ranger une carafe propriétaire. En contrepartie, le tuyau et le Cappuccinatore doivent être nettoyés rapidement, et l’exemplaire américain vérifié était reconditionné et épuisé."
+    },
+    "11": {
+      "nl": "Referentie van Whole Latte Love voor een gereviseerd exemplaar; beschikbaarheid en garantie zijn veranderlijk",
+      "de": "Referenz für ein aufbereitetes Gerät bei Whole Latte Love; Verfügbarkeit und Garantie können sich ändern",
+      "fr": "Référence reconditionnée de Whole Latte Love ; disponibilité et garantie susceptibles de changer"
+    },
+    "12": {
+      "nl": "Kies voor melkschuim met één druk op de knop via een slang, zonder een merkspecifieke melkkan te bewaren.",
+      "de": "Wählen Sie Milchschaum per Schlauch auf Knopfdruck, ohne eine herstellerspezifische Karaffe aufzubewahren.",
+      "fr": "Choisissez de la mousse de lait par tuyau sur simple pression, sans ranger une carafe propriétaire."
+    },
+    "13": {
+      "nl": "Anima Deluxe met Cappuccinatore-slangsysteem; het officiële RI8759/01-record is Europees, terwijl Amerikaanse advertenties voor gereviseerde exemplaren een regionaal 120V-suffix kunnen gebruiken.",
+      "de": "Anima Deluxe mit Cappuccinatore-Schlauchsystem; der offizielle RI8759/01-Datensatz ist europäisch, während US-Angebote aufbereiteter Geräte ein regionales 120V-Suffix verwenden können.",
+      "fr": "Anima Deluxe avec système à tuyau Cappuccinatore ; la fiche officielle RI8759/01 est européenne, tandis que les annonces américaines reconditionnées peuvent utiliser un suffixe régional 120V."
+    },
+    "14": {
+      "nl": "Espresso, espresso lungo, melkschuim en heet water, met vijf aromaniveaus, drie temperaturen en volumegeheugen",
+      "de": "Espresso, Espresso lungo, Milchschaum und Heißwasser mit fünf Aromastufen, drei Temperaturen und Mengenspeicher",
+      "fr": "Espresso, espresso lungo, mousse de lait et eau chaude, avec cinq niveaux d’arôme, trois températures et mémorisation du volume"
+    },
+    "15": {
+      "nl": "De automatische Cappuccinatore trekt via een slang melk uit een apart reservoir en geeft schuim af in het kopje; geen geïntegreerde melkkan voor gekoelde opslag",
+      "de": "Der automatische Cappuccinatore zieht Milch per Schlauch aus einem separaten Behälter und gibt Schaum in die Tasse ab; keine integrierte Karaffe zur gekühlten Aufbewahrung",
+      "fr": "Le Cappuccinatore automatique aspire le lait d’un récipient séparé par un tuyau et distribue la mousse dans la tasse ; aucune carafe intégrée à conserver au réfrigérateur"
+    },
+    "16": {
+      "nl": "LCD en fysieke knoppen met afzonderlijke functies voor koffie, melkschuim en heet water",
+      "de": "LCD und physische Tasten mit eigenen Funktionen für Kaffee, Milchschaum und Heißwasser",
+      "fr": "LCD et touches physiques dédiées au café, à la mousse de lait et à l’eau chaude"
+    },
+    "17": {
+      "nl": "1.8 L water, bonencapaciteiten van 150-250 g volgens de markt en maximaal 15 koffiepucks",
+      "de": "1.8 L Wasser, je nach Markt Bohnenangaben von 150-250 g und bis zu 15 Kaffeepucks",
+      "fr": "1.8 L d’eau, capacités de grains indiquées de 150-250 g selon le marché et jusqu’à 15 galettes"
+    },
+    "18": {
+      "nl": "22.1 W bij 34 H bij 43 D cm; 8.3 kg volgens de officiële wereldwijde gegevens",
+      "de": "22.1 W × 34 H × 43 D cm; 8.3 kg laut offiziellen weltweiten Angaben",
+      "fr": "22.1 W sur 34 H sur 43 D cm ; 8.3 kg dans les données officielles mondiales"
+    },
+    "19": {
+      "nl": "De melkslang en Cappuccinatore moeten direct worden gereinigd en het gecontroleerde Amerikaanse exemplaar was gereviseerd en uitverkocht",
+      "de": "Milchschlauch und Cappuccinatore müssen zeitnah gereinigt werden, und das geprüfte US-Angebot betraf ein aufbereitetes, ausverkauftes Gerät",
+      "fr": "Le tuyau et le Cappuccinatore doivent être nettoyés rapidement, et l’exemplaire américain vérifié était reconditionné et épuisé"
+    },
+    "20": {
+      "nl": "Welke exacte Anima Deluxe behandelt deze beoordeling?",
+      "de": "Welche genaue Anima Deluxe behandelt diese Bewertung?",
+      "fr": "Quelle Anima Deluxe précise cette évaluation couvre-t-elle ?"
+    },
+    "21": {
+      "nl": "Een koper die melkschuim met één druk op de knop via een slang waardeert, zonder een merkspecifieke melkkan te bewaren, en accepteert dat de melkslang en Cappuccinatore direct moeten worden gereinigd en het gecontroleerde Amerikaanse exemplaar gereviseerd en uitverkocht was",
+      "de": "Ein Käufer, der Milchschaum per Schlauch auf Knopfdruck ohne aufzubewahrende Herstellerkaraffe schätzt und akzeptiert, dass Milchschlauch und Cappuccinatore zeitnah gereinigt werden müssen und das geprüfte US-Angebot ein aufbereitetes, ausverkauftes Gerät betraf",
+      "fr": "Un acheteur qui apprécie la mousse de lait par tuyau sur simple pression sans ranger une carafe propriétaire et accepte le nettoyage rapide du tuyau et du Cappuccinatore ainsi que le fait que l’exemplaire américain vérifié était reconditionné et épuisé"
+    },
+    "22": {
+      "nl": "Volledige beoordeling van de Gaggia Anima Deluxe",
+      "de": "Vollständige Bewertung der Gaggia Anima Deluxe",
+      "fr": "Évaluation complète de la Gaggia Anima Deluxe"
+    },
+    "23": {
+      "nl": "Een enkele totaalscore is alleen nuttig als u kunt zien hoe die tot stand kwam. De Gaggia Anima Deluxe krijgt",
+      "de": "Eine einzelne Gesamtwertung ist nur nützlich, wenn Sie deren Grundlage erkennen können. Die Gaggia Anima Deluxe erhält",
+      "fr": "Une seule note globale n’est utile que si l’on peut voir ce qui la justifie. La Gaggia Anima Deluxe obtient"
+    },
+    "24": {
+      "nl": "Espresso, espresso lungo, melkschuim en heet water, met vijf aromaniveaus, drie temperaturen en volumegeheugen, bieden nuttige automatische afstelmogelijkheden.",
+      "de": "Espresso, Espresso lungo, Milchschaum und Heißwasser mit fünf Aromastufen, drei Temperaturen und Mengenspeicher bieten nützliche automatische Einstellmöglichkeiten.",
+      "fr": "Espresso, espresso lungo, mousse de lait et eau chaude, avec cinq niveaux d’arôme, trois températures et mémorisation du volume, offrent des réglages automatiques utiles."
+    },
+    "25": {
+      "nl": "Het LCD en de fysieke knoppen met afzonderlijke functies voor koffie, melkschuim en heet water houden de drankbereiding overzichtelijk.",
+      "de": "LCD und physische Tasten mit eigenen Funktionen für Kaffee, Milchschaum und Heißwasser halten die Zubereitung übersichtlich.",
+      "fr": "Le LCD et les touches physiques dédiées au café, à la mousse de lait et à l’eau chaude gardent la préparation accessible."
+    },
+    "26": {
+      "nl": "Espresso, espresso lungo, melkschuim en heet water, met vijf aromaniveaus, drie temperaturen en volumegeheugen, dekken het kerngebruik.",
+      "de": "Espresso, Espresso lungo, Milchschaum und Heißwasser mit fünf Aromastufen, drei Temperaturen und Mengenspeicher decken den zentralen Anwendungsfall ab.",
+      "fr": "Espresso, espresso lungo, mousse de lait et eau chaude, avec cinq niveaux d’arôme, trois températures et mémorisation du volume, couvrent l’usage principal."
+    },
+    "27": {
+      "nl": "$490.62 vraagt om context over staat en garantie.",
+      "de": "$490.62 erfordern Kontext zu Zustand und Garantie.",
+      "fr": "$490.62 nécessitent un contexte sur l’état et la garantie."
+    },
+    "28": {
+      "nl": "Anima Deluxe: de aankoopbeslissing",
+      "de": "Anima Deluxe: die Kaufentscheidung",
+      "fr": "Anima Deluxe : la décision d’achat"
+    },
+    "29": {
+      "nl": "De Anima Deluxe trekt melk via een slang uit een apart reservoir en biedt automatisch schuim zonder geïntegreerde bewaarmelkkan. Dat onderscheid is zijn belangrijkste bestaansreden naast de Anima met handmatige melkbereiding en de Prestige met melkkan. Espresso en lungo blijven eenvoudige knopkeuzes, met een keramische molen met vijf standen voor de bonen. De slang en Cappuccinatore moeten direct worden gereinigd, dus beoordeel het gemak over de volledige reeks van drankbereiding en schoonmaken. Ook de regionale identiteit telt: officiële Europese gegevens en advertenties voor Noord-Amerikaanse gereviseerde exemplaren beschrijven verschillende elektrische uitvoeringen. Controleer de daadwerkelijke machine in plaats van specificaties van een andere Anima over te nemen.",
+      "de": "Die Anima Deluxe zieht Milch per Schlauch aus einem separaten Behälter und bietet automatischen Schaum ohne integrierte Aufbewahrungskaraffe. Dieser Unterschied ist ihr wichtigstes Argument neben der Anima mit manueller Milchzubereitung und der Prestige mit Karaffe. Espresso und Lungo bleiben einfache Tastenwahlen; eine Keramikmühle mit fünf Stufen liefert das Mahlgut. Schlauch und Cappuccinatore müssen zeitnah gereinigt werden. Beurteilen Sie den Komfort deshalb über den gesamten Ablauf aus Getränkezubereitung und Reinigung. Auch die regionale Identität zählt, denn offizielle europäische Unterlagen und nordamerikanische Angebote aufbereiteter Geräte beschreiben unterschiedliche elektrische Ausstattungen. Prüfen Sie das konkrete Gerät, statt Spezifikationen einer anderen Anima zu übertragen.",
+      "fr": "L’Anima Deluxe aspire le lait d’un récipient séparé par un tuyau et offre une mousse automatique sans carafe de conservation intégrée. Cette différence est sa principale raison d’être à côté de l’Anima à lait manuel et de la Prestige à carafe. Espresso et lungo restent des choix simples par touches, avec un moulin en céramique à cinq positions pour les grains. Le tuyau et le Cappuccinatore doivent être nettoyés rapidement : le confort doit donc être jugé sur l’ensemble préparation et nettoyage. L’identité régionale compte aussi, car les fiches officielles européennes et les annonces nord-américaines reconditionnées décrivent des équipements électriques différents. Vérifiez l’appareil réel au lieu de transférer une caractéristique d’une autre Anima."
+    },
+    "30": {
+      "nl": "De Anima Deluxe instellen",
+      "de": "Die Anima Deluxe einrichten",
+      "fr": "Installer l’Anima Deluxe"
+    },
+    "31": {
+      "nl": "een volautomaat met een molen met platte keramische maalschijven en vijf standen, een automatische uitneembare zetgroep, LCD en fysieke knoppen met afzonderlijke functies voor koffie, melkschuim en heet water, en een automatische Cappuccinatore die via een slang melk uit een apart reservoir trekt en schuim in het kopje afgeeft; geen geïntegreerde melkkan voor gekoelde opslag.",
+      "de": "ein Kaffeevollautomat mit flachen Keramikmahlscheiben und fünf Mahlgradeinstellungen, einer automatischen herausnehmbaren Brühgruppe, LCD und physischen Tasten für Kaffee, Milchschaum und Heißwasser sowie einem automatischen Cappuccinatore, der Milch per Schlauch aus einem separaten Behälter zieht und Schaum in die Tasse abgibt; keine integrierte Karaffe zur gekühlten Aufbewahrung.",
+      "fr": "une machine à grains avec moulin à meules plates en céramique à cinq réglages, groupe d’infusion automatique amovible, LCD et touches physiques dédiées au café, à la mousse de lait et à l’eau chaude, et Cappuccinatore automatique aspirant le lait d’un récipient séparé par un tuyau pour distribuer la mousse dans la tasse ; aucune carafe intégrée à conserver au réfrigérateur."
+    },
+    "32": {
+      "nl": "Controleer de Cappuccinatore en de externe melkslang van de Deluxe voordat u een gereviseerd aanbod overweegt. Het gecontroleerde Amerikaanse exemplaar was uitverkocht; de prijs is daarom historische context. De RI8759/01-familie omvat ook meerdere regio’s: controleer de meegeleverde elektrische uitvoering in plaats van Noord-Amerikaanse compatibiliteit aan te nemen.",
+      "de": "Identifizieren Sie den Cappuccinatore und den externen Milchschlauch der Deluxe, bevor Sie ein aufbereitetes Angebot erwägen. Das geprüfte US-Angebot war ausverkauft; sein Preis ist daher historischer Kontext. Die RI8759/01-Familie umfasst ebenfalls mehrere Regionen. Prüfen Sie die gelieferte elektrische Ausstattung, statt nordamerikanische Kompatibilität vorauszusetzen.",
+      "fr": "Identifiez le Cappuccinatore et le tuyau de lait externe de la Deluxe avant d’envisager une offre reconditionnée. L’exemplaire américain vérifié était épuisé ; son prix constitue donc un contexte historique. La famille RI8759/01 couvre aussi plusieurs régions : vérifiez l’équipement électrique fourni au lieu de supposer une compatibilité nord-américaine."
+    },
+    "33": {
+      "nl": "Gaggia Anima Deluxe schuin van linksvoor met gemonteerde Cappuccinatore",
+      "de": "Gaggia Anima Deluxe von schräg links vorne mit angebrachtem Cappuccinatore",
+      "fr": "Gaggia Anima Deluxe vue de trois quarts avant gauche avec Cappuccinatore fixé"
+    },
+    "34": {
+      "nl": "De schuine foto toont de zilveren voorkant, de hoge uitlopen en de Cappuccinatore met melkslang die de Deluxe onderscheiden van de pannarello- en melkkanversies.",
+      "de": "Die schräge Ansicht zeigt die silberne Front, die hohen Ausläufe und den schlauchgespeisten Cappuccinatore, die die Deluxe von den Pannarello- und Karaffenvarianten unterscheiden.",
+      "fr": "La vue en biais montre la façade argentée, les sorties hautes et le Cappuccinatore alimenté par tuyau qui distinguent la Deluxe des versions pannarello et à carafe."
+    },
+    "35": {
+      "nl": "Whole Latte Love: productpagina van de gereviseerde Anima Deluxe",
+      "de": "Whole Latte Love: Produktseite der aufbereiteten Anima Deluxe",
+      "fr": "Whole Latte Love : page produit de l’Anima Deluxe reconditionnée"
+    },
+    "36": {
+      "nl": "Bekijk wat er naast de Anima Deluxe nog bij u past.",
+      "de": "Sehen Sie, welche Alternativen zur Anima Deluxe ebenfalls passen.",
+      "fr": "Voyez quelles autres machines vous conviennent à côté de l’Anima Deluxe."
+    },
+    "37": {
+      "nl": "De Deluxe automatiseert schuim zonder merkspecifieke melkkan voor de koelkast. Dat past bij iemand die graag een melkreservoir naast de machine plaatst en de slang beheert. U moet koffie- en melkhandelingen nog steeds op elkaar afstemmen; vergelijk daarom de volledige cappuccinoreeks met de geïntegreerde melkkan van de Prestige.",
+      "de": "Die Deluxe automatisiert Schaum ohne herstellerspezifische Karaffe für den Kühlschrank. Das passt zu jemandem, der einen Milchbehälter neben das Gerät stellen und den Schlauch handhaben möchte. Kaffee- und Milchschritte müssen weiterhin abgestimmt werden. Vergleichen Sie deshalb die vollständige Cappuccino-Abfolge mit dem integrierten Karaffensystem der Prestige.",
+      "fr": "La Deluxe automatise la mousse sans carafe propriétaire à ranger au réfrigérateur. Cela convient à quelqu’un qui accepte de placer un récipient à lait à côté de la machine et de gérer le tuyau. Il faut toujours organiser les actions café et lait : comparez donc une séquence complète de cappuccino à l’approche à carafe intégrée de la Prestige."
+    },
+    "38": {
+      "nl": "22.1 W bij 34 H bij 43 D cm; 8.3 kg volgens de officiële wereldwijde gegevens. De zetgroep is uitneembaar voor reiniging.",
+      "de": "22.1 W × 34 H × 43 D cm; 8.3 kg laut offiziellen weltweiten Angaben. Die Brühgruppe ist zur Reinigung herausnehmbar.",
+      "fr": "22.1 W sur 34 H sur 43 D cm ; 8.3 kg dans les données officielles mondiales. Le groupe est amovible pour le nettoyage."
+    },
+    "39": {
+      "nl": "De melkslang en Cappuccinatore moeten direct worden gereinigd, ook wanneer het aparte reservoir is opgeborgen. Houd ruimte vrij om natte onderdelen te hanteren. Controleer de werkelijke specificatie van het bonenreservoir op het regionale exemplaar: de bestaande gegevens variëren van 150 tot 250 g.",
+      "de": "Milchschlauch und Cappuccinatore müssen zeitnah gereinigt werden, auch wenn der separate Behälter weggeräumt ist. Lassen Sie Platz zum Handhaben nasser Teile. Prüfen Sie die tatsächliche Bohnenbehälter-Spezifikation des regionalen Geräts: Die vorhandenen Angaben reichen von 150 bis 250 g.",
+      "fr": "Le tuyau de lait et le Cappuccinatore doivent être nettoyés rapidement, même lorsque le récipient séparé est rangé. Prévoyez de la place pour manipuler les pièces humides. Vérifiez la capacité réelle de la trémie sur l’appareil régional : les données existantes vont de 150 à 250 g."
+    },
+    "40": {
+      "nl": "Automatische melkopschuimer van de Gaggia Anima Deluxe tijdens het schenken in een kopje",
+      "de": "Automatischer Milchaufschäumer der Gaggia Anima Deluxe beim Ausgeben in eine Tasse",
+      "fr": "Mousseur automatique de la Gaggia Anima Deluxe distribuant dans une tasse"
+    },
+    "41": {
+      "nl": "De gebruiksfoto toont de aparte melkslang en de plaatsing van het kopje, waardoor reinigen en het neerzetten van het reservoir deel van de dagelijkse werkwijze worden.",
+      "de": "Die Betriebsansicht zeigt den separaten Milchschlauch und die Tassenposition. Reinigung und Behälterführung werden dadurch Teil des täglichen Ablaufs.",
+      "fr": "La vue en fonctionnement montre le tuyau de lait séparé et la position de la tasse qui intègrent le nettoyage et le placement du récipient à l’utilisation quotidienne."
+    },
+    "42": {
+      "nl": "De referentie van Whole Latte Love voor een gereviseerd exemplaar was $490.62: een uitverkochte, gereviseerde Amerikaanse advertentie tegenover een opgegeven vergelijkingsprijs van $749 en zes maanden beperkte garantie; geen prijs voor nieuwe voorraad",
+      "de": "Die Referenz für ein aufbereitetes Gerät bei Whole Latte Love lag bei $490.62: ausverkauftes US-Angebot eines aufbereiteten Geräts gegenüber einem angegebenen Vergleichspreis von $749 und sechs Monaten eingeschränkter Garantie; kein Neuwarenpreis",
+      "fr": "La référence reconditionnée de Whole Latte Love affichait $490.62 : annonce américaine reconditionnée épuisée, comparée à un prix indiqué de $749, avec garantie limitée de six mois ; ce n’est pas un prix de stock neuf"
+    },
+    "43": {
+      "nl": "Whole Latte Love: referentie voor een gereviseerd exemplaar: $490.62",
+      "de": "Referenz für ein aufbereitetes Gerät bei Whole Latte Love: $490.62",
+      "fr": "Référence reconditionnée de Whole Latte Love : $490.62"
+    },
+    "44": {
+      "nl": "Uitverkochte, gereviseerde Amerikaanse advertentie tegenover een opgegeven vergelijkingsprijs van $749 en zes maanden beperkte garantie; geen prijs voor nieuwe voorraad",
+      "de": "Ausverkauftes US-Angebot eines aufbereiteten Geräts gegenüber einem angegebenen Vergleichspreis von $749 und sechs Monaten eingeschränkter Garantie; kein Neuwarenpreis",
+      "fr": "Annonce américaine reconditionnée épuisée, comparée à un prix indiqué de $749, avec garantie limitée de six mois ; ce n’est pas un prix de stock neuf"
+    },
+    "45": {
+      "nl": "Discussie van eigenaren: Anima Deluxe",
+      "de": "Besitzerdiskussion: Anima Deluxe",
+      "fr": "Discussion de propriétaires : Anima Deluxe"
+    },
+    "46": {
+      "nl": "Anima Deluxe tegenover de meest vergelijkbare alternatieven",
+      "de": "Anima Deluxe im Vergleich mit den naheliegenden Alternativen",
+      "fr": "L’Anima Deluxe face aux alternatives les plus proches"
+    },
+    "47": {
+      "nl": "Snelle vergelijking van de Gaggia Anima Deluxe",
+      "de": "Schnellvergleich zur Gaggia Anima Deluxe",
+      "fr": "Comparaison rapide de la Gaggia Anima Deluxe"
+    },
+    "48": {
+      "nl": "Gaggia Anima Deluxe en de meest vergelijkbare alternatieven",
+      "de": "Gaggia Anima Deluxe und ihre naheliegenden Alternativen",
+      "fr": "La Gaggia Anima Deluxe et ses alternatives les plus proches"
+    },
+    "49": {
+      "nl": "Gedetailleerde vergelijking van de Gaggia Anima Deluxe",
+      "de": "Detailvergleich zur Gaggia Anima Deluxe",
+      "fr": "Comparaison détaillée de la Gaggia Anima Deluxe"
+    },
+    "50": {
+      "nl": "Anima Deluxe: melkschuim met één druk op de knop via een slang, zonder een merkspecifieke melkkan te bewaren. De beperking in deze vergelijking is dat de melkslang en Cappuccinatore direct moeten worden gereinigd en het gecontroleerde Amerikaanse exemplaar gereviseerd en uitverkocht was.",
+      "de": "Anima Deluxe: Milchschaum per Schlauch auf Knopfdruck, ohne eine herstellerspezifische Karaffe aufzubewahren. Die Grenze in diesem Vergleich: Milchschlauch und Cappuccinatore müssen zeitnah gereinigt werden, und das geprüfte US-Angebot betraf ein aufbereitetes, ausverkauftes Gerät.",
+      "fr": "Anima Deluxe : mousse de lait par tuyau sur simple pression, sans ranger une carafe propriétaire. La limite dans cette comparaison tient au nettoyage rapide du tuyau et du Cappuccinatore et au fait que l’exemplaire américain vérifié était reconditionné et épuisé."
+    },
+    "51": {
+      "nl": "Leven met de Anima Deluxe",
+      "de": "Mit der Anima Deluxe leben",
+      "fr": "Vivre avec l’Anima Deluxe"
+    },
+    "52": {
+      "nl": "Bij een gereviseerde Deluxe zijn de praktische vragen welke melkonderdelen zijn inbegrepen, wie het werk heeft uitgevoerd en wat de schriftelijke garantie dekt. Een schone buitenkant en een geslaagde espresso bewijzen niet dat de slanggevoede opschuimer compleet of hygiënisch is.",
+      "de": "Bei einer aufbereiteten Deluxe lauten die praktischen Fragen: Welche Milchteile sind enthalten, wer hat die Arbeiten durchgeführt, und was deckt die schriftliche Garantie ab? Ein sauberes Äußeres und ein gelungener Espresso belegen nicht, dass der schlauchgespeiste Aufschäumer vollständig oder hygienisch ist.",
+      "fr": "Pour une Deluxe reconditionnée, les questions pratiques portent sur les accessoires lait inclus, l’auteur de la remise en état et la couverture de la garantie écrite. Un extérieur propre et un expresso réussi ne prouvent pas que le mousseur alimenté par tuyau est complet ou hygiénique."
+    },
+    "53": {
+      "nl": "Andere opties voor de Anima Deluxe-koper",
+      "de": "Weitere Optionen für Käufer der Anima Deluxe",
+      "fr": "D’autres options pour l’acheteur d’Anima Deluxe"
+    },
+    "54": {
+      "nl": "Vervang de externe slang van de Deluxe door melkbereiding met een geïntegreerde melkkan.",
+      "de": "Tauschen Sie den externen Schlauch der Deluxe gegen Milchzubereitung mit integrierter Karaffe.",
+      "fr": "Remplacez le tuyau externe de la Deluxe par une préparation du lait à carafe intégrée."
+    },
+    "55": {
+      "nl": "Vergelijk een alternatief met profielen en een handmatige stoompijp met de gereviseerde Deluxe.",
+      "de": "Vergleichen Sie eine Alternative mit Profilen und manueller Dampflanze mit der aufbereiteten Deluxe.",
+      "fr": "Comparez une alternative à profils et buse manuelle à la Deluxe reconditionnée."
+    },
+    "56": {
+      "nl": "Beoordeel een upgrade met twee melksystemen voordat u betaalt voor oude Deluxe-voorraad.",
+      "de": "Prüfen Sie eine Aufrüstung mit zwei Milchwegen, bevor Sie für alte Deluxe-Bestände bezahlen.",
+      "fr": "Évaluez une montée en gamme à deux circuits de lait avant de payer un ancien stock de Deluxe."
+    },
+    "57": {
+      "nl": "Kies een aparte molen en espressomaker in plaats van opnieuw een geïntegreerde volautomaat te kopen.",
+      "de": "Trennen Sie Mühle und Bereiter, statt einen weiteren integrierten Vollautomaten zu kaufen.",
+      "fr": "Séparez le moulin et la machine au lieu d’acheter un autre modèle automatique intégré."
+    },
+    "58": {
+      "nl": "Veelgestelde vragen over de Anima Deluxe",
+      "de": "Häufige Fragen zur Anima Deluxe",
+      "fr": "Questions fréquentes sur l’Anima Deluxe"
+    },
+    "59": {
+      "nl": "Welke melkhandelingen laat de Anima Deluxe aan de gebruiker over?",
+      "de": "Welche Milcharbeit überlässt die Anima Deluxe dem Nutzer?",
+      "fr": "Quel travail du lait l’Anima Deluxe laisse-t-elle à l’utilisateur ?"
+    },
+    "60": {
+      "nl": "Hoeveel maalafstelling biedt de Anima Deluxe?",
+      "de": "Wie viel Mahlgradeinstellung bietet die Anima Deluxe?",
+      "fr": "Quelle marge de réglage du moulin l’Anima Deluxe offre-t-elle ?"
+    },
+    "61": {
+      "nl": "Wat moet ik controleren voordat ik een Anima Deluxe bestel?",
+      "de": "Was sollte ich vor der Bestellung einer Anima Deluxe prüfen?",
+      "fr": "Que dois-je vérifier avant de commander une Anima Deluxe ?"
+    },
+    "62": {
+      "nl": "Welke koffierecepten en instellingen biedt de Anima Deluxe?",
+      "de": "Welche Kaffeerezepte und Einstellungen bietet die Anima Deluxe?",
+      "fr": "Quelles recettes de café et commandes l’Anima Deluxe propose-t-elle ?"
+    },
+    "63": {
+      "nl": "Bekijk de beoordeling van de Gaggia Anima Deluxe-espressomachine door Whole Latte Love",
+      "de": "Die Bewertung der Espressomaschine Gaggia Anima Deluxe von Whole Latte Love ansehen",
+      "fr": "Voir l’évaluation de la machine à expresso Gaggia Anima Deluxe par Whole Latte Love"
+    },
+    "65": {
+      "nl": "Beoordeling: Gaggia Anima Deluxe-espressomachine",
+      "de": "Bewertung: Espressomaschine Gaggia Anima Deluxe",
+      "fr": "Évaluation : machine à expresso Gaggia Anima Deluxe"
+    },
+    "66": {
+      "nl": "Ervaringen van eigenaren zijn anekdotisch. De melkslang en Cappuccinatore moeten direct worden gereinigd en het gecontroleerde Amerikaanse exemplaar was gereviseerd en uitverkocht.",
+      "de": "Besitzerberichte sind anekdotisch. Milchschlauch und Cappuccinatore müssen zeitnah gereinigt werden, und das geprüfte US-Angebot betraf ein aufbereitetes, ausverkauftes Gerät.",
+      "fr": "Les témoignages de propriétaires sont anecdotiques. Le tuyau et le Cappuccinatore doivent être nettoyés rapidement, et l’exemplaire américain vérifié était reconditionné et épuisé."
+    },
+    "68": {
+      "nl": "Handleiding van de Gaggia Anima Deluxe",
+      "de": "Handbuch für die Gaggia Anima Deluxe",
+      "fr": "Manuel de la Gaggia Anima Deluxe"
+    },
+    "69": {
+      "nl": "Referentie van Whole Latte Love voor een gereviseerd exemplaar",
+      "de": "Referenz für ein aufbereitetes Gerät bei Whole Latte Love",
+      "fr": "Référence reconditionnée de Whole Latte Love"
+    },
+    "70": {
+      "nl": "$490.62 en beschikbaarheidscontext gecontroleerd op 23 september 2026; belastingen, regio en garantie variëren.",
+      "de": "$490.62 und Verfügbarkeitskontext am 23. September 2026 geprüft; Steuern, Region und Garantie variieren.",
+      "fr": "$490.62 et contexte de disponibilité vérifiés le 23 septembre 2026 ; taxes, région et garantie variables."
+    },
+    "71": {
+      "nl": "Onafhankelijke beoordeling: Anima Deluxe",
+      "de": "Unabhängige Bewertung: Anima Deluxe",
+      "fr": "Évaluation indépendante : Anima Deluxe"
+    },
+    "72": {
+      "nl": "Onafhankelijke video van Whole Latte Love, gepubliceerd op 2015-11-09, gebruikt als zichtbare context voor de werkwijze.",
+      "de": "Unabhängiges Video von Whole Latte Love, veröffentlicht am 2015-11-09, als sichtbarer Kontext zum Arbeitsablauf genutzt.",
+      "fr": "Vidéo indépendante de Whole Latte Love, publiée le 2015-11-09, utilisée comme contexte visuel de l’utilisation."
+    },
+    "73": {
+      "nl": "De Anima Deluxe werkt wanneer zijn melksysteem bij het huishouden past",
+      "de": "Die Anima Deluxe passt, wenn ihr Milchsystem zum Haushalt passt",
+      "fr": "L’Anima Deluxe convient lorsque son circuit de lait correspond au foyer"
+    },
+    "93": {
+      "nl": "Gaggia Anima Deluxe: beoordeling van de Gaggia Anima Deluxe-espressomachine · Whole Latte Love (2015-11-06) | Coffeedant",
+      "de": "Gaggia Anima Deluxe: Bewertung der Espressomaschine Gaggia Anima Deluxe · Whole Latte Love (2015-11-06) | Coffeedant",
+      "fr": "Gaggia Anima Deluxe : évaluation de la machine à expresso Gaggia Anima Deluxe · Whole Latte Love (2015-11-06) | Coffeedant"
+    },
+    "94": {
+      "nl": "Bekijk Whole Latte Love over de Gaggia Anima Deluxe (2015-11-06): beoordeling van de Gaggia Anima Deluxe-espressomachine. Onafhankelijke visuele informatie over de werkwijze. Actuele specificaties, prijs en beschikbaarheid worden afzonderlijk gecontroleerd.",
+      "de": "Sehen Sie Whole Latte Love zur Gaggia Anima Deluxe (2015-11-06): Bewertung der Espressomaschine Gaggia Anima Deluxe. Unabhängige visuelle Belege zum Arbeitsablauf. Aktuelle Spezifikationen, Preis und Verfügbarkeit werden gesondert geprüft.",
+      "fr": "Regardez Whole Latte Love sur la Gaggia Anima Deluxe (2015-11-06) : évaluation de la machine à expresso Gaggia Anima Deluxe. Éléments visuels indépendants sur l’utilisation. Les caractéristiques, le prix et la disponibilité actuels sont vérifiés séparément."
+    },
+    "96": {
+      "nl": "Gaggia Anima Deluxe-video van Whole Latte Love",
+      "de": "Video zur Gaggia Anima Deluxe von Whole Latte Love",
+      "fr": "Vidéo Gaggia Anima Deluxe par Whole Latte Love"
+    },
+    "97": {
+      "nl": "← Beoordeling van de Gaggia Anima Deluxe",
+      "de": "← Bewertung der Gaggia Anima Deluxe",
+      "fr": "← Évaluation de la Gaggia Anima Deluxe"
+    },
+    "98": {
+      "nl": "Beoordeling van de Gaggia Anima Deluxe-espressomachine door Whole Latte Love",
+      "de": "Bewertung der Espressomaschine Gaggia Anima Deluxe von Whole Latte Love",
+      "fr": "Évaluation de la machine à expresso Gaggia Anima Deluxe par Whole Latte Love"
+    },
+    "99": {
+      "nl": "Gaggia Anima Deluxe · perspectief van een verkoper",
+      "de": "Gaggia Anima Deluxe · Händlerperspektive",
+      "fr": "Gaggia Anima Deluxe · point de vue d’un vendeur"
+    },
+    "103": {
+      "nl": "Gaggia Anima Prestige beoordeeld: cappuccino en latte macchiato met directe knoppen | Coffeedant",
+      "de": "Bewertung der Gaggia Anima Prestige: Cappuccino und Latte macchiato über Direkttasten | Coffeedant",
+      "fr": "Évaluation de la Gaggia Anima Prestige : cappuccino et latte macchiato par touches directes | Coffeedant"
+    },
+    "104": {
+      "nl": "Een op onderzoek gebaseerde beoordeling van de Gaggia Anima Prestige over de uitneembare melkkan, vier dranken met één druk op de knop, keramische molen met vijf standen, actuele Amerikaanse prijs van $849, reiniging en gebruik.",
+      "de": "Eine auf Recherche gestützte Bewertung der Gaggia Anima Prestige zu abnehmbarer Milchkaraffe, vier Getränken auf Knopfdruck, Keramikmühle mit fünf Stufen, aktuellem US-Preis von $849, Reinigung und Besitz.",
+      "fr": "Une évaluation de la Gaggia Anima Prestige fondée sur des recherches : carafe amovible, quatre boissons d’une touche, moulin en céramique à cinq réglages, prix américain actuel de $849, nettoyage et utilisation."
+    },
+    "106": {
+      "nl": "Gaggia Anima Prestige beoordeeld: cappuccino en latte macchiato met directe knoppen",
+      "de": "Bewertung der Gaggia Anima Prestige: Cappuccino und Latte macchiato über Direkttasten",
+      "fr": "Évaluation de la Gaggia Anima Prestige : cappuccino et latte macchiato par touches directes"
+    },
+    "107": {
+      "nl": "Voor huishoudens die een slanke machine met geïntegreerde melkkan willen voor cappuccino en latte macchiato met één druk op de knop",
+      "de": "Für Haushalte, die einen schlanken Ablauf mit integrierter Karaffe für Cappuccino und Latte macchiato auf Knopfdruck wünschen",
+      "fr": "Pour les foyers qui souhaitent un format mince à carafe intégrée pour cappuccino et latte macchiato d’une touche"
+    },
+    "108": {
+      "nl": "Een slanke machine met geïntegreerde melkkan voor cappuccino en latte macchiato met één druk op de knop. De keerzijde is dat het gemak van de melkkan opslag van melk en demontage meebrengt, terwijl benoemde gebruikersprofielen ontbreken.",
+      "de": "Ein schlanker Ablauf mit integrierter Karaffe für Cappuccino und Latte macchiato auf Knopfdruck. Der Kompromiss: Der Karaffenkomfort bringt Milchaufbewahrung und Zerlegen mit sich, während benannte Nutzerprofile fehlen.",
+      "fr": "Un format mince à carafe intégrée pour cappuccino et latte macchiato d’une touche. En contrepartie, le confort de la carafe implique stockage du lait et démontage, sans profils utilisateur nommés."
+    },
+    "109": {
+      "nl": "Kies voor een slanke machine met geïntegreerde melkkan voor cappuccino en latte macchiato met één druk op de knop.",
+      "de": "Wählen Sie einen schlanken Ablauf mit integrierter Karaffe für Cappuccino und Latte macchiato auf Knopfdruck.",
+      "fr": "Choisissez un format mince à carafe intégrée pour cappuccino et latte macchiato d’une touche."
+    },
+    "110": {
+      "nl": "Huidige Noord-Amerikaanse Anima Prestige met geïntegreerde melkkan, roestvrijstalen frontpaneel, vier dranken met één druk op de knop en elektrische uitvoering voor 110-120V.",
+      "de": "Aktuelle nordamerikanische Anima Prestige mit integrierter Karaffe, Edelstahlfront, vier Getränken auf Knopfdruck und elektrischer Ausstattung für 110-120V.",
+      "fr": "Anima Prestige nord-américaine actuelle avec carafe intégrée, façade en acier inoxydable, quatre boissons d’une touche et équipement électrique 110-120V."
+    },
+    "111": {
+      "nl": "Espresso, espresso lungo, cappuccino, latte macchiato en melkschuim met volumegeheugen, vijf sterktes en drie temperaturen",
+      "de": "Espresso, Espresso lungo, Cappuccino, Latte macchiato und Milchschaum mit Mengenspeicher, fünf Stärken und drei Temperaturen",
+      "fr": "Espresso, espresso lungo, cappuccino, latte macchiato et mousse de lait, avec volumes mémorisés, cinq intensités et trois températures"
+    },
+    "112": {
+      "nl": "Uitneembare automatische melkkan met twee kamers, snelreinigingscyclus en aparte heetwateruitloop",
+      "de": "Abnehmbare automatische Zweikammer-Milchkaraffe mit Schnellreinigungszyklus und separatem Heißwasserauslauf",
+      "fr": "Carafe à lait automatique amovible à double chambre, avec cycle de nettoyage rapide et sortie d’eau chaude séparée"
+    },
+    "113": {
+      "nl": "Molen met platte keramische maalschijven, vijf maalstanden en aanpassingslogica",
+      "de": "Mühle mit flachen Keramikmahlscheiben, fünf Mahlgradeinstellungen und Anpassungslogik",
+      "fr": "Moulin à meules plates en céramique avec cinq réglages et logique d’adaptation"
+    },
+    "114": {
+      "nl": "Blauw LCD en fysieke directe drankknoppen met status- en onderhoudsmeldingen",
+      "de": "Blaues LCD und physische Getränkedirekttasten mit Status- und Pflegehinweisen",
+      "fr": "LCD bleu et touches physiques directes de boissons, avec messages d’état et d’entretien"
+    },
+    "115": {
+      "nl": "Circa 60 oz water, 8.8 oz bonen, 17 oz melk en 15 koffiepucks volgens de Noord-Amerikaanse advertentie",
+      "de": "Etwa 60 oz Wasser, 8.8 oz Bohnen, 17 oz Milch und 15 Kaffeepucks laut nordamerikanischem Angebot",
+      "fr": "Environ 60 oz d’eau, 8.8 oz de grains, 17 oz de lait et 15 galettes dans l’annonce nord-américaine"
+    },
+    "116": {
+      "nl": "Circa 8.8 W bij 13.4 H bij 16.9 D in; toegang van boven en aan de voorkant nodig",
+      "de": "Etwa 8.8 W × 13.4 H × 16.9 D in; Zugang von oben und vorne erforderlich",
+      "fr": "Environ 8.8 W sur 13.4 H sur 16.9 D in ; accès par le haut et l’avant nécessaire"
+    },
+    "117": {
+      "nl": "Het gemak van de melkkan brengt opslag van melk en demontage mee, terwijl benoemde gebruikersprofielen ontbreken",
+      "de": "Der Karaffenkomfort bringt Milchaufbewahrung und Zerlegen mit sich, während benannte Nutzerprofile fehlen",
+      "fr": "Le confort de la carafe implique stockage du lait et démontage, sans profils utilisateur nommés"
+    },
+    "118": {
+      "nl": "Welke exacte Anima Prestige behandelt deze beoordeling?",
+      "de": "Welche genaue Anima Prestige behandelt diese Bewertung?",
+      "fr": "Quelle Anima Prestige précise cette évaluation couvre-t-elle ?"
+    },
+    "119": {
+      "nl": "Ja. Een molen met platte keramische maalschijven, vijf maalstanden en aanpassingslogica. Een bypassdoseerder verwerkt af en toe voorgemalen koffie.",
+      "de": "Ja. Eine Mühle mit flachen Keramikmahlscheiben, fünf Mahlgradeinstellungen und Anpassungslogik. Ein Pulverschacht nimmt gelegentlich vorgemahlenen Kaffee auf.",
+      "fr": "Oui. Un moulin à meules plates en céramique avec cinq réglages et logique d’adaptation. Une trappe à café moulu permet un usage occasionnel de café prémoulu."
+    },
+    "120": {
+      "nl": "Een koper die een slanke machine met geïntegreerde melkkan voor cappuccino en latte macchiato met één druk op de knop waardeert en accepteert dat de melkkan opslag van melk en demontage meebrengt, terwijl benoemde gebruikersprofielen ontbreken",
+      "de": "Ein Käufer, der einen schlanken Ablauf mit integrierter Karaffe für Cappuccino und Latte macchiato auf Knopfdruck schätzt und Milchaufbewahrung sowie Zerlegen akzeptiert, obwohl benannte Nutzerprofile fehlen",
+      "fr": "Un acheteur qui apprécie un format mince à carafe intégrée pour cappuccino et latte macchiato d’une touche et accepte le stockage du lait et le démontage liés à la carafe, sans profils utilisateur nommés"
+    },
+    "121": {
+      "nl": "Volledige beoordeling van de Gaggia Anima Prestige",
+      "de": "Vollständige Bewertung der Gaggia Anima Prestige",
+      "fr": "Évaluation complète de la Gaggia Anima Prestige"
+    },
+    "122": {
+      "nl": "Een enkele totaalscore is alleen nuttig als u kunt zien hoe die tot stand kwam. De Gaggia Anima Prestige krijgt",
+      "de": "Eine einzelne Gesamtwertung ist nur nützlich, wenn Sie deren Grundlage erkennen können. Die Gaggia Anima Prestige erhält",
+      "fr": "Une seule note globale n’est utile que si l’on peut voir ce qui la justifie. La Gaggia Anima Prestige obtient"
+    },
+    "123": {
+      "nl": "Espresso, espresso lungo, cappuccino, latte macchiato en melkschuim met volumegeheugen, vijf sterktes en drie temperaturen bieden nuttige automatische afstelmogelijkheden.",
+      "de": "Espresso, Espresso lungo, Cappuccino, Latte macchiato und Milchschaum mit Mengenspeicher, fünf Stärken und drei Temperaturen bieten nützliche automatische Einstellmöglichkeiten.",
+      "fr": "Espresso, espresso lungo, cappuccino, latte macchiato et mousse de lait, avec volumes mémorisés, cinq intensités et trois températures, offrent des réglages automatiques utiles."
+    },
+    "124": {
+      "nl": "Het blauwe LCD en de fysieke directe drankknoppen met status- en onderhoudsmeldingen houden de drankbereiding overzichtelijk.",
+      "de": "Blaues LCD und physische Getränkedirekttasten mit Status- und Pflegehinweisen halten die Zubereitung übersichtlich.",
+      "fr": "Le LCD bleu et les touches physiques directes de boissons, avec messages d’état et d’entretien, gardent la préparation accessible."
+    },
+    "125": {
+      "nl": "Espresso, espresso lungo, cappuccino, latte macchiato en melkschuim met volumegeheugen, vijf sterktes en drie temperaturen dekken het kerngebruik.",
+      "de": "Espresso, Espresso lungo, Cappuccino, Latte macchiato und Milchschaum mit Mengenspeicher, fünf Stärken und drei Temperaturen decken den zentralen Anwendungsfall ab.",
+      "fr": "Espresso, espresso lungo, cappuccino, latte macchiato et mousse de lait, avec volumes mémorisés, cinq intensités et trois températures, couvrent l’usage principal."
+    },
+    "126": {
+      "nl": "$849.00 vraagt om context over staat en garantie.",
+      "de": "$849.00 erfordern Kontext zu Zustand und Garantie.",
+      "fr": "$849.00 nécessitent un contexte sur l’état et la garantie."
+    },
+    "127": {
+      "nl": "Anima Prestige: de aankoopbeslissing",
+      "de": "Anima Prestige: die Kaufentscheidung",
+      "fr": "Anima Prestige : la décision d’achat"
+    },
+    "128": {
+      "nl": "De Anima Prestige biedt cappuccino en latte macchiato naast espresso en lungo als directe keuzes en gebruikt een uitneembare automatische melkkan voor het schuim. De slanke vorm en fysieke drankknoppen passen bij een huishouden dat een kleine, begrijpelijke volautomaat wil in plaats van een groot receptenscherm. Volumegeheugens bieden personalisering, maar er zijn geen benoemde gebruikersprofielen om de voorkeuren van meerdere mensen te scheiden. De melkkan voegt opslag, snelreinigen en periodieke demontage toe aan de routine. Kies deze Anima voor het specifieke gemak van melkdranken met één druk op de knop en accepteer die onderhoudsstappen als onderdeel van de drank.",
+      "de": "Die Anima Prestige bietet Cappuccino und Latte macchiato neben Espresso und Lungo als direkte Auswahl und liefert den Schaum über eine abnehmbare automatische Milchkaraffe. Die schlanke Form und physischen Getränketasten passen zu einem Haushalt, der eine kleine, verständliche Automatikstation statt eines großen Rezeptbildschirms wünscht. Mengenspeicher erlauben Personalisierung, aber benannte Nutzerprofile zur Trennung mehrerer Vorlieben fehlen. Die Karaffe bringt Aufbewahrung, Schnellreinigung und regelmäßiges Zerlegen in die Routine. Wählen Sie diese Anima gezielt für den Komfort von Milchgetränken auf Knopfdruck und akzeptieren Sie diese Pflegeschritte als Teil der Zubereitung.",
+      "fr": "L’Anima Prestige propose cappuccino et latte macchiato à côté de l’espresso et du lungo comme choix directs, en utilisant une carafe automatique amovible pour fournir la mousse. Sa forme mince et ses touches physiques conviennent à un foyer qui veut un petit poste automatique compréhensible plutôt qu’un grand écran de recettes. Les volumes mémorisés permettent une personnalisation, mais aucun profil utilisateur nommé ne sépare les préférences de plusieurs personnes. La carafe ajoute stockage, nettoyage rapide et démontage périodique à la routine. Choisissez cette Anima pour le confort précis des boissons lactées d’une touche, en acceptant ces soins comme partie de la préparation."
+    },
+    "129": {
+      "nl": "De Anima Prestige instellen",
+      "de": "Die Anima Prestige einrichten",
+      "fr": "Installer l’Anima Prestige"
+    },
+    "130": {
+      "nl": "een volautomaat met een molen met platte keramische maalschijven, vijf standen en aanpassingslogica, een automatische uitneembare zetgroep, blauw LCD en fysieke directe drankknoppen met status- en onderhoudsmeldingen, en een uitneembare automatische melkkan met twee kamers, snelreinigingscyclus en aparte heetwateruitloop.",
+      "de": "ein Kaffeevollautomat mit flachen Keramikmahlscheiben, fünf Mahlgradeinstellungen und Anpassungslogik, einer automatischen herausnehmbaren Brühgruppe, blauem LCD und physischen Getränkedirekttasten mit Status- und Pflegehinweisen sowie einer abnehmbaren automatischen Zweikammer-Milchkaraffe mit Schnellreinigungszyklus und separatem Heißwasserauslauf.",
+      "fr": "une machine à grains avec moulin à meules plates en céramique à cinq réglages et logique d’adaptation, groupe d’infusion automatique amovible, LCD bleu et touches physiques directes de boissons avec messages d’état et d’entretien, et carafe automatique amovible à double chambre avec cycle de nettoyage rapide et sortie d’eau chaude séparée."
+    },
+    "131": {
+      "nl": "Houd zowel boven als vóór de slanke behuizing van 8.8 in ruimte vrij. Plaats de meegeleverde melkkan met twee kamers en de aparte heetwateruitloop voordat u de opgeslagen melkrecepten probeert. Dit is de Anima-uitvoering die u moet controleren als cappuccino met één druk op de knop het aankoopdoel is.",
+      "de": "Lassen Sie über und vor dem schlanken, 8.8 in breiten Gerät Platz. Setzen Sie die mitgelieferte Zweikammer-Karaffe und den separaten Heißwasserauslauf ein, bevor Sie die gespeicherten Milchrezepte ausprobieren. Diese Anima-Variante ist zu prüfen, wenn Cappuccino auf Knopfdruck das Kaufziel ist.",
+      "fr": "Laissez de l’espace au-dessus et devant le corps mince de 8.8 in. Installez la carafe à double chambre fournie et la sortie d’eau chaude séparée avant d’essayer les recettes lactées mémorisées. C’est la variante Anima à vérifier si l’achat vise le cappuccino d’une touche."
+    },
+    "132": {
+      "nl": "Gaggia Anima Prestige tijdens het schenken van opgeschuimde melk uit de geïntegreerde melkkan",
+      "de": "Gaggia Anima Prestige beim Ausgeben aufgeschäumter Milch aus der integrierten Karaffe",
+      "fr": "Gaggia Anima Prestige distribuant du lait moussé depuis sa carafe intégrée"
+    },
+    "133": {
+      "nl": "De foto van de melkbereiding toont de kenmerkende uitneembare melkkan, verstelbare uitloop en ruimte voor het kopje tijdens de bereiding met één druk op de knop.",
+      "de": "Die Ansicht der Milchzubereitung zeigt die charakteristische abnehmbare Karaffe, den verstellbaren Auslauf und den Tassenfreiraum im Ablauf auf Knopfdruck.",
+      "fr": "La vue de la boisson lactée montre la carafe amovible caractéristique, la sortie réglable et le dégagement de la tasse dans la séquence d’une touche."
+    },
+    "134": {
+      "nl": "Gaggia North America: productpagina van de Anima Prestige",
+      "de": "Gaggia North America: Anima-Prestige-Produktseite",
+      "fr": "Gaggia North America : page produit de l’Anima Prestige"
+    },
+    "135": {
+      "nl": "Bekijk wat er naast de Anima Prestige nog bij u past.",
+      "de": "Sehen Sie, welche Alternativen zur Anima Prestige ebenfalls passen.",
+      "fr": "Voyez quelles autres machines vous conviennent à côté de l’Anima Prestige."
+    },
+    "136": {
+      "nl": "De Prestige richt zich op espresso, lungo, cappuccino en latte macchiato via directe knoppen. Dat is nuttig als een klein, terugkerend drankenaanbod belangrijker is dan een groot touchscreenmenu verkennen. Er zijn geen benoemde gebruikersprofielen, dus spreek in een gedeelde keuken af welke volumes worden opgeslagen.",
+      "de": "Die Prestige konzentriert sich über Direkttasten auf Espresso, Lungo, Cappuccino und Latte macchiato. Das ist nützlich, wenn eine kleine wiederkehrende Getränkeauswahl wichtiger ist als ein großes Touchscreen-Menü. Es gibt keine benannten Nutzerprofile; einigen Sie sich in einer gemeinsamen Küche auf die gespeicherten Mengen.",
+      "fr": "La Prestige se concentre sur espresso, lungo, cappuccino et latte macchiato par touches directes. C’est utile lorsqu’une petite commande récurrente compte plus que l’exploration d’un grand menu tactile. Il n’y a pas de profils utilisateur nommés : convenez donc des volumes mémorisés dans une cuisine partagée."
+    },
+    "137": {
+      "nl": "Circa 8.8 W bij 13.4 H bij 16.9 D in; toegang van boven en aan de voorkant nodig. De zetgroep is uitneembaar voor reiniging.",
+      "de": "Etwa 8.8 W × 13.4 H × 16.9 D in; Zugang von oben und vorne erforderlich. Die Brühgruppe ist zur Reinigung herausnehmbar.",
+      "fr": "Environ 8.8 W sur 13.4 H sur 16.9 D in ; accès par le haut et l’avant nécessaire. Le groupe est amovible pour le nettoyage."
+    },
+    "138": {
+      "nl": "Behandel de melkkan met twee kamers als een samenstel dat moet worden gereinigd, niet als alleen een melkfles. Volg de instructies voor snelreinigen en demonteren en berg hem daarna op zoals voorgeschreven. Controleer bij het begroten van een complete machine of oude voorraad nog de aparte heetwateruitloop bevat.",
+      "de": "Behandeln Sie die Zweikammer-Karaffe als zu reinigende Baugruppe, nicht bloß als Milchflasche. Befolgen Sie Schnellreinigungs- und Zerlegeanleitung und lagern Sie sie anschließend wie vorgeschrieben. Prüfen Sie bei der Kostenplanung für ein vollständiges Gerät, ob ein Altbestandspaket den separaten Heißwasserauslauf noch enthält.",
+      "fr": "Traitez la carafe à double chambre comme un ensemble à nettoyer, pas comme une simple bouteille de lait. Suivez les consignes de nettoyage rapide et de démontage, puis rangez-la comme indiqué. Vérifiez qu’un ancien stock comprend encore la sortie d’eau chaude séparée lorsque vous budgétez une machine complète."
+    },
+    "139": {
+      "nl": "Uitneembare zetgroep naast het servicedeurtje van de Gaggia Anima Prestige",
+      "de": "Herausnehmbare Brühgruppe neben der Servicetür der Gaggia Anima Prestige",
+      "fr": "Groupe d’infusion amovible à côté de la trappe de service de la Gaggia Anima Prestige"
+    },
+    "140": {
+      "nl": "De onderhoudsfoto maakt de toegang van de eigenaar tot de automatische zetgroep zichtbaar, een voordeel dat nog steeds regelmatig spoelen en correct terugplaatsen vraagt.",
+      "de": "Die Serviceansicht zeigt den Besitzerzugang zur automatischen Brühgruppe. Dieser Vorteil erfordert weiterhin regelmäßiges Spülen und korrektes Wiedereinsetzen.",
+      "fr": "La vue de service montre l’accès du propriétaire au groupe automatique, un avantage qui exige toujours un rinçage régulier et une remise en place correcte."
+    },
+    "141": {
+      "nl": "De rechtstreekse prijs van Gaggia North America was $849.00: een nieuwe Amerikaanse advertentie voor 110-120V met geïntegreerde melkkan; belastingen, afwerking, voorraad en garantie variëren",
+      "de": "Der direkte Preis von Gaggia North America lag bei $849.00: neues US-Angebot für 110-120V mit integrierter Karaffe; Steuern, Ausführung, Bestand und Garantie variieren",
+      "fr": "Le prix direct de Gaggia North America était de $849.00 : annonce américaine neuve en 110-120V avec carafe intégrée ; taxes, finition, stock et garantie variables"
+    },
+    "142": {
+      "nl": "Rechtstreekse prijs van Gaggia North America: $849.00",
+      "de": "Direkter Preis von Gaggia North America: $849.00",
+      "fr": "Prix direct de Gaggia North America : $849.00"
+    },
+    "143": {
+      "nl": "Nieuwe Amerikaanse advertentie voor 110-120V met geïntegreerde melkkan; belastingen, afwerking, voorraad en garantie variëren",
+      "de": "Neues US-Angebot für 110-120V mit integrierter Karaffe; Steuern, Ausführung, Bestand und Garantie variieren",
+      "fr": "Annonce américaine neuve en 110-120V avec carafe intégrée ; taxes, finition, stock et garantie variables"
+    },
+    "144": {
+      "nl": "Discussie van eigenaren: Anima Prestige",
+      "de": "Besitzerdiskussion: Anima Prestige",
+      "fr": "Discussion de propriétaires : Anima Prestige"
+    },
+    "145": {
+      "nl": "Anima Prestige tegenover de meest vergelijkbare alternatieven",
+      "de": "Anima Prestige im Vergleich mit den naheliegenden Alternativen",
+      "fr": "L’Anima Prestige face aux alternatives les plus proches"
+    },
+    "146": {
+      "nl": "Snelle vergelijking van de Gaggia Anima Prestige",
+      "de": "Schnellvergleich zur Gaggia Anima Prestige",
+      "fr": "Comparaison rapide de la Gaggia Anima Prestige"
+    },
+    "147": {
+      "nl": "Gaggia Anima Prestige en de meest vergelijkbare alternatieven",
+      "de": "Gaggia Anima Prestige und ihre naheliegenden Alternativen",
+      "fr": "La Gaggia Anima Prestige et ses alternatives les plus proches"
+    },
+    "148": {
+      "nl": "Gedetailleerde vergelijking van de Gaggia Anima Prestige",
+      "de": "Detailvergleich zur Gaggia Anima Prestige",
+      "fr": "Comparaison détaillée de la Gaggia Anima Prestige"
+    },
+    "149": {
+      "nl": "Anima Prestige: een slanke machine met geïntegreerde melkkan voor cappuccino en latte macchiato met één druk op de knop. De beperking in deze vergelijking is dat het gemak van de melkkan opslag van melk en demontage meebrengt, terwijl benoemde gebruikersprofielen ontbreken.",
+      "de": "Anima Prestige: ein schlanker Ablauf mit integrierter Karaffe für Cappuccino und Latte macchiato auf Knopfdruck. Die Grenze in diesem Vergleich: Der Karaffenkomfort bringt Milchaufbewahrung und Zerlegen mit sich, während benannte Nutzerprofile fehlen.",
+      "fr": "Anima Prestige : un format mince à carafe intégrée pour cappuccino et latte macchiato d’une touche. La limite dans cette comparaison tient au stockage du lait et au démontage liés à la carafe, sans profils utilisateur nommés."
+    },
+    "150": {
+      "nl": "Leven met de Anima Prestige",
+      "de": "Mit der Anima Prestige leben",
+      "fr": "Vivre avec l’Anima Prestige"
+    },
+    "151": {
+      "nl": "De zinvolle vergelijking met de standaard-Anima is de tijd die nodig is om een melkdrank af te maken en de opstelling daarna weer op orde te brengen. Laat de snelreinigingscyclus en het uitnemen van de melkkan demonstreren, niet alleen de eerste cappuccino. Als meerdere mensen aparte recepten nodig hebben, blijven de ontbrekende profielen een reden om elders te kijken.",
+      "de": "Der sinnvolle Vergleich mit der Standard-Anima betrifft die Zeit zum Fertigstellen eines Milchgetränks und zum anschließenden Wiederherstellen der Station. Lassen Sie sich Schnellreinigung und Karaffenentnahme zeigen, nicht nur den ersten Cappuccino. Benötigen mehrere Personen getrennte Rezepte, bleiben die fehlenden Profile ein Grund, andere Geräte anzusehen.",
+      "fr": "La comparaison pertinente avec l’Anima standard porte sur le temps nécessaire pour terminer une boisson lactée et remettre le poste en ordre. Faites démontrer le cycle de nettoyage rapide et le retrait de la carafe, pas seulement le premier cappuccino. Si plusieurs personnes ont besoin de recettes distinctes, l’absence de profils reste une raison de chercher ailleurs."
+    },
+    "152": {
+      "nl": "Andere opties voor de Anima Prestige-koper",
+      "de": "Weitere Optionen für Käufer der Anima Prestige",
+      "fr": "D’autres options pour l’acheteur d’Anima Prestige"
+    },
+    "153": {
+      "nl": "Gebruik een apart melkreservoir in plaats van de merkspecifieke Anima-melkkan in de koelkast te bewaren.",
+      "de": "Verwenden Sie einen externen Milchbehälter, statt die herstellerspezifische Anima-Karaffe im Kühlschrank aufzubewahren.",
+      "fr": "Utilisez un récipient à lait externe au lieu de réfrigérer la carafe propriétaire de l’Anima."
+    },
+    "154": {
+      "nl": "Sla de recepten van vier gebruikers op en behoud handmatige controle over het kannetje.",
+      "de": "Speichern Sie Rezepte für vier Nutzer und behalten Sie die manuelle Kontrolle über das Kännchen.",
+      "fr": "Mémorisez les recettes de quatre utilisateurs tout en contrôlant manuellement le pichet."
+    },
+    "155": {
+      "nl": "Behoud het gemak van een melkkan en voeg een aparte professionele stoompijp toe.",
+      "de": "Behalten Sie den Karaffenkomfort und ergänzen Sie eine separate professionelle Dampflanze.",
+      "fr": "Gardez le confort de la carafe et ajoutez une buse vapeur professionnelle séparée."
+    },
+    "156": {
+      "nl": "Geef espressotechniek voorrang boven de directe cappuccinoknoppen van de Anima.",
+      "de": "Stellen Sie Espressotechnik über die direkten Cappuccino-Tasten der Anima.",
+      "fr": "Privilégiez la technique expresso plutôt que les touches cappuccino directes de l’Anima."
+    },
+    "157": {
+      "nl": "Veelgestelde vragen over de Anima Prestige",
+      "de": "Häufige Fragen zur Anima Prestige",
+      "fr": "Questions fréquentes sur l’Anima Prestige"
+    },
+    "158": {
+      "nl": "Welke melkhandelingen laat de Anima Prestige aan de gebruiker over?",
+      "de": "Welche Milcharbeit überlässt die Anima Prestige dem Nutzer?",
+      "fr": "Quel travail du lait l’Anima Prestige laisse-t-elle à l’utilisateur ?"
+    },
+    "159": {
+      "nl": "Hoeveel maalafstelling biedt de Anima Prestige?",
+      "de": "Wie viel Mahlgradeinstellung bietet die Anima Prestige?",
+      "fr": "Quelle marge de réglage du moulin l’Anima Prestige offre-t-elle ?"
+    },
+    "160": {
+      "nl": "Wat moet ik controleren voordat ik een Anima Prestige bestel?",
+      "de": "Was sollte ich vor der Bestellung einer Anima Prestige prüfen?",
+      "fr": "Que dois-je vérifier avant de commander une Anima Prestige ?"
+    },
+    "161": {
+      "nl": "Welke koffierecepten en instellingen biedt de Anima Prestige?",
+      "de": "Welche Kaffeerezepte und Einstellungen bietet die Anima Prestige?",
+      "fr": "Quelles recettes de café et commandes l’Anima Prestige propose-t-elle ?"
+    },
+    "162": {
+      "nl": "Bekijk de beoordeling van de Gaggia Anima Prestige-espressomachine door Whole Latte Love",
+      "de": "Die Bewertung der Espressomaschine Gaggia Anima Prestige von Whole Latte Love ansehen",
+      "fr": "Voir l’évaluation de la machine à expresso Gaggia Anima Prestige par Whole Latte Love"
+    },
+    "164": {
+      "nl": "Beoordeling: Gaggia Anima Prestige-espressomachine",
+      "de": "Bewertung: Espressomaschine Gaggia Anima Prestige",
+      "fr": "Évaluation : machine à expresso Gaggia Anima Prestige"
+    },
+    "165": {
+      "nl": "11 november 2015",
+      "de": "11. November 2015",
+      "fr": "11 novembre 2015"
+    },
+    "166": {
+      "nl": "Ervaringen van eigenaren zijn anekdotisch. Het gemak van de melkkan brengt opslag van melk en demontage mee, terwijl benoemde gebruikersprofielen ontbreken.",
+      "de": "Besitzerberichte sind anekdotisch. Der Karaffenkomfort bringt Milchaufbewahrung und Zerlegen mit sich, während benannte Nutzerprofile fehlen.",
+      "fr": "Les témoignages de propriétaires sont anecdotiques. Le confort de la carafe implique stockage du lait et démontage, sans profils utilisateur nommés."
+    },
+    "168": {
+      "nl": "Handleiding van de Gaggia Anima Prestige",
+      "de": "Handbuch für die Gaggia Anima Prestige",
+      "fr": "Manuel de la Gaggia Anima Prestige"
+    },
+    "169": {
+      "nl": "$849.00 en beschikbaarheidscontext gecontroleerd op 23 september 2026; belastingen, regio en garantie variëren.",
+      "de": "$849.00 und Verfügbarkeitskontext am 23. September 2026 geprüft; Steuern, Region und Garantie variieren.",
+      "fr": "$849.00 et contexte de disponibilité vérifiés le 23 septembre 2026 ; taxes, région et garantie variables."
+    },
+    "170": {
+      "nl": "Onafhankelijke beoordeling: Anima Prestige",
+      "de": "Unabhängige Bewertung: Anima Prestige",
+      "fr": "Évaluation indépendante : Anima Prestige"
+    },
+    "171": {
+      "nl": "Onafhankelijke video van Whole Latte Love, gepubliceerd op 2015-11-11, gebruikt als zichtbare context voor de werkwijze.",
+      "de": "Unabhängiges Video von Whole Latte Love, veröffentlicht am 2015-11-11, als sichtbarer Kontext zum Arbeitsablauf genutzt.",
+      "fr": "Vidéo indépendante de Whole Latte Love, publiée le 2015-11-11, utilisée comme contexte visuel de l’utilisation."
+    },
+    "172": {
+      "nl": "De Anima Prestige werkt wanneer zijn melksysteem bij het huishouden past",
+      "de": "Die Anima Prestige passt, wenn ihr Milchsystem zum Haushalt passt",
+      "fr": "L’Anima Prestige convient lorsque son circuit de lait correspond au foyer"
+    },
+    "193": {
+      "nl": "← Beoordeling van de Gaggia Anima Prestige",
+      "de": "← Bewertung der Gaggia Anima Prestige",
+      "fr": "← Évaluation de la Gaggia Anima Prestige"
+    },
+    "194": {
+      "nl": "Gaggia Anima Prestige · perspectief van een verkoper",
+      "de": "Gaggia Anima Prestige · Händlerperspektive",
+      "fr": "Gaggia Anima Prestige · point de vue d’un vendeur"
+    },
+    "195": {
+      "nl": "Gaggia Anima Prestige: beoordeling van de Gaggia Anima Prestige-espressomachine · Whole Latte Love (2015-11-11) | Coffeedant",
+      "de": "Gaggia Anima Prestige: Bewertung der Espressomaschine Gaggia Anima Prestige · Whole Latte Love (2015-11-11) | Coffeedant",
+      "fr": "Gaggia Anima Prestige : évaluation de la machine à expresso Gaggia Anima Prestige · Whole Latte Love (2015-11-11) | Coffeedant"
+    },
+    "196": {
+      "nl": "Bekijk Whole Latte Love over de Gaggia Anima Prestige (2015-11-11): beoordeling van de Gaggia Anima Prestige-espressomachine. Onafhankelijke visuele informatie over de werkwijze. Actuele specificaties, prijs en beschikbaarheid worden afzonderlijk gecontroleerd.",
+      "de": "Sehen Sie Whole Latte Love zur Gaggia Anima Prestige (2015-11-11): Bewertung der Espressomaschine Gaggia Anima Prestige. Unabhängige visuelle Belege zum Arbeitsablauf. Aktuelle Spezifikationen, Preis und Verfügbarkeit werden gesondert geprüft.",
+      "fr": "Regardez Whole Latte Love sur la Gaggia Anima Prestige (2015-11-11) : évaluation de la machine à expresso Gaggia Anima Prestige. Éléments visuels indépendants sur l’utilisation. Les caractéristiques, le prix et la disponibilité actuels sont vérifiés séparément."
+    },
+    "198": {
+      "nl": "Gaggia Anima Prestige-video van Whole Latte Love",
+      "de": "Video zur Gaggia Anima Prestige von Whole Latte Love",
+      "fr": "Vidéo Gaggia Anima Prestige par Whole Latte Love"
+    },
+    "199": {
+      "nl": "Beoordeling van de Gaggia Anima Prestige-espressomachine door Whole Latte Love",
+      "de": "Bewertung der Espressomaschine Gaggia Anima Prestige von Whole Latte Love",
+      "fr": "Évaluation de la machine à expresso Gaggia Anima Prestige par Whole Latte Love"
+    }
+  }
+}

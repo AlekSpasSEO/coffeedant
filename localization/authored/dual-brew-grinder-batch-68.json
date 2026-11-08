@@ -1,0 +1,557 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "dual-brew-grinder-batch-68.source.json",
+  "snapshotHash": "54ab302449c64e0c5624006282038b69ceee3c05da24611d5e78051a5ae75ca7",
+  "routes": {
+    "nl": {
+      "/grinder/best-grinders-for-espresso-and-pour-over/": "/koffiemolen/beste-molens-voor-espresso-en-pour-over/"
+    },
+    "de": {
+      "/grinder/best-grinders-for-espresso-and-pour-over/": "/kaffeemuehle/beste-muehlen-fuer-espresso-und-pour-over/"
+    },
+    "fr": {
+      "/grinder/best-grinders-for-espresso-and-pour-over/": "/moulin-a-cafe/meilleurs-moulins-pour-espresso-et-filtre-manuel/"
+    }
+  },
+  "preserveSource": [
+    91
+  ],
+  "translations": {
+    "0": {
+      "nl": "Beste koffiemolens voor espresso en pour-over in één keuken | Coffeedant",
+      "de": "Beste Kaffeemühlen für Espresso und Pour-over in einer Küche | Coffeedant",
+      "fr": "Meilleurs moulins pour l’espresso et le filtre manuel dans une même cuisine | Coffeedant"
+    },
+    "1": {
+      "nl": "Drie exacte Amerikaanse molens om espresso en pour-over af te wisselen: kies op basis van dosering, de moeite om terug te keren naar een instelling en de kwaliteitsgrenzen van compromissen met één molen.",
+      "de": "Drei genaue US-Mühlen zum Wechsel zwischen Espresso und Pour-over: Wählen Sie nach Dosierablauf, Aufwand für die Rückkehr zur Einstellung und Qualitätsgrenzen einer Ein-Mühlen-Lösung.",
+      "fr": "Trois moulins américains précis pour alterner espresso et filtre manuel : choisissez selon le dosage, l’effort pour retrouver le réglage et les limites de qualité des compromis à un seul moulin."
+    },
+    "3": {
+      "nl": "Espresso en pour-over",
+      "de": "Espresso und Pour-over",
+      "fr": "Espresso et filtre manuel"
+    },
+    "4": {
+      "nl": "Beste koffiemolens voor espresso en pour-over in één keuken",
+      "de": "Beste Kaffeemühlen für Espresso und Pour-over in einer Küche",
+      "fr": "Meilleurs moulins pour l’espresso et le filtre manuel dans une même cuisine"
+    },
+    "5": {
+      "nl": "Eén molen kan twee maalbereiken dekken. De uitdaging is terugkeren naar espresso zonder de filterkoffie op te offeren die je echt wilt drinken.",
+      "de": "Eine Mühle kann zwei Mahlbereiche abdecken. Schwierig ist die Rückkehr zum Espresso, ohne den Filterkaffee aufzugeben, den Sie tatsächlich möchten.",
+      "fr": "Un seul moulin peut couvrir deux plages de mouture. La difficulté est de revenir à l’espresso sans sacrifier la tasse filtre que vous souhaitez réellement."
+    },
+    "6": {
+      "nl": "3 november 2026",
+      "de": "3. November 2026",
+      "fr": "3 novembre 2026"
+    },
+    "7": {
+      "nl": "· Context van exacte Amerikaanse modellen",
+      "de": "· Kontext genauer US-Modelle",
+      "fr": "· Contexte des modèles américains exacts"
+    },
+    "8": {
+      "nl": "Ik vergeleek actuele fabrikantdocumenten met toegeschreven onafhankelijke bevindingen bij testexemplaren en onze volledige reviews. Coffeedant heeft deze molens niet in handen gehad en er niet mee gemalen, gemeten of geproefd. Dit zijn beoordelingen van de werkwijze op basis van bronnenonderzoek.",
+      "de": "Ich habe aktuelle Herstellerunterlagen mit zugeordneten unabhängigen Beobachtungen an Testexemplaren und unseren vollständigen Rezensionen verglichen. Coffeedant hat diese Mühlen weder selbst in der Hand gehabt noch damit gemahlen, gemessen oder verkostet. Dies sind quellenbasierte Einschätzungen der Abläufe.",
+      "fr": "J’ai comparé les documents actuels des fabricants aux observations indépendantes attribuées sur des exemplaires précis et à nos avis complets. Coffeedant n’a pas manipulé ces moulins, ni effectué de mouture, de mesure ou de dégustation avec eux. Ces jugements sur le fonctionnement reposent sur des recherches documentaires."
+    },
+    "9": {
+      "nl": "Eén molen, twee zetmethoden",
+      "de": "Eine Mühle, zwei Brühmethoden",
+      "fr": "Un moulin, deux préparations"
+    },
+    "10": {
+      "nl": "Bepaal welke zetmethode voorrang krijgt",
+      "de": "Entscheiden Sie, welche Brühmethode Vorrang hat",
+      "fr": "Décidez quelle préparation est prioritaire"
+    },
+    "11": {
+      "nl": "Maak een herhaalbare routine voor twee zetmethoden",
+      "de": "Entwickeln Sie einen wiederholbaren Ablauf für zwei Brühmethoden",
+      "fr": "Créez une routine reproductible pour deux préparations"
+    },
+    "12": {
+      "nl": "Beoordeel bewijs voor filterkoffie en espresso afzonderlijk",
+      "de": "Bewerten Sie Belege für Filterkaffee und Espresso getrennt",
+      "fr": "Lisez séparément les éléments sur le filtre et l’espresso"
+    },
+    "13": {
+      "nl": "Houd rekening met schoonmaken, ruimte en kosten",
+      "de": "Berücksichtigen Sie Reinigung, Platz und Kosten",
+      "fr": "Tenez compte du nettoyage, de l’espace et du coût"
+    },
+    "14": {
+      "nl": "Keuze voor twee zetmethoden",
+      "de": "Entscheidung für zwei Brühmethoden",
+      "fr": "Choisir pour deux préparations"
+    },
+    "15": {
+      "nl": "Deze gids is bedoeld voor een Amerikaanse keuken waar één elektrische molen zowel echte espresso als pour-over ondersteunt. We namen alleen exacte huidige modellen op met een volledige Coffeedant-review, ondersteuning van de fabrikant voor beide maalbereiken en onafhankelijk bewijs over een belangrijk compromis. Molens uitsluitend voor filterkoffie, de oudere Opus en Encore ESP en machines waarvan de exacte Amerikaanse versie of het bewijs deze vergelijking niet ondersteunden, vielen af. Deze keuzes gaan over de werkwijze, niet over een blinde smaakrangschikking.",
+      "de": "Dieser Ratgeber richtet sich an eine US-Küche, die mit einer elektrischen Mühle sowohl echten Espresso als auch Pour-over zubereitet. Aufgenommen wurden nur genaue aktuelle Modelle mit vollständiger Coffeedant-Rezension, Herstellerunterstützung für beide Mahlbereiche und unabhängigen Belegen zu einem wesentlichen Kompromiss. Reine Filtermühlen, die ältere Opus und Encore ESP sowie Maschinen, deren genaue US-Ausführung oder Belege diesen Vergleich nicht stützten, wurden ausgeschlossen. Die Auswahl bewertet Abläufe, keine blinde Geschmacksrangliste.",
+      "fr": "Ce guide s’adresse à une cuisine américaine préparant à la fois de vrais espressos et du filtre manuel avec un seul moulin électrique. Nous n’avons retenu que des modèles actuels précis dotés d’un avis Coffeedant complet, d’un soutien du fabricant pour les deux plages de mouture et d’éléments indépendants sur un compromis important. Nous avons exclu les moulins réservés au filtre, les anciens Opus et Encore ESP, ainsi que les machines dont la version américaine exacte ou les preuves ne permettaient pas cette comparaison. Ces choix portent sur le fonctionnement, pas sur un classement gustatif à l’aveugle."
+    },
+    "16": {
+      "nl": "Als espresso dagelijks wordt gezet en pour-over af en toe, geef dan voorrang aan een herhaalbare terugkeer naar de espresso-instelling en een opvangbeker die bij je filterbakje past. Als pour-over met licht gebrande bonen de hoofdzaak is, vraag dan om onafhankelijk bewijs over de filterkoffie: een allroundclaim van de fabrikant toont een maalbereik aan, niet dat de filterkoffie je zal bevallen. Het Opus 2-testexemplaar van The Coffee Chronicler is hier de waarschuwing.",
+      "de": "Wenn Espresso täglich und Pour-over nur gelegentlich zubereitet wird, bevorzugen Sie eine wiederholbare Rückkehr zur Espressoeinstellung und einen zum Sieb passenden Auffangbecher. Steht Pour-over mit hellen Röstungen im Mittelpunkt, verlangen Sie unabhängige Belege zur Filtertasse: Eine Allzweckangabe des Herstellers belegt einen Mahlbereich, nicht Ihre Zufriedenheit mit dem Filterkaffee. Das Testexemplar der Opus 2 von The Coffee Chronicler ist hier das warnende Beispiel.",
+      "fr": "Si l’espresso est quotidien et le filtre manuel occasionnel, privilégiez un retour reproductible au réglage espresso et un récipient adapté à votre panier. Si le filtre manuel avec torréfaction claire est prioritaire, exigez des éléments indépendants sur la tasse filtre : une promesse de polyvalence du fabricant établit une plage de mouture, pas votre satisfaction en tasse. L’exemplaire Opus 2 de The Coffee Chronicler invite ici à la prudence."
+    },
+    "17": {
+      "nl": "De andere keuze is of bonen in een reservoir blijven zitten. Een gevuld bonenreservoir scheelt dagelijks afwegen, maar maakt wisselen van koffie omslachtiger. Per dosis afwegen helpt verschillende zakken gescheiden te houden, al verdwijnen daarmee niet alle achtergebleven koffiedeeltjes. Als je voor beide methoden dezelfde koffie gebruikt, is vermenging minder belangrijk dan de moeite om terug te keren naar de instelling.",
+      "de": "Die andere Entscheidung ist, ob Bohnen im Behälter bleiben. Ein gefüllter Bohnenbehälter erspart tägliches Abwiegen, erschwert aber den Kaffeewechsel. Einzeldosierung hilft, verschiedene Packungen getrennt zu halten, entfernt jedoch nicht jedes zurückgebliebene Kaffeepartikel. Verwenden Sie denselben Kaffee für beide Methoden, ist Verschleppung weniger wichtig als der Aufwand für die Rückkehr zur Einstellung.",
+      "fr": "L’autre choix concerne les grains laissés dans une trémie. Une trémie pleine évite une pesée quotidienne, mais complique le changement de café. La dose unique aide à garder les sachets séparés sans supprimer tout résidu de mouture. Si vous utilisez le même café pour les deux méthodes, le mélange résiduel compte moins que l’effort nécessaire pour retrouver le réglage."
+    },
+    "18": {
+      "nl": "Begin met het espressorecept dat al goed werkt in je machine. Noteer de exacte molenmarkering, dosis en het filterbakje. Ga daarna naar je pour-overinstelling en leg die positie vast samen met de filterhouder, dosis en het waterrecept. Gebruik bij terugkeer die notities als uitgangspunt en stel opnieuw af: de stand van de maalschijven, de leeftijd van de bonen en de koffie zelf kunnen de shot veranderen. Een weegschaal en een opgeschreven recept zijn nuttiger dan aannemen dat dezelfde gedrukte markering altijd dezelfde kop oplevert.",
+      "de": "Beginnen Sie mit dem Espressorezept, das in Ihrer Maschine bereits funktioniert. Notieren Sie genaue Mühlenmarkierung, Dosis und Sieb. Wechseln Sie dann zur Pour-over-Einstellung und halten Sie die Position zusammen mit Filterhalter, Dosis und Wasserrezept fest. Nutzen Sie diese Notizen bei der Rückkehr als Ausgangspunkt und justieren Sie erneut: Mahlwerksposition, Bohnenalter und der Kaffee selbst können den Bezug verändern. Eine Waage und ein schriftliches Rezept sind nützlicher als die Annahme, dieselbe aufgedruckte Markierung liefere immer dieselbe Tasse.",
+      "fr": "Commencez par la recette espresso qui fonctionne déjà dans votre machine. Notez le repère exact du moulin, la dose et le panier. Passez ensuite au réglage filtre manuel et consignez cette position avec le porte-filtre manuel, la dose et la recette d’eau. Au retour, utilisez ces notes comme point de départ et réglez à nouveau : position des meules, âge des grains et café lui-même peuvent modifier l’extraction. Une balance et une recette écrite sont plus utiles que l’hypothèse d’une tasse toujours identique au même repère imprimé."
+    },
+    "19": {
+      "nl": "De Encore ESP Pro heeft een traploze instelring en biedt getimede dosering uit het bonenreservoir of dosering per portie. De Opus 2 gebruikt één instelknop aan de zijkant en twee specifieke opvangbekers. Eureka’s Zero 65 All Purpose gebruikt een grote micrometrische instelknop en een set voor dosering per portie. Alle drie kunnen van maalbereik wisselen; geen ervan maakt het opnieuw instellen van de dosis en beoordelen van de volgende bereiding overbodig. Dit zijn bedieningsbeschrijvingen van fabrikanten, geen door Coffeedant gemeten herhaalbaarheid.",
+      "de": "Die Encore ESP Pro bietet einen stufenlosen Stellring und entweder zeitgesteuerte Dosierung aus dem Bohnenbehälter oder Einzeldosierung. Die Opus 2 nutzt einen seitlichen Einstellknopf und zwei spezielle Becher. Die Zero 65 All Purpose von Eureka verwendet einen großen mikrometrischen Einstellknopf und ein Einzeldosier-Set. Alle drei können den Mahlbereich wechseln; keine macht das erneute Einstellen der Dosis und Beurteilen der nächsten Zubereitung überflüssig. Das sind Herstellerbeschreibungen der Bedienung, keine von Coffeedant gemessene Wiederholbarkeit.",
+      "fr": "L’Encore ESP Pro propose une bague continue et soit un dosage temporisé depuis la trémie, soit la dose unique. L’Opus 2 utilise une seule molette latérale et deux récipients dédiés. Le Zero 65 All Purpose d’Eureka utilise une grande molette micrométrique et un kit monodose. Les trois peuvent changer de plage de mouture ; aucun ne dispense de réajuster la dose et d’évaluer la préparation suivante. Ces commandes sont décrites par les fabricants, sans mesure Coffeedant de leur reproductibilité."
+    },
+    "20": {
+      "nl": "Wanneer je zowel van bonen als van zetmethode wisselt, kan een kleine hoeveelheid door te malen koffie zinvol zijn om resten te verwijderen. Hoeveel hangt af van de machine en je tolerantie voor gemengde koffiedeeltjes; Coffeedant heeft geen meting van uitwisselingsretentie. Eureka’s gepubliceerde claims over minder retentie en het testexemplaar van Kaffeemacher gebruiken verschillende protocollen. Geen van beide is daarom een universele belofte voor jouw keuken.",
+      "de": "Beim Wechsel zwischen verschiedenen Bohnen und Brühmethoden kann eine kleine Spülmahlung sinnvoll sein. Die Menge hängt von der Maschine und Ihrer Toleranz für gemischtes Mahlgut ab; Coffeedant hat keine Austauschretention gemessen. Die veröffentlichten Anti-Retentionsangaben von Eureka und das Kaffeemacher-Testexemplar beruhen auf unterschiedlichen Protokollen. Keines davon ist daher ein allgemeingültiges Versprechen für Ihre Küche.",
+      "fr": "Lorsque vous changez à la fois de grains et de méthode, une petite purge peut être judicieuse. Sa quantité dépend de la machine et de votre tolérance au mélange de moutures ; Coffeedant n’a pas mesuré la rétention d’échange. Les affirmations anti-rétention publiées par Eureka et l’exemplaire de Kaffeemacher relèvent de protocoles différents : aucun ne constitue donc une promesse universelle pour votre cuisine."
+    },
+    "21": {
+      "nl": "Kies de dagelijkse routine",
+      "de": "Wählen Sie den täglichen Ablauf",
+      "fr": "Choisissez la routine quotidienne"
+    },
+    "22": {
+      "nl": "Horizontaal verschuifbare molenvergelijking voor espresso en pour-over",
+      "de": "Horizontal verschiebbarer Mühlenvergleich für Espresso und Pour-over",
+      "fr": "Comparaison défilante des moulins pour espresso et filtre manuel"
+    },
+    "23": {
+      "nl": "Exacte Amerikaanse modelidentiteiten; de selectie gaat over de werkwijze, niet over een gemeten smaak- of prijsrangschikking",
+      "de": "Genaue US-Modellidentitäten; Auswahl nach Ablauf, nicht nach gemessenem Geschmack oder Preisrang",
+      "fr": "Identités exactes des modèles américains ; sélection selon le fonctionnement, pas selon un classement mesuré de goût ou de prix"
+    },
+    "24": {
+      "nl": "Wisselroutine",
+      "de": "Wechselablauf",
+      "fr": "Routine de changement"
+    },
+    "25": {
+      "nl": "Wie kan beter overslaan",
+      "de": "Wer verzichten sollte",
+      "fr": "Qui devrait l’écarter"
+    },
+    "26": {
+      "nl": "Een gedeeld bonenreservoir en een getimede routine",
+      "de": "Ein gemeinsam genutzter Bohnenbehälter und zeitgesteuerter Ablauf",
+      "fr": "Une trémie partagée et une routine temporisée"
+    },
+    "27": {
+      "nl": "Traploze instelring; bewaar een uitgangspositie voor elke zetmethode",
+      "de": "Stufenloser Stellring; Ausgangsposition für jede Brühmethode festhalten",
+      "fr": "Bague continue ; conservez une position de départ pour chaque méthode"
+    },
+    "28": {
+      "nl": "Je hebt aantoonbaar weinig vermenging tussen verschillende koffies nodig of wilt een bonenreservoir vermijden.",
+      "de": "Sie benötigen nachweislich geringe Verschleppung zwischen verschiedenen Kaffees oder möchten einen Bohnenbehälter vermeiden.",
+      "fr": "Vous exigez un faible mélange résiduel vérifié entre cafés ou souhaitez éviter une trémie."
+    },
+    "29": {
+      "nl": "Eenvoudig per dosis wisselen van zetmethode",
+      "de": "Einfacher Brühwechsel mit Einzeldosierung",
+      "fr": "Des changements simples en dose unique"
+    },
+    "30": {
+      "nl": "Eén traploze zijknop; noteer de espresso- en filtermarkeringen",
+      "de": "Ein stufenloser seitlicher Einstellknopf; Espresso- und Filtermarkierungen notieren",
+      "fr": "Une molette latérale continue ; notez les repères espresso et filtre"
+    },
+    "31": {
+      "nl": "Pour-over is je belangrijkste drank en een overtuigende filterkoffie met licht gebrande bonen weegt zwaarder dan snel wisselen.",
+      "de": "Pour-over ist Ihr Hauptgetränk, und eine überzeugende Filtertasse mit heller Röstung ist wichtiger als ein schneller Wechsel.",
+      "fr": "Le filtre manuel est votre boisson principale et une bonne tasse de torréfaction claire compte davantage qu’un changement rapide."
+    },
+    "32": {
+      "nl": "Gemarkeerde instelling met dosering per portie",
+      "de": "Markierte Einstellung mit Einzeldosierung",
+      "fr": "Réglage repéré avec routine monodose"
+    },
+    "33": {
+      "nl": "Grote traploze instelknop met omwentelingsreferentie",
+      "de": "Großer stufenloser Einstellknopf mit Umdrehungsreferenz",
+      "fr": "Grande molette continue avec repère de révolution"
+    },
+    "34": {
+      "nl": "Je wilt een gevuld bonenreservoir, getimede dosering met één knop of een gegarandeerde wissel zonder door te malen om resten te verwijderen.",
+      "de": "Sie möchten einen gefüllten Bohnenbehälter, zeitgesteuerte Dosierung auf Knopfdruck oder einen garantiert spülmahlungsfreien Wechsel.",
+      "fr": "Vous souhaitez une trémie pleine, un dosage temporisé d’une pression ou un changement garanti sans purge."
+    },
+    "35": {
+      "nl": "Exact model, expliciete beperking",
+      "de": "Genaues Modell, ausdrückliche Grenze",
+      "fr": "Modèle exact, limite explicite"
+    },
+    "36": {
+      "nl": "Drie uitgangspunten",
+      "de": "Drei Ausgangspunkte",
+      "fr": "Trois points de départ"
+    },
+    "37": {
+      "nl": "Waarom het past:",
+      "de": "Warum es passt:",
+      "fr": "Pourquoi il convient :"
+    },
+    "38": {
+      "nl": "Baratza ondersteunt uitdrukkelijk alles van espresso tot pour-over en geeft de Encore ESP Pro zowel een getimede stand met bonenreservoir als een stand voor dosering per portie. Dat is een nuttig compromis wanneer meerdere mensen verschillende dranken maken zonder elke dosis af te wegen.",
+      "de": "Baratza unterstützt ausdrücklich Espresso bis Pour-over und gibt der Encore ESP Pro sowohl einen zeitgesteuerten Bohnenbehältermodus als auch einen Einzeldosiermodus. Das ist ein nützlicher Kompromiss, wenn mehrere Personen verschiedene Getränke zubereiten, ohne jede Dosis abzuwiegen.",
+      "fr": "Baratza prend explicitement en charge l’espresso jusqu’au filtre manuel et dote l’Encore ESP Pro d’un mode trémie temporisé et d’un mode monodose. C’est un compromis utile lorsque plusieurs personnes préparent des boissons différentes sans peser chaque dose."
+    },
+    "39": {
+      "nl": "Expert Reviews zag bij zijn Britse testexemplaar een automatische stop bij een leeg bonenreservoir die soms toch handmatig stoppen vereiste en een lastige eerste reiniging. Geen van beide waarnemingen geeft aan hoe vaak dit bij alle Amerikaanse exemplaren voorkomt.",
+      "de": "Expert Reviews beobachtete an seinem britischen Testexemplar eine Leerbehälter-Abschaltung, die gelegentlich manuelles Stoppen erforderte, sowie eine umständliche erste Reinigung. Keine Beobachtung ist eine Häufigkeitsangabe für alle US-Geräte.",
+      "fr": "Expert Reviews a constaté sur son exemplaire britannique un arrêt automatique de trémie vide nécessitant parfois un arrêt manuel et un premier nettoyage peu pratique. Aucune observation n’est un taux applicable à tous les appareils américains."
+    },
+    "40": {
+      "nl": ". Identificatiebeelden van fabrikant of verkoper; geen testfoto van Coffeedant.",
+      "de": ". Identifikationsmedien des Herstellers oder Verkäufers; kein Coffeedant-Testfoto.",
+      "fr": ". Médias d’identification du fabricant ou du vendeur ; pas une photo d’essai Coffeedant."
+    },
+    "41": {
+      "nl": "Fellow verving de interne instelring van de oorspronkelijke Opus door één traploze bediening en twee specifieke opvangbekers. The Coffee Chronicler vond zijn exemplaar snel en netjes bij wissels van espresso naar filterkoffie.",
+      "de": "Fellow ersetzte den inneren Einstellring der ursprünglichen Opus durch eine stufenlose Bedienung und zwei spezielle Auffangbecher. The Coffee Chronicler empfand sein Exemplar beim Wechsel von Espresso zu Filter als schnell und sauber.",
+      "fr": "Fellow a remplacé la bague de réglage interne de l’Opus d’origine par une commande continue et deux récipients dédiés. The Coffee Chronicler a trouvé son exemplaire rapide et propre pour passer de l’espresso au filtre."
+    },
+    "42": {
+      "nl": "Die reviewer vond filterkoffie met licht gebrande bonen slechts redelijk en bekritiseerde de kunststof maalkamer. Dit is een nuttige keuze met espresso voorop, geen bewezen smaakwinnaar voor pour-over.",
+      "de": "Dieser Rezensent hielt Filtertassen mit heller Röstung nur für passabel und kritisierte die Mahlkammer aus Kunststoff. Das ist eine nützliche Wahl mit Espresso-Priorität, kein belegter Pour-over-Geschmackssieger.",
+      "fr": "Cet évaluateur a jugé les tasses filtre de torréfaction claire seulement passables et critiqué la chambre de mouture en plastique. C’est un choix utile donnant priorité à l’espresso, pas un gagnant gustatif prouvé en filtre manuel."
+    },
+    "43": {
+      "nl": "Eureka noemt het exacte model Zero 65 All Purpose voor zowel espresso als filterkoffie, met universele vlakke maalschijven van 65 mm, een grotere instelknop en een doseerset. Met de gemarkeerde knop is een opgeschreven terugkeerpunt praktischer dan met een klein ongemarkeerd knopje.",
+      "de": "Eureka nennt das genaue Modell Zero 65 All Purpose für Espresso und Filter, mit 65 mm Allzweck-Flachmahlscheiben, größerem Einstellknopf und Dosier-Set. Der markierte Knopf macht einen schriftlich festgehaltenen Rückkehrpunkt praktikabler als ein winziger unmarkierter Knopf.",
+      "fr": "Eureka destine le modèle exact Zero 65 All Purpose à l’espresso et au filtre, avec des meules plates polyvalentes de 65 mm, une molette plus grande et un kit de dosage. La molette repérée rend un point de retour écrit plus pratique qu’une petite commande sans repère."
+    },
+    "44": {
+      "nl": "Kaffeemacher vond in zijn testprotocol achtergebleven koffiedeeltjes, dus geen nulretentie. Een blaasbalg en een modelnaam als ‘Zero’ bewijzen geen volledige uitwisseling bij het wisselen van bonen.",
+      "de": "Kaffeemacher fand unter seinem Prüfprotokoll zurückgebliebenes Mahlgut, also keine Nullretention. Ein Blasebalg und der Modellname „Zero“ belegen keinen vollständigen Austausch beim Bohnenwechsel.",
+      "fr": "Kaffeemacher a trouvé des résidus de mouture non nuls dans son protocole sur un exemplaire. Un soufflet et un modèle nommé « Zero » ne prouvent pas un échange complet lors du changement de grains."
+    },
+    "45": {
+      "nl": "Wat er tussen de koppen verandert",
+      "de": "Was sich zwischen den Tassen ändert",
+      "fr": "Ce qui change entre les tasses"
+    },
+    "46": {
+      "nl": "Horizontaal verschuifbare gedetailleerde molenvergelijking voor twee zetmethoden",
+      "de": "Horizontal verschiebbarer detaillierter Mühlenvergleich für zwei Brühmethoden",
+      "fr": "Comparaison détaillée défilante des moulins pour deux préparations"
+    },
+    "47": {
+      "nl": "Gedocumenteerde bediening en geschiktheid op basis van bronnenonderzoek; geen prestatiemeting door Coffeedant",
+      "de": "Dokumentierte Bedienung und quellenbasierte Eignung; keine Coffeedant-Leistungsmessung",
+      "fr": "Commandes documentées et adéquation documentaire ; aucune mesure de performance Coffeedant"
+    },
+    "48": {
+      "nl": "Bonenreservoir met timer of meegeleverd deksel voor dosering per portie",
+      "de": "Bohnenbehälter mit Timer oder mitgelieferter Einzeldosierdeckel",
+      "fr": "Trémie avec minuterie ou couvercle monodose fourni"
+    },
+    "49": {
+      "nl": "Weeg elke dosis af; wissel de opvangbekers voor espresso en filterkoffie",
+      "de": "Jede Dosis abwiegen; Auffangbecher für Espresso und Filter wechseln",
+      "fr": "Pesez chaque dose ; alternez les récipients pour espresso et filtre"
+    },
+    "50": {
+      "nl": "Weeg elke dosis af; gebruik de beker of verstelbare vork en blaasbalg",
+      "de": "Jede Dosis abwiegen; Becher oder verstellbare Gabel und Blasebalg verwenden",
+      "fr": "Pesez chaque dose ; utilisez le récipient ou la fourche réglable et le soufflet"
+    },
+    "51": {
+      "nl": "Wisselen en terugkeren",
+      "de": "Wechsel und Rückkehr",
+      "fr": "Changer et retrouver le réglage"
+    },
+    "52": {
+      "nl": "Belangrijkste beperking",
+      "de": "Wichtigste Einschränkung",
+      "fr": "Principale limite"
+    },
+    "53": {
+      "nl": "Expert Reviews zag bij zijn Britse testexemplaar een automatische stop bij een leeg bonenreservoir die soms toch handmatig stoppen vereiste en een lastige eerste reiniging. Geen van beide waarnemingen geeft aan hoe vaak dit bij alle Amerikaanse exemplaren voorkomt. [5]",
+      "de": "Expert Reviews beobachtete an seinem britischen Testexemplar eine Leerbehälter-Abschaltung, die gelegentlich manuelles Stoppen erforderte, sowie eine umständliche erste Reinigung. Keine Beobachtung ist eine Häufigkeitsangabe für alle US-Geräte. [5]",
+      "fr": "Expert Reviews a constaté sur son exemplaire britannique un arrêt automatique de trémie vide nécessitant parfois un arrêt manuel et un premier nettoyage peu pratique. Aucune observation n’est un taux applicable à tous les appareils américains. [5]"
+    },
+    "54": {
+      "nl": "Die reviewer vond filterkoffie met licht gebrande bonen slechts redelijk en bekritiseerde de kunststof maalkamer. Dit is een nuttige keuze met espresso voorop, geen bewezen smaakwinnaar voor pour-over. [4]",
+      "de": "Dieser Rezensent hielt Filtertassen mit heller Röstung nur für passabel und kritisierte die Mahlkammer aus Kunststoff. Das ist eine nützliche Wahl mit Espresso-Priorität, kein belegter Pour-over-Geschmackssieger. [4]",
+      "fr": "Cet évaluateur a jugé les tasses filtre de torréfaction claire seulement passables et critiqué la chambre de mouture en plastique. C’est un choix utile donnant priorité à l’espresso, pas un gagnant gustatif prouvé en filtre manuel. [4]"
+    },
+    "55": {
+      "nl": "Kaffeemacher vond in zijn testprotocol achtergebleven koffiedeeltjes, dus geen nulretentie. Een blaasbalg en een modelnaam als ‘Zero’ bewijzen geen volledige uitwisseling bij het wisselen van bonen. [6]",
+      "de": "Kaffeemacher fand unter seinem Prüfprotokoll zurückgebliebenes Mahlgut, also keine Nullretention. Ein Blasebalg und der Modellname „Zero“ belegen keinen vollständigen Austausch beim Bohnenwechsel. [6]",
+      "fr": "Kaffeemacher a trouvé des résidus de mouture non nuls dans son protocole sur un exemplaire. Un soufflet et un modèle nommé « Zero » ne prouvent pas un échange complet lors du changement de grains. [6]"
+    },
+    "56": {
+      "nl": "Dagelijks leven met je keuze",
+      "de": "Mit der Wahl leben",
+      "fr": "Vivre avec ce choix"
+    },
+    "57": {
+      "nl": "The Coffee Chronicler waardeerde de espresso-werkwijze van zijn Opus 2-testexemplaar, maar gaf in zijn eigen rechtstreekse vergelijkingen de voorkeur aan een andere molen voor filterkoffie met licht gebrande bonen. Dat bewijst niet dat iedereen hetzelfde verschil zal proeven. Het laat wel zien waarom een koper die vooral verfijnde pour-over drinkt ‘maalt voor filterkoffie’ niet moet gelijkstellen aan een aanbeveling met filterkoffie voorop.",
+      "de": "The Coffee Chronicler mochte den Espressoablauf seines Opus 2-Testexemplars, bevorzugte in eigenen Direktvergleichen jedoch eine andere Mühle für Filterkaffee mit hellen Röstungen. Das beweist nicht, dass alle denselben Unterschied schmecken. Es zeigt aber, warum Käufer, die überwiegend feinen Pour-over trinken, „mahlt für Filter“ nicht mit einer Empfehlung mit Filter-Priorität gleichsetzen sollten.",
+      "fr": "The Coffee Chronicler a apprécié le fonctionnement espresso de son exemplaire Opus 2, mais préféré un autre moulin pour les préparations filtre de torréfaction claire dans ses propres comparaisons directes. Cela ne prouve pas que chacun percevra la même différence. Cela montre néanmoins pourquoi un acheteur buvant surtout du filtre manuel délicat ne devrait pas assimiler « moud pour le filtre » à une recommandation donnant priorité au filtre."
+    },
+    "58": {
+      "nl": "Expert Reviews vond de Encore ESP Pro in een Britse review breed bruikbaar voor espresso en filterkoffie. Het stopgedrag bij een leeg bonenreservoir en de lastige eerste reiniging van zijn testexemplaar zijn relevant voor een huishouden dat vaak van zetmethode wisselt. We gebruiken die als waargenomen beperkingen, niet als bewijs dat elk Amerikaans exemplaar zich hetzelfde gedraagt.",
+      "de": "Expert Reviews hielt die Encore ESP Pro in einer britischen Rezension für vielseitig bei Espresso und Filter. Das Abschaltverhalten bei leerem Behälter und die schwierige erste Reinigung des Testexemplars sind für Haushalte mit häufigem Brühwechsel relevant. Wir verwenden sie als beobachtete Grenzen, nicht als Beleg für gleiches Verhalten jedes US-Geräts.",
+      "fr": "Expert Reviews a trouvé l’Encore ESP Pro largement utile en espresso et en filtre dans un avis britannique. Le comportement d’arrêt à trémie vide et la difficulté du premier nettoyage de son exemplaire sont pertinents pour un foyer changeant souvent de méthode. Nous les utilisons comme limites observées, pas comme preuve d’un comportement identique de tous les appareils américains."
+    },
+    "59": {
+      "nl": "De universele maalschijven en gemarkeerde instelknop van Eureka bieden een ander voordeel: een gerichte routine met dosering per portie voor twee maalbereiken. De onafhankelijke vergelijking van Kaffeemacher voegt bewijs over achtergebleven koffiedeeltjes toe, maar maakt van een papieren specificatie geen rechtstreekse smaakrangschikking tegenover de andere twee. Kies dit model voor de gedocumenteerde bediening en routine en beoordeel daarna beide koppen met je eigen bonen.",
+      "de": "Die Allzweck-Mahlscheiben und der markierte Einstellknopf von Eureka bieten einen anderen Nutzen: einen gezielten Einzeldosierablauf für zwei Mahlbereiche. Der unabhängige Kaffeemacher-Vergleich ergänzt Belege zu zurückgebliebenem Mahlgut, macht eine Papierspezifikation aber nicht zur direkten Geschmacksrangliste gegen die anderen beiden. Wählen Sie dieses Modell wegen dokumentierter Bedienung und Ablauf und beurteilen Sie dann beide Tassen mit Ihren Bohnen.",
+      "fr": "Les meules polyvalentes et la molette repérée d’Eureka offrent un autre intérêt : un parcours monodose ciblé pour deux plages de mouture. La comparaison indépendante de Kaffeemacher apporte des éléments sur les résidus de mouture, sans transformer une caractéristique sur papier en classement gustatif direct face aux deux autres. Choisissez ce modèle pour ses commandes et sa routine documentées, puis jugez les deux tasses avec vos grains."
+    },
+    "60": {
+      "nl": "Regelmatig van maalbereik wisselen vraagt meer aandacht voor de uitloop, opvangbeker en maalkamer. Gebruik de exacte handleiding, trek voor het schoonmaken de stekker uit het stopcontact en houd water weg van elektrische onderdelen, tenzij de fabrikant het uitdrukkelijk toestaat. Houd de meegeleverde doseeraccessoires bij elkaar; anders wordt snel wisselen een zoektocht naar de juiste beker. De Opus 2 en Eureka zijn routines met dosering per portie; de Baratza kan een molen met gevuld bonenreservoir blijven.",
+      "de": "Regelmäßige Mahlbereichswechsel erfordern mehr Aufmerksamkeit für Auswurfschacht, Auffangbecher und Mahlkammer. Verwenden Sie die genaue Anleitung, ziehen Sie vor der Reinigung den Stecker und halten Sie Wasser von elektrischen Teilen fern, sofern der Hersteller es nicht ausdrücklich erlaubt. Bewahren Sie mitgeliefertes Dosierzubehör zusammen auf; sonst wird der schnelle Wechsel zur Suche nach dem richtigen Becher. Opus 2 und Eureka stehen für Einzeldosierabläufe; die Baratza kann mit gefülltem Bohnenbehälter betrieben werden.",
+      "fr": "Changer régulièrement de plage de mouture demande davantage d’attention à la goulotte, au récipient et à la chambre de mouture. Suivez le manuel exact, débranchez avant nettoyage et éloignez l’eau des éléments électriques, sauf autorisation explicite du fabricant. Gardez les accessoires de dosage ensemble ; sinon un changement rapide devient une recherche du bon récipient. L’Opus 2 et l’Eureka suivent une routine monodose ; la Baratza peut conserver un fonctionnement à trémie."
+    },
+    "61": {
+      "nl": "Deze keuzes staan ook in onze gidsen voor compacte molens en wisselen tussen gewone en cafeïnevrije koffie, maar die artikelen behandelen de ruimte op het aanrecht en vermenging tussen verschillende bonen. Hier draait het om terugkeren tussen espresso en pour-over met één molen en de zwakke punten in het bewijs voor filterkoffie. Als een tweede aparte filtermolen haalbaar is, vervalt het herhaaldelijk bijstellen en kun je de twee koppen afzonderlijk optimaliseren. Dat kost meer geld en ruimte op het aanrecht.",
+      "de": "Diese Empfehlungen erscheinen auch in unseren Ratgebern zu kompakten Mühlen und zum Wechsel zwischen normalem und entkoffeiniertem Kaffee; dort geht es jedoch um Platzbedarf und Verschleppung zwischen Bohnen. Hier zählt, wie eine Mühle zwischen Espresso und Pour-over zurückkehrt und wo ihre Filterbelege schwach sind. Ist eine zweite eigene Filtermühle möglich, entfallen die wiederholten Einstellungen, und Sie können beide Tassen getrennt optimieren. Das kostet mehr Geld und Arbeitsfläche.",
+      "fr": "Ces choix figurent aussi dans nos guides sur les moulins compacts et l’alternance café classique/décaféiné, mais ces articles traitent de l’encombrement et du mélange résiduel entre grains. Ici, la décision concerne le retour entre espresso et filtre manuel avec un moulin et les faiblesses de ses preuves en filtre. Si un second moulin dédié au filtre est envisageable, il supprime les réglages répétés et permet d’optimiser les deux tasses séparément. Il demande plus d’argent et de place."
+    },
+    "62": {
+      "nl": "Voor de drie exacte modellen is op 3 november 2026 geen vergelijkbaar Amerikaans totaalbedrag inclusief levering bij het afrekenen geverifieerd. Deze gids vermeldt daarom geen actuele prijs, korting of rangschikking van waarde per dollar. Controleer de huidige Amerikaanse uitvoering, spanning, verzending, belasting en retourvoorwaarden in het winkelmandje van de verkoper. Een weegschaal en schoonmaakgereedschap horen bij het budget voor de volledige opstelling.",
+      "de": "Für alle drei genauen Modelle wurde am 3. November 2026 kein vergleichbarer gelieferter US-Endpreis an der Kasse bestätigt. Dieser Ratgeber nennt daher weder aktuellen Preis noch Rabatt oder eine Rangfolge des Nutzens pro Dollar. Prüfen Sie aktuelle US-Ausführung, Spannung, Versand, Steuern und Rückgabebedingungen im Warenkorb des Verkäufers. Eine Waage und Reinigungswerkzeuge gehören zum Budget der gesamten Station.",
+      "fr": "Aucun total américain comparable livré au paiement n’a été vérifié pour les trois modèles exacts le 3 novembre 2026. Ce guide ne cite donc ni prix actuel, ni remise, ni classement de valeur par dollar. Vérifiez la version américaine actuelle, la tension, la livraison, les taxes et les retours dans le panier du vendeur. Une balance et des outils de nettoyage font partie du budget de l’installation complète."
+    },
+    "63": {
+      "nl": "Verwante keuzes",
+      "de": "Benachbarte Entscheidungen",
+      "fr": "Décisions voisines"
+    },
+    "64": {
+      "nl": "Houd de vraag helder",
+      "de": "Halten Sie die Fragestellung klar",
+      "fr": "Gardez la question claire"
+    },
+    "65": {
+      "nl": "Compacte elektrische molens",
+      "de": "Kompakte elektrische Mühlen",
+      "fr": "Moulins électriques compacts"
+    },
+    "66": {
+      "nl": "Vergelijk de werkelijke afmetingen en benodigde vrije ruimte.",
+      "de": "Vergleichen Sie tatsächliche Gehäusemaße und Freiraum.",
+      "fr": "Comparez les dimensions réelles et les dégagements."
+    },
+    "67": {
+      "nl": "Wisselen tussen gewone en cafeïnevrije koffie",
+      "de": "Wechsel zwischen normalem und entkoffeiniertem Kaffee",
+      "fr": "Alterner café classique et décaféiné"
+    },
+    "68": {
+      "nl": "Richt je op achtergebleven koffie bij bonenwissels, niet op twee zetmethoden.",
+      "de": "Konzentrieren Sie sich auf Verschleppung zwischen Bohnen statt auf zwei Brühmethoden.",
+      "fr": "Concentrez-vous sur le mélange résiduel entre grains plutôt que sur deux méthodes."
+    },
+    "69": {
+      "nl": "Overweeg een aparte molen als één apparaat te veel compromissen vraagt.",
+      "de": "Erwägen Sie eine eigene Mühle, wenn ein Gerät zu viele Kompromisse verlangt.",
+      "fr": "Envisagez un moulin dédié si un seul appareil impose trop de compromis."
+    },
+    "70": {
+      "nl": "We beoordeelden actuele reviews van exacte Amerikaanse molens op ondersteuning door de fabrikant voor espresso en pour-over en vergeleken daarna dosering, instelling en terugkeerroutines. Onafhankelijke reviewers leveren begrensde waarnemingen aan testexemplaren. We gebruikten het label ‘allround’ van een fabrikant niet als bewijs voor een bepaald resultaat in de kop en behandelden één testexemplaar van een reviewer niet als een betrouwbaarheidspercentage.",
+      "de": "Wir prüften aktuelle Rezensionen genauer US-Mühlen auf Herstellerunterstützung für Espresso und Pour-over und verglichen anschließend Dosier-, Einstell- und Rückkehrabläufe. Unabhängige Rezensenten liefern begrenzte Beobachtungen an Testexemplaren. Wir verwendeten die Allzweckbezeichnung eines Herstellers nicht als Beweis für ein bestimmtes Tassenergebnis und behandelten das Exemplar eines Rezensenten nicht als Zuverlässigkeitsrate.",
+      "fr": "Nous avons examiné les avis actuels de moulins américains exacts pour vérifier le soutien des fabricants à l’espresso et au filtre manuel, puis comparé dosage, réglage et retour au réglage. Les évaluateurs indépendants apportent des observations limitées à leurs exemplaires. Nous n’avons pas utilisé l’étiquette « polyvalent » d’un fabricant comme preuve d’un résultat en tasse ni traité l’exemplaire d’un évaluateur comme un taux de fiabilité."
+    },
+    "71": {
+      "nl": "Bronnen zijn gecontroleerd op 3 november 2026. Er wordt geen praktijkervaring met malen, smaakvergelijking, retentietest of vergelijking van geleverde prijzen door Coffeedant geclaimd. Productafbeeldingen zijn identificatiebeelden met bronvermelding. De geschiktheidslabels zijn redactionele gevolgtrekkingen uit de genoemde bediening en waargenomen beperkingen. Affiliatelinks in de volledige reviews bepalen niet welke producten worden opgenomen.",
+      "de": "Die Quellen wurden am 3. November 2026 geprüft. Es wird weder eigenes Mahlen noch ein Geschmacksvergleich, Retentionstest oder Vergleich gelieferter Endpreise durch Coffeedant behauptet. Produktbilder sind zugeordnete Identifikationsmedien. Die Eignungsangaben sind redaktionelle Schlussfolgerungen aus den zitierten Bedienelementen und beobachteten Grenzen. Affiliate-Links in den vollständigen Rezensionen bestimmen nicht die Aufnahme.",
+      "fr": "Les sources ont été vérifiées le 3 novembre 2026. Aucune mouture pratique, comparaison gustative, mesure de rétention ou comparaison de prix livrés par Coffeedant n’est revendiquée. Les images sont des médias d’identification crédités. Les indications d’adéquation sont des déductions éditoriales tirées des commandes citées et des limites observées. Les liens affiliés des avis complets ne déterminent pas l’inclusion."
+    },
+    "72": {
+      "nl": "Veelgestelde vragen over molens voor espresso en pour-over",
+      "de": "Häufige Fragen zu Mühlen für Espresso und Pour-over",
+      "fr": "Questions fréquentes sur les moulins pour espresso et filtre manuel"
+    },
+    "73": {
+      "nl": "Kan één molen echt espresso en pour-over aan?",
+      "de": "Kann eine Mühle wirklich Espresso und Pour-over abdecken?",
+      "fr": "Un seul moulin peut-il vraiment convenir à l’espresso et au filtre manuel ?"
+    },
+    "74": {
+      "nl": "Deze drie fabrikanten vermelden beide maalbereiken. De kwaliteit in de kop en het gemak waarmee je naar een instelling terugkeert verschillen; gebruik de afwegingen van het exacte model en je eigen zetresultaten.",
+      "de": "Diese drei Hersteller geben beide Mahlbereiche an. Tassenqualität und Leichtigkeit der Rückkehr zu einer Einstellung unterscheiden sich; nutzen Sie die Kompromisse des genauen Modells und Ihre eigenen Brühergebnisse.",
+      "fr": "Ces trois fabricants indiquent les deux plages de mouture. La qualité en tasse et la facilité à retrouver un réglage diffèrent ; utilisez les compromis du modèle exact et vos propres résultats."
+    },
+    "75": {
+      "nl": "Welke keuze past bij een huishouden met bonenreservoir?",
+      "de": "Welche Empfehlung passt zu einem Haushalt mit Bohnenbehälter?",
+      "fr": "Quel choix convient à un foyer utilisant une trémie ?"
+    },
+    "76": {
+      "nl": "De Encore ESP Pro is hier de enige keuze met zowel een getimede routine uit het bonenreservoir als een optie voor dosering per portie. Van koffie wisselen in een gevuld reservoir vraagt nog steeds planning.",
+      "de": "Die Encore ESP Pro ist hier die einzige Empfehlung mit zeitgesteuertem Bohnenbehälterablauf und Einzeldosieroption. Ein Kaffeewechsel im gefüllten Behälter erfordert weiterhin Planung.",
+      "fr": "L’Encore ESP Pro est le seul choix ici proposant une routine de trémie temporisée et une option monodose. Changer de café dans une trémie remplie demande toujours de l’organisation."
+    },
+    "77": {
+      "nl": "Welke keuze heeft de eenvoudigste instelling voor dosering per portie?",
+      "de": "Welche Empfehlung hat die einfachste Einstellung für Einzeldosierung?",
+      "fr": "Quel choix offre le réglage monodose le plus simple ?"
+    },
+    "78": {
+      "nl": "De Opus 2 gebruikt één traploze zijknop en specifieke bekers voor espresso en filterkoffie. Het onafhankelijke bewijs voor filterkoffie is zwakker dan het bewijs voor de espresso-werkwijze.",
+      "de": "Die Opus 2 nutzt einen stufenlosen seitlichen Einstellknopf und spezielle Espresso- und Filterbecher. Die unabhängigen Belege zur Filtertasse sind schwächer als die zum Espressoablauf.",
+      "fr": "L’Opus 2 utilise une molette latérale continue et des récipients dédiés à l’espresso et au filtre. Ses éléments indépendants en tasse filtre sont moins solides que ceux sur son fonctionnement espresso."
+    },
+    "79": {
+      "nl": "Laat de Eureka helemaal geen oude koffiedeeltjes achter?",
+      "de": "Hinterlässt die Eureka überhaupt kein altes Mahlgut?",
+      "fr": "L’Eureka ne laisse-t-elle aucun résidu de mouture ancienne ?"
+    },
+    "80": {
+      "nl": "Er is geen onderbouwing voor een universele nulretentieclaim. Kaffeemacher vond achtergebleven koffiedeeltjes in een testprotocol met een exemplaar; gebruik de blaasbalg en bepaal of door te malen koffie nodig is om resten te verwijderen.",
+      "de": "Eine allgemeingültige Nullretentionsbehauptung ist nicht belegt. Kaffeemacher fand zurückgebliebenes Mahlgut unter einem Prüfprotokoll am Testexemplar; nutzen Sie den Blasebalg und entscheiden Sie, ob eine Spülmahlung nötig ist.",
+      "fr": "Aucune affirmation universelle de rétention nulle n’est étayée. Kaffeemacher a trouvé des résidus dans un protocole sur un exemplaire ; utilisez le soufflet et décidez si une purge est nécessaire."
+    },
+    "81": {
+      "nl": "Werkt een opgeslagen espressomarkering altijd na pour-over?",
+      "de": "Funktioniert eine notierte Espressomarkierung nach Pour-over immer?",
+      "fr": "Un repère espresso enregistré fonctionnera-t-il toujours après le filtre manuel ?"
+    },
+    "82": {
+      "nl": "Zie het als een uitgangspunt. De leeftijd van de bonen, een nieuwe koffie en je shotrecept kunnen de benodigde instelling veranderen. Controleer de volgende extractie.",
+      "de": "Betrachten Sie ihn als Ausgangspunkt. Bohnenalter, ein neuer Kaffee und Ihr Bezugsrezept können die erforderliche Einstellung verändern. Prüfen Sie die nächste Extraktion.",
+      "fr": "Considérez-le comme un point de départ. L’âge des grains, un nouveau café et votre recette d’extraction peuvent modifier le réglage nécessaire. Vérifiez l’extraction suivante."
+    },
+    "83": {
+      "nl": "Heeft Coffeedant deze drie rechtstreeks met elkaar getest?",
+      "de": "Hat Coffeedant diese drei direkt miteinander getestet?",
+      "fr": "Coffeedant a-t-il testé ces trois moulins côte à côte ?"
+    },
+    "84": {
+      "nl": "Nee. Dit is een vergelijking op basis van bronnenonderzoek van exacte fabrikantdocumenten en toegeschreven onafhankelijke testexemplaren, zonder claim dat Coffeedant ermee heeft gemalen of geproefd.",
+      "de": "Nein. Das ist ein quellenbasierter Vergleich genauer Herstellerunterlagen und zugeordneter unabhängiger Testexemplare, ohne die Behauptung, Coffeedant habe damit gemahlen oder verkostet.",
+      "fr": "Non. Il s’agit d’une comparaison documentaire de documents exacts des fabricants et d’exemplaires indépendants attribués, sans revendication de mouture ou de dégustation Coffeedant."
+    },
+    "85": {
+      "nl": "Is dit een actuele Amerikaanse prijsrangschikking?",
+      "de": "Ist dies eine aktuelle US-Preisrangliste?",
+      "fr": "S’agit-il d’un classement actuel des prix américains ?"
+    },
+    "86": {
+      "nl": "Nee. Vergelijkbare totaalbedragen inclusief levering zijn niet geverifieerd. Controleer vóór aankoop het exacte Amerikaanse model en het actuele afrekenbedrag van de verkoper.",
+      "de": "Nein. Vergleichbare gelieferte Endpreise wurden nicht bestätigt. Prüfen Sie vor dem Kauf das genaue US-Modell und die aktuellen Angaben im Warenkorb des Verkäufers.",
+      "fr": "Non. Des totaux livrés comparables n’ont pas été vérifiés. Vérifiez le modèle américain exact et le récapitulatif de commande actuel du vendeur avant achat."
+    },
+    "87": {
+      "nl": "Fellow, Amerikaanse productpagina Opus 2 ↗",
+      "de": "Fellow, US-Produktseite zur Opus 2 ↗",
+      "fr": "Fellow, produit américain Opus 2 ↗"
+    },
+    "88": {
+      "nl": "Exacte tweede generatie, bediening voor dosering per portie en bekers voor espresso en filterkoffie. Gecontroleerd op 3 november 2026.",
+      "de": "Genaue zweite Generation, Einzeldosierbedienung sowie Espresso- und Filterbecher. Geprüft am 3. November 2026.",
+      "fr": "Deuxième génération exacte, commandes monodoses, récipients espresso et filtre. Vérifié le 3 novembre 2026."
+    },
+    "89": {
+      "nl": "Baratza, Amerikaanse productpagina Encore ESP Pro ↗",
+      "de": "Baratza, US-Produktseite zur Encore ESP Pro ↗",
+      "fr": "Baratza, produit américain Encore ESP Pro ↗"
+    },
+    "90": {
+      "nl": "Exact Amerikaans product, traploos maalbereik, timer en standen voor dosering per portie. Gecontroleerd op 3 november 2026.",
+      "de": "Genaues US-Produkt, stufenloser Mahlbereich, Timer- und Einzeldosiermodi. Geprüft am 3. November 2026.",
+      "fr": "Produit américain exact, plage de mouture continue, minuterie et modes monodoses. Vérifié le 3 novembre 2026."
+    },
+    "92": {
+      "nl": "Exact allroundmodel, maalschijven van 65 mm, instelling en doseerset. Gecontroleerd op 3 november 2026.",
+      "de": "Genaues Allzweckmodell, 65 mm Mahlscheiben, Einstellung und Dosier-Set. Geprüft am 3. November 2026.",
+      "fr": "Modèle polyvalent exact, meules de 65 mm, réglage et kit de dosage. Vérifié le 3 novembre 2026."
+    },
+    "93": {
+      "nl": "The Coffee Chronicler, review van een Opus 2-testexemplaar ↗",
+      "de": "The Coffee Chronicler, Rezension eines Opus 2-Testexemplars ↗",
+      "fr": "The Coffee Chronicler, avis sur un exemplaire Opus 2 ↗"
+    },
+    "94": {
+      "nl": "Onafhankelijk testexemplaar uit september 2026; espresso-werkwijze en beperking van de filterkoffie. Gecontroleerd op 3 november 2026.",
+      "de": "Unabhängiges Testexemplar vom September 2026; Espressoablauf und Grenze der Filtertasse. Geprüft am 3. November 2026.",
+      "fr": "Exemplaire indépendant de septembre 2026 ; fonctionnement espresso et limite en tasse filtre. Vérifié le 3 novembre 2026."
+    },
+    "95": {
+      "nl": "Expert Reviews, Encore ESP Pro-testexemplaar ↗",
+      "de": "Expert Reviews, Encore ESP Pro-Testexemplar ↗",
+      "fr": "Expert Reviews, exemplaire Encore ESP Pro ↗"
+    },
+    "96": {
+      "nl": "Onafhankelijk Brits testexemplaar uit april 2026; breed gebruik en beperkingen bij stoppen en reinigen. Gecontroleerd op 3 november 2026.",
+      "de": "Unabhängiges britisches Testexemplar vom April 2026; vielseitiger Einsatz sowie Grenzen bei Abschaltung und Reinigung. Geprüft am 3. November 2026.",
+      "fr": "Exemplaire britannique indépendant d’avril 2026 ; usages variés, limites d’arrêt et de nettoyage. Vérifié le 3 novembre 2026."
+    },
+    "97": {
+      "nl": "Kaffeemacher, vergelijking van de Eureka Zero ↗",
+      "de": "Kaffeemacher, Vergleich der Eureka Zero ↗",
+      "fr": "Kaffeemacher, comparaison Eureka Zero ↗"
+    },
+    "98": {
+      "nl": "Onafhankelijk testexemplaar en retentiecontext voor de exacte Zero 65 All Purpose. Gecontroleerd op 3 november 2026.",
+      "de": "Unabhängiges Testexemplar und Retentionskontext zur genauen Zero 65 All Purpose. Geprüft am 3. November 2026.",
+      "fr": "Exemplaire indépendant et contexte de rétention du Zero 65 All Purpose exact. Vérifié le 3 novembre 2026."
+    },
+    "99": {
+      "nl": "Fellow, wat er veranderde bij de Opus 2 ↗",
+      "de": "Fellow, was sich bei der Opus 2 geändert hat ↗",
+      "fr": "Fellow, les changements de l’Opus 2 ↗"
+    },
+    "100": {
+      "nl": "Onderscheid tussen generaties en gewijzigde instelling volgens de fabrikant. Gecontroleerd op 3 november 2026.",
+      "de": "Generationsunterscheidung und Einstellungsänderung des Herstellers. Geprüft am 3. November 2026.",
+      "fr": "Distinction de génération et changement de réglage selon le fabricant. Vérifié le 3 novembre 2026."
+    },
+    "101": {
+      "nl": "Kies de routine en controleer daarna beide koppen",
+      "de": "Wählen Sie den Ablauf und prüfen Sie dann beide Tassen",
+      "fr": "Choisissez la routine, puis vérifiez les deux tasses"
+    },
+    "102": {
+      "nl": "Kies de Encore ESP Pro voor gedeeld gebruik met een getimed bonenreservoir, de Opus 2 voor wisselen per dosis met espresso voorop of de Zero 65 All Purpose voor terugkeren naar een gemarkeerde instelling met dosering per portie. Als verfijnde pour-over voorrang heeft, weeg dan de onafhankelijke beperkingen van de filterkoffie mee voordat je een compromis met één molen koopt.",
+      "de": "Wählen Sie die Encore ESP Pro für gemeinsam genutzte zeitgesteuerte Behälterdosierung, die Opus 2 für einen Einzeldosierwechsel mit Espresso-Priorität oder die Zero 65 All Purpose für die Rückkehr zur markierten Einzeldosiereinstellung. Hat feiner Pour-over Vorrang, wägen Sie vor dem Kauf einer Ein-Mühlen-Lösung die unabhängig beobachteten Grenzen der Filtertasse ab.",
+      "fr": "Choisissez l’Encore ESP Pro pour une trémie temporisée partagée, l’Opus 2 pour un changement monodose donnant priorité à l’espresso, ou le Zero 65 All Purpose pour un retour repéré en monodose. Si le filtre manuel délicat est prioritaire, pesez les limites indépendantes en tasse filtre avant d’acheter un compromis à un seul moulin."
+    },
+    "120": {
+      "nl": "06 / Twee zetmethoden",
+      "de": "06 / Zwei Brühmethoden",
+      "fr": "06 / Deux méthodes de préparation"
+    },
+    "121": {
+      "nl": "Vandaag espresso. Morgen pour-over.",
+      "de": "Heute Espresso. Morgen Pour-over.",
+      "fr": "Aujourd’hui, espresso. Demain, filtre manuel."
+    },
+    "122": {
+      "nl": "Vergelijk drie exacte molens op dosering, de moeite om naar een instelling terug te keren en de grenzen van hun bewijs voor filterkoffie.",
+      "de": "Vergleichen Sie drei genaue Mühlen nach Dosierung, Aufwand für die Rückkehr zur Einstellung und Grenzen ihrer Filterbelege.",
+      "fr": "Comparez trois moulins précis selon le dosage, l’effort pour retrouver le réglage et les limites de leurs preuves en tasse filtre."
+    },
+    "123": {
+      "nl": "Lees de molengids voor twee zetmethoden →",
+      "de": "Lesen Sie den Mühlenratgeber für zwei Brühmethoden →",
+      "fr": "Lire le guide des moulins pour deux préparations →"
+    },
+    "124": {
+      "nl": "07 / Keuzelogica",
+      "de": "07 / Kauflogik",
+      "fr": "07 / Logique d’achat"
+    }
+  }
+}

@@ -46,6 +46,17 @@ const styles = `
 @media(max-width:760px){[data-regional-context]>summary,[data-regional-context]>.cd-region-context-copy{width:calc(100% - 28px)}.cd-header__inner{gap:10px}}
 `;
 
+// Native menus need room for the language picker just above the mobile breakpoint.
+// Keep the English header unchanged, and fit translated automatic-diagram notes
+// within the original viewBox without shortening their wording or moving geometry.
+// Long translated headings and constraint labels must fit their existing grid cells.
+const regionalLayoutStyles = `
+@media(min-width:1321px){.cd-header .cd-header__inner{gap:8px}.cd-header .cd-nav__list{gap:4px}}
+[data-product-schematic="automatic"] .diagram-note{font-size:13px}
+.coffee-finder-heading h2{overflow-wrap:anywhere}
+.constraint-links span,.constraint-links strong{min-width:0;overflow-wrap:anywhere}
+`;
+
 // Native disclosure keeps the selector usable before JavaScript loads.
 const behavior = `document.addEventListener('click',event=>{for(const menu of document.querySelectorAll('[data-region-menu][open]'))if(!menu.contains(event.target))menu.open=false});document.addEventListener('keydown',event=>{if(event.key==='Escape')for(const menu of document.querySelectorAll('[data-region-menu][open]')){const focused=menu.contains(document.activeElement);menu.open=false;if(focused)menu.querySelector('summary').focus()}});`;
 
@@ -72,7 +83,7 @@ export const addSelector = (document, page, releases, edition, ui) => {
     selector.parentNode = container;
   }
   const head = walk(document).find(node => node.tagName === 'head');
-  appendHtml(head, `<style data-region-ui>${styles}${header ? '' : '[data-language-region]{float:right;margin:8px 14px}'}</style>`);
+  appendHtml(head, `<style data-region-ui>${styles}${edition.id === 'us' ? '' : regionalLayoutStyles}${header ? '' : '[data-language-region]{float:right;margin:8px 14px}'}</style>`);
   appendHtml(body, `<script data-region-ui>${behavior}</script>`);
 };
 

@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/gaggia-classic-gt/video/coffee-kev/",
+      "sourceHash": "6bb25069041d6cfa5c9d8d78b83e094d8631748af56957b77276783dc71ff21a"
+    },
+    {
+      "sourcePath": "/espresso-machine/gaggia-brera-ri9305/video/coffee-kev/",
+      "sourceHash": "7e0734d1e53fb84d5a4484a6e6b5a1b7aeb4c1d9214173a3500e30433cfea5cf"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "16c72f2c5b8f892edd07f835d0927eac55c5b5e696f553250ec223930afc3376",
+      "source": "Gaggia Brera Review",
+      "kind": "text",
+      "context": "Gaggia Brera Review"
+    },
+    {
+      "id": "1a8b6fead82efc397eedac411eb5a8984e4747a976f99d78dbfac1873e6d8720",
+      "source": "February 23, 2022",
+      "kind": "text",
+      "context": "February 23, 2022"
+    },
+    {
+      "id": "5bb1dbb67756d8b1658debec7f9b08653d7dac8ae136bda53a15ad828e0753be",
+      "source": "Coffee Kev presents Gaggia Brera RI9305, covering setup and controls. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Coffee Kev presents Gaggia Brera RI9305, covering setup and controls. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "d921fd36a305b400346167d69d1d9687bc95d9836b9bb0939510f4c1519ad382",
+      "source": "Gaggia Brera Review",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "78a066daa8de520d3ac399d57d20f814467d70d128575350876e0b2af51eff20",
+      "source": "Coffee Kev presents Gaggia Brera RI9305, covering setup and controls. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "17f56fa9c650be28b99619cb4b93ddf494430c3fe3d7f9c29fed81bd186a957e",
+      "source": "← Gaggia Brera RI9305 review",
+      "kind": "text",
+      "context": "← Gaggia Brera RI9305 review"
+    },
+    {
+      "id": "2b51b8fec23e45466d66a322b446025e5457b4d4aeedae3277e1f3a5b442bfaa",
+      "source": "Gaggia Brera RI9305 · Third-party perspective",
+      "kind": "text",
+      "context": "Gaggia Brera RI9305 · Third-party perspective"
+    },
+    {
+      "id": "e5302e4ba6abbd9d95f9e1874db866138c40abd1ae723c26acca1c873682ee97",
+      "source": "Gaggia Brera RI9305: Gaggia Brera Review · Coffee Kev (2022-02-23) | Coffeedant",
+      "kind": "text",
+      "context": "Gaggia Brera RI9305: Gaggia Brera Review · Coffee Kev (2022-02-23) | Coffeedant"
+    },
+    {
+      "id": "e2511f38c86cf2002e8de9de0d22254923bfd29317358ec0f446c54da17c0a1b",
+      "source": "Watch Coffee Kev on Gaggia Brera RI9305 (2022-02-23): Gaggia Brera Review. Coffee Kev presents Gaggia Brera RI9305, covering setup and controls. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "f6137c9037f5df39f7293b30e5cfae47d7b6414244c1788d9144b42c8f5704da",
+      "source": "Gaggia Brera RI9305: Gaggia Brera Review · Coffee Kev (2022-02-23) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "89cdc1856cf73c6826c3d1f069ab34fee2b25f9f2290f618859b3b8976b1864f",
+      "source": "Gaggia Brera RI9305 video by Coffee Kev",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "7e07c97e2eb2471ad1e7eb9fd23df5d36b1b3c1762b153ad6c706f81f49ceccd",
+      "source": "Gaggia Brera Review by Coffee Kev",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "6e4947577df6fa76d583403d1a8b9072c2e889a16767ecea4937b36d5f4d0da6",
+      "source": "Gaggia Brera RI9305: Gaggia Brera Review · Coffee Kev (2022-02-23) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "37f445e6f32dccc9db9d79aed8b45458cfc4627d6cde3c6c666b2c5be65524c9",
+      "source": "Watch Coffee Kev on Gaggia Brera RI9305 (2022-02-23): Gaggia Brera Review. Coffee Kev presents Gaggia Brera RI9305, covering setup and controls. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "a5bfd1a6f5b839a5a4ba22aee9a0de440404f9cff51e0ea2484831fe588fb5ea",
+      "source": "Gaggia Brera RI9305 video by Coffee Kev",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "2f67e6be4f0246440b194f7829f105dfe7faec066595b6c7c61add47b747881f",
+      "source": "Independent visual workflow evidence. Current specifications, generation and price are verified separately.",
+      "kind": "text",
+      "context": "Independent visual workflow evidence. Current specifications, generation and price are verified separately."
+    },
+    {
+      "id": "daaaf7918bb3c1cff807ad65138ecd4c2340e52327498348fc84138a0fd8d936",
+      "source": "Independent visual workflow evidence. Current specifications, generation and price are verified separately.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "fe6fe31fee8191ef207b837250693fba77b7b9ee02f796a9f5ef655f90c85af7",
+      "source": "Gaggia Classic GT: Gaggia Classic GT Review - Just a Dual Boiler Classic? · Coffee Kev (2025-04-05) | Coffeedant",
+      "kind": "text",
+      "context": "Gaggia Classic GT: Gaggia Classic GT Review - Just a Dual Boiler Classic? · Coffee Kev (2025-04-05) | Coffeedant"
+    },
+    {
+      "id": "658d5d2776ba26e7650e61f23073903a8f5324398205dec3cae3b3dd53ffc3df",
+      "source": "Watch Coffee Kev on Gaggia Classic GT (2025-04-05): Gaggia Classic GT Review - Just a Dual Boiler Classic?. Independent visual workflow evidence. Current specifications, generation and price are verified separately.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "2828b2e9c46c7076e9c0736902dc67c42352a49cdadf60ed5ccc02c49ff4ce66",
+      "source": "Gaggia Classic GT: Gaggia Classic GT Review - Just a Dual Boiler Classic? · Coffee Kev (2025-04-05) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "f9e5dd23f09d2d5d3b17e524847c2b0715214c958a8e66f366f378cc8da3112c",
+      "source": "Gaggia Classic GT video by Coffee Kev",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "5bb53377dbed0bcd3e43c50e483347977255b4284f16b9ad100187858b0bcac9",
+      "source": "← Gaggia Classic GT review",
+      "kind": "text",
+      "context": "← Gaggia Classic GT review"
+    },
+    {
+      "id": "24454dfb4d9e5fbc299db541760396b25cee4d482ffb7b694920982b4de653e6",
+      "source": "Gaggia Classic GT Review - Just a Dual Boiler Classic? by Coffee Kev",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "ebe279772d554d34f829d4b3407d881838bcd7b8e86a8e81c48fc042fe6ee392",
+      "source": "Gaggia Classic GT · Third-party perspective",
+      "kind": "text",
+      "context": "Gaggia Classic GT · Third-party perspective"
+    },
+    {
+      "id": "05a5e9ec5681b5be195526f259a3cf963df3c9f152151366df0bc8de9d1a1257",
+      "source": "Gaggia Classic GT Review - Just a Dual Boiler Classic?",
+      "kind": "text",
+      "context": "Gaggia Classic GT Review - Just a Dual Boiler Classic?"
+    },
+    {
+      "id": "798075a2290abce4bd3882212b27bc4708e7e918a8f4e571d358a9615524e3e5",
+      "source": "April 5, 2025",
+      "kind": "text",
+      "context": "April 5, 2025"
+    },
+    {
+      "id": "b8e121d839f277d379659d38806d514058f3b16d76c79f96d29f74935e7cd864",
+      "source": "Gaggia Classic GT: Gaggia Classic GT Review - Just a Dual Boiler Classic? · Coffee Kev (2025-04-05) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "f1a30c4120ad27ba081f9b56a92cf6f11c5ba6ec87b66e729ae4ce3b17dadc9c",
+      "source": "Watch Coffee Kev on Gaggia Classic GT (2025-04-05): Gaggia Classic GT Review - Just a Dual Boiler Classic?. Independent visual workflow evidence. Current specifications, generation and price are verified separately.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "93a14d49569bae40ded7226d5dc055cad3a01213897062ea5fd98e523c27deb1",
+      "source": "Gaggia Classic GT video by Coffee Kev",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "918238e2407924e62ae6f07cd6a649bea62ec68973a2ecb428eaa1a9533f8da4",
+      "source": "Gaggia Classic GT Review - Just a Dual Boiler Classic?",
+      "kind": "json",
+      "context": "name"
+    }
+  ],
+  "snapshotHash": "00e110ca51b684215b4fcba9fd573adfd75823409fc233e038ac983f07061668"
+}
