@@ -4488,6 +4488,31 @@ and 40,855 pending. Finder gaps remain zero. Each edition has 144 non-video and
 347 video pages left. Incremental publication and source-change maintenance
 stay active.
 
+### Direct batch 92 — two Bezzera Strega watch pages (2026-11-08)
+
+Translate the Whole Latte Love and Spina Espresso watch pages for the Bezzera
+Strega. The retailer video shows the lever, pump fill, controls, and steaming.
+The short Spina Espresso review retains its creator attribution and source
+dates, including the difference between the timestamp’s local date and the
+displayed UTC date. The original embeds and registered routes stay in place.
+The unfinished written review opens at its English source.
+
+The 503-slot full export and 31-slot missing snapshot freeze the source.
+Seventeen directly translated strings and the unchanged Spina Espresso name
+add 31 current cache entries per edition.
+
+The static builds, 210 localization tests, 20 SEO tests, analytics, and Finder
+checks pass. Six full document comparisons cover text, metadata, labels,
+structured data, and exact video destinations. All twelve desktop and mobile
+views fit without horizontal overflow.
+
+The source has 664 pages and 57,081 segments after the K-Ultra source update.
+The ready selection is 174 indexable pages plus 404 per edition. Coverage is
+NL 16,244 translated and 40,837 pending, DE 16,329 translated and 40,752 pending,
+and FR 16,253 translated and 40,828 pending. Finder gaps remain zero. Each edition
+has 144 non-video and 345 video pages left. Incremental publication and
+source-change maintenance stay active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
