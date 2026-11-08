@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/bezzera-bz13-pid/video/whole-latte-love-444d624367463135353445/",
+      "sourceHash": "1da694d2fabc3ab618e057abee0aaede97c7a57e10d5335d4498cd668972464d"
+    },
+    {
+      "sourcePath": "/espresso-machine/bezzera-bz13-pid/video/whole-latte-love-61665153424c4e54766549/",
+      "sourceHash": "bd9f8277a08302c3a102a03c306d1802d111fc20b3cacd9ee1d223d8780ff1cd"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "e55af1c49799715bbf84f6306d64245dbef3c61cc149cbaf55e9955d132bb091",
+      "source": "Review: Bezzera BZ13 PM & DE Espresso Machines",
+      "kind": "text",
+      "context": "Review: Bezzera BZ13 PM & DE Espresso Machines"
+    },
+    {
+      "id": "c1070f117923178b855083d25ae2269d3059d273165572a45da8ed553c2d93b6",
+      "source": "April 7, 2022",
+      "kind": "text",
+      "context": "April 7, 2022"
+    },
+    {
+      "id": "d783733aabbef14cd2422c47ae22ed703f7a9a2686583e5ee24c6650b0035791",
+      "source": "A retailer-produced but useful independent walkthrough of both control versions, the electrically heated BZ group, PID interface, and simultaneous brew-and-steam workflow. Watch it for orientation, not as Coffeedant test evidence.",
+      "kind": "text",
+      "context": "A retailer-produced but useful independent walkthrough of both control versions, the electrically heated BZ group, PID interface, and simultaneous brew-and-steam workflow. Watch it for orientation, not as Coffeedant test evidence."
+    },
+    {
+      "id": "4f0fbffeb16d079dc92fa12ef7e6ffb3ec432726c7ba9fd5230a9379e37ae3e8",
+      "source": "Review: Bezzera BZ13 PM & DE Espresso Machines",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "e530dcf71d6c4a1cfc96cda6c9e0030dd12d826e3f72614be82108dd45420de9",
+      "source": "A retailer-produced but useful independent walkthrough of both control versions, the electrically heated BZ group, PID interface, and simultaneous brew-and-steam workflow. Watch it for orientation, not as Coffeedant test evidence.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "1787b3d4b3883c9ad7bd4a64833f74d8e290c460c159a3a327448489d07efa85",
+      "source": "← Bezzera BZ13 PID review",
+      "kind": "text",
+      "context": "← Bezzera BZ13 PID review"
+    },
+    {
+      "id": "0377bf595febe43d7988bce1ee7f8bb6479f96671e9902f433da4ca3c0d6edd6",
+      "source": "Bezzera BZ13 PID: Review: Bezzera BZ13 PM & DE Espresso Machines · Whole Latte Love (2022-04-07) | Coffeedant",
+      "kind": "text",
+      "context": "Bezzera BZ13 PID: Review: Bezzera BZ13 PM & DE Espresso Machines · Whole Latte Love (2022-04-07) | Coffeedant"
+    },
+    {
+      "id": "743b5d9b1e103192eeaa75e0d1a63ae00f2f07da30d9bd71a8f442409014bb64",
+      "source": "Watch Whole Latte Love on Bezzera BZ13 PID (2022-04-07): Review: Bezzera BZ13 PM & DE Espresso Machines. A retailer-produced but useful independent walkthrough of both control versions, the electrically heated BZ group, PID interface, and simultaneous brew-and-steam workflow. Watch it for orientation, not as Coffeedant test evidence.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "0309add2ab4fd458e55382a8156c84ae11af6763d614de446d98ef966df81396",
+      "source": "Bezzera BZ13 PID: Review: Bezzera BZ13 PM & DE Espresso Machines · Whole Latte Love (2022-04-07) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "a8cee8c49760a08abec14083ab999256b1a24ea1508c3c9d0f815dd4c24f250a",
+      "source": "Bezzera BZ13 PID video by Whole Latte Love",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "33bda01ec5a606e8ec9609061a1b11505e2393a6c1e064e89aa58676708493c5",
+      "source": "Review: Bezzera BZ13 PM & DE Espresso Machines by Whole Latte Love",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "e1423aa860ff801558710a01a948632109f20e0c6f6a3f3b9a92b3fe38ddfc96",
+      "source": "Bezzera BZ13 PID · Retailer perspective",
+      "kind": "text",
+      "context": "Bezzera BZ13 PID · Retailer perspective"
+    },
+    {
+      "id": "75acd73d48c628cbd92e6aba3b94548b5fbbf1d31df850cb39a05f8df547a18c",
+      "source": "Bezzera BZ13 PID: Review: Bezzera BZ13 PM & DE Espresso Machines · Whole Latte Love (2022-04-07) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "d02bff5bc837afc6fc70ffb8fc76706e70b0a5e9c3f1f3068d5b43bc78ba983f",
+      "source": "Watch Whole Latte Love on Bezzera BZ13 PID (2022-04-07): Review: Bezzera BZ13 PM & DE Espresso Machines. A retailer-produced but useful independent walkthrough of both control versions, the electrically heated BZ group, PID interface, and simultaneous brew-and-steam workflow. Watch it for orientation, not as Coffeedant test evidence.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "487cc3f0e59a548e1c11dbbd9616c4c7d6a74ca2758ba7ca4d08c7234e73f09b",
+      "source": "Bezzera BZ13 PID video by Whole Latte Love",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "67c81331bcc8d100c7e52eda667d079f192fe4fa6448f699a499afd13c3288bb",
+      "source": "Bezzera BZ13 PID: Review: Bezzera BZ13 Espresso Machine · Whole Latte Love (2020-08-27) | Coffeedant",
+      "kind": "text",
+      "context": "Bezzera BZ13 PID: Review: Bezzera BZ13 Espresso Machine · Whole Latte Love (2020-08-27) | Coffeedant"
+    },
+    {
+      "id": "4bc4c7ad30f80f4efb1f3a45b98a6f70c8a4abbfd313101486890bb740c546d6",
+      "source": "Watch Whole Latte Love on Bezzera BZ13 PID (2020-08-27): Review: Bezzera BZ13 Espresso Machine. Whole Latte Love presents Bezzera BZ13 PID, covering grinding, espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "56d905745f3ab09447fe262766f0236b5cca37ea9a0d3d7446a96132cbb309d0",
+      "source": "Bezzera BZ13 PID: Review: Bezzera BZ13 Espresso Machine · Whole Latte Love (2020-08-27) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "535bdd4ef170157544a13758b1ae0c31a6ce323c34a929600aa3526aa23fcc91",
+      "source": "Review: Bezzera BZ13 Espresso Machine by Whole Latte Love",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "ad96277aebcca66294a60a4de3588b20c4c9a910cacb9c345ea42a1ba94694b7",
+      "source": "Review: Bezzera BZ13 Espresso Machine",
+      "kind": "text",
+      "context": "Review: Bezzera BZ13 Espresso Machine"
+    },
+    {
+      "id": "bdd737516a7947c49b90454f8b1859cd270253e2d2918266bfe75f0bab25f62e",
+      "source": "August 27, 2020",
+      "kind": "text",
+      "context": "August 27, 2020"
+    },
+    {
+      "id": "311f579d72b3c52aef7d17ac429609ae049eef5894df53018d36ad2bc59ae1b1",
+      "source": "Whole Latte Love presents Bezzera BZ13 PID, covering grinding, espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "text",
+      "context": "Whole Latte Love presents Bezzera BZ13 PID, covering grinding, espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review."
+    },
+    {
+      "id": "8845b9c89433c470a46c46498510db8cb512e036378d237a51304534d14a8d8d",
+      "source": "Bezzera BZ13 PID: Review: Bezzera BZ13 Espresso Machine · Whole Latte Love (2020-08-27) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "3a2cadc7e03ce70947e2f0714046aa77477d2a01385da20ffa9e17da6bdaa46d",
+      "source": "Watch Whole Latte Love on Bezzera BZ13 PID (2020-08-27): Review: Bezzera BZ13 Espresso Machine. Whole Latte Love presents Bezzera BZ13 PID, covering grinding, espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "e07b2406a2d50316e25ef43e9f2e7ca2a93e5a151b984ef051f5e8608110c7e1",
+      "source": "Review: Bezzera BZ13 Espresso Machine",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "9cec2852bd37d0600bcd503ba7742f933c559d318ac8fea378dd402305e58dec",
+      "source": "Whole Latte Love presents Bezzera BZ13 PID, covering grinding, espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "79ecbed458415289b2612ec8530b4fdc7e6e0c4e15968214bd9de74df0a7100c"
+}
