@@ -62,6 +62,16 @@ const faqs = [
 ];
 const fit = ['You make two flat whites or cappuccinos most mornings and want to steam while the espresso pulls.', 'You already dial in espresso and want timed shots and programmable preinfusion in a compact machine.'];
 const avoid = ['You want coffee a few minutes after switching on, or you’re moving from capsules for the same one-button routine.', 'You want a machine that grinds, weighs the shot or froths the milk for you.'];
+const reviewSections = [
+  { id: 'summary', label: 'Summary' },
+  { id: 'video', label: 'Videos' },
+  { id: 'where-to-buy', label: 'Where to buy' },
+  { id: 'overview', label: 'Full review' },
+  { id: 'specifications', label: 'Specs' },
+  { id: 'faq', label: 'FAQ' },
+  { id: 'ratings', label: 'Ratings' },
+  { id: 'sources', label: 'Sources' },
+];
 const readingText = [
   dashboardVerdict, ...fit, ...avoid,
   ...dashboardQuestions.flatMap(({ question, answer, paragraphs, takeaway }) => [question, answer, ...paragraphs, takeaway]),
@@ -165,6 +175,18 @@ const schema = { '@context': 'https://schema.org', '@graph': [
       </div>
     </section>
 
+    <nav class="review-jumpbar ed-jumpbar" aria-label="Review sections" data-review-jumpbar>
+      <span>On this page</span>
+      <div class="ed-jump-links">
+        {reviewSections.map(({ id, label }) => <a href={`#${id}`} data-review-jump={id}>{label}</a>)}
+      </div>
+      <details class="ed-jump-disclosure" data-review-menu>
+        <summary>On this page</summary>
+        <ul>{reviewSections.map(({ id, label }) => <li><a href={`#${id}`} data-review-jump={id}>{label}</a></li>)}</ul>
+      </details>
+      <a class="ed-jump-shop" href="#where-to-buy">Where to buy</a>
+    </nav>
+
     <section class="review-video ed-video-room" id="video" aria-labelledby="video-title" data-review-video={videos[0]?.id}>
       <div class="ed-video-header">
         <div>
@@ -263,6 +285,59 @@ const schema = { '@context': 'https://schema.org', '@graph': [
 <script>
   const root = document.querySelector<HTMLElement>('[data-elizabeth-dashboard]');
   if (root) {
+    const jumpbar = root.querySelector<HTMLElement>('[data-review-jumpbar]');
+    if (jumpbar) {
+      const siteHeader = document.querySelector<HTMLElement>('.cd-header');
+      const menu = jumpbar.querySelector<HTMLDetailsElement>('[data-review-menu]');
+      const links = [...jumpbar.querySelectorAll<HTMLAnchorElement>('[data-review-jump]')];
+      const sections = [...jumpbar.querySelectorAll<HTMLAnchorElement>('.ed-jump-links a')]
+        .map(link => document.getElementById(link.hash.slice(1)))
+        .filter((section): section is HTMLElement => section !== null)
+        .reverse();
+      let currentSection = '';
+      let frame = 0;
+
+      const updateCurrentSection = () => {
+        frame = 0;
+        const readingLine = (siteHeader?.offsetHeight ?? 78) + jumpbar.offsetHeight + 24;
+        const nextSection = sections.find(section => section.getBoundingClientRect().top <= readingLine)?.id ?? 'summary';
+        if (nextSection === currentSection) return;
+        currentSection = nextSection;
+        for (const link of links) {
+          if (link.dataset.reviewJump === currentSection) link.setAttribute('aria-current', 'location');
+          else link.removeAttribute('aria-current');
+        }
+      };
+      const queueSectionUpdate = () => {
+        if (!frame) frame = requestAnimationFrame(updateCurrentSection);
+      };
+      const updateOffsets = () => {
+        if (siteHeader) root.style.setProperty('--ed-header-height', `${siteHeader.offsetHeight}px`);
+        root.style.setProperty('--ed-jump-height', `${jumpbar.offsetHeight}px`);
+        queueSectionUpdate();
+      };
+
+      updateOffsets();
+      if (typeof ResizeObserver !== 'undefined') {
+        const observer = new ResizeObserver(updateOffsets);
+        observer.observe(jumpbar);
+        if (siteHeader) observer.observe(siteHeader);
+      }
+      window.addEventListener('scroll', queueSectionUpdate, { passive: true });
+      window.addEventListener('hashchange', queueSectionUpdate);
+      jumpbar.addEventListener('click', event => {
+        if (menu?.open && (event.target as HTMLElement).closest('a')) menu.open = false;
+      });
+      document.addEventListener('click', event => {
+        if (menu?.open && !jumpbar.contains(event.target as Node)) menu.open = false;
+      });
+      jumpbar.addEventListener('keydown', event => {
+        if (event.key !== 'Escape' || !menu?.open) return;
+        menu.open = false;
+        menu.querySelector('summary')?.focus();
+      });
+    }
+
     const selector = root.querySelector<HTMLSelectElement>('[data-video-selector]');
     selector?.addEventListener('change', () => {
       root.querySelectorAll<HTMLElement>('[data-video-panel]').forEach(panel => { panel.hidden = panel.dataset.videoPanel !== selector.value; });

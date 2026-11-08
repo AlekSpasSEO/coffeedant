@@ -58,6 +58,13 @@ const [featured, decision] = hero.childNodes.filter(node => node.tagName);
 assert.ok(featured?.tagName === 'figure' && hasClass(featured, 'ed-featured'), 'the featured figure comes first in the hero');
 assert.ok(children(featured).some(node => node.tagName === 'img' && attr(node, 'itemprop') === 'image' && visible(node)), 'the featured figure displays the product image');
 assert.ok(hasClass(decision, 'ed-decision'), 'the buying decision follows the featured figure');
+const jumpbar = topSections[topSections.indexOf(hero) + 1];
+assert.ok(jumpbar?.tagName === 'nav' && attr(jumpbar, 'aria-label') === 'Review sections', 'section navigation follows the buying decision');
+const desktopJumpLinks = children(jumpbar).find(node => hasClass(node, 'ed-jump-links'));
+const mobileJumpLinks = children(jumpbar).find(node => node.tagName === 'details');
+const jumpTargets = node => children(node).filter(link => attr(link, 'data-review-jump') !== undefined).map(link => attr(link, 'href'));
+assert.deepEqual(jumpTargets(desktopJumpLinks), ['#summary', '#video', '#where-to-buy', '#overview', '#specifications', '#faq', '#ratings', '#sources']);
+assert.deepEqual(jumpTargets(mobileJumpLinks), jumpTargets(desktopJumpLinks), 'mobile menu reaches the same sections as desktop');
 
 const metadata = (key, attribute = 'name') => nodes.filter(node => node.tagName === 'meta' && attr(node, attribute) === key);
 const metaValue = (key, attribute) => attr(metadata(key, attribute)[0], 'content');
