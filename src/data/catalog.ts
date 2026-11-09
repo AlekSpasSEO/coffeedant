@@ -148,6 +148,7 @@ export const machineFacts: Record<string, { setup: string; compromise: string; s
   '/espresso-machine/profitec-go/': { setup: 'PID single boiler', compromise: 'Espresso-first milk workflow', signals: ['espresso', 'ritual', 'compact', 'upgrade'] },
   '/espresso-machine/profitec-jump/': { setup: 'Compact heat exchanger', compromise: 'Indirect brew-temperature control', signals: ['milk', 'ritual', 'compact', 'upgrade'] },
   '/espresso-machine/profitec-move/': { setup: 'Compact dual boiler', compromise: 'Verify first-shot warmup', signals: ['milk', 'ritual', 'compact', 'upgrade'] },
+  '/espresso-machine/profitec-drive/': { setup: 'Rotary dual boiler with stock flow control', compromise: 'Large footprint and water plan', signals: ['espresso', 'milk', 'ritual', 'upgrade'] },
   '/espresso-machine/philips-5400-lattego/': { setup: 'Bean-to-cup automatic', compromise: 'Less extraction control', signals: ['milk', 'shared', 'fast'] },
   '/espresso-machine/breville-barista-pro-bes878/': { setup: 'Grinder-equipped semi-automatic', compromise: 'Integrated grinder limits upgrades', signals: ['mixed', 'ritual', 'compact'] },
   '/espresso-machine/jura-e8/': { setup: 'Premium bean-to-cup', compromise: 'High cost and closed workflow', signals: ['mixed', 'milk', 'shared', 'fast', 'upgrade'] },
