@@ -2857,4 +2857,12 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/profitec-drive/': officialProductMedia(
+    'Profitec DRIVE official product gallery',
+    'https://www.profitec-espresso.com/en/products/drive',
+    [
+      { src:'https://www.profitec-espresso.com/media/pages/produkte/drive/5cd6f4b722-1698405220/drive-flow-control.webp', alt:'Official Profitec DRIVE group flow valve and pressure gauge detail', caption:'The stock group valve can change flow during extraction; the photo does not show a measured pressure profile or a Coffeedant shot.', width:1920, height:1240 },
+      { src:'https://www.profitec-espresso.com/media/pages/produkte/drive/56b2cb4bb3-1698405220/drive-pid.webp', alt:'Official Profitec DRIVE OLED and control detail', caption:'The OLED displays brew time and settings; its readiness indication is not a measured temperature at the coffee bed.', width:1920, height:1240 },
+    ],
+  ),
 };
