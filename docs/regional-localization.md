@@ -4580,6 +4580,26 @@ translated and 41,264 pending, DE 16,448 translated and 41,208 pending, and
 FR 16,372 translated and 41,284 pending. Each edition has 150 non-video and
 339 video pages left. Finder gaps remain zero.
 
+### Direct batch 96 — Lelit Anna watch pages and Profitec DRIVE shared text (2026-11-09)
+
+Translate the Coffee Kev and ECS COFFEE watch pages for the Lelit Anna
+PL41TEM. The translations retain the original video titles' scope, dates,
+embeds, attribution, and evidence limits. The unfinished written review
+opens in English.
+
+The Profitec DRIVE release added two shared strings, additional Profitec
+brand page text, and three Finder descriptions and labels. The batch
+translates these slots so the existing regional pages can build again.
+The Finder entry links to the US review with the edition notice and has
+no regional price or purchase offer.
+
+The full watch snapshot freezes 506 slots. The combined missing snapshot
+freezes 37 slots. The current source has 672 pages and 57,926 segments.
+Each edition can render 182 indexable pages and a localized 404.
+Coverage is NL 16,433 translated and 41,493 pending, DE 16,489 translated
+and 41,437 pending, and FR 16,413 translated and 41,513 pending. Finder
+gaps are zero. Each edition has 151 non-video pages and 338 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
