@@ -1003,29 +1003,165 @@
     "pendingVideoIds": [],
     "note": "Search results were manufacturer uploads, other models/blends, or unsuitable reviews."
   },
-  "/grinder/eureka-mignon-zero-65-all-purpose/": {"checkedAt":"2026-10-20","status":"selected","pendingVideoIds":[],"note":"Exact-model DieRöster visual review; independent retention figures in the article come from Kaffeemacher's separate written protocol."},
-  "/espresso-machine/profitec-jump/": {"checkedAt":"2026-10-20","status":"selected","pendingVideoIds":[],"note":"Exact-model Kaffeemacher JUMP and Pro 400 comparison, with distinct machine configurations."},
-  "/coffee-beans/onyx-geometry/": {"checkedAt":"2026-10-20","status":"no-suitable-third-party-video","pendingVideoIds":[],"note":"Focused exact-product search did not yield a verifiable independent video of a current Geometry blend."},
-  "/coffee-beans/onyx-southern-weather/": {"checkedAt":"2026-10-20","status":"no-suitable-third-party-video","pendingVideoIds":[],"note":"Focused exact-product search did not yield a verifiable independent video of a current Southern Weather blend."},
-  "/coffee-beans/peets-big-bang/": {"checkedAt":"2026-10-20","status":"selected","pendingVideoIds":[],"note":"Selected an independent 2020 tasting as historical sample context only; it does not verify the current bag."},
-  "/coffee-beans/peets-arabian-mocha-java/": {"checkedAt":"2026-10-20","status":"no-suitable-third-party-video","pendingVideoIds":[],"note":"A small independent older comparison was located, but lacked enough product and bag detail to support an on-page video."},
-  "/coffee-beans/verve-streetlevel/": {"checkedAt":"2026-10-20","status":"no-suitable-third-party-video","pendingVideoIds":[],"note":"Focused exact-product search did not yield a verifiable independent video of a current Streetlevel blend."},
-  "/espresso-machine/profitec-move/": {"checkedAt":"2026-10-21","status":"selected","pendingVideoIds":[],"note":"Kaffeemacher exact original-MOVE video verified from its article and YouTube metadata; older sample cannot establish current CM500003-01 performance."},
-  "/coffee-beans/blue-bottle-hayes-valley-espresso/": {"checkedAt":"2026-10-21","status":"no-suitable-third-party-video","pendingVideoIds":[],"note":"Exact-product video search did not yield a verifiable independent current US bag tasting with stable metadata."},
-  "/coffee-beans/blue-bottle-bella-donovan/": {"checkedAt":"2026-10-21","status":"no-suitable-third-party-video","pendingVideoIds":[],"note":"Exact-product video search did not yield a verifiable independent current US bag tasting with stable metadata."},
-  "/coffee-beans/blue-bottle-giant-steps/": {"checkedAt":"2026-10-21","status":"no-suitable-third-party-video","pendingVideoIds":[],"note":"Exact-product video search did not yield a verifiable independent current US bag tasting with stable metadata."},
-  "/coffee-beans/blue-bottle-17ft-ceiling-espresso/": {"checkedAt":"2026-10-21","status":"no-suitable-third-party-video","pendingVideoIds":[],"note":"Exact-product video search did not yield a verifiable independent current US bag tasting with stable metadata."},
-  "/coffee-beans/blue-bottle-night-light-decaf/": {"checkedAt":"2026-10-21","status":"no-suitable-third-party-video","pendingVideoIds":[],"note":"Exact-product video search did not yield a verifiable independent current US bag tasting with stable metadata."},
-  "/coffee-beans/blue-bottle-three-africas/": {"checkedAt":"2026-10-22","status":"no-suitable-third-party-video","pendingVideoIds":[],"note":"Focused exact-product video search found no verifiable independent current US whole-bean tasting with stable metadata."},
-  "/coffee-beans/peets-baridi-blend/": {"checkedAt":"2026-10-22","status":"no-suitable-third-party-video","pendingVideoIds":[],"note":"Focused search found no verifiable independent video of the current whole-bean bag; prepared café beverage coverage is a distinct product."},
-  "/coffee-beans/peets-off-the-grid/": {"checkedAt":"2026-10-22","status":"no-suitable-third-party-video","pendingVideoIds":[],"note":"Focused exact-product search found no verifiable independent video of the current whole-bean blend."},
-  "/coffee-beans/peets-sun-catcher/": {"checkedAt":"2026-10-22","status":"no-suitable-third-party-video","pendingVideoIds":[],"note":"Focused exact-product search found no verifiable independent video of the current whole-bean blend."},
-  "/coffee-beans/verve-sermon/": {"checkedAt":"2026-10-22","status":"no-suitable-third-party-video","pendingVideoIds":[],"note":"Focused exact-product search found no verifiable independent current US bag tasting with stable metadata."},
-  "/grinder/mazzer-philos/": {"checkedAt":"2026-10-22","status":"pending-metadata-verification","pendingVideoIds":["VfF8hoTc_Xc"],"note":"Independent three-month two-burr video identified and linked in review, but full channel/duration metadata for a separate video-library watch page remains unverified."},
-  "/espresso-machine/turin-legato-v2/": {"checkedAt":"2026-10-22","status":"pending-metadata-verification","pendingVideoIds":["cYtvsYuFgxM","UN0Qs7zSGk8"],"note":"Independent V2 platform videos identified and linked in review; complete channel/duration metadata and US-SKU identity for video-library selection remain unverified."},
-  "/coffee-beans/onyx-tropical-weather/": {"checkedAt":"2026-11-09","status":"no-suitable-third-party-video","pendingVideoIds":[],"note":"Focused exact-product search found no verifiable independent tasting video for the current rotating US whole-bean blend with stable metadata."},
-  "/coffee-beans/verve-buena-vista-dark-roast/": {"checkedAt":"2026-11-09","status":"no-suitable-third-party-video","pendingVideoIds":[],"note":"Focused exact-product search found no verifiable independent current whole-bean tasting video with stable metadata; older blog evaluation remains a text source."},
-  "/coffee-beans/verve-vancouver-swiss-water-decaf/": {"checkedAt":"2026-11-09","status":"no-suitable-third-party-video","pendingVideoIds":[],"note":"Focused exact-product search found no verifiable independent current US whole-bean decaf video with stable metadata; owner accounts remain text-only."},
-  "/coffee-beans/stumptown-hundred-mile/": {"checkedAt":"2026-11-09","status":"no-suitable-third-party-video","pendingVideoIds":[],"note":"Focused exact-product search found no verifiable independent current whole-bean tasting video with stable metadata; text opinions are assessed separately."},
-  "/coffee-beans/stumptown-founders-blend/": {"checkedAt":"2026-11-09","status":"no-suitable-third-party-video","pendingVideoIds":[],"note":"Focused exact-product search found no verifiable independent current whole-bean tasting video with stable metadata; Taste of Home text sample is attributed separately."}
+  "/grinder/eureka-mignon-zero-65-all-purpose/": {
+    "checkedAt": "2026-10-20",
+    "status": "selected",
+    "pendingVideoIds": [],
+    "note": "Exact-model DieRöster visual review; independent retention figures in the article come from Kaffeemacher's separate written protocol."
+  },
+  "/espresso-machine/profitec-jump/": {
+    "checkedAt": "2026-10-20",
+    "status": "selected",
+    "pendingVideoIds": [],
+    "note": "Exact-model Kaffeemacher JUMP and Pro 400 comparison, with distinct machine configurations."
+  },
+  "/coffee-beans/onyx-geometry/": {
+    "checkedAt": "2026-10-20",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "Focused exact-product search did not yield a verifiable independent video of a current Geometry blend."
+  },
+  "/coffee-beans/onyx-southern-weather/": {
+    "checkedAt": "2026-10-20",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "Focused exact-product search did not yield a verifiable independent video of a current Southern Weather blend."
+  },
+  "/coffee-beans/peets-big-bang/": {
+    "checkedAt": "2026-10-20",
+    "status": "selected",
+    "pendingVideoIds": [],
+    "note": "Selected an independent 2020 tasting as historical sample context only; it does not verify the current bag."
+  },
+  "/coffee-beans/peets-arabian-mocha-java/": {
+    "checkedAt": "2026-10-20",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "A small independent older comparison was located, but lacked enough product and bag detail to support an on-page video."
+  },
+  "/coffee-beans/verve-streetlevel/": {
+    "checkedAt": "2026-10-20",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "Focused exact-product search did not yield a verifiable independent video of a current Streetlevel blend."
+  },
+  "/espresso-machine/profitec-move/": {
+    "checkedAt": "2026-10-21",
+    "status": "selected",
+    "pendingVideoIds": [],
+    "note": "Kaffeemacher exact original-MOVE video verified from its article and YouTube metadata; older sample cannot establish current CM500003-01 performance."
+  },
+  "/coffee-beans/blue-bottle-hayes-valley-espresso/": {
+    "checkedAt": "2026-10-21",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "Exact-product video search did not yield a verifiable independent current US bag tasting with stable metadata."
+  },
+  "/coffee-beans/blue-bottle-bella-donovan/": {
+    "checkedAt": "2026-10-21",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "Exact-product video search did not yield a verifiable independent current US bag tasting with stable metadata."
+  },
+  "/coffee-beans/blue-bottle-giant-steps/": {
+    "checkedAt": "2026-10-21",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "Exact-product video search did not yield a verifiable independent current US bag tasting with stable metadata."
+  },
+  "/coffee-beans/blue-bottle-17ft-ceiling-espresso/": {
+    "checkedAt": "2026-10-21",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "Exact-product video search did not yield a verifiable independent current US bag tasting with stable metadata."
+  },
+  "/coffee-beans/blue-bottle-night-light-decaf/": {
+    "checkedAt": "2026-10-21",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "Exact-product video search did not yield a verifiable independent current US bag tasting with stable metadata."
+  },
+  "/coffee-beans/blue-bottle-three-africas/": {
+    "checkedAt": "2026-10-22",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "Focused exact-product video search found no verifiable independent current US whole-bean tasting with stable metadata."
+  },
+  "/coffee-beans/peets-baridi-blend/": {
+    "checkedAt": "2026-10-22",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "Focused search found no verifiable independent video of the current whole-bean bag; prepared café beverage coverage is a distinct product."
+  },
+  "/coffee-beans/peets-off-the-grid/": {
+    "checkedAt": "2026-10-22",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "Focused exact-product search found no verifiable independent video of the current whole-bean blend."
+  },
+  "/coffee-beans/peets-sun-catcher/": {
+    "checkedAt": "2026-10-22",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "Focused exact-product search found no verifiable independent video of the current whole-bean blend."
+  },
+  "/coffee-beans/verve-sermon/": {
+    "checkedAt": "2026-10-22",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "Focused exact-product search found no verifiable independent current US bag tasting with stable metadata."
+  },
+  "/grinder/mazzer-philos/": {
+    "checkedAt": "2026-10-22",
+    "status": "pending-metadata-verification",
+    "pendingVideoIds": [
+      "VfF8hoTc_Xc"
+    ],
+    "note": "Independent three-month two-burr video identified and linked in review, but full channel/duration metadata for a separate video-library watch page remains unverified."
+  },
+  "/espresso-machine/turin-legato-v2/": {
+    "checkedAt": "2026-10-22",
+    "status": "pending-metadata-verification",
+    "pendingVideoIds": [
+      "cYtvsYuFgxM",
+      "UN0Qs7zSGk8"
+    ],
+    "note": "Independent V2 platform videos identified and linked in review; complete channel/duration metadata and US-SKU identity for video-library selection remain unverified."
+  },
+  "/coffee-beans/onyx-tropical-weather/": {
+    "checkedAt": "2026-11-09",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "Focused exact-product search found no verifiable independent tasting video for the current rotating US whole-bean blend with stable metadata."
+  },
+  "/coffee-beans/verve-buena-vista-dark-roast/": {
+    "checkedAt": "2026-11-09",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "Focused exact-product search found no verifiable independent current whole-bean tasting video with stable metadata; older blog evaluation remains a text source."
+  },
+  "/coffee-beans/verve-vancouver-swiss-water-decaf/": {
+    "checkedAt": "2026-11-09",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "Focused exact-product search found no verifiable independent current US whole-bean decaf video with stable metadata; owner accounts remain text-only."
+  },
+  "/coffee-beans/stumptown-hundred-mile/": {
+    "checkedAt": "2026-11-09",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "Focused exact-product search found no verifiable independent current whole-bean tasting video with stable metadata; text opinions are assessed separately."
+  },
+  "/coffee-beans/stumptown-founders-blend/": {
+    "checkedAt": "2026-11-09",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "Focused exact-product search found no verifiable independent current whole-bean tasting video with stable metadata; Taste of Home text sample is attributed separately."
+  },
+  "/espresso-machine/profitec-drive/": {
+    "checkedAt": "2026-11-09",
+    "status": "selected",
+    "pendingVideoIds": [],
+    "note": "TechTravel Panda exact-model unsponsored owner video verified against YouTube title, channel, published date and duration. One 2024 unit; no Coffeedant measurement."
+  }
 }
