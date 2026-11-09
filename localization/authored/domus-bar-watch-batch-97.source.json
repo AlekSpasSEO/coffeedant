@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/la-pavoni-new-domus-bar/video/ecs-coffee-espresso-and-coffee-gear-465761572d5757706d5451/",
+      "sourceHash": "0e41fa46eefcdc85e8b45a05d3794829b6ee59945a68dd380f327b3cbc04c14f"
+    },
+    {
+      "sourcePath": "/espresso-machine/la-pavoni-new-domus-bar/video/ecs-coffee-espresso-and-coffee-gear-6c6c7547616453636b5730/",
+      "sourceHash": "05ccc64c06b8fe8ae9877d96a858580b5733b129834af5dacfe0bdae1226e0ea"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "1e50055afc8e2c32538ff69dcca7a5e8a1619b7bfedd8244586f47346b85375e",
+      "source": "February 21, 2025",
+      "kind": "text",
+      "context": "February 21, 2025"
+    },
+    {
+      "id": "dfcb2d0a71896c21328a966c961044347a92b4b7d1ecdab0c84ed73b0bac4dc7",
+      "source": "← La Pavoni New Domus Bar review",
+      "kind": "text",
+      "context": "← La Pavoni New Domus Bar review"
+    },
+    {
+      "id": "d30446cc3278084cd1d4800809824393cd6a3c08c0bb33bd8174919a2c1b5bbc",
+      "source": "La Pavoni New Domus Bar: La Pavoni Domus Bar Review | Classic Espresso, Modern Mastery · ECS COFFEE Espresso & Coffee Gear (2025-02-21) | Coffeedant",
+      "kind": "text",
+      "context": "La Pavoni New Domus Bar: La Pavoni Domus Bar Review | Classic Espresso, Modern Mastery · ECS COFFEE Espresso & Coffee Gear (2025-02-21) | Coffeedant"
+    },
+    {
+      "id": "237e7318cc47c2a9c5a2d2d0c46ae177dfa08fd99c46e15de9b29e6a0f8c0c83",
+      "source": "Watch ECS COFFEE Espresso & Coffee Gear on La Pavoni New Domus Bar (2025-02-21): La Pavoni Domus Bar Review | Classic Espresso, Modern Mastery. ECS COFFEE Espresso & Coffee Gear presents La Pavoni New Domus Bar, covering grinding, espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "e5db4cf0de23e2dc877104e5697eaba4cd3793bf839c4eeb9900a031dc6a9b18",
+      "source": "La Pavoni New Domus Bar: La Pavoni Domus Bar Review | Classic Espresso, Modern Mastery · ECS COFFEE Espresso & Coffee Gear (2025-02-21) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "980024f80bb00eb1538ea5ef1038d6efa38a5795a75ce12479011e12e7e2dca5",
+      "source": "La Pavoni New Domus Bar video by ECS COFFEE Espresso & Coffee Gear",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "6ecbf75c876ff5ec48da95462b263295e42fff8d2f3934bfb45418f43941c827",
+      "source": "La Pavoni Domus Bar Review | Classic Espresso, Modern Mastery by ECS COFFEE Espresso & Coffee Gear",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "d4d6a8b8ede857797daf4df1217202c1334f9e5902d30d609c778b386467dc5b",
+      "source": "La Pavoni New Domus Bar · Retailer perspective",
+      "kind": "text",
+      "context": "La Pavoni New Domus Bar · Retailer perspective"
+    },
+    {
+      "id": "20a67c113bb899e960de5504649f1d017a7591cf0cdee7952f2242425130f1ca",
+      "source": "La Pavoni Domus Bar Review | Classic Espresso, Modern Mastery",
+      "kind": "text",
+      "context": "La Pavoni Domus Bar Review | Classic Espresso, Modern Mastery"
+    },
+    {
+      "id": "719f7db1e5d2ed3a53ea2a909d5d2c9dd11cc337250b5923d405594ae9bda1d3",
+      "source": "ECS COFFEE Espresso & Coffee Gear presents La Pavoni New Domus Bar, covering grinding, espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "text",
+      "context": "ECS COFFEE Espresso & Coffee Gear presents La Pavoni New Domus Bar, covering grinding, espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review."
+    },
+    {
+      "id": "bd5f86bbacc99262b166200d7f44c6333b606ff364cff715ba9ab19a7268dd62",
+      "source": "La Pavoni New Domus Bar: La Pavoni Domus Bar Review | Classic Espresso, Modern Mastery · ECS COFFEE Espresso & Coffee Gear (2025-02-21) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "89478d4d1fb362b0b75f907707a35ee37f6247b9e0348bb6b8a261915a59bc46",
+      "source": "Watch ECS COFFEE Espresso & Coffee Gear on La Pavoni New Domus Bar (2025-02-21): La Pavoni Domus Bar Review | Classic Espresso, Modern Mastery. ECS COFFEE Espresso & Coffee Gear presents La Pavoni New Domus Bar, covering grinding, espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "7263bac537e015cd59b3587a594d3999f3cf6d33e21baacbb2d64ec466b8cffd",
+      "source": "La Pavoni New Domus Bar video by ECS COFFEE Espresso & Coffee Gear",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "56bc391dcffe0d3d11f91e5d5251532dda50b31cf100bf03545a61740352ee44",
+      "source": "La Pavoni Domus Bar Review | Classic Espresso, Modern Mastery",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "801c0315d6bcd5b56a7804e592ecf5e5af9fcde90e416dd97fa57733efe9ce1e",
+      "source": "ECS COFFEE Espresso & Coffee Gear presents La Pavoni New Domus Bar, covering grinding, espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "7ea49800e7cb2454b60f3e5eacc0d26f996304271e746ba69cf018bbfe8ea382",
+      "source": "La Pavoni New Domus Bar: Breville Barista Express vs La Pavoni Domus Bar | SHOWDOWN · ECS COFFEE Espresso & Coffee Gear (2025-10-28) | Coffeedant",
+      "kind": "text",
+      "context": "La Pavoni New Domus Bar: Breville Barista Express vs La Pavoni Domus Bar | SHOWDOWN · ECS COFFEE Espresso & Coffee Gear (2025-10-28) | Coffeedant"
+    },
+    {
+      "id": "d08f71e202e0fdb53ad3a75ff018ad1aeede2456e4fd6ec91a17fafd64f4b0ee",
+      "source": "Watch ECS COFFEE Espresso & Coffee Gear on La Pavoni New Domus Bar (2025-10-28): Breville Barista Express vs La Pavoni Domus Bar | SHOWDOWN. ECS COFFEE Espresso & Coffee Gear presents La Pavoni New Domus Bar, covering grinding, espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "108e9b4c598fd472b004040c4b28a54e25ad9b1b54c0b7297f2c9f81b39dd362",
+      "source": "La Pavoni New Domus Bar: Breville Barista Express vs La Pavoni Domus Bar | SHOWDOWN · ECS COFFEE Espresso & Coffee Gear (2025-10-28) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "6dcde2ff218a7ff82174ac5de4a8590ce987ad3e5106792c6bc54731531925ef",
+      "source": "Breville Barista Express vs La Pavoni Domus Bar | SHOWDOWN by ECS COFFEE Espresso & Coffee Gear",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "6cff1b6b549b7a47ce6948fe9cbd5dda389595fa1bb961e468a853ff18113387",
+      "source": "Breville Barista Express vs La Pavoni Domus Bar | SHOWDOWN",
+      "kind": "text",
+      "context": "Breville Barista Express vs La Pavoni Domus Bar | SHOWDOWN"
+    },
+    {
+      "id": "d40035710bc2ef1a3aa9e8ec060c5221cc9fca020fef477a43d2291ff06882cc",
+      "source": "October 28, 2025",
+      "kind": "text",
+      "context": "October 28, 2025"
+    },
+    {
+      "id": "994e9257c2d0dd8880e8a595893a9a71b1f2618f899debdcae37794cb56a83f7",
+      "source": "La Pavoni New Domus Bar: Breville Barista Express vs La Pavoni Domus Bar | SHOWDOWN · ECS COFFEE Espresso & Coffee Gear (2025-10-28) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "0ae98084dd05f4a329227237ee8c6b02b17fc060391f302293580bcae7bf501d",
+      "source": "Watch ECS COFFEE Espresso & Coffee Gear on La Pavoni New Domus Bar (2025-10-28): Breville Barista Express vs La Pavoni Domus Bar | SHOWDOWN. ECS COFFEE Espresso & Coffee Gear presents La Pavoni New Domus Bar, covering grinding, espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "8fe595e16d3b5464bd9c263f5fbd66fe260b10187931f31ec0c0a4da42bb2233",
+      "source": "Breville Barista Express vs La Pavoni Domus Bar | SHOWDOWN",
+      "kind": "json",
+      "context": "name"
+    }
+  ],
+  "snapshotHash": "15f646d5822b83a0e0e736683618ecbe5a3200f2396549ce63b9f96a83445c09"
+}

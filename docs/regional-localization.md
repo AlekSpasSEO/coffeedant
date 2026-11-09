@@ -4600,6 +4600,21 @@ Coverage is NL 16,433 translated and 41,493 pending, DE 16,489 translated
 and 41,437 pending, and FR 16,413 translated and 41,513 pending. Finder
 gaps are zero. Each edition has 151 non-video pages and 338 video pages left.
 
+### Direct batch 97 — La Pavoni New Domus Bar watch pages (2026-11-09)
+
+Translate both ECS COFFEE Espresso & Coffee Gear video pages for the La
+Pavoni New Domus Bar. One is a review, and the other compares it with the
+Breville Barista Express. The pages retain their distinct video embeds,
+dates, retailer attribution, and registered paths. The unfinished written
+review opens on the English site.
+
+The full snapshot freezes 496 slots. Fourteen directly translated strings
+fill 24 missing slots per edition. The source has 672 pages and 57,926
+segments. Each edition can render 184 indexable pages and a localized 404.
+Coverage is NL 16,457 translated and 41,469 pending, DE 16,513 translated
+and 41,413 pending, and FR 16,437 translated and 41,489 pending. Finder
+gaps are zero. Each edition has 151 non-video and 336 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
