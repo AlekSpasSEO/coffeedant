@@ -1,0 +1,535 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/coffee-beans/verve-buena-vista-dark-roast/",
+      "sourceHash": "3e496877943b287e965a453be1888f7abb50c940b477b0000df37dcdd8d75d30"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "ff67567c1b44f220db88bc6650edfa53481d311b5b49d168a74dfd486735c402",
+      "source": "November 9, 2026",
+      "kind": "text",
+      "context": "November 9, 2026"
+    },
+    {
+      "id": "f2f9228134056cc716e27967860e0dc27ca9392883001c1a0072364a33a06d97",
+      "source": "Check current US whole-bean price",
+      "kind": "text",
+      "context": "Check current US whole-bean price"
+    },
+    {
+      "id": "72290d4cfe90d6adfd46421a2c750078c7923f8e50dc9d6f4122182df911f4d1",
+      "source": "US direct listing checked November 9, 2026; shipping, tax and availability can change.",
+      "kind": "text",
+      "context": "US direct listing checked November 9, 2026; shipping, tax and availability can change."
+    },
+    {
+      "id": "f6ec88f91f2b48884c0d03bc8b9eaf9f9b23dac5b6765a3242e081884e865f2d",
+      "source": "Formats",
+      "kind": "text",
+      "context": "Formats"
+    },
+    {
+      "id": "3d58380a7ce3d534488b5eb2673980367b2077f391f9c54ebf7c2a219297eaec",
+      "source": "What size should I try first?",
+      "kind": "text",
+      "context": "What size should I try first?"
+    },
+    {
+      "id": "85654b83adb5b3d95d0064d944b61c463371b10fccead74a2ccd984d5b24f4fa",
+      "source": "What size should I try first?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "ebf7a346e9c30c87e6ab895db9c943904f68e157d01b0da47e6e1e528ed28fe5",
+      "source": "Variety and process",
+      "kind": "text",
+      "context": "Variety and process"
+    },
+    {
+      "id": "3fe3ed0ca97404521611b51a992339d074f9882a49a190025a19f9c5ba17d4d4",
+      "source": "Espresso start",
+      "kind": "text",
+      "context": "Espresso start"
+    },
+    {
+      "id": "9113d6e4e581d74488b86998eee05085bcafc99a18847ff8c3061b31f061bda8",
+      "source": "Verve Buena Vista Dark Roast review: a darker Colombian blend with a documented espresso start | Coffeedant",
+      "kind": "text",
+      "context": "Verve Buena Vista Dark Roast review: a darker Colombian blend with a documented espresso start | Coffeedant"
+    },
+    {
+      "id": "7f282a87e2ae0453ddff0c5c1b0e59d7769af0f08263afeae947ff1a136e4a08",
+      "source": "Research-led US whole-bean review of Verve Buena Vista Dark Roast: exact Colombian blend, roaster notes and recipes, older independent and owner evidence, freshness and value limits.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "93657c874777d10a1e06f28901e6ce2c9812810a57b94dfbef06540b2cef877d",
+      "source": "Verve Buena Vista Dark Roast review: a darker Colombian blend with a documented espresso start | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "4aaa2ec9e9bd57f2ff9de2d143ccef39f1b8b1fd09fb5ebd1453321c7effb394",
+      "source": "Verve Coffee Roasters Buena Vista Dark Roast",
+      "kind": "text",
+      "context": "Verve Coffee Roasters Buena Vista Dark Roast"
+    },
+    {
+      "id": "f11f1b8336f9f9460ba086c1cb39c7c29fcbbad45e95d676dd35d0dc0cf38fca",
+      "source": ". Verve Coffee Roasters product image for bag identification; not a Coffeedant brewing or tasting photograph.",
+      "kind": "text",
+      "context": "Image: Verve Coffee Roasters. Verve Coffee Roasters product image for bag identification; not a Coffeedant brewing or tasting photograph."
+    },
+    {
+      "id": "e1e9812129e9988412498634bde596f70400825dc466d6f040e11054dbc1cb00",
+      "source": "Verve Buena Vista Dark Roast review: a darker Colombian blend with a documented espresso start",
+      "kind": "text",
+      "context": "Verve Buena Vista Dark Roast review: a darker Colombian blend with a documented espresso start"
+    },
+    {
+      "id": "02b2b0d7c4b2baae19e4184c2e141facf7a6396567dc3fe79f998d24545caeb6",
+      "source": "I checked Verve's US listing and brew directions, an older independent bag account and a recent owner dial-in report on November 9, 2026. Coffeedant has not bought, brewed or tasted Buena Vista.",
+      "kind": "text",
+      "context": "Author noteI checked Verve's US listing and brew directions, an older independent bag account and a recent owner dial-in report on November 9, 2026. Coffeedant has not bought, brewed or tasted Buena Vista."
+    },
+    {
+      "id": "a51415c274484c9b805fe75119f3aeb8674f5c7715ac47348daeac1644ef9634",
+      "source": "A darker roaster-described chocolate direction with an explicit espresso start",
+      "kind": "text",
+      "context": "A darker roaster-described chocolate direction with an explicit espresso start"
+    },
+    {
+      "id": "de77513de4ca6aea84f01edc3de15a87e2ba2c7e50f57f721f6cbbc33e76779a",
+      "source": "A household switching between espresso and French press",
+      "kind": "text",
+      "context": "A household switching between espresso and French press"
+    },
+    {
+      "id": "85c633af25b2c0c94446af4862fd1d1069b9637dff489b3f7ee5be39bccd036e",
+      "source": "A buyer willing to verify the actual bag, roast date and US delivered total",
+      "kind": "text",
+      "context": "A buyer willing to verify the actual bag, roast date and US delivered total"
+    },
+    {
+      "id": "8b6c0018c40b314d642ce09a13d248af47521014e7d7543b8a28d8f4da25e41e",
+      "source": "You need a fixed farm, variety or processing method",
+      "kind": "text",
+      "context": "You need a fixed farm, variety or processing method"
+    },
+    {
+      "id": "24a2796d0dab22ada2d99c9d20bbc2dd31b924b7581f53797047201b3f21a487",
+      "source": "You expect a dark roast to guarantee chocolate flavor in your own cup",
+      "kind": "text",
+      "context": "You expect a dark roast to guarantee chocolate flavor in your own cup"
+    },
+    {
+      "id": "23358dd6f861bcd35d4ebd5bf87c412bbfec3342c3616c4a3e291ebc83ff3391",
+      "source": "You want a lighter, brighter espresso brief",
+      "kind": "text",
+      "context": "You want a lighter, brighter espresso brief"
+    },
+    {
+      "id": "d1b586bf946df641be32d905dc3e73eae925f1f2ff5b097aed199deda9f45b5d",
+      "source": "Verve Coffee Roasters Buena Vista Dark Roast, US whole bean",
+      "kind": "text",
+      "context": "Verve Coffee Roasters Buena Vista Dark Roast, US whole bean"
+    },
+    {
+      "id": "e95d91dfaa4efe8e3d82d6751274450549b3809f1e3e1768299475d97db006c4",
+      "source": "Dark, 8/10 according to Verve",
+      "kind": "text",
+      "context": "Dark, 8/10 according to Verve"
+    },
+    {
+      "id": "e491ddfd2236a6e0b258a4f2d19b4d10e4c01119d5adb0f8f20a12a9ad3af753",
+      "source": "Southern Colombia according to Verve; constituent farms not specified",
+      "kind": "text",
+      "context": "Southern Colombia according to Verve; constituent farms not specified"
+    },
+    {
+      "id": "2022813401519d033e8301e75e4bbf23a10b1f56ae44cba5bb13939a9ddb9728",
+      "source": "Chocolate, red apple and maple; dark chocolate/caramelized sweetness in product prose",
+      "kind": "text",
+      "context": "Chocolate, red apple and maple; dark chocolate/caramelized sweetness in product prose"
+    },
+    {
+      "id": "4ddb857f3f5c8279c09ad8227b07bc71d396c94a5727868b3e325360f6e0c10f",
+      "source": "Verve: 18.7–19 g in, 33–36 g out, 23–27 seconds; not Coffeedant measured",
+      "kind": "text",
+      "context": "Verve: 18.7–19 g in, 33–36 g out, 23–27 seconds; not Coffeedant measured"
+    },
+    {
+      "id": "2c7d3100d1d87ee2a8f5e755f998b57aac1952d1ec32a1207c1fe9d5b965bef1",
+      "source": "6 oz, 12 oz, 2.2 lb and 5 lb selectors observed; verify whole-bean choice",
+      "kind": "text",
+      "context": "6 oz, 12 oz, 2.2 lb and 5 lb selectors observed; verify whole-bean choice"
+    },
+    {
+      "id": "7056b4e2f8e27f983f718f52a88c17f8cc11f200412bfa053e49564ed1fcb601",
+      "source": "A Southern Colombian dark blend with unknown varieties",
+      "kind": "text",
+      "context": "A Southern Colombian dark blend with unknown varieties"
+    },
+    {
+      "id": "0eb1762592348072b6738da26659c9fe488eebe1cd74384bde97aa279f5556f5",
+      "source": "Verve’s chocolate note is a buying cue",
+      "kind": "text",
+      "context": "Verve’s chocolate note is a buying cue"
+    },
+    {
+      "id": "8acb01aacf847a4e2a5f34cd3dd7b750e66811bc2a168615cdd81fd4fbaa7d6f",
+      "source": "Start espresso at Verve’s dose and yield",
+      "kind": "text",
+      "context": "Start espresso at Verve’s dose and yield"
+    },
+    {
+      "id": "5b7b3d5bd0fbb1a8159ad27515ab8103ba7233d69980800b379148f7873626f4",
+      "source": "Test 6 or 12 ounces before bulk",
+      "kind": "text",
+      "context": "Test 6 or 12 ounces before bulk"
+    },
+    {
+      "id": "f070bb1774f4aa8cbe7b752013c8e5e1f3d48615c706453a035a86d2accde7fa",
+      "source": "Compare the delivered US whole-bean order",
+      "kind": "text",
+      "context": "Compare the delivered US whole-bean order"
+    },
+    {
+      "id": "b488132695904b38d941847de807c582f530c556f09c7e987dbb846e4c57e202",
+      "source": "Check the darker brief in your everyday drink",
+      "kind": "text",
+      "context": "Check the darker brief in your everyday drink"
+    },
+    {
+      "id": "ad2dd964a587f21ca11c148ff297708314b2f02ced1a6ff62b6bb056b167e30d",
+      "source": "Streetlevel and Bronson shift the roast direction",
+      "kind": "text",
+      "context": "Streetlevel and Bronson shift the roast direction"
+    },
+    {
+      "id": "4a77110688c1d8865d5dc9618bf7b85ca171e36d366012d23782e2ab43dc07d6",
+      "source": "Buena Vista Dark Roast is Verve's named blend, not its separate Streetlevel or French Roast. The current US product page calls it dark roast at 8/10 and places the blend in Southern Colombia. It does not give a fixed farm list, variety or processing method for the complete bag. A 2016 review's older package copy should not replace today's listing when identifying the current coffee.",
+      "kind": "text",
+      "context": "Buena Vista Dark Roast is Verve's named blend, not its separate Streetlevel or French Roast. The current US product page calls it dark roast at 8/10 and places the blend in Southern Colombia. It does not give a fixed farm list, variety or processing method for the complete bag. A 2016 review's older package copy should not replace today's listing when identifying the current coffee. [1] [2]"
+    },
+    {
+      "id": "bc00b8500bdf3b23843d3a2cea876983acc31914112a01cdc448c72d4736876d",
+      "source": "Verve's package image identifies the line; it cannot establish the roast date or exact beans you receive. The site says it roasts orders to order and ships within two business days, but check the date on the delivered whole-bean bag rather than inferring it from that general policy.",
+      "kind": "text",
+      "context": "Verve's package image identifies the line; it cannot establish the roast date or exact beans you receive. The site says it roasts orders to order and ships within two business days, but check the date on the delivered whole-bean bag rather than inferring it from that general policy. [1]"
+    },
+    {
+      "id": "376a9163cecc445740752a3f82396df9526322da65fe10302be42b6db3612d30",
+      "source": "Chocolate, red apple and maple are Verve's current package descriptors; its product copy adds dark chocolate and caramelized sweetness. These are roaster claims, not ingredients or flavors Coffeedant has verified by tasting. The darker roast and full-body brief make a coherent comparison for someone who wants a less fruit-led espresso than Sermon.",
+      "kind": "text",
+      "context": "Chocolate, red apple and maple are Verve's current package descriptors; its product copy adds dark chocolate and caramelized sweetness. These are roaster claims, not ingredients or flavors Coffeedant has verified by tasting. The darker roast and full-body brief make a coherent comparison for someone who wants a less fruit-led espresso than Sermon. [1] [5]"
+    },
+    {
+      "id": "37ce9ded742f12b015b5895c153ed192e9469089b6a87dc0a8a5645ed949e80c",
+      "source": "Emily Preston's 2016 home sample favored French press over Chemex, but she did not clearly find the then-advertised dark-chocolate note. That personal result usefully cautions against treating a flavor word as a guarantee. Its different era, recipe and bag cannot measure the current Southern Colombian blend.",
+      "kind": "text",
+      "context": "Emily Preston's 2016 home sample favored French press over Chemex, but she did not clearly find the then-advertised dark-chocolate note. That personal result usefully cautions against treating a flavor word as a guarantee. Its different era, recipe and bag cannot measure the current Southern Colombian blend. [2]"
+    },
+    {
+      "id": "bb32bdca152bc784d50cac99d3a9f01e466517edc00eee791ca9dc4a265b4b0d",
+      "source": "Verve publishes an espresso starting dose of 18.7–19 g and 33–36 g beverage in 23–27 seconds. Use it only if the basket can hold that dose, then adjust grind and yield to the actual beans and equipment. The page separately gives Dwell 20 g to 300 g water and French press 35 g to 525 g. These are three different method starts, not Coffeedant extractions.",
+      "kind": "text",
+      "context": "Verve publishes an espresso starting dose of 18.7–19 g and 33–36 g beverage in 23–27 seconds. Use it only if the basket can hold that dose, then adjust grind and yield to the actual beans and equipment. The page separately gives Dwell 20 g to 300 g water and French press 35 g to 525 g. These are three different method starts, not Coffeedant extractions. [1]"
+    },
+    {
+      "id": "a56c521cae1213c2220e4d58aa61b91fe3e2cbca242e34a5939f6b0a7c9b1b21",
+      "source": "A 2026 owner using a Bambino Plus and Encore ESP reported sour or thin shots with Buena Vista and Streetlevel despite several changes. That is a setup-specific report, not evidence that every bag behaves alike. It supports recording dose, yield and grind before changing variables, and trying the roaster's current start instead of assuming dark roast automatically fixes a difficult shot.",
+      "kind": "text",
+      "context": "A 2026 owner using a Bambino Plus and Encore ESP reported sour or thin shots with Buena Vista and Streetlevel despite several changes. That is a setup-specific report, not evidence that every bag behaves alike. It supports recording dose, yield and grind before changing variables, and trying the roaster's current start instead of assuming dark roast automatically fixes a difficult shot. [3]"
+    },
+    {
+      "id": "d7b9413c930436ac244cd4224916194de64f9f49d2fc23d752ca0005aa918ea8",
+      "source": "The live listing offered 6 oz, 12 oz, 2.2 lb and 5 lb selectors. Check whether the chosen size is whole bean, then consider a 6 or 12 oz first order before a bulk commitment. A large bag is only a saving if the household finishes it within the freshness window it likes.",
+      "kind": "text",
+      "context": "The live listing offered 6 oz, 12 oz, 2.2 lb and 5 lb selectors. Check whether the chosen size is whole bean, then consider a 6 or 12 oz first order before a bulk commitment. A large bag is only a saving if the household finishes it within the freshness window it likes. [1]"
+    },
+    {
+      "id": "b024eb55c0626c25885e46ca4e992527c7198df578d20e1869af0e2db724691b",
+      "source": "Store opened beans sealed away from heat and moisture and grind close to brewing. General freshness guidance does not prove a universal peak day for Buena Vista; shipping, package seal and your drinking pace affect the useful decision. Check the actual date and condition on arrival.",
+      "kind": "text",
+      "context": "Store opened beans sealed away from heat and moisture and grind close to brewing. General freshness guidance does not prove a universal peak day for Buena Vista; shipping, package seal and your drinking pace affect the useful decision. Check the actual date and condition on arrival. [4]"
+    },
+    {
+      "id": "e25ed7a8792a71e500654c57612787234173096a513b00cc382421c420435534",
+      "source": "At this check the product page showed $22 with the 12 oz one-time option, before any tax or shipping. That is a dated direct-store observation rather than a standing offer or a verified delivered total. This review uses check-price language because the selected size, grind choice, checkout and current stock may change.",
+      "kind": "text",
+      "context": "At this check the product page showed $22 with the 12 oz one-time option, before any tax or shipping. That is a dated direct-store observation rather than a standing offer or a verified delivered total. This review uses check-price language because the selected size, grind choice, checkout and current stock may change. [1]"
+    },
+    {
+      "id": "dace75e0ef7e13648c8c1e8aaf476671a8acb972b2bf5a122f3c306a956d481a",
+      "source": "Compare the exact whole-bean mass and roast date. The product's value is strongest if you use the published espresso start or want its darker press direction; paying for a five-pound bag before confirming either is a preference gamble. The 2016 reviewer’s approximate $15 price is historical and should not be used as a present comparison.",
+      "kind": "text",
+      "context": "Compare the exact whole-bean mass and roast date. The product's value is strongest if you use the published espresso start or want its darker press direction; paying for a five-pound bag before confirming either is a preference gamble. The 2016 reviewer’s approximate $15 price is historical and should not be used as a present comparison. [1] [2]"
+    },
+    {
+      "id": "451f059e5cafe2811ae80e7c6208336514c6d2ea503849484a13858fe4c09780",
+      "source": "Use Verve’s published espresso dose and yield if your basket accepts it, then judge the shot and your normal milk serving separately. For press, keep the roaster’s press ratio apart from the espresso recipe. A small bag answers whether Buena Vista’s darker direction suits you before you try to economize with 2.2 or five pounds. If the roast direction is the mismatch, compare Streetlevel rather than repeatedly forcing this bag to taste lighter.",
+      "kind": "text",
+      "context": "Use Verve’s published espresso dose and yield if your basket accepts it, then judge the shot and your normal milk serving separately. For press, keep the roaster’s press ratio apart from the espresso recipe. A small bag answers whether Buena Vista’s darker direction suits you before you try to economize with 2.2 or five pounds. If the roast direction is the mismatch, compare Streetlevel rather than repeatedly forcing this bag to taste lighter."
+    },
+    {
+      "id": "cf0767c359952a0a5d1672be203b415702f0c2b13434e0d89e5f2fc2b051c5e4",
+      "source": "Verve Streetlevel has a different daily-espresso brief and is a better comparison if Buena Vista's 8/10 roast direction sounds too developed. Verve Bronson French Roast moves the other way for a buyer intentionally seeking a still darker roaster profile. Neither is a measured Coffeedant taste ranking against Buena Vista.",
+      "kind": "text",
+      "context": "Verve Streetlevel has a different daily-espresso brief and is a better comparison if Buena Vista's 8/10 roast direction sounds too developed. Verve Bronson French Roast moves the other way for a buyer intentionally seeking a still darker roaster profile. Neither is a measured Coffeedant taste ranking against Buena Vista. [5] [6]"
+    },
+    {
+      "id": "af2eb698611f57e322f8fbaa74110e892e3bc71158615eb10ecbed2a4b5d952f",
+      "source": "Choose Buena Vista when the darker Colombian brief and its explicit espresso dose and yield answer your main question. If you need a named single-origin lot or a transparent process, choose a different current coffee whose bag specifies it. A blend label alone does not supply those details.",
+      "kind": "text",
+      "context": "Choose Buena Vista when the darker Colombian brief and its explicit espresso dose and yield answer your main question. If you need a named single-origin lot or a transparent process, choose a different current coffee whose bag specifies it. A blend label alone does not supply those details. [1]"
+    },
+    {
+      "id": "b5dd4849ca6ec8c423687d11a045b492a030ff64a37190a72ce6f8bd3f935391",
+      "source": "a less dark same-roaster daily espresso direction",
+      "kind": "text",
+      "context": "a less dark same-roaster daily espresso direction"
+    },
+    {
+      "id": "7368172b48bd4607f0214749b41c19ce67d0529bced386aae16d58d9859aff36",
+      "source": "Verve Sermon",
+      "kind": "text",
+      "context": "Verve Sermon"
+    },
+    {
+      "id": "4a60f911b13e4c76bbaf18c15b2767d49c5d0e7410a3da056e93a1aa841e90a3",
+      "source": "a berry-accented espresso alternative from Verve",
+      "kind": "text",
+      "context": "a berry-accented espresso alternative from Verve"
+    },
+    {
+      "id": "68baeff8323856f35433b884837128b954a3d35cf58c55aa4114e57178318c02",
+      "source": "Verve Bronson French Roast",
+      "kind": "text",
+      "context": "Verve Bronson French Roast"
+    },
+    {
+      "id": "c0f090cdefa5ac35bab3c59efe89de2a9adc54a89ea6bc32abb16cf5f5402135",
+      "source": "a more developed roast when that is the specific preference",
+      "kind": "text",
+      "context": "a more developed roast when that is the specific preference"
+    },
+    {
+      "id": "b51fc9b08d618d8f48e991603552d0a2ba0ad76234c43dd6262ea60fd5236d56",
+      "source": "I compared Verve's current product and recipe page with Emily Preston's much older personal sample and a specific 2026 owner dial-in discussion. Coffeedant has not bought, brewed, tasted or measured this coffee; the chocolate/red-apple/maple words belong to Verve. No numeric sensory score is assigned.",
+      "kind": "text",
+      "context": "I compared Verve's current product and recipe page with Emily Preston's much older personal sample and a specific 2026 owner dial-in discussion. Coffeedant has not bought, brewed, tasted or measured this coffee; the chocolate/red-apple/maple words belong to Verve. No numeric sensory score is assigned."
+    },
+    {
+      "id": "6566f7ebd4132b117d06e951c516df9a2354e2f49c1d2095af5ee326b5269509",
+      "source": "Sources checked November 9, 2026. The delivered blend, roast date, selected whole-bean pack and US checkout can differ from the listing observation.",
+      "kind": "text",
+      "context": "Sources checked November 9, 2026. The delivered blend, roast date, selected whole-bean pack and US checkout can differ from the listing observation."
+    },
+    {
+      "id": "0356d88611e5e793094d6747e59ae6ed44d74f0ca1f65f0cd30cec4b95d95c4c",
+      "source": "Buena Vista Dark Roast FAQ",
+      "kind": "text",
+      "context": "Buena Vista Dark Roast FAQ"
+    },
+    {
+      "id": "b6143ddf27fc6555df883593c532409e899bfbd2c114d6d7b3ae644f7a7c4ae0",
+      "source": "Is Buena Vista a single-origin coffee?",
+      "kind": "text",
+      "context": "Is Buena Vista a single-origin coffee?"
+    },
+    {
+      "id": "202824729a7bcd8824320fa1476a900aeb6f1ff34579c7459a220b1cc12fb5a7",
+      "source": "No. Verve calls it a blend and identifies Southern Colombia, but does not publish a fixed farm, variety or process for the complete current bag.",
+      "kind": "text",
+      "context": "No. Verve calls it a blend and identifies Southern Colombia, but does not publish a fixed farm, variety or process for the complete current bag."
+    },
+    {
+      "id": "80b0d920eedf52af5285bb3acc689796170c74fe2b5d6c2a11a39a8d69c78069",
+      "source": "Yes. Verve publishes an 18.7–19 g dose to 33–36 g beverage in 23–27 seconds as a starting point. Basket capacity and the delivered bag still require dial-in.",
+      "kind": "text",
+      "context": "Yes. Verve publishes an 18.7–19 g dose to 33–36 g beverage in 23–27 seconds as a starting point. Basket capacity and the delivered bag still require dial-in."
+    },
+    {
+      "id": "38b08dfc32672902b61221af014a5fc6b62122623b99415739c9e008434a5d94",
+      "source": "Did Coffeedant taste Buena Vista?",
+      "kind": "text",
+      "context": "Did Coffeedant taste Buena Vista?"
+    },
+    {
+      "id": "b9a3b4268ca3cbbd192f0d119cd52e45411dc3911fc2d7d49b73bff055e862ce",
+      "source": "No. This review compares current roaster facts with an older independent home account and one setup-specific owner report. It makes no sensory score or testing claim.",
+      "kind": "text",
+      "context": "No. This review compares current roaster facts with an older independent home account and one setup-specific owner report. It makes no sensory score or testing claim."
+    },
+    {
+      "id": "75f010c066233bc1a38482a1bfb82e5def8d96862d516c25abc8a8fbede97df9",
+      "source": "If currently available as whole bean, a 6 or 12 oz pack is a smaller preference trial than 2.2 lb or 5 lb. Check roast date, stock and US delivered total.",
+      "kind": "text",
+      "context": "If currently available as whole bean, a 6 or 12 oz pack is a smaller preference trial than 2.2 lb or 5 lb. Check roast date, stock and US delivered total."
+    },
+    {
+      "id": "3269f55b369f56c075f47a83677e84a046da8508802fa82596e7af682b8fb8ad",
+      "source": "Verve Buena Vista Dark Roast US product and brew record",
+      "kind": "text",
+      "context": "Verve Buena Vista Dark Roast US product and brew record ↗"
+    },
+    {
+      "id": "785b122087cab69e79729ab19e38d0a923ac1fcd02f43523ffeaaf3e6390a255",
+      "source": "Exact identity, 8/10 roast, Southern Colombian description, notes, sizes, dated 12 oz display and method-specific recipes. Checked 2026-11-09.",
+      "kind": "text",
+      "context": "Exact identity, 8/10 roast, Southern Colombian description, notes, sizes, dated 12 oz display and method-specific recipes. Checked 2026-11-09."
+    },
+    {
+      "id": "c209ec642ebf170beb6c0e7a6b794a2906f3ca4e6a5609a26f4b3bbb023975f8",
+      "source": "Emily Preston: Buena Vista home review",
+      "kind": "text",
+      "context": "Emily Preston: Buena Vista home review ↗"
+    },
+    {
+      "id": "bf9743914b4cb221b97026e502c5132bbd6d1288a68464386182e2a5059b985c",
+      "source": "Independent 2016 Chemex and French press sample; historical bag and price, not current-lot evidence. Checked 2026-11-09.",
+      "kind": "text",
+      "context": "Independent 2016 Chemex and French press sample; historical bag and price, not current-lot evidence. Checked 2026-11-09."
+    },
+    {
+      "id": "f8a77740376d4487fb6538b21a915bc0aad54b40d00c71afb971c05a2ac76d5b",
+      "source": "r/espresso Buena Vista dial-in report",
+      "kind": "text",
+      "context": "r/espresso Buena Vista dial-in report ↗"
+    },
+    {
+      "id": "83068c7b0384f563c31a6af7f0e931aa1ba99b2637111ea7cb8e3b0be7476b67",
+      "source": "One self-selected Bambino Plus/Encore ESP owner result; no general quality or defect rate. Checked 2026-11-09.",
+      "kind": "text",
+      "context": "One self-selected Bambino Plus/Encore ESP owner result; no general quality or defect rate. Checked 2026-11-09."
+    },
+    {
+      "id": "5dee02a209bde5559022c87ebc615992c6306912728a520a47b690554a1504cc",
+      "source": "General whole-bean handling; not Buena Vista-specific freshness measurement. Checked 2026-11-09.",
+      "kind": "text",
+      "context": "General whole-bean handling; not Buena Vista-specific freshness measurement. Checked 2026-11-09."
+    },
+    {
+      "id": "7818e1f758bb9ae7940ea148759c0cddda5e90bde5c2f0d699d4f525759e1b73",
+      "source": "Coffeedant Verve Sermon review",
+      "kind": "text",
+      "context": "Coffeedant Verve Sermon review ↗"
+    },
+    {
+      "id": "43b4987a44b19db20dc400faf5f471046aa62bed4f2c3664aae3f3a3033c8ac6",
+      "source": "Existing research-led exact bean comparison for a fruit-led direction. Checked 2026-11-09.",
+      "kind": "text",
+      "context": "Existing research-led exact bean comparison for a fruit-led direction. Checked 2026-11-09."
+    },
+    {
+      "id": "677af1eb282cc0e7c24ca346c9e1b3572b5ade447caccb999544051d3961aea3",
+      "source": "Verve Bronson French Roast product record",
+      "kind": "text",
+      "context": "Verve Bronson French Roast product record ↗"
+    },
+    {
+      "id": "945f5f1f72cff79be40e3299c4c716c5ede2d4372a5896fbcad4dbe9414cd575",
+      "source": "Official alternative for a darker roast; check current whole-bean format before purchase. Checked 2026-11-09.",
+      "kind": "text",
+      "context": "Official alternative for a darker roast; check current whole-bean format before purchase. Checked 2026-11-09."
+    },
+    {
+      "id": "3132478bf25fee9b89231b805c1e246a7f66f68fe744c593a42128b3b42cf391",
+      "source": "Coffeedant Verve Streetlevel review",
+      "kind": "text",
+      "context": "Coffeedant Verve Streetlevel review ↗"
+    },
+    {
+      "id": "2739a1dc6d5e4662782a80cba9dccbf2a807686b60d052b59e7ecb4b00dd28c9",
+      "source": "Existing same-roaster espresso comparison for a different roast brief. Checked 2026-11-09.",
+      "kind": "text",
+      "context": "Existing same-roaster espresso comparison for a different roast brief. Checked 2026-11-09."
+    },
+    {
+      "id": "563f910b177c7ccb198a70d18a857cc2a591f73ddaf65a83b9b0a1dee2c20c15",
+      "source": "Choose the darker bag for a defined reason",
+      "kind": "text",
+      "context": "Choose the darker bag for a defined reason"
+    },
+    {
+      "id": "ba9f6a18c8c0fecb0179337e6d92967d7a24d0328d35bb9abd7765e6434979e1",
+      "source": "Buena Vista is a practical trial when Verve’s dark Colombian brief and explicit espresso start match your routine. Its chocolate note is not a guaranteed tasting result. Check the delivered whole-bean format and roast date, then compare Streetlevel for a lighter direction or Bronson for a more developed one.",
+      "kind": "text",
+      "context": "Buena Vista is a practical trial when Verve’s dark Colombian brief and explicit espresso start match your routine. Its chocolate note is not a guaranteed tasting result. Check the delivered whole-bean format and roast date, then compare Streetlevel for a lighter direction or Bronson for a more developed one."
+    },
+    {
+      "id": "b13f2dac010e674829a29636d4ccca5e737d57f51aac699014e06350f4896eef",
+      "source": "Check Buena Vista Dark Roast at the roaster",
+      "kind": "text",
+      "context": "Check Buena Vista Dark Roast at the roaster ↗"
+    },
+    {
+      "id": "e4dffca081e4a81bba90e514fceb406b09bea5eb9b064d5983ca380ce3b8f463",
+      "source": "Verve Coffee Roasters product image for bag identification; not a Coffeedant brewing or tasting photograph.",
+      "kind": "json",
+      "context": "creditText"
+    },
+    {
+      "id": "3017fbeb3a4d5690452117161e145dd01f7721db37b62d373c2d20ee497dc026",
+      "source": "Verve Coffee Roasters Buena Vista Dark Roast",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "35eda91754ee18669f7c427ca8ca1b080a1bab8cf38590397268f97c240ac74a",
+      "source": "Research-led US whole-bean review of Verve Buena Vista Dark Roast: exact Colombian blend, roaster notes and recipes, older independent and owner evidence, freshness and value limits.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "713e9c4a331b26b20aaca7c4ac5e368652ebcfcb7f2adea203d04c77cf056641",
+      "source": "Verve Buena Vista Dark Roast review: a darker Colombian blend with a documented espresso start",
+      "kind": "json",
+      "context": "headline"
+    },
+    {
+      "id": "9494959ac67591a24a7924ce8cd395671499d4e905e891c0638069976926cdea",
+      "source": "Is Buena Vista a single-origin coffee?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "0c339c173b29e9b0fd18267040cc5708338db2804bc9cffd47327f2eba84bfa8",
+      "source": "No. Verve calls it a blend and identifies Southern Colombia, but does not publish a fixed farm, variety or process for the complete current bag.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "dcf6d42a681345b8fda0a7a7ac689973ee822ad2205131f188b8cd42f8257516",
+      "source": "Yes. Verve publishes an 18.7–19 g dose to 33–36 g beverage in 23–27 seconds as a starting point. Basket capacity and the delivered bag still require dial-in.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "436ded28a96110411686de5a3480d63c460fda47f54161eb48a0ede257268d2d",
+      "source": "Did Coffeedant taste Buena Vista?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "6d4d5d3b4a661b61ca2b151001b373c289a88f1af7ba90ca35180c76f20e9f2b",
+      "source": "No. This review compares current roaster facts with an older independent home account and one setup-specific owner report. It makes no sensory score or testing claim.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "7b4746ed305de2e03a3f9a9121f199dbf65d077def818b4d889f39b916685ecb",
+      "source": "If currently available as whole bean, a 6 or 12 oz pack is a smaller preference trial than 2.2 lb or 5 lb. Check roast date, stock and US delivered total.",
+      "kind": "json",
+      "context": "text"
+    }
+  ],
+  "snapshotHash": "f77b75401d67cbca736cc249065cfb7cc8f667fba802aa687996216a80516a2b"
+}

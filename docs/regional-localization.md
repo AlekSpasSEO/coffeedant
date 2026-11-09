@@ -4631,6 +4631,26 @@ Coverage is NL 16,483 translated and 41,443 pending, DE 16,539 translated
 and 41,387 pending, and FR 16,463 translated and 41,463 pending. Finder
 gaps are zero. Each edition has 151 non-video and 334 video pages left.
 
+### Direct batch 99 — Verve Buena Vista Dark Roast review (2026-11-09)
+
+Translate the complete review in Dutch, German and French, including all
+44 paragraphs, four visible and structured FAQ answers, photo credits,
+source notes and metadata. Preserve Verve’s method-specific recipes, the
+dated US direct-store observations and the distinction between the roaster’s
+notes, outside evidence and Coffeedant’s research. The review links to the
+existing local Sermon and Streetlevel reviews. The regional bean hubs link
+to the new native page.
+
+The final source snapshot freezes 605 slots. The missing snapshot freezes 87
+slots; exact-source reuse adds 88 current cache entries per edition, including
+the title in generated structured data, with no edits to earlier translations
+or routes. The source has
+672 pages and 57,926 segments. Each edition can render 187 indexable pages
+and a localized 404. Coverage is NL 16,571 translated and 41,355 pending,
+DE 16,627 translated and 41,299 pending, and FR 16,551 translated and 41,375
+pending. Finder gaps are zero. Each edition has 150 non-video and 334
+video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

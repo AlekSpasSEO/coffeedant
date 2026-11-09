@@ -1,0 +1,394 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "verve-buena-vista-batch-99.source.json",
+  "snapshotHash": "f77b75401d67cbca736cc249065cfb7cc8f667fba802aa687996216a80516a2b",
+  "routes": {
+    "nl": {
+      "/coffee-beans/verve-buena-vista-dark-roast/": "/koffiebonen/verve-buena-vista-dark-roast/"
+    },
+    "de": {
+      "/coffee-beans/verve-buena-vista-dark-roast/": "/kaffeebohnen/verve-buena-vista-dark-roast/"
+    },
+    "fr": {
+      "/coffee-beans/verve-buena-vista-dark-roast/": "/cafe-en-grains/verve-buena-vista-dark-roast/"
+    }
+  },
+  "preserveSource": [
+    11,
+    48,
+    50
+  ],
+  "translations": {
+    "0": {
+      "nl": "9 november 2026",
+      "de": "9. November 2026",
+      "fr": "9 novembre 2026"
+    },
+    "1": {
+      "nl": "Bekijk de actuele Amerikaanse prijs voor hele bonen",
+      "de": "Aktuellen US-Preis für ganze Bohnen prüfen",
+      "fr": "Voir le prix actuel du café en grains aux États-Unis"
+    },
+    "2": {
+      "nl": "De rechtstreekse verkoopvermelding voor de VS is gecontroleerd op 9 november 2026; verzendkosten, belastingen en beschikbaarheid kunnen veranderen.",
+      "de": "Das US-Direktangebot wurde am 9. November 2026 geprüft; Versandkosten, Steuern und Verfügbarkeit können sich ändern.",
+      "fr": "Fiche de vente directe aux États-Unis consultée le 9 novembre 2026 ; les frais de port, les taxes et la disponibilité peuvent changer."
+    },
+    "3": {
+      "nl": "Verpakkingsformaten",
+      "de": "Packungsgrößen",
+      "fr": "Formats des sachets"
+    },
+    "4": {
+      "nl": "Welk formaat kan ik het beste eerst proberen?",
+      "de": "Welche Packungsgröße sollte ich zuerst probieren?",
+      "fr": "Quel format essayer en premier ?"
+    },
+    "6": {
+      "nl": "Variëteit en verwerking",
+      "de": "Varietät und Aufbereitung",
+      "fr": "Variété et traitement"
+    },
+    "7": {
+      "nl": "Uitgangspunt voor espresso",
+      "de": "Startrezept für Espresso",
+      "fr": "Recette de départ pour l’espresso"
+    },
+    "8": {
+      "nl": "Review van Verve Buena Vista Dark Roast: een donkerdere Colombiaanse melange met een gedocumenteerd espressorecept | Coffeedant",
+      "de": "Verve Buena Vista Dark Roast im Testbericht: eine dunklere kolumbianische Mischung mit dokumentiertem Espresso-Startrezept | Coffeedant",
+      "fr": "Avis sur Verve Buena Vista Dark Roast : un assemblage colombien plus foncé et une recette d’espresso documentée | Coffeedant"
+    },
+    "9": {
+      "nl": "Een op bronnen gebaseerde review van Verve Buena Vista Dark Roast als hele bonen voor de Amerikaanse markt: de specifieke Colombiaanse melange, smaaknotities en recepten van de brander, een oudere onafhankelijke ervaring en een gebruikersverslag, plus de beperkingen rond versheid en prijs-kwaliteit.",
+      "de": "Quellengestützter Bericht über Verve Buena Vista Dark Roast als ganze Bohnen für den US-Markt: die konkrete kolumbianische Mischung, Noten und Rezepte der Rösterei, ein älterer unabhängiger Bericht und ein Erfahrungsbericht eines Käufers sowie Grenzen bei Frische und Preis-Leistung.",
+      "fr": "Avis fondé sur des sources sur le café en grains Verve Buena Vista Dark Roast vendu aux États-Unis : assemblage colombien précis, notes et recettes du torréfacteur, témoignage indépendant plus ancien et retour d’un utilisateur, limites concernant la fraîcheur et le rapport qualité-prix."
+    },
+    "12": {
+      "nl": ". Productfoto van Verve Coffee Roasters om de verpakking te herkennen; geen foto van een bereiding of proeverij door Coffeedant.",
+      "de": ". Produktbild von Verve Coffee Roasters zur Identifikation der Packung; kein Foto einer Zubereitung oder Verkostung durch Coffeedant.",
+      "fr": ". Photo du produit fournie par Verve Coffee Roasters pour identifier le sachet ; elle ne montre ni préparation ni dégustation par Coffeedant."
+    },
+    "13": {
+      "nl": "Review van Verve Buena Vista Dark Roast: een donkerdere Colombiaanse melange met een gedocumenteerd espressorecept",
+      "de": "Verve Buena Vista Dark Roast im Testbericht: eine dunklere kolumbianische Mischung mit dokumentiertem Espresso-Startrezept",
+      "fr": "Avis sur Verve Buena Vista Dark Roast : un assemblage colombien plus foncé et une recette d’espresso documentée"
+    },
+    "14": {
+      "nl": "Op 9 november 2026 heb ik de Amerikaanse productpagina en zetinstructies van Verve, een ouder onafhankelijk verslag over een zak van deze koffie en een recent verslag van een gebruiker over het afstellen van espresso bekeken. Coffeedant heeft Buena Vista niet gekocht, gezet of geproefd.",
+      "de": "Am 9. November 2026 habe ich Verves US-Produktseite und Zubereitungshinweise, einen älteren unabhängigen Bericht über eine Packung und einen aktuellen Erfahrungsbericht zum Einstellen des Espressos geprüft. Coffeedant hat Buena Vista weder gekauft noch zubereitet oder verkostet.",
+      "fr": "Le 9 novembre 2026, j’ai consulté la fiche américaine et les instructions de préparation de Verve, un ancien compte rendu indépendant sur un sachet de ce café et un témoignage récent sur le réglage de l’espresso. Coffeedant n’a ni acheté, ni préparé, ni goûté Buena Vista."
+    },
+    "15": {
+      "nl": "Een donkerder profiel met chocoladetonen volgens de brander en een concreet uitgangspunt voor espresso",
+      "de": "Ein dunkleres Profil mit Schokoladennote laut Rösterei und einem konkreten Startrezept für Espresso",
+      "fr": "Un profil plus foncé aux notes de chocolat selon le torréfacteur, avec une recette de départ précise pour l’espresso"
+    },
+    "16": {
+      "nl": "Een huishouden dat afwisselt tussen espresso en de cafetière",
+      "de": "Ein Haushalt, der zwischen Espresso und French Press wechselt",
+      "fr": "Un foyer qui alterne entre espresso et cafetière à piston"
+    },
+    "17": {
+      "nl": "Een koper die de geleverde zak, de branddatum en het totaalbedrag inclusief bezorging in de VS wil controleren",
+      "de": "Käufer, die die gelieferte Packung, das Röstdatum und den Gesamtpreis inklusive US-Versand prüfen möchten",
+      "fr": "Un acheteur prêt à vérifier le sachet reçu, la date de torréfaction et le prix total livré aux États-Unis"
+    },
+    "18": {
+      "nl": "Je hebt een vaste boerderij, variëteit of verwerkingsmethode nodig",
+      "de": "Sie benötigen einen fest benannten Betrieb, eine Varietät oder eine Aufbereitungsmethode",
+      "fr": "Vous recherchez une exploitation, une variété ou une méthode de traitement bien définie"
+    },
+    "19": {
+      "nl": "Je verwacht dat een donkere branding gegarandeerd naar chocolade smaakt in je eigen kopje",
+      "de": "Sie erwarten, dass eine dunkle Röstung in Ihrer Tasse garantiert nach Schokolade schmeckt",
+      "fr": "Vous attendez d’une torréfaction foncée qu’elle garantisse un goût de chocolat dans votre tasse"
+    },
+    "20": {
+      "nl": "Je wilt een lichtere, frissere espresso",
+      "de": "Sie möchten einen leichteren, lebhafteren Espresso",
+      "fr": "Vous recherchez un espresso plus léger et plus vif"
+    },
+    "21": {
+      "nl": "Verve Coffee Roasters Buena Vista Dark Roast, hele bonen voor de VS",
+      "de": "Verve Coffee Roasters Buena Vista Dark Roast, ganze Bohnen für den US-Markt",
+      "fr": "Verve Coffee Roasters Buena Vista Dark Roast, café en grains vendu aux États-Unis"
+    },
+    "22": {
+      "nl": "Donker, 8/10 volgens Verve",
+      "de": "Dunkel, 8/10 laut Verve",
+      "fr": "Foncée, 8/10 selon Verve"
+    },
+    "23": {
+      "nl": "Zuid-Colombia volgens Verve; de afzonderlijke boerderijen zijn niet vermeld",
+      "de": "Südkolumbien laut Verve; die beteiligten Betriebe werden nicht genannt",
+      "fr": "Sud de la Colombie selon Verve ; les exploitations ne sont pas précisées"
+    },
+    "24": {
+      "nl": "Chocolade, rode appel en esdoorn; pure chocolade en gekaramelliseerde zoetheid in de productbeschrijving",
+      "de": "Schokolade, roter Apfel und Ahorn; dunkle Schokolade und karamellisierte Süße in der Produktbeschreibung",
+      "fr": "Chocolat, pomme rouge et érable ; chocolat noir et douceur caramélisée dans le descriptif du produit"
+    },
+    "25": {
+      "nl": "Verve: 18.7–19 g in, 33–36 g espresso uit, 23–27 seconden; niet gemeten door Coffeedant",
+      "de": "Verve: 18.7–19 g Kaffeemehl, 33–36 g Espresso in 23–27 Sekunden; nicht von Coffeedant gemessen",
+      "fr": "Verve : 18.7–19 g de café, 33–36 g en tasse, 23–27 secondes ; valeurs non mesurées par Coffeedant"
+    },
+    "26": {
+      "nl": "Keuzeopties van 6 oz, 12 oz, 2.2 lb en 5 lb gezien; controleer of je hele bonen kiest",
+      "de": "Auswahloptionen für 6 oz, 12 oz, 2.2 lb und 5 lb gesehen; prüfen Sie die Auswahl für ganze Bohnen",
+      "fr": "Formats de 6 oz, 12 oz, 2.2 lb et 5 lb affichés ; vérifier l’option café en grains"
+    },
+    "27": {
+      "nl": "Een donkere melange uit Zuid-Colombia met onbekende variëteiten",
+      "de": "Eine dunkle Mischung aus Südkolumbien mit unbekannten Varietäten",
+      "fr": "Un assemblage foncé du sud de la Colombie aux variétés inconnues"
+    },
+    "28": {
+      "nl": "Verves chocoladenoot helpt bij je keuze",
+      "de": "Verves Schokoladennote als Kaufhinweis",
+      "fr": "La note chocolatée annoncée par Verve aide à orienter l’achat"
+    },
+    "29": {
+      "nl": "Begin met Verves dosis en opbrengst voor espresso",
+      "de": "Beim Espresso mit Verves Dosis und Getränkemenge beginnen",
+      "fr": "Pour l’espresso, partir de la dose et du poids en tasse indiqués par Verve"
+    },
+    "30": {
+      "nl": "Probeer 6 of 12 ounce voordat je groot inkoopt",
+      "de": "Vor dem Großkauf 6 oder 12 Unzen probieren",
+      "fr": "Essayer 6 ou 12 onces avant d’acheter en quantité"
+    },
+    "31": {
+      "nl": "Vergelijk de totaalprijs van de hele bonen inclusief bezorging in de VS",
+      "de": "Den Gesamtpreis der US-Bestellung ganzer Bohnen inklusive Versand vergleichen",
+      "fr": "Comparer le prix livré du café en grains aux États-Unis"
+    },
+    "32": {
+      "nl": "Beoordeel het donkerdere profiel in je dagelijkse kopje",
+      "de": "Das dunklere Profil im Alltagsgetränk prüfen",
+      "fr": "Évaluer ce profil plus foncé dans votre boisson habituelle"
+    },
+    "33": {
+      "nl": "Streetlevel en Bronson bieden een andere brandrichting",
+      "de": "Streetlevel und Bronson setzen andere Akzente bei der Röstung",
+      "fr": "Streetlevel et Bronson offrent d’autres profils de torréfaction"
+    },
+    "34": {
+      "nl": "Buena Vista Dark Roast is de melange die Verve onder die naam verkoopt; Streetlevel en French Roast zijn andere koffies van het merk. Op de huidige Amerikaanse productpagina staat dat deze melange uit Zuid-Colombia donker gebrand is, met een score van 8/10. Voor de volledige inhoud van de zak geeft Verve geen vaste lijst van boerderijen, variëteit of verwerkingsmethode. Gebruik voor de identificatie van de huidige koffie de actuele productpagina en ga niet af op de oudere verpakkingstekst uit een review van 2016.",
+      "de": "Buena Vista Dark Roast ist die Mischung, die Verve unter diesem Namen verkauft; Streetlevel und French Roast sind eigene Produkte. Die aktuelle US-Produktseite beschreibt die Mischung aus Südkolumbien als dunkel geröstet und stuft sie mit 8/10 ein. Sie nennt für den gesamten Packungsinhalt weder eine feste Liste von Betrieben noch eine Varietät oder Aufbereitungsmethode. Für die Zuordnung des aktuellen Kaffees ist die heutige Produktseite maßgeblich; die ältere Packungsbeschreibung in einem Bericht von 2016 ersetzt sie nicht.",
+      "fr": "Buena Vista Dark Roast est l’assemblage que Verve vend sous ce nom, distinct de Streetlevel et de French Roast. La fiche américaine actuelle le situe dans le sud de la Colombie et indique une torréfaction foncée, à 8/10. Pour l’ensemble du sachet, elle ne précise ni liste fixe d’exploitations, ni variété, ni méthode de traitement. Pour identifier le café actuel, fiez-vous à la fiche d’aujourd’hui ; le texte d’un ancien emballage repris dans un avis de 2016 ne la remplace pas."
+    },
+    "35": {
+      "nl": "Op de productfoto herken je de lijn, maar je kunt er niet aan zien wanneer de geleverde bonen zijn gebrand of welke bonen je precies krijgt. Verve zegt dat het op bestelling brandt en binnen twee werkdagen verzendt. Controleer de datum op de geleverde zak hele bonen; leid die niet af uit dat algemene beleid.",
+      "de": "Das Packungsbild zeigt die Produktlinie, sagt aber nichts über das Röstdatum oder die genauen Bohnen aus, die Sie erhalten. Laut Website röstet Verve auf Bestellung und verschickt innerhalb von zwei Werktagen. Prüfen Sie das Datum auf der gelieferten Packung ganzer Bohnen, statt es aus dieser allgemeinen Regel abzuleiten.",
+      "fr": "La photo du sachet permet de reconnaître la gamme, mais elle ne renseigne ni sur la date de torréfaction ni sur les grains précis que vous recevrez. Le site indique que Verve torréfie à la commande et expédie sous deux jours ouvrés. Vérifiez la date sur le sachet de café en grains reçu, sans la déduire de cette règle générale."
+    },
+    "36": {
+      "nl": "Chocolade, rode appel en esdoorn staan op de huidige verpakking van Verve; de productbeschrijving noemt ook pure chocolade en gekaramelliseerde zoetheid. Dat zijn smaaknotities van de brander, geen ingrediënten of smaken die Coffeedant door te proeven heeft vastgesteld. Wie een minder fruitige espresso dan Sermon zoekt, heeft met dit donkerdere profiel en de aangekondigde volle body een zinvol vergelijkingspunt.",
+      "de": "Schokolade, roter Apfel und Ahorn stehen auf Verves aktueller Packung; die Produktbeschreibung ergänzt dunkle Schokolade und karamellisierte Süße. Das sind Angaben der Rösterei, keine Zutaten oder von Coffeedant durch Verkostung bestätigten Aromen. Die dunklere Röstung und der angekündigte volle Körper sind ein sinnvoller Vergleichspunkt für alle, die einen weniger fruchtbetonten Espresso als Sermon suchen.",
+      "fr": "Chocolat, pomme rouge et érable figurent sur le sachet actuel de Verve ; le descriptif ajoute le chocolat noir et une douceur caramélisée. Ce sont des notes annoncées par le torréfacteur : elles ne désignent pas des ingrédients et Coffeedant ne les a pas vérifiées en dégustation. Le profil plus foncé et le corps annoncé comme ample offrent un point de comparaison à qui cherche un espresso moins fruité que Sermon."
+    },
+    "37": {
+      "nl": "Bij haar proef thuis in 2016 gaf Emily Preston de voorkeur aan de cafetière boven de Chemex, maar ze herkende de toen vermelde pure chocolade niet duidelijk. Haar ervaring laat zien waarom een smaakterm geen garantie biedt. Omdat ze een andere zak in een andere periode en met een ander recept probeerde, zegt dit niets meetbaars over de huidige melange uit Zuid-Colombia.",
+      "de": "Emily Preston bevorzugte bei ihrer Probe zu Hause 2016 die French Press gegenüber der Chemex, erkannte die damals beworbene Note dunkler Schokolade aber nicht eindeutig. Diese persönliche Erfahrung zeigt, warum eine Geschmacksangabe keine Garantie ist. Andere Zeit, anderes Rezept und andere Packung: Der Bericht liefert keine Messwerte zur aktuellen Mischung aus Südkolumbien.",
+      "fr": "Lors de son essai à domicile en 2016, Emily Preston a préféré la cafetière à piston à la Chemex, mais n’a pas clairement retrouvé la note de chocolat noir alors annoncée. Son expérience rappelle qu’un descripteur ne garantit pas le goût en tasse. La période, la recette et le sachet diffèrent : cet essai ne permet pas de mesurer le profil de l’assemblage actuel du sud de la Colombie."
+    },
+    "38": {
+      "nl": "Verve geeft voor espresso een startdosering van 18.7–19 g voor 33–36 g espresso in 23–27 seconden. Gebruik die alleen als de dosis in je filterbakje past. Stem daarna de maalgraad en opbrengst af op de bonen en apparatuur die je gebruikt. Voor Dwell noemt de pagina apart 20 g koffie op 300 g water en voor de cafetière 35 g op 525 g. Het zijn drie uitgangspunten voor verschillende zetmethoden, geen bereidingen door Coffeedant.",
+      "de": "Verve nennt für Espresso als Ausgangspunkt 18.7–19 g Kaffeemehl für 33–36 g Getränk in 23–27 Sekunden. Nutzen Sie die Dosis nur, wenn sie in Ihr Sieb passt, und passen Sie dann Mahlgrad und Getränkemenge an die tatsächlichen Bohnen und Geräte an. Für Dwell nennt die Seite separat 20 g Kaffee auf 300 g Wasser, für die French Press 35 g auf 525 g. Das sind drei Startrezepte für unterschiedliche Methoden, keine Zubereitungen von Coffeedant.",
+      "fr": "Verve propose comme point de départ pour l’espresso 18.7–19 g de café pour 33–36 g en tasse en 23–27 secondes. N’utilisez cette dose que si le panier peut la contenir, puis adaptez la mouture et le poids en tasse aux grains et au matériel. La fiche donne séparément 20 g de café pour 300 g d’eau avec Dwell, et 35 g pour 525 g à la cafetière à piston. Ce sont trois points de départ pour des méthodes différentes ; Coffeedant n’a réalisé aucune de ces extractions."
+    },
+    "39": {
+      "nl": "Een gebruiker met een Bambino Plus en een Encore ESP meldde in 2026 dat zijn espresso’s met Buena Vista en Streetlevel ondanks meerdere aanpassingen zuur of dun waren. Dat verslag gaat over één combinatie van apparatuur en instellingen; het bewijst niet dat elke zak hetzelfde reageert. Noteer daarom eerst dosis, opbrengst en maalgraad en probeer het huidige recept van de brander, zonder te verwachten dat een donkere branding een lastig af te stellen espresso vanzelf oplost.",
+      "de": "Ein Nutzer mit Bambino Plus und Encore ESP berichtete 2026, dass die Espressi mit Buena Vista und Streetlevel trotz mehrerer Änderungen sauer oder dünn ausfielen. Das ist ein Bericht zu einer bestimmten Gerätekombination, kein Beleg dafür, dass sich jede Packung gleich verhält. Er spricht dafür, Dosis, Getränkemenge und Mahlgrad vor Änderungen zu notieren und das aktuelle Startrezept der Rösterei zu probieren. Eine dunkle Röstung löst Schwierigkeiten beim Einstellen nicht automatisch.",
+      "fr": "En 2026, un utilisateur de la Bambino Plus et de l’Encore ESP a signalé des espressos acides ou peu corsés avec Buena Vista et Streetlevel malgré plusieurs ajustements. Ce retour concerne une configuration précise ; il ne prouve pas que tous les sachets se comportent de la même façon. Il incite à noter la dose, le poids en tasse et la mouture avant de modifier les paramètres, puis à essayer la recette actuelle du torréfacteur sans supposer qu’une torréfaction foncée résoudra à elle seule un réglage difficile."
+    },
+    "40": {
+      "nl": "De productpagina toonde keuzeopties van 6 oz, 12 oz, 2.2 lb en 5 lb. Controleer of de gekozen verpakking hele bonen bevat en overweeg eerst 6 of 12 oz voordat je groot inkoopt. Een grote zak levert alleen voordeel op als je huishouden die opmaakt zolang je de koffie vers genoeg vindt.",
+      "de": "Auf der Produktseite standen 6 oz, 12 oz, 2.2 lb und 5 lb zur Auswahl. Prüfen Sie, ob es die gewählte Größe als ganze Bohnen gibt, und erwägen Sie zunächst 6 oder 12 oz, bevor Sie eine Großpackung kaufen. Ein großer Beutel spart nur Geld, wenn der Haushalt ihn innerhalb der für ihn passenden Frischezeit verbraucht.",
+      "fr": "La fiche affichait des formats de 6 oz, 12 oz, 2.2 lb et 5 lb. Vérifiez que le format choisi est bien disponible en grains, puis envisagez un premier achat de 6 ou 12 oz avant de passer à un gros sachet. Un grand format n’est économique que si le foyer le termine pendant la période où il apprécie encore la fraîcheur du café."
+    },
+    "41": {
+      "nl": "Bewaar geopende bonen goed afgesloten, uit de buurt van warmte en vocht, en maal ze vlak voor het zetten. Algemeen bewaaradvies geeft geen universele dag waarop Buena Vista op zijn best is. Verzending, de afdichting van de zak en je verbruikstempo spelen mee. Controleer de datum en de staat van de verpakking bij ontvangst.",
+      "de": "Bewahren Sie angebrochene Bohnen gut verschlossen vor Wärme und Feuchtigkeit geschützt auf und mahlen Sie sie kurz vor der Zubereitung. Allgemeine Frischetipps belegen keinen optimalen Tag, der für jeden Buena Vista gilt. Versand, Versiegelung und Verbrauchstempo beeinflussen die Entscheidung. Prüfen Sie Datum und Zustand bei der Lieferung.",
+      "fr": "Conservez les grains entamés dans un contenant bien fermé, à l’abri de la chaleur et de l’humidité, et moulez-les juste avant la préparation. Les conseils généraux de conservation ne permettent pas de fixer un jour où tous les sachets de Buena Vista seraient à leur meilleur. L’expédition, l’étanchéité du sachet et votre rythme de consommation comptent. Vérifiez la date et l’état à la réception."
+    },
+    "42": {
+      "nl": "Bij deze controle stond op de productpagina $22 voor een eenmalige aankoop van 12 oz, vóór belastingen en verzendkosten. Dat is een waarneming op een bepaalde datum bij de brander zelf, geen doorlopend aanbod of geverifieerd totaalbedrag inclusief bezorging. Deze review verwijst naar de actuele prijs, omdat formaat, maaloptie, totaal bij het afrekenen en voorraad kunnen veranderen.",
+      "de": "Bei der Prüfung zeigte die Produktseite $22 für den einmaligen Kauf von 12 oz vor Steuern und Versand. Das ist eine datierte Beobachtung im Direktshop, kein dauerhaftes Angebot und kein geprüfter Gesamtpreis inklusive Versand. Der Bericht verweist auf die aktuelle Preisabfrage, da Packungsgröße, Mahloption, Betrag an der Kasse und Bestand sich ändern können.",
+      "fr": "Lors de la consultation, la fiche affichait $22 pour un achat ponctuel de 12 oz, hors taxes et frais de port. C’est un prix relevé à une date donnée chez le torréfacteur, ni une offre permanente ni un total livré vérifié. Cet avis invite à consulter le prix actuel, car le format, l’option de mouture, le total au paiement et le stock peuvent changer."
+    },
+    "43": {
+      "nl": "Vergelijk het exacte gewicht aan hele bonen en de branddatum. Je haalt het meeste uit deze koffie als je het gepubliceerde espressorecept wilt gebruiken of van het donkerdere profiel in de cafetière houdt. Een zak van vijf Amerikaanse pond kopen voordat je dat weet, is een gok op je smaak. De prijs van ongeveer $15 uit de review van 2016 is historisch en geen bruikbare vergelijking met nu.",
+      "de": "Vergleichen Sie das genaue Gewicht ganzer Bohnen und das Röstdatum. Der Kauf lohnt sich am ehesten, wenn Sie das veröffentlichte Startrezept für Espresso nutzen oder das dunklere Profil in der French Press mögen. Eine Packung mit fünf US-Pfund zu kaufen, bevor das feststeht, ist eine Wette auf den eigenen Geschmack. Die ungefähr $15 aus dem Bericht von 2016 sind historisch und kein aktueller Vergleichspreis.",
+      "fr": "Comparez le poids exact du café en grains et la date de torréfaction. L’achat est surtout intéressant si vous comptez utiliser la recette d’espresso publiée ou si vous aimez ce profil plus foncé à la cafetière à piston. Acheter un sachet de cinq livres américaines avant de savoir si l’un ou l’autre vous convient, c’est parier sur vos goûts. Le prix d’environ $15 cité dans l’avis de 2016 est historique et ne constitue pas un point de comparaison actuel."
+    },
+    "44": {
+      "nl": "Gebruik de dosis en opbrengst die Verve publiceert als je filterbakje de dosis aankan. Beoordeel daarna de espresso en je gebruikelijke melkdrank afzonderlijk. Houd de verhouding voor de cafetière apart van het espressorecept. Met een kleine zak ontdek je of het donkerdere profiel van Buena Vista je bevalt voordat je probeert te besparen met 2.2 of vijf Amerikaanse pond. Als het aan de branding ligt, vergelijk dan met Streetlevel in plaats van telkens te proberen deze koffie lichter te laten smaken.",
+      "de": "Verwenden Sie Verves veröffentlichte Dosis und Getränkemenge, wenn die Dosis in Ihr Sieb passt. Beurteilen Sie dann den Espresso und Ihr übliches Milchgetränk getrennt. Verwenden Sie für die French Press das eigene Brühverhältnis der Rösterei. Eine kleine Packung zeigt, ob Ihnen das dunklere Profil von Buena Vista zusagt, bevor Sie mit 2.2 oder fünf US-Pfund zu sparen versuchen. Wenn die Röstung nicht passt, vergleichen Sie lieber mit Streetlevel, statt diese Bohnen immer wieder leichter schmecken lassen zu wollen.",
+      "fr": "Utilisez la dose et le poids en tasse publiés par Verve si votre panier accepte la dose, puis jugez séparément l’espresso et votre boisson au lait habituelle. Pour la cafetière à piston, gardez le ratio dédié, distinct de la recette d’espresso. Un petit sachet vous permet de voir si le profil plus foncé de Buena Vista vous plaît avant de chercher à économiser avec 2.2 ou cinq livres américaines. Si c’est la torréfaction qui ne vous convient pas, comparez avec Streetlevel au lieu de vous acharner à donner à ce café un goût plus léger."
+    },
+    "45": {
+      "nl": "Verve Streetlevel biedt een ander profiel voor dagelijkse espresso en is een betere vergelijking als de branding van Buena Vista met 8/10 je te ver lijkt doorgevoerd. Verve Bronson French Roast gaat juist de andere kant op, voor wie bewust een nog donkerder profiel zoekt. Coffeedant heeft geen van beide via een gemeten smaakbeoordeling tegenover Buena Vista gerangschikt.",
+      "de": "Verve Streetlevel setzt beim täglichen Espresso andere Akzente und ist der passendere Vergleich, wenn Ihnen Verves Röstgrad von 8/10 für Buena Vista zu dunkel erscheint. Verve Bronson French Roast geht in die andere Richtung und eignet sich als Vergleich, wenn Sie bewusst ein noch dunkleres Röstprofil suchen. Coffeedant hat keines der beiden Produkte in einer gemessenen Geschmacksrangliste mit Buena Vista verglichen.",
+      "fr": "Verve Streetlevel propose un autre profil pour l’espresso quotidien. C’est le meilleur point de comparaison si la torréfaction à 8/10 de Buena Vista vous paraît trop poussée. Verve Bronson French Roast va dans l’autre sens et s’adresse à qui recherche délibérément un profil encore plus foncé. Coffeedant n’a établi aucun classement gustatif mesuré entre ces cafés et Buena Vista."
+    },
+    "46": {
+      "nl": "Kies Buena Vista als het donkere Colombiaanse profiel en de concrete dosis en opbrengst voor espresso beantwoorden aan wat je zoekt. Heb je een benoemde partij van één oorsprong of een duidelijk beschreven verwerking nodig, kies dan een andere, nu verkrijgbare koffie die die informatie op de zak vermeldt. De aanduiding ‘melange’ alleen vertelt je dat niet.",
+      "de": "Wählen Sie Buena Vista, wenn das dunkle kolumbianische Profil und die konkrete Dosis und Getränkemenge für Espresso Ihre wichtigste Frage beantworten. Wenn Sie eine namentlich benannte Partie aus einer einzigen Herkunft oder eine transparente Aufbereitung brauchen, wählen Sie einen anderen aktuellen Kaffee mit diesen Angaben auf der Packung. Die Kennzeichnung als Mischung allein liefert diese Details nicht.",
+      "fr": "Choisissez Buena Vista si le profil colombien foncé et les indications précises de dose et de poids en tasse répondent à votre besoin principal. Si vous recherchez un lot d’origine unique identifié ou un procédé transparent, prenez un autre café actuellement proposé dont le sachet précise ces informations. La seule mention d’un assemblage ne les fournit pas."
+    },
+    "47": {
+      "nl": "een minder donker gebrand alternatief van dezelfde brander voor dagelijkse espresso",
+      "de": "eine weniger dunkle Alternative derselben Rösterei für den täglichen Espresso",
+      "fr": "une option moins foncée du même torréfacteur pour l’espresso quotidien"
+    },
+    "49": {
+      "nl": "een espresso-alternatief van Verve met bessentonen",
+      "de": "eine Espresso-Alternative von Verve mit Beerennoten",
+      "fr": "une autre option de Verve pour l’espresso, aux notes de baies"
+    },
+    "51": {
+      "nl": "een verder doorgevoerde branding als je daar specifiek naar zoekt",
+      "de": "eine stärker entwickelte Röstung, wenn genau das gewünscht ist",
+      "fr": "une torréfaction plus poussée si c’est précisément ce que vous recherchez"
+    },
+    "52": {
+      "nl": "Ik heb Verves huidige productpagina en recepten vergeleken met de veel oudere proef thuis van Emily Preston en een specifieke gebruikersdiscussie uit 2026 over het afstellen van espresso. Coffeedant heeft deze koffie niet gekocht, gezet, geproefd of gemeten; de notities chocolade, rode appel en esdoorn komen van Verve. We geven geen smaakscore.",
+      "de": "Ich habe Verves aktuelle Produktseite und Rezepte mit Emily Prestons deutlich älterer Probe zu Hause und einem konkreten Erfahrungsaustausch zum Einstellen des Espressos aus 2026 verglichen. Coffeedant hat diesen Kaffee weder gekauft noch zubereitet, verkostet oder gemessen. Die Noten Schokolade, roter Apfel und Ahorn stammen von Verve. Es gibt keine numerische Geschmacksbewertung.",
+      "fr": "J’ai comparé la fiche et les recettes actuelles de Verve avec l’essai personnel bien plus ancien d’Emily Preston et une discussion précise de 2026 sur le réglage de l’espresso. Coffeedant n’a ni acheté, ni préparé, ni goûté, ni mesuré ce café ; les notes de chocolat, de pomme rouge et d’érable viennent de Verve. Aucune note chiffrée de dégustation n’est attribuée."
+    },
+    "53": {
+      "nl": "Bronnen gecontroleerd op 9 november 2026. De geleverde melange, branddatum, gekozen verpakking hele bonen en het afrekenbedrag in de VS kunnen afwijken van wat op de productpagina stond.",
+      "de": "Quellen geprüft am 9. November 2026. Die gelieferte Mischung, das Röstdatum, die gewählte Packung ganzer Bohnen und der Betrag an der US-Kasse können von den Angaben zum Zeitpunkt der Prüfung abweichen.",
+      "fr": "Sources consultées le 9 novembre 2026. L’assemblage livré, la date de torréfaction, le format choisi en grains et le montant au paiement aux États-Unis peuvent différer de ce qui était affiché."
+    },
+    "54": {
+      "nl": "Veelgestelde vragen over Buena Vista Dark Roast",
+      "de": "Häufige Fragen zu Buena Vista Dark Roast",
+      "fr": "Questions fréquentes sur Buena Vista Dark Roast"
+    },
+    "55": {
+      "nl": "Is Buena Vista koffie van één oorsprong?",
+      "de": "Ist Buena Vista ein Kaffee aus einer einzigen Herkunft?",
+      "fr": "Buena Vista est-il un café d’origine unique ?"
+    },
+    "56": {
+      "nl": "Nee. Verve noemt het een melange en vermeldt Zuid-Colombia, maar geeft voor de volledige inhoud van de huidige zak geen vaste boerderij, variëteit of verwerkingsmethode op.",
+      "de": "Nein. Verve nennt den Kaffee eine Mischung und gibt Südkolumbien an, veröffentlicht aber für den gesamten aktuellen Packungsinhalt keinen fest benannten Betrieb, keine Varietät und keine Aufbereitungsmethode.",
+      "fr": "Non. Verve parle d’un assemblage et indique le sud de la Colombie, sans préciser d’exploitation fixe, de variété ni de procédé pour l’ensemble du sachet actuel."
+    },
+    "57": {
+      "nl": "Ja. Verve geeft als uitgangspunt een dosis van 18.7–19 g voor 33–36 g espresso in 23–27 seconden. Stem het recept nog af op de inhoud van je filterbakje en op de bonen die je ontvangt.",
+      "de": "Ja. Verve empfiehlt als Ausgangspunkt 18.7–19 g Kaffeemehl für 33–36 g Getränk in 23–27 Sekunden. Die Einstellung muss noch zur Siebgröße und zu den gelieferten Bohnen passen.",
+      "fr": "Oui. Verve indique comme point de départ une dose de 18.7–19 g pour 33–36 g en tasse en 23–27 secondes. Il reste à ajuster le réglage à la capacité du panier et aux grains reçus."
+    },
+    "58": {
+      "nl": "Heeft Coffeedant Buena Vista geproefd?",
+      "de": "Hat Coffeedant Buena Vista verkostet?",
+      "fr": "Coffeedant a-t-il goûté Buena Vista ?"
+    },
+    "59": {
+      "nl": "Nee. Deze review vergelijkt de huidige gegevens van de brander met een ouder onafhankelijk thuisverslag en één gebruikersverslag over een specifieke opstelling. We geven geen smaakscore en beweren niet dat we de koffie hebben getest.",
+      "de": "Nein. Dieser Bericht vergleicht aktuelle Angaben der Rösterei mit einem älteren unabhängigen Bericht über eine Probe zu Hause und einem Erfahrungsbericht zu einer bestimmten Gerätekombination. Er vergibt keine Geschmacksnote und erhebt keinen Anspruch auf einen eigenen Test.",
+      "fr": "Non. Cet avis compare les données actuelles du torréfacteur à un ancien essai indépendant à domicile et à un témoignage portant sur une configuration précise. Il ne donne pas de note de dégustation et ne prétend pas reposer sur un essai de Coffeedant."
+    },
+    "60": {
+      "nl": "Als hele bonen momenteel verkrijgbaar zijn, is 6 of 12 oz een kleinere proefverpakking dan 2.2 lb of 5 lb. Controleer de branddatum, voorraad en totaalprijs inclusief bezorging in de VS.",
+      "de": "Falls ganze Bohnen aktuell verfügbar sind, eignen sich 6 oder 12 oz eher zum Probieren als 2.2 lb oder 5 lb. Prüfen Sie Röstdatum, Bestand und Gesamtpreis inklusive US-Versand.",
+      "fr": "Si le café est disponible en grains, un sachet de 6 ou 12 oz permet de l’essayer en plus petite quantité qu’un format de 2.2 lb ou de 5 lb. Vérifiez la date de torréfaction, le stock et le prix total livré aux États-Unis."
+    },
+    "61": {
+      "nl": "Amerikaanse productpagina en zetrecepten voor Verve Buena Vista Dark Roast",
+      "de": "US-Produktseite und Brührezepte für Verve Buena Vista Dark Roast",
+      "fr": "Fiche américaine et recettes de préparation de Verve Buena Vista Dark Roast"
+    },
+    "62": {
+      "nl": "Exacte productidentiteit, branding van 8/10, omschrijving van de herkomst uit Zuid-Colombia, smaaknotities, formaten, gedateerde weergave voor 12 oz en recepten per zetmethode. Gecontroleerd op 2026-11-09.",
+      "de": "Genaue Produktidentität, Röstgrad 8/10, Herkunftsangabe Südkolumbien, Noten, Packungsgrößen, datierte Anzeige für 12 oz und Rezepte je Zubereitungsmethode. Geprüft am 2026-11-09.",
+      "fr": "Identité précise du café, torréfaction à 8/10, mention du sud de la Colombie, notes, formats, affichage daté pour 12 oz et recettes par méthode. Consulté le 2026-11-09."
+    },
+    "63": {
+      "nl": "Emily Preston: Buena Vista thuis geproefd",
+      "de": "Emily Preston: Buena Vista zu Hause probiert",
+      "fr": "Emily Preston : essai de Buena Vista à domicile"
+    },
+    "64": {
+      "nl": "Onafhankelijke proef met Chemex en cafetière uit 2016. De zak en prijs zijn historisch en zeggen niets over de huidige partij. Gecontroleerd op 2026-11-09.",
+      "de": "Unabhängige Probe mit Chemex und French Press aus dem Jahr 2016. Die damalige Packung und der Preis belegen nichts über die aktuelle Partie. Geprüft am 2026-11-09.",
+      "fr": "Essai indépendant de 2016 à la Chemex et à la cafetière à piston. Le sachet et le prix sont historiques et ne renseignent pas sur le lot actuel. Consulté le 2026-11-09."
+    },
+    "65": {
+      "nl": "r/espresso: gebruikersverslag over het afstellen van Buena Vista",
+      "de": "r/espresso: Erfahrungsbericht zum Einstellen von Buena Vista",
+      "fr": "r/espresso : témoignage sur le réglage de Buena Vista"
+    },
+    "66": {
+      "nl": "Eén vrijwillig geplaatst gebruikersverslag met Bambino Plus en Encore ESP; het geeft geen algemeen beeld van de kwaliteit of het percentage defecten. Gecontroleerd op 2026-11-09.",
+      "de": "Ein freiwillig veröffentlichter Einzelbericht eines Nutzers von Bambino Plus und Encore ESP; keine allgemeine Aussage zur Qualität oder Fehlerquote. Geprüft am 2026-11-09.",
+      "fr": "Un seul témoignage spontané d’un utilisateur de la Bambino Plus et de l’Encore ESP ; aucune conclusion sur la qualité générale ou le taux de défauts. Consulté le 2026-11-09."
+    },
+    "67": {
+      "nl": "Algemeen bewaaradvies voor hele bonen, geen versheidsmeting specifiek voor Buena Vista. Gecontroleerd op 2026-11-09.",
+      "de": "Allgemeine Hinweise zum Umgang mit ganzen Bohnen; keine Frischemessung speziell für Buena Vista. Geprüft am 2026-11-09.",
+      "fr": "Conseils généraux pour conserver le café en grains ; aucune mesure de fraîcheur propre à Buena Vista. Consulté le 2026-11-09."
+    },
+    "68": {
+      "nl": "Coffeedant-review van Verve Sermon",
+      "de": "Coffeedant-Bericht zu Verve Sermon",
+      "fr": "Avis de Coffeedant sur Verve Sermon"
+    },
+    "69": {
+      "nl": "Bestaande vergelijking van deze specifieke koffie op basis van bronnen, voor wie een fruitiger profiel zoekt. Gecontroleerd op 2026-11-09.",
+      "de": "Vorhandener quellengestützter Vergleich für diesen konkreten Kaffee mit stärker fruchtbetontem Profil. Geprüft am 2026-11-09.",
+      "fr": "Comparatif déjà publié, fondé sur des sources concernant ce café précis, pour qui recherche un profil plus fruité. Consulté le 2026-11-09."
+    },
+    "70": {
+      "nl": "Productpagina van Verve Bronson French Roast",
+      "de": "Produktseite zu Verve Bronson French Roast",
+      "fr": "Fiche produit de Verve Bronson French Roast"
+    },
+    "71": {
+      "nl": "Officieel alternatief met een donkerdere branding; controleer vóór aankoop of hele bonen momenteel verkrijgbaar zijn. Gecontroleerd op 2026-11-09.",
+      "de": "Offizielle Alternative mit dunklerer Röstung. Prüfen Sie vor dem Kauf, ob ganze Bohnen aktuell erhältlich sind. Geprüft am 2026-11-09.",
+      "fr": "Alternative officielle à torréfaction plus foncée ; vérifier la disponibilité du format en grains avant l’achat. Consulté le 2026-11-09."
+    },
+    "72": {
+      "nl": "Coffeedant-review van Verve Streetlevel",
+      "de": "Coffeedant-Bericht zu Verve Streetlevel",
+      "fr": "Avis de Coffeedant sur Verve Streetlevel"
+    },
+    "73": {
+      "nl": "Bestaande espressovergelijking met een andere branding van dezelfde brander. Gecontroleerd op 2026-11-09.",
+      "de": "Vorhandener Espresso-Vergleich mit einem anderen Röstprofil derselben Rösterei. Geprüft am 2026-11-09.",
+      "fr": "Comparatif déjà publié pour un espresso au profil de torréfaction différent chez le même torréfacteur. Consulté le 2026-11-09."
+    },
+    "74": {
+      "nl": "Kies bewust voor de donkerdere branding",
+      "de": "Die dunklere Röstung bewusst wählen",
+      "fr": "Choisir la torréfaction plus foncée pour une raison précise"
+    },
+    "75": {
+      "nl": "Buena Vista is het proberen waard als het donkere Colombiaanse profiel van Verve en het concrete espressorecept bij je routine passen. De chocoladetoon is geen garantie voor wat je proeft. Controleer of je hele bonen hebt ontvangen en bekijk de branddatum. Vergelijk vervolgens met Streetlevel voor een lichter profiel of met Bronson voor een verder doorgevoerde branding.",
+      "de": "Buena Vista ist einen Versuch wert, wenn Verves dunkles kolumbianisches Profil und das konkrete Espresso-Startrezept zu Ihrem Alltag passen. Die Schokoladennote ist kein garantiertes Geschmacksergebnis. Prüfen Sie bei der Lieferung, ob es ganze Bohnen sind, und kontrollieren Sie das Röstdatum. Vergleichen Sie dann mit Streetlevel für ein leichteres oder mit Bronson für ein stärker entwickeltes Röstprofil.",
+      "fr": "Buena Vista mérite un essai si le profil colombien foncé décrit par Verve et la recette d’espresso précise conviennent à vos habitudes. La note chocolatée ne garantit pas le résultat en tasse. Vérifiez à la livraison que le café est bien en grains et contrôlez la date de torréfaction. Comparez ensuite avec Streetlevel pour un profil plus léger ou avec Bronson pour une torréfaction plus poussée."
+    },
+    "76": {
+      "nl": "Bekijk Buena Vista Dark Roast bij de brander",
+      "de": "Buena Vista Dark Roast bei der Rösterei ansehen",
+      "fr": "Voir Buena Vista Dark Roast chez le torréfacteur"
+    },
+    "77": {
+      "nl": "Productfoto van Verve Coffee Roasters om de verpakking te herkennen; geen foto van een bereiding of proeverij door Coffeedant.",
+      "de": "Produktbild von Verve Coffee Roasters zur Identifikation der Packung; kein Foto einer Zubereitung oder Verkostung durch Coffeedant.",
+      "fr": "Photo du produit fournie par Verve Coffee Roasters pour identifier le sachet ; elle ne montre ni préparation ni dégustation par Coffeedant."
+    }
+  }
+}
