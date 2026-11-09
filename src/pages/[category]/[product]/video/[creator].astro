@@ -26,7 +26,7 @@ const description = `Watch ${video.creator} on ${product.name} (${video.publishe
 const date = new Intl.DateTimeFormat('en-US', { dateStyle: 'long', timeZone: 'UTC' }).format(new Date(video.published));
 const primaryVideo = { ...videoSchema(video, product, canonical), url: canonical, isPartOf: { '@id': `${canonical}#watchpage` } };
 const schema = { '@context': 'https://schema.org', '@graph': [
-  { '@type': 'ItemPage', '@id': `${canonical}#watchpage`, url: canonical, name: title, description, dateModified: '2026-10-21', mainEntity: { '@id': primaryVideo['@id'] } },
+  { '@type': 'ItemPage', '@id': `${canonical}#watchpage`, url: canonical, name: title, description, dateModified: video.verifiedAt ?? '2026-10-21', mainEntity: { '@id': primaryVideo['@id'] } },
   primaryVideo,
   { '@type': 'BreadcrumbList', itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://coffeedant.com/' },
