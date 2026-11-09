@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "ecm-classika-watch-batch-100.source.json",
+  "snapshotHash": "377cb28d4fffea3a8787ae58bc80cb76750285d4bb02a58fc39f8420c3a37230",
+  "routes": {
+    "fr": {
+      "/espresso-machine/ecm-classika-pid-flow-control/video/ecs-coffee-espresso-and-coffee-gear/": "/machine-a-espresso/ecm-classika-pid-flow-control/video/ecs-coffee-espresso-and-coffee-gear/",
+      "/espresso-machine/ecm-classika-pid-flow-control/video/whole-latte-love/": "/machine-a-espresso/ecm-classika-pid-flow-control/video/whole-latte-love/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "Review: ECM Classika PID-espressomachine",
+      "de": "Testbericht: Espressomaschine ECM Classika PID",
+      "fr": "Essai de la machine à espresso ECM Classika PID"
+    },
+    "1": {
+      "nl": "25 maart 2015",
+      "de": "25. März 2015",
+      "fr": "25 mars 2015"
+    },
+    "2": {
+      "nl": "Een gespecialiseerde winkelier bespreekt de Classika en laat de bediening, de E61-zetgroep, de extractie en het werken met stoom zien. De huidige officiële specificaties en de optionele regeling van de waterdoorstroming worden afzonderlijk gecontroleerd.",
+      "de": "Ein Fachhändler stellt die Classika vor und zeigt die Bedienelemente, die E61-Brühgruppe, die Extraktion und die Arbeit mit Dampf. Die aktuellen offiziellen Spezifikationen und die optionale Durchflussregelung werden separat geprüft.",
+      "fr": "Dans cet essai, un revendeur spécialisé présente les commandes de la Classika, le groupe E61, l’extraction et l’utilisation de la vapeur. Les caractéristiques officielles actuelles et le contrôle de débit en option sont vérifiés séparément."
+    },
+    "5": {
+      "nl": "ECM Classika PID: ECM Classika PID — review en eerste kennismaking · ECS COFFEE Espresso & Coffee Gear (2023-05-12) | Coffeedant",
+      "de": "ECM Classika PID: ECM Classika PID — Testbericht und erster Blick · ECS COFFEE Espresso & Coffee Gear (2023-05-12) | Coffeedant",
+      "fr": "ECM Classika PID : ECM Classika PID — essai et première découverte · ECS COFFEE Espresso & Coffee Gear (2023-05-12) | Coffeedant"
+    },
+    "6": {
+      "nl": "Bekijk de video van ECS COFFEE Espresso & Coffee Gear over de ECM Classika PID (2023-05-12): ECM Classika PID — review en eerste kennismaking. ECS COFFEE Espresso & Coffee Gear presenteert de ECM Classika PID en bespreekt het malen van koffie, het zetten van espresso, het ontwerp en de constructie. Dit is het perspectief van een verkoper van apparatuur. Bekijk ook de andere bronnen en onze geschreven review.",
+      "de": "Video von ECS COFFEE Espresso & Coffee Gear zur ECM Classika PID ansehen (2023-05-12): ECM Classika PID — Testbericht und erster Blick. ECS COFFEE Espresso & Coffee Gear stellt die ECM Classika PID vor und geht auf das Mahlen, die Espressozubereitung, das Design und die Bauweise ein. Das ist die Sicht eines Gerätehändlers. Ziehen Sie auch die anderen Quellen und unseren schriftlichen Testbericht heran.",
+      "fr": "Regardez la vidéo d’ECS COFFEE Espresso & Coffee Gear sur l’ECM Classika PID (2023-05-12) : ECM Classika PID — essai et première découverte. ECS COFFEE Espresso & Coffee Gear présente l’ECM Classika PID et aborde la mouture, la préparation de l’espresso, la conception et la construction. C’est le point de vue d’un vendeur de matériel. Consultez aussi les autres sources et notre essai écrit."
+    },
+    "8": {
+      "nl": "Video over de ECM Classika PID door ECS COFFEE Espresso & Coffee Gear",
+      "de": "Video zur ECM Classika PID von ECS COFFEE Espresso & Coffee Gear",
+      "fr": "Vidéo d’ECS COFFEE Espresso & Coffee Gear sur l’ECM Classika PID"
+    },
+    "9": {
+      "nl": "← Review van de ECM Classika PID",
+      "de": "← Testbericht zur ECM Classika PID",
+      "fr": "← Essai de l’ECM Classika PID"
+    },
+    "10": {
+      "nl": "ECM Classika PID: review en eerste kennismaking, door ECS COFFEE Espresso & Coffee Gear",
+      "de": "ECM Classika PID: Testbericht und erster Blick, von ECS COFFEE Espresso & Coffee Gear",
+      "fr": "ECM Classika PID : essai et première découverte, par ECS COFFEE Espresso & Coffee Gear"
+    },
+    "11": {
+      "nl": "ECM Classika PID · Perspectief van een verkoper",
+      "de": "ECM Classika PID · Sicht eines Händlers",
+      "fr": "ECM Classika PID · Point de vue d’un revendeur"
+    },
+    "12": {
+      "nl": "ECM Classika PID: review en eerste kennismaking",
+      "de": "ECM Classika PID: Testbericht und erster Blick",
+      "fr": "ECM Classika PID : essai et première découverte"
+    },
+    "13": {
+      "nl": "12 mei 2023",
+      "de": "12. Mai 2023",
+      "fr": "12 mai 2023"
+    },
+    "14": {
+      "nl": "ECS COFFEE Espresso & Coffee Gear presenteert de ECM Classika PID en bespreekt het malen van koffie, het zetten van espresso, het ontwerp en de constructie. Dit is het perspectief van een verkoper van apparatuur. Bekijk ook de andere bronnen en onze geschreven review.",
+      "de": "ECS COFFEE Espresso & Coffee Gear stellt die ECM Classika PID vor und geht auf das Mahlen, die Espressozubereitung, das Design und die Bauweise ein. Das ist die Sicht eines Gerätehändlers. Ziehen Sie auch die anderen Quellen und unseren schriftlichen Testbericht heran.",
+      "fr": "ECS COFFEE Espresso & Coffee Gear présente l’ECM Classika PID et aborde la mouture, la préparation de l’espresso, la conception et la construction. C’est le point de vue d’un vendeur de matériel. Consultez aussi les autres sources et notre essai écrit."
+    },
+    "20": {
+      "nl": "ECM Classika PID: review van de ECM Classika PID-espressomachine · Whole Latte Love (2015-03-25) | Coffeedant",
+      "de": "ECM Classika PID: Testbericht zur Espressomaschine ECM Classika PID · Whole Latte Love (2015-03-25) | Coffeedant",
+      "fr": "ECM Classika PID : essai de la machine à espresso ECM Classika PID · Whole Latte Love (2015-03-25) | Coffeedant"
+    },
+    "21": {
+      "nl": "Bekijk de video van Whole Latte Love over de ECM Classika PID (2015-03-25): review van de ECM Classika PID-espressomachine. Een gespecialiseerde winkelier bespreekt de Classika en laat de bediening, de E61-zetgroep, de extractie en het werken met stoom zien. De huidige officiële specificaties en de optionele regeling van de waterdoorstroming worden afzonderlijk gecontroleerd.",
+      "de": "Video von Whole Latte Love zur ECM Classika PID ansehen (2015-03-25): Testbericht zur Espressomaschine ECM Classika PID. Ein Fachhändler stellt die Classika vor und zeigt die Bedienelemente, die E61-Brühgruppe, die Extraktion und die Arbeit mit Dampf. Die aktuellen offiziellen Spezifikationen und die optionale Durchflussregelung werden separat geprüft.",
+      "fr": "Regardez la vidéo de Whole Latte Love sur l’ECM Classika PID (2015-03-25) : essai de la machine à espresso ECM Classika PID. Dans cet essai, un revendeur spécialisé présente les commandes de la Classika, le groupe E61, l’extraction et l’utilisation de la vapeur. Les caractéristiques officielles actuelles et le contrôle de débit en option sont vérifiés séparément."
+    },
+    "23": {
+      "nl": "Video over de ECM Classika PID door Whole Latte Love",
+      "de": "Video zur ECM Classika PID von Whole Latte Love",
+      "fr": "Vidéo de Whole Latte Love sur l’ECM Classika PID"
+    },
+    "24": {
+      "nl": "Review van de ECM Classika PID-espressomachine, door Whole Latte Love",
+      "de": "Testbericht zur Espressomaschine ECM Classika PID, von Whole Latte Love",
+      "fr": "Essai de la machine à espresso ECM Classika PID, par Whole Latte Love"
+    }
+  }
+}

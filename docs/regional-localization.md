@@ -4651,6 +4651,24 @@ DE 16,627 translated and 41,299 pending, and FR 16,551 translated and 41,375
 pending. Finder gaps are zero. Each edition has 150 non-video and 334
 video pages left.
 
+### Direct batch 100 — ECM Classika PID video pages (2026-11-09)
+
+Translate the ECS COFFEE Espresso & Coffee Gear first look and the Whole
+Latte Love review. Keep both original embeds, dates and retailer credits.
+The older review’s E61, extraction and steam discussion remains distinct
+from the separate checks of current specifications and optional flow
+control. Preserve the registered Dutch and German paths and use the
+existing French `/machine-a-espresso/` prefix for the two new routes.
+The unfinished written review still opens in English with the edition
+notice.
+
+The full snapshot freezes 504 slots. Sixteen directly translated strings
+fill 28 missing slots per edition. The source has 672 pages and 57,926
+segments. Each edition can render 189 indexable pages and a localized 404.
+Coverage is NL 16,599 translated and 41,327 pending, DE 16,655 translated
+and 41,271 pending, and FR 16,579 translated and 41,347 pending. Finder
+gaps are zero. Each edition has 150 non-video and 332 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
