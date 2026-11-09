@@ -4513,6 +4513,33 @@ and FR 16,253 translated and 40,828 pending. Finder gaps remain zero. Each editi
 has 144 non-video and 345 video pages left. Incremental publication and
 source-change maintenance stay active.
 
+### Direct batch 93 — two Bezzera Hobby watch pages (2026-11-08)
+
+Translate two Whole Latte Love watch pages for the Bezzera Hobby 01. The
+December 2023 livestream covers unboxing, setup, and first use. The August
+2020 review shows the controls, espresso preparation, and steaming. It
+retains the distinction between retailer evidence and independent testing,
+and the original basis for identifying the current model. Both pages keep
+their embeds, source dates, retailer attribution, and registered routes.
+The unfinished written review opens at its English source.
+
+The full export freezes 496 slots, and the missing snapshot freezes 26.
+Fourteen directly translated strings and the unchanged Bezzera Hobby 01
+name add 27 current cache entries per edition. The exact model name also
+fills one matching slot outside the two watch pages.
+
+The static builds, 210 localization tests, 20 SEO tests, analytics, and Finder
+checks pass. Six full document comparisons verify text, metadata, structured
+data, accessibility labels, and video destinations. Twelve desktop and mobile
+views pass without horizontal overflow.
+
+The source has 664 pages and 57,081 segments. The ready selection is 176
+indexable pages plus 404 per edition. Coverage is NL 16,271 translated and
+40,810 pending, DE 16,356 translated and 40,725 pending, and FR 16,280 translated
+and 40,801 pending. Finder gaps remain zero. Each edition has 144 non-video
+and 343 video pages left. Incremental publication and source-change maintenance
+stay active.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
