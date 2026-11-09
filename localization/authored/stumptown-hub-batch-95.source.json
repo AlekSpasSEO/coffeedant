@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/coffee-beans/",
+      "sourceHash": "dd5db9a3637b9012e9a517c07a0b78dca15b20fe9e8bd9fb07388716f742edfb"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "6a41e20d28ee6747b62a61d6d6c226b94ba0c83e8f7e3bc32f9ef6e508bb11ba",
+      "source": "Official Stumptown Hundred Mile whole-bean package",
+      "kind": "attribute",
+      "context": "Stumptown Coffee Roasters · United StatesHundred MileHundred Mile deserves a small-bag trial when an organic daily coffee must work in drip and espresso with different starts. Stumptown documents a changing multi-origin blend and calls out apple jam, toffee and chocolate. Those are roaster targets, not a Coffeedant taste result; independent and owner opinions on older bags conflict, so judge the delivered date and your own primary brewer before bulk buying.Updated 2026-11-09 · Check current US whole-bean price at November 9, 2026"
+    },
+    {
+      "id": "35b86f90312a0b14a7ad8bf2e4a45e5eafd5a7224130d19d059f57d80f744b87",
+      "source": "Hundred Mile",
+      "kind": "text",
+      "context": "Hundred Mile"
+    },
+    {
+      "id": "c086215e6ea9c8012f277a2c4e5a8aee4207878dcab21d6d3aeb3a3c61fbf840",
+      "source": "Hundred Mile deserves a small-bag trial when an organic daily coffee must work in drip and espresso with different starts. Stumptown documents a changing multi-origin blend and calls out apple jam, toffee and chocolate. Those are roaster targets, not a Coffeedant taste result; independent and owner opinions on older bags conflict, so judge the delivered date and your own primary brewer before bulk buying.",
+      "kind": "text",
+      "context": "Hundred Mile deserves a small-bag trial when an organic daily coffee must work in drip and espresso with different starts. Stumptown documents a changing multi-origin blend and calls out apple jam, toffee and chocolate. Those are roaster targets, not a Coffeedant taste result; independent and owner opinions on older bags conflict, so judge the delivered date and your own primary brewer before bulk buying."
+    },
+    {
+      "id": "e1f4e5728f44d00e0040a3dc7b3b7dab940e3bd9d2d0f1372c27fc39f37fd2dc",
+      "source": "Official Stumptown Founder's Blend whole-bean package",
+      "kind": "attribute",
+      "context": "Stumptown Coffee Roasters · United StatesFounder's BlendFounder's Blend is an organic chocolate-led daily-coffee candidate for drip, press and AeroPress. Stumptown's product detail calls it dark while its signature-blend collection calls it medium, and a 2026 independent sample is only one bag. Treat the roaster's vanilla, cocoa and honey words as a flavor direction, check the actual roast label, and start with a manageable whole-bean pack.Updated 2026-11-09 · Check current US whole-bean price at November 9, 2026"
+    },
+    {
+      "id": "591e9b037039b4b30ae74bc5843b4670faec2764c4e1803db5af3e56fb85fe50",
+      "source": "Founder's Blend",
+      "kind": "text",
+      "context": "Founder's Blend"
+    },
+    {
+      "id": "0e924bf095fcdd4b9b7a3a8951add036169b1a87af5f3c06f65fc723f3c4f406",
+      "source": "Founder's Blend is an organic chocolate-led daily-coffee candidate for drip, press and AeroPress. Stumptown's product detail calls it dark while its signature-blend collection calls it medium, and a 2026 independent sample is only one bag. Treat the roaster's vanilla, cocoa and honey words as a flavor direction, check the actual roast label, and start with a manageable whole-bean pack.",
+      "kind": "text",
+      "context": "Founder's Blend is an organic chocolate-led daily-coffee candidate for drip, press and AeroPress. Stumptown's product detail calls it dark while its signature-blend collection calls it medium, and a 2026 independent sample is only one bag. Treat the roaster's vanilla, cocoa and honey words as a flavor direction, check the actual roast label, and start with a manageable whole-bean pack."
+    },
+    {
+      "id": "1bda573ae857631981cfbafa743d580bfec4ae09a093ae91497f7f133beda1df",
+      "source": "Official Stumptown Hundred Mile whole-bean package",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "dd2be831076567ec66c06db94b4ecdba88dae3650041da231f6df8c8a1bf39ae",
+      "source": "Official Stumptown Founder's Blend whole-bean package",
+      "kind": "json",
+      "context": "name"
+    }
+  ],
+  "snapshotHash": "9feacae97dc66120fca677df4cedd90c3df543b101ded98c8e4be3dd304c1166"
+}
