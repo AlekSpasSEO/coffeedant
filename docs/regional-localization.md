@@ -4615,6 +4615,22 @@ Coverage is NL 16,457 translated and 41,469 pending, DE 16,513 translated
 and 41,413 pending, and FR 16,437 translated and 41,489 pending. Finder
 gaps are zero. Each edition has 151 non-video and 336 video pages left.
 
+### Direct batch 98 — ECM Casa V video pages (2026-11-09)
+
+Translate two Whole Latte Love video pages: the ECM Casa V setup and use
+demonstration, and the comparison with the Rancilio Silvia M. Preserve the
+distinct embeds, publication dates, retailer perspective and registered
+Dutch and German URLs. The new French URLs use the existing
+`/machine-a-espresso/` prefix. The unfinished written review still opens
+in English with the edition notice.
+
+The full snapshot freezes 498 slots. Fifteen directly translated strings
+fill 26 missing slots per edition. The source has 672 pages and 57,926
+segments. Each edition can render 186 indexable pages and a localized 404.
+Coverage is NL 16,483 translated and 41,443 pending, DE 16,539 translated
+and 41,387 pending, and FR 16,463 translated and 41,463 pending. Finder
+gaps are zero. Each edition has 151 non-video and 334 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
