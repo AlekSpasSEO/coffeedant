@@ -256,6 +256,13 @@ const decisions: Record<string, BeanDecision> = {
     finalTitle: 'Choose Sermon when fruit is part of the attraction',
     finalVerdict: 'Sermon is for an espresso buyer who welcomes a fruit cue alongside cocoa and accepts a separate dial-in. Streetlevel offers a different daily-espresso brief from the same roaster. A small pack is the sensible way to resolve that preference before a 2.2 lb or five-pound commitment.',
   },
+  'onyx-tropical-weather': {
+    headings: ['A changing washed-and-natural Ethiopian blend', 'Berry and tea are Onyx descriptors', 'Keep filter and espresso recipes separate', 'Use a small pack to learn this lot', 'Check the US delivered whole-bean order', 'Southern Weather and Monarch answer different tastes'],
+    trialTitle: 'Try the fruit direction in your usual brewer first',
+    trial: 'Start with the brewer you use most and record that method’s dose, water or beverage yield, and grind. If the berry-and-tea direction appeals, dial a separate recipe for the second method instead of borrowing the filter ratio for espresso. A small whole-bean pack lets you learn the current lot before committing to bulk. If you mainly want a low-fruit milk drink, compare Monarch before ordering more Tropical Weather.',
+    finalTitle: 'A first bag for a deliberate fruit-led choice',
+    finalVerdict: 'Tropical Weather is a sensible trial when you want Onyx’s changing Ethiopian fruit-and-tea brief and will give filter and espresso their own settings. Check the delivered lot, roast date and US total. Southern Weather offers a more moderate filter-first chocolate direction; Monarch serves a more roast-led milk espresso preference.',
+  },
 };
 
 const sectionIds = ['identity', 'flavor', 'brewing', 'freshness', 'value', 'alternatives'];
