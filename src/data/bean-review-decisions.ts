@@ -277,6 +277,20 @@ const decisions: Record<string, BeanDecision> = {
     finalTitle: 'Buy the decaf for a repeatable routine',
     finalVerdict: 'Vancouver is a reasonable small-bag trial for a medium dessert-leaning decaf with named Colombia and Uganda origins and useful filter starts. It does not come with a verified caffeine assay or a current on-page espresso ratio. Check the roast date and delivered cost, and compare Decaf Black Cat if your daily job is portafilter espresso.',
   },
+  'stumptown-hundred-mile': {
+    headings: ['An organic blend whose components can move', 'Apple jam and toffee are roaster targets', 'Do not convert espresso ounces into grams', 'Read the received date before sizing up', 'Check the exact whole-bean pack and total', 'Hair Bender and Holler Mountain serve other jobs'],
+    trialTitle: 'Try the two-method promise with separate settings',
+    trial: 'Begin with the Stumptown start for the method you make most often. If you also pull espresso, save a second grinder setting and record the beverage on your own scale; the roaster’s fluid-ounce description is not a gram target. Judge whether both drinks work for the household before buying a larger bag. If one method creates too much switching waste, the shared-bag convenience may be less than it first appears.',
+    finalTitle: 'A shared bag only if both brews earn their place',
+    finalVerdict: 'Hundred Mile is a reasonable small-bag trial for an organic apple-jam, toffee and chocolate direction with separate drip and espresso guidance. Check the received date and your switching routine. Hair Bender is the more focused comparison when the household mainly wants café espresso.',
+  },
+  'stumptown-founders-blend': {
+    headings: ['Organic regional components without fixed farms', 'The medium-versus-dark label remains unresolved', 'Start with a documented filter method', 'Check the actual bag and household pace', 'Do not use an old sample price as today’s offer', 'Hundred Mile and Hair Bender solve different needs'],
+    trialTitle: 'Let the actual bag settle the roast-label question',
+    trial: 'Check the selected bag for a roast descriptor and date before brewing it in your usual drip or press routine. Keep the first recipe close to Stumptown’s published start, then judge whether the chocolate-led direction is useful to you. Do not buy a large pack on the assumption that a collection page’s medium label or a product page’s dark label will always describe future inventory. If an explicit espresso ratio is the main requirement, compare another blend.',
+    finalTitle: 'Choose the chocolate brief with eyes open',
+    finalVerdict: 'Founders Blend suits a small trial for organic, chocolate-led daily drip or press if the bag’s date and roast label can be checked. Stumptown’s pages disagree on medium versus dark, and one independent July sample cannot settle your future cup. Choose an espresso-documented blend if that is the actual job.',
+  },
 };
 
 const sectionIds = ['identity', 'flavor', 'brewing', 'freshness', 'value', 'alternatives'];
