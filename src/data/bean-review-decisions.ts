@@ -263,6 +263,20 @@ const decisions: Record<string, BeanDecision> = {
     finalTitle: 'A first bag for a deliberate fruit-led choice',
     finalVerdict: 'Tropical Weather is a sensible trial when you want Onyx’s changing Ethiopian fruit-and-tea brief and will give filter and espresso their own settings. Check the delivered lot, roast date and US total. Southern Weather offers a more moderate filter-first chocolate direction; Monarch serves a more roast-led milk espresso preference.',
   },
+  'verve-buena-vista-dark-roast': {
+    headings: ['A Southern Colombian dark blend with unknown varieties', 'Verve’s chocolate note is a buying cue', 'Start espresso at Verve’s dose and yield', 'Test 6 or 12 ounces before bulk', 'Compare the delivered US whole-bean order', 'Streetlevel and Bronson shift the roast direction'],
+    trialTitle: 'Check the darker brief in your everyday drink',
+    trial: 'Use Verve’s published espresso dose and yield if your basket accepts it, then judge the shot and your normal milk serving separately. For press, keep the roaster’s press ratio apart from the espresso recipe. A small bag answers whether Buena Vista’s darker direction suits you before you try to economize with 2.2 or five pounds. If the roast direction is the mismatch, compare Streetlevel rather than repeatedly forcing this bag to taste lighter.',
+    finalTitle: 'Choose the darker bag for a defined reason',
+    finalVerdict: 'Buena Vista is a practical trial when Verve’s dark Colombian brief and explicit espresso start match your routine. Its chocolate note is not a guaranteed tasting result. Check the delivered whole-bean format and roast date, then compare Streetlevel for a lighter direction or Bronson for a more developed one.',
+  },
+  'verve-vancouver-swiss-water-decaf': {
+    headings: ['A medium Colombia-and-Uganda water-process blend', 'Almond and chocolate are roaster descriptors', 'Use the filter recipes before inventing an espresso ratio', 'A decaf-first household earns the bulk option', 'Compare the selected 12-ounce US order', 'Choose an espresso-led decaf when the recipe matters'],
+    trialTitle: 'Judge the decaf in the brewer you use at night',
+    trial: 'Make Vancouver first in your usual Dwell, Chemex or French press routine using the corresponding Verve start. Note how many decaf cups you actually drink in a week before buying 2.2 or five pounds. If espresso is the main job, dial the delivered beans with a separately recorded dose and yield; the filter ratio is not a portafilter recipe. Compare Decaf Black Cat when a published espresso start would save more guesswork.',
+    finalTitle: 'Buy the decaf for a repeatable routine',
+    finalVerdict: 'Vancouver is a reasonable small-bag trial for a medium dessert-leaning decaf with named Colombia and Uganda origins and useful filter starts. It does not come with a verified caffeine assay or a current on-page espresso ratio. Check the roast date and delivered cost, and compare Decaf Black Cat if your daily job is portafilter espresso.',
+  },
 };
 
 const sectionIds = ['identity', 'flavor', 'brewing', 'freshness', 'value', 'alternatives'];
