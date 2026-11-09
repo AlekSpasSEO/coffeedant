@@ -19,3 +19,7 @@ Hero image: [Onyx official 10 oz package image](https://cdn.shopify.com/s/files/
 ## Buyer judgment
 
 A smaller first bag is appropriate for a buyer deliberately seeking the roaster's fruit-and-tea direction across filter and espresso; separate recipes are required. A roast-forward milk drink or fixed-origin requirement points to a different coffee. Check the actual roast date, whole-bean size, stock and US delivered total before purchase. These are editorial inferences from the named records, not sensory measurements.
+
+## Video check
+
+A focused November 9 exact-product search found no verifiable independent current US whole-bean tasting video with stable metadata. The video library records an explicit no-suitable-video result; no manufacturer footage or unrelated instant-coffee clip is embedded.
