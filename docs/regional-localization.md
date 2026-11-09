@@ -4540,6 +4540,23 @@ and 40,801 pending. Finder gaps remain zero. Each edition has 144 non-video
 and 343 video pages left. Incremental publication and source-change maintenance
 stay active.
 
+### Direct batch 94 — Bezzera Hobby and Unica watch pages (2026-11-09)
+
+Translate the 1st-line Equipment watch page for the Bezzera Hobby 01 and the
+Whole Latte Love watch page for the Bezzera Unica PID. The Hobby video shows
+espresso and milk drinks. The Unica video shows the controller, group,
+steaming, and operating routine. Both pages retain the creator attribution,
+evidence limits, original embeds, dates, and registered routes. The unfinished
+written reviews open at their English sources.
+
+The full export freezes 505 slots. Eighteen directly translated strings and
+the unchanged 1st-line Equipment name fill 32 current slots per edition.
+The source has 664 pages and 57,083 segments. The ready selection contains
+178 indexable pages plus a localized 404 per edition. Coverage is NL 16,303
+translated and 40,780 pending, DE 16,388 translated and 40,695 pending, and
+FR 16,312 translated and 40,771 pending. Each edition has 144 non-video and
+341 video pages left. Finder gaps remain zero.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
