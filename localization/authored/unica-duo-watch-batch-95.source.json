@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/bezzera-unica-pid/video/1st-line-equipment/",
+      "sourceHash": "36e6d76e3f073da6da55fb904051461f48f66d2a6f1531c4ad16380490d8e9f5"
+    },
+    {
+      "sourcePath": "/espresso-machine/bezzera-duo-mn/video/clive-coffee/",
+      "sourceHash": "9ccd850866ac3ed0c7627b64695f1409736be6188a0136775da07e7d52e695eb"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "abff32c19e2233b8a9fa38bf87d2295a23a2a1dbb42dd83655263eeb19e14685",
+      "source": "Clive Coffee",
+      "kind": "text",
+      "context": "Clive Coffee"
+    },
+    {
+      "id": "e7ffe6f0ad006bd555ea9aa7a02dc059a78600b809780d052eac42302287d259",
+      "source": "Bezzera Duo MN Espresso Machine Overview",
+      "kind": "text",
+      "context": "Bezzera Duo MN Espresso Machine Overview"
+    },
+    {
+      "id": "4dfffa7380a966d07ba2c1f1cf273cf72ca55cbe5ed4c03e55b50f9429a66d5b",
+      "source": "January 5, 2021",
+      "kind": "text",
+      "context": "January 5, 2021"
+    },
+    {
+      "id": "e8a0e55cbbc2915e20207b483858a7cc2901942a381f249d38b33c9e231a41da",
+      "source": "A concise independent dealer orientation to the E61 lever, touchscreen, rotary-pump layout, and daily controls. Use it to see the machine’s scale and interaction, while treating all performance language as attributed rather than Coffeedant testing.",
+      "kind": "text",
+      "context": "A concise independent dealer orientation to the E61 lever, touchscreen, rotary-pump layout, and daily controls. Use it to see the machine’s scale and interaction, while treating all performance language as attributed rather than Coffeedant testing."
+    },
+    {
+      "id": "489b787935e281ecf2143c2123753428852c0e220c36b739fcca2623ab0bfdde",
+      "source": "Bezzera Duo MN Espresso Machine Overview",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "95956c991271a5137d4a77b7b0c17457b5ef8bb4c675eef6341b7325ede5c1e8",
+      "source": "A concise independent dealer orientation to the E61 lever, touchscreen, rotary-pump layout, and daily controls. Use it to see the machine’s scale and interaction, while treating all performance language as attributed rather than Coffeedant testing.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "d71590bf5a05d35654d018d653c3a1fed9fb4d4108b3bf3d19af24bb5ee30433",
+      "source": "Clive Coffee",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "23d47c0c5214e93654225856edbcbca86556c954cb0a920fce03750af8e2989c",
+      "source": "Bezzera Duo MN: Bezzera Duo MN Espresso Machine Overview · Clive Coffee (2021-01-05) | Coffeedant",
+      "kind": "text",
+      "context": "Bezzera Duo MN: Bezzera Duo MN Espresso Machine Overview · Clive Coffee (2021-01-05) | Coffeedant"
+    },
+    {
+      "id": "43b209640322c66f000f789572f3bdb9b6066c952974d41bf6b5eec27065f7a6",
+      "source": "Watch Clive Coffee on Bezzera Duo MN (2021-01-05): Bezzera Duo MN Espresso Machine Overview. A concise independent dealer orientation to the E61 lever, touchscreen, rotary-pump layout, and daily controls. Use it to see the machine’s scale and interaction, while treating all performance language as attributed rather than Coffeedant testing.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "ac90315519ab013922309f06011988d8d5c7cd9c8b0d11ea5c2b93c6718764a1",
+      "source": "Bezzera Duo MN: Bezzera Duo MN Espresso Machine Overview · Clive Coffee (2021-01-05) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "a2d8494758c41e328efce19426d0bfa52618e74e9c9a72a333a94920223c3c96",
+      "source": "Bezzera Duo MN video by Clive Coffee",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "d85c3b0c5b9c870318772b2d50d9cb3a4b508353afc02a7a3efbaeaea30e3a99",
+      "source": "Bezzera Duo MN Espresso Machine Overview by Clive Coffee",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "e61ed4b0a05cc9008457c117f3e2b25bd473731cd1482540e7c1fd08116aaabc",
+      "source": "Video and opinions belong to Clive Coffee. Coffeedant curates this perspective alongside our written review.",
+      "kind": "text",
+      "context": "Video and opinions belong to Clive Coffee. Coffeedant curates this perspective alongside our written review."
+    },
+    {
+      "id": "1be2269596ca4c9493be674b24fa080299ca343f252523cebfb2db216e99dc6c",
+      "source": "Bezzera Duo MN: Bezzera Duo MN Espresso Machine Overview · Clive Coffee (2021-01-05) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "7d20cb196dbb5c56f29336a0fd089820de0234d0aab42c17009adc04c25e6447",
+      "source": "Watch Clive Coffee on Bezzera Duo MN (2021-01-05): Bezzera Duo MN Espresso Machine Overview. A concise independent dealer orientation to the E61 lever, touchscreen, rotary-pump layout, and daily controls. Use it to see the machine’s scale and interaction, while treating all performance language as attributed rather than Coffeedant testing.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "fdf9b52b0a42ffb02ebb8d747ce689abb07800c30af3059c9f9e3afe3ee84c0e",
+      "source": "Bezzera Duo MN video by Clive Coffee",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "67cd7e00252fe5a4c6b6e813ee26c9c8dd823f4a867a3c45fc5f885e9345fd1f",
+      "source": "Video by Clive Coffee",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b402151b05a9be501ab47c7418e6fd7a084d048b60eaee50be4922d3985605dc",
+      "source": "Bezzera Unica PID: Bezzera Unica Espresso & Cappuccino Machine · 1st-line Equipment (2014-05-22) | Coffeedant",
+      "kind": "text",
+      "context": "Bezzera Unica PID: Bezzera Unica Espresso & Cappuccino Machine · 1st-line Equipment (2014-05-22) | Coffeedant"
+    },
+    {
+      "id": "5702a3c2e5e6147827184d404a9c56408c4539928df82f5598fa1539c0a16627",
+      "source": "Watch 1st-line Equipment on Bezzera Unica PID (2014-05-22): Bezzera Unica Espresso & Cappuccino Machine. 1st-line Equipment presents Bezzera Unica PID, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "548eb714c6c97915daa687ea3be2672fd8058216e8490fbd89e98709ac450242",
+      "source": "Bezzera Unica PID: Bezzera Unica Espresso & Cappuccino Machine · 1st-line Equipment (2014-05-22) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "1486d6dbd3f91b27044be56cf2630b483d441e7e4a554c7222d8efd2d3e60f62",
+      "source": "Bezzera Unica PID video by 1st-line Equipment",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "a96b859e27097468ec41866c5024b6407c3afa144a52643719e720fffefa9459",
+      "source": "Bezzera Unica Espresso & Cappuccino Machine by 1st-line Equipment",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "3c9b08ff761daa7b18bf44b3d174b7d3c797c66f39c672b4810b49c7142e0bbc",
+      "source": "Bezzera Unica Espresso & Cappuccino Machine",
+      "kind": "text",
+      "context": "Bezzera Unica Espresso & Cappuccino Machine"
+    },
+    {
+      "id": "636fd1401eecb6a4d7239aec62361dd8c66f1457a5047b7ac0fa7d56fe981aef",
+      "source": "May 22, 2014",
+      "kind": "text",
+      "context": "May 22, 2014"
+    },
+    {
+      "id": "17f9905c268b2e253e77d6ff4905d054e2ed621a9ad0440989a706dde9808be9",
+      "source": "1st-line Equipment presents Bezzera Unica PID, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "text",
+      "context": "1st-line Equipment presents Bezzera Unica PID, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review."
+    },
+    {
+      "id": "c3d52dcb62efaf932d6f474361cf2475a7f2b4efb2c6105118324ee6e4df2957",
+      "source": "Bezzera Unica PID: Bezzera Unica Espresso & Cappuccino Machine · 1st-line Equipment (2014-05-22) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "2225a34ffc50f07594f894dfca45d8c264fd810ef54984d09c6b1c78d7d4dc93",
+      "source": "Watch 1st-line Equipment on Bezzera Unica PID (2014-05-22): Bezzera Unica Espresso & Cappuccino Machine. 1st-line Equipment presents Bezzera Unica PID, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "ccbfb5ad24db6a643f1d46308503ff0770eb485f64edf2d4a4ca9f95c802e870",
+      "source": "Bezzera Unica PID video by 1st-line Equipment",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "a76659d393c4f6cd488b6d60c3c7f725e2d9d95364dae13668af5a84d7559deb",
+      "source": "Bezzera Unica Espresso & Cappuccino Machine",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "6c6cd52913ad4fdd48a0bf6e6bb6c26a91d7605cb489e3a544d4482c552275ad",
+      "source": "1st-line Equipment presents Bezzera Unica PID, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "2c2dd98a1d25db74eab50928f52586ff314c97fc267524558e1972a8813370cf"
+}

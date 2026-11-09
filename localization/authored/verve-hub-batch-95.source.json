@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/coffee-beans/",
+      "sourceHash": "01f0be7d3279db12d3193039d4df8c4391c5c3a44326bb9a166c958939069465"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "f199005c12e58481c94cc18ba220581beeeee157c1ad01b8ab4dad1b4aaf0fea",
+      "source": "Official Verve Buena Vista Dark Roast 12-ounce whole-bean package",
+      "kind": "attribute",
+      "context": "Verve Coffee Roasters · United StatesBuena Vista Dark RoastBuena Vista is a useful first bag for a US buyer who wants Verve's darker Southern Colombian blend and a roaster-published espresso start. Its chocolate, red apple and maple words are Verve's profile, not Coffeedant tasting. An older home review and a recent owner dial-in difficulty show why the bag and equipment matter more than the dark-roast label alone.Updated 2026-11-09 · Check current US whole-bean price at November 9, 2026"
+    },
+    {
+      "id": "49a6c62b1444a3e5e5715c47f1607dc918b481e1dae81444c936687e3e4f8bc8",
+      "source": "Buena Vista Dark Roast",
+      "kind": "text",
+      "context": "Buena Vista Dark Roast"
+    },
+    {
+      "id": "61dc24ab5da97ecfb6045659a0cbc30adb77b28e2b66e4094481730beea1f461",
+      "source": "Buena Vista is a useful first bag for a US buyer who wants Verve's darker Southern Colombian blend and a roaster-published espresso start. Its chocolate, red apple and maple words are Verve's profile, not Coffeedant tasting. An older home review and a recent owner dial-in difficulty show why the bag and equipment matter more than the dark-roast label alone.",
+      "kind": "text",
+      "context": "Buena Vista is a useful first bag for a US buyer who wants Verve's darker Southern Colombian blend and a roaster-published espresso start. Its chocolate, red apple and maple words are Verve's profile, not Coffeedant tasting. An older home review and a recent owner dial-in difficulty show why the bag and equipment matter more than the dark-roast label alone."
+    },
+    {
+      "id": "bffb75a4dc420cce4c257a82352dfc47574b7552a44f15d6353665b55a93520a",
+      "source": "Official Verve Vancouver Swiss Water Decaf 12-ounce whole-bean package",
+      "kind": "attribute",
+      "context": "Verve Coffee Roasters · United StatesVancouver Swiss Water DecafVancouver is a plausible first water-process decaf for a US buyer who wants Verve's medium, almond-and-chocolate brief and published filter starts. The Colombia/Uganda blend and 12 oz format are clear on the current page. Espresso owners can try it but must make a separate recipe; an owner report cannot stand in for a roaster espresso specification or a Coffeedant taste test.Updated 2026-11-09 · Check current US whole-bean price at November 9, 2026"
+    },
+    {
+      "id": "1b230381ed42fb03d68363c97f201e4ce17711bd20a549c129a61e413227a26a",
+      "source": "Vancouver Swiss Water Decaf",
+      "kind": "text",
+      "context": "Vancouver Swiss Water Decaf"
+    },
+    {
+      "id": "8cecfb0aba1e6a61d081289be39664148dd4a42d3dc898f77762bb99f7854b63",
+      "source": "Vancouver is a plausible first water-process decaf for a US buyer who wants Verve's medium, almond-and-chocolate brief and published filter starts. The Colombia/Uganda blend and 12 oz format are clear on the current page. Espresso owners can try it but must make a separate recipe; an owner report cannot stand in for a roaster espresso specification or a Coffeedant taste test.",
+      "kind": "text",
+      "context": "Vancouver is a plausible first water-process decaf for a US buyer who wants Verve's medium, almond-and-chocolate brief and published filter starts. The Colombia/Uganda blend and 12 oz format are clear on the current page. Espresso owners can try it but must make a separate recipe; an owner report cannot stand in for a roaster espresso specification or a Coffeedant taste test."
+    },
+    {
+      "id": "78e7aff1239c399989588fefa2132f465f0aa80550241890b0a763b01c785000",
+      "source": "Official Verve Buena Vista Dark Roast 12-ounce whole-bean package",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "6d82c3595f538b6cf2f26ad147a84f59118273f65298db69b0911b4f663d2d6a",
+      "source": "Official Verve Vancouver Swiss Water Decaf 12-ounce whole-bean package",
+      "kind": "json",
+      "context": "name"
+    }
+  ],
+  "snapshotHash": "09fc6c8d9fd2e0c605ac7c57ba2d9c2a9a8a2f1f994f96b6e3a0f35a7fc4d59d"
+}

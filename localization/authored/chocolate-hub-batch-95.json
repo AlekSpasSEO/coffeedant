@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "chocolate-hub-batch-95.source.json",
+  "snapshotHash": "dd4ab3f43bc83b2f519273bbd902a31cdf63a1e1a6fe107bcd4bbf75f2532ed8",
+  "translations": {
+    "0": {
+      "nl": "Nieuwe koopgids · 9 november 2026",
+      "de": "Neuer Kaufratgeber · 9. November 2026",
+      "fr": "Nouveau guide d’achat · 9 novembre 2026"
+    },
+    "1": {
+      "nl": "Koffiebonen met uitgesproken chocoladesmaak voor pure espresso",
+      "de": "Kaffeebohnen mit ausgeprägten Schokoladennoten für puren Espresso",
+      "fr": "Cafés en grains aux notes chocolatées pour un espresso nature"
+    },
+    "2": {
+      "nl": "Kies uit melkchocolade en fruit, pure chocolade en bessen, of bakchocolade en sinaasappel. De gids vergelijkt drie specifieke koffies in hele bonen op de Amerikaanse markt.",
+      "de": "Wählen Sie zwischen Milchschokolade und Frucht, dunkler Schokolade und Beeren oder Backschokolade und Orange. Der Ratgeber vergleicht drei konkrete Kaffees in ganzen Bohnen auf dem US-Markt.",
+      "fr": "Choisissez entre le chocolat au lait et les fruits, le chocolat noir et les baies, ou le chocolat pâtissier et l’orange. Le guide compare trois cafés en grains précis sur le marché américain."
+    },
+    "3": {
+      "nl": "Lees de espressogids voor koffie met chocoladetonen",
+      "de": "Zum Espressoratgeber für Kaffees mit Schokoladennoten",
+      "fr": "Lire le guide des cafés aux notes chocolatées pour l’espresso"
+    }
+  }
+}

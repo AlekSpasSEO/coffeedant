@@ -4557,6 +4557,29 @@ translated and 40,780 pending, DE 16,388 translated and 40,695 pending, and
 FR 16,312 translated and 40,771 pending. Each edition has 144 non-video and
 341 video pages left. Finder gaps remain zero.
 
+### Direct batch 95 — Bezzera Unica and Duo watch pages (2026-11-09)
+
+Translate the 1st-line Equipment video page for the Bezzera Unica PID and the
+Clive Coffee video page for the Bezzera Duo MN. The first covers espresso and
+milk drinks. The second covers the E61 lever, touchscreen, rotary pump
+layout, and everyday controls. The translations preserve creator attribution,
+dates, embeds, registered paths, and the limits on performance claims.
+The unfinished written reviews open on the English site.
+
+The full snapshot freezes 505 slots. The missing snapshot freezes 30 slots
+covered by sixteen directly translated strings and the unchanged Clive Coffee
+name. Separate snapshots cover six new cards on the published bean hub:
+the chocolate espresso guide, Tropical Weather, Buena Vista Dark Roast,
+Vancouver Swiss Water Decaf, Hundred Mile, and Founder's Blend. These cards
+open their English sources with the edition notice until the full pages
+are translated.
+
+The ready selection is 180 indexable pages plus a localized 404 per edition.
+The current source has 670 pages and 57,656 segments. Coverage is NL 16,392
+translated and 41,264 pending, DE 16,448 translated and 41,208 pending, and
+FR 16,372 translated and 41,284 pending. Each edition has 150 non-video and
+339 video pages left. Finder gaps remain zero.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
