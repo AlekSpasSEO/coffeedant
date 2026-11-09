@@ -334,9 +334,9 @@ const bz10Sources: Source[] = [
   { id: 'bz10-official', label: 'Bezzera: BZ10 official product page', href: 'https://www.bezzera.it/en/machines/bz10', note: 'Primary record for the heat exchanger, cartridge-heated group, PM push-button operation, vibration pump, 1.5 L boiler, 3 L tank, regional electrical ranges, dimensions and weight. Checked September 17, 2026.' },
   { id: 'bz10-brochure', label: 'Bezzera: BZ10 PM product brochure', href: 'https://www.bezzera.it/uploads/prod_images/BZ10/bz10pm-low.pdf', note: 'Manufacturer brochure used to cross-check layout and intended semi-professional workflow. Regional voltage, revision and box contents still require listing-level confirmation.' },
   { id: 'bz10-parts', label: 'Bezzera: official spare-parts portal', href: 'https://spareparts.bezzera.it/', note: 'Manufacturer route for model documentation and parts lookup. The portal does not establish local stock, labor cost or consumer eligibility.' },
-  { id: 'bz10-wll-product', label: 'Whole Latte Love: Bezzera BZ10 Espresso Machine', href: 'https://www.wholelattelove.com/products/bezzera-bz10-espresso-machine', note: 'Current US retail and availability context checked September 17, 2026: $1,449 listing. Confirm color, stock, seller authorization and written warranty at checkout.' },
-  { id: 'bz10-wll-review', label: 'Whole Latte Love: Bezzera BZ10 review', href: 'https://www.wholelattelove.com/blogs/reviews/bezzera-bz10-review', note: 'Commercial hands-on overview published August 26, 2019, useful for internal layout, cup workflow and comparison context. Current price comes from the separate dated product record.' },
-  { id: 'bz10-coffeefriend', label: 'Coffee Friend Europe: Bezzera BZ10 PM listing', href: 'https://www.coffeefriend.eu/p/coffee-machine-bezzera-bz10-pm/', note: 'Current European offer and regional specification context. Price was EUR 1,049 on September 17, 2026; market, voltage and warranty differ from the US listing.' },
+  { id: 'bz10-wll-product', label: 'Whole Latte Love: Bezzera BZ10 Espresso Machine', href: 'https://www.wholelattelove.com/products/bezzera-bz10-espresso-machine', note: 'US stainless-steel listing showed sold out on November 9, 2026. Its $1,449 display is not an available offer. Confirm exact version, stock, seller authorization and written warranty before ordering.' },
+  { id: 'bz10-wll-review', label: 'Whole Latte Love: Bezzera BZ10 review', href: 'https://www.wholelattelove.com/blogs/reviews/bezzera-bz10-review', note: 'Commercial hands-on overview published August 26, 2019, useful for internal layout, cup workflow and comparison context. Availability comes from the separately checked product listing.' },
+  { id: 'bz10-coffeefriend', label: 'Coffee Friend Europe: Bezzera BZ10 PM listing', href: 'https://www.coffeefriend.eu/p/coffee-machine-bezzera-bz10-pm/', note: 'Dated European offer and regional specification context. Price was EUR 1,049 on September 17, 2026; current stock and price are unverified and market, voltage and warranty differ from the US listing.' },
   { id: 'bz10-kaffee', label: 'Kaffeemacher: Bezzera BZ10 review', href: 'https://kaffeemacher.de/en/blogs/kaffeewissen/bezzera-bz10', note: 'Independent technical and practical review covering temperature behavior, dimensions, milk capacity and the BZ10 value proposition. Swiss and EU price context is kept regional.' },
   { id: 'bz10-alt-product', label: 'Alternative Brewing: Bezzera BZ10 Coffee Machine', href: 'https://alternativebrewing.com.au/products/bezzera-bz10-coffee-machine', note: 'Australian commercial demonstration and product context. Regional voltage, accessories and warranty are not transferred to a US purchase.' },
   { id: 'bz10-video', label: 'Alternative Brewing: Bezzera BZ10 Espresso Machine Review', href: 'https://www.youtube.com/watch?v=7nNZ7PyL0AE', note: 'Independent commercial demonstration published August 14, 2021. It shows operation and steaming but is not Coffeedant testing.' },
@@ -355,7 +355,7 @@ const bz10Sections: Section[] = [
   {
     id: 'orientation', eyebrow: 'The buying decision', title: 'A compact heat exchanger that trades digital control for a fast bar rhythm', html: `
       <p>The Bezzera BZ10 is a narrow heat-exchanger machine built around two heat sources with different jobs. A 1.5-liter boiler supplies steam and heats fresh brew water through an internal exchanger. The proprietary BZ group uses two electric cartridges controlled by its own thermostat. A vibration pump draws from a three-liter reservoir, and a dual gauge reports boiler and pump pressure. The result is a 25 cm-wide machine that can pull espresso and steam milk at the same time. ${refs(['bz10-official','bz10-brochure'])}</p>
-      <p>Bezzera lists both 110 to 120 V and 220 to 240 V electrical versions. The US retailer record showed $1,449 when checked September 17, 2026, while a European retailer showed EUR 1,049 for its regional machine. Those figures are not interchangeable after tax, voltage, plug, freight and warranty geography. Confirm the exact configuration and an authorized service route before ordering. ${refs(['bz10-official','bz10-wll-product','bz10-coffeefriend'])}</p>
+      <p>Bezzera lists both 110 to 120 V and 220 to 240 V electrical versions. The US retailer displayed $1,449 but marked its stainless-steel BZ10 sold out when checked November 9, 2026. A European retailer showed EUR 1,049 for its regional machine in September; neither figure establishes an available US offer. Compare the exact voltage, plug, tax, freight, warranty and authorized service route before ordering. ${refs(['bz10-official','bz10-wll-product','bz10-coffeefriend'])}</p>
       <p><strong>My short verdict:</strong> the BZ10 is attractive when the normal order contains several cappuccinos and the owner prefers tactile controls to menus. Its heated group and narrow case make it more distinctive than a generic heat exchanger. It still asks for heat-exchanger flushing judgment, has no displayed brew temperature or shot timer, and cannot set coffee and steam temperatures independently. Buyers near this price should compare the <a href="${internalHref('/espresso-machine/lelit-mara-x/')}">LELIT Mara X</a>, <a href="${internalHref('/espresso-machine/profitec-pro-400/')}">Profitec Pro 400</a> and compact dual-boiler options.</p>
       <div class="review-callout"><strong>The defining choice:</strong> BZ10 buys simultaneous coffee and steam. If most days contain straight espresso, the cheaper BZ09 or a PID single boiler can offer a simpler temperature story.</div>`,
   },
@@ -405,9 +405,9 @@ const bz10Sections: Section[] = [
       <p>Pro 400 and Mara X represent the modern heat-exchanger response: preserve simultaneous steam while adding more explicit modes or temperature strategy. Silvia Pro X represents the next architectural step, with separate PID boilers. BZ10 remains compelling when directness and compactness matter more than settings. ${refs(['bz10-official','bz10-mara','bz10-pro400','bz10-silvia-pro'])}</p>`,
   },
   {
-    id: 'value', eyebrow: 'Rating deep dive', title: 'At $1,449, the compact footprint and milk cadence must earn the premium', html: `
-      <p>Whole Latte Love listed BZ10 at $1,449 on September 17, 2026. Coffee Friend's European offer was EUR 1,049. Currency conversion alone cannot compare them because voltage, tax, shipping, warranty and service differ. The valid price is the supported machine delivered to the buyer's region. ${refs(['bz10-wll-product','bz10-coffeefriend'])}</p>
-      <p>At the US anchor, BZ10 offers simultaneous brewing and steaming in a notably narrow case. That is real value for a crowded counter and milk-heavy household. It does not offer a shot timer or visible brew-temperature setting, features that now appear on many similarly priced machines. The value argument must therefore rest on the BZ group, proven local support, compact layout and preferred manual experience.</p>
+    id: 'value', eyebrow: 'Rating deep dive', title: 'Check US stock before weighing the compact milk workflow', html: `
+      <p>Whole Latte Love displayed $1,449 but marked its US BZ10 sold out on November 9, 2026. Coffee Friend's EUR 1,049 European record is a dated regional reference, not a substitute US offer. Ask an authorized dealer for a deliverable 110–120 V unit and written warranty before comparing cost. Currency conversion alone misses voltage, tax, shipping and service. ${refs(['bz10-wll-product','bz10-coffeefriend','bz10-official'])}</p>
+      <p>If an authorized US unit is available, BZ10 offers simultaneous brewing and steaming in a notably narrow case. That can matter for a crowded counter and milk-heavy household. It does not offer a shot timer or visible brew-temperature setting, features found on some competing machines. The value argument must therefore rest on the BZ group, local support, compact layout and preferred manual experience.</p>
       <p>The closest rival depends on the order. BZ09 costs less and makes sense for espresso-first use. Mara X tries to manage heat-exchanger brew conditions more explicitly. Pro 400 adds selectable operating modes in a traditional E61 body. Silvia Pro X moves to dual boilers and independent temperature control, usually at a higher price but with less flush interpretation. Comparing only boiler volume misses the ownership differences.</p>
       `,
   },
@@ -422,7 +422,7 @@ const bz10Sections: Section[] = [
   },
   {
     id: 'compare', eyebrow: 'Quick and detailed comparison', title: 'BZ10 against its closest heat-exchanger and dual-boiler choices', html: comparisonTablesHtml('Bezzera BZ10', [
-      { name: 'Bezzera BZ10', quickDecision: 'Choose for a narrow body, heated BZ group and direct simultaneous milk workflow.', priceClass: '$1,449 checked US price', dimensions: '250 W x 425 D x 375 H mm; 19 kg', heating: '1.5 L heat exchanger plus cartridge-heated group', coffeeSetup: '58 mm, manual stop, dual gauge, no displayed temperature', milkWorkflow: 'Simultaneous brew and steam', bestFor: 'Compact milk-drink station' },
+      { name: 'Bezzera BZ10', quickDecision: 'Choose for a narrow body, heated BZ group and direct simultaneous milk workflow.', priceClass: 'Check US stock and delivered price', dimensions: '250 W x 425 D x 375 H mm; 19 kg', heating: '1.5 L heat exchanger plus cartridge-heated group', coffeeSetup: '58 mm, manual stop, dual gauge, no displayed temperature', milkWorkflow: 'Simultaneous brew and steam', bestFor: 'Compact milk-drink station' },
       { name: 'LELIT Mara X', href: '/espresso-machine/lelit-mara-x/', quickDecision: 'Choose for a heat exchanger designed around more explicit brew-temperature management.', priceClass: 'Similar compact HX class', dimensions: 'Narrow E61 body with deeper group projection', heating: 'Brew-priority heat exchanger', coffeeSetup: '58 mm E61 lever and operating modes', milkWorkflow: 'Simultaneous; mode behavior matters', bestFor: 'Buyer prioritizing HX thermal management' },
       { name: 'Profitec Pro 400', href: '/espresso-machine/profitec-pro-400/', quickDecision: 'Choose for E61 styling and selectable temperature/preinfusion functions.', priceClass: 'Usually above BZ10', dimensions: 'Compact traditional E61 footprint', heating: 'Heat exchanger with selectable controls', coffeeSetup: '58 mm lever, gauges and mode switches', milkWorkflow: 'Simultaneous, strong manual steam', bestFor: 'Traditional E61 buyer wanting modes' },
       { name: 'Rancilio Silvia Pro X', href: '/espresso-machine/rancilio-silvia-pro-x/', quickDecision: 'Choose for independent PID brew and steam boilers with less flush interpretation.', priceClass: 'Higher compact dual-boiler class', dimensions: 'Narrow but deeper steel dual-boiler body', heating: 'PID dual boiler', coffeeSetup: '58 mm, timer and soft infusion', milkWorkflow: 'Simultaneous with independent settings', bestFor: 'Recipe repeatability over HX ritual' },
@@ -443,7 +443,7 @@ const bz10Sections: Section[] = [
       { question: 'Does the BZ10 have a PID?', answer: 'The current BZ10 PM page does not list a digital brew PID or displayed set point. Boiler and group conditions are thermostat or pressure controlled.' },
       { question: 'Does it need a cooling flush?', answer: 'After a long idle, a flush can move overheated exchanger water. The useful amount depends on the machine state, so follow exact dealer guidance and learn observable cues rather than memorizing one duration.' },
       { question: 'How long does it take to warm up?', answer: 'Some independent owners report useful readiness around ten minutes, but Coffeedant does not turn that into a universal promise. Portafilter heat, voltage and repeatability standard matter.' },
-      { question: 'What US price was checked?', answer: 'Whole Latte Love showed $1,449 on September 17, 2026. Price, stock, color and warranty can change.' },
+      { question: 'Is the US BZ10 available at the displayed price?', answer: 'The checked Whole Latte Love stainless-steel listing showed sold out on November 9, 2026. Its displayed $1,449 is not a verified purchasable offer; check exact-model stock and delivered terms with an authorized seller.' },
       { question: 'BZ09 or BZ10?', answer: 'BZ09 for mainly espresso and occasional milk at lower cost. BZ10 for a household that will use simultaneous brewing and steaming regularly.' },
       { question: 'BZ10 or a dual boiler?', answer: 'BZ10 favors compact direct heat-exchanger ritual. A PID dual boiler is easier when coffee and steam temperatures must be set independently.' },
     ]),
@@ -454,16 +454,16 @@ export const bezzeraBz10Review = buildResearchReview({
   slug: '/espresso-machine/bezzera-bz10/', productId: 'CD-EM-000051', brand: 'Bezzera', model: 'BZ10', sku: 'BZ10 PM',
   category: 'Semi-automatic espresso machine, heat exchanger', brandPath: '/bezzera/',
   title: 'Bezzera BZ10 review: compact heat-exchanger rhythm',
-  description: 'A research-led Bezzera BZ10 review covering its heated BZ group, 1.5 L heat exchanger, simultaneous milk workflow, flush routine, current US price, service and closest rivals.',
+  description: 'A research-led Bezzera BZ10 review covering its heated BZ group, 1.5 L heat exchanger, simultaneous milk workflow, flush routine, US availability, service and closest rivals.',
   verdictLabel: 'For the compact milk-drink station',
-  verdict: 'The BZ10 turns a narrow counter slot into a capable espresso-and-steam station. Its cartridge-heated group and 1.5 L heat exchanger support a quick manual bar rhythm, but temperature remains an inferred routine rather than a displayed recipe setting. At the $1,449 US price checked September 17, 2026, it is strongest when simultaneous milk service and local Bezzera support matter more than PID control or a shot timer.',
+  verdict: 'The BZ10 turns a narrow counter slot into a capable espresso-and-steam station. Its cartridge-heated group and 1.5 L heat exchanger support a quick manual bar rhythm, but temperature remains an inferred routine rather than a displayed recipe setting. The checked US listing is sold out; confirm an authorized 110–120 V unit before weighing its compact milk workflow against PID-equipped alternatives.',
   assessment: 'A distinctive compact heat exchanger with strong milk cadence and an analog temperature learning curve.',
   image: 'https://www.bezzera.it/uploads/prod_images/BZ10/bz10-black-gauge-1.jpg',
   imageAlt: 'Bezzera BZ10 stainless steel heat-exchanger espresso machine viewed from the front',
-  published: '2025-11-13', updated: UPDATED,
-  authorNote: 'I approached the BZ10 as a current ownership decision and separated the US listing from European and Australian versions. I checked Bezzera specifications, current prices, independent technical reviews, demonstrations, comparison machines and owner reports. I have not physically tested this machine.',
+  published: '2025-11-13', updated: '2026-11-09',
+  authorNote: 'I approached the BZ10 as a current ownership decision and separated the US listing from European and Australian versions. I checked Bezzera specifications, dated prices, current US listing availability, independent technical reviews, demonstrations, comparison machines and owner reports. I have not physically tested this machine.',
   basisDisclosure: disclosure,
-  price: { label: 'Checked US retailer price', msrp: '$1,449.00', typical: 'Machine only; confirm color, stock and written warranty', currency: 'USD', numeric: '1449.00', checked: 'September 17, 2026' },
+  price: { label: 'Check US stock and price', msrp: 'Check price', typical: 'Whole Latte Love displayed $1,449 but marked the stainless-steel BZ10 sold out on November 9, 2026. Confirm an available exact US unit, delivered total and written warranty with an authorized seller.', currency: 'USD', numeric: '', checked: 'November 9, 2026' },
   links: [
     { label: 'Check current US price', href: 'https://www.wholelattelove.com/products/bezzera-bz10-espresso-machine', note: 'Price and availability can change', primary: true },
     { label: 'Check Bezzera specifications', href: 'https://www.bezzera.it/en/machines/bz10', note: 'Official manufacturer page' },
@@ -483,7 +483,7 @@ export const bezzeraBz10Review = buildResearchReview({
     { question: 'The one-line decision?', answer: 'Choose it for compact simultaneous espresso and steam, provided you accept heat-exchanger flush judgment.' },
     { question: 'Is it a dual boiler?', answer: 'No. One steam boiler contains a heat exchanger for brew water; the group is electrically heated.' },
     { question: 'Does it have a PID?', answer: 'No displayed brew-temperature PID is listed for the current BZ10 PM.' },
-    { question: 'Current US price?', answer: '$1,449 at the checked retailer on September 17, 2026; offers can change.' },
+    { question: 'Current US price?', answer: 'No purchasable US price verified. The checked listing displayed $1,449 but was sold out on November 9, 2026; confirm exact-model stock and delivered terms.' },
     { question: 'Does it need a grinder?', answer: 'Yes. A precise espresso grinder, scale and consistent basket preparation remain essential.' },
     { question: 'Main alternative?', answer: 'LELIT Mara X for a different HX temperature strategy, or Silvia Pro X for independent PID boilers.' },
   ],
@@ -596,15 +596,15 @@ export const bezzeraBz10Review = buildResearchReview({
       ],
       'Aftermarket sensors and modifications are not counted as factory features.'),
     dimension('value', 7.7,
-      'The $1,449 anchor is competitive for compact simultaneous milk service.',
+      'The checked US listing is sold out, so value depends on finding an authorized unit at a supported delivered total.',
       'Strong for a supported milk station, weaker for espresso-only use.',
       'Dated offers and rival comparison',
       ['bz10-wll-product','bz10-coffeefriend','bz10-bz09','bz10-mara','bz10-silvia-pro'], 'value', 'Pay for the workflow you will repeat',
       [
-        'A current US offer makes comparison concrete, while regional voltage and warranty prevent casual currency conversion.',
+        'The US listing is sold out; an available exact-model quote and regional warranty are needed for a purchase comparison.',
       ],
       [
-        { signal: '$1,449 checked US listing', evidence: 'Whole Latte Love provided a dated current offer.', decision: 'Recheck stock, color, seller and written warranty at purchase.' },
+        { signal: 'Sold-out US listing', evidence: 'Whole Latte Love displayed $1,449 but marked the BZ10 sold out on November 9, 2026.', decision: 'Request an available 110–120 V unit and written delivered terms before comparing value.' },
         { signal: 'Dual-boiler step', evidence: 'Silvia Pro X adds independent temperatures at a higher class.', decision: 'Repeated recipe changes can justify spending more for clarity.' },
       ],
       [
@@ -619,13 +619,13 @@ export const bezzeraBz10Review = buildResearchReview({
     { name: 'Rancilio Silvia Pro X', reason: 'Independent PID boilers for transparent brew and steam control.', href: '/espresso-machine/rancilio-silvia-pro-x/' },
   ],
   article: {
-    methodology: `<p>I began with Bezzera's current BZ10 product page, brochure and official parts route, then separated the 110 to 120 V US context from 220 to 240 V European and Australian material. Architecture and workflow were cross-checked across Kaffeemacher, Whole Latte Love, Alternative Brewing, Home Grounds and a longer owner review. Reddit and Home-Barista were used as self-selected owner pools to identify questions, never to estimate reliability. Comparison claims were checked against official BZ09, LELIT Mara X, Profitec Pro 400 and Rancilio Silvia Pro X records. The US $1,449 and EU EUR 1,049 offers were checked September 17, 2026. Coffeedant did not measure temperature, pressure, steaming time or flavor on this machine.</p>`,
+    methodology: `<p>I began with Bezzera's current BZ10 product page, brochure and official parts route, then separated the 110 to 120 V US context from 220 to 240 V European and Australian material. Architecture and workflow were cross-checked across Kaffeemacher, Whole Latte Love, Alternative Brewing, Home Grounds and a longer owner review. Reddit and Home-Barista were used as self-selected owner pools to identify questions, never to estimate reliability. Comparison claims were checked against official BZ09, LELIT Mara X, Profitec Pro 400 and Rancilio Silvia Pro X records. The US $1,449 display was rechecked November 9, 2026 with the listing sold out; the EU EUR 1,049 reference dates to September 17. Coffeedant did not measure temperature, pressure, steaming time or flavor on this machine.</p>`,
     sections: bz10Sections,
     sources: bz10Sources,
     finalTitle: 'Buy the BZ10 when simultaneous milk service earns its place every day',
     finalVerdict: [
       'The Bezzera BZ10 is a persuasive compact heat exchanger. Its electrically heated BZ group, 1.5 L boiler, separate steam and water outlets, dual gauge and 25 cm width create a serious milk-drink station without a sprawling case.',
-      'The tradeoff is temperature visibility. Long-idle flushing and recent use shape the brew condition, while the panel provides pressure rather than a numeric coffee setting. At the checked $1,449, buy it when you want that direct routine and have local Bezzera support. Choose Mara X for a different HX-management concept, Pro 400 for E61 modes, or Silvia Pro X when independent PID temperatures matter more than analog compactness.',
+      'The tradeoff is temperature visibility. Long-idle flushing and recent use shape the brew condition, while the panel provides pressure rather than a numeric coffee setting. The checked US listing is sold out, so secure an authorized exact-model quote before deciding whether that direct routine and local Bezzera support justify the cost. Choose Mara X for a different HX-management concept, Pro 400 for E61 modes, or Silvia Pro X when independent PID temperatures matter more than analog compactness.',
     ],
   },
   video: {
