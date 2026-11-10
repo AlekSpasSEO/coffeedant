@@ -2865,4 +2865,12 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       { src:'https://www.profitec-espresso.com/media/pages/produkte/drive/56b2cb4bb3-1698405220/drive-pid.webp', alt:'Official Profitec DRIVE OLED and control detail', caption:'The OLED displays brew time and settings; its readiness indication is not a measured temperature at the coffee bed.', width:1920, height:1240 },
     ],
   ),
+  '/espresso-machine/profitec-go-2-0/': officialProductMedia(
+    'Profitec GO 2.0 official product gallery',
+    'https://www.profitec-espresso.com/en/products/go-2-0',
+    [
+      { src: 'https://www.profitec-espresso.com/media/pages/produkte/go-2-0/fd2ef7c8f4-1781788921/go-black-fast-heat-up.webp', alt: 'Profitec black GO 2.0 official front product view with fast heat-up display', caption: 'The front view identifies the two brew buttons, display and single steam valve; Profitec’s heat-up label is a manufacturer claim, not a Coffeedant thermal test.', width: 1290, height: 1500 },
+      { src: 'https://www.profitec-espresso.com/media/pages/produkte/go-2-0/04daec3461-1781789930/go-black-schraeg_oben.webp', alt: 'Profitec black GO 2.0 from above showing compact body and removable cup tray', caption: 'The official angle shows the 210 mm width and top access; allow real clearance for the tank and portafilter before choosing a shelf.', width: 1274, height: 1240 },
+    ],
+  ),
 };
