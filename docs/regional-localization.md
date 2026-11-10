@@ -4875,6 +4875,23 @@ translated and 41,984 pending, DE 17,142 translated and 41,868 pending,
 and FR 17,006 translated and 42,004 pending. Finder gaps are zero. Each
 edition has 157 non-video and 313 video pages left.
 
+### Direct batch 113 — Tom's Coffee Corner video pages (2026-11-10)
+
+Translate the complete Breville Barista Pro and Ninja Luxe Café Premier
+ES601 video pages into Dutch, German and French. Preserve the creator
+name, dates, demonstrations and disclosures. The Ninja page keeps the
+limits of the early review evidence on tasting and long-term reliability.
+Both written reviews open in English with the edition notice. Registered
+Dutch and German video routes stay in place.
+
+Sixteen translated strings and the preserved creator name fill 28
+missing slots and add 30 cache entries per edition. The source has 681
+pages and 59,010 segments. Each edition can render 212 indexable pages and
+a localized 404. Coverage is NL 17,056 translated and 41,954 pending, DE
+17,172 translated and 41,838 pending, and FR 17,036 translated and 41,974
+pending. Finder gaps are zero. Each edition has 157 non-video and 311 video
+pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
