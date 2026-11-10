@@ -4669,6 +4669,22 @@ Coverage is NL 16,599 translated and 41,327 pending, DE 16,655 translated
 and 41,271 pending, and FR 16,579 translated and 41,347 pending. Finder
 gaps are zero. Each edition has 150 non-video and 332 video pages left.
 
+### Direct batch 101 — Profitec Pro 400 video pages (2026-11-10)
+
+Translate the Lifestyle Lab and Whole Latte Love video pages in Dutch,
+German and French. Preserve both dates and embeds, the affiliate disclosure
+and single-sample limitation of the Lifestyle Lab video, and the retailer
+attribution of the Whole Latte Love review. The Dutch paths stay registered;
+the two new German and French paths follow the corresponding Profitec video
+routes. The unfinished written review still opens in English.
+
+The full snapshot freezes 506 slots. Seventeen directly translated strings
+fill 29 missing slots per edition. The source has 672 pages and 57,926
+segments. Each edition can render 191 indexable pages and a localized 404.
+Coverage is NL 16,628 translated and 41,298 pending, DE 16,684 translated
+and 41,242 pending, and FR 16,608 translated and 41,318 pending. Finder
+gaps are zero. Each edition has 150 non-video and 330 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

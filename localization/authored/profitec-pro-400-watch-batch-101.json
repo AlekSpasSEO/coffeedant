@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "profitec-pro-400-watch-batch-101.source.json",
+  "snapshotHash": "c4a90af422ea9a18e02000a936d23bb4c0f74f49a0059f9d265bdb59476204ed",
+  "routes": {
+    "de": {
+      "/espresso-machine/profitec-pro-400/video/lifestyle-lab/": "/espresso-maschine/profitec-pro-400/video/lifestyle-lab/",
+      "/espresso-machine/profitec-pro-400/video/whole-latte-love/": "/espresso-maschine/profitec-pro-400/video/whole-latte-love/"
+    },
+    "fr": {
+      "/espresso-machine/profitec-pro-400/video/lifestyle-lab/": "/machines-expresso/profitec-pro-400/video/lifestyle-lab/",
+      "/espresso-machine/profitec-pro-400/video/whole-latte-love/": "/machines-expresso/profitec-pro-400/video/whole-latte-love/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "Profitec Pro 400 | De ÉCHTE uitdager van de Appartamento!",
+      "de": "Profitec Pro 400 | Der ECHTE Herausforderer der Appartamento!",
+      "fr": "Profitec Pro 400 | Le VRAI rival de l’Appartamento !"
+    },
+    "1": {
+      "nl": "4 september 2022",
+      "de": "4. September 2022",
+      "fr": "4 septembre 2022"
+    },
+    "2": {
+      "nl": "Een onafhankelijke praktijkvideo van precies de Pro 400, met de behuizing, bediening, temperatuurschakelaar, pre-infusie en het dagelijks werken met de E61-zetgroep. LifeStyle Lab vermeldt deelname aan affiliateprogramma’s. Eén exemplaar zegt niets beslissends over de betrouwbaarheid of gemeten prestaties van alle machines.",
+      "de": "Ein unabhängiges Praxisvideo zu genau diesem Modell, dem Pro 400. Es zeigt das Gehäuse, die Bedienelemente, den Temperaturschalter, die Präinfusion und die tägliche Arbeit mit der E61-Brühgruppe. LifeStyle Lab legt die Teilnahme an Affiliate-Programmen offen. Ein einzelnes Exemplar erlaubt keine Aussage zur Zuverlässigkeit oder zu gemessenen Leistungen aller Maschinen.",
+      "fr": "Cette vidéo indépendante montre la Pro 400 en usage : châssis, commandes, sélecteur de température, préinfusion et utilisation quotidienne du groupe E61. LifeStyle Lab indique participer à des programmes d’affiliation. Un seul exemplaire ne permet pas d’établir la fiabilité ou les performances mesurées de toutes les machines."
+    },
+    "5": {
+      "nl": "Profitec Pro 400: Profitec Pro 400 | De ÉCHTE uitdager van de Appartamento! · Lifestyle Lab (2022-09-04) | Coffeedant",
+      "de": "Profitec Pro 400: Profitec Pro 400 | Der ECHTE Herausforderer der Appartamento! · Lifestyle Lab (2022-09-04) | Coffeedant",
+      "fr": "Profitec Pro 400 : Profitec Pro 400 | Le VRAI rival de l’Appartamento ! · Lifestyle Lab (2022-09-04) | Coffeedant"
+    },
+    "6": {
+      "nl": "Bekijk de video van Lifestyle Lab over de Profitec Pro 400 (2022-09-04): Profitec Pro 400 | De ÉCHTE uitdager van de Appartamento! Een onafhankelijke praktijkvideo van precies de Pro 400, met de behuizing, bediening, temperatuurschakelaar, pre-infusie en het dagelijks werken met de E61-zetgroep. LifeStyle Lab vermeldt deelname aan affiliateprogramma’s. Eén exemplaar zegt niets beslissends over de betrouwbaarheid of gemeten prestaties van alle machines.",
+      "de": "Video von Lifestyle Lab zur Profitec Pro 400 ansehen (2022-09-04): Profitec Pro 400 | Der ECHTE Herausforderer der Appartamento! Ein unabhängiges Praxisvideo zu genau diesem Modell, dem Pro 400. Es zeigt das Gehäuse, die Bedienelemente, den Temperaturschalter, die Präinfusion und die tägliche Arbeit mit der E61-Brühgruppe. LifeStyle Lab legt die Teilnahme an Affiliate-Programmen offen. Ein einzelnes Exemplar erlaubt keine Aussage zur Zuverlässigkeit oder zu gemessenen Leistungen aller Maschinen.",
+      "fr": "Regardez la vidéo de Lifestyle Lab sur la Profitec Pro 400 (2022-09-04) : Profitec Pro 400 | Le VRAI rival de l’Appartamento ! Cette vidéo indépendante montre la Pro 400 en usage : châssis, commandes, sélecteur de température, préinfusion et utilisation quotidienne du groupe E61. LifeStyle Lab indique participer à des programmes d’affiliation. Un seul exemplaire ne permet pas d’établir la fiabilité ou les performances mesurées de toutes les machines."
+    },
+    "8": {
+      "nl": "Video over de Profitec Pro 400 door Lifestyle Lab",
+      "de": "Video zur Profitec Pro 400 von Lifestyle Lab",
+      "fr": "Vidéo de Lifestyle Lab sur la Profitec Pro 400"
+    },
+    "9": {
+      "nl": "← Review van de Profitec Pro 400",
+      "de": "← Testbericht zur Profitec Pro 400",
+      "fr": "← Essai de la Profitec Pro 400"
+    },
+    "10": {
+      "nl": "Profitec Pro 400 | De ÉCHTE uitdager van de Appartamento! Door Lifestyle Lab",
+      "de": "Profitec Pro 400 | Der ECHTE Herausforderer der Appartamento! Von Lifestyle Lab",
+      "fr": "Profitec Pro 400 | Le VRAI rival de l’Appartamento ! Par Lifestyle Lab"
+    },
+    "11": {
+      "nl": "Profitec Pro 400 · Perspectief van een derde",
+      "de": "Profitec Pro 400 · Sicht eines Dritten",
+      "fr": "Profitec Pro 400 · Point de vue d’un tiers"
+    },
+    "15": {
+      "nl": "Profitec Pro 400: Review: Profitec Pro 400-espressomachine · Whole Latte Love (2022-07-13) | Coffeedant",
+      "de": "Profitec Pro 400: Testbericht: Espressomaschine Profitec Pro 400 · Whole Latte Love (2022-07-13) | Coffeedant",
+      "fr": "Profitec Pro 400 : Essai de la machine à espresso Profitec Pro 400 · Whole Latte Love (2022-07-13) | Coffeedant"
+    },
+    "16": {
+      "nl": "Bekijk de video van Whole Latte Love over de Profitec Pro 400 (2022-07-13): Review: Profitec Pro 400-espressomachine. Whole Latte Love presenteert de Profitec Pro 400 en bespreekt het zetten van espresso en melkdranken, het ontwerp en de constructie. Dit is het perspectief van een verkoper van apparatuur. Bekijk ook de andere bronnen en onze geschreven review.",
+      "de": "Video von Whole Latte Love zur Profitec Pro 400 ansehen (2022-07-13): Testbericht: Espressomaschine Profitec Pro 400. Whole Latte Love stellt die Profitec Pro 400 vor und geht auf die Zubereitung von Espresso und Milchgetränken sowie auf Design und Bauweise ein. Das ist die Sicht eines Gerätehändlers. Ziehen Sie auch die anderen Quellen und unseren schriftlichen Testbericht heran.",
+      "fr": "Regardez la vidéo de Whole Latte Love sur la Profitec Pro 400 (2022-07-13) : Essai de la machine à espresso Profitec Pro 400. Whole Latte Love présente la Profitec Pro 400 et aborde la préparation de l’espresso et de boissons lactées, la conception et la construction. C’est le point de vue d’un vendeur de matériel. Consultez aussi les autres sources et notre essai écrit."
+    },
+    "18": {
+      "nl": "Video over de Profitec Pro 400 door Whole Latte Love",
+      "de": "Video zur Profitec Pro 400 von Whole Latte Love",
+      "fr": "Vidéo de Whole Latte Love sur la Profitec Pro 400"
+    },
+    "19": {
+      "nl": "Review: Profitec Pro 400-espressomachine, door Whole Latte Love",
+      "de": "Testbericht: Espressomaschine Profitec Pro 400, von Whole Latte Love",
+      "fr": "Essai de la machine à espresso Profitec Pro 400, par Whole Latte Love"
+    },
+    "20": {
+      "nl": "Profitec Pro 400 · Perspectief van een verkoper",
+      "de": "Profitec Pro 400 · Sicht eines Händlers",
+      "fr": "Profitec Pro 400 · Point de vue d’un revendeur"
+    },
+    "21": {
+      "nl": "Review: Profitec Pro 400-espressomachine",
+      "de": "Testbericht: Espressomaschine Profitec Pro 400",
+      "fr": "Essai de la machine à espresso Profitec Pro 400"
+    },
+    "22": {
+      "nl": "13 juli 2022",
+      "de": "13. Juli 2022",
+      "fr": "13 juillet 2022"
+    },
+    "23": {
+      "nl": "Whole Latte Love presenteert de Profitec Pro 400 en bespreekt het zetten van espresso en melkdranken, het ontwerp en de constructie. Dit is het perspectief van een verkoper van apparatuur. Bekijk ook de andere bronnen en onze geschreven review.",
+      "de": "Whole Latte Love stellt die Profitec Pro 400 vor und geht auf die Zubereitung von Espresso und Milchgetränken sowie auf Design und Bauweise ein. Das ist die Sicht eines Gerätehändlers. Ziehen Sie auch die anderen Quellen und unseren schriftlichen Testbericht heran.",
+      "fr": "Whole Latte Love présente la Profitec Pro 400 et aborde la préparation de l’espresso et de boissons lactées, la conception et la construction. C’est le point de vue d’un vendeur de matériel. Consultez aussi les autres sources et notre essai écrit."
+    }
+  }
+}
