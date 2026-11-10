@@ -4805,6 +4805,25 @@ NL 16,894 translated and 41,154 pending, DE 17,010 translated and 41,038
 pending, and FR 16,874 translated and 41,174 pending. Finder gaps are zero.
 Each edition has 150 non-video and 318 video pages left.
 
+### Direct batch 109 — Bean hub cards and shared equipment copy (2026-11-10)
+
+Translate five new bean review cards on the existing bean hub, including the
+image descriptions and structured text. Preserve the roasters' flavor
+attributions and the limits of older tastings. Translate the Profitec
+GO 2.0 menu entry, brand hub copy and Finder description, best-for label
+and image description. Translate the Eureka Mignon Specialità 55 menu
+entry, grinder hub card and comparison row. The seven new written reviews
+open in English. A shorter French grinder headline keeps the hero within
+the mobile viewport.
+
+The three authored groups add 49 cache entries per edition. The
+release snapshot freezes the three complete hubs against the current build.
+The source has 681 pages and 59,010 segments. Each edition can render 204
+indexable pages and a localized 404. Coverage is NL 16,940 translated and
+42,070 pending, DE 17,056 translated and 41,954 pending, and FR 16,920
+translated and 42,090 pending. The 153-item Finder has no translation gaps.
+Each edition has 157 non-video and 319 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
