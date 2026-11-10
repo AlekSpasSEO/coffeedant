@@ -4750,6 +4750,23 @@ Coverage is NL 16,802 translated and 41,127 pending, DE 16,858 translated
 and 41,071 pending, and FR 16,782 translated and 41,147 pending. Finder
 gaps are zero. Each edition has 149 non-video and 324 video pages left.
 
+### Direct batch 106 — Gaggia Accademia and Anima video pages (2026-11-10)
+
+Translate the Whole Latte Love Gaggia Accademia Glass RI9781/01 video
+and Coffee Kev’s Gaggia Anima video in Dutch, German and French. Preserve
+dates, embeds, creator attribution, retailer perspective and affiliate
+disclosure. Keep the registered Dutch and German paths and add both
+French paths. The Anima video points to the published native review;
+the unfinished Accademia written review still opens in English.
+
+The full snapshot freezes 508 slots. Sixteen directly translated strings
+fill 28 missing slots per edition. The source has 672 pages and 57,929
+segments. Each edition can render 200 indexable pages and a localized 404.
+Coverage is NL 16,830 translated and 41,099 pending, DE 16,946 translated
+and 40,983 pending, and FR 16,810 translated and 41,119 pending. The
+German total includes the concurrent cache update already on main. Finder
+gaps are zero. Each edition has 149 non-video and 322 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
