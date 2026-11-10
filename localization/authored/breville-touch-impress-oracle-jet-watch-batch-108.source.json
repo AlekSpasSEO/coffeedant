@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/breville-barista-touch-impress-bes881/video/lifestyle-lab/",
+      "sourceHash": "a601a28b4122123ee5ce73b5c7577ae6f9f5e6f2da2343f41eface2ee1789c6e"
+    },
+    {
+      "sourcePath": "/espresso-machine/breville-oracle-jet-bes985/video/lifestyle-lab/",
+      "sourceHash": "74e8541a61d47d1a9192b164707de6f83e98a31d7e03e9a7d48be810357b94aa"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "5983b5d98775062cd58c741469111a7077dc4494d72874ebe600ab6b0d91d5fc",
+      "source": "← Breville Barista Touch Impress BES881 review",
+      "kind": "text",
+      "context": "← Breville Barista Touch Impress BES881 review"
+    },
+    {
+      "id": "3ecdbf6efe83430998e07543bfd05f568f2a31a9223c300c375c966f7381124a",
+      "source": "Breville Barista Touch Impress BES881 · Third-party perspective",
+      "kind": "text",
+      "context": "Breville Barista Touch Impress BES881 · Third-party perspective"
+    },
+    {
+      "id": "3656ced5119693a83b9946ce2c5f536f6d2a31e09a2e561a8e444755cb142b3b",
+      "source": "Breville Barista Touch Impress BES881: Breville Barista Touch IMPRESS Review! · Lifestyle Lab (2023-08-19) | Coffeedant",
+      "kind": "text",
+      "context": "Breville Barista Touch Impress BES881: Breville Barista Touch IMPRESS Review! · Lifestyle Lab (2023-08-19) | Coffeedant"
+    },
+    {
+      "id": "f6bc9456606e12d9f136e63a60e006278a838350d953e60f329275a7904b5e73",
+      "source": "Watch Lifestyle Lab on Breville Barista Touch Impress BES881 (2023-08-19): Breville Barista Touch IMPRESS Review!. Lifestyle Lab presents Breville Barista Touch Impress BES881, covering espresso preparation, milk drinks, design and construction. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "3e34573f37ae5d97f65dd518e50d1479d58e713b4fd8d958df91a43f4a9857a1",
+      "source": "Breville Barista Touch Impress BES881: Breville Barista Touch IMPRESS Review! · Lifestyle Lab (2023-08-19) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "9a8a9681f30a033a1079fde1e113a4b77bbb848a0cb17aa9918f659d34ac3b4a",
+      "source": "Breville Barista Touch Impress BES881 video by Lifestyle Lab",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "cb7459eaa7f016261c2446eaef6e0324517d38e34c934881aeb5dca75ff9a645",
+      "source": "Breville Barista Touch IMPRESS Review! by Lifestyle Lab",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "648b66519a4bbc8a5e0f5c280ee37f70d6dfd62d5959fad5d0b5e88468185877",
+      "source": "Breville Barista Touch IMPRESS Review!",
+      "kind": "text",
+      "context": "Breville Barista Touch IMPRESS Review!"
+    },
+    {
+      "id": "e6450b7a57acc9828e6f22439da852727c956c37a613f5e6ebb4c6b0acef3bbf",
+      "source": "August 19, 2023",
+      "kind": "text",
+      "context": "August 19, 2023"
+    },
+    {
+      "id": "10a3a22f5a3eec82a02faf8a3751108104c23830b557672af585d522a983bbdf",
+      "source": "Lifestyle Lab presents Breville Barista Touch Impress BES881, covering espresso preparation, milk drinks, design and construction. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Lifestyle Lab presents Breville Barista Touch Impress BES881, covering espresso preparation, milk drinks, design and construction. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "989966aac5fabb20243851eabae42dfcb7f7cb2dc3ca39c94b297d94b1d1e6bb",
+      "source": "Breville Barista Touch Impress BES881: Breville Barista Touch IMPRESS Review! · Lifestyle Lab (2023-08-19) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "9b20dfb5089e950b7ad6ea055f25ee05b9648b8f5addece1d24fb491105d3171",
+      "source": "Watch Lifestyle Lab on Breville Barista Touch Impress BES881 (2023-08-19): Breville Barista Touch IMPRESS Review!. Lifestyle Lab presents Breville Barista Touch Impress BES881, covering espresso preparation, milk drinks, design and construction. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "3d09d40797282d8fb10d0fed78437818471249c2b4c6ec14a652832e902860cd",
+      "source": "Breville Barista Touch Impress BES881 video by Lifestyle Lab",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "434f1c2303b782f79b31ac78dd53aa688974b088e5080adf3461b952c081b070",
+      "source": "Breville Barista Touch IMPRESS Review!",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "91304ae714245178072c8a04304094eafa758143d204a57668ccc0050b322853",
+      "source": "Lifestyle Lab presents Breville Barista Touch Impress BES881, covering espresso preparation, milk drinks, design and construction. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "9a2d79960c0936c9ee29fc9793b624150a94bfd5d7d0d6c54d49913ce8ff9ae6",
+      "source": "NEW Breville Oracle Jet Review!",
+      "kind": "text",
+      "context": "NEW Breville Oracle Jet Review!"
+    },
+    {
+      "id": "02c48c784a4cbfd1d02248d0c8a319313b749c4f48e0e6f442d03284da80fb7e",
+      "source": "September 13, 2024",
+      "kind": "text",
+      "context": "September 13, 2024"
+    },
+    {
+      "id": "c4f0691c54410467cf47788f10996423c31c452ee0b8a19d6c6992299b8ab739",
+      "source": "An independent hands-on video showing Oracle Jet preparation, Barista Guidance, touchscreen, extraction, and Auto MilQ. It is reviewer evidence, not Coffeedant testing; current pricing and model facts were checked with Breville.",
+      "kind": "text",
+      "context": "An independent hands-on video showing Oracle Jet preparation, Barista Guidance, touchscreen, extraction, and Auto MilQ. It is reviewer evidence, not Coffeedant testing; current pricing and model facts were checked with Breville."
+    },
+    {
+      "id": "1621e755cd2b3817ae123642560734cc8bb8a694f9b39a1235a57ad6b5d5fd7b",
+      "source": "NEW Breville Oracle Jet Review!",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b5236f71a52cbca410d8630ee59cad0fe354bb9f5b7477c5c09c4a1ca8cee30a",
+      "source": "An independent hands-on video showing Oracle Jet preparation, Barista Guidance, touchscreen, extraction, and Auto MilQ. It is reviewer evidence, not Coffeedant testing; current pricing and model facts were checked with Breville.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "50b9482e75ebf4f7fdb8aec19856aeed6154562aaeb7bb24176a4041c6793e01",
+      "source": "Breville Oracle Jet BES985: NEW Breville Oracle Jet Review! · Lifestyle Lab (2024-09-13) | Coffeedant",
+      "kind": "text",
+      "context": "Breville Oracle Jet BES985: NEW Breville Oracle Jet Review! · Lifestyle Lab (2024-09-13) | Coffeedant"
+    },
+    {
+      "id": "29a0b3b87346038e3a579b36ac692f2a701cbca2a88951aa5d1f6f5a9c328b5c",
+      "source": "Watch Lifestyle Lab on Breville Oracle Jet BES985 (2024-09-13): NEW Breville Oracle Jet Review!. An independent hands-on video showing Oracle Jet preparation, Barista Guidance, touchscreen, extraction, and Auto MilQ. It is reviewer evidence, not Coffeedant testing; current pricing and model facts were checked with Breville.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "1a987e1f3e99d01e700e629d73a331abfba3ba5d15c269cee56d0da129ea6f0e",
+      "source": "Breville Oracle Jet BES985: NEW Breville Oracle Jet Review! · Lifestyle Lab (2024-09-13) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "f6cec5a0cd3fbe0adf86c96639da632b60a8017e36b33f835ff36ca4e8758ecb",
+      "source": "Breville Oracle Jet BES985 video by Lifestyle Lab",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "39f1aade0ab0b37816553d1078c90d11897dac5088a842e08645293de8149f06",
+      "source": "← Breville Oracle Jet BES985 review",
+      "kind": "text",
+      "context": "← Breville Oracle Jet BES985 review"
+    },
+    {
+      "id": "d4a7b7bbafaf941ced9e668ee9e87bd3535987eb640cf6e27478bac0a1593c89",
+      "source": "NEW Breville Oracle Jet Review! by Lifestyle Lab",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "78fd785b864f479d9eeea8304dd886f453b0ba7c750b3d6705ab430dc27dccda",
+      "source": "Breville Oracle Jet BES985 · Third-party perspective",
+      "kind": "text",
+      "context": "Breville Oracle Jet BES985 · Third-party perspective"
+    },
+    {
+      "id": "046beb1d9a8201935a3c9f48fbc23a8d7ccddaec71f5c9e484a7e9a62d897b25",
+      "source": "Breville Oracle Jet BES985: NEW Breville Oracle Jet Review! · Lifestyle Lab (2024-09-13) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "73519bbe39e07b83ffe7d96f662784625e94b9c430a3fd7aa0911dcdbd3080b7",
+      "source": "Watch Lifestyle Lab on Breville Oracle Jet BES985 (2024-09-13): NEW Breville Oracle Jet Review!. An independent hands-on video showing Oracle Jet preparation, Barista Guidance, touchscreen, extraction, and Auto MilQ. It is reviewer evidence, not Coffeedant testing; current pricing and model facts were checked with Breville.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "4c0a668328c4826847e71a0d7cc3a60e9c9fd9d1e36bff9acca30fe0b32c0048",
+      "source": "Breville Oracle Jet BES985 video by Lifestyle Lab",
+      "kind": "json",
+      "context": "caption"
+    }
+  ],
+  "snapshotHash": "ba2d4afd53a8bccf7267f0c856a4f9581ccddb7aba2625d81da69909f8abd41d"
+}

@@ -4787,6 +4787,24 @@ Coverage is NL 16,864 translated and 41,184 pending, DE 16,980 translated
 and 41,068 pending, and FR 16,844 translated and 41,204 pending. Finder
 gaps are zero. Each edition has 150 non-video and 320 video pages left.
 
+### Direct batch 108 — Breville Touch Impress and Oracle Jet video pages (2026-11-10)
+
+Translate both complete Lifestyle Lab video pages into Dutch, German and
+French. Keep the Touch Impress demonstrations and opinions attributed to
+Lifestyle Lab. The Oracle Jet page distinguishes the creator's hands-on
+video from Coffeedant's check of prices and model details with Breville.
+The translations preserve the dates, embeds and affiliate disclosures
+without adding regional prices. The Dutch and German routes stay in place,
+and the French routes use `/machine-a-espresso/`. The unfinished written
+reviews open in English with the edition notice.
+
+The full snapshot freezes 504 slots. Eighteen new strings fill the 30
+missing slots in each edition. The source has 673 pages and 58,048 segments.
+Each edition can render 204 indexable pages and a localized 404. Coverage is
+NL 16,894 translated and 41,154 pending, DE 17,010 translated and 41,038
+pending, and FR 16,874 translated and 41,174 pending. Finder gaps are zero.
+Each edition has 150 non-video and 318 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
