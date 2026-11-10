@@ -4892,6 +4892,22 @@ a localized 404. Coverage is NL 17,056 translated and 41,954 pending, DE
 pending. Finder gaps are zero. Each edition has 157 non-video and 311 video
 pages left.
 
+### Direct batch 114 — Bambino Plus and Barista Express video pages (2026-11-10)
+
+Translate both complete Tom's Coffee Corner pages into Dutch, German and
+French. Preserve the Bambino Plus model name and the Express video's
+original title and dates. The Express text distinguishes the creator's
+demonstration from Coffeedant testing and attributes the current US
+specifications and accessories to Breville's 2026 sources. Both written
+reviews open in English with the edition notice.
+
+Sixteen translated strings fill 26 missing slots and add 28 cache entries
+per edition. The source has 681 pages and 59,010 segments. Each edition
+can render 214 indexable pages and a localized 404. Coverage is NL 17,084
+translated and 41,926 pending, DE 17,200 translated and 41,810 pending,
+and FR 17,064 translated and 41,946 pending. Finder gaps are zero. Each
+edition has 157 non-video and 309 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
