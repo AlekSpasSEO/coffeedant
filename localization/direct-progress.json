@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T15:56:08.472Z",
+  "updatedAt": "2026-11-10T16:36:41.747Z",
   "sourcePages": 681,
   "sourceSegments": 59010,
   "continuation": "finish-coffeedant-dutch-german-french-rollout",
@@ -8,31 +8,31 @@
     {
       "edition": "nl",
       "host": "nl.coffeedant.com",
-      "translatedSegments": 16940,
-      "pendingSegments": 42070,
+      "translatedSegments": 16966,
+      "pendingSegments": 42044,
       "finderPendingSegments": 0,
-      "contentPagesWithCompleteText": 204,
-      "renderableContentPages": 204,
+      "contentPagesWithCompleteText": 206,
+      "renderableContentPages": 206,
       "completeEdition": false
     },
     {
       "edition": "de",
       "host": "de.coffeedant.com",
-      "translatedSegments": 17056,
-      "pendingSegments": 41954,
+      "translatedSegments": 17082,
+      "pendingSegments": 41928,
       "finderPendingSegments": 0,
-      "contentPagesWithCompleteText": 204,
-      "renderableContentPages": 204,
+      "contentPagesWithCompleteText": 206,
+      "renderableContentPages": 206,
       "completeEdition": false
     },
     {
       "edition": "fr",
       "host": "fr.coffeedant.com",
-      "translatedSegments": 16920,
-      "pendingSegments": 42090,
+      "translatedSegments": 16946,
+      "pendingSegments": 42064,
       "finderPendingSegments": 0,
-      "contentPagesWithCompleteText": 204,
-      "renderableContentPages": 204,
+      "contentPagesWithCompleteText": 206,
+      "renderableContentPages": 206,
       "completeEdition": false
     }
   ]

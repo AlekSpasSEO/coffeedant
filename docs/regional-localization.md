@@ -4824,6 +4824,25 @@ indexable pages and a localized 404. Coverage is NL 16,940 translated and
 translated and 42,090 pending. The 153-item Finder has no translation gaps.
 Each edition has 157 non-video and 319 video pages left.
 
+### Direct batch 110 — Breville Oracle and Profitec GO video pages (2026-11-10)
+
+Translate both complete Lifestyle Lab pages in Dutch, German and French.
+Preserve the original Oracle's 58 mm preparation, the separate price and
+support check, and the distinction between reviewer evidence and Coffeedant
+testing. Keep the Profitec video tied to the first-generation GO. Both
+written reviews open in English with the edition notice. Existing Dutch
+and German routes stay in place, and the French routes use
+`/machine-a-espresso/`.
+
+The authoring snapshot freezes 506 slots, and the production snapshot
+freezes 509 after SEO processing. Fourteen new strings fill 24 missing
+slots and add 26 cache entries per edition. The source has 681 pages and
+59,010 segments. Each edition can render 206 indexable pages and a
+localized 404. Coverage is NL 16,966 translated and 42,044 pending, DE
+17,082 translated and 41,928 pending, and FR 16,946 translated and 42,064
+pending. Finder gaps are zero. Each edition has 157 non-video and 317 video
+pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
