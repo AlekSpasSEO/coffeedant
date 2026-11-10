@@ -412,7 +412,7 @@ export const brevilleBaristaTouchReview: MachineReviewData = buildResearchReview
   image: 'images/products/breville-barista-touch-bes880bss.png',
   imageAlt: 'Breville Barista Touch BES880 espresso machine with touchscreen and integrated grinder',
   published: '2025-10-02',
-  updated: '2026-09-15',
+  updated: '2026-11-10',
   authorNote: 'I focused on the gap between what the touchscreen suggests and what the machine actually automates. The Barista Touch can guide a beginner beautifully, but the quality of the espresso still depends on hands-on coffee preparation.',
   basisDisclosure: 'This is a research-led editorial assessment built from the current US BES880 product page, 2026 instruction book, support and parts routes, five independent hands-on perspectives, one five-year owner review and separate community discussions. Coffeedant has not physically tested this machine. External measurements and recipes remain attributed, and owner anecdotes are not defect-rate evidence.',
   price: {
@@ -587,6 +587,7 @@ export const brevilleBaristaTouchReview: MachineReviewData = buildResearchReview
           <h3>Use the filter reminder as guidance, not a substitute for water knowledge</h3>
           <p>The current manual says to soak the filter for five minutes and recommends replacement after three months or 10.6 US gallons / 40 liters, with water quality and use still relevant. It also warns against distilled or demineralized water. Know the water entering the tank and follow regional instructions. A filter does not make every source safe from scale or every bottled water suitable.</p>
           <h3>Plan for grinder and brewer downtime together</h3>
+          <p>Breville separates three jobs on this BES880: the prompted Clean Cycle back-flushes the group head, the Descale Cycle addresses mineral buildup in the water path, and brushing the removable upper burr and chute addresses coffee-oil buildup in the grinder. One cycle cannot substitute for the others. Follow the screen prompt and model-matched manual for each procedure; if a used machine has weak flow and erratic grinding, ask the seller to demonstrate both systems before treating a cleaning tablet as a repair. <a href="#bt-manual">[2]</a></p>
 
           <h3>Buying used requires a complete drink demonstration</h3>
           <p>Ask a used seller to start from cold, grind a weighed dose, pull a shot, dispense hot water and run automatic milk with the supplied jug. Confirm touchscreen response, grinder sound, tank seating, steam output and absence of leaks. Check that the portafilter, four baskets, funnel, jug, filter holder, cleaning disc and tools match the listing. Missing accessories are replaceable only if their cost and fit are understood.</p>
