@@ -4734,6 +4734,22 @@ Coverage is NL 16,772 translated and 41,157 pending, DE 16,828 translated
 and 41,101 pending, and FR 16,752 translated and 41,177 pending. Finder
 gaps are zero. Each edition has 149 non-video and 326 video pages left.
 
+### Direct batch 105 — Ascaso Steel Duo and Uno PID video pages (2026-11-10)
+
+Translate the Lifestyle Lab Steel Duo PID V2 review and Seattle Coffee
+Gear’s Steel Uno PID review in Dutch, German and French. Keep the two
+models distinct and preserve the dates, embeds, creator attribution,
+affiliate disclosure and retailer perspective. Keep all registered video
+paths. Both unfinished written reviews still open in English with the
+edition notice.
+
+The full snapshot freezes 508 slots. Eighteen directly translated strings
+fill 30 missing slots per edition. The source has 672 pages and 57,929
+segments. Each edition can render 198 indexable pages and a localized 404.
+Coverage is NL 16,802 translated and 41,127 pending, DE 16,858 translated
+and 41,071 pending, and FR 16,782 translated and 41,147 pending. Finder
+gaps are zero. Each edition has 149 non-video and 324 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
