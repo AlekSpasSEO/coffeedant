@@ -4859,6 +4859,22 @@ translated and 42,014 pending, DE 17,112 translated and 41,898 pending,
 and FR 16,976 translated and 42,034 pending. Finder gaps are zero. Each
 edition has 157 non-video and 315 video pages left.
 
+### Direct batch 112 — Ninja Luxe Café Premier ES601 video pages (2026-11-10)
+
+Translate the James Hoffmann and Lifestyle Lab video pages into Dutch,
+German and French. Retain the $499 figure in Hoffmann's 2024 video title
+as part of that title. Lifestyle Lab's 2025 page keeps its separate
+coverage of setup and controls. Both pages attribute the demonstrations
+and opinions to the creator and link to the unfinished written review in
+English. Registered Dutch and German video routes stay in place.
+
+Eighteen new strings fill 28 missing slots and add 30 cache entries per
+edition. The source has 681 pages and 59,010 segments. Each edition can
+render 210 indexable pages and a localized 404. Coverage is NL 17,026
+translated and 41,984 pending, DE 17,142 translated and 41,868 pending,
+and FR 17,006 translated and 42,004 pending. Finder gaps are zero. Each
+edition has 157 non-video and 313 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
