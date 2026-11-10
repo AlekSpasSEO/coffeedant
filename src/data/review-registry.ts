@@ -91,6 +91,7 @@ import { weekdayProfitecJumpReviews } from './reviews/weekday-profitec-jump';
 import { weekdayProfitecMoveReviews } from './reviews/weekday-profitec-move';
 import { weekdayProfitecDriveReviews } from './reviews/weekday-profitec-drive';
 import { weekdayProfitecGo2Reviews } from './reviews/weekday-profitec-go-2';
+import { weekdayEurekaSpecialita55Reviews } from './reviews/weekday-eureka-specialita-55';
 import { weekdayMazzerPhilosReviews } from './reviews/weekday-mazzer-philos';
 import { weekdayTurinLegatoV2Reviews } from './reviews/weekday-turin-legato-v2';
 import { upgradeVbmDomobarSingleBoilerDigitalReviews } from './reviews/upgrade-vbm-domobar-single-boiler-digital';
@@ -222,6 +223,7 @@ const candidates: MachineReviewData[] = [
   ...weekdayProfitecMoveReviews,
   ...weekdayProfitecDriveReviews,
   ...weekdayProfitecGo2Reviews,
+  ...weekdayEurekaSpecialita55Reviews,
   ...weekdayMazzerPhilosReviews,
   ...weekdayTurinLegatoV2Reviews,
   ...upgradeVbmDomobarSingleBoilerDigitalReviews,
