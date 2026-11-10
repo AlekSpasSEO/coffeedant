@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/breville-barista-pro-bes878/video/lifestyle-lab/",
+      "sourceHash": "72f5847f5d09b1f616f8d91a93092f05a676263c2f1bc680d6fccec83cbbb1aa"
+    },
+    {
+      "sourcePath": "/espresso-machine/breville-barista-touch-bes880bss/video/lifestyle-lab/",
+      "sourceHash": "6576a5d27c5a8312701b50c7cd8f5c8eec4f91b5910d7abcd7d41bea70f820e7"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "e48adfe5fb8759e3fe715ea6fee90a2189ea58572f4998fde6b46d1b73758046",
+      "source": "Breville Barista Express vs Barista Pro | Upgrade?",
+      "kind": "text",
+      "context": "Breville Barista Express vs Barista Pro | Upgrade?"
+    },
+    {
+      "id": "264125d45014a509439e81f7cfd8f222bae43a9de44335765a5fe6662390ef08",
+      "source": "March 8, 2020",
+      "kind": "text",
+      "context": "March 8, 2020"
+    },
+    {
+      "id": "553a10b6ece35f7141e94e9d1845a69de7cda5210c491c4133c358570b736c30",
+      "source": "A useful side-by-side demonstration of the heater, interface and steam-workflow differences. It predates the current burr specification, so the 2026 official sources control grinder facts.",
+      "kind": "text",
+      "context": "A useful side-by-side demonstration of the heater, interface and steam-workflow differences. It predates the current burr specification, so the 2026 official sources control grinder facts."
+    },
+    {
+      "id": "f00e2cbf8eaa81ebc29b2b40e4a7c6f0c05fc0460cd33560ffe421a61722e4b4",
+      "source": "Breville Barista Express vs Barista Pro | Upgrade?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "55b96366e2195a51dad2134be511ee27d8ec07e1c94ac5bfe3b8cbdf73312692",
+      "source": "A useful side-by-side demonstration of the heater, interface and steam-workflow differences. It predates the current burr specification, so the 2026 official sources control grinder facts.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "9352e59ef20d6eec3520de887e7f9f49c873235c06e70c0d1523adf996d28d6f",
+      "source": "← Breville Barista Pro review",
+      "kind": "text",
+      "context": "← Breville Barista Pro review"
+    },
+    {
+      "id": "07e8008468af09d7778a0aed44279887226a49561e05791ce67608217887da21",
+      "source": "Breville Barista Pro · Third-party perspective",
+      "kind": "text",
+      "context": "Breville Barista Pro · Third-party perspective"
+    },
+    {
+      "id": "596e5e5d635c932ae7ae18b4d26aef2fbd2d082bcf8256f3ef9cb0ffd8f8f6e4",
+      "source": "Breville Barista Pro: Breville Barista Express vs Barista Pro | Upgrade? · Lifestyle Lab (2020-03-08) | Coffeedant",
+      "kind": "text",
+      "context": "Breville Barista Pro: Breville Barista Express vs Barista Pro | Upgrade? · Lifestyle Lab (2020-03-08) | Coffeedant"
+    },
+    {
+      "id": "ea0fafa07b69e59cb87aae906c8388a4ce7c63611d05345a6b4821820cf66aaf",
+      "source": "Watch Lifestyle Lab on Breville Barista Pro (2020-03-08): Breville Barista Express vs Barista Pro | Upgrade?. A useful side-by-side demonstration of the heater, interface and steam-workflow differences. It predates the current burr specification, so the 2026 official sources control grinder facts.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "b3f6df17c6e96489b0bdbbc9a163e6f899b275e99b7823afd72381be8be9389b",
+      "source": "Breville Barista Pro: Breville Barista Express vs Barista Pro | Upgrade? · Lifestyle Lab (2020-03-08) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "cd28e6d21935218c7a51745baca1eaf35fd6e4041ff7d1c957077244c12a42f7",
+      "source": "Breville Barista Pro video by Lifestyle Lab",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "6670608214c8da79b585bbadae2b40ade7ab74fdf5d2d9c25866bbebe8bebd0a",
+      "source": "Breville Barista Express vs Barista Pro | Upgrade? by Lifestyle Lab",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "a5158937a562173833debcc4e9788dae246334f5e65523e44ecddf2aacdb9989",
+      "source": "Breville Barista Pro: Breville Barista Express vs Barista Pro | Upgrade? · Lifestyle Lab (2020-03-08) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "90d1362b3e118165a6a9571b6eaf475b234797ffefd4be491d9697b1b1d14f89",
+      "source": "Watch Lifestyle Lab on Breville Barista Pro (2020-03-08): Breville Barista Express vs Barista Pro | Upgrade?. A useful side-by-side demonstration of the heater, interface and steam-workflow differences. It predates the current burr specification, so the 2026 official sources control grinder facts.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "d6071845dc37a337829f3c6938541d8fe76c967a9cc859c4c1e5faf29101800e",
+      "source": "Breville Barista Pro video by Lifestyle Lab",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "9854dfbf840ef4e8ea0fc1265e65b656f09c39a08e13b386dbda21cfbafb6a57",
+      "source": "Breville Barista Touch Review  | Do you need a screen?",
+      "kind": "text",
+      "context": "Breville Barista Touch Review  | Do you need a screen?"
+    },
+    {
+      "id": "edf98ddb847ffb2557d23905018ae74e3246cd4d2cefc5f96962b83437b79cc9",
+      "source": "March 19, 2022",
+      "kind": "text",
+      "context": "March 19, 2022"
+    },
+    {
+      "id": "21190388043bb57eb033fd849e0f639f630ec97f4f3b6883ab91d6c9a99128f0",
+      "source": "An independent workflow-focused demonstration. Its shot and timing observations belong to the reviewer's unit and do not represent Coffeedant testing.",
+      "kind": "text",
+      "context": "An independent workflow-focused demonstration. Its shot and timing observations belong to the reviewer's unit and do not represent Coffeedant testing."
+    },
+    {
+      "id": "7ba70deb01eb2d9d162dec9fa993994650c26d9bce09fe133468ec45a348533f",
+      "source": "Breville Barista Touch Review  | Do you need a screen?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "5c8460c0fb474c0527cd76cf7f8f018f11ceb41be3e8b705e66ed25fdeac0f77",
+      "source": "An independent workflow-focused demonstration. Its shot and timing observations belong to the reviewer's unit and do not represent Coffeedant testing.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "7dc0024b40335e36115cac1b7c2a48f55c32bb75d336102e3bcebb452e29237a",
+      "source": "← Breville Barista Touch review",
+      "kind": "text",
+      "context": "← Breville Barista Touch review"
+    },
+    {
+      "id": "04e949797f55d7b796d8abece90f9dab10fd36a0e52ecb5db257e983d8741e9a",
+      "source": "Breville Barista Touch · Third-party perspective",
+      "kind": "text",
+      "context": "Breville Barista Touch · Third-party perspective"
+    },
+    {
+      "id": "b2fde6bcee65e683e95d7b89991379220328ff25009a56a96fc590cc3a9c6c25",
+      "source": "Breville Barista Touch: Breville Barista Touch Review | Do you need a screen? · Lifestyle Lab (2022-03-19) | Coffeedant",
+      "kind": "text",
+      "context": "Breville Barista Touch: Breville Barista Touch Review | Do you need a screen? · Lifestyle Lab (2022-03-19) | Coffeedant"
+    },
+    {
+      "id": "1a9d995db56548642c01414b751b654e22b7543e329642e58e460f7ef6a3546b",
+      "source": "Watch Lifestyle Lab on Breville Barista Touch (2022-03-19): Breville Barista Touch Review | Do you need a screen?. An independent workflow-focused demonstration. Its shot and timing observations belong to the reviewer's unit and do not represent Coffeedant testing.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "27fce9b0ed474f6afcd7b34edc47d23eb2d381e66f8236ae6c41caf9d4ed4773",
+      "source": "Breville Barista Touch: Breville Barista Touch Review | Do you need a screen? · Lifestyle Lab (2022-03-19) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "654059ec24c1330d4ab7776f050569eff47df704334b655a1166a0412bc1f0f3",
+      "source": "Breville Barista Touch video by Lifestyle Lab",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "effb0cf79c655ce6d38eb60d050d0a84aa0042ee9d358199b7918b1dfd4eacd8",
+      "source": "Breville Barista Touch Review  | Do you need a screen? by Lifestyle Lab",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "981bb1e9f24aaccb1f76ce944377cd114bc71e0aee8605e8960a42056ab72082",
+      "source": "Breville Barista Touch: Breville Barista Touch Review | Do you need a screen? · Lifestyle Lab (2022-03-19) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "7cd5e29e54a51e027a53745e21ee6e5b9351b64aeddb07d14c8b99c6bebe7332",
+      "source": "Watch Lifestyle Lab on Breville Barista Touch (2022-03-19): Breville Barista Touch Review | Do you need a screen?. An independent workflow-focused demonstration. Its shot and timing observations belong to the reviewer's unit and do not represent Coffeedant testing.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "eafd9ea5850e4517736611c75efb6f20b60db5f1e16f65cea8220ec038a4223c",
+      "source": "Breville Barista Touch video by Lifestyle Lab",
+      "kind": "json",
+      "context": "caption"
+    }
+  ],
+  "snapshotHash": "ec54f2737c8c71032052b3967e93d33ded2c307bb79dfe1a90050a2baa9d845e"
+}

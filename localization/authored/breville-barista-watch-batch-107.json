@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "breville-barista-watch-batch-107.source.json",
+  "snapshotHash": "ec54f2737c8c71032052b3967e93d33ded2c307bb79dfe1a90050a2baa9d845e",
+  "routes": {
+    "fr": {
+      "/espresso-machine/breville-barista-pro-bes878/video/lifestyle-lab/": "/machine-a-espresso/breville-barista-pro-bes878/video/lifestyle-lab/",
+      "/espresso-machine/breville-barista-touch-bes880bss/video/lifestyle-lab/": "/machine-a-espresso/breville-barista-touch-bes880bss/video/lifestyle-lab/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "Breville Barista Express tegenover Barista Pro | De overstap waard?",
+      "de": "Breville Barista Express gegen Barista Pro | Lohnt sich der Wechsel?",
+      "fr": "Breville Barista Express face à Barista Pro | Le changement vaut-il le coup ?"
+    },
+    "1": {
+      "nl": "8 maart 2020",
+      "de": "8. März 2020",
+      "fr": "8 mars 2020"
+    },
+    "2": {
+      "nl": "Een nuttige demonstratie naast elkaar laat de verschillen zien in het verwarmingselement, de bediening en het werken met stoom. De video dateert van vóór de huidige specificatie van de maalschijven. Voor de gegevens over de molen zijn daarom de officiële bronnen uit 2026 bepalend.",
+      "de": "Die Vorführung stellt beide Geräte nebeneinander und zeigt die Unterschiede beim Heizsystem, bei der Bedienoberfläche und bei der Arbeit mit Dampf. Sie entstand vor der aktuellen Spezifikation der Mahlscheiben. Für die technischen Angaben zur Mühle sind deshalb die offiziellen Quellen von 2026 maßgeblich.",
+      "fr": "La démonstration côte à côte montre les différences de système de chauffe, d’interface et d’utilisation de la vapeur. Elle est antérieure aux caractéristiques actuelles des meules. Les sources officielles de 2026 font donc foi pour les caractéristiques du moulin."
+    },
+    "5": {
+      "nl": "← Review van de Breville Barista Pro",
+      "de": "← Testbericht zur Breville Barista Pro",
+      "fr": "← Essai de la Breville Barista Pro"
+    },
+    "6": {
+      "nl": "Breville Barista Pro · Perspectief van een derde",
+      "de": "Breville Barista Pro · Sicht eines Dritten",
+      "fr": "Breville Barista Pro · Point de vue d’un tiers"
+    },
+    "7": {
+      "nl": "Breville Barista Pro: Breville Barista Express tegenover Barista Pro | De overstap waard? · Lifestyle Lab (2020-03-08) | Coffeedant",
+      "de": "Breville Barista Pro: Breville Barista Express gegen Barista Pro | Lohnt sich der Wechsel? · Lifestyle Lab (2020-03-08) | Coffeedant",
+      "fr": "Breville Barista Pro : Breville Barista Express face à Barista Pro | Le changement vaut-il le coup ? · Lifestyle Lab (2020-03-08) | Coffeedant"
+    },
+    "8": {
+      "nl": "Bekijk de video van Lifestyle Lab over de Breville Barista Pro (2020-03-08): Breville Barista Express tegenover Barista Pro | De overstap waard? Een nuttige demonstratie naast elkaar laat de verschillen zien in het verwarmingselement, de bediening en het werken met stoom. De video dateert van vóór de huidige specificatie van de maalschijven. Voor de gegevens over de molen zijn daarom de officiële bronnen uit 2026 bepalend.",
+      "de": "Video von Lifestyle Lab zur Breville Barista Pro ansehen (2020-03-08): Breville Barista Express gegen Barista Pro | Lohnt sich der Wechsel? Die Vorführung stellt beide Geräte nebeneinander und zeigt die Unterschiede beim Heizsystem, bei der Bedienoberfläche und bei der Arbeit mit Dampf. Sie entstand vor der aktuellen Spezifikation der Mahlscheiben. Für die technischen Angaben zur Mühle sind deshalb die offiziellen Quellen von 2026 maßgeblich.",
+      "fr": "Regardez la vidéo de Lifestyle Lab sur la Breville Barista Pro (2020-03-08) : Breville Barista Express face à Barista Pro | Le changement vaut-il le coup ? La démonstration côte à côte montre les différences de système de chauffe, d’interface et d’utilisation de la vapeur. Elle est antérieure aux caractéristiques actuelles des meules. Les sources officielles de 2026 font donc foi pour les caractéristiques du moulin."
+    },
+    "10": {
+      "nl": "Video over de Breville Barista Pro door Lifestyle Lab",
+      "de": "Video zur Breville Barista Pro von Lifestyle Lab",
+      "fr": "Vidéo de Lifestyle Lab sur la Breville Barista Pro"
+    },
+    "11": {
+      "nl": "Breville Barista Express tegenover Barista Pro | De overstap waard? Door Lifestyle Lab",
+      "de": "Breville Barista Express gegen Barista Pro | Lohnt sich der Wechsel? Von Lifestyle Lab",
+      "fr": "Breville Barista Express face à Barista Pro | Le changement vaut-il le coup ? Par Lifestyle Lab"
+    },
+    "15": {
+      "nl": "Review van de Breville Barista Touch | Heb je een scherm nodig?",
+      "de": "Testbericht zur Breville Barista Touch | Braucht man ein Display?",
+      "fr": "Essai de la Breville Barista Touch | Un écran est-il nécessaire ?"
+    },
+    "16": {
+      "nl": "19 maart 2022",
+      "de": "19. März 2022",
+      "fr": "19 mars 2022"
+    },
+    "17": {
+      "nl": "Een onafhankelijke demonstratie die laat zien hoe je met de machine werkt. De observaties over de espresso’s en de timing gelden voor het exemplaar van de recensent en komen niet uit tests van Coffeedant.",
+      "de": "Eine unabhängige Vorführung, die den Arbeitsablauf in den Mittelpunkt stellt. Die Beobachtungen zu den Espressobezügen und zur Dauer beziehen sich auf das Exemplar des Rezensenten und stammen nicht aus Tests von Coffeedant.",
+      "fr": "Une démonstration indépendante centrée sur les étapes d’utilisation. Les observations sur les extractions et leur durée concernent l’exemplaire de l’auteur de la vidéo et ne proviennent pas d’essais de Coffeedant."
+    },
+    "20": {
+      "nl": "← Review van de Breville Barista Touch",
+      "de": "← Testbericht zur Breville Barista Touch",
+      "fr": "← Essai de la Breville Barista Touch"
+    },
+    "21": {
+      "nl": "Breville Barista Touch · Perspectief van een derde",
+      "de": "Breville Barista Touch · Sicht eines Dritten",
+      "fr": "Breville Barista Touch · Point de vue d’un tiers"
+    },
+    "22": {
+      "nl": "Breville Barista Touch: Review van de Breville Barista Touch | Heb je een scherm nodig? · Lifestyle Lab (2022-03-19) | Coffeedant",
+      "de": "Breville Barista Touch: Testbericht zur Breville Barista Touch | Braucht man ein Display? · Lifestyle Lab (2022-03-19) | Coffeedant",
+      "fr": "Breville Barista Touch : Essai de la Breville Barista Touch | Un écran est-il nécessaire ? · Lifestyle Lab (2022-03-19) | Coffeedant"
+    },
+    "23": {
+      "nl": "Bekijk de video van Lifestyle Lab over de Breville Barista Touch (2022-03-19): Review van de Breville Barista Touch | Heb je een scherm nodig? Een onafhankelijke demonstratie die laat zien hoe je met de machine werkt. De observaties over de espresso’s en de timing gelden voor het exemplaar van de recensent en komen niet uit tests van Coffeedant.",
+      "de": "Video von Lifestyle Lab zur Breville Barista Touch ansehen (2022-03-19): Testbericht zur Breville Barista Touch | Braucht man ein Display? Eine unabhängige Vorführung, die den Arbeitsablauf in den Mittelpunkt stellt. Die Beobachtungen zu den Espressobezügen und zur Dauer beziehen sich auf das Exemplar des Rezensenten und stammen nicht aus Tests von Coffeedant.",
+      "fr": "Regardez la vidéo de Lifestyle Lab sur la Breville Barista Touch (2022-03-19) : Essai de la Breville Barista Touch | Un écran est-il nécessaire ? Une démonstration indépendante centrée sur les étapes d’utilisation. Les observations sur les extractions et leur durée concernent l’exemplaire de l’auteur de la vidéo et ne proviennent pas d’essais de Coffeedant."
+    },
+    "25": {
+      "nl": "Video over de Breville Barista Touch door Lifestyle Lab",
+      "de": "Video zur Breville Barista Touch von Lifestyle Lab",
+      "fr": "Vidéo de Lifestyle Lab sur la Breville Barista Touch"
+    },
+    "26": {
+      "nl": "Review van de Breville Barista Touch | Heb je een scherm nodig? Door Lifestyle Lab",
+      "de": "Testbericht zur Breville Barista Touch | Braucht man ein Display? Von Lifestyle Lab",
+      "fr": "Essai de la Breville Barista Touch | Un écran est-il nécessaire ? Par Lifestyle Lab"
+    }
+  }
+}
