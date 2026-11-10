@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/gaggia-accademia-ri9781-01/video/whole-latte-love/",
+      "sourceHash": "70556309baa76c150e648fe16b956c02baba186fd75c8f32ae4d46cdd029d4da"
+    },
+    {
+      "sourcePath": "/espresso-machine/gaggia-anima/video/coffee-kev/",
+      "sourceHash": "f1b837f9c0c83f9ffbccc969eccee14a3b5fb315628e627356bd7ee9deed2991"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "2f9cda87c8316eaffe72caee6e24d9b320aca697ecffb76895dcd730ae04c374",
+      "source": "Gaggia Accademia: In-Depth Review",
+      "kind": "text",
+      "context": "Gaggia Accademia: In-Depth Review"
+    },
+    {
+      "id": "e0a80d3131315b1ffd885bd58b3eadfd953a4ef733ffc8815a5072d99ac15fcb",
+      "source": "December 12, 2022",
+      "kind": "text",
+      "context": "December 12, 2022"
+    },
+    {
+      "id": "876d090737a3fa8cac94cd03d36e516056bc7167b73e147599de833842a9b0f2",
+      "source": "Whole Latte Love presents Gaggia Accademia Glass RI9781/01, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "text",
+      "context": "Whole Latte Love presents Gaggia Accademia Glass RI9781/01, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review."
+    },
+    {
+      "id": "3c3a898e4371c07673e984c204b00cf7fbe93948d86f1c0b06ccd32b12d60caa",
+      "source": "Gaggia Accademia: In-Depth Review",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b825dccf341048c2d508d25bf13094ecdbab3bd61f64cdcb5b0f30fd73c1598f",
+      "source": "Whole Latte Love presents Gaggia Accademia Glass RI9781/01, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "4681c483a479db6f87d7ba68e8637bb1ce789a3a033865ce071330bc4fb50d8e",
+      "source": "Gaggia Accademia Glass RI9781/01 · Retailer perspective",
+      "kind": "text",
+      "context": "Gaggia Accademia Glass RI9781/01 · Retailer perspective"
+    },
+    {
+      "id": "6dc62e5cdd6299b2685278d16f814dc20819e6b45008e3c7de96a85ef4676a75",
+      "source": "Gaggia Accademia Glass RI9781/01: Gaggia Accademia: In-Depth Review · Whole Latte Love (2022-12-12) | Coffeedant",
+      "kind": "text",
+      "context": "Gaggia Accademia Glass RI9781/01: Gaggia Accademia: In-Depth Review · Whole Latte Love (2022-12-12) | Coffeedant"
+    },
+    {
+      "id": "142d9f7b5df4a1f73f79fc62e7385356c1cf25e4ade89e75dc9cbea32507f3c7",
+      "source": "Watch Whole Latte Love on Gaggia Accademia Glass RI9781/01 (2022-12-12): Gaggia Accademia: In-Depth Review. Whole Latte Love presents Gaggia Accademia Glass RI9781/01, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "b55b01c0f8a48938bac44eb878c4b8c88312d3d7483a0a23d643e92d4023fdd7",
+      "source": "Gaggia Accademia Glass RI9781/01: Gaggia Accademia: In-Depth Review · Whole Latte Love (2022-12-12) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "28952498d76f6ceb73250fba38bc02afb11b237988c7193c92802ebe06326248",
+      "source": "Gaggia Accademia Glass RI9781/01 video by Whole Latte Love",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "dcec9dc2b40d56a57fb6750deb56b13945614b145cd0331381aefc88227bc8ea",
+      "source": "Gaggia Accademia: In-Depth Review by Whole Latte Love",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "e4dff199ed20bff59faf6979edb0b849761457f7821090cce4478e25990ea5cb",
+      "source": "Gaggia Accademia Glass RI9781/01: Gaggia Accademia: In-Depth Review · Whole Latte Love (2022-12-12) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "bc4dec346e48babbccd1eb3bfe5ca843b91a03f4e17685f4e54d3584d587db50",
+      "source": "Watch Whole Latte Love on Gaggia Accademia Glass RI9781/01 (2022-12-12): Gaggia Accademia: In-Depth Review. Whole Latte Love presents Gaggia Accademia Glass RI9781/01, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "3cedad5b50230287b328465708e1ab3c447f4e9221b6b6dfabd4bc16223d5b69",
+      "source": "Gaggia Accademia Glass RI9781/01 video by Whole Latte Love",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "cf066b793c538c14209a1548ac4eb6e807fb529ea9d95c8750dc9dd18e893751",
+      "source": "Gaggia Anima: Gaggia Anima Review · Coffee Kev (2022-02-09) | Coffeedant",
+      "kind": "text",
+      "context": "Gaggia Anima: Gaggia Anima Review · Coffee Kev (2022-02-09) | Coffeedant"
+    },
+    {
+      "id": "fdd6d9a40b10d17efb68dfc1bf3b97347ae203a3a71e795d63534230653459bb",
+      "source": "Watch Coffee Kev on Gaggia Anima (2022-02-09): Gaggia Anima Review. Coffee Kev presents Gaggia Anima, covering milk drinks, setup and controls. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "667d57db1d973e5522d095bfddb50c44f5c69f318ef16393ea3b7a78fe4eafde",
+      "source": "Gaggia Anima: Gaggia Anima Review · Coffee Kev (2022-02-09) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "7d822b9d3a11608e6892eaedcc2cd30453cc856f0799a1a1605dfc683d82cfe4",
+      "source": "Gaggia Anima video by Coffee Kev",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "7cbe01a593bd41d5408e9e8aa40889ce8738396181da90b5f1873dfd795b9d14",
+      "source": "Gaggia Anima Review by Coffee Kev",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "8eacb098918cf5a02f594d97e05adb5ae8b82c5f705594a2b18438ac3bd7c1a6",
+      "source": "Gaggia Anima · Third-party perspective",
+      "kind": "text",
+      "context": "Gaggia Anima · Third-party perspective"
+    },
+    {
+      "id": "93f209e05a6572d633f5a862466bf589b15a187ac45f4e772c9d1ff83546c8fa",
+      "source": "Gaggia Anima Review",
+      "kind": "text",
+      "context": "Gaggia Anima Review"
+    },
+    {
+      "id": "2056dc9d0711040ace89c6c7fc340b7f81ec535852d0d29034022a5c8d8abf48",
+      "source": "February 9, 2022",
+      "kind": "text",
+      "context": "February 9, 2022"
+    },
+    {
+      "id": "14f644a041aff3920a8491c6dee821b7895895e1de15d87d240b8ca58f649c55",
+      "source": "Coffee Kev presents Gaggia Anima, covering milk drinks, setup and controls. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Coffee Kev presents Gaggia Anima, covering milk drinks, setup and controls. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "0d623240459af8f32e2772aeccda97583d24230e586aa044352882f8e89331ed",
+      "source": "Gaggia Anima: Gaggia Anima Review · Coffee Kev (2022-02-09) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "77379b472a545720f772534fb78669b030bd71a6dcb231af17c3e74976899e10",
+      "source": "Watch Coffee Kev on Gaggia Anima (2022-02-09): Gaggia Anima Review. Coffee Kev presents Gaggia Anima, covering milk drinks, setup and controls. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "8aabea087a8d4a447b2ccc510d907795abb5bd6b57c766e64da5af6362cdf7fd",
+      "source": "Gaggia Anima video by Coffee Kev",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "49f2406067d025a2edcea6d9f918d0b9752ba30d33383f905b0d5cd5120d33ca",
+      "source": "Gaggia Anima Review",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "d4a919613e795031f980c28dca4f9cab9aa9565c788993e62a1a7b8baffb9ede",
+      "source": "Coffee Kev presents Gaggia Anima, covering milk drinks, setup and controls. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "415e8ddb867b939a6dad063f24af509301a9087553881808e993cde3bfe09d2c"
+}
