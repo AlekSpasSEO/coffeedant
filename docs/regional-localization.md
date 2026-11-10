@@ -4767,6 +4767,26 @@ and 40,983 pending, and FR 16,810 translated and 41,119 pending. The
 German total includes the concurrent cache update already on main. Finder
 gaps are zero. Each edition has 149 non-video and 322 video pages left.
 
+### Direct batch 107 — Breville Barista Pro and Touch video pages (2026-11-10)
+
+Translate both Lifestyle Lab video pages in Dutch, German and French.
+Keep the Pro comparison’s older heater, interface and steam demonstration
+distinct from the official 2026 grinder specifications. Attribute the
+Touch observations to the reviewer’s own machine. Preserve both dates,
+embeds, creator credits and affiliate disclosures. Keep the Dutch and
+German paths, add the French paths, and keep both unfinished written
+reviews linked in English with the edition notice.
+
+The full snapshot freezes 504 slots. Eighteen directly translated strings
+fill 30 missing slots per edition. Four additional strings restore the
+published bean hubs after the new fruit-forward espresso guide was added
+on main. The hub card opens the unfinished guide in English. The source
+has 673 pages and 58,048
+segments. Each edition can render 202 indexable pages and a localized 404.
+Coverage is NL 16,864 translated and 41,184 pending, DE 16,980 translated
+and 41,068 pending, and FR 16,844 translated and 41,204 pending. Finder
+gaps are zero. Each edition has 150 non-video and 320 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
