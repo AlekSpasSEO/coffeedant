@@ -4805,6 +4805,22 @@ NL 16,894 translated and 41,154 pending, DE 17,010 translated and 41,038
 pending, and FR 16,874 translated and 41,174 pending. Finder gaps are zero.
 Each edition has 150 non-video and 318 video pages left.
 
+### Direct batch 109 — Bean hub cards and Profitec GO 2.0 shared copy (2026-11-10)
+
+Translate five new bean review cards on the existing bean hub, including the
+image descriptions and structured text. Preserve the roasters' flavor
+attributions and the limits of older tastings. Translate the Profitec
+GO 2.0 menu entry, brand hub copy and Finder description, best-for label
+and image description. The six new written reviews open in English.
+
+The refreshed bean hub snapshot freezes 741 slots. The two authored groups
+add 38 current segment entries per edition. The source has 679 pages and
+58,751 segments. Each edition can render 204 indexable pages and a localized
+404. Coverage is NL 16,932 translated and 41,819 pending, DE 17,048 translated
+and 41,703 pending, and FR 16,912 translated and 41,839 pending. The 153-item
+Finder has no translation gaps. Each edition has 156 non-video and 318 video
+pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
