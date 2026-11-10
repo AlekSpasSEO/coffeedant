@@ -2873,4 +2873,12 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       { src: 'https://www.profitec-espresso.com/media/pages/produkte/go-2-0/04daec3461-1781789930/go-black-schraeg_oben.webp', alt: 'Profitec black GO 2.0 from above showing compact body and removable cup tray', caption: 'The official angle shows the 210 mm width and top access; allow real clearance for the tank and portafilter before choosing a shelf.', width: 1274, height: 1240 },
     ],
   ),
+  '/grinder/eureka-mignon-specialita/': officialProductMedia(
+    'Eureka classic Mignon Specialità official feature gallery',
+    'https://www.eureka.co.it/en/products/eureka%2B1920/mignon%2Bgrinders/1/20/',
+    [
+      { src: 'https://www.eureka.co.it/public/catalogo/20/extra/6aa27e7f461e0.jpg', alt: 'Eureka official Specialità feature image accompanying its Silent Technology description', caption: 'Eureka illustrates its anti-vibration design; the image does not document a decibel measurement in a home.', width: 960, height: 640 },
+      { src: 'https://www.eureka.co.it/public/catalogo/20/extra/6aa283b3739f0.jpg', alt: 'Eureka official Specialità touch display feature image', caption: 'The manufacturer display detail shows the timed-dose control; a time setting does not measure the mass of grounds dispensed.', width: 960, height: 640 },
+    ],
+  ),
 };

@@ -1,0 +1,33 @@
+# Eureka Mignon Specialità 55 classic, US black 110 V — November 10, 2026
+
+Slot `2026-11-10-grinder-eureka-mignon-specialita-55-us`. Research-led US buying review at `/grinder/eureka-mignon-specialita/`. This is the classic 55 mm touchscreen Mignon Specialità, not the later Specialità Smart, Libra or Zero. Coffeedant did not own, grind, taste, measure, disassemble or service it. Six dimension scores are editorial judgments. No Amazon Creators API was used.
+
+## Official evidence
+
+[Eureka's exact classic Specialità page](https://www.eureka.co.it/en/products/eureka%2B1920/mignon%2Bgrinders/1/20/), checked November 10, specifies 55 mm hardened-steel flat burrs, lower-burr stepless micrometric adjustment, ACE anti-clump/electrostatic design, anti-vibration Silent Technology, a touch display with two timed doses and continuous mode, portafilter microswitch, adjustable fork, 300 g standard hopper, 310 W/1350 rpm AC family motor, 350 × 120 × 140 mm and 5.6 kg. Eureka calls it all purpose. Those are factory specifications and positioning, not Coffeedant performance results. The factory page also has optional single-dose accessories. The [shared Mignon series manual](https://support.clivecoffee.com/en/articles/16426607-eureka-mignon-user-manual-perfetto-silenzio-specialita-oro-xl) is a US seller-hosted operational reference; use Specialità-specific steps and do not infer Smart or Zero controls.
+
+Clive's [zero-point dial-in guide](https://support.clivecoffee.com/en/articles/16426615-eureka-mignon-series-how-to-dial-in-from-the-zero-point) explains that printed zero is a reference rather than burr-touch zero, and that the dial makes repeated revolutions. Its [deep-cleaning guide](https://support.clivecoffee.com/en/articles/16426614-eureka-mignon-series-deep-cleaning) covers permitted upper-burr and chute access; a King Dial caveat on that series page applies to other models, not this classic Specialità. Neither guide is a Coffeedant service test.
+
+## Exact US seller and value
+
+[Clive Coffee's selected black US 110 V listing](https://clivecoffee.com/products/eureka-mignon-specialita-espresso-grinder) showed $549, in stock and ready to ship when inspected in Chrome on November 10. It separately displayed matte black at $529; those are different finish selections. Tax and any shipping or accessories were outside the base. The page's selected black status and checkout can change. Clive's [September 2026 grinder pairing guide](https://clivecoffee.com/blogs/learn/how-clive-matches-a-grinder-to-the-espresso-machine-you-own) independently confirms its own finish-specific pricing, but is a seller perspective. A scale and perhaps a compatible dosing funnel are costs to consider. There is no price discount claim.
+
+## Independent evidence
+
+[Tom's Guide's firsthand classic Specialità review](https://www.tomsguide.com/home/home-appliances/eureka-mignon-specialita-review) by Peter Wolinski, September 4, 2024, reports that its stepless multi-turn dial made fine espresso adjustment easy but frequent switching of brewing methods inconvenient. The reviewer found low retained grounds in that sample, a messy angled chute, and a hands-free fork that did not secure the reviewer's tall Breville 54 mm portafilter. The writer used and photographed a unit; the testing was not Coffeedant's, was not a shared blind cup or particle protocol, and cannot establish universal retained grams, fork fit or long-term reliability in a 2026 US unit. Clive claims low sound and high consistency on its commercial page, but the review does not adopt unverified decibel or output guarantees.
+
+The independently produced [Tom's Coffee Corner three-year classic Specialità owner review](https://www.youtube.com/watch?v=7fCwdLlvXJ4) was verified in the YouTube UI November 10: exact title, creator channel `@TomsCoffeeCorner`, published May 31, 2023 and displayed runtime 6:33. It gives one owner's long-use perspective, not a controlled shared test or representative US reliability sample. The video catalog uses the page metadata and keeps its inference bounded.
+
+## Community evidence
+
+[An owner discussion of the classic model's dial and hopper habits](https://www.reddit.com/r/espresso/comments/1775ciu/convince_me_not_to_buy_eureka_mignon_specialita/) includes both stock-hopper use and aftermarket dial/single-dose modifications. [A separate owner thread](https://www.reddit.com/r/espresso/comments/1kyil7n/why_does_it_seem_like_nobody_recommends_the/) has conflicting retained-ground experiences and setup differences. [One 2026 owner](https://www.reddit.com/r/espresso/comments/1vx38ku/did_a_stupid_thing_now_stuck_with_an_expensive/) describes stripping a lower-carrier thread during deep disassembly. These are selected anecdotes without a denominator or standardized method; we use them only to frame the need for compatible accessories, supported cleaning and seller service, not a failure or retention rate. A newer Specialità Smart owner in a mixed thread is excluded from classic-model inference.
+
+## Unknown evidence
+
+There is no Coffeedant shot, particle, taste, noise, input/output retention or multi-year durability measurement. The final US electrical and included trim should be checked on the delivered label and seller invoice. The factory does not prove that a timed setting yields a fixed mass, that every portafilter fits, or that a bean swap leaves zero prior grounds. A factory all-purpose designation does not prove that the small dial is convenient for daily espresso/filter switching.
+
+## Media, routing and decision
+
+The hero is the exact [Clive black product photo](https://clivecoffee.com/cdn/shop/products/Eureka-Mignon-Specialita-Black.jpg?v=1724370495&width=1600), verified in the seller's black selection in Chrome on November 10. Two inline images come from [Eureka's official classic model feature gallery](https://www.eureka.co.it/en/products/eureka%2B1920/mignon%2Bgrinders/1/20/) at `/public/catalogo/20/extra/6aa27e7f461e0.jpg` and `/public/catalogo/20/extra/6aa283b3739f0.jpg`, each 960 × 640 as loaded in Chrome. They illustrate manufacturer-described design and controls, not Coffeedant measurements. Credited media alt text and captions distinguish these roles.
+
+The original Specialità 55 route was absent from the modern manifest and live canonical checks before this slot. It is a distinct review from Zero 65 AP and other existing grinders. Choose it for one-coffee timed espresso work; compare the larger dial and single-dose layout of Zero 65 AP if frequently changing coffee or brew method. Confirm exact finish, voltage, fork fit and checkout before purchase.
