@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "eureka-specialita-shared-batch-109.source.json",
+  "snapshotHash": "cb62d14dc19ab1f8f80982f0b71ef515f48abb4c731f70542b7790c45d265e8a",
+  "preserveSource": [
+    1,
+    2
+  ],
+  "translations": {
+    "0": {
+      "nl": "Espressomolen met bonenreservoir, vlakke maalschijven, traploze afstelling en twee tijdinstellingen",
+      "de": "Espressomühle mit Bohnenbehälter, flachen Mahlscheiben, stufenloser Einstellung und zwei Zeitprogrammen",
+      "fr": "Moulin à expresso à trémie avec meules plates, réglage continu et deux préréglages temporisés"
+    },
+    "3": {
+      "nl": "8 reviews behandelen verschillende dagelijkse routines. Filter op aandrijving en prioriteit om te zien welke molen past.",
+      "de": "8 Testberichte decken verschiedene Alltagsroutinen ab. Filtere nach Antrieb und Priorität, um die passende Mühle zu finden.",
+      "fr": "8 essais couvrent des usages quotidiens différents. Filtrez par type d’entraînement et par priorité pour repérer le moulin qui vous convient."
+    },
+    "4": {
+      "nl": "Twee getimede doses voor een vaste espressoroutine",
+      "de": "Zwei zeitgesteuerte Dosierungen für eine feste Espressoroutine",
+      "fr": "Deux doses temporisées pour une routine expresso régulière"
+    },
+    "5": {
+      "nl": "De kleine draaiknop maakt meerdere omwentelingen, wat vaak wisselen van zetmethode lastig maakt",
+      "de": "Der kleine Regler mit mehreren Umdrehungen erschwert häufige Wechsel der Brühmethode",
+      "fr": "La petite molette à plusieurs tours complique les changements fréquents de méthode de préparation"
+    },
+    "6": {
+      "nl": "08 · Elektrisch",
+      "de": "08 · Elektrisch",
+      "fr": "08 · Électrique"
+    }
+  }
+}
