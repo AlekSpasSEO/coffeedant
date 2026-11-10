@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/ascaso-steel-duo-pid/video/lifestyle-lab/",
+      "sourceHash": "ff971c5d9041c6e54f796daa6f05f32ca1f724bc80a991c7d41d8bde89235105"
+    },
+    {
+      "sourcePath": "/espresso-machine/ascaso-steel-uno/video/seattle-coffee-gear/",
+      "sourceHash": "1bafc21f8a7d3bc8deb362ce553df05723a185e797f5f3a25e0b96d64aba7378"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "7a99b953cef82ed22606115994b79741cf6449d5a7af457c5e6ed89f3ad3316e",
+      "source": "← Ascaso Steel Duo PID review",
+      "kind": "text",
+      "context": "← Ascaso Steel Duo PID review"
+    },
+    {
+      "id": "371bda3d47d9bc29894d4517bc7f1cc984a6e2b438f23beb941bee318e327768",
+      "source": "Ascaso Steel Duo PID · Third-party perspective",
+      "kind": "text",
+      "context": "Ascaso Steel Duo PID · Third-party perspective"
+    },
+    {
+      "id": "f4899c0c766f135133b579abd47886ca8652e9982f2323f7c54f6b1f3cac64cc",
+      "source": "Ascaso Steel Duo PID: Ascaso Steel Duo PID V2 Review! · Lifestyle Lab (2023-02-05) | Coffeedant",
+      "kind": "text",
+      "context": "Ascaso Steel Duo PID: Ascaso Steel Duo PID V2 Review! · Lifestyle Lab (2023-02-05) | Coffeedant"
+    },
+    {
+      "id": "b87c7d0411c16b733a2628c810e5a5fc5bb9c37e70579a813a7b408879b61440",
+      "source": "Watch Lifestyle Lab on Ascaso Steel Duo PID (2023-02-05): Ascaso Steel Duo PID V2 Review!. Lifestyle Lab presents Ascaso Steel Duo PID, covering espresso preparation, milk drinks, design and construction. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "2a7466fbb4da1a0e5abb55d707ed79eb7af670f6d210f686d7ddcc33234af28e",
+      "source": "Ascaso Steel Duo PID: Ascaso Steel Duo PID V2 Review! · Lifestyle Lab (2023-02-05) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "eca5b29d6302898bd40bee61437f8eace144ae5e216cb5914d57d74f91c688f6",
+      "source": "Ascaso Steel Duo PID video by Lifestyle Lab",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "cc60447187850796c8c8011ba43d835dd4a9bb32fb37a45683e73f4be9237417",
+      "source": "Ascaso Steel Duo PID V2 Review! by Lifestyle Lab",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "e3f9c7abaf9b16a56e6465b97bded19e5fc34d3b6ce87f643f67e4927cfa452a",
+      "source": "Ascaso Steel Duo PID V2 Review!",
+      "kind": "text",
+      "context": "Ascaso Steel Duo PID V2 Review!"
+    },
+    {
+      "id": "49dee0e9652095a1b1b27a1677781a1d4733331061fc5d39623f17d7c8a4ea3e",
+      "source": "February 5, 2023",
+      "kind": "text",
+      "context": "February 5, 2023"
+    },
+    {
+      "id": "848a8035c6e2d3d06d1d8b17084b2aa744669c3d6d836d86d5415de6472e27fd",
+      "source": "Lifestyle Lab presents Ascaso Steel Duo PID, covering espresso preparation, milk drinks, design and construction. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Lifestyle Lab presents Ascaso Steel Duo PID, covering espresso preparation, milk drinks, design and construction. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "fc269a3c9ffb05b18241590a207748b0f153c8b5efd8b096a699f236212b1ae3",
+      "source": "Ascaso Steel Duo PID: Ascaso Steel Duo PID V2 Review! · Lifestyle Lab (2023-02-05) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "4c33dcd52607c2954018210ffe3563a20ea185d72777e49fb2549bf66c7043ef",
+      "source": "Watch Lifestyle Lab on Ascaso Steel Duo PID (2023-02-05): Ascaso Steel Duo PID V2 Review!. Lifestyle Lab presents Ascaso Steel Duo PID, covering espresso preparation, milk drinks, design and construction. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "1ac28fbe7a65e5c2d9b68364b1fba3a8a3a25c9913af5ac1eab2d5236df8b60a",
+      "source": "Ascaso Steel Duo PID video by Lifestyle Lab",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "95fc069248b26939ba7139bf867389a8931f68f584f5d350dbe185ebc8dd2ab2",
+      "source": "Ascaso Steel Duo PID V2 Review!",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b353c8af3580289fd01f5325dc9ccd4a68b0f64d53a303a5feb2560fdb81f8c1",
+      "source": "Lifestyle Lab presents Ascaso Steel Duo PID, covering espresso preparation, milk drinks, design and construction. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "0767123e4dd8d57995ececc53aa5755cb2988a64993eeb9a316d2f1fac35cda6",
+      "source": "← Ascaso Steel Uno PID review",
+      "kind": "text",
+      "context": "← Ascaso Steel Uno PID review"
+    },
+    {
+      "id": "117b059f0b78d2baba5eac6c3627d37e05f510f0320fa327f4c121c1f4e6f0be",
+      "source": "Ascaso Steel Uno PID · Retailer perspective",
+      "kind": "text",
+      "context": "Ascaso Steel Uno PID · Retailer perspective"
+    },
+    {
+      "id": "b367ac422dbf944f4854d563da42b0cecb274f6537fd6d9a8ac8cb6efac224de",
+      "source": "Ascaso Steel Uno PID: Ascaso Steel Uno | Crew Review · Seattle Coffee Gear (2021-03-24) | Coffeedant",
+      "kind": "text",
+      "context": "Ascaso Steel Uno PID: Ascaso Steel Uno | Crew Review · Seattle Coffee Gear (2021-03-24) | Coffeedant"
+    },
+    {
+      "id": "99b8b56d5254662a627848e7acdf1be350eec0d51de1d8c85ef627a04cfb308c",
+      "source": "Watch Seattle Coffee Gear on Ascaso Steel Uno PID (2021-03-24): Ascaso Steel Uno | Crew Review. Seattle Coffee Gear presents Ascaso Steel Uno PID, covering espresso preparation. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "1699b58907dedc4bbea77c607e48f6b75488ae98a529400d1a4495b9b8bc9dd3",
+      "source": "Ascaso Steel Uno PID: Ascaso Steel Uno | Crew Review · Seattle Coffee Gear (2021-03-24) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "38391367dd17696c2fd33cf174650ce1e04ef9fb31634f4e8caded91036db95e",
+      "source": "Ascaso Steel Uno PID video by Seattle Coffee Gear",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "59ce98c9d52d6622a185e2daaf15f3b08640404d4b04c17131af6593f9a71973",
+      "source": "Ascaso Steel Uno | Crew Review by Seattle Coffee Gear",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "1a9309e4add855932db009f62627a5a08a83f6c6cfc4ba3da42f5e1b460c327d",
+      "source": "Ascaso Steel Uno | Crew Review",
+      "kind": "text",
+      "context": "Ascaso Steel Uno | Crew Review"
+    },
+    {
+      "id": "b302cce80466ce1258f45abc73a87490f5ef57e48f285f846152b17c84a45185",
+      "source": "March 24, 2021",
+      "kind": "text",
+      "context": "March 24, 2021"
+    },
+    {
+      "id": "5eb8ad8e0d6d33e7806451e484cc5e88ff51e2bfe64bf181a8edf50829741e61",
+      "source": "Seattle Coffee Gear presents Ascaso Steel Uno PID, covering espresso preparation. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "text",
+      "context": "Seattle Coffee Gear presents Ascaso Steel Uno PID, covering espresso preparation. This is an equipment seller’s perspective; consider it alongside the other sources and our written review."
+    },
+    {
+      "id": "f4eb434a2dcc4d19867e51711e6a26bc8fa0e351c048042ab0d751bb5cc4fe70",
+      "source": "Ascaso Steel Uno PID: Ascaso Steel Uno | Crew Review · Seattle Coffee Gear (2021-03-24) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "fdaeeb39759b37aa6f5eec1f56fc96bf3f724276d055b017cf9cba12179a2d1d",
+      "source": "Watch Seattle Coffee Gear on Ascaso Steel Uno PID (2021-03-24): Ascaso Steel Uno | Crew Review. Seattle Coffee Gear presents Ascaso Steel Uno PID, covering espresso preparation. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "348bdb5af8598eebdf880c1a0382ae9b5f3e3784a51fe4649e51efc6d203c726",
+      "source": "Ascaso Steel Uno PID video by Seattle Coffee Gear",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "e3e701f2768cc1fb6e8aed48ff3f59de18a9c6694e01df3ec61220252d1b7299",
+      "source": "Ascaso Steel Uno | Crew Review",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "caa2eeaf4ddeed6430293717c4b71b9894b0219453d6261e3df5ff2ed86dbdf8",
+      "source": "Seattle Coffee Gear presents Ascaso Steel Uno PID, covering espresso preparation. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "48cab45218d48f37d2b7784e1d4dd8b3374872693f24315ec5eb1bc0c02cf047"
+}
