@@ -291,6 +291,41 @@ const decisions: Record<string, BeanDecision> = {
     finalTitle: 'Choose the chocolate brief with eyes open',
     finalVerdict: 'Founders Blend suits a small trial for organic, chocolate-led daily drip or press if the bag’s date and roast label can be checked. Stumptown’s pages disagree on medium versus dark, and one independent July sample cannot settle your future cup. Choose an espresso-documented blend if that is the actual job.',
   },
+  'intelligentsia-black-cat-analog-espresso': {
+    headings: ['Analog is the darker Black Cat, not a renamed Classic', 'Chocolate is Intelligentsia’s target', 'Start at the published 18 g to 45 g ratio', 'Inspect the date on the actual whole-bean bag', 'Check the selected size and delivered US total', 'Classic is the brighter same-roaster comparison'],
+    trialTitle: 'Compare the neat shot and your usual milk drink',
+    trial: 'Begin with the roaster’s 18 g to 45 g recipe if your basket accepts that dose. Record the shot, then make the milk drink you normally choose. If the chocolate direction works only as a small neat shot but disappears in your usual large cup, decide whether this is the right daily bag before ordering more. Classic is a different fruit-led purchase, not a correction for a poorly dialed Analog.',
+    finalTitle: 'Choose Analog for its stated job',
+    finalVerdict: 'Analog is a sensible small-bag trial for chocolate-led espresso that must carry through milk. The official recipe makes the first shot concrete; a dated independent tasting cannot validate today’s bag. Check the package date and compare Classic if a brighter style is welcome.',
+  },
+  'equator-jaguar-espresso': {
+    headings: ['Current Honduras and Sumatra components are named', 'Dark chocolate and spice are Equator’s brief', 'Use the published 18 g to 36 g espresso start', 'Trial 12 oz before a large format', 'Price the actual whole-bean cart', 'Eye of the Tiger and Analog solve different tastes'],
+    trialTitle: 'Find out whether dark espresso works in both servings',
+    trial: 'Pull Jaguar from Equator’s 1:2 start in a suitable basket and taste it before adding milk. Then make the drink you normally order or prepare. The question is whether its dark character is welcome in both contexts, not whether the roaster’s apricot note can be forced into every shot. Record the bag date and recipe before deciding that a two- or five-pound order is economical.',
+    finalTitle: 'Buy the current blend, not a generic dark label',
+    finalVerdict: 'Jaguar is worth a 12 oz whole-bean trial for dark espresso and milk if its documented components and 1:2 start match your setup. Treat the flavor notes as Equator’s target and judge the actual bag before buying in bulk.',
+  },
+  'verve-aster': {
+    headings: ['An Ethiopian blend roasted two ways', 'Nectarine and lime are Verve’s target', 'Separate short espresso from 1:15 filter', 'Try 12 oz before a café-size bag', 'Pay for the methods you will actually use', 'Sermon and Seabright move in other directions'],
+    trialTitle: 'Test one brew before claiming two-method value',
+    trial: 'Start with the Verve recipe for your main brewer and save its grind setting. If you also make espresso, dial the short 27–32 g beverage independently instead of copying the filter grind. Judge whether you welcome the fruit direction in your usual serving. A second useful method adds value only if the household will really make it, including the work of moving the grinder back.',
+    finalTitle: 'A fruit-led two-method trial',
+    finalVerdict: 'Aster is compelling for someone willing to dial a short Ethiopian espresso and a separate filter recipe. Begin with 12 oz; the published notes and a few owner comments do not predict your specific bag.',
+  },
+  'verve-bronson-french-roast': {
+    headings: ['Verve’s darkest blend has a defined role', 'Molasses and chocolate are roaster words', 'Use the press or filter starts as published', 'Inspect direct and retail dates separately', 'Large-bag value depends on dark-roast preference', 'Jaguar is the clearer espresso alternative'],
+    trialTitle: 'Taste the usual cup before scaling the pack',
+    trial: 'Make Bronson in the press or filter brewer you use most, at the roaster’s start, then serve it with the cream or sugar you normally add. The useful question is whether its distinctly dark direction improves that finished drink. If you mostly make espresso, do not buy five pounds from an assumed portafilter recipe that the checked product page does not publish.',
+    finalTitle: 'A dark press and cream choice',
+    finalVerdict: 'Bronson is a defensible small-bag trial for a distinctly dark Verve cup, especially French press or drip with cream. The checked record does not support a Bronson-specific espresso performance claim.',
+  },
+  'verve-seabright-house-blend': {
+    headings: ['A two-country medium house blend', 'Fruit and hazelnut remain Verve’s notes', 'Use Dwell or AeroPress; question the maker math', 'Date the direct or grocery bag you receive', 'Choose a size your household can finish', 'Aster and Bronson mark different Verve roles'],
+    trialTitle: 'Keep the first brew simple and check the arithmetic',
+    trial: 'Brew Seabright first in a familiar Dwell or AeroPress routine using the respective published 1:15 start. Write down the actual dose and water. Do not follow the coffee-maker line as printed without checking it: the page pairs 30 g to 900 g with a 1:15 label, but that mass ratio is 1:30. Judge the fruit-and-nut direction in the cup you regularly drink before considering a larger bag.',
+    finalTitle: 'A filter-first house blend trial',
+    finalVerdict: 'Seabright is a sensible small-bag trial for medium daily filter or AeroPress coffee. Its fruit-and-nut notes are Verve’s target; the coffee-maker recipe mismatch and lack of espresso specifics limit broader claims.',
+  },
 };
 
 const sectionIds = ['identity', 'flavor', 'brewing', 'freshness', 'value', 'alternatives'];
@@ -310,3 +345,4 @@ export const applyBeanDecision = (review: BeanReviewData): BeanReviewData => {
   // This is an editorial revision, not a new tasting or source/price check.
   return { ...review, updated: review.updated > '2026-10-30' ? review.updated : '2026-10-30', sections, finalTitle: decision.finalTitle, finalVerdict: decision.finalVerdict };
 };
+

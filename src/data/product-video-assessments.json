@@ -1158,6 +1158,36 @@
     "pendingVideoIds": [],
     "note": "Focused exact-product search found no verifiable independent current whole-bean tasting video with stable metadata; Taste of Home text sample is attributed separately."
   },
+  "/coffee-beans/intelligentsia-black-cat-analog-espresso/": {
+    "checkedAt": "2026-11-10",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "Focused exact-product search found a manufacturer Black Cat range overview but no independently verified current Analog whole-bean video with stable metadata; older written tasting remains attributed text evidence."
+  },
+  "/coffee-beans/equator-jaguar-espresso/": {
+    "checkedAt": "2026-11-10",
+    "status": "pending-metadata-verification",
+    "pendingVideoIds": ["0ngz_OnGKsE"],
+    "note": "An exact Jaguar Espresso third-party YouTube result was found, but creator, upload date and duration were not independently verified for the video schema; no video embedded."
+  },
+  "/coffee-beans/verve-aster/": {
+    "checkedAt": "2026-11-10",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "Focused exact-product search found no independently verifiable current Aster whole-bean tasting video with stable metadata; written independent sample context is separately attributed."
+  },
+  "/coffee-beans/verve-bronson-french-roast/": {
+    "checkedAt": "2026-11-10",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "Focused exact-product search found no independently verifiable current Bronson French Roast whole-bean tasting video with stable metadata."
+  },
+  "/coffee-beans/verve-seabright-house-blend/": {
+    "checkedAt": "2026-11-10",
+    "status": "no-suitable-third-party-video",
+    "pendingVideoIds": [],
+    "note": "Focused exact-product search found no independently verifiable current Seabright House Blend whole-bean tasting video with stable metadata."
+  },
   "/espresso-machine/profitec-drive/": {
     "checkedAt": "2026-11-09",
     "status": "selected",
@@ -1165,3 +1195,4 @@
     "note": "TechTravel Panda exact-model unsponsored owner video verified against YouTube title, channel, published date and duration. One 2024 unit; no Coffeedant measurement."
   }
 }
+
