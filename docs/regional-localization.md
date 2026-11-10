@@ -4701,6 +4701,23 @@ Coverage is NL 16,657 translated and 41,272 pending, DE 16,713 translated
 and 41,216 pending, and FR 16,637 translated and 41,292 pending. Finder
 gaps are zero. Each edition has 150 non-video and 328 video pages left.
 
+### Direct batch 103 — Verve Vancouver Swiss Water Decaf review (2026-11-10)
+
+Translate all 45 paragraphs, four visible and structured FAQ answers,
+metadata, photo credits and source notes in Dutch, German and French.
+Keep the Dwell, Chemex and French press recipes distinct, attribute the
+two caffeine claims to their separate sources, and preserve the dated US
+price observation without presenting a local price. Each regional bean
+hub links to its native review.
+
+The full snapshot freezes 608 slots. Seventy-two directly translated
+strings and two unchanged proper names cover 86 missing slots per
+edition. The source has 672 pages and 57,929 segments. Each edition can
+render 194 indexable pages and a localized 404. Coverage is NL 16,743
+translated and 41,186 pending, DE 16,799 translated and 41,130 pending,
+and FR 16,723 translated and 41,206 pending. Finder gaps are zero. Each
+edition has 149 non-video and 328 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

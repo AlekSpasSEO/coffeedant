@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "verve-vancouver-decaf-batch-103.source.json",
+  "snapshotHash": "414e72e4fae88f679e555e89b0508ba9fdacfad7bc416948b3ac4d731525144f",
+  "routes": {
+    "nl": {
+      "/coffee-beans/verve-vancouver-swiss-water-decaf/": "/koffiebonen/verve-vancouver-swiss-water-decaf/"
+    },
+    "de": {
+      "/coffee-beans/verve-vancouver-swiss-water-decaf/": "/kaffeebohnen/verve-vancouver-swiss-water-decaf/"
+    },
+    "fr": {
+      "/coffee-beans/verve-vancouver-swiss-water-decaf/": "/cafe-en-grains/verve-vancouver-swiss-water-decaf/"
+    }
+  },
+  "preserveSource": [
+    3,
+    42
+  ],
+  "translations": {
+    "0": {
+      "nl": "Review van Verve Vancouver Swiss Water Decaf: een medium gebrande melange met dessertachtige tonen en filterrecepten | Coffeedant",
+      "de": "Verve Vancouver Swiss Water Decaf im Bericht: eine mittlere Röstung mit Dessertnoten und Filterrezepten | Coffeedant",
+      "fr": "Avis sur Verve Vancouver Swiss Water Decaf : un assemblage de torréfaction moyenne aux notes gourmandes, avec des recettes filtre | Coffeedant"
+    },
+    "1": {
+      "nl": "Een op bronnen gebaseerde review van Verve Vancouver Swiss Water Decaf als hele bonen voor de VS: herkomst uit Colombia en Oeganda, decafeïnering met water, toegeschreven smaaknotities, filterrecepten, versheid en beperkingen.",
+      "de": "Quellengestützter Bericht zu Verve Vancouver Swiss Water Decaf als ganze Bohnen für den US-Markt: Herkunft aus Kolumbien und Uganda, Entkoffeinierung mit Wasser, zugeordnete Geschmacksnoten, Filterrezepte, Frische und Grenzen der Angaben.",
+      "fr": "Avis fondé sur des sources concernant le café en grains Verve Vancouver Swiss Water Decaf vendu aux États-Unis : origine colombienne et ougandaise, procédé à l’eau, attribution des notes aromatiques, recettes filtre, fraîcheur et limites."
+    },
+    "4": {
+      "nl": ". Productfoto van Verve Coffee Roasters om Vancouver Swiss Water Decaf te herkennen; geen foto van een proeverij door Coffeedant.",
+      "de": ". Produktbild von Verve Coffee Roasters zur Identifikation von Vancouver Swiss Water Decaf; kein Foto einer Coffeedant-Verkostung.",
+      "fr": ". Photo du produit fournie par Verve Coffee Roasters pour identifier Vancouver Swiss Water Decaf ; elle ne montre pas une dégustation par Coffeedant."
+    },
+    "5": {
+      "nl": "Review van Verve Vancouver Swiss Water Decaf: een medium gebrande melange met dessertachtige tonen en filterrecepten",
+      "de": "Verve Vancouver Swiss Water Decaf im Bericht: eine mittlere Röstung mit Dessertnoten und Filterrezepten",
+      "fr": "Avis sur Verve Vancouver Swiss Water Decaf : un assemblage de torréfaction moyenne aux notes gourmandes, avec des recettes filtre"
+    },
+    "6": {
+      "nl": "Op 9 november 2026 vergeleek ik de actuele productpagina van Verve, de procesuitleg van Swiss Water en individuele thuiservaringen. Coffeedant heeft deze decaf niet gekocht, gezet, geproefd of gemeten.",
+      "de": "Am 9. November 2026 habe ich Verves aktuelle Produktseite, die Verfahrensbeschreibung von Swiss Water und einzelne Erfahrungsberichte von zu Hause verglichen. Coffeedant hat diesen entkoffeinierten Kaffee weder gekauft noch zubereitet, verkostet oder gemessen.",
+      "fr": "Le 9 novembre 2026, j’ai comparé la fiche actuelle de Verve, la description du procédé par Swiss Water et des témoignages individuels de préparation à domicile. Coffeedant n’a ni acheté, ni préparé, ni goûté, ni mesuré ce décaféiné."
+    },
+    "7": {
+      "nl": "Een medium gebrande decaf, gedecafeïneerd met water, met Colombia en Oeganda als vermelde herkomstlanden",
+      "de": "Ein mit Wasser entkoffeinierter Kaffee mittlerer Röstung mit Kolumbien und Uganda als genannten Herkunftsländern",
+      "fr": "Un décaféiné à l’eau de torréfaction moyenne, dont les origines indiquées sont la Colombie et l’Ouganda"
+    },
+    "8": {
+      "nl": "Wie filterkoffie of koffie uit de cafetière drinkt en de gepubliceerde zetrecepten van Verve kan gebruiken",
+      "de": "Wer Filterkaffee oder French Press trinkt und Verves veröffentlichte Startrezepte nutzen kann",
+      "fr": "Les amateurs de café filtre ou à piston qui peuvent utiliser les recettes de départ publiées par Verve"
+    },
+    "9": {
+      "nl": "Wie espresso zet en voor de geleverde bonen zelf een apart recept wil afstellen",
+      "de": "Wer Espresso zubereitet und für die gelieferten Bohnen ein eigenes Rezept einstellen möchte",
+      "fr": "Les amateurs d’espresso disposés à régler une recette distincte pour les grains reçus"
+    },
+    "10": {
+      "nl": "Je hebt een onafhankelijk gemeten cafeïnegehalte nodig of wilt helemaal geen cafeïne",
+      "de": "Sie benötigen einen unabhängig gemessenen Koffeinwert oder gar kein Koffein",
+      "fr": "Vous avez besoin d’une teneur en caféine mesurée indépendamment ou d’une absence totale de caféine"
+    },
+    "11": {
+      "nl": "Je wilt dat de brander een dosis en opbrengst voor espresso opgeeft",
+      "de": "Sie benötigen eine von der Rösterei veröffentlichte Dosis und Getränkemenge für Espresso",
+      "fr": "Vous exigez une dose et un poids en tasse publiés par le torréfacteur pour l’espresso"
+    },
+    "12": {
+      "nl": "Je zoekt een vaste boerderij, een benoemde variëteit en een verwerkingsmethode voor elk bestanddeel",
+      "de": "Sie möchten für jeden Bestandteil einen fest benannten Betrieb, eine benannte Varietät und eine Aufbereitungsmethode",
+      "fr": "Vous recherchez une exploitation fixe, une variété identifiée et une méthode de traitement pour chaque composant"
+    },
+    "13": {
+      "nl": "Verve Vancouver Swiss Water Decaf, melange van hele bonen",
+      "de": "Verve Vancouver Swiss Water Decaf, Mischung aus ganzen Bohnen",
+      "fr": "Verve Vancouver Swiss Water Decaf, assemblage de café en grains"
+    },
+    "14": {
+      "nl": "Medium, 6/10 op de huidige schaal van Verve",
+      "de": "Mittel, 6/10 auf Verves aktueller Skala",
+      "fr": "Moyenne, 6/10 sur l’échelle actuelle de Verve"
+    },
+    "15": {
+      "nl": "Colombia en Oeganda volgens Verve",
+      "de": "Kolumbien und Uganda laut Verve",
+      "fr": "Colombie et Ouganda selon Verve"
+    },
+    "16": {
+      "nl": "Swiss Water-proces; er kan nog cafeïne in zitten",
+      "de": "Swiss Water-Verfahren; Restkoffein ist möglich",
+      "fr": "Procédé Swiss Water ; il peut rester de la caféine"
+    },
+    "17": {
+      "nl": "Amandel, honing en cola op de verpakking; gekonfijte amandel en chocolade in de beschrijving van Verve",
+      "de": "Mandel, Honig und Cola auf der Verpackung; kandierte Mandel und Schokolade in Verves Beschreibung",
+      "fr": "Amande, miel et cola sur le sachet ; amande confite et chocolat dans le descriptif de Verve"
+    },
+    "18": {
+      "nl": "Zetmethoden",
+      "de": "Zubereitungsmethoden",
+      "fr": "Méthodes de préparation"
+    },
+    "19": {
+      "nl": "Verve geeft uitgangspunten voor Dwell, Chemex en cafetière; geen actuele espressoverhouding op de productpagina bevestigd",
+      "de": "Verve veröffentlicht Startrezepte für Dwell, Chemex und French Press; kein aktuelles Espresso-Brühverhältnis auf der Produktseite bestätigt",
+      "fr": "Verve publie des recettes de départ pour Dwell, Chemex et cafetière à piston ; aucun ratio d’espresso actuel n’a été vérifié sur la fiche"
+    },
+    "20": {
+      "nl": "Keuzeopties van 12 oz, 2.2 lb en 5 lb gezien; controleer de optie voor hele bonen",
+      "de": "Auswahloptionen für 12 oz, 2.2 lb und 5 lb gesehen; die Option für ganze Bohnen prüfen",
+      "fr": "Formats de 12 oz, 2.2 lb et 5 lb affichés ; vérifier l’option café en grains"
+    },
+    "21": {
+      "nl": "Een medium gebrande melange uit Colombia en Oeganda, gedecafeïneerd met water",
+      "de": "Eine mit Wasser entkoffeinierte Mischung mittlerer Röstung aus Kolumbien und Uganda",
+      "fr": "Un assemblage de Colombie et d’Ouganda de torréfaction moyenne, décaféiné à l’eau"
+    },
+    "22": {
+      "nl": "Amandel en chocolade zijn smaaknotities van de brander",
+      "de": "Mandel und Schokolade sind Geschmacksangaben der Rösterei",
+      "fr": "L’amande et le chocolat sont des descripteurs du torréfacteur"
+    },
+    "23": {
+      "nl": "Gebruik de filterrecepten voordat je zelf een espressoverhouding bedenkt",
+      "de": "Zuerst die Filterrezepte nutzen, bevor Sie ein eigenes Espresso-Brühverhältnis festlegen",
+      "fr": "Utiliser les recettes filtre avant d’inventer un ratio pour l’espresso"
+    },
+    "24": {
+      "nl": "Een huishouden dat vooral decaf drinkt, kan baat hebben bij een grote zak",
+      "de": "Eine Großpackung kann sich lohnen, wenn der Haushalt überwiegend entkoffeinierten Kaffee trinkt",
+      "fr": "Un grand format peut se justifier si le foyer boit surtout du décaféiné"
+    },
+    "25": {
+      "nl": "Vergelijk de geselecteerde Amerikaanse bestelling van 12 ounce",
+      "de": "Die ausgewählte US-Bestellung mit 12 Unzen vergleichen",
+      "fr": "Comparer la commande américaine de 12 onces sélectionnée"
+    },
+    "26": {
+      "nl": "Beoordeel de decaf met de zetmethode die je ’s avonds gebruikt",
+      "de": "Den entkoffeinierten Kaffee mit der abends üblichen Methode beurteilen",
+      "fr": "Évaluer le décaféiné avec la méthode que vous utilisez le soir"
+    },
+    "27": {
+      "nl": "Kies een decaf voor espresso als het recept doorslaggevend is",
+      "de": "Einen entkoffeinierten Kaffee für Espresso wählen, wenn das Rezept entscheidend ist",
+      "fr": "Choisir un décaféiné pensé pour l’espresso si la recette compte"
+    },
+    "28": {
+      "nl": "Vancouver Swiss Water Decaf is de melange van hele bonen die Verve onder die naam verkoopt, los van de ambachtelijke Vancouver-oploskoffie. Op de huidige Amerikaanse productpagina staan een medium branding van 6/10 en Colombia en Oeganda als herkomstlanden. Verve noemt geen vaste boerderijen, variëteiten, verwerking per bestanddeel of blijvende mengverhouding. Uit de terugkerende naam van de melange kun je die gegevens dus niet afleiden.",
+      "de": "Vancouver Swiss Water Decaf ist Verves Mischung aus ganzen Bohnen unter diesem Namen und ein anderes Produkt als der handwerklich hergestellte lösliche Vancouver-Kaffee. Auf der aktuellen US-Seite bezeichnet Verve die Röstung als mittel, 6/10, und nennt Kolumbien und Uganda als Herkunft. Feste Betriebe, Varietäten, die Aufbereitung der einzelnen Bestandteile und ein dauerhaftes Mischungsverhältnis werden nicht angegeben. Diese Angaben lassen sich nicht aus dem wiederkehrenden Namen der Mischung ableiten.",
+      "fr": "Vancouver Swiss Water Decaf est l’assemblage en grains que Verve vend sous ce nom, distinct du café instantané artisanal Vancouver. La fiche américaine actuelle indique une torréfaction moyenne, à 6/10, et cite la Colombie et l’Ouganda comme origines. Elle ne précise ni exploitations fixes, ni variétés, ni traitement de chaque composant, ni proportions permanentes. Le nom récurrent de l’assemblage ne permet donc pas de les déduire."
+    },
+    "29": {
+      "nl": "Swiss Water beschrijft hoe het groene koffie met water decafeïneert en zegt dat het proces 99.9% van de cafeïne verwijdert. De producttekst van Verve gebruikt een andere formulering: ‘99.99% cafeïnevrij’. Geen van beide pagina’s geeft een laboratoriumresultaat voor de zak of het kopje dat jij krijgt. Decaf is een keuze met minder cafeïne, zonder garantie op nul cafeïne.",
+      "de": "Swiss Water beschreibt sein Verfahren zur Entkoffeinierung von Rohkaffee mit Wasser und gibt an, dass es 99.9% des Koffeins entfernt. In Verves Produkttext steht etwas anderes: „99.99% koffeinfrei“. Keine der beiden Seiten liefert ein Laborergebnis für die Packung oder das daraus zubereitete Getränk. Entkoffeinierter Kaffee enthält weniger Koffein; völlige Koffeinfreiheit ist nicht garantiert.",
+      "fr": "Swiss Water décrit son procédé de décaféination du café vert à l’eau et indique qu’il élimine 99.9% de la caféine. Le descriptif de Verve emploie une autre formule : « sans caféine à 99.99% ». Aucune de ces pages ne fournit de résultat d’analyse pour le sachet reçu ou la boisson préparée. Le décaféiné contient moins de caféine, sans garantie d’en être totalement dépourvu."
+    },
+    "30": {
+      "nl": "Amandel, honing en cola staan op de verpakking van Verve; de producttekst beschrijft gekonfijte amandel tegen een achtergrond van chocolade. Het zijn smaakomschrijvingen, geen toegevoegde ingrediënten of door Coffeedant gemeten smaakresultaten. Ze maken Vancouver eerder een kandidaat voor wie dessertachtige tonen zoekt dan een frisse, uitgesproken fruitige decaf. Wat je proeft, hangt af van de zak en zetmethode.",
+      "de": "Mandel, Honig und Cola stehen auf Verves Verpackung; der Produkttext beschreibt kandierte Mandeln vor einem Hintergrund aus Schokolade. Das sind Geschmacksbeschreibungen, keine zugesetzten Zutaten oder von Coffeedant ermittelten sensorischen Ergebnisse. Vancouver ist damit eher ein Kandidat für Dessertnoten als für einen lebhaft fruchtbetonten entkoffeinierten Kaffee. Entscheidend bleibt, was die tatsächlichen Bohnen und die Zubereitung ergeben.",
+      "fr": "Amande, miel et cola figurent sur le sachet de Verve ; le descriptif évoque des amandes confites sur un fond de chocolat. Ce sont des descripteurs aromatiques, ni des ingrédients ajoutés ni des résultats sensoriels mesurés par Coffeedant. Ils orientent plutôt vers un décaféiné aux notes gourmandes que vers un profil vif et fruité, selon le sachet et la méthode de préparation."
+    },
+    "31": {
+      "nl": "Gebruikerservaringen lopen uiteen. Een espressodrinker schreef in 2026 dat een van de eerste, nog onvolmaakte shots goed beviel. In een oudere, brede vergelijking van decaf viel de geproefde Vancouver juist tegen. Geen van beide beschrijft een gecontroleerde, gelijke branddatum, een gemeenschappelijk recept of dezelfde vergelijkingsgroep. Zie ze als voorbeelden van persoonlijke smaak en onzekerheid bij extractie, niet als een stemming of score voor de huidige partij.",
+      "de": "Die Erfahrungsberichte gehen auseinander. Ein Espressotrinker schrieb 2026, dass ihm ein früher, noch nicht optimal eingestellter Bezug schmeckte. In einem älteren breiten Vergleich entkoffeinierter Kaffees kam die dort probierte Packung Vancouver schlecht an. Keiner der Berichte nennt ein kontrolliertes gemeinsames Röstdatum, dasselbe Rezept oder dieselbe Vergleichsgruppe. Es sind Beispiele für persönliche Vorlieben und Unsicherheit bei der Extraktion, keine Abstimmung oder Bewertung der aktuellen Partie.",
+      "fr": "Les témoignages divergent. En 2026, une personne a apprécié un des premiers espressos malgré une extraction imparfaite ; un comparatif plus ancien de plusieurs décaféinés a jugé son échantillon de Vancouver décevant. Aucun ne précise une date de torréfaction, une recette ou un ensemble de comparaison contrôlés et communs. Ces retours illustrent les préférences personnelles et les incertitudes de l’extraction ; ils ne constituent ni un décompte d’avis ni une note du lot actuel."
+    },
+    "32": {
+      "nl": "Verves huidige uitgangspunt voor Dwell is 20 g koffie op 300 g water in ongeveer 2:20; voor Chemex 45 g op 675 g in ongeveer 5:45; voor de cafetière 35 g op 500 g in ongeveer 5:00. Dit zijn suggesties van de brander voor drie verschillende zetmethoden, geen resultaten van Coffeedant. Begin met de methode die je gebruikt en noteer je maalgraad en water.",
+      "de": "Verves aktuelles Startrezept für Dwell lautet 20 g Kaffee auf 300 g Wasser in etwa 2:20; für Chemex 45 g auf 675 g in etwa 5:45; für French Press 35 g auf 500 g in etwa 5:00. Das sind Empfehlungen der Rösterei für drei verschiedene Geräte, keine Ergebnisse von Coffeedant. Beginnen Sie mit der Methode, die Sie zu Hause nutzen, und notieren Sie Mahlgrad und Wasser.",
+      "fr": "La recette de départ actuelle de Verve pour Dwell est de 20 g de café pour 300 g d’eau en environ 2:20 ; pour la Chemex, 45 g pour 675 g en environ 5:45 ; pour la cafetière à piston, 35 g pour 500 g en environ 5:00. Ce sont les suggestions du torréfacteur pour trois méthodes différentes, pas des résultats de Coffeedant. Commencez par la méthode dont vous disposez et notez la mouture et l’eau utilisée."
+    },
+    "33": {
+      "nl": "Op de huidige productpagina staat geen dosis en drankopbrengst voor espresso. Sommige gebruikers hebben met Vancouver espresso gezet, maar hun filterbakjes en machines verschillen. Als espresso je voornaamste toepassing is, stel het recept dan apart af op de geleverde bonen. Gebruik de Dwell-verhouding van 1:15 niet in een filterdrager. Voor Intelligentsia Decaf Black Cat geeft de brander wel een concreet espressorecept als die documentatie zwaarder weegt.",
+      "de": "Die aktuelle Produktseite gibt weder eine Dosis noch eine Getränkemenge für Espresso an. Einige Nutzer haben Vancouver als Espresso zubereitet, verwenden aber unterschiedliche Siebe und Maschinen. Wenn Espresso Ihre Hauptanwendung ist, stellen Sie die gelieferten Bohnen dafür separat ein. Nutzen Sie das Dwell-Verhältnis von 1:15 nicht im Siebträger. Für Intelligentsia Decaf Black Cat gibt die Rösterei ein konkretes Startrezept für Espresso an, falls Ihnen diese Dokumentation wichtiger ist.",
+      "fr": "La fiche actuelle ne publie ni dose ni poids en tasse pour l’espresso. Certaines personnes ont préparé Vancouver en espresso, mais leurs paniers et leurs machines diffèrent. Si c’est votre usage principal, réglez une recette séparément pour les grains reçus. N’utilisez pas le ratio de Dwell de 1:15 dans un porte-filtre. Intelligentsia Decaf Black Cat propose une recette d’espresso précise du torréfacteur si cette documentation compte davantage pour vous."
+    },
+    "34": {
+      "nl": "Op de productpagina kon je 12 oz, 2.2 lb en 5 lb kiezen. Een zak hele bonen van 12 oz is een passend eerste proefpak voor wie alleen op sommige avonden decaf drinkt. Voor een huishouden dat vooral decaf drinkt, kan een grotere zak passen zodra duidelijk is hoe snel de bonen opgaan. Controleer de gekozen maaloptie en de werkelijke branddatum bij ontvangst.",
+      "de": "Auf der Seite standen 12 oz, 2.2 lb und 5 lb zur Auswahl. Eine Packung ganzer Bohnen mit 12 oz ist ein passender erster Versuch, wenn Sie nur an manchen Abenden entkoffeinierten Kaffee trinken. Eine größere Packung kann sich für einen Haushalt eignen, der überwiegend entkoffeinierten Kaffee trinkt und weiß, wie schnell er die Bohnen verbraucht. Prüfen Sie bei der Lieferung die gewählte Mahloption und das tatsächliche Röstdatum.",
+      "fr": "La fiche proposait 12 oz, 2.2 lb et 5 lb. Un sachet en grains de 12 oz est un premier essai raisonnable si vous ne buvez du décaféiné que certains soirs. Un format plus grand peut convenir à un foyer qui en boit surtout, une fois son rythme de consommation connu. Vérifiez à la réception l’option de mouture choisie et la date de torréfaction réelle."
+    },
+    "35": {
+      "nl": "Verve zegt op bestelling te branden en binnen twee werkdagen te verzenden. Uit dat beleid kun je de datum of staat bij levering niet afleiden. Bewaar geopende hele bonen goed afgesloten, uit de buurt van warmte en vocht, en maal ze vóór het zetten. Algemeen bewaaradvies kan voor deze melange geen vast moment garanderen waarop de smaak op zijn best is.",
+      "de": "Verve gibt an, auf Bestellung zu rösten und innerhalb von zwei Werktagen zu versenden. Aus dieser Regel lassen sich das Datum und der Zustand bei der Lieferung nicht ableiten. Bewahren Sie angebrochene ganze Bohnen gut verschlossen vor Wärme und Feuchtigkeit geschützt auf und mahlen Sie sie vor der Zubereitung. Allgemeine Lagerhinweise können keinen einheitlichen Zeitpunkt für den besten Geschmack dieser Mischung garantieren.",
+      "fr": "Verve indique torréfier à la commande et expédier sous deux jours ouvrés. Cette politique ne permet pas d’établir la date ni l’état à la livraison. Conservez les grains entamés dans un contenant fermé, à l’abri de la chaleur et de l’humidité, et moulez-les avant la préparation. Les conseils généraux de conservation ne garantissent pas un pic aromatique universel pour cet assemblage."
+    },
+    "36": {
+      "nl": "Op 9 november toonde de Amerikaanse productpagina van Verve $22 voor de geselecteerde 12 oz en eenmalige aankoop. Dat zegt niets over belasting, verzendkosten of een later totaal bij het afrekenen. De pagina biedt ook een abonnement; verwar een terugkerende bestelling niet met een eenmalige zak. Deze review verwijst daarom naar de actuele prijs voor hele bonen, het gekozen formaat en de totaalprijs inclusief bezorging, zonder een korting te beloven.",
+      "de": "Am 9. November zeigte Verves US-Seite $22, wenn 12 oz und der einmalige Kauf ausgewählt waren. Daraus gingen weder Steuern und Versand noch ein späterer Gesamtbetrag hervor. Die Seite bietet auch ein Abo an; eine wiederkehrende Bestellung ist kein einmaliger Kauf. Prüfen Sie deshalb den aktuellen Preis für ganze Bohnen, die ausgewählte Größe und die Gesamtkosten inklusive Lieferung. Der Bericht verspricht keinen Rabatt.",
+      "fr": "Le 9 novembre, la fiche américaine de Verve affichait $22 pour le format 12 oz en achat ponctuel. Ce prix n’établissait ni les taxes et les frais de port ni un total ultérieur au paiement. La fiche propose aussi un abonnement : ne confondez pas une commande récurrente avec un achat unique. Cet avis invite donc à vérifier le prix actuel en grains, le format sélectionné et le coût livré, sans promettre de réduction."
+    },
+    "37": {
+      "nl": "Je krijgt de meeste waar voor je geld als je de decaf ook echt opmaakt met de gepubliceerde filterrecepten. Alleen de naam van het proces voorspelt geen smaak en laat niet zien of een grotere zak voordeliger is als een deel oud wordt. Is de eerste zak voor espresso, tel dan ook de tijd en de bonen mee die nodig zijn om een passende maalgraad te vinden.",
+      "de": "Am ehesten lohnt sich ein entkoffeinierter Kaffee, den Sie mit den veröffentlichten Filterrezepten auch tatsächlich aufbrauchen. Der Name eines Verfahrens sagt weder den Geschmack voraus noch zeigt er, ob eine größere Packung Geld spart, wenn ein Teil an Frische verliert. Wenn die erste Packung für Espresso gedacht ist, rechnen Sie den Zeitaufwand und den Kaffee für die Suche nach einem geeigneten Mahlgrad mit ein.",
+      "fr": "L’achat se justifie surtout si vous finissez réellement ce décaféiné en utilisant les recettes filtre publiées. Le seul nom du procédé ne prédit pas le goût et ne montre pas qu’un format plus grand vous fera économiser si une partie perd sa fraîcheur. Si le premier sachet est destiné à l’espresso, tenez compte du temps et du café nécessaires pour trouver un réglage de mouture adapté."
+    },
+    "38": {
+      "nl": "Zet Vancouver eerst zoals je gewoonlijk Dwell, Chemex of de cafetière gebruikt, met het bijbehorende recept van Verve. Noteer hoeveel kopjes decaf je werkelijk per week drinkt voordat je 2.2 of vijf Amerikaanse pond koopt. Gebruik je de bonen vooral voor espresso, stel de geleverde bonen dan apart af en noteer dosis en opbrengst; de filterverhouding is geen recept voor een filterdrager. Vergelijk met Decaf Black Cat als een gepubliceerd espressorecept je meer giswerk bespaart.",
+      "de": "Bereiten Sie Vancouver zunächst wie gewohnt mit Dwell, Chemex oder French Press und dem passenden Startrezept von Verve zu. Notieren Sie, wie viele Tassen entkoffeinierten Kaffee Sie tatsächlich pro Woche trinken, bevor Sie 2.2 oder fünf US-Pfund kaufen. Wenn Sie hauptsächlich Espresso zubereiten, stellen Sie die gelieferten Bohnen separat ein und notieren Sie Dosis und Getränkemenge; das Filterverhältnis ist kein Siebträgerrezept. Vergleichen Sie mit Decaf Black Cat, wenn ein veröffentlichtes Espresso-Startrezept Ihnen mehr Rätselraten erspart.",
+      "fr": "Préparez d’abord Vancouver selon vos habitudes avec Dwell, la Chemex ou la cafetière à piston, en suivant la recette correspondante de Verve. Notez combien de tasses de décaféiné vous buvez réellement par semaine avant d’acheter 2.2 ou cinq livres américaines. Si l’espresso est votre usage principal, réglez les grains reçus séparément et notez la dose et le poids en tasse ; le ratio filtre n’est pas une recette pour porte-filtre. Comparez avec Decaf Black Cat si une recette d’espresso publiée vous épargne davantage de tâtonnements."
+    },
+    "39": {
+      "nl": "Intelligentsia Decaf Black Cat is beter gedocumenteerd voor de filterdrager, omdat de brander een startdosis en opbrengst voor espresso geeft. Counter Culture Slow Motion heeft een ander profiel, met cacao en melasse, en een eigen actuele beschrijving van de melange. Coffeedant heeft geen smaakgegevens waaruit blijkt dat een van beide beter smaakt dan Vancouver.",
+      "de": "Intelligentsia Decaf Black Cat ist die besser dokumentierte Alternative für den Siebträger, da die Rösterei eine Startdosis und Getränkemenge für Espresso veröffentlicht. Counter Culture Slow Motion setzt auf ein anderes Profil mit Kakao und Melasse und hat eine eigene aktuelle Beschreibung der Mischung. Coffeedant hat keine sensorischen Daten, nach denen einer der beiden besser abschneidet als Vancouver.",
+      "fr": "Intelligentsia Decaf Black Cat est l’alternative la mieux documentée pour le porte-filtre, car son torréfacteur publie une dose et un poids en tasse de départ pour l’espresso. Counter Culture Slow Motion offre un autre profil, aux notes de cacao et de mélasse, avec sa propre fiche d’assemblage à jour. Aucune donnée de Coffeedant ne permet de les déclarer meilleurs que Vancouver en dégustation."
+    },
+    "40": {
+      "nl": "Kies Vancouver als het medium gebrande, dessertachtige profiel en de filterrecepten aansluiten bij wat je dagelijks nodig hebt. Kies een decaf gericht op espresso als een gepubliceerd startrecept nuttiger is, of een actuele decaf van één oorsprong als je vooral de bestanddelen wilt kunnen herleiden. Controleer bij elke optie om welke zak het nu precies gaat en wat de branddatum is.",
+      "de": "Wählen Sie Vancouver, wenn das mittlere Röstprofil mit Dessertnoten und die Filterrezepte zu Ihrem Alltag passen. Wählen Sie einen auf Espresso ausgelegten entkoffeinierten Kaffee, wenn ein veröffentlichtes Startrezept hilfreicher ist, oder einen aktuell erhältlichen entkoffeinierten Kaffee aus einer einzigen Herkunft, wenn die Rückverfolgbarkeit im Vordergrund steht. Prüfen Sie bei allen die konkrete derzeit angebotene Packung und das Röstdatum.",
+      "fr": "Choisissez Vancouver si sa torréfaction moyenne, son profil gourmand et ses recettes filtre répondent à votre besoin quotidien. Optez pour un décaféiné pensé pour l’espresso si une recette publiée vous est plus utile, ou pour un décaféiné d’origine unique actuellement disponible si la traçabilité prime. Dans tous les cas, vérifiez la référence exacte du sachet proposé et la date de torréfaction."
+    },
+    "41": {
+      "nl": "een door de brander gepubliceerd espressorecept voor een decaf die bedoeld is voor de filterdrager",
+      "de": "veröffentlichtes Startrezept der Rösterei für einen entkoffeinierten Kaffee speziell für den Siebträger",
+      "fr": "recette de départ publiée par le torréfacteur pour un décaféiné destiné au porte-filtre"
+    },
+    "43": {
+      "nl": "een andere met water gedecafeïneerde koffie met een profiel van cacao en melasse",
+      "de": "ein weiterer mit Wasser entkoffeinierter Kaffee mit einem Profil aus Kakao und Melasse",
+      "fr": "un autre café décaféiné à l’eau, aux notes de cacao et de mélasse"
+    },
+    "44": {
+      "nl": "een medium gebrande koffie met cafeïne van dezelfde brander, ter vergelijking en niet als vervanger voor decaf",
+      "de": "ein koffeinhaltiger Kaffee mittlerer Röstung derselben Rösterei zum Vergleich, kein Ersatz für entkoffeinierten Kaffee",
+      "fr": "un café caféiné de torréfaction moyenne du même torréfacteur, à titre de comparaison et non en remplacement du décaféiné"
+    },
+    "45": {
+      "nl": "Ik vergeleek de actuele Amerikaanse productpagina van Verve, de procesuitleg van Swiss Water en vrijwillig gedeelde thuiservaringen met verschillende uitkomsten. Coffeedant heeft Vancouver niet gekocht, gezet, geproefd of geanalyseerd. Alle smaakomschrijvingen zijn aan hun bron toegeschreven. We geven geen smaakscore of gemeten cafeïnegehalte.",
+      "de": "Ich habe Verves aktuelle US-Produktseite, die Verfahrensbeschreibung von Swiss Water und freiwillig veröffentlichte Erfahrungsberichte mit unterschiedlichen Ergebnissen verglichen. Coffeedant hat Vancouver weder gekauft noch zubereitet, verkostet oder analysiert. Alle Geschmacksangaben sind ihrer Quelle zugeordnet; es werden weder eine sensorische Punktzahl noch ein gemessener Koffeinwert angegeben.",
+      "fr": "J’ai comparé la fiche américaine actuelle de Verve, la description du procédé par Swiss Water et des témoignages spontanés de préparation à domicile aux résultats différents. Coffeedant n’a ni acheté, ni préparé, ni goûté, ni analysé Vancouver. Toutes les notes aromatiques sont attribuées à leur source ; aucune note sensorielle chiffrée ni mesure de caféine n’est revendiquée."
+    },
+    "46": {
+      "nl": "Bronnen gecontroleerd op 9 november 2026. Controleer bij de daadwerkelijke bestelling het proces, de bestanddelen van de melange, de branddatum van de geleverde bonen, de gekozen maaloptie en het afrekenbedrag in de VS.",
+      "de": "Quellen geprüft am 9. November 2026. Prüfen Sie die Aufbereitung, die Bestandteile der Mischung, das Röstdatum der gelieferten Bohnen, die gewählte Mahloption und den US-Gesamtbetrag anhand der tatsächlichen Bestellung.",
+      "fr": "Sources consultées le 9 novembre 2026. Vérifiez sur la commande réelle le procédé, les composants de l’assemblage, la date de torréfaction des grains livrés, l’option de mouture choisie et le total au paiement aux États-Unis."
+    },
+    "47": {
+      "nl": "Veelgestelde vragen over Vancouver Swiss Water Decaf",
+      "de": "Häufige Fragen zu Vancouver Swiss Water Decaf",
+      "fr": "Questions fréquentes sur Vancouver Swiss Water Decaf"
+    },
+    "48": {
+      "nl": "Is Vancouver helemaal cafeïnevrij?",
+      "de": "Ist Vancouver völlig koffeinfrei?",
+      "fr": "Vancouver est-il totalement dépourvu de caféine ?"
+    },
+    "49": {
+      "nl": "Ga niet uit van nul cafeïne. In de algemene procesuitleg noemt Swiss Water een verwijdering van 99.9% van de cafeïne. Coffeedant heeft het cafeïnegehalte van deze zak of een gezet kopje niet gemeten.",
+      "de": "Gehen Sie nicht von völliger Koffeinfreiheit aus. In der allgemeinen Verfahrensbeschreibung nennt Swiss Water eine Entfernung von 99.9% des Koffeins. Coffeedant hat den Koffeingehalt dieser Packung oder einer zubereiteten Tasse nicht gemessen.",
+      "fr": "Ne partez pas du principe qu’il ne reste aucune caféine. Swiss Water indique une élimination de 99.9% dans sa description générale du procédé ; Coffeedant n’a mesuré la teneur en caféine ni des grains de ce sachet ni d’une tasse préparée."
+    },
+    "50": {
+      "nl": "Kan ik met Vancouver espresso zetten?",
+      "de": "Kann ich Vancouver als Espresso zubereiten?",
+      "fr": "Puis-je préparer Vancouver en espresso ?"
+    },
+    "51": {
+      "nl": "Gebruikers doen dat, maar op de huidige productpagina geeft Verve recepten voor Dwell, Chemex en cafetière, zonder een specifieke espressodosis of -opbrengst. Stel het recept apart af op de bonen die je ontvangt.",
+      "de": "Nutzer tun das, aber auf der aktuellen Produktseite nennt Verve Startrezepte für Dwell, Chemex und French Press und keine konkrete Dosis oder Getränkemenge für Espresso. Stellen Sie die gelieferten Bohnen dafür separat ein.",
+      "fr": "Des utilisateurs le font, mais la fiche actuelle de Verve donne des recettes de départ pour Dwell, Chemex et cafetière à piston, sans préciser la dose ni le poids en tasse pour l’espresso. Réglez une recette séparément pour les grains reçus."
+    },
+    "52": {
+      "nl": "Hoe smaakt Vancouver?",
+      "de": "Wie schmeckt Vancouver?",
+      "fr": "Quel goût a Vancouver ?"
+    },
+    "53": {
+      "nl": "Op de verpakking noemt Verve amandel, honing en cola en in de producttekst gekonfijte amandel en chocolade. Coffeedant heeft de koffie niet geproefd en geeft geen smaakscore.",
+      "de": "Verve nennt Mandel, Honig und Cola auf der Verpackung sowie kandierte Mandel und Schokolade im Produkttext. Coffeedant hat den Kaffee nicht verkostet und vergibt keine sensorische Punktzahl.",
+      "fr": "Verve indique amande, miel et cola sur le sachet et évoque des notes d’amande confite et de chocolat dans son descriptif. Coffeedant n’y a pas goûté et n’attribue aucune note sensorielle."
+    },
+    "54": {
+      "nl": "De optie van 12 oz hele bonen is een kleinere proefverpakking dan 2.2 lb of 5 lb. Controleer het momenteel geselecteerde formaat, de branddatum en het totaalbedrag inclusief bezorging in de VS.",
+      "de": "Die Option mit 12 oz ganzen Bohnen eignet sich als kleinerer Versuch als 2.2 lb oder 5 lb. Prüfen Sie die aktuell ausgewählte Variante, das Röstdatum und den Gesamtpreis inklusive US-Versand.",
+      "fr": "L’option en grains de 12 oz permet un essai en plus petite quantité que les formats de 2.2 lb ou 5 lb. Vérifiez le format sélectionné au moment de l’achat, la date de torréfaction et le total livré aux États-Unis."
+    },
+    "55": {
+      "nl": "Amerikaanse productpagina van Verve Vancouver Swiss Water Decaf",
+      "de": "US-Produktseite zu Verve Vancouver Swiss Water Decaf",
+      "fr": "Fiche américaine de Verve Vancouver Swiss Water Decaf"
+    },
+    "56": {
+      "nl": "Exacte melange, medium branding, Colombia en Oeganda, smaaknotities van de brander, keuzeopties, gedateerde prijsweergave, verzendclaim en drie recepten voor filter en cafetière. Gecontroleerd op 2026-11-09.",
+      "de": "Konkrete Mischung, mittlere Röstung, Kolumbien und Uganda, Angaben der Rösterei zu Geschmacksnoten, Auswahloptionen, datierte Anzeige, Versandangabe und drei Startrezepte für Filter und French Press. Geprüft am 2026-11-09.",
+      "fr": "Assemblage précis, torréfaction moyenne, Colombie et Ouganda, notes du torréfacteur, options, affichage daté, indication d’expédition et trois recettes filtre ou piston. Consulté le 2026-11-09."
+    },
+    "57": {
+      "nl": "Uitleg van het Swiss Water-proces",
+      "de": "Beschreibung des Swiss Water-Verfahrens",
+      "fr": "Description du procédé Swiss Water"
+    },
+    "58": {
+      "nl": "De aanbieder beschrijft de methode met water en een algemene verwijdering van 99.9% van de cafeïne; dit is geen analyse van de huidige zak. Gecontroleerd op 2026-11-09.",
+      "de": "Der Verfahrensanbieter beschreibt die wasserbasierte Methode und eine allgemeine Entfernung von 99.9% des Koffeins; das ist keine Analyse der aktuellen Packung. Geprüft am 2026-11-09.",
+      "fr": "Le fournisseur du procédé décrit la méthode à l’eau et une élimination générale de 99.9% de la caféine ; ce n’est pas une analyse du sachet actuel. Consulté le 2026-11-09."
+    },
+    "59": {
+      "nl": "Reactie van een Vancouver-gebruiker op r/espresso",
+      "de": "Antwort eines Vancouver-Nutzers auf r/espresso",
+      "fr": "Réponse d’un utilisateur de Vancouver sur r/espresso"
+    },
+    "60": {
+      "nl": "Eén vrijwillig gemeld positief resultaat met een van de eerste espresso’s, geen representatieve beoordeling. Gecontroleerd op 2026-11-09.",
+      "de": "Ein freiwillig berichtetes positives Ergebnis bei einem frühen Espressobezug, keine repräsentative Bewertung. Geprüft am 2026-11-09.",
+      "fr": "Un seul résultat favorable rapporté spontanément sur un des premiers espressos, sans valeur d’évaluation représentative. Consulté le 2026-11-09."
+    },
+    "61": {
+      "nl": "Brede thuisvergelijking van decaf op r/Coffee",
+      "de": "Breiter Heimvergleich entkoffeinierter Kaffees auf r/Coffee",
+      "fr": "Comparatif de plusieurs décaféinés préparés à domicile sur r/Coffee"
+    },
+    "62": {
+      "nl": "Een oudere, negatieve persoonlijke ervaring met Vancouver, waaruit niets volgt over de huidige zak. Gecontroleerd op 2026-11-09.",
+      "de": "Ältere negative persönliche Erfahrung mit Vancouver; kein Rückschluss auf die aktuelle Packung. Geprüft am 2026-11-09.",
+      "fr": "Ancienne expérience personnelle négative avec Vancouver ; elle ne renseigne pas sur le sachet actuel. Consulté le 2026-11-09."
+    },
+    "63": {
+      "nl": "Discussie op Home-Barista over het afstellen van Vancouver voor espresso",
+      "de": "Diskussion auf Home-Barista zur Espresso-Einstellung mit Vancouver",
+      "fr": "Discussion sur Home-Barista à propos du réglage de Vancouver pour l’espresso"
+    },
+    "64": {
+      "nl": "Oudere discussie tussen gebruikers over de techniek; alleen bruikbaar als context voor een individuele opstelling. Gecontroleerd op 2026-11-09.",
+      "de": "Ältere Diskussion unter Nutzern zur Technik; nur als Kontext für die jeweilige Gerätekombination verwenden. Geprüft am 2026-11-09.",
+      "fr": "Ancienne discussion entre utilisateurs sur la technique ; à lire uniquement pour comprendre une configuration individuelle. Consulté le 2026-11-09."
+    },
+    "65": {
+      "nl": "Bewaaradvies voor hele bonen van Counter Culture",
+      "de": "Frischehinweise für ganze Bohnen von Counter Culture",
+      "fr": "Conseils de Counter Culture pour préserver la fraîcheur du café en grains"
+    },
+    "66": {
+      "nl": "Algemene informatie over bewaren, niet specifiek voor Vancouver. Gecontroleerd op 2026-11-09.",
+      "de": "Allgemeine Hinweise zur Lagerung, nicht speziell zu Vancouver. Geprüft am 2026-11-09.",
+      "fr": "Conseils généraux de conservation, sans données propres à Vancouver. Consulté le 2026-11-09."
+    },
+    "67": {
+      "nl": "Coffeedant-review van Decaf Black Cat Espresso",
+      "de": "Coffeedant-Bericht zu Decaf Black Cat Espresso",
+      "fr": "Avis de Coffeedant sur Decaf Black Cat Espresso"
+    },
+    "68": {
+      "nl": "Bestaand, op bronnen gebaseerd alternatief voor deze specifieke koffie, met een door de brander gepubliceerd espressorecept. Gecontroleerd op 2026-11-09.",
+      "de": "Bereits beschriebene, quellengestützte Alternative mit einem von der Rösterei veröffentlichten Espresso-Startrezept. Geprüft am 2026-11-09.",
+      "fr": "Alternative précise déjà étudiée à partir de sources, avec une recette d’espresso publiée par le torréfacteur. Consulté le 2026-11-09."
+    },
+    "69": {
+      "nl": "Coffeedant-review van Counter Culture Slow Motion Decaf",
+      "de": "Coffeedant-Bericht zu Counter Culture Slow Motion Decaf",
+      "fr": "Avis de Coffeedant sur Counter Culture Slow Motion Decaf"
+    },
+    "70": {
+      "nl": "Bestaand, specifiek alternatief met cacao en melasse. Gecontroleerd op 2026-11-09.",
+      "de": "Bereits beschriebenes konkretes Alternativprodukt mit Kakao- und Melassenoten. Geprüft am 2026-11-09.",
+      "fr": "Alternative précise déjà présentée, aux notes de cacao et de mélasse. Consulté le 2026-11-09."
+    },
+    "71": {
+      "nl": "Koop de decaf voor een vaste zetroutine",
+      "de": "Entkoffeinierten Kaffee für eine wiederholbare Routine kaufen",
+      "fr": "Acheter ce décaféiné pour une routine que l’on peut reproduire"
+    },
+    "72": {
+      "nl": "Een kleine zak Vancouver is een redelijke proef als je een medium gebrande decaf met dessertachtige tonen, vermelde herkomst uit Colombia en Oeganda en bruikbare filterrecepten zoekt. Er is geen geverifieerde cafeïneanalyse of actuele espressoverhouding op de productpagina. Controleer de branddatum en het totaalbedrag inclusief bezorging en vergelijk met Decaf Black Cat als je vooral espresso met een filterdrager zet.",
+      "de": "Eine kleine Packung Vancouver ist einen Versuch wert, wenn Sie einen entkoffeinierten Kaffee mittlerer Röstung mit Dessertnoten, genannter Herkunft aus Kolumbien und Uganda und brauchbaren Filterrezepten suchen. Es gibt weder eine bestätigte Koffeinanalyse noch ein aktuelles Espresso-Verhältnis auf der Produktseite. Prüfen Sie Röstdatum und Kosten inklusive Lieferung und vergleichen Sie mit Decaf Black Cat, wenn Sie täglich Espresso im Siebträger zubereiten.",
+      "fr": "Un petit sachet de Vancouver est un essai raisonnable si vous cherchez un décaféiné de torréfaction moyenne aux notes gourmandes, dont les origines annoncées sont la Colombie et l’Ouganda, avec des recettes filtre utiles. Il n’y a ni analyse de caféine vérifiée ni ratio actuel pour l’espresso sur la fiche. Vérifiez la date de torréfaction et le coût livré, puis comparez avec Decaf Black Cat si vous préparez surtout des espressos au porte-filtre."
+    },
+    "73": {
+      "nl": "Bekijk Vancouver Swiss Water Decaf bij de brander",
+      "de": "Vancouver Swiss Water Decaf bei der Rösterei ansehen",
+      "fr": "Voir Vancouver Swiss Water Decaf chez le torréfacteur"
+    },
+    "76": {
+      "nl": "Productfoto van Verve Coffee Roasters om Vancouver Swiss Water Decaf te herkennen; geen foto van een proeverij door Coffeedant.",
+      "de": "Produktbild von Verve Coffee Roasters zur Identifikation von Vancouver Swiss Water Decaf; kein Foto einer Coffeedant-Verkostung.",
+      "fr": "Photo du produit fournie par Verve Coffee Roasters pour identifier Vancouver Swiss Water Decaf ; elle ne montre pas une dégustation par Coffeedant."
+    }
+  }
+}
