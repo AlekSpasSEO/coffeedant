@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "oracle-profitec-go-watch-batch-110.source.json",
+  "snapshotHash": "91d9e101a90f319fc3f85b322cf487fe1d730c350721dcee776e7938755a6702",
+  "routes": {
+    "fr": {
+      "/espresso-machine/breville-oracle-bes980x/video/lifestyle-lab/": "/machine-a-espresso/breville-oracle-bes980x/video/lifestyle-lab/",
+      "/espresso-machine/profitec-go/video/lifestyle-lab/": "/machine-a-espresso/profitec-go/video/lifestyle-lab/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "13 november 2022",
+      "de": "13. November 2022",
+      "fr": "13 novembre 2022"
+    },
+    "1": {
+      "nl": "Review van de Breville Oracle-espressomachine",
+      "de": "Breville Oracle: Espressomaschine im Test",
+      "fr": "Essai de la machine à expresso Breville Oracle"
+    },
+    "2": {
+      "nl": "3 juli 2020",
+      "de": "3. Juli 2020",
+      "fr": "3 juillet 2020"
+    },
+    "3": {
+      "nl": "Een onafhankelijke praktijkdemonstratie toont de bereiding met het 58 mm-systeem van de originele Oracle, de bediening, de espresso en het automatisch opschuimen van melk. De bevindingen komen van de reviewer. De video is geen test van Coffeedant. De actuele prijs en ondersteuning zijn apart nagegaan.",
+      "de": "Ein unabhängiges Praxisvideo zeigt bei der ursprünglichen Oracle die Zubereitung im 58 mm-Format, die Bedienung, den Espressobezug und das automatische Milchaufschäumen. Die Beobachtungen stammen vom Rezensenten. Das Video ist kein Test von Coffeedant. Der aktuelle Preis und der Kundendienst wurden separat geprüft.",
+      "fr": "Une démonstration indépendante montre la préparation au format 58 mm sur l’Oracle d’origine, les commandes, l’extraction de l’expresso et le moussage automatique du lait. Les observations sont celles du vidéaste. La vidéo ne constitue pas un test de Coffeedant. Le prix en vigueur et l’assistance ont été vérifiés séparément."
+    },
+    "6": {
+      "nl": "Breville Oracle BES980: Review van de Breville Oracle-espressomachine · Lifestyle Lab (2020-07-03) | Coffeedant",
+      "de": "Breville Oracle BES980: Breville Oracle als Espressomaschine im Test · Lifestyle Lab (2020-07-03) | Coffeedant",
+      "fr": "Breville Oracle BES980 : Essai de la machine à expresso Breville Oracle · Lifestyle Lab (2020-07-03) | Coffeedant"
+    },
+    "7": {
+      "nl": "Bekijk de video van Lifestyle Lab over de Breville Oracle BES980 (2020-07-03): Review van de Breville Oracle-espressomachine. Een onafhankelijke praktijkdemonstratie toont de bereiding met het 58 mm-systeem van de originele Oracle, de bediening, de espresso en het automatisch opschuimen van melk. De bevindingen komen van de reviewer. De video is geen test van Coffeedant. De actuele prijs en ondersteuning zijn apart nagegaan.",
+      "de": "Video von Lifestyle Lab zur Breville Oracle BES980 ansehen (2020-07-03): Breville Oracle: Espressomaschine im Test. Ein unabhängiges Praxisvideo zeigt bei der ursprünglichen Oracle die Zubereitung im 58 mm-Format, die Bedienung, den Espressobezug und das automatische Milchaufschäumen. Die Beobachtungen stammen vom Rezensenten. Das Video ist kein Test von Coffeedant. Der aktuelle Preis und der Kundendienst wurden separat geprüft.",
+      "fr": "Regardez la vidéo de Lifestyle Lab sur la Breville Oracle BES980 (2020-07-03) : Essai de la machine à expresso Breville Oracle. Une démonstration indépendante montre la préparation au format 58 mm sur l’Oracle d’origine, les commandes, l’extraction de l’expresso et le moussage automatique du lait. Les observations sont celles du vidéaste. La vidéo ne constitue pas un test de Coffeedant. Le prix en vigueur et l’assistance ont été vérifiés séparément."
+    },
+    "9": {
+      "nl": "Video over de Breville Oracle BES980 door Lifestyle Lab",
+      "de": "Video zur Breville Oracle BES980 von Lifestyle Lab",
+      "fr": "Vidéo de Lifestyle Lab sur la Breville Oracle BES980"
+    },
+    "10": {
+      "nl": "Review van de Breville Oracle-espressomachine door Lifestyle Lab",
+      "de": "Breville Oracle: Espressomaschine im Test von Lifestyle Lab",
+      "fr": "Essai de la machine à expresso Breville Oracle par Lifestyle Lab"
+    },
+    "13": {
+      "nl": "Profitec GO van de eerste generatie: Review van de Profitec GO! | De maatstaf voor machines met één boiler · Lifestyle Lab (2022-11-13) | Coffeedant",
+      "de": "Profitec GO der ersten Generation: Profitec GO im Test! | Die Messlatte für Einkesselmaschinen · Lifestyle Lab (2022-11-13) | Coffeedant",
+      "fr": "Profitec GO de première génération : Essai de la Profitec GO ! | La référence des machines à chaudière unique · Lifestyle Lab (2022-11-13) | Coffeedant"
+    },
+    "14": {
+      "nl": "Bekijk de video van Lifestyle Lab over de Profitec GO van de eerste generatie (2022-11-13): Review van de Profitec GO! | De maatstaf voor machines met één boiler. Lifestyle Lab stelt de Profitec GO van de eerste generatie voor en bespreekt de bereiding van espresso, melkdranken, het ontwerp en de bouw. De demonstraties en meningen zijn van de maker zelf.",
+      "de": "Video von Lifestyle Lab zur Profitec GO der ersten Generation ansehen (2022-11-13): Profitec GO im Test! | Die Messlatte für Einkesselmaschinen. Lifestyle Lab stellt die Profitec GO der ersten Generation vor und geht auf Espressozubereitung, Milchgetränke, Design und Verarbeitung ein. Die Vorführungen und Einschätzungen stammen vom Videomacher selbst.",
+      "fr": "Regardez la vidéo de Lifestyle Lab sur la Profitec GO de première génération (2022-11-13) : Essai de la Profitec GO ! | La référence des machines à chaudière unique. Lifestyle Lab présente la Profitec GO de première génération et aborde la préparation de l’expresso, les boissons lactées, le design et la fabrication. Les démonstrations et les avis sont ceux du vidéaste."
+    },
+    "16": {
+      "nl": "Video over de Profitec GO van de eerste generatie door Lifestyle Lab",
+      "de": "Video zur Profitec GO der ersten Generation von Lifestyle Lab",
+      "fr": "Vidéo de Lifestyle Lab sur la Profitec GO de première génération"
+    },
+    "17": {
+      "nl": "Review van de Profitec GO! | De maatstaf voor machines met één boiler, door Lifestyle Lab",
+      "de": "Profitec GO im Test! | Die Messlatte für Einkesselmaschinen, von Lifestyle Lab",
+      "fr": "Essai de la Profitec GO ! | La référence des machines à chaudière unique, par Lifestyle Lab"
+    },
+    "18": {
+      "nl": "Review van de Profitec GO! | De maatstaf voor machines met één boiler",
+      "de": "Profitec GO im Test! | Die Messlatte für Einkesselmaschinen",
+      "fr": "Essai de la Profitec GO ! | La référence des machines à chaudière unique"
+    },
+    "19": {
+      "nl": "Lifestyle Lab stelt de Profitec GO van de eerste generatie voor en bespreekt de bereiding van espresso, melkdranken, het ontwerp en de bouw. De demonstraties en meningen zijn van de maker zelf.",
+      "de": "Lifestyle Lab stellt die Profitec GO der ersten Generation vor und geht auf Espressozubereitung, Milchgetränke, Design und Verarbeitung ein. Die Vorführungen und Einschätzungen stammen vom Videomacher selbst.",
+      "fr": "Lifestyle Lab présente la Profitec GO de première génération et aborde la préparation de l’expresso, les boissons lactées, le design et la fabrication. Les démonstrations et les avis sont ceux du vidéaste."
+    }
+  }
+}

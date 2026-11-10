@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/breville-oracle-bes980x/video/lifestyle-lab/",
+      "sourceHash": "dd2f1c7b83ea5ccbccb8b953344534b433a3e2bfdbbeeba0dbc61b034cf85090"
+    },
+    {
+      "sourcePath": "/espresso-machine/profitec-go/video/lifestyle-lab/",
+      "sourceHash": "403383b281a424ade992d9087b9c08c53beb07f1996bc2012c7f44578f0bfc83"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "4b315a7d999c3bbd68bd61e38e2ea6ed97b5ae672e92c02ebcf536581b336d00",
+      "source": "November 13, 2022",
+      "kind": "text",
+      "context": "November 13, 2022"
+    },
+    {
+      "id": "72b4f5eb07c145187d357751a10236bdb21732870256481aebe055c8b7845074",
+      "source": "Breville Oracle Espresso Machine Review",
+      "kind": "text",
+      "context": "Breville Oracle Espresso Machine Review"
+    },
+    {
+      "id": "c699f78f85efa3316c4dde892eb09cf718a9741a5c49894231b0a888d6f6e67f",
+      "source": "July 3, 2020",
+      "kind": "text",
+      "context": "July 3, 2020"
+    },
+    {
+      "id": "f249bf93f3ab91f668918b03ab91d204d3f882651499bd462e1b4f1cb6e057ec",
+      "source": "An independent hands-on walkthrough of the original Oracle’s 58 mm preparation, controls, espresso, and automatic milk. It is reviewer evidence, not Coffeedant testing, and present-day price and support were checked separately.",
+      "kind": "text",
+      "context": "An independent hands-on walkthrough of the original Oracle’s 58 mm preparation, controls, espresso, and automatic milk. It is reviewer evidence, not Coffeedant testing, and present-day price and support were checked separately."
+    },
+    {
+      "id": "0684d6c81ca6aacd539bb2d4c12548a8c5be9107bdf8c8d21ace85569cdfebb3",
+      "source": "Breville Oracle Espresso Machine Review",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "56480963b343982530aa978a4eed3705f0da5981d9a98aada1cfc1d4960b85b8",
+      "source": "An independent hands-on walkthrough of the original Oracle’s 58 mm preparation, controls, espresso, and automatic milk. It is reviewer evidence, not Coffeedant testing, and present-day price and support were checked separately.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "7fa5c41a358867d6a271690e3b9def92e093b6cde7a7be1f8f5a91edb47971a4",
+      "source": "Breville Oracle BES980: Breville Oracle Espresso Machine Review · Lifestyle Lab (2020-07-03) | Coffeedant",
+      "kind": "text",
+      "context": "Breville Oracle BES980: Breville Oracle Espresso Machine Review · Lifestyle Lab (2020-07-03) | Coffeedant"
+    },
+    {
+      "id": "27aea2dbf6dfdcdddd2282e4ebfa57bd8f10e536ea138b0cfd8b548ede20c86e",
+      "source": "Watch Lifestyle Lab on Breville Oracle BES980 (2020-07-03): Breville Oracle Espresso Machine Review. An independent hands-on walkthrough of the original Oracle’s 58 mm preparation, controls, espresso, and automatic milk. It is reviewer evidence, not Coffeedant testing, and present-day price and support were checked separately.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "1a4a8bddaff026e3c0a29f1c03c5e70071ddada2db2e8088d9cb8cc959dd5618",
+      "source": "Breville Oracle BES980: Breville Oracle Espresso Machine Review · Lifestyle Lab (2020-07-03) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "1c5a5e7678a1806c17963e24829834b678f581880be812b9164eb328f49a9c31",
+      "source": "Breville Oracle BES980 video by Lifestyle Lab",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "aaa615cebdd6b3378fdf53e91591ac2f7fc5ec04fc0a5cce04c54e2132fa145e",
+      "source": "Breville Oracle Espresso Machine Review by Lifestyle Lab",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "100e1496089b6c4623c2934b1020717654c85c3e96f7e5990bef4038b0931880",
+      "source": "Breville Oracle BES980: Breville Oracle Espresso Machine Review · Lifestyle Lab (2020-07-03) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "6a10606a5d9daa8eea0520fdcb5a1cb03c4d57045ee9d64abc164d7e8e22d599",
+      "source": "Watch Lifestyle Lab on Breville Oracle BES980 (2020-07-03): Breville Oracle Espresso Machine Review. An independent hands-on walkthrough of the original Oracle’s 58 mm preparation, controls, espresso, and automatic milk. It is reviewer evidence, not Coffeedant testing, and present-day price and support were checked separately.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "c5d4886facbb6668beb44e6e060d55b16511d51070fe55001af4dcd92a5d825e",
+      "source": "Profitec GO original generation: Profitec GO Review! | The Single Boiler to Beat · Lifestyle Lab (2022-11-13) | Coffeedant",
+      "kind": "text",
+      "context": "Profitec GO original generation: Profitec GO Review! | The Single Boiler to Beat · Lifestyle Lab (2022-11-13) | Coffeedant"
+    },
+    {
+      "id": "80e7258ff928e8d316cbc9bf83a9d7caa1afe6eb2e094f02c2848d3a3eca3e55",
+      "source": "Watch Lifestyle Lab on Profitec GO original generation (2022-11-13): Profitec GO Review! | The Single Boiler to Beat. Lifestyle Lab presents Profitec GO original generation, covering espresso preparation, milk drinks, design and construction. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "657b38d6f00896456af09339c95f1ecb5764d0a36d785a1045f7fdc5cb43de80",
+      "source": "Profitec GO original generation: Profitec GO Review! | The Single Boiler to Beat · Lifestyle Lab (2022-11-13) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "9a5d905e7fe2a26f9650f7a4c348f4e0017628a3e6eee50b9a39978ff12a8013",
+      "source": "Profitec GO original generation video by Lifestyle Lab",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "8b543905a2c59fbe6e1e9a7aa72946922635f5f8073747726ed060d62781e0eb",
+      "source": "Profitec GO Review! | The Single Boiler to Beat by Lifestyle Lab",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "87662f1501600f96408604850202b75f6d4652c41755cc7db84e2dfeb641f84e",
+      "source": "Profitec GO Review! | The Single Boiler to Beat",
+      "kind": "text",
+      "context": "Profitec GO Review! | The Single Boiler to Beat"
+    },
+    {
+      "id": "9b3a8e82547ab70d506b46f536770e9810f223257b3add657f22c371fc1a276d",
+      "source": "Lifestyle Lab presents Profitec GO original generation, covering espresso preparation, milk drinks, design and construction. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Lifestyle Lab presents Profitec GO original generation, covering espresso preparation, milk drinks, design and construction. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "cc49d235a1d198f5539ead11113cd3067292fb07742c5c8736a96f174d56e231",
+      "source": "Profitec GO original generation: Profitec GO Review! | The Single Boiler to Beat · Lifestyle Lab (2022-11-13) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "0ac736929d6ce366130898213e01f2218b13bfba3b1d0d55c76e79db8e09c97b",
+      "source": "Watch Lifestyle Lab on Profitec GO original generation (2022-11-13): Profitec GO Review! | The Single Boiler to Beat. Lifestyle Lab presents Profitec GO original generation, covering espresso preparation, milk drinks, design and construction. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "b8d91944e19692d4922960697d134fd62a54429aad5a91b41e45da1f18c0be7d",
+      "source": "Profitec GO Review! | The Single Boiler to Beat",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "cde7a39f0044cce1eaed7c33758f989069d077c67fbf3740003b6bacb34bd040",
+      "source": "Lifestyle Lab presents Profitec GO original generation, covering espresso preparation, milk drinks, design and construction. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "91d9e101a90f319fc3f85b322cf487fe1d730c350721dcee776e7938755a6702"
+}
