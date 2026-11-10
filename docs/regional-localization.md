@@ -4843,6 +4843,22 @@ localized 404. Coverage is NL 16,966 translated and 42,044 pending, DE
 pending. Finder gaps are zero. Each edition has 157 non-video and 317 video
 pages left.
 
+### Direct batch 111 — Flair 58 Plus 2 and PRO 2 video pages (2026-11-10)
+
+Translate both complete Lifestyle Lab video pages into Dutch, German and
+French. Keep the Plus 2 workflow and refinements tied to that generation,
+and the PRO 2 setup, heat routine, manual extraction and cleanup tied to
+the 2020 video. The translations preserve Flair's role as the source for
+Plus 2 specifications and price. Both written reviews open in English with
+the edition notice. Existing regional video URLs stay in place.
+
+Eighteen new strings fill 28 missing slots and add 30 cache entries per
+edition. The source has 681 pages and 59,010 segments. Each edition can
+render 208 indexable pages and a localized 404. Coverage is NL 16,996
+translated and 42,014 pending, DE 17,112 translated and 41,898 pending,
+and FR 16,976 translated and 42,034 pending. Finder gaps are zero. Each
+edition has 157 non-video and 315 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

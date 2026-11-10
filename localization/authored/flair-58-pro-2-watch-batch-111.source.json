@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/flair-58/video/lifestyle-lab/",
+      "sourceHash": "2f4fdf790e0902fd389f3b6b20d5a7ef0fb3e9f20702e7226e4804cbe1b1ccd9"
+    },
+    {
+      "sourcePath": "/espresso-machine/flair-pro-2/video/lifestyle-lab/",
+      "sourceHash": "8266744a393aeac8df41e5eedbfcbaef1a37616731abb5b1e70d4344cacd7f47"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "e175cd271f50fe8280dd90a64ff54d0201ec434548fdc619a54df72510d63913",
+      "source": "Flair 58+ 2 Review!",
+      "kind": "text",
+      "context": "Flair 58+ 2 Review!"
+    },
+    {
+      "id": "3cb925e30b410a4b5fc8cf877789a57f7f87bb12f09a34e42fc4929e32ccff31",
+      "source": "March 23, 2025",
+      "kind": "text",
+      "context": "March 23, 2025"
+    },
+    {
+      "id": "3cd3baa93c4a42e33be17aee9f8d53f6b83e3ecb65084a713ea514bacadda168",
+      "source": "Independent visual review of the Plus 2 workflow and generational refinements. Specifications and current price remain anchored to Flair.",
+      "kind": "text",
+      "context": "Independent visual review of the Plus 2 workflow and generational refinements. Specifications and current price remain anchored to Flair."
+    },
+    {
+      "id": "294e51f0ffd0671d2ef237c341fbffdca8daa2509a66f80d053aab91c65d70ec",
+      "source": "Flair 58+ 2 Review!",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "81c3e50c2e01253964c63b6adff479590acf8f90dffb0b9886b49db947971e3d",
+      "source": "Independent visual review of the Plus 2 workflow and generational refinements. Specifications and current price remain anchored to Flair.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "8ddb2e55bd7fa2de9d5975c9dda8c34ccf9d69c9b0fb80fe63b31b80218f4663",
+      "source": "← Flair 58 Plus 2 review",
+      "kind": "text",
+      "context": "← Flair 58 Plus 2 review"
+    },
+    {
+      "id": "de9d066f7402c1d05d4aeded5e8bb115e3b895206ddd35cf2c09af95ba4fc808",
+      "source": "Flair 58 Plus 2 · Third-party perspective",
+      "kind": "text",
+      "context": "Flair 58 Plus 2 · Third-party perspective"
+    },
+    {
+      "id": "6be717c1bd58b4d1650fdc70afd50820a4364597248d9f953ab42cfb6cf53fca",
+      "source": "Flair 58 Plus 2: Flair 58+ 2 Review! · Lifestyle Lab (2025-03-23) | Coffeedant",
+      "kind": "text",
+      "context": "Flair 58 Plus 2: Flair 58+ 2 Review! · Lifestyle Lab (2025-03-23) | Coffeedant"
+    },
+    {
+      "id": "2c2cabd4f9fcf9b8a5c92168dd4be32daa19b22d68bd102ca000897c543b27f3",
+      "source": "Watch Lifestyle Lab on Flair 58 Plus 2 (2025-03-23): Flair 58+ 2 Review!. Independent visual review of the Plus 2 workflow and generational refinements. Specifications and current price remain anchored to Flair.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "b7a312f3394d712415c8d5c1e51687c17804b366ed4c0500cbfdb221d5b96fa9",
+      "source": "Flair 58 Plus 2: Flair 58+ 2 Review! · Lifestyle Lab (2025-03-23) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "4d4d0afeb37fe03a2a8bf54b3fee4a6fea8488f4bb4d4668588b0e3e3f061ea9",
+      "source": "Flair 58 Plus 2 video by Lifestyle Lab",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "5e4398f42de89102076714750381ad4dcf2fbe59b17935152380b43cfa136277",
+      "source": "Flair 58+ 2 Review! by Lifestyle Lab",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "ed9aa1069f17f74893ee901a73b937e36a6606a2f020e8b3b968e5e6e8b95fce",
+      "source": "Flair 58 Plus 2: Flair 58+ 2 Review! · Lifestyle Lab (2025-03-23) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "a974490b08f4dab5d8890444908afef51caaa21bc148cfccf32d9871c88501f0",
+      "source": "Watch Lifestyle Lab on Flair 58 Plus 2 (2025-03-23): Flair 58+ 2 Review!. Independent visual review of the Plus 2 workflow and generational refinements. Specifications and current price remain anchored to Flair.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "531ee752b9bae5bca1ad10aeb23349c5ef517db8f56863d46af24e5a212dfd74",
+      "source": "Flair Espresso Maker Review",
+      "kind": "text",
+      "context": "Flair Espresso Maker Review"
+    },
+    {
+      "id": "81ab4a0ec2cd1bcc2c78653232ea9723e0a6e58fc80bcca5697bfaaf41aa2ec1",
+      "source": "August 30, 2020",
+      "kind": "text",
+      "context": "August 30, 2020"
+    },
+    {
+      "id": "0704429854e01c2e3d10957f7df25491c43368d286787a9971ef7b1a07cbd72a",
+      "source": "Independent PRO 2-era workflow review showing setup, thermal routine, manual extraction and cleanup. Current status and price are verified separately.",
+      "kind": "text",
+      "context": "Independent PRO 2-era workflow review showing setup, thermal routine, manual extraction and cleanup. Current status and price are verified separately."
+    },
+    {
+      "id": "2ebbc94ea1ba00a62339c4861840f28ef4cc38abf5dce40b2e0ca4df6c32c236",
+      "source": "Flair Espresso Maker Review",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "9413d9158546ab0bc0479b4cb32fff9454a6d6d99d293cf7f4b7db47fef4b3ae",
+      "source": "Independent PRO 2-era workflow review showing setup, thermal routine, manual extraction and cleanup. Current status and price are verified separately.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "ef59f81f88f6148aecbd2df471db3755f69a8e2438d897c642ca34c553d6ac2c",
+      "source": "← Flair PRO 2 review",
+      "kind": "text",
+      "context": "← Flair PRO 2 review"
+    },
+    {
+      "id": "7d136eed263475c689864dc196a5282879377d8b7997c9f72569d8e0213d1cfe",
+      "source": "Flair PRO 2 · Third-party perspective",
+      "kind": "text",
+      "context": "Flair PRO 2 · Third-party perspective"
+    },
+    {
+      "id": "2316592a339576b0ce1b1e7cf374f7525d3f09da6d9d099e39dc4039f7642868",
+      "source": "Flair PRO 2: Flair Espresso Maker Review · Lifestyle Lab (2020-08-30) | Coffeedant",
+      "kind": "text",
+      "context": "Flair PRO 2: Flair Espresso Maker Review · Lifestyle Lab (2020-08-30) | Coffeedant"
+    },
+    {
+      "id": "20f15330ca6890b7398437d0f2d26c7c138e8d1dff2665820fa86be458610086",
+      "source": "Watch Lifestyle Lab on Flair PRO 2 (2020-08-30): Flair Espresso Maker Review. Independent PRO 2-era workflow review showing setup, thermal routine, manual extraction and cleanup. Current status and price are verified separately.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "29cf0493ab8099214714c9fe78d306447790694c9e700388dea91c1ebcc11fa9",
+      "source": "Flair PRO 2: Flair Espresso Maker Review · Lifestyle Lab (2020-08-30) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "70204230cd7c48d1ba7f28e139365495fee1aec698f0dc056cd1e69c476755c3",
+      "source": "Flair PRO 2 video by Lifestyle Lab",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "68ec08b8e5403b4179610e13842a88337135c0242017a4ea0e7c104158136ad5",
+      "source": "Flair Espresso Maker Review by Lifestyle Lab",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "f74f397772df39378f1a026b8e62a3a623e3e15588508f03c9697230b7dbbfa1",
+      "source": "Flair PRO 2: Flair Espresso Maker Review · Lifestyle Lab (2020-08-30) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "34067b0350b07c28563cb8e4bc09c55e651ce840a305617fecb10daf0a24f4f5",
+      "source": "Watch Lifestyle Lab on Flair PRO 2 (2020-08-30): Flair Espresso Maker Review. Independent PRO 2-era workflow review showing setup, thermal routine, manual extraction and cleanup. Current status and price are verified separately.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "9e6eef286f6b02564598319b1296424122efc1d30db86ddf858d26380d5e92c9"
+}
