@@ -1188,6 +1188,12 @@
     "pendingVideoIds": [],
     "note": "Focused exact-product search found no independently verifiable current Seabright House Blend whole-bean tasting video with stable metadata."
   },
+  "/espresso-machine/profitec-go-2-0/": {
+    "checkedAt": "2026-11-10",
+    "status": "pending-metadata-verification",
+    "pendingVideoIds": ["a_oJZGfhfF4"],
+    "note": "Kaffeemacher's exact-generation purchased-sample GO 2.0 video is cited in the review. Channel URL and duration require verification before creating a dedicated embedded VideoObject/watch page."
+  },
   "/espresso-machine/profitec-drive/": {
     "checkedAt": "2026-11-09",
     "status": "selected",
@@ -1195,4 +1201,3 @@
     "note": "TechTravel Panda exact-model unsponsored owner video verified against YouTube title, channel, published date and duration. One 2024 unit; no Coffeedant measurement."
   }
 }
-
