@@ -4695,10 +4695,10 @@ paths and add the two French paths under the existing review prefix. The
 unfinished written review still opens in English with the edition notice.
 
 The full snapshot freezes 506 slots. Seventeen directly translated strings
-fill 29 missing slots per edition. The source has 672 pages and 57,926
+fill 29 missing slots per edition. The source has 672 pages and 57,929
 segments. Each edition can render 193 indexable pages and a localized 404.
-Coverage is NL 16,657 translated and 41,269 pending, DE 16,713 translated
-and 41,213 pending, and FR 16,637 translated and 41,289 pending. Finder
+Coverage is NL 16,657 translated and 41,272 pending, DE 16,713 translated
+and 41,216 pending, and FR 16,637 translated and 41,292 pending. Finder
 gaps are zero. Each edition has 150 non-video and 328 video pages left.
 
 ## Missing configuration
