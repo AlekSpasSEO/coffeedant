@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/breville-dynamic-duo-bep920/video/coffee-kev/",
+      "sourceHash": "8687ce577c35f48ff6951c183e7a482069ca816b70dc497d5cca56f67b698426"
+    },
+    {
+      "sourcePath": "/espresso-machine/breville-dynamic-duo-bep920/video/seattle-coffee-gear/",
+      "sourceHash": "a64cc24229dd0ab90ea87b06af6e59b7953fee81c6a7798f95e83ea60986241c"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "add0023ec0b39b35f145307f7adc296fe8f4b469bb3257bb177cbf362623d16f",
+      "source": "Breville Dynamic Duo | Crew Review",
+      "kind": "text",
+      "context": "Breville Dynamic Duo | Crew Review"
+    },
+    {
+      "id": "77f5d402e26e81abf683fbf6cdaa508c2713fa9eb95fa724fb1bd1ad3755d6c8",
+      "source": "November 21, 2020",
+      "kind": "text",
+      "context": "November 21, 2020"
+    },
+    {
+      "id": "1288a8bc1a9cf4b0e181d82c04eaef7b5820922df8af7b1f5216cfe9bce3432d",
+      "source": "A retailer-produced independent walkthrough showing both bundle components and the working sequence. It supports visual orientation, not Coffeedant measurement or long-term reliability claims.",
+      "kind": "text",
+      "context": "A retailer-produced independent walkthrough showing both bundle components and the working sequence. It supports visual orientation, not Coffeedant measurement or long-term reliability claims."
+    },
+    {
+      "id": "f87e1fe86a52a988a32be536959f80f6320dda55b7cffa00231ab516c0c3c686",
+      "source": "Breville Dynamic Duo | Crew Review",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "79179d47b93efa2aaffb5f1efdda7e29898472d877010c4f606669ea04f24ce7",
+      "source": "A retailer-produced independent walkthrough showing both bundle components and the working sequence. It supports visual orientation, not Coffeedant measurement or long-term reliability claims.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "54d94abe570bf19df496d80d62a9a42e5a94deeeabbd8777afdc228d50d8cf2b",
+      "source": "Breville Dynamic Duo BEP920: Sage (Breville) Dual Boiler: Part 5 - The Dynamic Duo · Coffee Kev (2023-04-13) | Coffeedant",
+      "kind": "text",
+      "context": "Breville Dynamic Duo BEP920: Sage (Breville) Dual Boiler: Part 5 - The Dynamic Duo · Coffee Kev (2023-04-13) | Coffeedant"
+    },
+    {
+      "id": "a3c2c029f9c2cecc06c00f0400ff8902b8fceff919d158cf6064b671ee1ca19b",
+      "source": "Watch Coffee Kev on Breville Dynamic Duo BEP920 (2023-04-13): Sage (Breville) Dual Boiler: Part 5 - The Dynamic Duo. Coffee Kev presents Breville Dynamic Duo BEP920. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "72d7e017c2eafbef140d6d14762ac317ad4fdae1c87c206f8e55ee06d1db891a",
+      "source": "Breville Dynamic Duo BEP920: Sage (Breville) Dual Boiler: Part 5 - The Dynamic Duo · Coffee Kev (2023-04-13) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "6749878c5b18c9cb718c903987e9c8f952a80aafe69bb7e19893d94d7df53087",
+      "source": "Breville Dynamic Duo BEP920 video by Coffee Kev",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "a4a165a6339d71f6edac8428e90bb64c7dc5b477aefe41e2bfcab711a482e040",
+      "source": "← Breville Dynamic Duo BEP920 review",
+      "kind": "text",
+      "context": "← Breville Dynamic Duo BEP920 review"
+    },
+    {
+      "id": "fec41d67650e3ef15da10f68114835fc26d2e56772d7b67b0d0b481da878cc6b",
+      "source": "Sage (Breville) Dual Boiler: Part 5 - The Dynamic Duo by Coffee Kev",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "1e97cf77e20798064304dfdc7986df5522fb9408b221adecf3419f5a5f2e21b8",
+      "source": "Breville Dynamic Duo BEP920 · Third-party perspective",
+      "kind": "text",
+      "context": "Breville Dynamic Duo BEP920 · Third-party perspective"
+    },
+    {
+      "id": "bc992cfa5103a6153d7d8a9e35cc350e8b18202f6540d4a1aa569908b9301505",
+      "source": "Sage (Breville) Dual Boiler: Part 5 - The Dynamic Duo",
+      "kind": "text",
+      "context": "Sage (Breville) Dual Boiler: Part 5 - The Dynamic Duo"
+    },
+    {
+      "id": "725f31c422e2a90c5d9dfc69cc091daa0aae2d430064fce872c824c54b5a6eb4",
+      "source": "April 13, 2023",
+      "kind": "text",
+      "context": "April 13, 2023"
+    },
+    {
+      "id": "9d00f9639ce400030057a658c34a566d7fee55668dc52a664033a4dd2ea113d5",
+      "source": "Coffee Kev presents Breville Dynamic Duo BEP920. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Coffee Kev presents Breville Dynamic Duo BEP920. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "5b0a4064c1a4758f8af614b97ec7f1d39706ff82c7d81c47e13d5bf077506b68",
+      "source": "Breville Dynamic Duo BEP920: Sage (Breville) Dual Boiler: Part 5 - The Dynamic Duo · Coffee Kev (2023-04-13) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "11aed46ec3cb2b5da90e56486fb6dc9264fa2b8e2cebab37cb6a50a0c50eb13a",
+      "source": "Watch Coffee Kev on Breville Dynamic Duo BEP920 (2023-04-13): Sage (Breville) Dual Boiler: Part 5 - The Dynamic Duo. Coffee Kev presents Breville Dynamic Duo BEP920. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "25239a750bcf98e0b9cbe73c66cb26b6e1008f6b6d95df3fcd97bf89f26fd6f6",
+      "source": "Breville Dynamic Duo BEP920 video by Coffee Kev",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "0286f3c201276e9928cbebf7bb827102ea1d68516bb90f70b5085da44c0fa296",
+      "source": "Sage (Breville) Dual Boiler: Part 5 - The Dynamic Duo",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "05eb93578f8cf063853af72baa4c7be9c13ff545aeb8b737ac13e91924faa829",
+      "source": "Coffee Kev presents Breville Dynamic Duo BEP920. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "1126263fd56394776278c67d4cc47617403d346c2e9b115c6d6886055b4b82db",
+      "source": "Breville Dynamic Duo BEP920: Breville Dynamic Duo | Crew Review · Seattle Coffee Gear (2020-11-21) | Coffeedant",
+      "kind": "text",
+      "context": "Breville Dynamic Duo BEP920: Breville Dynamic Duo | Crew Review · Seattle Coffee Gear (2020-11-21) | Coffeedant"
+    },
+    {
+      "id": "0347a27cac725193925acd6d1b8673df33c31770b2c5efeb8453daae678c78c4",
+      "source": "Watch Seattle Coffee Gear on Breville Dynamic Duo BEP920 (2020-11-21): Breville Dynamic Duo | Crew Review. A retailer-produced independent walkthrough showing both bundle components and the working sequence. It supports visual orientation, not Coffeedant measurement or long-term reliability claims.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "365d75c3b3dc3d35f5f10b170af2e5135d14ce24bf315b987269dfe8c635a900",
+      "source": "Breville Dynamic Duo BEP920: Breville Dynamic Duo | Crew Review · Seattle Coffee Gear (2020-11-21) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "6c912f4c5520b51c485ecaa45f087cd54cbf1afd2c779b9866b4293337a375c1",
+      "source": "Breville Dynamic Duo BEP920 video by Seattle Coffee Gear",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "737f85c304eb993aa78dc162e3cda66dbcd880c42199a228f50afe9f5dc2e528",
+      "source": "Breville Dynamic Duo | Crew Review by Seattle Coffee Gear",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "47f87b8a22bb49daac2116c4149e1623f43436788b640a415ff949e345f6d023",
+      "source": "Breville Dynamic Duo BEP920 · Retailer perspective",
+      "kind": "text",
+      "context": "Breville Dynamic Duo BEP920 · Retailer perspective"
+    },
+    {
+      "id": "395a40bd9c3a22d66223b8d069ecf5caf94b4403e19061b356aeb19a623c7664",
+      "source": "Breville Dynamic Duo BEP920: Breville Dynamic Duo | Crew Review · Seattle Coffee Gear (2020-11-21) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b8d97717bfb583154d0b00b4ca9e497e6c4455ade24f68afca7bbd1df7ade49f",
+      "source": "Watch Seattle Coffee Gear on Breville Dynamic Duo BEP920 (2020-11-21): Breville Dynamic Duo | Crew Review. A retailer-produced independent walkthrough showing both bundle components and the working sequence. It supports visual orientation, not Coffeedant measurement or long-term reliability claims.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "69b64c06a93bfe9914a35cf1da355bd2ed54e6731bf1b7d9191777a31f4878d5",
+      "source": "Breville Dynamic Duo BEP920 video by Seattle Coffee Gear",
+      "kind": "json",
+      "context": "caption"
+    }
+  ],
+  "snapshotHash": "679ddd5ba94b95269f2c8fa13fcc3ec5f9ffabce45e6132e1a413a840732c771"
+}
