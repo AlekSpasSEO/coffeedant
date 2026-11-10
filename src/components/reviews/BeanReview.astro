@@ -7,15 +7,17 @@ const selectedVideo = getProductVideos(review.slug)[0];
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const local = (path: string) => `${base}${path.replace(/^\//, '')}`;
 const canonical = `https://coffeedant.com${review.slug}`;
+const displayImage = review.image.startsWith('/') ? local(review.image) : review.image;
+const schemaImage = review.image.startsWith('/') ? `https://coffeedant.com${review.image}` : review.image;
 const authorImage = local('/images/author-aleksandar-spasevski.jpg');
 const formatDate = (date: string) => new Intl.DateTimeFormat('en-US', { dateStyle: 'long', timeZone: 'UTC' }).format(new Date(`${date}T00:00:00Z`));
 const cite = (paragraph: string) => paragraph.replace(/\[(\d+)\]/g, (_match, number) => `<a class="bean-cite" href="#s${number}" aria-label="Source ${number}">[${number}]</a>`);
 const author = { '@type': 'Person', name: 'Aleksandar Spasevski', jobTitle: 'Editor, Coffeedant', url: 'https://coffeedant.com/about/', image: `https://coffeedant.com/images/author-aleksandar-spasevski.jpg` };
 const schema = { '@context': 'https://schema.org', '@graph': [
   ...(selectedVideo ? [videoSchema(selectedVideo, {slug:review.slug,name:`${review.roaster} ${review.coffee}`},canonical)] : []),
-  { '@type': 'ImageObject', '@id': `${canonical}#coffee-image`, contentUrl: review.image, name: review.imageAlt, caption: review.imageAlt, creditText: review.imageCredit, url: review.imageSource, creator: { '@type': 'Organization', name: review.roaster } },
-  { '@type': 'Product', '@id': `${canonical}#product`, name: `${review.roaster} ${review.coffee}`, identifier: review.productId, category: 'Whole-bean coffee', image: review.image, description: review.description, brand: { '@type': 'Brand', name: review.roaster }, url: canonical },
-  { '@type': 'Article', '@id': `${canonical}#article`, headline: review.title, description: review.description, genre: 'Research-led coffee review', inLanguage: 'en-US', datePublished: review.published, dateModified: review.updated, author, image: review.image, mainEntityOfPage: canonical, about: { '@id': `${canonical}#product` }, citation: review.sources.map((source) => source.href), publisher: { '@type': 'Organization', name: 'Coffeedant', url: 'https://coffeedant.com/' } },
+  { '@type': 'ImageObject', '@id': `${canonical}#coffee-image`, contentUrl: schemaImage, name: review.imageAlt, caption: review.imageAlt, creditText: review.imageCredit, url: review.imageSource, creator: { '@type': 'Organization', name: review.roaster } },
+  { '@type': 'Product', '@id': `${canonical}#product`, name: `${review.roaster} ${review.coffee}`, identifier: review.productId, category: 'Whole-bean coffee', image: schemaImage, description: review.description, brand: { '@type': 'Brand', name: review.roaster }, url: canonical },
+  { '@type': 'Article', '@id': `${canonical}#article`, headline: review.title, description: review.description, genre: 'Research-led coffee review', inLanguage: 'en-US', datePublished: review.published, dateModified: review.updated, author, image: schemaImage, mainEntityOfPage: canonical, about: { '@id': `${canonical}#product` }, citation: review.sources.map((source) => source.href), publisher: { '@type': 'Organization', name: 'Coffeedant', url: 'https://coffeedant.com/' } },
   { '@type': 'BreadcrumbList', itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://coffeedant.com/' },
     { '@type': 'ListItem', position: 2, name: 'Coffee beans', item: 'https://coffeedant.com/coffee-beans/' },
@@ -29,7 +31,7 @@ const schema = { '@context': 'https://schema.org', '@graph': [
     <nav class="review-breadcrumbs" aria-label="Breadcrumb"><a href={base}>Home</a><span>/</span><a href={local('/coffee-beans/')}>Coffee beans</a><span>/</span><span>{review.roaster} {review.coffee}</span></nav>
     <header class="bean-hero">
       <div class="bean-hero-media">
-        <img src={review.image} alt={review.imageAlt} width="770" height="770" loading="eager" decoding="async" />
+        <img src={displayImage} alt={review.imageAlt} width="770" height="770" loading="eager" decoding="async" />
         <p class="bean-credit"><a href={review.imageSource} target="_blank" rel="noopener">Image: {review.roaster}</a>. {review.imageCredit}</p>
       </div>
       <div class="bean-hero-copy">
@@ -61,3 +63,4 @@ const schema = { '@context': 'https://schema.org', '@graph': [
   </div>
 </main>
 <script is:inline type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />
+
