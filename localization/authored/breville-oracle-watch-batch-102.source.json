@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/breville-oracle-bes980x/video/coffee-kev/",
+      "sourceHash": "05828171f1afe194cf66e539688e65ca253331b2f84eb61f660396a3f53101b8"
+    },
+    {
+      "sourcePath": "/espresso-machine/breville-oracle-bes980x/video/ecs-coffee-espresso-and-coffee-gear/",
+      "sourceHash": "cc6e4a3b897c37ffad5a69ee6cb5ae732f65c4fe5d3909941d6d2554a93a618a"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "9120354b9c58919c3227e0fcf8dea6656cb85672627624643682ca0773840790",
+      "source": "Breville Oracle BES980: Sage (Breville) Oracle Review. Part 2 - User Review (after several weeks of use). · Coffee Kev (2022-04-27) | Coffeedant",
+      "kind": "text",
+      "context": "Breville Oracle BES980: Sage (Breville) Oracle Review. Part 2 - User Review (after several weeks of use). · Coffee Kev (2022-04-27) | Coffeedant"
+    },
+    {
+      "id": "eb7eb7f77ff4d6389b3c72db70e0293a907267a019bef6f7b1314d978d2a2620",
+      "source": "Watch Coffee Kev on Breville Oracle BES980 (2022-04-27): Sage (Breville) Oracle Review. Part 2 - User Review (after several weeks of use).. Coffee Kev presents Breville Oracle BES980. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "37daf9abc1d887b65d66361be93209369eaa098a5980b2d4b0d282dcf2e62dab",
+      "source": "Breville Oracle BES980: Sage (Breville) Oracle Review. Part 2 - User Review (after several weeks of use). · Coffee Kev (2022-04-27) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "4bbae6db69cb4688d81d5c292b6e12bd210a69d054d41fda3d7aa9d68e1f6b61",
+      "source": "Breville Oracle BES980 video by Coffee Kev",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "a615ba2b7519a383ed4396a6648b7d57b8b67b27bd02ee7e414c333bd326d6ab",
+      "source": "← Breville Oracle BES980 review",
+      "kind": "text",
+      "context": "← Breville Oracle BES980 review"
+    },
+    {
+      "id": "9bd7cfbd111e3392a8e559ef806a35fa6a8a1f33ced9842acc6093908ceb0267",
+      "source": "Sage (Breville) Oracle Review. Part 2 - User Review (after several weeks of use). by Coffee Kev",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "144d9263a9121c92df3988ddf7a5e2283de1c415d9b87615b7626987b985366d",
+      "source": "Breville Oracle BES980 · Third-party perspective",
+      "kind": "text",
+      "context": "Breville Oracle BES980 · Third-party perspective"
+    },
+    {
+      "id": "26681460abb9c814c67d38f29a9b0072bbb4318ac24cce5a9fdf015cf7dceba5",
+      "source": "Sage (Breville) Oracle Review. Part 2 - User Review (after several weeks of use).",
+      "kind": "text",
+      "context": "Sage (Breville) Oracle Review. Part 2 - User Review (after several weeks of use)."
+    },
+    {
+      "id": "2c5901aa5aea92b1806d4f43efa357a2f2d9499dc432557925896ad8be7dd658",
+      "source": "April 27, 2022",
+      "kind": "text",
+      "context": "April 27, 2022"
+    },
+    {
+      "id": "a9a6be50a4763d92900f170e830d9489380a472857a18c2ffac779f622e7f9d3",
+      "source": "Coffee Kev presents Breville Oracle BES980. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Coffee Kev presents Breville Oracle BES980. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "658acd791782beff83622ba7807eb5df5005d2d437e9dead1bbeb900f265bb61",
+      "source": "Breville Oracle BES980: Sage (Breville) Oracle Review. Part 2 - User Review (after several weeks of use). · Coffee Kev (2022-04-27) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "795881960f5f853f6bc7cfbc4a4c09b2f174c00d0eeb6a1b0a9a27c8b4d368f4",
+      "source": "Watch Coffee Kev on Breville Oracle BES980 (2022-04-27): Sage (Breville) Oracle Review. Part 2 - User Review (after several weeks of use).. Coffee Kev presents Breville Oracle BES980. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "723b2a3406a4c2cb54067c202972d5e19a676081c64e4d89a068d65dbd57872c",
+      "source": "Breville Oracle BES980 video by Coffee Kev",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "0a344eb9e8625b2f1af62ba62f2ab1d726cbc0d9c3eb4f724ef25a289614be90",
+      "source": "Sage (Breville) Oracle Review. Part 2 - User Review (after several weeks of use).",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "bd4bca8531d88bfec3517136365206ae5dd6312411d452a1f64a0be75982c2d2",
+      "source": "Coffee Kev presents Breville Oracle BES980. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "a8e806c7f74b9c9604365f3bbfc20d82d8a7c2a377f16d4fbbb51dc823794168",
+      "source": "Breville Oracle BES980: Breville Oracle Review · ECS COFFEE Espresso & Coffee Gear (2023-02-20) | Coffeedant",
+      "kind": "text",
+      "context": "Breville Oracle BES980: Breville Oracle Review · ECS COFFEE Espresso & Coffee Gear (2023-02-20) | Coffeedant"
+    },
+    {
+      "id": "99bf260c636e1292e6009614c5f48969d5c884df442d107b108ed1d250a38ff0",
+      "source": "Watch ECS COFFEE Espresso & Coffee Gear on Breville Oracle BES980 (2023-02-20): Breville Oracle Review. ECS COFFEE Espresso & Coffee Gear presents Breville Oracle BES980, covering grinding, espresso preparation, setup and controls. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "da25232e999d5bf992f2a30c84ff35ba87391b66e000138bed4eb9e549a6aecf",
+      "source": "Breville Oracle BES980: Breville Oracle Review · ECS COFFEE Espresso & Coffee Gear (2023-02-20) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "c74f6a2eabf7eb466bd1cd55b57cd351db1c3a2f1bdc71f84a27b34d381ee345",
+      "source": "Breville Oracle BES980 video by ECS COFFEE Espresso & Coffee Gear",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "b8f29a1a59ff1d3d210423fa67be61c6374f3ac0b7eef11eac1443bdf94e479a",
+      "source": "Breville Oracle Review by ECS COFFEE Espresso & Coffee Gear",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "573a22091aabd308d2a012b0cc12b132a4ac2b8d4bf05cbfc584dc6d89a29a63",
+      "source": "Breville Oracle BES980 · Retailer perspective",
+      "kind": "text",
+      "context": "Breville Oracle BES980 · Retailer perspective"
+    },
+    {
+      "id": "3e09ca2b73df76784c106fa6b6b31126feee8b60e3ab42a6003011b8244e2b78",
+      "source": "Breville Oracle Review",
+      "kind": "text",
+      "context": "Breville Oracle Review"
+    },
+    {
+      "id": "683ff8b6d35ffc12ab01aac36d933df6db6ef4c70ab8c07c25dcbac9105fe253",
+      "source": "February 20, 2023",
+      "kind": "text",
+      "context": "February 20, 2023"
+    },
+    {
+      "id": "cce9df288224069d2c4d107f3f9ddfcb6e3037302821055d4e918237a63c2be6",
+      "source": "ECS COFFEE Espresso & Coffee Gear presents Breville Oracle BES980, covering grinding, espresso preparation, setup and controls. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "text",
+      "context": "ECS COFFEE Espresso & Coffee Gear presents Breville Oracle BES980, covering grinding, espresso preparation, setup and controls. This is an equipment seller’s perspective; consider it alongside the other sources and our written review."
+    },
+    {
+      "id": "76e0beb743a0e2ebcfb2e52029e0068c6776fda31b0d847eb87cebc03054c035",
+      "source": "Breville Oracle BES980: Breville Oracle Review · ECS COFFEE Espresso & Coffee Gear (2023-02-20) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "34b2174815197a3a258560bb3c670a59f39f72b1d0a646a9160d0f24c37ee0b9",
+      "source": "Watch ECS COFFEE Espresso & Coffee Gear on Breville Oracle BES980 (2023-02-20): Breville Oracle Review. ECS COFFEE Espresso & Coffee Gear presents Breville Oracle BES980, covering grinding, espresso preparation, setup and controls. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "e7d72ee2025f8bbf3c0c0856e525ff4d2b1d5a90114bdd3261a1b2dab3864cf9",
+      "source": "Breville Oracle BES980 video by ECS COFFEE Espresso & Coffee Gear",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "e90729102aa6b0fe3093b9050ea64da065dd611007c096e542fdfd305112d988",
+      "source": "Breville Oracle Review",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "28ef48e71d165442fd5e18ce19fe8a9ce054b81059510052b19217bd75b18cdc",
+      "source": "ECS COFFEE Espresso & Coffee Gear presents Breville Oracle BES980, covering grinding, espresso preparation, setup and controls. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "f237f07200938f95e4fab5d7345e28b8ee8571ef26577c76db16e952b6434412"
+}
