@@ -4718,6 +4718,22 @@ translated and 41,186 pending, DE 16,799 translated and 41,130 pending,
 and FR 16,723 translated and 41,206 pending. Finder gaps are zero. Each
 edition has 149 non-video and 328 video pages left.
 
+### Direct batch 104 — Breville Dynamic Duo BEP920 video pages (2026-11-10)
+
+Translate Coffee Kev’s Part 5 and Seattle Coffee Gear’s walkthrough in
+Dutch, German and French. Preserve the Sage (Breville) title, BEP920
+reference, dates, embeds, affiliate disclosure, retailer attribution and
+the limits on measurements and long-term reliability. Keep the registered
+Dutch and German paths and add the two French video paths. The unfinished
+written review still opens in English with the edition notice.
+
+The full snapshot freezes 506 slots. Seventeen directly translated strings
+fill 29 missing slots per edition. The source has 672 pages and 57,929
+segments. Each edition can render 196 indexable pages and a localized 404.
+Coverage is NL 16,772 translated and 41,157 pending, DE 16,828 translated
+and 41,101 pending, and FR 16,752 translated and 41,177 pending. Finder
+gaps are zero. Each edition has 149 non-video and 326 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
