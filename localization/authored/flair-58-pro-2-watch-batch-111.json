@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "flair-58-pro-2-watch-batch-111.source.json",
+  "snapshotHash": "9e6eef286f6b02564598319b1296424122efc1d30db86ddf858d26380d5e92c9",
+  "routes": {
+    "nl": {
+      "/espresso-machine/flair-58/video/lifestyle-lab/": "/espresso-machine/flair-58/video/lifestyle-lab/"
+    },
+    "fr": {
+      "/espresso-machine/flair-58/video/lifestyle-lab/": "/machine-a-espresso/flair-58/video/lifestyle-lab/",
+      "/espresso-machine/flair-pro-2/video/lifestyle-lab/": "/machine-a-espresso/flair-pro-2/video/lifestyle-lab/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "Review van de Flair 58+ 2!",
+      "de": "Flair 58+ 2 im Test!",
+      "fr": "Essai de la Flair 58+ 2 !"
+    },
+    "1": {
+      "nl": "23 maart 2025",
+      "de": "23. März 2025",
+      "fr": "23 mars 2025"
+    },
+    "2": {
+      "nl": "Een onafhankelijke videoreview laat zien hoe je met de Plus 2 werkt en welke verbeteringen deze generatie brengt. Voor de specificaties en de actuele prijs blijft Flair de bron.",
+      "de": "Ein unabhängiges Testvideo zeigt den Arbeitsablauf mit der Plus 2 und die Neuerungen dieser Generation. Für die technischen Daten und den aktuellen Preis bleibt Flair die maßgebliche Quelle.",
+      "fr": "Un essai vidéo indépendant montre l’utilisation de la Plus 2 et les améliorations apportées à cette génération. Flair reste la source de référence pour les caractéristiques et le prix actuel."
+    },
+    "5": {
+      "nl": "← Review van de Flair 58 Plus 2",
+      "de": "← Testbericht zur Flair 58 Plus 2",
+      "fr": "← Essai de la Flair 58 Plus 2"
+    },
+    "6": {
+      "nl": "Flair 58 Plus 2 · Perspectief van een derde",
+      "de": "Flair 58 Plus 2 · Sicht eines Dritten",
+      "fr": "Flair 58 Plus 2 · Point de vue d’un tiers"
+    },
+    "7": {
+      "nl": "Flair 58 Plus 2: Review van de Flair 58+ 2! · Lifestyle Lab (2025-03-23) | Coffeedant",
+      "de": "Flair 58 Plus 2: Flair 58+ 2 im Test! · Lifestyle Lab (2025-03-23) | Coffeedant",
+      "fr": "Flair 58 Plus 2 : Essai de la Flair 58+ 2 ! · Lifestyle Lab (2025-03-23) | Coffeedant"
+    },
+    "8": {
+      "nl": "Bekijk de video van Lifestyle Lab over de Flair 58 Plus 2 (2025-03-23): Review van de Flair 58+ 2! Een onafhankelijke videoreview laat zien hoe je met de Plus 2 werkt en welke verbeteringen deze generatie brengt. Voor de specificaties en de actuele prijs blijft Flair de bron.",
+      "de": "Video von Lifestyle Lab zur Flair 58 Plus 2 ansehen (2025-03-23): Flair 58+ 2 im Test! Ein unabhängiges Testvideo zeigt den Arbeitsablauf mit der Plus 2 und die Neuerungen dieser Generation. Für die technischen Daten und den aktuellen Preis bleibt Flair die maßgebliche Quelle.",
+      "fr": "Regardez la vidéo de Lifestyle Lab sur la Flair 58 Plus 2 (2025-03-23) : Essai de la Flair 58+ 2 ! Un essai vidéo indépendant montre l’utilisation de la Plus 2 et les améliorations apportées à cette génération. Flair reste la source de référence pour les caractéristiques et le prix actuel."
+    },
+    "10": {
+      "nl": "Video over de Flair 58 Plus 2 door Lifestyle Lab",
+      "de": "Video zur Flair 58 Plus 2 von Lifestyle Lab",
+      "fr": "Vidéo de Lifestyle Lab sur la Flair 58 Plus 2"
+    },
+    "11": {
+      "nl": "Review van de Flair 58+ 2! Door Lifestyle Lab",
+      "de": "Flair 58+ 2 im Test! Von Lifestyle Lab",
+      "fr": "Essai de la Flair 58+ 2 ! Par Lifestyle Lab"
+    },
+    "14": {
+      "nl": "Review van de Flair-espressomaker",
+      "de": "Flair-Espressobereiter im Test",
+      "fr": "Essai de la machine à expresso Flair"
+    },
+    "15": {
+      "nl": "30 augustus 2020",
+      "de": "30. August 2020",
+      "fr": "30 août 2020"
+    },
+    "16": {
+      "nl": "Een onafhankelijke review uit de tijd van de PRO 2 toont het klaarmaken, het opwarmen, de handmatige extractie en het schoonmaken. De huidige productstatus en prijs worden apart gecontroleerd.",
+      "de": "Ein unabhängiges Testvideo aus der Zeit der PRO 2 zeigt die Vorbereitung, das Aufheizen, die manuelle Extraktion und die Reinigung. Der aktuelle Produktstatus und der Preis werden separat geprüft.",
+      "fr": "Un essai indépendant réalisé à l’époque de la PRO 2 montre la mise en place, la routine de chauffe, l’extraction manuelle et le nettoyage. Le statut actuel du modèle et son prix sont vérifiés séparément."
+    },
+    "19": {
+      "nl": "← Review van de Flair PRO 2",
+      "de": "← Testbericht zur Flair PRO 2",
+      "fr": "← Essai de la Flair PRO 2"
+    },
+    "20": {
+      "nl": "Flair PRO 2 · Perspectief van een derde",
+      "de": "Flair PRO 2 · Sicht eines Dritten",
+      "fr": "Flair PRO 2 · Point de vue d’un tiers"
+    },
+    "21": {
+      "nl": "Flair PRO 2: Review van de Flair-espressomaker · Lifestyle Lab (2020-08-30) | Coffeedant",
+      "de": "Flair PRO 2: Flair-Espressobereiter im Test · Lifestyle Lab (2020-08-30) | Coffeedant",
+      "fr": "Flair PRO 2 : Essai de la machine à expresso Flair · Lifestyle Lab (2020-08-30) | Coffeedant"
+    },
+    "22": {
+      "nl": "Bekijk de video van Lifestyle Lab over de Flair PRO 2 (2020-08-30): Review van de Flair-espressomaker. Een onafhankelijke review uit de tijd van de PRO 2 toont het klaarmaken, het opwarmen, de handmatige extractie en het schoonmaken. De huidige productstatus en prijs worden apart gecontroleerd.",
+      "de": "Video von Lifestyle Lab zur Flair PRO 2 ansehen (2020-08-30): Flair-Espressobereiter im Test. Ein unabhängiges Testvideo aus der Zeit der PRO 2 zeigt die Vorbereitung, das Aufheizen, die manuelle Extraktion und die Reinigung. Der aktuelle Produktstatus und der Preis werden separat geprüft.",
+      "fr": "Regardez la vidéo de Lifestyle Lab sur la Flair PRO 2 (2020-08-30) : Essai de la machine à expresso Flair. Un essai indépendant réalisé à l’époque de la PRO 2 montre la mise en place, la routine de chauffe, l’extraction manuelle et le nettoyage. Le statut actuel du modèle et son prix sont vérifiés séparément."
+    },
+    "24": {
+      "nl": "Video over de Flair PRO 2 door Lifestyle Lab",
+      "de": "Video zur Flair PRO 2 von Lifestyle Lab",
+      "fr": "Vidéo de Lifestyle Lab sur la Flair PRO 2"
+    },
+    "25": {
+      "nl": "Review van de Flair-espressomaker door Lifestyle Lab",
+      "de": "Flair-Espressobereiter im Test von Lifestyle Lab",
+      "fr": "Essai de la machine à expresso Flair par Lifestyle Lab"
+    }
+  }
+}
