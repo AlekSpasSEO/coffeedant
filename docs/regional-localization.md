@@ -4975,6 +4975,17 @@ translated and 42,404 pending, DE 17,343 translated and 42,288 pending,
 and FR 17,207 translated and 42,424 pending. Finder gaps are zero. Each
 edition has 163 non-video and 301 video pages left.
 
+The subsequent Ninja Luxe Café Pro ES701 review adds three Finder fields,
+shared navigation text and Ninja brand page metadata. The direct follow-up
+translates those strings and preserves the exact model name. The Finder
+and brand page point to the English US review, and the regional Finder
+shows no price or offer.
+The current source has 689 pages and 59,882 segments. All 154 Finder records
+are complete in each edition. Each can render 222 indexable pages and a
+localized 404. Coverage is NL 17,239 translated and 42,643 pending, DE 17,355
+translated and 42,527 pending, and FR 17,219 translated and 42,663 pending.
+Each edition has 164 non-video and 302 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
