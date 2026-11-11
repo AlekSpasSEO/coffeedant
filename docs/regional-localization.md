@@ -4956,6 +4956,24 @@ Coverage is NL 17,166 translated and 41,853 pending, DE 17,282 translated and
 41,737 pending, and FR 17,146 translated and 41,873 pending. Finder gaps are
 zero. Each edition has 157 non-video and 303 video pages left.
 
+### Direct batch 118 — Dinamica Plus ECAM370.95.T video pages (2026-11-11)
+
+Translate the complete Tom's Coffee Corner and ECS COFFEE video pages in Dutch,
+German and French. Preserve the ECAM370.95.T model, both dates, the retailer's
+disclosure, the creator's independent review and all six registered URLs.
+Translate the new recipe guide card on the coffee bean hub to keep the hub
+current. The guide and the written machine review open in English with the
+localized edition notice.
+
+The model validator accepts the English suffix in “ECAM370-era” while still
+requiring the exact ECAM370 identifier. Twenty-one translations and one
+unchanged model name cover 34 missing slots and add 35 cache entries per
+edition. The source has 682 pages and 59,140 segments. Each edition can render
+222 indexable pages and a localized 404. Coverage is NL 17,201 translated and
+41,939 pending, DE 17,317 translated and 41,823 pending, and FR 17,181
+translated and 41,959 pending. Finder gaps are zero. Each edition has 158
+non-video and 301 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

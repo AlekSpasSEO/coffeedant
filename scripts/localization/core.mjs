@@ -112,11 +112,11 @@ export const validateTranslation = (source, translated) => {
   // still protects the complete href while allowing its visible label to translate.
   for (const match of source.matchAll(/\{[a-zA-Z]+\}|https?:\/\/[^\s<>"']+|\b[A-Z]{1,6}\d[A-Z\d./-]*\b/g)) {
     const value = match[0];
-    // In "E61-style", the final hyphen belongs to the English adjective,
-    // not the model. Preserve E61 itself; never normalize URLs, placeholders
-    // or separators inside actual codes such as F85/0-102 or QM67-EVO.
+    // In "E61-style" or "ECAM370-era", the hyphen attaches an English
+    // qualifier. Keep the model itself and all separators inside actual codes
+    // such as F85/0-102 or QM67-EVO.
     const token = /^[A-Z]{1,6}\d[A-Z\d./-]*-$/.test(value)
-      && /^style\b/.test(source.slice(match.index + value.length)) ? value.slice(0, -1) : value;
+      && /^(?:style|era)\b/.test(source.slice(match.index + value.length)) ? value.slice(0, -1) : value;
     if (!translated.includes(token)) throw new Error('Translation changed a protected identifier or placeholder');
   }
   for (const brand of glossary.preserve) {
