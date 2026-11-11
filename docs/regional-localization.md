@@ -4908,6 +4908,21 @@ translated and 41,926 pending, DE 17,200 translated and 41,810 pending,
 and FR 17,064 translated and 41,946 pending. Finder gaps are zero. Each
 edition has 157 non-video and 309 video pages left.
 
+### Direct batch 115 — Eletta Explore video pages (2026-11-10)
+
+Translate the complete Coffee Kev and Tom's Coffee Corner Eletta Explore video
+pages into Dutch, German and French, keeping all six registered URLs. Preserve
+both original video dates and attribution. Tom's page retains the distinction
+between older regional ECAM450 variants and the current US EX:4; the linked
+written review remains in English with the localized edition notice.
+
+Sixteen translated strings fill 28 missing slots and add 28 cache entries per
+edition. The source has 681 pages and 59,010 segments. Each edition can render
+216 indexable pages and a localized 404. Coverage is NL 17,112 translated and
+41,898 pending, DE 17,228 translated and 41,782 pending, and FR 17,092
+translated and 41,918 pending. Finder gaps are zero. Each edition has 157
+non-video and 307 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
