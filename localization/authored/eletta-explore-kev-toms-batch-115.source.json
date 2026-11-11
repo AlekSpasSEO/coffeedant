@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/delonghi-eletta-explore-ecam450/video/coffee-kev/",
+      "sourceHash": "1da9a8fe186dc6f3981eac4ef50f2792f90aa982e5e5ba8422227affc3f7a3a3"
+    },
+    {
+      "sourcePath": "/espresso-machine/delonghi-eletta-explore-ecam450/video/toms-coffee-corner/",
+      "sourceHash": "839d05d061672b942410fc9fdcf67793b40b58150db5a1747ca924ad1279fc84"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "b0ec8350073576b836769767b850f7e982fd862e6048d4cf755e7c55bc271fe4",
+      "source": "Delonghi Eletta Explore Superautomatic Coffee Machine Review (Cold Brew and more)",
+      "kind": "text",
+      "context": "Delonghi Eletta Explore Superautomatic Coffee Machine Review (Cold Brew and more)"
+    },
+    {
+      "id": "eb8c7b5c5761ce1cb2dea6d515b5999bba5553c5da5fdb8fa0877283d0080bd8",
+      "source": "April 26, 2024",
+      "kind": "text",
+      "context": "April 26, 2024"
+    },
+    {
+      "id": "6998910124c1e6c8d579f89ca93b37f8d36e7ba8303496ac5ecce52bd8c5aaf8",
+      "source": "A detailed independent visual review of drink customization and cleaning. Check the exact model shown because older ECAM450 regional variants can differ from the current US EX:4.",
+      "kind": "text",
+      "context": "A detailed independent visual review of drink customization and cleaning. Check the exact model shown because older ECAM450 regional variants can differ from the current US EX:4."
+    },
+    {
+      "id": "32083ed734b5eaf52ce976285ed7fccab4c0f3a244f00b30fdd89fe5bb708c84",
+      "source": "Delonghi Eletta Explore Superautomatic Coffee Machine Review (Cold Brew and more)",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "833d16ce7d4c4dfb5b09da9ebdc6372ead4bad20a08c171cda1c67236ab4f82a",
+      "source": "A detailed independent visual review of drink customization and cleaning. Check the exact model shown because older ECAM450 regional variants can differ from the current US EX:4.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "e3cf2f8553cc01dc9124ca278af4ba6d5831daba59a17f4501dd7b81b427c91d",
+      "source": "← De'Longhi Eletta Explore review",
+      "kind": "text",
+      "context": "← De'Longhi Eletta Explore review"
+    },
+    {
+      "id": "ced2475616ecde1724429fb6cc75bae0f9fdb72604526df32f5c4528ffa46ad5",
+      "source": "De'Longhi Eletta Explore · Third-party perspective",
+      "kind": "text",
+      "context": "De'Longhi Eletta Explore · Third-party perspective"
+    },
+    {
+      "id": "5a88d7c305cc28e2c5338e38c45d81a1b2790bdffb892eb9f9d89d275f6ca77d",
+      "source": "De'Longhi Eletta Explore: Delonghi Eletta Explore Review · Coffee Kev (2024-10-18) | Coffeedant",
+      "kind": "text",
+      "context": "De'Longhi Eletta Explore: Delonghi Eletta Explore Review · Coffee Kev (2024-10-18) | Coffeedant"
+    },
+    {
+      "id": "83debf54537170bba09532df6fb846bf1debb5f4f5580218c25579e206cce755",
+      "source": "Watch Coffee Kev on De'Longhi Eletta Explore (2024-10-18): Delonghi Eletta Explore Review. Coffee Kev presents De'Longhi Eletta Explore, covering espresso preparation, milk drinks, taste and brewing. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "3831ea860f2d0294bac4ae017fd0e66c1e63c321a2460cf288f2be63378e2e44",
+      "source": "De'Longhi Eletta Explore: Delonghi Eletta Explore Review · Coffee Kev (2024-10-18) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "7a094b3dad5c5078f526bbb8a97e0fdd4146147bebf19618894b13326010879f",
+      "source": "De'Longhi Eletta Explore video by Coffee Kev",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "df729453e0d9b1cef79fa254179f084698adf6c5091cab64e2ed392c91cacc99",
+      "source": "Delonghi Eletta Explore Review by Coffee Kev",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "fe21484f6c5ed8ab8c87702bb92c719006a019aee4a61b23de37a02477971eec",
+      "source": "Delonghi Eletta Explore Review",
+      "kind": "text",
+      "context": "Delonghi Eletta Explore Review"
+    },
+    {
+      "id": "faccc5825ed82ef126e11cdeaf49514e50ad36cf20ccfb81bdcc725b271ed6cc",
+      "source": "October 19, 2024",
+      "kind": "text",
+      "context": "October 19, 2024"
+    },
+    {
+      "id": "5acb42cfe74bfc1ecbe699bb554313c31d6d67035a48978a5d2b00e1d8a9fc13",
+      "source": "Coffee Kev presents De'Longhi Eletta Explore, covering espresso preparation, milk drinks, taste and brewing. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Coffee Kev presents De'Longhi Eletta Explore, covering espresso preparation, milk drinks, taste and brewing. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "508109669e45d70355352233075f37ef3e14b9b93a02a5e462125b70f66219a9",
+      "source": "De'Longhi Eletta Explore: Delonghi Eletta Explore Review · Coffee Kev (2024-10-18) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "04ec1aaf8de15252228d4a519a076ebf6b9af1e628ecbe8993431e56a4504630",
+      "source": "Watch Coffee Kev on De'Longhi Eletta Explore (2024-10-18): Delonghi Eletta Explore Review. Coffee Kev presents De'Longhi Eletta Explore, covering espresso preparation, milk drinks, taste and brewing. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "db92b03e896f374dbdbc243b40bb401601e958073bb9d6a8ca5549827b2fb576",
+      "source": "De'Longhi Eletta Explore video by Coffee Kev",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "46b8a2895c6954a49df4b592d1213c382bfd3a4cbd24299aadeb68e783d2019d",
+      "source": "Delonghi Eletta Explore Review",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "d79a93f7c9f20ed38090c27ec928eece7214c8ab49777208655f9f2cc75c3058",
+      "source": "Coffee Kev presents De'Longhi Eletta Explore, covering espresso preparation, milk drinks, taste and brewing. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "dfeac67588c926facf7e70c3916ac99876f173d3bd145137552bb7bcab314af0",
+      "source": "De'Longhi Eletta Explore: Delonghi Eletta Explore Superautomatic Coffee Machine Review (Cold Brew and more) · Tom's Coffee Corner (2024-04-26) | Coffeedant",
+      "kind": "text",
+      "context": "De'Longhi Eletta Explore: Delonghi Eletta Explore Superautomatic Coffee Machine Review (Cold Brew and more) · Tom's Coffee Corner (2024-04-26) | Coffeedant"
+    },
+    {
+      "id": "134c7b8050529f8314e931534ffe87e30e73c4aaa1dec920ac000315e1d1fc11",
+      "source": "Watch Tom's Coffee Corner on De'Longhi Eletta Explore (2024-04-26): Delonghi Eletta Explore Superautomatic Coffee Machine Review (Cold Brew and more). A detailed independent visual review of drink customization and cleaning. Check the exact model shown because older ECAM450 regional variants can differ from the current US EX:4.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "b061948133c1f9b7df5dda6be1ff6805189e5d0b0715519742f44b252904512f",
+      "source": "De'Longhi Eletta Explore: Delonghi Eletta Explore Superautomatic Coffee Machine Review (Cold Brew and more) · Tom's Coffee Corner (2024-04-26) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "0c08a48da46558ce284c3cb6273ce21cd0e569ad86e92a7e6f1fdde611e19c34",
+      "source": "De'Longhi Eletta Explore video by Tom's Coffee Corner",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "5e71667b10bed005fa5fb846775136d19ad7577cf13f3f85ee780adf3259a183",
+      "source": "Delonghi Eletta Explore Superautomatic Coffee Machine Review (Cold Brew and more) by Tom's Coffee Corner",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "be2bd351c142fa19bd92fb4db2893352b424732b522375edb238df7ac54b415b",
+      "source": "De'Longhi Eletta Explore: Delonghi Eletta Explore Superautomatic Coffee Machine Review (Cold Brew and more) · Tom's Coffee Corner (2024-04-26) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "32e07135133cbe1a053bece2b735a5b94851c007fe96c130effa1fcc38ce9527",
+      "source": "Watch Tom's Coffee Corner on De'Longhi Eletta Explore (2024-04-26): Delonghi Eletta Explore Superautomatic Coffee Machine Review (Cold Brew and more). A detailed independent visual review of drink customization and cleaning. Check the exact model shown because older ECAM450 regional variants can differ from the current US EX:4.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "a5f0878d3d46e42b5927848787639a99f771eb5297a29c3b9fc61d19416a1ffb",
+      "source": "De'Longhi Eletta Explore video by Tom's Coffee Corner",
+      "kind": "json",
+      "context": "caption"
+    }
+  ],
+  "snapshotHash": "6aba39d42c7d01a1b4f188fde230c06c58e316ad98bad71eaaeaf68b5235b1c5"
+}
