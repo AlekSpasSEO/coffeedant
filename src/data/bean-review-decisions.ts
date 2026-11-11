@@ -333,6 +333,27 @@ const decisions: Record<string, BeanDecision> = {
     finalTitle: 'A chocolate-first first shot with room to adjust',
     finalVerdict: 'Dipsea is a sensible 12 oz whole-bean experiment for a medium espresso that must also work with milk. The origin panel and 1:2.2 recipe make the trial concrete; only the delivered bag and your own cup can establish whether it earns a repeat purchase.',
   },
+  'onyx-eclipse': {
+    headings: ['A dark-roast design with rotating coffee', 'Chocolate and smoke are Onyx’s targets', 'Keep espresso and press recipes separate', 'Check the actual roast and origin record', 'The first bag is the useful value test', 'Monarch and Geometry serve different tastes'],
+    trialTitle: 'Try Eclipse in the drink that needs a darker roast',
+    trial: 'Buy a small current bag, note its roast date and origin, and start with Onyx’s published recipe for the brewer you actually use. For espresso, the 20 g to 47 g yield is a starting point only if your basket accommodates that dose. Compare a neat shot with your usual milk serving. A dark blend is useful when you enjoy its roast direction in the finished drink, rather than when a roast label alone sounds familiar.',
+    finalTitle: 'A dark-roast trial with a changing origin',
+    finalVerdict: 'Eclipse offers Onyx’s most roast-led direction and a concrete starting recipe. The current Colombian record can rotate, and neither the roaster notes nor a few owner reports establish the taste of the bag you receive.',
+  },
+  'stumptown-homestead': {
+    headings: ['A seasonal light blend, not a fixed lot', 'Candied fruit remains Stumptown’s target', 'Start with its documented drip ratio', 'Use the bag date and current components', 'A small bag tests everyday value', 'Choose the blend for your main brewer'],
+    trialTitle: 'Brew Homestead first as your regular drip coffee',
+    trial: 'Use Stumptown’s 1:17 drip start with the basket and grinder you already own, then adjust to your usual serving. Record the roast date and the component information on this bag. The decision is whether a lighter fruit-accented coffee works as your daily cup; an espresso recipe is not established by the checked Homestead product page.',
+    finalTitle: 'A filter-first seasonal Stumptown choice',
+    finalVerdict: 'Homestead makes sense as a small-bag filter trial for someone seeking a lighter Stumptown blend. Its changing composition and lack of a product-specific espresso recipe limit what a research-led review can promise.',
+  },
+  'intelligentsia-organic-black-cat-espresso': {
+    headings: ['Organic Black Cat is its own blend', 'Cherry and cacao are roaster notes', 'Start with the current 18 g to 45 g shot', 'Use the bag’s current origin record', 'Pay for the certification and drink fit', 'Compare exact Black Cat variants'],
+    trialTitle: 'Dial the current Organic recipe before comparing variants',
+    trial: 'Begin with Intelligentsia’s current 18 g to 45 g target if your basket fits that dose, recording yield, time and the bag date. Try it neat and in the milk drink you normally make. The useful comparison is whether its cherry-and-cacao direction suits your serving and organic preference; Classic and Analog have distinct product records.',
+    finalTitle: 'An organic Black Cat with a defined first shot',
+    finalVerdict: 'Organic Black Cat is a credible small-bag choice for a buyer who values its certification and fruit-accented espresso brief. The current Ethiopia–Guatemala record and 1:2.5 recipe should be checked against the delivered bag, not treated as permanent or as a Coffeedant tasting score.',
+  },
 };
 
 const sectionIds = ['identity', 'flavor', 'brewing', 'freshness', 'value', 'alternatives'];
