@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "gaggia-babila-batch-125.source.json",
+  "snapshotHash": "1fa39470c38ea5047b95514ae376d1f169d614af9320744292be1c0df1ef61bb",
+  "preserveSource": [
+    7
+  ],
+  "routes": {
+    "nl": {
+      "/espresso-machine/gaggia-babila-ri9700/video/whole-latte-love-7154354f6d664a72504951/": "/espresso-machine/gaggia-babila-ri9700/video/whole-latte-love-7154354f6d664a72504951/"
+    },
+    "fr": {
+      "/espresso-machine/gaggia-babila-ri9700/video/anthony/": "/machine-a-espresso/gaggia-babila-ri9700/video/anthony/",
+      "/espresso-machine/gaggia-babila-ri9700/video/whole-latte-love-7154354f6d664a72504951/": "/machine-a-espresso/gaggia-babila-ri9700/video/whole-latte-love-7154354f6d664a72504951/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "Gaggia Babila RI9700/64: Review van de Gaggia Babila RI9700/64-espressomachine uit 2018 · Anthony (2018-11-13) | Coffeedant",
+      "de": "Gaggia Babila RI9700/64: Espressomaschine Gaggia Babila RI9700/64 im Test von 2018 · Anthony (2018-11-13) | Coffeedant",
+      "fr": "Gaggia Babila RI9700/64 : Essai de la machine à expresso Gaggia Babila RI9700/64 en 2018 · Anthony (2018-11-13) | Coffeedant"
+    },
+    "1": {
+      "nl": "Bekijk de video van Anthony over de Gaggia Babila RI9700/64 (2018-11-13): Review van de Gaggia Babila RI9700/64-espressomachine uit 2018. Anthony stelt de Gaggia Babila RI9700/64 voor en bespreekt het malen van koffie, de bereiding van espresso en melkdranken. De demonstraties en meningen zijn van de maker zelf.",
+      "de": "Video von Anthony zur Gaggia Babila RI9700/64 ansehen (2018-11-13): Espressomaschine Gaggia Babila RI9700/64 im Test von 2018. Anthony stellt die Gaggia Babila RI9700/64 vor und geht auf das Mahlen, die Espressozubereitung und Milchgetränke ein. Die Vorführungen und Einschätzungen stammen vom Videomacher selbst.",
+      "fr": "Regardez la vidéo d’Anthony sur la Gaggia Babila RI9700/64 (2018-11-13) : Essai de la machine à expresso Gaggia Babila RI9700/64 en 2018. Anthony présente la Gaggia Babila RI9700/64 et aborde la mouture, la préparation de l’expresso et les boissons lactées. Les démonstrations et les avis sont ceux du vidéaste."
+    },
+    "3": {
+      "nl": "Video over de Gaggia Babila RI9700/64 door Anthony",
+      "de": "Video zur Gaggia Babila RI9700/64 von Anthony",
+      "fr": "Vidéo d’Anthony sur la Gaggia Babila RI9700/64"
+    },
+    "4": {
+      "nl": "Anthony bespreekt de Gaggia Babila RI9700/64-espressomachine in zijn review uit 2018",
+      "de": "Anthony testet die Espressomaschine Gaggia Babila RI9700/64 im Jahr 2018",
+      "fr": "Anthony essaie la machine à expresso Gaggia Babila RI9700/64 en 2018"
+    },
+    "5": {
+      "nl": "Gaggia Babila RI9700/64 · Perspectief van een externe maker",
+      "de": "Gaggia Babila RI9700/64 · Perspektive eines externen Kanals",
+      "fr": "Gaggia Babila RI9700/64 · Point de vue d’un créateur tiers"
+    },
+    "6": {
+      "nl": "Review van de Gaggia Babila RI9700/64-espressomachine uit 2018",
+      "de": "Espressomaschine Gaggia Babila RI9700/64 im Test von 2018",
+      "fr": "Essai de la machine à expresso Gaggia Babila RI9700/64 en 2018"
+    },
+    "8": {
+      "nl": "13 november 2018",
+      "de": "13. November 2018",
+      "fr": "13 novembre 2018"
+    },
+    "9": {
+      "nl": "Anthony stelt de Gaggia Babila RI9700/64 voor en bespreekt het malen van koffie, de bereiding van espresso en melkdranken. De demonstraties en meningen zijn van de maker zelf.",
+      "de": "Anthony stellt die Gaggia Babila RI9700/64 vor und geht auf das Mahlen, die Espressozubereitung und Milchgetränke ein. Die Vorführungen und Einschätzungen stammen vom Videomacher selbst.",
+      "fr": "Anthony présente la Gaggia Babila RI9700/64 et aborde la mouture, la préparation de l’expresso et les boissons lactées. Les démonstrations et les avis sont ceux du vidéaste."
+    },
+    "10": {
+      "nl": "De video en meningen zijn van Anthony. Coffeedant plaatst dit perspectief naast onze geschreven review.",
+      "de": "Das Video und die Einschätzungen stammen von Anthony. Coffeedant ordnet diese Perspektive neben unserem schriftlichen Testbericht ein.",
+      "fr": "La vidéo et les avis sont ceux d’Anthony. Coffeedant présente ce point de vue aux côtés de notre essai écrit."
+    },
+    "17": {
+      "nl": "Video door Anthony",
+      "de": "Video von Anthony",
+      "fr": "Vidéo d’Anthony"
+    },
+    "18": {
+      "nl": "Gaggia Babila RI9700/64: Review van de volautomatische koffie- en espressomachine Gaggia Babila · Whole Latte Love (2017-06-09) | Coffeedant",
+      "de": "Gaggia Babila RI9700/64: Kaffee- und Espressovollautomat Gaggia Babila im Test · Whole Latte Love (2017-06-09) | Coffeedant",
+      "fr": "Gaggia Babila RI9700/64 : Essai de la Gaggia Babila, machine à grains pour café et expresso · Whole Latte Love (2017-06-09) | Coffeedant"
+    },
+    "19": {
+      "nl": "Bekijk de video van Whole Latte Love over de Gaggia Babila RI9700/64 (2017-06-09): Review van de volautomatische koffie- en espressomachine Gaggia Babila. Whole Latte Love stelt de Gaggia Babila RI9700/64 voor en bespreekt het malen van koffie, de bereiding van espresso en melkdranken. Dit is het perspectief van een verkoper van apparatuur. Bekijk het naast de andere bronnen en onze geschreven review.",
+      "de": "Video von Whole Latte Love zur Gaggia Babila RI9700/64 ansehen (2017-06-09): Kaffee- und Espressovollautomat Gaggia Babila im Test. Whole Latte Love stellt die Gaggia Babila RI9700/64 vor und geht auf das Mahlen, die Espressozubereitung und Milchgetränke ein. Das ist die Sicht eines Gerätehändlers. Ziehe auch die anderen Quellen und unseren schriftlichen Testbericht heran.",
+      "fr": "Regardez la vidéo de Whole Latte Love sur la Gaggia Babila RI9700/64 (2017-06-09) : Essai de la Gaggia Babila, machine à grains pour café et expresso. Whole Latte Love présente la Gaggia Babila RI9700/64 et aborde la mouture, la préparation de l’expresso et les boissons lactées. C’est le point de vue d’un revendeur de matériel. Consultez aussi les autres sources et notre essai écrit."
+    },
+    "21": {
+      "nl": "Review van de volautomatische koffie- en espressomachine Gaggia Babila door Whole Latte Love",
+      "de": "Kaffee- und Espressovollautomat Gaggia Babila im Test von Whole Latte Love",
+      "fr": "Essai par Whole Latte Love de la Gaggia Babila, machine à grains pour café et expresso"
+    },
+    "22": {
+      "nl": "Review van de volautomatische koffie- en espressomachine Gaggia Babila",
+      "de": "Kaffee- und Espressovollautomat Gaggia Babila im Test",
+      "fr": "Essai de la Gaggia Babila, machine à grains pour café et expresso"
+    },
+    "23": {
+      "nl": "9 juni 2017",
+      "de": "9. Juni 2017",
+      "fr": "9 juin 2017"
+    },
+    "24": {
+      "nl": "Whole Latte Love stelt de Gaggia Babila RI9700/64 voor en bespreekt het malen van koffie, de bereiding van espresso en melkdranken. Dit is het perspectief van een verkoper van apparatuur. Bekijk het naast de andere bronnen en onze geschreven review.",
+      "de": "Whole Latte Love stellt die Gaggia Babila RI9700/64 vor und geht auf das Mahlen, die Espressozubereitung und Milchgetränke ein. Das ist die Sicht eines Gerätehändlers. Ziehe auch die anderen Quellen und unseren schriftlichen Testbericht heran.",
+      "fr": "Whole Latte Love présente la Gaggia Babila RI9700/64 et aborde la mouture, la préparation de l’expresso et les boissons lactées. C’est le point de vue d’un revendeur de matériel. Consultez aussi les autres sources et notre essai écrit."
+    }
+  }
+}

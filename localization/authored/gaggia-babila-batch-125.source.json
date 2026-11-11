@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/gaggia-babila-ri9700/video/anthony/",
+      "sourceHash": "3d9521ac2abe235f6e8640b52cb11dd3446b3533bdc94773cc1aadc76afd96f2"
+    },
+    {
+      "sourcePath": "/espresso-machine/gaggia-babila-ri9700/video/whole-latte-love-7154354f6d664a72504951/",
+      "sourceHash": "fd1d04aca968d01bd6f5d370d9eeec4c45e9c4f0fe484e2e3a03a2a4707d6516"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "004f543a302fdfec251fd208c83d236c5dbf041420d3b95f9278e4a7121fdba5",
+      "source": "Gaggia Babila RI9700/64: Gaggia RI9700/64 Babila Espresso Machine review 2018 · Anthony (2018-11-13) | Coffeedant",
+      "kind": "text",
+      "context": "Gaggia Babila RI9700/64: Gaggia RI9700/64 Babila Espresso Machine review 2018 · Anthony (2018-11-13) | Coffeedant"
+    },
+    {
+      "id": "b17c79389d0084e53bb1c1dfa64c0093836305546a151a6950281f7da683591f",
+      "source": "Watch Anthony on Gaggia Babila RI9700/64 (2018-11-13): Gaggia RI9700/64 Babila Espresso Machine review 2018. Anthony presents Gaggia Babila RI9700/64, covering grinding, espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "5028e8df12586008850c3c46a603c871af74f6c2689c070060baa8a625aa7aa3",
+      "source": "Gaggia Babila RI9700/64: Gaggia RI9700/64 Babila Espresso Machine review 2018 · Anthony (2018-11-13) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "4df70ff887f878dfd8ad4c76aa08b1750ab5d7a92cbb7b9cde207cba52983566",
+      "source": "Gaggia Babila RI9700/64 video by Anthony",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "be39172a0d6b584330a80ee72bb7d5a135d150a0a7bcfc729bac4bcfa228f5d0",
+      "source": "Gaggia RI9700/64 Babila Espresso Machine review 2018 by Anthony",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "bd738ecce843bb149f3f5d0363b76425097cde09a260643b8534d1d9d3d3e3f7",
+      "source": "Gaggia Babila RI9700/64 · Third-party perspective",
+      "kind": "text",
+      "context": "Gaggia Babila RI9700/64 · Third-party perspective"
+    },
+    {
+      "id": "f12f75d1587da43956defc933cd58e8ab94b220d65ef3bdfc6fee2ff17755e00",
+      "source": "Gaggia RI9700/64 Babila Espresso Machine review 2018",
+      "kind": "text",
+      "context": "Gaggia RI9700/64 Babila Espresso Machine review 2018"
+    },
+    {
+      "id": "7e67d77e666017618dc000209e45ce5f6617aa824fee4c10f1a1c1c7d583c6d7",
+      "source": "Anthony",
+      "kind": "text",
+      "context": "Anthony"
+    },
+    {
+      "id": "6c1eeb348e28ffa4654469a1b70081b7fb37598bd4fa84f22937813b46acb401",
+      "source": "November 13, 2018",
+      "kind": "text",
+      "context": "November 13, 2018"
+    },
+    {
+      "id": "1b8e00952ffd1c23a0e29eb92a9094a8b66da9ffcedbfb96748397d0fd4b342a",
+      "source": "Anthony presents Gaggia Babila RI9700/64, covering grinding, espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Anthony presents Gaggia Babila RI9700/64, covering grinding, espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "87e15ab7d652f5b345752fe0a36c251d4ad75f23bc726baf47eb8a8d8f2f079b",
+      "source": "Video and opinions belong to Anthony. Coffeedant curates this perspective alongside our written review.",
+      "kind": "text",
+      "context": "Video and opinions belong to Anthony. Coffeedant curates this perspective alongside our written review."
+    },
+    {
+      "id": "a6a4afd5e6c477e1f47daa2a6d3f3a54dfcfd7377af0af159b178243ff8f6fd1",
+      "source": "Gaggia Babila RI9700/64: Gaggia RI9700/64 Babila Espresso Machine review 2018 · Anthony (2018-11-13) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "d9d2e361d356a6a9c177ac864e422a3e10ee3a12c7972a4a89a27f0ec7e07fdf",
+      "source": "Watch Anthony on Gaggia Babila RI9700/64 (2018-11-13): Gaggia RI9700/64 Babila Espresso Machine review 2018. Anthony presents Gaggia Babila RI9700/64, covering grinding, espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "37f10edf45c92d86388a1be97584e8ebe5e099ca734c697ee588cef833853bb6",
+      "source": "Gaggia Babila RI9700/64 video by Anthony",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "6e58f5494e05469a69cb10b3e2d4ad9d9bca46bd0452e57b9aa62521cf95762f",
+      "source": "Gaggia RI9700/64 Babila Espresso Machine review 2018",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "1fea4f01de43252226e647d2b27e822cb1d3e7d53b5f845c126b5ae97c46ed0b",
+      "source": "Anthony presents Gaggia Babila RI9700/64, covering grinding, espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "cf8104311fa7aa54008cf214a7f98b6199c0cefe41aa4742e9a83894171df138",
+      "source": "Anthony",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "5580ece6e4f06453a84eaeade48e6a62a044a01f60ee068572ef6d123b661d59",
+      "source": "Video by Anthony",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "890fbd131ac784955d691e6a637085433dccaad895c2bb24259f85fe8b29bba2",
+      "source": "Gaggia Babila RI9700/64: Review: Gaggia Babila Bean to Cup Coffee & Espresso Machine · Whole Latte Love (2017-06-09) | Coffeedant",
+      "kind": "text",
+      "context": "Gaggia Babila RI9700/64: Review: Gaggia Babila Bean to Cup Coffee & Espresso Machine · Whole Latte Love (2017-06-09) | Coffeedant"
+    },
+    {
+      "id": "2fefca9640b249c967bf62ee65d791538e3ab001581223aa807913520b6b0c41",
+      "source": "Watch Whole Latte Love on Gaggia Babila RI9700/64 (2017-06-09): Review: Gaggia Babila Bean to Cup Coffee & Espresso Machine. Whole Latte Love presents Gaggia Babila RI9700/64, covering grinding, espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "e993fddb45c9641eeab6d7bf9376141685364cbf46c5b623dac70a6b69cea088",
+      "source": "Gaggia Babila RI9700/64: Review: Gaggia Babila Bean to Cup Coffee & Espresso Machine · Whole Latte Love (2017-06-09) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "7e45f451eefca92ef0f1e25e9261786da6186fc0ed6dd96f755175ec1e36bd2e",
+      "source": "Review: Gaggia Babila Bean to Cup Coffee & Espresso Machine by Whole Latte Love",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "b0e40cfd4ccaef19199fe55a063fb149fa3c0f7cf0aab61fdb90b76ec7b2c22d",
+      "source": "Review: Gaggia Babila Bean to Cup Coffee & Espresso Machine",
+      "kind": "text",
+      "context": "Review: Gaggia Babila Bean to Cup Coffee & Espresso Machine"
+    },
+    {
+      "id": "60a505f408ff6fb5421c1f8cd74591a7fee1ac4e271984151326aa4dbea447d9",
+      "source": "June 9, 2017",
+      "kind": "text",
+      "context": "June 9, 2017"
+    },
+    {
+      "id": "31100964355000f9254a657dd534bf2598a3427a49c22b8846cecfd68a8cf586",
+      "source": "Whole Latte Love presents Gaggia Babila RI9700/64, covering grinding, espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "text",
+      "context": "Whole Latte Love presents Gaggia Babila RI9700/64, covering grinding, espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review."
+    },
+    {
+      "id": "1007975b9f42f447ed9bc4e7c46944aa36e7bad46c1f73102d4f0956c481de57",
+      "source": "Gaggia Babila RI9700/64: Review: Gaggia Babila Bean to Cup Coffee & Espresso Machine · Whole Latte Love (2017-06-09) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "f6b2046ca77981e6c667cc64ff9bcc056fa6ee4967c87e0396a647462dfa3571",
+      "source": "Watch Whole Latte Love on Gaggia Babila RI9700/64 (2017-06-09): Review: Gaggia Babila Bean to Cup Coffee & Espresso Machine. Whole Latte Love presents Gaggia Babila RI9700/64, covering grinding, espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "367e904dcc05e68c8a786433d0a0501a950758efdfb6a967bcfcffcfd8ff2493",
+      "source": "Review: Gaggia Babila Bean to Cup Coffee & Espresso Machine",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "0149a542eafa58a263232d8a9d05dd0950686f6342f189b0d32364eb917a1ef8",
+      "source": "Whole Latte Love presents Gaggia Babila RI9700/64, covering grinding, espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "1fa39470c38ea5047b95514ae376d1f169d614af9320744292be1c0df1ef61bb"
+}

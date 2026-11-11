@@ -5082,6 +5082,21 @@ translated and 42,443 pending, DE 17,555 translated and 42,327 pending, and FR
 17,419 translated and 42,463 pending. All 154 Finder records are complete.
 Each edition has 164 non-video and 290 video pages left.
 
+### Direct batch 125 — Gaggia Babila RI9700/64 video pages (2026-11-11)
+
+Translate Anthony's review and Whole Latte Love's bean-to-cup video page into
+Dutch, German and French. Preserve the RI9700/64 model number, dates,
+retailer attribution and both video destinations. The new Dutch and French
+URLs follow the published Babila review paths and retain the distinguishing
+suffix for Whole Latte Love. Both videos link to their regional written review.
+
+Sixteen translated strings and one unchanged creator name cover 29 missing
+slots per edition. The source has 689 pages and 59,882 segments. Each edition
+can render 236 indexable pages and a localized 404. Coverage is NL 17,468
+translated and 42,414 pending, DE 17,584 translated and 42,298 pending, and FR
+17,448 translated and 42,434 pending. All 154 Finder records are complete.
+Each edition has 164 non-video and 288 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
