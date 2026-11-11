@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/delonghi-dedica/video/toms-coffee-corner-326c6f5f3932726d2d4545/",
+      "sourceHash": "ca90833fc1683e37305f92fd272a6d373d6cbe738f3d3c668eee5dcf5b0246e0"
+    },
+    {
+      "sourcePath": "/espresso-machine/delonghi-dedica/video/toms-coffee-corner-472d47655a396662616a77/",
+      "sourceHash": "cec71a8b3abfede864ddd2890efeb77aa2857302c72b723aa710ba3c3ec32d14"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "b6dbb9a415fab7b3ad3d5ff350b2b23e5cd21482a37dd943fc8f6fda006dc5a0",
+      "source": "Delonghi Dedica Home Espresso Machine Review & Test",
+      "kind": "text",
+      "context": "Delonghi Dedica Home Espresso Machine Review & Test"
+    },
+    {
+      "id": "7500241adc1b8a6f1e537b95ac7d493c6d2c73bbafd5c553b92f7b78abe27892",
+      "source": "A useful visual demonstration of the Dedica workflow and its stock-versus-enthusiast context. The video creator tested the machine; Coffeedant did not.",
+      "kind": "text",
+      "context": "A useful visual demonstration of the Dedica workflow and its stock-versus-enthusiast context. The video creator tested the machine; Coffeedant did not."
+    },
+    {
+      "id": "19d4be1d91fa91c1320faf9532d5d257b4701dfce1849e745e20e127296a86c2",
+      "source": "De'Longhi Dedica DeLuxe EC685",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "1b4754cd435e197d3164ea2d152d9a66bbd44a8ac220dbe6715fce0a9eb140d1",
+      "source": "Delonghi Dedica Home Espresso Machine Review & Test",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "396636c468ba480ab5c9c14802e1e59da373b51d459c3fdf25a7f4da93e24399",
+      "source": "A useful visual demonstration of the Dedica workflow and its stock-versus-enthusiast context. The video creator tested the machine; Coffeedant did not.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "e039a6d3b9b1ca183931e386510b7e480f49bcfa5df6809bc7c3434f92dc3223",
+      "source": "← De'Longhi Dedica DeLuxe EC685 review",
+      "kind": "text",
+      "context": "← De'Longhi Dedica DeLuxe EC685 review"
+    },
+    {
+      "id": "adcbf174263f7ea14e6fce29b7d2519d3951f73228245ab48cace8aff72a32ff",
+      "source": "De'Longhi Dedica DeLuxe EC685 · Third-party perspective",
+      "kind": "text",
+      "context": "De'Longhi Dedica DeLuxe EC685 · Third-party perspective"
+    },
+    {
+      "id": "02281c6d62ff40bae14172964b5c5878d8b254b980392d232b5a9ba2d3793e36",
+      "source": "De'Longhi Dedica DeLuxe EC685: DeLonghi Dedica EC685 - Programming the Perfect Shot · Tom's Coffee Corner (2021-10-25) | Coffeedant",
+      "kind": "text",
+      "context": "De'Longhi Dedica DeLuxe EC685: DeLonghi Dedica EC685 - Programming the Perfect Shot · Tom's Coffee Corner (2021-10-25) | Coffeedant"
+    },
+    {
+      "id": "ed3e07b9de596221bb0d9600ddbd05c05ee02d3865b3772974d81a3aa1952b9d",
+      "source": "Watch Tom's Coffee Corner on De'Longhi Dedica DeLuxe EC685 (2021-10-25): DeLonghi Dedica EC685 - Programming the Perfect Shot. Tom's Coffee Corner presents De'Longhi Dedica DeLuxe EC685, covering grinding, espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "d056b9a78ef175c83e811bb5b504b633229d0ff643cfafc7772fc0f6556b4676",
+      "source": "De'Longhi Dedica DeLuxe EC685: DeLonghi Dedica EC685 - Programming the Perfect Shot · Tom's Coffee Corner (2021-10-25) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "7e21afaf67b3602add8b5ff8226b2e5e8518fae57a3da06b3624ce532be6028b",
+      "source": "De'Longhi Dedica DeLuxe EC685 video by Tom's Coffee Corner",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "669035d42e0965b6656f8b01c7e155ca86bb7a6063d222968c6bbeb42bb1a025",
+      "source": "DeLonghi Dedica EC685 - Programming the Perfect Shot by Tom's Coffee Corner",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "0d7bb1f7b5c8989806ddd7ee9733ef7f7b1aaa3fa11acaf24b53b8988dfffb5b",
+      "source": "DeLonghi Dedica EC685 - Programming the Perfect Shot",
+      "kind": "text",
+      "context": "DeLonghi Dedica EC685 - Programming the Perfect Shot"
+    },
+    {
+      "id": "d3430c4bce2c0589db7804204ad58bf5dbe6733b9cd072617f78e8383ca41b34",
+      "source": "October 25, 2021",
+      "kind": "text",
+      "context": "October 25, 2021"
+    },
+    {
+      "id": "de097fceaa1a34940c19501935f71023a473aa9c4dd443978db98f1ae4228a33",
+      "source": "Tom's Coffee Corner presents De'Longhi Dedica DeLuxe EC685, covering grinding, espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Tom's Coffee Corner presents De'Longhi Dedica DeLuxe EC685, covering grinding, espresso preparation. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "a6beaf20dc8baa226371e5234b283621880edd932bda514f4688c887f75e1d57",
+      "source": "De'Longhi Dedica DeLuxe EC685: DeLonghi Dedica EC685 - Programming the Perfect Shot · Tom's Coffee Corner (2021-10-25) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b2e1595f239f3714385102dad77ef712f8641a38ab2634f88f98c824e2e3c490",
+      "source": "Watch Tom's Coffee Corner on De'Longhi Dedica DeLuxe EC685 (2021-10-25): DeLonghi Dedica EC685 - Programming the Perfect Shot. Tom's Coffee Corner presents De'Longhi Dedica DeLuxe EC685, covering grinding, espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "c159e8670eee441d2dd0480463edc2d9f09bb34a3fe5871f0cedfd8c5b3dd749",
+      "source": "De'Longhi Dedica DeLuxe EC685 video by Tom's Coffee Corner",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "539a0504b5426398c309d078094d413e62540b0d9d71b70adfc578e4aa2cdfb6",
+      "source": "DeLonghi Dedica EC685 - Programming the Perfect Shot",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "78afb600f1c02b8873b68a252de08cb5fdc31998e421d7f5ac2d7bc7344ec894",
+      "source": "Tom's Coffee Corner presents De'Longhi Dedica DeLuxe EC685, covering grinding, espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "8ab0b0915c5c0bdccd396ebc4d4e05fa8048f5e69d730530a23148bf3ea1558c",
+      "source": "De'Longhi Dedica DeLuxe EC685: Delonghi Dedica Home Espresso Machine Review & Test · Tom's Coffee Corner (2022-07-11) | Coffeedant",
+      "kind": "text",
+      "context": "De'Longhi Dedica DeLuxe EC685: Delonghi Dedica Home Espresso Machine Review & Test · Tom's Coffee Corner (2022-07-11) | Coffeedant"
+    },
+    {
+      "id": "719d8ea02b587af4130398ab7d216664fff7946c126ee068d97a78bd829e592c",
+      "source": "Watch Tom's Coffee Corner on De'Longhi Dedica DeLuxe EC685 (2022-07-11): Delonghi Dedica Home Espresso Machine Review & Test. A useful visual demonstration of the Dedica workflow and its stock-versus-enthusiast context. The video creator tested the machine; Coffeedant did not.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "954a43ccadb74921f8ff0b50fffc958006360773f6d92ccee74ebc8f2d19e44c",
+      "source": "De'Longhi Dedica DeLuxe EC685: Delonghi Dedica Home Espresso Machine Review & Test · Tom's Coffee Corner (2022-07-11) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "b0163e44e2fe48b9d42dd4f4f884672dd46b1605892a384c40b2fc811b3d04c9",
+      "source": "Delonghi Dedica Home Espresso Machine Review & Test by Tom's Coffee Corner",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "535dcf408fad613bf3daf82b429788c67af8e43a6c7975409615717d4d0968fd",
+      "source": "July 12, 2022",
+      "kind": "text",
+      "context": "July 12, 2022"
+    },
+    {
+      "id": "ef52e475314a3c1ea5ad73d09847feecc2bf5159a0d51e6e31e534e3b09ee332",
+      "source": "De'Longhi Dedica DeLuxe EC685: Delonghi Dedica Home Espresso Machine Review & Test · Tom's Coffee Corner (2022-07-11) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "543d0f79a6c0805ab636fc09d50f1f97a882a2cc1d5ce7a1af4ddecb7630c8d4",
+      "source": "Watch Tom's Coffee Corner on De'Longhi Dedica DeLuxe EC685 (2022-07-11): Delonghi Dedica Home Espresso Machine Review & Test. A useful visual demonstration of the Dedica workflow and its stock-versus-enthusiast context. The video creator tested the machine; Coffeedant did not.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "83dfc62304b82c53293d9afcf139b775aa863d993a218e2e4d45def7abc0d0f3"
+}

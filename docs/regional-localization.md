@@ -4939,6 +4939,23 @@ and 41,881 pending, DE 17,254 translated and 41,765 pending, and FR 17,118
 translated and 41,901 pending. Finder gaps are zero. Each edition has 157
 non-video and 305 video pages left.
 
+### Direct batch 117 — De’Longhi Dedica EC685 video pages (2026-11-11)
+
+Translate both complete Tom's Coffee Corner video pages into Dutch, German
+and French. The 2021 tutorial covers shot programming, grinding and espresso
+preparation. The 2022 review explains the workflow in the context of the stock
+setup and enthusiast use. The review attributes the hands-on test to the
+creator. Keep both video dates, the exact EC685 model and all six registered
+regional URLs. The unfinished written review opens in English with the
+localized edition notice.
+
+Fifteen translated strings and one unchanged model name fill 27 missing slots
+and add 28 cache entries per edition. The source has 681 pages and 59,019
+segments. Each edition can render 220 indexable pages and a localized 404.
+Coverage is NL 17,166 translated and 41,853 pending, DE 17,282 translated and
+41,737 pending, and FR 17,146 translated and 41,873 pending. Finder gaps are
+zero. Each edition has 157 non-video and 303 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
