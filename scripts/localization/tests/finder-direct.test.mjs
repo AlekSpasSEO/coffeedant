@@ -43,6 +43,8 @@ for(const [batch,count] of [[3,34],[4,30],[5,40],[6,41]])test(`${count} real Fin
 test('model-style adjectives protect the exact model without freezing English punctuation; codes and URLs remain exact',()=>{
  assert.equal(validateTranslation('An E61-style group.','Un groupe de style E61.'),'Un groupe de style E61.');
  assert.throws(()=>validateTranslation('An E61-style group.','Un groupe de style L61.'),/protected identifier/);
+ assert.equal(validateTranslation('An ECAM370-era touchscreen.','Un écran tactile de la génération ECAM370.'),'Un écran tactile de la génération ECAM370.');
+ assert.throws(()=>validateTranslation('An ECAM370-era touchscreen.','Un écran tactile de la génération ECM370.'),/protected identifier/);
  assert.throws(()=>validateTranslation('Model QM67-EVO.','Modèle QM67.'),/protected identifier/);
  assert.throws(()=>validateTranslation('Model F85/0-102.','Modèle F85/0/102.'),/protected identifier/);
  assert.throws(()=>validateTranslation('See https://example.com/E61-style','Voir https://example.com/E61'),/protected identifier/);
