@@ -354,6 +354,13 @@ const decisions: Record<string, BeanDecision> = {
     finalTitle: 'An organic Black Cat with a defined first shot',
     finalVerdict: 'Organic Black Cat is a credible small-bag choice for a buyer who values its certification and fruit-accented espresso brief. The current Ethiopia–Guatemala record and 1:2.5 recipe should be checked against the delivered bag, not treated as permanent or as a Coffeedant tasting score.',
   },
+  'equator-mocha-java-blend': {
+    headings: ['Three named components, not the historic ports', 'Chocolate and berry are Equator’s targets', 'Use a separate filter or press start', 'Buy a size that fits the drinking pace', 'Compare the selected bag and total', 'Jaguar and Equator Blend serve other routines'],
+    trialTitle: 'Try the small bag in your main brewer',
+    trial: 'Buy a dated 12 oz whole-bean pack and use Equator’s Chemex or press starting ratio only for that method. Record the actual dose, water and grind, then judge both the black cup and the milk serving you normally drink. If espresso is your main goal, dial it independently rather than treating the Chemex ratio as a shot recipe. A larger pack makes sense only after this bag earns repeat use.',
+    finalTitle: 'A documented filter-and-milk blend trial',
+    finalVerdict: 'Mocha Java is a useful small-bag test for a medium, layered Equator coffee with current three-process sourcing and published filter and press starts. Its espresso option lacks a product-specific shot recipe, and no source predicts the taste or delivered value of a future lot.',
+  },
 };
 
 const sectionIds = ['identity', 'flavor', 'brewing', 'freshness', 'value', 'alternatives'];
