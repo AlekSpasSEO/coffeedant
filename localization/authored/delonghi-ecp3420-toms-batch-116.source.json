@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/delonghi-ecp3420/video/toms-coffee-corner-4d4f637233363743713549/",
+      "sourceHash": "49701a82d3e0cf0d87706b8da8d12d03d92afbbc3bfbb61cbd7a836dfa4a24ef"
+    },
+    {
+      "sourcePath": "/espresso-machine/delonghi-ecp3420/video/toms-coffee-corner-61753932567642594c7241/",
+      "sourceHash": "3113cf80b3564135837f8a7a81618d7c25e34e0cbd0a70fbac1ddc91f761c0ed"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "f299e5cce5cd6e2f1dee7552c65b66464dbd1821a17756e50a043fafb5cc9d2e",
+      "source": "Delonghi ECP 3420 REVIEW: Amazon's Best Selling Espresso Machine",
+      "kind": "text",
+      "context": "Delonghi ECP 3420 REVIEW: Amazon's Best Selling Espresso Machine"
+    },
+    {
+      "id": "65ccb0b04f45b373d627159b7dd284f195362413506ee5d4dfd52efb8e96fbdf",
+      "source": "An independent exact-model walkthrough showing the baskets, preparation, espresso, manual frother, and cleaning. It is reviewer evidence, not Coffeedant testing.",
+      "kind": "text",
+      "context": "An independent exact-model walkthrough showing the baskets, preparation, espresso, manual frother, and cleaning. It is reviewer evidence, not Coffeedant testing."
+    },
+    {
+      "id": "e343efca4f0a45fb0cfa2c9764f9b499044714e0e16a3936e1a6c11e49b49f0d",
+      "source": "Delonghi ECP 3420 REVIEW: Amazon's Best Selling Espresso Machine",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "13b481e73a298050f2233623e10e7d09c7bcfba6ed6903b2dece0e4c624be6f0",
+      "source": "An independent exact-model walkthrough showing the baskets, preparation, espresso, manual frother, and cleaning. It is reviewer evidence, not Coffeedant testing.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "2c9408df1d2f0da8cca250fea086bc323aff0c98fc65a06037341c363dcbf81e",
+      "source": "← De'Longhi ECP3420 review",
+      "kind": "text",
+      "context": "← De'Longhi ECP3420 review"
+    },
+    {
+      "id": "0331c7b0e52e10ddf76fd24ba7b1828a66eefc220f66ff80342db22c9a366ab9",
+      "source": "De'Longhi ECP3420 · Third-party perspective",
+      "kind": "text",
+      "context": "De'Longhi ECP3420 · Third-party perspective"
+    },
+    {
+      "id": "564fd3f99aa4c1fbb3c2c08e307ecee2da6bded60fe983451a7e5ed520798c91",
+      "source": "De'Longhi ECP3420: Beginning Barista Tutorial: Delonghi ECP3420 and Baratza Virtuoso+ · Tom's Coffee Corner (2024-06-19) | Coffeedant",
+      "kind": "text",
+      "context": "De'Longhi ECP3420: Beginning Barista Tutorial: Delonghi ECP3420 and Baratza Virtuoso+ · Tom's Coffee Corner (2024-06-19) | Coffeedant"
+    },
+    {
+      "id": "0ef18ff5e7b17657b9bf26bb080f01e451e3e44a90fe177cffb9345f59ac98b0",
+      "source": "Watch Tom's Coffee Corner on De'Longhi ECP3420 (2024-06-19): Beginning Barista Tutorial: Delonghi ECP3420 and Baratza Virtuoso+. Tom's Coffee Corner presents De'Longhi ECP3420, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "c7c6d469b638939bcd60a81ab5bdfed5c0ec8f07e6514280e060fd9df46113c5",
+      "source": "De'Longhi ECP3420: Beginning Barista Tutorial: Delonghi ECP3420 and Baratza Virtuoso+ · Tom's Coffee Corner (2024-06-19) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "55579515a691ea1f1dca9e871d611e93c65b5ff88614e39ab873624734330032",
+      "source": "De'Longhi ECP3420 video by Tom's Coffee Corner",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "b43c7dcf143aabc59bd18aaabfcd66607e8ccd4157c94475b9207d431bf55e93",
+      "source": "Beginning Barista Tutorial: Delonghi ECP3420 and Baratza Virtuoso+ by Tom's Coffee Corner",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "eec6115185d364b77b618f1c129ce280050d2134591c0e630f02d1a0e710b085",
+      "source": "Beginning Barista Tutorial: Delonghi ECP3420 and Baratza Virtuoso+",
+      "kind": "text",
+      "context": "Beginning Barista Tutorial: Delonghi ECP3420 and Baratza Virtuoso+"
+    },
+    {
+      "id": "7c76a3c6e78a96a20bf3d8381fd75141d0ca5a8dcf64e525da3a287d4fa1bbce",
+      "source": "June 19, 2024",
+      "kind": "text",
+      "context": "June 19, 2024"
+    },
+    {
+      "id": "0c3a27ac118da1d5d4824d068509f4bda4b088080e41fec7f990eed2230fcf38",
+      "source": "Tom's Coffee Corner presents De'Longhi ECP3420, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Tom's Coffee Corner presents De'Longhi ECP3420, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "fd88cd3a0dab55807068616f83637546175d27afa7c5fc3f910512528f7ecfab",
+      "source": "De'Longhi ECP3420: Beginning Barista Tutorial: Delonghi ECP3420 and Baratza Virtuoso+ · Tom's Coffee Corner (2024-06-19) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "2a7799bad4a7cedc5177016b3b97e72a0f44fd5491bcd2ff1275e5a4e19baddb",
+      "source": "Watch Tom's Coffee Corner on De'Longhi ECP3420 (2024-06-19): Beginning Barista Tutorial: Delonghi ECP3420 and Baratza Virtuoso+. Tom's Coffee Corner presents De'Longhi ECP3420, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "713550a1beba0a401589eeb25d82a4e7e177ffec77ac77876d80e35a5fc24684",
+      "source": "De'Longhi ECP3420 video by Tom's Coffee Corner",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "8df82f145cdd9b21169b814cdf4223acefd16108a0e63742d571f0e52f1dd677",
+      "source": "Beginning Barista Tutorial: Delonghi ECP3420 and Baratza Virtuoso+",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "d1d9faa9c4a5c80aaf95db13426325c5c4cdd4e6195339c92e81fbf7c6c3310d",
+      "source": "Tom's Coffee Corner presents De'Longhi ECP3420, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "bf1b18cffeb28d99d28a74f0f86ae8154c6dcfe6915c08e8589c62f221a2d82c",
+      "source": "De'Longhi ECP3420: Delonghi ECP 3420 REVIEW: Amazon's Best Selling Espresso Machine · Tom's Coffee Corner (2022-12-30) | Coffeedant",
+      "kind": "text",
+      "context": "De'Longhi ECP3420: Delonghi ECP 3420 REVIEW: Amazon's Best Selling Espresso Machine · Tom's Coffee Corner (2022-12-30) | Coffeedant"
+    },
+    {
+      "id": "46b7a289f98d724d3f88d1d2e9e70670f089c836c5cd49d6ad177bcd7ca4fc0e",
+      "source": "Watch Tom's Coffee Corner on De'Longhi ECP3420 (2022-12-30): Delonghi ECP 3420 REVIEW: Amazon's Best Selling Espresso Machine. An independent exact-model walkthrough showing the baskets, preparation, espresso, manual frother, and cleaning. It is reviewer evidence, not Coffeedant testing.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "0bf412779cbb863847a6e12124a592cbdcdda225e4fedb4954c1ee5c8f2c1393",
+      "source": "De'Longhi ECP3420: Delonghi ECP 3420 REVIEW: Amazon's Best Selling Espresso Machine · Tom's Coffee Corner (2022-12-30) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "53b557bf93f8126473cdb0de11c69582bfc52fa812a547ab3ccd571dc8c584ec",
+      "source": "Delonghi ECP 3420 REVIEW: Amazon's Best Selling Espresso Machine by Tom's Coffee Corner",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "e4244a86c90e24d10d43dad60e2e08ddf88b1f1b8ba50ca479c630eac82d3fb7",
+      "source": "December 31, 2022",
+      "kind": "text",
+      "context": "December 31, 2022"
+    },
+    {
+      "id": "01e4469aa4be7fcd02662c70aaafc2c0772c43e11efe72bb20bf64ff59797141",
+      "source": "De'Longhi ECP3420: Delonghi ECP 3420 REVIEW: Amazon's Best Selling Espresso Machine · Tom's Coffee Corner (2022-12-30) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "ce8aae9c7d42084dd5125c12c402c4610aa2c5b278eab4daeea8f028ae45eb1a",
+      "source": "Watch Tom's Coffee Corner on De'Longhi ECP3420 (2022-12-30): Delonghi ECP 3420 REVIEW: Amazon's Best Selling Espresso Machine. An independent exact-model walkthrough showing the baskets, preparation, espresso, manual frother, and cleaning. It is reviewer evidence, not Coffeedant testing.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "a5f37dc98756475039719f9867ce050366bb642cc371cf014cdc01f792a3fa5a"
+}

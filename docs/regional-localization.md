@@ -4923,6 +4923,22 @@ edition. The source has 681 pages and 59,010 segments. Each edition can render
 translated and 41,918 pending. Finder gaps are zero. Each edition has 157
 non-video and 307 video pages left.
 
+### Direct batch 116 — De’Longhi ECP3420 video pages (2026-11-11)
+
+Translate Tom's Coffee Corner's complete ECP3420 walkthrough and beginner
+barista tutorial into Dutch, German and French. Keep all six registered URLs,
+the Baratza Virtuoso+ model name and both video dates. The walkthrough credits
+the creator for the observations and retains the bestseller wording as part of
+the original 2022 video title. The unfinished written review opens in English
+with the localized edition notice.
+
+Fifteen translated strings fill 26 missing slots and add 26 cache entries per
+edition. The current source has 681 pages and 59,019 segments. Each edition can
+render 218 indexable pages and a localized 404. Coverage is NL 17,138 translated
+and 41,881 pending, DE 17,254 translated and 41,765 pending, and FR 17,118
+translated and 41,901 pending. Finder gaps are zero. Each edition has 157
+non-video and 305 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
