@@ -326,6 +326,13 @@ const decisions: Record<string, BeanDecision> = {
     finalTitle: 'A filter-first house blend trial',
     finalVerdict: 'Seabright is a sensible small-bag trial for medium daily filter or AeroPress coffee. Its fruit-and-nut notes are Verve’s target; the coffee-maker recipe mismatch and lack of espresso specifics limit broader claims.',
   },
+  'equator-dipsea-espresso': {
+    headings: ['A natural Brazil base with two washed accents', 'Chocolate and spice are Equator’s target', 'Use the 18 g to 39.6 g first shot', 'Keep the first order to 12 oz whole bean', 'Judge the selected cart, not the headline', 'Jaguar and Monarch answer different preferences'],
+    trialTitle: 'Test the neat shot before the usual milk drink',
+    trial: 'If your basket supports 18 g, start at Equator’s 39.6 g beverage target and record the actual bag date, grind and result. Then make the milk drink you normally consume. The question is whether the chocolate-and-spice direction works in that serving, with the small berry accent welcome rather than distracting. If the result is too fruit-forward for you even after a reasonable adjustment, a darker documented alternative is a better next bag than a large Dipsea order.',
+    finalTitle: 'A chocolate-first first shot with room to adjust',
+    finalVerdict: 'Dipsea is a sensible 12 oz whole-bean experiment for a medium espresso that must also work with milk. The origin panel and 1:2.2 recipe make the trial concrete; only the delivered bag and your own cup can establish whether it earns a repeat purchase.',
+  },
 };
 
 const sectionIds = ['identity', 'flavor', 'brewing', 'freshness', 'value', 'alternatives'];
