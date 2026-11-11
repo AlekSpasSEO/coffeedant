@@ -119,7 +119,7 @@ const profile: UpgradeReviewProfile = {
   finalTitle: 'Pay for the Pro only when its extra tasks are real',
   finalVerdict: [
     'The ES701 has a specific advantage over the Premier: a lever tamp, independent hot water and a larger five-program milk setup integrated with Ninja’s broad guided station. Those changes can make a mixed-drink household’s daily cycle smoother.',
-    'The current direct US stainless listing was unavailable at the dated check. Compare exact in-stock stock and full cost with ES601, then decide whether the Pro controls outweigh the coupled grinder and brewer. Neither independent sample praise nor individual owner complaints predict the behavior of your future unit.',
+    'The current direct US stainless listing was unavailable at the dated check. Compare actual in-stock options and full cost with ES601, then decide whether the Pro controls outweigh the coupled grinder and brewer. Neither independent sample praise nor individual owner complaints predict the behavior of your future unit.',
   ],
   video: { id: '1V8Wvg0wNbQ', title: 'Ninja Luxe Cafe PRO ES701 Full Review with Drinks!', creator: 'Tom’s Coffee Corner', published: '2025-06-06', note: 'Independent exact ES701 36-minute demonstration. The creator’s observed drinks are not Coffeedant tasting, measurements or durability data.' },
 };
