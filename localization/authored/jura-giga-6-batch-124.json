@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "jura-giga-6-batch-124.source.json",
+  "snapshotHash": "b5ea7cc8e9f9a39583e381562b1d12af9fc9b65d2507e472b7437d0bda5230ae",
+  "preserveSource": [
+    20
+  ],
+  "routes": {
+    "nl": {
+      "/espresso-machine/jura-giga-6/video/whole-latte-love/": "/espressomachines/jura-giga-6/video/whole-latte-love/",
+      "/espresso-machine/jura-giga-6/video/williams-sonoma/": "/espressomachines/jura-giga-6/video/williams-sonoma/"
+    },
+    "fr": {
+      "/espresso-machine/jura-giga-6/video/whole-latte-love/": "/machines-expresso/jura-giga-6/video/whole-latte-love/",
+      "/espresso-machine/jura-giga-6/video/williams-sonoma/": "/machines-expresso/jura-giga-6/video/williams-sonoma/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "JURA GIGA 6 Aluminum NAA: Review van de automatische koffiemachine Jura GIGA 6 · Whole Latte Love (2019-06-11) | Coffeedant",
+      "de": "JURA GIGA 6 Aluminum NAA: Automatische Kaffeemaschine Jura GIGA 6 im Test · Whole Latte Love (2019-06-11) | Coffeedant",
+      "fr": "JURA GIGA 6 Aluminum NAA : Essai de la machine à café automatique Jura GIGA 6 · Whole Latte Love (2019-06-11) | Coffeedant"
+    },
+    "1": {
+      "nl": "Bekijk de video van Whole Latte Love over de JURA GIGA 6 Aluminum NAA (2019-06-11): Review van de automatische koffiemachine Jura GIGA 6. Whole Latte Love presenteert de JURA GIGA 6 Aluminum NAA en bespreekt de bereiding van espresso en melkdranken, de smaak en de koffiebereiding. Dit is het perspectief van een verkoper van apparatuur. Bekijk het naast de andere bronnen en onze geschreven review.",
+      "de": "Video von Whole Latte Love zur JURA GIGA 6 Aluminum NAA ansehen (2019-06-11): Automatische Kaffeemaschine Jura GIGA 6 im Test. Whole Latte Love stellt die JURA GIGA 6 Aluminum NAA vor und geht auf die Espressozubereitung, Milchgetränke, den Geschmack und die Kaffeezubereitung ein. Das ist die Sicht eines Gerätehändlers. Ziehe auch die anderen Quellen und unseren schriftlichen Testbericht heran.",
+      "fr": "Regardez la vidéo de Whole Latte Love sur la JURA GIGA 6 Aluminum NAA (2019-06-11) : Essai de la machine à café automatique Jura GIGA 6. Whole Latte Love présente la JURA GIGA 6 Aluminum NAA et aborde la préparation de l’expresso et des boissons lactées, le goût et la préparation du café. C’est le point de vue d’un revendeur de matériel. Consultez aussi les autres sources et notre essai écrit."
+    },
+    "3": {
+      "nl": "Video over de JURA GIGA 6 Aluminum NAA door Whole Latte Love",
+      "de": "Video zur JURA GIGA 6 Aluminum NAA von Whole Latte Love",
+      "fr": "Vidéo de Whole Latte Love sur la JURA GIGA 6 Aluminum NAA"
+    },
+    "4": {
+      "nl": "Review van de automatische koffiemachine Jura GIGA 6 door Whole Latte Love",
+      "de": "Automatische Kaffeemaschine Jura GIGA 6 im Test von Whole Latte Love",
+      "fr": "Essai de la machine à café automatique Jura GIGA 6 par Whole Latte Love"
+    },
+    "5": {
+      "nl": "Review van de automatische koffiemachine Jura GIGA 6",
+      "de": "Automatische Kaffeemaschine Jura GIGA 6 im Test",
+      "fr": "Essai de la machine à café automatique Jura GIGA 6"
+    },
+    "6": {
+      "nl": "11 juni 2019",
+      "de": "11. Juni 2019",
+      "fr": "11 juin 2019"
+    },
+    "7": {
+      "nl": "Whole Latte Love presenteert de JURA GIGA 6 Aluminum NAA en bespreekt de bereiding van espresso en melkdranken, de smaak en de koffiebereiding. Dit is het perspectief van een verkoper van apparatuur. Bekijk het naast de andere bronnen en onze geschreven review.",
+      "de": "Whole Latte Love stellt die JURA GIGA 6 Aluminum NAA vor und geht auf die Espressozubereitung, Milchgetränke, den Geschmack und die Kaffeezubereitung ein. Das ist die Sicht eines Gerätehändlers. Ziehe auch die anderen Quellen und unseren schriftlichen Testbericht heran.",
+      "fr": "Whole Latte Love présente la JURA GIGA 6 Aluminum NAA et aborde la préparation de l’expresso et des boissons lactées, le goût et la préparation du café. C’est le point de vue d’un revendeur de matériel. Consultez aussi les autres sources et notre essai écrit."
+    },
+    "13": {
+      "nl": "JURA GIGA 6 Aluminum NAA: Review van de volautomatische espressomachine Jura GIGA 6 · Williams Sonoma (2019-11-08) | Coffeedant",
+      "de": "JURA GIGA 6 Aluminum NAA: Espressovollautomat Jura GIGA 6 im Test · Williams Sonoma (2019-11-08) | Coffeedant",
+      "fr": "JURA GIGA 6 Aluminum NAA : Essai de la machine à expresso entièrement automatique Jura GIGA 6 · Williams Sonoma (2019-11-08) | Coffeedant"
+    },
+    "14": {
+      "nl": "Bekijk de video van Williams Sonoma over de JURA GIGA 6 Aluminum NAA (2019-11-08): Review van de volautomatische espressomachine Jura GIGA 6. Williams Sonoma stelt de JURA GIGA 6 Aluminum NAA voor en bespreekt het malen van koffie en de bereiding van espresso. De demonstraties en meningen zijn van de maker zelf.",
+      "de": "Video von Williams Sonoma zur JURA GIGA 6 Aluminum NAA ansehen (2019-11-08): Espressovollautomat Jura GIGA 6 im Test. Williams Sonoma stellt die JURA GIGA 6 Aluminum NAA vor und geht auf das Mahlen und die Espressozubereitung ein. Die Vorführungen und Einschätzungen stammen vom Videomacher selbst.",
+      "fr": "Regardez la vidéo de Williams Sonoma sur la JURA GIGA 6 Aluminum NAA (2019-11-08) : Essai de la machine à expresso entièrement automatique Jura GIGA 6. Williams Sonoma présente la JURA GIGA 6 Aluminum NAA et aborde la mouture et la préparation de l’expresso. Les démonstrations et les avis sont ceux du vidéaste."
+    },
+    "16": {
+      "nl": "Video over de JURA GIGA 6 Aluminum NAA door Williams Sonoma",
+      "de": "Video zur JURA GIGA 6 Aluminum NAA von Williams Sonoma",
+      "fr": "Vidéo de Williams Sonoma sur la JURA GIGA 6 Aluminum NAA"
+    },
+    "17": {
+      "nl": "Review van de volautomatische espressomachine Jura GIGA 6 door Williams Sonoma",
+      "de": "Espressovollautomat Jura GIGA 6 im Test von Williams Sonoma",
+      "fr": "Essai de la machine à expresso entièrement automatique Jura GIGA 6 par Williams Sonoma"
+    },
+    "18": {
+      "nl": "JURA GIGA 6 Aluminum NAA · Perspectief van een externe maker",
+      "de": "JURA GIGA 6 Aluminum NAA · Perspektive eines externen Kanals",
+      "fr": "JURA GIGA 6 Aluminum NAA · Point de vue d’un créateur tiers"
+    },
+    "19": {
+      "nl": "Review van de volautomatische espressomachine Jura GIGA 6",
+      "de": "Espressovollautomat Jura GIGA 6 im Test",
+      "fr": "Essai de la machine à expresso entièrement automatique Jura GIGA 6"
+    },
+    "21": {
+      "nl": "8 november 2019",
+      "de": "8. November 2019",
+      "fr": "8 novembre 2019"
+    },
+    "22": {
+      "nl": "Williams Sonoma stelt de JURA GIGA 6 Aluminum NAA voor en bespreekt het malen van koffie en de bereiding van espresso. De demonstraties en meningen zijn van de maker zelf.",
+      "de": "Williams Sonoma stellt die JURA GIGA 6 Aluminum NAA vor und geht auf das Mahlen und die Espressozubereitung ein. Die Vorführungen und Einschätzungen stammen vom Videomacher selbst.",
+      "fr": "Williams Sonoma présente la JURA GIGA 6 Aluminum NAA et aborde la mouture et la préparation de l’expresso. Les démonstrations et les avis sont ceux du vidéaste."
+    },
+    "23": {
+      "nl": "De video en meningen zijn van Williams Sonoma. Coffeedant plaatst dit perspectief naast onze geschreven review.",
+      "de": "Das Video und die Einschätzungen stammen von Williams Sonoma. Coffeedant ordnet diese Perspektive neben unserem schriftlichen Testbericht ein.",
+      "fr": "La vidéo et les avis sont ceux de Williams Sonoma. Coffeedant présente ce point de vue aux côtés de notre essai écrit."
+    },
+    "30": {
+      "nl": "Video door Williams Sonoma",
+      "de": "Video von Williams Sonoma",
+      "fr": "Vidéo de Williams Sonoma"
+    }
+  }
+}

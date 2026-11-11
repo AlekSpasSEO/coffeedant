@@ -5067,6 +5067,21 @@ translated and 42,474 pending, DE 17,524 translated and 42,358 pending, and FR
 17,388 translated and 42,494 pending. All 154 Finder records are complete.
 Each edition has 164 non-video and 292 video pages left.
 
+### Direct batch 124 — Jura GIGA 6 video pages (2026-11-11)
+
+Translate the complete Whole Latte Love and Williams Sonoma video pages into
+Dutch, German and French. Preserve the JURA GIGA 6 Aluminum NAA model name,
+retailer attribution, dates and video destinations. Register both Dutch and
+French URLs under their existing GIGA 6 video paths. Each video links to the
+published written review in its own edition.
+
+Seventeen translated strings and one unchanged creator name cover 31 missing
+slots per edition. The source has 689 pages and 59,882 segments. Each edition
+can render 234 indexable pages and a localized 404. Coverage is NL 17,439
+translated and 42,443 pending, DE 17,555 translated and 42,327 pending, and FR
+17,419 translated and 42,463 pending. All 154 Finder records are complete.
+Each edition has 164 non-video and 290 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
