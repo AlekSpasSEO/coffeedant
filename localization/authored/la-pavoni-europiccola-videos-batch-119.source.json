@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/la-pavoni-europiccola/video/coffee-kev/",
+      "sourceHash": "69db836f1961a9d02ab21ba7b9e7fdc55e2547962948c4878a7c9874caf9b3d1"
+    },
+    {
+      "sourcePath": "/espresso-machine/la-pavoni-europiccola/video/james-hoffmann/",
+      "sourceHash": "93401fc547e5309f29ec54bcb366873446a080f7e5b6d12143b453a1eef6784b"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "615d3c6cee6efe9247f4e677c2046f00d8c8868997e02839a7f713c9a84be3b1",
+      "source": "The La Pavoni Europiccola",
+      "kind": "text",
+      "context": "The La Pavoni Europiccola"
+    },
+    {
+      "id": "f26e803933688bbc4cdaf54f9a41d5676105dc45340ee7f6d93a4f6880bb68d9",
+      "source": "August 18, 2020",
+      "kind": "text",
+      "context": "August 18, 2020"
+    },
+    {
+      "id": "a1d7d9ad090a317743e91c8feed34143246d754d98eae606a4f7c042b48c4eda",
+      "source": "Independent historical and practical review. Its machine context helps explain the platform, but the August 2026 LPLELQ01EU sheet governs exact current specifications.",
+      "kind": "text",
+      "context": "Independent historical and practical review. Its machine context helps explain the platform, but the August 2026 LPLELQ01EU sheet governs exact current specifications."
+    },
+    {
+      "id": "24d63b9c6b81234029097b6b11c0313309ef2f65e057914b897209e4d92eafdb",
+      "source": "La Pavoni Europiccola Lusso",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "67dd96764a4d0aa238b83eeefc35b456ece5405eee81efcd58af752adf2b089d",
+      "source": "The La Pavoni Europiccola",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "ce426156b01dc3a50ecd185113a0cf866e2763528592fef1e059aae8c5b9ce4c",
+      "source": "Independent historical and practical review. Its machine context helps explain the platform, but the August 2026 LPLELQ01EU sheet governs exact current specifications.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "26953291e7a878ad0e4ebb1e8b462725fcc9aca971a5bf8a780cb15d8bbeae4f",
+      "source": "La Pavoni Europiccola Lusso: La Pavoni Europiccola Review (New 2022 Version). Some Big Changes. · Coffee Kev (2022-05-18) | Coffeedant",
+      "kind": "text",
+      "context": "La Pavoni Europiccola Lusso: La Pavoni Europiccola Review (New 2022 Version). Some Big Changes. · Coffee Kev (2022-05-18) | Coffeedant"
+    },
+    {
+      "id": "374053f8a95353bb614d799d1c0040d3f96b05c992667ae5a727e9650cdac8fb",
+      "source": "Watch Coffee Kev on La Pavoni Europiccola Lusso (2022-05-18): La Pavoni Europiccola Review (New 2022 Version). Some Big Changes.. Coffee Kev presents La Pavoni Europiccola Lusso, covering setup and controls. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "bd546abf7beddafba7d02e75662d47170c4b8bf16d50529c5801c976aaf0f001",
+      "source": "La Pavoni Europiccola Lusso: La Pavoni Europiccola Review (New 2022 Version). Some Big Changes. · Coffee Kev (2022-05-18) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "7085504d00d041f3035ef3f7323f57f40b95b93d378e4ae0ac0518b1e1525a69",
+      "source": "La Pavoni Europiccola Lusso video by Coffee Kev",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "c1ad1cd502ab884317e5c9cd2f006c71c0d559aa34cc9f2f3ee227b4862ddac9",
+      "source": "← La Pavoni Europiccola Lusso review",
+      "kind": "text",
+      "context": "← La Pavoni Europiccola Lusso review"
+    },
+    {
+      "id": "8244a688cc0cbdc73cac3124a37ebc353f376f0dbc9606c3fa6ac2575f9025bb",
+      "source": "La Pavoni Europiccola Review (New 2022 Version). Some Big Changes. by Coffee Kev",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "e279c949b0819c14e00cf096aaa788be81f49ee39a1c2fbeb279dca382ff9c43",
+      "source": "La Pavoni Europiccola Lusso · Third-party perspective",
+      "kind": "text",
+      "context": "La Pavoni Europiccola Lusso · Third-party perspective"
+    },
+    {
+      "id": "b53bcdbb4bf557eb4902944475603525d437ec33b521d53fc911dbfec9f23681",
+      "source": "La Pavoni Europiccola Review (New 2022 Version). Some Big Changes.",
+      "kind": "text",
+      "context": "La Pavoni Europiccola Review (New 2022 Version). Some Big Changes."
+    },
+    {
+      "id": "f4e74f0e46aa7f28afc15ec8d2f86821747c078b578d034793385b3c7f9b8edb",
+      "source": "May 18, 2022",
+      "kind": "text",
+      "context": "May 18, 2022"
+    },
+    {
+      "id": "b17c2d3d78dfe3167c21828918cb9f92eba58ed93cdaf9b60d64dcbc65b6ebeb",
+      "source": "Coffee Kev presents La Pavoni Europiccola Lusso, covering setup and controls. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Coffee Kev presents La Pavoni Europiccola Lusso, covering setup and controls. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "b8826284cd915ad9959ae0cdefde7698992502b13f035afac5af0cb9642c3ca7",
+      "source": "La Pavoni Europiccola Lusso: La Pavoni Europiccola Review (New 2022 Version). Some Big Changes. · Coffee Kev (2022-05-18) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "5cdf9f8b2889ebf5ab3eead00748605f60a809079c958b1ef74f4394845fca09",
+      "source": "Watch Coffee Kev on La Pavoni Europiccola Lusso (2022-05-18): La Pavoni Europiccola Review (New 2022 Version). Some Big Changes.. Coffee Kev presents La Pavoni Europiccola Lusso, covering setup and controls. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "98dd9a8d4d2f7fa9d28f0fa1eeb4bd096d966b8817369ca55776c1b6895fbc73",
+      "source": "La Pavoni Europiccola Lusso video by Coffee Kev",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "21a8754d35b49245f96821fbe559a0d63c7511b282422f152bd8e45dee5d9c65",
+      "source": "La Pavoni Europiccola Review (New 2022 Version). Some Big Changes.",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "bbd0242aa1302d614087437a606f6ca068da7cb8fa2445d0b038da36e8763eb3",
+      "source": "Coffee Kev presents La Pavoni Europiccola Lusso, covering setup and controls. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "22bc313a09440590abfe34011a79595331ad950a18b96e4a6b1d11174ac0f418",
+      "source": "La Pavoni Europiccola Lusso: The La Pavoni Europiccola · James Hoffmann (2020-08-18) | Coffeedant",
+      "kind": "text",
+      "context": "La Pavoni Europiccola Lusso: The La Pavoni Europiccola · James Hoffmann (2020-08-18) | Coffeedant"
+    },
+    {
+      "id": "35e7ba1d82534f6faffa7bd3c0c236500f0c55bfb2c378d8d32ada0a9f9ac17f",
+      "source": "Watch James Hoffmann on La Pavoni Europiccola Lusso (2020-08-18): The La Pavoni Europiccola. Independent historical and practical review. Its machine context helps explain the platform, but the August 2026 LPLELQ01EU sheet governs exact current specifications.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "5002ff20419e3b1723e079018d9b7752b7a9fff0bbf5ceee700867dd84321cee",
+      "source": "La Pavoni Europiccola Lusso: The La Pavoni Europiccola · James Hoffmann (2020-08-18) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "e11c099055bca8ad921bb71a179f13affd74fef26ae1a7c95eae0a6082cf6c61",
+      "source": "La Pavoni Europiccola Lusso video by James Hoffmann",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "f025c2762e43bda1bdb049094781c947d34db2b6551374b6bcd832401be6e311",
+      "source": "The La Pavoni Europiccola by James Hoffmann",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "fa079715eaf6676f17b7867ae0a4f8e329cb661584ed63ca072416fcff43d31b",
+      "source": "La Pavoni Europiccola Lusso: The La Pavoni Europiccola · James Hoffmann (2020-08-18) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "7767844356b893d86910acc6473214f1333d18e6a66406ea248d7ecb839be3df",
+      "source": "Watch James Hoffmann on La Pavoni Europiccola Lusso (2020-08-18): The La Pavoni Europiccola. Independent historical and practical review. Its machine context helps explain the platform, but the August 2026 LPLELQ01EU sheet governs exact current specifications.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "518d8a612a6be743ba305c9f4e5501f42f77e5fcc87781c032b101f6545d228c",
+      "source": "La Pavoni Europiccola Lusso video by James Hoffmann",
+      "kind": "json",
+      "context": "caption"
+    }
+  ],
+  "snapshotHash": "b0d947d7fa89f5dfcf770b58b9ac1d323cc1ba650869154c32965ba7fb8504ac"
+}

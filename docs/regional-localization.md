@@ -4986,6 +4986,23 @@ localized 404. Coverage is NL 17,239 translated and 42,643 pending, DE 17,355
 translated and 42,527 pending, and FR 17,219 translated and 42,663 pending.
 Each edition has 164 non-video and 302 video pages left.
 
+### Direct batch 119 — La Pavoni Europiccola video pages (2026-11-11)
+
+Translate the complete Coffee Kev and James Hoffmann video pages into Dutch,
+German and French. Preserve the La Pavoni Europiccola Lusso name, both video
+dates, the six registered regional URLs and Coffee Kev's affiliate disclosure.
+Hoffmann's older video gives historical and practical context. The August 2026
+LPLELQ01EU data sheet remains the source for exact current specifications.
+The unfinished written review opens in English with the localized edition notice.
+
+Sixteen translated strings and one unchanged model name cover 29 missing slots
+and add 30 cache entries per edition. The source has 689 pages and 59,882
+segments. Each edition can render 224 indexable pages and a localized 404.
+Coverage is NL 17,269 translated and 42,613 pending, DE 17,385 translated and
+42,497 pending, and FR 17,249 translated and 42,633 pending. All 154 Finder
+records are complete in each edition. Each edition has 164 non-video and
+300 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
