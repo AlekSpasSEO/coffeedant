@@ -5003,6 +5003,23 @@ Coverage is NL 17,269 translated and 42,613 pending, DE 17,385 translated and
 records are complete in each edition. Each edition has 164 non-video and
 300 video pages left.
 
+### Direct batch 120 — Ascaso Steel Duo PID video pages (2026-11-11)
+
+Translate the complete Lance Hedrick and Rob McGee video pages into Dutch,
+German and French. Preserve both publication dates, video destinations, the
+six registered regional URLs and Rob McGee's affiliate disclosure. Lance's
+personally owned older machine remains distinct from the V3 electrical and
+current product differences described by the source. The unfinished written
+review opens in English with the localized edition notice.
+
+Eighteen translated strings and two unchanged creator names cover 34 missing
+slots and add 34 cache entries per edition. The source has 689 pages and 59,882
+segments. Each edition can render 226 indexable pages and a localized 404.
+Coverage is NL 17,303 translated and 42,579 pending, DE 17,419 translated and
+42,463 pending, and FR 17,283 translated and 42,599 pending. All 154 Finder
+records are complete in each edition. Each edition has 164 non-video and
+298 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
