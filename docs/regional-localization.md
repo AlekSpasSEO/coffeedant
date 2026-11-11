@@ -5036,6 +5036,21 @@ translated and 42,544 pending, DE 17,454 translated and 42,428 pending, and FR
 17,318 translated and 42,564 pending. All 154 Finder records are complete.
 Each edition has 164 non-video and 296 video pages left.
 
+### Direct batch 122 — Gaggia Anima Prestige video pages (2026-11-11)
+
+Translate the complete Consiglioskitchenware.com and WTI video pages into
+Dutch, German and French. Preserve the retailer attribution, WTI's affiliate
+disclosure, both dates and both video destinations. Register the two French
+video URLs under the published French review path. All six video pages link
+to their edition's published written review.
+
+Nineteen translated strings and two unchanged creator names cover 35 missing
+slots per edition. The source has 689 pages and 59,882 segments. Each edition
+can render 230 indexable pages and a localized 404. Coverage is NL 17,373
+translated and 42,509 pending, DE 17,489 translated and 42,393 pending, and FR
+17,353 translated and 42,529 pending. All 154 Finder records are complete.
+Each edition has 164 non-video and 294 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
