@@ -100,7 +100,7 @@ const bz09Sections: Section[] = [
   },
   {
     id: 'value', eyebrow: 'Rating deep dive', title: 'Value depends on regional support and how much you prize the heated group', html: `
-      <p>The checked Coffee Friend offer was EUR 999 for a 220 to 240 V unit. Another current Dutch listing showed EUR 925, while marketplace and comparison feeds varied. Those are dated European anchors, not a worldwide MSRP. Import tax, shipping, plug compatibility, warranty geography and return freight can erase a discount. A buyer outside the dealer's supported region should value the delivered, serviceable machine rather than the cart subtotal. ${refs(['bz09-coffeefriend','bz09-koffiewarenhuis'])}</p>
+      <p>The September 17, 2026 Coffee Friend check showed EUR 999 for a 220 to 240 V unit; a Dutch listing then showed EUR 925. Neither is a verified current offer or worldwide MSRP. Import tax, shipping, plug compatibility, warranty geography and return freight can erase a discount. A buyer outside the dealer's supported region should compare a currently available, delivered and serviceable machine rather than a historical cart subtotal. ${refs(['bz09-coffeefriend','bz09-koffiewarenhuis'])}</p>
       <p>At roughly this price, the BZ09 offers substantial steel construction and its distinctive heated group, but it asks the operator to accept hidden thermostat adjustment and sequential milk. Profitec GO makes temperature and shot time visible. LELIT Victoria adds electronic workflow aids. Rancilio Silvia offers a much larger body of service knowledge, though it retains thermostat management. The right comparison is not which badge looks more commercial. It is which daily compromise costs the least attention.</p>
       <p>My rating lands in the middle of the class. The BZ09 is not obsolete, and the heated group is more than decoration. It is also hard to call exceptional value when factory PID control has become normal near the same budget. ${refs(['bz09-go','bz09-victoria','bz09-silvia'])}</p>`,
   },
@@ -117,7 +117,7 @@ const bz09Sections: Section[] = [
   },
   {
     id: 'compare', eyebrow: 'Quick and detailed comparison', title: 'BZ09, a factory-PID single boiler or the BZ10?', html: comparisonTablesHtml('Bezzera BZ09', [
-      { name: 'Bezzera BZ09', quickDecision: 'Choose for the heated BZ group, narrow case and espresso-first mechanical routine.', priceClass: 'EUR 999 checked EU offer', dimensions: '250 W x 425 D x 375 H mm; 17 kg', heating: '0.5 L single boiler plus cartridge-heated group', coffeeSetup: '58 mm, manual stop, pressure gauge, internal thermostat', milkWorkflow: 'Sequential steam and hot water through one wand', bestFor: 'Espresso-first buyer with occasional milk' },
+      { name: 'Bezzera BZ09', quickDecision: 'Choose for the heated BZ group, narrow case and espresso-first mechanical routine.', priceClass: 'Check current EU price; September 2026 snapshot was EUR 999', dimensions: '250 W x 425 D x 375 H mm; 17 kg', heating: '0.5 L single boiler plus cartridge-heated group', coffeeSetup: '58 mm, manual stop, pressure gauge, internal thermostat', milkWorkflow: 'Sequential steam and hot water through one wand', bestFor: 'Espresso-first buyer with occasional milk' },
       { name: 'Profitec GO', href: '/espresso-machine/profitec-go/', quickDecision: 'Choose when visible PID control and a shot timer matter more than Bezzera group character.', priceClass: 'Similar premium single-boiler class', dimensions: 'Compact upright single-boiler body', heating: 'PID-controlled single boiler', coffeeSetup: '58 mm, display, timer and pressure gauge', milkWorkflow: 'Sequential brew and steam', bestFor: 'Recipe-focused espresso buyer' },
       { name: 'LELIT Victoria', href: '/espresso-machine/lelit-victoria-pl91t/', quickDecision: 'Choose for electronic temperature and workflow assistance in a compact format.', priceClass: 'Similar or somewhat higher by region', dimensions: 'Compact single-boiler footprint', heating: 'PID-controlled single boiler', coffeeSetup: '58 mm with display and programmable aids', milkWorkflow: 'Sequential with electronic management', bestFor: 'Buyer wanting more guidance' },
       { name: 'Bezzera BZ10', href: '/espresso-machine/bezzera-bz10/', quickDecision: 'Choose when several milk drinks justify a heat exchanger and two service circuits.', priceClass: 'Higher than BZ09', dimensions: 'Same stated footprint; 19 kg', heating: '1.5 L heat exchanger plus heated BZ group', coffeeSetup: '58 mm, manual stop and dual gauge', milkWorkflow: 'Brew and steam at the same time', bestFor: 'Milk-drink household' },
@@ -157,9 +157,9 @@ export const bezzeraBz09Review = buildResearchReview({
   image: 'https://www.bezzera.it/uploads/prod_images/BZ09/BZ09_Featured.jpg',
   imageAlt: 'Bezzera BZ09 stainless steel espresso machine viewed from the front',
   published: '2025-11-13', updated: UPDATED,
-  authorNote: 'I treated the BZ09 as a current buying and ownership decision. I checked Bezzera specifications and brochure material, current European listings, independent demonstration, comparison machines and owner discussions. I have not physically tested this machine.',
+  authorNote: 'I treated the BZ09 as a current buying and ownership decision. I checked Bezzera specifications and brochure material, dated European listings, independent demonstration, comparison machines and owner discussions. I have not physically tested this machine.',
   basisDisclosure: disclosure,
-  price: { label: 'Checked European retailer price', msrp: '€999.00', typical: '220 to 240 V listing; availability and tax vary by country', currency: 'EUR', numeric: '999.00', checked: 'September 17, 2026' },
+  price: { label: 'Check current European price', msrp: 'Check price', typical: 'September 17, 2026 EU snapshot was EUR 999 for a 220 to 240 V listing; current stock and delivered price are unverified', currency: 'EUR', numeric: '', checked: 'September 17, 2026' },
   links: [
     { label: 'Check current retailer price', href: 'https://www.coffeefriend.eu/p/coffee-machine-bezzera-bz09-pm/', note: 'Regional voltage and delivery eligibility apply', primary: true },
     { label: 'Check Bezzera specifications', href: 'https://www.bezzera.it/en/machines/bz09', note: 'Official manufacturer page' },
@@ -300,7 +300,7 @@ export const bezzeraBz09Review = buildResearchReview({
         'The EUR 999 check gives a real anchor, while country, tax and voltage differences prevent a global price claim.',
       ],
       [
-        { signal: 'EUR 999 current offer', evidence: 'Coffee Friend showed the regional machine in stock on the check date.', decision: 'Confirm delivered price, voltage and warranty eligibility.' },
+        { signal: 'September 2026 EUR 999 snapshot', evidence: 'Coffee Friend showed the regional machine in stock on the historical check date; current stock is unverified.', decision: 'Confirm current delivered price, voltage and warranty eligibility.' },
         { signal: 'Factory-PID rivals', evidence: 'GO and Victoria make temperature visible from the front.', decision: 'Value the control you will use, not the hardware story alone.' },
       ],
       [
