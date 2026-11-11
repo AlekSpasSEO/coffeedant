@@ -4961,18 +4961,18 @@ zero. Each edition has 157 non-video and 303 video pages left.
 Translate the complete Tom's Coffee Corner and ECS COFFEE video pages in Dutch,
 German and French. Preserve the ECAM370.95.T model, both dates, the retailer's
 disclosure, the creator's independent review and all six registered URLs.
-Translate the new recipe guide card on the coffee bean hub to keep the hub
-current. The guide and the written machine review open in English with the
-localized edition notice.
+Translate the recipe guide and Equator Dipsea Espresso cards on the coffee
+bean hub to keep it current. The guide, the Dipsea review and the written
+machine review open in English with the localized edition notice.
 
-The model validator accepts the English suffix in “ECAM370-era” while still
-requiring the exact ECAM370 identifier. Twenty-one translations and one
-unchanged model name cover 34 missing slots and add 35 cache entries per
-edition. The source has 682 pages and 59,140 segments. Each edition can render
-222 indexable pages and a localized 404. Coverage is NL 17,201 translated and
-41,939 pending, DE 17,317 translated and 41,823 pending, and FR 17,181
-translated and 41,959 pending. Finder gaps are zero. Each edition has 158
-non-video and 301 video pages left.
+The model validator treats “-era” in “ECAM370-era” as an English qualifier
+and requires the exact ECAM370 identifier. Twenty-four translated strings
+and two unchanged names cover 39 missing slots and add 41 cache entries
+per edition. The source has 683 pages and 59,240 segments. Each edition can
+render 222 indexable pages and a localized 404. Coverage is NL 17,207
+translated and 42,033 pending, DE 17,323 translated and 41,917 pending,
+and FR 17,187 translated and 42,053 pending. Finder gaps are zero. Each
+edition has 159 non-video and 301 video pages left.
 
 ## Missing configuration
 
