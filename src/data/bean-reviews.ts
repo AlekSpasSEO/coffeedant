@@ -11,6 +11,7 @@ import weekdayBeans20261109b from './weekday-beans-20261109b.json';
 import weekdayBeans20261109c from './weekday-beans-20261109c.json';
 import weekdayBeans20261110 from './weekday-beans-20261110.json';
 import weekdayBeans20261111 from './weekday-beans-20261111.json';
+import weekdayBeans20261111b from './weekday-beans-20261111b.json';
 import beanRefreshes20261017 from './bean-refreshes-2026-10-17.json';
 import beanRefreshes20261020 from './bean-refreshes-2026-10-20.json';
 import beanRefreshes20261021 from './bean-refreshes-2026-10-21.json';
@@ -106,7 +107,7 @@ export const beanReviews: BeanReviewData[] = ([{
     { id: 's6', title: 'Counter Culture Big Trouble', href: 'https://counterculturecoffee.com/products/big-trouble', note: 'Roaster listing for an alternative flavor direction; confirm current details at purchase.', checked: '2026-10-13' },
     { id: 's7', title: 'Counter Culture Apollo', href: 'https://counterculturecoffee.com/products/apollo', note: 'Roaster listing for an alternative flavor direction; confirm current details at purchase.', checked: '2026-10-13' },
   ],
-}, ...(expandedBeanReviews as BeanReviewData[]), ...(weekdayBeansA as BeanReviewData[]), ...(weekdayBeansB as BeanReviewData[]), ...(weekdayDecafBeans as BeanReviewData[]), ...(weekdayBeans20261016 as BeanReviewData[]), ...(weekdayBeans20261020 as BeanReviewData[]), ...(weekdayBeans20261021 as BeanReviewData[]), ...(weekdayBeans20261022 as BeanReviewData[]), ...(weekdayBeans20261109 as BeanReviewData[]), ...(weekdayBeans20261109b as BeanReviewData[]), ...(weekdayBeans20261109c as BeanReviewData[]), ...(weekdayBeans20261110 as BeanReviewData[]), ...(weekdayBeans20261111 as BeanReviewData[])] as BeanReviewData[]).map((review) => {
+}, ...(expandedBeanReviews as BeanReviewData[]), ...(weekdayBeansA as BeanReviewData[]), ...(weekdayBeansB as BeanReviewData[]), ...(weekdayDecafBeans as BeanReviewData[]), ...(weekdayBeans20261016 as BeanReviewData[]), ...(weekdayBeans20261020 as BeanReviewData[]), ...(weekdayBeans20261021 as BeanReviewData[]), ...(weekdayBeans20261022 as BeanReviewData[]), ...(weekdayBeans20261109 as BeanReviewData[]), ...(weekdayBeans20261109b as BeanReviewData[]), ...(weekdayBeans20261109c as BeanReviewData[]), ...(weekdayBeans20261110 as BeanReviewData[]), ...(weekdayBeans20261111 as BeanReviewData[]), ...(weekdayBeans20261111b as BeanReviewData[])] as BeanReviewData[]).map((review) => {
   const refresh = beanRefreshes20261017.find((item) => item.slug === review.slug);
   if (!refresh) return review;
   if (refresh.productId !== review.productId) throw new Error(`October 17 bean identity mismatch: ${review.slug}`);
