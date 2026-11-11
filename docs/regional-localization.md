@@ -5020,6 +5020,22 @@ Coverage is NL 17,303 translated and 42,579 pending, DE 17,419 translated and
 records are complete in each edition. Each edition has 164 non-video and
 298 video pages left.
 
+### Direct batch 121 — Ascaso Steel Uno PID video pages (2026-11-11)
+
+Translate the complete iDrinkCoffeeCanada and The Real Sprometheus video pages
+into Dutch, German and French. Preserve the retailer attribution, both video
+destinations and dates, and the six registered regional URLs. The independent
+review covers an older regional sample and directs readers to verify current
+US specifications. The unfinished written review opens in English with the
+localized edition notice.
+
+Nineteen translated strings and two unchanged creator names cover 35 missing
+slots per edition. The source has 689 pages and 59,882 segments. Each edition
+can render 228 indexable pages and a localized 404. Coverage is NL 17,338
+translated and 42,544 pending, DE 17,454 translated and 42,428 pending, and FR
+17,318 translated and 42,564 pending. All 154 Finder records are complete.
+Each edition has 164 non-video and 296 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
