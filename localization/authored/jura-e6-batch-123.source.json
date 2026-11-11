@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/jura-e6/video/ellie/",
+      "sourceHash": "c5a585d5dd481247b5b65869ee12eafea59b69bd955f3953a3e2409e296f0f06"
+    },
+    {
+      "sourcePath": "/espresso-machine/jura-e6/video/williams-food-equipment/",
+      "sourceHash": "8b78687e9145912f218e25ef5fdb71db0eb5b8257adb3bd19c9b5b0e43ab2697"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "01e9ecf2687d66d0d11e64724585b7d39819f078349fff3699cfaa6c978ae1ef",
+      "source": "JURA E6 Dark Inox NAC: Jura E6 Coffee Machine Review - Should You Buy? · Ellie (2025-04-10) | Coffeedant",
+      "kind": "text",
+      "context": "JURA E6 Dark Inox NAC: Jura E6 Coffee Machine Review - Should You Buy? · Ellie (2025-04-10) | Coffeedant"
+    },
+    {
+      "id": "c46c95b4a15dbddc74724abb69ba65a06dc3617f421e8c0d757d9d7bccd2475c",
+      "source": "Watch Ellie on JURA E6 Dark Inox NAC (2025-04-10): Jura E6 Coffee Machine Review - Should You Buy?. Ellie presents JURA E6 Dark Inox NAC, covering taste and brewing. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "4308d1009e4cdc5b69158f1522d72be52597228416b7881f80c93fbb2a97ebf6",
+      "source": "JURA E6 Dark Inox NAC: Jura E6 Coffee Machine Review - Should You Buy? · Ellie (2025-04-10) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "f9e2f314bd7f3d4d12d9e29a8c1e39f9263ec730a6c3da4d567c042e65cd1b54",
+      "source": "JURA E6 Dark Inox NAC video by Ellie",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "cf2c7af1acb2587b3fdc5ee06c9281465e2e4c5f73c79d0b5b29a373a428731b",
+      "source": "Jura E6 Coffee Machine Review - Should You Buy? by Ellie",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "990350a148ed55c9db6a8698d81840fd42bfba38ef22119983dd7b9c923f680d",
+      "source": "JURA E6 Dark Inox NAC · Third-party perspective",
+      "kind": "text",
+      "context": "JURA E6 Dark Inox NAC · Third-party perspective"
+    },
+    {
+      "id": "fa707654aaaab5d7bc9c6d77cff2dc7fd0fa7ffab2bafb912392928d63ba69bf",
+      "source": "Jura E6 Coffee Machine Review - Should You Buy?",
+      "kind": "text",
+      "context": "Jura E6 Coffee Machine Review - Should You Buy?"
+    },
+    {
+      "id": "4486cddb3b083ef13a931eb9b0d21727326e8cbccc62b9b40be72c4f485c8421",
+      "source": "Ellie",
+      "kind": "text",
+      "context": "Ellie"
+    },
+    {
+      "id": "72ae6e4c7e4addfc010cf8cf388a3666d6f7257820b1c8e07f8dec60f9d42fd6",
+      "source": "April 11, 2025",
+      "kind": "text",
+      "context": "April 11, 2025"
+    },
+    {
+      "id": "01f16972c3c32db8f28dc68147e368fa16a0a284f77a0d1bf9c56c2354b6c4a7",
+      "source": "Ellie presents JURA E6 Dark Inox NAC, covering taste and brewing. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Ellie presents JURA E6 Dark Inox NAC, covering taste and brewing. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "a11de237755d938429d11fcc28293e68744fa2a89d5252fef65316756f8ebd37",
+      "source": "Video and opinions belong to Ellie. Coffeedant curates this perspective alongside our written review.",
+      "kind": "text",
+      "context": "Video and opinions belong to Ellie. Coffeedant curates this perspective alongside our written review."
+    },
+    {
+      "id": "b760057b3f90d76cb4ba82880d6a446f8412aef18a47f62e6209eb82a32d4209",
+      "source": "JURA E6 Dark Inox NAC: Jura E6 Coffee Machine Review - Should You Buy? · Ellie (2025-04-10) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "5b5138cfe6b2b571f2fd7fb4e84a50aa8bf2ddf5a4e0331f418fa9c6d53774fb",
+      "source": "Watch Ellie on JURA E6 Dark Inox NAC (2025-04-10): Jura E6 Coffee Machine Review - Should You Buy?. Ellie presents JURA E6 Dark Inox NAC, covering taste and brewing. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "4323dba866b0c8339ff519cc8038b360262dc9b79cb7c6e57a95a6a09ff787ad",
+      "source": "JURA E6 Dark Inox NAC video by Ellie",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "7d1139c831160343e931a1e6b49493e4c69461f31d95a0c0e504aaf556b601be",
+      "source": "Jura E6 Coffee Machine Review - Should You Buy?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "a2c8fb50809549c05c4a052758b4f9e95bb12a582ff8318ae8e4302a4237b236",
+      "source": "Ellie presents JURA E6 Dark Inox NAC, covering taste and brewing. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "a5f1e07e8ce10e3ff41d1f8ac20ddb1e8c422d6618fd3419188e32b32f932bbd",
+      "source": "Ellie",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "f9c8758e79123d878041dc59088bd96a1e82157a076c03d326a2fb9bc38ce8f2",
+      "source": "Video by Ellie",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "0a951bd0ef37bebfa0ded3bef754719a3417910dbe716a5b906768fdf640475c",
+      "source": "JURA E6 Dark Inox NAC: JURA E6 Unboxing and Setup | Automatic Coffee Machine · Williams Food Equipment (2026-06-04) | Coffeedant",
+      "kind": "text",
+      "context": "JURA E6 Dark Inox NAC: JURA E6 Unboxing and Setup | Automatic Coffee Machine · Williams Food Equipment (2026-06-04) | Coffeedant"
+    },
+    {
+      "id": "5bcde438ec92cbb0e07ad28bfb4e03f752f988030c7a2353296a640f40d34dab",
+      "source": "Watch Williams Food Equipment on JURA E6 Dark Inox NAC (2026-06-04): JURA E6 Unboxing and Setup | Automatic Coffee Machine. Williams Food Equipment presents JURA E6 Dark Inox NAC, covering grinding, espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "e6717a7870510fc2bbeaac8df9b8101e27f50565c3f128ac4a4af342487e6437",
+      "source": "JURA E6 Dark Inox NAC: JURA E6 Unboxing and Setup | Automatic Coffee Machine · Williams Food Equipment (2026-06-04) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "89b1361f49d79c2a0db06dbbba27db7a91be8dd8d2b062ecf4418f845e8611ae",
+      "source": "JURA E6 Dark Inox NAC video by Williams Food Equipment",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "f899bd8a07fa76bed433219b63247c474e3c2c825a45b103340e2814423666d0",
+      "source": "JURA E6 Unboxing and Setup | Automatic Coffee Machine by Williams Food Equipment",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "fb0ba9750fdf9a483c2d883c370f0febab34b9a78657dfe0d137abe4ba86b03b",
+      "source": "JURA E6 Unboxing and Setup | Automatic Coffee Machine",
+      "kind": "text",
+      "context": "JURA E6 Unboxing and Setup | Automatic Coffee Machine"
+    },
+    {
+      "id": "8a2316cb418a53a836b32a7acdbf1dad8495dd4e597733e0774e6b100fcf7e17",
+      "source": "Williams Food Equipment",
+      "kind": "text",
+      "context": "Williams Food Equipment"
+    },
+    {
+      "id": "3c56a634105389a8a202eeb5535d7b10f3a7edb402be7f2e1956dcee9e29f470",
+      "source": "June 4, 2026",
+      "kind": "text",
+      "context": "June 4, 2026"
+    },
+    {
+      "id": "2589177657c7264cad4900d90308a913db3629794ac98dd28f4431ffadc47b6f",
+      "source": "Williams Food Equipment presents JURA E6 Dark Inox NAC, covering grinding, espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Williams Food Equipment presents JURA E6 Dark Inox NAC, covering grinding, espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "6212ffe21d08455de8f3bf223ec264847dc5be593167d2d193437db8484f481e",
+      "source": "Video and opinions belong to Williams Food Equipment. Coffeedant curates this perspective alongside our written review.",
+      "kind": "text",
+      "context": "Video and opinions belong to Williams Food Equipment. Coffeedant curates this perspective alongside our written review."
+    },
+    {
+      "id": "9721566fdffae316cd65c953a1dc70817624b66c22cc054b34266d175df581ef",
+      "source": "JURA E6 Dark Inox NAC: JURA E6 Unboxing and Setup | Automatic Coffee Machine · Williams Food Equipment (2026-06-04) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "2ae31e4569a2ffaf78d5d9288cdc6f41ef6d9929298de1b63255575032e724ef",
+      "source": "Watch Williams Food Equipment on JURA E6 Dark Inox NAC (2026-06-04): JURA E6 Unboxing and Setup | Automatic Coffee Machine. Williams Food Equipment presents JURA E6 Dark Inox NAC, covering grinding, espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "6d450b5b01ad8f0ca55812023d4a18537c3178939312e8f5b8ee93892368ecac",
+      "source": "JURA E6 Dark Inox NAC video by Williams Food Equipment",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "638188065ad8335d04fd9da699f77bf69c41e5e92dc8bd62085597d170c7ee78",
+      "source": "JURA E6 Unboxing and Setup | Automatic Coffee Machine",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "e82338de8a6d2a4aba964070242954bfffb2437b07bc64c62661d65782afac1d",
+      "source": "Williams Food Equipment presents JURA E6 Dark Inox NAC, covering grinding, espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "98bf5081b4f7b5ee9d06cabc540d8dfa373fe185c29d730ed8002cdb68d7052a",
+      "source": "Williams Food Equipment",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "423831c0adc70ca557653a2ef867395597d74400f4e62f3000f4b6ab0f8527de",
+      "source": "Video by Williams Food Equipment",
+      "kind": "json",
+      "context": "name"
+    }
+  ],
+  "snapshotHash": "04f5f962758e138fb80489d4a97e02e81a854081f87dba1fef672e9ec6a1ae9b"
+}

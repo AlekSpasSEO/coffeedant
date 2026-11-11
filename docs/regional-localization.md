@@ -5051,6 +5051,22 @@ translated and 42,509 pending, DE 17,489 translated and 42,393 pending, and FR
 17,353 translated and 42,529 pending. All 154 Finder records are complete.
 Each edition has 164 non-video and 294 video pages left.
 
+### Direct batch 123 — Jura E6 video pages (2026-11-11)
+
+Translate the complete Ellie and Williams Food Equipment video pages into
+Dutch, German and French. Preserve the JURA E6 Dark Inox NAC model name,
+video destinations, dates and attribution. Register the Williams Food
+Equipment video in Dutch and both videos in French using the existing
+Jura E6 video paths. The videos link to the published written review in
+their own edition.
+
+Nineteen translated strings and two unchanged creator names cover 35 missing
+slots per edition. The source has 689 pages and 59,882 segments. Each edition
+can render 232 indexable pages and a localized 404. Coverage is NL 17,408
+translated and 42,474 pending, DE 17,524 translated and 42,358 pending, and FR
+17,388 translated and 42,494 pending. All 154 Finder records are complete.
+Each edition has 164 non-video and 292 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
