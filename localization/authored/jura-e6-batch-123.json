@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "jura-e6-batch-123.source.json",
+  "snapshotHash": "04f5f962758e138fb80489d4a97e02e81a854081f87dba1fef672e9ec6a1ae9b",
+  "preserveSource": [
+    7,
+    24
+  ],
+  "routes": {
+    "nl": {
+      "/espresso-machine/jura-e6/video/williams-food-equipment/": "/jura-e6/video/williams-food-equipment/"
+    },
+    "fr": {
+      "/espresso-machine/jura-e6/video/ellie/": "/machines-expresso/jura-e6/video/ellie/",
+      "/espresso-machine/jura-e6/video/williams-food-equipment/": "/machines-expresso/jura-e6/video/williams-food-equipment/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "JURA E6 Dark Inox NAC: Review van de Jura E6-koffiemachine – is hij het kopen waard? · Ellie (2025-04-10) | Coffeedant",
+      "de": "JURA E6 Dark Inox NAC: Kaffeemaschine Jura E6 im Test – lohnt sich der Kauf? · Ellie (2025-04-10) | Coffeedant",
+      "fr": "JURA E6 Dark Inox NAC : Essai de la machine à café Jura E6 – faut-il l’acheter ? · Ellie (2025-04-10) | Coffeedant"
+    },
+    "1": {
+      "nl": "Bekijk de video van Ellie over de JURA E6 Dark Inox NAC (2025-04-10): Review van de Jura E6-koffiemachine – is hij het kopen waard? Ellie presenteert de JURA E6 Dark Inox NAC en bespreekt de smaak en de koffiebereiding. De demonstraties en meningen zijn van Ellie zelf.",
+      "de": "Video von Ellie zur JURA E6 Dark Inox NAC ansehen (2025-04-10): Kaffeemaschine Jura E6 im Test – lohnt sich der Kauf? Ellie stellt die JURA E6 Dark Inox NAC vor und geht auf den Geschmack und die Kaffeezubereitung ein. Die Vorführungen und Einschätzungen stammen von Ellie selbst.",
+      "fr": "Regardez la vidéo d’Ellie sur la JURA E6 Dark Inox NAC (2025-04-10) : Essai de la machine à café Jura E6 – faut-il l’acheter ? Ellie présente la JURA E6 Dark Inox NAC et aborde le goût et la préparation du café. Les démonstrations et les avis sont ceux d’Ellie."
+    },
+    "3": {
+      "nl": "Video over de JURA E6 Dark Inox NAC door Ellie",
+      "de": "Video zur JURA E6 Dark Inox NAC von Ellie",
+      "fr": "Vidéo d’Ellie sur la JURA E6 Dark Inox NAC"
+    },
+    "4": {
+      "nl": "Ellie test de Jura E6-koffiemachine – is hij het kopen waard?",
+      "de": "Ellie testet die Kaffeemaschine Jura E6 – lohnt sich der Kauf?",
+      "fr": "Ellie essaie la machine à café Jura E6 – faut-il l’acheter ?"
+    },
+    "5": {
+      "nl": "JURA E6 Dark Inox NAC · Perspectief van een externe maker",
+      "de": "JURA E6 Dark Inox NAC · Perspektive eines externen Kanals",
+      "fr": "JURA E6 Dark Inox NAC · Point de vue d’un créateur tiers"
+    },
+    "6": {
+      "nl": "Review van de Jura E6-koffiemachine – is hij het kopen waard?",
+      "de": "Kaffeemaschine Jura E6 im Test – lohnt sich der Kauf?",
+      "fr": "Essai de la machine à café Jura E6 – faut-il l’acheter ?"
+    },
+    "8": {
+      "nl": "11 april 2025",
+      "de": "11. April 2025",
+      "fr": "11 avril 2025"
+    },
+    "9": {
+      "nl": "Ellie presenteert de JURA E6 Dark Inox NAC en bespreekt de smaak en de koffiebereiding. De demonstraties en meningen zijn van Ellie zelf.",
+      "de": "Ellie stellt die JURA E6 Dark Inox NAC vor und geht auf den Geschmack und die Kaffeezubereitung ein. Die Vorführungen und Einschätzungen stammen von Ellie selbst.",
+      "fr": "Ellie présente la JURA E6 Dark Inox NAC et aborde le goût et la préparation du café. Les démonstrations et les avis sont ceux d’Ellie."
+    },
+    "10": {
+      "nl": "De video en meningen zijn van Ellie. Coffeedant plaatst dit perspectief naast onze geschreven review.",
+      "de": "Das Video und die Einschätzungen stammen von Ellie. Coffeedant ordnet diese Perspektive neben unserem schriftlichen Testbericht ein.",
+      "fr": "La vidéo et les avis sont ceux d’Ellie. Coffeedant présente ce point de vue aux côtés de notre essai écrit."
+    },
+    "17": {
+      "nl": "Video door Ellie",
+      "de": "Video von Ellie",
+      "fr": "Vidéo d’Ellie"
+    },
+    "18": {
+      "nl": "JURA E6 Dark Inox NAC: De JURA E6 uitpakken en instellen | Automatische koffiemachine · Williams Food Equipment (2026-06-04) | Coffeedant",
+      "de": "JURA E6 Dark Inox NAC: JURA E6 auspacken und einrichten | Kaffeevollautomat · Williams Food Equipment (2026-06-04) | Coffeedant",
+      "fr": "JURA E6 Dark Inox NAC : Déballage et mise en service de la JURA E6 | Machine à café automatique · Williams Food Equipment (2026-06-04) | Coffeedant"
+    },
+    "19": {
+      "nl": "Bekijk de video van Williams Food Equipment over de JURA E6 Dark Inox NAC (2026-06-04): De JURA E6 uitpakken en instellen | Automatische koffiemachine. Williams Food Equipment stelt de JURA E6 Dark Inox NAC voor en bespreekt het malen van koffie, de bereiding van espresso en melkdranken. De demonstraties en meningen zijn van de maker zelf.",
+      "de": "Video von Williams Food Equipment zur JURA E6 Dark Inox NAC ansehen (2026-06-04): JURA E6 auspacken und einrichten | Kaffeevollautomat. Williams Food Equipment stellt die JURA E6 Dark Inox NAC vor und geht auf das Mahlen, die Espressozubereitung und Milchgetränke ein. Die Vorführungen und Einschätzungen stammen vom Videomacher selbst.",
+      "fr": "Regardez la vidéo de Williams Food Equipment sur la JURA E6 Dark Inox NAC (2026-06-04) : Déballage et mise en service de la JURA E6 | Machine à café automatique. Williams Food Equipment présente la JURA E6 Dark Inox NAC et aborde la mouture, la préparation de l’expresso et les boissons lactées. Les démonstrations et les avis sont ceux du vidéaste."
+    },
+    "21": {
+      "nl": "Video over de JURA E6 Dark Inox NAC door Williams Food Equipment",
+      "de": "Video zur JURA E6 Dark Inox NAC von Williams Food Equipment",
+      "fr": "Vidéo de Williams Food Equipment sur la JURA E6 Dark Inox NAC"
+    },
+    "22": {
+      "nl": "De JURA E6 uitpakken en instellen | Automatische koffiemachine, door Williams Food Equipment",
+      "de": "JURA E6 auspacken und einrichten | Kaffeevollautomat, von Williams Food Equipment",
+      "fr": "Déballage et mise en service de la JURA E6 | Machine à café automatique, par Williams Food Equipment"
+    },
+    "23": {
+      "nl": "De JURA E6 uitpakken en instellen | Automatische koffiemachine",
+      "de": "JURA E6 auspacken und einrichten | Kaffeevollautomat",
+      "fr": "Déballage et mise en service de la JURA E6 | Machine à café automatique"
+    },
+    "25": {
+      "nl": "4 juni 2026",
+      "de": "4. Juni 2026",
+      "fr": "4 juin 2026"
+    },
+    "26": {
+      "nl": "Williams Food Equipment stelt de JURA E6 Dark Inox NAC voor en bespreekt het malen van koffie, de bereiding van espresso en melkdranken. De demonstraties en meningen zijn van de maker zelf.",
+      "de": "Williams Food Equipment stellt die JURA E6 Dark Inox NAC vor und geht auf das Mahlen, die Espressozubereitung und Milchgetränke ein. Die Vorführungen und Einschätzungen stammen vom Videomacher selbst.",
+      "fr": "Williams Food Equipment présente la JURA E6 Dark Inox NAC et aborde la mouture, la préparation de l’expresso et les boissons lactées. Les démonstrations et les avis sont ceux du vidéaste."
+    },
+    "27": {
+      "nl": "De video en meningen zijn van Williams Food Equipment. Coffeedant plaatst dit perspectief naast onze geschreven review.",
+      "de": "Das Video und die Einschätzungen stammen von Williams Food Equipment. Coffeedant ordnet diese Perspektive neben unserem schriftlichen Testbericht ein.",
+      "fr": "La vidéo et les avis sont ceux de Williams Food Equipment. Coffeedant présente ce point de vue aux côtés de notre essai écrit."
+    },
+    "34": {
+      "nl": "Video door Williams Food Equipment",
+      "de": "Video von Williams Food Equipment",
+      "fr": "Vidéo de Williams Food Equipment"
+    }
+  }
+}
