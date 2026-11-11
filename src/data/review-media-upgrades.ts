@@ -209,6 +209,26 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       },
     ],
   ),
+  '/espresso-machine/ninja-luxe-cafe-pro-es701/': officialProductMedia(
+    'SharkNinja US stainless ES701 product page',
+    'https://www.sharkninja.com/ninja-luxe-cafe-pro-4-in-1-espresso-coffee-cold-brew-hot-water/ES701.html',
+    [
+      {
+        src: 'https://assets.sharkninja.com/image/upload/c_fill,w_690,h_690,f_auto,g_auto,q_auto:good,dpr_2.0,b_rgb:FFFFFF/v1/storefront/products/ES701/ES701_Gallery_InUse_05',
+        alt: 'SharkNinja official gallery view of the Ninja Luxe Café Pro ES701 in use',
+        caption: 'The manufacturer image shows the lever and working area. It does not document Coffeedant setup, extraction or the contents of a delivered US box.',
+        width: 1380,
+        height: 1380,
+      },
+      {
+        src: 'https://assets.sharkninja.com/image/upload/c_fill,w_690,h_690,f_auto,g_auto,q_auto:good,dpr_2.0,b_rgb:FFFFFF/v1/storefront/products/ES701/ES701_Gallery_Dimensions_10',
+        alt: 'SharkNinja official ES701 gallery dimension illustration',
+        caption: 'Factory dimension graphic for initial counter planning. Check seller measurements and leave clearance for the tank, hopper, dial and portafilter.',
+        width: 1380,
+        height: 1380,
+      },
+    ],
+  ),
   '/grinder/baratza-encore-esp-pro/': officialProductMedia(
     'Baratza US Encore ESP Pro product page',
     'https://www.baratza.com/en-us/product/encore-esp-pro-zcg595',
