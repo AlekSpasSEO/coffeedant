@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/ascaso-steel-uno/video/idrinkcoffeecanada/",
+      "sourceHash": "f79b6da5260de442793de56de89f8c1605a5e14b579a04c6262d7c36f399cd81"
+    },
+    {
+      "sourcePath": "/espresso-machine/ascaso-steel-uno/video/the-real-sprometheus/",
+      "sourceHash": "f7c6d2c4c979887066608e179bf00439aad09700dc09d3f653c38afdb2467392"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "c749b8be74763582fd8206101c61a50bc08235e5dba002d20a536c5b5fde6d25",
+      "source": "The Real Sprometheus",
+      "kind": "text",
+      "context": "The Real Sprometheus"
+    },
+    {
+      "id": "283926aba677aefe295413d0a062d9a422b547fa7337e4dfdc3d71d8c8e5b0ca",
+      "source": "Video and opinions belong to The Real Sprometheus. Coffeedant curates this perspective alongside our written review.",
+      "kind": "text",
+      "context": "Video and opinions belong to The Real Sprometheus. Coffeedant curates this perspective alongside our written review."
+    },
+    {
+      "id": "cae207983d42618dd9c6410d3835d7788694b59d18e4f2bd8780945c888216cd",
+      "source": "The Real Sprometheus",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "f4a2d961b3e3cc712259cd53aaa5fc5053ce3143ce9df38251adcd661995c276",
+      "source": "Video by The Real Sprometheus",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "6094bbba06311c1c8b4e46345874d9803e4c1a39586ae8c36feeaea72cdd96b4",
+      "source": "Ascaso UNO | Thermoblock Or Thermo-NOT?",
+      "kind": "text",
+      "context": "Ascaso UNO | Thermoblock Or Thermo-NOT?"
+    },
+    {
+      "id": "9ee508a09a76d8332ada01c39eb0cb6c8f905a5134f94d9cca5dbab6789c2379",
+      "source": "September 1, 2023",
+      "kind": "text",
+      "context": "September 1, 2023"
+    },
+    {
+      "id": "e424ed1b16005434d0170267ddeab2cf20afd04caa62b3d6a86080cc4cc9f2fe",
+      "source": "Independent review of an older regional Steel Uno PID sample. Use it for demonstrated workflow and reviewer observations, while confirming current US specifications and avoiding generation-wide conclusions.",
+      "kind": "text",
+      "context": "Independent review of an older regional Steel Uno PID sample. Use it for demonstrated workflow and reviewer observations, while confirming current US specifications and avoiding generation-wide conclusions."
+    },
+    {
+      "id": "2165db28db2d6f32b2b8ed082d1d5490065630d3380ada284bf7c4475586ee1c",
+      "source": "Ascaso UNO | Thermoblock Or Thermo-NOT?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "a5a3518066132b9e65967eac505baecfd3db34768f596cbf58f91865e812bcf4",
+      "source": "Independent review of an older regional Steel Uno PID sample. Use it for demonstrated workflow and reviewer observations, while confirming current US specifications and avoiding generation-wide conclusions.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "f26aaa71f4fcb590779f749c648968eca306bb619923ed8f0108cc62174eb3ec",
+      "source": "Ascaso Steel Uno PID: Ascaso Uno Espresso Machine · iDrinkCoffeeCanada (2022-10-14) | Coffeedant",
+      "kind": "text",
+      "context": "Ascaso Steel Uno PID: Ascaso Uno Espresso Machine · iDrinkCoffeeCanada (2022-10-14) | Coffeedant"
+    },
+    {
+      "id": "4971fa52e013705917b1de70de251a7f62dc500a4886fc0d2a6ea2341a37774b",
+      "source": "Watch iDrinkCoffeeCanada on Ascaso Steel Uno PID (2022-10-14): Ascaso Uno Espresso Machine. iDrinkCoffeeCanada presents Ascaso Steel Uno PID, covering espresso preparation. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "4d81f0ea6ecaa34a5caf41cb8b2231d3e4e7bb326cacd3420196bc3797930d0a",
+      "source": "Ascaso Steel Uno PID: Ascaso Uno Espresso Machine · iDrinkCoffeeCanada (2022-10-14) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "5d8d60008701f49d1811015a92ebbd1d459c6b22303bd4e341134a95f0e7d106",
+      "source": "Ascaso Steel Uno PID video by iDrinkCoffeeCanada",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "1af621775c6fe5e1c1483248514bfea07ddd4452075d0c3fab86c6eb02a83cdf",
+      "source": "Ascaso Uno Espresso Machine by iDrinkCoffeeCanada",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "71d849c64c21d232c228e684ee9c0a43a464aaad38a623c631cfdc68284cddd4",
+      "source": "Ascaso Uno Espresso Machine",
+      "kind": "text",
+      "context": "Ascaso Uno Espresso Machine"
+    },
+    {
+      "id": "b1e0654b20b6de524bf9fd5d3dddb1f4b76d49eafc9d9c220d1422349c6e6e84",
+      "source": "iDrinkCoffeeCanada",
+      "kind": "text",
+      "context": "iDrinkCoffeeCanada"
+    },
+    {
+      "id": "15ec1dc29e481720026e3b0187989f115e2735f3fb5e1a754b08d78b46ba39a0",
+      "source": "October 14, 2022",
+      "kind": "text",
+      "context": "October 14, 2022"
+    },
+    {
+      "id": "d47b387bd18612ba55454aaf9852a60bd4c5197b3c9584a536b5201c972dd53c",
+      "source": "iDrinkCoffeeCanada presents Ascaso Steel Uno PID, covering espresso preparation. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "text",
+      "context": "iDrinkCoffeeCanada presents Ascaso Steel Uno PID, covering espresso preparation. This is an equipment seller’s perspective; consider it alongside the other sources and our written review."
+    },
+    {
+      "id": "b2ff90eeacf492c499a77976448169bf305f54f24e11a589b9b135ee1d1830a7",
+      "source": "Video and opinions belong to iDrinkCoffeeCanada. Coffeedant curates this perspective alongside our written review.",
+      "kind": "text",
+      "context": "Video and opinions belong to iDrinkCoffeeCanada. Coffeedant curates this perspective alongside our written review."
+    },
+    {
+      "id": "f7923a1bf42f1103de74d435991014f7162b02e3c8ed5fda8776357cc3eff030",
+      "source": "Ascaso Steel Uno PID: Ascaso Uno Espresso Machine · iDrinkCoffeeCanada (2022-10-14) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "8cfd8a949ef63a09527df5d953529e8bec40528595211539d6e26b6e176cd894",
+      "source": "Watch iDrinkCoffeeCanada on Ascaso Steel Uno PID (2022-10-14): Ascaso Uno Espresso Machine. iDrinkCoffeeCanada presents Ascaso Steel Uno PID, covering espresso preparation. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "dad37eeffb7b86121ca6814835a307608bc8b88de6352ecf7b3b4607de515814",
+      "source": "Ascaso Steel Uno PID video by iDrinkCoffeeCanada",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "7cd282fdeb5b7f17a97f02a86ad9e7476c17d4acbc3902041c0a8527d7a69062",
+      "source": "Ascaso Uno Espresso Machine",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "a3b1dd3a3cd11846ee726edb82e5b8c9e792de49d9cb761aa0f8f33053243639",
+      "source": "iDrinkCoffeeCanada presents Ascaso Steel Uno PID, covering espresso preparation. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "3a3161edbddf7d279c79daf106e6331cf95eb3f4b90b9bac36f0d3fd20d530ca",
+      "source": "iDrinkCoffeeCanada",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "269f0b01ed6158dca406b098df84e4e4c77ccfcf7b97ce8fb48e93bd2abbf07c",
+      "source": "Video by iDrinkCoffeeCanada",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "a41f3f032ffeca0b5aa131f2db3106d70b9346aa1f39fe1b6f593f5b1bc44619",
+      "source": "Ascaso Steel Uno PID: Ascaso UNO | Thermoblock Or Thermo-NOT? · The Real Sprometheus (2023-09-01) | Coffeedant",
+      "kind": "text",
+      "context": "Ascaso Steel Uno PID: Ascaso UNO | Thermoblock Or Thermo-NOT? · The Real Sprometheus (2023-09-01) | Coffeedant"
+    },
+    {
+      "id": "dbe896ba25ea7a3d1034b9efb68ea7834c1df1c10b7e9e9b3a57350454aa5d31",
+      "source": "Watch The Real Sprometheus on Ascaso Steel Uno PID (2023-09-01): Ascaso UNO | Thermoblock Or Thermo-NOT?. Independent review of an older regional Steel Uno PID sample. Use it for demonstrated workflow and reviewer observations, while confirming current US specifications and avoiding generation-wide conclusions.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "850fc3c1f5ab2830d78b5d25deebd1535c6b57d2f4de6e097e90c089819505cf",
+      "source": "Ascaso Steel Uno PID: Ascaso UNO | Thermoblock Or Thermo-NOT? · The Real Sprometheus (2023-09-01) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "e2751813c031583073a6eda0d0b62724e583b65b9e4773436cd6a72d728a2b14",
+      "source": "Ascaso Steel Uno PID video by The Real Sprometheus",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "c4ae8a61583ed0efa9fe81b2621bba86f51ef0612cc030054f53afc367983c02",
+      "source": "Ascaso UNO | Thermoblock Or Thermo-NOT? by The Real Sprometheus",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "b3a32574f2688ac12c700ce421db8b58d8a7d87c513342e6631a3d4fd74da530",
+      "source": "Ascaso Steel Uno PID · Third-party perspective",
+      "kind": "text",
+      "context": "Ascaso Steel Uno PID · Third-party perspective"
+    },
+    {
+      "id": "168dcedecc8ad94810b8272b30079230337e9247266cb49b27d8c142986f249e",
+      "source": "Ascaso Steel Uno PID: Ascaso UNO | Thermoblock Or Thermo-NOT? · The Real Sprometheus (2023-09-01) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "29db9aa479dea46891a4ef4e85910fa66d7a137441c890c9dc938776f1693488",
+      "source": "Watch The Real Sprometheus on Ascaso Steel Uno PID (2023-09-01): Ascaso UNO | Thermoblock Or Thermo-NOT?. Independent review of an older regional Steel Uno PID sample. Use it for demonstrated workflow and reviewer observations, while confirming current US specifications and avoiding generation-wide conclusions.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "ba7e9f1ed805564245bf1031a99463af972dd7b43fa9f104116162adb34d0a81",
+      "source": "Ascaso Steel Uno PID video by The Real Sprometheus",
+      "kind": "json",
+      "context": "caption"
+    }
+  ],
+  "snapshotHash": "c5b6a3002453ef4f78f9753dc561c2ba487af1033a256828a8ecc61bf3692afd"
+}
