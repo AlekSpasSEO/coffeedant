@@ -10,7 +10,7 @@ import {
 type Source = MachineReviewData['article']['sources'][number];
 type Section = MachineReviewData['article']['sections'][number];
 
-const UPDATED = '2026-09-17';
+const UPDATED = '2026-11-11';
 const disclosure = 'This is a research-led assessment assembled from current manufacturer documentation, dated retailer records, independent demonstrations, technical reviews and owner discussions. Coffeedant has not physically tested this machine. Scores are editorial judgments about the documented ownership proposition, not laboratory measurements.';
 const refs = (ids: string[]) => ids.map((id) => `<a href="#${id}">[source]</a>`).join(' ');
 const dimension = (
@@ -29,7 +29,8 @@ const staticFaqHtml = (items: Array<{ question: string; answer: string }>) => `
   </div>`;
 
 const bz09Sources: Source[] = [
-  { id: 'bz09-official', label: 'Bezzera: BZ09 official product page', href: 'https://www.bezzera.it/en/machines/bz09', note: 'Primary record for the current BZ09 identity, electrically heated BZ group, thermostat arrangement, 0.5 L boiler, 3 L tank, regional power ranges, dimensions and weight. Checked September 17, 2026.' },
+  { id: 'bz09-official', label: 'Bezzera: BZ09 official product page', href: 'https://www.bezzera.it/en/machines/bz09', note: 'Primary record for the current BZ09 identity, electrically heated BZ group, thermostat arrangement, 0.5 L boiler, 3 L tank, regional power ranges, dimensions and weight. The broad page labels dosage automatic; the PM manual resolves its actual switch operation. Rechecked November 11, 2026.' },
+  { id: 'bz09-manual', label: 'Bezzera: BZ09 S/PM instruction manual', href: 'https://ginex-espressomaschinen.de/media/f0/c6/12/1651302968/BZ09%20S%20PM%20Bedienungsanleitung.pdf', note: 'Manufacturer instruction manual hosted by a dealer. Section 5.3 says to press the coffee switch for delivery and press it again when the desired quantity is reached. Checked November 11, 2026.' },
   { id: 'bz09-brochure', label: 'Bezzera: BZ09 PM product brochure', href: 'https://www.bezzera.it/uploads/prod_images/BZ09/BZ09PM-Depliant.pdf', note: 'Manufacturer brochure used to cross-check architecture and controls. Exact supplied accessories and electrical configuration remain region-specific.' },
   { id: 'bz09-parts', label: 'Bezzera: official spare-parts portal', href: 'https://spareparts.bezzera.it/', note: 'Manufacturer route for manuals, exploded references and parts lookup. Availability, eligibility and local labor were not inferred from the existence of the portal.' },
   { id: 'bz09-coffeefriend', label: 'Coffee Friend Europe: Bezzera BZ09 PM listing', href: 'https://www.coffeefriend.eu/p/coffee-machine-bezzera-bz09-pm/', note: 'Dated European offer and regional specification cross-check: 220 to 240 V, 1650 W listing, 58 mm basket, 0.5 L boiler, 3 L tank and 17 kg. Price was EUR 999 and in stock when checked.' },
@@ -94,6 +95,7 @@ const bz09Sections: Section[] = [
     id: 'features', eyebrow: 'Rating deep dive', title: 'The feature set is intentionally mechanical and now looks sparse', html: `
       <p>The useful features are real: a separately heated BZ group, 58 mm format, manual shot control, three-liter removable tank, pressure gauge, steam and hot water, cup-warming surface and an adjustable internal coffee thermostat. Safety and automatic boiler-fill functions depend on the exact regional implementation and should be confirmed against its manual. There is no integrated grinder, display, shot timer, front-panel PID or volumetric dosing in the PM-style workflow reviewed here.</p>
       <p>The internal thermostat deserves careful wording. It means a technician or informed owner can alter a setting inside the machine. It is not equivalent to pressing a button for 93 degrees and seeing a sensor value on a display. Changing it frequently also undermines the repeatable routine that makes a thermostat machine manageable. Buyers who treat temperature as a recipe variable should pay for a better interface at the start.</p>
+      <p>Bezzera's general BZ09 page carries an “automatic dosage” category label, but the BZ09 S/PM instruction manual describes a manual coffee switch: press once to start delivery and again at the desired quantity to stop. For the PM machine reviewed here, plan to watch the cup or scale and stop each shot yourself; do not buy it expecting programmed volumetric buttons. Confirm the controls on any differently labelled or older unit before ordering. ${refs(['bz09-official','bz09-manual'])}</p>
       <p>What is absent can be beneficial. There is no app account, touchscreen or software lifecycle, and direct controls are legible. Yet simplicity should not be romanticized. A cheap external timer replaces the shot clock; it does not replace visible temperature control. The feature score reflects both the sensible core and the strong factory-PID competition. ${refs(['bz09-official','bz09-casabarista','bz09-go','bz09-victoria'])}</p>`,
   },
   {
@@ -132,6 +134,7 @@ const bz09Sections: Section[] = [
   {
     id: 'faq', eyebrow: 'Before ordering', title: 'Bezzera BZ09 questions answered', html: staticFaqHtml([
       { question: 'Does the Bezzera BZ09 have a PID?', answer: 'No digital PID is listed. Bezzera documents an internal thermostat adjustment for coffee temperature and a separate thermostat around the cartridge-heated group.' },
+      { question: 'Does the BZ09 PM stop a shot automatically?', answer: 'The BZ09 S/PM manual says to press the coffee switch to start and press it again at the desired quantity. The broad product-page dosage label should not be read as programmable volumetric stopping for this PM version.' },
       { question: 'Can the BZ09 brew and steam at the same time?', answer: 'No. Its 0.5 L boiler changes duty between brewing and steaming, so milk drinks are made sequentially.' },
       { question: 'Is the group 58 mm?', answer: 'Current manufacturer and retailer material identify a 58 mm preparation format. Confirm accessory fit for the Bezzera BZ group rather than relying on diameter alone.' },
       { question: 'How long does it take to warm up?', answer: 'No universal time is promised here. Voltage, room temperature, portafilter heat and the required repeatability all matter. Use a conservative routine and shorten it only after observation.' },
@@ -147,7 +150,7 @@ export const bezzeraBz09Review = buildResearchReview({
   slug: '/espresso-machine/bezzera-bz09/', productId: 'CD-EM-000022', brand: 'Bezzera', model: 'BZ09', sku: 'BZ09 PM',
   category: 'Semi-automatic espresso machine, single boiler', brandPath: '/bezzera/',
   title: 'Bezzera BZ09 review: heated group, manual discipline',
-  description: 'A research-led Bezzera BZ09 review covering its heated 58 mm group, 0.5 L single boiler, espresso and milk workflow, current EU price, service questions and closest PID alternatives.',
+  description: 'A research-led Bezzera BZ09 PM review covering its heated 58 mm group, manual shot stop, single-boiler milk workflow, dated EU price context and PID alternatives.',
   verdictLabel: 'For the espresso-first traditionalist',
   verdict: 'The BZ09 is a solid narrow single boiler whose cartridge-heated BZ group gives it more identity than its sparse control panel suggests. Buy it when local Bezzera support is strong and manual temperature routine is part of the appeal. At the EUR 999 offer checked September 17, 2026, compare a factory-PID Profitec GO or LELIT Victoria before accepting an internal thermostat as the temperature interface.',
   assessment: 'Distinctive traditional hardware, held back by hidden temperature control and serial milk work.',
