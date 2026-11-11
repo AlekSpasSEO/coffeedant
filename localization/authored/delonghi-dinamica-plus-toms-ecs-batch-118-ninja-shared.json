@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "delonghi-dinamica-plus-toms-ecs-batch-118-ninja-shared.source.json",
+  "snapshotHash": "999225adc22c9a4b75dfae166829952fb3be2d283a418e015d247fe5fe833f21",
+  "preserveSource": [
+    1
+  ],
+  "translations": {
+    "0": {
+      "nl": "Begeleide halfautomatische espressobereiding, filterkoffie en snelle cold brew, met een aparte heetwaterfunctie en geïntegreerde molen",
+      "de": "Geführte halbautomatische Espressozubereitung, Filterkaffee und schneller Cold Brew mit separatem Heißwassersystem und integriertem Mahlwerk",
+      "fr": "Préparation guidée de l’expresso en mode semi-automatique, café filtre, cold brew rapide et système d’eau chaude indépendant avec broyeur intégré"
+    }
+  }
+}

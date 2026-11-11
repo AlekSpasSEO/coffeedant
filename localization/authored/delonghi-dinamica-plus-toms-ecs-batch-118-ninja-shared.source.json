@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/",
+      "sourceHash": "53913c240f7512928d08b862f1120dd663f8e40df525a004311fbc38579fd160"
+    },
+    {
+      "sourcePath": "/404/",
+      "sourceHash": "8ca4dfa27fe50e8093932e64b278a1533fa43c2868e456c65f4c233ec20a8011"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "1e6328eb0b8a01c9130cb1090ca430b92050652bc137879b299984d5ce40be86",
+      "source": "Guided semi-automatic espresso, drip, rapid cold brew and independent hot-water system with integrated grinder",
+      "kind": "text",
+      "context": "Guided semi-automatic espresso, drip, rapid cold brew and independent hot-water system with integrated grinder"
+    },
+    {
+      "id": "fa016ba536db2ceec172cd253f6d788c3b7d071cbdf868f659c7390421787af4",
+      "source": "Luxe Café Pro ES701",
+      "kind": "text",
+      "context": "Luxe Café Pro ES701"
+    }
+  ],
+  "snapshotHash": "999225adc22c9a4b75dfae166829952fb3be2d283a418e015d247fe5fe833f21"
+}
