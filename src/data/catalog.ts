@@ -176,6 +176,7 @@ export const decisionGuides = [
   { path: '/espresso-machine/small/', label: 'Small spaces', title: 'Compact machines', note: 'Real espresso capability for tight counters.', tone: 'paper' },
   { path: '/espresso-machine/best-manual-espresso-makers-no-plug/', label: 'Manual, no plug', title: 'No-plug manual espresso', note: 'Compare lever and stovetop routines when the brewer has no outlet.', tone: 'paper' },
   { path: '/espresso-machine/best-espresso-machines-for-back-to-back-milk-drinks/', label: 'Milk-drink routine', title: 'Back-to-back milk drinks', note: 'Compare dual boilers for manual and assisted household service.', tone: 'paper' },
+  { path: '/espresso-machine/best-espresso-machines-for-espresso-drip-cold-coffee/', label: 'Three drink formats', title: 'Espresso, drip and cold coffee', note: 'Compare exact US machines by drink modes and Pro extras.', tone: 'paper' },
 ];
 
 export const machinePagesForBrand = (brand: Brand, pages: any[]) => [...new Map(pages
