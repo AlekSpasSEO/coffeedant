@@ -83,6 +83,7 @@ import { upgradeTimemoreSculptorReviews } from './reviews/upgrade-timemore-sculp
 import { weekdayBaratzaEspProReviews } from './reviews/weekday-baratza-encore-esp-pro';
 import { weekdayBaratzaVarioWPlusReviews } from './reviews/weekday-baratza-vario-w-plus';
 import { weekdayNinjaEs601Reviews } from './reviews/weekday-ninja-luxe-cafe-premier-es601';
+import { weekdayNinjaEs301Reviews } from './reviews/weekday-ninja-luxe-cafe-mini-es301';
 import { weekdayNinjaEs701Reviews } from './reviews/weekday-ninja-luxe-cafe-pro-es701';
 import { weekdayFellowSeries1Reviews } from './reviews/weekday-fellow-espresso-series-1';
 import { weekdayFellowOpus2Reviews } from './reviews/weekday-fellow-opus-2';
@@ -217,6 +218,7 @@ const candidates: MachineReviewData[] = [
   ...weekdayBaratzaEspProReviews,
   ...weekdayBaratzaVarioWPlusReviews,
   ...weekdayNinjaEs601Reviews,
+  ...weekdayNinjaEs301Reviews,
   ...weekdayNinjaEs701Reviews,
   ...weekdayFellowSeries1Reviews,
   ...weekdayFellowOpus2Reviews,
