@@ -5158,6 +5158,20 @@ Coverage is NL 17,783 translated and 43,218 pending, DE 17,804 translated and
 43,197 pending, and FR 17,643 translated and 43,358 pending. Finder translation
 coverage is complete. NL has 457 pages left and DE and FR have 458 each.
 
+### Direct batch 129 — Breville Barista Touch Impress BES881 video companions (2026-11-12)
+
+Complete the Lance Hedrick and Tom's Coffee Corner video companions in Dutch,
+German and French. Preserve the original embeds, timestamps, visible dates
+and attribution. The companion links open the unfinished written review on
+its English canonical URL with the regional edition notice. Preserve the
+registered Dutch and German URLs and follow the existing French companion path.
+
+The source has 699 pages and 61,001 segments. NL can render 243 indexable
+pages and DE and FR can render 242 each, plus a localized 404 for each edition.
+Coverage is NL 17,809 translated and 43,192 pending, DE 17,830 translated and
+43,171 pending, and FR 17,669 translated and 43,332 pending. Finder translation
+coverage is complete. NL has 455 pages left and DE and FR have 456 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
