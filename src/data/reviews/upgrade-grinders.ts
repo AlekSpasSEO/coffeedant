@@ -219,7 +219,7 @@ export const oneZpressoKUltraReview = buildResearchReview({
 });
 
 const encoreSources: Source[] = [
-  { id: 'encore-official', label: 'Baratza: Encore ESP product page', href: 'https://www.baratza.com/en-us/product/encoretm-esp-zcg495', note: 'Current US price, model identity, dimensions, 40 mm M2 conical burr, adjustment design, accessories, controls and product imagery; checked September 17, 2026.' },
+  { id: 'encore-official', label: 'Baratza: Encore ESP product page', href: 'https://www.baratza.com/en-us/product/encoretm-esp-zcg495', note: 'Current US price, model identity, dimensions, 40 mm M2 conical burr, adjustment design, accessories, controls and product imagery; rechecked November 12, 2026. The single-dose hopper is shown as an optional accessory.' },
   { id: 'encore-manual', label: 'Baratza: Encore ESP instruction manual', href: 'https://assets.breville.com/ZCG495/manual-encoreesp-v1-0-en-010923.pdf', note: 'Primary operating, adjustment, cleaning, unclogging, shimming, safety and one-year US/Canada warranty instructions.' },
   { id: 'encore-hub', label: 'Baratza: Encore ESP product support hub', href: 'https://www.baratza.com/en-us/producthub/zcg495', note: 'Current support entry point, parts, cleaning video, troubleshooting and product-specific documentation.' },
   { id: 'encore-cleaning', label: 'Baratza: How to clean and maintain the Encore ESP', href: 'https://www.youtube.com/watch?v=qwAkjJooSNs', note: 'Official five-minute cleaning demonstration linked from the current support hub.' },
@@ -282,6 +282,7 @@ const encoreSections: Section[] = [
       <p>The cup fits 54 mm portafilters and adapts to 58 mm. Static, clumps and retention still appear in reviews. A light tap and consistent routine help; aggressive banging or bellows can stress parts. ${refs(['encore-official','encore-coffeegeek','encore-reddit'])}</p>
       <p>Large setting changes may release old grounds. Weigh early output and purge between very different coffees; a full hopper makes switching harder.</p>
       <p>WIRED and J.D. Roastery call the noise noticeable. Coffeedant has not measured it, so hear one or compare a manual grinder if mornings must be quiet. ${refs(['encore-wired','encore-jd'])}</p>
+      <p>The supplied espresso dosing cup is not a single-dose hopper. Baratza lists a separate single-dose hopper as an optional accessory; budget for it only if switching coffees often makes the stock hopper inconvenient. The grinder still has no dose measurement or timed stop. ${refs(['encore-official'])}</p>
       <p>Choose hopper dosing only when one coffee stays loaded and speed matters more than exact input. Single dosing makes decaf and method changes easier, but asks for weighing, a short wait and occasional purge. Whichever route you choose, use the same finish routine: let the motor clear, tap lightly once, weigh output when repeatability matters and brush the chute area before residue becomes a deposit.</p>`,
   },
   {
@@ -368,10 +369,10 @@ export const baratzaEncoreEspReview = buildResearchReview({
   verdict: 'The Encore ESP remains a practical $199.95 first grinder because it combines powered throughput, useful espresso adjustment and real brewed-coffee range with unusually clear maintenance support. Its noise, stepped ceiling, clumping and manual dosing are the price of entry, not details to discover after purchase.',
   assessment: 'A well-supported electric all-rounder whose espresso range matters more than its basic shell.',
   image: 'https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/ZCG495/ZCG495WHT1AUC1A.png?pdp', imageAlt: 'White Baratza Encore ESP electric coffee grinder with hopper and dosing cup',
-  published: '2025-10-28', updated: UPDATED,
+  published: '2025-10-28', updated: '2026-11-12',
   authorNote: 'I evaluated the Encore ESP as an entry system component. I checked Baratza’s current US listing, manual, support and cleaning material, then compared independent testing, direct grinder comparisons and owner troubleshooting threads. I have not physically used this grinder.',
   basisDisclosure: `${disclosure} Filter brewing is scored as a distinct grinder-performance dimension.`,
-  price: { label: 'Baratza US direct price', msrp: '$199.95', typical: 'Black or white grinder with bin, dosing cup and 58 mm adapter', currency: 'USD', numeric: '199.95', checked: 'September 17, 2026' },
+  price: { label: 'Baratza US direct price', msrp: '$199.95', typical: 'Black or white grinder with bin, dosing cup and 58 mm adapter', currency: 'USD', numeric: '199.95', checked: 'November 12, 2026' },
   links: [
     { label: 'Check Amazon price', href: 'https://amzn.to/4sBLLBM', note: 'Affiliate link · confirm seller and warranty', affiliate: true, primary: true },
     { label: 'Check Baratza price', href: 'https://www.baratza.com/en-us/product/encoretm-esp-zcg495', note: 'Official US store' },
@@ -385,7 +386,7 @@ export const baratzaEncoreEspReview = buildResearchReview({
   ],
   quickAnswers: [
     { question: 'The one-line decision?', answer: 'Choose it for powered mixed-method grinding and easy support, not for silence or stepless precision.' },
-    { question: 'Current US price?', answer: '$199.95 direct from Baratza when checked September 17, 2026.' },
+    { question: 'Current US price?', answer: '$199.95 displayed by Baratza US when checked November 12, 2026; confirm availability and delivered total.' },
     { question: 'Real espresso?', answer: 'Yes. Settings 1-20 give useful fine adjustment, with a stepped ceiling for demanding recipes.' },
     { question: 'Filter too?', answer: 'Yes. Settings 21-40 span brewed coffee, though coarse cups can carry more fines than specialist grinders.' },
     { question: 'Timed dosing?', answer: 'No. Weigh input for single dosing or weigh output from the hopper.' },
