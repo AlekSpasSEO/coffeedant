@@ -2901,4 +2901,12 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       { src: 'https://www.eureka.co.it/public/catalogo/20/extra/6aa283b3739f0.jpg', alt: 'Eureka official Specialità touch display feature image', caption: 'The manufacturer display detail shows the timed-dose control; a time setting does not measure the mass of grounds dispensed.', width: 960, height: 640 },
     ],
   ),
+  '/grinder/baratza-vario-w-plus/': officialProductMedia(
+    'Baratza US black Vario W+ product gallery',
+    'https://www.baratza.com/en-us/product/variotm-w-zcg987',
+    [
+      { src: 'https://assets.breville.com/cdn-cgi/image/width=1304,format=auto,quality=75/ZCG987/ZCG987_Carousel1.png', alt: 'Baratza Vario W+ official gallery view of the grinder and grounds-bin area', caption: 'The official view locates the grounds bin beneath the chute; the scale measures that bin, not a portafilter or finished drink.', width: 652, height: 652 },
+      { src: 'https://assets.breville.com/cdn-cgi/image/width=1304,format=auto,quality=75/ZCG987/ZCG987_Carousel2.png', alt: 'Baratza Vario W+ official detail of the control and adjustment layout', caption: 'The official gallery illustrates the macro and micro controls; a copied setting still depends on burr calibration and coffee.', width: 652, height: 652 },
+    ],
+  ),
 };
