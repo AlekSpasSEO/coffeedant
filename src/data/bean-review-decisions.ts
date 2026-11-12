@@ -368,6 +368,14 @@ const decisions: Record<string, BeanDecision> = {
     finalTitle: 'A half-caf trial, with caffeine expectations kept modest',
     finalVerdict: 'Power Nap is a practical ready-blended half-caf for someone who uses both filter and espresso and accepts rotating component lots. Choose a fresh small bag and the matching Onyx brew start; use Even Keel for a different half-caf brief or a decaf product when less caffeine remains the main goal.',
   },
+  'verve-holiday-blend': {
+    headings: ['The 2026 Antigua and Guji combination', 'Verve and Fellow name the seasonal flavors', 'Dwell, flat-bottom and espresso need separate starts', 'A small roast-dated bag before bulk', 'Pay for this season’s actual cup', 'Aster, Seabright and Bronson serve different needs'],
+    trialTitle: 'Give the light seasonal profile a bounded first bag',
+    trial: 'Buy a 12 oz whole-bean pack with its current roast date and make the Verve Dwell start in your usual filter brewer, adjusting for your own device. If espresso is also part of the household, save a separate grind setting and try Fellow’s 18 g to 36 g sample start only if your basket fits. The question is whether this particular bright seasonal cup earns repeat use before the season ends, not whether an older Holiday Blend was popular.',
+    finalTitle: 'A seasonal trial for a fruit-accented routine',
+    finalVerdict: 'Verve Holiday Blend 2026 has unusually clear current origin and brewing evidence for a seasonal coffee. Start with a small dated bag if its light orange-and-chestnut brief suits your main drink; use Aster or Seabright when a year-round Verve blend is the more practical purchase.',
+  },
+
 };
 
 const sectionIds = ['identity', 'flavor', 'brewing', 'freshness', 'value', 'alternatives'];
