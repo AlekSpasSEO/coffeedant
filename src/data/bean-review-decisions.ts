@@ -361,6 +361,13 @@ const decisions: Record<string, BeanDecision> = {
     finalTitle: 'A documented filter-and-milk blend trial',
     finalVerdict: 'Mocha Java is a useful small-bag test for a medium, layered Equator coffee with current three-process sourcing and published filter and press starts. Its espresso option lacks a product-specific shot recipe, and no source predicts the taste or delivered value of a future lot.',
   },
+  'onyx-power-nap': {
+    headings: ['A 50/50 half-caf composition with rotating lots', 'Cocoa and peach are Onyx’s targets', 'Keep Kalita and espresso starts separate', 'Check the roast date and finish a practical size', 'Pay for a routine that uses the blend', 'Even Keel or decaf changes the caffeine goal'],
+    trialTitle: 'Try Power Nap in the drink that needs less caffeine',
+    trial: 'Make a first small whole-bean order and note its roast date. Start with Onyx’s published recipe for your usual brewer, then adjust for the actual cup rather than trying filter and espresso on the same grinder setting. The useful test is whether this half-caf bag serves the time of day and flavor preference that led you to it. A measured sample caffeine figure cannot tell you how your own serving will feel.',
+    finalTitle: 'A half-caf trial, with caffeine expectations kept modest',
+    finalVerdict: 'Power Nap is a practical ready-blended half-caf for someone who uses both filter and espresso and accepts rotating component lots. Choose a fresh small bag and the matching Onyx brew start; use Even Keel for a different half-caf brief or a decaf product when less caffeine remains the main goal.',
+  },
 };
 
 const sectionIds = ['identity', 'flavor', 'brewing', 'freshness', 'value', 'alternatives'];
