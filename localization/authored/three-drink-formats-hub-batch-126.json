@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "three-drink-formats-hub-batch-126.source.json",
+  "snapshotHash": "6167da26611c1e5b7412116779358885a1d077fa15f18e22bd19882ac88a1107",
+  "translations": {
+    "0": {
+      "nl": "Espresso, filterkoffie en koude koffie",
+      "de": "Espresso, Filterkaffee und kalter Kaffee",
+      "fr": "Expresso, café filtre et café froid"
+    },
+    "1": {
+      "nl": "Drie soorten koffie",
+      "de": "Drei Getränkearten",
+      "fr": "Trois types de café"
+    }
+  }
+}
