@@ -5097,6 +5097,21 @@ translated and 42,414 pending, DE 17,584 translated and 42,298 pending, and FR
 17,448 translated and 42,434 pending. All 154 Finder records are complete.
 Each edition has 164 non-video and 288 video pages left.
 
+### Direct batch 126 — Gaggia Espresso Evolution EG2115/01 video pages (2026-11-12)
+
+Translate the complete 88 Giri: Home Coffee Lab and Alternative Brewing video
+pages into Dutch, German and French. Preserve the EG2115/01 model number,
+dates, video destinations and retailer attribution. The new Dutch and French
+URLs follow their existing Espresso Evolution video paths. Both videos link
+to the published written review in their own edition.
+
+The batch fills 35 missing slots each in Dutch and French and 31 in German.
+Four German slots reuse validated wording. The source has 689 pages and
+59,882 segments. Each edition can render 238 indexable pages and a localized
+404. Coverage is NL 17,503 translated and 42,379 pending, DE 17,615 translated
+and 42,267 pending, and FR 17,483 translated and 42,399 pending. All 154 Finder
+records are complete. Each edition has 164 non-video and 286 video pages left.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
