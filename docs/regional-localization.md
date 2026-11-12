@@ -5140,6 +5140,24 @@ Coverage is NL 17,751 translated and 42,749 pending, DE 17,772 translated and
 42,728 pending, and FR 17,611 translated and 42,889 pending. All 154 Finder
 records are complete. NL has 454 pages left and DE and FR have 455 each.
 
+### Direct batch 128 — Shared navigation, Finder and Gaggia Cadorna Prestige video (2026-11-12)
+
+Localize the new Baratza Vario W+ and Ninja Luxe Café Mini ES301 navigation,
+grinder and Ninja hub copy, and the ES301 Finder description, fit and image
+label. The unfinished reviews still open on their English canonical URLs with
+the regional edition notice. Finder pricing and offers keep the existing
+regional treatment.
+
+Complete the Whole Latte Love video companion for Gaggia Cadorna Prestige in
+Dutch, German and French. Keep the source video and date, identify the
+retailer perspective, and link to the published regional written review.
+
+The source has 699 pages and 61,001 segments. NL can render 241 indexable
+pages and DE and FR can render 240 each, plus a localized 404 for each edition.
+Coverage is NL 17,783 translated and 43,218 pending, DE 17,804 translated and
+43,197 pending, and FR 17,643 translated and 43,358 pending. Finder translation
+coverage is complete. NL has 457 pages left and DE and FR have 458 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
