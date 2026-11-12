@@ -390,6 +390,13 @@ const decisions: Record<string, BeanDecision> = {
     finalTitle: 'A cold-brew-specific trial with identity caveats',
     finalVerdict: 'Onyx Cold Brew has a clear cold-extraction purpose and a cocoa-date roaster brief. Its current origin and caffeine metadata conflict, so begin with a small roast-dated US bag and a repeatable brew instead of relying on a fixed cultivar, decaf assumption or unverified per-cup value.',
   },
+  'onyx-decaf-colombia-inza-san-antonio': {
+    headings: ['A named regional decaf with a stale harvest field', 'Fruit and sugar are Onyx’s targets', 'Kalita and espresso have separate starts', 'Inspect the actual roast date and lot', 'Value lies in the process and two-method guidance', 'Choose another decaf for a quieter milk base'],
+    trialTitle: 'Try one dated bag in the drink you make most',
+    trial: 'Choose a practical US whole-bean size, inspect the delivered roast date and ask about the current lot if harvest or cultivar matters. Start with the published Kalita or espresso recipe for your actual brewer, not both at one grind setting. Record the drink you normally make. The useful decision is whether this bag’s fruit-and-sugar direction fits that cup; a past independent pour-over tasting and one owner’s iced-latte objection cannot predict your own result.',
+    finalTitle: 'A specific EA decaf worth a small trial',
+    finalVerdict: 'Onyx Inzá San Antonio is a credible small-bag decaf for buyers seeking its EA process and fruit-led filter or espresso brief. Check today’s lot and roast date rather than assuming the page’s February 2024 harvest describes the bag. Try another decaf if a subdued iced latte or a zero-caffeine guarantee is the priority.',
+  },
 };
 
 const sectionIds = ['identity', 'flavor', 'brewing', 'freshness', 'value', 'alternatives'];
