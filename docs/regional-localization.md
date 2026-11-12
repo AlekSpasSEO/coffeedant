@@ -5107,12 +5107,14 @@ the French URL registered by source-change maintenance. Both videos link to
 the published written review in their own edition.
 
 The batch fills 35 missing slots each in Dutch and French and 31 in German.
-Four German slots reuse validated wording. With the Encore ESP source revision,
-the source has 689 pages and 59,883 segments. Each edition can render 238
-indexable pages and a localized 404. Including the concurrent cache update,
-coverage is NL 17,562 translated and 42,321 pending, DE 17,643 translated and
-42,240 pending, and FR 17,482 translated and 42,401 pending. All 154 Finder
-records are complete. Each edition has 164 non-video and 286 video pages left.
+Four German slots reuse validated wording. The source has 689 pages and
+59,883 segments. The concurrent cache update completes the Dutch
+chocolate-forward espresso beans guide. NL can render 239 indexable pages and
+DE and FR can render 238 each, plus a localized 404 for each edition. Coverage
+is NL 17,622 translated and 42,261 pending, DE 17,643 translated and 42,240
+pending, and FR 17,482 translated and 42,401 pending. All 154 Finder records
+are complete. Each edition has 286 video pages left. NL has 163 non-video
+pages left, and DE and FR have 164 each.
 
 ## Missing configuration
 
