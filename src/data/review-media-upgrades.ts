@@ -2909,4 +2909,12 @@ export const reviewMediaUpgrades: Record<string, ReviewMediaSeed[]> = {
       { src: 'https://assets.breville.com/cdn-cgi/image/width=1304,format=auto,quality=75/ZCG987/ZCG987_Carousel2.png', alt: 'Baratza Vario W+ official detail of the control and adjustment layout', caption: 'The official gallery illustrates the macro and micro controls; a copied setting still depends on burr calibration and coffee.', width: 652, height: 652 },
     ],
   ),
+  '/espresso-machine/ninja-luxe-cafe-mini-es301/': officialProductMedia(
+    'SharkNinja US black ES301 product gallery',
+    'https://www.sharkninja.com/ninja-luxe-cafe-mini-espresso-machine/ES301.html?dwvar_ES301_color=000000',
+    [
+      { src: 'https://assets.sharkninja.com/image/upload/c_fill,w_690,h_690,f_auto,g_auto,q_auto:good,dpr_2.0,b_rgb:FFFFFF/v1/storefront/products/ES301/ES301_Gallery_Component', alt: 'SharkNinja official ES301 gallery image showing the compact grinder and brewer', caption: 'The official gallery shows the integrated station; guided grinding does not remove portafilter handling or cleaning.', width: 1380, height: 1380 },
+      { src: 'https://assets.sharkninja.com/image/upload/c_fill,w_690,h_690,f_auto,g_auto,q_auto:good,dpr_2.0,b_rgb:FFFFFF/v1/storefront/products/ES301/ES301_Gallery_Component2', alt: 'SharkNinja official ES301 gallery view of the black Mini machine', caption: 'The exact ES301 has a manual steam wand and espresso/drip menu; do not infer Mini Plus automatic frothing.', width: 1380, height: 1380 },
+    ],
+  ),
 };
