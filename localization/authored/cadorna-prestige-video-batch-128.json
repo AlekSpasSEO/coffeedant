@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "cadorna-prestige-video-batch-128.source.json",
+  "snapshotHash": "15f523b086df7864fbaa06467c1855f59c2ca0ffe8960f89144327bdaf33a22b",
+  "routes": {
+    "nl": {
+      "/espresso-machine/gaggia-cadorna-prestige/video/whole-latte-love-76484f4e5942415976556f/": "/espresso-machine/gaggia-cadorna-prestige/video/whole-latte-love-76484f4e5942415976556f/"
+    },
+    "fr": {
+      "/espresso-machine/gaggia-cadorna-prestige/video/whole-latte-love-76484f4e5942415976556f/": "/machine-a-espresso/gaggia-cadorna-prestige/video/whole-latte-love-76484f4e5942415976556f/"
+    }
+  },
+  "translations": {
+    "4": {
+      "nl": "Gaggia Cadorna Prestige: review van de Gaggia Magenta en Cadorna Prestige volautomaten · Whole Latte Love (2025-01-30) | Coffeedant",
+      "de": "Gaggia Cadorna Prestige: Gaggia Magenta und Cadorna Prestige im Test · Whole Latte Love (2025-01-30) | Coffeedant",
+      "fr": "Gaggia Cadorna Prestige : test des machines à espresso automatiques Gaggia Magenta et Cadorna Prestige · Whole Latte Love (2025-01-30) | Coffeedant"
+    },
+    "5": {
+      "nl": "Bekijk de review van Whole Latte Love over de Gaggia Magenta en Cadorna Prestige volautomaten (2025-01-30). Whole Latte Love toont de Gaggia Cadorna Prestige en bespreekt espresso zetten, melkdranken, ontwerp en bouw. Dit is het perspectief van een verkoper. Leg het naast de andere bronnen en onze geschreven review.",
+      "de": "Sehen Sie den Test der Kaffeevollautomaten Gaggia Magenta und Cadorna Prestige von Whole Latte Love (2025-01-30). Whole Latte Love stellt die Gaggia Cadorna Prestige vor und behandelt Espressozubereitung, Milchgetränke, Design und Verarbeitung. Das Video zeigt die Sicht eines Händlers. Ziehen Sie auch die anderen Quellen und unseren schriftlichen Testbericht heran.",
+      "fr": "Regardez le test des machines à espresso automatiques Gaggia Magenta et Cadorna Prestige par Whole Latte Love (2025-01-30). Whole Latte Love présente la Gaggia Cadorna Prestige et aborde la préparation de l’espresso, les boissons lactées, la conception et la fabrication. La vidéo présente le point de vue d’un vendeur de matériel. Consultez aussi les autres sources et notre article."
+    },
+    "7": {
+      "nl": "Review van de Gaggia Magenta en Cadorna Prestige volautomaten door Whole Latte Love",
+      "de": "Test der Kaffeevollautomaten Gaggia Magenta und Cadorna Prestige von Whole Latte Love",
+      "fr": "Test des machines à espresso automatiques Gaggia Magenta et Cadorna Prestige par Whole Latte Love"
+    },
+    "8": {
+      "nl": "Review van de Gaggia Magenta en Cadorna Prestige volautomaten",
+      "de": "Test der Kaffeevollautomaten Gaggia Magenta und Cadorna Prestige",
+      "fr": "Test des machines à espresso automatiques Gaggia Magenta et Cadorna Prestige"
+    },
+    "9": {
+      "nl": "30 januari 2025",
+      "de": "30. Januar 2025",
+      "fr": "30 janvier 2025"
+    },
+    "10": {
+      "nl": "Whole Latte Love toont de Gaggia Cadorna Prestige en bespreekt espresso zetten, melkdranken, ontwerp en bouw. Dit is het perspectief van een verkoper. Leg het naast de andere bronnen en onze geschreven review.",
+      "de": "Whole Latte Love stellt die Gaggia Cadorna Prestige vor und behandelt Espressozubereitung, Milchgetränke, Design und Verarbeitung. Das Video zeigt die Sicht eines Händlers. Ziehen Sie auch die anderen Quellen und unseren schriftlichen Testbericht heran.",
+      "fr": "Whole Latte Love présente la Gaggia Cadorna Prestige et aborde la préparation de l’espresso, les boissons lactées, la conception et la fabrication. La vidéo présente le point de vue d’un vendeur de matériel. Consultez aussi les autres sources et notre article."
+    }
+  }
+}
