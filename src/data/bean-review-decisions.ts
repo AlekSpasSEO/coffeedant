@@ -383,6 +383,13 @@ const decisions: Record<string, BeanDecision> = {
     finalTitle: 'A seasonal honey-process trial with a clear recipe',
     finalVerdict: 'The 2026 Aponte Village Honey has unusually specific producer, process and brew guidance. It is a sensible small-bag trial for a fruit-led filter or espresso routine, while the current caffeine metadata conflict and seasonality limit broader claims.',
   },
+  'onyx-cold-brew': {
+    headings: ['A rotating product with conflicting origin blocks', 'Cocoa and dates are Onyx’s target', 'Follow the Toddy start only for a matching setup', 'Check the actual bag date and batch plan', 'Value depends on a repeated cold-coffee habit', 'Choose another bean when espresso or decaf is the goal'],
+    trialTitle: 'Make one measured cold batch before buying bulk',
+    trial: 'Order a practical whole-bean pack, inspect its roast date and confirm the current component identity if that matters. Use Onyx’s Toddy start only for the matching gallon setup; with another brewer, record your own dose, water, time, filtering and dilution. The decision is whether the resulting cold coffee suits the household’s usual drink and delivered cost.',
+    finalTitle: 'A cold-brew-specific trial with identity caveats',
+    finalVerdict: 'Onyx Cold Brew has a clear cold-extraction purpose and a cocoa-date roaster brief. Its current origin and caffeine metadata conflict, so begin with a small roast-dated US bag and a repeatable brew instead of relying on a fixed cultivar, decaf assumption or unverified per-cup value.',
+  },
 };
 
 const sectionIds = ['identity', 'flavor', 'brewing', 'freshness', 'value', 'alternatives'];
