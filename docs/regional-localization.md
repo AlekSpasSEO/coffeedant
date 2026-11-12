@@ -5106,10 +5106,11 @@ URLs follow their existing Espresso Evolution video paths. Both videos link
 to the published written review in their own edition.
 
 The batch fills 35 missing slots each in Dutch and French and 31 in German.
-Four German slots reuse validated wording. The source has 689 pages and
-59,882 segments. Each edition can render 238 indexable pages and a localized
-404. Coverage is NL 17,503 translated and 42,379 pending, DE 17,615 translated
-and 42,267 pending, and FR 17,483 translated and 42,399 pending. All 154 Finder
+Four German slots reuse validated wording. With the Encore ESP source revision,
+the source has 689 pages and 59,883 segments. Each edition can render 238
+indexable pages and a localized 404. Coverage is NL 17,502 translated and
+42,381 pending, DE 17,614 translated and 42,269 pending, and FR 17,482
+translated and 42,401 pending. All 154 Finder
 records are complete. Each edition has 164 non-video and 286 video pages left.
 
 ## Missing configuration
