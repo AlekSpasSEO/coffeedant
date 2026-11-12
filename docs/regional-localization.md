@@ -5127,17 +5127,18 @@ and structured data. Keep the 50/50 composition, the roaster's sample caffeine
 measurement, the separate Kalita and espresso recipes, and all source links.
 The localized copy preserves the US checkout context without adding prices.
 
-Fill 119 frozen slots per edition across the review, the bean hub and the
+Fill 123 frozen slots per edition across the review, the bean hub and the
 updated methodology shared with Counter Culture Hologram. The bean hub links
 to the regional Power Nap review. The localized cards for Verve Holiday Blend,
-Onyx Colombia Aponte Village Honey and Onyx Cold Brew link to the English
-reviews with the edition notice. Keep the existing Dutch espresso-dosing URL.
+Onyx Colombia Aponte Village Honey, Onyx Cold Brew and Onyx Decaf Colombia
+Inzá San Antonio link to the English reviews with the edition notice. Keep the
+existing Dutch espresso-dosing URL.
 
-The source has 694 pages and 60,398 segments. NL can render 240 indexable
+The source has 695 pages and 60,500 segments. NL can render 240 indexable
 pages and DE and FR can render 239 each, plus a localized 404 for each edition.
-Coverage is NL 17,746 translated and 42,652 pending, DE 17,767 translated and
-42,631 pending, and FR 17,606 translated and 42,792 pending. All 154 Finder
-records are complete. NL has 453 pages left and DE and FR have 454 each.
+Coverage is NL 17,751 translated and 42,749 pending, DE 17,772 translated and
+42,728 pending, and FR 17,611 translated and 42,889 pending. All 154 Finder
+records are complete. NL has 454 pages left and DE and FR have 455 each.
 
 ## Missing configuration
 
