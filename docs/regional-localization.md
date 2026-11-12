@@ -5101,16 +5101,17 @@ Each edition has 164 non-video and 288 video pages left.
 
 Translate the complete 88 Giri: Home Coffee Lab and Alternative Brewing video
 pages into Dutch, German and French. Preserve the EG2115/01 model number,
-dates, video destinations and retailer attribution. The new Dutch and French
-URLs follow their existing Espresso Evolution video paths. Both videos link
-to the published written review in their own edition.
+dates, video destinations and retailer attribution. The new 88 Giri URLs
+follow the existing Dutch and French video paths. Alternative Brewing uses
+the French URL registered by source-change maintenance. Both videos link to
+the published written review in their own edition.
 
 The batch fills 35 missing slots each in Dutch and French and 31 in German.
 Four German slots reuse validated wording. With the Encore ESP source revision,
 the source has 689 pages and 59,883 segments. Each edition can render 238
-indexable pages and a localized 404. Coverage is NL 17,502 translated and
-42,381 pending, DE 17,614 translated and 42,269 pending, and FR 17,482
-translated and 42,401 pending. All 154 Finder
+indexable pages and a localized 404. Including the concurrent cache update,
+coverage is NL 17,562 translated and 42,321 pending, DE 17,643 translated and
+42,240 pending, and FR 17,482 translated and 42,401 pending. All 154 Finder
 records are complete. Each edition has 164 non-video and 286 video pages left.
 
 ## Missing configuration
