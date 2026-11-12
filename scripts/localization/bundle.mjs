@@ -20,6 +20,10 @@ if (!checkOnly) {
 // --check reads the existing complete build and writes only its readiness report.
 // It never invokes Astro, regenerates SEO, or changes regional artifacts/routes.
 const source = checkOnly ? await collectSource(path.join(root, 'dist')) : await buildRegionalSource(path.join(root, 'dist'));
+if (!checkOnly) {
+  const validation = spawnSync(process.execPath, [path.join(root, 'scripts/validate-analytics.mjs')], { cwd: root, stdio: 'inherit' });
+  if (validation.status !== 0) process.exit(validation.status ?? 1);
+}
 const releases = await readJson(path.join(root, 'localization/releases.json'));
 const caches = new Map();
 const selections = new Map();
