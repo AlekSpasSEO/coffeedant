@@ -376,6 +376,13 @@ const decisions: Record<string, BeanDecision> = {
     finalVerdict: 'Verve Holiday Blend 2026 has unusually clear current origin and brewing evidence for a seasonal coffee. Start with a small dated bag if its light orange-and-chestnut brief suits your main drink; use Aster or Seabright when a year-round Verve blend is the more practical purchase.',
   },
 
+  'onyx-colombia-aponte-village-honey-26': {
+    headings: ['The 2026 Inga community field blend', 'Apple and cherry are Onyx’s target', 'Use the matching filter or espresso start', 'Date the exact -26 whole-bean bag', 'Pay for a fruit-led coffee you will finish', 'Geometry and Monarch are different routes'],
+    trialTitle: 'Use a small bag to test this season’s fruit direction',
+    trial: 'Choose the exact -26 whole-bean listing, inspect the bag date and start with Onyx’s recipe for the brewer you actually own. Record dose, water or beverage yield, grind and result. If the apple-and-cherry direction works in your usual serving, consider a repeat order while the release remains available. If you mainly want a chocolate-heavy milk drink, compare Monarch before ordering bulk Aponte.',
+    finalTitle: 'A seasonal honey-process trial with a clear recipe',
+    finalVerdict: 'The 2026 Aponte Village Honey has unusually specific producer, process and brew guidance. It is a sensible small-bag trial for a fruit-led filter or espresso routine, while the current caffeine metadata conflict and seasonality limit broader claims.',
+  },
 };
 
 const sectionIds = ['identity', 'flavor', 'brewing', 'freshness', 'value', 'alternatives'];
