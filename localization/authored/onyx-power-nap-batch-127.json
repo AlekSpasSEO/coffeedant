@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "onyx-power-nap-batch-127.source.json",
+  "snapshotHash": "419f0fc1c9ec62044a7ea5f0201514fce100e65104c4437139b418bc4f639b1e",
+  "preserveSource": [
+    3,
+    13,
+    56
+  ],
+  "routes": {
+    "nl": {
+      "/coffee-beans/onyx-power-nap/": "/koffiebonen/onyx-power-nap/"
+    },
+    "de": {
+      "/coffee-beans/onyx-power-nap/": "/kaffeebohnen/onyx-power-nap/"
+    },
+    "fr": {
+      "/coffee-beans/onyx-power-nap/": "/cafe-en-grains/onyx-power-nap/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "Hoe smaakt Power Nap?",
+      "de": "Wie schmeckt Power Nap?",
+      "fr": "Quel goût a Power Nap ?"
+    },
+    "2": {
+      "nl": "Officiële productafbeelding van Onyx Coffee Lab Power Nap",
+      "de": "Offizielles Produktbild von Onyx Coffee Lab Power Nap",
+      "fr": "Visuel officiel du café Power Nap d’Onyx Coffee Lab"
+    },
+    "4": {
+      "nl": "Power Nap is een kant-en-klare half-cafblend voor huishoudens die één vertrouwde zak bonen voor filterkoffie en af en toe espresso willen. Onyx vermeldt een 50/50-melange van gewassen Ethiopische koffie en Colombiaanse koffie die met de suikerrietmethode is gedecafeïneerd. De brander geeft startrecepten voor Kalita en espresso. De tonen van bruine suiker, cacao, perzik en bloemen komen uit de proefnotities van Onyx. Coffeedant heeft de koffie zelf niet geproefd. Onyx vermeldt ook een gemeten voorbeeldwaarde voor cafeïne. Die biedt geen persoonlijke garantie voor slaap of gezondheid. Begin met de kleinste zak hele bonen die praktisch is, controleer de branddatum en beoordeel zelf de smaak en hoe de cafeïne je bevalt.",
+      "de": "Power Nap ist eine fertig gemischte Half-Caf-Option für Haushalte, die für Filterkaffee und gelegentlichen Espresso dieselben Bohnen verwenden möchten. Onyx nennt eine 50/50-Mischung aus gewaschenem äthiopischem Kaffee und kolumbianischem Kaffee, der mit dem Zuckerrohrverfahren entkoffeiniert wurde. Die Rösterei veröffentlicht Ausgangsrezepte für Kalita und Espresso. Die Noten von braunem Zucker, Kakao, Pfirsich und Blüten stammen aus der sensorischen Beschreibung von Onyx. Coffeedant hat den Kaffee selbst nicht verkostet. Die Produktseite nennt außerdem einen beispielhaften Koffeinmesswert, der keine persönliche Garantie für Schlaf oder Gesundheit bietet. Beginnen Sie mit der kleinsten für Sie praktischen Packung ganzer Bohnen, prüfen Sie das Röstdatum und beurteilen Sie Geschmack und Koffeinverträglichkeit selbst.",
+      "fr": "Power Nap est un mélange moitié décaféiné prêt à l’emploi pour les foyers qui souhaitent utiliser régulièrement les mêmes grains en filtre et, à l’occasion, en espresso. Onyx indique un assemblage 50/50 de café lavé d’Éthiopie et de café colombien décaféiné selon le procédé à la canne à sucre. Le torréfacteur publie des recettes de départ pour la Kalita et l’espresso. Les notes de cassonade, de cacao, de pêche et de fleurs viennent d’Onyx. Coffeedant n’a pas dégusté ce café. La fiche donne aussi un exemple de teneur en caféine, qui n’offre aucune garantie individuelle en matière de sommeil ou de santé. Commencez par le plus petit format de café en grains qui vous convient, vérifiez la date de torréfaction et jugez par vous-même le goût et les effets de la caféine."
+    },
+    "5": {
+      "nl": "· Totaalbedrag voor hele bonen bij het afrekenen in de VS controleren, stand van 12 november 2026",
+      "de": "· Aktuellen Gesamtpreis für ganze Bohnen im US-Warenkorb prüfen, Stand 12. November 2026",
+      "fr": "· Vérifier le total actuel du café en grains au moment du paiement aux États-Unis, au 12 novembre 2026"
+    },
+    "7": {
+      "nl": "Hoe bewaar ik de bonen?",
+      "de": "Wie lagere ich die Bohnen?",
+      "fr": "Comment conserver les grains ?"
+    },
+    "9": {
+      "nl": "Review van Onyx Power Nap, een half-cafblend met meetgegevens voor filter en espresso | Coffeedant",
+      "de": "Onyx Power Nap im Überblick, ein Half-Caf mit Messwerten für Filterkaffee und Espresso | Coffeedant",
+      "fr": "Avis sur Onyx Power Nap, un mélange moitié décaféiné documenté pour le filtre et l’espresso | Coffeedant"
+    },
+    "10": {
+      "nl": "Een review op basis van bronnen over Onyx Power Nap in hele bonen voor de Amerikaanse markt. Met de 50/50-half-cafblend, proefnotities en recepten van de brander, onzekerheid over cafeïne, versheid en alternatieven.",
+      "de": "Quellenbasierte Besprechung der ganzen Bohnen von Onyx Power Nap für den US-Markt. Mit 50/50-Half-Caf-Mischung, Geschmacksnotizen und Rezepten der Rösterei, Schwankungen beim Koffeingehalt, Frische und Alternativen.",
+      "fr": "Avis documenté sur le café en grains Onyx Power Nap vendu aux États-Unis. Au programme, son mélange 50/50 moitié décaféiné, les notes et recettes du torréfacteur, les incertitudes sur la caféine, la fraîcheur et les alternatives."
+    },
+    "14": {
+      "nl": ". Officiële productafbeelding van Onyx Coffee Lab, op 12 november 2026 gecontroleerd ter identificatie van het product. De afbeelding toont geen aankoop, bereiding of proeverij door Coffeedant.",
+      "de": ". Offizielles Produktbild von Onyx Coffee Lab, am 12. November 2026 zur Identifizierung des Produkts geprüft. Es zeigt weder einen Kauf noch eine Zubereitung oder Verkostung durch Coffeedant.",
+      "fr": ". Visuel officiel d’Onyx Coffee Lab, vérifié le 12 novembre 2026 pour identifier le produit. Il ne montre aucun achat, aucune préparation ni dégustation par Coffeedant."
+    },
+    "15": {
+      "nl": "Review van Onyx Power Nap, een half-cafblend met meetgegevens voor filter en espresso",
+      "de": "Onyx Power Nap im Überblick, ein Half-Caf mit Messwerten für Filterkaffee und Espresso",
+      "fr": "Avis sur Onyx Power Nap, un mélange moitié décaféiné documenté pour le filtre et l’espresso"
+    },
+    "16": {
+      "nl": "Controleer het actuele totaalbedrag voor hele bonen bij het afrekenen in de VS",
+      "de": "Aktuellen Gesamtpreis für ganze Bohnen im US-Warenkorb prüfen",
+      "fr": "Vérifiez le total actuel du café en grains au moment du paiement aux États-Unis"
+    },
+    "17": {
+      "nl": "Rechtstreeks aanbod in de VS gecontroleerd op 12 november 2026. Verzendkosten, belastingen en beschikbaarheid kunnen veranderen.",
+      "de": "US-Direktangebot am 12. November 2026 geprüft. Versandkosten, Steuern und Verfügbarkeit können sich ändern.",
+      "fr": "Offre directe aux États-Unis vérifiée le 12 novembre 2026. Les frais de livraison, les taxes et la disponibilité peuvent changer."
+    },
+    "18": {
+      "nl": "12 november 2026",
+      "de": "12. November 2026",
+      "fr": "12 novembre 2026"
+    },
+    "19": {
+      "nl": "Ik heb de actuele Amerikaanse productinformatie en de bereidings- en bewaarinstructies van Onyx naast een beperkt aantal vrijwillig gedeelde gebruikerservaringen gelegd. Coffeedant heeft Power Nap niet gekocht, gezet of geproefd en heeft het cafeïnegehalte niet gemeten.",
+      "de": "Ich habe die aktuellen US-Produktangaben sowie die Zubereitungs- und Lagerhinweise von Onyx mit wenigen freiwillig veröffentlichten Erfahrungsberichten verglichen. Coffeedant hat Power Nap weder gekauft noch zubereitet oder verkostet und den Koffeingehalt nicht gemessen.",
+      "fr": "J’ai comparé la fiche américaine actuelle d’Onyx et ses consignes de préparation et de conservation à quelques témoignages spontanés d’acheteurs. Coffeedant n’a ni acheté, ni préparé, ni dégusté Power Nap et n’a pas mesuré sa teneur en caféine."
+    },
+    "20": {
+      "nl": "Eén zak half-caf in plaats van elke ochtend zelf twee koffies mengen",
+      "de": "Eine Packung Half-Caf, ohne morgens zwei Kaffees selbst zu mischen",
+      "fr": "Un seul sachet moitié décaféiné pour éviter de mélanger deux cafés chaque matin"
+    },
+    "21": {
+      "nl": "Filterdrinkers die een gepubliceerd startrecept voor de Kalita willen",
+      "de": "Wer Filterkaffee trinkt und ein veröffentlichtes Ausgangsrezept für die Kalita sucht",
+      "fr": "Les amateurs de café filtre qui souhaitent partir d’une recette Kalita publiée"
+    },
+    "22": {
+      "nl": "Espressodrinkers die het afzonderlijke startrecept van Onyx zelf willen afstellen",
+      "de": "Wer Espresso trinkt und das separate Ausgangsrezept von Onyx selbst einjustieren möchte",
+      "fr": "Les amateurs d’espresso prêts à ajuster la recette dédiée d’Onyx à leur matériel"
+    },
+    "23": {
+      "nl": "Je hebt cafeïnevrije koffie of een klinisch vastgestelde dosis cafeïne nodig",
+      "de": "Sie brauchen koffeinfreien Kaffee oder eine klinisch festgelegte Koffeindosis",
+      "fr": "Vous avez besoin d’un café sans caféine ou d’une dose de caféine définie cliniquement"
+    },
+    "24": {
+      "nl": "Je zoekt een donker gebrande melange met weinig fruittonen, terwijl Onyx een matige branding beschrijft",
+      "de": "Sie suchen eine dunkle Mischung mit wenig Frucht, während Onyx eine mittlere Röstung beschreibt",
+      "fr": "Vous cherchez un assemblage très torréfié et peu fruité, alors qu’Onyx décrit une torréfaction modérée"
+    },
+    "25": {
+      "nl": "Je verwacht dat de melange elk seizoen uit precies dezelfde partijen bestaat",
+      "de": "Sie erwarten, dass die Mischung über alle Saisons aus genau denselben Chargen besteht",
+      "fr": "Vous vous attendez à retrouver exactement les mêmes lots au fil des saisons"
+    },
+    "26": {
+      "nl": "Onyx Coffee Lab Power Nap, Amerikaanse half-cafblend in hele bonen",
+      "de": "Onyx Coffee Lab Power Nap, Half-Caf-Mischung aus ganzen Bohnen für den US-Markt",
+      "fr": "Onyx Coffee Lab Power Nap, mélange moitié décaféiné en grains pour le marché américain"
+    },
+    "27": {
+      "nl": "Huidige samenstelling",
+      "de": "Aktuelle Zusammensetzung",
+      "fr": "Composition actuelle"
+    },
+    "28": {
+      "nl": "Volgens Onyx 50% gewassen Ethiopia Worka en 50% Colombia Huila, gedecafeïneerd met de suikerrietmethode. De partijen kunnen wisselen.",
+      "de": "Laut Onyx 50% gewaschener Ethiopia Worka und 50% Colombia Huila, mit dem Zuckerrohrverfahren entkoffeiniert. Die verwendeten Chargen können wechseln.",
+      "fr": "Selon Onyx, 50% d’Ethiopia Worka lavé et 50% de Colombia Huila décaféiné selon le procédé à la canne à sucre. Les lots peuvent changer."
+    },
+    "29": {
+      "nl": "Onyx noemt de branding ‘Moderate’ en vermeldt voor een gedocumenteerde branding Agtron #120 bij gemalen koffie.",
+      "de": "Onyx bezeichnet die Röstung als „Moderate“. Für eine dokumentierte Röstung nennt die Seite Agtron #120 beim gemahlenen Kaffee.",
+      "fr": "Onyx qualifie la torréfaction de « Moderate ». Pour une torréfaction documentée, sa fiche indique un indice Agtron #120 sur café moulu."
+    },
+    "30": {
+      "nl": "Verschillende variëteiten. Gewassen Ethiopische koffie en Colombiaanse koffie die is gedecafeïneerd met ethylacetaat volgens de suikerrietmethode.",
+      "de": "Verschiedene Varietäten. Gewaschener äthiopischer Kaffee und ein kolumbianischer Bestandteil, der mit Ethylacetat im Zuckerrohrverfahren entkoffeiniert wurde.",
+      "fr": "Plusieurs variétés. Café lavé d’Éthiopie et café colombien décaféiné à l’acétate d’éthyle selon le procédé à la canne à sucre."
+    },
+    "31": {
+      "nl": "Bruine suiker, cacao, een zijdezacht mondgevoel, bloemen en perzik. Proefnotities van de brander. Coffeedant heeft de koffie niet geproefd.",
+      "de": "Brauner Zucker, Kakao, seidiges Mundgefühl, Blüten und Pfirsich. Angaben der Rösterei. Coffeedant hat den Kaffee nicht verkostet.",
+      "fr": "Cassonade, cacao, texture soyeuse, notes florales et pêche. Ces notes viennent du torréfacteur. Coffeedant n’a pas dégusté le café."
+    },
+    "32": {
+      "nl": "Informatie over cafeïne",
+      "de": "Angaben zum Koffein",
+      "fr": "Informations sur la caféine"
+    },
+    "33": {
+      "nl": "Half-caf beschrijft de samenstelling van de melange. Onyx vermeldt een voorbeeldwaarde van 129 mg per kop van 12 oz. De hoeveelheid per portie kan variëren.",
+      "de": "Half-Caf beschreibt die Zusammensetzung der Mischung. Onyx nennt als Beispiel 129 mg pro Tasse mit 12 oz. Der Wert pro Portion kann abweichen.",
+      "fr": "L’expression « moitié décaféiné » décrit l’assemblage. Onyx indique une mesure de 129 mg pour une tasse de 12 oz. La quantité par portion peut varier."
+    },
+    "34": {
+      "nl": "Startrecepten",
+      "de": "Ausgangsrezepte",
+      "fr": "Recettes de départ"
+    },
+    "35": {
+      "nl": "Onyx geeft voor de Kalita 25 g koffie op 400 g water en voor espresso 19 g gemalen koffie voor 45 g espresso.",
+      "de": "Onyx nennt für die Kalita 25 g Kaffee auf 400 g Wasser und für Espresso 19 g Kaffeemehl für 45 g Getränk.",
+      "fr": "Onyx indique 25 g de café pour 400 g d’eau à la Kalita et 19 g de mouture pour 45 g d’espresso."
+    },
+    "36": {
+      "nl": "Een 50/50-half-cafblend met wisselende partijen",
+      "de": "Eine 50/50-Half-Caf-Mischung mit wechselnden Chargen",
+      "fr": "Un mélange 50/50 moitié décaféiné aux lots changeants"
+    },
+    "37": {
+      "nl": "Onyx mikt op cacao en perzik",
+      "de": "Onyx zielt auf Kakao- und Pfirsichnoten",
+      "fr": "Onyx vise des notes de cacao et de pêche"
+    },
+    "38": {
+      "nl": "Gebruik aparte startrecepten voor Kalita en espresso",
+      "de": "Getrennte Ausgangsrezepte für Kalita und Espresso",
+      "fr": "Utilisez des recettes de départ distinctes pour la Kalita et l’espresso"
+    },
+    "39": {
+      "nl": "Controleer de branddatum en kies een zak die je opmaakt",
+      "de": "Röstdatum prüfen und eine passende Packungsgröße aufbrauchen",
+      "fr": "Vérifiez la date de torréfaction et choisissez un format que vous finirez"
+    },
+    "40": {
+      "nl": "Kies de melange als je haar geregeld gebruikt",
+      "de": "Die Mischung lohnt sich bei regelmäßigem Gebrauch",
+      "fr": "Achetez ce mélange pour une préparation régulière"
+    },
+    "41": {
+      "nl": "Probeer Power Nap in de koffie waarin je minder cafeïne wilt",
+      "de": "Power Nap bei der Zubereitung ausprobieren, für die Sie weniger Koffein möchten",
+      "fr": "Essayez Power Nap dans la boisson où vous souhaitez moins de caféine"
+    },
+    "42": {
+      "nl": "Even Keel of decaf voor een andere cafeïnebehoefte",
+      "de": "Even Keel und entkoffeinierter Kaffee für andere Koffeinvorlieben",
+      "fr": "Even Keel ou un décaféiné selon la quantité de caféine recherchée"
+    },
+    "43": {
+      "nl": "Onyx beschrijft Power Nap als een 50/50-melange die vóór het branden wordt samengesteld uit gewassen Ethiopia Worka en Colombia Huila, gedecafeïneerd met de suikerrietmethode. De Colombiaanse koffie is gedecafeïneerd en de Ethiopische koffie bevat de gebruikelijke cafeïne. Onyx noemt verschillende variëteiten en wisselende microlots. De genoemde koffies en de intensiteit van hun smaken beschrijven de huidige, gecontroleerde samenstelling. Ze kunnen per partij verschillen. Power Nap is een ander product dan Onyx Monarch met de gebruikelijke hoeveelheid cafeïne en de volledig gedecafeïneerde koffies in de decafgids van Coffeedant.",
+      "de": "Onyx beschreibt Power Nap als 50/50-Mischung aus gewaschenem Ethiopia Worka und Colombia Huila, der mit dem Zuckerrohrverfahren entkoffeiniert wurde. Die Bohnen werden vor dem Rösten gemischt. Der kolumbianische Anteil ist entkoffeiniert, der äthiopische enthält regulär Koffein. Onyx nennt verschiedene Varietäten und wechselnde Mikrolots. Die genannten Bestandteile und ihre Geschmacksintensität entsprechen dem aktuell geprüften Stand und können je nach Charge variieren. Power Nap unterscheidet sich von Onyx Monarch mit regulärem Koffeingehalt und den vollständig entkoffeinierten Kaffees im Ratgeber von Coffeedant.",
+      "fr": "Onyx décrit Power Nap comme un assemblage 50/50 de café lavé Ethiopia Worka et de Colombia Huila décaféiné selon le procédé à la canne à sucre, mélangés avant torréfaction. Le café colombien est décaféiné et le café éthiopien conserve sa caféine. Onyx mentionne plusieurs variétés et des microlots qui changent au fil du temps. Les cafés cités et l’intensité de leurs arômes correspondent aux informations vérifiées à ce jour et peuvent varier d’un lot à l’autre. Ce produit se distingue de Monarch d’Onyx, qui conserve sa caféine, et des cafés entièrement décaféinés du guide Coffeedant."
+    },
+    "44": {
+      "nl": "Op de pagina van de brander staat een cafeïnewaarde van 129 mg voor een bereide kop van 12 oz. Onyx legt uit dat het die voorbeeldwaarde meet met een instrument nadat de koffie is gefilterd, afgekoeld en soms verdund. Die meting geeft geen exacte dosis voor de bonen die je ontvangt of voor jouw maalgraad, dosering, opbrengst en kopgrootte. Een 50/50-melange betekent niet dat elke kop precies half zoveel cafeïne bevat als je vorige koffie. Als de hoeveelheid cafeïne om medische redenen belangrijk is, vraag dan om persoonlijk medisch advies.",
+      "de": "Die Produktseite der Rösterei nennt einen Koffeingehalt von 129 mg für eine zubereitete Tasse mit 12 oz. Onyx erklärt, dass für diese Beispielmessung der Kaffee gefiltert, gekühlt und gegebenenfalls verdünnt und dann mit einem Messgerät untersucht wird. Der angegebene Wert liefert keine exakte Dosis für Ihre Bohnen oder Ihren Mahlgrad, Ihre Kaffeemenge, Ihren Brühertrag und Ihre Tassengröße. Bei einer 50/50-Mischung enthält nicht jede Tasse zwangsläufig genau halb so viel Koffein wie Ihr bisheriger Kaffee. Wenn Ihre Koffeinaufnahme medizinisch relevant ist, lassen Sie sich individuell ärztlich beraten.",
+      "fr": "La page du torréfacteur affiche 129 mg de caféine pour une tasse préparée de 12 oz. Onyx explique qu’il s’agit d’un exemple mesuré à l’aide d’un instrument après filtration, refroidissement et parfois dilution du café. Ce résultat ne donne aucune dose précise pour le sachet que vous recevrez ni pour votre mouture, votre dose de café, le rendement de votre extraction ou la taille de votre tasse. Avec un mélange 50/50, chaque tasse ne contient pas forcément exactement la moitié de la caféine de votre ancien café. Si la quantité de caféine compte pour des raisons médicales, demandez un avis médical personnalisé."
+    },
+    "45": {
+      "nl": "Onyx noemt bruine suiker, cacao, een zijdezacht mondgevoel, bloemen en perzik. In de toelichting schrijft de brander het bloemige karakter toe aan de Ethiopische koffie en de zoete basis aan de Colombiaanse decaf. Dat zijn de proefnotities en de beoogde smaak van Onyx. Coffeedant heeft de huidige bonen niet geproefd. De omschrijving van de matige branding en de geregistreerde Agtron #120 voor gemalen koffie geven context. Of de perzik opvalt, hangt af van je water, molen en zetmethode.",
+      "de": "Onyx nennt braunen Zucker, Kakao, ein seidiges Mundgefühl, Blüten und Pfirsich. Laut Rösterei liefert der äthiopische Kaffee die blumigen Noten, der entkoffeinierte kolumbianische Kaffee die süße Basis. Das sind Verkostungsnotizen und Angaben zur Konzeption der Mischung von Onyx. Coffeedant hat die aktuelle Packung nicht verkostet. Die mittlere Röstung und der dokumentierte Wert Agtron #120 für den gemahlenen Kaffee geben Orientierung. Ob Pfirsich deutlich hervortritt, hängt von Ihrem Wasser, Ihrer Mühle und Ihrer Zubereitung ab.",
+      "fr": "Onyx évoque la cassonade, le cacao, une texture soyeuse, un caractère floral et la pêche. D’après le torréfacteur, le café éthiopien apporte les notes florales et le décaféiné colombien forme la base sucrée. Ce sont les notes de dégustation d’Onyx et le profil qu’il cherche à obtenir. Coffeedant n’a pas goûté le lot actuel. La torréfaction décrite comme modérée et l’indice Agtron #120 mesuré sur le café moulu donnent des repères. La présence marquée ou discrète de la pêche dépendra de votre eau, de votre moulin et de votre méthode de préparation."
+    },
+    "46": {
+      "nl": "Er zijn weinig ervaringen en ze zijn op eigen initiatief gedeeld. In een espressodiscussie waardeerde iemand Power Nap als half-caf voor de middag, maar vond de koffie daarvoor duur. In een oudere koffiediscussie staan positieve reacties zonder vergelijkbare bereidingsdetails. Later meldde een andere espressodrinker zure, waterige shots ondanks lange extracties. Dat is een nuttige tegenervaring, maar maakt niet duidelijk of de bonen, de apparatuur of de techniek de oorzaak was. Deze berichten laten uiteenlopende ervaringen zien. Ze geven geen gezamenlijk smaakoordeel of garantie voor je slaap. Probeer eerst één zak met een herhaalbaar recept voordat je meerdere dozen bestelt.",
+      "de": "Es gibt wenige Erfahrungsberichte, und sie wurden freiwillig veröffentlicht. In einer Espresso-Diskussion mochte jemand Power Nap als Half-Caf am Nachmittag, fand ihn dafür aber teuer. Eine ältere Kaffee-Diskussion enthält positive Kommentare ohne vergleichbare Angaben zur Zubereitung. Später berichtete jemand trotz langer Extraktion von sauren, wässrigen Espressi. Das ist eine aufschlussreiche Gegenstimme, lässt aber offen, ob Bohnen, Ausrüstung oder Technik dafür verantwortlich waren. Die Berichte zeigen unterschiedliche Erfahrungen und liefern weder ein gemeinsames Geschmacksurteil noch eine Garantie für den Schlaf. Probieren Sie zunächst eine Packung mit einem reproduzierbaren Rezept, bevor Sie mehrere Schachteln bestellen.",
+      "fr": "Les témoignages sont rares et spontanés. Dans une discussion sur l’espresso, une personne appréciait Power Nap comme café moitié décaféiné de l’après-midi, mais le trouvait cher pour cet usage. Une discussion plus ancienne contient des avis favorables sans détails comparables sur la préparation. Plus tard, une autre personne a signalé des espressos acides et aqueux malgré des extractions longues. Ce retour apporte un contrepoint, sans permettre d’isoler l’effet des grains, du matériel ou de la technique. Les expériences divergent et ne permettent d’établir ni note gustative consensuelle ni garantie pour le sommeil. Essayez un premier sachet avec une recette reproductible avant de commander plusieurs boîtes."
+    },
+    "47": {
+      "nl": "Onyx geeft voor de Kalita Wave een startrecept van 25 g koffie op 400 g water bij 205°F, een verhouding van 1:16, met een bloeifase en meerdere schenkbeurten. In dezelfde zetgids staat voor espresso een uitgangspunt van 19 g gemalen koffie voor 45 g drank, met een beschrijving van het drukprofiel van Onyx. Dit zijn instructies van de brander. De resultaten kunnen anders zijn met een andere filterhouder, een ander filterbakje of een andere machine. Gebruik het recept dat bij je apparatuur past, noteer het resultaat en verander één variabele tegelijk.",
+      "de": "Onyx veröffentlicht für die Kalita Wave ein Ausgangsrezept mit 25 g Kaffee auf 400 g Wasser bei 205°F, also einem Verhältnis von 1:16, mit Vorquellen und anschließendem Aufgießen in mehreren Etappen. Dieselbe Anleitung nennt für Espresso 19 g Kaffeemehl für 45 g Getränk und beschreibt das Druckprofil von Onyx. Diese Vorgaben stammen von der Rösterei. Mit einem anderen Handfilter, Sieb oder einer anderen Maschine können die Ergebnisse abweichen. Wählen Sie das Rezept für Ihre Ausrüstung, halten Sie das Ergebnis fest und ändern Sie jeweils eine Variable.",
+      "fr": "Onyx publie pour la Kalita Wave une recette de départ de 25 g de café pour 400 g d’eau à 205°F, soit un ratio de 1:16, avec une préinfusion suivie de plusieurs versements. Le même guide indique 19 g de mouture pour 45 g en tasse comme point de départ pour l’espresso et décrit le profil de pression d’Onyx. Ces consignes viennent du torréfacteur. Les résultats peuvent différer avec un autre porte-filtre pour café filtre, un autre panier ou une autre machine. Choisissez la recette adaptée à votre matériel, notez le résultat et ajustez une seule variable à la fois."
+    },
+    "48": {
+      "nl": "Onyx heeft deze vóór het branden samengestelde melange voor filterkoffie en espresso ontwikkeld. Voor espresso moet je de bereiding nog steeds afstellen. De filterverhouding van 1:16 is geen recept voor een shot met een portafilter. Als je beide zetmethoden gebruikt, heb je een molen nodig die betrouwbaar terugkeert naar de grovere filterstand en de fijnere espressostand. Drink je half-caf vooral met melk, vergelijk dan het smaakprofiel met dat van je favoriete donker gebrande espresso met gewone cafeïne voordat je dezelfde balans met melk verwacht.",
+      "de": "Onyx hat die vor dem Rösten zusammengestellte Mischung für Filterkaffee und Espresso entwickelt. Espresso muss trotzdem einjustiert werden. Das Filterverhältnis von 1:16 eignet sich nicht als Rezept für einen Shot im Siebträger. Für beide Zubereitungsarten braucht es eine Mühle, die sich zuverlässig auf den gröberen Filtermahlgrad und den feineren Espressomahlgrad zurückstellen lässt. Wenn Sie Half-Caf vor allem mit Milch trinken, vergleichen Sie die Geschmacksbeschreibung mit Ihrem bevorzugten dunklen Espresso mit regulärem Koffeingehalt, bevor Sie dasselbe Zusammenspiel mit Milch erwarten.",
+      "fr": "Onyx a conçu ce mélange réalisé avant torréfaction pour le filtre et l’espresso. L’espresso demande tout de même des réglages. Le ratio filtre de 1:16 ne convient pas comme recette d’espresso au porte-filtre. Pour pratiquer les deux méthodes, il faut un moulin capable de retrouver de façon fiable le réglage plus grossier du filtre et le réglage plus fin de l’espresso. Si vous comptez surtout boire ce café avec du lait, comparez le profil annoncé à celui de votre espresso préféré, de torréfaction foncée et à teneur habituelle en caféine, avant de supposer que l’équilibre avec le lait sera le même."
+    },
+    "49": {
+      "nl": "Volgens Onyx wordt online bestelde koffie op bestelling gebrand en van maandag tot en met vrijdag doorgaans binnen 24 uur na het branden verzonden of bij de cafés van Onyx afgeleverd. Dat geldt voor rechtstreekse bestellingen bij de brander en zegt niets over de branddatum bij een wederverkoper. Controleer bij ontvangst de branddatum en de staat van de doos. Onyx geeft aan dat de koffie na opening van de doos van 10 oz ongeveer 30 dagen bruikbaar blijft als je de binnenzak oprolt. Dat is een bewaarrichtlijn zonder smaakgarantie.",
+      "de": "Onyx zufolge wird online bestellter Kaffee auf Bestellung geröstet und montags bis freitags in der Regel innerhalb von 24 Stunden nach dem Rösten verschickt oder an die eigenen Cafés geliefert. Diese Praxis gilt für Direktbestellungen bei Onyx und belegt kein Röstdatum bei einem Wiederverkäufer. Prüfen Sie bei der Lieferung das Röstdatum und den Zustand der Schachtel. Laut Onyx soll sich der Kaffee in der geöffneten Schachtel mit 10 oz und eingerolltem Innenbeutel etwa 30 Tage verwenden lassen. Das ist eine Lagerempfehlung ohne Geschmacksgarantie.",
+      "fr": "Selon Onyx, le café commandé en ligne est torréfié à la demande puis généralement expédié ou livré dans ses propres cafés dans les 24 heures suivant la torréfaction, du lundi au vendredi. Cette pratique concerne les commandes directes et ne permet pas de connaître la date de torréfaction chez un revendeur. À la livraison, vérifiez la date et l’état de la boîte. Onyx indique qu’après ouverture de la boîte de 10 oz, le café peut se conserver environ 30 jours si le sachet intérieur est roulé. Il s’agit d’un conseil de conservation sans garantie de goût."
+    },
+    "50": {
+      "nl": "Bewaar hele bonen afgesloten, uit de buurt van warmte en vocht. Maal ze kort voordat je koffie zet. Onyx raadt voor geopende zakken van 2 lb en 5 lb een luchtdichte bewaardoos aan. Een grote zak is alleen voordelig als je huishouden de koffie opdrinkt terwijl die nog aan je smaakverwachtingen voldoet. De toegankelijke winkelwageninformatie op de huidige productpagina geeft geen betrouwbaar formaat met bijbehorende prijs voor de VS. Controleer daarom de beschikbare formaten en het totaalbedrag inclusief bezorging bij het afrekenen.",
+      "de": "Lagern Sie ganze Bohnen verschlossen und vor Wärme und Feuchtigkeit geschützt. Mahlen Sie erst kurz vor der Zubereitung. Für geöffnete Beutel mit 2 lb und 5 lb empfiehlt Onyx einen luftdichten Behälter. Eine große Packung lohnt sich nur, wenn Ihr Haushalt den Kaffee verbraucht, solange er den eigenen Geschmackserwartungen entspricht. In den einsehbaren Warenkorbangaben der aktuellen Produktseite ließ sich für die USA keine gewählte Packungsgröße mit verlässlichem Preis ablesen. Prüfen Sie die verfügbaren Größen und den Gesamtpreis inklusive Lieferung beim Bezahlen.",
+      "fr": "Conservez les grains entiers dans un contenant fermé, à l’abri de la chaleur et de l’humidité, et moulez-les juste avant la préparation. Pour les sachets ouverts de 2 lb et 5 lb, Onyx recommande un contenant hermétique. Un grand sachet est économique seulement si le foyer finit le café tant qu’il répond encore à ses attentes gustatives. Les informations accessibles dans le panier de la fiche actuelle ne donnent pas de format sélectionné assorti d’un prix fiable aux États-Unis. Vérifiez les formats disponibles et le montant total livré au moment du paiement."
+    },
+    "51": {
+      "nl": "Power Nap is een logische keuze als de kant-en-klare 50/50-melange, de gedocumenteerde startrecepten voor filter en espresso en het gematigde profiel met cacao en fruit een vaste routine vereenvoudigen. De melange is minder aantrekkelijk als je alleen iets nieuws wilt proberen of decaf nodig hebt. Bij deze controle gaf de dynamische winkelwagen op de officiële productpagina geen betrouwbare actuele prijs of einddatum van een aanbieding voor een gekozen Amerikaans formaat. Daarom noemt deze review geen bedragen, besparingen of kosten per kop. Vergelijk in de actuele winkelwagen het exacte formaat hele bonen, eventuele abonnementsvoorwaarden, belasting en verzendkosten.",
+      "de": "Power Nap lohnt sich, wenn die fertige 50/50-Mischung, dokumentierte Ausgangsrezepte für Filterkaffee und Espresso und ein ausgewogenes Kakao-Frucht-Profil eine regelmäßige Routine vereinfachen. Für einen einmaligen Versuch oder wenn Sie entkoffeinierten Kaffee brauchen, ist er weniger attraktiv. Im dynamischen Warenkorb der offiziellen Produktseite ließ sich bei dieser Prüfung für keine ausgewählte US-Packungsgröße ein verlässlicher aktueller Preis oder ein Angebotsende ermitteln. Deshalb nennt diese Besprechung keine konkreten Preise, Ersparnisse oder Kosten pro Tasse. Vergleichen Sie im aktuellen Warenkorb die genaue Packungsgröße ganzer Bohnen, gegebenenfalls die Abobedingungen, Steuern und Versandkosten.",
+      "fr": "Power Nap est pertinent si l’assemblage 50/50 prêt à l’emploi, les recettes de départ documentées pour le filtre et l’espresso et le profil modéré aux notes de cacao et de fruits simplifient une préparation régulière. Son intérêt est moindre pour un essai ponctuel ou si vous avez besoin de décaféiné. Lors de la vérification, le panier dynamique de la fiche officielle n’a fourni ni prix actuel fiable ni date de fin d’offre pour un format sélectionné aux États-Unis. Cet avis ne chiffre donc ni prix, ni économies, ni coût par tasse. Comparez dans le panier le format exact de café en grains, les conditions de l’abonnement le cas échéant, les taxes et la livraison."
+    },
+    "52": {
+      "nl": "Bedenk of je de zak opmaakt terwijl de bonen nog vers zijn en of het specifieke smaakprofiel je aanspreekt. Met een zelfgemaakte 50/50-melange heb je meer keuze uit branders, maar moet je twee koffies kopen, bewaren en afstellen. Met Power Nap vervalt die stap. Counter Culture Even Keel is een andere half-caf met een eigen samenstelling en smaakrichting. Onyx Monarch bevat de gebruikelijke hoeveelheid cafeïne en is gericht op espresso met vooral chocoladetonen. Het is geen alternatief om je cafeïne-inname te verlagen.",
+      "de": "Entscheidend ist, ob Sie die Packung aufbrauchen, solange die Bohnen frisch sind, und ob Ihnen das spezifische Geschmacksprofil gefällt. Wenn Sie eine 50/50-Mischung selbst herstellen, haben Sie mehr Auswahl bei den Röstereien, müssen aber zwei Kaffees kaufen, lagern und einjustieren. Bei Power Nap entfällt dieser Schritt. Counter Culture Even Keel ist eine weitere Half-Caf-Mischung mit anderer Zusammensetzung und Geschmacksrichtung. Onyx Monarch hat einen regulären Koffeingehalt und ist auf Espresso mit deutlichen Schokoladennoten ausgelegt. Er eignet sich nicht als Ersatz mit weniger Koffein.",
+      "fr": "Demandez-vous si vous finirez le sachet pendant que les grains sont frais et si le profil annoncé vous plaît. Un mélange 50/50 réalisé chez vous élargit le choix de torréfacteurs, mais il faut acheter et conserver deux cafés et régler la préparation pour chacun. Power Nap vous épargne cette étape. Counter Culture Even Keel est un autre mélange moitié décaféiné, avec une composition et un profil différents. Monarch d’Onyx conserve sa caféine et vise un espresso dominé par le chocolat. Il ne convient pas comme solution pour réduire la caféine."
+    },
+    "53": {
+      "nl": "Bestel eerst een kleine zak hele bonen en noteer de branddatum. Begin met het gepubliceerde recept van Onyx voor je gebruikelijke zetmethode. Pas het aan op basis van de koffie in je kop en gebruik voor filter en espresso verschillende maalstanden. Beoordeel of deze half-caf past bij het moment van de dag en de smaakvoorkeur waarvoor je hem koos. Een gemeten voorbeeldwaarde voor cafeïne zegt niet hoe jouw kop zal aanvoelen.",
+      "de": "Bestellen Sie zunächst eine kleine Packung ganzer Bohnen und notieren Sie das Röstdatum. Beginnen Sie mit dem veröffentlichten Onyx-Rezept für Ihre übliche Zubereitung. Stimmen Sie es dann auf den Geschmack in der Tasse ab und verwenden Sie unterschiedliche Mahlgrade für Filterkaffee und Espresso. Prüfen Sie, ob der Half-Caf zu der Tageszeit und den Geschmacksvorlieben passt, für die Sie ihn gewählt haben. Aus einem Koffeinmesswert für eine Beispielportion lässt sich nicht ableiten, wie Ihre eigene Tasse auf Sie wirkt.",
+      "fr": "Pour une première commande, prenez un petit sachet de café en grains et notez sa date de torréfaction. Commencez par la recette publiée par Onyx pour votre méthode habituelle. Ajustez-la ensuite selon le résultat en tasse et utilisez des réglages de mouture distincts pour le filtre et l’espresso. Voyez si ce mélange moitié décaféiné convient au moment de la journée et aux préférences gustatives qui vous ont motivé. Une mesure de caféine sur un échantillon ne permet pas de prévoir comment vous réagirez à votre propre tasse."
+    },
+    "54": {
+      "nl": "Counter Culture Even Keel is een andere half-cafoptie als het huidige smaakprofiel van de brander je meer aanspreekt of je een kleinere proefbestelling wilt doen. Als je cafeïne wilt vermijden, raadpleeg dan de decafgids en controleer het exacte huidige product en de methode. Gedecafeïneerde koffie kan nog wat cafeïne bevatten. Onyx Monarch is alleen geschikt als je espresso met de gebruikelijke hoeveelheid cafeïne wilt en het donkerdere smaakprofiel je meer aanspreekt. Deze vergelijking is gebaseerd op productinformatie. Coffeedant heeft de koffies niet naast elkaar geproefd.",
+      "de": "Counter Culture Even Keel ist eine andere Half-Caf-Option, wenn Sie das aktuelle Profil der Rösterei bevorzugen oder eine kleinere Probebestellung möchten. Wenn Sie Koffein möglichst vermeiden möchten, schauen Sie in den Ratgeber für entkoffeinierten Kaffee und prüfen Sie das konkrete aktuelle Produkt und das Verfahren. Entkoffeinierter Kaffee kann noch etwas Koffein enthalten. Onyx Monarch passt nur, wenn Sie Espresso mit regulärem Koffeingehalt möchten und Ihnen das dunklere Profil eher zusagt. Der Vergleich beruht auf Produktangaben. Coffeedant hat die Kaffees nicht nebeneinander verkostet.",
+      "fr": "Counter Culture Even Keel offre une autre option moitié décaféinée si vous préférez le profil actuel de son torréfacteur ou souhaitez une commande d’essai plus petite. Si vous cherchez à éviter la caféine, consultez le guide du décaféiné et vérifiez le produit exact actuellement vendu ainsi que son procédé. Un café décaféiné peut encore contenir un peu de caféine. Monarch d’Onyx convient uniquement si vous cherchez un espresso à teneur habituelle en caféine et préférez son profil plus foncé. Cette comparaison repose sur les fiches produits. Coffeedant n’a pas dégusté les cafés côte à côte."
+    },
+    "55": {
+      "nl": "Leid uit een oud gebruikersbericht over Power Nap niet af om welke Ethiopische of Colombiaanse oogst het vandaag precies gaat. Onyx noemt de koffie een vast onderdeel van het assortiment en gebruikt wisselende microlots. Controleer bij een herhaalbestelling de actuele productpagina en de doos met branddatum opnieuw voordat je uitgaat van een bepaalde herkomst, een recept of informatie over cafeïne.",
+      "de": "Schließen Sie aus einem älteren Erfahrungsbericht zu Power Nap nicht auf die genaue aktuelle Ernte in Äthiopien oder Kolumbien. Onyx bezeichnet den Kaffee als dauerhaftes Angebot und bezieht dafür wechselnde Mikrolots. Prüfen Sie bei einer erneuten Bestellung die aktuelle Produktseite und das Röstdatum auf der Schachtel, bevor Sie sich auf Angaben zu Herkunft, Rezept oder Koffein verlassen.",
+      "fr": "Un ancien témoignage sur Power Nap ne permet pas de déduire la récolte éthiopienne ou colombienne utilisée aujourd’hui. Onyx présente ce café comme une référence permanente et s’approvisionne en microlots qui changent. Avant de vous fier aux indications d’origine, de recette ou de caféine pour une nouvelle commande, revérifiez la fiche actuelle et la date de torréfaction sur la boîte."
+    },
+    "57": {
+      "nl": "Een andere kant-en-klare half-cafblend met een eigen smaakprofiel van de brander",
+      "de": "Eine weitere fertig gemischte Half-Caf-Option mit anderem Röstereiprofil",
+      "fr": "Un autre mélange moitié décaféiné prêt à l’emploi, au profil de torréfacteur différent"
+    },
+    "58": {
+      "nl": "Gids voor gedecafeïneerde koffie",
+      "de": "Ratgeber für entkoffeinierten Kaffee",
+      "fr": "Guide du café décaféiné"
+    },
+    "59": {
+      "nl": "Kies gedecafeïneerde koffie als half-caf nog te veel cafeïne bevat",
+      "de": "Wählen Sie entkoffeinierten Kaffee, wenn Half-Caf noch zu viel Koffein enthält",
+      "fr": "Choisissez un café décaféiné si un mélange moitié décaféiné contient encore trop de caféine"
+    },
+    "60": {
+      "nl": "Een donkerder alternatief van Onyx voor espresso met de gebruikelijke hoeveelheid cafeïne",
+      "de": "Eine dunklere Alternative von Onyx für Espresso mit regulärem Koffeingehalt",
+      "fr": "Une alternative plus foncée d’Onyx pour l’espresso, à teneur habituelle en caféine"
+    },
+    "61": {
+      "nl": "Veelgestelde vragen over Power Nap",
+      "de": "Häufige Fragen zu Power Nap",
+      "fr": "Questions fréquentes sur Power Nap"
+    },
+    "62": {
+      "nl": "Is Onyx Power Nap volledig gedecafeïneerd?",
+      "de": "Ist Onyx Power Nap vollständig entkoffeiniert?",
+      "fr": "Onyx Power Nap est-il entièrement décaféiné ?"
+    },
+    "63": {
+      "nl": "Nee. Onyx beschrijft een 50/50-melange van gewassen Ethiopische koffie met gewone cafeïne en Colombiaanse koffie die met de suikerrietmethode is gedecafeïneerd. De melange is bedoeld als half-caf en bevat cafeïne.",
+      "de": "Nein. Onyx beschreibt eine 50/50-Mischung aus gewaschenem äthiopischem Kaffee mit regulärem Koffeingehalt und kolumbianischem Kaffee, der mit dem Zuckerrohrverfahren entkoffeiniert wurde. Die Mischung ist als Half-Caf ausgelegt und enthält Koffein.",
+      "fr": "Non. Onyx décrit un mélange 50/50 de café lavé d’Éthiopie qui conserve sa caféine et de café colombien décaféiné selon le procédé à la canne à sucre. Le mélange est conçu pour être moitié décaféiné et contient de la caféine."
+    },
+    "64": {
+      "nl": "Hoeveel cafeïne zit er in een kop?",
+      "de": "Wie viel Koffein enthält eine Tasse?",
+      "fr": "Quelle quantité de caféine contient une tasse ?"
+    },
+    "65": {
+      "nl": "Onyx geeft een voorbeeldwaarde van 129 mg per bereide kop van 12 oz. Het werkelijke cafeïnegehalte hangt af van de bonen en de bereiding. Het is geen vaste persoonlijke dosis.",
+      "de": "Onyx nennt als Beispiel 129 mg pro zubereiteter Tasse mit 12 oz. Der tatsächliche Koffeingehalt hängt von den Bohnen und der Zubereitung ab. Der Wert ist keine feste persönliche Dosis.",
+      "fr": "Onyx indique une mesure de 129 mg pour une tasse préparée de 12 oz. La teneur réelle en caféine dépend du sachet et de la préparation. Ce chiffre ne constitue pas une dose individuelle fixe."
+    },
+    "66": {
+      "nl": "Onyx noemt bruine suiker, cacao, een zijdezacht mondgevoel, bloemen en perzik. Coffeedant heeft de huidige koffie niet geproefd.",
+      "de": "Onyx nennt braunen Zucker, Kakao, ein seidiges Mundgefühl, Blüten und Pfirsich. Coffeedant hat den aktuellen Kaffee nicht verkostet.",
+      "fr": "Onyx évoque la cassonade, le cacao, une texture soyeuse, des notes florales et la pêche. Coffeedant n’a pas dégusté le café actuel."
+    },
+    "67": {
+      "nl": "Kun je Power Nap gebruiken voor espresso?",
+      "de": "Eignet sich Power Nap für Espresso?",
+      "fr": "Peut-on utiliser Power Nap pour un espresso ?"
+    },
+    "68": {
+      "nl": "Onyx geeft voor espresso een startrecept van 19 g gemalen koffie voor 45 g drank. Stel het recept af op je eigen molen en machine. Gebruik de filterverhouding niet voor een shot.",
+      "de": "Onyx nennt für Espresso als Ausgangspunkt 19 g Kaffeemehl für 45 g Getränk. Stimmen Sie das Rezept auf Ihre Mühle und Maschine ab. Verwenden Sie das Filterverhältnis nicht für Espresso.",
+      "fr": "Onyx propose une recette de départ de 19 g de mouture pour 45 g en tasse. Ajustez-la à votre moulin et à votre machine. Évitez d’utiliser le ratio filtre pour un espresso."
+    },
+    "69": {
+      "nl": "Wat is het filterrecept van Onyx?",
+      "de": "Wie lautet das Filterrezept von Onyx?",
+      "fr": "Quelle est la recette filtre d’Onyx ?"
+    },
+    "70": {
+      "nl": "Voor de Kalita Wave begint Onyx met 25 g koffie op 400 g water bij 205°F, een verhouding van 1:16. Pas het recept aan je filterhouder en je smaak aan.",
+      "de": "Für die Kalita Wave nennt Onyx als Ausgangspunkt 25 g Kaffee auf 400 g Wasser bei 205°F, also ein Verhältnis von 1:16. Passen Sie das Rezept an Ihren Filter und Ihren Geschmack an.",
+      "fr": "Pour la Kalita Wave, Onyx recommande de commencer avec 25 g de café pour 400 g d’eau à 205°F, soit un ratio de 1:16. Ajustez la recette à votre porte-filtre et à votre goût."
+    },
+    "71": {
+      "nl": "Onyx raadt aan een geopende zak van 10 oz opgerold in de doos te bewaren en grotere zakken in een luchtdichte bewaardoos over te doen. Controleer de branddatum en bewaar de bonen afgesloten, uit de buurt van warmte en vocht.",
+      "de": "Onyx empfiehlt, den geöffneten Beutel mit 10 oz eingerollt in der Schachtel aufzubewahren und für größere Beutel einen luftdichten Behälter zu verwenden. Prüfen Sie das Röstdatum und lagern Sie die Bohnen verschlossen und vor Wärme und Feuchtigkeit geschützt.",
+      "fr": "Onyx conseille de garder le sachet ouvert de 10 oz roulé dans sa boîte ou d’utiliser un contenant hermétique pour les formats plus grands. Vérifiez la date de torréfaction et conservez les grains dans un contenant fermé, à l’abri de la chaleur et de l’humidité."
+    },
+    "72": {
+      "nl": "Officiële Amerikaanse product- en bereidingsinformatie voor Onyx Power Nap",
+      "de": "Offizielle US-Produkt- und Zubereitungsangaben zu Onyx Power Nap",
+      "fr": "Fiche officielle américaine et consignes de préparation d’Onyx Power Nap"
+    },
+    "73": {
+      "nl": "Huidige samenstelling, herkomst, branding, proefnotities van Onyx, voorbeeldwaarde voor cafeïne, filter- en espressorecept, productidentificatie en beeldmateriaal met bronvermelding. De dynamische winkelwagen geeft geen betrouwbare prijs voor een gekozen formaat. Gecontroleerd op 2026-11-12.",
+      "de": "Aktuelle Zusammensetzung, Herkunft, Röstung, Geschmacksnotizen der Rösterei, Koffeinmesswert für eine Beispielportion, Filter- und Espressorezept, Produktidentität und Bildmaterial mit Quellenangabe. Der dynamische Warenkorb liefert keinen verlässlichen Preis für eine gewählte Packungsgröße. Geprüft am 2026-11-12.",
+      "fr": "Composition actuelle, origine, torréfaction, notes du torréfacteur, exemple de mesure de caféine, recettes filtre et espresso, identification du produit et visuels crédités. Le panier dynamique ne fournit pas de prix fiable pour un format choisi. Vérification le 2026-11-12."
+    },
+    "74": {
+      "nl": "Zetgids van Onyx voor Power Nap",
+      "de": "Onyx-Zubereitungsanleitung für Power Nap",
+      "fr": "Guide de préparation Onyx pour Power Nap"
+    },
+    "75": {
+      "nl": "Afzonderlijke startverhoudingen van 25:400 voor Kalita en 19:45 voor espresso. Dit zijn geen bereidingsresultaten van Coffeedant. Gecontroleerd op 2026-11-12.",
+      "de": "Getrennte Ausgangsverhältnisse von 25:400 für Kalita und 19:45 für Espresso. Coffeedant hat damit keine eigenen Zubereitungsergebnisse ermittelt. Geprüft am 2026-11-12.",
+      "fr": "Points de départ distincts de 25:400 pour la Kalita et 19:45 pour l’espresso. Coffeedant n’a pas préparé le café pour vérifier ces recettes. Vérification le 2026-11-12."
+    },
+    "76": {
+      "nl": "Discussie op r/espresso over ervaringen met half-caf",
+      "de": "Erfahrungsdiskussion zu Half-Caf auf r/espresso",
+      "fr": "Discussion entre utilisateurs de r/espresso sur les cafés moitié décaféinés"
+    },
+    "77": {
+      "nl": "Eén gebruiker deelde uit eigen beweging dat Power Nap in de smaak viel, maar vond het voor regelmatig gebruik te duur. Dit levert geen representatief smaakoordeel of conclusie over slaap op. Gecontroleerd op 2026-11-12.",
+      "de": "Eine Person berichtete freiwillig, dass ihr Power Nap schmeckte, bezweifelte aber, dass er sich für den regelmäßigen Gebrauch lohnt. Daraus lässt sich weder ein repräsentatives Geschmacksurteil noch ein Schluss über den Schlaf ableiten. Geprüft am 2026-11-12.",
+      "fr": "Une personne a spontanément indiqué qu’elle appréciait Power Nap, mais doutait de son intérêt au quotidien compte tenu du prix. Son avis ne permet de tirer aucune conclusion représentative sur le goût ou le sommeil. Vérification le 2026-11-12."
+    },
+    "78": {
+      "nl": "Aanbevelingen van gebruikers op r/Coffee over half-caf",
+      "de": "Empfehlungen zu Half-Caf von Nutzerinnen und Nutzern auf r/Coffee",
+      "fr": "Recommandations d’utilisateurs de r/Coffee sur les cafés moitié décaféinés"
+    },
+    "79": {
+      "nl": "Oudere positieve opmerkingen van gebruikers zonder vergelijking onder gecontroleerde omstandigheden of met de huidige partij. Gecontroleerd op 2026-11-12.",
+      "de": "Ältere positive Erfahrungsberichte ohne kontrollierten Vergleich oder Vergleich mit der aktuellen Charge. Geprüft am 2026-11-12.",
+      "fr": "Anciens commentaires favorables, sans comparaison contrôlée ni comparaison avec le lot actuel. Vérification le 2026-11-12."
+    },
+    "80": {
+      "nl": "Veelgestelde vragen over ondersteuning en bewaren bij Onyx Coffee Lab",
+      "de": "Häufige Fragen zu Kundenservice und Lagerung bei Onyx Coffee Lab",
+      "fr": "FAQ d’Onyx Coffee Lab sur l’assistance et la conservation"
+    },
+    "81": {
+      "nl": "Informatie over verzending na branden op bestelling en bewaren van geopende zakken. De adviezen gelden voor de door Onyx beschreven praktijk bij rechtstreekse bestellingen. Gecontroleerd op 2026-11-12.",
+      "de": "Angaben zum Versand nach auftragsbezogener Röstung und zur Lagerung geöffneter Beutel. Sie beziehen sich auf die von Onyx beschriebene Praxis bei Direktbestellungen. Geprüft am 2026-11-12.",
+      "fr": "Indications sur l’expédition après torréfaction à la demande et la conservation des sachets ouverts. Elles se limitent aux pratiques annoncées par Onyx pour les commandes directes. Vérification le 2026-11-12."
+    },
+    "82": {
+      "nl": "Review van Counter Culture Even Keel",
+      "de": "Besprechung von Counter Culture Even Keel",
+      "fr": "Avis sur Counter Culture Even Keel"
+    },
+    "83": {
+      "nl": "Een andere half-caf die Coffeedant al heeft besproken. Bekijk vóór aankoop de actuele officiële productinformatie van de brander. Gecontroleerd op 2026-11-12.",
+      "de": "Eine bereits bei Coffeedant besprochene Half-Caf-Alternative. Prüfen Sie vor dem Kauf die aktuellen offiziellen Angaben der Rösterei. Geprüft am 2026-11-12.",
+      "fr": "Un autre mélange moitié décaféiné déjà présenté par Coffeedant. Consultez la fiche officielle actuelle du torréfacteur avant l’achat. Vérification le 2026-11-12."
+    },
+    "84": {
+      "nl": "Discussie op r/espresso over het afstellen van Power Nap",
+      "de": "Diskussion auf r/espresso zum Einjustieren von Power Nap",
+      "fr": "Discussion sur r/espresso sur les réglages pour Power Nap"
+    },
+    "85": {
+      "nl": "Een gebruiker meldde in februari 2026 uit eigen beweging zure, waterige shots met een bepaald recept. Dit is geen representatieve of gecontroleerde proeverij en beschrijft niet de smaak van de huidige partij. Gecontroleerd op 2026-11-12.",
+      "de": "Eine Person berichtete im Februar 2026 freiwillig von sauren, wässrigen Espressi mit einem bestimmten Rezept. Der Bericht ist weder repräsentativ noch kontrolliert und enthält kein sensorisches Ergebnis zur aktuellen Charge. Geprüft am 2026-11-12.",
+      "fr": "En février 2026, une personne a spontanément signalé des espressos acides et aqueux avec une recette donnée. Ce retour ne constitue ni une dégustation représentative ou contrôlée ni une évaluation sensorielle du lot actuel. Vérification le 2026-11-12."
+    },
+    "86": {
+      "nl": "Probeer half-caf met bescheiden verwachtingen over cafeïne",
+      "de": "Half-Caf ausprobieren und beim Koffein mit Schwankungen rechnen",
+      "fr": "Essayer un mélange moitié décaféiné en gardant des attentes mesurées sur la caféine"
+    },
+    "87": {
+      "nl": "Power Nap is een praktische kant-en-klare half-caf voor wie filterkoffie én espresso zet en het prima vindt dat de partijen wisselen. Kies een kleine, verse zak en gebruik het passende startrecept van Onyx. Kies Even Keel voor een ander half-cafprofiel of gedecafeïneerde koffie als minder cafeïne het belangrijkste doel blijft.",
+      "de": "Power Nap ist eine praktische, fertig gemischte Half-Caf-Option für alle, die Filterkaffee und Espresso zubereiten und wechselnde Chargen akzeptieren. Wählen Sie eine kleine, frische Packung und das passende Ausgangsrezept von Onyx. Für ein anderes Half-Caf-Profil bietet sich Even Keel an. Wenn weniger Koffein im Vordergrund steht, wählen Sie einen entkoffeinierten Kaffee.",
+      "fr": "Power Nap est un mélange moitié décaféiné prêt à l’emploi pour qui prépare du café filtre et de l’espresso et accepte que les lots changent. Choisissez un petit sachet frais et la recette de départ adaptée d’Onyx. Essayez Even Keel pour un autre profil moitié décaféiné ou choisissez un décaféiné si réduire la caféine reste votre priorité."
+    },
+    "88": {
+      "nl": "Bekijk Power Nap bij de brander",
+      "de": "Power Nap bei der Rösterei ansehen",
+      "fr": "Voir Power Nap chez le torréfacteur"
+    },
+    "91": {
+      "nl": "Officiële productafbeelding van Onyx Coffee Lab, op 12 november 2026 gecontroleerd ter identificatie van het product. De afbeelding toont geen aankoop, bereiding of proeverij door Coffeedant.",
+      "de": "Offizielles Produktbild von Onyx Coffee Lab, am 12. November 2026 zur Identifizierung des Produkts geprüft. Es zeigt weder einen Kauf noch eine Zubereitung oder Verkostung durch Coffeedant.",
+      "fr": "Visuel officiel d’Onyx Coffee Lab, vérifié le 12 novembre 2026 pour identifier le produit. Il ne montre aucun achat, aucune préparation ni dégustation par Coffeedant."
+    }
+  }
+}
