@@ -5172,6 +5172,20 @@ Coverage is NL 17,809 translated and 43,192 pending, DE 17,830 translated and
 43,171 pending, and FR 17,669 translated and 43,332 pending. Finder translation
 coverage is complete. NL has 455 pages left and DE and FR have 456 each.
 
+### Direct batch 130 — Breville Oracle Jet BES985 video companions (2026-11-13)
+
+Complete the OtherSteve's Reviews and Tom's Coffee Corner video companions in Dutch,
+German and French. Preserve the original embeds, timestamps, visible dates
+and attribution. The companion links open the unfinished written review on
+its English canonical URL with the regional edition notice. Preserve the
+registered Dutch and German URLs and follow the existing French companion path.
+
+The source has 699 pages and 61,001 segments. NL can render 245 indexable
+pages and DE and FR can render 244 each, plus a localized 404 for each edition.
+Coverage is NL 17,839 translated and 43,162 pending, DE 17,860 translated and
+43,141 pending, and FR 17,699 translated and 43,302 pending. Finder translation
+coverage is complete. NL has 453 pages left and DE and FR have 454 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
