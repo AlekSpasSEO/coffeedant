@@ -5258,6 +5258,20 @@ Coverage is NL 17,964 translated and 43,039 pending, DE 18,157 translated and
 includes the preceding cache update. Finder translation coverage is complete.
 NL has 444 pages left and DE and FR have 445 each.
 
+### Direct batch 136 — Flair PRO 2 and Profitec GO video companions (2026-11-13)
+
+Complete Tom's Coffee Corner's Flair PRO 2 companion and The Real
+Sprometheus's original-generation Profitec GO companion in Dutch, German and
+French. Preserve the embeds, publication dates, model scope, attribution and
+Flair affiliate disclosure. The written review links open their English sources
+while translations are pending.
+
+The source has 699 pages and 61,003 segments. NL can render 256 indexable
+pages and DE and FR can render 255 each, plus a localized 404 for each edition.
+Coverage is NL 17,990 translated and 43,013 pending, DE 18,183 translated and
+42,820 pending, and FR 17,850 translated and 43,153 pending. Finder translation
+coverage is complete. NL has 442 pages left and DE and FR have 443 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
