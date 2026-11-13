@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "ecm-puristika-videos-batch-145.source.json",
+  "snapshotHash": "58869a79c2dc3a8ba09c90129827c24daa4301a867ff217cc03b5171f4e6fa27",
+  "routes": {
+    "nl": {
+      "/espresso-machine/ecm-puristika/video/clive-coffee/": "/espresso-machine/ecm-puristika/video/clive-coffee/",
+      "/espresso-machine/ecm-puristika/video/whole-latte-love/": "/espresso-machine/ecm-puristika/video/whole-latte-love/"
+    },
+    "fr": {
+      "/espresso-machine/ecm-puristika/video/clive-coffee/": "/machine-a-espresso/ecm-puristika/video/clive-coffee/",
+      "/espresso-machine/ecm-puristika/video/whole-latte-love/": "/machine-a-espresso/ecm-puristika/video/whole-latte-love/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "Review van de ECM Puristika-espressomachine",
+      "de": "Die ECM Puristika Espressomaschine im Test",
+      "fr": "Essai de la machine à espresso ECM Puristika"
+    },
+    "1": {
+      "nl": "17 maart 2022",
+      "de": "17. März 2022",
+      "fr": "17 mars 2022"
+    },
+    "2": {
+      "nl": "In deze review laat een gespecialiseerde winkel de compacte behuizing, het externe glazen waterreservoir, de PID-regeling, de drukregeling en de extractie zien. De video toont ook hoe je met deze machine uitsluitend espresso bereidt. De beelden komen niet uit een test van Coffeedant.",
+      "de": "Ein Fachhändler zeigt in seinem Test das kompakte Gehäuse, den externen Glaswassertank, die PID-Regelung, die Druckregelung und die Extraktion. Er zeigt auch den Ablauf bei einer Maschine, die ausschließlich Espresso zubereitet. Die Aufnahmen stammen nicht aus einem Test von Coffeedant.",
+      "fr": "Dans cet essai, un revendeur spécialisé montre le boîtier compact, le réservoir d’eau externe en verre, la régulation PID, le réglage de la pression et l’extraction. Il montre aussi comment utiliser cette machine dédiée exclusivement à l’espresso. Ces images ne proviennent pas d’un essai de Coffeedant."
+    },
+    "5": {
+      "nl": "ECM Puristika: zo werkt de ECM Puristika · Clive Coffee (2022-02-18) | Coffeedant",
+      "de": "ECM Puristika: So funktioniert die ECM Puristika · Clive Coffee (2022-02-18) | Coffeedant",
+      "fr": "ECM Puristika : comment fonctionne l’ECM Puristika · Clive Coffee (2022-02-18) | Coffeedant"
+    },
+    "6": {
+      "nl": "Bekijk de video van Clive Coffee over de ECM Puristika (2022-02-18): zo werkt de ECM Puristika. Clive Coffee presenteert de ECM Puristika en laat zien hoe je er espresso mee zet. Dit is het perspectief van een verkoper van koffiemachines. Bekijk de video samen met de andere bronnen en onze geschreven review.",
+      "de": "Sehen Sie das Video von Clive Coffee zur ECM Puristika (2022-02-18): So funktioniert die ECM Puristika. Clive Coffee stellt die ECM Puristika vor und zeigt die Espressozubereitung. Das ist die Sicht eines Händlers für Kaffeemaschinen. Ziehen Sie auch die anderen Quellen und unseren schriftlichen Testbericht heran.",
+      "fr": "Regardez la vidéo de Clive Coffee sur l’ECM Puristika (2022-02-18) : comment fonctionne l’ECM Puristika. Clive Coffee présente l’ECM Puristika et montre comment préparer un espresso. La vidéo présente le point de vue d’un vendeur de machines à café. Consultez-la en complément des autres sources et de notre essai écrit."
+    },
+    "8": {
+      "nl": "Video van Clive Coffee over de ECM Puristika",
+      "de": "Video von Clive Coffee zur ECM Puristika",
+      "fr": "Vidéo de Clive Coffee sur l’ECM Puristika"
+    },
+    "9": {
+      "nl": "← Review van de ECM Puristika",
+      "de": "← Testbericht zur ECM Puristika",
+      "fr": "← Essai de l’ECM Puristika"
+    },
+    "10": {
+      "nl": "Clive Coffee legt uit hoe de ECM Puristika werkt",
+      "de": "Clive Coffee zeigt, wie die ECM Puristika funktioniert",
+      "fr": "Clive Coffee explique le fonctionnement de l’ECM Puristika"
+    },
+    "11": {
+      "nl": "ECM Puristika · Perspectief van de verkoper",
+      "de": "ECM Puristika · Aus Sicht eines Händlers",
+      "fr": "ECM Puristika · Point de vue du revendeur"
+    },
+    "12": {
+      "nl": "Zo werkt de ECM Puristika",
+      "de": "So funktioniert die ECM Puristika",
+      "fr": "Comment fonctionne l’ECM Puristika"
+    },
+    "13": {
+      "nl": "18 februari 2022",
+      "de": "18. Februar 2022",
+      "fr": "18 février 2022"
+    },
+    "14": {
+      "nl": "Clive Coffee presenteert de ECM Puristika en laat zien hoe je er espresso mee zet. Dit is het perspectief van een verkoper van koffiemachines. Bekijk de video samen met de andere bronnen en onze geschreven review.",
+      "de": "Clive Coffee stellt die ECM Puristika vor und zeigt die Espressozubereitung. Das ist die Sicht eines Händlers für Kaffeemaschinen. Ziehen Sie auch die anderen Quellen und unseren schriftlichen Testbericht heran.",
+      "fr": "Clive Coffee présente l’ECM Puristika et montre comment préparer un espresso. La vidéo présente le point de vue d’un vendeur de machines à café. Consultez-la en complément des autres sources et de notre essai écrit."
+    },
+    "20": {
+      "nl": "ECM Puristika: review van de espressomachine · Whole Latte Love (2022-03-17) | Coffeedant",
+      "de": "ECM Puristika: Die Espressomaschine im Test · Whole Latte Love (2022-03-17) | Coffeedant",
+      "fr": "ECM Puristika : essai de la machine à espresso · Whole Latte Love (2022-03-17) | Coffeedant"
+    },
+    "21": {
+      "nl": "Bekijk de video van Whole Latte Love over de ECM Puristika (2022-03-17): review van de espressomachine. In deze review laat een gespecialiseerde winkel de compacte behuizing, het externe glazen waterreservoir, de PID-regeling, de drukregeling en de extractie zien. De video toont ook hoe je met deze machine uitsluitend espresso bereidt. De beelden komen niet uit een test van Coffeedant.",
+      "de": "Sehen Sie das Video von Whole Latte Love zur ECM Puristika (2022-03-17): Die Espressomaschine im Test. Ein Fachhändler zeigt in seinem Test das kompakte Gehäuse, den externen Glaswassertank, die PID-Regelung, die Druckregelung und die Extraktion. Er zeigt auch den Ablauf bei einer Maschine, die ausschließlich Espresso zubereitet. Die Aufnahmen stammen nicht aus einem Test von Coffeedant.",
+      "fr": "Regardez la vidéo de Whole Latte Love sur l’ECM Puristika (2022-03-17) : essai de la machine à espresso. Dans cet essai, un revendeur spécialisé montre le boîtier compact, le réservoir d’eau externe en verre, la régulation PID, le réglage de la pression et l’extraction. Il montre aussi comment utiliser cette machine dédiée exclusivement à l’espresso. Ces images ne proviennent pas d’un essai de Coffeedant."
+    },
+    "23": {
+      "nl": "Video van Whole Latte Love over de ECM Puristika",
+      "de": "Video von Whole Latte Love zur ECM Puristika",
+      "fr": "Vidéo de Whole Latte Love sur l’ECM Puristika"
+    },
+    "24": {
+      "nl": "Review van de ECM Puristika-espressomachine door Whole Latte Love",
+      "de": "Whole Latte Love testet die ECM Puristika Espressomaschine",
+      "fr": "Essai de la machine à espresso ECM Puristika par Whole Latte Love"
+    }
+  }
+}
