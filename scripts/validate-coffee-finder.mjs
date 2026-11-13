@@ -36,6 +36,10 @@ for (const slug of ['ecm-puristika', 'quick-mill-carola-evo']) {
   assert.equal(catalog.items.find(r => r.path === `/espresso-machine/${slug}/`)?.drink, 'espresso', slug);
 }
 assert.equal(catalog.items.find(r => r.path === '/espresso-machine/9barista-mk2/')?.grinder, 'separate');
+assert.equal(catalog.items.find(r => r.path === '/espresso-machine/ninja-luxe-cafe-mini-es301/')?.drink, 'mixed', 'ES301 makes straight espresso and has manual steam');
+const accademia = catalog.items.find(r => r.path === '/espresso-machine/gaggia-accademia-ri9781-01/');
+assert.equal(accademia?.priceLabel, 'Check current UK price', 'dated UK sale stays out of the finder');
+assert.equal(accademia?.priceUsd, null, 'UK variant is excluded from US budget bands');
 for (const slug of ['melitta-cafina-ct8', 'melitta-cafina-xt6-bes870', 'melitta-cafina-xt7']) {
   assert.equal(catalog.items.find(r => r.path === `/espresso-machine/${slug}/`)?.grinder, 'built-in', slug);
 }
