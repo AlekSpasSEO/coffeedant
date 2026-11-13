@@ -5215,6 +5215,20 @@ Coverage is NL 17,886 translated and 43,117 pending, DE 17,907 translated and
 43,096 pending, and FR 17,746 translated and 43,257 pending. Finder translation
 coverage is complete. NL has 450 pages left and DE and FR have 451 each.
 
+### Direct batch 133 — Gaggia Classic GT video companions (2026-11-13)
+
+Complete the Lance Hedrick and Whole Latte Love video companions in Dutch,
+German and French. Keep the original embeds, timestamps, creator attribution
+and Whole Latte Love's retailer disclosure and non-North American model scope.
+The written review links open the English source while its translations are
+pending. New Dutch and French routes follow the live Coffee Kev companion.
+
+The source has 699 pages and 61,003 segments. NL can render 250 indexable
+pages and DE and FR can render 249 each, plus a localized 404 for each edition.
+Coverage is NL 17,912 translated and 43,091 pending, DE 17,933 translated and
+43,070 pending, and FR 17,772 translated and 43,231 pending. Finder translation
+coverage is complete. NL has 448 pages left and DE and FR have 449 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
