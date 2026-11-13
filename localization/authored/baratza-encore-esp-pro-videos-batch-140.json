@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "baratza-encore-esp-pro-videos-batch-140.source.json",
+  "snapshotHash": "9b17609554a562a187f7a60b8c22ffe27b2be36fb99644f4e6fea3503a3df37a",
+  "routes": {
+    "nl": {
+      "/grinder/baratza-encore-esp-pro/video/coffee-kev/": "/koffiemolens/baratza-encore-esp-pro/video/coffee-kev/",
+      "/grinder/baratza-encore-esp-pro/video/lance-hedrick/": "/koffiemolens/baratza-encore-esp-pro/video/lance-hedrick/"
+    },
+    "de": {
+      "/grinder/baratza-encore-esp-pro/video/lance-hedrick/": "/mahlwerk/baratza-encore-esp-pro/video/lance-hedrick/"
+    },
+    "fr": {
+      "/grinder/baratza-encore-esp-pro/video/coffee-kev/": "/moulin-a-cafe/baratza-encore-esp-pro/video/coffee-kev/",
+      "/grinder/baratza-encore-esp-pro/video/lance-hedrick/": "/moulin-a-cafe/baratza-encore-esp-pro/video/lance-hedrick/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "Review van de Baratza Encore ESP Pro. Verrassend!",
+      "de": "Die Baratza Encore ESP Pro im Test. Überraschend!",
+      "fr": "Essai du Baratza Encore ESP Pro. Surprenant !"
+    },
+    "1": {
+      "nl": "4 januari 2026",
+      "de": "4. Januar 2026",
+      "fr": "4 janvier 2026"
+    },
+    "2": {
+      "nl": "Een onafhankelijke video over dit specifieke model, met aandacht voor de bediening, espresso, het bereik van de maalstanden, retentie en de verschillende standen. De bevindingen van de maker komen niet uit tests van Coffeedant en geven geen representatief beeld van de betrouwbaarheid.",
+      "de": "Ein unabhängiges Video zu genau diesem Modell. Es behandelt die Bedienung, Espresso, den Mahlgradbereich, die im Mahlwerk verbleibende Menge und die Betriebsarten. Die Beobachtungen des Videoautors stammen nicht aus Tests von Coffeedant und liefern keine repräsentativen Daten zur Zuverlässigkeit.",
+      "fr": "Une vidéo indépendante sur ce modèle précis, qui traite de l’utilisation, de l’espresso, de la plage de réglage de la mouture, de la rétention et des modes de fonctionnement. Les observations du créateur ne proviennent pas d’essais de Coffeedant et ne constituent pas des données représentatives sur la fiabilité."
+    },
+    "5": {
+      "nl": "Baratza Encore ESP Pro: Review van de Baratza Encore ESP Pro. Verrassend! · Coffee Kev (2026-01-04) | Coffeedant",
+      "de": "Baratza Encore ESP Pro: Die Baratza Encore ESP Pro im Test. Überraschend! · Coffee Kev (2026-01-04) | Coffeedant",
+      "fr": "Baratza Encore ESP Pro: Essai du Baratza Encore ESP Pro. Surprenant ! · Coffee Kev (2026-01-04) | Coffeedant"
+    },
+    "6": {
+      "nl": "Bekijk de Baratza Encore ESP Pro met Coffee Kev (2026-01-04). Review van de Baratza Encore ESP Pro. Verrassend! Een onafhankelijke video over dit specifieke model, met aandacht voor de bediening, espresso, het bereik van de maalstanden, retentie en de verschillende standen. De bevindingen van de maker komen niet uit tests van Coffeedant en geven geen representatief beeld van de betrouwbaarheid.",
+      "de": "Sehen Sie die Baratza Encore ESP Pro bei Coffee Kev (2026-01-04). Die Baratza Encore ESP Pro im Test. Überraschend! Ein unabhängiges Video zu genau diesem Modell. Es behandelt die Bedienung, Espresso, den Mahlgradbereich, die im Mahlwerk verbleibende Menge und die Betriebsarten. Die Beobachtungen des Videoautors stammen nicht aus Tests von Coffeedant und liefern keine repräsentativen Daten zur Zuverlässigkeit.",
+      "fr": "Découvrez le Baratza Encore ESP Pro avec Coffee Kev (2026-01-04). Essai du Baratza Encore ESP Pro. Surprenant ! Une vidéo indépendante sur ce modèle précis, qui traite de l’utilisation, de l’espresso, de la plage de réglage de la mouture, de la rétention et des modes de fonctionnement. Les observations du créateur ne proviennent pas d’essais de Coffeedant et ne constituent pas des données représentatives sur la fiabilité."
+    },
+    "8": {
+      "nl": "Video over de Baratza Encore ESP Pro door Coffee Kev",
+      "de": "Video zur Baratza Encore ESP Pro von Coffee Kev",
+      "fr": "Vidéo de Coffee Kev sur le Baratza Encore ESP Pro"
+    },
+    "9": {
+      "nl": "Review van de Baratza Encore ESP Pro. Verrassend! · door Coffee Kev",
+      "de": "Die Baratza Encore ESP Pro im Test. Überraschend! · von Coffee Kev",
+      "fr": "Essai du Baratza Encore ESP Pro. Surprenant ! · par Coffee Kev"
+    },
+    "13": {
+      "nl": "Baratza Encore ESP Pro: Te weinig en te laat om nog mee te tellen? Review van de Baratza ESP Pro · Lance Hedrick (2025-07-16) | Coffeedant",
+      "de": "Baratza Encore ESP Pro: Zu wenig und zu spät, um noch relevant zu sein? Die Baratza ESP Pro im Test · Lance Hedrick (2025-07-16) | Coffeedant",
+      "fr": "Baratza Encore ESP Pro: Trop peu et trop tard pour rester dans la course ? Essai du Baratza ESP Pro · Lance Hedrick (2025-07-16) | Coffeedant"
+    },
+    "14": {
+      "nl": "Bekijk de Baratza Encore ESP Pro met Lance Hedrick (2025-07-16). Te weinig en te laat om nog mee te tellen? Review van de Baratza ESP Pro. Lance Hedrick toont de Baratza Encore ESP Pro en bespreekt espresso zetten. De demonstraties en meningen zijn van de maker zelf.",
+      "de": "Sehen Sie die Baratza Encore ESP Pro bei Lance Hedrick (2025-07-16). Zu wenig und zu spät, um noch relevant zu sein? Die Baratza ESP Pro im Test. Lance Hedrick stellt die Baratza Encore ESP Pro vor und behandelt die Espressozubereitung. Die Vorführungen und Einschätzungen stammen vom Videoautor.",
+      "fr": "Découvrez le Baratza Encore ESP Pro avec Lance Hedrick (2025-07-16). Trop peu et trop tard pour rester dans la course ? Essai du Baratza ESP Pro. Lance Hedrick présente le Baratza Encore ESP Pro et aborde la préparation de l’espresso. Les démonstrations et les avis sont ceux du créateur."
+    },
+    "16": {
+      "nl": "Video over de Baratza Encore ESP Pro door Lance Hedrick",
+      "de": "Video zur Baratza Encore ESP Pro von Lance Hedrick",
+      "fr": "Vidéo de Lance Hedrick sur le Baratza Encore ESP Pro"
+    },
+    "17": {
+      "nl": "Te weinig en te laat om nog mee te tellen? Review van de Baratza ESP Pro · door Lance Hedrick",
+      "de": "Zu wenig und zu spät, um noch relevant zu sein? Die Baratza ESP Pro im Test · von Lance Hedrick",
+      "fr": "Trop peu et trop tard pour rester dans la course ? Essai du Baratza ESP Pro · par Lance Hedrick"
+    },
+    "18": {
+      "nl": "Te weinig en te laat om nog mee te tellen? Review van de Baratza ESP Pro",
+      "de": "Zu wenig und zu spät, um noch relevant zu sein? Die Baratza ESP Pro im Test",
+      "fr": "Trop peu et trop tard pour rester dans la course ? Essai du Baratza ESP Pro"
+    },
+    "19": {
+      "nl": "16 juli 2025",
+      "de": "16. Juli 2025",
+      "fr": "16 juillet 2025"
+    },
+    "20": {
+      "nl": "Lance Hedrick toont de Baratza Encore ESP Pro en bespreekt espresso zetten. De demonstraties en meningen zijn van de maker zelf.",
+      "de": "Lance Hedrick stellt die Baratza Encore ESP Pro vor und behandelt die Espressozubereitung. Die Vorführungen und Einschätzungen stammen vom Videoautor.",
+      "fr": "Lance Hedrick présente le Baratza Encore ESP Pro et aborde la préparation de l’espresso. Les démonstrations et les avis sont ceux du créateur."
+    }
+  }
+}

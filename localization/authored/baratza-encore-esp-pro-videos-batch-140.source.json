@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/grinder/baratza-encore-esp-pro/video/coffee-kev/",
+      "sourceHash": "2ddd5c4e07eb294c6c5b6385310b803c61f00bd29c9a16575fa188aadcd00475"
+    },
+    {
+      "sourcePath": "/grinder/baratza-encore-esp-pro/video/lance-hedrick/",
+      "sourceHash": "c8780199a5d69386f5479b1e9904f080304a12606c1a9cf4704bd60fe9ececbf"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "41926a83f2f6829af5f6bffd21d5be7ecee9e11228b77e307d56f506894d08ca",
+      "source": "Baratza Encore ESP Pro Review. Surprising!",
+      "kind": "text",
+      "context": "Baratza Encore ESP Pro Review. Surprising!"
+    },
+    {
+      "id": "c0120af9c60962356f45c3ac13d8e42876b650d41e6037e9eccb039866dd6aa1",
+      "source": "January 4, 2026",
+      "kind": "text",
+      "context": "January 4, 2026"
+    },
+    {
+      "id": "f10c4c8c971f99937f5c36b0d7197c1fd93ccfed6b440e0b011118edd56725f2",
+      "source": "Independent exact-model video covering operation, espresso, grind range, retention and modes. The creator’s observations are not Coffeedant tests or representative reliability data.",
+      "kind": "text",
+      "context": "Independent exact-model video covering operation, espresso, grind range, retention and modes. The creator’s observations are not Coffeedant tests or representative reliability data."
+    },
+    {
+      "id": "c431453691b2c2ecc13339274109ac0aae6b9969982a24756f8cc3aada8d4423",
+      "source": "Baratza Encore ESP Pro Review. Surprising!",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "67436c06571dd6e4acef77cfa4519c26393b1c9bf4871f7ccea5c8ef1aa21633",
+      "source": "Independent exact-model video covering operation, espresso, grind range, retention and modes. The creator’s observations are not Coffeedant tests or representative reliability data.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "16fcfef30a4bcdefb3556ea82bc96889e0c1ec4e7b32a224be115a2a090318fc",
+      "source": "Baratza Encore ESP Pro: Baratza Encore ESP Pro Review. Surprising! · Coffee Kev (2026-01-04) | Coffeedant",
+      "kind": "text",
+      "context": "Baratza Encore ESP Pro: Baratza Encore ESP Pro Review. Surprising! · Coffee Kev (2026-01-04) | Coffeedant"
+    },
+    {
+      "id": "d981687c4897c3eb8a5a42fc857ec303c33e5250bc4c3960fb1582f8a4ff4ed6",
+      "source": "Watch Coffee Kev on Baratza Encore ESP Pro (2026-01-04): Baratza Encore ESP Pro Review. Surprising!. Independent exact-model video covering operation, espresso, grind range, retention and modes. The creator’s observations are not Coffeedant tests or representative reliability data.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "7809fd69cb53b10e61ac723d39babec883a9559e949e02ebc6e7ab9346ee40e9",
+      "source": "Baratza Encore ESP Pro: Baratza Encore ESP Pro Review. Surprising! · Coffee Kev (2026-01-04) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "f7930d82d0c336c1cb3e5d8361dd463c9a3b8f1bf7adec14899e308c6b1d67c6",
+      "source": "Baratza Encore ESP Pro video by Coffee Kev",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "262fe243a4fb6b339627485a391ffafde91e8e578da15908484b717a1cf3d017",
+      "source": "Baratza Encore ESP Pro Review. Surprising! by Coffee Kev",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "6b93483489712089861a212a85a66fd0bb68f6b42b27ecaa73d414e79b26cb60",
+      "source": "Baratza Encore ESP Pro: Baratza Encore ESP Pro Review. Surprising! · Coffee Kev (2026-01-04) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "58f114434230bc7fffae98a65a22c6a96d5143277c7af0275944937937697dbb",
+      "source": "Watch Coffee Kev on Baratza Encore ESP Pro (2026-01-04): Baratza Encore ESP Pro Review. Surprising!. Independent exact-model video covering operation, espresso, grind range, retention and modes. The creator’s observations are not Coffeedant tests or representative reliability data.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "174f9087b33fb134e2a6b0573478b4e48b0c7f4046169a2af9e379e166344513",
+      "source": "Baratza Encore ESP Pro video by Coffee Kev",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "6f7c2eaef13d308dfa449f195e21ac2a632535a2412479303d504405a91a3ac1",
+      "source": "Baratza Encore ESP Pro: Too Little, Too Late for Relevance? Baratza ESP Pro Review · Lance Hedrick (2025-07-16) | Coffeedant",
+      "kind": "text",
+      "context": "Baratza Encore ESP Pro: Too Little, Too Late for Relevance? Baratza ESP Pro Review · Lance Hedrick (2025-07-16) | Coffeedant"
+    },
+    {
+      "id": "b8525b3eacddfd90e1c6f84d02890cfe613c90cd3d945f6e1a236b1972b6eb45",
+      "source": "Watch Lance Hedrick on Baratza Encore ESP Pro (2025-07-16): Too Little, Too Late for Relevance? Baratza ESP Pro Review. Lance Hedrick presents Baratza Encore ESP Pro, covering espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "d654a10fcff6a848ca2db99aee409ece80a0f467f4f0be0ad8c022a9b23d285d",
+      "source": "Baratza Encore ESP Pro: Too Little, Too Late for Relevance? Baratza ESP Pro Review · Lance Hedrick (2025-07-16) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "d727a1a89c0053535f9cd80570efdb9a05b857020c84bf2c3bf1a6383f8ee929",
+      "source": "Baratza Encore ESP Pro video by Lance Hedrick",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "b4994d41f65ff25cc9c496d077e3d63337263bd07dde3cfecbe77ac51705f8e4",
+      "source": "Too Little, Too Late for Relevance? Baratza ESP Pro Review by Lance Hedrick",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "34fa04f9eebe0eeee2beaa28d63449d3531614e9bd67c128656feef93ec2661c",
+      "source": "Too Little, Too Late for Relevance? Baratza ESP Pro Review",
+      "kind": "text",
+      "context": "Too Little, Too Late for Relevance? Baratza ESP Pro Review"
+    },
+    {
+      "id": "c2c81173e8ba0fe6335aafe3e1303b523c63834960be181fd6265e14e269b1e6",
+      "source": "July 16, 2025",
+      "kind": "text",
+      "context": "July 16, 2025"
+    },
+    {
+      "id": "6b38a38c34bd3ec939e0980b048beeaca02cca0fdd445e7479f21b1affb04453",
+      "source": "Lance Hedrick presents Baratza Encore ESP Pro, covering espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Lance Hedrick presents Baratza Encore ESP Pro, covering espresso preparation. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "b48d4d97276bae644a6f1b08d334c3db0e84f2726a0c972265e74beeb5fc12bf",
+      "source": "Baratza Encore ESP Pro: Too Little, Too Late for Relevance? Baratza ESP Pro Review · Lance Hedrick (2025-07-16) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "1af27829209a13cfdde3bbaa3e923f8f237bb5b963305fa6ea2d824bcb4a34c8",
+      "source": "Watch Lance Hedrick on Baratza Encore ESP Pro (2025-07-16): Too Little, Too Late for Relevance? Baratza ESP Pro Review. Lance Hedrick presents Baratza Encore ESP Pro, covering espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "e222ad41ae999490d9e7a0cd4379db9560d31cdec079ae5ec8a9ecc9b04741e7",
+      "source": "Baratza Encore ESP Pro video by Lance Hedrick",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "9d492ad2d058decf6c7d5d05f7ffe9e62df20e1f426ae7c9f598be84e151e499",
+      "source": "Too Little, Too Late for Relevance? Baratza ESP Pro Review",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "e8c9db3dd5624fdfb7c6c529c9c03b0c2ca87447a267b9df1cb80dc60d8a8991",
+      "source": "Lance Hedrick presents Baratza Encore ESP Pro, covering espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "9b17609554a562a187f7a60b8c22ffe27b2be36fb99644f4e6fea3503a3df37a"
+}
