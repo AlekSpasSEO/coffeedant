@@ -5330,6 +5330,20 @@ Coverage is NL 18,099 translated and 42,908 pending, DE 18,292 translated and
 42,715 pending, and FR 17,959 translated and 43,048 pending. Finder translation
 coverage is complete. NL has 434 pages left and DE and FR have 435 each.
 
+### Direct batch 141 — Oracle Dual Boiler video companions (2026-11-13)
+
+Complete Lance Hedrick's and Tom's Coffee Corner's Breville Oracle Dual
+Boiler BES995 companions in Dutch, German and French. Preserve the embeds,
+publication dates, creator attribution, source model naming and Tom's
+affiliate disclosure. The written review opens in English while its
+translations are pending.
+
+The source has 699 pages and 61,007 segments. NL can render 266 indexable
+pages and DE and FR can render 265 each, plus a localized 404 for each edition.
+Coverage is NL 18,127 translated and 42,880 pending, DE 18,320 translated and
+42,687 pending, and FR 17,987 translated and 43,020 pending. Finder translation
+coverage is complete. NL has 432 pages left and DE and FR have 433 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
