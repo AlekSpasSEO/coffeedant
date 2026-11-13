@@ -5186,6 +5186,20 @@ Coverage is NL 17,839 translated and 43,162 pending, DE 17,860 translated and
 43,141 pending, and FR 17,699 translated and 43,302 pending. Finder translation
 coverage is complete. NL has 453 pages left and DE and FR have 454 each.
 
+### Direct batch 131 — Gaggia Classic E24 and Jura E8 video companions (2026-11-13)
+
+Complete the Alternative Brewing Gaggia Classic E24 and Tom's Coffee Corner
+Jura E8 video companions in Dutch, German and French. Preserve the original
+embeds, timestamps, visible dates and attribution. Each companion links to
+its live regional written review. Preserve the registered German and French
+routes and use the existing companion paths for newly registered routes.
+
+The source has 699 pages and 61,001 segments. NL can render 247 indexable
+pages and DE and FR can render 246 each, plus a localized 404 for each edition.
+Coverage is NL 17,866 translated and 43,135 pending, DE 17,887 translated and
+43,114 pending, and FR 17,726 translated and 43,275 pending. Finder translation
+coverage is complete. NL has 451 pages left and DE and FR have 452 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

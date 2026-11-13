@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/gaggia-classic-evo/video/alternative-brewing/",
+      "sourceHash": "a8d39e74fc0ed6aba331a826fb2d0a30d2e429333ab7bb64ad1278e09b94c228"
+    },
+    {
+      "sourcePath": "/espresso-machine/jura-e8/video/toms-coffee-corner/",
+      "sourceHash": "3d2b70cfe08d312a7657f179a17a052fd17fcc24410c808c14986fc3f36a8f9c"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "1c83adf8fdb0ce11f0bf8bc64c0e7e7d1059c4455b2417f15926641f14358bb8",
+      "source": "Gaggia Classic Pro E24: The New Gaggia Classic E24 Explained · Alternative Brewing (2026-02-28) | Coffeedant",
+      "kind": "text",
+      "context": "Gaggia Classic Pro E24: The New Gaggia Classic E24 Explained · Alternative Brewing (2026-02-28) | Coffeedant"
+    },
+    {
+      "id": "fec865034688e6ceb20a0be31dd0763c98ae6733fc58f53f97e7408a8b4f7ceb",
+      "source": "Watch Alternative Brewing on Gaggia Classic Pro E24 (2026-02-28): The New Gaggia Classic E24 Explained. Alternative Brewing presents Gaggia Classic Pro E24, covering milk drinks, cleaning, taste and brewing. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "69fe8331143d680f25f7b4a0a9b6b43351cc954aebf03e2f07af424c8a384a66",
+      "source": "Gaggia Classic Pro E24: The New Gaggia Classic E24 Explained · Alternative Brewing (2026-02-28) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "cbc4d81a6b47f8fe2d241f29c358924e22c99c6d0fd79b1ea9ea5a8a4dd15130",
+      "source": "Gaggia Classic Pro E24 video by Alternative Brewing",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "d422819448a3a156a0a83d10ff902748d198ada17f2207fabbdca341acf60ecd",
+      "source": "The New Gaggia Classic E24 Explained by Alternative Brewing",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "2ff18ab92368888ab97feccd589aac3a1a84623fb7f59194c9d49ed72ea3a2d7",
+      "source": "The New Gaggia Classic E24 Explained",
+      "kind": "text",
+      "context": "The New Gaggia Classic E24 Explained"
+    },
+    {
+      "id": "989d07e2ddce58ce7208d11fbf71281ba13aa18fe8f998cc5ec6ff4013b8c23d",
+      "source": "March 1, 2026",
+      "kind": "text",
+      "context": "March 1, 2026"
+    },
+    {
+      "id": "2fc46535c53ab6b4c7da86acf1afe771f05af90b8d845599e65f8b3c68c227d5",
+      "source": "Alternative Brewing presents Gaggia Classic Pro E24, covering milk drinks, cleaning, taste and brewing. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "text",
+      "context": "Alternative Brewing presents Gaggia Classic Pro E24, covering milk drinks, cleaning, taste and brewing. This is an equipment seller’s perspective; consider it alongside the other sources and our written review."
+    },
+    {
+      "id": "b412337e3bceb14936f9eeb6686443b14f7095a71f9f2f372cf8c15f269a9cd0",
+      "source": "Gaggia Classic Pro E24: The New Gaggia Classic E24 Explained · Alternative Brewing (2026-02-28) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b854655ecc3edd8461b5c7d2d14d4859836f774b8f8d0090f7fa8dcc7813d431",
+      "source": "Watch Alternative Brewing on Gaggia Classic Pro E24 (2026-02-28): The New Gaggia Classic E24 Explained. Alternative Brewing presents Gaggia Classic Pro E24, covering milk drinks, cleaning, taste and brewing. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "153e5e2bfd25ce1cba294c3a00ffbd4e1b7779104ff8ea0400f31827273abde1",
+      "source": "Gaggia Classic Pro E24 video by Alternative Brewing",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "73d0470ee15cfbb83c403dde72be21e5f7c2464754f6f9dab336719a49128f83",
+      "source": "The New Gaggia Classic E24 Explained",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "140298d7ce1e767b01ae8f9813163a621677a928d1276de7a0457b870ec5335c",
+      "source": "Alternative Brewing presents Gaggia Classic Pro E24, covering milk drinks, cleaning, taste and brewing. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "8a4856b178b3ac1082be9efe50e4ac0c218b7ad6d0916986c68ef8fe04d7372a",
+      "source": "JURA E8 Midnight Silver NAD: Jura E8 Superautomatic Coffee Maker Review and Test · Tom's Coffee Corner (2025-06-13) | Coffeedant",
+      "kind": "text",
+      "context": "JURA E8 Midnight Silver NAD: Jura E8 Superautomatic Coffee Maker Review and Test · Tom's Coffee Corner (2025-06-13) | Coffeedant"
+    },
+    {
+      "id": "28ee87aab9284a0573ed00a7b9e51e0f810e4a2f830466f09f1a2521edfd7a74",
+      "source": "Watch Tom's Coffee Corner on JURA E8 Midnight Silver NAD (2025-06-13): Jura E8 Superautomatic Coffee Maker Review and Test. Tom's Coffee Corner presents JURA E8 Midnight Silver NAD, covering espresso preparation, milk drinks, cleaning. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "92bb023d6a5eaeba16082decb4300a376130c1c2bbf6baff1297db7029d4a92a",
+      "source": "JURA E8 Midnight Silver NAD: Jura E8 Superautomatic Coffee Maker Review and Test · Tom's Coffee Corner (2025-06-13) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "2d0c98a8b0ab3d04ac2f976d9f95dcbe769e8d7243db574efa2db37c88852548",
+      "source": "JURA E8 Midnight Silver NAD video by Tom's Coffee Corner",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "142b6f8d2024ccbb3d946b2ae51cea7628e35a249c4c26c3c4fe255d232e3cac",
+      "source": "Jura E8 Superautomatic Coffee Maker Review and Test by Tom's Coffee Corner",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "cee72d7299ee90e2ea2398ba62caf40e77a9476b98202425c9a4f6c588877099",
+      "source": "JURA E8 Midnight Silver NAD · Third-party perspective",
+      "kind": "text",
+      "context": "JURA E8 Midnight Silver NAD · Third-party perspective"
+    },
+    {
+      "id": "6d010d8eb813187bff9fbc83353028f00ef9601df626c0184e0a1e6166c00668",
+      "source": "Jura E8 Superautomatic Coffee Maker Review and Test",
+      "kind": "text",
+      "context": "Jura E8 Superautomatic Coffee Maker Review and Test"
+    },
+    {
+      "id": "1a874899a2e9d2f3d963061eff290068799400a486ba817a66f1a71aba1254f6",
+      "source": "June 13, 2025",
+      "kind": "text",
+      "context": "June 13, 2025"
+    },
+    {
+      "id": "3771ddcd8e370d7710f905941305416349d2bc8a0f2527e4144ca30404418b43",
+      "source": "Tom's Coffee Corner presents JURA E8 Midnight Silver NAD, covering espresso preparation, milk drinks, cleaning. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Tom's Coffee Corner presents JURA E8 Midnight Silver NAD, covering espresso preparation, milk drinks, cleaning. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "5d5682f54fed28d00180c776c3016f71e7108b8e17d4c4e7fd4f77146f0e3f7a",
+      "source": "JURA E8 Midnight Silver NAD: Jura E8 Superautomatic Coffee Maker Review and Test · Tom's Coffee Corner (2025-06-13) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "74f622773265fd35b26daa288d4e2fa85bd8cdb88e7cc7de12c4f26392acae65",
+      "source": "Watch Tom's Coffee Corner on JURA E8 Midnight Silver NAD (2025-06-13): Jura E8 Superautomatic Coffee Maker Review and Test. Tom's Coffee Corner presents JURA E8 Midnight Silver NAD, covering espresso preparation, milk drinks, cleaning. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "63c1f30359e826634b07cdcf1e601caabdbcff0bede9bd191a0984b8553a22d4",
+      "source": "JURA E8 Midnight Silver NAD video by Tom's Coffee Corner",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "1b938abe35d716c907e7e1edb07cd403d97d774d33bd25c599180d03e101a1ae",
+      "source": "Jura E8 Superautomatic Coffee Maker Review and Test",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "d572c55749c43c84fc5d1dce319b8eb0d6a15cde1429c36bb0bdec908fb7a82b",
+      "source": "Tom's Coffee Corner presents JURA E8 Midnight Silver NAD, covering espresso preparation, milk drinks, cleaning. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "5c6b671897dd413206ee1893da18b48abf6b00e6746c2fd0e19e0cb028c4e948"
+}
