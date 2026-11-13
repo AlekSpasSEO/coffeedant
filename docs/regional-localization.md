@@ -5357,6 +5357,20 @@ Coverage is NL 18,155 translated and 42,852 pending, DE 18,348 translated and
 42,659 pending, and FR 18,015 translated and 42,992 pending. Finder translation
 coverage is complete. NL has 430 pages left and DE and FR have 431 each.
 
+### Direct batch 143 — ECM Synchronika II video companions (2026-11-13)
+
+Complete the Clive Coffee and Whole Latte Love ECM Synchronika II companions
+in Dutch, German and French. Preserve the second-generation model name,
+original embeds and publication dates, retailer attribution and the distinction
+between the retailer footage and Coffeedant's testing. The written review
+opens in English while its translations are pending.
+
+The source has 699 pages and 61,007 segments. NL can render 270 indexable
+pages and DE and FR can render 269 each, plus a localized 404 for each edition.
+Coverage is NL 18,183 translated and 42,824 pending, DE 18,376 translated and
+42,631 pending, and FR 18,043 translated and 42,964 pending. Finder translation
+coverage is complete. NL has 428 pages left and DE and FR have 429 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

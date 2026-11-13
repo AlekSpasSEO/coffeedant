@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "ecm-synchronika-videos-batch-143.source.json",
+  "snapshotHash": "62388574e8f43edfae6bc58b0578ba1e4eec8911232d3793622ad470e11a928e",
+  "routes": {
+    "nl": {
+      "/espresso-machine/ecm-synchronika/video/clive-coffee/": "/espresso-machine/ecm-synchronika/video/clive-coffee/",
+      "/espresso-machine/ecm-synchronika/video/whole-latte-love/": "/espresso-machine/ecm-synchronika/video/whole-latte-love/"
+    },
+    "fr": {
+      "/espresso-machine/ecm-synchronika/video/clive-coffee/": "/machine-a-espresso/ecm-synchronika/video/clive-coffee/",
+      "/espresso-machine/ecm-synchronika/video/whole-latte-love/": "/machine-a-espresso/ecm-synchronika/video/whole-latte-love/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "20 september 2024",
+      "de": "20. September 2024",
+      "fr": "20 septembre 2024"
+    },
+    "1": {
+      "nl": "Review van de ECM Synchronika II-espressomachine",
+      "de": "Die ECM Synchronika II Espressomaschine im Test",
+      "fr": "Essai de la machine à espresso ECM Synchronika II"
+    },
+    "2": {
+      "nl": "Een gespecialiseerde winkel bespreekt deze specifieke generatie. De video toont het opstarten met Core Heat, de OLED-bediening, de bereiding van espresso, pre-infusie, stoom en de opties voor watertoevoer. De beelden dienen als aanvulling en komen niet uit tests van Coffeedant.",
+      "de": "Ein Fachhändler testet genau diese Modellgeneration und zeigt das Aufheizen mit Core Heat, die OLED-Bedienung, die Espressozubereitung, die Präinfusion, den Dampfbezug und die Optionen für die Wasserversorgung. Das Video dient der Veranschaulichung und stammt nicht aus einem Test von Coffeedant.",
+      "fr": "Un revendeur spécialisé teste cette génération précise. La vidéo montre la mise en route avec Core Heat, les commandes OLED, la préparation de l’espresso, la préinfusion, la vapeur et les options d’alimentation en eau. Ces images servent d’illustration et ne proviennent pas d’un essai de Coffeedant."
+    },
+    "5": {
+      "nl": "ECM Synchronika II: overzicht van de espressomachine · Clive Coffee (2024-10-15) | Coffeedant",
+      "de": "ECM Synchronika II: Die Espressomaschine im Überblick · Clive Coffee (2024-10-15) | Coffeedant",
+      "fr": "ECM Synchronika II : présentation de la machine à espresso · Clive Coffee (2024-10-15) | Coffeedant"
+    },
+    "6": {
+      "nl": "Bekijk Clive Coffee over de ECM Synchronika II (2024-10-15): een overzicht van de espressomachine. Clive Coffee presenteert de ECM Synchronika II en bespreekt de bereiding van espresso, het ontwerp en de constructie. Dit is het perspectief van een verkoper van koffiemachines. Bekijk de video in samenhang met de andere bronnen en onze geschreven review.",
+      "de": "Sehen Sie Clive Coffees Video zur ECM Synchronika II (2024-10-15): Die Espressomaschine im Überblick. Clive Coffee stellt die ECM Synchronika II vor und geht auf die Espressozubereitung, das Design und die Konstruktion ein. Das ist die Sicht eines Fachhändlers für Kaffeemaschinen. Ziehen Sie auch die anderen Quellen und unseren schriftlichen Testbericht heran.",
+      "fr": "Regardez la vidéo de Clive Coffee sur l’ECM Synchronika II (2024-10-15) : présentation de la machine à espresso. Clive Coffee présente l’ECM Synchronika II et aborde la préparation de l’espresso, le design et la construction. La vidéo présente le point de vue d’un vendeur de machines à café. Consultez-la en complément des autres sources et de notre essai écrit."
+    },
+    "8": {
+      "nl": "Video van Clive Coffee over de ECM Synchronika II",
+      "de": "Video von Clive Coffee zur ECM Synchronika II",
+      "fr": "Vidéo de Clive Coffee sur l’ECM Synchronika II"
+    },
+    "9": {
+      "nl": "← Review van de ECM Synchronika II",
+      "de": "← Testbericht zur ECM Synchronika II",
+      "fr": "← Essai de l’ECM Synchronika II"
+    },
+    "10": {
+      "nl": "Overzicht van de ECM Synchronika II-espressomachine door Clive Coffee",
+      "de": "Clive Coffee stellt die ECM Synchronika II Espressomaschine vor",
+      "fr": "Présentation de la machine à espresso ECM Synchronika II par Clive Coffee"
+    },
+    "11": {
+      "nl": "ECM Synchronika II · Perspectief van de verkoper",
+      "de": "ECM Synchronika II · Aus Sicht eines Händlers",
+      "fr": "ECM Synchronika II · Point de vue du revendeur"
+    },
+    "12": {
+      "nl": "Overzicht van de ECM Synchronika II-espressomachine",
+      "de": "Die ECM Synchronika II Espressomaschine im Überblick",
+      "fr": "Présentation de la machine à espresso ECM Synchronika II"
+    },
+    "13": {
+      "nl": "15 oktober 2024",
+      "de": "15. Oktober 2024",
+      "fr": "15 octobre 2024"
+    },
+    "14": {
+      "nl": "Clive Coffee presenteert de ECM Synchronika II en bespreekt de bereiding van espresso, het ontwerp en de constructie. Dit is het perspectief van een verkoper van koffiemachines. Bekijk de video in samenhang met de andere bronnen en onze geschreven review.",
+      "de": "Clive Coffee stellt die ECM Synchronika II vor und geht auf die Espressozubereitung, das Design und die Konstruktion ein. Das ist die Sicht eines Fachhändlers für Kaffeemaschinen. Ziehen Sie auch die anderen Quellen und unseren schriftlichen Testbericht heran.",
+      "fr": "Clive Coffee présente l’ECM Synchronika II et aborde la préparation de l’espresso, le design et la construction. La vidéo présente le point de vue d’un vendeur de machines à café. Consultez-la en complément des autres sources et de notre essai écrit."
+    },
+    "20": {
+      "nl": "ECM Synchronika II: review van de espressomachine · Whole Latte Love (2024-09-20) | Coffeedant",
+      "de": "ECM Synchronika II: Die Espressomaschine im Test · Whole Latte Love (2024-09-20) | Coffeedant",
+      "fr": "ECM Synchronika II : essai de la machine à espresso · Whole Latte Love (2024-09-20) | Coffeedant"
+    },
+    "21": {
+      "nl": "Bekijk Whole Latte Love over de ECM Synchronika II (2024-09-20): een review van de espressomachine. Een gespecialiseerde winkel bespreekt deze specifieke generatie. De video toont het opstarten met Core Heat, de OLED-bediening, de bereiding van espresso, pre-infusie, stoom en de opties voor watertoevoer. De beelden dienen als aanvulling en komen niet uit tests van Coffeedant.",
+      "de": "Sehen Sie das Video von Whole Latte Love zur ECM Synchronika II (2024-09-20): Die Espressomaschine im Test. Ein Fachhändler testet genau diese Modellgeneration und zeigt das Aufheizen mit Core Heat, die OLED-Bedienung, die Espressozubereitung, die Präinfusion, den Dampfbezug und die Optionen für die Wasserversorgung. Das Video dient der Veranschaulichung und stammt nicht aus einem Test von Coffeedant.",
+      "fr": "Regardez la vidéo de Whole Latte Love sur l’ECM Synchronika II (2024-09-20) : essai de la machine à espresso. Un revendeur spécialisé teste cette génération précise. La vidéo montre la mise en route avec Core Heat, les commandes OLED, la préparation de l’espresso, la préinfusion, la vapeur et les options d’alimentation en eau. Ces images servent d’illustration et ne proviennent pas d’un essai de Coffeedant."
+    },
+    "23": {
+      "nl": "Video van Whole Latte Love over de ECM Synchronika II",
+      "de": "Video von Whole Latte Love zur ECM Synchronika II",
+      "fr": "Vidéo de Whole Latte Love sur l’ECM Synchronika II"
+    },
+    "24": {
+      "nl": "Review van de ECM Synchronika II-espressomachine door Whole Latte Love",
+      "de": "Whole Latte Love testet die ECM Synchronika II Espressomaschine",
+      "fr": "Essai de la machine à espresso ECM Synchronika II par Whole Latte Love"
+    }
+  }
+}
