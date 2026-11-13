@@ -5371,6 +5371,19 @@ Coverage is NL 18,183 translated and 42,824 pending, DE 18,376 translated and
 42,631 pending, and FR 18,043 translated and 42,964 pending. Finder translation
 coverage is complete. NL has 428 pages left and DE and FR have 429 each.
 
+### Direct batch 144 — ECM Technika V Profi PID video companions (2026-11-13)
+
+Complete the iDrinkCoffeeCanada and Whole Latte Love companions in Dutch,
+German and French. Preserve the model name used in each video title, the
+retailer attribution, original embeds and publication dates. The written
+review opens in English while its translations are pending.
+
+The source has 699 pages and 61,007 segments. NL can render 272 indexable
+pages and DE and FR can render 271 each, plus a localized 404 for each edition.
+Coverage is NL 18,211 translated and 42,796 pending, DE 18,404 translated and
+42,603 pending, and FR 18,071 translated and 42,936 pending. Finder translation
+coverage is complete. NL has 426 pages left and DE and FR have 427 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

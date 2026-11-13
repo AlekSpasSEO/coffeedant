@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "ecm-technika-v-profi-pid-videos-batch-144.source.json",
+  "snapshotHash": "56c46d382b9e88a37ad5792a25659048fe75f546dc679275592a98f9e0186b0d",
+  "routes": {
+    "nl": {
+      "/espresso-machine/ecm-technika-v-profi-pid/video/idrinkcoffeecanada/": "/espresso-machine/ecm-technika-v-profi-pid/video/idrinkcoffeecanada/",
+      "/espresso-machine/ecm-technika-v-profi-pid/video/whole-latte-love/": "/espresso-machine/ecm-technika-v-profi-pid/video/whole-latte-love/"
+    },
+    "fr": {
+      "/espresso-machine/ecm-technika-v-profi-pid/video/idrinkcoffeecanada/": "/machine-a-espresso/ecm-technika-v-profi-pid/video/idrinkcoffeecanada/",
+      "/espresso-machine/ecm-technika-v-profi-pid/video/whole-latte-love/": "/machine-a-espresso/ecm-technika-v-profi-pid/video/whole-latte-love/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "Review van de ECM Technika V Profi PID-espressomachine",
+      "de": "Die ECM Technika V Profi PID Espressomaschine im Test",
+      "fr": "Essai de la machine à espresso ECM Technika V Profi PID"
+    },
+    "1": {
+      "nl": "15 september 2020",
+      "de": "15. September 2020",
+      "fr": "15 septembre 2020"
+    },
+    "2": {
+      "nl": "Een gespecialiseerde winkel bespreekt dit specifieke model en toont de E61-zetgroep, de PID-regeling, de rotatiepomp, de opties voor watertoevoer, de bereiding van espresso en de stoomfunctie. De beelden komen van een verkoper en maken geen deel uit van een test van Coffeedant.",
+      "de": "Ein Fachhändler testet genau dieses Modell und zeigt die E61-Brühgruppe, die PID-Regelung, die Rotationspumpe, die Optionen für die Wasserversorgung, die Espressozubereitung und die Dampffunktion. Die Aufnahmen stammen von einem Händler und gehören nicht zu einem Test von Coffeedant.",
+      "fr": "Un revendeur spécialisé teste ce modèle précis et montre le groupe E61, la régulation PID, la pompe rotative, les options d’alimentation en eau, la préparation de l’espresso et la fonction vapeur. Ces images proviennent d’un vendeur et ne font pas partie d’un essai de Coffeedant."
+    },
+    "5": {
+      "nl": "ECM Technika V Profi PID: ECM Technika Profi V-espressomachine met PID · iDrinkCoffeeCanada (2019-08-28) | Coffeedant",
+      "de": "ECM Technika V Profi PID: ECM Technika Profi V Espressomaschine mit PID · iDrinkCoffeeCanada (2019-08-28) | Coffeedant",
+      "fr": "ECM Technika V Profi PID : machine à espresso ECM Technika Profi V avec PID · iDrinkCoffeeCanada (2019-08-28) | Coffeedant"
+    },
+    "6": {
+      "nl": "Bekijk de video van iDrinkCoffeeCanada over de ECM Technika V Profi PID (2019-08-28): ECM Technika Profi V-espressomachine met PID. iDrinkCoffeeCanada presenteert de ECM Technika V Profi PID en laat zien hoe je espresso en melkdranken bereidt. Dit is het perspectief van een verkoper van koffiemachines. Bekijk de video samen met de andere bronnen en onze geschreven review.",
+      "de": "Sehen Sie das Video von iDrinkCoffeeCanada zur ECM Technika V Profi PID (2019-08-28): ECM Technika Profi V Espressomaschine mit PID. iDrinkCoffeeCanada stellt die ECM Technika V Profi PID vor und zeigt die Zubereitung von Espresso und Milchgetränken. Das ist die Sicht eines Händlers für Kaffeemaschinen. Ziehen Sie auch die anderen Quellen und unseren schriftlichen Testbericht heran.",
+      "fr": "Regardez la vidéo d’iDrinkCoffeeCanada sur l’ECM Technika V Profi PID (2019-08-28) : machine à espresso ECM Technika Profi V avec PID. iDrinkCoffeeCanada présente l’ECM Technika V Profi PID et montre comment préparer des espressos et des boissons lactées. La vidéo présente le point de vue d’un vendeur de machines à café. Consultez-la en complément des autres sources et de notre essai écrit."
+    },
+    "8": {
+      "nl": "Video van iDrinkCoffeeCanada over de ECM Technika V Profi PID",
+      "de": "Video von iDrinkCoffeeCanada zur ECM Technika V Profi PID",
+      "fr": "Vidéo d’iDrinkCoffeeCanada sur l’ECM Technika V Profi PID"
+    },
+    "9": {
+      "nl": "← Review van de ECM Technika V Profi PID",
+      "de": "← Testbericht zur ECM Technika V Profi PID",
+      "fr": "← Essai de l’ECM Technika V Profi PID"
+    },
+    "10": {
+      "nl": "ECM Technika Profi V-espressomachine met PID, door iDrinkCoffeeCanada",
+      "de": "ECM Technika Profi V Espressomaschine mit PID, vorgestellt von iDrinkCoffeeCanada",
+      "fr": "Machine à espresso ECM Technika Profi V avec PID, présentée par iDrinkCoffeeCanada"
+    },
+    "11": {
+      "nl": "ECM Technika V Profi PID · Perspectief van de verkoper",
+      "de": "ECM Technika V Profi PID · Aus Sicht eines Händlers",
+      "fr": "ECM Technika V Profi PID · Point de vue du revendeur"
+    },
+    "12": {
+      "nl": "ECM Technika Profi V-espressomachine met PID",
+      "de": "ECM Technika Profi V Espressomaschine mit PID",
+      "fr": "Machine à espresso ECM Technika Profi V avec PID"
+    },
+    "13": {
+      "nl": "28 augustus 2019",
+      "de": "28. August 2019",
+      "fr": "28 août 2019"
+    },
+    "14": {
+      "nl": "iDrinkCoffeeCanada presenteert de ECM Technika V Profi PID en laat zien hoe je espresso en melkdranken bereidt. Dit is het perspectief van een verkoper van koffiemachines. Bekijk de video samen met de andere bronnen en onze geschreven review.",
+      "de": "iDrinkCoffeeCanada stellt die ECM Technika V Profi PID vor und zeigt die Zubereitung von Espresso und Milchgetränken. Das ist die Sicht eines Händlers für Kaffeemaschinen. Ziehen Sie auch die anderen Quellen und unseren schriftlichen Testbericht heran.",
+      "fr": "iDrinkCoffeeCanada présente l’ECM Technika V Profi PID et montre comment préparer des espressos et des boissons lactées. La vidéo présente le point de vue d’un vendeur de machines à café. Consultez-la en complément des autres sources et de notre essai écrit."
+    },
+    "20": {
+      "nl": "ECM Technika V Profi PID: review van de espressomachine · Whole Latte Love (2020-09-15) | Coffeedant",
+      "de": "ECM Technika V Profi PID: Die Espressomaschine im Test · Whole Latte Love (2020-09-15) | Coffeedant",
+      "fr": "ECM Technika V Profi PID : essai de la machine à espresso · Whole Latte Love (2020-09-15) | Coffeedant"
+    },
+    "21": {
+      "nl": "Bekijk de video van Whole Latte Love over de ECM Technika V Profi PID (2020-09-15): review van de espressomachine. Een gespecialiseerde winkel bespreekt dit specifieke model en toont de E61-zetgroep, de PID-regeling, de rotatiepomp, de opties voor watertoevoer, de bereiding van espresso en de stoomfunctie. De beelden komen van een verkoper en maken geen deel uit van een test van Coffeedant.",
+      "de": "Sehen Sie das Video von Whole Latte Love zur ECM Technika V Profi PID (2020-09-15): Die Espressomaschine im Test. Ein Fachhändler testet genau dieses Modell und zeigt die E61-Brühgruppe, die PID-Regelung, die Rotationspumpe, die Optionen für die Wasserversorgung, die Espressozubereitung und die Dampffunktion. Die Aufnahmen stammen von einem Händler und gehören nicht zu einem Test von Coffeedant.",
+      "fr": "Regardez la vidéo de Whole Latte Love sur l’ECM Technika V Profi PID (2020-09-15) : essai de la machine à espresso. Un revendeur spécialisé teste ce modèle précis et montre le groupe E61, la régulation PID, la pompe rotative, les options d’alimentation en eau, la préparation de l’espresso et la fonction vapeur. Ces images proviennent d’un vendeur et ne font pas partie d’un essai de Coffeedant."
+    },
+    "23": {
+      "nl": "Video van Whole Latte Love over de ECM Technika V Profi PID",
+      "de": "Video von Whole Latte Love zur ECM Technika V Profi PID",
+      "fr": "Vidéo de Whole Latte Love sur l’ECM Technika V Profi PID"
+    },
+    "24": {
+      "nl": "Review van de ECM Technika V Profi PID-espressomachine door Whole Latte Love",
+      "de": "Whole Latte Love testet die ECM Technika V Profi PID Espressomaschine",
+      "fr": "Essai de la machine à espresso ECM Technika V Profi PID par Whole Latte Love"
+    }
+  }
+}
