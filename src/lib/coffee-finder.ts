@@ -91,6 +91,8 @@ const finderIdentityOverrides: Record<string, Partial<Pick<CoffeeFinderItem, 'wo
   '/espresso-machine/9barista-mk2/': { grinder: 'separate' },
   '/espresso-machine/ecm-puristika/': { drink: 'espresso' },
   '/espresso-machine/quick-mill-carola-evo/': { drink: 'espresso' },
+  // The Mini brews straight espresso and drip and has a manual steam wand.
+  '/espresso-machine/ninja-luxe-cafe-mini-es301/': { drink: 'mixed' },
   '/espresso-machine/melitta-cafina-ct8/': { grinder: 'built-in' },
   '/espresso-machine/melitta-cafina-xt6-bes870/': { grinder: 'built-in' },
   '/espresso-machine/melitta-cafina-xt7/': { grinder: 'built-in' },
@@ -176,6 +178,11 @@ const toFinderItem = (review: MachineReviewData): CoffeeFinderItem => {
   const reviewUsdPrice = review.price.currency === 'USD' ? parseMoney(review.price.numeric) : null;
   const availability = inferAvailability(review, offer);
   if (offer && amazonLink.conditionLabel) availability.availabilityLabel = amazonLink.availability ?? availability.availabilityLabel;
+  // The review preserves a dated UK observation for this European SKU. The
+  // finder should send shoppers to the exact-model listing for current pricing.
+  const priceLabel = review.slug === '/espresso-machine/gaggia-accademia-ri9781-01/'
+    ? 'Check current UK price'
+    : offer?.price ? [offer.price, amazonLink.conditionLabel].filter(Boolean).join(' · ') : (review.price.msrp ?? 'Price varies');
 
   return {
     brand: canonicalBrand(review.brand),
@@ -188,7 +195,7 @@ const toFinderItem = (review: MachineReviewData): CoffeeFinderItem => {
     amazonHref: amazonLink.href,
     amazonLabel: amazonLink.conditionLabel === 'Amazon Renewed' ? 'Shop Amazon Renewed' : (amazonLink.exactProduct ? 'Shop on Amazon' : 'Search Amazon'),
     amazonNote: amazonLink.purchaseNote,
-    priceLabel: offer?.price ? [offer.price, amazonLink.conditionLabel].filter(Boolean).join(' · ') : (review.price.msrp ?? 'Price varies'),
+    priceLabel,
     priceUsd: liveUsdPrice ?? reviewUsdPrice,
     priceCurrency: offer?.currency ?? review.price.currency,
     rating: getReviewOverallScore(review.evaluation),
