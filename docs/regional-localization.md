@@ -5200,6 +5200,21 @@ Coverage is NL 17,866 translated and 43,135 pending, DE 17,887 translated and
 43,114 pending, and FR 17,726 translated and 43,275 pending. Finder translation
 coverage is complete. NL has 451 pages left and DE and FR have 452 each.
 
+### Direct batch 132 — Stumptown Hair Bender and Gaggia Classic E24 (2026-11-13)
+
+Refresh the Hair Bender review and its bean hub card in all three editions.
+Keep the October 14 US price record dated and direct readers to check the
+chosen size and current checkout total. Localize the metadata, visible
+wording and structured FAQ answer. Complete The Gizmo Garage's Gaggia Classic
+E24 video companion with the original embed, date and attribution, and link
+to the written review in each edition.
+
+The source has 699 pages and 61,003 segments. NL can render 248 indexable
+pages and DE and FR can render 247 each, plus a localized 404 for each edition.
+Coverage is NL 17,886 translated and 43,117 pending, DE 17,907 translated and
+43,096 pending, and FR 17,746 translated and 43,257 pending. Finder translation
+coverage is complete. NL has 450 pages left and DE and FR have 451 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

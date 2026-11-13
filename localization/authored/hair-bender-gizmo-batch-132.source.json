@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/coffee-beans/stumptown-hair-bender/",
+      "sourceHash": "cd2acdabc227d890d5a31f915f15e0592eb2cf0c0e95b9b5c28edf2e4d3b117e"
+    },
+    {
+      "sourcePath": "/coffee-beans/",
+      "sourceHash": "68bbf270b48eb9970e1a8f4e7e33f520d65e6807dda506b2558adb39b20a93bd"
+    },
+    {
+      "sourcePath": "/espresso-machine/gaggia-classic-evo/video/the-gizmo-garage/",
+      "sourceHash": "d5f11e29138be762111827789db3b2f59dbfe01ad0bd49c32b4649caa203f142"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "ebf6f58c52b61dcf7d797dccb33c96e6ba2adb9d8d06dee5c0ccab41975c8d0e",
+      "source": "· Check the selected size and current checkout total at November 13, 2026",
+      "kind": "text",
+      "context": "Updated 2026-11-13 · Check the selected size and current checkout total at November 13, 2026"
+    },
+    {
+      "id": "4d14733d46eb43cdc9e766dad1bcbf70892079eda93fa253537f8c5293f36252",
+      "source": "A research-led US Hair Bender review covering its changing blend, roaster flavor notes, espresso and drip use, freshness, size selection, and tradeoffs.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "cdbbf21466bdc600bb51142314f92d437b238730aaad8ee2d6c4da07aa1b62e0",
+      "source": "Check the selected size and current checkout total",
+      "kind": "text",
+      "context": "Check the selected size and current checkout total"
+    },
+    {
+      "id": "5a2bf1c4efff2d36b9889db3ba6b6936e31faf60103300321548c6ad9c8c1e29",
+      "source": "US direct listing checked November 13, 2026; shipping, tax and availability can change.",
+      "kind": "text",
+      "context": "US direct listing checked November 13, 2026; shipping, tax and availability can change."
+    },
+    {
+      "id": "881c3b433d234262294492c6511bed9accd794c5cecc31af069e5b1c7f9581ac",
+      "source": "November 13, 2026",
+      "kind": "text",
+      "context": "November 13, 2026"
+    },
+    {
+      "id": "af9f7723803bdad3555f3013c6b41a6b7169a16a71f7459b1a8ae7c23d9af837",
+      "source": "Buyers who will test a small bag before considering any currently offered bulk size",
+      "kind": "text",
+      "context": "Buyers who will test a small bag before considering any currently offered bulk size"
+    },
+    {
+      "id": "17d8a68075de4b0992e7d9f46aca70c56c034b2871ade4afedf405c171aecbbc",
+      "source": "Check current size options and the selected whole-bean checkout total",
+      "kind": "text",
+      "context": "Check current size options and the selected whole-bean checkout total"
+    },
+    {
+      "id": "7687d8673a9fcd1469a18fe217c9b33d790607cad6fe370980e3e7679137b9b7",
+      "source": "Owner discussion illustrates that preference matters. In an r/espresso thread, some users reported enjoyable shots while another found the coffee too acidic for straight espresso. Those are individual bags, grinders and recipes, not representative product testing or a failure rate. Start with a small available bag rather than committing to bulk to settle a flavor question.",
+      "kind": "text",
+      "context": "Owner discussion illustrates that preference matters. In an r/espresso thread, some users reported enjoyable shots while another found the coffee too acidic for straight espresso. Those are individual bags, grinders and recipes, not representative product testing or a failure rate. Start with a small available bag rather than committing to bulk to settle a flavor question. [7]"
+    },
+    {
+      "id": "11cfa5eac7f6f9fddeb2dcf6b30ba314af6527e4386bfc612efa10f9a0b7b8dd",
+      "source": "A larger bag only helps if you can finish and store it well; confirm that a bulk size is actually offered before comparing unit costs. At 18 g per espresso dose, 12 oz supplies roughly 18 doses before dialing waste. This is a mass calculation, not a shelf-life promise. Households with steady volume can reconsider bulk after testing a small bag.",
+      "kind": "text",
+      "context": "A larger bag only helps if you can finish and store it well; confirm that a bulk size is actually offered before comparing unit costs. At 18 g per espresso dose, 12 oz supplies roughly 18 doses before dialing waste. This is a mass calculation, not a shelf-life promise. Households with steady volume can reconsider bulk after testing a small bag."
+    },
+    {
+      "id": "93e998aa1e3ec85149f3693f4187950206fd462782c88c1d5ef81565ac023767",
+      "source": "The October 14 record showed $19 for 12 oz and $105 for 5 lb, but Stumptown's current public page does not expose a dependable selected size or bulk price in its text. Treat those figures as historical, then select the size and compare the live checkout total before buying. A larger bag needs enough consumption or careful portioning to justify it; subscription promotions are conditional rather than a permanent price.",
+      "kind": "text",
+      "context": "The October 14 record showed $19 for 12 oz and $105 for 5 lb, but Stumptown's current public page does not expose a dependable selected size or bulk price in its text. Treat those figures as historical, then select the size and compare the live checkout total before buying. A larger bag needs enough consumption or careful portioning to justify it; subscription promotions are conditional rather than a permanent price. [1]"
+    },
+    {
+      "id": "2f8bc7156e9b2dd36f604094da09bf2cafd63bb459722a7c48cbbf74fec6e485",
+      "source": "Start with the smallest currently offered whole-bean bag. Consider a bulk size only after confirming its availability, checkout total, your consumption and storage plan.",
+      "kind": "text",
+      "context": "Start with the smallest currently offered whole-bean bag. Consider a bulk size only after confirming its availability, checkout total, your consumption and storage plan."
+    },
+    {
+      "id": "4d1b3df96bcfb3aafd656bfef9ac0b4b030a928e823389196d00e7c348763cea",
+      "source": "Official identity, flavor brief and brew suitability. The October 14 feed showed size-specific prices; the November 13 public page did not expose a dependable selected size or bulk price in its text. Checked 2026-11-13.",
+      "kind": "text",
+      "context": "Official identity, flavor brief and brew suitability. The October 14 feed showed size-specific prices; the November 13 public page did not expose a dependable selected size or bulk price in its text. Checked 2026-11-13."
+    },
+    {
+      "id": "2471a16deed26253364ca9a04c074689b0592462787676f91f72d76e51fc774f",
+      "source": "A research-led US Hair Bender review covering its changing blend, roaster flavor notes, espresso and drip use, freshness, size selection, and tradeoffs.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "050d02e684c53da8df5fefb3c16f583e12e8d914acb7bebef0c81dc704f9c8e3",
+      "source": "Start with the smallest currently offered whole-bean bag. Consider a bulk size only after confirming its availability, checkout total, your consumption and storage plan.",
+      "kind": "json",
+      "context": "text"
+    },
+    {
+      "id": "9010ca3aa9a9b2e245203b6a251955457379d8591a7d39bedc03bb2027ccc2de",
+      "source": "Gaggia Classic Pro E24: 7 Months Later: My Honest Gaggia Classic E24 Espresso Machine Review #espresso #gaggia #coffee · The Gizmo Garage (2026-05-30) | Coffeedant",
+      "kind": "text",
+      "context": "Gaggia Classic Pro E24: 7 Months Later: My Honest Gaggia Classic E24 Espresso Machine Review #espresso #gaggia #coffee · The Gizmo Garage (2026-05-30) | Coffeedant"
+    },
+    {
+      "id": "b6ba802ffb67783877f25f40b0b662b4b33e4b709f934b14404067e542fe359e",
+      "source": "Watch The Gizmo Garage on Gaggia Classic Pro E24 (2026-05-30): 7 Months Later: My Honest Gaggia Classic E24 Espresso Machine Review #espresso #gaggia #coffee. The Gizmo Garage presents Gaggia Classic Pro E24, covering espresso preparation, cleaning. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "1e88fc53e6400951fb72f6f8ba3b432028ec6a7094b3f05850abf942d4511725",
+      "source": "Gaggia Classic Pro E24: 7 Months Later: My Honest Gaggia Classic E24 Espresso Machine Review #espresso #gaggia #coffee · The Gizmo Garage (2026-05-30) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "b45098d62ba78e7153ef2aa10f16408e1d860febf37fa39fcaf303b797f89fff",
+      "source": "Gaggia Classic Pro E24 video by The Gizmo Garage",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "00918fa27deda13ace6f4ad08792b5fed82a3f8beb295a9b66cb024e08f9dc98",
+      "source": "7 Months Later: My Honest Gaggia Classic E24 Espresso Machine Review #espresso #gaggia #coffee by The Gizmo Garage",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "25b92db3b3d6eba9c6416beb9daa2094bc7c12309702d759c7ff82efa8d6e33c",
+      "source": "Gaggia Classic Pro E24 · Third-party perspective",
+      "kind": "text",
+      "context": "Gaggia Classic Pro E24 · Third-party perspective"
+    },
+    {
+      "id": "74dffc505c122e29f224f1ac59b3f91402aa2f32dd703372143a1f9419a94a32",
+      "source": "7 Months Later: My Honest Gaggia Classic E24 Espresso Machine Review #espresso #gaggia #coffee",
+      "kind": "text",
+      "context": "7 Months Later: My Honest Gaggia Classic E24 Espresso Machine Review #espresso #gaggia #coffee"
+    },
+    {
+      "id": "f15f70dd6d6621c5ddeac8809ff98a739eaa4c1754f270476417248cad643dd8",
+      "source": "The Gizmo Garage",
+      "kind": "text",
+      "context": "The Gizmo Garage"
+    },
+    {
+      "id": "0c3cb6a62d8681e2ce4a93fcec230f1767f5ce81eccc501f5ea2dffa11ebc0e8",
+      "source": "May 30, 2026",
+      "kind": "text",
+      "context": "May 30, 2026"
+    },
+    {
+      "id": "3372d44ffc37a7378cbbddbd1b183e97932087eaab431fb4d8bc8ec28601b99d",
+      "source": "The Gizmo Garage presents Gaggia Classic Pro E24, covering espresso preparation, cleaning. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "The Gizmo Garage presents Gaggia Classic Pro E24, covering espresso preparation, cleaning. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "da7596e2351d288e170d40913d60212020e3d538efb25fa35257d889494c7d5d",
+      "source": "Video and opinions belong to The Gizmo Garage. Coffeedant curates this perspective alongside our written review.",
+      "kind": "text",
+      "context": "Video and opinions belong to The Gizmo Garage. Coffeedant curates this perspective alongside our written review."
+    },
+    {
+      "id": "0dcde4135be23bbeab03ecebb57e247222d10fb4abe49c77cda5e569d2a37b60",
+      "source": "Gaggia Classic Pro E24: 7 Months Later: My Honest Gaggia Classic E24 Espresso Machine Review #espresso #gaggia #coffee · The Gizmo Garage (2026-05-30) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "2e7ecce56ade18c357e5a12cc47fbfa812973cabfbd462cbb7c5c68ae50242ef",
+      "source": "Watch The Gizmo Garage on Gaggia Classic Pro E24 (2026-05-30): 7 Months Later: My Honest Gaggia Classic E24 Espresso Machine Review #espresso #gaggia #coffee. The Gizmo Garage presents Gaggia Classic Pro E24, covering espresso preparation, cleaning. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "b1159a061ee0755c62ca20912a0556d0ca9cd9c98cf40f8e78663d9c7e24c76c",
+      "source": "Gaggia Classic Pro E24 video by The Gizmo Garage",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "4772ed2981b23fb718e775b98390367a32f8b9940ddaff1a6b8d427c50bcc1b2",
+      "source": "7 Months Later: My Honest Gaggia Classic E24 Espresso Machine Review #espresso #gaggia #coffee",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "07d27687ed92c71d4654e0d23f73a4702c2f83c6dbb66feb4a3e6bdf702e5bef",
+      "source": "The Gizmo Garage presents Gaggia Classic Pro E24, covering espresso preparation, cleaning. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "1ce1a9937ac89a123126c7387fedf1951861ee79fcb638b899151effa473b306",
+      "source": "The Gizmo Garage",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "86b2d03cacb3950c4db979b952d5e6153d244a94e6e33c4c1305c62b5d3568e1",
+      "source": "Video by The Gizmo Garage",
+      "kind": "json",
+      "context": "name"
+    }
+  ],
+  "snapshotHash": "e3749e9a29a59040837f0d3167dda13dab732f0223fa15fe0c4d7c8c2b6a5130"
+}
