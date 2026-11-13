@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/ecm-puristika/video/clive-coffee/",
+      "sourceHash": "b5bda9da857c1e84699ccd54cddc43037e65007e7158a50b5f7f34beada07cbd"
+    },
+    {
+      "sourcePath": "/espresso-machine/ecm-puristika/video/whole-latte-love/",
+      "sourceHash": "9a01b4cf1a7fd6311e177311b0ab61ffd4a1c958cb2bd0e8a5ab5fe20b0af4bc"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "339e00ad082e8291460eb56f203cde2825f4d2112ed2c81949ed1d75ddd7465c",
+      "source": "Review: ECM Puristika Espresso Machine",
+      "kind": "text",
+      "context": "Review: ECM Puristika Espresso Machine"
+    },
+    {
+      "id": "2dcaa1214cc472d8a005e5572da094d4be1c507a4aaa9de6d08b7d062250ec1b",
+      "source": "March 17, 2022",
+      "kind": "text",
+      "context": "March 17, 2022"
+    },
+    {
+      "id": "700f611db3619aeacb5a5399be7422833a81eca95241102d35ddf48d4a2a00b7",
+      "source": "A specialist-retailer review showing the compact body, external glass tank, PID, pressure control, brewing, and espresso-only workflow. It is not Coffeedant testing.",
+      "kind": "text",
+      "context": "A specialist-retailer review showing the compact body, external glass tank, PID, pressure control, brewing, and espresso-only workflow. It is not Coffeedant testing."
+    },
+    {
+      "id": "67491b838db9f66272872eff2c34ecdb471eab784dee269c57cbfc9d4deb19a8",
+      "source": "Review: ECM Puristika Espresso Machine",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "3016e36e6ac31ab1b2dd795f79b8a3104e65323ac5e65da9a66212b12baccff1",
+      "source": "A specialist-retailer review showing the compact body, external glass tank, PID, pressure control, brewing, and espresso-only workflow. It is not Coffeedant testing.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "f66f8ef5d6b1932041aded586351fdedbce32046888ecae2642669a840b69bb5",
+      "source": "ECM Puristika: The ECM Puristika: How it works · Clive Coffee (2022-02-18) | Coffeedant",
+      "kind": "text",
+      "context": "ECM Puristika: The ECM Puristika: How it works · Clive Coffee (2022-02-18) | Coffeedant"
+    },
+    {
+      "id": "98a864e7f08d83cdb11d70152ca7f82d8aa70571bcc3f4bc34194e1ac4e441f6",
+      "source": "Watch Clive Coffee on ECM Puristika (2022-02-18): The ECM Puristika: How it works. Clive Coffee presents ECM Puristika, covering espresso preparation. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "49bf958638193b9284c2107b83023fce667de236cbd749dad3cc687b031f7176",
+      "source": "ECM Puristika: The ECM Puristika: How it works · Clive Coffee (2022-02-18) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "a3ea2d90ea410edba91a46c96c672f933923286cb648be840c68fbedc707be53",
+      "source": "ECM Puristika video by Clive Coffee",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "656b51d3a8d000596e22acf1894437490ca45cfa2be8021ee742009af4369da5",
+      "source": "← ECM Puristika review",
+      "kind": "text",
+      "context": "← ECM Puristika review"
+    },
+    {
+      "id": "37098698b404abf4c1d897512db42f156d9755559bd1857b76891fee7d82342d",
+      "source": "The ECM Puristika: How it works by Clive Coffee",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "d6a5037251abbbae6589dff349d1346442a871792c047c9eb24bc1d012d2c4eb",
+      "source": "ECM Puristika · Retailer perspective",
+      "kind": "text",
+      "context": "ECM Puristika · Retailer perspective"
+    },
+    {
+      "id": "1403c5f78bb212f68934569e5ad9a8586294c6b71d55adca12ba08e0e53d8f15",
+      "source": "The ECM Puristika: How it works",
+      "kind": "text",
+      "context": "The ECM Puristika: How it works"
+    },
+    {
+      "id": "13f4b8f350e791ae2ba721abf9e651dc7f47ca751b1d919e72a34f08271164e6",
+      "source": "February 18, 2022",
+      "kind": "text",
+      "context": "February 18, 2022"
+    },
+    {
+      "id": "c6cb0605a1b89fbbb531c72ac0c11e7ae122caf67a46880d6415b6ae972eff67",
+      "source": "Clive Coffee presents ECM Puristika, covering espresso preparation. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "text",
+      "context": "Clive Coffee presents ECM Puristika, covering espresso preparation. This is an equipment seller’s perspective; consider it alongside the other sources and our written review."
+    },
+    {
+      "id": "df70b83d4a665a238f1bac0d2a3ebd4a70dfa49b51e700e8fc51a9d2726c98c0",
+      "source": "ECM Puristika: The ECM Puristika: How it works · Clive Coffee (2022-02-18) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "8a795829eb5f8625fe835fafd10c6a962a08b11d3ef1e57fe34afb8b059933c3",
+      "source": "Watch Clive Coffee on ECM Puristika (2022-02-18): The ECM Puristika: How it works. Clive Coffee presents ECM Puristika, covering espresso preparation. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "38683de010d5362278c05c9517faecd89dfb3d69d7d4b1c33cef85c61b5b47b8",
+      "source": "ECM Puristika video by Clive Coffee",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "fb5f89c8b6df6be66f3568413e155e8c662464acbdeef4a55a6f02ee52a6b5ee",
+      "source": "The ECM Puristika: How it works",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "55c90412d42fba5a5c864d8b2c12e23c6739ec123b89a65e6fe838994aaf4096",
+      "source": "Clive Coffee presents ECM Puristika, covering espresso preparation. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "c265fa15d1edc5c827d6de865b7a0e08ee1ebb9cba22d1976704c0817983fc24",
+      "source": "ECM Puristika: Review: ECM Puristika Espresso Machine · Whole Latte Love (2022-03-17) | Coffeedant",
+      "kind": "text",
+      "context": "ECM Puristika: Review: ECM Puristika Espresso Machine · Whole Latte Love (2022-03-17) | Coffeedant"
+    },
+    {
+      "id": "0f607549dccfdacd184d865a6ee20e7ac9d0ddbec6b440b9623739b2b8006675",
+      "source": "Watch Whole Latte Love on ECM Puristika (2022-03-17): Review: ECM Puristika Espresso Machine. A specialist-retailer review showing the compact body, external glass tank, PID, pressure control, brewing, and espresso-only workflow. It is not Coffeedant testing.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "78f749dad4bccb4fd029d226dbd8a17ce811cc06674092058dcb9847975bd0de",
+      "source": "ECM Puristika: Review: ECM Puristika Espresso Machine · Whole Latte Love (2022-03-17) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "fa7e924f4c9f4ecd3ad9c8912945f169e87ef1e8ae58565a4cbdf1049f5fcd1b",
+      "source": "ECM Puristika video by Whole Latte Love",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "30f749a58e6b8562af8dedc7f8373fff5ba2fc864fdbe12717f75318fa3a5ac3",
+      "source": "Review: ECM Puristika Espresso Machine by Whole Latte Love",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "06a35cb6a7b924e6a5db7f9d22a3e2c14e00e94a2b9c619cce83ba8b62df5a46",
+      "source": "ECM Puristika: Review: ECM Puristika Espresso Machine · Whole Latte Love (2022-03-17) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b881b2744801eb47d88c21aec39039ab4ec8b6f474f4e417cbf16e80ee3a4e06",
+      "source": "Watch Whole Latte Love on ECM Puristika (2022-03-17): Review: ECM Puristika Espresso Machine. A specialist-retailer review showing the compact body, external glass tank, PID, pressure control, brewing, and espresso-only workflow. It is not Coffeedant testing.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "34f3c48e7c84d2490a4a46cb92ddc4fe5b81b0826393d329f25ebbd680e32cf2",
+      "source": "ECM Puristika video by Whole Latte Love",
+      "kind": "json",
+      "context": "caption"
+    }
+  ],
+  "snapshotHash": "58869a79c2dc3a8ba09c90129827c24daa4301a867ff217cc03b5171f4e6fa27"
+}
