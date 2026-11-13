@@ -5344,6 +5344,19 @@ Coverage is NL 18,127 translated and 42,880 pending, DE 18,320 translated and
 42,687 pending, and FR 17,987 translated and 43,020 pending. Finder translation
 coverage is complete. NL has 432 pages left and DE and FR have 433 each.
 
+### Direct batch 142 — ECM Mechanika Slim PID video companions (2026-11-13)
+
+Complete Alternative Brewing's and Whole Latte Love's ECM Mechanika Slim
+PID companions in Dutch, German and French. Preserve the embeds, dates,
+retailer attribution and the role of ECM's official specifications. The
+written review opens in English while its translations are pending.
+
+The source has 699 pages and 61,007 segments. NL can render 268 indexable
+pages and DE and FR can render 267 each, plus a localized 404 for each edition.
+Coverage is NL 18,155 translated and 42,852 pending, DE 18,348 translated and
+42,659 pending, and FR 18,015 translated and 42,992 pending. Finder translation
+coverage is complete. NL has 430 pages left and DE and FR have 431 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
