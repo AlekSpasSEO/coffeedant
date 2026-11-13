@@ -5315,6 +5315,21 @@ Coverage is NL 18,073 translated and 42,934 pending, DE 18,266 translated and
 42,741 pending, and FR 17,933 translated and 43,074 pending. Finder translation
 coverage is complete. NL has 436 pages left and DE and FR have 437 each.
 
+### Direct batch 140 — Baratza Encore ESP Pro video companions (2026-11-13)
+
+Complete the Coffee Kev and Lance Hedrick companions in Dutch, German and
+French. Preserve the original embeds, dates, model and creator attribution.
+Coffee Kev's summary retains the limits on Coffeedant testing and
+representative reliability data. The written review opens in English while
+its translations are pending. The new routes follow the established grinder
+paths and retain the registered German Coffee Kev route.
+
+The source has 699 pages and 61,007 segments. NL can render 264 indexable
+pages and DE and FR can render 263 each, plus a localized 404 for each edition.
+Coverage is NL 18,099 translated and 42,908 pending, DE 18,292 translated and
+42,715 pending, and FR 17,959 translated and 43,048 pending. Finder translation
+coverage is complete. NL has 434 pages left and DE and FR have 435 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
