@@ -129347,16 +129347,96 @@
     "page:efee22529ee31ba1aa3f": {
       "sourcePath": "/espresso-machine/quick-mill-pippa-4100/video/whole-latte-love/",
       "path": "/machine-a-espresso/quick-mill-pippa-4100/video/whole-latte-love/"
+    },
+    "page:8ded8411c1ebfa584fb6": {
+      "sourcePath": "/espresso-machine/ninja-luxe-cafe-mini-es301/video/amanda-buy-or-bye/",
+      "path": "/machine-a-espresso/ninja-luxe-cafe-mini-es301/video/amanda-acheter-ou-non/"
+    },
+    "page:355e0c34a6732840b4ce": {
+      "sourcePath": "/espresso-machine/ninja-luxe-cafe-premier-es601/",
+      "path": "/machine-a-espresso/ninja-luxe-cafe-premier-es601/"
+    },
+    "page:b027be1792e0fe28e1bc": {
+      "sourcePath": "/espresso-machine/ninja-luxe-cafe-pro-es701/",
+      "path": "/machine-a-espresso/ninja-luxe-cafe-pro-es701/"
+    },
+    "page:f31f4586b295314e90ea": {
+      "sourcePath": "/espresso-machine/ninja-luxe-cafe-pro-es701/video/toms-coffee-corner/",
+      "path": "/machine-a-espresso/ninja-luxe-cafe-pro-es701/video/toms-coffee-corner/"
+    },
+    "page:b2e033a081f76ebb46e1": {
+      "sourcePath": "/espresso-machine/nivona-caferomatica-6xx/",
+      "path": "/machine-a-espresso/nivona-caferomatica-6xx/"
+    },
+    "page:56764baa1a2ca69857ff": {
+      "sourcePath": "/espresso-machine/nivona-caferomatica-6xx/video/dmitriy-yurchenko/",
+      "path": "/machine-a-espresso/nivona-caferomatica-6xx/video/dmitriy-yurchenko/"
+    },
+    "page:cc1a64da11fe82a8ce38": {
+      "sourcePath": "/espresso-machine/nivona-caferomatica-6xx/video/ludiqx/",
+      "path": "/machine-a-espresso/nivona-caferomatica-6xx/video/ludiqx/"
+    },
+    "page:5a247173f4aa9814b9b8": {
+      "sourcePath": "/espresso-machine/nivona-caferomatica-6xx/video/specshop/",
+      "path": "/machine-a-espresso/nivona-caferomatica-6xx/video/specshop/"
+    },
+    "page:36a3ea8ab02f658a44b2": {
+      "sourcePath": "/espresso-machine/nivona-caferomatica-8xx/",
+      "path": "/machine-a-espresso/nivona-caferomatica-8xx/"
+    },
+    "page:d4871e60c139ecfe80f7": {
+      "sourcePath": "/espresso-machine/nivona-caferomatica-8xx/video/coffeeness/",
+      "path": "/machine-a-espresso/nivona-caferomatica-8xx/video/coffeeness/"
+    },
+    "page:6fedb03f684644c71eb5": {
+      "sourcePath": "/espresso-machine/nivona-caferomatica-8xx/video/perfetto/",
+      "path": "/machine-a-espresso/nivona-caferomatica-8xx/video/perfetto/"
+    },
+    "page:b2e47cf04c6fe3055b8d": {
+      "sourcePath": "/espresso-machine/nivona-caferomatica-8xx/video/specshop/",
+      "path": "/machine-a-espresso/nivona-caferomatica-8xx/video/specshop/"
+    },
+    "page:3bb47c4bb704491fc536": {
+      "sourcePath": "/espresso-machine/nuova-simonelli-musica/",
+      "path": "/machine-a-espresso/nuova-simonelli-musica/"
+    },
+    "page:5b9fd838c3fae50e17d3": {
+      "sourcePath": "/espresso-machine/nuova-simonelli-musica/video/alternative-brewing/",
+      "path": "/machine-a-espresso/nuova-simonelli-musica/video/alternative-brewing/"
+    },
+    "page:f94d21d398fc4321e2e4": {
+      "sourcePath": "/espresso-machine/nuova-simonelli-musica/video/coffee-parts/",
+      "path": "/machine-a-espresso/nuova-simonelli-musica/video/coffee-parts/"
+    },
+    "page:f1ca8f0e069ddd009f45": {
+      "sourcePath": "/espresso-machine/nuova-simonelli-musica/video/seattle-coffee-gear/",
+      "path": "/machine-a-espresso/nuova-simonelli-musica/video/seattle-coffee-gear/"
+    },
+    "page:f38d457809b3d3998edf": {
+      "sourcePath": "/espresso-machine/nuova-simonelli-oscar-ii/",
+      "path": "/machine-a-espresso/nuova-simonelli-oscar-ii/"
+    },
+    "page:b632f1f01a6cec5355b2": {
+      "sourcePath": "/espresso-machine/nuova-simonelli-oscar-ii/video/coffee-parts/",
+      "path": "/machine-a-espresso/nuova-simonelli-oscar-ii/video/coffee-parts/"
+    },
+    "page:7880ed2820977190f509": {
+      "sourcePath": "/espresso-machine/nuova-simonelli-oscar-ii/video/seattle-coffee-gear/",
+      "path": "/machine-a-espresso/nuova-simonelli-oscar-ii/video/seattle-coffee-gear/"
+    },
+    "page:03aedc7a929dd122b471": {
+      "sourcePath": "/espresso-machine/philips-2200-lattego/",
+      "path": "/machine-a-espresso/philips-2200-lattego/"
     }
   },
   "lastModel": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "lastUsage": {
-    "prompt_tokens": 1488,
-    "completion_tokens": 723,
-    "total_tokens": 2211,
+    "prompt_tokens": 1911,
+    "completion_tokens": 836,
+    "total_tokens": 2747,
     "prompt_tokens_details": {
       "cached_tokens": 0
     },
-    "neurons": 187.7557373046875
+    "neurons": 222.17916870117188
   }
 }
