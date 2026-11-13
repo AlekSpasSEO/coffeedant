@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "ecm-mechanika-slim-pid-videos-batch-142.source.json",
+  "snapshotHash": "fb6826af37da4e96427e14bf7edd7661798b5fc8d400f713d96b7e4dfb695816",
+  "routes": {
+    "fr": {
+      "/espresso-machine/ecm-mechanika-slim-pid/video/alternative-brewing/": "/machine-a-espresso/ecm-mechanika-slim-pid/video/alternative-brewing/",
+      "/espresso-machine/ecm-mechanika-slim-pid/video/whole-latte-love/": "/machine-a-espresso/ecm-mechanika-slim-pid/video/whole-latte-love/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "Review van de ECM Mechanika Slim PID-espressomachine",
+      "de": "Die ECM Mechanika Slim PID Espressomaschine im Test",
+      "fr": "Essai de la machine à espresso ECM Mechanika Slim PID"
+    },
+    "1": {
+      "nl": "26 juni 2024",
+      "de": "26. Juni 2024",
+      "fr": "26 juin 2024"
+    },
+    "2": {
+      "nl": "Een video van een gespecialiseerde verkoper over de huidige generatie. De video behandelt de bediening, espresso, stoom en de afmetingen. Bij tegenstrijdige specificaties zijn de officiële gegevens van ECM leidend.",
+      "de": "Ein Video eines Fachhändlers zur aktuellen Generation. Es behandelt die Bedienung, Espresso, Dampf und die Abmessungen. Bei widersprüchlichen technischen Angaben sind die offiziellen Daten von ECM maßgeblich.",
+      "fr": "Une vidéo d’un revendeur spécialisé sur la génération actuelle. Elle aborde les commandes, l’espresso, la vapeur et les dimensions. En cas de divergence entre les caractéristiques techniques, les données officielles d’ECM font foi."
+    },
+    "5": {
+      "nl": "ECM Mechanika Slim PID: ECM Mechanika Slim PID-espressomachine: PID en de praktijk · Alternative Brewing (2025-07-12) | Coffeedant",
+      "de": "ECM Mechanika Slim PID: ECM Mechanika Slim PID Espressomaschine: PID und Wirklichkeit · Alternative Brewing (2025-07-12) | Coffeedant",
+      "fr": "ECM Mechanika Slim PID: Machine à espresso ECM Mechanika Slim PID : le PID à l’épreuve de la réalité · Alternative Brewing (2025-07-12) | Coffeedant"
+    },
+    "6": {
+      "nl": "Bekijk de ECM Mechanika Slim PID met Alternative Brewing (2025-07-12). ECM Mechanika Slim PID-espressomachine: PID en de praktijk. Alternative Brewing toont de ECM Mechanika Slim PID en bespreekt espresso zetten, melkdranken, het instellen van de machine en de bediening. Dit is het perspectief van een verkoper van apparatuur. Leg het naast de andere bronnen en onze geschreven review.",
+      "de": "Sehen Sie die ECM Mechanika Slim PID bei Alternative Brewing (2025-07-12). ECM Mechanika Slim PID Espressomaschine: PID und Wirklichkeit. Alternative Brewing stellt die ECM Mechanika Slim PID vor und behandelt Espressozubereitung, Milchgetränke, Einrichtung und Bedienung. Das Video zeigt die Sicht eines Gerätehändlers. Ziehen Sie auch die anderen Quellen und unseren schriftlichen Testbericht heran.",
+      "fr": "Découvrez l’ECM Mechanika Slim PID avec Alternative Brewing (2025-07-12). Machine à espresso ECM Mechanika Slim PID : le PID à l’épreuve de la réalité. Alternative Brewing présente l’ECM Mechanika Slim PID et aborde la préparation de l’espresso, les boissons lactées, la mise en route et les commandes. La vidéo présente le point de vue d’un vendeur de matériel. Consultez aussi les autres sources et notre article."
+    },
+    "8": {
+      "nl": "Video over de ECM Mechanika Slim PID door Alternative Brewing",
+      "de": "Video zur ECM Mechanika Slim PID von Alternative Brewing",
+      "fr": "Vidéo de Alternative Brewing sur l’ECM Mechanika Slim PID"
+    },
+    "9": {
+      "nl": "← Review van de ECM Mechanika Slim PID",
+      "de": "← Testbericht zur ECM Mechanika Slim PID",
+      "fr": "← Essai de l’ECM Mechanika Slim PID"
+    },
+    "10": {
+      "nl": "ECM Mechanika Slim PID-espressomachine: PID en de praktijk · door Alternative Brewing",
+      "de": "ECM Mechanika Slim PID Espressomaschine: PID und Wirklichkeit · von Alternative Brewing",
+      "fr": "Machine à espresso ECM Mechanika Slim PID : le PID à l’épreuve de la réalité · par Alternative Brewing"
+    },
+    "11": {
+      "nl": "ECM Mechanika Slim PID · Perspectief van een verkoper",
+      "de": "ECM Mechanika Slim PID · Händlersicht",
+      "fr": "ECM Mechanika Slim PID · Point de vue d’un vendeur"
+    },
+    "12": {
+      "nl": "ECM Mechanika Slim PID-espressomachine: PID en de praktijk",
+      "de": "ECM Mechanika Slim PID Espressomaschine: PID und Wirklichkeit",
+      "fr": "Machine à espresso ECM Mechanika Slim PID : le PID à l’épreuve de la réalité"
+    },
+    "13": {
+      "nl": "13 juli 2025",
+      "de": "13. Juli 2025",
+      "fr": "13 juillet 2025"
+    },
+    "14": {
+      "nl": "Alternative Brewing toont de ECM Mechanika Slim PID en bespreekt espresso zetten, melkdranken, het instellen van de machine en de bediening. Dit is het perspectief van een verkoper van apparatuur. Leg het naast de andere bronnen en onze geschreven review.",
+      "de": "Alternative Brewing stellt die ECM Mechanika Slim PID vor und behandelt Espressozubereitung, Milchgetränke, Einrichtung und Bedienung. Das Video zeigt die Sicht eines Gerätehändlers. Ziehen Sie auch die anderen Quellen und unseren schriftlichen Testbericht heran.",
+      "fr": "Alternative Brewing présente l’ECM Mechanika Slim PID et aborde la préparation de l’espresso, les boissons lactées, la mise en route et les commandes. La vidéo présente le point de vue d’un vendeur de matériel. Consultez aussi les autres sources et notre article."
+    },
+    "20": {
+      "nl": "ECM Mechanika Slim PID: Review van de ECM Mechanika Slim PID-espressomachine · Whole Latte Love (2024-06-26) | Coffeedant",
+      "de": "ECM Mechanika Slim PID: Die ECM Mechanika Slim PID Espressomaschine im Test · Whole Latte Love (2024-06-26) | Coffeedant",
+      "fr": "ECM Mechanika Slim PID: Essai de la machine à espresso ECM Mechanika Slim PID · Whole Latte Love (2024-06-26) | Coffeedant"
+    },
+    "21": {
+      "nl": "Bekijk de ECM Mechanika Slim PID met Whole Latte Love (2024-06-26). Review van de ECM Mechanika Slim PID-espressomachine. Een video van een gespecialiseerde verkoper over de huidige generatie. De video behandelt de bediening, espresso, stoom en de afmetingen. Bij tegenstrijdige specificaties zijn de officiële gegevens van ECM leidend.",
+      "de": "Sehen Sie die ECM Mechanika Slim PID bei Whole Latte Love (2024-06-26). Die ECM Mechanika Slim PID Espressomaschine im Test. Ein Video eines Fachhändlers zur aktuellen Generation. Es behandelt die Bedienung, Espresso, Dampf und die Abmessungen. Bei widersprüchlichen technischen Angaben sind die offiziellen Daten von ECM maßgeblich.",
+      "fr": "Découvrez l’ECM Mechanika Slim PID avec Whole Latte Love (2024-06-26). Essai de la machine à espresso ECM Mechanika Slim PID. Une vidéo d’un revendeur spécialisé sur la génération actuelle. Elle aborde les commandes, l’espresso, la vapeur et les dimensions. En cas de divergence entre les caractéristiques techniques, les données officielles d’ECM font foi."
+    },
+    "23": {
+      "nl": "Video over de ECM Mechanika Slim PID door Whole Latte Love",
+      "de": "Video zur ECM Mechanika Slim PID von Whole Latte Love",
+      "fr": "Vidéo de Whole Latte Love sur l’ECM Mechanika Slim PID"
+    },
+    "24": {
+      "nl": "Review van de ECM Mechanika Slim PID-espressomachine · door Whole Latte Love",
+      "de": "Die ECM Mechanika Slim PID Espressomaschine im Test · von Whole Latte Love",
+      "fr": "Essai de la machine à espresso ECM Mechanika Slim PID · par Whole Latte Love"
+    }
+  }
+}
