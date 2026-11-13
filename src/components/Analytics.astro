@@ -160,6 +160,13 @@ productionRegions['www.coffeedant.com'] = 'us';
     };
     if (choice === 'denied' || nativeBrowserOptOut) applyChoice('denied');
     else resolveRegionalDefault();
+    const machineFinderActions = new Set(['start', 'complete', 'no_match', 'compare', 'review_click', 'price_click', 'partner_click']);
+    document.addEventListener('coffeedant:machine-finder', (event) => {
+      const action = event?.detail?.action;
+      if (effectiveChoice() === 'granted' && machineFinderActions.has(action)) {
+        window.gtag('event', `machine_finder_${action}`);
+      }
+    });
     // Apply withdrawal/acceptance immediately to other open tabs on this host.
     window.addEventListener('storage', (event) => {
       if (event.key !== storageKey && event.key !== null) return;

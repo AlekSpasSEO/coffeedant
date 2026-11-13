@@ -1,0 +1,339 @@
+---
+interface Props {
+  base?: string;
+}
+
+const { base: baseUrl = import.meta.env.BASE_URL } = Astro.props;
+const base = baseUrl.replace(/\/?$/, '/');
+const contactUrl = `${base}contact/`;
+
+const drinks = [
+  ['espresso', 'Mostly espresso', 'Straight shots and Americanos.'],
+  ['milk', 'Mostly milk drinks', 'Lattes, flat whites and cappuccinos.'],
+  ['mixed', 'Both regularly', 'Espresso and milk drinks in the same week.'],
+];
+const workflows = [
+  ['one-touch', 'One touch', 'The machine handles grinding and brewing.'],
+  ['guided', 'Guided', 'A machine that helps with some of the steps.'],
+  ['hands-on', 'Hands-on electric', 'Dial in, tamp and pull the shot yourself.'],
+  ['manual', 'Manual lever or press', 'Control the extraction by hand.'],
+  ['any', 'Open to any workflow', 'Compare options before choosing.'],
+];
+const grinders = [
+  ['own', 'I have an espresso grinder'],
+  ['need', 'Budget for a separate grinder'],
+  ['built-in', 'The machine must include a grinder'],
+  ['any', 'Any grinder setup'],
+];
+const footprints = [
+  ['compact', 'Compact machine only', 'Counter space is a firm constraint.'],
+  ['any', 'Flexible on size', 'Compare machines of any footprint.'],
+];
+const volumes = [
+  ['one-two', '1–2 drinks'],
+  ['three-five', '3–5 drinks'],
+  ['six-plus', '6 or more drinks'],
+];
+const upkeep = [
+  ['simple', 'Prefer simpler upkeep'],
+  ['any', 'Flexible on upkeep'],
+];
+---
+
+<section
+  class="machine-workflow"
+  data-machine-workflow
+  data-base={base}
+  data-catalog={`${base}coffee-finder.json`}
+  aria-labelledby="machine-workflow-title"
+>
+  <header class="workflow-header">
+    <div>
+      <p class="workflow-label">Guided machine finder</p>
+      <h2 id="machine-workflow-title">Find the right espresso setup for your routine.</h2>
+      <p>Answer five short questions to get a shortlist from Coffeedant’s reviewed machines, with a reason for each match and trade-offs to compare.</p>
+    </div>
+    <a class="workflow-catalog-link" href="#machine-catalog">Browse all machines <span aria-hidden="true">↓</span></a>
+  </header>
+
+  <div class="workflow-panel">
+    <noscript>
+      <style is:inline>[data-workflow-form] { display: none; }</style>
+      <p class="workflow-fallback">Enable JavaScript for guided recommendations, or <a href="#machine-catalog">browse the machine catalog</a>.</p>
+    </noscript>
+
+    <form data-workflow-form>
+      <p class="workflow-progress" data-workflow-progress>Step 1 of 5</p>
+
+      <fieldset data-workflow-step data-step="drink" aria-labelledby="workflow-drink-title">
+        <h3 id="workflow-drink-title" tabindex="-1">What do you make most often?</h3>
+        <div class="workflow-options">
+          {drinks.map(([value, label, detail]) => (
+            <label class="workflow-option">
+              <input type="radio" name="drink" value={value} />
+              <span><strong>{label}</strong><small>{detail}</small></span>
+            </label>
+          ))}
+        </div>
+      </fieldset>
+
+      <fieldset data-workflow-step data-step="workflow" aria-labelledby="workflow-process-title" hidden>
+        <h3 id="workflow-process-title" tabindex="-1">How hands-on do you want to be?</h3>
+        <div class="workflow-options">
+          {workflows.map(([value, label, detail]) => (
+            <label class="workflow-option">
+              <input type="radio" name="workflow" value={value} checked={value === 'any'} />
+              <span><strong>{label}</strong><small>{detail}</small></span>
+            </label>
+          ))}
+        </div>
+      </fieldset>
+
+      <fieldset data-workflow-step data-step="budget" aria-labelledby="workflow-budget-title" hidden>
+        <h3 id="workflow-budget-title" tabindex="-1">What can you spend on the setup?</h3>
+        <label class="workflow-budget">
+          <span>Total budget <small>(optional)</small></span>
+          <input type="number" inputmode="numeric" name="budget" min="1" step="1" aria-describedby="workflow-budget-help" />
+        </label>
+        <p class="workflow-hint" id="workflow-budget-help" data-workflow-budget-help>Enter your total in USD. Include room for a grinder if you need one.</p>
+        <div class="workflow-subgroup" role="group" aria-labelledby="workflow-grinder-label">
+          <p id="workflow-grinder-label">Grinder setup</p>
+          <div class="workflow-options">
+            {grinders.map(([value, label]) => (
+              <label class="workflow-option">
+                <input type="radio" name="grinder" value={value} checked={value === 'any'} />
+                <strong>{label}</strong>
+              </label>
+            ))}
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset data-workflow-step data-step="space" aria-labelledby="workflow-space-title" hidden>
+        <h3 id="workflow-space-title" tabindex="-1">How much counter space can you spare?</h3>
+        <p class="workflow-hint">Allow extra room for a separate grinder and access to the water tank.</p>
+        <div class="workflow-options">
+          {footprints.map(([value, label, detail]) => (
+            <label class="workflow-option">
+              <input type="radio" name="footprint" value={value} checked={value === 'any'} />
+              <span><strong>{label}</strong><small>{detail}</small></span>
+            </label>
+          ))}
+        </div>
+      </fieldset>
+
+      <fieldset data-workflow-step data-step="volume" aria-labelledby="workflow-volume-title" hidden>
+        <h3 id="workflow-volume-title" tabindex="-1">How many drinks do you make on a busy day?</h3>
+        <div class="workflow-options">
+          {volumes.map(([value, label]) => (
+            <label class="workflow-option">
+              <input type="radio" name="volume" value={value} />
+              <strong>{label}</strong>
+            </label>
+          ))}
+        </div>
+        <div class="workflow-subgroup" role="group" aria-labelledby="workflow-upkeep-label">
+          <p id="workflow-upkeep-label">Cleaning and maintenance</p>
+          <div class="workflow-options">
+            {upkeep.map(([value, label]) => (
+              <label class="workflow-option">
+                <input type="radio" name="maintenance" value={value} checked={value === 'any'} />
+                <strong>{label}</strong>
+              </label>
+            ))}
+          </div>
+        </div>
+      </fieldset>
+
+      <div class="workflow-controls">
+        <button class="workflow-back" type="button" data-workflow-back hidden>Back</button>
+        <button class="workflow-next" type="submit" data-workflow-next>Continue</button>
+      </div>
+    </form>
+    <p class="workflow-status" data-workflow-status role="status"></p>
+    <div class="workflow-results" data-workflow-results hidden></div>
+  </div>
+
+  <aside class="workflow-partner" aria-labelledby="workflow-partner-title">
+    <div>
+      <h3 id="workflow-partner-title">Sell or review coffee equipment?</h3>
+      <p>Offer a branded finder with your machine catalog, buying advice and product or review links.</p>
+    </div>
+    <a href={contactUrl}>Discuss a partner pilot <span aria-hidden="true">↗</span></a>
+  </aside>
+</section>
+
+<script>
+  import '../lib/machine-finder-workflow-ui';
+</script>
+
+<style>
+  .machine-workflow {
+    --workflow-dark: #143f32;
+    --workflow-yellow: #f3da00;
+    --workflow-border: #b1c3b8;
+    margin: 0 0 clamp(38px, 6vw, 72px);
+    border: 1px solid var(--workflow-dark);
+    color: var(--ink, #1f1b17);
+    background: var(--white, #fff);
+  }
+
+  .machine-workflow [hidden] { display: none; }
+
+  .workflow-header, .workflow-partner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 18px 36px;
+    padding: clamp(20px, 4vw, 44px);
+  }
+
+  .workflow-header { color: #fff; background: var(--workflow-dark); }
+  .workflow-label, .workflow-progress {
+    margin: 0;
+    font-size: .75rem;
+    font-weight: 800;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+  }
+  .workflow-label { color: var(--workflow-yellow); }
+  .workflow-progress { color: var(--workflow-dark); }
+  .workflow-header h2 {
+    max-width: 19ch;
+    margin: 8px 0 12px;
+    color: inherit;
+    font-size: clamp(1.85rem, 4.1vw, 3.7rem);
+    line-height: 1.03;
+    letter-spacing: -.045em;
+  }
+  .workflow-header p:last-child { max-width: 57ch; margin: 0; color: #e8eee9; font-size: .93rem; line-height: 1.55; }
+  .workflow-catalog-link, .workflow-partner a {
+    display: inline-flex;
+    min-height: 44px;
+    align-items: center;
+    gap: 10px;
+    color: inherit;
+    font-size: .85rem;
+    font-weight: 800;
+    text-underline-offset: .22em;
+  }
+  .workflow-catalog-link:hover { color: var(--workflow-yellow); }
+  .workflow-panel { padding: clamp(20px, 4vw, 44px); }
+  .workflow-panel fieldset { min-inline-size: 0; margin: 12px 0 0; padding: 0; border: 0; }
+  .workflow-panel h3 { margin: 0 0 14px; font-size: clamp(1.2rem, 2.5vw, 1.75rem); line-height: 1.2; }
+  .workflow-panel h3:focus { outline-offset: 5px; }
+  .workflow-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 205px), 1fr));
+    gap: 9px;
+  }
+  .workflow-option {
+    display: flex;
+    min-width: 0;
+    min-height: 52px;
+    align-items: flex-start;
+    gap: 9px;
+    padding: 12px;
+    border: 1px solid var(--workflow-border);
+    background: #f7faf8;
+    font-size: .89rem;
+    line-height: 1.3;
+    cursor: pointer;
+  }
+  .workflow-option input { flex: 0 0 auto; margin: 2px 0 0; accent-color: var(--workflow-dark); }
+  .workflow-option:hover, .workflow-option:has(input:checked) { border-color: var(--workflow-dark); background: #e8eee9; }
+  .workflow-option:has(input:focus-visible) { outline: 2px solid var(--workflow-dark); outline-offset: 2px; }
+  .workflow-option strong { display: block; }
+  .workflow-option small { display: block; margin-top: 4px; color: #43544a; font-size: .78rem; line-height: 1.4; }
+  .workflow-budget { display: grid; max-width: 18rem; gap: 6px; font-size: .9rem; font-weight: 700; }
+  .workflow-budget small { font-size: inherit; font-weight: 400; }
+  .workflow-budget input {
+    width: 100%;
+    min-height: 48px;
+    padding: 8px 12px;
+    border: 1px solid var(--workflow-dark);
+    color: inherit;
+    background: var(--white, #fff);
+    font: inherit;
+  }
+  .workflow-hint { margin: 7px 0 12px; color: #43544a; font-size: .84rem; line-height: 1.55; }
+  .workflow-subgroup { margin-top: 18px; }
+  .workflow-subgroup > p { margin: 0 0 7px; font-size: .9rem; font-weight: 800; }
+  .workflow-controls { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+  .workflow-controls button, .workflow-results :global(button.workflow-back) {
+    min-height: 48px;
+    padding: 10px 18px;
+    border: 2px solid var(--workflow-dark);
+    color: var(--workflow-dark);
+    font: inherit;
+    font-size: .86rem;
+    font-weight: 850;
+    cursor: pointer;
+  }
+  .workflow-next { background: var(--workflow-yellow); }
+  .workflow-back { background: var(--white, #fff); }
+  .workflow-controls button:hover, .workflow-results :global(button.workflow-back:hover) { color: #fff; background: var(--workflow-dark); }
+  .workflow-controls button:disabled { cursor: wait; opacity: .65; }
+  .workflow-fallback, .workflow-status { font-size: .85rem; line-height: 1.45; }
+  .workflow-status { margin: 12px 0 0; color: var(--workflow-dark); }
+  .workflow-status:empty { margin: 0; }
+
+  .workflow-results { margin-top: 18px; }
+  .workflow-results > :global(.workflow-result-note) { margin-top: 14px; }
+  .workflow-results :global(.workflow-result-grid) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 235px), 1fr));
+    gap: 12px;
+  }
+  .workflow-results :global(.workflow-result-card) {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    padding: clamp(14px, 2vw, 23px);
+    border: 1px solid var(--workflow-border);
+    background: #f7faf8;
+  }
+  .workflow-results :global(.workflow-result-card img) { width: 100%; height: 160px; object-fit: contain; mix-blend-mode: multiply; }
+  .workflow-results :global(.workflow-result-card ul) { padding-inline-start: 19px; font-size: .88rem; line-height: 1.48; }
+  .workflow-results :global(.workflow-result-title) { margin: 4px 0 10px; font-size: 1.15rem; line-height: 1.2; }
+  .workflow-results :global(.workflow-result-note) { margin: 0 0 12px; color: #43544a; font-size: .86rem; line-height: 1.5; }
+  .workflow-results :global(.workflow-result-tag) {
+    align-self: flex-start;
+    margin-bottom: 8px;
+    padding: 4px 8px;
+    color: var(--workflow-dark);
+    background: #e8eee9;
+    font-size: .75rem;
+    font-weight: 800;
+  }
+  .workflow-results :global(.workflow-result-actions) { display: flex; flex-wrap: wrap; gap: 8px 14px; margin-top: auto; }
+  .workflow-results :global(.workflow-result-actions a) { color: var(--workflow-dark); font-size: .85rem; font-weight: 800; }
+  .workflow-results > :global(.workflow-result-actions) { align-items: center; margin-top: 16px; }
+  .workflow-results :global(.workflow-compare) { max-width: 100%; margin-top: 18px; }
+  .workflow-results :global(.workflow-compare-scroll) { overflow-x: auto; }
+  .workflow-results :global(.workflow-compare summary) { padding: 10px 0; font-weight: 800; cursor: pointer; }
+  .workflow-results :global(.workflow-compare table) { width: 100%; border-collapse: collapse; font-size: .84rem; line-height: 1.45; }
+  .workflow-results :global(.workflow-compare :is(th, td)) {
+    min-width: 125px;
+    padding: 10px;
+    border-bottom: 1px solid var(--workflow-border);
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .workflow-partner {
+    align-items: center;
+    padding-block: clamp(16px, 3vw, 24px);
+    border-top: 1px solid var(--workflow-border);
+    background: #e8eee9;
+  }
+  .workflow-partner h3 { margin: 0 0 4px; font-size: 1rem; }
+  .workflow-partner p { margin: 0; color: #43544a; font-size: .84rem; line-height: 1.5; }
+  .workflow-partner a { color: var(--workflow-dark); }
+
+  @media (max-width: 600px) {
+    .workflow-header, .workflow-partner { gap: 9px; }
+    .workflow-header h2 { max-width: none; }
+  }
+</style>

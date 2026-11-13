@@ -8,6 +8,10 @@ export const prepareRegionalDocument = (document) => {
   const canonical = walk(document).find((node) => node.tagName === 'link' && attr(node, 'rel') === 'canonical');
   const policy = /^https:\/\/(?:www\.)?coffeedant\.com\/(?:privacy-policy|tos)\/$/.test(attr(canonical ?? {}, 'href') ?? '');
   for (const node of walk(document)) {
+    // Release the guided workflow in English first without changing regional translation coverage.
+    if (attr(node, 'data-machine-workflow') !== undefined) {
+      detach(node); continue;
+    }
     // Finder snapshots are generated from the catalog, not authored article
     // copy. Regional builds restore them from localized, offer-safe data after
     // translation, without indexing US prices or new duplicate text segments.
