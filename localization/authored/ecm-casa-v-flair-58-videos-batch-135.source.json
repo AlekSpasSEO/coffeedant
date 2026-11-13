@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/ecm-casa-v/video/idrinkcoffeecanada/",
+      "sourceHash": "6dd25d0d968e42927e2fd77439fd60a9689bf03a013b02bb17c101c7ae646d0e"
+    },
+    {
+      "sourcePath": "/espresso-machine/flair-58/video/lance-hedrick/",
+      "sourceHash": "3077d4be5f849e82b1beae4c2365f908186dbc4864c85ce53bcbf2aacd6e22ef"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "9ce8c593988933f8a474ff58da86a826990540b4f6942ff2a2d9bb95c5ad24c6",
+      "source": "ECM Casa V: iDrinkCoffee.com Review - ECM Casa V Espresso Machine · iDrinkCoffeeCanada (2018-11-23) | Coffeedant",
+      "kind": "text",
+      "context": "ECM Casa V: iDrinkCoffee.com Review - ECM Casa V Espresso Machine · iDrinkCoffeeCanada (2018-11-23) | Coffeedant"
+    },
+    {
+      "id": "3c3b5b98e2a8806ec1df00176c376c9e7bcfdb777e8c9a8610f7ed3653fbbf6a",
+      "source": "Watch iDrinkCoffeeCanada on ECM Casa V (2018-11-23): iDrinkCoffee.com Review - ECM Casa V Espresso Machine. iDrinkCoffeeCanada presents ECM Casa V, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "46f1f90cc7a7cfd00c46528704abb7e22156249a8feb8527791630b5e8828225",
+      "source": "ECM Casa V: iDrinkCoffee.com Review - ECM Casa V Espresso Machine · iDrinkCoffeeCanada (2018-11-23) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "422d13f9ac433c5b0c56e31a2d250c4b953d2b0b3460a1496daf91e768dc015d",
+      "source": "ECM Casa V video by iDrinkCoffeeCanada",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "746d41f3fe216f2f7b682d706a27b13dc5b55789eee5fb9da3fa2ee5c9457edf",
+      "source": "iDrinkCoffee.com Review - ECM Casa V Espresso Machine by iDrinkCoffeeCanada",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "6ca29cef488ef14186cfcf148c851fe3ed078d1724e75a5727dbd1bd60dc57ca",
+      "source": "iDrinkCoffee.com Review - ECM Casa V Espresso Machine",
+      "kind": "text",
+      "context": "iDrinkCoffee.com Review - ECM Casa V Espresso Machine"
+    },
+    {
+      "id": "38ac3f7bac3f909b52b409196204abc857f8a8fa236caa2babaedc514a72cc19",
+      "source": "November 23, 2018",
+      "kind": "text",
+      "context": "November 23, 2018"
+    },
+    {
+      "id": "3d66af6de7d5029c9a7d099e8c343de939ce39788666eed3538f31aeecf36c91",
+      "source": "iDrinkCoffeeCanada presents ECM Casa V, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "text",
+      "context": "iDrinkCoffeeCanada presents ECM Casa V, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review."
+    },
+    {
+      "id": "53ff6e912855d7e8da7c0bb41f371488a0901b53563db992a3d70cfab10f712b",
+      "source": "ECM Casa V: iDrinkCoffee.com Review - ECM Casa V Espresso Machine · iDrinkCoffeeCanada (2018-11-23) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "6947d41bf1641d3ddca47c50a7751f7bae0bf5b2091196f447065bd97a8eb8e3",
+      "source": "Watch iDrinkCoffeeCanada on ECM Casa V (2018-11-23): iDrinkCoffee.com Review - ECM Casa V Espresso Machine. iDrinkCoffeeCanada presents ECM Casa V, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "c7fa547b8b938f21fcfaafdd2e0cb649db0582ede2bd890d34ccadf283af64b4",
+      "source": "ECM Casa V video by iDrinkCoffeeCanada",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "fc6e7066d7b4b0b72e8a54ee1be290c76bb4296cf1a11e6da45ccdfdcdb8d85a",
+      "source": "iDrinkCoffee.com Review - ECM Casa V Espresso Machine",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "6bf5fdc004afbd8eb345e74d8bed0dcbeb1567c2c8842cc1e9348faaf797917c",
+      "source": "iDrinkCoffeeCanada presents ECM Casa V, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "3c304f863465eb680af56740faf0432220c061eb55e8b1a9b94ce8051166663d",
+      "source": "Flair 58 Plus 2: Optimal or Optional? Flair 58+2 Review (w/ Tips & Tricks) · Lance Hedrick (2025-04-04) | Coffeedant",
+      "kind": "text",
+      "context": "Flair 58 Plus 2: Optimal or Optional? Flair 58+2 Review (w/ Tips & Tricks) · Lance Hedrick (2025-04-04) | Coffeedant"
+    },
+    {
+      "id": "e3617bbe7c856b17369a697598cb16ee99782c1f634464e30f4b14a37824a0db",
+      "source": "Watch Lance Hedrick on Flair 58 Plus 2 (2025-04-04): Optimal or Optional? Flair 58+2 Review (w/ Tips & Tricks). Lance Hedrick presents Flair Flair 58 Plus 2. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "958ccf245aeb3c8264cc332d20dfdd1a9364062b6479867444543d8ccb621ceb",
+      "source": "Flair 58 Plus 2: Optimal or Optional? Flair 58+2 Review (w/ Tips & Tricks) · Lance Hedrick (2025-04-04) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "66e0bb4c4bed39a445227b2baf614e1f0cb7d3b6bf9e92e74f937469d49cfea0",
+      "source": "Flair 58 Plus 2 video by Lance Hedrick",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "ea9e2005563cb07eb190d7c6b8fbe8a993ed895a4e5ff148418a6eb47d1c21a2",
+      "source": "Optimal or Optional? Flair 58+2 Review (w/ Tips & Tricks) by Lance Hedrick",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "0ef0d9020d3e622281f6b3ba9aab808948244c69c354679cd63ea1409a2b44a2",
+      "source": "Optimal or Optional? Flair 58+2 Review (w/ Tips & Tricks)",
+      "kind": "text",
+      "context": "Optimal or Optional? Flair 58+2 Review (w/ Tips & Tricks)"
+    },
+    {
+      "id": "d91b95b210172b86030e09d4eb493b87d01ab253c7ce3255d4e1627ee19c11a3",
+      "source": "April 4, 2025",
+      "kind": "text",
+      "context": "April 4, 2025"
+    },
+    {
+      "id": "c8034da45c5501fdadf9124dc21eb3280403b9f26a017239d6f03998e162716c",
+      "source": "Lance Hedrick presents Flair Flair 58 Plus 2. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Lance Hedrick presents Flair Flair 58 Plus 2. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "ea9efdc5bff47f59f5be094386ac0206075299938507e6b138426c93583e6bb3",
+      "source": "Flair 58 Plus 2: Optimal or Optional? Flair 58+2 Review (w/ Tips & Tricks) · Lance Hedrick (2025-04-04) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "0773b4876b1a4caaaefad81aa01f188211f59120bfcc35ac577309eb1ce2668b",
+      "source": "Watch Lance Hedrick on Flair 58 Plus 2 (2025-04-04): Optimal or Optional? Flair 58+2 Review (w/ Tips & Tricks). Lance Hedrick presents Flair Flair 58 Plus 2. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "abb9cc6e37dab5782cd00ffc58161da1383f954ff0f9d6a40e91ebabd5cd4aa2",
+      "source": "Flair 58 Plus 2 video by Lance Hedrick",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "11c929d5be29befeb0e884d4bddd09aeb618b5894e739f20547bfaca594d75a1",
+      "source": "Optimal or Optional? Flair 58+2 Review (w/ Tips & Tricks)",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "be7a8b62476517c89484fce0c371a727ef2caaeef4054bd87d3005a64f0e1c2f",
+      "source": "Lance Hedrick presents Flair Flair 58 Plus 2. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "34e895a8721380d04ae55b74d219bc0e54f71c0670690da290ec437ed9cae075"
+}

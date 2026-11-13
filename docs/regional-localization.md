@@ -5243,6 +5243,21 @@ Coverage is NL 17,938 translated and 43,065 pending, DE 17,959 translated and
 43,044 pending, and FR 17,798 translated and 43,205 pending. Finder translation
 coverage is complete. NL has 446 pages left and DE and FR have 447 each.
 
+### Direct batch 135 — ECM Casa V and Flair 58+2 video companions (2026-11-13)
+
+Complete iDrinkCoffeeCanada's ECM Casa V and Lance Hedrick's Flair 58+2
+companions in Dutch, German and French. Preserve the original video IDs,
+publication dates, retailer disclosure and the Flair 58 Plus 2 model scope.
+The written review links open their English sources while translations are
+pending. New paths follow the published companions for the same models.
+
+The source has 699 pages and 61,003 segments. NL can render 254 indexable
+pages and DE and FR can render 253 each, plus a localized 404 for each edition.
+Coverage is NL 17,964 translated and 43,039 pending, DE 18,157 translated and
+42,846 pending, and FR 17,824 translated and 43,179 pending. The German count
+includes the preceding cache update. Finder translation coverage is complete.
+NL has 444 pages left and DE and FR have 445 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
