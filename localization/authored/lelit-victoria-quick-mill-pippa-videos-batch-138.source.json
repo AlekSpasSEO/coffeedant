@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/lelit-victoria-pl91t/video/lance-hedrick/",
+      "sourceHash": "5b22f18df760d6801ec108c0e8321924e16b5f5d75aa98b3915d4921ae1e7bcd"
+    },
+    {
+      "sourcePath": "/espresso-machine/quick-mill-pippa-4100/video/idrinkcoffeecanada/",
+      "sourceHash": "23d36e98c649e1f10185e6e9cb5d058e2dc9eb505c9e6836810b7229234ae3d3"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "af4928de92abe770ab6a77a44a0192a91a8de1706a15b562f87c5c24206ec1f2",
+      "source": "Lelit Victoria PL91T: Best Sub $1000 Espresso Machine? Profitec Go vs Lelit Victoria · Lance Hedrick (2025-03-17) | Coffeedant",
+      "kind": "text",
+      "context": "Lelit Victoria PL91T: Best Sub $1000 Espresso Machine? Profitec Go vs Lelit Victoria · Lance Hedrick (2025-03-17) | Coffeedant"
+    },
+    {
+      "id": "bd8367f301ac909ac2279fdaa24fbd0156772e19749403a762bae2ed64dcd334",
+      "source": "Watch Lance Hedrick on Lelit Victoria PL91T (2025-03-17): Best Sub $1000 Espresso Machine? Profitec Go vs Lelit Victoria. Lance Hedrick presents Lelit Victoria PL91T, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "eb28c1ea8c70aa2b32022bdbac61b0d996abb9c693cd42c154104a0b1332656b",
+      "source": "Lelit Victoria PL91T: Best Sub $1000 Espresso Machine? Profitec Go vs Lelit Victoria · Lance Hedrick (2025-03-17) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "6943cdf047d6e3077ae315e26fd9d9f18883318a74c64ba7feb21c7ebfae6565",
+      "source": "Lelit Victoria PL91T video by Lance Hedrick",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "43ef6ccd3788367838c10e9efa00ea49d2df91318f51485cbdcf810a3e1516c8",
+      "source": "Best Sub $1000 Espresso Machine? Profitec Go vs Lelit Victoria by Lance Hedrick",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "042b64ee469a969a6b8f9fc476d0c684ddfdb04dc8e6031ff28ad197b4c6ea80",
+      "source": "Best Sub $1000 Espresso Machine? Profitec Go vs Lelit Victoria",
+      "kind": "text",
+      "context": "Best Sub $1000 Espresso Machine? Profitec Go vs Lelit Victoria"
+    },
+    {
+      "id": "e186b0196fd7881ab3aaaa498ee50437a4936c0cf8fe03f0c9b08130fbc90e6c",
+      "source": "March 17, 2025",
+      "kind": "text",
+      "context": "March 17, 2025"
+    },
+    {
+      "id": "f5eb806f56501386ebc13ebdd2336140fdccfca80b33029f91ce495045375653",
+      "source": "Lance Hedrick presents Lelit Victoria PL91T, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Lance Hedrick presents Lelit Victoria PL91T, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "01a15a17fcbdf4b8fffeb48bc824acfbd55bf7d3e2eecbeef1977409e14861cb",
+      "source": "Lelit Victoria PL91T: Best Sub $1000 Espresso Machine? Profitec Go vs Lelit Victoria · Lance Hedrick (2025-03-17) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "a316b7df5ec6ffbce34dfc6b7ea9349a0ab19c598f4bc4ce9d7882e6482db7da",
+      "source": "Watch Lance Hedrick on Lelit Victoria PL91T (2025-03-17): Best Sub $1000 Espresso Machine? Profitec Go vs Lelit Victoria. Lance Hedrick presents Lelit Victoria PL91T, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "da3118a7dc9ae99a9fe826bc862e689e3c70cb0a838f1288a56d746383507bb1",
+      "source": "Lelit Victoria PL91T video by Lance Hedrick",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "dbf992d14fb544e868c68f4defd64e5661d878325fbde5b6b72092157dffaabc",
+      "source": "Best Sub $1000 Espresso Machine? Profitec Go vs Lelit Victoria",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "65e30e4a0231549115fab02b6c9022e74b939af7522db4dc384959201b355695",
+      "source": "Lance Hedrick presents Lelit Victoria PL91T, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "f418e610cf58d4551b2a1f9e2d594a399a17212dcabbcbb7c0d21ab4aef45e2a",
+      "source": "Quick Mill Pippa Review: Best Entry-Level Italian Espresso Machine? ☕🇮🇹",
+      "kind": "text",
+      "context": "Quick Mill Pippa Review: Best Entry-Level Italian Espresso Machine? ☕🇮🇹"
+    },
+    {
+      "id": "aa32cd2aeb7f2f77eb9212ea89f49d57e2586cd56d9af1bce89fb385eb00d7e7",
+      "source": "January 28, 2025",
+      "kind": "text",
+      "context": "January 28, 2025"
+    },
+    {
+      "id": "d2e1df0669431e8deb1635525f5dcd2408d3d376268db9b3df1d3768d815daa6",
+      "source": "Unique independent current-model video covering controls, espresso preparation, steaming, positioning and buyer fit. It is not Coffeedant testing, a current-price source or a universal performance measurement.",
+      "kind": "text",
+      "context": "Unique independent current-model video covering controls, espresso preparation, steaming, positioning and buyer fit. It is not Coffeedant testing, a current-price source or a universal performance measurement."
+    },
+    {
+      "id": "bc4bfdbede25dcceb2e7b02223b376979ddb869101a708c8f6e854c90e9fbba5",
+      "source": "Quick Mill Pippa Review: Best Entry-Level Italian Espresso Machine? ☕🇮🇹",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "969c84952fc778d39b0ba5ff07d91c6f0d0c58fd291785ced23ddf2ab10a7b58",
+      "source": "Unique independent current-model video covering controls, espresso preparation, steaming, positioning and buyer fit. It is not Coffeedant testing, a current-price source or a universal performance measurement.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "98fdf190cee2a2096ca21c25eec2395d779c21bf2ad0c2bfebd1e24ec058050b",
+      "source": "Quick Mill Pippa 4100: Quick Mill Pippa Review: Best Entry-Level Italian Espresso Machine? ☕🇮🇹 · iDrinkCoffeeCanada (2025-01-28) | Coffeedant",
+      "kind": "text",
+      "context": "Quick Mill Pippa 4100: Quick Mill Pippa Review: Best Entry-Level Italian Espresso Machine? ☕🇮🇹 · iDrinkCoffeeCanada (2025-01-28) | Coffeedant"
+    },
+    {
+      "id": "26dc4923aa51cb563a57d856b29252ae5bfad72989c00b9bd5a678e0aceb3af9",
+      "source": "Watch iDrinkCoffeeCanada on Quick Mill Pippa 4100 (2025-01-28): Quick Mill Pippa Review: Best Entry-Level Italian Espresso Machine? ☕🇮🇹. Unique independent current-model video covering controls, espresso preparation, steaming, positioning and buyer fit. It is not Coffeedant testing, a current-price source or a universal performance measurement.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "d6dda12b694d8590c20e368e4f4c7006b85a1bf997f7e5b242fba2a3fd37d572",
+      "source": "Quick Mill Pippa 4100: Quick Mill Pippa Review: Best Entry-Level Italian Espresso Machine? ☕🇮🇹 · iDrinkCoffeeCanada (2025-01-28) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "4f4f5d6db2f2904d86f2be3c71637b673c92cc316ca9ef9164ed18633b46dc84",
+      "source": "Quick Mill Pippa 4100 video by iDrinkCoffeeCanada",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "d28c6e0a3c2a72d4135eef83a52ff2bb41b80f8b0dbf48b53a8027a76b950d5b",
+      "source": "Quick Mill Pippa Review: Best Entry-Level Italian Espresso Machine? ☕🇮🇹 by iDrinkCoffeeCanada",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "cd1d7bc8d387d8fb3d7a4013d4b5f8902ad1620ae2f249b20b39f4783213936b",
+      "source": "Quick Mill Pippa 4100: Quick Mill Pippa Review: Best Entry-Level Italian Espresso Machine? ☕🇮🇹 · iDrinkCoffeeCanada (2025-01-28) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "3dfff3b39216dd16f065aa9668935c29507c2f33354ab70760222b95c5b8dced",
+      "source": "Watch iDrinkCoffeeCanada on Quick Mill Pippa 4100 (2025-01-28): Quick Mill Pippa Review: Best Entry-Level Italian Espresso Machine? ☕🇮🇹. Unique independent current-model video covering controls, espresso preparation, steaming, positioning and buyer fit. It is not Coffeedant testing, a current-price source or a universal performance measurement.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "a264df05f865c37bc1adc7d441df114f0aee56c78dfc8a491623fab481fbd96f",
+      "source": "Quick Mill Pippa 4100 video by iDrinkCoffeeCanada",
+      "kind": "json",
+      "context": "caption"
+    }
+  ],
+  "snapshotHash": "00a7a96a22f8e034229cf17d9bf7f0d1ea10b6ed17554341e93475f11dde706e"
+}
