@@ -5229,6 +5229,20 @@ Coverage is NL 17,912 translated and 43,091 pending, DE 17,933 translated and
 43,070 pending, and FR 17,772 translated and 43,231 pending. Finder translation
 coverage is complete. NL has 448 pages left and DE and FR have 449 each.
 
+### Direct batch 134 — Bambino Plus and Magnifica Evo video companions (2026-11-13)
+
+Complete Lance Hedrick's Breville Bambino Plus companion and Tom's Coffee
+Corner's De'Longhi Magnifica Evo with LatteCrema companion in Dutch, German and
+French. Preserve the embeds, dates, attribution, model scope and Tom's affiliate
+disclosure. The written review links open the English sources while their
+translations are pending.
+
+The source has 699 pages and 61,003 segments. NL can render 252 indexable
+pages and DE and FR can render 251 each, plus a localized 404 for each edition.
+Coverage is NL 17,938 translated and 43,065 pending, DE 17,959 translated and
+43,044 pending, and FR 17,798 translated and 43,205 pending. Finder translation
+coverage is complete. NL has 446 pages left and DE and FR have 447 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

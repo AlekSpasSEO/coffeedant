@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/breville-bambino/video/lance-hedrick/",
+      "sourceHash": "dcbd21c06320a4d2f4e82ff334c5b9a1fb651734637a8f4ff7025679164244d9"
+    },
+    {
+      "sourcePath": "/espresso-machine/delonghi-magnifica-evo/video/toms-coffee-corner/",
+      "sourceHash": "48333ac06242e99895e2cfd9848f21039d893e5db84ffc0d5c40cb9b1968bdba"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "69bcdaa16a48425ddff4e13fbc4a93bce34b7e4008ad5a2c0662173bb3a24a15",
+      "source": "Breville Bambino Plus: BAMBINO PLUS REVIEW: How Good Is It, Really? · Lance Hedrick (2023-04-16) | Coffeedant",
+      "kind": "text",
+      "context": "Breville Bambino Plus: BAMBINO PLUS REVIEW: How Good Is It, Really? · Lance Hedrick (2023-04-16) | Coffeedant"
+    },
+    {
+      "id": "24278a17ae97c296aa31ff06dc45b99cc8892f920795bfe8ed31ce6986d946fd",
+      "source": "Watch Lance Hedrick on Breville Bambino Plus (2023-04-16): BAMBINO PLUS REVIEW: How Good Is It, Really?. Lance Hedrick presents Breville Bambino Plus. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "5f0a66b4f48ea51833db69f929837a7b4174638d0d1ba2bb6c9ea497e2e1eb27",
+      "source": "Breville Bambino Plus: BAMBINO PLUS REVIEW: How Good Is It, Really? · Lance Hedrick (2023-04-16) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "7e217862f85e9fea2d4ec933a3c38a2af87b506d5fac915c6a9df97e447721b0",
+      "source": "Breville Bambino Plus video by Lance Hedrick",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "afc94c87e185be229293672777dc2174fb541450458229708c5d19dce4d687e7",
+      "source": "BAMBINO PLUS REVIEW: How Good Is It, Really? by Lance Hedrick",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "fcc11d8ba2c019d96cf6ecb1d6dc27bf7f539c0eee31189b0711d70b982db7eb",
+      "source": "BAMBINO PLUS REVIEW: How Good Is It, Really?",
+      "kind": "text",
+      "context": "BAMBINO PLUS REVIEW: How Good Is It, Really?"
+    },
+    {
+      "id": "0e0d4d8fec63912f95e34f27e007f74880494cc1948dc64e4fda03f09503d3cb",
+      "source": "April 16, 2023",
+      "kind": "text",
+      "context": "April 16, 2023"
+    },
+    {
+      "id": "426744c3e8365094bd2af100bdaae0cbcf9b32c953a09fd4b3d736910e76bfb6",
+      "source": "Lance Hedrick presents Breville Bambino Plus. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Lance Hedrick presents Breville Bambino Plus. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "d9527e00e61e2bb1588e2321843171f698a2e9c6c26c82d3d54bd599cb149743",
+      "source": "Breville Bambino Plus: BAMBINO PLUS REVIEW: How Good Is It, Really? · Lance Hedrick (2023-04-16) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "e0361360bcded738175703fa5269cd35e19e20ff6b89ed21baa1c1cda70b462e",
+      "source": "Watch Lance Hedrick on Breville Bambino Plus (2023-04-16): BAMBINO PLUS REVIEW: How Good Is It, Really?. Lance Hedrick presents Breville Bambino Plus. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "d5160a836071f8d381858e313e075d21abec48b82622a7329a2be0c8ae2e70f4",
+      "source": "Breville Bambino Plus video by Lance Hedrick",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "1ed5f6caad43472620a98aa419f5a4287a8125cc03102f6558f70b32a9b29c54",
+      "source": "BAMBINO PLUS REVIEW: How Good Is It, Really?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "e7dead167d3210c24580f69b14020f0e5f02662c145769a9423a21b6cb6850d8",
+      "source": "Lance Hedrick presents Breville Bambino Plus. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "184af7bd103d887783844fa1a9511ff8dbcf9489859cab76d7e42ac9ff9ab84f",
+      "source": "De'Longhi Magnifica Evo with LatteCrema: Delonghi Magnifica Evo Superautomatic Coffee Machine Review · Tom's Coffee Corner (2023-08-07) | Coffeedant",
+      "kind": "text",
+      "context": "De'Longhi Magnifica Evo with LatteCrema: Delonghi Magnifica Evo Superautomatic Coffee Machine Review · Tom's Coffee Corner (2023-08-07) | Coffeedant"
+    },
+    {
+      "id": "8ffa95c5cffda674d84e0bcc64cd24a5213863cb9dc79b52ea5a04b9776ff231",
+      "source": "Watch Tom's Coffee Corner on De'Longhi Magnifica Evo with LatteCrema (2023-08-07): Delonghi Magnifica Evo Superautomatic Coffee Machine Review. Tom's Coffee Corner presents De'Longhi Magnifica Evo with LatteCrema, covering espresso preparation, milk drinks, setup and controls. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "57a2a7ce40951a50bd077a5869ff56ef7b2b115c27d41aa8f1268b8dd476c830",
+      "source": "De'Longhi Magnifica Evo with LatteCrema: Delonghi Magnifica Evo Superautomatic Coffee Machine Review · Tom's Coffee Corner (2023-08-07) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "151806272098cd52065d0c31bc0bf97ad320f62ee5dcc386f1396c25ba1db71e",
+      "source": "De'Longhi Magnifica Evo with LatteCrema video by Tom's Coffee Corner",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "338acf44dd866d9a9f6e643abbb484980a127f2dad564a98747a38d1973f3ee6",
+      "source": "Delonghi Magnifica Evo Superautomatic Coffee Machine Review by Tom's Coffee Corner",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "fa87d1ab2ed62e07ea13813e99859bccba49f3e0df7fa898e994c36bd700d30a",
+      "source": "Delonghi Magnifica Evo Superautomatic Coffee Machine Review",
+      "kind": "text",
+      "context": "Delonghi Magnifica Evo Superautomatic Coffee Machine Review"
+    },
+    {
+      "id": "abe932d8678fe4409c74661b8183837bcf8c5e4d4104be848cfe7d90280a9b3b",
+      "source": "August 7, 2023",
+      "kind": "text",
+      "context": "August 7, 2023"
+    },
+    {
+      "id": "f8789e94dcd74f55b0445c887540a0bbe710223aa1ebaeb42479e3b175f669a5",
+      "source": "Tom's Coffee Corner presents De'Longhi Magnifica Evo with LatteCrema, covering espresso preparation, milk drinks, setup and controls. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Tom's Coffee Corner presents De'Longhi Magnifica Evo with LatteCrema, covering espresso preparation, milk drinks, setup and controls. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "69005b271dbc7313339490ec0d75f3d7a4824a1a3b0b8c17b5739d37f351d7cb",
+      "source": "De'Longhi Magnifica Evo with LatteCrema: Delonghi Magnifica Evo Superautomatic Coffee Machine Review · Tom's Coffee Corner (2023-08-07) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "3bf7f823a8af276139fc15d9b0743e59271411536cb885989b5b700fa7c924f9",
+      "source": "Watch Tom's Coffee Corner on De'Longhi Magnifica Evo with LatteCrema (2023-08-07): Delonghi Magnifica Evo Superautomatic Coffee Machine Review. Tom's Coffee Corner presents De'Longhi Magnifica Evo with LatteCrema, covering espresso preparation, milk drinks, setup and controls. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "55e8425808be8bc4395e5f840b9441c82c06b73501486ec425063d15203f50b5",
+      "source": "De'Longhi Magnifica Evo with LatteCrema video by Tom's Coffee Corner",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "0bb388ec815158512997a7ab9ab2b82f26e44f6f4db6474e510ed55b47d6c418",
+      "source": "Delonghi Magnifica Evo Superautomatic Coffee Machine Review",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b45a98f03a002d25cac7e111b582146de27b7d6ca1030ef7b598b61b159b51e3",
+      "source": "Tom's Coffee Corner presents De'Longhi Magnifica Evo with LatteCrema, covering espresso preparation, milk drinks, setup and controls. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "7e255ca3d5d03fc760d48d079b27d989a909d550e0265fb2b67954a06a508884"
+}
