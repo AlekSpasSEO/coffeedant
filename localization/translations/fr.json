@@ -128683,16 +128683,96 @@
     "page:117efec9bef9798d7fed": {
       "sourcePath": "/espresso-machine/delonghi-magnifica-evo/video/toms-coffee-corner/",
       "path": "/machines-expresso/delonghi-magnifica-evo/video/toms-coffee-corner/"
+    },
+    "page:6d02c2a1670aedf39a77": {
+      "sourcePath": "/coffee-beans/best-chocolate-forward-espresso-beans/",
+      "path": "/cafe/graines-d-espresso-avec-saveur-de-chocolat/"
+    },
+    "page:81adb1fb0baf3e0333af": {
+      "sourcePath": "/coffee-beans/best-espresso-beans-with-brew-recipes/",
+      "path": "/cafe/meilleures-graines-d-espresso-avec-recettes-de-brew/"
+    },
+    "page:d518a85846b976a54ec8": {
+      "sourcePath": "/coffee-beans/best-fruit-forward-espresso-beans/",
+      "path": "/cafe/meilleures-graines-d-espresso-avec-saveur-de-fruit/"
+    },
+    "page:3116ad729009773121fd": {
+      "sourcePath": "/coffee-beans/equator-dipsea-espresso/",
+      "path": "/cafe/equator-dipsea-espresso/"
+    },
+    "page:c7569bc76e9a3cd3a6d8": {
+      "sourcePath": "/coffee-beans/equator-jaguar-espresso/",
+      "path": "/cafe/equator-jaguar-espresso/"
+    },
+    "page:f79224cce705458d136e": {
+      "sourcePath": "/coffee-beans/equator-mocha-java-blend/",
+      "path": "/cafe/equator-mocha-java-blend/"
+    },
+    "page:2297187a8a3d28c1b0e2": {
+      "sourcePath": "/coffee-beans/intelligentsia-black-cat-analog-espresso/",
+      "path": "/cafe/intelligentsia-black-cat-analog-espresso/"
+    },
+    "page:40f6a992538f1d5b580e": {
+      "sourcePath": "/coffee-beans/intelligentsia-organic-black-cat-espresso/",
+      "path": "/cafe/intelligentsia-organic-black-cat-espresso/"
+    },
+    "page:ee2b7211238847cb1323": {
+      "sourcePath": "/coffee-beans/onyx-cold-brew/",
+      "path": "/cafe/onyx-cold-brew/"
+    },
+    "page:38842a9c6ab2e1789ee5": {
+      "sourcePath": "/coffee-beans/onyx-colombia-aponte-village-honey-26/",
+      "path": "/cafe/onyx-colombia-aponte-village-honey-26/"
+    },
+    "page:04e665e839258955e17d": {
+      "sourcePath": "/coffee-beans/onyx-decaf-colombia-inza-san-antonio/",
+      "path": "/cafe/onyx-decaf-colombia-inza-san-antonio/"
+    },
+    "page:0c0527af1f23110e67c3": {
+      "sourcePath": "/coffee-beans/onyx-eclipse/",
+      "path": "/cafe/onyx-eclipse/"
+    },
+    "page:30d97ffd20dce72dd074": {
+      "sourcePath": "/coffee-beans/onyx-tropical-weather/",
+      "path": "/cafe/onyx-tropical-weather/"
+    },
+    "page:b8178fcf9ad9441efff8": {
+      "sourcePath": "/coffee-beans/stumptown-founders-blend/",
+      "path": "/cafe/stumptown-founders-blend/"
+    },
+    "page:5a4b8e6292b68aebc0b6": {
+      "sourcePath": "/coffee-beans/stumptown-homestead/",
+      "path": "/cafe/stumptown-homestead/"
+    },
+    "page:648f900f3271159434c1": {
+      "sourcePath": "/coffee-beans/stumptown-hundred-mile/",
+      "path": "/cafe/stumptown-hundred-mile/"
+    },
+    "page:c80948449f13f1fea498": {
+      "sourcePath": "/coffee-beans/verve-aster/",
+      "path": "/cafe/verve-aster/"
+    },
+    "page:2c6d9d446c7d8d7b963a": {
+      "sourcePath": "/coffee-beans/verve-bronson-french-roast/",
+      "path": "/cafe/verve-bronson-french-roast/"
+    },
+    "page:368ef669bdde5c39d7d7": {
+      "sourcePath": "/coffee-beans/verve-holiday-blend/",
+      "path": "/cafe/verve-holiday-blend/"
+    },
+    "page:6e14f8571760fab159d6": {
+      "sourcePath": "/coffee-beans/verve-seabright-house-blend/",
+      "path": "/cafe/verve-seabright-house-blend/"
     }
   },
   "lastModel": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "lastUsage": {
-    "prompt_tokens": 1967,
-    "completion_tokens": 946,
-    "total_tokens": 2913,
+    "prompt_tokens": 1488,
+    "completion_tokens": 723,
+    "total_tokens": 2211,
     "prompt_tokens_details": {
       "cached_tokens": 0
     },
-    "neurons": 246.20114135742188
+    "neurons": 187.7557373046875
   }
 }
