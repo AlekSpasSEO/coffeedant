@@ -2,8 +2,15 @@
 import type { MachineReviewData } from '../../data/reviews';
 import { getReviewOverallScore } from '../../data/reviews';
 import { getAmazonOfferCheckedLabel } from '../../lib/amazon-affiliate';
+import MachineFinderWorkflow from '../MachineFinderWorkflow.astro';
 
-const { review, anchorAliases = {} } = Astro.props as { review: MachineReviewData; anchorAliases?: Record<string, string[]> };
+interface Props {
+  review: MachineReviewData;
+  anchorAliases?: Record<string, string[]>;
+  showMachineFinder?: boolean;
+}
+
+const { review, anchorAliases = {}, showMachineFinder = false } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const basePath = base.replace(/\/$/, '');
 const assetUrl = (path: string) => /^https:\/\//i.test(path)
@@ -29,8 +36,15 @@ const amazonCheckedLabel = amazonLink ? getAmazonOfferCheckedLabel(amazonLink) :
     <h1 id="review-title">{review.title}</h1>
   </header>
   <div class="review-summary-media">
-    <span class="review-award">{review.verdictLabel}</span>
-    <img class="review-product-image" src={assetUrl(review.image)} width="500" height="500" alt={review.imageAlt} fetchpriority="high" decoding="async" />
+    <div class="review-summary-image">
+      <span class="review-award">{review.verdictLabel}</span>
+      <img class="review-product-image" src={assetUrl(review.image)} width="500" height="500" alt={review.imageAlt} fetchpriority="high" decoding="async" />
+    </div>
+    {showMachineFinder && (
+      <div class="review-summary-finder">
+        <MachineFinderWorkflow subject={{ path: review.slug, name: `${review.brand} ${review.model}` }} />
+      </div>
+    )}
     <aside class="review-author-card" aria-label="Author and publication details">
       <div class="review-author-head">
         <img src={assetUrl(review.author.image)} width="48" height="48" alt={review.author.imageAlt} decoding="async" />

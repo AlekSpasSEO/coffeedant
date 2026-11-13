@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { recommendMachines } from '../../src/lib/machine-finder-workflow.mjs';
+import { assessMachine, recommendMachines } from '../../src/lib/machine-finder-workflow.mjs';
 
 const machine = (model, fields = {}) => ({
   model,
@@ -89,4 +89,53 @@ test('keeps three matches and rewards reuse and separate maintenance when reques
   assert.deepEqual(result.matches.map(({ item }) => item.model), ['better-rated', 'alpha', 'bravo']);
   assert.ok(result.matches[0].reasons.includes('grinder-owned'));
   assert.ok(result.matches[0].reasons.includes('maintenance-separate'));
+});
+
+test('uses experience and the chosen priority to distinguish fit, independently of review ratings', () => {
+  const easy = machine('easy', { workflow: 'one-touch', drink: 'milk', experience: 'beginner', grinder: 'built-in', rating: 3 });
+  const advanced = machine('advanced', { experience: 'advanced', rating: 5 });
+  const priorities = { ...answers, budget: null, grinder: 'any', experience: 'beginner' };
+  const ease = recommendMachines([advanced, easy], { ...priorities, priority: 'ease' }).matches;
+  assert.deepEqual(ease.map(({ item }) => item.model), ['easy', 'advanced']);
+  assert.equal(ease[0].percent, 100);
+  assert.ok(ease[0].reasons.includes('priority-ease'));
+  assert.ok(ease[1].caveats.includes('experience-learning-curve'));
+  const control = recommendMachines([advanced, easy], { ...priorities, experience: 'advanced', priority: 'control' }).matches;
+  assert.deepEqual(control.map(({ item }) => item.model), ['advanced', 'easy']);
+  assert.ok(control[0].percent > control[1].percent);
+  assert.ok(control[1].caveats.includes('priority-control-tradeoff'));
+  assert.equal(assessMachine({ ...easy, rating: 5 }, priorities).percent, assessMachine(easy, priorities).percent);
+});
+
+test('assesses reviewed machines even when they miss constraints and retains score caveats', () => {
+  const subject = machine('subject', { priceAmount: null, workflow: 'capsule', drink: 'espresso', volume: 'one-two' });
+  const { eligible, percent, reasons, tradeoff, caveats } = assessMachine(subject, { ...answers, priority: 'value' });
+  assert.equal(eligible, false);
+  assert.ok(percent >= 0 && percent < 75);
+  assert.equal(tradeoff, 'tradeoff-capsule');
+  assert.ok(!reasons.includes('drink-milk'));
+  assert.ok(!reasons.includes('budget-fit'));
+  assert.ok(caveats.includes('home-workflow-mismatch'));
+  assert.ok(caveats.includes('drink-mismatch'));
+  assert.ok(caveats.includes('volume-mismatch'));
+  assert.ok(caveats.includes('budget-unverified'));
+});
+
+test('review alternatives omit the subject and clearly mark any near fits', () => {
+  const catalog = [
+    machine('subject'),
+    machine('exact'),
+    machine('space-tradeoff', { footprint: 'standard' }),
+    machine('budget-tradeoff', { priceUsd: 900 }),
+    machine('capsule', { workflow: 'capsule' }),
+  ];
+  const options = { excludePath: catalog[0].path };
+  const strict = recommendMachines(catalog, answers, options).matches;
+  assert.deepEqual(strict.map(({ item }) => item.model), ['exact']);
+  const alternatives = recommendMachines(catalog, answers, { ...options, includeNearMatches: true }).matches;
+  assert.deepEqual(alternatives.map(({ item }) => item.model), ['exact', 'space-tradeoff', 'budget-tradeoff']);
+  assert.deepEqual(alternatives.map(({ eligible }) => eligible), [true, false, false]);
+  assert.ok(alternatives[1].percent > alternatives[2].percent);
+  assert.deepEqual(alternatives[1].caveats, ['space-mismatch']);
+  assert.deepEqual(alternatives[2].caveats, ['budget-exceeded']);
 });

@@ -4,6 +4,7 @@ import { modernReviews } from '../data/review-registry';
 import { bambinoReview, getReviewOverallScore, type MachineReviewData } from '../data/reviews';
 import { getReviewRouteDefinition } from '../data/review-routes';
 import { getReviewPurchaseLinks } from './amazon-affiliate';
+import { getProductVideos, getVideoWatchPath, type ProductVideo } from './product-videos';
 import finderInterface from '../../localization/interface.json';
 
 export type CoffeeFinderWorkflow = 'one-touch' | 'guided' | 'hands-on' | 'manual' | 'capsule' | 'commercial';
@@ -13,6 +14,14 @@ export type CoffeeFinderGrinder = 'built-in' | 'separate' | 'not-needed';
 export type CoffeeFinderFootprint = 'compact' | 'standard' | 'large';
 export type CoffeeFinderVolume = 'one-two' | 'three-five' | 'six-plus';
 export type CoffeeFinderAvailability = 'current' | 'catalog' | 'limited';
+
+export type CoffeeFinderVideo = {
+  title: string;
+  creator: string;
+  path: string;
+  sourceType: ProductVideo['sourceType'];
+  thumbnail: string;
+};
 
 export type CoffeeFinderItem = {
   brand: string;
@@ -38,6 +47,7 @@ export type CoffeeFinderItem = {
   availability: CoffeeFinderAvailability;
   availabilityLabel: string;
   updated: string;
+  videos?: CoffeeFinderVideo[];
 };
 
 type AmazonOffer = {
@@ -183,6 +193,13 @@ const toFinderItem = (review: MachineReviewData): CoffeeFinderItem => {
   const priceLabel = review.slug === '/espresso-machine/gaggia-accademia-ri9781-01/'
     ? 'Check current UK price'
     : offer?.price ? [offer.price, amazonLink.conditionLabel].filter(Boolean).join(' · ') : (review.price.msrp ?? 'Price varies');
+  const videos = getProductVideos(review.slug).map((video): CoffeeFinderVideo => ({
+    title: video.title,
+    creator: video.creator,
+    path: getVideoWatchPath(review.slug, video),
+    sourceType: video.sourceType,
+    thumbnail: `https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`,
+  }));
 
   return {
     brand: canonicalBrand(review.brand),
@@ -207,6 +224,7 @@ const toFinderItem = (review: MachineReviewData): CoffeeFinderItem => {
     volume: inferVolume(text, workflow),
     ...availability,
     updated: review.updated,
+    videos: videos.length ? videos : undefined,
   };
 };
 

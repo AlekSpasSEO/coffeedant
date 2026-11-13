@@ -136,7 +136,7 @@ const schema = {
       <a href={`${base}${reviewRoute.basePath.replace(/^\//, '')}`}>{reviewRoute.breadcrumbLabel}</a><span aria-hidden="true">/</span>
       <span aria-current="page">{review.model}</span>
     </nav>
-    <ReviewSummary review={reviewWithPurchaseLinks} anchorAliases={anchorAliases} />
+    <ReviewSummary review={reviewWithPurchaseLinks} anchorAliases={anchorAliases} showMachineFinder={reviewRoute.family === 'espresso-machine'} />
     <section class="quick-answer-panel" aria-labelledby="quick-answer-title">
       <header class="quick-answer-heading"><p class="review-overline">At a glance</p><h2 id="quick-answer-title">Before you choose</h2></header>
       <dl class="quick-answer-grid">
