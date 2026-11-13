@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "baratza-encore-esp-pro-bezzera-bz10-videos-batch-139.source.json",
+  "snapshotHash": "379e0bee4a86c645abaeef9c7764988c342e3c82ba575b38b030291126515267",
+  "routes": {
+    "nl": {
+      "/grinder/baratza-encore-esp-pro/video/toms-coffee-corner/": "/koffiemolens/baratza-encore-esp-pro/video/toms-coffee-corner/"
+    },
+    "fr": {
+      "/grinder/baratza-encore-esp-pro/video/toms-coffee-corner/": "/moulin-a-cafe/baratza-encore-esp-pro/video/toms-coffee-corner/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "Review van de Bezzera BZ10-espressomachine",
+      "de": "Die Bezzera BZ10 Espressomaschine im Test",
+      "fr": "Essai de la machine à espresso Bezzera BZ10"
+    },
+    "1": {
+      "nl": "14 augustus 2021",
+      "de": "14. August 2021",
+      "fr": "14 août 2021"
+    },
+    "2": {
+      "nl": "Een onafhankelijke commerciële demonstratie van de bediening van de BZ10 en het opschuimen van melk. De demonstratie gebruikt een uitvoering voor de Australische markt. De netspanning, de meegeleverde onderdelen, de prijs en de garantie van die uitvoering gelden niet voor het Amerikaanse aanbod.",
+      "de": "Eine unabhängige kommerzielle Vorführung zur Bedienung der BZ10 und zum Milchaufschäumen. Gezeigt wird ein Gerät für den australischen Markt. Netzspannung, Lieferumfang, Preis und Garantie dieser Ausführung lassen sich nicht auf das US-Angebot übertragen.",
+      "fr": "Une démonstration commerciale indépendante de l’utilisation de la BZ10 et de la préparation du lait. Elle montre une version destinée au marché australien. La tension électrique, les éléments fournis, le prix et la garantie de cette version ne s’appliquent pas à l’offre américaine."
+    },
+    "5": {
+      "nl": "Bezzera BZ10: Review van de Bezzera BZ10-espressomachine · Alternative Brewing (2021-08-14) | Coffeedant",
+      "de": "Bezzera BZ10: Die Bezzera BZ10 Espressomaschine im Test · Alternative Brewing (2021-08-14) | Coffeedant",
+      "fr": "Bezzera BZ10: Essai de la machine à espresso Bezzera BZ10 · Alternative Brewing (2021-08-14) | Coffeedant"
+    },
+    "6": {
+      "nl": "Bekijk de Bezzera BZ10 met Alternative Brewing (2021-08-14). Review van de Bezzera BZ10-espressomachine. Een onafhankelijke commerciële demonstratie van de bediening van de BZ10 en het opschuimen van melk. De demonstratie gebruikt een uitvoering voor de Australische markt. De netspanning, de meegeleverde onderdelen, de prijs en de garantie van die uitvoering gelden niet voor het Amerikaanse aanbod.",
+      "de": "Sehen Sie die Bezzera BZ10 bei Alternative Brewing (2021-08-14). Die Bezzera BZ10 Espressomaschine im Test. Eine unabhängige kommerzielle Vorführung zur Bedienung der BZ10 und zum Milchaufschäumen. Gezeigt wird ein Gerät für den australischen Markt. Netzspannung, Lieferumfang, Preis und Garantie dieser Ausführung lassen sich nicht auf das US-Angebot übertragen.",
+      "fr": "Découvrez la Bezzera BZ10 avec Alternative Brewing (2021-08-14). Essai de la machine à espresso Bezzera BZ10. Une démonstration commerciale indépendante de l’utilisation de la BZ10 et de la préparation du lait. Elle montre une version destinée au marché australien. La tension électrique, les éléments fournis, le prix et la garantie de cette version ne s’appliquent pas à l’offre américaine."
+    },
+    "8": {
+      "nl": "Video over de Bezzera BZ10 door Alternative Brewing",
+      "de": "Video zur Bezzera BZ10 von Alternative Brewing",
+      "fr": "Vidéo de Alternative Brewing sur la Bezzera BZ10"
+    },
+    "9": {
+      "nl": "← Review van de Bezzera BZ10",
+      "de": "← Testbericht zur Bezzera BZ10",
+      "fr": "← Essai de la Bezzera BZ10"
+    },
+    "10": {
+      "nl": "Review van de Bezzera BZ10-espressomachine · door Alternative Brewing",
+      "de": "Die Bezzera BZ10 Espressomaschine im Test · von Alternative Brewing",
+      "fr": "Essai de la machine à espresso Bezzera BZ10 · par Alternative Brewing"
+    },
+    "11": {
+      "nl": "Bezzera BZ10 · Perspectief van een verkoper",
+      "de": "Bezzera BZ10 · Händlersicht",
+      "fr": "Bezzera BZ10 · Point de vue d’un vendeur"
+    },
+    "15": {
+      "nl": "← Review van de Baratza Encore ESP Pro",
+      "de": "← Testbericht zur Baratza Encore ESP Pro",
+      "fr": "← Essai du Baratza Encore ESP Pro"
+    },
+    "16": {
+      "nl": "Baratza Encore ESP Pro · Perspectief van een derde partij",
+      "de": "Baratza Encore ESP Pro · Sicht eines Dritten",
+      "fr": "Baratza Encore ESP Pro · Point de vue d’un tiers"
+    },
+    "17": {
+      "nl": "Baratza Encore ESP Pro: Review en test van de Baratza ESP Pro-koffiemolen · Tom's Coffee Corner (2026-04-10) | Coffeedant",
+      "de": "Baratza Encore ESP Pro: Die Baratza ESP Pro Kaffeemühle im Test · Tom's Coffee Corner (2026-04-10) | Coffeedant",
+      "fr": "Baratza Encore ESP Pro: Essai et évaluation du moulin Baratza ESP Pro · Tom's Coffee Corner (2026-04-10) | Coffeedant"
+    },
+    "18": {
+      "nl": "Bekijk de Baratza Encore ESP Pro met Tom's Coffee Corner (2026-04-10). Review en test van de Baratza ESP Pro-koffiemolen. Tom's Coffee Corner toont de Baratza Encore ESP Pro en bespreekt het malen, espresso zetten, het ontwerp en de constructie. De demonstraties en meningen zijn van de maker zelf.",
+      "de": "Sehen Sie die Baratza Encore ESP Pro bei Tom's Coffee Corner (2026-04-10). Die Baratza ESP Pro Kaffeemühle im Test. Tom's Coffee Corner stellt die Baratza Encore ESP Pro vor und behandelt das Mahlen, die Espressozubereitung, das Design und die Bauweise. Die Vorführungen und Einschätzungen stammen vom Videoautor.",
+      "fr": "Découvrez le Baratza Encore ESP Pro avec Tom's Coffee Corner (2026-04-10). Essai et évaluation du moulin Baratza ESP Pro. Tom's Coffee Corner présente le Baratza Encore ESP Pro et aborde la mouture, la préparation de l’espresso, la conception et la fabrication. Les démonstrations et les avis sont ceux du créateur."
+    },
+    "20": {
+      "nl": "Video over de Baratza Encore ESP Pro door Tom's Coffee Corner",
+      "de": "Video zur Baratza Encore ESP Pro von Tom's Coffee Corner",
+      "fr": "Vidéo de Tom's Coffee Corner sur le Baratza Encore ESP Pro"
+    },
+    "21": {
+      "nl": "Review en test van de Baratza ESP Pro-koffiemolen · door Tom's Coffee Corner",
+      "de": "Die Baratza ESP Pro Kaffeemühle im Test · von Tom's Coffee Corner",
+      "fr": "Essai et évaluation du moulin Baratza ESP Pro · par Tom's Coffee Corner"
+    },
+    "22": {
+      "nl": "Review en test van de Baratza ESP Pro-koffiemolen",
+      "de": "Die Baratza ESP Pro Kaffeemühle im Test",
+      "fr": "Essai et évaluation du moulin Baratza ESP Pro"
+    },
+    "23": {
+      "nl": "Tom's Coffee Corner toont de Baratza Encore ESP Pro en bespreekt het malen, espresso zetten, het ontwerp en de constructie. De demonstraties en meningen zijn van de maker zelf.",
+      "de": "Tom's Coffee Corner stellt die Baratza Encore ESP Pro vor und behandelt das Mahlen, die Espressozubereitung, das Design und die Bauweise. Die Vorführungen und Einschätzungen stammen vom Videoautor.",
+      "fr": "Tom's Coffee Corner présente le Baratza Encore ESP Pro et aborde la mouture, la préparation de l’espresso, la conception et la fabrication. Les démonstrations et les avis sont ceux du créateur."
+    }
+  }
+}

@@ -5300,6 +5300,21 @@ Coverage is NL 18,044 translated and 42,963 pending, DE 18,237 translated and
 42,770 pending, and FR 17,904 translated and 43,103 pending. Finder translation
 coverage is complete. NL has 438 pages left and DE and FR have 439 each.
 
+### Direct batch 139 — Baratza Encore ESP Pro and Bezzera BZ10 video companions (2026-11-13)
+
+Complete Tom's Coffee Corner's Baratza Encore ESP Pro companion and
+Alternative Brewing's Bezzera BZ10 companion in Dutch, German and French.
+Preserve the original embeds, dates, model names and creator disclosures.
+The Bezzera page retains the limits on applying the Australian demonstration
+to the US listing. The written reviews open in English while translations
+are pending.
+
+The source has 699 pages and 61,007 segments. NL can render 262 indexable
+pages and DE and FR can render 261 each, plus a localized 404 for each edition.
+Coverage is NL 18,073 translated and 42,934 pending, DE 18,266 translated and
+42,741 pending, and FR 17,933 translated and 43,074 pending. Finder translation
+coverage is complete. NL has 436 pages left and DE and FR have 437 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
