@@ -5286,6 +5286,20 @@ Coverage is NL 18,018 translated and 42,985 pending, DE 18,211 translated and
 42,792 pending, and FR 17,878 translated and 43,125 pending. Finder translation
 coverage is complete. NL has 440 pages left and DE and FR have 441 each.
 
+### Direct batch 138 — Lelit Victoria and Quick Mill Pippa video companions (2026-11-13)
+
+Complete Lance Hedrick's Lelit Victoria PL91T companion and
+iDrinkCoffeeCanada's Quick Mill Pippa 4100 companion in Dutch, German and
+French. Preserve the embeds, dates, model scope, historical comparison
+title and source limitations. The written review links open their English
+sources while translations are pending.
+
+The source has 699 pages and 61,007 segments. NL can render 260 indexable
+pages and DE and FR can render 259 each, plus a localized 404 for each edition.
+Coverage is NL 18,044 translated and 42,963 pending, DE 18,237 translated and
+42,770 pending, and FR 17,904 translated and 43,103 pending. Finder translation
+coverage is complete. NL has 438 pages left and DE and FR have 439 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

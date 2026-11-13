@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "lelit-victoria-quick-mill-pippa-videos-batch-138.source.json",
+  "snapshotHash": "00a7a96a22f8e034229cf17d9bf7f0d1ea10b6ed17554341e93475f11dde706e",
+  "routes": {
+    "nl": {
+      "/espresso-machine/lelit-victoria-pl91t/video/lance-hedrick/": "/espressomachines/lelit-victoria-pl91t/video/lance-hedrick/",
+      "/espresso-machine/quick-mill-pippa-4100/video/idrinkcoffeecanada/": "/espressomachines/quick-mill-pippa-4100/video/idrinkcoffeecanada/"
+    },
+    "fr": {
+      "/espresso-machine/lelit-victoria-pl91t/video/lance-hedrick/": "/machine-a-espresso/lelit-victoria-pl91t/video/lance-hedrick/",
+      "/espresso-machine/quick-mill-pippa-4100/video/idrinkcoffeecanada/": "/machine-a-espresso/quick-mill-pippa-4100/video/idrinkcoffeecanada/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "Lelit Victoria PL91T: De beste espressomachine onder $1000? Profitec Go tegenover Lelit Victoria · Lance Hedrick (2025-03-17) | Coffeedant",
+      "de": "Lelit Victoria PL91T: Die beste Espressomaschine unter $1000? Profitec Go im Vergleich mit Lelit Victoria · Lance Hedrick (2025-03-17) | Coffeedant",
+      "fr": "Lelit Victoria PL91T: La meilleure machine à espresso à moins de $1000 ? Profitec Go face à Lelit Victoria · Lance Hedrick (2025-03-17) | Coffeedant"
+    },
+    "1": {
+      "nl": "Bekijk de Lelit Victoria PL91T met Lance Hedrick (2025-03-17). De beste espressomachine onder $1000? Profitec Go tegenover Lelit Victoria. Lance Hedrick toont de Lelit Victoria PL91T en bespreekt espresso zetten en melkdranken. De demonstraties en meningen zijn van de maker zelf.",
+      "de": "Sehen Sie die Lelit Victoria PL91T bei Lance Hedrick (2025-03-17). Die beste Espressomaschine unter $1000? Profitec Go im Vergleich mit Lelit Victoria. Lance Hedrick stellt die Lelit Victoria PL91T vor und behandelt Espressozubereitung und Milchgetränke. Die Vorführungen und Einschätzungen stammen vom Videoautor.",
+      "fr": "Découvrez la Lelit Victoria PL91T avec Lance Hedrick (2025-03-17). La meilleure machine à espresso à moins de $1000 ? Profitec Go face à Lelit Victoria. Lance Hedrick présente la Lelit Victoria PL91T et aborde la préparation de l’espresso et les boissons lactées. Les démonstrations et les avis sont ceux du créateur."
+    },
+    "3": {
+      "nl": "Video over de Lelit Victoria PL91T door Lance Hedrick",
+      "de": "Video zur Lelit Victoria PL91T von Lance Hedrick",
+      "fr": "Vidéo de Lance Hedrick sur la Lelit Victoria PL91T"
+    },
+    "4": {
+      "nl": "De beste espressomachine onder $1000? Profitec Go tegenover Lelit Victoria · door Lance Hedrick",
+      "de": "Die beste Espressomaschine unter $1000? Profitec Go im Vergleich mit Lelit Victoria · von Lance Hedrick",
+      "fr": "La meilleure machine à espresso à moins de $1000 ? Profitec Go face à Lelit Victoria · par Lance Hedrick"
+    },
+    "5": {
+      "nl": "De beste espressomachine onder $1000? Profitec Go tegenover Lelit Victoria",
+      "de": "Die beste Espressomaschine unter $1000? Profitec Go im Vergleich mit Lelit Victoria",
+      "fr": "La meilleure machine à espresso à moins de $1000 ? Profitec Go face à Lelit Victoria"
+    },
+    "6": {
+      "nl": "17 maart 2025",
+      "de": "17. März 2025",
+      "fr": "17 mars 2025"
+    },
+    "7": {
+      "nl": "Lance Hedrick toont de Lelit Victoria PL91T en bespreekt espresso zetten en melkdranken. De demonstraties en meningen zijn van de maker zelf.",
+      "de": "Lance Hedrick stellt die Lelit Victoria PL91T vor und behandelt Espressozubereitung und Milchgetränke. Die Vorführungen und Einschätzungen stammen vom Videoautor.",
+      "fr": "Lance Hedrick présente la Lelit Victoria PL91T et aborde la préparation de l’espresso et les boissons lactées. Les démonstrations et les avis sont ceux du créateur."
+    },
+    "13": {
+      "nl": "Quick Mill Pippa in de praktijk: de beste Italiaanse espressomachine voor beginners? ☕🇮🇹",
+      "de": "Quick Mill Pippa im Test: die beste italienische Espressomaschine für den Einstieg? ☕🇮🇹",
+      "fr": "Essai de la Quick Mill Pippa : la meilleure machine à espresso italienne pour débuter ? ☕🇮🇹"
+    },
+    "14": {
+      "nl": "28 januari 2025",
+      "de": "28. Januar 2025",
+      "fr": "28 janvier 2025"
+    },
+    "15": {
+      "nl": "Een afzonderlijke, onafhankelijke video over het huidige model. De maker bespreekt de bediening, espresso zetten, melk opschuimen met stoom, de plek van het model op de markt en voor wie het geschikt is. De video bevat geen tests van Coffeedant, actuele prijsinformatie of prestatiemetingen die algemeen geldig zijn.",
+      "de": "Ein eigenständiges, unabhängiges Video zum aktuellen Modell. Es behandelt die Bedienelemente, die Espressozubereitung, das Aufschäumen mit Dampf, die Marktposition und die Eignung für verschiedene Käufer. Das Video enthält weder Tests von Coffeedant noch aktuelle Preisangaben oder allgemeingültige Leistungsmessungen.",
+      "fr": "Une vidéo indépendante consacrée au modèle actuel. Elle traite des commandes, de la préparation de l’espresso, du moussage à la vapeur, du positionnement et des profils d’acheteurs auxquels la machine convient. La vidéo ne présente ni essais réalisés par Coffeedant, ni prix actuels, ni mesures de performance généralisables."
+    },
+    "18": {
+      "nl": "Quick Mill Pippa 4100: Quick Mill Pippa in de praktijk: de beste Italiaanse espressomachine voor beginners? ☕🇮🇹 · iDrinkCoffeeCanada (2025-01-28) | Coffeedant",
+      "de": "Quick Mill Pippa 4100: Quick Mill Pippa im Test: die beste italienische Espressomaschine für den Einstieg? ☕🇮🇹 · iDrinkCoffeeCanada (2025-01-28) | Coffeedant",
+      "fr": "Quick Mill Pippa 4100: Essai de la Quick Mill Pippa : la meilleure machine à espresso italienne pour débuter ? ☕🇮🇹 · iDrinkCoffeeCanada (2025-01-28) | Coffeedant"
+    },
+    "19": {
+      "nl": "Bekijk de Quick Mill Pippa 4100 met iDrinkCoffeeCanada (2025-01-28). Quick Mill Pippa in de praktijk: de beste Italiaanse espressomachine voor beginners? ☕🇮🇹 Een afzonderlijke, onafhankelijke video over het huidige model. De maker bespreekt de bediening, espresso zetten, melk opschuimen met stoom, de plek van het model op de markt en voor wie het geschikt is. De video bevat geen tests van Coffeedant, actuele prijsinformatie of prestatiemetingen die algemeen geldig zijn.",
+      "de": "Sehen Sie die Quick Mill Pippa 4100 bei iDrinkCoffeeCanada (2025-01-28). Quick Mill Pippa im Test: die beste italienische Espressomaschine für den Einstieg? ☕🇮🇹 Ein eigenständiges, unabhängiges Video zum aktuellen Modell. Es behandelt die Bedienelemente, die Espressozubereitung, das Aufschäumen mit Dampf, die Marktposition und die Eignung für verschiedene Käufer. Das Video enthält weder Tests von Coffeedant noch aktuelle Preisangaben oder allgemeingültige Leistungsmessungen.",
+      "fr": "Découvrez la Quick Mill Pippa 4100 avec iDrinkCoffeeCanada (2025-01-28). Essai de la Quick Mill Pippa : la meilleure machine à espresso italienne pour débuter ? ☕🇮🇹 Une vidéo indépendante consacrée au modèle actuel. Elle traite des commandes, de la préparation de l’espresso, du moussage à la vapeur, du positionnement et des profils d’acheteurs auxquels la machine convient. La vidéo ne présente ni essais réalisés par Coffeedant, ni prix actuels, ni mesures de performance généralisables."
+    },
+    "21": {
+      "nl": "Video over de Quick Mill Pippa 4100 door iDrinkCoffeeCanada",
+      "de": "Video zur Quick Mill Pippa 4100 von iDrinkCoffeeCanada",
+      "fr": "Vidéo de iDrinkCoffeeCanada sur la Quick Mill Pippa 4100"
+    },
+    "22": {
+      "nl": "Quick Mill Pippa in de praktijk: de beste Italiaanse espressomachine voor beginners? ☕🇮🇹 · door iDrinkCoffeeCanada",
+      "de": "Quick Mill Pippa im Test: die beste italienische Espressomaschine für den Einstieg? ☕🇮🇹 · von iDrinkCoffeeCanada",
+      "fr": "Essai de la Quick Mill Pippa : la meilleure machine à espresso italienne pour débuter ? ☕🇮🇹 · par iDrinkCoffeeCanada"
+    }
+  }
+}
