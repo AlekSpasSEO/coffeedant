@@ -26,7 +26,7 @@ const reasons: Record<string, string> = {
 };
 
 const tradeoffs: Record<string, string> = {
-  'tradeoff-one-touch': 'Automation gives you less control over shot prep. Milk models can also have a separate cleaning cycle.',
+  'tradeoff-one-touch': 'Automation gives you less control over shot prep. Check whether milk needs manual steaming or a separate cleaning cycle.',
   'tradeoff-guided': 'Expect some hands-on prep. Check which steps this model automates in the review.',
   'tradeoff-hands-on': 'Expect to dial in the grind, dose and tamp. Check the review for heat-up and steaming workflow.',
   'tradeoff-manual': 'You handle extraction and water preparation. Check the review for milk equipment and back-to-back workflow.',
@@ -34,7 +34,7 @@ const tradeoffs: Record<string, string> = {
 };
 
 const workflowLabels: Record<string, string> = {
-  'one-touch': 'One touch', guided: 'Guided', 'hands-on': 'Hands-on electric', manual: 'Manual',
+  'one-touch': 'Automatic brewing', guided: 'Guided', 'hands-on': 'Hands-on electric', manual: 'Manual',
 };
 const grinderLabels: Record<string, string> = {
   'built-in': 'Built in', separate: 'Separate espresso grinder', 'not-needed': 'Optional for this setup',
@@ -117,6 +117,7 @@ function makeComparison(matches: Match[]) {
     headings.append(heading);
   }
   const rows: [string, (match: Match) => string][] = [
+    ['Best for', ({ item }) => item.bestFor],
     ['Workflow', ({ item }) => workflowLabels[item.workflow]],
     ['Grinder', ({ item }) => grinderLabels[item.grinder]],
     ['Machine footprint', ({ item }) => item.footprint],
