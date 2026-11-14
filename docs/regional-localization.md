@@ -5397,6 +5397,19 @@ Coverage is NL 18,239 translated and 42,768 pending, DE 18,432 translated and
 42,575 pending, and FR 18,099 translated and 42,908 pending. Finder translation
 coverage is complete. NL has 424 pages left and DE and FR have 425 each.
 
+### Direct batch 146 — ECM Mechanika V Slim video companions (2026-11-14)
+
+Complete the Clive Coffee and Whole Latte Love companions in Dutch, German
+and French. Preserve the legacy model identity, original embeds and dates,
+retailer attribution and the scope of each demonstration. The written
+review opens in English while its translations are pending.
+
+The source has 699 pages and 61,007 segments. NL can render 276 indexable
+pages and DE and FR can render 275 each, plus a localized 404 for each edition.
+Coverage is NL 18,267 translated and 42,740 pending, DE 18,460 translated and
+42,547 pending, and FR 18,127 translated and 42,880 pending. Finder translation
+coverage is complete. NL has 422 pages left and DE and FR have 423 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
