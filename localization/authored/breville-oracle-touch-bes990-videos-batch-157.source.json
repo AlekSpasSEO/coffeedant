@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/breville-oracle-touch-bes990/video/espresso-outlet-llc/",
+      "sourceHash": "4a7ce0e1d463292764c49a2de842e707eb1958362b4da1125a2789f2981f74d4"
+    },
+    {
+      "sourcePath": "/espresso-machine/breville-oracle-touch-bes990/video/james-hoffmann/",
+      "sourceHash": "94d7db3ddc6c895caad1bae9580d3723026784f72100a501afba8896affc8962"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "f3ad2c4a4087bc7e0fcd46fe20f45961266e0d30ba5a5043ad4541551ff57710",
+      "source": "Product Review: Oracle Touch by Sage/Breville",
+      "kind": "text",
+      "context": "Product Review: Oracle Touch by Sage/Breville"
+    },
+    {
+      "id": "fcd8b174ce44f5388c5e0ec8eabfb974ef944c11bada1cd9b8ee9c6bc0c9f71c",
+      "source": "December 23, 2017",
+      "kind": "text",
+      "context": "December 23, 2017"
+    },
+    {
+      "id": "eb0a174e98e939fb5f4975170c3b92f2017e25e860f73ed14a30200d9383be4f",
+      "source": "A detailed independent demonstration from the product's launch era. It adds workflow context but does not establish current price, lifecycle or the condition of a 2026 unit.",
+      "kind": "text",
+      "context": "A detailed independent demonstration from the product's launch era. It adds workflow context but does not establish current price, lifecycle or the condition of a 2026 unit."
+    },
+    {
+      "id": "6a3030e509cc2d8f6aae0142172cbe7316d9822913d71f5647288f936dab7747",
+      "source": "Product Review: Oracle Touch by Sage/Breville",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "8af182ea74b441dc78bf5af9eddd5a6c9a082003d371c2135b55fc6c1d85ec6c",
+      "source": "A detailed independent demonstration from the product's launch era. It adds workflow context but does not establish current price, lifecycle or the condition of a 2026 unit.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "dd47b9e0924b09b5ad2f5475a22d519d34aca4bbd107e5663a409ed64cdbf0ea",
+      "source": "Breville Oracle Touch: The Breville Oracle Touch - Indepth Overview and Review · Espresso Outlet LLC (2024-09-20) | Coffeedant",
+      "kind": "text",
+      "context": "Breville Oracle Touch: The Breville Oracle Touch - Indepth Overview and Review · Espresso Outlet LLC (2024-09-20) | Coffeedant"
+    },
+    {
+      "id": "6939a601086e8d9cf7ae5f53e43e9afb6aba6e7ba8df213113cf4f137ed3dc16",
+      "source": "Watch Espresso Outlet LLC on Breville Oracle Touch (2024-09-20): The Breville Oracle Touch - Indepth Overview and Review. Espresso Outlet LLC presents Breville Oracle Touch, covering grinding, espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "d35ab695b572358f39a4817d6a78e6f516154344812bcc0caefd97d58992da54",
+      "source": "Breville Oracle Touch: The Breville Oracle Touch - Indepth Overview and Review · Espresso Outlet LLC (2024-09-20) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "0d2bb1c7f108d31bdc755ddfa3cb3af187b72c27ac9aec2662cefb77026a6540",
+      "source": "Breville Oracle Touch video by Espresso Outlet LLC",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "a3b5889257d0af4c86179e3f17e6c89bc56ec9abaa36748895c539fe33782438",
+      "source": "← Breville Oracle Touch review",
+      "kind": "text",
+      "context": "← Breville Oracle Touch review"
+    },
+    {
+      "id": "f601b7e1c1724912e68c1593475e58bc2845c008ea6c4e40e1d2ce0fd0565144",
+      "source": "The Breville Oracle Touch - Indepth Overview and Review by Espresso Outlet LLC",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "f928432b80113ad15f5b2273f4abac23ace79059823e99f6443eb1521ca26d91",
+      "source": "Breville Oracle Touch · Third-party perspective",
+      "kind": "text",
+      "context": "Breville Oracle Touch · Third-party perspective"
+    },
+    {
+      "id": "f9a0b9a36d56e7ae25685d9159e8ce9fead939f4f00ea98a481b51ab74addfbb",
+      "source": "The Breville Oracle Touch - Indepth Overview and Review",
+      "kind": "text",
+      "context": "The Breville Oracle Touch - Indepth Overview and Review"
+    },
+    {
+      "id": "fe99da3fc55ba2770049179a09dfe4759729773187f042a3e9a423d7ee5630e4",
+      "source": "Espresso Outlet LLC",
+      "kind": "text",
+      "context": "Espresso Outlet LLC"
+    },
+    {
+      "id": "891d3df4f46cf5504ca62e71a19cb0a47658a4b7cae74517fb3a5da62291e451",
+      "source": "Espresso Outlet LLC presents Breville Oracle Touch, covering grinding, espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Espresso Outlet LLC presents Breville Oracle Touch, covering grinding, espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "30d1fe3eccc18e9bd17224f7d78e32906c4321e354e8f0ce0e456f2e48b39f06",
+      "source": "Video and opinions belong to Espresso Outlet LLC. Coffeedant curates this perspective alongside our written review.",
+      "kind": "text",
+      "context": "Video and opinions belong to Espresso Outlet LLC. Coffeedant curates this perspective alongside our written review."
+    },
+    {
+      "id": "df6819018ec2884b7c27e82f4c3ce6dd6a1bfeb0343291d30411c0ccead4bc4e",
+      "source": "Breville Oracle Touch: The Breville Oracle Touch - Indepth Overview and Review · Espresso Outlet LLC (2024-09-20) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "5310ba900ae5a367a4b9b767a8c0550a65571e1cd7eb05c92b96eba057009766",
+      "source": "Watch Espresso Outlet LLC on Breville Oracle Touch (2024-09-20): The Breville Oracle Touch - Indepth Overview and Review. Espresso Outlet LLC presents Breville Oracle Touch, covering grinding, espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "c6384b22553cb3360c8a419809cd17b0354c39f600b83264dba6feb85274d643",
+      "source": "Breville Oracle Touch video by Espresso Outlet LLC",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "24ebf217d1109a344e83862ad74de4870762f1db7bced457b1f378e01c03974a",
+      "source": "The Breville Oracle Touch - Indepth Overview and Review",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "dbb3ec61964839b0c4ee5d248a877c15ddcba383f0314dcfaaf9b0a4425094a9",
+      "source": "Espresso Outlet LLC presents Breville Oracle Touch, covering grinding, espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "5978ecbb89934a86acb62743f93fd0b0f5a35abef48a62bcb76feb70b728d591",
+      "source": "Espresso Outlet LLC",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "5d2c61aa989c6f6575be09917983843238d5fd2a8ae544c45d218df84d5b07f0",
+      "source": "Video by Espresso Outlet LLC",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "bf86b1dda2cc10055b7b629f5eb836e9780370c5ebe4c1427b7c3ad949c01c05",
+      "source": "Breville Oracle Touch: Product Review: Oracle Touch by Sage/Breville · James Hoffmann (2017-12-23) | Coffeedant",
+      "kind": "text",
+      "context": "Breville Oracle Touch: Product Review: Oracle Touch by Sage/Breville · James Hoffmann (2017-12-23) | Coffeedant"
+    },
+    {
+      "id": "c359a52a24f125afbbcee4db5f1cf4b44b669bbcbd205f24e2c185e875796419",
+      "source": "Watch James Hoffmann on Breville Oracle Touch (2017-12-23): Product Review: Oracle Touch by Sage/Breville. A detailed independent demonstration from the product's launch era. It adds workflow context but does not establish current price, lifecycle or the condition of a 2026 unit.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "3a379d3ab2320a9c4a57a947281b03c86d4beeb9ac9ae35bb81e6e591e3fef0a",
+      "source": "Breville Oracle Touch: Product Review: Oracle Touch by Sage/Breville · James Hoffmann (2017-12-23) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "6ede7f0601b8ebd7b25e958d0931a9319f7a25364338051acb006c85cb53d850",
+      "source": "Breville Oracle Touch video by James Hoffmann",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "3a811b5b7e131574aa60fae9679d89942d432fd5835f26230dd4f4b90d77dff8",
+      "source": "Product Review: Oracle Touch by Sage/Breville by James Hoffmann",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "8f9b104ef0077052fe52c5ea7521b83986c09970369234baa7615cc99216cb36",
+      "source": "Breville Oracle Touch: Product Review: Oracle Touch by Sage/Breville · James Hoffmann (2017-12-23) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "733e4a5f9560819ebc4ffa408ddacfd57f220bd0771ba28ce2eb808cbc62d907",
+      "source": "Watch James Hoffmann on Breville Oracle Touch (2017-12-23): Product Review: Oracle Touch by Sage/Breville. A detailed independent demonstration from the product's launch era. It adds workflow context but does not establish current price, lifecycle or the condition of a 2026 unit.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "c4e4acfcf9316aacd28b42a69f8517a1e7d7d117414127b9920beadf7c8bc921",
+      "source": "Breville Oracle Touch video by James Hoffmann",
+      "kind": "json",
+      "context": "caption"
+    }
+  ],
+  "snapshotHash": "77f4ca91401d9726cbbd3be8f624613d0777b99f85ad7d4fa6ef5b5f4efabafb"
+}
