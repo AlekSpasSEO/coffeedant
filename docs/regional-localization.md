@@ -5476,6 +5476,19 @@ Coverage is NL 18,412 translated and 42,595 pending, DE 18,590 translated and
 42,417 pending, and FR 18,272 translated and 42,735 pending. Finder translation
 coverage is complete. NL has 412 pages left and DE and FR have 413 each.
 
+### Direct batch 152 — De'Longhi Magnifica Plus video companions (2026-11-14)
+
+Complete the Seattle Coffee Gear and Tom's Coffee Corner companions for
+the De'Longhi Magnifica Plus ECAM320.70.SB in Dutch, German and French.
+Preserve the original videos, dates, attribution and Tom's affiliate
+disclosure. The written review opens in English while translations are pending.
+
+The source has 699 pages and 61,007 segments. NL can render 288 indexable
+pages and DE and FR can render 287 each, plus a localized 404 for each edition.
+Coverage is NL 18,443 translated and 42,564 pending, DE 18,621 translated and
+42,386 pending, and FR 18,303 translated and 42,704 pending. Finder translation
+coverage is complete. NL has 410 pages left and DE and FR have 411 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
