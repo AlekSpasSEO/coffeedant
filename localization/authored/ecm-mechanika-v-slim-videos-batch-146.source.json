@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/ecm-mechanika-v-slim/video/clive-coffee/",
+      "sourceHash": "1b4ee2c3a38ae16b98191b18b82e5d6f4a9cda6ab8d871fb513eb270d8bbb155"
+    },
+    {
+      "sourcePath": "/espresso-machine/ecm-mechanika-v-slim/video/whole-latte-love/",
+      "sourceHash": "3af7063502b6c812334372f9154454a058ceafa427e78f32c897dcac67325deb"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "6b2f8c8c31436f2901a91b7cb79cba739d71cac5fa3bc3afca1e29be842e8175",
+      "source": "ECM Mechanika V Slim Espresso Machine Review",
+      "kind": "text",
+      "context": "ECM Mechanika V Slim Espresso Machine Review"
+    },
+    {
+      "id": "34393f13a91184fbf33f9123bb797ca1e44a86192a216fa284090e5f6e4dfe64",
+      "source": "October 8, 2018",
+      "kind": "text",
+      "context": "October 8, 2018"
+    },
+    {
+      "id": "ad7a36a13d5fba6af124ca9a5c7545dfb755cb2c0cd3bb23d1dad249b6631960",
+      "source": "A specialist-retailer review of the exact legacy V Slim, showing size, E61 controls, espresso, steam, and reservoir access. It is visual context rather than Coffeedant testing.",
+      "kind": "text",
+      "context": "A specialist-retailer review of the exact legacy V Slim, showing size, E61 controls, espresso, steam, and reservoir access. It is visual context rather than Coffeedant testing."
+    },
+    {
+      "id": "eb980407a54d582e87d405afb13cb343a4b05e68bd92ea7b0cb6d4d901732087",
+      "source": "ECM Mechanika V Slim Espresso Machine Review",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "a2b035361de949e1099c84ded75a35fcd0c2493d8b81e0fb6081fc169ee2ae3b",
+      "source": "A specialist-retailer review of the exact legacy V Slim, showing size, E61 controls, espresso, steam, and reservoir access. It is visual context rather than Coffeedant testing.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "abefa2fbde594e4a39561e8c05162819b80926c0fe39e053551953ab80f92b57",
+      "source": "ECM Mechanika V Slim: ECM Mechanika V Slim Espresso Machine Review · Clive Coffee (2018-10-08) | Coffeedant",
+      "kind": "text",
+      "context": "ECM Mechanika V Slim: ECM Mechanika V Slim Espresso Machine Review · Clive Coffee (2018-10-08) | Coffeedant"
+    },
+    {
+      "id": "c3576b03cb96c900940187e5517f08b06263e27700c17df58f82c73592411942",
+      "source": "Watch Clive Coffee on ECM Mechanika V Slim (2018-10-08): ECM Mechanika V Slim Espresso Machine Review. A specialist-retailer review of the exact legacy V Slim, showing size, E61 controls, espresso, steam, and reservoir access. It is visual context rather than Coffeedant testing.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "7b8a66b1655cf7477b3b1062a0cde1c5704a8140ae21a6394df8e540625944a2",
+      "source": "ECM Mechanika V Slim: ECM Mechanika V Slim Espresso Machine Review · Clive Coffee (2018-10-08) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "74481ca4827737ec68a587226c0508fb3d8b3bcbc61f451ecf0841f7536aa855",
+      "source": "ECM Mechanika V Slim video by Clive Coffee",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "091fdfdcd1f235bdb789cf35cf6ab7bdbc50e687d8e51a15da9783cbc7833dee",
+      "source": "← ECM Mechanika V Slim review",
+      "kind": "text",
+      "context": "← ECM Mechanika V Slim review"
+    },
+    {
+      "id": "e5f3ac88674b4564ce411c8c1d3a8a8747a61cbf3ca7eb729a485149fe44ffdf",
+      "source": "ECM Mechanika V Slim Espresso Machine Review by Clive Coffee",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "26bc05b7797fe62e8b8f59d40c721530ba605b50f581c90bbdfffc3a4e9119e5",
+      "source": "ECM Mechanika V Slim · Retailer perspective",
+      "kind": "text",
+      "context": "ECM Mechanika V Slim · Retailer perspective"
+    },
+    {
+      "id": "75210aa4c59239542882bf60892b30a0420ae16c166518be31a4a624c1482aab",
+      "source": "ECM Mechanika V Slim: ECM Mechanika V Slim Espresso Machine Review · Clive Coffee (2018-10-08) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "8b64b3cd2bdcdcf7babae90d3db927f3afa443edbec42c2979d3b8bebde920e9",
+      "source": "Watch Clive Coffee on ECM Mechanika V Slim (2018-10-08): ECM Mechanika V Slim Espresso Machine Review. A specialist-retailer review of the exact legacy V Slim, showing size, E61 controls, espresso, steam, and reservoir access. It is visual context rather than Coffeedant testing.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "4efaf681e7c0d9dba1207a5b2c143f201dc1b9381ea63f57cb792812edd79a70",
+      "source": "ECM Mechanika V Slim video by Clive Coffee",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "1739f6b852bebe6c66a7dfc3db697bdd31696b84592c866bbbc4bbf276b0f6d6",
+      "source": "ECM Mechanika V Slim: Review ECM Mechanika V Slim Espresso Machine · Whole Latte Love (2018-06-15) | Coffeedant",
+      "kind": "text",
+      "context": "ECM Mechanika V Slim: Review ECM Mechanika V Slim Espresso Machine · Whole Latte Love (2018-06-15) | Coffeedant"
+    },
+    {
+      "id": "3168916c064ddbda7d212d92a1312c4be49854b099165188f0e86462f18891ad",
+      "source": "Watch Whole Latte Love on ECM Mechanika V Slim (2018-06-15): Review ECM Mechanika V Slim Espresso Machine. Whole Latte Love presents ECM Mechanika V Slim, covering espresso preparation, milk drinks, design and construction. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "06f6da73cae62b8a7c5e4dedc0fb3e281bce5df7c00b6e291dee91a69c40ba3b",
+      "source": "ECM Mechanika V Slim: Review ECM Mechanika V Slim Espresso Machine · Whole Latte Love (2018-06-15) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "a5a810bb2fb90c3ec807c4f1e35182db35fa3f41228d8db4c81934bf79bc9750",
+      "source": "ECM Mechanika V Slim video by Whole Latte Love",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "1ac1a4a21557479fd21045fd007a1080a205a810dbf910633ee1eb9ec0f2d9d2",
+      "source": "Review ECM Mechanika V Slim Espresso Machine by Whole Latte Love",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "d1ae186eea738a9cfb0e2c7cf242522d07224d7a8cb11015de6c0fa278b909fc",
+      "source": "Review ECM Mechanika V Slim Espresso Machine",
+      "kind": "text",
+      "context": "Review ECM Mechanika V Slim Espresso Machine"
+    },
+    {
+      "id": "93281f79d0c54ab8facd5d03c9249c732e79195802b90c4f69611f1a8d2f853d",
+      "source": "June 15, 2018",
+      "kind": "text",
+      "context": "June 15, 2018"
+    },
+    {
+      "id": "96aeba8c09be70f7b5459a868f6d39fc87971a09a3f14f5b0df2a55396ad94c7",
+      "source": "Whole Latte Love presents ECM Mechanika V Slim, covering espresso preparation, milk drinks, design and construction. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "text",
+      "context": "Whole Latte Love presents ECM Mechanika V Slim, covering espresso preparation, milk drinks, design and construction. This is an equipment seller’s perspective; consider it alongside the other sources and our written review."
+    },
+    {
+      "id": "d61b31b44f01d6dc3550d6f7c21d44a0a81ea0311278fa10d6cbfd442da9b6b8",
+      "source": "ECM Mechanika V Slim: Review ECM Mechanika V Slim Espresso Machine · Whole Latte Love (2018-06-15) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "189bc7c7bde32a0c7742f45d63acc0c4dd78a08e8fd07f25421625b688611f3c",
+      "source": "Watch Whole Latte Love on ECM Mechanika V Slim (2018-06-15): Review ECM Mechanika V Slim Espresso Machine. Whole Latte Love presents ECM Mechanika V Slim, covering espresso preparation, milk drinks, design and construction. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "1bd72a5140f069d4815056cd71762993fa1afb17183099273edf47241dac879d",
+      "source": "ECM Mechanika V Slim video by Whole Latte Love",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "05585c3c4a32273a47f195b623bb2a805517c27c647056a2ac35f67abd840f58",
+      "source": "Review ECM Mechanika V Slim Espresso Machine",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "09d29d3b6d80c8c85d4a5df4a6733b741e441b72db260303d3c4416b91d659d3",
+      "source": "Whole Latte Love presents ECM Mechanika V Slim, covering espresso preparation, milk drinks, design and construction. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "d02e812e9b1c5630849a1f67c53cc09cb8f56c682205146ad228900d0cd5a5b2"
+}
