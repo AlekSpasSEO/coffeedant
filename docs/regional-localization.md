@@ -5529,6 +5529,19 @@ Coverage is NL 18,534 translated and 42,473 pending, DE 18,712 translated and
 42,295 pending, and FR 18,394 translated and 42,613 pending. Finder translation
 coverage is complete. NL has 404 pages left and DE and FR have 405 each.
 
+### Direct batch 156 - Lelit Glenda PL41PLUST video companions (2026-11-14)
+
+Complete the 1st-line Equipment and Tom's Coffee Corner video pages in Dutch,
+German and French. Preserve the retailer attribution, the independent review's
+sponsorship and affiliate disclosures, and the original embeds and dates.
+The written review opens in English with a localized edition notice.
+
+The source has 699 pages and 61,007 segments. NL can render 296 indexable
+pages and DE and FR can render 295 each, plus a localized 404 for each edition.
+Coverage is NL 18,563 translated and 42,444 pending, DE 18,741 translated and
+42,266 pending, and FR 18,423 translated and 42,584 pending. Finder translation
+coverage is complete. NL has 402 pages left and DE and FR have 403 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
