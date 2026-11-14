@@ -5437,6 +5437,19 @@ Coverage is NL 18,323 translated and 42,684 pending, DE 18,516 translated and
 42,491 pending, and FR 18,183 translated and 42,824 pending. Finder translation
 coverage is complete. NL has 418 pages left and DE and FR have 419 each.
 
+### Direct batch 149 — Breville Luxe Brewer Thermal video companions (2026-11-14)
+
+Complete the Alternative Brewing and Coffee Kev companions for the Breville
+Luxe Brewer Thermal BDC465 in Dutch, German and French. Preserve the creators,
+embeds, dates, regional package caveat and Coffee Kev's affiliate disclosure.
+The written review opens in English while its translations are pending.
+
+The source has 699 pages and 61,007 segments. NL can render 282 indexable
+pages and DE and FR can render 281 each, plus a localized 404 for each edition.
+Coverage is NL 18,354 translated and 42,653 pending, DE 18,532 translated and
+42,475 pending, and FR 18,214 translated and 42,793 pending. Finder translation
+coverage is complete. NL has 416 pages left and DE and FR have 417 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

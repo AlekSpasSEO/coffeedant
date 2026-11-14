@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/coffee-machine/breville-luxe-brewer-thermal-bdc465/video/alternative-brewing/",
+      "sourceHash": "20973afd0c26c7540ffaf6fe1806c55eb226d4a8acbcf8edbdd0acc7b3e56134"
+    },
+    {
+      "sourcePath": "/coffee-machine/breville-luxe-brewer-thermal-bdc465/video/coffee-kev/",
+      "sourceHash": "7305af2bdd7b6d64237fb6fcc1190cf9a9b041a58349e178ac17080b83c159d9"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "386c4e0a328b4d7c7046ff4e57daf980088abe27f56ca1501c532b33f92f557a",
+      "source": "Sage/Breville Luxe Brewer Review - Precision Brewer 2.0?",
+      "kind": "text",
+      "context": "Sage/Breville Luxe Brewer Review - Precision Brewer 2.0?"
+    },
+    {
+      "id": "aeaa996d548f7bf6d1583b6d76178b67389d8cabfb2ef4cfca4b2dcbc135f040",
+      "source": "August 10, 2025",
+      "kind": "text",
+      "context": "August 10, 2025"
+    },
+    {
+      "id": "e702f75dc42d19ea37f27dcd0af2ce5b7df9e576c7ea12e2f0714f8783027a65",
+      "source": "An independent review showing setup, baskets, controls, carafe, and brewing workflow. It provides visual context, not Coffeedant measurements, and regional package differences remain relevant.",
+      "kind": "text",
+      "context": "An independent review showing setup, baskets, controls, carafe, and brewing workflow. It provides visual context, not Coffeedant measurements, and regional package differences remain relevant."
+    },
+    {
+      "id": "a37b641670933b2ad1939a96f43c8f8d7aa1b90182ce91cea0715199cde4d0a7",
+      "source": "Breville Luxe Brewer Thermal BDC465",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "6784b0d309d7979ce1c850840f2a51a9568fa1f7389a2e7ada7c04d0ec8138a8",
+      "source": "Sage/Breville Luxe Brewer Review - Precision Brewer 2.0?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b039e89684ec30ed6e1e655bd3a6e6ad887522edf8ea7123e1dfbd53b1efc83a",
+      "source": "An independent review showing setup, baskets, controls, carafe, and brewing workflow. It provides visual context, not Coffeedant measurements, and regional package differences remain relevant.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "9b03e321a33ff93c5184d9b7dfe2e76fb4fefa460d15fc1167c408edd8e84f55",
+      "source": "Breville Luxe Brewer Thermal BDC465: Breville Luxe Thermal Brewer Review – What Makes It Different? · Alternative Brewing (2025-07-31) | Coffeedant",
+      "kind": "text",
+      "context": "Breville Luxe Brewer Thermal BDC465: Breville Luxe Thermal Brewer Review – What Makes It Different? · Alternative Brewing (2025-07-31) | Coffeedant"
+    },
+    {
+      "id": "0128c4edd822b1f18d274220498edbb616ce10c7a74e74fb91af2ebb57ddb48c",
+      "source": "Watch Alternative Brewing on Breville Luxe Brewer Thermal BDC465 (2025-07-31): Breville Luxe Thermal Brewer Review – What Makes It Different?. Alternative Brewing presents Breville Luxe Brewer Thermal BDC465, covering setup and controls, taste and brewing. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "517f927b6a9f75f722a1c99488b3269a4787af1183727f94347d9092d029b27a",
+      "source": "Breville Luxe Brewer Thermal BDC465: Sage/Breville Luxe Brewer Review - Precision Brewer 2.0? · Coffee Kev (2025-08-10) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "8f6368a1f010e281dc0b0d802a024af5edfd75b2f11e260883cf3e1f9d268bb8",
+      "source": "Breville Luxe Brewer Thermal BDC465 video by Coffee Kev",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "7901dc6e3f6f83fe1b99041604d9242f8f04604794db464fecb9dc669defd27b",
+      "source": "Sage/Breville Luxe Brewer Review - Precision Brewer 2.0? by Coffee Kev",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "6fa3c73581e4f0266917d6f5e2cccba25bea51bb8067e243c0ce08379551161e",
+      "source": "Breville Luxe Brewer Thermal BDC465 · Third-party perspective",
+      "kind": "text",
+      "context": "Breville Luxe Brewer Thermal BDC465 · Third-party perspective"
+    },
+    {
+      "id": "1ba8a32d6f8d86ecd82af571fe82f1cad0fae5c88715ca8e5039fe39a9b2a462",
+      "source": "Breville Luxe Brewer Thermal BDC465: Sage/Breville Luxe Brewer Review - Precision Brewer 2.0? · Coffee Kev (2025-08-10) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "1c7180c2c857ea51d22b62cb37bb9f693037d5bb8df83d24a3dd2737d6ba5ddc",
+      "source": "Watch Coffee Kev on Breville Luxe Brewer Thermal BDC465 (2025-08-10): Sage/Breville Luxe Brewer Review - Precision Brewer 2.0?. An independent review showing setup, baskets, controls, carafe, and brewing workflow. It provides visual context, not Coffeedant measurements, and regional package differences remain relevant.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "9448b3a9bbde91106e696abb14f6ac80fc18f68fe6e2b6cbe6430d62d79bea46",
+      "source": "Breville Luxe Brewer Thermal BDC465 video by Coffee Kev",
+      "kind": "json",
+      "context": "caption"
+    }
+  ],
+  "snapshotHash": "5dd34ff6ea220dc49e36bd332892a883213e2bf6e060f7cd75489a4fa6bd8aeb"
+}
