@@ -5556,6 +5556,20 @@ Coverage is NL 18,594 translated and 42,413 pending, DE 18,772 translated and
 42,235 pending, and FR 18,454 translated and 42,553 pending. Finder translation
 coverage is complete. NL has 400 pages left and DE and FR have 401 each.
 
+### Direct batch 158 - Breville Barista Express Impress video companions (2026-11-14)
+
+Complete the Craft Coffee Spot and Lance Hedrick video pages in Dutch,
+German and French. Preserve the creator credits, original embeds and dates,
+the comparison with the Barista Pro, and the affiliate disclosure on the
+Craft Coffee Spot page. The written review opens in English with a localized
+edition notice.
+
+The source has 699 pages and 61,007 segments. NL can render 300 indexable
+pages and DE and FR can render 299 each, plus a localized 404 for each edition.
+Coverage is NL 18,626 translated and 42,381 pending, DE 18,804 translated and
+42,203 pending, and FR 18,486 translated and 42,521 pending. Finder translation
+coverage is complete. NL has 398 pages left and DE and FR have 399 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
