@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "cafelat-robot-barista-videos-batch-155.source.json",
+  "snapshotHash": "a0256aec80185e71c30102421d8e3342fda4e3db1d02b86e37a86cf0525005c8",
+  "routes": {
+    "fr": {
+      "/espresso-machine/cafelat-robot-barista/video/alternative-brewing/": "/machine-a-espresso/cafelat-robot-barista/video/alternative-brewing/",
+      "/espresso-machine/cafelat-robot-barista/video/james-hoffmann/": "/machine-a-espresso/cafelat-robot-barista/video/james-hoffmann/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "Zo gebruik je de Cafelat Robot Barista-espressomaker",
+      "de": "So bedienen Sie die Espressomaschine Cafelat Robot Barista",
+      "fr": "Comment utiliser la machine à espresso Cafelat Robot Barista"
+    },
+    "1": {
+      "nl": "17 februari 2020",
+      "de": "17. Februar 2020",
+      "fr": "17 février 2020"
+    },
+    "2": {
+      "nl": "Een onafhankelijke koffiespeciaalzaak demonstreert de voorbereiding, het vullen van de zetkamer, het opbouwen van druk met de hendels en het schoonmaken. De video laat de werkwijze zien. Coffeedant heeft deze demonstratie niet als eigen test uitgevoerd. Actuele informatie over de inhoud van de verpakking komt van Cafelat.",
+      "de": "Ein unabhängiger Fachhändler zeigt die Vorbereitung, das Befüllen der Brühkammer, den Druckaufbau mit den Hebeln und die Reinigung. Das Video veranschaulicht die Handhabung. Die Vorführung stammt nicht aus einem Test von Coffeedant. Aktuelle Angaben zum Lieferumfang kommen von Cafelat.",
+      "fr": "Un revendeur spécialisé indépendant montre la préparation, le remplissage de la chambre d’infusion, la mise en pression à l’aide des leviers et le nettoyage. La vidéo illustre ces gestes. Cette démonstration ne fait pas partie des essais de Coffeedant. Les informations à jour sur le contenu du coffret proviennent de Cafelat."
+    },
+    "3": {
+      "nl": "Cafelat Robot Barista",
+      "de": "Cafelat Robot Barista",
+      "fr": "Cafelat Robot Barista"
+    },
+    "6": {
+      "nl": "Cafelat Robot Barista: zo gebruik je de Cafelat Robot Barista-espressomaker · Alternative Brewing (2020-02-17) | Coffeedant",
+      "de": "Cafelat Robot Barista: So bedienen Sie die Espressomaschine Cafelat Robot Barista · Alternative Brewing (2020-02-17) | Coffeedant",
+      "fr": "Cafelat Robot Barista : comment utiliser la machine à espresso Cafelat Robot Barista · Alternative Brewing (2020-02-17) | Coffeedant"
+    },
+    "7": {
+      "nl": "Bekijk de video van Alternative Brewing over de Cafelat Robot Barista (2020-02-17): zo gebruik je de Cafelat Robot Barista-espressomaker. Een onafhankelijke koffiespeciaalzaak demonstreert de voorbereiding, het vullen van de zetkamer, het opbouwen van druk met de hendels en het schoonmaken. De video laat de werkwijze zien. Coffeedant heeft deze demonstratie niet als eigen test uitgevoerd. Actuele informatie over de inhoud van de verpakking komt van Cafelat.",
+      "de": "Sehen Sie sich das Video von Alternative Brewing zur Cafelat Robot Barista an (2020-02-17): So bedienen Sie die Espressomaschine Cafelat Robot Barista. Ein unabhängiger Fachhändler zeigt die Vorbereitung, das Befüllen der Brühkammer, den Druckaufbau mit den Hebeln und die Reinigung. Das Video veranschaulicht die Handhabung. Die Vorführung stammt nicht aus einem Test von Coffeedant. Aktuelle Angaben zum Lieferumfang kommen von Cafelat.",
+      "fr": "Regardez la vidéo d’Alternative Brewing sur la Cafelat Robot Barista (2020-02-17) : comment utiliser la machine à espresso Cafelat Robot Barista. Un revendeur spécialisé indépendant montre la préparation, le remplissage de la chambre d’infusion, la mise en pression à l’aide des leviers et le nettoyage. La vidéo illustre ces gestes. Cette démonstration ne fait pas partie des essais de Coffeedant. Les informations à jour sur le contenu du coffret proviennent de Cafelat."
+    },
+    "9": {
+      "nl": "Video over de Cafelat Robot Barista van Alternative Brewing",
+      "de": "Video von Alternative Brewing zur Cafelat Robot Barista",
+      "fr": "Vidéo d’Alternative Brewing sur la Cafelat Robot Barista"
+    },
+    "10": {
+      "nl": "← Review van de Cafelat Robot Barista",
+      "de": "← Testbericht zur Cafelat Robot Barista",
+      "fr": "← Essai de la Cafelat Robot Barista"
+    },
+    "11": {
+      "nl": "Zo gebruik je de Cafelat Robot Barista-espressomaker, door Alternative Brewing",
+      "de": "So bedienen Sie die Espressomaschine Cafelat Robot Barista, von Alternative Brewing",
+      "fr": "Comment utiliser la machine à espresso Cafelat Robot Barista, par Alternative Brewing"
+    },
+    "12": {
+      "nl": "Cafelat Robot Barista · Een speciaalzaak aan het woord",
+      "de": "Cafelat Robot Barista · Sicht des Fachhändlers",
+      "fr": "Cafelat Robot Barista · Le point de vue d’un revendeur"
+    },
+    "16": {
+      "nl": "Cafelat Robot Barista · Externe blik",
+      "de": "Cafelat Robot Barista · Externe Einschätzung",
+      "fr": "Cafelat Robot Barista · Un regard extérieur"
+    },
+    "17": {
+      "nl": "Cafelat Robot Barista: eerste indruk van de Cafelat Robot · James Hoffmann (2019-10-25) | Coffeedant",
+      "de": "Cafelat Robot Barista: Erste Eindrücke von der Cafelat Robot · James Hoffmann (2019-10-25) | Coffeedant",
+      "fr": "Cafelat Robot Barista : premières impressions sur la Cafelat Robot · James Hoffmann (2019-10-25) | Coffeedant"
+    },
+    "18": {
+      "nl": "Bekijk de video van James Hoffmann over de Cafelat Robot Barista (2019-10-25): eerste indruk van de Cafelat Robot. James Hoffmann stelt de Cafelat Robot Barista voor en laat zien hoe hij er espresso mee zet. De demonstraties en meningen zijn die van de maker zelf.",
+      "de": "Sehen Sie sich das Video von James Hoffmann zur Cafelat Robot Barista an (2019-10-25): Erste Eindrücke von der Cafelat Robot. James Hoffmann stellt die Cafelat Robot Barista vor und zeigt, wie er damit Espresso zubereitet. Die Vorführungen und Meinungen stammen von ihm selbst.",
+      "fr": "Regardez la vidéo de James Hoffmann sur la Cafelat Robot Barista (2019-10-25) : premières impressions sur la Cafelat Robot. James Hoffmann présente la Cafelat Robot Barista et montre comment il prépare un espresso avec cette machine. Les démonstrations et les avis sont les siens."
+    },
+    "20": {
+      "nl": "Video over de Cafelat Robot Barista van James Hoffmann",
+      "de": "Video von James Hoffmann zur Cafelat Robot Barista",
+      "fr": "Vidéo de James Hoffmann sur la Cafelat Robot Barista"
+    },
+    "21": {
+      "nl": "Eerste indruk van de Cafelat Robot, door James Hoffmann",
+      "de": "Erste Eindrücke von der Cafelat Robot, von James Hoffmann",
+      "fr": "Premières impressions sur la Cafelat Robot, par James Hoffmann"
+    },
+    "22": {
+      "nl": "Eerste indruk van de Cafelat Robot",
+      "de": "Erste Eindrücke von der Cafelat Robot",
+      "fr": "Premières impressions sur la Cafelat Robot"
+    },
+    "23": {
+      "nl": "25 oktober 2019",
+      "de": "25. Oktober 2019",
+      "fr": "25 octobre 2019"
+    },
+    "24": {
+      "nl": "James Hoffmann stelt de Cafelat Robot Barista voor en laat zien hoe hij er espresso mee zet. De demonstraties en meningen zijn die van de maker zelf.",
+      "de": "James Hoffmann stellt die Cafelat Robot Barista vor und zeigt, wie er damit Espresso zubereitet. Die Vorführungen und Meinungen stammen von ihm selbst.",
+      "fr": "James Hoffmann présente la Cafelat Robot Barista et montre comment il prépare un espresso avec cette machine. Les démonstrations et les avis sont les siens."
+    }
+  }
+}

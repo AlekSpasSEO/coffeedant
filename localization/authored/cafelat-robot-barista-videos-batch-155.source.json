@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/cafelat-robot-barista/video/alternative-brewing/",
+      "sourceHash": "f1c386ae68421f5ade66d4006ba3bf2aa695c9b7da111f9061d1f1c255ac51d0"
+    },
+    {
+      "sourcePath": "/espresso-machine/cafelat-robot-barista/video/james-hoffmann/",
+      "sourceHash": "263880645b1b0d62d0d99244339b288fd92d516d6de3ff84ab3fd4de02429e58"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "e12a35150e5604b5e6ffb4490a90958b6bc94288b7c6bdb4c67e6f7ad4951abd",
+      "source": "How to use the Cafelat Robot Barista Espresso Maker",
+      "kind": "text",
+      "context": "How to use the Cafelat Robot Barista Espresso Maker"
+    },
+    {
+      "id": "fc61b4f14aeaf7be6aca11ac25ef40374f5925d92c0ff95395f906bb645ce790",
+      "source": "February 17, 2020",
+      "kind": "text",
+      "context": "February 17, 2020"
+    },
+    {
+      "id": "26077e5a5a5fc3f6fdfa56ea6eadd497fc4e7924b3a602ffd3aeac5ffe62b2d3",
+      "source": "An independent specialist-retailer demonstration of preparation, chamber filling, lever pressure, and cleanup. It is visual context rather than Coffeedant testing, and current package details come from Cafelat.",
+      "kind": "text",
+      "context": "An independent specialist-retailer demonstration of preparation, chamber filling, lever pressure, and cleanup. It is visual context rather than Coffeedant testing, and current package details come from Cafelat."
+    },
+    {
+      "id": "6a10d38fa74ffcd39e4250c347667dc211b2bbb051bf364fbb4b56189cc0bc5e",
+      "source": "Cafelat Robot Barista",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "5cc5082a333d872cf4b0f906cbc6ea12650160018e05af5712fb83f5a8358e48",
+      "source": "How to use the Cafelat Robot Barista Espresso Maker",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "332e833ce067ae02ce875a05bab36b4fcef575c713a118018c4b070648815c60",
+      "source": "An independent specialist-retailer demonstration of preparation, chamber filling, lever pressure, and cleanup. It is visual context rather than Coffeedant testing, and current package details come from Cafelat.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "639f66f27250a93a0410dd1e6e173496a6527dd1e8ad57786bf1f553904145e3",
+      "source": "Cafelat Robot Barista: How to use the Cafelat Robot Barista Espresso Maker · Alternative Brewing (2020-02-17) | Coffeedant",
+      "kind": "text",
+      "context": "Cafelat Robot Barista: How to use the Cafelat Robot Barista Espresso Maker · Alternative Brewing (2020-02-17) | Coffeedant"
+    },
+    {
+      "id": "1f1d19a09190b8368e88f464b222412ae077829ebb81895cf3512ba1c13920dd",
+      "source": "Watch Alternative Brewing on Cafelat Robot Barista (2020-02-17): How to use the Cafelat Robot Barista Espresso Maker. An independent specialist-retailer demonstration of preparation, chamber filling, lever pressure, and cleanup. It is visual context rather than Coffeedant testing, and current package details come from Cafelat.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "591e63325b446ae0b92ac4917bcd3925e70ba2ef9306d395fbd653d36c892500",
+      "source": "Cafelat Robot Barista: How to use the Cafelat Robot Barista Espresso Maker · Alternative Brewing (2020-02-17) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "f709bac028519b563e17a8f6c3524796fefd73ea1a09f25bda404e8e77c0936c",
+      "source": "Cafelat Robot Barista video by Alternative Brewing",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "9212c0ca0157faa8eac14f20d7ef405c7b751f9f51fd6e3bc783955645fa6f15",
+      "source": "← Cafelat Robot Barista review",
+      "kind": "text",
+      "context": "← Cafelat Robot Barista review"
+    },
+    {
+      "id": "83937c175e2c05f303723c41d7c9e2726e8e9ea3aeb836c79d695ede9d3ae7c4",
+      "source": "How to use the Cafelat Robot Barista Espresso Maker by Alternative Brewing",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "5929eb985b545401a43b7612d868d24c1b442d3382e0cbc98b5edf6cff93df14",
+      "source": "Cafelat Robot Barista · Retailer perspective",
+      "kind": "text",
+      "context": "Cafelat Robot Barista · Retailer perspective"
+    },
+    {
+      "id": "a8bc88ad95e9eb30e09e62a7e23bd6c26269a98ff4a0e3f74160d07efee2e790",
+      "source": "Cafelat Robot Barista: How to use the Cafelat Robot Barista Espresso Maker · Alternative Brewing (2020-02-17) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "72e46a8973312b35c5a2a079940c3f44136fc2be2fdd6672084953b42454ec37",
+      "source": "Watch Alternative Brewing on Cafelat Robot Barista (2020-02-17): How to use the Cafelat Robot Barista Espresso Maker. An independent specialist-retailer demonstration of preparation, chamber filling, lever pressure, and cleanup. It is visual context rather than Coffeedant testing, and current package details come from Cafelat.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "fb52cc5a790308625ccdd30ed927780fd3ab3721d688c1a08ecefce7acecf8d4",
+      "source": "Cafelat Robot Barista video by Alternative Brewing",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "35f3db2986178bc4082abb7aefb8502331887d0d1a1e8cc471da388be78465ce",
+      "source": "Cafelat Robot Barista · Third-party perspective",
+      "kind": "text",
+      "context": "Cafelat Robot Barista · Third-party perspective"
+    },
+    {
+      "id": "5da8be061c6f3910be3f23490a48152054728a76f3637922ed7358aed23beadf",
+      "source": "Cafelat Robot Barista: First Look Review: Cafelat Robot · James Hoffmann (2019-10-25) | Coffeedant",
+      "kind": "text",
+      "context": "Cafelat Robot Barista: First Look Review: Cafelat Robot · James Hoffmann (2019-10-25) | Coffeedant"
+    },
+    {
+      "id": "7a1ea33e19b93297df68c7bc8f3b2a30b17d53840a02117c372adb098120d416",
+      "source": "Watch James Hoffmann on Cafelat Robot Barista (2019-10-25): First Look Review: Cafelat Robot. James Hoffmann presents Cafelat Robot Barista, covering espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "cc58c98f030cffb5c42dbd8080e6509ba543e1434035ce1ca9473864d464a915",
+      "source": "Cafelat Robot Barista: First Look Review: Cafelat Robot · James Hoffmann (2019-10-25) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "d0d51f805579f0c1efb9fa4f7436f2c8da9f357e5aa14db570b3b3a9c5b333b0",
+      "source": "Cafelat Robot Barista video by James Hoffmann",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "d228fc7ac23cf8319047e94a4fac9e5f79d4923def4246bbd858324fe5ad26cd",
+      "source": "First Look Review: Cafelat Robot by James Hoffmann",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "d4277ea639bb09c29839236301c5164a4a2d9c66e629369d7a6c21aeeebae90c",
+      "source": "First Look Review: Cafelat Robot",
+      "kind": "text",
+      "context": "First Look Review: Cafelat Robot"
+    },
+    {
+      "id": "83277984880b29d4e7544d623bdeddd6672b736473a88ecde1b9e3d6b008278b",
+      "source": "October 25, 2019",
+      "kind": "text",
+      "context": "October 25, 2019"
+    },
+    {
+      "id": "3ff200ac94ac213b80ed164f782dc5dea652fa7eda57fec60f13047adec98657",
+      "source": "James Hoffmann presents Cafelat Robot Barista, covering espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "James Hoffmann presents Cafelat Robot Barista, covering espresso preparation. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "ed53efde96a89137d214a38716b9ff9826a7529edad82c168e9649210727a7dd",
+      "source": "Cafelat Robot Barista: First Look Review: Cafelat Robot · James Hoffmann (2019-10-25) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "f04b885d637028ebfdd4342905d94ab30d67a9ee430b995f03c025c577986872",
+      "source": "Watch James Hoffmann on Cafelat Robot Barista (2019-10-25): First Look Review: Cafelat Robot. James Hoffmann presents Cafelat Robot Barista, covering espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "7983b6b66e949428e4c68edc852a9935af8320047b36acdd7be2cb5c2d5206ce",
+      "source": "Cafelat Robot Barista video by James Hoffmann",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "6e298258951045c8e37d8fcf2d0ad5be1ce8f5babbf0334d118b226a45dcf97c",
+      "source": "First Look Review: Cafelat Robot",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "71c79db4d32be0fdd081b3e501d28472c3c56d0838ca17bd1589b27024668b9f",
+      "source": "James Hoffmann presents Cafelat Robot Barista, covering espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "a0256aec80185e71c30102421d8e3342fda4e3db1d02b86e37a86cf0525005c8"
+}
