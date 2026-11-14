@@ -5516,6 +5516,19 @@ Coverage is NL 18,503 translated and 42,504 pending, DE 18,681 translated and
 42,326 pending, and FR 18,363 translated and 42,644 pending. Finder translation
 coverage is complete. NL has 406 pages left and DE and FR have 407 each.
 
+### Direct batch 155 - Cafelat Robot Barista video companions (2026-11-14)
+
+Complete the Alternative Brewing and James Hoffmann video pages in Dutch,
+German and French. Preserve both videos, dates and creator credits. Attribute
+current package details to Cafelat and keep the written review linked in
+English while its translations are pending.
+
+The source has 699 pages and 61,007 segments. NL can render 294 indexable
+pages and DE and FR can render 293 each, plus a localized 404 for each edition.
+Coverage is NL 18,534 translated and 42,473 pending, DE 18,712 translated and
+42,295 pending, and FR 18,394 translated and 42,613 pending. Finder translation
+coverage is complete. NL has 404 pages left and DE and FR have 405 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
