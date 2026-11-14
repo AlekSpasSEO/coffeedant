@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/breville-barista-express-impress-bes876/video/craft-coffee-spot/",
+      "sourceHash": "6a6b8bf1a724c18ba5f58e6dcc555fed1d27c8aa1bd4876b72cea996bf7b5569"
+    },
+    {
+      "sourcePath": "/espresso-machine/breville-barista-express-impress-bes876/video/lance-hedrick/",
+      "sourceHash": "97d52b2ed2cbb3b906569ed47eab21e034ea1cb829d7c0491a04781d22d34a31"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "79f9fac6da80c0e10dcd8a40b7ae0ab56ca6368b8229053c6b3541acbe5d6556",
+      "source": "Craft Coffee Spot",
+      "kind": "text",
+      "context": "Craft Coffee Spot"
+    },
+    {
+      "id": "bc55b834b22c7903b38adce52b976341c66f41bd3b7991d8bf8715a2ee75ebb9",
+      "source": "Breville Barista Express IMPRESS Review: is this better than the Barista Pro?",
+      "kind": "text",
+      "context": "Breville Barista Express IMPRESS Review: is this better than the Barista Pro?"
+    },
+    {
+      "id": "d3d3d77336f94fdd1ddc0386b77a937930e54ccfc5b266fdbd83adce9e5c4a5b",
+      "source": "September 28, 2023",
+      "kind": "text",
+      "context": "September 28, 2023"
+    },
+    {
+      "id": "bf1d14f27e0ae3ebc5271e171aea04adde00a8910221e6779eb474392fcb4344",
+      "source": "An independent demonstration that makes the assisted workflow and lineup trade-offs visible. Its opinions are not Coffeedant test results, and current US facts come from the 2026 official sources.",
+      "kind": "text",
+      "context": "An independent demonstration that makes the assisted workflow and lineup trade-offs visible. Its opinions are not Coffeedant test results, and current US facts come from the 2026 official sources."
+    },
+    {
+      "id": "edda1ef76741cadc395edaaaeaa26d7d219affecf8d00e769c3ee009086aa4d9",
+      "source": "Breville Barista Express IMPRESS Review: is this better than the Barista Pro?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "367a9e3e2c6f43d39d0442a75ea788fb1efff0f5c92b8808f51e6ab5a2b43411",
+      "source": "An independent demonstration that makes the assisted workflow and lineup trade-offs visible. Its opinions are not Coffeedant test results, and current US facts come from the 2026 official sources.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "206e0d9f288b71ab998f7541812477f0717c67aa7ec33126efee03421d6b0f06",
+      "source": "Craft Coffee Spot",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "0388967add0257783bd6d96e9e25b95d759c9342c8e2f7ad32b7a7084474b9b1",
+      "source": "Breville Barista Express Impress: Breville Barista Express IMPRESS Review: is this better than the Barista Pro? · Craft Coffee Spot (2023-09-28) | Coffeedant",
+      "kind": "text",
+      "context": "Breville Barista Express Impress: Breville Barista Express IMPRESS Review: is this better than the Barista Pro? · Craft Coffee Spot (2023-09-28) | Coffeedant"
+    },
+    {
+      "id": "6c1a31816fa33f62e09e6813a870789c79457dd71cfed495933bcd69d6e88d91",
+      "source": "Watch Craft Coffee Spot on Breville Barista Express Impress (2023-09-28): Breville Barista Express IMPRESS Review: is this better than the Barista Pro?. An independent demonstration that makes the assisted workflow and lineup trade-offs visible. Its opinions are not Coffeedant test results, and current US facts come from the 2026 official sources.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "7767063f080113e55ce1f109cc078cb7db7f225eec5ee324a2eaf694f00fc6f8",
+      "source": "Breville Barista Express Impress: Breville Barista Express IMPRESS Review: is this better than the Barista Pro? · Craft Coffee Spot (2023-09-28) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "cf66841f595c795b962559ab46ae9638c1c96a44c0958eebd8b03640e735e077",
+      "source": "Breville Barista Express Impress video by Craft Coffee Spot",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "47fc0575676febc2be74af07c97bc61084f361e71c558e8f8e1535af2a146aab",
+      "source": "← Breville Barista Express Impress review",
+      "kind": "text",
+      "context": "← Breville Barista Express Impress review"
+    },
+    {
+      "id": "fe8dca4bd6f2d8a00efa7e50a85308613b0be93fcdeaef4d70205fdc55f31b5d",
+      "source": "Breville Barista Express IMPRESS Review: is this better than the Barista Pro? by Craft Coffee Spot",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "867bb8b1dd95763a69f72c4c317ce329b64fbef5875da336af4de498a97e0eb0",
+      "source": "Breville Barista Express Impress · Third-party perspective",
+      "kind": "text",
+      "context": "Breville Barista Express Impress · Third-party perspective"
+    },
+    {
+      "id": "1ae1b279c00f0472dc6e99749b039fab247a7589c256050d84266ff1e33b112c",
+      "source": "Video and opinions belong to Craft Coffee Spot. Coffeedant curates this perspective alongside our written review.",
+      "kind": "text",
+      "context": "Video and opinions belong to Craft Coffee Spot. Coffeedant curates this perspective alongside our written review."
+    },
+    {
+      "id": "4d3d845b7770358cb64e3a0efa20fa89d5985efa6aa1ea08b44f17d578a6fc9f",
+      "source": "Breville Barista Express Impress: Breville Barista Express IMPRESS Review: is this better than the Barista Pro? · Craft Coffee Spot (2023-09-28) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "a5e827fd7e642371e44df44657833745abfcdb6fb2a8e3caf156ec063b8b9fa7",
+      "source": "Watch Craft Coffee Spot on Breville Barista Express Impress (2023-09-28): Breville Barista Express IMPRESS Review: is this better than the Barista Pro?. An independent demonstration that makes the assisted workflow and lineup trade-offs visible. Its opinions are not Coffeedant test results, and current US facts come from the 2026 official sources.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "ae0485687f61ad4463bb246b9959fd0b08eeaa32da67eeb0e558fa4cb9931314",
+      "source": "Breville Barista Express Impress video by Craft Coffee Spot",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "48633e993bbe0435856e5196278f96470466cdf3f5ecbc1c0662cd1ecf255d09",
+      "source": "Video by Craft Coffee Spot",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "d11cfdd2e9cc069274edc7e0907312233530949add796d3f88afec4df3d59e26",
+      "source": "Breville Barista Express Impress: BARISTA EXPRESS IMPRESS REVIEW: Best Budget Beginner Espresso Machine (Breville/Sage) · Lance Hedrick (2023-05-18) | Coffeedant",
+      "kind": "text",
+      "context": "Breville Barista Express Impress: BARISTA EXPRESS IMPRESS REVIEW: Best Budget Beginner Espresso Machine (Breville/Sage) · Lance Hedrick (2023-05-18) | Coffeedant"
+    },
+    {
+      "id": "25e5bdfe339e64c70c5880fc788d65c98d06d8947dd7754fa3349fc0cc48905b",
+      "source": "Watch Lance Hedrick on Breville Barista Express Impress (2023-05-18): BARISTA EXPRESS IMPRESS REVIEW: Best Budget Beginner Espresso Machine (Breville/Sage). Lance Hedrick presents Breville Barista Express Impress, covering grinding, espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "5d171170996eb39a469a585d65a2bce5a7cc349de772d850bbc2f7b79de234d9",
+      "source": "Breville Barista Express Impress: BARISTA EXPRESS IMPRESS REVIEW: Best Budget Beginner Espresso Machine (Breville/Sage) · Lance Hedrick (2023-05-18) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "bc5646d691606866150ad12722e437f6f127d7b92b3ca0f1161690fa5694f8d2",
+      "source": "Breville Barista Express Impress video by Lance Hedrick",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "e576147fbd37e1713adcc3aa6706c872f1e9178cf366e8346052baad2284b9b1",
+      "source": "BARISTA EXPRESS IMPRESS REVIEW: Best Budget Beginner Espresso Machine (Breville/Sage) by Lance Hedrick",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "fd03cef14cd899d37a18c5c32af03446714797984ddcf41b0bd1129b1b90c270",
+      "source": "BARISTA EXPRESS IMPRESS REVIEW: Best Budget Beginner Espresso Machine (Breville/Sage)",
+      "kind": "text",
+      "context": "BARISTA EXPRESS IMPRESS REVIEW: Best Budget Beginner Espresso Machine (Breville/Sage)"
+    },
+    {
+      "id": "da1bda72044065d0eb62cbd2b42a33b7108dfca5750d30299d2090097732be65",
+      "source": "May 18, 2023",
+      "kind": "text",
+      "context": "May 18, 2023"
+    },
+    {
+      "id": "ded4a3a80e05be27033476d4db333c6609b95e8bc2acf8f5badd7499703334f8",
+      "source": "Lance Hedrick presents Breville Barista Express Impress, covering grinding, espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Lance Hedrick presents Breville Barista Express Impress, covering grinding, espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "0106224c14d8ec17daa8300a83e44a8500e794411d348a348846c3e7db1ed0fa",
+      "source": "Breville Barista Express Impress: BARISTA EXPRESS IMPRESS REVIEW: Best Budget Beginner Espresso Machine (Breville/Sage) · Lance Hedrick (2023-05-18) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "0da265eb26ce5ec7aed8aab6a1413e45486816f0cbaf8eb6c25602ea2cfba41e",
+      "source": "Watch Lance Hedrick on Breville Barista Express Impress (2023-05-18): BARISTA EXPRESS IMPRESS REVIEW: Best Budget Beginner Espresso Machine (Breville/Sage). Lance Hedrick presents Breville Barista Express Impress, covering grinding, espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "cb6f11e4e9627b28ba81a90d3d800dc0d1e7d578bdf4ffac170f8b9e0d107851",
+      "source": "Breville Barista Express Impress video by Lance Hedrick",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "e816184b96a9456c0564e2ce311da7b28ec303585e8a980e57dd56c85df04c04",
+      "source": "BARISTA EXPRESS IMPRESS REVIEW: Best Budget Beginner Espresso Machine (Breville/Sage)",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "2877044ef3dd433487519d82d49e646c5b0f326a37e5ba74d91e39069d859a50",
+      "source": "Lance Hedrick presents Breville Barista Express Impress, covering grinding, espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "4a780cc0a579355a7086b102d69eafea4ef422f43e10bcc84b11f7242db46054"
+}
