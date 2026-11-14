@@ -5410,6 +5410,20 @@ Coverage is NL 18,267 translated and 42,740 pending, DE 18,460 translated and
 42,547 pending, and FR 18,127 translated and 42,880 pending. Finder translation
 coverage is complete. NL has 422 pages left and DE and FR have 423 each.
 
+### Direct batch 147 — iDrinkCoffeeCanada ECM video companions (2026-11-14)
+
+Complete the ECM Mechanika V Slim and ECM Puristika video companions in
+Dutch, German and French. Preserve the iDrinkCoffee.com title attribution
+on the Mechanika V Slim, each original embed and publication date, and the
+scope of each retailer video. The written reviews open in English while
+their translations are pending.
+
+The source has 699 pages and 61,007 segments. NL can render 278 indexable
+pages and DE and FR can render 277 each, plus a localized 404 for each edition.
+Coverage is NL 18,293 translated and 42,714 pending, DE 18,486 translated and
+42,521 pending, and FR 18,153 translated and 42,854 pending. Finder translation
+coverage is complete. NL has 420 pages left and DE and FR have 421 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

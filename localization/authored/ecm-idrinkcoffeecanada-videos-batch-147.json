@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "ecm-idrinkcoffeecanada-videos-batch-147.source.json",
+  "snapshotHash": "097938ee4e41505fe7382f6bae9c154e9d0175064d5074cdeca0662ee23169a2",
+  "routes": {
+    "nl": {
+      "/espresso-machine/ecm-mechanika-v-slim/video/idrinkcoffeecanada/": "/espresso-machine/ecm-mechanika-v-slim/video/idrinkcoffeecanada/",
+      "/espresso-machine/ecm-puristika/video/idrinkcoffeecanada/": "/espresso-machine/ecm-puristika/video/idrinkcoffeecanada/"
+    },
+    "fr": {
+      "/espresso-machine/ecm-mechanika-v-slim/video/idrinkcoffeecanada/": "/machine-a-espresso/ecm-mechanika-v-slim/video/idrinkcoffeecanada/",
+      "/espresso-machine/ecm-puristika/video/idrinkcoffeecanada/": "/machine-a-espresso/ecm-puristika/video/idrinkcoffeecanada/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "ECM Mechanika V Slim: iDrinkCoffee.com reviewt de ECM Mechanika V Slim-espressomachine · iDrinkCoffeeCanada (2018-08-01) | Coffeedant",
+      "de": "ECM Mechanika V Slim: iDrinkCoffee.com testet die ECM Mechanika V Slim Espressomaschine · iDrinkCoffeeCanada (2018-08-01) | Coffeedant",
+      "fr": "ECM Mechanika V Slim : iDrinkCoffee.com teste la machine à espresso ECM Mechanika V Slim · iDrinkCoffeeCanada (2018-08-01) | Coffeedant"
+    },
+    "1": {
+      "nl": "Bekijk de video van iDrinkCoffeeCanada over de ECM Mechanika V Slim (2018-08-01). iDrinkCoffee.com reviewt de ECM Mechanika V Slim-espressomachine. iDrinkCoffeeCanada presenteert de ECM Mechanika V Slim en laat zien hoe je er espresso en melkdranken mee bereidt. Dit is het perspectief van een verkoper van koffiemachines. Bekijk de video samen met de andere bronnen en onze geschreven review.",
+      "de": "Sehen Sie das Video von iDrinkCoffeeCanada zur ECM Mechanika V Slim (2018-08-01). iDrinkCoffee.com testet die ECM Mechanika V Slim Espressomaschine. iDrinkCoffeeCanada stellt die ECM Mechanika V Slim vor und zeigt die Zubereitung von Espresso und Milchgetränken. Das ist die Sicht eines Händlers für Kaffeemaschinen. Ziehen Sie auch die anderen Quellen und unseren schriftlichen Testbericht heran.",
+      "fr": "Regardez la vidéo d’iDrinkCoffeeCanada sur l’ECM Mechanika V Slim (2018-08-01). iDrinkCoffee.com teste la machine à espresso ECM Mechanika V Slim. iDrinkCoffeeCanada présente l’ECM Mechanika V Slim et montre comment préparer des espressos et des boissons lactées. La vidéo présente le point de vue d’un vendeur de machines à café. Consultez-la en complément des autres sources et de notre essai écrit."
+    },
+    "3": {
+      "nl": "Video van iDrinkCoffeeCanada over de ECM Mechanika V Slim",
+      "de": "Video von iDrinkCoffeeCanada zur ECM Mechanika V Slim",
+      "fr": "Vidéo d’iDrinkCoffeeCanada sur l’ECM Mechanika V Slim"
+    },
+    "4": {
+      "nl": "Review van de ECM Mechanika V Slim-espressomachine op iDrinkCoffee.com door iDrinkCoffeeCanada",
+      "de": "Test der ECM Mechanika V Slim Espressomaschine auf iDrinkCoffee.com von iDrinkCoffeeCanada",
+      "fr": "Essai de la machine à espresso ECM Mechanika V Slim sur iDrinkCoffee.com par iDrinkCoffeeCanada"
+    },
+    "5": {
+      "nl": "iDrinkCoffee.com reviewt de ECM Mechanika V Slim-espressomachine",
+      "de": "iDrinkCoffee.com testet die ECM Mechanika V Slim Espressomaschine",
+      "fr": "iDrinkCoffee.com teste la machine à espresso ECM Mechanika V Slim"
+    },
+    "6": {
+      "nl": "1 augustus 2018",
+      "de": "1. August 2018",
+      "fr": "1 août 2018"
+    },
+    "7": {
+      "nl": "iDrinkCoffeeCanada presenteert de ECM Mechanika V Slim en laat zien hoe je er espresso en melkdranken mee bereidt. Dit is het perspectief van een verkoper van koffiemachines. Bekijk de video samen met de andere bronnen en onze geschreven review.",
+      "de": "iDrinkCoffeeCanada stellt die ECM Mechanika V Slim vor und zeigt die Zubereitung von Espresso und Milchgetränken. Das ist die Sicht eines Händlers für Kaffeemaschinen. Ziehen Sie auch die anderen Quellen und unseren schriftlichen Testbericht heran.",
+      "fr": "iDrinkCoffeeCanada présente l’ECM Mechanika V Slim et montre comment préparer des espressos et des boissons lactées. La vidéo présente le point de vue d’un vendeur de machines à café. Consultez-la en complément des autres sources et de notre essai écrit."
+    },
+    "13": {
+      "nl": "ECM Puristika: ECM Puristika-espressomachine · iDrinkCoffeeCanada (2022-09-23) | Coffeedant",
+      "de": "ECM Puristika: Die ECM Puristika Espressomaschine · iDrinkCoffeeCanada (2022-09-23) | Coffeedant",
+      "fr": "ECM Puristika : machine à espresso ECM Puristika · iDrinkCoffeeCanada (2022-09-23) | Coffeedant"
+    },
+    "14": {
+      "nl": "Bekijk de video van iDrinkCoffeeCanada over de ECM Puristika-espressomachine (2022-09-23). iDrinkCoffeeCanada presenteert de ECM Puristika en bespreekt het gebruiksklaar maken van de machine, de bediening, het bereiden van espresso en de smaak in het kopje. Dit is het perspectief van een verkoper van koffiemachines. Bekijk de video samen met de andere bronnen en onze geschreven review.",
+      "de": "Sehen Sie das Video von iDrinkCoffeeCanada zur ECM Puristika Espressomaschine (2022-09-23). iDrinkCoffeeCanada stellt die ECM Puristika vor und geht auf die Einrichtung, die Bedienung, die Espressozubereitung und den Geschmack in der Tasse ein. Das ist die Sicht eines Händlers für Kaffeemaschinen. Ziehen Sie auch die anderen Quellen und unseren schriftlichen Testbericht heran.",
+      "fr": "Regardez la vidéo d’iDrinkCoffeeCanada sur la machine à espresso ECM Puristika (2022-09-23). iDrinkCoffeeCanada présente l’ECM Puristika et aborde la mise en service, les commandes, la préparation de l’espresso et le goût en tasse. La vidéo présente le point de vue d’un vendeur de machines à café. Consultez-la en complément des autres sources et de notre essai écrit."
+    },
+    "16": {
+      "nl": "Video van iDrinkCoffeeCanada over de ECM Puristika",
+      "de": "Video von iDrinkCoffeeCanada zur ECM Puristika",
+      "fr": "Vidéo d’iDrinkCoffeeCanada sur l’ECM Puristika"
+    },
+    "17": {
+      "nl": "ECM Puristika-espressomachine, gepresenteerd door iDrinkCoffeeCanada",
+      "de": "ECM Puristika Espressomaschine, vorgestellt von iDrinkCoffeeCanada",
+      "fr": "Machine à espresso ECM Puristika, présentée par iDrinkCoffeeCanada"
+    },
+    "18": {
+      "nl": "ECM Puristika-espressomachine",
+      "de": "ECM Puristika Espressomaschine",
+      "fr": "Machine à espresso ECM Puristika"
+    },
+    "19": {
+      "nl": "23 september 2022",
+      "de": "23. September 2022",
+      "fr": "23 septembre 2022"
+    },
+    "20": {
+      "nl": "iDrinkCoffeeCanada presenteert de ECM Puristika en bespreekt het gebruiksklaar maken van de machine, de bediening, het bereiden van espresso en de smaak in het kopje. Dit is het perspectief van een verkoper van koffiemachines. Bekijk de video samen met de andere bronnen en onze geschreven review.",
+      "de": "iDrinkCoffeeCanada stellt die ECM Puristika vor und geht auf die Einrichtung, die Bedienung, die Espressozubereitung und den Geschmack in der Tasse ein. Das ist die Sicht eines Händlers für Kaffeemaschinen. Ziehen Sie auch die anderen Quellen und unseren schriftlichen Testbericht heran.",
+      "fr": "iDrinkCoffeeCanada présente l’ECM Puristika et aborde la mise en service, les commandes, la préparation de l’espresso et le goût en tasse. La vidéo présente le point de vue d’un vendeur de machines à café. Consultez-la en complément des autres sources et de notre essai écrit."
+    }
+  }
+}
