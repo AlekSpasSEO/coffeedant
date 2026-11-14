@@ -5570,6 +5570,20 @@ Coverage is NL 18,626 translated and 42,381 pending, DE 18,804 translated and
 42,203 pending, and FR 18,486 translated and 42,521 pending. Finder translation
 coverage is complete. NL has 398 pages left and DE and FR have 399 each.
 
+### Direct batch 159 - Rancilio Silvia Pro X video companions (2026-11-14)
+
+Complete the Alternative Brewing and Lance Hedrick video pages in Dutch,
+German and French. Preserve the original embeds, dates and creator credits,
+including Alternative Brewing's retailer perspective and the model wording
+in Hedrick's video title. The written review opens in English with a localized
+edition notice.
+
+The source has 699 pages and 61,007 segments. NL can render 302 indexable
+pages and DE and FR can render 301 each, plus a localized 404 for each edition.
+Coverage is NL 18,655 translated and 42,352 pending, DE 18,833 translated and
+42,174 pending, and FR 18,515 translated and 42,492 pending. Finder translation
+coverage is complete. NL has 396 pages left and DE and FR have 397 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
