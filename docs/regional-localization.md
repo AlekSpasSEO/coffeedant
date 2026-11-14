@@ -5489,6 +5489,19 @@ Coverage is NL 18,443 translated and 42,564 pending, DE 18,621 translated and
 42,386 pending, and FR 18,303 translated and 42,704 pending. Finder translation
 coverage is complete. NL has 410 pages left and DE and FR have 411 each.
 
+### Direct batch 153 — 9Barista Mk.2 video companions (2026-11-14)
+
+Complete the Lance Hedrick and The Real Sprometheus companions for the
+9Barista Mk.2 in Dutch, German and French. Preserve the original videos,
+dates and creator attribution. The written review opens in English while
+its translations are pending.
+
+The source has 699 pages and 61,007 segments. NL can render 290 indexable
+pages and DE and FR can render 289 each, plus a localized 404 for each edition.
+Coverage is NL 18,473 translated and 42,534 pending, DE 18,651 translated and
+42,356 pending, and FR 18,333 translated and 42,674 pending. Finder translation
+coverage is complete. NL has 408 pages left and DE and FR have 409 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

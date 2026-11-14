@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/9barista-mk2/video/lance-hedrick/",
+      "sourceHash": "2c93cb5daf26b0a90c4823d39db62ec5336075fda73f5cf4b996dec5b0f2ff7e"
+    },
+    {
+      "sourcePath": "/espresso-machine/9barista-mk2/video/the-real-sprometheus/",
+      "sourceHash": "85ef860d113f4aaa331450b516233c1225c5923b4660a5648d9410105def7b45"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "13968ab1f150e16329839afc440e4922ff827d4c7dab60c14815eb87de212dbe",
+      "source": "9Barista Espresso Machine Mk.2",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "8873bc234c60fc374748b935be347245c3cdaadacea0168718a093423c2c884b",
+      "source": "Is THIS the Best Espresso Machine?: 9Barista Mk2 Full Review",
+      "kind": "text",
+      "context": "Is THIS the Best Espresso Machine?: 9Barista Mk2 Full Review"
+    },
+    {
+      "id": "bc0ed85b34fbb869ebfe659416d89a0f14697297dc305dcc0edef241c7fa4af6",
+      "source": "February 22, 2026",
+      "kind": "text",
+      "context": "February 22, 2026"
+    },
+    {
+      "id": "63dcc0b1c630bdd935c67f31c40780adb6ab3cab19b5356a85e3828bda08e2b8",
+      "source": "A detailed independent Mk.2 demonstration. Any tasting or measurement shown belongs to the creator; Coffeedant did not reproduce the test.",
+      "kind": "text",
+      "context": "A detailed independent Mk.2 demonstration. Any tasting or measurement shown belongs to the creator; Coffeedant did not reproduce the test."
+    },
+    {
+      "id": "7d15b1beb63b462a4f9a88ee340082e78aa1d4d730af74911c7a1475dd0d8052",
+      "source": "Is THIS the Best Espresso Machine?: 9Barista Mk2 Full Review",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "07697c483643b8f49b87cd5a20e7544ed0110fad5a18efd3fdc9ea876d703a41",
+      "source": "A detailed independent Mk.2 demonstration. Any tasting or measurement shown belongs to the creator; Coffeedant did not reproduce the test.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "6fc4c3578d7885ee1c3d7be7f6b861d681c9b367a0a59d17b82024f796269ccd",
+      "source": "← 9Barista Espresso Machine Mk.2 review",
+      "kind": "text",
+      "context": "← 9Barista Espresso Machine Mk.2 review"
+    },
+    {
+      "id": "973480414229909348f41412a5f0bb49e7da1227e032dedc6010ac9950d5c7e1",
+      "source": "9Barista Espresso Machine Mk.2: Is THIS the Best Espresso Machine?: 9Barista Mk2 Full Review · Lance Hedrick (2026-02-22) | Coffeedant",
+      "kind": "text",
+      "context": "9Barista Espresso Machine Mk.2: Is THIS the Best Espresso Machine?: 9Barista Mk2 Full Review · Lance Hedrick (2026-02-22) | Coffeedant"
+    },
+    {
+      "id": "e95cf6c4ea4bd5dc39dfb4675b02a29d72b44fbbbead69b44c1e58e041642143",
+      "source": "Watch Lance Hedrick on 9Barista Espresso Machine Mk.2 (2026-02-22): Is THIS the Best Espresso Machine?: 9Barista Mk2 Full Review. A detailed independent Mk.2 demonstration. Any tasting or measurement shown belongs to the creator; Coffeedant did not reproduce the test.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "f5edaaff64e374c7f82d237889dc21e192ad5cb3a2eef6374a3e4e8d316e82ed",
+      "source": "9Barista Espresso Machine Mk.2: Is THIS the Best Espresso Machine?: 9Barista Mk2 Full Review · Lance Hedrick (2026-02-22) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "3a4e7ba3724abcc3aa13bd5b9331e8610b930f678192d6642739372eb39d0e80",
+      "source": "9Barista Espresso Machine Mk.2 video by Lance Hedrick",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "5fd60e11527e879601e408430be4f5bb7301a8d2fb5be4ba555ca641e34c8030",
+      "source": "Is THIS the Best Espresso Machine?: 9Barista Mk2 Full Review by Lance Hedrick",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "7fc08587fb4c468810a67e6bc1360eeb9010ca101cc3f4c7611ac550a979c8a1",
+      "source": "9Barista Espresso Machine Mk.2 · Third-party perspective",
+      "kind": "text",
+      "context": "9Barista Espresso Machine Mk.2 · Third-party perspective"
+    },
+    {
+      "id": "a9e023eb5cca749d8d8f3c92e8347f5b700f0d6b8151526a014b51d1ae42d08a",
+      "source": "9Barista Espresso Machine Mk.2: Is THIS the Best Espresso Machine?: 9Barista Mk2 Full Review · Lance Hedrick (2026-02-22) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "ff73b24b1409e9c53f26fa037ee7fe5646bb71a632c937bd7f58b773298b46c3",
+      "source": "Watch Lance Hedrick on 9Barista Espresso Machine Mk.2 (2026-02-22): Is THIS the Best Espresso Machine?: 9Barista Mk2 Full Review. A detailed independent Mk.2 demonstration. Any tasting or measurement shown belongs to the creator; Coffeedant did not reproduce the test.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "7cafbe39184f329354e0e0b6510527da18e00b9fdc47bea6b5e8fac882bf512b",
+      "source": "9Barista Espresso Machine Mk.2 video by Lance Hedrick",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "4f3e3262b9cbed955af5df3514f1f763e8034177b42ef5212e77faafb2793250",
+      "source": "9Barista Espresso Machine Mk.2: 9Barista Mk. II | This Stovetop Espresso Maker Will Outlive Us All · The Real Sprometheus (2025-09-19) | Coffeedant",
+      "kind": "text",
+      "context": "9Barista Espresso Machine Mk.2: 9Barista Mk. II | This Stovetop Espresso Maker Will Outlive Us All · The Real Sprometheus (2025-09-19) | Coffeedant"
+    },
+    {
+      "id": "4f944bbe094e1cfcb13cbe50477119118195ddbf1235d27e9dd3e294415bf9f2",
+      "source": "Watch The Real Sprometheus on 9Barista Espresso Machine Mk.2 (2025-09-19): 9Barista Mk. II | This Stovetop Espresso Maker Will Outlive Us All. The Real Sprometheus presents 9Barista Espresso Machine Mk.2, covering espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "b0e42f70a8b0363e4501a926f40dfa8d3cf2d4e120558d271d89d38a5bedf84b",
+      "source": "9Barista Espresso Machine Mk.2: 9Barista Mk. II | This Stovetop Espresso Maker Will Outlive Us All · The Real Sprometheus (2025-09-19) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "437c4ab3d307e9b83347b252476032c02beb47304ae2df7020001f9f0c767f99",
+      "source": "9Barista Espresso Machine Mk.2 video by The Real Sprometheus",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "b85b7cfbbeee9a1c37f368ba83dcf999ece9a01427891162b3d2c140ff78caa7",
+      "source": "9Barista Mk. II | This Stovetop Espresso Maker Will Outlive Us All by The Real Sprometheus",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "1913708393fff99584ef006c9d2943cda2b7108da279b7b5768d1d76c776f0f8",
+      "source": "9Barista Mk. II | This Stovetop Espresso Maker Will Outlive Us All",
+      "kind": "text",
+      "context": "9Barista Mk. II | This Stovetop Espresso Maker Will Outlive Us All"
+    },
+    {
+      "id": "d5b47e549cae3238b7ad456aeb4674d7aee66a8485c17e55e58de6cda42e1dd5",
+      "source": "September 19, 2025",
+      "kind": "text",
+      "context": "September 19, 2025"
+    },
+    {
+      "id": "6bc589bb611e5ea951425ab9c671c1435b8f39ba5dfdbf904205e100b453fe01",
+      "source": "The Real Sprometheus presents 9Barista Espresso Machine Mk.2, covering espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "The Real Sprometheus presents 9Barista Espresso Machine Mk.2, covering espresso preparation. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "c15d9fa5a8b41acc9ffd1750be0719107852a96672451e93492cb39756141968",
+      "source": "9Barista Espresso Machine Mk.2: 9Barista Mk. II | This Stovetop Espresso Maker Will Outlive Us All · The Real Sprometheus (2025-09-19) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "5f4a993b4592f211dfc2d23a5176365de3fecaa323fdebbbdfead3a74e231174",
+      "source": "Watch The Real Sprometheus on 9Barista Espresso Machine Mk.2 (2025-09-19): 9Barista Mk. II | This Stovetop Espresso Maker Will Outlive Us All. The Real Sprometheus presents 9Barista Espresso Machine Mk.2, covering espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "8ec31c5b0c4e15428787cb9be246f66fcee1fc2520466a3b7514eeca7a96111c",
+      "source": "9Barista Espresso Machine Mk.2 video by The Real Sprometheus",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "3b22e016e754059cf2c28090f9374b78a49ede93f72ba12932d63f052b1e19ca",
+      "source": "9Barista Mk. II | This Stovetop Espresso Maker Will Outlive Us All",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "a0f8f6de3a68e269c27fc5ea03a93244f2aa778e9480a114746a31a1412c3c95",
+      "source": "The Real Sprometheus presents 9Barista Espresso Machine Mk.2, covering espresso preparation. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "68fed7c9363c94d3b286352dd8e7730d5b573ffd1caf6b5cae8ae3cf167ace08"
+}
