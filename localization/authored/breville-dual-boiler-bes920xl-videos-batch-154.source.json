@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/breville-dual-boiler-bes920xl/video/lance-hedrick/",
+      "sourceHash": "c3a5e264ad126cb1a6f93d13c9f3b5e2defb564674642bb0498223383080f6d3"
+    },
+    {
+      "sourcePath": "/espresso-machine/breville-dual-boiler-bes920xl/video/toms-coffee-corner/",
+      "sourceHash": "cecab0fcb4351665b82a457a661861524df68f8f255b72601bd093f3cb1b21f3"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "402788bb07d6bd7ccbbc2907e318e6945f034abf35c5fc0022c245ed17f9a3b7",
+      "source": "Breville the Dual Boiler",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "f0447e7d154c642920f80cec9df55b29e8aca798fc823bb7d65c55b6a644d671",
+      "source": "← Breville the Dual Boiler review",
+      "kind": "text",
+      "context": "← Breville the Dual Boiler review"
+    },
+    {
+      "id": "0fa98debfc84dc78b71d70c981b716e7bad74d614753b9ff8978a0ad790a14e1",
+      "source": "Breville the Dual Boiler: STILL BEST VALUE ESPRESSO MACHINE OR DISCONTINUED? Breville Dual Boiler in 2023 · Lance Hedrick (2023-09-10) | Coffeedant",
+      "kind": "text",
+      "context": "Breville the Dual Boiler: STILL BEST VALUE ESPRESSO MACHINE OR DISCONTINUED? Breville Dual Boiler in 2023 · Lance Hedrick (2023-09-10) | Coffeedant"
+    },
+    {
+      "id": "a4417b5b3fc5fcf5bc04ea0c33947f20c856c803012e5fafee90ec32c8602275",
+      "source": "Watch Lance Hedrick on Breville the Dual Boiler (2023-09-10): STILL BEST VALUE ESPRESSO MACHINE OR DISCONTINUED? Breville Dual Boiler in 2023. Lance Hedrick presents Breville the Dual Boiler, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "ad8b7c4663d6c6da42e96f46d92ef4a2e0cbc9ed205a19b3c66c18bd8bbe47cd",
+      "source": "Breville the Dual Boiler: STILL BEST VALUE ESPRESSO MACHINE OR DISCONTINUED? Breville Dual Boiler in 2023 · Lance Hedrick (2023-09-10) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "d77b3b8789917d12b04109591e0a802d20ad463196fb39856380e1ea1fd1a341",
+      "source": "Breville the Dual Boiler video by Lance Hedrick",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "47809cd5c277412532c3260724dad51dbe1002c4288f8c1cf6be265ee7e2a30b",
+      "source": "STILL BEST VALUE ESPRESSO MACHINE OR DISCONTINUED? Breville Dual Boiler in 2023 by Lance Hedrick",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "1a96bf486a1dae9e296280315f74ac7923f255fc47d0ce24c911d98666e6972e",
+      "source": "Breville the Dual Boiler · Third-party perspective",
+      "kind": "text",
+      "context": "Breville the Dual Boiler · Third-party perspective"
+    },
+    {
+      "id": "5594cbed82383a120e77d8cd01b16e1b33811d52ff58329f2f9afcd95ec37abd",
+      "source": "STILL BEST VALUE ESPRESSO MACHINE OR DISCONTINUED? Breville Dual Boiler in 2023",
+      "kind": "text",
+      "context": "STILL BEST VALUE ESPRESSO MACHINE OR DISCONTINUED? Breville Dual Boiler in 2023"
+    },
+    {
+      "id": "10227b1dbfc6b7193fb6652e616269e56ac25f7b71130fe4785b72ab3bfc3235",
+      "source": "September 10, 2023",
+      "kind": "text",
+      "context": "September 10, 2023"
+    },
+    {
+      "id": "71c87663806c04020db67f60d85722cebb4f581fab2ae0289c03e62f6ba15563",
+      "source": "Lance Hedrick presents Breville the Dual Boiler, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Lance Hedrick presents Breville the Dual Boiler, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "40de43ca60bdbcdffc31888ede1701c2f034eca5a1e7c84e992300026c4c6b9b",
+      "source": "Breville the Dual Boiler: STILL BEST VALUE ESPRESSO MACHINE OR DISCONTINUED? Breville Dual Boiler in 2023 · Lance Hedrick (2023-09-10) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "79cd69a589920ec4045620de0103304473d257e06406260a75ae575be2315fe3",
+      "source": "Watch Lance Hedrick on Breville the Dual Boiler (2023-09-10): STILL BEST VALUE ESPRESSO MACHINE OR DISCONTINUED? Breville Dual Boiler in 2023. Lance Hedrick presents Breville the Dual Boiler, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "2c0c677a2fea6c2ca0f20194f6250c8b3c784e03a08cfa0ff398d477d2c622b7",
+      "source": "Breville the Dual Boiler video by Lance Hedrick",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "715fbb6728f5dc2933c6fb03fa02a38469dafa8a1515a93f1eb71b1b2642d3cd",
+      "source": "STILL BEST VALUE ESPRESSO MACHINE OR DISCONTINUED? Breville Dual Boiler in 2023",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "2c2bc7e5a9a16948cf683ed4a30244fdec2c609b3c83b0d69cb53f74c34ce609",
+      "source": "Lance Hedrick presents Breville the Dual Boiler, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "f99086eb76fa2d0bdb21781fb8cc459fd9607e9044bc6f8454d8aba2f148a528",
+      "source": "Breville the Dual Boiler: Sage (Breville) Dual Boiler Full Review (Part 2/2) · Tom's Coffee Corner (2024-01-07) | Coffeedant",
+      "kind": "text",
+      "context": "Breville the Dual Boiler: Sage (Breville) Dual Boiler Full Review (Part 2/2) · Tom's Coffee Corner (2024-01-07) | Coffeedant"
+    },
+    {
+      "id": "d93dc554a6a4a5fed5b424f8ceff8b5933480938197d00cb6e5a1c12427a06c9",
+      "source": "Watch Tom's Coffee Corner on Breville the Dual Boiler (2024-01-07): Sage (Breville) Dual Boiler Full Review (Part 2/2). Tom's Coffee Corner presents Breville the Dual Boiler, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "b701f909c28ff67954956e479f4d262823692d526eface66d3aa6d8f5490d9da",
+      "source": "Breville the Dual Boiler: Sage (Breville) Dual Boiler Full Review (Part 2/2) · Tom's Coffee Corner (2024-01-07) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "3b896ff02f7c7a4a7c11600b5016a96bf744e9313a6e873161f8d6663d54bc82",
+      "source": "Breville the Dual Boiler video by Tom's Coffee Corner",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "de4939c6aa2dcda5a8282740c0953eb83dcae02a4d010f1b494550bc956f1293",
+      "source": "Sage (Breville) Dual Boiler Full Review (Part 2/2) by Tom's Coffee Corner",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "390c3beea3ee17b392dc09dece18d9f460653ad0d3a7bf6b6c6bac4e7338ad2f",
+      "source": "Sage (Breville) Dual Boiler Full Review (Part 2/2)",
+      "kind": "text",
+      "context": "Sage (Breville) Dual Boiler Full Review (Part 2/2)"
+    },
+    {
+      "id": "8249e802b412ac00bc3f3ef8b769e3247e6aa44f733a185a594c914e2e2c048d",
+      "source": "January 7, 2024",
+      "kind": "text",
+      "context": "January 7, 2024"
+    },
+    {
+      "id": "a3a7a40985793b5491baac348c744e4e23f33600135c63c19daee6ff5e1508ce",
+      "source": "Tom's Coffee Corner presents Breville the Dual Boiler, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Tom's Coffee Corner presents Breville the Dual Boiler, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "af533d13f1c470596015a1ab6ca806f0fdaa0864851deba773d3d03dd460fe23",
+      "source": "Breville the Dual Boiler: Sage (Breville) Dual Boiler Full Review (Part 2/2) · Tom's Coffee Corner (2024-01-07) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "83c4f65c75afc7c375b9a59ce04c48e03978d9b9286a8a963c99be00448c8f8e",
+      "source": "Watch Tom's Coffee Corner on Breville the Dual Boiler (2024-01-07): Sage (Breville) Dual Boiler Full Review (Part 2/2). Tom's Coffee Corner presents Breville the Dual Boiler, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "a769640626ca3fccd6a83c47a9a8d9b94f5c27f7a8f6fd07bd3b2be72b4100f8",
+      "source": "Breville the Dual Boiler video by Tom's Coffee Corner",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "54ed23806503f6b3a2e1ac40c7d4b2095e0b191b303e6ef91a398229ba8e67db",
+      "source": "Sage (Breville) Dual Boiler Full Review (Part 2/2)",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "bbe85623562835a702e178959d1157b0953e853b46c2cfe9c73a493816684896",
+      "source": "Tom's Coffee Corner presents Breville the Dual Boiler, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "0113da5014e71544ec6332ed51aed58f8838eabbea3960425d04ca97ce710327"
+}
