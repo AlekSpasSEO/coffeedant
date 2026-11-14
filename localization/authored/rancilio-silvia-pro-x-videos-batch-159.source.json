@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/rancilio-silvia-pro-x/video/alternative-brewing/",
+      "sourceHash": "62eb0810e4a020829fb85aac18acdb4ef9eb274cea4858af461fd73578f1753d"
+    },
+    {
+      "sourcePath": "/espresso-machine/rancilio-silvia-pro-x/video/lance-hedrick/",
+      "sourceHash": "71a246b7a7a3cf0ce193959aeb4f009ba733eed836742422e05c275abfe6a9b2"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "8b87199979cac89fc6a811fceb22d3acd5f0c4ea71a2497bb756e0239843ca20",
+      "source": "Rancilio Silvia Pro X: Rancilio Silvia Pro X Coffee Machine Review · Alternative Brewing (2022-08-04) | Coffeedant",
+      "kind": "text",
+      "context": "Rancilio Silvia Pro X: Rancilio Silvia Pro X Coffee Machine Review · Alternative Brewing (2022-08-04) | Coffeedant"
+    },
+    {
+      "id": "0105d688f5e812b6e312d0e08110b86700b9820cb2b3efc32271e89bd281f058",
+      "source": "Watch Alternative Brewing on Rancilio Silvia Pro X (2022-08-04): Rancilio Silvia Pro X Coffee Machine Review. Alternative Brewing presents Rancilio Silvia Pro X, covering espresso preparation, taste and brewing. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "026f4805b7d3f542e26ef112bbc6b78b902123cd692990c02d685c148ec1688e",
+      "source": "Rancilio Silvia Pro X: Rancilio Silvia Pro X Coffee Machine Review · Alternative Brewing (2022-08-04) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "b4db527c420d31394fc4cb293a17657bd5f3ba0a84591af991e667fd2dfd116d",
+      "source": "Rancilio Silvia Pro X video by Alternative Brewing",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "e8f1282592a62f17c85b3b90602ff5e16b1b06e5b3eea26f2f06b28bc4f7e8cc",
+      "source": "← Rancilio Silvia Pro X review",
+      "kind": "text",
+      "context": "← Rancilio Silvia Pro X review"
+    },
+    {
+      "id": "179edfe7c1f056f8a89b80c9d44007028cc7e20db9c8deb432ac173dd35ee0a5",
+      "source": "Rancilio Silvia Pro X Coffee Machine Review by Alternative Brewing",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "1eacc0e719f3edf092acd210a43750cbc092ac29fde416b260446371431d44e1",
+      "source": "Rancilio Silvia Pro X · Retailer perspective",
+      "kind": "text",
+      "context": "Rancilio Silvia Pro X · Retailer perspective"
+    },
+    {
+      "id": "fe6bc12524b4f20aef98d5d78118512e834846eb3f7f1f009c284abfd0160863",
+      "source": "Rancilio Silvia Pro X Coffee Machine Review",
+      "kind": "text",
+      "context": "Rancilio Silvia Pro X Coffee Machine Review"
+    },
+    {
+      "id": "494a5057a075ba0be7c32b1f618af75f09cfc8e83d81a2ac32c90a5b52491e80",
+      "source": "August 5, 2022",
+      "kind": "text",
+      "context": "August 5, 2022"
+    },
+    {
+      "id": "2a6df8b4d4fdf3d6d6085112f107c98cfacdb2a4b5f48cbb0490b88731759add",
+      "source": "Alternative Brewing presents Rancilio Silvia Pro X, covering espresso preparation, taste and brewing. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "text",
+      "context": "Alternative Brewing presents Rancilio Silvia Pro X, covering espresso preparation, taste and brewing. This is an equipment seller’s perspective; consider it alongside the other sources and our written review."
+    },
+    {
+      "id": "0f092cc6d6e6a1b5db8cefdff42a20cba1963efb3c7a7b381a106c2f5c4f8754",
+      "source": "Rancilio Silvia Pro X: Rancilio Silvia Pro X Coffee Machine Review · Alternative Brewing (2022-08-04) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "966717cece965dc07c9b59202ccc22a56895433dc7c4f5b66984c0242990e7bf",
+      "source": "Watch Alternative Brewing on Rancilio Silvia Pro X (2022-08-04): Rancilio Silvia Pro X Coffee Machine Review. Alternative Brewing presents Rancilio Silvia Pro X, covering espresso preparation, taste and brewing. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "6a19a8d03b6d9ec50ee65840c3d5158da1b50a694b8f562e6bb7cb39f45f6b14",
+      "source": "Rancilio Silvia Pro X Coffee Machine Review",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "212d96a60182ed1fe5d569003452a9bfab6b4ff1016c386cea6bb71bbb3440a6",
+      "source": "Alternative Brewing presents Rancilio Silvia Pro X, covering espresso preparation, taste and brewing. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "c2e64dc844bbb9ad1c459482efb61feceec761e36b416f6352843898f622cc85",
+      "source": "Rancilio Silvia Pro X: BEST HOME DUAL BOILER?: Rancilio Silvia X Pro Review · Lance Hedrick (2023-09-24) | Coffeedant",
+      "kind": "text",
+      "context": "Rancilio Silvia Pro X: BEST HOME DUAL BOILER?: Rancilio Silvia X Pro Review · Lance Hedrick (2023-09-24) | Coffeedant"
+    },
+    {
+      "id": "bb89006b0bd6e1c28ca854de609d5353f151f79bfaf916f0e850ab6f0d06abd4",
+      "source": "Watch Lance Hedrick on Rancilio Silvia Pro X (2023-09-24): BEST HOME DUAL BOILER?: Rancilio Silvia X Pro Review. Lance Hedrick presents Rancilio Silvia Pro X, covering milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "b2deb820f65b0412554ab4ffc1c2158226106a9292a30692bfdeb0c38f892bd9",
+      "source": "Rancilio Silvia Pro X: BEST HOME DUAL BOILER?: Rancilio Silvia X Pro Review · Lance Hedrick (2023-09-24) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "2dcceeeead9cab71fcd963910b65be7f77443ea557af817d12d954406438fac8",
+      "source": "Rancilio Silvia Pro X video by Lance Hedrick",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "653f1a8aa374a8dc8548ebc30adf52115767b066180b87a4f98ddc0cf1709e04",
+      "source": "BEST HOME DUAL BOILER?: Rancilio Silvia X Pro Review by Lance Hedrick",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "ad42414a21b92ac64e4dfdfbea181a514f4721316f080dd7ed85e10281a458c8",
+      "source": "Rancilio Silvia Pro X · Third-party perspective",
+      "kind": "text",
+      "context": "Rancilio Silvia Pro X · Third-party perspective"
+    },
+    {
+      "id": "6c57317988ff958ebbe45a219c428d864240a3bd5e358610bc75a5ee487f9887",
+      "source": "BEST HOME DUAL BOILER?: Rancilio Silvia X Pro Review",
+      "kind": "text",
+      "context": "BEST HOME DUAL BOILER?: Rancilio Silvia X Pro Review"
+    },
+    {
+      "id": "cf0d26294fe89a5a73d327e07d2187da8cc52f9aae77ec9978c977d120b21501",
+      "source": "September 24, 2023",
+      "kind": "text",
+      "context": "September 24, 2023"
+    },
+    {
+      "id": "02dcd42e03514c10f34d1add76766a8a8a5a8dd45e56af9042898f680e9c680a",
+      "source": "Lance Hedrick presents Rancilio Silvia Pro X, covering milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Lance Hedrick presents Rancilio Silvia Pro X, covering milk drinks. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "5b6946d51982f79ab29ceced08e7b768329b3b0c4dbcc13871dbcbac50fcbd57",
+      "source": "Rancilio Silvia Pro X: BEST HOME DUAL BOILER?: Rancilio Silvia X Pro Review · Lance Hedrick (2023-09-24) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "505f41747a5177c52d57bdd63b2b75663b9538e69b150890fb49926517f1cbba",
+      "source": "Watch Lance Hedrick on Rancilio Silvia Pro X (2023-09-24): BEST HOME DUAL BOILER?: Rancilio Silvia X Pro Review. Lance Hedrick presents Rancilio Silvia Pro X, covering milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "aa0930d2123e6407b09a266aed0cbd1bc12fa744f7d55d6efa2893393a21a545",
+      "source": "BEST HOME DUAL BOILER?: Rancilio Silvia X Pro Review",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "86c370cafcea360688621ec8ecbe47f0f77ad83abc2547caba9a0a19af2ddad5",
+      "source": "Lance Hedrick presents Rancilio Silvia Pro X, covering milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "a064e78322c491c9ac88e573c7ee16378d2530bb656b4f56f578510fa094cf07"
+}
