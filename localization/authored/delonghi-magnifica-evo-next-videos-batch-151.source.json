@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/delonghi-magnifica-evo-next/video/coffee-kev/",
+      "sourceHash": "44857625388e79ab94f66eaa5c75d696cee791b95d9c5913f3e99b92bc9743b3"
+    },
+    {
+      "sourcePath": "/espresso-machine/delonghi-magnifica-evo-next/video/toms-coffee-corner/",
+      "sourceHash": "539d36b9b53b3ce42c523defe8f43426e02e034dd789e9c7a0b3d4e51bc3812b"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "687800677801cdc7f8bdc3c3d4a6f437bb5469f637c94d6eb762df0c8c20951d",
+      "source": "NEW: Delonghi Magnifica Evo NEXT - Review and Test",
+      "kind": "text",
+      "context": "NEW: Delonghi Magnifica Evo NEXT - Review and Test"
+    },
+    {
+      "id": "80814febb8ece15acbd9f71df8c9bd39dec5fc8932c142636e228e88e6590611",
+      "source": "August 15, 2025",
+      "kind": "text",
+      "context": "August 15, 2025"
+    },
+    {
+      "id": "50f1788f19d2a2da94086f4ea13688be7e034ead383aa6b79605e45512ed974d",
+      "source": "Tom's Coffee Corner presents De'Longhi Magnifica Evo Next ECAM310.80.SB, covering espresso preparation, milk drinks, design and construction. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Tom's Coffee Corner presents De'Longhi Magnifica Evo Next ECAM310.80.SB, covering espresso preparation, milk drinks, design and construction. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "ffb37c70b0baece5c035c3de4bbd5e05759df45bd0c7c1e890b5fc1994cbe848",
+      "source": "De'Longhi Magnifica Evo Next ECAM310.80.SB",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "38674d360c07c09f42095e26b88b9320ad486ae72de96edde160d69452b5923c",
+      "source": "NEW: Delonghi Magnifica Evo NEXT - Review and Test",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "da03983dc0ff74412f67d43620ee64b067160c6c6d1fcb4ff512b6483f3559c2",
+      "source": "Tom's Coffee Corner presents De'Longhi Magnifica Evo Next ECAM310.80.SB, covering espresso preparation, milk drinks, design and construction. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "adfa0c5eace6d8070bf25cb6edadabe0b28aee9b2d0fbb049133294293e1b62e",
+      "source": "← De'Longhi Magnifica Evo Next ECAM310.80.SB review",
+      "kind": "text",
+      "context": "← De'Longhi Magnifica Evo Next ECAM310.80.SB review"
+    },
+    {
+      "id": "82e8443e62e6cacf549aa7ac53796a262643bbef3d284fd7460a589f5d2a63ab",
+      "source": "De'Longhi Magnifica Evo Next ECAM310.80.SB · Third-party perspective",
+      "kind": "text",
+      "context": "De'Longhi Magnifica Evo Next ECAM310.80.SB · Third-party perspective"
+    },
+    {
+      "id": "f5acd6e0f455da5cd41b0b1ccd5b085569c9e0d299f49e828f44dd5f9aab57aa",
+      "source": "De'Longhi Magnifica Evo Next ECAM310.80.SB: De'Longhi Magnifica Evo Next Review. Any Good? · Coffee Kev (2026-02-15) | Coffeedant",
+      "kind": "text",
+      "context": "De'Longhi Magnifica Evo Next ECAM310.80.SB: De'Longhi Magnifica Evo Next Review. Any Good? · Coffee Kev (2026-02-15) | Coffeedant"
+    },
+    {
+      "id": "2b6fef89f1f022a7fb45e85ff0d864624c818164d1d36ac18893a903a7451b9a",
+      "source": "Watch Coffee Kev on De'Longhi Magnifica Evo Next ECAM310.80.SB (2026-02-15): De'Longhi Magnifica Evo Next Review. Any Good?. Coffee Kev presents De'Longhi Magnifica Evo Next ECAM310.80.SB, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "baa0f35b78496141ad92e79b15daf6716d8a6a0098f477023b40c1691b3579fb",
+      "source": "De'Longhi Magnifica Evo Next ECAM310.80.SB: De'Longhi Magnifica Evo Next Review. Any Good? · Coffee Kev (2026-02-15) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "e647037aac7bfb7968243ed19fcc1b8465d716ed9fe4cb7e354fe500860240b3",
+      "source": "De'Longhi Magnifica Evo Next ECAM310.80.SB video by Coffee Kev",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "650206168567d8dd76e227eaef97dcdcb0a9618afd17a04424002aa47580bf4e",
+      "source": "De'Longhi Magnifica Evo Next Review. Any Good? by Coffee Kev",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "fecb59b6de858fa2543b49397e8dcb4caa97a85b1d6f87c55ff99b22cd3b5123",
+      "source": "De'Longhi Magnifica Evo Next Review. Any Good?",
+      "kind": "text",
+      "context": "De'Longhi Magnifica Evo Next Review. Any Good?"
+    },
+    {
+      "id": "c97e841d3cecc372d67451638e80670a6b6e0b241c0214333307c02a96b213f8",
+      "source": "February 15, 2026",
+      "kind": "text",
+      "context": "February 15, 2026"
+    },
+    {
+      "id": "b4baa3a6901fd25300d233867d565109cbded8cb08c20624c03010e7182cee2d",
+      "source": "Coffee Kev presents De'Longhi Magnifica Evo Next ECAM310.80.SB, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Coffee Kev presents De'Longhi Magnifica Evo Next ECAM310.80.SB, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "299b6d1e481a90d9c714d63526d9c22196599837355c387b8beb6c164599ac7c",
+      "source": "De'Longhi Magnifica Evo Next ECAM310.80.SB: De'Longhi Magnifica Evo Next Review. Any Good? · Coffee Kev (2026-02-15) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "108ed818e8854758693b5aa6d71ece36894d90967a7824a20607d91920a34596",
+      "source": "Watch Coffee Kev on De'Longhi Magnifica Evo Next ECAM310.80.SB (2026-02-15): De'Longhi Magnifica Evo Next Review. Any Good?. Coffee Kev presents De'Longhi Magnifica Evo Next ECAM310.80.SB, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "4a875ccf2da76d2665d155ef58d578755ead4e5953e69f27706f3ef865ceccc4",
+      "source": "De'Longhi Magnifica Evo Next ECAM310.80.SB video by Coffee Kev",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "ec7d51e5bb4bc17984527fc2ef67555203b63d5441d2fe1a443802082656ed92",
+      "source": "De'Longhi Magnifica Evo Next Review. Any Good?",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "a50c707925f20de9f94d8d48cf5f81fa84c6a0df89c959fe5f7d3af25bfe9558",
+      "source": "Coffee Kev presents De'Longhi Magnifica Evo Next ECAM310.80.SB, covering espresso preparation, milk drinks. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "ba04ce389a698cf93418afd7127af0fdae3e0345d7cdcf6902d76c35160d3f0a",
+      "source": "De'Longhi Magnifica Evo Next ECAM310.80.SB: NEW: Delonghi Magnifica Evo NEXT - Review and Test · Tom's Coffee Corner (2025-08-15) | Coffeedant",
+      "kind": "text",
+      "context": "De'Longhi Magnifica Evo Next ECAM310.80.SB: NEW: Delonghi Magnifica Evo NEXT - Review and Test · Tom's Coffee Corner (2025-08-15) | Coffeedant"
+    },
+    {
+      "id": "22250482ba9ca0324667219841037ce1bdee060e71b3bbe412703edb982654f6",
+      "source": "Watch Tom's Coffee Corner on De'Longhi Magnifica Evo Next ECAM310.80.SB (2025-08-15): NEW: Delonghi Magnifica Evo NEXT - Review and Test. Tom's Coffee Corner presents De'Longhi Magnifica Evo Next ECAM310.80.SB, covering espresso preparation, milk drinks, design and construction. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "59ea650af8db93effc367ffa715cf9e2321b87e3ec967a5c954921a3c3b5144e",
+      "source": "De'Longhi Magnifica Evo Next ECAM310.80.SB: NEW: Delonghi Magnifica Evo NEXT - Review and Test · Tom's Coffee Corner (2025-08-15) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "9bfb2fecff0f4d1b4de64f818eb775cca47596a3e816b6e8f474cb60f1bff689",
+      "source": "De'Longhi Magnifica Evo Next ECAM310.80.SB video by Tom's Coffee Corner",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "f478e5a49c4f488b12482633069a4dbe9e1000745673aaddcb5eac0c0113bb7a",
+      "source": "NEW: Delonghi Magnifica Evo NEXT - Review and Test by Tom's Coffee Corner",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "d7a313468d6e033d4bd624615e7b415316716ecf25d6b4ed07735e8a215852f8",
+      "source": "De'Longhi Magnifica Evo Next ECAM310.80.SB: NEW: Delonghi Magnifica Evo NEXT - Review and Test · Tom's Coffee Corner (2025-08-15) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "2dae3486001e8f9cd337e53c73795bb82c29b21922a667bfcf70625b318f2703",
+      "source": "Watch Tom's Coffee Corner on De'Longhi Magnifica Evo Next ECAM310.80.SB (2025-08-15): NEW: Delonghi Magnifica Evo NEXT - Review and Test. Tom's Coffee Corner presents De'Longhi Magnifica Evo Next ECAM310.80.SB, covering espresso preparation, milk drinks, design and construction. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "c9541bd6a609b6617e1fd4147ef0d15e81403b618323e01e50192da89be2252a",
+      "source": "De'Longhi Magnifica Evo Next ECAM310.80.SB video by Tom's Coffee Corner",
+      "kind": "json",
+      "context": "caption"
+    }
+  ],
+  "snapshotHash": "c5bbf4260879d54cb9a6a82c509205138729c0fa2c8af9cae2fbcc7fd159e7f4"
+}
