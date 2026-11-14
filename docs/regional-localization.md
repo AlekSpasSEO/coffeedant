@@ -5424,6 +5424,19 @@ Coverage is NL 18,293 translated and 42,714 pending, DE 18,486 translated and
 42,521 pending, and FR 18,153 translated and 42,854 pending. Finder translation
 coverage is complete. NL has 420 pages left and DE and FR have 421 each.
 
+### Direct batch 148 — iDrinkCoffeeCanada Quick Mill video companions (2026-11-14)
+
+Complete the Quick Mill QM67 Evo and Quick Mill Vetrano 2B Evo companions
+in Dutch, German and French. Preserve the original embeds, dates, iDrinkCoffee.com
+title attribution and the limits of the retailer demonstrations. The
+written reviews open in English while their translations are pending.
+
+The source has 699 pages and 61,007 segments. NL can render 280 indexable
+pages and DE and FR can render 279 each, plus a localized 404 for each edition.
+Coverage is NL 18,323 translated and 42,684 pending, DE 18,516 translated and
+42,491 pending, and FR 18,183 translated and 42,824 pending. Finder translation
+coverage is complete. NL has 418 pages left and DE and FR have 419 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
