@@ -5502,6 +5502,20 @@ Coverage is NL 18,473 translated and 42,534 pending, DE 18,651 translated and
 42,356 pending, and FR 18,333 translated and 42,674 pending. Finder translation
 coverage is complete. NL has 408 pages left and DE and FR have 409 each.
 
+### Direct batch 154 — Breville Dual Boiler video companions (2026-11-14)
+
+Complete the Lance Hedrick and Tom's Coffee Corner companions for the
+Breville Dual Boiler BES920XL in Dutch, German and French. Preserve the
+original videos, dates, creator attribution, Sage branding in Tom's title
+and his affiliate disclosure. The written review opens in English while
+its translations are pending.
+
+The source has 699 pages and 61,007 segments. NL can render 292 indexable
+pages and DE and FR can render 291 each, plus a localized 404 for each edition.
+Coverage is NL 18,503 translated and 42,504 pending, DE 18,681 translated and
+42,326 pending, and FR 18,363 translated and 42,644 pending. Finder translation
+coverage is complete. NL has 406 pages left and DE and FR have 407 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
