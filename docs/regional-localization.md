@@ -5463,6 +5463,19 @@ Coverage is NL 18,382 translated and 42,625 pending, DE 18,560 translated and
 42,447 pending, and FR 18,242 translated and 42,765 pending. Finder translation
 coverage is complete. NL has 414 pages left and DE and FR have 415 each.
 
+### Direct batch 151 — De'Longhi Magnifica Evo Next video companions (2026-11-14)
+
+Complete the Coffee Kev and Tom's Coffee Corner companions for the De'Longhi
+Magnifica Evo Next ECAM310.80.SB in Dutch, German and French. Preserve the
+original embeds, dates, creator attribution and Tom's affiliate disclosure.
+The written review opens in English while its translations are pending.
+
+The source has 699 pages and 61,007 segments. NL can render 286 indexable
+pages and DE and FR can render 285 each, plus a localized 404 for each edition.
+Coverage is NL 18,412 translated and 42,595 pending, DE 18,590 translated and
+42,417 pending, and FR 18,272 translated and 42,735 pending. Finder translation
+coverage is complete. NL has 412 pages left and DE and FR have 413 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
