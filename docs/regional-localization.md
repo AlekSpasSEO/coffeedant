@@ -5584,6 +5584,20 @@ Coverage is NL 18,655 translated and 42,352 pending, DE 18,833 translated and
 42,174 pending, and FR 18,515 translated and 42,492 pending. Finder translation
 coverage is complete. NL has 396 pages left and DE and FR have 397 each.
 
+### Direct batch 160 - La Pavoni Mini Cellini video companions (2026-11-14)
+
+Complete both Alternative Brewing video pages in Dutch, German and French.
+Preserve the existing URLs, original videos, dates, creator credits and
+retailer disclosures. The first video points readers to the LPSMCS01EU
+documents for the exact EU model and specifications. The written review
+opens in English with a localized edition notice.
+
+The source has 699 pages and 61,007 segments. NL can render 304 indexable
+pages and DE and FR can render 303 each, plus a localized 404 for each edition.
+Coverage is NL 18,680 translated and 42,327 pending, DE 18,858 translated and
+42,149 pending, and FR 18,540 translated and 42,467 pending. Finder translation
+coverage is complete. NL has 394 pages left and DE and FR have 395 each.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
