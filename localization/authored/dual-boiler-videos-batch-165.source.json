@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/lelit-elizabeth/video/lance-hedrick/",
+      "sourceHash": "42d6de1e7cdec8abc0610f3da929a2d7f451184347daa6b0a7068529c0d584ec"
+    },
+    {
+      "sourcePath": "/espresso-machine/rancilio-silvia-pro-x/video/seattle-coffee-gear/",
+      "sourceHash": "b823e1bd1ea3f9557223bebf7f2dfb7512eb40371d01fd6fd95e0621436360db"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "e5d22649df58634af7fc4adff2247f280aaaac5a0de96107f91a80ac01b7f59c",
+      "source": "Dual Boiler? Look no Further",
+      "kind": "text",
+      "context": "Dual Boiler? Look no Further"
+    },
+    {
+      "id": "b02a6195eb4aa36c7b83fdb8fefae7a34967a98bc02ae682fb1b67276c042359",
+      "source": "May 19, 2025",
+      "kind": "text",
+      "context": "May 19, 2025"
+    },
+    {
+      "id": "e86746ce4db8ee13bb05b9c1f1c115006fb831656a2cc2ff8b20e9a83d52f68d",
+      "source": "A detailed independent PL92T review covering extraction controls, steaming and value. Results and cup judgments belong to the creator’s setup, not a Coffeedant test.",
+      "kind": "text",
+      "context": "A detailed independent PL92T review covering extraction controls, steaming and value. Results and cup judgments belong to the creator’s setup, not a Coffeedant test."
+    },
+    {
+      "id": "25006f1e6dab2649dbc27fe6c4d580b532f0cfe97ebfbda152bea7f281b14d59",
+      "source": "Dual Boiler? Look no Further",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "5d67feebfe67441f9b520dae0ded4166ac644d55f09745f64ecd97ac0b030f25",
+      "source": "A detailed independent PL92T review covering extraction controls, steaming and value. Results and cup judgments belong to the creator’s setup, not a Coffeedant test.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "00c75cba60073a622f8ea52d1a142a304932fd57e1524fb1f5f0981d14827868",
+      "source": "Lelit Elizabeth PL92T: Dual Boiler? Look no Further · Lance Hedrick (2025-05-19) | Coffeedant",
+      "kind": "text",
+      "context": "Lelit Elizabeth PL92T: Dual Boiler? Look no Further · Lance Hedrick (2025-05-19) | Coffeedant"
+    },
+    {
+      "id": "9703de82ca632faf137de757b482fdf04a9598e79bc21d915d108a786792dd12",
+      "source": "Watch Lance Hedrick on Lelit Elizabeth PL92T (2025-05-19): Dual Boiler? Look no Further. A detailed independent PL92T review covering extraction controls, steaming and value. Results and cup judgments belong to the creator’s setup, not a Coffeedant test.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "60b643c40da9d70deb13857f4c2841368d01baf41e11bc248262fd7dcef0d446",
+      "source": "Lelit Elizabeth PL92T: Dual Boiler? Look no Further · Lance Hedrick (2025-05-19) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "4782c70c2b6d3c6ab32abc9519846602ef47360c8df97748fb1cf77a0a53f391",
+      "source": "Lelit Elizabeth PL92T video by Lance Hedrick",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "8e81b6ac4a359b32bab1286717077b9a07ec68331777c6c48eccaab39ea022d6",
+      "source": "← Lelit Elizabeth PL92T review",
+      "kind": "text",
+      "context": "← Lelit Elizabeth PL92T review"
+    },
+    {
+      "id": "419bbed8477ab276d102745c0a1431cc7fce64477453822a0d34c06408eabe7b",
+      "source": "Dual Boiler? Look no Further by Lance Hedrick",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "1ac4a391108634ebf122336d28f499e3e69f7dc531cfdcad0ffb086dbe2fc738",
+      "source": "Lelit Elizabeth PL92T · Third-party perspective",
+      "kind": "text",
+      "context": "Lelit Elizabeth PL92T · Third-party perspective"
+    },
+    {
+      "id": "a041474a015e31856e5a595df71cefa041b65040f6383a45844537c56eeaa32c",
+      "source": "Lelit Elizabeth PL92T: Dual Boiler? Look no Further · Lance Hedrick (2025-05-19) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "0e4f6ba0c69283486a42d1a0f01394c316f2510f3b38336ede86701870906978",
+      "source": "Watch Lance Hedrick on Lelit Elizabeth PL92T (2025-05-19): Dual Boiler? Look no Further. A detailed independent PL92T review covering extraction controls, steaming and value. Results and cup judgments belong to the creator’s setup, not a Coffeedant test.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "8d8fec5e5e5861c62ef8bb62b03ae3b769a0c700755ffde00646aabfc24ea084",
+      "source": "Lelit Elizabeth PL92T video by Lance Hedrick",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "731d5a836fb0d44f0a26a76980522c189c8ca80ee31308c8a5fe98679b17d44c",
+      "source": "Rancilio Silvia Pro X Espresso Machine | Crew Review",
+      "kind": "text",
+      "context": "Rancilio Silvia Pro X Espresso Machine | Crew Review"
+    },
+    {
+      "id": "d2178787dd1f3d78d862383c2657e71ead63332c9094a43ea43ff61d37aef24c",
+      "source": "Unique exact-model independent retailer demonstration covering controls, setup and drink workflow. It is not Coffeedant testing, a current-price record or a controlled performance benchmark.",
+      "kind": "text",
+      "context": "Unique exact-model independent retailer demonstration covering controls, setup and drink workflow. It is not Coffeedant testing, a current-price record or a controlled performance benchmark."
+    },
+    {
+      "id": "4241c8ade128c32781847373c1a47c133eff688141e93e4ff7b25bd36f4147b0",
+      "source": "Rancilio Silvia Pro X Espresso Machine | Crew Review",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "2721a199455bf0d956124148a465fee7621be8ac0152ee2b8a5b6bb424c8a455",
+      "source": "Unique exact-model independent retailer demonstration covering controls, setup and drink workflow. It is not Coffeedant testing, a current-price record or a controlled performance benchmark.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "b130ed3a46a852a30d926ccd78c34b95e2284bc4fdda99c735387baa60746d69",
+      "source": "Rancilio Silvia Pro X: Rancilio Silvia Pro X Espresso Machine | Crew Review · Seattle Coffee Gear (2021-12-29) | Coffeedant",
+      "kind": "text",
+      "context": "Rancilio Silvia Pro X: Rancilio Silvia Pro X Espresso Machine | Crew Review · Seattle Coffee Gear (2021-12-29) | Coffeedant"
+    },
+    {
+      "id": "3f1a1477351029aa6c659c385a7844c2b68abab1edff116889feb973b40317e8",
+      "source": "Watch Seattle Coffee Gear on Rancilio Silvia Pro X (2021-12-29): Rancilio Silvia Pro X Espresso Machine | Crew Review. Unique exact-model independent retailer demonstration covering controls, setup and drink workflow. It is not Coffeedant testing, a current-price record or a controlled performance benchmark.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "e5dbb00528bff37a32c378b93af28230c74c5f7fb68a4a7149eac2c2ac740168",
+      "source": "Rancilio Silvia Pro X: Rancilio Silvia Pro X Espresso Machine | Crew Review · Seattle Coffee Gear (2021-12-29) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "efe5fae37fcbfea1abb7e98aaa1916edfefc1d432fade8ddc35bcb811973995b",
+      "source": "Rancilio Silvia Pro X video by Seattle Coffee Gear",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "3179071b2a104aa2c220a9f33bbcbec1ed77c6fcdef26d40c2b03be8dcfba14a",
+      "source": "Rancilio Silvia Pro X Espresso Machine | Crew Review by Seattle Coffee Gear",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "f087b859db2d6ecb8395f15ef5fe9b89c26e8bab4fc0bcf70abbfc0980046414",
+      "source": "December 30, 2021",
+      "kind": "text",
+      "context": "December 30, 2021"
+    },
+    {
+      "id": "5f3ee41c702cda144ed54c4a10daac8c74e59194c8073de030ff85852bbe173b",
+      "source": "Rancilio Silvia Pro X: Rancilio Silvia Pro X Espresso Machine | Crew Review · Seattle Coffee Gear (2021-12-29) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "bacdca4f4dd5d23fb96e01d50c7e83f3dd8b146b207dce4eeee0e46d80db8813",
+      "source": "Watch Seattle Coffee Gear on Rancilio Silvia Pro X (2021-12-29): Rancilio Silvia Pro X Espresso Machine | Crew Review. Unique exact-model independent retailer demonstration covering controls, setup and drink workflow. It is not Coffeedant testing, a current-price record or a controlled performance benchmark.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "52c10c39fcd9594a9efc49efbe7ee639c1c0810eabdf8379413b59928e60973a",
+      "source": "Rancilio Silvia Pro X video by Seattle Coffee Gear",
+      "kind": "json",
+      "context": "caption"
+    }
+  ],
+  "snapshotHash": "2d5ff3332862bbf8b7bb14233f9d1832beb47473f5c6d5e00802ed6130fe5b8e"
+}

@@ -5653,6 +5653,21 @@ Coverage is NL 18,887 translated and 41,188 pending, DE 19,133 translated and
 40,942 pending, and FR 18,724 translated and 41,351 pending. Finder translation
 coverage is complete. NL and DE have 387 pages left each, and FR has 388.
 
+### Direct batch 165 - Elizabeth and Silvia Pro X videos (2026-11-17)
+
+Complete the Lance Hedrick Lelit Elizabeth PL92T video and Seattle Coffee Gear
+Rancilio Silvia Pro X video pages in Dutch, German and French. Preserve the
+original embeds, source dates, creator attribution and evidence limitations.
+The written reviews open in English with localized edition notices. Existing
+Dutch and German URLs remain stable. New French routes and the new Dutch
+Seattle Coffee Gear route follow their regional espresso-machine paths.
+
+The source has 699 pages and 60,075 segments. NL and DE can render 313
+indexable pages each, and FR can render 312. Each edition has a localized 404.
+Coverage is NL 18,915 translated and 41,160 pending, DE 19,161 translated and
+40,914 pending, and FR 18,752 translated and 41,323 pending. Finder translation
+coverage is complete. NL and DE have 385 pages left each, and FR has 386.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
