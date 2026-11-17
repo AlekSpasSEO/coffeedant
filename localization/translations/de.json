@@ -136057,6 +136057,580 @@
       "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
       "provider": "codex-direct",
       "authoredFile": "localization/authored/rancilio-finder-batch-162.json"
+    },
+    "cc926102ea7dd53ccd321a1fa4a7ec80d273fe28cb2383a37e38c59de77797ea": {
+      "source": "Buy the Steel Duo PID if you regularly make two or more milk drinks, want to brew and steam together, and have the circuit required by your exact model. Ascaso USA specifies a 20 A circuit for the U.S. version reviewed here.",
+      "text": "Kaufen Sie die Steel Duo PID, wenn Sie regelmäßig zwei oder mehr Milchgetränke zubereiten, gleichzeitig brühen und dampfen möchten und über den für Ihr genaues Modell erforderlichen Stromkreis verfügen. Ascaso USA gibt für die hier besprochene US-Ausführung einen Stromkreis mit 20 A vor.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "c265e264901038b0a3231e031008d81dd9aaed8e0fc23ce8931e1a0bd0e1089b": {
+      "source": "Two or more milk drinks in the same session",
+      "text": "Zwei oder mehr Milchgetränke in einer Runde",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "3323b7ebdd7248620e18db8373079b850ae8dcd9928c1b66eb7757c05efa4a1a": {
+      "source": "Steel Duo PID workflow diagram showing separate thermoblocks for brewing and steam",
+      "text": "Schema der Steel Duo PID mit getrennten Thermoblöcken zum Brühen und Dampfen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "9892488de67b9d1ac231b526fa7bc28450d4e7f0e1ba73dbeea54d8c35098f74": {
+      "source": "Choose the Steel Uno PID if you mostly drink espresso and want control over temperature and shot volume. One heater means you pull the shot before steaming milk.",
+      "text": "Wählen Sie die Steel Uno PID, wenn Sie vor allem Espresso trinken und Temperatur und Bezugsmenge einstellen möchten. Mit einem Heizelement beziehen Sie zuerst den Espresso und schäumen danach die Milch auf.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "b9bb93d775b841270e56198726afff74ab1626525acdf086d1f440c9aa5f355a": {
+      "source": "Mostly espresso, with the occasional milk drink",
+      "text": "Vor allem Espresso und gelegentlich ein Milchgetränk",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "8126fba327756f34ad027a16d4441f2b1286e3874ac6480364844c1934f6a4d0": {
+      "source": "Steel Uno PID workflow diagram with one thermoblock and two steps: brew, then steam",
+      "text": "Ablaufschema der Steel Uno PID mit einem Thermoblock und zwei Schritten: erst brühen, dann dampfen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "f191bc6a6a586a2359b265785eb1899df48488808a395dc6b094942cf3d1e0a0": {
+      "source": "Ascaso Steel Uno vs. Duo PID | Coffeedant",
+      "text": "Ascaso Steel Uno und Duo PID im Vergleich | Coffeedant",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "4f196a55efb5e9ff27c3a519bbfc416f221bb20d196b2df4daa371ef051dc6ac": {
+      "source": "Compare the Ascaso Steel Uno and Steel Duo PID by milk workflow, U.S. circuit requirements, counter space and what to confirm before buying.",
+      "text": "Vergleichen Sie die Ascaso Steel Uno und Steel Duo PID nach Milchzubereitung, Anforderungen an den US-Stromkreis, Platzbedarf und den Angaben, die Sie vor dem Kauf prüfen sollten.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "e24d3d7b47bf12cd58f1d1ea89898ed3fd6f876bf871537822451955379140e9": {
+      "source": "Ascaso Steel Uno vs. Duo PID | Coffeedant",
+      "text": "Ascaso Steel Uno und Duo PID im Vergleich | Coffeedant",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "840ba088771d90a9cd0661f029dc771005ea56a00a91de9ab7364d21f3542df6": {
+      "source": "Comparison diagram showing the shared heater on the Steel Uno and the two independent heaters on the Steel Duo",
+      "text": "Vergleichsschema mit dem gemeinsamen Heizelement der Steel Uno und den zwei unabhängigen Heizelementen der Steel Duo",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "c285bd945c8f3bd91574ac37f7144d5a67aad4df38812c6f3f208ed117f2102f": {
+      "source": "Ascaso Steel Uno vs. Steel Duo PID",
+      "text": "Ascaso Steel Uno und Steel Duo PID im Vergleich",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "99027a96de22663e617a0914e3bb451b4b628725bfdcf742444f1bcebfcca46b": {
+      "source": "The Uno gives you adjustable temperature and programmable shots with one heater.",
+      "text": "Die Uno bietet mit einem Heizelement eine einstellbare Temperatur und programmierbare Bezüge.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "9b1cc9e6db8a83799b0e795d21b8862ef65c33ada755451c324af5d1ddccd53d": {
+      "source": "The Duo can brew and steam at the same time. Check the circuit before buying the U.S. model reviewed here.",
+      "text": "Mit der Duo können Sie gleichzeitig brühen und dampfen. Prüfen Sie den Stromkreis, bevor Sie das hier besprochene US-Modell kaufen.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "d641e560782587ed437b670ba979cd59426b773f5806fcb4680947961db52126": {
+      "source": "Comparison diagram showing the shared heater on the Steel Uno and the two independent heaters on the Steel Duo",
+      "text": "Vergleichsschema mit dem gemeinsamen Heizelement der Steel Uno und den zwei unabhängigen Heizelementen der Steel Duo",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "2e5889b196f1eaad845ef0ce78e2c4261221210e1c25f3bbd0458b17dbc1864c": {
+      "source": "Coffeedant diagram based on Ascaso specifications.",
+      "text": "Schematische Darstellung von Coffeedant nach den Angaben von Ascaso.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "2ec151f3ebd926218ff71296f958eed7e283a5581b9c4403764b3129ee28a6a9": {
+      "source": "Which Steel fits your routine?",
+      "text": "Welche Steel passt zu Ihrem Alltag?",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "8fd0a6a8ad41502f1abef0e1db77e334538aa9409391fc5ac4a3b17ada1a2117": {
+      "source": "The two reviewed PID models. Confirm the electrical rating of the exact unit you plan to buy.",
+      "text": "Die beiden besprochenen PID-Modelle. Prüfen Sie die elektrischen Nenndaten des Geräts, das Sie kaufen möchten.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "19ac408feb70deef7b568ca0e5808e211692dd412449761eaae2aebac14e4546": {
+      "source": "Mostly espresso, with the occasional milk drink",
+      "text": "Vor allem Espresso und gelegentlich ein Milchgetränk",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "17a6b184a344da9353a2415148dcd1bb0b99771e6f2245f39fa303695b968a33": {
+      "source": "Two or more milk drinks in the same session",
+      "text": "Zwei oder mehr Milchgetränke in einer Runde",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "a676cb024864c7025a3185fe2bcb89e6705cff0e399312f1ae9928206ae4aa5e": {
+      "source": "Heating system",
+      "text": "Heizsystem",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "4014050bd386cd29ee9383d788f954c0f79e57a24e7378311f5036e80f923de5": {
+      "source": "One thermoblock shared by brewing and steaming",
+      "text": "Ein Thermoblock für Brühen und Dampf",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "2240e5c9d49ccb7ab7ccce6afa55209106b2ab9ecbf64073b8318ef20b9f84b5": {
+      "source": "Separate thermoblocks for brewing and steam",
+      "text": "Getrennte Thermoblöcke für Brühen und Dampf",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "87a4430e5b6194920e33b82639afff6a4504fe09eead94321bf7b14ca83f8ce1": {
+      "source": "Pull the espresso, then switch to steam",
+      "text": "Zuerst Espresso beziehen, dann auf Dampf umschalten",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "910beb5aeb4991db07631125ff2171b20fdf11ec1431e6b1879f90012fb62292": {
+      "source": "Brew and steam at the same time when both are ready",
+      "text": "Gleichzeitig brühen und dampfen, sobald beide Thermoblöcke bereit sind",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "15bbbe46cb456d460a51f74561b7a97ac0f71c8c045ddfd72dbfbff80d5b8fa1": {
+      "source": "U.S. power",
+      "text": "Stromversorgung (USA)",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "9950867b6d10aefefc93b828a3b3a0941db37220754f84f81ce4b05b3677d7b0": {
+      "source": "U.S. reference model: 120 V, standard 15 A outlet",
+      "text": "US-Referenzmodell: 120 V, Standardsteckdose mit 15 A",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "ddf226bcf16fb52864e15ce0813535db05e9a22b4e800f4dd1c859adbf8fd40a": {
+      "source": "U.S. version reviewed: 120 V, 20 A circuit, NEMA 5-20 plug",
+      "text": "Besprochene US-Ausführung: 120 V, Stromkreis mit 20 A, NEMA 5-20-Stecker",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "9b8f258673d3420ac8df93a138c8793d88a88169a54babea1aac7b60e3be1e64": {
+      "source": "Before buying",
+      "text": "Vor dem Kauf",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "3e757dae35c9681b4c58967a87b8245f49f6673d53b88b6e6a68eb7e494a88fc": {
+      "source": "The verified U.S. listing is refurbished. Ask Ascaso about new stock.",
+      "text": "Das geprüfte US-Angebot betrifft ein generalüberholtes Gerät. Fragen Sie Ascaso nach dem Bestand an Neugeräten.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "02656536af59eaae63392d320fa6841a16998b2a85aadea2c73f38da4be5b8ce": {
+      "source": "Confirm the revision, plug, and accessories with the seller.",
+      "text": "Klären Sie die Revision, den Stecker und das Zubehör mit dem Händler.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "d06b94870cf0747cbccc2b22b74f153a4cf9c795e1568f535cf3607899f8e6ea": {
+      "source": "Read the Steel Uno PID review",
+      "text": "Testbericht zur Steel Uno PID lesen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "761c026fae3d8bb6b912e430239ebbe32bcb3ca963648db92ee44c4e96ecb371": {
+      "source": "Read the Steel Duo PID review",
+      "text": "Testbericht zur Steel Duo PID lesen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "36dad533375081fc02d2139cc5abd2988bedf518531fd768585f819e4b19d70d": {
+      "source": "What to check before ordering",
+      "text": "Was Sie vor der Bestellung prüfen sollten",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "b38209dc7147532542b23865bb3a664683bb2e6ee97578d09da39dc37c6b28ae": {
+      "source": "Reserve space beside the machine.",
+      "text": "Lassen Sie Platz neben der Maschine.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "cb373597fe59928cd71908bcb4b7d9f0a932b09423b13acd1373ee038dfc1554": {
+      "source": "Ascaso lists a chassis depth of about 12.4 inches for both. Leave room at the side for the water tank and in front for the portafilter and a scale.",
+      "text": "Ascaso gibt für beide Maschinen eine Gehäusetiefe von etwa 12.4 Zoll an. Lassen Sie seitlich Platz für den Wassertank und vorne für den Siebträger und eine Waage.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "c1ec0413cd357efc6e244b85f9824a2ae9a4fa1d7faff03f761ed597c17a6087": {
+      "source": "Budget for the full setup.",
+      "text": "Planen Sie das Budget für die gesamte Ausstattung.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "cf96b737173690a7a02c7464d8ee75124d17464163215f2a08564769dc5239b5": {
+      "source": "Both use a 58 mm portafilter. Add an",
+      "text": "Beide verwenden einen 58-mm-Siebträger. Ergänzen Sie eine",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "ab64e7fc7ce054ff81d25928b1b28129d63135b68eed66e7b736b59c2f82fd17": {
+      "source": "espresso-capable grinder",
+      "text": "für Espresso geeignete Mühle",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "2383511f3ea7159a60f3305fc3b9fc220e51b3671a57a0a6c3925b60cc66764e": {
+      "source": "for whole beans, a scale, water suited to the machine, and a pitcher if you make milk drinks.",
+      "text": "für ganze Bohnen, eine Waage, für die Maschine geeignetes Wasser und bei Milchgetränken ein Milchkännchen.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "91c8b1bb367b2085c435938901fcb544478cf12ab241e14afd4aca26d0f2a802": {
+      "source": "Confirm the exact unit.",
+      "text": "Prüfen Sie das konkrete Gerät.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "9458ab4955b57687030af49ddd0f9f1b41a11580e18afcc32345a1585c09d810": {
+      "source": "Get the voltage, plug, revision, accessories and service terms from the seller. Ascaso Canada lists separate 15 A and 20 A Duo versions.",
+      "text": "Erfragen Sie beim Händler Spannung, Stecker, Revision, Zubehör und Servicebedingungen. Ascaso Canada führt getrennte Duo-Ausführungen mit 15 A und 20 A auf.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "03351166b2192f69ba9f8112b46d8f1437de634c6600b8d8fd8f3f8d41675656": {
+      "source": "If you can’t find the Uno, compare the",
+      "text": "Wenn Sie die Uno nicht finden, vergleichen Sie sie mit der",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "1fbcccc00583b41d33f27f2cd70686bfb0e7645d0e1029e26b39a13e588a9471": {
+      "source": "for an espresso-first setup. For more options, use the",
+      "text": "für eine Ausstattung, mit der Sie vor allem Espresso zubereiten. Nutzen Sie für weitere Optionen den",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "b8a574d8c11adb13c12da43d324fc73f11c1b1d2affb6bcd077af6878c4370eb": {
+      "source": "espresso machine finder",
+      "text": "Espressomaschinen-Finder",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "7b91180b7725adde0e89d284216ada069a7b2808d08d2205d72efbafeffc4fe9": {
+      "source": "Coffeedant compared the documented features and third-party demonstrations. See",
+      "text": "Coffeedant verglich die dokumentierten Merkmale und Vorführungen von Dritten. Siehe",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "80ce91161f4e1eefc45b8501043e7d11a30376a25b57d6a3f8548a5d3a4d9443": {
+      "source": "Ascaso’s Steel specifications and photos",
+      "text": "die Spezifikationen und Fotos zur Steel von Ascaso",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "ecd9f47eacb1b93a319b66c578e38d45023fb4032eae5d513303d0cb546fa336": {
+      "source": ", the",
+      "text": ", die",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "eb872b50e0c8e0755ea4128819e6b2b60044c6519d6842697b0e99b76a27d9c0": {
+      "source": "U.S. Duo specifications",
+      "text": "US-Spezifikationen der Duo",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "f1b68d99e4e30e313b859bf7be02bf9d0af035dcfd7747da629560e0dbf91ce7": {
+      "source": "Canadian Duo specifications",
+      "text": "kanadischen Spezifikationen der Duo",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "67d0db4b2830828c5f1477a0204b52b2cfa625824837dc2e3a4bd6cd91604a8d": {
+      "source": ", and",
+      "text": "und",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "dcbf513b0a3daef3fd41182ed223d28f8082b3f8904e3e64e052771858fe09f7": {
+      "source": "Comparison diagram showing the shared heater on the Steel Uno and the two independent heaters on the Steel Duo",
+      "text": "Vergleichsschema mit dem gemeinsamen Heizelement der Steel Uno und den zwei unabhängigen Heizelementen der Steel Duo",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "b9339ea6ea37df31a66ec9301f309ae4ed50f4bd543ee65dec900fdbd803ea99": {
+      "source": "Coffeedant diagram based on Ascaso specifications.",
+      "text": "Schematische Darstellung von Coffeedant nach den Angaben von Ascaso.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "58ed9ff8987a3a23775d81ac78b87b09f814e8faa0a507951c2ebc1852dfd7e0": {
+      "source": "Ascaso Steel Uno vs. Duo PID | Coffeedant",
+      "text": "Ascaso Steel Uno und Duo PID im Vergleich | Coffeedant",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "c7faf6203b4339eff9af1b2a48b689adbdc6bd56938556bba1e881d0fdec81bc": {
+      "source": "Compare the Ascaso Steel Uno and Steel Duo PID by milk workflow, U.S. circuit requirements, counter space and what to confirm before buying.",
+      "text": "Vergleichen Sie die Ascaso Steel Uno und Steel Duo PID nach Milchzubereitung, Anforderungen an den US-Stromkreis, Platzbedarf und den Angaben, die Sie vor dem Kauf prüfen sollten.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "cf52417b55fc6a8d113c42f0b7a2288e5ba4587b36c237712d8cdbec0ea8f538": {
+      "source": "Ascaso Steel Uno vs. Steel Duo PID",
+      "text": "Ascaso Steel Uno und Steel Duo PID im Vergleich",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "8400faa380a3da5b20c9ff4f703a001a8bb47d1faa28e4a30b2c4baee7a2a8ae": {
+      "source": "Steel Duo PID workflow diagram showing separate thermoblocks for brewing and steam",
+      "text": "Schema der Steel Duo PID mit getrennten Thermoblöcken zum Brühen und Dampfen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "01953e5a9a62980485618748e980e6352c3e5078d8684d11b69b897474bd218b": {
+      "source": "Steel Uno PID workflow diagram with one thermoblock and two steps: brew, then steam",
+      "text": "Ablaufschema der Steel Uno PID mit einem Thermoblock und zwei Schritten: erst brühen, dann dampfen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "a8c1156851045ed8933d760849a01fdfbadd56e95f43ccdbdebd83cc8d953e8a": {
+      "source": "Steel Duo PID workflow diagram showing separate thermoblocks for brewing and steam",
+      "text": "Schema der Steel Duo PID mit getrennten Thermoblöcken zum Brühen und Dampfen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "9e51ccc43c1013072d0935834a10c25a9c26328078de88dd8b959412ba045e5c": {
+      "source": "Steel Uno PID workflow diagram with one thermoblock and two steps: brew, then steam",
+      "text": "Ablaufschema der Steel Uno PID mit einem Thermoblock und zwei Schritten: erst brühen, dann dampfen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "2f646b9bec36dbe07e0aae634b88083b2887c6098b45db2671715f5757f7b6cd": {
+      "source": "Steel Duo PID workflow diagram showing separate thermoblocks for brewing and steam",
+      "text": "Schema der Steel Duo PID mit getrennten Thermoblöcken zum Brühen und Dampfen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "7d808ad9e3d622d1c06ba14a10738ee19015868f02d6fa91c2e3562fc09b00c9": {
+      "source": "Buy the Steel Duo PID if you regularly make two or more milk drinks, want to brew and steam together, and have the circuit required by your exact model. Ascaso USA specifies a 20 A circuit for the U.S. version reviewed here.",
+      "text": "Kaufen Sie die Steel Duo PID, wenn Sie regelmäßig zwei oder mehr Milchgetränke zubereiten, gleichzeitig brühen und dampfen möchten und über den für Ihr genaues Modell erforderlichen Stromkreis verfügen. Ascaso USA gibt für die hier besprochene US-Ausführung einen Stromkreis mit 20 A vor.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "47414992c00663e3987f6083eface800ab25b0f22c6f19f927de1b8b42e48530": {
+      "source": "58 mm portafilter and separate grinder for whole beans",
+      "text": "58-mm-Siebträger und separate Mühle für ganze Bohnen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "1c90c500373d686cb87480da44959c573f8df31b7bb970cada427f8810ab118f": {
+      "source": "Ascaso Steel specifications and gallery",
+      "text": "Spezifikationen und Bildergalerie zur Ascaso Steel",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "80f8c392320b8c77f67927ebd09784671249db4e0fa1f48ac2dcb487cc3388cd": {
+      "source": "Side-by-side model specs and the manufacturer’s product photos.",
+      "text": "Modellspezifikationen im direkten Vergleich und Produktfotos des Herstellers.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "bc19ef63dcbba9f437a3597a1c1731ed906edf6c54281bf88674d9542b942c47": {
+      "source": "Ascaso USA technical dossier",
+      "text": "Technisches Dossier von Ascaso USA",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "e036f06550892a22e00daf25a829294ac12a33c5c677106c9d55704aebdfe0e0": {
+      "source": "Manuals and technical documents organized by model.",
+      "text": "Anleitungen und technische Unterlagen nach Modell.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "aa39209c0c28238c212d36d7c860c51b62068159bc8169b13f66ffcafb06fb85": {
+      "source": "Steel Uno PID workflow diagram with one thermoblock and two steps: brew, then steam",
+      "text": "Ablaufschema der Steel Uno PID mit einem Thermoblock und zwei Schritten: erst brühen, dann dampfen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "c7131c235eecc0041d39852a2836278e403005d3ccb8159af1f1784a088e8ec3": {
+      "source": "Choose the Steel Uno PID if you mostly drink espresso and want control over temperature and shot volume. One heater means you pull the shot before steaming milk. Confirm new U.S. stock before you plan to buy.",
+      "text": "Wählen Sie die Steel Uno PID, wenn Sie vor allem Espresso trinken und Temperatur und Bezugsmenge einstellen möchten. Mit einem Heizelement beziehen Sie zuerst den Espresso und schäumen danach die Milch auf. Prüfen Sie vor dem Kauf, ob Neugeräte in den USA verfügbar sind.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "750e969746a88faabddffb01724d36b184dc21e418a8777d6e691fd966ae7c1c": {
+      "source": "Pull the espresso first and then switch the thermoblock to steam. To make two lattes, pull both shots first, then texture milk. The first shot waits while you finish. If you want another espresso afterward, follow the",
+      "text": "Beziehen Sie zuerst den Espresso und schalten Sie den Thermoblock dann auf Dampf um. Für zwei Lattes beziehen Sie erst beide Espressi und schäumen danach die Milch auf. Der erste Espresso wartet, bis Sie fertig sind. Wenn Sie danach einen weiteren Espresso möchten, befolgen Sie das",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "b9bf28400875011e2f96abaaf133463fc06af83de5a0d3cad29a2b259ec2e27a": {
+      "source": "manual for your Uno",
+      "text": "Handbuch für Ihre Uno",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "7fd53f82f840bc74ba092cd673601d8a1996bd048ccf7a84832dfc5d030f58da": {
+      "source": "to return the machine to brewing mode.",
+      "text": "um die Maschine wieder in den Brühmodus zu versetzen.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "3646ccfb59e1a82897c40fa2c5408cc869984d16454dbe69332d5c6b8bee61d8": {
+      "source": "If two lattes are your usual order, compare the",
+      "text": "Wenn Sie meistens zwei Lattes zubereiten, vergleichen Sie die Uno mit der",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "36c954662db4110d4a1b4577cc9e4cea0c97679b72158da9196ddc913f477079": {
+      "source": ". Its separate steam heater lets you pull shots and steam together.",
+      "text": ". Ihr separates Heizelement für Dampf erlaubt gleichzeitiges Brühen und Dampfen.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "dde6998f9ece21e828efdadd88feafc275c4c2488d5598081a236181bb389ad6": {
+      "source": "Espresso Parts refurbished Steel Uno PID",
+      "text": "Generalüberholte Steel Uno PID bei Espresso Parts",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "68bc420118aa7ff4fe35bb565f974723037dd87c3cd1df7a0460b24b8ea1a9f4": {
+      "source": "120 V reference model, electrical specifications and refurbished condition.",
+      "text": "Referenzmodell mit 120 V, elektrische Spezifikationen und generalüberholter Zustand.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "09f705d74cbd8c4a56ac8eef420342f2d7d804d3adcb9de7a66af272d8a6cd31": {
+      "source": "Ascaso USA Steel Uno and Duo Plus comparison",
+      "text": "Vergleich von Steel Uno und Duo Plus bei Ascaso USA",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "842313cc7d41cbe1a90bb9b685d1d41d401bca4ea127beab6affbd6f42588816": {
+      "source": "Identifies the standard U.S. outlet requirement for the Uno.",
+      "text": "Nennt die für die Uno erforderliche Standardsteckdose in den USA.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "e9480a9d9fce4773eceb28e2f321096b12aaec578a053ebd92fbd6d9717f2f41": {
+      "source": "Check U.S. availability",
+      "text": "Verfügbarkeit in den USA prüfen",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "99ce0b94015224d78d48e91769e2b768e691d3addbe66154cab894bed7843787": {
+      "source": "Best fit: Mostly espresso, with the occasional milk drink",
+      "text": "Am besten geeignet für: vor allem Espresso und gelegentlich ein Milchgetränk",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "828c69555765cb15559bd4466657d297dcd71322483c5e08dca44c70311dbe10": {
+      "source": "New U.S. stock not verified",
+      "text": "Bestand an Neugeräten in den USA ungeprüft",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "ed5962a9f43d431af41a1f3fac7586c313c6130ff0b208a88c05eea02a76ae2e": {
+      "source": "Adjustable espresso controls and a shared heater for occasional milk.",
+      "text": "Einstellbare Espressoparameter und ein gemeinsames Heizelement für gelegentliche Milchgetränke.",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
+    },
+    "0cafb4ae4e96a8a2c5e3e47da7ceb01ac1a27fcbf42a8fa843c1907f3cc241d6": {
+      "source": "Ascaso ·",
+      "text": "Ascaso ·",
+      "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+      "provider": "codex-direct",
+      "authoredFile": "localization/authored/ascaso-live-coverage-batch-162.json"
     }
   },
   "routes": {
