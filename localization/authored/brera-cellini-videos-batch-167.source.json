@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/gaggia-brera-ri9305/video/willy-filmit/",
+      "sourceHash": "4054baf9e4571d49ce11c13b62838178013aa827ab8996ec2511cbe31836e29e"
+    },
+    {
+      "sourcePath": "/espresso-machine/la-pavoni-cellini-classic/video/alternative-brewing/",
+      "sourceHash": "12055f42e91bba9e945c18f587f3916bab6e5c745c8b486df41890113398feb8"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "c98dc6984042c2c832656f5f1cae17ec071360bb90959a46b638927b7d24a597",
+      "source": "Gaggia Brera RI9305: Gaggia Brera Review · Willy Filmit (2019-04-04) | Coffeedant",
+      "kind": "text",
+      "context": "Gaggia Brera RI9305: Gaggia Brera Review · Willy Filmit (2019-04-04) | Coffeedant"
+    },
+    {
+      "id": "510e560cb43df05720334f952934cfc0e470b78ab6faf8e36d1ac1f4af6ea2b3",
+      "source": "Watch Willy Filmit on Gaggia Brera RI9305 (2019-04-04): Gaggia Brera Review. Willy Filmit presents Gaggia Brera RI9305. The demonstrations and opinions are the creator’s own.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "aae60a69d18d08144e9738a8594f0642333d88c416ab4032716df97c3d4342fa",
+      "source": "Gaggia Brera RI9305: Gaggia Brera Review · Willy Filmit (2019-04-04) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "be1d4e2171d5f57dbaaf12ee986f5e59d2c29c2db415cef7077cf448f073503b",
+      "source": "Gaggia Brera RI9305 video by Willy Filmit",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "c5aae8879770c63b9deca7867af8cf4de5dcf8c3a2eb1252622c70d6078f8d4f",
+      "source": "Gaggia Brera Review by Willy Filmit",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "c44ee8ba989e329fbf590e4c13b9eff8bbcbc8a19782c1b10822308c72e90766",
+      "source": "Willy Filmit",
+      "kind": "text",
+      "context": "Willy Filmit"
+    },
+    {
+      "id": "75bf53d48d8535dea520e2b97ee29a0cc1656a88ea6ea5addfff991d80f39e48",
+      "source": "April 4, 2019",
+      "kind": "text",
+      "context": "April 4, 2019"
+    },
+    {
+      "id": "2c2eaa518f07c32390b736b696848ab04a5328900b9a0c150299c101712545ca",
+      "source": "Willy Filmit presents Gaggia Brera RI9305. The demonstrations and opinions are the creator’s own.",
+      "kind": "text",
+      "context": "Willy Filmit presents Gaggia Brera RI9305. The demonstrations and opinions are the creator’s own."
+    },
+    {
+      "id": "7b5ce775655ed131b7c5e890fd66c63ad3e5da380eab53b0e140b6179f550dae",
+      "source": "Video and opinions belong to Willy Filmit. Coffeedant curates this perspective alongside our written review.",
+      "kind": "text",
+      "context": "Video and opinions belong to Willy Filmit. Coffeedant curates this perspective alongside our written review."
+    },
+    {
+      "id": "4b8ea4bf3a003f485e43211867de95d496511b1eefe6cc8b4baac2f2402ba898",
+      "source": "Gaggia Brera RI9305: Gaggia Brera Review · Willy Filmit (2019-04-04) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "413051a5207c0af29733e242b86b3a0bb7e15996bf0f8b671941c0b7ffa49dab",
+      "source": "Watch Willy Filmit on Gaggia Brera RI9305 (2019-04-04): Gaggia Brera Review. Willy Filmit presents Gaggia Brera RI9305. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "1ae8a73e8cb2ff77e1be3e8e35034753fa4e01bbb3276c1e6210caa40db4a2e6",
+      "source": "Gaggia Brera RI9305 video by Willy Filmit",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "6f435d747b515dae6cbfd8698bc5c0480cb00761867d10f17cb04bb2b1f26b3e",
+      "source": "Willy Filmit presents Gaggia Brera RI9305. The demonstrations and opinions are the creator’s own.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "04d4ef14102293155a7f4524258fc4713e4edde13a5a1b781c34023ad4349f2e",
+      "source": "Willy Filmit",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "ace31c7953a9cabf885c39108c658ed7af70bbda9faa4ac518e1b5028d1ed0cb",
+      "source": "Video by Willy Filmit",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "264988552f0a441481de91efb224b27a8fd57dbe1e09b2f585cc17ee5836764e",
+      "source": "La Pavoni Cellini Coffee Machine Review",
+      "kind": "text",
+      "context": "La Pavoni Cellini Coffee Machine Review"
+    },
+    {
+      "id": "7593cd33028fd14b6360e4e447984e7de1ec7eb4869bbb8a0c4a59d257d995b5",
+      "source": "Retailer-produced practical Cellini family demonstration. It is independent of La Pavoni but commercially connected to sales, so current exact EU documents govern identity and specifications.",
+      "kind": "text",
+      "context": "Retailer-produced practical Cellini family demonstration. It is independent of La Pavoni but commercially connected to sales, so current exact EU documents govern identity and specifications."
+    },
+    {
+      "id": "30320b5705658fadc421ee0db0a515bf75bc244b74c5c939ab0785f2bde20aad",
+      "source": "La Pavoni Cellini Coffee Machine Review",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "d49012046ae605c2778a5c6169d9051f25132889816ae795a3cef70cd30da571",
+      "source": "Retailer-produced practical Cellini family demonstration. It is independent of La Pavoni but commercially connected to sales, so current exact EU documents govern identity and specifications.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "b6edbc5478382e8f37bec1021132740dd9c432243c6696ec3c5113253d5b0ff9",
+      "source": "La Pavoni Cellini Classic: La Pavoni Cellini Coffee Machine Review · Alternative Brewing (2022-08-09) | Coffeedant",
+      "kind": "text",
+      "context": "La Pavoni Cellini Classic: La Pavoni Cellini Coffee Machine Review · Alternative Brewing (2022-08-09) | Coffeedant"
+    },
+    {
+      "id": "e68f46a40a5c572bbc95f3dc753c0c50ea6e523ac61c1ea603663d33f2295410",
+      "source": "Watch Alternative Brewing on La Pavoni Cellini Classic (2022-08-09): La Pavoni Cellini Coffee Machine Review. Retailer-produced practical Cellini family demonstration. It is independent of La Pavoni but commercially connected to sales, so current exact EU documents govern identity and specifications.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "6201a37ec1df2f64bc0026f3b5de32d639a0182e38891595ea76e230151e38c1",
+      "source": "La Pavoni Cellini Classic: La Pavoni Cellini Coffee Machine Review · Alternative Brewing (2022-08-09) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "ef2cfbd3ed4a608a83fd1f04837253367583f56b9057bb4c9f0bd4db09302e90",
+      "source": "La Pavoni Cellini Classic video by Alternative Brewing",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "6c5cdadef7c0df956f88774d09880ef6b8873280fe6e5fc3f37aae738fd40764",
+      "source": "← La Pavoni Cellini Classic review",
+      "kind": "text",
+      "context": "← La Pavoni Cellini Classic review"
+    },
+    {
+      "id": "b08024753787954a2551ac30b176027b754de13cdde02365a4922a672562ba34",
+      "source": "La Pavoni Cellini Coffee Machine Review by Alternative Brewing",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "3cc39ddad0f1ab08de59c88b9124e68db1311c899a4b4c4f01fd14b7e731443f",
+      "source": "La Pavoni Cellini Classic · Retailer perspective",
+      "kind": "text",
+      "context": "La Pavoni Cellini Classic · Retailer perspective"
+    },
+    {
+      "id": "af569098c49cef09dea86c62731ea56a9366637121fae272f6dd6d0f64e06f57",
+      "source": "August 10, 2022",
+      "kind": "text",
+      "context": "August 10, 2022"
+    },
+    {
+      "id": "a8d599211ad5bbfc2d73b2f6f98351977832e8dd665dbc34fb2433d686bdf596",
+      "source": "La Pavoni Cellini Classic: La Pavoni Cellini Coffee Machine Review · Alternative Brewing (2022-08-09) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "218ed44157c61cf4dfac5c81c63312fe4064440efc99d9056a83e27600f481b6",
+      "source": "Watch Alternative Brewing on La Pavoni Cellini Classic (2022-08-09): La Pavoni Cellini Coffee Machine Review. Retailer-produced practical Cellini family demonstration. It is independent of La Pavoni but commercially connected to sales, so current exact EU documents govern identity and specifications.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "5559043aafe860f2842a6b4a4703ed25ae58dacafd3ba4167ce8e455bb29b40b",
+      "source": "La Pavoni Cellini Classic video by Alternative Brewing",
+      "kind": "json",
+      "context": "caption"
+    }
+  ],
+  "snapshotHash": "6dffae808474caf23086dffd6693abb04427cb090782aa0f3888bd5aa67861ef"
+}

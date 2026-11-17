@@ -5682,6 +5682,21 @@ Coverage is NL 18,936 translated and 41,139 pending, DE 19,182 translated and
 40,893 pending, and FR 18,773 translated and 41,302 pending. Finder translation
 coverage is complete. NL and DE have 383 pages left each, and FR has 384.
 
+### Direct batch 167 - Brera and Cellini video companions (2026-11-17)
+
+Complete the Willy Filmit Gaggia Brera RI9305 video and Alternative Brewing
+La Pavoni Cellini Classic video pages in Dutch, German and French. Preserve
+the original embeds, dates, creator attribution and the Cellini retailer
+disclosure about current exact EU documents. The written reviews open in
+English with localized edition notices. Existing regional URLs remain stable.
+The new French Brera route follows its regional espresso-machine path.
+
+The source has 699 pages and 60,075 segments. NL and DE can render 317
+indexable pages each, and FR can render 316. Each edition has a localized 404.
+Coverage is NL 18,966 translated and 41,109 pending, DE 19,212 translated and
+40,863 pending, and FR 18,803 translated and 41,272 pending. Finder translation
+coverage is complete. NL and DE have 381 pages left each, and FR has 382.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
