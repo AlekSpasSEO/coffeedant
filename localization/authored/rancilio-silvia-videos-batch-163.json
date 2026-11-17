@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "rancilio-silvia-videos-batch-163.source.json",
+  "snapshotHash": "5f8469a729b4f013e9307c95bb6d1db86867edb48c2c7a4d4d3dd97e9cfe7c90",
+  "routes": {
+    "nl": {
+      "/espresso-machine/rancilio-silvia/video/coffee-kev/": "/espressomachine/rancilio-silvia/video/coffee-kev/",
+      "/espresso-machine/rancilio-silvia/video/whole-latte-love/": "/espressomachine/rancilio-silvia/video/whole-latte-love/"
+    },
+    "fr": {
+      "/espresso-machine/rancilio-silvia/video/coffee-kev/": "/machine-a-espresso/rancilio-silvia/video/coffee-kev/",
+      "/espresso-machine/rancilio-silvia/video/whole-latte-love/": "/machine-a-espresso/rancilio-silvia/video/whole-latte-love/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "Review van de Rancilio Silvia M-espressomachine, met technieken en geschiedenis",
+      "de": "Test der Espressomaschine Rancilio Silvia M mit Zubereitungstechniken und Modellgeschichte",
+      "fr": "Essai de la machine à espresso Rancilio Silvia M, avec techniques de préparation et historique"
+    },
+    "1": {
+      "nl": "13 februari 2018",
+      "de": "13. Februar 2018",
+      "fr": "13 février 2018"
+    },
+    "2": {
+      "nl": "Een gedetailleerde commerciële demonstratie van het werken met de Silvia. De video toont een eerdere uitvoering met de aanduiding M. De actuele gegevens over de elektrische specificaties, de meegeleverde onderdelen en de prijs komen daarom uit de aangehaalde handleiding uit 2024 en de Noord-Amerikaanse productvermelding.",
+      "de": "Eine ausführliche kommerzielle Vorführung der Bedienung der Silvia. Das Video zeigt eine frühere Ausführung mit der Bezeichnung M. Die aktuellen Angaben zu Elektrik, Lieferumfang und Preis stammen deshalb aus der zitierten Anleitung von 2024 und dem nordamerikanischen Produktangebot.",
+      "fr": "Une démonstration commerciale détaillée de l’utilisation de la Silvia. La vidéo porte sur une version antérieure portant la désignation M. Les informations actuelles sur les caractéristiques électriques, les accessoires fournis et le prix proviennent donc du manuel de 2024 cité et de l’annonce nord-américaine."
+    },
+    "5": {
+      "nl": "Rancilio Silvia V6: Review van de Rancilio Silvia V6 uit 2020. Is de Rancilio Silvia de espressomachine voor jou? · Coffee Kev (2021-08-10) | Coffeedant",
+      "de": "Rancilio Silvia V6: Test der Rancilio Silvia V6 von 2020. Ist die Rancilio Silvia die richtige Espressomaschine für Sie? · Coffee Kev (2021-08-10) | Coffeedant",
+      "fr": "Rancilio Silvia V6 : Essai de la Rancilio Silvia V6 de 2020. La Rancilio Silvia est-elle la machine à espresso qu’il vous faut ? · Coffee Kev (2021-08-10) | Coffeedant"
+    },
+    "6": {
+      "nl": "Bekijk de video van Coffee Kev over de Rancilio Silvia V6 (2021-08-10). Review van de Rancilio Silvia V6 uit 2020. Is de Rancilio Silvia de espressomachine voor jou? Coffee Kev stelt de Rancilio Silvia V6 voor en laat zien hoe je koffie maalt, espresso zet en melkdranken bereidt. De demonstraties en meningen zijn die van de maker zelf.",
+      "de": "Sehen Sie sich das Video von Coffee Kev zur Rancilio Silvia V6 an (2021-08-10). Test der Rancilio Silvia V6 von 2020. Ist die Rancilio Silvia die richtige Espressomaschine für Sie? Coffee Kev stellt die Rancilio Silvia V6 vor und zeigt das Mahlen des Kaffees sowie die Zubereitung von Espresso und Milchgetränken. Die Vorführungen und Meinungen stammen vom Urheber des Videos.",
+      "fr": "Regardez la vidéo de Coffee Kev sur la Rancilio Silvia V6 (2021-08-10). Essai de la Rancilio Silvia V6 de 2020. La Rancilio Silvia est-elle la machine à espresso qu’il vous faut ? Coffee Kev présente la Rancilio Silvia V6 et montre comment moudre le café, préparer un espresso et réaliser des boissons lactées. Les démonstrations et les avis sont ceux du créateur de la vidéo."
+    },
+    "8": {
+      "nl": "Video van Coffee Kev over de Rancilio Silvia V6",
+      "de": "Video von Coffee Kev zur Rancilio Silvia V6",
+      "fr": "Vidéo de Coffee Kev sur la Rancilio Silvia V6"
+    },
+    "9": {
+      "nl": "← Review van de Rancilio Silvia V6",
+      "de": "← Testbericht zur Rancilio Silvia V6",
+      "fr": "← Essai de la Rancilio Silvia V6"
+    },
+    "10": {
+      "nl": "Review van de Rancilio Silvia V6 uit 2020. Is de Rancilio Silvia de espressomachine voor jou? Video van Coffee Kev",
+      "de": "Test der Rancilio Silvia V6 von 2020. Ist die Rancilio Silvia die richtige Espressomaschine für Sie? Video von Coffee Kev",
+      "fr": "Essai de la Rancilio Silvia V6 de 2020. La Rancilio Silvia est-elle la machine à espresso qu’il vous faut ? Vidéo de Coffee Kev"
+    },
+    "11": {
+      "nl": "Rancilio Silvia V6 · Externe blik",
+      "de": "Rancilio Silvia V6 · Externe Einschätzung",
+      "fr": "Rancilio Silvia V6 · Un regard extérieur"
+    },
+    "12": {
+      "nl": "Review van de Rancilio Silvia V6 uit 2020. Is de Rancilio Silvia de espressomachine voor jou?",
+      "de": "Test der Rancilio Silvia V6 von 2020. Ist die Rancilio Silvia die richtige Espressomaschine für Sie?",
+      "fr": "Essai de la Rancilio Silvia V6 de 2020. La Rancilio Silvia est-elle la machine à espresso qu’il vous faut ?"
+    },
+    "13": {
+      "nl": "10 augustus 2021",
+      "de": "10. August 2021",
+      "fr": "10 août 2021"
+    },
+    "14": {
+      "nl": "Coffee Kev stelt de Rancilio Silvia V6 voor en laat zien hoe je koffie maalt, espresso zet en melkdranken bereidt. De demonstraties en meningen zijn die van de maker zelf.",
+      "de": "Coffee Kev stellt die Rancilio Silvia V6 vor und zeigt das Mahlen des Kaffees sowie die Zubereitung von Espresso und Milchgetränken. Die Vorführungen und Meinungen stammen vom Urheber des Videos.",
+      "fr": "Coffee Kev présente la Rancilio Silvia V6 et montre comment moudre le café, préparer un espresso et réaliser des boissons lactées. Les démonstrations et les avis sont ceux du créateur de la vidéo."
+    },
+    "20": {
+      "nl": "Rancilio Silvia V6: Review van de Rancilio Silvia M-espressomachine, met technieken en geschiedenis · Whole Latte Love (2018-02-13) | Coffeedant",
+      "de": "Rancilio Silvia V6: Test der Espressomaschine Rancilio Silvia M mit Zubereitungstechniken und Modellgeschichte · Whole Latte Love (2018-02-13) | Coffeedant",
+      "fr": "Rancilio Silvia V6 : Essai de la machine à espresso Rancilio Silvia M, avec techniques de préparation et historique · Whole Latte Love (2018-02-13) | Coffeedant"
+    },
+    "21": {
+      "nl": "Bekijk de video van Whole Latte Love over de Rancilio Silvia V6 (2018-02-13). Review van de Rancilio Silvia M-espressomachine, met technieken en geschiedenis. Een gedetailleerde commerciële demonstratie van het werken met de Silvia. De video toont een eerdere uitvoering met de aanduiding M. De actuele gegevens over de elektrische specificaties, de meegeleverde onderdelen en de prijs komen daarom uit de aangehaalde handleiding uit 2024 en de Noord-Amerikaanse productvermelding.",
+      "de": "Sehen Sie sich das Video von Whole Latte Love zur Rancilio Silvia V6 an (2018-02-13). Test der Espressomaschine Rancilio Silvia M mit Zubereitungstechniken und Modellgeschichte. Eine ausführliche kommerzielle Vorführung der Bedienung der Silvia. Das Video zeigt eine frühere Ausführung mit der Bezeichnung M. Die aktuellen Angaben zu Elektrik, Lieferumfang und Preis stammen deshalb aus der zitierten Anleitung von 2024 und dem nordamerikanischen Produktangebot.",
+      "fr": "Regardez la vidéo de Whole Latte Love sur la Rancilio Silvia V6 (2018-02-13). Essai de la machine à espresso Rancilio Silvia M, avec techniques de préparation et historique. Une démonstration commerciale détaillée de l’utilisation de la Silvia. La vidéo porte sur une version antérieure portant la désignation M. Les informations actuelles sur les caractéristiques électriques, les accessoires fournis et le prix proviennent donc du manuel de 2024 cité et de l’annonce nord-américaine."
+    },
+    "23": {
+      "nl": "Video van Whole Latte Love over de Rancilio Silvia V6",
+      "de": "Video von Whole Latte Love zur Rancilio Silvia V6",
+      "fr": "Vidéo de Whole Latte Love sur la Rancilio Silvia V6"
+    },
+    "24": {
+      "nl": "Review van de Rancilio Silvia M-espressomachine, met technieken en geschiedenis. Video van Whole Latte Love",
+      "de": "Test der Espressomaschine Rancilio Silvia M mit Zubereitungstechniken und Modellgeschichte. Video von Whole Latte Love",
+      "fr": "Essai de la machine à espresso Rancilio Silvia M, avec techniques de préparation et historique. Vidéo de Whole Latte Love"
+    },
+    "25": {
+      "nl": "Rancilio Silvia V6 · Een speciaalzaak aan het woord",
+      "de": "Rancilio Silvia V6 · Sicht des Fachhändlers",
+      "fr": "Rancilio Silvia V6 · Le point de vue d’un revendeur"
+    }
+  }
+}
