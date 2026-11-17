@@ -5668,6 +5668,20 @@ Coverage is NL 18,915 translated and 41,160 pending, DE 19,161 translated and
 40,914 pending, and FR 18,752 translated and 41,323 pending. Finder translation
 coverage is complete. NL and DE have 385 pages left each, and FR has 386.
 
+### Direct batch 166 - Profitec Pro 500 PID videos (2026-11-17)
+
+Complete the two Whole Latte Love Profitec Pro 500 PID video pages in Dutch,
+German and French. Preserve each video's original embed, date and retailer
+attribution. The written review opens in English with a localized edition notice.
+Existing Dutch and German URLs remain stable. French uses regional
+espresso-machine paths and the original distinct creator identifiers.
+
+The source has 699 pages and 60,075 segments. NL and DE can render 315
+indexable pages each, and FR can render 314. Each edition has a localized 404.
+Coverage is NL 18,936 translated and 41,139 pending, DE 19,182 translated and
+40,893 pending, and FR 18,773 translated and 41,302 pending. Finder translation
+coverage is complete. NL and DE have 383 pages left each, and FR has 384.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:

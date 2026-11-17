@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/espresso-machine/profitec-pro-500-pid/video/whole-latte-love-395073344a667152507549/",
+      "sourceHash": "47064afdbeff7975ac3bf15331e6f743cfd5340bcb749224db0baf5eb5837778"
+    },
+    {
+      "sourcePath": "/espresso-machine/profitec-pro-500-pid/video/whole-latte-love-7675636932554664743477/",
+      "sourceHash": "85a607dd42c894bb860a523d8d5b79e81353815e84c5f6daa7deead978688942"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "c7aae7a64621b86a6971e3af774f47237de08511cc807c1dc0016880cbc1804e",
+      "source": "July 11, 2022",
+      "kind": "text",
+      "context": "July 11, 2022"
+    },
+    {
+      "id": "2f7119a01ea67cd6f32250866f960f6ed29d3e13977ef4d237e9540d17065eee",
+      "source": "← Profitec Pro 500 PID review",
+      "kind": "text",
+      "context": "← Profitec Pro 500 PID review"
+    },
+    {
+      "id": "5b691139e1e1591d94e9e5f31b12c9fffacbb2ec9410efa5a535caf11a3eee7b",
+      "source": "Profitec Pro 500 PID · Retailer perspective",
+      "kind": "text",
+      "context": "Profitec Pro 500 PID · Retailer perspective"
+    },
+    {
+      "id": "fb392c1b827f8ca95c04a34f9470577254f9cda3d9ed340aca3f43b878983bee",
+      "source": "Profitec Pro 500 PID: Review: Profitec Pro 500 PID Espresso Machine · Whole Latte Love (2018-01-18) | Coffeedant",
+      "kind": "text",
+      "context": "Profitec Pro 500 PID: Review: Profitec Pro 500 PID Espresso Machine · Whole Latte Love (2018-01-18) | Coffeedant"
+    },
+    {
+      "id": "4cb5039852f4c939cc5d5ced8315495687def86dc320918f4aecc12d47bb7777",
+      "source": "Watch Whole Latte Love on Profitec Pro 500 PID (2018-01-18): Review: Profitec Pro 500 PID Espresso Machine. Whole Latte Love presents Profitec Pro 500 PID, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "cdbc61a760f35bbafe458760b7bbb98c01bd494d2c446cdf6fd66f319fc3e43f",
+      "source": "Profitec Pro 500 PID: Review: Profitec Pro 500 PID Espresso Machine · Whole Latte Love (2018-01-18) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "a1a9e3a0b244d78015ff921d656b153b30a49c509211890ea029ff5c9e88c91b",
+      "source": "Profitec Pro 500 PID video by Whole Latte Love",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "16f367358ed64e2ef44c16aa4c94997357aa8fa18d293c67255b6a4003dca87d",
+      "source": "Review: Profitec Pro 500 PID Espresso Machine by Whole Latte Love",
+      "kind": "attribute",
+      "context": ""
+    },
+    {
+      "id": "74bdd99f86aeed83a792bd2b8bedc33bbda5c89ceca30a66756734e3a7b66af4",
+      "source": "Review: Profitec Pro 500 PID Espresso Machine",
+      "kind": "text",
+      "context": "Review: Profitec Pro 500 PID Espresso Machine"
+    },
+    {
+      "id": "0379b517e91baad41e8bf98e3ca556f48ae1f97e9326492edace181588b65954",
+      "source": "January 18, 2018",
+      "kind": "text",
+      "context": "January 18, 2018"
+    },
+    {
+      "id": "94de640a1b13f805a5db1679f99412b5ff5085e4c8be2c775020ef8e3bc020c1",
+      "source": "Whole Latte Love presents Profitec Pro 500 PID, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "text",
+      "context": "Whole Latte Love presents Profitec Pro 500 PID, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review."
+    },
+    {
+      "id": "d451c1f29a38fb04361e4d24510d0feea38b9c7f4d596671f97fd1faf616c7bc",
+      "source": "Profitec Pro 500 PID: Review: Profitec Pro 500 PID Espresso Machine · Whole Latte Love (2018-01-18) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "4021bfc8d98190b5a95999255b7f57144072fdd076e5ccbe670b4f850cf7ad6a",
+      "source": "Watch Whole Latte Love on Profitec Pro 500 PID (2018-01-18): Review: Profitec Pro 500 PID Espresso Machine. Whole Latte Love presents Profitec Pro 500 PID, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "a45ec46eccc993511b52ec985cb73fca5cbc69e92f176f6fd7f25f27d710509c",
+      "source": "Profitec Pro 500 PID video by Whole Latte Love",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "1ed5a99d75a255a09210e394cf4bc88b03485bd9996326488ef07536ed015bd9",
+      "source": "Review: Profitec Pro 500 PID Espresso Machine",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "671254d1278f26fe98250fab16e4d38ddeb2f1bed0f276713bc1d2c469a14682",
+      "source": "Whole Latte Love presents Profitec Pro 500 PID, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "a64da60edd1a99527ea6ff946e8acdd447de8f6a62b60f2ac8cbca6be8d41d0a",
+      "source": "Profitec Pro 500 PID: Review: Profitec Pro 500 PID Espresso Machine · Whole Latte Love (2022-07-11) | Coffeedant",
+      "kind": "text",
+      "context": "Profitec Pro 500 PID: Review: Profitec Pro 500 PID Espresso Machine · Whole Latte Love (2022-07-11) | Coffeedant"
+    },
+    {
+      "id": "4de645366cf4aba8e65d651381bb1619e6704a621bf620b007d1f65bc14f891f",
+      "source": "Watch Whole Latte Love on Profitec Pro 500 PID (2022-07-11): Review: Profitec Pro 500 PID Espresso Machine. Whole Latte Love presents Profitec Pro 500 PID, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "e179875447a6b5afcc77f99b11ea33975907ceb139276fc5b4a76ffba5727ef3",
+      "source": "Profitec Pro 500 PID: Review: Profitec Pro 500 PID Espresso Machine · Whole Latte Love (2022-07-11) | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "cb9c9d5bc456e54836ca57c3c8449cb37f4d093350687845cd0ddf4311d7071a",
+      "source": "Profitec Pro 500 PID: Review: Profitec Pro 500 PID Espresso Machine · Whole Latte Love (2022-07-11) | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "e51e759ee1d687c58116c61dbf1dc37825223faa4316710fdd73fd894593e653",
+      "source": "Watch Whole Latte Love on Profitec Pro 500 PID (2022-07-11): Review: Profitec Pro 500 PID Espresso Machine. Whole Latte Love presents Profitec Pro 500 PID, covering espresso preparation, milk drinks. This is an equipment seller’s perspective; consider it alongside the other sources and our written review.",
+      "kind": "json",
+      "context": "description"
+    }
+  ],
+  "snapshotHash": "2e0adbf05387208c84ab13fe90fc4618e6d52ffc86be8164c4d88c853aaf35f3"
+}
