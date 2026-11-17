@@ -5625,6 +5625,19 @@ Coverage is NL 18,829 translated and 41,246 pending, DE 19,075 translated and
 41,000 pending, and FR 18,666 translated and 41,409 pending. Finder translation
 coverage is complete. NL and DE have 391 pages left each, and FR has 392.
 
+### Direct batch 163 - Rancilio Silvia video companions (2026-11-17)
+
+Complete the Coffee Kev and Whole Latte Love video pages in Dutch, German
+and French. Preserve the original embeds, dates and source disclosures.
+Coffee Kev covers the V6, and the Whole Latte Love video shows an earlier
+Silvia M. The written V6 review opens in English with a localized notice.
+
+The source has 699 pages and 60,075 segments. NL and DE can render 309
+indexable pages each, and FR can render 308. Each edition has a localized 404.
+Coverage is NL 18,858 translated and 41,217 pending, DE 19,104 translated and
+40,971 pending, and FR 18,695 translated and 41,380 pending. Finder translation
+coverage is complete. NL and DE have 389 pages left each, and FR has 390.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
