@@ -42,6 +42,8 @@ const accademia = catalog.items.find(r => r.path === '/espresso-machine/gaggia-a
 assert.equal(accademia?.priceLabel, 'Check current UK price', 'dated UK sale stays out of the finder');
 assert.equal(accademia?.priceUsd, null, 'UK variant is excluded from US budget bands');
 for (const [slug, drink, footprint, volume] of [
+  ['ascaso-steel-uno', 'mixed', 'compact', 'one-two'],
+  ['ascaso-steel-duo-pid', 'milk', 'compact', 'three-five'],
   ['rancilio-silvia', 'mixed', 'compact', 'one-two'],
   ['rancilio-silvia-pro-x', 'milk', 'standard', 'three-five'],
 ]) {

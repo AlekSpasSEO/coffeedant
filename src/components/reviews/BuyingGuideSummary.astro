@@ -1,0 +1,33 @@
+---
+import type { MachineReviewData } from '../../data/reviews';
+import type { ReviewBuyingGuide } from '../../data/review-buying-guides';
+import '../../styles/buying-guide.css';
+
+const { review, guide, aliases } = Astro.props as {
+  review: MachineReviewData;
+  guide: ReviewBuyingGuide;
+  aliases: Record<string, string[]>;
+};
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const updated = new Intl.DateTimeFormat('en-US', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' }).format(new Date(review.updated));
+---
+<header class="review-summary buying-guide-hero buying-guide-review-hero" id="summary">
+  {(aliases.summary ?? []).map(alias => <span id={alias} class="review-anchor-alias" data-legacy-anchor-target="summary" aria-hidden="true"></span>)}
+  <div>
+    <p class="eyebrow">Research review · North American model</p>
+    <h1 id="review-title">{review.title}</h1>
+    <p class="buying-guide-byline">By <a href={`${base}/about/`}>{review.author.name}</a> · Updated <time datetime={review.updated}>{updated}</time></p>
+    <p class="buying-guide-verdict">{review.verdict}</p>
+    <div class="buying-guide-actions">
+      <a class="buying-guide-button" href="#verdict">{guide.actionLabel ?? 'See where to buy'}</a>
+      <a href={`${base}${guide.otherPath}`}>Read the {guide.otherName} review <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+  <figure class="buying-guide-figure">
+    <img class="review-product-image" src={`${base}/${review.image}`} width="1200" height="630" alt={review.imageAlt} decoding="async" fetchpriority="high" />
+    <figcaption>Coffeedant diagram based on {review.brand} specifications. <a href={guide.officialPhotos}>See official product photos</a>.</figcaption>
+  </figure>
+</header>
+<dl id="specifications" class="review-fact-strip buying-guide-facts" aria-label="Key specifications">
+  {review.facts.map((fact, i) => <div><dt>{i === 0 && (aliases.specifications ?? []).map(alias => <span id={alias} class="review-anchor-alias" data-legacy-anchor-target="specifications" aria-hidden="true"></span>)}{fact.label}</dt><dd>{fact.value}</dd></div>)}
+</dl>

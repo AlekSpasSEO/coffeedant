@@ -38,8 +38,8 @@ for (const file of files(dist)) {
     continue;
   }
   if (!expectedSlugs.has(slug)) fail('unexpected product review');
-  if (attribute(review, 'data-review-layout') === 'rancilio-buying-guide') {
-    if (banners.length) fail('Rancilio buying guides must keep product banners out of the review');
+  if (attribute(review, 'data-review-layout') === 'buying-guide') {
+    if (banners.length) fail('buying guides must keep product banners out of the review');
     continue;
   }
   bannerCount += banners.length;

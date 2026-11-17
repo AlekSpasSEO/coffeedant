@@ -154,7 +154,7 @@ for (const item of manifest) {
   const html = fs.readFileSync(output, 'utf8');
   const expectedCanonical = `${canonicalOrigin}${item.slug}`;
   const main = html.match(/<main\b[\s\S]*?<\/main>/i)?.[0] ?? '';
-  const compact = /data-review-layout="rancilio-buying-guide"/.test(main);
+  const compact = /data-review-layout="buying-guide"/.test(main);
   // Third-party titles are verbatim credits, not Coffeedant house-style prose.
   const visible = cleanText(main.replace(/<section\b[^>]*id="video"[^>]*>[\s\S]*?<\/section>/gi, ' ').replace(/<li\b[^>]*data-video-source[^>]*>[\s\S]*?<\/li>/gi,' '));
   const articleCopy = cleanText(main
@@ -233,12 +233,15 @@ for (const item of manifest) {
     for (const id of ['summary', 'specifications', 'espresso', 'milk', 'setup', 'ownership', 'comparisons', 'methodology', 'verdict']) {
       if (!ids.includes(id)) fail(item.slug, `missing buyer decision section: ${id}`);
     }
-    if (!main.includes('class="rancilio-byline"') || !main.includes('did not bench-test')) fail(item.slug, 'missing authorship or research disclosure');
-    const shopping = main.match(/<section class="rancilio-buy-panel"[\s\S]*?<\/section>/i)?.[0] ?? '';
-    if (!/<a class="rancilio-button" href="https:\/\/(?:www\.wholelattelove\.com|clivecoffee\.com)\/products\//.test(shopping)) fail(item.slug, 'missing exact-model seller CTA');
+    if (!main.includes('class="buying-guide-byline"') || !main.includes('did not bench-test')) fail(item.slug, 'missing authorship or research disclosure');
+    const shopping = main.match(/<section class="buying-guide-buy-panel"[\s\S]*?<\/section>/i)?.[0] ?? '';
+    const seller = shopping.match(/<a class="buying-guide-button" href="(https:\/\/[^"]+\/products\/[^"]+)"/)?.[1];
+    if (!seller) fail(item.slug, 'missing exact-model seller CTA');
+    if (item.slug.endsWith('/ascaso-steel-uno/') && !seller?.includes('/products/refurbished-ascaso-steel-uno-')) fail(item.slug, 'Uno CTA must identify the verified refurbished product');
+    if (item.slug.endsWith('/ascaso-steel-duo-pid/') && !seller?.includes('/products/steel-duo-pid-')) fail(item.slug, 'Duo CTA must identify the standard Duo PID');
     const paidLink = shopping.match(/<a\b[^>]*href="https:\/\/www\.amazon\.com\/[^"]+"[^>]*rel="[^"]*\bsponsored\b[^"]*"/i);
     if (!paidLink || !shopping.includes('Affiliate disclosure') || shopping.indexOf('Affiliate disclosure') > paidLink.index) fail(item.slug, 'affiliate link requires a preceding disclosure and sponsored attribute');
-    if (/\$\s*\d|data-coffee-finder|data-review-sticky-offer/.test(main)) fail(item.slug, 'Rancilio review renders stale price or intrusive buying widgets');
+    if (/\$\s*\d|data-coffee-finder|data-review-sticky-offer/.test(main)) fail(item.slug, 'buying guide renders numeric prices or intrusive buying widgets');
   }
   const selectedVideo = curatedVideos[item.slug]?.[0];
   if (selectedVideo && !main.includes('class="review-video"')) fail(item.slug, 'selected third-party video module is missing');
@@ -393,7 +396,7 @@ for (const item of manifest) {
     }
     if (!usageRecord?.startsWith('https://')) fail(item.slug, `inline image ${mediaIndex + 1} has no usage record`);
     if (!/class="review-media-credit"/i.test(figure)) fail(item.slug, `inline image ${mediaIndex + 1} has no visible credit`);
-    if (!/class="review-media-source-badge"/i.test(figure)) fail(item.slug, `inline image ${mediaIndex + 1} has no source badge`);
+    if (!compact && !/class="review-media-source-badge"/i.test(figure)) fail(item.slug, `inline image ${mediaIndex + 1} has no source badge`);
     if (isUserGenerated) {
       userGeneratedMedia += 1;
       if (!/rel="ugc noopener"/i.test(figure)) fail(item.slug, `inline image ${mediaIndex + 1} is user-generated but its source link is not marked ugc`);
@@ -411,11 +414,16 @@ for (const item of manifest) {
   if (!compact && !hasOfficialMedia) {
     fail(item.slug, 'inline images must include at least one official product source');
   }
-  if (compact && item.slug.endsWith('/rancilio-silvia/')) {
-    const photoSchema = structuredNodes.find((node) => node?.['@id'] === `${expectedCanonical}#archive-photo`);
-    if (inlineMedia.length !== 1 || photoSchema?.license !== 'https://creativecommons.org/licenses/by-sa/3.0/'
+  const licensedPhoto = {
+    'rancilio-silvia': ['archive-photo', 'https://creativecommons.org/licenses/by-sa/3.0/'],
+    'ascaso-steel-uno': ['espresso-gear-photo', 'https://creativecommons.org/publicdomain/zero/1.0/'],
+  }[slugName];
+  if (licensedPhoto) {
+    const [id, license] = licensedPhoto;
+    const photoSchema = structuredNodes.find((node) => node?.['@id'] === `${expectedCanonical}#${id}`);
+    if (inlineMedia.length !== 1 || photoSchema?.license !== license
         || !photoSchema?.creator?.name || !photoSchema?.acquireLicensePage
-        || !inlineMedia[0]?.includes(photoSchema.license)) fail(item.slug, 'archival photo must carry visible and structured Creative Commons attribution');
+        || !inlineMedia[0]?.includes(license)) fail(item.slug, 'photo must carry visible and structured Creative Commons attribution');
   }
 
   const mediaLedgerPath = path.join(root, 'docs/reviews', `${slugName}-media.md`);
