@@ -5638,6 +5638,21 @@ Coverage is NL 18,858 translated and 41,217 pending, DE 19,104 translated and
 40,971 pending, and FR 18,695 translated and 41,380 pending. Finder translation
 coverage is complete. NL and DE have 389 pages left each, and FR has 390.
 
+### Direct batch 164 - ROK Espresso GC video companions (2026-11-17)
+
+Complete the James Hoffmann and Whole Latte Love ROK EspressoGC Black PLUS
+video pages in Dutch, German and French. Preserve the original embeds, dates,
+retailer attribution and the limits on the GC chamber and conversion-kit
+demonstration. The written review opens in English with a localized notice.
+Existing Dutch and German routes are retained, and French uses its regional
+espresso-machine paths.
+
+The source has 699 pages and 60,075 segments. NL and DE can render 311
+indexable pages each, and FR can render 310. Each edition has a localized 404.
+Coverage is NL 18,887 translated and 41,188 pending, DE 19,133 translated and
+40,942 pending, and FR 18,724 translated and 41,351 pending. Finder translation
+coverage is complete. NL and DE have 387 pages left each, and FR has 388.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
