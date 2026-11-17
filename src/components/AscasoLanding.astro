@@ -1,0 +1,41 @@
+---
+import BrandComparison from './BrandComparison.astro';
+import { ascasoBrandPath, ascasoModels, ascasoSources, duoPath, unoPath } from '../data/reviews/ascaso-buying-audit';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const uno = ascasoModels[unoPath];
+const duo = ascasoModels[duoPath];
+const rows = [
+  { label: 'Best fit', first: uno.fit, second: duo.fit },
+  { label: 'Heating system', first: uno.heater, second: duo.heater },
+  { label: 'Milk workflow', first: uno.milk, second: duo.milk },
+  { label: 'U.S. power', first: uno.power, second: duo.power },
+  { label: 'Before buying', first: uno.shopping, second: duo.shopping },
+];
+---
+<BrandComparison
+  brand="Ascaso"
+  path={ascasoBrandPath}
+  title="Ascaso Steel Uno vs. Duo PID | Coffeedant"
+  heading="Ascaso Steel Uno vs. Steel Duo PID"
+  description="Compare the Ascaso Steel Uno and Steel Duo PID by milk workflow, U.S. circuit requirements, counter space and what to confirm before buying."
+  image="images/products/ascaso-steel-uno-vs-duo.jpg"
+  imageAlt="Comparison diagram showing the shared heater on the Steel Uno and the two independent heaters on the Steel Duo"
+  models={[{ name: uno.name, path: unoPath }, { name: duo.name, path: duoPath }]}
+  compareId="brand-compare-title"
+  compareTitle="Which Steel fits your routine?"
+  caption="The two reviewed PID models. Confirm the electrical rating of the exact unit you plan to buy."
+  rows={rows}
+>
+  <p slot="intro"><strong>Mostly espresso?</strong> The Uno gives you adjustable temperature and programmable shots with one heater. <strong>Two lattes most mornings?</strong> The Duo can brew and steam at the same time. Check the circuit before buying the U.S. model reviewed here.</p>
+  <section aria-labelledby="brand-check-title">
+    <h2 id="brand-check-title">What to check before ordering</h2>
+    <ul class="buying-guide-checklist">
+      <li><strong>Reserve space beside the machine.</strong> Ascaso lists a chassis depth of about 12.4 inches for both. Leave room at the side for the water tank and in front for the portafilter and a scale.</li>
+      <li><strong>Budget for the full setup.</strong> Both use a 58 mm portafilter. Add an <a href={`${base}/grinder/best-compact-electric-espresso-grinders/`}>espresso-capable grinder</a> for whole beans, a scale, water suited to the machine, and a pitcher if you make milk drinks.</li>
+      <li><strong>Confirm the exact unit.</strong> Get the voltage, plug, revision, accessories and service terms from the seller. Ascaso Canada lists separate 15 A and 20 A Duo versions.</li>
+    </ul>
+    <p>If you can’t find the Uno, compare the <a href={`${base}/espresso-machine/profitec-go/`}>Profitec GO</a> for an espresso-first setup. For more options, use the <a href={`${base}/espresso-machine/#coffee-finder`}>espresso machine finder</a>.</p>
+  </section>
+  <p slot="sources">Coffeedant compared the documented features and third-party demonstrations. See <a href={ascasoSources.steel}>Ascaso’s Steel specifications and photos</a>, the <a href={ascasoSources.duoUS}>U.S. Duo specifications</a>, the <a href={ascasoSources.duoCanada}>Canadian Duo specifications</a>, and <a href={`${base}/testing/`}>our review methodology</a>.</p>
+</BrandComparison>

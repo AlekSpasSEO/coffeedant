@@ -6,8 +6,8 @@ import { getReviewRouteDefinition } from '../../data/review-routes';
 import { getReviewPurchaseLinks } from '../../lib/amazon-affiliate';
 import CoffeeFinder from '../CoffeeFinder.astro';
 import ReviewSummary from './ReviewSummary.astro';
-import RancilioReviewSummary from './RancilioReviewSummary.astro';
-import { archivePhoto, isRancilioReview, silviaPath } from '../../data/reviews/rancilio-buying-audit';
+import BuyingGuideSummary from './BuyingGuideSummary.astro';
+import { reviewBuyingGuides } from '../../data/review-buying-guides';
 import ReviewRatings from './ReviewRatings.astro';
 import ReviewPerformanceDetail from './ReviewPerformanceDetail.astro';
 import AmazonTopSellerBanner from './AmazonTopSellerBanner.astro';
@@ -22,7 +22,9 @@ const reviewRoute = getReviewRouteDefinition(review.slug);
 if (!reviewRoute) throw new Error(`${review.slug} is not a canonical modern review route.`);
 const amazonBannerContext = reviewRoute.family;
 const sections = review.article.sections;
-const compact = isRancilioReview(review.slug);
+const guide = reviewBuyingGuides[review.slug];
+const compact = Boolean(guide);
+const editorialPhoto = guide?.photo;
 const legacy = (legacyReviewAnchors as Record<string, Record<string, string>>)[review.slug] ?? {};
 const compactTargets: Record<string, string> = {
   orientation: 'overview', overview: 'overview', workflow: 'milk', build: 'ownership',
@@ -56,6 +58,7 @@ const purchaseLinks = getReviewPurchaseLinks(review).map((link) => compact ? {
   affiliate: link.affiliate,
   retailer: link.retailer,
   exactProduct: link.exactProduct,
+  usOnly: link.usOnly,
 } : link);
 const reviewWithPurchaseLinks = { ...review, links: purchaseLinks };
 const primaryOffer = purchaseLinks.find((link) => link.primary) ?? purchaseLinks[0];
@@ -79,7 +82,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat('en-US', {
   month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC',
 }).format(new Date(`${date}T00:00:00Z`));
 const shortLabels: Record<string, string> = {
-  orientation: 'Overview', setup: 'Setup', espresso: 'Espresso', milk: 'Milk', workflow: 'Daily use',
+  orientation: 'Overview', setup: guide?.setupLabel ?? 'Setup', espresso: 'Espresso', milk: 'Milk', workflow: 'Daily use',
   compare: 'Compare', comparisons: 'Compare', recommendations: 'Alternatives',
   owners: 'Owner feedback', ownership: 'Ownership', faq: 'FAQ',
   grinder: 'Grinder', cost: 'Total cost', design: 'Design', build: 'Build & care', features: 'Features', value: 'Value', related: 'More guides',
@@ -144,12 +147,12 @@ const schema = {
       // Usage records document provenance; they are not necessarily licenses.
       url: media.sourceHref,
     })),
-    ...(review.slug === silviaPath ? [{
-      '@type': 'ImageObject', '@id': `${canonical}#archive-photo`,
-      contentUrl: assetUrl(archivePhoto.src), width: archivePhoto.width, height: archivePhoto.height,
-      caption: archivePhoto.caption, creditText: archivePhoto.credit,
-      creator: { '@type': 'Person', name: archivePhoto.creator },
-      license: archivePhoto.license, acquireLicensePage: archivePhoto.source,
+    ...(editorialPhoto ? [{
+      '@type': 'ImageObject', '@id': `${canonical}#${editorialPhoto.id}`,
+      contentUrl: assetUrl(editorialPhoto.src), width: editorialPhoto.width, height: editorialPhoto.height,
+      name: editorialPhoto.alt, caption: editorialPhoto.caption, creditText: editorialPhoto.credit,
+      creator: { '@type': 'Person', name: editorialPhoto.creator },
+      license: editorialPhoto.license, acquireLicensePage: editorialPhoto.source,
       isPartOf: { '@id': `${canonical}#article` },
     }] : []),
     {
@@ -163,15 +166,15 @@ const schema = {
 };
 ---
 
-<main id="main-content" class="review-page" data-product-id={review.productId} data-review-layout={compact ? 'rancilio-buying-guide' : undefined} tabindex="-1">
+<main id="main-content" class="review-page" data-product-id={review.productId} data-review-layout={compact ? 'buying-guide' : undefined} tabindex="-1">
   <div class="review-shell">
     <nav class="review-breadcrumbs" aria-label="Breadcrumb">
       <a href={base}>Home</a><span aria-hidden="true">/</span>
       <a href={`${base}${reviewRoute.basePath.replace(/^\//, '')}`}>{reviewRoute.breadcrumbLabel}</a><span aria-hidden="true">/</span>
       <span aria-current="page">{review.model}</span>
     </nav>
-    {compact
-      ? <RancilioReviewSummary review={review} aliases={anchorAliases} />
+    {guide
+      ? <BuyingGuideSummary review={review} guide={guide} aliases={anchorAliases} />
       : <ReviewSummary review={reviewWithPurchaseLinks} anchorAliases={anchorAliases} showMachineFinder={reviewRoute.family === 'espresso-machine'} />}
     {!compact && <section class="quick-answer-panel" aria-labelledby="quick-answer-title">
       <header class="quick-answer-heading"><p class="review-overline">At a glance</p><h2 id="quick-answer-title">Before you choose</h2></header>
@@ -195,10 +198,10 @@ const schema = {
             </header>
             <div class="review-section-body">
               <Fragment set:html={renderSectionHtml(section)} />
-              {review.slug === silviaPath && section.id === 'espresso' && (
-                <figure class="review-media review-inline-media rancilio-figure rancilio-archive-photo" data-source-type="community" data-user-generated="true" data-usage-record={archivePhoto.license}>
-                  <a class="review-media-link" href={archivePhoto.source} rel="ugc noopener"><img src={`${base}${archivePhoto.src}`} width={archivePhoto.width} height={archivePhoto.height} alt={archivePhoto.alt} loading="lazy" decoding="async" /></a>
-                  <figcaption><span class="review-media-source-badge">Archive photo</span>{archivePhoto.caption} <span class="review-media-credit">Image: <a href={archivePhoto.source} rel="ugc noopener">{archivePhoto.credit}</a>. Usage record: <a href={archivePhoto.license}>CC BY-SA 3.0</a> (resized).</span></figcaption>
+              {editorialPhoto?.section === section.id && (
+                <figure class:list={['review-media review-inline-media buying-guide-figure', editorialPhoto.width > editorialPhoto.height ? 'buying-guide-landscape-photo' : 'buying-guide-archive-photo']} data-source-type="community" data-user-generated="true" data-usage-record={editorialPhoto.license}>
+                  <a class="review-media-link" href={editorialPhoto.source} rel="ugc noopener"><img src={`${base}${editorialPhoto.src}`} width={editorialPhoto.width} height={editorialPhoto.height} alt={editorialPhoto.alt} loading="lazy" decoding="async" /></a>
+                  <figcaption>{editorialPhoto.caption} <span class="review-media-credit">Image: <a href={editorialPhoto.source} rel="ugc noopener">{editorialPhoto.credit}</a>. License: <a href={editorialPhoto.license}>{editorialPhoto.licenseLabel}</a>. {editorialPhoto.changeNote}</span></figcaption>
                 </figure>
               )}
               {!compact && review.evaluation.dimensions
@@ -280,9 +283,7 @@ const schema = {
           <h2 id="video-title">{compact ? 'Watch the workflow' : 'An independent video perspective'}</h2>
         </header>
         <div class="review-section-body">
-          {compact && <p>{review.slug === silviaPath
-            ? 'Whole Latte Love demonstrates the switch and steam routine on an earlier Silvia M. The video library also includes a V6 walkthrough.'
-            : 'Seattle Coffee Gear demonstrates the Pro X controls and drink workflow in its retailer review.'}</p>}
+          {guide && <p>{guide.videoIntro}</p>}
           <div class="review-video" data-review-video={selectedVideo.id} style="display:block">
             <ProductVideo video={selectedVideo} productSlug={review.slug} />
           </div>
@@ -309,16 +310,16 @@ const schema = {
           </ol>
         </div>
       </section>
-      <section class={compact ? 'rancilio-buy-panel' : 'final-verdict'} id="verdict" aria-labelledby="final-verdict-title">
+      <section class={compact ? 'buying-guide-buy-panel' : 'final-verdict'} id="verdict" aria-labelledby="final-verdict-title">
         {(anchorAliases.verdict ?? []).map(alias => <span id={alias} class="review-anchor-alias" style="position:static;display:block;width:0;height:0" data-legacy-anchor-target="verdict" aria-hidden="true"></span>)}
         {!compact && <p class="review-overline">The buying decision</p>}<h2 id="final-verdict-title">{review.article.finalTitle}</h2>
         {review.article.finalVerdict.map((paragraph) => <p>{paragraph}</p>)}
         {compact ? (
           <Fragment>
             <p class="affiliate-note" data-us-review-buying><strong>Affiliate disclosure:</strong> As an Amazon Associate, Coffeedant earns from qualifying purchases.</p>
-            <div class="rancilio-actions">
+            <div class="buying-guide-actions">
               {[...purchaseLinks.filter(link => !link.affiliate), ...purchaseLinks.filter(link => link.affiliate)].map(link => (
-                <a class={link === primarySeller ? 'rancilio-button' : undefined} href={link.href} data-us-review-buying={link === primarySeller ? '' : undefined} rel={link.affiliate ? 'sponsored nofollow' : undefined}>{link.label}</a>
+                <a class={link === primarySeller ? 'buying-guide-button' : undefined} href={link.href} data-us-review-buying={link === primarySeller || link.usOnly ? '' : undefined} rel={link.affiliate ? 'sponsored nofollow' : undefined}>{link.label}</a>
               ))}
             </div>
           </Fragment>
@@ -328,7 +329,7 @@ const schema = {
     <footer class="review-meta-footer">
       <span>Published <time datetime={review.published}>{formatDate(review.published)}</time></span>
       <span>Updated <time datetime={review.updated}>{formatDate(review.updated)}</time></span>
-      <a href={`${base}${review.brandPath.replace(/^\//, '')}`}>{compact ? 'Compare both Rancilio models' : review.brandLinkLabel ?? `More ${review.brand} reviews`}</a>
+      <a href={`${base}${review.brandPath.replace(/^\//, '')}`}>{compact ? `Compare both ${review.brand} models` : review.brandLinkLabel ?? `More ${review.brand} reviews`}</a>
     </footer>
   </div>
 </main>

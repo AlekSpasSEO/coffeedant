@@ -2,6 +2,7 @@ import type { MachineReviewData } from './reviews';
 import { applyReviewRefresh } from './review-refreshes';
 import { applyPriorityReviewUpgrade } from './reviews/priority-review-upgrades';
 import { applyRancilioBuyingAudit } from './reviews/rancilio-buying-audit';
+import { applyAscasoBuyingAudit } from './reviews/ascaso-buying-audit';
 import manifest from './review-batch-manifest.json';
 import { automaticReviews } from './reviews/automatics';
 import { brevilleCoreReviews } from './reviews/breville-core';
@@ -248,7 +249,8 @@ export const modernReviews: MachineReviewData[] = manifest.map((item) => {
   if (review.productId !== item.productId) {
     throw new Error(`${item.slug} uses ${review.productId}; expected ${item.productId}.`);
   }
-  return applyRancilioBuyingAudit(applyPriorityReviewUpgrade(applyReviewRefresh(review)));
+  const refreshed = applyPriorityReviewUpgrade(applyReviewRefresh(review));
+  return applyAscasoBuyingAudit(applyRancilioBuyingAudit(refreshed));
 });
 
 export const modernReviewSlugs = new Set(modernReviews.map((review) => review.slug));

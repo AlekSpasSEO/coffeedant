@@ -50,11 +50,13 @@ for (const [path, brand] of links) {
   }
 }
 
-const rancilioHub = nodes(parse(read('dist/rancilio/index.html'))).find((node) => node.tagName === 'main');
-const rancilioReviews = [...links].filter(([,brand]) => brand === 'Rancilio').map(([path]) => path);
-const rancilioHubReviews = nodes(rancilioHub).filter((node) => node.tagName === 'a' && hasClass(node, 'rancilio-button'))
-  .map((node) => attr(node, 'href')).filter((href) => href.startsWith(base)).map(route);
-assert.deepEqual(rancilioHubReviews.sort(), rancilioReviews.sort(), 'Rancilio comparison links to every Rancilio review');
+for (const brand of ['Ascaso', 'Rancilio']) {
+  const hub = nodes(parse(read(`dist/${brand.toLowerCase()}/index.html`))).find((node) => node.tagName === 'main');
+  const brandReviews = [...links].filter(([, name]) => name === brand).map(([path]) => path);
+  const hubReviews = nodes(hub).filter((node) => node.tagName === 'a' && hasClass(node, 'buying-guide-button'))
+    .map((node) => attr(node, 'href')).filter((href) => href.startsWith(base)).map(route);
+  assert.deepEqual(hubReviews.sort(), brandReviews.sort(), `${brand} comparison links to every ${brand} review`);
+}
 
 const directory = nodes(parse(read('dist/brands/index.html')));
 for (const link of nodes(menu).filter((node) => node.tagName === 'a')) {

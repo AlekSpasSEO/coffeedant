@@ -1,0 +1,58 @@
+---
+import HomeLayout from '../layouts/HomeLayout.astro';
+import '../styles/buying-guide.css';
+
+type Model = { name: string; path: string };
+interface Props {
+  brand: string;
+  path: string;
+  title: string;
+  heading: string;
+  description: string;
+  image: string;
+  imageAlt: string;
+  models: [Model, Model];
+  compareId: string;
+  compareTitle: string;
+  caption: string;
+  rows: Array<{ label: string; first: string; second: string }>;
+}
+const { brand, path, title, heading, description, image, imageAlt, models, compareId, compareTitle, caption, rows } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<HomeLayout title={title} description={description} canonicalPath={path} image={image} imageAlt={imageAlt}>
+  <main id="main-content" tabindex="-1" class="buying-guide-hub">
+    <nav aria-label="Breadcrumb" class="buying-guide-breadcrumb">
+      <a href={`${base}/brands/`}>All brands</a><span aria-hidden="true"> / </span><span aria-current="page">{brand}</span>
+    </nav>
+    <header class="buying-guide-hero">
+      <div>
+        <slot name="eyebrow" />
+        <h1>{heading}</h1>
+        <slot name="intro" />
+        <div class="buying-guide-actions">
+          <a class="buying-guide-button" href="#compare">Compare both models</a>
+        </div>
+      </div>
+      <figure class="buying-guide-figure">
+        <img src={`${base}/${image}`} width="1200" height="630" alt={imageAlt} decoding="async" fetchpriority="high" />
+        <figcaption>Coffeedant diagram based on {brand} specifications.</figcaption>
+      </figure>
+    </header>
+    <section id="compare" aria-labelledby={compareId}>
+      <h2 id={compareId}>{compareTitle}</h2>
+      <table class="buying-guide-comparison">
+        <caption>{caption}</caption>
+        <thead><tr><td></td>{models.map(model => <th scope="col">{model.name}</th>)}</tr></thead>
+        <tbody>{rows.map(row => <tr><th scope="row">{row.label}</th><td>{row.first}</td><td>{row.second}</td></tr>)}</tbody>
+      </table>
+      <div class="buying-guide-review-links">
+        {models.map(model => (
+          <a class="buying-guide-button" href={`${base}${model.path}`}>Read the {model.name} review <span aria-hidden="true">→</span></a>
+        ))}
+      </div>
+    </section>
+    <slot />
+    <footer class="buying-guide-evidence"><slot name="sources" /></footer>
+  </main>
+</HomeLayout>

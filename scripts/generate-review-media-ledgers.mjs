@@ -73,11 +73,11 @@ for (const item of reviews) {
     const section = sectionMatches.at(-1)?.[1] ?? 'article';
     const sourceHref = decodeHtml(figure.match(/<a\b[^>]*class="review-media-link"[^>]*href="([^"]+)"/i)?.[1] ?? '');
     const credit = cleanText(figure.match(/Image:\s*<a\b[^>]*>([\s\S]*?)<\/a>/i)?.[1] ?? 'Source publisher');
-    const usageLabel = cleanText(figure.match(/Usage record:\s*<a\b[^>]*>([\s\S]*?)<\/a>/i)?.[1] ?? 'Source record');
+    const usageLabel = cleanText(figure.match(/(?:Usage record|License):\s*<a\b[^>]*>([\s\S]*?)<\/a>/i)?.[1] ?? 'Source record');
     const creditHtml = figure.match(/<span\b[^>]*class="review-media-credit"[^>]*>([\s\S]*?)<\/span>/i)?.[1] ?? '';
     const disclosure = cleanText(creditHtml
       .replace(/Image:\s*<a\b[^>]*>[\s\S]*?<\/a>\.?/i, ' ')
-      .replace(/Usage record:\s*<a\b[^>]*>[\s\S]*?<\/a>\.?/i, ' '));
+      .replace(/(?:Usage record|License):\s*<a\b[^>]*>[\s\S]*?<\/a>\.?/i, ' '));
     const captionHtml = (figure.match(/<figcaption>([\s\S]*?)<\/figcaption>/i)?.[1] ?? '')
       .replace(/<span\b[^>]*class="review-media-source-badge"[^>]*>[\s\S]*?<\/span>/i, ' ')
       .replace(/<span\b[^>]*class="review-media-credit"[^>]*>[\s\S]*?<\/span>/i, ' ');

@@ -9,6 +9,7 @@ export type ReviewLink = {
   href: string;
   note?: string;
   affiliate?: boolean;
+  usOnly?: boolean;
   primary?: boolean;
   retailer?: 'Amazon';
   exactProduct?: boolean;

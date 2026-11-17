@@ -29,7 +29,7 @@ for(const p of products){
  assert.equal(new Set(selected.map(v=>v.id)).size,selected.length,`${p.slug}: no duplicate selections`);
  const reviewDoc=parse(read(`dist${p.slug}index.html`)),reviewGraph=graph(reviewDoc),reviewVideos=walk(reviewDoc).filter(n=>attr(n,'data-product-video')!==undefined),reviewSchemas=reviewGraph.filter(s=>s['@type']==='VideoObject');
  const reviewProducts=schemaNodesOfType(reviewGraph,'Product');
- const researchGuide=walk(reviewDoc).some(n=>attr(n,'data-review-layout')==='rancilio-buying-guide');
+ const researchGuide=walk(reviewDoc).some(n=>attr(n,'data-review-layout')==='buying-guide');
  assert.equal(reviewProducts.length,researchGuide?0:1,`${p.slug}: avoid duplicate or incomplete Product markup`);
  assert.equal(reviewSubject(reviewGraph)?.['@id'],`https://coffeedant.com${p.slug}#product`,`${p.slug}: authoritative review subject`);
  if(!researchGuide&&!p.slug.startsWith('/coffee-beans/')){

@@ -1,7 +1,6 @@
 ---
-import HomeLayout from '../layouts/HomeLayout.astro';
+import BrandComparison from './BrandComparison.astro';
 import { rancilioBrandPath, rancilioModels, proXPath, silviaPath } from '../data/reviews/rancilio-buying-audit';
-import '../styles/rancilio.css';
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const silvia = rancilioModels[silviaPath];
@@ -17,57 +16,33 @@ const decisionRows = [
   { label: 'Setup budget', key: 'budget' },
 ] as const;
 ---
-<HomeLayout
+<BrandComparison
+  brand="Rancilio"
+  path={rancilioBrandPath}
   title="Rancilio Silvia V6 vs. Silvia Pro X | Coffeedant"
+  heading="Silvia V6 vs. Silvia Pro X"
   description="Compare Rancilio’s Silvia V6 and Silvia Pro X by milk workflow, temperature control, counter space and what you need to buy separately."
-  canonicalPath={rancilioBrandPath}
   image={image}
   imageAlt={imageAlt}
+  models={[{ name: silvia.name, path: silviaPath }, { name: proX.name, path: proXPath }]}
+  compareId="rancilio-compare-title"
+  compareTitle="What changes when you upgrade?"
+  caption="Stock North American models. Dimensions are width × depth × height."
+  rows={decisionRows.map(({ label, key }) => ({ label, first: silvia[key], second: proX[key] }))}
 >
-  <main id="main-content" tabindex="-1" class="rancilio-hub">
-    <nav aria-label="Breadcrumb" class="rancilio-breadcrumb">
-      <a href={`${base}/brands/`}>All brands</a><span aria-hidden="true"> / </span><span aria-current="page">Rancilio</span>
-    </nav>
-    <header class="rancilio-hero">
-      <div>
-        <p class="eyebrow">Rancilio espresso machines</p>
-        <h1>Silvia V6 vs. Silvia Pro X</h1>
-        <p><strong>Mostly espresso?</strong> Start with the Silvia V6 if you’re happy to learn its heating routine. <strong>Two lattes most mornings?</strong> The Silvia Pro X lets you brew and steam at the same time.</p>
-        <p>Both need an espresso grinder. You grind, start and stop the shot, and steam milk yourself.</p>
-        <div class="rancilio-actions">
-          <a class="rancilio-button" href="#compare">Compare both models</a>
-        </div>
-      </div>
-      <figure class="rancilio-figure">
-        <img src={`${base}/${image}`} width="1200" height="630" alt={imageAlt} decoding="async" fetchpriority="high" />
-        <figcaption>Coffeedant diagram based on Rancilio specifications.</figcaption>
-      </figure>
-    </header>
-    <section id="compare" aria-labelledby="rancilio-compare-title">
-      <h2 id="rancilio-compare-title">What changes when you upgrade?</h2>
-      <table class="rancilio-comparison">
-        <caption>Stock North American models. Dimensions are width × depth × height.</caption>
-        <thead><tr><td></td><th scope="col">Silvia V6</th><th scope="col">Silvia Pro X</th></tr></thead>
-        <tbody>
-          {decisionRows.map(({ label, key }) => <tr><th scope="row">{label}</th><td>{silvia[key]}</td><td>{proX[key]}</td></tr>)}
-        </tbody>
-      </table>
-      <div class="rancilio-review-links">
-        <a class="rancilio-button" href={`${base}${silviaPath}`}>Read the Silvia V6 review <span aria-hidden="true">→</span></a>
-        <a class="rancilio-button" href={`${base}${proXPath}`}>Read the Silvia Pro X review <span aria-hidden="true">→</span></a>
-      </div>
-    </section>
+  <p slot="eyebrow" class="eyebrow">Rancilio espresso machines</p>
+  <Fragment slot="intro">
+    <p><strong>Mostly espresso?</strong> Start with the Silvia V6 if you’re happy to learn its heating routine. <strong>Two lattes most mornings?</strong> The Silvia Pro X lets you brew and steam at the same time.</p>
+    <p>Both need an espresso grinder. You grind, start and stop the shot, and steam milk yourself.</p>
+  </Fragment>
     <section aria-labelledby="rancilio-setup-title">
       <h2 id="rancilio-setup-title">Check your setup before ordering</h2>
-      <ul class="rancilio-checklist">
+      <ul class="buying-guide-checklist">
         <li><strong>Measure the working space.</strong> The Pro X is just 0.6 inches wider, but 5.1 inches deeper. Leave room above either machine to fill the tank and in front to remove the tray.</li>
         <li><strong>Price the whole setup.</strong> Include an <a href={`${base}/grinder/best-compact-electric-espresso-grinders/`}>espresso grinder</a>, a scale, suitable water and a pitcher if you make milk drinks.</li>
         <li><strong>Confirm the exact listing.</strong> Check voltage, accessories and who handles warranty repairs. A Silvia with a seller-installed PID is different from a stock V6; an older Silvia Pro is different from a Pro X.</li>
       </ul>
       <p>If you want factory temperature control for espresso without a second boiler, compare the <a href={`${base}/espresso-machine/profitec-go/`}>Profitec GO</a>. To browse beyond Rancilio, <a href={`${base}/espresso-machine/#coffee-finder`}>open the espresso machine finder</a>.</p>
     </section>
-    <footer class="rancilio-evidence">
-      <p>This is a research comparison. Coffeedant did not bench-test either machine. See the <a href={silvia.official}>official Silvia photos and specifications</a>, <a href={proX.official}>official Pro X photos and specifications</a> and <a href={`${base}/testing/`}>our review methodology</a>.</p>
-    </footer>
-  </main>
-</HomeLayout>
+  <p slot="sources">This is a research comparison. Coffeedant did not bench-test either machine. See the <a href={silvia.official}>official Silvia photos and specifications</a>, <a href={proX.official}>official Pro X photos and specifications</a> and <a href={`${base}/testing/`}>our review methodology</a>.</p>
+</BrandComparison>

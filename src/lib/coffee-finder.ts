@@ -4,6 +4,7 @@ import { modernReviews } from '../data/review-registry';
 import { bambinoReview, getReviewOverallScore, type MachineReviewData } from '../data/reviews';
 import { getReviewRouteDefinition } from '../data/review-routes';
 import { proXPath, silviaPath } from '../data/reviews/rancilio-buying-audit';
+import { duoPath, unoPath } from '../data/reviews/ascaso-buying-audit';
 import { getReviewPurchaseLinks } from './amazon-affiliate';
 import { getProductVideos, getVideoWatchPath, type ProductVideo } from './product-videos';
 import finderInterface from '../../localization/interface.json';
@@ -125,6 +126,8 @@ const finderIdentityOverrides: Record<string, Partial<Pick<CoffeeFinderItem, 'wo
   // routine. Classify the Pro X by its working depth and two-boiler milk workflow.
   [silviaPath]: { drink: 'mixed', footprint: 'compact', volume: 'one-two' },
   [proXPath]: { drink: 'milk', footprint: 'standard', volume: 'three-five' },
+  [unoPath]: { drink: 'mixed', footprint: 'compact', volume: 'one-two' },
+  [duoPath]: { drink: 'milk', footprint: 'compact', volume: 'three-five' },
 };
 
 const inferWorkflow = (review: MachineReviewData, text: string): CoffeeFinderWorkflow => {
