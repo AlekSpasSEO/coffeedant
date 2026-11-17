@@ -6,6 +6,8 @@ import { getReviewRouteDefinition } from '../../data/review-routes';
 import { getReviewPurchaseLinks } from '../../lib/amazon-affiliate';
 import CoffeeFinder from '../CoffeeFinder.astro';
 import ReviewSummary from './ReviewSummary.astro';
+import RancilioReviewSummary from './RancilioReviewSummary.astro';
+import { archivePhoto, isRancilioReview, silviaPath } from '../../data/reviews/rancilio-buying-audit';
 import ReviewRatings from './ReviewRatings.astro';
 import ReviewPerformanceDetail from './ReviewPerformanceDetail.astro';
 import AmazonTopSellerBanner from './AmazonTopSellerBanner.astro';
@@ -20,14 +22,25 @@ const reviewRoute = getReviewRouteDefinition(review.slug);
 if (!reviewRoute) throw new Error(`${review.slug} is not a canonical modern review route.`);
 const amazonBannerContext = reviewRoute.family;
 const sections = review.article.sections;
-const anchorAliases = getReviewAnchorAliases(review, (legacyReviewAnchors as Record<string, Record<string, string>>)[review.slug] ?? {});
+const compact = isRancilioReview(review.slug);
+const legacy = (legacyReviewAnchors as Record<string, Record<string, string>>)[review.slug] ?? {};
+const compactTargets: Record<string, string> = {
+  orientation: 'overview', overview: 'overview', workflow: 'milk', build: 'ownership',
+  features: 'espresso', value: 'verdict', faq: 'setup', ratings: 'methodology',
+  recommendations: 'comparisons', 'related-guides': 'comparisons', 'decision-map': 'comparisons',
+  'how-to-use': 'milk', 'hardware-essentials': 'espresso', 'dual-boilers': 'espresso',
+  pid: 'espresso', versions: 'ownership',
+};
+const anchorAliases = getReviewAnchorAliases(review, compact ? Object.fromEntries(
+  Object.entries({ ...compactTargets, ...legacy }).map(([alias, category]) => [alias, compactTargets[category] ?? category]),
+) : legacy);
 const performanceIndex = sections.findIndex((section) => section.id === 'espresso');
 const grinderBannerIndex = performanceIndex >= 0 ? performanceIndex : Math.min(2, sections.length - 1);
 const workflowIndex = sections.findIndex((section, index) => section.id === 'workflow' && index > grinderBannerIndex);
 const setupBannerIndex = workflowIndex >= 0 ? workflowIndex : Math.min(Math.max(grinderBannerIndex + 2, 4), sections.length - 1);
 const productNoun = reviewRoute.family === 'grinder' ? 'grinder' : 'machine';
 const allInlineMedia = reviewInlineMedia[review.slug] ?? [];
-const inlineMedia = allInlineMedia
+const inlineMedia = (compact ? [] : allInlineMedia)
   .slice(0, 2)
   .map((media, index) => ({ ...media, afterSection: index === 0 ? 1 : 5 }));
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
@@ -35,9 +48,18 @@ const assetUrl = (path: string) => /^https:\/\//i.test(path)
   ? path
   : new URL(`${base}${path.replace(/^\//, '')}`, Astro.site ?? Astro.url).toString();
 const canonical = new URL(review.slug.replace(/^\//, ''), 'https://coffeedant.com/').toString();
-const purchaseLinks = getReviewPurchaseLinks(review);
+const purchaseLinks = getReviewPurchaseLinks(review).map((link) => compact ? {
+  label: link.retailer === 'Amazon'
+    ? (link.conditionLabel === 'Amazon Renewed' ? 'Check Amazon Renewed' : link.exactProduct ? 'Check price on Amazon' : 'Search Amazon for this model')
+    : link.label,
+  href: link.href,
+  affiliate: link.affiliate,
+  retailer: link.retailer,
+  exactProduct: link.exactProduct,
+} : link);
 const reviewWithPurchaseLinks = { ...review, links: purchaseLinks };
 const primaryOffer = purchaseLinks.find((link) => link.primary) ?? purchaseLinks[0];
+const primarySeller = compact ? purchaseLinks.find((link) => !link.affiliate) : undefined;
 const stickyPrice = primaryOffer?.price ?? (primaryOffer?.exactProduct ? 'Check live price' : 'Search current offers');
 const stickyAvailability = primaryOffer?.availability ?? (primaryOffer?.exactProduct ? 'Amazon product page' : 'Verify the exact model');
 const redditSources = review.article.sources.filter((source) => /^https:\/\/(?:www\.)?reddit\.com\//i.test(source.href));
@@ -63,7 +85,7 @@ const shortLabels: Record<string, string> = {
   grinder: 'Grinder', cost: 'Total cost', design: 'Design', build: 'Build & care', features: 'Features', value: 'Value', related: 'More guides',
 };
 const jumpLinks = [
-  { id: 'ratings', label: 'Ratings' },
+  ...(!compact ? [{ id: 'ratings', label: 'Ratings' }] : []),
   ...review.article.sections.map((section) => ({
     id: section.id,
     label: ['espresso', 'milk'].includes(section.id)
@@ -71,8 +93,9 @@ const jumpLinks = [
       : shortLabels[section.id] ?? section.title,
   })),
   ...(selectedVideo ? [{ id: 'video', label: 'Video' }] : []), { id: 'methodology', label: 'Methodology' },
-  { id: 'sources', label: 'Sources' }, { id: 'verdict', label: 'Verdict' },
+  { id: 'sources', label: 'Sources' }, { id: 'verdict', label: compact ? 'Where to buy' : 'Verdict' },
 ];
+const displayedJumpLinks = compact ? jumpLinks.filter(({ id }) => ['espresso', 'milk', 'setup', 'comparisons', 'verdict'].includes(id)) : jumpLinks;
 const author = {
   '@type': 'Person', name: review.author.name, jobTitle: review.author.role,
   image: assetUrl(review.author.image), url: 'https://coffeedant.com/about/',
@@ -92,12 +115,15 @@ const schema = {
   '@context': 'https://schema.org',
   '@graph': [
     {
-      '@type': 'Product', '@id': `${canonical}#product`,
-      name: `${review.brand} ${review.model}`, sku: review.sku, identifier: review.productId,
-      category: review.category, image: assetUrl(review.image),
-      description: review.description, url: canonical,
-      brand: { '@type': 'Brand', name: review.brand },
-      review: editorialReview,
+      // Preserve the Article and video topic without declaring a Product rich result
+      // for an article that publishes neither offers nor an editorial rating.
+      '@type': compact ? 'Thing' : 'Product', '@id': `${canonical}#product`,
+      name: `${review.brand} ${review.model}`, identifier: review.productId,
+      image: assetUrl(review.image), description: review.description, url: canonical,
+      ...(!compact ? {
+        sku: review.sku, category: review.category, brand: { '@type': 'Brand', name: review.brand },
+        review: editorialReview,
+      } : {}),
     },
     {
       '@type': 'Article', '@id': `${canonical}#article`, headline: review.title,
@@ -118,6 +144,14 @@ const schema = {
       // Usage records document provenance; they are not necessarily licenses.
       url: media.sourceHref,
     })),
+    ...(review.slug === silviaPath ? [{
+      '@type': 'ImageObject', '@id': `${canonical}#archive-photo`,
+      contentUrl: assetUrl(archivePhoto.src), width: archivePhoto.width, height: archivePhoto.height,
+      caption: archivePhoto.caption, creditText: archivePhoto.credit,
+      creator: { '@type': 'Person', name: archivePhoto.creator },
+      license: archivePhoto.license, acquireLicensePage: archivePhoto.source,
+      isPartOf: { '@id': `${canonical}#article` },
+    }] : []),
     {
       '@type': 'BreadcrumbList', itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://coffeedant.com/' },
@@ -129,37 +163,45 @@ const schema = {
 };
 ---
 
-<main id="main-content" class="review-page" data-product-id={review.productId} tabindex="-1">
+<main id="main-content" class="review-page" data-product-id={review.productId} data-review-layout={compact ? 'rancilio-buying-guide' : undefined} tabindex="-1">
   <div class="review-shell">
     <nav class="review-breadcrumbs" aria-label="Breadcrumb">
       <a href={base}>Home</a><span aria-hidden="true">/</span>
       <a href={`${base}${reviewRoute.basePath.replace(/^\//, '')}`}>{reviewRoute.breadcrumbLabel}</a><span aria-hidden="true">/</span>
       <span aria-current="page">{review.model}</span>
     </nav>
-    <ReviewSummary review={reviewWithPurchaseLinks} anchorAliases={anchorAliases} showMachineFinder={reviewRoute.family === 'espresso-machine'} />
-    <section class="quick-answer-panel" aria-labelledby="quick-answer-title">
+    {compact
+      ? <RancilioReviewSummary review={review} aliases={anchorAliases} />
+      : <ReviewSummary review={reviewWithPurchaseLinks} anchorAliases={anchorAliases} showMachineFinder={reviewRoute.family === 'espresso-machine'} />}
+    {!compact && <section class="quick-answer-panel" aria-labelledby="quick-answer-title">
       <header class="quick-answer-heading"><p class="review-overline">At a glance</p><h2 id="quick-answer-title">Before you choose</h2></header>
       <dl class="quick-answer-grid">
         {review.quickAnswers.map((item) => <div><dt>{item.question}</dt><dd>{item.answer}</dd></div>)}
       </dl>
-    </section>
-    <AmazonTopSellerBanner placement="machine" context={amazonBannerContext} />
+    </section>}
+    {!compact && <AmazonTopSellerBanner placement="machine" context={amazonBannerContext} />}
     <nav class="review-jumpbar" aria-label="Review sections">
-      <span>In this review</span><div>{jumpLinks.map((link) => <a href={`#${link.id}`}>{link.label}</a>)}</div>
+      <span>In this review</span><div>{displayedJumpLinks.map((link) => <a href={`#${link.id}`}>{link.label}</a>)}</div>
     </nav>
     <article class="review-article" aria-label={`${review.brand} ${review.model} full review`}>
-      <ReviewRatings evaluation={review.evaluation} productName={`${review.brand} ${review.model}`} anchorAliases={anchorAliases.ratings ?? []} />
+      {!compact && <ReviewRatings evaluation={review.evaluation} productName={`${review.brand} ${review.model}`} anchorAliases={anchorAliases.ratings ?? []} />}
       {review.article.sections.map((section, index) => (
         <Fragment>
           <section class="review-section" id={section.id} aria-labelledby={`${section.id}-title`}>
             {(anchorAliases[section.id] ?? []).map(alias => <span id={alias} class="review-anchor-alias" data-legacy-anchor-target={section.id} aria-hidden="true"></span>)}
             <header class="review-section-heading">
-              <p class="review-overline"><span class="review-section-number">{String(index + 2).padStart(2, '0')}</span>{section.eyebrow}</p>
+              {!compact && <p class="review-overline"><span class="review-section-number">{String(index + 2).padStart(2, '0')}</span>{section.eyebrow}</p>}
               <h2 id={`${section.id}-title`}>{section.title}</h2>
             </header>
             <div class="review-section-body">
               <Fragment set:html={renderSectionHtml(section)} />
-              {review.evaluation.dimensions
+              {review.slug === silviaPath && section.id === 'espresso' && (
+                <figure class="review-media review-inline-media rancilio-figure rancilio-archive-photo" data-source-type="community" data-user-generated="true" data-usage-record={archivePhoto.license}>
+                  <a class="review-media-link" href={archivePhoto.source} rel="ugc noopener"><img src={`${base}${archivePhoto.src}`} width={archivePhoto.width} height={archivePhoto.height} alt={archivePhoto.alt} loading="lazy" decoding="async" /></a>
+                  <figcaption><span class="review-media-source-badge">Archive photo</span>{archivePhoto.caption} <span class="review-media-credit">Image: <a href={archivePhoto.source} rel="ugc noopener">{archivePhoto.credit}</a>. Usage record: <a href={archivePhoto.license}>CC BY-SA 3.0</a> (resized).</span></figcaption>
+                </figure>
+              )}
+              {!compact && review.evaluation.dimensions
                 .filter((dimension) => dimension.deepDiveId === section.id)
                 .map((dimension) => <ReviewPerformanceDetail dimension={dimension} />)}
               {inlineMedia
@@ -219,7 +261,7 @@ const schema = {
               )}
             </div>
           </section>
-          {index === 1 && (
+          {!compact && index === 1 && (
             <CoffeeFinder
               variant="banner"
               excludePath={review.slug}
@@ -228,13 +270,19 @@ const schema = {
               intro="Pick any budget, workflow, or drink preference. The finder searches the complete Coffeedant espresso-machine catalog and keeps this review out of the comparison results."
             />
           )}
-          {index === grinderBannerIndex && <AmazonTopSellerBanner placement="grinder" context={amazonBannerContext} />}
-          {index === setupBannerIndex && <AmazonTopSellerBanner placement="setup" context={amazonBannerContext} />}
+          {!compact && index === grinderBannerIndex && <AmazonTopSellerBanner placement="grinder" context={amazonBannerContext} />}
+          {!compact && index === setupBannerIndex && <AmazonTopSellerBanner placement="setup" context={amazonBannerContext} />}
         </Fragment>
       ))}
       {selectedVideo && <section class="review-section" id="video" aria-labelledby="video-title">
-        <header class="review-section-heading"><p class="review-overline">See the {productNoun} in use</p><h2 id="video-title">An independent video perspective</h2></header>
+        <header class="review-section-heading">
+          {!compact && <p class="review-overline">See the {productNoun} in use</p>}
+          <h2 id="video-title">{compact ? 'Watch the workflow' : 'An independent video perspective'}</h2>
+        </header>
         <div class="review-section-body">
+          {compact && <p>{review.slug === silviaPath
+            ? 'Whole Latte Love demonstrates the switch and steam routine on an earlier Silvia M. The video library also includes a V6 walkthrough.'
+            : 'Seattle Coffee Gear demonstrates the Pro X controls and drink workflow in its retailer review.'}</p>}
           <div class="review-video" data-review-video={selectedVideo.id} style="display:block">
             <ProductVideo video={selectedVideo} productSlug={review.slug} />
           </div>
@@ -243,8 +291,9 @@ const schema = {
       </section>}
       <section class="review-section review-methodology" id="methodology" aria-labelledby="methodology-title">
         <span id="testing" class="review-anchor-alias" aria-hidden="true"></span>
+        {compact && <span id="ratings" class="review-anchor-alias" aria-hidden="true"></span>}
         {(anchorAliases.methodology ?? []).map(alias => <span id={alias} class="review-anchor-alias" data-legacy-anchor-target="methodology" aria-hidden="true"></span>)}
-        <header class="review-section-heading"><p class="review-overline">Why I trust the verdict</p><h2 id="methodology-title">What the evidence lets me say with confidence</h2></header>
+        <header class="review-section-heading">{!compact && <p class="review-overline">Why I trust the verdict</p>}<h2 id="methodology-title">{compact ? 'How we researched this review' : 'What the evidence lets me say with confidence'}</h2></header>
         <div class="review-section-body">
           {review.article.methodology.trim().startsWith('<') ? <Fragment set:html={review.article.methodology} /> : <p>{review.article.methodology}</p>}
         </div>
@@ -260,21 +309,30 @@ const schema = {
           </ol>
         </div>
       </section>
-      <section class="final-verdict" id="verdict" aria-labelledby="final-verdict-title">
+      <section class={compact ? 'rancilio-buy-panel' : 'final-verdict'} id="verdict" aria-labelledby="final-verdict-title">
         {(anchorAliases.verdict ?? []).map(alias => <span id={alias} class="review-anchor-alias" style="position:static;display:block;width:0;height:0" data-legacy-anchor-target="verdict" aria-hidden="true"></span>)}
-        <p class="review-overline">The buying decision</p><h2 id="final-verdict-title">{review.article.finalTitle}</h2>
+        {!compact && <p class="review-overline">The buying decision</p>}<h2 id="final-verdict-title">{review.article.finalTitle}</h2>
         {review.article.finalVerdict.map((paragraph) => <p>{paragraph}</p>)}
-        {primaryOffer && <a class="review-buy-button review-buy-button-dark" href={primaryOffer.href} target="_blank" rel={primaryOffer.affiliate ? 'nofollow sponsored noopener' : 'noopener'}>{primaryOffer.label} <span aria-hidden="true">↗</span></a>}
+        {compact ? (
+          <Fragment>
+            <p class="affiliate-note" data-us-review-buying><strong>Affiliate disclosure:</strong> As an Amazon Associate, Coffeedant earns from qualifying purchases.</p>
+            <div class="rancilio-actions">
+              {[...purchaseLinks.filter(link => !link.affiliate), ...purchaseLinks.filter(link => link.affiliate)].map(link => (
+                <a class={link === primarySeller ? 'rancilio-button' : undefined} href={link.href} data-us-review-buying={link === primarySeller ? '' : undefined} rel={link.affiliate ? 'sponsored nofollow' : undefined}>{link.label}</a>
+              ))}
+            </div>
+          </Fragment>
+        ) : primaryOffer && <a class="review-buy-button review-buy-button-dark" href={primaryOffer.href} target="_blank" rel={primaryOffer.affiliate ? 'nofollow sponsored noopener' : 'noopener'}>{primaryOffer.label} <span aria-hidden="true">↗</span></a>}
       </section>
     </article>
     <footer class="review-meta-footer">
       <span>Published <time datetime={review.published}>{formatDate(review.published)}</time></span>
       <span>Updated <time datetime={review.updated}>{formatDate(review.updated)}</time></span>
-      <a href={`${base}${review.brandPath.replace(/^\//, '')}`}>{review.brandLinkLabel ?? `More ${review.brand} reviews`}</a>
+      <a href={`${base}${review.brandPath.replace(/^\//, '')}`}>{compact ? 'Compare both Rancilio models' : review.brandLinkLabel ?? `More ${review.brand} reviews`}</a>
     </footer>
   </div>
 </main>
-{primaryOffer && (
+{!compact && primaryOffer && (
   <aside class="review-sticky-offer" data-review-sticky-offer hidden aria-label={`Amazon offer for ${review.brand} ${review.model}`}>
     <div class="review-sticky-offer-copy">
       <span>{review.brand} {review.model}</span>

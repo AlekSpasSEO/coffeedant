@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "e93693d1bc5e9279d68dfaf8562f142fff05b2b71ae09267b0e18127425f88db",
+      "source": "Choose the Pro X if you regularly make two or more lattes in one session and want to pull shots and steam without switching boiler modes. You still grind separately, stop each shot and texture milk yourself.",
+      "kind": "finder",
+      "context": "Rancilio Silvia Pro X: description"
+    },
+    {
+      "id": "ae0b33e7f7c13f0b182ee2444742e4efd463863e423e3c5221cd6f78f530dd45",
+      "source": "Silvia Pro X diagram showing separate boilers for espresso and steam",
+      "kind": "finder",
+      "context": "Rancilio Silvia Pro X: imageAlt"
+    },
+    {
+      "id": "ae3be86e4725d80fb067d461caec4ce00c67d365c8efd89be937aa5ba464e6ea",
+      "source": "Silvia V6 diagram showing one boiler shared by espresso and steam",
+      "kind": "finder",
+      "context": "Rancilio Silvia V6: imageAlt"
+    }
+  ],
+  "snapshotHash": "8517ae92cd10a9cc3e216cfef1ac0ab6e206752d4d582b72074b2f1f7d67c042"
+}

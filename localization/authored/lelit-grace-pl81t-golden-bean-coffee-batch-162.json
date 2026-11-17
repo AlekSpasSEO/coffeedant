@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "lelit-grace-pl81t-golden-bean-coffee-batch-162.source.json",
+  "snapshotHash": "4e61c1a9c6fa90981f4ad8c475ceecf6d31456b89e7d16870828217e673d0c3f",
+  "routes": {
+    "nl": {
+      "/espresso-machine/lelit-grace-pl81t/video/golden-bean-coffee/": "/espressomachine/lelit-grace-pl81t/video/golden-bean-coffee/"
+    },
+    "fr": {
+      "/espresso-machine/lelit-grace-pl81t/video/golden-bean-coffee/": "/machine-a-espresso/lelit-grace-pl81t/video/golden-bean-coffee/"
+    }
+  },
+  "translations": {
+    "0": {
+      "nl": "Lelit Grace PL81T: Hoe ik in 3 minuten de perfecte espresso zet | LELIT GRACE PL81T · Golden Bean Coffee (2025-02-28) | Coffeedant",
+      "de": "Lelit Grace PL81T: Wie ich in 3 Minuten den perfekten Espresso zubereite | LELIT GRACE PL81T · Golden Bean Coffee (2025-02-28) | Coffeedant",
+      "fr": "Lelit Grace PL81T : Comment je prépare l’espresso parfait en 3 minutes | LELIT GRACE PL81T · Golden Bean Coffee (2025-02-28) | Coffeedant"
+    },
+    "1": {
+      "nl": "Bekijk de video van Golden Bean Coffee over de Lelit Grace PL81T (2025-02-28). Hoe ik in 3 minuten de perfecte espresso zet | LELIT GRACE PL81T. Golden Bean Coffee stelt de Lelit Grace PL81T voor en laat zien hoe je espresso zet. De demonstraties en meningen zijn die van de maker zelf.",
+      "de": "Sehen Sie sich das Video von Golden Bean Coffee zur Lelit Grace PL81T an (2025-02-28). Wie ich in 3 Minuten den perfekten Espresso zubereite | LELIT GRACE PL81T. Golden Bean Coffee stellt die Lelit Grace PL81T vor und zeigt die Espressozubereitung. Die Vorführungen und Meinungen stammen vom Urheber des Videos.",
+      "fr": "Regardez la vidéo de Golden Bean Coffee sur la Lelit Grace PL81T (2025-02-28). Comment je prépare l’espresso parfait en 3 minutes | LELIT GRACE PL81T. Golden Bean Coffee présente la Lelit Grace PL81T et montre comment préparer un espresso. Les démonstrations et les avis sont ceux du créateur de la vidéo."
+    },
+    "3": {
+      "nl": "Video van Golden Bean Coffee over de Lelit Grace PL81T",
+      "de": "Video von Golden Bean Coffee zur Lelit Grace PL81T",
+      "fr": "Vidéo de Golden Bean Coffee sur la Lelit Grace PL81T"
+    },
+    "5": {
+      "nl": "Hoe ik in 3 minuten de perfecte espresso zet | LELIT GRACE PL81T. Video van Golden Bean Coffee",
+      "de": "Wie ich in 3 Minuten den perfekten Espresso zubereite | LELIT GRACE PL81T. Video von Golden Bean Coffee",
+      "fr": "Comment je prépare l’espresso parfait en 3 minutes | LELIT GRACE PL81T. Vidéo de Golden Bean Coffee"
+    },
+    "7": {
+      "nl": "Hoe ik in 3 minuten de perfecte espresso zet | LELIT GRACE PL81T",
+      "de": "Wie ich in 3 Minuten den perfekten Espresso zubereite | LELIT GRACE PL81T",
+      "fr": "Comment je prépare l’espresso parfait en 3 minutes | LELIT GRACE PL81T"
+    },
+    "8": {
+      "nl": "Golden Bean Coffee",
+      "de": "Golden Bean Coffee",
+      "fr": "Golden Bean Coffee"
+    },
+    "9": {
+      "nl": "28 februari 2025",
+      "de": "28. Februar 2025",
+      "fr": "28 février 2025"
+    },
+    "10": {
+      "nl": "Golden Bean Coffee stelt de Lelit Grace PL81T voor en laat zien hoe je espresso zet. De demonstraties en meningen zijn die van de maker zelf.",
+      "de": "Golden Bean Coffee stellt die Lelit Grace PL81T vor und zeigt die Espressozubereitung. Die Vorführungen und Meinungen stammen vom Urheber des Videos.",
+      "fr": "Golden Bean Coffee présente la Lelit Grace PL81T et montre comment préparer un espresso. Les démonstrations et les avis sont ceux du créateur de la vidéo."
+    },
+    "11": {
+      "nl": "De video en meningen zijn van Golden Bean Coffee. Coffeedant heeft deze video geselecteerd als aanvulling op onze geschreven review.",
+      "de": "Das Video und die Meinungen stammen von Golden Bean Coffee. Coffeedant hat dieses Video als Ergänzung zu unserem schriftlichen Testbericht ausgewählt.",
+      "fr": "La vidéo et les avis sont ceux de Golden Bean Coffee. Coffeedant a sélectionné cette vidéo en complément de notre essai écrit."
+    },
+    "17": {
+      "nl": "Video van Golden Bean Coffee",
+      "de": "Video von Golden Bean Coffee",
+      "fr": "Vidéo de Golden Bean Coffee"
+    }
+  }
+}

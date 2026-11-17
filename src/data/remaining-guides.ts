@@ -93,7 +93,13 @@ const buildGuide = (config: GuideConfig) => {
     return review;
   });
   const productBlock = (review: MachineReviewData) => `<h3>${link(review)}</h3><p>${esc(review.verdict)}</p><p><strong>Evidence boundary:</strong> ${esc(review.assessment)}</p><ul>${review.bestFor.map((item) => `<li><strong>Best fit:</strong> ${esc(item)}</li>`).join('')}${review.avoidIf.map((item) => `<li><strong>Avoid if:</strong> ${esc(item)}</li>`).join('')}</ul>`;
-  const factBlock = (review: MachineReviewData) => `<h3>${esc(review.brand)} ${esc(review.model)}</h3><p><strong>${esc(review.price.label)}:</strong> ${esc(review.price.msrp)}. ${esc(review.price.typical)} Price context checked ${esc(review.price.checked)}.</p><dl>${review.facts.slice(0, 5).map((fact) => `<div><dt>${esc(fact.label)}</dt><dd>${esc(fact.value)}</dd></div>`).join('')}</dl>`;
+  const factBlock = (review: MachineReviewData) => {
+    const { label, msrp, typical, checked } = review.price;
+    const context = checked
+      ? `<strong>${esc(label)}:</strong> ${esc(msrp)}. ${esc(typical)} Price context checked ${esc(checked)}.`
+      : esc(typical);
+    return `<h3>${esc(review.brand)} ${esc(review.model)}</h3>${context ? `<p>${context}</p>` : ''}<dl>${review.facts.slice(0, 5).map((fact) => `<div><dt>${esc(fact.label)}</dt><dd>${esc(fact.value)}</dd></div>`).join('')}</dl>`;
+  };
   return {
     title: config.title,
     description: config.description,
@@ -109,7 +115,7 @@ const buildGuide = (config: GuideConfig) => {
       { name: 'priority', legend: 'What matters most?', options: [['value','Value'],['control','Control'],['service','Ownership']] },
     ],
     selectorCandidates: reviews.map((review, index) => ({ signals: index === 0 ? 'fast milk shared value' : index === 1 ? 'espresso ritual value service' : index === 2 ? 'espresso mixed control ritual' : 'milk shared control service', brand: review.brand, name: review.model, note: review.verdictLabel, setup: review.bestFor[0], compromise: review.avoidIf[0], href: review.slug })),
-    picks: reviews.map((review) => ({ name: review.model, brand: review.brand, model: review.sku, href: review.slug, price: review.price.msrp, setup: review.category, grinder: 'A separate espresso-capable grinder is required unless the reviewed machine is an integrated automatic.', milk: review.quickAnswers.find((item) => /steam|milk/i.test(item.question))?.answer ?? review.verdictLabel, maintenance: review.facts.find((item) => /clean|water|maint|service/i.test(item.label))?.value ?? 'Follow the exact manual, use suitable water and confirm local service.', bestFit: `Best fit: ${review.bestFor[0]}`, avoidIf: `Avoid if: ${review.avoidIf[0]}`, verdict: review.verdict })),
+    picks: reviews.map((review) => ({ name: review.model, brand: review.brand, model: review.sku, href: review.slug, price: review.price.msrp, setup: review.category, grinder: 'A separate espresso-capable grinder is required unless the reviewed machine is an integrated automatic.', milk: review.quickAnswers.find((item) => /steam|milk/i.test(item.question))?.answer ?? review.verdictLabel, maintenance: review.facts.find((item) => /clean|water|maint|service/i.test(item.label))?.value ?? 'Follow the exact manual, use suitable water and confirm local service.', bestFit: `Best fit: ${review.bestFor[0]}`, avoidIf: review.avoidIf.length ? `Avoid if: ${review.avoidIf[0]}` : '', verdict: review.verdict })),
     sections: [
       { id: 'decision', eyebrow: 'Start with the routine', title: config.decisionTitle, html: config.decision },
       { id: 'criteria', eyebrow: 'Scope and evidence', title: 'How the shortlist was chosen and what was left out', html: config.criteria },

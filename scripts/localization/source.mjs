@@ -29,7 +29,7 @@ export const prepareRegionalDocument = (document) => {
       detach(node); continue;
     }
     const classes = (attr(node, 'class') ?? '').split(/\s+/);
-    if (attr(node, 'data-amazon-recommendation') !== undefined
+    if (attr(node, 'data-amazon-recommendation') !== undefined || attr(node, 'data-us-review-buying') !== undefined
       || classes.some((value) => ['review-price', 'review-price-check', 'review-sticky-buy', 'review-sticky-offer'].includes(value))) detach(node);
     if (node.tagName === 'a' && (/\b(?:sponsored)\b/.test(attr(node, 'rel') ?? '')
       || /^https:\/\/(?:amzn\.to|(?:www\.)?amazon\.[^/]+)\//i.test(attr(node, 'href') ?? ''))) detach(node);

@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { parse } from 'parse5';
+import { reviewSubject } from './lib/structured-data-audit.mjs';
 
 const root = new URL('../', import.meta.url);
 const read = (path) => readFileSync(new URL(path, root), 'utf8');
@@ -34,16 +35,26 @@ for (const screen of screens) {
 }
 assert.deepEqual([...links.keys()].sort(), expected.sort(), 'every published equipment review is in the menu');
 
-// Compare menu ownership with the review's independent Product schema. This
+// Compare menu ownership with each review's independently rendered subject. This
 // catches category-path grouping and parent-company leakage (e.g. Saeco).
 for (const [path, brand] of links) {
   const html = read(`dist${path}index.html`);
   const schemas = [...html.matchAll(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)]
     .flatMap((match) => { const schema = JSON.parse(match[1]); return schema['@graph'] ?? [schema]; });
-  const product = schemas.find((schema) => [schema['@type']].flat().includes('Product'));
-  assert.ok(product, `${path}: product schema`);
-  assert.equal(brand.toLowerCase(), (product.brand.name ?? product.brand).toLowerCase(), `${path}: correct brand`);
+  const subject = reviewSubject(schemas);
+  assert.ok(subject, `${path}: review subject`);
+  if (subject['@type'] === 'Thing') {
+    assert.ok(subject.name.startsWith(`${brand} `), `${path}: correct subject brand`);
+  } else {
+    assert.equal(brand.toLowerCase(), (subject.brand.name ?? subject.brand).toLowerCase(), `${path}: correct brand`);
+  }
 }
+
+const rancilioHub = nodes(parse(read('dist/rancilio/index.html'))).find((node) => node.tagName === 'main');
+const rancilioReviews = [...links].filter(([,brand]) => brand === 'Rancilio').map(([path]) => path);
+const rancilioHubReviews = nodes(rancilioHub).filter((node) => node.tagName === 'a' && hasClass(node, 'rancilio-button'))
+  .map((node) => attr(node, 'href')).filter((href) => href.startsWith(base)).map(route);
+assert.deepEqual(rancilioHubReviews.sort(), rancilioReviews.sort(), 'Rancilio comparison links to every Rancilio review');
 
 const directory = nodes(parse(read('dist/brands/index.html')));
 for (const link of nodes(menu).filter((node) => node.tagName === 'a')) {

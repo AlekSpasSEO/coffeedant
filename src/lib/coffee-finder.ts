@@ -3,6 +3,7 @@ import finderSync from '../data/coffee-finder-sync.json';
 import { modernReviews } from '../data/review-registry';
 import { bambinoReview, getReviewOverallScore, type MachineReviewData } from '../data/reviews';
 import { getReviewRouteDefinition } from '../data/review-routes';
+import { proXPath, silviaPath } from '../data/reviews/rancilio-buying-audit';
 import { getReviewPurchaseLinks } from './amazon-affiliate';
 import { getProductVideos, getVideoWatchPath, type ProductVideo } from './product-videos';
 import finderInterface from '../../localization/interface.json';
@@ -90,7 +91,7 @@ const canonicalBrand = (brand: string) => brand.toLowerCase() === 'lelit' ? 'Lel
 
 // Classify the reviewed hardware, not alternatives mentioned in its buying advice.
 // Evidence for the weekly corrections: docs/reviews/2026-10-16-finder-link-audit.md.
-const finderIdentityOverrides: Record<string, Partial<Pick<CoffeeFinderItem, 'workflow' | 'grinder' | 'drink' | 'experience' | 'footprint'>>> = {
+const finderIdentityOverrides: Record<string, Partial<Pick<CoffeeFinderItem, 'workflow' | 'grinder' | 'drink' | 'experience' | 'footprint' | 'volume'>>> = {
   '/espresso-machine/delonghi-dedica/': { workflow: 'hands-on', grinder: 'separate' },
   '/espresso-machine/gaggia-classic-evo-pro/': { workflow: 'hands-on', grinder: 'separate', experience: 'beginner' },
   '/espresso-machine/gaggia-espresso-evolution-eg2115/': { workflow: 'hands-on', grinder: 'separate', experience: 'beginner' },
@@ -120,6 +121,10 @@ const finderIdentityOverrides: Record<string, Partial<Pick<CoffeeFinderItem, 'wo
   '/espresso-machine/flair-neo-flex/': { workflow: 'manual', grinder: 'not-needed' },
   // The Legato V2 requires a separate grinder; comparison text mentions integrated alternatives.
   '/espresso-machine/turin-legato-v2/': { workflow: 'hands-on', grinder: 'separate' },
+  // The Silvia V6 can steam, but its shared boiler suits a short, espresso-first
+  // routine. Classify the Pro X by its working depth and two-boiler milk workflow.
+  [silviaPath]: { drink: 'mixed', footprint: 'compact', volume: 'one-two' },
+  [proXPath]: { drink: 'milk', footprint: 'standard', volume: 'three-five' },
 };
 
 const inferWorkflow = (review: MachineReviewData, text: string): CoffeeFinderWorkflow => {
@@ -221,7 +226,7 @@ const toFinderItem = (review: MachineReviewData): CoffeeFinderItem => {
     experience: identityOverride?.experience ?? inferExperience(text, workflow),
     grinder: identityOverride?.grinder ?? inferGrinder(text, workflow),
     footprint: identityOverride?.footprint ?? inferFootprint(text, workflow),
-    volume: inferVolume(text, workflow),
+    volume: identityOverride?.volume ?? inferVolume(text, workflow),
     ...availability,
     updated: review.updated,
     videos: videos.length ? videos : undefined,

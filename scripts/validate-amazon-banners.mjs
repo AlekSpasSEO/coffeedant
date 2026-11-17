@@ -18,6 +18,7 @@ const files = (directory) => fs.readdirSync(directory, { withFileTypes: true }).
 const errors = [];
 const families = {};
 const seen = new Set();
+let bannerCount = 0;
 
 for (const file of files(dist)) {
   const nodes = descendants(parse(fs.readFileSync(file, 'utf8')));
@@ -37,6 +38,11 @@ for (const file of files(dist)) {
     continue;
   }
   if (!expectedSlugs.has(slug)) fail('unexpected product review');
+  if (attribute(review, 'data-review-layout') === 'rancilio-buying-guide') {
+    if (banners.length) fail('Rancilio buying guides must keep product banners out of the review');
+    continue;
+  }
+  bannerCount += banners.length;
   if (banners.length !== 3) fail(`expected 3 banners, found ${banners.length}`);
   if (new Set(banners.map((banner) => attribute(banner, 'data-amazon-recommendation'))).size !== 3) fail('duplicate banner placement');
   for (const banner of banners) {
@@ -68,4 +74,4 @@ if (errors.length) {
   console.error(errors.join('\n'));
   process.exit(1);
 }
-console.log(`Verified ${expectedSlugs.size * 3} Amazon banners across ${expectedSlugs.size} gear reviews and ${expectedBeanSlugs.size} banner-free bean reviews: ${JSON.stringify(families)}.`);
+console.log(`Verified ${bannerCount} Amazon banners; checked all ${expectedSlugs.size} gear reviews and ${expectedBeanSlugs.size} bean reviews: ${JSON.stringify(families)}.`);
