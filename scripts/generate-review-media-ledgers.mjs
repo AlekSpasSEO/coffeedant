@@ -5,6 +5,9 @@ import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.join(root, 'dist');
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'src/data/review-batch-manifest.json'), 'utf8'));
+const requested = new Set(process.argv.slice(2));
+const reviews = requested.size ? manifest.filter(({ slug }) => requested.has(slug)) : manifest;
+if (requested.size && reviews.length !== requested.size) throw new Error('Use exact canonical review paths to select media ledgers');
 const outputDirectory = path.join(root, 'docs/reviews');
 
 const decodeHtml = (value = '') => value
@@ -47,7 +50,7 @@ const attribute = (value, name) => decodeHtml(value.match(new RegExp(`\\s${name}
 
 fs.mkdirSync(outputDirectory, { recursive: true });
 
-for (const item of manifest) {
+for (const item of reviews) {
   const slugName = item.slug.split('/').filter(Boolean).at(-1);
   const htmlPath = path.join(dist, item.slug.replace(/^\//, ''), 'index.html');
   if (!fs.existsSync(htmlPath)) throw new Error(`Build output is missing for ${item.slug}`);
@@ -55,12 +58,12 @@ for (const item of manifest) {
   const html = fs.readFileSync(htmlPath, 'utf8');
   const main = html.match(/<main\b[\s\S]*?<\/main>/i)?.[0] ?? '';
   const articleCopy = cleanEditorialText(main
-    .replace(/<figure\b[^>]*class="review-media review-inline-media"[^>]*>[\s\S]*?<\/figure>/gi, ' ')
+    .replace(/<figure\b[^>]*class="review-media review-inline-media(?:\s[^"]*)?"[^>]*>[\s\S]*?<\/figure>/gi, ' ')
     .replace(/<aside\b[^>]*class="review-community-(?:embed|evidence)"[^>]*>[\s\S]*?<\/aside>/gi, ' '));
   const words = wordCount(articleCopy);
   const title = cleanText(main.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)?.[1] ?? slugName);
   const modified = html.match(/<meta property="article:modified_time" content="([^"]+)">/i)?.[1] ?? 'unknown date';
-  const mediaMatches = [...main.matchAll(/<figure\b([^>]*)class="review-media review-inline-media"([^>]*)>([\s\S]*?)<\/figure>/gi)];
+  const mediaMatches = [...main.matchAll(/<figure\b([^>]*)class="review-media review-inline-media(?:\s[^"]*)?"([^>]*)>([\s\S]*?)<\/figure>/gi)];
   const rows = mediaMatches.map((match, index) => {
     const figureAttributes = `${match[1]} ${match[2]}`;
     const figure = match[3];
@@ -116,11 +119,10 @@ Generated from the rendered review updated ${modified}. This is the publication 
 ## Image records
 
 | # | Placement | Source type | UGC | Original | Usage record | Creator or reviewer | Dimensions | Alt text | Editorial purpose and disclosure |
-| ---: | --- | --- | :---: | --- | --- | --- | ---: | --- | --- |
-${tableRows}
+| ---: | --- | --- | :---: | --- | --- | --- | ---: | --- | --- |${tableRows ? `\n${tableRows}` : ''}
 `;
 
   fs.writeFileSync(path.join(outputDirectory, `${slugName}-media.md`), ledger);
 }
 
-console.log(`Generated ${manifest.length} review media ledgers.`);
+console.log(`Generated ${reviews.length} review media ledgers.`);

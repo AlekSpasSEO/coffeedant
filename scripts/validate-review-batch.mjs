@@ -154,13 +154,14 @@ for (const item of manifest) {
   const html = fs.readFileSync(output, 'utf8');
   const expectedCanonical = `${canonicalOrigin}${item.slug}`;
   const main = html.match(/<main\b[\s\S]*?<\/main>/i)?.[0] ?? '';
+  const compact = /data-review-layout="rancilio-buying-guide"/.test(main);
   // Third-party titles are verbatim credits, not Coffeedant house-style prose.
   const visible = cleanText(main.replace(/<section\b[^>]*id="video"[^>]*>[\s\S]*?<\/section>/gi, ' ').replace(/<li\b[^>]*data-video-source[^>]*>[\s\S]*?<\/li>/gi,' '));
   const articleCopy = cleanText(main
     // Reusable video UI and source metadata do not count toward editorial length.
     .replace(/<section\b[^>]*id="video"[^>]*>[\s\S]*?<\/section>/gi, ' ')
     .replace(/<li\b[^>]*data-video-source[^>]*>[\s\S]*?<\/li>/gi,' ')
-    .replace(/<figure\b[^>]*class="review-media review-inline-media"[^>]*>[\s\S]*?<\/figure>/gi, ' ')
+    .replace(/<figure\b[^>]*class="review-media review-inline-media(?:\s[^"]*)?"[^>]*>[\s\S]*?<\/figure>/gi, ' ')
     .replace(/<aside\b[^>]*class="review-community-(?:embed|evidence)"[^>]*>[\s\S]*?<\/aside>/gi, ' '));
   const words = wordCount(articleCopy);
   const setupBlock = main.match(/<section\b[^>]*\bid="setup"[^>]*>[\s\S]*?<\/section>/i)?.[0] ?? '';
@@ -202,10 +203,10 @@ for (const item of manifest) {
   // Length is reported, not rewarded. Product-specific evidence and the required
   // decision modules below define completeness; full-body originality is checked
   // by validate-review-originality.mjs. A quota encouraged generic filler.
-  if (scoreCards !== 6) fail(item.slug, `expected 6 rating cards, found ${scoreCards}`);
-  if (deepDives !== 6) fail(item.slug, `expected 6 performance deep dives, found ${deepDives}`);
-  if (count(quickAnswerPanel, /<dt>/g) !== 6) fail(item.slug, 'expected exactly 6 quick answers');
-  if (sources < 10) fail(item.slug, `expected at least 10 source records, found ${sources}`);
+  if (scoreCards !== (compact ? 0 : 6)) fail(item.slug, `unexpected number of rating cards: ${scoreCards}`);
+  if (deepDives !== (compact ? 0 : 6)) fail(item.slug, `unexpected number of performance deep dives: ${deepDives}`);
+  if (count(quickAnswerPanel, /<dt>/g) !== (compact ? 0 : 6)) fail(item.slug, 'unexpected number of quick answers');
+  if (sources < (compact ? 5 : 10)) fail(item.slug, `insufficient source records: ${sources}`);
   if (redditSourceLinks.some((match) => !match[2].split(/\s+/).includes('ugc'))) {
     fail(item.slug, 'a Reddit source link is not marked as user-generated content');
   }
@@ -218,15 +219,27 @@ for (const item of manifest) {
     if (/<a\b/i.test(evidenceBlock)) fail(item.slug, 'on-page Reddit evidence block contains an outbound link');
     if (count(evidenceBlock, /<li>/g) < 1) fail(item.slug, 'on-page Reddit evidence block has no readable owner records');
   }
-  if (comparisonDetails !== 1) fail(item.slug, `expected 1 detailed comparison control, found ${comparisonDetails}`);
-  if (faqModules !== 1) fail(item.slug, `expected 1 FAQ module, found ${faqModules}`);
+  if (comparisonDetails !== (compact ? 0 : 1)) fail(item.slug, `unexpected number of detailed comparison controls: ${comparisonDetails}`);
+  if (faqModules !== (compact ? 0 : 1)) fail(item.slug, `unexpected number of FAQ modules: ${faqModules}`);
   const faqBlock = main.match(/<div class="review-faq-list">[\s\S]*?<\/div>/i)?.[0] ?? '';
   if (/<details\b|<summary\b/i.test(faqBlock)) fail(item.slug, 'FAQ still uses dropdown controls');
-  if (count(faqBlock, /class="review-faq-item"/g) < 6) fail(item.slug, 'FAQ does not expose at least six visible question-and-answer items');
-  if (recommendations !== 4) fail(item.slug, `expected 4 recommendation cards, found ${recommendations}`);
-  if (!main.includes('data-commerce-ready="true"')) fail(item.slug, 'commerce-ready recommendation hook is missing');
-  if (!main.includes('class="review-author-card"')) fail(item.slug, 'author card is missing');
-  if (!main.includes('class="review-overall-rating"')) fail(item.slug, 'overall score is missing');
+  if (!compact) {
+    if (count(faqBlock, /class="review-faq-item"/g) < 6) fail(item.slug, 'FAQ does not expose at least six visible question-and-answer items');
+    if (recommendations !== 4) fail(item.slug, `expected 4 recommendation cards, found ${recommendations}`);
+    if (!main.includes('data-commerce-ready="true"')) fail(item.slug, 'commerce-ready recommendation hook is missing');
+    if (!main.includes('class="review-author-card"')) fail(item.slug, 'author card is missing');
+    if (!main.includes('class="review-overall-rating"')) fail(item.slug, 'overall score is missing');
+  } else {
+    for (const id of ['summary', 'specifications', 'espresso', 'milk', 'setup', 'ownership', 'comparisons', 'methodology', 'verdict']) {
+      if (!ids.includes(id)) fail(item.slug, `missing buyer decision section: ${id}`);
+    }
+    if (!main.includes('class="rancilio-byline"') || !main.includes('did not bench-test')) fail(item.slug, 'missing authorship or research disclosure');
+    const shopping = main.match(/<section class="rancilio-buy-panel"[\s\S]*?<\/section>/i)?.[0] ?? '';
+    if (!/<a class="rancilio-button" href="https:\/\/(?:www\.wholelattelove\.com|clivecoffee\.com)\/products\//.test(shopping)) fail(item.slug, 'missing exact-model seller CTA');
+    const paidLink = shopping.match(/<a\b[^>]*href="https:\/\/www\.amazon\.com\/[^"]+"[^>]*rel="[^"]*\bsponsored\b[^"]*"/i);
+    if (!paidLink || !shopping.includes('Affiliate disclosure') || shopping.indexOf('Affiliate disclosure') > paidLink.index) fail(item.slug, 'affiliate link requires a preceding disclosure and sponsored attribute');
+    if (/\$\s*\d|data-coffee-finder|data-review-sticky-offer/.test(main)) fail(item.slug, 'Rancilio review renders stale price or intrusive buying widgets');
+  }
   const selectedVideo = curatedVideos[item.slug]?.[0];
   if (selectedVideo && !main.includes('class="review-video"')) fail(item.slug, 'selected third-party video module is missing');
   if (selectedVideo && !html.includes('"@type":"VideoObject"')) fail(item.slug, 'VideoObject metadata is missing');
@@ -266,14 +279,18 @@ for (const item of manifest) {
       fail(item.slug, 'JSON-LD is not valid JSON');
     }
   }
-  const productSchema = structuredNodes.find((node) => node?.['@type'] === 'Product');
+  const productSchema = structuredNodes.find((node) => node?.['@type'] === (compact ? 'Thing' : 'Product') && node['@id'] === `${expectedCanonical}#product`);
   const articleSchema = structuredNodes.find((node) => node?.['@type'] === 'Article');
   const videoSchema = structuredNodes.find((node) => node?.['@type'] === 'VideoObject');
   const breadcrumbSchema = structuredNodes.find((node) => node?.['@type'] === 'BreadcrumbList');
+  if (compact && (structuredNodes.some(node => node?.['@type'] === 'Product')
+      || productSchema?.review || productSchema?.aggregateRating || productSchema?.offers)) {
+    fail(item.slug, 'research comparison must not advertise ratings or offers in structured data');
+  }
   if (!productSchema
     || productSchema['@id'] !== `${expectedCanonical}#product`
     || productSchema.identifier !== item.productId
-    || !productSchema.category
+    || (!compact && !productSchema.category)
     || productSchema.url !== expectedCanonical) {
     fail(item.slug, 'Product schema identity, URL or product ID is wrong');
   }
@@ -346,11 +363,11 @@ for (const item of manifest) {
   if (/\b(?:surfaces|moat)\b/i.test(visible)) fail(item.slug, 'house-style banned wording remains');
   for (const expression of banned) if (expression.test(visible)) fail(item.slug, `unsupported hands-on language matched ${expression}`);
 
-  const inlineMedia = [...main.matchAll(/<figure\b[^>]*class="review-media review-inline-media"[^>]*>[\s\S]*?<\/figure>/gi)]
+  const inlineMedia = [...main.matchAll(/<figure\b[^>]*class="review-media review-inline-media(?:\s[^"]*)?"[^>]*>[\s\S]*?<\/figure>/gi)]
     .map((match) => match[0]);
   const imageCount = inlineMedia.length + 1;
   if (imageCount > 3) fail(item.slug, `review image cap exceeded: ${imageCount} images; maximum is 3`);
-  if (imageCount < 2) fail(item.slug, `review is visually unsupported: ${imageCount} images`);
+  if (!compact && imageCount < 2) fail(item.slug, `review is visually unsupported: ${imageCount} images`);
 
   let userGeneratedMedia = 0;
   const sourceTypes = new Set();
@@ -391,8 +408,14 @@ for (const item of manifest) {
   });
 
   const hasOfficialMedia = sourceTypes.has('product-listing') || sourceTypes.has('manufacturer');
-  if (!hasOfficialMedia) {
+  if (!compact && !hasOfficialMedia) {
     fail(item.slug, 'inline images must include at least one official product source');
+  }
+  if (compact && item.slug.endsWith('/rancilio-silvia/')) {
+    const photoSchema = structuredNodes.find((node) => node?.['@id'] === `${expectedCanonical}#archive-photo`);
+    if (inlineMedia.length !== 1 || photoSchema?.license !== 'https://creativecommons.org/licenses/by-sa/3.0/'
+        || !photoSchema?.creator?.name || !photoSchema?.acquireLicensePage
+        || !inlineMedia[0]?.includes(photoSchema.license)) fail(item.slug, 'archival photo must carry visible and structured Creative Commons attribution');
   }
 
   const mediaLedgerPath = path.join(root, 'docs/reviews', `${slugName}-media.md`);

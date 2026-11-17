@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { parse } from 'parse5';
 import { graph, walk, attr } from './build-seo.mjs';
 import { videoWatchPath } from '../src/lib/video-routes.mjs';
-import { schemaNodesOfType } from './lib/structured-data-audit.mjs';
+import { reviewSubject, schemaNodesOfType } from './lib/structured-data-audit.mjs';
 const root=new URL('../',import.meta.url),read=p=>fs.readFileSync(new URL(p,root),'utf8'),json=p=>JSON.parse(read(p));
 const catalog=json('src/data/product-videos.json'),assessments=json('src/data/product-video-assessments.json');
 const products=json('dist/product-video-inventory.json');
@@ -29,9 +29,10 @@ for(const p of products){
  assert.equal(new Set(selected.map(v=>v.id)).size,selected.length,`${p.slug}: no duplicate selections`);
  const reviewDoc=parse(read(`dist${p.slug}index.html`)),reviewGraph=graph(reviewDoc),reviewVideos=walk(reviewDoc).filter(n=>attr(n,'data-product-video')!==undefined),reviewSchemas=reviewGraph.filter(s=>s['@type']==='VideoObject');
  const reviewProducts=schemaNodesOfType(reviewGraph,'Product');
- assert.equal(reviewProducts.length,1,`${p.slug}: retain one authoritative Product without nested duplicate topic declarations`);
- assert.equal(reviewProducts[0]['@id'],`https://coffeedant.com${p.slug}#product`,`${p.slug}: authoritative Product identity`);
- if(!p.slug.startsWith('/coffee-beans/')){
+ const researchGuide=walk(reviewDoc).some(n=>attr(n,'data-review-layout')==='rancilio-buying-guide');
+ assert.equal(reviewProducts.length,researchGuide?0:1,`${p.slug}: avoid duplicate or incomplete Product markup`);
+ assert.equal(reviewSubject(reviewGraph)?.['@id'],`https://coffeedant.com${p.slug}#product`,`${p.slug}: authoritative review subject`);
+ if(!researchGuide&&!p.slug.startsWith('/coffee-beans/')){
   assert.ok(reviewProducts[0].review?.reviewRating?.ratingValue,`${p.slug}: preserve the equipment review rating`);
   assert.ok(reviewProducts[0].review.author?.name,`${p.slug}: preserve the equipment review author`);
  }
@@ -45,7 +46,7 @@ for(const p of products){
   const watchVideo=watchSchemas.filter(s=>s['@type']==='VideoObject');
   assert.equal(schemaNodesOfType(watchSchemas,'Product').length,0,`${watchPath}: no incomplete Product declarations anywhere in JSON-LD`);
   assert.equal(watchVideo.length,1,`${watchPath}: exactly one primary video`);
-  assert.deepEqual(watchVideo[0].about,[{'@id':`https://coffeedant.com${p.slug}#product`}],`${watchPath}: reference the authoritative review Product`);
+  assert.deepEqual(watchVideo[0].about,[{'@id':`https://coffeedant.com${p.slug}#product`}],`${watchPath}: reference the authoritative review subject`);
   assert.equal(watchVideo[0].url,`https://coffeedant.com${watchPath}`);
   assert.equal(watchVideo[0].mainEntityOfPage,`https://coffeedant.com${watchPath}`);
   assert.equal(watchVideo[0].embedUrl,`https://www.youtube-nocookie.com/embed/${v.id}`);

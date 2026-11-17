@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import BrandLanding from '../components/BrandLanding.astro';
+import RancilioLanding from '../components/RancilioLanding.astro';
 import a from '../data/pages-a.json';
 import b from '../data/pages-b.json';
 import privacyPolicy from '../data/privacy-policy.html?raw';
@@ -78,7 +79,9 @@ const supportingMeta: Record<string, { description: string; heading?: string }> 
 };
 const support = page ? supportingMeta[page.path] : undefined;
 ---
-{brand ? (
+{brand?.slug === 'rancilio' ? (
+  <RancilioLanding />
+) : brand ? (
   <BrandLanding brand={brand} pages={all} />
 ) : (
   <Base title={page.title} description={page.description || support?.description} canonical={page.canonical}>

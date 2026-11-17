@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
+import { reviewSubject } from './lib/structured-data-audit.mjs';
 
 const root = new URL('../', import.meta.url);
 const json = async path => JSON.parse(await readFile(new URL(path, root), 'utf8'));
@@ -16,8 +17,8 @@ for (const item of catalog.items) {
   assert.ok(html.includes(`https://coffeedant.com${item.path}`), `${item.path}: canonical`);
   const graphs = [...html.matchAll(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)]
     .flatMap(m => { const s = JSON.parse(m[1]); return s['@graph'] ?? [s]; });
-  const product = graphs.find(s => [s['@type']].flat().includes('Product'));
-  assert.ok(product, `${item.path}: Product schema`);
+  const product = reviewSubject(graphs);
+  assert.ok(product, `${item.path}: review subject`);
   const rating = product.review?.reviewRating?.ratingValue ?? product.aggregateRating?.ratingValue;
   if (rating !== undefined) assert.equal(item.rating, Number(rating), `${item.path}: editorial score`);
   assert.ok(item.priceCurrency === 'USD' || item.priceUsd === null, `${item.path}: no silent currency conversion`);
@@ -40,6 +41,14 @@ assert.equal(catalog.items.find(r => r.path === '/espresso-machine/ninja-luxe-ca
 const accademia = catalog.items.find(r => r.path === '/espresso-machine/gaggia-accademia-ri9781-01/');
 assert.equal(accademia?.priceLabel, 'Check current UK price', 'dated UK sale stays out of the finder');
 assert.equal(accademia?.priceUsd, null, 'UK variant is excluded from US budget bands');
+for (const [slug, drink, footprint, volume] of [
+  ['rancilio-silvia', 'mixed', 'compact', 'one-two'],
+  ['rancilio-silvia-pro-x', 'milk', 'standard', 'three-five'],
+]) {
+  const item = catalog.items.find(r => r.path === `/espresso-machine/${slug}/`);
+  assert.deepEqual([item?.drink, item?.footprint, item?.volume, item?.grinder], [drink, footprint, volume, 'separate'], `${slug}: documented workflow and counter fit`);
+  assert.equal(item.rating, null, `${slug}: no score appears elsewhere in the buying path`);
+}
 for (const slug of ['melitta-cafina-ct8', 'melitta-cafina-xt6-bes870', 'melitta-cafina-xt7']) {
   assert.equal(catalog.items.find(r => r.path === `/espresso-machine/${slug}/`)?.grinder, 'built-in', slug);
 }

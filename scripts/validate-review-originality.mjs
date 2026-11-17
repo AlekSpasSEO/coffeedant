@@ -3,6 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parse } from 'parse5';
 import { checkReviewOriginality, extractReviewBodyParagraphs } from './lib/review-originality.mjs';
+import { reviewSubject } from './lib/structured-data-audit.mjs';
 const root=fileURLToPath(new URL('../',import.meta.url));
 const args = process.argv.slice(2);
 const option = name => { const index = args.indexOf(name); return index < 0 ? undefined : args[index + 1]; };
@@ -23,7 +24,7 @@ for(const slug of routes) {
   const nodes=walk(parse(await fs.readFile(path.join(dist,slug,'index.html'),'utf8')));
   const main=nodes.find(n=>n.tagName==='main'),content=walk(main);
   const graph=nodes.filter(n=>n.tagName==='script'&&attr(n,'type')==='application/ld+json').flatMap(n=>{const value=JSON.parse(text(n));return value['@graph']??[value];});
-  const product=graph.find(n=>[n['@type']].flat().includes('Product'));
+  const product=reviewSubject(graph);
   const article=content.find(n=>n.tagName==='article'&&(hasClass(n,'review-article')||hasClass(n,'bean-article')));
   const section=walk(article).find(n=>n.tagName==='section'&&hasClass(n,'review-section')&&!['ratings','video','methodology','sources','verdict'].includes(attr(n,'id')));
   const body=walk(section).find(n=>hasClass(n,'review-section-body'));
