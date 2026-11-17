@@ -1,0 +1,471 @@
+{
+  "schemaVersion": 1,
+  "sourcePages": [
+    {
+      "sourcePath": "/ascaso/",
+      "sourceHash": "eb71c90aee4d6da3266cb6d115fa14eeb2c4430b9af83f27fce57afca56ff78b"
+    },
+    {
+      "sourcePath": "/espresso-machine/small/",
+      "sourceHash": "5bfaa6202cd45fc4fcc69be6f4ae1d08a128fe2626c3423783f66c6e3b30b085"
+    },
+    {
+      "sourcePath": "/rancilio/",
+      "sourceHash": "37f907efa0ebbe34cb32165fb16ca5732d00cb387911f2b82a8395dc568ec5d2"
+    }
+  ],
+  "policyHash": "8550283137c7c26eebe9be207cedcc641b663c37b28198a683c81b0c1ee67cdb",
+  "segments": [
+    {
+      "id": "cc926102ea7dd53ccd321a1fa4a7ec80d273fe28cb2383a37e38c59de77797ea",
+      "source": "Buy the Steel Duo PID if you regularly make two or more milk drinks, want to brew and steam together, and have the circuit required by your exact model. Ascaso USA specifies a 20 A circuit for the U.S. version reviewed here.",
+      "kind": "finder",
+      "context": "Ascaso Steel Duo PID: description"
+    },
+    {
+      "id": "c265e264901038b0a3231e031008d81dd9aaed8e0fc23ce8931e1a0bd0e1089b",
+      "source": "Two or more milk drinks in the same session",
+      "kind": "finder",
+      "context": "Ascaso Steel Duo PID: bestFor"
+    },
+    {
+      "id": "3323b7ebdd7248620e18db8373079b850ae8dcd9928c1b66eb7757c05efa4a1a",
+      "source": "Steel Duo PID workflow diagram showing separate thermoblocks for brewing and steam",
+      "kind": "finder",
+      "context": "Ascaso Steel Duo PID: imageAlt"
+    },
+    {
+      "id": "9892488de67b9d1ac231b526fa7bc28450d4e7f0e1ba73dbeea54d8c35098f74",
+      "source": "Choose the Steel Uno PID if you mostly drink espresso and want control over temperature and shot volume. One heater means you pull the shot before steaming milk.",
+      "kind": "finder",
+      "context": "Ascaso Steel Uno PID: description"
+    },
+    {
+      "id": "b9bb93d775b841270e56198726afff74ab1626525acdf086d1f440c9aa5f355a",
+      "source": "Mostly espresso, with the occasional milk drink",
+      "kind": "finder",
+      "context": "Ascaso Steel Uno PID: bestFor"
+    },
+    {
+      "id": "8126fba327756f34ad027a16d4441f2b1286e3874ac6480364844c1934f6a4d0",
+      "source": "Steel Uno PID workflow diagram with one thermoblock and two steps: brew, then steam",
+      "kind": "finder",
+      "context": "Ascaso Steel Uno PID: imageAlt"
+    },
+    {
+      "id": "f191bc6a6a586a2359b265785eb1899df48488808a395dc6b094942cf3d1e0a0",
+      "source": "Ascaso Steel Uno vs. Duo PID | Coffeedant",
+      "kind": "text",
+      "context": "Ascaso Steel Uno vs. Duo PID | Coffeedant"
+    },
+    {
+      "id": "4f196a55efb5e9ff27c3a519bbfc416f221bb20d196b2df4daa371ef051dc6ac",
+      "source": "Compare the Ascaso Steel Uno and Steel Duo PID by milk workflow, U.S. circuit requirements, counter space and what to confirm before buying.",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "e24d3d7b47bf12cd58f1d1ea89898ed3fd6f876bf871537822451955379140e9",
+      "source": "Ascaso Steel Uno vs. Duo PID | Coffeedant",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "840ba088771d90a9cd0661f029dc771005ea56a00a91de9ab7364d21f3542df6",
+      "source": "Comparison diagram showing the shared heater on the Steel Uno and the two independent heaters on the Steel Duo",
+      "kind": "metadata",
+      "context": "(function(){const measurementId = \"G-270R14ZHVX\";\nconst googleTagId = \"GT-KT5DM5FP\";\nconst productionRegions = {\"coffeedant.com\":\"us\",\"uk.coffeedant.com\":\"uk\",\"au.coffeedant.com\":\"au\",\"nz.coffeedant.com\":\"nz\",\"nl.coffeedant.com\":\"nl\",\"es.coffeedant.com\":\"es\",\"latam.coffeedant.com\":\"latam\",\"pt.coffeedant.com\":\"pt\",\"br.coffeedant.com\":\"br\",\"fr.coffeedant.com\":\"fr\",\"ca.coffeedant.com\":\"ca\",\"de.coffeedant.com\":\"de\",\"at.coffeedant.com\":\"at\",\"ch.coffeedant.com\":\"ch\",\"it.coffeedant.com\":\"it\",\"www.coffeedant.com\":\"us\"};\n\n  (() => {\n    // Never send localhost, GitHub Pages or Cloudflare preview traffic to GA4.\n    if (!Object.prototype.hasOwnProperty.call(productionRegions, location.hostname)) return;\n    // A repeated template/bootstrap must never configure a second page view.\n    if (window.__coffeedantAnalyticsInitialized) return;\n    window.__coffeedantAnalyticsInitialized = true;\n    const storageKey = 'coffeedant.analytics-consent.v1';\n    const maxAge = 180 * 24 * 60 * 60 * 1000;\n    let choice = null;\n    let configured = false;\n    let tagState = 'idle';\n    let attempts = 0;\n    let retryTimer;\n    let regionalMode = null;\n    let policyPending = false;\n    let policyResolved = false;\n    let serverBrowserOptOut = false;\n    let lookupController;\n    let lookupVersion = 0;\n    let preferencesOpener = null;\n    const nativeBrowserOptOut = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';\n    const browserOptOut = () => nativeBrowserOptOut || serverBrowserOptOut;\n    window.dataLayer = window.dataLayer || [];\n    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };\n    window.gtag('consent', 'default', {\n      analytics_storage: 'denied', ad_storage: 'denied',\n      ad_user_data: 'denied', ad_personalization: 'denied',\n "
+    },
+    {
+      "id": "c285bd945c8f3bd91574ac37f7144d5a67aad4df38812c6f3f208ed117f2102f",
+      "source": "Ascaso Steel Uno vs. Steel Duo PID",
+      "kind": "text",
+      "context": "Ascaso Steel Uno vs. Steel Duo PID"
+    },
+    {
+      "id": "99027a96de22663e617a0914e3bb451b4b628725bfdcf742444f1bcebfcca46b",
+      "source": "The Uno gives you adjustable temperature and programmable shots with one heater.",
+      "kind": "text",
+      "context": "Mostly espresso? The Uno gives you adjustable temperature and programmable shots with one heater. Two lattes most mornings? The Duo can brew and steam at the same time. Check the circuit before buying the U.S. model reviewed here."
+    },
+    {
+      "id": "9b1cc9e6db8a83799b0e795d21b8862ef65c33ada755451c324af5d1ddccd53d",
+      "source": "The Duo can brew and steam at the same time. Check the circuit before buying the U.S. model reviewed here.",
+      "kind": "text",
+      "context": "Mostly espresso? The Uno gives you adjustable temperature and programmable shots with one heater. Two lattes most mornings? The Duo can brew and steam at the same time. Check the circuit before buying the U.S. model reviewed here."
+    },
+    {
+      "id": "d641e560782587ed437b670ba979cd59426b773f5806fcb4680947961db52126",
+      "source": "Comparison diagram showing the shared heater on the Steel Uno and the two independent heaters on the Steel Duo",
+      "kind": "attribute",
+      "context": "Coffeedant diagram based on Ascaso specifications."
+    },
+    {
+      "id": "2e5889b196f1eaad845ef0ce78e2c4261221210e1c25f3bbd0458b17dbc1864c",
+      "source": "Coffeedant diagram based on Ascaso specifications.",
+      "kind": "text",
+      "context": "Coffeedant diagram based on Ascaso specifications."
+    },
+    {
+      "id": "2ec151f3ebd926218ff71296f958eed7e283a5581b9c4403764b3129ee28a6a9",
+      "source": "Which Steel fits your routine?",
+      "kind": "text",
+      "context": "Which Steel fits your routine?"
+    },
+    {
+      "id": "8fd0a6a8ad41502f1abef0e1db77e334538aa9409391fc5ac4a3b17ada1a2117",
+      "source": "The two reviewed PID models. Confirm the electrical rating of the exact unit you plan to buy.",
+      "kind": "text",
+      "context": "The two reviewed PID models. Confirm the electrical rating of the exact unit you plan to buy."
+    },
+    {
+      "id": "19ac408feb70deef7b568ca0e5808e211692dd412449761eaae2aebac14e4546",
+      "source": "Mostly espresso, with the occasional milk drink",
+      "kind": "text",
+      "context": "Mostly espresso, with the occasional milk drink"
+    },
+    {
+      "id": "17a6b184a344da9353a2415148dcd1bb0b99771e6f2245f39fa303695b968a33",
+      "source": "Two or more milk drinks in the same session",
+      "kind": "text",
+      "context": "Two or more milk drinks in the same session"
+    },
+    {
+      "id": "a676cb024864c7025a3185fe2bcb89e6705cff0e399312f1ae9928206ae4aa5e",
+      "source": "Heating system",
+      "kind": "text",
+      "context": "Heating system"
+    },
+    {
+      "id": "4014050bd386cd29ee9383d788f954c0f79e57a24e7378311f5036e80f923de5",
+      "source": "One thermoblock shared by brewing and steaming",
+      "kind": "text",
+      "context": "One thermoblock shared by brewing and steaming"
+    },
+    {
+      "id": "2240e5c9d49ccb7ab7ccce6afa55209106b2ab9ecbf64073b8318ef20b9f84b5",
+      "source": "Separate thermoblocks for brewing and steam",
+      "kind": "text",
+      "context": "Separate thermoblocks for brewing and steam"
+    },
+    {
+      "id": "87a4430e5b6194920e33b82639afff6a4504fe09eead94321bf7b14ca83f8ce1",
+      "source": "Pull the espresso, then switch to steam",
+      "kind": "text",
+      "context": "Pull the espresso, then switch to steam"
+    },
+    {
+      "id": "910beb5aeb4991db07631125ff2171b20fdf11ec1431e6b1879f90012fb62292",
+      "source": "Brew and steam at the same time when both are ready",
+      "kind": "text",
+      "context": "Brew and steam at the same time when both are ready"
+    },
+    {
+      "id": "15bbbe46cb456d460a51f74561b7a97ac0f71c8c045ddfd72dbfbff80d5b8fa1",
+      "source": "U.S. power",
+      "kind": "text",
+      "context": "U.S. power"
+    },
+    {
+      "id": "9950867b6d10aefefc93b828a3b3a0941db37220754f84f81ce4b05b3677d7b0",
+      "source": "U.S. reference model: 120 V, standard 15 A outlet",
+      "kind": "text",
+      "context": "U.S. reference model: 120 V, standard 15 A outlet"
+    },
+    {
+      "id": "ddf226bcf16fb52864e15ce0813535db05e9a22b4e800f4dd1c859adbf8fd40a",
+      "source": "U.S. version reviewed: 120 V, 20 A circuit, NEMA 5-20 plug",
+      "kind": "text",
+      "context": "U.S. version reviewed: 120 V, 20 A circuit, NEMA 5-20 plug"
+    },
+    {
+      "id": "9b8f258673d3420ac8df93a138c8793d88a88169a54babea1aac7b60e3be1e64",
+      "source": "Before buying",
+      "kind": "text",
+      "context": "Before buying"
+    },
+    {
+      "id": "3e757dae35c9681b4c58967a87b8245f49f6673d53b88b6e6a68eb7e494a88fc",
+      "source": "The verified U.S. listing is refurbished. Ask Ascaso about new stock.",
+      "kind": "text",
+      "context": "The verified U.S. listing is refurbished. Ask Ascaso about new stock."
+    },
+    {
+      "id": "02656536af59eaae63392d320fa6841a16998b2a85aadea2c73f38da4be5b8ce",
+      "source": "Confirm the revision, plug, and accessories with the seller.",
+      "kind": "text",
+      "context": "Confirm the revision, plug, and accessories with the seller."
+    },
+    {
+      "id": "d06b94870cf0747cbccc2b22b74f153a4cf9c795e1568f535cf3607899f8e6ea",
+      "source": "Read the Steel Uno PID review",
+      "kind": "text",
+      "context": "Read the Steel Uno PID review →"
+    },
+    {
+      "id": "761c026fae3d8bb6b912e430239ebbe32bcb3ca963648db92ee44c4e96ecb371",
+      "source": "Read the Steel Duo PID review",
+      "kind": "text",
+      "context": "Read the Steel Duo PID review →"
+    },
+    {
+      "id": "36dad533375081fc02d2139cc5abd2988bedf518531fd768585f819e4b19d70d",
+      "source": "What to check before ordering",
+      "kind": "text",
+      "context": "What to check before ordering"
+    },
+    {
+      "id": "b38209dc7147532542b23865bb3a664683bb2e6ee97578d09da39dc37c6b28ae",
+      "source": "Reserve space beside the machine.",
+      "kind": "text",
+      "context": "Reserve space beside the machine."
+    },
+    {
+      "id": "cb373597fe59928cd71908bcb4b7d9f0a932b09423b13acd1373ee038dfc1554",
+      "source": "Ascaso lists a chassis depth of about 12.4 inches for both. Leave room at the side for the water tank and in front for the portafilter and a scale.",
+      "kind": "text",
+      "context": "Reserve space beside the machine. Ascaso lists a chassis depth of about 12.4 inches for both. Leave room at the side for the water tank and in front for the portafilter and a scale."
+    },
+    {
+      "id": "c1ec0413cd357efc6e244b85f9824a2ae9a4fa1d7faff03f761ed597c17a6087",
+      "source": "Budget for the full setup.",
+      "kind": "text",
+      "context": "Budget for the full setup."
+    },
+    {
+      "id": "cf96b737173690a7a02c7464d8ee75124d17464163215f2a08564769dc5239b5",
+      "source": "Both use a 58 mm portafilter. Add an",
+      "kind": "text",
+      "context": "Budget for the full setup. Both use a 58 mm portafilter. Add an espresso-capable grinder for whole beans, a scale, water suited to the machine, and a pitcher if you make milk drinks."
+    },
+    {
+      "id": "ab64e7fc7ce054ff81d25928b1b28129d63135b68eed66e7b736b59c2f82fd17",
+      "source": "espresso-capable grinder",
+      "kind": "text",
+      "context": "espresso-capable grinder"
+    },
+    {
+      "id": "2383511f3ea7159a60f3305fc3b9fc220e51b3671a57a0a6c3925b60cc66764e",
+      "source": "for whole beans, a scale, water suited to the machine, and a pitcher if you make milk drinks.",
+      "kind": "text",
+      "context": "Budget for the full setup. Both use a 58 mm portafilter. Add an espresso-capable grinder for whole beans, a scale, water suited to the machine, and a pitcher if you make milk drinks."
+    },
+    {
+      "id": "91c8b1bb367b2085c435938901fcb544478cf12ab241e14afd4aca26d0f2a802",
+      "source": "Confirm the exact unit.",
+      "kind": "text",
+      "context": "Confirm the exact unit."
+    },
+    {
+      "id": "9458ab4955b57687030af49ddd0f9f1b41a11580e18afcc32345a1585c09d810",
+      "source": "Get the voltage, plug, revision, accessories and service terms from the seller. Ascaso Canada lists separate 15 A and 20 A Duo versions.",
+      "kind": "text",
+      "context": "Confirm the exact unit. Get the voltage, plug, revision, accessories and service terms from the seller. Ascaso Canada lists separate 15 A and 20 A Duo versions."
+    },
+    {
+      "id": "03351166b2192f69ba9f8112b46d8f1437de634c6600b8d8fd8f3f8d41675656",
+      "source": "If you can’t find the Uno, compare the",
+      "kind": "text",
+      "context": "If you can’t find the Uno, compare the Profitec GO for an espresso-first setup. For more options, use the espresso machine finder."
+    },
+    {
+      "id": "1fbcccc00583b41d33f27f2cd70686bfb0e7645d0e1029e26b39a13e588a9471",
+      "source": "for an espresso-first setup. For more options, use the",
+      "kind": "text",
+      "context": "If you can’t find the Uno, compare the Profitec GO for an espresso-first setup. For more options, use the espresso machine finder."
+    },
+    {
+      "id": "b8a574d8c11adb13c12da43d324fc73f11c1b1d2affb6bcd077af6878c4370eb",
+      "source": "espresso machine finder",
+      "kind": "text",
+      "context": "espresso machine finder"
+    },
+    {
+      "id": "7b91180b7725adde0e89d284216ada069a7b2808d08d2205d72efbafeffc4fe9",
+      "source": "Coffeedant compared the documented features and third-party demonstrations. See",
+      "kind": "text",
+      "context": "Coffeedant compared the documented features and third-party demonstrations. See Ascaso’s Steel specifications and photos, the U.S. Duo specifications, the Canadian Duo specifications, and our review methodology."
+    },
+    {
+      "id": "80ce91161f4e1eefc45b8501043e7d11a30376a25b57d6a3f8548a5d3a4d9443",
+      "source": "Ascaso’s Steel specifications and photos",
+      "kind": "text",
+      "context": "Ascaso’s Steel specifications and photos"
+    },
+    {
+      "id": "ecd9f47eacb1b93a319b66c578e38d45023fb4032eae5d513303d0cb546fa336",
+      "source": ", the",
+      "kind": "text",
+      "context": "Coffeedant compared the documented features and third-party demonstrations. See Ascaso’s Steel specifications and photos, the U.S. Duo specifications, the Canadian Duo specifications, and our review methodology."
+    },
+    {
+      "id": "eb872b50e0c8e0755ea4128819e6b2b60044c6519d6842697b0e99b76a27d9c0",
+      "source": "U.S. Duo specifications",
+      "kind": "text",
+      "context": "U.S. Duo specifications"
+    },
+    {
+      "id": "f1b68d99e4e30e313b859bf7be02bf9d0af035dcfd7747da629560e0dbf91ce7",
+      "source": "Canadian Duo specifications",
+      "kind": "text",
+      "context": "Canadian Duo specifications"
+    },
+    {
+      "id": "67d0db4b2830828c5f1477a0204b52b2cfa625824837dc2e3a4bd6cd91604a8d",
+      "source": ", and",
+      "kind": "text",
+      "context": "Coffeedant compared the documented features and third-party demonstrations. See Ascaso’s Steel specifications and photos, the U.S. Duo specifications, the Canadian Duo specifications, and our review methodology."
+    },
+    {
+      "id": "dcbf513b0a3daef3fd41182ed223d28f8082b3f8904e3e64e052771858fe09f7",
+      "source": "Comparison diagram showing the shared heater on the Steel Uno and the two independent heaters on the Steel Duo",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "b9339ea6ea37df31a66ec9301f309ae4ed50f4bd543ee65dec900fdbd803ea99",
+      "source": "Coffeedant diagram based on Ascaso specifications.",
+      "kind": "json",
+      "context": "caption"
+    },
+    {
+      "id": "58ed9ff8987a3a23775d81ac78b87b09f814e8faa0a507951c2ebc1852dfd7e0",
+      "source": "Ascaso Steel Uno vs. Duo PID | Coffeedant",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "c7faf6203b4339eff9af1b2a48b689adbdc6bd56938556bba1e881d0fdec81bc",
+      "source": "Compare the Ascaso Steel Uno and Steel Duo PID by milk workflow, U.S. circuit requirements, counter space and what to confirm before buying.",
+      "kind": "json",
+      "context": "description"
+    },
+    {
+      "id": "cf52417b55fc6a8d113c42f0b7a2288e5ba4587b36c237712d8cdbec0ea8f538",
+      "source": "Ascaso Steel Uno vs. Steel Duo PID",
+      "kind": "json",
+      "context": "name"
+    },
+    {
+      "id": "47414992c00663e3987f6083eface800ab25b0f22c6f19f927de1b8b42e48530",
+      "source": "58 mm portafilter and separate grinder for whole beans",
+      "kind": "text",
+      "context": "58 mm portafilter and separate grinder for whole beans"
+    },
+    {
+      "id": "1c90c500373d686cb87480da44959c573f8df31b7bb970cada427f8810ab118f",
+      "source": "Ascaso Steel specifications and gallery",
+      "kind": "text",
+      "context": "Ascaso Steel specifications and gallery ↗"
+    },
+    {
+      "id": "80f8c392320b8c77f67927ebd09784671249db4e0fa1f48ac2dcb487cc3388cd",
+      "source": "Side-by-side model specs and the manufacturer’s product photos.",
+      "kind": "text",
+      "context": "Side-by-side model specs and the manufacturer’s product photos."
+    },
+    {
+      "id": "bc19ef63dcbba9f437a3597a1c1731ed906edf6c54281bf88674d9542b942c47",
+      "source": "Ascaso USA technical dossier",
+      "kind": "text",
+      "context": "Ascaso USA technical dossier ↗"
+    },
+    {
+      "id": "e036f06550892a22e00daf25a829294ac12a33c5c677106c9d55704aebdfe0e0",
+      "source": "Manuals and technical documents organized by model.",
+      "kind": "text",
+      "context": "Manuals and technical documents organized by model."
+    },
+    {
+      "id": "c7131c235eecc0041d39852a2836278e403005d3ccb8159af1f1784a088e8ec3",
+      "source": "Choose the Steel Uno PID if you mostly drink espresso and want control over temperature and shot volume. One heater means you pull the shot before steaming milk. Confirm new U.S. stock before you plan to buy.",
+      "kind": "text",
+      "context": "Choose the Steel Uno PID if you mostly drink espresso and want control over temperature and shot volume. One heater means you pull the shot before steaming milk. Confirm new U.S. stock before you plan to buy."
+    },
+    {
+      "id": "750e969746a88faabddffb01724d36b184dc21e418a8777d6e691fd966ae7c1c",
+      "source": "Pull the espresso first and then switch the thermoblock to steam. To make two lattes, pull both shots first, then texture milk. The first shot waits while you finish. If you want another espresso afterward, follow the",
+      "kind": "text",
+      "context": "Pull the espresso first and then switch the thermoblock to steam. To make two lattes, pull both shots first, then texture milk. The first shot waits while you finish. If you want another espresso afterward, follow the manual for your Uno to return the machine to brewing mode."
+    },
+    {
+      "id": "b9bf28400875011e2f96abaaf133463fc06af83de5a0d3cad29a2b259ec2e27a",
+      "source": "manual for your Uno",
+      "kind": "text",
+      "context": "manual for your Uno"
+    },
+    {
+      "id": "7fd53f82f840bc74ba092cd673601d8a1996bd048ccf7a84832dfc5d030f58da",
+      "source": "to return the machine to brewing mode.",
+      "kind": "text",
+      "context": "Pull the espresso first and then switch the thermoblock to steam. To make two lattes, pull both shots first, then texture milk. The first shot waits while you finish. If you want another espresso afterward, follow the manual for your Uno to return the machine to brewing mode."
+    },
+    {
+      "id": "3646ccfb59e1a82897c40fa2c5408cc869984d16454dbe69332d5c6b8bee61d8",
+      "source": "If two lattes are your usual order, compare the",
+      "kind": "text",
+      "context": "If two lattes are your usual order, compare the Steel Duo PID. Its separate steam heater lets you pull shots and steam together."
+    },
+    {
+      "id": "36c954662db4110d4a1b4577cc9e4cea0c97679b72158da9196ddc913f477079",
+      "source": ". Its separate steam heater lets you pull shots and steam together.",
+      "kind": "text",
+      "context": "If two lattes are your usual order, compare the Steel Duo PID. Its separate steam heater lets you pull shots and steam together."
+    },
+    {
+      "id": "dde6998f9ece21e828efdadd88feafc275c4c2488d5598081a236181bb389ad6",
+      "source": "Espresso Parts refurbished Steel Uno PID",
+      "kind": "text",
+      "context": "Espresso Parts refurbished Steel Uno PID ↗"
+    },
+    {
+      "id": "68bc420118aa7ff4fe35bb565f974723037dd87c3cd1df7a0460b24b8ea1a9f4",
+      "source": "120 V reference model, electrical specifications and refurbished condition.",
+      "kind": "text",
+      "context": "120 V reference model, electrical specifications and refurbished condition."
+    },
+    {
+      "id": "09f705d74cbd8c4a56ac8eef420342f2d7d804d3adcb9de7a66af272d8a6cd31",
+      "source": "Ascaso USA Steel Uno and Duo Plus comparison",
+      "kind": "text",
+      "context": "Ascaso USA Steel Uno and Duo Plus comparison ↗"
+    },
+    {
+      "id": "842313cc7d41cbe1a90bb9b685d1d41d401bca4ea127beab6affbd6f42588816",
+      "source": "Identifies the standard U.S. outlet requirement for the Uno.",
+      "kind": "text",
+      "context": "Identifies the standard U.S. outlet requirement for the Uno."
+    },
+    {
+      "id": "e9480a9d9fce4773eceb28e2f321096b12aaec578a053ebd92fbd6d9717f2f41",
+      "source": "Check U.S. availability",
+      "kind": "text",
+      "context": "Check U.S. availabilitySingle-thermoblock semi-automatic espresso machine"
+    },
+    {
+      "id": "99ce0b94015224d78d48e91769e2b768e691d3addbe66154cab894bed7843787",
+      "source": "Best fit: Mostly espresso, with the occasional milk drink",
+      "kind": "text",
+      "context": "Best fit: Mostly espresso, with the occasional milk drink"
+    },
+    {
+      "id": "828c69555765cb15559bd4466657d297dcd71322483c5e08dca44c70311dbe10",
+      "source": "New U.S. stock not verified",
+      "kind": "text",
+      "context": "New U.S. stock not verified"
+    },
+    {
+      "id": "ed5962a9f43d431af41a1f3fac7586c313c6130ff0b208a88c05eea02a76ae2e",
+      "source": "Adjustable espresso controls and a shared heater for occasional milk.",
+      "kind": "text",
+      "context": "Evidence boundary: Adjustable espresso controls and a shared heater for occasional milk."
+    },
+    {
+      "id": "0cafb4ae4e96a8a2c5e3e47da7ceb01ac1a27fcbf42a8fa843c1907f3cc241d6",
+      "source": "Ascaso ·",
+      "kind": "text",
+      "context": "Ascaso ·"
+    }
+  ],
+  "snapshotHash": "8f67e725ad32ce2bd7428ac9882aac767dfa1f5db1a617ac3f474dc87a2b588b"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    "nl",
+    "de",
+    "fr"
+  ],
+  "scope": "segments",
+  "snapshot": "rancilio-finder-batch-162.source.json",
+  "snapshotHash": "8517ae92cd10a9cc3e216cfef1ac0ab6e206752d4d582b72074b2f1f7d67c042",
+  "translations": {
+    "0": {
+      "nl": "Kies de Pro X als je regelmatig twee of meer lattes achter elkaar maakt en espresso wilt zetten en melk wilt stomen zonder van boilerstand te wisselen. Je maalt de koffie nog steeds apart, stopt elke extractie zelf en schuimt de melk zelf op.",
+      "de": "Wählen Sie die Pro X, wenn Sie regelmäßig zwei oder mehr Lattes in einer Runde zubereiten und Espresso beziehen und Milch aufschäumen möchten, ohne den Boilermodus zu wechseln. Sie mahlen den Kaffee weiterhin separat, stoppen jeden Bezug selbst und schäumen die Milch von Hand auf.",
+      "fr": "Choisissez la Pro X si vous préparez régulièrement deux lattes ou plus à la suite et souhaitez extraire l’espresso et faire mousser le lait sans changer le mode de la chaudière. Vous devez toujours moudre le café séparément, arrêter chaque extraction et faire mousser le lait vous-même."
+    },
+    "1": {
+      "nl": "Schema van de Silvia Pro X met aparte boilers voor espresso en stoom",
+      "de": "Schema der Silvia Pro X mit getrennten Boilern für Espresso und Dampf",
+      "fr": "Schéma de la Silvia Pro X avec une chaudière pour l’espresso et une autre pour la vapeur"
+    },
+    "2": {
+      "nl": "Schema van de Silvia V6 met één boiler voor zowel espresso als stoom",
+      "de": "Schema der Silvia V6 mit einem gemeinsamen Boiler für Espresso und Dampf",
+      "fr": "Schéma de la Silvia V6 avec une seule chaudière pour l’espresso et la vapeur"
+    }
+  }
+}

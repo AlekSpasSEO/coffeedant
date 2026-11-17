@@ -5598,6 +5598,33 @@ Coverage is NL 18,680 translated and 42,327 pending, DE 18,858 translated and
 42,149 pending, and FR 18,540 translated and 42,467 pending. Finder translation
 coverage is complete. NL has 394 pages left and DE and FR have 395 each.
 
+### Direct batch 161 - Lelit Grace PL81T video companions (2026-11-14)
+
+Complete both Tom's Coffee Corner video pages in Dutch, German and French.
+Preserve the creator attribution, affiliate disclosures, original videos and
+dates. The €600 question is part of the creator's 2023 video title. The
+written review opens in English with a localized edition notice.
+
+The source has 699 pages and 61,007 segments. NL can render 306 indexable
+pages and DE and FR can render 305 each, plus a localized 404 for each edition.
+Coverage is NL 18,706 translated and 42,301 pending, DE 18,884 translated and
+42,123 pending, and FR 18,566 translated and 42,441 pending. Finder translation
+coverage is complete. NL has 392 pages left and DE and FR have 393 each.
+
+### Direct batch 162 - Lelit Grace videos and comparison updates (2026-11-17)
+
+Complete the Golden Bean Coffee video and revalidate the two Tom's Coffee
+Corner videos in Dutch, German and French. Translate the updated Rancilio
+and Ascaso comparisons, the related single-boiler and compact machine guides,
+and the changed Finder descriptions and image labels. The source guide omits
+empty purchase and suitability fields when the review supplies no value.
+
+The source has 699 pages and 60,075 segments. NL and DE can render 307
+indexable pages each, and FR can render 306. Each edition has a localized 404.
+Coverage is NL 18,829 translated and 41,246 pending, DE 19,075 translated and
+41,000 pending, and FR 18,666 translated and 41,409 pending. Finder translation
+coverage is complete. NL and DE have 391 pages left each, and FR has 392.
+
 ## Missing configuration
 
 The GitHub Actions secret inventory currently contains only:
