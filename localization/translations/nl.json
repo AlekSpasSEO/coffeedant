@@ -138305,16 +138305,96 @@
     "page:55bef11d3c3bc31468ef": {
       "sourcePath": "/espresso-machine/rancilio-silvia-pro-x/video/seattle-coffee-gear/",
       "path": "/espressomachine/rancilio-silvia-pro-x/video/seattle-coffee-gear/"
+    },
+    "page:8bd9e0431478fa3138f7": {
+      "sourcePath": "/espresso-machine/rocket-mozzafiato-cronometro-r/",
+      "path": "/espresso-machine/rocket-mozzafiato-cronometro-r/"
+    },
+    "page:500c3b6a0ed18c2600c7": {
+      "sourcePath": "/espresso-machine/rocket-mozzafiato-cronometro-r/video/idrinkcoffeecanada/",
+      "path": "/espresso-machine/rocket-mozzafiato-cronometro-r/video/idrinkcoffeecanada/"
+    },
+    "page:fc4fa9baade0670461c1": {
+      "sourcePath": "/espresso-machine/rocket-mozzafiato-cronometro-r/video/seattle-coffee-gear/",
+      "path": "/espresso-machine/rocket-mozzafiato-cronometro-r/video/seattle-coffee-gear/"
+    },
+    "page:7eb4cde52b41ffb52a11": {
+      "sourcePath": "/espresso-machine/rocket-mozzafiato-cronometro-r/video/whole-latte-love/",
+      "path": "/espresso-machine/rocket-mozzafiato-cronometro-r/video/whole-latte-love/"
+    },
+    "page:11de26edad2059497b61": {
+      "sourcePath": "/espresso-machine/rocket-r-nine-one/",
+      "path": "/espresso-machine/rocket-r-nine-one/"
+    },
+    "page:1e58225a1ef0007a0f20": {
+      "sourcePath": "/espresso-machine/rocket-r-nine-one/video/coffee-parts/",
+      "path": "/espresso-machine/rocket-r-nine-one/video/coffee-parts/"
+    },
+    "page:c73eb1eab1a2ede02a0b": {
+      "sourcePath": "/espresso-machine/rocket-r-nine-one/video/seattle-coffee-gear/",
+      "path": "/espresso-machine/rocket-r-nine-one/video/seattle-coffee-gear/"
+    },
+    "page:c489f509f67e10995dbc": {
+      "sourcePath": "/espresso-machine/rocket-r-nine-one/video/whole-latte-love/",
+      "path": "/espresso-machine/rocket-r-nine-one/video/whole-latte-love/"
+    },
+    "page:3e6e65c5524be26cd2f8": {
+      "sourcePath": "/espresso-machine/rok-espresso-gc/",
+      "path": "/espresso-machine/rok-espresso-gc/"
+    },
+    "page:e2bbbc2d03c2317763e5": {
+      "sourcePath": "/grinder/1zpresso-k-ultra/video/daddy-got-coffee/",
+      "path": "/grinder/1zpresso-k-ultra/video/daddy-got-coffee/"
+    },
+    "page:dfd6a197a776cfb51bca": {
+      "sourcePath": "/grinder/baratza-encore-esp-pro/",
+      "path": "/grinder/baratza-encore-esp-pro/"
+    },
+    "page:5c7c54b0912bf31defa5": {
+      "sourcePath": "/grinder/baratza-encore-esp/",
+      "path": "/grinder/baratza-encore-esp/"
+    },
+    "page:be7ee1d0fdc10b124d9d": {
+      "sourcePath": "/grinder/baratza-encore-esp/video/coffee-parts/",
+      "path": "/grinder/baratza-encore-esp/video/coffee-parts/"
+    },
+    "page:05c9aa6cba0d4538fe68": {
+      "sourcePath": "/grinder/baratza-encore-esp/video/toms-coffee-corner/",
+      "path": "/grinder/baratza-encore-esp/video/toms-coffee-corner/"
+    },
+    "page:e6391ea2e8714e916938": {
+      "sourcePath": "/grinder/baratza-vario-w-plus/",
+      "path": "/grinder/baratza-vario-w-plus/"
+    },
+    "page:0420378a624519addd80": {
+      "sourcePath": "/grinder/baratza-vario-w-plus/video/lifestyle-lab/",
+      "path": "/grinder/baratza-vario-w-plus/video/lifestyle-lab/"
+    },
+    "page:0f805ce699351e980a24": {
+      "sourcePath": "/grinder/eureka-mignon-specialita/",
+      "path": "/grinder/eureka-mignon-specialita/"
+    },
+    "page:3280f5119dc81b7747b3": {
+      "sourcePath": "/grinder/eureka-mignon-specialita/video/toms-coffee-corner/",
+      "path": "/grinder/eureka-mignon-specialita/video/toms-coffee-corner/"
+    },
+    "page:17ab00436736aee8e1b0": {
+      "sourcePath": "/grinder/eureka-mignon-zero-65-all-purpose/",
+      "path": "/grinder/eureka-mignon-zero-65-all-purpose/"
+    },
+    "page:ef72dd6576c17414662c": {
+      "sourcePath": "/grinder/eureka-mignon-zero-65-all-purpose/video/dieroster/",
+      "path": "/grinder/eureka-mignon-zero-65-all-purpose/video/dieroster/"
     }
   },
   "lastModel": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "lastUsage": {
-    "prompt_tokens": 3901,
-    "completion_tokens": 1891,
-    "total_tokens": 5792,
+    "prompt_tokens": 1773,
+    "completion_tokens": 775,
+    "total_tokens": 2548,
     "prompt_tokens_details": {
       "cached_tokens": 0
     },
-    "neurons": 491.31744384765625
+    "neurons": 206.00592041015625
   }
 }
