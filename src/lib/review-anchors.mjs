@@ -48,17 +48,17 @@ const categoryTargets = {
 
 const htmlIds = (html) => [...html.matchAll(/\sid\s*=\s*["']([^"']+)["']/gi)].map(match => match[1]);
 
-export const getReviewAnchorAliases = (review, historicalAnchors = {}) => {
+export const getReviewAnchorAliases = (review, historicalAnchors = {}, showEvaluation = true) => {
   const sections = review.article.sections;
   const available = new Set(['summary', 'specifications', 'ratings', 'methodology', 'sources', 'verdict', ...sections.map(section => section.id)]);
   const occupied = new Set([
-    'main-content', 'review-title', 'quick-answer-title', 'ratings', 'ratings-title',
+    'main-content', 'review-title', 'ratings',
     'video', 'video-title', 'methodology', 'methodology-title', 'testing',
     'sources', 'sources-title', 'resources', 'verdict', 'final-verdict-title',
     ...sections.flatMap(section => [section.id, `${section.id}-title`, ...htmlIds(section.html)]),
     ...review.article.sources.map(source => source.id),
     ...htmlIds(review.article.methodology),
-    ...review.evaluation.dimensions.map(dimension => `${dimension.id}-performance`),
+    ...(showEvaluation ? ['quick-answer-title', 'ratings-title', ...review.evaluation.dimensions.map(dimension => `${dimension.id}-performance`)] : []),
   ]);
   const result = {};
   for (const [alias, category] of Object.entries({ ...commonReviewAnchors, ...historicalAnchors })) {

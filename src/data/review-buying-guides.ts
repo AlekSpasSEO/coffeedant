@@ -24,10 +24,35 @@ export type ReviewBuyingGuide = {
   videoIntro: string;
   actionLabel?: string;
   setupLabel?: string;
+  heroPhoto?: { width: number; height: number; caption: string };
+  navigation?: { id: string; label: string }[];
+  brandLinkLabel?: string;
+  anchorTargets?: Record<string, string>;
   photo?: EditorialPhoto;
 };
 
 export const reviewBuyingGuides: Partial<Record<string, ReviewBuyingGuide>> = {
+  '/espresso-machine/lelit-elizabeth/': {
+    otherPath: proXPath, otherName: 'Rancilio Silvia Pro X',
+    officialPhotos: 'https://www.lelit.com/en-us/product/elizabeth-pesel01',
+    videoIntro: 'Lance Hedrick demonstrates the push-button PL92T, including its preinfusion controls and steam wand.',
+    actionLabel: 'Check PL92T availability',
+    brandLinkLabel: 'More Lelit reviews',
+    heroPhoto: { width: 400, height: 406, caption: 'An Elizabeth PL92T with a scale under the group and a separate grinder alongside.' },
+    navigation: [
+      { id: 'orientation', label: 'Which Elizabeth?' }, { id: 'workflow', label: 'Warm-up' },
+      { id: 'espresso', label: 'Espresso' }, { id: 'milk', label: 'Milk' }, { id: 'setup', label: 'Counter fit' },
+      { id: 'build', label: 'Care & used machines' }, { id: 'comparisons', label: 'Alternatives' }, { id: 'faq', label: 'FAQ' },
+    ],
+    anchorTargets: {
+      features: 'overview', versions: 'overview', 'acc-version': 'overview', ratings: 'methodology',
+      value: 'verdict', recommendations: 'comparisons', ownership: 'ownership',
+      'quick-answer-title': 'faq', 'ratings-title': 'methodology', 'features-title': 'overview',
+      'recommendations-title': 'comparisons', 'value-title': 'verdict', 'value-reddit-title': 'ownership',
+      'espresso-performance': 'espresso', 'milk-performance': 'milk', 'workflow-performance': 'workflow',
+      'build-performance': 'ownership', 'features-performance': 'overview', 'value-performance': 'verdict',
+    },
+  },
   [silviaPath]: {
     otherPath: proXPath, otherName: rancilioModels[proXPath].name, officialPhotos: rancilioModels[silviaPath].official,
     videoIntro: 'Whole Latte Love demonstrates the switch and steam routine on an earlier Silvia M. The video library also includes a V6 walkthrough.',

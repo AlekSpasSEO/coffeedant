@@ -220,9 +220,11 @@ for (const item of manifest) {
     if (count(evidenceBlock, /<li>/g) < 1) fail(item.slug, 'on-page Reddit evidence block has no readable owner records');
   }
   if (comparisonDetails !== (compact ? 0 : 1)) fail(item.slug, `unexpected number of detailed comparison controls: ${comparisonDetails}`);
-  if (faqModules !== (compact ? 0 : 1)) fail(item.slug, `unexpected number of FAQ modules: ${faqModules}`);
+  const expectsFaq = !compact || /<section\b[^>]*\bid="faq"/i.test(main);
+  if (faqModules !== Number(expectsFaq)) fail(item.slug, `unexpected number of FAQ modules: ${faqModules}`);
   const faqBlock = main.match(/<div class="review-faq-list">[\s\S]*?<\/div>/i)?.[0] ?? '';
   if (/<details\b|<summary\b/i.test(faqBlock)) fail(item.slug, 'FAQ still uses dropdown controls');
+  if (expectsFaq && !faqBlock.includes('class="review-faq-item"')) fail(item.slug, 'authored FAQ has no visible question-and-answer items');
   if (!compact) {
     if (count(faqBlock, /class="review-faq-item"/g) < 6) fail(item.slug, 'FAQ does not expose at least six visible question-and-answer items');
     if (recommendations !== 4) fail(item.slug, `expected 4 recommendation cards, found ${recommendations}`);

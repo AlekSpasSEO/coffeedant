@@ -1,5 +1,31 @@
 # Lelit Elizabeth PL92T research dossier
 
+## November 25, 2026 editorial brief
+
+The existing review at `/espresso-machine/lelit-elizabeth/` covers the push-button PL92T, including the US PL92T-120. Keep “Lelit Elizabeth review” and PL92T in the classic page’s search copy. Some sellers and reviewers call this hardware V2 or V3. The model plate and the controls settle which machine a reader has. Lelit identifies the separate Elizabeth3 as PL92T3 and shows its Pagaia paddle. [Classic PL92T](https://www.lelit.com/product/elizabeth-pl92t/) · [Elizabeth3 PL92T3](https://www.lelit.com/product/elizabeth3-pl92t3/) · [2024 review using V3 for the classic](https://www.youtube.com/watch?v=wgln3hEP4Uw)
+
+For the future Pagaia review, use `/espresso-machine/lelit-elizabeth-3-pagaia/` as its canonical path and “Lelit Elizabeth 3 Pagaia Review (PL92T3)” as the working title and H1. Its description should answer what the paddle controls and who benefits from its programmable profiles. This entry records the plan for a later publication.
+
+### US search demand
+
+Google Ads Keyword Planner, Discover new keywords, checked November 25. The research targeted the United States, English, Google, for November 2025 through October 2026. The account returned average monthly search ranges. The rows below group terms for readability. Each range applies to each individual query and close variants may overlap. [Google Ads Keyword Planner](https://ads.google.com/aw/keywordplanner/home)
+
+| Search wording | Average monthly searches |
+| --- | --- |
+| `lelit elizabeth` | 1K–10K |
+| `lelit elizabeth review`, `lelit elizabeth espresso machine`, `lelit elizabeth v3` | 100–1K each |
+| `lelit elizabeth v2`, `lelit pl92t`, `lelit elizabeth v2 vs v3`, `lelit pl92t elizabeth v3` | 10–100 each |
+| `lelit elizabeth pagaia`, `lelit elizabeth v3 pagaia`, `lelit elizabeth 3 pagaia` | 10–100 each |
+| `lelit elizabeth` plus `warm up time`, `dimensions`, `preinfusion`, `manual`, `problems`, `cleaning`, `backflush`, `descaling` or `water filter` | 10–100 each |
+| `lelit elizabeth vs` plus `mara x`, `rancilio silvia pro x`, `breville dual boiler`, `profitec pro 300` or `profitec move` | 10–100 each |
+| `lelit elizabeth steam pressure` | 0–10 |
+
+Planner showed a three-month change of 0% for the model name, −90% for “lelit elizabeth review” and +900% for “lelit elizabeth v3.” Both explicit Pagaia spellings with a 3 also showed +900%. The V3 wording spans two machines. Use the figures to prioritize reader questions. Diagnosing Coffeedant’s own ranking or click changes requires page-level Search Console data.
+
+### First-shot warm-up evidence
+
+Kaffeemacher now recommends **25–30 minutes** for the classic. In its 2026 retest of a PL92T already used for over three years, it set the machine to 94 °C and measured a first shot of 84.8 °C after 20 minutes and 90.7 °C after 25. In the 25-minute run, subsequent shots a minute apart measured 92.5–94.0 °C. This updates the older 20-minute advice preserved below. Credit the lab for the measurements and identify them as one machine’s results. [Kaffeemacher’s 2026 PL92T retest, heat-up section](https://kaffeemacher.de/en/blogs/coffee-knowledge/lelit-elizabeth)
+
 ## October 30, 2026 evidence revision
 
 The review remains a research-led assessment of PL92T-120 at `/espresso-machine/lelit-elizabeth/`, product ID `CD-EM-000001`. Coffeedant has not physically tested, timed, tasted or measured either Elizabeth generation. The editorial scores remain unchanged. Earlier check dates below are historical; this revision does not imply that every old claim was rechecked on October 30. See the [October 30 change and evidence ledger](lelit-elizabeth-2026-10-30.md).

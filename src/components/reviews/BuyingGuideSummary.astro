@@ -24,8 +24,8 @@ const updated = new Intl.DateTimeFormat('en-US', { day: 'numeric', month: 'short
     </div>
   </div>
   <figure class="buying-guide-figure">
-    <img class="review-product-image" src={`${base}/${review.image}`} width="1200" height="630" alt={review.imageAlt} decoding="async" fetchpriority="high" />
-    <figcaption>Coffeedant diagram based on {review.brand} specifications. <a href={guide.officialPhotos}>See official product photos</a>.</figcaption>
+    <img class="review-product-image" src={`${base}/${review.image}`} width={guide.heroPhoto?.width ?? 1200} height={guide.heroPhoto?.height ?? 630} style={guide.heroPhoto ? `aspect-ratio: ${guide.heroPhoto.width} / ${guide.heroPhoto.height}; max-width: ${guide.heroPhoto.width}px; margin-inline: auto` : undefined} alt={review.imageAlt} decoding="async" fetchpriority="high" />
+    <figcaption>{guide.heroPhoto?.caption ?? `Coffeedant diagram based on ${review.brand} specifications.`} <a href={guide.officialPhotos}>See official product photos</a>.</figcaption>
   </figure>
 </header>
 <dl id="specifications" class="review-fact-strip buying-guide-facts" aria-label="Key specifications">

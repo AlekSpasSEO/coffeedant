@@ -26,7 +26,7 @@ const guide = reviewBuyingGuides[review.slug];
 const compact = Boolean(guide);
 const editorialPhoto = guide?.photo;
 const legacy = (legacyReviewAnchors as Record<string, Record<string, string>>)[review.slug] ?? {};
-const compactTargets: Record<string, string> = {
+const compactTargets: Record<string, string> = guide?.anchorTargets ?? {
   orientation: 'overview', overview: 'overview', workflow: 'milk', build: 'ownership',
   features: 'espresso', value: 'verdict', faq: 'setup', ratings: 'methodology',
   recommendations: 'comparisons', 'related-guides': 'comparisons', 'decision-map': 'comparisons',
@@ -35,7 +35,7 @@ const compactTargets: Record<string, string> = {
 };
 const anchorAliases = getReviewAnchorAliases(review, compact ? Object.fromEntries(
   Object.entries({ ...compactTargets, ...legacy }).map(([alias, category]) => [alias, compactTargets[category] ?? category]),
-) : legacy);
+) : legacy, !compact);
 const performanceIndex = sections.findIndex((section) => section.id === 'espresso');
 const grinderBannerIndex = performanceIndex >= 0 ? performanceIndex : Math.min(2, sections.length - 1);
 const workflowIndex = sections.findIndex((section, index) => section.id === 'workflow' && index > grinderBannerIndex);
@@ -98,7 +98,7 @@ const jumpLinks = [
   ...(selectedVideo ? [{ id: 'video', label: 'Video' }] : []), { id: 'methodology', label: 'Methodology' },
   { id: 'sources', label: 'Sources' }, { id: 'verdict', label: compact ? 'Where to buy' : 'Verdict' },
 ];
-const displayedJumpLinks = compact ? jumpLinks.filter(({ id }) => ['espresso', 'milk', 'setup', 'comparisons', 'verdict'].includes(id)) : jumpLinks;
+const displayedJumpLinks = guide?.navigation ?? (compact ? jumpLinks.filter(({ id }) => ['espresso', 'milk', 'setup', 'comparisons', 'verdict'].includes(id)) : jumpLinks);
 const author = {
   '@type': 'Person', name: review.author.name, jobTitle: review.author.role,
   image: assetUrl(review.author.image), url: 'https://coffeedant.com/about/',
@@ -329,7 +329,7 @@ const schema = {
     <footer class="review-meta-footer">
       <span>Published <time datetime={review.published}>{formatDate(review.published)}</time></span>
       <span>Updated <time datetime={review.updated}>{formatDate(review.updated)}</time></span>
-      <a href={`${base}${review.brandPath.replace(/^\//, '')}`}>{compact ? `Compare both ${review.brand} models` : review.brandLinkLabel ?? `More ${review.brand} reviews`}</a>
+      <a href={`${base}${review.brandPath.replace(/^\//, '')}`}>{guide?.brandLinkLabel ?? (compact ? `Compare both ${review.brand} models` : review.brandLinkLabel ?? `More ${review.brand} reviews`)}</a>
     </footer>
   </div>
 </main>

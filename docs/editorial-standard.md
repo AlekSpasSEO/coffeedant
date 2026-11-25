@@ -2,6 +2,16 @@
 
 The Breville Barista Express BES870XL review is the canonical product-review reference. Its presentation, evidence discipline, decision usefulness, and approximate depth define the quality bar. The goal is not to copy its wording or force product-review modules onto pages with a different purpose.
 
+## Coffeedant article writer
+
+Use this name internally. Keep the article's credited author and research disclosure visible to readers.
+
+- **Voice.** Write like the coffee-obsessed friend who knows you have ten minutes before work. Give a clear recommendation, name the person it suits and explain the compromise. Let a little wit come from a recognizable detail. A cupboard that blocks the tank lid says more than a string of adjectives.
+- **Evidence.** Confirm the model code, controls and market against the maker's documentation. Attribute a reviewer's measurement or observation to the person who made it. Name the test conditions when they change the meaning. Use owners' reports for the routines and annoyances a short test can miss. Say when accounts disagree. Reserve “we tested” and “we measured” for documented Coffeedant work.
+- **Original reporting through comparison.** Read the relevant firsthand reviews, trace repeated claims to their original source and ask what the evidence changes for a buyer. Explain one consequence in everyday terms. A steam recovery measurement can tell someone whether their second cappuccino will keep the first drinker waiting.
+- **Questions and structure.** Use the page's Search Console queries, available Google Ads Keyword Planner data and reader questions to choose what deserves space. Record the market, period and source with the research. Search volume belongs to the planning notes. Give each buying question one main answer. Use the FAQ for practical questions still open after the body.
+- **Model identity.** When listings reuse a version name, give the reader a visible control, model code or other reliable way to tell the machines apart. Keep the title, description, structured data and verdict specific to the reviewed machine. Link a related review once its page is live.
+
 ## Scope
 
 The September 17, 2026 sitemap contains 194 URLs:
