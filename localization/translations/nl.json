@@ -139105,16 +139105,96 @@
     "page:ef72dd6576c17414662c": {
       "sourcePath": "/grinder/eureka-mignon-zero-65-all-purpose/video/dieroster/",
       "path": "/grinder/eureka-mignon-zero-65-all-purpose/video/dieroster/"
+    },
+    "page:b5ae04c0c94afe2a569f": {
+      "sourcePath": "/espresso-machine/lelit-mara-x/video/the-coffee-chronicler/",
+      "path": "/espresso-machine/lelit-mara-x/video/the-coffee-chronicler/"
+    },
+    "page:0cd06882af4303c477c9": {
+      "sourcePath": "/espresso-machine/lelit-victoria-pl91t/",
+      "path": "/espresso-machine/lelit-victoria-pl91t/"
+    },
+    "page:b8c9513d0f422bb7d5ba": {
+      "sourcePath": "/espresso-machine/lelit-victoria-pl91t/video/kaffeemacher/",
+      "path": "/espresso-machine/lelit-victoria-pl91t/video/kaffeemacher/"
+    },
+    "page:50d344bb9c9e5960487f": {
+      "sourcePath": "/espresso-machine/londinium-r24/",
+      "path": "/espresso-machine/londinium-r24/"
+    },
+    "page:10f0251788e0e456eed1": {
+      "sourcePath": "/espresso-machine/londinium-r24/video/brian-quan/",
+      "path": "/espresso-machine/londinium-r24/video/brian-quan/"
+    },
+    "page:b015cb65f72cbc3dc3cc": {
+      "sourcePath": "/espresso-machine/londinium-r24/video/eltakeiteasy/",
+      "path": "/espresso-machine/londinium-r24/video/eltakeiteasy/"
+    },
+    "page:0ea5d68d079fa5d450a9": {
+      "sourcePath": "/espresso-machine/londinium-r24/video/fransg/",
+      "path": "/espresso-machine/londinium-r24/video/fransg/"
+    },
+    "page:47e44af4f04728798939": {
+      "sourcePath": "/espresso-machine/melitta-barista-ts-smart/",
+      "path": "/espresso-machine/melitta-barista-ts-smart/"
+    },
+    "page:42611deebeea1bf28065": {
+      "sourcePath": "/espresso-machine/melitta-barista-ts-smart/video/according-to-kristoff/",
+      "path": "/espresso-machine/melitta-barista-ts-smart/video/according-to-kristoff/"
+    },
+    "page:5f72adddcba8fc96bb9b": {
+      "sourcePath": "/espresso-machine/melitta-barista-ts-smart/video/coffee-kev/",
+      "path": "/espresso-machine/melitta-barista-ts-smart/video/coffee-kev/"
+    },
+    "page:615b8afd11e2372e64ed": {
+      "sourcePath": "/espresso-machine/melitta-barista-ts-smart/video/the-girl-in-the-cafe-tv/",
+      "path": "/espresso-machine/melitta-barista-ts-smart/video/the-girl-in-the-cafe-tv/"
+    },
+    "page:3fd46623feef18f1f190": {
+      "sourcePath": "/espresso-machine/melitta-cafina-ct8/",
+      "path": "/espresso-machine/melitta-cafina-ct8/"
+    },
+    "page:1fae6af5e332eb1eb0d6": {
+      "sourcePath": "/espresso-machine/melitta-cafina-ct8/video/daren-schwengler/",
+      "path": "/espresso-machine/melitta-cafina-ct8/video/daren-schwengler/"
+    },
+    "page:52f4a3f8c3299be1fb91": {
+      "sourcePath": "/espresso-machine/melitta-cafina-ct8/video/lazenska-kava/",
+      "path": "/espresso-machine/melitta-cafina-ct8/video/lazenska-kava/"
+    },
+    "page:f1c3a8ffe09c9a91d383": {
+      "sourcePath": "/espresso-machine/melitta-cafina-ct8/video/spector-equipment/",
+      "path": "/espresso-machine/melitta-cafina-ct8/video/spector-equipment/"
+    },
+    "page:c8c1dd4e3dabd3c435e1": {
+      "sourcePath": "/espresso-machine/melitta-cafina-xt6-bes870/",
+      "path": "/espresso-machine/melitta-cafina-xt6-bes870/"
+    },
+    "page:d6870d8ca26f45ff6386": {
+      "sourcePath": "/espresso-machine/melitta-cafina-xt6-bes870/video/caffe-onesta-bv/",
+      "path": "/espresso-machine/melitta-cafina-xt6-bes870/video/caffe-onesta-bv/"
+    },
+    "page:5fccbd4a995376ba72c5": {
+      "sourcePath": "/espresso-machine/melitta-cafina-xt6-bes870/video/coffee-republic-australia/",
+      "path": "/espresso-machine/melitta-cafina-xt6-bes870/video/coffee-republic-australia/"
+    },
+    "page:5ac57a7f776c6ffd4c36": {
+      "sourcePath": "/espresso-machine/melitta-cafina-xt6-bes870/video/lazenska-kava/",
+      "path": "/espresso-machine/melitta-cafina-xt6-bes870/video/lazenska-kava/"
+    },
+    "page:a4f71a6d2c956194d254": {
+      "sourcePath": "/espresso-machine/melitta-cafina-xt7/",
+      "path": "/espresso-machine/melitta-cafina-xt7/"
     }
   },
   "lastModel": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "lastUsage": {
-    "prompt_tokens": 3757,
-    "completion_tokens": 2197,
-    "total_tokens": 5954,
+    "prompt_tokens": 1840,
+    "completion_tokens": 822,
+    "total_tokens": 2662,
     "prompt_tokens_details": {
       "cached_tokens": 0
     },
-    "neurons": 550.1477661132812
+    "neurons": 217.41848754882812
   }
 }
